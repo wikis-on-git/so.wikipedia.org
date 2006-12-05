@@ -1,3 +1,76 @@
+<div id="mainpage"></div>
+<!-- Beginning of header section -->{|style="width:100%;margin-top:+.7em;background-color:#fcfcfc;border:1px solid #ccc"
+|style="width:56%;color:#000"|
+{|style="width:280px;border:solid 0px;background:none"
+|-
+|style="width:280px;text-align:center;white-space:nowrap;color:#000" |
+<div style="font-size:162%;border:none;margin: 0;padding:.1em;color:#000">Ku soo-dhawoow [[Wikipedia]],</div>
+<div style="top:+0.2em;font-size: 95%">ensuklobeedhiyaha xorta ah [[Wikipedia:Introduction|anyone&nbsp;can&nbsp;edit]].</div>
+<div id="articlecount" style="width:100%;text-align:center;font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] articles in English</div>
+|}<!-- Portals Follow -->
+|style="width:11%;font-size:95%;color:#000"|
+*[[Portal:Arts|Arts]]
+*[[Portal:Biography|Biography]]
+*[[Portal:Geography|Geography]]
+|style="width:11%;font-size:95%"|
+*[[Portal:History|History]]
+*[[Portal:Mathematics|Mathematics]]
+*[[Portal:Science|Science]]
+|style="width:11%;font-size:95%"|
+*[[Portal:Society|Society]]
+*[[Portal:Technology|Technology]]
+*'''[[Portal:List|All&nbsp;portals]]'''
+|}<!-- End Portals -->
+{|style="width:100%;background:none;margin:-.8em 0 -.7em 0"
+|style="font-size:95%;text-align:left;white-space:nowrap;color:#000"|[[Wikipedia:About|Overview]] '''·'''  [[Wikipedia:Tutorial|Editing]] '''·''' [[Wikipedia:Questions|Questions]] '''·''' [[Help:Contents|Help]]
+|style="font-size:95%;padding:10px 0;margin:0px;text-align:right;white-space:nowrap;color:#000"|
+[[Wikipedia:Contents|Contents]] '''·''' [[Wikipedia:Categorical index|Categories]] '''·''' [[Wikipedia:Featured content|Featured content]] '''·''' [[Wikipedia:Quick index|A–Z index]]
+|}
+{{Main Page banner}}<!-- End of header section / beginning of left-column -->
+{|style="border-spacing:8px;margin:0px -8px"
+|class="MainPageBG" style="width:55%;border:1px solid #cef2e0;background-color:#f5fffa;vertical-align:top;color:#000"|
+{|width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#f5fffa"
+! <h2 style="margin:0;background-color:#cef2e0;font-size:120%;font-weight:bold;border:1px solid #a3bfb1;text-align:left;color:#000;padding:0.2em 0.4em;">Today's featured article</h2>
+|-
+|style="color:#000"|{{Wikipedia:Today's featured article/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}}
+|-
+! <h2 style="margin:0;background:#cef2e0;font-size:120%;font-weight:bold;border:1px solid #a3bfb1;text-align:left;color:#000;padding:0.2em 0.4em;">Did you know...</h2>
+|-
+|style="color:#000"|{{Did you know}}
+|-
+|}<!-- Start of right-column -->
+|class="MainPageBG" style="width:45%;border:1px solid #cedff2;background-color:#f5faff;vertical-align:top"|
+{| width="100%" cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#f5faff"
+! <h2 style="margin:0;background-color:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">In the news</h2>
+|-
+|style="color:#000"|{{In the news}}
+|-
+! <h2 style="margin:0;background:#cedff2;font-size:120%;font-weight:bold;border:1px solid #a3b0bf;text-align:left;color:#000;padding:0.2em 0.4em;">On this day...</h2>
+|- 
+|style="color:#000"|{{Wikipedia:Selected anniversaries/{{CURRENTMONTHNAME}} {{CURRENTDAY}}}}
+|-
+|}
+|}<!-- Start of Featured Picture --> 
+{|style="border-spacing:8px;margin:-8px -8px"
+|class="MainPageBG" style="width:100%;border:1px solid #ddcef2;background-color:#faf5ff;vertical-align:top;color:#000"|
+{|cellpadding="2" cellspacing="5" style="vertical-align:top;background-color:#faf5ff;color:#000"
+! <h2 style="margin:0;background-color:#ddcef2;font-size:120%;font-weight:bold;border:1px solid #afa3bf;text-align:left;color:#000;padding:0.2em 0.4em;">Today's featured picture</h2>
+|-
+|style="color:#000"|{{Wikipedia:POTD row/{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}}} <!-- standardize format with other Pic of the day features --> 
+|-
+|}
+|}<!-- Start of reference section -->
+==Other areas of Wikipedia==
+{{WikipediaOther}}<!--Template:WikipediaOther-->
+{{Mashruucyoqaraabo}}<!--Template:Mashruucyoqaraabo-->
+==Wikipedia languages==
+{{Wikipedialang}}<!--Template:Wikipedialang-->
+</div>
+</div>__NOTOC__ __NOEDITSECTION__
+<!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
+{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
+
+
 === Wikipedia af-Soomaali ===
 Boggani [[wikipedia]] waxa uu gaar u yahay qoraalada ama mowduucyada ku qoran afka somaaliga. Qof walba wuxuu awoodaa inuu ku qoro uuna aqriyo ama uu dib u habeeyo qoraalada ku qoran bogan.
 
