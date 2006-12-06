@@ -1,42 +1,111 @@
+<!-- Kusoo dhawoow -->
+<div style="text-align: center; font-size: 145%;">Ku soo-dhawoow [[Wikipedia]], Insaykalobeedhiya xorta ah [[Wikipedia:Introduction|qofwalbana&nbsp;wax&nbsp;ka bedelikaro]]. </div>
+<div style="text-align: center; font-size: 120%; line-height: 1em; margin-bottom: 1em;">Wikipediaha afka soomaaliga waxaa hada ku jira <b>[[Special:Statistics|{{NUMBEROFARTICLES}}]]</b> maqaal.
+</div>
+
 <div class="noprint" style="text-align: center;">
 <inputbox>
 type=search2
 labeltext=Ka raadi Wikipediaha:
-buttonlabel=>
+buttonlabel=Raadi
 width=25
 </inputbox>
 </div>
-
-<div id="mainpage"></div>
-<!-- Beginning of header section -->{|style="width:100%;margin-top:+.7em;background-color:#fcfcfc;border:1px solid #ccc"
-|style="width:56%;color:#000"|
-{|style="width:280px;border:solid 0px;background:none"
-|-
-|style="width:280px;text-align:center;white-space:nowrap;color:#000" |
-<div style="font-size:162%;border:none;margin: 0;padding:.1em;color:#000">Ku soo-dhawoow [[Wikipedia]],</div>
-<div style="top:+0.2em;font-size: 95%"> Insaykalobeedhiya xorta ah [[Wikipedia:Introduction|qofwalbana&nbsp;wax&nbsp;ka bedelikaro]].</div>
-<div id="articlecount" style="width:100%;text-align:center;font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] Maqaal</div>
-|}<!-- Portals Follow -->
-|style="width:11%;font-size:95%;color:#000"|
-*[[Portal:Arts|Arts]]
-*[[Portal:Biography|Biography]]
-*[[Portal:Juquraafi|Juquraafi]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Taariikh|Taariikh]]
-*[[Portal:Xisaab|Xisaab]]
-*[[Portal:Saynis|Saynis]]
-|style="width:11%;font-size:95%"|
-*[[Portal:Society|Society]]
-*[[Teknooloji|Teknooloji]]
-*'''[[Portal:List|All&nbsp;portals]]'''
-|}<!-- End Portals -->
-<!-- Start of reference section -->
-
+<br><br>
+<!-- navipalkki-->
+<div style="text-align: center; font-size: 80%; font-weight: bold;">
+[[Special:Allpages|Boggaga oo dhan oo si alfabeeto ah isugu xiga]] · [[Special:Specialpages|Boggaga qaaska ah]] · [[Wikipedia:Community Portal|Fikrad ka dhiibo Wikipediaha]] · [[Wikipedia:Neuvonta|Kysy neuvoa käyttäjiltä]] · [[Wikipedia:Qor maqaal cusub|Maqaal cusub qor]] · [[Wikipedia:Current events|Ogeysiis]] · [[Special:Newpages|Boggag cusub]] · [[Wikipedia:Help|Caawinaad]]
 </div>
-</div>__NOTOC__ __NOEDITSECTION__
-<!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
-{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
 
+<!-- navigointiapu -->
+<div class="NavFrame" style="clear: both; border-left: none; border-right: none; background-color: #ffffff; margin-bottom: 0; margin-top: 0; border: 1px solid #b4b4b5;">
+<!--otsikko -->
+
+<div class="NavHead" style="text-align: center; font-size: 90%; background-color: #def0fc;"><span style="font-weight: bold; font-size: 120%;">[[Wikipedia:Selaa luokittain|Qeybaha]] maqaalada Wikipediaha</span>
+</div>
+<div class="NavContent">
+<!-- navigointilaatikon sisältö -->
+<div style="width: 90%; margin: auto; font-size: 90%;">
+{| align="center"
+|- 
+| width="33%" valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+<!------>
+| [[Image:Nuvola_apps_kdmconfig.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Cilmiga aana sayniska ahayn</span><br />
+[[:Category:Antropologia|Antropologia]]&nbsp;· [[:Category:Arkeologia|Arkeologia]]&nbsp;· [[:Category:Cilminafsi|Cilminafsi]]&nbsp;· [[:Category:Taariikh|Taariikh]]&nbsp;· [[:Category:Luqadaha|Luqadaha]]&nbsp;· [[:Category:Kansanperinne|Kansanperinne]]&nbsp;· [[:Category:Psykologia|Psykologia]]&nbsp;· [[:Category:Sosiologia|Sosiologia]]&nbsp;· [[:Category:Taloustiede|Taloustiede]]
+<!------>
+|-
+<!------>
+| [[Image:Nuvola apps edu languages.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Siyaasad|Siyaasad]] iyo [[:Category:Bulsho|bulsho]]</span><br />
+[[:Category:Ganacsi|Ganacsi]]&nbsp;· [[:Category:Waxbarasho|Waxbarasho]]&nbsp;· [[:Category:Joornaalo|Joornaalo]]&nbsp;· [[:Category:Liikenne|Liikenne]]&nbsp;· [[:Category:Beeraha|Beeraha]]&nbsp;· [[:Category:Dagaalada|Dagaalada]]&nbsp;· [[:Category:Caafimaadka|Caafimaadka]]&nbsp;· [[:Category:Dowladaha|Dowladaha]]
+<!------>
+|-
+<!------>
+| [[Image:P religion world.svg|38px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Diin|Diin]]</span><br />
+[[:Category:Diimaha|Diimaha]]&nbsp;· [[:Category:Mytologia|Mytologiat]]
+<!------>
+|}
+| width="33%" valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+|- 
+<!------>
+| width="10%" | [[Image:Nuvola_apps_kcoloredit.png|30px|center|]]
+| width="90%" | <span style="font-size: 110%; font-weight: bold;">[[:Category:Hiddo|Hiddo]] iyo [[:Category:Dhaqan|dhaqan]]'''</span><br /> 
+[[:Category:Arkkitehtuuri|Arkkitehtuuri]]&nbsp;· [[:Category:Elokuvataide|Elokuvataide]]&nbsp;· [[:Category:Kirjallisuus|Kirjallisuus]]&nbsp;· [[:Category:Muusig|Muusig]]&nbsp;· [[:Category:Populaarikulttuuri|Populaarikulttuuri]]
+<!------->
+|- 
+<!------->
+| [[Image:Nuvola_apps_kalzium.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[Saynis]]</span><br />
+[[:Category:Bayoloji|Bayoloji]]&nbsp;· [[:Category:Fiisigis|Fiisigis]]&nbsp;· [[:Category:Geotieteet|Geotieteet]]&nbsp;· [[:Category:Kimisteri|Kimisteri]]&nbsp;· [[:Category:Juquraafi|Juquraafi]]&nbsp;· [[:Category:Xisaab|Xisaab]]&nbsp;· [[:Category:Cilmidayax|Cilmidayax]]
+|-
+<!------->
+|}
+| valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+|- 
+<!------->
+| [[Image:Nuvola apps display.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Teknooloji|Teknooloji]]</span><br />
+[[:Category:Elektaroonig|Elektaroonig]]&nbsp;· [[:Category:Internet|Internet]]&nbsp;· [[:Category:Caafimaadka|Caafimaadka]]&nbsp;· [[:Category:Kumbuyuutarada|Kumbuyuutarada]]
+<!------->
+|- 
+<!------->
+| [[Image:Nuvola_apps_atlantik.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Ciyaaraha iyo madadaalada</span><br />
+[[:Category:Pelit|Pelit]]&nbsp;· [[:Category:Teleefishinka|Teleefishinka]]&nbsp;· [[:Category:Ciyaaraha|Ciyaaraha]]
+<!------->
+|-
+<!------->
+| [[Image:Nuvola filesystems folder font.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Kuwa kale</span><br />
+[[:Kalandar]]&nbsp;· [[:Category:Shaqsiyadaad|Shaqsiyadaad]]&nbsp;· [[:Vuosisadat|Aika]]
+<!------->
+|}
+|}
+</div><!-- tekstimuotoilu loppuu-->
+</div><!-- NavContent loppuu -->
+</div><!-- NavFrame loppuu -->
+
+<!-- palstat -->
+{| width="100%" cellspacing="2" style="clear: both;"
+| colspan="2" |
+|-
+| style="vertical-align: top;" |
+
+<!-- 1. palsta -->
+<div style="margin: 0 0 0.7em 0; border: 1px solid #b4b4b5; background-color: #f6efea;"> <!-- boksi-div -->
+<div style="margin: 0; padding: 0.4em;"><span style="float: left; margin-right: 10px;">[[Image:Tietoja wikipediasta.png|35px|]]</span> 
+<!-- otsikko-div -->
+==Warbixinta Wikipediaha==
+</div> <!-- otsikko-div loppuu -->
+<div style="padding: 0.3em 1em 0.3em 1em; margin: 0;">
+[[Wikipedia]] waa mashruuc [[Wikipedia:Luettelo Wikipedian kielistä|luqado kala duwan leh]], kaasoo ujeedadiisa ay tahay in la sameeyo goobo maqaalada lagu qoro kuwaasi sii bata lana sii saxo. Maqaaladaasi oo ay u fsaxanyihiin dhamaan dadka oo dhan uusana qofna ku doodikarin in ay yihiin kuwiisa. Wikipediaha luqada Ingriiska waxaa la bilaabay 2001 midkiisa afka soomaaligana waxaa la'bilaabay 2004. Cawinaad waxaad ka helaysaa [[Wikipedia:Help|Boga caawinaada]]; Qorotaanka maqaalada waxaad ku barbarankartaa '''Bacaadka''' dhinaca Ingiriiska [[:en:Wikipedia:Sand Box|sand box]], meeshaassna waxaad wax ugu tijaabinkartaa sidii aad doontid. Sameyta '''Bacaadka''' afka soomaaliga waa lagu guda jira<br />
+</div>
+</div> <!-- boksi-div loppuu -->
 
 === Wikipedia af-Soomaali ===
 Boggani [[wikipedia]] waxa uu gaar u yahay qoraalada ama mowduucyada ku qoran afka somaaliga. Qof walba wuxuu awoodaa inuu ku qoro uuna aqriyo ama uu dib u habeeyo qoraalada ku qoran bogan.
@@ -86,6 +155,10 @@ Baalakan [[wikipediyade]] waxe qaas an ey dhamaan walii af Soomaali ka dhikanyee
 * [[Ururka Shaqaalaha]] - 
 * [[Ururka Aftahan]] [http://www.aftahan.com] ee dhaqanka, afka iyo suugaanta soomaalida.
 *[[GCompris]] M.I. Mursal
+
+__NOTOC__ __NOEDITSECTION__
+<!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
+{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
 
 {{Mashruucyoqaraabo}}
 ==Wikipedia languages==
