@@ -1,0 +1,334 @@
+{| class="infobox" style="width:23em; font-size:90%; text-align:left; padding-left:0.5em; padding-right:0.5em;"
+|-
+<!----------Name---------->
+|colspan="2" style="text-align: center; font-size:140%;"| '''{{{name|{{PAGENAME}}}}}'''
+|-
+
+<!----------Image---------->
+{{#if:{{{image|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{image}}}|{{#if:{{{imagesize|}}}|<!--then:-->{{{imagesize}}}|160px}}|{{PAGENAME}}]]<br/>
+<small>{{{caption|}}}</small>
+{{!-}}
+}}
+{{#if:{{{smallimage|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} [[Image:{{{smallimage}}}|{{PAGENAME}}]]<br/><small>{{{caption|}}}</small>
+{{!-}}
+}}
+<!----------Office---------->
+{{#if:{{{order|}}} |<!--then:--> 
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender; font-weight:bold">{{{order}}}</div>
+{{!-}}
+}}
+<!----------Term---------->
+{{#if:{{{term_start|}}} |<!--then:--> 
+{{#if:{{{term_end|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start}}}&nbsp;&ndash;&nbsp;{{{term_end}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office&nbsp;'''<br>{{{term_start}}}
+{{!-}}
+}}
+}}
+<!----------Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister}}}
+{{!-}}
+}}
+{{#if:{{{deputy|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant}}}
+{{!-}}
+}}
+<!----------President, Prime Minister---------->
+{{#if:{{{president|}}} |<!--then:-->
+! President
+{{!}} {{{president}}}
+{{!-}}
+}}
+{{#if:{{{primeminister|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister}}}
+{{!-}}
+}}
+<!----------Predecessor/Successor---------->
+{{#if:{{{predecessor|}}} |<!--then:--> 
+! Preceded&nbsp;by
+{{!}} {{{predecessor}}}
+{{!-}}
+}}
+{{#if:{{{successor|}}} |<!--then:--> 
+! Succeeded&nbsp;by
+{{!}} {{{successor}}}
+{{!-}}
+}}
+<!----------Predecessor/Successor---------->
+{{#if:{{{predecessor1|}}} |<!--then:--> 
+! Preceded&nbsp;by
+{{!}} {{{predecessor1}}}
+{{!-}}
+}}
+{{#if:{{{successor1|}}} |<!--then:--> 
+! Succeeded&nbsp;by
+{{!}} {{{successor1}}}
+{{!-}}
+}}
+<!----------Second office---------->
+{{#if:{{{order2|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order2}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start2|}}} |<!--then:--> 
+{{#if:{{{term_end2|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start2}}}&nbsp;&ndash;&nbsp;{{{term_end2}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end2|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start2}}}
+{{!-}}
+}}
+<!----------Second Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident2|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident2}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister2|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister2}}}
+{{!-}}
+}}
+{{#if:{{{deputy2|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy2}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant2|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant2}}}
+{{!-}}
+}}
+<!----------Second President, Prime Minister---------->
+{{#if:{{{president2|}}} |<!--then:-->
+! President
+{{!}} {{{president2}}}
+{{!-}}
+}}
+{{#if:{{{primeminister2|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister2}}}
+{{!-}}
+}}
+<!----------Second predecessor/successor---------->
+{{#if:{{{predecessor2|}}} |<!--then:-->
+! Preceded&nbsp;by
+{{!}} {{{predecessor2}}}
+{{!-}}
+}}
+{{#if:{{{successor2|}}} |<!--then:-->
+! Succeeded&nbsp;by
+{{!}} {{{successor2}}}
+{{!-}}
+}}
+}}
+<!----------Third office---------->
+{{#if:{{{order3|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order3}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start3|}}} |<!--then:--> 
+{{#if:{{{term_end3|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start3}}}&nbsp;&ndash;&nbsp;{{{term_end3}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end3|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start3}}}
+{{!-}}
+}}
+}}
+<!----------Third Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident3|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident3}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister3|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister3}}}
+{{!-}}
+}}
+{{#if:{{{deputy3|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy3}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant3|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant3}}}
+{{!-}}
+}}
+<!----------Third President, Prime Minister---------->
+{{#if:{{{president3|}}} |<!--then:-->
+! President
+{{!}} {{{president3}}}
+{{!-}}
+}}
+{{#if:{{{primeminister3|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister3}}}
+{{!-}}
+}}
+<!----------Third predecessor/successor---------->
+{{#if:{{{predecessor3|}}} |<!--then:-->
+! Preceded&nbsp;by
+{{!}} {{{predecessor3}}}
+{{!-}}
+}}
+{{#if:{{{successor3|}}} |<!--then:-->
+! Succeeded&nbsp;by
+{{!}} {{{successor3}}}
+{{!-}}
+}}
+<!----------Fourth office---------->
+{{#if:{{{order4|}}} |<!--then:--> 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr><div style="background:lavender;">{{{order4}}}</div>
+{{!-}}
+}}
+{{#if:{{{term_start4|}}} |<!--then:--> 
+{{#if:{{{term_end4|}}}
+|<!--then:--> <!--term has start and end-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''In&nbsp;office'''<br>{{{term_start4}}}&nbsp;&ndash;&nbsp;{{{term_end4}}}
+{{!-}}
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Incumbent]]'''
+{{!-}}
+}}
+{{#if:{{{term_end4|}}}
+|<!--then:--> <!--(nothing; term has ended)-->
+|<!--else:--> 
+{{!}}colspan="2" style="text-align:center;"{{!}} '''Assumed&nbsp;office'''<br>{{{term_start4}}}
+{{!-}}
+}}
+}}
+<!----------Fourth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident4|}}} |<!--then:--> 
+! Vice&nbsp;President(s)&nbsp;&nbsp;
+{{!}} {{{vicepresident4}}}
+{{!-}}
+}}
+{{#if:{{{viceprimeminister4|}}} |<!--then:--> 
+! Vice&nbsp;[[Prime Minister|PM]](s)&nbsp;&nbsp;
+{{!}} {{{viceprimeminister4}}}
+{{!-}}
+}}
+{{#if:{{{deputy4|}}} |<!--then:--> 
+! Deputy
+{{!}} {{{deputy4}}}
+{{!-}}
+}}
+{{#if:{{{lieutenant4|}}} |<!--then:--> 
+! Lieutenant(s)
+{{!}} {{{lieutenant4}}}
+{{!-}}
+}}
+<!----------Fourth President, Prime Minister---------->
+{{#if:{{{president4|}}} |<!--then:-->
+! President
+{{!}} {{{president4}}}
+{{!-}}
+}}
+{{#if:{{{primeminister4|}}} |<!--then:-->
+! Prime Minister
+{{!}} {{{primeminister4}}}
+{{!-}}
+}}
+<!----------Fourth predecessor/successor---------->
+{{#if:{{{predecessor4|}}} |<!--then:-->
+! Preceded&nbsp;by
+{{!}} {{{predecessor4}}}
+{{!-}}
+}}
+{{#if:{{{successor4|}}} |<!--then:-->
+! Succeeded&nbsp;by
+{{!}} {{{successor4}}}
+{{!-}}
+}}
+<!----------Birth/Death---------->
+|-
+|colspan="2"| <hr>
+|-
+! Born
+| {{{birth_date|}}}<br/>{{{birth_place|}}}
+|-
+{{#if:{{{death_date|}}} |<!--then:-->
+! Died
+{{!}} {{{death_date}}}<br/>{{{death_place|}}}
+{{!-}}
+}}
+<!----------Constituency---------->
+{{#if:{{{constituency|}}} |<!--then:-->
+! Constituency
+{{!}} {{{constituency}}}
+{{!-}}
+}}
+<!----------Party---------->
+{{#if:{{{party|}}} |<!--then:-->
+! Political&nbsp;party
+{{!}} {{{party}}}
+{{!-}}
+}}
+<!----------Spouse etc.---------->
+{{#if:{{{spouse|}}} |<!--then:-->
+! Spouse
+{{!}} {{{spouse}}}
+{{!-}}
+}}
+{{#if:{{{profession|}}} |<!--then:-->
+! Profession
+{{!}} {{{profession}}}
+{{!-}}
+}}
+{{#if:{{{religion|}}} |<!--then:-->
+! Religion
+{{!}} {{{religion}}}
+{{!-}}
+}}
+{{#if:{{{signature|}}} |<!--then:-->
+! Signature
+{{!}} [[Image:{{{signature}}}|128px]]
+{{!-}}
+}}
+{{#if:{{{footnotes|}}} |<!--then:-->
+{{!}}colspan="2" style="border-top:1px solid; font-size:90%;"{{!}} {{{footnotes}}}
+{{!-}}
+}}
+|}<noinclude>
