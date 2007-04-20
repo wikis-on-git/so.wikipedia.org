@@ -1,0 +1,334 @@
+Part of [[Wikipedia:WikiProject Countries]].
+
+== Sandbox ==
+A sandbox has been set up so modifications to the template may be tested '''''before being implemented''''' in the template proper:
+
+'''[[Template:Infobox Country/Test sandbox]]'''
+
+If possible, please try to view any modifications using a variety of web browsers and on different types of computer (PC, Macintosh, etc). Thank you!
+
+== Syntax ==
+See [[#Empty syntax]] below for empty syntax (without second map, ''symbol_type'', ''largest_settlement'', ''regional_languages'', ''ethnic_groups'', ''footnoteN'', France- or UK-specific parameters).
+
+<pre>
+{{Infobox Country or territory
+|native_name                 =   [Local (native) long-form name]
+|conventional_long_name      =   [Conventional (English) long-form name]
+|common_name                 =   [Common English name (used to create wikilinks)]
+|image_flag                  =   [e.g. Flag of country.svg]
+|image_coat                  =   [e.g. Coat of arms of country.svg]
+|symbol_type                 =   [if image_coat is an emblem/seal/etc]
+|national_motto              =   ["(motto)"]
+|national_anthem             =   [''(name of/link to anthem)'']
+<!-----UK-specific parameters----->
+|patron_saint                =
+<!-----End of UK-specific parameters----->
+|image_map                   =   [e.g. LocationCountry.svg]
+|map_caption                 =   [Caption to place below map]
+|image_map2                  =   [Another map, if required]
+|map_caption2                =   [Caption to place below second map]
+|capital                     = 
+|latd= |latm= |latNS= |longd= |longm= |longEW=  [capital's latitude and longitude]
+|largest_city                =   [Largest city or settlement: use "capital" (without quotes)
+|largest_settlement          =    if the same as the capital]
+|largest_settlement_type     =   [Type of settlement if largest settlement not a city]
+|official_languages          =   
+|regional_languages          =   [-Officially recognized- regional languages]
+|ethnic_groups               =   [List/breakdown of ethnic groups]
+|ethnic_groups_year          =   [Year of ethnic groups breakdown (if provided)]
+|government_type             = 
+|leader_title1               = 
+|leader_name1                = 
+|leader_title2               = 
+|leader_name2                = 
+...
+|leader_title5               = 
+|leader_name5                = 
+|sovereignty_type            = 
+|sovereignty_note            = 
+|established_event1          = 
+|established_date1           = 
+|established_event2          = 
+|established_date2           = 
+...
+|established_event9          = 
+|established_date9           = 
+<!-----France-specific parameters----->
+|metropole                          = 
+|metropole_area                     = 
+|metropole_area_rank                = 
+|metropole_area_magnitude           = 
+|metropole_areami²                  = 
+|metropole_population               = 
+|metropole_population_estimate_rank = 
+|foot                               = 
+|foot2                              = 
+|foot3                              = 
+|foot4                              = 
+|foot5                              = 
+<!-----End of France-specific parameters----->
+<!--Deprecated?:
+|land_area_magnitude         = 
+|land_area                   = 
+|land_area_rank              = 
+|land_areami²                = 
+-->
+|area_rank                   = 
+|area_magnitude              = 
+|area                        = 
+|areami²                     = 
+|percent_water               = 
+|population_estimate         = 
+|population_estimate_rank    = 
+|population_estimate_year    = 
+|population_census           = 
+|population_census_year      = 
+|population_density          = 
+|population_densitymi²       = 
+|population_density_rank     = 
+|GDP_PPP                     = 
+|GDP_PPP_rank                = 
+|GDP_PPP_year                = 
+|GDP_PPP_per_capita          = 
+|GDP_PPP_per_capita_rank     = 
+|GDP_nominal                 = 
+|GDP_nominal_rank            = 
+|GDP_nominal_year            = 
+|GDP_nominal_per_capita      = 
+|GDP_nominal_per_capita_rank = 
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = 
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  =   [+N, where N is number of hours]
+|time_zone_DST               = 
+|DST_note                    = 
+|utc_offset_DST              =   [+N, where N is number of hours]
+|cctld                       = 
+|calling_code                =
+|footnote1                   = 
+|footnote2                   = 
+...
+|footnote7                   = 
+}}
+</pre>
+
+== Example ==
+===Code===
+<pre>
+{{Infobox Country or territory
+|native_name                 = {{lang|fr|''République du Cameroun''}}
+|conventional_long_name      = Republic of Cameroon
+|common_name                 = Cameroon
+|image_flag                  = Flag of Cameroon.svg
+|image_coat                  = Cameroon coa.png
+|symbol_type                 = Emblem
+|image_map                   = LocationCameroon.png
+|national_motto              = ''"Paix, Travail, Patrie"''{{spaces|2}}<small>([[French
+ language|French]])<br/>"Peace, Work, Fatherland"</small>
+|national_anthem             = ''{{lang|fr|[[Chant de Ralliement]]}}''
+|official_languages          = [[French language|French]] and [[English language|English]]
+|capital                     = [[Yaoundé]]
+|latd=3 |latm=52 |latNS=N |longd=11 |longm=31 |longEW=E
+|largest_city                = [[Douala]]
+|government_type             = 
+|leader_title1               = [[Presidents of Cameroon|President]]
+|leader_name1                = [[Paul Biya]]
+|leader_title2               = [[Heads of Government of Cameroon|Prime Minister]]
+|leader_name2                = [[Ephraïm Inoni]]
+|sovereignty_type            = [[Independence]]
+|established_event1          = from [[France]] and [[United Kingdom|UK]]
+|established_date1           = [[January 1]] [[1960]]
+|area_rank                   = 52nd
+|area_magnitude              = 1 E+11
+|area                        = 475,440 
+|areami²                     = 183,568 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 1.3
+|population_estimate         = 16,380,005 
+|population_estimate_rank    = 59th 
+|population_estimate_year    = July 2005 
+|population_census           = 15,746,179
+|population_census_year      = 2003
+|population_density          = 34
+|population_densitymi²       = 88 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 138th
+|GDP_PPP                     = $32.35 billion <!--cia.gov-->
+|GDP_PPP_rank                = 91st 
+|GDP_PPP_year                = 2005
+|GDP_PPP_per_capita          = $2,176
+|GDP_PPP_per_capita_rank     = 140th
+|GDP_nominal                 = $16.99 billion <!--imf.org-->
+|GDP_nominal_rank            = 83rd 
+|GDP_nominal_year            = 2005
+|GDP_nominal_per_capita      = $952
+|GDP_nominal_per_capita_rank = 121st
+|HDI                         = 0.497
+|HDI_rank                    = 148th
+|HDI_year                    = 2003
+|HDI_category                = <font color="#e0584e">low</font>
+|currency                    = [[CFA franc]]
+|currency_code               = XAF
+|country_code                = 
+|time_zone                   = 
+|utc_offset                  = +1
+|time_zone_DST               = 
+|utc_offset_DST              = 
+|cctld                       = [[.cm]]
+|calling_code                = 237
+|footnotes                   = 
+}}
+</pre>
+
+===Result===
+<hr/><br/>
+{{Infobox Country or territory
+|native_name                 = {{lang|fr|''République du Cameroun''}}
+|conventional_long_name      = Republic of Cameroon
+|common_name                 = Cameroon
+|image_flag                  = Flag of Cameroon.svg
+|image_coat                  = Cameroon coa.png
+|symbol_type                 = Emblem
+|image_map                   = LocationCameroon.png
+|national_motto              = ''"Paix, Travail, Patrie"''{{spaces|2}}<small>([[French language|French]])<br/>"Peace, Work, Fatherland"</small>
+|national_anthem             = ''{{lang|fr|[[Chant de Ralliement]]}}''
+|official_languages          = [[French language|French]] and [[English language|English]]
+|capital                     = [[Yaoundé]]
+|latd=3 |latm=52 |latNS=N |longd=11 |longm=31 |longEW=E
+|largest_city                = [[Douala]]
+|government_type             = 
+|leader_title1               = [[Presidents of Cameroon|President]]
+|leader_name1                = [[Paul Biya]]
+|leader_title2               = [[Heads of Government of Cameroon|Prime Minister]]
+|leader_name2                = [[Ephraïm Inoni]]
+|sovereignty_type            = [[Independence]]
+|established_event1          = from [[France]] and [[United Kingdom|UK]]
+|established_date1           = [[January 1]] [[1960]]
+|area_rank                   = 52nd
+|area_magnitude              = 1 E+11
+|area                        = 475,440 
+|areami²                     = 183,568 <!--Do not remove per [[WP:MOSNUM]]-->
+|percent_water               = 1.3
+|population_estimate         = 16,380,005 
+|population_estimate_rank    = 59th 
+|population_estimate_year    = July 2005 
+|population_census           = 15,746,179
+|population_census_year      = 2003
+|population_density          = 34
+|population_densitymi²       = 88 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank     = 138th
+|GDP_PPP                     = $32.35 billion <!--cia.gov-->
+|GDP_PPP_rank                = 91st 
+|GDP_PPP_year                = 2005
+|GDP_PPP_per_capita          = $2,176
+|GDP_PPP_per_capita_rank     = 140th
+|GDP_nominal                 = $16.99 billion <!--imf.org-->
+|GDP_nominal_rank            = 83rd 
+|GDP_nominal_year            = 2005
+|GDP_nominal_per_capita      = $952
+|GDP_nominal_per_capita_rank = 121st
+|HDI                         = 0.497
+|HDI_rank                    = 148th
+|HDI_year                    = 2003
+|HDI_category                = <font color="#e0584e">low</font>
+|currency                    = [[CFA franc]]
+|currency_code               = XAF
+|country_code                = 
+|time_zone                   = 
+|utc_offset                  = +1
+|time_zone_DST               = 
+|utc_offset_DST              = 
+|cctld                       = [[.cm]]
+|calling_code                = 237
+|footnotes                   = 
+}}
+
+{{clear}}
+
+== Empty syntax ==
+<pre>
+{{Infobox Country
+|native_name                 = 
+|conventional_long_name      = 
+|common_name                 = 
+|image_flag                  = 
+|image_coat                  = 
+|image_map                   = 
+|map_caption                 = 
+|national_motto              = 
+|national_anthem             = 
+|official_languages          = 
+|capital                     = 
+|latd= |latm= |latNS= |longd= |longm= |longEW=
+|largest_city                = 
+|government_type             = 
+|leader_title1               = 
+|leader_name1                = 
+|leader_title2               = 
+|leader_name2                = 
+|leader_title3               = 
+|leader_name3                = 
+|leader_title4               = 
+|leader_name4                = 
+|leader_title5               = 
+|leader_name5                = 
+|sovereignty_type            = 
+|sovereignty_note            = 
+|established_event1          = 
+|established_date1           = 
+|established_event2          = 
+|established_date2           = 
+|established_event3          = 
+|established_date3           = 
+|established_event4          = 
+|established_date4           = 
+|established_event5          = 
+|established_date5           = 
+|established_event6          = 
+|established_date6           = 
+|established_event7          = 
+|established_date7           = 
+|established_event8          = 
+|established_date8           = 
+|established_event9          = 
+|established_date9           = 
+|area_rank                   = 
+|area_magnitude              = 
+|area                        = 
+|areami²                     = 
+|percent_water               = 
+|population_estimate         = 
+|population_estimate_rank    = 
+|population_estimate_year    = 
+|population_census           = 
+|population_census_year      = 
+|population_density          = 
+|population_densitymi²       = 
+|population_density_rank     = 
+|GDP_PPP                     = 
+|GDP_PPP_rank                = 
+|GDP_PPP_year                = 
+|GDP_PPP_per_capita          = 
+|GDP_PPP_per_capita_rank     = 
+|GDP_nominal                 = 
+|GDP_nominal_rank            = 
+|GDP_nominal_year            = 
+|GDP_nominal_per_capita      = 
+|GDP_nominal_per_capita_rank = 
+|HDI                         = 
+|HDI_rank                    = 
+|HDI_year                    = 
+|HDI_category                = 
+|currency                    = 
+|currency_code               = 
+|time_zone                   = 
+|utc_offset                  = 
+|time_zone_DST               = 
+|DST_note                    = 
+|utc_offset_DST              = 
+|cctld                       = 
+|calling_code                = 
+}}
+</pre>
