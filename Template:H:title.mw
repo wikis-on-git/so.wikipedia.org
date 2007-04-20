@@ -1,0 +1,1 @@
+<span title="{{{1}}}" {{#ifeq:{{{dotted|yes}}}|no||style="border-bottom:1px dotted"}}>{{{2}}}</span><noinclude>[[sl:Predloga:H:title]]</noinclude>
