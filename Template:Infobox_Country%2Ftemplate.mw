@@ -1,0 +1,149 @@
+{{Infobox Country or territory
+|native_name              = {{{native_name}}}
+|conventional_long_name   = {{{conventional_long_name}}}
+|common_name              = common_name
+|image_flag               = Vlag ontbreekt.svg
+|image_coat               = Sin escudo.svg
+|symbol_type              = Coat-of-arms or other symbol
+|image_map                = Missing map.png
+|map_caption              = {{{map_caption}}}
+|image_map2               = Missing map.png
+|map_caption2             = {{{map_caption2}}}
+|national_motto           = {{{national_motto}}}
+|national_anthem          = {{{national_anthem}}}
+|official_languages       = {{{official_languages}}}
+|regional_languages       = {{{regional_languages}}}
+|ethnic_groups            = {{{ethnic_groups}}}
+|ethnic_groups_year       = ''year''
+|capital                  = {{{capital}}}
+|latd=0 |latm=0 |latNS=N |longd=0 |longm=0 |longEW=E
+|largest_city             = {{{largest_city}}}
+|government_type          = {{{government_type}}}
+|leader_title1            = {{{leader_title1}}}
+|leader_name1             = {{{leader_name1}}}
+|leader_title2            = {{{leader_title2}}}
+|leader_name2             = {{{leader_name2}}}
+|leader_title3            = {{{leader_title3}}}
+|leader_name3             = {{{leader_name3}}}
+|leader_title4            = {{{leader_title4}}}
+|leader_name4             = {{{leader_name4}}}
+|leader_title5            = {{{leader_title5}}}
+|leader_name5             = {{{leader_name5}}}
+|sovereignty_type         = {{{sovereignty_type}}}
+|sovereignty_note         = {{{sovereignty_note}}}
+|established_event1       = {{{established_event1}}}
+|established_date1        = {{{established_date1}}}
+|established_event2       = {{{established_event2}}}
+|established_date2        = {{{established_date2}}}
+|established_event3       = {{{established_event3}}}
+|established_date3        = {{{established_date3}}}
+|established_event4       = {{{established_event4}}}
+|established_date4        = {{{established_date4}}}
+|established_event5       = {{{established_event5}}}
+|established_date5        = {{{established_date5}}}
+|established_event6       = {{{established_event6}}}
+|established_date6        = {{{established_date6}}}
+|established_event7       = {{{established_event7}}}
+|established_date7        = {{{established_date7}}}
+|established_event8       = {{{established_event8}}}
+|established_date8        = {{{established_date8}}}
+|established_event9       = {{{established_event9}}}
+|established_date9        = {{{established_date9}}}
+|area_magnitude           = 1 E0
+|area                     = {{{area}}}
+|area_rank                = ''rank''
+|areami²                  = {{{areami²}}}
+|percent_water            = {{{percent_water}}}
+|population_estimate      = ''estimate''
+|population_estimate_rank = ''rank''
+|population_estimate_year = ''year''
+|population_census        = ''census''
+|population_census_year   = ''year''
+|population_density       = ''density''
+|population_densitymi²    = ''density (mi²)''
+|population_density_rank  = ''rank''
+|GDP_PPP                  = {{{GDP_PPP}}}
+|GDP_PPP_rank             = ''rank''
+|GDP_PPP_year             = ''year''
+|GDP_PPP_per_capita       = ''per capita''
+|GDP_PPP_per_capita_rank  = ''rank''
+|GDP_nominal              = {{{GDP_nominal}}}
+|GDP_nominal_rank         = ''rank''
+|GDP_nominal_year         = ''year''
+|GDP_nominal_per_capita   = ''per capita''
+|GDP_nominal_per_capita_rank = ''rank''
+|Gini_category             = ''category''
+|Gini                     = {{{Gini}}}
+|Gini_year                = ''year''
+|Gini_rank                = ''rank''
+|HDI_category             = ''category''
+|HDI                      = {{{HDI}}}
+|HDI_rank                 = ''rank''
+|HDI_year                 = ''year''
+|HDI_category             = ''category''
+|currency                 = {{{currency}}}
+|currency_code            = ''code''
+|time_zone                = {{{time_zone}}}
+|utc_offset               = ''offset''
+|time_zone_DST            = ''DST''
+|DST_note                 = ''DST note''
+|utc_offset_DST           = ''offset''
+|cctld                    = {{{cctld}}}
+|calling_code             = {{{calling_code}}}
+|footnote1                = {{{footnote1}}}
+|footnote2                = {{{footnote2}}}
+|footnote3                = {{{footnote3}}}
+|footnote4                = {{{footnote4}}}
+|footnote5                = {{{footnote5}}}
+|footnote6                = {{{footnote6}}}
+|footnote7                = {{{footnote7}}}
+}}
+For syntax and examples, see '''[[{{NAMESPACE}}:{{BASEPAGENAME}}/doc|/doc]]'''.
+
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Geography infobox templates|Country]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[af:Sjabloon:Landtabel-mini-nl]]
+[[an:Template:Infobox País]]
+[[ar:Template:Infobox Country]]
+[[bg:Шаблон:Държава]]
+[[ca:Template:Taula d'estat]]
+[[cs:Šablona:Infobox stát]]
+[[cy:Nodyn:Gwybodlen Gwlad]]
+[[da:Skabelon:Infoboks land]]
+[[de:Vorlage:Infobox Staat]]
+[[el:Πρότυπο:Πληροφορίες Χώρας]]
+[[es:Plantilla:Infobox País]]
+[[fi:Malline:Valtion tiedot]]
+[[fiu-vro:Template:Country Infobox]]
+[[fr:Modèle:Pays]]
+[[he:תבנית:מדינה]]
+[[ia:Patrono:Infobox pais]]
+[[it:Template:Stato]]
+[[ja:Template:基礎情報 国]]
+[[ka:თარგი:ქვეყანა]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Infobox ದೇಶ]]
+[[ko:Template:나라 정보]]
+[[ln:Template:Infobox Esé]]
+[[ms:Templat:Negeri]]
+[[nl:Sjabloon:Landtabel]]
+[[nn:Mal:Infoboks land2]]
+[[no:Mal:Infoboks land]]
+[[pl:Szablon:PaństwoX]]
+[[pt:Predefinição:Info País]]
+[[ro:Format:CutieŢări]]
+[[rmy:Format:MoxtonThema]]
+[[ru:Шаблон:Страна]]
+[[sl:Predloga:Infopolje Država]]
+[[sr:Шаблон:Кутијица за државе]]
+[[th:Template:Infobox Country]]
+[[tr:Şablon:Ülkeler]]
+[[ur:سانچہ:خانۂ معلومات ملک]]
+[[vi:Tiêu bản:Tóm tắt về quốc gia]]
+[[zh:Template:Infobox Country]]
+</includeonly>
