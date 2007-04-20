@@ -1,0 +1,38 @@
+<noinclude>{{Protected template}}<br/><hr/><center><small>''template begins''</small></center></noinclude><!--
+
+-->
+{| class="messagebox" style="clear:both; border:1px solid #a00; font-size:95%;"
+|width="60px" align="center"| [[Image:Information_icon.svg|40px]]
+| '''This template employs [[wikt:intricate|intricate]] features of template syntax.''' {{nowrap|{{{1|}}}}}<div style="line-height:11pt; font-size:95%; padding-bottom:2px;">Please do not alter it unless you understand its setup and [[M:Parser functions|parser functions]] '''and''' are ready to repair or revert all collateral damage if results are unexpected.</div><div style="line-height:12pt;">'''Any experiments should be conducted and all improvements tested in either the {{nowrap|[[Template:{{#ifexist:{{FULLPAGENAME}}/Test sandbox|{{PAGENAME}}/Test|Template}} sandbox|{{#ifexist:{{FULLPAGENAME}}/Test sandbox|Template:{{PAGENAME}}/Test|template}} sandbox]]}} or your user space before changing anything here.</div>
+|}<!--
+--><includeonly>[[Category:Esoteric templates|{{PAGENAME}}]]</includeonly><!--
+
+--><noinclude><center><small>''template ends''</small></center>
+<hr/><br/>
+{| class="messagebox"
+|width="60px" align="center"| [[Image:Information_icon.svg|40px]]
+|Actually, ''this'' template's syntax is relatively simple, but templates that link to the above message should be intricate, e.g. complex, using less obvious techniques, [[wikt:Esoteric|esoteric]] syntax, combining different techniques, used as parameter for other templates, build to function for a variety of calling instances, etc. The above template adds templates to  {{nowrap|[[:Category:Esoteric templates]]}}.
+|}
+
+<!--Categories-->
+[[Category:Template namespace templates|{{PAGENAME}}]]
+
+<!--Other languages-->
+[[bg:Шаблон:Esoteric]]
+[[cs:Šablona:Esoteric]]
+[[es:Plantilla:Esotérica]]
+[[eo:Ŝablono:Esotera]]
+[[fr:Modèle:Ésotérique]]
+[[ia:Patrono:Esoteric]]
+[[ja:Template:複雑なテンプレート]]
+[[ka:თარგი:Esoteric]]
+[[no:Mal:Komplisert mal]]
+[[ro:Format:Ezoteric]]
+[[sl:Predloga:Esoteric]]
+[[sv:Mall:Komplicerad kod]]
+[[ur:سانچہ:مخفی]]
+[[wuu:Template:Esoteric]]
+[[zh:Template:Esoteric]]
+[[zh-classical:Template:Esoteric]]
+[[zh-yue:Template:祕技]]
+</noinclude>
