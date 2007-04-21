@@ -1,0 +1,8 @@
+<includeonly>{{#if:{{{2|}}}|<br />}}{{#if:{{{1|}}}|<!--IF(1)==TRUE THEN--->{{indent|{{{1}}} }}|<!--ELSE--->{{indent|3}} }}</includeonly><noinclude>
+{{-}}
+----
+;This is similar to {{Tlx|I5}}, which defaults to five spaces but this version defaults to three spaces when given no parameter as that proved most useful within tables when indenting in a maze of pipes and parentheses and such clutter.
+{{Indent family usage}} <!-- Indent family usage also cats all these the same way --->
+
+[[Category:WikiProject Interwiki equalization|!{{PAGENAME}}]]<!--- convention: '!' designates template in Project category --->
+</noinclude>
