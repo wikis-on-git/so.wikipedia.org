@@ -1,0 +1,47 @@
+'''''Qore: M.I. mursal'''''
+
+== Qoraal yar oo ku saabsan sida loo isticmaali ''Calaamad-luqad'' (Babel Tempaltes). ==
+
+
+Boggaga Wikipedia:ha waxaa ku jira dad ku hadla luqado kala duwan, waxayna ugu hadlaan si kala darajo duwan. Qaar waxay u tahay afkooda hooyo qaarna waxay ka yaqaanaan wax yar. Si ay dadka isu fahmaan waxaa la soo bandhigay caalaamado la'isku fahmo, kuwaasi oo luqad walba loo sameeyay shan darajo.
+
+Si'aad u soo bandhigtid luqadaha aad taqaano waxaad bogaada ku darikarta sida tusaalayaashan hoos ku qoran.
+
+=== Tusaaleyaal ===
+* Ku bilaaw sidan '''{{Babel-'''
+* kadibna qor lambar, kaasoo u dhigma inta luqad aad raabto ka dibna daba dhig '''|'''
+** Tusaale: '''<nowiki>{{Babel-3|</nowiki>''' oo u dhiganta sedex luqadood
+
+* Kadibna ku siidar koodhaka luqadaha aad rabtid oo ay daba socoto '''1-4''', kaa soo u dhigma darajada aqooneed ee luqadaas. Hadii aad ka tagtid lambarka waxaa la'macnatahay in ay luqada tahay midii afkaaga hooyo. 
+* Ugu dambaytana waxaa kusoo xirtaa labo qaansohireed '''}}'''
+
+
+{| border="1"
+|+ '''Tusaale 1''' 
+! Af [[Soomaali]]
+! Af [[Ingiriis]]
+! Af [[Faransiis]]
+|-
+| {{babel-6|so|so-4|so-3|so-2|so-1|so-0}} 
+| {{babel-6|en|en-4|en-3|en-2|en-1|en-0}}
+| {{babel-6|fr|fr-4|fr-3|fr-2|fr-1|fr-0}}
+|}
+
+{| border="1"
+|+ '''Tusaale 2''' 
+! Af [[Finnish]]
+! Af [[Jarmal]]
+|-
+| {{babel-5|fi|fi-4|fi-3|fi-2|fi-1}} 
+| {{babel-5|de|de-4|de-3|de-2|de-1}}
+|}
+
+* Hal luqad
+{{babel-1|so}}
+* Labo luqadood
+
+{{babel-2|so|so-4}}
+
+[[de:Wikipedia:Babel]]
+[[en:Wikipedia:Babel]]
+[[ksh:Wikipedia:Babel]]
