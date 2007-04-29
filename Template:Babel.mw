@@ -1,4 +1,4 @@
-<table style="float:right; clear:right; margin: 0.5em 1em; border:1px solid #99B3F; padding:2px; width:242px"><tr><td style="text-align:center" cellspacing="0" cellpadding="0">'''[[Wikipedia:Babel]]'''
+<table style="float:right; clear:right; margin: 0.5em 1em; border:1px solid #99B3FF; padding:2px; width:242px"><tr><td style="text-align:center" cellspacing="0" cellpadding="0">'''[[Wikipedia:Babel]]'''
 </td></tr><tr><td>{{#if: {{{1|}}}
 |{{User {{{1}}}}}|<center style="background-color:#eee">''Enter language skill levels such as:''<br /> <code><nowiki>{{Babel|so|en-2|fr-3|</nowiki></code>&nbsp;&hellip;&nbsp;<code> <nowiki>}}</nowiki></code></center>}}</td></tr>{{#if: {{{2|}}}
 |<tr><td>{{User {{{2}}}}}</td></tr>}}{{#if: {{{3|}}}
@@ -29,4 +29,25 @@
 |<tr><td>{{User {{{27}}}}}</td></tr>}}{{#if: {{{28|}}}
 |<tr><td>{{User {{{28}}}}}</td></tr>}}{{#if: {{{29|}}}
 |<tr><td>{{User {{{29}}}}}</td></tr>}}
-<tr><td style="text-align:center">[[:Category:Luqad isticmaalayaasha|Raadi luqad isticmaalayaasha]]</td></tr></table>
+<tr><td style="text-align:center">[[:Category:Luqad isticmaalayaasha|Raadi luqad isticmaalayaasha]]</td></tr></table><noinclude>
+[[an:Plantilla:Babel]]
+[[be-x-old:Шаблён:Бабілёнская вежа]]
+[[bg:Шаблон:Вавилон]]
+[[diq:Template:Babel]]
+[[fi:Malline:Babel]]
+[[fiu-vro:Näüdüs:Babel]]
+[[fur:Template:Babel]]
+[[fy:Berjocht:Babel]]
+[[hu:Template:Babel]]
+[[kw:Template:Babel]]
+[[ky:Template:Babel]]
+[[lad:Template:Babel]]
+[[lt:Šablonas:Babel]]
+[[mi:Template:Babel]]
+[[ms:Template:Babel]]
+[[mt:Template:Babel]]
+[[scn:Template:Babel]]
+[[si:Template:Babel]]
+[[su:Citakan:Babel]]
+[[uk:Шаблон:Babel]]
+</noinclude>
