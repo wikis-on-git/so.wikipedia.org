@@ -2,5 +2,4 @@
 #if: {{{x|}}} 
   | <div style="position: absolute; left: {{{x|0}}}px; top: {{{y|0}}}px; padding: 0;"><!--
        -->[[Image:{{{float}}}|{{{float_width}}}|{{{float_caption}}}]]</div>
-}}[[Image:{{{base}}}|{{{base_width}}}|{{{base_caption}}}]]</div><noinclude>
-{{/doc}}
+}}[[Image:{{{base}}}|{{{base_width}}}|{{{base_caption}}}]]</div>
