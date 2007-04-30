@@ -15,22 +15,3 @@
 |- 
 | colspan="2" style="font-size: smaller;" | {{{footnotes|}}}
 |}
-<noinclude>
-<!-- TO MAKE A NEW TEMPLATE: copy the source up to, but not including, the "noinclude" line into a new page. -->
-
-<br style="clear:both" />
-== Usage ==
-Copy the source of this template (available from the '''view source''' link) and 
-paste it into a new blank page.  Only the part up to, but not including, the tag
-<code>&lt;noinclude></code> is necessary. 
-
-==See also==
-*[[Wikipedia:Infobox]]
-
-[[Category:infobox templates| ]]
-[[ar:قالب:قالب معلومات]]
-[[fa:الگو:دادان]]
-[[fr:Modèle:Infobox]]
-[[zh:Template:Infobox]]
-[[ia:Patrono:Infobox]]
-</noinclude>
