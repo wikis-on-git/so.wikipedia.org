@@ -1,66 +1,433 @@
-<!-- Infobox begins -->
-{{Infobox Settlement
-|Magaca Magalada        = 
-|Magac lo ka yaqano wadankeda           =  <!-- for cities whose native name is not in English -->
-|naynaasta Magalada              = 
-|motto                  = 
-|image_skyline          = 
-|imagesize              = 
-|image_caption          = 
-|image_flag             = 
-|flag_size              =
-|government_type        =
-|leader_title           =
-|leader_name            =
-|established_date2      = 
-|established_title3     =  <!-- Incorporated (city) -->
-|established_date3      = 
-|area_magnitude         = 
-|unit_pref                = <!--Enter: Imperial, if Imperial (metric) is desired-->
-|area_footnotes           =
-|area_total_km2           = <!-- ALL fields dealing with a measurements are subject to automatic unit conversion-->
-|area_land_km2            = <!--See table @ Template:Infobox Settlement for details on automatic unit conversion-->
-|area_water_km2           = 
-|area_total_sq_mi         = 
-|area_land_sq_mi          = 
-|area_water_sq_mi         = 
-|area_water_percent       = 
-|area_urban_km2           = 
-|area_urban_sq_mi         = 
-|area_metro_km2           = 
-|area_metro_sq_mi         = 
-|population_as_of               = 
-|population_footnotes           =
-|population_note                = 
-|population_total               = 
-|population_density_km2         = 
-|population_density_sq_mi       = 
-|population_metro               =
-|population_density_metro_km2   =
-|population_density_metro_sq_mi =
-|population_urban               = 
-|population_density_urban_km2   =
-|population_density_urban_sq_mi =
-|population_blank1_title        =
-|population_blank1              =
-|population_density_blank1_km2 =   
-|population_density_blank1_sq_mi = 
-|timezone               = 
-|utc_offset             = 
-|timezone_DST           = 
-|utc_offset_DST         = 
-|latd= |latm= |lats= |latNS=
-|longd= |longm= |longs= |longEW=
-|elevation_footnotes    =  <!--for references: use <ref> </ref> tags-->
-|elevation_m            = 
-|elevation_ft           = 
-|postal_code_type       =  <!-- enter ZIP code, Postcode, Post code, Postal code... -->
-|postal_code            =
-|area_code              =
-|blank_name             =
-|blank_info             =
-|blank1_name            =
-|blank1_info            =
-|website                = 
-|footnotes              = 
-}} <!-- Infobox ends -->
+<table class="infobox geography vcard" style="width: 23em;">
+	<tr>
+		<td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap;">'''<span class="fn org">{{{official_name}}}</span>{{#if:{{{native_name|}}}|<br>{{{native_name}}}}}{{#if:{{{other_name|}}}|<br>{{{other_name}}}}}'''</td>
+	</tr>
+<!-- ***** Skyline Image ***** -->
+{{#if:{{{image_skyline|}}}|
+	<tr>
+		<td colspan="2" style="text-align: center; padding: 0.7em 0.8em 0.7em 0.8em;;">
+			[[Image:{{{image_skyline|}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|250px}}|none|{{{image_caption|Skyline of {{{official_name|}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption|}}}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Flag, Seal, Shield and Coat of arms ***** -->
+{{#if:{{{image_flag|}}}{{{image_seal|}}}{{{image_shield|}}}{{{city_logo|}}}| 
+	<tr class="mergedtoprow">
+		<td class="maptable" colspan="2" align="center" style="padding: 0.4em 0 0.4em 0;">
+			<table style="width: 100%; background: none;" align="center">
+{{#ifeq:{{#expr:{{#if:{{{image_flag|}}}|1|0}}+{{#if:{{{image_seal|}}}|1|0}}+{{#if:{{{image_shield|}}}|1|0}}+{{#if:{{{city_logo|}}}|1|0}}}}|2|
+             <tr> <td style="vertical-align: middle;" align="center"> {{#if:{{{image_flag|}}}|{{border|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|Official flag of {{{official_name|}}}]]}}<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{{official_name|}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{{official_name|}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small>|{{#if:{{{city_logo|}}}|[[Image:{{{city_logo|}}}|{{#if:{{{citylogo_size|}}}|{{{citylogo_size}}}|100px}}|Official logo of {{{official_name|}}}]]<br><small>'''{{#if:{{{logo_link|}}}|[[{{{logo_link}}}|Logo]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|Logo}}}}}}'''</small>}}}}}}}}</td>
+            <td style="vertical-align: middle;" align="center"> {{#if:{{{city_logo|}}}|[[Image:{{{city_logo|}}}|{{#if:{{{citylogo_size|}}}|{{{citylogo_size}}}|100px}}|Official logo of {{{official_name|}}}]]<br><small>'''{{#if:{{{logo_link|}}}|[[{{{logo_link}}}|Logo]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|Logo}}}}}}'''</small> |{{#if:{{{image_shield|}}}|[[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{{official_name|}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small> |{{#if:{{{image_seal|}}}|[[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{{official_name|}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small> |{{#if:{{{image_flag|}}}|[[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|Official flag of {{{official_name|}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small>}}}}}}}}</td>
+|{{#if:{{{image_flag|}}}{{{image_seal|}}}|
+				<tr>{{#if:{{{image_flag|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_seal|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_flag|}}}|{{#if:{{{flag_size|}}}|{{{flag_size}}}|100px}}|Official flag of {{{official_name|}}}]]<br><small>'''{{#if:{{{flag_link|}}}|[[{{{flag_link}}}|Flag]]|{{#ifexist:Flag of {{PAGENAME}}|[[Flag of {{PAGENAME}}|Flag]]|{{#ifexist:Flag of {{{official_name}}}|[[Flag of {{{official_name}}}|Flag]]|Flag}}}}}}'''</small></td>}}{{#if:{{{image_seal|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_flag|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_seal|}}}|{{#if:{{{seal_size|}}}|{{{seal_size}}}|100px}}|Official seal of {{{official_name|}}}]]<br><small>'''{{#if:{{{seal_link|}}}|[[{{{seal_link}}}|Seal]]|{{#ifexist:Seal of {{PAGENAME}}|[[Seal of {{PAGENAME}}|Seal]]|{{#ifexist:Seal of {{{official_name}}}|[[Seal of {{{official_name}}}|Seal]]|Seal}}}}}}'''</small></td>}}
+				</tr>
+}}{{#if:{{{image_shield|}}}{{{city_logo|}}}|
+				<tr>{{#if:{{{image_shield|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{city_logo|}}}|width="50%"|colspan="2"}}> [[Image:{{{image_shield|}}}|{{#if:{{{shield_size|}}}|{{{shield_size}}}|100px}}|Coat of arms of {{{official_name|}}}]]<br><small>'''{{#if:{{{shield_link|}}}|[[{{{shield_link}}}|Coat of arms]]|{{#ifexist:Coat of arms of {{PAGENAME}}|[[Coat of arms of {{PAGENAME}}|Coat of arms]]|{{#ifexist:Coat of arms of {{{official_name}}}|[[Coat of arms of {{{official_name}}}|Coat of arms]]|Coat of arms}}}}}}'''</small></td>}}{{#if:{{{city_logo|}}}|
+					<td style="vertical-align: middle;" align="center" {{#if:{{{image_shield|}}}|width="50%"|colspan="2"}}> [[Image:{{{city_logo|}}}|{{#if:{{{citylogo_size|}}}|{{{citylogo_size}}}|100px}}|Official logo of {{{official_name|}}}]]<br><small>'''{{#if:{{{logo_link|}}}|[[{{{logo_link}}}|Logo]]|{{#ifexist:Logo of {{PAGENAME}}|[[Logo of {{PAGENAME}}|Logo]]|{{#ifexist:Logo of {{{official_name}}}|[[Logo of {{{official_name}}}|Logo]]|Logo}}}}}}'''</small></td>}}
+				</tr>
+}}}}
+			</table>
+		</td>
+	</tr>
+}}<!-- ***** Nickname ***** -->
+{{#if:{{{nickname|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">[[List of city nicknames|Nickname]]: ''<span class="nickname">{{{nickname|}}}</span>''</td>
+	</tr>
+}}<!-- ***** Motto ***** -->
+{{#if:{{{motto|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">[[Motto]]: {{{motto|}}}</td>
+	</tr>
+}}<!-- ***** Map ***** -->
+{{#if:{{{image_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">[[Image:{{{image_map|}}}|{{#if:{{{mapsize|}}}|{{{mapsize}}}|250px}}|none|{{{map_caption|Location of {{{official_name|}}}}}}]]{{#if:{{{map_caption|}}}|<small>{{{map_caption|}}}</small>}}
+		</td>
+	</tr>
+{{#if:{{{image_map1|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">[[Image:{{{image_map1|}}}|{{#if:{{{mapsize1|}}}|{{{mapsize1}}}|250px}}|none|{{{map_caption1|Location of {{{official_name|}}}}}}]]{{#if:{{{map_caption1|}}}|<small>{{{map_caption1|}}}</small>}}
+		</td>
+	</tr>
+}}}}<!--*****Dot Map***** -->
+{{#if:{{{image_dot_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" style="text-align: center;">{{superimpose
+ |base          = {{{image_dot_map|}}}
+ |base_width    = {{#if:{{{dot_mapsize|}}}|{{{dot_mapsize|}}}|180px}}
+ |base_caption  = {{{official_name}}}
+ |float         = Red pog.svg 
+ |float_width   = 9px
+ |float_caption = {{{dot_map_caption|}}}
+ |x             = {{{dot_x|}}}
+ |y             = {{{dot_y|}}}
+}}{{#if:{{{dot_map_caption|}}}|<small>{{{dot_map_caption|}}}</small>}}
+		</td>
+	</tr>
+}}<!-- ***** Pushpin Map ***** -->
+{{#if:{{{pushpin_map|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="center">
+{{Location map{{!}}{{{pushpin_map|}}}
+{{!}}label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{{official_name|}}} }}
+{{!}}lat = {{#switch: {{lc: {{{latNS}}} }} | s={{#expr:0-({{{latd}}}+{{{latm}}}/60+{{#if:{{{lats}}}|{{{lats}}}/360|0}})}} | n={{#expr:({{{latd}}}+{{{latm}}}/60+{{#if:{{{lats}}}|{{{lats}}}/360|0}})}} }}   
+{{!}}long = {{#switch: {{lc: {{{longEW}}} }} | w={{#expr:0-({{{longd}}}+{{{longm}}}/60+{{#if:{{{longs}}}|{{{longs}}}/360|0}})}} | e={{#expr:({{{longd}}}+{{{longm}}}/60+{{#if:{{{longs}}}|{{{longs}}}/360|0}})}} }}
+{{!}}float = none
+{{!}}caption =
+{{!}}border = none
+{{!}}position = {{#if:{{{pushpin_label_position|}}} | {{{pushpin_label_position|}}} | right }}
+{{!}}width = {{#if:{{{pushpin_mapsize|}}}|{{{pushpin_mapsize|}}} | 250 }}
+}}{{#if:{{{pushpin_map_caption|}}}|<small>{{{pushpin_map_caption|}}}</small>|{{#if:{{{map_caption|}}}|<small>{{{map_caption|}}}</small> }} }}
+		</td>
+	</tr>
+}}<!-- ***** Coordinates ***** -->
+{{#if:{{{latd|}}}|
+<tr class="mergedbottomrow">
+	<th colspan="2" style="text-align: center; font-size: smaller; padding-bottom: 0.7em;">Coordinates: {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{{coordinates_type|type:city}}}}}</th>
+</tr>
+}}<!-- ***** Subdivisions ***** -->
+{{#if:{{{subdivision_type|}}}|
+	<tr class="mergedtoprow">
+		<th>{{{subdivision_type}}}
+		<th>{{{subdivision_name}}}
+	</tr>
+}}{{#if:{{{subdivision_type1|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type1}}}
+		<th>{{{subdivision_name1}}}
+	</tr>
+}}{{#if:{{{subdivision_type2|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type2}}}
+		<th>{{{subdivision_name2}}}
+	</tr>
+}}{{#if:{{{subdivision_type3|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type3}}}
+		<th>{{{subdivision_name3}}}
+	</tr>
+}}{{#if:{{{subdivision_type4|}}}|
+	<tr class="mergedrow">
+		<th>{{{subdivision_type4}}}
+		<th>{{{subdivision_name4}}}
+	</tr>
+}}<!--***** Established *****-->
+{{#if:{{{established_title|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title}}}</th>
+		<td>{{{established_date}}}</td>
+	</tr>
+}}{{#if:{{{established_title2|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title2}}}</th>
+		<td>{{{established_date2}}}</td>
+	</tr>
+}}{{#if:{{{established_title3|}}}|
+	<tr class="mergedrow">
+		<th>{{{established_title3}}}</th>
+		<td>{{{established_date3}}}</td>
+	</tr>
+}}<!-- ***** Government type and Leader ***** -->
+{{#if:{{{government_type|}}}{{{leader_title|}}}|
+	<tr <!-- ***** Government ***** --> class="mergedtoprow">
+		<td colspan="2">'''Government''' {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{government_type|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;Type</th>
+		<td>{{{government_type}}}</td>
+	</tr>
+}}{{#if:{{{leader_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title}}}
+		<td>{{#ifexist: {{{leader_name}}}|[[{{{leader_name}}}]]|{{{leader_name}}}}} {{#if:{{{leader_party|}}}|({{Polparty|{{{subdivision_name}}}|{{{leader_party}}}}})}}</td>
+	</tr>
+}}{{#if:{{{leader_title1|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title1}}}
+		<td>{{#ifexist: {{{leader_name1}}}|[[{{{leader_name1}}}]]|{{{leader_name1}}}}} </td>
+	</tr>
+{{#if:{{{leader_title2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title2}}}
+		<td>{{#ifexist: {{{leader_name2}}}|[[{{{leader_name2}}}]]|{{{leader_name2}}}}} </td>
+	</tr>
+{{#if:{{{leader_title3|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title3}}}
+		<td>{{#ifexist: {{{leader_name3}}}|[[{{{leader_name3}}}]]|{{{leader_name3}}}}} </td>
+	</tr>
+{{#if:{{{leader_title4|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;{{{leader_title4}}}
+		<td>{{#ifexist: {{{leader_name4}}}|[[{{{leader_name4}}}]]|{{{leader_name4}}}}} </td>
+	</tr>
+}} }} }} }} }}<!-- ***** Geographical characteristics ***** -->
+{{#if:{{{area_total|}}}{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{TotalArea_sq_mi|}}}{{{area_land|}}}{{{LandArea_sq_mi|}}}{{{area_water|}}}{{{WaterArea_sq_mi|}}}{{{area_urban|}}}{{{UrbanArea_sq_mi|}}}{{{area_metro|}}}{{{MetroArea_sq_mi|}}}|
+	<tr <!-- ***** Area ***** --> class="mergedtoprow">
+		<td colspan="2">'''[[Area]]''' {{#if:{{{area_footnotes|}}}|{{{area_footnotes}}}}}</td>
+	</tr>
+{{#if:{{{area_total|}}}{{{area_total_km2|}}}{{{area_total_sq_mi|}}}{{{TotalArea_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th> &nbsp;-&nbsp;{{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}
+		</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|[[United States of America]]|United States of America|United States|United Kingdom|[[United States|United States of America]]=
+{{#if:{{{TotalArea_sq_mi|}}}{{{area_total_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} }}&nbsp;[[square mile|sq&nbsp;mi]] 
+({{#if:{{{area_magnitude|}}}|{{formatnum:{{#if:{{{area_total|}}}{{{area_total_km2|}}}|{{{area_total_km2|{{{area_total|}}} }}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[{{{area_magnitude}}}_m²|km²]]|{{formatnum:{{#if:{{{area_total|}}}{{{area_total_km2|}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[Square kilometre|km²]]}})
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_total_km2|{{{area_total|}}}}}} div 2.589988110336 round 1}} }}&nbsp;[[square mile|sq&nbsp;mi]]&nbsp;({{#if:{{{area_magnitude|}}}|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}  [[{{{area_magnitude}}}_m²|km²]]|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}  [[Square kilometre|km²]]}}) }}
+|<!--SN OR ELSE use unit_pref way-->{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{TotalArea_sq_mi|}}}{{{area_total_sq_mi|}}}{{{area_total_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} }}&nbsp;[[square mile|sq&nbsp;mi]]&nbsp;({{#if:{{{area_magnitude|}}}|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[{{{area_magnitude}}}_m²|km²]]|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[Square kilometre|km²]]}})
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_total_km2|{{{area_total|}}}}}} div 2.589988110336 round 1}} }}&nbsp;[[square mile|sq&nbsp;mi]]&nbsp;({{#if:{{{area_magnitude|}}}|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}  [[{{{area_magnitude}}}_m²|km²]]|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}  [[Square kilometre|km²]]}}) }}
+|Metric|SI|<!--If unit pref Metric or Blank then show-->=
+{{#if:{{{area_magnitude|}}}|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[{{{area_magnitude}}}_m²|km²]]|{{formatnum:{{#if:{{{area_total_km2|{{{area_total|}}}}}}|{{{area_total_km2|{{{area_total|}}}}}}|{{#expr: {{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }} [[Square kilometre|km²]]}} {{#if:{{{TotalArea_sq_mi|}}}{{{area_total_sq_mi|}}} |&nbsp;({{formatnum:{{{area_total_sq_mi|{{{TotalArea_sq_mi|}}} }}}}}&nbsp;[[square mile|sq&nbsp;mi]])|&nbsp;({{formatnum:{{#expr: {{{area_total_km2|{{{area_total|}}}}}} div 2.589988110336 round 1}} }}&nbsp;[[square mile|sq&nbsp;mi]]) }} }} }} }}</td>
+	</tr>
+{{#if:{{{area_land_km2|}}}{{{area_land_sq_mi|}}}{{{area_land|}}}{{{LandArea_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;-&nbsp;Land</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{LandArea_sq_mi|}}}{{{area_land_sq_mi|}}}  |<!--THEN-->&nbsp;{{formatnum:{{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land|}}}{{{area_land_km2|}}}|{{{area_land_km2|{{{area_land|}}}}}}|{{#expr: {{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_land_km2|{{{area_land|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land|}}}{{{area_land_km2|}}}|{{{area_land_km2|{{{area_land|}}}}}}|{{#expr: {{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{LandArea_sq_mi|}}}{{{area_land_sq_mi|}}}  |<!--THEN-->&nbsp;{{formatnum:{{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land|}}}{{{area_land_km2|}}}|{{{area_land_km2|{{{area_land|}}}}}}|{{#expr: {{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_land_km2|{{{area_land|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_land|}}}{{{area_land_km2|}}}|{{{area_land_km2|{{{area_land|}}}}}}|{{#expr: {{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_land|}}}{{{area_land_km2|}}}|{{{area_land_km2|{{{area_land|}}}}}}|{{#expr: {{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{LandArea_sq_mi|}}}{{{area_land_sq_mi|}}}  |<!--THEN-->{{formatnum:{{{area_land_sq_mi|{{{LandArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_land_km2|{{{area_land|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{area_water_km2|}}}{{{area_water_sq_mi|}}}{{{area_water|}}}{{{WaterArea_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Water</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{WaterArea_sq_mi|}}}{{{area_water_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water|}}}{{{area_water_km2|}}}|{{{area_water_km2|{{{area_water|}}} }}}|{{#expr: {{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_water_km2|{{{area_water|}}} }}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water|}}}{{{area_water_km2|}}}|{{{area_water_km2|{{{area_water|}}} }}}|{{#expr: {{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{WaterArea_sq_mi|}}}{{{area_water_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water|}}}{{{area_water_km2|}}}|{{{area_water_km2|{{{area_water|}}} }}}|{{#expr: {{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_water_km2|{{{area_water|}}} }}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_water|}}}{{{area_water_km2|}}}|{{{area_water_km2|{{{area_water|}}} }}}|{{#expr: {{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_water|}}}{{{area_water_km2|}}}|{{{area_water_km2|{{{area_water|}}} }}}|{{#expr: {{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{WaterArea_sq_mi|}}}{{{area_water_sq_mi|}}} |<!--THEN-->{{formatnum:{{{area_water_sq_mi|{{{WaterArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_water_km2|{{{area_water|}}} }}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}}) }} {{#if:{{{area_water_percent|}}}| &nbsp;{{{area_water_percent}}}%}} }}</td>
+	</tr>
+}}{{#if:{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_urban|}}}{{{UrbanArea_sq_mi|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;- Urban</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{UrbanArea_sq_mi|}}}{{{area_urban_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_urban|}}}{{{area_urban_km2|}}}|{{{area_urban_km2|{{{area_urban|}}}}}}|{{#expr: {{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_urban_km2|{{{area_urban|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_urban|}}}{{{area_urban_km2|}}}|{{{area_urban_km2|{{{area_urban|}}}}}}|{{#expr: {{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{UrbanArea_sq_mi|}}}{{{area_urban_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_urban|}}}{{{area_urban_km2|}}}|{{{area_urban_km2|{{{area_urban|}}}}}}|{{#expr: {{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_urban_km2|{{{area_urban|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_urban|}}}{{{area_urban_km2|}}}|{{{area_urban_km2|{{{area_urban|}}}}}}|{{#expr: {{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_urban|}}}{{{area_urban_km2|}}}|{{{area_urban_km2|{{{area_urban|}}}}}}|{{#expr: {{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{UrbanArea_sq_mi|}}}{{{area_urban_sq_mi|}}} |<!--THEN-->{{formatnum:{{{area_urban_sq_mi|{{{UrbanArea_sq_mi|}}} }}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_urban_km2|{{{area_urban|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_metro|}}}{{{MetroArea_sq_mi|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;- Metro</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{MetroArea_sq_mi|}}}{{{area_metro_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_metro|}}}{{{area_metro_km2|}}}|{{{area_metro_km2|{{{area_metro|}}}}}}|{{#expr: {{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_metro_km2|{{{area_metro|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_metro|}}}{{{area_metro_km2|}}}|{{{area_metro_km2|{{{area_metro|}}}}}}|{{#expr: {{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{MetroArea_sq_mi|}}}{{{area_metro_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_metro|}}}{{{area_metro_km2|}}}|{{{area_metro_km2|{{{area_metro|}}}}}}|{{#expr: {{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_metro_km2|{{{area_metro|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_metro|}}}{{{area_metro_km2|}}}|{{{area_metro_km2|{{{area_metro|}}}}}}|{{#expr: {{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_metro|}}}{{{area_metro_km2|}}}|{{{area_metro_km2|{{{area_metro|}}}}}}|{{#expr: {{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{MetroArea_sq_mi|}}}{{{area_metro_sq_mi|}}} |<!--THEN-->{{formatnum:{{{area_metro_sq_mi|{{{MetroArea_sq_mi|}}}}}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_metro_km2|{{{area_metro|}}}}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})}} }}</td>
+	</tr>
+}}{{#if:{{{area_blank1_km2|}}}{{{area_blank1_sq_mi|}}}{{{area_blank1_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{area_blank1_title}}}</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{area_blank1_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_blank1_sq_mi}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank1_km2|}}}|{{{area_blank1_km2}}}|{{#expr: {{{area_blank1_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_blank1_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank1_km2|}}}|{{{area_blank1_km2}}}|{{#expr: {{{area_blank1_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{area_blank1_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_blank1_sq_mi}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank1_km2|}}}|{{{area_blank1_km2}}}|{{#expr: {{{area_blank1_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_blank1_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank1_km2|}}}|{{{area_blank1_km2}}}|{{#expr: {{{area_blank1_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_blank1_km2|}}}|{{{area_blank1_km2}}}|{{#expr: {{{area_blank1_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{area_blank1_sq_mi|}}} |<!--THEN-->{{formatnum:{{{area_blank1_sq_mi}}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_blank1_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})}} }}</td>
+	</tr>
+}}{{#if:{{{area_blank2_km2|}}}{{{area_blank2_sq_mi|}}}{{{area_blank2_title|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{area_blank2_title}}}</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{area_blank2_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_blank2_sq_mi}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank2_km2|}}}|{{{area_blank2_km2}}}|{{#expr: {{{area_blank2_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_blank2_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank2_km2|}}}|{{{area_blank2_km2}}}|{{#expr: {{{area_blank2_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{area_blank2_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{area_blank2_sq_mi}}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank2_km2|}}}|{{{area_blank2_km2}}}|{{#expr: {{{area_blank2_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{area_blank2_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{area_blank2_km2|}}}|{{{area_blank2_km2}}}|{{#expr: {{{area_blank2_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{area_blank2_km2|}}}|{{{area_blank2_km2}}}|{{#expr: {{{area_blank2_sq_mi}}} * 2.589988110336 round 1}} }} }}&nbsp;km²&nbsp;({{#if:{{{area_blank2_sq_mi|}}} |<!--THEN-->{{formatnum:{{{area_blank2_sq_mi}}} }}&nbsp;sq&nbsp;mi|{{formatnum:{{#expr: {{{area_blank2_km2}}} div 2.589988110336 round 1}} }}&nbsp;sq&nbsp;mi}})}} }}</td>
+           </tr>
+}} }}<!-- ***** Elevation ***** -->
+{{#if:{{{elevation|}}}{{{elevation_m|}}}{{{elevation_ft|}}}|
+	<tr class="mergedbottomrow">
+		<th>[[Elevation]] {{#if:{{{elevation_footnotes|}}}|{{{elevation_footnotes}}}}}</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{elevation_ft|}}} |<!--THEN-->&nbsp;{{formatnum:{{{elevation_ft}}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation|}}}{{{elevation_m|}}}|{{{elevation_m|{{{elevation|}}} }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]])
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{elevation_m|{{{elevation|}}} }}} div 0.3048 round 1}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation|}}}{{{elevation_m|}}}|{{{elevation_m|{{{elevation|}}} }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]]) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{elevation_ft|}}} |<!--THEN-->&nbsp;{{formatnum:{{{elevation_ft}}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation|}}}{{{elevation_m|}}}|{{{elevation_m|{{{elevation|}}} }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]])
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{elevation_m|{{{elevation|}}} }}} div 0.3048 round 1}} }}&nbsp;[[foot (unit of length)|ft]]&nbsp;({{formatnum:{{#if:{{{elevation|}}}{{{elevation_m|}}}|{{{elevation_m|{{{elevation|}}} }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]]) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{elevation|}}}{{{elevation_m|}}}|{{{elevation_m|{{{elevation|}}} }}}|{{#expr: {{{elevation_ft}}} * 0.3048 round 1}} }} }}&nbsp;[[metre|m]]&nbsp;({{#if:{{{elevation_ft|}}} |<!--THEN-->{{formatnum:{{{elevation_ft}}} }}&nbsp;[[foot (unit of length)|ft]]|{{formatnum:{{#expr: {{{elevation_m|{{{elevation|}}} }}} div 0.3048 round 1}} }}&nbsp;[[foot (unit of length)|ft]]}}) }} }}</td>
+	</tr>
+}}<!-- ***** Population ***** -->
+{{#if:{{{population_total|}}}{{{population_urban|}}}{{{population_metro|}}}|
+	<tr class="mergedtoprow">
+		<td colspan="2">'''Population''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}}){{#if:{{{population_footnotes|}}}|{{{population_footnotes}}}}}}}</td>
+	</tr>
+{{#if:{{{population_total|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{#if:{{{settlement_type|}}}|{{{settlement_type}}}|City}}</th>
+		<td>{{formatnum:{{{population_total}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density|}}}{{{population_density_sq_mi|}}}{{{population_density_km2|}}}{{{population_density_mi2|}}}|
+        <tr class="mergedrow">
+		<th>&nbsp;- [[Population density|Density]]</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{population_density_mi2|}}}{{{population_density_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_sq_mi|{{{population_density_mi2|}}}}}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_km2|}}}{{{population_density|}}}|{{{population_density_km2|{{{population_density|}}} }}}|{{#expr: {{{population_density_sq_mi|{{{population_density_mi2|}}}}}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_km2|{{{population_density|}}} }}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_km2|}}}{{{population_density|}}}|{{{population_density_km2|{{{population_density|}}} }}}|{{#expr: {{{population_density_sq_mi|{{{population_density_mi2|}}}}}}div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{population_density_mi2|}}}{{{population_density_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_sq_mi|{{{population_density_mi2|}}}}}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_km2|}}}{{{population_density|}}}|{{{population_density_km2|{{{population_density|}}} }}}|{{#expr: {{{population_density_sq_mi|{{{population_density_mi2|}}}}}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_km2|{{{population_density|}}} }}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_km2|}}}{{{population_density|}}}|{{{population_density_km2|{{{population_density|}}} }}}|{{#expr: {{{population_density_sq_mi|{{{population_density_mi2|}}}}}}div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{population_density_km2|}}}{{{population_density|}}}|{{{population_density_km2|{{{population_density|}}} }}}|{{#expr: {{{population_density_sq_mi|{{{population_density_mi2|}}}}}}div 2.589988110336 round 1}} }} }}/km²&nbsp;({{#if:{{{population_density_mi2|}}}{{{population_density_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_sq_mi|{{{population_density_mi2|}}}}}}}}/sq&nbsp;mi|{{formatnum:{{#expr: {{{population_density_km2|{{{population_density|}}} }}} * 2.589988110336 round 1}} }}/sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{population_urban|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- [[Urban area|Urban]]</th>
+		<td>{{formatnum:{{{population_urban}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_urban_sq_mi|}}}{{{population_density_urban_km2|}}}{{{population_density_urban_mi2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Urban Density
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{population_density_urban_mi2|}}}{{{population_density_urban_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_urban_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{population_density_urban_mi2|}}}{{{population_density_urban_sq_mi|}}} |<!--THEN-->&nbsp;{{formatnum:{{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_urban_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{population_density_urban_km2|}}}|{{{population_density_urban_km2}}}|{{#expr: {{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²&nbsp;({{#if:{{{population_density_urban_mi2|}}}{{{population_density_urban_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_urban_sq_mi|{{{population_density_urban_mi2|}}} }}}}}/sq&nbsp;mi|{{formatnum:{{#expr: {{{population_density_urban_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{population_metro|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- [[Metropolitan area|Metro]]</th>
+		<td>{{formatnum:{{{population_metro}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_metro_sq_mi|}}}{{{population_density_metro_km2|}}}{{{population_density_metro_mi2|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- Metro Density</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{population_density_metro_mi2|}}}{{{population_density_metro_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_metro_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{population_density_metro_mi2|}}}{{{population_density_metro_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}}}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_metro_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{population_density_metro_km2|}}}|{{{population_density_metro_km2}}}|{{#expr: {{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}div 2.589988110336 round 1}} }} }}/km²&nbsp;({{#if:{{{population_density_metro_mi2|}}}{{{population_density_metro_sq_mi|}}}|<!--THEN-->{{formatnum:{{{population_density_metro_sq_mi|{{{population_density_metro_mi2|}}} }}}}}/sq&nbsp;mi|{{formatnum:{{#expr: {{{population_density_metro_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{population_blank1|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank1_title|}}}</th>
+		<td>{{formatnum:{{{population_blank1}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_blank1_km2|}}}{{{population_density_blank1_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank1_title|}}} Density</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{population_density_blank1_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank1_sq_mi}}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_blank1_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{population_density_blank1_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank1_sq_mi}}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_blank1_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{population_density_blank1_km2|}}}|{{{population_density_blank1_km2}}}|{{#expr: {{{population_density_blank1_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²&nbsp;({{#if:{{{population_density_blank1_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank1_sq_mi}}} }}/sq&nbsp;mi|{{formatnum:{{#expr: {{{population_density_blank1_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{population_blank2|}}}| 
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank2_title|}}}</th>
+		<td>{{formatnum:{{{population_blank2}}}}}</td>
+	</tr>
+}}{{#if:{{{population_density_blank2_km2|}}}{{{population_density_blank2_sq_mi|}}}|
+	<tr class="mergedrow">
+		<th>&nbsp;- {{{population_blank2_title|}}} Density</th>
+		<td>{{#switch:{{{subdivision_name|}}}|[[United States]]|[[United Kingdom]]|United States|United Kingdom|[[United States of America]]|United States of America|[[United States|United States of America]]=
+{{#if:{{{population_density_blank2_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank2_sq_mi}}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank2_km2|}}}|{{{population_density_blank2_km2}}}|{{#expr: {{{population_density_blank2_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_blank2_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank2_km2|}}}|{{{population_density_blank2_km2}}}|{{#expr: {{{population_density_blank2_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²) }} 
+|<!--IF NOT SN Then use unit pref method-->
+{{#switch:{{{unit_pref|}}}|Imperial|English|UK|US|U.S.|US Customary|U.S. Customary|Standard|imperial|english=
+{{#if:{{{population_density_blank2_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank2_sq_mi}}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank2_km2|}}}|{{{population_density_blank2_km2}}}|{{#expr: {{{population_density_blank2_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²)
+|<!--OR ELSE-->{{formatnum:{{#expr: {{{population_density_blank2_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi&nbsp;({{formatnum:{{#if:{{{population_density_blank2_km2|}}}|{{{population_density_blank2_km2}}}|{{#expr: {{{population_density_blank2_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²) }}
+|Metric|SI|<!--If unit pref Metric or BLANK--then show-->=
+{{formatnum:{{#if:{{{population_density_blank2_km2|}}}|{{{population_density_blank2_km2}}}|{{#expr: {{{population_density_blank2_sq_mi}}} div 2.589988110336 round 1}} }} }}/km²&nbsp;({{#if:{{{population_density_blank2_sq_mi|}}} |<!--THEN-->{{formatnum:{{{population_density_blank2_sq_mi}}} }}/sq&nbsp;mi|{{formatnum:{{#expr: {{{population_density_blank2_km2}}} * 2.589988110336 round 1}} }}/sq&nbsp;mi}}) }} }}</td>
+	</tr>
+}}{{#if:{{{population_note|}}}|
+	<tr class="mergedbottomrow">
+		<td>&nbsp;</td>
+		<td><small>{{{population_note}}}</small></td>
+	</tr>
+}} }}<!-- ***** Time Zone ***** -->
+{{#if:{{{timezone|}}}|
+	<tr class="mergedtoprow">
+		<th>[[Time zone]]</th>
+		<td>{{{timezone}}} ([[UTC{{{utc_offset}}}]])
+	</tr>
+{{#if:{{{timezone_DST|}}}|
+	<tr class="mergedbottomrow">
+		<th style="white-space: nowrap;">&nbsp;-&nbsp;Summer&nbsp;([[Daylight saving time|DST]])</th>
+		<td>{{{timezone_DST|}}} ([[UTC{{{utc_offset_DST|}}}]])</td>
+	</tr>
+}} }}<!-- ***** Postal Code(s) ***** -->
+{{#if:{{{postal_code_type|}}}|
+	<tr class="mergedtoprow">
+		<th>[[{{{postal_code_type}}}]]</th>
+		<td>{{{postal_code}}}</td>
+	</tr>
+}}<!-- ***** Area Code(s) ***** -->
+{{#if:{{{area_code|}}}|
+	<tr class="mergedrow">
+		<th>Area code(s)</th>
+		<td>{{{area_code}}}</td>
+	</tr>
+}}<!--*****Blank Fields*****-->
+{{#if:{{{blank_name|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank_name}}}</th>
+		<td>{{{blank_info}}}</td>
+	</tr>
+{{#if:{{{blank1_name|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank1_name}}}</th>
+		<td>{{{blank1_info}}}</td>
+	</tr>
+{{#if:{{{blank2_name|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank2_name}}}</th>
+		<td>{{{blank2_info}}}</td>
+	</tr>
+{{#if:{{{blank3_name|}}}|
+	<tr class="mergedrow">
+		<th>{{{blank3_name}}}</th>
+		<td>{{{blank3_info}}}</td>
+	</tr>
+}}}} }}}}<!-- ***** Footnotes ***** -->
+{{#if:{{{footnotes|}}}|
+	<tr class="mergedrow">
+		<td colspan="2" align="left"><small>{{{footnotes}}}</small></td>
+	</tr>
+}}<!-- ***** Website ***** -->
+{{#if:{{{website|}}}|
+	<tr class="mergedtoprow">
+		<td colspan="2" align="center">'''Website:'''  {{{website}}}
+	</tr>
+}}</table>{{#if:{{{image_dot_map|}}}|[[Category:Settlement articles requiring maintenance]]}}
