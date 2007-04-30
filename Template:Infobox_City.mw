@@ -1,6 +1,6 @@
 <table class="infobox geography vcard" style="width: 23em;">
 	<tr>
-		<td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap;">'''<span class="fn org">{{{official_name}}}</span>{{#if:{{{native_name|}}}|<br>{{{native_name}}}}}{{#if:{{{other_name|}}}|<br>{{{other_name}}}}}'''</td>
+		<td colspan="2" align="center" style="width:100%; font-size: 1.25em; white-space: nowrap;">'''<span class="fn org"> {{{official_name}}}</span>{{#if:{{{native_name|}}}|<br>{{{native_name}}}}}{{#if:{{{other_name|}}}|<br>{{{other_name}}}}}'''</td>
 	</tr>
 <!-- ***** Skyline Image ***** -->
 {{#if:{{{image_skyline|}}}|
