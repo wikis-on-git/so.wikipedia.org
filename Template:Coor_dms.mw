@@ -1,1 +1,4 @@
-<span class="{{#if:{{{title|}}}|geolink|plainlinksneverexpand}}">[{{Coor URL}}{{{1}}}_{{{2}}}_{{{3}}}_{{{4}}}_{{{5}}}_{{{6}}}_{{{7}}}_{{{8}}}_{{{9}}} <span title="Maps, aerial photos, and other data for {{{title|{{{1}}}°{{{2}}}′{{{3}}}″{{{4}}} {{{5}}}°{{{6}}}′{{{7}}}″{{{8}}}}}}"> {{{title|<span style="white-space:nowrap">{{{1}}}°{{{2}}}′{{{3}}}″{{{4}}},</span> <span style="white-space:nowrap">{{{5}}}°{{{6}}}′{{{7}}}″{{{8}}}</span></span>}}}]</span>
+<span class="{{#if:{{{title|}}}|geolink|plainlinksneverexpand}}">[{{Coor URL}}{{{1}}}_{{{2}}}_{{{3}}}_{{{4}}}_{{{5}}}_{{{6}}}_{{{7}}}_{{{8}}}_{{{9}}} <span title="Maps, aerial photos, and other data for {{{title|{{{1}}}°{{{2}}}′{{{3}}}″{{{4}}} {{{5}}}°{{{6}}}′{{{7}}}″{{{8}}}}}}"> {{{title|<span style="white-space:nowrap">{{{1}}}°{{{2}}}′{{{3}}}″{{{4}}},</span> <span style="white-space:nowrap">{{{5}}}°{{{6}}}′{{{7}}}″{{{8}}}</span></span>}}}]</span><noinclude>
+{{protected template}}
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
