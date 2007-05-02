@@ -1,0 +1,28 @@
+{| border=0 align=right cellpadding=0 cellspacing=0 width=260px class="toccolours" style="float: right; margin: 0 0 1em 1em; padding: 0; border-collapse: collapse; font-size: 90%; text-align: left;" 
+|+ style="font-size:larger; font-weight: bold;" | {{{name_local}}}
+|- 
+| align=center colspan=2 style="padding: 5px" | [[Image:{{{image_coat_of_arms}}}|128px]]
+|- style="background-color: #efefef;" 
+|style="padding: 0 5px 0 5px;" | {{{region_type}}} (''[[{{{region_type_local}}}]]'') of
+|style="padding: 0 5px 0 0;" |'''[[{{{region_of_link}}}|{{{region_of_name}}}]]''' ('''''{{{region_of_name_local}}}''''')
+|- 
+|style="padding: 0 5px 0 5px;" | Capital
+|style="padding: 0 5px 0 0;" |'''[[{{{capital}}}]]'''
+|- style="background-color: #efefef;" 
+|style="padding: 0 5px 0 5px;" | Area
+|style="padding: 0 5px 0 0;" |'''{{{area}}}''' km²
+|-
+|style="padding: 0 5px 0 5px;" | Population
+|style="padding: 0 5px 0 0;" |'''{{{population}}}''' ({{{population_as_of}}})
+|- style="background-color: #efefef;" 
+|style="padding: 0 5px 0 5px;" | ~ density
+|style="padding: 0 5px 0 0;" |'''{{{density}}}''' inh./km²
+|- 
+|style="padding: 0 5px 0 5px;" | {{{subdivision_number}}} {{{subdivision_type}}}s (''[[{{{subdivision_type_local}}}]]''):
+|style="padding: 0 5px 0 0;" |'''{{{subdivision_list}}}
+|- style="background-color: #efefef;" 
+|style="padding: 0 5px 0 5px;" | Website
+|style="padding: 0 5px 0 0;" |'''{{{website}}}'''
+|- 
+|align=center colspan=2 style="padding: 5px" | [[Image:{{{image_location}}}|256px]]
+|}
