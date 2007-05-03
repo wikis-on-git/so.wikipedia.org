@@ -1,0 +1,18 @@
+<includeonly>{{template doc page transcluded}}</includeonly><noinclude>{{template doc page viewed directly}}</noinclude>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+<includeonly>{{sprotected2}}</includeonly>
+
+Use to raise some text or other element a specified number of pixels (px), otherwise by a default 8px:
+: <code><nowiki>{{</nowiki>raise|''N''px|''text''/''element''}}</code> to raise by ''N'' pixels{{spaces|2}}<span style="font-size:90%;">(e.g. <code><nowiki>{{</nowiki>raise|6px|This is the text to raise.}}</code>)</span>
+: <code><nowiki>{{</nowiki>raise|''text''/''element''}}</code> to raise by default 8px.
+
+== See also ==
+* {{tl|Lower}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Formatting templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+
+</includeonly>
