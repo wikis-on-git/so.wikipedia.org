@@ -1,0 +1,47 @@
+<!-- This is the same template as indent, but does not give a leading line-feed, thus making it suitable for in-line padding, etc.
+revised code from http://en.wikipedia.org/w/index.php?title=User:CBDunkerson/Sandbox6&direction=next&oldid=57445940 without leading linefeed. Thanks CBDunkerson!!! -->{{#switch: {{{1}}}
+|1=&nbsp;
+|2=&nbsp;{{unicode|&emsp;}} 
+|3=&nbsp; {{unicode|&emsp;}}
+|4=&nbsp; {{unicode|&emsp;}} &nbsp;
+|5=&nbsp; {{unicode|&emsp;}} &nbsp;
+|6=&nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|7=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|8=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|9=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|10=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|11=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|12=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|13=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|14=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|15=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|16=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|17=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|18=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|19=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|20=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|21=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|22=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|23=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|24=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|25=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|26=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|27=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}
+|28=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}}&nbsp;
+|29=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;
+|30=&nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp; {{unicode|&emsp;}} &nbsp;&nbsp;
+|0|#default=}}<noinclude>{{-}}
+[[Category:Typing-aid templates|{{PAGENAME}}]]
+[[Category:Templates using ParserFunctions|{{PAGENAME}}]]
+[[Category:Formatting templates|{{PAGENAME}}]]
+==Usage==
+This template can be used inline to create alignment between adjacent text lines, or to space out titles, etc. Like {{tl|indent}}, it takes a numeric argument 'nn' after the pipe and provides that many consecutive spaces. Indent differs only in that it automatically begins a newline, then spaces over nn spaces.
+
+==Example calls==
+<nowiki>{{indent|2}}, {{space|7}}, etc. </nowiki>{{indent|5}}'''space''' and '''indent''' are limited to adding '''30 spaces'''.
+
+==See also==
+:'''{{tl|s}}''' &mdash; brief version for inline use, defaults to 3 spaces given no numeric argument.
+
+[[sl:Predloga:Presledek]]
+</noinclude>
