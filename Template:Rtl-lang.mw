@@ -1,0 +1,33 @@
+<noinclude>{{protected template}}</noinclude><span lang="{{{1}}}" xml:lang="{{{1}}}" dir="rtl">{{{2}}}</span>&lrm;<noinclude>
+
+==Usage==
+
+This template behaves like {{tl|lang}}, but additionally inserts the <code>dir="rtl"</code> parameter in the span, and adds the [[Left-to-right mark|&amp;lrm;]] character at the end of the span.
+
+'''Note''' that this is not required for normal insertion of a string in a [[Writing_system#Directionality|left-to-right script]]. If you don't know what you are doing, use {{tl|lang}}.
+
+For example, to produce strings in Arabic or Hebrew scrip, simply use:
+<pre>
+* The romanization of "{{lang|ar|اللغة العربية}}" is "{{ISOtranslit|''al-‘arabiyyah''|ar}}".
+* The romanization of "{{lang|he|עברית}}" is "{{ISOtranslit|''‘Ivrit''|he}}".
+* {{lang|kk|Қазақ тілі}} ({{lang|kk|قازاق ڌﻳل}})
+</pre>
+
+which yields
+* The romanization of "{{lang|ar|اللغة العربية}}" is "{{ISOtranslit|''al-‘arabiyyah''|ar}}".
+* The romanization of "{{lang|he|עברית}}" is "{{ISOtranslit|''‘Ivrit''|he}}".
+* {{lang|kk|Қазақ тілі}} ({{lang|kk|قازاق ڌﻳل}})
+
+
+Inline use of the  <code>dir="rtl"</code> parameter will be restricted to very rare cases, such as use of Arabic letters as symbols in mathematical formulae, or several levels of nested ltr-within-rtl-within-ltr.
+
+Further note that 
+:''For the 'direction' property to affect reordering in inline-level elements, the 'unicode-bidi' property's value must be 'embed' or 'override'.''[http://www.w3.org/TR/CSS21/visuren.html#direction]
+and that the point of the  <code>dir</code> parameter is proper linebreaking behaviour: if a linebreak separates {{lang|ar|اللغة العربية}}, it should be "{{lang|ar| العربية}}", not "{{lang|ar|اللغة }}" that is taken to the next line. 
+
+For entire '''rtl paragraphs''' (as opposed to citations of rtl strings within an English ltr paragraph), use {{tl|rtl-para}}.
+
+[[Category:Multilingual support templates|{{PAGENAME}}]]
+
+[[ja:Template:Rtl-lang]]
+</noinclude>
