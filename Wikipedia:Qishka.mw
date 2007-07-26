@@ -1,0 +1,162 @@
+{{Help contents back}}
+<!--Comment markup would be helpful in this table.   Displays:  Edit mode only -->
+<div align="center">
+{| style="border:1px solid #A3B1BF; text-align:left; background:#f5faff"
+|-
+| width="25%" style="background: #cee0f2; padding: 0.3em; text-align:center;"|'''Faahfaahin'''
+| style="background: #cee0f2; padding: 0.3em; text-align:center;"|'''Waxaad qoreysid'''	
+| width="25%" style="background: #cee0f2; padding: 0.3em; text-align:center;"|'''Waxaad heleysid'''
+|-
+| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Applies anywhere
+|-
+|Italicise text
+|
+<tt><nowiki>''italic''</nowiki></tt>
+|
+''italic''
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Bold text
+|
+<tt><nowiki>'''bold'''</nowiki></tt>
+|
+'''bold'''
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Bold and italic
+|
+<tt><nowiki>'''''bold & italic'''''</nowiki></tt>
+|
+'''''bold & italic'''''
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Internal link<br />
+(within Wikipedia)
+|
+<tt><nowiki>[[name of page]]</nowiki></tt><br />
+<tt><nowiki>[[name of page|display text]]</nowiki></tt><br />
+|
+[[name of page]]<br />
+[[name of page|display text]]<br />
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Redirect to another page
+|
+<tt><nowiki>#redirect [[Target page]]</nowiki></tt>
+|
+1. redirect [[Target page]]
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|External link<br />
+(to other websites)
+|
+<tt><nowiki>[http://www.example.com]</nowiki></tt><br />
+<tt><nowiki>[http://www.example.com display text]</nowiki></tt><br />
+<tt><nowiki>http://www.example.com</nowiki></tt>
+|
+[http://www.example.com]<br />
+[http://www.example.com display text]<br />
+http://www.example.com
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Escape wiki markup
+|
+<tt><nowiki>with ''markup''</nowiki></tt><br />
+<tt><nowiki><nowiki>without ''markup''</nowiki></nowiki></tt>
+|
+with ''markup''<br />
+<nowiki>without ''markup''</nowiki>
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Sign your posts
+|<nowiki>~~~~</nowiki>
+|[[User:Username|Username]] {{CURRENTTIME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} (UTC) 
+|-
+| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Applies only at the beginning of the line
+|-
+|Headings<br />
+of different sizes
+|
+<tt><nowiki>==level 1==</nowiki></tt><br />
+<tt><nowiki>===level 2===</nowiki></tt><br />
+<tt><nowiki>====level 3====</nowiki></tt><br />
+<tt><nowiki>=====level 4=====</nowiki></tt>
+|
+==Level 1==
+===Level 2===
+====Level 3====
+=====Level 4=====
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Bullet list
+|
+<tt>&#42; one</tt><br />
+<tt>&#42; two</tt><br />
+<tt>&#42;&#42; two point one</tt><br />
+<tt>&#42; three</tt>
+|
+* one
+* two
+** two point one
+* three
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+|Numbered list
+|
+<tt>&#35; one</tt><br />
+<tt>&#35; two</tt><br />
+<tt>&#35;&#35; two point one</tt><br />
+<tt>&#35; three</tt>
+|
+# one
+# two
+## two point one
+# three
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|
+|-
+| Definition list
+|
+<tt>&#59;Definition</tt><br />
+<tt>&#58;item 1</tt><br />
+<tt>&#58;item 2</tt>
+|
+;Definition
+:item 1
+:item 2
+|-
+|colspan="3" style="border-top:1px solid #cee0f2;"|&nbsp;
+|-
+|Thumbnail image
+|
+<nowiki>[[Image:Wiki.png|thumb|Caption text]]</nowiki>
+|
+[[Image:Wiki.png|thumb|Caption text]]
+|}
+See [[Help:Editing]] for more detailed explanations.
+</div>
+
+==See also==
+*Use a sandbox such as [[Wikipedia:Sandbox]] for experimentation with editing
+*[[Wikipedia:Introduction]], a tour of features
+*[[Wikipedia:How to edit a page]], an extended cheatsheet
+*[[Wikipedia:The perfect article]], a checklist of components required to make a "perfect" article
+*[[:m:Cheatsheet|Poster-size .pdf cheatsheet]], intended for printing, available in many languages
+*The encyclopedic article on [[cheat sheet]]s
+__NOTOC__ __NOEDITSECTION__
+
+[[Category:Wikipedia help|{{PAGENAME}}]]
+[[Category:Wikipedia basic information|{{PAGENAME}}]]
+
+[[es:Ayuda:Referencia rápida]]
+[[tr:Vikipedi:Hızlı rehber]]
+[[zh:Wikipedia:備忘單]]
