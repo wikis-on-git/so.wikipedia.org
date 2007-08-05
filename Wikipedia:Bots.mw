@@ -31,7 +31,20 @@ I request bot status an this wiki in order to <please fill here>
 |}
 ==Current requests==
 
+=== [[User:Byrialbot|Byrialbot]] ===
+Hello! Sorry for not speaking Somali. I ask for a bot flag for my interwiki bot [[User:Byrialbot|Byrialbot]] so it will not fill the recent changes page with interwiki updates.
+* Bot account: [[User:Byrialbot]] ([[Special:Contributions/Byrialbot|contributions]])
+* Botmaster: [[User:Byrial]]
+* Botmaster's home project: [[:da:User:Byrial]]
+* List of botflags on other wikipedias: als:, am:, an:, ang: ar:, arc:, ast:, az:, bat-smg:, be:, be-x-old:, bg:, bm:, bn:, bs:, bpy:, ca:, cdo:, ce:, ceb:, co:, cs:, cv:, cy:, da:, de:, dv:, el:, en:, eo:, es:, et:, fa:, ff:, fi:, fo:, fr:, frp:, fur:, fy:, ga:, gd:, gl:, he:, hi:, hr:, hsb:, hu:, hy:, ia:, id:, ie:, ig:, ilo:, io:, is:, it:, iu:, ja:, jv:, ka:, kk:, kl:, kn:, ksh:, ku:, kw:, la:, lb:, li:, ln:, lt:, lv:, mi:, mk:, ml:, mr:, ms:, nah:, nap:, nds:, nds-nl:, nl:, nn:, no:, nov:, nrm:, oc:, os:, pam:, pdc:, pms:, pt:, qu:, ro:, ru:, ru-sib: scn:, sco:, sh:, simple:, sk:, sl:, sm:, sq:, sr:, su:, sv:, sw:, ta:, te:, tg:, th:, tk:, tl:, tt:, uk:, ur:, uz:, vec:, vi:, vls:, vo:, war:, wo:, zea:, zh-classical:, zh-min-nan:, zh-yue:
+* Purpose: Interwiki
+* Technical details: Update interwiki links using [[meta:Pywikipediabot|Pywikipediabot]] (constantly updated  with SVN) normally starting from da:, nn:, no: and sv:. It mostly runs manually assisted and I try to solve found interwiki conflicts when I can.
+I know that you have no bureaucrats here who can grant bot flags, but I need consensus from the local community before I can ask for the flag at the Meta-Wiki. So please tell your opinion. Thank you! [[User:Byrial|Byrial]] 09:05, 5 Agoosto 2007 (UTC)
 
+====Approval====
+# .
+====Reject====
+# .
 
 
 [[de:Wikipedia:Bots]]
