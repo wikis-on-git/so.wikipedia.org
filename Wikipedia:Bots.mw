@@ -1,0 +1,42 @@
+__TOC__
+
+{| 
+|- valign="top"
+|style="padding-right:1em;" width="50%"|
+
+==Please translate==
+
+|style="padding-left:1em;" width="50%"|
+
+==English==
+'''Robots''', so-called '''bots''', are scripts that are run on Wikipedia to perform routine maintenance. Most robots add or update interwiki links (links to parallel articles in other languages), but they can also do other work like moving or removing categories, checking the validity of external links, and so on.
+
+===Guidelines for assignment of bot status===
+Bot status, which makes a robot invisible in the [[Special:Recentchanges|Recent changes]] list, may be switched on by [[m:Stewards|stewards]] after the robot has been approved by the local community.
+
+In order to obtain bot status you should mention the kind of activity you are planning to do on this wiki, an in particular, for interwiki bots mention if you are running the [[m:pywikipediabot|pywikipediabot]] script and whether you constantly update it with SVN. For other types of bots you must explain what it does, run '''20''' test edits to illustrate it. 
+
+The approval for bot status is obtained after one week if you get at least 75% of approval votes or no reject votes at all: In other cases, an administrator should establish the conclusion of the vote. Once the requirements are fulfilled, you can [[m:Requests for bot status|requests for bot status at the meta site]].
+===Boilerplate request===
+===<nowiki>[[User:XXX]]</nowiki>===
+I request bot status an this wiki in order to <please fill here>
+*User:
+*Bot account:
+*Test edits <link to the bot's test contributions>
+*For interwiki bots: The bot uses/does not uses pywikipedia software [and is constantly updated with SVN].
+====Approval====
+# .
+====Reject====
+# .
+|}
+==Current requests==
+
+
+
+
+[[de:Wikipedia:Bots]]
+[[en:Wikipedia:Bots]]
+[[es:Wikipedia:Bot]]
+[[fr:Wikipédia:Bot]]
+[[ja:Wikipedia:Bot]]
+[[no:Wikipedia:Roboter]]
