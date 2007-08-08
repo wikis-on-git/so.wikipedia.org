@@ -5,7 +5,7 @@ region_type_local =Sanaag|
 region_of_link = Soomaaliya|
 region_of_name = Soomaaliya|
 region_of_name_local = |
-capital = Xudur|
+capital = Ceerigaabo|
 area = 	53 374|
 population = 531 145|
 population_as_of =2007 [[http://www.world-gazetteer.com/wg.php?x=&men=gadm&lng=en&dat=32&geo=-198&srt=npan&col=aohdq]] |
@@ -18,16 +18,18 @@ website = |
 image_location = Somalia_regions_map_Sanaag.svg|
 }}
 
-==Degmooyinka Gobolka Sanaag== Ceerigaabo
-Ceelafweyn
-Garadag
-Badhan
-Hadaaftimo
-Yufle
-Gudom Biyo Cas
-Las Qoray
-Hiis
-Shalawo
+==Degmooyinka Gobolka Sanaag== 
+ region_of_name_local = |Ceerigaabo|
+ region_of_name_local = |Ceelafweyn|
+region_of_name_local =  |Garadag,
+region_of_name_local = |Badhan|
+region_of_name_local = |Hadaaftimo|
+region_of_name_local = |Yufle|
+region_of_name_local = | Maydh|
+region_of_name_local = |Gudomo Biyo Cas|
+region_of_name_local = |Las Qoray|
+region_of_name_local = |Hiis|
+region_of_name_local = |Shalawo|
 
 {{Gobolada Soomaaliya}}
 
