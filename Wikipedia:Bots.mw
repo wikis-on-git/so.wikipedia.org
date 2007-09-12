@@ -81,6 +81,13 @@ Hi, i request a bot bit for [[User:BotMultichill|BotMultichill]].
 ====Reject====
 # .
 
+==Bot policy==
+Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
+
+The standard policy is not incompatible with the policy described on this page. The extra requirements described on this page can be added to the standard policy in a local statement to that effect. Note that if there is no response favouring this, I'll assume that it is not necessary since the policy was written by a bot operator who is not otherwise a member of the local community.
+
+Please read the text at [[m:Bot policy]] before commenting. If you object, please say so; it will be implemented in one week if there is no objection, since it is particularly written to streamline bot requests on wikis with little or no community interested in bot access requests. <small>—[[m:user:Pathoschild/s|Pathoschild]] 21:01, 12 Sebteembar 2007 (UTC)</small>
+
 [[de:Wikipedia:Bots]]
 [[en:Wikipedia:Bots]]
 [[es:Wikipedia:Bot]]
