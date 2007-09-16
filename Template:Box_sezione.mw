@@ -1,0 +1,6 @@
+|-
+|colspan=2 align=center bgcolor="#{{{1}}}" style="border-bottom: 1px solid #808080; border-left: 1px solid #808080; border-right: solid 1px #808080; "  | {{{2}}}
+<noinclude><div class="toccolours itwiki_template_avviso">
+Questo box costruisce una riga di sezionamento per una tabella a una colonna di variabile.<br>
+'''Non''' deve essere chiamato direttamente dagli articoli, ma da una tabella che raggruppa articoli omogenei.<br>
+</div>[[Categoria:Template box|Sezione]]</noinclude>
