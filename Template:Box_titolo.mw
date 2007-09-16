@@ -1,0 +1,14 @@
+<noinclude>{{templateprotetto}}</noinclude><includeonly>{| align="right" cellpadding="2" cellspacing="0" style="margin-left:.5em; margin-bottom:.5em" width="300px"
+|-
+! style="font-size=100%; background:#{{{1}}}; border:1px solid #808080;" align="center" colspan="2" | <span style="float:right;">[[Immagine:Segui progetto {{{3}}}.png|20px|Progetto {{{3}}}]] </span>{{{2}}}</includeonly><noinclude><div class="toccolours itwiki_template_avviso">
+
+Questo box costituisce il titolo di una tabella, con il colore stabilito nella tabella chiamante e l'icona del rinvio al progetto. <br>
+<font color= green >'''Non''' deve essere chiamato direttamente dalle voci</font>, ma da una tabella che raggruppa voci omogenee.
+
+I parametri scritti in <font color=green>verde</font> sono facoltativi, poiché a volte non si conoscono. Questo vuol dire che se non vengono inseriti, non compaiono all'interno del template.<br>
+*Primo parametro: colore del titolo; nella forma alfanumerica (''ABCDEF''); ricavato dalla definizione del corrispondente progetto
+*Secondo parametro: titolo della tabella
+*Terzo parametro: <font color=green>nome del progetto </font>
+</div>
+
+[[Categoria:Template box|Titolo]]</noinclude>
