@@ -1,0 +1,23 @@
+<includeonly>|- 
+| align="center" colspan="2" style="border-left: 1px solid #808080; border-right: solid 1px #808080; border-bottom: solid 1px #808080; background:#F0F0F0"|
+{| style="background:#F0F0F0; text-align: center; border-collapse:collapse"
+|- style="vertical-align: middle"
+| style="border: 0;" | <span style="display:table-cell; border-collapse:collapse; border: solid 1px #BBB">[[Image:{{{1}}}|125px|left|{{PAGENAME}} - Bandiera]]</span>
+|
+|
+| style="border:1" | [[Immagine:{{{3}}}|80px|right|{{PAGENAME}} - Stemma]]
+|- style="font-size:smaller"
+| style="border:0" | {{#if:{{{2|}}}|([[{{{2}}}|dettagli]])}}
+|
+|
+| style="border:0" | {{#if:{{{4|}}}|([[{{{4}}}|dettagli]])}}
+|}</includeonly><noinclude>{{esoteric}}<div class="toccolours itwiki_template_avviso">
+Questo box costituisce il riquadro di una tabella per la visualizzazione di una bandiera e di uno stemma. <br>
+<font color= green >'''Non''' deve essere chiamato direttamente dalle voci</font> , ma da una tabella che raggruppa voci omogenee.
+
+I parametri scritti in <font color=green>verde</font> sono facoltativi, poiché a volte non si conoscono. Questo vuol dire che se non vengono inseriti, non compaiono all'interno del template.<br>
+*Primo parametro: link all'immagine della bandiera
+*Secondo parametro: <font color=green>link alla pagina descrittiva della bandiera</font>
+*Terzo parametro: <font color=green>link all'immagine dello stemma</font>
+*Quarto parametro: <font color=green>link alla pagina descrittiva dello stemma</font>
+</div>[[Categoria:Template box|Bandiera]]</noinclude>
