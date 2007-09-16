@@ -1,6 +1,6 @@
 <noinclude>{{templateprotetto}}</noinclude><includeonly>{| align="right" cellpadding="2" cellspacing="0" style="margin-left:.5em; margin-bottom:.5em" width="300px"
 |-
-! style="font-size=100%; background:#{{{1}}}; border:1px solid #808080;" align="center" colspan="2" | <span style="float:right;">[[Immagine:Segui progetto {{{3}}}.png|20px|Progetto {{{3}}}]] </span>{{{2}}}</includeonly><noinclude><div class="toccolours itwiki_template_avviso">
+! style="font-size=100%; background:#{{{1}}}; border:1px solid #808080;" align="center" colspan="2" | <span style="float:right;">[[Image:Segui progetto {{{3}}}.png|20px|Progetto {{{3}}}]] </span>{{{2}}}</includeonly><noinclude><div class="toccolours itwiki_template_avviso">
 
 Questo box costituisce il titolo di una tabella, con il colore stabilito nella tabella chiamante e l'icona del rinvio al progetto. <br>
 <font color= green >'''Non''' deve essere chiamato direttamente dalle voci</font>, ma da una tabella che raggruppa voci omogenee.
