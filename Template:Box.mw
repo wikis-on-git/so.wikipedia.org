@@ -1,0 +1,10 @@
+<includeonly>|- {{#if:{{{2|}}}||class="hiddenStructure noprint"}}
+|valign="center" width="105px" bgcolor="#EFEFEF" style="border-bottom:1px solid #808080; border-left:1px solid #808080;" | {{{1}}}:
+|style="border-bottom: 1px solid #808080; border-left: 1px solid #808080; border-right: solid 1px #808080;" | {{{2}}}</includeonly><noinclude><div class="toccolours itwiki_template_avviso">
+
+Questo box costruisce una riga di una tabella a due colonne.<br>
+'''Non''' deve essere incluso direttamente nelle voci, ma attraverso una tabella che raggruppa voci omogenee.<br>
+La tabella usa sempre lo stesso valore per il primo parametro che quindi non viene scritto nella voce ma solo nella tabella.
+</div>
+
+[[Categoria:Template box| ]]</noinclude>
