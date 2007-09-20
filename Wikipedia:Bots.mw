@@ -5,28 +5,25 @@ __TOC__
 |style="padding-right:1em;" width="50%"|
 
 ==Af-Soomaali==
+Requests for the [[m:bot|bot]] flag should be made on this page. Since this wiki does not have a [[m:Bureaucrat|bureaucrat]], granting of access has to be [[m:Requests for bot status|performed by a steward]] if there are no objections on this page. The [[m:Bot policy|standard bot policy]] is used on this wiki, with steward discretion '''not''' allowed.
 
-'''Robotyada''', laguna magacaabo '''bots''', waa qoraalo-kumbuyuutareed (scripts) kuwaasoo Wikipediaha loogu isticmaalo in ay qabtaan howlaha soo noqnoqda. Robotyada badankood waxay qabtaan ku soo darista ama cusbooneysiinta ('''''update''''') raadadka ('''''link''''') interwikiga (raadad ku xira maqaalada luqadaha kale), lakiin waxaa kale oo ay sameynkaraan shakhooyinkale sida warejinta ama tirtirista qeybaha (categories), hubinta in raadadka (links) dibadda ay sax yihiin IWM. 
-
-===Sidii uu gudagalaha u gaari lahaa darajada '''bot''' ===
-Darajada bot, oo ka dhigayso robotka mid aanan lagu arkin bogga isbedelelada cusub waxaa gaarsiinkara [[m:Stewards|Stewards]] (Soo dhaweeyeyaal) markii ay ka helaan ogolaansho jaaliyadda bogga.
-
-Si loo helo darajada bot waa in aad sharxaadaa shakhada uu bot:kaaga qabadoono hadii uu ku saabsanyahay interwiki:ga. Noocyada kale waa in aad sameysaa soo bandhigid gaareyso ilaa iyo '''20''' tijaabo oo lagu arkikaro howshiisa.
-
-Ogolaansha waxaa la'helikaraa markii aad hesho 75% cododka ogolaashaha ah amaba aadan helin cod ka soo horjeeda muddo usbuuc ah. Mararka kale, waa in uu maamulaha (administrator) sameeyo habka codeynta oo ku salaysan isfaham guud.
+Before asking a steward to do so, you must:
+::* state on this page the kind of activity planned, the framework, and how often the framework is updated;
+::* perform 20 test edits to demonstrate it;
+::* wait one week to ensure 75% support votes or no objecting votes at all.
 
 |style="padding-left:1em;" width="50%"|
 
 ==English==
-'''Robots''', so-called '''bots''', are scripts that are run on Wikipedia to perform routine maintenance. Most robots add or update interwiki links (links to parallel articles in other languages), but they can also do other work like moving or removing categories, checking the validity of external links, and so on.
+Requests for the [[m:bot|bot]] flag should be made on this page. Since this wiki does not have a [[m:Bureaucrat|bureaucrat]], granting of access has to be [[m:Requests for bot status|performed by a steward]] if there are no objections on this page. The [[m:Bot policy|standard bot policy]] is used on this wiki, with steward discretion '''not''' allowed.
 
-===Guidelines for assignment of bot status===
-Bot status, which makes a robot invisible in the [[Special:Recentchanges|Recent changes]] list, may be switched on by [[m:Stewards|stewards]] after the robot has been approved by the local community.
+Before asking a steward to do so, you must:
+::* state on this page the kind of activity planned, the framework, and how often the framework is updated;
+::* perform 20 test edits to demonstrate it;
+::* wait one week to ensure 75% support votes or no objecting votes at all.
 
-In order to obtain bot status you should mention the kind of activity you are planning to do on this wiki, an in particular, for interwiki bots mention if you are running the [[m:pywikipediabot|pywikipediabot]] script and whether you constantly update it with SVN. For other types of bots you must explain what it does, run '''20''' test edits to illustrate it. 
-
-The approval for bot status is obtained after one week if you get at least 75% of approval votes or no reject votes at all: In other cases, an administrator should establish the conclusion of the vote. Once the requirements are fulfilled, you can [[m:Requests for bot status|requests for bot status at the meta site]].
 ===Boilerplate request===
+<div style="width:100%; overflow:auto;"><pre>
 ===<nowiki>[[User:XXX]]</nowiki>===
 I request bot status an this wiki in order to <please fill here>
 *User:
@@ -38,6 +35,7 @@ I request bot status an this wiki in order to <please fill here>
 
 ====Reject====
 # .
+</pre></div>
 |}
 ==Current requests==
 
@@ -97,6 +95,8 @@ Please read the text at [[m:Bot policy]] before commenting. If you object, pleas
 ::* wait one week to ensure 75% support votes or no objecting votes at all.
 :: Is this correct? <small>—[[m:user:Pathoschild/s|Pathoschild]] 15:02, 13 Sebteembar 2007 (UTC)</small>
 ::: Yes, it is correct. --[[User:Mimursal|M. I. Mursal]] 20:08, 15 Sebteembar 2007 (UTC)
+
+'''Done.''' Please correct the instructions if desired, and translate them into Somali. <small>—[[m:user:Pathoschild/s|Pathoschild]] 23:41, 20 Sebteembar 2007 (UTC)</small>
 
 [[de:Wikipedia:Bots]]
 [[en:Wikipedia:Bots]]
