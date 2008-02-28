@@ -145,11 +145,11 @@
                 }}<!--(end5)-->
              }}<!--(end4)-->
 
-     |<!--else2: capital not provided:--><!--
+     |<!--else2: caasimada not provided:--><!--
       --------Add magaalada_uguwayn or largest_settlement (if provided):--------
       -->{{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
          |<!--then6:-->
-            <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
+            <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|Magaalo}}}]]</th>
             <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
          }}<!--(end6)-->
 
