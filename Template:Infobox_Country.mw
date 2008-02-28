@@ -42,14 +42,14 @@
             <tr> <td style="{{#if:{{{image_coat|}}} |<!--then:-->width:62%;}} vertical-align:middle;">   
             {{#if:{{{text_flag|}}}
             |<!--then:-->{{{text_flag}}}<!--used for N. Ireland-->
-            |<!--else:-->{{border|[[Image:{{{image_flag}}}|125px|Calanka {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
+            |<!--else:-->{{border|[[Image:{{{image_flag}}}|125px|Flag of {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
                  {{#if:{{{image_coat|}}}
-                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{image_coat}}}|85px|{{{symbol_type|Astaanta Qaran}}} ka {{{common_name|{{PAGENAME}}}}}]]</td>}}
+                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{image_coat}}}|85px|{{{symbol_type|Coat of arms}}} of {{{common_name|{{PAGENAME}}}}}]]</td>}}
             </tr>
             <!-------Links:------->
-            <tr> <td><small>[[Calanka {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Calan}}}]]</small></td>
+            <tr> <td><small>[[Flag of {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Flag}}}]]</small></td>
                  {{#if:{{{image_coat|}}}
-                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Astaanta Qaran}}}}}} of {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Coat of arms}}}]]</small></td>}}
+                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Coat of arms}}}]]</small></td>}}
             </tr>
          <!-----------End subtable:------------>
          </table>
