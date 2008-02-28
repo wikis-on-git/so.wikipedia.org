@@ -158,11 +158,11 @@
 }}<!--(end1)-->
 
 
-<!---------------Official and recognised regional languages, Ethnic groups------------->
-{{#if:{{{official_languages|}}}
+<!---------------Luugadaha------------->
+{{#if:{{{luuqadaha|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[Official language|Official&nbsp;languages]]</th>
-        <td>{{{official_languages}}}</td>
+   <tr> <th colspan="2">[[luuqadaha|Official&nbsp;languages]]</th>
+        <td>{{{luuqadaha}}}</td>
    </tr>
    {{#if:{{{regional_languages|}}}
    |<!--then:-->
