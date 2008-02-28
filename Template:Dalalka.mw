@@ -1,13 +1,6 @@
 <noinclude>{{intricate template}}</noinclude><!--
 
-   Please note: Throughout this template, the code used to define table rows and cells is
-   HTML, not wikicode. This allows the pipe character ("|") to be used by variable syntax
-   (e.g. {{{variable|}}}) without risk of being parsed as wikicode indicating the start of
-   a new cell. It also makes adding annotations easier and less prone to formatting errors.
-
-   This does not mean that using wikicode to define tables is to be avoided elsewhere - in
-   many situations it may be preferred as a simpler and more visual means to define tables
-   or other elements.
+   Fadlan Ogeysiis: Tembalaydkan waxna haka bedelin, hadii aad taqaaid maa hanee!!
 
 --><includeonly><!--
 --><div style="padding-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
@@ -15,7 +8,7 @@
 <table class="infobox geography" style="width:46ex;">
 
 
-<!---------------------------------------Names----------------------------------------->
+<!---------------------------------------Magaca----------------------------------------->
 <tr>
    <th colspan="3" class="mergedtoprow" align="center" style="line-height:1.2em; font-size:1.2em;"><!--
     -->{{#if:{{{native_name|}}}
@@ -31,25 +24,25 @@
 </tr>
 
 
-<!------------------------Flag / Coat-of-arms (or other symbol)------------------------>
-{{#if:{{{image_flag|}}}{{{text_flag|}}}
+<!------------------------Calanka / Astaanta Qaranka (ama astaamaha kale)------------------------>
+{{#if:{{{sawir_calan|}}}{{{text_flag|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
       <td colspan="3" class="maptable">
          <!----------Start subtable:----------->
          <table align="center" style="background:none; text-align:center;">
             <!-------Images:------->
-            <tr> <td style="{{#if:{{{image_coat|}}} |<!--then:-->width:62%;}} vertical-align:middle;">   
+            <tr> <td style="{{#if:{{{sawir_qaran|}}} |<!--then:-->width:62%;}} vertical-align:middle;">   
             {{#if:{{{text_flag|}}}
             |<!--then:-->{{{text_flag}}}<!--used for N. Ireland-->
-            |<!--else:-->{{border|[[Image:{{{image_flag}}}|125px|Calanka {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
-                 {{#if:{{{image_coat|}}}
-                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{image_coat}}}|85px|{{{symbol_type|Coat of arms}}} of {{{common_name|{{PAGENAME}}}}}]]</td>}}
+            |<!--else:-->{{border|[[Image:{{{sawir_calan}}}|125px|Calanka {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
+                 {{#if:{{{sawir_qaran|}}}
+                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{sawir_qaran}}}|85px|{{{symbol_type|Astaannta Qaran}}} ka {{{common_name|{{PAGENAME}}}}}]]</td>}}
             </tr>
             <!-------Links:------->
             <tr> <td><small>[[Calanka {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Calan}}}]]</small></td>
-                 {{#if:{{{image_coat|}}}
-                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Coat of arms}}}]]</small></td>}}
+                 {{#if:{{{sawir_qaran|}}}
+                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|CoaAstaannta Qaran}}}}}} ka {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Astaannta Qaran}}}]]</small></td>}}
             </tr>
          <!-----------End subtable:------------>
          </table>
