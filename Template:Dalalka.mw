@@ -127,7 +127,7 @@
                 ------------------------------------------------------------------
                 --></td>
                    <!--------Add capital:-------->
-                   <td style="vertical-align:middle;">{{{capital}}}<!--
+                   <td style="vertical-align:middle;">{{{caasimada}}}<!--
                     ---------add capital's latitude and longitude (if provided):--------
                     -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
                     -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
