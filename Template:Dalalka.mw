@@ -183,11 +183,11 @@
 }}
 
 
-<!-------------------------------------Government-------------------------------------->
-{{#if:{{{government_type|}}}
+<!-------------------------------------Dowlada-------------------------------------->
+{{#if:{{{dowlada|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[List of countries by system of government|Government]]</th>
-        <td>{{{government_type|}}}</td>
+   <tr> <th colspan="2">'''Dowlada'''th>
+        <td>{{{dowlada|}}}</td>
    </tr>
 |<!--else: if leader/s provided but no government_type, use generic subheading "Government":--><!--
  -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}}
