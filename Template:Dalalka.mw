@@ -161,7 +161,7 @@
 <!---------------Luugadaha------------->
 {{#if:{{{luuqadaha|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[luuqadaha|Official&nbsp;languages]]</th>
+   <tr> <th colspan="2">[[luuqadaha|Luuqadaha]]</th>
         <td>{{{luuqadaha}}}</td>
    </tr>
    {{#if:{{{regional_languages|}}}
