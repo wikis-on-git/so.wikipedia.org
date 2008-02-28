@@ -84,33 +84,33 @@
 }}
 
 
-<!------------------------Capital, Largest city or settlement-------------------------->
-{{#if:{{{capital|}}}{{{largest_city|}}}{{{largest_settlement|}}}
+<!------------------------Caasimada, Magaalooyinka waa wayn -------------------------->
+{{#if:{{{caasimada|}}}{{{magaalada_uguwayn}}}{{{largest_settlement|}}}
 |<!--then1:-->
    <tr class="mergedtoprow">
       <!---------------------------------------------------------------------------
           If capital provided, check whether largest_city or largest_settlement
                  (if provided) equals "capital", capital or [[capital]]:
        ---------------------------------------------------------------------------->
-      {{#if:{{{capital|}}}
+      {{#if:{{{caasimada|}}}
       |<!--then2:-->
-         <td colspan="2" style="vertical-align:middle;">'''[[List of national capitals|Capital]]'''<!--
-          -->{{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}
-                      |<!--equals3:-->capital
-                      |<!---then3:--->capital<!--
+         <td colspan="2" style="vertical-align:middle;">'''[[List of national capitals|Caasimada]]'''<!--
+          -->{{#ifeq: {{#ifeq:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
+                      |<!--equals3:-->caasimada
+                      |<!---then3:--->caasimada<!--
                    -->|<!---else3:---><!--
-                       -->{{#switch:{{{capital}}}
-                          | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = capital
-                          | {{{largest_city|}}}{{{largest_settlement|}}}     = capital
-                          | not capital
+                       -->{{#switch:{{{caasimada}}}
+                          | [[{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}]] = caasimada
+                          | {{{magaalada_uguwayn|}}}{{{largest_settlement|}}}     = caasimada
+                          | not caasimada
                           }}
                       }}<!--(end3)-->
-             |<!--equals4:-->capital
+             |<!--equals4:-->caasimada
              |<!---then4:---><!--
                 ------------------------------------------------------------------
                        capital is largest_city or largest_settlement:
                 ------------------------------------------------------------------
-                --><br/>[[Demographics of {{{common_name}}}|(and {{{largest_settlement_type|largest city}}})]]
+                --><br/>[[Demographics of {{{common_name}}}|(and {{{largest_settlement_type|Magaalada Uguwayn}}})]]
                    </td>
                    <!--------Add capital:-------->
                    <td style="vertical-align:middle;">{{{capital}}}<!--
@@ -136,21 +136,21 @@
                 --></td>
                 </tr>
                 <!--------Add largest_city or largest_settlement (if provided):-------->
-                {{#if:{{{largest_city|}}}{{{largest_settlement|}}}
+                {{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
                 |<!--then5:-->
                    <tr class="mergedbottomrow">
                       <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
-                      <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
+                      <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
                    </tr>
                 }}<!--(end5)-->
              }}<!--(end4)-->
 
      |<!--else2: capital not provided:--><!--
-      --------Add largest_city or largest_settlement (if provided):--------
-      -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
+      --------Add magaalada_uguwayn or largest_settlement (if provided):--------
+      -->{{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
          |<!--then6:-->
             <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
-            <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
+            <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
          }}<!--(end6)-->
 
      }}<!--(end2)-->
