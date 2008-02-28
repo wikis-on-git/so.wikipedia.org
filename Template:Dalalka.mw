@@ -42,7 +42,7 @@
             <!-------Links:------->
             <tr> <td><small>[[Calanka {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Calan}}}]]</small></td>
                  {{#if:{{{sawir_qaran|}}}
-                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|CoaAstaannta Qaran}}}}}} ka {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Astaannta Qaran}}}]]</small></td>}}
+                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Astaannta Qaran}}}}}} ka {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Astaannta Qaran}}}]]</small></td>}}
             </tr>
          <!-----------End subtable:------------>
          </table>
@@ -59,10 +59,10 @@
 }}
 
 
-<!---------------------------------------Anthem---------------------------------------->
-{{#if:{{{national_anthem|}}}
+<!---------------------------------------Astaanta Calanka---------------------------------------->
+{{#if:{{{astaan_calan|}}}
 |<!--then:-->
-   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''[[National anthem|Anthem]]'''<br/>{{{national_anthem}}}</td>
+   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''[[Astaanta Calan]]ka'''<br/>{{{national_anthem}}}</td>
    </tr>
 }}
 
