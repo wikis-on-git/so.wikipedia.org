@@ -189,9 +189,9 @@
    <tr> <th colspan="2">'''Dowlada'''</th>
         <td>{{{dowlada|}}}</td>
    </tr>
-|<!--else: if leader/s provided but no government_type, use generic subheading "Government":--><!--
+|<!--else: if leader/s provided but no government_type, use generic subheading "Dowlada":--><!--
  -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}}
-    |<!--then:--><tr> <th colspan="3">[[List of countries by system of government|Government]]</th>
+    |<!--then:--><tr> <th colspan="3">'''Dowlada'''</th>
                  </tr>
     }}
 }}
