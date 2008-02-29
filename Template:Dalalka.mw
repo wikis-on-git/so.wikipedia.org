@@ -352,7 +352,7 @@
 {{#if:{{{area|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
-      <th colspan="3">[[List of countries and outlying territories by area|Area]]</th>
+      <th colspan="3">'''Area'''</th>
    </tr>
 
    <tr class="mergedrow">
@@ -369,13 +369,13 @@
    </tr>
 }}
 
-<!-------------------Percentage water-------------------->
-{{#if:{{{percent_water|}}}
+<!-------------------Biyo-------------------->
+{{#if:{{{biyo|}}}
 |<!--then:-->
    <tr class="mergedrow">
       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
       <td style="padding-left:0px;">Water&nbsp;(%)</td>
-      <td>{{{percent_water|}}}</td>
+      <td>{{{perbiyocent_water|}}}</td>
    </tr>
 }}
 
@@ -409,20 +409,20 @@
 }}
 
 
-<!-------------------------------------Population------------------------------------->
-{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
+<!-------------------------------------Cadadka Dadka------------------------------------->
+{{#if:{{{qiyaasta_cadaddad|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
-      <th colspan="3">[[List of countries by population|Population]]</th>
+      <th colspan="3">'''Cadadka Dadka'''</th>
    </tr>
 
-   <!---------------Estimate--------------->
-   {{#if:{{{population_estimate|}}}
+   <!---------------Qiyaasta--------------->
+   {{#if:{{{qiyaasta_cadaddad|}}}
    |<!--then:-->
       <tr class="mergedrow">
          <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
          <td style="padding-left:0px;">{{{population_estimate_year|}}}&nbsp;estimate</td>
-         <td>{{{population_estimate|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
+         <td>{{{qiyaasta_cadaddad|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
                                              |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
       </tr>
    }}
@@ -551,11 +551,11 @@
 }}
 
 
-<!--------------------------------------Currency--------------------------------------->
-{{#if:{{{currency|}}}
+<!--------------------------------------Nooca Lacagta--------------------------------------->
+{{#if:{{{lacagta|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[Currency]]</th>
-        <td>{{{currency}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)</td>
+   <tr> <th colspan="2">[[Lacagta]]</th>
+        <td>{{{lacagta}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)</td>
    </tr>
 }}
 
@@ -599,10 +599,10 @@
 
 
 <!-------------------------------------Calling code------------------------------------->
-{{#if:{{{calling_code|}}}
+{{#if:{{{furaha_telefone|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[List of country calling codes|Calling code]]</th>
-        <td>+{{{calling_code}}}</td>
+   <tr> <th colspan="2">Furaha Telefone</th>
+        <td>+{{{furaha_telefone}}}</td>
    </tr>
 }}
 
