@@ -564,7 +564,7 @@
 {{#if:{{{lacagta|}}}
 |<!--then:-->
    <tr> <th colspan="2">[[Lacagta]]</th>
-        <td>{{{lacagta}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)</td>
+        <td>{{{lacagta}}} 
    </tr>
 }}
 
