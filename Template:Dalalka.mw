@@ -37,7 +37,7 @@
             |<!--then:-->{{{text_flag}}}<!--used for N. Ireland-->
             |<!--else:-->{{border|[[Image:{{{sawir_calan}}}|125px|Calanka {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
                  {{#if:{{{sawir_qaran|}}}
-                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{sawir_qaran}}}|85px|{{{symbol_type|Astaannta Qaran}}} ka {{{common_name|{{PAGENAME}}}}}]]</td>}}
+                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{sawir_qaran}}}|85px|{{{symbol_type|Astaannta Qaranka}}}{{{common_name|{{PAGENAME}}}}}]]</td>}}
             </tr>
             <!-------Links:------->
             <tr> <td><small>[[Calanka {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Calan}}}]]</small></td>
