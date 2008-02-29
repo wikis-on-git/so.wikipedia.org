@@ -62,7 +62,7 @@
 <!---------------------------------------Astaanta Calanka---------------------------------------->
 {{#if:{{{astaan_calan|}}}
 |<!--then:-->
-   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''[[Astaanta Calan]]ka'''<br/>{{{astaan_calan}}}</td>
+   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''Astaanta Calanka'''<br/>{{{astaan_calan}}}</td>
    </tr>
 }}
 
