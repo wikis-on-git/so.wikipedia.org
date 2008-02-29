@@ -94,7 +94,7 @@
        ---------------------------------------------------------------------------->
       {{#if:{{{caasimada|}}}
       |<!--then2:-->
-         <td colspan="2" style="vertical-align:middle;">'''[[List of national capitals|Caasimada]]'''<!--
+         <td colspan="2" style="vertical-align:middle;">'''Caasimada'''<!--
           -->{{#ifeq: {{#ifeq:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
                       |<!--equals3:-->caasimada
                       |<!---then3:--->caasimada<!--
@@ -161,7 +161,7 @@
 <!---------------Luugadaha------------->
 {{#if:{{{luuqadaha|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[luuqadaha|Luuqadaha]]</th>
+   <tr> <th colspan="2">'''Luuqada(ha) Looga hadlo'''</th>
         <td>{{{luuqadaha}}}</td>
    </tr>
    {{#if:{{{regional_languages|}}}
