@@ -410,14 +410,14 @@
 
 
 <!-------------------------------------Cadadka Dadka------------------------------------->
-{{#if:{{{qiyaasta_cadaddad|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
+{{#if:{{{qiyaas_cadaddad|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
       <th colspan="3">'''Cadadka Dadka'''</th>
    </tr>
 
    <!---------------Qiyaasta--------------->
-   {{#if:{{{qiyaasta_cadaddad|}}}
+   {{#if:{{{qiyaas_cadaddad|}}}
    |<!--then:-->
       <tr class="mergedrow">
          <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
