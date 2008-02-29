@@ -410,19 +410,19 @@
 
 
 <!-------------------------------------Cadadka Dadka------------------------------------->
-{{#if:{{{qiyaas_cadaddad|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
+{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
       <th colspan="3">'''Cadadka Dadka'''</th>
    </tr>
 
    <!---------------Qiyaasta--------------->
-   {{#if:{{{qiyaas_cadaddad|}}}
+   {{#if:{{{population_estimate|}}}
    |<!--then:-->
       <tr class="mergedrow">
          <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
          <td style="padding-left:0px;">{{{population_estimate_year|}}}&nbsp;qiyaas</td>
-         <td>{{{qiyaasta_cadaddad|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
+         <td>{{{population_estimate|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
                                              |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
       </tr>
    }}
