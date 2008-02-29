@@ -569,11 +569,11 @@
 }}
 
 
-<!--------------------------------------Time zone-------------------------------------->
-{{#if:{{{time_zone|}}}
+<!--------------------------------------Wakhti-------------------------------------->
+{{#if:{{{wakhti|}}}
 |<!--then:-->
    <tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
-      <th colspan="2">[[Time zone]]</th>
+      <th colspan="2">'''Wakhti'''</th>
       <td>{{{time_zone}}}&nbsp;{{#if:{{{utc_offset|}}}
                                |<!--then:-->([[Coordinated Universal Time|UTC]]{{{utc_offset}}}) }}</td>
    </tr>
