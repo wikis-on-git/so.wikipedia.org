@@ -573,7 +573,7 @@
 {{#if:{{{wakhti|}}}
 |<!--then:-->
    <tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
-      <th colspan="2">'''Wakhti'''</th>
+      <th colspan="2">'''Wakhtiga'''</th>
       <td>{{{wakhti}}}&nbsp;{{#if:{{{utc_offset|}}}
                                |<!--then:-->([[Coordinated Universal Time|UTC]]{{{utc_offset}}}) }}</td>
    </tr>
