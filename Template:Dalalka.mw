@@ -374,8 +374,8 @@
 |<!--then:-->
    <tr class="mergedrow">
       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">Water&nbsp;(%)</td>
-      <td>{{{perbiyocent_water|}}}</td>
+      <td style="padding-left:0px;">Biyo&nbsp;(%)</td>
+      <td>{{{biyo|}}}</td>
    </tr>
 }}
 
