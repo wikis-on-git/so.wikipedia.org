@@ -421,7 +421,7 @@
    |<!--then:-->
       <tr class="mergedrow">
          <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0px;">{{{population_estimate_year|}}}&nbsp;estimate</td>
+         <td style="padding-left:0px;">{{{population_estimate_year|}}}&nbsp;qiyaas</td>
          <td>{{{qiyaasta_cadaddad|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
                                              |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
       </tr>
