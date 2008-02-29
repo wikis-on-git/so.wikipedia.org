@@ -204,49 +204,49 @@
 }}
 
 
-<!--------------------------------------Hogaamiyeyaal---------------------------------------->
-{{#if:{{{darajo_hogaamiye1|}}}
+<!--------------------------------------Leaders---------------------------------------->
+{{#if:{{{leader_title1|}}}
 |<!--then:-->
-   <tr class="{{#if:{{{darajo_hogaamiye2|}}}
+   <tr class="{{#if:{{{leader_title2|}}}
               |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
        <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{darajo_hogaamiye1}}}</td>
-       <td>{{{magac_hogaamiye1}}}</td>
+       <td style="padding-left:0px;">{{{leader_title1}}}</td>
+       <td>{{{leader_name1}}}</td>
    </tr>
 }}
-{{#if:{{{darajo_hogaamiye2|}}}
+{{#if:{{{leader_title2|}}}
 |<!--then:-->
-   <tr class="{{#if:{{{darajo_hogaamiye13|}}}
+   <tr class="{{#if:{{{leader_title3|}}}
               |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
        <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{darajo_hogaamiye2}}}</td>
-       <td>{{{magac_hogaamiye2}}}</td>
+       <td style="padding-left:0px;">{{{leader_title2}}}</td>
+       <td>{{{leader_name2}}}</td>
    </tr>
 }}
-{{#if:{{{darajo_hogaamiye3|}}}
+{{#if:{{{leader_title3|}}}
 |<!--then:-->
-   <tr class="{{#if:{{{darajo_hogaamiye4|}}}
+   <tr class="{{#if:{{{leader_title4|}}}
               |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
        <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{darajo_hogaamiye3}}}</td>
-       <td>{{{magac_hogaamiye3}}}</td>
+       <td style="padding-left:0px;">{{{leader_title3}}}</td>
+       <td>{{{leader_name3}}}</td>
    </tr>
 }}
-{{#if:{{{darajo_hogaamiye4|}}}
+{{#if:{{{leader_title4|}}}
 |<!--then:-->
-   <tr class="{{#if:{{{darajo_hogaamiye5|}}}
+   <tr class="{{#if:{{{leader_title5|}}}
               |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
        <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{darajo_hogaamiye4}}}</td>
-       <td>{{{magac_hogaamiye4}}}</td>
+       <td style="padding-left:0px;">{{{leader_title4}}}</td>
+       <td>{{{leader_name4}}}</td>
    </tr>
 }}
-{{#if:{{{darajo_hogaamiye5|}}}
+{{#if:{{{leader_title5|}}}
 |<!--then:-->
    <tr class="mergedbottomrow">
       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{darajo_hogaamiye5}}}</td>
-      <td>{{{magac_hogaamiye5}}}</td>
+      <td style="padding-left:0px;">{{{leader_title5}}}</td>
+      <td>{{{leader_name5}}}</td>
    </tr>
 }}
 
