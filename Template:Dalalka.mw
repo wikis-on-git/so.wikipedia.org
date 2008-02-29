@@ -563,7 +563,7 @@
 <!--------------------------------------Nooca Lacagta--------------------------------------->
 {{#if:{{{lacagta|}}}
 |<!--then:-->
-   <tr> <th colspan="2">[[Lacagta]]</th>
+   <tr> <th colspan="2">'''Lacagta'''</th>
         <td>{{{lacagta}}} 
    </tr>
 }}
