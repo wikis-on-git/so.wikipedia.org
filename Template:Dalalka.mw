@@ -42,7 +42,7 @@
             <!-------Links:------->
             <tr> <td><small>[[Calanka {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Calan}}}]]</small></td>
                  {{#if:{{{sawir_qaran|}}}
-                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Astaannta Qaran}}}}}} ka {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Astaannta Qaran}}}]]</small></td>}}
+                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Astaannta Qaranka}}}}}}{{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Astaannta Qaranka}}}]]</small></td>}}
             </tr>
          <!-----------End subtable:------------>
          </table>
