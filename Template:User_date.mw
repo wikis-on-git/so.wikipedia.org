@@ -1,0 +1,10 @@
+<div style="float: left; border:solid #6b8e23 1px; margin: 1px;">
+{| cellspacing="0" style="width: 238px; background: #9acd32;"
+| style="width: 45px; height: 45px; background: white; text-align: center; font-size: {{{5|{{{id-s|14}}}}}}pt; color: {{{id-fc|black}}};" |'''[[Image:Crystal Clear app kalarm.png|40px]]'''
+| style="font-size: {{{info-s|8}}}pt; padding: 4pt; line-height: 1.25em; color: {{{info-fc|white}}};" |Maanta waa '''{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}'''.
+|}</div>
+<noinclude>
+[[sw:Template:User Tarehe]]
+[[tl:Template:User date]]
+[[tr:Şablon:Kullanıcı tarih]]
+</noinclude>
