@@ -1,0 +1,7 @@
+{|
+<div style="float:right;text-align:center;font-family:verdana,arial,sans-serif;border:solid black 1px;width:100px">
+<div style="width:100%;background-color:#4682b4;color:white;">'''{{CURRENTDAYNAME}}'''</div>
+<div style="font-size: x-large; width: 100%;padding-top:3px;background-color:white">'''{{CURRENTDAY2}}'''</div>
+<div style="width: 100%;"> {{CURRENTMONTHNAME}} <br> {{CURRENTYEAR}}</div>
+<div style="color: #000;border-top:solid black 1px;border-bottom:solid black 1px;">'''{{CURRENTTIME}}''' UTC</div>
+|}
