@@ -112,6 +112,16 @@ Thank you! --[[User:Purodha|Purodha Blissenbach]] 11:25, 12 Febraayo 2008 (UTC)
 # …
 ====Reject====
 # …
+===Bot flag request for [[User:Kumbuyuutar]]===
+
+* Bot operator: [[User:White Cat]] ([[:Commons:User:White Cat]]) - En-N, Tr-4, Ja-1
+* List of botflags on other projects: Bot has a flag on wikimedia (meta,commons) wikipedia (ar, az, de, en, es, et, fr, is, ja, ku, nn, no, ru, sr, tr, uz, simple) (See: [[m:User:White Cat#Bots]])
+* Purpose: Interwiki linking, double redirect fixing, commons delinking (for cases where commonsdelinker fails)
+--<small> [[User:White Cat|Cat]]</small> <sup>[[User talk:White Cat|chi?]]</sup> 12:56, 15 Maajo 2008 (UTC)
+====Approval====
+# …
+====Reject====
+# …
 
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
