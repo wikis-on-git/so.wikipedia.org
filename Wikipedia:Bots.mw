@@ -123,6 +123,18 @@ Thank you! --[[User:Purodha|Purodha Blissenbach]] 11:25, 12 Febraayo 2008 (UTC)
 ====Reject====
 # …
 
+=== [[User:SpBot|SpBot]] ===
+Hello. I would like to get a bot-flag on this wiki.
+*'''Operator:''' [[:de:User:Euku]]
+*'''Purpose:''' Interwiki links: It adds/modifies/deletes interwiki links.
+*'''Software:''' pywikipediabot framework via SVN
+*'''Already has bot flag on:''' 51 Wikipedias, for example: ar, bn, ca, cs, '''de''', '''en''', es, eu, da, '''fr''', he, hu, it, pl, ro, '''ru''', sq, tr. (on German Wikipedia since 2006, with [http://tools.wikimedia.de/~interiot/cgi-bin/count_edits?user=SpBot&dbname=dewiki_p >67.000 edits]), look at [http://tools.wikimedia.de/~vvv/sulutil.php?user=SpBot&rights=1 details]
+:Thank you! --[[:de:User:Euku|Euku]] 08:29, 4 Juun 2008 (UTC)
+====Approval====
+# …
+====Reject====
+# …
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
