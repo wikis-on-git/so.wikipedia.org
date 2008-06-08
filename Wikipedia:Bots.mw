@@ -137,6 +137,19 @@ Hello. I would like to get a bot-flag on this wiki.
 ====Reject====
 # …
 
+===Bot flag for [[User:StigBot|StigBot]] ===
+I hereby request botflag on this wiki for my bot [[User:StigBot|StigBot]].
+*'''Owner’s account:''' [[:no:User:Stigmj|Stigmj]] ([[:no:User talk:Stigmj|talk]])
+*'''Bot account:''' [[User:StigBot|StigBot]] ([[Special:Contributions/StigBot|contribs]] &bull; [http://toolserver.org/~vvv/sulutil.php?user=StigBot <span style="color:#002bb8">sul</span>] &bull; [[:m:Special:Makebot/StigBot@sowiki|makebot@meta]] )
+*'''Function:''' mainly interwiki, but can be used in user-namespace for adding userpages etc. on request from the affected users.
+*'''Software:''' Pywikipedia, updated from SVN before each run.
+*'''Other:''' Runs manually initiated automatic supervised and sometimes entirely manual. Already has bot flag on: ar, bpy, en, eo, fr, no, oc, pt, ro and vo.
+Best regards, [[User:Stigmj|Stigmj]] 13:20, 8 Juun 2008 (UTC)
+====Approval====
+# …
+====Reject====
+# …
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
