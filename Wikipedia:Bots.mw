@@ -158,6 +158,11 @@ Hi, I request a bot bit for [[User:SieBot|SieBot]].
 * Purpose: Interwiki (pywikipedia)
 * Technical details : [[User:SieBot|SieBot]] is an interwiki bot starting at any Wikipedia. The bot uses the pywikipedia framework and runs day and night in autonomous mode. Sometimes the bot will run in manual assisted mode to solve interwiki conflicts. It has made over 5 million edits since it started. [[User:Siebrand|Siebrand]] 22:45, 26 Juun 2008 (UTC)
 
+====Approval====
+# You have my support as this bot has been running on this wiki for long time. --[[User:Mimursal|M. I. Mursal]] 05:14, 27 Juun 2008 (UTC)
+====Reject====
+# .
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
