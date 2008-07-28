@@ -188,6 +188,15 @@ Please read the text at [[m:Bot policy]] before commenting. If you object, pleas
 '''Done.''' Please correct the instructions if desired, and translate them into Somali. <small>—[[m:user:Pathoschild/s|Pathoschild]] 23:41, 20 Sebteembar 2007 (UTC)</small>
 :'''Done''' translation into Somali. <small>--[[User:Mimursal|M. I. Mursal]] 06:20, 21 Sebteembar 2007 (UTC)</small>
 
+==Global bots==
+Hello. The [[m:Bot policy|standard bot policy]] was updated to allow global bots, which are now technically possible. These are trusted bots that will be given bot access on every wiki that allows global bots (the local policy or request page must explicitly allow them, or they won't get access on this wiki). The [[m:Bot policy#Global_bots|current requirements]] for global bots are:
+* a global bot must only maintain interlanguage links or fix double-redirects;
+* a global bot must have already been active on several wikis, with long-term contributions demonstrating its trustworthiness.
+
+Since the requirements are almost identical, I also suggest allowing [[m:bot policy#Automatic_approval|automatic approval of eligible bots]]; all other bots would need to meet the requirements described in the above "Bot policy" discussion.
+
+Does anyone object to allowing automatic approval and global bots on this wiki? I'll update the local policy in a week if there are no objections. Thanks. —<small>[[m:User:Pathoschild|Pathoschild]] 17:07:18, 28 Luuliyo 2008 (UTC)</small>
+
 [[de:Wikipedia:Bots]]
 [[en:Wikipedia:Bots]]
 [[es:Wikipedia:Bot]]
