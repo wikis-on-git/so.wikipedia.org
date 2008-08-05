@@ -169,6 +169,18 @@ Hi, I request a bot bit for [[User:SieBot|SieBot]].
 ====Reject====
 # .
 
+===[[User:CarsracBot|CarsracBot]]===
+I request bot status an this wiki in order to <please fill here>
+*User: [[:nl:user:Carsrac|dutch account]] of [[user:Carsrac|CarsraC]]
+*Bot account: [[User:CarsracBot|CarsracBot]]
+*Test edits [http://so.wikipedia.org/wiki/Special:Contributions/CarsracBot see here]
+*For interwiki bots: The bot uses uses pywikipedia software [and is constantly updated with SVN].
+====Approval====
+# .
+
+====Reject====
+# .
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
