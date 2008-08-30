@@ -5,6 +5,7 @@ __TOC__
 |style="padding-right:1em;" width="50%"|
 
 ==Af-Soomaali==
+'''[update needed per en]'''<br />
 Codsashada darajada [[m:bot|bot]]:ka waa in lagu codsadaa boggaan. Maadaama uusan wikigaan lahayn [[m:Bureaucrat|maamulayaal-sare]], waan in codsiga loo gudbiyaa [[m:Requests for bot status|soo dhaweeyayaasha]] hadii aysan jirin wax (qof) ka soo horjeeda. Wikigaan waxaa lagu isticmaalidoonaa shuruudaha [[m:Bot policy|guud]] ee bot:ka, ahna midka aanan u ogolaaneynin in ay soo dhaweeyayaasha ''Steward'' qaataan amar madaxbanaan ''ayaga khaas u ah''.
 
 Ka hor intii aadan ka codsanin soo dhaweeyayaasha, waa in aad:
@@ -15,9 +16,9 @@ Ka hor intii aadan ka codsanin soo dhaweeyayaasha, waa in aad:
 |style="padding-left:1em;" width="50%"|
 
 ==English==
-Requests for the [[m:bot|bot]] flag should be made on this page. Since this wiki does not have a [[m:Bureaucrat|bureaucrat]], granting of access has to be [[m:Requests for bot status|performed by a steward]] if there are no objections on this page. The [[m:Bot policy|standard bot policy]] is used on this wiki, with steward discretion '''not''' allowed.
+Requests for the [[m:bot|bot]] flag should be made on this page. This wiki uses the [[m:bot policy|standard bot policy]], and allows [[m:bot policy#Global_bots|global bots]] and [[m:bot policy#Automatic_approval|automatic approval of certain types of bots]]. Other bots should follow the instructions below, and then [[m:Steward requests/Bot status|request access]] from a steward if there is no objection.
 
-Before asking a steward to do so, you must:
+To make a request, you must:
 ::* state on this page the kind of activity planned, the framework, and how often the framework is updated;
 ::* perform 20 test edits to demonstrate it;
 ::* wait one week to ensure 75% support votes or no objecting votes at all.
