@@ -182,6 +182,21 @@ I request bot status an this wiki in order to fix and add interwiki's
 ====Reject====
 # .
 
+===[[User:Darkicebot|Darkicebot]]===
+*'''Operator''': [[:simple:User:Razorflame]]
+*'''Function''': interwiki
+*'''Operation''': automatic as long as I am on, which is usually between 4 and 12 hours.
+*'''Software:''' standard [[:meta:pywikipedia|pywikipediabot]] updated daily.
+*'''Has bot flags on:'''simple, it, es, fr, az, en, de, pt, bs, vec, ca, sv, vo, uk, ru, az, ar, ku, he, nl, hu, fi, eo, sk, ja, gl, vi, zh, pl, oc, id, an
+*'''Bot flags pending:'''cs, bg, be, fa, da, co, ro, ht, mr, sr, sl, ko, lt, no, tr, io, zh-yue, zh-classical, ast, bar, eu
+This bot will be making anywheres between 4 and 12 edits per minute.  If you require any test edits or if you grant or deny the flag, please contact me on my talk page over on Simple English Wikipedia: [[:simple:User talk:Razorflame]].  Thank you!
+
+====Approval====
+# .
+
+====Reject====
+# .
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
