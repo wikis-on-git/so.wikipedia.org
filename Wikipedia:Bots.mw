@@ -197,6 +197,14 @@ This bot will be making anywheres between 4 and 12 edits per minute.  If you req
 
 ====Reject====
 # .
+----
+=== [[User:NobelBot]] ===
+* '''Bot name''' : [[:ar:User:NobelBot]]
+* '''Operator''' : [[:ar:User:جمال بركات|جمال بركات]]
+* '''Programming Language''' : Python (Pywikipedia)
+* '''Function''' : interwiki
+* '''Botstatus on other wiki''' : ar, fr, en, pl, ru...
+[[User:NobelBot|NobelBot]] 15:55, 15 Maarso 2009 (UTC)
 
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
