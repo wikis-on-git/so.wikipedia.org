@@ -1,0 +1,7 @@
+<div name="Deletion notice" class="boilerplate metadata" id="delete" style="margin: 0 5%; padding: 0 7px 7px 7px; background: #fee; border: 1px solid #999999; text-align: left; font-size:95%;">
+This page should be deleted. Reason: '''{{{1}}}'''
+
+If you disagree with its speedy deletion, please explain why on [[{{NAMESPACE}} talk:{{PAGENAME}}|its talk page]].  If this page obviously does not meet the criteria for speedy deletion, or you intend to fix it, please remove this notice, but do not remove this notice from a page that you have created yourself.
+
+<span class="plainlinks">''Administrators, remember to check  [[Special:Whatlinkshere/{{NAMESPACE}}:{{PAGENAME}}|if anything links here]] and [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|action=history}} the page history] ([{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|diff=0}} last edit]) before [{{fullurl:{{NAMESPACE}}:{{PAGENAME}}|action=delete}} deletion].''</span>
+</div><includeonly>{{{category|[[Category:Candidates for speedy deletion]]}}}</includeonly>
