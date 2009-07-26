@@ -1,12 +1,3 @@
-<span style="display: inline;"><span style="display: table-cell; border-collapse: collapse; border: {{{style|solid}}} {{{width|1px}}} {{{color|#ddd;}}}">{{{1}}}</span></span><noinclude>
-[[ar:قالب:Border]]
-[[ca:Template:Vora]]
-[[de:Template:Border]]
-[[es:Template:Borde]]
-[[fi:Malline:Rajaus]]
-[[fr:Modèle:Border]]
-[[no:mal:Border]]
-[[pt:Predefinição:Borda]]
-[[rmy:Format:Rig]]
-[[zh:Template:Border]]
+<span style="display:inline;"><span style="display:table-cell;<!--(seemingly ignored by IE)--> <!--border-collapse:collapse;--> border:{{{width|1px}}} {{{style|solid}}} {{{color|#ddd}}};">{{{1}}}</span></span><noinclude>{{template doc}}
+<!--Please add any interwiki links etc on the /doc page, not here - thanks!-->
 </noinclude>
