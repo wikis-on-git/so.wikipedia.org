@@ -2,14 +2,14 @@
 
 Sistamka Isgaarsiinta Caalamaka ee teleefonada gacanta oo loo soo gaabiyo GSM '''(Global System for Mobile Communication)''', '''GSM''' (Soo gaabintiisa asalka ah: Groupe Spécial Mobile) waa farsamo iyo shuruuc la'dejiyay taasoo sababtay in telefoonada gacanta ee caalamka ee isu soo dhawaadaan oo ay sahlaan in horumarintooda lagawada qaybqaato.
 
-Magaca GSM waa magac loo bixiyey koox la dhisay sanadka markii uu ahaa 1982 looguna talagalay in ay sameyo shuruuc (standard) midaysan,  oo noqda mid wada mideeysa dhamaan isgaarsiinta teleefonada gacanta ee qaarada [[yurub]] lana siiyo fursad ay wadamada kale kaga faa'ideystaan. Sistamkaasna waxaa loo qorsheeyay in uu ku shakheeyo hirarka 900 MHz.
+Magaca GSM waa magac loo bixiyey koox la dhisay sanadka markii uu ahaa 1982 looguna talagalay in ay sameyo shuruuc (standard) midaysan, oo noqda mid wada mideeysa dhamaan isgaarsiinta teleefonada gacanta ee qaarada [[yurub]] lana siiyo fursad ay wadamada kale kaga faa'ideystaan. Sistamkaasna waxaa loo qorsheeyay in uu ku shakheeyo hirarka 900 MHz.
 Isticmaalka teleefonada gacanta waa teknoolojiyada isgaarsiinta uu horemarkeeda aad u socdo dadka dunida ku nool waxaa ka isticmaala inku dhow '''30%''' ([[Diseembar]] 2006) taasoo u dhiganta labo miliyardi oo qof waxaana lagu isticmaalaa 212 dowladood iyo dhullal dowlad raacsan <small>[http://www.gsmworld.com/about/index.shtml]</small> <small>[http://www.prnewswire.com/cgi-bin/stories.pl?ACCT=109&STORY=/www/story/06-13-2006/0004379206&EDATE=]</small>..
 
 GSM:ka wuxuu kaga duwanyahay teleefonadii gacanta ee ka horeeyay dhinaca siinyaaleyta (signaling) iyo kanaalada codka oo ah kuwo dhigitaal ah, taasoo keentay in loo aqoonsado jiilkii labaan ('''2G''', Second Generation) ee sigaarsiinta teleefonada gacanta.
 
-Helitaanka teleefonada gacanta ku salaysan GSM:ka laga helikaro meelo aad u badan ayaa waxay abuurtay awooda ay shirikadaha teleefonada gacanta (GSM)  ay u martigelinkaraan macaamiisha shirikadahakale ee ka jira meelaha ama wadamada aysan shirkadooda ka shaqeynin. Iyadoo la'isticmaalayo farsamada loo yaqaano '''''roaming''''' oo ka timid ereyga ingiriiska ee '''''roam''''' oo uu macnahiisu yahay socsocod aanan la qorsheysanin.
+Helitaanka teleefonada gacanta ku salaysan GSM:ka laga helikaro meelo aad u badan ayaa waxay abuurtay awooda ay shirikadaha teleefonada gacanta (GSM) ay u martigelinkaraan macaamiisha shirikadahakale ee ka jira meelaha ama wadamada aysan shirkadooda ka shaqeynin. Iyadoo la'isticmaalayo farsamada loo yaqaano '''''roaming''''' oo ka timid ereyga ingiriiska ee '''''roam''''' oo uu macnahiisu yahay socsocod aanan la qorsheysanin.
 
-=== Tusaale Martigelis (Roaming)===
+=== Tusaale Martigelis (Roaming) ===
 Hadii ay shirkada '''A''' la sameyso heshiis martigelis (=roaming) shirikada '''B''', waxaa macaamiisha shirkada '''A''' u suurtogaleyso in ay teleefonadooda ku isticmaalaan qadadka ay leedahay shirkada '''B'''.
 
 FG '''(Fiiro Gaar ah):''' Waa in heshiiska ka dhaxeeyo isticmaalaha iyo shirkadiisa uu saamixikaro in teleefonada uu dirsado loogu soo dalicirako si biil ahaan ah oo aysan ahayn mid horay loo bixiyey '''(PREPAID)'''. Hadii isticmaalaha loo soo diro teleefooon asaga oo jooga meel uu ka shaqeeyo shirkada uu martida u yahay waxaa ku socda '''lacag'''.
@@ -29,7 +29,7 @@ As the GSM standard continued to develop, it retained backward compatibility wit
 
 Fikrada guud ee teleefonada gacanta waa ayaga oo isticmaalaya awood (Power) aad u yar marka uu qadka furanyahay. Hadii loo fiiriyo awoodaas awoodaha ay raadiyoyaasha ciidamada ay kuwada xiriiraan waxaa u dhaxayso farqi aad u wayn (1/10000).
 
-==Radio interface==
+== Radio interface ==
 GSM is a [[cellular network]], which means that [[mobile phone]]s connect to it by searching for cells in the immediate vicinity. GSM networks operate in four different [[GSM frequency ranges|frequency ranges]]. Most GSM networks operate in the 900 MHz or 1800 MHz bands. Some countries in the Americas (including the United States and Canada) use the 850 MHz and 1900 MHz bands because the 900 and 1800 MHz frequency bands were already allocated. 
 
 The rarer 400 and 450 MHz frequency bands are assigned in some countries, notably Scandinavia, where these frequencies were previously used for first-generation systems.
@@ -40,7 +40,7 @@ The transmission power in the handset is limited to a maximum of 2 watts in GSM8
 
 GSM has used a variety of voice [[Codec|codecs]] to squeeze 3.1kHz audio into between 6 and 13kbps. Originally, two codecs, named after the types of data channel they were allocated, were used, called "Full Rate" (13kbps) and "Half Rate" (6kbps). These used a system based upon [[linear predictive coding]] (LPC). In addition to being efficient with bitrates, these codecs also made it easier to identify more important parts of the audio, allowing the air interface layer to prioritize and better protect these parts of the signal.
 
-GSM was further enhanced in the mid-nineties with the [[Enhanced_Full_Rate|GSM-EFR]] codec, a 12.2kbps codec that uses a full rate channel. Finally, with the development of [[UMTS]], EFR was refactored into a variable-rate codec called [[Adaptive_Multi-Rate|AMR-Narrowband]], which is high quality and robust against interference when used on full rate channels, and less robust but still relatively high quality when used in good radio conditions on half-rate channels.
+GSM was further enhanced in the mid-nineties with the [[Enhanced Full Rate|GSM-EFR]] codec, a 12.2kbps codec that uses a full rate channel. Finally, with the development of [[UMTS]], EFR was refactored into a variable-rate codec called [[Adaptive Multi-Rate|AMR-Narrowband]], which is high quality and robust against interference when used on full rate channels, and less robust but still relatively high quality when used in good radio conditions on half-rate channels.
 
 There are four different cell sizes in a GSM network - macro, micro, pico and umbrella cells. The coverage area of each cell varies according to the implementation environment. Macro cells can be regarded as cells where the [[base station]] [[antenna (electronics)|antenna]] is installed on a mast or a building above average roof top level. Micro cells are cells whose antenna height is under average roof top level; they are typically used in urban areas. Picocells are small cells whose diameter is a few dozen meters; they are mainly used indoors. On the other hand, umbrella cells are used to cover shadowed regions of smaller cells and fill in gaps in coverage between those cells. 
 
@@ -52,8 +52,8 @@ The [[modulation]] used in GSM is [[Gaussian minimum shift keying]] (GMSK), a ki
 
 A nearby GSM handset is usually the source of the "dit dit dit, dit dit dit, dit dit dit" signal that can be heard from time to time on home stereo systems, televisions, computers, and personal music devices.  When these audio devices are in the [[Near and far field|near field]] of the GSM handset, the radio signal is strong enough that the solid state amplifiers in the audio chain function as a [[Detector (radio)|detector]].  The clicking noise itself represents the power bursts that carry the TDMA signal.  These signals have been known to interfere with other electronic devices, such as car stereos and Ipods. This is a form of [[Radio Frequency Interference|RFI]], and could be mitigated or eliminated by use of additional shielding and/or bypass capacitors in these audio devices, however, the increased cost of doing so is difficult for a designer to justify.
 
-==Network structure ==
-[[Image:Gsm network.png|thumbnail|405px|The structure of a GSM network]]
+== Network structure ==
+[[File:Gsm network.png|thumbnail|405px|The structure of a GSM network]]
 
 The network behind the '''GSM''' system seen by the customer is large and complicated in order to provide all of the services which are required. It is divided into a number of sections and these are each covered in separate articles.
 * the [[Base Station Subsystem]] (the [[base station]]s and their controllers).
@@ -61,8 +61,8 @@ The network behind the '''GSM''' system seen by the customer is large and compli
 * the [[GPRS Core Network]] (the optional part which allows packet based Internet connections). 
 * all of the elements in the system combine to produce many [[GSM services]] such as voice calls and [[Short message service|SMS]].
 
-===Subscriber identity module===
-One of the key features of GSM is the [[Subscriber Identity Module]] (SIM), commonly known as a '''SIM card'''. The SIM is a detachable [[smart card]] containing the user's subscription information and phonebook. This allows the user to retain his or her information after switching handsets. Alternatively, the user can also change operators while retaining the handset simply by changing the SIM. Some operators will block this by allowing the phone to use only a single SIM, or only a SIM issued by them; this practice is known as [[SIM lock|SIM locking]], and is illegal in some countries. 
+=== Subscriber identity module ===
+One of the key features of GSM is the [[Subscriber Identity Module]] (SIM), commonly known as a '''SIM card'''. The SIM is a detachable [[smart card]] containing the user's subscription information and phonebook. This allows the user to retain his or her information after switching handsets. Alternatively, the user can also change operators while retaining the handset simply by changing the SIM. Some operators will block this by allowing the phone to use only a single SIM, or only a SIM issued by them; this practice is known as [[SIM lock]]ing, and is illegal in some countries. 
 
 In the [[United States]], Europe and Australia, many operators lock the mobiles they sell. This is done because the price of the mobile phone is typically [[subsidised]] with revenue from subscriptions and operators want to try to avoid subsidising competitor's mobiles. A subscriber can usually contact the provider to remove the lock for a fee, utilize private services to remove the lock, or make use of ample software and websites available on the Internet to unlock the handset themselves. While most web sites offer the unlocking for a fee, some do it for free. The locking applies to the handset, identified by its [[International Mobile Equipment Identity]] (IMEI) number, not to the account (which is identified by the [[Subscriber Identity Module|SIM]] card). It is always possible to switch to another (non-locked) handset if such other handset is available.
 
@@ -70,14 +70,14 @@ Some providers will unlock the phone for free if the customer has held an accoun
 
 In countries like Pakistan,India, Belgium, etc., all phones are sold unlocked. However, in Belgium, it is unlawful for operators there to offer any form of subsidy on the phone's price. This was also the case in Finland until [[April 1]] [[2006]], when selling subsidized combinations of handsets and accounts became legal though operators have to unlock phone free of charge after a certain amount of time (at most 24 months).
 
-===GSM security===
+=== GSM security ===
 GSM was designed with a moderate level of security. The system was designed to authenticate the subscriber using [[Diffie-Hellman key exchange|shared-secret]] [[cryptography]]. Communications between the subscriber and the base station can be encrypted. The development of [[Universal Mobile Telecommunications System|UMTS]] introduces an optional [[USIM]], that uses a longer authentication key to give greater security, as well as mutually authenticating the network and the user - whereas GSM only authenticated the user to the network (and not vice versa). The security model therefore offers confidentiality and authentication, but limited authorization capabilities, and no non-repudiation.
 
 '''GSM''' uses several cryptographic algorithms for security. The [[A5/1]] and [[A5/2]] [[stream cipher]]s are used for ensuring over-the-air voice privacy. A5/1 was developed first and is a stronger algorithm used within Europe and the United States; A5/2 is weaker and used in other countries. A large security advantage of GSM over earlier systems is that the Ki, the crypto variable stored on the [[Subscriber Identity Module|SIM]] card that is the key to any GSM ciphering algorithm, is never sent over the air interface. Serious weaknesses have been found in both algorithms, and it is possible to break A5/2 in real-time in a [[ciphertext-only attack]]. The system supports multiple algorithms so operators may replace that cipher with a stronger one.
 
 
 
-==See also==
+== See also ==
 * Core technology:
 ** [[2G]]
 ** [[2.5G]]
@@ -116,7 +116,7 @@ GSM was designed with a moderate level of security. The system was designed to a
 * Related technologies:
 ** [[GSM-R]] (GSM-Railway)
 
-==External links==
+== External links ==
 {{external links|December 2006}}
 * [http://www.pkproperty.net GSM and GPRS Tutorials explained with realtime Scenario traces]
 * [http://www.gsmworld.com/ GSM Association - the group representing GSM operators (official site)] - includes coverage maps for all members
@@ -156,6 +156,7 @@ GSM was designed with a moderate level of security. The system was designed to a
 [[fi:GSM]]
 [[fr:Global System for Mobile Communications]]
 [[he:GSM]]
+[[hi:वैश्विक मोबाइल संचार प्रणाली]]
 [[hr:GSM]]
 [[id:Global System for Mobile Communications]]
 [[it:Global System for Mobile Communications]]
@@ -181,6 +182,7 @@ GSM was designed with a moderate level of security. The system was designed to a
 [[sr:ГСМ мрежа]]
 [[su:GSM]]
 [[sv:Globalt system för mobil kommunikation]]
+[[te:G S M]]
 [[th:จีเอสเอ็ม]]
 [[tr:GSM]]
 [[uk:GSM]]
