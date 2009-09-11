@@ -1,699 +1,844 @@
-<noinclude>{{intricate template}}</noinclude><!--
+<table class="infobox geography vcard" style="width:46ex; margin-top:0.75em;"><!--
 
-   Please note: Throughout this template, the code used to define table rows and cells is
-   HTML, not wikicode. This allows the pipe character ("|") to be used by variable syntax
-   (e.g. {{{variable|}}}) without risk of being parsed as wikicode indicating the start of
-   a new cell. It also makes adding annotations easier and less prone to formatting errors.
+================================================================
+                                Names
+================================================================
+-->{{#if:{{{conventional_long_name|}}}{{{native_name|}}}{{{name|}}} |<!--then:
+     --><tr class="adr">
+          <th colspan="3" align="center" class="mergedtoprow fn org country-name"
+              style="line-height:1.2em; padding:0.25em 0.33em 0.33em; font-size:1.25em;"><!--
+           -->{{#if:{{{conventional_long_name|}}} |<!--then:-->{{{conventional_long_name|}}} }}<!--
+           -->{{#if:{{{native_name|}}}{{{name|}}}
+              |<!--then:--><div style="padding-top:0.25em;"><!--
+                -->{{{native_name|}}}{{{name|}}}</div><!--
+           -->}}<!--
+       --></th>
+        </tr><!--
+-->}}<!--
 
-   This does not mean that using wikicode to define tables is to be avoided elsewhere - in
-   many situations it may be preferred as a simpler and more visual means to define tables
-   or other elements.
+================================================================
+                 Flag / Coat-of-arms (or other symbol)
+================================================================
+-->{{#if:{{{image_flag|}}}
+   |<!--thenF:
+    -----------------------------------------------------------
+     Flag provided, so display it and coat-of-arms (or other symbol) if provided:
+    -----------------------------------------------------------
+    --><tr class="mergedtoprow">
+         <td class="maptable" colspan="3" align="center" style="padding:0.5em 0;"><!--
+           --------------------------------------------------
+               Subtable to format coat-of-arms (or symbol)
+               display. Align="center"s and "width:auto;"s
+               are for sake of Internet Explorer.
+           --------------------------------------------------
+        --><table align="center" style="width:100%; background:none;"><!--
+             -----------Image/s-----------
+          --><tr>
+               <td align="center"
+                   style="{{#if:{{{image_coat|}}}{{{image_symbol|}}}
+                          |<!--then:-->
+{{#if:{{{flag_width|}}}
+                         |<!--then:-->width:{{{flag_width}}};<!--
+                      -->|<!--else:-->width:58%;<!--(58% as flags usually wider than coats-of-arms/symbols. Also accommodates IE.)--><!--
+                      -->}}
+}} vertical-align:middle;"><!--
+             -->[[File:{{{image_flag}}}|125px|border|alt={{{alt_flag|}}}|Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--end border:--><!--
+            --></td>
+               {{#if:{{{image_coat|}}}{{{image_symbol|}}}
+               |<!--then:--><td align="center" style="width:auto; vertical-align:middle;"><!--
+                -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|85px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]<!--
+            --></td>
+               }}
+             </tr><!--
+             ----------Caption/s----------
+          --><tr>
+               {{#if:{{{common_name|}}}{{{linking_name|}}}{{{name|}}} |<!--then:
+                 --><td align="center"><small>{{#ifexist:Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[Flag of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{flag_caption|Flag}}}]]}}</small></td>
+               }}
+               {{#if:{{{image_coat|}}}{{{image_symbol|}}} |<!--then:
+                 --><td align="center"><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:-->[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small></td>
+               }}
+             </tr><!--
+           ---------End subtable:---------
+        --></table>
+         </td>
+       </tr><!--
 
---><includeonly><!--
---><div style="padding-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
--->
-<table class="infobox geography" style="width:46ex;">
+-->|<!--elseF:
+    ------------------------------------------------------------
+     Flag not provided, so display coat-of-arms or other symbol (if provided):
+    ------------------------------------------------------------
+    -->{{#if:{{{image_coat|}}}{{{image_symbol|}}}
+       |<!--thenS2:
+        --><tr class="mergedtoprow">
+             <td class="maptable" colspan="3" align="center" style="padding:0.5em 0;"><!--
+               -----------------------------------------------
+                 Subtable to format coat-of-arms (or symbol)
+                 display. Align="center"s and "width:auto;"s
+                 are for sake of Internet Explorer.
+               -----------------------------------------------
+            --><table align="center" style="width:100%; background:none;"><!--
+                 -----------Image-----------
+              --><tr>
+                   <td align="center"
+                       style="width:auto; vertical-align:middle;"><!--
+                       -->[[File:{{{image_coat|{{{image_symbol|}}}}}} |{{{symbol_width|100px}}} |alt={{{alt_coat|{{{alt_symbol|}}}}}}|{{{symbol_type|Coat of arms}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}}]]</td>
+                 </tr><!--
+                 ----------Caption----------
+              --><tr>
+                   <td align="center"><!--
+                    --><small>{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |<!--then:--> [[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{{linking_name|{{{name|{{PAGENAME}}}}}}}}}}} |{{{symbol_type|Coat of arms}}}]]}}</small><!--
+                --></td>
+                 </tr><!--
+                ---------End subtable:----------
+             --></table>
+             </td>
+           </tr><!--
+      -->}}<!--(endS2)
+-->}}<!--(endF)
 
+================================================================
+                               Motto
+================================================================
+-->{{#if:{{{national_motto|}}}{{{motto|}}} |<!--then:
+     --><tr> <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
+              -->'''[[Motto]]:&nbsp;'''{{{national_motto|}}}{{{motto|}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!---------------------------------------Names----------------------------------------->
-<tr>
-   <th colspan="3" class="mergedtoprow" align="center" style="line-height:1.2em; font-size:1.2em;"><!--
-    -->{{#if:{{{native_name|}}}
-       |<!--then:-->{{{native_name}}} {{#if:{{{conventional_long_name|}}}
-                                      |<!--then:--><br/>{{{conventional_long_name}}}<!--
-                                   -->}}<!--
-    -->|<!--else:-->{{#if:{{{conventional_long_name|}}}
-                    |<!--then:-->{{{conventional_long_name}}}<!--
-                 -->|<!--else:-->'''''Infobox error: parameters needed'''''<!--
-                 -->}}<!--
-    -->}}<!--
---></th>
-</tr>
+================================================================
+                              Anthem/s
+================================================================
+-->{{#if:{{{national_anthem|}}}{{{royal_anthem|}}}{{{anthem|}}} |<!--then:
+     --><tr>
+          <td class="anthem" colspan="3" style="line-height:1.2em; text-align:center;"><!--
+           -->{{#if:{{{national_anthem|}}}
+              |<!--then:-->'''[[National anthem|Anthem]]:&nbsp;'''{{{national_anthem}}}<br/>
+              }}<!--
+           -->{{#if:{{{anthem|}}}
+              |<!--then:-->'''[[Anthem]]:&nbsp;'''{{{anthem}}}<br/>
+              }}<!--
+           -->{{#if:{{{royal_anthem|}}}
+              |<!--then:-->'''[[Royal anthem]]:&nbsp;'''{{{royal_anthem}}}
+              }}<!--
+       --></td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+                           Other symbol/s
+================================================================
+-->{{#if:{{{other_symbol|}}}{{{text_symbol|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
+           -->{{#if:{{{other_symbol_type|}}}{{{text_symbol_type|}}} |<!--then:
+                -->'''{{{other_symbol_type|}}}{{{text_symbol_type|}}}'''<br/>}}<!--
+           -->{{{other_symbol|}}}{{{text_symbol|}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!------------------------Flag / Coat-of-arms (or other symbol)------------------------>
-{{#if:{{{image_flag|}}}{{{text_flag|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <td colspan="3" class="maptable">
-         <!----------Start subtable:----------->
-         <table align="center" style="background:none; text-align:center;">
-            <!-------Images:------->
-            <tr> <td style="{{#if:{{{image_coat|}}} |<!--then:-->width:62%;}} vertical-align:middle;">   
-            {{#if:{{{text_flag|}}}
-            |<!--then:-->{{{text_flag}}}<!--used for N. Ireland-->
-            |<!--else:-->{{border|[[Image:{{{image_flag}}}|125px|Flag of {{{common_name|{{PAGENAME}}}}}]]<!--end border:-->}} }}</td>
-                 {{#if:{{{image_coat|}}}
-                 |<!--then:--><td style="vertical-align:middle;"> [[Image:{{{image_coat}}}|85px|{{{symbol_type|Coat of arms}}} of {{{common_name|{{PAGENAME}}}}}]]</td>}}
-            </tr>
-            <!-------Links:------->
-            <tr> <td><small>[[Flag of {{{common_name|{{PAGENAME}}}}}|{{{flag_caption|Flag}}}]]</small></td>
-                 {{#if:{{{image_coat|}}}
-                 |<!--then:--><td><small>[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{common_name|{{PAGENAME}}}}}|{{{symbol_type|Coat of arms}}}]]</small></td>}}
-            </tr>
-         <!-----------End subtable:------------>
-         </table>
-      </td>
-   </tr>
-}}
+================================================================
+                                Maps
+================================================================
+-->{{#if:{{{image_map|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;">[[File:{{{image_map}}} |{{{map_width|250px}}} |center |alt={{{alt_map|}}}|Location of {{{common_name|{{{linking_name|{{PAGENAME}}}}}}}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{image_map2|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map2}}} |{{{map2_width|280px}}} |center |alt={{{alt_map2|}}}|Location of {{{common_name|{{{linking_name|{{PAGENAME}}}}}}}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption2|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
 
-
-<!---------------------------------------Motto----------------------------------------->
-{{#if:{{{national_motto|}}}
-|<!--then:-->
-   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''[[List of state mottos|Motto]]'''<br/>{{{national_motto}}}</td>
-   </tr>
-}}
-
-
-<!---------------------------------------Anthem---------------------------------------->
-{{#if:{{{national_anthem|}}}
-|<!--then:-->
-   <tr> <td colspan="3" style="line-height:1.2em; text-align:center;">'''[[National anthem|Anthem]]'''<br/>{{{national_anthem}}}</td>
-   </tr>
-}}
-
-<!----------------------------------------Maps----------------------------------------->
-{{#if:{{{image_map|}}}
-|<!--then:-->
-   <tr>
-      <td colspan="3" style="text-align:center; padding:0.6em 0em 0.6em 0em;"> [[Image:{{{image_map}}}|250px|center|Location of {{{common_name|{{PAGENAME}}}}}]] <div style="position:relative; top:3px;"><small>{{{map_caption|<noinclude>{{{map_caption}}}</noinclude>}}}</small></div>
-      </td>
-   </tr>
-}}
-
-{{#if:{{{image_map2|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <td colspan="3" style="text-align:center; padding:0.6em 0em 0.6em 0em;"> [[Image:{{{image_map2}}}|250px|center|Location of {{{common_name|{{PAGENAME}}}}}]] <div style="position:relative; top:3px;"><small>{{{map_caption2|}}}</small></div>
-      </td>
-   </tr>
-}}
-
-
-<!------------------------Capital, Largest city or settlement-------------------------->
-{{#if:{{{capital|}}}{{{largest_city|}}}{{{largest_settlement|}}}
-|<!--then1:-->
-   <tr class="mergedtoprow">
-      <!---------------------------------------------------------------------------
+================================================================
+       Capital/Admin center; Largest city/ies or settlement/s
+================================================================
+-->{{#if:{{{capital|}}}{{{admin_center|}}}{{{largest_city|}}}{{{largest_settlement|}}}
+   |<!--then1:
+    --><tr class="mergedtoprow"><!--
+       -----------Check if capital/admin center provided:-------
+       -->{{#if:{{{capital|}}}{{{admin_center|}}}
+          |<!--then2:
+           --><td colspan="2"><!--
+             -->{{#if:{{{admin_center_type|}}}{{{admin_center|}}}
+                |<!--then:-->'''{{{admin_center_type|Administrative&nbsp;center}}}'''<!--
+             -->|<!--else:-->{{#if:{{{capital_type|}}}
+                             |<!--then:-->'''{{{capital_type}}}'''<!--
+                          -->|<!--else:-->'''[[Capital (political)|Capital]]'''<!--
+                          -->}}<!--
+             -->}}<!--
+       ---------------------------------------------------------
           If capital provided, check whether largest_city or largest_settlement
-                 (if provided) equals "capital", capital or [[capital]]:
-       ---------------------------------------------------------------------------->
-      {{#if:{{{capital|}}}
-      |<!--then2:-->
-         <td colspan="2" style="vertical-align:middle;">'''[[List of national capitals|Capital]]'''<!--
-          -->{{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}
-                      |<!--equals3:-->capital
-                      |<!---then3:--->capital<!--
-                   -->|<!---else3:---><!--
-                       -->{{#switch:{{{capital}}}
-                          | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = capital
-                          | {{{largest_city|}}}{{{largest_settlement|}}}     = capital
-                          | not capital
-                          }}
-                      }}<!--(end3)-->
-             |<!--equals4:-->capital
-             |<!---then4:---><!--
-                ------------------------------------------------------------------
-                       capital is largest_city or largest_settlement:
-                ------------------------------------------------------------------
-                --><br/>[[Demographics of {{{common_name}}}|(and {{{largest_settlement_type|largest city}}})]]
-                   </td>
-                   <!--------Add capital:-------->
-                   <td style="vertical-align:middle;">{{{capital}}}<!--
-                    ---------add capital's latitude and longitude (if provided):--------
-                    -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
-                    -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
-                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{area}}}) }}</small><!--
-                    -->}}<!--
-                --></td>
-
-             |<!---else4:---><!--
-                ------------------------------------------------------------------
-                       capital isn't largest_city or largest_settlement:
-                ------------------------------------------------------------------
-                --></td>
-                   <!--------Add capital:-------->
-                   <td style="vertical-align:middle;">{{{capital}}}<!--
-                    ---------add capital's latitude and longitude (if provided):--------
-                    -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
-                    -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
-                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{area}}}) }}</small><!--
-                    -->}}<!--
-                --></td>
-                </tr>
-                <!--------Add largest_city or largest_settlement (if provided):-------->
-                {{#if:{{{largest_city|}}}{{{largest_settlement|}}}
-                |<!--then5:-->
+                 (if provided) equals "capital", capital or [[capital]];
+       ---------------------------------------------------------
+             -->{{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}
+                         |<!--equals3:-->capital
+                         |<!---then3:--->capital<!--
+                      -->|<!---else3:
+                          -->{{#switch:{{{capital}}}
+                             | [[{{{largest_city|}}}{{{largest_settlement|}}}]] = capital
+                             | {{{largest_city|}}}{{{largest_settlement|}}}     = capital
+                             | not capital
+                             }}<!--(end#switch)
+                      -->}}<!--(end3)-->
+                |<!--equals4:-->capital
+                |<!---then4:
+                 -----------------------------------------------
+                  capital is largest_city or largest_settlement:
+                 -----------------------------------------------
+                    --><br/>[[Demographics of {{{common_name}}}|(and {{{largest_settlement_type|largest city}}})]]
+                       </td><!--
+                    --------Add capital:--------
+                    --><td>{{{capital}}}<!--
+                    --------Add capital's latitude and longitude (if provided):-------
+                    -->{{#if:{{{latd|}}}
+                       |<!--then:--><br/><small><span style="white-space:nowrap;"><!--
+                        -->{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
+                                  -->|{{{longm}}}|{{{longEW}}}|type:country({{{area_km2|}}})<!--
+                        -->}}</span></small><!--
+                    -->}}
+                       </td><!--
+             -->|<!---else4:
+                 ------------------------------------------------
+                 capital isn't largest_city or largest_settlement:
+                 ------------------------------------------------
+                  --></td><!--
+                     --------Add capital/admin center:--------
+                  --><td>{{{capital|}}}{{{admin_center|}}}<!--
+                     --------Add capital/admin center's [lat/long]itude (if provided):-------
+                     -->{{#if:{{{latd|}}}
+                        |<!--then:--><br/><small><span style="white-space:nowrap;"><!--
+                         -->{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
+                                   -->|{{{longm}}}|{{{longEW}}}|type:country({{{area_km2|}}})<!--
+                         -->}}</span></small><!--
+                    -->}}
+                     </td><!--
+                --------Add largest_city or largest_settlement (if provided):--------
+                -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}} |<!--then5:
+                --></tr>
                    <tr class="mergedbottomrow">
-                      <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
-                      <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
-                   </tr>
-                }}<!--(end5)-->
-             }}<!--(end4)-->
+                     <th colspan="2"><!--
+                      -->{{#if:{{{common_name|}}}
+                         |<!--then:-->[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]<!--
+                      -->|<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                      -->}}<!--
+                  --></th>
+                     <td>{{{largest_city|}}}{{{largest_settlement|}}}</td><!--
+                -->}}<!--(end5)
+             -->}}<!--(end4)
+      ---------------------------------------------------------
+        Capital not provided, so add largest_city or
+                          largest_settlement (if provided):
+      ---------------------------------------------------------
+          -->|<!--else2:
+              -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
+                 |<!--then6:
+                  --><th colspan="2"><!--
+                      -->{{#if:{{{common_name|}}}
+                         |<!--then:-->[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]<!--
+                      -->|<!--else:-->Largest {{{largest_settlement_type|city}}}<!--
+                      -->}}<!--
+                  --></th>
+                     <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
+                 }}<!--(end6)
+          -->}}<!--(end2)
+       --></tr><!--
+-->}}<!--(end1)
 
-     |<!--else2: capital not provided:--><!--
-      --------Add largest_city or largest_settlement (if provided):--------
-      -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
-         |<!--then6:-->
-            <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
-            <td>{{{largest_city|}}}{{{largest_settlement|}}}</td>
-         }}<!--(end6)-->
+================================================================
+     Official or Recognised regional languages; Ethnic groups
+================================================================
+-->{{#if:{{{official_languages|}}} |<!--then:
+     --><tr>
+          <th colspan="2" style="vertical-align:middle; white-space:nowrap;">[[Official language]]s</th>
+          <td>{{{official_languages|}}}</td>
+        </tr><!--
+     -->{{#if:{{{regional_languages|}}} |<!--then:
+          --><tr class="mergedbottomrow">
+               <td colspan="2">[[Regional language|Recognised regional&nbsp;language]]s</td>
+               <td style="vertical-align:middle;">{{{regional_languages|}}}</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
 
-     }}<!--(end2)-->
- </tr>
-}}<!--(end1)-->
+-->{{#if:{{{languages|}}} |<!--then:
+     --><tr>
+          <th colspan="2" style="vertical-align:middle; white-space:nowrap;">{{{languages_type}}}</th>
+          <td>{{{languages|}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{ethnic_groups|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''[[Ethnic group]]s'''&nbsp;<!--
+           -->{{#if:{{{ethnic_groups_year|}}} |<!--then:-->({{{ethnic_groups_year}}}) }}</td>
+          <td>{{{ethnic_groups}}}</td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+                               Demonym
+================================================================
+-->{{#if:{{{demonym|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Demonym]]</th>
+          <td>{{#ifexist:{{{demonym}}} people |<!--then:
+              -->[[{{{demonym}}} people|{{{demonym}}}]] |<!--else:
+              -->{{{demonym}}}<!--
+           -->}}
+          </td>
+        </tr><!--
+-->}}<!--
+================================================================
+     Organization type, Membership (geopolitical organization)
+================================================================
+-->{{#if:{{{org_type|}}} |<!--then:
+     --><tr> <td colspan="2">'''Type'''</td>
+             <td>{{{org_type}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{membership|}}} |<!--then:
+     --><tr> <td colspan="2" style="vertical-align:middle;"> '''{{{membership_type|Membership}}}'''</td>
+             <td>{{{membership}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!---------------Official and recognised regional languages, Ethnic groups------------->
-{{#if:{{{official_languages|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[Official language|Official&nbsp;languages]]</th>
-        <td>{{{official_languages}}}</td>
-   </tr>
-   {{#if:{{{regional_languages|}}}
-   |<!--then:-->
-      <tr class="mergedbottomrow">
-         <td colspan="2">[[Regional language|Recognised regional&nbsp;language]]s</td>
-         <td style="vertical-align:middle;">{{{regional_languages|}}}</td>
-      </tr>
-   }}
-}}
+================================================================
+     "Government" (country/territory)
+            or "Leaders" (geopolitical organization)
+================================================================
+-->{{#if:{{{government_type|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Government]]</th>
+          <td>{{{government_type|}}}</td>
+        </tr><!--
+-->|<!--else no government_type provided, so if at least one leader provided,
+        use "Leaders" (geopolitical org) or "Government" (country/territory):
+    -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}} |<!--then:
+         -->{{#if:{{{name|}}}{{{membership|}}}
+            |<!--then template being used for geopolitical organization:
+              --><tr><th colspan="3">Leaders</th></tr><!--
+         -->|<!--else template being used for a country or territory:
+              --><tr><th colspan="3">[[Government]]</th></tr><!--
+         -->}}<!--
+    -->}}<!--
+-->}}<!--
 
-{{#if:{{{ethnic_groups|}}}
-|<!--then:-->
-   <tr> <td colspan="2">'''[[Ethnic group]]s'''&nbsp;<!--
-            -->{{#if:{{{ethnic_groups_year|}}}
-               |<!--then:-->({{{ethnic_groups_year}}}) }}</td>
-        <td>{{{ethnic_groups}}}</td>
-   </tr>
-}}
+================================================================
+                               Leaders
+================================================================
+-->{{#if:{{{leader_title1|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title2|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title1}}}</td>
+          <td>{{{leader_name1}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title2|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title3|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title2}}}</td>
+          <td>{{{leader_name2}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title3|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title4|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title3}}}</td>
+          <td>{{{leader_name3}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title4|}}} |<!--then:
+     --><tr class="{{#if:{{{leader_title5|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title4}}}</td>
+          <td>{{{leader_name4}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{leader_title5|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{leader_title5}}}</td>
+          <td>{{{leader_name5}}}</td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+                           Legislature
+================================================================
+-->{{#if:{{{legislature|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Legislature]]</th>
+          <td>{{{legislature|}}}</td>
+      </tr><!--
+-->}}<!--
+-->{{#if:{{{upper_house|}}} |<!--then:
+     -->  <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Upper House]]</td>
+          <td>{{{upper_house}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{lower_house|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Lower House]]</td>
+          <td>{{{lower_house}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!-------------------------------------Government-------------------------------------->
-{{#if:{{{government_type|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[List of countries by system of government|Government]]</th>
-        <td>{{{government_type|}}}</td>
-   </tr>
-|<!--else: if leader/s provided but no government_type, use generic subheading "Government":--><!--
- -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}}
-    |<!--then:--><tr> <th colspan="3">[[List of countries by system of government|Government]]</th>
-                 </tr>
-    }}
-}}
+================================================================
+     Sovereignty (country/territory)
+           or Establishment (geopolitical organization)
+================================================================
+-->{{#if:{{{established_event1|}}}{{{sovereignty_type|}}}{{{established|}}} |<!--then:
+     --><tr {{#if:{{{established_event1|}}} |<!--then:-->class="mergedtoprow"}}><!--
+         ----------Sovereignty----------
+         -->{{#if:{{{sovereignty_type|}}}
+            |<!--then:-->{{#if:{{{sovereignty_note|}}}
+                         |<!--then:--><th colspan="2">{{{sovereignty_type}}}</th>
+                                      <td>{{{sovereignty_note}}}&nbsp;</td><!--
+                      -->|<!--else:--><th colspan="3">{{{sovereignty_type}}}</th><!--
+                      -->}}<!--
+         ---------Establishment----------
+         -->|<!--else:-->{{#if:{{{established|}}}
+                         |<!--then:--><th colspan="2">Establishment</th>
+                                      <td>{{{established}}}</td><!--
+                      -->|<!--else:--><th colspan="3">Establishment</th><!--
+                      -->}}<!--
+         -->}}<!--
+     --></tr><!--
+-->}}<!--
+================================================================
+        Significant events in country/territory
+                       or organization's establishment
+================================================================
+-->{{#if:{{{established_event1|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event2|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event1}}}</td>
+          <td>{{{established_date1|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event2|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event3|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event2}}}</td>
+          <td>{{{established_date2|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event3|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event4|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event3}}}</td>
+          <td>{{{established_date3|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event4|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event5|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event4}}}</td>
+          <td>{{{established_date4|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event5|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event6|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event5}}}</td>
+          <td>{{{established_date5|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event6|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event7|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event6}}}</td>
+          <td>{{{established_date6|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event7|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event8|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event7}}}</td>
+          <td>{{{established_date7|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event8|}}} |<!--then:
+     --><tr class="{{#if:{{{established_event9|}}}
+                   |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event8}}}</td>
+          <td>{{{established_date8|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{established_event9|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{established_event9}}}</td>
+          <td>{{{established_date9|}}}&nbsp;</td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+           Accession to the European Union (country/territory)
+================================================================
+-->{{#if:{{{accessionEUdate|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[European Union|EU]] [[European Union member state|accession]]</th>
+          <td style="vertical-align:middle;">{{{accessionEUdate}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!--------------------------------------Leaders---------------------------------------->
-{{#if:{{{leader_title1|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{leader_title2|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{leader_title1}}}</td>
-       <td>{{{leader_name1}}}</td>
-   </tr>
-}}
-{{#if:{{{leader_title2|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{leader_title3|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{leader_title2}}}</td>
-       <td>{{{leader_name2}}}</td>
-   </tr>
-}}
-{{#if:{{{leader_title3|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{leader_title4|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{leader_title3}}}</td>
-       <td>{{{leader_name3}}}</td>
-   </tr>
-}}
-{{#if:{{{leader_title4|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{leader_title5|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-       <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-       <td style="padding-left:0px;">{{{leader_title4}}}</td>
-       <td>{{{leader_name4}}}</td>
-   </tr>
-}}
-{{#if:{{{leader_title5|}}}
-|<!--then:-->
-   <tr class="mergedbottomrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{leader_title5}}}</td>
-      <td>{{{leader_name5}}}</td>
-   </tr>
-}}
+================================================================
+     Area (area_label, area_km2, area_label2, area_data2,...)
+================================================================
+-->{{#if:{{{area_km2|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <th colspan="3">[[Area]]</th>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{area_label|Total}}}<!--
+--France-related footnote:-->{{#if:{{{FR_foot4|}}} |<!--then:-->{{{FR_foot4}}} }}</td>
+          <td>[[{{{area_magnitude|}}} {{#if:{{{area_magnitude|}}} |<!--then:-->m² |<!--else:-->Square metre}} | {{formatnum:{{{area_km2|}}}}}&nbsp;km<sup>2</sup>]]&nbsp;<!--
+              -->{{#if:{{{area_footnote|}}}|{{{area_footnote|}}} }}{{#if:{{{area_rank|}}} |<!--then:-->([[List of countries and outlying territories by total area|{{{area_rank}}}]]) }}<!--
+              --><br/>{{#if:{{{area_sq_mi|}}}|{{formatnum:{{{area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{area_km2|}}} div 2.589988110336 round 0}}}}}}&nbsp;[[Square mile|sq&nbsp;mi]]&nbsp;</td>
+        </tr><!--
+-->}}<!--
+   -------------------Percentage water--------------------
+-->{{#if:{{{percent_water|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Water]]&nbsp;([[Percent|%]])</td>
+          <td>{{{percent_water|}}}</td>
+        </tr><!--
+-->}}<!--
+   -------------------Area 2 (customized)------------------
+-->{{#if:{{{area_label2|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td>&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">{{{area_label2|}}}</td>
+          <td>{{{area_data2|area_data2}}}</td>
+        </tr><!--
+-->}}<!--
+   -----------Areas of France-----------
+-->{{#if:{{{FR_metropole|}}} |<!--then:
+     --><tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td colspan="2" style="padding-left:0em;">{{{FR_metropole}}}</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+          <td style="padding-left:1em;">-&nbsp;[[Institut Géographique National|IGN]]{{{FR_foot2|}}}</td>
+          <td>[[{{{FR_IGN_area_magnitude|}}} {{#if:{{{FR_IGN_area_magnitude|}}} |<!--then:-->m² |<!--else:-->Square metre}} | {{formatnum:{{{FR_IGN_area_km2|}}}}}&nbsp;km<sup>2</sup>]]&nbsp;([[List of countries and outlying territories by total area|{{{FR_IGN_area_rank|}}}]])<br/><!--
+              -->{{#if:{{{FR_IGN_area_sq_mi|}}}|{{formatnum:{{{FR_IGN_area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{FR_IGN_area_km2|}}} div 2.589988110336 round 0}}}}}}&nbsp;sq&nbsp;mi</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+          <td style="padding-left:1em;">-&nbsp;[[Cadastre]]{{{FR_foot3|}}}</td>
+          <td>[[{{{FR_cadastre_area_magnitude|}}} {{#if:{{{FR_cadastre_area_magnitude|}}} |<!--then:-->m² |<!--else:-->Square metre}} | {{formatnum:{{{FR_cadastre_area_km2|}}}}}&nbsp;km<sup>2</sup>]]&nbsp;([[List of countries and outlying territories by total area|{{{FR_cadastre_area_rank|}}}]])<br/><!--
+              -->{{#if:{{{FR_cadastre_area_sq_mi|}}}|{{formatnum: {{{FR_cadastre_area_sq_mi|}}}}}|{{formatnum:{{#expr: {{{FR_cadastre_area_km2|}}} div 2.589988110336 round 0}}}}}} &nbsp;sq&nbsp;mi</td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+                              Population
+================================================================
+-->{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <th colspan="3">[[Population]]</th>
+        </tr><!--
+     ---------------Estimate---------------
+     -->{{#if:{{{population_estimate|}}} |<!--then:
+        --><tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">{{{population_estimate_year|}}}&nbsp;estimate</td>
+             <td>{{{population_estimate|}}}&nbsp;<!--
+              -->{{#if:{{{population_estimate_rank|}}} |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
+           </tr><!--
+     -->}}<!--
+     ----------------Census----------------
+     -->{{#if:{{{population_census|}}} |<!--then:
+          --><tr class="mergedrow">
+               <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+               <td style="padding-left:0em;">{{{population_census_year|}}}&nbsp;census</td>
+               <td>{{{population_census|}}}&nbsp;<!--
+                   -->{{#if:{{{population_census_rank|}}} |<!--then:-->([[List of countries by population|{{{population_census_rank}}}]]) }}</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
+   -------(France)-------
+   -->{{#if:{{{FR_metropole_population|}}} |<!--then:
+        --><tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;</td>
+             <td colspan="2" style="padding-left:0em;">({{{FR_total_population_estimate_year}}})</td>
+           </tr>
+           <tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td> 
+             <td style="padding-left:0em;">Total{{{FR_foot}}}</td>
+             <td>{{{FR_total_population_estimate}}}&nbsp;([[List of countries by population in 2005|{{{FR_total_population_estimate_rank}}}]])</td>
+           </tr>
+           <tr class="mergedrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">{{{FR_metropole}}}</td>
+             <td>{{{FR_metropole_population}}}&nbsp;([[List of countries by population in 2005|{{{FR_metropole_population_estimate_rank}}}]])</td>
+           </tr><!--
+   -->}}<!--
+   ---------------Density----------------
+-->{{#if:{{{population_density_km2|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">[[Population density|Density]]<!--
+--France-related footnote:-->{{#if:{{{FR_foot5|}}} |<!--then:-->{{{FR_foot5}}} }}</td>
+          <td>{{{population_density_km2|}}}/km<sup>2</sup>&nbsp;<!--
+              -->{{#if:{{{pop_den_footnote|}}}|{{{pop_den_footnote|}}}}}{{#if:{{{population_density_rank|}}} |<!--then:-->([[List of countries by population density|{{{population_density_rank}}}]]) }}<!--
+              --><br/>{{#if:{{{population_density_sq_mi|}}}|{{formatnum:{{{population_density_sq_mi|}}}  }}|{{formatnum:{{#expr: {{{population_density_km2|}}} * 2.589988110336 round 1}}}} }}/sq&nbsp;mi</td>
+        </tr><!--
+-->}}<!--
 
-<!------------------------------------Sovereignty------------------------------------->
-{{#if:{{{established_event1|}}}{{{sovereignty_type|}}}
-|<!--then:-->
-   <tr {{#if:{{{established_event1|}}} |<!--then:-->class="mergedtoprow"}}>
-         {{#if:{{{sovereignty_note|}}}
-         |<!--then:--><th colspan="2">{{{sovereignty_type}}}</th>
-                      <td>{{{sovereignty_note}}}&nbsp;</td>
-         |<!--else:--><th colspan="3">{{{sovereignty_type}}}</th>}}
-   </tr>
-}}
+================================================================
+                                  GDP
+================================================================
+   -----------------PPP-----------------
+-->{{#if:{{{GDP_PPP|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="2">'''[[Gross domestic product|GDP]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
+          <td>{{{GDP_PPP_year|}}}&nbsp;estimate</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Total</td>
+          <td>{{{GDP_PPP}}}&nbsp;<!--
+              -->{{#if:{{{GDP_PPP_rank|}}} |<!--then:-->([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]]) }}</td>
+        </tr><!--
+   -------(PPP per capita)-------
+   -->{{#if:{{{GDP_PPP_per_capita|}}} |<!--then:
+        --><tr class="mergedbottomrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">[[Per capita]]</td>
+             <td>{{{GDP_PPP_per_capita}}}&nbsp;<!--
+                 -->{{#if:{{{GDP_PPP_per_capita_rank|}}} |<!--then:-->([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]]) }}</td>
+           </tr><!--
+   -->}}<!--
+-->}}<!--
+   ---------------Nominal---------------
+-->{{#if:{{{GDP_nominal|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="2">'''[[Gross domestic product|GDP]]''' (nominal)</td>
+          <td>{{{GDP_nominal_year|}}}&nbsp;estimate</td>
+        </tr>
+        <tr class="mergedrow">
+          <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+          <td style="padding-left:0em;">Total</td>
+          <td>{{{GDP_nominal}}}&nbsp;<!--
+              -->{{#if:{{{GDP_nominal_rank|}}} |<!--then:-->([[List of countries by GDP (nominal)|{{{GDP_nominal_rank}}}]]) }}</td>
+        </tr><!--
+   -------(Nominal per capita)-------
+   -->{{#if:{{{GDP_nominal_per_capita|}}} |<!--then:
+        --><tr class="mergedbottomrow">
+             <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+             <td style="padding-left:0em;">[[Per capita]]</td>
+             <td>{{{GDP_nominal_per_capita}}}&nbsp;<!--
+                 -->{{#if:{{{GDP_nominal_per_capita_rank|}}} |<!--then:-->([[List of countries by GDP (nominal) per capita|{{{GDP_nominal_per_capita_rank}}}]]) }}</td>
+           </tr><!--
+   -->}}<!--
+-->}}<!--
 
+================================================================
+                                 Gini
+================================================================
+-->{{#if:{{{Gini|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''[[Gini_coefficient|Gini]]'''&nbsp;{{#if:{{{Gini_year|}}} |<!--then:-->({{{Gini_year|}}}) }}</td>
+          <td>{{{Gini}}}&nbsp;<!--
+              -->{{#if:{{{Gini_category|}}} |<!--then:-->({{{Gini_category|}}})&nbsp;}}<!--
+              -->{{#if:{{{Gini_rank|}}}     |<!--then:-->([[List of countries by income equality|{{{Gini_rank}}}]]) }}</td>
+        </tr><!--
+-->}}<!--
 
-<!---------------Significant events in country/territory's establishment--------------->
-{{#if:{{{established_event1|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event2|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event1}}}</td>
-      <td>{{{established_date1|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event2|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event3|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event2}}}</td>
-      <td>{{{established_date2|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event3|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event4|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event3}}}</td>
-      <td>{{{established_date3|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event4|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event5|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event4}}}</td>
-      <td>{{{established_date4|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event5|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event6|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event5}}}</td>
-      <td>{{{established_date5|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event6|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event7|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event6}}}</td>
-      <td>{{{established_date6|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event7|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event8|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event7}}}</td>
-      <td>{{{established_date7|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event8|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{established_event9|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event8}}}</td>
-      <td>{{{established_date8|}}}&nbsp;</td>
-   </tr>
-}}
-{{#if:{{{established_event9|}}}
-|<!--then:-->
-   <tr class="mergedbottomrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{established_event9}}}</td>
-      <td>{{{established_date9|}}}&nbsp;</td>
-   </tr>
-}}
+================================================================
+                                 HDI
+================================================================
+-->{{#if:{{{HDI|}}} |<!--then:
+     --><tr>
+          <td colspan="2">'''[[Human Development Index|HDI]]'''&nbsp;{{#if:{{{HDI_year|}}} |<!--then:-->({{{HDI_year|}}}) }}</td>
+          <td>{{{HDI}}}&nbsp;<!--
+              -->{{#if:{{{HDI_category|}}} |<!--then:-->({{{HDI_category|}}})&nbsp;}}<!--
+              -->{{#if:{{{HDI_rank|}}}     |<!--then:-->([[List of countries by Human Development Index|{{{HDI_rank}}}]]) }}</td>
+        </tr><!--
+-->}}<!--
 
+================================================================
+                              Currency
+================================================================
+-->{{#if:{{{currency|}}} |<!--then:
+     --><tr>
+          <th colspan="2" style="vertical-align:middle;">[[Currency]]</th>
+          <td>{{{currency}}} <!--
+              -->{{#if:{{{currency_code|}}}
+                 |<!--then:-->(<code>[[ISO 4217|{{{currency_code}}}]]</code>)}} </td>
+        </tr><!--
+-->}}<!--
 
-<!-------------------------------------EU accession------------------------------------>
-{{#if:{{{accessionEUdate|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[European Union|Accession to EU]]</th>
-        <td>{{{accessionEUdate}}}</td>
-   </tr>
-}}
+================================================================
+                              Time zone
+================================================================
+-->{{#if:{{{time_zone|}}}{{{utc_offset|}}} |<!--then:
+     --><tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
+          <th colspan="2">[[Time zone]]</th>
+          <td>{{{time_zone|}}} <!--
+              -->{{#if:{{{utc_offset|}}} |<!--then:-->{{nowrap|([[Coordinated Universal Time|UTC]]{{{utc_offset}}})<!--endnowrap:-->}}<!--endif:-->}}</td>
+        </tr><!--
+     -->{{#if:{{{utc_offset_DST|}}} |<!--then:
+          --><tr class="{{#if:{{{DST_note|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
+               <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
+               <td style="padding-left:0em;">Summer&nbsp;([[Daylight saving time|DST]])</td>
+               <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
+             </tr><!--
+     -->}}<!--
+-->}}<!--
+-->{{#if:{{{DST_note|}}} |<!--then:
+     --><tr class="mergedbottomrow">
+          <td colspan="2"></td>
+          <td>{{{DST_note}}}</td>
+        </tr><!--
+-->}}<!--
 
+==========================================================================================
+                                         Date format
+==========================================================================================
+-->{{#if:{{{date_format|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Calendar date|Date formats]]</th>
+          <td>{{{date_format}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!-----------------------------------------Area----------------------------------------->
-{{#if:{{{area|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <th colspan="3">[[List of countries and outlying territories by area|Area]]</th>
-   </tr>
+==========================================================================================
+                                         Rule of the Road
+==========================================================================================
+-->{{#if:{{{drives_on|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Right- and left-hand traffic|Drives on the]]</th>
+          <td>{{{drives_on}}}</td>
+        </tr><!--
+-->}}<!--
 
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">Total<!--
-         ---France-related footnote:-->{{#if:{{{FR_foot4|}}}
-                                       |<!--then:-->{{{FR_foot4}}} }}</td>
-      <td>[[{{{area_magnitude|}}} {{#if:{{{area_magnitude|}}}
-                                  |<!--then:-->m²<!--
-                               -->|<!--else:-->Square metre<!--
-                               -->}}|{{{area|}}} km²<!--
-       -->]]&nbsp;{{#if:{{{area_rank|}}}
-                  |<!--then:-->([[List of countries and outlying territories by area|{{{area_rank}}}]]) }}<br/>{{{areami²|}}}&nbsp;[[Square mile|sq&nbsp;mi]]&nbsp;</td>
-   </tr>
-}}
+================================================================
+                            Internet TLD
+================================================================
+-->{{#if:{{{cctld|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[Country code top-level domain|Internet TLD]]</th>
+          <td>{{{cctld}}}</td>
+        </tr><!--
+-->}}<!--
+================================================================
+                Official website (geopolitical organization)
+================================================================
+-->{{#if:{{{official_website|}}} |<!--then:
+     --><tr>
+          <td colspan="3" style="line-height:11pt; text-align:center;"><!--
+           -->'''Website'''<br/>{{{official_website}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!-------------------Percentage water-------------------->
-{{#if:{{{percent_water|}}}
-|<!--then:-->
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">Water&nbsp;(%)</td>
-      <td>{{{percent_water|}}}</td>
-   </tr>
-}}
+================================================================
+                            Calling code
+================================================================
+-->{{#if:{{{calling_code|}}} |<!--then:
+     --><tr>
+          <th colspan="2">[[List of country calling codes|Calling code]]</th>
+          <td>{{{calling_code}}}</td>
+        </tr><!--
+-->}}<!--
 
-<!-----------Areas of France----------->
-{{#if:{{{FR_metropole|}}}
-|<!--then:-->
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td colspan="2" style="padding-left:0px;">{{{FR_metropole}}}</td>
-      </tr>
-      <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;</td>
-      <td style="padding-left:10px;">-&nbsp;[[Institut Géographique National|IGN]]{{{FR_foot2|}}}</td>
-      <td>[[{{{FR_IGN_area_magnitude|}}} {{#if:{{{FR_IGN_area_magnitude|}}}
-                                               |<!--then:-->m²<!--
-                                            -->|<!--else:-->Square metre<!--
-                                            -->}}|{{{FR_IGN_area}}} km²<!--
-       -->]]&nbsp;([[List of countries and outlying territories by total area|{{{FR_IGN_area_rank|}}}]])
-<br/> {{{FR_IGN_areami²|}}}&nbsp;sq&nbsp;mi</td>
-   </tr>
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;</td>
-      <td style="padding-left:10px;">-&nbsp;[[Cadastre]]{{{FR_foot3|}}}</td>
-      <td>[[{{{FR_cadastre_area_magnitude|}}} {{#if:{{{FR_cadastre_area_magnitude|}}}
-                                              |<!--then:-->m²<!--
-                                           -->|<!--else:-->Square metre<!--
-                                           -->}}|{{{FR_cadastre_area}}} km²<!--
-       -->]]&nbsp;([[List of countries and outlying territories by total area|{{{FR_cadastre_area_rank|}}}]])
-<br/> {{{FR_cadastre_areami²|}}}&nbsp;sq&nbsp;mi</td>
-   </tr>
-}}
+================================================================
+              Patron saint (UK constituent countries)
+================================================================
+-->{{#if:{{{patron_saint|}}} |<!--then:
+     --><tr>
+          <th colspan="2" >[[Patron saint]]</th>
+          <td>{{{patron_saint}}}</td>
+        </tr><!--
+-->}}<!--
 
+<!--
 
-<!-------------------------------------Population------------------------------------->
-{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <th colspan="3">[[List of countries by population|Population]]</th>
-   </tr>
+================================================================
+                            Bottom Map
+================================================================
+-->{{#if:{{{image_map3|}}} |<!--then:
+     --><tr class="mergedtoprow">
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map3}}} |{{{map3_width|250px}}} |center |alt={{{alt_map3|}}}|Location of {{{common_name|{{{linking_name|{{PAGENAME}}}}}}}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption3|}}}</small></div>
+          </td>
+        </tr><!--
+-->}}<!--
 
-   <!---------------Estimate--------------->
-   {{#if:{{{population_estimate|}}}
-   |<!--then:-->
-      <tr class="mergedrow">
-         <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0px;">{{{population_estimate_year|}}}&nbsp;estimate</td>
-         <td>{{{population_estimate|}}}&nbsp;{{#if:{{{population_estimate_rank|}}}
-                                             |<!--then:-->([[List of countries by population|{{{population_estimate_rank}}}]]) }}</td>
-      </tr>
-   }}
+================================================================
+                             Footnotes
+================================================================
+    ----------Non-specific----------
+-->{{#if:{{{footnotes|}}} |<!--then:
+     --><tr>
+          <td colspan="3"><small>{{{footnotes}}}</small></td>
+        </tr><!--
+-->}}<!--
+   ------------Numbered------------
+-->{{#if:{{{footnote1|}}} |<!--then:
+     --><tr style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>1</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote1}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote2|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote3|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>2</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote2}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote3|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote4|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>3</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote3}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote4|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote5|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>4</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote4}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote5|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote6|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>5</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote5}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote6|}}} |<!--then:
+     --><tr class="{{#if:{{{footnote7|}}} |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>6</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote6}}}</td>
+        </tr><!--
+-->}}<!--
+-->{{#if:{{{footnote7|}}} |<!--then:
+     --><tr class="mergedbottomrow" style="font-size:80%;">
+          <td align="right">{{lower|0.3em|<sup>7</sup>}}</td>
+          <td colspan="2" style="padding-left:0em;">{{{footnote7}}}</td>
+        </tr><!--
+-->}}<!--
 
-   <!----------------Census---------------->
-   {{#if:{{{population_census|}}}
-   |<!--then:-->
-      <tr class="mergedrow">
-         <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0px;">{{{population_census_year|}}}&nbsp;census</td>
-         <td>{{{population_census|}}}&nbsp;{{#if:{{{population_census_rank|}}}
-                                           |([[List of countries by population|{{{population_census_rank}}}]]) }}</td>
-      </tr>
-   }}
-}}
-
-<!-----(France)----->
-{{#if:{{{FR_metropole_population|}}}
-|<!--then:-->
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;</td>
-      <td colspan="2" style="padding-left:0px;">({{{FR_total_population_estimate_year}}})</td>
-   </tr>
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td> 
-      <td style="padding-left:0px;">Total{{{FR_foot}}}</td>
-      <td>{{{FR_total_population_estimate}}}&nbsp;([[List of countries by population in 2005|{{{FR_total_population_estimate_rank}}}]])</td>
-   </tr>
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">{{{FR_metropole}}}</td>
-      <td>{{{FR_metropole_population}}}&nbsp;([[List of countries by population in 2005|{{{FR_metropole_population_estimate_rank}}}]])</td>
-   </tr>
-}}
-
-<!---------------Density---------------->
-{{#if:{{{population_density|}}}
-|<!--then:-->
-   <tr class="mergedbottomrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">[[Population density|Density]]<!--
-                            ---France-related footnote:-->{{#if:{{{FR_foot5|}}}
-                                                          |<!--then:-->{{{FR_foot5}}} }}</td>
-      <td>{{{population_density|}}}&nbsp;/km²&nbsp;{{#if:{{{population_density_rank|}}}
-                                                   |<!--then:-->([[List of countries by population density|{{{population_density_rank}}}]]) }} <br/>{{{population_densitymi²|}}}&nbsp;/sq&nbsp;mi</td>
-   </tr>
-}}
-
-
-<!-----------------------------------------GDP----------------------------------------->
-
-<!-----------------PPP----------------->
-{{#if:{{{GDP_PPP|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <td colspan="2">'''[[Gross domestic product|GDP]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
-      <td>{{{GDP_PPP_year|}}}&nbsp;estimate</td>
-   </tr>
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">Total</td>
-      <td>{{{GDP_PPP}}}&nbsp;{{#if:{{{GDP_PPP_rank|}}}
-                             |<!--then:-->([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]]) }}</td>
-   </tr>
-
-   {{#if:{{{GDP_PPP_per_capita|}}}
-   |<!--then:-->
-      <tr class="mergedbottomrow">
-         <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0px;">[[Per capita]]</td>
-         <td>{{{GDP_PPP_per_capita}}}&nbsp;{{#if:{{{GDP_PPP_per_capita_rank|}}}
-                                           |<!--then:-->([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]]) }}</td>
-      </tr>
-   }}
-}}
-
-<!---------------Nominal--------------->
-{{#if:{{{GDP_nominal|}}}
-|<!--then:-->
-   <tr class="mergedtoprow">
-      <td colspan="2">'''[[Gross domestic product|GDP]]''' (nominal)</td>
-      <td>{{{GDP_nominal_year|}}}&nbsp;estimate</td>
-   </tr>
-   <tr class="mergedrow">
-      <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-      <td style="padding-left:0px;">Total</td>
-      <td>{{{GDP_nominal}}}&nbsp;{{#if:{{{GDP_nominal_rank|}}}
-                                 |([[List of countries by GDP (nominal)|{{{GDP_nominal_rank}}}]]) }}</td>
-   </tr>
-
-   {{#if:{{{GDP_nominal_per_capita|}}}
-   |<!--then:-->
-      <tr class="mergedbottomrow">
-         <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0px;">[[Per capita]]</td>
-         <td>{{{GDP_nominal_per_capita}}}&nbsp;{{#if:{{{GDP_nominal_per_capita_rank|}}}
-                                               |<!--then:-->([[List of countries by GDP (nominal) per capita|{{{GDP_nominal_per_capita_rank}}}]]) }}</td>
-      </tr>
-   }}
-}}
-
-
-<!-----------------------------------------Gini---------------------------------------->
-{{#if:{{{Gini|}}}
-|<!--then:-->
-   <tr> <td colspan="2">'''[[Gini_coefficient|Gini]]'''<sup style="cursor:help">{{Template:H:title|A Gini index of 0 represents perfect economic equality, and 100 perfect inequality|?}}</sup>&nbsp;<!--
-            -->{{#if:{{{Gini_year|}}}     |<!--then:-->({{{Gini_year|}}}) }}</td>
-        <td>{{{Gini}}}&nbsp;<!--
-            -->{{#if:{{{Gini_category|}}} |<!--then:-->({{{Gini_category|}}})&nbsp;}}<!--
-            -->{{#if:{{{Gini_rank|}}}     |<!--then:--><!--
-            -->([[List of countries by income equality|{{{Gini_rank}}}]]) }}</td>
-   </tr>
-}}
-
-
-<!-----------------------------------------HDI----------------------------------------->
-{{#if:{{{HDI|}}}
-|<!--then:-->
-   <tr> <td colspan="2">'''[[Human Development Index|HDI]]'''&nbsp;<!--
-            -->{{#if:{{{HDI_year|}}}     |<!--then:-->({{{HDI_year|}}}) }}</td>
-        <td>{{{HDI}}}&nbsp;<!--
-            -->{{#if:{{{HDI_category|}}} |<!--then:-->({{{HDI_category|}}})&nbsp;}}<!--
-            -->{{#if:{{{HDI_rank|}}}     |<!--then:--><!--
-            -->([[List of countries by Human Development Index|{{{HDI_rank}}}]]) }}</td>
-   </tr>
-}}
-
-
-<!--------------------------------------Currency--------------------------------------->
-{{#if:{{{currency|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[Currency]]</th>
-        <td>{{{currency}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)</td>
-   </tr>
-}}
-
-
-<!--------------------------------------Time zone-------------------------------------->
-{{#if:{{{time_zone|}}}
-|<!--then:-->
-   <tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
-      <th colspan="2">[[Time zone]]</th>
-      <td>{{{time_zone}}}&nbsp;{{#if:{{{utc_offset|}}}
-                               |<!--then:-->([[Coordinated Universal Time|UTC]]{{{utc_offset}}}) }}</td>
-   </tr>
-
-   {{#if:{{{utc_offset_DST|}}}
-   |<!--then:-->
-      <tr class="{{#if:{{{DST_note|}}}
-                 |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
-          <td style="padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0px;">Summer&nbsp;([[Daylight saving time|DST]])</td>
-          <td>{{{DST|{{{time_zone_DST}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
-      </tr>
-   }}
-}}
-
-{{#if:{{{DST_note|}}}
-|<!--then:-->
-   <tr class="mergedbottomrow">
-      <td colspan="2"></td>
-      <td>{{{DST_note}}}</td>
-   </tr>
-}}
-
-
-<!-------------------------------------Internet TLD------------------------------------->
-{{#if:{{{cctld|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[List of Internet top-level domains|Internet TLD]]</th>
-        <td>{{{cctld}}}</td>
-   </tr>
-}}
-
-
-<!-------------------------------------Calling code------------------------------------->
-{{#if:{{{calling_code|}}}
-|<!--then:-->
-   <tr> <th colspan="2">[[List of country calling codes|Calling code]]</th>
-        <td>+{{{calling_code}}}</td>
-   </tr>
-}}
-
-
-<!------------------------Patron saint (UK constituent countries)----------------------->
-{{#if:{{{patron_saint|}}}
-|<!--then:-->
-   <tr> <th colspan="2" >[[Patron saint]]</th>
-        <td>{{{patron_saint}}}</td>
-   </tr>
-}}
-
-
-<!--------------------------------------Footnotes--------------------------------------->
-{{#if:{{{footnotes|}}}
-|<!--then:-->
-   <tr> <td colspan="3"><small>{{{footnotes}}}</small></td>
-   </tr>
-}}
-
-{{#if:{{{footnote1|}}}
-|<!--then:-->
-   <tr style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>1</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote1}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote2|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{footnote3|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>2</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote2}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote3|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{footnote4|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>3</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote3}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote4|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{footnote5|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>4</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote4}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote5|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{footnote6|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>5</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote5}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote6|}}}
-|<!--then:-->
-   <tr class="{{#if:{{{footnote7|}}}
-              |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>6</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote6}}}</td>
-   </tr>
-}}
-{{#if:{{{footnote7|}}}
-|<!--then:-->
-   <tr class="mergedbottomrow" style="font-size:80%;">
-      <td align="right">{{lower|4px|<sup>7</sup>}}</td>
-      <td colspan="2" style="padding-left:0px;">{{{footnote7}}}</td>
-   </tr>
-}}
-
-
-
-</table>
-<!--end padding:--></div><!--
---></includeonly><!--
--------------------------------End of template--------------------------------
---><noinclude><!--
-
-
--->{{/template}}
-<!--Please add interwiki etc to Template:Infobox Country/template, not here - thanks!-->
+--></table><noinclude>
+{{documentation}}
 </noinclude>
