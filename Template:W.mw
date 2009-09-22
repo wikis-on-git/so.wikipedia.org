@@ -1,0 +1,9 @@
+<includeonly>[[wikipedia:{{{3|en}}}:{{{1}}}|{{{2|{{{1}}}}}}]]</includeonly>
+<noinclude>
+Link to wikipedia.
+
+Usage:
+*<nowiki>{{w|Internet}}</nowiki>: Link to English(default) wikipedia. / {{w|Internet}}
+*<nowiki>{{w|Internet|de}}</nowiki>: Link to German wikipedia. / {{w|Internet|de}}
+[[Category:Wikipedia uncategorized templates|{{PAGENAME}}]]
+</noinclude>
