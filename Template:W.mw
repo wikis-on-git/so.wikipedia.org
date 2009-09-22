@@ -1,9 +1,9 @@
-[[:{{{3|en}}}:{{{1}}}|{{{2|{{{1}}}}}}]]
-<noinclude>
+[[:{{ #if: {{{3|}}}|{{{3}}}|en}}:{{{1}}}|{{ #if: {{{2|}}}|{{{2}}}|{{{1}}}}}]]<noinclude>
 Link to wikipedia.
 
 Usage:
 *<nowiki>{{W|Internet}}</nowiki>: Link to English(default) wikipedia. / {{W|Internet}}
-*<nowiki>{{W|Internet|de}}</nowiki>: Link to German wikipedia. / {{W|Internet|de}}
+*<nowiki>{{W|Internet|IN}}</nowiki>: Link to English(default) wikipedia. / {{W|Internet|IN}}
+*<nowiki>{{W|Internet||de}}</nowiki>: Link to German wikipedia. / {{W|Internet||de}}
 [[Category:Wikipedia uncategorized templates|{{PAGENAME}}]]
 </noinclude>
