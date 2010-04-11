@@ -1,0 +1,205 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{intricate template}}
+
+This template is for use in articles about '''[[languages]] or [[dialects]]'''. It provides a common standard for displaying data about a language.
+
+=== Usage ===
+<pre>
+{{Infobox language
+ |name          = name of language #REQUIRED
+ |nativename    = native name of the language
+ |pronunciation = IPA pronunciation of the native name
+ |states        = countries in which it is mainly spoken
+ |region        = geographic region in which it is mainly spoken
+ |latd=  | latm= | latNS = <!-- latitude degree/min/dir-->
+ |longd= |longm= |longEW = <!-- longitude deg/min/dir-->
+ |speakers      = the number of speakers of the language
+ |iso1          = the ISO 639-1 code for the language
+ |iso2          = the ISO 639-2 code for the language
+ |iso2b         = the ISO 639-2 bibliographic code
+ |iso2t         =  the ISO 639-2 terminological code
+ |iso3          = the ISO 639-3 code for the language
+ |familycolor   = appropriate language family #REQUIRED
+ |fam1          = the broadest possible widely accepted [[language family]] of which the language is a part.
+ |fam2          = a more specific sub-family
+ |...
+ |fam15         = most specific sub group
+ |family        = whatever you want to say
+ |script        = the writing system(s) used to represent the language
+ |rank          = language's ranking in the 'list of languages by number of native speakers'
+ |nation        = list of countries in which it is an official language
+ |minority      = list of countries in which it is a recognised minority language
+ |agency        = regulatory body or language academy for the language
+ |extinct       = date of extinction, or information about extinction
+ |lc1           = language code of the first dialect
+ |ld1           = name of the first language dialect
+ |ll1           = link to the Wikipedia article on that dialect
+ |signers       = number of people who sign that language
+ |creator       = name of language creator
+ |date          = year of first creation
+ |setting       = the use or setting for the language
+ |posteriori    = natural-language sources
+ |caption       = very simple description of image
+ |image         = [[File:image name.png|center|200px|alt=Alt text|Caption]]
+ |map           = [[File:image name.png|center|thumb|300px|alt=Alt text|Caption]]
+ |notice        = Indic
+ |notice        = nonotice
+}}
+</pre>
+
+=== Placement ===
+{{Infobox language/quilt|right}}
+
+The template should placed at the very top of the wikitext of the article, before any text. The absolute basic syntax is as shown below:
+:'''<nowiki>{{Infobox language</nowiki>''' &larr; this calls the template
+:'''|name='''name of language &larr; the name of the language needs to be given
+:'''|familycolor='''appropriate language family &larr; refer to the coloured chart to the right (or above, depending on your browser), and type the name shown there; this will add the appropriate family color to the template top
+:'''<nowiki>}}</nowiki>''' &larr; this ends the template call
+
+However, you will probably want to add more than just this. Other parameters are listed below, they can be incorporated anywhere between the first and last lines, and in any order.
+
+=== Additional parameters ===
+
+There are several more parameters that can be defined between the opening and closing lines. These are:
+:'''|nativename='''native name of the language &larr; what the language calls itself
+:'''|states='''countries in which it is mainly spoken &larr; you do not have to define both this and '''region'''
+:'''|region='''geographic region in which it is mainly spoken &larr; you do not have to define both this and '''states'''; use this parameter for a single statement about geographic distribution
+:'''|speakers='''the number of speakers of the language
+:'''|iso1='''the [[ISO 639-1]] code for the language
+:'''|iso2='''the [[ISO 639-2]] code for the language &larr; see just below for the situation where a language has two ISO 639-2 codes
+:'''|iso3='''the [[ISO 639-3]] code for the language &larr; see [[#Where a language has more than one ISO 639-3 code|below]] for the situation where multiple ISO 639-3 codes apply; if there is no ISO 639-3 code, set '''|iso3=none''' to return the text ''none''
+
+If any of these are unknown, simply leave them out: the template will provide a default text. If a language has two [[ISO 639-2]] codes, one will be defined as the ''bibliographic'' code, and the other ''terminological''. These can be added in separate fields using the following parameters:
+:'''|iso2b='''the [[ISO 639-2]] bibliographic code
+:'''|iso2t='''the [[ISO 639-2]] terminological code
+
+=== Genetic classification ===
+
+You can use the language template to show the [[language family|genetic classification]] of a language at a glance. This classification is displayed as a descending staircase of language families, from the broadest to the most specific. To add the genetic classification use the following:
+:'''|fam1='''the broadest possible widely accepted [[language family]] of which the language is a part &larr; if this would be exactly the same as you have defined for '''familycolor''', it may be omitted
+:'''|fam2='''a more specific sub-family
+:'''|fam3='''a more specific group
+
+You can keep adding parameters in like fashion until you have completed the classification. If you would prefer to enter some other information in this box (for example, ''disputed''), use this parameter instead:
+:'''|family='''whatever you want to say
+
+=== Optional parameters ===
+
+Some parts of the template remain invisible unless they are specifically called. Only use these parameters if they are required.
+:'''|fontcolor='''colour of font against 'familycolor' &larr; the font colour is usually black, use this to change it if it is difficult to read
+:'''|pronunciation='''pronunciation of the native name of the language in [[International Phonetic Alphabet|IPA]] → remember to enclose the transcription in either {{IPA|/ˈslæˌʃɪz/}} or {{IPA|[ˈskwɛə ˈbɹæˌkɪts]}}
+:'''|rank='''language's ranking in the [[list of languages by number of native speakers]]
+:'''|nation='''list of countries in which it is an official language
+:'''|minority='''list of countries in which it is a recognised minority language
+:'''|agency='''regulatory body or language academy for the language
+:'''|extinct='''date of extinction, or information about extinction &larr; this replaces '''speakers'''
+:'''|script='''writing system(s) used to represent the language &larr; in the form "[[Latin alphabet|Latin]] ([[English alphabet|English variant]])"
+:'''|IPAChartEng='''(any non-empty string) displays the note "See [[Help:IPA for English]] for an [[English language|English]]-based pronunciation key." at the bottom of the infobox
+
+=== Language with more than one ISO 639-3 code ===
+
+Some languages have a number of [[ISO 639-3]] codes, one for each dialect of that language. If you try putting all of these codes in the usual '''iso3=''' parameter, it will get quite messy. Instead, use the following parameters:
+:'''|lc1='''language code of the first dialect
+:'''|ld1='''name of the first language dialect
+:'''|ll1='''link to the Wikipedia article on that dialect
+
+For subsequent dialects, use '''lc2''' and so forth. If the name of a language is the same as its Wikipedia article, you do not need to define '''ll''n'''''. It will link without it. If you do not want an internal link to that dialect's page, set '''ll''n''=none''': the text of '''ld''n''''' will then be displayed unlinked. If you want bold text, you can set '''ll''n''''' to the name of the page the infobox is on.
+
+=== Sign languages ===
+
+This template is appropriate to use for sign languages. The following parameter is used instead of '''speakers''':
+:'''|signers='''number of people who sign that language
+
+Once this parameter is defined or '''familycolor=Sign''' is set, the rest of the template makes sure that any reference to 'speaking' is replaced by ones to 'signing'. Setting this parameter automatically makes the coloured bars of the infobox {{Infobox language/familycolor|if=|Sign=1}}, the colour defined for sign languages, and provides a default of '''iso2=sgn''' if no other text is provided. All the other parameters work in exactly the same way.
+
+=== Constructed languages ===
+
+This template is appropriate to use for [[constructed languages]]. The following parameters can be used:
+:'''|creator='''name of language creator
+:'''|date='''year of first creation
+:'''|setting='''the use or setting for the language
+:'''|posteriori='''natural-language sources
+
+Using these parameters, or setting '''famillycolor=Conlang''', automatically sets the coloured bars of the infobox to {{Infobox language/familycolor|if=|Conlang=1}} with white text, and removes the '''states''' and '''region''' parameters from use ('''nation''' is also disabled). If the '''iso2''' parameter is left undefined, it is treated as being '''iso2=art'''. For conlangs, the '''family''' or '''fam''n''''' parameters are used to describe the hierarchy of purpose of the language, whereas '''posteriori''' is used to describe the ''a posteriori'' sources on which the conlang draws.
+
+=== Images in the template ===
+
+You cannot put large images into the language template: they just make it very messy. You can place a small image at the top of the template using the following parameters:
+:'''|caption='''very simple description of image &larr; this is placed in the left-hand column
+:'''|image='''<nowiki>[[File:image name.png|center|200px|alt=Alt text|Caption]]</nowiki>
+
+If you have a slightly larger image, you can place at the bottom of the template, spanning both columns, with the following parameter:
+:'''|map='''<nowiki>[[File:image name.png|center|thumb|300px|alt=Alt text|Caption]]</nowiki>
+
+The [[WP:EIS|usual image markup]] applies for both images. [[Alt text]] is for visually impaired readers, and the [[WP:CAPTION|caption]] is for all readers; typically they should have little in common (see [[WP:ALT]]).
+
+=== Footer notice ===
+
+At the bottom of the infobox is a notice. In most instances, it will be a notice about the [[Unicode]] fonts used for displaying [[International Phonetic Alphabet|IPA]]. For [[sign languages]], it changes to a link to the [[list of sign languages]]. Other notices can be appended manually, using one of the following parameters:
+:'''|notice=Indic''' &larr; fixes a notice about Indic fonts
+:'''|notice=nonotice''' &larr; removes the default notice
+
+=== Sub-templates ===
+
+# [[:Template:Infobox language/IPA notice]]
+# [[:Template:Infobox language/codelist]]
+# [[:Template:Infobox language/family-color]]
+# [[:Template:Infobox language/familycolor]]
+# [[:Template:Infobox language/genetic2]]
+# [[:Template:Infobox language/terminological]]
+
+<includeonly>
+
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Language infobox templates|Language]]
+
+[[ar:قالب:لغة]]
+[[az:Şablon:Dil]]
+[[ba:Ҡалып:Тел]]
+[[be:Шаблон:Картка:Мова]]
+[[be-x-old:Шаблён:Інфармацыя пра мову]]
+[[ca:Template:Llengua]]
+[[cs:Šablona:Infobox jazyk]]
+[[cy:Nodyn:Gwybodlen Iaith]]
+[[da:Skabelon:Sprogboks]]
+[[de:Vorlage:Infobox Sprache]]
+[[dsb:Pśedłoga:Infokašćik rěc]]
+[[el:Πρότυπο:Πληροφορίες γλώσσας]]
+[[es:Plantilla:Infobox idioma]]
+[[eo:Ŝablono:Informkesto lingvo]]
+[[eu:Txantiloi:Hizkuntza infotaula]]
+[[fr:Modèle:Infobox Langue]]
+[[fy:Berjocht:Taaltabel]]
+[[gd:Template:Cànan]]
+[[hsb:Předłoha:Infokašćik rěč]]
+[[ko:Template:언어]]
+[[io:Template:Linguo]]
+[[ilo:Template:Pagsasao]]
+[[ia:Patrono:Infobox lingua]]
+[[it:Template:lingua]]
+[[ka:თარგი:ინფოდაფა ენა]]
+[[ku:Şablon:Ziman]]
+[[la:Formula:Lingua]]
+[[lv:Veidne:Infobox Language]]
+[[li:Sjabloon:Taal]]
+[[hu:Sablon:Nyelv]]
+[[mk:Шаблон:Инфокутија Јазик]]
+[[ja:Template:言語]]
+[[pl:Szablon:Język infobox]]
+[[pt:Predefinição:Info língua]]
+[[ru:Шаблон:Язык]]
+[[simple:Template:Infobox Language]]
+[[sk:Šablóna:Infobox jazyk]]
+[[sl:Predloga:Infopolje Jezik]]
+[[sr:Шаблон:Кутијица за језик]]
+[[fi:Malline:Kieli]]
+[[sv:Mall:språk]]
+[[szl:Szablon:Godka infobox]]
+[[tt:Template:Tel]]
+[[th:Template:กล่องข้อมูล ภาษา]]
+[[vi:Tiêu bản:Tóm tắt về ngôn ngữ]]
+[[tr:Şablon:Dil]]
+[[uk:Шаблон:Картка:Мова]]
+[[zh:Template:Infobox Language]]
+</includeonly>
