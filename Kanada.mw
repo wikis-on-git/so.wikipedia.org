@@ -1,36 +1,82 @@
-{{Dalalka
-|native_name                   = ''Canada (fr)<br />Canada (en)''
-|conventional_long_name        = 
-|common_name                   = 
-|qaarada                       = [[Ameerikada waqooyi]] 
-|sawir_calan                   = Flag of Canada.svg
-|sawir_qaran                   =File:Coat_of_arms_of_Canada.svg‎ 
-|astaan_calan                  =
-|image_map                     = LocationCanada.svg
-|caasimada                     = [[Ottawa]]
-|luuqadaha                     = 
-|dowlada                       = &nbsp;
-|magac_hogaamiye1              =  
-|magac_hogaamiye2              =   
-|magac_hogaamiye1              = 
-|magac_hogaamiye2              = 
-|sovereignty_type              = 
-|sovereignty_note              = 
-|established_event1            = 
-|established_date1             = 
-|area                          = 
-|areami²                       =  
-|biyo                          = 
-|population_estimate           =  
-|population_estimate_year      = 
-|lacagta                       = 
-|wakhti                        = 
-|furaha_debeda		       = 
-|footnote1                     = 
-|footnote2                     = 
-
+{{Infobox Country
+|native_name = Canada
+|common_name = Canada
+|image_flag = Flag of Canada.svg
+|alt_flag = Vertical triband (red, white, red) with a red maple leaf in the centre of the white
+|image_coat = Coat of arms of Canada.svg
+|alt_coat = A shield divided into four rectangles over a triangle. The first rectangle contains three lions passant guardant in gold on a red background; the second, a red lion rampant on a gold background; the third, a gold harp on a blue background; the fourth, three gold fleurs-de-lis on a blue background. The triangle contains three red maple leaves on one stem over a white background. A gold helmet with a veil of red and white maple leaves sits on top of the shield, upon which stands a crowned lion holding a red maple leaf, with a larger crown over its head. On the right is a lion rampant flying the Union Flag. On the left is a unicorn wearing a gold chain from a crown collar, flying a blue flag with three fleurs-de-lis. Both animals hold a red ribbon that goes around the shield, which says "desiderantes meliorem patriam". Below the animals and shield is a blue scroll inscribed with the motto "A mari usque ad mare", which sits on a wreath of flowers. 
+|symbol_type = Arms
+|national_motto = {{lang|la|''[[A Mari Usque Ad Mare]]''}}{{spaces|2}}<small>([[Latin]])<br />"From Sea to Sea"</small> 
+|national_anthem = "[[O Canada]]"
+|royal_anthem = "[[God Save the Queen]]"
+|image_map = Canada (orthographic projection).svg
+|alt_map = Projection of North America with Canada in green
+|map_width = 180px
+|capital = [[Ottawa]]
+|latd = 45 |latm=24 |latNS=N |longd=75 |longm=40 |longEW=W
+|largest_city = [[Toronto]]
+|official_languages = [[Canadian English|English]] and [[Canadian French|French]]
+|regional_languages = [[Inuktitut]], [[Inuinnaqtun]], [[Cree language|Cree]], {{nowrap|[[Dene Suline language|Dëne Sųłiné]]}}, [[Gwich’in language|Gwich’in]], [[Inuvialuktun]], [[Slavey language|Slavey]] and {{nowrap|[[Dogrib language|Tłįchǫ Yatiì]]}}<ref>{{cite web|url=http://www.assembly.gov.nt.ca/_live/documents/documentManagerUpload/08-09-02%20Official%20Languages%20Act.pdf|format=PDF|title=Official Languages Act|work=Revised Statutes of NWT, 1988|publisher=Department of Justice, Northwest Territories|accessdate=2009-11-01}}</ref>
+|demonym = [[Demographics of Canada|Canadian]]
+|government_type = [[Federalism|Federal]] [[parliamentary system|parliamentary democracy]] and [[constitutional monarchy]]<ref>{{cite book|last=D'Aquino|first=Thomas|coauthors= Doern, G. Bruce; Blair, Cassandra|title=Parliamentary democracy in Canada: issues for reform|publisher=ITP Nelson|year=1983|page=2|isbn=0458962902}}</ref>
+|leader_title1 = [[Monarchy of Canada|Monarch]]
+|leader_name1 = [[Elizabeth II of the United Kingdom|HM Queen Elizabeth II]]
+|leader_title2 = [[Governor General of Canada|Governor General]]
+|leader_name2 = [[Michaëlle Jean]]
+|leader_title3 = [[Prime Minister of Canada|Prime Minister]]
+|leader_name3 = [[Stephen Harper]]
+|legislature = [[Parliament of Canada|Parliament]]
+|upper_house = [[Senate of Canada|Senate]]
+|lower_house = [[Canadian House of Commons|House of Commons]]
+|sovereignty_type = [[Canadian Confederation|Establishment]]
+|established_event1 = [[British North America Acts]]
+|established_date1 = July 1, 1867
+|established_event2 = [[Statute of Westminster 1931|Statute of Westminster]]
+|established_date2 = December 11, 1931
+|established_event3 = [[Canada Act 1982|Canada Act]]
+|established_date3 = April 17, 1982
+|area_km2 = 9,984,670
+|area_sq_mi = 3,854,085 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_rank = 2nd
+|area_magnitude = 1 E12
+|percent_water = 8.92 (891,163&nbsp;km<sup>2</sup>/344,080&nbsp;mi<sup>2</sup>)
+|population_estimate = {{formatnum:{{CanPopCommas}} }} <ref>{{cite web
+|url = http://www.statcan.gc.ca/pub/82-003-x/pop/pop-h-clock-eng.htm
+|title = Canada's population clock
+|publisher = Statistics Canada
+<!-- this automatically updates ONCE per day at 00:00 UTC & rounds to nearest hundred—an estimate with any more sig figs can only be either false precision or extremely temporary -- Please do not change formula without discussing on talk page -->
+|accessdate={{CURRENTYEAR}}-{{CURRENTMONTH}}-{{CURRENTDAY}}
 }}
-[[File:Carte administrative du Canada.png|thumbnail|270px|Canada]]
+</ref>
+|population_estimate_year = {{CURRENTYEAR}}
+|population_estimate_rank = 36th
+|population_census = 31,241,030<ref>{{cite web|url=http://www12.statcan.ca/english/census06/data/highlights/ethnic/pages/Page.cfm?Lang=E&Geo=PR&Code=01&Table=2&Data=Count&StartRec=1&Sort=3&Display=All/|title=Ethnic origins, 2006 counts, for Canada, provinces and territories – 20% sample data|date=2008-01-04|publisher=Statistics Canada|accessdate=2009-10-19}}</ref>
+|population_census_year = 2006
+|population_density_km2 = 3.41
+|population_density_sq_mi = 8.3 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank = 228th
+|GDP_PPP_year = 2008
+|GDP_PPP = $1.300 trillion<ref name=imf2>{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2009/02/weodata/weorept.aspx?sy=2006&ey=2009&scsm=1&ssd=1&sort=country&ds=.&br=1&c=156&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a=&pr.x=65&pr.y=3 |title=Canada|publisher=International Monetary Fund|accessdate=2009-10-01}}</ref>
+|GDP_PPP_rank = 14th
+|GDP_PPP_per_capita = $39,098<ref name="imf2"/>
+|GDP_PPP_per_capita_rank = 13th
+|GDP_nominal = $1.499 trillion<ref name="imf2"/>
+|GDP_nominal_rank = 9th
+|GDP_nominal_year = 2008
+|GDP_nominal_per_capita = $45,085<ref name="imf2"/>
+|GDP_nominal_per_capita_rank = 18th
+|HDI_year = 2009
+|HDI = {{increase}} 0.966<ref name="hdr"/>
+|HDI_rank = 4th
+|HDI_category = <span style="color:#090;">very&nbsp;high</span>
+|Gini = 32.1 (2005)<ref name="cia"/>
+|currency = [[Canadian dollar|Dollar]] ($)
+|currency_code = CAD
+|time_zone =
+|utc_offset = −3.5 to −8
+|time_zone_DST =
+|utc_offset_DST = −2.5 to −7
+}}
 Kanada waa wadan dhaca waqooyiga [[ameerika]] waxuuna ku fadhiyaa inta badan [[ameerikada waqooyi]], waxaa ka xiga dhanka koonfureed
 
 Cities : [[Calgary]], [[Edmonton]], [[Montréal]], [[Ottawa]], [[Québec]], [[Toronto]], [[Vancouver]], [[Winnipeg]]...
