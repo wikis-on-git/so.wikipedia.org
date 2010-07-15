@@ -605,7 +605,7 @@
 
 
 <!-------------------------------------Furaha debeda------------------------------------->
-{{#if:{{{furaha_debeda|}}}
+{{#if:{{{furaha_dibada|}}}
 |<!--then:-->
    <tr> <th colspan="2">'''Furaha debeda'''</th>
         <td>+{{{furaha_debeda}}}</td>
