@@ -1,7 +1,7 @@
 {| style="margin: 0 5%; padding: 0 7px 7px 7px; background: #fee; border: 1px solid #999999; text-align: left; font-size:95%;"
 |-
 |[[Image:Broom icon.svg|50px|left]]
-|This page should be deleted. Reason: '''{{{1}}}'''
+|This page should be deleted. {{#if:{{{1|}}}|Reason: '''{{{1}}}'''}}
 
 If you disagree with its speedy deletion, please explain why on [[{{NAMESPACE}} talk:{{PAGENAME}}|its talk page]].  If this page obviously does not meet the criteria for speedy deletion, or you intend to fix it, please remove this notice, but do not remove this notice from a page that you have created yourself.
 
