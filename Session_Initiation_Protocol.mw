@@ -1,15 +1,15 @@
-[[image:Sip proxy2.gif|250px|right|thumb|Shaxda SIPka]]<br>
-Sesseion Initiation Protocole waa Baratokool IP ama cinwaanka [[Internet]]ka Isgaarsiin kusaleysan, waxaana loo isticmaalaa isku wicid codeed ama muuqaaleed, sidoo kalene waxaa loo isticmaalaa Fariinta degdega ah (Instant Messaging) ayadoo la isticmaalayo Signalyo, SIP waa aalad Casri ah ayadoo iminka noqotay mid aad loo isticmaalo Leyn guriyeed gaar ahaan xaga is gaarsiinta casrigaan, ayadoo hada loo isticmaalo teleefan jogoraafiyeed (Geographical DIDs) kaasoo tusaale ahaan adigoo meel qaarada [[Afrika]] ka tirsan kunool heesan karo nambar [[Mareykanka]] ah.<br>
-Qaabka oo u dhisanyahay ama qaacida SIPka: sip:qofka/nambar@shirkada.com... <br>
-tusaale ahaan sip:burtugey@sipphone.com<br>
+[[File:Sip proxy2.gif|250px|right|thumb|Shaxda SIPka]]<br />
+Sesseion Initiation Protocole waa Baratokool IP ama cinwaanka [[Internet]]ka Isgaarsiin kusaleysan, waxaana loo isticmaalaa isku wicid codeed ama muuqaaleed, sidoo kalene waxaa loo isticmaalaa Fariinta degdega ah (Instant Messaging) ayadoo la isticmaalayo Signalyo, SIP waa aalad Casri ah ayadoo iminka noqotay mid aad loo isticmaalo Leyn guriyeed gaar ahaan xaga is gaarsiinta casrigaan, ayadoo hada loo isticmaalo teleefan jogoraafiyeed (Geographical DIDs) kaasoo tusaale ahaan adigoo meel qaarada [[Afrika]] ka tirsan kunool heesan karo nambar [[Mareykanka]] ah.<br />
+Qaabka oo u dhisanyahay ama qaacida SIPka: sip:qofka/nambar@shirkada.com... <br />
+tusaale ahaan sip:burtugey@sipphone.com<br />
 Halkan uguma tala gelin inaan ka sheekeeyo taariiqda SIP ka laakiin waxaa rabay inaan usoo bandhigo Sida loo Isticmaalo SIP ka, Shirkada ugu caansan ee bixiya waxaa ka mid Gizmo5.com oo ay hada [[Google]] la wareegtay.
-SIPka waxa uu isticmaa Teleefan Jilicsan (Softphone) oo ay ugu caansantahay X-Lite<br>
+SIPka waxa uu isticmaa Teleefan Jilicsan (Softphone) oo ay ugu caansantahay X-Lite<br />
 [[File:X-lite.gif|right|150px|left|thumb|teleefanka jilicsan ee X-lite]]
 
-Iyo shirkada Snom oo ayadane aan ka yareysan soona saarto teleefanka SIP ka adag ama kan guriga la geshto iyo teleefanka jilicsan.<br>
-[[image:3cx.jpg|130px|right|thumb|teleefanka jilicsan ee 3cx]]
+Iyo shirkada Snom oo ayadane aan ka yareysan soona saarto teleefanka SIP ka adag ama kan guriga la geshto iyo teleefanka jilicsan.<br />
+[[File:3cx.jpg|130px|right|thumb|teleefanka jilicsan ee 3cx]]
 
-[[image:snom.jpg|150px|right|thumb|teleefanka adag ee Snom, Snom waa Shirkad xaga teleefanada SIP ka ku horeyso]].
+[[File:snom.jpg|150px|right|thumb|teleefanka adag ee Snom, Snom waa Shirkad xaga teleefanada SIP ka ku horeyso]].
 Maantadan waxaa jirta shirkado badan oo si bilaash u bixiyo xisaab SIP ah tusaale ahaan sip2sip.info waxey bixisaa SIP bilaash ah.
 fonosip.com oo ayadane bixiso mid lacag ah iyo bilaash ah gizmo5.com si kumeel gaar ah ayey u joojisay abuurida cinwaanada cusub.
 Sidoo kale waxaa jira shirkado ayane si bilaash u bixiyo teleefanka dhulka ama leenka guriga sida ipkall.com oo bixisa nambar [[Mareykanka]] ah oo bilaash ah adigoo kaliya u baahan in aad sameysato cinwaan SIP ah oo teleefankaas laguugu soo xawilo, sidoo kale waxaa jiro shirkado badan oo keena adeegan loo yaqaan [[DID]] sida num2sip.com oo bixisa nambar leen ah oo [[Faransa]], messagenet.it oo bixiso number [[Talyaani]] ah, sipgate.co.uk oo bixiso nambar Shakhsiyadeedka oo [[Ingriiska]] ah iyo shirkado badan oo bixiya adeegyadaas oo lacag ah aadna heli karto intabadan wadamadan horumaray leemankooda.
@@ -38,6 +38,7 @@ adeegan sidoo kale waxaad ku shuban kartaa lacag oo aad wax ku wacan karto asago
 [[ko:세션 개시 프로토콜]]
 [[lt:Session Initiation Protocol]]
 [[mk:Session Initiation Protocol]]
+[[ms:Protokol Pemula Sesi]]
 [[nl:Session Initiation Protocol]]
 [[pl:Session Initiation Protocol]]
 [[pms:SIP]]
