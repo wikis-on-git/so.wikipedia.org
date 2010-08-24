@@ -1,7 +1,7 @@
 {| border=0 align=right cellpadding=0 cellspacing=0 width=260px class="toccolours" style="float: right; margin: 0 0 1em 1em; padding: 0; border-collapse: collapse; font-size: 90%; text-align: left;" 
 |+ style="font-size:larger; font-weight: bold;" | {{{name_local}}}
 |- 
-| align=center colspan=2 style="padding: 5px" | [[Image:{{{image_coat_of_arms}}}|128px]]
+| align=center colspan=2 style="padding: 5px" | {{#if:{{{image_coat_of_arms|}}}|[[Image:{{{image_coat_of_arms}}}|128px]]}}
 |- style="background-color: #efefef;" 
 |style="padding: 0 5px 0 5px;" | {{{region_type}}} '''{{{region_type_local}}}''' ee
 |style="padding: 0 5px 0 0;" |'''[[{{{region_of_link}}}|{{{region_of_name}}}]]'''
