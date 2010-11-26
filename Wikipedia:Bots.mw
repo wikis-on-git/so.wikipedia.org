@@ -206,6 +206,16 @@ This bot will be making anywheres between 4 and 12 edits per minute.  If you req
 * '''Botstatus on other wiki''' : ar, fr, en, pl, ru...
 [[User:NobelBot|NobelBot]] 15:55, 15 Maarso 2009 (UTC)
 
+
+=== [[User:TjBot|TjBot]] ===
+I request a bot flag for [[User:TjBot|TjBot]]
+* '''Bot operator''': [[:id:user:Tjmoel]]
+* '''List of botflags on other projects''': [[:ar:User:TjBot|ar]], [[:be-x-old:User:TjBot|be-x-old]], [[:cs:User:TjBot|cs]], [[:de:User:TjBot|de]], [[:es:User:TjBot|es]], [[:et:User:TjBot|et]], [[:fr:User:TjBot|fr]], [[:hr:User:TjBot|hr]], [:id:User:TjBot|id]], [[:it:User:TjBot|it]], [[:lb:User:TjBot|lb]], [[:lt:User:TjBot|lt]], [[:lv:User:TjBot|lv]], [[:ms:User:TjBot|ms]], [[:no:User:TjBot|no]], [[:pl:User:TjBot|pl]], [[:ru:User:TjBot|ru]], [[:sr:User:TjBot|sr]], [[:sw:User:TjBot|sw]], [[:tr:User:TjBot|tr]], [[:uk:User:TjBot|uk]], [[:zh-yue:User:TjBot|zh-yue]], [[:zh:User:TjBot|zh]]
+.. Contributions in all Wikimedia projects [http://toolserver.org/~luxo/contributions/contributions.php?user=TjBot see here]. Flags and edit counter in other projects [http://toolserver.org/~vvv/sulutil.php?user=TjBot see here].
+* '''Purpose''': interwiki
+* '''Technical details''': use [[m:Using the python wikipediabot|pywikipedia]]
+<span style="font-size:1em; font-family:Trebuchet MS,serif; font-style:bold;">&mdash;&nbsp;[[User:Tjmoel|'''Tjmoel''']]<sup>&nbsp;[[File:Icons-flag-id.png|link=:id:User talk:Tjmoel]] [[User talk:Tjmoel| bicara]]</sup></span> 14:15, 26 Nofeembar 2010 (UTC)
+
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
 
