@@ -4,5 +4,5 @@
 |width=40| {{#if: {{{flag|}}} | [[File:{{{flag}}}|40px|Flag of {{{region}}}]] | [[File:Flag of Somalia.svg|40px|Flag of Somalia]]}}
 |-
 | style="font-size: 90%;" colspan="2" | {{{list}}}
-|}<!--
+|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:Magaalooyinka Gobolka {{{region}}}]] [[Category:Magaalooyinka Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
