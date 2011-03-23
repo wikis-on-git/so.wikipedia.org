@@ -1,0 +1,8 @@
+{| style="margin: 0 auto;width:90%;clear:both;text-align:center;" class="toccolours"
+|-
+! style="background:#ccccff" width="100%" | [[:Category:Tuulooyinka Gobolka {{{region}}}|Tuulooyinka]] [[{{{regionW<includeonly>|{{{region}}}</includeonly>}}}|Gobolka {{{region}}}]]
+|width=40| {{#if: {{{flag|}}} | [[File:{{{flag}}}|40px|Flag of {{{region}}}]] | [[File:Flag of Somalia.svg|40px|Flag of Somalia]]}}
+|-
+| style="font-size: 90%;" colspan="2" | {{{list}}}
+|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:Tuulooyinka Gobolka {{{region}}}]] [[Category:Tuulooyinka Soomaaliya]]}}</includeonly><!--
+--><noinclude>{{Documentation}}</noinclude>
