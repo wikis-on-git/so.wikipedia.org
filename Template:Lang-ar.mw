@@ -1,0 +1,11 @@
+{{#if: {{{1|<noinclude>—</noinclude>}}} 
+| {{#switch: {{{3|+}}}
+    | - = {{{4|carabiga}}}{{LangF|ar|{{{3}}}}}
+    | + = [[Carabi|{{{4|carabiga}}}]]{{LangF|ar|{{{3}}}}}
+    | * =
+  }}<!--
+-->{{lang|ar|{{{1}}}}}<!-- 
+-->{{#if: {{{2|<noinclude>—</noinclude>}}}|{{LangTd|{{{2}}}}}}}
+| {{icon ara}}
+}}<!-- 
+--><noinclude>{{Documentation}}</noinclude>
