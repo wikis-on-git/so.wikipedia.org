@@ -1,8 +1,8 @@
 {| style="margin: 0 auto;width:90%;clear:both;text-align:center;" class="toccolours"
 |-
-! style="background:#ccccff" width="100%" | [[:Category:Degmooyinka Gobolka {{{region}}}|Magaaloyaasha iyo Tuulooyinka]] [[{{{regionW<includeonly>|{{{region}}}</includeonly>}}}|Gobolka {{{region}}}]]
-|width=40| {{#if: {{{flag|}}} | [[File:{{{flag}}}|40px|Flag of {{{region}}}]] | [[File:Flag of Somalia.svg|40px|Flag of Somalia]]}}
+! style="background:#ccccff" width="100%" | [[:Category:Degmooyinka Gobolka {{{region|{{{gobol}}}}}}|Degmooyinka]] [[{{{regionW|{{{gobolW<includeonly>|{{{region|{{{gobol}}}}}}</includeonly>}}}}}}|Gobolka {{{region|{{{gobol}}}}}}]]
+|width=40| {{#if: {{{flag|{{{calan|}}}}}} | [[File:{{{flag|{{{calan}}}}}}|40px|Calanka Gobolka {{{region|{{{gobol}}}}}}]] | [[File:Flag of Somalia.svg|40px|Calanka Soomaaliya]]}}
 |-
 | style="font-size: 90%;" colspan="2" | {{{list}}}
-|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:Degmooyinka Gobolka {{{region}}}]] [[Category:Degmooyinka Soomaaliya]]}}</includeonly><!--
+|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:Magaaloyaasha iyo Tuulooyinka Gobolka {{{gobol|{{{region}}}}}}]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
