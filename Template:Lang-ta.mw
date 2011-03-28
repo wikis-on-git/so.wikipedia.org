@@ -1,0 +1,12 @@
+{{#if: {{{1|<noinclude>—</noinclude>}}} 
+| {{#switch: {{{4|+}}}
+    | - = {{{5|Af-Tamil}}}{{LangF|ta|{{{4}}}}}
+    | + = [[Af-Tamil|{{{5|Af-Tamil}}}]]{{LangF|ta|{{{4}}}}}
+    | * =
+  }}<!--
+-->{{lang|ta|{{{1}}}}}<!-- 
+-->{{#if: {{{2|<noinclude>—</noinclude>}}}|{{langTl|ta|{{{2}}}}}}}<!-- 
+-->{{#if: {{{3|<noinclude>—</noinclude>}}}|{{LangTd|{{{3}}}}}}}
+| {{icon tam}}
+}}<!-- 
+--><noinclude>{{Documentation}}</noinclude>
