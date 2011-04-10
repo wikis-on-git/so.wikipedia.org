@@ -1,0 +1,12 @@
+__NOTOC__ __NOEDITSECTION__
+{| width="100%" cellspacing="0" cellpadding="0" valign="top" border="0" |<noinclude>
+<br clear="all">
+==Usage==
+To create a set of tabs, use these five elements. Keep the page tabs in the same order on all pages and use "Tab1" for the current page.
+
+{{[[Wikipedia:Introduction|Hordhac/TabsTop]]}}<br>
+{{[[Wikipedia:Introduction|Hordhac/Tab1]]|Current page name}}<br>
+{{[[Wikipedia:Introduction|Hordhac/Tab2]]|Other page name(s)}}<br>
+{{[[Wikipedia:Introduction|Hordhac/Tab3]]|Other page name}} (use for flush-right other page name only)<br>
+{{[[Wikipedia:Introduction|Hordhac/TabsBottom]]}}
+</noinclude>
