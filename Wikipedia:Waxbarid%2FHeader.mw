@@ -1,0 +1,20 @@
+{{Wikipedia:Tutorial/TabsTop}}
+{{Wikipedia:Tutorial/Tab1|[[Wikipedia:Tutorial|Bogga Hore]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Editing)|wax ka bedelid]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Formatting)|Isku toosin]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Wikipedia links)|La xiriiridyada Wikipedia]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (External links)|External links]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Talk pages)|Bogga Wadahadalka]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Keep in mind)|Xasuuso]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Registration)|Diiwaangelinta]]}}
+{{Wikipedia:Tutorial/Tab2|[[Wikipedia:Tutorial (Wrap-up and more info)|Wrap-up]]}}
+{{Wikipedia:Tutorial/TabsBottom}}<noinclude>
+<br clear="all">
+==Usage==
+To create a set of tabs, use these four elements. Keep the page tabs in the same order on all pages and use "Tab1" for the current page.
+
+{{[[Wikipedia:Tutorial/TabsTop]]}}<br>
+{{[[Wikipedia:Tutorial/Tab1]]|Current page name}}<br>
+{{[[Wikipedia:Tutorial/Tab2]]|Other page name(s)}}<br>
+{{[[Wikipedia:Tutorial/TabsBottom]]}}
+</noinclude>
