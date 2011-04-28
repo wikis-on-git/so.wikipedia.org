@@ -3,7 +3,7 @@
    Fadlan Ogeysiis: Tembalaydkan waxna haka bedelin, hadii aad taqaaid maa hanee!!
 
 --><includeonly><!--
---><div border="0" align="right" cellpadding="4" width="300" style="float:right; margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; font-size: 85%; border-collapse: collapse; width:46ex; margin-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
+--><div style="padding-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
 -->
 <table class="infobox geography" style="width:46ex;">
 
@@ -72,8 +72,8 @@
    </tr>
 }}
 
-<!----------------------------------------Maps----------------------------------------->
-{{#if:{{{image_map|}}}
+<!----------------------------------------Khariidada----------------------------------------->
+{{#if:{{{sawir_Khariidad|}}}
 |<!--then:-->
    <tr>
       <td colspan="3" style="text-align:center; padding:0.6em 0em 0.6em 0em;"> [[Image:{{{image_map}}}|250px|center|Location of {{{common_name|{{PAGENAME}}}}}]] <div style="position:relative; top:3px;"><small>{{{map_caption|<noinclude>{{{map_caption}}}</noinclude>}}}</small></div>
@@ -81,7 +81,7 @@
    </tr>
 }}
 
-{{#if:{{{image_map2|}}}
+{{#if:{{{sawir_khariidad2|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
       <td colspan="3" style="text-align:center; padding:0.6em 0em 0.6em 0em;"> [[Image:{{{image_map2}}}|250px|center|Location of {{{common_name|{{PAGENAME}}}}}]] <div style="position:relative; top:3px;"><small>{{{map_caption2|}}}</small></div>
@@ -123,7 +123,7 @@
                     ---------add capital's latitude and longitude (if provided):--------
                     -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
                     -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
-                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{area}}}) }}</small><!--
+                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{bed}}}) }}</small><!--
                     -->}}<!--
                 --></td>
 
@@ -133,11 +133,11 @@
                 ------------------------------------------------------------------
                 --></td>
                    <!--------Add capital:-------->
-                   <td style="vertical-align:middle;">{{{caasimada}}}<!--
+                   <td style="vertical-align:left;">{{{caasimada}}}<!--
                     ---------add capital's latitude and longitude (if provided):--------
                     -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
                     -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
-                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{area}}}) }}</small><!--
+                    -->|{{{longm}}}|{{{longEW}}}|type:country({{{bed}}}) }}</small><!--
                     -->}}<!--
                 --></td>
                 </tr>
@@ -145,7 +145,7 @@
                 {{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
                 |<!--then5:-->
                    <tr class="mergedbottomrow">
-                      <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
+                      <th colspan="2" style="vertical-align:left;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
                       <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
                    </tr>
                 }}<!--(end5)-->
@@ -155,7 +155,7 @@
       --------Add magaalada_uguwayn or largest_settlement (if provided):--------
       -->{{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
          |<!--then6:-->
-            <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|Magaalo}}}]]</th>
+            <th colspan="2" style="vertical-align:left;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|Magaalo}}}]]</th>
             <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
          }}<!--(end6)-->
 
@@ -164,7 +164,7 @@
 }}<!--(end1)-->
 
 
-<!---------------Luugadaha------------->
+<!---------------Luuqadaha------------->
 {{#if:{{{luuqadaha|}}}
 |<!--then:-->
    <tr> <th colspan="2">'''Luuqada(ha) Looga hadlo'''</th>
@@ -354,11 +354,11 @@
 }}
 
 
-<!-----------------------------------------Area----------------------------------------->
-{{#if:{{{area|}}}
+<!-----------------------------------------Bed----------------------------------------->
+{{#if:{{{bed|}}}
 |<!--then:-->
    <tr class="mergedtoprow">
-      <th colspan="3">'''Area'''</th>
+      <th colspan="3">'''Bed'''</th>
    </tr>
 
    <tr class="mergedrow">
@@ -369,7 +369,7 @@
       <td>[[{{{area_magnitude|}}} {{#if:{{{area_magnitude|}}}
                                   |<!--then:-->m²<!--
                                -->|<!--else:-->Square metre<!--
-                               -->}}|{{{area|}}} km²<!--
+                               -->}}|{{{bed|}}} km²<!--
        -->]]&nbsp;{{#if:{{{area_rank|}}}
                   |<!--then:-->([[List of countries and outlying territories by area|{{{area_rank}}}]]) }}<br/>{{{areami²|}}}&nbsp;[[Square mile|sq&nbsp;mi]]&nbsp;</td>
    </tr>
@@ -605,7 +605,7 @@
 
 
 <!-------------------------------------Furaha debeda------------------------------------->
-{{#if:{{{furaha_debeda|}}}
+{{#if:{{{furaha_dibada|}}}
 |<!--then:-->
    <tr> <th colspan="2">'''Furaha debeda'''</th>
         <td>+{{{furaha_debeda}}}</td>
