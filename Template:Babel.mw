@@ -1,6 +1,6 @@
 <table style="float:right; clear:right; margin: 0.5em 1em; border:1px solid #99B3FF; padding:2px; width:242px"><tr><td style="text-align:center" cellspacing="0" cellpadding="0">'''[[Wikipedia:Babel]]'''
 </td></tr><tr><td>{{#if: {{{1|}}}
-|{{User {{{1}}}}}|<center style="background-color:#eee">''Enter language skill levels such as:''<br /> <code><nowiki>{{Babel|so|en-2|fr-3|</nowiki></code>&nbsp;&hellip;&nbsp;<code> <nowiki>}}</nowiki></code></center>}}</td></tr>{{#if: {{{2|}}}
+|{{User {{{1}}}}}|<center style="background-color:#eee">''Ku qor darajooyinka luqada aad si fiican u taqaanid tusaale ahaan:''<br /> <code><nowiki>{{Babel|so|en-2|fr-3|</nowiki></code>&nbsp;&hellip;&nbsp;<code> <nowiki>}}</nowiki></code></center>}}</td></tr>{{#if: {{{2|}}}
 |<tr><td>{{User {{{2}}}}}</td></tr>}}{{#if: {{{3|}}}
 |<tr><td>{{User {{{3}}}}}</td></tr>}}{{#if: {{{4|}}}
 |<tr><td>{{User {{{4}}}}}</td></tr>}}{{#if: {{{5|}}}
