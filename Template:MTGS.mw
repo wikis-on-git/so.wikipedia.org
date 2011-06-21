@@ -4,5 +4,5 @@
 |width=40| {{#if: {{{flag|{{{calan|}}}}}} | [[File:{{{flag|{{{calan}}}}}}|40px|Calanka Gobolka {{{region|{{{gobol}}}}}}]] | [[File:Flag of Somalia.svg|40px|Calanka Soomaaliya]]}}
 |-
 | style="font-size: 90%;" colspan="2" | {{{list}}}
-|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:Magaalooyinka Soomaaliya]]}}</includeonly><!--
+|}<includeonly>{{#if: {{NAMESPACE}} | | Category:Magaaloyaasha gobolka Awdal | [[Category:Magaalooyinka Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
