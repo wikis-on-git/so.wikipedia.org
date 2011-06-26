@@ -95,7 +95,7 @@
 {{!}} colspan=2 {{!}} <span class="plainlinksneverexpand">{{{website}}}</span>
 }}
 |-
-{{#if: {{{r1-number<includeonly>|</includeonly>}}} {{{r1-length-f|}}} {{{r1-length-m|}}} {{{r1-barxada|}}}|
+{{#if: {{{r1-lambar<includeonly>|</includeonly>}}} {{{r1-length-f|}}} {{{r1-length-m|}}} {{{r1-barxada|}}}|
 ! colspan=4 style="background-color: #69c; color: white" {{!}} [[Wadada]]
 {{!}}- style="background-color: #ddd"
 ! rowspan=2 style="width: 20%" {{!}} [[Wadada#Orientation and dimensions|Jihada]]
@@ -105,149 +105,149 @@
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[metre|m]]|[[Foot (Dhirirka)|ft]]}}
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[Foot (Dhirirka)|ft]]|[[metre|m]]}}
 {{!}}- style="text-align: center"
-{{!}} {{{r1-number<includeonly>|</includeonly>}}}
+{{!}} {{{r1-lambar<includeonly>|</includeonly>}}}
 {{!}} {{{r1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}}
 {{!}} {{{r1-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}
 {{!}} {{{r1-barxada<includeonly>|</includeonly>}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r2-number<includeonly>|</includeonly>}}} {{{r2-length-f|}}} {{{r2-length-m|}}} {{{r2-barxada|}}}|
-{{!}} {{{r2-number<includeonly>|</includeonly>}}}
+{{#if: {{{r2-lambar<includeonly>|</includeonly>}}} {{{r2-length-f|}}} {{{r2-length-m|}}} {{{r2-barxada|}}}|
+{{!}} {{{r2-lambar<includeonly>|</includeonly>}}}
 {{!}} {{{r2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}}
 {{!}} {{{r2-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}
 {{!}} {{{r2-barxada<includeonly>|</includeonly>}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r3-number|}}} {{{r3-length-f|}}} {{{r3-length-m|}}} {{{r3-barxada|}}}|
-{{!}} {{{r3-number|}}}
+{{#if: {{{r3-lambar|}}} {{{r3-length-f|}}} {{{r3-length-m|}}} {{{r3-barxada|}}}|
+{{!}} {{{r3-lambar|}}}
 {{!}} {{{r3-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r3-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r3-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r4-number|}}} {{{r4-length-f|}}} {{{r4-length-m|}}} {{{r4-barxada|}}}|
-{{!}} {{{r4-number|}}}
+{{#if: {{{r4-lambar|}}} {{{r4-length-f|}}} {{{r4-length-m|}}} {{{r4-barxada|}}}|
+{{!}} {{{r4-lambar|}}}
 {{!}} {{{r4-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r4-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r4-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r5-number|}}} {{{r5-length-f|}}} {{{r5-length-m|}}} {{{r5-barxada|}}}|
-{{!}} {{{r5-number|}}}
+{{#if: {{{r5-lambar|}}} {{{r5-length-f|}}} {{{r5-length-m|}}} {{{r5-barxada|}}}|
+{{!}} {{{r5-lambar|}}}
 {{!}} {{{r5-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r5-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r5-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r6-number|}}} {{{r6-length-f|}}} {{{r6-length-m|}}} {{{r6-barxada|}}}|
-{{!}} {{{r6-number|}}}
+{{#if: {{{r6-lambar|}}} {{{r6-length-f|}}} {{{r6-length-m|}}} {{{r6-barxada|}}}|
+{{!}} {{{r6-lambar|}}}
 {{!}} {{{r6-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r6-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r6-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r7-number|}}} {{{r7-length-f|}}} {{{r7-length-m|}}} {{{r7-barxada|}}}|
-{{!}} {{{r7-number|}}}
+{{#if: {{{r7-lambar|}}} {{{r7-length-f|}}} {{{r7-length-m|}}} {{{r7-barxada|}}}|
+{{!}} {{{r7-lambar|}}}
 {{!}} {{{r7-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r7-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r7-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{r8-number|}}} {{{r8-length-f|}}} {{{r8-length-m|}}} {{{r8-barxada|}}}|
-{{!}} {{{r8-number|}}}
+{{#if: {{{r8-lambar|}}} {{{r8-length-f|}}} {{{r8-length-m|}}} {{{r8-barxada|}}}|
+{{!}} {{{r8-lambar|}}}
 {{!}} {{{r8-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{r8-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{r8-barxada|}}}
 }}
 |- style="background-color: #69c; color: white"
-{{#if: {{{h1-number<includeonly>|</includeonly>}}} {{{h1-length-f|}}} {{{h1-length-m|}}} {{{h1-barxada|}}}|
+{{#if: {{{h1-lambar<includeonly>|</includeonly>}}} {{{h1-length-f|}}} {{{h1-length-m|}}} {{{h1-barxada|}}}|
 ! colspan=4 {{!}} [[Helipad]]s
 {{!}}- style="background-color: #ddd"
-! rowspan=2 style="width: 15%" {{!}} Lambarka
+! rowspan=2 style="width: 15%" {{!}} Lambar
 ! colspan=2 style="width: 50%" {{!}} Length
 ! rowspan=2 style="width: 35%" {{!}} Barxada
 {{!}}- style="background-color: #ddd"
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[metre|m]]|[[Foot (length)|ft]]}}
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[Foot (length)|ft]]|[[metre|m]]}}
 {{!}}- style="text-align: center"
-{{!}} {{{h1-number<includeonly>|</includeonly>}}}
+{{!}} {{{h1-lambar<includeonly>|</includeonly>}}}
 {{!}} {{{h1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}}
 {{!}} {{{h1-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}
 {{!}} {{{h1-barxada<includeonly>|</includeonly>}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h2-number<includeonly>|</includeonly>}}} {{{h2-length-f|}}} {{{h2-length-m|}}} {{{h2-barxada|}}}|
-{{!}} {{{h2-number<includeonly>|</includeonly>}}}
+{{#if: {{{h2-lambar<includeonly>|</includeonly>}}} {{{h2-length-f|}}} {{{h2-length-m|}}} {{{h2-barxada|}}}|
+{{!}} {{{h2-lambar<includeonly>|</includeonly>}}}
 {{!}} {{{h2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}}
 {{!}} {{{h2-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}
 {{!}} {{{h2-barxada<includeonly>|</includeonly>}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h3-number|}}} {{{h3-length-f|}}} {{{h3-length-m|}}} {{{h3-barxada|}}}|
-{{!}} {{{h3-number|}}}
+{{#if: {{{h3-lambar|}}} {{{h3-length-f|}}} {{{h3-length-m|}}} {{{h3-barxada|}}}|
+{{!}} {{{h3-lambar|}}}
 {{!}} {{{h3-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h3-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h3-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h4-number|}}} {{{h4-length-f|}}} {{{h4-length-m|}}} {{{h4-barxada|}}}|
-{{!}} {{{h4-number|}}}
+{{#if: {{{h4-lambar|}}} {{{h4-length-f|}}} {{{h4-length-m|}}} {{{h4-barxada|}}}|
+{{!}} {{{h4-lambar|}}}
 {{!}} {{{h4-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h4-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h4-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h5-number|}}} {{{h5-length-f|}}} {{{h5-length-m|}}} {{{h5-barxada|}}}|
-{{!}} {{{h5-number|}}}
+{{#if: {{{h5-lambar|}}} {{{h5-length-f|}}} {{{h5-length-m|}}} {{{h5-barxada|}}}|
+{{!}} {{{h5-lambar|}}}
 {{!}} {{{h5-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h5-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h5-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h6-number|}}} {{{h6-length-f|}}} {{{h6-length-m|}}} {{{h6-barxada|}}}|
-{{!}} {{{h6-number|}}}
+{{#if: {{{h6-lambar|}}} {{{h6-length-f|}}} {{{h6-length-m|}}} {{{h6-barxada|}}}|
+{{!}} {{{h6-lambar|}}}
 {{!}} {{{h6-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h6-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h6-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h7-number|}}} {{{h7-length-f|}}} {{{h7-length-m|}}} {{{h7-barxada|}}}|
-{{!}} {{{h7-number|}}}
+{{#if: {{{h7-lambar|}}} {{{h7-length-f|}}} {{{h7-length-m|}}} {{{h7-barxada|}}}|
+{{!}} {{{h7-lambar|}}}
 {{!}} {{{h7-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h7-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h7-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h8-number|}}} {{{h8-length-f|}}} {{{h8-length-m|}}} {{{h8-barxada|}}}|
-{{!}} {{{h8-number|}}}
+{{#if: {{{h8-lambar|}}} {{{h8-length-f|}}} {{{h8-length-m|}}} {{{h8-barxada|}}}|
+{{!}} {{{h8-lambar|}}}
 {{!}} {{{h8-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h8-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h8-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h9-number|}}} {{{h9-length-f|}}} {{{h9-length-m|}}} {{{h9-barxada|}}}|
-{{!}} {{{h9-number|}}}
+{{#if: {{{h9-lambar|}}} {{{h9-length-f|}}} {{{h9-length-m|}}} {{{h9-barxada|}}}|
+{{!}} {{{h9-lambar|}}}
 {{!}} {{{h9-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h9-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h9-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h10-number|}}} {{{h10-length-f|}}} {{{h10-length-m|}}} {{{h10-barxada|}}}|
-{{!}} {{{h10-number|}}}
+{{#if: {{{h10-lambar|}}} {{{h10-length-f|}}} {{{h10-length-m|}}} {{{h10-barxada|}}}|
+{{!}} {{{h10-lambar|}}}
 {{!}} {{{h10-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h10-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h10-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h11-number|}}} {{{h11-length-f|}}} {{{h11-length-m|}}} {{{h11-barxada|}}}|
-{{!}} {{{h11-number|}}}
+{{#if: {{{h11-lambar|}}} {{{h11-length-f|}}} {{{h11-length-m|}}} {{{h11-barxada|}}}|
+{{!}} {{{h11-lambar|}}}
 {{!}} {{{h11-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h11-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h11-barxada|}}}
 }}
 |- style="text-align: center"
-{{#if: {{{h12-number|}}} {{{h12-length-f|}}} {{{h12-length-m|}}} {{{h12-barxada|}}}|
-{{!}} {{{h12-number|}}}
+{{#if: {{{h12-lambar|}}} {{{h12-length-f|}}} {{{h12-length-m|}}} {{{h12-barxada|}}}|
+{{!}} {{{h12-lambar|}}}
 {{!}} {{{h12-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}}
 {{!}} {{{h12-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}
 {{!}} {{{h12-barxada|}}}
