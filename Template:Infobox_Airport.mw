@@ -32,14 +32,14 @@
 {{!}} colspan=2 {{!}} {{{owner-oper}}}
 |
 {{!}}- class="note" style="text-align: left" 
-{{#if: {{{owner<includeonly>|</includeonly>|}}}|
-! colspan=2 {{!}} Owner
-{{!}} colspan=2 {{!}} {{{owner}}}
+{{#if: {{{lahaashaha<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Lahaashaha
+{{!}} colspan=2 {{!}} {{{lahaashaha}}}
 }}
 {{!}}- class="note" style="text-align: left" 
 {{#if: {{{operator<includeonly>|</includeonly>|}}}|
-! colspan=2 {{!}} Operator
-{{!}} colspan=2 {{!}} {{{operator}}}
+! colspan=2 {{!}} Maamulaha
+{{!}} colspan=2 {{!}} {{{maamulaha}}}
 }}
 }}
 |- style="text-align: left"
