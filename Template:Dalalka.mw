@@ -3,9 +3,9 @@
    Fadlan Ogeysiis: Tembalaydkan waxna haka bedelin, hadii aad taqaaid maa hanee!!
 
 --><includeonly><!--
---><div border="0" align="right" cellpadding="4" width="300" style="float:right; margin: 0 0 1em 1em; background: #f9f9f9; border: 1px #aaa solid; font-size: 85%; border-collapse: collapse; width:46ex; margin-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
+--><div style="padding-top:0.75em;"><!--Please retain; this padding is to prevent any long dab statements at the top of an article from clashing with the top of this infobox.
 -->
-<table class="infobox geography" style="width:46ex;">
+<table class="infobox geography" align="right" style="width:46ex;">
 
 
 <!---------------------------------------Magaca----------------------------------------->
@@ -100,7 +100,7 @@
        ---------------------------------------------------------------------------->
       {{#if:{{{caasimada|}}}
       |<!--then2:-->
-         <td colspan="2" style="vertical-align:left;">'''Caasimada'''<!--
+         <td colspan="2" style="vertical-align:middle;">'''Caasimada'''<!--
           -->{{#ifeq: {{#ifeq:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
                       |<!--equals3:-->caasimada
                       |<!---then3:--->caasimada<!--
@@ -119,7 +119,7 @@
                 --><br/>[[Demographics of {{{common_name}}}|(and {{{largest_settlement_type|Magaalada Uguwayn}}})]]
                    </td>
                    <!--------Add capital:-------->
-                   <td style="vertical-align:left;">{{{caasimada}}}<!--
+                   <td style="vertical-align:middle;">{{{caasimada}}}<!--
                     ---------add capital's latitude and longitude (if provided):--------
                     -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
                     -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
@@ -133,7 +133,7 @@
                 ------------------------------------------------------------------
                 --></td>
                    <!--------Add capital:-------->
-                   <td style="vertical-align:left;">{{{caasimada}}}<!--
+                   <td style="vertical-align:middle;">{{{caasimada}}}<!--
                     ---------add capital's latitude and longitude (if provided):--------
                     -->{{#if:{{{latd|}}} |<!--then:--><br/><small><!--
                     -->{{coor dm |{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}<!--
@@ -145,7 +145,7 @@
                 {{#if:{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}
                 |<!--then5:-->
                    <tr class="mergedbottomrow">
-                      <th colspan="2" style="vertical-align:left;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
+                      <th colspan="2" style="vertical-align:middle;">[[Demographics of {{{common_name}}}|Largest {{{largest_settlement_type|city}}}]]</th>
                       <td>{{{magaalada_uguwayn|}}}{{{largest_settlement|}}}</td>
                    </tr>
                 }}<!--(end5)-->
@@ -174,7 +174,7 @@
    |<!--then:-->
       <tr class="mergedbottomrow">
          <td colspan="2">[[Regional language|Recognised regional&nbsp;language]]s</td>
-         <td style="vertical-align:left;">{{{regional_languages|}}}</td>
+         <td style="vertical-align:middle;">{{{regional_languages|}}}</td>
       </tr>
    }}
 }}
