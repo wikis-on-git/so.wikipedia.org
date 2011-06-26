@@ -34,12 +34,12 @@
 {{!}}- class="note" style="text-align: left" 
 {{#if: {{{lahaashaha<includeonly>|</includeonly>|}}}|
 ! colspan=2 {{!}} Lahaashaha
-{{!}} colspan=2 {{!}} {{{lahaashaha}}}
+{{!}} colspan=2 {{!}} {{{operator}}}
 }}
 {{!}}- class="note" style="text-align: left" 
 {{#if: {{{operator<includeonly>|</includeonly>|}}}|
 ! colspan=2 {{!}} Maamulaha
-{{!}} colspan=2 {{!}} {{{maamulaha}}}
+{{!}} colspan=2 {{!}} {{{operator}}}
 }}
 }}
 |- style="text-align: left"
