@@ -1,24 +1,24 @@
 <noinclude>{{Template sandbox notice}}<!-- Please do not remove this section: it only displays when viewed from template sandbox and leaving it in allows template code to be copied to and from sandbox.-->
-</noinclude>{| class="infobox vcard" style="width: {{{box-width|22em}}}; font-size: 88%; line-height: 1.5em"
+</noinclude>{| class="infobox vcard" align="right" style="width: {{{box-width|22em}}}; font-size: 88%; line-height: 1.5em"
 ! colspan=4  style="background-color: #69c; color: white; font-size: 125%" | <span class="fn org">{{{name}}}</span>{{#if:{{{nativename<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename}}}</span>}}{{#if:{{{nativename-a<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename-a}}}</span> }}{{#if:{{{nativename-r<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename-r}}}</span>}}
 |-
 {{#if: {{{image<includeonly>|</includeonly>}}}|
-{{!}} colspan=4 style="text-align: center" {{!}} [[Image:{{{image}}}|{{#if:{{{image-width|}}}|{{{image-width}}}|220}}px]]
+{{!}} colspan=4 style="text-align: center" {{!}} [[Image:{{{sawir}}}|{{#if:{{{sawir-balaar|}}}|{{{sawir-balaar}}}|220}}px]]
 {{!}}-
-{{#if: {{{caption<includeonly>|</includeonly>}}}|
-{{!}} colspan=4 style="text-align: center" {{!}} {{{caption}}}
-{{!}}-
-}}
-}}
-{{#if: {{{image2|}}}|
-{{!}} colspan=4 style="text-align: center" {{!}} [[Image:{{{image2}}}|{{#if:{{{image2-width|}}}|{{{image2-width}}}|220}}px]]
-{{!}}-
-{{#if: {{{caption2|}}}|
-{{!}} colspan=4 style="text-align: center" {{!}} {{{caption2}}}
+{{#if: {{{qoraalka sawirka<includeonly>|</includeonly>}}}|
+{{!}} colspan=4 style="text-align: center" {{!}} {{{qoraalka sawirka}}}
 {{!}}-
 }}
 }}
-! colspan=4 style="white-space: nowrap" | [[International Air Transport Association airport code|IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[International Civil Aviation Organization airport code|ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Location identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Location identifier|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
+{{#if: {{{sawir2|}}}|
+{{!}} colspan=4 style="text-align: center" {{!}} [[Image:{{{sawir2}}}|{{#if:{{{sawir2-width|}}}|{{{sawir2-balaar}}}|220}}px]]
+{{!}}-
+{{#if: {{{qoraalka sawirka2|}}}|
+{{!}} colspan=4 style="text-align: center" {{!}} {{{qoraalka sawirka2}}}
+{{!}}-
+}}
+}}
+! colspan=4 style="white-space: nowrap" | [[International Air Transport Association garoonka koodkiisa|IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[International Civil Aviation Organization garoonka koodkiisa|ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Saldhiga identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Saldhiga ciwaankiisa id|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
 |-
 ! colspan=4 style="background-color: #69c; color: white" | Summary
 |- class="note" style="text-align: left"
@@ -96,14 +96,14 @@
 }}
 |-
 {{#if: {{{r1-number<includeonly>|</includeonly>}}} {{{r1-length-f|}}} {{{r1-length-m|}}} {{{r1-surface|}}}|
-! colspan=4 style="background-color: #69c; color: white" {{!}} [[Runway]]s
+! colspan=4 style="background-color: #69c; color: white" {{!}} [[Wadada]]s
 {{!}}- style="background-color: #ddd"
-! rowspan=2 style="width: 20%" {{!}} [[Runway#Orientation and dimensions|Direction]]
+! rowspan=2 style="width: 20%" {{!}} [[Wadada#Orientation and dimensions|Jihada]]
 ! colspan=2 style="width: 40%" {{!}} Length
-! rowspan=2 style="width: 40%" {{!}} Surface
+! rowspan=2 style="width: 40%" {{!}} Barxada
 {{!}}- style="background-color: #ddd"
-! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[metre|m]]|[[Foot (length)|ft]]}}
-! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[Foot (length)|ft]]|[[metre|m]]}}
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[metre|m]]|[[Foot (Dhirirka)|ft]]}}
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|[[Foot (Dhirirka)|ft]]|[[metre|m]]}}
 {{!}}- style="text-align: center"
 {{!}} {{{r1-number<includeonly>|</includeonly>}}}
 {{!}} {{{r1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}}
@@ -163,7 +163,7 @@
 {{#if: {{{h1-number<includeonly>|</includeonly>}}} {{{h1-length-f|}}} {{{h1-length-m|}}} {{{h1-surface|}}}|
 ! colspan=4 {{!}} [[Helipad]]s
 {{!}}- style="background-color: #ddd"
-! rowspan=2 style="width: 15%" {{!}} Number
+! rowspan=2 style="width: 15%" {{!}} Lambarka
 ! colspan=2 style="width: 50%" {{!}} Length
 ! rowspan=2 style="width: 35%" {{!}} Surface
 {{!}}- style="background-color: #ddd"
