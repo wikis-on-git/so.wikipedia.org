@@ -216,19 +216,20 @@ I request a bot flag for [[User:TjBot|TjBot]]
 * '''Technical details''': use [[m:Using the python wikipediabot|pywikipedia]]
 <span style="font-size:1em; font-family:Trebuchet MS,serif; font-style:bold;">&mdash;&nbsp;[[User:Tjmoel|'''Tjmoel''']]<sup>&nbsp;[[File:Icons-flag-id.png|link=:id:User talk:Tjmoel]] [[User talk:Tjmoel| bicara]]</sup></span> 14:15, 26 Nofeembar 2010 (UTC)
 
-===[[User:HiW-Bot]]===
+===[[User:HiW-Bot|HiW-Bot]]===
 I request bot status an this wiki in order to maintain Interwiki, Internationalization by removing chaos in Babel so it can be used properly and easy. Double redirects will be added shortly
 *User: [[:de:Benutzer:Hedwig in Washington|Hedwig in Washington]]
 *Bot account: [[User:HiW-Bot|HiW-Bot]]
 *Test edits [http://so.wikipedia.org/wiki/Special:Contributions/HiW-Bot SO-Wiki] [http://toolserver.org/~vvv/sulutil.php?user=HiW-Bot global]
 *For interwiki bots: The bot uses pywikipedia software and is constantly updated with SVN.
-
+*Has bot flag on 19 wikis so far.
 Thank you for consideration! --[[User:Hedwig in Washington|Hedwig in Washington]] 03:27, 4 Sebteembar 2011 (UTC)
 
 ====Approval====
 # .
 
 ====Reject====
+# .
 
 ==Bot policy==
 Hello. To facilitate [[m:steward|steward]] granting of bot access, I'd like to implement the [[m:Bot policy|standard bot policy]] on this wiki. This will involve creating a redirect to this page from [[Project:Bot policy]], and adding a line at the top noting that it is used here. In particular, this policy allows automatic acceptance of known interlanguage linking bots (if this page says that is acceptable), which form the vast majority of such requests. 
