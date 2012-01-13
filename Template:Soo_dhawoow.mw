@@ -2,17 +2,24 @@
 |
 {| width="100%" cellspacing="0" cellpadding="6" style="font-size:95%; line-height: 125%; background: #fff; border: 1px solid #99b3ff #fff;"
 |-
-| colspan="3" align=center style="background: #fff;" |[[File:Information_icon.svg|30px|]] <big>'''waa ku salaamay<includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalada la aqoon | {{PAGENAME}}}}</includeonly>,''' ku soo dhawoow Wikipediaha [[Af-Soomaali|Soomaaliga]] !!</big> || align=center style="background: #ifeq;" | 
+| colspan="3" align=center style="background: #fff;" |[[File:Information_icon.svg|30px|]] <big>'''waa ku salaamay<includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalaha la aqoon | {{PAGENAME}}}}</includeonly>,''' ku soo dhawoow Wikipediaha [[Af-Soomaali|Soomaaliga]] !</big> || align=center style="background: #ifeq;" | 
 |-
-| colspan="4" | Waa ku mahadsantahay qoraalada aa ku soo darsatay wikipediyahaan.Meeshaan waxaa loogu tala galay in ee soomaalida u noqoto meel ee wax ka ogaan karaan, kana baran karaan sida qeybaha kale ee wikipediya, waa meel caalami ah, waxaa rajeeneynaa in aad ka heli doontid oo sii joogtid.Waa loo baahanyahay soomaali badan oo qoraa ama macalimiin oo rabto in ee ka soo qeybgasho barnaamijkaan, kana mid noqoto istcimaalada kale oo meeshaan wax ku qoro.Qoraaladaan hoosta ku qoran wee ku sii caawinaayaan.
-
-*Meeshaan xor ayaa u tahay in aa ku qortid  mashruuc kasto ama aad wax ka bedeshid.Qof kasto xor ayuu u yahay in oo mashruuca oo rabo ku qoro ama uu ku darsado.Waxyaabaha aan la ogoleen waxaa ka mid ah
-*In mashruucyada qoran  lagu qoro hadalo, af lagaado ama qoraalada micno la'aanta ah.Hadii oo hadalkaaga ku saabsanyahay mashruuc ku qoran bog, fadlan ku qor hadaladaada  bogga wadahadalka.
-*Hadii aa rabtid in aad tijaabiso maqaal ama baroobeeso intii aadan soo bandhigin, fadlan isticmaal [[Wikipedia:Bacaadka|Bacaadka]].
+| colspan="4" | Waa ku mahadsantahay qoraalada aa ku soo dartay wikipediahaan.Meeshaan xor ayaa u tahay in aad mashruuc kasto ku qortid ama wax ka bedeshid ama saxdid.Waa sida qeybaha kale ee wikipedia,waxba haka baqin, laakiin waa in oo qoraaladaada ahaadaa mid ku qoran af soomaali.Waa meel caalami ah, waxaa rajeeneynaa in aad ka heli doontid oo sii balaarisid.Qoraaladaan hoosta ku qoran wee ku sii caawinaayaan.
+*[[Wikipedia:Tutorial|Daadihin]]
+*[[Wikipedia:Introduction|Horudhac]]
+*[[Wikipedia:Cheatsheet|Waraaqda qishaka]]
+Waxyaabaha meeshaan laga ogoleen waxaa ka mid ah in mashruucyada qoran  lagu qoro hadalo, af lagaado ama qoraalada micno la'aanta ah.Hadii oo hadalkaaga ku saabsanyahay mashruuc, fadlan ku qor hadaladaada  bogga wadahadalka.
+*Hadii aa rabtid in aad maqaal tijaabiso  ama baroobeeso intii aadan soo bandhigin, fadlan isticmaal [[Wikipedia:Bacaadka|Bacaadka]].
 *Wixii caawinaad oo dheeraad ah oo ku saabsan wikipedia [[Wikipedia:Caawinaad| ka akhri meeshaan]] 
 salaan ka socoto, {{{1|{{#if:{{{nosubst}}}|[[Wikipedia:Bogga wadahadalka saxiixyadooda|isticmaale ilaaway in oo saxiixo soo dhaweynta]]|<includeonly>~~</includeonly>~~}}}}}
 {{!}}}
+
 |}<!--Q:soo dhawoow--><noinclude>
+<noinclude>
+== Isticmaal ==
+sidaan u isticmaal fariintaan
+<nowiki>{{</nowiki>[[Template:soo dhawoow|<nowiki>Soo dhawoow|~~~~</nowiki>]]<nowiki>}}</nowiki>
+
 [[category:Tusmooyinka soo dhaweynta]]
 [[af:Sjabloon:Welkom]]
 [[ar:قالب:ترحيب]]
