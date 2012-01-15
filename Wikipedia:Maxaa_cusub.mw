@@ -73,3 +73,25 @@ Wikimedia Foundation]] 03:05, 22 Diseembar 2011 (UTC)
 
 <small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
 <!-- EdwardsBot 0139 -->
+
+== Announcing Wikipedia 1.19 beta ==
+
+Wikimedia Foundation is getting ready to push out 1.19 to all the WMF-hosted wikis.  As we finish wrapping up our code review, you can test the new version ''right now'' on [http://beta.wmflabs.org/ beta.wmflabs.org].  For more information, please read the [https://svn.wikimedia.org/viewvc/mediawiki/trunk/phase3/RELEASE-NOTES-1.19?view=markup release notes] or the [[mw:MediaWiki_1.19|start of the final announcement]].
+
+The following are the areas that you will probably be most interested in:
+* [https://bugzilla.wikimedia.org/show_bug.cgi?id=33711#c2 Faster loading of javascript files makes dependency tracking more important.]
+* New common*.css files usable by skins instead of having to copy piles of generic styles from MonoBook or Vector's css.
+* The default user signature now contains a talk link in addition to the user link.
+* Searching blocked usernames in block log is now clearer.
+* Better timezone recognition in user preferences.
+* Improved diff readability for colorblind people.
+* The interwiki links table can now be accessed also when the interwiki cache is used (used in the API and the Interwiki extension).
+* More gender support (for instance in logs and user lists).
+* Language converter improved, e.g. it now works depending on the page content language.
+* Time and number-formatting magic words also now depend on the page content language.
+* Bidirectional support further improved after 1.18.
+
+Report any [http://labs.wikimedia.beta.wmflabs.org/wiki/Problem_reports problems] on the labs beta wiki and we'll work to address them before they software is released to the production wikis.
+
+'''Note''' that this cluster does have SUL but it is not integrated with SUL in production, so you'll need to create another account.  You should avoid using the same password as you use here.  — [[m:Global message delivery|Global message delivery]] 16:34, 15 Jannaayo 2012 (UTC)
+<!-- EdwardsBot 0145 -->
