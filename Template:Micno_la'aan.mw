@@ -2,9 +2,10 @@
 |
 {| width="100%" cellspacing="0" cellpadding="6" style="font-size:95%; line-height: 125%; background: #fff; border: 1px solid #99b3ff #fff;"
 |-
-|<colspan="3" align=center style="background: #fff;"|[[File:Stop hand orange.svg|30px|]] <big>'''Waa ku salaamay<includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalada la aqoon | {{PAGENAME}}}}</includeonly>,''' walaal waxaa arkay in oo qoraalkaaga ahaa mid aan laga ogoleen meeshaan'''</big> || align=center style="background: #ifeq;" | 
+|<colspan="3" align=center style="background: #fff;"|[[File:Stop hand orange.svg|30px|]] <big>'''Waa ku salaamay<includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalada la aqoon | {{PAGENAME}}}}</includeonly>,''' walaal waxaa arkay in oo qoraalkaaga ahaa mid meeshaan laga ogoleen'''</big> || align=center style="background: #ifeq;" | 
 |-
 | colspan="4" | Sidaas darteed waxaa rabaa in aa kuu sheego in oo meeshaan ka mamnuuc yahay hadalada micno la'aanta ah,cayda ama af lagaadada iyo waxyaabaha xayeesiinta, waxaa laga yaabaa in aad ogeyn, sidaas darteed waxaa kula talin lahaa in aad akhrisato [[Wikipedia:Caawinaad|bogga Caawinaada]] 
-|}
+salaan ka socoto, {{{1|{{#if:{{{nosubst}}}|[[Wikipedia:Bogga wadahadalka saxiixyadooda|isticmaale ilaaway in oo saxiixo soo dhaweynta]]|<includeonly>~~</includeonly>~~}}}}}
+{{!}}}
 |}<!--Q:Micno la'aan--><noinclude>
 [[category:Tusmooyinka Isticmaalada]]
