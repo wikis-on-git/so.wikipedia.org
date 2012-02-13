@@ -31,7 +31,7 @@
       <td colspan="3" class="maptable">
          <!----------Start subtable:----------->
          <table align="center" style="background:none; text-align:center;">
-            <!-------Images:------->
+            <!-------Imaergrftreterwtges:------->
             <tr> <td style="{{#if:{{{sawir_qaran|}}} |<!--then:-->width:62%;}} vertical-align:middle;">   
             {{#if:{{{text_flag|}}}
             |<!--then:-->{{{text_flag}}}<!--used for N. Ireland-->
