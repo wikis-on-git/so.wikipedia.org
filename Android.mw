@@ -1,0 +1,26 @@
+{{
+| name                   = Android
+| logo                   = [[File:Android robot.svg|100px]] [[File:Android logo.png]]
+| screenshot             = [[File:Android 4.0.png|250px]]
+| caption                = Home screen displayed by [[Samsung]] [[Galaxy Nexus]], running [[Ice Cream Sandwich (operating system)|Android 4.0 "Ice Cream Sandwich"]]
+| developer              = [[Google Inc]], [[Open Handset Alliance]], [[Android (operating system)#Android Open Source Project|Android Open Source Project]]
+| family                 = [[Linux]]
+| working_state          = Current
+| source_model           = [[open source software|Open Source]]<ref name="philosophy"/>
+| released               = {{start date|2008|9|20|df=yes}}
+| latest_release_version = 4.0.4 (Ice Cream Sandwich)<ref>{{cite web |url=https://developers.google.com/android/nexus/drivers |title=Binaries for Nexus Phones |work=Google Developers |publisher=Google |accessdate=2012-04-21 }}</ref>
+| latest_release_date    = {{Start date and age|2012|03|28|df=yes}}
+| latest_preview_version = 4.0.5
+| latest_preview_date    =
+| frequently_updated     = Yes
+| marketing_target       =
+| language               =
+| programmed_in          = [[C (programming language)|C]] (core),<ref>{{cite web |url=http://developer.android.com/guide/basics/what-is-android.html |title=What is Android? |work=Android Developers |publisher=Google |accessdate=2012-04-22}}</ref> [[Java (programming language)|Java]] (UI), [[C++]]
+| updatemodel            =
+| package_manager        = [[Google Play]] / [[APK (file format)|APK]]
+| supported_platforms    = [[ARM architecture|ARM]], [[MIPS architecture|MIPS]],<ref>{{cite web |url=http://www.eetimes.com/electronics-news/4215490/MIPS-gets-sweet-with-Honeycomb |title=MIPS gets sweet with Honeycomb |publisher=Eetimes.com |date= |accessdate=2012-02-20}}</ref> [[x86]]<ref name="android-4.0-on-x86"/>
+| kernel_type            = [[Monolithic kernel|Monolithic]] ([[Android (operating system)#Linux|modified Linux kernel]])
+| ui                     = [[Graphical user interface|Graphical]]
+| license                = [[Apache License]] 2.0 <br />[[Linux kernel]] patches under [[GNU General Public License|GNU GPL]] v2<ref name="Licenses">{{cite web |url=http://source.android.com/source/licenses.html |title=Licenses |work=Android Open Source Project |publisher=Google |accessdate=2012-02-20}}</ref>
+| website                = {{URL|http://www.android.com/}}
+}}
