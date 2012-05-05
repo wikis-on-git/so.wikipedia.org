@@ -2,13 +2,6 @@
 
 si u dhismuhu u shaqeeyana sida waxa la galiyo iyo waxa ka soo baxaba. habka shidistu waxay u dhaqantaa dhex u dhexaysa prograamada iyo dhismaha computerka.
 
-An '''operating system''' ('''OS''') is a set of software that  manages [[computer hardware]] resources and provide common services for [[computer program]]s. The operating system is a vital component of the [[system software]] in a computer system. Application programs require an operating system to function.
-
-Time-sharing operating systems schedule tasks for efficient use of the system and may also include accounting for cost allocation of processor time, mass storage, printing, and other resources.
-
-For hardware functions such as input and output and [[dynamic memory allocation|memory allocation]], the operating system acts as an intermediary between programs and the computer hardware,<ref>{{cite book | last = Stallings | title = Operating Systems, Internals and Design Principles | publisher = Prentice Hall | year = 2005 | location = Pearson |page=6}}</ref><ref>{{cite book | last = Dhotre| first = I.A.| title = Operating Systems. | publisher = Technical Publications | year = 2009 |page=1}}</ref> although the application code is usually executed directly by the hardware and will frequently make a [[system call]] to an OS function or be interrupted by it. Operating systems can be found on almost any device that contains a computer—from [[cellular phone]]s and [[video game console]]s to [[supercomputer]]s and [[web server]]s.
-
-Examples of popular modern operating systems include <!--Ordered alphabetically per discussion consensus; please do not re-order without discussing it on the talk page; see http://en.wikipedia.org/wiki/Talk:Operating_system#Market_share_changes.3B_the_alphabet_doesn.27t --> [[Android (operating system)|Android]], [[BSD]], [[iOS]], [[Linux]], [[Mac OS X]], [[Microsoft Windows]],<ref name="netapplications">{{cite web| url=http://marketshare.hitslink.com/operating-system-market-share.aspx?qprid=10| title=Operating System Market Share| publisher=Net Applications}}</ref> [[Windows Phone]], and [[IBM z/OS]]. All these, except Windows and z/OS, share roots in [[UNIX]].
 
 
 
