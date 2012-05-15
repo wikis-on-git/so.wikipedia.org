@@ -145,6 +145,7 @@ Halkaan waxaad ka arki kartaa  [[Bed]]ka iyo cabirkiisa .
 |Bedka wareega dhinaca toobinta ee taagan <math>\frac{gP}{2} = \pi r P</math> bedka salka toobin   <math> \pi r^2 \,</math>
 
 |<math>\frac{a}{A} = \frac{k^2}{h^2}</math>
+<math>A = \pi r \sqrt{r^2 + h^2} + \pi r^2 =  \pi r (r + \sqrt{r^2 + h^2}) \,\!</math>
 
 |-
 
@@ -165,7 +166,8 @@ Halkaan waxaad ka arki kartaa  [[Bed]]ka iyo cabirkiisa .
 * Bedka Gunburka salka midka uga eg <math> \frac{d^2}{h^2} \times B </math>
 |}
 [[Category:Fiisigis]]
-[[Category:Xisaab]]{{fariin}}
+[[Category:Xisaab]]
+{{fariin}}
 
 [[af:Oppervlakte]]
 [[als:Flächeninhalt]]
