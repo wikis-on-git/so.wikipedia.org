@@ -1,0 +1,30 @@
+Kilven waxa uu ka midyahay halbeega cabir ee heerkulka waxaana loo suntaa (K), waxa uu lamid yahay cabirada kale ee lagu cabiro kuleelka.
+
+Derajada Kilven = sentigaret + 273,15, oo udhiganta  K = °C + 273,15
+
+Darajada Kilven =  (Fahrenhayt + 459.67)/1.8 K = (°F + 459,67) / 1,8 
+
+:<math>0 \mathrm{\ ^oC} = (0 + 273{,}15) \mathrm{\ K} = 273{,}15 \mathrm{\ K}</math>
+
+:<math>6000 \mathrm{\ K} = (6000-273{,}15) \mathrm{\ ^oC} \simeq 5727 \mathrm{\ ^oC}</math>  
+
+Halkaan waxaad ka arki kartaa sida la isugu bedbedeli karo
+
+{| {{prettytable|align=right}}
+|+ style="margin-bottom:5px;"| Heerkulka iyo isbedelkiisa kabiloow/ilaa kelvin
+|-
+! ka
+
+! Loo bedalay
+
+! Habka
+
+|-
+||kelvin ||[[Celsius]] || T(°C) = T(K) - 273,15
+|-
+||[[Celsius]] ||kelvin || T(K) = T(°C) + 273,15
+|-
+||kelvin ||[[Fahrenhayt]] || T(°F) = (T(K) × 1,8) - 459,67
+|-
+||[[Fahrenhayt]] ||kelvin ||T(K) = (T(°F) + 459,67) / 1,8
+|}
