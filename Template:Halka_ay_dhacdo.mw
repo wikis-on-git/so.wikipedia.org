@@ -1,21 +1,19 @@
 <includeonly><div style="margin:0 auto;overflow:hidden;padding-left:1px">
 {| class="toccolours" style="clear: both; margin:0.5em auto; font-size:95%; text-align:center; width: 80%;"
 | width="5%" style="text-align: center; !important" rowspan="5"|[[file:Compass rose pale.svg|50px|ubax]]
-| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi bari|}}}|{{{wuqooyi bari|}}}}}
-| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi|}}}|{{{wuqooyi|}}}}}
-| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi galbeed|}}}|{{{wuqooyi galbeed|}}}}}
-| width="5%" style="text-align: center; !important" rowspan="5"|[[file:Compass rose pale.svg|50px|ubax]]
+| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi bari|}}}|{{{Wuqooyi bari|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Magaalo wuqooyi|}}}|{{{Magaalo Wuqooyi|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi galbeed|}}}|{{Wuqooyi galbeed|}}}}}
+| width="5%" style="text-align: center; !important" rowspan="5"|[[File:Compass rose pale.svg|50px|Ubax]]
 |- 
-| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Bari|}}}|{{{Bari|}}}}}
-| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Wuqiiyi'''''</span>
-| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Galbeed|}}}|{{{Galbeed|}}}}} 
+| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Magaalo Bari|}}}|{{{Magaalo Bari|}}}}}
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Wuqooyi'''''</span>
+| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Magaalo Galbeed|}}}|{{{Magaalo Galbeed|}}}}}
 |-
-| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaca|}}}|{{{magaca|}}}|(Entrez la municipalité)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>
+| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaca|}}}|{{{Magaca |}}}|(Magaca halkaan dhig)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Galbeed'''''</span>
 |-
 | width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Koofur'''''</span>
 |-
-| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur Bari|}}}|{{{koofur Bari|}}}}}
-| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur|}}}|{{Koofur|}}}}} 
-| width="30%" style="text-align: center; !important" | {{#if: {{{koofur Bari|}}}|{{{koofur Bari|}}}}}
-|-class="hiddenStructure{{{|}}}"
-|colspan="100%" style="text-align: center; !important" |Enclave: {{{}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur bari|}}}|{{{Koofur Bari|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Magaalo Koofureed|}}}|{{{Magaalo Koofureed|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur Galbeed|}}}|{{{Koofur Galbeed|}}}}}
