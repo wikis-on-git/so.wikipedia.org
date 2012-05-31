@@ -1,0 +1,21 @@
+<includeonly><div style="margin:0 auto;overflow:hidden;padding-left:1px">
+{| class="toccolours" style="clear: both; margin:0.5em auto; font-size:95%; text-align:center; width: 80%;"
+| width="5%" style="text-align: center; !important" rowspan="5"|[[file:Compass rose pale.svg|50px|ubax]]
+| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi bari|}}}|{{{wuqooyi bari|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi|}}}|{{{wuqooyi|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{wuqooyi galbeed|}}}|{{{wuqooyi galbeed|}}}}}
+| width="5%" style="text-align: center; !important" rowspan="5"|[[file:Compass rose pale.svg|50px|ubax]]
+|- 
+| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Bari|}}}|{{{Bari|}}}}}
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Wuqiiyi'''''</span>
+| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Galbeed|}}}|{{{Galbeed|}}}}} 
+|-
+| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaalada magaceeda|}}}|{{{magaalada magaceeda |}}}|(Entrez la municipalité)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Galbeed'''''</span>
+|-
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Koofur'''''</span>
+|-
+| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur galbeed|}}}|{{{koofur galbeed|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur|}}}|{{Koofur|}}}}} 
+| width="30%" style="text-align: center; !important" | {{#if: {{{koofur galbeed|}}}|{{{koofur galbeed|}}}}}
+|-class="hiddenStructure{{{enclave|}}}"
+|colspan="100%" style="text-align: center; !important" |Enclave: {{{enclave}}}
