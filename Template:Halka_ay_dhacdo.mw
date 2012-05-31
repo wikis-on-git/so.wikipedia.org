@@ -6,9 +6,9 @@
 | width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi bari|}}}|{{Wuqooyi bari|}}}}}
 | width="5%" style="text-align: center; !important" rowspan="5"|[[File:Compass rose pale.svg|50px|Ubax]]
 |- 
-| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Bari|}}}|{{{Bari|}}}}}
-| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''WUQOOYI'''''</span>
 | width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Galbeed|}}}|{{{Galbeed|}}}}}
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''WUQOOYI'''''</span>
+| width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Bari|}}}|{{{Bari|}}}}}
 |-
 | width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''GALBEED'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaca|}}}|{{{Magaca |}}}|(Magaca halkaan dhig)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''BARI'''''</span>
 |-
