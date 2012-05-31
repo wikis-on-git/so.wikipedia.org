@@ -1,9 +1,9 @@
 <includeonly><div style="margin:0 auto;overflow:hidden;padding-left:1px">
 {| class="toccolours" style="clear: both; margin:0.5em auto; font-size:95%; text-align:center; width: 80%;"
 | width="5%" style="text-align: center; !important" rowspan="5"|[[file:Compass rose pale.svg|50px|ubax]]
-| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi bari|}}}|{{{Wuqooyi bari|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi galbeed|}}}|{{{Wuqooyi galbeed|}}}}}
 | width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi|}}}|{{{Wuqooyi|}}}}}
-| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi galbeed|}}}|{{Wuqooyi galbeed|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Wuqooyi bari|}}}|{{Wuqooyi bari|}}}}}
 | width="5%" style="text-align: center; !important" rowspan="5"|[[File:Compass rose pale.svg|50px|Ubax]]
 |- 
 | width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Bari|}}}|{{{Bari|}}}}}
@@ -17,5 +17,3 @@
 | width="30%" style="text-align: center; !important" | {{#if: {{{Koofur Galbeed|}}}|{{{Koofur Galbeed|}}}}}
 | width="30%" style="text-align: center; !important" | {{#if: {{{Koofur|}}}|{{{Koofur|}}}}}
 | width="30%" style="text-align: center; !important" | {{#if: {{{Koofur Bari|}}}|{{{Koofur Bari|}}}}}
-
-{{Halka ay dhacdo}}
