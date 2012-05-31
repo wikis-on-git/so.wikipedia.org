@@ -10,12 +10,12 @@
 | width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Wuqiiyi'''''</span>
 | width="30%" style="text-align: center; !important" rowspan="3" | {{#if: {{{Galbeed|}}}|{{{Galbeed|}}}}} 
 |-
-| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaalada magaceeda|}}}|{{{magaalada magaceeda |}}}|(Entrez la municipalité)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Galbeed'''''</span>
+| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaca|}}}|{{{magaca|}}}|(Entrez la municipalité)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Bari'''''</span>
 |-
 | width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''Koofur'''''</span>
 |-
-| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur galbeed|}}}|{{{koofur galbeed|}}}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{Koofur Bari|}}}|{{{koofur Bari|}}}}}
 | width="30%" style="text-align: center; !important" | {{#if: {{{Koofur|}}}|{{Koofur|}}}}} 
-| width="30%" style="text-align: center; !important" | {{#if: {{{koofur galbeed|}}}|{{{koofur galbeed|}}}}}
-|-class="hiddenStructure{{{enclave|}}}"
-|colspan="100%" style="text-align: center; !important" |Enclave: {{{enclave}}}
+| width="30%" style="text-align: center; !important" | {{#if: {{{koofur Bari|}}}|{{{koofur Bari|}}}}}
+|-class="hiddenStructure{{{|}}}"
+|colspan="100%" style="text-align: center; !important" |Enclave: {{{}}}
