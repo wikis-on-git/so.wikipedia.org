@@ -7,12 +7,12 @@
 | width="5%" style="text-align: center; padding: 0" rowspan=5 |[[file:Compass rose pale-50x50.png|link=|alt=]]
 |- 
 | style="width: 30%; text-align: center" rowspan=3 | {{{Galbeed|}}}
-| style="width: 30%; text-align: center" | [[file:North.svg|North|link=|alt=]]
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''WUQOOYI'''''</span>
 | style="width: 30%; text-align: center" rowspan=3 | {{{Bari|}}}
 |-
-| style="width: 30%; text-align: center" nowrap="nowrap" | [[file:West.svg|West|link=|alt=]]&nbsp;&nbsp; '''{{{Dhexda|{{{Dhexda|(Geli magaalo)}}}}}}'''<!-- ENGVAR --> &nbsp;&nbsp;&nbsp;[[file:East.svg|East|link=|alt=]]
+| width="30%" style="text-align: center; !important" nowrap="nowrap" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''GALBEED'''''</span>&nbsp;&nbsp;&nbsp; '''{{#if: {{{Magaca|}}}|{{{Magaca |}}}|(Magaca halkaan dhig)}}''' &nbsp;&nbsp;&nbsp;<span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''BARI'''''</span>
 |-
-| style="width: 30%; text-align: center" | [[file:South.svg|South|link=|alt=]]
+| width="30%" style="text-align: center; !important" | <span style="border: 1px solid; font-size:100%; padding:0.2em 0.5em 0.2em 0.4em; color:#AAAAAA;">'''''KOOFUR'''''</span>
 |-
 | style="width: 30%; text-align: center" | {{{Koofur Galbeed|}}}
 | style="width: 30%; text-align: center" | {{{Koofur|<br/>}}}
