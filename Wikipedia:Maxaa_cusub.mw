@@ -102,3 +102,25 @@ Report any [http://labs.wikimedia.beta.wmflabs.org/wiki/Problem_reports problems
 
 [[:m:user:guillom|Guillaume Paumier]], via the [[:m:Global message delivery|Global message delivery system]] <small>([[:m:Distribution list/Global message delivery|wrong page? You can fix it.]])</small>. 15:18, 12 Febraayo 2012 (UTC)
 <!-- EdwardsBot 0154 -->
+
+== Update on IPv6 ==
+
+[[File:Wikimedia_Foundation_RGB_logo_with_text.svg|80px|right]]
+(Apologies if this message isn't in your language. Please consider translating it, as well as '''[[m:Special:MyLanguage/IPv6 initiative/2012 IPv6 Day announcement|the full version of this announcement on Meta]]''') 
+
+The Wikimedia Foundation is planning to do limited testing of IPv6 on June 2-3. If there are not too many problems, we may fully enable IPv6 on [http://www.worldipv6day.org/ World IPv6 day] (June 6), and keep it enabled.
+
+What this means for your project:
+
+*At least on June 2-3, 2012, you may see a small number of edits from IPv6 addresses, which are in the form "<code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code>". See e.g. [[w:en:IPv6 address]]. These addresses should behave like any other IP address: You can leave messages on their talk pages; you can track their contributions; you can block them. (See [[m:Special:MyLanguage/IPv6 initiative/2012 IPv6 Day announcement|the full version of this announcement]] for notes on range blocks.)
+
+*In the mid term, some user scripts and tools will need to be adapted for IPv6. 
+
+*We suspect that IPv6 usage is going to be very low initially, meaning that abuse should be manageable, and we will assist in the monitoring of the situation.
+
+Read [[m:Special:MyLanguage/IPv6 initiative/2012 IPv6 Day announcement|the full version of this announcement]] on how to test the behavior of IPv6 with various tools and how to leave bug reports, and to find a fuller analysis of the implications of the IPv6 migration.
+
+--[[m:User:Eloquence|Erik Möller, VP of Engineering and Product Development, Wikimedia Foundation]] 01:23, 2 Juun 2012 (UTC)
+
+<small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
+<!-- EdwardsBot 0201 -->
