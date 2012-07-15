@@ -1,37 +1,44 @@
 '''Mug''' waa hab qiyaaseed [[Fiisigis]],
 
 == Hab cabirka qaybo kamid ah adkeha ==
+
 [[File:Cube.svg|thumb|70px|Sedjibeke]]
-[[File:Parallelepipede.png|thumb|70px|3 jibaarane laydi]]
-[[File:Cylinder.svg|thumb|50px|Dhululubo]]
-[[File:Racquetball ball.svg|thumb|70px|Kubad]]
-[[File:Ellipsoide.png|thumb|70px|Goobo]]
-[[File:Pyramid (geometry).png|thumb|50px|Gumbur]]
-[[File:Cone (geometry).svg|thumb|50px|Toobin]]
 
 * Meel buuxinta [[Sedjibeke]]:
 :<math>l^3 = l \cdot l \cdot l</math>
 meesha ''l'' dheerirka ayaa la 3 jibaarayaa.
 
-* [[3 jibaarane ]] (laydi):
+[[File:Parallelepipede.png|thumb|70px|salxaale]]
+
+* [[Salxaale]]:
 :<math>a \cdot b \cdot c</math>
 ''a'' Dhirirka, ''b'' Balaca, ''c'' Joogga.
 
-* [[Cabirka dhulubada]]:
+[[File:Cylinder.svg|thumb|50px|Dhululubo]]
+
+* [[dhululubo]]:
 :<math>\pi \cdot r^2 \cdot h</math>
 ''r'' Waa gacanta, ''h'' waa fogaanta udhaxeysa.
 
-* [[Kubada]]:
+[[File:Racquetball ball.svg|thumb|70px|Kubad]]
+
+* [[Kubad]]:
 :<math>\frac{4}{3} \pi \cdot r^3</math>
 ''r'' Waa gacan kubada.
 
-* [[Goobo]]:
+[[File:Ellipsoide.png|thumb|70px|Gobaabo]]
+
+* [[Gobaabin]]:
 :<math>\frac{4}{3} \pi \cdot a \cdot b \cdot c</math>
 ''a'', ''b'', ''c'' waa isdhaafyada.
+
+[[File:Pyramid (geometry).png|thumb|50px|Gumbur]]
 
 * [[Gumbur]]:
 :<math>\frac{1}{3} A \cdot h</math>
 ''A'' Salka, ''h'' Jooga.
+
+[[File:Cone (geometry).svg|thumb|50px|Toobin]]
 
 * [[Toobin]]:
 :<math>\frac{1}{3} \pi \cdot r^2 \cdot h</math>
@@ -41,14 +48,14 @@ meesha ''l'' dheerirka ayaa la 3 jibaarayaa.
 :<math>A \cdot h</math>
 ''A'' Salka, ''h'' Jooga.
 
-* Hab kasta oo sawiran [[ee isku jira|xisaab isku jirta]]:
+* Hab kasta oo sawiran ee ubaahan xisaabin buuxda:
 :<math>\int A(h) dh</math>
-Meesha ''h'' waa hab sawiran qaab iyo ''A''(''h'') waa hab gooni ah ''h'' waxa ay uqorantahay hab dheer ''h''; habkaan aad ayuu ufiicanyahay (dhib malahan hadii uu xitaa habka isbadelo).
+Meesha ''h'' waxa ay galeysaa mug kasta iyo ''A''(''h'') waa hab gooni ah ''h'' waxa ay uqorantahay hab dheer ''h''; habkaan aad ayuu ufiicanyahay (dhib malahan hadii uu xitaa habka isbadelo).
 
 * Hadii uu yahay [[adke]] Habkaan ayaa loo cabirayaa <math>\Omega</math> xagal wareegeed <math>\alpha  \in [0,2\pi ]</math> ama isku xiraha <math>z</math> habkaan <math>K</math> Waaa
 <math> V = \alpha  \cdot x \cdot A</math>
 
-Meeshan <math>x</math> halbeega jometeriyada habkan <math>K</math> iyo <math>A</math> wuu raacaa[[area]].
+Meeshan <math>x</math> halbeega jometeriyada habkan <math>K</math> iyo <math>A</math> wuu raacaa [[Bed]]ka.
 
 
 
