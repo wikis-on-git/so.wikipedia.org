@@ -1,0 +1,607 @@
+<includeonly>{| class="infobox geography vcard vevent" style="width:{{{width|290px}}};"
+|-
+| colspan="2" class="mergedtoprow fn org summary" align="center" style="line-height:1.2em; font-size:135%;"| '''{{#if:<!--
+           -->{{{conventional_long_name|}}}
+    | {{{conventional_long_name}}} {{#if:{{{native_name|}}}
+      | <br/><small>{{{native_name}}}</small>
+      }}
+    | {{#if:{{{native_name|}}}
+      | {{{native_name}}}
+      | ''Error: No name(s) given'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|N]]}}
+      }}
+}}'''
+|-
+<!----- Status as a dependency, colony, vassal etc. - Categorisation of this entry is handled at the top of this code. This section here is just what will be displayed in the infobox. This has been split up to make the code look clearer. Also, not all statuses need to be displayed (although the optional status_text field will work, regardless of status) ----->
+{{#if:{{{status|}}}
+  |{{#if:{{{status_text|}}}{{{empire|}}}
+   | {{!}} colspan="2" style="vertical-align:middle; text-align:center; font-size:115%;" {{!}}
+   |{{#switch:{{ucfirst:{{{status|}}}}}
+    <!-- Values for "status" given in the first line of this #switch will not display the status bar IF nothing is given for "status_text" OR "empire". -->
+    |Empire |Federation |Federal |Confederation |State union |State Union |Union |City-state |City state |City State |City =
+    |#default = {{!}} colspan="2" style="vertical-align:middle; text-align:center; font-size:115%;" {{!}} }} }} {{#switch:{{ucfirst:{{{status|}}}}}
+  <!-- Displayed contents of status bar. Vales placed in the first line of the above switch should have their values commented out (within the status_text check)-->
+  |Empire = {{#if:{{{status_text|}}}|{{{status_text}}}|<!-- Empire -->}}
+  |Federation |Federal = {{#if:{{{status_text|}}}|{{{status_text}}}|<!-- Federation -->}}
+  |Confederation = {{#if:{{{status_text|}}}|{{{status_text}}}|<!-- Confederation -->}}
+  |State union |State Union |Union = {{#if:{{{status_text|}}}|{{{status_text}}}|<!-- State union -->}}
+  |Special |Special territory = {{#if:{{{status_text|}}}|{{{status_text}}}|<!-- Special territory -->}}
+  |Unrecognized |Unrecognised |Unrecognized state |Unrecognised state |Unrecognized State |Unrecognised State={{#if:{{{status_text|}}}|{{{status_text}}}|[[List of states with limited recognition|Unrecognized state]]}}
+  |City-state |City-State |City state |City State |City = {{#if:{{{status_text|}}}|{{{status_text}}} |{{#if:{{{empire|}}}|{{#switch:{{{empire|}}}
+    |Holy Roman Empire |HRE = [[Free Imperial City]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|<br><small>(until 1806)</small>}}|}}
+    |#default = City-state {{#if:{{{empire|}}}|of [[{{{empire}}}]]|}}
+    }} | <!-- City-state -->
+  }}}}
+  |Commonwealth realm |Commonwealth Realm = {{#if:{{{status_text|}}}|{{{status_text}}}| [[Commonwealth Realm]]}}
+  |League of Nations Mandate | League of Nations |Mandate = {{#if:{{{status_text|}}}|{{{status_text}}}|{{#if:{{{empire|}}}|[[League of Nations mandate|Mandate]] of&nbsp;{{#switch:{{{empire}}}
+    |United Kingdom |UK=the [[United Kingdom]]
+    |#default = {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
+    }} | [[League of Nations mandate]]
+  }}}}
+  |United Nations Trust Territory| UN Trust Territory |Trust Territory={{#if:{{{status_text|}}}|{{{status_text}}}| [[United Nations Trust Territories|Trust Territory]] {{#if:{{{empire|}}}|&nbsp;of&nbsp;{{#switch:{{{empire}}}
+    |United Kingdom |UK = the [[United Kingdom]]
+    |United States |US | USA = the [[United States]]
+    |#default =  {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
+  }}}}}}
+  |Protectorate = {{#if:{{{status_text|}}}|{{{status_text}}}|Protectorate of&nbsp;{{#if:{{{empire|}}}| {{#switch:{{{empire}}}
+    |United Kingdom |UK=the [[United Kingdom]]
+    |United States |US |USA =the [[United States]]
+    |#default = {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
+    }} |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+  }}}}
+  |Client |Client state |Client State |Puppet |Puppet-state |Puppet state= {{#if:{{{status_text|}}}|{{{status_text}}}|{{#if:{{{empire|}}}| {{#switch:{{{empire}}}
+    |First French Empire |France = [[French client republic|Client]] of the [[First French Empire]]
+    |#default = [[Puppet state]] of {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
+    }} | Puppet state ''(of whom?)'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+  }}}}
+  |Vassal={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
+    |Holy Roman Empire |HRE = [[States of the Holy Roman Empire|State]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|<small>(until 1806)</small>}}|}}
+    |#default =  Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+  }}}}
+  |Fief={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
+    |#default =  Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+  }}}}
+  |Abbey={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
+    |Holy Roman Empire |HRE = [[Imperial Abbey]] of the [[Holy Roman Empire]] [[Category:Imperial abbeys|{{{common_name}}}]]
+    |#default =  Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+  }}}}
+  |Satellite |Satellite State | Satellite state ={{#if:{{{status_text|}}}|{{{status_text}}}| Satellite state of the [[Soviet Union]]}}
+  |Colony={{#switch:{{ucfirst:{{{empire}}}}}
+    |United Kingdom |UK |British Empire |Britain=[[Evolution of the British Empire|British colony]]   
+    |England=[[English colonial empire|English colony]]
+    |France |First French Empire| French Empire=[[French colonial empires|French colony]]
+    |NL |Netherlands |The Netherlands=[[Dutch Empire|Dutch colony]]
+    |Belgium=[[Belgian colonial empire|Belgian colony]]
+    |Spain |Spanish Empire=[[Spanish Empire|Spanish colony]]
+    |Portugal=[[Portuguese Empire|Portuguese colony]]
+    |Germany |German Empire=[[German colonial empire|German colony]]
+    |Italy=[[Italian Empire|Italian colony]]
+    |Sweden={{#if:{{{status_text|}}}|{{{status_text}}}| [[Swedish colonial empire|Swedish colony]] }}
+    |Denmark=[[Danish colonial empire|Danish colony]]
+    |Norway=Norwegian colony
+    |Russia=Russian colony
+    |Japan=[[Japanese Empire|Japanese colony]]
+    |#default = Colony ({{#if:{{{empire|}}}|{{{empire}}}|''of whom?''{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}})
+  }}
+  |Provisional |Provisional Government |Provisional government ={{#if:{{{status_text|}}}|{{{status_text}}}| [[Provisional government]]}}
+  |Exile |Exiled Government = {{#if:{{{year_exile_start|}}}|[[Government in exile|In Exile]] {{#if:{{{year_exile_end|}}}|&nbsp;({{{year_exile_start}}}&nbsp;–&nbsp;{{{year_exile_end}}})|since {{{year_exile_start}}}}}|[[Government in exile]] }}
+  |#default={{#if:{{{status_text|}}}|{{{status_text}}}|{{{status}}}}}
+}}}}
+<!-- EXCERPT ZZZ FROM HERE ---
+--->
+|-
+<!----- Start and end dates of the subdivision plus preceding and succeeding entities
+For the preceding and succeeding entities, give as input the name the territory. If there is already flag at "Image:Flag of _.svg" no address to that image needs to be provided. ----->
+<!-- If the number of states is too high, use the pn/sn parameters below -->
+
+|colspan="2" style="vertical-align:middle; text-align:center; border-top: solid 1px #aaa; padding: 0.2em 0em 0.2em 0em;"|
+    {| width=100% style="text-align:center; margin:0 auto; background:transparent;"
+    |-
+    |width=50px style="border:0; vertical-align:middle; font-size:30%; line-height: 105%;"| {{#if:{{{p5|}}}|[[#before-after|<span style="font-size:300%;">↓</span>]]| {{#if:{{{p1|}}}|[[{{{p1}}}|<span style="font-size:300%;">←</span>]] {{#if:{{{flag_p1|}}}|[[File:{{{flag_p1}}}|30px{{#ifeq:{{{border_p1}}}|no||{{!}}border}}|link={{{p1}}}|alt=]]|{{#if:{{{image_p1|}}}|{{{image_p1}}}|[[File:Blank.png|30px{{#ifeq:{{{border_p1}}}|no||{{!}}border}}|link={{{p1}}}|alt=]]}}}}<br>}}{{#if:{{{p2|}}}|&nbsp;<br>[[{{{p2}}}|<span style="font-size:300%;">←</span>]] {{#if:{{{flag_p2|}}}|[[File:{{{flag_p2}}}|30px{{#ifeq:{{{border_p2}}}|no||{{!}}border}}|link={{{p2}}}|alt=]]|{{#if:{{{image_p2|}}}|{{{image_p2}}}|[[File:Blank.png|30px{{#ifeq:{{{border_p2}}}|no||{{!}}border}}|link={{{p2}}}|alt=]]}}}}<br>}}{{#if:{{{p3|}}}|&nbsp;<br>[[{{{p3}}}|<span style="font-size:300%;">←</span>]] {{#if:{{{flag_p3|}}}|[[File:{{{flag_p3}}}|30px{{#ifeq:{{{border_p3}}}|no||{{!}}border}}|link={{{p3}}}|alt=]]|{{#if:{{{image_p3|}}}|{{{image_p3}}}|[[File:Blank.png|30px{{#ifeq:{{{border_p3}}}|no||{{!}}border}}|link={{{p3}}}|alt=]]}}}}<br>}}{{#if:{{{p4|}}}|&nbsp;<br>[[{{{p4}}}|<span style="font-size:300%;">←</span>]] {{#if:{{{flag_p4|}}}|[[File:{{{flag_p4}}}|30px{{#ifeq:{{{border_p4}}}|no||{{!}}border}}|link={{{p4}}}|alt=]]|{{#if:{{{image_p4|}}}|{{{image_p4}}}|[[File:Blank.png|30px{{#ifeq:{{{border_p4}}}|no||{{!}}border}}|link={{{p4}}}|alt=]]}}}}<br>}}{{#if:{{{p5|}}}|&nbsp;<br>[[{{{p5}}}|<span style="font-size:300%;">←</span>]] {{#if:{{{flag_p5|}}}|[[File:{{{flag_p5}}}|30px{{#ifeq:{{{border_p5}}}|no||{{!}}border}}|link={{{p5}}}|alt=]]|{{#if:{{{image_p5|}}}|{{{image_p5}}}|[[File:Blank.png|30px{{#ifeq:{{{border_p5}}}|no||{{!}}border}}|link={{{p5}}}|alt=]]}}}}<br>}}}}
+    |style="vertical-align:middle; text-align:center; font-size:115%; border:0" | {{#if:{{{year_end|}}}| {{#if:{{{life_span|}}}|'''{{{life_span}}}''' |'''{{#ifeq:{{{year_start|}}}|{{{year_end}}}|{{{year_start}}}|{{#if:{{{year_start|}}}|{{{year_start}}}–}}{{{year_end}}}}}'''}} |'''Life span?''' }}
+    |width=50px style="border:0; vertical-align: middle; text-align:right; line-height: 105%; font-size:30%;"| {{#if:{{{s5|}}}|[[#before-after|<span style="font-size:300%;">↓</span>]]| {{#if:{{{s1|}}}|{{#if:{{{flag_s1|}}}|[[File:{{{flag_s1}}}|30px{{#ifeq:{{{border_s1}}}|no||{{!}}border}}|link={{{s1}}}|alt=]]|{{#if:{{{image_s1|}}}|{{{image_s1}}}|[[File:Blank.png|30px{{#ifeq:{{{border_s1}}}|no||{{!}}border}}|link={{{s1}}}|alt=]]}}}} [[{{{s1}}}|<span style="font-size:300%;">→</span>]]<br>}}{{#if:{{{s2|}}}|&nbsp;<br>{{#if:{{{flag_s2|}}}|[[File:{{{flag_s2}}}|30px{{#ifeq:{{{border_s2}}}|no||{{!}}border}}|link={{{s2}}}|alt=]]|{{#if:{{{image_s2|}}}|{{{image_s2}}}|[[File:Blank.png|30px{{#ifeq:{{{border_s2}}}|no||{{!}}border}}|link={{{s2}}}|alt=]]}}}} [[{{{s2}}}|<span style="font-size:300%;">→</span>]]<br>}} {{#if:{{{s3|}}}|&nbsp;<br>{{#if:{{{flag_s3|}}}|[[File:{{{flag_s3}}}|30px{{#ifeq:{{{border_s3}}}|no||{{!}}border}}|link={{{s3}}}|alt=]]|{{#if:{{{image_s3|}}}|{{{image_s3}}}|[[File:Blank.png|30px{{#ifeq:{{{border_s3}}}|no||{{!}}border}}|link={{{s3}}}|alt=]]}}}} [[{{{s3}}}|<span style="font-size:300%;">→</span>]]<br>}}{{#if:{{{s4|}}}|&nbsp;<br>{{#if:{{{flag_s4|}}}|[[File:{{{flag_s4}}}|30px{{#ifeq:{{{border_s4}}}|no||{{!}}border}}|link={{{s4}}}|alt=]]|{{#if:{{{image_s4|}}}|{{{image_s4}}}|[[File:Blank.png|30px{{#ifeq:{{{border_s4}}}|no||{{!}}border}}|link={{{s4}}}|alt=]]}}}} [[{{{s4}}}|<span style="font-size:300%;">→</span>]]<br>}}{{#if:{{{s5|}}}|&nbsp;<br>{{#if:{{{flag_s5|}}}|[[File:{{{flag_s5}}}|30px{{#ifeq:{{{border_s5}}}|no||{{!}}border}}|link={{{s5}}}|alt=]]|{{#if:{{{image_s5|}}}|{{{image_s5}}}|[[File:Blank.png|30px{{#ifeq:{{{border_s5}}}|no||{{!}}border}}|link={{{s5}}}|alt=]]}}}} [[{{{s5}}}|<span style="font-size:300%;">→</span>]]<br>}}}}
+    |}
+<!----- Flag and coat of arms ----->
+{{#if:{{{image_flag|}}}|{{#if:{{{image_coat|}}}|
+{{!}}- class="mergedtoprow"
+{{!}} colspan="2" class="maptable"{{!}}
+{{{!}} width=100% style="text-align:center; margin:0 auto; background:none;"
+{{!}}-
+{{!}}align=center style="border:0; vertical-align:middle;"{{!}} [[File:{{{image_flag|<noinclude>Sin bandera.svg</noinclude>}}}|{{{flag_size|125px}}}|alt={{{flag_alt|}}}|Flag{{#ifeq:{{{flag_border|}}}|no||{{!}}border}}]]
+{{!}}align=center style="border:0; vertical-align:middle;"{{!}} [[File:{{{image_coat|<noinclude>Sin escudo.svg</noinclude>}}}|{{{coa_size|85px}}}|alt={{{coat_alt|}}}|Coat of arms]]
+{{!}}- style="font-size: 95%;"
+{{!}} style="border:0; text-align:center;"{{!}} {{#if:{{{flag|}}}|[[{{{flag}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]]| {{#ifexist:Flag of {{{common_name}}}|[[Flag of {{{common_name}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]]| {{#ifexist:Flag of the {{{common_name}}}|[[Flag of the {{{common_name}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]] |{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}}}}}}}
+{{!}} style="border:0; text-align:center;"{{!}} {{#if:{{{symbol|}}}|[[{{{symbol}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#ifexist:Coat of arms of {{{common_name}}}|[[Coat of arms of {{{common_name}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#ifexist:Coat of arms of the {{{common_name}}}|[[Coat of arms of the {{{common_name}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}}}}}}}
+{{!}}}
+|{{!}}- class="mergedtoprow"
+{{!}} colspan="2" class="maptable" align=center {{!}}
+<p>[[File:{{{image_flag|<noinclude>Sin bandera.svg</noinclude>}}}|125px{{#ifeq:{{{flag_border|}}}|no||{{!}}border}}|alt={{{flag_alt|}}}|Flag of {{{common_name}}}]]<p> {{#if:{{{flag|}}}|[[{{{flag}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]]| {{#ifexist:Flag of {{{common_name}}}|[[Flag of {{{common_name}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]]| {{#ifexist:Flag of the {{{common_name}}}|[[Flag of the {{{common_name}}}|{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}]] |{{#if:{{{flag_type|}}}|{{{flag_type}}}|Flag}}}}}}}}}}}}
+|-
+{{#if:{{{image_flag|}}}||{{#if:{{{image_coat|}}}|
+{{!}} colspan="2" class="maptable" align=center {{!}}
+<p>[[File:{{{image_coat|<noinclude>Sin escudo.svg</noinclude>}}}|{{{coa_size|85px}}}|alt={{{coat_alt|}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}} of {{{common_name}}}]] <p> {{#if:{{{symbol|}}}|[[{{{symbol}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#ifexist:Coat of arms of {{{common_name}}}|[[Coat of arms of {{{common_name}}}|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#ifexist:Coat of arms of the {{{common_name}}}|[[Coat of arms of the {{{common_name}}}| |{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}]]|{{#if:{{{symbol_type|}}}|{{{symbol_type}}}|Coat of arms}}}}}}}}}}}}
+|-
+<!-- EXCERPT ZZZ TO HERE
+--->
+<!----- Motto ----->
+{{#if: {{{national_motto|}}} |
+{{!}} colspan="2" style="vertical-align:top; text-align:center; font-size:95%;" {{!}} '''Motto'''<br/>{{{national_motto}}}
+}}
+|-
+<!----- Anthem ----->
+{{#if: {{{national_anthem|}}} |
+{{!}} colspan="2" style="vertical-align:top; text-align:center; font-size:95%;" {{!}}  '''Anthem'''<br/>{{#ifexist:{{{national_anthem}}}|[[{{{national_anthem}}}]]|{{{national_anthem}}}}}
+}}
+|-
+<!----- Maps ----->
+{{#if:{{{image_map|}}} |
+{{!}} colspan="2" style="text-align:center; font-size:95%; padding:0.6em 0em 0.6em 0em;" {{!}} [[File:{{{image_map|<noinclude>Missing map.svg</noinclude>}}}|{{{image_map_size|250px}}}|center|alt={{{image_map_alt|}}}|Location of {{{common_name}}}]]<small>{{#if:{{{image_map_caption|}}}|{{{image_map_caption}}}}}</small> | {{#if:{{{location_map|}}} |
+{{!}} colspan="2" style="text-align:center; font-size:95%; padding:0.6em 0em 0.6em 0em;" {{!}} {{{location_map}}} }} }}
+{{#if:{{{image_map2|}}} |
+{{!}}- class="mergedtoprow"
+{{!}} colspan="2" style="text-align:center; padding:0.6em 0em;" {{!}} [[File:{{{image_map2}}} |{{{image_map2_size|280px}}} |center |alt={{{image_map2_alt|}}}|Location of {{{common_name}}}]] <small>{{#if:{{{image_map2_caption|}}}|{{{image_map2_caption}}}}}</small>
+}}
+|- {{#if:{{{capital_exile|}}}|class="mergedtoprow"}}
+<!----- Capital ----->
+{{#ifeq:{{{capital|}}}|omitted||
+{{!}} width=50% {{!}} '''Capital'''
+{{!}} width=50% {{!}} {{#if:{{{capital|}}}|{{#ifeq:{{{capital}}}|Unknown|''Unknown''|{{#ifexist:{{{capital}}}|[[{{{capital|}}}]]|{{{capital|}}}}}}}|''Not specified''}}
+}}
+|- {{#ifeq:{{{capital|}}}|omitted||class="mergedbottomrow"}}
+{{#if:{{{capital_exile|}}} |
+<!----- Capital-in-exile ----->
+{{!}} '''Capital-in-exile'''
+{{!!}} {{#ifexist:{{{capital_exile}}}|[[{{{capital_exile|}}}]]|{{{capital_exile|}}}}}
+}}
+|-
+<!----- Common language(s) ----->
+{{#if: {{{common_languages|}}}|
+{{!}} '''Language(s)'''
+{{!!}} {{#ifexist:{{{common_languages}}} language|[[{{{common_languages}}} language|{{{common_languages}}}]] |{{#ifexist:{{{common_languages}}}|[[{{{common_languages}}}]]|{{{common_languages}}}}}}}
+}}
+|-
+<!----- Religion ----->
+{{#if: {{{religion|}}}|
+{{!}} '''Religion'''
+{{!!}} {{#ifexist:{{{religion}}}|[[{{{religion}}}]]|{{{religion}}}}}
+}}
+|- {{#if:{{{title_leader|}}}{{{title_deputy|}}}{{{title_representative|}}}|class="mergedtoprow"}}
+<!----- Government ----->
+|'''{{#if:{{{government_type|}}}|Government|{{#if:{{{status|}}}|Political structure|Government}}}}'''
+|| {{#if:{{{government_type|}}}|{{#switch:{{ucfirst:{{{government_type}}}}}
+  |Constitutional monarchy |Constitutional Monarchy|Elective monarchy|Elective Monarchy |Absolute Monarchy |Absolute monarchy
+  |Monarchy=[[{{{government_type}}}]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{continent}}}
+    |Europe=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]]
+    |Asia=[[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
+    |North America=[[Category:Former monarchies of North America|{{{common_name}}}, {{{year_start}}}]]
+    |South America=[[Category:Former monarchies of South America|{{{common_name}}}, {{{year_start}}}]]
+    |Africa=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]
+    |Oceania=[[Category:Former monarchies of Oceania|{{{common_name}}}, {{{year_start}}}]]
+    |Eurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
+    |Afroasia=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
+    |Afroeurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]|[[Category:Former monarchies|{{{common_name}}}, {{{year_start}}}]]
+    }}}}
+  |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former republics|{{{common_name}}}, {{{year_start}}}]]}}
+  |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former principalities|{{{common_name}}}, {{{year_start}}}]]}}
+  |Emirate=[[Emirate]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former emirates|{{{common_name}}}, {{{year_start}}}]]}}
+  |Socialist state |Socialist republic |Socialist State |Socialist Republic=[[Socialist state|Socialist republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former socialist republics|{{{common_name}}}, {{{year_start}}}]]}}
+  |Dictatorship |Military Dictatorship=[[Dictatorship]]
+  |Theocracy = [[Theocracy]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former theocracies|{{{common_name}}}, {{{year_start}}}]]}}
+  |Unknown = ''Unknown''
+  |Various = 
+  |#default = {{#ifexist:{{{government_type}}}|[[{{{government_type}}}]]|{{{government_type}}}}}<!-- ''Value specified for "government_type" [[Template:Infobox former country/doc#Politics|does not comply]]'' -->{{ns0|[[Category:Former country articles requiring maintenance|G]]}}
+  }}|{{#if:{{{status|}}}|{{#ifexist:{{{status}}}|[[{{{status}}}]]|{{{status}}}}}|''Not specified''}}
+}}
+|- {{#if:{{{year_leader1|}}}{{{leader2|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow"|class="mergedbottomrow"}}
+<!-- Head of state. For colonies and dependant territories, this is still the head of the ruling entity -->
+<!-- eg. The head of state of a British colonies is the British monarch -->
+{{#if:{{{leader1|}}}|
+{{!}} {{#if:{{{year_leader1|}}}|colspan="2"}} {{!}} '''{{#if:{{{title_leader|}}}|{{{title_leader}}}|{{#switch:{{{government_type}}}|Monarchy|Constitutional monarchy={{#ifexist:King of {{{common_name}}}|[[King of {{{common_name}}}{{!}}King]]|{{#ifexist:King of the {{{common_name}}}|[[King of the {{{common_name}}}{{!}}King]]|King}}}}|{{#ifexist:President of {{{common_name}}}|[[President of {{{common_name}}}{{!}}President]]|{{#ifexist:President of the {{{common_name}}}|[[President of the {{{common_name}}}{{!}}President]]|President}}}}}}}}'''{{#if:{{{year_leader1|}}}||
+{{!!}}{{#ifexist:{{{leader1}}}|[[{{{leader1}}}]]|{{{leader1}}}}}}}
+{{!}}- {{#if:{{{leader2|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{year_leader1|}}}| 
+{{!}} &nbsp;- {{{year_leader1}}}
+{{!!}} {{#ifexist:{{{leader1}}}|[[{{{leader1}}}]]|{{{leader1}}}}}
+}}}}
+{{!}}- {{#if:{{{leader3|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader2|}}} |
+{{!}} {{#if:{{{year_leader2|}}}|&nbsp;- {{{year_leader2}}}}}
+{{!!}} {{#ifexist:{{{leader2}}}|[[{{{leader2}}}]]|{{{leader2}}}}}
+}}
+{{!}}- {{#if:{{{leader4|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader3|}}} |
+{{!}} {{#if:{{{year_leader3|}}}|&nbsp;- {{{year_leader3}}}}}
+{{!!}} {{#ifexist:{{{leader3}}}|[[{{{leader3}}}]]|{{{leader3}}}}}
+}}
+{{!}}- {{#if:{{{leader5|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader4|}}} |
+{{!}} {{#if:{{{year_leader4|}}}|&nbsp;- {{{year_leader4}}}}}
+{{!!}} {{#ifexist:{{{leader4}}}|[[{{{leader4}}}]]|{{{leader4}}}}}
+}}
+{{!}}- {{#if:{{{leader6|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader5|}}} |
+{{!}} {{#if:{{{year_leader5|}}}|&nbsp;- {{{year_leader5}}}}}
+{{!!}} {{#ifexist:{{{leader5}}}|[[{{{leader5}}}]]|{{{leader5}}}}}
+}}
+{{!}}- {{#if:{{{leader7|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader6|}}} |
+{{!}} {{#if:{{{year_leader6|}}}|&nbsp;- {{{year_leader6}}}}}
+{{!!}} {{#ifexist:{{{leader6}}}|[[{{{leader6}}}]]|{{{leader6}}}}}
+}}
+{{!}}- {{#if:{{{leader8|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader7|}}} |
+{{!}} {{#if:{{{year_leader7|}}}|&nbsp;- {{{year_leader7}}}}}
+{{!!}} {{#ifexist:{{{leader7}}}|[[{{{leader7}}}]]|{{{leader7}}}}}
+}}
+{{!}}- {{#if:{{{leader9|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader8|}}} |
+{{!}} {{#if:{{{year_leader8|}}}|&nbsp;- {{{year_leader8}}}}}
+{{!!}} {{#ifexist:{{{leader8}}}|[[{{{leader8}}}]]|{{{leader8}}}}}
+}}
+{{!}}- {{#if:{{{deputy1|}}}{{{representative1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{leader9|}}} |
+{{!}} {{#if:{{{year_leader9|}}}|&nbsp;- {{{year_leader9}}}}}
+{{!!}} {{#ifexist:{{{leader9}}}|[[{{{leader9}}}]]|{{{leader9}}}}}
+}}
+<!-- Representative of head of state (eg. colony governors) - for many entities this section should be blank -->
+|- {{#if:{{{year_representative1|}}}{{{representative2|}}}{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{representative1|}}}|
+{{!}} '''{{#if:{{{title_representative|}}}|{{{title_representative}}}|{{#ifexist:Governor of {{{common_name}}}|[[Governor of {{{common_name}}}{{!}}Governor]]|{{#ifexist: Governor of the {{{common_name}}}|[[Governor of the {{{common_name}}}{{!}}Governor]]|Governor}}}}}}'''
+{{!!}} {{#if:{{{year_representative1|}}}||{{#ifexist:{{{representative1}}}|[[{{{representative1}}}]]|{{{representative1}}}}}}}
+{{!}}- {{#if:{{{representative2|}}}{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{year_representative1|}}}| 
+{{!}} &nbsp;- {{{year_representative1}}}
+{{!!}} {{#ifexist:{{{representative1}}}|[[{{{representative1}}}]]|{{{representative1}}}}}
+}}}}
+{{!}}- {{#if:{{{representative3|}}}{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{representative2|}}} |
+{{!}} {{#if:{{{year_representative2|}}}|&nbsp;- {{{year_representative2}}}}}
+{{!!}} {{#ifexist:{{{representative2}}}|[[{{{representative2}}}]]|{{{representative2}}}}}
+}}
+{{!}}- {{#if:{{{representative3|}}}{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{representative3|}}} |
+{{!}} {{#if:{{{year_representative3|}}}|&nbsp;- {{{year_representative3}}}}}
+{{!!}} {{#ifexist:{{{representative3}}}|[[{{{representative3}}}]]|{{{representative3}}}}}
+}}
+{{!}}- {{#if:{{{representative5|}}}{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{representative4|}}} |
+{{!}} {{#if:{{{year_representative4|}}}|&nbsp;- {{{year_representative4}}}}}
+{{!!}}{{#ifexist:{{{representative4}}}|[[{{{representative4}}}]]|{{{representative4}}}}}
+}}
+{{!}}- {{#if:{{{deputy1|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{representative5|}}} |
+{{!}} {{#if:{{{year_representative5|}}}|&nbsp;- {{{year_representative5}}}}}
+{{!!}} {{#ifexist:{{{representative5}}}|[[{{{representative5}}}]]|{{{representative5}}}}}
+}}
+|- {{#if:{{{year_deputy1|}}}{{{deputy2|}}} | class="mergedrow" | class="mergedbottomrow"}}
+<!-- Head of government (if different from head of state), or second-in-charge -->
+{{#if:{{{deputy1|}}}|
+{{!}} {{#if:{{{year_deputy1|}}}|colspan="2"}} {{!}} '''{{#if:{{{title_deputy|}}}|{{{title_deputy}}}|{{#ifexist:Prime minister of {{{common_name}}}|[[Prime minister of {{{common_name}}}{{!}}Prime minister]]|{{#ifexist:Prime minister of the {{{common_name}}}|[[Prime minister of the {{{common_name}}}{{!}}Prime minister]]|{{#ifexist:Prime Minister of {{{common_name}}}|[[Prime Minister of {{{common_name}}}{{!}}Prime minister]]|{{#ifexist:Prime Minister of the {{{common_name}}}|[[Prime Minister of the {{{common_name}}}{{!}}Prime minister]]|Prime minister}}}}}}}}}}'''{{#if:{{{year_deputy1|}}}||
+{{!!}}{{#ifexist:{{{deputy1}}}|[[{{{deputy1}}}]]|{{{deputy1}}}}}}}
+{{!}}- {{#if:{{{deputy2|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{year_deputy1|}}}| 
+{{!}} &nbsp;- {{{year_deputy1}}}
+{{!}} {{#ifexist:{{{deputy1}}}|[[{{{deputy1}}}]]|{{{deputy1}}}}}
+}}}}
+{{!}}- {{#if:{{{deputy3|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{deputy2|}}} |
+{{!}} {{#if:{{{year_deputy2|}}}|&nbsp;- {{{year_deputy2}}}}}
+{{!!}} {{#ifexist:{{{deputy2}}}|[[{{{deputy2}}}]]|{{{deputy2}}}}}
+}}
+{{!}}- {{#if:{{{deputy4|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{deputy3|}}} |
+{{!}} {{#if:{{{year_deputy3|}}}|&nbsp;- {{{year_deputy3}}}}}
+{{!!}} {{#ifexist:{{{deputy3}}}|[[{{{deputy3}}}]]|{{{deputy3}}}}}
+}}
+{{!}}- {{#if:{{{deputy5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{deputy4|}}} |
+{{!}} {{#if:{{{year_deputy4|}}}|&nbsp;- {{{year_deputy4}}}}}
+{{!!}} {{#ifexist:{{{deputy4}}}|[[{{{deputy4}}}]]|{{{deputy4}}}}}
+}}
+{{!}}- {{#if:{{{deputy6|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if:{{{deputy5|}}} |
+{{!}} {{#if:{{{year_deputy5|}}}|&nbsp;- {{{year_deputy5}}}}}
+{{!!}} {{#ifexist:{{{deputy5}}}|[[{{{deputy5}}}]]|{{{deputy5}}}}}
+}}
+{{!}}- class="mergedbottomrow"
+{{#if:{{{deputy6|}}} |
+{{!}} {{#if:{{{year_deputy6|}}}|&nbsp;- {{{year_deputy6}}}}}
+{{!!}} {{#ifexist:{{{deputy6}}}|[[{{{deputy6}}}]]|{{{deputy6}}}}}
+}}
+|-
+{{#if: {{{legislature|}}} |
+{{!}}- {{#if:{{{house1|}}}{{{house2|}}} | class="mergedtoprow"}}
+<!----- Legislature ----->
+{{!}} '''Legislature'''
+{{!!}} {{#ifexist:{{{legislature}}}|[[{{{legislature}}}]]|{{{legislature}}}}}
+{{#if:{{{house1|}}}| 
+{{!}}- {{#if:{{{house2|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{!}} &nbsp;- {{#if:{{{type_house1|}}}|{{{type_house1}}}|Upper house}}
+{{!!}} {{#ifexist:{{{house1}}}|[[{{{house1}}}]]|{{{house1}}}}}}}
+{{#if:{{{house2|}}}| 
+{{!}}- class="mergedbottomrow"
+{{!}} &nbsp;- {{#if:{{{type_house2|}}}|{{{type_house2}}}|Lower house}}
+{{!!}} {{#ifexist:{{{house2}}}|[[{{{house2}}}]]|{{{house2}}}}}}}
+}}
+|- class="mergedtoprow"
+<!----- Events  ----->
+| {{#if:{{{era|}}}|'''Historical era'''|'''History'''}}
+|| {{#if:{{{era|}}}|{{#ifexist:{{{era|}}}|[[{{{era}}}]]|{{{era}}}}} {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{era}}}
+  |Cold War=[[Category:Former polities of the Cold War|{{{common_name}}}, {{{year_start}}}]]
+  |Interwar period=[[Category:Former polities of the Interwar period|{{{common_name}}}, {{{year_start}}}]]
+  }} }} }}
+|- class="mergedrow"
+{{#if:{{{event_pre|}}}|{{Infobox former country/event|event={{{event_pre}}}|year=|date={{#if:{{{date_pre|}}}|{{{date_pre}}}}}}}}}
+|- class="mergedrow"
+{{Infobox former country/event|event={{#if:{{{event_start|}}}|{{{event_start}}}|Established}}|year={{#if:{{{year_start|}}}|{{{year_start}}}|''Enter start year''}}
+|date={{#if:{{{date_start|}}}|{{{date_start}}}}}}}
+|- class="mergedrow"
+{{#if:{{{event1|}}}|{{Infobox former country/event|event={{{event1}}}|year=|date={{#if:{{{date_event1|}}}|{{{date_event1}}}}}}}}}
+|- class="mergedrow"
+{{#if:{{{event2|}}}|{{Infobox former country/event|event={{{event2}}}|year=|date={{#if:{{{date_event2|}}}|{{{date_event2}}}}}}}}}
+|- class="mergedrow"
+{{#if:{{{event3|}}}|{{Infobox former country/event|event={{{event3}}}|year=|date={{#if:{{{date_event3|}}}|{{{date_event3}}}}}}}}}
+|- class="mergedrow"
+{{#if:{{{event4|}}}|{{Infobox former country/event|event={{{event4}}}|year=|date={{#if:{{{date_event4|}}}|{{{date_event4}}}}}}}}}
+|- {{#if:{{{event_post|}}}|class="mergedrow"|class="mergedbottomrow"}}
+{{Infobox former country/event|event={{#if:{{{event_end|}}}|{{{event_end}}}|Disestablished}}|year={{#if:{{{year_end|}}}|{{{year_end}}}|''Enter end year''}}|date={{#if:{{{date_end|}}}|{{{date_end}}}}}}}
+|- class="mergedbottomrow"
+{{#if:{{{event_post|}}}|{{Infobox former country/event|event={{{event_post}}}|year=|date={{#if:{{{date_post|}}}|{{{date_post}}}}}}}}}
+|- {{#if: {{{stat_year1|}}}||class="mergedtoprow"}}
+<!----- Area ----->
+{{#if: {{{stat_year1|}}}|
+{{#if: {{{stat_area1|}}}{{{stat_area2|}}}{{{stat_area3|}}}{{{stat_area4|}}}{{{stat_area5|}}} |
+{{!}} colspan="2" {{!}} '''[[List of countries and outlying territories by area|Area]]'''|
+}}
+{{!}}- {{#if: {{{stat_area2|}}}{{{stat_area3|}}}{{{stat_area4|}}}{{{stat_area5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area1|}}} |
+{{!}} {{#if: {{{stat_year1|}}}|&nbsp;-&nbsp;{{{stat_year1}}} {{#if:{{{ref_area1|}}}|{{{ref_area1}}} }} }}
+{{!!}} {{formatnum:{{{stat_area1|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area1}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}}
+{{!}}- {{#if:{{{stat_area3|}}}{{{stat_area4|}}}{{{stat_area5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area2|}}} | {{ #ifeq: {{{stat_area2|}}} | {{{stat_area1|}}} | |
+{{!}} {{#if: {{{stat_year2|}}}|&nbsp;-&nbsp;{{{stat_year2}}} }}
+{{!!}} {{formatnum:{{{stat_area2|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area2}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}} }}
+{{!}}- {{#if: {{{stat_area4|}}}{{{stat_area5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area3|}}} | {{ #ifeq: {{{stat_area3|}}} | {{{stat_area2|}}} | |
+{{!}} {{#if: {{{stat_year3|}}}|&nbsp;-&nbsp;{{{stat_year3}}} }}
+{{!!}} {{formatnum:{{{stat_area3|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area3}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}} }}
+{{!}}- {{#if: {{{stat_area5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area4|}}} | {{ #ifeq: {{{stat_area4|}}} | {{{stat_area3|}}} | |
+{{!}} {{#if: {{{stat_year4|}}}|&nbsp;-&nbsp;{{{stat_year4}}} }}
+{{!!}} {{formatnum:{{{stat_area4|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area4}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}} }}
+{{!}}- class="mergedbottomrow"
+{{#if: {{{stat_area5|}}} | {{ #ifeq: {{{stat_area5|}}} | {{{stat_area4|}}} | |
+{{!}} style="padding:0em 1em 0.2em 0; vertical-align:top; text-align:left;" {{!}} {{#if: {{{stat_year5|}}}|&nbsp;-&nbsp;{{{stat_year5}}} }} {{!}}{{!}} {{formatnum:{{{stat_area5|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area5}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}} }}
+| {{#if: {{{stat_area1|}}} |
+ {{!}} '''[[List of countries and outlying territories by area|Area]]'''
+ {{!!}}  {{formatnum:{{{stat_area1|}}}}}&nbsp;km<sup>2</sup> {{nowrap|({{formatnum:{{#expr: {{{stat_area1}}} div 2.589988110336 round 0}}}}&nbsp;sq&nbsp;mi)}}
+}}
+}}
+|- class="mergedtoprow"
+<!----- Population ----->
+{{#if: {{{stat_pop1|}}}{{{stat_pop2|}}}{{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} |
+{{!}} colspan="2" {{!}} '''[[List of countries by population|Population]]'''
+}}
+|- {{#if: {{{stat_area1|}}}{{{stat_pop2|}}}{{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_pop1|}}} |
+{{!}} &nbsp;-&nbsp;{{#if:{{{stat_year1|}}}|{{{stat_year1}}} }} est.{{#if:{{{ref_pop1|}}}|{{{ref_pop1}}} }}
+{{!!}} {{formatnum:{{{stat_pop1|}}}}}&nbsp;
+{{!}}- {{#if: {{{stat_pop2|}}}{{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area1|}}} |
+{{!}} &nbsp;&nbsp;&nbsp;&nbsp; Density
+{{!!}} {{formatnum:{{#expr:{{{stat_pop1}}} div {{{stat_area1}}} round 1}}}}&nbsp;/km<sup>2</sup>&nbsp; ({{formatnum:{{#expr: {{{stat_pop1}}} * 2.589988110336 div {{{stat_area1}}} round 1}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|- {{#if: {{{stat_area2|}}}{{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_pop2|}}} |
+{{!}} &nbsp;-&nbsp;{{{stat_year2}}} est.
+{{!!}} {{formatnum:{{{stat_pop2|}}}}}&nbsp;
+{{!}}- {{#if: {{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area2|}}} |
+{{!}} &nbsp;&nbsp;&nbsp;&nbsp; Density
+{{!!}} {{formatnum:{{#expr:{{{stat_pop2}}} div {{{stat_area2}}} round 1}}}}&nbsp;/km<sup>2</sup>&nbsp; ({{formatnum:{{#expr: {{{stat_pop2}}} * 2.589988110336 div {{{stat_area2}}} round 1}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|- {{#if: {{{stat_area3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_pop3|}}} |
+{{!}} &nbsp;-&nbsp;{{{stat_year3}}} est.
+{{!!}} {{formatnum:{{{stat_pop3|}}}}}&nbsp;
+{{!}}- {{#if: {{{stat_pop4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area3|}}} |
+{{!}} &nbsp;&nbsp;&nbsp;&nbsp; Density
+{{!!}} {{formatnum:{{#expr:{{{stat_pop3}}} div {{{stat_area3}}} round 1}}}}&nbsp;/km<sup>2</sup>&nbsp; ({{formatnum:{{#expr: {{{stat_pop3}}} * 2.589988110336 div {{{stat_area3}}} round 1}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|- {{#if: {{{stat_area4|}}}{{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_pop4|}}} |
+{{!}} &nbsp;-&nbsp;{{{stat_year4}}} est.
+{{!!}} {{formatnum:{{{stat_pop4|}}}}}&nbsp;
+{{!}}- {{#if: {{{stat_pop5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_area4|}}} |
+{{!}} &nbsp;&nbsp;&nbsp;&nbsp; Density
+{{!!}} {{formatnum:{{#expr:{{{stat_pop4}}} div {{{stat_area4}}} round 1}}}}&nbsp;/km<sup>2</sup>&nbsp; ({{formatnum:{{#expr: {{{stat_pop4}}} * 2.589988110336 div {{{stat_area4}}} round 1}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|- {{#if: {{{stat_area5|}}} | class="mergedrow" | class="mergedbottomrow"}}
+{{#if: {{{stat_pop5|}}} |
+{{!}} &nbsp;-&nbsp;{{{stat_year5}}} est.
+{{!!}} {{formatnum:{{{stat_pop5|}}}}}&nbsp;
+{{!}}- class="mergedbottomrow"
+{{#if: {{{stat_area5|}}} |
+{{!}} &nbsp;&nbsp;&nbsp;&nbsp; Density
+{{!!}} {{formatnum:{{#expr:{{{stat_pop5}}} div {{{stat_area5}}} round 1}}}}&nbsp;/km<sup>2</sup>&nbsp; ({{formatnum:{{#expr: {{{stat_pop5}}} * 2.589988110336 div {{{stat_area5}}} round 1}}}}&nbsp;/sq&nbsp;mi)
+}}}}
+|-
+{{#if: {{{currency|}}} |
+<!----- Currency ----->
+{{!}} '''Currency'''
+{{!!}} {{#ifexist:{{{currency}}}|[[{{{currency}}}]]|{{{currency}}}}}
+}}
+|-
+{{#if:{{{cctld|}}} |<!--then:
+     -->
+          {{!}} '''[[Country code top-level domain|Internet TLD]]'''
+          <td>{{{cctld}}}</td>
+}}
+|-
+{{#if:{{{calling_code|}}} |<!--then:
+     -->
+          {{!}} '''[[List of country calling codes|Calling code]]'''
+          <td>[[+{{{calling_code}}}]]
+             {{#ifexist:{{{calling_code_note|}}} |<!--then:-->
+          <td>   {{{calling_code_note}}} }}
+}}
+|- class="mergedtoprow"
+{{#if:{{{pn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}{{#if:{{{sn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}
+{{#ifeq: {{#expr: {{#expr:{{#if:{{{p5|}}}|1|0}}+{{#if:{{{s5|}}}|1|0}}}} > 0}} | 1 |
+<!----- Preceding and succeding entities without flags (used if more than 5) ----->
+{{!}} colspan="2" {{!}}
+{{{!}} width=95% style="background: transparent; text-align:center; margin:0 auto;"
+{{!}}-
+{{!}} align="center" style="border:0; padding-bottom:0"{{!}}<div id="before-after"></div> {{#if:{{{p1|}}}|'''Preceded by'''}} {{!}}{{!}} align="center" style="border:0; padding-bottom:0;"{{!}} {{#if:{{{s1|}}}|'''Succeeded by'''}}
+{{!}}-
+{{!}} valign="top" align="center" style="border:0;"{{!}} {{#if:{{{p1|}}} | {{{!}} width=100% style="background: transparent; text-align:center; margin:0 auto;  border:0;"
+{{!}}-
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p1|}}}|[[File:{{{flag_p1}}}|20px{{#ifeq:{{{border_p1}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p1|}}}|{{{image_p1}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p1}}}]]
+{{!}}-
+{{#if:{{{p2|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p2|}}}|[[File:{{{flag_p2}}}|20px{{#ifeq:{{{border_p2}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p2|}}}|{{{image_p2}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p2}}}]]}}
+{{!}}-
+{{#if:{{{p3|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p3|}}}|[[File:{{{flag_p3}}}|20px{{#ifeq:{{{border_p3}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p3|}}}|{{{image_p3}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p3}}}]]}}
+{{!}}-
+{{#if:{{{p4|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p4|}}}|[[File:{{{flag_p4}}}|20px{{#ifeq:{{{border_p4}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p4|}}}|{{{image_p4}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p4}}}]]}}
+{{!}}-
+{{#if:{{{p5|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p5|}}}|[[File:{{{flag_p5}}}|20px{{#ifeq:{{{border_p5}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p5|}}}|{{{image_p5}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p5}}}]]}}
+{{!}}-
+{{#if:{{{p6|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p6|}}}|[[File:{{{flag_p6}}}|20px{{#ifeq:{{{border_p6}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p6|}}}|{{{image_p6}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p6}}}]]}}
+{{!}}-
+{{#if:{{{p7|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p7|}}}|[[File:{{{flag_p7}}}|20px{{#ifeq:{{{border_p7}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p7|}}}|{{{image_p7}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p7}}}]]}}
+{{!}}-
+{{#if:{{{p8|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p8|}}}|[[File:{{{flag_p8}}}|20px{{#ifeq:{{{border_p8}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p8|}}}|{{{image_p8}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p8}}}]]}}
+{{!}}-
+{{#if:{{{p9|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p9|}}}|[[File:{{{flag_p9}}}|20px{{#ifeq:{{{border_p9}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p9|}}}|{{{image_p9}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p9}}}]]}}
+{{!}}-
+{{#if:{{{p10|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p10|}}}|[[File:{{{flag_p10}}}|20px{{#ifeq:{{{border_p10}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p10|}}}|{{{image_p10}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p10}}}]]}}
+{{!}}-
+{{#if:{{{p11|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p11|}}}|[[File:{{{flag_p11}}}|20px{{#ifeq:{{{border_p11}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p11|}}}|{{{image_p11}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p11}}}]]}}
+{{!}}-
+{{#if:{{{p12|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p12|}}}|[[File:{{{flag_p12}}}|20px{{#ifeq:{{{border_p12}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p12|}}}|{{{image_p12}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p12}}}]]}}
+{{!}}-
+{{#if:{{{p13|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p13|}}}|[[File:{{{flag_p13}}}|20px{{#ifeq:{{{border_p13}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p13|}}}|{{{image_p13}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p13}}}]]}}
+{{!}}-
+{{#if:{{{p14|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p14|}}}|[[File:{{{flag_p14}}}|20px{{#ifeq:{{{border_p14}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p14|}}}|{{{image_p14}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p14}}}]]}}
+{{!}}-
+{{#if:{{{p15|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_p15|}}}|[[File:{{{flag_p15}}}|20px{{#ifeq:{{{border_p15}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_p15|}}}|{{{image_p15}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:left;"{{!}} [[{{{p15}}}]]}}
+{{!}}}
+}}
+{{!}} valign="top" align="center" style="border:0;"{{!}} {{#if:{{{s1|}}} | {{{!}} width=92% style="background:transparent; text-align:center; margin:0 auto; border:0;"
+{{!}}-
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s1}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s1|}}}|[[File:{{{flag_s1}}}|20px{{#ifeq:{{{border_s1}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s1|}}}|{{{image_s1}}}|[[File:Blank.png|22px|link=|alt=]]}}}}
+{{!}}-
+{{#if:{{{s2|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s2}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s2|}}}|[[File:{{{flag_s2}}}|20px{{#ifeq:{{{border_s2}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s2|}}}|{{{image_s2}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s3|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s3}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s3|}}}|[[File:{{{flag_s3}}}|20px{{#ifeq:{{{border_s3}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s3|}}}|{{{image_s3}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s4|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s4}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s4|}}}|[[File:{{{flag_s4}}}|20px{{#ifeq:{{{border_s4}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s4|}}}|{{{image_s4}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s5|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s5}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s5|}}}|[[File:{{{flag_s5}}}|20px{{#ifeq:{{{border_s5}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s5|}}}|{{{image_s5}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s6|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s6}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s6|}}}|[[File:{{{flag_s6}}}|20px{{#ifeq:{{{border_s6}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s6|}}}|{{{image_s6}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s7|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s7}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s7|}}}|[[File:{{{flag_s7}}}|20px{{#ifeq:{{{border_s7}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s7|}}}|{{{image_s7}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s8|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s8}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s8|}}}|[[File:{{{flag_s8}}}|20px{{#ifeq:{{{border_s8}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s8|}}}|{{{image_s8}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s9|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s9}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s9|}}}|[[File:{{{flag_s9}}}|20px{{#ifeq:{{{border_s9}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s9|}}}|{{{image_s9}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s10|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s10}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s10|}}}|[[File:{{{flag_s10}}}|20px{{#ifeq:{{{border_s10}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s10|}}}|{{{image_s10}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s11|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s11}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s11|}}}|[[File:{{{flag_s11}}}|20px{{#ifeq:{{{border_s11}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s11|}}}|{{{image_s11}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s12|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s12}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s12|}}}|[[File:{{{flag_s12}}}|20px{{#ifeq:{{{border_s12}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s12|}}}|{{{image_s12}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s13|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s13}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s13|}}}|[[File:{{{flag_s13}}}|20px{{#ifeq:{{{border_s13}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s13|}}}|{{{image_s13}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s14|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s14}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s14|}}}|[[File:{{{flag_s14}}}|20px{{#ifeq:{{{border_s14}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s14|}}}|{{{image_s14}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}-
+{{#if:{{{s15|}}} |
+{{!}}style="border:0; padding:0; vertical-align:middle; text-align:right;"{{!}} [[{{{s15}}}]]
+{{!}}style="border:0; padding:0; vertical-align:middle;"{{!}} {{#if:{{{flag_s15|}}}|[[File:{{{flag_s15}}}|20px{{#ifeq:{{{border_s15}}}|no||{{!}}border}}|link=|alt=]]|{{#if:{{{image_s15|}}}|{{{image_s15}}}|[[File:Blank.png|22px|link=|alt=]]}}}}}}
+{{!}}}
+}}
+{{!}}}
+}}
+|-
+{{#if: {{{today|}}} |
+<!----- Present Divisions ----->
+{{!}} '''Today part of'''
+{{!!}} {{{today}}}
+}}
+|-
+<!----- Footnotes ----->
+{{#if: {{{footnotes|}}} |
+{{!}} colspan="2" {{!}} <small>{{{footnotes}}}</small> }}
+|-
+<!----- Footnotes ----->
+{{#if: {{{footnotes2|}}} |
+{{!}} colspan="2" {{!}} <small>{{{footnotes2}}}</small> }}
+|-
+{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{ns0|{{Infobox former country/autocat|continent={{{continent|}}}|empire={{{empire|}}}|region={{{region|}}}|status={{{status|}}}|year_start={{{year_start|}}}|common_name={{{common_name|}}}|year_end={{{year_end|}}}}}}}}}
+|}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
