@@ -1,0 +1,47 @@
+<noinclude><!--
+
+// Hubi baaramitirka {{{1}}}
+
+--></noinclude>{{{{{|safesubst:}}}#if:{{{1|<noinclude>Tusaale</noinclude>}}}|<noinclude><!--then:
+
+// Ashqalaadda DIV
+
+--></noinclude>{{{{{|safesubst:}}}umbox
+| image = Nuvola apps edu languages.svg
+| imagelink = <noinclude><!--
+// Horgeli bogga hadal Adeegsade:, haddii aan magac la haynin
+-->    </noinclude>{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}{{{1<noinclude>|Tusaale</noinclude>}}}<noinclude><!--
+// Xiriiriye qaybeed
+-->    </noinclude>{{{{{|safesubst:}}}#if:{{{2|}}}|&#35;{{{2}}}}}|Waxa kuu taalla farriin cusub
+| text      = '''Nabaaddiino, {{{{{|safesubst:}}}#titleparts:{{{{{|safesubst:}}}PAGENAME}}|1}}. Waxa kuu taalla farriin cusub <noinclude><!--
+// Horgeli bogga hadal Adeegsade:, haddii aan magac la haynin
+--> </noinclude> [[{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}<noinclude><!--
+// Xiriiriye bog
+-->  </noinclude>{{{1<noinclude>|Tusaale</noinclude>}}}<noinclude><!--
+// Xiriiriye qaybeed
+-->  </noinclude>{{{{{|safesubst:}}}#if:{{{2|}}}|&#35;{{{2}}}}}<noinclude><!--
+// Qoraal xiriiriye
+-->  </noinclude>|{{{{{|safesubst:}}}#if:<noinclude><!--
+// Qiimee "NOT USERSPACE" haddii goofmagacu 0 iyo 3 toonna ahayn
+-->    </noinclude>{{{{{|safesubst:}}}#switch:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}<noinclude><!--
+-->      </noinclude>|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}=<noinclude><!--silent--><!--
+-->      </noinclude>|NOT USERSPACE}}<noinclude><!--
+// Qiimee "IS SUBPAGE" haddii boggu bog-hoosaad yahay
+-->   </noinclude>{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}#titleparts:{{{1<noinclude>|Tusaale</noinclude>}}}|1|2}}|<noinclude><!--
+--><!--empty--></noinclude>|<noinclude><!--silent--></noinclude>|IS SUBPAGE}}<noinclude><!--
+// Muuji magaca bogga oo buuxa haddii NOT USERSPACE iyo IS SUBPAGE toonna aysan run ahayn
+-->    </noinclude>|{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}<noinclude><!--
+-->   </noinclude>{{{1<noinclude>|Tusaale</noinclude>}}}<noinclude><!--
+// Muuji PAGENAME ee {{{1}}} (tus. magaca adeegsadaha) haddii kale
+-->    </noinclude>|Bogga hadalka ee {{{{{|safesubst:}}}PAGENAME:{{{1<noinclude>|Tusaale</noinclude>}}}}}}}]].'''<br /><noinclude><!--
+
+// Ogaysiin, shaabbad-ammin
+
+--></noinclude><span class="plainlinks" style="font-size: 88%; font-weight: normal;">{{{{{|safesubst:}}}#if:{{{ts|}}}|Farriinta waa lagu daray {{{ts}}}.}} Waxaad awooddaa [{{fullurl:{{FULLPAGENAME}}|action=edit}} bixisid ogaysiintaan] goortii aad doontid{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}issubst}}|yes
+ ||&nbsp;adigoo tirtiraya moodalka <nowiki>{{Talkback}} ama {{Tb}}</nowiki>}}.</span><noinclude><!--
+--></noinclude>}}<noinclude><!--
+
+// Muuji farriin gef ah haddii aan baaramitir la keensan
+
+--></noinclude>|<noinclude><!--else:
+--></noinclude><span class="error">GEF: Fadlan geli baaramitirka ''magac-adeegsadaha'' kolka aad adeegsan moodalka {{Tlx|Talkback}} - sidaas darteed {{Tlx|Talkback|<username>}}.</span>}}<noinclude>{{Documentation}}<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUB-PAGE, THANKS --></noinclude>
