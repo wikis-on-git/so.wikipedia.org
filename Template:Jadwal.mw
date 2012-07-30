@@ -1,0 +1,20 @@
+<noinclude>{{Protetta}}</noinclude><includeonly>class="prettytable" border="1" cellpadding="3" cellspacing="0" style="{{#if:{{{font-size|}}}|font-size:{{{font-size}}};}} {{#if:{{{width|}}}|width:{{{width}}};}} {{#if:{{{align|}}}|clear:{{{align}}}; float:{{{align}}};}} margin:{{#switch:{{{align}}}
+  |right=0 0 .5em .5em
+  |left=0 .5em .5em 0
+  |center=auto
+  |#default=0 .5em .5em 0}}; margin-top:.5em; margin-bottom:.5em; border:1px solid #CCC; border-collapse:collapse; {{#if:{{{text-align|}}}|text-align:{{{text-align}}};}} font-family: Arial, Frutiger 45 Light, Helvetica, Arial Unicode MS, Lucida Sans Unicode, Lucida Grande, TITUS Cyberit Basic, Code2000, MV Boli, @MS Mincho;"</includeonly><noinclude>
+
+{{template complesso}}
+{{man}}
+
+[[categoria:template per le tabelle|Pretty]]
+
+[[en:Template:Prettytable]]
+[[es:Plantilla:Fichabonita]]
+[[fi:Malline:Prettytable]]
+[[fr:Modèle:Prettyinfobox]]
+[[nl:Sjabloon:Prettytable]]
+[[no:Mal:Prettytable]]
+[[pt:Predefinição:Prettytable]]
+[[ss:Template:Fichabonita]]
+</noinclude>
