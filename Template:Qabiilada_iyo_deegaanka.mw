@@ -14,13 +14,13 @@
 {{!}}-
 }}
 {{#if:{{{population|}}}{{{pop|}}}{{{poptime|}}}|
-! style="background-color: #b0c4de" {{!}} Total population
+! style="background-color: #b0c4de" {{!}} Tirada dadka
 {{!}}-
 {{!}} {{{population|}}}{{{pop|}}}{{{poptime|}}} {{#if: {{{genealogy|}}}|{{{genealogy|}}} (including those of [[Genealogy|ancestral descent]])}}
 {{!}}-
 }}
 {{#if: {{{popplace|}}}{{{regions|}}}{{{region1|}}}|
-! style="background-color: #b0c4de" {{!}} Regions with significant populations
+! style="background-color: #b0c4de" {{!}} Meelaha ay ku badanyihiin
 {{!}}-
 }} 
 {{#if: {{{popplace|}}}{{{regions|}}}|
@@ -202,24 +202,24 @@
 {{{langs|}}}{{{luqadaha|}}}
 {{!}}-
 }}
-{{#if: {{{rels|}}}{{{religions|}}}|
-! style="background-color: #b0c4de" {{!}} Religion
+{{#if: {{{rels|}}}{{{diinta|}}}|
+! style="background-color: #b0c4de" {{!}} diinta
 {{!}}-
 {{!}}
-{{{rels|}}}{{{religions|}}}
+{{{rels|}}}{{{diinta|}}}
 {{!}}-
 }}
-{{#if: {{{related|}}}{{{related-c|}}}|
-! style="background-color: #b0c4de" {{!}} Related ethnic groups
+{{#if: {{{la dhashay|}}}{{{related-c|}}}|
+! style="background-color: #b0c4de" {{!}} farac la leh qabiila kale
 {{!}}-
 {{!}}
-{{{related-c|}}}{{#if: {{{related|}}}|{{{related}}}[[Category: "Related ethnic groups" needing confirmation]]}}
+{{{related-c|}}}{{#if: {{{la dhshay|}}}|{{{la dhashay}}}[[Category: "farac la leh qabiila kale" needing confirmation]]}}
 {{!}}-
 }}
-{{#if: {{{footnotes|}}}|
-{{!}} Footnotes
+{{#if: {{{faallo|}}}|
+{{!}} faallo
 {{!}}-
-{{!}} style="line-height: 11pt; text-align: left; font-size: 80%" {{!}} {{{footnotes}}}
+{{!}} style="line-height: 11pt; text-align: left; font-size: 80%" {{!}} {{{faallo}}}
 {{!}}-
 }}
 |}<noinclude>{{documentation}}<!-- place category and language links on the /doc page --></noinclude>
