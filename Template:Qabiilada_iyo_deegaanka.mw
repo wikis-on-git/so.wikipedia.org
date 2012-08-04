@@ -1,38 +1,225 @@
-{{Qabiilada iyo deegaanka
-|group      = 
-|population = 
-|region1    = 
-|pop1       = 
-|ref1       = 
-|region2    = 
-|pop2       = 
-|ref2       = 
-|region3    = 
-|pop3       = 
-|ref3       = 
-|region4    = 
-|pop4       = 
-|ref4       = 
-|region5    = 
-|pop5       = 
-|ref5       = 
-|region6    = 
-|pop6       = 
-|ref6       = 
-|region7    = 
-|pop7       = 
-|ref7       = 
-|region8    = 
-|pop8       = 
-|ref8       = 
-|region9    = 
-|pop9       = 
-|ref9       = 
-|region10   = 
-|pop10      = 
-|ref10      = 
-|languages  = 
-|religions  = 
-|related    = 
-|footnotes  = 
+{| class="infobox" cellspacing="5" style="width: 22em; text-align: center; font-size: 88%; line-height: 1.5em"
+|+ style="font-size: larger; font-weight: bold" | {{{group|<includeonly>{{PAGENAME}}</includeonly>}}}
+|-
+{{#if:{{{flag|}}}|
+{{!}} {{{flag|}}}
+{{!}}-
+{{!}} {{{flag_caption|}}}
+{{!}}-
 }}
+{{#if: {{{image|}}}|
+{{!}} {{{image|}}}
+{{!}}-
+{{!}} {{{image_caption|{{{caption|}}} }}}
+{{!}}-
+}}
+{{#if:{{{population|}}}{{{pop|}}}{{{poptime|}}}|
+! style="background-color: #b0c4de" {{!}} Total population
+{{!}}-
+{{!}} {{{population|}}}{{{pop|}}}{{{poptime|}}} {{#if: {{{genealogy|}}}|{{{genealogy|}}} (including those of [[Genealogy|ancestral descent]])}}
+{{!}}-
+}}
+{{#if: {{{popplace|}}}{{{regions|}}}{{{region1|}}}|
+! style="background-color: #b0c4de" {{!}} Regions with significant populations
+{{!}}-
+}} 
+{{#if: {{{popplace|}}}{{{regions|}}}|
+{{!}} {{{popplace|}}}{{{regions|}}}
+{{!}}-
+}}
+{{#if: {{{region1|}}}|
+{{!}} <!-- table begins -->
+{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
+{{#if: {{{tablehdr|}}}|
+{{!}} colspan=3 style="text-align: center; font-size: 105%" {{!}} {{{tablehdr}}}
+{{!}}-
+}}
+{{!}} {{{region1|}}}
+{{!}} style="text-align: right" {{!}} {{{pop1|}}}
+{{!}} {{{ref1|}}}
+{{!}}-
+{{#if: {{{region2|}}}|
+{{!}} {{{region2|}}}
+{{!}} style="text-align: right" {{!}} {{{pop2|}}}
+{{!}} {{{ref2|}}}
+{{!}}- }}
+{{#if: {{{region3|}}}|
+{{!}} {{{region3|}}}
+{{!}} style="text-align: right" {{!}} {{{pop3|}}}
+{{!}} {{{ref3|}}}
+{{!}}- }}
+{{#if: {{{region4|}}}|
+{{!}} {{{region4|}}}
+{{!}} style="text-align: right" {{!}} {{{pop4|}}}
+{{!}} {{{ref4|}}}
+{{!}}- }}
+{{#if: {{{region5|}}}|
+{{!}} {{{region5|}}}
+{{!}} style="text-align: right" {{!}} {{{pop5|}}}
+{{!}} {{{ref5|}}}
+{{!}}- }}
+{{#if: {{{region6|}}}|
+{{!}} {{{region6|}}}
+{{!}} style="text-align: right" {{!}} {{{pop6|}}}
+{{!}} {{{ref6|}}}
+{{!}}- }}
+{{#if: {{{region7|}}}|
+{{!}} {{{region7|}}}
+{{!}} style="text-align: right" {{!}} {{{pop7|}}}
+{{!}} {{{ref7|}}}
+{{!}}- }}
+{{#if: {{{region8|}}}|
+{{!}} {{{region8|}}}
+{{!}} style="text-align: right" {{!}} {{{pop8|}}}
+{{!}} {{{ref8|}}}
+{{!}}- }}
+{{#if: {{{region9|}}}|
+{{!}} {{{region9|}}}
+{{!}} style="text-align: right" {{!}} {{{pop9|}}}
+{{!}} {{{ref9|}}}
+{{!}}- }}
+{{#if: {{{region10|}}}|
+{{!}} {{{region10|}}}
+{{!}} style="text-align: right" {{!}} {{{pop10|}}}
+{{!}} {{{ref10|}}}
+{{!}}- }}
+{{#if: {{{region11|}}}|
+{{!}} {{{region11|}}}
+{{!}} style="text-align: right" {{!}} {{{pop11|}}}
+{{!}} {{{ref11|}}}
+{{!}}- }}
+{{#if: {{{region12|}}}|
+{{!}} {{{region12|}}}
+{{!}} style="text-align: right" {{!}} {{{pop12|}}}
+{{!}} {{{ref12|}}}
+{{!}}- }}
+{{#if: {{{region13|}}}|
+{{!}} {{{region13|}}}
+{{!}} style="text-align: right" {{!}} {{{pop13|}}}
+{{!}} {{{ref13|}}}
+{{!}}- }}
+{{#if: {{{region14|}}}|
+{{!}} {{{region14|}}}
+{{!}} style="text-align: right" {{!}} {{{pop14|}}}
+{{!}} {{{ref14|}}}
+{{!}}- }}
+{{#if: {{{region15|}}}|
+{{!}} {{{region15|}}}
+{{!}} style="text-align: right" {{!}} {{{pop15|}}}
+{{!}} {{{ref15|}}}
+{{!}}- }}
+{{#if: {{{region16|}}}|
+{{!}} {{{region16|}}}
+{{!}} style="text-align: right" {{!}} {{{pop16|}}}
+{{!}} {{{ref16|}}}
+{{!}}- }}
+{{#if: {{{region17|}}}|
+{{!}} {{{region17|}}}
+{{!}} style="text-align: right" {{!}} {{{pop17|}}}
+{{!}} {{{ref17|}}}
+{{!}}- }}
+{{#if: {{{region18|}}}|
+{{!}} {{{region18|}}}
+{{!}} style="text-align: right" {{!}} {{{pop18|}}}
+{{!}} {{{ref18|}}}
+{{!}}- }}
+{{#if: {{{region19|}}}|
+{{!}} {{{region19|}}}
+{{!}} style="text-align: right" {{!}} {{{pop19|}}}
+{{!}} {{{ref19|}}}
+{{!}}- }}
+{{#if: {{{region20|}}}|
+{{!}} {{{region20|}}}
+{{!}} style="text-align: right" {{!}} {{{pop20|}}}
+{{!}} {{{ref20|}}}
+{{!}}- }}
+{{#if: {{{region21|}}}|
+{{!}} {{{region21|}}}
+{{!}} style="text-align: right" {{!}} {{{pop21|}}}
+{{!}} {{{ref21|}}}
+{{!}}- }}
+{{#if: {{{region22|}}}|
+{{!}} {{{region22|}}}
+{{!}} style="text-align: right" {{!}} {{{pop22|}}}
+{{!}} {{{ref22|}}}
+{{!}}- }}
+{{#if: {{{region23|}}}|
+{{!}} {{{region23|}}}
+{{!}} style="text-align: right" {{!}} {{{pop23|}}}
+{{!}} {{{ref23|}}}
+{{!}}- }}
+{{#if: {{{region24|}}}|
+{{!}} {{{region24|}}}
+{{!}} style="text-align: right" {{!}} {{{pop24|}}}
+{{!}} {{{ref24|}}}
+{{!}}- }}
+{{#if: {{{region25|}}}|
+{{!}} {{{region25|}}}
+{{!}} style="text-align: right" {{!}} {{{pop25|}}}
+{{!}} {{{ref25|}}}
+{{!}}- }}
+{{#if: {{{region26|}}}|
+{{!}} {{{region26|}}}
+{{!}} style="text-align: right" {{!}} {{{pop26|}}}
+{{!}} {{{ref26|}}}
+{{!}}- }}
+{{#if: {{{region27|}}}|
+{{!}} {{{region27|}}}
+{{!}} style="text-align: right" {{!}} {{{pop27|}}}
+{{!}} {{{ref27|}}}
+{{!}}- }}
+{{#if: {{{region28|}}}|
+{{!}} {{{region28|}}}
+{{!}} style="text-align: right" {{!}} {{{pop28|}}}
+{{!}} {{{ref28|}}}
+{{!}}- }}
+{{#if: {{{region29|}}}|
+{{!}} {{{region29|}}}
+{{!}} style="text-align: right" {{!}} {{{pop29|}}}
+{{!}} {{{ref29|}}}
+{{!}}- }}
+{{#if: {{{region30|}}}|
+{{!}} {{{region30|}}}
+{{!}} style="text-align: right" {{!}} {{{pop30|}}}
+{{!}} {{{ref30|}}}
+{{!}}- }}
+{{#if: {{{region31|}}}|
+{{!}} {{{region31|}}}
+{{!}} style="text-align: right" {{!}} {{{pop31|}}}
+{{!}} {{{ref31|}}}
+{{!}}- }}
+{{#if: {{{region32|}}}|
+{{!}} {{{region32|}}}
+{{!}} style="text-align: right" {{!}} {{{pop32|}}}
+{{!}} {{{ref32|}}}
+{{!}}- }}
+{{!}}}
+{{!}}- <!--end #if: region1 -->}}
+{{#if: {{{langs|}}}{{{languages|}}}|
+! style="background-color: #b0c4de" {{!}} Languages
+{{!}}-
+{{!}}
+{{{langs|}}}{{{languages|}}}
+{{!}}-
+}}
+{{#if: {{{rels|}}}{{{religions|}}}|
+! style="background-color: #b0c4de" {{!}} Religion
+{{!}}-
+{{!}}
+{{{rels|}}}{{{religions|}}}
+{{!}}-
+}}
+{{#if: {{{related|}}}{{{related-c|}}}|
+! style="background-color: #b0c4de" {{!}} Related ethnic groups
+{{!}}-
+{{!}}
+{{{related-c|}}}{{#if: {{{related|}}}|{{{related}}}[[Category: "Related ethnic groups" needing confirmation]]}}
+{{!}}-
+}}
+{{#if: {{{footnotes|}}}|
+{{!}} Footnotes
+{{!}}-
+{{!}} style="line-height: 11pt; text-align: left; font-size: 80%" {{!}} {{{footnotes}}}
+{{!}}-
+}}
+|}<noinclude>{{documentation}}<!-- place category and language links on the /doc page --></noinclude>
