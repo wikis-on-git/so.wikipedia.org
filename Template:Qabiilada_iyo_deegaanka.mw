@@ -195,11 +195,11 @@
 {{!}}- }}
 {{!}}}
 {{!}}- <!--end #if: region1 -->}}
-{{#if: {{{langs|}}}{{{languages|}}}|
-! style="background-color: #b0c4de" {{!}} Languages
+{{#if: {{{langs|}}}{{{luqadaha|}}}|
+! style="background-color: #b0c4de" {{!}} luqadaha
 {{!}}-
 {{!}}
-{{{langs|}}}{{{languages|}}}
+{{{langs|}}}{{{luqadaha|}}}
 {{!}}-
 }}
 {{#if: {{{rels|}}}{{{religions|}}}|
