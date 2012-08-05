@@ -1,0 +1,47 @@
+<includeonly>{{pp-meta
+|type={{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+   |semi
+   |autoconfirmed=semi
+   |administrator
+   |full
+   |sysop=full
+   |#default=full<!--fallback value-->}}
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|demolevel={{{demolevel|undefined}}}
+|expiry={{{expiry|}}}
+|dispute={{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}<!--having this switch may be unnecessary, but as it was "yes" here and "no" on pp-semi-vandalism, the template is changed less this way.-->
+   |semi
+   |autoconfirmed=no
+   |administrator
+   |full
+   |sysop=yes<!--to enable disclaimer against version endorsement-->
+   |#default=yes<!--fallback value-->}}
+|reason=&#32;due to [[Wikipedia:Vandalism|vandalism]]<!--was "to deal with vandalism" before, pp-semi-vandalism used "due to vandalism", so it's been changed to "to prevent vandalism", which is probably more descriptive. This is, naturally, open to discussion and editing.-->
+|icon-reason=due to vandalism
+|categories={{{categories|
+{{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+ |semi
+ |autoconfirmed={{#switch: {{{demospace|{{NAMESPACE}}}}}
+   | {{ns:2}}
+   | {{ns:3}} = [[Category:Wikipedia semi-protected user and user talk pages|{{PAGENAME}}]]
+   | {{ns:6}} = [[Category:Semi-protected images|{{PAGENAME}}]]
+   | {{ns:4}}
+   | {{ns:12}} = [[Category:Semi-protected project pages|{{PAGENAME}}]]
+   | {{ns:100}} = [[Category:Semi-protected portals|{{PAGENAME}}]]
+   | {{ns:10}} = [[Category:Wikipedia semi-protected templates|{{PAGENAME}}]]
+   | #default = {{talk other|[[Category:Semi-protected talk pages]]|[[Category:Wikipedia pages semi-protected against vandalism|{{PAGENAME}}]]}}}}
+ |administrator
+ |full
+ |sysop={{#switch: {{{demospace|{{NAMESPACE}}}}}
+   | {{ns:2}}
+   | {{ns:3}} = [[Category:Wikipedia protected user and user talk pages|{{PAGENAME}}]]
+   | {{ns:6}} = [[Category:Protected images]]
+   | {{ns:4}}
+   | {{ns:12}} = [[Category:Protected project pages|{{PAGENAME}}]]
+   | {{ns:10}} = [[Category:Wikipedia protected templates|{{PAGENAME}}]]
+   | #default = {{talk other|[[Category:Protected talk pages]]|[[Category:Wikipedia pages protected against vandalism|{{PAGENAME}}]]}}}}}}
+{{#if:{{{expiry|}}}|{{#ifexpr:{{#time:U|today}}>{{#time:U|{{{expiry}}}}}|[[Category:Wikipedia pages with incorrect protection templates|{{PAGENAME}}]]}}|[[Category:Wikipedia protected pages without expiry|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-vandalism|demospace=main|categories=no}}
+{{Documentation}}
+</noinclude>
