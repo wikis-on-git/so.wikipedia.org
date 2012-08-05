@@ -29,13 +29,13 @@
 }}
 {{#if: {{{region1|}}}|
 {{!}} <!-- table begins -->
-{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: right; font-size: 95%;"
+{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
 {{#if: {{{tablehdr|}}}|
 {{!}} colspan=3 style="text-align: center; font-size: 105%" {{!}} {{{tablehdr}}}
 {{!}}-
 }}
 {{!}} {{{region1|}}}
-{{!}} style="text-align: right" {{!}} {{{pop1|}}}
+{{!}} style="text-align: left" {{!}} {{{pop1|}}}
 {{!}} {{{ref1|}}}
 {{!}}-
 {{#if: {{{region2|}}}|
