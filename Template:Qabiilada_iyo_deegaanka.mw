@@ -29,7 +29,7 @@
 }}
 {{#if: {{{region1|}}}|
 {{!}} <!-- table begins -->
-{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
+{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: right; font-size: 95%;"
 {{#if: {{{tablehdr|}}}|
 {{!}} colspan=3 style="text-align: center; font-size: 105%" {{!}} {{{tablehdr}}}
 {{!}}-
@@ -219,7 +219,7 @@
 {{#if: {{{faallo|}}}|
 {{!}} faallo
 {{!}}-
-{{!}} style="line-height: 11pt; text-align: left; font-size: 80%" {{!}} {{{faallo}}}
+{{!}} style="line-height: 11pt; text-align: right; font-size: 80%" {{!}} {{{faallo}}}
 {{!}}-
 }}
 |}<noinclude>{{documentation}}<!-- place category and language links on the /doc page --></noinclude>
