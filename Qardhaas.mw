@@ -1,0 +1,102 @@
+Qardhaas Waa mid kamid ah joometeriya afar xagal leh, afartiisa dhinacna ay isla egyihiiin, waxa uuna u egyahay  laba [[saddax-xagal]] oo kala jeeda oo hal sal ka dhaxeeya
+{{Infobox Polygon
+| name       = Qardhaas
+| image      = Rhombus.svg
+| caption    = Laba Qardhaas
+| nuuc       = Afar xagal
+| edges      = 4
+| symmetry   = [[dihedral symmetry|D<sub>2</sub>]] (*2)
+| Bed      = <math>\tfrac{pq}{2}</math>
+| dual       = [[Laydi]]
+| properties = Qaabtuureed leh
+}}
+
+== Bedka ==
+[[File:Rhombus1.svg|right|280px]]
+Bedka ama Badka Qardhaas waxaa loo xisaabi karaa afar qaab:
+
+<ol>
+<li> Barbaroolayaasha oo dhan, Waxa ay ka samaysmaan Salka <math>a</math>, Waxa ay la jaan qaadeeysaa dhinacyada iyo jooga <math>h</math>: 
+:<math> A = a \cdot h,</math>
+<li> Adigoo dhexroorka dheer ku dhifta <math>d_1</math> Dhexroorka gaaban <math>d_2</math> Oo aad markaas uqaybiso 
+:<math>\frac{\overline{AC} \cdot \overline{SB}}{2} = \frac{\overline{AC} \cdot \overline{BD}/2}{2} = \frac{\overline{AC} \cdot \overline{BD}}{4}</math>
+Adigoo laba laaba si aan u helno
+:<math> A = {{d_1 \cdot d_2} \over {2}} = \frac{\overline{AC} \cdot \overline{BD}}{2},</math>
+<li> Adigoo ku dhufanaya goobada <math>p</math> Gacanka <math>r</math> Wareegeeda
+:<math>4 \cdot \frac{a \cdot r}{2} = 2 \cdot a \cdot r = p \cdot r</math>.
+:<math> A = p \cdot r,</math>
+<li> Ugudamayntii adigoo uxisaaba sida afar xafal <math>a</math> Xaglaha gudaha adigoo isku dhufta
+:<math>{a^2 \cdot \sin\alpha} = a \cdot (a \cdot \sin\alpha) = a \cdot h</math>
+:<math> A = {a^2 \cdot \sin\alpha} = {a^2 \cdot \sin\beta}.</math>
+
+[[Category:Xisaab]]
+
+[[ar:معين (هندسة رياضية)]]
+[[as:ৰম্বাছ]]
+[[ast:Rombu]]
+[[az:Romb]]
+[[be:Ромб]]
+[[be-x-old:Ромб]]
+[[bg:Ромб]]
+[[bs:Romb]]
+[[ca:Rombe]]
+[[co:Rombu]]
+[[cs:Kosočtverec]]
+[[da:Rombe]]
+[[de:Raute]]
+[[dsb:Ruta]]
+[[el:Ρόμβος]]
+[[en:Rhombus]]
+[[eo:Rombo]]
+[[es:Rombo]]
+[[et:Romb]]
+[[eu:Erronbo]]
+[[fa:لوزی]]
+[[fi:Neljäkäs]]
+[[fr:Losange]]
+[[gl:Rombo]]
+[[he:מעוין]]
+[[hr:Romb]]
+[[hsb:Kósnik]]
+[[ht:Lozanj]]
+[[hu:Rombusz]]
+[[hy:Շեղանկյուն]]
+[[id:Belah ketupat]]
+[[is:Tígull]]
+[[ja:菱形]]
+[[ka:რომბი]]
+[[kk:Ромб]]
+[[km:ចតុកោណស្មើ]]
+[[ko:마름모]]
+[[li:Roet]]
+[[lmo:Rómbo]]
+[[lt:Rombas]]
+[[lv:Rombs]]
+[[mhr:Ромб]]
+[[mk:Ромб]]
+[[mn:Ромб]]
+[[nds:Ruut]]
+[[nl:Ruit (meetkunde)]]
+[[nn:Rombe]]
+[[no:Rombe]]
+[[oc:Lausange]]
+[[pl:Romb]]
+[[pms:Romb]]
+[[pt:Losango]]
+[[qu:Puytu]]
+[[ro:Romb]]
+[[ru:Ромб]]
+[[scn:Rummu]]
+[[simple:Rhombus]]
+[[sk:Kosoštvorec]]
+[[sl:Romb]]
+[[sn:Gonyoina tsazamativi]]
+[[sr:Ромб]]
+[[su:Beulahan kupat]]
+[[sv:Romb]]
+[[tl:Rombus]]
+[[tr:Eşkenar dörtgen]]
+[[uk:Ромб]]
+[[vi:Hình thoi]]
+[[vls:Rute]]
+[[zh:菱形]]
