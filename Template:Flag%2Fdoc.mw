@@ -1,0 +1,89 @@
+{{Documentation subpage}}<includeonly>{{pp-template|small=yes}}</includeonly>
+
+{{high-risk|290,000+}}
+
+This template is used to display a small flag icon next to a wikilinked country name.  It is related to the {{tl|flagicon}} and {{tl|flagcountry}} templates, but offers more options in terms of the text string displayed.
+
+See [[Wikipedia:WikiProject Flag Template]] for the main documentation/discussion page for the flag templates system.
+
+==Usage==
+'''<nowiki>{{flag|</nowiki>'''''country identifier'''''&#124;'''''optional variant'''''&#124;'''name=''alternative text string'''''<nowiki>}}</nowiki>'''
+
+*''country identifier'' is the common name of the country (e.g. "United States"), a common alias (e.g. "US"), or a standard country code such as those listed at [[ISO 3166-1 alpha-3]]
+*''variant'' is an optional second parameter that can be used to display a flag variation, such as a historical flag.  The list of variants for each country is documented on the appropriate template page, such as [[:Template:Country data Germany]]
+*''alternative text string'', specified by the '''name''' parameter, is used to display alternative text
+
+See <span class="plainlinks">[http://en.wikipedia.org/w/index.php?title=Special%3APrefixindex&from=Country+data&namespace=10 the prefix index]</span> for the templates latently called by this one.
+
+==Examples==
+{| class="wikitable"
+! Wiki markup !! Displays !! Notes
+|-
+| <code><nowiki>{{flag|United States}}</nowiki></code> || {{flag|United States}} ||rowspan=2| Note that both instances link to [[United States]].
+|-
+| <code><nowiki>{{flag|USA}}</nowiki></code> || {{flag|USA}}
+|-
+| <code><nowiki>{{flag|Germany}}</nowiki></code> || {{flag|Germany}} ||rowspan=3| All three instances link to [[Germany]].<br>In addition to the ISO country codes, those used by [[FIFA]], [[IOC]], etc. are also supported.
+|-
+| <code><nowiki>{{flag|DEU}}</nowiki></code> || {{flag|DEU}}
+|-
+| <code><nowiki>{{flag|GER}}</nowiki></code> || {{flag|GER}}
+|-
+| <code><nowiki>{{flag|Germany|empire}}</nowiki></code> || {{flag|Germany|empire}} ||rowspan=2| Flag variations can be used with either country names or country codes.
+|-
+| <code><nowiki>{{flag|DEU|empire}}</nowiki></code> || {{flag|DEU|empire}}
+|-
+| <code><nowiki>{{flag|CAN|name=Canadian}}</nowiki></code> || {{flag|CAN|name=Canadian}} || The name parameter can be used to change the display string but keep the link to the correct article.
+|-
+| <code><nowiki>{{flag|Canada|1957|name=Canadian}}</nowiki></code> || {{flag|Canada|1957|name=Canadian}} || The name parameter can also be used when flag variants are specified.
+|-
+| <code><nowiki>{{flag|Texas}}</nowiki></code> || {{flag|Texas}} ||rowspan=2| Flags are also available for several sub-national entities such as US states and Canadian provinces.<br>A complete list can be found at [[:Category:Country data templates]].
+|-
+| <code><nowiki>{{flag|British Columbia|name=BC}}</nowiki></code> || {{flag|British Columbia|name=BC}}
+|-
+| <code><nowiki>{{flag|Switzerland|size=15px}}</nowiki></code> || {{flag|Switzerland|size=15px}} || rowspan=2| The size parameter can be used to control the image dimensions.<br/>"{{flag|Switzerland}}" is the default size.
+|-
+| <code><nowiki>{{flag|Switzerland|size=28px}}</nowiki></code> || {{flag|Switzerland|size=28px}}
+|}
+===See also===
+*[[Template:Coat of arms]]
+*[[Template:Flagcountry]]—always expands the link text to the full country name.
+*[[Template:Flagicon]]—displays the flag only.
+
+<noinclude>
+[[da:Skabelon:Flag/doc]]
+[[is:Snið:Flag/doc]]
+[[ko:틀:국기/설명문서]]
+</noinclude>
+<includeonly>
+[[Category:Flag template system]]
+
+[[be-x-old:Шаблён:Сьцяг]]
+[[ar:قالب:علم]]
+[[ast:Plantía:Bandera2]]
+[[bn:টেমপ্লেট:Flag]]
+[[de:Wikipedia:Ländervorlagen mit Flagge]]
+[[da:Skabelon:Flag]]
+[[el:Πρότυπο:Flag]]
+[[es:Plantilla:Bandera2]]
+[[hy:Կաղապար:Դրոշ]]
+[[he:תבנית:דגל]]
+[[fa:الگو:پرچم]]
+[[fr:Modèle:Pays]]
+[[id:Templat:Flag]]
+[[ka:თარგი:დროშა]]
+[[ko:틀:국기]]
+[[ku:Şablon:Al2]]
+[[la:Formula:Vexillum]]
+[[lo:ແມ່ແບບ:ທຸງຊາດ]]
+[[hu:Sablon:Zászló2]]
+[[ja:Template:Flag]]
+[[pl:szablon:Flaga]]
+[[pt:Predefinição:Flag]]
+[[sl:Predloga:Zastava]]
+[[sv:Mall:Flagga]]
+[[tr:Şablon:Bayrak isimli]]
+[[zh:Template:Flag]]
+[[uk:Шаблон:Прапор]]
+[[zh-yue:Template:Flag]]
+</includeonly>
