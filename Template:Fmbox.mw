@@ -20,8 +20,8 @@
   }}</td>
 }}
 <td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
-{{#if:{{{imageright|}}}
-| <td class="mbox-imageright"> {{{imageright}}} </td>
+{{#if:{{{imageleft|}}}
+| <td class="mbox-imageleft"> {{{imageleft}}} </td>
 }}
 </tr>
 </table><!--
