@@ -1,0 +1,106 @@
+[[Kubad]] waa joomateri oo ay xaddido masaaxad ay dhammaan baraheedu u jiraan fogaan isl’eg bar cayiman ah oo loo yaqaan barta dhexe oo aan lahayn wax xagal ah. 
+[[File:Sphere wireframe 10deg 4r.svg|200px|right|Kubad]]
+
+[[Bed]]ka xaddidan: 
+:<math>A = 4 \pi r^2 \,</math>
+
+[[Mug]]ga:
+:<math>V = \frac{4 \pi r^3}{3}</math>
+
+'''Qaacidada'''
+{| class="wikitable"
+|----
+! colspan="2" class="hintergrundfarbe6" | Habka Kubadda
+|----
+! align="left" | [[Wareeg]] 
+| <math>U \, = \, 2 \pi r { \color{OliveGreen} \ = \frac{\mathrm dA_\mathrm{PF}}{\mathrm dr} }</math>
+|----
+! align="left" | [[Baaxad]] 
+| <math>A_O  \, = \, 4 \pi r^2  \, { \color{OliveGreen} \ = \frac{\mathrm dV}{\mathrm dr} }</math>
+|----
+! align="left" | [[Mug]]
+| <math>V \, = \, \frac{4}{3} \pi r^3 = \int_0^r A_O \mathrm dr</math> 
+|----
+! align="left" | Bedka Goobada
+| <math>A_\mathrm{PF} \, = \, \pi r^2 = \int_0^r U \mathrm dr</math>
+|----
+! align="left" | Mugga Kubadda
+| <math>V_\mathrm{KS} \, = \, \frac{h^2 \pi}{3} (3r - h)</math>
+|----
+! align="left" | Meelaha ay ka daboolantahay
+| <math>A_\mathrm{KK} \, = \, 2 r h \pi = 2 r^2 \pi \left(1-\cos\frac{\alpha}{2}\right)</math>
+|----
+! align="left" | Waqtiga ay negaato
+| <math>J \, = \, \frac{2}{5} mr^2</math>
+|}
+
+[[Category:Xisaab]]
+
+[[am:ሉል]]
+[[ar:كرة]]
+[[az:Sfera]]
+[[ba:Сфера]]
+[[be:Сфера]]
+[[bg:Сфера]]
+[[bn:গোলক]]
+[[bs:Sfera]]
+[[ca:Esfera]]
+[[cs:Sféra (matematika)]]
+[[cv:Сфера]]
+[[da:Kugle]]
+[[de:Kugel]]
+[[el:Σφαίρα]]
+[[en:Sphere]]
+[[eo:Sfero]]
+[[es:Esfera]]
+[[et:Sfäär]]
+[[eu:Esfera]]
+[[fa:کره (هندسه)]]
+[[fi:Pallo (geometria)]]
+[[fr:Sphère]]
+[[ga:Sféar]]
+[[gan:球面]]
+[[gd:Cruinne]]
+[[gl:Esfera]]
+[[he:ספירה (גאומטריה)]]
+[[hr:Sfera]]
+[[hu:Gömb]]
+[[hy:Գունդ]]
+[[ia:Sphera]]
+[[id:Bola (geometri)]]
+[[io:Sfero]]
+[[ja:球面]]
+[[ka:სფერო (მათემატიკა)]]
+[[kk:Сфера]]
+[[ko:구 (기하)]]
+[[la:Sphaera]]
+[[lt:Sfera]]
+[[lv:Sfēra]]
+[[ml:ഗോളം]]
+[[mn:Бөмбөлөг]]
+[[ms:Sfera]]
+[[nl:Bol (lichaam)]]
+[[nn:Kule]]
+[[no:Kule (geometri)]]
+[[oc:Esfèra]]
+[[pl:Sfera]]
+[[pms:Sfera]]
+[[pt:Esfera]]
+[[qu:Lunq'u]]
+[[ro:Sferă]]
+[[ru:Сфера]]
+[[scn:Sfera]]
+[[simple:Sphere]]
+[[sk:Guľa (matematika)]]
+[[sl:Sfera]]
+[[sn:Mburungwa]]
+[[sr:Сфера]]
+[[sv:Sfär]]
+[[ta:கோளம்]]
+[[th:ทรงกลม]]
+[[tr:Küre]]
+[[uk:Сфера]]
+[[vi:Mặt cầu]]
+[[zh:球面]]
+[[zh-classical:球]]
+[[zh-min-nan:Kiû-bīn]]
