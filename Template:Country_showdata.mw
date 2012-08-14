@@ -1,0 +1,129 @@
+<includeonly>__NOEDITSECTION__
+{{documentation|content=<tt>Template:{{PAGENAME}}</tt> is an internal data container not intended to be transcluded directly. It is used indirectly by templates such as <tt>[[Template:flag|flag]]</tt>, <tt>[[Template:flagicon|flagicon]]</tt>, and others.
+
+{{ombox|text=This template is within the scope of '''[[Wikipedia:WikiProject Flag Template|WikiProject Flag Template]]''', a collaborative effort to maintain flag templates on Wikipedia.  A more thorough discussion of the flag template system, including parameters not described here, can be found on the project page.}}
+
+[[File:{{{flag alias|Flag of None.svg}}}|thumb|{{#ifexist: Flag of {{{alias}}} | See also: [[Flag of {{{alias}}}]] | }}]]
+===Standard parameters===
+<table class="wikitable">
+<tr><th>Parameter name</th><th>Value</th><th>Meaning</th>
+</tr><tr>
+<td><tt>alias</tt></td>
+<td>{{#if: {{{alias|}}} | <tt>{{{alias}}}</tt> | <span style="color:red">'''undefined!'''</span> }}
+<td>Main article name ([[{{{alias}}}]])</td>
+</tr>
+{{#if: {{{shortname alias|}}} |
+<tr>
+<td><tt>shortname alias</tt></td>
+<td><tt>{{{shortname alias}}}</tt></td>
+<td>''(optional)'' Display name to be used for the wikilink, if <tt>alias</tt> is a disambiguated article name, for example</td>
+</tr>
+}}
+<tr>
+<td><tt>flag alias</tt></td>
+<td>{{#if: {{{flag alias|}}} | <tt>{{{flag alias}}}</tt> | <span style="color:red">'''undefined!'''</span> }}</td>
+<td>Image name ([[:File:{{{flag alias}}}]], shown above right)</td>
+</tr></table>
+{{#if: {{{var1|{{{flag alias-naval|}}}}}} |
+===Flag variants===
+{{#ifexist: Flag of {{{alias}}} | {{details|Flag of {{{alias}}}}} | }}
+<table class="wikitable">
+<tr><th>Label</th><th>Flag image (40px)</th><th>Image name</th></tr>
+{{#if: {{{var1|}}} | <tr><td><tt>{{{var1}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var1}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var1}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var2|}}} | <tr><td><tt>{{{var2}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var2}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var2}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var3|}}} | <tr><td><tt>{{{var3}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var3}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var3}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var4|}}} | <tr><td><tt>{{{var4}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var4}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var4}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var5|}}} | <tr><td><tt>{{{var5}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var5}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var5}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var6|}}} | <tr><td><tt>{{{var6}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var6}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var6}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var7|}}} | <tr><td><tt>{{{var7}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var7}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var7}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var8|}}} | <tr><td><tt>{{{var8}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var8}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var8}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{var9|}}} | <tr><td><tt>{{{var9}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var9}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var9}}}}}}</tt></td></tr> }}<!--
+-->{{#if: {{{flag alias-naval|}}} | <tr><td><tt>naval</tt></td><td align=center>[[File:{{{flag alias-naval}}}|40px|border]]</td><td><tt>{{{flag alias-naval}}}</tt></td></tr> }}<!--
+-->{{#if: {{{flag alias-air force|}}} | <tr><td><tt>air force</tt></td><td align=center>[[File:{{{flag alias-air force}}}|40px|border]]</td><td><tt>{{{flag alias-air force}}}</tt></td></tr> }}<!--
+-->{{#if: {{{flag alias-army|}}} | <tr><td><tt>army</tt></td><td align=center>[[File:{{{flag alias-army}}}|40px|border]]</td><td><tt>{{{flag alias-army}}}</tt></td></tr> }}<!--
+--></table>
+}}
+{{#if: {{{flag alias-naval|}}}{{{link alias-naval|}}}{{{flag alias-air force|}}}{{{flag alias-army|}}} |
+===Military ensigns===
+{{#if: {{{flag alias-naval|}}} |
+This template includes a naval ensign flag variant that can be used with [[Template:Navy]]:
+* <tt><nowiki>{{navy|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{navy|{{{templatename|{{{alias}}}}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|naval}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|naval}}
+| {{#if: {{{link alias-naval|}}} |
+This nation's naval ensign is the same as its national flag, so [[Template:Navy]] produces the following:
+* <tt><nowiki>{{navy|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{navy|{{{templatename|{{{alias}}}}}}}}
+}}}}
+{{#if: {{{flag alias-air force|}}} |
+This template includes an air force ensign flag variant that can be used with [[Template:Air force]]:
+* <tt><nowiki>{{air force|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{air force|{{{templatename|{{{alias}}}}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|air force}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|air force}}
+}}
+{{#if: {{{flag alias-army|}}} |
+This template includes an army ensign flag variant that can be used with [[Template:Army]]:
+* <tt><nowiki>{{army|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{army|{{{templatename|{{{alias}}}}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|army}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|army}}
+}} }}
+{{#if: {{{redir1|}}} |
+===Redirect aliases===
+This template can also be used via an ''alias'' name (implemented as a redirect to this template):<!--
+--><table class="wikitable"><!--
+--><tr><th>Alias name</th><th>{{tlx|flag|''alias''}} output</th><th>{{tlx|flagcountry|''alias''}} output</th></tr>
+{{#if: {{{redir1|}}} | <tr><td><tt>{{{redir1}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir1}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir1}}}}}</td><td>{{flagcountry|{{{redir1}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir2|}}} | <tr><td><tt>{{{redir2}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir2}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir2}}}}}</td><td>{{flagcountry|{{{redir2}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir3|}}} | <tr><td><tt>{{{redir3}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir3}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir3}}}}}</td><td>{{flagcountry|{{{redir3}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir4|}}} | <tr><td><tt>{{{redir4}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir4}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir4}}}}}</td><td>{{flagcountry|{{{redir4}}}}}</td></tr> }}<!--
+-->{{#if: {{{redir5|}}} | <tr><td><tt>{{{redir5}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir5}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir5}}}}}</td><td>{{flagcountry|{{{redir5}}}}}</td></tr> }}<!--
+--></table>
+}}
+===Example usage===
+* <tt><nowiki>{{flag|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{flag|{{{templatename|{{{alias}}}}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}}}<!--
+-->{{#if: {{{shortname alias|}}} |
+* <tt><nowiki>{{flagcountry|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{flagcountry|{{{templatename|{{{alias}}}}}}}} }}
+{{#if: {{{var1|}}} |
+====Using a flag variant====
+* <tt><nowiki>{{flag|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|</nowiki>{{{var1}}}<nowiki>}}</nowiki></tt> → {{flag|{{{templatename|{{{alias}}}}}}|{{{var1}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|</nowiki>{{{var1}}}<nowiki>}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|{{{var1}}}}}
+}}
+{{#if: {{{redir1|}}} |
+====Using a redirect alias====
+* <tt><nowiki>{{flagicon|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></tt> → {{flagicon|{{{redir1}}}}}
+* <tt><nowiki>{{flagcountry|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></tt> → {{flagcountry|{{{redir1}}}}}
+* <tt><nowiki>{{flag|</nowiki>{{{redir1}}}<nowiki>}}</nowiki></tt> → {{flag|{{{redir1}}}}}
+}}
+{{#if: {{{related1|}}} |
+===Related templates===
+Please see the following related <tt>country_data</tt> templates:
+* [[Template:Country data {{{related1}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related1}}}}}</span><!--
+-->{{#if: {{{related2|}}} |
+* [[Template:Country data {{{related2}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related2}}}}}</span> }}<!--
+-->{{#if: {{{related3|}}} |
+* [[Template:Country data {{{related3}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related3}}}}}</span> }}<!--
+-->{{#if: {{{related4|}}} |
+* [[Template:Country data {{{related4}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related4}}}}}</span> }}<!--
+-->{{#if: {{{related5|}}} |
+* [[Template:Country data {{{related5}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related5}}}}}</span> }}<!--
+-->{{#if: {{{related6|}}} |
+* [[Template:Country data {{{related6}}}]]<span style="position:absolute; left:33em;">{{flag|{{{related6}}}}}</span> }}<!--
+-->}}
+{{#ifexist:{{FULLPAGENAME}}/doc |
+===Other information===
+{{{{FULLPAGENAME}}/doc}}
+}}
+[[Category:Country data templates|{{{templatename|{{{alias}}}}}}]]
+{{#if:{{{shortname alias|}}}
+ |[[Category:Country data templates with distinct shortname|{{{templatename|{{{alias}}}}}}]]
+}}{{#ifeq:{{PAGENAME}}|Country data {{{alias}}}|
+ |{{#ifeq: {{PAGENAME}}|Country data {{{shortname alias}}}|
+  |[[Category:Country data templates with distinct template name]]
+ }}
+}}
+|link box=This is the documentation for '''Template:{{PAGENAME}}'''. It is automatically generated by [[Template:Country showdata]].<br/>Please {{purge|purge the cache}} after making any changes to this template.{{#ifexist:{{FULLPAGENAME}}/doc
+ |<br/>This template has a [[{{FULLPAGENAME}}/doc|/doc]] subpage for the purposes of [[WP:CAT|categories]], [[H:ILL|interlanguage links]] and documentation specific to this template.
+ |{{#ifeq:{{PROTECTIONLEVEL:edit}}|sysop
+  |<br/>This template is [[WP:PROTECT|fully protected]] and any [[WP:CAT|categories]] and [[H:ILL|interlanguage links]] should be added to the template's [{{fullurl:{{FULLPAGENAME}}/doc|action=edit&preload=Template:Category_interwiki/preload}} /doc] subpage, which is not protected.
+ }}
+}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
