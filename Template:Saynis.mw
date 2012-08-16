@@ -1,1 +1,75 @@
+{{ {{#ifeq:|{{void}}|void|Error:must be substituted}}|PRODWarning}}
 
+
+{{sidebar with collapsible lists
+| expanded       = {{{cTopic}}}
+| name           = Saynis
+|pretitle    = '''Qaybaha la xiriira '''
+|pretitlestyle = background:#ccf;
+|title       = [[Saynis]] ka
+|titlestyle  = padding:0 0.0em 0.5em; font-size:175%; line-height:1.0em; background:#ccf;
+| image          = [[File:PrirodneNauke.svg|100px|Science|link=Science]]
+| caption        = 
+|bodystyle      = padding:0em; line-height:normal; font-size:100%; width:18em; border-spacing:2px 0px;
+|headingstyle   = padding:2px; margin:0px; line-height:normal; font-size:100%; height:auto; background:transparent; display:none;
+|listframestyle = padding:0em; margin:0px; line-height:normal; font-size:100%; height:auto; border:none;
+|listtitlestyle = padding:0.2em; margin:0px; line-height:normal; font-size:90%; height:auto;
+|liststyle      = padding:2px; margin:0px; line-height:normal; font-size: 90%; height:auto;
+|tnavbarstyle   = padding:2px; margin:0px; line-height:normal; font-size:100%; height:auto;
+
+|list1name = Formal sciences
+|list1title = [[Bayoloji]]
+|list1 = <div>
+
+<!-- '''[[Formal sciences]]'''<br/> -->
+[[Dhirta]]<br />
+[[Xayawaan‎]] <br />
+[[Biomolikule]] <br />
+[[Addimo-yaqaan]]
+</div>
+
+|list2name = Natural
+|list2title = [[Fiisigis]]
+|list2 = <div>
+
+'''[[Awood]]'''<br/>
+[[Diffusion]]{{·}}[[Midabada‎]]<br/>
+[[Maatar]]<br/>
+[[Bed]]<br/>
+[[Jadwalka Curiyayaasha]]{{·}}[[Albert Einstein]]<br/>
+[[Mug]]<br/>
+[[Koronto]]{{·}}[[Cuf]]<br/>
+[[Faaranhaayt]]&nbsp; [[Mowjad]])<br/>
+[[Adke]]
+<br/>
+
+|list5name  = Kimisteri 
+|list5title = [[Kimisteri]]
+|list5      = <div>
+'''[[Bir]]'''<br/>
+[[Biyo]]{{·}}[[PH]]<br/>
+[[Hydrogen]]{{·}}[[Oxygen]]<br/>
+[[Kimikal dibusocod]]{{·}}[[DDT]]<br/>
+[[Saadiyom bicarbonate]]{{·}}[[Saliid Macsaro]]<br/>
+[[Khamri]]{{·}}[[Khamro]]<br/>
+[[Biomolikule]]{{·}}[[Saabuun]]<br/>
+<br/>
+
+|list6name = Teknooloji
+|list6title = Teknooloji
+|list6 = <div>
+[[Elektaroon]]{{·}}[[Internet‎]]<br/>
+[[Isgaarsiinta‎]]{{·}}[[Kumbuyuutar]]{{·}}<br/>
+[[Linux‎]]{{·}}[[Microsoft‎]]<br/>
+
+
+|list7name = [[Cilmiga bulshada]]  <br/>
+|list7title = [[Cilmiga bulshada]]  <br/>
+|list7 = <div>
+
+'''[[Cilmiga bulshada]]'''<br/>
+'''[[Dhaqaale]]'''<br/>
+'''[[Cilminafsi]]'''<br/>
+</div>
+|below = [[Sayniska qaybaha kale]]<br/>[[:Saynis]] 
+}}<noinclude>
