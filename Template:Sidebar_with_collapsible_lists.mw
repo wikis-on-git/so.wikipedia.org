@@ -1,0 +1,395 @@
+{{Sidebar
+| wraplinks       = {{{wraplinks|}}}
+| name            = {{{name|{{PAGENAME}}}}}
+| bodyclass       = {{{bodyclass|{{{class|}}}}}}
+| bodystyle       = {{{bodystyle|{{{style|}}}}}}
+| width           = {{{width|}}}
+| cellspacing     = {{{cellspacing|0}}}
+| cellpadding     = {{{cellpadding|0}}}
+| float           = {{{float|right}}}
+
+| outertitle      = {{{outertitle|}}}
+| outertitleclass = {{{outertitleclass|}}}
+| outertitlestyle = {{{outerttitlestyle|}}}
+
+| topimage        = {{{topimage|}}}
+| topimageclass   = {{{topimageclass|}}}
+| topimagestyle   = {{{topimagestyle|}}}
+| topcaption      = {{{topcaption|}}}
+| topcaptionstyle = {{{topcaptionstyle|}}}
+
+| pretitle        = {{{pretitle|}}}
+| pretitleclass   = {{{pretitleclass|}}}
+| pretitlestyle   = {{{pretitlestyle|}}}
+| title           = {{{title|}}}
+| titleclass      = {{{titleclass|}}}
+| titlestyle      = {{{titlestyle|}}}
+
+| image           = {{{image|}}}
+| imageclass      = {{{imageclass|}}}
+| imagestyle      = {{{imagestyle|}}}
+| caption         = {{{caption|}}}
+| captionstyle    = {{{captionstyle|}}}
+
+| aboveclass      = {{{aboveclass|}}}
+| abovestyle      = border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; {{{abovestyle|}}}
+| above           = {{{above|}}}
+
+| headingclass    = {{{headingclass|}}}
+| headingstyle    = {{{headingstyle|}}}
+| contentclass    = {{{contentclass|}}}
+| contentstyle    = {{{contentstyle|}}}
+
+| heading1style   = {{{heading1style|}}}
+| heading1        = {{{heading1|}}}
+| content1style   = {{{content1style|}}}
+| content1        = {{#if:{{{list1|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list1framestyle|}}}|{{{listframestyle|}}}; {{{list1framestyle|}}}}}
+                      | title      = {{{list1title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list1titlestyle|}}}|{{{listtitlestyle|}}}; {{{list1titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list1class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list1style|}}}|{{{liststyle|}}}; {{{list1style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list1name}}}=y}}
+                      | 1 = {{{list1}}}
+                      }}|
+                      {{{content1|}}}
+                    }}
+
+| heading2style   = {{{heading2style|}}}
+| heading2        = {{{heading2|}}}
+| content2style   = {{{content2style|}}}
+| content2        = {{#if:{{{list2|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list2framestyle|}}}|{{{listframestyle|}}}; {{{list2framestyle|}}}}}
+                      | title      = {{{list2title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list2titlestyle|}}}|{{{listtitlestyle|}}}; {{{list2titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list2class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list2style|}}}|{{{liststyle|}}}; {{{list2style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list2name}}}=y}}
+                      | 1 = {{{list2}}}
+                      }}|
+                      {{{content2|}}}
+                    }}
+
+| heading3style   = {{{heading3style|}}}
+| heading3        = {{{heading3|}}}
+| content3style   = {{{content3style|}}}
+| content3        = {{#if:{{{list3|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list3framestyle|}}}|{{{listframestyle|}}}; {{{list3framestyle|}}}}}
+                      | title      = {{{list3title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list3titlestyle|}}}|{{{listtitlestyle|}}}; {{{list3titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list3class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list3style|}}}|{{{liststyle|}}}; {{{list3style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list3name}}}=y}}
+                      | 1 = {{{list3}}}
+                      }}|
+                      {{{content3|}}}
+                    }}
+
+| heading4style   = {{{heading4style|}}}
+| heading4        = {{{heading4|}}}
+| content4style   = {{{content4style|}}}
+| content4        = {{#if:{{{list4|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list4framestyle|}}}|{{{listframestyle|}}}; {{{list4framestyle|}}}}}
+                      | title      = {{{list4title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list4titlestyle|}}}|{{{listtitlestyle|}}}; {{{list4titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list4class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list4style|}}}|{{{liststyle|}}}; {{{list4style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list4name}}}=y}}
+                      | 1 = {{{list4}}}
+                      }}|
+                      {{{content4|}}}
+                    }}
+
+| heading5style   = {{{heading5style|}}}
+| heading5        = {{{heading5|}}}
+| content5style   = {{{content5style|}}}
+| content5        = {{#if:{{{list5|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list5framestyle|}}}|{{{listframestyle|}}}; {{{list5framestyle|}}}}}
+                      | title      = {{{list5title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list5titlestyle|}}}|{{{listtitlestyle|}}}; {{{list5titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list5class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list5style|}}}|{{{liststyle|}}}; {{{list5style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list5name}}}=y}}
+                      | 1 = {{{list5}}}
+                      }}|
+                      {{{content5|}}}
+                    }}
+
+| heading6style   = {{{heading6style|}}}
+| heading6        = {{{heading6|}}}
+| content6style   = {{{content6style|}}}
+| content6        = {{#if:{{{list6|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list6framestyle|}}}|{{{listframestyle|}}}; {{{list6framestyle|}}}}}
+                      | title      = {{{list6title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list6titlestyle|}}}|{{{listtitlestyle|}}}; {{{list6titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list6class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list6style|}}}|{{{liststyle|}}}; {{{list6style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list6name}}}=y}}
+                      | 1 = {{{list6}}}
+                      }}|
+                      {{{content6|}}}
+                    }}
+
+| heading7style   = {{{heading7style|}}}
+| heading7        = {{{heading7|}}}
+| content7style   = {{{content7style|}}}
+| content7        = {{#if:{{{list7|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list7framestyle|}}}|{{{listframestyle|}}}; {{{list7framestyle|}}}}}
+                      | title      = {{{list7title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list7titlestyle|}}}|{{{listtitlestyle|}}}; {{{list7titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list7class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list7style|}}}|{{{liststyle|}}}; {{{list7style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list7name}}}=y}}
+                      | 1 = {{{list7}}}
+                      }}|
+                      {{{content7|}}}
+                    }}
+
+| heading8style   = {{{heading8style|}}}
+| heading8        = {{{heading8|}}}
+| content8style   = {{{content8style|}}}
+| content8        = {{#if:{{{list8|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list8framestyle|}}}|{{{listframestyle|}}}; {{{list8framestyle|}}}}}
+                      | title      = {{{list8title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list8titlestyle|}}}|{{{listtitlestyle|}}}; {{{list8titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list8class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list8style|}}}|{{{liststyle|}}}; {{{list8style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list8name}}}=y}}
+                      | 1 = {{{list8}}}
+                      }}|
+                      {{{content8|}}}
+                    }}
+
+| heading9style   = {{{heading9style|}}}
+| heading9        = {{{heading9|}}}
+| content9style   = {{{content9style|}}}
+| content9        = {{#if:{{{list9|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list9framestyle|}}}|{{{listframestyle|}}}; {{{list9framestyle|}}}}}
+                      | title      = {{{list9title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list9titlestyle|}}}|{{{listtitlestyle|}}}; {{{list9titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list9class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list9style|}}}|{{{liststyle|}}}; {{{list9style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list9name}}}=y}}
+                      | 1 = {{{list9}}}
+                      }}|
+                      {{{content9|}}}
+                    }}
+
+| heading10style   = {{{heading10style|}}}
+| heading10        = {{{heading10|}}}
+| content10style   = {{{content10style|}}}
+| content10        = {{#if:{{{list10|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list10framestyle|}}}|{{{listframestyle|}}}; {{{list10framestyle|}}}}}
+                      | title      = {{{list10title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list10titlestyle|}}}|{{{listtitlestyle|}}}; {{{list10titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list10class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list10style|}}}|{{{liststyle|}}}; {{{list10style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list10name}}}=y}}
+                      | 1 = {{{list10}}}
+                      }}|
+                      {{{content10|}}}
+                    }}
+
+| heading11style   = {{{heading11style|}}}
+| heading11        = {{{heading11|}}}
+| content11style   = {{{content11style|}}}
+| content11        = {{#if:{{{list11|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list11framestyle|}}}|{{{listframestyle|}}}; {{{list11framestyle|}}}}}
+                      | title      = {{{list11title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list11titlestyle|}}}|{{{listtitlestyle|}}}; {{{list11titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list11class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list11style|}}}|{{{liststyle|}}}; {{{list11style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list11name}}}=y}}
+                      | 1 = {{{list11}}}
+                      }}|
+                      {{{content11|}}}
+                    }}
+
+| heading12style   = {{{heading12style|}}}
+| heading12        = {{{heading12|}}}
+| content12style   = {{{content12style|}}}
+| content12        = {{#if:{{{list12|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list12framestyle|}}}|{{{listframestyle|}}}; {{{list12framestyle|}}}}}
+                      | title      = {{{list12title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list12titlestyle|}}}|{{{listtitlestyle|}}}; {{{list12titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list12class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list12style|}}}|{{{liststyle|}}}; {{{list12style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list12name}}}=y}}
+                      | 1 = {{{list12}}}
+                      }}|
+                      {{{content12|}}}
+                    }}
+
+| heading13style   = {{{heading13style|}}}
+| heading13        = {{{heading13|}}}
+| content13style   = {{{content13style|}}}
+| content13        = {{#if:{{{list13|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list13framestyle|}}}|{{{listframestyle|}}}; {{{list13framestyle|}}}}}
+                      | title      = {{{list13title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list13titlestyle|}}}|{{{listtitlestyle|}}}; {{{list13titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list13class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list13style|}}}|{{{liststyle|}}}; {{{list13style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list13name}}}=y}}
+                      | 1 = {{{list13}}}
+                      }}|
+                      {{{content13|}}}
+                    }}
+
+| heading14style   = {{{heading14style|}}}
+| heading14        = {{{heading14|}}}
+| content14style   = {{{content14style|}}}
+| content14        = {{#if:{{{list14|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list14framestyle|}}}|{{{listframestyle|}}}; {{{list14framestyle|}}}}}
+                      | title      = {{{list14title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list14titlestyle|}}}|{{{listtitlestyle|}}}; {{{list14titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list14class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list14style|}}}|{{{liststyle|}}}; {{{list14style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list14name}}}=y}}
+                      | 1 = {{{list14}}}
+                      }}|
+                      {{{content14|}}}
+                    }}
+
+| heading15style   = {{{heading15style|}}}
+| heading15        = {{{heading15|}}}
+| content15style   = {{{content15style|}}}
+| content15        = {{#if:{{{list15|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list15framestyle|}}}|{{{listframestyle|}}}; {{{list15framestyle|}}}}}
+                      | title      = {{{list15title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list15titlestyle|}}}|{{{listtitlestyle|}}}; {{{list15titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list15class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list15style|}}}|{{{liststyle|}}}; {{{list15style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list15name}}}=y}}
+                      | 1 = {{{list15}}}
+                      }}|
+                      {{{content15|}}}
+                    }}
+
+| heading16style   = {{{heading16style|}}}
+| heading16        = {{{heading16|}}}
+| content16style   = {{{content16style|}}}
+| content16        = {{#if:{{{list16|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list16framestyle|}}}|{{{listframestyle|}}}; {{{list16framestyle|}}}}}
+                      | title      = {{{list16title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list16titlestyle|}}}|{{{listtitlestyle|}}}; {{{list16titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list16class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list16style|}}}|{{{liststyle|}}}; {{{list16style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list16name}}}=y}}
+                      | 1 = {{{list16}}}
+                      }}|
+                      {{{content16|}}}
+                    }}
+
+| heading17style   = {{{heading17style|}}}
+| heading17        = {{{heading17|}}}
+| content17style   = {{{content17style|}}}
+| content17        = {{#if:{{{list17|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list17framestyle|}}}|{{{listframestyle|}}}; {{{list17framestyle|}}}}}
+                      | title      = {{{list17title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list17titlestyle|}}}|{{{listtitlestyle|}}}; {{{list17titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list17class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list17style|}}}|{{{liststyle|}}}; {{{list17style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list17name}}}=y}}
+                      | 1 = {{{list17}}}
+                      }}|
+                      {{{content17|}}}
+                    }}
+
+| heading18style   = {{{heading18style|}}}
+| heading18        = {{{heading18|}}}
+| content18style   = {{{content18style|}}}
+| content18        = {{#if:{{{list18|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list18framestyle|}}}|{{{listframestyle|}}}; {{{list18framestyle|}}}}}
+                      | title      = {{{list18title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list18titlestyle|}}}|{{{listtitlestyle|}}}; {{{list18titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list18class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list18style|}}}|{{{liststyle|}}}; {{{list18style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list18name}}}=y}}
+                      | 1 = {{{list18}}}
+                      }}|
+                      {{{content18|}}}
+                    }}
+
+| heading19style   = {{{heading19style|}}}
+| heading19        = {{{heading19|}}}
+| content19style   = {{{content19style|}}}
+| content19        = {{#if:{{{list19|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list19framestyle|}}}|{{{listframestyle|}}}; {{{list19framestyle|}}}}}
+                      | title      = {{{list19title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list19titlestyle|}}}|{{{listtitlestyle|}}}; {{{list19titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list19class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list19style|}}}|{{{liststyle|}}}; {{{list19style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list19name}}}=y}}
+                      | 1 = {{{list19}}}
+                      }}|
+                      {{{content19|}}}
+                    }}
+
+| heading20style   = {{{heading20style|}}}
+| heading20        = {{{heading20|}}}
+| content20style   = {{{content20style|}}}
+| content20        = {{#if:{{{list20|}}}|
+                      {{Sidebar with collapsible lists/row
+                      | framestyle = {{#if:{{{listframestyle|}}}{{{list20framestyle|}}}|{{{listframestyle|}}}; {{{list20framestyle|}}}}}
+                      | title      = {{{list20title|}}}
+                      | titleclass = {{{listtitleclass|}}}
+                      | titlestyle = {{#if:{{{listtitlestyle|}}}{{{list20titlestyle|}}}|{{{listtitlestyle|}}}; {{{list20titlestyle|}}}}}
+                      | listclass  = {{{listclass|}}} {{{list20class|}}}
+                      | liststyle  = {{#if:{{{liststyle|}}}{{{list20style|}}}|{{{liststyle|}}}; {{{list20style|}}}}}
+                      | expand     = {{#switch:{{{expanded|}}}|all|{{{list20name}}}=y}}
+                      | 1 = {{{list20}}}
+                      }}|
+                      {{{content20|}}}
+                    }}
+
+| content21style  = padding: 0; line-height: 0.4em
+| content21       = {{#if:{{{below|}}}|&nbsp;}}
+
+| belowclass      = {{{belowclass|}}}
+| belowstyle      = border-top: 1px solid #aaa; border-bottom: 1px solid #aaa; {{{belowstyle|}}}
+| below           = {{{below|}}}
+
+| navbar          = {{{navbar|{{{tnavbar|<noinclude>none</noinclude>}}}}}}
+| navbarstyle     = padding-top: 0.6em; {{{navbarstyle|{{{tnavbarstyle|}}}}}}
+| navbarfontstyle = {{{navbarfontstyle|{{{tnavbarfontstyle|}}}}}}
+
+}}<includeonly>{{#if:{{{content1|}}}{{{content2|}}}{{{content3|}}}{{{content4|}}}{{{content5|}}}{{{content6|}}}{{{content7|}}}{{{content8|}}}{{{content9|}}}{{{content10|}}}{{{content11|}}}{{{content12|}}}{{{content13|}}}{{{content14|}}}{{{content15|}}}{{{content16|}}}{{{content17|}}}{{{content18|}}}{{{content19|}}}{{{content20|}}}|{{#ifeq:{{NAMESPACE}}|Template|[[Category:collapsible list sidebars using content rows]]}}}}</includeonly><noinclude>
+{{documentation}}<!-- Please add category and language links to the section at the bottom of [[Template:Sidebar with collapsible lists/doc]] page, not here --></noinclude>
