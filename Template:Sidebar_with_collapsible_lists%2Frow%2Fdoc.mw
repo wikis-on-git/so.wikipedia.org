@@ -1,0 +1,47 @@
+== Usage ==
+<pre>
+{{Sidebar with collapsible lists/row
+| expanded = 
+| framestyle =
+| titlestyle =
+| listclass = 
+| liststyle =
+| title =
+| 1 =
+}}
+</pre>
+
+
+== Parameters ==
+{| class="wikitable"
+! Parameter !! Notes
+|-
+| expanded  || Any non blank value will cause the section to be expanded by default
+|-
+| framestyle || The style to use for the section frame.  The default style is 'border:none; padding: 0;'
+|-
+| titlestyle || The style used for the section title.  The default style is 'background: transparent; text-align: left'
+|-
+| listclass || Class to use for the list (e.g., hlist or plainlist)
+|-
+| liststyle || Additional styling for the list.  The default styling is 'font-size:105%; padding:0.2em 0 0.4em; text-align:center;'
+|-
+| title || Title for the section.  The default value is 'List'
+|-
+| 1 || The contents of the section (the list)
+|-
+|}
+
+
+== Coding notes ==
+It should be noted that
+<pre>{{{1|}}}</pre>
+is not equivalent to
+<pre>{{#if:{{{1|}}} | {{{1}}} }}</pre>
+The second construct will remove whitespace and spurious newline characters from the input.  This is important when the value is passed as an unnamed parameter, instead of formally using '1 ='.
+
+Similarly, the construct
+<pre>{{{framestyle|border: none; padding: 0;}}}</pre>
+is not the same as
+<pre>{{#if:{{{framestyle|}}} |{{{framestyle}}} |border: none; padding: 0;}}</pre>
+The difference is when 'framestyle =' is present, but blank.  In the first case, a blank value is used, while in the second case, 'border: none; padding: 0;' is used.
