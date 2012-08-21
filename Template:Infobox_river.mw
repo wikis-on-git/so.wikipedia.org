@@ -1,0 +1,35 @@
+{{Infobox
+| abovestyle = background-color: #cedeff
+| above      = {{{name|{{{river_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+| image      = {{#if:{{{image_name|}}}|[[File:{{{image_name|}}}|{{px|{{{image_size|}}}|288px}}|alt={{{image_alt|}}}]]}}
+| imagestyle = border: 1px solid #cedeff
+| caption    = {{{caption|}}}
+| image2     = {{#if:{{{image_map|}}}|[[File:{{{image_map|}}}|{{px|{{{map_size|}}}|288px}}|alt={{{map_alt|}}}]]}}
+| caption2   = {{{map_caption|}}}
+| label1     = [[River source|Origin]]
+| data1      = {{{origin|}}}
+| label2     = Mouth
+| data2      = {{{mouth|}}}
+| label3     = Progression
+| data3      = {{{progression|}}}
+| label4     = [[Drainage basin|Basin]] countries
+| data4      = {{{basin_countries|}}}
+| label5     = [[Location (geography)|Location]]
+| data5      = {{{location|}}}
+| label6     = Length
+| data6      = {{#if:{{{length_km|}}}|{{#if:{{{length_mi|}}}|{{formatnum:{{{length_km}}}&nbsp;km ({{{length_mi}}}&nbsp;mi)}}|{{convert|{{{length_km}}}|km|abbr=on}} }}|{{#if:{{{length_mi|}}}|{{convert|{{{length_mi}}}|mi|abbr=on}} }} }}{{{length|}}}
+| label7     = [[River source|Source]] elevation
+| data7      = {{#if:{{{elevation_m|}}}|{{#if:{{{elevation_ft|}}}|{{formatnum:{{{elevation_m}}}&nbsp;m ({{{elevation_ft}}}&nbsp;ft)}}|{{convert|{{{elevation_m}}}|m|abbr=on}} }}|{{#if:{{{elevation_ft|}}}|{{convert|{{{elevation_ft}}}|ft|abbr=on}} }} }}{{{elevation|}}}
+| label8     = Mouth elevation
+| data8      = {{#if:{{{mouth_elevation_m|}}}|{{#if:{{{mouth_elevation_ft|}}}|{{formatnum:{{{mouth_elevation_m}}}&nbsp;m ({{{mouth_elevation_ft}}}&nbsp;ft)}}|{{convert|{{{mouth_elevation_m}}}|m|abbr=on}} }}|{{#if:{{{mouth_elevation_ft|}}}|{{convert|{{{mouth_elevation_ft}}}|ft|abbr=on}} }} }}{{{mouth_elevation|}}}
+| label9     = Avg. [[Discharge (hydrology)|discharge]]
+| data9      = {{#if: {{{discharge|}}}{{{discharge_m3/s|}}}{{{discharge_cuft/s|}}}|{{#if:{{{discharge_m3/s|}}}|{{#if:{{{discharge_cuft/s|}}}|{{formatnum:{{{discharge_m3/s}}}&nbsp;[[cubic metres per second|m<sup>3</sup>/s]] ({{{discharge_cuft/s}}}&nbsp;[[cubic feet per second|cu&nbsp;ft/s]])}}|{{convert|{{{discharge_m3/s}}}|m3/s|abbr=on}} }}|{{#if:{{{discharge_cuft/s|}}}|{{convert|{{{discharge_cuft/s}}}|cuft/s|abbr=on}} }} }}{{{discharge|&#32;at mouth}}} }}
+| label10    = Basin area
+| data10     = {{#if:{{{watershed_km2|}}}|{{#if:{{{watershed_sqmi|}}}|{{formatnum:{{{watershed_km2}}}&nbsp;km<sup>2</sup> ({{{watershed_sqmi}}}&nbsp;sq&nbsp;mi)}}|{{convert|{{{watershed_km2}}}|km2|abbr=on}} }}|{{#if:{{{watershed_sqmi|}}}|{{convert|{{{watershed_sqmi}}}|sqmi|abbr=on}} }} }}{{{watershed|}}}
+| label11    = River system
+| data11     = {{{river_system|}}}
+| label12    = Left tributaries
+| data12     = {{{left_tribs|}}}
+| label13    = Right tributaries
+| data13     = {{{right_tribs|}}}
+}}<noinclude>{{documentation}}<!-- place category and language links on the /doc page --></noinclude>
