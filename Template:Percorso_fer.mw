@@ -1,0 +1,57 @@
+<includeonly>|-
+| style="text-align:center; padding:0; border:none;" | [[immagine:BSicon_{{{1|leer}}}.svg|100x{{{PX|20px}}}]] 
+| style="text-align:right; vertical-align:middle; padding:0 .5em; font-size:80%; white-space:nowrap; border:none;" {{{HI|}}}| {{#if: {{{km|}}}|{{{km}}}|{{{2|}}}}}
+| style="padding:0; border:none;" {{#if: {{{5|}}}||colspan="2"}} | {{{3|}}} <span style="font-size:80%; line-height: 80%;">{{{4|}}}</span>
+{{#if: {{{5|}}}|{{!}} style="text-align:right; padding:0 0 0 .5em; font-size:80%; white-space:nowrap; border:none;" {{!}} {{{5}}}
+|}}</includeonly><noinclude>
+
+Il template '''Percorso fer''' serve a costruire le mappe dei percorsi ferroviari.
+Va inserito in una [[Aiuto:Tabelle|tabella]], di cui segue le regole per quanto riguarda posizione, caratteri ecc.
+
+Utilizzando gli ordini specifici delle tabelle stesse si possono ottenere vari risultati diversi come, a titolo di esempio:
+ <nowiki>
+{| class="wikitable" style="float:right; margin-left: 2em; font-size:90%"
+|-
+!colspan=4|Stazioni e fermate
+|-
+.....
+|}
+</nowiki>
+
+*"float-right" indica l'allineamento della tabella a destra, con il testo seguente della voce alla sua sinistra
+*"margin-left" indica la spaziatura tra il testo della voce e la tabella stessa
+*"font-size" indica la grandezza del carattere da utilizzare
+*"!colspan=4|Stazioni e fermate" indica il titolo della tabella e contemporaneamente il numero totale delle colonne usate nel template "fer".
+
+Tutti i parametri possono/debbono essere adattati alle circostanze, il "float:left" piazzerà la tabella sul lato sinistro e bisognerà indicare come "margin-right" la spaziatura dal testo.
+
+Al posto dei punti devono essere inserite diverse istanze di ''Percorso fer'' (per i tratti a percorso unico) e ''[[template:Percorso fer2|Percorso fer2]]'' (per i tratti doppi) secondo la sintassi
+ <nowiki>{{Percorso_fer|CODICE|DISTANZA KILOMETRICA|[[NOME DELLA STAZIONE]]|NOTE|NOTE 2}}</nowiki>
+
+e 
+
+ <nowiki>{{Percorso_fer2|CODICE sinistro|CODICE destro|DISTANZA KILOMETRICA|[[NOME DELLA STAZIONE]]|NOTE|NOTE 2}}</nowiki>
+
+
+La tabella può anche essere resa come "espandibile a richiesta" con il codice:
+
+<code>
+ <nowiki><div class="NavFrame" style="clear:both; text-align:left; width:50%"></nowiki>
+ <nowiki><div class="NavHead">'''Stazioni e fermate'''</div></nowiki>
+ <nowiki><div class="NavContent"></nowiki>
+ <nowiki>{|class="wikitable" style="font-size:95%; text-align:left; "</nowiki>
+ ........
+ <nowiki>|}</nowiki>
+ <nowiki></div></div></nowiki>
+</code>
+
+sempre con l'inserimento al posto dei puntini delle varie istanze di ''Percorso fer'' (per i tratti a percorso unico) e ''[[template:Percorso fer2|Percorso fer2]]'' (per i tratti doppi)
+
+
+La lista dei codici utilizzabili nel template "fer" è presente a [[Progetto:Trasporti/Linee guida diagrammi ferroviari]]
+
+
+'''ATTENZIONE''' non modificare, il nome viene richiamato automaticamente da Spoorstrip, un programma che semplifica la costruzione dei percorsi
+
+[[Categoria:Template di formattazione - Trasporti|{{PAGENAME}}]]
+</noinclude>
