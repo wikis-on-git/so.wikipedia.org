@@ -1,5 +1,5 @@
 <includeonly>|-
-| style="text-align:center; padding:0; border:none;" | [[immagine:BSicon_{{{1|leer}}}.svg|100x{{{PX|20px}}}]] 
+| style="text-align:center; padding:0; border:none;" | [[image:BSicon_{{{1|leer}}}.svg|100x{{{PX|20px}}}]] 
 | style="text-align:right; vertical-align:middle; padding:0 .5em; font-size:80%; white-space:nowrap; border:none;" {{{HI|}}}| {{#if: {{{km|}}}|{{{km}}}|{{{2|}}}}}
 | style="padding:0; border:none;" {{#if: {{{5|}}}||colspan="2"}} | {{{3|}}} <span style="font-size:80%; line-height: 80%;">{{{4|}}}</span>
 {{#if: {{{5|}}}|{{!}} style="text-align:right; padding:0 0 0 .5em; font-size:80%; white-space:nowrap; border:none;" {{!}} {{{5}}}
@@ -12,7 +12,7 @@ Utilizzando gli ordini specifici delle tabelle stesse si possono ottenere vari r
  <nowiki>
 {| class="wikitable" style="float:right; margin-left: 2em; font-size:90%"
 |-
-!colspan=4|Stazioni e fermate
+!colspan=4|Meelaha uu Istaago Tareenka
 |-
 .....
 |}
@@ -53,5 +53,5 @@ La lista dei codici utilizzabili nel template "fer" è presente a [[Progetto:Tra
 
 '''ATTENZIONE''' non modificare, il nome viene richiamato automaticamente da Spoorstrip, un programma che semplifica la costruzione dei percorsi
 
-[[Categoria:Template di formattazione - Trasporti|{{PAGENAME}}]]
+[[Category:Tareenada]]
 </noinclude>
