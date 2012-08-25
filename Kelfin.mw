@@ -10,7 +10,7 @@ Darajada Kilven = (Fahrenhayt + 459.67)/1.8 K = (°F + 459,67) / 1,8
 
 Halkaan waxaad ka arki kartaa sida la isugu bedbedeli karo
 
-{| {{prettytable|align=right}}
+{| {{jadwal|align=left}}
 |+ style="margin-bottom:5px;"| Heerkulka iyo isbedelkiisa kabiloow/ilaa kelvin
 |-
 ! ka
@@ -24,9 +24,9 @@ Halkaan waxaad ka arki kartaa sida la isugu bedbedeli karo
 |-
 ||[[Celsius]] ||kelvin || T(K) = T(°C) + 273,15
 |-
-||kelvin ||[[Fahrenhayt]] || T(°F) = (T(K) × 1,8) - 459,67
+||kelvin ||[[Faaranhaayt]] || T(°F) = (T(K) × 1,8) - 459,67
 |-
-||[[Fahrenhayt]] ||kelvin ||T(K) = (T(°F) + 459,67) / 1,8
+||[[Faaranhaayt]] ||kelvin ||T(K) = (T(°F) + 459,67) / 1,8
 |}
 
 [[Category:Fiisigis]]
