@@ -1,0 +1,5 @@
+<includeonly>{{#if:{{{1|}}}|{{#switch:{{MONTHNUMBER|{{{1}}}}}|1=Janaayo|2=Febraayo|3=Maarso|4=Abriil|5=Maajo|6=Juun|7=Luuliyo|8=Agoosto|9=Sebteembar|10=Oktoobar|11=Nofeembar|12=Diseembar|Incorrect required parameter 1=''month''!}}|Missing required parameter 1=''month''!}}</includeonly><noinclude>
+
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
