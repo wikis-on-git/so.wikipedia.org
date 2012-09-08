@@ -56,7 +56,7 @@
        }}
    |no}}
 }}|yes|{{#ifeq:{{lc:{{{small|}}}}}|yes|
-<div class="metadata topicon" id="protected-icon" style="display:none; right:55px;">[[Image:{{{image|{{#switch:{{lc:{{{type}}}}}
+<div class="metadata topicon" id="protected-icon" style="display:none; left:55px;">[[Image:{{{image|{{#switch:{{lc:{{{type}}}}}
  |full=Padlock.svg
  |semi=Padlock-silver.svg
  |move=Padlock-olive.svg
