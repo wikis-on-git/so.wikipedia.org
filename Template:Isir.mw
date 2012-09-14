@@ -1,0 +1,103 @@
+{|class="infobox" style="width:22em; background:#fff6d9; text-align:center; font-size:95%;" cellpadding="3"
+<!---------------Heading--------------->
+!style="text-align:center; font-size:larger; background:#b08261; color:#fee8ab;"| {{{Qaybo}}}
+|-
+<!---------------Image--------------->
+{{#if:{{{image|}}}|<!--then:-->
+{{!}}style="border:none; padding:8px 0 0 0;"{{!}} {{{image|}}}</tr>
+{{!}}style="border:none; padding:4px 0 8px 0; line-height:11pt; font-size:95%;"{{!}} {{{image_caption|}}}{{{caption|}}}</tr>
+<!--end #if:-->}}
+|-
+<!---------------Tirada dadka--------------->
+!style="background:#fee8ab;"| Tirada Dadka</tr>
+| <!--carriage-return to aid line-spacing:-->
+{{{population|}}}{{{pop|}}}{{{poptime|}}}
+|-
+<!---------------Meelaha--------------->
+!style="background:#fee8ab;"| Meelaha ay ku badanyihiin</tr>
+{{!}} {{#if:{{{popplace|}}}{{{regions|}}}|<!--then:-->
+{{{popplace|}}}{{{regions|}}}<!--end #if:-->}} {{#if:{{{region1|}}}|<!--then: region1 specified, so prepare table:-->{{#if:{{{popplace|}}}{{{regions|}}}|<!--then: new row needed:--></tr>
+{{!}} <!--end #if:-->}}<!--
+-----(table begins)----->
+{{{!}} align="center" style="width:100%; background:transparent; text-align:left; font-size:95%;"
+{{#if:{{{tablehdr|}}}|<!--then:--> {{!}}colspan="3" style="text-align:center; font-size:105%;"{{!}} {{{tablehdr}}}</tr><!--end #if:-->}}
+{{!}} {{{region1|}}} {{!!}}align="right"{{!}} {{{pop1|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref1|}}}
+{{!-}}
+{{#if:{{{region2|}}}|<!--then:--> {{!}} {{{region2|}}} {{!!}}align="right"{{!}} {{{pop2|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref2|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region3|}}}|<!--then:--> {{!}} {{{region3|}}} {{!!}}align="right"{{!}} {{{pop3|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref3|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region4|}}}|<!--then:--> {{!}} {{{region4|}}} {{!!}}align="right"{{!}} {{{pop4|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref4|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region5|}}}|<!--then:--> {{!}} {{{region5|}}} {{!!}}align="right"{{!}} {{{pop5|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref5|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region6|}}}|<!--then:--> {{!}} {{{region6|}}} {{!!}}align="right"{{!}} {{{pop6|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref6|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region7|}}}|<!--then:--> {{!}} {{{region7|}}} {{!!}}align="right"{{!}} {{{pop7|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref7|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region8|}}}|<!--then:--> {{!}} {{{region8|}}} {{!!}}align="right"{{!}} {{{pop8|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref8|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region9|}}}|<!--then:--> {{!}} {{{region9|}}} {{!!}}align="right"{{!}} {{{pop9|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref9|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region10|}}}|<!--then:--> {{!}} {{{region10|}}} {{!!}}align="right"{{!}} {{{pop10|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref10|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region11|}}}|<!--then:--> {{!}} {{{region11|}}} {{!!}}align="right"{{!}} {{{pop11|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref11|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region12|}}}|<!--then:--> {{!}} {{{region12|}}} {{!!}}align="right"{{!}} {{{pop12|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref12|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region13|}}}|<!--then:--> {{!}} {{{region13|}}} {{!!}}align="right"{{!}} {{{pop13|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref13|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region14|}}}|<!--then:--> {{!}} {{{region14|}}} {{!!}}align="right"{{!}} {{{pop14|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref14|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region15|}}}|<!--then:--> {{!}} {{{region15|}}} {{!!}}align="right"{{!}} {{{pop15|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref15|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region16|}}}|<!--then:--> {{!}} {{{region16|}}} {{!!}}align="right"{{!}} {{{pop16|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref16|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region17|}}}|<!--then:--> {{!}} {{{region17|}}} {{!!}}align="right"{{!}} {{{pop17|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref17|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region18|}}}|<!--then:--> {{!}} {{{region18|}}} {{!!}}align="right"{{!}} {{{pop18|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref18|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region19|}}}|<!--then:--> {{!}} {{{region19|}}} {{!!}}align="right"{{!}} {{{pop19|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref19|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region20|}}}|<!--then:--> {{!}} {{{region20|}}} {{!!}}align="right"{{!}} {{{pop20|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref20|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region21|}}}|<!--then:--> {{!}} {{{region21|}}} {{!!}}align="right"{{!}} {{{pop21|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref21|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region22|}}}|<!--then:--> {{!}} {{{region22|}}} {{!!}}align="right"{{!}} {{{pop22|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref22|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region23|}}}|<!--then:--> {{!}} {{{region23|}}} {{!!}}align="right"{{!}} {{{pop23|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref23|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region24|}}}|<!--then:--> {{!}} {{{region24|}}} {{!!}}align="right"{{!}} {{{pop24|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref24|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region25|}}}|<!--then:--> {{!}} {{{region25|}}} {{!!}}align="right"{{!}} {{{pop25|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref25|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region26|}}}|<!--then:--> {{!}} {{{region26|}}} {{!!}}align="right"{{!}} {{{pop26|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref26|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region27|}}}|<!--then:--> {{!}} {{{region27|}}} {{!!}}align="right"{{!}} {{{pop27|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref27|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region28|}}}|<!--then:--> {{!}} {{{region28|}}} {{!!}}align="right"{{!}} {{{pop28|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref28|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region29|}}}|<!--then:--> {{!}} {{{region29|}}} {{!!}}align="right"{{!}} {{{pop29|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref29|}}}
+{{!-}} <!--end #if:-->}}
+{{#if:{{{region30|}}}|<!--then:--> {{!}} {{{region30|}}} {{!!}}align="right"{{!}} {{{pop30|}}} {{!!}}style="padding-left:1em;"{{!}} {{{ref30|}}}
+{{!-}} <!--end #if:-->}}
+{{!}}}
+<!--end #if:-->}}
+|-
+<!---------------Luqadaha--------------->
+!style="background:#fee8ab;"| Luqadaha</tr>
+|
+{{{langs|}}}{{{Luqadaha|}}}</tr>
+<!---------------Diimaha--------------->
+!style="background:#fee8ab;"| Diimaha</tr>
+|
+{{{rels|}}}{{{Diimaha|}}}</tr>
+<!---------------Wada dhashay--------------->
+{{#if:{{{related|}}}|<!--then:-->
+!style="background:#fee8ab;"{{!}} Related ethnic groups</tr>
+{{!}}
+{{{related}}}</tr>
+<!--end #if:-->}}
+|}<noinclude>{{clear}}
+{{documentation}}
+</noinclude>
