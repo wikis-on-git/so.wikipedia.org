@@ -200,3 +200,32 @@ For further discussions please use [[m:Talk:Wikidata|this talk page]] (if you ar
 Hello! This wiki will be switched to the up to date Wikipedia logo in about a week. You can see it on [[commons:Wikipedia/2.0]]; please comment [[commons:Talk:Wikipedia/2.0|on talk]] if there's something wrong with it.<br />
 Thank you, [[m:Global message delivery|Global message delivery]] ([[commons:Talk:Wikipedia/2.0|feedback]]) 21:37, 22 Sebteembar 2012 (UTC)
 <!-- EdwardsBot 0256 -->
+
+== Upcoming software changes - please report any problems ==
+
+[[File:Wikimedia_Foundation_RGB_logo_with_text.svg|80px|right]]
+<div dir=ltr>
+''(Apologies if this message isn't in your language. Please consider translating it)''
+
+All Wikimedia wikis - including this one - will soon be upgraded with new and possibly disruptive code.  This process starts today and finishes on October 24 (see the [[mw:MediaWiki_1.21/Roadmap|upgrade schedule]] & [[mw:MediaWiki 1.21/wmf2|code details]]).
+
+Please watch for problems with:
+* revision diffs
+* templates
+* CSS and JavaScript pages (like user scripts)
+* bots
+* PDF export
+* images, video, and sound, especially scaling sizes
+* the CologneBlue skin
+
+If you notice any problems, please [[mw:How to report a bug|report problems]] at [[mw:Bugzilla|our defect tracker site]].  You can test for possible problems at [https://test2.wikipedia.org test2.wikipedia.org] and [https://mediawiki.org/ mediawiki.org], which have already been updated.
+
+Thanks!  With your help we can find problems fast and get them fixed faster.
+
+[[mw:User:Sharihareswara (WMF)|Sumana Harihareswara, Wikimedia Foundation Engineering Community Manager]] ([[mw:User talk:Sharihareswara (WMF)|talk]]) 03:13, 16 Oktoobar 2012 (UTC)
+
+P.S.: For the regular, smaller MediaWiki updates every two weeks, please [[mw:MediaWiki_1.21/Roadmap|watch this schedule]].
+
+<small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
+</div>
+<!-- EdwardsBot 0278 -->
