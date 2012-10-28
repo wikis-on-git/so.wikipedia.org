@@ -350,7 +350,7 @@
 }}{{#if:
 {{{content33|}}}|
 <tr>
-<td class="{{{contentclass|}}}" style="padding-bottom: 0.2em; {{{contentstyle|}}}; {{content33style|}}}">
+<td class="{{{contentclass|}}}" style="padding-bottom: 0.2em; {{{contentstyle|}}};{{{content33style|}}}">
 {{{content33}}}</td>
 </tr>
 }}{{#if: {{{heading34|}}}|
