@@ -1,0 +1,67 @@
+{| class="wikitable hlist" style="margin-left: auto; margin-right: auto; width: auto; text-align: center; font-size: 90%;"
+|+ <span style="font-size: 130%;">Navigation templates comparison</span>
+|- style="line-height: 10pt;"
+! style="text-align: left; padding-left: 4px; font-size: 111%;" | {{Navbar|Navigation templates|plain=1}}
+! Collapsible !! Header color
+! Image !! Groups !! Style (body) <br /> parameter/s !! Examples
+|-
+| style="text-align: left;" | {{tl|Navbox}}
+| collapsible || style="background: #ccf;" | navbox
+| Left/right of body || Yes || Yes ||
+* {{tl|Solar System}}
+* {{tl|Governance of Greater London}}
+|-
+| style="text-align: left;" | {{tl|Navbox with collapsible groups}}
+| collapsible || style="background: #ccf;" | navbox
+| Left/right of body and/or in each list || Yes || Yes ||
+* {{tl|Scouting}}
+* {{tl|University of Michigan}}
+|-
+| style="text-align: left;" | {{tl|Navbox with columns}}
+| collapsible || style="background: #ccf;" | navbox
+| Left/right of columns || No || Yes ||
+* {{tl|Current U.S. Senators}}
+* {{tl|Historical regions of the Czech Republic}}
+|-
+| style="text-align: left;" | {{tl|Navbox years}}
+| collapsible || style="background: #ccf;" | navbox
+| No || No || No ||
+* {{tl|Wimbledon tournaments}}
+|}
+
+{| class="wikitable" style="margin-left: auto; margin-right: auto; width: auto; text-align: center; font-size: 90%;"
+|+ <span style="font-size: 130%;">Collapsible attributes</span>
+|- style="line-height: 10pt;"
+! Type !! CSS classes !! Javascript !! Collapses when !! Custom <br /> initial&nbsp;state !! Nesting
+|-
+| align="left" | [[Help:Collapsing|Collapsible tables]]
+| collapsible
+| Defined in [[MediaWiki:Common.js|Common.js]]
+| 2 or more autocollapse on page || Yes || Yes
+|}<noinclude>
+
+[[Category:Navigational boxes| ]]
+
+[[ar:قالب:Navigational templates]]
+[[da:Skabelon:Navigational templates]]
+[[dsb:Pśedłoga:Nawigacije]]
+[[eo:Ŝablono:Navigilaro]]
+[[fa:الگو:Navigation templates]]
+[[fr:Modèle:Palette Modèles navigationnels]]
+[[hsb:Předłoha:Nawigacije]]
+[[id:Templat:Templat navigasi]]
+[[pam:Template:Navigational templates]]
+[[sw:Kigezo:Navigation templates]]
+[[arz:قالب:Navigation templates]]
+[[ne:ढाँचा:Navigational templates]]
+[[ja:Template:Navigational templates]]
+[[no:Mal:Navigational templates]]
+[[or:ଛାଞ୍ଚ:Navigation templates]]
+[[pt:Predefinição:Modelo de navegação]]
+[[ro:Format:Navigational templates]]
+[[sq:Stampa:Stampa navigacione]]
+[[ta:வார்ப்புரு:Navigational templates]]
+[[tr:Şablon:Dolaşım şablonları]]
+[[uk:Шаблон:Навігаційні шаблони]]
+[[zh:Template:Navigational templates]]
+</noinclude>
