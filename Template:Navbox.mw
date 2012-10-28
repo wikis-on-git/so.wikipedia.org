@@ -24,7 +24,7 @@ Please do not edit without discussion first as this is a VERY complex template.
  -->{{#ifeq:{{{navbar|}}}|off|{{#ifeq:{{{state|}}}|plain|<div style="float:right;width:6em;">&nbsp;</div>}}|<!--
  -->{{#ifeq:{{{state|}}}|plain||<div style="float:left; width:6em;text-align:left;">&nbsp;</div>}}}}|<!--
  --><div style="float:left; width:6em;text-align:left;"><!--
- -->{{Tnavbar|{{{name}}}|fontstyle={{{basestyle|}}};{{{titlestyle|}}};border:none;|mini=1}}<!--
+ -->{{Navbar|{{{name}}}|fontstyle={{{basestyle|}}};{{{titlestyle|}}};border:none;|mini=1}}<!--
  --></div>{{#ifeq:{{{state|}}}|plain|<div style="float:right;width:6em;">&nbsp;</div>}}}}<!--
 
  --><span style="font-size:{{#switch:{{{border|{{{1|}}}}}}|subgroup|child|none=100|#default=110}}%;"><!--
