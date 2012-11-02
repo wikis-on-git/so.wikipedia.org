@@ -1,8 +1,8 @@
-{{#ifeq:{{{child|}}}|yes||<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:22em; {{#if:{{{float|}}}|float: {{{float}}}; clear: {{#ifeq:{{{float|}}}|none|both|{{{float}}}}}; margin: 0 0 1em 1em;}} {{{bodystyle|}}}"><!--
+{{#ifeq:{{{child|}}}|yes||<table class="infobox {{{bodyclass|}}}" cellspacing="3" style="border-spacing: 3px; width:22em; {{{bodystyle|}}}"><!--
  Caption
 -->{{#if:{{{title|}}}|<caption class="{{{titleclass|}}}" style="{{{titlestyle|}}}">{{{title}}}</caption>}}<!--
  Header
--->{{#if:{{{above|}}}|<tr><th colspan=2 class="{{{aboveclass|}}}" style="text-align:center; font-size:125%; font-weight:bold; {{{abovestyle|}}}">{{{above}}}</th></tr>}}
+-->{{#if:{{{above|}}}|<tr><th colspan="2" class="{{{aboveclass|}}}" style="text-align:center; font-size:125%; font-weight:bold; {{{abovestyle|}}}">{{{above}}}</th></tr>}}
 }}{{#ifeq:{{{child|}}}|yes|{{#if:{{{title|}}}|'''{{{title}}}'''}}}}<!--
  Subheader1
 -->{{#if:{{{subheader|{{{subheader1|}}}}}}|{{Infobox/row
@@ -432,11 +432,106 @@
  |label={{{label80|}}}   |labelstyle={{{labelstyle|}}}
  |data={{{data80|}}}     |datastyle={{{datastyle|}}}
  |class={{{class80|}}}   |rowclass={{{rowclass80|}}}
+}}{{Infobox/row
+ |header={{{header81|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label81|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data81|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class81|}}}   |rowclass={{{rowclass81|}}}
+}}{{Infobox/row
+ |header={{{header82|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label82|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data82|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class82|}}}   |rowclass={{{rowclass82|}}}
+}}{{Infobox/row
+ |header={{{header83|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label83|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data83|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class83|}}}   |rowclass={{{rowclass83|}}}
+}}{{Infobox/row
+ |header={{{header84|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label84|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data84|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class84|}}}   |rowclass={{{rowclass84|}}}
+}}{{Infobox/row
+ |header={{{header85|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label85|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data85|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class85|}}}   |rowclass={{{rowclass85|}}}
+}}{{Infobox/row
+ |header={{{header86|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label86|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data86|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class86|}}}   |rowclass={{{rowclass86|}}}
+}}{{Infobox/row
+ |header={{{header87|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label87|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data87|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class87|}}}   |rowclass={{{rowclass87|}}}
+}}{{Infobox/row
+ |header={{{header88|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label88|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data88|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class88|}}}   |rowclass={{{rowclass88|}}}
+}}{{Infobox/row
+ |header={{{header89|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label89|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data89|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class89|}}}   |rowclass={{{rowclass89|}}}
+}}{{Infobox/row
+ |header={{{header90|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label90|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data90|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class90|}}}   |rowclass={{{rowclass90|}}}
+}}{{Infobox/row
+ |header={{{header91|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label91|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data91|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class91|}}}   |rowclass={{{rowclass91|}}}
+}}{{Infobox/row
+ |header={{{header92|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label92|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data92|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class92|}}}   |rowclass={{{rowclass92|}}}
+}}{{Infobox/row
+ |header={{{header93|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label93|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data93|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class93|}}}   |rowclass={{{rowclass93|}}}
+}}{{Infobox/row
+ |header={{{header94|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label94|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data94|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class94|}}}   |rowclass={{{rowclass94|}}}
+}}{{Infobox/row
+ |header={{{header95|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label95|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data95|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class95|}}}   |rowclass={{{rowclass95|}}}
+}}{{Infobox/row
+ |header={{{header96|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label96|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data96|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class96|}}}   |rowclass={{{rowclass96|}}}
+}}{{Infobox/row
+ |header={{{header97|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label97|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data97|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class97|}}}   |rowclass={{{rowclass97|}}}
+}}{{Infobox/row
+ |header={{{header98|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label98|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data98|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class98|}}}   |rowclass={{{rowclass98|}}}
+}}{{Infobox/row
+ |header={{{header99|}}} |headerstyle={{{headerstyle|}}}
+ |label={{{label99|}}}   |labelstyle={{{labelstyle|}}}
+ |data={{{data99|}}}     |datastyle={{{datastyle|}}}
+ |class={{{class99|}}}   |rowclass={{{rowclass99|}}}
 }}<!-- Below
--->{{#if:{{{below|}}}|<tr><td colspan=2 class="{{{belowclass|}}}" style="text-align:center; {{{belowstyle|}}}">{{{below}}}</td></tr>}}<!--
+-->{{#if:{{{below|}}}|<tr><td colspan="2" class="{{{belowclass|}}}" style="text-align:center; {{{belowstyle|}}}">{{{below}}}</td></tr>}}<!--
  Navbar
--->{{#if:{{{name|}}}|<tr><td colspan=2 style="text-align:right">{{navbar|{{{name}}}|mini=1}}</td></tr>}}
+-->{{#if:{{{name|}}}|<tr><td colspan="2" style="text-align:right">{{navbar|{{{name}}}|mini=1}}</td></tr>}}
 {{#ifeq:{{{child|}}}|yes||</table>}}{{#switch:{{lc:{{{italic title|¬}}}}}
  |¬|no       = <!-- no italic title -->
  ||force|yes = {{italic title|force={{#ifeq:{{lc:{{{italic title|}}}}}|force|true}}}}
-}}<includeonly>{{#ifeq:{{{decat|}}}|yes||{{#if:{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}{{{data6|}}}{{{data7|}}}{{{data8|}}}{{{data9|}}}{{{data10|}}}{{{data11|}}}{{{data12|}}}{{{data13|}}}{{{data14|}}}{{{data15|}}}{{{data16|}}}{{{data17|}}}{{{data18|}}}{{{data19|}}}{{{data20|}}}{{{data21|}}}{{{data22|}}}{{{data23|}}}{{{data24|}}}{{{data25|}}}{{{data26|}}}{{{data27|}}}{{{data28|}}}{{{data29|}}}{{{data30|}}}{{{data31|}}}{{{data32|}}}{{{data33|}}}{{{data34|}}}{{{data35|}}}{{{data36|}}}{{{data37|}}}{{{data38|}}}{{{data39|}}}{{{data40|}}}{{{data41|}}}{{{data42|}}}{{{data43|}}}{{{data44|}}}{{{data45|}}}{{{data46|}}}{{{data47|}}}{{{data48|}}}{{{data49|}}}{{{data50|}}}{{{data51|}}}{{{data52|}}}{{{data53|}}}{{{data54|}}}{{{data55|}}}{{{data56|}}}{{{data57|}}}{{{data58|}}}{{{data59|}}}{{{data60|}}}{{{data61|}}}{{{data62|}}}{{{data63|}}}{{{data64|}}}{{{data65|}}}{{{data66|}}}{{{data67|}}}{{{data68|}}}{{{data69|}}}{{{data70|}}}{{{data71|}}}{{{data72|}}}{{{data73|}}}{{{data74|}}}{{{data75|}}}{{{data76|}}}{{{data77|}}}{{{data78|}}}{{{data79|}}}{{{data80|}}}||{{namespace detect|main=[[category:articles which use infobox templates with no data rows]]}}}}}}</includeonly><noinclude>{{documentation}}</noinclude>
+}}<includeonly>{{#ifeq:{{{decat|}}}|yes||{{#if:{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}{{{data6|}}}{{{data7|}}}{{{data8|}}}{{{data9|}}}{{{data10|}}}{{{data11|}}}{{{data12|}}}{{{data13|}}}{{{data14|}}}{{{data15|}}}{{{data16|}}}{{{data17|}}}{{{data18|}}}{{{data19|}}}{{{data20|}}}{{{data21|}}}{{{data22|}}}{{{data23|}}}{{{data24|}}}{{{data25|}}}{{{data26|}}}{{{data27|}}}{{{data28|}}}{{{data29|}}}{{{data30|}}}{{{data31|}}}{{{data32|}}}{{{data33|}}}{{{data34|}}}{{{data35|}}}{{{data36|}}}{{{data37|}}}{{{data38|}}}{{{data39|}}}{{{data40|}}}{{{data41|}}}{{{data42|}}}{{{data43|}}}{{{data44|}}}{{{data45|}}}{{{data46|}}}{{{data47|}}}{{{data48|}}}{{{data49|}}}{{{data50|}}}{{{data51|}}}{{{data52|}}}{{{data53|}}}{{{data54|}}}{{{data55|}}}{{{data56|}}}{{{data57|}}}{{{data58|}}}{{{data59|}}}{{{data60|}}}{{{data61|}}}{{{data62|}}}{{{data63|}}}{{{data64|}}}{{{data65|}}}{{{data66|}}}{{{data67|}}}{{{data68|}}}{{{data69|}}}{{{data70|}}}{{{data71|}}}{{{data72|}}}{{{data73|}}}{{{data74|}}}{{{data75|}}}{{{data76|}}}{{{data77|}}}{{{data78|}}}{{{data79|}}}{{{data80|}}}{{{data81|}}}{{{data82|}}}{{{data83|}}}{{{data84|}}}{{{data85|}}}{{{data86|}}}{{{data87|}}}{{{data88|}}}{{{data89|}}}{{{data90|}}}{{{data91|}}}{{{data92|}}}{{{data93|}}}{{{data94|}}}{{{data95|}}}{{{data96|}}}{{{data97|}}}{{{data98|}}}{{{data99|}}}||{{namespace detect|main=[[category:articles which use infobox templates with no data rows]]}}}}}}</includeonly><noinclude>{{documentation}}</noinclude>
