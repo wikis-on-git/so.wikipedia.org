@@ -1,4 +1,4 @@
-{{#if:{{{header|}}}
+<noinclude><pre></noinclude>{{#if:{{{header|}}}
  |<tr><th colspan="2" class="{{{class|}}}" style="text-align:center; {{{headerstyle|}}}">{{{header}}}</th></tr>
  |{{#if:{{{data|}}}
   |<tr class="{{{rowclass|}}}">{{#if:{{{label|}}}
@@ -8,4 +8,4 @@
   }}
 {{{data}}}</td></tr>
  }}
-}}
+}}<noinclude></pre></noinclude>
