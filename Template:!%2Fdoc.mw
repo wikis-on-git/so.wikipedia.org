@@ -1,0 +1,113 @@
+{{Documentation subpage}}
+<!-- DO NOT move the "pp-template" to the template page since the ! template should be as short as possible to save server load (to not break template inclusion limits). -->
+{{high-risk|2,500,000+}}
+__NOTOC__
+
+== Usage ==
+
+This is the {{t<noinclude>n</noinclude><includeonly>l</includeonly>|!}} meta-template. Its use is analogous to an [[escape character]].
+
+This is an auxiliary template allowing the encoding of "<code>|</code>" within template parameters, because the pipe character is normally interpreted as a separator. This template is necessary if the character is used in wiki table syntax, or if the parameter is automatically wikilinked and you wish to use a pipe to specify different link text from the target page name. In other cases it is better to use "<code>&amp;#124;</code>". 
+
+This template cannot be used for putting the character as text in a wiki table; in that case, again,  "<code>&amp;#124;</code>" can be used.
+
+Note that no special template is needed for "<code>!</code>" (exclamation mark).
+
+This is a [[WP:high-risk template|high-risk template]], and it usually cannot be [[Wikipedia:Substitution|substituted]] (see conditions for substing on [[#Substitution|the section below]]).
+
+=== Substitution ===
+It is possible to [[Wikipedia:Substitution|substitute]] <nowiki>{{!}}</nowiki> only if an unescaped "'''<code>|</code>'''" works as expected, i.e. after substituting the template containing <nowiki>{{!}}</nowiki>, or after eliminating an
+[[mw:Help:Extension:ParserFunctions#.23if|#if]] containing <nowiki>{{!}}</nowiki>.
+
+=== A simple example ===
+
+The following template code for {{tl|Quotation}} using an ordinary pipe character,
+* <code><nowiki>{{Quotation|It is not possible to use an ordinary pipe character | in template parameters, as it will be interpreted as a separator.|[[Help:Template#Usage hints and workarounds]]}}</nowiki></code>
+
+produces:
+{{Quotation|It is not possible to use an ordinary pipe character | in template parameters, as it will be interpreted as a separator.|[[Help:Template#Usage hints and workarounds]]}}
+
+whereas this code using the <nowiki>{{!}}</nowiki> meta-template,
+* <code><nowiki>{{Quotation|It is not possible to use an ordinary pipe character {{!}} in template parameters, as it will be interpreted as a separator.|[[Help:Template#Usage hints and workarounds]]}}</nowiki></code>
+
+produces:
+{{Quotation|It is not possible to use an ordinary pipe character {{!}} in template parameters, as it will be interpreted as a separator.|[[Help:Template#Usage hints and workarounds]]}}
+
+== See also ==
+* {{tl|!!}} creates ||
+* {{tl|!-}} creates |-
+* {{tl|-!}} creates &amp;nbsp;|
+* {{tn|'}} and related
+* [[Wikipedia:Conditional tables]]
+* {{tl|pipe}} - Note that this one looks like {{tlf|!}} but has a very different meaning for the MediaWiki parser and thus has different functionality.
+* {{tn|(}} creates {
+* {{tn|((}} creates {{
+* {{tn|)}} creates }
+* {{tn|))}} creates }} 
+* {{tl|!(}} creates [
+* {{tl|)!}} creates ] 
+* {{tl|(!}} creates {| 
+* {{tl|!)}} creates |}  
+* {{tl|1==}} creates =
+* {{tl|Bar box}} — since {{tl|Bar}} redirects here
+
+<includeonly>
+[[Category:Template namespace templates|{{PAGENAME}}]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+
+<!-- These are the inter-language links for templates in other languages corresponding to [[Template:!]] -->
+[[ar:قالب:!]]
+[[as:Template:!]]
+[[be-x-old:Шаблён:!]]
+[[bg:Шаблон:!]]
+[[bn:Template:!]]
+[[cs:Šablona:!]]
+[[da:Skabelon:!]]
+[[de:Vorlage:!]]
+[[dsb:Pśedłoga:!]]
+[[et:Mall:!]]
+[[es:Plantilla:!]]
+[[fa:الگو:!]]
+[[fr:Modèle:!]]
+[[hsb:Předłoha:!]]
+[[it:Template:!]]
+[[ja:Template:!]]
+[[ka:თარგი:!]]
+[[ko:틀:!]]
+[[ku:Şablon:!]]
+[[la:Formula:!]]
+[[myv:ЛопаПарцун:!]]
+[[nl:Sjabloon:!]]
+[[no:Mal:!]]
+[[pap:Template:!]]
+[[pl:Szablon:!]]
+[[pt:Template:!]]
+[[ru:Шаблон:!]]
+[[sk:Šablóna:!]]
+[[sl:Template:!]]
+[[sr:Шаблон:!]]
+[[vi:Tiêu bản:!]]
+[[zh:Template:!]]
+[[zh-yue:Template:!]]
+[[he:תבנית:!]]
+[[uk:Шаблон:!]]
+[[fi:Malline:!]]
+[[sv:Mall:!]]
+[[simple:Template:!]]
+[[ur:سانچہ:!]]
+</includeonly><noinclude>
+
+<!-- These are the inter-language links for the documentation subpage [[Template:!/doc]], not for the template itself. -->
+[[ar:قالب:!/شرح]]
+[[as:সাঁচ:!/doc]]
+[[cs:Šablona:!/doc]]
+[[de:Vorlage:!/Doku]]
+[[es:Plantilla:!/doc]]
+[[fa:الگو:!/توضیحات]]
+[[fr:Modèle:!/Documentation]]
+[[or:ଛାଞ୍ଚ:!/doc]]
+[[ro:Format:!/doc]]
+[[ru:Шаблон:!/doc]]
+[[si:සැකිල්ල:!/doc]]
+[[simple:Template:!/doc]]
+</noinclude>
