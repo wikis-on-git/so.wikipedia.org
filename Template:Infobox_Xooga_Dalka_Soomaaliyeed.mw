@@ -40,8 +40,8 @@
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
-{{#if:{{{commander-in-chief|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Taliyaha ciidamada qalabka sida}}
+{{#if:{{{Abaanduuliyaha|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Abaan duuliyeha}}
 {{!}} {{{Taliyaha ciidamada qalabka sida|}}}
 }}
 |-
@@ -110,7 +110,7 @@
 }}
 |-
 {{#if:{{{amount|}}}|
-! style="padding-right: 1em;" {{!}} Miisaaniyadda
+! style="padding-right: 1em;" {{!}} Budget
 {{!}} {{{amount|}}}
 }}
 |-
