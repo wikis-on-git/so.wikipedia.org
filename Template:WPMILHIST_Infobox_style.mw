@@ -1,0 +1,20 @@
+<includeonly>{{#switch:{{{1|}}}
+|main_box= class="infobox {{#if:{{{2|}}}|{{{2}}}}}" style="float: right; clear: right; width: 315px; border-spacing: 2px; text-align: left; font-size: 90%;"
+|main_box_raw= width: 315px; border-spacing: 2px; font-size: 90%;
+|header_bar= style="background-color: #B0C4DE; text-align: center; vertical-align: middle; font-size: 110%;"
+|sub_header_bar= style="background-color: #DCDCDC; text-align: center; vertical-align: middle;"
+|header_color= background-color: #B0C4DE;
+|nav_box= margin: 0; float: right; clear: right; width: 315px; margin-bottom: 0.5em; margin-left: 1em;
+|nav_box_child= margin: 0; float: right; clear: right; width: 305px; margin-bottom: 0.5em;
+|nav_box_wide=  
+|nav_box_header= background-color: #B0C4DE;
+|nav_box_wide_header= background-color: #B0C4DE;
+|nav_box_label= background-color: #DCDCDC;
+|image_box= style="text-align: center; font-size: 90%; border-bottom: 1px solid #aaa; line-height: 1.5em;"
+|image_box_plain= style="text-align: center; font-size: 90%; line-height: 1.5em;"
+|internal_border= 1px dotted #aaa;
+|section_border= 1px solid #aaa;
+|#default=
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
