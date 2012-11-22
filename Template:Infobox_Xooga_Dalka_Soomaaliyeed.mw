@@ -41,8 +41,8 @@
 }}
 |-
 {{#if:{{{commander-in-chief|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Commander-in-Chief}}
-{{!}} {{{Taliyaha ciidama qalabka sida|}}}
+! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Taliyaha ciidamada qalabka sida}}
+{{!}} {{{commander-in-Chief|}}}
 }}
 |-
 {{#if:{{{minister|}}}|
@@ -84,7 +84,7 @@
 }}}}
 |-
 {{#if:{{{reaching|}}}|
-! style="padding-right: 1em;" {{!}} Waxa Ciidan noqanka<br/>Sanadkiiba 
+! style="padding-right: 1em;" {{!}} Waxa Ciidan noqan kara<br/>Sanadkiiba 
 {{!}} {{{reaching|}}} {{#if:{{{reaching_f|}}}
 |males{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;females {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |{{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
