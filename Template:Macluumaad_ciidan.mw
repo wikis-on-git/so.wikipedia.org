@@ -36,23 +36,23 @@
 {{!}} {{{flying_hours|}}}
 }}
 |-
-{{#if:{{{commander-in-chief|}}}{{{minister|}}}{{{commander|}}}{{{chief_of_staff|}}}|
+{{#if:{{{1|}}}{{{1r|}}}{{{3|}}}{{{4|}}}|
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
-{{#if:{{{commander-in-chief|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{Hogaanka guud ee ciidamada|}}}|{{{Hogaanka guud ee ciidamada|}}}|Hogaanka guud ee ciidamada}}
-{{!}} {{{Abaan duuliyeha|}}}
+{{#if:{{{1|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{1|}}}|{{{1a|}}}|1}}
+{{!}} {{{1|}}}
 }}
 |-
-{{#if:{{{minister|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{minister_title|}}}|{{{minister_title|}}}|Minister of Defense}}
-{{!}} {{{Wasiir|}}}
+{{#if:{{{2|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{2|}}}|{{{2|}}}|2}}
+{{!}} {{{2}}}
 }}
 |-
-{{#if:{{{commander|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{commander_title|}}}|{{{commander_title|}}}|Chief of staff}}
-{{!}} {{{Taliyaha|}}}
+{{#if:{{{3|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{3|}}}|{{{3|}}}|3}}
+{{!}} {{{3|}}}
 }}
 |-
 {{#if:{{{age|}}}{{{conscription|}}}{{{available|}}}{{{fit|}}}{{{reaching|}}}{{{active|}}}{{{reserve|}}}{{{deployed|}}}|
