@@ -40,8 +40,8 @@
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
-{{#if:{{{Hogaanka guud|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Commander-in-Chief}}
+{{#if:{{{commander-in-chief|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{Hogaanka guud ee ciidamada|}}}|{{{Hogaanka guud ee ciidamada|}}}|Commander-in-Chief}}
 {{!}} {{{Abaan duuliyeha|}}}
 }}
 |-
