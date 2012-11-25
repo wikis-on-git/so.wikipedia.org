@@ -36,7 +36,7 @@
 {{!}} {{{flying_hours|}}}
 }}
 |-
-{{#if:{{{1|}}}{{{1r|}}}{{{3|}}}{{{4|}}}|
+{{#if:{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}|
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
@@ -101,7 +101,7 @@
 }}
 |-
 {{#if:{{{deployed|}}}|
-! style="padding-right: 1em;" {{!}} Maalaha ay joogaan
+! style="padding-right: 1em;" {{!}} Meelaha ay joogaan
 {{!}} {{{deployed|}}}
 }}
 |-
