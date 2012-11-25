@@ -7,65 +7,65 @@
 }}
 |-
 {{#if:{{{founded|}}}|
-! style="padding-right: 1em;" {{!}} Founded
+! style="padding-right: 1em;" {{!}} La aas'aasay
 {{!}} {{{founded|}}}
 }}
 |-
 {{#if:{{{current_form|}}}|
-! style="padding-right: 1em;" {{!}} Current form
+! style="padding-right: 1em;" {{!}} Qaabka hadda
 {{!}} {{{current_form|}}}
 }}
 |-
 {{#if:{{{disbanded|}}}|
-! style="padding-right: 1em;" {{!}} Disbanded
+! style="padding-right: 1em;" {{!}} Burburkoodii
 {{!}} {{{disbanded|}}}
 }}
 |-
 {{#if:{{{branches|}}}|
-! style="padding-right: 1em;" {{!}} Service branches
+! style="padding-right: 1em;" {{!}} Qaybaha shaqeeya
 {{!}} {{{branches|}}}
 }}
 |-
 {{#if:{{{headquarters|}}}|
-! style="padding-right: 1em;" {{!}} Headquarters
+! style="padding-right: 1em;" {{!}} Xarunta
 {{!}} {{{headquarters|}}}
 }}
 |-
 {{#if:{{{flying_hours|}}}|
-! style="padding-right: 1em;" {{!}} Air arm flying hours
+! style="padding-right: 1em;" {{!}} Gaarista hadafka
 {{!}} {{{flying_hours|}}}
 }}
 |-
 {{#if:{{{commander-in-chief|}}}{{{minister|}}}{{{commander|}}}{{{chief_of_staff|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Leadership
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
 {{#if:{{{commander-in-chief|}}}|
 ! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Commander-in-Chief}}
-{{!}} {{{commander-in-chief|}}}
+{{!}} {{{Abaan duuliyeha|}}}
 }}
 |-
 {{#if:{{{minister|}}}|
 ! style="padding-right: 1em;" {{!}} {{#if:{{{minister_title|}}}|{{{minister_title|}}}|Minister of Defense}}
-{{!}} {{{minister|}}}
+{{!}} {{{Wasiir|}}}
 }}
 |-
 {{#if:{{{commander|}}}|
 ! style="padding-right: 1em;" {{!}} {{#if:{{{commander_title|}}}|{{{commander_title|}}}|Chief of staff}}
-{{!}} {{{commander|}}}
+{{!}} {{{Taliyaha|}}}
 }}
 |-
 {{#if:{{{age|}}}{{{conscription|}}}{{{available|}}}{{{fit|}}}{{{reaching|}}}{{{active|}}}{{{reserve|}}}{{{deployed|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Manpower
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Awooda ciidan
 }}
 |-
 {{#if:{{{age|}}}|
-! style="padding-right: 1em;" {{!}} Military&nbsp;age
+! style="padding-right: 1em;" {{!}} Da'da&nbsp;Ciidanka
 {{!}} {{{age|}}}
 }}
 |-
 {{#if:{{{conscription|}}}|
-! style="padding-right: 1em;" {{!}} Conscription
+! style="padding-right: 1em;" {{!}} Taba barka
 {{!}} {{{conscription|}}}
 }}
 |-
@@ -84,76 +84,76 @@
 }}}}
 |-
 {{#if:{{{reaching|}}}|
-! style="padding-right: 1em;" {{!}} Reaching military<br/>age annually
+! style="padding-right: 1em;" {{!}} Sanadkiiba<br/>ciidan noqon kara
 {{!}} {{{reaching|}}} {{#if:{{{reaching_f|}}}
 |males{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;females {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |{{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 }}}}
 |-
 {{#if:{{{active|}}}|
-! style="padding-right: 1em;" {{!}} Active personnel
+! style="padding-right: 1em;" {{!}} Firfircoon
 {{!}} {{{active|}}} {{#if:{{{ranked|}}}|([[List of countries by number of troops|ranked {{{ranked|}}}]])}}
 }}
 |-
 {{#if:{{{reserve|}}}|
-! style="padding-right: 1em;" {{!}} Reserve personnel
+! style="padding-right: 1em;" {{!}} Kaydka ciidan
 {{!}} {{{reserve|}}}
 }}
 |-
 {{#if:{{{deployed|}}}|
-! style="padding-right: 1em;" {{!}} Deployed personnel
+! style="padding-right: 1em;" {{!}} Maalaha ay joogaan
 {{!}} {{{deployed|}}}
 }}
 |-
 {{#if:{{{amount|}}}{{{percent_GDP|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Expenditures
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} qarashka ku baxa
 }}
 |-
 {{#if:{{{amount|}}}|
-! style="padding-right: 1em;" {{!}} Budget
+! style="padding-right: 1em;" {{!}} Miisaaniyada
 {{!}} {{{amount|}}}
 }}
 |-
 {{#if:{{{percent_GDP|}}}|
-! style="padding-right: 1em;" {{!}} Percent of GDP
+! style="padding-right: 1em;" {{!}} Inta uga baxda dakhliga gudaha
 {{!}} {{{percent_GDP|}}}
 }}
 |-
 {{#if:{{{domestic_suppliers|}}}{{{foreign_suppliers|}}}{{{imports|}}}{{{exports|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Industry
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Qalabka
 }}
 |-
 {{#if:{{{domestic_suppliers|}}}|
-! style="padding-right: 1em;" {{!}} Domestic suppliers
+! style="padding-right: 1em;" {{!}} Qalabka dalku sameeyey
 {{!}} {{{domestic_suppliers|}}}
 }}
 |-
 {{#if:{{{foreign_suppliers|}}}|
-! style="padding-right: 1em;" {{!}} Foreign suppliers
+! style="padding-right: 1em;" {{!}} Qalabka dibadda kaga yimid
 {{!}} {{{foreign_suppliers|}}}
 }}
 |-
 {{#if:{{{imports|}}}|
-! style="padding-right: 1em;" {{!}} Annual imports
+! style="padding-right: 1em;" {{!}} sanadkii inta ay soo dhoofsadaan
 {{!}} {{{imports|}}}
 }}
 |-
 {{#if:{{{exports|}}}|
-! style="padding-right: 1em;" {{!}} Annual exports
+! style="padding-right: 1em;" {{!}} Sanadkii inta ay dhoofiyaan
 {{!}} {{{exports|}}}
 }}
 |-
 {{#if:{{{history|}}}{{{ranks|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Related articles
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Qoraalo xiriir la leh
 }}
 |-
 {{#if:{{{history|}}}|
-! style="padding-right: 1em;" {{!}} History
+! style="padding-right: 1em;" {{!}} Taariikhda
 {{!}} {{{history|}}}
 }}
 |-
 {{#if:{{{ranks|}}}|
-! style="padding-right: 1em;" {{!}} Ranks
+! style="padding-right: 1em;" {{!}} website
 {{!}} {{{ranks|}}}
 }}
 |-
