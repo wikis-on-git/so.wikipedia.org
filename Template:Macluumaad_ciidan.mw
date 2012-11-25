@@ -70,14 +70,14 @@
 }}
 |-
 {{#if:{{{available|}}}|
-! style="padding-right: 1em;" {{!}} Available for<br/>military service
+! style="padding-right: 1em;" {{!}} Ciidan <br/>noqon kara
 {{!}} {{{available|}}}{{#if:{{{available_f|}}}
-|&nbsp;males, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}}{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{available_f|}}}&nbsp;females, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
+|&nbsp;Rag, Da'da&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}}{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{available_f|}}}&nbsp;Dumar, Da'da&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 }}}}
 |-
 {{#if:{{{fit|}}}|
-! style="padding-right: 1em;" {{!}} Fit for<br/>military service
+! style="padding-right: 1em;" {{!}} Ku haboon<br/>ciidan
 {{!}} {{{fit|}}}{{#if:{{{fit_f|}}}
 |&nbsp;males, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}}{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{fit_f|}}}&nbsp;females, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
