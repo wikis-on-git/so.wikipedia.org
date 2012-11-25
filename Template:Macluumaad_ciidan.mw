@@ -36,23 +36,23 @@
 {{!}} {{{flying_hours|}}}
 }}
 |-
-{{#if:{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}|
+{{#if:{{{commander-in-chief|}}}{{{minister|}}}{{{commander|}}}{{{chief_of_staff|}}}|
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
-{{#if:{{{1|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{1|}}}|{{{1a|}}}|1}}
-{{!}} {{{1|}}}
+{{#if:{{{commander-in-chief|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Commander-in-Chief}}
+{{!}} {{{commander-in-chief|}}}
 }}
 |-
-{{#if:{{{2|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{2|}}}|{{{2|}}}|2}}
-{{!}} {{{2}}}
+{{#if:{{{minister|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{minister_title|}}}|{{{minister_title|}}}|Minister of Defense}}
+{{!}} {{{minister|}}}
 }}
 |-
-{{#if:{{{3|}}}|
-! style="padding-right: 1em;" {{!}} {{#if:{{{3|}}}|{{{3|}}}|3}}
-{{!}} {{{3|}}}
+{{#if:{{{commander|}}}|
+! style="padding-right: 1em;" {{!}} {{#if:{{{commander_title|}}}|{{{commander_title|}}}|Chief of staff}}
+{{!}} {{{commander|}}}
 }}
 |-
 {{#if:{{{age|}}}{{{conscription|}}}{{{available|}}}{{{fit|}}}{{{reaching|}}}{{{active|}}}{{{reserve|}}}{{{deployed|}}}|
