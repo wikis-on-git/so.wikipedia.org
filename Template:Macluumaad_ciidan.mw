@@ -86,7 +86,7 @@
 {{#if:{{{reaching|}}}|
 ! style="padding-right: 1em;" {{!}} Sanadkiiba<br/>ciidan noqon kara
 {{!}} {{{reaching|}}} {{#if:{{{reaching_f|}}}
-|males{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;Dumar {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
+|Rag{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;Dumar {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |{{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 }}}}
 |-
