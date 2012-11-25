@@ -40,7 +40,7 @@
 ! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Hogaanka
 }}
 |-
-{{#if:{{{commander-in-chief|}}}|
+{{#if:{{{Hogaanka guud|}}}|
 ! style="padding-right: 1em;" {{!}} {{#if:{{{commander-in-chief_title|}}}|{{{commander-in-chief_title|}}}|Commander-in-Chief}}
 {{!}} {{{Abaan duuliyeha|}}}
 }}
@@ -79,20 +79,20 @@
 {{#if:{{{fit|}}}|
 ! style="padding-right: 1em;" {{!}} Ku haboon<br/>ciidan
 {{!}} {{{fit|}}}{{#if:{{{fit_f|}}}
-|&nbsp;males, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}}{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{fit_f|}}}&nbsp;females, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
+|&nbsp;Rag, Da'da&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}}{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{fit_f|}}}&nbsp;Dumar, Da'da&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |, age&nbsp;{{#if:{{{manpower_age|}}}|{{{manpower_age|}}}|15–49}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 }}}}
 |-
 {{#if:{{{reaching|}}}|
 ! style="padding-right: 1em;" {{!}} Sanadkiiba<br/>ciidan noqon kara
 {{!}} {{{reaching|}}} {{#if:{{{reaching_f|}}}
-|males{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;females {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
+|males{{#if:{{{manpower_data|}}}||,}} {{#if:{{{manpower_data|}}}|({{{manpower_data|}}}),}}<br/>{{{reaching_f|}}}&nbsp;Dumar {{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 |{{#if:{{{manpower_data|}}}|({{{manpower_data|}}})}}
 }}}}
 |-
 {{#if:{{{active|}}}|
 ! style="padding-right: 1em;" {{!}} Firfircoon
-{{!}} {{{active|}}} {{#if:{{{ranked|}}}|([[List of countries by number of troops|ranked {{{ranked|}}}]])}}
+{{!}} {{{active|}}} {{#if:{{{ranked|}}}|([[Liiska ciidaiidama aduunka tiro ahaan|booska ay joogaan {{{ranked|}}}]])}}
 }}
 |-
 {{#if:{{{reserve|}}}|
@@ -144,7 +144,7 @@
 }}
 |-
 {{#if:{{{history|}}}{{{ranks|}}}|
-! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Qoraalo xiriir la leh
+! colspan="2" {{WPMILHIST Infobox style|header_bar}} {{!}} Xigasho
 }}
 |-
 {{#if:{{{history|}}}|
