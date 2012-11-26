@@ -2,35 +2,35 @@
 ! colspan=19 style="background:{{Element color/Table|title}}; padding:2px 4px;" | {{tnavbar-collapsible | [[Jadwalka Curiyayaasha]] <small>( Kaltanka Curiyayaasha)</small> | Template:Periodic table }}
 |- style="background:{{Element color/Table|colheader}}"
 ! style="width: 2.8%;" | [[Qaybaha (periodic table)|Qaybaha]]&nbsp;&rarr;
-! style="width: 5.4%;" | [[Alkali metal|1]]
-! style="width: 5.4%;" | [[Alkaline earth metal|2]]
-! style="width: 5.4%;" | [[Group 3 element|3]]
-! style="width: 5.4%;" | [[Group 4 element|4]]
-! style="width: 5.4%;" | [[Group 5 element|5]]
-! style="width: 5.4%;" | [[Group 6 element|6]]
-! style="width: 5.4%;" | [[Group 7 element|7]]
-! style="width: 5.4%;" | [[Group 8 element|8]]
-! style="width: 5.4%;" | [[Group 9 element|9]]
-! style="width: 5.4%;" | [[Group 10 element|10]]
-! style="width: 5.4%;" | [[Group 11 element|11]]
-! style="width: 5.4%;" | [[Group 12 element|12]]
-! style="width: 5.4%;" | [[Boron group|13]]
-! style="width: 5.4%;" | [[Carbon group|14]]
-! style="width: 5.4%;" | [[Nitrogen group|15]] <!--also [[Pnictogen|15]]-->
+! style="width: 5.4%;" | [[Macdin Alkaliini ah|1]]
+! style="width: 5.4%;" | [[Macdin dhuleed ah|2]]
+! style="width: 5.4%;" | [[Qaybta 3 ee curiye|3]]
+! style="width: 5.4%;" | [[Qaybta 4 ee curiye|4]]
+! style="width: 5.4%;" | [[Qaybta 5 ee curiye|5]]
+! style="width: 5.4%;" | [[Qaybta 6 ee curiye|6]]
+! style="width: 5.4%;" | [[Qaybta 7 ee curiye|7]]
+! style="width: 5.4%;" | [[Qaybta 8 ee curiye|8]]
+! style="width: 5.4%;" | [[Qaybta 9 ee curiye|9]]
+! style="width: 5.4%;" | [[Qaybta 10 ee curiye|10]]
+! style="width: 5.4%;" | [[Qaybta 11 ee curiye|11]]
+! style="width: 5.4%;" | [[Qaybta 12 ee curiye|12]]
+! style="width: 5.4%;" | [[Qaybta Boron |13]]
+! style="width: 5.4%;" | [[Qaybta Karbon |14]]
+! style="width: 5.4%;" | [[Qaybta Nitrogen |15]] <!--also [[Pnictogen|15]]-->
 ! style="width: 5.4%;" | [[Chalcogen|16]]
 ! style="width: 5.4%;" | [[Halogen|17]]
-! style="width: 5.4%;" | [[Noble gas|18]]
+! style="width: 5.4%;" | [[Gask wanaagsan|18]]
 |-
-! &darr;&nbsp;[[Heelka (periodic table)|Heerka]]
+! &darr;&nbsp;[[Heerka (Jadwalka Curiyayaasha)|Heerka]]
 | colspan="18" |
 |-
-! [[Period 1 element|1]]
+! [[Heerka 1 ee curiye|1]]
 | {{element cell| 1|hydrogen  |H |1.00794(7)    |Gas  |Nonmetals|Primordial}}
 | colspan="16" |
 | {{element cell| 2|helium    |He|4.002602(2)   |Gas  |Noble gases|Primordial}}
 |-
-! [[Period 2 element|2]]
-| {{element cell| 3|lithium   |Li|6.941(2)      |Solid|Alkali metals|Primordial}}
+! [[Heerka 2 ee curiye|2]]
+| {{element cell| 3|lithium   |Li|6.941(2)      |Adke|Alkali metals|Primordial}}
 | {{element cell| 4|beryllium |Be|9.012182(3)   |Solid|Alkaline earth metals|Primordial}}
 | colspan="10" |
 | {{element cell| 5|boron     |B |10.811(7)     |Solid|Metalloids|Primordial}}
@@ -40,7 +40,7 @@
 | {{element cell| 9|fluorine  |F |18.9984032(5) |Gas  |Halogens|Primordial}}
 | {{element cell|10|neon      |Ne|20.1797(6)    |Gas  |Noble gases|Primordial}}
 |-
-!  [[Period 3 element|3]]
+!  [[Heerka 3 ee curiye|3]]
 | {{element cell|11|Saadiyom  |Na|22.98976928(2)|Solid|Alkali metals|Primordial}}
 | {{element cell|12|magnesium |Mg|24.3050(6)    |Solid|Alkaline earth metals|Primordial}}
 | colspan="10" |
@@ -51,7 +51,7 @@
 | {{element cell|17|chlorine  |Cl|35.4527(9)    |Gas  |Halogens|Primordial}}
 | {{element cell|18|argon     |Ar|39.948(1)     |Gas  |Noble gases|Primordial}}
 |-
-!  [[Period 4 element|4]]
+!  [[Heerka 4 ee curiye|4]]
 | {{element cell|19|potassium |K |39.0983(1)    |Solid|Alkali metals|Primordial}}
 | {{element cell|20|calcium   |Ca|40.078(4)     |Solid|Alkaline earth metals|Primordial}}
 | {{element cell|21|scandium  |Sc|44.955912(6)  |Solid|Transition metals|Primordial}}
@@ -71,7 +71,7 @@
 | {{element cell|35|bromine   |Br|79.904(1)     |Liquid|Halogens|Primordial}}
 | {{element cell|36|krypton   |Kr|83.80(1)      |Gas  |Noble gases|Primordial}}
 |-
-!  [[Period 5 element|5]]
+!  [[Heerka 5 ee curiye|5]]
 | {{element cell|37|rubidium  |Rb|85.4678(3)    |Solid|Alkali metals|Primordial}}
 | {{element cell|38|strontium |Sr|87.62(1)      |Solid|Alkaline earth metals|Primordial}}
 | {{element cell|39|yttrium   |Y |88.90585(2)   |Solid|Transition metals|Primordial}}
@@ -91,7 +91,7 @@
 | {{element cell|53|iodine    |I |126.90447(3)  |Solid|Halogens|Primordial}}
 | {{element cell|54|xenon     |Xe|131.29(2)     |Gas  |Noble gases|Primordial}}
 |-
-!  [[Period 6 element|6]]
+!  [[Heerka 6 ee curiye|6]]
 | {{element cell|55|caesium   |Cs|132.9054519(2)|Solid|Alkali metals|Primordial}}
 | {{element cell|56|barium    |Ba|137.327(7)    |Solid|Alkaline earth metals|Primordial}}
 | {{element cell|*|lanthanides|  |              |Solid|(See below)|(See below)}}
@@ -111,7 +111,7 @@
 | {{element cell|85|astatine  |At|[209.9871]    |Solid|Halogens|Natural radio}}
 | {{element cell|86|radon     |Rn|[222.0176]    |Gas  |Noble gases|Natural radio}}
 |-
-!  [[Period 7 element|7]]
+!  [[Heerka 7 ee curiye|7]]
 | {{element cell|87|francium      |Fr|[223.0197] |Solid|Alkali metals|Natural radio}}
 | {{element cell|88|radium        |Ra|[226.0254] |Solid|Alkaline earth metals|Natural radio}}
 | {{element cell|**|actinides     |  |           |Solid|(See below)|(See below)}}
