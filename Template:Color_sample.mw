@@ -1,0 +1,25 @@
+<span style="display:inline-block;width:1em;height:1em;border:1.62px solid {{{border|black}}};background:{{{1}}};" title="{{{description|{{{1}}}}}}">&emsp;</span><noinclude>
+{{documentation|content=
+
+==Usage==
+*<nowiki>{{Color sample|red}}</nowiki> '''Gives:''' {{Color sample|red}}
+
+* <nowiki>{{Color sample|#00FF00}}</nowiki> '''Gives:''' {{Color sample|#00FF00}} 
+* <nowiki>{{Color sample|{{Independent (politician)/meta/color}}}}</nowiki> '''Gives:''' {{Color sample|{{Independent (politician)/meta/color}}}} 
+
+
+==See also==
+*[[Template:Swatch-inline]]
+*[[Template:Swatch]]
+*[[List of colors]]
+
+}}
+
+[[Category:Color templates]]
+
+[[fa:الگو:نمونه رنگ]]
+[[ja:Template:Color sample]]
+[[ko:틀:색 보기]]
+[[pt:Predefinição:Color sample]]
+[[zh:Template:Color sample]]
+</noinclude>
