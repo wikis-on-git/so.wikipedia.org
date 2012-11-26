@@ -1,0 +1,16 @@
+<includeonly><!--
+-->{{#ifexpr:({{{1|0}}}1)=({{{1|0}}})|<!-- Test loss of precision by appending a fixed digit "1"
+  -->{{FormattingError|Too Many Digits|nocategory={{{nocategory|}}}}}<!--
+-->|<!-- No loss of precision, can display this number
+  -->{{#ifexpr:{{{1|0}}}<0|&minus;}}<!-- Output the mathematical minus sign (not the minus-hyphen) if negative
+  -->{{#ifexpr:abs({{{1|0}}}1)>10*abs({{{1|0}}})|<!-- Number is an integer (no dot): appending a non-zero digit multiplies it by more than 10
+    -->{{formatnum:{{#expr:abs({{{1|0}}})}}}}<!-- Format the integer using locale's separator for grouping digits
+  -->|<!-- Number is not an integer (at least contains a dot)
+    -->{{formatnum:{{#expr:trunc(abs({{{1|0}}}))}}.}}<!-- Format the integer part using locale's separator for grouping digits, followed by the locale's separator before fractional decimals
+    -->{{val/delimitnum/fraction<!--
+      -->|{{#expr:abs({{{1|0}}}1)-trunc(abs({{{1|0}}}1))}}<!-- The fractional part (appended with an extra digit 1 to avoid roundoff error on last displayed digit)
+      -->|{{#expr:(-ln(abs({{{1|0}}}1)-abs({{{1|0}}}))/ln10round 0)-1}}<!-- The number of decimals to display (the difference of absolute values is the value of the appended digit 1, its log10 gives its position)
+      -->|nocategory={{{nocategory|}}}<!-- category if formatting error (too many digits)
+    -->}}<!--
+  -->}}<!--
+-->}}</includeonly><noinclude>{{documentation}}</noinclude>
