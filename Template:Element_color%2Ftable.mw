@@ -1,0 +1,16 @@
+{{#switch:{{lc:{{{spec|{{{1|}}}}}}}}
+| title
+| caption = <nowiki>#</nowiki>d8d8d8
+| header  = <nowiki>#</nowiki>e0e0e0
+| colheader
+| colh
+| rowheader
+| rowh
+| subheader
+| subh    = <nowiki>#</nowiki>e8e8e8
+| mark    = <nowiki>#</nowiki>f0f0f0
+| background
+| bg      = <nowiki>#</nowiki>f8f8f8
+| border  = <nowiki>#</nowiki>a9a9a9 <!-- equals "grey" -->
+| #default={{{default|<nowiki>#</nowiki>f8f8f8}}}
+}}
