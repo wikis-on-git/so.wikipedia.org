@@ -1,0 +1,11 @@
+<span id="FormattingError" />{{Error|{{{1|Error in template}}}}}{{#switch:{{NAMESPACE}}
+ |{{ns:Talk}}
+ |{{ns:User}}
+ |{{ns:User talk}}
+ |{{ns:Wikipedia talk}}=<!-- page in namespaces not to be listed in the category -->
+ |#default={{#if:{{{nocategory|<noinclude>x</noinclude>}}}|
+  |[[Category:Pages with incorrect formatting templates use]]
+ }}
+}}<noinclude>
+{{documentation}}
+</noinclude>
