@@ -1,0 +1,278 @@
+{{template test cases notice}}
+
+== Test #1 ==
+; Sandbox
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>/sandbox}}</nowiki></code>
+
+{{{{BASEPAGENAME}}/sandbox
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = info
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 | img_1 = London from above.jpg
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 | img_2 = Birmingham Skyline from Bartley Green.jpg
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 | img_3 = View of Glasgow from Queens Park.jpg
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 | img_4 = Liverpool waterfront from Birkenhead 300809.JPG
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+; Main template
+
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>}}</nowiki></code>
+
+<onlyinclude>{{ {{BASEPAGENAME}}
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = info
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 | img_1 = London from above.jpg
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 | img_2 = Birmingham Skyline from Bartley Green.jpg
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 | img_3 = View of Glasgow from Queens Park.jpg
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 | img_4 = Liverpool waterfront from Birkenhead 300809.JPG
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795 
+}}</onlyinclude>
+
+== Test #2 ==
+; Sandbox
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>/sandbox}}</nowiki></code>
+
+{{{{BASEPAGENAME}}/sandbox
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = 
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 | img_1 = London from above.jpg
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 | img_2 = Birmingham Skyline from Bartley Green.jpg
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 | img_3 = View of Glasgow from Queens Park.jpg
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 | img_4 = Liverpool waterfront from Birkenhead 300809.JPG
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+; Main template
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>}}</nowiki></code>
+
+{{{{BASEPAGENAME}}
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = 
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 | img_1 = London from above.jpg
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 | img_2 = Birmingham Skyline from Bartley Green.jpg
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 | img_3 = View of Glasgow from Queens Park.jpg
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 | img_4 = Liverpool waterfront from Birkenhead 300809.JPG
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+== Test #3 ==
+; Sandbox
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>/sandbox}}</nowiki></code>
+
+{{{{BASEPAGENAME}}/sandbox
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = info
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+; Main template
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>}}</nowiki></code>
+
+{{{{BASEPAGENAME}}
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = info
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+== Test #4 ==
+; Sandbox
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>/sandbox}}</nowiki></code>
+
+{{{{BASEPAGENAME}}/sandbox
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = 
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
+
+; Main template
+<code><nowiki>{{</nowiki>{{BASEPAGENAME}}<nowiki>}}</nowiki></code>
+
+{{{{BASEPAGENAME}}
+| name = Largest cities of the United Kingdom
+| country      = United Kingdom
+| stat_ref     = [[United Kingdom Census 2001|2001 Census]]
+| list_by_pop  = List of largest United Kingdom settlements by population
+| class        = 
+| div_name     = 
+| div_link     = Administrative geography of the United Kingdom{{!}}English region/country
+
+| city_1 = London | div_1 = Greater London | pop_1 = 7,172,091 
+| city_2 = Birmingham | div_2 = West Midlands (region){{!}}West Midlands | pop_2 = 970,892 
+| city_3 = Glasgow | div_3 = Scotland | pop_3 = 629,501 
+| city_4 = Liverpool | div_4 = North West England | pop_4 = 469,017 
+| city_5 = Leeds | div_5 = Yorkshire and the Humber | pop_5 = 443,247  
+| city_6 = Sheffield | div_6 = Yorkshire and the Humber | pop_6 = 439,866  
+| city_7 = Edinburgh | div_7 = Scotland | pop_7 = 430,082  
+| city_8 = Bristol | div_8 = South West England | pop_8 = 420,556  
+| city_9 = Manchester | div_9 = North West England | pop_9 = 394,269  
+| city_10 = Leicester | div_10 = East Midlands | pop_10 = 330,574  
+| city_11 = Coventry | div_11 = West Midlands (region){{!}}West Midlands | pop_11 = 303,475  
+| city_12 = Kingston upon Hull | div_12 = Yorkshire and the Humber | pop_12 = 301,416  
+| city_13 = Bradford | div_13 =  Yorkshire and the Humber | pop_13 = 293,717  
+| city_14 = Cardiff | div_14 = Wales | pop_14 = 292,150  
+| city_15 = Belfast | div_15 = Northern Ireland | pop_15 = 276,459  
+| city_16 = Stoke-on-Trent | div_16 = West Midlands (region){{!}}West Midlands | pop_16 = 259,252  
+| city_17 = Newcastle-upon-Tyne | div_17 = North East England | pop_17 = 259,000
+| city_18 = Wolverhampton | div_18 = West Midlands (region){{!}}West Midlands | pop_18 = 251,462  
+| city_19 = Nottingham | div_19 = East Midlands | pop_19 = 249,584  
+| city_20 = Plymouth | div_20 = South West England | pop_20 = 243,795  
+}}
