@@ -1,0 +1,23 @@
+<div style="margin:0; text-align:center; {{{style|{{{1|}}}}}}">
+'''Some [[Collective names of groups of like elements|element categories]] in the [[periodic table]]'''
+{| border="2" cellpadding="3" style="background:{{element color/table|background}}; border:1px solid {{element color/table|border}}; border-collapse:collapse; margin:auto; {{{1|}}}"
+|-
+| colspan=6 style="background:{{Element color/table|mark}};" | [[Metal]]s
+| rowspan=3 style="background:{{Element color/Metalloids}};" | [[Metalloid]]s
+| colspan=3 style="background:{{Element color/table|mark}};" | [[Nonmetal]]s
+| rowspan=3 style="background:{{Element color/Unknown chemical properties}};" | Unknown<br />chemical<br />properties
+|-
+| rowspan=2 style="background:{{Element color/Alkali metals}};" | [[Alkali metal|Alkali<br />metal]]s
+| rowspan=2 style="background:{{Element color/Alkaline earth metals}};" | [[Alkaline earth metal|Alkaline<br />earth metal]]s
+| colspan=2 style="background:{{Element color/table|mark}};" | {{nowrap|[[Inner transition metal]]s}}
+| rowspan=2 style="background:{{Element color/Transition metals}};" | [[Transition metal|Transition<br />metal]]s
+| rowspan=2 style="background:{{Element color/Post-transition metals}};" | [[Post-transition metal|Post-transition<br />metal]]s
+| rowspan=2 style="background:{{Element color/Nonmetals}};" | Other<br />[[nonmetal]]s
+| rowspan=2 style="background:{{Element color/Halogens}};" | [[Halogen]]s
+| rowspan=2 style="background:{{Element color/Noble gases}};" | [[Noble gas|Noble<br />gas]]es
+|-
+| style="background:{{Element color/Lanthanoids}};" | [[Lanthanide]]s
+| style="background:{{Element color/Actinoids}};" | [[Actinide]]s
+|}</div><noinclude>
+{{documentation}}
+</noinclude>
