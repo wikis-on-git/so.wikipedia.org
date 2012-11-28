@@ -1,0 +1,32 @@
+{| class="wikitable" border="1" cellpadding="1" cellspacing="0" style="width:100%; font-size:85%; text-align:center;"
+|-
+| colspan="2" |{{element color legend/{{lc:{{{1|alkali metal–noble gas range}}}}}|1=width:100%;|child=yes}}
+|-
+| width="50%" |
+{| width="100%" cellspacing="5" 
+|+ '''Color of the atomic number''' shows '''[[state of matter]]'''
+|-
+| colspan=4 style="text-align:center;" | (at [[Standard conditions for temperature and pressure|standard conditions]]: 0&nbsp;°C and 1&nbsp;atm):
+|-
+! width="24%" style="color:{{element color/Solid}}; background:#eee;" | black=[[Solid|<span style="color:{{element color/Solid}}">Solid</span>]]
+! width="24%" style="color:{{element color/Liquid}}; background:#eee;" | green=[[Liquid|<span style="color:{{element color/Liquid}}">Liquid</span>]]
+! width="24%" style="color:{{element color/Gas}}; background:#eee;" | red=[[Gas|<span style="color:{{element color/Gas}}">Gas</span>]]
+! width="24%" style="color:{{element color/UnknownPhase}}; background:#eee;" | grey=Unknown
+|}
+|width="50%"|
+{| width="100%" cellspacing="5" |
+|+ '''Border''' shows '''natural occurrence''':
+|-
+| &nbsp;
+|-
+! width="24%" style="border:{{element frame/Primordial}}; background:#eee;" | [[Primordial element|Primordial]]
+! width="24%" style="border:{{element frame/Natural radio}}; background:#eee;" | [[Trace radioisotope|From decay]]
+! width="24%" style="border:{{element frame/Synthetic}}; background:#eee;" | [[Synthetic element|Synthetic]]
+{{#ifeq:{{lc:{{{1|}}} }} | categories including superactinides |
+<!-- keep extra newline here -->
+! width="24%" style="border:{{element frame/Undiscovered}}; background:#eee;" {{!}} (Undiscovered)
+|}}
+|}
+|}<noinclude>
+{{documentation}}
+</noinclude>
