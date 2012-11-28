@@ -1,0 +1,77 @@
+<includeonly>{|class="infobox" style="width: 24em; text-align: left; font-size: 90%" cellspacing="2"
+|-
+{{#if:{{{name|}}}
+  | {{!}} style="font-size: 110%;" colspan="2"{{!}} <center>'''''{{{name|}}}'''''</center>
+  | {{!}} coslpan="2"{{!}} <center>Please specify name<br>See [[Template:Infobox Unit|documention]] for details</center>
+}}
+
+|-
+{{#if:{{{image|}}}
+  | {{!}} colspan="2"{{!}} <center>{{{image|}}}</center>
+}}
+|-
+{{#if:{{{caption|}}}
+ | {{!}}colspan="2"{{!}} <center><small>{{{caption|}}}</small></center>
+}}
+|-
+{{#if:{{{image|}}}
+  | {{!}} style="background:#ccf;" colspan="2"{{!}} <center>'''Unit information'''</center>
+}}
+|-
+{{#if:{{{standard|}}}
+  | {{!}}'''[[Systems of measurement|Unit system]]:'''{{!}}{{!}} {{{standard|}}}
+}}
+|-
+{{#if:{{{quantity|}}}
+  | {{!}}'''Unit of...'''{{!}}{{!}} {{{quantity|}}}
+}}
+|-
+{{#if:{{{symbol|}}}
+  | {{!}}'''Symbol:'''{{!}}{{!}} {{{symbol|}}}
+}}
+|-
+{{#if:{{{namedafter|}}}
+  | {{!}}'''Named after:'''{{!}}{{!}} {{{namedafter|}}}
+}}
+|-
+{{#if:{{{extralabel|}}}
+  | {{!}}'''{{{extralabel|}}}'''{{!}}{{!}} {{{extradata|}}}
+}}
+|-
+{{#ifexpr: 
+  ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}}) or 
+  ({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}}) or 
+  ({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}}) or 
+  ({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}}) or 
+  ({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}}) or
+  ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
+ | {{!}} style="background:#ccf;" colspan="2"{{!}} <center>'''Unit conversions'''</center>
+{{!}}-
+{{!}}style="font-size: 100%;"{{!}}1 {{{symbol|}}} in... {{!}}{{!}}  is equal to...
+{{!}}-
+{{#ifexpr: ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units1|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits1|}}}
+}}
+{{!}}-
+{{#ifexpr: ({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units2|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits2|}}}
+}}
+{{!}}-
+{{#ifexpr: ({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units3|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits3|}}}
+}}
+{{!}}-
+{{#ifexpr: ({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units4|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits4|}}}
+}}
+{{!}}-
+{{#ifexpr: ({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units5|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits5|}}}
+}}
+{{!}}-
+{{#ifexpr: ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
+  | {{!}} &nbsp;&nbsp; {{{units6|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits6|}}}
+}}
+}}
+|-
+|}</includeonly><noinclude>{{documentation}}</noinclude>
