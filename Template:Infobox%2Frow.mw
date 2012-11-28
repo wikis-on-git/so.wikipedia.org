@@ -2,7 +2,7 @@
  |<tr><th colspan="2" class="{{{class|}}}" style="text-align:center; {{{headerstyle|}}}">{{{header}}}</th></tr>
  |{{#if:{{{data|}}}
   |<tr class="{{{rowclass|}}}">{{#if:{{{label|}}}
-   |<th scope="row" style="text-align:left; {{{labelstyle|}}}">{{{label}}}</th>
+   |<th scope="row" style="text-align:right; {{{labelstyle|}}}">{{{label}}}</th>
     <td class="{{{class|}}}" style="{{{datastyle|}}}">
    |<td colspan="2" class="{{{class|}}}" style="text-align:center; {{{datastyle|}}}">
   }}
