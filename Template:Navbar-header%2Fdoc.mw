@@ -1,0 +1,61 @@
+{{Documentation subpage}}
+<includeonly>{{high-use|10,000+}}</includeonly>
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Usage==
+Simply place the following code in the header area of a given [[Wikipedia:Navigational templates|template]] to add a centred heading with right justified view/talk/edit link functionality.
+
+<pre>{{Navbar-header |Heading |Name of template }}</pre>
+
+==Parameters==
+====''Mandatory''====
+; 1 : (the first unnamed parameter) Text that appears centered in the titlebar (the top bar).
+; 2 : (the second unnamed parameter) The name of the template, which is needed for the {{navbar|Navbar-header|plain=1}} links to work properly on all of the pages where the template is used on. You can enter <code><nowiki>{{subst:PAGENAME}}</nowiki></code> for this value as a shortcut.
+
+====''Optional''====
+; plain     : switched from {{navbar|Navbar-header|mini=1}} mode to {{navbar|Navbar-header|plain=1}}, if plain=1 is set.
+; fontcolor : Specifies the title text color
+; bgcolor   : (<span style="color: red;">'''Deprecated'''</span>) It used to provide a different background color, however the code has been updated to always give a transparent background
+
+== Example ==
+See {{tl|Article Alerts Navheader}}, for an example.
+
+==See also==
+;{{tl|navbar}}: This template [[Wikipedia:Transclusion|transcludes]] navbar, the source is more customizable.
+;{{tl|Tnavbar-navframe}}: For use in conjunction with [[Wikipedia:NavFrame|Navframe divs]], positions {{navbar|Navbar-header|mini=1}} opposite of the [hide]/[show] feature.
+;{{tl|Navbar-collapsible}}: For use in conjunction with [[Wikipedia: NavFrame#Collapsible tables|Collapsible tables]], floats {{navbar|Navbar-header|mini=1}} opposite of the [hide]/[show] feature
+
+Make use of meta-template to reduce code bloat and simplify editing:
+{{Navigational templates}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Internal link templates]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[ar:قالب:Tnavbar-header]]
+[[ca:Plantilla:Tnavbar-header]]
+[[cy:Nodyn:Bar llywio-pennyn]]
+[[fr:Modèle:Tnavbar-header]]
+[[hr:Predložak:Tnavbar-header]]
+[[hsb:Předłoha:Tnavbar-header]]
+[[id:Templat:Tnavbar-header]]
+[[it:Template:Tnavbar-header]]
+[[ko:틀:안내바 헤더]]
+[[ku:Şablon:Tnavbar-header]]
+[[lv:Veidne:Tnavbar-header]]
+[[ms:Templat:Tnavbar-header]]
+[[ja:Template:Tnavbar-header]]
+[[no:Mal:Tnavbar-header]]
+[[oc:Modèl:Tnavbar-header/doc]]
+[[pl:Szablon:Tnavbar-header]]
+[[pt:Predefinição:Tnavbar-header]]
+[[ro:Format:Tnavbar-header]]
+[[sq:Stampa:Tnavbar-header]]
+[[sl:Predloga:Prednavmeni-glava]]
+[[su:Citakan:Tnavbar-header]]
+[[te:మూస:Tnavbar-header]]
+[[tr:Şablon:Tnavbar-header]]
+[[vi:Tiêu bản:Tnavbar-header]]
+[[zh:Template:Tnavbar-header]]
+</includeonly>
