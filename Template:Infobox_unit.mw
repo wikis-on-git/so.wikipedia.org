@@ -1,4 +1,4 @@
-<includeonly>{|class="infobox" style="width: 24em; text-align: right; font-size: 90%" cellspacing="2"
+<includeonly>{|class="infobox" style="width: 24em; text-align: left; font-size: 90%" cellspacing="2"
 |-
 {{#if:{{{name|}}}
   | {{!}} style="font-size: 110%;" colspan="2"{{!}} <center>'''''{{{name|}}}'''''</center>
