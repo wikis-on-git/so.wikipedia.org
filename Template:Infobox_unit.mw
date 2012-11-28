@@ -19,19 +19,19 @@
 }}
 |-
 {{#if:{{{standard|}}}
-  | {{!}}'''[[Systems of measurement|Unit system]]:'''{{!}}{{!}} {{{standard|}}}
+  | {{!}}'''[[Horgale_(Fiisikis)|Halbeega]]:'''{{!}}{{!}} {{{standard|}}}
 }}
 |-
 {{#if:{{{quantity|}}}
-  | {{!}}'''Unit of...'''{{!}}{{!}} {{{quantity|}}}
+  | {{!}}'''Cabirka...'''{{!}}{{!}} {{{quantity|}}}
 }}
 |-
 {{#if:{{{symbol|}}}
-  | {{!}}'''Symbol:'''{{!}}{{!}} {{{symbol|}}}
+  | {{!}}'''Summadda:'''{{!}}{{!}} {{{symbol|}}}
 }}
 |-
 {{#if:{{{namedafter|}}}
-  | {{!}}'''Named after:'''{{!}}{{!}} {{{namedafter|}}}
+  | {{!}}'''Loogu magac daray:'''{{!}}{{!}} {{{namedafter|}}}
 }}
 |-
 {{#if:{{{extralabel|}}}
@@ -47,7 +47,7 @@
   ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
  | {{!}} style="background:#ccf;" colspan="2"{{!}} <center>'''Unit conversions'''</center>
 {{!}}-
-{{!}}style="font-size: 100%;"{{!}}1 {{{symbol|}}} in... {{!}}{{!}}  is equal to...
+{{!}}style="font-size: 100%;"{{!}}1 {{{symbol|}}} U... {{!}}{{!}}   dhiganta...
 {{!}}-
 {{#ifexpr: ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}})
   | {{!}} &nbsp;&nbsp; {{{units1|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits1|}}}
