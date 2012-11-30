@@ -1,0 +1,13 @@
+{{#switch:{{lc:{{{type|{{{1}}}}}}}}
+ |lang
+ |english       = <small>English </small>
+ |pron
+ |pronunciation = <small>pronunciation: </small>
+ |local         = <small>local </small>
+ |ipa           = <small>[[International Phonetic Alphabet|IPA]] </small>
+ |us            = <small>[[American English|US]] </small>
+ |uk            = <small>[[British English|UK]] </small>
+ |#default      = <!-- NULL -->
+}}<noinclude>
+{{documentation}}
+</noinclude>
