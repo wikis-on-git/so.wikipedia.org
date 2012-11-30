@@ -1,0 +1,6 @@
+|-
+| {{#if: {{{link|}}} | [[{{{link}}}|<sup>{{{mn}}}</sup>{{{sym}}}]] | <sup>{{{mn}}}</sup>{{{sym}}} }}
+| {{{na}}}
+| colspan="4" | <sup>{{{mn}}}</sup>{{{sym}}} is [[stable isotope|stable]] with {{{n}}} [[neutron]]{{plural:{{{n}}}||s}}<noinclude>
+{{documentation}}
+</noinclude>
