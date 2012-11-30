@@ -1,0 +1,9 @@
+|-
+| {{#if: {{{link|}}} | [[{{{link}}}|<sup>{{{mn}}}</sup>{{{sym}}}]] | <sup>{{{mn}}}</sup>{{{sym}}} }}
+| {{{na}}}
+| {{{hl}}}
+| {{{dm}}}
+| {{{de}}}
+| <sup>{{{pn}}}</sup>{{{ps}}}<noinclude>
+{{documentation}}
+</noinclude>
