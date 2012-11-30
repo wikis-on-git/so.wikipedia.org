@@ -1,0 +1,42 @@
+{{#switch: {{lc:{{{1|}}}}}
+| body-centered cubic
+| cubic-body-centered
+| cubic body-centered = Cubic-body-centered.svg
+| cubic-body-centered (extrapolated)
+| cubic body-centered (extrapolated) = Cubic-body-centered.svg
+| face-centered cubic
+| cubic-face-centered
+| cubic face-centered = Cubic-face-centered.svg
+| cubic = Cubic.svg
+| diamond
+| diamond cubic = Diamond Cubic-F lattice animation.gif
+| simple hexagonal
+| hexagonal = Hexagonal.svg
+| hexagonal close packed
+| hexagonal close-packed = Hexagonal close packed.svg
+| lattice face centered cubic = Lattice face centered cubic.svg
+| simple monoclinic
+| monoclinic = Monoclinic.svg
+| base centered monoclinic
+| base-centered monoclinic
+| monoclinic base-centered
+| monoclinic-base-centered = Monoclinic-base-centered.svg
+| simple orthorhombic
+| orthorhombic = Orthorhombic.svg
+| primitive cubic = Lattic simple cubic.svg
+| simple trigonal
+| trigonal
+| rhombohedral = Rhombohedral.svg
+| tetragonal = Tetragonal.svg
+| centered tetragonal
+| body-centered tetragonal
+| body centered tetragonal = Tetragonal-body-centered.svg
+| simple triclinic
+| triclinic = Triclinic.svg
+| unknown = <!-- do not return a filename, esp not Unknown.svg. -->
+| simple trigonal
+| <!-- blank -->
+| #default = {{{default|{{{1|}}}.svg}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
