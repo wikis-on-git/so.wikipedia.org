@@ -1,0 +1,34 @@
+{{#switch: {{lc:{{{1|}}}}}
+| body-centered cubic
+| cubic
+| cubic-body-centered
+| cubic body-centered
+| cubic-body-centered (extrapolated)
+| cubic body-centered (extrapolated)
+| cubic-face-centered
+| cubic face-centered
+| face-centered cubic
+| lattice face centered cubic
+| primitive cubic= [[Cubic crystal system|{{lc:{{{1}}}}}]]
+| diamond = [[Diamond cubic|diamond]]
+| diamond cubic = [[Diamond cubic|diamond cubic]]
+| simple hexagonal = [[Hexagonal crystal system|simple hexagonal]]
+| hexagonal =  [[Hexagonal crystal system|hexagonal]]
+| hexagonal close-packed = [[Close-packing of equal spheres|hexagonal close-packed]]
+| base centered monoclinic
+| base-centered monoclinic
+| monoclinic base-centered
+| monoclinic = [[Monoclinic crystal system|monoclinic]]
+| orthorhombic = [[Orthorhombic crystal system|orthorhombic]]
+| rhombohedral = [[Rhombohedral|rhombohedral]]
+| simple triclinic
+| triclinic = [[Triclinic crystal system|triclinic]]
+| simple trigonal
+| trigonal = [[Trigonal crystal system| {{lc:{{{1|}}}}}]]
+| tetragonal = [[Tetragonal crystal system|tetragonal]]
+| <!-- blank -->
+| unknown
+| #default = {{{default|{{{1|}}}}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
