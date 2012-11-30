@@ -1,0 +1,46 @@
+<span title="English pronunciation respelling" class="Unicode">[[Wikipedia:Pronunciation respelling key|''<!--
+-->{{#if:{{{7|}}}<!--
+-->|{{lc:{{{1}}}}}-'''{{smallcaps all|{{{2}}}}}'''-{{lc:{{{3}}}}}-'''{{smallcaps all|{{{4}}}}}'''-{{lc:{{{5}}}}}-'''{{smallcaps all|{{{6}}}}}'''{{#ifeq:{{{7}}}|'||-{{lc:{{{7}}}}}}}
+|{{#if:{{{6|}}}<!--
+-->|'''{{smallcaps all|{{{1}}}}}'''-{{lc:{{{2}}}}}-'''{{smallcaps all|{{{3}}}}}'''-{{lc:{{{4}}}}}-'''{{smallcaps all|{{{5}}}}}'''{{#ifeq:{{{6}}}|'||-{{lc:{{{6}}}}}}}
+|{{#if:{{{5|}}}<!--
+-->|{{lc:{{{1}}}}}-'''{{smallcaps all|{{{2}}}}}'''-{{lc:{{{3}}}}}-'''{{smallcaps all|{{{4}}}}}'''{{#ifeq:{{{5}}}|'||-{{lc:{{{5}}}}}}}
+|{{#if:{{{4|}}}<!--
+-->|'''{{smallcaps all|{{{1}}}}}'''-{{lc:{{{2}}}}}-'''{{smallcaps all|{{{3}}}}}'''{{#ifeq:{{{4}}}|'||-{{lc:{{{4}}}}}}}
+|{{#if:{{{3|}}}<!--
+-->|{{lc:{{{1}}}}}-'''{{smallcaps all|{{{2}}}}}'''{{#ifeq:{{{3}}}|'||-{{lc:{{{3}}}}}}}
+|{{#if:{{{2|}}}<!--
+-->|'''{{smallcaps all|{{{1}}}}}'''{{#ifeq:{{{2}}}|'||-{{lc:{{{2}}}}}}}
+|{{lc:{{{1}}}}}<!--
+-->}}}}}}}}}}}}'']]</span><!--
+START uc/lc CHECK-->{{#ifexpr:<!--final input is in 2 or 4 or 6? then UC1357 required:
+-->    {{#if:{{{2|}}}|{{#if:{{{3|}}}|0|1}}| 0 }} <!--
+--> or {{#if:{{{4|}}}|{{#if:{{{5|}}}|0|1}}| 0 }}<!--
+--> or {{#if:{{{6|}}}|{{#if:{{{7|}}}|0|1}}| 0 }}<!--end check expr for even/odd. now start using consequences:
+
+1357 should be UC-->|{{#ifexpr:<!--
+--> {{#ifeq:{{{1|}}}|{{uc:{{{1|}}}}}|1|0}}
+and {{#ifeq:{{{3|}}}|{{uc:{{{3|}}}}}|1|0}}
+and {{#ifeq:{{{5|}}}|{{uc:{{{5|}}}}}|1|0}}
+and {{#ifeq:{{{7|}}}|{{uc:{{{7|}}}}}|1|0}}
+||<!--ERR-UC1357-->{{main other| [[Category:Articles with Respell capitalisation issues (uppercase input)]]}} }}<!--end check for UC1357
+--><!--check for lc246-->{{#ifexpr:<!--
+--> {{#ifeq:{{{2|}}}|{{lc:{{{2|}}}}}|1|0}}
+and {{#ifeq:{{{4|}}}|{{lc:{{{4|}}}}}|1|0}}
+and {{#ifeq:{{{6|}}}|{{lc:{{{6|}}}}}|1|0}}
+||<!--ERR-lc246-->{{main other| [[Category:Articles with Respell capitalisation issues (lowercase input)]]}} }}<!--end check for lc246--><!--
+
+246 should be UC-->|{{#ifexpr:<!--
+--> {{#ifeq:{{{2|}}}|{{uc:{{{2|}}}}}|1|0}}
+and {{#ifeq:{{{4|}}}|{{uc:{{{4|}}}}}|1|0}}
+and {{#ifeq:{{{6|}}}|{{uc:{{{6|}}}}}|1|0}}
+||<!--ERR-UC246-->{{main other| [[Category:Articles with Respell capitalisation issues (uppercase input)]]}} }}<!--end check for UC246
+--><!--check for lc1357-->{{#ifexpr:<!--
+--> {{#ifeq:{{{1|}}}|{{lc:{{{1|}}}}}|1|0}}
+and {{#ifeq:{{{3|}}}|{{lc:{{{3|}}}}}|1|0}}
+and {{#ifeq:{{{5|}}}|{{lc:{{{5|}}}}}|1|0}}
+and {{#ifeq:{{{7|}}}|{{lc:{{{7|}}}}}|1|0}}
+||<!--ERR-lc1357-->{{main other| [[Category:Articles with Respell capitalisation issues (lowercase input)]]}} }}<!--end check for lc1357
+-->}}<!--END uc/lc CHECK
+--><noinclude>
+{{Documentation}}</noinclude>
