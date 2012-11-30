@@ -1,0 +1,23 @@
+{{#if:{{NAMESPACE}}|<h2>References</h2>
+{{rellink|These references will appear in the article, but this list appears only on this page.}}
+{{#tag:references}}
+{{#if:{{{1|}}}|
+{{rellink|The references of group "{{{1}}}":}}
+{{#tag:references||group={{{1}}}}}}}
+{{#if:{{{2|}}}|
+{{rellink|The references of group "{{{2}}}":}}
+{{#tag:references||group={{{2}}}}}}}
+{{#if:{{{3|}}}|
+{{rellink|The references of group "{{{3}}}":}}
+{{#tag:references||group={{{3}}}}}}}
+{{#if:{{{4|}}}|
+{{rellink|The references of group "{{{4}}}":}}
+{{#tag:references||group={{{4}}}}}}}
+{{#if:{{{5|}}}|
+{{rellink|The references of group "{{{5}}}":}}
+{{#tag:references||group={{{5}}}}}}}
+{{#if:{{{6|}}}|
+{{rellink|The references of group "{{{6}}}":}}
+{{#tag:references||group={{{6}}}}}}}
+}}<noinclude>__NOTOC__ {{documentation}}
+</noinclude>
