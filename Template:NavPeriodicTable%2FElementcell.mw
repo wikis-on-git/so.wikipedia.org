@@ -1,0 +1,31 @@
+<div style = "position:relative; overflow:hidden; width:6px; height:8px; z-index:2; background-color:{{#switch: {{lc:{{{category|unknown}}}}}
+| actinoid = &#x23;ff99cc
+| alkali metal = &#x23;ff6666
+| alkali metal (predicted) = &#x23;d8bcbc
+| alkaline earth metal = &#x23;ffdead
+| alkaline earth metal (predicted) = &#x23;ffecd3
+| eka-superactinide = &#x23;a0e032
+| eka-superactinide (predicted) = &#x23;c6dd9d
+| noble gas = &#x23;c0ffff
+| noble gas (predicted) = &#x23;ddffff
+| halogen = &#x23;ffff99
+| halogen (predicted) = &#x23;ffffd6
+| metalloid = &#x23;cccc99
+| metalloid (predicted) = &#x23;e2e2aa
+| lanthanoid = &#x23;ffbfff
+| other non-metal = &#x23;a0ffa0
+| other non-metal (predicted) = &#x23;d3ffd3
+| post-transition metal = &#x23;cccccc<!-- earlier called "metal", "other metal" here -->
+| post-transition metal (predicted) = &#x23;dfdfdf
+| superactinide = &#x23;b5c8ff
+| superactinide (predicted) = &#x23;d1ddff
+| transition metal = &#x23;ffc0c0
+| transition metal (predicted) = &#x23;ffe2e2
+| unknown chemical properties = &#x23;e8e8e8<!-- unknown defined separately from default -->
+| #default = &#x23;000000;<!-- (input not recognised, propably an error-situation) -->
+}}; <!--
+-->{{#ifexpr:{{#ifeq:{{{mark|n}}}|{{{category|y}}}|1|0}}{{#ifeq:{{{mark|n}}}|{{{group|y}}}|1|0}}{{#ifeq:{{PAGENAME}}| {{template other|Infobox {{lc:{{{name|}}}}}|{{{link|{{{name}}}}}}}}|1|0}}| border:1px solid black; margin:-1px;}}"><!--
+-->[[File:Transparent.gif|12px| link={{{link|{{{name|Chemical element}}}}}}{{!}}{{{name|Chemical element}}}&nbsp;({{lc:{{{category|unknown}}}}})]]<!--
+--></div><noinclude>
+{{documentation}}
+</noinclude>
