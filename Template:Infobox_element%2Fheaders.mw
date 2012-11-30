@@ -1,0 +1,21 @@
+text-align:center; background-color:<!-- bg color -->#{{#if:{{{1|}}}|{{{1}}}|{{#switch:{{lc:{{{2}}}}}
+ |alkali metal|alkali metals=FF6666
+ |alkaline earth metal|alkaline earth metals=FFDEAD
+ |lanthanide|lanthanides=FFBFFF
+ |actinide|actinides=FF99CC
+ |transition metal|transition metals=FFC0C0
+ |poor metal|poor metals=CCCCCC
+ |post-transition metal=CCCCCC
+ |other metal=CCCCCC
+ |metalloid|metalloids=CCCC99
+ |nonmetal|non-metal|nonmetals|non-metals=A0FFA0
+ |halogen|halogens=FFFF99
+ |noble gas|noble gases=C0FFFF
+ |superactinides|superactinide = D1DDFF
+ |eka-superactinides|eka-superactinide = C6DD9D
+ |unknown chemical properties|unknown=E8E8E8
+}} }}; <!-- font color -->color:#{{#if:{{{3|}}}|{{{3}}}|{{#switch:{{lc:{{{4}}}}}
+ |gas=008000
+ |liquid=0000FF
+ |solid=000000
+}} }};
