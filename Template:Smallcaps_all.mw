@@ -1,0 +1,4 @@
+<span class="smallcaps">{{uc:{{#if:{{{2|}}}|{{{1|}}}{{smallcaps|{{nocaps|{{{2|}}}}}}}|
+{{smallcaps|{{nocaps|{{{1|}}}}}}}}}}}</span><noinclude>
+{{documentation}}
+</noinclude>
