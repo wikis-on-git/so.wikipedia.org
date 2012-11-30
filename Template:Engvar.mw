@@ -1,0 +1,10 @@
+{{#switch: {{lc:{{#if:{{{engvar|{{{1|}}}}}}|{{{engvar|{{{1|}}}}}}|{{{default|en}}} }} }}
+| uk | gb | en-gb | en-uk = {{{en-uk|{{{2|}}}}}}
+| us | en-us   = {{{en-us|{{{3|}}}}}}
+| aus | en-aus = {{{en-aus|{{{4|}}}}}}
+| nz | en-nz   = {{{en-nz|{{{5|}}}}}}
+|<!--blank-->| en
+| #default     = {{{en| {{{en-uk|{{{2|{{{en-us|{{{3|{{{en-aus|{{{4|{{{en-nz|{{{5|}}}}}}}}}}}}}}}}}}}}}}}} }}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
