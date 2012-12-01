@@ -1,0 +1,57 @@
+{{ infobox
+| abovestyle = background-color: {{{Background|lightgrey}}}
+| above      = {{{Name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| subheader  = <includeonly>''Classification and external resources''</includeonly>
+| image      = {{#if:{{{Image|}}}|[[File:{{{Image}}}|frameless|{{px|{{{Width|upright=1.06}}}}}|alt={{{Alt|}}}]]}}
+| caption    = {{{Caption|}}}
+
+| label1     = [[International Statistical Classification of Diseases and Related Health Problems|ICD]]-[[ICD-10|10]]
+| data1      = {{{ICD10|}}}
+
+| label2     = [[International Statistical Classification of Diseases and Related Health Problems|ICD]]-[[List of ICD-9 codes|9]]
+| data2      = {{{ICD9|}}}
+
+| label3     = [[International Classification of Diseases for Oncology|ICD-O:]]
+| data3      = {{{ICDO|}}}
+
+| label4     = [[OMIM]]
+| data4      = {{#if:{{{OMIM|}}}|[http://omim.org/entry/{{{OMIM}}} {{{OMIM}}}] {{{OMIM_mult|}}} }}
+
+| label5     = [[Diseases Database|DiseasesDB]]
+| data5      = {{#if:{{{DiseasesDB|}}}|[http://www.diseasesdatabase.com/ddb{{{DiseasesDB}}}.htm {{{DiseasesDB}}}] {{{DiseasesDB_mult|}}} }}
+
+| label6     = [[MedlinePlus]]
+| data6      = {{#if:{{{MedlinePlus|}}}|[http://www.nlm.nih.gov/medlineplus/ency/article/{{{MedlinePlus}}}.htm {{{MedlinePlus}}}]  {{{MedlinePlus_mult|}}} }}
+
+| label7     = [[eMedicine]]
+| data7      = {{#if:{{{eMedicineSubj|}}}|{{#ifeq:{{{eMedicineSubj|}}}|search|[http://search.medscape.com/emedicine-search?queryText={{{eMedicineTopic}}} topic list]|{{#ifeq:{{{eMedicineSubj|}}}|article|[http://emedicine.medscape.com/article/{{{eMedicineTopic}}}-overview|[http://www.emedicine.com/{{{eMedicineSubj}}}/topic{{{eMedicineTopic}}}.htm}} {{{eMedicineSubj}}}/{{{eMedicineTopic}}}]}} }} {{{eMedicine_mult|}}}
+
+| label8     = [[Medical Subject Headings|MeSH]]
+| data8      = {{#if:  {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}} | {{mesh2|{{{MeshID|{{{MeSH|{{{MeSH1}}}}}}}}}| year= {{{MeshYear|{{{MeshYear1|}}}}}} }} }}<!--
+            -->{{#if: {{{MeSH2|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}} | , }} {{mesh2|{{{MeSH2|}}}|year={{{MeshYear2|}}}}} }}<!--
+            -->{{#if: {{{MeSH3|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}} | , }} {{mesh2|{{{MeSH3|}}}|year={{{MeshYear3|}}}}} }}<!--
+            -->{{#if: {{{MeSH4|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}} | , }} {{mesh2|{{{MeSH4|}}}|year={{{MeshYear4|}}}}} }}<!--
+            -->{{#if: {{{MeSH5|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}} | , }} {{mesh2|{{{MeSH5|}}}|year={{{MeshYear5|}}}}} }}<!--
+            -->{{#if: {{{MeSH6|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}} | , }} {{mesh2|{{{MeSH6|}}}|year={{{MeshYear6|}}}}} }}<!--
+            -->{{#if: {{{MeSH7|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}} | , }} {{mesh2|{{{MeSH7|}}}|year={{{MeshYear7|}}}}} }}<!--
+            -->{{#if: {{{MeSH8|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}} | , }} {{mesh2|{{{MeSH8|}}}|year={{{MeshYear8|}}}}} }}<!--
+            -->{{#if: {{{MeSH9|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}}{{{MeSH8|}}} | , }} {{mesh2|{{{MeSH9|}}}|year={{{MeshYear9|}}}}} }}<!--
+            -->{{#if: {{{MeshName|}}} | {{#if: {{{MeshID|}}}{{{MeSH|}}}{{{MeSH1|}}}{{{MeSH2|}}}{{{MeSH3|}}}{{{MeSH4|}}}{{{MeSH5|}}}{{{MeSH6|}}}{{{MeSH7|}}}{{{MeSH8|}}}{{{MeSH9|}}} | , }} ''{{mesh2 | name = {{{MeshName}}} | number = {{{MeshNumber|}}} }}'' }}
+
+| label9     = [[GeneReviews]]
+| class9     = plainlist
+| data9      = {{#if: {{{GeneReviewsNBK|}}}{{{GeneReviewsNBK1|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK|{{{GeneReviewsNBK1}}}}}}|{{{GeneReviewsName|{{{GeneReviewsName1|}}}}}}}}|{{#if: {{{GeneReviewsID|}}}| 
+* [http://www.ncbi.nlm.nih.gov/books/n/gene/{{{GeneReviewsID}}}/ {{#if: {{{GeneReviewsName|}}}|{{{GeneReviewsName}}}|{{{GeneReviewsID}}}}}]}}}}{{#if: {{{GeneReviewsNBK2|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK2}}}|{{{GeneReviewsName2|}}}}}}}{{#if: {{{GeneReviewsNBK3|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK3}}}|{{{GeneReviewsName3|}}}}}}}{{#if: {{{GeneReviewsNBK4|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK4}}}|{{{GeneReviewsName4|}}}}}}}{{#if: {{{GeneReviewsNBK5|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK5}}}|{{{GeneReviewsName5|}}}}}}}{{#if: {{{GeneReviewsNBK6|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK6}}}|{{{GeneReviewsName6|}}}}}}}{{#if: {{{GeneReviewsNBK7|}}}| 
+* {{NCBIBook2|{{{GeneReviewsNBK7}}}|{{{GeneReviewsName7|}}}}}}}
+
+}}<noinclude>
+
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
