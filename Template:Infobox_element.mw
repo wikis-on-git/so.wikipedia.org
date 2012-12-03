@@ -1,4 +1,4 @@
-<!-- Example is 82 Lead -->{| class="infobox bordered" cellpadding=2 cellspacing=0 style="font-size:88%; width:22em; text-align:left"
+<!-- Example is 82 Lead -->{| class="infobox bordered" cellpadding=2 cellspacing=0 style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 0.5em 0 0.5em 1em; padding: 0.2em; float: right; clear: right; line-height: 1.5em; font-size:88%; width:22em; text-align:left"
 ! colspan=2 style="font-size:130%; {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | {{ucfirst:{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}}
 |-
 | colspan=2 | <!-- Z(sub)Symbol notation --><div title="atomic number Z={{{number|}}}; symbol={{{symbol|}}}" style="text-align:center; border:none; font-size:130%;">'''<sub><span style="font-size:smaller">{{{number|{{main other||00}}}}}</span></sub>{{#switch:{{{symbol}}}|#default={{{symbol|{{main other||Xx}}}}}|Nt [not official]=Nt}}'''</div>
