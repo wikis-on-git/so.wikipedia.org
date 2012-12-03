@@ -1,0 +1,67 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+{{Infobox polygon
+| name        = Square
+| image       = Square (geometry).svg
+| caption     = Caption for squares
+| edges       = 4
+| schläfli    = {4}
+| coxeter     = {{CDD|node_1|4|node}}
+| symmetry    = [[Dihedral group|Dih<sub>4</sub>]] [4], *44
+| rotsymmetry = [[Cyclic group|C<sub>4</sub>]], [4]<sup>+</sup>, 44
+| area        = t<sup>2</sup>
+| angle       = 90°
+| properties  = [[Convex polygon|convex]]
+}}
+
+=== Usage ===
+<pre>
+{{Infobox polygon
+| name       = 
+| image      = 
+| caption    =
+| type       = ''general type of this shape''
+| euler      =
+| edges      =
+| schläfli   = ''for regular polygon''
+| wythoff    = ''for regular polygon''
+| coxeter    = ''for regular polygon''
+| symmetry   =
+| area       = ''some simple formula(e)''
+| angle      = ''an internal angle in case of regular polygon''
+| dual       = ''dual polygon of this shape''
+| properties =
+}}
+</pre>
+
+==Example==
+<pre>
+{{Infobox polygon
+| name        = Square
+| image       = Square (geometry).svg
+| caption     = Caption for squares
+| edges       = 4
+| schläfli    = {4}
+| coxeter     = {{CDD|node_1|4|node}}
+| symmetry    = [[Dihedral group|Dih<sub>4</sub>]] [4], *44
+| rotsymmetry = [[Cyclic group|C<sub>4</sub>]], [4]<sup>+</sup>, 44
+| area        = t<sup>2</sup>
+| angle       = 90°
+| properties  = [[Convex polygon|convex]]
+| circumference = π r • 2 (where ''r'' = radius) or π d (where ''d'' = diameter) 
+}}
+</pre>
+
+=== See also ===
+* [[Template:Infobox polyhedron]]
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Mathematics and abstraction infobox templates|Polygon]]
+
+[[ar:قالب:معلومات مضلع]]
+[[mk:Шаблон:Инфокутија Многуаголник]]
+[[pt:Predefinição:Info/Polígono]]
+[[th:แม่แบบ:กล่องข้อมูล รูปหลายเหลี่ยม]]
+</includeonly>
