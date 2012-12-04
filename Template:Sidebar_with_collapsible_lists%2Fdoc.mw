@@ -1,0 +1,113 @@
+{{documentation subpage}}
+<!---PLEASE ADD METADATA (categories, interwikis) TO THE <includeonly> SECTION
+     AT THE BOTTOM OF THIS PAGE--->
+{{tl|Sidebar with collapsible lists}} is a version of {{tl|Sidebar}} offering [[Help:Collapsing|collapsible]] lists as an alternative to Sidebar's ''content'' parameters.
+
+== Usage ==
+{{Sidebar with collapsible lists
+| name       = {{PAGENAME}}
+| outertitle = {{{outertitle}}}
+| topimage   = {{{topimage}}}
+| topcaption = {{{topcaption}}}
+| pretitle   = {{{pretitle}}}
+| title      = {{{title}}}
+| image      = {{{image}}}
+| expanded   = {{{expanded|{{{1|}}}}}}
+
+| above      = {{{above}}}
+
+| heading1   = {{{heading1}}}
+| list1title = {{{list1title}}}
+| list1      = {{{list1}}}
+
+| list2title = {{{list2title}}}
+| list2      = {{{list2}}}
+
+| list3title = {{{list3title}}}
+| list3      = {{{list3}}}
+
+| content4   = ................
+
+| list20title = {{{list20title}}}
+| list20      = {{{list20}}}
+
+| below = {{{below}}}
+}}
+Parameters with infrequent use omitted.
+
+<pre style="overflow:auto;">
+{{Sidebar with collapsible lists
+| name       = {{subst:PAGENAME}}
+| outertitle = 
+| topimage   = 
+| pretitle   = 
+| title      = 
+| image      = 
+| expanded   = {{{expanded|{{{1|}}}}}} <!--Used to display template with a particular list expanded (visible). See below.-->
+
+| headingstyle   = 
+| listtitlestyle = 
+| contentstyle   = 
+
+| heading1    = 
+| list1name   = 
+| list1title  = 
+| list1       = 
+
+| heading2    = 
+| list2name   = 
+| list2title  = 
+| list2       = 
+ .
+ .
+ .
+| list20name  = 
+| list20title = 
+| list20      = 
+
+}}
+</pre>
+
+The topmost parameters (including name, outertitle, topimage, pretitle, title, image, headingstyle, contentstyle) are defined at the [[Template:Sidebar|Sidebar template page]].
+
+The ''listtitlestyle'' and ''liststyle'' parameters are the equivalent of {{tl|collapsible list}}'s ''titlestyle'' and ''liststyle'' parameters, while each ''listNtitle'' and ''listN'' parameter is the equivalent of {{tl|collapsible list}}'s ''title'' and unnamed list parameter, respectively.
+
+The ''listNname'' parameters are used to identify which, if any, list is to be shown expanded; see {{tl|collapsible lists option}}.
+
+== Other collapsible list-related parameters ==
+In addition to the above, the following collapsible list-related parameters are also available:
+
+; ''listframestyle''  : Sets the framestyle (see {{tl|collapsible list}}) for the lists.
+; ''listNframestyle'' : Sets the framestyle for ''listN'', overriding ''listframestyle''.
+; ''listNtitlestyle'' : Sets the titlestyle for ''listN'', overriding ''listtitlestyle'' above.
+; ''listNstyle''      : Sets the liststyle for ''listN'', overriding ''liststyle'' above.
+
+== Handling long links ==
+As with {{tl|Sidebar}}, {{tl|Normalwraplink}} may be used to handle links that should wrap within the sidebar or otherwise need to be made to wrap in order to prevent the sidebar becoming too wide. Use {{tlx|Normalwraplink|''longlinkname''}}, where {{para||''longlinkname''}} is the long link without its square brackets.
+
+Use the {{para|wraplinks|true}} parameter to turn link wrapping off for the whole template.
+
+==Examples==
+Examples of this template can be found by checking "[//en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Template:Sidebar_with_collapsible_lists&namespace=10&hidelinks=1 What links here]" in template space.
+
+== See also ==
+* {{tl|Sidebar}}
+* {{tl|Collapsible list}}
+* {{tl|Collapsible lists option}}
+* {{tl|Navbox with collapsible groups}}
+* [[Wikipedia:UBLIST]] – for help in using unbulleted lists in fields
+
+
+<!--Interwikies-->
+[[ar:قالب:Sidebar with collapsible lists]]
+[[bn:টেমপ্লেট:Sidebar with collapsible lists]]
+[[ca:Plantilla:Barra lateral amb llistes plegables]]
+[[ja:Template:Sidebar with collapsible lists]]
+[[ka:თარგი:გვერდითი ნავდაფა გაშლადი სიით]]
+[[mk:Шаблон:Странична лента со расклопни списоци]]
+[[pt:Predefinição:Sidebar with collapsible lists]]
+[[sl:Predloga:Sidebar with collapsible lists]]
+[[th:Template:Sidebar with collapsible lists]]
+[[ur:سانچہ:Sidebar with collapsible lists]]
+[[zh:Template:Sidebar with collapsible lists]]
+}}</includeonly>
