@@ -1,0 +1,25 @@
+{{mbox
+| demospace = {{{demospace|<noinclude>talk</noinclude>}}}
+| image = {{#ifeq:{{{icon|none}}}|none|none|[[File:{{#switch:{{lc:{{{icon}}} }}
+  | blank    = No image.svg
+  | plus     = B plus.svg
+  | lang     = Nuvola apps edu languages.svg
+  | info     = Info talk.png
+  | attn     = Emblem-important.svg
+  | stop     = Stop hand nuvola.svg
+  | frag     = Merge-split-transwiki default.svg
+  | #default = {{{icon}}}
+ }}|{{#switch:{{lc:{{{small|}}} }}
+  | yes      = {{{iconsize2|30px}}}
+  | right    = {{{iconsize2|30px}}}
+  | #default = {{{iconsize1|50px}}}
+ }}|alt={{{iconalt|User talk}}}]] }}
+| text  = {{clear}}{{#ifeq:{{lc:{{{runon}}} }}|yes||*}}'''If I left you a message:''' please answer on '''''{{#ifeq:{{lc:{{{you}}} }}|other|my|your}}''''' talk page, {{#switch:{{lc:{{{you|talkback}}} }} |other=else inform me | watched=as I am watching it | watchtb=as I am watching it. If I have been active and have not yet responded, please place {{#ifeq:{{lc:{{{hint}}} }}|no|{{tl|Talkback}}|{{tlp|Talkback|<u>''your&nbsp;username''</u>}}}} on my talk as I may have missed your response | notify=then notify my talk page |talkback |#default=then place {{#ifeq:{{lc:{{{hint}}} }}|no|{{tl|Talkback}}|{{tlp|Talkback|<u>''your&nbsp;username''</u>}}}} on my talk }}. {{#ifeq:{{lc:{{{runon}}} }}|yes||
+* }}'''If you leave me a message:''' I will answer on '''''{{#ifeq:{{lc:{{{me}}} }}|other|your|my}}''''' talk page, {{#switch:{{lc:{{{me|talkback}}} }} | other=unless you request otherwise | watched=so please add it to your watchlist | watchtb = so please add it to your watchlist. If I notice that you have been active but have not responded, I may place {{#ifeq:{{lc:{{{hint}}} }}|no|{{tl|Talkback}}|{{tlp|Talkback|{{BASEPAGENAME}}}}}} on your talk in case you have missed my response | notify=then notify your talk page | talkback|#default=then place {{#ifeq:{{lc:{{{hint}}} }}|no|{{tl|Talkback}}|{{tlp|Talkback|{{BASEPAGENAME}}}}}} on your talk }}.
+{{#ifeq:{{lc:{{{hidenew}}} }}|yes|| {{#ifeq:{{lc:{{{runon}}} }}|yes||
+*}}<span class="plainlinks">'''[{{fullurl:{{TALKPAGENAME}}|action=edit&section=new{{#if:{{{editintro|}}}|{{#ifexist:{{SUBJECTPAGENAME}}/{{{editintro|}}}|&editintro={{urlencode:{{SUBJECTPAGENAME}}/{{{editintro|}}}}}}}|{{#ifexist:{{SUBJECTPAGENAME}}/editintro|&editintro={{urlencode:{{SUBJECTPAGENAME}}/editintro}}}}}}}} Please click here to leave me a new message.]'''</span>}}
+| small = {{{small|}}}
+}}<noinclude>
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+{{Documentation}}
+</noinclude>
