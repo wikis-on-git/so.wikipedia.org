@@ -58,13 +58,13 @@ searchbuttonlabel={{#if:{{{search-button-label|}}}|{{{search-button-label}}}|Sea
   |{{#if:{{{botnotesmall|}}}
    |<small>
   }}Threads older than {{{age}}}{{#ifeq:{{{units|}}}|h||&nbsp;}}{{{units|day{{#ifeq:{{{age|}}}|1||s}}}}} {{#if:{{{minthreadszero|}}}|are|may be}}
-  |This page is
- }} archived{{#if:{{{target|}}}
+  |Bogaan 
+ }} waa {{#if:{{{target|}}}
   |{{#ifexist:{{#rel2abs:{{{target}}}}}
    |&#32;to [[{{#rel2abs:{{{target}}}}}]]
   }}
  }}{{#if:{{{bot|}}}
-  |&#32;by <span class="nowraplinks">[[User:{{{bot}}}|{{{bot}}}]]</span>
+  |&#32;kaydka <span class="nowraplinks">[[User:{{{bot}}}|{{{bot}}}]]</span>
  }}.</td></tr>
 }}{{#ifeq:{{{auto}}}-{{{editbox|yes}}}|no-yes
  |<tr><td><small class="plainlinks">[{{fullurl:{{#rel2abs:{{{archivelist|./archivelist}}}}}|action=edit&preload=Template:Archives/Preload}} Edit this box]</small></td></tr>
