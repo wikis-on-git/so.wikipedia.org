@@ -1,0 +1,13 @@
+<includeonly><!--
+-->{{#ifexist:{{#rel2abs:./Archive 1|{{{root|}}}}}|<!--
+-->{{#ifexist:{{#rel2abs:./Archive 26|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=0}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 51|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=25}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 76|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=50}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 101|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=75}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 126|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=100}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 151|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=125}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 176|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=150}}<!--
+-->{{#ifexist:{{#rel2abs:./Archive 201|{{{root|}}}}}|{{Archive list/display25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=175}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=175}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=150}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=125}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=100}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=75}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=50}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=25}}}}|{{Archive list/check25|root={{{root|}}}|links={{#ifeq:{{{nobr|}}}|yes||{{{links|10}}}}}|nobr=yes|start=0}}}}|no archives yet ([[{{#rel2abs:./Archive 1|{{{root|}}}}}|create]])}}<!-- 
+--></includeonly><noinclude>
+{{template doc}}
+</noinclude>
