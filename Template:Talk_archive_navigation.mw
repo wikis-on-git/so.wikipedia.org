@@ -1,0 +1,115 @@
+{{tmbox
+| style = {{{style|}}}
+| textstyle = {{{textstyle|}}}
+| image = [[File:{{{icon|Replacement filing cabinet.svg}}}|40x40px|alt=|link=]]
+| text  = 
+Kani waa '''[[Help:Archiving a talk page|archive]]''' qaybta wada hadalka{{#if:{{{period|}}}|&#32;for the period '''{{{period}}}'''}}. '''Waxba ha ka tirtirn fadlan.''' Hadii aad dooneeysid inaad sameeyso dood cusub , waad samayn kartaa [[{{NAMESPACE}}:{{BASEPAGENAME}}|Laakiin boggu waa inuu ahaadaa kan uun]].
+}}
+{| style="width: 32em; background: transparent; margin: 0 auto 0.5em; text-align: center"
+| {{#switch:{{SUBPAGENAME}}|
+Archive 2={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 1|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 1|&larr; Archive 1]]}}|
+Archive 3={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 2|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 2|&larr; Archive 2]]}}|
+Archive 4={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 3|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 3|&larr; Archive 3]]}}|
+Archive 5={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 4|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 4|&larr; Archive 4]]}}|
+Archive 6={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 5|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 5|&larr; Archive 5]]}}|
+Archive 7={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 6|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 6|&larr; Archive 6]]}}|
+Archive 8={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 7|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 7|&larr; Archive 7]]}}|
+Archive 9={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 8|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 8|&larr; Archive 8]]}}|
+Archive 10={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 9|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 9|&larr; Archive 9]]}}|
+Archive 11={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 10|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 10|&larr; Archive 10]]}}|
+Archive 12={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 11|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 11|&larr; Archive 11]]}}|
+Archive 13={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 12|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 12|&larr; Archive 12]]}}|
+Archive 14={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 13|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 13|&larr; Archive 13]]}}|
+Archive 15={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 14|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 14|&larr; Archive 14]]}}|
+Archive 16={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 15|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 15|&larr; Archive 15]]}}|
+Archive 17={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 16|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 16|&larr; Archive 16]]}}|
+Archive 18={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 17|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 17|&larr; Archive 17]]}}|
+Archive 19={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 18|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 18|&larr; Archive 18]]}}|
+Archive 20={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 19|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 19|&larr; Archive 19]]}}|
+Archive 21={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 20|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 20|&larr; Archive 20]]}}|
+Archive 22={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 21|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 21|&larr; Archive 21]]}}|
+Archive 23={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 22|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 22|&larr; Archive 22]]}}|
+Archive 24={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 23|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 23|&larr; Archive 23]]}}|
+Archive 25={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 24|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 24|&larr; Archive 24]]}}|
+Archive 26={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 25|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 25|&larr; Archive 25]]}}|
+Archive 27={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 26|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 26|&larr; Archive 26]]}}|
+Archive 28={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 27|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 27|&larr; Archive 27]]}}|
+Archive 29={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 28|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 28|&larr; Archive 28]]}}|
+Archive 30={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 29|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 29|&larr; Archive 29]]}}|
+Archive 31={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 30|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 30|&larr; Archive 30]]}}|
+Archive 32={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 31|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 31|&larr; Archive 31]]}}|
+Archive 33={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 32|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 32|&larr; Archive 32]]}}|
+Archive 34={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 33|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 33|&larr; Archive 33]]}}|
+Archive 35={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 34|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 34|&larr; Archive 34]]}}|
+Archive 36={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 35|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 35|&larr; Archive 35]]}}|
+Archive 37={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 36|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 36|&larr; Archive 36]]}}|
+Archive 38={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 37|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 37|&larr; Archive 37]]}}|
+Archive 39={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 38|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 38|&larr; Archive 38]]}}|
+Archive 40={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 39|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 39|&larr; Archive 39]]}}|
+Archive 41={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 40|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 40|&larr; Archive 40]]}}|
+Archive 42={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 41|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 41|&larr; Archive 41]]}}|
+Archive 43={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 42|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 42|&larr; Archive 42]]}}|
+Archive 44={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 43|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 43|&larr; Archive 43]]}}|
+Archive 45={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 44|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 44|&larr; Archive 44]]}}|
+Archive 46={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 45|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 45|&larr; Archive 45]]}}|
+Archive 47={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 46|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 46|&larr; Archive 46]]}}|
+Archive 48={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 47|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 47|&larr; Archive 47]]}}|
+Archive 49={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 48|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 48|&larr; Archive 48]]}}|
+Archive 50={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 49|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 49|&larr; Archive 49]]}}}}
+| '''{{SUBPAGENAME}}'''
+| {{#switch:{{SUBPAGENAME}}|
+Archive 1={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 2|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 2|Archive 2 &rarr;]]}}|
+Archive 2={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 3|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 3|Archive 3 &rarr;]]}}|
+Archive 3={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 4|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 4|Archive 4 &rarr;]]}}|
+Archive 4={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 5|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 5|Archive 5 &rarr;]]}}|
+Archive 5={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 6|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 6|Archive 6 &rarr;]]}}|
+Archive 6={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 7|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 7|Archive 7 &rarr;]]}}|
+Archive 7={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 8|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 8|Archive 8 &rarr;]]}}|
+Archive 8={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 9|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 9|Archive 9 &rarr;]]}}|
+Archive 9={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 10|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 10|Archive 10 &rarr;]]}}|
+Archive 10={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 11|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 11|Archive 11 &rarr;]]}}|
+Archive 11={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 12|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 12|Archive 12 &rarr;]]}}|
+Archive 12={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 13|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 13|Archive 13 &rarr;]]}}|
+Archive 13={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 14|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 14|Archive 14 &rarr;]]}}|
+Archive 14={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 15|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 15|Archive 15 &rarr;]]}}|
+Archive 15={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 16|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 16|Archive 16 &rarr;]]}}|
+Archive 16={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 17|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 17|Archive 17 &rarr;]]}}|
+Archive 17={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 18|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 18|Archive 18 &rarr;]]}}|
+Archive 18={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 19|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 19|Archive 19 &rarr;]]}}|
+Archive 19={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 20|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 20|Archive 20 &rarr;]]}}|
+Archive 20={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 21|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 21|Archive 21 &rarr;]]}}|
+Archive 21={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 22|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 22|Archive 22 &rarr;]]}}|
+Archive 22={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 23|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 23|Archive 23 &rarr;]]}}|
+Archive 23={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 24|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 24|Archive 24 &rarr;]]}}|
+Archive 24={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 25|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 25|Archive 25 &rarr;]]}}|
+Archive 25={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 26|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 26|Archive 26 &rarr;]]}}|
+Archive 26={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 27|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 27|Archive 27 &rarr;]]}}|
+Archive 27={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 28|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 28|Archive 28 &rarr;]]}}|
+Archive 28={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 29|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 29|Archive 29 &rarr;]]}}|
+Archive 29={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 30|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 30|Archive 30 &rarr;]]}}|
+Archive 30={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 31|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 31|Archive 31 &rarr;]]}}|
+Archive 31={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 32|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 32|Archive 32 &rarr;]]}}|
+Archive 32={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 33|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 33|Archive 33 &rarr;]]}}|
+Archive 33={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 34|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 34|Archive 34 &rarr;]]}}|
+Archive 34={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 35|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 35|Archive 35 &rarr;]]}}|
+Archive 35={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 36|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 36|Archive 36 &rarr;]]}}|
+Archive 36={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 37|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 37|Archive 37 &rarr;]]}}|
+Archive 37={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 38|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 38|Archive 38 &rarr;]]}}|
+Archive 38={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 39|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 39|Archive 39 &rarr;]]}}|
+Archive 39={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 40|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 40|Archive 40 &rarr;]]}}|
+Archive 40={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 41|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 41|Archive 41 &rarr;]]}}|
+Archive 41={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 42|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 42|Archive 42 &rarr;]]}}|
+Archive 42={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 43|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 43|Archive 43 &rarr;]]}}|
+Archive 43={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 44|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 44|Archive 44 &rarr;]]}}|
+Archive 44={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 45|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 45|Archive 45 &rarr;]]}}|
+Archive 45={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 46|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 46|Archive 46 &rarr;]]}}|
+Archive 46={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 47|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 47|Archive 47 &rarr;]]}}|
+Archive 47={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 48|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 48|Archive 48 &rarr;]]}}|
+Archive 48={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 49|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 49|Archive 49 &rarr;]]}}|
+Archive 49={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 50|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 50|Archive 50 &rarr;]]}}|
+Archive 50={{#ifexpr:({{#ifeq:{{{noredlinks|}}}|y|1|0}} and {{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 51|0|1}})||[[{{NAMESPACE}}:{{BASEPAGENAME}}/Archive 51|Archive 51 &rarr;]]}}}}
+|}<includeonly>{{{category|__NOEDITSECTION__}}}__NONEWSECTIONLINK__</includeonly><noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
