@@ -1,0 +1,231 @@
+<includeonly>{| class="sinottico" summary="Waxyaabaha quseeya idaacad raadiyo ah"
+|-class="sinottico_testata"
+! colspan="2" class="sinottico_testata" style="background-color: #BFDFFF;"| {{{name}}}
+|-
+{{#if:{{{logofile|}}}|{{!}}colspan="2" style="text-align: center;"{{!}}[[File:{{{logofile|}}}|{{{logosize|}}}|{{{logoalt|}}}]] }}
+|-
+! Sanadkii la aas aasay
+{{!}} {{{launch|}}}
+|-
+{{#if:{{{closed date|}}}|! Sanadkii la xiray
+{{!}} {{{closed date|}}} }}
+|-
+|-
+{{#if:{{{share|}}}|! Dhagaysiga
+{{!}} {{{share|}}} ({{{share as of|}}} {{{share source|}}}) }}
+|-
+! [[Tafaftire]]
+{{!}} {{{owner|}}}
+|-
+{{#if:{{{former names|}}}|! Magacii hore
+{{!}} {{{former names|}}} }}
+|-
+{{#if:{{{replaced names|}}}|! Loo badalay
+{{!}} {{{replaced names|}}} }}
+|-
+{{#if:{{{sister names|}}}|! Xiirka ay la leedahay
+{{!}} {{{sister names|}}} }}
+|-
+{{#if:{{{claim|}}}|! Hawada inta ay ku jirto
+{{!}} {{{claim|}}} }}
+|-
+{{#if:{{{timeshift names|}}}|! shaqada
+{{!}} {{{timeshift names|}}} }}
+|-
+{{#if:{{{web|}}}|! Websiteka
+{{!}} {{{web|}}} }}
+|- class="sinottico_divisione"
+{{#if:{{{terr serv 1|}}}{{{sat serv 1|}}}{{{cable serv 1|}}}{{{terr chan 1|}}}{{{sat chan 1|}}}{{{cable chan 1|}}}|! colspan="2" style="background-color: #BFDFFF;" {{!}} Diffusione {{{availability note|}}} }}
+|-
+{{#if:{{{terr serv 1|}}}{{{terr chan 1|}}}|! colspan="2" style="text-align: center;" {{!}} Terrestre }}
+|-
+{{#if:{{{terr serv 1|}}}{{{terr chan 1|}}}|!{{{terr serv 1|}}}
+{{!}} {{{terr chan 1|}}} }} 
+|-
+{{#if:{{{terr serv 2|}}}{{{terr chan 2|}}}|!{{{terr serv 2|}}}
+{{!}} {{{terr chan 2|}}} }} 
+|-
+{{#if:{{{terr serv 3|}}}{{{terr chan 3|}}}|!{{{terr serv 3|}}}
+{{!}} {{{terr chan 3|}}} }} 
+|-
+{{#if:{{{terr serv 4|}}}{{{terr chan 4|}}}|!{{{terr serv 4|}}}
+{{!}} {{{terr chan 4|}}} }} 
+|-
+{{#if:{{{terr serv 5|}}}{{{terr chan 5|}}}|!{{{terr serv 5|}}}
+{{!}} {{{terr chan 5|}}} }} 
+|-
+{{#if:{{{terr serv 6|}}}{{{terr chan 6|}}}|!{{{terr serv 6|}}}
+{{!}} {{{terr chan 6|}}} }} 
+|-
+{{#if:{{{terr serv 7|}}}{{{terr chan 7|}}}|!{{{terr serv 7|}}}
+{{!}} {{{terr chan 7|}}} }} 
+|-
+{{#if:{{{terr serv 8|}}}{{{terr chan 8|}}}|!{{{terr serv 8|}}}
+{{!}} {{{terr chan 8|}}} }} 
+|-
+{{#if:{{{terr serv 9|}}}{{{terr chan 9|}}}|!{{{terr serv 9|}}}
+{{!}} {{{terr chan 9|}}} }} 
+|-
+{{#if:{{{terr serv 10|}}}{{{terr chan 10|}}}|!{{{terr serv 10|}}}
+{{!}} {{{terr chan 10|}}} }} 
+|-
+{{#if:{{{sat serv 1|}}}{{{sat chan 1|}}}|! colspan="2" style="text-align: center;" {{!}} Satellitare }}
+|-
+{{#if:{{{sat serv 1|}}}{{{sat chan 1|}}}|!{{{sat serv 1|}}}
+{{!}} {{{sat chan 1|}}} }} 
+|-
+{{#if:{{{sat serv 2|}}}{{{sat chan 2|}}}|!{{{sat serv 2|}}}
+{{!}} {{{sat chan 2|}}} }} 
+|-
+{{#if:{{{sat serv 3|}}}{{{sat chan 3|}}}|!{{{sat serv 3|}}}
+{{!}} {{{sat chan 3|}}} }} 
+|-
+{{#if:{{{sat serv 4|}}}{{{sat chan 4|}}}|!{{{sat serv 4|}}}
+{{!}} {{{sat chan 4|}}} }} 
+|-
+{{#if:{{{sat serv 5|}}}{{{sat chan 5|}}}|!{{{sat serv 5|}}}
+{{!}} {{{sat chan 5|}}} }} 
+|-
+{{#if:{{{sat serv 6|}}}{{{sat chan 6|}}}|!{{{sat serv 6|}}}
+{{!}} {{{sat chan 6|}}} }} 
+|-
+{{#if:{{{sat serv 7|}}}{{{sat chan 7|}}}|!{{{sat serv 7|}}}
+{{!}} {{{sat chan 7|}}} }} 
+|-
+{{#if:{{{sat serv 8|}}}{{{sat chan 8|}}}|!{{{sat serv 8|}}}
+{{!}} {{{sat chan 8|}}} }} 
+|-
+{{#if:{{{sat serv 9|}}}{{{sat chan 9|}}}|!{{{sat serv 9|}}}
+{{!}} {{{sat chan 9|}}} }} 
+|-
+{{#if:{{{sat serv 10|}}}{{{sat chan 10|}}}|!{{{sat serv 10|}}}
+{{!}} {{{sat chan 10|}}} }} 
+|-
+{{#if:{{{cable serv 1|}}}{{{cable chan 1|}}}|! colspan="2" style="text-align: center;" {{!}} Via cavo }}
+|-
+{{#if:{{{cable serv 1|}}}{{{cable chan 1|}}}|!{{{cable serv 1|}}}
+{{!}} {{{cable chan 1|}}} }} 
+|-
+{{#if:{{{cable serv 2|}}}{{{cable chan 2|}}}|!{{{cable serv 2|}}}
+{{!}} {{{cable chan 2|}}} }} 
+|-
+{{#if:{{{cable serv 3|}}}{{{cable chan 3|}}}|!{{{cable serv 3|}}}
+{{!}} {{{cable chan 3|}}} }} 
+|-
+{{#if:{{{cable serv 4|}}}{{{cable chan 4|}}}|!{{{cable serv 4|}}}
+{{!}} {{{cable chan 4|}}} }} 
+|-
+{{#if:{{{cable serv 5|}}}{{{cable chan 5|}}}|!{{{cable serv 5|}}}
+{{!}} {{{cable chan 5|}}} }} 
+|-
+{{#if:{{{cable serv 6|}}}{{{cable chan 6|}}}|!{{{cable serv 6|}}}
+{{!}} {{{cable chan 6|}}} }} 
+|-
+{{#if:{{{cable serv 7|}}}{{{cable chan 7|}}}|!{{{cable serv 7|}}}
+{{!}} {{{cable chan 7|}}} }} 
+|-
+{{#if:{{{cable serv 8|}}}{{{cable chan 8|}}}|!{{{cable serv 8|}}}
+{{!}} {{{cable chan 8|}}} }} 
+|-
+{{#if:{{{cable serv 9|}}}{{{cable chan 9|}}}|!{{{cable serv 9|}}}
+{{!}} {{{cable chan 9|}}} }} 
+|-
+{{#if:{{{cable serv 10|}}}{{{cable chan 10|}}}|!{{{cable serv 10|}}}
+{{!}} {{{cable chan 10|}}} }} 
+|-
+{{#if:{{{mobile serv 1|}}}{{{mobile chan 1|}}}|! colspan="2" style="text-align: center;" {{!}} Via rete cellulare }}
+|-
+{{#if:{{{mobile serv 1|}}}{{{mobile chan 1|}}}|!{{{mobile serv 1|}}}
+{{!}} {{{mobile chan 1|}}} }} 
+|-
+{{#if:{{{mobile serv 2|}}}{{{mobile chan 2|}}}|!{{{mobile serv 2|}}}
+{{!}} {{{mobile chan 2|}}} }} 
+|-
+{{#if:{{{mobile serv 3|}}}{{{mobile chan 3|}}}|!{{{mobile serv 3|}}}
+{{!}} {{{mobile chan 3|}}} }} 
+|-
+{{#if:{{{mobile serv 4|}}}{{{mobile chan 4|}}}|!{{{mobile serv 4|}}}
+{{!}} {{{mobile chan 4|}}} }} 
+|-
+{{#if:{{{mobile serv 5|}}}{{{mobile chan 5|}}}|!{{{mobile serv 5|}}}
+{{!}} {{{mobile chan 5|}}} }} 
+|-
+{{#if:{{{mobile serv 6|}}}{{{mobile chan 6|}}}|!{{{mobile serv 6|}}}
+{{!}} {{{mobile chan 6|}}} }} 
+|-
+{{#if:{{{mobile serv 7|}}}{{{mobile chan 7|}}}|!{{{mobile serv 7|}}}
+{{!}} {{{mobile chan 7|}}} }} 
+|-
+{{#if:{{{mobile serv 8|}}}{{{mobile chan 8|}}}|!{{{mobile serv 8|}}}
+{{!}} {{{mobile chan 8|}}} }} 
+|-
+{{#if:{{{mobile serv 9|}}}{{{mobile chan 9|}}}|!{{{mobile serv 9|}}}
+{{!}} {{{mobile chan 9|}}} }} 
+|-
+{{#if:{{{mobile serv 10|}}}{{{mobile chan 10|}}}|!{{{mobile serv 10|}}}
+{{!}} {{{mobile chan 10|}}} }} 
+|-
+{{#if:{{{web serv 1|}}}{{{web chan 1|}}}|! colspan="2" style="text-align: center;" {{!}} Streaming web }}
+|-
+{{#if:{{{web serv 1|}}}{{{web chan 1|}}}|!{{{web serv 1|}}}
+{{!}} {{{web chan 1|}}} }} 
+|-
+{{#if:{{{web serv 2|}}}{{{web chan 2|}}}|!{{{web serv 2|}}}
+{{!}} {{{web chan 2|}}} }} 
+|-
+{{#if:{{{web serv 3|}}}{{{web chan 3|}}}|!{{{web serv 3|}}}
+{{!}} {{{web chan 3|}}} }} 
+|-
+{{#if:{{{web serv 4|}}}{{{web chan 4|}}}|!{{{web serv 4|}}}
+{{!}} {{{web chan 4|}}} }} 
+|-
+{{#if:{{{web serv 5|}}}{{{web chan 5|}}}|!{{{web serv 5|}}}
+{{!}} {{{web chan 5|}}} }} 
+|-
+{{#if:{{{web serv 6|}}}{{{web chan 6|}}}|!{{{web serv 6|}}}
+{{!}} {{{web chan 6|}}} }} 
+|-
+{{#if:{{{web serv 7|}}}{{{web chan 7|}}}|!{{{web serv 7|}}}
+{{!}} {{{web chan 7|}}} }} 
+|-
+{{#if:{{{web serv 8|}}}{{{web chan 8|}}}|!{{{web serv 8|}}}
+{{!}} {{{web chan 8|}}} }} 
+|-
+{{#if:{{{web serv 9|}}}{{{web chan 9|}}}|!{{{web serv 9|}}}
+{{!}} {{{web chan 9|}}} }} 
+|-
+{{#if:{{{web serv 10|}}}{{{web chan 10|}}}|!{{{web serv 10|}}}
+{{!}} {{{web chan 10|}}} }} 
+|}</includeonly><noinclude>
+
+
+
+
+
+
+[[ar:قالب:صندوق معلومات محطة إذاعية]]
+[[be-x-old:Шаблён:Радыёстанцыя]]
+[[de:Vorlage:Infobox Hörfunksender]]
+[[en:Template:Infobox radio station]]
+[[eo:Ŝablono:Informkesto radiostacio]]
+[[es:Plantilla:Ficha de emisora de radio]]
+[[et:Mall:Infokast raadiojaam]]
+[[fi:Malline:Radiokanava]]
+[[fr:Modèle:Infobox Radio]]
+[[ga:Teimpléad:Bosca Sonraí Stáisiúin Raidió]]
+[[hi:साँचा:ज्ञानसन्दूक रेडियो स्टेशन]]
+[[id:Templat:Infobox Radio station]]
+[[kk:Үлгі:Радио]]
+[[ky:Калып:Радиостанция]]
+[[lt:Šablonas:Radijo stoties informacija]]
+[[nl:Sjabloon:Infobox radiozender]]
+[[pl:Szablon:Stacja radiowa infobox]]
+[[pt:Predefinição:Info/Emissora de rádio]]
+[[ro:Format:Infocaseta Radio]]
+[[ru:Шаблон:Радиостанция]]
+[[sl:Predloga:Infopolje radijska postaja]]
+[[sv:Mall:Radiostation]]
+[[tl:Suleras:Infobox Radio station]]
+[[uk:Шаблон:Картка Радіостанція]]
+[[zh:Template:广播电台]]
+</noinclude>
