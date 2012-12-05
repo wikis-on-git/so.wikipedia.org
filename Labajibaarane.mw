@@ -1,6 +1,20 @@
 Jometeriya xisaabta [[Labajibaarane]] waxa uu leeyahay qaab laba jibaaran waxa uu leeyahay 4 dhinac iyo afar xaglood oo quman, afarta dhinac kasta waa isla egyihiin.
 
-[[File:Carre.svg|right]]
+{{Infobox polygon
+| name       = Laba jibaarane
+| image      = Square (geometry).svg
+| caption    = Laba jibaarane Waa [[Afra xagal|Afar xagal]] Quman.
+| type       = [[Labajibaarane]]
+| euler      =
+| edges      = 4
+| schläfli   = {4}
+| wythoff    = 
+| coxeter    = {{CDD|node_1|4|node}}
+| symmetry   = [[Dihedral symmetry|Dihedral]] (D<sub>4</sub>)
+| area       = ''t''<sup>2</sup> (with ''t'' = edge length)
+| angle      = 90°
+| dual       = ''dual polygon of this shape''
+| properties = [[Convex polygon|convex]], [[Cyclic polygon|cyclic]], [[equilateral]], [[Isogonal figure|isogonal]], [[isotoxal figure|isotoxal]]}}
 Si loo helo bedka waxaad arkaysaa in [[Sal]] iyo [[Joog]] ba isla egyihiin
 * [[Bed]] = <math>\mbox{Dhinac}^2\,</math>
 Si aan uhelno wareega waxaa meeshaan kaaga muuqata in ay isla egyihiin dhamaan dhinacyada
