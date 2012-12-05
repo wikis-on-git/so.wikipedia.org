@@ -3,12 +3,14 @@ Qardhaas Waa mid kamid ah joometeriya afar xagal leh, afartiisa dhinacna ay isla
 | name       = Qardhaas
 | image      = Rhombus.svg
 | caption    = Laba Qardhaas
-| nuuc       = Afar xagal
+| angle       = Afar xagal
 | edges      = 4
 | symmetry   = [[dihedral symmetry|D<sub>2</sub>]] (*2)
-| Bed      = <math>\tfrac{pq}{2}</math>
+| area       = <math>\tfrac{pq}{2}</math>
 | dual       = [[Laydi]]
 | properties = Qaabtuureed leh
+|coxeter     = {{CDD|node_f1|2|node_f1}}
+|schläfli    = { } + { }
 }}
 
 == Bedka ==
