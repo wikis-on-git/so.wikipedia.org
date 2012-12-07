@@ -1,4 +1,4 @@
-{| class="infobox" cellspacing="5" style="width: 22em; text-align: right; font-size: 88%; line-height: 1.5em"
+{| class="infobox" cellspacing="5" style="width: 22em; text-align: center; font-size: 88%; line-height: 1.5em"
 |+ style="font-size: larger; font-weight: bold" | {{{group|<includeonly>{{PAGENAME}}</includeonly>}}}
 |-
 {{#if:{{{flag|}}}|
@@ -29,7 +29,7 @@
 }}
 {{#if: {{{region1|}}}|
 {{!}} <!-- table begins -->
-{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
+{{{!}} align="right" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
 {{#if: {{{tablehdr|}}}|
 {{!}} colspan=3 style="text-align: center; font-size: 105%" {{!}} {{{tablehdr}}}
 {{!}}-
