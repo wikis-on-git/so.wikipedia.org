@@ -29,7 +29,7 @@
 }}
 {{#if: {{{region1|}}}|
 {{!}} <!-- table begins -->
-{{{!}} align="right" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
+{{{!}} align="center" style="width: 100%; background: transparent; line-height: 12pt; text-align: left; font-size: 95%;"
 {{#if: {{{tablehdr|}}}|
 {{!}} colspan=3 style="text-align: center; font-size: 105%" {{!}} {{{tablehdr}}}
 {{!}}-
