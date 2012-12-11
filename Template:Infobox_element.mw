@@ -21,7 +21,7 @@
 |}<!-- end of periodic table box -->
 |- <!-- APPEARANCE -->
 {{#if: {{{appearance|}}}{{{image name|}}}{{{image name comment|}}}{{{image name 2 comment|}}}<noinclude>show</noinclude>|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} Appearance
+! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} Muuqaalka
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}}<!--
  -->{{{appearance|}}}<!--
@@ -31,31 +31,31 @@
  -->{{#if:{{{image name 2 comment|}}}|<br />{{{image name 2 comment}}}|}}
 }}
 |- <!-- GENERAL PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | General properties
+! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Wax yaabaha u gaarka ah
 |-
-! Name, [[Chemical symbol|symbol]], [[atomic number|number]]
+! Magac, [[Sumad]], [[Tiro Atom]]
 | {{{name}}}, {{{symbol}}}, {{{number}}}
 |-
 {{#if:{{{pronounce|}}}|
-! Pronunciation
+! Loogu dhawaaqo
 {{!}} {{{pronounce}}}
 }}
 |-
 {{#if:{{{series|}}}{{{series comment|}}}|
-! [[Collective names of groups of like elements|Element category]]
+! [[Qaybta walxaha|Walxaha]]
 {{!}} {{#ifeq: {{{series|}}}|noble gas|[[{{{series}}}]]es|{{#ifeq: {{lc:{{{series|}}}}}|unknown|unknown|[[{{{series}}}]]}}}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}
 }}{{#if:{{{series comment|}}}| {{#if:{{{series|}}} |<br />|}}{{{series comment|}}} }}
 |-
-! [[group (periodic table)|Group]], [[period (periodic table)|period]], [[block (periodic table)|block]]
+! [[Qaybta]], [[Jadwalka Curiyayaasha|Heerka]], [[Faraca]]
 | {{#switch:{{{series}}} |lanthanide|lanthanides|actinide|actinides=[[Group number of lanthanides and actinides|n/a]],&nbsp; |[[group {{{group}}} element|{{{group}}}]],&nbsp;}}[[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
 |-
-! [[Atomic weight|Standard atomic weight]]
+! [[Cufka atomka|Cufka Atomka]]
 | {{#if:{{{atomic mass comment|}}}|{{{atomic mass comment}}}|{{{atomic mass}}}{{#if:{{{atomic mass 2|}}}|({{{atomic mass 2}}})}}}}
 |- <!-- electron configuration -->
-! [[Electron configuration]]
+! [[Fal galid]]
 | {{{electron configuration}}}<br />{{{electrons per shell}}}
 {{#ifexist: Media:Electron shell {{padleft:{{{number|{{template other|82}}}}}|3|0}} {{ucfirst:{{{name|{{template other|lead}}}}}}} - no label.svg | <div style="border:0; margin:0 auto;">[[File:Electron shell {{padleft:{{{number|82}}}|3|0}} {{ucfirst:{{{name|lead}}}}} - no label.svg|153px|Electron shells of {{{name|lead}}}{{#if:{{{electrons per shell|}}}|&#x20;({{{electrons per shell|}}})}}|center]]</div>|[[Category:Infobox element missing image|{{PAGENAME}}]]}}
-|- <!-- HISTORY -->
+|- <!-- Taariikh -->
 {{#if:{{{predicted by|}}}{{{prediction date |}}}{{{discovered by|}}}{{{discovery date|}}}{{{first isolation by|}}}{{{first isolation date|}}}{{{named by|}}}{{{named date|}}}{{{history comment|}}}|
 ! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} History }}
 |-
@@ -64,7 +64,7 @@
 {{!}} {{{predicted by|}}} {{#if:{{{prediction date|}}}| {{nowrap| {{#if:{{{predicted by|}}} | &#x20;({{{prediction date|}}}) | {{{prediction date|}}} }} }} }} }}
 |-
 {{#if:{{{discovered by|}}}{{{discovery date|}}}|
-! [[Discoveries of the chemical elements|Discovery]]
+! [[Helidda walxaha kimikada|Helay]]
 {{!}} {{{discovered by|}}} {{#if:{{{discovery date|}}}| {{nowrap| {{#if:{{{discovered by|}}} | &#x20;({{{discovery date|}}}) | {{{discovery date|}}} }} }} }} }}
 |-
 {{#if:{{{first isolation by|}}}{{{first isolation date|}}}|
@@ -72,14 +72,14 @@
 {{!}} {{{first isolation by|}}} {{#if:{{{first isolation date|}}}| {{nowrap| {{#if:{{{first isolation by|}}} | &#x20;({{{first isolation date|}}}) | {{{first isolation date|}}} }} }} }} }}
 |-
 {{#if:{{{named by|}}}{{{named date|}}}|
-! Named {{#if:{{{named by|}}}|by}}
+! Magac daray {{#if:{{{named by|}}}|by}}
 {{!}} {{{named by|}}} {{#if:{{{named date|}}}| {{nowrap| {{#if:{{{named by|}}} | &#x20;({{{named date|}}}) | {{{named date|}}} }} }} }} }}
 |-
 {{#if:{{{history comment label|}}}{{{history comment|}}}|
 ! {{{history comment label|}}}
 {{!}} {{{history comment|}}} }}
 |- <!-- PHYSICAL PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Physical properties
+! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Calaamadaha Fisigiska
 |-
 {{#if:{{{physical properties|}}}|
 {{!}} colspan=2 style="text-align:center;" {{!}} {{{physical properties|}}}
@@ -91,12 +91,12 @@
 }}
 |-
 {{#if:{{{phase|}}}|
-! [[Phase (matter)|Phase]]
+! [[xaalad (maado)|xaalad]]
 {{!}} {{#ifeq:{{lc:{{{phase|}}}}}|unknown|unknown|[[{{{phase}}}]]}}{{#if:{{{phase comment|}}}|{{#if:{{{phase|}}}|&#x20;|}}{{{phase comment}}} }}
 }}
 |-
 {{#if:{{{density gplstp|}}}|
-! [[Density]]
+! [[Cuf]]
 {{!}} (0 °C, 101.325 [[pascal (unit)|kPa]])<br />{{{density gplstp}}} g/L
 {{!}}-
 }}
@@ -116,17 +116,17 @@
 {{!}}-
 }}
 {{#if:{{{density gpcm3mp|}}}|
-! Liquid [[density]] at [[melting point|m.p.]]
+! Dareere [[Cuf]] ee [[Xaalad dhalaal|X.Dh.]]
 {{!}} {{{density gpcm3mp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3bp|}}}|
-! Liquid [[density]] at [[boiling point|b.p.]]
+! Dareere [[Cuf]] ee [[Xaalad Karkar|x.k.]]
 {{!}} {{{density gpcm3bp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{melting point K|}}}{{{melting point C|}}}{{{melting point F|}}}|
-! [[Melting point]]
+! [[Xaalad dhalaal]]
 {{!}} {{#if:{{{melting point pressure|}}}|({{{melting point pressure}}})&nbsp;}}{{#if:{{{melting point K|}}}|{{{melting point K}}}&nbsp;[[kelvin|K]]{{#if:{{{melting point C|}}}{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point C|}}}|{{{melting point C}}}&nbsp;°C{{#if:{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point F|}}}|{{{melting point F}}}&nbsp;°F|}}
 {{!}}-
 }}
@@ -136,27 +136,27 @@
 {{!}}-
 }}
 {{#if:{{{boiling point K|}}}{{{boiling point C|}}}{{{boiling point F|}}}|
-! [[Boiling point]]
+! [[Xaalad karkar]]
 {{!}} {{#if:{{{boiling point pressure|}}}|({{{boiling point pressure}}})&nbsp;}}{{#if:{{{boiling point K|}}}|{{{boiling point K}}}&nbsp;K{{#if:{{{boiling point C|}}}{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point C|}}}|{{{boiling point C}}}&nbsp;°C{{#if:{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point F|}}}|{{{boiling point F}}}&nbsp;°F|}}
 {{!}}-
 }}
 {{#if:{{{triple point K|}}}|
-! [[Triple point]]
+! [[Bar seddex jibaaran]]
 {{!}} {{{triple point K}}}&nbsp;K&nbsp;({{#expr: {{{triple point K}}}-273.16 round 0}}°C),&nbsp;{{{triple point kPa}}}&nbsp;kPa
 {{!}}-
 }}
 {{#if:{{{critical point K|}}}|
-! [[Critical point (thermodynamics)|Critical point]]
+! [[Ismari waa]]
 {{!}} {{{critical point K}}} K, {{{critical point MPa}}} MPa
 {{!}}-
 }}
 {{#if:{{{heat fusion|}}}|
-! [[Enthalpy of fusion|Heat of fusion]]
+! [[Heer kulka dhalaalka]]
 {{!}} {{#if:{{{heat fusion pressure|}}}|({{{heat fusion pressure}}})&nbsp;}}{{{heat fusion}}} [[kilojoule per mole|kJ·mol<sup>−1</sup>]]
 {{!}}-
 }}
 {{#if:{{{heat fusion 2|}}}|
-! [[Enthalpy of fusion|Heat of fusion]]
+! [[Heer kulka uumiga]]
 {{!}} {{#if:{{{heat fusion pressure|}}}|({{{heat fusion pressure}}})&nbsp;}}{{{heat fusion 2}}} kJ·mol<sup>−1</sup>
 {{!}}-
 }}
@@ -166,12 +166,12 @@
 {{!}}-
 }}
 {{#if:{{{heat capacity|}}}|
-! [[Molar heat capacity]]
+! [[Qaadka heer kulka Mol|H K M]]
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{heat capacity 2|}}}|
-! [[Molar heat capacity]]
+! [[Qaadka heer kulka Mol|H K M]]
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity 2}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
@@ -223,14 +223,14 @@
 {{!}}}
 }}
 |- <!-- ATOMIC PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Atomic properties
+! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Xaaladaha Atomka
 |-
 {{#if:{{{atomic properties|}}}|
 {{!}} colspan=2 style="text-align:center;" {{!}} {{{atomic properties|}}}
 }}
 |-
 {{#if:{{{oxidation states|}}}|
-! [[Oxidation state]]s
+! [[Xaalad daxal]]
 {{!}} {{{oxidation states}}}{{#if:{{{oxidation states comment|}}}|<br />({{{oxidation states comment}}})}}
 {{!}}-
 }}
@@ -276,12 +276,12 @@
 {{!}}-
 }}
 {{#if:{{{covalent radius|}}}|
-! [[Covalent radius]]
+! [[Covalent Gacan]]
 {{!}} {{{covalent radius}}} pm{{#if:{{{covalent radius comment|}}}|<br />{{{covalent radius comment}}}}}
 {{!}}-
 }}
 {{#if:{{{Van der Waals radius|}}}|
-! [[Van der Waals radius]]
+! [[Van der Waals Gacan]]
 {{!}} {{{Van der Waals radius}}} pm
 }}
 |- <!-- MISCELLANEA -->
@@ -291,7 +291,7 @@
 }}
 |-
 {{#if:{{{crystal structure|}}}{{{crystal structure comment|}}}|
-! [[Crystal structure]]
+! [[La iska arko]]
 {{!}} {{Infobox element/crystal structure wikilink|{{{crystal structure|}}}}}{{{crystal structure ref|}}}
 <div style="float:right; border:none;">{{#ifexist:Media:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}| [[File:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}|50px|{{ucfirst: {{{name}}}}} has a {{{crystal structure}}} crystal structure]]}}</div>{{#if:{{{crystal structure comment|}}}|{{#if:{{{crystal structure|}}}|<br />{{clear}}}}{{{crystal structure comment|}}}}}
 }}
@@ -303,7 +303,7 @@
 }}
 |-
 {{#if:{{{magnetic ordering|}}}|
-! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[magnetism|Magnetic ordering]]
+! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[Magnad|Magnad]]
 {{!}} {{{magnetic ordering}}}
 {{!}}-
 }}
@@ -327,7 +327,7 @@
 {{!}}-
 }}
 {{#if:{{{thermal conductivity|}}}|
-! [[Thermal conductivity]]
+! [[Kul gaarsiiye]]
 {{!}} {{{thermal conductivity}}}&nbsp;W·m<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
@@ -352,7 +352,7 @@
 {{!}}-
 }}
 {{#if:{{{speed of sound|}}}|
-! [[Speed of sound]]
+! [[Xawaaraha codka]]
 {{!}} {{{speed of sound}}} [[metre per second|m·s<sup>−1</sup>]]
 {{!}}-
 }}
@@ -362,7 +362,7 @@
 {{!}}-
 }}
 {{#if:{{{speed of sound rod at r.t.|}}}|
-! [[Speed of sound]] (thin rod)
+! [[Xawaaraha codka]] (thin rod)
 {{!}} ([[room temperature|r.t.]]) {{{speed of sound rod at r.t.}}}&nbsp;m·s<sup>−1</sup>
 {{!}}-
 }}
@@ -412,7 +412,7 @@
 {{!}}-
 }}
 {{#if:{{{CAS number|}}}|
-! [[CAS registry number]]
+! [[CAS Diiwaanka]]
 {{!}} {{{CAS number}}}
 {{!}}-
 }}
@@ -422,20 +422,20 @@
 }}
 |- <!-- ISOTOPES -->
 {{#if:{{{isotopes|}}}|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} Most stable isotopes
+! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} isotobi aad u neg
 {{!}}-
 {{hide in print|1=
-{{!}} colspan=2 style="text-align: center" {{!}} Main article: [[Isotopes of {{{name}}}]]
+{{!}} colspan=2 style="text-align: center" {{!}} Bogga: [[Isotobi ee {{{name}}}]]
 {{!}}-
 }}
 {{!}} colspan=2 {{!}}
 {{{!}} class="wikitable" style="text-align: center; width: 100%; border-collapse: collapse; margin:0;"
 ! [[isotope{{!}}iso]]
-! [[natural abundance{{!}}NA]]
-! [[half-life]]
-! [[decay mode{{!}}DM]]
-! [[decay energy{{!}}DE]] <small>([[electronvolt{{!}}MeV]])</small>
-! [[decay product{{!}}DP]]
+! [[Badnaanta dabeecada{{!}}BD]]
+! [[Jiritaanka-cumriga|JC]]
+! [[Hab liic{{!}}HL]]
+! [[Tamar liic{{!}}TL]] <small>([[electronvolt{{!}}MeV]])</small>
+! [[Soo saar xumo{{!}}SX]]
 {{{isotopes}}}
 {{#if:{{{isotopes comment|}}}|
 {{!}}-
