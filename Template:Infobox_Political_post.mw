@@ -35,7 +35,7 @@
                   }}<!--
                -->'''Incumbent<br/>{{{incumbent}}}'''<!--
                -->{{#if:{{{incumbentsince|}}}
-                   | <br/><small>since&nbsp;{{{incumbentsince}}}</small>
+                   | <br/><small>Laga soo bilaabo&nbsp;{{{incumbentsince}}}</small>
                   }}<!--
            --></div><!--
          -->}}
@@ -43,7 +43,7 @@
 |data2   = {{{department|}}}
 |label3  = [[Style (manner of address)|Style]]
 |data3   = {{{style|}}}
-|label4  = [[Official residence|Residence]]
+|label4  = [[Xarunta|Xarunta]]
 |data4   = {{{residence|}}}
 |label5  = Nominator
 |data5   = {{{nominator|}}}<!--
@@ -55,23 +55,23 @@
          -->{{#if:{{{appointerpost|}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
           }}
-|label7  = [[Term of office|Term length]]
+|label7  = [[Mudada xilka]]
 |data7   = {{{termlength|}}}
-|label8  = Inaugural holder
+|label8  = Xilka kala wareegay
 |data8   = {{{inaugural|}}}
-|label9  = Formation
+|label9  = Ka samaysan
 |data9   = {{{formation|}}}
-|label10  = First holder
+|label10  = Madaxweynihii 1aad
 |data10   = {{{first|}}}
-|label11 = Final holder
+|label11 = Madaxweynihii ugu dambeeyey
 |data11  = {{{last|}}}
-|label12 = Abolished
+|label12 = ka joojin
 |data12  = {{{abolished|}}}
-|label13 = Succession
+|label13 = Dhaxal
 |data13  = {{{succession|}}}
-|label14 = Deputy
+|label14 = Ku xigeen
 |data14  = {{{deputy|}}}
-|label15 = Salary
+|label15 = Mushaarka
 |data15  = {{{salary|}}}
 |label16 = Website
 |data16  = {{{website|}}}
