@@ -2,7 +2,7 @@
 |style        = width:{{#if:{{{width|}}}|{{{width}}}|17.5em}};
 |above        = <includeonly>{{{name|{{{post}}} <!--
               -->{{#if:{{{body|}}}
-                  | of {{{body}}}
+                  | . {{{body}}}
                  }} 
                  <br/>{{{nativename|}}}
                 }}}</includeonly>
