@@ -33,7 +33,7 @@
                    | <div style="padding-bottom:0.4em;"><!--
                       -->[[File:{{{image}}}|center|border|{{px|{{{imagesize|}}}|frameless}}|alt={{{alt|}}}]]</div>
                   }}<!--
-               -->'''Incumbent<br/>{{{incumbent}}}'''<!--
+               -->'''Hadda xilka haya<br/>{{{incumbent}}}'''<!--
                -->{{#if:{{{incumbentsince|}}}
                    | <br/><small>Laga soo bilaabo&nbsp;{{{incumbentsince}}}</small>
                   }}<!--
@@ -59,7 +59,7 @@
 |data7   = {{{termlength|}}}
 |label8  = Xilka kala wareegay
 |data8   = {{{inaugural|}}}
-|label9  = Ka samaysan
+|label9  = La aas aasay
 |data9   = {{{formation|}}}
 |label10  = Madaxweynihii 1aad
 |data10   = {{{first|}}}
