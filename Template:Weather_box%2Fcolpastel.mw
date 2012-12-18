@@ -1,0 +1,19 @@
+<includeonly>{{#iferror: {{#ifexpr: {{{1}}}>0}} |background:<nowiki>#</nowiki>FFFFFF;color:<nowiki>#</nowiki>000000; |background:<nowiki>#</nowiki>{{#ifexpr:{{{1}}}<-24|AA00AA|{{#ifexpr:{{{1}}}>=51|EE2200|{{#switch:{{#expr:({{{1}}}+25.5)/3 round 0}}
+|1=BB00CC|2=CC00EE|3=CC33EE|4=CC55EE|5=DD66EE
+|6=DD77EE|7=DD99EE|8=DDAAEE|9=DDBBEE|10=EECCFF
+|11=FFDDFF|12=F1F1F1|13=FFEEBB|14=FFFFCC|15=FFFFBB
+|16=FFFFAA|17=FFFF88|18=FFCC33|19=FFBB33|20=FF9900
+|21=FF8844|22=FF6633|23=FF5522|24=FF4422|25=EE4400
+}}}}}};color:<nowiki>#</nowiki>{{#ifexpr:{{{1}}}<-15 or {{{1}}}>=39|FFFFFF|000000}};}} font-size:85%;text-align:center;</includeonly><noinclude>This template makes cool temperature background colors. It is an alternative to [[Template:Weather box/colt]], which uses the standard colors.
+{{Weather box/temperature}}
+[[Category:Weather box|Colpastel]]
+
+[[bn:টেমপ্লেট:Weather box/colpastel]]
+[[diq:Template:Weather box/colpastel]]
+[[de:Template:Weather box/colpastel]]
+[[eo:Ŝablono:Veterkesto/paŝteloj]]
+[[es:Plantilla:Clima/colpastel]]
+[[fa:الگو:Weather box/colpastel]]
+[[hi:साँचा:Weather box/colpastel]]
+[[ur:سانچہ:Infobox Weather/colpastel]]
+</noinclude>
