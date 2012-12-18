@@ -1,0 +1,30 @@
+<includeonly>|-
+| style="text-align:center; padding:0; white-space:nowrap; border:none;" | [[immagine:BSicon_{{{1|leer}}}.svg|100x{{{PX|20px}}}]][[immagine:BSicon_{{{2|leer}}}.svg|100x{{{PX|20px}}}]]
+| style="text-align:right; vertical-align:middle; padding:0 .5em; font-size:80%; white-space:nowrap; border:none;" {{{HI|}}}| {{#if: {{{km|}}}|{{{km}}}|{{{3|}}}}}
+| style="padding:0; border:none;" {{#if: {{{6|}}}||colspan="2"}} | {{{4|}}} <span style="font-size:80%; line-height: 80%;">{{{5|}}}</span>
+{{#if: {{{6|}}}|{{!}} style="text-align:right; padding:0 0 0 .5em; font-size:80%; white-space:nowrap; border:none;" {{!}} {{{6}}}
+|}}</includeonly><noinclude>
+
+Il template '''Percorso fer2''' serve a costruire le mappe dei percorsi ferroviari a doppio senso.
+Va inserito in una tebella, costruita inserendo
+ <nowiki>{| class="prettytable float-right" 
+ ...
+ |}</nowiki>
+
+Al posto dei punti si possono poi inserire diverse istanze di ''Percorso fer2'' (per i tratti a percorso doppio) e ''[[template:Percorso fer|Percorso fer]]'' (per i tratti unici) secondo la sintassi
+ <nowiki>{{Percorso_fer|CODICE|DISTANZA KILOMETRICA|[[NOME DELLA STAZIONE]]|NOTE|NOTE 2}}</nowiki>
+
+e 
+
+ <nowiki>{{Percorso_fer2|CODICE sinistro|CODICE destro|DISTANZA KILOMETRICA|[[NOME DELLA STAZIONE]]|NOTE|NOTE 2}}</nowiki>
+
+
+
+La lista dei codici è presente a [[Progetto:Trasporti/Linee guida diagrammi ferroviari]]
+
+
+'''ATTENZIONE''' non modificare, il nome viene richiamato automaticamente da Spoorstrip, un programma che semplifica la costruzione dei percorsi
+
+[[Categoria:Template di formattazione - Trasporti|{{PAGENAME}}]]
+
+</noinclude>
