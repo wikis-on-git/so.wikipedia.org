@@ -1,0 +1,122 @@
+<includeonly>{{#iferror: {{#ifexpr: {{{1}}}>0}} |background:<nowiki>#</nowiki>FFFFFF;color:<nowiki>#</nowiki>000000; |background:<nowiki>#</nowiki>{{Hexadecimal|{{#ifexpr:{{{1}}}<=0|0|{{#ifexpr:{{{1}}}<=90|{{#expr:1.889*{{{1}}}}}|{{#ifexpr:{{{1}}}<=180|{{#expr:0.472*(270.169+{{{1}}})}}|{{#ifexpr:{{{1}}}<360|{{#expr:0.236*(720.424+{{{1}}})}}|255}}}}}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}<=0|0|{{#ifexpr:{{{1}}}<=90|{{#expr:1.889*{{{1}}}}}|{{#ifexpr:{{{1}}}<=180|{{#expr:0.472*(270.169+{{{1}}})}}|{{#ifexpr:{{{1}}}<360|{{#expr:0.236*(720.424+{{{1}}})}}|255}}}}}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}<=0|0|{{#ifexpr:{{{1}}}<=90|{{#expr:1.889*{{{1}}}}}|{{#ifexpr:{{{1}}}<150|{{#expr:2.883*(150-{{{1}}})}}|{{#ifexpr:{{{1}}}<=270|0|{{#ifexpr:{{{1}}}<719.735|{{#expr:0.567*({{{1}}}-270)}}|255}}}}}}}}}}|no}};color:<nowiki>#</nowiki>{{#ifexpr:{{{1}}}<80|FFFFFF|000000}};}} font-size:85%;text-align:center;</includeonly><noinclude>This template makes enlightening sunshine hour background colors:
+{| class="wikitable" align="left" width=300px
+|+Hours of sunlight in a 30-day month
+|-
+|style="{{{{PAGENAME}}|0}}"|0||style="{{{{PAGENAME}}|5}}"|5||style="{{{{PAGENAME}}|10}}"|10||style="{{{{PAGENAME}}|15}}"|15||style="{{{{PAGENAME}}|20}}"|20||style="{{{{PAGENAME}}|25}}"|25||style="{{{{PAGENAME}}|30}}"|30||style="{{{{PAGENAME}}|35}}"|35||style="{{{{PAGENAME}}|40}}"|40||style="{{{{PAGENAME}}|45}}"|45
+|-
+|style="{{{{PAGENAME}}|50}}"|50||style="{{{{PAGENAME}}|55}}"|55||style="{{{{PAGENAME}}|60}}"|60||style="{{{{PAGENAME}}|65}}"|65||style="{{{{PAGENAME}}|70}}"|70||style="{{{{PAGENAME}}|75}}"|75||style="{{{{PAGENAME}}|80}}"|80||style="{{{{PAGENAME}}|85}}"|85||style="{{{{PAGENAME}}|90}}"|90||style="{{{{PAGENAME}}|95}}"|95
+|-
+|style="{{{{PAGENAME}}|100}}"|100||style="{{{{PAGENAME}}|105}}"|105||style="{{{{PAGENAME}}|110}}"|110||style="{{{{PAGENAME}}|115}}"|115||style="{{{{PAGENAME}}|120}}"|120||style="{{{{PAGENAME}}|125}}"|125||style="{{{{PAGENAME}}|130}}"|130||style="{{{{PAGENAME}}|135}}"|135||style="{{{{PAGENAME}}|140}}"|140||style="{{{{PAGENAME}}|145}}"|145
+|-
+|style="{{{{PAGENAME}}|150}}"|150||style="{{{{PAGENAME}}|155}}"|155||style="{{{{PAGENAME}}|160}}"|160||style="{{{{PAGENAME}}|165}}"|165||style="{{{{PAGENAME}}|170}}"|170||style="{{{{PAGENAME}}|175}}"|175||style="{{{{PAGENAME}}|180}}"|180||style="{{{{PAGENAME}}|185}}"|185||style="{{{{PAGENAME}}|190}}"|190||style="{{{{PAGENAME}}|195}}"|195
+|-
+|style="{{{{PAGENAME}}|200}}"|200||style="{{{{PAGENAME}}|205}}"|205||style="{{{{PAGENAME}}|210}}"|210||style="{{{{PAGENAME}}|215}}"|215||style="{{{{PAGENAME}}|220}}"|220||style="{{{{PAGENAME}}|225}}"|225||style="{{{{PAGENAME}}|230}}"|230||style="{{{{PAGENAME}}|235}}"|235||style="{{{{PAGENAME}}|240}}"|240||style="{{{{PAGENAME}}|245}}"|245
+|-
+|style="{{{{PAGENAME}}|250}}"|250||style="{{{{PAGENAME}}|255}}"|255||style="{{{{PAGENAME}}|260}}"|260||style="{{{{PAGENAME}}|265}}"|265||style="{{{{PAGENAME}}|270}}"|270||style="{{{{PAGENAME}}|275}}"|275||style="{{{{PAGENAME}}|280}}"|280||style="{{{{PAGENAME}}|285}}"|285||style="{{{{PAGENAME}}|290}}"|290||style="{{{{PAGENAME}}|295}}"|295
+|-
+|style="{{{{PAGENAME}}|300}}"|300||style="{{{{PAGENAME}}|305}}"|305||style="{{{{PAGENAME}}|310}}"|310||style="{{{{PAGENAME}}|315}}"|315||style="{{{{PAGENAME}}|320}}"|320||style="{{{{PAGENAME}}|325}}"|325||style="{{{{PAGENAME}}|330}}"|330||style="{{{{PAGENAME}}|335}}"|335||style="{{{{PAGENAME}}|340}}"|340||style="{{{{PAGENAME}}|345}}"|345
+|-
+|style="{{{{PAGENAME}}|350}}"|350||style="{{{{PAGENAME}}|355}}"|355||style="{{{{PAGENAME}}|360}}"|360||style="{{{{PAGENAME}}|365}}"|365||style="{{{{PAGENAME}}|370}}"|370||style="{{{{PAGENAME}}|375}}"|375||style="{{{{PAGENAME}}|380}}"|380||style="{{{{PAGENAME}}|385}}"|385||style="{{{{PAGENAME}}|390}}"|390||style="{{{{PAGENAME}}|395}}"|395
+|-
+|style="{{{{PAGENAME}}|400}}"|400||style="{{{{PAGENAME}}|405}}"|405||style="{{{{PAGENAME}}|410}}"|410||style="{{{{PAGENAME}}|415}}"|415||style="{{{{PAGENAME}}|420}}"|420||style="{{{{PAGENAME}}|425}}"|425||style="{{{{PAGENAME}}|430}}"|430||style="{{{{PAGENAME}}|435}}"|435||style="{{{{PAGENAME}}|440}}"|440||style="{{{{PAGENAME}}|445}}"|445
+|-
+|style="{{{{PAGENAME}}|450}}"|450||style="{{{{PAGENAME}}|455}}"|455||style="{{{{PAGENAME}}|460}}"|460||style="{{{{PAGENAME}}|465}}"|465||style="{{{{PAGENAME}}|470}}"|470||style="{{{{PAGENAME}}|475}}"|475||style="{{{{PAGENAME}}|480}}"|480||style="{{{{PAGENAME}}|485}}"|485||style="{{{{PAGENAME}}|490}}"|490||style="{{{{PAGENAME}}|495}}"|495
+|-
+|style="{{{{PAGENAME}}|500}}"|500||style="{{{{PAGENAME}}|505}}"|505||style="{{{{PAGENAME}}|510}}"|510||style="{{{{PAGENAME}}|515}}"|515||style="{{{{PAGENAME}}|520}}"|520||style="{{{{PAGENAME}}|525}}"|525||style="{{{{PAGENAME}}|530}}"|530||style="{{{{PAGENAME}}|535}}"|535||style="{{{{PAGENAME}}|540}}"|540||style="{{{{PAGENAME}}|545}}"|545
+|-
+|style="{{{{PAGENAME}}|550}}"|550||style="{{{{PAGENAME}}|555}}"|555||style="{{{{PAGENAME}}|560}}"|560||style="{{{{PAGENAME}}|565}}"|565||style="{{{{PAGENAME}}|570}}"|570||style="{{{{PAGENAME}}|575}}"|575||style="{{{{PAGENAME}}|580}}"|580||style="{{{{PAGENAME}}|585}}"|585||style="{{{{PAGENAME}}|590}}"|590||style="{{{{PAGENAME}}|595}}"|595
+|-
+|style="{{{{PAGENAME}}|600}}"|600||style="{{{{PAGENAME}}|605}}"|605||style="{{{{PAGENAME}}|610}}"|610||style="{{{{PAGENAME}}|615}}"|615||style="{{{{PAGENAME}}|620}}"|620||style="{{{{PAGENAME}}|625}}"|625||style="{{{{PAGENAME}}|630}}"|630||style="{{{{PAGENAME}}|635}}"|635||style="{{{{PAGENAME}}|640}}"|640||style="{{{{PAGENAME}}|645}}"|645
+|-
+|style="{{{{PAGENAME}}|650}}"|650||style="{{{{PAGENAME}}|655}}"|655||style="{{{{PAGENAME}}|660}}"|660||style="{{{{PAGENAME}}|665}}"|665||style="{{{{PAGENAME}}|670}}"|670||style="{{{{PAGENAME}}|675}}"|675||style="{{{{PAGENAME}}|680}}"|680||style="{{{{PAGENAME}}|685}}"|685||style="{{{{PAGENAME}}|690}}"|690||style="{{{{PAGENAME}}|695}}"|695
+|}
+{| class="wikitable" align="right" width=300px
+|+Hours of sunlight a year
+|-
+|style="{{{{PAGENAME}}|0}}"|0||style="{{{{PAGENAME}}|4}}"|50||style="{{{{PAGENAME}}|8}}"|100||style="{{{{PAGENAME}}|12}}"|150||style="{{{{PAGENAME}}|16}}"|200||style="{{{{PAGENAME}}|21}}"|250||style="{{{{PAGENAME}}|25}}"|300||style="{{{{PAGENAME}}|29}}"|350||style="{{{{PAGENAME}}|33}}"|400||style="{{{{PAGENAME}}|37}}"|450
+|-
+|style="{{{{PAGENAME}}|41}}"|500||style="{{{{PAGENAME}}|45}}"|550||style="{{{{PAGENAME}}|49}}"|600||style="{{{{PAGENAME}}|53}}"|650||style="{{{{PAGENAME}}|57}}"|700||style="{{{{PAGENAME}}|62}}"|750||style="{{{{PAGENAME}}|66}}"|800||style="{{{{PAGENAME}}|70}}"|850||style="{{{{PAGENAME}}|74}}"|900||style="{{{{PAGENAME}}|78}}"|950
+|-
+|style="{{{{PAGENAME}}|82}}"|1,000||style="{{{{PAGENAME}}|86}}"|1,050||style="{{{{PAGENAME}}|90}}"|1,100||style="{{{{PAGENAME}}|94}}"|1,150||style="{{{{PAGENAME}}|99}}"|1,200||style="{{{{PAGENAME}}|103}}"|1,250||style="{{{{PAGENAME}}|107}}"|1,300||style="{{{{PAGENAME}}|111}}"|1,350||style="{{{{PAGENAME}}|115}}"|1,400||style="{{{{PAGENAME}}|119}}"|1,450
+|-
+|style="{{{{PAGENAME}}|123}}"|1,500||style="{{{{PAGENAME}}|127}}"|1,550||style="{{{{PAGENAME}}|131}}"|1,600||style="{{{{PAGENAME}}|136}}"|1,650||style="{{{{PAGENAME}}|140}}"|1,700||style="{{{{PAGENAME}}|144}}"|1,750||style="{{{{PAGENAME}}|148}}"|1,800||style="{{{{PAGENAME}}|152}}"|1,850||style="{{{{PAGENAME}}|156}}"|1,900||style="{{{{PAGENAME}}|160}}"|1,950
+|-
+|style="{{{{PAGENAME}}|164}}"|2,000||style="{{{{PAGENAME}}|168}}"|2,050||style="{{{{PAGENAME}}|172}}"|2,100||style="{{{{PAGENAME}}|177}}"|2,150||style="{{{{PAGENAME}}|181}}"|2,200||style="{{{{PAGENAME}}|185}}"|2,250||style="{{{{PAGENAME}}|189}}"|2,300||style="{{{{PAGENAME}}|193}}"|2,350||style="{{{{PAGENAME}}|197}}"|2,400||style="{{{{PAGENAME}}|201}}"|2,450
+|-
+|style="{{{{PAGENAME}}|205}}"|2,500||style="{{{{PAGENAME}}|209}}"|2,550||style="{{{{PAGENAME}}|214}}"|2,600||style="{{{{PAGENAME}}|218}}"|2,650||style="{{{{PAGENAME}}|222}}"|2,700||style="{{{{PAGENAME}}|226}}"|2,750||style="{{{{PAGENAME}}|230}}"|2,800||style="{{{{PAGENAME}}|234}}"|2,850||style="{{{{PAGENAME}}|238}}"|2,900||style="{{{{PAGENAME}}|242}}"|2,950
+|-
+|style="{{{{PAGENAME}}|246}}"|3,000||style="{{{{PAGENAME}}|251}}"|3,050||style="{{{{PAGENAME}}|255}}"|3,100||style="{{{{PAGENAME}}|259}}"|3,150||style="{{{{PAGENAME}}|263}}"|3,200||style="{{{{PAGENAME}}|267}}"|3,250||style="{{{{PAGENAME}}|271}}"|3,300||style="{{{{PAGENAME}}|275}}"|3,350||style="{{{{PAGENAME}}|279}}"|3,400||style="{{{{PAGENAME}}|283}}"|3,450
+|-
+|style="{{{{PAGENAME}}|287}}"|3,500||style="{{{{PAGENAME}}|292}}"|3,550||style="{{{{PAGENAME}}|296}}"|3,600||style="{{{{PAGENAME}}|300}}"|3,650||style="{{{{PAGENAME}}|304}}"|3,700||style="{{{{PAGENAME}}|308}}"|3,750||style="{{{{PAGENAME}}|312}}"|3,800||style="{{{{PAGENAME}}|316}}"|3,850||style="{{{{PAGENAME}}|320}}"|3,900||style="{{{{PAGENAME}}|324}}"|3,950
+|-
+|style="{{{{PAGENAME}}|329}}"|4,000||style="{{{{PAGENAME}}|333}}"|4,050||style="{{{{PAGENAME}}|337}}"|4,100||style="{{{{PAGENAME}}|341}}"|4,150||style="{{{{PAGENAME}}|345}}"|4,200||style="{{{{PAGENAME}}|349}}"|4,250||style="{{{{PAGENAME}}|353}}"|4,300||style="{{{{PAGENAME}}|357}}"|4,350||style="{{{{PAGENAME}}|361}}"|4,400||style="{{{{PAGENAME}}|366}}"|4,450
+|-
+|style="{{{{PAGENAME}}|370}}"|4,500||style="{{{{PAGENAME}}|374}}"|4,550||style="{{{{PAGENAME}}|378}}"|4,600||style="{{{{PAGENAME}}|382}}"|4,650||style="{{{{PAGENAME}}|386}}"|4,700||style="{{{{PAGENAME}}|390}}"|4,750||style="{{{{PAGENAME}}|394}}"|4,800||style="{{{{PAGENAME}}|398}}"|4,850||style="{{{{PAGENAME}}|402}}"|4,900||style="{{{{PAGENAME}}|407}}"|4,950
+|-
+|style="{{{{PAGENAME}}|411}}"|5,000||style="{{{{PAGENAME}}|415}}"|5,050||style="{{{{PAGENAME}}|419}}"|5,100||style="{{{{PAGENAME}}|423}}"|5,150||style="{{{{PAGENAME}}|427}}"|5,200||style="{{{{PAGENAME}}|431}}"|5,250||style="{{{{PAGENAME}}|435}}"|5,300||style="{{{{PAGENAME}}|439}}"|5,350||style="{{{{PAGENAME}}|444}}"|5,400||style="{{{{PAGENAME}}|448}}"|5,450
+|-
+|style="{{{{PAGENAME}}|452}}"|5,500||style="{{{{PAGENAME}}|456}}"|5,550||style="{{{{PAGENAME}}|460}}"|5,600||style="{{{{PAGENAME}}|464}}"|5,650||style="{{{{PAGENAME}}|468}}"|5,700||style="{{{{PAGENAME}}|472}}"|5,750||style="{{{{PAGENAME}}|476}}"|5,800||style="{{{{PAGENAME}}|480}}"|5,850||style="{{{{PAGENAME}}|485}}"|5,900||style="{{{{PAGENAME}}|489}}"|5,950
+|-
+|style="{{{{PAGENAME}}|493}}"|6,000||style="{{{{PAGENAME}}|497}}"|6,050||style="{{{{PAGENAME}}|501}}"|6,100||style="{{{{PAGENAME}}|505}}"|6,150||style="{{{{PAGENAME}}|509}}"|6,200||style="{{{{PAGENAME}}|513}}"|6,250||style="{{{{PAGENAME}}|517}}"|6,300||style="{{{{PAGENAME}}|522}}"|6,350||style="{{{{PAGENAME}}|526}}"|6,400||style="{{{{PAGENAME}}|530}}"|6,450
+|-
+|style="{{{{PAGENAME}}|534}}"|6,500||style="{{{{PAGENAME}}|538}}"|6,550||style="{{{{PAGENAME}}|542}}"|6,600||style="{{{{PAGENAME}}|546}}"|6,650||style="{{{{PAGENAME}}|550}}"|6,700||style="{{{{PAGENAME}}|554}}"|6,750||style="{{{{PAGENAME}}|559}}"|6,800||style="{{{{PAGENAME}}|563}}"|6,850||style="{{{{PAGENAME}}|567}}"|6,900||style="{{{{PAGENAME}}|571}}"|6,950
+|}
+
+{| class="wikitable" align="left" width=300px
+|+Hours of sunlight in a day
+|-
+|style="{{{{PAGENAME}}|0}}"|0.0||style="{{{{PAGENAME}}|6.1}}"|0.2||style="{{{{PAGENAME}}|12.2}}"|0.4||style="{{{{PAGENAME}}|18.3}}"|0.6||style="{{{{PAGENAME}}|24.4}}"|0.8||style="{{{{PAGENAME}}|30.5}}"|1.0||style="{{{{PAGENAME}}|36.5}}"|1.2||style="{{{{PAGENAME}}|42.6}}"|1.4||style="{{{{PAGENAME}}|48.7}}"|1.6||style="{{{{PAGENAME}}|54.8}}"|1.8
+|-
+|style="{{{{PAGENAME}}|60.9}}"|2.0||style="{{{{PAGENAME}}|67.0}}"|2.2||style="{{{{PAGENAME}}|73.1}}"|2.4||style="{{{{PAGENAME}}|79.1}}"|2.6||style="{{{{PAGENAME}}|85.2}}"|2.8||style="{{{{PAGENAME}}|91.3}}"|3.0||style="{{{{PAGENAME}}|97.4}}"|3.2||style="{{{{PAGENAME}}|103.5}}"|3.4||style="{{{{PAGENAME}}|109.6}}"|3.6||style="{{{{PAGENAME}}|115.7}}"|3.8
+|-
+|style="{{{{PAGENAME}}|121.8}}"|4.0||style="{{{{PAGENAME}}|127.8}}"|4.2||style="{{{{PAGENAME}}|133.9}}"|4.4||style="{{{{PAGENAME}}|140.0}}"|4.6||style="{{{{PAGENAME}}|146.1}}"|4.8||style="{{{{PAGENAME}}|152.2}}"|5.0||style="{{{{PAGENAME}}|158.3}}"|5.2||style="{{{{PAGENAME}}|164.4}}"|5.4||style="{{{{PAGENAME}}|170.5}}"|5.6||style="{{{{PAGENAME}}|176.6}}"|5.8
+|-
+|style="{{{{PAGENAME}}|182.6}}"|6.0||style="{{{{PAGENAME}}|188.7}}"|6.2||style="{{{{PAGENAME}}|194.8}}"|6.4||style="{{{{PAGENAME}}|200.9}}"|6.6||style="{{{{PAGENAME}}|207.0}}"|6.8||style="{{{{PAGENAME}}|213.1}}"|7.0||style="{{{{PAGENAME}}|219.2}}"|7.2||style="{{{{PAGENAME}}|225.3}}"|7.4||style="{{{{PAGENAME}}|231.3}}"|7.6||style="{{{{PAGENAME}}|237.4}}"|7.8
+|-
+|style="{{{{PAGENAME}}|243.5}}"|8.0||style="{{{{PAGENAME}}|249.6}}"|8.2||style="{{{{PAGENAME}}|255.7}}"|8.4||style="{{{{PAGENAME}}|261.8}}"|8.6||style="{{{{PAGENAME}}|267.9}}"|8.8||style="{{{{PAGENAME}}|274.0}}"|9.0||style="{{{{PAGENAME}}|280.0}}"|9.2||style="{{{{PAGENAME}}|286.1}}"|9.4||style="{{{{PAGENAME}}|292.2}}"|9.6||style="{{{{PAGENAME}}|298.3}}"|9.8
+|-
+|style="{{{{PAGENAME}}|304.4}}"|10.0||style="{{{{PAGENAME}}|310.5}}"|10.2||style="{{{{PAGENAME}}|316.6}}"|10.4||style="{{{{PAGENAME}}|322.7}}"|10.6||style="{{{{PAGENAME}}|328.8}}"|10.8||style="{{{{PAGENAME}}|334.8}}"|11.0||style="{{{{PAGENAME}}|340.9}}"|11.2||style="{{{{PAGENAME}}|347.0}}"|11.4||style="{{{{PAGENAME}}|353.1}}"|11.6||style="{{{{PAGENAME}}|359.2}}"|11.8
+|-
+|style="{{{{PAGENAME}}|365.3}}"|12.0||style="{{{{PAGENAME}}|371.4}}"|12.2||style="{{{{PAGENAME}}|377.5}}"|12.4||style="{{{{PAGENAME}}|383.5}}"|12.6||style="{{{{PAGENAME}}|389.6}}"|12.8||style="{{{{PAGENAME}}|395.7}}"|13.0||style="{{{{PAGENAME}}|401.8}}"|13.2||style="{{{{PAGENAME}}|407.9}}"|13.4||style="{{{{PAGENAME}}|414.0}}"|13.6||style="{{{{PAGENAME}}|420.1}}"|13.8
+|-
+|style="{{{{PAGENAME}}|426.2}}"|14.0||style="{{{{PAGENAME}}|432.2}}"|14.2||style="{{{{PAGENAME}}|438.3}}"|14.4||style="{{{{PAGENAME}}|444.4}}"|14.6||style="{{{{PAGENAME}}|456.6}}"|15.0||style="{{{{PAGENAME}}|462.7}}"|15.2||style="{{{{PAGENAME}}|468.8}}"|15.4||style="{{{{PAGENAME}}|474.9}}"|15.6||style="{{{{PAGENAME}}|481.0}}"|15.8||style="{{{{PAGENAME}}|487.0}}"|16.0
+|-
+|style="{{{{PAGENAME}}|493.1}}"|16.2||style="{{{{PAGENAME}}|499.2}}"|16.4||style="{{{{PAGENAME}}|505.3}}"|16.6||style="{{{{PAGENAME}}|511.4}}"|16.8||style="{{{{PAGENAME}}|517.5}}"|17.0||style="{{{{PAGENAME}}|523.6}}"|17.2||style="{{{{PAGENAME}}|529.7}}"|17.4||style="{{{{PAGENAME}}|535.7}}"|17.6||style="{{{{PAGENAME}}|541.8}}"|17.8||style="{{{{PAGENAME}}|547.9}}"|18.0
+|-
+|style="{{{{PAGENAME}}|554.0}}"|18.2||style="{{{{PAGENAME}}|560.1}}"|18.4||style="{{{{PAGENAME}}|566.2}}"|18.6||style="{{{{PAGENAME}}|572.3}}"|18.8||style="{{{{PAGENAME}}|578.4}}"|19.0||style="{{{{PAGENAME}}|584.4}}"|19.2||style="{{{{PAGENAME}}|590.5}}"|19.4||style="{{{{PAGENAME}}|596.6}}"|19.6||style="{{{{PAGENAME}}|602.7}}"|19.8||style="{{{{PAGENAME}}|608.8}}"|20.0
+|-
+|style="{{{{PAGENAME}}|614.9}}"|20.2||style="{{{{PAGENAME}}|621.0}}"|20.4||style="{{{{PAGENAME}}|627.1}}"|20.6||style="{{{{PAGENAME}}|633.2}}"|20.8||style="{{{{PAGENAME}}|639.2}}"|21.0||style="{{{{PAGENAME}}|645.3}}"|21.2||style="{{{{PAGENAME}}|651.4}}"|21.4||style="{{{{PAGENAME}}|657.5}}"|21.6||style="{{{{PAGENAME}}|663.6}}"|21.8||style="{{{{PAGENAME}}|669.7}}"|22.0
+|-
+|style="{{{{PAGENAME}}|675.8}}"|22.2||style="{{{{PAGENAME}}|681.9}}"|22.4||style="{{{{PAGENAME}}|687.9}}"|22.6||style="{{{{PAGENAME}}|694.0}}"|22.8||style="{{{{PAGENAME}}|700.1}}"|23.0||style="{{{{PAGENAME}}|706.2}}"|23.2||style="{{{{PAGENAME}}|712.3}}"|23.4||style="{{{{PAGENAME}}|718.4}}"|23.6||style="{{{{PAGENAME}}|724.5}}"|23.8||style="{{{{PAGENAME}}|730.6}}"|24.0
+|}
+{| class="wikitable" align="right" width=300px
+|+Percent sunshine
+|-
+|style="{{{{PAGENAME}}|0}}"|0||style="{{{{PAGENAME}}|7.2}}"|1||style="{{{{PAGENAME}}|14.4}}"|2||style="{{{{PAGENAME}}|21.6}}"|3||style="{{{{PAGENAME}}|28.8}}"|4||style="{{{{PAGENAME}}|36.0}}"|5||style="{{{{PAGENAME}}|43.2}}"|6||style="{{{{PAGENAME}}|50.4}}"|7||style="{{{{PAGENAME}}|57.6}}"|8||style="{{{{PAGENAME}}|64.8}}"|9
+|-
+|style="{{{{PAGENAME}}|72.0}}"|10||style="{{{{PAGENAME}}|79.2}}"|11||style="{{{{PAGENAME}}|86.4}}"|12||style="{{{{PAGENAME}}|93.6}}"|13||style="{{{{PAGENAME}}|100.8}}"|14||style="{{{{PAGENAME}}|108.0}}"|15||style="{{{{PAGENAME}}|115.2}}"|16||style="{{{{PAGENAME}}|122.4}}"|17||style="{{{{PAGENAME}}|129.6}}"|18||style="{{{{PAGENAME}}|136.8}}"|19
+|-
+|style="{{{{PAGENAME}}|144.0}}"|20||style="{{{{PAGENAME}}|151.2}}"|21||style="{{{{PAGENAME}}|158.4}}"|22||style="{{{{PAGENAME}}|165.6}}"|23||style="{{{{PAGENAME}}|172.8}}"|24||style="{{{{PAGENAME}}|180.0}}"|25||style="{{{{PAGENAME}}|187.2}}"|26||style="{{{{PAGENAME}}|194.4}}"|27||style="{{{{PAGENAME}}|201.6}}"|28||style="{{{{PAGENAME}}|208.8}}"|29
+|-
+|style="{{{{PAGENAME}}|216.0}}"|30||style="{{{{PAGENAME}}|223.2}}"|31||style="{{{{PAGENAME}}|230.4}}"|32||style="{{{{PAGENAME}}|237.6}}"|33||style="{{{{PAGENAME}}|244.8}}"|34||style="{{{{PAGENAME}}|252.0}}"|35||style="{{{{PAGENAME}}|259.2}}"|36||style="{{{{PAGENAME}}|266.4}}"|37||style="{{{{PAGENAME}}|273.6}}"|38||style="{{{{PAGENAME}}|280.8}}"|39
+|-
+|style="{{{{PAGENAME}}|288.0}}"|40||style="{{{{PAGENAME}}|295.2}}"|41||style="{{{{PAGENAME}}|302.4}}"|42||style="{{{{PAGENAME}}|309.6}}"|43||style="{{{{PAGENAME}}|316.8}}"|44||style="{{{{PAGENAME}}|324.0}}"|45||style="{{{{PAGENAME}}|331.2}}"|46||style="{{{{PAGENAME}}|338.4}}"|47||style="{{{{PAGENAME}}|345.6}}"|48||style="{{{{PAGENAME}}|352.8}}"|49
+|-
+|style="{{{{PAGENAME}}|360.0}}"|50||style="{{{{PAGENAME}}|367.2}}"|51||style="{{{{PAGENAME}}|374.4}}"|52||style="{{{{PAGENAME}}|381.6}}"|53||style="{{{{PAGENAME}}|396.0}}"|55||style="{{{{PAGENAME}}|403.2}}"|56||style="{{{{PAGENAME}}|410.4}}"|57||style="{{{{PAGENAME}}|417.6}}"|58||style="{{{{PAGENAME}}|424.8}}"|59||style="{{{{PAGENAME}}|432.0}}"|60
+|-
+|style="{{{{PAGENAME}}|439.2}}"|61||style="{{{{PAGENAME}}|446.4}}"|62||style="{{{{PAGENAME}}|453.6}}"|63||style="{{{{PAGENAME}}|460.8}}"|64||style="{{{{PAGENAME}}|468.0}}"|65||style="{{{{PAGENAME}}|475.2}}"|66||style="{{{{PAGENAME}}|482.4}}"|67||style="{{{{PAGENAME}}|489.6}}"|68||style="{{{{PAGENAME}}|496.8}}"|69||style="{{{{PAGENAME}}|504.0}}"|70
+|-
+|style="{{{{PAGENAME}}|511.2}}"|71||style="{{{{PAGENAME}}|518.4}}"|72||style="{{{{PAGENAME}}|525.6}}"|73||style="{{{{PAGENAME}}|532.8}}"|74||style="{{{{PAGENAME}}|540.0}}"|75||style="{{{{PAGENAME}}|547.2}}"|76||style="{{{{PAGENAME}}|554.4}}"|77||style="{{{{PAGENAME}}|561.6}}"|78||style="{{{{PAGENAME}}|568.8}}"|79||style="{{{{PAGENAME}}|576.0}}"|80
+|-
+|style="{{{{PAGENAME}}|583.2}}"|81||style="{{{{PAGENAME}}|590.4}}"|82||style="{{{{PAGENAME}}|597.6}}"|83||style="{{{{PAGENAME}}|604.8}}"|84||style="{{{{PAGENAME}}|612.0}}"|85||style="{{{{PAGENAME}}|619.2}}"|86||style="{{{{PAGENAME}}|626.4}}"|87||style="{{{{PAGENAME}}|633.6}}"|88||style="{{{{PAGENAME}}|640.8}}"|89||style="{{{{PAGENAME}}|648.0}}"|90
+|-
+|style="{{{{PAGENAME}}|655.2}}"|91||style="{{{{PAGENAME}}|662.4}}"|92||style="{{{{PAGENAME}}|669.6}}"|93||style="{{{{PAGENAME}}|676.8}}"|94||style="{{{{PAGENAME}}|684.0}}"|95||style="{{{{PAGENAME}}|691.2}}"|96||style="{{{{PAGENAME}}|698.4}}"|97||style="{{{{PAGENAME}}|705.6}}"|98||style="{{{{PAGENAME}}|712.8}}"|99||style="{{{{PAGENAME}}|720.0}}"|100
+|}
+[[Category:Weather box|Colsunshine]]
+[[fa:الگو:Weather box/cols]]
+[[hy:Կաղապար:Եղանակի աղյուսակ/cols]]
+[[id:Templat:Infobox weather/cols]]
+[[mk:Шаблон:Infobox Weather/cols]]
+[[pt:Predefinição:Infobox weather/cols]]
+[[zh:Template:Infobox weather/cols]]
+</noinclude>
