@@ -1,0 +1,2 @@
+<includeonly>{{#ifexpr:{{{1}}}<{{{2}}}|{{{2}}}|{{{1}}}}}</includeonly><noinclude>
+{{pp-template|small=yes}}2-parameter version</noinclude>
