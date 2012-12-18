@@ -1,0 +1,2155 @@
+<includeonly>{| class="wikitable {{#if:{{{open|}}}||collapsible {{#if:{{{collapsed|}}}|collapsed}}}}" style="width:{{{width|90%}}}; text-align:center; font-size:90%; line-height: 1.1em; margin:auto;"{{#if:{{{open|}}}|<nowiki/>
+{{!}}+Faahfaahin Cimilada {{#if:{{{location|}}}|{{{location}}}|<nowiki>{{{location}}}</nowiki>}}|<nowiki/>
+{{!}}-
+!colspan="14" {{!}} {{#if:{{{name|}}}|{{navbar|{{{name}}}|mini=1|style=float: left; margin-left:0.75em}} }} Faahfaahin Cimilada {{#if:{{{location|}}}|{{{location}}}|<nowiki>{{{location}}}</nowiki>}}}}
+|-
+! Month
+! {{dabbr|Jan|January}}
+! {{dabbr|Feb|February}}
+! {{dabbr|Mar|March}}
+! {{dabbr|Apr|April}}
+! May
+! {{dabbr|Jun|June}}
+! {{dabbr|Jul|July}}
+! {{dabbr|Aug|August}}
+! {{dabbr|Sep|September}}
+! {{dabbr|Oct|October}}
+! {{dabbr|Nov|November}}
+! {{dabbr|Dec|December}}
+!style="border-left-width:medium" |Year<!--
+
+                                      FIRST LINE MAXIMUM HUMIDEX
+
+-->{{#if:{{{Jan maximum humidex|}}}{{{Feb maximum humidex|}}}{{{Mar maximum humidex|}}}<!--
+      -->{{{Apr maximum humidex|}}}{{{May maximum humidex|}}}{{{Jun maximum humidex|}}}<!--
+      -->{{{Jul maximum humidex|}}}{{{Aug maximum humidex|}}}{{{Sep maximum humidex|}}}<!--
+      -->{{{Oct maximum humidex|}}}{{{Nov maximum humidex|}}}{{{Dec maximum humidex|}}}<!--
+  -->|{{#if:{{{metric first|}}}{{{single line|}}}<!--
+     -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/oneline
+|label=[[Humidex]]
+|show=1
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                            MAXIMUM HUMIDEX VALUES
+
+-->
+|jan1={{{Jan maximum humidex|}}}
+|feb1={{{Feb maximum humidex|}}}
+|mar1={{{Mar maximum humidex|}}}
+|apr1={{{Apr maximum humidex|}}}
+|may1={{{May maximum humidex|}}}
+|jun1={{{Jun maximum humidex|}}}
+|jul1={{{Jul maximum humidex|}}}
+|aug1={{{Aug maximum humidex|}}}
+|sep1={{{Sep maximum humidex|}}}
+|oct1={{{Oct maximum humidex|}}}
+|nov1={{{Nov maximum humidex|}}}
+|dec1={{{Dec maximum humidex|}}}
+|yr1={{#if:{{{year maximum humidex|}}}
+       |{{{year maximum humidex}}}
+       |{{Max/12
+          |{{{Jan maximum humidex|}}}|{{{Feb maximum humidex|}}}|{{{Mar maximum humidex|}}}
+          |{{{Apr maximum humidex|}}}|{{{May maximum humidex|}}}|{{{Jun maximum humidex|}}}
+          |{{{Jul maximum humidex|}}}|{{{Aug maximum humidex|}}}|{{{Sep maximum humidex|}}}
+          |{{{Oct maximum humidex|}}}|{{{Nov maximum humidex|}}}|{{{Dec maximum humidex|}}}
+          }}
+       }}
+}}}}}}}}<!--
+
+                                    Heerka ugu sareeya ee kuleelka
+
+-->{{#if:{{{Jan record high C|}}}{{{Feb record high C|}}}{{{Mar record high C|}}}<!--
+      -->{{{Apr record high C|}}}{{{May record high C|}}}{{{Jun record high C|}}}<!--
+      -->{{{Jul record high C|}}}{{{Aug record high C|}}}{{{Sep record high C|}}}<!--
+      -->{{{Oct record high C|}}}{{{Nov record high C|}}}{{{Dec record high C|}}}<!--
+      -->{{{Jan record high F|}}}{{{Feb record high F|}}}{{{Mar record high F|}}}<!--
+      -->{{{Apr record high F|}}}{{{May record high F|}}}{{{Jun record high F|}}}<!--
+      -->{{{Jul record high F|}}}{{{Aug record high F|}}}{{{Sep record high F|}}}<!--
+      -->{{{Oct record high F|}}}{{{Nov record high F|}}}{{{Dec record high F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Kuleel daran °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                      Heer kulka aadka ah ee METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan record high C|}}}|{{{Jan record high F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb record high C|}}}|{{{Feb record high F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar record high C|}}}|{{{Mar record high F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr record high C|}}}|{{{Apr record high F|}}}}}
+|may1={{Weather box/FtoC|{{{May record high C|}}}|{{{May record high F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun record high C|}}}|{{{Jun record high F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul record high C|}}}|{{{Jul record high F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug record high C|}}}|{{{Aug record high F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep record high C|}}}|{{{Sep record high F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct record high C|}}}|{{{Oct record high F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov record high C|}}}|{{{Nov record high F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec record high C|}}}|{{{Dec record high F|}}}}}
+|yr1={{#if:{{{year record high C|}}}{{{year record high F|}}}
+       |{{Weather box/FtoC|{{{year record high C|}}}|{{{year record high F|}}}}}
+       |{{Weather box/FtoC
+          |{{{Jan record high C|}}}|{{{Jan record high F|}}}|{{#if:{{{Jan record high C|}}}
+               |{{Max/12
+                  |{{{Jan record high C|}}}|{{{Feb record high C|}}}|{{{Mar record high C|}}}
+                  |{{{Apr record high C|}}}|{{{May record high C|}}}|{{{Jun record high C|}}}
+                  |{{{Jul record high C|}}}|{{{Aug record high C|}}}|{{{Sep record high C|}}}
+                  |{{{Oct record high C|}}}|{{{Nov record high C|}}}|{{{Dec record high C|}}}
+                  }}
+               |{{Max/12
+                  |{{{Jan record high F|}}}|{{{Feb record high F|}}}|{{{Mar record high F|}}}
+                  |{{{Apr record high F|}}}|{{{May record high F|}}}|{{{Jun record high F|}}}
+                  |{{{Jul record high F|}}}|{{{Aug record high F|}}}|{{{Sep record high F|}}}
+                  |{{{Oct record high F|}}}|{{{Nov record high F|}}}|{{{Dec record high F|}}}
+                  }}
+               }}
+            }}
+       }}<!--
+
+                                         RECORD HIGH TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan record high F|}}}|{{{Jan record high C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb record high F|}}}|{{{Feb record high C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar record high F|}}}|{{{Mar record high C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr record high F|}}}|{{{Apr record high C|}}}}}
+|may2={{Weather box/CtoF|{{{May record high F|}}}|{{{May record high C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun record high F|}}}|{{{Jun record high C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul record high F|}}}|{{{Jul record high C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug record high F|}}}|{{{Aug record high C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep record high F|}}}|{{{Sep record high C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct record high F|}}}|{{{Oct record high C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov record high F|}}}|{{{Nov record high C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec record high F|}}}|{{{Dec record high C|}}}}}
+|yr2={{#if:{{{year record high F|}}}{{{year record high C|}}}
+       |{{Weather box/CtoF|{{{year record high F|}}}|{{{year record high C|}}}}}
+       |{{Weather box/CtoF
+          |{{{Jan record high F|}}}|{{{Jan record high C|}}}|{{#if:{{{Jan record high F|}}}
+               |{{Max/12
+                  |{{{Jan record high F|}}}|{{{Feb record high F|}}}|{{{Mar record high F|}}}
+                  |{{{Apr record high F|}}}|{{{May record high F|}}}|{{{Jun record high F|}}}
+                  |{{{Jul record high F|}}}|{{{Aug record high F|}}}|{{{Sep record high F|}}}
+                  |{{{Oct record high F|}}}|{{{Nov record high F|}}}|{{{Dec record high F|}}}
+                  }}
+               |{{Max/12
+                  |{{{Jan record high C|}}}|{{{Feb record high C|}}}|{{{Mar record high C|}}}
+                  |{{{Apr record high C|}}}|{{{May record high C|}}}|{{{Jun record high C|}}}
+                  |{{{Jul record high C|}}}|{{{Aug record high C|}}}|{{{Sep record high C|}}}
+                  |{{{Oct record high C|}}}|{{{Nov record high C|}}}|{{{Dec record high C|}}}
+                  }}
+               }}
+            }}
+       }}
+}}}}}}<!--
+
+                                        Heel kulka sare ee dhadhexaadka ah
+
+-->{{#if:{{{Jan high C|}}}{{{Feb high C|}}}{{{Mar high C|}}}<!--
+      -->{{{Apr high C|}}}{{{May high C|}}}{{{Jun high C|}}}<!--
+      -->{{{Jul high C|}}}{{{Aug high C|}}}{{{Sep high C|}}}<!--
+      -->{{{Oct high C|}}}{{{Nov high C|}}}{{{Dec high C|}}}<!--
+      -->{{{Jan high F|}}}{{{Feb high F|}}}{{{Mar high F|}}}<!--
+      -->{{{Apr high F|}}}{{{May high F|}}}{{{Jun high F|}}}<!--
+      -->{{{Jul high F|}}}{{{Aug high F|}}}{{{Sep high F|}}}<!--
+      -->{{{Oct high F|}}}{{{Nov high F|}}}{{{Dec high F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Kuleel aan darnayn °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                      Heerkulka sare ee dhaxdhexaadka ah ee METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan high C|}}}|{{{Jan high F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb high C|}}}|{{{Feb high F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar high C|}}}|{{{Mar high F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr high C|}}}|{{{Apr high F|}}}}}
+|may1={{Weather box/FtoC|{{{May high C|}}}|{{{May high F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun high C|}}}|{{{Jun high F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul high C|}}}|{{{Jul high F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug high C|}}}|{{{Aug high F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep high C|}}}|{{{Sep high F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct high C|}}}|{{{Oct high F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov high C|}}}|{{{Nov high F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec high C|}}}|{{{Dec high F|}}}}}
+|yr1={{#if:{{{year high C|}}}{{{year high F|}}}
+       |{{Weather box/FtoC|{{{year high C|}}}|{{{year high F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan high C|}}}|{{{Jan high F|}}}|{{#if:{{{Jan high C|}}}
+                          |{{rnd|{{#expr:({{{Jan high C}}}+{{{Feb high C}}}+{{{Mar high C}}}+<!--
+                                       -->{{{Apr high C}}}+{{{May high C}}}+{{{Jun high C}}}+<!--
+                                       -->{{{Jul high C}}}+{{{Aug high C}}}+{{{Sep high C}}}+<!--
+                                       -->{{{Oct high C}}}+{{{Nov high C}}}+{{{Dec high C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan high C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan high F}}}+{{{Feb high F}}}+{{{Mar high F}}}+<!--
+                                 -->{{{Apr high F}}}+{{{May high F}}}+{{{Jun high F}}}+<!--
+                                 -->{{{Jul high F}}}+{{{Aug high F}}}+{{{Sep high F}}}+<!--
+                                 -->{{{Oct high F}}}+{{{Nov high F}}}+{{{Dec high F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                         AVERAGE HIGH TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan high F|}}}|{{{Jan high C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb high F|}}}|{{{Feb high C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar high F|}}}|{{{Mar high C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr high F|}}}|{{{Apr high C|}}}}}
+|may2={{Weather box/CtoF|{{{May high F|}}}|{{{May high C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun high F|}}}|{{{Jun high C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul high F|}}}|{{{Jul high C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug high F|}}}|{{{Aug high C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep high F|}}}|{{{Sep high C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct high F|}}}|{{{Oct high C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov high F|}}}|{{{Nov high C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec high F|}}}|{{{Dec high C|}}}}}
+|yr2={{#if:{{{year high F|}}}{{{year high C|}}}
+       |{{Weather box/CtoF|{{{year high F|}}}|{{{year high C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan high F|}}}|{{{Jan high C|}}}|{{#if:{{{Jan high F|}}}
+                          |{{rnd|{{#expr:({{{Jan high F}}}+{{{Feb high F}}}+{{{Mar high F}}}+<!--
+                                       -->{{{Apr high F}}}+{{{May high F}}}+{{{Jun high F}}}+<!--
+                                       -->{{{Jul high F}}}+{{{Aug high F}}}+{{{Sep high F}}}+<!--
+                                       -->{{{Oct high F}}}+{{{Nov high F}}}+{{{Dec high F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan high F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan high C}}}+{{{Feb high C}}}+{{{Mar high C}}}+<!--
+                                 -->{{{Apr high C}}}+{{{May high C}}}+{{{Jun high C}}}+<!--
+                                 -->{{{Jul high C}}}+{{{Aug high C}}}+{{{Sep high C}}}+<!--
+                                 -->{{{Oct high C}}}+{{{Nov high C}}}+{{{Dec high C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+
+                                        FIRST LINE DAILY MEAN TEMPERATURES
+
+-->{{#if:{{{Jan mean C|}}}{{{Feb mean C|}}}{{{Mar mean C|}}}<!--
+      -->{{{Apr mean C|}}}{{{May mean C|}}}{{{Jun mean C|}}}<!--
+      -->{{{Jul mean C|}}}{{{Aug mean C|}}}{{{Sep mean C|}}}<!--
+      -->{{{Oct mean C|}}}{{{Nov mean C|}}}{{{Dec mean C|}}}<!--
+      -->{{{Jan mean F|}}}{{{Feb mean F|}}}{{{Mar mean F|}}}<!--
+      -->{{{Apr mean F|}}}{{{May mean F|}}}{{{Jun mean F|}}}<!--
+      -->{{{Jul mean F|}}}{{{Aug mean F|}}}{{{Sep mean F|}}}<!--
+      -->{{{Oct mean F|}}}{{{Nov mean F|}}}{{{Dec mean F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Daily mean °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                       DAILY MEAN TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan mean C|}}}|{{{Jan mean F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb mean C|}}}|{{{Feb mean F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar mean C|}}}|{{{Mar mean F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr mean C|}}}|{{{Apr mean F|}}}}}
+|may1={{Weather box/FtoC|{{{May mean C|}}}|{{{May mean F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun mean C|}}}|{{{Jun mean F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul mean C|}}}|{{{Jul mean F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug mean C|}}}|{{{Aug mean F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep mean C|}}}|{{{Sep mean F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct mean C|}}}|{{{Oct mean F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov mean C|}}}|{{{Nov mean F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec mean C|}}}|{{{Dec mean F|}}}}}
+|yr1={{#if:{{{year mean C|}}}{{{year mean F|}}}
+       |{{Weather box/FtoC|{{{year mean C|}}}|{{{year mean F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan mean C|}}}|{{{Jan mean F|}}}|{{#if:{{{Jan mean C|}}}
+                          |{{rnd|{{#expr:({{{Jan mean C}}}+{{{Feb mean C}}}+{{{Mar mean C}}}+<!--
+                                       -->{{{Apr mean C}}}+{{{May mean C}}}+{{{Jun mean C}}}+<!--
+                                       -->{{{Jul mean C}}}+{{{Aug mean C}}}+{{{Sep mean C}}}+<!--
+                                       -->{{{Oct mean C}}}+{{{Nov mean C}}}+{{{Dec mean C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan mean C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan mean F}}}+{{{Feb mean F}}}+{{{Mar mean F}}}+<!--
+                                 -->{{{Apr mean F}}}+{{{May mean F}}}+{{{Jun mean F}}}+<!--
+                                 -->{{{Jul mean F}}}+{{{Aug mean F}}}+{{{Sep mean F}}}+<!--
+                                 -->{{{Oct mean F}}}+{{{Nov mean F}}}+{{{Dec mean F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                           DAILY MEAN TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan mean F|}}}|{{{Jan mean C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb mean F|}}}|{{{Feb mean C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar mean F|}}}|{{{Mar mean C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr mean F|}}}|{{{Apr mean C|}}}}}
+|may2={{Weather box/CtoF|{{{May mean F|}}}|{{{May mean C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun mean F|}}}|{{{Jun mean C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul mean F|}}}|{{{Jul mean C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug mean F|}}}|{{{Aug mean C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep mean F|}}}|{{{Sep mean C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct mean F|}}}|{{{Oct mean C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov mean F|}}}|{{{Nov mean C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec mean F|}}}|{{{Dec mean C|}}}}}
+|yr2={{#if:{{{year mean F|}}}{{{year mean C|}}}
+       |{{Weather box/CtoF|{{{year mean F|}}}|{{{year mean C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan mean F|}}}|{{{Jan mean C|}}}|{{#if:{{{Jan mean F|}}}
+                          |{{rnd|{{#expr:({{{Jan mean F}}}+{{{Feb mean F}}}+{{{Mar mean F}}}+<!--
+                                       -->{{{Apr mean F}}}+{{{May mean F}}}+{{{Jun mean F}}}+<!--
+                                       -->{{{Jul mean F}}}+{{{Aug mean F}}}+{{{Sep mean F}}}+<!--
+                                       -->{{{Oct mean F}}}+{{{Nov mean F}}}+{{{Dec mean F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan mean F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan mean C}}}+{{{Feb mean C}}}+{{{Mar mean C}}}+<!--
+                                 -->{{{Apr mean C}}}+{{{May mean C}}}+{{{Jun mean C}}}+<!--
+                                 -->{{{Jul mean C}}}+{{{Aug mean C}}}+{{{Sep mean C}}}+<!--
+                                 -->{{{Oct mean C}}}+{{{Nov mean C}}}+{{{Dec mean C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+
+                                       FIRST LINE AVERAGE LOW TEMPERATURES
+
+-->{{#if:{{{Jan low C|}}}{{{Feb low C|}}}{{{Mar low C|}}}<!--
+      -->{{{Apr low C|}}}{{{May low C|}}}{{{Jun low C|}}}<!--
+      -->{{{Jul low C|}}}{{{Aug low C|}}}{{{Sep low C|}}}<!--
+      -->{{{Oct low C|}}}{{{Nov low C|}}}{{{Dec low C|}}}<!--
+      -->{{{Jan low F|}}}{{{Feb low F|}}}{{{Mar low F|}}}<!--
+      -->{{{Apr low F|}}}{{{May low F|}}}{{{Jun low F|}}}<!--
+      -->{{{Jul low F|}}}{{{Aug low F|}}}{{{Sep low F|}}}<!--
+      -->{{{Oct low F|}}}{{{Nov low F|}}}{{{Dec low F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Hoos udhaca kuleelka °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                       AVERAGE LOW TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan low C|}}}|{{{Jan low F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb low C|}}}|{{{Feb low F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar low C|}}}|{{{Mar low F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr low C|}}}|{{{Apr low F|}}}}}
+|may1={{Weather box/FtoC|{{{May low C|}}}|{{{May low F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun low C|}}}|{{{Jun low F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul low C|}}}|{{{Jul low F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug low C|}}}|{{{Aug low F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep low C|}}}|{{{Sep low F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct low C|}}}|{{{Oct low F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov low C|}}}|{{{Nov low F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec low C|}}}|{{{Dec low F|}}}}}
+|yr1={{#if:{{{year low C|}}}{{{year low F|}}}
+       |{{Weather box/FtoC|{{{year low C|}}}|{{{year low F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan low C|}}}|{{{Jan low F|}}}|{{#if:{{{Jan low C|}}}
+                          |{{rnd|{{#expr:({{{Jan low C}}}+{{{Feb low C}}}+{{{Mar low C}}}+<!--
+                                       -->{{{Apr low C}}}+{{{May low C}}}+{{{Jun low C}}}+<!--
+                                       -->{{{Jul low C}}}+{{{Aug low C}}}+{{{Sep low C}}}+<!--
+                                       -->{{{Oct low C}}}+{{{Nov low C}}}+{{{Dec low C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan low C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan low F}}}+{{{Feb low F}}}+{{{Mar low F}}}+<!--
+                                 -->{{{Apr low F}}}+{{{May low F}}}+{{{Jun low F}}}+<!--
+                                 -->{{{Jul low F}}}+{{{Aug low F}}}+{{{Sep low F}}}+<!--
+                                 -->{{{Oct low F}}}+{{{Nov low F}}}+{{{Dec low F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                      AVERAGE LOW TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan low F|}}}|{{{Jan low C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb low F|}}}|{{{Feb low C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar low F|}}}|{{{Mar low C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr low F|}}}|{{{Apr low C|}}}}}
+|may2={{Weather box/CtoF|{{{May low F|}}}|{{{May low C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun low F|}}}|{{{Jun low C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul low F|}}}|{{{Jul low C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug low F|}}}|{{{Aug low C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep low F|}}}|{{{Sep low C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct low F|}}}|{{{Oct low C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov low F|}}}|{{{Nov low C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec low F|}}}|{{{Dec low C|}}}}}
+|yr2={{#if:{{{year low F|}}}{{{year low C|}}}
+       |{{Weather box/CtoF|{{{year low F|}}}|{{{year low C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan low F|}}}|{{{Jan low C|}}}|{{#if:{{{Jan low F|}}}
+                          |{{rnd|{{#expr:({{{Jan low F}}}+{{{Feb low F}}}+{{{Mar low F}}}+<!--
+                                       -->{{{Apr low F}}}+{{{May low F}}}+{{{Jun low F}}}+<!--
+                                       -->{{{Jul low F}}}+{{{Aug low F}}}+{{{Sep low F}}}+<!--
+                                       -->{{{Oct low F}}}+{{{Nov low F}}}+{{{Dec low F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan low F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan low C}}}+{{{Feb low C}}}+{{{Mar low C}}}+<!--
+                                 -->{{{Apr low C}}}+{{{May low C}}}+{{{Jun low C}}}+<!--
+                                 -->{{{Jul low C}}}+{{{Aug low C}}}+{{{Sep low C}}}+<!--
+                                 -->{{{Oct low C}}}+{{{Nov low C}}}+{{{Dec low C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+                                      Hoos udhaca qiyaasta leh
+
+-->{{#if:{{{Jan record low C|}}}{{{Feb record low C|}}}{{{Mar record low C|}}}<!--
+      -->{{{Apr record low C|}}}{{{May record low C|}}}{{{Jun record low C|}}}<!--
+      -->{{{Jul record low C|}}}{{{Aug record low C|}}}{{{Sep record low C|}}}<!--
+      -->{{{Oct record low C|}}}{{{Nov record low C|}}}{{{Dec record low C|}}}<!--
+      -->{{{Jan record low F|}}}{{{Feb record low F|}}}{{{Mar record low F|}}}<!--
+      -->{{{Apr record low F|}}}{{{May record low F|}}}{{{Jun record low F|}}}<!--
+      -->{{{Jul record low F|}}}{{{Aug record low F|}}}{{{Sep record low F|}}}<!--
+      -->{{{Oct record low F|}}}{{{Nov record low F|}}}{{{Dec record low F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Hoos udhac qiyaas leh °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                          RECORD LOW TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan record low C|}}}|{{{Jan record low F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb record low C|}}}|{{{Feb record low F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar record low C|}}}|{{{Mar record low F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr record low C|}}}|{{{Apr record low F|}}}}}
+|may1={{Weather box/FtoC|{{{May record low C|}}}|{{{May record low F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun record low C|}}}|{{{Jun record low F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul record low C|}}}|{{{Jul record low F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug record low C|}}}|{{{Aug record low F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep record low C|}}}|{{{Sep record low F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct record low C|}}}|{{{Oct record low F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov record low C|}}}|{{{Nov record low F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec record low C|}}}|{{{Dec record low F|}}}}}
+|yr1={{#if:{{{year record low C|}}}{{{year record low F|}}}
+       |{{Weather box/FtoC|{{{year record low C|}}}|{{{year record low F|}}}}}
+       |{{Weather box/FtoC
+          |{{{Jan record low C|}}}|{{{Jan record low F|}}}|{{#if:{{{Jan record low C|}}}
+               |{{min/12
+                  |{{{Jan record low C|}}}|{{{Feb record low C|}}}|{{{Mar record low C|}}}
+                  |{{{Apr record low C|}}}|{{{May record low C|}}}|{{{Jun record low C|}}}
+                  |{{{Jul record low C|}}}|{{{Aug record low C|}}}|{{{Sep record low C|}}}
+                  |{{{Oct record low C|}}}|{{{Nov record low C|}}}|{{{Dec record low C|}}}
+                  }}
+               |{{min/12
+                  |{{{Jan record low F|}}}|{{{Feb record low F|}}}|{{{Mar record low F|}}}
+                  |{{{Apr record low F|}}}|{{{May record low F|}}}|{{{Jun record low F|}}}
+                  |{{{Jul record low F|}}}|{{{Aug record low F|}}}|{{{Sep record low F|}}}
+                  |{{{Oct record low F|}}}|{{{Nov record low F|}}}|{{{Dec record low F|}}}
+                  }}
+               }}
+            }}
+       }}<!--
+
+                                        RECORD LOW TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan record low F|}}}|{{{Jan record low C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb record low F|}}}|{{{Feb record low C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar record low F|}}}|{{{Mar record low C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr record low F|}}}|{{{Apr record low C|}}}}}
+|may2={{Weather box/CtoF|{{{May record low F|}}}|{{{May record low C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun record low F|}}}|{{{Jun record low C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul record low F|}}}|{{{Jul record low C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug record low F|}}}|{{{Aug record low C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep record low F|}}}|{{{Sep record low C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct record low F|}}}|{{{Oct record low C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov record low F|}}}|{{{Nov record low C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec record low F|}}}|{{{Dec record low C|}}}}}
+|yr2={{#if:{{{year record low F|}}}{{{year record low C|}}}
+       |{{Weather box/CtoF|{{{year record low F|}}}|{{{year record low C|}}}}}
+       |{{Weather box/CtoF
+          |{{{Jan record low F|}}}|{{{Jan record low C|}}}|{{#if:{{{Jan record low F|}}}
+               |{{min/12
+                  |{{{Jan record low F|}}}|{{{Feb record low F|}}}|{{{Mar record low F|}}}
+                  |{{{Apr record low F|}}}|{{{May record low F|}}}|{{{Jun record low F|}}}
+                  |{{{Jul record low F|}}}|{{{Aug record low F|}}}|{{{Sep record low F|}}}
+                  |{{{Oct record low F|}}}|{{{Nov record low F|}}}|{{{Dec record low F|}}}
+                  }}
+               |{{min/12
+                  |{{{Jan record low C|}}}|{{{Feb record low C|}}}|{{{Mar record low C|}}}
+                  |{{{Apr record low C|}}}|{{{May record low C|}}}|{{{Jun record low C|}}}
+                  |{{{Jul record low C|}}}|{{{Aug record low C|}}}|{{{Sep record low C|}}}
+                  |{{{Oct record low C|}}}|{{{Nov record low C|}}}|{{{Dec record low C|}}}
+                  }}
+               }}
+            }}
+       }}
+}}}}}}<!--
+
+                                        FIRST LINE MINIMUM WIND CHILL
+
+-->{{#if:{{{Jan chill|}}}{{{Feb chill|}}}{{{Mar chill|}}}<!--
+      -->{{{Apr chill|}}}{{{May chill|}}}{{{Jun chill|}}}<!--
+      -->{{{Jul chill|}}}{{{Aug chill|}}}{{{Sep chill|}}}<!--
+      -->{{{Oct chill|}}}{{{Nov chill|}}}{{{Dec chill|}}}<!--
+  -->|{{#if:{{{single line|}}}|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/oneline
+|label=[[Wind chill]]
+|show=1
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1
+|jan1={{Weather box/sign|{{{Jan chill|}}}}}
+|feb1={{Weather box/sign|{{{Feb chill|}}}}}
+|mar1={{Weather box/sign|{{{Mar chill|}}}}}
+|apr1={{Weather box/sign|{{{Apr chill|}}}}}
+|may1={{Weather box/sign|{{{May chill|}}}}}
+|jun1={{Weather box/sign|{{{Jun chill|}}}}}
+|jul1={{Weather box/sign|{{{Jul chill|}}}}}
+|aug1={{Weather box/sign|{{{Aug chill|}}}}}
+|sep1={{Weather box/sign|{{{Sep chill|}}}}}
+|oct1={{Weather box/sign|{{{Oct chill|}}}}}
+|nov1={{Weather box/sign|{{{Nov chill|}}}}}
+|dec1={{Weather box/sign|{{{Dec chill|}}}}}
+|yr1={{Weather box/sign|{{#if:{{{year chill|}}}
+                          |{{{year chill}}}
+                          |{{Min/12 
+                             |{{{Jan chill|}}}|{{{Feb chill|}}}|{{{Mar chill|}}}
+                             |{{{Apr chill|}}}|{{{May chill|}}}|{{{Jun chill|}}}
+                             |{{{Jul chill|}}}|{{{Aug chill|}}}|{{{Sep chill|}}}
+                             |{{{Oct chill|}}}|{{{Nov chill|}}}|{{{Dec chill|}}}
+                             }}
+                          }}
+                 }}
+}}}}|{{#if:{{{metric first|}}}|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/oneline
+|label=[[Wind chill]]
+|show=1
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1
+|jan1={{Weather box/sign|{{{Jan chill|}}}}}
+|feb1={{Weather box/sign|{{{Feb chill|}}}}}
+|mar1={{Weather box/sign|{{{Mar chill|}}}}}
+|apr1={{Weather box/sign|{{{Apr chill|}}}}}
+|may1={{Weather box/sign|{{{May chill|}}}}}
+|jun1={{Weather box/sign|{{{Jun chill|}}}}}
+|jul1={{Weather box/sign|{{{Jul chill|}}}}}
+|aug1={{Weather box/sign|{{{Aug chill|}}}}}
+|sep1={{Weather box/sign|{{{Sep chill|}}}}}
+|oct1={{Weather box/sign|{{{Oct chill|}}}}}
+|nov1={{Weather box/sign|{{{Nov chill|}}}}}
+|dec1={{Weather box/sign|{{{Dec chill|}}}}}
+|yr1={{Weather box/sign|{{#if:{{{year chill|}}}
+                          |{{{year chill}}}
+                          |{{Min/12
+                             |{{{Jan chill|}}}|{{{Feb chill|}}}|{{{Mar chill|}}} 
+                             |{{{Apr chill|}}}|{{{May chill|}}}|{{{Jun chill|}}} 
+                             |{{{Jul chill|}}}|{{{Aug chill|}}}|{{{Sep chill|}}} 
+                             |{{{Oct chill|}}}|{{{Nov chill|}}}|{{{Dec chill|}}} 
+                             }} 
+                          }} 
+                   }}
+}}}}}}}}}}<!--
+
+                                        FIRST LINE TOTAL PRECIPITATION
+
+-->{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+      -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+      -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+      -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}<!--
+      -->{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+      -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+      -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+      -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}<!--
+      -->{{{Jan precipitation inch|}}}{{{Feb precipitation inch|}}}{{{Mar precipitation inch|}}}<!--
+      -->{{{Apr precipitation inch|}}}{{{May precipitation inch|}}}{{{Jun precipitation inch|}}}<!--
+      -->{{{Jul precipitation inch|}}}{{{Aug precipitation inch|}}}{{{Sep precipitation inch|}}}<!--
+      -->{{{Oct precipitation inch|}}}{{{Nov precipitation inch|}}}{{{Dec precipitation inch|}}}<!--
+  -->|{{#switch:{{#if:{{{precipitation colour|}}}|{{{precipitation colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{precipitation colour}}}</code> is not a valid precipitation color alternative, use <code><nowiki>|precipitation colour=green</nowiki></code> or remove the <code>precipitation colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=[[Precipitation (meteorology)|Precipitation]] <!--
+
+-->{{#if:{{{metric first|}}}
+     |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+         -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+         -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+         -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}
+        |c
+        |{{#if:{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+            -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+            -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+            -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}
+           |m
+           |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|c|m}}
+           }}
+        }}m
+     |inches}} <!--
+
+-->{{#if:{{{single line|}}}
+     |({{#if:{{{metric first|}}}
+         |inches
+         |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+             -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+             -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+             -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}
+            |c
+            |{{#if:{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+                -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+                -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+                -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}
+               |m
+               |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|c|m}}
+               }}
+            }}m
+         }})
+      }}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{precipitation colour|}}}|{{{precipitation colour}}}|p}}
+|f={{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+      -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+      -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+      -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}
+     |10
+     |{{#if:{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+         -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+         -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+         -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}
+        |1
+        |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|10|1}}
+        }}
+     }}<!--
+
+                                     TOTAL PRECIPITATION METRIC
+-->
+|jan1={{Weather box/metrictoinch
+   |{{{Jan precipitation cm|}}}|{{{Jan precipitation mm|}}}|{{{Jan precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|feb1={{Weather box/metrictoinch
+   |{{{Feb precipitation cm|}}}|{{{Feb precipitation mm|}}}|{{{Feb precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|mar1={{Weather box/metrictoinch
+   |{{{Mar precipitation cm|}}}|{{{Mar precipitation mm|}}}|{{{Mar precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|apr1={{Weather box/metrictoinch
+   |{{{Apr precipitation cm|}}}|{{{Apr precipitation mm|}}}|{{{Apr precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|may1={{Weather box/metrictoinch
+   |{{{May precipitation cm|}}}|{{{May precipitation mm|}}}|{{{May precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|jun1={{Weather box/metrictoinch
+   |{{{Jun precipitation cm|}}}|{{{Jun precipitation mm|}}}|{{{Jun precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|jul1={{Weather box/metrictoinch
+   |{{{Jul precipitation cm|}}}|{{{Jul precipitation mm|}}}|{{{Jul precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|aug1={{Weather box/metrictoinch
+   |{{{Aug precipitation cm|}}}|{{{Aug precipitation mm|}}}|{{{Aug precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|sep1={{Weather box/metrictoinch
+   |{{{Sep precipitation cm|}}}|{{{Sep precipitation mm|}}}|{{{Sep precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|oct1={{Weather box/metrictoinch
+   |{{{Oct precipitation cm|}}}|{{{Oct precipitation mm|}}}|{{{Oct precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|nov1={{Weather box/metrictoinch
+   |{{{Nov precipitation cm|}}}|{{{Nov precipitation mm|}}}|{{{Nov precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|dec1={{Weather box/metrictoinch
+   |{{{Dec precipitation cm|}}}|{{{Dec precipitation mm|}}}|{{{Dec precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|yr1={{#if:{{{year precipitation cm|}}}{{{year precipitation mm|}}}{{{year precipitation inch|}}}
+       |{{Weather box/metrictoinch
+   |{{{year precipitation cm|}}}|{{{year precipitation mm|}}}|{{{year precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation cm}}})+({{{Feb precipitation cm}}})+({{{Mar precipitation cm}}})+<!--
+                    -->({{{Apr precipitation cm}}})+({{{May precipitation cm}}})+({{{Jun precipitation cm}}})+<!--
+                    -->({{{Jul precipitation cm}}})+({{{Aug precipitation cm}}})+({{{Sep precipitation cm}}})+<!--
+                    -->({{{Oct precipitation cm}}})+({{{Nov precipitation cm}}})+({{{Dec precipitation cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation mm}}})+({{{Feb precipitation mm}}})+({{{Mar precipitation mm}}})+<!--
+                    -->({{{Apr precipitation mm}}})+({{{May precipitation mm}}})+({{{Jun precipitation mm}}})+<!--
+                    -->({{{Jul precipitation mm}}})+({{{Aug precipitation mm}}})+({{{Sep precipitation mm}}})+<!--
+                    -->({{{Oct precipitation mm}}})+({{{Nov precipitation mm}}})+({{{Dec precipitation mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation inch}}})+({{{Feb precipitation inch}}})+({{{Mar precipitation inch}}})+<!--
+                    -->({{{Apr precipitation inch}}})+({{{May precipitation inch}}})+({{{Jun precipitation inch}}})+<!--
+                    -->({{{Jul precipitation inch}}})+({{{Aug precipitation inch}}})+({{{Sep precipitation inch}}})+<!--
+                    -->({{{Oct precipitation inch}}})+({{{Nov precipitation inch}}})+({{{Dec precipitation inch}}})}}<!--
+                 -->}}|{{{Jan precipitation inch|}}}
+              }}
+       }}<!--
+
+                                       TOTAL PRECIPITATION IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan precipitation inch|}}}|{{{Jan precipitation cm|}}}|{{{Jan precipitation mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb precipitation inch|}}}|{{{Feb precipitation cm|}}}|{{{Feb precipitation mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar precipitation inch|}}}|{{{Mar precipitation cm|}}}|{{{Mar precipitation mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr precipitation inch|}}}|{{{Apr precipitation cm|}}}|{{{Apr precipitation mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May precipitation inch|}}}|{{{May precipitation cm|}}}|{{{May precipitation mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun precipitation inch|}}}|{{{Jun precipitation cm|}}}|{{{Jun precipitation mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul precipitation inch|}}}|{{{Jul precipitation cm|}}}|{{{Jul precipitation mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug precipitation inch|}}}|{{{Aug precipitation cm|}}}|{{{Aug precipitation mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep precipitation inch|}}}|{{{Sep precipitation cm|}}}|{{{Sep precipitation mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct precipitation inch|}}}|{{{Oct precipitation cm|}}}|{{{Oct precipitation mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov precipitation inch|}}}|{{{Nov precipitation cm|}}}|{{{Nov precipitation mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec precipitation inch|}}}|{{{Dec precipitation cm|}}}|{{{Dec precipitation mm|}}}}}
+|yr2={{#if:{{{year precipitation cm|}}}{{{year precipitation mm|}}}{{{year precipitation inch|}}}
+       |{{Weather box/inchtometric
+   |{{{year precipitation inch|}}}|{{{year precipitation cm|}}}|{{{year precipitation mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation inch}}})+({{{Feb precipitation inch}}})+({{{Mar precipitation inch}}})+<!--
+                    -->({{{Apr precipitation inch}}})+({{{May precipitation inch}}})+({{{Jun precipitation inch}}})+<!--
+                    -->({{{Jul precipitation inch}}})+({{{Aug precipitation inch}}})+({{{Sep precipitation inch}}})+<!--
+                    -->({{{Oct precipitation inch}}})+({{{Nov precipitation inch}}})+({{{Dec precipitation inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation cm}}})+({{{Feb precipitation cm}}})+({{{Mar precipitation cm}}})+<!--
+                    -->({{{Apr precipitation cm}}})+({{{May precipitation cm}}})+({{{Jun precipitation cm}}})+<!--
+                    -->({{{Jul precipitation cm}}})+({{{Aug precipitation cm}}})+({{{Sep precipitation cm}}})+<!--
+                    -->({{{Oct precipitation cm}}})+({{{Nov precipitation cm}}})+({{{Dec precipitation cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation mm}}})+({{{Feb precipitation mm}}})+({{{Mar precipitation mm}}})+<!--
+                    -->({{{Apr precipitation mm}}})+({{{May precipitation mm}}})+({{{Jun precipitation mm}}})+<!--
+                    -->({{{Jul precipitation mm}}})+({{{Aug precipitation mm}}})+({{{Sep precipitation mm}}})+<!--
+                    -->({{{Oct precipitation mm}}})+({{{Nov precipitation mm}}})+({{{Dec precipitation mm}}})}}<!--
+                 -->}}|{{{Jan precipitation cm|}}}<!--
+                 -->}}|{{{Jan precipitation mm|}}}
+              }}
+       }}
+}}}}<!--
+
+                                         FIRST LINE RAINFALL
+
+-->{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+      -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+      -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+      -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}<!--
+      -->{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+      -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+      -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+      -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}<!--
+      -->{{{Jan rain inch|}}}{{{Feb rain inch|}}}{{{Mar rain inch|}}}<!--
+      -->{{{Apr rain inch|}}}{{{May rain inch|}}}{{{Jun rain inch|}}}<!--
+      -->{{{Jul rain inch|}}}{{{Aug rain inch|}}}{{{Sep rain inch|}}}<!--
+      -->{{{Oct rain inch|}}}{{{Nov rain inch|}}}{{{Dec rain inch|}}}<!--
+  -->|{{#switch:{{#if:{{{rain colour|}}}|{{{rain colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{rain colour}}}</code> is not a valid rain color alternative, use <code><nowiki>|rain colour=green</nowiki></code> or remove the <code>rain colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=Roobka <!--
+
+-->{{#if:{{{metric first|}}}
+     |{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+         -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+         -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+         -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}
+        |c
+        |{{#if:{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+            -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+            -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+            -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}
+           |m
+           |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|c|m}}
+           }}
+        }}m
+     |inches}} <!--
+
+-->{{#if:{{{single line|}}}
+     |({{#if:{{{metric first|}}}
+         |inches
+         |{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+             -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+             -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+             -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}
+            |c
+            |{{#if:{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+                -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+                -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+                -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}
+               |m
+               |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|c|m}}
+               }}
+            }}m
+         }})
+     }}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc= {{#if:{{{rain colour|}}}|{{{rain colour}}}|p}}
+|f={{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+      -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+      -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+      -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}
+     |10
+     |{{#if:{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+         -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+         -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+         -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}
+        |1
+        |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|10|1}}
+        }}
+     }}<!--
+
+                                               RAINFALL METRIC
+-->
+|jan1={{Weather box/metrictoinch|{{{Jan rain cm|}}}|{{{Jan rain mm|}}}|{{{Jan rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|feb1={{Weather box/metrictoinch|{{{Feb rain cm|}}}|{{{Feb rain mm|}}}|{{{Feb rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|mar1={{Weather box/metrictoinch|{{{Mar rain cm|}}}|{{{Mar rain mm|}}}|{{{Mar rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|apr1={{Weather box/metrictoinch|{{{Apr rain cm|}}}|{{{Apr rain mm|}}}|{{{Apr rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|may1={{Weather box/metrictoinch|{{{May rain cm|}}}|{{{May rain mm|}}}|{{{May rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|jun1={{Weather box/metrictoinch|{{{Jun rain cm|}}}|{{{Jun rain mm|}}}|{{{Jun rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|jul1={{Weather box/metrictoinch|{{{Jul rain cm|}}}|{{{Jul rain mm|}}}|{{{Jul rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|aug1={{Weather box/metrictoinch|{{{Aug rain cm|}}}|{{{Aug rain mm|}}}|{{{Aug rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|sep1={{Weather box/metrictoinch|{{{Sep rain cm|}}}|{{{Sep rain mm|}}}|{{{Sep rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|oct1={{Weather box/metrictoinch|{{{Oct rain cm|}}}|{{{Oct rain mm|}}}|{{{Oct rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|nov1={{Weather box/metrictoinch|{{{Nov rain cm|}}}|{{{Nov rain mm|}}}|{{{Nov rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|dec1={{Weather box/metrictoinch|{{{Dec rain cm|}}}|{{{Dec rain mm|}}}|{{{Dec rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|yr1={{#if:{{{year rain cm|}}}{{{year rain mm|}}}{{{year rain inch|}}}
+       |{{Weather box/metrictoinch|{{{year rain cm|}}}|{{{year rain mm|}}}|{{{year rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain cm}}})+({{{Feb rain cm}}})+({{{Mar rain cm}}})+<!--
+                    -->({{{Apr rain cm}}})+({{{May rain cm}}})+({{{Jun rain cm}}})+<!--
+                    -->({{{Jul rain cm}}})+({{{Aug rain cm}}})+({{{Sep rain cm}}})+<!--
+                    -->({{{Oct rain cm}}})+({{{Nov rain cm}}})+({{{Dec rain cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain mm}}})+({{{Feb rain mm}}})+({{{Mar rain mm}}})+<!--
+                    -->({{{Apr rain mm}}})+({{{May rain mm}}})+({{{Jun rain mm}}})+<!--
+                    -->({{{Jul rain mm}}})+({{{Aug rain mm}}})+({{{Sep rain mm}}})+<!--
+                    -->({{{Oct rain mm}}})+({{{Nov rain mm}}})+({{{Dec rain mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain inch}}})+({{{Feb rain inch}}})+({{{Mar rain inch}}})+<!--
+                    -->({{{Apr rain inch}}})+({{{May rain inch}}})+({{{Jun rain inch}}})+<!--
+                    -->({{{Jul rain inch}}})+({{{Aug rain inch}}})+({{{Sep rain inch}}})+<!--
+                    -->({{{Oct rain inch}}})+({{{Nov rain inch}}})+({{{Dec rain inch}}})}}<!--
+                 -->}}|{{{Jan rain inch|}}}
+              }}
+       }}<!--
+
+                                              RAINFALL IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan rain inch|}}}|{{{Jan rain cm|}}}|{{{Jan rain mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb rain inch|}}}|{{{Feb rain cm|}}}|{{{Feb rain mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar rain inch|}}}|{{{Mar rain cm|}}}|{{{Mar rain mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr rain inch|}}}|{{{Apr rain cm|}}}|{{{Apr rain mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May rain inch|}}}|{{{May rain cm|}}}|{{{May rain mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun rain inch|}}}|{{{Jun rain cm|}}}|{{{Jun rain mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul rain inch|}}}|{{{Jul rain cm|}}}|{{{Jul rain mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug rain inch|}}}|{{{Aug rain cm|}}}|{{{Aug rain mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep rain inch|}}}|{{{Sep rain cm|}}}|{{{Sep rain mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct rain inch|}}}|{{{Oct rain cm|}}}|{{{Oct rain mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov rain inch|}}}|{{{Nov rain cm|}}}|{{{Nov rain mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec rain inch|}}}|{{{Dec rain cm|}}}|{{{Dec rain mm|}}}}}
+|yr2={{#if:{{{year rain cm|}}}{{{year rain mm|}}}{{{year rain inch|}}}
+       |{{Weather box/inchtometric|{{{year rain inch|}}}|{{{year rain cm|}}}|{{{year rain mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain inch}}})+({{{Feb rain inch}}})+({{{Mar rain inch}}})+<!--
+                    -->({{{Apr rain inch}}})+({{{May rain inch}}})+({{{Jun rain inch}}})+<!--
+                    -->({{{Jul rain inch}}})+({{{Aug rain inch}}})+({{{Sep rain inch}}})+<!--
+                    -->({{{Oct rain inch}}})+({{{Nov rain inch}}})+({{{Dec rain inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain cm}}})+({{{Feb rain cm}}})+({{{Mar rain cm}}})+<!--
+                    -->({{{Apr rain cm}}})+({{{May rain cm}}})+({{{Jun rain cm}}})+<!--
+                    -->({{{Jul rain cm}}})+({{{Aug rain cm}}})+({{{Sep rain cm}}})+<!--
+                    -->({{{Oct rain cm}}})+({{{Nov rain cm}}})+({{{Dec rain cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain mm}}})+({{{Feb rain mm}}})+({{{Mar rain mm}}})+<!--
+                    -->({{{Apr rain mm}}})+({{{May rain mm}}})+({{{Jun rain mm}}})+<!--
+                    -->({{{Jul rain mm}}})+({{{Aug rain mm}}})+({{{Sep rain mm}}})+<!--
+                    -->({{{Oct rain mm}}})+({{{Nov rain mm}}})+({{{Dec rain mm}}})}}<!--
+                 -->}}|{{{Jan rain cm|}}}<!--
+                 -->}}|{{{Jan rain mm|}}}
+              }}
+       }}
+}}}}<!--
+
+                                            FIRST LINE SNOWFALL
+
+-->{{#if:{{{Jan snow cm|}}}{{{Feb snow cm|}}}{{{Mar snow cm|}}}<!--
+      -->{{{Apr snow cm|}}}{{{May snow cm|}}}{{{Jun snow cm|}}}<!--
+      -->{{{Jul snow cm|}}}{{{Aug snow cm|}}}{{{Sep snow cm|}}}<!--
+      -->{{{Oct snow cm|}}}{{{Nov snow cm|}}}{{{Dec snow cm|}}}<!--
+      -->{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+      -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+      -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+      -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}<!--
+      -->{{{Jan snow inch|}}}{{{Feb snow inch|}}}{{{Mar snow inch|}}}<!--
+      -->{{{Apr snow inch|}}}{{{May snow inch|}}}{{{Jun snow inch|}}}<!--
+      -->{{{Jul snow inch|}}}{{{Aug snow inch|}}}{{{Sep snow inch|}}}<!--
+      -->{{{Oct snow inch|}}}{{{Nov snow inch|}}}{{{Dec snow inch|}}}<!--
+  -->|{{#switch:{{#if:{{{snow colour|}}}|{{{snow colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{snow colour}}}</code> is not a valid snow color alternative, use <code><nowiki>|snow colour=green</nowiki></code> or remove the <code>snow colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=Snowfall <!--
+
+-->{{#if:{{{metric first|}}}
+     |{{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+         -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+         -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+         -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
+        |m
+        |c}}m
+     |inches
+     }} <!--  
+
+-->{{#if:{{{single line|}}}
+     |({{#if:{{{metric first|}}}
+         |inches
+         |{{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+             -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+             -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+             -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
+            |m
+            |c
+            }}m
+         }})
+     }}
+|show={{#if:{{{metric first|}}}|1|2}}
+|alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
+|sc={{#if:{{{snow colour|}}}|{{{snow colour}}}|p}}
+|f={{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+      -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+      -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+      -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
+     |1
+     |10
+     }}<!--
+
+                                           SNOWFALL METRIC
+-->
+|jan1={{Weather box/metrictoinch|{{{Jan snow mm|}}}|{{{Jan snow cm|}}}|{{{Jan snow inch|}}}}}
+|feb1={{Weather box/metrictoinch|{{{Feb snow mm|}}}|{{{Feb snow cm|}}}|{{{Feb snow inch|}}}}}
+|mar1={{Weather box/metrictoinch|{{{Mar snow mm|}}}|{{{Mar snow cm|}}}|{{{Mar snow inch|}}}}}
+|apr1={{Weather box/metrictoinch|{{{Apr snow mm|}}}|{{{Apr snow cm|}}}|{{{Apr snow inch|}}}}}
+|may1={{Weather box/metrictoinch|{{{May snow mm|}}}|{{{May snow cm|}}}|{{{May snow inch|}}}}}
+|jun1={{Weather box/metrictoinch|{{{Jun snow mm|}}}|{{{Jun snow cm|}}}|{{{Jun snow inch|}}}}}
+|jul1={{Weather box/metrictoinch|{{{Jul snow mm|}}}|{{{Jul snow cm|}}}|{{{Jul snow inch|}}}}}
+|aug1={{Weather box/metrictoinch|{{{Aug snow mm|}}}|{{{Aug snow cm|}}}|{{{Aug snow inch|}}}}}
+|sep1={{Weather box/metrictoinch|{{{Sep snow mm|}}}|{{{Sep snow cm|}}}|{{{Sep snow inch|}}}}}
+|oct1={{Weather box/metrictoinch|{{{Oct snow mm|}}}|{{{Oct snow cm|}}}|{{{Oct snow inch|}}}}}
+|nov1={{Weather box/metrictoinch|{{{Nov snow mm|}}}|{{{Nov snow cm|}}}|{{{Nov snow inch|}}}}}
+|dec1={{Weather box/metrictoinch|{{{Dec snow mm|}}}|{{{Dec snow cm|}}}|{{{Dec snow inch|}}}}}
+|yr1={{#if:{{{year snow cm|}}}{{{year snow mm|}}}{{{year snow inch|}}}
+       |{{Weather box/metrictoinch|{{{year snow cm|}}}|{{{year snow mm|}}}|{{{year snow inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow cm}}})+({{{Feb snow cm}}})+({{{Mar snow cm}}})+<!--
+                    -->({{{Apr snow cm}}})+({{{May snow cm}}})+({{{Jun snow cm}}})+<!--
+                    -->({{{Jul snow cm}}})+({{{Aug snow cm}}})+({{{Sep snow cm}}})+<!--
+                    -->({{{Oct snow cm}}})+({{{Nov snow cm}}})+({{{Dec snow cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow mm}}})+({{{Feb snow mm}}})+({{{Mar snow mm}}})+<!--
+                    -->({{{Apr snow mm}}})+({{{May snow mm}}})+({{{Jun snow mm}}})+<!--
+                    -->({{{Jul snow mm}}})+({{{Aug snow mm}}})+({{{Sep snow mm}}})+<!--
+                    -->({{{Oct snow mm}}})+({{{Nov snow mm}}})+({{{Dec snow mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow inch}}})+({{{Feb snow inch}}})+({{{Mar snow inch}}})+<!--
+                    -->({{{Apr snow inch}}})+({{{May snow inch}}})+({{{Jun snow inch}}})+<!--
+                    -->({{{Jul snow inch}}})+({{{Aug snow inch}}})+({{{Sep snow inch}}})+<!--
+                    -->({{{Oct snow inch}}})+({{{Nov snow inch}}})+({{{Dec snow inch}}})}}<!--
+                -->|{{{Jan snow inch}}}
+              }}
+       }}
+}}<!--
+
+                                                  SNOWFALL IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan snow inch|}}}|{{{Jan snow cm|}}}|{{{Jan snow mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb snow inch|}}}|{{{Feb snow cm|}}}|{{{Feb snow mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar snow inch|}}}|{{{Mar snow cm|}}}|{{{Mar snow mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr snow inch|}}}|{{{Apr snow cm|}}}|{{{Apr snow mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May snow inch|}}}|{{{May snow cm|}}}|{{{May snow mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun snow inch|}}}|{{{Jun snow cm|}}}|{{{Jun snow mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul snow inch|}}}|{{{Jul snow cm|}}}|{{{Jul snow mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug snow inch|}}}|{{{Aug snow cm|}}}|{{{Aug snow mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep snow inch|}}}|{{{Sep snow cm|}}}|{{{Sep snow mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct snow inch|}}}|{{{Oct snow cm|}}}|{{{Oct snow mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov snow inch|}}}|{{{Nov snow cm|}}}|{{{Nov snow mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec snow inch|}}}|{{{Dec snow cm|}}}|{{{Dec snow mm|}}}}}
+|yr2={{#if:{{{year snow cm|}}}{{{year snow mm|}}}{{{year snow inch|}}}
+       |{{Weather box/inchtometric|{{{year snow inch|}}}|{{{year snow cm|}}}|{{{year snow mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow inch}}})+({{{Feb snow inch}}})+({{{Mar snow inch}}})+<!--
+                    -->({{{Apr snow inch}}})+({{{May snow inch}}})+({{{Jun snow inch}}})+<!--
+                    -->({{{Jul snow inch}}})+({{{Aug snow inch}}})+({{{Sep snow inch}}})+<!--
+                    -->({{{Oct snow inch}}})+({{{Nov snow inch}}})+({{{Dec snow inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow cm}}})+({{{Feb snow cm}}})+({{{Mar snow cm}}})+<!--
+                    -->({{{Apr snow cm}}})+({{{May snow cm}}})+({{{Jun snow cm}}})+<!--
+                    -->({{{Jul snow cm}}})+({{{Aug snow cm}}})+({{{Sep snow cm}}})+<!--
+                    -->({{{Oct snow cm}}})+({{{Nov snow cm}}})+({{{Dec snow cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow mm}}})+({{{Feb snow mm}}})+({{{Mar snow mm}}})+<!--
+                    -->({{{Apr snow mm}}})+({{{May snow mm}}})+({{{Jun snow mm}}})+<!--
+                    -->({{{Jul snow mm}}})+({{{Aug snow mm}}})+({{{Sep snow mm}}})+<!--
+                    -->({{{Oct snow mm}}})+({{{Nov snow mm}}})+({{{Dec snow mm}}})}}<!--
+                 -->}}|{{{Jan snow cm|}}}<!--
+                 -->}}|{{{Jan snow mm|}}}
+              }}
+       }}
+}}}}<!--
+
+-->{{#if:{{{single line|}}}||<!--
+
+                                       SECOND LINE MAXIMUM HUMIDEX
+
+-->{{#if:{{{Jan maximum humidex|}}}{{{Feb maximum humidex|}}}{{{Mar maximum humidex|}}}<!--
+      -->{{{Apr maximum humidex|}}}{{{May maximum humidex|}}}{{{Jun maximum humidex|}}}<!--
+      -->{{{Jul maximum humidex|}}}{{{Aug maximum humidex|}}}{{{Sep maximum humidex|}}}<!--
+      -->{{{Oct maximum humidex|}}}{{{Nov maximum humidex|}}}{{{Dec maximum humidex|}}}<!--
+  -->|{{#if:{{{metric first|}}}||{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/oneline
+|label=[[Humidex]]
+|show=1
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                            MAXIMUM HUMIDEX VALUES
+
+-->
+|jan1={{{Jan maximum humidex|}}}
+|feb1={{{Feb maximum humidex|}}}
+|mar1={{{Mar maximum humidex|}}}
+|apr1={{{Apr maximum humidex|}}}
+|may1={{{May maximum humidex|}}}
+|jun1={{{Jun maximum humidex|}}}
+|jul1={{{Jul maximum humidex|}}}
+|aug1={{{Aug maximum humidex|}}}
+|sep1={{{Sep maximum humidex|}}}
+|oct1={{{Oct maximum humidex|}}}
+|nov1={{{Nov maximum humidex|}}}
+|dec1={{{Dec maximum humidex|}}}
+|yr1={{#if:{{{year maximum humidex|}}}
+       |{{{year maximum humidex}}}
+       |{{Max/12
+          |{{{Jan maximum humidex|}}}|{{{Feb maximum humidex|}}}|{{{Mar maximum humidex|}}}
+          |{{{Apr maximum humidex|}}}|{{{May maximum humidex|}}}|{{{Jun maximum humidex|}}}
+          |{{{Jul maximum humidex|}}}|{{{Aug maximum humidex|}}}|{{{Sep maximum humidex|}}}
+          |{{{Oct maximum humidex|}}}|{{{Nov maximum humidex|}}}|{{{Dec maximum humidex|}}}
+          }}<!--
+    -->}}<!--
+-->}}}}}}}}<!--
+
+                                     SECOND LINE RECORD HIGH TEMPERATURES
+
+-->{{#if:{{{Jan record high C|}}}{{{Feb record high C|}}}{{{Mar record high C|}}}<!--
+      -->{{{Apr record high C|}}}{{{May record high C|}}}{{{Jun record high C|}}}<!--
+      -->{{{Jul record high C|}}}{{{Aug record high C|}}}{{{Sep record high C|}}}<!--
+      -->{{{Oct record high C|}}}{{{Nov record high C|}}}{{{Dec record high C|}}}<!--
+      -->{{{Jan record high F|}}}{{{Feb record high F|}}}{{{Mar record high F|}}}<!--
+      -->{{{Apr record high F|}}}{{{May record high F|}}}{{{Jun record high F|}}}<!--
+      -->{{{Jul record high F|}}}{{{Aug record high F|}}}{{{Sep record high F|}}}<!--
+      -->{{{Oct record high F|}}}{{{Nov record high F|}}}{{{Dec record high F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki />
+{{weather box/line
+|label=Record high °{{#if:{{{metric first|}}}|F|C}}
+|show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                      RECORD HIGH TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan record high C|}}}|{{{Jan record high F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb record high C|}}}|{{{Feb record high F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar record high C|}}}|{{{Mar record high F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr record high C|}}}|{{{Apr record high F|}}}}}
+|may1={{Weather box/FtoC|{{{May record high C|}}}|{{{May record high F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun record high C|}}}|{{{Jun record high F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul record high C|}}}|{{{Jul record high F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug record high C|}}}|{{{Aug record high F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep record high C|}}}|{{{Sep record high F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct record high C|}}}|{{{Oct record high F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov record high C|}}}|{{{Nov record high F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec record high C|}}}|{{{Dec record high F|}}}}}
+|yr1={{#if:{{{year record high C|}}}{{{year record high F|}}}
+       |{{Weather box/FtoC|{{{year record high C|}}}|{{{year record high F|}}}}}
+       |{{Weather box/FtoC
+          |{{{Jan record high C|}}}|{{{Jan record high F|}}}|{{#if:{{{Jan record high C|}}}
+               |{{Max/12
+                  |{{{Jan record high C|}}}|{{{Feb record high C|}}}|{{{Mar record high C|}}}
+                  |{{{Apr record high C|}}}|{{{May record high C|}}}|{{{Jun record high C|}}}
+                  |{{{Jul record high C|}}}|{{{Aug record high C|}}}|{{{Sep record high C|}}}
+                  |{{{Oct record high C|}}}|{{{Nov record high C|}}}|{{{Dec record high C|}}}
+                  }}
+               |{{Max/12
+                  |{{{Jan record high F|}}}|{{{Feb record high F|}}}|{{{Mar record high F|}}}
+                  |{{{Apr record high F|}}}|{{{May record high F|}}}|{{{Jun record high F|}}}
+                  |{{{Jul record high F|}}}|{{{Aug record high F|}}}|{{{Sep record high F|}}}
+                  |{{{Oct record high F|}}}|{{{Nov record high F|}}}|{{{Dec record high F|}}}
+                  }}
+               }}
+            }}
+       }}<!--
+
+                                      RECORD HIGH TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan record high F|}}}|{{{Jan record high C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb record high F|}}}|{{{Feb record high C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar record high F|}}}|{{{Mar record high C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr record high F|}}}|{{{Apr record high C|}}}}}
+|may2={{Weather box/CtoF|{{{May record high F|}}}|{{{May record high C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun record high F|}}}|{{{Jun record high C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul record high F|}}}|{{{Jul record high C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug record high F|}}}|{{{Aug record high C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep record high F|}}}|{{{Sep record high C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct record high F|}}}|{{{Oct record high C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov record high F|}}}|{{{Nov record high C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec record high F|}}}|{{{Dec record high C|}}}}}
+|yr2={{#if:{{{year record high F|}}}{{{year record high C|}}}
+       |{{Weather box/CtoF|{{{year record high F|}}}|{{{year record high C|}}}}}
+       |{{Weather box/CtoF
+          |{{{Jan record high F|}}}|{{{Jan record high C|}}}|{{#if:{{{Jan record high F|}}}
+               |{{Max/12
+                  |{{{Jan record high F|}}}|{{{Feb record high F|}}}|{{{Mar record high F|}}}
+                  |{{{Apr record high F|}}}|{{{May record high F|}}}|{{{Jun record high F|}}}
+                  |{{{Jul record high F|}}}|{{{Aug record high F|}}}|{{{Sep record high F|}}}
+                  |{{{Oct record high F|}}}|{{{Nov record high F|}}}|{{{Dec record high F|}}}
+                  }}
+               |{{Max/12
+                  |{{{Jan record high C|}}}|{{{Feb record high C|}}}|{{{Mar record high C|}}}
+                  |{{{Apr record high C|}}}|{{{May record high C|}}}|{{{Jun record high C|}}}
+                  |{{{Jul record high C|}}}|{{{Aug record high C|}}}|{{{Sep record high C|}}}
+                  |{{{Oct record high C|}}}|{{{Nov record high C|}}}|{{{Dec record high C|}}}
+                  }}
+               }}
+            }}
+       }}
+}}}}}}<!--
+
+                                    SECOND LINE AVERAGE HIGH TEMPERATURES
+
+-->{{#if:{{{Jan high C|}}}{{{Feb high C|}}}{{{Mar high C|}}}<!--
+      -->{{{Apr high C|}}}{{{May high C|}}}{{{Jun high C|}}}<!--
+      -->{{{Jul high C|}}}{{{Aug high C|}}}{{{Sep high C|}}}<!--
+      -->{{{Oct high C|}}}{{{Nov high C|}}}{{{Dec high C|}}}<!--
+      -->{{{Jan high F|}}}{{{Feb high F|}}}{{{Mar high F|}}}<!--
+      -->{{{Apr high F|}}}{{{May high F|}}}{{{Jun high F|}}}<!--
+      -->{{{Jul high F|}}}{{{Aug high F|}}}{{{Sep high F|}}}<!--
+      -->{{{Oct high F|}}}{{{Nov high F|}}}{{{Dec high F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Kuleel aan darnayn °{{#if:{{{metric first|}}}|F|C}}
+|show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                    AVERAGE HIGH TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan high C|}}}|{{{Jan high F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb high C|}}}|{{{Feb high F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar high C|}}}|{{{Mar high F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr high C|}}}|{{{Apr high F|}}}}}
+|may1={{Weather box/FtoC|{{{May high C|}}}|{{{May high F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun high C|}}}|{{{Jun high F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul high C|}}}|{{{Jul high F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug high C|}}}|{{{Aug high F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep high C|}}}|{{{Sep high F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct high C|}}}|{{{Oct high F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov high C|}}}|{{{Nov high F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec high C|}}}|{{{Dec high F|}}}}}
+|yr1={{#if:{{{year high C|}}}{{{year high F|}}}
+       |{{Weather box/FtoC|{{{year high C}}}|{{{year high F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan high C|}}}|{{{Jan high F|}}}|{{#if:{{{Jan high C|}}}
+                          |{{rnd|{{#expr:({{{Jan high C}}}+{{{Feb high C}}}+{{{Mar high C}}}+<!--
+                                       -->{{{Apr high C}}}+{{{May high C}}}+{{{Jun high C}}}+<!--
+                                       -->{{{Jul high C}}}+{{{Aug high C}}}+{{{Sep high C}}}+<!--
+                                       -->{{{Oct high C}}}+{{{Nov high C}}}+{{{Dec high C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan high C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan high F}}}+{{{Feb high F}}}+{{{Mar high F}}}+<!--
+                                 -->{{{Apr high F}}}+{{{May high F}}}+{{{Jun high F}}}+<!--
+                                 -->{{{Jul high F}}}+{{{Aug high F}}}+{{{Sep high F}}}+<!--
+                                 -->{{{Oct high F}}}+{{{Nov high F}}}+{{{Dec high F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                      AVERAGE HIGH TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan high F|}}}|{{{Jan high C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb high F|}}}|{{{Feb high C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar high F|}}}|{{{Mar high C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr high F|}}}|{{{Apr high C|}}}}}
+|may2={{Weather box/CtoF|{{{May high F|}}}|{{{May high C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun high F|}}}|{{{Jun high C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul high F|}}}|{{{Jul high C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug high F|}}}|{{{Aug high C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep high F|}}}|{{{Sep high C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct high F|}}}|{{{Oct high C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov high F|}}}|{{{Nov high C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec high F|}}}|{{{Dec high C|}}}}}
+|yr2={{#if:{{{year high F|}}}{{{year high C|}}}
+       |{{Weather box/CtoF|{{{year high F}}}|{{{year high C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan high F|}}}|{{{Jan high C|}}}|{{#if:{{{Jan high F|}}}
+                          |{{rnd|{{#expr:({{{Jan high F}}}+{{{Feb high F}}}+{{{Mar high F}}}+<!--
+                                       -->{{{Apr high F}}}+{{{May high F}}}+{{{Jun high F}}}+<!--
+                                       -->{{{Jul high F}}}+{{{Aug high F}}}+{{{Sep high F}}}+<!--
+                                       -->{{{Oct high F}}}+{{{Nov high F}}}+{{{Dec high F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan high F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan high C}}}+{{{Feb high C}}}+{{{Mar high C}}}+<!--
+                                 -->{{{Apr high C}}}+{{{May high C}}}+{{{Jun high C}}}+<!--
+                                 -->{{{Jul high C}}}+{{{Aug high C}}}+{{{Sep high C}}}+<!--
+                                 -->{{{Oct high C}}}+{{{Nov high C}}}+{{{Dec high C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+
+                                      SECOND LINE DAILY MEAN TEMPERATURES
+
+-->{{#if:{{{Jan mean C|}}}{{{Feb mean C|}}}{{{Mar mean C|}}}<!--
+      -->{{{Apr mean C|}}}{{{May mean C|}}}{{{Jun mean C|}}}<!--
+      -->{{{Jul mean C|}}}{{{Aug mean C|}}}{{{Sep mean C|}}}<!--
+      -->{{{Oct mean C|}}}{{{Nov mean C|}}}{{{Dec mean C|}}}<!--
+      -->{{{Jan mean F|}}}{{{Feb mean F|}}}{{{Mar mean F|}}}<!--
+      -->{{{Apr mean F|}}}{{{May mean F|}}}{{{Jun mean F|}}}<!--
+      -->{{{Jul mean F|}}}{{{Aug mean F|}}}{{{Sep mean F|}}}<!--
+      -->{{{Oct mean F|}}}{{{Nov mean F|}}}{{{Dec mean F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Daily mean °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                        DAILY MEAN TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan mean C|}}}|{{{Jan mean F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb mean C|}}}|{{{Feb mean F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar mean C|}}}|{{{Mar mean F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr mean C|}}}|{{{Apr mean F|}}}}}
+|may1={{Weather box/FtoC|{{{May mean C|}}}|{{{May mean F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun mean C|}}}|{{{Jun mean F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul mean C|}}}|{{{Jul mean F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug mean C|}}}|{{{Aug mean F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep mean C|}}}|{{{Sep mean F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct mean C|}}}|{{{Oct mean F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov mean C|}}}|{{{Nov mean F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec mean C|}}}|{{{Dec mean F|}}}}}
+|yr1={{#if:{{{year mean C|}}}{{{year mean F|}}}
+       |{{Weather box/FtoC|{{{year mean C}}}|{{{year mean F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan mean C|}}}|{{{Jan mean F|}}}|{{#if:{{{Jan mean C|}}}
+                          |{{rnd|{{#expr:({{{Jan mean C}}}+{{{Feb mean C}}}+{{{Mar mean C}}}+<!--
+                                       -->{{{Apr mean C}}}+{{{May mean C}}}+{{{Jun mean C}}}+<!--
+                                       -->{{{Jul mean C}}}+{{{Aug mean C}}}+{{{Sep mean C}}}+<!--
+                                       -->{{{Oct mean C}}}+{{{Nov mean C}}}+{{{Dec mean C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan mean C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan mean F}}}+{{{Feb mean F}}}+{{{Mar mean F}}}+<!--
+                                 -->{{{Apr mean F}}}+{{{May mean F}}}+{{{Jun mean F}}}+<!--
+                                 -->{{{Jul mean F}}}+{{{Aug mean F}}}+{{{Sep mean F}}}+<!--
+                                 -->{{{Oct mean F}}}+{{{Nov mean F}}}+{{{Dec mean F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                           DAILY MEAN TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan mean F|}}}|{{{Jan mean C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb mean F|}}}|{{{Feb mean C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar mean F|}}}|{{{Mar mean C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr mean F|}}}|{{{Apr mean C|}}}}}
+|may2={{Weather box/CtoF|{{{May mean F|}}}|{{{May mean C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun mean F|}}}|{{{Jun mean C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul mean F|}}}|{{{Jul mean C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug mean F|}}}|{{{Aug mean C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep mean F|}}}|{{{Sep mean C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct mean F|}}}|{{{Oct mean C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov mean F|}}}|{{{Nov mean C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec mean F|}}}|{{{Dec mean C|}}}}}
+|yr2={{#if:{{{year mean F|}}}{{{year mean C|}}}
+       |{{Weather box/CtoF|{{{year mean F}}}|{{{year mean C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan mean F|}}}|{{{Jan mean C|}}}|{{#if:{{{Jan mean F|}}}
+                          |{{rnd|{{#expr:({{{Jan mean F}}}+{{{Feb mean F}}}+{{{Mar mean F}}}+<!--
+                                       -->{{{Apr mean F}}}+{{{May mean F}}}+{{{Jun mean F}}}+<!--
+                                       -->{{{Jul mean F}}}+{{{Aug mean F}}}+{{{Sep mean F}}}+<!--
+                                       -->{{{Oct mean F}}}+{{{Nov mean F}}}+{{{Dec mean F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan mean F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan mean C}}}+{{{Feb mean C}}}+{{{Mar mean C}}}+<!--
+                                 -->{{{Apr mean C}}}+{{{May mean C}}}+{{{Jun mean C}}}+<!--
+                                 -->{{{Jul mean C}}}+{{{Aug mean C}}}+{{{Sep mean C}}}+<!--
+                                 -->{{{Oct mean C}}}+{{{Nov mean C}}}+{{{Dec mean C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+
+                                   Hoos udhaca kuleelka dhaxdhexaadka ah
+
+-->{{#if:{{{Jan low C|}}}{{{Feb low C|}}}{{{Mar low C|}}}<!--
+      -->{{{Apr low C|}}}{{{May low C|}}}{{{Jun low C|}}}<!--
+      -->{{{Jul low C|}}}{{{Aug low C|}}}{{{Sep low C|}}}<!--
+      -->{{{Oct low C|}}}{{{Nov low C|}}}{{{Dec low C|}}}<!--
+      -->{{{Jan low F|}}}{{{Feb low F|}}}{{{Mar low F|}}}<!--
+      -->{{{Apr low F|}}}{{{May low F|}}}{{{Jun low F|}}}<!--
+      -->{{{Jul low F|}}}{{{Aug low F|}}}{{{Sep low F|}}}<!--
+      -->{{{Oct low F|}}}{{{Nov low F|}}}{{{Dec low F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Hoos udhac kuleelka
+ °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                        AVERAGE LOW TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan low C|}}}|{{{Jan low F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb low C|}}}|{{{Feb low F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar low C|}}}|{{{Mar low F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr low C|}}}|{{{Apr low F|}}}}}
+|may1={{Weather box/FtoC|{{{May low C|}}}|{{{May low F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun low C|}}}|{{{Jun low F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul low C|}}}|{{{Jul low F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug low C|}}}|{{{Aug low F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep low C|}}}|{{{Sep low F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct low C|}}}|{{{Oct low F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov low C|}}}|{{{Nov low F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec low C|}}}|{{{Dec low F|}}}}}
+|yr1={{#if:{{{year low C|}}}{{{year low F|}}}
+       |{{Weather box/FtoC|{{{year low C}}}|{{{year low F|}}}}}
+       |{{#iferror:{{Weather box/FtoC
+                      |{{{Jan low C|}}}|{{{Jan low F|}}}|{{#if:{{{Jan low C|}}}
+                          |{{rnd|{{#expr:({{{Jan low C}}}+{{{Feb low C}}}+{{{Mar low C}}}+<!--
+                                       -->{{{Apr low C}}}+{{{May low C}}}+{{{Jun low C}}}+<!--
+                                       -->{{{Jul low C}}}+{{{Aug low C}}}+{{{Sep low C}}}+<!--
+                                       -->{{{Oct low C}}}+{{{Nov low C}}}+{{{Dec low C}}})/12}}
+                                |{{#expr:{{precision|{{{Jan low C}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan low F}}}+{{{Feb low F}}}+{{{Mar low F}}}+<!--
+                                 -->{{{Apr low F}}}+{{{May low F}}}+{{{Jun low F}}}+<!--
+                                 -->{{{Jul low F}}}+{{{Aug low F}}}+{{{Sep low F}}}+<!--
+                                 -->{{{Oct low F}}}+{{{Nov low F}}}+{{{Dec low F}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}<!--
+
+                                      AVERAGE LOW TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan low F|}}}|{{{Jan low C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb low F|}}}|{{{Feb low C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar low F|}}}|{{{Mar low C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr low F|}}}|{{{Apr low C|}}}}}
+|may2={{Weather box/CtoF|{{{May low F|}}}|{{{May low C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun low F|}}}|{{{Jun low C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul low F|}}}|{{{Jul low C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug low F|}}}|{{{Aug low C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep low F|}}}|{{{Sep low C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct low F|}}}|{{{Oct low C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov low F|}}}|{{{Nov low C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec low F|}}}|{{{Dec low C|}}}}}
+|yr2={{#if:{{{year low F|}}}{{{year low C|}}}
+       |{{Weather box/CtoF|{{{year low F}}}|{{{year low C|}}}}}
+       |{{#iferror:{{Weather box/CtoF
+                      |{{{Jan low F|}}}|{{{Jan low C|}}}|{{#if:{{{Jan low F|}}}
+                          |{{rnd|{{#expr:({{{Jan low F}}}+{{{Feb low F}}}+{{{Mar low F}}}+<!--
+                                       -->{{{Apr low F}}}+{{{May low F}}}+{{{Jun low F}}}+<!--
+                                       -->{{{Jul low F}}}+{{{Aug low F}}}+{{{Sep low F}}}+<!--
+                                       -->{{{Oct low F}}}+{{{Nov low F}}}+{{{Dec low F}}})/12}}
+                                |{{#expr:{{precision|{{{Jan low F}}}}}+1}}
+                                }}
+                          |{{#expr:({{{Jan low C}}}+{{{Feb low C}}}+{{{Mar low C}}}+<!--
+                                 -->{{{Apr low C}}}+{{{May low C}}}+{{{Jun low C}}}+<!--
+                                 -->{{{Jul low C}}}+{{{Aug low C}}}+{{{Sep low C}}}+<!--
+                                 -->{{{Oct low C}}}+{{{Nov low C}}}+{{{Dec low C}}})/12}}
+                          }}
+                      |Δprec=1
+                      }}
+                }}
+         }}
+}}}}}}<!--
+
+                                     SECOND LINE RECORD LOW TEMPERATURES
+
+-->{{#if:{{{Jan record low C|}}}{{{Feb record low C|}}}{{{Mar record low C|}}}<!--
+      -->{{{Apr record low C|}}}{{{May record low C|}}}{{{Jun record low C|}}}<!--
+      -->{{{Jul record low C|}}}{{{Aug record low C|}}}{{{Sep record low C|}}}<!--
+      -->{{{Oct record low C|}}}{{{Nov record low C|}}}{{{Dec record low C|}}}<!--
+      -->{{{Jan record low F|}}}{{{Feb record low F|}}}{{{Mar record low F|}}}<!--
+      -->{{{Apr record low F|}}}{{{May record low F|}}}{{{Jun record low F|}}}<!--
+      -->{{{Jul record low F|}}}{{{Aug record low F|}}}{{{Sep record low F|}}}<!--
+      -->{{{Oct record low F|}}}{{{Nov record low F|}}}{{{Dec record low F|}}}<!--
+  -->|{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/line
+|label=Record low °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                     RECORD LOW TEMPERATURES METRIC
+-->
+|jan1={{Weather box/FtoC|{{{Jan record low C|}}}|{{{Jan record low F|}}}}}
+|feb1={{Weather box/FtoC|{{{Feb record low C|}}}|{{{Feb record low F|}}}}}
+|mar1={{Weather box/FtoC|{{{Mar record low C|}}}|{{{Mar record low F|}}}}}
+|apr1={{Weather box/FtoC|{{{Apr record low C|}}}|{{{Apr record low F|}}}}}
+|may1={{Weather box/FtoC|{{{May record low C|}}}|{{{May record low F|}}}}}
+|jun1={{Weather box/FtoC|{{{Jun record low C|}}}|{{{Jun record low F|}}}}}
+|jul1={{Weather box/FtoC|{{{Jul record low C|}}}|{{{Jul record low F|}}}}}
+|aug1={{Weather box/FtoC|{{{Aug record low C|}}}|{{{Aug record low F|}}}}}
+|sep1={{Weather box/FtoC|{{{Sep record low C|}}}|{{{Sep record low F|}}}}}
+|oct1={{Weather box/FtoC|{{{Oct record low C|}}}|{{{Oct record low F|}}}}}
+|nov1={{Weather box/FtoC|{{{Nov record low C|}}}|{{{Nov record low F|}}}}}
+|dec1={{Weather box/FtoC|{{{Dec record low C|}}}|{{{Dec record low F|}}}}}
+|yr1={{#if:{{{year record low C|}}}{{{year record low F|}}}
+       |{{Weather box/FtoC|{{{year record low C|}}}|{{{year record low F|}}}}}
+       |{{Weather box/FtoC
+          |{{{Jan record low C|}}}|{{{Jan record low F|}}}|{{#if:{{{Jan record low C|}}}
+               |{{min/12
+                  |{{{Jan record low C|}}}|{{{Feb record low C|}}}|{{{Mar record low C|}}}
+                  |{{{Apr record low C|}}}|{{{May record low C|}}}|{{{Jun record low C|}}}
+                  |{{{Jul record low C|}}}|{{{Aug record low C|}}}|{{{Sep record low C|}}}
+                  |{{{Oct record low C|}}}|{{{Nov record low C|}}}|{{{Dec record low C|}}}
+                  }}
+               |{{min/12
+                  |{{{Jan record low F|}}}|{{{Feb record low F|}}}|{{{Mar record low F|}}}
+                  |{{{Apr record low F|}}}|{{{May record low F|}}}|{{{Jun record low F|}}}
+                  |{{{Jul record low F|}}}|{{{Aug record low F|}}}|{{{Sep record low F|}}}
+                  |{{{Oct record low F|}}}|{{{Nov record low F|}}}|{{{Dec record low F|}}}
+                  }}
+               }}
+            }}
+       }}<!--
+
+                                        RECORD LOW TEMPERATURES IMPERIAL
+-->
+|jan2={{Weather box/CtoF|{{{Jan record low F|}}}|{{{Jan record low C|}}}}}
+|feb2={{Weather box/CtoF|{{{Feb record low F|}}}|{{{Feb record low C|}}}}}
+|mar2={{Weather box/CtoF|{{{Mar record low F|}}}|{{{Mar record low C|}}}}}
+|apr2={{Weather box/CtoF|{{{Apr record low F|}}}|{{{Apr record low C|}}}}}
+|may2={{Weather box/CtoF|{{{May record low F|}}}|{{{May record low C|}}}}}
+|jun2={{Weather box/CtoF|{{{Jun record low F|}}}|{{{Jun record low C|}}}}}
+|jul2={{Weather box/CtoF|{{{Jul record low F|}}}|{{{Jul record low C|}}}}}
+|aug2={{Weather box/CtoF|{{{Aug record low F|}}}|{{{Aug record low C|}}}}}
+|sep2={{Weather box/CtoF|{{{Sep record low F|}}}|{{{Sep record low C|}}}}}
+|oct2={{Weather box/CtoF|{{{Oct record low F|}}}|{{{Oct record low C|}}}}}
+|nov2={{Weather box/CtoF|{{{Nov record low F|}}}|{{{Nov record low C|}}}}}
+|dec2={{Weather box/CtoF|{{{Dec record low F|}}}|{{{Dec record low C|}}}}}
+|yr2={{#if:{{{year record low F|}}}{{{year record low C|}}}
+       |{{Weather box/CtoF|{{{year record low F|}}}|{{{year record low C|}}}}}
+       |{{Weather box/CtoF
+          |{{{Jan record low F|}}}|{{{Jan record low C|}}}|{{#if:{{{Jan record low F|}}}
+               |{{min/12
+                  |{{{Jan record low F|}}}|{{{Feb record low F|}}}|{{{Mar record low F|}}}
+                  |{{{Apr record low F|}}}|{{{May record low F|}}}|{{{Jun record low F|}}}
+                  |{{{Jul record low F|}}}|{{{Aug record low F|}}}|{{{Sep record low F|}}}
+                  |{{{Oct record low F|}}}|{{{Nov record low F|}}}|{{{Dec record low F|}}}
+                  }}
+               |{{min/12
+                  |{{{Jan record low C|}}}|{{{Feb record low C|}}}|{{{Mar record low C|}}}
+                  |{{{Apr record low C|}}}|{{{May record low C|}}}|{{{Jun record low C|}}}
+                  |{{{Jul record low C|}}}|{{{Aug record low C|}}}|{{{Sep record low C|}}}
+                  |{{{Oct record low C|}}}|{{{Nov record low C|}}}|{{{Dec record low C|}}}
+                  }}
+               }}
+            }}
+       }}
+}}}}}}<!--
+
+                                        SECOND LINE MINIMUM WIND CHILL
+
+-->{{#if:{{{Jan chill|}}}{{{Feb chill|}}}{{{Mar chill|}}}<!--
+      -->{{{Apr chill|}}}{{{May chill|}}}{{{Jun chill|}}}<!--
+      -->{{{Jul chill|}}}{{{Aug chill|}}}{{{Sep chill|}}}<!--
+      -->{{{Oct chill|}}}{{{Nov chill|}}}{{{Dec chill|}}}<!--
+  -->|{{#if:{{{metric first|}}}||{{#switch:{{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
+{{weather box/oneline
+|label=[[Wind chill]]
+|show=1
+|sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
+
+                                           MINIMUM WIND CHILL VALUES
+-->
+|jan1={{Weather box/sign|{{{Jan chill|}}}}}
+|feb1={{Weather box/sign|{{{Feb chill|}}}}}
+|mar1={{Weather box/sign|{{{Mar chill|}}}}}
+|apr1={{Weather box/sign|{{{Apr chill|}}}}}
+|may1={{Weather box/sign|{{{May chill|}}}}}
+|jun1={{Weather box/sign|{{{Jun chill|}}}}}
+|jul1={{Weather box/sign|{{{Jul chill|}}}}}
+|aug1={{Weather box/sign|{{{Aug chill|}}}}}
+|sep1={{Weather box/sign|{{{Sep chill|}}}}}
+|oct1={{Weather box/sign|{{{Oct chill|}}}}}
+|nov1={{Weather box/sign|{{{Nov chill|}}}}}
+|dec1={{Weather box/sign|{{{Dec chill|}}}}}
+|yr1={{Weather box/sign|{{#if:{{{year chill|}}}
+                          |{{{year chill}}}
+                          |{{Min/12
+                             |{{{Jan chill|}}}|{{{Feb chill|}}}|{{{Mar chill|}}} 
+                             |{{{Apr chill|}}}|{{{May chill|}}}|{{{Jun chill|}}} 
+                             |{{{Jul chill|}}}|{{{Aug chill|}}}|{{{Sep chill|}}} 
+                             |{{{Oct chill|}}}|{{{Nov chill|}}}|{{{Dec chill|}}} 
+                             }} 
+                          }} 
+                   }}<!--
+-->}}}}}}}}<!--
+
+                                     SECOND LINE TOTAL PRECIPITATION
+
+-->{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+      -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+      -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+      -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}<!--
+      -->{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+      -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+      -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+      -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}<!--
+      -->{{{Jan precipitation inch|}}}{{{Feb precipitation inch|}}}{{{Mar precipitation inch|}}}<!--
+      -->{{{Apr precipitation inch|}}}{{{May precipitation inch|}}}{{{Jun precipitation inch|}}}<!--
+      -->{{{Jul precipitation inch|}}}{{{Aug precipitation inch|}}}{{{Sep precipitation inch|}}}<!--
+      -->{{{Oct precipitation inch|}}}{{{Nov precipitation inch|}}}{{{Dec precipitation inch|}}}
+    |{{#switch:{{#if:{{{precipitation colour|}}}|{{{precipitation colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{precipitation colour}}}</code> is not a valid precipitation color alternative, use <code><nowiki>|precipitation colour=green</nowiki></code> or remove the <code>precipitation colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=[[Precipitation (meteorology)|Precipitation]] <!--
+    -->{{#if:{{{metric first|}}}
+         |inches
+         |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+             -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+             -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+             -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}
+            |c
+            |{{#if:{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+                -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+                -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+                -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}
+               |m
+               |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|c|m}}
+               }}
+            }}m
+         }}
+|show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{precipitation colour|}}}|{{{precipitation colour}}}|p}}
+|f={{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
+      -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
+      -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
+      -->{{{Oct precipitation cm|}}}{{{Nov precipitation cm|}}}{{{Dec precipitation cm|}}}
+      |10
+      |{{#if:{{{Jan precipitation mm|}}}{{{Feb precipitation mm|}}}{{{Mar precipitation mm|}}}<!--
+          -->{{{Apr precipitation mm|}}}{{{May precipitation mm|}}}{{{Jun precipitation mm|}}}<!--
+          -->{{{Jul precipitation mm|}}}{{{Aug precipitation mm|}}}{{{Sep precipitation mm|}}}<!--
+          -->{{{Oct precipitation mm|}}}{{{Nov precipitation mm|}}}{{{Dec precipitation mm|}}}
+         |1
+         |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|10|1}}
+         }}
+      }}<!--
+
+                                     TOTAL PRECIPITATION METRIC
+-->
+|jan1={{Weather box/metrictoinch
+   |{{{Jan precipitation cm|}}}|{{{Jan precipitation mm|}}}|{{{Jan precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|feb1={{Weather box/metrictoinch
+   |{{{Feb precipitation cm|}}}|{{{Feb precipitation mm|}}}|{{{Feb precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|mar1={{Weather box/metrictoinch
+   |{{{Mar precipitation cm|}}}|{{{Mar precipitation mm|}}}|{{{Mar precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|apr1={{Weather box/metrictoinch
+   |{{{Apr precipitation cm|}}}|{{{Apr precipitation mm|}}}|{{{Apr precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|may1={{Weather box/metrictoinch
+   |{{{May precipitation cm|}}}|{{{May precipitation mm|}}}|{{{May precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|jun1={{Weather box/metrictoinch
+   |{{{Jun precipitation cm|}}}|{{{Jun precipitation mm|}}}|{{{Jun precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|jul1={{Weather box/metrictoinch
+   |{{{Jul precipitation cm|}}}|{{{Jul precipitation mm|}}}|{{{Jul precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|aug1={{Weather box/metrictoinch
+   |{{{Aug precipitation cm|}}}|{{{Aug precipitation mm|}}}|{{{Aug precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|sep1={{Weather box/metrictoinch
+   |{{{Sep precipitation cm|}}}|{{{Sep precipitation mm|}}}|{{{Sep precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|oct1={{Weather box/metrictoinch
+   |{{{Oct precipitation cm|}}}|{{{Oct precipitation mm|}}}|{{{Oct precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|nov1={{Weather box/metrictoinch
+   |{{{Nov precipitation cm|}}}|{{{Nov precipitation mm|}}}|{{{Nov precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|dec1={{Weather box/metrictoinch
+   |{{{Dec precipitation cm|}}}|{{{Dec precipitation mm|}}}|{{{Dec precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+|yr1={{#if:{{{year precipitation cm|}}}{{{year precipitation mm|}}}{{{year precipitation inch|}}}
+       |{{Weather box/metrictoinch
+   |{{{year precipitation cm|}}}|{{{year precipitation mm|}}}|{{{year precipitation inch|}}}|Jan={{{Jan precipitation inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation cm}}})+({{{Feb precipitation cm}}})+({{{Mar precipitation cm}}})+<!--
+                    -->({{{Apr precipitation cm}}})+({{{May precipitation cm}}})+({{{Jun precipitation cm}}})+<!--
+                    -->({{{Jul precipitation cm}}})+({{{Aug precipitation cm}}})+({{{Sep precipitation cm}}})+<!--
+                    -->({{{Oct precipitation cm}}})+({{{Nov precipitation cm}}})+({{{Dec precipitation cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation mm}}})+({{{Feb precipitation mm}}})+({{{Mar precipitation mm}}})+<!--
+                    -->({{{Apr precipitation mm}}})+({{{May precipitation mm}}})+({{{Jun precipitation mm}}})+<!--
+                    -->({{{Jul precipitation mm}}})+({{{Aug precipitation mm}}})+({{{Sep precipitation mm}}})+<!--
+                    -->({{{Oct precipitation mm}}})+({{{Nov precipitation mm}}})+({{{Dec precipitation mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation inch}}})+({{{Feb precipitation inch}}})+({{{Mar precipitation inch}}})+<!--
+                    -->({{{Apr precipitation inch}}})+({{{May precipitation inch}}})+({{{Jun precipitation inch}}})+<!--
+                    -->({{{Jul precipitation inch}}})+({{{Aug precipitation inch}}})+({{{Sep precipitation inch}}})+<!--
+                    -->({{{Oct precipitation inch}}})+({{{Nov precipitation inch}}})+({{{Dec precipitation inch}}})}}<!--
+                 -->}}|{{{Jan precipitation inch|}}}
+              }}
+       }}<!--
+
+                                       TOTAL PRECIPITATION IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan precipitation inch|}}}|{{{Jan precipitation cm|}}}|{{{Jan precipitation mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb precipitation inch|}}}|{{{Feb precipitation cm|}}}|{{{Feb precipitation mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar precipitation inch|}}}|{{{Mar precipitation cm|}}}|{{{Mar precipitation mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr precipitation inch|}}}|{{{Apr precipitation cm|}}}|{{{Apr precipitation mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May precipitation inch|}}}|{{{May precipitation cm|}}}|{{{May precipitation mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun precipitation inch|}}}|{{{Jun precipitation cm|}}}|{{{Jun precipitation mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul precipitation inch|}}}|{{{Jul precipitation cm|}}}|{{{Jul precipitation mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug precipitation inch|}}}|{{{Aug precipitation cm|}}}|{{{Aug precipitation mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep precipitation inch|}}}|{{{Sep precipitation cm|}}}|{{{Sep precipitation mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct precipitation inch|}}}|{{{Oct precipitation cm|}}}|{{{Oct precipitation mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov precipitation inch|}}}|{{{Nov precipitation cm|}}}|{{{Nov precipitation mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec precipitation inch|}}}|{{{Dec precipitation cm|}}}|{{{Dec precipitation mm|}}}}}
+|yr2={{#if:{{{year precipitation cm|}}}{{{year precipitation mm|}}}{{{year precipitation inch|}}}
+       |{{Weather box/inchtometric
+   |{{{year precipitation inch|}}}|{{{year precipitation cm|}}}|{{{year precipitation mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation inch}}})+({{{Feb precipitation inch}}})+({{{Mar precipitation inch}}})+<!--
+                    -->({{{Apr precipitation inch}}})+({{{May precipitation inch}}})+({{{Jun precipitation inch}}})+<!--
+                    -->({{{Jul precipitation inch}}})+({{{Aug precipitation inch}}})+({{{Sep precipitation inch}}})+<!--
+                    -->({{{Oct precipitation inch}}})+({{{Nov precipitation inch}}})+({{{Dec precipitation inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation cm}}})+({{{Feb precipitation cm}}})+({{{Mar precipitation cm}}})+<!--
+                    -->({{{Apr precipitation cm}}})+({{{May precipitation cm}}})+({{{Jun precipitation cm}}})+<!--
+                    -->({{{Jul precipitation cm}}})+({{{Aug precipitation cm}}})+({{{Sep precipitation cm}}})+<!--
+                    -->({{{Oct precipitation cm}}})+({{{Nov precipitation cm}}})+({{{Dec precipitation cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan precipitation mm}}})+({{{Feb precipitation mm}}})+({{{Mar precipitation mm}}})+<!--
+                    -->({{{Apr precipitation mm}}})+({{{May precipitation mm}}})+({{{Jun precipitation mm}}})+<!--
+                    -->({{{Jul precipitation mm}}})+({{{Aug precipitation mm}}})+({{{Sep precipitation mm}}})+<!--
+                    -->({{{Oct precipitation mm}}})+({{{Nov precipitation mm}}})+({{{Dec precipitation mm}}})}}<!--
+                 -->}}|{{{Jan precipitation cm|}}}<!--
+                 -->}}|{{{Jan precipitation mm|}}}
+              }}
+       }}
+}}}}<!--
+
+                                           SECOND LINE RAINFALL
+
+-->{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+      -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+      -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+      -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}<!--
+      -->{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+      -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+      -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+      -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}<!--
+      -->{{{Jan rain inch|}}}{{{Feb rain inch|}}}{{{Mar rain inch|}}}<!--
+      -->{{{Apr rain inch|}}}{{{May rain inch|}}}{{{Jun rain inch|}}}<!--
+      -->{{{Jul rain inch|}}}{{{Aug rain inch|}}}{{{Sep rain inch|}}}<!--
+      -->{{{Oct rain inch|}}}{{{Nov rain inch|}}}{{{Dec rain inch|}}}<!--
+  -->|{{#switch:{{#if:{{{rain colour|}}}|{{{rain colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{rain colour}}}</code> is not a valid rain color alternative, use <code><nowiki>|rain colour=green</nowiki></code> or remove the <code>rain colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=Rainfall <!--
+  -->{{#if:{{{metric first|}}}
+       |inches
+       |{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+           -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+           -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+           -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}
+          |c
+          |{{#if:{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+              -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+              -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+              -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}
+             |m
+             |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|c|m}}
+             }}
+          }}m
+       }}
+|show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{rain colour|}}}|{{{rain colour}}}|p}}
+|f={{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
+      -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
+      -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
+      -->{{{Oct rain cm|}}}{{{Nov rain cm|}}}{{{Dec rain cm|}}}
+     |10
+     |{{#if:{{{Jan rain mm|}}}{{{Feb rain mm|}}}{{{Mar rain mm|}}}<!--
+         -->{{{Apr rain mm|}}}{{{May rain mm|}}}{{{Jun rain mm|}}}<!--
+         -->{{{Jul rain mm|}}}{{{Aug rain mm|}}}{{{Sep rain mm|}}}<!--
+         -->{{{Oct rain mm|}}}{{{Nov rain mm|}}}{{{Dec rain mm|}}}
+        |1
+        |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|10|1}}
+        }}
+     }}<!--
+
+                                               RAINFALL METRIC
+-->
+|jan1={{Weather box/metrictoinch|{{{Jan rain cm|}}}|{{{Jan rain mm|}}}|{{{Jan rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|feb1={{Weather box/metrictoinch|{{{Feb rain cm|}}}|{{{Feb rain mm|}}}|{{{Feb rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|mar1={{Weather box/metrictoinch|{{{Mar rain cm|}}}|{{{Mar rain mm|}}}|{{{Mar rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|apr1={{Weather box/metrictoinch|{{{Apr rain cm|}}}|{{{Apr rain mm|}}}|{{{Apr rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|may1={{Weather box/metrictoinch|{{{May rain cm|}}}|{{{May rain mm|}}}|{{{May rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|jun1={{Weather box/metrictoinch|{{{Jun rain cm|}}}|{{{Jun rain mm|}}}|{{{Jun rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|jul1={{Weather box/metrictoinch|{{{Jul rain cm|}}}|{{{Jul rain mm|}}}|{{{Jul rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|aug1={{Weather box/metrictoinch|{{{Aug rain cm|}}}|{{{Aug rain mm|}}}|{{{Aug rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|sep1={{Weather box/metrictoinch|{{{Sep rain cm|}}}|{{{Sep rain mm|}}}|{{{Sep rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|oct1={{Weather box/metrictoinch|{{{Oct rain cm|}}}|{{{Oct rain mm|}}}|{{{Oct rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|nov1={{Weather box/metrictoinch|{{{Nov rain cm|}}}|{{{Nov rain mm|}}}|{{{Nov rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|dec1={{Weather box/metrictoinch|{{{Dec rain cm|}}}|{{{Dec rain mm|}}}|{{{Dec rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+|yr1={{#if:{{{year rain cm|}}}{{{year rain mm|}}}{{{year rain inch|}}}
+       |{{Weather box/metrictoinch|{{{year rain cm|}}}|{{{year rain mm|}}}|{{{year rain inch|}}}|Jan={{{Jan rain inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain cm}}})+({{{Feb rain cm}}})+({{{Mar rain cm}}})+<!--
+                    -->({{{Apr rain cm}}})+({{{May rain cm}}})+({{{Jun rain cm}}})+<!--
+                    -->({{{Jul rain cm}}})+({{{Aug rain cm}}})+({{{Sep rain cm}}})+<!--
+                    -->({{{Oct rain cm}}})+({{{Nov rain cm}}})+({{{Dec rain cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain mm}}})+({{{Feb rain mm}}})+({{{Mar rain mm}}})+<!--
+                    -->({{{Apr rain mm}}})+({{{May rain mm}}})+({{{Jun rain mm}}})+<!--
+                    -->({{{Jul rain mm}}})+({{{Aug rain mm}}})+({{{Sep rain mm}}})+<!--
+                    -->({{{Oct rain mm}}})+({{{Nov rain mm}}})+({{{Dec rain mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain inch}}})+({{{Feb rain inch}}})+({{{Mar rain inch}}})+<!--
+                    -->({{{Apr rain inch}}})+({{{May rain inch}}})+({{{Jun rain inch}}})+<!--
+                    -->({{{Jul rain inch}}})+({{{Aug rain inch}}})+({{{Sep rain inch}}})+<!--
+                    -->({{{Oct rain inch}}})+({{{Nov rain inch}}})+({{{Dec rain inch}}})}}<!--
+                 -->}}|{{{Jan rain inch|}}}
+              }}
+       }}<!--
+
+                                              RAINFALL IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan rain inch|}}}|{{{Jan rain cm|}}}|{{{Jan rain mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb rain inch|}}}|{{{Feb rain cm|}}}|{{{Feb rain mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar rain inch|}}}|{{{Mar rain cm|}}}|{{{Mar rain mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr rain inch|}}}|{{{Apr rain cm|}}}|{{{Apr rain mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May rain inch|}}}|{{{May rain cm|}}}|{{{May rain mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun rain inch|}}}|{{{Jun rain cm|}}}|{{{Jun rain mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul rain inch|}}}|{{{Jul rain cm|}}}|{{{Jul rain mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug rain inch|}}}|{{{Aug rain cm|}}}|{{{Aug rain mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep rain inch|}}}|{{{Sep rain cm|}}}|{{{Sep rain mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct rain inch|}}}|{{{Oct rain cm|}}}|{{{Oct rain mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov rain inch|}}}|{{{Nov rain cm|}}}|{{{Nov rain mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec rain inch|}}}|{{{Dec rain cm|}}}|{{{Dec rain mm|}}}}}
+|yr2={{#if:{{{year rain cm|}}}{{{year rain mm|}}}{{{year rain inch|}}}
+       |{{Weather box/inchtometric|{{{year rain inch|}}}|{{{year rain cm|}}}|{{{year rain mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain inch}}})+({{{Feb rain inch}}})+({{{Mar rain inch}}})+<!--
+                    -->({{{Apr rain inch}}})+({{{May rain inch}}})+({{{Jun rain inch}}})+<!--
+                    -->({{{Jul rain inch}}})+({{{Aug rain inch}}})+({{{Sep rain inch}}})+<!--
+                    -->({{{Oct rain inch}}})+({{{Nov rain inch}}})+({{{Dec rain inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain cm}}})+({{{Feb rain cm}}})+({{{Mar rain cm}}})+<!--
+                    -->({{{Apr rain cm}}})+({{{May rain cm}}})+({{{Jun rain cm}}})+<!--
+                    -->({{{Jul rain cm}}})+({{{Aug rain cm}}})+({{{Sep rain cm}}})+<!--
+                    -->({{{Oct rain cm}}})+({{{Nov rain cm}}})+({{{Dec rain cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan rain mm}}})+({{{Feb rain mm}}})+({{{Mar rain mm}}})+<!--
+                    -->({{{Apr rain mm}}})+({{{May rain mm}}})+({{{Jun rain mm}}})+<!--
+                    -->({{{Jul rain mm}}})+({{{Aug rain mm}}})+({{{Sep rain mm}}})+<!--
+                    -->({{{Oct rain mm}}})+({{{Nov rain mm}}})+({{{Dec rain mm}}})}}<!--
+                 -->}}|{{{Jan rain cm|}}}<!--
+                 -->}}|{{{Jan rain mm|}}}
+              }}
+       }}
+}}}}<!--
+
+                                              SECOND LINE SNOWFALL
+
+-->{{#if:{{{Jan snow cm|}}}{{{Feb snow cm|}}}{{{Mar snow cm|}}}<!--
+      -->{{{Apr snow cm|}}}{{{May snow cm|}}}{{{Jun snow cm|}}}<!--
+      -->{{{Jul snow cm|}}}{{{Aug snow cm|}}}{{{Sep snow cm|}}}<!--
+      -->{{{Oct snow cm|}}}{{{Nov snow cm|}}}{{{Dec snow cm|}}}<!--
+      -->{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+      -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+      -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+      -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}<!--
+      -->{{{Jan snow inch|}}}{{{Feb snow inch|}}}{{{Mar snow inch|}}}<!--
+      -->{{{Apr snow inch|}}}{{{May snow inch|}}}{{{Jun snow inch|}}}<!--
+      -->{{{Jul snow inch|}}}{{{Aug snow inch|}}}{{{Sep snow inch|}}}<!--
+      -->{{{Oct snow inch|}}}{{{Nov snow inch|}}}{{{Dec snow inch|}}}<!--
+  -->|{{#switch:{{#if:{{{snow colour|}}}|{{{snow colour}}}|p}}|#default=<nowiki/>
+{{!}}-
+{{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{snow colour}}}</code> is not a valid snow color alternative, use <code><nowiki>|snow colour=green</nowiki></code> or remove the <code>snow colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
+{{weather box/line/date
+|label=Snowfall <!--
+  -->{{#if:{{{metric first|}}}
+       |inches
+       |{{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+           -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+           -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+           -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
+          |m
+          |c
+          }}m
+       }}
+|show={{#if:{{{metric first|}}}|2|1}}
+|alt=
+|sc={{#if:{{{snow colour|}}}|{{{snow colour}}}|p}}
+|f={{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
+      -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
+      -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
+      -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
+     |1
+     |10
+     }}<!--
+
+                                           SNOWFALL METRIC
+-->
+|jan1={{Weather box/metrictoinch|{{{Jan snow mm|}}}|{{{Jan snow cm|}}}|{{{Jan snow inch|}}}}}
+|feb1={{Weather box/metrictoinch|{{{Feb snow mm|}}}|{{{Feb snow cm|}}}|{{{Feb snow inch|}}}}}
+|mar1={{Weather box/metrictoinch|{{{Mar snow mm|}}}|{{{Mar snow cm|}}}|{{{Mar snow inch|}}}}}
+|apr1={{Weather box/metrictoinch|{{{Apr snow mm|}}}|{{{Apr snow cm|}}}|{{{Apr snow inch|}}}}}
+|may1={{Weather box/metrictoinch|{{{May snow mm|}}}|{{{May snow cm|}}}|{{{May snow inch|}}}}}
+|jun1={{Weather box/metrictoinch|{{{Jun snow mm|}}}|{{{Jun snow cm|}}}|{{{Jun snow inch|}}}}}
+|jul1={{Weather box/metrictoinch|{{{Jul snow mm|}}}|{{{Jul snow cm|}}}|{{{Jul snow inch|}}}}}
+|aug1={{Weather box/metrictoinch|{{{Aug snow mm|}}}|{{{Aug snow cm|}}}|{{{Aug snow inch|}}}}}
+|sep1={{Weather box/metrictoinch|{{{Sep snow mm|}}}|{{{Sep snow cm|}}}|{{{Sep snow inch|}}}}}
+|oct1={{Weather box/metrictoinch|{{{Oct snow mm|}}}|{{{Oct snow cm|}}}|{{{Oct snow inch|}}}}}
+|nov1={{Weather box/metrictoinch|{{{Nov snow mm|}}}|{{{Nov snow cm|}}}|{{{Nov snow inch|}}}}}
+|dec1={{Weather box/metrictoinch|{{{Dec snow mm|}}}|{{{Dec snow cm|}}}|{{{Dec snow inch|}}}}}
+|yr1={{#if:{{{year snow cm|}}}{{{year snow mm|}}}{{{year snow inch|}}}
+       |{{Weather box/metrictoinch|{{{year snow cm|}}}|{{{year snow mm|}}}|{{{year snow inch|}}}}}
+       |{{Weather box/metrictoinch
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow cm}}})+({{{Feb snow cm}}})+({{{Mar snow cm}}})+<!--
+                    -->({{{Apr snow cm}}})+({{{May snow cm}}})+({{{Jun snow cm}}})+<!--
+                    -->({{{Jul snow cm}}})+({{{Aug snow cm}}})+({{{Sep snow cm}}})+<!--
+                    -->({{{Oct snow cm}}})+({{{Nov snow cm}}})+({{{Dec snow cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow mm}}})+({{{Feb snow mm}}})+({{{Mar snow mm}}})+<!--
+                    -->({{{Apr snow mm}}})+({{{May snow mm}}})+({{{Jun snow mm}}})+<!--
+                    -->({{{Jul snow mm}}})+({{{Aug snow mm}}})+({{{Sep snow mm}}})+<!--
+                    -->({{{Oct snow mm}}})+({{{Nov snow mm}}})+({{{Dec snow mm}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow inch}}})+({{{Feb snow inch}}})+({{{Mar snow inch}}})+<!--
+                    -->({{{Apr snow inch}}})+({{{May snow inch}}})+({{{Jun snow inch}}})+<!--
+                    -->({{{Jul snow inch}}})+({{{Aug snow inch}}})+({{{Sep snow inch}}})+<!--
+                    -->({{{Oct snow inch}}})+({{{Nov snow inch}}})+({{{Dec snow inch}}})}}<!--
+                -->|{{{Jan snow inch}}}
+              }}
+       }}
+}}<!--
+
+                                             SNOWFALL IMPERIAL
+-->
+|jan2={{Weather box/inchtometric|{{{Jan snow inch|}}}|{{{Jan snow cm|}}}|{{{Jan snow mm|}}}}}
+|feb2={{Weather box/inchtometric|{{{Feb snow inch|}}}|{{{Feb snow cm|}}}|{{{Feb snow mm|}}}}}
+|mar2={{Weather box/inchtometric|{{{Mar snow inch|}}}|{{{Mar snow cm|}}}|{{{Mar snow mm|}}}}}
+|apr2={{Weather box/inchtometric|{{{Apr snow inch|}}}|{{{Apr snow cm|}}}|{{{Apr snow mm|}}}}}
+|may2={{Weather box/inchtometric|{{{May snow inch|}}}|{{{May snow cm|}}}|{{{May snow mm|}}}}}
+|jun2={{Weather box/inchtometric|{{{Jun snow inch|}}}|{{{Jun snow cm|}}}|{{{Jun snow mm|}}}}}
+|jul2={{Weather box/inchtometric|{{{Jul snow inch|}}}|{{{Jul snow cm|}}}|{{{Jul snow mm|}}}}}
+|aug2={{Weather box/inchtometric|{{{Aug snow inch|}}}|{{{Aug snow cm|}}}|{{{Aug snow mm|}}}}}
+|sep2={{Weather box/inchtometric|{{{Sep snow inch|}}}|{{{Sep snow cm|}}}|{{{Sep snow mm|}}}}}
+|oct2={{Weather box/inchtometric|{{{Oct snow inch|}}}|{{{Oct snow cm|}}}|{{{Oct snow mm|}}}}}
+|nov2={{Weather box/inchtometric|{{{Nov snow inch|}}}|{{{Nov snow cm|}}}|{{{Nov snow mm|}}}}}
+|dec2={{Weather box/inchtometric|{{{Dec snow inch|}}}|{{{Dec snow cm|}}}|{{{Dec snow mm|}}}}}
+|yr2={{#if:{{{year snow cm|}}}{{{year snow mm|}}}{{{year snow inch|}}}
+       |{{Weather box/inchtometric|{{{year snow inch|}}}|{{{year snow cm|}}}|{{{year snow mm|}}}}}
+       |{{Weather box/inchtometric
+                      |{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow inch}}})+({{{Feb snow inch}}})+({{{Mar snow inch}}})+<!--
+                    -->({{{Apr snow inch}}})+({{{May snow inch}}})+({{{Jun snow inch}}})+<!--
+                    -->({{{Jul snow inch}}})+({{{Aug snow inch}}})+({{{Sep snow inch}}})+<!--
+                    -->({{{Oct snow inch}}})+({{{Nov snow inch}}})+({{{Dec snow inch}}})}}<!--
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow cm}}})+({{{Feb snow cm}}})+({{{Mar snow cm}}})+<!--
+                    -->({{{Apr snow cm}}})+({{{May snow cm}}})+({{{Jun snow cm}}})+<!--
+                    -->({{{Jul snow cm}}})+({{{Aug snow cm}}})+({{{Sep snow cm}}})+<!--
+                    -->({{{Oct snow cm}}})+({{{Nov snow cm}}})+({{{Dec snow cm}}})}}<!-- 
+                 -->}}|{{#iferror:{{#expr:<!--
+                    -->({{{Jan snow mm}}})+({{{Feb snow mm}}})+({{{Mar snow mm}}})+<!--
+                    -->({{{Apr snow mm}}})+({{{May snow mm}}})+({{{Jun snow mm}}})+<!--
+                    -->({{{Jul snow mm}}})+({{{Aug snow mm}}})+({{{Sep snow mm}}})+<!--
+                    -->({{{Oct snow mm}}})+({{{Nov snow mm}}})+({{{Dec snow mm}}})}}<!--
+                 -->}}|{{{Jan snow cm|}}}<!--
+                 -->}}|{{{Jan snow mm|}}}
+              }}
+       }}
+}}}}}}<!--
+
+                                                 PERCENT HUMIDITY
+
+-->{{#if:{{{Jan humidity|}}}{{{Feb humidity|}}}{{{Mar humidity|}}}<!--
+      -->{{{Apr humidity|}}}{{{May humidity|}}}{{{Jun humidity|}}}<!--
+      -->{{{Jul humidity|}}}{{{Aug humidity|}}}{{{Sep humidity|}}}<!--
+      -->{{{Oct humidity|}}}{{{Nov humidity|}}}{{{Dec humidity|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline
+|label=%&nbsp;[[Dhado]]
+|show=1
+|sc=h |f=1
+|jan1={{{Jan humidity|}}}
+|feb1={{{Feb humidity|}}}
+|mar1={{{Mar humidity|}}}
+|apr1={{{Apr humidity|}}}
+|may1={{{May humidity|}}}
+|jun1={{{Jun humidity|}}}
+|jul1={{{Jul humidity|}}}
+|aug1={{{Aug humidity|}}}
+|sep1={{{Sep humidity|}}}
+|oct1={{{Oct humidity|}}}
+|nov1={{{Nov humidity|}}}
+|dec1={{{Dec humidity|}}}
+|yr1={{#if:{{{year humidity|}}}
+       |{{{year humidity}}}
+       |{{#iferror:{{#expr:(<!--
+          -->({{{Jan humidity|}}})+({{{Feb humidity|}}})+({{{Mar humidity|}}})+<!--
+          -->({{{Apr humidity|}}})+({{{May humidity|}}})+({{{Jun humidity|}}})+<!--
+          -->({{{Jul humidity|}}})+({{{Aug humidity|}}})+({{{Sep humidity|}}})+<!--
+          -->({{{Oct humidity|}}})+({{{Nov humidity|}}})+({{{Dec humidity|}}}))/12<!--
+          -->round({{Precision1|{{{Jan humidity}}}}}+1)<!--
+          -->}}}}
+       }}
+}}}}<!--
+
+                                              PRECIPITATION DAYS
+
+-->{{#if:{{{Jan precipitation days|}}}{{{Feb precipitation days|}}}{{{Mar precipitation days|}}}<!--
+      -->{{{Apr precipitation days|}}}{{{May precipitation days|}}}{{{Jun precipitation days|}}}<!--
+      -->{{{Jul precipitation days|}}}{{{Aug precipitation days|}}}{{{Sep precipitation days|}}}<!--
+      -->{{{Oct precipitation days|}}}{{{Nov precipitation days|}}}{{{Dec precipitation days|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline/date
+|label={{dabbr|Avg.|Average}} precipitation days {{#if:{{{unit precipitation days|}}}|<font style="font-size:80%">{{Nowrap|(≥ {{{unit precipitation days}}})}}</span>}}
+|show=1
+|sc=d |f=1
+|jan1={{{Jan precipitation days|}}}
+|feb1={{{Feb precipitation days|}}}
+|mar1={{{Mar precipitation days|}}}
+|apr1={{{Apr precipitation days|}}}
+|may1={{{May precipitation days|}}}
+|jun1={{{Jun precipitation days|}}}
+|jul1={{{Jul precipitation days|}}}
+|aug1={{{Aug precipitation days|}}}
+|sep1={{{Sep precipitation days|}}}
+|oct1={{{Oct precipitation days|}}}
+|nov1={{{Nov precipitation days|}}}
+|dec1={{{Dec precipitation days|}}}
+|yr1={{#if:{{{year precipitation days|}}}
+       |{{{year precipitation days}}}
+       |{{#iferror:{{#expr:<!--
+          -->({{{Jan precipitation days|}}})+({{{Feb precipitation days|}}})+({{{Mar precipitation days|}}})+<!--
+          -->({{{Apr precipitation days|}}})+({{{May precipitation days|}}})+({{{Jun precipitation days|}}})+<!--
+          -->({{{Jul precipitation days|}}})+({{{Aug precipitation days|}}})+({{{Sep precipitation days|}}})+<!--
+          -->({{{Oct precipitation days|}}})+({{{Nov precipitation days|}}})+({{{Dec precipitation days|}}})<!--
+          -->}}}}
+       }}
+}}}}<!---
+
+                                              Xilli roobaadka
+
+-->{{#if:{{{Jan rain days|}}}{{{Feb rain days|}}}{{{Mar rain days|}}}<!--
+      -->{{{Apr rain days|}}}{{{May rain days|}}}{{{Jun rain days|}}}<!--
+      -->{{{Jul rain days|}}}{{{Aug rain days|}}}{{{Sep rain days|}}}<!--
+      -->{{{Oct rain days|}}}{{{Nov rain days|}}}{{{Dec rain days|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline/date
+|label={{dabbr|Avg.|Average}} Xilli roobaadka {{#if:{{{unit rain days|}}}|<font style="font-size:80%">{{Nowrap|(≥ {{{unit rain days}}})}}</span>}}
+|show=1
+|sc=d |f=1
+|jan1={{{Jan rain days|}}}
+|feb1={{{Feb rain days|}}}
+|mar1={{{Mar rain days|}}}
+|apr1={{{Apr rain days|}}}
+|may1={{{May rain days|}}}
+|jun1={{{Jun rain days|}}}
+|jul1={{{Jul rain days|}}}
+|aug1={{{Aug rain days|}}}
+|sep1={{{Sep rain days|}}}
+|oct1={{{Oct rain days|}}}
+|nov1={{{Nov rain days|}}}
+|dec1={{{Dec rain days|}}}
+|yr1={{#if:{{{year rain days|}}}
+       |{{{year rain days}}}
+       |{{#iferror:{{#expr:<!--
+          -->({{{Jan rain days|}}})+({{{Feb rain days|}}})+({{{Mar rain days|}}})+<!--
+          -->({{{Apr rain days|}}})+({{{May rain days|}}})+({{{Jun rain days|}}})+<!--
+          -->({{{Jul rain days|}}})+({{{Aug rain days|}}})+({{{Sep rain days|}}})+<!--
+          -->({{{Oct rain days|}}})+({{{Nov rain days|}}})+({{{Dec rain days|}}})<!--
+          -->}}}}
+       }}
+}}}}<!--
+
+                                                  SNOWY DAYS
+
+-->{{#if:{{{Jan snow days|}}}{{{Feb snow days|}}}{{{Mar snow days|}}}<!--
+      -->{{{Apr snow days|}}}{{{May snow days|}}}{{{Jun snow days|}}}<!--
+      -->{{{Jul snow days|}}}{{{Aug snow days|}}}{{{Sep snow days|}}}<!--
+      -->{{{Oct snow days|}}}{{{Nov snow days|}}}{{{Dec snow days|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline/date
+|label={{dabbr|Avg.|Average}} snowy days {{#if:{{{unit snow days|}}}|<font style="font-size:80%">{{Nowrap|(≥ {{{unit snow days}}})}}</span>}}
+|show=1
+|sc=d |f=1
+|jan1={{{Jan snow days|}}}
+|feb1={{{Feb snow days|}}}
+|mar1={{{Mar snow days|}}}
+|apr1={{{Apr snow days|}}}
+|may1={{{May snow days|}}}
+|jun1={{{Jun snow days|}}}
+|jul1={{{Jul snow days|}}}
+|aug1={{{Aug snow days|}}}
+|sep1={{{Sep snow days|}}}
+|oct1={{{Oct snow days|}}}
+|nov1={{{Nov snow days|}}}
+|dec1={{{Dec snow days|}}}
+|yr1={{#if:{{{year snow days|}}}
+       |{{{year snow days}}}
+       |{{#iferror:{{#expr:<!--
+          -->({{{Jan snow days|}}})+({{{Feb snow days|}}})+({{{Mar snow days|}}})+<!--
+          -->({{{Apr snow days|}}})+({{{May snow days|}}})+({{{Jun snow days|}}})+<!--
+          -->({{{Jul snow days|}}})+({{{Aug snow days|}}})+({{{Sep snow days|}}})+<!--
+          -->({{{Oct snow days|}}})+({{{Nov snow days|}}})+({{{Dec snow days|}}})<!--
+          -->}}}}
+       }}
+}}}}<!--
+
+                                                  MONTHLY SUNSHINE HOURS
+
+-->{{#if:{{{Jan sun|}}}{{{Feb sun|}}}{{{Mar sun|}}}<!--
+      -->{{{Apr sun|}}}{{{May sun|}}}{{{Jun sun|}}}<!--
+      -->{{{Jul sun|}}}{{{Aug sun|}}}{{{Sep sun|}}}<!--
+      -->{{{Oct sun|}}}{{{Nov sun|}}}{{{Dec sun|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline/date
+|label=Saacada Bila qoraxeedka
+|show=1
+|sc=s |f=1
+|jan1={{{Jan sun|}}}
+|feb1={{{Feb sun|}}}
+|mar1={{{Mar sun|}}}
+|apr1={{{Apr sun|}}}
+|may1={{{May sun|}}}
+|jun1={{{Jun sun|}}}
+|jul1={{{Jul sun|}}}
+|aug1={{{Aug sun|}}}
+|sep1={{{Sep sun|}}}
+|oct1={{{Oct sun|}}}
+|nov1={{{Nov sun|}}}
+|dec1={{{Dec sun|}}}
+|yr1={{#if:{{{year sun|}}}
+       |{{{year sun}}}
+       |{{#iferror:{{#expr:<!--
+          -->({{{Jan sun|}}})+({{{Feb sun|}}})+({{{Mar sun|}}})+<!--
+          -->({{{Apr sun|}}})+({{{May sun|}}})+({{{Jun sun|}}})+<!--
+          -->({{{Jul sun|}}})+({{{Aug sun|}}})+({{{Sep sun|}}})+<!--
+          -->({{{Oct sun|}}})+({{{Nov sun|}}})+({{{Dec sun|}}})<!--
+          -->}}}}
+       }}
+}}}}
+|-<!--
+
+                                                  DAILY SUNSHINE HOURS
+
+-->{{#if:{{{Jand sun|}}}{{{Febd sun|}}}{{{Mard sun|}}}<!--
+      -->{{{Aprd sun|}}}{{{Mayd sun|}}}{{{Jund sun|}}}<!--
+      -->{{{Juld sun|}}}{{{Augd sun|}}}{{{Sepd sun|}}}<!--
+      -->{{{Octd sun|}}}{{{Novd sun|}}}{{{Decd sun|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline
+|label=Mean daily sunshine hours
+|show=1
+|sc=s |f=30.44
+|jan1={{{Jand sun|}}}
+|feb1={{{Febd sun|}}}
+|mar1={{{Mard sun|}}}
+|apr1={{{Aprd sun|}}}
+|may1={{{Mayd sun|}}}
+|jun1={{{Jund sun|}}}
+|jul1={{{Juld sun|}}}
+|aug1={{{Augd sun|}}}
+|sep1={{{Sepd sun|}}}
+|oct1={{{Octd sun|}}}
+|nov1={{{Novd sun|}}}
+|dec1={{{Decd sun|}}}
+|yr1={{#if:{{{yeard sun|}}}
+       |{{{yeard sun}}}
+       |{{#iferror:{{rnd|{{#expr:(<!--
+          -->{{{Jand sun}}}+{{{Febd sun}}}+{{{Mard sun}}}+<!--
+          -->{{{Aprd sun}}}+{{{Mayd sun}}}+{{{Jund sun}}}+<!--
+          -->{{{Juld sun}}}+{{{Augd sun}}}+{{{Sepd sun}}}+<!--
+          -->{{{Octd sun}}}+{{{Novd sun}}}+{{{Decd sun}}})/12}}
+             |{{precision1|{{{Jand sun}}}}}
+        }}}}}}
+}}}}
+|-<!--
+
+
+                                                 PERCENT SUNSHINE
+
+-->{{#if:{{{Jan percentsun|}}}{{{Feb percentsun|}}}{{{Mar percentsun|}}}<!--
+      -->{{{Apr percentsun|}}}{{{May percentsun|}}}{{{Jun percentsun|}}}<!--
+      -->{{{Jul percentsun|}}}{{{Aug percentsun|}}}{{{Sep percentsun|}}}<!--
+      -->{{{Oct percentsun|}}}{{{Nov percentsun|}}}{{{Dec percentsun|}}}<!--
+  -->|<nowiki/>
+{{weather box/oneline
+|label=Percent possible sunshine
+|show=1
+|sc=s |f=7.2
+|jan1={{{Jan percentsun|}}}
+|feb1={{{Feb percentsun|}}}
+|mar1={{{Mar percentsun|}}}
+|apr1={{{Apr percentsun|}}}
+|may1={{{May percentsun|}}}
+|jun1={{{Jun percentsun|}}}
+|jul1={{{Jul percentsun|}}}
+|aug1={{{Aug percentsun|}}}
+|sep1={{{Sep percentsun|}}}
+|oct1={{{Oct percentsun|}}}
+|nov1={{{Nov percentsun|}}}
+|dec1={{{Dec percentsun|}}}
+|yr1={{#if:{{{year percentsun|}}}
+       |{{{year percentsun}}}
+       |{{#iferror:{{rnd|{{#expr:(<!--
+          -->{{{Jan percentsun}}}+{{{Feb percentsun}}}+{{{Mar percentsun}}}+<!--
+          -->{{{Apr percentsun}}}+{{{May percentsun}}}+{{{Jun percentsun}}}+<!--
+          -->{{{Jul percentsun}}}+{{{Aug percentsun}}}+{{{Sep percentsun}}}+<!--
+          -->{{{Oct percentsun}}}+{{{Nov percentsun}}}+{{{Dec percentsun}}})/12}}
+             |{{precision1|{{{Jan percentsun}}}}}
+        }}}}}}
+}}}}
+|-<!--
+
+
+
+                                                    SOURCES
+
+-->
+|colspan="14" style="text-align:center;font-size:85%" {{#if:{{{source 1|}}}{{{source|}}}|{{!}}''{{#if:{{{source 2|}}}|Source &#35;1:|Source:}} {{{source|{{{source 1}}}}}}''<!--
+-->{{#if:{{{source 2|}}}|<nowiki/>
+{{!}}-
+{{!}}colspan="14" style="text-align:center; font-size:85%"{{!}}''Source &#35;2: {{{source 2}}}''}}|{{!}}{{Citation needed|date={{{date|}}}}}}}
+|}</includeonly><noinclude>
+{{Documentation}}
+<!-- Please add interwikis and categories to the /doc subpage -->
+</noinclude>
