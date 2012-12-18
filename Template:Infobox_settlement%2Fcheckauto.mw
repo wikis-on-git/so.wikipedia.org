@@ -1,0 +1,7 @@
+{{#iferror:
+  {{#switch:auto
+    |{{{/km2|}}}|{{{/sqmi|}}}=<!--
+    -->{{#expr:{{formatnum:{{{pop|}}}/({{{dunam|}}}+{{{ha|}}}+{{{km2|}}}+{{{acre|}}}+{{{sqmi|}}}+0)|R}}}}
+    |{{#expr:{{formatnum:{{{/km2|}}}|R}}}}{{#expr:{{formatnum:{{{/sqmi|}}}|R}}}}
+  }}
+}}<noinclude>{{documentation}}</noinclude>
