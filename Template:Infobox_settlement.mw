@@ -550,7 +550,7 @@
 {{#if:{{{population|}}}|
 <td>'''Tirada dadka''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
 <td>{{formatnum:{{{population}}}}}</td>
-|<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Population''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
+|<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Tirada dadka''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
 }}
 {{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
 {{#if:{{{population_total|}}}|
