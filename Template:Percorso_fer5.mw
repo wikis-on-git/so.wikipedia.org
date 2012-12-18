@@ -1,0 +1,32 @@
+<includeonly>|-
+| style="text-align:center; padding:0; white-space:nowrap; border:none;" | [[immagine:BSicon_{{{1|leer}}}.svg|100x{{{PX|20px}}}]][[immagine:BSicon_{{{2|leer}}}.svg|100x{{{PX|20px}}}]][[immagine:BSicon_{{{3|leer}}}.svg|100x{{{PX|20px}}}]][[immagine:BSicon_{{{4|leer}}}.svg|100x{{{PX|20px}}}]][[immagine:BSicon_{{{5|leer}}}.svg|100x{{{PX|20px}}}]]
+| style="text-align:right; vertical-align:middle; padding:0 .5em; font-size:80%; white-space:nowrap; border:none;" {{{HI|}}}| {{#if: {{{km|}}}|{{{km}}}|{{{6|}}}}}
+| style="padding:0; border:none;" {{#if: {{{9|}}}||colspan="2"}} | {{{7|}}} <span style="font-size:80%; line-height: 80%;">{{{8|}}}</span>
+{{#if: {{{9|}}}|{{!}} style="text-align:right; padding:0 0 0 .5em; font-size:80%; white-space:nowrap; border:none;" {{!}} {{{9}}}
+|}}</includeonly><noinclude>
+
+Il template '''Percorso fer5''' serve a costruire le mappe dei percorsi ferroviari quando non risultano essere sufficienti i [[:Template:percorso_fer]] e [[:Template:percorso_fer2]] per rappresentare in modo chiaro una linea ferroviaria.
+Va inserito in una tabella, costruita inserendo
+<pre>
+<nowiki>{| class="wikitable" style="float:right; margin: 1em; font-size:90%"
+|-
+!colspan=9|Stazioni e fermate
+|-
+...
+|}</nowiki>
+</pre>
+
+Al posto dei punti si possono poi inserire diverse istanze di ''Percorso fer5'' 
+
+
+ <nowiki>{{Percorso_fer5|CODICE 1|CODICE 2|CODICE 3|CODICE 4|CODICE 5|DISTANZA KILOMETRICA|[[NOME DELLA STAZIONE]]|NOTE|NOTE 2}}</nowiki>
+
+
+
+Ulteriori istruzioni sono presenti in [[Progetto:Trasporti/Linee guida diagrammi ferroviari]]
+
+
+'''ATTENZIONE''' non modificare, il nome viene richiamato automaticamente da Spoorstrip, un programma che semplifica la costruzione dei percorsi
+
+[[Categoria:Template di formattazione - Trasporti|{{PAGENAME}}]]
+</noinclude>
