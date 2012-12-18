@@ -1,0 +1,43 @@
+<includeonly>{{#ifeq:{{{float|}}}|center|<div class="center">
+}}<div {{#if:{{{caption|}}}|class="thumb {{#switch:{{{float|}}}
+  | "left"   | left    = tleft
+  | "right"  | right   = tright
+  | "center" | center  = tnone
+  | "none"   | none    = tnone
+  | #default = tright }}"
+| style="width:{{Location map+/width | 1={{{1|}}} | width={{{width|}}} | default_width={{{default_width|}}} }}px; {{#switch:{{{float|}}}
+  | "left"   | left     = float: left; clear: left
+  | "right"  | right    = float: right; clear: right
+  | "center" | center   = float: none; clear: both; margin-left: auto; margin-right: auto
+  | "none"   | none     = float: none; clear: none
+  | #default = float: right; clear: right}}"
+}}>
+<div {{#if:{{{caption|}}}
+| class="thumbinner" style="width:{{#expr: {{Location map+/width | 1={{{1|}}} | width={{{width|}}} | default_width={{{default_width|}}} }} + 2 }}px; {{#if:{{{border|}}}|{{#ifeq:{{{border|}}}|none|border: none|border-color:{{{border}}}}};}}" 
+| style="width:{{Location map+/width | 1={{{1|}}} | width={{{width|}}} | default_width={{{default_width|}}} }}px; padding:0"
+}}>
+<div style="position: relative; {{#if:{{{caption|}}}
+  | {{#if:{{{border|}}}
+     | {{#ifeq:{{{border|}}}|none||border: 1px solid lightgray}}
+	 | border: 1px solid lightgray}}}}"><!--
+-->[[file:{{#if:{{{AlternativeMap|}}}|{{{AlternativeMap}}}|{{#if:{{{relief|}}}|{{#if:{{Location map {{{1}}}|image1}}|{{Location map {{{1}}}|image1}}|{{Location map {{{1|}}}|image}} }}|{{Location map  {{{1|}}}|image}} }} }}|{{Location map+/width | 1={{{1|}}} | width={{{width|}}} | default_width={{{default_width|}}} }}px|{{#if:{{{alt|}}}|{{{alt}}}|{{#if:{{{label|}}}|{{{label}}}|{{PAGENAME}}}} is located in {{Location map {{{1}}}|name}}}}]]<!--
+-->{{#if:{{{overlay_image|}}}
+   | <div style="position:absolute; z-index: 1; top: 0; left: 0">[[File:{{{overlay_image}}} |{{Location map+/width | 1={{{1|}}} | width={{{width|}}} | default_width={{{default_width|}}} }}px|link=file:{{#if: {{{AlternativeMap|}}}|{{{AlternativeMap}}} |{{#if: {{{relief|}}}|{{#if: {{Location map {{{1}}}|image1}}|{{Location map {{{1}}}|image1}}|{{Location map {{{1|}}}|image}} }}|{{Location map {{{1|}}}|image}} }} }}]]</div>}}<!--
+
+-->{{{places|}}}<!--
+
+--></div>
+<div {{#if:{{{caption|}}}|class="thumbcaption"|style="font-size: 90%; padding-top:3px"}}>{{#if:{{{caption_undefined|}}}
+  | {{#if: {{{label|}}}
+    | {{{label}}}
+    | {{PAGENAME}}
+    }} ({{Location map {{{1}}}|name}})
+  | {{{caption|{{#if: {{{label|}}}
+    | {{{label}}}
+    | {{PAGENAME}}
+    }} ({{Location map {{{1}}}|name}}) }}}
+}}
+</div>
+</div>
+</div>{{#ifeq:{{{float|}}}|center|
+</div>}}</includeonly><noinclude>{{documentation}}</noinclude>
