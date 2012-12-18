@@ -757,11 +757,11 @@
            |{{#ifexpr:{{Precision1|{{{Jan rain inch|}}}}}<1|c|m}}
            }}
         }}m
-     |inches}} <!--
+     |Faraha}} <!--
 
 -->{{#if:{{{single line|}}}
      |({{#if:{{{metric first|}}}
-         |inches
+         |Faraha
          |{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
              -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
              -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
@@ -895,12 +895,12 @@
          -->{{{Oct snow mm|}}}{{{Nov snow mm|}}}{{{Dec snow mm|}}}
         |m
         |c}}m
-     |inches
+     |Faraha
      }} <!--  
 
 -->{{#if:{{{single line|}}}
      |({{#if:{{{metric first|}}}
-         |inches
+         |Faraha
          |{{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
              -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
              -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
@@ -1536,7 +1536,7 @@
 {{weather box/line/date
 |label=[[Precipitation (meteorology)|Precipitation]] <!--
     -->{{#if:{{{metric first|}}}
-         |inches
+         |Faraha
          |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
              -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
              -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
@@ -1676,7 +1676,7 @@
 {{weather box/line/date
 |label=Rainfall <!--
   -->{{#if:{{{metric first|}}}
-       |inches
+       |Faraha
        |{{#if:{{{Jan rain cm|}}}{{{Feb rain cm|}}}{{{Mar rain cm|}}}<!--
            -->{{{Apr rain cm|}}}{{{May rain cm|}}}{{{Jun rain cm|}}}<!--
            -->{{{Jul rain cm|}}}{{{Aug rain cm|}}}{{{Sep rain cm|}}}<!--
@@ -1802,7 +1802,7 @@
 {{weather box/line/date
 |label=Snowfall <!--
   -->{{#if:{{{metric first|}}}
-       |inches
+       |Faraha
        |{{#if:{{{Jan snow mm|}}}{{{Feb snow mm|}}}{{{Mar snow mm|}}}<!--
            -->{{{Apr snow mm|}}}{{{May snow mm|}}}{{{Jun snow mm|}}}<!--
            -->{{{Jul snow mm|}}}{{{Aug snow mm|}}}{{{Sep snow mm|}}}<!--
