@@ -1,0 +1,32 @@
+<includeonly>{{#iferror: {{#ifexpr: {{{1}}}>0}} |background:<nowiki>#</nowiki>FFFFFF;color:<nowiki>#</nowiki>000000; |background:<nowiki>#</nowiki>{{Hexadecimal|{{#ifexpr:{{{1}}}>66.67|0|{{#ifexpr:{{{1}}}>0.01|{{#expr:3.825*(66.67-{{{1}}})}}|255}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}>66.67|0|{{#ifexpr:{{{1}}}>0.01|{{#expr:3.825*(66.67-{{{1}}})}}|255}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}>133.33|0|{{#ifexpr:{{{1}}}>66.67|{{#expr:3.825*(133.33-{{{1}}})}}|255}}}}|no}};color:<nowiki>#</nowiki>{{#ifexpr:{{{1}}}>=40|FFFFFF|000000}};}} font-size:85%;text-align:center;</includeonly><noinclude>This template makes refreshing humidity percentage background colors:
+{| class="wikitable" align="left" width=300px
+|+Percent humidity
+|-
+|style="{{{{PAGENAME}}|0}}"|0||style="{{{{PAGENAME}}|1}}"|1||style="{{{{PAGENAME}}|2}}"|2||style="{{{{PAGENAME}}|3}}"|3||style="{{{{PAGENAME}}|4}}"|4||style="{{{{PAGENAME}}|5}}"|5||style="{{{{PAGENAME}}|6}}"|6||style="{{{{PAGENAME}}|7}}"|7||style="{{{{PAGENAME}}|8}}"|8||style="{{{{PAGENAME}}|9}}"|9
+|-
+|style="{{{{PAGENAME}}|10}}"|10||style="{{{{PAGENAME}}|11}}"|11||style="{{{{PAGENAME}}|12}}"|12||style="{{{{PAGENAME}}|13}}"|13||style="{{{{PAGENAME}}|14}}"|14||style="{{{{PAGENAME}}|15}}"|15||style="{{{{PAGENAME}}|16}}"|16||style="{{{{PAGENAME}}|17}}"|17||style="{{{{PAGENAME}}|18}}"|18||style="{{{{PAGENAME}}|19}}"|19
+|-
+|style="{{{{PAGENAME}}|20}}"|20||style="{{{{PAGENAME}}|21}}"|21||style="{{{{PAGENAME}}|22}}"|22||style="{{{{PAGENAME}}|23}}"|23||style="{{{{PAGENAME}}|24}}"|24||style="{{{{PAGENAME}}|25}}"|25||style="{{{{PAGENAME}}|26}}"|26||style="{{{{PAGENAME}}|27}}"|27||style="{{{{PAGENAME}}|28}}"|28||style="{{{{PAGENAME}}|29}}"|29
+|-
+|style="{{{{PAGENAME}}|30}}"|30||style="{{{{PAGENAME}}|31}}"|31||style="{{{{PAGENAME}}|32}}"|32||style="{{{{PAGENAME}}|33}}"|33||style="{{{{PAGENAME}}|34}}"|34||style="{{{{PAGENAME}}|35}}"|35||style="{{{{PAGENAME}}|36}}"|36||style="{{{{PAGENAME}}|37}}"|37||style="{{{{PAGENAME}}|38}}"|38||style="{{{{PAGENAME}}|39}}"|39
+|-
+|style="{{{{PAGENAME}}|40}}"|40||style="{{{{PAGENAME}}|41}}"|41||style="{{{{PAGENAME}}|42}}"|42||style="{{{{PAGENAME}}|43}}"|43||style="{{{{PAGENAME}}|44}}"|44||style="{{{{PAGENAME}}|45}}"|45||style="{{{{PAGENAME}}|46}}"|46||style="{{{{PAGENAME}}|47}}"|47||style="{{{{PAGENAME}}|48}}"|48||style="{{{{PAGENAME}}|49}}"|49
+|-
+|style="{{{{PAGENAME}}|50}}"|50||style="{{{{PAGENAME}}|51}}"|51||style="{{{{PAGENAME}}|52}}"|52||style="{{{{PAGENAME}}|53}}"|53||style="{{{{PAGENAME}}|54}}"|54||style="{{{{PAGENAME}}|55}}"|55||style="{{{{PAGENAME}}|56}}"|56||style="{{{{PAGENAME}}|57}}"|57||style="{{{{PAGENAME}}|58}}"|58||style="{{{{PAGENAME}}|59}}"|59
+|-
+|style="{{{{PAGENAME}}|60}}"|60||style="{{{{PAGENAME}}|61}}"|61||style="{{{{PAGENAME}}|62}}"|62|<!--63 intentionally removed so that the table ends on 100-->|style="{{{{PAGENAME}}|64}}"|64||style="{{{{PAGENAME}}|65}}"|65||style="{{{{PAGENAME}}|66}}"|66||style="{{{{PAGENAME}}|67}}"|67||style="{{{{PAGENAME}}|68}}"|68||style="{{{{PAGENAME}}|69}}"|69||style="{{{{PAGENAME}}|70}}"|70
+|-
+|style="{{{{PAGENAME}}|71}}"|71||style="{{{{PAGENAME}}|72}}"|72||style="{{{{PAGENAME}}|73}}"|73||style="{{{{PAGENAME}}|74}}"|74||style="{{{{PAGENAME}}|75}}"|75||style="{{{{PAGENAME}}|76}}"|76||style="{{{{PAGENAME}}|77}}"|77||style="{{{{PAGENAME}}|78}}"|78||style="{{{{PAGENAME}}|79}}"|79||style="{{{{PAGENAME}}|80}}"|80
+|-
+|style="{{{{PAGENAME}}|81}}"|81||style="{{{{PAGENAME}}|82}}"|82||style="{{{{PAGENAME}}|83}}"|83||style="{{{{PAGENAME}}|84}}"|84||style="{{{{PAGENAME}}|85}}"|85||style="{{{{PAGENAME}}|86}}"|86||style="{{{{PAGENAME}}|87}}"|87||style="{{{{PAGENAME}}|88}}"|88||style="{{{{PAGENAME}}|89}}"|89||style="{{{{PAGENAME}}|90}}"|90
+|-
+|style="{{{{PAGENAME}}|91}}"|91||style="{{{{PAGENAME}}|92}}"|92||style="{{{{PAGENAME}}|93}}"|93||style="{{{{PAGENAME}}|94}}"|94||style="{{{{PAGENAME}}|95}}"|95||style="{{{{PAGENAME}}|96}}"|96||style="{{{{PAGENAME}}|97}}"|97||style="{{{{PAGENAME}}|98}}"|98||style="{{{{PAGENAME}}|99}}"|99||style="{{{{PAGENAME}}|100}}"|100
+|}
+[[Category:Weather box|Colhumidity]]
+[[eu:Txantiloi:Klima/colh]]
+[[fa:الگو:Weather box/colh]]
+[[hy:Կաղապար:Եղանակի աղյուսակ/colh]]
+[[id:Templat:Weather box/colh]]
+[[mk:Шаблон:Infobox Weather/colh]]
+[[pt:Predefinição:Infobox weather/colh]]
+{{pp-semi-indef}}{{pp-move|small=yes}}</noinclude>
