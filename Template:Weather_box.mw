@@ -3,7 +3,7 @@
 {{!}}-
 !colspan="14" {{!}} {{#if:{{{name|}}}|{{navbar|{{{name}}}|mini=1|style=float: left; margin-left:0.75em}} }} Faahfaahin Cimilada {{#if:{{{location|}}}|{{{location}}}|<nowiki>{{{location}}}</nowiki>}}}}
 |-
-! Month
+! Bilaha
 ! {{dabbr|Jan|January}}
 ! {{dabbr|Feb|February}}
 ! {{dabbr|Mar|March}}
@@ -598,11 +598,11 @@
            |{{#ifexpr:{{Precision1|{{{Jan precipitation inch|}}}}}<1|c|m}}
            }}
         }}m
-     |inches}} <!--
+     |Faro}} <!--
 
 -->{{#if:{{{single line|}}}
      |({{#if:{{{metric first|}}}
-         |inches
+         |Faro
          |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
              -->{{{Apr precipitation cm|}}}{{{May precipitation cm|}}}{{{Jun precipitation cm|}}}<!--
              -->{{{Jul precipitation cm|}}}{{{Aug precipitation cm|}}}{{{Sep precipitation cm|}}}<!--
@@ -1974,7 +1974,7 @@
       -->{{{Oct rain days|}}}{{{Nov rain days|}}}{{{Dec rain days|}}}<!--
   -->|<nowiki/>
 {{weather box/oneline/date
-|label={{dabbr|Avg.|Average}} Xilli roobaadka {{#if:{{{unit rain days|}}}|<font style="font-size:80%">{{Nowrap|(≥ {{{unit rain days}}})}}</span>}}
+|label={{dabbr|Dhexdhexaad.|Average}} Xilli roobaadka {{#if:{{{unit rain days|}}}|<font style="font-size:80%">{{Nowrap|(≥ {{{unit rain days}}})}}</span>}}
 |show=1
 |sc=d |f=1
 |jan1={{{Jan rain days|}}}
@@ -2042,7 +2042,7 @@
       -->{{{Oct sun|}}}{{{Nov sun|}}}{{{Dec sun|}}}<!--
   -->|<nowiki/>
 {{weather box/oneline/date
-|label=Saacada Bila qoraxeedka
+|label=Saacadaha Bilaha qorraxda
 |show=1
 |sc=s |f=1
 |jan1={{{Jan sun|}}}
