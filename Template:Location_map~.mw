@@ -1,0 +1,77 @@
+<includeonly><div style="position: absolute; z-index: 2; top: {{#expr:{{#if:{{Location map {{{1}}}|y}}|
+{{Location map {{{1}}}|y|{{Location map/decdeg
+|dec = {{{lat|}}}
+|deg = {{{lat_deg|}}}
+|min = {{{lat_min|}}}
+|sec = {{{lat_sec|}}}
+|hem = {{{lat_dir|}}}}}|{{Location map/decdeg
+|dec = {{{long|}}}
+|deg = {{{lon_deg|}}}
+|min = {{{lon_min|}}}
+|sec = {{{lon_sec|}}}
+|hem = {{{lon_dir|}}}}}}}|100 * ({{Location map {{{1}}}|top}} - {{Location map/decdeg
+|dec = {{{lat|}}}
+|deg = {{{lat_deg|}}}
+|min = {{{lat_min|}}}
+|sec = {{{lat_sec|}}}
+|hem = {{{lat_dir|}}}}}) / ({{Location map {{{1}}}|top}} - {{Location map {{{1}}}|bottom}}) round 1
+}}}}%; left: {{#expr:{{#if:{{Location map {{{1}}}|x}}|
+{{Location map {{{1}}}|x|{{Location map/decdeg
+|dec = {{{lat|}}}
+|deg = {{{lat_deg|}}}
+|min = {{{lat_min|}}}
+|sec = {{{lat_sec|}}}
+|hem = {{{lat_dir|}}}}}|{{Location map/decdeg
+|dec = {{{long|}}}
+|deg = {{{lon_deg|}}}
+|min = {{{lon_min|}}}
+|sec = {{{lon_sec|}}}
+|hem = {{{lon_dir|}}}}}}}|{{#expr:{{#if:{{Location map {{{1}}}|crosses180}}|{{#ifeq: {{{lon_dir|}}}|W|-36000/({{Location map {{{1}}}|left}}-{{Location map {{{1}}}|right}})|}}|}}}} + 100 * ({{Location map/decdeg
+|dec = {{{long|}}}
+|deg = {{{lon_deg|}}}
+|min = {{{lon_min|}}}
+|sec = {{{lon_sec|}}}
+|hem = {{{lon_dir|}}}}} - {{Location map {{{1}}}|left}}) / ({{Location map {{{1}}}|right}} - {{Location map {{{1}}}|left}}) round 1
+}}}}%; height: 0; width: 0; margin: 0; padding: 0;"><div style="position: relative; text-align: center; {{#if: {{{marksize|}}}
+  | left: -{{#expr: {{{marksize}}} / 2 round 0 }}px; top: -{{#expr: {{{marksize}}} / 2 round 0 }}px; width: {{{marksize}}}px; font-size: {{{marksize}}}px; line-height:0;
+  | left: -{{#expr: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}} / 2 round 0 }}px; top: -{{#expr: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}} / 2 round 0 }}px; width: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}px; font-size: {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}px; line-height: 0; z-index:100; 
+}}" title="{{{2|}}}">[[File:{{#if: {{{mark|}}}
+  | {{{mark}}}
+  | {{#if: {{Location map {{{1}}}|mark}}|{{Location map {{{1}}}|mark}}|Red pog.svg}}
+}}|{{#if: {{{marksize|}}}
+  | {{{marksize}}}x{{{marksize}}}
+  | {{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}x{{#if: {{Location map {{{1}}}|marksize}}|{{Location map {{{1}}}|marksize}}|8}}
+}}px|{{#if: {{{label|}}} 
+  | {{{label}}} 
+  | {{PAGENAME}} 
+}}|link={{{link|}}}|alt={{{alt|}}}]]</div>{{#ifeq: {{{position|}}} | none
+  |
+  |<div style="font-size: {{{label_size|90}}}%; line-height: 110%; z-index:90; position: relative; top: -1.5em; width: {{#if:{{{label_width|}}}|{{{label_width}}}|6}}em; {{#switch: {{{position}}}
+    |left = left: -6.5em; text-align: right;
+    |right = left: 0.5em; text-align: left;
+    |top = top:-2.65em; left:-3em; text-align: center;
+    |bottom = top:-0.15em; left: -3em; text-align: center;
+    |#default={{#ifexpr:{{#if:{{Location map {{{1}}}|x}}|
+{{Location map {{{1}}}|x|{{Location map/decdeg
+|dec = {{{lat|}}}
+|deg = {{{lat_deg|}}}
+|min = {{{lat_min|}}}
+|sec = {{{lat_sec|}}}
+|hem = {{{lat_dir|}}}}}|{{Location map/decdeg
+|dec = {{{long|}}}
+|deg = {{{lon_deg|}}}
+|min = {{{lon_min|}}}
+|sec = {{{lon_sec|}}}
+|hem = {{{lon_dir|}}}}}}}|{{#expr:{{#if:{{Location map {{{1}}}|crosses180}}|{{#ifeq: {{{lon_dir|}}}|W|-36000/({{Location map {{{1}}}|left}}-{{Location map {{{1}}}|right}})|}}|}}}} + 100 * ({{Location map/decdeg
+|dec = {{{long|}}}
+|deg = {{{lon_deg|}}}
+|min = {{{lon_min|}}}
+|sec = {{{lon_sec|}}}
+|hem = {{{lon_dir|}}}}} - {{Location map {{{1}}}|left}}) / ({{Location map {{{1}}}|right}} - {{Location map {{{1}}}|left}}) round 1
+}} > 70|left: -6.5em; text-align: right;|left: 0.5em; text-align: left;}}
+  }}"><span style="padding: 1px; {{#if: {{{background|}}}
+    | background-color: {{{background}}};
+  }}">{{{label|}}}</span></div>
+}}</div></includeonly><noinclude>
+{{Documentation}}
+</noinclude>
