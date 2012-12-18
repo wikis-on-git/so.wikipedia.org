@@ -1,0 +1,7 @@
+{{#if: {{{width|}}}
+   | {{{width}}}
+   | {{#expr: {{#if: {{{default_width|}}} | {{{default_width}}} | 240 }} * {{#iferror: {{#expr: {{Location map {{{1}}}|defaultscale}} * 1}} | 1 }} round0 }}
+}}<noinclude>
+
+{{documentation}}
+</noinclude>
