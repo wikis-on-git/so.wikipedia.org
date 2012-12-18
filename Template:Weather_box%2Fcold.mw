@@ -1,0 +1,96 @@
+<includeonly>{{#iferror: {{#ifexpr: {{{1}}}>0}} |background:<nowiki>#</nowiki>FFFFFF;color:<nowiki>#</nowiki>000000; |background:<nowiki>#</nowiki>{{Hexadecimal|{{#ifexpr:{{{1}}}>20|0|{{#ifexpr:{{{1}}}>0|{{#expr:12.75*(20-{{{1}}})}}|255}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}>20|0|{{#ifexpr:{{{1}}}>0|{{#expr:12.75*(20-{{{1}}})}}|255}}}}|no}}{{Hexadecimal|{{#ifexpr:{{{1}}}>40|0|{{#ifexpr:{{{1}}}>20|{{#expr:12.75*(40-{{{1}}})}}|255}}}}|no}};color:<nowiki>#</nowiki>{{#ifexpr:{{{1}}}>=12|FFFFFF|000000}};}} font-size:85%;text-align:center;</includeonly><noinclude>This template makes refreshing precipitation days background colors. [[Template:Weather box/oneline/date]] will apply a length of month multiplication factor in this template's parameter, so that 28.25 days in February, 30 days in a 30-day month, 31 days in a 31-day month, and 365.25 days in a year, will appear as [[navy blue]] (#000080).
+{| class="wikitable" align="left" width=300px
+|+Days of precipitation in a 30-day month
+|-
+|style="{{{{PAGENAME}}|0.0}}"|0.0||style="{{{{PAGENAME}}|0.2}}"|0.2||style="{{{{PAGENAME}}|0.4}}"|0.4||style="{{{{PAGENAME}}|0.6}}"|0.6||style="{{{{PAGENAME}}|0.8}}"|0.8||style="{{{{PAGENAME}}|1.0}}"|1.0||style="{{{{PAGENAME}}|1.2}}"|1.2||style="{{{{PAGENAME}}|1.4}}"|1.4||style="{{{{PAGENAME}}|1.6}}"|1.6||style="{{{{PAGENAME}}|1.8}}"|1.8
+|-
+|style="{{{{PAGENAME}}|2.0}}"|2.0||style="{{{{PAGENAME}}|2.2}}"|2.2||style="{{{{PAGENAME}}|2.4}}"|2.4||style="{{{{PAGENAME}}|2.6}}"|2.6||style="{{{{PAGENAME}}|2.8}}"|2.8||style="{{{{PAGENAME}}|3.0}}"|3.0||style="{{{{PAGENAME}}|3.2}}"|3.2||style="{{{{PAGENAME}}|3.4}}"|3.4||style="{{{{PAGENAME}}|3.6}}"|3.6||style="{{{{PAGENAME}}|3.8}}"|3.8
+|-
+|style="{{{{PAGENAME}}|4.0}}"|4.0||style="{{{{PAGENAME}}|4.2}}"|4.2||style="{{{{PAGENAME}}|4.4}}"|4.4||style="{{{{PAGENAME}}|4.6}}"|4.6||style="{{{{PAGENAME}}|4.8}}"|4.8||style="{{{{PAGENAME}}|5.0}}"|5.0||style="{{{{PAGENAME}}|5.2}}"|5.2||style="{{{{PAGENAME}}|5.4}}"|5.4||style="{{{{PAGENAME}}|5.6}}"|5.6||style="{{{{PAGENAME}}|5.8}}"|5.8
+|-
+|style="{{{{PAGENAME}}|6.0}}"|6.0||style="{{{{PAGENAME}}|6.2}}"|6.2||style="{{{{PAGENAME}}|6.4}}"|6.4||style="{{{{PAGENAME}}|6.6}}"|6.6||style="{{{{PAGENAME}}|6.8}}"|6.8||style="{{{{PAGENAME}}|7.0}}"|7.0||style="{{{{PAGENAME}}|7.2}}"|7.2||style="{{{{PAGENAME}}|7.4}}"|7.4||style="{{{{PAGENAME}}|7.6}}"|7.6||style="{{{{PAGENAME}}|7.8}}"|7.8
+|-
+|style="{{{{PAGENAME}}|8.0}}"|8.0||style="{{{{PAGENAME}}|8.2}}"|8.2||style="{{{{PAGENAME}}|8.4}}"|8.4||style="{{{{PAGENAME}}|8.6}}"|8.6||style="{{{{PAGENAME}}|8.8}}"|8.8||style="{{{{PAGENAME}}|9.0}}"|9.0||style="{{{{PAGENAME}}|9.2}}"|9.2||style="{{{{PAGENAME}}|9.4}}"|9.4||style="{{{{PAGENAME}}|9.6}}"|9.6||style="{{{{PAGENAME}}|9.8}}"|9.8
+|-
+|style="{{{{PAGENAME}}|10.0}}"|10.0||style="{{{{PAGENAME}}|10.2}}"|10.2||style="{{{{PAGENAME}}|10.4}}"|10.4||style="{{{{PAGENAME}}|10.6}}"|10.6||style="{{{{PAGENAME}}|10.8}}"|10.8||style="{{{{PAGENAME}}|11.0}}"|11.0||style="{{{{PAGENAME}}|11.2}}"|11.2||style="{{{{PAGENAME}}|11.4}}"|11.4||style="{{{{PAGENAME}}|11.6}}"|11.6||style="{{{{PAGENAME}}|11.8}}"|11.8
+|-
+|style="{{{{PAGENAME}}|12.0}}"|12.0||style="{{{{PAGENAME}}|12.2}}"|12.2||style="{{{{PAGENAME}}|12.4}}"|12.4||style="{{{{PAGENAME}}|12.6}}"|12.6||style="{{{{PAGENAME}}|12.8}}"|12.8||style="{{{{PAGENAME}}|13.0}}"|13.0||style="{{{{PAGENAME}}|13.2}}"|13.2||style="{{{{PAGENAME}}|13.4}}"|13.4||style="{{{{PAGENAME}}|13.6}}"|13.6||style="{{{{PAGENAME}}|13.8}}"|13.8
+|-
+|style="{{{{PAGENAME}}|14.0}}"|14.0||style="{{{{PAGENAME}}|14.2}}"|14.2||style="{{{{PAGENAME}}|14.4}}"|14.4||style="{{{{PAGENAME}}|14.6}}"|14.6||style="{{{{PAGENAME}}|14.8}}"|14.8||style="{{{{PAGENAME}}|15.0}}"|15.0||style="{{{{PAGENAME}}|15.2}}"|15.2||style="{{{{PAGENAME}}|15.4}}"|15.4||style="{{{{PAGENAME}}|15.6}}"|15.6||style="{{{{PAGENAME}}|15.8}}"|15.8
+|-
+|style="{{{{PAGENAME}}|16.0}}"|16.0||style="{{{{PAGENAME}}|16.2}}"|16.2||style="{{{{PAGENAME}}|16.4}}"|16.4||style="{{{{PAGENAME}}|16.6}}"|16.6||style="{{{{PAGENAME}}|16.8}}"|16.8||style="{{{{PAGENAME}}|17.0}}"|17.0||style="{{{{PAGENAME}}|17.2}}"|17.2||style="{{{{PAGENAME}}|17.4}}"|17.4||style="{{{{PAGENAME}}|17.6}}"|17.6||style="{{{{PAGENAME}}|17.8}}"|17.8
+|-
+|style="{{{{PAGENAME}}|18.0}}"|18.0||style="{{{{PAGENAME}}|18.2}}"|18.2||style="{{{{PAGENAME}}|18.4}}"|18.4||style="{{{{PAGENAME}}|18.6}}"|18.6|<!--18.8 intentionally removed so that table ends on 30.0-->|style="{{{{PAGENAME}}|19.0}}"|19.0||style="{{{{PAGENAME}}|19.2}}"|19.2||style="{{{{PAGENAME}}|19.4}}"|19.4||style="{{{{PAGENAME}}|19.6}}"|19.6||style="{{{{PAGENAME}}|19.8}}"|19.8||style="{{{{PAGENAME}}|20.0}}"|20.0
+|-
+|style="{{{{PAGENAME}}|20.2}}"|20.2||style="{{{{PAGENAME}}|20.4}}"|20.4||style="{{{{PAGENAME}}|20.6}}"|20.6||style="{{{{PAGENAME}}|20.8}}"|20.8||style="{{{{PAGENAME}}|21.0}}"|21.0||style="{{{{PAGENAME}}|21.2}}"|21.2||style="{{{{PAGENAME}}|21.4}}"|21.4||style="{{{{PAGENAME}}|21.6}}"|21.6||style="{{{{PAGENAME}}|21.8}}"|21.8||style="{{{{PAGENAME}}|22.0}}"|22.0
+|-
+|style="{{{{PAGENAME}}|22.2}}"|22.2||style="{{{{PAGENAME}}|22.4}}"|22.4||style="{{{{PAGENAME}}|22.6}}"|22.6||style="{{{{PAGENAME}}|22.8}}"|22.8||style="{{{{PAGENAME}}|23.0}}"|23.0||style="{{{{PAGENAME}}|23.2}}"|23.2||style="{{{{PAGENAME}}|23.4}}"|23.4||style="{{{{PAGENAME}}|23.6}}"|23.6||style="{{{{PAGENAME}}|23.8}}"|23.8||style="{{{{PAGENAME}}|24.0}}"|24.0
+|-
+|style="{{{{PAGENAME}}|24.2}}"|24.2||style="{{{{PAGENAME}}|24.4}}"|24.4||style="{{{{PAGENAME}}|24.6}}"|24.6||style="{{{{PAGENAME}}|24.8}}"|24.8||style="{{{{PAGENAME}}|25.0}}"|25.0||style="{{{{PAGENAME}}|25.2}}"|25.2||style="{{{{PAGENAME}}|25.4}}"|25.4||style="{{{{PAGENAME}}|25.6}}"|25.6||style="{{{{PAGENAME}}|25.8}}"|25.8||style="{{{{PAGENAME}}|26.0}}"|26.0
+|-
+|style="{{{{PAGENAME}}|26.2}}"|26.2||style="{{{{PAGENAME}}|26.4}}"|26.4||style="{{{{PAGENAME}}|26.6}}"|26.6||style="{{{{PAGENAME}}|26.8}}"|26.8||style="{{{{PAGENAME}}|27.0}}"|27.0||style="{{{{PAGENAME}}|27.2}}"|27.2||style="{{{{PAGENAME}}|27.4}}"|27.4||style="{{{{PAGENAME}}|27.6}}"|27.6||style="{{{{PAGENAME}}|27.8}}"|27.8||style="{{{{PAGENAME}}|28.0}}"|28.0
+|-
+|style="{{{{PAGENAME}}|28.2}}"|28.2||style="{{{{PAGENAME}}|28.4}}"|28.4||style="{{{{PAGENAME}}|28.6}}"|28.6||style="{{{{PAGENAME}}|28.8}}"|28.8||style="{{{{PAGENAME}}|29.0}}"|29.0||style="{{{{PAGENAME}}|29.2}}"|29.2||style="{{{{PAGENAME}}|29.4}}"|29.4||style="{{{{PAGENAME}}|29.6}}"|29.6||style="{{{{PAGENAME}}|29.8}}"|29.8||style="{{{{PAGENAME}}|30.0}}"|30.0
+|}
+{| class="wikitable" align="right" width=300px
+|+Days of precipitation a year
+|-
+|style="{{{{PAGENAME}}|0.0}}"|0||style="{{{{PAGENAME}}|0.2}}"|2||style="{{{{PAGENAME}}|0.3}}"|4||style="{{{{PAGENAME}}|0.5}}"|6||style="{{{{PAGENAME}}|0.7}}"|8||style="{{{{PAGENAME}}|0.8}}"|10||style="{{{{PAGENAME}}|1.0}}"|12||style="{{{{PAGENAME}}|1.1}}"|14||style="{{{{PAGENAME}}|1.3}}"|16||style="{{{{PAGENAME}}|1.5}}"|18
+|-
+|style="{{{{PAGENAME}}|1.6}}"|20||style="{{{{PAGENAME}}|1.8}}"|22||style="{{{{PAGENAME}}|2.0}}"|24||style="{{{{PAGENAME}}|2.1}}"|26||style="{{{{PAGENAME}}|2.3}}"|28||style="{{{{PAGENAME}}|2.5}}"|30||style="{{{{PAGENAME}}|2.6}}"|32||style="{{{{PAGENAME}}|2.8}}"|34||style="{{{{PAGENAME}}|3.0}}"|36||style="{{{{PAGENAME}}|3.1}}"|38
+|-
+|style="{{{{PAGENAME}}|3.3}}"|40||style="{{{{PAGENAME}}|3.4}}"|42||style="{{{{PAGENAME}}|3.6}}"|44||style="{{{{PAGENAME}}|3.8}}"|46||style="{{{{PAGENAME}}|3.9}}"|48||style="{{{{PAGENAME}}|4.1}}"|50||style="{{{{PAGENAME}}|4.3}}"|52||style="{{{{PAGENAME}}|4.4}}"|54||style="{{{{PAGENAME}}|4.6}}"|56||style="{{{{PAGENAME}}|4.8}}"|58
+|-
+|style="{{{{PAGENAME}}|4.9}}"|60||style="{{{{PAGENAME}}|5.1}}"|62||style="{{{{PAGENAME}}|5.3}}"|64||style="{{{{PAGENAME}}|5.4}}"|66||style="{{{{PAGENAME}}|5.6}}"|68||style="{{{{PAGENAME}}|5.7}}"|70||style="{{{{PAGENAME}}|5.9}}"|72||style="{{{{PAGENAME}}|6.1}}"|74||style="{{{{PAGENAME}}|6.2}}"|76||style="{{{{PAGENAME}}|6.4}}"|78
+|-
+|style="{{{{PAGENAME}}|6.6}}"|80||style="{{{{PAGENAME}}|6.7}}"|82||style="{{{{PAGENAME}}|6.9}}"|84||style="{{{{PAGENAME}}|7.1}}"|86||style="{{{{PAGENAME}}|7.2}}"|88||style="{{{{PAGENAME}}|7.4}}"|90||style="{{{{PAGENAME}}|7.6}}"|92||style="{{{{PAGENAME}}|7.7}}"|94||style="{{{{PAGENAME}}|7.9}}"|96||style="{{{{PAGENAME}}|8.0}}"|98
+|-
+|style="{{{{PAGENAME}}|8.2}}"|100||style="{{{{PAGENAME}}|8.4}}"|102||style="{{{{PAGENAME}}|8.5}}"|104||style="{{{{PAGENAME}}|8.7}}"|106||style="{{{{PAGENAME}}|8.9}}"|108||style="{{{{PAGENAME}}|9.0}}"|110||style="{{{{PAGENAME}}|9.2}}"|112||style="{{{{PAGENAME}}|9.4}}"|114||style="{{{{PAGENAME}}|9.5}}"|116||style="{{{{PAGENAME}}|9.7}}"|118
+|-
+|style="{{{{PAGENAME}}|9.9}}"|120||style="{{{{PAGENAME}}|10.0}}"|122||style="{{{{PAGENAME}}|10.2}}"|124||style="{{{{PAGENAME}}|10.3}}"|126||style="{{{{PAGENAME}}|10.5}}"|128||style="{{{{PAGENAME}}|10.7}}"|130||style="{{{{PAGENAME}}|10.8}}"|132||style="{{{{PAGENAME}}|11.0}}"|134||style="{{{{PAGENAME}}|11.2}}"|136||style="{{{{PAGENAME}}|11.3}}"|138
+|-
+|style="{{{{PAGENAME}}|11.5}}"|140||style="{{{{PAGENAME}}|11.7}}"|142||style="{{{{PAGENAME}}|11.8}}"|144||style="{{{{PAGENAME}}|12.0}}"|146||style="{{{{PAGENAME}}|12.2}}"|148||style="{{{{PAGENAME}}|12.3}}"|150||style="{{{{PAGENAME}}|12.5}}"|152||style="{{{{PAGENAME}}|12.6}}"|154||style="{{{{PAGENAME}}|12.8}}"|156||style="{{{{PAGENAME}}|13.0}}"|158
+|-
+|style="{{{{PAGENAME}}|13.1}}"|160||style="{{{{PAGENAME}}|13.3}}"|162||style="{{{{PAGENAME}}|13.5}}"|164||style="{{{{PAGENAME}}|13.6}}"|166||style="{{{{PAGENAME}}|13.8}}"|168||style="{{{{PAGENAME}}|14.0}}"|170||style="{{{{PAGENAME}}|14.1}}"|172||style="{{{{PAGENAME}}|14.3}}"|174||style="{{{{PAGENAME}}|14.5}}"|176||style="{{{{PAGENAME}}|14.6}}"|178
+|-
+|style="{{{{PAGENAME}}|14.8}}"|180||style="{{{{PAGENAME}}|14.9}}"|182||style="{{{{PAGENAME}}|15.1}}"|184||style="{{{{PAGENAME}}|15.3}}"|186|<!--188 intentionally removed so that table ends on 300-->|style="{{{{PAGENAME}}|15.6}}"|190||style="{{{{PAGENAME}}|15.8}}"|192||style="{{{{PAGENAME}}|15.9}}"|194||style="{{{{PAGENAME}}|16.1}}"|196||style="{{{{PAGENAME}}|16.3}}"|198||style="{{{{PAGENAME}}|16.4}}"|200
+|-
+|style="{{{{PAGENAME}}|16.6}}"|202||style="{{{{PAGENAME}}|16.8}}"|204||style="{{{{PAGENAME}}|16.9}}"|206||style="{{{{PAGENAME}}|17.1}}"|208||style="{{{{PAGENAME}}|17.2}}"|210||style="{{{{PAGENAME}}|17.4}}"|212||style="{{{{PAGENAME}}|17.6}}"|214||style="{{{{PAGENAME}}|17.7}}"|216||style="{{{{PAGENAME}}|17.9}}"|218||style="{{{{PAGENAME}}|18.1}}"|220
+|-
+|style="{{{{PAGENAME}}|18.2}}"|222||style="{{{{PAGENAME}}|18.4}}"|224||style="{{{{PAGENAME}}|18.6}}"|226||style="{{{{PAGENAME}}|18.7}}"|228||style="{{{{PAGENAME}}|18.9}}"|230||style="{{{{PAGENAME}}|19.1}}"|232||style="{{{{PAGENAME}}|19.2}}"|234||style="{{{{PAGENAME}}|19.4}}"|236||style="{{{{PAGENAME}}|19.5}}"|238||style="{{{{PAGENAME}}|19.7}}"|240
+|-
+|style="{{{{PAGENAME}}|19.9}}"|242||style="{{{{PAGENAME}}|20.0}}"|244||style="{{{{PAGENAME}}|20.2}}"|246||style="{{{{PAGENAME}}|20.4}}"|248||style="{{{{PAGENAME}}|20.5}}"|250||style="{{{{PAGENAME}}|20.7}}"|252||style="{{{{PAGENAME}}|20.9}}"|254||style="{{{{PAGENAME}}|21.0}}"|256||style="{{{{PAGENAME}}|21.2}}"|258||style="{{{{PAGENAME}}|21.4}}"|260
+|-
+|style="{{{{PAGENAME}}|21.5}}"|262||style="{{{{PAGENAME}}|21.7}}"|264||style="{{{{PAGENAME}}|21.8}}"|266||style="{{{{PAGENAME}}|22.0}}"|268||style="{{{{PAGENAME}}|22.2}}"|270||style="{{{{PAGENAME}}|22.3}}"|272||style="{{{{PAGENAME}}|22.5}}"|274||style="{{{{PAGENAME}}|22.7}}"|276||style="{{{{PAGENAME}}|22.8}}"|278||style="{{{{PAGENAME}}|23.0}}"|280
+|-
+|style="{{{{PAGENAME}}|23.2}}"|282||style="{{{{PAGENAME}}|23.3}}"|284||style="{{{{PAGENAME}}|23.5}}"|286||style="{{{{PAGENAME}}|23.7}}"|288||style="{{{{PAGENAME}}|23.8}}"|290||style="{{{{PAGENAME}}|24.0}}"|292||style="{{{{PAGENAME}}|24.1}}"|294||style="{{{{PAGENAME}}|24.3}}"|296||style="{{{{PAGENAME}}|24.5}}"|298||style="{{{{PAGENAME}}|24.6}}"|300
+|}
+[[Category:Weather box|Coldays]]
+[[ar:قالب:Infobox Weather/cold]]
+[[as:সাঁচ:Weather box/cold]]
+[[map-bms:Cithakan:Infobox weather/cold]]
+[[cy:Nodyn:Weather box/cold]]
+[[el:Πρότυπο:Weather box/cold]]
+[[es:Plantilla:Clima/cold]]
+[[eu:Txantiloi:Klima/cold]]
+[[fa:الگو:Weather box/cold]]
+[[ko:틀:기후 정보/cold]]
+[[hy:Կաղապար:Եղանակի աղյուսակ/cold]]
+[[id:Templat:Infobox weather/cold]]
+[[jv:Cithakan:Infobox weather/cold]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Weather box/cold]]
+[[mk:Шаблон:Infobox Weather/cold]]
+[[ne:ढाँचा:Weather box/cold]]
+[[nn:Mal:Vêrboks/cold]]
+[[km:ទំព័រគំរូ:Weather box/cold]]
+[[pl:Szablon:Pogoda infobox/cold]]
+[[pt:Predefinição:Infobox Weather/cold]]
+[[ro:Format:Weather box/cold]]
+[[sa:फलकम्:Weather box/cold]]
+[[simple:Template:Weather box/cold]]
+[[sk:Šablóna:Weather box/cold]]
+[[su:Citakan:Infobox weather/cold]]
+[[ta:வார்ப்புரு:Weather box/cold]]
+[[th:แม่แบบ:Weather box/cold]]
+[[zh:Template:Infobox weather/cold]]
+</noinclude>
