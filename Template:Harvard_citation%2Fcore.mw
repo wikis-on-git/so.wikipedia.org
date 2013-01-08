@@ -1,0 +1,34 @@
+{{{BracketLeft|}}}{{#ifeq:{{{REF|}}}|none
+  |{{#if:{{{P5|}}}
+       |{{{P1|}}} et al. {{{BracketYearLeft|}}}{{{P5|}}}
+       |{{#if:{{{P4|}}}
+          |{{{P1|}}}, {{{P2|}}} &amp; {{{P3|}}} {{{BracketYearLeft|}}}{{{P4|}}}
+          |{{#if:{{{P3|}}}
+             |{{{P1|}}} &amp; {{{P2|}}} {{{BracketYearLeft|}}}{{{P3|}}}
+             |{{{P1|}}} {{{BracketYearLeft|}}}{{{P2|}}}
+           }}
+        }}
+     }}
+  |[[#{{#if:{{{REF}}}
+       |{{{REF}}}
+       |CITEREF{{#if:||{{{P1|}}}}}{{#if:||{{{P2|}}}}}{{#if:||{{{P3|}}}}}{{#if:||{{{P4|}}}}}{{#if:||{{{P5|}}}}}
+       }}|{{#if:{{{P5|}}}
+          |{{{P1|}}} et al. {{{BracketYearLeft|}}}{{{P5|}}}
+          |{{#if:{{{P4|}}}
+             |{{{P1|}}}, {{{P2|}}} &amp; {{{P3|}}} {{{BracketYearLeft|}}}{{{P4|}}}
+             |{{#if:{{{P3|}}}
+                |{{{P1|}}} &amp; {{{P2|}}} {{{BracketYearLeft|}}}{{{P3|}}}
+                |{{{P1|}}} {{{BracketYearLeft|}}}{{{P2|}}}
+             }}
+           }}
+    }}{{{BracketYearRight|}}}]]
+}}{{#if:{{{Page|}}}
+     |{{{PageSep|}}}{{{Page|}}}
+     |{{#if:{{{Pages|}}}
+        |{{{PagesSep|}}}{{{Pages|}}}
+      }}
+}}{{#if:{{{Location|}}}
+     |, {{{Location|}}}
+}}{{{BracketRight|}}}{{{Postscript|}}}<noinclude>
+{{documentation}}
+</noinclude>
