@@ -1,0 +1,16 @@
+<includeonly>{{#tag:ref|{{Harvard citation/core
+|P1={{{1|}}}
+|P2={{{2|}}}
+|P3={{{3|}}}
+|P4={{{4|}}}
+|P5={{{5|}}}
+|REF={{{ref|{{{Ref|}}}}}}
+|Location={{{loc|}}}
+|Page={{{p|{{{page|}}}}}}
+|Pages={{{pp|{{{pages|}}}}}}
+|PageSep=, p.&nbsp;
+|PagesSep=, pp.&nbsp;
+|Postscript={{{postscript|{{{ps|.}}}}}}
+}}<!-- Footnote name -->|name=FOOTNOTE{{#if:||{{{1|}}}}}{{#if:||{{{2|}}}}}{{#if:||{{{3|}}}}}{{#if:||{{{4|}}}}}{{#if:||{{{5|}}}}}{{{p|}}}{{{pp|}}}{{{loc|}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
