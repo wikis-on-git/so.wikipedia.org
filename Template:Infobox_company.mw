@@ -1,0 +1,119 @@
+{{infobox
+| bodyclass  = vcard
+| bodystyle  = {{{bodystyle|}}}
+| titleclass = fn org
+| title      = {{{Magaca<includeonly>|{{{company_name|{{PAGENAME}}}}}</includeonly>}}}
+| imageclass = astaanta
+| image      = {{{astaanta<includeonly>|{{{company_logo|}}}</includeonly>}}}
+| caption    = {{{caption|}}}
+
+| label1     = {{nowrap|[[Doing business as|Magaca ganacsi]]}}
+| data1      = {{{magaca ganacsi<includeonly>|</includeonly>}}}
+
+| label2     = Loo yaqaan
+| data2      = {{{Magaca loo yaqaan<includeonly>|</includeonly>}}}
+
+| label3     = [[Romanization|magac laatiin]] 
+| data3      = {{{Magac laatiin<includeonly>|</includeonly>}}}
+
+| label4     = {{#if:{{{defunct|}}}|[[Types of business entity|Former type]]|[[Nuucyada]]}}
+| class4     = category
+| data4      = {{{Nuucyada<includeonly>|{{{company_type|}}}</includeonly>}}}
+
+| label5     = [[Ticker symbol|Saamiga]]
+| data5      = {{{saamiyada<includeonly>|</includeonly>}}}
+
+| label6     = Warshad
+| class6     = Qaybta
+| data6      = {{{Warshad<includeonly>|</includeonly>}}}
+
+| label7     = Nuuca
+| class7     = Qaybta
+| data7      = {{{nuuca<includeonly>|</includeonly>}}}
+
+| label8     = Higasho
+| data8      = {{{Hiigsi<includeonly>|</includeonly>}}}
+
+| label9     = ka horeeyay
+| data9      = {{{ka horeeyay<includeonly>|{{{Predecessor|}}}</includeonly>}}}
+
+| label10    = Ku xigay
+| data10     = {{{Ku xigay<includeonly>|</includeonly>}}}
+
+| label11    = Aas aasaha
+| data11     = {{{muasasada<includeonly>|</includeonly>}}}
+
+| label12    = Aasayaasha
+| class12    = Wakiil
+| data12     = {{{Aasaasaha<includeonly>|</includeonly>}}}
+
+| label13     = Defunct
+| data13      = {{{defunct<includeonly>|</includeonly>}}}
+
+| label14    = Xarunta
+| class14    = {{#if:{{{location|}}}|label|adr}}
+| data14     = {{#if: {{{Magaalada ay kutaal<includeonly>|</includeonly>}}}|<span class="locality">{{{Magaalada ay kutaal}}}</span>{{#if: {{{Dalka ay kutaal<includeonly>|</includeonly>}}}|,&#32;}}}}{{#if: {{{Dalka ay kutaal<includeonly>|</includeonly>}}}|<span class="country-name">{{{Dalka ay kutaal}}}</span>}}
+{{#if:{{{location|}}}|{{{location}}} }}
+
+| label15    = Tirada baraha
+| data15     = {{{Barta<includeonly>|</includeonly>}}}
+
+| label16    = Meelaha ay ka shaqeeyso
+| data16     = {{{Meelaha ay ka howl gasho<includeonly>|</includeonly>}}}
+
+| label17    = howl wadeenada
+| class17    = Wakiil
+| data17     = {{{kowl wadeen<includeonly>|</includeonly>}}}
+
+| label18    = Wax soo saar
+| data18     = {{{wax soo saarka<includeonly>|</includeonly>}}}
+
+| label19    = Wax soo saarka ka baxa  
+| data19     = {{{Wax soo saarka ka baxa<includeonly>|</includeonly>}}}
+
+| label20    = Howlaha
+| class20    = Qaybaha
+| data20     = {{{Howlaha<includeonly>|</includeonly>}}}
+
+| label21    = Dakhliga
+| data21     = {{{Dakhliga<includeonly>|</includeonly>}}}
+
+| label22    = [[Faaiido]]
+| data22     = {{{Dakhliga shaqada<includeonly>|</includeonly>}}}
+
+| label23    = {{#ifeq:{{{intl|}}}|yes|[[Dakhliga guud|Profit]]|[[Dakhliga guud]]}}
+| data23     = {{{Dakhliga guud<includeonly>|</includeonly>}}}
+
+| label24    = Keydka maamulka
+| data24     = {{{Keydka maamulka<includeonly>|</includeonly>}}}
+
+| label25    = Keydka guud
+| data25     = {{{keydka<includeonly>|</includeonly>}}}
+
+| label26    = Saamiyeda
+| data26     = {{{Saamiyeda<includeonly>|</includeonly>}}}
+
+| label27    = Milkiileyaasha
+| data27     = {{{Milkiile<includeonly>|</includeonly>}}}
+
+| label28    = Shaqaalaha
+| data28     = {{{Shaqaalaha<includeonly>|</includeonly>}}}
+
+| label29    = [[Holding company|Parent]]
+| data29     = {{{parent<includeonly>|</includeonly>}}}
+
+| label30    = Saami qaybsi
+| data30     = {{{Saami qaybsi<includeonly>|</includeonly>}}}
+
+| label31    = Faracyada
+| data31     = {{{Faracyada<includeonly>|</includeonly>}}}
+
+| label32    = Website
+| data32     = {{{webka<includeonly>|{{{website|}}}</includeonly>}}}
+
+| below      = {{#if:{{{footnotes<includeonly>|</includeonly>}}}|'''Xigasho:''' {{{faallo}}} }}
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
