@@ -15,7 +15,7 @@
   }}
 | caption = {{{imagecaption|}}}
 
-| label1 = Pronunciation
+| label1 = Dhawaaq
 | data1 = {{#if:{{{pronunciation|}}}| {{{pronunciation|''will be added''}}}}}
 | label2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   | Created&nbsp;by
@@ -32,7 +32,7 @@
 | data3 = {{{created|}}}
 | label4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |Setting and usage
-  |{{#if:{{{region|}}}|Region}}
+  |{{#if:{{{region|}}}|Meelaha}}
   }}
 | data4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
     |{{{setting|}}}
@@ -50,7 +50,7 @@
   |Era
   |{{#if:{{{creator|}}}
   |Users
-  |Native {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |Laqadiisa {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |speakers
     |speakers
     }} }}
@@ -172,7 +172,7 @@ Add speakers2 after the ref:
 <div>{{{dia19|}}}</div>
 <div>{{{dia20|}}}</div>
 }}}}
-| label12 = [[Writing system]]
+| label12 = [[Hab qoraalka]]
 | data12 =  {{#switch: {{lc:{{{script|}}}}}
              | latin
              | [[latin]]
@@ -185,7 +185,7 @@ Add speakers2 after the ref:
 | data13 = {{{posteriori|}}}
 
 | header14 = {{#if:{{{nation|}}}{{{agency|}}}|Official status}}
-| label15 = Official language in
+| label15 = Luqadda rasmiga ah ee
 | data15 = {{{nation|}}}
 | label16 = Recognised minority language in
 | data16 = {{{minority|}}}
