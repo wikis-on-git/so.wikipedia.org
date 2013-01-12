@@ -1,0 +1,33 @@
+{{#switch:{{lc:{{{1|}}}}}
+| afro-asiya | afrasiyac | afroasiya = <nowiki>#faecc8</nowiki>
+| algic | algonkian = lightskyblue
+| altaic = yellowgreen
+| american | american (areal) = <nowiki>#c0dde6</nowiki>
+| andamanese = <nowiki>#c99fee</nowiki>
+| australian | australian (areal) = <nowiki>#eba9ee</nowiki>
+| austroasiatic | austro-asiatic = lightcoral
+| austronesian = pink
+| caucasian | caucasian (areal) = lightgreen
+| conlang | artificial | constructed | constructed language = black
+| creole | mixed | pidgin | creole/pidgin/mixed = tan
+| dravidian = mediumspringgreen
+| eskimo-aleut | eskimo–aleut | eskaleut = lightcyan
+| hmong-mien | miao-yao | hmong–mien | miao–yao = <nowiki>#f2ceee</nowiki>
+| indo-european = <nowiki>#c9ffd9</nowiki>
+| isolate | language isolate | #dddddd = <nowiki>#dddddd</nowiki>
+| khoisan | khoisan (areal) = goldenrod
+| na-dene | na-dené | dene-yeniseian | dené-yeniseian | na–dene | na–dené | dene–yeniseian | dené–yeniseian = <nowiki>#99ddff</nowiki>
+| niger-congo | niger–congo = <nowiki>#ffddaa</nowiki>
+| nilo-saharan | nilo-saharan? = gold
+| palaeosiberian | palaeo-siberian | paleosiberian | paleo-siberian | palaeosiberian (areal) = darkseagreen
+| papuan | papuan (areal) = <nowiki>#fd79da</nowiki>
+| sign | sign language = silver
+| sino-tibetan = salmon
+| kadai | kradai | tai-kadai | tai–kadai = lavender
+| uralic = limegreen
+| uto-aztecan | utoaztecan = <nowiki>#80bfff</nowiki>
+| unclassified | superfamily = white
+| #default =<!--blank-->
+}}<noinclude>
+{{documentation}}
+</noinclude>
