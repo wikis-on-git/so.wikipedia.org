@@ -1,0 +1,4 @@
+{{#if:{{{1|}}}
+|<tt>[http://multitree.linguistlist.org/codes/{{{1|}}} {{{1|}}}]</tt> {{{2|{{{lingname|}}}}}}}}<noinclude>
+{{documentation}}
+</noinclude>
