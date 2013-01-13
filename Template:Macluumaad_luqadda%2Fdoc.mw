@@ -1,0 +1,206 @@
+{{Macluumaad luqadda}}
+=== Adeegso ===
+<pre style="overflow:auto;">
+{{Macluumaad luqadda
+|name          = name of language #REQUIRED
+|altname       = additional name of the language
+|nativename    = native or a second additional name
+|pronunciation = IPA pronunciation of the native name
+|states (state) = countries in which it is mainly spoken
+|region        = geographic region in which it is mainly spoken
+|latd  =  | latm  = | latNS  =  <!-- latitude degrees/minutes/direction -->
+|longd =  | longm = | longEW =  <!-- longitude degrees/minutes/direction -->
+|ethnicity     = people for whom this is the ethnically native language; also good for the ethnic population if different from the number of speakers
+              (although the names chosen for the articles on the people and on the language will generally be the same, it may be appropriate to pipe in the native name of the people here)
+|speakers      = {{formatnum:number of native speakers/signers}}
+|extinct       = date of extinction, or information about extinction; 'speakers' will not display
+|era           = era of use of a historical language, such as one that developed into something else; 'speakers' will not display
+|date          = date of estimate of number of speakers/signers (must start with a 4-digit year: see next)
+|dateprefix    = anything wanted inside the parentheses before the date
+|ref           = reference for the number of speakers/signers. Appears after the (date) field.
+|speakers2     = 2nd line (2nd estimate, 2nd country, L2 speakers, etc.)
+|familycolor   = appropriate language family #REQUIRED
+                 See table below for list of options. Please do not use other names, as they will not be recognised, and the table will be colored grey.
+                 In most cases, 'familycolor' will trigger a default entry for the 'fam1' field, so that field is not necessary (you can continue will 'fam2'),
+                 but you can override this by entering something under 'fam1'. For areal colors (American, Khoisan, Paleosiberian, etc.), you will be prompted
+                 for a 'fam1' entry if you do not provide one. If 'isolate' or 'unclassified' is used, the fam1–xx tree will not display.
+|fam1          = the broadest possible widely accepted [[language family]] of which the language is a part
+|fam2          = a more specific sub-family
+|...
+|fam15         = most specific sub group
+|family        = whatever you want to say; fam1–xx will not display
+|ancestor(2/3) = ancestral or reconstructed forms
+|creator       = name of language creator
+|created       = year of first creation
+|setting       = the use or setting for a created language
+|posteriori    = natural-language sources of a created language
+|dia1          = a primary dialect
+|dia2          = another primary dialect
+|...             (up to 20)
+|dialects      = whatever you want to say
+|stand1        = a standardized register
+|stand2        = a second standardized register
+|...             (up to 6)
+|standards     = whatever you want to say
+|script        = the writing system(s) used for the language by literate speakers
+|nation        = list of countries in which it is an official language
+|minority      = list of countries in which it is a recognised minority language
+|agency        = regulatory body or language academy for the language
+|iso1          = the ISO 639-1 code for the language
+|iso2          = the ISO 639-2 code for the language (not for its family)
+|iso2b         = the ISO 639-2 bibliographic code
+|iso2t         =  the ISO 639-2 terminological code
+|iso3          = the ISO 639-3 code for the language. 
+                 Field will display even if left empty, unless 'lc1' etc. is used.
+                 Use 'none' if the language (not dialect) has no iso3 code, and the article will be added to [[:Category:Languages without iso3 codes]].
+                 Use 'linglist' if it has an iso3 code, but this is maintained at Linguist List instead of at SIL. Add the code itself under |linglist=
+                 (This is not necessary if the SIL page provides its own link to the Linguist List page.)
+|iso3comment   = for comments to not interfere with the link 
+|lc1           = ISO code of the first dialect (the 'iso3' field will not display if empty and this is included)
+|ld1           = name of the first language dialect
+|lc2           = ISO code of the second dialect
+|ld2           = name of the second language dialect
+|...             (up to 45)
+|iso6          = the ISO 639-6 code for the language.
+|linglist      = a private or local Linguist List ISO 639-3 code or substitute for an ISO code; use xxx-xxx format for dialects.
+                 Use for code range qaa–qtz or those involving numerals only; enter other codes under 'iso3' and the reader will be redirected from Ethnologue.
+|lingname      = comment on the Linguist List code or support
+|linglist2/3   = additional Linguist List codes
+|lingname2/3   = additional comments. (If Linguist List has redundant codes, write to them, and they will likely retire them.)
+|lingua        = the Linguasphere code for the language
+|guthrie       = the Guthrie code for Bantu languages
+|aiatsis       = the AIATSIS code for Australian languages (linked)
+|aiatsis2/3    = additional AIATSIS codes
+|aiatsis(2,3)name = name of code, if not that of the info box, or note to appear after code
+|image         = image at top of info box. Use format "image name.png", without "file/image" or brackets.
+|imagesize     = override default image size (currently 250px). Use units ("123px", "12em")
+|imagealt      = alt text for the image
+|imagecaption  = caption to appear under image
+|imageheader   = brief header for image (appears in the left-hand column)
+|map           = image at bottom of info box. Use format "image name.png", without "file/image" or brackets.
+|mapsize       = override default map size (currently 350px). Use units ("123px", "12em"). Affects both maps.
+|mapalt        = alt text for the map
+|mapcaption    = caption to appear under map
+|map2          = a second map
+|mapalt2       = alt text for the second map
+|mapcaption2   = caption to appear under both maps
+|boxsize       = overrides default width of infobox, currently set at 22em. Format must include units ("12em" or "123px").
+                 Useful when an article has various infoboxes aligned in a column. (Box will automatically expand to fix map wider than default box width.)
+|notice        = IPA/ipa [adds notice for IPA notation]
+|notice        = Indic/indic [adds notice for Indic scripts]
+|notice        = signnotice [adds links for sign languages]
+|notice2       = [adds a 2nd notice]
+}}
+</pre>
+
+== Tusaale ==
+{{Macluumaad luqadda
+|name = English 
+|pronunciation = {{IPAc-en|ˈ|ɪ|ŋ|ɡ|l|ɪ|ʃ}}<ref>[http://www.oxfordadvancedlearnersdictionary.com/dictionary/english_2 English Adjective] – Oxford Advanced Learner's Dictionary – Oxford University Press ©2010.</ref> |region = (see [[#Geographical distribution|below]]) 
+|speakers = 360&nbsp;million 
+|date = 2010 
+|dateprefix = cited&nbsp;
+|ref = <ref name=NE>[[Nationalencyklopedin]] "Världens 100 största språk 2010" The World's 100 Largest Languages in 2010</ref> 
+|speakers2 = [[Second language|L2]]: 375&nbsp;million and 750 million [[English as a foreign or second language|EFL]]<ref name=BritishCouncilEnglish>{{cite web |url=http://www.britishcouncil.org/learning-elt-future.pdf |title=Future of English|accessdate=24 August 2011 |publisher=The British Council}} (page 10)</ref> 
+|familycolor = Indo-European 
+|fam2 = [[Germanic languages|Germanic]] 
+|fam3 = [[West Germanic languages|West Germanic]] 
+|fam4 = [[Anglo-Frisian languages|Anglo–Frisian]] 
+|fam5 = [[English languages|Anglic]] 
+|script = [[English alphabet]] ([[Latin script]]) 
+|nation = [[List of countries where English is an official language#Sovereign states|54 countries]]<br />[[List of countries where English is an official language#Non-sovereign entities|27 non-sovereign entities]]<br />[[United Nations]]<br />[[European Union]]<br />[[Commonwealth of Nations]]<br />[[Council of Europe]]<br />[[International Olympic Committee|IOC]]<br />[[NATO]]<br />[[North American Free Trade Agreement|NAFTA]]<br />[[Organization of American States|OAS]]<br />[[Organisation for Economic Co-operation and Development|OECD]]<br />[[Organisation of Islamic Cooperation|OIC]]<br />[[Pacific Islands Forum|PIF]]<br />[[UKUSA Agreement]] 
+|iso1 = en 
+|iso2 = eng 
+|iso3 = eng 
+|lingua = 52-ABA 
+|map = Anglospeak.svg 
+|mapcaption = {{legend|#0000ff|Wadamada uu ingiriisku yahay luqada hooyo dadka inta badan}} {{legend|#8ddada|Wadamada luqadooda rasmiga ay tahay laakiin aan udhalan}} 
+|notice = IPA 
+}}
+<pre style="overflow:auto;">
+{{Infobox language 
+|name = English 
+|dhawaq = {{IPAc-en|ˈ|ɪ|ŋ|ɡ|l|ɪ|ʃ}}<ref>[http://www.oxfordadvancedlearnersdictionary.com/dictionary/english_2 English Adjective] – Oxford Advanced Learner's Dictionary – Oxford University Press ©2010.</ref> |region = (see [[#Geographical distribution|below]]) 
+|speakers = 360&nbsp;million 
+|date = 2010 
+|dateprefix = cited&amp;nbsp;
+|ref = <ref name=NE>[[Nationalencyklopedin]] "Världens 100 största språk 2010" The World's 100 Largest Languages in 2010</ref> 
+|speakers2 = [[Second language|L2]]: 375&nbsp;million and 750 million [[English as a foreign or second language|EFL]]<ref name=BritishCouncilEnglish>{{cite web |url=http://www.britishcouncil.org/learning-elt-future.pdf |title=Future of English|accessdate=24 August 2011 |publisher=The British Council}} (page 10)</ref> 
+|familycolor = Indo-European 
+|fam2 = [[Germanic languages|Germanic]] 
+|fam3 = [[West Germanic languages|West Germanic]] 
+|fam4 = [[Anglo-Frisian languages|Anglo–Frisian]] 
+|fam5 = [[English languages|Anglic]] 
+|script = [[English alphabet]] ([[Latin script]]) 
+|nation = [[List of countries where English is an official language#Sovereign states|54 countries]]<br />[[List of countries where English is an official language#Non-sovereign entities|27 non-sovereign entities]]<br />[[United Nations]]<br />[[European Union]]<br />[[Commonwealth of Nations]]<br />[[Council of Europe]]<br />[[International Olympic Committee|IOC]]<br />[[NATO]]<br />[[North American Free Trade Agreement|NAFTA]]<br />[[Organization of American States|OAS]]<br />[[Organisation for Economic Co-operation and Development|OECD]]<br />[[Organisation of Islamic Cooperation|OIC]]<br />[[Pacific Islands Forum|PIF]]<br />[[UKUSA Agreement]] 
+|iso1 = en 
+|iso2 = eng 
+|iso3 = eng 
+|lingua = 52-ABA 
+|map = Anglospeak.svg 
+|mapcaption = {{legend|#0000ff|Countries where English the native language of the majority of the population}} {{legend|#8ddada|Countries where English is an official but not primary language}} 
+|notice = IPA 
+}}
+</pre>
+
+
+
+[[ar:قالب:لغة]]
+[[arc:ܩܠܒܐ:ܨܢܕܘܩ ܪܡܙܐ ܕܠܫܢܐ]]
+[[az:Şablon:Dil]]
+[[ba:Ҡалып:Тел]]
+[[be:Шаблон:Картка:Мова]]
+[[be-x-old:Шаблён:Інфармацыя пра мову]]
+[[bg:Шаблон:Език]]
+[[bn:টেমপ্লেট:Infobox language]] 
+[[ca:Template:Llengua]]
+[[cs:Šablona:Infobox jazyk]]
+[[cy:Nodyn:Gwybodlen iaith]]
+[[da:Skabelon:Infoboks sprog]]
+[[de:Vorlage:Infobox Sprache]]
+[[dsb:Pśedłoga:Infokašćik rěc]]
+[[el:Πρότυπο:Πληροφορίες γλώσσας]]
+[[es:Plantilla:Ficha de idioma]]
+[[eo:Ŝablono:Informkesto lingvo]]
+[[eu:Txantiloi:Hizkuntza infotaula]]
+[[fa:Template:Infobox language]]
+[[hif:Template:Infobox language]]
+[[fr:Modèle:Infobox Langue]]
+[[fy:Berjocht:Taaltabel]]
+[[gd:Template:Cànan]]
+[[ko:틀:언어 정보]]
+[[hsb:Předłoha:Infokašćik rěč]]
+[[io:Template:Linguo]]
+[[ilo:Template:Pagsasao]]
+[[ia:Patrono:Infobox lingua]]
+[[id:Templat:Infobox Bahasa]]
+[[it:Template:lingua]]
+[[ka:თარგი:ინფოდაფა ენა]]
+[[km:ទំព័រគំរូ:ប្រអប់ព័ត៌មាន ភាសា]]
+[[ku:Şablon:Ziman]]
+[[la:Formula:Lingua]]
+[[lv:Veidne:Infobox Language]]
+[[li:Sjabloon:Taal]]
+[[hu:Sablon:Nyelv]]
+[[mk:Шаблон:Инфокутија Јазик]]
+[[mr:साचा:माहितीचौकट भाषा]]
+[[no:Mal:Infoboks språk]]
+[[ja:Template:Infobox Language]]
+[[tpi:Template:Infobokis Tokples]]
+[[pl:Szablon:Język infobox]]
+[[pt:Predefinição:Info/Língua]]
+[[ru:Шаблон:Язык]]
+[[simple:Template:Infobox Language]]
+[[sk:Šablóna:Infobox jazyk]]
+[[sl:Predloga:Infopolje Jezik]]
+[[sr:Шаблон:Кутијица за језик]]
+[[fi:Malline:Kieli]]
+[[sv:Mall:Språk]]
+[[szl:Szablon:Godka infobox]]
+[[tt:Template:Tel]]
+[[th:Template:กล่องข้อมูล ภาษา]]
+[[tr:Şablon:Dil bilgi kutusu]]
+[[uk:Шаблон:Картка:Мова]]
+[[vi:Tiêu bản:Tóm tắt về ngôn ngữ]]
+[[zh:Template:Infobox Language]]
+</includeonly>
