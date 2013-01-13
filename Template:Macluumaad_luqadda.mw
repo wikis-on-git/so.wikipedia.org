@@ -21,8 +21,8 @@
   | Created&nbsp;by
   | {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |Spoken
-    |Spoken
-    }} natively in
+    |Ku hadla
+    }} Dad udhashay
   }}
 | data2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |{{{creator|–}}}
@@ -50,9 +50,9 @@
   |Era
   |{{#if:{{{creator|}}}
   |Users
-  |Laqadiisa {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
-    |ku hadla
-    |ku hadla
+  |Afkiisa hooyo {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+    |speakers
+    |Ku hadla
     }} }}
   }} }}
 | data7 =<!--
