@@ -51,8 +51,8 @@
   |{{#if:{{{creator|}}}
   |Users
   |Laqadiisa {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
-    |speakers
-    |speakers
+    |ku hadla
+    |ku hadla
     }} }}
   }} }}
 | data7 =<!--
@@ -84,7 +84,7 @@ Add speakers2 after the ref:
 
 | label8 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |Purpose
-  |[[Luqadda qoyska]]
+  |[[Luqadda kudhow]]
   }}
 | data8 = <div style="text-align:left;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
   |''Unknown''<includeonly>[[Category:Languages without classification]]</includeonly>
@@ -184,7 +184,7 @@ Add speakers2 after the ref:
 | label13 = Sources
 | data13 = {{{posteriori|}}}
 
-| header14 = {{#if:{{{nation|}}}{{{agency|}}}|Official status}}
+| header14 = {{#if:{{{nation|}}}{{{agency|}}}|Heer caalami}}
 | label15 = Luqadda rasmiga ah ee
 | data15 = {{{nation|}}}
 | label16 = Recognised minority language in
@@ -276,7 +276,7 @@ Add speakers2 after the ref:
 | label28 = &nbsp;
 | data28  = {{Infobox language/linguistlist|1={{{linglist6|}}}|2={{{lingname6|}}}}}
 
-| label29 = [[Linguasphere Observatory|Linguasphere]]
+| label29 = Luqadda la adeegsado
 | data29 = {{#if:{{{lingua|}}}|<tt>{{{lingua}}}</tt>}}
 
 | label30 = [[Guthrie classification of Bantu languages|Guthrie code]]
