@@ -1,0 +1,11 @@
+{{#switch: {{{1}}}
+| =<!-- blank -->
+| e16 = {{#tag:ref|{{#if:{{{iso3|}}}|{{Ethnologue16|{{{iso3|}}}|{{{name|}}}}}}}{{#if:{{{lc1|}}}|{{#if:{{{iso3|}}}|<br>}}{{Ethnologue16|{{{lc1|}}}|{{{ld1|}}}}}}}{{#if:{{{lc2|}}}|<br>{{Ethnologue16|{{{lc2|}}}|{{{ld2|}}}}}}}{{#if:{{{lc3|}}}|<br>{{Ethnologue16|{{{lc3|}}}|{{{ld3|}}}}}}}|name=e16}}<!--
+
+(the e16 switch lacks a final 'else' parameter. this is because it shouldn't generate a reference if we don't supply an ISO code for it to refer to.)
+
+-->| e15 = {{#tag:ref|{{Ethnologue15|{{{iso3|}}}|{{{name|}}}}}|name=e15}}
+| #default = {{{1|}}}
+}}<noinclude>{{documentation}}
+
+</noinclude>
