@@ -16,96 +16,96 @@
 | label3     = [[Romanization|Romanized]] name
 | data3      = {{{romanized_name<includeonly>|</includeonly>}}}
 
-| label4     = {{#if:{{{defunct|}}}|[[Types of business entity|Former type]]|[[Types of business entity|Type]]}}
+| label4     = {{#if:{{{defunct|}}}Qaabkii hore|Qaabka}}
 | class4     = category
 | data4      = {{{type<includeonly>|{{{company_type|}}}</includeonly>}}}
 
-| label5     = [[Ticker symbol|Traded as]]
+| label5     = Seylad
 | data5      = {{{traded_as<includeonly>|</includeonly>}}}
 
-| label6     = Industry
-| class6     = category
+| label6     = Agabka
+| class6     = Qaybta
 | data6      = {{{industry<includeonly>|</includeonly>}}}
 
-| label7     = Genre
-| class7     = category
+| label7     = Howsha
+| class7     = Qaybta
 | data7      = {{{genre<includeonly>|</includeonly>}}}
 
-| label8     = Fate
+| label8     = Hadafka
 | data8      = {{{fate<includeonly>|</includeonly>}}}
 
-| label9     = Predecessor(s)
+| label9     = Horay loo gaaray
 | data9      = {{{predecessor<includeonly>|{{{Predecessor|}}}</includeonly>}}}
 
-| label10    = Successor(s)
+| label10    = Horay loo gaaray
 | data10     = {{{successor<includeonly>|</includeonly>}}}
 
-| label11    = Founded
+| label11    = Lagu asaasay
 | data11     = {{{foundation<includeonly>|</includeonly>}}}
 
-| label12    = Founder(s)
-| class12    = agent
+| label12    = Aas aasayaasha
+| class12    = Wakiil
 | data12     = {{{founder<includeonly>|</includeonly>}}}
 
-| label13     = Defunct
+| label13     = Geeriyooday
 | data13      = {{{defunct<includeonly>|</includeonly>}}}
 
-| label14    = Headquarters
+| label14    = Xarunta guud
 | class14    = {{#if:{{{location|}}}|label|adr}}
 | data14     = {{#if: {{{location_city<includeonly>|</includeonly>}}}|<span class="locality">{{{location_city}}}</span>{{#if: {{{location_country<includeonly>|</includeonly>}}}|,&#32;}}}}{{#if: {{{location_country<includeonly>|</includeonly>}}}|<span class="country-name">{{{location_country}}}</span>}}
 {{#if:{{{location|}}}|{{{location}}} }}
 
-| label15    = Number of locations
+| label15    = Tirada baraha
 | data15     = {{{locations<includeonly>|</includeonly>}}}
 
-| label16    = Area served
+| label16    = Meelaha shaqada
 | data16     = {{{area_served<includeonly>|</includeonly>}}}
 
-| label17    = Key people
-| class17    = agent
+| label17    = Dadka haga
+| class17    = Wakiil
 | data17     = {{{key_people<includeonly>|</includeonly>}}}
 
-| label18    = Products
+| label18    = Wax soo saar
 | data18     = {{{products<includeonly>|</includeonly>}}}
 
-| label19    = Production output  
+| label19    = Soo saaris iyo bixin  
 | data19     = {{{production<includeonly>|</includeonly>}}}
 
-| label20    = Services
-| class20    = category
+| label20    = shaqooyinka
+| class20    = Qaybta
 | data20     = {{{services<includeonly>|</includeonly>}}}
 
-| label21    = Revenue
+| label21    = Dakhliga
 | data21     = {{{revenue<includeonly>|</includeonly>}}}
 
-| label22    = [[Earnings before interest and taxes|Operating income]]
+| label22    = Dakhliga soo gal
 | data22     = {{{operating_income<includeonly>|</includeonly>}}}
 
 | label23    = {{#ifeq:{{{intl|}}}|yes|[[Net income|Profit]]|[[Net income]]}}
 | data23     = {{{net_income<includeonly>|</includeonly>}}}
 
-| label24    = [[Assets under management|AUM]]
+| label24    = Dhaqaalaha maamulka
 | data24     = {{{aum<includeonly>|</includeonly>}}}
 
-| label25    = [[Asset|Total assets]]
+| label25    = Dhaqaalaha
 | data25     = {{{assets<includeonly>|</includeonly>}}}
 
-| label26    = [[Equity (finance)|Total equity]]
+| label26    = Saamiga maalgelyeyaasha
 | data26     = {{{equity<includeonly>|</includeonly>}}}
 
-| label27    = Owner(s)
+| label27    = Dadka iska leh
 | data27     = {{{owner<includeonly>|</includeonly>}}}
 
-| label28    = Employees
+| label28    = Shaqaalaha
 | data28     = {{{num_employees<includeonly>|</includeonly>}}}
 
-| label29    = [[Holding company|Parent]]
+| label29    = Shirkadaha ku midoobay
 | data29     = {{{parent<includeonly>|</includeonly>}}}
 
-| label30    = [[Division (business)|Divisions]]
+| label30    = Qaybaha shaqada
 | data30     = {{{divisions<includeonly>|</includeonly>}}}
 
-| label31    = [[Subsidiary|Subsidiaries]]
+| label31    = Shirkado ka farcamay
 | data31     = {{{subsid<includeonly>|</includeonly>}}}
 
 | label32    = Website
