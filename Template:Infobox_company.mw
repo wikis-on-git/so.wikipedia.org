@@ -7,13 +7,13 @@
 | image      = {{{logo<includeonly>|{{{company_logo|}}}</includeonly>}}}
 | caption    = {{{caption|}}}
 
-| label1     = {{nowrap|[[Doing business as|Trading name]]}}
+| label1     = {{nowrap|Magac ganacsi}}
 | data1      = {{{trading_name<includeonly>|</includeonly>}}}
 
-| label2     = Native name
+| label2     = Magaca Rasmiga
 | data2      = {{{native_name<includeonly>|</includeonly>}}}
 
-| label3     = [[Romanization|Romanized]] name
+| label3     = Magaca loo yaqaan
 | data3      = {{{romanized_name<includeonly>|</includeonly>}}}
 
 | label4     = {{#if:{{{defunct|}}}Qaabkii hore|Qaabka}}
@@ -81,7 +81,7 @@
 | label22    = Dakhliga soo gal
 | data22     = {{{operating_income<includeonly>|</includeonly>}}}
 
-| label23    = {{#ifeq:{{{intl|}}}|yes|[[Net income|Profit]]|[[Net income]]}}
+| label23    = {{#ifeq:{{{intl|}}}|yes|Faaiido}}
 | data23     = {{{net_income<includeonly>|</includeonly>}}}
 
 | label24    = Dhaqaalaha maamulka
