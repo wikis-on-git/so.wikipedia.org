@@ -1,0 +1,372 @@
+{| class="infobox geography" style="width: 22em; font-size: 88%"
+! colspan=2 class="mergedtoprow" style="text-align: center; line-height: 1.2em; font-size: 125%" | {{{currency_name|{{PAGENAME}} }}}
+{{!}}- {{#if:{{{currency_name_in_local|}}}|class="mergedtoprow"}}
+{{#if:{{{currency_name_in_local|}}}|
+! colspan=2 class="mergedtoprow" style="text-align: center; line-height: 1.2em; font-size: 100%" {{!}} {{{currency_name_in_local}}}
+{{!}}- {{#if:{{{image_1|}}}{{{image_2|}}}|class="mergedtoprow"}}
+}}
+{{#if:{{{image_1|}}}{{{image_2|}}}|
+{{!}} colspan=2 class="maptable" align="center" style="padding: 0.3em 0.6em 0.3em 0.6em" {{!}}
+{{{!}} width="100%" style="margin: 0 auto; background: none; text-align: center"
+{{!}} style="vertical-align: middle; text-align: center; {{#if:{{{image_background_1|}}} | background: {{{image_background_1}}}}}" {{!}} [[file:{{{image_1}}}|{{{image_width_1|{{#if:{{{image_2|}}}|126|252}}}}}px|{{{image_title_1|}}}]]
+{{#if:{{{image_2|}}} | {{!}} style="vertical-align: middle; text-align: center; {{#if:{{{image_background_2|}}}|background:{{{image_background_2}}}}}" {{!}} [[file:{{{image_2}}}|{{{image_width_2|126}}}px|{{{image_title_2|}}}]] }}
+{{!}}- style="font-size:95%"
+{{#if:{{{image_1|}}} | {{!}} {{{image_title_1|}}} }}
+{{#if:{{{image_2|}}} | {{!}} {{{image_title_2|}}} }}
+{{!}}}
+{{!}}-
+}}
+{{#if:{{{iso_code|}}}|
+! [[ISO 4217|ISO 4217 fure]]
+{{!}} <code>{{{iso_code}}}</code>
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{issuing_authority|}}}|
+! {{nowrap|[[{{{issuing_authority_title|Bankiga dhexe}}}]]}}
+{{!}} {{{issuing_authority}}}
+{{!}}-
+}}
+|- class="mergedbottomrow"
+{{#ifeq:{{#expr:{{#if:{{{issuing_authority|}}}|1|0}} and {{#if:{{{issuing_authority_website|}}}|1|0}} }}|1|
+{{!}} Website
+{{!}} [http://{{{issuing_authority_website|}}} {{{issuing_authority_website|}}}]
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{date_of_introduction|}}}|
+! Date of introduction
+{{!}} {{{date_of_introduction}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{date_of_introduction|}}}|1|0}} and {{#if:{{{date_of_introduction_source|}}}|1|0}} }}|1|
+{{!}} Source
+{{!}} {{{date_of_introduction_source}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+! {{#if:{{{unofficial_users|}}}|{{nowrap|Adeegsade rasmi ah}}|User(s)}}
+{{!}} {{{using_countries}}}
+|- class="mergedbottomrow"
+{{#if:{{{unofficial_users|}}}|
+! {{nowrap|Adeegsade aan rasmi ahayn)}}
+{{!}} {{{unofficial_users}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{inflation_rate|}}}|
+! [[Sicir barar]]
+{{!}} {{{inflation_rate}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{inflation_rate|}}}|1|0}} and {{#if:{{{inflation_source_date|}}}|1|0}} }}|1|
+{{!}} Source
+{{!}} {{{inflation_source_date}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{inflation_rate|}}}|1|0}} and {{#if:{{{inflation_method|}}}|1|0}} }}|1|
+{{!}} Habka
+{{!}} {{{inflation_method}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{ERM_since|}}}|
+! [[European Exchange Rate Mechanism|ERM]]
+{{!}}
+{{!}}- class="mergedrow"
+{{!}} Since
+{{!}} {{{ERM_since}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{ERM_withdraw|}}}|1|0}} }}|1|
+{{!}} Withdrawn
+{{!}} {{{ERM_withdraw}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{ERM_fixed_rate_since|}}}|1|0}} }}|1|
+{{!}} Fixed rate since
+{{!}} {{{ERM_fixed_rate_since}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{euro_replace_non_cash|}}}|1|0}} }}|1|
+{{!}} Replaced by €, non cash
+{{!}} {{{euro_replace_non_cash}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{euro_replace_cash|}}}|1|0}} }}|1|
+{{!}} Replaced by €, cash
+{{!}} {{{euro_replace_cash}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{ERM_fixed_rate|}}}|1|0}} }}|1|
+{{!}} <span class="nounderlines">[[Euro|€]]</span> =
+{{!}} {{{ERM_fixed_rate}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{ERM_since|}}}|1|0}} and {{#if:{{{ERM_band|}}}|1|0}} }}|1|
+{{!}} Band
+{{!}} {{{ERM_band}}}
+{{!}}-
+}}
+|-
+{{#if:{{{pegged_with|}}}|
+! [[Fixed exchange rate|Pegged with]]
+{{!}} {{{pegged_with}}}
+{{!}}-
+}}
+{{#if:{{{pegged_by|}}}|
+! [[Qoondo]]
+{{!}} {{{pegged_by}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{superunit_ratio_1|}}}|
+! Superunit
+{{!}}
+{{!}}- class="mergedrow"
+{{!}} {{{superunit_ratio_1}}}
+{{!}} {{{superunit_name_1}}}{{#if:{{{superunit_inline_note_1|}}}|<br /><small>{{{superunit_inline_note_1}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{superunit_ratio_2|}}}|
+{{!}} {{{superunit_ratio_2}}}
+{{!}} {{{superunit_name_2}}}{{#if:{{{superunit_inline_note_2|}}}|<br /><small>{{{superunit_inline_note_2}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{superunit_ratio_3|}}}|
+{{!}} {{{superunit_ratio_3}}}
+{{!}} {{{superunit_name_3}}}{{#if:{{{superunit_inline_note_3|}}}|<br /><small>{{{superunit_inline_note_3}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{superunit_ratio_4|}}}|
+{{!}} {{{superunit_ratio_4}}}
+{{!}} {{{superunit_name_4}}}{{#if:{{{superunit_inline_note_4|}}}|<br /><small>{{{superunit_inline_note_4}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{superunit_ratio_5|}}}|
+{{!}} {{{superunit_ratio_5}}}
+{{!}} {{{superunit_name_5}}}{{#if:{{{superunit_inline_note_5|}}}|<br /><small>{{{superunit_inline_note_5}}}</small>}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{subunit_ratio_1|}}}|
+! Subunit
+{{!}}
+{{!}}- class="mergedrow"
+{{!}} {{{subunit_ratio_1}}}
+{{!}} {{{subunit_name_1}}}{{#if:{{{subunit_inline_note_1|}}}|<br /><small>{{{subunit_inline_note_1}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{subunit_ratio_2|}}}|
+{{!}} {{{subunit_ratio_2}}}
+{{!}} {{{subunit_name_2}}}{{#if:{{{subunit_inline_note_2|}}}|<br /><small>{{{subunit_inline_note_2}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{subunit_ratio_3|}}}|
+{{!}} {{{subunit_ratio_3}}}
+{{!}} {{{subunit_name_3}}}{{#if:{{{subunit_inline_note_3|}}}|<br /><small>{{{subunit_inline_note_3}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{subunit_ratio_4|}}}|
+{{!}} {{{subunit_ratio_4}}}
+{{!}} {{{subunit_name_4}}}{{#if:{{{subunit_inline_note_4|}}}|<br /><small>{{{subunit_inline_note_4}}}</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{subunit_ratio_5|}}}|
+{{!}} {{{subunit_ratio_5}}}
+{{!}} {{{subunit_name_5}}}{{#if:{{{subunit_inline_note_5|}}}|<br /><small>{{{subunit_inline_note_5}}}</small>}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{symbol|}}}|
+! [[Sumad (Lacageed)|Sumad]]
+{{!}} {{{symbol}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_1|}}}|1|0}} and {{#if:{{{symbol_subunit_1|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_1}}}
+{{!}} {{{symbol_subunit_1}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_2|}}}|1|0}} and {{#if:{{{symbol_subunit_2|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_2}}}
+{{!}} {{{symbol_subunit_2}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_3|}}}|1|0}} and {{#if:{{{symbol_subunit_3|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_3}}}
+{{!}} {{{symbol_subunit_3}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_4|}}}|1|0}} and {{#if:{{{symbol_subunit_4|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_4}}}
+{{!}} {{{symbol_subunit_4}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_5|}}}|1|0}} and {{#if:{{{symbol_subunit_5|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_5}}}
+{{!}} {{{symbol_subunit_5}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{nickname|}}}|
+! Loo yaqaan
+{{!}} {{{nickname}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_1|}}}|1|0}} and {{#if:{{{nickname_subunit_1|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_1}}}
+{{!}} {{{nickname_subunit_1}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_2|}}}|1|0}} and {{#if:{{{nickname_subunit_2|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_2}}}
+{{!}} {{{nickname_subunit_2}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_3|}}}|1|0}} and {{#if:{{{nickname_subunit_3|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_3}}}
+{{!}} {{{nickname_subunit_3}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_4|}}}|1|0}} and {{#if:{{{nickname_subunit_4|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_4}}}
+{{!}} {{{nickname_subunit_4}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_5|}}}|1|0}} and {{#if:{{{nickname_subunit_5|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_5}}}
+{{!}} {{{nickname_subunit_5}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{plural|}}}{{{plural_slavic|}}}{{{no_plural|}}}|
+! [[Wadar]]tooda
+{{!}} {{{plural|}}}{{#if:{{{plural_slavic|}}}|<small>The language(s) of this currency belong(s) to the [[Slavic languages]]. There is more than one way to construct plural forms.</small>}}{{#if:{{{no_plural|}}}|<small>The language(s) of this currency does not have a morphological plural distinction.</small>}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_1|}}}|1|0}} and {{#if:{{{plural_subunit_1|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_1}}}
+{{!}} {{{plural_subunit_1}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_2|}}}|1|0}} and {{#if:{{{plural_subunit_2|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_2}}}
+{{!}} {{{plural_subunit_2}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_3|}}}|1|0}} and {{#if:{{{plural_subunit_3|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_3}}}
+{{!}} {{{plural_subunit_3}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_4|}}}|1|0}} and {{#if:{{{plural_subunit_4|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_4}}}
+{{!}} {{{plural_subunit_4}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#ifeq:{{#expr:{{#if:{{{subunit_name_5|}}}|1|0}} and {{#if:{{{plural_subunit_5|}}}|1|0}} }}|1|
+{{!}} {{{subunit_name_5}}}
+{{!}} {{{plural_subunit_5}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{used_coins|}}}{{{frequently_used_coins|}}}{{{rarely_used_coins|}}}|
+! {{#if:{{{coin_article|}}}|Macdin ka samaysan}}''
+{{!}} {{{used_coins|}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{frequently_used_coins|}}}|
+{{!}} Freq. used
+{{!}} {{{frequently_used_coins}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{rarely_used_coins|}}}|
+{{!}} Rarely used
+{{!}} {{{rarely_used_coins}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{used_banknotes|}}}{{{frequently_used_banknotes|}}}{{{rarely_used_banknotes|}}}|
+! {{#if:{{{banknote_article|}}}|Ka samaysan warqad}}''
+{{!}} {{{used_banknotes|}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{frequently_used_banknotes|}}}|
+{{!}} Freq. used
+{{!}} {{{frequently_used_banknotes}}}
+{{!}}-
+}}
+|- class="mergedrow"
+{{#if:{{{rarely_used_banknotes|}}}|
+{{!}} Rarely used
+{{!}} {{{rarely_used_banknotes}}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{printer|}}}|
+! [[Daabacaad]]
+{{!}} {{{printer}}}
+{{!}}-
+}}
+|- class="mergedbottomrow"
+{{#ifeq:{{#expr:{{#if:{{{printer|}}}|1|0}} and {{#if:{{{printer_website|}}}|1|0}} }}|1|
+{{!}} Website
+{{!}} {{#if:{{{printer_override_with_original_text|}}} |{{{printer_website}}}|[http://{{{printer_website|}}} {{{printer_website|}}}]}}
+{{!}}-
+}}
+|- class="mergedtoprow"
+{{#if:{{{mint|}}}|
+! Samaynta
+{{!}} {{{mint}}}
+{{!}}-
+}}
+|- class="mergedbottomrow"
+{{#ifeq:{{#expr:{{#if:{{{mint|}}}|1|0}} and {{#if:{{{mint_website|}}}|1|0}} }}|1|
+{{!}} Website
+{{!}} {{#if:{{{mint_override_with_original_text|}}} |{{{mint_website}}}|[http://{{{mint_website|}}} {{{mint_website|}}}]}}
+{{!}}-
+}}
+{{#if:{{{obsolete_notice|}}}|
+{{!}} colspan=2 {{!}} <small>This infobox shows the latest status before this currency was rendered obsolete.</small>
+{{!}}-
+}}
+{{#if:{{{footnotes|}}}|
+{{!}} colspan=2 {{!}} <small>{{{footnotes}}}</small>
+}}
+|}<noinclude>{{doc}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
