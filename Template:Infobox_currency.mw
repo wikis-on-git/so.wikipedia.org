@@ -35,18 +35,18 @@
 }}
 |- class="mergedtoprow"
 {{#if:{{{date_of_introduction|}}}|
-! Date of introduction
+! Taariikhda ay bilaabantay
 {{!}} {{{date_of_introduction}}}
 {{!}}-
 }}
 |- class="mergedrow"
 {{#ifeq:{{#expr:{{#if:{{{date_of_introduction|}}}|1|0}} and {{#if:{{{date_of_introduction_source|}}}|1|0}} }}|1|
-{{!}} Source
+{{!}} Xigasho
 {{!}} {{{date_of_introduction_source}}}
 {{!}}-
 }}
 |- class="mergedtoprow"
-! {{#if:{{{unofficial_users|}}}|{{nowrap|Adeegsade rasmi ah}}|User(s)}}
+! {{#if:{{{unofficial_users|}}}|{{nowrap|Adeegsade rasmi ah}}|Adeegsade}}
 {{!}} {{{using_countries}}}
 |- class="mergedbottomrow"
 {{#if:{{{unofficial_users|}}}|
@@ -163,7 +163,7 @@
 }}
 |- class="mergedtoprow"
 {{#if:{{{subunit_ratio_1|}}}|
-! Subunit
+! Qaybaha
 {{!}}
 {{!}}- class="mergedrow"
 {{!}} {{{subunit_ratio_1}}}
@@ -310,13 +310,13 @@
 }}
 |- class="mergedrow"
 {{#if:{{{frequently_used_coins|}}}|
-{{!}} Freq. used
+{{!}} Toos loo. adeegsado
 {{!}} {{{frequently_used_coins}}}
 {{!}}-
 }}
 |- class="mergedrow"
 {{#if:{{{rarely_used_coins|}}}|
-{{!}} Rarely used
+{{!}} Aan badanaa la adeegsan
 {{!}} {{{rarely_used_coins}}}
 {{!}}-
 }}
@@ -328,13 +328,13 @@
 }}
 |- class="mergedrow"
 {{#if:{{{frequently_used_banknotes|}}}|
-{{!}} Freq. used
+{{!}} Toos loo. adeegsado
 {{!}} {{{frequently_used_banknotes}}}
 {{!}}-
 }}
 |- class="mergedrow"
 {{#if:{{{rarely_used_banknotes|}}}|
-{{!}} Rarely used
+{{!}} Aan badanaa la adeegsan
 {{!}} {{{rarely_used_banknotes}}}
 {{!}}-
 }}
