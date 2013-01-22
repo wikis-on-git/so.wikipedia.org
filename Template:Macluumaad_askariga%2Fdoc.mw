@@ -1,0 +1,176 @@
+== Adeegso ==
+}}
+=== Macluumaad askariga ===
+{{Macluumaad askariga
+|name          = Clifford Carwood Lipton
+|birth_date    = {{Dhalashada iyo sanadka|1920|01|30}}
+|death_date    = {{Dhimashada iyo sanadka|2001|12|16|1920|01|30}}
+|image         = 
+|caption       = Carwood Lipton at [[Camp Toccoa]], [[Georgia (U.S. state)|Georgia]]
+|nickname      = Lip
+|birth_place   = [[Huntington, West Virginia|Huntington]], [[West Virginia]]
+|death_place   = 
+|allegiance    = [[United States]]
+|branch        = [[United States Army]]
+|serviceyears  = 1942–1945
+|rank          = [[Second Lieutenant]]
+|unit          = [[E Company, 506th Infantry Regiment (United States)|Easy Company]], 2nd [[Battalion]], [[101st Airborne Division]], [[506th Parachute Infantry Regiment]]
+|commands      = 
+|battles       = 
+|awards        = {{Plainlist|
+* Purple Heart (3[[Oak leaf cluster|OLC]])
+* Bronze Star (2[[Oak leaf cluster|OLC]])
+* [[World War II Victory Medal]]
+* [[Presidential Unit Citation (US)|Presidential Unit Citation]] (2[[Oak leaf cluster|OLC]])
+* [[Orange Lanyard|Orange Lanyard of the Royal Netherlands Army]]
+}}
+|spouse        = Nancy Lipton
+|relations     = Eric Lipton (son), Mary Lipton (daughter)
+|laterwork     = Glass Executive
+}}
+
+A military person infobox may be used to summarize information about an individual military person, such as a soldier or military leader.
+
+The infobox should be added using the {{tl|Macluumaad askariga}} template, as shown below:
+
+<pre style = overflow:auto>
+{{Macluumaad askariga
+| honorific_prefix  = 
+| name              = 
+| honorific_suffix  = 
+| native_name       = 
+| native_name_lang  = 
+| image         = 
+| image_size    = 
+| alt           = 
+| caption       = 
+| birth_date    = <!-- {{Dhalashada iyo sanadka|YYYY|MM|DD}} or {{Dhalashada iyo sanadka|YYYY|MM|DD}} if dead-->
+| death_date    = <!-- {{Dhimashada iyo sanadka|YYYY|MM|DD|YYYY|MM|DD}} death date first, then birth date -->
+| birth_place   = 
+| death_place   = 
+| placeofburial = 
+| placeofburial_label = 
+| placeofburial_coordinates = <!-- {{Coord|LAT|LONG|display=inline,title}} -->
+| nickname      = 
+| birth_name    = 
+| allegiance    = 
+| branch        = 
+| serviceyears  = 
+| rank          = 
+| servicenumber = 
+| unit          = 
+| commands      = 
+| battles       = 
+| battles_label = 
+| awards        =
+| spouse        = <!-- Add spouse if reliably sourced --> 
+| relations     =
+| laterwork     = 
+| signature     = 
+| website       = <!-- {{URL|example.com}} -->
+}}</pre>
+
+'''Note''': When using parameters, avoid the ambiguous abbreviation "N/A", and instead use "unknown" or "none". All subjective or qualitative judgements and numerical quantities or statistics must be cited to a reliable source (see [[WP:MILMOS#CITE]]). Please keep in mind [[WP:ICONDECORATION]] for the use of images.
+
+* '''honorific_prefix''' – titles such as "Sir", "General".
+* '''name''' – the full name of the person.
+* '''honorific_sufffix''' – post-nominal honours such as "OBE"
+* '''native_name''' – the person's name in their own language
+* '''native_name_lang''' – ISO 639-2 code e.g. "fre" or "fra" for French. If more than one, use {{Tl|lang}} for {{Para|native_name}} instead
+* '''image''' – ''optional'' – an image of the person.  The image must be given in the form <tt><nowiki>Example.jpg</nowiki></tt>; an image of a nation's highest award, such as the [[Medal of Honor]] or [[Victoria Cross]], may be displayed for recipients of it, especially as a placeholder.
+* '''image_size''' – ''optional'' – the size of the image in px. Give the number without the px suffix (for example, ''220'' rather than ''220px'').
+* '''alt''' [[Wikipedia:Alternative text for images|Alt text]], if used, must be placed here.
+* '''caption''' – ''optional'' – the text to be placed below the image.
+* '''birth_date''' – ''optional'' – the date of birth, if known, using {{Tl|Dhalashada iyo sanadka}} or {{Tl|Dhimashada iyo sanadka}}.
+* '''death_date''' – ''optional'' – the date of death, if applicable and known, in {{Tl|Dhimashada iyo sanadka}}.
+* '''birth_place''' – ''optional'' – the person's birthplace.
+* '''death_place''' – ''optional'' – the place where the person died.
+* '''placeofburial''' – ''optional'' – the place where the person's remains are buried or otherwise interred.
+* '''placeofburial_label''' – ''optional'' – the label to use for the placeofburial field (above); this is intended to be used in cases where the remains were disposed of in a manner other than burial, and defaults to "Buried at" if not set.
+* '''placeofburial_coordinates''' – ''optional'' – the precise location where the person's remains are buried or otherwise interred. {{UF-coord}}
+* '''nickname''' – ''optional'' – nickname(s) by which the person was known.
+* '''birth_name''' – ''optional'' – the name the person was born with, if different from that used later in life.
+* '''allegiance''' – ''optional'' – the country or other power the person served.  Multiple countries may be indicated together with the corresponding dates.  This field should not be used to indicate a particular service branch, which is better indicated by the <code>branch</code> field (below).
+* '''branch''' – ''optional'' – the service branch (Army, Navy, etc.) the person was a part of; this should be left blank for people who were not part of a formal armed service, or who predate the establishment of formal service branches.
+* '''serviceyears''' – ''optional'' – the years during which the person served.
+* '''rank''' – ''optional'' – the highest rank achieved by the person.  Unusual cases, such as this rank not being the last achieved, or the rank being awarded posthumously, may be noted.  In cases where the person held different ranks in different armies, multiple ranks should be specified with a date and country note for each. Separate multiple entries using {{Tl|Plainlist}}.
+* '''service number''' – ''optional'' – the [[service number]] held by the individual during military service.
+* '''unit''' – ''optional'' – for persons who are not notable as commanding officers, the unit (company, battalion, regiment, etc.) in which they served.  This should be omitted if the commands are specified (as above).
+* '''commands''' – ''optional'' – for persons who are notable as commanding officers, the units they commanded.  Dates should be given if multiple notable commands were held. Separate multiple entries using {{Tl|Plainlist}}.
+* '''battles''' – ''optional'' – any notable battles or wars in which the person participated.  This should be omitted if a campaignbox is used in conjunction with this template.
+* '''battles_label''' – ''optional'' – the label to use for the '''battles''' field (above); defaults to "Battles/wars". Separate multiple entries using {{Tl|Plainlist}}.
+* '''awards''' – ''optional'' – any ''notable'' awards or decorations the person received; exhaustive lists should be worked into the prose. Separate multiple entries using {{Tl|Plainlist}}.
+* '''spouse''' – ''optional'' – list the service members spouse(s) if verifiable from a reliable source.
+* '''relations'''  – ''optional'' – any notable relations.  Only reasonably close ones should be indicated; an exhaustive listing of an extensive family tree should be avoided here.
+* '''laterwork''' – ''optional'' – profession or positions held by the person other than military service (displays with the label "Other work"). Separate multiple entries using {{Tl|Plainlist}}.
+* '''signature''' – ''optional'' – an image of the person's signature. The image must be given in the form <tt><nowiki>example.jpg</nowiki></tt>.
+* '''signature_size''' – ''optional'' – the size of the signature in px. Give the number without the px suffix.
+* '''signature_alt''' – ''optional'' – alt text for the signature.
+* '''website''' – ''optional'' – Use {{Tl|URL}}
+
+For parameters which take lists of values, such as {{Para|unit}} or {{Para|commands}}, use {{Tl|Plainlist}}.
+
+=== Embedding ===
+Many military people are known for more than just their military service (e.g., [[Douglas Fairbanks, Jr.]] and [[James Stewart]]), and hence it may be desirable to merge this infobox with another one, like {{tl|Macluumaad askariga}}.  By adding "''{{para|embed|yes}}''" to the first line of the infobox code, one can embed this infobox into another, creating the illusion of one continuous infobox. Though the process is a little complicated, it is possible to insert this infobox into most if not all other infoboxes.  For {{tl|Infobox person}}, this infobox is passed as a "module" using the {{para|module}} syntax.
+
+<pre style="overflow: auto">
+{{Macluumaad askariga
+| name          = John Infobox
+| image         = Example.jpg
+| caption       = John Infobox in 2005
+| birth_name    = John Macluumaad askariga
+| birth_date    = {{Birth date|1950|5|5}}
+| birth_place   = Template City
+| death_date    = {{Dhimashada iyo sanadka|2010|10|10|1950|5|5}}
+| occupation    = Actor
+| years_active  = 1970–1990
+| module        = {{Macluumaad askariga|embed=yes
+| allegiance    = {{Flag|United States of America}}
+| branch        = [[File:Us army air corps shield.svg|25px]] [[United States Army Air Forces]]
+| serviceyears  = 1980-1985
+| rank          = [[File:US-O7 insignia.svg|20px]] [[Brigadier general (United States)|Brigadier General]]
+| website       = {{URL|example.com}}
+}}
+</pre>
+
+== See also ==
+*{{Tl|Macluumaad askariga}}
+<includeonly>{{#ifeq:{{{noheader|}}}|yes||
+[[Category:Templates]]
+
+[[ar:قالب:صندوق معلومات شخصية عسكرية]]
+[[bg:Шаблон:Инфокутия Военно лице]]
+[[bn:টেমপ্লেট:তথ্যছক সামরিক ব্যক্তি]]
+[[bs:Šablon:Infokutija vojna osoba]]
+[[ca:Plantilla:Infotaula biografia militar]]
+[[da:Skabelon:Infoboks militær person]]
+[[de:Vorlage:Infobox Militärperson]]
+[[el:Πρότυπο:Πληροφορίες στρατιωτικού]]
+[[eo:Ŝablono:Informkesto soldato]]
+[[es:Plantilla:Ficha de militar]]
+[[fa:الگو:جعبه اطلاعات افراد نظامی]]
+[[fr:Modèle:Infobox Personnalité militaire]]
+[[hi:साँचा:Infobox military person]]
+[[id:Templat:Infobox Military Person]]
+[[ja:Template:Infobox 軍人]]
+[[ka:თარგი:ინფოდაფა სამხედრო მოღვაწე]]
+[[ko:틀:군인 정보]]
+[[lv:Veidne:Info militārpersona]]
+[[mk:Шаблон:Инфокутија Воено лице]]
+[[nl:Sjabloon:Infobox militair persoon]]
+[[no:Mal:Infoboks militær person]]
+[[pt:Predefinição:Combatente Militar]]
+[[ro:Format:Infocaseta Militar]]
+[[ru:Шаблон:Военный деятель]]
+[[sr:Шаблон:Војник]]
+[[uk:Шаблон:Військовик]]
+[[fi:Malline:Sotilas]]
+[[ta:வார்ப்புரு:Infobox Military Person]]
+[[th:แม่แบบ:กล่องข้อมูล บุคลากรทหาร]]
+[[tr:Şablon:Asker bilgi kutusu]]
+[[ur:سانچہ:خانۂ معلومات عسکری شخصیت]]
+[[zh:Template:軍人模板]]
+
+}}</includeonly><noinclude>
+[[Category:WikiProject Military history template instructions|Military person infobox]]
+</noinclude>
