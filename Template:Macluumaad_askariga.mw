@@ -1,0 +1,83 @@
+{{Infobox
+| child          = {{lc:{{{embed}}}}}
+
+| bodyclass      = vcard
+| bodystyle      = {{WPMILHIST Infobox style|main_box_raw}}
+
+| title          = {{#ifeq:{{lc:{{{embed}}}}}|yes|Military career}}
+
+| abovestyle     = {{WPMILHIST Infobox style|header_color}} font-size: 100%
+
+| above          = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}} }}
+
+| imagestyle     = border-bottom: {{WPMILHIST Infobox style|section_border}}; line-height: 1.5em
+| image          = {{#if:{{Hide if placeholder image|{{{image|}}}}}|{{#ifeq:{{Str left | {{{image|}}} | 1 }}|[|{{{image|}}}[[Category:Infobox military person image param needs updating]]|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{alt|}}}]]}}}}
+
+| captionstyle   = font-size: 90%
+| caption        = {{{caption|}}}
+
+| labelstyle     = padding-right: 1em
+
+| label1         = Udhashay
+| data1          = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| label2         = Ku dhsahay
+| data2          = {{{birth_name|}}}
+| class2         = nickname
+
+| label3         = Loo yaqaan
+| data3          = {{{nickname|}}}
+| class3         = nickname
+
+| label4         = Dhashay
+| data4          = {{br separated entries | {{{birth_date|}}} | {{{birth_place|}}} }}
+
+| label5         = Dhintay
+| data5          = {{br separated entries | {{{death_date|}}} | {{{death_place|}}} }}
+
+| label6         = {{#if:{{{placeofburial_label|}}}|{{{placeofburial_label}}}|Buried&nbsp;at}}
+| data6          = {{#if:{{{placeofburial|}}}{{{placeofburial_coordinates|}}}|<span class="label">{{{placeofburial|}}}</span> {{#if:{{{placeofburial_coordinates|}}}|({{{placeofburial_coordinates}}})}}}}
+
+| label7         = U daacada
+| data7          = {{{allegiance|}}}
+
+| label8         = Ka howl gala/Qaybta
+| data8          = {{{branch|}}}
+
+| label9         = Sanadaha&nbsp;shaqada
+| data9          = {{{serviceyears|}}}
+
+| label10         = Darajeda
+| data10          = {{{rank|}}}
+
+| label11        = Nomberkiisa
+| data11         = {{{servicenumber|}}}
+
+| label12        = Katirsan
+| data12         = {{{unit|}}}
+
+| label13        = Xilli amarkiisa
+| data13         = {{{commands|}}}
+
+| label14        = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Dagaalo/Dagaalo}}
+| data14         = {{{battles|}}}
+
+| label15        = Bilado
+| data15         = {{{awards|}}}
+
+| label16    = Guursaday
+| data16     = {{{spouse|}}}
+
+| label17        = Xiriir
+| data17         = {{{relations|}}}
+
+| label18        = shaqooyin&nbsp;Kale
+| data18         = {{{laterwork|}}}
+
+| label19        = Saxiix
+| data19         = {{#if:{{{signature|}}}|[[File:{{{signature}}}|{{px|{{{signature_size|}}}|100px}}|alt={{{signature alt|{{{signature_alt|}}}}}}]]}}
+
+| header20       = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+| data20           = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+}}<noinclude>{{documentation}}</noinclude>
