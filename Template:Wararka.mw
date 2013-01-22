@@ -1,2 +1,17 @@
-{{#if:{{{image|}}}|<div style="float:right;margin-left:0.5em;">
-[[{{#ifexist:Media:{{{image}}}|File:{{{image}}}|{{{image}}}}}|{{#if:{{{size|}}}|{{{size}}}|100x100px}}|{{yesno|{{{border|}}}|yes=border}}|{{{title}}}|alt={{#if:{{{alt|}}}|{{{alt}}}|{{{title}}}}}|link={{#if:{{{link|}}}|{{#ifexist:Media:{{{link}}}|File:{{{link}}}|{{{link}}}}}|{{#ifexist:Media:{{{image}}}|File:{{{image}}}|{{{image}}}}}}}]]</div>}}
+{{wararka/sawir
+ |image  = Wikipedia-logo-v2-so.png
+ |size   = 100x100px
+ |title  = wikipedia
+ |link   =
+ |border = no
+ |alt    = Warar
+}}
+{{*mp|January 12}}Wararka maanta ee cusub waxaa ka mid ah, in hadkaan lagu qori karo wararka xiisha le ee ka jira dunida.
+{{*mp|January 23}} Waxaa kaloo jirta
+
+{{*mp|January 24}}Wararka maanta ee cusub waxaa ka mid ah, in hadkaan lagu qori karo wararka xiisha le ee ka jira dunida.
+{{*mp|January 25}} Waxaa kaloo jirta
+
+{{*mp|January 26}}Wararka maanta ee cusub waxaa ka mid ah, in hadkaan lagu qori karo wararka xiisha le ee ka jira dunida.
+{{*mp|January 27}} Waxaa kaloo jirta
+</noinclude>
