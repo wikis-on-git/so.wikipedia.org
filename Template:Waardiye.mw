@@ -1,42 +1,15 @@
-{| class="messagebox protected" width=100%; style="border: 1px solid #8888aa; padding: 0px; font-size:9pt;"
-|-
-|align="center"|[[file:System-lock-screen.svg|right|pix48]]
-|align="right"|Dhcado dhacday awgeed [[Wikipedia:Ka hortagga wax kabadelka Bogogga|Ka hortagga wax kabadelka bogagga]] ee ku saabsan maqaalkaan '''Waa laga joojiyey awood uhelidda wax kabadelka Boggaan gudegalayaasha aan maamulka ahayn <font color=green>si kumeel gaar ah'''</font>.  waxaa kuu suura gala inaad wax kabadesho nuqulka waardiyeha ee badelka : [[{{magaca bogga}}/nuqulka wax laga badelay|Nuqul badelka]] ama waxaa kuu suuragal ah inaad ka hortimaado ama aragti ku jirta maqaalkaan adigoo umaraya [[Wadahadal:{{magaca bogga}}/nuqulka wax laga badelay|wadahadal]]. hadii aad tahay qof iska soo booqday bogaan waxa uu kuu soo bandhigayaa nuqulka lagu kalsoonyahay.
-
-<font size=2 face=tahoma><center>
-'''Boggaan waa maqaalka lagu kalsoonyahay ee qormadaan«{{magaca bogga}}»'''
-</center></font>
-|-
-|}
-<includeonly>
-[[Category:Boggag la'difaacay|{{اmagaca bogga}}]]
-</includeonly>
-<noinclude>
-'''Fiira gaar ah:''' Template kaan ma ilaalinayo boggaan ilaalinta bogagga waxa ay ka imaaneeysaa oo kaliya [[wikipedia:Maamulka|Maamulka]] hadii aad rabto ilaalinta bogga ka codso [[wikipedia:qataraha maamulka#codsiyeda waardiyeha|codsiyeda waardiyeha]].
-
-[[Category:Template]]
-
-[[bg:Шаблон:Редакционна война]]
-[[ca:Plantilla:Protegida]]
-[[cs:Šablona:Zamčeno]]
-[[en:Template:Pp-dispute]]
-[[eo:Ŝablono:Protektita]]
-[[eu:Txantiloi:Babestua]]
-[[fr:Modèle:Protection]]
-[[id:Templat:Lindungi]]
-[[it:Template:Protetta]]
-[[lt:Šablonas:Semi-protected]]
-[[mk:Шаблон:Заштитено-спор]]
-[[nl:Sjabloon:Beveiligd]]
-[[or:ଛାଞ୍ଚ:Pp-dispute]]
-[[pt:Predefinição:Protegida]]
-[[ro:Format:Pp-dispută]]
-[[si:සැකිල්ල:Pp-dispute]]
-[[simple:Template:Protected]]
-[[sv:Mall:Skyddad]]
-[[th:แม่แบบ:กึ่งล็อก]]
-[[tr:Şablon:Koruma]]
-[[uk:Шаблон:Pp-protected]]
-[[vi:Bản mẫu:Khóa-tranh chấp]]
-[[zh:Template:Pp-dispute]]
+<includeonly>{{waardiye
+|name=waardiye
+|type=full
+|disallowlevel=autoconfirmed
+|small={{{small|}}}
+|demospace={{{demospace|}}}
+|demolevel={{{demolevel|undefined}}}
+|expiry={{{expiry|}}}
+|dispute=yes
+|section={{{section|}}}
+|reason=&#32;{{#if:{{{expiry|}}}|or until|until}} {{#if:{{{section|}}}|[[{{TALKPAGENAME}}#{{{section}}}|disputes]]|disputes}} have been resolved
+|categories={{{categories|[[Category:Template|{{PAGENAME}}]]{{#if:{{{expiry|}}}||[[Category:waardiye|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{waardiye|demospace=main|demolevel=sysop|categories=no}}
+{{documentation}}
 </noinclude>
