@@ -1,0 +1,653 @@
+<includeonly>{| class="wikitable collapsible {{#if:{{{collapsed|}}}|collapsed}}" style="width:90%; text-align:center; font-size:90%; margin:auto"
+|-
+!colspan="14" style="font-weight:bold" |[[file:Nuvola apps kweather.svg|20px]]&nbsp;Heer kulka jawiga {{{location}}}&nbsp;[[file:Weather-rain-thunderstorm.svg|20px]]
+|-
+!Bisha
+!abbr="January"  | Janaayo
+!abbr="February" | Febraayo
+!abbr="March"    | Maarso 
+!abbr="April"    | Abriil
+!abbr="May"      | Maajo
+!abbr="June"     | Juun
+!abbr="July"     | Luuliyo
+!abbr="August"   | Agoosto 
+!abbr="September"| Sebteembar
+!abbr="October"  | Oktoobar 
+!abbr="November" | Nofeembar
+!abbr="December" | Diseembar 
+!abbr="Year" | Qiqaas sanadeedka<!--
+-->{{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}{{{Year_REC_Hi_°C|}}}{{{Year_RECَ_Hi_°F|}}}{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}{{{Year_Precip_mm|}}}{{{Year_Precip_inch|}}}{{{Year_Rain_inch|}}}{{{Year_Rain_mm|}}}{{{Year_Rain_cm|}}}{{{Year_Snow_inch|}}}{{{Year_Snow_cm|}}}{{{Year_Snow_mm|}}}|<nowiki/>
+!style="border-left-width:medium"{{!}} <!--
+-->}}<!--
+-->
+{{#if:{{{Jan_REC_Hi_°C|}}}{{{Jan_REC_Hi_°F|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Darajada kuleelka ugu daran °{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_REC_Hi_°C|{{#if:{{{Jan_REC_Hi_°F|}}}|{{#expr:({{{Jan_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_REC_Hi_°C|{{#if:{{{Feb_REC_Hi_°F|}}}|{{#expr:({{{Feb_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_REC_Hi_°C|{{#if:{{{Mar_REC_Hi_°F|}}}|{{#expr:({{{Mar_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_REC_Hi_°C|{{#if:{{{Apr_REC_Hi_°F|}}}|{{#expr:({{{Apr_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_REC_Hi_°C|{{#if:{{{May_REC_Hi_°F|}}}|{{#expr:({{{May_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_REC_Hi_°C|{{#if:{{{Jun_REC_Hi_°F|}}}|{{#expr:({{{Jun_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_REC_Hi_°C|{{#if:{{{Jul_REC_Hi_°F|}}}|{{#expr:({{{Jul_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_REC_Hi_°C|{{#if:{{{Aug_REC_Hi_°F|}}}|{{#expr:({{{Aug_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_REC_Hi_°C|{{#if:{{{Sep_REC_Hi_°F|}}}|{{#expr:({{{Sep_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_REC_Hi_°C|{{#if:{{{Oct_REC_Hi_°F|}}}|{{#expr:({{{Oct_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_REC_Hi_°C|{{#if:{{{Nov_REC_Hi_°F|}}}|{{#expr:({{{Nov_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_REC_Hi_°C|{{#if:{{{Dec_REC_Hi_°F|}}}|{{#expr:({{{Dec_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_REC_Hi_°C|}}}{{{Year_REC_Hi_°F|}}}|{{{Year_REC_Hi_°C|{{#expr:({{{Year_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_REC_Hi_°F|{{#if:{{{Jan_REC_Hi_°C|}}}|{{#expr:{{{Jan_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_REC_Hi_°F|{{#if:{{{Feb_REC_Hi_°C|}}}|{{#expr:{{{Feb_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_REC_Hi_°F|{{#if:{{{Mar_REC_Hi_°C|}}}|{{#expr:{{{Mar_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_REC_Hi_°F|{{#if:{{{Apr_REC_Hi_°C|}}}|{{#expr:{{{Apr_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_REC_Hi_°F|{{#if:{{{May_REC_Hi_°C|}}}|{{#expr:{{{May_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_REC_Hi_°F|{{#if:{{{Jun_REC_Hi_°C|}}}|{{#expr:{{{Jun_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_REC_Hi_°F|{{#if:{{{Jul_REC_Hi_°C|}}}|{{#expr:{{{Jul_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_REC_Hi_°F|{{#if:{{{Aug_REC_Hi_°C|}}}|{{#expr:{{{Aug_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_REC_Hi_°F|{{#if:{{{Sep_REC_Hi_°C|}}}|{{#expr:{{{Sep_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_REC_Hi_°F|{{#if:{{{Oct_REC_Hi_°C|}}}|{{#expr:{{{Oct_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_REC_Hi_°F|{{#if:{{{Nov_REC_Hi_°C|}}}|{{#expr:{{{Nov_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_REC_Hi_°F|{{#if:{{{Dec_REC_Hi_°C|}}}|{{#expr:{{{Dec_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_REC_Hi_°C|}}}{{{Year_REC_Hi_°F|}}}|{{{Year_REC_Hi_°F|{{#expr:{{{Year_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+-->}}
+{{Infobox Weather/khad
+|label=Darajada kuleelka ugu badan°{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_Hi_°C|{{#if:{{{Jan_Hi_°F|}}}|{{#expr:({{{Jan_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_Hi_°C|{{#if:{{{Feb_Hi_°F|}}}|{{#expr:({{{Feb_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_Hi_°C|{{#if:{{{Mar_Hi_°F|}}}|{{#expr:({{{Mar_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_Hi_°C|{{#if:{{{Apr_Hi_°F|}}}|{{#expr:({{{Apr_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_Hi_°C|{{#if:{{{May_Hi_°F|}}}|{{#expr:({{{May_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_Hi_°C|{{#if:{{{Jun_Hi_°F|}}}|{{#expr:({{{Jun_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_Hi_°C|{{#if:{{{Jul_Hi_°F|}}}|{{#expr:({{{Jul_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_Hi_°C|{{#if:{{{Aug_Hi_°F|}}}|{{#expr:({{{Aug_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_Hi_°C|{{#if:{{{Sep_Hi_°F|}}}|{{#expr:({{{Sep_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_Hi_°C|{{#if:{{{Oct_Hi_°F|}}}|{{#expr:({{{Oct_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_Hi_°C|{{#if:{{{Nov_Hi_°F|}}}|{{#expr:({{{Nov_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_Hi_°C|{{#if:{{{Dec_Hi_°F|}}}|{{#expr:({{{Dec_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}|{{{Year_Hi_°C|{{#expr:({{{Year_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_Hi_°F|{{#if:{{{Jan_Hi_°C|}}}|{{#expr:{{{Jan_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_Hi_°F|{{#if:{{{Feb_Hi_°C|}}}|{{#expr:{{{Feb_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_Hi_°F|{{#if:{{{Mar_Hi_°C|}}}|{{#expr:{{{Mar_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_Hi_°F|{{#if:{{{Apr_Hi_°C|}}}|{{#expr:{{{Apr_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_Hi_°F|{{#if:{{{May_Hi_°C|}}}|{{#expr:{{{May_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_Hi_°F|{{#if:{{{Jun_Hi_°C|}}}|{{#expr:{{{Jun_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_Hi_°F|{{#if:{{{Jul_Hi_°C|}}}|{{#expr:{{{Jul_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_Hi_°F|{{#if:{{{Aug_Hi_°C|}}}|{{#expr:{{{Aug_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_Hi_°F|{{#if:{{{Sep_Hi_°C|}}}|{{#expr:{{{Sep_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_Hi_°F|{{#if:{{{Oct_Hi_°C|}}}|{{#expr:{{{Oct_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_Hi_°F|{{#if:{{{Nov_Hi_°C|}}}|{{#expr:{{{Nov_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_Hi_°F|{{#if:{{{Dec_Hi_°C|}}}|{{#expr:{{{Dec_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}|{{{Year_Hi_°F|{{#expr:{{{Year_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+-->{{#if:{{{Jan_MEAN_°C|}}}{{{Jan_MEAN_°F|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Maalintii °{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_MEAN_°C|{{#if:{{{Jan_MEAN_°F|}}}|{{#expr:({{{Jan_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_MEAN_°C|{{#if:{{{Feb_MEAN_°F|}}}|{{#expr:({{{Feb_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_MEAN_°C|{{#if:{{{Mar_MEAN_°F|}}}|{{#expr:({{{Mar_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_MEAN_°C|{{#if:{{{Apr_MEAN_°F|}}}|{{#expr:({{{Apr_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_MEAN_°C|{{#if:{{{May_MEAN_°F|}}}|{{#expr:({{{May_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_MEAN_°C|{{#if:{{{Jun_MEAN_°F|}}}|{{#expr:({{{Jun_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_MEAN_°C|{{#if:{{{Jul_MEAN_°F|}}}|{{#expr:({{{Jul_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_MEAN_°C|{{#if:{{{Aug_MEAN_°F|}}}|{{#expr:({{{Aug_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_MEAN_°C|{{#if:{{{Sep_MEAN_°F|}}}|{{#expr:({{{Sep_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_MEAN_°C|{{#if:{{{Oct_MEAN_°F|}}}|{{#expr:({{{Oct_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_MEAN_°C|{{#if:{{{Nov_MEAN_°F|}}}|{{#expr:({{{Nov_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_MEAN_°C|{{#if:{{{Dec_MEAN_°F|}}}|{{#expr:({{{Dec_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_MEAN_°C|}}}{{{Year_MEAN_°F|}}}|{{{Year_MEAN_°C|{{#expr:({{{Year_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_MEAN_°F|{{#if:{{{Jan_MEAN_°C|}}}|{{#expr:{{{Jan_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_MEAN_°F|{{#if:{{{Feb_MEAN_°C|}}}|{{#expr:{{{Feb_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_MEAN_°F|{{#if:{{{Mar_MEAN_°C|}}}|{{#expr:{{{Mar_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_MEAN_°F|{{#if:{{{Apr_MEAN_°C|}}}|{{#expr:{{{Apr_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_MEAN_°F|{{#if:{{{May_MEAN_°C|}}}|{{#expr:{{{May_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_MEAN_°F|{{#if:{{{Jun_MEAN_°C|}}}|{{#expr:{{{Jun_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_MEAN_°F|{{#if:{{{Jul_MEAN_°C|}}}|{{#expr:{{{Jul_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_MEAN_°F|{{#if:{{{Aug_MEAN_°C|}}}|{{#expr:{{{Aug_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_MEAN_°F|{{#if:{{{Sep_MEAN_°C|}}}|{{#expr:{{{Sep_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_MEAN_°F|{{#if:{{{Oct_MEAN_°C|}}}|{{#expr:{{{Oct_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_MEAN_°F|{{#if:{{{Nov_MEAN_°C|}}}|{{#expr:{{{Nov_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_MEAN_°F|{{#if:{{{Dec_MEAN_°C|}}}|{{#expr:{{{Dec_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_MEAN_°C|}}}{{{Year_MEAN_°F|}}}|{{{Year_MEAN_°F|{{#expr:{{{Year_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+-->}}
+{{Infobox Weather/khad
+|label=Darajada kuleelka ee ugu yar °{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_Lo_°C|{{#if:{{{Jan_Lo_°F|}}}|{{#expr:({{{Jan_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_Lo_°C|{{#if:{{{Feb_Lo_°F|}}}|{{#expr:({{{Feb_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_Lo_°C|{{#if:{{{Mar_Lo_°F|}}}|{{#expr:({{{Mar_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_Lo_°C|{{#if:{{{Apr_Lo_°F|}}}|{{#expr:({{{Apr_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_Lo_°C|{{#if:{{{May_Lo_°F|}}}|{{#expr:({{{May_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_Lo_°C|{{#if:{{{Jun_Lo_°F|}}}|{{#expr:({{{Jun_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_Lo_°C|{{#if:{{{Jul_Lo_°F|}}}|{{#expr:({{{Jul_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_Lo_°C|{{#if:{{{Aug_Lo_°F|}}}|{{#expr:({{{Aug_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_Lo_°C|{{#if:{{{Sep_Lo_°F|}}}|{{#expr:({{{Sep_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_Lo_°C|{{#if:{{{Oct_Lo_°F|}}}|{{#expr:({{{Oct_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_Lo_°C|{{#if:{{{Nov_Lo_°F|}}}|{{#expr:({{{Nov_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_Lo_°C|{{#if:{{{Dec_Lo_°F|}}}|{{#expr:({{{Dec_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}|{{{Year_Lo_°C|{{#expr:({{{Year_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_Lo_°F|{{#if:{{{Jan_Lo_°C|}}}|{{#expr:{{{Jan_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_Lo_°F|{{#if:{{{Feb_Lo_°C|}}}|{{#expr:{{{Feb_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_Lo_°F|{{#if:{{{Mar_Lo_°C|}}}|{{#expr:{{{Mar_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_Lo_°F|{{#if:{{{Apr_Lo_°C|}}}|{{#expr:{{{Apr_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_Lo_°F|{{#if:{{{May_Lo_°C|}}}|{{#expr:{{{May_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_Lo_°F|{{#if:{{{Jun_Lo_°C|}}}|{{#expr:{{{Jun_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_Lo_°F|{{#if:{{{Jul_Lo_°C|}}}|{{#expr:{{{Jul_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_Lo_°F|{{#if:{{{Aug_Lo_°C|}}}|{{#expr:{{{Aug_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_Lo_°F|{{#if:{{{Sep_Lo_°C|}}}|{{#expr:{{{Sep_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_Lo_°F|{{#if:{{{Oct_Lo_°C|}}}|{{#expr:{{{Oct_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_Lo_°F|{{#if:{{{Nov_Lo_°C|}}}|{{#expr:{{{Nov_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_Lo_°F|{{#if:{{{Dec_Lo_°C|}}}|{{#expr:{{{Dec_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}|{{{Year_Lo_°F|{{#expr:{{{Year_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+-->{{#if:{{{Jan_REC_Lo_°C|}}}{{{Jan_REC_Lo_°F|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Darajada kuleelka ee ugu hooseeysa °{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_REC_Lo_°C|{{#if:{{{Jan_REC_Lo_°F|}}}|{{#expr:({{{Jan_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_REC_Lo_°C|{{#if:{{{Feb_REC_Lo_°F|}}}|{{#expr:({{{Feb_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_REC_Lo_°C|{{#if:{{{Mar_REC_Lo_°F|}}}|{{#expr:({{{Mar_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_REC_Lo_°C|{{#if:{{{Apr_REC_Lo_°F|}}}|{{#expr:({{{Apr_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_REC_Lo_°C|{{#if:{{{May_REC_Lo_°F|}}}|{{#expr:({{{May_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_REC_Lo_°C|{{#if:{{{Jun_REC_Lo_°F|}}}|{{#expr:({{{Jun_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_REC_Lo_°C|{{#if:{{{Jul_REC_Lo_°F|}}}|{{#expr:({{{Jul_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_REC_Lo_°C|{{#if:{{{Aug_REC_Lo_°F|}}}|{{#expr:({{{Aug_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_REC_Lo_°C|{{#if:{{{Sep_REC_Lo_°F|}}}|{{#expr:({{{Sep_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_REC_Lo_°C|{{#if:{{{Oct_REC_Lo_°F|}}}|{{#expr:({{{Oct_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_REC_Lo_°C|{{#if:{{{Nov_REC_Lo_°F|}}}|{{#expr:({{{Nov_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_REC_Lo_°C|{{#if:{{{Dec_REC_Lo_°F|}}}|{{#expr:({{{Dec_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}|{{{Year_REC_Lo_°C|{{#expr:({{{Year_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_REC_Lo_°F|{{#if:{{{Jan_REC_Lo_°C|}}}|{{#expr:{{{Jan_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_REC_Lo_°F|{{#if:{{{Feb_REC_Lo_°C|}}}|{{#expr:{{{Feb_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_REC_Lo_°F|{{#if:{{{Mar_REC_Lo_°C|}}}|{{#expr:{{{Mar_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_REC_Lo_°F|{{#if:{{{Apr_REC_Lo_°C|}}}|{{#expr:{{{Apr_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_REC_Lo_°F|{{#if:{{{May_REC_Lo_°C|}}}|{{#expr:{{{May_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_REC_Lo_°F|{{#if:{{{Jun_REC_Lo_°C|}}}|{{#expr:{{{Jun_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_REC_Lo_°F|{{#if:{{{Jul_REC_Lo_°C|}}}|{{#expr:{{{Jul_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_REC_Lo_°F|{{#if:{{{Aug_REC_Lo_°C|}}}|{{#expr:{{{Aug_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_REC_Lo_°F|{{#if:{{{Sep_REC_Lo_°C|}}}|{{#expr:{{{Sep_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_REC_Lo_°F|{{#if:{{{Oct_REC_Lo_°C|}}}|{{#expr:{{{Oct_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_REC_Lo_°F|{{#if:{{{Nov_REC_Lo_°C|}}}|{{#expr:{{{Nov_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_REC_Lo_°F|{{#if:{{{Dec_REC_Lo_°C|}}}|{{#expr:{{{Dec_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}|{{{Year_REC_Lo_°F|{{#expr:{{{Year_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+-->}}{{#if:{{{Jan_Precip_cm|}}}{{{Jan_Precip_mm|}}}{{{Jan_Precip_inch|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label= Roobka da'a qiyaastii{{#if:{{{metric_first|}}}|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3|Calaacal}} {{#if:{{{single_line|}}}|({{#if:{{{metric_first|}}}|Calaacal|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Precip_cm|}}}|10|1}}
+|jan1={{{Jan_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jan_Precip_inch|}}}|{{#expr:{{{Jan_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Feb_Precip_inch|}}}|{{#expr:{{{Feb_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Mar_Precip_inch|}}}|{{#expr:{{{Mar_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Apr_Precip_inch|}}}|{{#expr:{{{Apr_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{May_Precip_inch|}}}|{{#expr:{{{May_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jun_Precip_inch|}}}|{{#expr:{{{Jun_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jul_Precip_inch|}}}|{{#expr:{{{Jul_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Aug_Precip_inch|}}}|{{#expr:{{{Aug_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Sep_Precip_inch|}}}|{{#expr:{{{Sep_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Oct_Precip_inch|}}}|{{#expr:{{{Oct_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Nov_Precip_inch|}}}|{{#expr:{{{Nov_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Dec_Precip_inch|}}}|{{#expr:{{{Dec_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Year_Precip_inch|}}}|{{#expr:{{{Year_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Precip_inch|{{#if:{{{Jan_Precip_cm|}}}|{{#expr:{{{Jan_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Precip_mm|}}}|{{#expr:{{{Jan_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Precip_inch|{{#if:{{{Feb_Precip_cm|}}}|{{#expr:{{{Feb_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Precip_mm|}}}|{{#expr:{{{Feb_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Precip_inch|{{#if:{{{Mar_Precip_cm|}}}|{{#expr:{{{Mar_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Precip_mm|}}}|{{#expr:{{{Mar_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Precip_inch|{{#if:{{{Apr_Precip_cm|}}}|{{#expr:{{{Apr_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Precip_mm|}}}|{{#expr:{{{Apr_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Precip_inch|{{#if:{{{May_Precip_cm|}}}|{{#expr:{{{May_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{May_Precip_mm|}}}|{{#expr:{{{May_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Precip_inch|{{#if:{{{Jun_Precip_cm|}}}|{{#expr:{{{Jun_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Precip_mm|}}}|{{#expr:{{{Jun_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Precip_inch|{{#if:{{{Jul_Precip_cm|}}}|{{#expr:{{{Jul_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Precip_mm|}}}|{{#expr:{{{Jul_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Precip_inch|{{#if:{{{Aug_Precip_cm|}}}|{{#expr:{{{Aug_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Precip_mm|}}}|{{#expr:{{{Aug_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Precip_inch|{{#if:{{{Sep_Precip_cm|}}}|{{#expr:{{{Sep_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Precip_mm|}}}|{{#expr:{{{Sep_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Precip_inch|{{#if:{{{Oct_Precip_cm|}}}|{{#expr:{{{Oct_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Precip_mm|}}}|{{#expr:{{{Oct_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Precip_inch|{{#if:{{{Nov_Precip_cm|}}}|{{#expr:{{{Nov_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Precip_mm|}}}|{{#expr:{{{Nov_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Precip_inch|{{#if:{{{Dec_Precip_cm|}}}|{{#expr:{{{Dec_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Precip_mm|}}}|{{#expr:{{{Dec_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Precip_inch|{{#if:{{{Year_Precip_cm|}}}|{{#expr:{{{Year_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Precip_mm|}}}|{{#expr:{{{Year_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+}}}}<!--
+-->{{#if:{{{Jan_Rain_cm|}}}{{{Jan_Rain_mm|}}}{{{Jan_Rain_inch|}}}|<nowiki/>
+{{Infobox Weather/khad|label=Roobka da'a qiyaastii {{#if:{{{metric_first|}}}|{{#if:{{{Jan_Rain_cm|}}}|c|m}}3|Far}} {{#if:{{{single_line|}}}|({{#if:{{{metric_first|}}}|Far|{{#if:{{{Jan_Rain_cm|}}}|c|m}}3}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Rain_cm|}}}|10|1}}
+|jan1={{{Jan_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jan_Rain_inch|}}}|{{#expr:{{{Jan_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Feb_Rain_inch|}}}|{{#expr:{{{Feb_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Mar_Rain_inch|}}}|{{#expr:{{{Mar_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Apr_Rain_inch|}}}|{{#expr:{{{Apr_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{May_Rain_inch|}}}|{{#expr:{{{May_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jun_Rain_inch|}}}|{{#expr:{{{Jun_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jul_Rain_inch|}}}|{{#expr:{{{Jul_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Aug_Rain_inch|}}}|{{#expr:{{{Aug_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Sep_Rain_inch|}}}|{{#expr:{{{Sep_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Oct_Rain_inch|}}}|{{#expr:{{{Oct_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Nov_Rain_inch|}}}|{{#expr:{{{Nov_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Dec_Rain_inch|}}}|{{#expr:{{{Dec_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Year_Rain_inch|}}}|{{#expr:{{{Year_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Rain_inch|{{#if:{{{Jan_Rain_cm|}}}|{{#expr:{{{Jan_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Rain_mm|}}}|{{#expr:{{{Jan_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Rain_inch|{{#if:{{{Feb_Rain_cm|}}}|{{#expr:{{{Feb_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Rain_mm|}}}|{{#expr:{{{Feb_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Rain_inch|{{#if:{{{Mar_Rain_cm|}}}|{{#expr:{{{Mar_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Rain_mm|}}}|{{#expr:{{{Mar_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Rain_inch|{{#if:{{{Apr_Rain_cm|}}}|{{#expr:{{{Apr_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Rain_mm|}}}|{{#expr:{{{Apr_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Rain_inch|{{#if:{{{May_Rain_cm|}}}|{{#expr:{{{May_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{May_Rain_mm|}}}|{{#expr:{{{May_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Rain_inch|{{#if:{{{Jun_Rain_cm|}}}|{{#expr:{{{Jun_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Rain_mm|}}}|{{#expr:{{{Jun_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Rain_inch|{{#if:{{{Jul_Rain_cm|}}}|{{#expr:{{{Jul_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Rain_mm|}}}|{{#expr:{{{Jul_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Rain_inch|{{#if:{{{Aug_Rain_cm|}}}|{{#expr:{{{Aug_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Rain_mm|}}}|{{#expr:{{{Aug_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Rain_inch|{{#if:{{{Sep_Rain_cm|}}}|{{#expr:{{{Sep_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Rain_mm|}}}|{{#expr:{{{Sep_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Rain_inch|{{#if:{{{Oct_Rain_cm|}}}|{{#expr:{{{Oct_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Rain_mm|}}}|{{#expr:{{{Oct_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Rain_inch|{{#if:{{{Nov_Rain_cm|}}}|{{#expr:{{{Nov_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Rain_mm|}}}|{{#expr:{{{Nov_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Rain_inch|{{#if:{{{Dec_Rain_cm|}}}|{{#expr:{{{Dec_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Rain_mm|}}}|{{#expr:{{{Dec_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Rain_inch|{{#if:{{{Year_Rain_cm|}}}|{{#expr:{{{Year_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Rain_mm|}}}|{{#expr:{{{Year_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+}}}}<!--
+-->{{#if:{{{Jan_Snow_cm|}}}{{{Jan_Snow_mm|}}}{{{Jan_Snow_inch|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Baraf soo dhaca qiyaastii {{#if:{{{metric_first|}}}|{{#if:{{{Jan_Snow_cm|}}}|c|m}}3|Far}} {{#if:{{{single_line|}}}|({{#if:{{{metric_first|}}}|Far|{{#if:{{{Jan_Snow_cm|}}}|c|m}}3}})}}
+|show={{#if:{{{metric_first|}}}|1|2}}
+|alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Snow_cm|}}}|10|1}}
+|jan1={{{Jan_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jan_Snow_inch|}}}|{{#expr:{{{Jan_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Feb_Snow_inch|}}}|{{#expr:{{{Feb_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Mar_Snow_inch|}}}|{{#expr:{{{Mar_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Apr_Snow_inch|}}}|{{#expr:{{{Apr_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{May_Snow_inch|}}}|{{#expr:{{{May_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jun_Snow_inch|}}}|{{#expr:{{{Jun_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jul_Snow_inch|}}}|{{#expr:{{{Jul_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Aug_Snow_inch|}}}|{{#expr:{{{Aug_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Sep_Snow_inch|}}}|{{#expr:{{{Sep_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Oct_Snow_inch|}}}|{{#expr:{{{Oct_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Nov_Snow_inch|}}}|{{#expr:{{{Nov_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Dec_Snow_inch|}}}|{{#expr:{{{Dec_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Year_Snow_inch|}}}|{{#expr:{{{Year_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Snow_inch|{{#if:{{{Jan_Snow_cm|}}}|{{#expr:{{{Jan_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Snow_mm|}}}|{{#expr:{{{Jan_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Snow_inch|{{#if:{{{Feb_Snow_cm|}}}|{{#expr:{{{Feb_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Snow_mm|}}}|{{#expr:{{{Feb_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Snow_inch|{{#if:{{{Mar_Snow_cm|}}}|{{#expr:{{{Mar_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Snow_mm|}}}|{{#expr:{{{Mar_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Snow_inch|{{#if:{{{Apr_Snow_cm|}}}|{{#expr:{{{Apr_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Snow_mm|}}}|{{#expr:{{{Apr_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Snow_inch|{{#if:{{{May_Snow_cm|}}}|{{#expr:{{{May_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{May_Snow_mm|}}}|{{#expr:{{{May_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Snow_inch|{{#if:{{{Jun_Snow_cm|}}}|{{#expr:{{{Jun_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Snow_mm|}}}|{{#expr:{{{Jun_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Snow_inch|{{#if:{{{Jul_Snow_cm|}}}|{{#expr:{{{Jul_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Snow_mm|}}}|{{#expr:{{{Jul_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Snow_inch|{{#if:{{{Aug_Snow_cm|}}}|{{#expr:{{{Aug_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Snow_mm|}}}|{{#expr:{{{Aug_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Snow_inch|{{#if:{{{Sep_Snow_cm|}}}|{{#expr:{{{Sep_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Snow_mm|}}}|{{#expr:{{{Sep_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Snow_inch|{{#if:{{{Oct_Snow_cm|}}}|{{#expr:{{{Oct_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Snow_mm|}}}|{{#expr:{{{Oct_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Snow_inch|{{#if:{{{Nov_Snow_cm|}}}|{{#expr:{{{Nov_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Snow_mm|}}}|{{#expr:{{{Nov_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Snow_inch|{{#if:{{{Dec_Snow_cm|}}}|{{#expr:{{{Dec_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Snow_mm|}}}|{{#expr:{{{Dec_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Snow_inch|{{#if:{{{Year_Snow_cm|}}}|{{#expr:{{{Year_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Snow_mm|}}}|{{#expr:{{{Year_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+}}}}
+{{#if:{{{single_line|}}}||<!--
+  -->{{#if:{{{Jan_REC_Hi_°C|}}}{{{Jan_REC_Hi_°F|}}}|<nowiki />
+{{Infobox Weather/khad
+|label=Darajada kuleelka daran qiyaastii °{{#if:{{{metric_first|}}}|Qiyaas|m}}
+|show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_REC_Hi_°C|{{#if:{{{Jan_REC_Hi_°F|}}}|{{#expr:({{{Jan_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_REC_Hi_°C|{{#if:{{{Feb_REC_Hi_°F|}}}|{{#expr:({{{Feb_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_REC_Hi_°C|{{#if:{{{Mar_REC_Hi_°F|}}}|{{#expr:({{{Mar_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_REC_Hi_°C|{{#if:{{{Apr_REC_Hi_°F|}}}|{{#expr:({{{Apr_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_REC_Hi_°C|{{#if:{{{May_REC_Hi_°F|}}}|{{#expr:({{{May_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_REC_Hi_°C|{{#if:{{{Jun_REC_Hi_°F|}}}|{{#expr:({{{Jun_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_REC_Hi_°C|{{#if:{{{Jul_REC_Hi_°F|}}}|{{#expr:({{{Jul_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_REC_Hi_°C|{{#if:{{{Aug_REC_Hi_°F|}}}|{{#expr:({{{Aug_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_REC_Hi_°C|{{#if:{{{Sep_REC_Hi_°F|}}}|{{#expr:({{{Sep_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_REC_Hi_°C|{{#if:{{{Oct_REC_Hi_°F|}}}|{{#expr:({{{Oct_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_REC_Hi_°C|{{#if:{{{Nov_REC_Hi_°F|}}}|{{#expr:({{{Nov_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_REC_Hi_°C|{{#if:{{{Dec_REC_Hi_°F|}}}|{{#expr:({{{Dec_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_REC_Hi_°C|}}}{{{Year_REC_Hi_°F|}}}|{{{Year_REC_Hi_°C|{{#expr:({{{Year_REC_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_REC_Hi_°F|{{#if:{{{Jan_REC_Hi_°C|}}}|{{#expr:{{{Jan_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_REC_Hi_°F|{{#if:{{{Feb_REC_Hi_°C|}}}|{{#expr:{{{Feb_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_REC_Hi_°F|{{#if:{{{Mar_REC_Hi_°C|}}}|{{#expr:{{{Mar_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_REC_Hi_°F|{{#if:{{{Apr_REC_Hi_°C|}}}|{{#expr:{{{Apr_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_REC_Hi_°F|{{#if:{{{May_REC_Hi_°C|}}}|{{#expr:{{{May_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_REC_Hi_°F|{{#if:{{{Jun_REC_Hi_°C|}}}|{{#expr:{{{Jun_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_REC_Hi_°F|{{#if:{{{Jul_REC_Hi_°C|}}}|{{#expr:{{{Jul_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_REC_Hi_°F|{{#if:{{{Aug_REC_Hi_°C|}}}|{{#expr:{{{Aug_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_REC_Hi_°F|{{#if:{{{Sep_REC_Hi_°C|}}}|{{#expr:{{{Sep_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_REC_Hi_°F|{{#if:{{{Oct_REC_Hi_°C|}}}|{{#expr:{{{Oct_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_REC_Hi_°F|{{#if:{{{Nov_REC_Hi_°C|}}}|{{#expr:{{{Nov_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_REC_Hi_°F|{{#if:{{{Dec_REC_Hi_°C|}}}|{{#expr:{{{Dec_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_REC_Hi_°C|}}}{{{Year_REC_Hi_°F|}}}|{{{Year_REC_Hi_°F|{{#expr:{{{Year_REC_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+  -->}}
+{{Infobox Weather/khad
+|label=Darajada kuleelka ee ugu saraysa waa °{{#if:{{{metric_first|}}}|Qiyaas|m}}
+|show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_Hi_°C|{{#if:{{{Jan_Hi_°F|}}}|{{#expr:({{{Jan_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_Hi_°C|{{#if:{{{Feb_Hi_°F|}}}|{{#expr:({{{Feb_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_Hi_°C|{{#if:{{{Mar_Hi_°F|}}}|{{#expr:({{{Mar_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_Hi_°C|{{#if:{{{Apr_Hi_°F|}}}|{{#expr:({{{Apr_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_Hi_°C|{{#if:{{{May_Hi_°F|}}}|{{#expr:({{{May_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_Hi_°C|{{#if:{{{Jun_Hi_°F|}}}|{{#expr:({{{Jun_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_Hi_°C|{{#if:{{{Jul_Hi_°F|}}}|{{#expr:({{{Jul_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_Hi_°C|{{#if:{{{Aug_Hi_°F|}}}|{{#expr:({{{Aug_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_Hi_°C|{{#if:{{{Sep_Hi_°F|}}}|{{#expr:({{{Sep_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_Hi_°C|{{#if:{{{Oct_Hi_°F|}}}|{{#expr:({{{Oct_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_Hi_°C|{{#if:{{{Nov_Hi_°F|}}}|{{#expr:({{{Nov_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_Hi_°C|{{#if:{{{Dec_Hi_°F|}}}|{{#expr:({{{Dec_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}|{{{Year_Hi_°C|{{#expr:({{{Year_Hi_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_Hi_°F|{{#if:{{{Jan_Hi_°C|}}}|{{#expr:{{{Jan_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_Hi_°F|{{#if:{{{Feb_Hi_°C|}}}|{{#expr:{{{Feb_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_Hi_°F|{{#if:{{{Mar_Hi_°C|}}}|{{#expr:{{{Mar_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_Hi_°F|{{#if:{{{Apr_Hi_°C|}}}|{{#expr:{{{Apr_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_Hi_°F|{{#if:{{{May_Hi_°C|}}}|{{#expr:{{{May_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_Hi_°F|{{#if:{{{Jun_Hi_°C|}}}|{{#expr:{{{Jun_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_Hi_°F|{{#if:{{{Jul_Hi_°C|}}}|{{#expr:{{{Jul_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_Hi_°F|{{#if:{{{Aug_Hi_°C|}}}|{{#expr:{{{Aug_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_Hi_°F|{{#if:{{{Sep_Hi_°C|}}}|{{#expr:{{{Sep_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_Hi_°F|{{#if:{{{Oct_Hi_°C|}}}|{{#expr:{{{Oct_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_Hi_°F|{{#if:{{{Nov_Hi_°C|}}}|{{#expr:{{{Nov_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_Hi_°F|{{#if:{{{Dec_Hi_°C|}}}|{{#expr:{{{Dec_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}|{{{Year_Hi_°F|{{#expr:{{{Year_Hi_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+  -->{{#if:{{{Jan_MEAN_°C|}}}{{{Jan_MEAN_°F|}}}|<nowiki />
+{{Infobox Weather/khad
+|label=Maalintii °{{#if:{{{metric_first|}}}|Qiyaas|m}} |show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_MEAN_°C|{{#if:{{{Jan_MEAN_°F|}}}|{{#expr:({{{Jan_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_MEAN_°C|{{#if:{{{Feb_MEAN_°F|}}}|{{#expr:({{{Feb_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_MEAN_°C|{{#if:{{{Mar_MEAN_°F|}}}|{{#expr:({{{Mar_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_MEAN_°C|{{#if:{{{Apr_MEAN_°F|}}}|{{#expr:({{{Apr_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_MEAN_°C|{{#if:{{{May_MEAN_°F|}}}|{{#expr:({{{May_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_MEAN_°C|{{#if:{{{Jun_MEAN_°F|}}}|{{#expr:({{{Jun_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_MEAN_°C|{{#if:{{{Jul_MEAN_°F|}}}|{{#expr:({{{Jul_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_MEAN_°C|{{#if:{{{Aug_MEAN_°F|}}}|{{#expr:({{{Aug_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_MEAN_°C|{{#if:{{{Sep_MEAN_°F|}}}|{{#expr:({{{Sep_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_MEAN_°C|{{#if:{{{Oct_MEAN_°F|}}}|{{#expr:({{{Oct_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_MEAN_°C|{{#if:{{{Nov_MEAN_°F|}}}|{{#expr:({{{Nov_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_MEAN_°C|{{#if:{{{Dec_MEAN_°F|}}}|{{#expr:({{{Dec_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_MEAN_°C|}}}{{{Year_MEAN_°F|}}}|{{{Year_MEAN_°C|{{#expr:({{{Year_MEAN_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_MEAN_°F|{{#if:{{{Jan_MEAN_°C|}}}|{{#expr:{{{Jan_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_MEAN_°F|{{#if:{{{Feb_MEAN_°C|}}}|{{#expr:{{{Feb_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_MEAN_°F|{{#if:{{{Mar_MEAN_°C|}}}|{{#expr:{{{Mar_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_MEAN_°F|{{#if:{{{Apr_MEAN_°C|}}}|{{#expr:{{{Apr_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_MEAN_°F|{{#if:{{{May_MEAN_°C|}}}|{{#expr:{{{May_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_MEAN_°F|{{#if:{{{Jun_MEAN_°C|}}}|{{#expr:{{{Jun_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_MEAN_°F|{{#if:{{{Jul_MEAN_°C|}}}|{{#expr:{{{Jul_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_MEAN_°F|{{#if:{{{Aug_MEAN_°C|}}}|{{#expr:{{{Aug_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_MEAN_°F|{{#if:{{{Sep_MEAN_°C|}}}|{{#expr:{{{Sep_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_MEAN_°F|{{#if:{{{Oct_MEAN_°C|}}}|{{#expr:{{{Oct_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_MEAN_°F|{{#if:{{{Nov_MEAN_°C|}}}|{{#expr:{{{Nov_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_MEAN_°F|{{#if:{{{Dec_MEAN_°C|}}}|{{#expr:{{{Dec_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_MEAN_°C|}}}{{{Year_MEAN_°F|}}}|{{{Year_MEAN_°F|{{#expr:{{{Year_MEAN_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+  -->}}
+{{Infobox Weather/khad
+|label=Darajada kuleelka ugu yar waa°{{#if:{{{metric_first|}}}|Qiyaas|m}} |show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_Lo_°C|{{#if:{{{Jan_Lo_°F|}}}|{{#expr:({{{Jan_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_Lo_°C|{{#if:{{{Feb_Lo_°F|}}}|{{#expr:({{{Feb_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_Lo_°C|{{#if:{{{Mar_Lo_°F|}}}|{{#expr:({{{Mar_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_Lo_°C|{{#if:{{{Apr_Lo_°F|}}}|{{#expr:({{{Apr_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_Lo_°C|{{#if:{{{May_Lo_°F|}}}|{{#expr:({{{May_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_Lo_°C|{{#if:{{{Jun_Lo_°F|}}}|{{#expr:({{{Jun_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_Lo_°C|{{#if:{{{Jul_Lo_°F|}}}|{{#expr:({{{Jul_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_Lo_°C|{{#if:{{{Aug_Lo_°F|}}}|{{#expr:({{{Aug_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_Lo_°C|{{#if:{{{Sep_Lo_°F|}}}|{{#expr:({{{Sep_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_Lo_°C|{{#if:{{{Oct_Lo_°F|}}}|{{#expr:({{{Oct_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_Lo_°C|{{#if:{{{Nov_Lo_°F|}}}|{{#expr:({{{Nov_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_Lo_°C|{{#if:{{{Dec_Lo_°F|}}}|{{#expr:({{{Dec_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}|{{{Year_Lo_°C|{{#expr:({{{Year_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_Lo_°F|{{#if:{{{Jan_Lo_°C|}}}|{{#expr:{{{Jan_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_Lo_°F|{{#if:{{{Feb_Lo_°C|}}}|{{#expr:{{{Feb_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_Lo_°F|{{#if:{{{Mar_Lo_°C|}}}|{{#expr:{{{Mar_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_Lo_°F|{{#if:{{{Apr_Lo_°C|}}}|{{#expr:{{{Apr_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_Lo_°F|{{#if:{{{May_Lo_°C|}}}|{{#expr:{{{May_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_Lo_°F|{{#if:{{{Jun_Lo_°C|}}}|{{#expr:{{{Jun_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_Lo_°F|{{#if:{{{Jul_Lo_°C|}}}|{{#expr:{{{Jul_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_Lo_°F|{{#if:{{{Aug_Lo_°C|}}}|{{#expr:{{{Aug_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_Lo_°F|{{#if:{{{Sep_Lo_°C|}}}|{{#expr:{{{Sep_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_Lo_°F|{{#if:{{{Oct_Lo_°C|}}}|{{#expr:{{{Oct_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_Lo_°F|{{#if:{{{Nov_Lo_°C|}}}|{{#expr:{{{Nov_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_Lo_°F|{{#if:{{{Dec_Lo_°C|}}}|{{#expr:{{{Dec_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}|{{{Year_Lo_°F|{{#expr:{{{Year_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+  -->{{#if:{{{Jan_REC_Lo_°C|}}}{{{Jan_REC_Lo_°F|}}}|<nowiki />
+{{Infobox Weather/khad
+|label=Darajada qaboowga ee ugo hooseeysa waa°{{#if:{{{metric_first|}}}|Qiyaas|M}} |show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{sctemp|t}}} |f=1
+|jan1={{{Jan_REC_Lo_°C|{{#if:{{{Jan_REC_Lo_°F|}}}|{{#expr:({{{Jan_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|feb1={{{Feb_REC_Lo_°C|{{#if:{{{Feb_REC_Lo_°F|}}}|{{#expr:({{{Feb_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|mar1={{{Mar_REC_Lo_°C|{{#if:{{{Mar_REC_Lo_°F|}}}|{{#expr:({{{Mar_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|apr1={{{Apr_REC_Lo_°C|{{#if:{{{Apr_REC_Lo_°F|}}}|{{#expr:({{{Apr_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|may1={{{May_REC_Lo_°C|{{#if:{{{May_REC_Lo_°F|}}}|{{#expr:({{{May_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jun1={{{Jun_REC_Lo_°C|{{#if:{{{Jun_REC_Lo_°F|}}}|{{#expr:({{{Jun_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jul1={{{Jul_REC_Lo_°C|{{#if:{{{Jul_REC_Lo_°F|}}}|{{#expr:({{{Jul_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|aug1={{{Aug_REC_Lo_°C|{{#if:{{{Aug_REC_Lo_°F|}}}|{{#expr:({{{Aug_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|sep1={{{Sep_REC_Lo_°C|{{#if:{{{Sep_REC_Lo_°F|}}}|{{#expr:({{{Sep_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|oct1={{{Oct_REC_Lo_°C|{{#if:{{{Oct_REC_Lo_°F|}}}|{{#expr:({{{Oct_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|nov1={{{Nov_REC_Lo_°C|{{#if:{{{Nov_REC_Lo_°F|}}}|{{#expr:({{{Nov_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|dec1={{{Dec_REC_Lo_°C|{{#if:{{{Dec_REC_Lo_°F|}}}|{{#expr:({{{Dec_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|yr1={{#if:{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}|{{{Year_REC_Lo_°C|{{#expr:({{{Year_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
+|jan2={{{Jan_REC_Lo_°F|{{#if:{{{Jan_REC_Lo_°C|}}}|{{#expr:{{{Jan_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|feb2={{{Feb_REC_Lo_°F|{{#if:{{{Feb_REC_Lo_°C|}}}|{{#expr:{{{Feb_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|mar2={{{Mar_REC_Lo_°F|{{#if:{{{Mar_REC_Lo_°C|}}}|{{#expr:{{{Mar_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|apr2={{{Apr_REC_Lo_°F|{{#if:{{{Apr_REC_Lo_°C|}}}|{{#expr:{{{Apr_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|may2={{{May_REC_Lo_°F|{{#if:{{{May_REC_Lo_°C|}}}|{{#expr:{{{May_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jun2={{{Jun_REC_Lo_°F|{{#if:{{{Jun_REC_Lo_°C|}}}|{{#expr:{{{Jun_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|jul2={{{Jul_REC_Lo_°F|{{#if:{{{Jul_REC_Lo_°C|}}}|{{#expr:{{{Jul_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|aug2={{{Aug_REC_Lo_°F|{{#if:{{{Aug_REC_Lo_°C|}}}|{{#expr:{{{Aug_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|sep2={{{Sep_REC_Lo_°F|{{#if:{{{Sep_REC_Lo_°C|}}}|{{#expr:{{{Sep_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|oct2={{{Oct_REC_Lo_°F|{{#if:{{{Oct_REC_Lo_°C|}}}|{{#expr:{{{Oct_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|nov2={{{Nov_REC_Lo_°F|{{#if:{{{Nov_REC_Lo_°C|}}}|{{#expr:{{{Nov_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|dec2={{{Dec_REC_Lo_°F|{{#if:{{{Dec_REC_Lo_°C|}}}|{{#expr:{{{Dec_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+|yr2={{#if:{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}|{{{Year_REC_Lo_°F|{{#expr:{{{Year_REC_Lo_°C|}}}*1.8+32 round 0}}}}}}}
+}}<!--
+  -->}}{{#if:{{{Jan_Precip_cm|}}}{{{Jan_Precip_mm|}}}{{{Jan_Precip_inch|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=[[Roob]] la eg {{#if:{{{metric_first|}}}|Far|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3}}
+|show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Precip_cm|}}}|10|1}}
+|jan1={{{Jan_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jan_Precip_inch|}}}|{{#expr:{{{Jan_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Feb_Precip_inch|}}}|{{#expr:{{{Feb_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Mar_Precip_inch|}}}|{{#expr:{{{Mar_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Apr_Precip_inch|}}}|{{#expr:{{{Apr_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{May_Precip_inch|}}}|{{#expr:{{{May_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jun_Precip_inch|}}}|{{#expr:{{{Jun_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Jul_Precip_inch|}}}|{{#expr:{{{Jul_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Aug_Precip_inch|}}}|{{#expr:{{{Aug_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Sep_Precip_inch|}}}|{{#expr:{{{Sep_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Oct_Precip_inch|}}}|{{#expr:{{{Oct_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Nov_Precip_inch|}}}|{{#expr:{{{Nov_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Dec_Precip_inch|}}}|{{#expr:{{{Dec_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Precip_{{#if:{{{Jan_Precip_cm|}}}|c|m}}m|{{#if:{{{Year_Precip_inch|}}}|{{#expr:{{{Year_Precip_inch}}}*{{#if:{{{Jan_Precip_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Precip_inch|{{#if:{{{Jan_Precip_cm|}}}|{{#expr:{{{Jan_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Precip_mm|}}}|{{#expr:{{{Jan_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Precip_inch|{{#if:{{{Feb_Precip_cm|}}}|{{#expr:{{{Feb_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Precip_mm|}}}|{{#expr:{{{Feb_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Precip_inch|{{#if:{{{Mar_Precip_cm|}}}|{{#expr:{{{Mar_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Precip_mm|}}}|{{#expr:{{{Mar_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Precip_inch|{{#if:{{{Apr_Precip_cm|}}}|{{#expr:{{{Apr_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Precip_mm|}}}|{{#expr:{{{Apr_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Precip_inch|{{#if:{{{May_Precip_cm|}}}|{{#expr:{{{May_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{May_Precip_mm|}}}|{{#expr:{{{May_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Precip_inch|{{#if:{{{Jun_Precip_cm|}}}|{{#expr:{{{Jun_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Precip_mm|}}}|{{#expr:{{{Jun_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Precip_inch|{{#if:{{{Jul_Precip_cm|}}}|{{#expr:{{{Jul_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Precip_mm|}}}|{{#expr:{{{Jul_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Precip_inch|{{#if:{{{Aug_Precip_cm|}}}|{{#expr:{{{Aug_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Precip_mm|}}}|{{#expr:{{{Aug_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Precip_inch|{{#if:{{{Sep_Precip_cm|}}}|{{#expr:{{{Sep_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Precip_mm|}}}|{{#expr:{{{Sep_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Precip_inch|{{#if:{{{Oct_Precip_cm|}}}|{{#expr:{{{Oct_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Precip_mm|}}}|{{#expr:{{{Oct_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Precip_inch|{{#if:{{{Nov_Precip_cm|}}}|{{#expr:{{{Nov_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Precip_mm|}}}|{{#expr:{{{Nov_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Precip_inch|{{#if:{{{Dec_Precip_cm|}}}|{{#expr:{{{Dec_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Precip_mm|}}}|{{#expr:{{{Dec_Precip_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Precip_inch|{{#if:{{{Year_Precip_cm|}}}|{{#expr:{{{Year_Precip_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Precip_mm|}}}|{{#expr:{{{Year_Precip_mm|}}}/25.4 round 2}}}}}}}}}}}
+}}<!--
+-->{{#if:{{{Jan_Rain_cm|}}}{{{Jan_Rain_mm|}}}{{{Jan_Rain_inch|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Daista roobka {{#if:{{{metric_first|}}}|Far|{{#if:{{{Jan_Rain_cm|}}}|C|M}}3}}
+|show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Rain_cm|}}}|10|1}}
+|jan1={{{Jan_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jan_Rain_inch|}}}|{{#expr:{{{Jan_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Feb_Rain_inch|}}}|{{#expr:{{{Feb_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Mar_Rain_inch|}}}|{{#expr:{{{Mar_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Apr_Rain_inch|}}}|{{#expr:{{{Apr_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{May_Rain_inch|}}}|{{#expr:{{{May_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jun_Rain_inch|}}}|{{#expr:{{{Jun_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Jul_Rain_inch|}}}|{{#expr:{{{Jul_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Aug_Rain_inch|}}}|{{#expr:{{{Aug_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Sep_Rain_inch|}}}|{{#expr:{{{Sep_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Oct_Rain_inch|}}}|{{#expr:{{{Oct_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Nov_Rain_inch|}}}|{{#expr:{{{Nov_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Dec_Rain_inch|}}}|{{#expr:{{{Dec_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Rain_{{#if:{{{Jan_Rain_cm|}}}|c|m}}m|{{#if:{{{Year_Rain_inch|}}}|{{#expr:{{{Year_Rain_inch}}}*{{#if:{{{Jan_Rain_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Rain_inch|{{#if:{{{Jan_Rain_cm|}}}|{{#expr:{{{Jan_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Rain_mm|}}}|{{#expr:{{{Jan_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Rain_inch|{{#if:{{{Feb_Rain_cm|}}}|{{#expr:{{{Feb_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Rain_mm|}}}|{{#expr:{{{Feb_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Rain_inch|{{#if:{{{Mar_Rain_cm|}}}|{{#expr:{{{Mar_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Rain_mm|}}}|{{#expr:{{{Mar_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Rain_inch|{{#if:{{{Apr_Rain_cm|}}}|{{#expr:{{{Apr_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Rain_mm|}}}|{{#expr:{{{Apr_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Rain_inch|{{#if:{{{May_Rain_cm|}}}|{{#expr:{{{May_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{May_Rain_mm|}}}|{{#expr:{{{May_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Rain_inch|{{#if:{{{Jun_Rain_cm|}}}|{{#expr:{{{Jun_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Rain_mm|}}}|{{#expr:{{{Jun_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Rain_inch|{{#if:{{{Jul_Rain_cm|}}}|{{#expr:{{{Jul_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Rain_mm|}}}|{{#expr:{{{Jul_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Rain_inch|{{#if:{{{Aug_Rain_cm|}}}|{{#expr:{{{Aug_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Rain_mm|}}}|{{#expr:{{{Aug_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Rain_inch|{{#if:{{{Sep_Rain_cm|}}}|{{#expr:{{{Sep_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Rain_mm|}}}|{{#expr:{{{Sep_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Rain_inch|{{#if:{{{Oct_Rain_cm|}}}|{{#expr:{{{Oct_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Rain_mm|}}}|{{#expr:{{{Oct_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Rain_inch|{{#if:{{{Nov_Rain_cm|}}}|{{#expr:{{{Nov_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Rain_mm|}}}|{{#expr:{{{Nov_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Rain_inch|{{#if:{{{Dec_Rain_cm|}}}|{{#expr:{{{Dec_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Rain_mm|}}}|{{#expr:{{{Dec_Rain_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Rain_inch|{{#if:{{{Year_Rain_cm|}}}|{{#expr:{{{Year_Rain_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Rain_mm|}}}|{{#expr:{{{Year_Rain_mm|}}}/25.4 round 2}}}}}}}}}}}
+}}<!--
+-->{{#if:{{{Jan_Snow_cm|}}}{{{Jan_Snow_mm|}}}{{{Jan_Snow_inch|}}}|<nowiki/>
+{{Infobox Weather/khad
+|label=Soo dhicitaanka barafka {{#if:{{{metric_first|}}}|Far|{{#if:{{{Jan_Snow_cm|}}}|C|M}}3}}
+|show={{#if:{{{metric_first|}}}|2|1}}
+|alt=
+|sc={{{scprecip|p}}} |f={{#if:{{{Jan_Snow_cm|}}}|10|1}}
+|jan1={{{Jan_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jan_Snow_inch|}}}|{{#expr:{{{Jan_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|feb1={{{Feb_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Feb_Snow_inch|}}}|{{#expr:{{{Feb_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|mar1={{{Mar_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Mar_Snow_inch|}}}|{{#expr:{{{Mar_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|apr1={{{Apr_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Apr_Snow_inch|}}}|{{#expr:{{{Apr_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|may1={{{May_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{May_Snow_inch|}}}|{{#expr:{{{May_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jun1={{{Jun_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jun_Snow_inch|}}}|{{#expr:{{{Jun_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jul1={{{Jul_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Jul_Snow_inch|}}}|{{#expr:{{{Jul_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|aug1={{{Aug_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Aug_Snow_inch|}}}|{{#expr:{{{Aug_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|sep1={{{Sep_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Sep_Snow_inch|}}}|{{#expr:{{{Sep_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|oct1={{{Oct_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Oct_Snow_inch|}}}|{{#expr:{{{Oct_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|nov1={{{Nov_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Nov_Snow_inch|}}}|{{#expr:{{{Nov_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|dec1={{{Dec_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Dec_Snow_inch|}}}|{{#expr:{{{Dec_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|yr1={{{Year_Snow_{{#if:{{{Jan_Snow_cm|}}}|c|m}}m|{{#if:{{{Year_Snow_inch|}}}|{{#expr:{{{Year_Snow_inch}}}*{{#if:{{{Jan_Snow_cm|}}}|2.54|25.4}} round 1}}}}}}}
+|jan2={{{Jan_Snow_inch|{{#if:{{{Jan_Snow_cm|}}}|{{#expr:{{{Jan_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jan_Snow_mm|}}}|{{#expr:{{{Jan_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|feb2={{{Feb_Snow_inch|{{#if:{{{Feb_Snow_cm|}}}|{{#expr:{{{Feb_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Feb_Snow_mm|}}}|{{#expr:{{{Feb_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|mar2={{{Mar_Snow_inch|{{#if:{{{Mar_Snow_cm|}}}|{{#expr:{{{Mar_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Mar_Snow_mm|}}}|{{#expr:{{{Mar_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|apr2={{{Apr_Snow_inch|{{#if:{{{Apr_Snow_cm|}}}|{{#expr:{{{Apr_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Apr_Snow_mm|}}}|{{#expr:{{{Apr_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|may2={{{May_Snow_inch|{{#if:{{{May_Snow_cm|}}}|{{#expr:{{{May_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{May_Snow_mm|}}}|{{#expr:{{{May_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|jun2={{{Jun_Snow_inch|{{#if:{{{Jun_Snow_cm|}}}|{{#expr:{{{Jun_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jun_Snow_mm|}}}|{{#expr:{{{Jun_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|jul2={{{Jul_Snow_inch|{{#if:{{{Jul_Snow_cm|}}}|{{#expr:{{{Jul_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Jul_Snow_mm|}}}|{{#expr:{{{Jul_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|aug2={{{Aug_Snow_inch|{{#if:{{{Aug_Snow_cm|}}}|{{#expr:{{{Aug_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Aug_Snow_mm|}}}|{{#expr:{{{Aug_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|sep2={{{Sep_Snow_inch|{{#if:{{{Sep_Snow_cm|}}}|{{#expr:{{{Sep_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Sep_Snow_mm|}}}|{{#expr:{{{Sep_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|oct2={{{Oct_Snow_inch|{{#if:{{{Oct_Snow_cm|}}}|{{#expr:{{{Oct_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Oct_Snow_mm|}}}|{{#expr:{{{Oct_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|nov2={{{Nov_Snow_inch|{{#if:{{{Nov_Snow_cm|}}}|{{#expr:{{{Nov_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Nov_Snow_mm|}}}|{{#expr:{{{Nov_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|dec2={{{Dec_Snow_inch|{{#if:{{{Dec_Snow_cm|}}}|{{#expr:{{{Dec_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Dec_Snow_mm|}}}|{{#expr:{{{Dec_Snow_mm|}}}/25.4 round 2}}}}}}}}}
+|yr2={{{Year_Snow_inch|{{#if:{{{Year_Snow_cm|}}}|{{#expr:{{{Year_Snow_cm|}}}/2.54 round 1}}|{{#if:{{{Year_Snow_mm|}}}|{{#expr:{{{Year_Snow_mm|}}}/25.4 round 2}}}}}}}}}}}
+}}<!--
+-->}}<!--
+-->{{#if:{{{Jan_Sun|}}}{{{Feb_Sun|}}}|<nowiki/>
+{{Infobox Weather/khad/onevalue
+|label=Saacadaha qoraxda
+|show=1
+|sc=s |f=1
+|jan1={{{Jan_Sun}}}
+|feb1={{{Feb_Sun}}}
+|mar1={{{Mar_Sun}}}
+|apr1={{{Apr_Sun}}}
+|may1={{{May_Sun}}}
+|jun1={{{Jun_Sun}}}
+|jul1={{{Jul_Sun}}}
+|aug1={{{Aug_Sun}}}
+|sep1={{{Sep_Sun}}}
+|oct1={{{Oct_Sun}}}
+|nov1={{{Nov_Sun}}}
+|dec1={{{Dec_Sun}}}
+|yr1={{#if:{{{Year_Sun|}}}|{{{Year_Sun}}}}}<!--
+-->}}}}<!--
+-->{{#if:{{{Jan_Hum|}}}{{{Feb_Hum|}}}|<nowiki/>
+{{Infobox Weather/khad/onevalue
+|label=Dhado%
+|show=1
+|sc=h |f=1
+|jan1={{{Jan_Hum}}}
+|feb1={{{Feb_Hum}}}
+|mar1={{{Mar_Hum}}}
+|apr1={{{Apr_Hum}}}
+|may1={{{May_Hum}}}
+|jun1={{{Jun_Hum}}}
+|jul1={{{Jul_Hum}}}
+|aug1={{{Aug_Hum}}}
+|sep1={{{Sep_Hum}}}
+|oct1={{{Oct_Hum}}}
+|nov1={{{Nov_Hum}}}
+|dec1={{{Dec_Hum}}}
+|yr1={{#if:{{{Year_Hum|}}}|{{{Year_Hum}}}}}<!--
+-->}}}}<!--
+-->{{#if:{{{Jan_Rain_days|}}}{{{Feb_Rain_days|}}}|<nowiki/>
+{{Infobox Weather/khad/onevalue
+|label=Dhaxdhaxaadka maalmaha roobka
+|show=1
+|sc=d |f=1
+|jan1={{{Jan_Rain_days}}}
+|feb1={{{Feb_Rain_days}}}
+|mar1={{{Mar_Rain_days}}}
+|apr1={{{Apr_Rain_days}}}
+|may1={{{May_Rain_days}}}
+|jun1={{{Jun_Rain_days}}}
+|jul1={{{Jul_Rain_days}}}
+|aug1={{{Aug_Rain_days}}}
+|sep1={{{Sep_Rain_days}}}
+|oct1={{{Oct_Rain_days}}}
+|nov1={{{Nov_Rain_days}}}
+|dec1={{{Dec_Rain_days}}}
+|yr1={{#if:{{{Year_Rain_days|}}}|{{{Year_Rain_days}}}|{{#expr:{{{Jan_Rain_days}}}+{{{Feb_Rain_days}}}+{{{Mar_Rain_days}}}+{{{Apr_Rain_days}}}+{{{May_Rain_days}}}+{{{Jun_Rain_days}}}+{{{Jul_Rain_days}}}+{{{Aug_Rain_days}}}+{{{Sep_Rain_days}}}+{{{Oct_Rain_days}}}+{{{Nov_Rain_days}}}+{{{Dec_Rain_days}}}}}}}<!--
+-->}}}}<!--
+-->{{#if:{{{Jan_Snow_days|}}}{{{Feb_Snow_days|}}}|<nowiki/>
+{{Infobox Weather/khad/onevalue
+|label=Dhaxdhexaadka maalmaha barafka
+|show=1
+|sc=d |f=1
+|jan1={{{Jan_Snow_days}}}
+|feb1={{{Feb_Snow_days}}}
+|mar1={{{Mar_Snow_days}}}
+|apr1={{{Apr_Snow_days}}}
+|may1={{{May_Snow_days}}}
+|jun1={{{Jun_Snow_days}}}
+|jul1={{{Jul_Snow_days}}}
+|aug1={{{Aug_Snow_days}}}
+|sep1={{{Sep_Snow_days}}}
+|oct1={{{Oct_Snow_days}}}
+|nov1={{{Nov_Snow_days}}}
+|dec1={{{Dec_Snow_days}}}
+|yr1={{#if:{{{Year_Snow_days|}}}|{{{Year_Snow_days}}}|{{#expr:{{{Jan_Snow_days}}}+{{{Feb_Snow_days}}}+{{{Mar_Snow_days}}}+{{{Apr_Snow_days}}}+{{{May_Snow_days}}}+{{{Jun_Snow_days}}}+{{{Jul_Snow_days}}}+{{{Aug_Snow_days}}}+{{{Sep_Snow_days}}}+{{{Oct_Snow_days}}}+{{{Nov_Snow_days}}}+{{{Dec_Snow_days}}}}}}}<!--
+-->}}}}<!--
+-->{{#if:{{{Jan_Precip_days|}}}{{{Feb_Precip_days|}}}|<nowiki/>
+{{Infobox Weather/khad/onevalue
+|label=Dhaxdhaxaadka maalmaha uu soo dhaco
+|show=1
+|sc=d |f=1
+|jan1={{{Jan_Precip_days}}}
+|feb1={{{Feb_Precip_days}}}
+|mar1={{{Mar_Precip_days}}}
+|apr1={{{Apr_Precip_days}}}
+|may1={{{May_Precip_days}}}
+|jun1={{{Jun_Precip_days}}}
+|jul1={{{Jul_Precip_days}}}
+|aug1={{{Aug_Precip_days}}}
+|sep1={{{Sep_Precip_days}}}
+|oct1={{{Oct_Precip_days}}}
+|nov1={{{Nov_Precip_days}}}
+|dec1={{{Dec_Precip_days}}}
+|yr1={{#if:{{{Year_Precip_days|}}}|{{{Year_Precip_days}}}|{{#expr:{{{Jan_Precip_days}}}+{{{Feb_Precip_days}}}+{{{Mar_Precip_days}}}+{{{Apr_Precip_days}}}+{{{May_Precip_days}}}+{{{Jun_Precip_days}}}+{{{Jul_Precip_days}}}+{{{Aug_Precip_days}}}+{{{Sep_Precip_days}}}+{{{Oct_Precip_days}}}+{{{Nov_Precip_days}}}+{{{Dec_Precip_days}}}}}}}<!--
+-->}}}}
+|-<!--Source_and_Ref-->
+|colspan="14" style="text-align:center; font-size:88%"|''Xigasho: {{{source}}} {{#if:{{{dateformat|}}}|{{date |{{{accessdate}}} |{{{dateformat}}} }}|{{{accessdate}}}}}''
+|-
+{{#if:{{{source2|}}}|
+{{!}}colspan="14" style="text-align:center; font-size:88%"{{!}}''Xigasho #2: {{{source2}}} {{#if:{{{dateformat|}}}|{{date |{{{accessdate2}}} |{{{dateformat}}} }}|{{{accessdate2}}}}}''<!--
+-->
+
+}}
+|}</includeonly><noinclude>
+</noinclude>
