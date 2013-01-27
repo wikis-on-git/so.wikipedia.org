@@ -1,0 +1,43 @@
+<includeonly>|-
+!height="16" |{{{label}}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{jan1}}}}}"|{{{jan{{{show}}}}}} {{#if:{{{jan{{{alt}}}|}}}|<br />({{{jan{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{feb1}}}}}"|{{{feb{{{show}}}}}} {{#if:{{{feb{{{alt}}}|}}}|<br />({{{feb{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{mar1}}}}}"|{{{mar{{{show}}}}}} {{#if:{{{mar{{{alt}}}|}}}|<br />({{{mar{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{apr1}}}}}"|{{{apr{{{show}}}}}} {{#if:{{{apr{{{alt}}}|}}}|<br />({{{apr{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{may1}}}}}"|{{{may{{{show}}}}}} {{#if:{{{may{{{alt}}}|}}}|<br />({{{may{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{jun1}}}}}"|{{{jun{{{show}}}}}} {{#if:{{{jun{{{alt}}}|}}}|<br />({{{jun{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{jul1}}}}}"|{{{jul{{{show}}}}}} {{#if:{{{jul{{{alt}}}|}}}|<br />({{{jul{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{aug1}}}}}"|{{{aug{{{show}}}}}} {{#if:{{{aug{{{alt}}}|}}}|<br />({{{aug{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{sep1}}}}}"|{{{sep{{{show}}}}}} {{#if:{{{sep{{{alt}}}|}}}|<br />({{{sep{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{oct1}}}}}"|{{{oct{{{show}}}}}} {{#if:{{{oct{{{alt}}}|}}}|<br />({{{oct{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{nov1}}}}}"|{{{nov{{{show}}}}}} {{#if:{{{nov{{{alt}}}|}}}|<br />({{{nov{{{alt}}}}}})}}
+|style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{{dec1}}}}}"|{{{dec{{{show}}}}}} {{#if:{{{dec{{{alt}}}|}}}|<br />({{{dec{{{alt}}}}}})}}<!--
+-->{{#if:{{{yr1|}}}{{{yr2|}}}|<nowiki/>
+{{!}}style="{{Infobox Weather/col{{{sc}}}|{{{f}}}*{{#switch:{{{sc|}}}|p={{{yr1}}}/12|{{{yr1}}}}}}} border-left-width:medium"{{!}}{{formatnum:{{{yr{{{show}}}}}}}} {{#if:{{{yr{{{alt}}}|}}}|<br />({{formatnum:{{{yr{{{alt}}}}}}}})}}<!--
+-->}}</includeonly><noinclude>
+A single weatherbox line.
+
+</noinclude><noinclude>
+[[تصنيف:قوالب]]
+[[af:Sjabloon:Weerkas/line]]
+[[bn:টেমপ্লেট:Infobox Weather/line]]
+[[da:Skabelon:Infoboks vejr/linje]]
+[[es:Plantilla:Clima/line]]
+[[gd:Template:Infobox Weather/line]]
+[[hi:साँचा:Infobox Weather/line]]
+[[id:Templat:Infobox Weather/line]]
+[[jv:Cithakan:Infobox Weather/line]]
+[[km:ទំព័រគំរូ:Infobox អាកាសធាតុ/line]]
+[[map-bms:Cithakan:Infobox Weather/line]]
+[[ms:Templat:Infobox Weather/line]]
+[[mt:Mudell:Infobox Temp/linja]]
+[[nn:Mal:Vêrboks/linje]]
+[[no:Mal:Infoboks vær/linje]]
+[[pam:Template:Infobox Weather/line]]
+[[pl:Szablon:Pogoda infobox/line]]
+[[pt:Predefinição:Infobox Weather/line]]
+[[ta:வார்ப்புரு:Infobox Weather/line]]
+[[tl:Suleras:Infobox Weather/line]]
+[[tr:Şablon:İklim bilgi kutusu/line]]
+[[ur:سانچہ:Infobox weather/line]]
+</noinclude>
