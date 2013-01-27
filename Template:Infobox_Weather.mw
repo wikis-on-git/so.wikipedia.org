@@ -2,7 +2,7 @@
 |-
 !colspan="14" style="font-weight:bold" |[[file:Nuvola apps kweather.svg|20px]]&nbsp;Heer kulka jawiga {{{location}}}&nbsp;[[file:Weather-rain-thunderstorm.svg|20px]]
 |-
-!Bisha
+!Bilaha
 !abbr="January"  | Janaayo
 !abbr="February" | Febraayo
 !abbr="March"    | Maarso 
@@ -15,7 +15,7 @@
 !abbr="October"  | Oktoobar 
 !abbr="November" | Nofeembar
 !abbr="December" | Diseembar 
-!abbr="Year" | Qiqaas sanadeedka<!--
+!abbr="Year" | Qiyaas sanadeedka<!--
 -->{{#if:{{{Year_Hi_°C|}}}{{{Year_Hi_°F|}}}{{{Year_REC_Hi_°C|}}}{{{Year_RECَ_Hi_°F|}}}{{{Year_Lo_°C|}}}{{{Year_Lo_°F|}}}{{{Year_REC_Lo_°C|}}}{{{Year_REC_Lo_°F|}}}{{{Year_Precip_mm|}}}{{{Year_Precip_inch|}}}{{{Year_Rain_inch|}}}{{{Year_Rain_mm|}}}{{{Year_Rain_cm|}}}{{{Year_Snow_inch|}}}{{{Year_Snow_cm|}}}{{{Year_Snow_mm|}}}|<nowiki/>
 !style="border-left-width:medium"{{!}} <!--
 -->}}<!--
