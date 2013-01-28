@@ -302,7 +302,7 @@ Add speakers2 after the ref:
 {{!}}}
 }}
 }}<!-- Adding tracking categories:
--->{{#if:{{Infobox language/family-color|{{{familycolor|}}}}}{{{signers|}}}{{{creator|}}}||<includeonly>[[Category:Languages without family color codes]]</includeonly>}}<!--
+-->{{#if:{{Infobox language/family-color|{{{familycolor|}}}}}{{{signers|}}}{{{creator|}}}||<includeonly>[[Category:Template]]</includeonly>}}<!--
 -->{{#if:{{{extinct|}}}{{{era|}}}{{{signers|}}}{{{speakers|}}}{{{creator|}}}{{{setting|}}}||<!-- no main input for data7 -->{{main other|[[Category:Language articles without speaker estimate]]}}}}<!--
 
 
