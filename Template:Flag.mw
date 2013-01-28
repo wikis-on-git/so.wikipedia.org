@@ -1,8 +1,1 @@
-{{country data {{{1|}}}
-| country flag2
-| countryname = {{{1|}}}
-| variant = {{{2|}}}
-| size = {{{size|}}}
-| name = {{{name|}}} 
-}}<noinclude>{{/doc}}
-</noinclude>
+{{country data {{{1|}}}|flag/core|name={{{name|{{{1|}}}}}}|variant={{{variant|{{{2|}}}}}}|size={{{size|}}}}}<noinclude>{{documentation}}</noinclude>
