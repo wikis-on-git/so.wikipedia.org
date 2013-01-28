@@ -1,0 +1,64 @@
+<includeonly>{{pp-meta
+|type={{#switch:{{{demolevel|{{#ifeq:{{PROTECTIONLEVEL:edit}}-{{PROTECTIONLEVEL:move}}|-sysop|move|{{PROTECTIONLEVEL:edit}}}}}}}
+   |semi
+   |autoconfirmed=semi
+   |administrator
+   |full
+   |sysop=indef
+   |move=move
+   |#default=indef<!--fallback value-->}}
+|small={{{small|yes}}}
+|demospace={{{demospace|}}}
+|demolevel={{#ifeq:{{PAGENAME}}/{{NAMESPACE}}|{{SUBPAGENAME}}/{{ns:Template}}|{{{demolevel|undefined}}}|{{#ifeq:{{lc:{{SUBPAGENAME}}}}|sandbox|sysop|{{{demolevel|undefined}}}}}}}
+|expiry=<!--not applicable-->
+|dispute=no
+|icon-text={{#ifeq:{{NAMESPACE}}|{{ns:6}}|sawirkaan، waa mid damaanad qaadaya waxyaabahaaadka xasaasiga u ah,|Template kaan waa mid aad u xasaasi ah}} {{#switch:{{{demolevel|{{#ifeq:{{PROTECTIONLEVEL:edit}}-{{PROTECTIONLEVEL:move}}|-sysop|move|{{PROTECTIONLEVEL:edit}}}}}}}
+   |semi
+   |autoconfirmed=Difaac fudud
+   |move=move-protected
+   |administrator
+   |full
+   |sysop
+   |#default=<!--fallback value-->Difaac fudud}} si looga hortago kharibaad.
+|reason-text={{#switch:{{NAMESPACE}}
+  |{{ns:image}}=Sawirkaan، ee loo adeegsaday [[wikipedia:Template|Template xaxaasi]]{{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+   |semi
+   |autoconfirmed=
+   |administrator
+   |full
+   |sysop=<nowiki> </nowiki>و[[Special:Allmessages|Fariimaha]],
+   |#default=<!--fallback value-->}}
+  |#default=هذا [[wikpedia:Template xasaasi|Template aad xasaasi u ah]]
+}} [[wikipedia:Ilaalis|waardiye {{#switch:{{{demolevel|{{#ifeq:{{PROTECTIONLEVEL:edit}}-{{PROTECTIONLEVEL:move}}|-sysop|move|{{PROTECTIONLEVEL:edit}}}}}}}
+   |semi
+   |autoconfirmed=qayb
+   |move=laga soo badelay
+   |administrator
+   |full
+   |sysop<!--uses default-->
+   |#default=<!--fallback value-->}}]]{{#ifeq:{{PROTECTIONLEVEL:edit}}-{{PROTECTIONLEVEL:move}}|-sysop||<nowiki> </nowiki>bedelka}} ka ilaalinta [[wikipedia:qaribaad|qaribaad]]. {{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+   |semi
+   |autoconfirmed=
+   |administrator
+   |full
+   |sysop<!--uses default-->
+   |#default={{#switch:{{NAMESPACE}}|{{ns:image}}=<br /><small>'''Sawirkaan ha u''' rarin [[commons:|commons]].</small>}}}}
+|categories={{{categories|{{#ifeq:{{NAMESPACE}}|{{ns:10}}|{{#switch:{{{demolevel|{{#ifeq:{{PROTECTIONLEVEL:edit}}-{{PROTECTIONLEVEL:move}}|-sysop|move|{{PROTECTIONLEVEL:edit}}}}}}}
+   |semi
+   |autoconfirmed=[[Cotegory:Template|{{PAGENAME}}]]{{#ifeq:{{PROTECTIONLEVEL:move}}|sysop|[[Category:Template|{{PAGENAME}}]]}}
+   |move=[[Category:Template|{{PAGENAME}}]]
+   |administrator
+   |full
+   |sysop<!--uses default-->
+   |#default=[[Category:Temolate|{{PAGENAME}}]]<!--fallback value-->}}}}{{#ifeq:{{NAMESPACE}}|{{ns:6}}|[[Category:{{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+   |semi
+   |autoconfirmed=Semi-protected
+   |administrator
+   |full
+   |sysop<!--uses default-->
+   |#default=Protected<!--fallback value-->}} images|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
+{{pp-template|categories=no}}  <!-- Show the small version -->
+{{pp-template|small=no}}      <!-- Show the large version -->
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
