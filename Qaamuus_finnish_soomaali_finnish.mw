@@ -1,4 +1,3 @@
-
 Suomi somali suomi sanakirja
                        Qaamuus finnish soomaali finnish
 
@@ -83,6 +82,7 @@ A
 aakkonen magac:		xaraf
 aakkoset magac:		alifba’
 aakkosto magac:		alifba’
+aamiainen magac:		quraac
 aamupahoinvointi magac:		wallac
 adjektiivi magac:		tilmaame {naxwe}
 adverbi magac:		falkaab {naxwe}
@@ -123,6 +123,8 @@ guava magac:			seytuun
 H
 haarukka magac:		fargeeto
 hai magac:			libaax-badeed
+hammas magac:		ilig
+hammassärky magac:		ilig-xanuun
 hartia magac:			garab
 he magacuyaal:		iyaga
 hehkulamppu magac:		nal, guluub
@@ -146,6 +148,7 @@ I
 imperialismi magac:		gumeysi
 Islanti magac:			Ayslaan
 isoisä magac:			awoowe
+isovarvas magac:		suul (cagta)
 isoäiti magac:			ayeeyo
 isä magac: 			aabbe
 J
@@ -182,6 +185,7 @@ kirja magac:			buug
 kirjain magac:			xaraf
 kirjaluettelo magac:		buugagsheeg
 kirjastonhoitaja: 		buugaghaye 
+kirjoitus magac:		far
 kirjoitusvihko magac:		buugagga qorista
 kissa magac:			bisad, mukulaal, yaanyuur
 kives; kivekset:		xiniin
@@ -211,6 +215,7 @@ kyynärpää magac:		xusul
 kämmen magac:		baabbaco
 kännykkä magac:		telefoonka gacanta
 käsi magac:			gacan
+käsiala magac:			far
 kääntäjä magac:		turjubaan (qoraal ahaan)
 kääntää fal:			turjun (qoraal ahaan)
 käärme magac:		mas
@@ -270,6 +275,7 @@ nimi magac:			magac
 niska magac:			tun
 Norja magac:			Noorwey
 nuha magac:			hargab
+nyrjähdys magac:		murgucasho
 nänni magac:			ib
 närästys magac:		laabjeex 
 O
@@ -301,7 +307,9 @@ perkele magac:		sheyddaan
 persilja magac:		kamsaro caleen
 peruna magac:		baradho
 peräpukamat magac:		baabasiir
+peukalo magac:		suul
 pihvi magac:			hilib lo'aad 
+pikkusormi magac:		faryaro
 poika magac:			ina, wiil
 polvi magac:			jilib
 polvitaive magac:		xagal jilib
@@ -359,11 +367,13 @@ sika magac:			doonfaar
 sinä magacuyaal:		adiga
 sipuli magac:			basal
 sitruuna magac:		liin dhanaan
+somali magac:			Soomaali
 Somalia magac:		Soomaaliya
 somalialainen:			Soomaali
+somalialainen kirjoitus:		Far Soomaali
 somalin kieli:			af soomaaliga
-somali magac:			Soomaali
 sonni magac:			dibi
+sormi magac:			far
 substantiivi magac:		magac {naxwe}
 suklaa magac:			shukulaato
 sukulaiset magac:		qaraabo 
@@ -406,6 +416,7 @@ tulkki magac:			turjubaan (af ahaan)
 tuoli magac:			kursi
 tyttö magac:			gabar
 tytär magac:			ina, gabar
+tähti magac:			xiddig
 täti magac:			eeddo, habaryar
 U
 ukko magac:			oday
@@ -579,6 +590,9 @@ faallo magac: 			kommentaari, tekstinselitys
 fal magac faleed: 		teko, toiminta, verbi {kielioppi}, magia
 fale magac: 			tekijä, subjekti {kielioppi} 
 falkaab magac: 		adverbi, seikkasana {kielioppi}
+far magac: 			sormi, käsiala, kirjoitus
+Far Soomaali magac: 		somalialainen kirjoitus
+faryaro magac: 		pikkusormi
 Faransiis magac:		Ranska
 faras magac:			hevonen
 faras yar   			varsa
@@ -616,6 +630,8 @@ I
 ib magac: 			nänni
 ido magac: 			lammas
 il magac: 			silmä
+ilig magac: 			hammas
+ilig-xanuun magac: 		hammassärky
 ilmaha digaagadda 		kananpoika
 ilmaha idaha,  nayl		karitsa
 ina magac: 			poika, tytär
@@ -684,6 +700,7 @@ miro guduudan oo macaan:		mansikka
 miro kakaawa oo la shiiday:		kaakao
 moos magac: 			banaani
 mukulaal magac:		kissa
+murgucasho magac: 		nyrjähdys
 N
 naag magac: 			nainen; vaimo
 naar magac: 			helvetti
@@ -707,6 +724,7 @@ qaxwe magac: 		kahvi
 qodob magac: 		artikkeli {kielioppi}
 qoor magac:			kaula
 qufac magac: 			yskä
+quraac magac: 		aamiainen
 Qur’aan magac: 		Koraani
 R
 raad magac: 			jalanjälki, jälki
@@ -739,6 +757,7 @@ Soomaaliya magac: 		Somalia
 subag magac: 			voi
 sun magac: 			myrkky
 surwaal magac: 		housut 
+suul magac: 			peukalo; isovarvas
 suun magac: 			vyö
 suxul magac:			kyynärpää
 T
@@ -771,6 +790,7 @@ xagal jilib magac:		polvitaive
 xammeeti magac: 		sappi
 xanuun magac: 		kipu, särky, tauti, sairaus, vaiva
 xaraf magac:			aakkonen, kirjain
+xiddig magac: 			tähti
 xiniin magac: 			kives; kivekset
 xiriiriye magac: 		liitin; konjunktio, sidesana {kielioppi}
 xusul magac:			kyynärpää
