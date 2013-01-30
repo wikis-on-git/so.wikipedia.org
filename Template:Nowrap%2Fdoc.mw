@@ -1,0 +1,80 @@
+
+{{high-risk|300,000+}}
+
+
+
+===Qaabka===
+
+:: <code><nowiki>{{nowrap|these words stay together}}</nowiki></code>
+:: <code><nowiki>{{nowrap|a, b, c, or d.}}</nowiki></code>
+:: <code><nowiki>{{nowrap| merry-go-round }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[4-part harmony]] }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[Cascading Style Sheets|CSS]] }}</nowiki></code>
+:: <code><nowiki>{{nowrap| [[#Examples|Examples section]] }}</nowiki></code>
+
+
+
+=== Tusaale ===
+
+{| class=wikitable
+|"<code>They held <nowiki>{{nowrap|10 kg (22 lb)}}</nowiki> in total.</code>"
+<br/>May render like this:
+:They held {{nowrap|10 kg (22 lb)}}<br/>in total.
+<br/>Or like this:
+:They held<br>10 kg (22 lb) in total.
+<br/>But ''not'' render like this:
+:They held 10 kg (22 <br/>lb) in total.
+
+| "<code>He encountered <nowiki>{{nowrap|a tiger}}</nowiki> in the woods.</code>"
+<br/>May render like this:
+:He encountered a tiger<br/>in the woods.
+<br/>Or like this:
+:He encountered<br/>a tiger in the woods.
+<br/>But ''not'' like this:
+:He encountered a<br/>tiger in the woods.
+|}
+
+=== Handling equal-sign or bar ===
+
+For text that includes an equal-sign "=", precede the text with <code>1=</code>, use a triple-brace unnamed parameter <code><nowiki>{{{|=}}}</nowiki></code>, or the <code><nowiki>{{=}}</nowiki></code> template. For example:
+:<code><nowiki>{{nowrap|</nowiki>1=2 + 2 = 4}}</code>, <br /><code><nowiki>{{nowrap|2 + 2 {{{|=}}} 4}}</nowiki></code>, or <br /><code><nowiki>{{nowrap|2 + 2 {{=}} 4}}</nowiki></code>
+
+which all render as this:
+:{{nowrap|1=2 + 2 = 4}}.
+
+
+<includeonly>
+
+<!-- ADD CATEGORIES AFTER THIS LINE -->
+[[Category:Wikipedia formatting and function templates]]
+
+<!-- ADD INTERWIKIS AFTER THIS LINE -->
+[[ar:قالب:لا لف]]
+[[bg:Шаблон:Nowrap]]
+[[bn:টেমপ্লেট:Nowrap]]
+[[bs:Šablon:Nowrap]]
+[[da:Skabelon:Nowrap]]
+[[de:Vorlage:Nowrap]]
+[[et:Mall:Murdmata]]
+[[es:Plantilla:Nowrap]]
+[[fa:الگو:Nowrap]]
+[[fr:Modèle:Nobr]]
+[[he:תבנית:ללא גלישה]]
+[[hr:Predložak:Nowrap]]
+[[hsb:Předłoha:Nowrap]]
+[[hy:Կաղապար:Nowrap]]
+[[it:Template:Tutto attaccato]]
+[[ja:Template:Nowrap]]
+[[kl:Ilisserut:Nowrap]]
+[[ko:틀:Nobr]]
+[[no:mal:Nowrap]]
+[[pl:Szablon:Nowrap]]
+[[pt:Predefinição:Nowrap]]
+[[ro:Format:Nowrap]]
+[[ru:Шаблон:Nobr]]
+[[sv:Mall:Nowrap]]
+[[tpi:Template:Nowrap]]
+[[tr:Şablon:Nowrap]]
+[[uk:Шаблон:Nobr]]
+
+</includeonly>
