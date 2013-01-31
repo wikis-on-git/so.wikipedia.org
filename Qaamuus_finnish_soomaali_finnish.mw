@@ -91,7 +91,7 @@ alus magac:			markab
 alushousut magac:		kastuumo 
 anemia magac:		dhiigyari
 appelsiini magac:		liin
-arabialainen:			Carab
+arabialainen magac:		Carab
 arabian kieli magac:		af Carabiga
 artikkeli magac:		qodob {naxwe}
 auto magac:			baabuur
@@ -143,6 +143,7 @@ hillo magac:			malmalaaddo
 hius magac:			tin
 homo, homoseksuaali		khaniis
 hopea magac:			qalin
+horkka magac:		duumo
 housut magac:		surwaal
 huhtikuu magac:		Abriil
 huimaus magac:		wareer
@@ -150,6 +151,7 @@ hullu tilmaame:		waalan
 huulet magac:			dibno
 huuli magac:			bushin
 hyeena magac:		waraabe
+hyttynen magac:		kaneeco
 hän magacuyaal:		isaga, iyada
 häpykarvat magac:		shuun
 härkä magac:			dibi
@@ -162,6 +164,7 @@ isoisä magac:			awoowe
 isovarvas magac:		suul (cagta)
 isoäiti magac:			ayeeyo
 isä magac: 			aabbe
+isänmaa magac:		dhul
 J
 jalanjälki magac:		raad
 jalka magac:			lug
@@ -183,6 +186,8 @@ kana magac:			digaagad
 kananpoika magac:		ilmaha digaagadda
 kani, kaniini   			bakayle
 kantapää magac:		cirib
+kapitalismi magac:		hantiggoosi
+kapitalisti magac:		hantiggoosi
 karhu magac:			madaxkuti
 karitsa magac:			ilmaha idaha, nayl
 kassakirja magac:		buuglacag
@@ -227,6 +232,7 @@ Koraanin koulu:		dugsiga Qur’aanka
 korkeakoulu magac:		jaamacad
 korva magac:			dheg
 koti magac:			guri
+kotimaa magac:		dhul
 koulu magac:			dugsi, iskuul
 koululaiset:			dugsiley
 kouluttaja magac:		macallin
@@ -280,13 +286,16 @@ lyijykynä magac: 		qalin rasaas
 lääke magac:			daawo		
 lääkäri magac:			dhakhtar
 M
+maa magac:			dhul
 maaliskuu magac:		Maarso
 maanantai magac:		Isniin 
+maanjäristys magac:		dhulgariir 
 maantierosvo magac:		burcad
 maatila magac:		beer
 magia magac:			fal 
 maito magac:			caano
 maksa magac:			beer
+malaria magac:		duumo
 mango magac:		cambe
 mansikka magac:		miro guduudan oo macaan
 margariini magac:		burcad, subag
@@ -306,6 +315,7 @@ molemmat magacuyaal:		labo
 moskeija magac:		masjid
 munuainen magac:		kelli
 muotokuva magac:		sawir qofeed
+Muslimi magac:		Muslin
 mustaihoinen magac:		madow
 musta väri magac:		madow
 muuri magac:			derbi
@@ -441,6 +451,8 @@ somalialainen kirjoitus:		Far Soomaali
 somalin kieli:			af soomaaliga
 sonni magac:			dibi
 sormi magac:			far
+sosialismi magac:		hantiwadaag
+sosialisti magac:		hantiwadaag		
 spagetti magac:		baasto		
 substantiivi magac:		magac {naxwe}
 suklaa magac:			shukulaato
@@ -463,6 +475,7 @@ sokeritauti:			sonkorow
 sperma magac:		biyo
 subjekti {kielioppi}:		fale {naxwe}
 suoja magac:			dugsi 
+suola magac:			cusbo		
 sydän magac:			wadne
 syksy magac:			dayr
 syyskuu magac:		Sebtembar				
@@ -497,6 +510,7 @@ toimittaja magac:		wariye
 tomaatti magac:		yaanyo
 torstai magac:			Khamiis
 toukokuu magac:		Maajo
+tuhkarokko magac:		jadeeco 
 tulkata fal:			turjun (af ahaan)
 tulkki magac:			turjubaan (af ahaan)
 tuoli magac:			kursi
@@ -664,11 +678,12 @@ calool magac:			vatsa
 caloolxanuun magac: 		vatsakipu
 cambaruud magac:		päärynä
 cambe magac: 		mango
-Carab:			arabialainen
+Carab magac:			arabialainen
 carruur magac: 		lapset
 ciddi magac: 			kynsi
 cirib magac:			kantapää
 cudur magac: 			vaiva, sairaus
+cusbo magac: 			suola
 D
 daah magac: 			verho
 daawo magac: 		lääke
@@ -692,6 +707,8 @@ dhiigbax magac faleed: 		verenvuoto
 dhiigkar magac: 		verenpaine
 dhiigkushub magac: 		verensiirto
 dhiigyari magac: 		vähäverisyys; anemia
+dhul magac: 			maa, kotimaa, isänmaa
+dhulgariir magac: 		maanjäristys
 dibi magac: 			sonni, härkä
 dibi yar, weyl 			vasikka
 dibno magac: 			huulet
@@ -711,6 +728,7 @@ dugsiga hoose magac: 		ala-aste
 dugsiga sare magac: 		lukio, oppilaitos 
 dugsiley magac: 		koululaiset, opiskelijat Koraanin koulussa
 duuliye magac: 		lentäjä
+duumo magac: 		malaria; horkka
 E
 Eebbe magac: 			Jumala
 eeddo magac: 		täti, isän sisko, äitipuoli
@@ -754,6 +772,8 @@ guur magac: 			avioliitto
 H
 habaryar magac: 		täti, äidin sisko
 habeen magac:		yö 
+hantiggoosi magac: 		kapitalismi; kapitalisti
+hantiwadaag magac: 		sosialismi; sosialisti
 hargab magac: 		nuha, flunssa
 hidde-side magac:		geeni
 hilib magac:			liha
@@ -790,6 +810,7 @@ J
 jaalle magac: 			keltainen
 jaamacad magac: 		yliopisto, korkeakoulu  
 jabto magac: 			tippuri
+jadeeco magac: 		tuhkarokko
 jallaato magac:		jäätelö
 Jannaayo magac: 		tammikuu
 janno magac: 			paratiisi
@@ -807,6 +828,7 @@ kaadisokorow magac: 		sokeritauti, diabetes
 kalkaaliso magac: 		sairaanhoitaja
 kalluun magac: 		kala
 kamsaro caleen magac:		persilja
+kaneeco magac: 		hyttynen
 kaniisad magac: 		kirkko
 kastuumo magac:		alushousut
 katiifad magac: 		matto
@@ -862,6 +884,7 @@ miro kakaawa oo la shiiday:		kaakao
 moos magac: 			banaani
 mukulaal magac:		kissa
 murgucasho magac: 		nyrjähdys
+Muslin magac: 		Muslimi 
 N
 naag magac: 			nainen; vaimo
 naar magac: 			helvetti
