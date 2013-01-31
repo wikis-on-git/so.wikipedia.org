@@ -1,4 +1,3 @@
-<poem>
 Suomi somali suomi sanakirja
                        Qaamuus finnish soomaali finnish
 
@@ -93,6 +92,7 @@ alkoholi magac:		aalkolo
 alkoholijuoma magac:		khamro
 alus magac:			markab
 alushousut magac:		kastuumo 
+ambulanssi magac:		bukaanqaad
 anemia magac:		dhiigyari
 appelsiini magac:		liin
 arabialainen magac:		Carab
@@ -102,6 +102,7 @@ auto magac:			baabuur
 avioliitto magac:		guur		
 aviomies magac:		nin, xaas
 aviopuoliso magac:		xaas
+avohoitopotilas magac:		bukaansocod
 B
 bakteerit magac:		bagteeriyo
 banaani magac:		moos
@@ -144,6 +145,7 @@ heimo magac:			qabiil
 heinäkuu magac:		Luulyo
 helmikuu magac:		Febraayo
 helvetti magac:		naar
+hematuria magac:		kaadidhiig
 henkilökortti magac:		warqadda aqoonsiga
 hevonen magac:		faras
 hillo magac:			malmalaaddo
@@ -206,6 +208,7 @@ kattila magac:			digsi
 kaula magac:			qoor
 kauppa magac:		dukaan
 kauppias magac:		dukaanle
+keksi magac:			buskud
 keltainen magac:		jaalle
 keskipiste magac:		xuddun {joomiteri }
 keskiviikko magac:		Arbaco
@@ -270,6 +273,7 @@ kämmen magac:		baabbaco
 kännykkä magac:		telefoonka gacanta
 käsi magac:			gacan
 käsiala magac:			far
+käymälä magac:		musqul
 kääntäjä magac:		turjubaan (qoraal ahaan)
 kääntää fal:			turjun (qoraal ahaan)
 käärme magac:		mas
@@ -303,6 +307,7 @@ lippu magac:			tigid
 lokakuu magac:		Oktoobar
 lukio magac:			dugsiga sare 
 lusikka magac:			macalgad, qaaddo
+luuta magac:			xaaqin
 lyijykynä magac: 		qalin rasaas 
 lääke magac:			daawo		
 lääkäri magac:			dhakhtar
@@ -410,6 +415,7 @@ pomo magac:			madax
 porkkana magac:		dabacase, karooto  
 porsas magac:			doonfaar 
 poski magac:			dhaban
+potilas magac:			bukaan
 prepositio magac:		meeleeye {naxwe}
 presidentti magac:		madaxweyne
 profeetta magac:		nebi
@@ -442,6 +448,7 @@ rekka-auto magac:		baabuur weyn
 resepti magac:		warqadda dhakhtarka
 riisi magac:			bariis
 rosvo magac:			burcad
+rukous magac:			salaad
 ruotsalainen tilmaame:		Iswidhish
 Ruotsi magac:			Iswidhan
 ruotsin kieli magac:		af Iswidhishka	
@@ -449,7 +456,9 @@ ruskea tilmaame:		bunni
 S
 Saatana magac:		sheyddaan
 sairaala magac:		isbitaal
+sairaalapotilas magac:		bukaanjiif
 sairaanhoitaja magac:		kalkaaliso
+sairaankuljetusauto magac:		bukaanqaad
 sairaus magac:		xanuun, cudur
 Saksa magac:			Jarmal
 salaatti magac:		ansalaato
@@ -576,6 +585,7 @@ varsa magac:			faras yar
 vasikka magac:		dibi yar, weyl
 vatsa magac:			calool
 vatsakipu magac:		caloolxanuun
+WC magac:			musqul
 veitsi magac:			mindi
 veli magac:			abboowe
 vene magac:			doon
@@ -586,8 +596,10 @@ verenvuoto magac:		dhiigbax
 verho magac:			daah
 veri magac:			dhiig
 verisuoni magac:		xidid
+verivirtsaisuus magac:		kaadidhiig
 vero magac:			canshuur
 vesi magac:			biyo
+vessa magac:			musqul
 vihko magac:			buug, buugagga qorista
 vihreä väri magac:		cagaar
 viikko magac:			toddobaad
@@ -596,6 +608,7 @@ viina magac:			khamro
 villapaita magac:		funaanad
 virtahepo magac:		jeer
 virtsa magac:			kaadi
+virtsarakko magac:		kaadihays
 vohla magac:			ri' yar, ceesaan
 voi magac:			burcad, subag
 vuohi magac:			ri'
@@ -707,10 +720,15 @@ beer magac: 			maatila, puutarha, maksa
 berri falkaab: 			huomenna
 bersed magac: 		olohuone
 biyo magac: 			vesi, neste, sperma, siemenneste
+bukaan magac: 		potilas
+bukaanjiif magac: 		sairaalapotilas, sisäpotilas
+bukaanqaad magac: 		sairaankuljetusauto; ambulanssi
+bukaansocod magac: 		avohoitopotilas, poliklinikkapotilas
 buluug magac: 		sininen
 bunni tilmaame:		ruskea
 burcad magac: 		voi, margariini, rosvo, maantierosvo
 bushin magac: 		huuli
+buskud magac: 		keksi
 buug magac: 			kirja, vihko
 buugagga dugsiyada magac: 		oppikirjat
 buugagga qorista magac: 		vihko, kirjoitusvihko, harjoituskirja 
@@ -883,6 +901,8 @@ Jimco magac: 			perjantai
 Juun magac:		 	kesäkuu
 K
 kaadi magac: 			virtsa
+kaadidhiig magac: 		verivirtsaisuus; hematuria
+kaadihays magac: 		virtsarakko
 kaadisokorow magac: 		sokeritauti, diabetes
 kalkaaliso magac: 		sairaanhoitaja
 kalluun magac: 		kala
@@ -948,6 +968,7 @@ moos magac: 			banaani
 mukulaal magac:		kissa
 murgucasho magac: 		nyrjähdys
 Muslin magac: 		Muslimi 
+musqul magac: 		käymälä, vessa, WC
 N
 naag magac: 			nainen; vaimo
 naanays magac: 		lempinimi
@@ -989,6 +1010,7 @@ S
 Sabti magac: 			lauantai
 sabuurad magac: 		liitutaulu, taulu
 sac (neef lo' ah)   		lehmä
+salaad magac: 		rukous
 saliid magac:			öljy
 san magac: 			nenä
 sanad magac: 			vuosi
@@ -1067,6 +1089,7 @@ weji magac:			kasvot
 wiil magac: 			poika
 wiyil magac: 			sarvikuono
 X
+xaaqin magac: 		luuta
 xaar magac: 			uloste, paska 
 xaas magac: 			aviopuoliso, puoliso
 xabeeb magac: 		käheys
@@ -1087,5 +1110,5 @@ yaanyo magac: 		tomaatti
 yaxaas magac: 		krokotiili
 yeey magac: 			susi
 
+
 Qaamuuskan qoriddiisu weli wey socotaa ee sidaas ula soco.
-</poem>
