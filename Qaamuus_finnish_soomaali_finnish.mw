@@ -105,6 +105,7 @@ appelsiini magac:		liin
 arabialainen magac:		Carab
 arabian kieli magac:		af Carabiga
 artikkeli magac:		qodob {naxwe}
+askel magac:			tallaabo
 astronautti magac:		cirbexeen
 auringonlasku magac:		qorraxdhac
 auringonnousu magac:		qorraxsoobax
@@ -237,6 +238,7 @@ juuri magac:			xidid {xisaab}
 jälki magac:			raad
 jänis  magac:			bakayle 
 järvi magac:			haro
+jääkaappi magac:		firinjeer
 jäätelö magac:		jallaato
 K
 kaakao magac:		miro kakaawa oo la shiiday
@@ -367,6 +369,7 @@ lammas magac:		ido
 lampaanliha magac:		hilib idaad
 lamppu magac:		nal
 lapset magac:			carruur
+lapsihalvaus magac:		dabayl (cudur)		
 lasi magac:			muraayad			
 lauantai magac:		Sabti
 laulaja magac:			heesaa
@@ -420,10 +423,11 @@ margariini magac:		burcad, subag
 marmeladi, marmelaati:		malmalaaddo  
 marraskuu magac:		Noofembar
 masturboida fal:		siigayso
-matka magac:			dalxiis
+matka magac:			dalxiis, safar
 matkailija magac:		dalxiise
-matkailu magac:		dalxiis
-matkapuhelin magac:		telefoonka gacanta   
+matkailu magac:		dalxiis, safar
+matkapuhelin magac:		telefoonka gacanta 
+matkustaa fal:			safar
 matto magac:			katiifad
 mauste magac:		xawaaji
 me magacuyaal:		annaga
@@ -533,10 +537,12 @@ pieraista fal:			dhuus
 pieru magac:			dhuuso
 pihvi magac:			hilib lo'aad 
 pikkusormi magac:		faryaro
+pilli magac:			firinbi
 pistooli magac:		bastoolad
 pohjoinen magac:		waqooyi
 poika magac:			ina, wiil
 poliitikko magac:		siyaasi
+polio magac:			dabayl (cudur)
 politiikka magac:		siyaasad
 polvi magac:			jilib
 polvitaive magac:		xagal jilib
@@ -603,6 +609,7 @@ röyhtäistä fal:			daac
 röyhtäisy magac:		daaco 
 S
 Saatana magac:		sheyddaan
+sade magac:			roob
 sairaala magac:		isbitaal
 sairaalapotilas magac:		bukaanjiif
 sairaanhoitaja magac:		kalkaaliso
@@ -733,6 +740,7 @@ tupakoida fal:			sigaar cab
 tupakoitsija magac:		sigaaryacab
 turismi magac:		dalxiis
 turisti magac:			dalxiise
+tuuli magac:			dabayl
 tyttö magac:			gabar
 tytär magac:			ina, gabar
 tyydyttää itsensä fal:		siigayso
@@ -982,6 +990,7 @@ daacuun magac: 		kolera
 daah magac: 			verho
 daawo magac: 		lääke
 dab magac: 			tuli
+dabayl magac: 		tuuli, lapsihalvaus, polio   
 dabdamis magac: 		palokunta
 dabdamiye magac: 		palomies
 dabaal magac: 		uinti
@@ -1078,6 +1087,8 @@ fiish magac: 			sidekalvontulehdus
 filfil magac: 			mustapippuri
 filin magac: 			elokuva
 Finnish tilmaame:		suomalainen
+firinbi magac: 			pilli
+firinjeer magac:		jääkaappi
 funaanad magac: 		pusero, villapaita
 fur magac: 			korkki
 G
@@ -1304,6 +1315,7 @@ ri' magac:			vuohi
 rinji magac: 			maali
 rinjiile magac: 			maalari
 ri' yar, ceesaan		kili, vohla
+roob magac: 			sade
 rooti magac: 			leipä  
 S
 saacad magac: 		tunti, kello
@@ -1315,6 +1327,8 @@ saddex alifle magac: 		kersantti, ylikonstaapeli
 saddex iyo toban tiro: 		kolmetoista
 saddexaad tiro: 		kolmas
 saddexagal magac: 		kolmio, kolmikulmio
+safar magac: 			matka, matkailu
+safar fal: 			matkustaa
 salaad magac: 		rukous
 saliid magac:			öljy
 san magac: 			nenä
@@ -1375,6 +1389,7 @@ taariikh magac: 		päivämäärä, historia
 taksi magac: 			taksi
 taksiile magac: 		taksinkuljettaja
 Talaado magac: 		tiistai
+tallaabo magac: 		askel
 tallaal magac: 			rokote, rokotus
 taraam magac: 		raitiovaunu
 tareen magac: 		juna
