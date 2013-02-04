@@ -207,6 +207,7 @@ hyeena magac:		waraabe
 hyttynen magac:		kaneeco
 hän magacuyaal:		isaga, iyada
 häpykarvat magac:		shuun
+häpykieli magac:		kintir
 härkä magac:			dibi
 I
 idoli magac:			sanam
@@ -269,6 +270,7 @@ karitsa magac:			ilmaha idaha, nayl
 karkki magac:			nacnac
 kassakirja magac:		buuglacag
 kasvot magac:			weji
+katastrofi magac:		aafo
 kattila magac:			digsi
 katto magac:			saqaf
 kaula magac:			qoor
@@ -315,6 +317,7 @@ kives; kivekset:		xiniin
 kivääri magac:			qori
 kivi magac:			dhagax
 klaani magac:			qabiil
+klitoris magac:			kintir
 koe magac:			imtixaan
 kohtalo magac:		cirib
 koillinen magac:		waqooyi bari
@@ -408,7 +411,9 @@ lippu magac:			tigid
 lokakuu magac:		Oktoobar
 lounas magac:			koonfur galbeed, qado		
 lukio magac:			dugsiga sare 
-luode magac:			waqooyi galbeed		
+luode magac:			waqooyi galbeed
+luokka magac:			fasal
+luonne magac:		caado				
 lusikka magac:			macalgad, qaaddo
 luuta magac:			xaaqin
 lyijykynä magac: 		qalin rasaas 
@@ -512,6 +517,7 @@ ohjelma magac:		barnaamij
 oksentaa fal:			matag
 oleskelulupa magac:		sharci
 olkapää magac:		garab
+olla kuukautiset fal:		caado qab
 olohuone magac:		bersed
 olut magac:			khamri fudud
 omena magac:		tufaax
@@ -544,6 +550,7 @@ paska magac:			xaar
 passi magac:			baasaboor
 peili magac:			muraayad
 penis magac:			gus
+perinne magac:		caado
 perjantai magac:		Jimco
 perkele magac:		sheyddaan
 persilja magac:		kamsaro caleen
@@ -556,6 +563,7 @@ pieru magac:			dhuuso
 pihvi magac:			hilib lo'aad 
 pikkusormi magac:		faryaro
 pilli magac:			firinbi
+pilvi magac:			daruur
 pistooli magac:		bastoolad
 pohjoinen magac:		waqooyi
 poika magac:			ina, wiil
@@ -706,9 +714,13 @@ silmä magac:			il
 sininen magac:		buluug
 sisar magac:			abbaayo
 sisko magac:			abbaayo
+sodanjohtotaito magac:		dagaal-aqoon		
 sokeri magac:			sonkor 
 sokeritauti:			sonkorow 
+sota magac:			dagaal
+soturi magac:			dagaalyahan		
 sperma magac:		biyo
+strategia magac:		dagaal-aqoon		
 subjekti {kielioppi}:		fale {naxwe}
 sukka magac:			sigis		
 suoja magac:			dugsi 
@@ -725,6 +737,8 @@ sänky magac:			sariir
 särky magac:			xanuun
 T 
 taateli magac:			timir
+taistelija magac:		dagaalyahan
+taistelu magac:		dagaal
 taivas magac:			cir
 tajuttomuus magac:		suuxdin
 takamus magac:		dabo
@@ -736,6 +750,7 @@ talo magac:			guri
 talvi magac:			Jiilaal
 tammikuu magac:		Jannaayo
 Tanska magac:		Denmaark
+tapa magac:			caado
 tarina magac:			sheeko
 taru magac:			sheeko
 taulu magac:			sabuurad
@@ -757,6 +772,7 @@ toimisto magac:		xafiis
 toimittaja magac:		wariye 
 tomaatti magac:		yaanyo
 torstai magac:			Khamiis
+tottumus magac:		caado
 toukokuu magac:		Maajo
 tuhkarokko magac:		jadeeco 
 tuli magac:			dab
@@ -764,6 +780,7 @@ tulkata fal:			turjun (af ahaan)
 tulkki magac:			turjubaan (af ahaan)
 tunti magac:			saacad
 tuoli magac:			kursi
+tuonpuoleinen elämä magac:		aakhiro
 tupakoida fal:			sigaar cab
 tupakoitsija magac:		sigaaryacab
 turismi magac:		dalxiis
@@ -897,6 +914,8 @@ Somali suomi sanakirja
 A
 aabbe magac: 			isä
 aadane magac: 		ihminen; ihmiset
+aafo magac: 			katastrofi
+aakhiro magac: 		tuonpuoleinen elämä
 aalkolo magac:	 	alkoholi
 aalaa falkaab: 			usein
 aalad magac: 			väline, laite
@@ -988,6 +1007,8 @@ buugaghaye magac: 		kirjastonhoitaja
 buugagsheeg magac: 		kirjaluettelo,  bibliografia
 buuglacag magac: 		kassakirja 
 C
+caado magac: 			perinne, tapa, luonne, tottumus
+caado qab fal: 			olla kuukautiset
 caano magac: 			maito
 cabitaan magac:		mehu
 caddaan magac: 		valkoinen
@@ -1028,6 +1049,9 @@ dabaal magac: 		uinti
 dabacase, karooto magac: 		porkkana
 dabagaalle magac:		orava
 dabo magac:			takapuoli, takamus
+dagaal magac faleed: 		sota, taistelu
+dagaal-aqoon magac: 		strategia, sodanjohtotaito
+dagaalyahan magac: 		taistelija, soturi
 dahab magac:		 	kulta
 dahable magac: 		kultaseppä
 dalkucelin magac: 		palautus, kotiutus
@@ -1038,6 +1062,7 @@ dameer farow magac: 		seepra
 daqiiqad magac: 		minuutti
 dariishad magac: 		ikkuna
 dareere magac:		neste
+daruur magac: 		pilvi
 dawaco magac:		kettu
 dayr magac:			syksy
 Denmaark magac:		Tanska
@@ -1109,6 +1134,7 @@ Faransiis magac:		Ranska
 faras magac:			hevonen
 faras yar   			varsa
 fargeeto magac: 		haarukka
+fasal magac: 			luokka
 Febraayo magac: 		helmikuu
 fiid magac: 			alkuilta
 fiidmeer (kibilli)		lepakko
@@ -1237,6 +1263,7 @@ khaniis magac: 		homo, homoseksuaali
 khaniisad magac: 		lesbo
 kilkilo magac: 			kainalo
 kimisteri magac:		kemia
+kintir magac: 			häpykieli, klitoris
 kombiyuutar magac: 		tietokone
 koonfur magac: 		etelä
 Koonfur Afrika magac: 		Etelä-Afrikka
