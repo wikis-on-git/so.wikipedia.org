@@ -137,6 +137,7 @@ delfiini magac:			hoombaro
 demoni magac:		cirfiid
 diabetes magac:		sonkorow, kaadisokorow
 E
+eduskunta magac:		baarlamaan
 eeg magac:			aaladda shaqada maskaxda
 eilen falkaab:			shalay
 ei-muslimi magac:		gaal
@@ -150,6 +151,7 @@ enkeli, enkelit			malaa’ig
 eno magac:			abti
 epilepsia magac:		qallal
 epäuskoinen tilmaame:		gaal
+esinahkatali magac:		baaro
 etelä magac:			koonfur
 Etelä-Afrikka magac:		Koonfur Afrika
 F 
@@ -264,6 +266,7 @@ kana magac:			digaagad, dooro
 kananpoika magac:		ilmaha digaagadda
 kaneli magac:			qorfe
 kani, kaniini   			bakayle
+kansanedustaja magac:		xildhibaan
 kantapää magac:		cirib
 kapitalismi magac:		hantiggoosi
 kapitalisti magac:		hantiggoosi
@@ -346,6 +349,7 @@ korkki magac:			fur
 korva magac:			dheg
 korvakoru magac:		dhego
 korvarengas magac:		dhego
+korvavaha magac:		dhukay
 koti magac:			guri
 kotimaa magac:		dhul
 kotiutus magac:		dalkucelin
@@ -555,6 +559,7 @@ paprika magac:		barbarrooni
 paratiisi magac:		janno
 parillinen numero magac:		dhaban
 pariton tilmaame:		kisi
+parlamentti magac:		baarlamaan
 parta magac:			gar
 partaterä magac:		sakiin
 paska magac:			xaar
@@ -733,6 +738,7 @@ silmä magac:			il
 sininen magac:		buluug
 sisar magac:			abbaayo
 sisko magac:			abbaayo
+smegma magac:		baaro		
 sodanjohtotaito magac:		dagaal-aqoon		
 sokeri magac:			sonkor 
 sokeritauti:			sonkorow 
@@ -828,6 +834,7 @@ uskonto magac:		diin
 V
 vagina magac:			siil
 vaikka xiriiriye:		walow
+vaikku magac:			dhukay
 vaimo magac:			naag
 vaiva magac:			xanuun, cudur
 valas magac:			nibiri
@@ -982,6 +989,8 @@ baabuur magac: 		auto
 baabuur weyn magac: 		rekka-auto, kuorma-auto
 baangad magac: 		viidakkoveitsi
 baaquli magac: 		kulho
+baarlamaan magac: 		eduskunta, parlamentti
+baaro magac: 			esinahkatali, smegma
 baasaboor magac: 		passi
 baasto magac: 		spagetti
 babbaay magac: 		papaija
@@ -1113,6 +1122,7 @@ dhiigbax magac faleed: 		verenvuoto
 dhiigkar magac: 		verenpaine
 dhiigkushub magac: 		verensiirto
 dhiigyari magac: 		vähäverisyys; anemia
+dhukay magac: 		korvavaha, vaikku
 dhul magac: 			maa, kotimaa, isänmaa
 dhulgariir magac: 		maanjäristys
 dhuus fal: 			pieraista
@@ -1572,6 +1582,7 @@ xawaare magac: 		nopeus {fysiikka}
 xiddig magac: 			tähti
 xidid magac: 			verisuoni, juuri {matematiikka}
 xiidmo magac: 		suolet
+xildhibaan magac: 		kansanedustaja
 xiniin magac: 			kives; kivekset
 xiriiriye magac: 		liitin; konjunktio, sidesana {kielioppi}
 xisaab magac: 			matematiikka
