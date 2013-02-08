@@ -25,7 +25,7 @@
 }}
 {{#if:{{{majority_leader|}}}{{{minority_floor_leader|}}}{{{minority_leader|}}}{{{majority_floor_leader|}}}||
 {{#if:{{{jr/sr|}}}|
-! colspan=2 style="background-color: lavender; text-align: center" {{!}} [[United States Senate|<!--Changed code to eliminate "Junior/Senior" distinction for U.S. Senators per [[Template talk:Infobox Officeholder#Senior/Junior U.S. Senators]]{{{jr/sr}}}-->United States Senator{{#if:{{{succeeding|}}} |-elect}}]]<br />from {{{state}}}
+! colspan=2 style="background-color: lavender; text-align: center" {{!}} [[United States Senate|<!--Changed code to eliminate "Junior/Senior" distinction for U.S. Senators per [[Template talk:Infobox Officeholder#Senior/Junior U.S. Senators]]{{{jr/sr}}}-->United States Senator{{#if:{{{succeeding|}}} |-elect}}]]<br />Kasoo biloow {{{state}}}
 {{!}}-
 }}
 {{#if:{{{jr/sr and state|}}}|
@@ -33,12 +33,12 @@
 {{!}}-
 }}
 {{#if:{{{state_senate|}}}|
-! colspan=2 style="background-color: lavender; text-align: center" {{!}} Member of the [[{{{state_senate}}} Senate]]<br />from the {{{district}}} district{{#if:{{{prior_term|}}}|
+! colspan=2 style="background-color: lavender; text-align: center" {{!}} Member of the [[{{{state_senate}}} Senate]]<br />Kasoo biloow {{{district}}} district{{#if:{{{prior_term|}}}|
 <br /><small>{{{prior_term}}}</small>}}
 {{!}}-
 }}
 {{#if:{{{state_legislature|}}}|
-! colspan=2 style="background-color: lavender; text-align: center" {{!}} Member of the [[{{{state_legislature}}} Legislature]]<br />from the {{{district}}} district
+! colspan=2 style="background-color: lavender; text-align: center" {{!}} Member of the [[{{{state_legislature}}} Legislature]]<br />Kasoo biloow {{{district}}} district
 {{!}}-
 }}
 }}
@@ -120,22 +120,22 @@
 {{!}}colspan=2 style="border-bottom:none; text-align:center"{{!}}{{nowrap|'''Taking office'''}}<br />{{{termstart}}}
 {{!}}-
 |{{#if: {{{term|}}}|
-{{!}}colspan=2 style="border-bottom:none; text-align:center"{{!}}{{nowrap|'''In office'''}}<br />{{{term}}}
+{{!}}colspan=2 style="border-bottom:none; text-align:center"{{!}}{{nowrap|'''Xafiiska joogay'''}}<br />{{{term}}}
 {{!}}-
 }}
 {{#if:{{{termstart|}}}|
 {{#if:{{{termend|}}}
 |<!--then term has start and end:-->
-{{!}}colspan=2 style="border-bottom:none; text-align:center"{{!}}{{nowrap|'''In office'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<br />{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}}}
+{{!}}colspan=2 style="border-bottom:none; text-align:center"{{!}}{{nowrap|'''xafiiska joogay'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<br />{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}}}
 {{!}}-
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan=2 style="text-align:center; background-color: lavender"{{!}} '''[[Incumbent]]'''
+{{!}}colspan=2 style="text-align:center; background-color: lavender"{{!}} '''[[Hadda Xilka haya]]'''
 {{!}}-
 }}
 {{#if:{{{termend|}}}
 |<!--then nothing else; term has ended-->
 |<!--else term is ongoing:-->
-{{!}}colspan=2 style="text-align:center"{{!}}{{nowrap|'''Assumed office'''}}&#32;<br />{{{termstart}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<br />{{#if:{{{alongside|}}}|Serving|Co-leader}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}}}
+{{!}}colspan=2 style="text-align:center"{{!}}{{nowrap|'''Xilka qabtay'''}}&#32;<br />{{{termstart}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<br />{{#if:{{{alongside|}}}|Serving|Co-leader}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}}}
 {{!}}-
 }}
 }}
@@ -204,7 +204,7 @@
 }}
 <!---------- Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
 {{#if:{{{vicepresident|}}}|
-! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Vice President}}|Vice President}}}}
+! style="text-align:left;" {{!}} {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Madaxweyne ku xigeen]]|Vice President}}|Vice President}}}}
 {{!}} {{{vicepresident}}}
 {{!}}-
 }}
@@ -300,7 +300,7 @@
 {{!}}-
 }}
 {{#if:{{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}} |
-! style="text-align:left;" {{!}} {{nowrap|Preceded by}}
+! style="text-align:left;" {{!}} {{nowrap|Xil kaga horeeyey}}
 {{!}} {{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}}
 {{!}}-
 }}
@@ -314,7 +314,7 @@
 | ''incumbent''
 | [[incumbent]] =
 |{{#if:{{{{{#if:{{{successor|}}}|successor|succeeded}}|}}} |
-! style="text-align:left;" {{!}} {{nowrap|Succeeded by}}
+! style="text-align:left;" {{!}} {{nowrap|Xilka kaga dambeeyey}}
 {{!}} {{{{{#if:{{{successor|}}}|successor|succeeded}}|}}} }}
 {{!}}-
 }}}}
