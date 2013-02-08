@@ -25,7 +25,7 @@
 }}
 {{#if:{{{majority_leader|}}}{{{minority_floor_leader|}}}{{{minority_leader|}}}{{{majority_floor_leader|}}}||
 {{#if:{{{jr/sr|}}}|
-! colspan=2 style="background-color: lavender; text-align: center" {{!}} [[United States Senate|<!--Changed code to eliminate "Junior/Senior" distinction for U.S. Senators per [[Template talk:Infobox Officeholder#Senior/Junior U.S. Senators]]{{{jr/sr}}}-->United States Senator{{#if:{{{succeeding|}}} |-elect}}]]<br />Kasoo biloow {{{state}}}
+! colspan=2 style="background-color: lavender; text-align: center" {{!}} [[United States Senate|<!--Changed code to eliminate "Junior/Senior" distinction for U.S. Senators per [[Template talk:Infobox Officeholder#Senior/Junior U.S. Senators]]{{{jr/sr}}}-->Xildhibaan{{#if:{{{succeeding|}}} |-elect}}]]<br />Kasoo biloow {{{state}}}
 {{!}}-
 }}
 {{#if:{{{jr/sr and state|}}}|
