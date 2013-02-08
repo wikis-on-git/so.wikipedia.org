@@ -1,40 +1,40 @@
 <includeonly>
 {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{restingplace|}}}{{{citizenship|}}}{{{nationality|}}}{{{pronunciation|}}}{{{party|}}}{{{otherparty|}}}{{{spouse|}}}{{{partner|}}}{{{relations|}}}{{{children|}}}{{{residence|}}}{{{alma_mater|}}}{{{occupation|}}}{{{profession|}}}{{{cabinet|}}}{{{committees|}}}{{{portfolio|}}}{{{religion|}}}{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}{{{signature|}}}{{{website|}}}{{{footnotes|}}}{{{date|}}}|
-! colspan=2 style="background-color: lavender; text-align: center" {{!}} Personal details
+! colspan=2 style="background-color: lavender; text-align: center" {{!}} Faahfaahin ku saabsan shqasiyadda
 {{!}}-
 }}
 {{#if:{{{pronunciation|}}}|
-! style="text-align:left;" {{!}} Pronunciation
+! style="text-align:left;" {{!}} Loogu dhowaaqo
 {{!}} {{{pronunciation}}}
 {{!}}-
 }}
 {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}|
-! style="text-align:left;" {{!}} Born
+! style="text-align:left;" {{!}} Dhashay
 {{!}} {{br separated entries|{{#if:{{{birth_name|}}}|<span class="nickname">{{{birth_name}}}</span>}}|{{{birth_date|}}}|{{{birth_place|}}}}}
 {{!}}-
 }}
 {{#if:{{{death_date|}}}{{{death_place|}}}|
-! style="text-align:left;" {{!}} Died
+! style="text-align:left;" {{!}} Dhintay
 {{!}} {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
 {{!}}-
 }}
 {{#if:{{{restingplace|}}}|
-! style="text-align:left;" {{!}} Resting place
+! style="text-align:left;" {{!}} Meelaha nasashada
 {{!}} class="label" {{!}} {{br separated entries|{{{restingplace|}}}|{{{restingplacecoordinates|}}}}}
 {{!}}-
 }}
 {{#if:{{{citizenship|}}}|
-! style="text-align:left;" {{!}} Citizenship
+! style="text-align:left;" {{!}} Jinsiyedda
 {{!}} {{{citizenship}}}
 {{!}}-
 }}
 {{#if:{{{nationality|}}}|
-! style="text-align:left;" {{!}} Nationality
+! style="text-align:left;" {{!}} Dhalashada
 {{!}} {{{nationality}}}
 {{!}}-
 }}
 {{#if:{{{party|}}}|
-! style="text-align:left;" {{!}} Political party
+! style="text-align:left;" {{!}} Xisbiga
 {{!}} {{#switch:{{{party}}}
 | [[United States Democratic Party|Democrat]]
 | [[Democratic Party (United States)|Democratic]]
@@ -68,67 +68,67 @@
 {{!}}-
 }}
 {{#if:{{{otherparty|}}}|
-! style="text-align:left;" {{!}} Other political<br />affiliations
+! style="text-align:left;" {{!}} Siyaasado kale<br />Ka tirsanaan
 {{!}}{{{otherparty}}}
 {{!}}-
 }}
 {{#if:{{{spouse|}}}|
-! style="text-align:left;" {{!}} Spouse(s)
+! style="text-align:left;" {{!}} Xaasaska
 {{!}} {{{spouse}}}
 {{!}}-
 }}
 {{#if:{{{partner|}}}|
-! style="text-align:left;" {{!}} Domestic partner
+! style="text-align:left;" {{!}} Wada nool
 {{!}} {{{partner}}}
 {{!}}-
 }}
 {{#if:{{{relations|}}}|
-! style="text-align:left;" {{!}} Relations
+! style="text-align:left;" {{!}} Xiriir
 {{!}} {{{relations}}}
 {{!}}-
 }}
 {{#if:{{{children|}}}|
-! style="text-align:left;" {{!}} Children
+! style="text-align:left;" {{!}} Caruur
 {{!}} {{{children}}}
 {{!}}-
 }}
 {{#if:{{{residence|}}}|
-! style="text-align:left;" {{!}} Residence
+! style="text-align:left;" {{!}} Dagan
 {{!}} {{#if:{{{death_date|}}}{{{death_place|}}}||class="label"}} {{!}} {{{residence}}}
 {{!}}-
 }}
 {{#if:{{{alma_mater|}}}|
-! style="text-align:left;" {{!}} [[Alma mater]]
+! style="text-align:left;" {{!}} [[Wax barasho]]
 {{!}} {{{alma_mater}}}
 {{!}}-
 }}
 {{#if:{{{occupation|}}}|
-! style="text-align:left;" {{!}} Occupation
+! style="text-align:left;" {{!}} Shaqada
 {{!}} {{{occupation}}}
 {{!}}-
 }}
 {{#if:{{{profession|}}}|
-! style="text-align:left;" {{!}} Profession
+! style="text-align:left;" {{!}} Xirfad
 {{!}} {{{profession}}}
 {{!}}-
 }}
 {{#if:{{{cabinet|}}}|
-! style="text-align:left;" {{!}} Cabinet
+! style="text-align:left;" {{!}} Golaha wasiirada
 {{!}} {{{cabinet}}}
 {{!}}-
 }}
 {{#if:{{{committees|}}}|
-! style="text-align:left;" {{!}} Committees
+! style="text-align:left;" {{!}} Gudiyeda
 {{!}} {{{committees}}}
 {{!}}-
 }}
 {{#if:{{{portfolio|}}}|
-! style="text-align:left;" {{!}} Portfolio
+! style="text-align:left;" {{!}} Jeebka
 {{!}} {{{portfolio}}}
 {{!}}-
 }}
 {{#if:{{{religion|}}}|
-! style="text-align:left;" {{!}} Religion
+! style="text-align:left;" {{!}} Diinta
 {{!}} {{{religion}}}
 {{!}}-
 }}
@@ -158,7 +158,7 @@
 {{!}}-
 }}
 {{#if:{{{signature|}}}|
-! style="text-align:left;" {{!}} Signature
+! style="text-align:left;" {{!}} Saxiixa
 {{!}} [[File:{{{signature}}}|128x80px|alt={{{signature_alt|}}}|{{PAGENAME}}'s signature]]
 {{!}}-
 }}
@@ -172,47 +172,47 @@
 {{!}}-
 }}
 {{#if:{{{nickname|}}}|
-! style="text-align:left;" {{!}} Nickname(s)
+! style="text-align:left;" {{!}} Loo yaqaan
 {{!}} {{{nickname}}}
 {{!}}-
 }}
 {{#if:{{{allegiance|}}}|
-! style="text-align:left;" {{!}} Allegiance
+! style="text-align:left;" {{!}} Udhaartay
 {{!}} {{{allegiance}}}
 {{!}}-
 }}
 {{#if:{{{branch|}}}|
-! style="text-align:left;" {{!}} Service/branch
+! style="text-align:left;" {{!}} Shaqada/Qaybta
 {{!}} {{{branch}}}
 {{!}}-
 }}
 {{#if:{{{serviceyears|}}}|
-! style="text-align:left;" {{!}} Years of service
+! style="text-align:left;" {{!}} Sanadaha shaqada
 {{!}} {{{serviceyears}}}
 {{!}}-
 }}
 {{#if:{{{rank|}}}|
-! style="text-align:left;" {{!}} Rank
+! style="text-align:left;" {{!}} Sumcadda
 {{!}} {{{rank}}}
 {{!}}-
 }}
 {{#if:{{{unit|}}}|
-! style="text-align:left;" {{!}} Unit
+! style="text-align:left;" {{!}} Midow
 {{!}} {{{unit}}}
 {{!}}-
 }}
 {{#if:{{{commands|}}}|
-! style="text-align:left;" {{!}} Commands
+! style="text-align:left;" {{!}} Amarada
 {{!}} {{{commands}}}
 {{!}}-
 }}
 {{#if:{{{battles|}}}|
-! style="text-align:left;" {{!}} Battles/wars
+! style="text-align:left;" {{!}} Dagaal
 {{!}} {{{battles}}}
 {{!}}-
 }}
 {{#if:{{{awards|}}}|
-! style="text-align:left;" {{!}} Awards
+! style="text-align:left;" {{!}} Abaal marin
 {{!}} {{{awards}}}
 {{!}}-
 }}
