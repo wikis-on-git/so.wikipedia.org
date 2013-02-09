@@ -1,34 +1,94 @@
-{{Dalalka
-|native_name                   = ''Jamhuri ya Kenya'' </br> ''Republic of Kenya''
-|conventional_long_name        = Jamhuuriyadda Kiinya
-|common_name                   = Kiinya
-|qaarada                       = [[Afrika]] 
-|sawir_calan                   = Flag_of_Kenya.svg
-|sawir_qaran                   = Coat_of_arms_of_Kenya.svg
-|astaan_calan                  = [[Ee Mungu Nguvu Yetu]]''<small><br />"Ilaahigii wax waliba abuurow"</small>
-|image_map                     = Kenya in its region (de-facto).svg
-|caasimada                     = [[Nayroobi]]
-|luuqadaha                     = [[Sawaaxili|Af-Sawaaxili]]
-|dowlada                       = &nbsp;
-|magac_hogaamiye1              =  [[Madaxweyneyaashii Kiinya|Madaxweyne]],
-|magac_hogaamiye2              =  [[Ra'iisul wasaarayaahii Kiinya|Ra'iisul wasaare]] 
-|magac_hogaamiye1              = [[Maway Kibaaki]]
-|magac_hogaamiye2              = [[Ra'ila Amolo Odinga]]
-|sovereignty_type              = Ka xoroobey
-|sovereignty_note              = Gumeystihii [[Ingiriis]]ka
-|established_event1            = Taakiikh
-|established_date1             = 12 [[Diseembar]], 1963
-|area                          = 580,367
-|areami²                       = 224,080 
-|biyo                          = 2.3
-|population_estimate           = 34,707,817 
-|population_estimate_year      = [[Luuliyo]] [[2005]]
-|lacagta                       = [[Shilin Kiinyaati]]
-|wakhti                        = [[EAT]]
-|furaha_debeda		       = 254
-|footnote1                     = 
-|footnote2                     = 
+{{Infobox country
+|conventional_long_name = Jamhuuriyedda Kiinya
+|native_name = ''Jamhuri ya Kenya''
+|common_name = Kenya
+|image_flag = Flag of Kenya.svg
+|image_coat = Coat of arms of Kenya.svg
+|image_map = Kenya (orthographic projection).svg
+|national_motto = {{native phrase|sw|"[[Harambee]]"|italics=off}}<br/>{{small|"Aan wada shaqayno"}}
+|national_anthem = ''[[Ee Mungu Nguvu Yetu]]''
+|languages = {{unbulleted list |[[Sawaaxili|Swahili]] |[[Ingiriis (luqad)|English]]}}
+|demonym = [[Demographics of Kenya|Kinyaati]]
+|ethnic_groups =
+ {{unbulleted list
+  | 22% [[Kikuyu people|Kikuyu]]
+  | 14% [[Luhya people|Luhya]]
+  | 13% [[Luo people of Kenya and Tanzania|Luo]]
+  | 12% [[Kalenjin people|Kalenjin]]
+  | 11% [[Kamba people|Kamba]]
+  |  6% [[Kisii people|Kisii]]
+  |  6% [[Meru people|Meru]]
+  | {{nowrap|15% Afrikaan kale}}
+  |  1% Aan afrikaan ahayn
+ }}
+|capital = [[Nayroobi]]
+|latd=1 |latm=16 |latNS=S |longd=36 |longm=48 |longEW=E
+|largest_city = [[Nayroobi]]
+|government_type = {{nowrap|[[Jamhuuriyad|Qaab jamhuuriyad]]}}
+|leader_title1 = Madaxweyne
+|leader_name1 = [[Mwai Kibaki]]
+|leader_title2 = Madaxwene ku xigeen
+|leader_name2 = [[Kalonzo Musyoka]]
+|leader_title3 = Raiisul wasaare
+|leader_name3 = [[Raila Odinga]]
+|leader_title4 = Afhayeenka baarlamaanka
+|leader_name4 = [[Kenneth Marende]]
+|leader_title5 = Gudoomiyeha maxkamadda sare
+|leader_name5 = [[Willy Munyoki Mutunga]]
+|legislature = [[Baarlamaan|Baarlamaan]]
+|area_km2 = 580,367
+|area_sq_mi = 224,080 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_rank = 47th
+|area_magnitude = 1 E11
+|percent_water = 2.3
+|population_estimate = 43,013,341
+|population_estimate_year = 2012
+|population_estimate_rank = 31st
+|population_census = 38,610,097
+|population_census_year = 2009
+|population_density_km2 = 67.2
+|population_density_sq_mi = 174.1 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank = 140th
+|GDP_PPP_year = 2011
+|GDP_PPP_rank =
+|GDP_PPP = $71.427 billion
+|GDP_PPP_per_capita = $1,746
+|GDP_PPP_per_capita_rank =
+|GDP_nominal = $34.796 billion
+|GDP_nominal_year = 2011
+|GDP_nominal_rank =
+|GDP_nominal_per_capita = $850
+|GDP_nominal_per_capita_rank =
+|HDI_year = 2011
+|HDI = {{nowrap|{{increase}} 0.509<ref name="HDI">{{cite web |url=http://hdr.undp.org/en/media/HDR_2011_EN_Tables.pdf |title=Human Development Report 2011 |year=2011 |publisher=United Nations |accessdate=2 November 2011}}</ref>}}
+|HDI_rank = 143rd
+|HDI_category = <span style="color:red;white-space:nowrap;">low</span>
+|Gini = 42.5
+|Gini_rank = 48th
+|Gini_year = 2008
+|Gini_category = <span style="color:#FC0;white-space:nowrap;">medium</span>
+|FSI = {{nowrap|91.3 {{increase}} 2.7}}
+|FSI_year = 2007
+|FSI_rank = 31st
+|FSI_category = <span style="color:#f00;white-space:nowrap;">Alert</span>
+|sovereignty_type = [[Xoriyad]]
+|established_event1 = Ka qaadatay [[Ingriiska]]
+|established_date1 = 12 December 1963
+|established_event2 = Waxaa laga dhigay Jamhuuriyed
+|established_date2 = 12 December 1964
+|currency = [[shillin]]
+|currency_code = KES
+|time_zone = [[East Africa Time|EAT]]
+|date_format = dd/mm/yy ([[Anno Domini|AD]])
+|utc_offset = +3
+|time_zone_DST = Lama arag
+|utc_offset_DST = +3
+|drives_on = Bidix
+|cctld = [[.ke]]
+|calling_code = [[+254]]
+|footnotes = 
 }}
+
 
 '''Kiinya''' waa wadan ku yaal bariga [[Afrika]]. Waxey xal la wadaagtaa wadamada [[Tansaaniya]] , [[Ugaandha]] , [[Harta]] [[Fiktooriya]] , [[Soomaaliya]] iyo [[Itoobiya]] . Dhinaca barina waxaa kaga dhagan [[Badweynta Hindiya]]. caasimada wadanka Kenya waa [[Nayroobi]].
 Wadanka kiinya waxoo ka mid yahay wadamada ee ku badan yihiin Xayawaanaadka ee Qaarada Afrika.
