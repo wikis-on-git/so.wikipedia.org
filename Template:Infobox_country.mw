@@ -122,7 +122,7 @@
  -->{{#if:{{{national_motto|}}}{{{motto|}}}
      | <tr>
          <td colspan="3" style="text-align:center;line-height:1.2em;"><!--
-           -->'''Motto:&nbsp;'''{{{motto|{{{national_motto|}}}}}}</td>
+           -->'''Halku dhigga:&nbsp;'''{{{motto|{{{national_motto|}}}}}}</td>
        </tr><!--
  -->}}<!--
 
@@ -134,7 +134,7 @@
      | <tr>
          <td class="anthem" colspan="3" style="text-align:center;line-height:1.2em;"><!--
            -->{{#if:{{{national_anthem|}}}{{{anthem|}}}
-               |'''Anthem:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
+               |'''Heesta qaranka:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
               }}<!--
            -->{{#if:{{{royal_anthem|}}}
                | {{#if:{{{national_anthem|}}}{{{anthem|}}} |<br/>}}<!--
@@ -256,7 +256,7 @@
        -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
            | </tr>
              <tr class="mergedbottomrow">
-               <th colspan="2">Largest {{{largest_settlement_type|city}}}</th>
+               <th colspan="2">Magaalada {{{largest_settlement_type|uguwayn}}}</th>
                <td>{{{largest_city|{{{largest_settlement|}}}}}}</td><!--
        -->}}<!--
 
@@ -282,18 +282,18 @@
 ============================================================
  -->{{#if:{{{official_languages|}}}
      | <tr>
-         <th colspan="2" style="white-space:nowrap;">Luqadaha Rasmiga ah</th>
+         <th colspan="2" style="white-space:nowrap;">Luqadaha rasmiga ah</th>
          <td>{{{official_languages}}}</td>
        </tr><!--
     -->{{#if:{{{national_languages|}}}
         | <tr>
-            <td colspan="2">Recognised national&nbsp;languages</td>
+            <td colspan="2">Luqad loo aqoonsaday&nbsp;dalka</td>
             <td style="vertical-align:middle;">{{{national_languages}}}</td>
           </tr><!--
     -->}}<!--
     -->{{#if:{{{regional_languages|}}}
         | <tr class="mergedbottomrow">
-            <td colspan="2">Recognised regional&nbsp;languages</td>
+            <td colspan="2">Luqadaha laga aqoonsanyahay&nbsp;aduunka</td>
             <td style="vertical-align:middle;">{{{regional_languages}}}</td>
           </tr><!--
     -->}}<!--
@@ -319,6 +319,7 @@
          <td>{{{languages2}}}</td>
        </tr><!--
  -->}}<!--
+
 
 
 ============================================================
@@ -374,10 +375,10 @@
      | <tr>
          <th colspan="2"><!--
            -->{{#if:{{{politics_link|}}}
-               | [[{{{politics_link}}}|Government]]<!--
+               | [[{{{politics_link}}}|Xukunka]]<!--
             -->| {{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Government]]<!--
-               -->| Government<!--
+                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Xukunka]]<!--
+               -->| Xukunka<!--
               -->}}<!--
            -->}}<!--
       --></th>
@@ -627,7 +628,7 @@
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
          <td style="padding-left:0;"><!--
-           -->{{{area_label|Total}}}<!--
+           -->{{{area_label|Guud ahaan}}}<!--
               ---France-related footnote:-->{{#if:{{{FR_foot4|}}} |{{{FR_foot4}}}}}</td>
          <td>{{formatnum:{{{area_km2|}}}}}&nbsp;km{{smallsup|2}}&nbsp;<!--
            -->{{#if:{{{area_footnote|}}} |{{{area_footnote}}} }}<!--
@@ -706,7 +707,7 @@
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
             <td style="padding-left:0;"><!--
               -->{{#if:{{{population_estimate_year|}}} |{{{population_estimate_year}}}&nbsp;}}<!--
-              -->estimate</td>
+              -->Qiyaasta</td>
             <td>{{{population_estimate}}}<!--
               -->{{#if:{{{population_estimate_rank|}}} |&nbsp;([[List of countries by population|{{{population_estimate_rank}}}]])}}</td>
           </tr><!--
@@ -989,7 +990,7 @@
          <th colspan="2"><!--
            -->{{#ifexist:Telephone numbers in {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                | [[Telephone numbers in {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Furaha Tel]]
-               | Calling code
+               | Furaha telka
               }}</th>
          <td>{{{calling_code}}}</td>
        </tr><!--
