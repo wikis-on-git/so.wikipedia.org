@@ -1,0 +1,18 @@
+{{#if:{{{sortable|}}}
+ |<span style="display:none;">{{{1|}}}</span>
+}}{{#if:{{{i|}}}
+ |<nowiki/>''
+}}{{#switch:{{{lk|}}}
+ |no|off   = c.
+ |yes|on   = [[Circa|c.]]
+ |abbr
+ |#default = {{Abbr|c.|circa}}
+}}{{#if:{{{i|}}}
+ |''<nowiki/>
+}}{{#if:{{{1|}}}
+ |<span style="white-space:nowrap;">&thinsp;{{{1}}}</span>
+}}{{#if:{{{2|}}}
+ |&nbsp;– c.<span style="white-space:nowrap;">&thinsp;{{{2}}}</span>
+}}<noinclude>
+{{Documentation}}
+</noinclude>
