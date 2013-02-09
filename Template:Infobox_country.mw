@@ -218,7 +218,7 @@
     (#ifeq:)-->|<!------------------------------------------
                      capital is largest_city/_settlement:
                  -------------------------------------------
-             --><br/>and {{{largest_settlement_type|largest city}}}<!--
+             --><br/>Waa {{{largest_settlement_type|Magaalada ugu balaaran}}}<!--
        --></td><!--
           --------Add capital:--------
        --><td>{{{capital}}}<!--
@@ -804,7 +804,7 @@
     -->{{#if:{{{GDP_nominal_per_capita|}}}
         | <tr class="mergedbottomrow">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-            <td style="padding-left:0;">Mid mid</td>
+            <td style="padding-left:0;">Calaa qof</td>
             <td>{{{GDP_nominal_per_capita}}}<!--
                 -->{{#if:{{{GDP_nominal_per_capita_rank|}}} |&nbsp;([[List of countries by GDP (nominal) per capita|{{{GDP_nominal_per_capita_rank}}}]])}}</td>
           </tr><!--
