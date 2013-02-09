@@ -1,0 +1,39 @@
+<includeonly>{{Coord/display/{{{display|inline}}}
+|1={{Coord/input/{{#ifeq:{{{1|}}}||nolat|{{#ifeq:{{{4|}}}{{{5|}}}{{{6|}}}||dec|{{#if:{{#switch:{{{4}}}{{{8}}}|NE|NW|SE|SW=y}}|dms|{{#if:{{#switch:{{{3}}}{{{6}}}|NE|NW|SE|SW=y}}|dm|{{#if:{{#switch:{{{2}}}{{{4}}}|NE|NW|SE|SW=y}}|d|ERROR}}}}}}}}}}
+|1={{{1|}}}
+|2={{{2|}}}
+|3={{{3|}}}
+|4={{{4|}}}
+|5={{{5|}}}
+|6={{{6|}}}
+|7={{{7|}}}
+|8={{{8|}}}
+|9={{{9|}}}
+|10={{{10|}}}
+|format={{{format|}}}
+|name={{{name|}}}
+}}{{{notes|}}}}}<!--
+-->{{#ifeq:{{{dim|μ}}}|μ||{{Coord/input/error2|msg=dim= should be dim:|sort_ch=D}}}}<!--
+-->{{#ifeq:{{{globe|μ}}}|μ||{{Coord/input/error2|msg=globe= should be globe:|sort_ch=G}}}}<!--
+-->{{#ifeq:{{{region|μ}}}|μ||{{Coord/input/error2|msg=region= should be region:|sort_ch=R}}}}<!--
+-->{{#ifeq:{{{scale|μ}}}|μ||{{Coord/input/error2|msg=scale= should be scale:|sort_ch=S}}}}<!--
+-->{{#ifeq:{{{source|μ}}}|μ||{{Coord/input/error2|msg=source= should be source:|sort_ch=s}}}}<!--
+-->{{#ifeq:{{{type|μ}}}|μ||{{Coord/input/error2|msg=type= should be type:|sort_ch=T}}}}<!--
+-->{{#coordinates:{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}
+|{{#switch:{{{display|}}}
+ |inline,title
+ |inline, title
+ |it
+ |t
+ |title,inline
+ |title={{#switch:{{SUBPAGENAME}}
+  |doc
+  |testcases=
+  |#default={{talk other||primary}}
+  }}
+ |#default=
+ }}
+|name={{{name|}}}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
