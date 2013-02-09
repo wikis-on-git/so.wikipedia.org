@@ -374,7 +374,7 @@
      | <tr>
          <th colspan="2"><!--
            -->{{#if:{{{politics_link|}}}
-               | [[{{{politics_link}}}|Xukunka]]<!--
+               | [[{{{politics_link}}}|Government]]<!--
             -->| {{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Government]]<!--
                -->| Government<!--
@@ -394,7 +394,7 @@
           <!--template being used for geopolitical org:-->
            | <tr><th colspan="3">Leaders</th></tr><!--
           <!--template being used for country/territory:
-        -->| <tr><th colspan="3">Government</th></tr><!--
+        -->| <tr><th colspan="3">Xukunka</th></tr><!--
        -->}}<!--
     -->}}<!--
  -->}}<!--
@@ -643,7 +643,7 @@
  -->{{#if:{{{percent_water|}}}
      | <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Water&nbsp;(%)</td>
+         <td style="padding-left:0;">Biyo&nbsp;(%)</td>
          <td>{{{percent_water}}}</td>
        </tr><!--
  -->}}<!--
@@ -718,7 +718,7 @@
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
             <td style="padding-left:0;"><!--
               -->{{#if:{{{population_census_year|}}} |{{{population_census_year}}}&nbsp;}}<!--
-              -->census</td>
+              -->Tirakoob</td>
             <td>{{{population_census|}}}<!--
               -->{{#if:{{{population_census_rank|}}} |&nbsp;([[List of countries by population|{{{population_census_rank}}}]])}}</td>
           </tr><!--
@@ -734,7 +734,7 @@
        </tr>
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Total{{{FR_foot}}}</td>
+         <td style="padding-left:0;">Guud ahaan{{{FR_foot}}}</td>
          <td>{{{FR_total_population_estimate}}}&nbsp;([[List of countries by population in 2005|{{{FR_total_population_estimate_rank}}}]])</td>
        </tr>
        <tr class="mergedrow">
@@ -748,7 +748,7 @@
  -->{{#if:{{{population_density_km2|}}}
      | <tr class="mergedbottomrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Density<!--
+         <td style="padding-left:0;">Tiro-badni<!--
             ---France-related footnote:-->{{#if:{{{FR_foot5|}}} |{{{FR_foot5}}}}}</td>
          <td>{{{population_density_km2|}}}/km{{smallsup|2}}<!--
             -->{{#if:{{{pop_den_footnote|}}} |&nbsp;{{{pop_den_footnote|}}}}}<!--
@@ -768,11 +768,11 @@
  -->{{#if:{{{GDP_PPP|}}}
      | <tr class="mergedtoprow">
          <td colspan="2">'''[[Wax soo saar|Wax soo saar]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
-         <td>{{#if:{{{GDP_PPP_year|}}} |{{{GDP_PPP_year}}}&nbsp;}}estimate</td>
+         <td>{{#if:{{{GDP_PPP_year|}}} |{{{GDP_PPP_year}}}&nbsp;}}Qiyaastii</td>
        </tr>
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Total</td>
+         <td style="padding-left:0;">Guud ahaan</td>
          <td>{{{GDP_PPP}}}<!--
              -->{{#if:{{{GDP_PPP_rank|}}} |&nbsp;([[List of countries by GDP (PPP)|{{{GDP_PPP_rank}}}]])}}</td>
        </tr><!--
@@ -780,7 +780,7 @@
     -->{{#if:{{{GDP_PPP_per_capita|}}}
         | <tr class="mergedbottomrow">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-            <td style="padding-left:0;">Per capita</td>
+            <td style="padding-left:0;">Qof qof</td>
             <td>{{{GDP_PPP_per_capita}}}<!--
                 -->{{#if:{{{GDP_PPP_per_capita_rank|}}} |&nbsp;([[List of countries by GDP (PPP) per capita|{{{GDP_PPP_per_capita_rank}}}]])}}</td>
           </tr><!--
@@ -790,12 +790,12 @@
     ---------------Nominal---------------
  -->{{#if:{{{GDP_nominal|}}}
      | <tr class="mergedtoprow">
-         <td colspan="2">'''[[Wax soo saar|Wax soo saar]]'''&nbsp;(nominal)</td>
+         <td colspan="2">'''[[Wax soo saar|Wax soo saar]]'''&nbsp;(Iskaga magacaaban)</td>
          <td>{{#if:{{{GDP_nominal_year|}}} |{{{GDP_nominal_year}}}&nbsp;}}estimate</td>
        </tr>
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Total</td>
+         <td style="padding-left:0;">Guud ahaan</td>
          <td>{{{GDP_nominal}}}<!--
              -->{{#if:{{{GDP_nominal_rank|}}} |&nbsp;([[List of countries by GDP (nominal)|{{{GDP_nominal_rank}}}]])}}</td>
        </tr><!--
@@ -803,7 +803,7 @@
     -->{{#if:{{{GDP_nominal_per_capita|}}}
         | <tr class="mergedbottomrow">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-            <td style="padding-left:0;">Per capita</td>
+            <td style="padding-left:0;">Mid mid</td>
             <td>{{{GDP_nominal_per_capita}}}<!--
                 -->{{#if:{{{GDP_nominal_per_capita_rank|}}} |&nbsp;([[List of countries by GDP (nominal) per capita|{{{GDP_nominal_per_capita_rank}}}]])}}</td>
           </tr><!--
@@ -935,7 +935,7 @@
     -->{{#if:{{{time_zone_DST|}}}{{{utc_offset_DST|}}}
         | <tr class="{{#if:{{{DST_note|}}} |mergedrow |mergedbottomrow}}">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-            <td style="padding-left:0;">Summer&nbsp;([[Daylight saving time|DST]])</td>
+            <td style="padding-left:0;">Xagaa&nbsp;([[Daylight saving time|DST]])</td>
             <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
           </tr><!--
     -->}}<!--
