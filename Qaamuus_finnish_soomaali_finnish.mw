@@ -105,6 +105,7 @@ alkuilta magac:		fiid
 allekirjoitettu tilmaame:		saxiixan
 allekirjoittaa fal:		saxiix
 allekirjoitus magac:		saxiix
+almu magac:			seko
 alus magac:			markab
 alushousut magac:		kastuumo 
 ambulanssi magac:		bukaanqaad
@@ -287,6 +288,7 @@ Imaami magac:		imaam
 imperialismi magac:		gumeysi
 inkivääri magac:		sinjibiil
 islam magac:			Islaam
+islamilaisten paastokuukausi:	Ramadaan
 Islanti magac:			Ayslaan
 isoisä magac:			awoowe
 isorokko magac:		furuq
@@ -630,6 +632,7 @@ minä magacuyaal:		aniga
 Mogadishu magac:		Muqdisho
 molemmat magacuyaal:		labo
 moskeija magac:		masjid
+mungo magac:		soongur
 munuainen magac:		kelli
 muotokuva magac:		sawir qofeed
 Muslimi magac:		Muslin
@@ -715,6 +718,8 @@ orja magac:			addoon
 otsa magac:			fool
 ovi magac:			albaab
 P
+paasto magac:			soon
+paastota fal:			soon
 pahoinvointi magac:		labballabbo
 pahoittelu magac:		shallayto		
 paholainen magac:		sheyddaan, cirfiid
@@ -808,6 +813,7 @@ puutalo magac:		baraako
 puutua fal:			kabaabyood
 puutuminen magac:		kabaabyo
 puutarha magac:		beer
+pyhiinvaellus magac:		xaj
 pyyhe magac:			shukumaan
 pyyheliina magac:		shukumaan
 pyörtyminen magac:		suuxdin
@@ -1019,6 +1025,7 @@ teko magac:			fal
 televisio magac:		telefishen
 tentti magac:			imtixaan
 tervehdys magac:		salaan
+tervehtiä fal:			salaan
 testi magac:			tijaabo
 tetanus magac:		teetane
 tiedekunta magac:		kulliyad
@@ -1875,8 +1882,9 @@ Qur’aan magac: 		Koraani
 qurux magac: 			kauneus, komeus
 quruxsan tilmaame: 		kaunis, sievä, komea
 R
-ra’iisal wasaare magac: 		pääministeri
 raad magac: 			jalanjälki, jälki
+ra’iisal wasaare magac: 		pääministeri
+Ramadaan magac:		islamilaisten paastokuukausi
 ri' magac:			vuohi
 rinji magac: 			maali
 rinjiile magac: 			maalari
@@ -1901,6 +1909,7 @@ safar fal: 			matkustaa
 sakiin magac: 			partaterä
 salaad magac: 		rukous
 salaan magac: 		tervehdys
+salaan fal: 			tervehtiä
 saliid magac:			öljy
 sambab magac: 		keuhko
 samboor magac: 		nenätulehdus
@@ -1929,6 +1938,7 @@ saxiix fal: 			allekirjoittaa
 saxiixan tilmaame: 		allekirjoitettu
 Sebtembar magac: 		syyskuu
 seeddi magac: 		lanko
+seko magac: 			almu
 seytuun magac: 		guava
 shaabbad magac:		leima
 shaah magac:			tee
@@ -1980,6 +1990,9 @@ sonkor magac: 		sokeri
 sonkorow magac: 		sokeritauti, diabetes
 Soomaali: 			somali, somalialainen
 Soomaaliya magac: 		Somalia
+soon magac: 			paasto
+soon fal: 			paastota
+soongur magac: 		mungo
 subag magac: 			voi
 subax magac: 			aamu
 sun magac: 			myrkky
@@ -2066,6 +2079,7 @@ xabeebsan tilmaame: 		käheä
 xafiis magac: 			toimisto
 xagaa magac:			kesä
 xagal jilib magac:		polvitaive
+xaj magac: 			pyhiinvaellus
 xamaarato magac: 		matelija
 xamasho magac faleed: 		juoru
 xammeeti magac: 		sappi
@@ -2103,6 +2117,5 @@ yaanbo magac: 		kuokka
 yaanyo magac: 		tomaatti
 yaxaas magac: 		krokotiili
 yeey magac: 			susi
-
 
 Qaamuuskan qoriddiisu weli wey socotaa ee sidaas ula soco.
