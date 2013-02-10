@@ -24,7 +24,7 @@
 | pushpin_label_position  = {{{pushpin_label_position|{{{locator_position|right}}}}}}
 | pushpin_map_alt         = {{{pushpin_map_alt|}}}
 | pushpin_mapsize         = {{{pushpin_mapsize|}}}
-| pushpin_map_caption     = Location of {{{name|{{{official_name}}}}}} in Somalia
+| pushpin_map_caption     = waxay {{{name|{{{official_name}}}}}} ku taalaa Somalia ama
 | latd  = {{{latd|}}} |latm  = {{{latm|}}} |lats  = {{{lats|}}} |latNS  = {{{latNS|}}}
 | longd = {{{longd|}}} |longm = {{{longm|}}} |longs =  {{{longs|}}} |longEW = {{{longEW|}}}
 | coordinates_type        = {{{coordinates_type|}}}
@@ -36,10 +36,10 @@
 | subdivision_name1       = {{{region|}}}
 | subdivision_type2       = [[Degmooyinka Gobolka Banaadir|Degmo]]
 | subdivision_name2       = {{{province|}}}
-| parts_type              = ''{{lang|so|[[Tuulo|Tuulooyin]]}}''
+| parts_type              = ''{{lang|so|[[Xaafad|Xaafado]]}}''
 | parts_style             = para
 | parts                   = 
-| p1                      = {{#if:{{{tuulo|}}}|<small>{{{tuulo}}}</small>}}
+| p1                      = {{#if:{{{xaafado|}}}|<small>{{{xaafado}}}</small>}}
 | established_title       = {{#if:{{{established_date|}}}|{{{established_title|Founded}}}}}
 | established_date        = {{{established_date|}}}
 | leader_party            = {{#if:{{{mayor_party|}}}|{{{mayor_party}}}}}
