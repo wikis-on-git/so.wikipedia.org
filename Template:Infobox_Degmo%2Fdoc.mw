@@ -1,0 +1,161 @@
+
+=== Template ===
+
+infobox adeegso, Macnaheeda maaha in tusaalahaan uu saxanyahay hadii aad hubto adiga ayaa sixi kara masuulna ka ah degmada aad qorto.
+{|style="background:transparent;"
+|<pre>
+{{Infobox Degmo
+| name                    = 
+| official_name           = 
+| native_name             = 
+| image_skyline           = 
+| imagesize               = 
+| image_alt               = 
+| image_caption           = 
+| image_shield            = 
+| shield_size             = 
+| shield_alt              = 
+| nickname                =
+| motto                   =
+| image_map               = 
+| mapsize                 = 
+| map_alt                 = 
+| map_caption             = 
+| pushpin_label_position  = 
+| pushpin_map_alt         = 
+| latd  =  |latm  =  |lats  =  |latNS  = 
+| longd =  |longm =  |longs =  |longEW =  
+| coordinates_type        = 
+| coordinates_display     = 
+| coordinates_footnotes   = 
+| region                  = 
+| province                = 
+| tuulo                   = 
+| adjacentcomuni          = 
+| established_date        =
+| mayor_party             = 
+| mayor                   = 
+| area_footnotes          = 
+| area_total_km2          = 
+| population_footnotes    = 
+| population_total        = 
+| population_as_of        = 
+| pop_density_footnotes   = 
+| population_demonym      = 
+| elevation_footnotes     = 
+| elevation_m             = 
+| elevation_min_m         = 
+| elevation_max_m         = 
+| twin1                   = 
+| twin1_country           = 
+| twin2                   = 
+| twin2_country           = 
+| twin3                   = 
+| twin3_country           = 
+| saint                   = 
+| day                     = 
+| postal_code             = 
+| area_code               = 
+| website                 = 
+| footnotes               = 
+}}
+</pre>
+|}
+
+
+
+
+=== Tusaale ===
+{{Infobox Degmo
+| name                = Dhuusamareeb
+| official_name       = Degmada dhuusamareeb
+| native_name         = 
+| image_skyline       = Dhuusamareeb.JPG
+| imagesize           = 
+| image_alt           = 
+| image_caption       = 
+| image_shield        = 
+| shield_alt          = 
+| shield_size         = 
+| image_map           = 
+| map_alt             = 
+| map_caption         = 
+| pushpin_label_position = 
+| pushpin_map_alt     = 
+| latd  = 5 |latm  = 32 |lats  =  |latNS  = N
+| longd = 46 |longm = 23 |longs =   |longEW = E 
+| coordinates_type    = region:SO_type:city(56903)
+| coordinates_display = title
+| coordinates_footnotes = 
+| region              = [[Galguduud]]
+| province            = [[dhuusamareeb]] (Dh)
+| tuulo               = Guriceel, Xeraale ceel-qooxle
+| adjacentcomuni      = Guriceel
+| mayor_party         = 
+| mayor               = Ciloow
+| area_footnotes      = 
+| area_total_km2      = 54
+| population_footnotes = 
+| population_total    = 56592
+| population_as_of    = 2008
+| pop_density_footnotes = 
+| population_demonym  = Reer dhuusa-mareebeed
+| elevation_footnotes = 
+| elevation_m         = 15
+| twin1               = 
+| twin1_country       = 
+| saint               = Ciidad yareey iyo ciid weyn
+| day                 = 1da soon fur iyo 10ka arafo
+| postal_code         = 18038
+| area_code           = 0184
+| website             = [http://www.dhuusamareeb.com/ dhuusamareeb.com]
+| footnotes           = 
+}}
+Sample infobox for [[Dhuusamareeb]]:
+
+<pre style="overflow: auto">
+{{Infobox Degmo
+| name                = Dhuusamareeb
+| official_name       = Degmada dhuusamareeb
+| native_name         = 
+| image_skyline       = Dhuusamareeb.JPG
+| imagesize           = 
+| image_alt           = 
+| image_caption       = 
+| image_shield        = 
+| shield_alt          = 
+| shield_size         = 
+| image_map           = 
+| map_alt             = 
+| map_caption         = 
+| pushpin_label_position = 
+| pushpin_map_alt     = 
+| latd  = 43 |latm  = 49 |lats  =  |latNS  = N
+| longd = 7 |longm = 47 |longs =   |longEW = E 
+| coordinates_type    = region:IT_type:city(56903)
+| coordinates_display = title
+| coordinates_footnotes = 
+| region              = [[Dhuusamareeb]]
+| province            = [[Garguduud]] (Dh)
+| tuulo               = Guriceel xeraale ceel-qooxle
+| adjacentcomuni      = Guriceel
+| mayor_party         = 
+| mayor               = Coloow
+| area_footnotes      = 
+| area_total_km2      = 54
+| population_footnotes = 
+| population_total    = 56592
+| population_as_of    = 2008
+| pop_density_footnotes = 
+| population_demonym  = Reer dhuusa-mareebeed
+| elevation_footnotes = 
+| elevation_m         = 15
+| twin1               = 
+| twin1_country       = 
+| saint               = Ciid weyn iyo ciid yar
+| day                 = 10ka Carafo iyo 1da soon fur
+| postal_code         = 18038
+| area_code           = 0184
+| website             = [http://www.dhuusamareeb.com/ dhuusamareeb.com]
+| footnotes           = 
+}}
