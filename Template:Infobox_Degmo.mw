@@ -40,7 +40,7 @@
 | parts_style             = para
 | parts                   = 
 | p1                      = {{#if:{{{xaafado|}}}|<small>{{{xaafado}}}</small>}}
-| established_title       = {{#if:{{{established_date|}}}|{{{established_title|Founded}}}}}
+| established_title       = {{#if:{{{established_date|}}}|{{{established_title|Ninkii dhisay}}}}}
 | established_date        = {{{established_date|}}}
 | leader_party            = {{#if:{{{mayor_party|}}}|{{{mayor_party}}}}}
 | leader_title            = {{#if:{{{mayor|}}}|Duqa}}
