@@ -101,6 +101,9 @@ alikersantti magac:		laba alifle
 alkoholi magac:		aalkolo
 alkoholijuoma magac:		khamro
 alkuilta magac:		fiid
+allekirjoitettu tilmaame:		saxiixan
+allekirjoittaa fal:		saxiix
+allekirjoitus magac:		saxiix
 alus magac:			markab
 alushousut magac:		kastuumo 
 ambulanssi magac:		bukaanqaad
@@ -154,6 +157,7 @@ D
 delfiini magac:			hoombaro 
 demoni magac:		cirfiid
 diabetes magac:		sonkorow, kaadisokorow
+Djibouti magac:		Jabuuti
 E
 eduskunta magac:		baarlamaan
 eeg magac:			aaladda shaqada maskaxda
@@ -229,6 +233,7 @@ historia magac:		taariikh
 historioitsija magac:		taariikhyahan
 hiukset magac:		timo
 hius magac:			tin
+hiustenpesuaine magac:		shaambo
 homo, homoseksuaali		khaniis
 hopea magac:			qalin
 horkka magac:		duumo
@@ -293,6 +298,7 @@ jalkapallo magac:		kubbadda cagta
 jalkaterä magac:		cag
 joki magac:			webi
 joulukuu magac:		Disembar
+journalismi magac:		saxaafad
 jousenjänne magac:		boqon
 juusto magac:			farmaajo
 Jumala magac:		Eebbe
@@ -386,8 +392,10 @@ kirja magac:			buug
 kirjailija magac:		qoraa, qore
 kirjain magac:			xaraf
 kirjaluettelo magac:		buugagsheeg
+kirjanpainaja magac:		daabece
 kirjanpito magac:		xisaabaad
 kirjanpitäjä magac:		xisaabhaye, xisaabiye
+kirjapaino magac:		madbacad
 kirjastonhoitaja: 		buugaghaye
 kirje magac:			warqad
 kirjeenvaihtaja magac:		wariye gaar ah
@@ -492,6 +500,7 @@ käsi magac:			gacan
 käsiala magac:			far
 käsikassara magac:		dabadhilif
 käymälä magac:		musqul
+käyttäytyminen magac:		dabci
 kääntäjä magac:		turjubaan (qoraal ahaan)
 kääntää fal:			turjun (qoraal ahaan)
 käärme magac:		mas
@@ -513,10 +522,12 @@ lapsihalvaus magac:		dabayl (cudur)
 lasi magac:			muraayad			
 lauantai magac:		Sabti
 laulaja magac:			heesaa
-laulu magac:			hees				
+laulu magac:			hees
+lautanen magac:		saxan
+lautasantenni magac:		saxan				
 lehmä magac:			sac (neef lo' ah) 
 leijona magac:			libaax 
-leima magac:			shaabad
+leima magac:			shaabbad
 leipä magac:			rooti
 lempinimi magac:		naanays
 lentokone magac:		diyaarad
@@ -542,7 +553,7 @@ lukio magac:			dugsiga sare
 lukko magac:			quful				
 luode magac:			waqooyi galbeed
 luokka magac:			fasal
-luonne magac:		caado				
+luonne magac:		caado, dabci				
 lusikka magac:			macalgad, qaaddo
 luuta magac:			xaaqin
 lyijykynä magac: 		qalin rasaas 
@@ -552,6 +563,7 @@ lähtö magac:			baxniin
 länsi magac:			galbeed
 lääke magac:			daawo		
 lääkäri magac:			dhakhtar
+löysätä fal:			dabci
 M
 maa magac:			dhul
 maalari magac:		rinjiile
@@ -692,6 +704,10 @@ P
 pahoinvointi magac:		labballabbo
 pahoittelu magac:		shallayto		
 paholainen magac:		sheyddaan, cirfiid
+painaa fal:			daabac
+painaminen magac:		daabac			
+painettu tilmaame:		daabacan
+painos magac:			daabacaad		
 paita magac:			shaati 
 pakara magac:			bari
 pakote magac:		cunaqabatayn
@@ -835,6 +851,7 @@ saarto magac:			cunaqabatayn
 Saatana magac:		sheyddaan
 sadas tiro: 			boqolaad
 sade magac:			roob
+saippua magac:		saabuun
 sairaala magac:		isbitaal
 sairaalapotilas magac:		bukaanjiif
 sairaanhoitaja magac:		kalkaaliso
@@ -845,6 +862,7 @@ Saksa magac:			Jarmal
 sakset magac:			maqas
 salaatti magac:		ansalaato
 samosa magac:		sambuus
+sampoo magac:		shaambo
 sana magac:			erey
 sanakirja magac:		qaamuus
 sananlasku magac:		maahmaah
@@ -985,6 +1003,7 @@ tentti magac:			imtixaan
 testi magac:			tijaabo
 tetanus magac:		teetane
 tiedekunta magac:		kulliyad
+tiedotusoppi magac:		saxaafad
 tietokone magac:		kombiyuutar
 tiikeri magac:			shabeel
 tiistai magac:			Talaado
@@ -1352,6 +1371,11 @@ cunsuri magac:		rasisti
 cunsuriyad magac:		rasismi		
 cusbo magac: 			suola
 D
+daabac fal: 			painaa
+daabac magac:		painaminen
+daabacaad magac:		painos
+daabacan tilmaame: 		painettu
+daabece magac: 		kirjanpainaja
 daac fal: 			röyhtäistä, röyhtäillä
 daaco magac: 			röyhtäys, röyhtäisy
 daacuun magac: 		kolera
@@ -1363,6 +1387,8 @@ daanyeer magac: 		apina, paviaani
 daawo magac: 		lääke
 dab magac: 			tuli
 dabayl magac: 		tuuli, halvaus, lapsihalvaus, polio   
+dabci magac: 			luonne, käyttäytyminen
+dabci fal: 			löysätä
 dabdamis magac: 		palokunta
 dabdamiye magac: 		palomies
 dabaal magac: 		uinti
@@ -1592,6 +1618,7 @@ jaakad magac: 		takki
 jaalle magac: 			keltainen
 jaamacad magac: 		yliopisto, korkeakoulu  
 jabto magac: 			tippuri
+Jabuuti magac: 		Djibouti [maa / kaupunki Itä-Afrikassa.]
 jadeeco magac: 		tuhkarokko
 jallaato magac:		jäätelö
 Jannaayo magac: 		tammikuu
@@ -1682,6 +1709,7 @@ machad magac: 		oppilaitos, opisto, ammattikorkeakoulu
 madax magac: 		pää, päällikkö, pomo
 madax-xanuun magac: 		päänsärky
 madaxweyne magac: 		presidentti
+madbacad magac: 		kirjapaino
 madow magac: 		musta väri, mustaihoinen
 magac magac: 		nimi, substantiivi {kielioppi}
 magacuyaal magac:		pronomini
@@ -1809,6 +1837,7 @@ ri' yar, ceesaan		kili, vohla
 roob magac: 			sade
 rooti magac: 			leipä  
 S
+saabuun magac: 		saippua
 saacad magac: 		tunti, kello
 Sabti magac: 			lauantai
 sabuurad magac: 		liitutaulu, taulu
@@ -1844,11 +1873,17 @@ sawir magac: 			kuva, valokuva
 sawir qofeed magac:		muotokuva
 sawir-sure magac:		X-koukku
 sawir-weyneyn magac:		zoomi 
+saxaafad magac: 		tiedotusoppi, journalismi
+saxan magac: 			lautanen, lautasantenni
+saxiix magac: 			allekirjoitus
+saxiix fal: 			allekirjoittaa
+saxiixan tilmaame: 		allekirjoitettu
 Sebtembar magac: 		syyskuu
 seeddi magac: 		lanko
 seytuun magac: 		guava
-shaabad magac:		leima
+shaabbad magac:		leima
 shaah magac:			tee
+shaambo magac: 		hiustenpesuaine, sampoo
 shaarib magac: 		viikset
 shaati magac: 			paita
 shabeel magac: 		tiikeri
