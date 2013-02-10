@@ -765,7 +765,7 @@
 </tr>
 }}{{#if:{{{population_demonym|}}}|
 <tr class="mergedtoprow">
-<td>'''[[Demonym]]'''</td>
+<td>'''Magac uyeel'''</td>
 <td>{{{population_demonym}}}</td>
 </tr>
 }}{{#if:{{{demographics_type1|}}}|
