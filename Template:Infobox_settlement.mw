@@ -122,17 +122,17 @@
 }}<!-- ***Nickname*** -->
 {{#if:{{{nickname|}}}|
 <tr class="mergedrow">
-<td colspan="2" style="text-align:center">Magac kale: <span class="nickname">{{{nickname}}}</span></td>
+<td colspan="2" style="text-align:center">Magac loogu yeero: <span class="nickname">{{{nickname}}}</span></td>
 </tr>
 }}<!-- ***Motto*** -->
 {{#if:{{{motto|}}}|
 <tr class="mergedrow">
-<td colspan="2" style="text-align:center">Motto: {{{motto}}}</td>
+<td colspan="2" style="text-align:center">Halkudhig: {{{motto}}}</td>
 </tr>
 }}<!-- ***Anthem*** -->
 {{#if:{{{anthem|}}}|
 <tr class="mergedrow">
-<td colspan="2" style="text-align:center">Anthem: {{{anthem}}}</td>
+<td colspan="2" style="text-align:center">Heesta qaranka: {{{anthem}}}</td>
 </tr>
 }}<!-- ***Map*** -->
 {{#if:{{{image_map|}}}|
@@ -516,7 +516,7 @@
 </tr>
 }}{{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}|
 <tr class="mergedtoprow">
-<th>Highest&nbsp;elevation{{{elevation_max_footnotes|}}}</th>
+<th>Joogga&nbsp;ugu sareeya{{{elevation_max_footnotes|}}}</th>
 <td>{{infobox_settlement/lengthdisp
       |m   ={{{elevation_max_m|}}}
       |ft  ={{{elevation_max_ft|}}}
@@ -531,7 +531,7 @@
 </tr>}}
 }}{{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|
 <tr class="{{#if:{{{elevation_min_rank|}}}|mergedrow|mergedbottomrow}}">
-<th>Lowest&nbsp;elevation{{{elevation_min_footnotes|}}}</th>
+<th>Joogga&nbsp;Ugu hooseeya{{{elevation_min_footnotes|}}}</th>
 <td>{{infobox_settlement/lengthdisp
       |m   ={{{elevation_min_m|}}}
       |ft  ={{{elevation_min_ft|}}}
