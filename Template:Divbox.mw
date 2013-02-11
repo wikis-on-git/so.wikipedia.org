@@ -1,0 +1,4 @@
+{{main other
+ |1 = <!-- not displayed in mainspace -->
+ |2 = <div class="boilerplate metadata" {{#if:{{{2|}}}|id="{{{2}}}"|}} style="{{divbox/style/{{{1}}}}};{{#if:{{{radius|}}}|{{border-radius|{{{radius}}}}}|}} padding: 1em;"><center><b>{{{2|}}}</b></center>{{{3|}}}</div>
+}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
