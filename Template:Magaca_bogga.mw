@@ -1,3 +1,2 @@
-{{magaca bogga}}<noinclude>
-[[Category:Template]]
-</noinclude>
+{{#if:{{{1|}}}|{{PAGENAME:{{{1|}}}}}|{{PAGENAME}}}}<includeonly>[[Category:Pages which use a template in place of a magic word|PN00{{PAGENAME}}]]</includeonly><noinclude>
+{{Documentation}}</noinclude>
