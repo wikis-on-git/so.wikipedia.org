@@ -83,6 +83,14 @@
 | class19    = agent
 | data19     = {{{leader5_name|}}}
 
+| label20    = {{{leader6_title|}}}
+| class20    = agent
+| data20     = {{{leader6_name|}}}
+
+| label21    = {{{leader7_title|}}}
+| class21    = agent
+| data21     = {{{leader7_name|}}}
+
 | label20    = Halkudhig
 | data20     = {{{slogan|}}}
 
@@ -133,7 +141,7 @@
 | data35     = {{{membership|}}}
 
 | class36    = category
-| label36    = [[Liiska mabaadiida siyaasadda|Ideology]]
+| label36    = [[Liiska mabaadiida siyaasadda|Mabda'a]]
 | data36     = {{{ideology|}}}
 
 | class37    = category
