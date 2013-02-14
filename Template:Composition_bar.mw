@@ -1,0 +1,13 @@
+----
+This is a redirect that has been protected from editing for any of several possible reasons.
+
+'''Do not replace these redirected links''' with a link directly to the target page.
+
+For more information, see the auto-category: [[:Category:Protected redirects]].<includeonly>
+{{#if:{{PROTECTIONLEVEL:edit}} {{PROTECTIONLEVEL:move}}
+|[[Category:Protected redirects]]
+|[[Category:Wikipedia pages with incorrect protection templates]]
+}}
+</includeonly><noinclude>
+<!-- this is Template:R protected -->
+{{documentation}}</noinclude>
