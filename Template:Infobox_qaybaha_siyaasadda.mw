@@ -91,138 +91,142 @@
 | class21    = agent
 | data21     = {{{leader7_name|}}}
 
-| label22    = Halkudhig
-| data22     = {{{slogan|}}}
+| label22    = {{{leader8_title|}}}
+| class22    = agent
+| data22     = {{{leader8_name|}}}
 
-| label23    = La aasaasay
-| data23     = {{{founded|{{{foundation|}}}}}}
+| label23    = Halkudhig
+| data23     = {{{slogan|}}}
 
-| label24    = Laka diray
-| data24     = {{{dissolved|{{{dissolution|}}}}}}
+| label24    = La aasaasay
+| data24     = {{{founded|{{{foundation|}}}}}}
 
-| label25    = Isku biiris
-| data25     = {{{merger|}}}
+| label25    = Laka diray
+| data25     = {{{dissolved|{{{dissolution|}}}}}}
 
-| label26    = Ka go'ay
-| data26     = {{{split|}}}
+| label26    = Isku biiris
+| data26     = {{{merger|}}}
 
-| label27    = Xilka Kaga hoyeey
-| data27     = {{{predecessor|{{{preceded by|{{{preceded_by|}}}}}}}}}
+| label27    = Ka go'ay
+| data27     = {{{split|}}}
 
-| label28    = Midoobay
-| data28     = {{{merged|}}}
+| label28    = Xilka Kaga hoyeey
+| data28     = {{{predecessor|{{{preceded by|{{{preceded_by|}}}}}}}}}
 
-| label29    = Xilka kaga dambeeyey
-| data29     = {{{successor|{{{succeeded by|{{{succeeded_by|}}}}}}}}}
+| label29    = Midoobay
+| data29     = {{{merged|}}}
 
-| label30    = Xarunta
-| class30    = label
-| data30     = {{{headquarters|}}}
+| label30    = Xilka kaga dambeeyey
+| data30     = {{{successor|{{{succeeded by|{{{succeeded_by|}}}}}}}}}
 
-| label31    = Jaraaid
-| data31     = {{{newspaper|}}}
+| label31    = Xarunta
+| class31    = label
+| data31     = {{{headquarters|}}}
 
-| label32    = Qaybah aradada
-| data32     = {{{student_wing|}}}
+| label32    = Jaraaid
+| data32     = {{{newspaper|}}}
 
-| label33    = Qaybaha dhalinyerada
-| data33     = {{{youth_wing|}}}
+| label33    = Qaybah aradada
+| data33     = {{{student_wing|}}}
 
-| label34    = {{{wing1_title}}}
-| data34     = {{{wing1|}}}
+| label34    = Qaybaha dhalinyerada
+| data34     = {{{youth_wing|}}}
 
-| label35    = {{{wing2_title}}}
-| data35     = {{{wing2|}}}
+| label35    = {{{wing1_title}}}
+| data35     = {{{wing1|}}}
 
-| label36    = {{{wing3_title}}}
-| data36     = {{{wing3|}}}
+| label36    = {{{wing2_title}}}
+| data36     = {{{wing2|}}}
 
-| label37    = Xobnaha {{#if:{{{membership_year|}}}|&nbsp;({{{membership_year}}})}}
-| data37     = {{{membership|}}}
+| label37    = {{{wing3_title}}}
+| data37     = {{{wing3|}}}
 
-| class38    = category
-| label38    = [[Liiska mabaadiida siyaasadda|Mabda'a]]
-| data38     = {{{ideology|}}}
+| label38    = Xobnaha {{#if:{{{membership_year|}}}|&nbsp;({{{membership_year}}})}}
+| data38     = {{{membership|}}}
 
 | class39    = category
-| label39    = [[Garabka siyaasadda]]
-| data39     = {{{position|}}}
+| label39    = [[Liiska mabaadiida siyaasadda|Mabda'a]]
+| data39     = {{{ideology|}}}
 
 | class40    = category
-| label40    = Diinta
-| data40     = {{{religion|}}}
+| label40    = [[Garabka siyaasadda]]
+| data40     = {{{position|}}}
 
 | class41    = category
-| label41    = Dalka ay ka soo jeedaan
-| data41     = {{{national|}}}
+| label41    = Diinta
+| data41     = {{{religion|}}}
 
 | class42    = category
-| label42    = Heer caalami
-| data42     = {{{international|{{{international affiliation|}}}}}}
+| label42    = Dalka ay ka soo jeedaan
+| data42     = {{{national|}}}
 
 | class43    = category
-| label43    = Afrika ahaan
-| data43     = {{{africaan|{{{africaan affiliation|}}}}}}
+| label43    = Heer caalami
+| data43     = {{{international|{{{international affiliation|}}}}}}
 
 | class44    = category
-| label44    = Baarlamaanka afrika
-| data44     = {{{african|{{{african parliament group|}}}}}}
+| label44    = Afrika ahaan
+| data44     = {{{africaan|{{{africaan affiliation|}}}}}}
 
 | class45    = category
-| label45    = {{{affiliation1_title}}}
-| data45     = {{{affiliation1|}}}
+| label45    = Baarlamaanka afrika
+| data45     = {{{african|{{{african parliament group|}}}}}}
 
-| label46    = Colo{{#if:{{{colours|}}}|u|}}rs
-| data46     = {{{colo{{#if:{{{colours|}}}|u|}}rs|}}}
+| class46    = category
+| label46    = {{{affiliation1_title}}}
+| data46     = {{{affiliation1|}}}
 
-| label47    = {{{blank1_title|{{{blank_title|}}}}}}
-| data47     = {{{blank1|{{{blank1_info|{{{blank_info|}}}}}}}}}
+| label47    = Colo{{#if:{{{colours|}}}|u|}}rs
+| data47     = {{{colo{{#if:{{{colours|}}}|u|}}rs|}}}
 
-| label48    = {{{blank2_title|}}}
-| data48     = {{{blank2|{{{blank2_info|}}}}}}
+| label48    = {{{blank1_title|{{{blank_title|}}}}}}
+| data48     = {{{blank1|{{{blank1_info|{{{blank_info|}}}}}}}}}
 
-| label49    = {{{blank3_title|}}}
-| data49     = {{{blank3|{{{blank3_info|}}}}}}
+| label49    = {{{blank2_title|}}}
+| data49     = {{{blank2|{{{blank2_info|}}}}}}
 
-| label50    = {{{seats1_title|}}}
-| data50     = {{{seats1|}}}
+| label50    = {{{blank3_title|}}}
+| data50     = {{{blank3|{{{blank3_info|}}}}}}
 
-| label51    = {{{seats2_title|}}}
-| data51     = {{{seats2|}}}
+| label51    = {{{seats1_title|}}}
+| data51     = {{{seats1|}}}
 
-| label52    = {{{seats3_title|}}}
-| data52     = {{{seats3|}}}
+| label52    = {{{seats2_title|}}}
+| data52     = {{{seats2|}}}
 
-| label53    = {{{seats4_title|}}}
-| data53     = {{{seats4|}}}
+| label53    = {{{seats3_title|}}}
+| data53     = {{{seats3|}}}
 
-| label54    = {{{seats5_title|}}}
-| data54     = {{{seats5|}}}
+| label54    = {{{seats4_title|}}}
+| data54     = {{{seats4|}}}
 
-| label55    = {{{seats6_title|}}}
-| data55     = {{{seats6|}}}
+| label55    = {{{seats5_title|}}}
+| data55     = {{{seats5|}}}
 
-| label56    = {{{seats7_title|}}}
-| data56     = {{{seats7|}}}
+| label56    = {{{seats6_title|}}}
+| data56     = {{{seats6|}}}
 
-| label57    = {{{seats8_title|}}}
-| data57     = {{{seats8|}}}
+| label57    = {{{seats7_title|}}}
+| data57     = {{{seats7|}}}
 
-| label58    = {{{seats9_title|}}}
-| data58     = {{{seats9|}}}
+| label58    = {{{seats8_title|}}}
+| data58     = {{{seats8|}}}
+
+| label59    = {{{seats9_title|}}}
+| data59     = {{{seats9|}}}
 
 
-| header59   = {{#if:{{{symbol|}}}|Election symbol}}
+| header60   = {{#if:{{{symbol|}}}|Election symbol}}
 
-| data59     = {{{symbol|}}}
+| data61     = {{{symbol|}}}
 
-| header60   = {{#if:{{{website|}}}|Website}}
+| header62   = {{#if:{{{website|}}}|Website}}
 
-| data61     = {{{website|}}}
+| data63     = {{{website|}}}
 
-| header62   = {{#if:{{{flag|}}}|Party flag}}
+| header64   = {{#if:{{{flag|}}}|Party flag}}
 
-| data63     = {{{flag|}}}
+| data65     = {{{flag|}}}
 
 | below      = {{#if:{{{state|{{{country|}}}}}}|{{#ifexist:{{#if:{{{country_dab1|}}}|{{{country_dab1}}}|Politics of {{{state|{{{country}}}}}}}}|{{#if:{{{country_dab1|}}}|[[{{{country_dab1}}}|Politics of {{{state|{{{country}}}}}}]]<br/>|[[Politics of {{{state|{{{country}}}}}}]]<br/>}}}}{{#ifexist:{{#if:{{{parties_dab1|}}}|{{{parties_dab1}}}|List of political parties in {{{state|{{{country}}}}}}}}|[[{{#if:{{{parties_dab1|}}}|{{{parties_dab1}}}|List of political parties in {{{state|{{{country}}}}}}}}|Political parties]]<br/>}}{{#ifexist:{{#if:{{{elections_dab1|}}}|{{{elections_dab1}}}|Elections in {{{state|{{{country}}}}}}}}|[[{{#if:{{{elections_dab1|}}}|{{{elections_dab1}}}|Elections in {{{state|{{{country}}}}}}}}|Elections]]}}{{#if:{{{country2|}}}|<hr />{{#ifexist:{{#if:{{{country_dab2|}}}|{{{country_dab2}}}|Politics of {{{country2}}}}}|{{#if:{{{country_dab2|}}}|[[{{{country_dab2}}}|Politics of {{{country2}}}]]|[[Politics of {{{country2}}}]]<br/>}}}}{{#ifexist:{{#if:{{{parties_dab2|}}}|{{{parties_dab2}}}|List of political parties in {{{country2}}}}}|[[{{#if:{{{parties_dab2|}}}|{{{parties_dab2}}}|List of political parties in {{{country2}}}}}|Political parties]]<br/>}}{{#ifexist:{{#if:{{{elections_dab2|}}}|{{{elections_dab2}}}|Elections in {{{country2}}}}}|[[{{#if:{{{elections_dab2|}}}|{{{elections_dab2}}}|Elections in {{{country2}}}}}|Elections]]}}}}}}{{#if:{{{footnotes|}}}|<hr />{{{footnotes|}}}}} 
 
