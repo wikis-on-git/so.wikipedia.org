@@ -1,0 +1,311 @@
+{{Infobox
+| bodyclass   = vcard
+| aboveclass  = fn org
+| headerstyle = background-color:#ddd
+| above       = {{{building_name|{{{name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+| subheader   = {{#if:{{{native_building_name|{{{native_name|}}}}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}"}}>{{{native_building_name|{{{native_name}}}}}}</span>}}
+
+| image       = {{#ifexist:media:{{{image|}}}|[[File:{{{image}}}|{{px|{{{image_size|}}}|frameless}}|border|alt={{{image_alt|{{{alt|}}}}}}]]|{{{image|}}}}}
+| caption     = {{{caption|}}}
+
+| image2      = {{#if:{{{map_type|}}}|<center>{{Location map|{{{map_type|}}}
+ |alt     = {{{map_alt|}}}
+ |lat     = {{#if:{{{latm|}}}{{{latNS|}}}| | {{{latitude|{{{latd|}}}}}} }}
+ |long    = {{#if:{{{longm|}}}{{{longEW|}}}| | {{{longitude|{{{longd|}}}}}} }}
+ |lat_deg ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec ={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir ={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec ={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir ={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |float   = center
+ |mark    = Red pog.svg
+ |marksize= 7
+ |label   = {{{map dot label|{{{map_dot_label|}}}}}}
+ |border  = none
+ |caption = {{{map_caption|<center>Location within {{{map_type}}}</center>}}}
+ |width   = {{{map_size|}}}
+}}</center>|<!--
+-->{{#if:{{{image_map|}}}|[[File:{{{image_map|}}}|center|{{px|{{{map_size|}}}|frameless}}|alt={{{map_alt|}}}]]}}<!-- -->}}
+| caption2    = {{#if:{{{map_type|}}}||{{{map_caption|}}}}}
+
+| label1    = Magaca rasmiga
+| data1     = {{{former_names|{{{former_name|}}}}}}
+| class1    = nickname
+
+| label2    = Looyaqaan
+| data2     = {{{alternate_names|{{{alternate_name|}}}}}}
+| class2    = nickname
+
+| data3     = {{#if:{{{highest_prev|}}}{{{highest_next|}}}{{{highest_start|}}}{{{highest_end|}}}{{{highest_region|}}}|{{Infobox|child=yes|decat=yes|headerstyle=background-color:#ddd;
+  | header1  = Darajada sare
+
+  | data2    = {{#if:{{{highest_start|}}}{{{highest_end|}}}<!--
+ -->|Ugu  {{#if:{{{highest_region|}}}|{{{highest_region}}}|the world}}<!--
+   --> {{#if:{{both|{{{highest_start|}}}|{{{highest_end|}}}}} <!--
+     -->|heer {{{highest_start|}}} to {{{highest_end|}}}<!--
+     -->|{{#if:{{{highest_start|}}}|since {{{highest_start}}} }}<!--
+     -->{{#if:{{{highest_end|}}}|until {{{highest_end}}} }}<!--
+   -->}}{{ref label|{{{highest_reflabel|talleststatus}}}|I|}}<!--
+ -->}}
+
+  | label3   = Kaga horeeyey
+  | data3    = {{{highest_prev|}}}
+
+  | label4 = Ku baasay
+  | data4  = {{{highest_next|}}}
+}} }}
+
+| header4   = {{#if:{{{status|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{classification|}}}{{{location|}}}{{{location_town|}}}{{{location_city|}}}{{{location_country|}}}{{{address|}}}{{{latitude|}}}{{{latd|}}}{{{longitude|}}}{{{longd|}}}{{{coordinates|}}}{{{altitude|}}}{{{start_date|}}}{{{construction_start_date|}}}{{{topped-out_date|}}}{{{topped_out_date|}}}{{{est_completion|}}}{{{completion_date|}}}{{{inauguration_date|}}}{{{groundbreaking_date|}}}{{{opening_date|}}}{{{opening|}}}{{{opened|}}}{{{opened_date|}}}{{{renovation_date|}}}{{{closing_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}{{{destruction_date|}}}{{{destroyed|}}}{{{cost|}}}{{{ren_cost|}}}|Macluumaad guud}}
+
+| label5    = Xaaladda
+| class5    = category
+| data5     = {{#if:{{{status|{{{Status|}}}}}}|{{#switch:{{lc:{{{status|{{{Status|}}}}}}}}
+| built | completed | finished
+| complete = <span style="color:darkgreen">Complete</span>
+| destroyed  = <span style="color:#e42328">Destroyed</span>
+| demolished = <span style="color:black">Demolished</span>
+| on hold    = <span style="color:purple">On hold</span>
+| incomplete | unfinished
+| under construction = <span style="color:purple">Under construction</span>
+| cancelled | canceled 
+| never built        = <span style="color:red">Never built</span>
+| topped out
+| topped-out         = <span>Heer sare</span>
+| planned
+| proposed           = <span style="color:orange">Proposed</span>
+| approved           = <span style="color:orange">Approved</span>
+| #default           = {{{status|{{{Xaaladda|}}}}}}
+}}|{{#if:{{{cancelled|}}}{{{canceled|}}}|<span style="color:red">Never built</span>|{{#if:{{{topped_out|}}}|<span>Heer sare</span>}} }} }}
+
+| label6    = Nuuca
+| data6     = {{{building_type|}}}
+| class6    = category
+
+| label7    = Hanaanka dhismaha
+| data7     = {{{architectural_style|}}}{{{style|}}}
+| class7    = category
+
+| label8    = Heerka
+| data8     = {{{classification|}}}
+| class8    = category
+
+| class9    = label
+| label9    = Halka ay ku taal
+| data9     = {{{location|}}}
+
+| label10   = Ciwaanka
+| data10    = {{{address|}}}
+
+| label11   = Magaalada
+| data11    = {{ifempty|{{{location_town|}}}|{{{location_city|}}}}}
+
+| label12   = Dalka
+| data12    = {{{location_country|}}}
+
+| label13   = [[Geographic coordinate system|Iskaashi]]
+| data13    = {{#if:{{both|{{{latitude|{{{latd|}}}}}}|{{{longitude|{{{longd|}}}}}}}}|
+{{Geobox coor|{{{latitude|{{{latd|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longitude|{{{longd|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if: {{{iso_region|}}}|_region:{{{iso_region}}}|{{#if:{{{location_country|}}}|_region:{{CountryAbbr|{{{location_country}}}|}}|}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}|{{{coordinates|}}}}}
+
+| label14   = Joogga
+| data14    = {{{altitude|}}}
+
+| label15   = Kireesteyaasha
+| data15    = {{{current_tenants|}}}
+
+| label16   = Dib u-habayn
+| data16    = {{{groundbreaking_date|}}}
+
+| label17   = {{Nowrap|Construction started}}
+| data17    = {{{start_date|}}}{{{construction_start_date|}}}
+
+| label18   = Heer sare
+| data18    = {{{topped-out_date|{{{topped_out_date|}}}}}}
+
+| rowclass19= faallo kooban
+| label19   = {{#if:{{{est_completion|}}}|La dhamaystiray}}
+| data19    = {{#if:{{{est_completion|}}}|{{{est_completion}}}|{{{completion_date|}}}}}
+
+| label20   = {{#if:{{{inauguration_date|}}}|Daaha laga rogay|Furis}}
+| data20    = {{ifempty|{{{inauguration_date|}}}|{{{opening_date|}}}|{{{opening|}}}|{{{opened|}}}|{{{opened_date|}}}}}
+
+| label21   = La dayactiray
+| data21    = {{{renovation_date|}}}
+
+| label22   = La xiray
+| data22    = {{{closing_date|}}}
+
+| rowclass23= Qormo kooban
+| label23   = {{#if:{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}|Dumin|La burburiyey}}
+| data23    = {{ifempty|{{{demolition_date|}}}|{{{date_demolished|}}}|{{{demolished_date|}}}|{{{destruction_date|}}}|{{{destroyed|}}}}}
+
+| label24   = Qiimaha
+| data24    = {{{cost|}}}
+
+| label25   = Qiimaha dayactirka
+| data25    = {{{ren_cost|}}}
+
+| header26  = {{#if:{{{architectural|}}}{{{tip|}}}{{{antenna_spire|}}}{{{roof|}}}{{{top_floor|}}}{{{observatory|}}}|Joogga}}
+
+| label27   = Joogga
+| data27    = {{{height|}}}
+
+| label28   = Handasada
+| data28    = {{{architectural|}}}
+
+| label29   = Caarad
+| data29    = {{{tip|}}}
+
+| label30   = Cirifka sare
+| data30    = {{{antenna_spire|}}}
+
+| label31   = Oogada sare
+| data31    = {{{roof|}}}
+
+| label32   = Dabaqa sare
+| data32    = {{{top_floor|}}}
+
+| label33   = Waardiye
+| data33    = {{{observatory|}}}
+
+| header34  = {{#if:{{{structural_system|}}}{{{size|}}}{{{diameter|}}}{{{other_dimensions|}}}{{{floor_count|}}}{{{floor_area|}}}{{{elevator_count|}}}|Faah faahinta Farsamada}}
+
+| label35   = Habka lagu dhisay
+| data35    = {{{structural_system|}}}
+| class35   = category
+
+| rowclass36= qormo kooban
+| label36   = Mugga
+| data36    = {{{size|}}}
+
+| label37   = [[Dhexroor]]
+| data37    = {{{diameter|}}}
+
+| label38   = Meelo kale oo kabaxsan
+| data38    = {{{other_dimensions|}}}
+
+| label39   = Inta dabaq
+| data39    = {{{floor_count|}}}
+
+| label40   = Baaxadda uu ku fadhiyo
+| data40    = {{{floor_area|}}}
+
+| label41   = Wiish
+| data41    = {{{elevator_count|}}}
+
+| header42  = {{#if:{{{client|}}}{{{owner|}}}{{{governing_body|}}}{{{landlord|}}}{{{management|}}}{{{architect|}}}{{{architecture_firm|}}}{{{developer|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{main_contractor|}}}{{{main_contractors|}}}|Naqshadda iyo dhismaha}}
+
+| label43   = Macaamiil
+| data43    = {{{client|}}}
+
+| label44   = Milkiilaha
+| data44    = {{{owner|}}}
+
+| label45   = {{#if:{{{governing_body|}}}|Habaynta hayada|{{#if:{{{landlord|}}}|Leh|Maamulka}}}}
+| data45    = {{#if:{{{governing_body|}}}|{{{governing_body|}}}|{{#if:{{{landlord|}}}|{{{landlord}}}|{{{management|}}}}}}}
+
+| label46   = Injineerka dhismaha
+| data46    = {{{architect|}}}
+
+| label47   = Shirkadda dhismaha
+| data47    = {{{architecture_firm|}}}
+
+| label48   = Hormarin
+| data48    = {{{developer|}}}
+
+| label49   = Injineer
+| data49    = {{{engineer|}}}
+
+| label50   = Qaabaynta injineerka
+| data50    = {{{structural_engineer|}}}
+
+| label51   = Shaqada injineerka
+| data51    = {{{services_engineer|}}}
+
+| label52   = Injineer shibil ah
+| data52    = {{{civil_engineer|}}}
+
+| label53   = Naqshadaha kale
+| data53    = {{{other_designers|}}}
+
+| label54   = Cabirka
+| data54    = {{{quantity_surveyor|}}}
+
+| label55   = Heshiiska guud
+| data55    = {{{main_contractor|{{{main_contractors|}}}}}}
+
+| rowclass56 = qoraal kooban
+| label56    = Waxa loo gaaray iyo abaalmarinada
+| data56     = {{{awards|}}}
+
+| label57    = Naqshadaha
+| data57     = {{{designations|}}}
+
+| header58  = {{#if:{{{ren_architect|}}}{{{ren_firm|}}}{{{ren_engineer|}}}{{{ren_str_engineer|}}}{{{ren_serv_engineer|}}}{{{ren_civ_engineer|}}}{{{ren_oth_designers|}}}{{{ren_qty_surveyor|}}}{{{ren_contractor|}}}{{{ren_awards|}}}|Kooxda dayactirka}}
+
+| rowclass59 = qormo kooban
+| label59   = Injineerka dhismaha
+| data59    = {{{ren_architect|}}}
+
+| label60   = Shirkadda cusbooneysiisay
+| data60    = {{{ren_firm|}}}
+
+| label61   = Injineer
+| data61    = {{{ren_engineer|}}}
+
+| label62   = Injineerka dhisay
+| data62    = {{{ren_str_engineer|}}}
+
+| label63   = Injineerka shaqadiisa
+| data63    = {{{ren_serv_engineer|}}}
+
+| label64   = Injineer shibl ah
+| data64    = {{{ren_civ_engineer|}}}
+
+| label65   = Mashaariic kale
+| data65    = {{{ren_oth_designers|}}}
+
+| label66   = Bedka meesha
+| data66    = {{{ren_qty_surveyor|}}}
+
+| label67   = Heshiiska guud
+| data67    = {{{ren_contractor|}}}
+
+| rowclass68 = qoraal kooban
+| label68   = Abaalmarinada
+| data68    = {{{ren_awards|}}}
+
+| header69  = {{#if:{{{number_of_stores|}}}{{{number_of_anchors|}}}{{{unit_count|}}}{{{number_of_units|}}}{{{room_count|}}}{{{parking|}}}{{{seating_type|}}}{{{capacity|{{{seating_capacity|}}}}}}|Macluumaad kale}}
+
+| label70   = Nuuca fadhiga
+| data70    = {{{seating_type|}}}
+
+| label71   = Meelaha fadhiga
+| data71    = {{{capacity|{{{seating_capacity|}}}}}}
+
+| label72   = Tirada dukaan
+| data72    = {{{number_of_stores|}}}
+
+| label73   = Tirada barosinta
+| data73    = {{{number_of_anchors|}}}
+
+| label74   = Tirada {{#if:{{{unit_count|}}}{{{number_of_units|}}}|units|Qolalka}}
+| data74    = {{ifempty|{{{unit_count|}}}|{{{number_of_units|}}}|{{{room_count|}}}}}
+
+| label75   = Meesha la dhog Baabuurta
+| data75    = {{{parking|}}}
+
+| header76  = {{#if:{{{website|}}}{{{url|}}}|Website}}
+| data77    = {{#if:{{{website|}}}|{{{website}}}|{{{url|}}}}}
+
+| data78    = {{{nrhp|{{{embedded|}}}}}}
+
+| header79  = {{#if:{{{references|}}}|Xigasho}}
+
+| data80   = {{{references|}}}
+
+| belowstyle = {{{belowstyle|}}}
+| below     = {{{footnotes|}}}
+}}{{#ifeq:{{{1|μ}}}|μ||[[Category:Building using deprecated parameters|σ{{PAGENAME}}]]}}<noinclude>{{documentation}}</noinclude>
