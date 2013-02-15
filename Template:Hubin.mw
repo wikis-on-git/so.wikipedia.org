@@ -1,11 +1,67 @@
-{{ambox 
-| type = content
-| text = Macluumaadka halkaan ku jira ee {{{1|maqaalkaan ama qaybtaan}}} '''Maaha mid la [[wikipedia:Hubin|Hubo]]''' Waxaa laga yaabaa in aaneey ahayn mid lagu kalsoonaan karo in ku filan, '''waxa ay ubaahantahay in ay eegaan dadka khibradda uleh'''. <br /> Waad ka caawin kartaa Wikipedia Macluumaadka ku jira maqaalkaan/qaybtaan, ka badal wax yaabaha lagama maarmaanka ah, kuna xooji macluumaadkaada [[wikipedia:xigasho]] adigoo soo xiganaya ilo muhiim ah.
-}}
-<includeonly>{{{Category|[[Category:Maqaalda hubinta ubaahan]]}}}</includeonly>
-<noinclude>
-== Template ==
-* {{H|Hubin cilmiyeed}}
+<!--
+  Automatically add {{template sandbox notice}} when on a /sandbox page.
+-->{{#ifeq: {{SUBPAGENAME}} | sandbox
+| <div style="clear: both;"></div>{{template sandbox notice}}
+}}<!--
+  Automatically add {{pp-template}} to protected templates.
+-->{{template other
+| {{#ifeq: {{PROTECTIONLEVEL:move}} | sysop
+  | {{pp-template|docusage=yes}}
+  | {{#if: {{PROTECTIONLEVEL:edit}}
+    | {{pp-template|docusage=yes}}
+    | <!--Not protected, or only semi-move-protected-->
+    }}
+  }}
+}}<!--
+  Start of green doc box.
+-->{{documentation/start box2
+| preload = {{{preload|}}}   <!--Allow custom preloads-->
+| heading = {{{heading|¬}}}   <!--Empty but defined means no header-->
+| heading-style = {{{heading-style|}}}
+| content = {{{content|}}}
 
-[[Category:Template|{{PAGENAME}}]]
+<!--Some namespaces must have the /doc, /sandbox and /testcases 
+    in talk space-->
+| docspace = {{documentation/docspace}}
+
+| 1 = {{{1|}}}   <!--Other docname, if fed-->
+
+<!--The namespace is added in /start box2-->
+| template page = {{documentation/template page}}
+
+}}<!-- Start content --><!--
+  Start load the /doc content:
+  Note: The line breaks between this comment and the next line are necessary
+  so  "=== Headings ===" at the start and end of docs are interpreted.
+-->
+{{#switch: {{#if:{{{content|}}}|1|0}}{{#if:{{{1|}}}|1|0}}{{#ifexist:{{{1|}}}|1|0}}{{#ifexist:{{documentation/docspace}}:{{documentation/template page}}/explain|1|0}}
+| 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 
+| 1111 = {{{content|}}}
+| 0110 | 0111 = {{ {{{1}}} }}
+| 0001 | 0011 = {{ {{documentation/docspace}}:{{documentation/template page}}/explain }}
+| 0000 | 0100 | 0010 | 0101 = 
+}}
+<!--
+  End load the /doc content:
+  Note: The line breaks between this comment and the previous line are necessary
+  so  "=== Headings ===" at the start and end of docs are interpreted.
+-->{{documentation/end box2
+| preload = {{{preload|}}}   <!--Allow custom preloads-->
+| content = {{{content|}}}
+| link box = {{{link box|}}}   <!--So "link box=off" works-->
+
+<!--Some namespaces must have the /doc, /sandbox and /testcases 
+    in talk space-->
+| docspace = {{documentation/docspace}}
+
+| 1 = {{{1|}}}   <!--Other docname, if fed-->
+
+<!--The namespace is added in /end box2-->
+| template page = {{documentation/template page}}
+
+}}<!--
+  End of green doc box
+--><noinclude>
+
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
