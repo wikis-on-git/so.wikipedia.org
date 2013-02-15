@@ -1,0 +1,31 @@
+<includeonly>{{{{{|safesubst:}}}#if:{{{1|}}}
+| {{{1}}}
+| {{{{{|safesubst:}}}#if:{{{2|}}}
+  | {{{2}}}
+  | {{{{{|safesubst:}}}#if:{{{3|}}}
+    | {{{3}}}
+    | {{{{{|safesubst:}}}#if:{{{4|}}}
+      | {{{4}}}
+      | {{{{{|safesubst:}}}#if:{{{5|}}}
+        | {{{5}}}
+        | {{{{{|safesubst:}}}#if:{{{6|}}}
+          | {{{6}}}
+          | {{{{{|safesubst:}}}#if:{{{7|}}}
+            | {{{7}}}
+            | {{{{{|safesubst:}}}#if:{{{8|}}}
+              | {{{8}}}
+              | {{{{{|safesubst:}}}#if:{{{9|}}}
+                | {{{9}}}
+                }}
+              }}
+            }}
+          }}
+        }}
+      }}
+    }}
+  }}
+}}</includeonly><noinclude>
+
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
