@@ -171,6 +171,7 @@ E
 eduskunta magac:		baarlamaan
 edustaja magac:		afhayeen
 eeg magac:			aaladda shaqada maskaxda
+ei kestä:			adaa mudan
 eilen falkaab:			shalay
 ei-muslimi magac:		gaal
 ekg magac:			aaladda shaqada wadnaha
@@ -280,8 +281,12 @@ hyvää huomenta yaab:		subax wanaagsan
 hyvää illanjatkoa yaab:		ha kuu ahaato fiid wanaagsan
 hyvää iltaa yaab:		fiid wanaagsan
 hyvää iltapäivää yaab:		galab wanaagsan
+hyvää joulua yaab:		kirismas wanaagsan
+Hyvää joulua ja onnellista uutta vuotta:	Kirismas wanaagsan iyo sanad cusub oo farxad leh
 hyvää päivänjatkoa yaab:		ha kuu ahaato maalin wanaagsan
 hyvää päivää yaab:		maalin wanaagsan
+hyvää syntymäpäivää yaab:		maalin-dhalasho wanaagsan 
+hyvää uutta vuotta yaab:		sanad cusub oo wanaagsan
 hyvää yötä yaab:		habeen wanaagsan
 hyödyllinen tilmaame:		waxtar leh
 hyökkäys magac:		weerar
@@ -361,6 +366,7 @@ kaapata fal:			afduub
 kaappaus magac:		afduub
 kaasu magac:			neef {kimisteri}
 kahvi magac:			qaxwe
+kaikkea hyvää yaab:		kheyr ayaan kuu rajeynayaa
 kainalo magac:		kilkilo
 kaivaa fal:			faag
 kaksi tiro:			labo
@@ -411,6 +417,7 @@ keltatauti magac:		cagaarshow
 kemia magac:			kimisteri
 kenraaliluutnantti magac:		sarreeye guud
 kenraalimajuri magac:		sarreeye gaas
+kerro terveisiä fal:		iigu salaan
 kersantti magac:		saddex alifle
 keskipiste magac:		xuddun {joomiteri}
 keskipäivä magac:		duhur
@@ -425,7 +432,11 @@ keuhko magac:		sambab
 kevät magac:			gu’
 kieli magac:			af
 kielioppi magac:		naxwe
+kiitoksia yaab:			waad ku mahadsan tahay
+kiitoksia paljon:		aad baad u mahadsan tahay
 kiitos yaab:			mahadsanid
+kiitos vieraanvaraisuudesta:		waad ku mahadsan tahay martisoorka
+kiitän sinua:			waan kuu mahadcelinayaa
 kili magac:			ri' yar, ceesaan
 kilpikonna magac:		diindiin
 kinkku magac:			hilibka bowdada doofaarka
@@ -733,6 +744,7 @@ nykyään falkaab:		beryahan
 nyrjähdys magac:		murgucasho
 nähdään yaab:		is arag dambe
 nähdään myöhemmin yaab:		waa inoo hadhow
+näkemiin yaab:		is arag dambe
 nänni magac:			ib
 närästys magac:		laabjeex 
 näytelmä magac:		riwaayad
@@ -742,12 +754,15 @@ objekti magac:		lafale {naxwe}
 ohimo magac:			dhafoor
 ohjaaja magac:		macallin
 ohjelma magac:		barnaamij
-oikea magac:			midig	
+oikea magac:			midig
+oikein paljon kiitoksia:		aad baad u mahadsan tahay	
 oikeustalo magac:		maxkamad
 oire magac:			astaan
 oksennus magac:		matag	
 oksentaa fal:			matag
+ole hyvä weer:		adaa mudan
 oleskelulupa magac:		sharci
+olkaa hyvä weer:		adaa mudan
 olkapää magac:		garab
 olla kuukautiset fal:		caado qab
 olohuone magac:		bersed
@@ -781,6 +796,7 @@ paitsi xiriiriye:			mooyaane
 pakara magac:			bari
 pakote magac:		cunaqabatayn
 palautus magac:		dalkucelin
+paljon kiitoksia weer:		aad baad u mahadsan tahay
 palkka magac:			mushaar 
 pallo magac:			kubbad
 palokunta magac:		dabdamis
@@ -1070,6 +1086,7 @@ tamma magac:		geenyo
 tammikuu magac:		Jannaayo
 Tanska magac:		Denmaark
 tapa magac:			caado
+tapaamisiin yaab:		waa inoo kulan dambe
 tarina magac:			sheeko
 taru magac:			sheeko
 tasa-arvo magac:		sinnaan
@@ -1083,8 +1100,12 @@ teko magac:			fal
 tekstinselitys magac:		faallo
 televisio magac:		telefishen
 tentti magac:			imtixaan
+terve yaab:			ahlan, nabaday
 tervehdys magac:		salaan
 tervehtiä fal:			salaan
+tervetuloa yaab:		soo dhowow
+tervetuloa Somaliaan yaab:		ku soo dhowow Soomaaliya
+tervetuloa Suomeen yaab:		ku soo dhowow Fiinlaan
 testi magac:			tijaabo
 tetanus magac:		teetane
 tiedekunta magac:		kulliyad
@@ -1285,6 +1306,8 @@ Somali suomi sanakirja
 A
 aabbe magac: 			isä
 aadane magac: 		ihminen; ihmiset
+aad baad u mahadsan tahay:		oikein paljon kiitoksia
+aad baad u mahadsan tahay:		paljon kiitoksia / kiitoksia paljon
 aafo magac: 			katastrofi
 aakhiro magac: 		tuonpuoleinen elämä
 aalkolo magac:	 	alkoholi
@@ -1296,6 +1319,7 @@ abbaayo magac: 		sisko, sisar
 abboowe magac: 		veli
 Abriil magac: 			huhtikuu
 abti magac: 			eno
+adaa mudan weer:		ei kestä, ole hyvä, olkaa hyvä
 addoon magac: 		orja
 adeer magac: 			seta
 adiga magacuyaal: 		sinä
@@ -1315,7 +1339,7 @@ afhayeen magac:		edustaja, puhemies, tiedottaja
 af Iswidhishka magac:		ruotsin kieli
 af Soomaaliga magac:		somalin kieli
 Agoosto magac: 		elokuu
-ahlan yaab: 			hei, moi
+ahlan yaab: 			hei, moi, terve
 albaab magac: 		ovi
 alifba’ magac: 			aakkoset, aakkosto
 alifle magac: 			korpraali
@@ -1709,6 +1733,7 @@ hordhac magac: 		esipuhe
 I
 ib magac: 			nänni
 ido magac: 			lammas
+iigu salaan fal:			kerro terveisiä
 il magac: 			silmä
 ilbiriqsi magac: 		silmänräpäys; sekunti
 ilig magac: 			hammas
@@ -1728,6 +1753,7 @@ indhoole magac: 		sokea
 injir magac: 			täi
 isaga magacuyaal: 		hän, se
 is arag dambe yaab:		nähdään
+is arag dambe yaab:		näkemiin
 isbitaal magac: 		sairaala
 iska warran? weer: 		mitä kuuluu?
 iskuul magac:			koulu
@@ -1790,9 +1816,13 @@ khamri fudud magac:		olut
 khamro magac: 		alkoholijuoma, viina
 khaniis magac: 		homo, homoseksuaali
 khaniisad magac: 		lesbo
+kheyr ayaan kuu rajeynayaa yaab:	kaikkea hyvää
 kilkilo magac: 			kainalo
 kimisteri magac:		kemia
 kintir magac: 			häpykieli, klitoris
+kirismas wanaagsan yaab:		hyvää joulua
+Kirismas wanaagsan iyo sanad cusub oo farxad leh:
+Hyvää joulua ja onnellista uutta vuotta
 kisi tilmaame: 			pariton
 kix magac: 			hinkuyskä
 kombiyuutar magac: 		tietokone
@@ -1809,6 +1839,8 @@ kubbadda koleyga magac: 		koripallo
 kulan wanaagsan weer:		hauska tavata
 kulliyad magac: 		tiedekunta
 kursi magac: 			tuoli
+ku soo dhowow Fiinlaan yaab:	tervetuloa Suomeen
+ku soo dhowow Soomaaliya yaab:	tervetuloa Somaliaan
 kuuley-cali-banjar		siili  
 L
 laabjeex magac: 		närästys
@@ -1833,6 +1865,7 @@ M
 maahmaah magac: 		sananlasku, sanonta, sananparsi
 Maajo magac: 		toukokuu
 maalin magac: 		päivä
+maalin-dhalasho wanaagsan yaab:	hyvää syntymäpäivää
 maalin wanaagsan weer:		hyvää päivää
 maamule dugsi:		rehtori
 maanta falkaab: 		tänään
@@ -1924,7 +1957,7 @@ naasacelis magac: 		rintaliivit
 naasaley magac: 		nisäkäs ~ nisäkkäät
 naasnuuji fal: 			imettää
 naastro magac: 		nauhuri
-nabaday yaab: 		hei hei, moi
+nabaday yaab: 		hei hei, moi, terve
 nabadgelyo yaab: 		hyvästi
 nacnac magac: 		makeiset, karamelli, karkki
 nal magac:			lamppu, hehkulamppu, sähkövalo
@@ -2017,6 +2050,7 @@ samboor magac: 		nenätulehdus
 sambuus magac: 		samosa
 san magac: 			nenä
 sanad magac: 			vuosi
+sanad cusub oo wanaagsan yaab:	hyvää uutta vuotta
 sanagguuro magac: 		vuosipäivä
 sanam magac: 		idoli
 saq-dhexe magac: 		keskiyö
@@ -2094,6 +2128,7 @@ soddon tiro: 			kolmekymmentä
 soddonaad tiro: 		kolmaskymmenes
 sonkor magac: 		sokeri
 sonkorow magac: 		sokeritauti, diabetes
+soo dhowow yaab: 		tervetuloa
 Soomaali: 			somali, somalialainen
 Soomaaliya magac: 		Somalia
 soon magac: 			paasto
@@ -2147,8 +2182,12 @@ ubax magac: 			kukka
 ukun magac: 			kananmuna
 uur magac: 			raskaus
 W
+waad ku mahadsan tahay yaab:	kiitoksia
+waad ku mahadsan tahay martisoorka:	kiitos vieraanvaraisuudesta
 waa inoo hadhow yaab:		nähdään myöhemmin
+waa inoo kulan dambe yaab:		tapaamisiin
 waalan tilmaame: 		hullu, mielisairas
+waan kuu mahadcelinayaa:		kiitän sinua
 wadne magac: 		sydän
 wallac magac: 			aamupahoinvointi
 walo feminine noun: 		päästäinen
