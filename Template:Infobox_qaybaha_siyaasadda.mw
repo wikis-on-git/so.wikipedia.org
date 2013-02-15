@@ -7,27 +7,27 @@
 | imageclass = logo
 | caption    = {{{caption|}}}
 
-| label1     = {{{lang1}}} name
+| label1     = {{{lang1}}} magac
 | class1     = nickname
 | data1      = {{{name_lang1|}}}
 
-| label2     = {{{lang2}}} name
+| label2     = {{{lang2}}} magac
 | class2     = nickname
 | data2      = {{{name_lang2|}}}
 
-| label3     = {{{lang3}}} name
+| label3     = {{{lang3}}} magac
 | class3     = nickname
 | data3      = {{{name_lang3|}}}
 
-| label4     = {{{lang4}}} name
+| label4     = {{{lang4}}} magac
 | class4     = nickname
 | data4      = {{{name_lang4|}}}
 
-| label5     = {{#ifeq:{{{disbanded|no}}}|no|Leader|Former&nbsp;leader}}
+| label5     = {{#ifeq:{{{disbanded|no}}}|no|Hogaamiye|Former&nbsp;leader}}
 | class5     = agent
 | data5      = {{{leader|}}}
 
-| label6     = {{#ifeq:{{{disbanded|no}}}|no|President|Former&nbsp;president}}
+| label6     = {{#ifeq:{{{disbanded|no}}}|no|Gudoomiye|Former&nbsp;president}}
 | class6     = agent
 | data6      = {{{president|}}}
 
@@ -43,7 +43,7 @@
 | class9     = agent
 | data9      = {{{first_secretary|{{{first_secretary|}}}}}}
 
-| label10    = {{#ifeq:{{{disbanded|no}}}|no|Secretary-General|Former&nbsp;secretary-general}}
+| label10    = {{#ifeq:{{{disbanded|no}}}|no|Xog-hayaha Guud|Former&nbsp;secretary-general}}
 | class10    = agent
 | data10     = {{{secretary_general|{{{secretary_general|}}}}}}
 
@@ -55,7 +55,7 @@
 | class12    = agent
 | data12     = {{{secretary|{{{secretary|}}}}}}
 
-| label13    = {{#ifeq:{{{disbanded|no}}}|no|Spokes{{#if:{{{spokesperson|}}}|person|man}}|Former&nbsp;spokes{{#if:{{{spokesperson|}}}|person|man}}}}
+| label13    = {{#ifeq:{{{disbanded|no}}}|no|Af{{#if:{{{spokesperson|}}}|hayeen|man}}|Former&nbsp;spokes{{#if:{{{spokesperson|}}}|hayeen|man}}}}
 | class13    = agent
 | data13     = {{#if:{{{spokesperson|}}}|{{{spokesperson}}}|{{{spokesman|}}}}}
 
@@ -98,13 +98,13 @@
 | label23    = Halkudhig
 | data23     = {{{slogan|}}}
 
-| label24    = La aasaasay
+| label24    = La Aasaasay
 | data24     = {{{founded|{{{foundation|}}}}}}
 
-| label25    = Laka diray
+| label25    = Lakala diray
 | data25     = {{{dissolved|{{{dissolution|}}}}}}
 
-| label26    = Isku biiris
+| label26    = Ku biiray
 | data26     = {{{merger|}}}
 
 | label27    = Ka go'ay
@@ -157,7 +157,7 @@
 | data41     = {{{religion|}}}
 
 | class42    = category
-| label42    = Dalka ay ka soo jeedaan
+| label42    = Udhashay
 | data42     = {{{national|}}}
 
 | class43    = category
@@ -216,7 +216,7 @@
 | data59     = {{{seats9|}}}
 
 
-| header60   = {{#if:{{{symbol|}}}|Election symbol}}
+| header60   = {{#if:{{{symbol|}}}|Astaanta doorashooyinka}}
 
 | data61     = {{{symbol|}}}
 
@@ -224,7 +224,7 @@
 
 | data63     = {{{website|}}}
 
-| header64   = {{#if:{{{flag|}}}|Party flag}}
+| header64   = {{#if:{{{flag|}}}|Calanka Xisbiga}}
 
 | data65     = {{{flag|}}}
 
