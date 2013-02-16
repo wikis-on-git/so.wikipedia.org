@@ -1,0 +1,6 @@
+<includeonly><div><!-- Do not remove this DIV: it prevents the Wiki code from inserting an extra linebreak above this table. -->
+{| width="{{{1|100%}}}" border="0" cellspacing="0" cellpadding="0" style="background-color:transparent;table-layout:fixed;"
+|- valign="top"
+|<div style="margin-right:{{{2|20px}}};"></includeonly><noinclude>
+{{template doc}}
+</noinclude>
