@@ -1,0 +1,11 @@
+<noinclude>{{Maamulka/biloow}}</noinclude>
+|- valign=top {{#if: {{{6|}}}|bgcolor=#FFFFDD|}}
+|[[Utente:{{{1}}}|{{#if: {{{2|}}}|{{{2}}}|{{{1}}} }}]] 
+|<span style="font-size:90%">[[User_talk:{{{1}}}|wadahadal]] [[Speciale:UdirEMail/{{{1|}}}|@]] [[Speciale:Contributi/{{{1}}}|C]] - [http://toolserver.org/~tparis/pcount/index.php?name={{urlencode:{{{1}}}}}&lang=so&wiki=wikipedia EC1] [http://toolserver.org/~vvv/yaec.php?user={{urlencode:{{{1}}}}}&wiki=sowiki_p 2] [http://so.wikipedia.org/w/index.php?title=Speciale%3ALog&type=&user={{urlencode:{{{1}}}}}&page= LOG]</span>
+|{{#if: {{{3|}}}|<span style="font-size:90%">{{{3}}}</span>|}}
+|<span style="display:none">{{#time:Y m d|{{{4}}} }}</span>{{#time:j F Y|{{{4}}} }}
+|{{#if: {{{5|}}}|<span style="display:none">{{#time:Y m d|{{{5}}} }}</span>{{#time:j F Y|{{{5}}} }}|&nbsp;}}
+|{{#if: {{{5|}}}|{{#ifexpr: {{#time:U}}-{{#time:U|{{{5}}}}} > 31536000 |bgcolor=#FFDDDD{{!}}|}}<span style="display:none">{{#time:Y m d|{{{5}}} +1 year }}</span>{{#time:j F Y|{{{5}}} +1 year }}|{{#ifexpr: {{#time:U}}-{{#time:U|{{{4}}}}} > 31536000 |bgcolor=#FFDDDD{{!}}|}}<span style="display:none">{{#time:Y m d|{{{4}}} +1 year }}</span>{{#time:j F Y|{{{4}}} +1 year}}}}||<noinclude>|}</noinclude>
+<noinclude>
+[[Categorr:Template shaqada gudagalaha|Maamulka]]
+[[Category:Template bogga cadaynta|{{PAGENAME}}]]</noinclude>
