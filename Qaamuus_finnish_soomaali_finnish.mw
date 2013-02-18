@@ -696,17 +696,21 @@ metalli magac:		bir
 metri magac:			mitir		
 mielisairas tilmaame:		waalan
 mies magac:			nin
+miksi falkaab:			maxay ... u
+mikä magacuyaal:		maxaa
 Mikä sinun nimesi on? weer:		magacaa?
+millainen tilmaame:		sidee, noocma
 milloin falkaab:		goorma
 ministeri magac:		wasiir
 ministeriö magac:		wasaarad
 minun nimeni on weer:		magaceygu waa
 minuutti magac:		daqiiqad
 minä magacuyaal:		aniga
+missä falkaab:			halkee
 miten falkaab:			sidee
 miten menee? weer:		sidee tahay?
 miten voit? weer:		sidee tahay?
-mitä :			yaa
+mitä :			yaa, maxaa
 mitä kuuluu? weer:		iska warran?
 Mogadishu magac:		Muqdisho
 moi yaab:			ahlan, nabaday
@@ -723,6 +727,7 @@ mustapippuri magac:		filfil
 musta väri magac:		madow
 mustekala magac:		farammaggooggo
 mustuainen magac:		bir
+mutta xiriiriye:		laakiin, hase ahaatee
 muuli magac:			baqal
 muuri magac:			derbi
 muutamaa päivää myöhemmin:	berya ka dib
@@ -1127,6 +1132,7 @@ taru magac:			sheeko
 tasa-arvo magac:		sinnaan
 taulu magac:			sabuurad
 tauti magac:			xanuun
+te magacuyaal:		idinka
 tee magac:			shah
 teema magac:			mawduuc
 teippi magac:			sharooto
@@ -1209,6 +1215,7 @@ usein falkaab:			aalaa
 uskonnottomuus		diindarro
 uskonto magac:		diin
 V
+vaan xiriiriye:			laakiin, hase ahaatee
 vagina magac:			siil
 vaihtaa fal:			sarrifo
 vaihto magac:			sarrif
@@ -1753,6 +1760,7 @@ habeen magac:		yö
 habeen wanaagsan weer:		hyvää yötä
 ha kuu ahaato fiid wanaagsan:	hyvää illanjatkoa
 ha kuu ahaato maalin wanaagsan:	hyvää päivänjatkoa
+halkee falkaab: 		missä
 halyeey magac: 		sankari
 hambalyee fal: 		onnitella
 hambalyo yaab: 		onneksi olkoon
@@ -1761,6 +1769,7 @@ hantiwadaag magac: 		sosialismi; sosialisti
 haramcad magac: 		gepardi
 hargab magac: 		nuha, flunssa
 haro magac: 			järvi
+hase ahaatee xiriiriye:		mutta, vaan
 hayl magac: 			kardemumma
 hees magac: 			laulu
 heesaa magac: 		laulaja
@@ -1780,6 +1789,7 @@ hooyonnimo magac: 		äitiys
 hordhac magac: 		esipuhe
 I
 ib magac: 			nänni
+idinka magacuyaal:		te
 ido magac: 			lammas
 iga raalli ahow yaab: 		anna anteeksi, anteeksi, anteeksi kuinka
 iga raalli ahow weer:		pyydän anteeksi
@@ -1898,6 +1908,7 @@ L
 laabjeex magac: 		närästys
 laad magac: 			potku
 laad fal: 			potkia
+laakiin xiriiriye: 		mutta, vaan
 laba alifle magac: 		alikersantti
 laba dhibcood magac: 		kaksoispiste {välimerkki}
 labballabbo magac: 		pahoinvointi, kuvotus
@@ -1966,6 +1977,8 @@ matag fal: 			oksentaa
 matag magac: 		oksennus
 mawduuc magac:		aihe, teema
 mawjad magac: 		aalto
+maxaa : 			mikä
+maxay ... u falkaab: 		miksi
 maxkamad magac: 		tuomioistuin, oikeustalo
 maxkamadda degmada magac: 	käräjäoikeus
 maxkamadda rafcaanka magac: 	hovioikeus
@@ -2022,6 +2035,7 @@ nebi magac: 			profeetta
 neef magac: 			hengitys, astma, kaasu {kemia}
 nibiri magac: 			valas
 nin masculine noun: 		mies, aviomies, puoliso
+noocma tilmaame:		millainen
 Noofembar magac: 		marraskuu
 Noorwey magac:		Norja
 O
@@ -2160,7 +2174,7 @@ shumac magac: 		kynttilä
 shummi fal: 			suudella
 shummin magac faleed: 		suudelma
 shuun magac: 			häpykarvat
-sidee falkaab: 			miten, kuinka
+sidee falkaab: 			miten, kuinka, millainen
 sidee tahay? weer:		miten menee?
 sidee tahay? weer:		miten voit?
 sidee tahay? weer:		kuinka voit?
