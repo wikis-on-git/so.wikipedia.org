@@ -99,6 +99,8 @@ aikakauslehti magac:		wargeys
 aivastaa fal:			hindhis
 aivastus magac:		hindhiso
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
+aivot magac:			maskax
+akillesjänne magac:		boqon
 ala-aste magac:		dugsiga hoose
 alaleuka magac:		daan
 alikersantti magac:		laba alifle
@@ -216,6 +218,7 @@ greippi magac:		bambeelmo
 guava magac:			seytuun 
 H
 haarukka magac:		fargeeto
+haastattelu magac:		wareysi
 haava magac:			boog
 hai magac:			libaax-badeed
 hajuvesi magac:		barafuun
@@ -322,6 +325,7 @@ ihra magac:			baruur
 ikenet magac:			cirrid
 ikkuna magac:			dariishad
 illallinen magac:		casho 
+ilman muuta falkaab:		dabcan
 ilmaus magac:			weer
 ilmoittaa fal:			wargeli
 iltapäivä magac:		casir, galab
@@ -564,6 +568,7 @@ kyllä magac:			haa
 kynsi magac:			ciddi
 kynttilä magac:		shumac
 kynä magac:			qalin
+kysely magac:			wareysi
 kysymysmerkki magac:		astaan weyddiin
 kyyhky magac:		qoolley
 kyynärpää magac:		xusul
@@ -757,9 +762,11 @@ nenä magac:			san
 nenätulehdus magac:		samboor
 neste magac:			dareere, biyo
 nettopalkka magac:		mushaar saafi ah
+neuvonta magac:		wareysi
+niin falkaab:			sidaas
 nikotella fal:			hingood
 nikotus magac:		hingo
-nilkka magac:			anqaw
+nilkka magac:			anqaw, boqon
 nimi magac:			magac
 niska magac:			tun
 nisäkäs ~ nisäkkäät magac:		naasaley
@@ -773,11 +780,13 @@ nukutus magac:		suuxin
 nukutusaine magac:		suuxin (daawo)
 nukutushoitaja magac:		suuxiye (kalkaaliye)
 nukutuslääkäri magac:		suuxiye (dhakhtar)
+nuo magacuyaal:		kuwaas
 nykyään falkaab:		beryahan		
 nyrjähdys magac:		murgucasho
 nähdään yaab:		is arag dambe
 nähdään myöhemmin yaab:		waa inoo hadhow
 näkemiin yaab:		is arag dambe
+nämä magacuyaal:		kuwan
 nänni magac:			ib
 närästys magac:		laabjeex 
 näytelmä magac:		riwaayad
@@ -1110,6 +1119,7 @@ sänky magac:			sariir
 särky magac:			xanuun
 T 
 taateli magac:			timir
+tai xiriiriye:			ama
 taistelija magac:		dagaalyahan
 taistelu magac:		dagaal
 taivas magac:			cir
@@ -1154,7 +1164,9 @@ tetanus magac:		teetane
 tiedekunta magac:		kulliyad
 tiedottaja magac:		afhayeen
 tiedotusoppi magac:		saxaafad
+tietenkin falkaab:		dabcan
 tietokone magac:		kombiyuutar
+tietysti falkaab:		dabcan
 tiikeri magac:			shabeel
 tiistai magac:			Talaado
 tilintarkastaja magac:		xisaabiye
@@ -1169,6 +1181,7 @@ Toinen Mooseksen kirja magac:	baxniin
 tomaatti magac:		yaanyo
 torakka magac:		baranbaro
 torstai magac:			Khamiis
+totta kai falkaab:		dabcan
 tottumus magac:		caado
 toukokuu magac:		Maajo
 tuberkuloosi magac:		qaaxo
@@ -1180,6 +1193,7 @@ tulla fal:			imaan
 tulo magac:			imaansho
 tunnusmerkki magac:		astaan
 tunti magac:			saacad
+tuo magacuyaal:		kaas
 tuoli magac:			kursi
 tuomioistuin magac:		maxkamad
 tuonpuoleinen elämä magac:		aakhiro
@@ -1201,6 +1215,7 @@ tähti magac:			xiddig
 tähtitiede magac:		xiddiga-aqoon
 tähtitieteilijä magac:		xiddigayaqaan
 täi magac:			injir
+tämä magacuyaal:		kan
 tänään falkaab:		maanta
 täti magac:			eeddo, habaryar
 U
@@ -1217,11 +1232,13 @@ uskonto magac:		diin
 V
 vaan xiriiriye:			laakiin, hase ahaatee
 vagina magac:			siil
+vai xiriiriye:			mise
 vaihtaa fal:			sarrifo
 vaihto magac:			sarrif
 vaikka xiriiriye:		walow
 vaikku magac:			dhukay
 vaimo magac:			naag
+vain falkaab:			keliya
 vaiva magac:			xanuun, cudur
 vakuutus magac:		caymis
 valas magac:			nibiri
@@ -1389,6 +1406,7 @@ ahlan yaab: 			hei, moi, terve
 albaab magac: 		ovi
 alifba’ magac: 			aakkoset, aakkosto
 alifle magac: 			korpraali
+ama xiriiriye: 			tai
 aniga magacuyaal: 		minä
 annaga magacuyaal:		me
 anqaw magac:			nilkka
@@ -1485,7 +1503,7 @@ booloboolo magac: 		ankka
 boqol tiro: 			sata
 boqolaad tiro: 		sadas
 boqolkiiba magac: 		prosentti
-boqon magac: 		jousenjänne
+boqon magac: 		jousenjänne, nilkka, akillesjänne
 boqonta gooy fal: 		heikentää
 boqor magac: 			kuningas
 boqorad magac: 		kuningatar
@@ -1569,6 +1587,7 @@ daanyeer magac: 		apina, paviaani
 daawo magac: 		lääke
 dab magac: 			tuli
 dabayl magac: 		tuuli, halvaus, lapsihalvaus, polio   
+dabcan falkaab:		tietysti, tietenkin, totta kai, ilman muuta
 dabci magac: 			luonne, käyttäytyminen
 dabci fal: 			löysätä
 dabdamis magac: 		palokunta
@@ -1857,6 +1876,8 @@ kaadi magac: 			virtsa
 kaadidhiig magac: 		verivirtsaisuus; hematuria
 kaadihays magac: 		virtsarakko
 kaadisokorow magac: 		sokeritauti, diabetes
+kaas : 			tuo
+kan : 			tämä
 kabaabyee fal:			puuduttaa
 kabaabyeyn magac faleed:		puuduttaminen
 kabaabyo magac: 		puutuminen, puudutusaine
@@ -1872,6 +1893,7 @@ kaneeco magac: 		hyttynen
 kaniisad magac: 		kirkko
 kastuumo magac:		alushousut
 katiifad magac: 		matto
+keliya falkaab: 		vain
 kelli magac: 			munuainen
 Khamiis magac: 		torstai
 khamri fudud magac:		olut
@@ -1904,6 +1926,8 @@ kursi magac: 			tuoli
 ku soo dhowow Fiinlaan yaab:	tervetuloa Suomeen
 ku soo dhowow Soomaaliya yaab:	tervetuloa Somaliaan
 kuuley-cali-banjar		siili  
+kuwaas : 			nuo
+kuwan : 			nämä
 L
 laabjeex magac: 		närästys
 laad magac: 			potku
@@ -1972,6 +1996,7 @@ Masiix magac: 		Kristus (Messias)
 Masiixi magac: 		kristitty
 Masiixinnimo magac: 		kristinusko
 masjid magac: 		moskeija
+maskax magac: 		aivot
 mataano magac: 		kaksoset
 matag fal: 			oksentaa 
 matag magac: 		oksennus
@@ -1995,6 +2020,7 @@ mindhicir magac: 		suoli
 mindi magac: 			veitsi
 miro guduudan oo macaan:		mansikka
 miro kakaawa oo la shiiday:		kaakao
+mise xiriiriye: 			vai
 misig magac: 			lonkka, lanne
 mitir magac: 			metri
 moos magac: 			banaani
@@ -2174,6 +2200,7 @@ shumac magac: 		kynttilä
 shummi fal: 			suudella
 shummin magac faleed: 		suudelma
 shuun magac: 			häpykarvat
+sidaas falkaab: 		niin
 sidee falkaab: 			miten, kuinka, millainen
 sidee tahay? weer:		miten menee?
 sidee tahay? weer:		miten voit?
@@ -2274,6 +2301,7 @@ waqti magac: 			aika
 waraabe magac: 		hyeena
 waraabow magac: 		kuppa
 wareer magac: 		huimaus, sekavuus
+wareysi magac faleed: 		kysely, haastattelu, neuvonta
 wargeli fal: 			ilmoittaa 
 wargeys magac: 		sanomalehti, aikakauslehti
 wariye magac: 		toimittaja
