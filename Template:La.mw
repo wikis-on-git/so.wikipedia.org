@@ -1,0 +1,4 @@
+<span id="{{anchorencode:{{{1}}}}}"></span><span class="plainlinks nourlexpansion lx">[[{{ucfirst:{{{1|Qodobka}}}}}]] <tt>(</tt>[{{fullurl:{{{1}}}|action=edit}} edit]<tt>&#124;</tt>[[Talk:{{{1}}}|talk]]<tt>&#124;</tt>[{{fullurl:{{{1}}}|action=history}} history]<tt>&#124;</tt>[{{fullurl:{{{1}}}|action=protect}} protect]<tt>&#124;</tt>[{{fullurl:Special:Whatlinkshere/{{{1}}}|limit=999}} links]<tt>&#124;</tt>[{{fullurl:{{{1}}}|action=watch}} watch]<tt>&#124;</tt>[{{fullurl:Special:Log|page={{urlencode:{{{1}}}}}}} logs]<tt>)</tt></span><noinclude>
+
+{{documentation}}
+</noinclude>
