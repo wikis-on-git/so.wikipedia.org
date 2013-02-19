@@ -397,6 +397,7 @@ kala magac:			kalluun, mallaay
 kallio magac:			dhadhaab
 kameleontti magac:		jirjirroole
 kameli magac:			geel
+kamera magac:		makiinadda masawirka
 kammata fal:			shanlee
 kampa magac:			shanlo
 kana magac:			digaagad, dooro
@@ -479,6 +480,7 @@ kirjeenvaihtaja magac:		wariye gaar ah
 kirjekuori magac:		baqshad
 kirjoittaja magac:		qore, qoraa
 kirjoitus magac:		far
+kirjoituskone magac:		makiinadda farta
 kirjoitusvihko magac:		buugagga qorista
 kirkko magac:			kaniisad
 kirves magac:			faas
@@ -508,9 +510,12 @@ kolonialismi magac:		gumeysi
 komea tilmaame:		quruxsan
 komeus magac:		qurux
 kommentaari magac:		faallo
+kone magac:			makiinad
+konekirjoittaja magac:		makiinadqore
 konferenssi magac:		shir
 konjunktio magac:		xiriiriye {naxwe}
 konsonantti magac:		shibbane {naxwe} b, c, d, f (jne.)
+kopiokone magac:		makiinadda masawirka
 Koraani magac:		Qur’aan
 Koraanin koulu:		dugsiga Qur’aanka
 koripallo magac:		kubbadda koleyga		
@@ -924,6 +929,7 @@ puu magac:			geed
 puuduttaa fal:			kabaabyee
 puuduttaminen magac:		kabaabyeyn
 puudutusaine magac:		kabaabyo
+puuro magac:			mishaari
 puutalo magac:		baraako
 puutua fal:			kabaabyood
 puutuminen magac:		kabaabyo
@@ -1221,6 +1227,7 @@ täi magac:			injir
 tämä magacuyaal:		kan
 tänään falkaab:		maanta
 täti magac:			eeddo, habaryar
+täällä falkaab:			halkan
 U
 uinti magac:			dabaal
 ukko magac:			oday
@@ -1783,6 +1790,7 @@ habeen wanaagsan weer:		hyvää yötä
 ha kuu ahaato fiid wanaagsan:	hyvää illanjatkoa
 ha kuu ahaato maalin wanaagsan:	hyvää päivänjatkoa
 halbowlaha wadnaha dhiigga ka qaada:	aortta
+halkan falkaab: 		täällä
 halkee falkaab: 		missä
 halyeey magac: 		sankari
 hambalyee fal: 		onnitella
@@ -1979,6 +1987,10 @@ magaceygu waa weer:		minun nimeni on
 magacuyaal magac:		pronomini
 ma garanayo weer:		en tiedä
 mahadsanid yaab: 		kiitos
+makiinad magac: 		kone
+makiinadda farta magac: 		kirjoituskone
+makiinadda masawirka magac: 	kopiokone, kamera
+makiinadqore magac: 		konekirjoittaja
 malaa’ig magac, wadar: 		enkeli, enkelit
 malab magac: 			hunaja
 malaha falkaab: 		ehkä, kenties, kai, voi olla
@@ -2025,6 +2037,7 @@ mindi magac: 			veitsi
 miro guduudan oo macaan:		mansikka
 miro kakaawa oo la shiiday:		kaakao
 mise xiriiriye: 			vai
+mishaari magac: 		puuro
 misig magac: 			lonkka, lanne
 mitir magac: 			metri
 moos magac: 			banaani
