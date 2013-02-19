@@ -100,7 +100,7 @@ aivastaa fal:			hindhis
 aivastus magac:		hindhiso
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
 aivot magac:			maskax
-akillesjänne magac:		boqon
+akillesjänne magac:		boqon, seedda ciribta
 ala-aste magac:		dugsiga hoose
 alaleuka magac:		daan
 alikersantti magac:		laba alifle
@@ -124,6 +124,7 @@ anoppi magac:		soddoh
 anteeksi yaab:			iga raalli ahow
 anteeksi kuinka weer:		yaa
 anteeksi mitä weer:		yaa
+aortta magac:			halbowlaha wadnaha dhiigga ka qaada
 apina magac:			daanyeer
 appelsiini magac:		liin
 appi magac:			soddog
@@ -370,6 +371,7 @@ juuri magac:			xidid {xisaab}
 juusto magac:			farmaajo
 jälki magac:			raad
 jänis  magac:			bakayle 
+jänne magac:			seed
 järvi magac:			haro
 jäykkäkouristus magac:		teetane
 jäykkä niska magac:		barkindhac
@@ -404,6 +406,7 @@ kaneli magac:			qorfe
 kani, kaniini   			bakayle
 kansanedustaja magac:		xildhibaan
 kansi magac:			dabool, jildi
+kantajänne magac:		seedda ciribta
 kantapää magac:		cirib
 kapitalismi magac:		hantiggoosi
 kapitalisti magac:		hantiggoosi
@@ -1779,6 +1782,7 @@ habeen magac:		yö
 habeen wanaagsan weer:		hyvää yötä
 ha kuu ahaato fiid wanaagsan:	hyvää illanjatkoa
 ha kuu ahaato maalin wanaagsan:	hyvää päivänjatkoa
+halbowlaha wadnaha dhiigga ka qaada:	aortta
 halkee falkaab: 		missä
 halyeey magac: 		sankari
 hambalyee fal: 		onnitella
@@ -2169,6 +2173,8 @@ saxiix magac: 			allekirjoitus
 saxiix fal: 			allekirjoittaa
 saxiixan tilmaame: 		allekirjoitettu
 Sebtembar magac: 		syyskuu
+seed magac: 			jänne
+seedda ciribta magac:		kantajänne, akillesjänne
 seeddi magac: 		lanko
 seko magac: 			almu
 seytuun magac: 		guava
