@@ -1,15 +1,43 @@
-<includeonly>{{waardiye
-|name=waardiye
-|type=full
-|disallowlevel=autoconfirmed
+<includeonly>{{pp-meta
+|type={{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+   |semi
+   |autoconfirmed=semi
+   |administrator
+   |full
+   |sysop=full
+   |#default=full<!--fallback value-->}}
 |small={{{small|}}}
 |demospace={{{demospace|}}}
 |demolevel={{{demolevel|undefined}}}
 |expiry={{{expiry|}}}
-|dispute=yes
-|section={{{section|}}}
-|reason=&#32;{{#if:{{{expiry|}}}|or until|until}} {{#if:{{{section|}}}|[[{{TALKPAGENAME}}#{{{section}}}|disputes]]|disputes}} have been resolved
-|categories={{{categories|[[Category:Template|{{PAGENAME}}]]{{#if:{{{expiry|}}}||[[Category:waardiye|{{PAGENAME}}]]}}}}}}}</includeonly><noinclude>
-{{waardiye|demospace=main|demolevel=sysop|categories=no}}
-{{documentation}}
+|dispute=no
+|reason={{#if:{{{reason|}}}|&#32;because {{lcfirst:{{{reason|}}}}}}}
+|categories={{{categories|
+{{#switch:{{{demolevel|{{PROTECTIONLEVEL:edit}}}}}
+ |semi
+ |autoconfirmed={{#switch: {{{demospace|{{NAMESPACE}}}}}
+   | {{ns:2}}
+   | {{ns:3}} = [[Category:Wikipedia semi-protected user and user talk pages|{{PAGENAME}}]]
+   | {{ns:6}} = [[Category:Semi-protected images|{{PAGENAME}}]]
+   | {{ns:4}}
+   | {{ns:12}} = [[Category:Semi-protected project pages|{{PAGENAME}}]]
+   | {{ns:100}} = [[Category:Semi-protected portals|{{PAGENAME}}]]
+   | {{ns:10}} = [[Category:Wikipedia semi-protected templates|{{PAGENAME}}]]
+   | {{ns:14}} = [[Category:Wikipedia semi-protected categories|{{PAGENAME}}]]
+   | #default = {{talk other|[[Category:Semi-protected talk pages|{{PAGENAME}}]]|[[Category:Wikipedia semi-protected pages|{{PAGENAME}}]]}}}}
+ |administrator
+ |full
+ |sysop={{#switch: {{{demospace|{{NAMESPACE}}}}}
+   | {{ns:2}}
+   | {{ns:3}} = [[Category:Wikipedia protected user and user talk pages|{{PAGENAME}}]]
+   | {{ns:6}} = [[Category:Protected images|{{PAGENAME}}]]
+   | {{ns:4}}
+   | {{ns:12}} = [[Category:Protected project pages|{{PAGENAME}}]]
+   | {{ns:10}} = [[Category:Wikipedia protected templates|{{PAGENAME}}]]
+   | {{ns:14}} = [[Category:Wikipedia protected categories|{{PAGENAME}}]]
+   | #default = {{talk other|[[Category:Protected talk pages]]|[[Category:Wikipedia protected pages|{{PAGENAME}}]]}}}}}}}}}}}</includeonly><noinclude>
+{{pp-protected|demospace=main|categories=no|reason=[[Lorem ipsum|Lorem ipsum dolor sit amet]]}}
+
+{{template doc}}
+<!-- Add categories and inter-wikis to the /doc subpage, not here! -->
 </noinclude>
