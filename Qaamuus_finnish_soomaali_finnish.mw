@@ -96,6 +96,7 @@ adverbi magac:		falkaab {naxwe}
 aihe magac:			mawduuc
 aika magac:			waqti
 aikakauslehti magac:		wargeys
+aisti magac:			dareeme
 aivastaa fal:			hindhis
 aivastus magac:		hindhiso
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
@@ -131,6 +132,7 @@ appi magac:			soddog
 arabialainen magac:		Carab
 arabian kieli magac:		af Carabiga
 arpajaiset magac:		baqtiyaanasiib
+arpi magac:			calaamadda nabar bogsaday  
 artikkeli magac:		qodob {naxwe}
 asianajaja magac:		garyaqaan
 askel magac:			tallaabo
@@ -187,6 +189,8 @@ eilen falkaab:			shalay
 ei-muslimi magac:		gaal
 ekg magac:			aaladda shaqada wadnaha
 elefantti magac:		maroodi
+elimistö magac:		xubno
+elin magac:			xubin
 elokuu magac:			Agoosto
 elokuva magac:		filin 
 eläke magac:			mushaar hawlgab
@@ -205,11 +209,12 @@ esipuhe magac:		hordhac
 etelä magac:			koonfur
 Etelä-Afrikka magac:		Koonfur Afrika
 etuhammas magac:		fool
-etusormi magac:		murugsato
+etusormi magac:		murufsato
 eversti magac:			gaashaanle sare
 everstiluutnantti magac:		gaashaanle dhexe
 F 
 farkut magac:			jiinis (surwaal)
+finni magac:			fin
 fraasi magac:			weer
 flunssa magac:		hargab
 G
@@ -222,6 +227,7 @@ haarukka magac:		fargeeto
 haastattelu magac:		wareysi
 haava magac:			boog
 hai magac:			libaax-badeed
+haima magac:			ganac
 hajuvesi magac:		barafuun
 halaus magac:			hab
 halvaus magac:		dabayl (cudur)
@@ -231,6 +237,7 @@ hammassärky magac:		ilig-xanuun
 harjoittelija magac:		barad
 harmaantua fal:		cirroob
 hartia magac:			garab
+hauislihas magac:		muruqa cududda
 haureus magac:		sinaysi
 hauska tavata weer:		kulan wanaagsan
 hauska tutustua weer:		barasho wanaagsan
@@ -249,7 +256,9 @@ hematuria magac:		kaadidhiig
 hengitys magac:		neef
 henkilö magac:		qof
 henkilökortti magac:		warqadda aqoonsiga
+henkitorvi magac:		hawamareen, hunguricad
 henna magac:			cillaan
+hermo magac:			dareeme
 hevonen magac:		faras
 hiiri magac:			jiir, doolli
 hiki magac:			dhidid
@@ -271,6 +280,7 @@ hiustenpesuaine magac:		shaambo
 homo, homoseksuaali		khaniis
 hopea magac:			qalin
 horkka magac:		duumo
+hormoni magac:		dheecaanka qanjirada qaarkood
 housut magac:		surwaal
 hovioikeus magac:		maxkamadda rafcaanka
 huhmare magac:		mooye
@@ -311,6 +321,7 @@ hyökkääjä magac:		weeraryahan (kubbadda cagta)
 hyönteinen magac:		cayayaan
 hyönteistiede magac:		cayayaanaqoon
 hän magacuyaal:		isaga, iyada
+häntä magac:			sayn
 häpykarvat magac:		shuun
 häpykieli magac:		kintir
 härkä magac:			dibi
@@ -373,6 +384,8 @@ jälki magac:			raad
 jänis  magac:			bakayle 
 jänne magac:			seed
 järvi magac:			haro
+jäsen magac:			xubin
+jäsenyys magac:		xubinnimo
 jäykkäkouristus magac:		teetane
 jäykkä niska magac:		barkindhac
 jää magac:			baraf
@@ -551,6 +564,7 @@ kulho magac:			baaquli
 kulku magac:			mareen
 kulta magac:			dahab
 kultaseppä magac:		dahable
+kulttuuri magac:		hidde
 kumarrella fal:			foorarso
 kumarrus magac:		foorarsi
 kuningas magac:		boqor
@@ -796,6 +810,7 @@ nähdään myöhemmin yaab:		waa inoo hadhow
 näkemiin yaab:		is arag dambe
 nämä magacuyaal:		kuwan
 nänni magac:			ib
+näppylä magac:		fin
 närästys magac:		laabjeex 
 näytelmä magac:		riwaayad
 näyttelijä magac:		jilaa
@@ -873,7 +888,7 @@ pelata korttia fal:		turub
 pelkuri magac:		fulay		
 penis magac:			gus
 perhe magac:			reer
-perinne magac:		caado
+perinne magac:		caado, hidde
 perjantai magac:		Jimco
 perkele magac:		sheyddaan
 persilja magac:		kamsaro caleen
@@ -1144,13 +1159,14 @@ talvi magac:			Jiilaal
 tamma magac:		geenyo
 tammikuu magac:		Jannaayo
 Tanska magac:		Denmaark
-tapa magac:			caado
+tapa magac:			caado, hidde
 tapaamisiin yaab:		waa inoo kulan dambe
 tarina magac:			sheeko
 taru magac:			sheeko
 tasa-arvo magac:		sinnaan
 taulu magac:			sabuurad
 tauti magac:			xanuun
+tavu magac:			xubin {naxwe}
 te magacuyaal:		idinka
 tee magac:			shah
 teema magac:			mawduuc
@@ -1553,6 +1569,7 @@ cagaarshow magac: 		keltatauti
 cagaaryahan magac: 		kasvissyöjä
 cajalad magac: 		C-kasetti
 cajaladaha saxanka wareegsan	cd-levy
+calaamadda nabar bogsaday:		arpi
 calool magac:			vatsa
 caloolxanuun magac: 		vatsakipu
 cambaruud magac:		päärynä
@@ -1619,6 +1636,7 @@ dalxiise magac: 		turisti, matkailija
 dameer magac: 		aasi
 dameer farow magac: 		seepra
 daqiiqad magac: 		minuutti
+dareeme masculine noun: 		aisti, hermo
 dariishad magac: 		ikkuna
 dareere magac:		neste
 daruur magac: 		pilvi
@@ -1638,6 +1656,7 @@ dhafoor magac:		ohimo
 dhagax magac: 		kivi
 dhakhtar magac: 		lääkäri
 dhamme magac: 		kapteeni
+dheecaanka qanjirada qaarkood:	hormoni
 dheg magac: 			korva
 dhegayare magac: 		neilikka
 dhego magac: 			korvakoru, korvarengas
@@ -1722,6 +1741,7 @@ fiise dalkumar magac: 		kauttakulkuviisumi
 fiish magac: 			sidekalvontulehdus
 filfil magac: 			mustapippuri
 filin magac: 			elokuva
+fin magac: 			näppylä, finni
 Finnish tilmaame:		suomalainen
 firinbi magac: 			pilli
 firinjeer magac:		jääkaappi
@@ -1750,6 +1770,7 @@ galbeed magac: 		länsi
 gallay magac: 			maissi
 gallayr magac: 		kotka
 galmo magac: 			yhdyntä, seksi, rakastelu
+ganac magac: 			haima
 gar magac: 			parta, leuka
 garab magac:			hartia, olkapää
 garyaqaan magac: 		lakimies, asianajaja
@@ -1801,9 +1822,11 @@ haramcad magac: 		gepardi
 hargab magac: 		nuha, flunssa
 haro magac: 			järvi
 hase ahaatee xiriiriye:		mutta, vaan
+hawamareen magac: 		henkitorvi
 hayl magac: 			kardemumma
 hees magac: 			laulu
 heesaa magac: 		laulaja
+hidde magac: 			kulttuuri, perinne, tapa
 hidde-side magac:		geeni
 hilib magac:			liha
 hilibka bowdada doofaarka  		kinkku
@@ -1818,6 +1841,7 @@ hoombaro magac:		delfiini
 hooyo magac: 		äiti
 hooyonnimo magac: 		äitiys
 hordhac magac: 		esipuhe
+hunguricad magac: 		henkitorvi
 I
 ib magac: 			nänni
 idinka magacuyaal:		te
@@ -2048,11 +2072,12 @@ mukulaal magac:		kissa
 Muqdisho magac: 		Mogadishu [pääkaupunki Somaliassa.]
 muraayad magac: 		peili, lasi, silmälasit
 murgucasho magac: 		nyrjähdys
+murufsato magac: 		etusormi
 murug fal: 			surra
 murugaysan tilmaame:		surullinen
 murugo magac: 		suru 
-murugsato magac: 		etusormi
 muruq magac: 		lihas
+muruqa cududda magac:		hauislihas		
 musbaar magac: 		naula
 mushaar magac: 		palkka
 mushaar duuban magac: 		bruttopalkka
@@ -2185,6 +2210,7 @@ saxan magac: 			lautanen, lautasantenni
 saxiix magac: 			allekirjoitus
 saxiix fal: 			allekirjoittaa
 saxiixan tilmaame: 		allekirjoitettu
+sayn magac: 			häntä
 Sebtembar magac: 		syyskuu
 seed magac: 			jänne
 seedda ciribta magac:		kantajänne, akillesjänne
@@ -2386,6 +2412,9 @@ xisaab magac: 			matematiikka
 xisaabaad magac: 		kirjanpito
 xisaabhaye magac: 		kirjanpitäjä
 xisaabiye magac: 		kirjanpitäjä, tilintarkastaja
+xubin magac: 			elin, jäsen; tavu {kielioppi}
+xubinnimo magac: 		jäsenyys
+xubno magac:			elimistö
 xuddun magac: 		napa, keskipiste {geometria}
 xusul magac:			kyynärpää
 Y
