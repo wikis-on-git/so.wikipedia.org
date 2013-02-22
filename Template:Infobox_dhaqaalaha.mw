@@ -1,0 +1,93 @@
+<includeonly>{{Infobox
+|above = Economy of <span class="country-name">{{{country}}}</span>
+|aboveclass = adr
+|image = {{#if:{{{image|}}}   |[[File:{{{image}}}|{{px|{{{width|}}}|frameless}}]]}}
+|caption = {{#if:{{{caption|}}} |''{{{caption}}}''}}
+
+|bodystyle = width:26em; padding: 0px;
+|abovestyle = background: lightblue;
+|headerstyle = background: lightblue;
+
+|label1 = Heerka
+|data1 = {{{rank|}}} 
+|label2 = Lacagta
+|data2 = {{{currency|}}} 
+|label3 = [[Sarif]]
+|data3 = {{{fixed exchange|}}}
+|label4 = Sanadeed
+|data4 = {{{year|}}}
+|label5 = Xiriir ganacsi {{#ifeq:{{{spelling}}}|<!--equals:-->Oxford|<!--then:-->ururrada |<!--else:-->{{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->ururrada |<!--else:-->ururrada}}}}
+|data5 ={{{organs|}}}
+
+|header6 = Tirakoob
+|label7 = [[Wax soosaarka gudaha|GDP]]
+|data7 = {{{gdp|}}} 
+|label10 = GDP Kobaca
+|data10 = {{{growth|}}}
+|label11 = GDP Qofkiiba
+|data11 = {{{per capita|}}}
+|label14 = GDP Hadba qaybta
+|data14 = {{{sectors|}}}
+|label15 = GDP Hadba nuuca
+|data15 = {{{components|}}}
+|label16 = [[Kobac]] (Sicirka)
+|data16 = {{{inflation|}}}
+|label17 = Tirada dadka<br/> ee hoose [[Faqri|Faqriga]]
+|data17 = {{{poverty|}}}
+|label18 = [[Gini]]
+|data18 = {{{gini|}}}
+|label19 ='''{{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Shaqada}} xoogga'''
+|data19 = {{{labor|}}}
+|label20 = {{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Shaqada}} xoogga<br/>hadba xirfadda
+|data20 = {{{occupations|}}}
+|label21 = Howl laawe
+|data21 = {{{unemployment|}}}
+|label22 = Mushaarka isku celcelis  guud
+|data22 = {{{average gross salary|}}}
+|label23 = Mushaarka isku celcelis buuxa
+|data23 = {{{average net salary|}}}
+|label24 = Warshadaha muhiimka ah
+|data24 = {{{industries|}}}
+|label25 = Heerka shaqa abuurka
+|data25 = {{{edbr|}}}
+
+|header30 = Dibadda
+|label31 = Dhoofin
+|data31 = {{{exports|}}}
+|label32 = Dhoofinta badeecad
+|data32 ={{{export-goods|}}}
+|label33 = Shirkada wax dhoofiya ee waa wayn
+|data33 ={{{export-partners|}}}
+|label34 = Soo dhoofin
+|data34 ={{{imports|}}}
+|label35 = Badeecadaha la soo dhoofiyo
+|data35 ={{{import-goods|}}}
+|label36 = Shirkada ugu waa-way ee badeehada soo dhoofiya
+|data36 ={{{import-partners|}}}
+|label37 = [[Maal gashi|Maalgashi]] lacageed
+|data37 = {{{FDI|}}}
+|label38 = Deynka qaranka
+|data38 ={{{gross external debt|}}}
+
+|header40 = Dhaqaalaha Guud
+|label41 = [[Liiska Dalalka heerka deenta|Heerka deynka]]
+|data41 = {{{debt|}}}
+|label42 = [[Liiska dalaka madaxa banaan miisaaniyad|Miisaaniyad]]
+|data42 = {{{deficit|}}}
+|label43 = Dakhli
+|data43 = {{{revenue|}}}
+|label44 = Kharaj
+|data44 = {{{expenses|}}}
+|label45 = Kaabayaasha
+|data45 = {{{aid|}}}
+|label46 = [[Liiska dalalka amaahda|Heerka amaahda]]
+|data46 = {{{credit|}}}
+|label47 = Baydka lacagta ajnabiga
+|data47 = {{{reserves|}}}
+
+|belowstyle = background:lightblue;
+|below= {{#if:{{{cianame|}}}|<!--then:-->[https://www.cia.gov/library/publications/the-world-factbook/geos/{{{cianame}}}.html '''Halka laga soo xigtay: Sitka Laanta sindoonka mareykanka ee arrimaha dibadda''']<br/>|}} ''Dhamaan hababka, hadii aan wax badel ah ka imaan, ee [[United States dollar|Doolar]]''
+}}</includeonly><noinclude>
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
