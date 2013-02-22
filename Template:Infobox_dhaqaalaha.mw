@@ -1,5 +1,5 @@
 <includeonly>{{Infobox
-|above = Economy of <span class="country-name">{{{country}}}</span>
+|above = Dhqaalaha <span class="country-name">{{{country}}}</span>
 |aboveclass = adr
 |image = {{#if:{{{image|}}}   |[[File:{{{image}}}|{{px|{{{width|}}}|frameless}}]]}}
 |caption = {{#if:{{{caption|}}} |''{{{caption}}}''}}
@@ -36,9 +36,9 @@
 |data17 = {{{poverty|}}}
 |label18 = [[Gini]]
 |data18 = {{{gini|}}}
-|label19 ='''{{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Shaqada}} xoogga'''
+|label19 ='''{{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Muruq}} maal'''
 |data19 = {{{labor|}}}
-|label20 = {{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Shaqada}} xoogga<br/>hadba xirfadda
+|label20 = {{#ifeq:{{{spelling}}}|<!--equals:-->US|<!--then:-->Labor|<!--else:-->Muruq}} maal<br/>Xirfadle
 |data20 = {{{occupations|}}}
 |label21 = Howl laawe
 |data21 = {{{unemployment|}}}
@@ -51,18 +51,18 @@
 |label25 = Heerka shaqa abuurka
 |data25 = {{{edbr|}}}
 
-|header30 = Dibadda
+|header30 = Dibadda uga baxa/ Soona Gala
 |label31 = Dhoofin
 |data31 = {{{exports|}}}
 |label32 = Dhoofinta badeecad
 |data32 ={{{export-goods|}}}
-|label33 = Shirkada wax dhoofiya ee waa wayn
+|label33 = Shirkadaha wax dhoofiya ee waa wayn
 |data33 ={{{export-partners|}}}
 |label34 = Soo dhoofin
 |data34 ={{{imports|}}}
 |label35 = Badeecadaha la soo dhoofiyo
 |data35 ={{{import-goods|}}}
-|label36 = Shirkada ugu waa-way ee badeehada soo dhoofiya
+|label36 = Shirkada ugu waa-way ee badeecadaha soo dhoofiya
 |data36 ={{{import-partners|}}}
 |label37 = [[Maal gashi|Maalgashi]] lacageed
 |data37 = {{{FDI|}}}
