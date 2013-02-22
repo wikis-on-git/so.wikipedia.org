@@ -86,7 +86,7 @@
 |data47 = {{{reserves|}}}
 
 |belowstyle = background:lightblue;
-|below= {{#if:{{{cianame|}}}|<!--then:-->[https://www.cia.gov/library/publications/the-world-factbook/geos/{{{cianame}}}.html '''Halka laga soo xigtay: Sitka Laanta sindoonka mareykanka ee arrimaha dibadda''']<br/>|}} ''Dhamaan hababka, hadii aan wax badel ah ka imaan, ee [[United States dollar|Doolar]]''
+|below= {{#if:{{{cianame|}}}|<!--then:-->[https://www.cia.gov/library/publications/the-world-factbook/geos/{{{cianame}}}.html '''Halka laga soo xigtay Sitka: Laanta sirdoonka mareykanka ee arrimaha dibadda''']<br/>|}} ''Dhamaan hababka, hadii aan wax badel ah ka imaan, ee [[Doolar amareykan|Doolar]]''
 }}</includeonly><noinclude>
 {{documentation}}
 <!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
