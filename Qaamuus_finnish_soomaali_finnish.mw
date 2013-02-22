@@ -101,6 +101,7 @@ aivastaa fal:			hindhis
 aivastus magac:		hindhiso
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
 aivot magac:			maskax
+ajanvaraus magac:		ballan
 akillesjänne magac:		boqon, seedda ciribta
 ala-aste magac:		dugsiga hoose
 alaleuka magac:		daan
@@ -228,6 +229,8 @@ haastattelu magac:		wareysi
 haava magac:			boog
 hai magac:			libaax-badeed
 haima magac:			ganac
+haista fal:			ur
+haju magac:			ur
 hajuvesi magac:		barafuun
 halaus magac:			hab
 halvaus magac:		dabayl (cudur)
@@ -646,6 +649,8 @@ lepakko magac:		fiidmeer (kibilli)
 lesbo magac:			khaniisad
 lespata :			carrabla’aan
 leuka magac:			gar
+leveys magac:			ballaar, ballac
+leveä tilmaame:		ballaaran
 liha magac:			hilib
 lihas magac:			muruq
 liikkeenharjoittaja magac:		dukaanle
@@ -663,10 +668,12 @@ lukio magac:			dugsiga sare
 lukko magac:			quful				
 luode magac:			waqooyi galbeed
 luokka magac:			fasal
-luonne magac:		caado, dabci				
+luonne magac:		caado, dabci	
+lupaus magac:			ballan	
 lusikka magac:			macalgad, qaaddo
 luultavasti falkaab:		malaha		
 luuta magac:			xaaqin
+luvata fal:			ballan
 lyijykynä magac: 		qalin rasaas 
 lähteminen magac:		bax
 lähteä fal:			bax
@@ -1086,6 +1093,7 @@ sireeni magac:			wiish
 sisko magac:			abbaayo
 sisällys magac:		tusmo
 sisar magac:			abbaayo
+sitoutuminen magac:		ballangal
 sitruuna magac:		liin dhanaan
 siunata fal:			barakee
 siunattu tilmaame:		barakaysan
@@ -1103,6 +1111,8 @@ somalialainen:			Soomaali
 somalialainen kirjoitus:		Far Soomaali
 somalin kieli:			af soomaaliga
 sonni magac:			dibi
+sopia fal:			ballan
+sopimus magac:		ballan
 sormi magac:			far
 sosialismi magac:		hantiwadaag
 sosialisti magac:		hantiwadaag	
@@ -1169,6 +1179,7 @@ tamma magac:		geenyo
 tammikuu magac:		Jannaayo
 Tanska magac:		Denmaark
 tapa magac:			caado, hidde
+tapaaminen magac:		ballan
 tapaamisiin yaab:		waa inoo kulan dambe
 tarina magac:			sheeko
 tarkastus magac:		indho-indhays
@@ -1486,6 +1497,12 @@ bakhaarhaye magac: 		varastonhoitaja
 bakhayl magac: 		saituri
 bakhayl tilmaame: 		saita
 bakhaylnimo magac: 		saituus
+ballac magac: 			leveys
+ballaar magac: 		leveys
+ballaaran tilmaame: 		leveä
+ballan fal: 			sopia, luvata
+ballan magac:			lupaus, ajanvaraus, tapaaminen, sopimus
+ballangal magac faleed: 		sitoutuminen
 bambeelmo magac:		greippi
 baqal magac: 			muuli
 baqshad magac: 		kirjekuori
@@ -2346,6 +2363,8 @@ tuug magac: 			varas
 U
 ubax magac: 			kukka
 ukun magac: 			kananmuna
+ur fal: 			haista
+ur magac: 			haju
 uur magac: 			raskaus
 W
 waad ku mahadsan tahay yaab:	kiitoksia
