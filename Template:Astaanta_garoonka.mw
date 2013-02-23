@@ -1,7 +1,7 @@
 {{#if:{{{1|}}} {{{2|}}} {{{3|}}} {{{4|}}} {{{5|}}}|{{#ifeq:{{{p}}}|n||(}}{{#if: {{{1|}}}
-  | [[International Air Transport Association airport code|IATA]]: '''{{{1}}}'''{{#if: {{{2|}}} {{{3|}}} {{{4|}}} {{{5|}}} |,&nbsp;}}
+  | [[IATA|IATA]]: '''{{{1}}}'''{{#if: {{{2|}}} {{{3|}}} {{{4|}}} {{{5|}}} |,&nbsp;}}
 }}{{#if: {{{2|}}}
-  | [[International Civil Aviation Organization airport code|ICAO]]: '''{{{2}}}'''{{#if: {{{3|}}} {{{4|}}} {{{5|}}} |,&nbsp;}}
+  | [[ICAO|ICAO]]: '''{{{2}}}'''{{#if: {{{3|}}} {{{4|}}} {{{5|}}} |,&nbsp;}}
 }}{{#if: {{{3|}}}
   | [[Federal Aviation Administration|FAA]] [[Location identifier|LID]]: '''{{{3}}}'''{{#if: {{{4|}}} {{{5|}}} |,&nbsp;}}
 }}{{#if: {{{4|}}}
