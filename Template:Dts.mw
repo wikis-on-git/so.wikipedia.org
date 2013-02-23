@@ -1,0 +1,36 @@
+<includeonly>{{dts/{{#iferror:{{#expr:{{{1|}}}}}
+  |{{#if:{{#iferror:{{#time:|{{{1}}}}}|X|{{{2|}}}{{{3|}}}}}
+     |invalid input
+     |out{{{format|}}}
+   }}
+  |{{#ifexpr:0*{{{1|}}}0=0
+     |{{#iferror:{{#expr:{{{2|}}}}}
+        |{{#iferror:{{#time:|{{{2}}}}}
+           |invalid input
+           |{{#ifeq:{{#expr:({{{3}}}<1) or ({{{3}}}>31)}}|1
+              |invalid input
+              |out{{{format|}}}2
+            }}
+         }}
+        |{{#ifeq:{{#expr:({{{2}}}<1) or ({{{2}}}>12)}}|1
+           |invalid input
+           |{{#ifeq:{{#expr:({{{3}}}<1) or ({{{3}}}>31)}}|1
+              |invalid input
+              |out{{{format|}}}1
+            }}
+         }}
+      }}
+     |{{#iferror:{{#time:|{{{1}}}}}
+        |invalid input
+        |out{{{format|}}}0
+      }}
+   }}
+}}
+|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{uc:{{{4|}}}}}
+|M={{#ifeq:{{{abbr}}}|on|M|F}}
+|debug={{{debug|}}}
+|nowrap={{{nowrap|}}}
+|format={{{format|}}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
