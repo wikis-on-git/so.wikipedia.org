@@ -1,0 +1,13 @@
+{{number table sorting/{{#iferror:{{#expr:+{{formatnum:{{{1|}}}|R}}}}
+      |error
+      |Q{{{quiet|no/F{{{format|yes}}}/S{{{scinote|no}}}}}}/{{#expr:{{formatnum:{{{1}}}|R}}<0}}
+    }}
+   |{{formatnum:{{{1|}}}|R}}|style={{#ifeq:{{{debug}}}|yes
+      |border:1px solid
+      |display:none
+    }}
+   |{{#expr:floor((ln(abs({{formatnum:{{{1}}}|R}}))/ln10)+1E-14)}}|prefix={{{prefix|}}}
+}}<noinclude>
+{{documentation}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
+</noinclude>
