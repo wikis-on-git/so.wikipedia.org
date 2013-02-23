@@ -82,17 +82,22 @@ A
 aakkonen magac:		xaraf
 aakkoset magac:		alifba’
 aakkosto magac:		alifba’
-aalto magac:			mawjad
+aalto magac:			mawjad, hir
 aamiainen magac:		quraac
 aamu magac:			subax
 aamulla falkaab:		subaxnimo
 aamunkoite magac:		qorraxsoobax
 aamupahoinvointi magac:		wallac
 aamutähti magac:		Xiddigta Waabberi
+aarnialue magac:		hawd dihin
+aarre magac:			kansi
 aasi magac:			dameer
+Aasia magac:			Aasiya
 aavikko magac:		lama degaan
 adjektiivi magac:		tilmaame {naxwe}
 adverbi magac:		falkaab {naxwe}
+Afrikka magac:		Afrika
+afrikkalainen tilmaame:		Afrikaan
 aihe magac:			mawduuc
 aika magac:			waqti
 aikakauslehti magac:		wargeys
@@ -211,6 +216,7 @@ etelä magac:			koonfur
 Etelä-Afrikka magac:		Koonfur Afrika
 etuhammas magac:		fool
 etusormi magac:		murufsato
+Eurooppa magac:		Yurub
 eversti magac:			gaashaanle sare
 everstiluutnantti magac:		gaashaanle dhexe
 F 
@@ -237,6 +243,7 @@ halvaus magac:		dabayl (cudur)
 hammas magac:		ilig
 hammasharja magac:		buraashka ilkaha
 hammassärky magac:		ilig-xanuun
+happo magac:			aashito
 harjoittelija magac:		barad
 harmaantua fal:		cirroob
 hartia magac:			garab
@@ -296,6 +303,7 @@ huomenna magac:		berri
 huonokäytöksinen tilmaame:		saqajaan
 huopa magac:			buste
 huora magac:			sharmuuto
+hus yaab:			yur
 huulet magac:			dibno
 huuli magac:			bushin
 huutokaupata fal:		xaraash
@@ -324,6 +332,7 @@ hyökätä fal:			weerar
 hyökkääjä magac:		weeraryahan (kubbadda cagta)
 hyönteinen magac:		cayayaan
 hyönteistiede magac:		cayayaanaqoon
+häivy yaab:			yur
 hän magacuyaal:		isaga, iyada
 häntä magac:			sayn
 häpykarvat magac:		shuun
@@ -462,6 +471,7 @@ kenties falkaab:		malaha
 kerro terveisiä fal:		iigu salaan
 kersantti magac:		saddex alifle
 keskipiste magac:		xuddun {joomiteri}
+keskipitkät aallot magac:		hirarka dhexe
 keskipäivä magac:		duhur
 keskiviikko magac:		Arbaco
 keskiyö magac:		saq-dhexe
@@ -616,7 +626,9 @@ kääntää fal:			turjun (qoraal ahaan)
 käärme magac:		mas
 L
 laastari magac:		sharooto		
-laatia fal:			diyaari			
+laatia fal:			diyaari
+laine magac:			hir
+laineet magac:		hirar			
 laite magac:			aalad
 laiva magac:			markab
 lakana magac:			go’		
@@ -674,6 +686,7 @@ lusikka magac:			macalgad, qaaddo
 luultavasti falkaab:		malaha		
 luuta magac:			xaaqin
 luvata fal:			ballan
+lyhyet aallot magac:		hirarka gaagaaban
 lyijykynä magac: 		qalin rasaas 
 lähteminen magac:		bax
 lähteä fal:			bax
@@ -722,6 +735,7 @@ mauste magac:		xawaaji
 me magacuyaal:		annaga
 mehu magac:			cabitaan
 meneminen magac:		bax
+mene pois yaab:		yur
 mennä fal:			bax, aad
 merenneito magac:		gabarey-maanyo
 meri magac:			bad
@@ -759,6 +773,7 @@ mungo magac:		soongur
 munuainen magac:		kelli
 muotokuva magac:		sawir qofeed
 Muslimi magac:		Muslin
+musta tilmaame:		madow, Afrikaan
 mustaihoinen magac:		madow
 mustapippuri magac:		filfil
 musta väri magac:		madow
@@ -905,6 +920,9 @@ perjantai magac:		Jimco
 perkele magac:		sheyddaan
 persilja magac:		kamsaro caleen
 peruna magac:		baradho
+perusta magac:		aasaasi
+perustaa fal:			aasaas
+perusteet magac:		aasaasi
 peräpukamat magac:		baabasiir
 peräsuoli magac:		malawad
 peukalo magac:		suul
@@ -916,6 +934,7 @@ pikkusormi magac:		faryaro
 pilli magac:			firinbi
 pilvi magac:			daruur
 pistooli magac:		bastoolad
+pitkät aallot magac:		hirarka dhaadheer
 pohje magac:			kub
 pohjoinen magac:		waqooyi
 poika magac:			ina, wiil
@@ -953,6 +972,8 @@ puolipäivä magac:		duhur
 puoliso magac:		nin, naag, xaas
 purukumi magac:		xanjo
 pusero magac:		funaanad
+puskea fal:			hirdi
+pusku magac:			hirdan
 puu magac:			geed
 puuduttaa fal:			kabaabyee
 puuduttaminen magac:		kabaabyeyn
@@ -980,6 +1001,7 @@ päästäinen magac:		walo
 pöllö magac:			guumeys
 pöytä magac:			miis 
 R
+radioaalto magac:		hir, mawjad
 raha magac:			lacag
 rahalähetys magac:		xawaalad
 raitiovaunu magac:		taraam
@@ -1118,7 +1140,9 @@ sosialismi magac:		hantiwadaag
 sosialisti magac:		hantiwadaag	
 sota magac:			dagaal
 sotilas magac:			askari
-soturi magac:			dagaalyahan	
+soturi magac:			dagaalyahan
+soveltaa fal:			hirgeli	
+soveltava tilmaame:		hirgashan
 spagetti magac:		baasto
 sperma magac:		biyo
 strategia magac:		dagaal-aqoon	
@@ -1227,6 +1251,7 @@ Toinen Mooseksen kirja magac:	baxniin
 tomaatti magac:		yaanyo
 torakka magac:		baranbaro
 torstai magac:			Khamiis
+toteuttaa fal:			hirgeli
 totta kai falkaab:		dabcan
 tottumus magac:		caado
 toukokuu magac:		Maajo
@@ -1266,6 +1291,7 @@ tämä magacuyaal:		kan
 tänään falkaab:		maanta
 täti magac:			eeddo, habaryar
 täällä falkaab:			halkan
+törmätä yhteen fal:		hirdi
 U
 uinti magac:			dabaal
 ukko magac:			oday
@@ -1366,6 +1392,7 @@ X-koukku magac:		sawir-sure
 Y
 yhdyntä magac:		galmo
 Yhdysvallat magac:		Mareykan
+yhteentörmäys magac:		hirdan
 yksi tiro:			kow
 ylihuomenna falkaab:		berri dambe
 ylikonstaapeli magac:		saddex alifle
@@ -1428,6 +1455,10 @@ aalaa falkaab: 			usein
 aalad magac: 			väline, laite
 aaladda shaqada maskaxda magac: 	aivosähkökäyrä, eeg
 aaladda shaqada wadnaha magac: 	sydänsähkökäyrä, sydänfilmi, ekg
+aasaas fal: 			perustaa
+aasaasi magac: 		perusta; perusteet
+aashito magac: 		happo
+Aasiya magac: 		Aasia
 abbaayo magac: 		sisko, sisar
 abboowe magac: 		veli
 Abriil magac: 			huhtikuu
@@ -1449,6 +1480,8 @@ afduub fal: 			siepata, kaapata
 afduub magac faleed: 		sieppaus; kaappaus
 af Finnishka magac:		suomen kieli
 afhayeen magac:		edustaja, puhemies, tiedottaja
+Afrika magac: 			Afrikka
+Afrikaan tilmaame: 		afrikkalainen ; musta 
 af Iswidhishka magac:		ruotsin kieli
 af Soomaaliga magac:		somalin kieli
 Agoosto magac: 		elokuu
@@ -1858,6 +1891,7 @@ hargab magac: 		nuha, flunssa
 haro magac: 			järvi
 hase ahaatee xiriiriye:		mutta, vaan
 hawamareen magac: 		henkitorvi
+hawd dihin magac:		aarnialue
 hayl magac: 			kardemumma
 hees magac: 			laulu
 heesaa magac: 		laulaja
@@ -1872,6 +1906,15 @@ hindhis fal: 			aivastaa
 hindhiso magac: 		aivastus 
 hingo magac: 			nikotus, hikka
 hingood fal: 			nikotella, hikotella
+hir magac: 			aalto, laine ; radioaalto
+hirar magac: 			laineet
+hirarka dhaadheer magac: 		pitkät aallot
+hirarka dhexe magac: 		keskipitkät aallot
+hirarka gaagaaban magac: 		lyhyet aallot
+hirdan magac: 		yhteentörmäys, pusku
+hirdi fal: 			törmätä yhteen; puskea
+hirgashan tilmaame:	 	soveltava
+hirgeli fal: 			soveltaa, toteuttaa
 hoombaro magac:		delfiini
 hooyo magac: 		äiti
 hooyonnimo magac: 		äitiys
@@ -1964,6 +2007,7 @@ kalxan magac: 		solisluu
 kamsaro caleen magac:		persilja
 kaneeco magac: 		hyttynen
 kaniisad magac: 		kirkko
+kansi magac:			aarre
 kastuumo magac:		alushousut
 katiifad magac: 		matto
 keliya falkaab: 		vain
@@ -2463,5 +2507,7 @@ yaanbo magac: 		kuokka
 yaanyo magac: 		tomaatti
 yaxaas magac: 		krokotiili
 yeey magac: 			susi
+yur yaab: 			häivy!, hus!, mene pois!
+Yurub magac: 			Eurooppa
 
 Qaamuuskan qoriddiisu weli wey socotaa ee sidaas ula soco.
