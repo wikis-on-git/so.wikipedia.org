@@ -1,0 +1,326 @@
+<noinclude>{{Template sandbox notice}}<!-- Please do not remove this section: it only displays when viewed from template sandbox and leaving it in allows template code to be copied to and from sandbox.-->
+</noinclude>{| class="infobox vcard" style="width: {{{box-width|22em}}}; font-size: 88%; line-height: 1.5em; text-align: center;"
+! colspan=4  style="background-color: #69c; color: white; font-size: 125%" | <span class="fn org">{{{name}}}</span>{{#if:{{{nativename<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename}}}</span>}}{{#if:{{{nativename-a<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename-a}}}</span> }}{{#if:{{{nativename-r<includeonly>|</includeonly>}}}|<br /><span class="nickname">{{{nativename-r}}}</span>}}
+|-
+{{#if: {{{image<includeonly>|</includeonly>}}}|
+{{!}} colspan=4 {{!}} [[Image:{{{image}}}|{{#if:{{{image-width|}}}|{{{image-width}}}|220}}px|alt={{{image_alt|}}}|{{{caption|}}}]]
+{{!}}-
+{{#if: {{{caption<includeonly>|</includeonly>}}}|
+{{!}} colspan=4 {{!}} {{{caption}}}
+{{!}}-
+}}
+}}
+{{#if: {{{image2|}}}|
+{{!}} colspan=4 {{!}} [[Image:{{{image2}}}|{{#if:{{{image2-width|}}}|{{{image2-width}}}|220}}px|alt={{{image2_alt|}}}|{{{caption2|}}}]]
+{{!}}-
+{{#if: {{{caption2|}}}|
+{{!}} colspan=4 {{!}} {{{caption2}}}
+{{!}}-
+}}
+}}
+! colspan=4 style="white-space: nowrap" | [[International Air Transport Association airport code|IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[International Civil Aviation Organization airport code|ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Location identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Location identifier|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
+|-
+! colspan=4 style="background-color: #69c; color: white" | Summary
+|- style="text-align: left"
+{{#if: {{{type<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Nuuca Garoonka
+{{!}} colspan=2 class="category" {{!}} {{{type}}}
+}}
+|- class="note" style="text-align: left" 
+{{#if: {{{owner-oper|}}}|
+! colspan=2 {{!}} Milkiilaha/Agaasimaha
+{{!}} colspan=2 {{!}} {{{owner-oper}}}
+|
+{{!}}- class="note" style="text-align: left" 
+{{#if: {{{owner<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Milkiilaha
+{{!}} colspan=2 {{!}} {{{owner}}}
+}}
+{{!}}- class="note" style="text-align: left" 
+{{#if: {{{operator<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Agaasimaha
+{{!}} colspan=2 {{!}} {{{operator}}}
+}}
+}}
+|- style="text-align: left"
+{{#if: {{{city-served<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Adeegyada
+{{!}} colspan=2 {{!}} {{{city-served}}}
+}}
+|- style="text-align: left"
+{{#if: {{{location<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Ku yaal
+{{!}} colspan=2 {{!}} <span class="label">{{{location}}}</span>
+}}
+|- style="text-align: left"
+{{#if: {{{hub<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} [[Duulimaad|Duulimaadada]] kala ah
+{{!}} colspan=2 {{!}} {{{hub}}}
+}}
+|- style="text-align: left"
+{{#if: {{{focus_city<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Uduusha
+{{!}} colspan=2 {{!}} {{{focus_city}}}
+}}
+|- style="text-align: left"
+{{#if: {{{built|}}}|
+! colspan=2 {{!}} La dhisay
+{{!}} colspan=2 {{!}} {{{built}}}
+}}
+|- style="text-align: left"
+{{#if: {{{used|}}}|
+! colspan=2 {{!}} La adeegsaday
+{{!}} colspan=2 {{!}} {{{used}}}
+}}
+|- style="text-align: left"
+{{#if: {{{commander|}}}|
+! colspan=2 {{!}} Maamulaha
+{{!}} colspan=2 {{!}} {{{commander}}}
+}}
+|- style="text-align: left"
+{{#if: {{{occupants|}}}|
+! colspan=2 {{!}} Ka shaqeeya
+{{!}} colspan=2 {{!}} {{{occupants}}}
+}}
+|- style="text-align: left"
+{{#if: {{{elevation-f<includeonly>|</includeonly>}}} {{{elevation-m|}}}|
+! colspan=2 {{!}} Joogga&nbsp;[[Heerka badda]]
+{{!}} colspan=2 {{!}} {{#if:{{{metric-elev|}}}
+| {{formatnum: {{{elevation-m|}}} }}&nbsp;m / {{#if: {{{elevation-f<includeonly>|</includeonly>}}} | {{formatnum: {{{elevation-f|}}} }}&nbsp;ft | {{convert|{{{elevation-m|}}}|m|ft|0|disp=output only}} }}
+| {{formatnum: {{{elevation-f|}}} }}&nbsp;ft / {{#if: {{{elevation-m<includeonly>|</includeonly>}}} | {{formatnum: {{{elevation-m|}}} }}&nbsp;m | {{convert|{{{elevation-f|}}}|ft|m|0|disp=output only}} }} }}
+}}
+|- style="text-align: left"
+{{#if: {{{coordinates<includeonly>|</includeonly>}}}|
+! colspan=2 {{!}} [[Geographic coordinate system|Wada shaqayn]]
+{{!}} colspan=2 {{!}} {{{coordinates}}}
+| {{#if: {{both|{{{latd|}}}|{{{longd|}}}}} |
+! colspan=2 {{!}} [[Geographic coordinate system|Wada shaqayn]]
+{{!}} colspan=2 {{!}} {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|airport}}{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}|title={{#if:{{{coordinates_notitle|}}}||yes}}|wrap=yes}}
+}}}}
+|- style="text-align: left"
+{{#if: {{{website<includeonly>|</includeonly>|}}}|
+! colspan=2 {{!}} Website
+{{!}} colspan=2 {{!}} <span class="plainlinksneverexpand">{{{website}}}</span>
+}}
+|-
+{{#if:{{{pushpin_map|}}}{{{image_map|}}}|
+! colspan=4 style="background-color: #69c; color: white" {{!}} Map{{#if:{{both|{{{pushpin_map|}}}|{{{image_map|}}}}}|s}}
+}}
+|-
+{{#if:{{{image_map|}}}|
+{{!}} colspan=4 {{!}} [[File:{{{image_map}}}|{{#if:{{{image_mapsize|}}}|{{{image_mapsize}}}|220}}px|none|alt={{{image_map_alt|}}}|{{{image_map_caption|Halka ay kagataal {{{name}}}}}}]]{{#if:{{{image_map_caption|}}}|<small>{{{image_map_caption}}}</small>}}
+}}
+|-
+{{#if:{{{pushpin_map|}}}|
+{{!}} colspan=4 align="center" {{!}}
+{{Location map|{{{pushpin_map|}}}
+|label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{#if:{{{pushpin_label|}}}|{{{pushpin_label}}}|{{{name}}}}} }}
+|alt = {{{pushpin_map_alt|}}}
+|lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|}}} }}
+|long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|}}} }}
+|lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+|lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+|lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+|lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+|lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+|lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+|lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+|lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+|mark = {{#if: {{{pushpin_mark|}}} | {{{pushpin_mark}}} | Airplane silhouette.svg }}
+|marksize = {{#if: {{{pushpin_marksize|}}} | {{{pushpin_marksize}}} | 10 }}
+|float = center
+|caption =
+|border = none
+|position = {{{pushpin_label_position|}}}
+|width = {{#if:{{{pushpin_mapsize|}}}|{{{pushpin_mapsize|}}} | 220 }}
+|relief = {{{pushpin_relief|}}}
+|AlternativeMap = {{{pushpin_image|}}}
+}}{{#if:{{{pushpin_map_caption|}}}|<small>{{{pushpin_map_caption}}}</small>}}
+}}
+|-
+{{#if: {{{r1-number<includeonly>|</includeonly>}}} {{{r1-length-f|}}} {{{r1-length-m|}}} {{{r1-surface|}}}|
+! colspan=4 style="background-color: #69c; color: white" {{!}} [[Dhabaha]]
+{{!}}- style="background-color: #ddd"
+! rowspan=2 style="width: 20%" {{!}} [[Runway#Orientation and dimensions|Jihada]]
+! colspan=2 style="width: 40%" {{!}} Dhererka
+! rowspan=2 style="width: 40%" {{!}} Baaxadda
+{{!}}- style="background-color: #ddd"
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|m|ft}}
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|ft|m}}
+{{!}}-
+{{!}} {{{r1-number<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{r1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} }}
+{{!}} {{#if:{{{r1-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}| {{formatnum: {{{r1-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r1-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r1-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r1-surface<includeonly>|</includeonly>}}}
+}}
+|-
+{{#if: {{{r2-number<includeonly>|</includeonly>}}} {{{r2-length-f|}}} {{{r2-length-m|}}} {{{r2-surface|}}}|
+{{!}} {{{r2-number<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{r2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} }}
+{{!}} {{#if:{{{r2-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}| {{formatnum: {{{r2-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r2-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r2-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r2-surface<includeonly>|</includeonly>}}}
+}}
+|-
+{{#if: {{{r3-number|}}} {{{r3-length-f|}}} {{{r3-length-m|}}} {{{r3-surface|}}}|
+{{!}} {{{r3-number|}}}
+{{!}} {{formatnum: {{{r3-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r3-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r3-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r3-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r3-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r3-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r3-surface|}}}
+}}
+|-
+{{#if: {{{r4-number|}}} {{{r4-length-f|}}} {{{r4-length-m|}}} {{{r4-surface|}}}|
+{{!}} {{{r4-number|}}}
+{{!}} {{formatnum: {{{r4-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r4-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r4-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r4-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r4-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r4-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r4-surface|}}}
+}}
+|-
+{{#if: {{{r5-number|}}} {{{r5-length-f|}}} {{{r5-length-m|}}} {{{r5-surface|}}}|
+{{!}} {{{r5-number|}}}
+{{!}} {{formatnum: {{{r5-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r5-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r5-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r5-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r5-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r5-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r5-surface|}}}
+}}
+|-
+{{#if: {{{r6-number|}}} {{{r6-length-f|}}} {{{r6-length-m|}}} {{{r6-surface|}}}|
+{{!}} {{{r6-number|}}}
+{{!}} {{formatnum: {{{r6-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r6-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r6-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r6-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r6-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r6-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r6-surface|}}}
+}}
+|-
+{{#if: {{{r7-number|}}} {{{r7-length-f|}}} {{{r7-length-m|}}} {{{r7-surface|}}}|
+{{!}} {{{r7-number|}}}
+{{!}} {{formatnum: {{{r7-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r7-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r7-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r7-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r7-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r7-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r7-surface|}}}
+}}
+|-
+{{#if: {{{r8-number|}}} {{{r8-length-f|}}} {{{r8-length-m|}}} {{{r8-surface|}}}|
+{{!}} {{{r8-number|}}}
+{{!}} {{formatnum: {{{r8-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} }}
+{{!}} {{#if:{{{r8-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{r8-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{r8-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{r8-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{r8-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{r8-surface|}}}
+}}
+|- style="background-color: #69c; color: white"
+{{#if: {{{h1-number<includeonly>|</includeonly>}}} {{{h1-length-f|}}} {{{h1-length-m|}}} {{{h1-surface|}}}|
+! colspan=4 {{!}} [[Helipad]]s
+{{!}}- style="background-color: #ddd"
+! rowspan=2 style="width: 15%" {{!}} Tiro
+! colspan=2 style="width: 50%" {{!}} Dherer
+! rowspan=2 style="width: 35%" {{!}} Baaxad
+{{!}}- style="background-color: #ddd"
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|m|ft}}
+! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|ft|m}}
+{{!}}-
+{{!}} {{{h1-number<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{h1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} }}
+{{!}} {{#if:{{{h1-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}| {{formatnum: {{{h1-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h1-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h1-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h1-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h1-surface<includeonly>|</includeonly>}}}
+}}
+|-
+{{#if: {{{h2-number<includeonly>|</includeonly>}}} {{{h2-length-f|}}} {{{h2-length-m|}}} {{{h2-surface|}}}|
+{{!}} {{{h2-number<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{h2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} }}
+{{!}} {{#if:{{{h2-length-{{#if:{{{metric-rwy|}}}|f|m}}<includeonly>|</includeonly>}}}| {{formatnum: {{{h2-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h2-length-{{#if:{{{metric-rwy|}}}|m|f}}<includeonly>|</includeonly>}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h2-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h2-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h2-surface<includeonly>|</includeonly>}}}
+}}
+|-
+{{#if: {{{h3-number|}}} {{{h3-length-f|}}} {{{h3-length-m|}}} {{{h3-surface|}}}|
+{{!}} {{{h3-number|}}}
+{{!}} {{formatnum: {{{h3-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h3-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h3-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h3-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h3-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h3-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h3-surface|}}}
+}}
+|-
+{{#if: {{{h4-number|}}} {{{h4-length-f|}}} {{{h4-length-m|}}} {{{h4-surface|}}}|
+{{!}} {{{h4-number|}}}
+{{!}} {{formatnum: {{{h4-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h4-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h4-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h4-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h4-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h4-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h4-surface|}}}
+}}
+|-
+{{#if: {{{h5-number|}}} {{{h5-length-f|}}} {{{h5-length-m|}}} {{{h5-surface|}}}|
+{{!}} {{{h5-number|}}}
+{{!}} {{formatnum: {{{h5-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h5-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h5-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h5-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h5-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h5-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h5-surface|}}}
+}}
+|-
+{{#if: {{{h6-number|}}} {{{h6-length-f|}}} {{{h6-length-m|}}} {{{h6-surface|}}}|
+{{!}} {{{h6-number|}}}
+{{!}} {{formatnum: {{{h6-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h6-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h6-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h6-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h6-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h6-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h6-surface|}}}
+}}
+|-
+{{#if: {{{h7-number|}}} {{{h7-length-f|}}} {{{h7-length-m|}}} {{{h7-surface|}}}|
+{{!}} {{{h7-number|}}}
+{{!}} {{formatnum: {{{h7-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h7-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h7-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h7-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h7-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h7-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h7-surface|}}}
+}}
+|-
+{{#if: {{{h8-number|}}} {{{h8-length-f|}}} {{{h8-length-m|}}} {{{h8-surface|}}}|
+{{!}} {{{h8-number|}}}
+{{!}} {{formatnum: {{{h8-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h8-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h8-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h8-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h8-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h8-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h8-surface|}}}
+}}
+|-
+{{#if: {{{h9-number|}}} {{{h9-length-f|}}} {{{h9-length-m|}}} {{{h9-surface|}}}|
+{{!}} {{{h9-number|}}}
+{{!}} {{formatnum: {{{h7-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h9-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h9-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h9-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h9-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h9-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h9-surface|}}}
+}}
+|-
+{{#if: {{{h10-number|}}} {{{h10-length-f|}}} {{{h10-length-m|}}} {{{h10-surface|}}}|
+{{!}} {{{h10-number|}}}
+{{!}} {{formatnum: {{{h10-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h10-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h10-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h10-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h10-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h10-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h10-surface|}}}
+}}
+|-
+{{#if: {{{h11-number|}}} {{{h11-length-f|}}} {{{h11-length-m|}}} {{{h11-surface|}}}|
+{{!}} {{{h11-number|}}}
+{{!}} {{formatnum: {{{h11-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h11-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h11-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h11-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h11-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h11-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h11-surface|}}}
+}}
+|-
+{{#if: {{{h12-number|}}} {{{h12-length-f|}}} {{{h12-length-m|}}} {{{h12-surface|}}}|
+{{!}} {{{h12-number|}}}
+{{!}} {{formatnum: {{{h12-length-{{#if:{{{metric-rwy|}}}|m|f}}}}} }}
+{{!}} {{#if:{{{h12-length-{{#if:{{{metric-rwy|}}}|f|m}}|}}}| {{formatnum: {{{h12-length-{{#if:{{{metric-rwy|}}}|f|m}} }}} }} | {{#if:{{{h12-length-{{#if:{{{metric-rwy|}}}|m|f}}|}}} | {{#if:{{{metric-rwy|}}} | {{convert|{{{h12-length-m}}}|m|ft|0|disp=output number only}} | {{convert|{{{h12-length-f}}}|ft|m|0|disp=output number only}} }} }} }}
+{{!}} {{{h12-surface|}}}
+}}
+|- style="background-color: #69c; color: white"
+{{#if: {{{stat1-header<includeonly>|</includeonly>}}} {{{stat1-data|}}}|
+! colspan=4 {{!}} Statistics {{#if:{{{stat-year<includeonly>|</includeonly>}}}|({{{stat-year}}})}}
+}}
+|- style="text-align: left"
+{{#if: {{{stat1-header<includeonly>|</includeonly>}}} {{{stat1-data|}}}|
+! colspan=3 {{!}} {{{stat1-header<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{stat1-data<includeonly>|</includeonly>}}} }}
+}}
+|- style="text-align: left"
+{{#if: {{{stat2-header<includeonly>|</includeonly>}}} {{{stat2-data|}}}|
+! colspan=3 {{!}} {{{stat2-header<includeonly>|</includeonly>}}}
+{{!}} {{formatnum: {{{stat2-data<includeonly>|</includeonly>}}} }}
+}}
+|- style="text-align: left"
+{{#if: {{{stat3-header|}}} {{{stat3-data|}}}|
+! colspan=3 {{!}} {{{stat3-header|}}}
+{{!}} {{formatnum: {{{stat3-data|}}} }}
+}}
+|- style="text-align: left"
+{{#if: {{{stat4-header|}}} {{{stat4-data|}}}|
+! colspan=3 {{!}} {{{stat4-header|}}}
+{{!}} {{formatnum: {{{stat4-data|}}} }}
+}}
+|-
+{{#if: {{{footnotes<includeonly>|</includeonly>}}}|
+{{!}} colspan=4 style="text-align: left; background-color: #eee" {{!}} {{{footnotes}}}
+}}
+|}<noinclude>{{Documentation}}<!-- Please add categories and interwikis to the /doc subpage, not here. --></noinclude>
