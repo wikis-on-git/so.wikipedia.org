@@ -18,9 +18,9 @@
 {{!}}-
 }}
 }}
-! colspan=4 style="white-space: nowrap" | [[International Air Transport Association airport code|IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[International Civil Aviation Organization airport code|ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Location identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Location identifier|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
+! colspan=4 style="white-space: nowrap" | [[IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Location identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Location identifier|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
 |-
-! colspan=4 style="background-color: #69c; color: white" | Summary
+! colspan=4 style="background-color: #69c; color: white" | Si guud
 |- style="text-align: left"
 {{#if: {{{type<includeonly>|</includeonly>|}}}|
 ! colspan=2 {{!}} Nuuca Garoonka
@@ -91,10 +91,10 @@
 }}
 |- style="text-align: left"
 {{#if: {{{coordinates<includeonly>|</includeonly>}}}|
-! colspan=2 {{!}} [[Geographic coordinate system|Wada shaqayn]]
+! colspan=2 {{!}} Isuduwe
 {{!}} colspan=2 {{!}} {{{coordinates}}}
 | {{#if: {{both|{{{latd|}}}|{{{longd|}}}}} |
-! colspan=2 {{!}} [[Geographic coordinate system|Wada shaqayn]]
+! colspan=2 {{!}} Isuduwe
 {{!}} colspan=2 {{!}} {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|airport}}{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}|title={{#if:{{{coordinates_notitle|}}}||yes}}|wrap=yes}}
 }}}}
 |- style="text-align: left"
@@ -143,7 +143,7 @@
 {{!}}- style="background-color: #ddd"
 ! rowspan=2 style="width: 20%" {{!}} [[Runway#Orientation and dimensions|Jihada]]
 ! colspan=2 style="width: 40%" {{!}} Dhererka
-! rowspan=2 style="width: 40%" {{!}} Baaxadda
+! rowspan=2 style="width: 40%" {{!}} Nuuca dhabaha
 {{!}}- style="background-color: #ddd"
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|m|ft}}
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|ft|m}}
@@ -204,11 +204,11 @@
 }}
 |- style="background-color: #69c; color: white"
 {{#if: {{{h1-number<includeonly>|</includeonly>}}} {{{h1-length-f|}}} {{{h1-length-m|}}} {{{h1-surface|}}}|
-! colspan=4 {{!}} [[Helipad]]s
+! colspan=4 {{!}} Halka ay caga dhigato Ayrokobbter
 {{!}}- style="background-color: #ddd"
 ! rowspan=2 style="width: 15%" {{!}} Tiro
 ! colspan=2 style="width: 50%" {{!}} Dherer
-! rowspan=2 style="width: 35%" {{!}} Baaxad
+! rowspan=2 style="width: 35%" {{!}} Nuuca Dhabaha
 {{!}}- style="background-color: #ddd"
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|m|ft}}
 ! style="width: 20%" {{!}} {{#if:{{{metric-rwy|}}}|ft|m}}
