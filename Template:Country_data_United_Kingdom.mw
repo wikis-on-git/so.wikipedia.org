@@ -1,0 +1,32 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = United Kingdom
+| flag alias = Flag of the United Kingdom.svg
+| flag alias-civil = Civil Ensign of the United Kingdom.svg
+| flag alias-government = Government Ensign of the United Kingdom.svg
+| flag alias-naval = Naval Ensign of the United Kingdom.svg
+| flag alias-naval-RFA = British-Royal-Fleet-Auxiliary-Ensign.svg
+| flag alias-naval-RMAS = British Royal Maritime Auxiliary Ensign.svg
+| link alias-naval = {{#switch:{{{variant|}}}|naval-RFA|RFA=Royal Fleet Auxiliary|naval-RMAS|RMAS=Royal Maritime Auxiliary Service|#default=Royal Navy}}
+| flag alias-air force = Ensign of the Royal Air Force.svg
+| link alias-air force = Royal Air Force
+| flag alias-army = Flag of the British Army.svg
+| link alias-army = British Army
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| var2 = government
+| var3 = naval-RFA
+| var4 = naval-RMAS
+| redir1 = UK
+| redir2 = the United Kingdom
+| related1 = Great Britain
+| related2 = Kingdom of Great Britain
+| related3 = British Empire
+| related4 = United Kingdom of Great Britain and Ireland
+</noinclude>
+}}<noinclude>
+[[sl:Predloga:Podatki države Združeno kraljestvo]]
+</noinclude>
