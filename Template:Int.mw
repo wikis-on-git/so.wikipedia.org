@@ -1,0 +1,1 @@
+{{#iferror: {{#expr: {{{1}}} }} | 0 | 1 }}<noinclude>{{documentation}}</noinclude>
