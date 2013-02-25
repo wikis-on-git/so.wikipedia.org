@@ -36,7 +36,7 @@
 | none = 
 | #default = 
 <tr valign="top">
-<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_ver"> Other versions </th>
+<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_ver"> Nuuc kale </th>
 <td> {{{Other_versions| {{{other_versions| {{{other versions|}}} }}} }}} </td>
 </tr>
 }}
@@ -46,7 +46,7 @@
 | none = 
 | #default = 
 <tr valign="top">
-<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_add"> Additional information </th>
+<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_add"> Macluumaad dheeraad ah </th>
 <td> {{{Additional_information|{{{additional_information|{{{Additional information|{{{additional information|}}}}}}}}}}}} </td>
 </tr>
 }}
