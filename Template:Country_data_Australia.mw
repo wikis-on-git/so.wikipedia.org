@@ -1,0 +1,26 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Australia
+| flag alias = Flag of Australia.svg
+| flag alias-1903 = Flag of Australia 1903-1909.svg
+| flag alias-union = Flag of the United Kingdom.svg
+| flag alias-civil = Civil Ensign of Australia.svg
+| flag alias-naval = Naval Ensign of Australia.svg
+| flag alias-naval-1913 = Naval Ensign of the United Kingdom.svg
+| link alias-naval = Royal Australian Navy
+| flag alias-air force = Ensign of the Royal Australian Air Force.svg
+| link alias-air force = Royal Australian Air Force
+| link alias-basketball = Australia {{{mw|men's}}} national basketball team
+| link alias-football = Australia {{{mw|}}} national {{{age|}}} association football team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1903
+| var2 = civil
+| var3 = naval-1913
+| redir1 = AUS
+| related1 = Australasia
+</noinclude>
+}}
