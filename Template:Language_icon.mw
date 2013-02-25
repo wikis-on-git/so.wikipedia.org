@@ -1,6 +1,6 @@
 {{#ifexist:Template:ISO 639 name {{{1<noinclude>|</noinclude>}}}
  |<span class="languageicon" style="font-size:0.95em; font-weight:bold; color:#555;">({{ISO 639 name {{{1}}}}})</span>{{category handler
-  |main={{#ifeq:{{{1|}}}|en||[[Category:Articles with {{ISO 639 name {{{1}}}}} language external links]]}}
+  |main={{#ifeq:{{{1|}}}|so||[[Category:Articles with {{ISO 639 name {{{1}}}}} language external links]]}}
  }}
  |{{error|Invalid language code.}}
 }}<noinclude>
