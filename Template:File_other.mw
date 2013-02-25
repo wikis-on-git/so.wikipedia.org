@@ -1,0 +1,18 @@
+{{#switch:
+  <!--If no or empty "demospace" parameter then detect namespace-->
+  {{#if:{{{demospace|}}} 
+  | {{lc: {{{demospace}}} }}    <!--Use lower case "demospace"-->
+  | {{#ifeq:{{NAMESPACE}}|{{ns:6}}
+    | file
+    | other
+    }} 
+  }}
+| file
+| image    = {{{1|}}}
+| other
+| #default = {{{2|}}}
+}}<!--End switch--><noinclude>
+
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
