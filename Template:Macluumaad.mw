@@ -1,0 +1,57 @@
+{| summary="A standardized table providing complete information about the file, including description of what it shows and how it was made, copyright status and source." class="toccolours mbox-inside" style="width: 100%;" cellpadding="2"
+! style="background: #ccf; text-align: right; vertical-align: top; padding-right: 0.4em; width: 15%;" id="fileinfotpl_desc" |Description
+| {{{Location|}}}
+{{#if: {{{Description|{{{description|}}}}}} 
+| {{{Description|{{{description}}}}}} 
+| {{Description missing<noinclude>|category=</noinclude>}} 
+}}
+|- valign="top"
+! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_src" | Source
+| 
+{{#if:{{{Source|{{{source|}}}}}}
+| {{{Source|{{{source}}}}}}
+| <includeonly>[[Category:Wikipedia files with unknown source]]</includeonly> No source specified. Please edit this file description and [[Wikipedia:Citing sources#Multimedia|provide a source]].
+}}
+|- valign="top"
+! style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap;" id="fileinfotpl_date" | Date
+|
+{{{Date|{{{date|}}}}}}
+|- valign="top"
+! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_aut" | Author
+|
+{{#if: {{{Author|{{{author|}}}}}} 
+| {{{Author|{{{author}}}}}} 
+| {{Description missing|author information|category=}}<includeonly>[[Category:Files lacking an author]]</includeonly> 
+}}
+|- valign="top"
+! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_perm" | Permission<br /><small>([[Commons:Commons:Reusing content outside Wikimedia|Reusing this file]])</small>
+|
+{{#if:{{{Permission|{{{permission|}}}}}}
+| {{{Permission|{{{permission}}}}}}
+| See below.
+}}
+{{#switch: {{{Other_versions| {{{other_versions| {{{other versions|}}} }}} }}}
+|   = 
+| - = 
+| none = 
+| #default = 
+<tr valign="top">
+<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_ver"> Other versions </th>
+<td> {{{Other_versions| {{{other_versions| {{{other versions|}}} }}} }}} </td>
+</tr>
+}}
+{{#switch: {{{Additional_information|{{{additional_information|{{{Additional information|{{{additional information|}}}}}}}}}}}}
+|   = 
+| - = 
+| none = 
+| #default = 
+<tr valign="top">
+<th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_add"> Additional information </th>
+<td> {{{Additional_information|{{{additional_information|{{{Additional information|{{{additional information|}}}}}}}}}}}} </td>
+</tr>
+}}
+|}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
