@@ -1,0 +1,40 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Canada
+| flag alias = Flag of Canada.svg
+| flag alias-1868 = Canadian Red Ensign 1868-1921.svg
+| flag alias-1921 = Canadian Red Ensign 1921-1957.svg
+| flag alias-1957 = Canadian Red Ensign 1957-1965.svg
+| flag alias-naval = Naval Jack of Canada.svg
+| flag alias-naval-1868 = Canadian Blue Ensign 1868-1921.svg
+| flag alias-naval-1911 = Naval Ensign of the United Kingdom.svg
+| flag alias-naval-1921 = Canadian Blue Ensign 1921-1957.svg
+| flag alias-naval-1957 = Canadian Blue Ensign 1957-1965.svg
+| flag alias-1867-official = Flag of the United Kingdom.svg
+| link alias-naval = Royal Canadian Navy
+| flag alias-coast guard = Coastguard Flag of Canada.svg
+| flag alias-air force = Royal Canadian Air Force ensign.svg
+| flag alias-air force-1924 = Ensign of the Royal Canadian Air Force.svg
+| link alias-air force = Royal Canadian Air Force
+| flag alias-army = Canadian Army Flag.svg
+| link alias-army = Canadian Army
+| link alias-football = Canada {{{mw|men's}}} national {{{age|}}} soccer team
+| link alias-basketball = Canada national {{{mw|men's}}} basketball team
+| link alias-field hockey = Canada {{{mw|men's}}} national field hockey team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1868
+| var2 = 1921
+| var3 = 1957
+| var4 = naval-1911
+| var5 = naval-1921
+| var6 = naval-1957
+| var7 = air force-1924
+| var8 = 1867-official
+| var9 = naval-1868
+| redir1 = CAN
+</noinclude>
+}}
