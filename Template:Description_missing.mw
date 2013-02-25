@@ -1,11 +1,11 @@
 {{imbox
 | type = style
 | text =
-File-kaan malahan '''{{ #if: {{{1|}}} | {{{1}}} | description }}''', waxaana ka maqan macluumaad kale. <br> File-ku waa inuu ahaadaa mid loo soo gaabiyey  macluumaadka uu ka koobanyahay, qoraaga, Xogashada, iyo taariikhda hadii ay suuro gal tahay. Hadii aad taqaan ama aad heli karto macluumaadka, fadlan ku dar bogga.
+File-kaan malahan wax '''{{ #if: {{{1|}}} | {{{1}}} | Cadayn }}''', waxaana ka maqan macluumaad kale. <br> File-ku waa inuu ahaadaa mid loo soo gaabiyey  macluumaadka uu ka koobanyahay, qoraaga, Xigashada, iyo taariikhda hadii ay suuro gal tahay. Hadii aad taqaan ama aad heli karto macluumaadka, fadlan ku dar bogga.
 ----
 <small>Fariin gaarsii qofka soo galiyey filka: {{#ifeq:{{{1}}}|macluumaadka qoraaga
- |<nowiki>{{subst:add-author-I|1=</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
- |<nowiki>{{subst:add-desc-I|1=</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
+ |<nowiki>{{mowduuca:raaci-qoraaga-I|1=</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
+ |<nowiki>{{mowduuca:raaci-caday-I|1=</nowiki>{{PAGENAME}}<nowiki>}}</nowiki>
 }}</small>
 }}{{image other   <!--Only categorise when on image pages-->
 | {{#ifeq:{{{category|μ}}}|μ| [[Category:Wikipedia filasha cadayn la'aanta|{{PAGENAME}}]] }}
