@@ -1,0 +1,8 @@
+<div style="border-style:solid;border-width:1px;border-color:#c0c0c0;background-color:#f0f0f0;width:100px;height:1.5em;">
+<div style="position: absolute; background-color:{{{colour|{{{3|#CCCCCC}}}}}};
+width:{{#expr:floor(100*{{{1|50}}}/{{{2|100}}})}}px;height:1.5em;"></div><div style="position: absolute; font-weight:bold;width:100px;height:1.5em;text-align:center;z-index: 10;">
+{{{1|50}}}&nbsp;/&nbsp;{{{2|100}}}</div>{{#if:{{{anno|{{{4|}}}}}}|<div style="position:relative; left:100px; height:1.5em;">&nbsp;({{{anno|{{{4}}}}}})</div>}}</div><noinclude>
+{{man}}
+
+[[Category:template]]
+</noinclude>
