@@ -1,0 +1,7 @@
+{{#switch:{{str left|{{{1}}}|7}}
+ |http://
+ |https:/ =
+ |#default = http://
+}}{{{1}}}<noinclude>
+{{documentation}}
+</noinclude>
