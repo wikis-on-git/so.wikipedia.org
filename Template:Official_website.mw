@@ -1,0 +1,1 @@
+<span class="official website">[{{official website/http|1={{{1|{{{URL|}}}}}}}} {{{2|{{{name|Official website}}}}}}]</span> {{#ifeq:{{{format}}}|flash|(Requires [[Adobe Flash Player]]) }} {{#if:{{{1|{{{URL|}}}|}}}|{{#if:{{{mobile|}}}|([{{official website/http|{{{mobile}}}}} Mobile])}} }}<noinclude>{{documentation}}</noinclude>
