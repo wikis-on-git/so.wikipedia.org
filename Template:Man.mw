@@ -1,58 +1,8 @@
-<includeonly>{{ #ifexist:Template:{{PAGENAME}}/{{{1|man}}}
-|__NOEDITSECTION__<div class="toccolours" style="overflow:auto; margin: 0.5em auto 0.5em auto; text-align:center">
-[[Immagine:Template-info.svg|45px|Info]] <big>'''Istruzioni per l'uso'''</big><br/><small>Le istruzioni che seguono sono contenute nella [[Aiuto:Sottopagina|sottopagina]] [[Template:{{PAGENAME}}/{{{1|man}}}]] ([{{fullurl:Template:{{PAGENAME}}/{{{1|man}}}|action=edit}} modifica]&middot;[{{fullurl:Template:{{PAGENAME}}/{{{1|man}}}|action=history}} cronologia])</small></div>
-----
-{{/{{{1|man}}}}}
-|<div style="overflow:auto; margin-left:auto; margin-right:auto; text-align:center" class="toccolours"><big>'''[[/{{{1|man}}}|Crea le istruzioni!]]'''</big></div>{{#switch:{{NAMESPACE}}
-| Utente =
-| #default = [[Categoria:Template senza istruzioni|{{PAGENAME}}]]
-}}}}</includeonly><noinclude>
-
-{{Protetta}}
-{{template complesso}}
-
-Il template '''<nowiki>{{Man}}</nowiki>''' serve per generare un link alla sottopagina di istruzioni dei template.
-
-Può essere usato anche se la sottopagina non esiste, per segnalare la necessità di crearla (categorizza in [[:Categoria:Template senza istruzioni]]).
-
-==Sintassi==
-<tt>'''<nowiki>{{</nowiki>Man}}'''</tt>
-
-Il link punterà automaticamente alla pagina <nowiki>[[Template:<NomeTemplate>/man]]</nowiki>.
-
-Se il nome della sottopagina fosse diverso da "man":<br/>
-<tt>'''<nowiki>{{</nowiki>Man|''nome sottopagina''}}'''</tt>
-
-La sottopagina va categorizzata inserendo al suo interno la stringa:<br/>
-<tt>&lt;noinclude&gt;<nowiki>[[Categoria:Manuali dei template|{{PAGENAME}}]]</nowiki>&lt;/noinclude&gt;</tt>
-
-
-
-[[ar:قالب:توثيق]]
-[[bg:Шаблон:Документация]]
-[[ca:Plantilla:Ús de la plantilla]]
-[[cs:Šablona:Dokumentace]]
-[[da:Skabelon:Dokumentation]]
-[[de:Vorlage:Dokumentation]]
-[[dsb:Pśedłoga:Dokumentacija]]
-[[en:Template:Documentation]]
-[[eo:Ŝablono:Dok]]
-[[fa:الگو:توضیحات]]
-[[fr:Modèle:Documentation modèle]]
-[[hsb:Předłoha:Doc]]
-[[hu:Sablon:Sablondokumentáció]]
-[[ia:Patrono:Docpatrono]]
-[[id:Templat:Dokumentasi]]
-[[ja:Template:Documentation]]
-[[ko:틀:틀 설명문서]]
-[[no:mal:Dokumentasjon]]
-[[nl:Sjabloon:Sjabdoc]]
-[[pl:Szablon:Dokumentacja]]
-[[ro:Format:Documentaţie]]
-[[ru:Шаблон:Doc]]
-[[sl:Predloga:Dokumentacija]]
-[[sq:Stampa:Dokumentacion]]
-[[sv:Mall:Dokumentation]]
-[[uk:Шаблон:Документація]]
-[[zh:Template:Documentation]]
+{{Man/format|1={{Man/{{#if:{{{3|}}}
+|{{{3}}}|default}}|{{{1}}}|{{{2}}}|display_section}}|2={{{2}}}|3={{Man/{{#if:{{{3|}}}
+|{{{3}}}|default}}|{{{1}}}|{{{2}}}|url}}|4={{{4|}}}|5={{#ifeq:{{{5|}}}
+|inline||{{Man/{{#if:{{{3|}}}
+|{{{3}}}|default}}|{{{1}}}|{{{2}}}|attrib}}}}}}<noinclude>
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
 </noinclude>
