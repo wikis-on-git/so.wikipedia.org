@@ -1,0 +1,21 @@
+{{#switch:{{{3}}}
+|attrib=[[Linux]] {{#switch:{{lc:{{{1}}}}} <!-- titles from http://linux.die.net/man/ -->
+  |1=User Commands
+  |2=System Calls
+  |3=Library Functions
+  |4=Special Files
+  |5=File Formats
+  |6=Games
+  |7=Conventions and Miscellany
+  |8=Administration and Privileged Commands
+  |l=Math Library Functions
+  |n=Tcl Functions}} [[Manual page (Unix)|Manual]]
+|url=http://linux.die.net/man/{{lc:{{{1}}}}}/{{{2}}}
+|display_section={{uc:{{{1}}}}}}}<noinclude>
+
+[[es:Plantilla:Man/die.net]]
+[[mk:Шаблон:Man/die.net]]
+[[arz:قالب:Man/default]]
+[[ru:Шаблон:Man/die.net]]
+[[zh:Template:Manlink/die.net]]
+</noinclude>
