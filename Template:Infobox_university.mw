@@ -1,0 +1,123 @@
+{{Infobox
+| bodyclass  = vcard
+| aboveclass = fn org
+| above      = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+| subheader  = {{{native_name|}}}
+| image      = {{{image|}}}
+| caption    = {{#if:{{{image_name|}}}||{{{caption|}}}}}
+| image2     = {{#if:{{{image_name|}}}|[[File:{{{image_name}}}|{{px|{{{image_size|}}}|frameless}}|alt={{{image_alt|}}}]]}}
+| caption2   = {{{caption|}}}
+
+| data1      = {{#if:{{{latin_name|}}}|{{lang-la|{{{latin_name}}}}}}}
+| label2     = Halku dhigga
+| data2      = {{#if:{{{motto|}}}|{{#if:{{{motto_lang|}}}|<span lang="{{{motto_lang}}}">}}{{{motto}}} {{#if:{{{motto_lang|}}}|</span>}} }}
+| label3     = Hal ku dhigga af-shisheeye
+| data3      = {{{mottoeng|}}}
+| label4     = {{#if:{{{closed|}}}|Active|Established}}
+| data4      = {{#if:{{{established|}}}|{{{established}}}{{#if:{{{closed|}}}|–{{{closed}}}}}}}
+| label5     = Nuuca
+| data5      = {{{type|}}}
+| label6     = Asalkeedii
+| data6      = {{{parent|}}}
+| label7     = Diin ahaan
+| data7      = {{{religious_affiliation|{{{affiliation|}}}}}}
+| label8     = Machad
+| data8      = {{{academic_affiliation|}}}
+| label9     = Iskaleh
+| data9      = {{{endowment|}}}
+| label10     = Miisaaniyadda
+| data10      = {{{budget|}}}
+| label11    = [[Agaasime]]
+| data11     = {{{officer_in_charge|}}}
+| label12    = Gudoomiye
+| data12     = {{{chairman|}}}
+| label13    = Madaxa
+| data13     = {{{chairperson|}}}
+| label14    = Lataliyaha xagga aqoonta
+| data14     = {{{chancellor|}}}
+| label15    = Madaxwenaha Jaamacadda
+| data15     = {{{president|}}}
+| label16    = Madaxwene kuxigeenka Jaamacadda
+| data16     = {{{vice-president|}}}
+| label17    = Maamulaha jaamacadda
+| data17     = {{{superintendent|}}}
+| label18    = Hormuudka
+| data18     = {{{provost|}}}
+| label19    = Ku xigeenka la taliyaha
+| data19     = {{{vice_chancellor|}}}
+| label20    = Hormuudka jaamacadda
+| data20     = {{{rector|}}}
+| label21    = Xobin firfircoon
+| data21     = {{{principal|}}}
+| label22    = Hormuudka kuliyadaha
+| data22     = {{{dean|}}}
+| label23    = Agaasimaha
+| data23     = {{{director|}}}
+| label24    = {{{head_label}}}
+| data24     = {{#if:{{{head_label|}}}|{{{head|}}}}}
+| label25    = Xonaha hay'adda waxbarashada
+| data25     = {{{academic_staff|}}}{{{faculty|}}}<!-- "faculty" for backwards compatibility -->
+| label26    = Maamulka. Hay'adda wax barashada
+| data26     = {{{administrative_staff|}}}{{{staff|}}}<!-- "staff" for backwards compatibility -->
+| label27    = Ardayda
+| data27     = {{{students|}}}
+{{{enrollment|}}}
+| label28    = Ardayda dhigata
+| data28     =  {{{undergrad|}}}
+| label29    = Daraasaadka sare
+| data29     = {{{postgrad|}}}
+| label30    = Dottora
+| data30     = {{{doctoral|}}}
+| label31    = Ardayda kale
+| data31     = {{{other|}}}
+| class32    = adr
+| label32    = Waxay ku taal
+| data32     = {{#if:{{{location|}}}|<span class="extended-address">{{{location}}}</span>|{{#if:{{{city|}}}|<span class="locality">{{{city}}}</span>}}{{#if:{{{state|}}}{{{province|}}}|, <span class="region">{{{state|}}}{{{province|}}}</span>}}{{#if:{{{country|}}}|, <span class="country-name">{{{country}}}</span>}} }}{{#if:{{{coor|}}}|<br />{{{coor}}} }}
+| label33    = Dhismaha jaamacadda
+| data33     = {{{campus|}}}
+| label34    = Magacyadii hore
+| data34     = {{{former_names|}}}
+| label35    = {{{free_label}}}
+| data35     = {{#if:{{{free_label|}}}|{{{free|}}}}}
+| label36    = [[School colors|Colo{{#if:{{{colours|}}}|u}}rs]]
+| data36     = {{{colors|}}}{{{colours|}}}
+| label37    = Meelo lagu ciyaaro
+| data37     = {{{athletics|}}}
+| label38    = Sportiga
+| data38     = {{{sports|}}}
+| label39    = Loo yaqaan
+| data39     = {{{nickname|}}}
+| label40    = Nasiibka
+| data40     = {{{mascot|}}}
+| label41    = Xobin ka ah
+| data41     = {{{affiliations|}}}
+| label42    = Website
+| data42     = {{{website|}}}
+| data43     = {{{logo|}}}
+
+| data44     = {{{nrhp|{{{embedded|}}}}}}
+
+| data45     = {{#if:{{{pushpin_map|}}}|<center>{{Location map|{{{pushpin_map}}}
+|alt = 
+|lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|{{{latitude|}}}}}} }}
+|long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|{{{longitude|}}}}}} }}
+|lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+|lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+|lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+|lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+|lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+|lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+|lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+|lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+|float      = center
+|caption    = 
+|border     = none
+|mark       = Red pog.svg
+|marksize   = 7
+|position   = {{{pushpin_label_position|}}}
+|label      = 
+|width      = {{#if:{{{map_size|}}}|{{{map_size}}}|250}}
+}}{{#if:{{{pushpin_map_caption|}}}|<small>{{{pushpin_map_caption}}}</small>}}</center>}}
+
+| below      = {{{footnotes|}}}
+}}<noinclude>{{documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --></noinclude>
