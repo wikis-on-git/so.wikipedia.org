@@ -13,7 +13,7 @@
 | data2      = {{#if:{{{motto|}}}|{{#if:{{{motto_lang|}}}|<span lang="{{{motto_lang}}}">}}{{{motto}}} {{#if:{{{motto_lang|}}}|</span>}} }}
 | label3     = Hal ku dhigga af-shisheeye
 | data3      = {{{mottoeng|}}}
-| label4     = {{#if:{{{closed|}}}|Active|Established}}
+| label4     = {{#if:{{{closed|}}}|Active|La aas aasay}}
 | data4      = {{#if:{{{established|}}}|{{{established}}}{{#if:{{{closed|}}}|–{{{closed}}}}}}}
 | label5     = Nuuca
 | data5      = {{{type|}}}
