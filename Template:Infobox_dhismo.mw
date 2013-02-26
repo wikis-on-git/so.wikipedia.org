@@ -105,7 +105,7 @@
 | label12   = Dalka
 | data12    = {{{location_country|}}}
 
-| label13   = [[Geographic coordinate system|Iskaashi]]
+| label13   = [[Geographic coordinate system|Isuduwe]]
 | data13    = {{#if:{{both|{{{latitude|{{{latd|}}}}}}|{{{longitude|{{{longd|}}}}}}}}|
 {{Geobox coor|{{{latitude|{{{latd|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longitude|{{{longd|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if: {{{iso_region|}}}|_region:{{{iso_region}}}|{{#if:{{{location_country|}}}|_region:{{CountryAbbr|{{{location_country}}}|}}|}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}|{{{coordinates|}}}}}
 
@@ -118,7 +118,7 @@
 | label16   = Dib u-habayn
 | data16    = {{{groundbreaking_date|}}}
 
-| label17   = {{Nowrap|Construction started}}
+| label17   = {{Nowrap|Dhismaha la bilaabay}}
 | data17    = {{{start_date|}}}{{{construction_start_date|}}}
 
 | label18   = Heer sare
@@ -197,7 +197,7 @@
 
 | header42  = {{#if:{{{client|}}}{{{owner|}}}{{{governing_body|}}}{{{landlord|}}}{{{management|}}}{{{architect|}}}{{{architecture_firm|}}}{{{developer|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{main_contractor|}}}{{{main_contractors|}}}|Naqshadda iyo dhismaha}}
 
-| label43   = Macaamiil
+| label43   = Naqshadda
 | data43    = {{{client|}}}
 
 | label44   = Milkiilaha
