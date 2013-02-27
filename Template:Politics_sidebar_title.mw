@@ -1,0 +1,59 @@
+<includeonly><div class="adr" style="font-size:smaller">{{#if:{{{country|}}}|<span class="fn org country-name">[[{{{country}}}]]</span>|{{#if:{{{region|}}}|<span class="fn org">[[{{{region}}}]]</span>}} }}
+</div></td></tr>{{#if:{{{image|}}}
+|<tr><td>[[File:{{{image}}}|{{px|{{{size|}}}|frameless}}|{{#if:{{{border|}}}|border}}|alt={{{alt|}}}]]</td></tr>
+}}<tr><td style="border-bottom: #aaa {{#if:{{{separator-width|}}}|{{{separator-width}}}|1px}} solid">This article is part of the series:<br /><span style="font-weight:bold">[[Politics of {{{link|{{{title}}}}}}|Politics and government of<br />{{{title}}}]]</span></includeonly><noinclude>
+{{documentation|content=
+This template is used to generate the above/title section in a politics sidebar
+== Usage ==
+<pre>
+{{sidebar with collapsible lists
+| name = {{subst:PAGENAME}}
+| wraplinks = true
+| bodyclass = vcard
+| liststyle = text-align: left
+
+| title = {{politics sidebar title
+  | country = <!-- country -->
+  | title = <!-- country or the country -->
+  | image = Coat of arms of the Netherlands.svg
+  | alt =
+  }}
+
+| list1title =
+| list1 =
+
+| below = {{politics sidebar below|<!-- country or the country -->}}
+}}
+</pre>
+
+== Parameters ==
+; country : the name of the country, it should correspond to the title of the article about the country 
+:: Example: {{para|country|Netherlands}}
+; title : the name of the country or region corresponding to the article named "Politics of title"
+:: Example: {{para|title|the Netherlands}}
+; image : the file name of a representative image
+:: Example: {{para|image|Coat of arms of the Netherlands.svg}}
+; size : the width of the image (default is frameless)
+:: Example: {{para|size|150px}}
+; alt : alternative text for the image
+:: Example: {{para|alt|The coat of arms for the Netherlands depicting ...}}
+; border: add a border around the image
+:: Example: {{para|border|y}}
+
+== Regions that are not countries ==
+; region: the name of the region, it should correspond to the title of the article about the region
+:: Example: {{para|region|North Dakota}}
+
+== Modifying the linking ==
+; link : by default, the title parameter is used for both the link text and the link.  to use a different value for the link, set link to a value which corresponds to the article named "Politics of link"
+
+== Removing the separator ==
+; separator-width: by default, the horizontal rule at the bottom of the box has width 1px, to remove the separator, set {{para|separator-width|0}}.
+
+== See also ==
+* {{tl|politics sidebar below}}
+* {{tl|sidebar}}
+* {{tl|sidebar with collapsible lists}}
+
+[[Category:Politics by country sidebar templates|τ]]
+}}</noinclude><noinclude>{{pp-template|small=yes}}</noinclude>
