@@ -1,0 +1,30 @@
+<div class="hlist" style="text-align:center;font-size:100%;font-weight:normal;">
+* {{smaller|[[Outline of political science#Politics by region|Other countries]]}}
+* {{smaller|[[:commons:Atlas of {{{1}}}|Atlas]]}}
+{{#ifeq:{{{portal|}}}|none | |{{smaller|{{portal-inline|{{#if:{{{portal|}}}|{{{portal}}}|Politics}}|size=tiny}}}} }}
+</div><noinclude>
+
+{{documentation
+|content =
+This template is used to generate the links in the below section of a politics sidebar.
+
+== Usage ==
+{{para|below|{{tld|politics sidebar below|''country''}}}}
+where <code>''country''</code> corresponds to the article name on commons, <code>Atlas of ''country''</code>
+
+'''Portal link'''
+
+to remove the default portal link, use {{para|portal|none}}.  to link to a different portal, use {{para|portal|''portal name''}}, where <code>''portal name''</code> is the name of a specific regional politics portal.
+
+== Examples ==
+{{para|below|{{tld|politics sidebar below|the Netherlands}}}}
+
+{{para|below|{{tld|politics sidebar below|Canada|portal{{=}}Canadian politics}}}}
+
+== See also ==
+* {{tl|politics sidebar title}}
+* {{tl|sidebar}}
+* {{tl|sidebar with collapsible lists}}
+
+[[Category:Politics by country sidebar templates|τ]]
+}}</noinclude>
