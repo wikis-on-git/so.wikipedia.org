@@ -1,7 +1,7 @@
 <includeonly><div class="adr" style="font-size:smaller">{{#if:{{{country|}}}|<span class="fn org country-name">[[{{{country}}}]]</span>|{{#if:{{{region|}}}|<span class="fn org">[[{{{region}}}]]</span>}} }}
 </div></td></tr>{{#if:{{{image|}}}
 |<tr><td>[[File:{{{image}}}|{{px|{{{size|}}}|frameless}}|{{#if:{{{border|}}}|border}}|alt={{{alt|}}}]]</td></tr>
-}}<tr><td style="border-bottom: #aaa {{#if:{{{separator-width|}}}|{{{separator-width}}}|1px}} solid">Qodobadaan waa kuwa ka mid ah Tixda:<br /><span style="font-weight:bold">[[Siyaasiinta {{{link|{{{title}}}}}}|Siyaasadda iyo Xukunka<br />{{{title}}}]]</span></includeonly><noinclude>
+}}<tr><td style="border-bottom: #aaa {{#if:{{{separator-width|}}}|{{{separator-width}}}|1px}} solid">Qodobadaan waa kuwa ka mid ah Tixda:<br /><span style="font-weight:bold">[[Siyaasadda {{{link|{{{title}}}}}}|Siyaasadda iyo Xukunka<br />{{{title}}}]]</span></includeonly><noinclude>
 {{documentation|content=
 This template is used to generate the above/title section in a politics sidebar
 == Usage ==
