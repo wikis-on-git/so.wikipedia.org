@@ -1,0 +1,140 @@
+{{infobox 
+| bodyclass   = vcard
+| above       = <includeonly><span class="fn org">{{{name}}}</span> {{#if:{{{native_name|}}}|<br />''<span class="nickname"{{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>''{{#if:{{{transcription_name|}}}|<br /><span class="nickname">{{{transcription_name}}}</span>}}}}</includeonly>
+| abovestyle  = background-color: {{{background_color|#efefef}}}; {{#if:{{{text_color|}}}|color: {{{text_color}}} }}
+
+| headerstyle = background-color: {{{background_color|#efefef}}}; {{#if:{{{text_color|}}}|color: {{{text_color}}} }}
+
+| labelstyle  = {{{labelstyle|}}}
+
+| subheader   = {{{legislature|}}}
+
+| image       = {{#if:{{{coa_pic|{{{coa-pic|}}}}}}|[[file:{{{coa_pic|{{{coa-pic|}}}}}}|{{px|{{{coa_res|{{{coa-res|}}}}}}|frameless}}|upright|alt={{{coa_alt|{{{coa-alt|Coat of arms or logo}}}}}}]]}}
+| caption     = {{{coa_caption|}}}
+
+| image2      = {{#if:{{{logo|}}}|[[file:{{{logo}}}|{{px|{{{logo_res|{{{logo-res|}}}}}}|frameless}}|upright|alt={{{logo_alt|{{{logo-alt|Logo}}}}}}]]}}
+| caption2    = {{{logo_caption|}}}
+
+| header1     = {{#if:{{{house_type|}}}{{{houses|}}}{{{term_limits|}}}|Type}}
+
+| label2      = Nuuca
+| data2       = {{#if:{{{house_type|}}}|<span class="category">{{#ifexist:{{{house_type}}}|[[{{{house_type}}}]]|{{{house_type}}}}}</span>}} {{#if:{{{body|}}}|of the [[{{{body}}}]]}}
+
+| label3      = {{#if:{{{houses|}}}|Magacyada|Fadhiyada}}
+| data3       = {{#if:{{{houses|}}}|{{{houses}}}|{{{chambers|}}}}}
+
+| label4      = Magac loo soo gaabiyo
+| data4       = {{{term_limits|}}}
+
+| header5     = {{#if:{{{foundation|}}}{{{disbanded|}}}{{{preceded_by|}}}{{{succeeded_by|}}}{{{new_session|}}}|Taariikh}}
+
+| label6      = {{#if:{{{foundation|}}}|La Aas'aasay|La Unkay}}
+| data6       = {{#if:{{{foundation|}}}|{{{foundation}}}|{{{established|}}}}}
+
+| label7      = Kala diris
+| data7       = {{{disbanded|}}}
+
+| label8     = Kaga horeeyey
+| data8      = {{{preceded_by|}}}
+
+| label9     = Kaga dambeeyey
+| data9      = {{{succeeded_by|}}}
+
+| label10      = Biloowga kal Fadhiga cusb
+| data10       = {{{new_session|}}}
+
+| header15     = {{#if:{{{leader1|}}}{{{leader2|}}}{{{leader3|}}}{{{leader4|}}}{{{leader5|}}}{{{leader6|}}}|Hogaanka}}
+
+| label16     = {{{leader1_type|}}}
+| data16      = {{#if:{{{leader1|}}}| {{{leader1|}}}{{#if:{{{party1|}}}|, {{{party1|}}}}} {{#if:{{{election1|}}}| <br>ilaa {{{election1|}}}}}}}
+| label17     = {{{leader2_type|}}}
+| data17      = {{#if:{{{leader2|}}}| {{{leader2|}}}{{#if:{{{party2|}}}|, {{{party2|}}}}} {{#if:{{{election2|}}}| <br>ilaa {{{election2|}}}}}}}
+| label18     = {{{leader3_type|}}}
+| data18      = {{#if:{{{leader3|}}}| {{{leader3|}}}{{#if:{{{party3|}}}|, {{{party3|}}}}} {{#if:{{{election3|}}}| <br>ilaa {{{election3|}}}}}}}
+| label19     = {{{leader4_type|}}}
+| data19      = {{#if:{{{leader4|}}}| {{{leader4|}}}{{#if:{{{party4|}}}|, {{{party4|}}}}} {{#if:{{{election4|}}}| <br>since {{{election4|}}}}}}}
+| label20     = {{{leader5_type|}}}
+| data20      = {{#if:{{{leader5|}}}| {{{leader5|}}}{{#if:{{{party5|}}}|, {{{party5|}}}}} {{#if:{{{election5|}}}| <br>ilaa {{{election5|}}}}}}}
+| label21     = {{{leader6_type|}}}
+| data21     = {{#if:{{{leader6|}}}| {{{leader6|}}}{{#if:{{{party6|}}}|, {{{party6|}}}}} {{#if:{{{election6|}}}| <br>ilaa {{{election6|}}}}}}}
+
+| header22    = {{#if:{{{structure1|}}}{{{political_groups1|}}}{{{structure3|}}}{{{political_groups3|}}}{{{committees1|}}}{{{committees2|}}}{{{joint_committees|}}}{{{term_length|}}}{{{authority|}}}{{{salary|}}} {{{seats1|}}}{{{seats2|}}}{{{seats3|}}}{{{seats4|}}}{{{seats5|}}}{{{seats6|}}}{{{seats7|}}}|Qaabka}}
+
+| label23     = Qaabka
+| data23      = {{#if:{{{members|}}}|{{{members}}}|{{{seats|}}}}}
+| data24      = {{#if:{{{structure1|}}}|[[file:{{{structure1}}}|{{#if:{{{structure1_res|}}}|{{{structure1_res}}}|120px}}|alt={{{structure1_alt|{{{structure1}}}}}}]]}}
+| label25     = {{#if:{{{house1|}}}|{{{house1|}}} Qaybaha siyaasadda|Qaybaha Siyaasadda}}
+| data25      = {{{political_groups1|}}}
+| data26      = {{#if:{{{structure2|}}}|[[file:{{{structure2}}}|{{#if:{{{structure2_res|}}}|{{{structure2_res}}}|120px}}|alt={{{structure2_alt|{{{structure2}}}}}}]]}}
+| label27     = {{#if:{{{house2}}}|{{{house2|}}} Qaybaha siyaasadda|Qaybaha Siyaasadda}}
+| data27     = {{{political_groups2|}}}
+| label28     = {{#if:{{{house1}}}|{{{house1|}}}Gudiyada|Gudiyada}}
+| data28      = {{{committees1|}}}
+| label29     = {{#if:{{{house2}}}|{{{house2|}}} Gudiyada|Gudiyada}}
+| data29      = {{{committees2|}}}
+| label30     = Joint committees
+| data30      = {{{joint_committees|}}}
+| label31     = Waqiga ay joogayaan
+| data31      = {{{term_length|}}}
+| label32     = Masuuliyiinta
+| data32      = {{{authority|}}}
+| label33     = Mushaarka
+| data33      = {{{salary|}}}
+
+| label34     = {{{seats1_title|}}}
+| data34      = {{{seats1|}}}
+| label35     = {{{seats2_title|}}}
+| data35      = {{{seats2|}}}
+| label36     = {{{seats3_title|}}}
+| data36      = {{{seats3|}}}
+| label37     = {{{seats4_title|}}}
+| data37      = {{{seats4|}}}
+| label38     = {{{seats5_title|}}}
+| data38      = {{{seats5|}}}
+| label39     = {{{seats6_title|}}}
+| data39      = {{{seats6|}}}
+| label40     = {{{seats7_title|}}}
+| data40      = {{{seats7|}}}
+
+| header41    = {{#if:{{{voting_system1|}}}{{{voting_system2|}}}{{{last_election1|}}}{{{last_election2|}}}{{{last_election3|}}}{{{next_election1|}}}{{{next_election2|}}}{{{next_election3|}}}{{{redistricting|}}}|Doorashooyinka}}
+| label42     = {{#if:{{{house1|}}}|{{{house1}}} [[Habka Codaynta]]|[[Habka Codaynta]]}}
+| data42      = {{{voting_system1|}}}
+| label43     = {{{house2|}}} [[Habka Codaynta]]
+| data43      = {{{voting_system2|}}}
+| label44     = {{#if:{{{house1|}}}|{{{house1}}} Doorashadii ugu dambeeysay|Doorashadii ugu dambeeysay}}
+| data44      = {{{last_election1|}}}
+| label45     = {{{house2|}}} Doorashadii ugu dambeeysay
+| data45      = {{{last_election2|}}}
+| label46     = Doorashadii guud ee ugu dambeeysay
+| data46      = {{{last_election3|}}}
+| label47     = {{#if:{{{house1|}}}|{{{house1}}} Doorashada soo socota|Doorashada soo socota}}
+| data47      = {{{next_election1|}}}
+| label48     = {{{house2|}}} Doorashada soo socota
+| data48      = {{{next_election2|}}}
+| label49     = Doorashada guud ee soo socota
+| data49      = {{{next_election3|}}}
+| label50     = Isku shaandhayn
+| data50      = {{{redistricting|}}}
+
+| header51    = {{#if:{{{motto|}}}|Hal ku dhigga}}
+| data52      = {{{motto|}}}
+
+| header53    = {{#if:{{{session_room|}}}{{{meeting_place|}}}|Meesha ay ku kulmaan}}
+
+| data54      = {{#if:{{{session_room|}}}|[[file:{{{session_room}}}|{{#if:{{{session_res|}}}|{{{session_res}}}|frameless}}|alt={{{session_alt|{{{session_room}}}}}}]]}}
+| data55      = {{{meeting_place|}}}
+| class55     = label
+
+| header56    = {{#if:{{{session_room2|}}}{{{meeting_place2|}}}|Meesha ay ku kulmaan}}
+
+| data57      = {{#if:{{{session_room2|}}}|[[file:{{{session_room2}}}|{{#if:{{{session_res2|}}}|{{{session_res2}}}|frameless}}|alt={{{session_alt2|{{{session_room2}}}}}}]]}}
+| data58      = {{{meeting_place2|}}}
+| class58     = label
+
+| header59    = {{#if:{{{website|}}}|Website}}
+| data60      = {{{website|}}}
+
+| header61    = {{#if:{{{footnotes|}}}|Faallo kooban}}
+| data62      = {{{footnotes|}}}
+
+}}{{ns0|{{#if:{{{background_color|}}}{{{text_color|}}}|[[Category:Infobox legislature with background color]]}}}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
