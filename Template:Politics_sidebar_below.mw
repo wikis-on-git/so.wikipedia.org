@@ -1,7 +1,7 @@
 <div class="hlist" style="text-align:center;font-size:100%;font-weight:normal;">
 * {{smaller|[[Culuunta siyaasadda#Siyaasadda Hadba Gobolka|Dalalka kale]]}}
 * {{smaller|[[:commons:Atlas of {{{1}}}|Adlas]]}}
-{{#ifeq:{{{portal|}}}|none | |{{smaller|{{portal-inline|{{#if:{{{portal|}}}|{{{portal}}}|Politics}}|size=tiny}}}} }}
+{{#ifeq:{{{portal|}}}|none | |{{smaller|{{portal-inline|{{#if:{{{portal|}}}|{{{portal}}}|Siyaasadda}}|size=tiny}}}} }}
 </div><noinclude>
 
 {{documentation
@@ -26,5 +26,5 @@ to remove the default portal link, use {{para|portal|none}}.  to link to a diffe
 * {{tl|sidebar}}
 * {{tl|sidebar with collapsible lists}}
 
-[[Category:Politics by country sidebar templates|τ]]
+
 }}</noinclude>
