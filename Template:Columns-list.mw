@@ -1,0 +1,1 @@
+<includeonly><div {{#if: {{{colwidth|}}}| style="{{column-width|{{{colwidth}}}}}" | {{#if: {{{1|}}}| style="{{column-count|{{{1}}}}}" }} }}>{{{2|{{{1|}}} }}}</div></includeonly><noinclude>{{documentation}}</noinclude>
