@@ -1556,10 +1556,10 @@
 {{#if:{{{title|}}}|
 {{!}} {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan=4 {{!}} <hr />
 {{{!}} cellspacing="0" cellpadding="0" style="background:transparent; width:100%;"
-{{!}} style="width:50%; text-align:left; text-size: 80%" {{!}}'''{{#if:{{{before_election|}}}{{{before_party|}}}|{{#ifeq:{{{ongoing|}}}|yes|Incumbent {{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}}|{{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}} before election}}'''<br />
+{{!}} style="width:50%; text-align:left; text-size: 80%" {{!}}'''{{#if:{{{before_election|}}}{{{before_party|}}}|{{#ifeq:{{{ongoing|}}}|yes|Incumbent {{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}}|{{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}} ka hor doorashada}}'''<br />
 {{{before_election}}}<br />
 {{#if:{{{before_party|}}}|{{#ifeq: {{{party_name}}}|no|{{{before_party}}}|[[{{{before_party}}}|{{Template: {{{before_party}}}/meta/shortname}}]]}} }} }}
-{{!}} style="width:50%; text-align:right; text-size: 80%" {{!}}{{#ifeq:{{{ongoing|}}}|yes||'''{{#if:{{{posttitle|}}}|{{{posttitle}}}|Elected {{{title}}}}}'''<br />
+{{!}} style="width:50%; text-align:right; text-size: 80%" {{!}}{{#ifeq:{{{ongoing|}}}|yes||'''{{#if:{{{posttitle|}}}|{{{posttitle}}}|Loo doortay {{{title}}}}}'''<br />
 {{#if:{{{after_election|}}}|{{{after_election}}}|}}{{#if:{{{after_election|}}}{{{after_party|}}}||TBD}}<br />
 {{#if:{{{after_party|}}}|{{#ifeq: {{{party_name}}}|no|{{{after_party}}}|[[{{{after_party}}}|{{Template: {{{after_party}}}/meta/shortname}}]]}} }} }}
 {{!}}} }}
