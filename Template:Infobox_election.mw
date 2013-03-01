@@ -1,0 +1,1566 @@
+<includeonly>{| class="infobox {{#if:{{{election_date|}}}|vevent|}}" style="{{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px||width:{{Str number/trim|{{{map_size}}}}}{{Str rightc|{{{map_size}}}|2}};}}}}}} font-size: 88%; line-height: 1.5em"
+|+ class="summary" style="font-size: 125%; font-weight: bold" | {{{election_name|{{PAGENAME}}}}}
+{{!}}-
+{{!}} colspan=4 align=center {{!}} {{#if:{{{flag_image|}}}|[[File:{{{flag_image}}}|50px|alt=|link=]]<hr />|{{#if:{{{country|}}}|{{#if:{{{flag_year|}}}|{{flagicon|{{{country}}}|variant={{{flag_year|}}}|size=50px}}|{{flagicon|{{{country}}}|size=50px}}}}<hr />}}}}
+{{!}}-
+{{!}} {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan=4 {{!}}
+{{hide in print|1=
+{{{!}} cellspacing="0" cellpadding="0" style="background:transparent; width:100%;"
+{{!}}style="width: 25%;" align="left" {{!}}{{#if:{{{previous_year|}}}|{{#ifexist:{{{previous_election|}}}|[[{{{previous_election}}}|{{{previous_year}}}]]|{{{previous_year}}}}}&nbsp;←<br
+/>}}{{#ifexist:{{{previous_mps|{{{previous_MPs|{{{previous_members|}}}}}}}}}|[[{{{previous_mps|{{{previous_MPs|{{{previous_members|}}}}}}}}}|members]]{{#if:{{{previous_year|}}}||&nbsp;←}}}}
+{{!}}style="width: 50%;" align="center" {{!}}{{#if:{{{election_date|}}}|'''{{{election_date}}}'''<br />}}{{#if:{{{elected_mps|}}}|{{{elected_mps}}}}}
+{{!}}style="width: 25%;" align="right" {{!}}{{#if:{{{next_year|}}}|→&nbsp;{{#ifexist:{{{next_election|}}}|[[{{{next_election}}}|{{{next_year}}}]]|{{{next_year}}}}}<br
+/>}}{{#ifexist:{{{next_mps|{{{next_MPs|{{{next_members|}}}}}}}}}|{{#if:{{{next_year|}}}||→&nbsp;}}[[{{{next_mps|{{{next_MPs|{{{next_members|}}}}}}}}}|members]]}}
+{{!}}}
+}}{{only in print|1={{{election_date|}}}}}
+{{!}}-
+{{!}} {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan=4 {{!}}
+{| style="background:transparent; width:100%;"
+{{#if:{{{party1|}}}{{{color1|}}}{{{colour1|}}}{{{leader1|}}}|
+{{!}} colspan=4 {{!}} <hr />
+{{!}}-
+}}
+
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = {{#if:{{{votes_for_election|}}}|
+! colspan = 4 style="text-align: center" {{!}} <small>{{{votes_for_election}}}</small>{{#if:{{{needed_votes|}}}|<br /><small>{{{needed_votes}}} votes needed to win</small>}}
+{{!}}-
+}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative
+| by-election
+| By-election   = {{#if:{{{seats_for_election|}}}|
+! {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan = 4 style="text-align: center" {{!}} <small>{{{seats_for_election}}}</small>{{#if:{{{majority_seats|}}}|<br /><small>{{{majority_seats}}} seats needed for a majority</small>}}
+{{!}}-
+}}
+| #default      = 
+}}
+{{#if:{{{opinion_polls|}}}|
+{{!}} colspan=4 style="text-align: center" {{!}} [[{{{opinion_polls}}}|Opinion&nbsp;polls]]
+{{!}}-
+}}
+{{#if:{{{turnout|}}}|
+! style="text-align: left" {{!}} Turnout
+{{!}} colspan=3 style="text-align: center" {{!}} {{{turnout}}}
+{{!}}-
+}}
+{{#if:{{{party1|}}}|{{#ifeq:{{{ongoing|}}}|yes||
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+! align="left" {{!}} &nbsp;
+! style="text-align: center" {{!}} {{#switch:{{{type|}}}|parliamentary|Parliamentary=First party|#default=Majority party}}
+{{#if:{{{party2|}}}|! style="text-align: center" {{!}} {{#switch:{{{type|}}}|parliamentary|Parliamentary=Second party|#default=Minority party}} }}
+{{#if:{{{party3|}}}|
+! style="text-align: center" {{!}} {{#switch:{{{type|}}}|parliamentary|Parliamentary=Third party|#default=Third party}} }}
+{{!}}-
+| #default      = 
+}}}}}}
+{{#if:{{{party1|}}}{{{color1|}}}{{{colour1|}}}|<!-- Images 1, 2, 3 -->
+{{!}} &nbsp;
+{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color1|}}}{{{colour1|}}}|<nowiki>#</nowiki>{{{color1|{{{colour1|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party1|}}}/meta/color|{{Template:{{{party1|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image1|}}}}}|{{{image1}}}}}
+{{#if:{{{party2|}}}{{{color2|}}}{{{colour2|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color2|}}}{{{colour2|}}}|<nowiki>#</nowiki>{{{color2|{{{colour2|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party2|}}}/meta/color|{{Template:{{{party2|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image2|}}}}}|{{{image2}}}}}}}
+{{#if:{{{party3|}}}{{{color3|}}}{{{colour3|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color3|}}}{{{colour3|}}}|<nowiki>#</nowiki>{{{color3|{{{colour3|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party3|}}}/meta/color|{{Template:{{{party3|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image3|}}}}}|{{{image3}}} }} }}
+{{!}}-
+}}
+{{#if:{{{nominee1|}}}{{{candidate1|}}}|<!-- Presidential & by-election nominee/candidate 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential 
+| by-election
+| By-election   = 
+! width="75" style="text-align: left" {{!}}{{#if:{{{nominee1|}}}|Murashax|Candidate}}
+{{!}} width="70" style="text-align: center" {{!}} {{{nominee1|{{{candidate1|}}} }}}{{#if:{{{nominee2|}}}{{{candidate2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{nominee2|{{{candidate2|}}} }}} }}{{#if:{{{nominee3|}}}{{{candidate3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{nominee3|{{{candidate3|}}} }}} }}
+{{!}}-
+| #default      = 
+}}
+}}
+{{#if:{{{leader1|}}}|<!-- Hogaanka xisbiga 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+! width="75" style="text-align: left" {{!}} Leader
+{{!}} width="70" style="text-align: center" {{!}} {{{leader1}}}{{#if:{{{leader2|}}}|{{!!}} width="70" style="text-align: center" {{!}} {{{leader2}}} }}{{#if:{{{leader3|}}}|{{!!}} width="70" style="text-align: center" {{!}} {{{leader3}}} }}
+{{!}}-
+| #default      = 
+}}
+}}
+{{#if:{{{party1|}}}|<!-- Party name 1, 2, 3 -->
+! width="75" style="text-align: left" {{!}} Xisbiga
+{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party1}}}|[[{{{party1}}}|{{Template: {{{party1}}}/meta/shortname}}]]}}
+{{#if:{{{party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party2}}}|[[{{{party2}}}|{{Template: {{{party2}}}/meta/shortname}}]]}} }}
+{{#if:{{{party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party3}}}|[[{{{party3}}}|{{Template: {{{party3}}}/meta/shortname}}]]}} }}
+}}
+|-
+{{#if:{{{alliance1|}}}|<!-- Alliance name 1, 2, 3 -->
+! style="text-align: left" {{!}} Alliance
+{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance1|}}}|{{{alliance1}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance1}}}|[[{{{alliance1}}}|{{Template: {{{alliance1}}}/meta/shortname}}]]}} }}
+{{#if:{{{alliance2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance2|}}}|{{{alliance2}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance2}}}|[[{{{alliance2}}}|{{Template: {{{alliance2}}}/meta/shortname}}]]}} }} }}
+{{#if:{{{alliance3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance3|}}}|{{{alliance3}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance3}}}|[[{{{alliance3}}}|{{Template: {{{alliance3}}}/meta/shortname}}]]}} }} }}
+}}
+|-<!-- Halka uu iska soo sharaxay 1, 2, 3 -->
+{{#if:{{{home_state1|}}}|
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+! style="text-align: left" {{!}} Halka uu ka&nbsp;Soo jeedo
+{{!}} width="70" style="text-align: center" {{!}} {{{home_state1}}}{{#if:{{{home_state2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state2}}} }}{{#if:{{{home_state3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state3}}} }}
+| #default      = 
+}}
+}}
+|-<!-- Qofka u ololeeynaya 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{running_mate1|}}}|
+! style="text-align: left" {{!}} Qofka&nbsp;la heelan
+{{!}} width="70" style="text-align: center" {{!}} {{{running_mate1}}}{{#if:{{{running_mate2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{running_mate2}}}}}{{#if:{{{running_mate3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{running_mate3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Electoral vote 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{electoral_vote1|}}}|
+! style="text-align: left" {{!}} Codadka&nbsp;doorashada
+{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote1}}}{{#if:{{{electoral_vote2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{electoral_vote2}}}}}{{#if:{{{electoral_vote3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{electoral_vote3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Delegate count 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{delegate_count1|}}}|
+! style="text-align: left" {{!}} Delegate&nbsp;count
+{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count1}}}{{#if:{{{delegate_count2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{delegate_count2}}}}}{{#if:{{{delegate_count3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{delegate_count3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- States carried 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{states_carried1|}}}|
+! style="text-align: left" {{!}} Gobolada&nbsp;ay ka dhacday
+{{!}} width="70" style="text-align: center" {{!}} {{{states_carried1}}}{{#if:{{{states_carried2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{states_carried2}}}}}{{#if:{{{states_carried3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{states_carried3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Leader since 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leader_since1|}}}|
+! style="text-align: left" {{!}} Leader&nbsp;since
+{{!}} width="70" style="text-align: center" {{!}} {{{leader_since1}}}{{#if:{{{leader_since2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{leader_since2}}}}}{{#if:{{{leader_since3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{leader_since3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Leader seat 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leaders_seat1|}}}|
+! style="text-align: left" {{!}} Leader's&nbsp;seat
+{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat1}}}{{#if:{{{leaders_seat2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{leaders_seat2}}}}}{{#if:{{{leaders_seat3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{leaders_seat3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- last election 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{last_election1|}}}|
+! style="text-align: left" {{!}} Last&nbsp;election
+{{!}} width="70" style="text-align: center" {{!}} {{{last_election1}}}{{#if:{{{last_election2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{last_election2}}}}}{{#if:{{{last_election3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{last_election3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats before 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{seats_before1|}}}|
+! style="text-align: left" {{!}} {{#ifeq:{{{ongoing|}}}|yes|Current&nbsp;seats|Seats&nbsp;before}}
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_before1}}}{{#if:{{{seats_before2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats_before2}}}}}{{#if:{{{seats_before3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats_before3}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats needed 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{seats_needed1|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;needed
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed1}}}
+{{#if:{{{seats_needed2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed2}}}}}
+{{#if:{{{seats_needed3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats1|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;won
+{{!}} width="70" style="text-align: center" {{!}} {{{seats1}}}{{#if:{{{seats2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats2}}}}}{{#if:{{{seats3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats after 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats_after1|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;after
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_after1}}}{{#if:{{{seats_after2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats_after2}}}}}{{#if:{{{seats_after3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seats_after3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seat change 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seat_change1|}}}|
+! style="text-align: left" {{!}} Seat&nbsp;change
+{{!}} width="70" style="text-align: center" {{!}} {{{seat_change1}}}{{#if:{{{seat_change2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seat_change2}}}}}{{#if:{{{seat_change3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{seat_change3}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- popular vote 1, 2, 3 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{popular_vote1|}}}|
+! style="text-align: left" {{!}} {{{vote_type|Shacabka}}}&nbsp;Codeeyey
+{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote1}}}{{#if:{{{popular_vote2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{popular_vote2}}}}}{{#if:{{{popular_vote3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{popular_vote3}}}}}
+}}
+}}
+|-<!-- percentage 1, 2, 3 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{percentage1|}}}|
+! style="text-align: left" {{!}} Boqolkiiba
+{{!}} width="70" style="text-align: center" {{!}} {{{percentage1}}}{{#if:{{{percentage2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{percentage2}}}}}{{#if:{{{percentage3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{percentage3}}}}}
+}}
+}}
+|-<!-- swing 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{swing1|}}}|
+! style="text-align: left" {{!}} Ubadin
+{{!}} width="70" style="text-align: center" {{!}} {{{swing1}}}{{#if:{{{swing2|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{swing2}}}}}{{#if:{{{swing3|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{swing3}}}}}
+}}
+}}
+| #default      = 
+}}
+{{#if:{{{opinion_polls|}}}||
+{{!}}-<!-- Presidential poll nominee 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee1|}}}|nominee|candidate}}1|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee1|}}}|nominee|candidate}}1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date1|}}}|1|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source1|}}}| [{{{poll1_source{{#if:{{{poll1_source1|}}}|1|}}}}}]}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee1|}}}|nominee|candidate}}1|}}}| {{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee1|}}}|nominee|candidate}}1}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee2|}}}|nominee|candidate}}2|}}}| {{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee2|}}}|nominee|candidate}}2}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee3|}}}|nominee|candidate}}3|}}}| {{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee3|}}}|nominee|candidate}}3}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_{{#if:{{{poll2_nominee1|}}}|nominee|candidate}}1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date1|}}}|1|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source1|}}}| [{{{poll2_source{{#if:{{{poll2_source1|}}}|1|}}}}}]}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee1|}}}|nominee|candidate}}1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee1|}}}|nominee|candidate}}1}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee2|}}}|nominee|candidate}}2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee2|}}}|nominee|candidate}}2}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee3|}}}|nominee|candidate}}3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee3|}}}|nominee|candidate}}3}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_{{#if:{{{poll3_nominee1|}}}|nominee|candidate}}1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date1|}}}|1|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source1|}}}| [{{{poll3_source{{#if:{{{poll3_source1|}}}|1|}}}}}]}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee1|}}}|nominee|candidate}}1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee1|}}}|nominee|candidate}}1}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee2|}}}|nominee|candidate}}2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee2|}}}|nominee|candidate}}2}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee3|}}}|nominee|candidate}}3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee3|}}}|nominee|candidate}}3}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_{{#if:{{{poll4_nominee1|}}}|nominee|candidate}}1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date1|}}}|1|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source1|}}}| [{{{poll4_source{{#if:{{{poll4_source1|}}}|1|}}}}}]}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee1|}}}|nominee|candidate}}1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee1|}}}|nominee|candidate}}1}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee2|}}}|nominee|candidate}}2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee2|}}}|nominee|candidate}}2}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee3|}}}|nominee|candidate}}3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee3|}}}|nominee|candidate}}3}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_{{#if:{{{poll5_nominee1|}}}|nominee|candidate}}1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date1|}}}|1|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source1|}}}| [{{{poll5_source{{#if:{{{poll5_source1|}}}|1|}}}}}]}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee1|}}}|nominee|candidate}}1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee1|}}}|nominee|candidate}}1}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee2|}}}|nominee|candidate}}2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee2|}}}|nominee|candidate}}2}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee3|}}}|nominee|candidate}}3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee3|}}}|nominee|candidate}}3}}}}}
+}}
+| #default      = 
+}}
+{{!}}-<!-- Legislative poll nominee 1, 2, 3 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party1|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date1|}}}|1|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source1|}}}| [{{{poll1_source{{#if:{{{poll1_source1|}}}|1|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party1}}}
+{{#if:{{{poll1_party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party2}}}}}
+{{#if:{{{poll1_party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party3}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_party1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date1|}}}|1|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source1|}}}| [{{{poll2_source{{#if:{{{poll2_source1|}}}|1|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party1}}}
+{{#if:{{{poll2_party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party2}}}}}
+{{#if:{{{poll2_party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party3}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_party1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date1|}}}|1|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source1|}}}| [{{{poll3_source{{#if:{{{poll3_source1|}}}|1|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party1}}}
+{{#if:{{{poll3_party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party2}}}}}
+{{#if:{{{poll3_party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party3}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_party1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date1|}}}|1|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source1|}}}| [{{{poll4_source{{#if:{{{poll4_source1|}}}|1|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party1}}}
+{{#if:{{{poll4_party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party2}}}}}
+{{#if:{{{poll4_party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party3}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_party1|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date1|}}}|1|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source1|}}}| [{{{poll5_source{{#if:{{{poll5_source1|}}}|1|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party1}}}
+{{#if:{{{poll5_party2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party2}}}}}
+{{#if:{{{poll5_party3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party3}}}}}
+}}
+}}
+| #default      = 
+}}}}
+|-<!-- Blank field 1, 2, 3 -->
+{{#if:{{{1blank|}}}|
+! style="text-align: left" {{!}} {{{1blank}}}
+{{#if:{{{1data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data1}}}}}
+{{#if:{{{1data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data2}}}}}
+{{#if:{{{1data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data3}}}}}
+}}
+{{#if:{{{2blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{2blank}}}
+{{#if:{{{2data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data1}}}}}
+{{#if:{{{2data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data2}}}}}
+{{#if:{{{2data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data3}}}}}
+}}
+{{#if:{{{3blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{3blank}}}
+{{#if:{{{3data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data1}}}}}
+{{#if:{{{3data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data2}}}}}
+{{#if:{{{3data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data3}}}}}
+}}
+{{#if:{{{4blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{4blank}}}
+{{#if:{{{4data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data1}}}}}
+{{#if:{{{4data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data2}}}}}
+{{#if:{{{4data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data3}}}}}
+}}
+{{#if:{{{5blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{5blank}}}
+{{#if:{{{5data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data1}}}}}
+{{#if:{{{5data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data2}}}}}
+{{#if:{{{5data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data3}}}}}
+}}
+{{#if:{{{6blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{6blank}}}
+{{#if:{{{6data1|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data1}}}}}
+{{#if:{{{6data2|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data2}}}}}
+{{#if:{{{6data3|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data3}}}}}
+}}
+|-
+{{#if:{{{party4|}}}{{{color4|}}}{{{colour4|}}}{{{leader4|}}}|
+{{!}} colspan=4 {{!}} <hr />
+{{!}}-
+}}
+{{#ifeq:{{{ongoing|}}}|yes||{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = {{#if:{{{party4|}}}|
+! align="left" {{!}} &nbsp;
+{{#if:{{{party4|}}}|! style="text-align: center" {{!}} {{#if:{{{party3|}}}|Fourth party|Third party}} }}
+{{#if:{{{party5|}}}|! style="text-align: center" {{!}} {{#if:{{{party3|}}}|Fifth party|Fourth party}} }}
+{{#if:{{{party6|}}}|! style="text-align: center" {{!}} {{#if:{{{party3|}}}|Sixth party|Fifth party}} }}
+}}
+| #default      = 
+}}}}
+{{#if:{{{party4|}}}{{{color4|}}}{{{colour4|}}}|<!-- Images 4, 5, 6 -->
+{{!}}-
+! &nbsp;
+{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color4|}}}{{{colour4|}}}|<nowiki>#</nowiki>{{{color4|{{{colour4|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party4|}}}/meta/color|{{Template:{{{party4|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image4|}}}}}|{{{image4}}}}}
+{{#if:{{{party5|}}}{{{color5|}}}{{{colour5|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color5|}}}{{{colour5|}}}|<nowiki>#</nowiki>{{{color5|{{{colour5|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party5|}}}/meta/color|{{Template:{{{party5|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image5|}}}}}|{{{image5}}}}}}}
+{{#if:{{{party6|}}}{{{color6|}}}{{{colour6|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color6|}}}{{{colour6|}}}|<nowiki>#</nowiki>{{{color6|{{{colour6|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party6|}}}/meta/color|{{Template:{{{party6|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{Hide if placeholder image|{{{image6|}}}}}|{{{image6}}}}}}}
+}}
+|-<!-- Presidential & by-election nominee/candidate 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential 
+| by-election
+| By-election   = 
+{{#if:{{{nominee4|}}}{{{candidate4|}}}|
+! style="text-align: left" {{!}} {{#if:{{{nominee4|}}}|Nominee|Candidate}}}}
+{{#if:{{{nominee4|}}}{{{candidate4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee4|{{{candidate4|}}}}}}}}
+{{#if:{{{nominee5|}}}{{{candidate5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee5|{{{candidate5|}}}}}}}}
+{{#if:{{{nominee6|}}}{{{candidate6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee6|{{{candidate6|}}}}}}}}
+| #default      = 
+}}
+|-<!-- Party leader 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leader4|}}}|
+! style="text-align: left" {{!}} Leader
+{{!}} width="70" style="text-align: center" {{!}} {{{leader4}}}
+{{#if:{{{leader5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader5}}}}}
+{{#if:{{{leader6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Party name 4, 5, 6 -->
+{{#if:{{{party4|}}}|
+! width="75" style="text-align: left" {{!}} Party
+{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party4}}}|[[{{{party4}}}|{{Template: {{{party4}}}/meta/shortname}}]]}}
+{{#if:{{{party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party5}}}|[[{{{party5}}}|{{Template: {{{party5}}}/meta/shortname}}]]}} }}
+{{#if:{{{party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party6}}}|[[{{{party6}}}|{{Template: {{{party6}}}/meta/shortname}}]]}} }}
+}}
+|-
+{{#if:{{{alliance4|}}}|<!-- Alliance name 4, 5, 6 -->
+! style="text-align: left" {{!}} Alliance
+{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance4|}}}|{{{alliance4}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance4}}}|[[{{{alliance4}}}|{{Template: {{{alliance4}}}/meta/shortname}}]]}} }}
+{{#if:{{{alliance5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance5|}}}|{{{alliance5}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance5}}}|[[{{{alliance5}}}|{{Template: {{{alliance5}}}/meta/shortname}}]]}} }} }}
+{{#if:{{{alliance6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance6|}}}|{{{alliance6}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance6}}}|[[{{{alliance6}}}|{{Template: {{{alliance6}}}/meta/shortname}}]]}} }} }}
+}}
+|-<!-- Home state 4, 5, 6 -->
+{{#if:{{{home_state4|}}}|
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+! style="text-align: left" {{!}} Home&nbsp;state
+{{!}} width="70" style="text-align: center" {{!}} {{{home_state4}}}{{#if:{{{home_state5|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state5}}} }}{{#if:{{{home_state6|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state6}}} }}
+| #default      = 
+}}
+}}
+|-<!-- Running mate 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{running_mate4|}}}|
+! style="text-align: left" {{!}} Running&nbsp;mate
+{{!}} width="70" style="text-align: center" {{!}} {{{running_mate4}}}
+{{#if:{{{running_mate5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{running_mate5}}}}}
+{{#if:{{{running_mate6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{running_mate6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Electoral vote 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{electoral_vote4|}}}|
+! style="text-align: left" {{!}} Electoral&nbsp;vote
+{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote4}}}
+{{#if:{{{electoral_vote5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote5}}}}}
+{{#if:{{{electoral_vote6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Delegate count 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{delegate_count4|}}}|
+! style="text-align: left" {{!}} Delegate&nbsp;count
+{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count4}}}
+{{#if:{{{delegate_count5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count5}}}}}
+{{#if:{{{delegate_count6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- States carried 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{states_carried4|}}}|
+! style="text-align: left" {{!}} States&nbsp;carried
+{{!}} width="70" style="text-align: center" {{!}} {{{states_carried4}}}
+{{#if:{{{states_carried5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{states_carried5}}}}}
+{{#if:{{{states_carried6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{states_carried6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Leader since 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leader_since4|}}}|
+! style="text-align: left" {{!}} Leader&nbsp;since
+{{!}} width="70" style="text-align: center" {{!}} {{{leader_since4}}}
+{{#if:{{{leader_since5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader_since5}}}}}
+{{#if:{{{leader_since6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader_since6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Leader seat 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leaders_seat4|}}}|
+! style="text-align: left" {{!}} Leader's&nbsp;seat
+{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat4}}}
+{{#if:{{{leaders_seat5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat5}}}}}
+{{#if:{{{leaders_seat6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- last election 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{last_election4|}}}|
+! style="text-align: left" {{!}} Last&nbsp;election
+{{!}} width="70" style="text-align: center" {{!}} {{{last_election4}}}
+{{#if:{{{last_election5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{last_election5}}}}}
+{{#if:{{{last_election6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{last_election6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats before 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{seats_before4|}}}|
+! style="text-align: left" {{!}} {{#ifeq:{{{ongoing|}}}|yes|Current&nbsp;seats|Seats&nbsp;before}}
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_before4}}}
+{{#if:{{{seats_before5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_before5}}}}}
+{{#if:{{{seats_before6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_before6}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats needed 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{seats_needed4|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;needed
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed4}}}
+{{#if:{{{seats_needed5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed5}}}}}
+{{#if:{{{seats_needed6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats4|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;won
+{{!}} width="70" style="text-align: center" {{!}} {{{seats4}}}
+{{#if:{{{seats5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats5}}}}}
+{{#if:{{{seats6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats after 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats_after4|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;after
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_after4}}}
+{{#if:{{{seats_after5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_after5}}}}}
+{{#if:{{{seats_after6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_after6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seat change 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seat_change4|}}}|
+! style="text-align: left" {{!}} Seat&nbsp;change
+{{!}} width="70" style="text-align: center" {{!}} {{{seat_change4}}}
+{{#if:{{{seat_change5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seat_change5}}}}}
+{{#if:{{{seat_change6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seat_change6}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- popular vote 4, 5, 6 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{popular_vote4|}}}|
+! style="text-align: left" {{!}} {{{vote_type|Popular}}}&nbsp;vote
+{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote4}}}
+{{#if:{{{popular_vote5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote5}}}}}
+{{#if:{{{popular_vote6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote6}}}}}
+}}
+}}
+|-<!-- percentage 4, 5, 6 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{percentage4|}}}|
+! style="text-align: left" {{!}} Percentage
+{{!}} width="70" style="text-align: center" {{!}} {{{percentage4}}}
+{{#if:{{{percentage5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{percentage5}}}}}
+{{#if:{{{percentage6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{percentage6}}}}}
+}}
+}}
+|-<!-- swing 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{swing4|}}}|
+! style="text-align: left" {{!}} Swing
+{{!}} width="70" style="text-align: center" {{!}} {{{swing4}}}
+{{#if:{{{swing5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{swing5}}}}}
+{{#if:{{{swing6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{swing6}}}}}
+}}
+}}
+| #default      = 
+}}
+{{#if:{{{opinion_polls|}}}||
+{{!}}-<!-- Presidential poll nominee 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee4|}}}|nominee|candidate}}4|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee4|}}}|nominee|candidate}}4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date2|}}}|2|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source2|}}}| [{{{poll1_source{{#if:{{{poll1_source2|}}}|2|}}}}}]}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee4|}}}|nominee|candidate}}4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee4|}}}|nominee|candidate}}4}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee5|}}}|nominee|candidate}}5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee5|}}}|nominee|candidate}}5}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee6|}}}|nominee|candidate}}6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee6|}}}|nominee|candidate}}6}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_{{#if:{{{poll2_nominee4|}}}|nominee|candidate}}4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date2|}}}|2|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source2|}}}| [{{{poll2_source{{#if:{{{poll2_source2|}}}|2|}}}}}]}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee4|}}}|nominee|candidate}}4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee4|}}}|nominee|candidate}}4}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee5|}}}|nominee|candidate}}5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee5|}}}|nominee|candidate}}5}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee6|}}}|nominee|candidate}}6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee6|}}}|nominee|candidate}}6}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_{{#if:{{{poll3_nominee4|}}}|nominee|candidate}}4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date2|}}}|2|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source2|}}}| [{{{poll3_source{{#if:{{{poll3_source2|}}}|2|}}}}}]}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee4|}}}|nominee|candidate}}4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee4|}}}|nominee|candidate}}4}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee5|}}}|nominee|candidate}}5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee5|}}}|nominee|candidate}}5}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee6|}}}|nominee|candidate}}6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee6|}}}|nominee|candidate}}6}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_{{#if:{{{poll4_nominee4|}}}|nominee|candidate}}4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date2|}}}|2|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source2|}}}| [{{{poll4_source{{#if:{{{poll4_source2|}}}|2|}}}}}]}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee4|}}}|nominee|candidate}}4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee4|}}}|nominee|candidate}}4}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee5|}}}|nominee|candidate}}5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee5|}}}|nominee|candidate}}5}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee6|}}}|nominee|candidate}}6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee6|}}}|nominee|candidate}}6}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_{{#if:{{{poll5_nominee4|}}}|nominee|candidate}}4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date2|}}}|2|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source2|}}}| [{{{poll5_source{{#if:{{{poll5_source2|}}}|2|}}}}}]}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee4|}}}|nominee|candidate}}4|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee4|}}}|nominee|candidate}}4}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee5|}}}|nominee|candidate}}5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee5|}}}|nominee|candidate}}5}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee6|}}}|nominee|candidate}}6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee6|}}}|nominee|candidate}}6}}}}}
+}}
+| #default      = 
+}}
+{{!}}-<!-- Legislative poll nominee 4, 5, 6 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party4|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date2|}}}|2|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source2|}}}| [{{{poll1_source{{#if:{{{poll1_source2|}}}|2|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party4}}}
+{{#if:{{{poll1_party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party5}}}}}
+{{#if:{{{poll1_party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party6}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_party4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date2|}}}|2|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source2|}}}| [{{{poll2_source{{#if:{{{poll2_source2|}}}|2|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party4}}}
+{{#if:{{{poll2_party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party5}}}}}
+{{#if:{{{poll2_party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party6}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_party4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date2|}}}|2|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source2|}}}| [{{{poll3_source{{#if:{{{poll3_source2|}}}|2|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party4}}}
+{{#if:{{{poll3_party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party5}}}}}
+{{#if:{{{poll3_party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party6}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_party4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date2|}}}|2|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source2|}}}| [{{{poll4_source{{#if:{{{poll4_source2|}}}|2|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party4}}}
+{{#if:{{{poll4_party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party5}}}}}
+{{#if:{{{poll4_party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party6}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   =
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_party4|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date2|}}}|2|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source2|}}}| [{{{poll5_source{{#if:{{{poll5_source2|}}}|2|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party4}}}
+{{#if:{{{poll5_party5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party5}}}}}
+{{#if:{{{poll5_party6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party6}}}}}
+}}
+}}
+| #default      = 
+}}}}
+|-<!-- Blank field 4, 5, 6 -->
+{{#if:{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{{party4|}}}}}{{{nominee4|}}}{{{candidate4|}}}|
+{{#if:{{{1blank|}}}|
+! style="text-align: left" {{!}} {{{1blank}}}
+{{#if:{{{1data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{1data4}}}}}
+{{#if:{{{1data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data5}}}}}
+{{#if:{{{1data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data6}}}}}
+}}
+{{#if:{{{2blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{2blank}}}
+{{#if:{{{2data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{2data4}}}}}
+{{#if:{{{2data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data5}}}}}
+{{#if:{{{2data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data6}}}}}
+}}
+{{#if:{{{3blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{3blank}}}
+{{#if:{{{3data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{3data4}}}}}
+{{#if:{{{3data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data5}}}}}
+{{#if:{{{3data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data6}}}}}
+}}
+{{#if:{{{4blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{4blank}}}
+{{#if:{{{4data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{4data4}}}}}
+{{#if:{{{4data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data5}}}}}
+{{#if:{{{4data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data6}}}}}
+}}
+{{#if:{{{5blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{5blank}}}
+{{#if:{{{5data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{5data4}}}}}
+{{#if:{{{5data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data5}}}}}
+{{#if:{{{5data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data6}}}}}
+}}
+{{#if:{{{6blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{6blank}}}
+{{#if:{{{6data4|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{6data4}}}}}
+{{#if:{{{6data5|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data5}}}}}
+{{#if:{{{6data6|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data6}}}}}
+}}}}
+|-
+{{#if:{{{party7|}}}{{{color7|}}}{{{colour7|}}}{{{leader7|}}}|
+{{!}} colspan=4 {{!}} <hr />
+{{!}}-
+}}
+{{#ifeq:{{{ongoing|}}}|yes||{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = {{#if:{{{party7|}}}|
+! align="left" {{!}} &nbsp;
+{{#if:{{{party7|}}}|! style="text-align: center" {{!}} {{#switch:{{#expr:{{#if:{{{party3|}}}|1|0}}+{{#if:{{{party6|}}}|1|0}}}}|0=Fifth party|1=Sixth party|2=Seventh party}} }}
+{{#if:{{{party8|}}}|! style="text-align: center" {{!}} {{#switch:{{#expr:{{#if:{{{party3|}}}|1|0}}+{{#if:{{{party6|}}}|1|0}}}}|0=Sixth party|1=Seventh party|2=Eighth party}} }}
+{{#if:{{{party9|}}}|! style="text-align: center" {{!}} {{#switch:{{#expr:{{#if:{{{party3|}}}|1|0}}+{{#if:{{{party6|}}}|1|0}}}}|0=Seventh party|1=Eighth party|2=Ninth party}} }}
+}}
+| #default      = 
+}}}}
+{{#if:{{{party7|}}}{{{color7|}}}{{{colour7|}}}|<!-- Images 7, 8, 9 -->
+{{!}}-
+! &nbsp;
+{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color7|}}}{{{colour7|}}}|<nowiki>#</nowiki>{{{color7|{{{colour7|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party7|}}}/meta/color|{{Template:{{{party7|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{{image7|}}}|{{{image7}}}}}
+{{#if:{{{party8|}}}{{{color8|}}}{{{colour8|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color8|}}}{{{colour8|}}}|<nowiki>#</nowiki>{{{color8|{{{colour8|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party8|}}}/meta/color|{{Template:{{{party8|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{{image8|}}}|{{{image8}}}}}}}
+{{#if:{{{party9|}}}{{{color9|}}}{{{colour9|}}}|{{!}} style="text-align: center; border-bottom: 6px solid {{#if:{{{color9|}}}{{{colour9|}}}|<nowiki>#</nowiki>{{{color9|{{{colour9|}}}}}}|{{#ifeq: {{{party_colo{{#if:{{{party_colour|}}}|u|}}r}}}|no|-|{{#ifexist: Template:{{{party9|}}}/meta/color|{{Template:{{{party9|}}}/meta/color}}|-}}}}}}"{{!}} {{#if:{{{image9|}}}|{{{image9}}}}}}}
+}}
+|-<!-- Presidential & by-election nominee/candidate 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential 
+| by-election
+| By-election   = 
+{{#if:{{{nominee7|}}}{{{candidate7|}}}|
+! style="text-align: left" {{!}} {{#if:{{{nominee7|}}}|Nominee|Candidate}}}}
+{{#if:{{{nominee7|}}}{{{candidate7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee7|{{{candidate7|}}}}}}}}
+{{#if:{{{nominee8|}}}{{{candidate8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee8|{{{candidate8|}}}}}}}}
+{{#if:{{{nominee9|}}}{{{candidate9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{nominee9|{{{candidate9|}}}}}}}}
+| #default      = 
+}}
+|-<!-- Party leader 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leader7|}}}|
+! style="text-align: left" {{!}} Leader
+{{!}} width="70" style="text-align: center" {{!}} {{{leader7}}}
+{{#if:{{{leader8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader8}}}}}
+{{#if:{{{leader9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader9}}}}}
+}}
+| #default      = 
+}}
+|-
+{{#if:{{{party7|}}}|<!-- Party name 7, 8, 9 -->
+! width="75" style="text-align: left" {{!}} Party
+{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party7}}}|[[{{{party7}}}|{{Template: {{{party7}}}/meta/shortname}}]]}}
+{{#if:{{{party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party8}}}|[[{{{party8}}}|{{Template: {{{party8}}}/meta/shortname}}]]}} }}
+{{#if:{{{party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#ifeq: {{{party_name}}}|no|{{{party9}}}|[[{{{party9}}}|{{Template: {{{party9}}}/meta/shortname}}]]}} }}
+}}
+|-
+{{#if:{{{alliance7|}}}|<!-- Alliance name 7, 8, 9 -->
+! style="text-align: left" {{!}} Alliance
+{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance7|}}}|{{{alliance7}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance7}}}|[[{{{alliance7}}}|{{Template: {{{alliance7}}}/meta/shortname}}]]}} }}
+{{#if:{{{alliance8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance8|}}}|{{{alliance8}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance8}}}|[[{{{alliance8}}}|{{Template: {{{alliance8}}}/meta/shortname}}]]}} }} }}
+{{#if:{{{alliance9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{#switch:{{{alliance_name|}}}| no={{#if:{{{alliance9|}}}|{{{alliance3}}} }}| #default= {{#ifeq: {{{alliance_name}}}|no|{{{alliance9}}}|[[{{{alliance9}}}|{{Template: {{{alliance9}}}/meta/shortname}}]]}} }} }}
+}}
+|-<!-- Home state 7, 8, 9 -->
+{{#if:{{{home_state7|}}}|
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+! style="text-align: left" {{!}} Home&nbsp;state
+{{!}} width="70" style="text-align: center" {{!}} {{{home_state7}}}{{#if:{{{home_state8|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state8}}} }}{{#if:{{{home_state9|}}}| {{!!}} width="70" style="text-align: center" {{!}} {{{home_state9}}} }}
+| #default      = 
+}}
+}}
+|-<!-- Running mate 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{running_mate7|}}}|
+! style="text-align: left" {{!}} Running&nbsp;mate
+{{!}} width="70" style="text-align: center" {{!}} {{{running_mate7}}}
+{{#if:{{{running_mate8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{running_mate8}}}}}
+{{#if:{{{running_mate9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{running_mate9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Electoral vote 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{electoral_vote7|}}}|
+! style="text-align: left" {{!}} Electoral&nbsp;vote
+{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote7}}}
+{{#if:{{{electoral_vote8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote8}}}}}
+{{#if:{{{electoral_vote9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{electoral_vote9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Delegate count 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#if:{{{delegate_count7|}}}|
+! style="text-align: left" {{!}} Delegate&nbsp;count
+{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count7}}}
+{{#if:{{{delegate_count8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count8}}}}}
+{{#if:{{{delegate_count9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{delegate_count9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- States carried 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{states_carried7|}}}|
+! style="text-align: left" {{!}} States&nbsp;carried
+{{!}} width="70" style="text-align: center" {{!}} {{{states_carried7}}}
+{{#if:{{{states_carried8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{states_carried8}}}}}
+{{#if:{{{states_carried9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{states_carried9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- Leader since 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leader_since7|}}}|
+! style="text-align: left" {{!}} Leader&nbsp;since
+{{!}} width="70" style="text-align: center" {{!}} {{{leader_since7}}}
+{{#if:{{{leader_since8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader_since8}}}}}
+{{#if:{{{leader_since9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leader_since9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- Leader seat 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{leaders_seat7|}}}|
+! style="text-align: left" {{!}} Leader's&nbsp;seat
+{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat7}}}
+{{#if:{{{leaders_seat8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat8}}}}}
+{{#if:{{{leaders_seat9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{leaders_seat9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- last election 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{last_election7|}}}|
+! style="text-align: left" {{!}} Last&nbsp;election
+{{!}} width="70" style="text-align: center" {{!}} {{{last_election7}}}
+{{#if:{{{last_election8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{last_election8}}}}}
+{{#if:{{{last_election9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{last_election9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats before 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#if:{{{seats_before7|}}}|
+! style="text-align: left" {{!}} {{#ifeq:{{{ongoing|}}}|yes|Current&nbsp;seats|Seats&nbsp;before}}
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_before7}}}
+{{#if:{{{seats_before8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_before8}}}}}
+{{#if:{{{seats_before9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_before9}}}}}
+}}
+| #default      = 
+}}
+|-<!-- seats needed 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{seats_needed7|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;needed
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed7}}}
+{{#if:{{{seats_needed8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed8}}}}}
+{{#if:{{{seats_needed9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_needed9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats7|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;won
+{{!}} width="70" style="text-align: center" {{!}} {{{seats7}}}
+{{#if:{{{seats8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats8}}}}}
+{{#if:{{{seats9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seats after 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seats_after7|}}}|
+! style="text-align: left" {{!}} Seats&nbsp;after
+{{!}} width="70" style="text-align: center" {{!}} {{{seats_after7}}}
+{{#if:{{{seats_after8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_after8}}}}}
+{{#if:{{{seats_after9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seats_after9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- seat change 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{seat_change7|}}}|
+! style="text-align: left" {{!}} Seat&nbsp;change
+{{!}} width="70" style="text-align: center" {{!}} {{{seat_change7}}}
+{{#if:{{{seat_change8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seat_change8}}}}}
+{{#if:{{{seat_change9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{seat_change9}}}}}
+}}
+}}
+| #default      = 
+}}
+|-<!-- popular vote 7, 8, 9 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{popular_vote7|}}}|
+! style="text-align: left" {{!}} {{{vote_type|Popular}}}&nbsp;vote
+{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote7}}}
+{{#if:{{{popular_vote8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote8}}}}}
+{{#if:{{{popular_vote9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{popular_vote9}}}}}
+}}
+}}
+|-<!-- percentage 7, 8, 9 -->
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{percentage7|}}}|
+! style="text-align: left" {{!}} Percentage
+{{!}} width="70" style="text-align: center" {{!}} {{{percentage7}}}
+{{#if:{{{percentage8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{percentage8}}}}}
+{{#if:{{{percentage9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{percentage9}}}}}
+}}
+}}
+|-<!-- swing 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes||
+{{#if:{{{swing7|}}}|
+! style="text-align: left" {{!}} Swing
+{{!}} width="70" style="text-align: center" {{!}} {{{swing7}}}
+{{#if:{{{swing8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{swing8}}}}}
+{{#if:{{{swing9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{swing9}}}}}
+}}
+}}
+| #default      = 
+}}
+{{#if:{{{opinion_polls|}}}||
+{{!}}-<!-- Presidential poll nominee 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee7|}}}|nominee|candidate}}7|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_{{#if:{{{poll1_nominee7|}}}|nominee|candidate}}7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date3|}}}|3|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source3|}}}| [{{{poll1_source{{#if:{{{poll1_source3|}}}|3|}}}}}]}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee7|}}}|nominee|candidate}}7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee7|}}}|nominee|candidate}}7}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee8|}}}|nominee|candidate}}8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee8|}}}|nominee|candidate}}8}}}}}
+{{#if:{{{poll1_{{#if:{{{poll1_nominee9|}}}|nominee|candidate}}9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_{{#if:{{{poll1_nominee9|}}}|nominee|candidate}}9}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_{{#if:{{{poll2_nominee7|}}}|nominee|candidate}}7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date3|}}}|3|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source3|}}}| [{{{poll2_source{{#if:{{{poll2_source3|}}}|3|}}}}}]}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee7|}}}|nominee|candidate}}7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee7|}}}|nominee|candidate}}7}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee8|}}}|nominee|candidate}}8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee8|}}}|nominee|candidate}}8}}}}}
+{{#if:{{{poll2_{{#if:{{{poll2_nominee9|}}}|nominee|candidate}}9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_{{#if:{{{poll2_nominee9|}}}|nominee|candidate}}9}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_{{#if:{{{poll3_nominee7|}}}|nominee|candidate}}7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date3|}}}|3|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source3|}}}| [{{{poll3_source{{#if:{{{poll3_source3|}}}|3|}}}}}]}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee7|}}}|nominee|candidate}}7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee7|}}}|nominee|candidate}}7}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee8|}}}|nominee|candidate}}8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee8|}}}|nominee|candidate}}8}}}}}
+{{#if:{{{poll3_{{#if:{{{poll3_nominee9|}}}|nominee|candidate}}9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_{{#if:{{{poll3_nominee9|}}}|nominee|candidate}}9}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_{{#if:{{{poll4_nominee7|}}}|nominee|candidate}}7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date3|}}}|3|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source3|}}}| [{{{poll4_source{{#if:{{{poll4_source3|}}}|3|}}}}}]}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee7|}}}|nominee|candidate}}7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee7|}}}|nominee|candidate}}7}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee8|}}}|nominee|candidate}}8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee8|}}}|nominee|candidate}}8}}}}}
+{{#if:{{{poll4_{{#if:{{{poll4_nominee9|}}}|nominee|candidate}}9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_{{#if:{{{poll4_nominee9|}}}|nominee|candidate}}9}}}}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| presidential
+| Presidential = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_{{#if:{{{poll5_nominee7|}}}|nominee|candidate}}7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date3|}}}|3|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source3|}}}| [{{{poll5_source{{#if:{{{poll5_source3|}}}|3|}}}}}]}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee7|}}}|nominee|candidate}}7|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee7|}}}|nominee|candidate}}7}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee8|}}}|nominee|candidate}}8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee8|}}}|nominee|candidate}}8}}}}}
+{{#if:{{{poll5_{{#if:{{{poll5_nominee9|}}}|nominee|candidate}}9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_{{#if:{{{poll5_nominee9|}}}|nominee|candidate}}9}}}}}
+}}
+| #default      = 
+}}
+{{!}}-<!-- Legislative poll nominee 7, 8, 9 -->
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party7|}}}|
+! colspan=4 {{!}} Opinion&nbsp;polls
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll1_party7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll1_date{{#if:{{{poll1_date3|}}}|3|}}}}}{{#if:{{{poll1_source|}}}{{{poll1_source3|}}}| [{{{poll1_source{{#if:{{{poll1_source3|}}}|3|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party7}}}
+{{#if:{{{poll1_party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party8}}}}}
+{{#if:{{{poll1_party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll1_party9}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll2_party7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll2_date{{#if:{{{poll2_date3|}}}|3|}}}}}{{#if:{{{poll2_source|}}}{{{poll2_source3|}}}| [{{{poll2_source{{#if:{{{poll2_source3|}}}|3|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party7}}}
+{{#if:{{{poll2_party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party8}}}}}
+{{#if:{{{poll2_party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll2_party9}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll3_party7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll3_date{{#if:{{{poll3_date3|}}}|3|}}}}}{{#if:{{{poll3_source|}}}{{{poll3_source3|}}}| [{{{poll3_source{{#if:{{{poll3_source3|}}}|3|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party7}}}
+{{#if:{{{poll3_party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party8}}}}}
+{{#if:{{{poll3_party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll3_party9}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll4_party7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll4_date{{#if:{{{poll4_date3|}}}|3|}}}}}{{#if:{{{poll4_source|}}}{{{poll4_source3|}}}| [{{{poll4_source{{#if:{{{poll4_source3|}}}|3|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party7}}}
+{{#if:{{{poll4_party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party8}}}}}
+{{#if:{{{poll4_party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll4_party9}}}}}
+}}
+}}
+| #default      = 
+}}
+{{!}}-
+{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   =
+{{#ifeq:{{{ongoing|}}}|yes|
+{{#if:{{{poll5_party7|}}}|
+! style="text-align: left; white-space: nowrap" {{!}} {{{poll5_date{{#if:{{{poll5_date3|}}}|3|}}}}}{{#if:{{{poll5_source|}}}{{{poll5_source3|}}}| [{{{poll5_source{{#if:{{{poll5_source3|}}}|3|}}}}}]}}
+{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party7}}}
+{{#if:{{{poll5_party8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party8}}}}}
+{{#if:{{{poll5_party9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{poll5_party9}}}}}
+}}
+}}
+| #default      = 
+}}}}
+|-<!-- Blank field 7, 8, 9 -->
+{{#if:{{#switch:{{{type|}}}
+| parliamentary
+| Parliamentary
+| legislative
+| Legislative   = 
+{{{party7|}}}}}{{{nominee7|}}}{{{candidate7|}}}|
+{{#if:{{{1blank|}}}|
+! style="text-align: left" {{!}} {{{1blank}}}
+{{#if:{{{1data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{1data7}}}}}
+{{#if:{{{1data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data8}}}}}
+{{#if:{{{1data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{1data9}}}}}
+}}
+{{#if:{{{2blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{2blank}}}
+{{#if:{{{2data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{2data7}}}}}
+{{#if:{{{2data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data8}}}}}
+{{#if:{{{2data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{2data9}}}}}
+}}
+{{#if:{{{3blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{3blank}}}
+{{#if:{{{3data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{3data7}}}}}
+{{#if:{{{3data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data8}}}}}
+{{#if:{{{3data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{3data9}}}}}
+}}
+{{#if:{{{4blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{4blank}}}
+{{#if:{{{4data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{4data7}}}}}
+{{#if:{{{4data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data8}}}}}
+{{#if:{{{4data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{4data9}}}}}
+}}
+{{#if:{{{5blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{5blank}}}
+{{#if:{{{5data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{5data7}}}}}
+{{#if:{{{5data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data8}}}}}
+{{#if:{{{5data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{5data9}}}}}
+}}
+{{#if:{{{6blank|}}}|
+{{!}}-
+! style="text-align: left" {{!}} {{{6blank}}}
+{{#if:{{{6data7|}}}|
+{{!}} width="70" style="text-align: center" {{!}} {{{6data7}}}}}
+{{#if:{{{6data8|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data8}}}}}
+{{#if:{{{6data9|}}}|{{!}} width="70" style="text-align: center" {{!}} {{{6data9}}}}}
+}}}}
+|}
+|-<!-- map -->
+{{#if:{{{map_image|}}}{{{map|}}}|
+{{!}} {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} style="text-align: center" colspan=4 {{!}} <hr />
+{{#if:{{{map_image|}}}|[[file:{{{map_image}}}|{{#if:{{{map_size|}}}|{{{map_size}}}|300px}}|{{#if:{{{map_alt|}}}|alt={{{map_alt|}}}|}}]]|{{{map}}}}}
+{{!}}-
+{{#if:{{{map_caption|}}}|
+{{!}} {{#if:{{{map_image|}}}{{{map|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan=4 style="text-align: center" {{!}} {{{map_caption|}}}
+{{!}}-
+}}
+}}
+{{#if:{{{map2_image|}}}{{{map2|}}}|
+{{!}} {{#if:{{{map2_image|}}}|{{#if:{{{map2_size|}}}|{{#ifeq:{{Str rightc|{{{map2_size}}}|2}}|px|width="{{Str number/trim|{{{map2_size}}}}}"}}|width="300"}}}} style="text-align: center" colspan=4 {{!}} <hr />
+{{#if:{{{map2_image|}}}|[[file:{{{map2_image}}}|{{#if:{{{map2_size|}}}|{{{map2_size}}}|300px}}|{{#if:{{{map2_alt|}}}|alt={{{map2_alt|}}}|}}]]|{{{map2}}}}}
+{{!}}-
+{{#if:{{{map2_caption|}}}|
+{{!}} {{#if:{{{map2_image|}}}|{{#if:{{{map2_size|}}}|{{#ifeq:{{Str rightc|{{{map2_size}}}|2}}|px|width="{{Str number/trim|{{{map2_size}}}}}"}}|width="300"}}}} colspan=4 style="text-align: center" {{!}} {{{map2_caption|}}}
+{{!}}-
+}}
+}}
+{{#if:{{{map3_image|}}}{{{map3|}}}|
+{{!}} {{#if:{{{map3_image|}}}|{{#if:{{{map3_size|}}}|{{#ifeq:{{Str rightc|{{{map3_size}}}|2}}|px|width="{{Str number/trim|{{{map3_size}}}}}"}}|width="300"}}}} style="text-align: center" colspan=4 {{!}} <hr />
+{{#if:{{{map3_image|}}}|[[file:{{{map3_image}}}|{{#if:{{{map3_size|}}}|{{{map3_size}}}|300px}}|{{#if:{{{map3_alt|}}}|alt={{{map3_alt|}}}|}}]]|{{{map3}}}}}
+{{!}}-
+{{#if:{{{map3_caption|}}}|
+{{!}} {{#if:{{{map3_image|}}}|{{#if:{{{map3_size|}}}|{{#ifeq:{{Str rightc|{{{map3_size}}}|2}}|px|width="{{Str number/trim|{{{map3_size}}}}}"}}|width="300"}}}} colspan=4 style="text-align: center" {{!}} {{{map3_caption|}}}
+{{!}}-
+}}
+}}
+{{#if:{{{map4_image|}}}{{{map4|}}}|
+{{!}} {{#if:{{{map4_image|}}}|{{#if:{{{map4_size|}}}|{{#ifeq:{{Str rightc|{{{map4_size}}}|2}}|px|width="{{Str number/trim|{{{map4_size}}}}}"}}|width="300"}}}} style="text-align: center" colspan=4 {{!}} <hr />
+{{#if:{{{map4_image|}}}|[[file:{{{map4_image}}}|{{#if:{{{map4_size|}}}|{{{map4_size}}}|300px}}|{{#if:{{{map4_alt|}}}|alt={{{map4_alt|}}}|}}]]|{{{map4}}}}}
+{{!}}-
+{{#if:{{{map4_caption|}}}|
+{{!}} {{#if:{{{map4_image|}}}|{{#if:{{{map4_size|}}}|{{#ifeq:{{Str rightc|{{{map4_size}}}|2}}|px|width="{{Str number/trim|{{{map4_size}}}}}"}}|width="300"}}}} colspan=4 style="text-align: center" {{!}} {{{map4_caption|}}}
+{{!}}-
+}}
+}}
+{{#if:{{{title|}}}|
+{{!}} {{#if:{{{map_image|}}}|{{#if:{{{map_size|}}}|{{#ifeq:{{Str rightc|{{{map_size}}}|2}}|px|width="{{Str number/trim|{{{map_size}}}}}"}}|width="300"}}}} colspan=4 {{!}} <hr />
+{{{!}} cellspacing="0" cellpadding="0" style="background:transparent; width:100%;"
+{{!}} style="width:50%; text-align:left; text-size: 80%" {{!}}'''{{#if:{{{before_election|}}}{{{before_party|}}}|{{#ifeq:{{{ongoing|}}}|yes|Incumbent {{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}}|{{#ifeq:{{{title}}}|U.S. Senator|[[List of United States Senators from {{{country}}}|{{{title}}}]]|{{{title}}}}} before election}}'''<br />
+{{{before_election}}}<br />
+{{#if:{{{before_party|}}}|{{#ifeq: {{{party_name}}}|no|{{{before_party}}}|[[{{{before_party}}}|{{Template: {{{before_party}}}/meta/shortname}}]]}} }} }}
+{{!}} style="width:50%; text-align:right; text-size: 80%" {{!}}{{#ifeq:{{{ongoing|}}}|yes||'''{{#if:{{{posttitle|}}}|{{{posttitle}}}|Elected {{{title}}}}}'''<br />
+{{#if:{{{after_election|}}}|{{{after_election}}}|}}{{#if:{{{after_election|}}}{{{after_party|}}}||TBD}}<br />
+{{#if:{{{after_party|}}}|{{#ifeq: {{{party_name}}}|no|{{{after_party}}}|[[{{{after_party}}}|{{Template: {{{after_party}}}/meta/shortname}}]]}} }} }}
+{{!}}} }}
+|}</includeonly><noinclude>{{Documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
