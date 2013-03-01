@@ -1,23 +1,23 @@
-; {{larger|How to manage this template's visibility}}
-* Use <code>{&#123;<!--
+; {{larger|Sidii aad umaamuli lahayd Template kaan si loo arko}}
+* Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
-  --><noinclude>''Template name''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}collapsed}}</code>&nbsp; <!--
-  -->to show this template in its collapsed (hidden) state.
-* Use <code>{&#123;<!--
+  --><noinclude>''Magaca Template-ka''</noinclude> <!--
+  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}Dhicis}}</code>&nbsp; <!--
+  -->si loo arko templateka dhicidda (Qarin) Dalka.
+* Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
-  --><noinclude>''Template name''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}expanded}}</code>&nbsp; <!--
-  -->to show this template in its expanded (fully visible) state.
-* Use <code>{&#123;<!--
+  --><noinclude>''Magaca Template-ka''</noinclude> <!--
+  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}balaarin}}</code>&nbsp; <!--
+  -->si balaaran loo arko temlatekaan (muuqaal buuxa) Dalka.
+* Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
-  --><noinclude>''Template name''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}autocollapse}}</code>&nbsp; <!--
-  -->to show this template in its collapsed (hidden) state '''''only if''''' there is another template of the same type on the page.
+  --><noinclude>''Magaca Template-ka''</noinclude> <!--
+  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}dhicista iskeed}}</code>&nbsp; <!--
+  -->si loo arko templateka dhicidda (Qarin) dalka '''''kaliya hadii''''' uu jiro template kale oo isku nuuc ah ee bogga ku jira.
 *   {{#if:{{{state|{{{default|}}}}}}
-     | '''{{{state|{{{default}}}}}}''' has been set as
-     | Unless set otherwise (see ''state'' parameter within the template's code), autocollapse is
-    }} the default state.<noinclude>
+     | '''{{{state|{{{default}}}}}}''' waxaa loo badalay
+     | Hadii aanuu jirin (eeg ''dalka'' wax rogaha ee template ka), dhicista iskeed ah waa
+    }} mala awaal dalka.<noinclude>
 
 {{documentation}}
 <!-- Add categories, interwiki links etc on the bottom of /doc page, not here -->
