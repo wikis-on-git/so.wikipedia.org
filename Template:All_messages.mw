@@ -1,0 +1,3877 @@
+This is a list of all messages available in the MediaWiki: namespace
+
+<table border=1 width=100%><tr><td>
+  '''Name'''
+</td><td>
+  '''Default text'''
+</td><td>
+  '''Current text'''
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:1movedto2&action=edit 1movedto2]
+</td><td>
+  $1 moved to $2
+</td><td>
+  {{MSGNW:1movedto2}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:About&action=edit about]
+</td><td>
+  About
+</td><td>
+  {{MSGNW:about}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Aboutpage&action=edit aboutpage]
+</td><td>
+  Wikipedia:About
+</td><td>
+  {{MSGNW:aboutpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Aboutwikipedia&action=edit aboutwikipedia]
+</td><td>
+  About Wikipedia
+</td><td>
+  {{MSGNW:aboutwikipedia}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Accmailtext&action=edit accmailtext]
+</td><td>
+  The Password for &#39;$1&#39; has been sent to $2.
+</td><td>
+  {{MSGNW:accmailtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Accmailtitle&action=edit accmailtitle]
+</td><td>
+  Password sent.
+</td><td>
+  {{MSGNW:accmailtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Actioncomplete&action=edit actioncomplete]
+</td><td>
+  Action complete
+</td><td>
+  {{MSGNW:actioncomplete}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Addedwatch&action=edit addedwatch]
+</td><td>
+  Added to watchlist
+</td><td>
+  {{MSGNW:addedwatch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Addedwatchtext&action=edit addedwatchtext]
+</td><td>
+  The page &quot;$1&quot; has been added to your &lt;a href=&quot;/wiki/Special:Watchlist&quot;&gt;watchlist&lt;/a&gt;.
+Future changes to this page and its associated Talk page will be listed there,
+and the page will appear &lt;b&gt;bolded&lt;/b&gt; in the &lt;a href=&quot;/wiki/Special:Recentchanges&quot;&gt;list of recent changes&lt;/a&gt; to
+make it easier to pick out.&lt;/p&gt;
+
+&lt;p&gt;If you want to remove the page from your watchlist later, click &quot;Stop watching&quot; in the sidebar.
+</td><td>
+  {{MSGNW:addedwatchtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Administrators&action=edit administrators]
+</td><td>
+  Wikipedia:Administrators
+</td><td>
+  {{MSGNW:administrators}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Affirmation&action=edit affirmation]
+</td><td>
+  I affirm that the copyright holder of this file
+agrees to license it under the terms of the $1.
+</td><td>
+  {{MSGNW:affirmation}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:All&action=edit all]
+</td><td>
+  all
+</td><td>
+  {{MSGNW:all}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Allmessages&action=edit allmessages]
+</td><td>
+  All_messages
+</td><td>
+  {{MSGNW:allmessages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Allmessagestext&action=edit allmessagestext]
+</td><td>
+  This is a list of all messages available in the MediaWiki: namespace
+</td><td>
+  {{MSGNW:allmessagestext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Allpages&action=edit allpages]
+</td><td>
+  All pages
+</td><td>
+  {{MSGNW:allpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Alphaindexline&action=edit alphaindexline]
+</td><td>
+  $1 to $2
+</td><td>
+  {{MSGNW:alphaindexline}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Alreadyloggedin&action=edit alreadyloggedin]
+</td><td>
+  &lt;font color=red&gt;&lt;b&gt;User $1, you are already logged in!&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+
+</td><td>
+  {{MSGNW:alreadyloggedin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Alreadyrolled&action=edit alreadyrolled]
+</td><td>
+  Cannot rollback last edit of &#91;&#91;$1]]
+by &#91;&#91;User:$2&#124;$2]] (&#91;&#91;User talk:$2&#124;Talk]]); someone else has edited or rolled back the article already. 
+
+Last edit was by &#91;&#91;User:$3&#124;$3]] (&#91;&#91;User talk:$3&#124;Talk]]). 
+</td><td>
+  {{MSGNW:alreadyrolled}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ancientpages&action=edit ancientpages]
+</td><td>
+  Oldest articles
+</td><td>
+  {{MSGNW:ancientpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Anontalkpagetext&action=edit anontalkpagetext]
+</td><td>
+  ---- &#39;&#39;This is the discussion page for an anonymous user who has not created an account yet or who does not use it. We therefore have to use the numerical &#91;&#91;IP address]] to identify him/her. Such an IP address can be shared by several users. If you are an anonymous user and feel that irrelevant comments have been directed at you, please &#91;&#91;Special:Userlogin&#124;create an account or log in]] to avoid future confusion with other anonymous users.&#39;&#39; 
+</td><td>
+  {{MSGNW:anontalkpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Articleexists&action=edit articleexists]
+</td><td>
+  A page of that name already exists, or the
+name you have chosen is not valid.
+Please choose another name.
+</td><td>
+  {{MSGNW:articleexists}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Articlepage&action=edit articlepage]
+</td><td>
+  View article
+</td><td>
+  {{MSGNW:articlepage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Asksql&action=edit asksql]
+</td><td>
+  SQL query
+</td><td>
+  {{MSGNW:asksql}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Asksqltext&action=edit asksqltext]
+</td><td>
+  Use the form below to make a direct query of the
+database.
+Use single quotes (&#39;like this&#39;) to delimit string literals.
+This can often add considerable load to the server, so please use
+this function sparingly.
+</td><td>
+  {{MSGNW:asksqltext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Autoblocker&action=edit autoblocker]
+</td><td>
+  Autoblocked because you share an IP address with &quot;$1&quot;. Reason &quot;$2&quot;.
+</td><td>
+  {{MSGNW:autoblocker}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badarticleerror&action=edit badarticleerror]
+</td><td>
+  This action cannot be performed on this page.
+</td><td>
+  {{MSGNW:badarticleerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badfilename&action=edit badfilename]
+</td><td>
+  Image name has been changed to &quot;$1&quot;.
+</td><td>
+  {{MSGNW:badfilename}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badfiletype&action=edit badfiletype]
+</td><td>
+  &quot;.$1&quot; is not a recommended image file format.
+</td><td>
+  {{MSGNW:badfiletype}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badipaddress&action=edit badipaddress]
+</td><td>
+  No user exists by that name
+</td><td>
+  {{MSGNW:badipaddress}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badquery&action=edit badquery]
+</td><td>
+  Badly formed search query
+</td><td>
+  {{MSGNW:badquery}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badquerytext&action=edit badquerytext]
+</td><td>
+  We could not process your query.
+This is probably because you have attempted to search for a
+word fewer than three letters long, which is not yet supported.
+It could also be that you have mistyped the expression, for
+example &quot;fish and and scales&quot;.
+Please try another query.
+</td><td>
+  {{MSGNW:badquerytext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badretype&action=edit badretype]
+</td><td>
+  The passwords you entered do not match.
+</td><td>
+  {{MSGNW:badretype}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badtitle&action=edit badtitle]
+</td><td>
+  Bad title
+</td><td>
+  {{MSGNW:badtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Badtitletext&action=edit badtitletext]
+</td><td>
+  The requested page title was invalid, empty, or
+an incorrectly linked inter-language or inter-wiki title.
+</td><td>
+  {{MSGNW:badtitletext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blanknamespace&action=edit blanknamespace]
+</td><td>
+  (Main)
+</td><td>
+  {{MSGNW:blanknamespace}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockedtext&action=edit blockedtext]
+</td><td>
+  Your user name or IP address has been blocked by $1.
+The reason given is this:&lt;br&gt;&#39;&#39;$2&#39;&#39;&lt;p&gt;You may contact $1 or one of the other
+&#91;&#91;Wikipedia:Administrators&#124;administrators]] to discuss the block.
+
+Note that you may not use the &quot;email this user&quot; feature unless you have a valid email address registered in your &#91;&#91;Special:Preferences&#124;user preferences]].
+
+Your IP address is $3. Please include this address in any queries you make.
+
+&#61;=Note to AOL users==
+Due to continuing acts of vandalism by one particular AOL user, Wikipedia often blocks AOL proxies. Unfortunately, a single proxy server may be used by a large number of AOL users, and hence innocent AOL users are often inadvertently blocked. We apologise for any inconvenience caused.
+
+If this happens to you, please email an administrator, using an AOL email address. Be sure to include the IP address given above.
+
+</td><td>
+  {{MSGNW:blockedtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockedtitle&action=edit blockedtitle]
+</td><td>
+  User is blocked
+</td><td>
+  {{MSGNW:blockedtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockip&action=edit blockip]
+</td><td>
+  Block user
+</td><td>
+  {{MSGNW:blockip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockipsuccesssub&action=edit blockipsuccesssub]
+</td><td>
+  Block succeeded
+</td><td>
+  {{MSGNW:blockipsuccesssub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockipsuccesstext&action=edit blockipsuccesstext]
+</td><td>
+  &quot;$1&quot; has been blocked.
+&lt;br&gt;See &#91;&#91;Special:Ipblocklist&#124;IP block list]] to review blocks.
+</td><td>
+  {{MSGNW:blockipsuccesstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blockiptext&action=edit blockiptext]
+</td><td>
+  Use the form below to block write access
+from a specific IP address or username.
+This should be done only only to prevent vandalism, and in
+accordance with &#91;&#91;Wikipedia:Policy&#124;policy]].
+Fill in a specific reason below (for example, citing particular
+pages that were vandalized).
+</td><td>
+  {{MSGNW:blockiptext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blocklink&action=edit blocklink]
+</td><td>
+  block
+</td><td>
+  {{MSGNW:blocklink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blocklistline&action=edit blocklistline]
+</td><td>
+  $1, $2 blocked $3
+</td><td>
+  {{MSGNW:blocklistline}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blocklogentry&action=edit blocklogentry]
+</td><td>
+  blocked &quot;$1&quot;
+</td><td>
+  {{MSGNW:blocklogentry}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blocklogpage&action=edit blocklogpage]
+</td><td>
+  Block_log
+</td><td>
+  {{MSGNW:blocklogpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Blocklogtext&action=edit blocklogtext]
+</td><td>
+  This is a log of user blocking and unblocking actions. Automatically 
+blocked IP addresses are not be listed. See the &#91;&#91;Special:Ipblocklist&#124;IP block list]] for
+the list of currently operational bans and blocks.
+</td><td>
+  {{MSGNW:blocklogtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bold_sample&action=edit bold_sample]
+</td><td>
+  Bold text
+</td><td>
+  {{MSGNW:bold_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bold_tip&action=edit bold_tip]
+</td><td>
+  Bold text
+</td><td>
+  {{MSGNW:bold_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Booksources&action=edit booksources]
+</td><td>
+  Book sources
+</td><td>
+  {{MSGNW:booksources}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Booksourcetext&action=edit booksourcetext]
+</td><td>
+  Below is a list of links to other sites that
+sell new and used books, and may also have further information
+about books you are looking for.
+Wikipedia is not affiliated with any of these businesses, and
+this list should not be construed as an endorsement.
+</td><td>
+  {{MSGNW:booksourcetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Brokenredirects&action=edit brokenredirects]
+</td><td>
+  Broken Redirects
+</td><td>
+  {{MSGNW:brokenredirects}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Brokenredirectstext&action=edit brokenredirectstext]
+</td><td>
+  The following redirects link to a non-existing article.
+</td><td>
+  {{MSGNW:brokenredirectstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bugreports&action=edit bugreports]
+</td><td>
+  Bug reports
+</td><td>
+  {{MSGNW:bugreports}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bugreportspage&action=edit bugreportspage]
+</td><td>
+  Wikipedia:Bug_reports
+</td><td>
+  {{MSGNW:bugreportspage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bureaucratlog&action=edit bureaucratlog]
+</td><td>
+  Bureaucrat_log
+</td><td>
+  {{MSGNW:bureaucratlog}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bureaucratlogentry&action=edit bureaucratlogentry]
+</td><td>
+   set $1: $2
+</td><td>
+  {{MSGNW:bureaucratlogentry}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bureaucrattext&action=edit bureaucrattext]
+</td><td>
+  The action you have requested can only be
+performed by sysops with  &quot;bureaucrat&quot; status.
+</td><td>
+  {{MSGNW:bureaucrattext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bureaucrattitle&action=edit bureaucrattitle]
+</td><td>
+  Bureaucrat access required
+</td><td>
+  {{MSGNW:bureaucrattitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bydate&action=edit bydate]
+</td><td>
+  by date
+</td><td>
+  {{MSGNW:bydate}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Byname&action=edit byname]
+</td><td>
+  by name
+</td><td>
+  {{MSGNW:byname}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Bysize&action=edit bysize]
+</td><td>
+  by size
+</td><td>
+  {{MSGNW:bysize}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Cachederror&action=edit cachederror]
+</td><td>
+  The following is a cached copy of the requested page, and may not be up to date.
+</td><td>
+  {{MSGNW:cachederror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Cancel&action=edit cancel]
+</td><td>
+  Cancel
+</td><td>
+  {{MSGNW:cancel}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Cannotdelete&action=edit cannotdelete]
+</td><td>
+  Could not delete the page or image specified. (It may have already been deleted by someone else.)
+</td><td>
+  {{MSGNW:cannotdelete}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Cantrollback&action=edit cantrollback]
+</td><td>
+  Cannot revert edit; last contributor is only author of this article.
+</td><td>
+  {{MSGNW:cantrollback}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Categories&action=edit categories]
+</td><td>
+  Page categories
+</td><td>
+  {{MSGNW:categories}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Category&action=edit category]
+</td><td>
+  category
+</td><td>
+  {{MSGNW:category}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Category_header&action=edit category_header]
+</td><td>
+  Articles in category &quot;$1&quot;
+</td><td>
+  {{MSGNW:category_header}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Changepassword&action=edit changepassword]
+</td><td>
+  Change password
+</td><td>
+  {{MSGNW:changepassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Changes&action=edit changes]
+</td><td>
+  changes
+</td><td>
+  {{MSGNW:changes}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Columns&action=edit columns]
+</td><td>
+  Columns
+</td><td>
+  {{MSGNW:columns}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Commentedit&action=edit commentedit]
+</td><td>
+   (comment)
+</td><td>
+  {{MSGNW:commentedit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Confirm&action=edit confirm]
+</td><td>
+  Confirm
+</td><td>
+  {{MSGNW:confirm}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Confirmcheck&action=edit confirmcheck]
+</td><td>
+  Yes, I really want to delete this.
+</td><td>
+  {{MSGNW:confirmcheck}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Confirmdelete&action=edit confirmdelete]
+</td><td>
+  Confirm delete
+</td><td>
+  {{MSGNW:confirmdelete}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Confirmdeletetext&action=edit confirmdeletetext]
+</td><td>
+  You are about to permanently delete a page
+or image along with all of its history from the database.
+Please confirm that you intend to do this, that you understand the
+consequences, and that you are doing this in accordance with
+&#91;&#91;Wikipedia:Policy]].
+</td><td>
+  {{MSGNW:confirmdeletetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Contextchars&action=edit contextchars]
+</td><td>
+  Characters of context per line
+</td><td>
+  {{MSGNW:contextchars}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Contextlines&action=edit contextlines]
+</td><td>
+  Lines to show per hit
+</td><td>
+  {{MSGNW:contextlines}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Contribslink&action=edit contribslink]
+</td><td>
+  contribs
+</td><td>
+  {{MSGNW:contribslink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Contribsub&action=edit contribsub]
+</td><td>
+  For $1
+</td><td>
+  {{MSGNW:contribsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Contributions&action=edit contributions]
+</td><td>
+  User contributions
+</td><td>
+  {{MSGNW:contributions}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Copyrightpage&action=edit copyrightpage]
+</td><td>
+  Wikipedia:Copyrights
+</td><td>
+  {{MSGNW:copyrightpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Copyrightpagename&action=edit copyrightpagename]
+</td><td>
+  Wikipedia copyright
+</td><td>
+  {{MSGNW:copyrightpagename}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Copyrightwarning&action=edit copyrightwarning]
+</td><td>
+  Please note that all contributions to Wikipedia are
+considered to be released under the GNU Free Documentation License
+(see $1 for details).
+If you don&#39;t want your writing to be edited mercilessly and redistributed
+at will, then don&#39;t submit it here.&lt;br&gt;
+You are also promising us that you wrote this yourself, or copied it from a
+public domain or similar free resource.
+&lt;strong&gt;DO NOT SUBMIT COPYRIGHTED WORK WITHOUT PERMISSION!&lt;/strong&gt;
+</td><td>
+  {{MSGNW:copyrightwarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Couldntremove&action=edit couldntremove]
+</td><td>
+  Couldn&#39;t remove item &#39;$1&#39;...
+</td><td>
+  {{MSGNW:couldntremove}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Createaccount&action=edit createaccount]
+</td><td>
+  Create new account
+</td><td>
+  {{MSGNW:createaccount}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Createaccountmail&action=edit createaccountmail]
+</td><td>
+  by eMail
+</td><td>
+  {{MSGNW:createaccountmail}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Cur&action=edit cur]
+</td><td>
+  cur
+</td><td>
+  {{MSGNW:cur}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Currentevents&action=edit currentevents]
+</td><td>
+  Current events
+</td><td>
+  {{MSGNW:currentevents}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Currentrev&action=edit currentrev]
+</td><td>
+  Current revision
+</td><td>
+  {{MSGNW:currentrev}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Databaseerror&action=edit databaseerror]
+</td><td>
+  Database error
+</td><td>
+  {{MSGNW:databaseerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Dateformat&action=edit dateformat]
+</td><td>
+  Date format
+</td><td>
+  {{MSGNW:dateformat}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Dberrortext&action=edit dberrortext]
+</td><td>
+  A database query syntax error has occurred.
+This could be because of an illegal search query (see $5),
+or it may indicate a bug in the software.
+The last attempted database query was:
+&lt;blockquote&gt;&lt;tt&gt;$1&lt;/tt&gt;&lt;/blockquote&gt;
+from within function &quot;&lt;tt&gt;$2&lt;/tt&gt;&quot;.
+MySQL returned error &quot;&lt;tt&gt;$3: $4&lt;/tt&gt;&quot;.
+</td><td>
+  {{MSGNW:dberrortext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Dberrortextcl&action=edit dberrortextcl]
+</td><td>
+  A database query syntax error has occurred.
+The last attempted database query was:
+&quot;$1&quot;
+from within function &quot;$2&quot;.
+MySQL returned error &quot;$3: $4&quot;.
+
+</td><td>
+  {{MSGNW:dberrortextcl}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deadendpages&action=edit deadendpages]
+</td><td>
+  Dead-end pages
+</td><td>
+  {{MSGNW:deadendpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Debug&action=edit debug]
+</td><td>
+  Debug
+</td><td>
+  {{MSGNW:debug}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Defaultns&action=edit defaultns]
+</td><td>
+  Search in these namespaces by default:
+</td><td>
+  {{MSGNW:defaultns}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Defemailsubject&action=edit defemailsubject]
+</td><td>
+  Wikipedia e-mail
+</td><td>
+  {{MSGNW:defemailsubject}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletecomment&action=edit deletecomment]
+</td><td>
+  Reason for deletion
+</td><td>
+  {{MSGNW:deletecomment}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletedarticle&action=edit deletedarticle]
+</td><td>
+  deleted &quot;$1&quot;
+</td><td>
+  {{MSGNW:deletedarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletedtext&action=edit deletedtext]
+</td><td>
+  &quot;$1&quot; has been deleted.
+See $2 for a record of recent deletions.
+</td><td>
+  {{MSGNW:deletedtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deleteimg&action=edit deleteimg]
+</td><td>
+  del
+</td><td>
+  {{MSGNW:deleteimg}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletepage&action=edit deletepage]
+</td><td>
+  Delete page
+</td><td>
+  {{MSGNW:deletepage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletesub&action=edit deletesub]
+</td><td>
+  (Deleting &quot;$1&quot;)
+</td><td>
+  {{MSGNW:deletesub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletethispage&action=edit deletethispage]
+</td><td>
+  Delete this page
+</td><td>
+  {{MSGNW:deletethispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Deletionlog&action=edit deletionlog]
+</td><td>
+  deletion log
+</td><td>
+  {{MSGNW:deletionlog}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Dellogpage&action=edit dellogpage]
+</td><td>
+  Deletion_log
+</td><td>
+  {{MSGNW:dellogpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Dellogpagetext&action=edit dellogpagetext]
+</td><td>
+  Below is a list of the most recent deletions.
+All times shown are server time (UTC).
+&lt;ul&gt;
+&lt;/ul&gt;
+
+</td><td>
+  {{MSGNW:dellogpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Developerspheading&action=edit developerspheading]
+</td><td>
+  For developer use only
+</td><td>
+  {{MSGNW:developerspheading}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Developertext&action=edit developertext]
+</td><td>
+  The action you have requested can only be
+performed by users with &quot;developer&quot; status.
+See $1.
+</td><td>
+  {{MSGNW:developertext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Developertitle&action=edit developertitle]
+</td><td>
+  Developer access required
+</td><td>
+  {{MSGNW:developertitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Diff&action=edit diff]
+</td><td>
+  diff
+</td><td>
+  {{MSGNW:diff}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Difference&action=edit difference]
+</td><td>
+  (Difference between revisions)
+</td><td>
+  {{MSGNW:difference}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Disambiguations&action=edit disambiguations]
+</td><td>
+  Disambiguation pages
+</td><td>
+  {{MSGNW:disambiguations}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Disambiguationspage&action=edit disambiguationspage]
+</td><td>
+  Wikipedia:Links_to_disambiguating_pages
+</td><td>
+  {{MSGNW:disambiguationspage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Disambiguationstext&action=edit disambiguationstext]
+</td><td>
+  The following articles link to a &lt;i&gt;disambiguation page&lt;/i&gt;. They should link to the appropriate topic instead.&lt;br&gt;A page is treated as dismbiguation if it is linked from $1.&lt;br&gt;Links from other namespaces are &lt;i&gt;not&lt;/i&gt; listed here.
+</td><td>
+  {{MSGNW:disambiguationstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Disclaimerpage&action=edit disclaimerpage]
+</td><td>
+  Wikipedia:General_disclaimer
+</td><td>
+  {{MSGNW:disclaimerpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Disclaimers&action=edit disclaimers]
+</td><td>
+  Disclaimers
+</td><td>
+  {{MSGNW:disclaimers}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Doubleredirects&action=edit doubleredirects]
+</td><td>
+  Double Redirects
+</td><td>
+  {{MSGNW:doubleredirects}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Doubleredirectstext&action=edit doubleredirectstext]
+</td><td>
+  &lt;b&gt;Attention:&lt;/b&gt; This list may contain false positives. That usually means there is additional text with links below the first #REDIRECT.&lt;br&gt;
+Each row contains links to the first and second redirect, as well as the first line of the second redirect text, usually giving the &quot;real&quot; taget article, which the first redirect should point to.
+</td><td>
+  {{MSGNW:doubleredirectstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editcomment&action=edit editcomment]
+</td><td>
+  The edit comment was: &quot;&lt;i&gt;$1&lt;/i&gt;&quot;.
+</td><td>
+  {{MSGNW:editcomment}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editconflict&action=edit editconflict]
+</td><td>
+  Edit conflict: $1
+</td><td>
+  {{MSGNW:editconflict}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editcurrent&action=edit editcurrent]
+</td><td>
+  Edit the current version of this page
+</td><td>
+  {{MSGNW:editcurrent}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Edithelp&action=edit edithelp]
+</td><td>
+  Editing help
+</td><td>
+  {{MSGNW:edithelp}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Edithelppage&action=edit edithelppage]
+</td><td>
+  Wikipedia:How_does_one_edit_a_page
+</td><td>
+  {{MSGNW:edithelppage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editing&action=edit editing]
+</td><td>
+  Editing $1
+</td><td>
+  {{MSGNW:editing}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editingold&action=edit editingold]
+</td><td>
+  &lt;strong&gt;WARNING: You are editing an out-of-date
+revision of this page.
+If you save it, any changes made since this revision will be lost.&lt;/strong&gt;
+
+</td><td>
+  {{MSGNW:editingold}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editsection&action=edit editsection]
+</td><td>
+  edit
+</td><td>
+  {{MSGNW:editsection}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Editthispage&action=edit editthispage]
+</td><td>
+  Edit this page
+</td><td>
+  {{MSGNW:editthispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailflag&action=edit emailflag]
+</td><td>
+  Disable e-mail from other users
+</td><td>
+  {{MSGNW:emailflag}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailforlost&action=edit emailforlost]
+</td><td>
+  * Entering an email address is optional.  But it enables people to
+contact you through the website without you having to reveal your 
+email address to them, and it also helps you if you forget your   
+password.
+</td><td>
+  {{MSGNW:emailforlost}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailfrom&action=edit emailfrom]
+</td><td>
+  From
+</td><td>
+  {{MSGNW:emailfrom}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailmessage&action=edit emailmessage]
+</td><td>
+  Message
+</td><td>
+  {{MSGNW:emailmessage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailpage&action=edit emailpage]
+</td><td>
+  E-mail user
+</td><td>
+  {{MSGNW:emailpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailpagetext&action=edit emailpagetext]
+</td><td>
+  If this user has entered a valid e-mail address in
+his or her user preferences, the form below will send a single message.
+The e-mail address you entered in your user preferences will appear
+as the &quot;From&quot; address of the mail, so the recipient will be able
+to reply.
+</td><td>
+  {{MSGNW:emailpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailsend&action=edit emailsend]
+</td><td>
+  Send
+</td><td>
+  {{MSGNW:emailsend}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailsent&action=edit emailsent]
+</td><td>
+  E-mail sent
+</td><td>
+  {{MSGNW:emailsent}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailsenttext&action=edit emailsenttext]
+</td><td>
+  Your e-mail message has been sent.
+</td><td>
+  {{MSGNW:emailsenttext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailsubject&action=edit emailsubject]
+</td><td>
+  Subject
+</td><td>
+  {{MSGNW:emailsubject}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailto&action=edit emailto]
+</td><td>
+  To
+</td><td>
+  {{MSGNW:emailto}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Emailuser&action=edit emailuser]
+</td><td>
+  E-mail this user
+</td><td>
+  {{MSGNW:emailuser}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Enterlockreason&action=edit enterlockreason]
+</td><td>
+  Enter a reason for the lock, including an estimate
+of when the lock will be released
+</td><td>
+  {{MSGNW:enterlockreason}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Error&action=edit error]
+</td><td>
+  Error
+</td><td>
+  {{MSGNW:error}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Errorpagetitle&action=edit errorpagetitle]
+</td><td>
+  Error
+</td><td>
+  {{MSGNW:errorpagetitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Exbeforeblank&action=edit exbeforeblank]
+</td><td>
+  content before blanking was:
+</td><td>
+  {{MSGNW:exbeforeblank}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Exblank&action=edit exblank]
+</td><td>
+  page was empty
+</td><td>
+  {{MSGNW:exblank}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Excontent&action=edit excontent]
+</td><td>
+  content was:
+</td><td>
+  {{MSGNW:excontent}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Explainconflict&action=edit explainconflict]
+</td><td>
+  Someone else has changed this page since you
+started editing it.
+The upper text area contains the page text as it currently exists.
+Your changes are shown in the lower text area.
+You will have to merge your changes into the existing text.
+&lt;b&gt;Only&lt;/b&gt; the text in the upper text area will be saved when you
+press &quot;Save page&quot;.
+&lt;p&gt;
+</td><td>
+  {{MSGNW:explainconflict}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Export&action=edit export]
+</td><td>
+  Export pages
+</td><td>
+  {{MSGNW:export}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Exportcuronly&action=edit exportcuronly]
+</td><td>
+  Include only the current revision, not the full history
+</td><td>
+  {{MSGNW:exportcuronly}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Exporttext&action=edit exporttext]
+</td><td>
+  You can export the text and editing history of a particular
+page or set of pages wrapped in some XML; this can then be imported into another
+wiki running MediaWiki software, transformed, or just kept for your private
+amusement.
+</td><td>
+  {{MSGNW:exporttext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Extlink_sample&action=edit extlink_sample]
+</td><td>
+  http&#58;//www.example.com link title
+</td><td>
+  {{MSGNW:extlink_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Extlink_tip&action=edit extlink_tip]
+</td><td>
+  External link (remember http&#58;// prefix)
+</td><td>
+  {{MSGNW:extlink_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Faq&action=edit faq]
+</td><td>
+  FAQ
+</td><td>
+  {{MSGNW:faq}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Faqpage&action=edit faqpage]
+</td><td>
+  Wikipedia:FAQ
+</td><td>
+  {{MSGNW:faqpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filecopyerror&action=edit filecopyerror]
+</td><td>
+  Could not copy file &quot;$1&quot; to &quot;$2&quot;.
+</td><td>
+  {{MSGNW:filecopyerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filedeleteerror&action=edit filedeleteerror]
+</td><td>
+  Could not delete file &quot;$1&quot;.
+</td><td>
+  {{MSGNW:filedeleteerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filedesc&action=edit filedesc]
+</td><td>
+  Summary
+</td><td>
+  {{MSGNW:filedesc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filename&action=edit filename]
+</td><td>
+  Filename
+</td><td>
+  {{MSGNW:filename}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filenotfound&action=edit filenotfound]
+</td><td>
+  Could not find file &quot;$1&quot;.
+</td><td>
+  {{MSGNW:filenotfound}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filerenameerror&action=edit filerenameerror]
+</td><td>
+  Could not rename file &quot;$1&quot; to &quot;$2&quot;.
+</td><td>
+  {{MSGNW:filerenameerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filesource&action=edit filesource]
+</td><td>
+  Source
+</td><td>
+  {{MSGNW:filesource}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Filestatus&action=edit filestatus]
+</td><td>
+  Copyright status
+</td><td>
+  {{MSGNW:filestatus}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Fileuploaded&action=edit fileuploaded]
+</td><td>
+  File &quot;$1&quot; uploaded successfully.
+Please follow this link: ($2) to the description page and fill
+in information about the file, such as where it came from, when it was
+created and by whom, and anything else you may know about it.
+</td><td>
+  {{MSGNW:fileuploaded}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Formerror&action=edit formerror]
+</td><td>
+  Error: could not submit form
+</td><td>
+  {{MSGNW:formerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Fromwikipedia&action=edit fromwikipedia]
+</td><td>
+  From Wikipedia, the free encyclopedia.
+</td><td>
+  {{MSGNW:fromwikipedia}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Getimagelist&action=edit getimagelist]
+</td><td>
+  fetching image list
+</td><td>
+  {{MSGNW:getimagelist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Gnunote&action=edit gnunote]
+</td><td>
+  All text is available under the terms of the &lt;a class=internal href=&#39;/wiki/GNU_FDL&#39;&gt;GNU Free Documentation License&lt;/a&gt;.
+</td><td>
+  {{MSGNW:gnunote}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Go&action=edit go]
+</td><td>
+  Go
+</td><td>
+  {{MSGNW:go}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Googlesearch&action=edit googlesearch]
+</td><td>
+  
+&lt;!-- SiteSearch Google --&gt;
+&lt;FORM method=GET action=&quot;http&#58;//www.google.com/search&quot;&gt;
+&lt;TABLE bgcolor=&quot;#FFFFFF&quot;&gt;&lt;tr&gt;&lt;td&gt;
+&lt;A HREF=&quot;http&#58;//www.google.com/&quot;&gt;
+&lt;IMG SRC=&quot;http&#58;//www.google.com/logos/Logo_40wht.gif&quot;
+border=&quot;0&quot; ALT=&quot;Google&quot;&gt;&lt;/A&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;INPUT TYPE=text name=q size=31 maxlength=255 value=&quot;$1&quot;&gt;
+&lt;INPUT type=submit name=btnG VALUE=&quot;Google Search&quot;&gt;
+&lt;font size=-1&gt;
+&lt;input type=hidden name=domains value=&quot;http&#58;//so.wikipedia.org&quot;&gt;&lt;br&gt;&lt;input type=radio name=sitesearch value=&quot;&quot;&gt; WWW &lt;input type=radio name=sitesearch value=&quot;http&#58;//so.wikipedia.org&quot; checked&gt; http&#58;//so.wikipedia.org &lt;br&gt;
+&lt;input type=&#39;hidden&#39; name=&#39;ie&#39; value=&#39;$2&#39;&gt;
+&lt;input type=&#39;hidden&#39; name=&#39;oe&#39; value=&#39;$2&#39;&gt;
+&lt;/font&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;
+&lt;/FORM&gt;
+&lt;!-- SiteSearch Google --&gt;
+</td><td>
+  {{MSGNW:googlesearch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Guesstimezone&action=edit guesstimezone]
+</td><td>
+  Fill in from browser
+</td><td>
+  {{MSGNW:guesstimezone}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Headline_sample&action=edit headline_sample]
+</td><td>
+  Headline text
+</td><td>
+  {{MSGNW:headline_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Headline_tip&action=edit headline_tip]
+</td><td>
+  Level 2 headline
+</td><td>
+  {{MSGNW:headline_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Help&action=edit help]
+</td><td>
+  Help
+</td><td>
+  {{MSGNW:help}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Helppage&action=edit helppage]
+</td><td>
+  Wikipedia:Help
+</td><td>
+  {{MSGNW:helppage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Hide&action=edit hide]
+</td><td>
+  hide
+</td><td>
+  {{MSGNW:hide}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Hidetoc&action=edit hidetoc]
+</td><td>
+  hide
+</td><td>
+  {{MSGNW:hidetoc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Hist&action=edit hist]
+</td><td>
+  hist
+</td><td>
+  {{MSGNW:hist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Histlegend&action=edit histlegend]
+</td><td>
+  Legend: (cur) = difference with current version,
+(last) = difference with preceding version, M = minor edit
+</td><td>
+  {{MSGNW:histlegend}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:History&action=edit history]
+</td><td>
+  Page history
+</td><td>
+  {{MSGNW:history}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Historywarning&action=edit historywarning]
+</td><td>
+  Warning: The page you are about to delete has a history: 
+</td><td>
+  {{MSGNW:historywarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Hr_tip&action=edit hr_tip]
+</td><td>
+  Horizontal line (use sparingly)
+</td><td>
+  {{MSGNW:hr_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ignorewarning&action=edit ignorewarning]
+</td><td>
+  Ignore warning and save file anyway.
+</td><td>
+  {{MSGNW:ignorewarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ilshowmatch&action=edit ilshowmatch]
+</td><td>
+  Show all images with names matching
+</td><td>
+  {{MSGNW:ilshowmatch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ilsubmit&action=edit ilsubmit]
+</td><td>
+  Search
+</td><td>
+  {{MSGNW:ilsubmit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Image_sample&action=edit image_sample]
+</td><td>
+  Example.jpg
+</td><td>
+  {{MSGNW:image_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Image_tip&action=edit image_tip]
+</td><td>
+  Embedded image
+</td><td>
+  {{MSGNW:image_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imagelinks&action=edit imagelinks]
+</td><td>
+  Image links
+</td><td>
+  {{MSGNW:imagelinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imagelist&action=edit imagelist]
+</td><td>
+  Image list
+</td><td>
+  {{MSGNW:imagelist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imagelisttext&action=edit imagelisttext]
+</td><td>
+  Below is a list of $1 images sorted $2.
+</td><td>
+  {{MSGNW:imagelisttext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imagepage&action=edit imagepage]
+</td><td>
+  View image page
+</td><td>
+  {{MSGNW:imagepage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imagereverted&action=edit imagereverted]
+</td><td>
+  Revert to earlier version was successful.
+</td><td>
+  {{MSGNW:imagereverted}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imgdelete&action=edit imgdelete]
+</td><td>
+  del
+</td><td>
+  {{MSGNW:imgdelete}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imgdesc&action=edit imgdesc]
+</td><td>
+  desc
+</td><td>
+  {{MSGNW:imgdesc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imghistlegend&action=edit imghistlegend]
+</td><td>
+  Legend: (cur) = this is the current image, (del) = delete
+this old version, (rev) = revert to this old version.
+&lt;br&gt;&lt;i&gt;Click on date to see image uploaded on that date&lt;/i&gt;.
+</td><td>
+  {{MSGNW:imghistlegend}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imghistory&action=edit imghistory]
+</td><td>
+  Image history
+</td><td>
+  {{MSGNW:imghistory}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Imglegend&action=edit imglegend]
+</td><td>
+  Legend: (desc) = show/edit image description.
+</td><td>
+  {{MSGNW:imglegend}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Infobox&action=edit infobox]
+</td><td>
+  Click a button to get an example text
+</td><td>
+  {{MSGNW:infobox}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Internalerror&action=edit internalerror]
+</td><td>
+  Internal error
+</td><td>
+  {{MSGNW:internalerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Intl&action=edit intl]
+</td><td>
+  Interlanguage links
+</td><td>
+  {{MSGNW:intl}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ip_range_invalid&action=edit ip_range_invalid]
+</td><td>
+  Invalid IP range.
+
+</td><td>
+  {{MSGNW:ip_range_invalid}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipaddress&action=edit ipaddress]
+</td><td>
+  IP Address/username
+</td><td>
+  {{MSGNW:ipaddress}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipb_expiry_invalid&action=edit ipb_expiry_invalid]
+</td><td>
+  Expiry time invalid.
+</td><td>
+  {{MSGNW:ipb_expiry_invalid}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipbexpiry&action=edit ipbexpiry]
+</td><td>
+  Expiry
+</td><td>
+  {{MSGNW:ipbexpiry}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipblocklist&action=edit ipblocklist]
+</td><td>
+  List of blocked IP addresses and usernames
+</td><td>
+  {{MSGNW:ipblocklist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipbreason&action=edit ipbreason]
+</td><td>
+  Reason
+</td><td>
+  {{MSGNW:ipbreason}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipbsubmit&action=edit ipbsubmit]
+</td><td>
+  Block this user
+</td><td>
+  {{MSGNW:ipbsubmit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipusubmit&action=edit ipusubmit]
+</td><td>
+  Unblock this address
+</td><td>
+  {{MSGNW:ipusubmit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ipusuccess&action=edit ipusuccess]
+</td><td>
+  &quot;$1&quot; unblocked
+</td><td>
+  {{MSGNW:ipusuccess}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Isredirect&action=edit isredirect]
+</td><td>
+  redirect page
+</td><td>
+  {{MSGNW:isredirect}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Italic_sample&action=edit italic_sample]
+</td><td>
+  Italic text
+</td><td>
+  {{MSGNW:italic_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Italic_tip&action=edit italic_tip]
+</td><td>
+  Italic text
+</td><td>
+  {{MSGNW:italic_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Iteminvalidname&action=edit iteminvalidname]
+</td><td>
+  Problem with item &#39;$1&#39;, invalid name...
+</td><td>
+  {{MSGNW:iteminvalidname}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Largefile&action=edit largefile]
+</td><td>
+  It is recommended that images not exceed 100k in size.
+</td><td>
+  {{MSGNW:largefile}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Last&action=edit last]
+</td><td>
+  last
+</td><td>
+  {{MSGNW:last}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lastmodified&action=edit lastmodified]
+</td><td>
+  This page was last modified $1.
+</td><td>
+  {{MSGNW:lastmodified}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lineno&action=edit lineno]
+</td><td>
+  Line $1:
+</td><td>
+  {{MSGNW:lineno}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Link_sample&action=edit link_sample]
+</td><td>
+  Link title
+</td><td>
+  {{MSGNW:link_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Link_tip&action=edit link_tip]
+</td><td>
+  Internal link
+</td><td>
+  {{MSGNW:link_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Linklistsub&action=edit linklistsub]
+</td><td>
+  (List of links)
+</td><td>
+  {{MSGNW:linklistsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Linkshere&action=edit linkshere]
+</td><td>
+  The following pages link to here:
+</td><td>
+  {{MSGNW:linkshere}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Linkstoimage&action=edit linkstoimage]
+</td><td>
+  The following pages link to this image:
+</td><td>
+  {{MSGNW:linkstoimage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Linktrail&action=edit linktrail]
+</td><td>
+  /^(&#91;a-z]+)(.*)$/sD
+</td><td>
+  {{MSGNW:linktrail}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Listform&action=edit listform]
+</td><td>
+  list
+</td><td>
+  {{MSGNW:listform}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Listusers&action=edit listusers]
+</td><td>
+  User list
+</td><td>
+  {{MSGNW:listusers}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loadhist&action=edit loadhist]
+</td><td>
+  Loading page history
+</td><td>
+  {{MSGNW:loadhist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loadingrev&action=edit loadingrev]
+</td><td>
+  loading revision for diff
+</td><td>
+  {{MSGNW:loadingrev}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Localtime&action=edit localtime]
+</td><td>
+  Local time display
+</td><td>
+  {{MSGNW:localtime}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockbtn&action=edit lockbtn]
+</td><td>
+  Lock database
+</td><td>
+  {{MSGNW:lockbtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockconfirm&action=edit lockconfirm]
+</td><td>
+  Yes, I really want to lock the database.
+</td><td>
+  {{MSGNW:lockconfirm}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockdb&action=edit lockdb]
+</td><td>
+  Lock database
+</td><td>
+  {{MSGNW:lockdb}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockdbsuccesssub&action=edit lockdbsuccesssub]
+</td><td>
+  Database lock succeeded
+</td><td>
+  {{MSGNW:lockdbsuccesssub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockdbsuccesstext&action=edit lockdbsuccesstext]
+</td><td>
+  The database has been locked.
+&lt;br&gt;Remember to remove the lock after your maintenance is complete.
+</td><td>
+  {{MSGNW:lockdbsuccesstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lockdbtext&action=edit lockdbtext]
+</td><td>
+  Locking the database will suspend the ability of all
+users to edit pages, change their preferences, edit their watchlists, and
+other things requiring changes in the database.
+Please confirm that this is what you intend to do, and that you will
+unlock the database when your maintenance is done.
+</td><td>
+  {{MSGNW:lockdbtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Locknoconfirm&action=edit locknoconfirm]
+</td><td>
+  You did not check the confirmation box.
+</td><td>
+  {{MSGNW:locknoconfirm}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Login&action=edit login]
+</td><td>
+  Log in
+</td><td>
+  {{MSGNW:login}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginend&action=edit loginend]
+</td><td>
+  &amp;lt;loginend&amp;gt;
+</td><td>
+  {{MSGNW:loginend}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginerror&action=edit loginerror]
+</td><td>
+  Login error
+</td><td>
+  {{MSGNW:loginerror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginpagetitle&action=edit loginpagetitle]
+</td><td>
+  User login
+</td><td>
+  {{MSGNW:loginpagetitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginproblem&action=edit loginproblem]
+</td><td>
+  &lt;b&gt;There has been a problem with your login.&lt;/b&gt;&lt;br&gt;Try again!
+</td><td>
+  {{MSGNW:loginproblem}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginprompt&action=edit loginprompt]
+</td><td>
+  You must have cookies enabled to log in to Wikipedia.
+</td><td>
+  {{MSGNW:loginprompt}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginsuccess&action=edit loginsuccess]
+</td><td>
+  You are now logged in to Wikipedia as &quot;$1&quot;.
+</td><td>
+  {{MSGNW:loginsuccess}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Loginsuccesstitle&action=edit loginsuccesstitle]
+</td><td>
+  Login successful
+</td><td>
+  {{MSGNW:loginsuccesstitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Logout&action=edit logout]
+</td><td>
+  Log out
+</td><td>
+  {{MSGNW:logout}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Logouttext&action=edit logouttext]
+</td><td>
+  You are now logged out.
+You can continue to use Wikipedia anonymously, or you can log in
+again as the same or as a different user. Note that some pages may
+continue to be displayed as if you were still logged in, until you clear
+your browser cache
+
+</td><td>
+  {{MSGNW:logouttext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Logouttitle&action=edit logouttitle]
+</td><td>
+  User logout
+</td><td>
+  {{MSGNW:logouttitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Lonelypages&action=edit lonelypages]
+</td><td>
+  Orphaned pages
+</td><td>
+  {{MSGNW:lonelypages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Longpages&action=edit longpages]
+</td><td>
+  Long pages
+</td><td>
+  {{MSGNW:longpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Longpagewarning&action=edit longpagewarning]
+</td><td>
+  WARNING: This page is $1 kilobytes long; some
+browsers may have problems editing pages approaching or longer than 32kb.
+Please consider breaking the page into smaller sections.
+</td><td>
+  {{MSGNW:longpagewarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mailmypassword&action=edit mailmypassword]
+</td><td>
+  Mail me a new password
+</td><td>
+  {{MSGNW:mailmypassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mailnologin&action=edit mailnologin]
+</td><td>
+  No send address
+</td><td>
+  {{MSGNW:mailnologin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mailnologintext&action=edit mailnologintext]
+</td><td>
+  You must be &lt;a href=&quot;/wiki/Special:Userlogin&quot;&gt;logged in&lt;/a&gt;
+and have a valid e-mail address in your &lt;a href=&quot;/wiki/Special:Preferences&quot;&gt;preferences&lt;/a&gt;
+to send e-mail to other users.
+</td><td>
+  {{MSGNW:mailnologintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mainpage&action=edit mainpage]
+</td><td>
+  Main Page
+</td><td>
+  {{MSGNW:mainpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mainpagetext&action=edit mainpagetext]
+</td><td>
+  Wiki software successfully installed.
+</td><td>
+  {{MSGNW:mainpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Maintenance&action=edit maintenance]
+</td><td>
+  Maintenance page
+</td><td>
+  {{MSGNW:maintenance}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Maintenancebacklink&action=edit maintenancebacklink]
+</td><td>
+  Back to Maintenance Page
+</td><td>
+  {{MSGNW:maintenancebacklink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Maintnancepagetext&action=edit maintnancepagetext]
+</td><td>
+  This page includes several handy tools for everyday maintenance. Some of these functions tend to stress the database, so please do not hit reload after every item you fixed ;-)
+</td><td>
+  {{MSGNW:maintnancepagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysopfail&action=edit makesysopfail]
+</td><td>
+  &lt;b&gt;User &#39;$1&#39; could not be made into a sysop. (Did you enter the name correctly?)&lt;/b&gt;
+</td><td>
+  {{MSGNW:makesysopfail}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysopname&action=edit makesysopname]
+</td><td>
+  Name of the user:
+</td><td>
+  {{MSGNW:makesysopname}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysopok&action=edit makesysopok]
+</td><td>
+  &lt;b&gt;User &#39;$1&#39; is now a sysop&lt;/b&gt;
+</td><td>
+  {{MSGNW:makesysopok}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysopsubmit&action=edit makesysopsubmit]
+</td><td>
+  Make this user into a sysop
+</td><td>
+  {{MSGNW:makesysopsubmit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysoptext&action=edit makesysoptext]
+</td><td>
+  This form is used by bureaucrats to turn ordinary users into administrators. 
+Type the name of the user in the box and press the button to make the user an administrator
+</td><td>
+  {{MSGNW:makesysoptext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Makesysoptitle&action=edit makesysoptitle]
+</td><td>
+  Make a user into a sysop
+</td><td>
+  {{MSGNW:makesysoptitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Matchtotals&action=edit matchtotals]
+</td><td>
+  The query &quot;$1&quot; matched $2 article titles
+and the text of $3 articles.
+</td><td>
+  {{MSGNW:matchtotals}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math&action=edit math]
+</td><td>
+  Rendering math
+</td><td>
+  {{MSGNW:math}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_failure&action=edit math_failure]
+</td><td>
+  Failed to parse
+</td><td>
+  {{MSGNW:math_failure}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_image_error&action=edit math_image_error]
+</td><td>
+  PNG conversion failed
+</td><td>
+  {{MSGNW:math_image_error}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_lexing_error&action=edit math_lexing_error]
+</td><td>
+  lexing error
+</td><td>
+  {{MSGNW:math_lexing_error}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_sample&action=edit math_sample]
+</td><td>
+  Insert formula here
+</td><td>
+  {{MSGNW:math_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_syntax_error&action=edit math_syntax_error]
+</td><td>
+  syntax error
+</td><td>
+  {{MSGNW:math_syntax_error}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_tip&action=edit math_tip]
+</td><td>
+  Mathematical formula (LaTeX)
+</td><td>
+  {{MSGNW:math_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_unknown_error&action=edit math_unknown_error]
+</td><td>
+  unknown error
+</td><td>
+  {{MSGNW:math_unknown_error}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Math_unknown_function&action=edit math_unknown_function]
+</td><td>
+  unknown function 
+</td><td>
+  {{MSGNW:math_unknown_function}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Media_sample&action=edit media_sample]
+</td><td>
+  Example.mp3
+</td><td>
+  {{MSGNW:media_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Media_tip&action=edit media_tip]
+</td><td>
+  Media file link
+</td><td>
+  {{MSGNW:media_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Minlength&action=edit minlength]
+</td><td>
+  Image names must be at least three letters.
+</td><td>
+  {{MSGNW:minlength}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Minoredit&action=edit minoredit]
+</td><td>
+  This is a minor edit
+</td><td>
+  {{MSGNW:minoredit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Minoreditletter&action=edit minoreditletter]
+</td><td>
+  M
+</td><td>
+  {{MSGNW:minoreditletter}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mispeelings&action=edit mispeelings]
+</td><td>
+  Pages with misspellings
+</td><td>
+  {{MSGNW:mispeelings}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mispeelingspage&action=edit mispeelingspage]
+</td><td>
+  List of common misspellings
+</td><td>
+  {{MSGNW:mispeelingspage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mispeelingstext&action=edit mispeelingstext]
+</td><td>
+  The following pages contain a common misspelling, which are listed on $1. The correct spelling might be given (like this).
+</td><td>
+  {{MSGNW:mispeelingstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Missingarticle&action=edit missingarticle]
+</td><td>
+  The database did not find the text of a page
+that it should have found, named &quot;$1&quot;.
+
+&lt;p&gt;This is usually caused by following an outdated diff or history link to a
+page that has been deleted.
+
+&lt;p&gt;If this is not the case, you may have found a bug in the software.
+Please report this to an administrator, making note of the URL.
+</td><td>
+  {{MSGNW:missingarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Missinglanguagelinks&action=edit missinglanguagelinks]
+</td><td>
+  Missing Language Links
+</td><td>
+  {{MSGNW:missinglanguagelinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Missinglanguagelinksbutton&action=edit missinglanguagelinksbutton]
+</td><td>
+  Find missing language links for
+</td><td>
+  {{MSGNW:missinglanguagelinksbutton}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Missinglanguagelinkstext&action=edit missinglanguagelinkstext]
+</td><td>
+  These articles do &lt;i&gt;not&lt;/i&gt; link to their counterpart in $1. Redirects and subpages are &lt;i&gt;not&lt;/i&gt; shown.
+</td><td>
+  {{MSGNW:missinglanguagelinkstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Moredotdotdot&action=edit moredotdotdot]
+</td><td>
+  More...
+</td><td>
+  {{MSGNW:moredotdotdot}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movearticle&action=edit movearticle]
+</td><td>
+  Move page
+</td><td>
+  {{MSGNW:movearticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movedto&action=edit movedto]
+</td><td>
+  moved to
+</td><td>
+  {{MSGNW:movedto}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movenologin&action=edit movenologin]
+</td><td>
+  Not logged in
+</td><td>
+  {{MSGNW:movenologin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movenologintext&action=edit movenologintext]
+</td><td>
+  You must be a registered user and &lt;a href=&quot;/wiki/Special:Userlogin&quot;&gt;logged in&lt;/a&gt;
+to move a page.
+</td><td>
+  {{MSGNW:movenologintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movepage&action=edit movepage]
+</td><td>
+  Move page
+</td><td>
+  {{MSGNW:movepage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movepagebtn&action=edit movepagebtn]
+</td><td>
+  Move page
+</td><td>
+  {{MSGNW:movepagebtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movepagetalktext&action=edit movepagetalktext]
+</td><td>
+  The associated talk page, if any, will be automatically moved along with it &#39;&#39;&#39;unless:&#39;&#39;&#39;
+*You are moving the page across namespaces,
+*A non-empty talk page already exists under the new name, or
+*You uncheck the box below.
+
+In those cases, you will have to move or merge the page manually if desired.
+</td><td>
+  {{MSGNW:movepagetalktext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movepagetext&action=edit movepagetext]
+</td><td>
+  Using the form below will rename a page, moving all
+of its history to the new name.
+The old title will become a redirect page to the new title.
+Links to the old page title will not be changed; be sure to
+&#91;&#91;Special:Maintenance&#124;check]] for double or broken redirects.
+You are responsible for making sure that links continue to
+point where they are supposed to go.
+
+Note that the page will &#39;&#39;&#39;not&#39;&#39;&#39; be moved if there is already
+a page at the new title, unless it is empty or a redirect and has no
+past edit history. This means that you can rename a page back to where
+it was just renamed from if you make a mistake, and you cannot overwrite
+an existing page.
+
+&lt;b&gt;WARNING!&lt;/b&gt;
+This can be a drastic and unexpected change for a popular page;
+please be sure you understand the consequences of this before
+proceeding.
+</td><td>
+  {{MSGNW:movepagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movetalk&action=edit movetalk]
+</td><td>
+  Move &quot;talk&quot; page as well, if applicable.
+</td><td>
+  {{MSGNW:movetalk}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Movethispage&action=edit movethispage]
+</td><td>
+  Move this page
+</td><td>
+  {{MSGNW:movethispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mycontris&action=edit mycontris]
+</td><td>
+  My contributions
+</td><td>
+  {{MSGNW:mycontris}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mypage&action=edit mypage]
+</td><td>
+  My page
+</td><td>
+  {{MSGNW:mypage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Mytalk&action=edit mytalk]
+</td><td>
+  My talk
+</td><td>
+  {{MSGNW:mytalk}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nbytes&action=edit nbytes]
+</td><td>
+  $1 bytes
+</td><td>
+  {{MSGNW:nbytes}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nchanges&action=edit nchanges]
+</td><td>
+  $1 changes
+</td><td>
+  {{MSGNW:nchanges}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newarticle&action=edit newarticle]
+</td><td>
+  (New)
+</td><td>
+  {{MSGNW:newarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newarticletext&action=edit newarticletext]
+</td><td>
+  You&#39;ve followed a link to a page that doesn&#39;t exist yet.
+To create the page, start typing in the box below 
+(see the &#91;&#91;Wikipedia:Help&#124;help page]] for more info).
+If you are here by mistake, just click your browser&#39;s &#39;&#39;&#39;back&#39;&#39;&#39; button.
+</td><td>
+  {{MSGNW:newarticletext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newmessages&action=edit newmessages]
+</td><td>
+  You have $1.
+</td><td>
+  {{MSGNW:newmessages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newmessageslink&action=edit newmessageslink]
+</td><td>
+  new messages
+</td><td>
+  {{MSGNW:newmessageslink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newpage&action=edit newpage]
+</td><td>
+  New page
+</td><td>
+  {{MSGNW:newpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newpageletter&action=edit newpageletter]
+</td><td>
+  N
+</td><td>
+  {{MSGNW:newpageletter}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newpages&action=edit newpages]
+</td><td>
+  New pages
+</td><td>
+  {{MSGNW:newpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newpassword&action=edit newpassword]
+</td><td>
+  New password
+</td><td>
+  {{MSGNW:newpassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newtitle&action=edit newtitle]
+</td><td>
+  To new title
+</td><td>
+  {{MSGNW:newtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Newusersonly&action=edit newusersonly]
+</td><td>
+   (new users only)
+</td><td>
+  {{MSGNW:newusersonly}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Next&action=edit next]
+</td><td>
+  next
+</td><td>
+  {{MSGNW:next}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nextn&action=edit nextn]
+</td><td>
+  next $1
+</td><td>
+  {{MSGNW:nextn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nlinks&action=edit nlinks]
+</td><td>
+  $1 links
+</td><td>
+  {{MSGNW:nlinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noaffirmation&action=edit noaffirmation]
+</td><td>
+  You must affirm that your upload does not violate
+any copyrights.
+</td><td>
+  {{MSGNW:noaffirmation}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noarticletext&action=edit noarticletext]
+</td><td>
+  (There is currently no text in this page)
+</td><td>
+  {{MSGNW:noarticletext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noblockreason&action=edit noblockreason]
+</td><td>
+  You must supply a reason for the block.
+</td><td>
+  {{MSGNW:noblockreason}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noconnect&action=edit noconnect]
+</td><td>
+  Sorry! The wiki is experiencing some technical difficulties, and cannot contact the database server.
+</td><td>
+  {{MSGNW:noconnect}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nocontribs&action=edit nocontribs]
+</td><td>
+  No changes were found matching these criteria.
+</td><td>
+  {{MSGNW:nocontribs}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nocookieslogin&action=edit nocookieslogin]
+</td><td>
+  Wikipedia uses cookies to log in users. You have cookies disabled. Please enable them and try again.
+</td><td>
+  {{MSGNW:nocookieslogin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nocookiesnew&action=edit nocookiesnew]
+</td><td>
+  The user account was created, but you are not logged in. Wikipedia uses cookies to log in users. You have cookies disabled. Please enable them, then log in with your new username and password.
+</td><td>
+  {{MSGNW:nocookiesnew}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nodb&action=edit nodb]
+</td><td>
+  Could not select database $1
+</td><td>
+  {{MSGNW:nodb}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noemail&action=edit noemail]
+</td><td>
+  There is no e-mail address recorded for user &quot;$1&quot;.
+</td><td>
+  {{MSGNW:noemail}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noemailtext&action=edit noemailtext]
+</td><td>
+  This user has not specified a valid e-mail address,
+or has chosen not to receive e-mail from other users.
+</td><td>
+  {{MSGNW:noemailtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noemailtitle&action=edit noemailtitle]
+</td><td>
+  No e-mail address
+</td><td>
+  {{MSGNW:noemailtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nogomatch&action=edit nogomatch]
+</td><td>
+  No page with this exact title exists, trying full text search.
+</td><td>
+  {{MSGNW:nogomatch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nohistory&action=edit nohistory]
+</td><td>
+  There is no edit history for this page.
+</td><td>
+  {{MSGNW:nohistory}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nolinkshere&action=edit nolinkshere]
+</td><td>
+  No pages link to here.
+</td><td>
+  {{MSGNW:nolinkshere}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nolinkstoimage&action=edit nolinkstoimage]
+</td><td>
+  There are no pages that link to this image.
+</td><td>
+  {{MSGNW:nolinkstoimage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Noname&action=edit noname]
+</td><td>
+  You have not specified a valid user name.
+</td><td>
+  {{MSGNW:noname}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nonefound&action=edit nonefound]
+</td><td>
+  &lt;strong&gt;Note&lt;/strong&gt;: unsuccessful searches are
+often caused by searching for common words like &quot;have&quot; and &quot;from&quot;,
+which are not indexed, or by specifying more than one search term (only pages
+containing all of the search terms will appear in the result).
+</td><td>
+  {{MSGNW:nonefound}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nospecialpagetext&action=edit nospecialpagetext]
+</td><td>
+  You have requested a special page that is not
+recognized by the wiki.
+</td><td>
+  {{MSGNW:nospecialpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nosuchaction&action=edit nosuchaction]
+</td><td>
+  No such action
+</td><td>
+  {{MSGNW:nosuchaction}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nosuchactiontext&action=edit nosuchactiontext]
+</td><td>
+  The action specified by the URL is not
+recognized by the wiki
+</td><td>
+  {{MSGNW:nosuchactiontext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nosuchspecialpage&action=edit nosuchspecialpage]
+</td><td>
+  No such special page
+</td><td>
+  {{MSGNW:nosuchspecialpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nosuchuser&action=edit nosuchuser]
+</td><td>
+  There is no user by the name &quot;$1&quot;.
+Check your spelling, or use the form below to create a new user account.
+</td><td>
+  {{MSGNW:nosuchuser}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notanarticle&action=edit notanarticle]
+</td><td>
+  Not an article
+</td><td>
+  {{MSGNW:notanarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notargettext&action=edit notargettext]
+</td><td>
+  You have not specified a target page or user
+to perform this function on.
+</td><td>
+  {{MSGNW:notargettext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notargettitle&action=edit notargettitle]
+</td><td>
+  No target
+</td><td>
+  {{MSGNW:notargettitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Note&action=edit note]
+</td><td>
+  &lt;strong&gt;Note:&lt;/strong&gt; 
+</td><td>
+  {{MSGNW:note}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notextmatches&action=edit notextmatches]
+</td><td>
+  No article text matches
+</td><td>
+  {{MSGNW:notextmatches}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notitlematches&action=edit notitlematches]
+</td><td>
+  No article title matches
+</td><td>
+  {{MSGNW:notitlematches}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Notloggedin&action=edit notloggedin]
+</td><td>
+  Not logged in
+</td><td>
+  {{MSGNW:notloggedin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nowatchlist&action=edit nowatchlist]
+</td><td>
+  You have no items on your watchlist.
+</td><td>
+  {{MSGNW:nowatchlist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nowiki_sample&action=edit nowiki_sample]
+</td><td>
+  Insert non-formatted text here
+</td><td>
+  {{MSGNW:nowiki_sample}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nowiki_tip&action=edit nowiki_tip]
+</td><td>
+  Ignore wiki formatting
+</td><td>
+  {{MSGNW:nowiki_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Nviews&action=edit nviews]
+</td><td>
+  $1 views
+</td><td>
+  {{MSGNW:nviews}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ok&action=edit ok]
+</td><td>
+  OK
+</td><td>
+  {{MSGNW:ok}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Oldpassword&action=edit oldpassword]
+</td><td>
+  Old password
+</td><td>
+  {{MSGNW:oldpassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Orig&action=edit orig]
+</td><td>
+  orig
+</td><td>
+  {{MSGNW:orig}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Orphans&action=edit orphans]
+</td><td>
+  Orphaned pages
+</td><td>
+  {{MSGNW:orphans}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Otherlanguages&action=edit otherlanguages]
+</td><td>
+  Other languages
+</td><td>
+  {{MSGNW:otherlanguages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Pagemovedsub&action=edit pagemovedsub]
+</td><td>
+  Move succeeded
+</td><td>
+  {{MSGNW:pagemovedsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Pagemovedtext&action=edit pagemovedtext]
+</td><td>
+  Page &quot;&#91;&#91;$1]]&quot; moved to &quot;&#91;&#91;$2]]&quot;.
+</td><td>
+  {{MSGNW:pagemovedtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Passwordremindertext&action=edit passwordremindertext]
+</td><td>
+  Someone (probably you, from IP address $1)
+requested that we send you a new Wikipedia login password.
+The password for user &quot;$2&quot; is now &quot;$3&quot;.
+You should log in and change your password now.
+</td><td>
+  {{MSGNW:passwordremindertext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Passwordremindertitle&action=edit passwordremindertitle]
+</td><td>
+  Password reminder from Wikipedia
+</td><td>
+  {{MSGNW:passwordremindertitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Passwordsent&action=edit passwordsent]
+</td><td>
+  A new password has been sent to the e-mail address
+registered for &quot;$1&quot;.
+Please log in again after you receive it.
+</td><td>
+  {{MSGNW:passwordsent}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Perfdisabled&action=edit perfdisabled]
+</td><td>
+  Sorry! This feature has been temporarily disabled
+because it slows the database down to the point that no one can use
+the wiki.
+</td><td>
+  {{MSGNW:perfdisabled}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Perfdisabledsub&action=edit perfdisabledsub]
+</td><td>
+  Here&#39;s a saved copy from $1:
+</td><td>
+  {{MSGNW:perfdisabledsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Popularpages&action=edit popularpages]
+</td><td>
+  Popular pages
+</td><td>
+  {{MSGNW:popularpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Postcomment&action=edit postcomment]
+</td><td>
+  Post a comment
+</td><td>
+  {{MSGNW:postcomment}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Powersearch&action=edit powersearch]
+</td><td>
+  Search
+</td><td>
+  {{MSGNW:powersearch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Powersearchtext&action=edit powersearchtext]
+</td><td>
+  
+Search in namespaces :&lt;br&gt;
+$1&lt;br&gt;
+$2 List redirects &amp;nbsp; Search for $3 $9
+</td><td>
+  {{MSGNW:powersearchtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Preferences&action=edit preferences]
+</td><td>
+  Preferences
+</td><td>
+  {{MSGNW:preferences}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Prefslogintext&action=edit prefslogintext]
+</td><td>
+  You are logged in as &quot;$1&quot;.
+Your internal ID number is $2.
+
+See &#91;&#91;Wikipedia:User preferences help]] for help deciphering the options.
+</td><td>
+  {{MSGNW:prefslogintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Prefsnologin&action=edit prefsnologin]
+</td><td>
+  Not logged in
+</td><td>
+  {{MSGNW:prefsnologin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Prefsnologintext&action=edit prefsnologintext]
+</td><td>
+  You must be &lt;a href=&quot;/wiki/Special:Userlogin&quot;&gt;logged in&lt;/a&gt;
+to set user preferences.
+</td><td>
+  {{MSGNW:prefsnologintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Prefsreset&action=edit prefsreset]
+</td><td>
+  Preferences have been reset from storage.
+</td><td>
+  {{MSGNW:prefsreset}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Preview&action=edit preview]
+</td><td>
+  Preview
+</td><td>
+  {{MSGNW:preview}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Previewconflict&action=edit previewconflict]
+</td><td>
+  This preview reflects the text in the upper
+text editing area as it will appear if you choose to save.
+</td><td>
+  {{MSGNW:previewconflict}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Previewnote&action=edit previewnote]
+</td><td>
+  Remember that this is only a preview, and has not yet been saved!
+</td><td>
+  {{MSGNW:previewnote}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Prevn&action=edit prevn]
+</td><td>
+  previous $1
+</td><td>
+  {{MSGNW:prevn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Printableversion&action=edit printableversion]
+</td><td>
+  Printable version
+</td><td>
+  {{MSGNW:printableversion}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Printsubtitle&action=edit printsubtitle]
+</td><td>
+  (From http&#58;//www.wikipedia.org)
+</td><td>
+  {{MSGNW:printsubtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectedarticle&action=edit protectedarticle]
+</td><td>
+  protected &#91;&#91;$1]]
+</td><td>
+  {{MSGNW:protectedarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectedpage&action=edit protectedpage]
+</td><td>
+  Protected page
+</td><td>
+  {{MSGNW:protectedpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectedpagewarning&action=edit protectedpagewarning]
+</td><td>
+  WARNING:  This page has been locked so that only
+users with sysop privileges can edit it. Be sure you are following the
+&lt;a href=&#39;/wiki/Wikipedia:Protected_page_guidelines&#39;&gt;protected page
+guidelines&lt;/a&gt;.
+</td><td>
+  {{MSGNW:protectedpagewarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectedtext&action=edit protectedtext]
+</td><td>
+  This page has been locked to prevent editing; there are
+a number of reasons why this may be so, please see
+&#91;&#91;Wikipedia:Protected page]].
+
+You can view and copy the source of this page:
+</td><td>
+  {{MSGNW:protectedtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectlogpage&action=edit protectlogpage]
+</td><td>
+  Protection_log
+</td><td>
+  {{MSGNW:protectlogpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectlogtext&action=edit protectlogtext]
+</td><td>
+  Below is a list of page locks/unlocks.
+See &#91;&#91;Wikipedia:Protected page]] for more information.
+</td><td>
+  {{MSGNW:protectlogtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectpage&action=edit protectpage]
+</td><td>
+  Protect page
+</td><td>
+  {{MSGNW:protectpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Protectthispage&action=edit protectthispage]
+</td><td>
+  Protect this page
+</td><td>
+  {{MSGNW:protectthispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbbrowse&action=edit qbbrowse]
+</td><td>
+  Browse
+</td><td>
+  {{MSGNW:qbbrowse}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbedit&action=edit qbedit]
+</td><td>
+  Edit
+</td><td>
+  {{MSGNW:qbedit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbfind&action=edit qbfind]
+</td><td>
+  Find
+</td><td>
+  {{MSGNW:qbfind}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbmyoptions&action=edit qbmyoptions]
+</td><td>
+  My pages
+</td><td>
+  {{MSGNW:qbmyoptions}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbpageinfo&action=edit qbpageinfo]
+</td><td>
+  Context
+</td><td>
+  {{MSGNW:qbpageinfo}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbpageoptions&action=edit qbpageoptions]
+</td><td>
+  This page
+</td><td>
+  {{MSGNW:qbpageoptions}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbsettings&action=edit qbsettings]
+</td><td>
+  Quickbar settings
+</td><td>
+  {{MSGNW:qbsettings}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Qbspecialpages&action=edit qbspecialpages]
+</td><td>
+  Special pages
+</td><td>
+  {{MSGNW:qbspecialpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Querybtn&action=edit querybtn]
+</td><td>
+  Submit query
+</td><td>
+  {{MSGNW:querybtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Querysuccessful&action=edit querysuccessful]
+</td><td>
+  Query successful
+</td><td>
+  {{MSGNW:querysuccessful}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Randompage&action=edit randompage]
+</td><td>
+  Random page
+</td><td>
+  {{MSGNW:randompage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Range_block_disabled&action=edit range_block_disabled]
+</td><td>
+  The sysop ability to create range blocks is disabled.
+</td><td>
+  {{MSGNW:range_block_disabled}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rchide&action=edit rchide]
+</td><td>
+  in $4 form; $1 minor edits; $2 secondary namespaces; $3 multiple edits.
+</td><td>
+  {{MSGNW:rchide}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rclinks&action=edit rclinks]
+</td><td>
+  Show last $1 changes in last $2 days; $3
+</td><td>
+  {{MSGNW:rclinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rclistfrom&action=edit rclistfrom]
+</td><td>
+  Show new changes starting from $1
+</td><td>
+  {{MSGNW:rclistfrom}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rcliu&action=edit rcliu]
+</td><td>
+  ; $1 edits from logged in users
+</td><td>
+  {{MSGNW:rcliu}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rcloaderr&action=edit rcloaderr]
+</td><td>
+  Loading recent changes
+</td><td>
+  {{MSGNW:rcloaderr}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rclsub&action=edit rclsub]
+</td><td>
+  (to pages linked from &quot;$1&quot;)
+</td><td>
+  {{MSGNW:rclsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rcnote&action=edit rcnote]
+</td><td>
+  Below are the last &lt;strong&gt;$1&lt;/strong&gt; changes in last &lt;strong&gt;$2&lt;/strong&gt; days.
+</td><td>
+  {{MSGNW:rcnote}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rcnotefrom&action=edit rcnotefrom]
+</td><td>
+  Below are the changes since &lt;b&gt;$2&lt;/b&gt; (up to &lt;b&gt;$1&lt;/b&gt; shown).
+</td><td>
+  {{MSGNW:rcnotefrom}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Readonly&action=edit readonly]
+</td><td>
+  Database locked
+</td><td>
+  {{MSGNW:readonly}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Readonlytext&action=edit readonlytext]
+</td><td>
+  The database is currently locked to new
+entries and other modifications, probably for routine database maintenance,
+after which it will be back to normal.
+The administrator who locked it offered this explanation:
+&lt;p&gt;$1
+</td><td>
+  {{MSGNW:readonlytext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Readonlywarning&action=edit readonlywarning]
+</td><td>
+  WARNING: The database has been locked for maintenance,
+so you will not be able to save your edits right now. You may wish to cut-n-paste
+the text into a text file and save it for later.
+</td><td>
+  {{MSGNW:readonlywarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Recentchanges&action=edit recentchanges]
+</td><td>
+  Recent changes
+</td><td>
+  {{MSGNW:recentchanges}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Recentchangescount&action=edit recentchangescount]
+</td><td>
+  Number of titles in recent changes
+</td><td>
+  {{MSGNW:recentchangescount}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Recentchangeslinked&action=edit recentchangeslinked]
+</td><td>
+  Related changes
+</td><td>
+  {{MSGNW:recentchangeslinked}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Recentchangestext&action=edit recentchangestext]
+</td><td>
+  Track the most recent changes to the wiki on this page.
+</td><td>
+  {{MSGNW:recentchangestext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Redirectedfrom&action=edit redirectedfrom]
+</td><td>
+  (Redirected from $1)
+</td><td>
+  {{MSGNW:redirectedfrom}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Remembermypassword&action=edit remembermypassword]
+</td><td>
+  Remember my password across sessions.
+</td><td>
+  {{MSGNW:remembermypassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Removechecked&action=edit removechecked]
+</td><td>
+  Remove checked items from watchlist
+</td><td>
+  {{MSGNW:removechecked}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Removedwatch&action=edit removedwatch]
+</td><td>
+  Removed from watchlist
+</td><td>
+  {{MSGNW:removedwatch}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Removedwatchtext&action=edit removedwatchtext]
+</td><td>
+  The page &quot;$1&quot; has been removed from your watchlist.
+</td><td>
+  {{MSGNW:removedwatchtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Removingchecked&action=edit removingchecked]
+</td><td>
+  Removing requested items from watchlist...
+</td><td>
+  {{MSGNW:removingchecked}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Resetprefs&action=edit resetprefs]
+</td><td>
+  Reset preferences
+</td><td>
+  {{MSGNW:resetprefs}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Restorelink&action=edit restorelink]
+</td><td>
+  $1 deleted edits
+</td><td>
+  {{MSGNW:restorelink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Resultsperpage&action=edit resultsperpage]
+</td><td>
+  Hits to show per page
+</td><td>
+  {{MSGNW:resultsperpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Retrievedfrom&action=edit retrievedfrom]
+</td><td>
+  Retrieved from &quot;$1&quot;
+</td><td>
+  {{MSGNW:retrievedfrom}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Returnto&action=edit returnto]
+</td><td>
+  Return to $1.
+</td><td>
+  {{MSGNW:returnto}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Retypenew&action=edit retypenew]
+</td><td>
+  Retype new password
+</td><td>
+  {{MSGNW:retypenew}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Reupload&action=edit reupload]
+</td><td>
+  Re-upload
+</td><td>
+  {{MSGNW:reupload}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Reuploaddesc&action=edit reuploaddesc]
+</td><td>
+  Return to the upload form.
+</td><td>
+  {{MSGNW:reuploaddesc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Reverted&action=edit reverted]
+</td><td>
+  Reverted to earlier revision
+</td><td>
+  {{MSGNW:reverted}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revertimg&action=edit revertimg]
+</td><td>
+  rev
+</td><td>
+  {{MSGNW:revertimg}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revertpage&action=edit revertpage]
+</td><td>
+  Reverted edit of $2, changed back to last version by $1
+</td><td>
+  {{MSGNW:revertpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revhistory&action=edit revhistory]
+</td><td>
+  Revision history
+</td><td>
+  {{MSGNW:revhistory}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revisionasof&action=edit revisionasof]
+</td><td>
+  Revision as of $1
+</td><td>
+  {{MSGNW:revisionasof}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revnotfound&action=edit revnotfound]
+</td><td>
+  Revision not found
+</td><td>
+  {{MSGNW:revnotfound}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Revnotfoundtext&action=edit revnotfoundtext]
+</td><td>
+  The old revision of the page you asked for could not be found.
+Please check the URL you used to access this page.
+
+</td><td>
+  {{MSGNW:revnotfoundtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rollback&action=edit rollback]
+</td><td>
+  Roll back edits
+</td><td>
+  {{MSGNW:rollback}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rollbackfailed&action=edit rollbackfailed]
+</td><td>
+  Rollback failed
+</td><td>
+  {{MSGNW:rollbackfailed}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rollbacklink&action=edit rollbacklink]
+</td><td>
+  rollback
+</td><td>
+  {{MSGNW:rollbacklink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Rows&action=edit rows]
+</td><td>
+  Rows
+</td><td>
+  {{MSGNW:rows}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Savearticle&action=edit savearticle]
+</td><td>
+  Save page
+</td><td>
+  {{MSGNW:savearticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Savedprefs&action=edit savedprefs]
+</td><td>
+  Your preferences have been saved.
+</td><td>
+  {{MSGNW:savedprefs}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Savefile&action=edit savefile]
+</td><td>
+  Save file
+</td><td>
+  {{MSGNW:savefile}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Saveprefs&action=edit saveprefs]
+</td><td>
+  Save preferences
+</td><td>
+  {{MSGNW:saveprefs}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Search&action=edit search]
+</td><td>
+  Search
+</td><td>
+  {{MSGNW:search}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchdisabled&action=edit searchdisabled]
+</td><td>
+  &lt;p&gt;Sorry! Full text search has been disabled temporarily, for performance reasons. In the meantime, you can use the Google search below, which may be out of date.&lt;/p&gt;
+
+&lt;!-- SiteSearch Google --&gt;
+&lt;FORM method=GET action=&quot;http&#58;//www.google.com/search&quot;&gt;
+&lt;TABLE bgcolor=&quot;#FFFFFF&quot;&gt;&lt;tr&gt;&lt;td&gt;
+&lt;A HREF=&quot;http&#58;//www.google.com/&quot;&gt;
+&lt;IMG SRC=&quot;http&#58;//www.google.com/logos/Logo_40wht.gif&quot;
+border=&quot;0&quot; ALT=&quot;Google&quot;&gt;&lt;/A&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;INPUT TYPE=text name=q size=31 maxlength=255 value=&quot;$1&quot;&gt;
+&lt;INPUT type=submit name=btnG VALUE=&quot;Google Search&quot;&gt;
+&lt;font size=-1&gt;
+&lt;input type=hidden name=domains value=&quot;http&#58;//so.wikipedia.org&quot;&gt;&lt;br&gt;&lt;input type=radio name=sitesearch value=&quot;&quot;&gt; WWW &lt;input type=radio name=sitesearch value=&quot;http&#58;//so.wikipedia.org&quot; checked&gt; http&#58;//so.wikipedia.org &lt;br&gt;
+&lt;input type=&#39;hidden&#39; name=&#39;ie&#39; value=&#39;$2&#39;&gt;
+&lt;input type=&#39;hidden&#39; name=&#39;oe&#39; value=&#39;$2&#39;&gt;
+&lt;/font&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/TABLE&gt;
+&lt;/FORM&gt;
+&lt;!-- SiteSearch Google --&gt;
+</td><td>
+  {{MSGNW:searchdisabled}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchhelppage&action=edit searchhelppage]
+</td><td>
+  Wikipedia:Searching
+</td><td>
+  {{MSGNW:searchhelppage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchingwikipedia&action=edit searchingwikipedia]
+</td><td>
+  Searching Wikipedia
+</td><td>
+  {{MSGNW:searchingwikipedia}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchquery&action=edit searchquery]
+</td><td>
+  For query &quot;$1&quot;
+</td><td>
+  {{MSGNW:searchquery}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchresults&action=edit searchresults]
+</td><td>
+  Search results
+</td><td>
+  {{MSGNW:searchresults}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchresultshead&action=edit searchresultshead]
+</td><td>
+  Search result settings
+</td><td>
+  {{MSGNW:searchresultshead}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Searchresulttext&action=edit searchresulttext]
+</td><td>
+  For more information about searching Wikipedia, see $1.
+</td><td>
+  {{MSGNW:searchresulttext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sectionedit&action=edit sectionedit]
+</td><td>
+   (section)
+</td><td>
+  {{MSGNW:sectionedit}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Selectonly&action=edit selectonly]
+</td><td>
+  Only read-only queries are allowed.
+</td><td>
+  {{MSGNW:selectonly}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Selflinks&action=edit selflinks]
+</td><td>
+  Pages with Self Links
+</td><td>
+  {{MSGNW:selflinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Selflinkstext&action=edit selflinkstext]
+</td><td>
+  The following pages contain a link to themselves, which they should not.
+</td><td>
+  {{MSGNW:selflinkstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Servertime&action=edit servertime]
+</td><td>
+  Server time is now
+</td><td>
+  {{MSGNW:servertime}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Setbureaucratflag&action=edit setbureaucratflag]
+</td><td>
+  Set bureaucrat flag
+</td><td>
+  {{MSGNW:setbureaucratflag}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Shortpages&action=edit shortpages]
+</td><td>
+  Short pages
+</td><td>
+  {{MSGNW:shortpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Show&action=edit show]
+</td><td>
+  show
+</td><td>
+  {{MSGNW:show}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showhideminor&action=edit showhideminor]
+</td><td>
+  $1 minor edits
+</td><td>
+  {{MSGNW:showhideminor}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showingresults&action=edit showingresults]
+</td><td>
+  Showing below &lt;b&gt;$1&lt;/b&gt; results starting with #&lt;b&gt;$2&lt;/b&gt;.
+</td><td>
+  {{MSGNW:showingresults}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showingresultsnum&action=edit showingresultsnum]
+</td><td>
+  Showing below &lt;b&gt;$3&lt;/b&gt; results starting with #&lt;b&gt;$2&lt;/b&gt;.
+</td><td>
+  {{MSGNW:showingresultsnum}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showlast&action=edit showlast]
+</td><td>
+  Show last $1 images sorted $2.
+</td><td>
+  {{MSGNW:showlast}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showpreview&action=edit showpreview]
+</td><td>
+  Show preview
+</td><td>
+  {{MSGNW:showpreview}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Showtoc&action=edit showtoc]
+</td><td>
+  show
+</td><td>
+  {{MSGNW:showtoc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sig_tip&action=edit sig_tip]
+</td><td>
+  Your signature with timestamp
+</td><td>
+  {{MSGNW:sig_tip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitestats&action=edit sitestats]
+</td><td>
+  Site statistics
+</td><td>
+  {{MSGNW:sitestats}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitestatstext&action=edit sitestatstext]
+</td><td>
+  There are &lt;b&gt;$1&lt;/b&gt; total pages in the database.
+This includes &quot;talk&quot; pages, pages about Wikipedia, minimal &quot;stub&quot;
+pages, redirects, and others that probably don&#39;t qualify as articles.
+Excluding those, there are &lt;b&gt;$2&lt;/b&gt; pages that are probably legitimate
+articles.&lt;p&gt;
+There have been a total of &lt;b&gt;$3&lt;/b&gt; page views, and &lt;b&gt;$4&lt;/b&gt; page edits
+since the software was upgraded (July 20, 2002).
+That comes to &lt;b&gt;$5&lt;/b&gt; average edits per page, and &lt;b&gt;$6&lt;/b&gt; views per edit.
+</td><td>
+  {{MSGNW:sitestatstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitesubtitle&action=edit sitesubtitle]
+</td><td>
+  The Free Encyclopedia
+</td><td>
+  {{MSGNW:sitesubtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitesupport&action=edit sitesupport]
+</td><td>
+  Donations
+</td><td>
+  {{MSGNW:sitesupport}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitesupportpage&action=edit sitesupportpage]
+</td><td>
+  &amp;lt;sitesupportpage&amp;gt;
+</td><td>
+  {{MSGNW:sitesupportpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sitetitle&action=edit sitetitle]
+</td><td>
+  Wikipedia
+</td><td>
+  {{MSGNW:sitetitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Skin&action=edit skin]
+</td><td>
+  Skin
+</td><td>
+  {{MSGNW:skin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Specialpages&action=edit specialpages]
+</td><td>
+  Special pages
+</td><td>
+  {{MSGNW:specialpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Spheading&action=edit spheading]
+</td><td>
+  Special pages for all users
+</td><td>
+  {{MSGNW:spheading}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sqlislogged&action=edit sqlislogged]
+</td><td>
+  Please note that all queries are logged.
+</td><td>
+  {{MSGNW:sqlislogged}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sqlquery&action=edit sqlquery]
+</td><td>
+  Enter query
+</td><td>
+  {{MSGNW:sqlquery}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Statistics&action=edit statistics]
+</td><td>
+  Statistics
+</td><td>
+  {{MSGNW:statistics}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Storedversion&action=edit storedversion]
+</td><td>
+  Stored version
+</td><td>
+  {{MSGNW:storedversion}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Stubthreshold&action=edit stubthreshold]
+</td><td>
+  Threshold for stub display
+</td><td>
+  {{MSGNW:stubthreshold}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Subcategories&action=edit subcategories]
+</td><td>
+  Subcategories
+</td><td>
+  {{MSGNW:subcategories}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Subject&action=edit subject]
+</td><td>
+  Subject/headline
+</td><td>
+  {{MSGNW:subject}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Subjectpage&action=edit subjectpage]
+</td><td>
+  View subject
+</td><td>
+  {{MSGNW:subjectpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Successfulupload&action=edit successfulupload]
+</td><td>
+  Successful upload
+</td><td>
+  {{MSGNW:successfulupload}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Summary&action=edit summary]
+</td><td>
+  Summary
+</td><td>
+  {{MSGNW:summary}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sysopspheading&action=edit sysopspheading]
+</td><td>
+  For sysop use only
+</td><td>
+  {{MSGNW:sysopspheading}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sysoptext&action=edit sysoptext]
+</td><td>
+  The action you have requested can only be
+performed by users with &quot;sysop&quot; status.
+See $1.
+</td><td>
+  {{MSGNW:sysoptext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Sysoptitle&action=edit sysoptitle]
+</td><td>
+  Sysop access required
+</td><td>
+  {{MSGNW:sysoptitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Tableform&action=edit tableform]
+</td><td>
+  table
+</td><td>
+  {{MSGNW:tableform}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Talkexists&action=edit talkexists]
+</td><td>
+  The page itself was moved successfully, but the
+talk page could not be moved because one already exists at the new
+title. Please merge them manually.
+</td><td>
+  {{MSGNW:talkexists}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Talkpage&action=edit talkpage]
+</td><td>
+  Discuss this page
+</td><td>
+  {{MSGNW:talkpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Talkpagemoved&action=edit talkpagemoved]
+</td><td>
+  The corresponding talk page was also moved.
+</td><td>
+  {{MSGNW:talkpagemoved}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Talkpagenotmoved&action=edit talkpagenotmoved]
+</td><td>
+  The corresponding talk page was &lt;strong&gt;not&lt;/strong&gt; moved.
+</td><td>
+  {{MSGNW:talkpagenotmoved}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Textboxsize&action=edit textboxsize]
+</td><td>
+  Textbox dimensions
+</td><td>
+  {{MSGNW:textboxsize}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Textmatches&action=edit textmatches]
+</td><td>
+  Article text matches
+</td><td>
+  {{MSGNW:textmatches}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Thisisdeleted&action=edit thisisdeleted]
+</td><td>
+  View or restore $1?
+</td><td>
+  {{MSGNW:thisisdeleted}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Thumbnail-more&action=edit thumbnail-more]
+</td><td>
+  Enlarge
+</td><td>
+  {{MSGNW:thumbnail-more}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Timezoneoffset&action=edit timezoneoffset]
+</td><td>
+  Offset
+</td><td>
+  {{MSGNW:timezoneoffset}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Timezonetext&action=edit timezonetext]
+</td><td>
+  Enter number of hours your local time differs
+from server time (UTC).
+</td><td>
+  {{MSGNW:timezonetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Titlematches&action=edit titlematches]
+</td><td>
+  Article title matches
+</td><td>
+  {{MSGNW:titlematches}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Toc&action=edit toc]
+</td><td>
+  Table of contents
+</td><td>
+  {{MSGNW:toc}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uclinks&action=edit uclinks]
+</td><td>
+  View the last $1 changes; view the last $2 days.
+</td><td>
+  {{MSGNW:uclinks}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Ucnote&action=edit ucnote]
+</td><td>
+  Below are this user&#39;s last &lt;b&gt;$1&lt;/b&gt; changes in the last &lt;b&gt;$2&lt;/b&gt; days.
+</td><td>
+  {{MSGNW:ucnote}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uctop&action=edit uctop]
+</td><td>
+   (top)
+</td><td>
+  {{MSGNW:uctop}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unblockip&action=edit unblockip]
+</td><td>
+  Unblock user
+</td><td>
+  {{MSGNW:unblockip}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unblockiptext&action=edit unblockiptext]
+</td><td>
+  Use the form below to restore write access
+to a previously blocked IP address or username.
+</td><td>
+  {{MSGNW:unblockiptext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unblocklink&action=edit unblocklink]
+</td><td>
+  unblock
+</td><td>
+  {{MSGNW:unblocklink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unblocklogentry&action=edit unblocklogentry]
+</td><td>
+  unblocked &quot;$1&quot;
+</td><td>
+  {{MSGNW:unblocklogentry}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undelete&action=edit undelete]
+</td><td>
+  Restore deleted page
+</td><td>
+  {{MSGNW:undelete}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletearticle&action=edit undeletearticle]
+</td><td>
+  Restore deleted article
+</td><td>
+  {{MSGNW:undeletearticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletebtn&action=edit undeletebtn]
+</td><td>
+  Restore!
+</td><td>
+  {{MSGNW:undeletebtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletedarticle&action=edit undeletedarticle]
+</td><td>
+  restored &quot;$1&quot;
+</td><td>
+  {{MSGNW:undeletedarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletedtext&action=edit undeletedtext]
+</td><td>
+  The article &#91;&#91;$1]] has been successfully restored.
+See &#91;&#91;Wikipedia:Deletion_log]] for a record of recent deletions and restorations.
+</td><td>
+  {{MSGNW:undeletedtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletehistory&action=edit undeletehistory]
+</td><td>
+  If you restore the page, all revisions will be restored to the history.
+If a new page with the same name has been created since the deletion, the restored
+revisions will appear in the prior history, and the current revision of the live page
+will not be automatically replaced.
+</td><td>
+  {{MSGNW:undeletehistory}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletepage&action=edit undeletepage]
+</td><td>
+  View and restore deleted pages
+</td><td>
+  {{MSGNW:undeletepage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeletepagetext&action=edit undeletepagetext]
+</td><td>
+  The following pages have been deleted but are still in the archive and
+can be restored. The archive may be periodically cleaned out.
+</td><td>
+  {{MSGNW:undeletepagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeleterevision&action=edit undeleterevision]
+</td><td>
+  Deleted revision as of $1
+</td><td>
+  {{MSGNW:undeleterevision}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Undeleterevisions&action=edit undeleterevisions]
+</td><td>
+  $1 revisions archived
+</td><td>
+  {{MSGNW:undeleterevisions}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unexpected&action=edit unexpected]
+</td><td>
+  Unexpected value: &quot;$1&quot;=&quot;$2&quot;.
+</td><td>
+  {{MSGNW:unexpected}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockbtn&action=edit unlockbtn]
+</td><td>
+  Unlock database
+</td><td>
+  {{MSGNW:unlockbtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockconfirm&action=edit unlockconfirm]
+</td><td>
+  Yes, I really want to unlock the database.
+</td><td>
+  {{MSGNW:unlockconfirm}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockdb&action=edit unlockdb]
+</td><td>
+  Unlock database
+</td><td>
+  {{MSGNW:unlockdb}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockdbsuccesssub&action=edit unlockdbsuccesssub]
+</td><td>
+  Database lock removed
+</td><td>
+  {{MSGNW:unlockdbsuccesssub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockdbsuccesstext&action=edit unlockdbsuccesstext]
+</td><td>
+  The database has been unlocked.
+</td><td>
+  {{MSGNW:unlockdbsuccesstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unlockdbtext&action=edit unlockdbtext]
+</td><td>
+  Unlocking the database will restore the ability of all
+users to edit pages, change their preferences, edit their watchlists, and
+other things requiring changes in the database.
+Please confirm that this is what you intend to do.
+</td><td>
+  {{MSGNW:unlockdbtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unprotectedarticle&action=edit unprotectedarticle]
+</td><td>
+  unprotected &#91;&#91;$1]]
+</td><td>
+  {{MSGNW:unprotectedarticle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unprotectthispage&action=edit unprotectthispage]
+</td><td>
+  Unprotect this page
+</td><td>
+  {{MSGNW:unprotectthispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unusedimages&action=edit unusedimages]
+</td><td>
+  Unused images
+</td><td>
+  {{MSGNW:unusedimages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unusedimagestext&action=edit unusedimagestext]
+</td><td>
+  &lt;p&gt;Please note that other web sites
+such as the international Wikipedias may link to an image with
+a direct URL, and so may still be listed here despite being
+in active use.
+</td><td>
+  {{MSGNW:unusedimagestext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Unwatchthispage&action=edit unwatchthispage]
+</td><td>
+  Stop watching
+</td><td>
+  {{MSGNW:unwatchthispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Updated&action=edit updated]
+</td><td>
+  (Updated)
+</td><td>
+  {{MSGNW:updated}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Upload&action=edit upload]
+</td><td>
+  Upload file
+</td><td>
+  {{MSGNW:upload}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadbtn&action=edit uploadbtn]
+</td><td>
+  Upload file
+</td><td>
+  {{MSGNW:uploadbtn}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploaddisabled&action=edit uploaddisabled]
+</td><td>
+  Sorry, uploading is disabled.
+</td><td>
+  {{MSGNW:uploaddisabled}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadedfiles&action=edit uploadedfiles]
+</td><td>
+  Uploaded files
+</td><td>
+  {{MSGNW:uploadedfiles}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadedimage&action=edit uploadedimage]
+</td><td>
+  uploaded &quot;$1&quot;
+</td><td>
+  {{MSGNW:uploadedimage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploaderror&action=edit uploaderror]
+</td><td>
+  Upload error
+</td><td>
+  {{MSGNW:uploaderror}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadfile&action=edit uploadfile]
+</td><td>
+  Upload images, sounds, documents etc.
+</td><td>
+  {{MSGNW:uploadfile}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadlink&action=edit uploadlink]
+</td><td>
+  Upload images
+</td><td>
+  {{MSGNW:uploadlink}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadlog&action=edit uploadlog]
+</td><td>
+  upload log
+</td><td>
+  {{MSGNW:uploadlog}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadlogpage&action=edit uploadlogpage]
+</td><td>
+  Upload_log
+</td><td>
+  {{MSGNW:uploadlogpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadlogpagetext&action=edit uploadlogpagetext]
+</td><td>
+  Below is a list of the most recent file uploads.
+All times shown are server time (UTC).
+&lt;ul&gt;
+&lt;/ul&gt;
+
+</td><td>
+  {{MSGNW:uploadlogpagetext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadnologin&action=edit uploadnologin]
+</td><td>
+  Not logged in
+</td><td>
+  {{MSGNW:uploadnologin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadnologintext&action=edit uploadnologintext]
+</td><td>
+  You must be &lt;a href=&quot;/wiki/Special:Userlogin&quot;&gt;logged in&lt;/a&gt;
+to upload files.
+</td><td>
+  {{MSGNW:uploadnologintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadtext&action=edit uploadtext]
+</td><td>
+  &lt;strong&gt;STOP!&lt;/strong&gt; Before you upload here,
+make sure to read and follow the &lt;a href=&quot;/wiki/Wikipedia:Image_use_policy&quot;&gt;image use policy&lt;/a&gt;.
+&lt;p&gt;If a file with the name you are specifying already
+exists on the wiki, it&#39;ll be replaced without warning.
+So unless you mean to update a file, it&#39;s a good idea
+to first check if such a file exists.
+&lt;p&gt;To view or search previously uploaded images,
+go to the &lt;a href=&quot;/wiki/Special:Imagelist&quot;&gt;list of uploaded images&lt;/a&gt;.
+Uploads and deletions are logged on the &lt;a href=&quot;/wiki/Wikipedia:Upload_log&quot;&gt;upload log&lt;/a&gt;.
+&lt;p&gt;Use the form below to upload new image files for use in
+illustrating your articles.
+On most browsers, you will see a &quot;Browse...&quot; button, which will
+bring up your operating system&#39;s standard file open dialog.
+Choosing a file will fill the name of that file into the text
+field next to the button.
+You must also check the box affirming that you are not
+violating any copyrights by uploading the file.
+Press the &quot;Upload&quot; button to finish the upload.
+This may take some time if you have a slow internet connection.
+&lt;p&gt;The preferred formats are JPEG for photographic images, PNG
+for drawings and other iconic images, and OGG for sounds.
+Please name your files descriptively to avoid confusion.
+To include the image in an article, use a link in the form
+&lt;b&gt;&#91;&#91;image:file.jpg]]&lt;/b&gt; or &lt;b&gt;&#91;&#91;image:file.png&#124;alt text]]&lt;/b&gt;
+or &lt;b&gt;&#91;&#91;media:file.ogg]]&lt;/b&gt; for sounds.
+&lt;p&gt;Please note that as with wiki pages, others may edit or
+delete your uploads if they think it serves the encyclopedia, and
+you may be blocked from uploading if you abuse the system.
+</td><td>
+  {{MSGNW:uploadtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Uploadwarning&action=edit uploadwarning]
+</td><td>
+  Upload warning
+</td><td>
+  {{MSGNW:uploadwarning}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userexists&action=edit userexists]
+</td><td>
+  The user name you entered is already in use. Please choose a different name.
+</td><td>
+  {{MSGNW:userexists}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userlogin&action=edit userlogin]
+</td><td>
+  Log in
+</td><td>
+  {{MSGNW:userlogin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userlogout&action=edit userlogout]
+</td><td>
+  Log out
+</td><td>
+  {{MSGNW:userlogout}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userpage&action=edit userpage]
+</td><td>
+  View user page
+</td><td>
+  {{MSGNW:userpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userstats&action=edit userstats]
+</td><td>
+  User statistics
+</td><td>
+  {{MSGNW:userstats}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Userstatstext&action=edit userstatstext]
+</td><td>
+  There are &lt;b&gt;$1&lt;/b&gt; registered users.
+&lt;b&gt;$2&lt;/b&gt; of these are administrators (see $3).
+</td><td>
+  {{MSGNW:userstatstext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Version&action=edit version]
+</td><td>
+  Version
+</td><td>
+  {{MSGNW:version}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Viewcount&action=edit viewcount]
+</td><td>
+  This page has been accessed $1 times.
+</td><td>
+  {{MSGNW:viewcount}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Viewprevnext&action=edit viewprevnext]
+</td><td>
+  View ($1) ($2) ($3).
+</td><td>
+  {{MSGNW:viewprevnext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Viewsource&action=edit viewsource]
+</td><td>
+  View source
+</td><td>
+  {{MSGNW:viewsource}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Viewtalkpage&action=edit viewtalkpage]
+</td><td>
+  View discussion
+</td><td>
+  {{MSGNW:viewtalkpage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wantedpages&action=edit wantedpages]
+</td><td>
+  Wanted pages
+</td><td>
+  {{MSGNW:wantedpages}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchdetails&action=edit watchdetails]
+</td><td>
+  ($1 pages watched not counting talk pages;
+$2 total pages edited since cutoff;
+$3...
+&lt;a href=&#39;$4&#39;&gt;show and edit complete list&lt;/a&gt;.)
+</td><td>
+  {{MSGNW:watchdetails}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watcheditlist&action=edit watcheditlist]
+</td><td>
+  Here&#39;s an alphabetical list of your
+watched pages. Check the boxes of pages you want to remove
+from your watchlist and click the &#39;remove checked&#39; button
+at the bottom of the screen.
+</td><td>
+  {{MSGNW:watcheditlist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchlist&action=edit watchlist]
+</td><td>
+  My watchlist
+</td><td>
+  {{MSGNW:watchlist}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchlistcontains&action=edit watchlistcontains]
+</td><td>
+  Your watchlist contains $1 pages.
+</td><td>
+  {{MSGNW:watchlistcontains}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchlistsub&action=edit watchlistsub]
+</td><td>
+  (for user &quot;$1&quot;)
+</td><td>
+  {{MSGNW:watchlistsub}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchmethod-list&action=edit watchmethod-list]
+</td><td>
+  checking watched pages for recent edits
+</td><td>
+  {{MSGNW:watchmethod-list}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchmethod-recent&action=edit watchmethod-recent]
+</td><td>
+  checking recent edits for watched pages
+</td><td>
+  {{MSGNW:watchmethod-recent}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchnochange&action=edit watchnochange]
+</td><td>
+  None of your watched items were edited in the time period displayed.
+</td><td>
+  {{MSGNW:watchnochange}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchnologin&action=edit watchnologin]
+</td><td>
+  Not logged in
+</td><td>
+  {{MSGNW:watchnologin}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchnologintext&action=edit watchnologintext]
+</td><td>
+  You must be &lt;a href=&quot;/wiki/Special:Userlogin&quot;&gt;logged in&lt;/a&gt;
+to modify your watchlist.
+</td><td>
+  {{MSGNW:watchnologintext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchthis&action=edit watchthis]
+</td><td>
+  Watch this article
+</td><td>
+  {{MSGNW:watchthis}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Watchthispage&action=edit watchthispage]
+</td><td>
+  Watch this page
+</td><td>
+  {{MSGNW:watchthispage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Welcomecreation&action=edit welcomecreation]
+</td><td>
+  &lt;h2&gt;Welcome, $1!&lt;/h2&gt;&lt;p&gt;Your account has been created.
+Don&#39;t forget to personalize your wikipedia preferences.
+</td><td>
+  {{MSGNW:welcomecreation}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whatlinkshere&action=edit whatlinkshere]
+</td><td>
+  What links here
+</td><td>
+  {{MSGNW:whatlinkshere}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistacctext&action=edit whitelistacctext]
+</td><td>
+  To be allowed to create accounts in this Wiki you have to &#91;&#91;Special:Userlogin&#124;log]] in and have the appropriate permissions.
+</td><td>
+  {{MSGNW:whitelistacctext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistacctitle&action=edit whitelistacctitle]
+</td><td>
+  You are not allowed to create an account
+</td><td>
+  {{MSGNW:whitelistacctitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistedittext&action=edit whitelistedittext]
+</td><td>
+  You have to &#91;&#91;Special:Userlogin&#124;login]] to edit articles.
+</td><td>
+  {{MSGNW:whitelistedittext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistedittitle&action=edit whitelistedittitle]
+</td><td>
+  Login required to edit
+</td><td>
+  {{MSGNW:whitelistedittitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistreadtext&action=edit whitelistreadtext]
+</td><td>
+  You have to &#91;&#91;Special:Userlogin&#124;login]] to read articles.
+</td><td>
+  {{MSGNW:whitelistreadtext}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Whitelistreadtitle&action=edit whitelistreadtitle]
+</td><td>
+  Login required to read
+</td><td>
+  {{MSGNW:whitelistreadtitle}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wikipediapage&action=edit wikipediapage]
+</td><td>
+  View meta page
+</td><td>
+  {{MSGNW:wikipediapage}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wikititlesuffix&action=edit wikititlesuffix]
+</td><td>
+  Wikipedia
+</td><td>
+  {{MSGNW:wikititlesuffix}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wlnote&action=edit wlnote]
+</td><td>
+  Below are the last $1 changes in the last &lt;b&gt;$2&lt;/b&gt; hours.
+</td><td>
+  {{MSGNW:wlnote}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wlsaved&action=edit wlsaved]
+</td><td>
+  This is a saved version of your watchlist.
+</td><td>
+  {{MSGNW:wlsaved}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wlshowlast&action=edit wlshowlast]
+</td><td>
+  Show last $1 hours $2 days $3
+</td><td>
+  {{MSGNW:wlshowlast}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wrong_wfQuery_params&action=edit wrong_wfQuery_params]
+</td><td>
+  Incorrect parameters to wfQuery()&lt;br&gt;
+Function: $1&lt;br&gt;
+Query: $2
+
+</td><td>
+  {{MSGNW:wrong_wfQuery_params}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Wrongpassword&action=edit wrongpassword]
+</td><td>
+  The password you entered is incorrect. Please try again.
+</td><td>
+  {{MSGNW:wrongpassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yourdiff&action=edit yourdiff]
+</td><td>
+  Differences
+</td><td>
+  {{MSGNW:yourdiff}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Youremail&action=edit youremail]
+</td><td>
+  Your e-mail*
+</td><td>
+  {{MSGNW:youremail}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yourname&action=edit yourname]
+</td><td>
+  Your user name
+</td><td>
+  {{MSGNW:yourname}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yournick&action=edit yournick]
+</td><td>
+  Your nickname (for signatures)
+</td><td>
+  {{MSGNW:yournick}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yourpassword&action=edit yourpassword]
+</td><td>
+  Your password
+</td><td>
+  {{MSGNW:yourpassword}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yourpasswordagain&action=edit yourpasswordagain]
+</td><td>
+  Retype password
+</td><td>
+  {{MSGNW:yourpasswordagain}}
+</td></tr><tr><td>
+  [http://so.wikipedia.org/w/wiki.phtml?title=MediaWiki:Yourtext&action=edit yourtext]
+</td><td>
+  Your text
+</td><td>
+  {{MSGNW:yourtext}}
+</td></tr></table><noinclude>
+[[af:Sjabloon:All messages]]
+[[ay:Plantilla:All messages]]
+[[bh:टेम्पलेट:All messages]]
+[[bn:টেমপ্লেট:All messages]]
+[[bo:Template:All messages]]
+[[bpy:মডেল:All messages]]
+[[bs:Šablon:All messages]]
+[[cy:Nodyn:All messages]]
+[[gd:Teamplaid:All messages]]
+[[gv:Clowan:All messages]]
+[[hi:साँचा:All messages]]
+[[hy:Կաղապար:All messages]]
+[[ik:Template:All messages]]
+[[io:Shablono:All messages]]
+[[is:Snið:All messages]]
+[[jv:Cithakan:All messages]]
+[[km:ទំព័រគំរូ:All messages]]
+[[ky:Калып:All messages]]
+[[lo:ແມ່ແບບ:All messages]]
+[[lv:Veidne:All messages]]
+[[mg:Endrika:All messages]]
+[[mi:Template:All messages]]
+[[mn:Загвар:All messages]]
+[[nah:Nemachiyōtīlli:All messages]]
+[[ne:ढाँचा:All messages]]
+[[om:Template:All messages]]
+[[or:ଛାଞ୍ଚ:All messages]]
+[[qu:Plantilla:All messages]]
+[[sd:سانچو:All messages]]
+[[sg:Modèle:All messages]]
+[[sh:Šablon:All messages]]
+[[si:සැකිල්ල:All messages]]
+[[sm:Template:All messages]]
+[[ss:Template:All messages]]
+[[st:Template:All messages]]
+[[su:Citakan:All messages]]
+[[sw:Kigezo:All messages]]
+[[ta:வார்ப்புரு:All messages]]
+[[te:మూస:All messages]]
+[[tg:Шаблон:All messages]]
+[[tk:Şablon:All messages]]
+[[tn:Template:All messages]]
+[[to:Template:All messages]]
+[[tpi:Templet:All messages]]
+[[ur:سانچہ:All messages]]
+[[yo:Àdàkọ:All messages]]
+</noinclude>
