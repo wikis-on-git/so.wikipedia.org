@@ -1,0 +1,38 @@
+{| class="infobox" style="width: 200px; float:right; clear:right; font-size:88%" cellspacing="4"
+|- style="vertical-align: top;"
+| colspan="2" style="text-align: center;" | <big>'''{{{document_name}}}'''</big>
+|- style="vertical-align: top;"
+| colspan="2" style="text-align: center;" | {{#if:{{{image|}}}|[[image:{{{image}}}|{{{image_width|190px}}}|{{{image_caption|}}}]]<br><small><div style="text-align:center">{{{image_caption|}}}</div></small>}}
+|- style="vertical-align: top;"
+| colspan="2" style="text-align: center;" | {{#if:{{{image2|}}}|[[image:{{{image2}}}|{{{image_width2|190px}}}|{{{image_caption2|}}}]]<br><small><div style="text-align:center">{{{image_caption2|}}}</div></small>}}
+|- style="vertical-align: top;"
+{{#if:{{{date_first_issued|}}}|
+{{!}} '''Soo baxay'''
+{{!}} {{{date_first_issued}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{using_jurisdiction|}}}|
+{{!}} '''La adeegsado'''
+{{!}} {{{using_jurisdiction}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{valid_jurisdictions|}}}|
+{{!}} '''Shaqaynaya'''
+{{!}} {{{valid_jurisdictions}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{document_type|}}}|
+{{!}} '''Nuuca Aqoonsiga'''
+{{!}} {{{document_type}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{purpose|}}}|
+{{!}} '''Danaha'''
+{{!}} {{{purpose}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{eligibility|}}}|
+{{!}} '''Dadka leh'''
+{{!}} {{{eligibility}}} }}
+|- style="vertical-align: top;"
+{{#if:{{{expiration|}}}|
+{{!}} '''Dhicitaanka'''
+{{!}} {{{expiration}}} }}
+|}<noinclude>
+{{documentation}}
+</noinclude>
