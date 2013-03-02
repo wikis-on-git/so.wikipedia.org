@@ -1,0 +1,14 @@
+<includeonly>{{#if:{{{2|}}}
+ |{{MONTHNAME|{{{2}}}}}&nbsp;
+}}{{{1}}} (Sano&nbsp;{{#if:{{{2|}}}
+ |{{#ifexpr:{{CURRENTMONTH}}<{{{2}}}
+  |{{#expr:{{CURRENTYEAR}}-{{{1}}}-1}}
+  |{{#ifexpr:{{CURRENTMONTH}}>{{{2}}}
+   |{{#expr:{{CURRENTYEAR}}-{{{1}}}}}
+   |{{#expr:{{CURRENTYEAR}}-{{{1}}}-1}}&ndash;{{#expr:{{CURRENTYEAR}}-{{{1}}}}}
+  }}
+ }}
+ |{{#expr:{{CURRENTYEAR}}-{{{1}}}-1}}&ndash;{{#expr:{{CURRENTYEAR}}-{{{1}}}}}
+}})</includeonly><noinclude>
+{{documentation}}
+</noinclude>
