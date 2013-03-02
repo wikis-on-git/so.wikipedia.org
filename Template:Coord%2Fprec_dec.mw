@@ -1,0 +1,1 @@
+<includeonly>{{#switch:{{max/2|{{precision1|{{{1}}}}}|{{precision1|{{{2}}}}}}}|0=d|1|2=dm|dms}}</includeonly><noinclude>{{template doc}}[[Category:Coord template]]</noinclude>
