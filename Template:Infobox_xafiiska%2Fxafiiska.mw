@@ -143,32 +143,32 @@
 }}
 <!---------- President, Prime Minister, Governor---------->
 {{#if:{{{monarch|}}}|
-! style="text-align:left;" {{!}} Monarch
+! style="text-align:left;" {{!}} Boqor
 {{!}} {{{monarch}}}
 {{!}}-
 }}
 {{#if:{{{president|}}}|
-! style="text-align:left;" {{!}} President
+! style="text-align:left;" {{!}} Madaxweyne
 {{!}} {{{president}}}
 {{!}}-
 }}
 {{#if:{{{governor_general|}}}|
-! style="text-align:left;" {{!}} {{nowrap|Governor General}}
+! style="text-align:left;" {{!}} {{nowrap|Hogaamiyaha Guud}}
 {{!}} {{{governor_general}}}
 {{!}}-
 }}
 {{#if:{{{primeminister|}}}|
-! style="text-align:left;" {{!}} {{nowrap|Prime Minister}}
+! style="text-align:left;" {{!}} {{nowrap|Ra'iisul wasaare}}
 {{!}} {{{primeminister}}}
 {{!}}-
 }}
 {{#if:{{{chancellor|}}}|
-! style="text-align:left;" {{!}} Chancellor
+! style="text-align:left;" {{!}} Hogaamiye
 {{!}} {{{chancellor}}}
 {{!}}-
 }}
 {{#if:{{{minister|}}}|
-! style="text-align:left;" {{!}} Minister
+! style="text-align:left;" {{!}} Wasiir
 {{!}} {{{minister}}}
 {{!}}-
 }}
@@ -178,17 +178,17 @@
 {{!}}-
 }}
 {{#if:{{{firstminister|}}}|
-! style="text-align:left;" {{!}} {{nowrap|First Minister}}
+! style="text-align:left;" {{!}} {{nowrap|Wasiirka Koowaad}}
 {{!}} {{{firstminister}}}
 {{!}}-
 }}
 {{#if:{{{chiefminister|}}}|
-! style="text-align:left;" {{!}} {{nowrap|Chief Minister}}
+! style="text-align:left;" {{!}} {{nowrap|Ra'iisul wasaare}}
 {{!}} {{{chiefminister}}}
 {{!}}-
 }}
 {{#if:{{{premier|}}}|
-! style="text-align:left;" {{!}} Premier
+! style="text-align:left;" {{!}} Wasiir
 {{!}} {{{premier}}}
 {{!}}-
 }}
@@ -198,7 +198,7 @@
 {{!}}-
 }}
 {{#if:{{{lieutenant_governor|}}}|
-! style="text-align:left;" {{!}} {{nowrap|Lieutenant Governor}}
+! style="text-align:left;" {{!}} {{nowrap|Xukun Militari}}
 {{!}} {{{lieutenant_governor}}}
 {{!}}-
 }}
@@ -286,16 +286,16 @@
 {{!}}-
 }}
 {{#if:{{{incumbent|}}}|
-! style="text-align:left;" {{!}} Incumbent
+! style="text-align:left;" {{!}} Xilka haya
 {{!}} {{{incumbent}}}
 {{!}}-
 }}
 {{#if:{{{succeeding|}}}|
-! style="text-align:left;" {{!}} Succeeding
+! style="text-align:left;" {{!}} Kaga horeeyay
 {{!}} {{{succeeding}}}
 {{!}}-
 |{{#if:{{{preceding|}}}|
-! style="text-align:left;" {{!}} Preceding
+! style="text-align:left;" {{!}} Kaga dambeeyey
 {{!}} {{{preceding}}}
 {{!}}-
 }}
@@ -320,13 +320,13 @@
 }}}}
 <!-----Constituency----->
 {{#if:{{{constituency|}}}|
-! style="text-align:left;" {{!}} Constituency
+! style="text-align:left;" {{!}} Doorashooyinka
 {{!}} {{{constituency}}}
 {{!}}-
 }}
 <!-----Majority----->
 {{#if:{{{majority|}}}|
-! style="text-align:left;" {{!}} Majority
+! style="text-align:left;" {{!}} Aqlabiyadda
 {{!}} {{{majority}}}
 {{!}}-
 }}</includeonly><noinclude>{{doc}}</noinclude>
