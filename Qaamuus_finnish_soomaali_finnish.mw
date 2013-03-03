@@ -75,7 +75,6 @@ Helsinki Sabti 19.01.2013 M.
 
 
 
-
 Esipuhe
 Suomi somali suomi sanakirjassa on noin ??? hakusanaa ja ilmausta. Sanakirjaan on koottu paljon arkielämässä tarpeellista ja välttämätöntäkin sanastoa, jota tarvitaan muun muassa viranomaisten kanssa asioitaessa, opiskeltaessa ja lehtiä luettaessa. 
 Tämä sanakirja ei olisi toteutunut ilman läheisten ja ystävien henkistä tukea ja kiitän heitä. 
@@ -89,7 +88,9 @@ b c d f g h j k l m n p r s t v z
 Sanakirjassa on käytetty seuraavia kieliopin sanoja:
 adverbi			falkaab
 artikkeli			qodob
+fokus			diirad
 fraasi			weer
+interjektio 			yaab 
 kielioppi			naxwe
 konjunktio			xiriiriye
 kysymyssana			weyddiinley
@@ -99,7 +100,6 @@ partikkeli			qurub
 prepositio			meeleeye
 pronomini			magacuyaal
 substantiivi			magac
-tarkennus			diirad
 verbi			fal
 yksikkö			keli
 Suomi somali sanakirja
@@ -137,6 +137,7 @@ aivot magac:			maskax
 ajanvaraus magac:		ballan
 ajatella fal:			fikir
 akillesjänne magac:		boqon, seedda ciribta
+aksentti magac:		dhawaaq
 ala-aste magac:		dugsiga hoose
 alaleuka magac:		daan
 alikersantti magac:		laba alifle
@@ -217,6 +218,7 @@ definiittinen tilmaame:		cayiman
 delfiini magac:			hoombaro 
 demoni magac:		cirfiid
 demonstratiivinen tilmaame:		muujiye (naxwe)
+desimaali magac:		tobanle
 despootti magac:		amarkutaagle
 diabetes magac:		sonkorow, kaadisokorow
 diftongi magac:		shaqalada israaca
@@ -361,8 +363,13 @@ huonokäytöksinen tilmaame:		saqajaan
 huopa magac:			buste
 huora magac:			sharmuuto
 hus yaab:			yur
+huudahdus magac:		dhawaaq yar
+huudahdussana magac:		yaab (naxwe)
 huulet magac:			dibno
 huuli magac:			bushin
+huutaa fal:			dhawaaq
+huutaminen magac:		dhawaaq
+huuto magac:			dhawaaq
 huutokaupata fal:		xaraash
 huutokauppa magac:		xaraash
 huutomerkki magac:		astaan yaab
@@ -390,6 +397,7 @@ hyökkääjä magac:		weeraryahan (kubbadda cagta)
 hyönteinen magac:		cayayaan
 hyönteistiede magac:		cayayaanaqoon
 häivy yaab:			yur
+hämmästys magac:		yaab
 hän magacuyaal:		isaga, iyada
 häntä magac:			sayn
 häpykarvat magac:		shuun
@@ -398,8 +406,10 @@ härkä magac:			dibi
 häät magac:			aroos		
 I
 idoli magac:			sanam
+ihme magac:			yaab
+ihmetellä fal:			yaab
 ihminen magac:		aadane
-ihmiset magac:		aadane
+ihmiset magac:		aadane, dad
 iho magac:			maqaar
 ihosairaus väriltään vaaleampi iho:	qawad
 ihonväri magac:		midab
@@ -418,6 +428,7 @@ imperatiivi magac:		farto, amar (naxwe)
 imperialismi magac:		gumeysi
 indefiniittinen tilmaame:		aan cayinnayn
 inkivääri magac:		sinjibiil
+interjektio magac:		yaab (naxwe)
 intransitiivinen tilmaame:		magudbe (naxwe)
 islam magac:			Islaam
 islamilaisten paastokuukausi:	Ramadaan
@@ -492,6 +503,7 @@ kananmuna magac:		ukun
 kananpoika magac:		ilmaha digaagadda
 kaneli magac:			qorfe
 kani, kaniini   			bakayle
+kansa magac:			dad
 kansanedustaja magac:		xildhibaan
 kansi magac:			dabool, jildi
 kantajänne magac:		seedda ciribta
@@ -669,7 +681,11 @@ kuuro magac:			dhegoole
 kuva magac:			sawir
 kuvotus magac:		labballabbo
 kyljyspihvi magac:		busteeki
-kyllä magac:			haa		
+kyllä magac:			haa
+kymmenen tiraale:		toban
+kymmenes tiraale:		tobanaad
+kymmenjärjestelmä magac:		tobanle
+kymppi (korttipeli) magac:		tobanle (turub)		
 kynsi magac:			ciddi
 kynttilä magac:		shumac
 kynä magac:			qalin
@@ -699,6 +715,7 @@ käärme magac:		mas
 L
 laastari magac:		sharooto		
 laatia fal:			diyaari
+laatu magac:			tayo
 laine magac:			hir
 laineet magac:		hirar			
 laite magac:			aalad
@@ -752,7 +769,8 @@ loppuliite magac:		dibkabe (naxwe)
 lounas magac:			koonfur galbeed, qado		
 lukio magac:			dugsiga sare 
 lukko magac:			quful
-lukusana magac:		tiraale (naxwe)				
+luku magac:			tiro (naxwe)
+lukusana magac:		tiraale (naxwe)	
 luode magac:			waqooyi galbeed
 luokka magac:			fasal
 luonne magac:		caado, dabci
@@ -873,6 +891,7 @@ muutamaa päivää myöhemmin:	berya ka dib
 myrkky magac:		sun
 myydä fal:			gad
 myymälä magac:		dukaan 
+määrä magac:			tiro
 määräinen tilmaame:		cayiman
 N
 naapuri magac:		deris
@@ -909,7 +928,8 @@ nimi magac:			magac
 niska magac:			tun
 niskoittelu magac:		amardiiddo
 nisäkäs ~ nisäkkäät magac:		naasaley
-nivel magac:			kalaggoys		
+nivel magac:			kalaggoys
+noin kymmenen falkaab:		tobaneeye				
 nopeus magac:		xawaare {fiisigis}
 Norja magac:			Noorwey
 norsu magac:			maroodi
@@ -920,6 +940,7 @@ nukutusaine magac:		suuxin (daawo)
 nukutushoitaja magac:		suuxiye (kalkaaliye)
 nukutuslääkäri magac:		suuxiye (dhakhtar)
 numeraali magac:		tiraale (naxwe)
+numero magac:		tiro
 nuo magacuyaal:		kuwaas
 nykyään falkaab:		beryahan		
 nyrjähdys magac:		murgucasho
@@ -1494,7 +1515,9 @@ vuohi magac:			ri'
 vuosi magac:			sanad
 vuosipäivä magac:		sanagguuro
 vyö magac:			suun
+väestö magac:			dad
 vähäverisyys magac:		dhiigyari
+väki magac:			dad
 välimerkit magac:		astaamayn
 välimerkki magac:		astaan
 väline magac:			aalad
@@ -1507,14 +1530,15 @@ Y
 yhdyntä magac:		galmo
 Yhdysvallat magac:		Mareykan
 yhteentörmäys magac:		hirdan
-yksi tiro:			kow
+yksi tiraale:			kow
 yksikkö magac:		keli (naxwe)
 ylihuomenna falkaab:		berri dambe
 ylikonstaapeli magac:		saddex alifle
 yliopisto magac:		jaamacad
 yllyttää fal:			daandaanso
 yllytys magac:			daandaansi
-yllätys magac:			lamafilaan
+yllättyä fal:			yaab
+yllätys magac:			lamafilaan, yaab
 yläaste magac:		dugsiga dhexe	
 ympärileikkaus magac:		gudniin
 yskä magac:			qufac			
@@ -1525,6 +1549,7 @@ zoomi magac:			sawir-weyneyn
 äiti magac:			hooyo
 äitipuoli magac:		eeddo
 äitiys magac:			hooyonnimo 
+ääntäminen magac:		dhawaaq
 Ö
 öljy magac:			saliid
 
@@ -1632,7 +1657,7 @@ wadar 			monikko
 weyddiinley 			kysymyssana
 weer 			fraasi, lauseke
 xiriiriye 			konjunktio, sidesana
-
+yaab magac: 			interjektio, huudahdussana 
 Somali suomi sanakirja
                         Qaamuus soomaali finnish
 A
@@ -1895,6 +1920,7 @@ dabadhilif magac: 		käsikassara
 dabagaalle magac:		orava
 dabo magac:			takapuoli, takamus
 dabool magac: 		kansi
+dad magac: 			ihmiset, kansa, väestö, väki
 dagaal magac faleed: 		sota, taistelu
 dagaal-aqoon magac: 		strategia, sodanjohtotaito
 dagaalyahan magac: 		taistelija, soturi
@@ -1928,6 +1954,9 @@ dhakhtar magac: 		lääkäri
 dhamme magac: 		kapteeni
 dhaqaale magac: 		taloustiede, ekonomia
 dhaqsadii falkaab: 		välittömästi, heti, pian
+dhawaaq fal: 			huutaa
+dhawaaq magac faleed: 		huutaminen, huuto, ääntäminen, aksentti
+dhawaaq yar magac:		huudahdus
 dheddig magac: 		feminiini (kielioppi)
 dheecaanka qanjirada qaarkood:	hormoni
 dheg magac: 			korva
@@ -2252,7 +2281,7 @@ koonfur magac: 		etelä
 Koonfur Afrika magac: 		Etelä-Afrikka
 koonfur galbeed magac:		lounas
 koonfur bari magac:		kaakko
-kow tiro: 			yksi
+kow tiraale: 			yksi
 kub magac: 			pohje
 kubbad magac: 		pallo
 kubbadda cagta magac: 		jalkapallo
@@ -2615,6 +2644,7 @@ tallaal magac: 			rokote, rokotus
 Talyaani magac: 		Italia
 taraam magac: 		raitiovaunu
 tareen magac: 		juna
+tayo magac: 			laatu
 teetane magac: 		jäykkäkouristus, tetanus
 telefishen magac: 		television
 telefoon magac: 		puhelin
@@ -2626,6 +2656,12 @@ timir magac: 			taateli
 timo magac: 			hiukset
 tin magac: 			hius
 tiraale magac:			numeraali, lukusana (kielioppi)
+tiro magac: 			numero, määrä, luku (kielioppi)
+toban tiraale: 			kymmenen
+tobanaad tiraale: 		kymmenes
+tobaneeye tiraale: 		noin kymmenen
+tobanle magac: 		desimaali, kymmenjärjestelmä
+tobanle magac: 		kymppi (korttipeli)
 toddobaad magac: 		viikko
 toon magac:			valkosipuli
 tufaax magac:			omena
@@ -2758,6 +2794,9 @@ xusul magac:			kyynärpää
 Y
 yaa : 			kuka, mitä
 yaa :			anteeksi kuinka, anteeksi mitä
+yaab fal: 			yllättyä, ihmetellä
+yaab magac: 			yllätys, hämmästys, ihme
+yaab magac: 			huudahdus, huudahdussana, interjektio {kielioppi}
 yaanbo magac: 		kuokka
 yaanyo magac: 		tomaatti
 yaxaas magac: 		krokotiili
