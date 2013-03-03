@@ -73,8 +73,6 @@ Qoraha
 Helsinki Sabti 19.01.2013 M.
 
 
-
-
 Esipuhe
 Suomi somali suomi sanakirjassa on noin ??? hakusanaa ja ilmausta. Sanakirjaan on koottu paljon arkielämässä tarpeellista ja välttämätöntäkin sanastoa, jota tarvitaan muun muassa viranomaisten kanssa asioitaessa, opiskeltaessa ja lehtiä luettaessa. 
 Tämä sanakirja ei olisi toteutunut ilman läheisten ja ystävien henkistä tukea ja kiitän heitä. 
@@ -86,6 +84,7 @@ a e i o u y ä ö
 Shibbaneyaasha
 b c d f g h j k l m n p r s t v z
 Sanakirjassa on käytetty seuraavia kieliopin sanoja:
+adjektiivi			tilmaame
 adverbi			falkaab
 artikkeli			qodob
 fokus			diirad
@@ -102,6 +101,7 @@ pronomini			magacuyaal
 substantiivi			magac
 verbi			fal
 yksikkö			keli
+
 Suomi somali sanakirja
                         Qaamuus finnish soomaali
 A
@@ -126,6 +126,7 @@ adverbi magac:		falkaab {naxwe}
 Afrikka magac:		Afrika
 afrikkalainen tilmaame:		Afrikaan
 agronomia magac:		cilmi beereed
+ahkera tilmaame:		dadaale
 aihe magac:			mawduuc
 aika magac:			waqti
 aikakauslehti magac:		wargeys
@@ -1027,6 +1028,7 @@ patja  magac:			joodari
 patruuna magac:		xabbad		
 paviaani magac:		daanyeer
 peili magac:			muraayad
+peitellä fal:			dad
 pelata korttia fal:		turub
 pelkuri magac:		fulay		
 penis magac:			gus
@@ -1047,6 +1049,7 @@ pieraista fal:			dhuus
 pieru magac:			dhuuso
 pihka magac:			xabag
 pihvi magac:			hilib lo'aad 
+piilottaa fal:			dad
 pikkusormi magac:		faryaro
 pilli magac:			firinbi
 pilvi magac:			daruur
@@ -1103,6 +1106,8 @@ puutua fal:			kabaabyood
 puutuminen magac:		kabaabyo
 puutarha magac:		beer
 pyhiinvaellus magac:		xaj
+pyrkiminen magac:		dadaal
+pyrkiä fal:			dadaal
 pyydän anteeksi weer:		iga raalli ahow		
 pyyhe magac:			shukumaan
 pyyheliina magac:		shukumaan
@@ -1181,6 +1186,7 @@ saivar magac:			qandhicil
 Saksa magac:			Jarmal
 sakset magac:			maqas
 salaatti magac:		ansalaato
+salata fal:			dad
 sammallus magac:		carrabla’aan
 sammaltaa :			carrabla’aan
 samosa magac:		sambuus
@@ -1541,6 +1547,7 @@ yllättyä fal:			yaab
 yllätys magac:			lamafilaan, yaab
 yläaste magac:		dugsiga dhexe	
 ympärileikkaus magac:		gudniin
+yrittää kovasti fal:		dadaal
 yskä magac:			qufac			
 yö magac:			habeen 
 Z
@@ -1640,7 +1647,6 @@ Shaqalada gaagaaban
 a e i o u 
 Shaqalada dhaadheer
 aa ee ii oo uu
-
 Ereyo-naxweedyada lagu isticmaalay qaamuuskan:
 diirad 			fokus, tarkennus
 fal 			verbi
@@ -1652,6 +1658,7 @@ meeleeye			prepositio
 naxwe 			kielioppi
 qodob 			artikkeli
 qurub 			partikkeli, apusana
+tilmaame			adjektiivi 
 tiraale 			numeraali, lukusana 
 wadar 			monikko 
 weyddiinley 			kysymyssana
@@ -1921,6 +1928,10 @@ dabagaalle magac:		orava
 dabo magac:			takapuoli, takamus
 dabool magac: 		kansi
 dad magac: 			ihmiset, kansa, väestö, väki
+dad fal: 			peitellä, salata, piilottaa
+dadaal fal: 			pyrkiä, yrittää kovasti
+dadaal magac faleed: 		pyrkiminen, pyrkimys
+dadaale tilmaame: 		ahkera
 dagaal magac faleed: 		sota, taistelu
 dagaal-aqoon magac: 		strategia, sodanjohtotaito
 dagaalyahan magac: 		taistelija, soturi
