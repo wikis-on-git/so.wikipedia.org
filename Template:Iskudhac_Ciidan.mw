@@ -1,0 +1,159 @@
+{{#if:{{{campaignbox|}}}
+|<table style="float:right; clear:right; background: transparent; margin: 0; padding: 0;">
+<tr><td>
+}}<table {{WPMILHIST Infobox style|main_box|vevent}}>
+<tr>
+<th class="summary" colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>{{{conflict|{{PAGENAME}}}}}
+</th>
+</tr>
+{{#if:{{{partof|}}}
+|<tr>
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|sub_header_bar}}>Qayb ka tiran {{{partof}}}
+</td>
+</tr>
+}}{{#if:{{{image|}}}
+|<tr>
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|image_box}}>{{{image}}}{{#if:{{{caption|}}}|<br />{{{caption}}}}}
+</td>
+</tr>
+}}<tr>
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}">
+<table style="width:100%; margin:0; padding:0; border:0">
+{{#if:{{{date|}}}
+|<tr>
+<th style="padding-right:1em">Taariikhda</th>
+<td>{{{date}}}
+</td>
+</tr>
+}}<tr>
+<th style="padding-right:1em">Goobta</th>
+<td><span class="location">{{{meesha}}}</span>{{#if:{{both|{{{place|}}}|{{{coordinates|}}}}}|<br />}}{{{coordinates|}}}
+</td>
+</tr>{{#if:{{{status|}}}{{{result|}}}
+|<tr>
+<th style="padding-right:1em">{{#if:{{{status|}}}|Xaalka|Natiijada}}</th>
+<td>{{#if:{{{status|}}}|{{{status}}}|{{{result}}}}}
+</td>
+</tr>
+}}{{#if:{{{territory|}}}
+|<tr>
+<th style="padding-right:1em">Isbadelka<br />Caalamka
+<td>{{{territory}}}
+</td>}}
+</table></td>
+</tr>{{#if:{{{combatant1|}}}{{{combatant2|}}}{{{combatant3|}}}
+|<tr>
+<th colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>{{#if:{{{combatants_header|}}}|{{{combatants_header|}}}|Wada dagaalamay}}</th>
+</tr><tr>
+<td {{#if:{{{combatant2|}}}|{{#if:{{{combatant3|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}}"}}|colspan="2"}}>{{{combatant1|}}}
+</td>{{#if:{{{combatant2|}}}
+|<td {{#if:{{{combatant3|}}}|style="width:33%; padding-left:0.25em"|style="width:50%; padding-left:0.25em"}}>{{{combatant2}}}
+</td>}}{{#if:{{{combatant3|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}}">{{{combatant3}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant1a|}}}{{{combatant2a|}}}{{{combatant3a|}}}
+|<tr>
+<td {{#if:{{{combatant2a|}}}|{{#if:{{{combatant3a|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"}}|colspan="2"}}>{{{combatant1a|}}}
+</td>{{#if:{{{combatant2a|}}}
+|<td {{#if:{{{combatant3a|}}}|style="width:33%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"}}>{{{combatant2a}}}
+</td>}}{{#if:{{{combatant3a|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}">{{{combatant3a}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant1b|}}}{{{combatant2b|}}}{{{combatant3b|}}}
+|<tr>
+<td {{#if:{{{combatant2b|}}}|{{#if:{{{combatant3b|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"}}|colspan="2"}}>{{{combatant1b|}}}
+</td>{{#if:{{{combatant2b|}}}
+|<td {{#if:{{{combatant3b|}}}|style="width:33%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"}}>{{{combatant2b}}}
+</td>}}{{#if:{{{combatant3b|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}">{{{combatant3b}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant1c|}}}{{{combatant2c|}}}{{{combatant3c|}}}
+|<tr>
+<td {{#if:{{{combatant2c|}}}|{{#if:{{{combatant3c|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"}}|colspan="2"}}>{{{combatant1c|}}}
+</td>{{#if:{{{combatant2c|}}}| 
+<td {{#if:{{{combatant3c|}}}|style="width:33%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"}}>{{{combatant2c}}}
+</td>}}{{#if:{{{combatant3c|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}">{{{combatant3c}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant1d|}}}{{{combatant2d|}}}{{{combatant3d|}}}
+|<tr>
+<td {{#if:{{{combatant2d|}}}|{{#if:{{{combatant3d|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}"}}|colspan="2"}}>{{{combatant1d|}}}
+</td>{{#if:{{{combatant2d|}}}
+|<td {{#if:{{{combatant3d|}}}|style="width:33%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; padding-left:0.25em; border-top:{{WPMILHIST Infobox style|internal_border}}"}}>{{{combatant2d}}}
+</td>}}{{#if:{{{combatant3d|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}} border-top:{{WPMILHIST Infobox style|internal_border}}">{{{combatant3d}}}
+</td>}}
+</tr>
+}}{{#if:{{{commander1|}}}{{{commander2|}}}{{{commander3|}}}
+|<tr>
+<th colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>Hogaanka iyo saraakiisha</th>
+</tr><tr>
+<td {{#if:{{{combatant3|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}}"}}>{{{commander1|}}}
+</td><td {{#if:{{{combatant3|}}}|style="width:33%; padding-left:0.25em"|style="width:50%; padding-left:0.25em"}}>{{{commander2|}}}
+</td>{{#if:{{{combatant3|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}}">{{{commander3|}}}
+</td>}}
+</tr>
+}}{{#if:{{{units1|}}}{{{units2|}}}{{{units3|}}}
+|<tr>
+<th colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>Units involved</th>
+</tr><tr>
+<td {{#if:{{{combatant3|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}}"}}>{{{units1|}}}
+</td><td {{#if:{{{combatant3|}}}|style="width:33%; padding-left:0.25em"|style="width:50%; padding-left:0.25em"}}>{{{units2|}}}
+</td>{{#if:{{{combatant3|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}}">{{{units3|}}}
+</td>}}
+</tr>
+}}{{#if:{{{strength1|}}}{{{strength2|}}}{{{strength3|}}}
+|<tr>
+<th colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>Awooda</th>
+</tr><tr>
+<td {{#if:{{{combatant3|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}}"}}>{{{strength1|}}}
+</td><td {{#if:{{{combatant3|}}}|style="width:33%; padding-left:0.25em"|style="width:50%; padding-left:0.25em"}}>{{{strength2|}}}
+</td>{{#if:{{{combatant3|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}}">{{{strength3|}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant3|}}}
+|<!-- -->|{{#if:{{{strength3|}}}
+|<tr>
+<td colspan="2" style="text-align:center; {{#if:{{{strength1|}}}{{{strength2|}}}|border-top:{{WPMILHIST Infobox style|internal_border}}}}">{{{strength3}}}
+</td>
+</tr>
+}}}}{{#if:{{{casualties1|}}}{{{casualties2|}}}{{{casualties3|}}}
+|<tr>
+<th colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|header_bar}}>Khasaarada iyo dhaawaca</th>
+</tr><tr>
+<td {{#if:{{{combatant3|}}}|style="width:33%; border-right:{{WPMILHIST Infobox style|internal_border}}"|style="width:50%; border-right:{{WPMILHIST Infobox style|internal_border}}"}}>{{{casualties1|}}}
+</td><td {{#if:{{{combatant3|}}}|style="width:33%; padding-left:0.25em"|style="width:50%; padding-left:0.25em"}}>{{{casualties2|}}}
+</td>{{#if:{{{combatant3|}}}
+|<td style="width:33%; padding-left:0.25em; border-left:{{WPMILHIST Infobox style|internal_border}}">{{{casualties3|}}}
+</td>}}
+</tr>
+}}{{#if:{{{combatant3|}}}
+|<!-- -->|{{#if:{{{casualties3|}}}
+|<tr>
+<td colspan="2" style="text-align:center; {{#if:{{{casualties1|}}}{{{casualties2|}}}|border-top:{{WPMILHIST Infobox style|internal_border}}}}">{{{casualties3}}}
+</td>
+</tr>
+}}}}{{#if:{{{notes|}}}
+|<tr>
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}" style="font-size:90%; border-top:{{WPMILHIST Infobox style|section_border}}">{{{notes}}}
+</td>
+</tr>
+}}{{#if: {{{map_type|}}}|
+<tr>
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}" style="border-top:{{WPMILHIST Infobox style|internal_border}}"><center>{{Khariiradda Goobta|{{{map_type}}}|relief={{{map_relief|}}}|lat={{{latitude}}}|long={{{longitude}}}|width={{{map_size|220}}}|float=center|border=none|marksize={{{map_marksize|8}}}|label={{{map_label|}}}|caption={{{map_caption|Goobta iyo {{{map_type}}}}}}}}</center></td>
+</tr>
+}}{{#if:{{{campaignbox|}}}
+|</table>
+</tr><tr>
+<td>
+{{{campaignbox|}}}
+</td>
+</tr>
+}}</table><noinclude>{{documentation}}</noinclude>
