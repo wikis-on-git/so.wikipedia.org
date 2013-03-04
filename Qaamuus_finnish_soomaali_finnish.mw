@@ -129,7 +129,10 @@ agronomia magac:		cilmi beereed
 ahkera tilmaame:		dadaale
 aihe magac:			mawduuc
 aika magac:			waqti
+aikaihminen magac:		qaangaar
 aikakauslehti magac:		wargeys
+aikuinen magac:		qaangaar
+aikuistua fal:			qaangaar
 aisti magac:			dareeme
 aivastaa fal:			hindhis
 aivastus magac:		hindhiso
@@ -468,6 +471,8 @@ joki magac:			webi
 joulukuu magac:		Disembar
 journalismi magac:		saxaafad
 jousenjänne magac:		boqon
+jousi magac:			qaanso
+jousimiehet magac:		qaansaley
 juoksujalkainen magac:		geelcaacis
 juusto magac:			farmaajo
 Jumala magac:		Eebbe
@@ -544,6 +549,7 @@ kaula magac:			qoor
 kauneus magac:		qurux
 kaunis tilmaame:		quruxsan
 kauppa magac:		dukaan
+kauppalasku magac:		qaansheeg
 kauppias magac:		dukaanle
 kaupunki magac:		magaalo
 kauttakulkuviisumi magac:		fiise dalkumar
@@ -740,6 +746,7 @@ laajeneminen magac:		ballaarin
 laastari magac:		sharooto		
 laatia fal:			diyaari
 laatu magac:			tayo
+lainanantaja magac:		qaansheegte
 laine magac:			hir
 laineet magac:		hirar			
 laite magac:			aalad
@@ -803,7 +810,8 @@ lukusana magac:		tiraale (naxwe)
 luode magac:			waqooyi galbeed
 luokka magac:			fasal
 luonne magac:		caado, dabci
-luoti magac:			xabbad		
+luoti magac:			xabbad
+luotonantaja magac:		qaansheegte		
 lupaus magac:			ballan	
 lusikka magac:			macalgad, qaaddo
 luultavasti falkaab:		malaha, armaa		
@@ -1003,6 +1011,7 @@ oleskelulupa magac:		sharci
 olkaa hyvä weer:		adaa mudan
 olkapää magac:		garab
 olla kuukautiset fal:		caado qab
+olla velkaa fal:			qaamoob
 olohuone magac:		bersed
 olut magac:			khamri fudud
 omena magac:		tufaax
@@ -1274,6 +1283,7 @@ siitin magac:			gus
 sika magac:			doonfaar
 sikiäminen magac:		ilmo qaadid
 sikiö magac:			uurjiif
+sikotauti magac:		qaamoqashiir
 silmä magac:			il
 silmälasit magac:		muraayad
 silmänräpäys magac:		ilbiriqsi
@@ -1327,6 +1337,8 @@ suklaa magac:			shukulaato
 suku magac:			qaraabo
 sukulaiset magac:		qaraabo 
 sulhanen magac:		aroos
+sulje magac:			qaanso
+sulkumerkit magac:		qaanso
 sunnuntai magac:		Axad 
 suoja magac:			dugsi
 suola magac:			cusbo
@@ -1394,6 +1406,7 @@ tavu magac:			xubin {naxwe}
 te magacuyaal:		idinka
 tee magac:			shah
 teema magac:			mawduuc
+tehdä raskaana fal:		uuree
 teippi magac:			sharooto
 tekijä magac:			fale
 teko magac:			fal
@@ -1446,6 +1459,8 @@ tulittaa fal:			xabbadee
 tulkata fal:			afceli, turjun (af ahaan)
 tulkki magac:			afceliye, turjubaan (af ahaan)
 tulla fal:			imaan
+tulla raskaaksi fal:		uurow
+tulla täysi-ikäiseksi fal:		qaangaar
 tulli magac:			furdo
 tulo magac:			imaansho
 tummaihoinen tilmaame:		madow
@@ -1537,6 +1552,10 @@ WC magac:			musqul
 vehnä magac:			qamadi
 veitsi magac:			mindi
 veli magac:			abboowe
+velkaantua fal:		qaamoob
+velkaantunut tilmaame:		qaameysan
+velkainen tilmaame:		qaameysan
+velkoja magac:		qaansheegte
 vene magac:			doon
 Venus magac:			Xiddigta Waabberi
 verbi magac:			fal {naxwe}
@@ -2549,7 +2568,16 @@ orgi magac:			pukki
 Q
 qaaddo magac: 		lusikka
 qaajeer magac: 		kuiva hiki iholla
+qaameysan tilmaame: 		velkaantunut, velkainen
+qaamoob fal: 			velkaantua, olla velkaa
+qaamoqashiir magac: 		sikotauti
 qaamuus magac: 		sanakirja
+qaangaar magac: 		aikuinen, aikaihminen
+qaangaar fal: 			aikuistua, tulla täysi-ikäiseksi
+qaansaley magac: 		jousimiehet
+qaansheeg magac: 		kauppalasku
+qaansheegte magac: 		velkoja, luotonantaja, lainanantaja
+qaanso magac: 		jousi ; sulje, sulkumerkit
 qaaxo magac: 			tuberkuloosi
 qabiil magac: 			heimo, klaani
 qabsin magac: 		umpilisäke, umpilisäkkeen tulehdus
@@ -2783,7 +2811,9 @@ uur magac: 			raskaus
 uur leh tilmaame: 		raskaana
 uurcelin magac: 		ehkäisy
 uurcelis magac: 		ehkäisyväline
+uuree fal: 			tehdä raskaana
 uurjiif magac: 			sikiö
+uurow fal: 			tulla raskaaksi
 W
 waad ku mahadsan tahay yaab:	kiitoksia
 waad ku mahadsan tahay martisoorka:	kiitos vieraanvaraisuudesta
