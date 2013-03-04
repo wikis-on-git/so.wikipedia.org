@@ -27,7 +27,7 @@
 </tr>
 }}<tr>
 <th style="padding-right:1em">Goobta</th>
-<td><span class="location">{{{meesha}}}</span>{{#if:{{both|{{{place|}}}|{{{coordinates|}}}}}|<br />}}{{{coordinates|}}}
+<td><span class="location">{{{place}}}</span>{{#if:{{both|{{{place|}}}|{{{coordinates|}}}}}|<br />}}{{{coordinates|}}}
 </td>
 </tr>{{#if:{{{status|}}}{{{result|}}}
 |<tr>
