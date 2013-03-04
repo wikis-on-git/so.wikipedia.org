@@ -1,0 +1,31 @@
+{{#switch:{{{years|}}}
+ ||0=
+ |{{plural|{{{years}}}|year}}{{#switch: {{#expr: 
+   ({{{months|0}}} and {{{months|1}}}) +
+   ({{{weeks|0}}} and {{{weeks|1}}}) +
+   ({{{days|0}}} and {{{days|1}}})
+  }}
+  |0=
+  |1=&nbsp;and&nbsp;
+  |,&nbsp;
+ }}
+}}{{#switch:{{{months|}}}
+ ||0=
+ |{{plural|{{{months}}}|month}}{{#switch: {{#expr: 
+   ({{{weeks|0}}} and {{{weeks|1}}}) +
+   ({{{days|0}}} and {{{days|1}}})
+  }}
+  |0=
+  |1=&nbsp;and&nbsp;
+  |,&nbsp;
+ }}
+}}{{#switch:{{{weeks|}}}
+ ||0=
+ |{{plural|{{{weeks}}}|week}}{{#switch: {{{days|0}}}
+   |0=
+   |&nbsp;and&nbsp;
+  }}
+}}{{#switch:{{{days|}}}
+ ||0=
+ |{{plural|{{{days|0}}}|day}}
+}}
