@@ -120,6 +120,8 @@ aarre magac:			kansi
 aasi magac:			dameer
 Aasia magac:			Aasiya
 aasialainen magac:		Aasiyaan
+aatelinen tilmaame:		nasab
+aateluus magac:		nasabnimo
 aavikko magac:		lama degaan
 adjektiivi magac:		tilmaame {naxwe}
 adverbi magac:		falkaab {naxwe}
@@ -136,6 +138,7 @@ aikuistua fal:			qaangaar
 aisti magac:			dareeme
 aivastaa fal:			hindhis
 aivastus magac:		hindhiso
+aivopesty tilmaame:		nasakhan
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
 aivot magac:			maskax
 ajanvaraus magac:		ballan
@@ -182,6 +185,7 @@ arabian kieli magac:		af Carabiga
 arpajaiset magac:		baqtiyaanasiib
 arpi magac:			calaamadda nabar bogsaday  
 artikkeli magac:		qodob {naxwe}
+asetus magac:			qaanuun
 asianajaja magac:		garyaqaan
 askel magac:			tallaabo
 astma magac:			neef
@@ -222,6 +226,10 @@ C-kasetti magac:		cajalad
 D
 definiittinen tilmaame:		cayiman
 delfiini magac:			hoombaro 
+demokraatti magac:		dimoqraadi
+demokraattinen tilmaame:		dimoqraadi
+demokratia magac:		dimoqraadi
+demokratisoida fal:		dimoqraadiyee
 demoni magac:		cirfiid
 demonstratiivinen tilmaame:		muujiye (naxwe)
 desimaali magac:		tobanle
@@ -524,6 +532,8 @@ kaneli magac:			qorfe
 kani, kaniini   			bakayle
 kansa magac:			dad
 kansanedustaja magac:		xildhibaan
+kansanvalta magac:		dimoqraadi
+kansanvaltaistaa fal:		dimoqraadiyee
 kansi magac:			dabool, jildi
 kantajänne magac:		seedda ciribta
 kantapää magac:		cirib
@@ -553,6 +563,7 @@ kauppalasku magac:		qaansheeg
 kauppias magac:		dukaanle
 kaupunki magac:		magaalo
 kauttakulkuviisumi magac:		fiise dalkumar
+kehitysvammainen tilmaame:	nasakhan
 keho magac:			jir
 keksi magac:			buskud
 kello magac:			saacad
@@ -671,6 +682,7 @@ kouluttaja magac:		macallin
 koulutus magac:		waxbarasho
 kristinusko magac:		Masiixinnimo
 kristitty magac:		Masiixi
+kristityt magac:		Nasaaro
 Kristus (Messias) magac:		Masiix
 krokotiili magac:		yaxaas
 kuinka falkaab:		sidee
@@ -687,6 +699,7 @@ kulttuuri magac:		hidde
 kumarrella fal:			foorarso
 kumarrus magac:		foorarsi
 kumina magac:		kamuun
+kumota fal:			nasakh
 kuningas magac:		boqor
 kuningaskunta magac:		boqortooyo
 kuningatar magac:		boqorad
@@ -737,6 +750,7 @@ käsky magac:			amar
 käskytapa magac:		farto, amar (naxwe)
 käymälä magac:		musqul
 käyttäytyminen magac:		dabci
+kääntyä kristityksi fal:		nasaaroob
 kääntäjä magac:		turjubaan (qoraal ahaan)
 kääntää fal:			turjun (qoraal ahaan)
 käärme magac:		mas
@@ -752,7 +766,7 @@ laineet magac:		hirar
 laite magac:			aalad
 laiva magac:			markab
 lakana magac:			go’		
-laki magac:			sharci
+laki magac:			sharci, qaanuun
 lakimies magac:		garyaqaan			
 lammas magac:		ido
 lampaanliha magac:		hilib idaad
@@ -779,6 +793,7 @@ lentokone magac:		diyaarad
 lentopallo magac:		kubbadda gacanta
 lentäjä magac:		duuliye
 lepakko magac:		fiidmeer (kibilli)
+lepo magac:			nasasho
 lesbo magac:			khaniisad
 lespata :			carrabla’aan
 leuka magac:			gar
@@ -904,6 +919,7 @@ miten menee? weer:		sidee tahay?
 miten voit? weer:		sidee tahay?
 mitä :			yaa, maxaa
 mitä kuuluu? weer:		iska warran?
+mitätöidä fal:			nasakh
 Mogadishu magac:		Muqdisho
 moi yaab:			ahlan, nabaday
 moi moi yaab:			nabaday
@@ -928,11 +944,14 @@ muuli magac:			baqal
 muurahainen magac:		quraanjo
 muuri magac:			derbi
 muutamaa päivää myöhemmin:	berya ka dib
+muuttaa fal:			nasakh
+muuttunut tilmaame:		nasakhan
 myrkky magac:		sun
 myydä fal:			gad
 myymälä magac:		dukaan 
 määrä magac:			tiro
 määräinen tilmaame:		cayiman
+määräys magac:		qaanuun
 N
 naapuri magac:		deris
 nahka magac:			maqaar
@@ -1086,6 +1105,8 @@ perusta magac:		aasaasi
 perustaa fal:			aasaas
 perusteet magac:		aasaasi
 perusteeton tilmaame:		baaddil
+perustuslaki magac:		qaanuun
+peruuttaa fal:			nasakh
 peräpukamat magac:		baabasiir
 peräsuoli magac:		malawad
 peukalo magac:		suul
@@ -1138,6 +1159,7 @@ puhutko somalia?:		ma ku hadashaa soomaali?
 puhuuko kukaan täällä somalia?:	ma jiraa qof ku hadla soomaali?
 pukki magac:			orgi
 punainen magac:		guduud
+puoliaika magac:		nasasho
 puolipäivä magac:		duhur
 puoliso magac:		nin, naag, xaas
 purukumi magac:		xanjo
@@ -1159,6 +1181,7 @@ pyrkiä fal:			dadaal
 pyydän anteeksi weer:		iga raalli ahow		
 pyyhe magac:			shukumaan
 pyyheliina magac:		shukumaan
+pyyhkiä fal:			nasakh
 pyörtyminen magac:		suuxdin
 päivä magac:			maalin, beri
 päivällinen magac:		casho
@@ -1190,6 +1213,7 @@ rehtori magac:		maamule dugsi
 reisi magac:			bowdo
 reitti magac:			mareen
 rekka-auto magac:		baabuur weyn	
+republikaani magac:		jamhuuri
 resepti magac:		warqadda dhakhtarka
 riisi magac:			bariis
 rinta magac:			naas, xabad
@@ -1250,6 +1274,7 @@ sappi magac:			xammeeti
 sarastus magac:		qorraxsoobax
 sarvikuono magac:		wiyil
 sata tiro:			boqol
+sateenkaari magac:		qaanso-roobaad
 sattumalta falkaab:		kama’ ah
 satu magac:			sheeko
 savuke magac:		sigaar
@@ -1314,6 +1339,7 @@ somali magac:			Soomaali
 Somalia magac:		Soomaaliya
 somalialainen:			Soomaali
 somalialainen kirjoitus:		Far Soomaali
+Somalian tasavalta:		Jamhuuriyadda Soomaaliyeed
 somalin kieli:			af soomaaliga
 sonni magac:			dibi
 sopia fal:			ballan
@@ -1370,6 +1396,7 @@ säde magac:			gacan {xisaab}
 sähkövalo magac:		nal
 sänky magac:			sariir 
 särky magac:			xanuun
+sääntö magac:			qaanuun
 säätiede magac:		cilmiga cimilada
 T 
 taateli magac:			timir
@@ -1400,6 +1427,9 @@ tarkastus magac:		indho-indhays
 tarkennus magac:		diirad (naxwe)
 taru magac:			sheeko
 tasa-arvo magac:		sinnaan
+tasavalta magac:		jamhuuriyad
+tasavaltalainen magac:		jamhuuri
+tauko magac:			nasasho
 taulu magac:			sabuurad
 tauti magac:			xanuun
 tavu magac:			xubin {naxwe}
@@ -1536,6 +1566,7 @@ vangita fal:			xabbis
 vangittu tilmaame:		xabbisan
 vanhempi henkilö magac:		oday
 vankila magac:		xabsi
+vapaapäivä magac:		nasasho
 varas magac:			tuug
 varasto magac:		bakhaar
 varastonhoitaja magac:		bakhaarhaye
@@ -2090,6 +2121,8 @@ diiq magac: 			kukko
 diirad magac: 			kompassi, tarkennus, fokus (kielioppi)
 diiwaan magac: 		rekisteri
 diiwaan magac: 		sisällysluettelo
+dimoqraadi : 			demokraatti; kansanvalta, demokratia; demokraattinen
+dimoqraadiyee fal: 		demokratisoida, kansanvaltaistaa
 Disembar magac: 		joulukuu
 diyaar magac: 			valmius
 diyaarad magac: 		lentokone
@@ -2321,6 +2354,9 @@ jabto magac: 			tippuri
 Jabuuti magac: 		Djibouti [maa / kaupunki Itä-Afrikassa.]
 jadeeco magac: 		tuhkarokko
 jallaato magac:		jäätelö
+jamhuuri magac: 		tasavaltalainen, republikaani
+jamhuuriyad magac: 		tasavalta
+Jamhuuriyadda Soomaaliyeed: 	Somalian tasavalta
 Jannaayo magac: 		tammikuu
 janno magac: 			paratiisi
 Jarmal magac: 		Saksa
@@ -2552,6 +2588,13 @@ nabaday yaab: 		hei hei, moi, moi moi, terve
 nabadgelyo yaab: 		hyvästi
 nacnac magac: 		makeiset, karamelli, karkki
 nal magac:			lamppu, hehkulamppu, sähkövalo
+Nasaaro magac: 		kristityt
+nasaaroob fal: 		kääntyä kristityksi
+nasab tilmaame: 		aatelinen
+nasabnimo magac: 		aatelisto, aateluus
+nasakh fal: 			muuttaa, peruuttaa, kumota, mitätöidä, pyyhkiä
+nasakhan tilmaame: 		muuttunut, aivopesty, kehitysvammainen
+nasasho magac faleed: 		lepo, tauko, vapaapäivä, puoliaika
 naxwe magac: 		kielioppi
 nebi magac: 			profeetta
 neef magac: 			hengitys, astma, kaasu {kemia}
@@ -2578,6 +2621,8 @@ qaansaley magac: 		jousimiehet
 qaansheeg magac: 		kauppalasku
 qaansheegte magac: 		velkoja, luotonantaja, lainanantaja
 qaanso magac: 		jousi ; sulje, sulkumerkit
+qaanso-roobaad magac: 		sateenkaari
+qaanuun masculine noun: 		sääntö, laki, määräys, asetus; perustuslaki
 qaaxo magac: 			tuberkuloosi
 qabiil magac: 			heimo, klaani
 qabsin magac: 		umpilisäke, umpilisäkkeen tulehdus
