@@ -143,6 +143,7 @@ aivosähkökäyrä magac:		aaladda shaqada maskaxda
 aivot magac:			maskax
 ajanvaraus magac:		ballan
 ajatella fal:			fikir
+ajoneuvo magac:		gaadiid
 akillesjänne magac:		boqon, seedda ciribta
 aksentti magac:		dhawaaq
 ala-aste magac:		dugsiga hoose
@@ -328,6 +329,9 @@ haudankaivaja magac:		xabaalaqode
 haudata fal:			xabaal
 haudattu tilmaame:		xabaalan
 hauislihas magac:		muruqa cududda
+haukotella fal:			hamaanso
+haukottelu magac:		hamaansi
+haukotus magac:		hamaansi
 haureus magac:		sinaysi
 hauska tavata weer:		kulan wanaagsan
 hauska tutustua weer:		barasho wanaagsan
@@ -481,6 +485,7 @@ journalismi magac:		saxaafad
 jousenjänne magac:		boqon
 jousi magac:			qaanso
 jousimiehet magac:		qaansaley
+juhta magac:			gaadiid
 juoksujalkainen magac:		geelcaacis
 juusto magac:			farmaajo
 Jumala magac:		Eebbe
@@ -551,6 +556,7 @@ kassakirja magac:		buuglacag
 kasvissyöjä magac:		cagaaryahan
 kasvot magac:			weji, fool
 katastrofi magac:		aafo, balaayo
+kati magac:			jaad
 katselu magac:		indho-indhays
 kattila magac:			digsi
 katto magac:			saqaf
@@ -587,6 +593,7 @@ kesäkuu magac:		Juun
 kettu magac:			dawaco
 keuhko magac:		sambab
 kevät magac:			gu’
+khat magac:			jaad
 kieli magac:			af, carrab
 kielioppi magac:		naxwe
 kielitiede magac:		cilmi-afeed
@@ -692,6 +699,7 @@ kuka magacuyaal:		yaa
 kukka magac:			ubax
 kukko magac:			diiq
 kulho magac:			baaquli
+kuljetus magac:		gaadiid
 kulku magac:			mareen
 kulta magac:			dahab
 kultaseppä magac:		dahable
@@ -709,7 +717,9 @@ kuppa magac:			waraabow, xabbad
 kurkku magac:			qajaar
 kurkkumätä magac:		gowracato
 kutina magac:			cuncunid
-kutittaa fal:			cuncun
+kutittaa fal:			cuncun, xadatee
+kutittelu magac:		xadato
+kutitus magac:		xadato
 kutsun poliisin weer:		waxaan wacayaa booliiska
 kuu magac:			bil
 kuukausi magac:		bil
@@ -765,6 +775,7 @@ laine magac:			hir
 laineet magac:		hirar			
 laite magac:			aalad
 laiva magac:			markab
+laji magac:			jaad
 lakana magac:			go’		
 laki magac:			sharci, qaanuun
 lakimies magac:		garyaqaan			
@@ -803,6 +814,7 @@ leveä tilmaame:		ballaaran
 levittää fal:			ballaari
 liha magac:			hilib
 lihas magac:			muruq
+liikenne magac:		gaadiid
 liikkeenharjoittaja magac:		dukaanle
 liima magac:			xabag, koollo
 liitin magac:			xiriiriye
@@ -1327,6 +1339,10 @@ sitruuna magac:		liin dhanaan
 siunata fal:			barakee
 siunattu tilmaame:		barakaysan
 siunaus magac:		barako
+sivilisaatio magac:		ilbaxnimo
+sivilisoitua fal:			ilbax
+sivistynyt tilmaame:		ilbax
+sivistyä fal:			ilbax
 sivu magac:			bog
 smegma magac:		baaro
 sodanjohtotaito magac:		dagaal-aqoon
@@ -1514,6 +1530,7 @@ tyttö magac:			gabar
 tytär magac:			ina, gabar
 tyydyttää itsensä fal:		siigayso
 tyyny magac:			barkin
+tyyppi magac:			jaad
 tähdistennustaja magac:		xiddigasheeg
 tähti magac:			xiddig
 tähtitiede magac:		xiddiga-aqoon
@@ -1537,6 +1554,7 @@ uskonnottomuus		diindarro
 uskonto magac:		diin
 V
 vaan xiriiriye:			laakiin, hase ahaatee
+vaania fal:			gaad
 vagina magac:			siil
 vahingossa falkaab:		kama’ ah
 vai xiriiriye:			mise
@@ -1627,6 +1645,8 @@ vuosipäivä magac:		sanagguuro
 vyö magac:			suun
 väestö magac:			dad
 vähäverisyys magac:		dhiigyari
+väijytys magac:		gaad
+väijyä fal:			gaad
 väki magac:			dad
 välimerkit magac:		astaamayn
 välimerkki magac:		astaan
@@ -2204,6 +2224,9 @@ furdo magac: 			tulli
 fure magac: 			avain
 furuq magac: 			isorokko
 G
+gaad fal: 			vaania, väijyä
+gaad magac faleed: 		väijytys, väijyntä
+gaadiid magac: 		juhta, kuljetus, ajoneuvo, liikenne
 gaal: 			ei-muslimi, epäuskoinen
 gabar magac: 			tyttö, tytär, neito, neitsyt
 gabarey-maanyo magac: 		merenneito
@@ -2263,6 +2286,8 @@ halbowlaha wadnaha dhiigga ka qaada:	aortta
 halkan falkaab: 		täällä
 halkee falkaab: 		missä
 halyeey magac: 		sankari
+hamaansi magac:		haukotus, haukottelu
+hamaanso fal: 		haukotella
 hambalyee fal: 		onnitella
 hambalyo yaab: 		onneksi olkoon
 hantiggoosi magac: 		kapitalismi; kapitalisti
@@ -2309,6 +2334,9 @@ iga raalli ahow yaab: 		anna anteeksi, anteeksi, anteeksi kuinka
 iga raalli ahow weer:		pyydän anteeksi
 iigu salaan fal:			kerro terveisiä
 il magac: 			silmä
+ilbax tilmaame: 		sivistynyt
+ilbax fal: 			sivistyä, sivilisoitua
+ilbaxnimo magac: 		sivilisaatio
 ilbiriqsi magac: 		silmänräpäys; sekunti
 ilig magac: 			hammas
 ilig-xanuun magac: 		hammassärky
@@ -2347,6 +2375,8 @@ iyada magacuyaal:		hän, se
 iyaga magacuyaal: 		he, ne
 iyo xiriiriye: 			ja, sekä
 J
+jaad magac: 			tyyppi, laji
+jaad magac: 			khat, kati
 jaakad magac: 		takki
 jaalle magac: 			keltainen
 jaamacad magac: 		yliopisto, korkeakoulu  
@@ -2934,6 +2964,8 @@ xabeeb magac: 		käheys
 xabeebsan tilmaame: 		käheä
 xabsi magac: 			vankila
 xabsijire magac: 		vanginvartija
+xadatee fal: 			kutittaa
+xadato magac: 		kutitus, kutittelu
 xafiis magac: 			toimisto
 xagaa magac:			kesä
 xagal jilib magac:		polvitaive
