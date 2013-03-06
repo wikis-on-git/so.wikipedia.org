@@ -142,6 +142,7 @@ aivopesty tilmaame:		nasakhan
 aivosähkökäyrä magac:		aaladda shaqada maskaxda
 aivot magac:			maskax
 ajanvaraus magac:		ballan
+ajanviete magac:		baashaal
 ajatella fal:			fikir
 ajoneuvo magac:		gaadiid
 akillesjänne magac:		boqon, seedda ciribta
@@ -213,7 +214,9 @@ avohoitopotilas magac:		bukaansocod
 B
 bakteerit magac:		bagteeriyo
 banaani magac:		moos
+basmatiriisi magac:		baasarce
 bataatti magac:		bataatiga macaan
+bensiini magac:		baasiin
 bibliografia magac:		buugagsheeg
 boikotti magac:		cunaqabatayn	
 bruttopalkka magac:		mushaar duuban
@@ -236,6 +239,7 @@ demonstratiivinen tilmaame:		muujiye (naxwe)
 desimaali magac:		tobanle
 despootti magac:		amarkutaagle
 diabetes magac:		sonkorow, kaadisokorow
+dieselöljy magac:		naafto
 diftongi magac:		shaqalada israaca
 diktaattori magac:		amarkutaagle
 Djibouti magac:		Jabuuti
@@ -456,7 +460,10 @@ indefiniittinen tilmaame:		aan cayinnayn
 inkivääri magac:		sinjibiil
 interjektio magac:		yaab (naxwe)
 Internet magac:		shabakadda macluumaadka, Internet
+Intialainen riisi:		baasarce
 intransitiivinen tilmaame:		magudbe (naxwe)
+invalidi magac:		naafo
+invalidisoida fal:		naafee
 islam magac:			Islaam
 islamilaisten paastokuukausi:	Ramadaan
 Islanti magac:			Ayslaan
@@ -708,7 +715,7 @@ kumarrella fal:			foorarso
 kumarrus magac:		foorarsi
 kumina magac:		kamuun
 kumota fal:			nasakh
-kuningas magac:		boqor
+kuningas magac:		boqor, baashi (turub)
 kuningaskunta magac:		boqortooyo
 kuningatar magac:		boqorad
 kuokka magac:		yaanbo
@@ -778,7 +785,8 @@ laiva magac:			markab
 laji magac:			jaad
 lakana magac:			go’		
 laki magac:			sharci, qaanuun
-lakimies magac:		garyaqaan			
+lakimies magac:		garyaqaan
+lamauttaa fal:			naafee			
 lammas magac:		ido
 lampaanliha magac:		hilib idaad
 lamppu magac:		nal
@@ -1142,6 +1150,7 @@ poliisi magac:			booliis
 poliitikko magac:		siyaasi
 polio magac:			dabayl (cudur)
 politiikka magac:		siyaasad
+polkupyörä magac:		baaskiil
 polvi magac:			jilib
 polvitaive magac:		xagal jilib
 pomo magac:			madax
@@ -1178,6 +1187,7 @@ purukumi magac:		xanjo
 pusero magac:		funaanad
 puskea fal:			hirdi
 pusku magac:			hirdan
+pusu magac:			baasho
 puu magac:			geed
 puuduttaa fal:			kabaabyee
 puuduttaminen magac:		kabaabyeyn
@@ -1327,6 +1337,7 @@ silmänräpäys magac:		ilbiriqsi
 silmät magac:			indho
 silmäterä magac:		bir
 sininen magac:		buluug
+sinko magac:			baasuuke
 sinä magacuyaal:		adiga
 sipuli magac:			basal
 sireeni magac:			wiish
@@ -1396,7 +1407,8 @@ survin magac:			kal
 susi magac:			yeey
 suu magac:			af
 suudella fal:			shummi
-suudelma magac:		shummin
+suudelma magac:		shummin, baasho
+suukko magac:		baasho
 suurlähetystö magac:		safaarad
 sydämellinen tilmaame:		kal iyo laab		
 sydän magac:			wadne
@@ -1453,6 +1465,7 @@ te magacuyaal:		idinka
 tee magac:			shah
 teema magac:			mawduuc
 tehdä raskaana fal:		uuree
+tehdä toimintakyvyttömäksi fal:	naafee
 teippi magac:			sharooto
 tekijä magac:			fale
 teko magac:			fal
@@ -1579,6 +1592,10 @@ valokuva magac:		sawir
 valtameri magac:		badweyn
 valtio magac:			dowlad
 valtiovarainministeriö magac:	wasaaradda maaliyadda
+vammainen magac:		naafo
+vammaisuus magac:		naafo
+vammauttaa fal:		naafee
+vammautua fal:		naafoob
 vanginvartija magac:		xabsijire
 vangita fal:			xabbis
 vangittu tilmaame:		xabbisan
@@ -1596,6 +1613,7 @@ vasikka magac:		dibi yar, weyl
 vastahyökkäys magac:		weerarcelin
 vatsa magac:			calool
 vatsakipu magac:		caloolxanuun
+vaurioittaa fal:			naafee
 vauva magac:			ilmo
 WC magac:			musqul
 vehnä magac:			qamadi
@@ -1621,9 +1639,11 @@ vesimeloni magac:		qare
 vesirokko magac:		busbus
 vessa magac:			musqul
 vetoketju magac:		jiinyeer
+viettää fal:			baashaal
 vihko magac:			buug, buugagga qorista
 vihreä väri magac:		cagaar
 viidakkoveitsi magac:		baangad
+viihdyttää fal:			baashaali
 viikko magac:			toddobaad
 viikset magac:			shaarib
 viime aikoina falkaab:		beryahan
@@ -1666,6 +1686,8 @@ yksikkö magac:		keli (naxwe)
 ylihuomenna falkaab:		berri dambe
 ylikonstaapeli magac:		saddex alifle
 yliopisto magac:		jaamacad
+yliopistosta valmistunut:		jaamici
+ylioppilas magac:		jaamici
 yllyttää fal:			daandaanso
 yllytys magac:			daandaansi
 yllättyä fal:			yaab
@@ -1884,7 +1906,16 @@ baaquli magac: 		kulho
 baarlamaan magac: 		eduskunta, parlamentti
 baaro magac: 			esinahkatali, smegma
 baasaboor magac: 		passi
-baasto magac: 		spagetti
+baasarce magac: 		Intialainen riisi, basmatiriisi
+baashaal magac: 		ajanviete
+baashaal fal: 			viettää
+baashaali fal: 			viihdyttää
+baashi magac: 		kuningas (korttipeli)
+baasho magac: 		suukko, suudelma, pusu
+baasiin magac: 		bensiini
+baaskiil magac: 		polkupyörä
+baasto magac: 		spaghetti
+baasuuke magac: 		sinko
 babbaay magac: 		papaija
 bad magac: 			meri
 badweyn magac: 		valtameri
@@ -2380,6 +2411,7 @@ jaad magac: 			khat, kati
 jaakad magac: 		takki
 jaalle magac: 			keltainen
 jaamacad magac: 		yliopisto, korkeakoulu  
+jaamici magac: 		yliopistosta valmistunut; ylioppilas 
 jabto magac: 			tippuri
 Jabuuti magac: 		Djibouti [maa / kaupunki Itä-Afrikassa.]
 jadeeco magac: 		tuhkarokko
@@ -2606,6 +2638,11 @@ musqul magac: 		käymälä, vessa, WC
 muujiye tilmaame: 		demonstratiivinen, osoittava (kielioppi)
 muusika magac:		musiikki
 N
+naafee fal: 			vammauttaa, invalidisoida, tehdä toimintakyvyttömäksi
+naafee fal:			lamauttaa, vaurioittaa
+naafo magac: 			vammaisuus, vammainen, invalidi
+naafoob fal: 			vammautua
+naafto magac: 		dieselöljy
 naag magac: 			nainen; vaimo
 naanays magac: 		lempinimi
 naar magac: 			helvetti
