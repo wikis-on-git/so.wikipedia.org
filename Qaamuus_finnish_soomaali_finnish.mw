@@ -964,7 +964,7 @@ muuli magac:			baqal
 muurahainen magac:		quraanjo
 muuri magac:			derbi
 muutamaa päivää myöhemmin:	berya ka dib
-muuttaa fal:			nasakh
+muuttaa fal:			nasakh, guur
 muuttunut tilmaame:		nasakhan
 myrkky magac:		sun
 myydä fal:			gad
@@ -976,6 +976,7 @@ N
 naapuri magac:		deris
 nahka magac:			maqaar
 nainen magac:			naag
+naittaa fal:			guuri
 napa magac:			xuddun
 nappi magac:			guluus
 nauhuri magac:		naastro
@@ -1151,6 +1152,7 @@ poliitikko magac:		siyaasi
 polio magac:			dabayl (cudur)
 politiikka magac:		siyaasad
 polkupyörä magac:		baaskiil
+polttoaine magac:		shidaal
 polvi magac:			jilib
 polvitaive magac:		xagal jilib
 pomo magac:			madax
@@ -1326,6 +1328,7 @@ sieppaus magac:		afduub
 sievä tilmaame:		quruxsan
 siili magac:			kuuley-cali-banjar, xiddig dhul   
 siirtyvä tilmaame:		gudbe (naxwe)
+siirtyä fal:			guur
 siitin magac:			gus 
 sika magac:			doonfaar
 sikiäminen magac:		ilmo qaadid
@@ -1345,6 +1348,7 @@ sisko magac:			abbaayo
 sisällys magac:		tusmo
 sisällysluettelo magac:		tusmada buugga
 sisar magac:			abbaayo
+sisältö magac:			tusmo
 sitoutuminen magac:		ballangal
 sitruuna magac:		liin dhanaan
 siunata fal:			barakee
@@ -1419,6 +1423,7 @@ syli magac:			dhab
 symboli magac:		astaan
 synnytyspoltot magac:		fool
 synnytyssupistus magac:		fool
+sytyttää fal:			shid
 syyskuu magac:		Sebtembar				
 säde magac:			gacan {xisaab}
 sähkövalo magac:		nal
@@ -1565,6 +1570,7 @@ umpilisäkkeen tulehdus magac:	qabsin
 usein falkaab:			aalaa
 uskonnottomuus		diindarro
 uskonto magac:		diin
+uudelleen avioituminen:		guur kale
 V
 vaan xiriiriye:			laakiin, hase ahaatee
 vaania fal:			gaad
@@ -1640,6 +1646,9 @@ vesirokko magac:		busbus
 vessa magac:			musqul
 vetoketju magac:		jiinyeer
 viettää fal:			baashaal
+vihitty tilmaame:		mehersan
+vihkiminen magac:		mehersad
+vihkiä fal:			meherso
 vihko magac:			buug, buugagga qorista
 vihreä väri magac:		cagaar
 viidakkoveitsi magac:		baangad
@@ -2303,7 +2312,10 @@ gumeysi magac: 		imperialismi, kolonialismi
 guri magac: 			talo, koti
 gus magac: 			penis, siitin
 guumeys magac: 		pöllö
+guur fal: 			muuttaa, siirtyä
 guur magac: 			avioliitto
+guur kale magac: 		uudelleen avioituminen
+guuri fal: 			naittaa
 H
 haa xiriiriye: 			kyllä, jaa
 hab magac faleed: 		halaus
@@ -2600,6 +2612,9 @@ maxkamadda rafcaanka magac: 	hovioikeus
 maxkamadda sare magac: 		korkein oikeus
 may : 			ei
 meeleeye magac: 		prepositio {kielioppi}
+mehersad magac faleed: 		vihkiminen
+mehersan tilmaame: 		vihitty
+meherso fal: 			vihkiä
 meseggo magac: 		hirssi
 midab magac: 		väri, ihonväri
 midabkalasooc magac:		rotuerottelu 
@@ -2815,6 +2830,8 @@ sharooto magac: 		laastari; teippi
 sheeko magac: 		tarina, satu, taru
 sheyddaan magac: 		paholainen, perkele, Saatana
 shibbane magac: 		konsonantti {kielioppi} b, c, d, dh, f (jne.)
+shid fal: 			sytyttää
+shidaal magac: 		polttoaine
 shimbir magac: 		lintu
 shir magac: 			kokous, konferenssi
 shisheeye magac: 		ulkomaalainen
@@ -2912,7 +2929,7 @@ turub fal: 			pelata korttia
 tusaale magac: 		esimerkki, esikuva, malli
 tusaale ahaan falkaab:		esimerkiksi
 tusmada buugga magac:		sisällysluettelo
-tusmo magac: 		sisällys
+tusmo magac: 		sisällys, sisältö
 tuug magac: 			varas
 U
 ubax magac: 			kukka
