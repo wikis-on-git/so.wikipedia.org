@@ -502,6 +502,7 @@ juoru magac:			xamasho
 juoruta fal:			xamo
 juuri magac:			xidid {xisaab}
 juusto magac:			farmaajo
+jäljentää fal:			guuri
 jälkeläinen magac:		ilmo
 jälki magac:			raad
 jänis  magac:			bakayle 
@@ -671,6 +672,7 @@ konferenssi magac:		shir
 konjugaatio magac:		isrogrog (naxwe)
 konjunktio magac:		xiriiriye {naxwe}
 konsonantti magac:		shibbane {naxwe} b, c, d, f (jne.)
+kopioida fal:			guuri
 kopiokone magac:		makiinadda masawirka
 Koraani magac:		Qur’aan
 Koraanin koulu:		dugsiga Qur’aanka
@@ -732,6 +734,8 @@ kuu magac:			bil
 kuukausi magac:		bil
 kuulemiin yaab:		ismaqal dambe
 kuulo magac:			maqal
+kuuluisa tilmaame:		caansan
+kuuluisuus magac:		caan
 kuume magac:		qandho
 kuuro magac:			dhegoole
 kuva magac:			sawir
@@ -880,6 +884,7 @@ maissi magac:			gallay
 maistaa fal:			dhadhami
 maistella fal:			dhadhanso
 maito magac:			caano
+maitomies magac:		caanoole
 majuri magac:			gaashaanle
 makeiset magac:		nacnac
 maksa magac:			beer
@@ -1136,7 +1141,9 @@ pieraista fal:			dhuus
 pieru magac:			dhuuso
 pihka magac:			xabag
 pihvi magac:			hilib lo'aad 
+piikkisika magac:		caanaqub
 piilottaa fal:			dad
+piimä magac:			caano dhanaan
 pikkusormi magac:		faryaro
 pilli magac:			firinbi
 pilvi magac:			daruur
@@ -1329,6 +1336,7 @@ sievä tilmaame:		quruxsan
 siili magac:			kuuley-cali-banjar, xiddig dhul   
 siirtyvä tilmaame:		gudbe (naxwe)
 siirtyä fal:			guur
+siirtää fal:			guuri
 siitin magac:			gus 
 sika magac:			doonfaar
 sikiäminen magac:		ilmo qaadid
@@ -1404,6 +1412,7 @@ suoli magac:			mindhicir
 suomalainen tilmaame:		Finnish
 suomen kieli magac:		af finnishka
 Suomi magac:			Fiinlaan
+suosittu tilmaame:		caan, caansan
 surra fal:			murug 
 suru magac:			murugo
 surullinen tilmaame:		murugaysan
@@ -2033,8 +2042,13 @@ buuglacag magac: 		kassakirja
 C
 caado magac: 			perinne, tapa, luonne, tottumus
 caado qab fal: 			olla kuukautiset
+caan : 			kuuluisuus, suosittu
 caanafadhi magac: 		jogurtti
+caanaqub magac: 		piikkisika
 caano magac: 			maito
+caano dhanaan magac: 		piimä
+caanoole magac: 		maitomies
+caansan tilmaame: 		kuuluisa, suosittu
 cabitaan magac:		mehu
 caddaan magac: 		valkoinen
 cag magac: 			jalkaterä
@@ -2316,6 +2330,7 @@ guur fal: 			muuttaa, siirtyä
 guur magac: 			avioliitto
 guur kale magac: 		uudelleen avioituminen
 guuri fal: 			naittaa
+guuri fal: 			siirtää, kopioida, jäljentää
 H
 haa xiriiriye: 			kyllä, jaa
 hab magac faleed: 		halaus
