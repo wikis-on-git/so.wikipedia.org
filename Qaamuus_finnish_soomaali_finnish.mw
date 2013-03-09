@@ -1,4 +1,3 @@
- {{Habayn|Maarso 2013}}
 Suomi somali suomi sanakirja
                        Qaamuus finnish soomaali finnish
 
@@ -238,6 +237,8 @@ demokratisoida fal:		dimoqraadiyee
 demoni magac:		cirfiid
 demonstratiivinen tilmaame:		muujiye (naxwe)
 desimaali magac:		tobanle
+desimaalipilkku magac:		bar tobanle
+desimaalipiste magac:		bar tobanle
 despootti magac:		amarkutaagle
 diabetes magac:		sonkorow, kaadisokorow
 dieselöljy magac:		naafto
@@ -286,6 +287,7 @@ esimerkiksi falkaab:		tusaale ahaan
 esimerkki magac:		tusaale
 esinahkatali magac:		baaro
 esipuhe magac:		hordhac
+esitellä fal:			bar
 etelä magac:			koonfur
 Etelä-Afrikka magac:		Koonfur Afrika
 Etiopia magac:		Xabasha
@@ -317,6 +319,7 @@ hai magac:			libaax-badeed
 haima magac:			ganac
 haista fal:			ur
 haju magac:			ur
+hajustaa fal:			barafuumee
 hajuvesi magac:		barafuun
 halaus magac:			hab
 halvaus magac:		dabayl (cudur)
@@ -342,6 +345,9 @@ hauska tavata weer:		kulan wanaagsan
 hauska tutustua weer:		barasho wanaagsan
 hauta magac:			xabaal
 hautausmaa magac:		xabaal 
+havahduttaa fal:		baraaruji
+havahtua fal:			baraarug
+havahtuminen magac:		baraarug
 he magacuyaal:		iyaga
 hehkulamppu magac:		nal, guluub
 hei yaab:			ahlan
@@ -357,7 +363,12 @@ henkilö magac:		qof
 henkilökortti magac:		warqadda aqoonsiga
 henkitorvi magac:		hawamareen, hunguricad
 henna magac:			cillaan
+hereillä tilmaame:		baraarugsan
 hermo magac:			dareeme
+herättää fal:			baraaruji
+herätys magac:		baraarug
+herätä fal:			baraarug
+herääminen magac:		baraarug
 heti falkaab:			dhaqsadii
 hevonen magac:		faras
 hiiri magac:			jiir, doolli
@@ -549,6 +560,7 @@ kansanedustaja magac:		xildhibaan
 kansanvalta magac:		dimoqraadi
 kansanvaltaistaa fal:		dimoqraadiyee
 kansi magac:			dabool, jildi
+kanta magac:			aragti
 kantajänne magac:		seedda ciribta
 kantapää magac:		cirib
 kapitalismi magac:		hantiggoosi
@@ -854,6 +866,7 @@ luoti magac:			xabbad
 luotonantaja magac:		qaansheegte		
 lupaus magac:			ballan	
 lusikka magac:			macalgad, qaaddo
+luu magac:			laf 
 luultavasti falkaab:		malaha, armaa		
 luuta magac:			xaaqin
 luvata fal:			ballan
@@ -914,6 +927,7 @@ me magacuyaal:		annaga
 mehu magac:			cabitaan
 meneminen magac:		bax
 mene pois yaab:		yur
+menestys magac:		baraare
 mennä fal:			bax, aad
 merenneito magac:		gabarey-maanyo
 meri magac:			bad
@@ -923,7 +937,8 @@ merkitä fal:			astaamee
 merkki magac:		astaan
 metalli magac:		bir
 meteorologia magac:		cilmiga cimilada
-metri magac:			mitir		
+metri magac:			mitir
+mielipide magac:		aragti		
 mielisairas tilmaame:		waalan
 mies magac:			nin
 miettivä tilmaame:		fikirsan
@@ -931,6 +946,7 @@ miettiä fal:			fikir
 miksi falkaab:			maxay ... u
 mikä magacuyaal:		maxaa
 Mikä sinun nimesi on? weer:		magacaa?
+miljoona tiraale:		malyan
 millainen tilmaame:		sidee, noocma
 milloin falkaab:		goorma
 ministeri magac:		wasiir
@@ -1031,9 +1047,13 @@ numero magac:		tiro
 nuo magacuyaal:		kuwaas
 nykyään falkaab:		beryahan		
 nyrjähdys magac:		murgucasho
+nähdä fal:			arag
 nähdään yaab:		is arag dambe
 nähdään myöhemmin yaab:		waa inoo hadhow
 näkemiin yaab:		is arag dambe
+näkeminen magac:		arag
+näkemys magac:		aragti
+näkö magac:			arag
 nämä magacuyaal:		kuwan
 nänni magac:			ib
 näppylä magac:		fin
@@ -1064,6 +1084,7 @@ omena magac:		tufaax
 onneksi olkoon yaab:		hambalyo, bishaaro
 onnitella fal:			hambalyee, bishaaree
 opas magac:			tilmaame
+opettaa fal:			bar
 opettaja magac:		macallin
 opettajuus magac:		macallinnimo
 opetus magac:		waxbarasho
@@ -1086,6 +1107,7 @@ paastota fal:			soon
 pahoinvointi magac:		labballabbo
 pahoittelu magac:		shallayto		
 paholainen magac:		sheyddaan, cirfiid
+paikka magac:			goob
 painaa fal:			daabac
 painaminen magac:		daabac			
 painettu tilmaame:		daabacan
@@ -1104,6 +1126,8 @@ papaija magac:		babbaay
 paperi magac:			warqad
 paprika magac:		barbarrooni
 paratiisi magac:		janno
+parfymoida fal:		barafuumee
+parfymoitu tilmaame:		barafuumaysan
 pari magac:			lammaan
 parillinen numero magac:		dhaban
 pariton tilmaame:		kisi
@@ -1190,9 +1214,11 @@ puhutko somalia?:		ma ku hadashaa soomaali?
 puhuuko kukaan täällä somalia?:	ma jiraa qof ku hadla soomaali?
 pukki magac:			orgi
 punainen magac:		guduud
+puoli magac:			bar
 puoliaika magac:		nasasho
 puolipäivä magac:		duhur
 puoliso magac:		nin, naag, xaas
+puolittaa fal:			bar
 purukumi magac:		xanjo
 pusero magac:		funaanad
 puskea fal:			hirdi
@@ -1343,6 +1369,7 @@ sika magac:			doonfaar
 sikiäminen magac:		ilmo qaadid
 sikiö magac:			uurjiif
 sikotauti magac:		qaamoqashiir
+silminnäkijä magac:		markhaati, goobjooge
 silmä magac:			il
 silmälasit magac:		muraayad
 silmänräpäys magac:		ilbiriqsi
@@ -1374,6 +1401,7 @@ soittaa kitaraa fal:		kaman tun
 sokea magac:			indhoole
 sokeri magac:			sonkor
 sokeritauti magac:		kaadisokorow, sonkorow
+sokeus magac:		aragbeel
 solisluu magac:		kalxan
 somali magac:			Soomaali
 Somalia magac:		Soomaaliya
@@ -1513,6 +1541,8 @@ tinkiminen magac:		gorgoro
 tinkiä fal:			gorgori
 tippuri magac:			jabto
 todennäköisesti falkaab:		malaha
+todistaa fal:			markhaatifur
+todistaja magac:		markhaati, goobjooge
 toiminta magac:		fal
 toimisto magac:		xafiis
 toimittaja magac:		wariye 
@@ -1527,6 +1557,7 @@ tottumus magac:		caado
 toukokuu magac:		Maajo
 transitiivinen tilmaame:		gudbe (naxwe)
 tuberkuloosi magac:		qaaxo
+tuhat tiraale:			kun
 tuhkarokko magac:		jadeeco 
 tuli magac:			dab
 tulittaa fal:			xabbadee
@@ -1541,6 +1572,7 @@ tummaihoinen tilmaame:		madow
 tunnusmerkki magac:		astaan
 tunti magac:			saacad
 tuo magacuyaal:		kaas
+tuoksuva tilmaame:		barafuumaysan
 tuoli magac:			kursi
 tuomioistuin magac:		maxkamad
 tuonpuoleinen elämä magac:		aakhiro
@@ -1552,6 +1584,7 @@ turvonnut tilmaame:		bararsan
 turvota fal:			barar
 turvotus magac:		barar
 tutkiminen magac:		baadidoon
+tutustuttaa fal:		bar
 tuuli magac:			dabayl
 tylli magac:			xidinxiito
 tyttö magac:			gabar
@@ -1566,6 +1599,7 @@ tähtitieteilijä magac:		xiddigayaqaan
 täi magac:			injir
 tämä magacuyaal:		kan
 tänään falkaab:		maanta
+täplä magac:			bar
 täti magac:			eeddo, habaryar
 täällä falkaab:			halkan
 törmätä yhteen fal:		hirdi
@@ -1603,6 +1637,7 @@ valmis tilmaame:		diyaarsan
 valmistaa fal:			diyaari
 valmistella fal:			diyaarso
 valmius magac:		diyaar
+valpas tilmaame:		baraarugsan
 valtakunta magac:		boqortooyo
 valokuva magac:		sawir
 valtameri magac:		badweyn
@@ -1712,6 +1747,7 @@ yllytys magac:			daandaansi
 yllättyä fal:			yaab
 yllätys magac:			lamafilaan, yaab
 yläaste magac:		dugsiga dhexe	
+ympyrä magac:		goobo
 ympärileikkaus magac:		gudniin
 yrittää kovasti fal:		dadaal
 yskä magac:			qufac			
@@ -1893,6 +1929,10 @@ annaga magacuyaal:		me
 anqaw magac:			nilkka
 ansalaato magac:		salaatti  
 Aqalka Cad magac:		Valkoinen talo
+arag fal: 			nähdä
+arag magac faleed: 		näkeminen, näkö
+aragbeel magac: 		sokeus
+aragti feminine noun, collective: 	näkemys, mielipide, kanta
 Arbaco magac: 		keskiviikko
 arday magac: 			opiskelija, oppilas
 armaa falkaab: 		ehkä, luultavasti
@@ -1961,11 +2001,24 @@ baqal magac: 			muuli
 baqshad magac: 		kirjekuori
 baqshiish magac: 		juomaraha
 baqtiyaanasiib magac: 		arpajaiset
+bar fal: 			opettaa
+bar fal: 			esitellä, tutustuttaa
+bar fal: 			puolittaa
+bar magac: 			puoli
+bar magac: 			täplä
+bar tobanle magac: 		desimaalipiste, desimaalipilkku
 baraako magac: 		puutalo
+baraare magac: 		menestys
+baraarug fal: 			herätä, havahtua
+baraarug magac faleed: 		herääminen, herätys, havahtuminen
+baraarugsan tilmaame: 		hereillä, valpas
+baraaruji fal: 			herättää, havahduttaa
 barad magac: 			oppilas, harjoittelija
 baradho magac: 		peruna
 baraf magac: 			jää
 barafoob fal: 			jäätyä
+barafuumaysan tilmaame: 		parfymoitu, tuoksuva
+barafuumee fal: 		hajustaa, parfymoida
 barafuun magac: 		hajuvesi, parfyymi
 barakaysan tilmaame: 		siunattu
 barakee fal: 			siunata
@@ -2310,6 +2363,9 @@ geenyo magac: 		tamma
 geesi tilmaame: 		rohkea
 geri magac: 			kirahvi
 go’ magac: 			lakana
+goob magac: 			paikka 
+goobjooge magac: 		todistaja, silminnäkijä
+goobo magac: 		ympyrä 
 goorma falkaab: 		koska, milloin
 gooryaan magac: 		mato
 gorgor magac: 		korppikotka
@@ -2526,6 +2582,7 @@ kubbadda gacanta magac: 		lentopallo
 kubbadda koleyga magac: 		koripallo
 kulan wanaagsan weer:		hauska tavata
 kulliyad magac: 		tiedekunta
+kun tiraale: 			tuhat
 kursi magac: 			tuoli
 ku soo dhowow Fiinlaan yaab:	tervetuloa Suomeen
 ku soo dhowow Soomaaliya yaab:	tervetuloa Somaliaan
@@ -2543,6 +2600,7 @@ laba dhibcood magac: 		kaksoispiste {välimerkki}
 labballabbo magac: 		pahoinvointi, kuvotus
 labo tiro: 			kaksi; molemmat
 lacag magac: 			raha
+laf magac: 			luu
 lafale magac: 			objekti {kielioppi}
 lahaansho : 			possessiivinen, genetiivi (kielioppi)
 lama degaan magac: 		aavikko, autiomaa
@@ -2600,6 +2658,7 @@ malaha falkaab:		todennäköisesti, luultavasti
 malawad magac: 		peräsuoli
 mallaay magac:		kala
 malmalaaddo magac:		marmeladi, marmelaati, hillo
+malyan tiraale: 		miljoona
 mandheer magac: 		istukka
 maqaar magac: 		iho, nahka
 maqaayad magac: 		ravintola
@@ -2608,6 +2667,8 @@ maqas magac: 		sakset
 mareen magac: 		reitti, kulku
 Mareykan magac: 		Amerikka, Yhdysvallat
 markab magac: 		laiva, alus
+markhaati magac: 		todistaja, silminnäkijä
+markhaatifur fal: 		todistaa
 maroodi magac: 		norsu, elefantti
 mas magac: 			käärme
 Masiix magac: 		Kristus (Messias)
@@ -2694,6 +2755,7 @@ nasakh fal: 			muuttaa, peruuttaa, kumota, mitätöidä, pyyhkiä
 nasakhan tilmaame: 		muuttunut, aivopesty, kehitysvammainen
 nasasho magac faleed: 		lepo, tauko, vapaapäivä, puoliaika
 naxwe magac: 		kielioppi
+nayl magac:			karitsa
 nebi magac: 			profeetta
 neef magac: 			hengitys, astma, kaasu {kemia}
 nibiri magac: 			valas
