@@ -1,0 +1,30 @@
+[[{{DegmoSO (sitlahayn)|sumad={{{sumad|}}}}}|{{#switch:{{{sumad|}}}
+|BN=Banaadir
+|
+}}]]<noinclude>
+----
+Tusaale:
+
+Magaca Degmada,  ''Banaadir'' Waxaa loo soo gaabiyaa,  BN
+
+----
+Usage
+<code><pre><nowiki>
+{{DegmoSO (loo soo gaabiyey)|sumad=THE_CODE}}
+</nowiki></pre></code>
+
+----
+Example:
+<code><pre><nowiki>
+{{DegmoSO (loo soo gaabiyey)|sumad=BN}}
+</nowiki></pre></code>
+produces:
+
+DegmoSO (loo soo gaabiyey)|sumad=BN}}
+
+----
+Fura jira:
+
+<br>BN=Banaadir
+
+</noinclude>
