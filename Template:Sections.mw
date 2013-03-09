@@ -1,0 +1,21 @@
+<!--{{Sections}} begin-->{{Ambox
+| name  = Sections
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| type  = style
+| class = ambox-sections
+| issue = {{#ifeq:{{{1}}}|section
+ |This section '''is too long to read comfortably, and needs [[Help:Section#Subsections|subsections]]'''.
+ |This article '''should be divided into [[Help:Section|sections]] by topic, to make it more accessible'''.
+}}
+| fix   = {{#ifeq:{{{1}}}|section
+ |Please format the article according to the guidelines laid out in the [[MOS:HEAD|Manual of Style]].
+ |Please help by adding section headings in accordance with Wikipedia's [[MOS:HEAD|Manual of Style]].
+}}
+| date  = {{{date|}}}
+| cat   = Articles needing sections
+| all   = All articles needing sections
+| cat2  = Articles covered by WikiProject Wikify
+| all2  = All articles covered by WikiProject Wikify
+}}<!--{{Sections}} end--><noinclude>
+{{Documentation}}
+</noinclude>
