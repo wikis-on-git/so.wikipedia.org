@@ -161,18 +161,19 @@ almu magac:			seko
 alus magac:			markab
 alushousut magac:		kastuumo 
 ambulanssi magac:		bukaanqaad
+Amerikka magac:		Mareykan
 ammattikorkeakoulu magac:		machad
 ammunta magac:		xabbadayn
 ammuskelu magac:		xabbadayn
 ampua fal:			xabbadee
-ampuminen magac:		xabbadayn	
-ansioluettelo magac:		qofkawarran		
-Amerikka magac:		Mareykan
+ampuminen magac:		xabbadayn
+ananas magac:		cananaas			
 anemia magac:		dhiigyari
 ankka magac:			booloboolo
 anna anteeksi yaab:		iga raalli ahow	
 anna minun olla rauhassa:		faraha iga qaad		
 anoppi magac:		soddoh
+ansioluettelo magac:		qofkawarran
 antaminen magac:		siin
 anteeksi yaab:			iga raalli ahow
 anteeksi kuinka weer:		yaa
@@ -488,6 +489,8 @@ isä magac: 			aabbe
 isänmaa magac:		dhul
 Italia magac:			Talyaani
 itku magac:			oohin
+itsepäinen tilmaame:		canaad
+itsepäisyys magac:		canaad
 itsetyydytys magac:		siigaysasho
 itsevaltias magac:		amarkutaagle
 itä magac:			bari
@@ -825,6 +828,7 @@ leijona magac:			libaax
 leima magac:			shaabbad
 leipä magac:			rooti
 lempinimi magac:		naanays
+leninki magac:			canbuur
 lentokone magac:		diyaarad
 lentopallo magac:		kubbadda gacanta
 lentäjä magac:		duuliye
@@ -925,6 +929,7 @@ matto magac:			katiifad
 mauste magac:		xawaaji
 me magacuyaal:		annaga
 mehu magac:			cabitaan
+mekko magac:			canbuur
 meneminen magac:		bax
 mene pois yaab:		yur
 menestys magac:		baraare
@@ -932,6 +937,7 @@ mennä fal:			bax, aad
 merenneito magac:		gabarey-maanyo
 meri magac:			bad
 merilehmä magac:		geelmaanyo
+meripihka magac:		canbar
 merirosvo magac:		burcad badeed
 merkitä fal:			astaamee
 merkki magac:		astaan
@@ -991,6 +997,7 @@ muuttunut tilmaame:		nasakhan
 myrkky magac:		sun
 myydä fal:			gad
 myymälä magac:		dukaan 
+märehditty rehu magac:		cananaqsi
 määrä magac:			tiro
 määräinen tilmaame:		cayiman
 määräys magac:		qaanuun
@@ -1038,6 +1045,8 @@ Norja magac:			Noorwey
 norsu magac:			maroodi
 norsunluu magac:		foolmaroodi				
 nuha magac:			hargab
+nuhdella fal:			canaano
+nuhtelu magac:		canaan
 nukutus magac:		suuxin
 nukutusaine magac:		suuxin (daawo)
 nukutushoitaja magac:		suuxiye (kalkaaliye)
@@ -1190,7 +1199,7 @@ polvitaive magac:		xagal jilib
 pomo magac:			madax
 porkkana magac:		dabacase, karooto  
 porsas magac:			doonfaar 
-poski magac:			dhaban, daan
+poski magac:			dhaban, daan, can
 possessiivinen tilmaame:		lahaansho
 potilas magac:			bukaan
 potkia fal:			laad 
@@ -1407,6 +1416,7 @@ somali magac:			Soomaali
 Somalia magac:		Soomaaliya
 somalialainen:			Soomaali
 somalialainen kirjoitus:		Far Soomaali
+somalialainen lettu:		canjeero
 Somalian tasavalta:		Jamhuuriyadda Soomaaliyeed
 somalin kieli:			af soomaaliga
 sonni magac:			dibi
@@ -1458,6 +1468,8 @@ sydänfilmi magac:		aaladda shaqada wadnaha
 sydänsähkökäyrä magac:		aaladda shaqada wadnaha		
 syksy magac:			dayr
 syli magac:			dhab
+sylkeä fal:			candhuufee
+sylki magac:			candhuuf
 symboli magac:		astaan
 synnytyspoltot magac:		fool
 synnytyssupistus magac:		fool
@@ -1614,6 +1626,7 @@ umpilisäkkeen tulehdus magac:	qabsin
 usein falkaab:			aalaa
 uskonnottomuus		diindarro
 uskonto magac:		diin
+utare magac:			candho
 uudelleen avioituminen:		guur kale
 V
 vaan xiriiriye:			laakiin, hase ahaatee
@@ -1703,6 +1716,7 @@ viikset magac:			shaarib
 viime aikoina falkaab:		beryahan
 viimeinen magac:		kama dambeys
 viina magac:			khamro
+viinirypäleet magac:		canab
 viisumi magac:		fiise
 villapaita magac:		funaanad
 virhe magac:			kamma’
@@ -2116,6 +2130,19 @@ calool magac:			vatsa
 caloolxanuun magac: 		vatsakipu
 cambaruud magac:		päärynä
 cambe magac: 		mango
+can magac: 			poski
+canaad : 			itsepäisyys, itsepäinen
+canaan magac: 		nuhtelu
+canaano fal: 			nuhdella
+canab magac: 			viinirypäleet
+cananaas magac: 		ananas
+cananaqsi magac: 		märehditty rehu
+canbar magac: 		meripihka
+canbuur magac: 		mekko, leninki
+candho magac: 		utare
+candhuuf magac: 		sylki
+candhuufee fal: 		sylkeä
+canjeero magac: 		somalialainen lettu
 canshuur magac: 		vero
 Carab magac:			arabialainen
 carrab magac: 		kieli
