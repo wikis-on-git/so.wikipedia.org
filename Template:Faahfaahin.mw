@@ -1,12 +1,12 @@
-<includeonly><div class="detail" style="width:50%; border-top:1px solid #ccc; border-bottom:1px solid #ccc;margin-left:8em; margin-bottom:0.5em; padding:2px; background:#F9F9F9; font-size:80%;"><span>[[file:Crystal Clear app kdict.png|25px]] <span>{{#if:{{{content|}}}<!--
+<includeonly><div class="detail" style="width:50%; border-top:1px solid #ccc; border-bottom:1px solid #ccc;margin-left:8em; margin-bottom:0.5em; padding:2px; background:#F9L9F9; font-size:80%;"><span>[[file:Crystal Clear app kdict.png|25px]] <span>{{#if:{{{content|}}}<!--
 -->|{{{content}}}<!--
 -->|{{#if:{{{1|}}}<!--
    -->|{{#if:{{{title|}}}{{{title|}}}<!--
       -->|'''{{#if:{{{2|}}}|{{{title|{{title|}}}}}}|{{{title|}}} }}'''<!--
       -->|{{#if:{{{2|}}}|'''Faahfaahin'''|'''Faahfaahin'''}}<!--
     -->}}&nbsp;:{{#if:{{{points|}}}|
- {{ 2 Qaybo ka mid ah linkiyeda|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}{{{10|}}}}}
-|{{Qaybo ka mid ah linkiyeda|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}}}
+ {{Group Links2|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}{{{10|}}}}}
+|{{Group Links|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}}}
 }}
 <!--
    -->|<!--Qaladka qoraalka:-->
