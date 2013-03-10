@@ -3,7 +3,7 @@
  |{{plural|{{{years}}}|year}}{{#switch: {{#expr: 
    ({{{months|0}}} and {{{months|1}}}) +
    ({{{weeks|0}}} and {{{weeks|1}}}) +
-   ({{{maalmood|0}}} iyo {{{maalmood|1}}})
+   ({{{days|0}}} iyo {{{maalmood|1}}})
   }}
   |0=
   |1=&nbsp;and&nbsp;
@@ -13,7 +13,7 @@
  ||0=
  |{{plural|{{{months}}}|month}}{{#switch: {{#expr: 
    ({{{weeks|0}}} and {{{weeks|1}}}) +
-   ({{{maalmood|0}}} iyo {{{maalmood|1}}})
+   ({{{days|0}}} iyo {{{maalmood|1}}})
   }}
   |0=
   |1=&nbsp;and&nbsp;
@@ -21,11 +21,11 @@
  }}
 }}{{#switch:{{{weeks|}}}
  ||0=
- |{{plural|{{{weeks}}}|week}}{{#switch: {{{maalmood|0}}}
+ |{{plural|{{{weeks}}}|week}}{{#switch: {{{days|0}}}
    |0=
    |&nbsp;and&nbsp;
   }}
-}}{{#switch:{{{maalmood|}}}
+}}{{#switch:{{{days|}}}
  ||0=
- |{{plural|{{{maalmood|0}}}|maali}}
+ |{{plural|{{{days|0}}}|maali}}
 }}
