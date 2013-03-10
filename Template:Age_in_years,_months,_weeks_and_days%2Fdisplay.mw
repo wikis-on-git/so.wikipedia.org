@@ -6,17 +6,17 @@
    ({{{days|0}}} iyo {{{maalmood|1}}})
   }}
   |0=
-  |1=&nbsp;and&nbsp;
+  |1=&nbsp;iyo&nbsp;
   |,&nbsp;
  }}
 }}{{#switch:{{{months|}}}
  ||0=
- |{{plural|{{{months}}}|bil}}{{#switch: {{#expr: 
+ |{{plural|{{{months}}}|bilood}}{{#switch: {{#expr: 
    ({{{weeks|0}}} and {{{usbuuc|1}}}) +
    ({{{days|0}}} iyo {{{maalmood|1}}})
   }}
   |0=
-  |1=&nbsp;and&nbsp;
+  |1=&nbsp;iyo&nbsp;
   |,&nbsp;
  }}
 }}{{#switch:{{{weeks|}}}
@@ -27,5 +27,5 @@
   }}
 }}{{#switch:{{{days|}}}
  ||0=
- |{{plural|{{{days|0}}}|maalin}}
+ |{{plural|{{{days|0}}}|maalmood}}
 }}
