@@ -1,0 +1,4 @@
+<noinclude>{{About|"Ku-dhintay-dagaal" |Template:Kia}}</noinclude>&nbsp;[[{{{1|Ku dhintay dagaal}}}|{{#ifeq:{{{alt|}}}|yes|<small>(KIA)</small>|{{#ifeq:{{{bold|}}}|no|&dagger;|'''&dagger;'''}}}}]]<noinclude>
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+{{Documentation}}
+</noinclude>
