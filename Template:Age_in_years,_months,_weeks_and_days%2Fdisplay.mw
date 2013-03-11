@@ -1,9 +1,9 @@
 {{#switch:{{{years|}}}
  ||0=
  |{{plural|{{{years}}}|year}}{{#switch: {{#expr: 
-   ({{{months|0}}} iyo {{{bilood|1}}}) +
+   ({{{months|0}}} iyo {{{bil|1}}}) +
    ({{{weeks|0}}} iyo {{{usbuuc|1}}}) +
-   ({{{days|0}}} iyo {{{maalmood|1}}})
+   ({{{days|0}}} iyo {{{maalmo|1}}})
   }}
   |0=
   |1=&nbsp;iyo&nbsp;
@@ -11,9 +11,9 @@
  }}
 }}{{#switch:{{{months|}}}
  ||0=
- |{{plural|{{{months}}}|bilood}}{{#switch: {{#expr: 
+ |{{plural|{{{months}}}|bil}}{{#switch: {{#expr: 
    ({{{weeks|0}}} and {{{usbuuc|1}}}) +
-   ({{{days|0}}} iyo {{{maalmood|1}}})
+   ({{{days|0}}} iyo {{{maalmo|1}}})
   }}
   |0=
   |1=&nbsp;iyo&nbsp;
@@ -23,9 +23,9 @@
  ||0=
  |{{plural|{{{weeks}}}|week}}{{#switch: {{{days|0}}}
    |0=
-   |&nbsp;and&nbsp;
+   |&nbsp;iyo&nbsp;
   }}
 }}{{#switch:{{{days|}}}
  ||0=
- |{{plural|{{{days|0}}}|maalmood}}
+ |{{plural|{{{days|0}}}|maalmo}}
 }}
