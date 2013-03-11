@@ -1,0 +1,19 @@
+{{Hatnote|<!--
+-->{{#if: {{{1|}}}|<!--
+  -->Kani {{namespace detect|main=article|category=category|other=page}} waxa uu ku saabsanyahay {{{1}}}.&#32;&#32;}}<!--
+-->Qaab {{#if:{{{2|}}}|{{{2}}}|adeegsi kale}}, eeg {{#if:{{{3|}}}|[[{{{3}}}]]{{#ifeq:{{{4|}}}|and|&#32;and {{#if:{{{5|}}}|[[{{{5}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.<!--
+-->{{#if:{{{2|}}}|{{#if:{{{4|}}}|<!--
+  -->{{#ifeq:{{{4|}}}|and||<!-- "and" waa eray gaar ah, ee aan soo raarayn "For and, ..."
+    -->&#32;&#32;Qaad {{#ifeq:{{{4}}}|1|adeegsi kale|{{{4}}}}}, eeg {{#if:{{{5|}}}|[[{{{5}}}]]{{#ifeq:{{{6|}}}|and|&#32;and {{#if:{{{7|}}}|[[{{{7}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
+  -->{{#if:{{{6|}}}|<!--
+    -->{{#ifeq:{{{6|}}}|and||<!--
+      -->&#32;&#32;Qaab {{#ifeq:{{{6}}}|1|adeegsi kale|{{{6}}}}}, eeg {{#if:{{{7|}}}|[[{{{7}}}]]{{#ifeq:{{{8|}}}|and|&#32;and {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
+    -->{{#if:{{{8|}}}|<!--
+      -->{{#ifeq:{{{8|}}}|and||<!--
+        -->&#32;&#32;Qaab {{#ifeq:{{{8}}}|1|adeegsi kale|{{{8}}}}}, eeg {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
+    -->}}<!--
+  -->}}<!--
+-->}}}}}}<!--
+-->{{#if:{{{_nocat|}}}||{{#if:{{{1|}}}{{{2|}}}||{{#if:{{{3|}}}|[[Category:Hatnote templates using unusual parameters|A{{PAGENAME}}]]}}}}{{#ifeq:{{str left|{{{1}}}|3}}|is |[[Category:Hatnote templates using unusual parameters|B{{PAGENAME}}]]}}}}<noinclude>
+{{Documentation}}
+</noinclude>
