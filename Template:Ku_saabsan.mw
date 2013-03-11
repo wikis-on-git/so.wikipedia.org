@@ -1,6 +1,6 @@
 {{Hatnote|<!--
 -->{{#if: {{{1|}}}|<!--
-  -->Kani {{namespace detect|main=article|category=category|other=page}} waxa uu ku saabsanyahay {{{1}}}.&#32;&#32;}}<!--
+  -->Kani waa{{namespace detect|main=article|category=category|other=bog}} ku saabsan  {{{1}}}.&#32;&#32;}}<!--
 -->Qaab {{#if:{{{2|}}}|{{{2}}}|adeegsi kale}}, eeg {{#if:{{{3|}}}|[[{{{3}}}]]{{#ifeq:{{{4|}}}|and|&#32;and {{#if:{{{5|}}}|[[{{{5}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.<!--
 -->{{#if:{{{2|}}}|{{#if:{{{4|}}}|<!--
   -->{{#ifeq:{{{4|}}}|and||<!-- "and" waa eray gaar ah, ee aan soo raarayn "For and, ..."
