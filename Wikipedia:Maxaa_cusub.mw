@@ -361,3 +361,16 @@ To stay up-to-date on everything happening around Wikidata please [[meta:Global 
 
 <small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
 <!-- EdwardsBot 0373 -->
+
+== Convert complex templates to Lua to make them faster and more powerful ==
+
+<small>(Please consider translating this message for the benefit of your fellow Wikimedians)</small>
+
+Greetings. As you might have seen on the [https://blog.wikimedia.org/2013/03/11/lua-templates-faster-more-flexible-pages/ Wikimedia tech blog] or the [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-March/000171.html tech ambassadors list], a new functionality called "Lua" is being enabled on all Wikimedia sites today. [[mw:Lua|Lua]] is a scripting language that enables you to write faster and more powerful MediaWiki templates.
+
+If you have questions about how to convert existing templates to Lua (or how to create new ones), we'll be holding two support sessions on IRC next week: [http://www.timeanddate.com/worldclock/fixedtime.html?hour=02&min=00&sec=0&day=20&month=03&year=2013 one on Wednesday] (for Oceania, Asia & America) and [http://www.timeanddate.com/worldclock/fixedtime.html?hour=18&min=00&sec=0&day=22&month=03&year=2013 one on Friday] (for Europe, Africa & America); see [[m:IRC office hours]] for the details. If you can't make it, you can also get help at [[mw:Talk:Lua scripting]].
+
+If you'd like to learn about this kind of events earlier in advance, consider becoming a [[m:Tech/Ambassadors|Tech ambassador]] by subscribing to the [https://lists.wikimedia.org/mailman/listinfo/wikitech-ambassadors mailing list]. You will also be able to help your fellow Wikimedians have a voice in technical discussions and be notified of important decisions.
+
+[[:m:user:guillom|Guillaume Paumier]], via the [[:m:Global message delivery|Global message delivery system]]. 20:22, 13 Maarso 2013 (UTC) <small>([[:m:Distribution list/Global message delivery|wrong page? You can fix it.]])</small>
+<!-- EdwardsBot 0379 -->
