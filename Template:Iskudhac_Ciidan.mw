@@ -8,7 +8,7 @@
 </tr>
 {{#if:{{{partof|}}}
 |<tr>
-<td colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|sub_header_bar}}>Qayb ka tiran {{{partof}}}
+<td colspan="{{#if:{{{combatant3|}}}|3|2}}" {{WPMILHIST Infobox style|sub_header_bar}}>Qayb ka tirsan {{{partof}}}
 </td>
 </tr>
 }}{{#if:{{{image|}}}
