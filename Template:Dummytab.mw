@@ -1,0 +1,7 @@
+<noinclude><table><tr></noinclude><td style="width: {{#if:{{{tab spacing percent|}}}|{{#expr:{{{tab spacing percent}}}/2}}|1}}%; border-bottom: {{#if:{{{border|}}}|{{{border}}}|solid 1px #A3B1BF}}">{{#if:{{{tab spacing percent|}}}||&nbsp;}}</td><noinclude></tr></table>{{doc|content=
+
+This template is used with {{tl|start tab}} to offset the first and last tabs from the end of the tab bar slightly.
+
+[[Category:Mashaariicda wiki]]
+
+}}</noinclude>
