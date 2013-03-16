@@ -1,0 +1,4 @@
+<includeonly>{{Mod|(({{#time:U}}+({{{2|{{#time:z}}}}}))*({{{3|67}}})+({{NUMBEROFARTICLES:R}} mod ({{{3|67}}})))|{{{1|100}}}}}</includeonly><noinclude>
+{{documentation}}
+<!-- Please put all metadata in documentation page [[Template:Rand/doc]] -->
+</noinclude>
