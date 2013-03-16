@@ -1,0 +1,9 @@
+<includeonly>{{#if:{{{1|}}}|
+{{../box-header|{{SUBPAGENAME}} {{{1}}} | {{FULLPAGENAME}}/{{{1}}} }}
+[[ {{FULLPAGENAME}}/{{{1}}} ]]
+{{ {{FULLPAGENAME}}/{{{1}}} }}
+{{../box-footer|}} |}}
+</includeonly>
+<noinclude>
+{{documentation}}
+</noinclude>
