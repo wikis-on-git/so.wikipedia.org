@@ -1,0 +1,7 @@
+{{Portal:box-header | title={{{1}}} 
+|editpage={{{2}}} 
+|border=#CC4E5C           <!-- This is the color of the borders around  Box Sections -->
+|titleforeground=#FFFFFF  <!-- This is the color of the Box Section Title Bar text-->
+|titlebackground=#08457E  <!-- This is the color of the Box Section Title Bar -->
+|background=#FFFFFF       <!-- This is the color of the Box Section background -->
+|foreground=#000000}}     <!-- This is the color of the Box Section text -->
