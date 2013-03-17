@@ -1,0 +1,40 @@
+<div style="clear: both;"></div> 
+<div style="position: relative;<!--
+         -->border: {{{border-width|1}}}px solid {{{titleborder|{{{border|#000000}}}}}};<!--
+         -->background: {{{titlebackground|#ffffff}}};<!--
+         -->color: {{{titleforeground|#000000}}};<!--
+         -->padding: .1em;<!--
+         -->border-bottom: 1px solid white;<!--
+         -->text-align: {{{title-align|center}}};<!--
+         -->font-weight: bold;<!--
+         -->font-size: 100%;<!--
+         -->margin-bottom: 0px;<!--
+         -->border-bottom: none;">{{#if:{{{EDITLINK|}}}| |<!--
+  --><span class="plainlinks" <!--
+      -->style="position: absolute;<!--
+             -->top: 1px;<!--
+             -->right: 1px;<!--
+             -->background: transparent;<!--
+             -->border: 0px;<!--
+             -->margin-bottom:.1em;<!--
+             -->font-size:80%;<!--
+             -->font-weight: normal;<!--
+             -->color: {{{titleforeground|#000000}}};"><!--
+    -->{{#if:{{{noedit|}}}||[{{fullurl:{{{editpage|/}}}|action=edit{{#if:{{{section|}}}|&section={{{section|}}}}}}} <span style="color: {{{titleforeground|#000000}}}">edit</span>]&nbsp;}}{{#if:{{{viewpage|}}}|'''·'''&nbsp;[[:{{{viewpage|{{{editpage|/}}}}}}{{!}}<font color="{{{titleforeground|#000000}}}">view</font>]]&nbsp;|}}{{{top| }}}&nbsp;<!--
+  --></span >}}<!--
+  -->{{#if:{{{SPAN|}}}|<span style="font-size:{{{title-font-size|100%}}};font-weight:bold;border: none; margin: 0; padding:0; padding-bottom:.1em; color:{{{titleforeground|#000000}}}; {{{extra|}}}">{{{title}}}</span>|<h2 style="font-size:{{{title-font-size|100%}}};font-weight:bold;border: none; margin: 0; padding:0; padding-bottom:.1em; color:{{{titleforeground|#000000}}}; {{{extra|}}}">{{{title}}}</h2>}}<!--
+--></div>
+<div style="display: block;<!--
+         -->border: {{{border-width|1}}}px solid {{{border|#000000}}};<!--
+         -->border-top: 1px solid white;<!--
+         -->vertical-align: top;<!--
+         -->background: {{{background|#fefeef}}};<!--
+         -->color: {{{foreground|#000000}}};<!--
+         -->text-align: {{{text-align|left}}};<!--
+         -->margin-bottom: 10px;<!--
+         -->padding: {{{padding|1em}}};<!--
+         -->margin-top: 0em;<!--
+         -->padding-top: {{{padding-top|.3em;}}}"><!--
+-->{{#if:{{{TOC|}}}| |__NOTOC__}}{{#if:{{{EDIT|}}}| |__NOEDITSECTION__}}
+<noinclude>[[Category:Wikipedia Portal templates|{{PAGENAME}}]]
+</noinclude>
