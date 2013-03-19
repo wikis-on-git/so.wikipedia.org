@@ -1,0 +1,40 @@
+{{#expr:
++{{#if:{{{1|}}}|1|0}}
++{{#if:{{{2|}}}|1|0}}
++{{#if:{{{3|}}}|1|0}}
++{{#if:{{{4|}}}|1|0}}
++{{#if:{{{5|}}}|1|0}}
++{{#if:{{{6|}}}|1|0}}
++{{#if:{{{7|}}}|1|0}}
++{{#if:{{{8|}}}|1|0}}
++{{#if:{{{9|}}}|1|0}}
++{{#if:{{{10|}}}|1|0}}
++{{#if:{{{11|}}}|1|0}}
++{{#if:{{{12|}}}|1|0}}
++{{#if:{{{13|}}}|1|0}}
++{{#if:{{{14|}}}|1|0}}
++{{#if:{{{15|}}}|1|0}}
++{{#if:{{{16|}}}|1|0}}
++{{#if:{{{17|}}}|1|0}}
++{{#if:{{{18|}}}|1|0}}
++{{#if:{{{19|}}}|1|0}}
++{{#if:{{{20|}}}|1|0}}
+}}<noinclude>
+;Note: For use with {{tl|Start tab}} and {{tl|End tab}}.
+[[ar:قالب:عدد مداخل محددة/شرح]]
+[[ca:Plantilla:Pestanyes-nombre]]
+[[eo:Ŝablono:Nombro de difinitaj parametroj]]
+[[fr:Modèle:Nombre de paramètres définis]]
+[[hy:Կաղապար:Number of defined parameters]]
+[[hsb:Předłoha:Čisło definowanych parametrow]]
+[[lv:Veidne:Number of defined parameters]]
+[[ja:Template:Number of defined parameters]]
+[[oc:Modèl:Nombre de paramètres definits]]
+[[uz:Andoza:Number of defined parameters]]
+[[ro:Format:Număr parametri definiți]]
+[[ru:Шаблон:Количество определённых параметров]]
+[[sq:Stampa:Nombre de paramètres définis]]
+[[kab:Talɣa:Amḍan iɣewwaren]]
+[[uk:Шаблон:Number of defined parameters]]
+[[vi:Bản mẫu:Cài đặt số]]
+</noinclude>
