@@ -1,0 +1,99 @@
+{| class="infobox geography vcard" style="width:{{{infobox_width|27em}}}"
+|colspan="2" class="mergedtoprow" align="center" style="line-height:1.2em; font-size:1.35em;"| '''{{#if:{{{bank_name|}}}|<span class="fn org">{{{bank_name}}}</span>|<span class="fn org">{{PAGENAME}}</span>}}'''{{#if:{{{bank_name_in_local<includeonly>|</includeonly>}}}|<br />'''{{{bank_name_in_local}}}'''}}
+{{#if: {{{image_1<includeonly>|</includeonly>}}}{{{image_2<includeonly>|</includeonly>}}} |
+{{!}}- class="mergedrow"
+{{!}} colspan="2" class="maptable" align="center" style="padding:0.3em 0.6em 0.3em 0.6em;"{{!}}
+    {{{!}} style="text-align: center; margin: 0 auto; background: none;"
+    {{!}}style="vertical-align:middle; text-align:center;"{{!}} [[Image:{{{image_1}}}|{{{image_width_1|{{#if: {{{image_2<includeonly>|</includeonly>}}}|126|252}}}}}px|{{{image_title_1|}}}]]
+    {{#if: {{{image_2<includeonly>|</includeonly>}}} | {{!}}style="vertical-align:middle; text-align:center;"{{!}} [[Image:{{{image_2}}}|{{{image_width_2|126}}}px|{{{image_title_2|}}}]] }}
+    {{!}}- style="font-size: 95%;"
+    {{#if: {{{image_1<includeonly>|</includeonly>}}} | {{!}} {{{image_title_1<includeonly>|</includeonly>}}} }}
+    {{#if: {{{image_2<includeonly>|</includeonly>}}} | {{!}} {{{image_title_2<includeonly>|</includeonly>}}} }}
+    {{!}}}
+}}
+<!----- Headquarters ----->
+|-
+! Xarunta
+| <span class="label">{{{headquarters}}}</span>
+|-
+{{#if:{{{coordinates<includeonly>|</includeonly>}}} |
+! [[Isuduwaha Habka Juqraafi|Isuduwe]]
+{{!}} {{{coordinates}}} }}
+
+<!----- Established ----->
+|-
+{{#if:{{{established<includeonly>|</includeonly>}}} |
+! Aas-aaska
+{{!}} {{{established}}} }}
+
+<!----- Ownership ----->
+|-
+{{#if:{{{ownership<includeonly>|</includeonly>}}} |
+! Lahaanshaha
+{{!}} {{{ownership}}} }}
+
+<!----- President ----->
+|-
+{{#if:{{{president<includeonly>|</includeonly>}}} |
+! {{{leader_title|Gudoomiye}}}
+{{!}} {{{president}}} }}
+
+<!----- Bank of ______ ----->
+|-
+{{#if:{{{bank_of<includeonly>|</includeonly>}}} |
+! Bankiga Dhexe ee
+{{!}} {{{bank_of}}} }}
+
+<!----- Currency ----->
+|- {{#if:{{{currency_iso<includeonly>|</includeonly>}}} |class="mergedtoprow"}}
+{{#if:{{{currency<includeonly>|</includeonly>}}} |
+! Dalka
+{{!}} {{{currency}}} }}
+|- class="mergedbottomrow"
+{{#if:{{{currency_iso<includeonly>|</includeonly>}}} |
+{{!}} [[ISO 4217]] Fure
+{{!}} {{{currency_iso}}} }}
+
+<!----- Reserves ----->
+|-
+{{#if:{{{reserves<includeonly>|</includeonly>}}} |
+! Kaydka
+{{!}} {{{reserves}}} }}
+
+<!----- Base borrowing rate ----->
+|-
+{{#if:{{{borrowing_rate<includeonly>|</includeonly>}}} |
+! '''Canshuurtaugu hoose ee deenta'''
+{{!}} {{{borrowing_rate}}} }}
+
+<!----- Base deposit rate ----->
+|-
+{{#if:{{{deposit_rate<includeonly>|</includeonly>}}} |
+! Canshuurta wax dhigashada
+{{!}} {{{deposit_rate}}} }}
+
+<!----- Website ----->
+|-
+{{#if:{{{website<includeonly>|</includeonly>}}} |
+! Website
+{{!}} {{{website}}} }}
+
+<!----- Preceded by ----->
+|-
+{{#if:{{{preceded<includeonly>|</includeonly>}}} |
+! Kaga horeyey
+{{!}} {{{preceded}}} }}
+|-
+
+<!----- Succeeded by ----->
+{{#if:{{{succeeded<includeonly>|</includeonly>}}} |
+! Kaga dambeeyey
+{{!}} {{{succeeded}}} }}
+|-
+
+<!----- footnotes ----->
+{{#if: {{{footnotes<includeonly>|</includeonly>}}} |
+{{!}} colspan="2" {{!}} <small>{{{footnotes}}}</small> }}
+|}<noinclude>
+{{documentation}}
+</noinclude>
