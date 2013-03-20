@@ -51,7 +51,7 @@
 {{!}} {{{currency}}} }}
 |- class="mergedbottomrow"
 {{#if:{{{currency_iso<includeonly>|</includeonly>}}} |
-{{!}} [[ISO 4217]] Fure
+{{!}} [[ISO 4217]] Astaan
 {{!}} {{{currency_iso}}} }}
 
 <!----- Reserves ----->
