@@ -1,0 +1,10 @@
+* This template uses {{tl|Navbox with collapsible groups}}. To show a particular section of the template while leaving the other sections collapsed, use: <code style="font-size:95%; white-space:nowrap;"><nowiki>{{</nowiki><noinclude>[Template name]</noinclude><includeonly>{{{template_name|{{PAGENAME}}}}}</includeonly> |<!--expanded=-->''Section''}}</code> where ''Section'' is one of the following: {{smaller|<code>{{{list}}}</code>}}. (Omit any speech or quote marks.)<!--
+
+ -->{{#if:{{{example<includeonly>|</includeonly>}}}
+     | <br/><noinclude>[</noinclude> For example: <code style="font-size:95%; white-space:nowrap;"><nowiki>{{</nowiki><noinclude>[Template name]</noinclude><includeonly>{{{template_name|{{PAGENAME}}}}}</includeonly> {{!}}<!--expanded=-->{{{example}}}<nowiki>}}</nowiki></code><!--
+ -->}}<noinclude> ]
+<br/>{{documentation}}
+
+<!---Please add metadata (categories, interwikis) to the <includeonly> section at the
+     bottom of [[Template:Collapsible sections option/doc]] page, not here - thanks!--->
+</noinclude>
