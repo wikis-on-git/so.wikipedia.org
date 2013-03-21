@@ -1,0 +1,67 @@
+<!-- Qaybaha iyo interwiki yaasha hoos ayaa lagu qoray -->
+=== Adeegso ===
+Kan waxaa loogu talo galay si loo sameeyo '''Liiska dadban ee qoraalada halka laga galo Heerar kala duwan'''. 
+
+====Sidaan====
+{| class=wikitable width=100%
+!Shan qaybood ama ka yar
+!In kabadan shan qaybood
+|-
+|width=50% valign=top|
+<syntaxhighlight lang="html4strict" enclose="div" style="direction: rtl; padding: 5px; text-align: right; font-size: 110%;">
+{{Liiska dadban
+|1= A
+|1.1= A A
+|1.1.1= A A A
+<!-- ... -->
+|1.1.5= A A C
+
+|1.2= A B
+|1.2.1= A B A
+<!-- ... -->
+|1.2.5= A B C
+
+|2= B
+<!-- ... -->
+}}
+</syntaxhighlight>
+|width=50% valign=top|
+<syntaxhighlight lang="html4strict" enclose="div" style="direction: rtl; padding: 5px; text-align: right; font-size: 110%;">
+{{Liiska dadban/biloow}}
+{{Liiska dadban/qayb| A |
+{{Liiska dadban/qayb| A A |
+{{Liiska dadban/qayb| A A A }}
+{{Liiska dadban/qayb| A A B }}
+<!-- ... -->
+{{Liiska dadban/qayb| A A Y }}
+}}
+{{Liiska dadban/qayb| A A B |
+<!-- ... -->
+}}
+}}
+{{Liiska dadban/qayb| B |
+<!-- ... -->
+{{Liiska dadban/dhamaad}}
+</syntaxhighlight>
+|}
+
+<code><nowiki>{{Liiska dadban|color=*</nowiki></code> ama <code><nowiki>{{Liiska dadban/biloow|*</nowiki></code>: Si aad midab udoorato:
+{|
+!class=jqueryslidemenu-green style="padding: 1px 10px 1px 5px; color: white;"|green
+!class=jqueryslidemenu-blue style="padding: 1px 10px 1px 5px; color: white;"|blue
+!class=jqueryslidemenu-yellow style="padding: 1px 10px 1px 5px; color: white;"|yellow
+!class=jqueryslidemenu-red style="padding: 1px 10px 1px 5px; color: white;"|red
+!class=jqueryslidemenu-darkred style="padding: 1px 10px 1px 5px; color: white;"|darkred
+!class=jqueryslidemenu-purple style="padding: 1px 10px 1px 5px; color: white;"|purple
+!class=jqueryslidemenu-brown style="padding: 1px 10px 1px 5px; color: white;"|brown
+!class=jqueryslidemenu-grey style="padding: 1px 10px 1px 5px; color: white;"|grey
+!class=jqueryslidemenu-black style="padding: 1px 10px 1px 5px; color: white;"|black (Hadii aadan dooran midab)
+|}
+
+
+<includeonly>
+<!-- Qaybaha -->
+[[Category:Template]]
+<!-- Halkaan waa Interwiki -->
+‪[[so:Template:Liiska dadban]]
+</includeonly>
