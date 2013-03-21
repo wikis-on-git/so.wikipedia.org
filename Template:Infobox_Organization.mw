@@ -1,4 +1,4 @@
-<includeonly>{| class="infobox vcard" style="font-size:90%; width:21em; text-align:right;"
+<includeonly>{| class="infobox vcard" style="font-size:90%; width:21em; text-align:left;"
 <tr><th style="text-align:center; font-size:120%;" class="fn n org" colspan="2">{{{name}}}</th></tr>
 {{#if:{{{image|}}}|
 {{!}}colspan="2" align="center"{{!}}
@@ -19,54 +19,54 @@
 {{!}}colspan="2" align="center"{{!}}
 {{{map2}}}
 {{!}}-
-}}{{#if:{{{abbreviation|}}}|<tr class="note"><th style="text-align:right; padding-right:0.75em;">اLoosoo gaabiyo</th><td>{{{abbreviation}}}</td></tr>
-}}{{#if:{{{motto|}}}|<tr class="note"><th style="text-align:right; padding-right:0.75em;">[[Hal ku dheg|Hal ku dheg]]</th><td>{{{motto}}}</td></tr>
+}}{{#if:{{{abbreviation|}}}|<tr class="note"><th style="text-align:left; padding-left:0.75em;">اLoosoo gaabiyo</th><td>{{{abbreviation}}}</td></tr>
+}}{{#if:{{{motto|}}}|<tr class="note"><th style="text-align:left; padding-left:0.75em;">[[Hal ku dheg|Hal ku dheg]]</th><td>{{{motto}}}</td></tr>
 }}{{#if:{{{formation|}}}|
-<tr class="note"><th style="text-align:right; padding-right:0.75em;">Taariikhda ala aasaasay</th><td>{{{formation}}}</td></tr>
+<tr class="note"><th style="text-align:left; padding-left:0.75em;">Taariikhda ala aasaasay</th><td>{{{formation}}}</td></tr>
 }}{{#if:{{{extinction|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Suulid</th><td>{{{extinction}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Suulid</th><td>{{{extinction}}}</td></tr>
 }}{{#if:{{{type|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Nuuca</th><td>{{{type}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Nuuca</th><td>{{{type}}}</td></tr>
 }}{{#if:{{{status|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Xaaladda Sharci</th><td>{{{status}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Xaaladda Sharci</th><td>{{{status}}}</td></tr>
 }}{{#if:{{{purpose|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Purpose/focus</th><td>{{{purpose}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Purpose/focus</th><td>{{{purpose}}}</td></tr>
 }}{{#if:{{{headquarters|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Xarunta|Xarunta]]</th><td>{{{headquarters}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Xarunta|Xarunta]]</th><td>{{{headquarters}}}</td></tr>
 }}{{#if:{{{location|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Barta</th><td class="label">{{{location}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Barta</th><td class="label">{{{location}}}</td></tr>
 }}{{#if:{{{region_served|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Bar howleedka</th><td>{{{region_served}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Bar howleedka</th><td>{{{region_served}}}</td></tr>
 }}{{#if:{{{membership|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Xubnaha</th><td>{{{membership}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Xubnaha</th><td>{{{membership}}}</td></tr>
 }}{{#if:{{{language|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Luqadaha Rasmiga</th><td>{{{language}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Luqadaha Rasmiga</th><td>{{{language}}}</td></tr>
 }}{{#if:{{{general|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Xog-hayaha|Xog-hayaha guud]]</th><td>{{{general}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Xog-hayaha|Xog-hayaha guud]]</th><td>{{{general}}}</td></tr>
 }}{{#if:{{{leader_title|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">{{{leader_title}}}</th><td>{{{leader_name}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">{{{leader_title}}}</th><td>{{{leader_name}}}</td></tr>
 }}{{#if:{{{leader_title2|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">{{{leader_title2}}}</th><td>{{{leader_name2}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">{{{leader_title2}}}</th><td>{{{leader_name2}}}</td></tr>
 }}{{#if:{{{leader_title3|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">{{{leader_title3}}}</th><td>{{{leader_name3}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">{{{leader_title3}}}</th><td>{{{leader_name3}}}</td></tr>
 }}{{#if:{{{key_people|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Hogaanka</th><td>{{{key_people}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Hogaanka</th><td>{{{key_people}}}</td></tr>
 }}{{#if:{{{main_organ|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Maamulka sare</th><td>{{{main_organ}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Maamulka sare</th><td>{{{main_organ}}}</td></tr>
 }}{{#if:{{{parent_organization|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Hay'adda</th><td>{{{parent_organization}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Hay'adda</th><td>{{{parent_organization}}}</td></tr>
 }}{{#if:{{{affiliations|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Ka tirsan</th><td>{{{affiliations}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Ka tirsan</th><td>{{{affiliations}}}</td></tr>
 }}{{#if:{{{budget|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Miisaaniyad]]</th><td>{{{budget}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Miisaaniyad]]</th><td>{{{budget}}}</td></tr>
 }}{{#if:{{{num_staff|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Shaqaale]]</th><td>{{{num_staff}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Shaqaale]]</th><td>{{{num_staff}}}</td></tr>
 }}{{#if:{{{num_volunteers|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Iskaa ah]]</th><td>{{{num_volunteers}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Iskaa ah]]</th><td>{{{num_volunteers}}}</td></tr>
 }}{{#if:{{{website|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">[[Website]]</th><td>{{{website}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">[[Website]]</th><td>{{{website}}}</td></tr>
 }}{{#if:{{{remarks|}}}|
-<tr><th style="text-align:right; padding-right:0.75em;">Aragtiyo</th><td>{{{remarks}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Aragtiyo</th><td>{{{remarks}}}</td></tr>
 }}
 |}</includeonly><noinclude>
 {{Documentation}}
