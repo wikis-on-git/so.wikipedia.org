@@ -22,7 +22,7 @@
 }}{{#if:{{{abbreviation|}}}|<tr class="note"><th style="text-align:left; padding-left:0.75em;">اLoosoo gaabiyo</th><td>{{{abbreviation}}}</td></tr>
 }}{{#if:{{{motto|}}}|<tr class="note"><th style="text-align:left; padding-left:0.75em;">[[Hal ku dheg|Hal ku dheg]]</th><td>{{{motto}}}</td></tr>
 }}{{#if:{{{formation|}}}|
-<tr class="note"><th style="text-align:left; padding-left:0.75em;">Taariikhda ala aasaasay</th><td>{{{formation}}}</td></tr>
+<tr class="note"><th style="text-align:left; padding-left:0.75em;">Taariikhda</th><td>{{{formation}}}</td></tr>
 }}{{#if:{{{extinction|}}}|
 <tr><th style="text-align:left; padding-left:0.75em;">Suulid</th><td>{{{extinction}}}</td></tr>
 }}{{#if:{{{type|}}}|
