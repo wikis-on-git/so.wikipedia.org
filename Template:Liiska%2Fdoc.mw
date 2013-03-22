@@ -1,0 +1,36 @@
+
+<!-- Koos ka keeg-->
+
+=== Adeegso qaabkaan ===
+
+<pre>
+{{Liiska|A|B|C|D}}
+</pre>
+{{Liiska|A|B|C|D}}
+
+<pre>
+{{Liiska|Separator=-|A|B|C|D}}
+</pre>
+{{Liiska|Separator=-|A|B|C|D}}
+
+<pre>
+{{Liiska|Separator=&amp;#124;&amp;#124;|A|B|C|D}}
+</pre>
+{{Liiska|Separator=&#124;&#124;|A|B|C|D}}
+
+<pre>
+{{Liiska|Separator= |A|B|C|D}}
+</pre>
+{{Liiska|Separator= |A|B|C|D}}
+
+=== Sidoo kale eeg ===
+
+<includeonly>
+<!-- Qaybaha halkaan -->
+
+<!-- Interwiki halkaan -->‪
+[[ja:Template:Do list]]
+[[km:ទំព័រគំរូ:Do list]]
+[[ne:ढाँचा:Do list]]
+[[or:ଛାଞ୍ଚ:Do list]]
+</includeonly>
