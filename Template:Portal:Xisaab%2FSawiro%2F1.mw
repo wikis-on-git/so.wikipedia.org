@@ -1,8 +1,6 @@
-{{#if:{{{image}}}|[[file:{{{image}}}|center|{{#if:{{{size}}}|{{{size|325 px}}}|325 px}}|{{{comment}}}]] }}
-
-<center>{{{text}}}</center>
-
-{| width="100%" border="0" style="clear:both; padding:4; margin:0; background:transparent;"
-|align=left|'''[[Portal:Xisaab/Sawiro/Kayd|Kaykdka...]]'''
-|align=left|'''[[{{{Dheeraad}}}|Sii aqri dheeraad...]]'''
-|}
+{{Portal:Xisaab/Sawiro/Template
+|image = Elipse.svg
+| text = '''[[Qabaal]]''' ingriis ellipse oo macnaheedu yahay wax kala dhiman, waa salax u eg qaabka [[Qardhaas]]ta 
+Waxaa la adeegsan karaa abyane Xadidan si loo xaqiijiyo Bedka Qabaal a iyo b waana sidaan
+:<math>Bedka=\pi ab\,</math>
+|Dheeraad = Qabaal}}
