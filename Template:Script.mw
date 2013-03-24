@@ -1,0 +1,54 @@
+{{ #switch: {{{1}}}
+|Latg = {{script/Gaelic|{{{2}}}}} 
+|Xsux = {{script/Cuneiform|{{{2}}}}}
+|Runr = {{script/Runic|{{{2}}}}}
+|Hebr = {{script/Hebrew|{{{2}}}}}
+|Copt = {{script/Coptic|{{{2}}}}}
+|Phnx = {{script/Phoenician|{{{2}}}}}
+|fa-Arab = '''{{script/Nastaliq|fa-Arab|{{{2}}}}}'''
+|ps-Arab = '''{{script/Nastaliq|ps-Arab|{{{2}}}}}'''
+|ur-Arab = '''{{script/Nastaliq|ur-Arab|{{{2}}}}}'''
+|cu-Cyrs = {{script/Slavonic|{{{2}}}}}
+|chu-Cyrs = {{script/Slavonic|{{{2}}}}}
+|orv-Cyrs = {{script/Slavonic|orv|{{{2}}}}}
+|sla-Cyrs = {{script/Slavonic|sla|{{{2}}}}}
+|Cyrs = {{script/Slavonic|sla|{{{2}}}}}
+|Syrc | Syriac = {{Script/Syriac|{{{2}}}}}
+|Syre | Estrangelo = {{Script/Syriac|Syre|{{{2}}}}}
+|Syrn | Madnhaya = {{Script/Syriac|Syrn|{{{2}}}}}
+|Syrj | Serto = {{Script/Syriac|Syrj|{{{2}}}}}
+|bugi | Bugi | lont = {{Script/Lontara|bugi|{{{2}}}}}
+|Grek = {{script/Greek|{{{2}}}}}
+|#default=<span {{#switch: {{{1}}}
+ |Goth=style="font-size:125%;"
+ |Latf=style="font-size:125%;"
+ |Linb=style="font-size:125%;"
+ |Phnx=style="font-size:125%;"
+ |Ugar=style="font-size:125%;"
+ |Cprt=style="font-size:125%;font-family:Code2001;" <!--SMP, rarely supported, state font explicltly-->
+ |Xpeo=style="font-size:125%;font-family:Xerxes;" <!-- Use Xerxes for Old Persian -->
+ |#default= class="Unicode" <!--BMP, use generic "unicode" css class-->
+ }} lang="{{#switch: {{{1}}} <!--set "lang" for single-language scripts-->
+ |Latf = de-Latf
+ |Ogam = ine-Ogam
+ |Glag = chu-Glag
+ |Goth = got-Goth
+ |Linb = gmy-Linb
+ |Phnx = phn-Phnx
+ |Ugar = uga-Ugar
+ |Cprt = grc-Cprt
+ |Khar = inc-Khar
+ |Cyrl = sla-Cyrl
+ |Deva = inc-Deva
+ |Taml = ta-Taml
+ |Tibt = bo-Tibt
+ |Runr = gem-Runr
+ |Xpeo = peo-Xpeo
+ |fa-Arab
+ |ur-Arab
+ |ps-Arab = {{{1|}}}
+ |#default = und-{{{1|}}} <!-- language undetermined-->
+ }}" >{{{2}}}</span>
+}}<noinclude>
+{{template doc}}<!-- Add categories, documentation, and interwiki links to the /doc subpage, not here! -->
+</noinclude>
