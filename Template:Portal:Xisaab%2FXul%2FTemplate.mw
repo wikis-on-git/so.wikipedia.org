@@ -1,5 +1,5 @@
 {{#if:{{{image}}}|<div 
-style="float:left;margin-left:1em">[[file:{{{image}}}|{{#if:{{{size}}}|{{{size|200px}}}|thumb|200px}}|thumb|{{{comment}}}]]
+style="float:left;margin-right:1em">[[file:{{{image}}}|{{#if:{{{size}}}|{{{size|200px}}}|thumb|200px}}|thumb|{{{comment}}}]]
 </div>}}{{{text}}} 
 
 {| class="noprint" width="100%"  border="0" style="padding: 0; margin: 0; background-color:transparent"
