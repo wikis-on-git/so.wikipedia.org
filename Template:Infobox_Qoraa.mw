@@ -1,0 +1,115 @@
+{{Infobox
+| bodyclass   = Habka Teesaraha
+| bodystyle   = {{#if:{{{box_width|}}}|width:{{{box_width}}};}}
+
+| aboveclass  = fn
+| above       = {{{name|{{PAGENAME}}}}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| label2      = Dhashay
+| data2       = {{br separated entries|{{{birth_name|}}}|{{#switch:{{lc:{{{birth_date|}}} }}
+ | ?
+ | ??
+ | ???
+ | ????
+ | 19?
+ | 19??
+ | 18??
+ | 17??
+ | lama yaqaan
+ | u       = xilliga dhalashada lama yaqaan
+ | {{{birth_date|}}}
+ }}|{{{birth_place|}}}}}
+
+| label3      = Dhintay
+| data3       = {{br separated entries|{{#switch:{{lc:{{{death_date|}}} }}
+ | ?
+ | ??
+ | ???
+ | ????
+ | 19?
+ | 19??
+ | 18??
+ | 17??
+ | lama yaqaan
+ | u       = xilliga dhimashada lama yaqaan
+ | {{{death_date|}}}
+ }}|{{{death_place|}}}}}
+
+| label4      = Meesha nasashada
+| data4       = {{br separated entries|{{{resting_place|}}}|{{{resting_place_coordinates|}}}}}
+
+| class5      = Loo yaqaan
+| label5      = Qalinkii
+| data5       = {{{penname|{{{pseudonym|}}}}}}
+
+| class6      = door
+| label6      = Gacanka ka gaystay
+| data6       = {{{occupation|}}}
+
+| label7      = Luqadda
+| data7       = {{{language|}}}
+
+| class8      = Qaybta
+| label8      = Jinsiyadda
+| data8       = {{{nationality|}}}
+
+| label9      = Isir ahaan
+| data9       = {{{ethnicity|}}}
+
+| label10     = Dhalasho
+| data10      = {{{citizenship|}}}
+
+| label12     = Aqoonta
+| data12      = {{{education|}}}
+
+| label13     = Jaamacadda
+| data13      = {{{alma_mater|}}}
+
+| label14     = Xilliga
+| data14      = {{{period|}}}
+
+| class15     = qaybta
+| label15     = Nuucyeda
+| data15      = {{{genre|}}}
+
+| label16     = Maadooyinka
+| data16      = {{{subject|}}}
+
+| label17     = Dhaqdaqaaq adab
+| data17      = {{{movement|}}}
+
+| label18     = Raadraacii shaqo
+| data18      = {{{notableworks|}}}
+
+| label19     = Raadraac Bilad
+| data19      = {{{awards|}}}
+
+| label21     = Isqabaan
+| data21      = {{{spouse|}}}
+
+| label22     = La nool
+| data22      = {{{partner|}}}
+
+| label23     = Caruur
+| data23      = {{{children|}}}
+
+| label24     = Ehel
+| data24      = {{{relatives|{{{relations|}}}}}}
+
+| data26      = {{#if:{{{influences|}}}|<hr />{{Collapsible list|expand={{{expand|}}}|title=Influences|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;|1={{{influences}}}}} }}
+
+| data27      = {{#if:{{{influenced|}}}|<hr />{{Collapsible list|expand={{{expand|}}}|title=Influenced|frame_style=border:none; padding: 0;|title_style=background:transparent; text-align:left;|list_style=text-align:left;|1={{{influenced}}}}} }}
+
+
+| data28      = {{#if:{{{signature|}}}|<hr />}}
+| label29     = Saxiixa
+| data29      = {{#if:{{{signature|}}}|[[File:{{{signature}}}|frameless|upright=0.72|alt={{{signature_alt|}}}]]}}
+
+| data30      = {{#if:{{{website|}}}|<hr />{{URL|1={{{website|}}}}}}}
+
+| data31      = {{#if:{{{portaldisp|}}}|<hr />[[File:{{Portal/Sawiro/Qoraa}}|frameless|upright=0.11|link=|alt=]] '''''[[Portal:Qoraa|Qoraaa]]'''''}}
+
+}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}<noinclude>{{documentation}}</noinclude>
