@@ -1,0 +1,316 @@
+{{nobots}}
+=== Other user information templates ===
+
+User information templates provide informational links for a user; they are similar to signatures, but often provide additional information, and may be used by other users.
+
+{| class="wikitable collapsible collapsed" style="width:100%;"
+|-
+! TOC
+! class="hlist" |
+* [[#normal|Normal]]
+* [[#suppl|Signature addition]]
+* [[#admin|For admin pages]]
+* [[#user type|Bots/admin log]]
+|-
+! {{anchor|normal}}Template
+! Output <small>('Example' is used for user name)</small>
+|-
+| {{tl|User link}} <small>{{tl|U}}</small>
+| {{User link|Example}}
+|-
+| {{tl|User0}} <small>{{tl|Usert}}</small>
+| {{User0|Example}}
+|-
+| {{tl|User}} <small>{{tl|User1}} {{tl|BUser}}</small>
+| {{User|Example}}
+|-
+| {{tl|Userv}}
+| {{Userv|Example}}
+|-
+| {{tl|Usertcb}}
+| {{Usertcb|Example}}
+|-
+| {{tl|User2}} <small>{{tl|Usertcc}}</small>
+| {{User2|Example}}
+|-
+| {{tl|User3}} <small>{{tl|Usertcl}}</small>
+| {{User3|Example}}
+|-
+| {{tl|User4}} <small>{{tl|Usertce}}</small>
+| {{User4|Example}}
+|-
+| {{tl|User5}}
+| {{User5|Example}}
+|-
+| {{tl|User6}}
+| {{User6|Example}} or (with {{para|email|y}})<br />{{User6|email=y|Example}}
+|-
+| {{tl|User6b}}
+| {{User6b|Example}}
+|-
+| {{tl|User7}}
+| {{User7|Example}}
+|-
+| {{tl|User8}} <small>{{tl|Usertcce}}</small>
+| {{User8|Example}}
+|-
+| {{tl|User10}} <small>{{tl|Usertccl}}</small>
+| {{User10|Example}}
+|-
+| {{tl|User11}}
+| {{User11|Example}}
+|-
+| {{tl|User12}}
+| {{User12|Example}}
+|-
+| {{tl|User13}}
+| {{User13|Example}}
+|-
+| {{tl|User14}}
+| {{User14|Example}}
+|-
+| {{tl|User15}}
+| {{User15|Example}}
+|-
+| {{tl|User16}}
+| {{User16|Example}}
+|-
+| {{tl|User19}}
+| {{User19|Example}}
+|-
+| {{tl|User21}}
+| {{User21|Example}}
+|-
+| {{tl|User23}}
+| {{User23|Example}}
+|-
+| {{tl|User plus}} 
+| {{User plus|Example}}
+|-
+| {{tl|User-multi}} 
+| {{User-multi|user=Example|t|c|ct|l|m|bl|bu|e|ca|dc|lu|sul|tl}}<br/>''With this template, you can specify which links you want displayed. The above example includes some of the available links.''
+|-
+| {{tl|UserSummary}}
+| {{UserSummary|Example}}
+|-
+| {{tl|User toolbox}}
+| {{User toolbox|Example}}
+|-
+| {{tl|Useranon}}
+| {{Useranon|255.255.255.255}}
+|-
+| {{tl|IPuser}}
+| {{IPuser|255.255.255.255}}
+|-
+| {{tl|IP summary}}
+| {{IP summary|255.255.255.255}}
+|-
+! colspan=2 | {{anchor|admin}}User information templates normally used on administrative pages
+|-
+! Template
+! Output <small>('Example' is used for user name)</small>
+|-
+| {{tl|User-c}}
+| {{User-c|Example}}
+|-
+| {{tl|User-c-name}}
+| {{User-c-name|Example}}
+|-
+| {{tl|User-t}}
+| {{User-t|Example}}
+|-
+| {{tl|User-t2}}
+| {{User-t2|Example}}
+|-
+| {{tl|Useracc}}
+| {{Useracc|Example}}
+|-
+| {{tl|UserBk}}
+| {{UserBk|Example}}
+|-
+| {{tl|Userblock}}
+| {{Userblock|Example}}
+|-
+| {{tl|Userblocked}}
+| {{Userblocked|Example}}
+|-
+| {{tl|Usercheck}}
+| {{Usercheck|Example}}
+|-
+| {{tl|Usercheck-short}}
+| {{Usercheck-short|Example}}
+|-
+| {{tl|Usercheck-full}}
+| {{Usercheck-full|Example}}
+|-
+| {{tl|Checkuser}}
+| {{Checkuser|Example}}
+|-
+| {{tl|UserContribs}}
+| {{UserContribs|Example}}
+|-
+| {{tl|Ccount}}
+| {{Ccount|Example}}
+|-
+| {{tl|Useredits}}
+| {{Useredits|Example}}
+|-
+| {{tl|UserFs}}
+| {{UserFs|Example}}
+|-
+| {{tl|User-full}}
+| {{User-full|Example}}
+|-
+| {{tl|Userlinks}}
+| {{Userlinks|Example}}
+|-
+| {{tl|Userlinks2}}
+| {{Userlinks2|Example}}
+|-
+| {{tl|Userlinks-abbr}}
+| {{Userlinks-abbr|Example}}
+|-
+| {{tl|Userlinks-external}}
+| {{Userlinks-external|Example}}
+|-
+| {{tl|Userlinks-tt}}
+| {{Userlinks-tt|Example}}
+|-
+| {{tl|Userlogs}}
+| {{Userlogs|Example}}
+|-
+| {{tl|Userrights}}
+| {{Userrights|Example}}
+|-
+| {{tl|Admincheck}}
+| {{Admincheck|Example}}
+|-
+| {{tl|Notable user}}
+| {{Notable user|Example}}
+|-
+| {{tl|Socklinks}}
+| {{Socklinks|Example}}
+|-
+| {{tl|User-uaa}}
+| {{User-uaa|Example}}
+|-
+| {{tl|UserVP}}
+| {{UserVP|Example}}
+|-
+| {{tl|Vandal}}
+| {{Vandal|Example}}
+|-
+| {{tl|Vandal-s}}
+| {{Vandal-s|Example}}
+|-
+| {{tl|Vandal-m}}
+| {{Vandal-m|Example}}
+|-
+| {{tl|Checkip}}
+| {{Checkip|255.255.255.255}}
+|-
+| {{tl|IPcheck}}
+| {{IPcheck|255.255.255.255}}
+|-
+| {{tl|IPunblock}}
+| {{IPunblock|255.255.255.255}}
+|-
+| {{tl|IPvandal}}
+| {{IPvandal|255.255.255.255}}
+|-
+| {{tl|Proxyip}}
+| {{Proxyip|255.255.255.255}}
+|-
+| {{tl|User SPI Clerk}}
+| {{User SPI Clerk|Example}}
+|-
+! colspan=2 | {{anchor|user type}}User information templates for Admins, Bureaucrats, and Bots
+|-
+! Template
+! Output <small>('Example' is used for user name)</small>
+|-
+| {{tl|Admin}}
+| {{Admin|Example}}
+|-
+| {{tl|Admin-abbr}}
+| {{Admin-abbr|Example}}
+|-
+| {{tl|Bureaucrat}}
+| {{Bureaucrat|Example}}
+|-
+| {{tl|Bureaucrat2}}
+| {{Bureaucrat2|Example}}
+|-
+| {{tl|Botlinks}}
+| {{Botlinks|Example Bot}}
+|-
+| {{tl|Botlinks2}}
+| {{Botlinks2|Example Bot}}
+|-
+| {{tl|Botlinks3}}
+| {{Botlinks3|Example Bot}}
+|-
+| {{tl|Newbot}}
+| {{Newbot|Example Bot}}
+|-
+| {{tl|Botop}}
+| {{Botop|Example}}
+|-
+| {{tl|Former admin}}
+| {{Former admin|Example}}
+|-
+| {{tl|Former admin abbr}}
+| {{Former admin abbr|Example}}
+|-
+! colspan=2 | {{anchor|suppl}}Templates used to add a missing user signature
+|-
+! Template
+! Output <small>('Example' is used for user name)</small>
+|-
+| {{tl|Signing}}<br />{{tl|Signing2}}
+| {{Signing|Example|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Quotedfrom}}
+| {{Quotedfrom|{{TALKSPACE}}:{{BASEPAGENAME}}|Example|00:00, {{#time:j M Y}}|0}}
+|-
+| {{tl|Undated}}
+| {{Undated|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Unsigned}}<br />{{tl|Unsigned2}}
+| {{Unsigned|Example|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Unsigned IP}}<br />{{tl|UnsignedIP2}}
+| {{Unsigned IP|255.255.255.255|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Uns-ip}}
+| {{Uns-ip|255.255.255.255|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Unsigned-unk}}
+| {{Unsigned-unk|00:00, {{#time:j M Y}} (UTC)}}
+|-
+| {{tl|Xsign}}
+| {{Xsign|00:00, 1 January 2000 Example}}
+|-
+| {{tl|Unsigned2Fix}}
+| {{Unsigned2Fix|00:00, {{#time:j M Y}} (UTC)|Example}}
+|-
+| {{tl|UnsignedIP2Fix}}
+| {{UnsignedIP2Fix|00:00, {{#time:j M Y}} (UTC)|255.255.255.255}}
+|-
+| {{tl|User actual}}
+| {{User actual|Example|Example2}}
+|-
+| {{tl|Warning origin}}
+| {{Warning origin|User talk:Example|Example|00:00, {{#time:j M Y}}}}
+|-
+|}
+
+==See also==
+* {{tl|Connected contributor}}
+
+<noinclude>
+[[Category:Documentation shared content templates]]
+[[Category:Username internal link templates| ]]
+
+[[or:ଟେମ୍ପଲେଟ:User information templates]]
+</noinclude>
