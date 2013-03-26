@@ -1,0 +1,20 @@
+<span>[[:{{{Project|}}}:User:{{{user|{{{User}}}}}}|{{{user|{{{User}}}}}}]]&nbsp;{{#if:{{{sup|}}}
+ |<sup>
+}}{{toolbar
+ |style={{#if:{{{small|}}}|font-size: 90%}}
+ |separator={{{separator|dot}}}
+ |1={{user-multi/{{{1|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |2={{user-multi/{{{2|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |3={{user-multi/{{{3|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |4={{user-multi/{{{4|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |5={{user-multi/{{{5|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |6={{user-multi/{{{6|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |7={{user-multi/{{{7|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |8={{user-multi/{{{8|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |9={{user-multi/{{{9|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+ |10={{user-multi/{{{10|}}}|user={{{user|{{{User}}}}}}|Project={{{Project|}}}}}
+}}{{#if:{{{sup|}}}
+ |</sup>
+}}</span><noinclude>
+{{documentation}}
+</noinclude>
