@@ -18,7 +18,7 @@
          -->margin-bottom:.1em;<!--
          -->font-size:{{{font-size|80%}}};<!--
          --> color: {{{titleforeground|#000}}}">{{
-#if: {{{noedit|}}} || [{{fullurl:{{{2|{{{editpage|/}}}}}}|action=bedel{{#if: {{{section|}}} |&section={{{section}}}}}}} <span style="color: {{{titleforeground|#000}}}">edit</span>]&nbsp;}}{{#if: {{{viewpage|}}} |'''·'''&nbsp;[[:{{{viewpage}}}|<font color="{{{titleforeground|black}}}">view</font>]]&nbsp;}}{{{top|}}}&nbsp;
+#if: {{{noedit|}}} || [{{fullurl:{{{2|{{{editpage|/}}}}}}|action=edit{{#if: {{{section|}}} |&section={{{section}}}}}}} <span style="color: {{{titleforeground|#000}}}">edit</span>]&nbsp;}}{{#if: {{{viewpage|}}} |'''·'''&nbsp;[[:{{{viewpage}}}|<font color="{{{titleforeground|black}}}">view</font>]]&nbsp;}}{{{top|}}}&nbsp;
 </div>}}<!-- endif EDITLINK
 -->{{#if: {{{SPAN|}}} |<span style="font-size:{{{title-font-size|100%}}}; font-weight:{{{title-font-weight|bold}}}; margin: 0; padding:0; padding-bottom:.1em; color:{{{titleforeground|#000}}};{{{extra|}}}">{{{1|{{{title}}}}}}</span>|<h2 style="font-size:{{{title-font-size|100%}}}; font-weight:{{{title-font-weight|bold}}}; border: none; margin: 0; padding:0; padding-bottom:.1em; color:{{{titleforeground|#000}}};{{{extra|}}}">{{{1|{{{title}}}}}}</h2>}}
 </div>
