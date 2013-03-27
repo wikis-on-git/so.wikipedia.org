@@ -1,0 +1,9 @@
+{{Nobots}}
+</div>
+<div style="position: fixed; right:0; bottom:0; display:block; height:{{{1|100}}}px; width:{{{1|100}}}px;">
+<div style="position: relative; width: {{{1|200}}}px; height: {{{1|100}}}px; overflow: hidden"> 
+<div style="position: absolute; top: 0px; left: 0px; font-size: 200px; overflow: hidden; line-height: 200px; z-index: 3"></div> <div style="position: absolute; top: 0px; left: 0px; z-index: 2">[[Image:Archived-ar.png|{{{1|100}}}px|Kaydsan|Link=Caawinaad:Kaydka wadahadalka]]
+</div> </div> </div>
+<noinclude>
+{{documentation}}[[Category:Template]]
+</noinclude>
