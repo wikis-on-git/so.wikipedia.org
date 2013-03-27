@@ -1,6 +1,8 @@
-<div style="float: left; border:solid #1e90ff 1px; margin: 1px;">
-{| cellspacing="0" style="width: 238px; background: #F2F3F4;"
-| style="width: 45px; height: 45px; background: #B2BEB5; text-align: center; font-size: 14pt;" | [[File:Admin_mop.PNG|40px]]
-| style="font-size: 8pt; padding: 4pt; line-height: 1.25em;|Isticmaalahan waa maamulaha [[Wikipedia|Wikipediaha]] [[Af-Soomaali|Soomaaliga]]
-|}</div><includeonly>[[Category:Soomaali Wikipedians|{{PAGENAME}}]]</includeonly>
-<noinclude>[[category:Tusmooyinka Isticmaalada|{{PAGENAME}}]] </noinclude>
+<div style="float:left; border:solid #808080 1px; margin: 1px;">
+{| cellspacing="0" style="width:238px;background:#DBDBDB"
+| style="width:45px;height:45px;background:#ADADAD;text-align:center;font-size:11pt"|[[file:Wikipedia Administrator.svg|45px]]
+| style="font-size:10pt;padding:4pt;line-height:1.25em"|Isticmaalahan Waa '''[[Wikipedia:Maamulka|Maamulaha]]''' [[Bogga Hore|Wikipediaha Soomaaliga]]. {{#if:{{{1|}}}|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:{{{lang_code|en}}}:Special:ListUsers|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">Dabagal{{#if:{{{lang_code|}}}|&nbsp;{{{lang_code}}}|}}</span>])</span>|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:Special:ListUsers|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">Hubi</span>])</span>}}
+<includeonly> [[Category:Maamulka|{{PAGENAME}}]]</includeonly>
+|}</div><noinclude>
+[[Category:Sanduuq|Maamul]]
+</noinclude>
