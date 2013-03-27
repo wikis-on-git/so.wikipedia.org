@@ -1,0 +1,9 @@
+<div style="position:absolute;  z-index:100; right:11px; top:9px;" class="metadata"  id="administrator">
+<imagemap>
+file:Wikipedia-logo-v2.svg|35px|
+ rect 0 0 1000  1000 [[Wikipedia:Soomaali Wikipedians|Soomaali Wikipedians]]
+ desc none
+</imagemap>
+</div><includeonly>{{#if: {{{1|}}}||[[Category:Soomaali Wikipedians|{{PAGENAME}}]]}}</includeonly><noinclude>
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
