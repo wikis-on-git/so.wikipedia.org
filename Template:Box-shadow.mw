@@ -1,0 +1,5 @@
+<includeonly>box-shadow: {{{1|4px}}} {{{2|4px}}} {{{3|4px}}} {{{4|#CCC}}}; -moz-box-shadow: {{{1|4px}}} {{{2|4px}}} {{{3|4px}}} {{{4|#CCC}}}; -webkit-box-shadow: {{{1|4px}}} {{{2|4px}}} {{{3|4px}}} {{{4|#CCC}}}; <!--filter:progid:DXImageTransform.Microsoft.dropshadow(OffX={{{1|4px}}}, OffY={{{2|4px}}}, Color='{{{4|#CCC}}}', Positive='true');--></includeonly><noinclude>
+
+<!-- ADD CATEGORIES AND INTERWIKIS TO THE /doc PAGE, NOT HERE, THANKS -->
+{{documentation}}
+</noinclude>
