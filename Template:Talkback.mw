@@ -13,7 +13,7 @@
 -->    </noinclude>{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}{{{1<noinclude>|Tusaale</noinclude>}}}<noinclude><!--
 // Xiriiriye qaybeed
 -->    </noinclude>{{{{{|safesubst:}}}#if:{{{2|}}}|&#35;{{{2}}}}}|Waxa kuu taalla farriin cusub
-| text      = '''Nabaaddiino, {{{{{|safesubst:}}}#titleparts:{{{{{|safesubst:}}}PAGENAME}}|1}}. Waxa kuu taalla farriin cusub <noinclude><!--
+| text      = '''Mudane, {{{{{|safesubst:}}}#titleparts:{{{{{|safesubst:}}}PAGENAME}}|1}}. Waxa kuu taalla farriin cusub <noinclude><!--
 // Horgeli bogga hadal Adeegsade:, haddii aan magac la haynin
 --> </noinclude> [[{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}<noinclude><!--
 // Xiriiriye bog
@@ -33,11 +33,11 @@
 -->    </noinclude>|{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}NAMESPACE:{{{1<noinclude>|Tusaale</noinclude>}}}}}|{{{{{|safesubst:}}}ns:0}}|{{{{{|safesubst:}}}ns:3}}:}}<noinclude><!--
 -->   </noinclude>{{{1<noinclude>|Tusaale</noinclude>}}}<noinclude><!--
 // Muuji PAGENAME ee {{{1}}} (tus. magaca adeegsadaha) haddii kale
--->    </noinclude>|Bogga hadalka ee {{{{{|safesubst:}}}PAGENAME:{{{1<noinclude>|Tusaale</noinclude>}}}}}}}]].'''<br /><noinclude><!--
+-->    </noinclude>|Bogga wadahadalka ee {{{{{|safesubst:}}}PAGENAME:{{{1<noinclude>|Tusaale</noinclude>}}}}}}}]].'''<br /><noinclude><!--
 
 // Ogaysiin, shaabbad-ammin
 
---></noinclude><span class="plainlinks" style="font-size: 88%; font-weight: normal;">{{{{{|safesubst:}}}#if:{{{ts|}}}|Farriinta waa lagu daray {{{ts}}}.}} Waxaad awooddaa [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad bixisid ogaysiintaan] goortii aad doontid{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}issubst}}|yes
+--></noinclude><span class="plainlinks" style="font-size: 88%; font-weight: normal;">{{{{{|safesubst:}}}#if:{{{ts|}}}|Farriinta waa lagu daray {{{ts}}}.}} Waxaad samayn kartaa [{{fullurl:{{FULLPAGENAME}}|action=edit}} inaad bixisid ogaysiintaan] goortii aad doontid{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}issubst}}|yes
  ||&nbsp;adigoo tirtiraya moodalka <nowiki>{{Talkback}} ama {{Tb}}</nowiki>}}.</span><noinclude><!--
 --></noinclude>}}<noinclude><!--
 
