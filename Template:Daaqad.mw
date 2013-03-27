@@ -1,0 +1,3 @@
+<includeonly><div style="width: {{{Display}}}; background-color: {{{background-color}}}; padding: 1px 5px; border: {{{Thickness|1}}}px solid {{{Border color}}}; {{border-radius|{{{border-radius|.1}}}em}} {{box-shadow|{{{Shade|.1}}}em|{{{Shade|.1}}}em|{{{Shade|.1}}}em}}"></includeonly><noinclude>
+{{Documentation}}
+</noinclude>
