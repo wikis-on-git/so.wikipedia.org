@@ -1,0 +1,27 @@
+
+{| width= 410; border="2" cellspacing="0" style="font-size: 12pt; color: white; background-color:violet; height:400px;"
+| align="center" colspan=2 valign="center" |'''Saacaddu waaa {{CURRENTTIME}}'''{{Maanta}}       
+|- 
+| '''Tirada maqaallada ku jira wikipediaha Soomaaliga'''
+| '''{{NUMBEROFARTICLES}}  Maqaal'''
+|-
+|'''Tirada Bog ee ku jirta Wikipediaha Soomaaliga'''
+|'''{{NUMBEROFPAGES}}  Bog'''
+|-
+|'''Tirada wax laga bedelay''' 
+|'''{{NUMBEROFEDITS}}  Bedel'''
+|-
+|'''Gudegalayaasha diwaan gashay'''
+|'''{{NUMBEROFUSERS}}  Isticmaale'''
+|-
+|'''Tirada maamule'''
+|'''{{NUMBEROFADMINS}}  Maamule'''
+|-
+| '''Faylasha ku jira wikipediaha Soomaaliga'''
+| '''{{NUMBEROFFILES}}  Fayl'''
+|}
+
+<noinclude>
+[[Category:Template]]
+[[Category:Tirakoobka Wikipedia]]
+</noinclude>
