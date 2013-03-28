@@ -21,7 +21,7 @@
 |-
 | &nbsp; {{ucfirst:{{int:Group-user}}}}/{{int:Group-sysop-member}} ||style="text-align:right"| {{#expr: {{NUMBEROFACTIVEUSERS:R}} / {{NUMBEROFADMINS:R}} round 0 }} &nbsp;
 |}<noinclude>{{clear}}
-Temlatekaan waxa uu shaabahaa ل[[commons:Template:CommonsStats]].
+Temlatekaan waxa uu shaabahaa [[commons:Template:CommonsStats]].
 
 <noinclude>
 [[Category:Tirakoobka wikipedia]]
