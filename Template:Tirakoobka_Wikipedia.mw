@@ -1,0 +1,31 @@
+{| border=0 cellspacing=0 cellpadding=1 style="background:{{{main-bg|white}}}; border:1px solid {{{border|#999}}}; font-size:85%; float:{{{align|none}}};"
+{{#ifeq: {{{head|}}} | none ||{{!}}-
+! colspan=3 style="background:{{{head-bg|white}}};" {{!}} <big>{{{head|[[Special:Statistics|Tirakoobka Bogga]]}}}</big>
+}}
+|-
+| rowspan=9 style='padding:2px;background:{{{img-bg|#ddd}}};text-align:center' | [[File:Wikipedia-logo.svg|43x43px]]
+|-
+| &nbsp; Maqaallo ||style="text-align:right"| {{NUMBEROFARTICLES}} &nbsp;
+|-
+| &nbsp; {{int:Prefs-files}} ||style="text-align:right"| {{NUMBEROFFILES}} &nbsp;
+|-
+| &nbsp; Guud ahaan bogagga ||style="text-align:right"| {{NUMBEROFPAGES}} &nbsp;
+|-
+| &nbsp; Dhamaan gudegeleyaasha ||style="text-align:right"| {{NUMBEROFUSERS}} &nbsp;
+|-
+| &nbsp; [[Special:ActiveUsers|{{ucfirst:{{int:Activeusers}}}}]] ||style="text-align:right"| {{NUMBEROFACTIVEUSERS}} &nbsp;
+|-
+| &nbsp; {{ucfirst:{{int:Prefs-files}}}}/{{int:Group-sysop-member}} ||style="text-align:right"| {{formatnum: {{#expr: {{NUMBEROFFILES:R}} / {{NUMBEROFADMINS:R}} round 0 }} }} &nbsp;
+|-
+| &nbsp; [[Special:ListUsers/sysop|{{ucfirst:{{int:Group-sysop}}}}]] ||style="text-align:right"| {{NUMBEROFADMINS}} &nbsp;
+|-
+| &nbsp; {{ucfirst:{{int:Group-user}}}}/{{int:Group-sysop-member}} ||style="text-align:right"| {{#expr: {{NUMBEROFACTIVEUSERS:R}} / {{NUMBEROFADMINS:R}} round 0 }} &nbsp;
+|}<noinclude>{{clear}}
+Temlatekaan waxa uu shaabahaa ل[[commons:Template:CommonsStats]].
+
+<noinclude>
+[[Category:Tirakoobka wikipedia]]
+[[Category:Template|Tirakoob]]
+</noinclude>
+
+</noinclude>
