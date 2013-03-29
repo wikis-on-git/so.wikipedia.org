@@ -1,0 +1,10 @@
+<!--
+-->{{#switch:<!-- 
+ -->{{#expr:<!--
+  -->{{formatnum:<!-- 
+   -->{{#time: g }}<!--‏
+  -->|R}}<!--‏
+ --> mod 2}}<!--‏
+-->|0={{Template:24kii saac lasoo dhaafay/2}}<!-- 
+-->|1={{Template:24kii saac lasoo dhaafay/1}}<!--
+-->}}<noinclude>{{Documentation}}</noinclude>
