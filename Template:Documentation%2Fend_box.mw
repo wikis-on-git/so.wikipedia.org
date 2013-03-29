@@ -22,33 +22,33 @@
     | {{{link box}}}   <!--Use custom link box content-->
     | {{#if: {{{doc exist|yes}}}
       | <!--/doc exists, link to it-->
-        The above [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[{{{docpage|{{FULLPAGENAME}}/doc}}}]]. <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} edit] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} history])</small> <br>
+        Wixii aad soo aragtay waa [[Wikipedia:Template documentation|Xog-waran]] [[Wikipedia:Transclusion|wakiil]] ka ah [[{{{docpage|{{FULLPAGENAME}}/doc}}}]]. <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} bedel] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} raadka])</small> <br>
       }}<!-- 
         Add links to /sandbox and /testcases when appropriate:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:User}}
       | {{ns:Template}} = 
-        Editors can experiment in this template's {{
+        Hadii aad dooneeysid inaad tijaabiso template kaan waxaad tagi kartaa {{
         #ifexist: {{{sandbox| {{FULLPAGENAME}}/sandbox }}}
         | [[{{{sandbox| {{FULLPAGENAME}}/sandbox }}}|sandbox]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit }} edit] <nowiki>|</nowiki> [{{fullurl:Special:ComparePages | page1={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&page2={{urlencode:{{{sandbox|{{FULLPAGENAME}}/sandbox}}}}}}} diff])</small> 
-        | sandbox <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload=Template:Documentation/preload-sandbox }} create] <nowiki>|</nowiki> [{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&summary={{urlencode:Create sandbox version of [[{{{template page|{{FULLPAGENAME}}}}}]]}} }} mirror])</small> 
-        }} and {{
+        | bacaadka <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload=Template:Documentation/preload-sandbox }} sameey] <nowiki>|</nowiki> [{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&summary={{urlencode:Create sandbox version of [[{{{template page|{{FULLPAGENAME}}}}}]]}} }} muuqaal])</small> 
+        }} iyo {{
         #ifexist: {{{testcases| {{FULLPAGENAME}}/testcases }}}
         | [[{{{testcases| {{FULLPAGENAME}}/testcases }}}|testcases]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit }} edit])</small>
-        | testcases <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit&preload=Template:Documentation/preload-testcases }} create])</small>
-        }} pages. <br>
+        | tijaabada <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit&preload=Template:Documentation/preload-testcases }} sameey])</small>
+        }} Bogagga. <br>
       }}<!--
         Show the cats and interwiki text, but not 
         if "content" fed or "docname fed" since then it is 
         unclear where to add the cats and interwikis.
    -->{{#if: {{{content|}}} {{{docname fed|}}}
       | 
-      | Please add categories and interwikis to the [[{{{docpage|{{FULLPAGENAME}}/doc}}}|/doc]] subpage.
+      | Fadlan ku xiriiri qaybaha kale iyo interwik [[{{{docpage|{{FULLPAGENAME}}/doc}}}|/doc]] laamaha bogagga kale.
       }}<!--
         Show the "Subpages" link:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:File}} =   <!--Don't show it-->
-      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this template]].
+      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|qaybaha kale ee bogagga]].
       | #default = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this page]].
       }}
     }}{{#ifexist:{{FULLPAGENAME}}/Print
