@@ -1,0 +1,10 @@
+{{Editnotice
+| id          = userpageedn
+| header      = Editing
+| headerstyle = font-size: 150%;
+| text        = Hello. You're editing the userpage of {{BASEPAGENAME}}. Please make your edits friendly as this is a userpage and is only supposed to be edited by {{BASEPAGENAME}}!
+| textstyle   = font-size: 120%;
+| image       = [[File:Bouncywikilogo.gif|90px]]
+}}<noinclude>
+{{Documentation}}
+</noinclude>
