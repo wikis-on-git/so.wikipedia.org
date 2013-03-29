@@ -1,0 +1,56 @@
+{{#switch:
+  {{#if: {{{group allowed|}}}
+  | {{#ifexist: {{{groupnotice|}}}
+    | {{#switch: 
+        {{ {{{groupnotice|}}} | notice action={{{notice action|}}} }}
+      | -
+      |   =   <!--Notice is blank or only contains "-", don't use it-->
+      | #default = group
+      }}
+    }}
+  }}{{#ifexist: {{{pagenotice|}}}
+  | {{#switch: 
+      {{ {{{pagenotice|}}} | notice action={{{notice action|}}} }}
+    | -
+    |   =   <!--Notice is blank or only contains "-", don't use it-->
+    | #default = page
+    }}
+  }}
+
+| group = 
+  <!--We have a group notice, but no page notice-->
+  <div class="editnotice-link" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em;"> <small>[[{{{groupnotice|}}}|Group notice]] <span class="editnotice-redlink {{#if: {{{ownuserpage|}}} || sysop-show accountcreator-show }}" style="{{#if: {{{ownuserpage|}}} || display: none; }}">&nbsp; [[{{{pagenotice|}}}|Page notice]]</span></small> </div>
+  <div class="editnotice-group" style="clear: both; width: 100%;"> {{ {{{groupnotice|}}} | notice action={{{notice action|}}} }} </div>
+
+| page = 
+  <!--We have a page notice, but no group notice-->
+  <div class="editnotice-link" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em;"> <small>{{#if: {{{group allowed|}}}
+  | <span class="editnotice-redlink sysop-show accountcreator-show" style="display: none;">[[{{{groupnotice|}}}|Group notice]] &nbsp;</span>
+  }} [[{{{pagenotice|}}}|Page notice]]</small> </div>
+  <div {{#if: {{{userpage|}}} | id="editnotice-ns-{{NAMESPACEID}}" }} class="editnotice-page" style="clear: both; width: 100%;"> {{ {{{pagenotice|}}} | notice action={{{notice action|}}} }} </div>
+
+| grouppage = 
+  <!--We have both a group notice and a page notice-->
+  <div class="editnotice-link" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em;"> <small>[[{{{groupnotice|}}}|Group notice]]</small> </div>
+  <div class="editnotice-group" style="clear: both; width: 100%;"> {{ {{{groupnotice|}}} | notice action={{{notice action|}}} }} </div>
+  <div class="editnotice-link" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em;"> <small>[[{{{pagenotice|}}}|Page notice]]</small> </div>
+  <div {{#if: {{{userpage|}}} | id="editnotice-ns-{{NAMESPACEID}}" }} class="editnotice-page" style="clear: both; width: 100%;"> {{ {{{pagenotice|}}} | notice action={{{notice action|}}} }} </div>
+
+| #default = 
+  <!--We have no group and no page notice-->
+  {{#if: {{{group allowed|}}}
+  | {{#if: {{{ownuserpage|}}}
+    | <!--On a user's own rootpage-->
+      <div class="editnotice-link editnotice-redlink" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em;"> <small><span class="sysop-show accountcreator-show" style="display: none;">[[{{{groupnotice|}}}|Group notice]] &nbsp;</span> [[{{{pagenotice|}}}|Page notice]]</small> </div>
+    | <!--On any other page, and group notices allowed-->
+      <div class="editnotice-link editnotice-redlink sysop-show accountcreator-show" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em; display: none;"> <small>[[{{{groupnotice|}}}|Group notice]] &nbsp; [[{{{pagenotice|}}}|Page notice]]</small> </div>
+    }}
+  | <!--Group notices not allowed, so also not in user space-->
+    <div class="editnotice-link editnotice-redlink sysop-show accountcreator-show" style="clear: both; float: right; margin: 0px 0.8em; padding: 0; line-height: 1em; display: none;"> <small>[[{{{pagenotice|}}}|Page notice]]</small> </div>
+  }}
+
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
