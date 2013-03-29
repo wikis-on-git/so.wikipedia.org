@@ -1,0 +1,35 @@
+<div id="editnotice-area" class="editnotice-area" style="clear: both; width: 100%;"><!--
+  Namespace notice:
+-->{{#ifeq: {{{notice action|}}} | view
+|   <!--"Viewing the source" of a protected page, don't show namespace notice-->
+| {{#ifexist: Template:Editnotices/Namespace/{{#if:{{NAMESPACE}}|{{NAMESPACE}}|Main}}
+  | <div class="editnotice-namespace" style="width: 100%;"> {{Template:Editnotices/Namespace/{{#if:{{NAMESPACE}}|{{NAMESPACE}}|Main}}}} </div>
+  }}
+}}<!--
+  Group and page notice:
+-->{{editnotice load/core
+| notice action = {{{notice action|}}}
+| group allowed = {{ns has subpages}}   <!--"yes" or empty string-->
+| groupnotice = Template:Editnotices/Group/{{FULLROOTPAGENAME}}
+| pagenotice = 
+  <!--If on a user or user talk rootpage, then use /Editnotice,
+      else use normal protected notice-->
+  {{#ifeq: {{SUBJECTSPACE}}#{{PAGENAME}} | {{ns:User}}#{{BASEPAGENAME}}
+  | {{FULLPAGENAME}}/Editnotice
+  | Template:Editnotices/Page/{{FULLPAGENAME}}
+  }}
+| userpage = 
+  <!--If on a user or user talk rootpage, then "yes", else empty string-->
+  {{#ifeq: {{SUBJECTSPACE}}#{{PAGENAME}} | {{ns:User}}#{{BASEPAGENAME}}
+  | yes
+  }}
+| ownuserpage = 
+  <!--If on the user's own user or user talk rootpage, then "yes", else empty string. {{REVISIONUSER}} returns current user when in system messages. -->
+  {{#ifeq: {{SUBJECTSPACE}}#{{PAGENAME}} | {{ns:User}}#{{REVISIONUSER}}
+  | yes
+  }}
+}}<div style="clear: both;"></div> </div><noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
