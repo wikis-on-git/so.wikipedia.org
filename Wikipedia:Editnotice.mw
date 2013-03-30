@@ -1,0 +1,219 @@
+{{Active editnotice}}
+{{Wikipedia how to}}
+
+{| class="wikitable"
+|-
+! Tiro !! Magaca !! Meesha magaca waxbedelka !! Samee Fariin bedelka
+|-
+|0 || Main: (article) || [[Template:Editnotices/Namespace/Main]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|1 || Talk: (article talk) || [[Template:Editnotices/Namespace/Talk]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|2 || User: || [[Template:Editnotices/Namespace/User]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee fariin bedelaha iscmaalahaada
+prefix=Special:MyPage/Editnotice
+preload=Template:Editnotice/preload
+hidden=yes
+</inputbox>
+|-
+|3 || User talk: || [[Template:Editnotices/Namespace/User talk]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee fariin bedelaha boggaada wadahadalka
+prefix=Special:MyTalk/Editnotice
+preload=Template:Editnotice/preload
+hidden=yes
+</inputbox>
+|-
+|4 || Wikipedia: || [[Template:Editnotices/Namespace/Wikipedia]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Wikipedia:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|5 || Wikipedia talk: || [[Template:Editnotices/Namespace/Wikipedia talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Wikipedia talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|6 || File: || [[Template:Editnotices/Namespace/File]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/File:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|7 || File talk: || [[Template:Editnotices/Namespace/File talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/File talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|8 || MediaWiki: || [[Template:Editnotices/Namespace/MediaWiki]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/MediaWiki:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|9 || MediaWiki talk: || [[Template:Editnotices/Namespace/MediaWiki talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Mediawiki talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|10 || Template: || [[Template:Editnotices/Namespace/Template]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Template:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|11 || Template talk: || [[Template:Editnotices/Namespace/Template talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Template talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|12 || Help: || [[Template:Editnotices/Namespace/Help]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Help:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|13 || Help talk: || [[Template:Editnotices/Namespace/Help talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Help talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|14 || Category: || [[Template:Editnotices/Namespace/Category]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Category:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|15 || Category talk: || [[Template:Editnotices/Namespace/Category talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Category talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|100 || Portal: || [[Template:Editnotices/Namespace/Portal]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Portal:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|101 || Portal talk: || [[Template:Editnotices/Namespace/Portal talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Portal talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|108 || Book: || [[Template:Editnotices/Namespace/Book]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Book:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|109 || Book talk: || [[Template:Editnotices/Namespace/Book talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Book talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|710 || TimedText: || [[Template:Editnotices/Namespace/TimedText]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/TimedText:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|711 || TimedText talk: || [[Template:Editnotices/Namespace/TimedText talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/TimedText talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|828 || Module: || [[Template:Editnotices/Namespace/Module]] || <inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Module:
+preload=Template:Editnotice/preload
+</inputbox>
+|-
+|829 || Module talk: || [[Template:Editnotices/Namespace/Module talk]] ||<inputbox>
+break=no
+type=create
+buttonlabel=Samee
+prefix=Template:Editnotices/Page/Module talk:
+preload=Template:Editnotice/preload
+</inputbox>
+|}
+
+[[Category:editnotices| ]]
+
+[[ar:ويكيبيديا:تبصرة تحرير]]
+[[bn:উইকিপিডিয়া:Editnotice]]
+[[ca:Viquipèdia:Avisos d'edició]]
+[[da:Wikipedia:Editnotice]]
+[[en:Wikipedia:Editnotice]]
+[[he:ויקיפדיה:הודעת עריכה]]
+[[it:Wikipedia:Editnotice]]
+[[ko:위키백과:편집 안내]]
+[[no:Wikipedia:Redigeringsmeldinger]]
+[[or:ଉଇକିପିଡ଼ିଆ:Editnotice]]
+[[pt:Wikipédia:Namespace MediaWiki/Editnotice]]
+[[si:විකිපීඩියා:Editnotice]]
+[[tr:Vikipedi:Tepegöz]]
+[[ur:منصوبہ:اعلان ترمیم]]
+[[zh:Wikipedia:编辑提示]]
