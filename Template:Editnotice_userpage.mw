@@ -1,10 +1,10 @@
-{{Editnotice
-| id          = userpageedn
-| header      = Editing
-| headerstyle = font-size: 150%;
-| text        = Hello. You're editing the userpage of {{BASEPAGENAME}}. Please make your edits friendly as this is a userpage and is only supposed to be edited by {{BASEPAGENAME}}!
-| textstyle   = font-size: 120%;
-| image       = [[File:Bouncywikilogo.gif|90px]]
+{{editnotice
+| id =
+| header =Bedel
+| headerstyle =font-size: 150%;
+| text = Soo dhowoow. waxaad bedeleysaa bogga isticmaalaha ee Tusaale ahaan isticmaalaha. Fadlan waxaad samaysaa bedel yer maxaa yeelay isticmaalaha ayaa ah qofka wax ka bedela meshaan!
+| textstyle =font-size: 120%;
+| image =[[File:Wikipedia-logo-v2.svg|80px]]
 }}<noinclude>
 {{Documentation}}
 </noinclude>
