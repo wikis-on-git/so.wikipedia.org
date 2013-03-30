@@ -1,0 +1,12 @@
+{{ombox
+| type       = notice
+| image      = [[Image:Crystal package settings.png|40x40px]]
+| imageright = {{#if:{{{1|}}}|{{ombox/Shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }} }}
+| text       = {{center|This page is a '''how-to guide''' detailing a practice or process on the English Wikipedia.}}
+}}{{category handler
+| 1         = [[Category:Wikipedia how-to|{{#if:{{{sort-by|}}}|{{{sort-by}}}|{{PAGENAME}}}}]]
+| wikipedia = 1
+| help      = 1
+| nocat     = {{{nocat|}}}
+| category  = {{{category|¬}}}
+}}<noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
