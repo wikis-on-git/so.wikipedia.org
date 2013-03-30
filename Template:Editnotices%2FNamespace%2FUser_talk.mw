@@ -1,0 +1,4 @@
+<!--Load the "You're editing an editnotice" notice for all /Editnotice, /editnotice etc subpages. That notice shows a warning when not spelled /Editnotice and at only one subpages depth.
+-->{{#ifeq: {{lc: {{SUBPAGENAME}} }} | editnotice
+| {{ Template:Editnotices/Group/Template:Editnotices | notice action={{{notice action|}}} }}
+}}
