@@ -1,0 +1,6 @@
+{{#switch:{{minmaxskipgen|max={{{max|}}}|gen={{{gen|}}}|extramax={{{extramax|}}}|min={{{min|}}}|skip={{{skip|}}}|inc={{{inc|}}}|duration={{{duration|}}}}}
+| 1    = [[:Abshir]]
+
+}}<noinclude>
+[[Category:Template]]
+</noinclude>
