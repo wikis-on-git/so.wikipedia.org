@@ -1,0 +1,130 @@
+<!--template:maxgen generated value of seconds since year1970 (timeU), if generated value is more than max, the value will be divide by mod 10--><!--i:e,pass parameter{{Minmaxskipgen|max={{PAGESINCATEGORY:Maqaalada Bogga Hore ee xulka ah}}|extramax=-4|gen=1000|min=10|skip=0|inc=-1|duration=60}}-->{{#switch: {{#expr:{{#if:{{{min|}}}|1|0}}+{{#if:{{{inc|}}}|3|0}}+{{#if:{{{skip|}}}|6|0}}}}
+|0={{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}
+|1={{#ifexpr:
+	{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}>={{{min}}}
+	|{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}
+	}}
+	{{#ifexpr:
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}<{{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min|}}})}}
+	}}	
+|3={{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>{{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}
+	}}
+|4=	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>={{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}			
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<{{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}}+{{{min}}})}}
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>{{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}
+	}}				  		
+|6={{#ifexpr:
+	{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}!={{{skip}}}
+	|{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}
+	}}
+	{{#ifexpr:{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}={{{skip}}}
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{skip}}}-1)}}
+	}}
+|7=	{{#ifexpr:
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}!={{{skip}}})
+	and
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}>={{{min}}})
+	|{{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}
+	}}
+	{{#ifexpr:
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}={{{skip}}})
+	and
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}>={{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-1)}}
+	}}	
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min}}})}}!={{{skip}}})
+	and
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}<{{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min}}})}}
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min}}})}}={{{skip}}})
+	and
+	({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}<{{{min}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min}}}+1)}}
+	}}		
+|9={{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}!={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}={{{skip}}})
+	|{{#expr:{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}-1}}
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>{{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}
+	}}
+|10={{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>={{{min}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}!={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}			
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>={{{min}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+1)}}			
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}}+{{{min}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<{{{min}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})+{{{min}}}}}!={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}}+{{{min}}})}}		}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}}+{{{min}}})}}<={{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and	
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}<{{{min}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}}+{{{min}}})}}={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{min}}}+1)}}
+	}}	
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>{{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}!={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}			
+	}}
+	{{#ifexpr:
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}+{{{inc}}})}}>{{#expr:{{#if:{{{extramax|}}}|{{#expr:{{formatnum:{{{extramax}}}|R}}+{{formatnum:{{{max}}}|R}}}}|{{formatnum:{{{max}}}|R}}}}}})
+	and
+	({{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}})}}={{{skip}}})
+	|{{#expr:abs({{Minmaxskipgen/core|max={{{max|}}}|extramax={{{extramax|}}}|duration={{{duration|}}}|gen={{{gen|}}}}}-{{{inc}}}-1)}}			
+	}}		
+|#default=Please Check the parameter or contact [[w:so:user:Antime]]<!--end all-->
+}}<noinclude>
+{{Documentation}}
+
+[[Category:Template]]
+</noinclude>
