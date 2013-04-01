@@ -1,0 +1,11 @@
+{{Ambox
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| name  = Current
+| type  = notice
+| image = [[File:Ambox currentevent.svg|30px]]
+| text  = '''Kani waa {{#if:{{{1|}}}|{{{1}}}|qodobka}} quseeya xog-waranka [[Portal:Dhacdooyinka Cusub|{{#if:{{{2|}}}|{{{2}}}|dhacdooyinka cusub}}]].''' Waxaa laga yaabaa in ay isku bedesho si dhaqsi ah sida aad ka arkeeyso macluumaadka hadda kuu muuqda.
+| cat   = Dhacdooyinka Cusub
+| date  = {{{date|}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
