@@ -293,7 +293,7 @@ Please do not edit without discussion first as this is a VERY complex template.
    |hlist hnum
    |hlist vcard
    |vcard hlist = 
-   |#default = {{#ifeq:{{{tracking|}}}|no||[[Category:Navigational boxes without horizontal lists]]}}
+   |#default = {{#ifeq:{{{tracking|}}}|no||[[Category:Template]]}}
    }}
   }}
  }}
@@ -305,10 +305,10 @@ Please do not edit without discussion first as this is a VERY complex template.
  |#default = {{#switch:{{{liststyle|}}}
   |padding: 0.25em 0; line-height: 1.3em;
   |padding:0.25em 0; line-height:1.4em; width:auto;
-  |padding:0.4em 0; line-height:1.4em; = [[Category:Navigational boxes with custom list spacing]]
+  |padding:0.4em 0; line-height:1.4em; = [[Category:Template]]
   |#default = 
  }}
-}}}}<includeonly>{{template other|{{#if:{{{titlestyle|}}}{{{groupstyle|}}}|[[Category:Navboxes using background colours]]}}}}</includeonly><noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc sub-page -->[[ace:Pola:Navbox]]
+}}}}<includeonly>{{template other|{{#if:{{{titlestyle|}}}{{{groupstyle|}}}|[[Category:Template]]}}}}</includeonly><noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc sub-page -->[[ace:Pola:Navbox]]
 [[af:Sjabloon:Navbox]]
 [[ak:Şablon:Navbox]]
 [[am:መለጠፊያ:Navbox]]
