@@ -1,0 +1,6 @@
+{{ mbox
+| type       = notice
+| image      = [[File:Purple question mark.svg|30px|alt=|link=]]
+| text       = {{#if:{{{status|}}}|It is '''''proposed''''' that this {{#ifeq:{{{status}}}|info|informational page|{{{status}}}}} become a '''{{{type|[[Wikipedia:Xeerka Wiki|Xeerka wiki]]}}}'''. Fadlan eeg wadahadalka {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|below|on [[{{TALKPAGENAME}}#{{{section|}}}|its talk page]]}}.|Kuwani '''waa ''soo jeedin'' Wikipedia {{{type|[[Wikipedia:Xeerka Wiki|Xeerka wiki]], ama Soo Jeedin}}}'''. Soo jeedintaan waxaa laga yaabaa in ay ku jirto horumarinta, ee {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|Wadahadal|[[{{TALKPAGENAME}}#{{{section|}}}|wadahadalka]]}}, ama uruurinta [[Wikipedia:Isfahan|isfahanka]] kutiirsan.}}
+| imageright = {{#if:{{{1<includeonly>|</includeonly>}}} | {{Ombox/Shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }} }}
+}}<includeonly>{{{category|[[Category:Wikipedia proposals|{{PAGENAME}}]]}}}</includeonly><noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
