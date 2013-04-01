@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Belgium
+| flag alias = Flag of Belgium (civil).svg
+| flag alias-state = Flag of Belgium.svg
+| flag alias-naval = Naval Ensign of Belgium.svg
+| link alias-naval = Belgian Navy
+| flag alias-air force = Ensign of Belgian Air Force.svg
+| link alias-air force = Belgian Air Force
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = state
+| redir1 = BEL
+</noinclude>
+}}
