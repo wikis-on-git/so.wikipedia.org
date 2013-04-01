@@ -122,7 +122,7 @@
  -->{{#if:{{{national_motto|}}}{{{motto|}}}
      | <tr>
          <td colspan="3" style="text-align:center;line-height:1.2em;"><!--
-           -->'''Halku dhigga:&nbsp;'''{{{motto|{{{national_motto|}}}}}}</td>
+           -->'''Hal ku dheg:&nbsp;'''{{{motto|{{{national_motto|}}}}}}</td>
        </tr><!--
  -->}}<!--
 
