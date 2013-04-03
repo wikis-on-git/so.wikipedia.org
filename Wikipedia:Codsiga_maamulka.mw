@@ -1,3 +1,19 @@
+{{/Hordhac}}
+
+__toc__
+
+==<!-- 
+-->[{{Server}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=purge}} <!-- 
+--><span title="Halkaan eeg si aad u cubooneeysiiso">'''Codsiyada'''</span>]<!-- 
+-->==
+{{#ifexist:Wikipedia:Codsiga maamulka/Siin|
+==='''Siin'''===
+{{Wikipedia:Codsiga maamulka/Siin}}
+}}
+{{#ifexist:Wikipedia:Codsiga maamulka/Ka tirtiris|
+==='''Ka tirtiris'''===
+{{Wikipedia:Codsiga maamulka/Ka tirtiris}}
+}}
 == Codsi ==
 <div style="border-top:3px solid #D0D0D0; border-bottom:3px solid #D0D0D0; 
 padding:5px;
