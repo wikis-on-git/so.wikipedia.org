@@ -1,0 +1,23 @@
+{{ombox
+| demospace = {{{demospace|}}}
+| type = style
+| image = [[Image:Imbox content.png|40px|alt=|link=]]
+| text =
+  {{#if:{{{new|{{{2<includeonly>|</includeonly>}}} }}}
+  | The template {{[[{{{4|Template}}}:{{{1|{{PAGENAME}}}}}|{{{1|{{PAGENAME}}}}}]]}} is deprecated. Please use {{{new|{{[[{{{5|Template}}}:{{{2}}}|{{{2}}}]]{{#if:{{{3|}}}
+    |<nowiki>|</nowiki>{{{3}}}
+    }}}} }}} instead. {{{note|}}}
+  | The template {{[[Template:{{PAGENAME}}|{{PAGENAME}}]]}} is [[:Category:Deprecated templates|deprecated]].
+  }}
+}}{{#ifeq:{{ARTICLESPACE}}|Template
+| {{#ifeq:{{PAGENAME}}|{{BASEPAGENAME}}<!--Don't categorise /doc pages -->
+   |{{#ifeq:{{PAGENAME}}|{{ucfirst:{{{1}}}}}<!-- only for the deprecated template itself -->
+      |{{DMC|Deprecated templates|from|{{{date|}}}}}
+    }}
+  }}
+| [[Category:Pages using deprecated templates]]
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
