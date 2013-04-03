@@ -1,0 +1,13 @@
+<includeonly>background-color: {{{1}}}; background-image: -webkit-gradient(linear, {{#switch:{{{3}}}|right|bottom=right bottom|#default=left top}}, {{#switch:{{{3}}}|right|top|vertical=left bottom|#default=right top}}, from({{{1}}}), to({{{2}}}){{#if:{{{4|}}}|, color-stop({{{5|50%}}}, {{{4}}})}}); {{linear-gradient|{{#switch:{{{3|}}}|vertical=top|horizontal=left|#default={{{3|left}}}}}|{{{1}}}{{#if:{{{4|}}}|, {{{4}}} {{{5|50%}}}}}, {{{2}}}}}</includeonly><noinclude>
+
+{{Tdeprecated|gradient|linear-gradient|date=January 2012}}
+
+[[ar:قالب:Gradient]]
+[[fa:الگو:Gradient]]
+[[ja:Template:Gradient]]
+[[pl:Szablon:Gradient]]
+[[ru:Шаблон:Градиент]]
+[[sk:Šablóna:Gradient]]
+[[sq:Stampa:Gradient]]
+[[sv:Mall:Gradient]]
+</noinclude>
