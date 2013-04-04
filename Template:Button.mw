@@ -1,6 +1,3 @@
-<!--‪
---><includeonly><div class="zirr {{#switch:{{{2|}}}|Round=zirrkabirmudawwar|Medium=zirrmutawassit|Small=zirrsaghir|Black=zirraswad|Gray=zirrramadi|White=zirrabyad|Orange=zirrburtuqali|Red=zirrahmar|Blue=zirrazraq|Pink=zirrwardi|Green=zirrakhdar|Rose=zirrzahri|}} {{#switch:{{{3|}}}|Round=zirrkabirmudawwar|Medium=zirrmutawassit|Small=zirrsaghir|Black=zirraswad|Gray=zirrramadi|White=zirrabyad|Orange=zirrburtuqali|Red=zirrahmar|Blue=zirrazraq|Pink=zirrwardi|Green=zirrakhdar|Rose=zirrzahri|}} {{#switch:{{{4|}}}|Round=zirrkabirmudawwar|Medium=zirrmutawassit|Small=zirrsaghir|Black=zirraswad|Gray=zirrramadi|White=zirrabyad|Orange=zirrburtuqali|Red=zirrahmar|Blue=zirrazraq|Pink=zirrwardi|Green=zirrakhdar|Rose=zirrzahri|}}">{{{1|{{{Text}}}}}}</div></includeonly><noinclude>
-{{Documentation}}
-</noinclude><noinclude>
-[[Category:Template]]
+<span class="nowrap" title="This is not a clickable button; it illustrates the button to look for" style="padding:.2em .6em; border:1px solid; border-color:#aaa #555 #555 #aaa; {{border-radius|3px}} background-color:#f2f2f2; {{linear-gradient|top|#fcfcfc, #e0e0e0}} {{#ifeq:{{{format|}}}|bold|font-weight:bold;}} {{{style|}}}">{{{text|{{{1|Batoonka}}}}}}</span><noinclude>
+{{documentation}}
 </noinclude>
