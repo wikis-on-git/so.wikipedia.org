@@ -1,0 +1,46 @@
+
+<!-- Qaybaha inter wiki waxaa lagu soo bandhigi doonaa qaybta hoose-->
+
+=== Adeegsiga ===
+{| class=wikitable
+|<code><nowiki>{{Button|}}</nowiki></code>||{{Button|}}
+|-
+|<code><nowiki>{{Button|Qaabkaan}}</nowiki></code>||{{Button|Qaabkaan}}
+|-
+|<code><nowiki>{{Button|Qaabkaan|round}}</nowiki></code>||{{Button|Qaabkaan|round}}
+|-
+|<code><nowiki>{{Button|Qaabkaan|medium}}</nowiki></code>||{{Button|Qaabkaan|medium}}
+|-
+|<code><nowiki>{{Button|Qaabkaan|small}}</nowiki></code>||{{Button|qaabkaan|small}}
+|-
+|<code><nowiki>{{Button|Qaabkaan|black}}</nowiki></code>||{{Button|Qaabkaan|black}}
+|-
+|<code><nowiki>{{Button|Qaabkaan|gray}}</nowiki></code>||{{Button|Qaabkaan|gray}}
+|-
+|<code><nowiki>{{Button|Sidaan|white}}</nowiki></code>||{{Button|Sidaan|white}}
+|-
+|<code><nowiki>{{Button|sidaan|Orange}}</nowiki></code>||{{Button|sidaan|Orange}}
+|-
+|<code><nowiki>{{Button|Sidaan|red}}</nowiki></code>||{{Button|Sidaan|red}}
+|-
+|<code><nowiki>{{Button|Sidaan|Blue}}</nowiki></code>||{{Button|Sidaan|Blue}}
+|-
+|<code><nowiki>{{Button|Sidaan|Pink}}</nowiki></code>||{{Button|Sidaan|Pink}}
+|-
+|<code><nowiki>{{Button|Sidaan|green}}</nowiki></code>||{{Button|Sidaan|green}}
+|-
+|<code><nowiki>{{Button|Sidaan|Lues}}</nowiki></code>||{{Button|Sidaan|Lues}}
+|-
+|<code><nowiki>'''{{Button|Button|Small|red|Round}}'''</nowiki></code>||'''{{Button|Button|Small|red|Round}}'''
+|}
+
+=== Sidoo kale eeg ===
+* [[Tempalet:Button]]
+<includeonly>
+<!-- Qaybaha interwiki waa kuwaan -->
+[[en:Template:Button]]
+[[fa:الگو:دکمه]]
+[[simple:Template:Button]]
+[[sq:Stampa:Buton/dok]]
+[[tr:Şablon:Düğme]]
+</includeonly>
