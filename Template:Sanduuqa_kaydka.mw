@@ -1,0 +1,25 @@
+{{archives
+| auto                = {{{auto|no}}}
+| root                = {{{root|{{{root|{{{Origin|}}}}}}}}}
+| links               = {{{links|{{{link|}}}}}}
+| 1                   = &#x20;{{{1|}}}
+| image               = {{{image|{{{image|Gnome-applications-office.svg}}}}}}
+| style               = {{#if:{{{box-width|}}}|width:{{{box-width}}};}} {{{style|}}}
+| collapsible         = {{{collapsible|}}}
+| collapsed           = {{{collapsed|}}}
+| search              = {{{search|no}}}
+| search-break        = {{{search-break|{{{Joojin raadinta}}}}}}
+| search-width        = {{{search-width|{{{|Muuqaalka Raadinta}}}}}}
+| search-button-label = {{{search-button-label|{{{Magac uyeelka batoonka raadinta|{{{Calaamadaha batoonka raadonta|}}}}}}}}}
+| index               = {{{index|}}}
+| title               = {{{title|Kaydka}}}
+| editbox             = {{{editbox|no}}}
+| bot                 = {{{bot|}}}
+| age                 = {{{age|}}}
+| units               = {{{units|days}}}
+| botnotesmall        = {{{botnotesmall|}}}
+| minthreadszero      = {{{minthreadszero|}}}
+}}<noinclude>
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
