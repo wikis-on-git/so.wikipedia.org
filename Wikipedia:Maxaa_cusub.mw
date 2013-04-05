@@ -374,3 +374,34 @@ If you'd like to learn about this kind of events earlier in advance, consider be
 
 [[:m:user:guillom|Guillaume Paumier]], via the [[:m:Global message delivery|Global message delivery system]]. 20:22, 13 Maarso 2013 (UTC) <small>([[:m:Distribution list/Global message delivery|wrong page? You can fix it.]])</small>
 <!-- EdwardsBot 0379 -->
+
+== Wikidata phase 2 (infoboxes) coming to this Wikipedia ==
+
+[[File:Wikidata-logo-en.svg|150px|right]]
+Sorry for writing in English. I hope someone can translate this. If you understand German better than English you can have a look at the announcement on [[:de:Wikipedia:Kurier]].
+
+A while ago the first phase of [[d:|Wikidata]] was enabled on this Wikipedia. This means you are getting the language links in each article from Wikidata. It is soon time to enable the second phase of Wikidata (infoboxes) here. We have already done this on the [[http://blog.wikimedia.de/2013/03/27/you-can-have-all-the-data/ first 11 Wikipedias]] (it, he, hu, ru, tr, uk, uz, hr, bs, sr, sh) and things are looking good. The next step is English Wikipedia. This is planned for April 8. '''If everything works out fine we will deploy on all remaining Wikipedias on April 10.''' I will update [[m:Wikidata/Deployment Questions#When_will_this_be_deployed_on_my_Wikipedia.3F|this part of the FAQ]] if there are any issues forcing us to change this date. I will also sent another note to this village pump once the deployment is finished.
+
+'''What will happen once we have phase 2 enabled here?'''
+Once it is enabled in a few days you will be able to make use of the structured data that is available on Wikidata in your articles/infoboxes. It includes things like the symbol for a chemical element, the ISBN for a book or the top level domain of a country. (None of this will happen automatically. Someone will have to change the article or infobox template for this to happen!)
+
+'''How will this work?'''
+There are two ways to access the data:
+* Use a parser function like <nowiki>{{#property:p169}}</nowiki> in the wiki text of the article on Yahoo!. This will return “[[d:Q14086|Marissa Mayer]]” as she is the [[d:Property:P169|chief executive officer]] of the [[d:Q37093|company]].
+* For more complicated things you can use Lua. The documentation for this is [[mw:Extension:WikibaseClient/Lua|here]].
+
+We are working on expanding the parser function so you can for example use <nowiki>{{#property:chief executive officer}}</nowiki> instead of <nowiki>{{#property:p169}}</nowiki>. The complete plan for this is [[meta:Wikidata/Notes/Inclusion syntax|here]].
+
+'''Where can I test this?'''
+You can already test it on [http://test2.wikipedia.org test2].
+
+'''Where can I find more information and ask questions?'''
+We have collected the main questions in an [[meta:Wikidata/Deployment Questions|FAQ for this deployment]]. Please ask questions you might have on [[meta:Talk:Wikidata/Deployment Questions|the FAQ’s discussion page]].
+
+'''I want to be kept up to date about Wikidata'''
+To stay up-to-date on everything happening around Wikidata please [[meta:Global message delivery/Targets/Wikidata|subscribe]] to the newsletter that is delivered weekly to subscribed user’s talk pages.
+
+--[[m:User:Lydia Pintscher (WMDE)|Lydia Pintscher]] 17:11, 5 Abriil 2013 (UTC)
+
+<small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
+<!-- EdwardsBot 0399 -->
