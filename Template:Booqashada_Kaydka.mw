@@ -1,0 +1,13 @@
+<includeonly><div style="text-align: center;">
+<div style="display: inline;">{{ #ifeq: {{ #expr: {{{1}}} - 1 }} | 0 | | → [[../Kaydka {{ #expr: {{{1}}} - 1 }}|Kaydka {{ #expr: {{{1}}} - 1 }}]] <nowiki>|</nowiki>}}</div>
+<div style="display: inline;">'''Kaydka {{{1}}}'''</div>
+<div style="display: inline;">| [[../Kaydka {{ #expr: {{{1}}} + 1 }}|Kaydka {{ #expr: {{{1}}} + 1 }}]] ←</div>
+</div></includeonly><noinclude>
+== Adeegsiga ==
+<pre>
+{{Booqashada Kaydka|Tirada Kaydka Hadda}}
+</pre>
+Fiira Gaar ah: Waa inuu ahaadaa habka kaydinta /Kaydka B. Tusaale /Kaydka 1 ، /Kaydka 2.
+
+[[Category:Template]]
+</noinclude>
