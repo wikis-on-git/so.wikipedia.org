@@ -2,7 +2,7 @@
  | table1 = <tr><td> {{{3|}}} </td><td> {{{start|}}} </td><td> {{{missions2|}}} </td><td> {{{notes|}}} </td></tr>
  | table2 = <tr><td> {{{2|}}} </td><td> {{{start|}}} </td><td> {{{missions1|}}} </td><td> {{{notes|}}} </td></tr>
  | #default = <table class="infobox bordered">
-<caption> '''xiriirka{{{1}}}'''</caption>
+<caption> '''Xiriirka {{{1}}}'''</caption>
 {{#ifexist: Media:{{{map|{{{2}}} {{{3}}} Locator.{{{filetype|png}}}}}}
  | <tr><td colspan="2" align="center">[[File:{{{map|{{{2}}} {{{3}}} Locator.{{{filetype|png}}}}}}|{{px|{{{size|}}}|250px}}|Map indicating locations of {{{2}}} and {{{3}}}]]</td></tr>
  | {{main other|[[Category:Infobox Heshiis laba geesood]]}}
