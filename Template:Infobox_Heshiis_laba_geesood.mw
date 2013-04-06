@@ -1,0 +1,19 @@
+<includeonly>{{#switch:{{{view}}}
+ | table1 = <tr><td> {{{3|}}} </td><td> {{{start|}}} </td><td> {{{missions2|}}} </td><td> {{{notes|}}} </td></tr>
+ | table2 = <tr><td> {{{2|}}} </td><td> {{{start|}}} </td><td> {{{missions1|}}} </td><td> {{{notes|}}} </td></tr>
+ | #default = <table class="infobox bordered">
+<caption> '''{{{1}}} relations'''</caption>
+{{#ifexist: Media:{{{map|{{{2}}} {{{3}}} Locator.{{{filetype|png}}}}}}
+ | <tr><td colspan="2" align="center">[[File:{{{map|{{{2}}} {{{3}}} Locator.{{{filetype|png}}}}}}|{{px|{{{size|}}}|250px}}|Map indicating locations of {{{2}}} and {{{3}}}]]</td></tr>
+ | {{main other|[[Category:Infobox Heshiis laba geesood]]}}
+}}<tr style="height:0.6em">
+<td style="width:50%; background:#339933;"></td>
+<td style="width:50%; background:#E08020;"></td>
+</tr>
+<tr style="text-align:center">
+<td>'''{{flagbig|{{{2}}}|size=50x45px}}'''</td>
+<td>'''{{flagbig|{{{3}}}|size=50x45px}}'''</td></tr>
+</table>
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
