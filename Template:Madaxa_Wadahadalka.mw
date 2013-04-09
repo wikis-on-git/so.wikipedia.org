@@ -1,0 +1,45 @@
+{{#ifeq:{{{bottom|{{{under}}}}}}|yes
+| {{ tmbox
+| small = {{{small|{{{small|}}}}}}
+| image = none
+| style = text-align: center
+| text  = '''Waxaa si xushmad leh lagaaga codsanayaa inaad ku qorto wadahadalkaada bogga qaybta hoose'''
+}}
+}}{{#ifexpr:{{#ifeq:{{NAMESPACE}}|User_talk|1|0}}*{{#ifeq:{{{disclaimer|{{{disclaimer|}}}}}}|yes|1|0}}|
+{{User}}
+}}
+<table {{#ifexpr:{{#ifeq:{{NAMESPACE}}|User_talk|1|0}}*{{#ifeq:{{{disclaimer|{{{disclaimer|}}}}}}|yes|1|0}}
+ |width="100%" align="center" cellspacing="3" style="border: 1px solid #c0c090; background-color: #F8EABA; margin-bottom: 0px"
+ |class="tmbox tmbox-notice plainlinks" id="talkheader" style="width: 80%; border-collapse: separate"
+}} ><tr>
+<th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}| User_talk|Tani waa [[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]], kaasoo kuusuura galinaya wadahadalka iyo farrimo la isku diro {{PAGENAME}}|[[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] halkaam waxay gooni utahay wadahadal {{#if:{{{wp|}}}|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] wax kasta oo ku saabsan ee muhim ah|hormarinta{{#ifeq:{{PAGENAME}}|Bogga Hore||&nbsp;{{pagetype}}}} [[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]]}}}}</th>
+</tr><tr>
+<td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*''' Baggan [[Wadahadalka Bogga Hore]]''' waa wadahadalka guud '''{{{1|[[{{PAGENAME}}]]}}}،''' wax kasto '''Wadahadaladaan''' waa la '''Tirtirayaa'''}}
+* '''[[Saxiisxa]]''' iyo taariikhda iyo afar jiitin (<code><nowiki>~~~~</nowiki></code>)
+* waxyaabaha cusub ee laga wada hadlayo waxa ay ku soo bixi doonaan '''meesha hoose''' ee bogga wadahadalka' <span class="plainlinks">[{{fullurl:{{TALKPAGENAME}}|action=edit&section=new}} Halkaan gujji si aad ubilloowdo wax cusub]</span>
+* Hadii aad qabto '''Su'aal kooban''' ee ku saabsan bogga laakiin aan ku saab-sanayn bogga wadahadalka isku day inaad soo booqoto [[Wikipedia:Su'aalo|Su'aalaha wikipedia]]
+* Hadii aad dooneeyso '''in lagawada hadlo wax  ku saabsan wikipedia''' lafteeda si guud Bogga' soo booqo [[Wikipedia:Goob|Goobta wikipedia]]
+</td><td>
+* [[Wikipedia:Goob/Farsamo|Farsamo]]
+* Ahaaw mid xushmad badan
+* Qof ha weerarin
+* Su'aalaha ha iska dhagatirin
+* Niyad wanaagsan la imoow
+* Dadka kalena caawi
+{{#switch:yes|{{{arpol|}}}|{{#if:{{SUBJECTSPACE}}|no|yes}}=<td style="border-left: 1px solid #c0c090"><center>'''[[Wikipedia:Caawinaad|Arrimo muhim ah]]'''</center>
+* [[Wikipedia:Xigasho|Xigasho]]
+
+</td>
+}}{{#if:{{{1|}}}|<td>{{Concise|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }}</td>}}
+</tr>
+{{#if:{{{noarchive|{{{noarchives|{{{Kayd maleh|{{{Kayd maleh|{{{Kayd Maleh|}}}}}}}}}}}}}}}||{{#ifexist:{{fullpagename}}/Kaydka 1|
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 1px 3px">'''[[Caawinaad:Kaydka Bogga Wadahadalka|Kaydka]]:''' {{#ifexist:{{fullpagename}}/Tusmo|[[{{fullpagename}}/Tusmada Kaydka|Tusmo]]&#32;•&#32;}}{{#ifexist:{{fullpagename}}/Kaydka A|{{Archive list alpha|nobr=yes|root={{fullpagename}}}}&#32;•&#32;|}}{{Archive list|nobr=yes|root={{fullpagename}}}}</td>
+</tr>
+}}
+}}
+{{#if:{{#ifexist:{{fullpagename}}/Kaydka 1|y}}{{#ifexist:{{fullpagename}}/Kaydka A|y}}{{{search|{{{Baar|}}}}}}|{{#ifeq:{{{search|{{{Baar|}}}}}}|no||
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{fullpagename}}|search-break=no|search-width=auto|search-button-label=Ka baar kaydka}}</td>
+</tr>
+}}
+}}
+</table><noinclude>{{Documentation}}</noinclude>
