@@ -1,0 +1,11 @@
+<div>
+{{#tag:inputbox|
+bgcolor=transparent
+type=fulltext
+prefix={{#if:{{{root|}}}|{{{root}}}|{{FULLPAGENAME}}}}{{#switch:{{{noslash}}}|yes=|no=/|{{{noslash}}}=/}}
+break={{#if:{{{search-break|}}}|{{{search-break}}}|no}}
+{{#ifeq:{{{search-width|}}}|auto||
+width={{#if:{{{search-width|}}}|{{{search-width}}}|22}} }}
+searchbuttonlabel={{#if:{{{search-button-label|}}}|{{{search-button-label}}}|Baar gudaha}}
+}}
+</div><noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
