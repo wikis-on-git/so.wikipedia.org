@@ -18,7 +18,7 @@
         | {{#ifeq: {{SUBJECTSPACE}} | {{ns:File}}
           | Template:Documentation/preload-filespace
           | Template:Documentation/preload
-          }} }} }} create]]
+          }} }} }} samee]]
     }}</span>
   }} <span style="{{#if: {{{heading-style|}}}
   | {{{heading-style|}}}
