@@ -28,18 +28,17 @@
 * Dadka kalena caawi
 {{#switch:yes|{{{arpol|}}}|{{#if:{{SUBJECTSPACE}}|no|yes}}=<td style="border-left: 1px solid #c0c090"><center>'''[[Wikipedia:Caawinaad|Arrimo muhim ah]]'''</center>
 * [[Wikipedia:Xigasho|Xigasho]]
-
 </td>
-}}{{#if:{{{1|}}}|<td>{{Concise|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }}</td>}}
+}}{{#if:{{{1|}}}|<td>{{shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }}</td>}}
 </tr>
-{{#if:{{{noarchive|{{{noarchives|{{{Kayd maleh|{{{Kayd maleh|{{{Kayd Maleh|}}}}}}}}}}}}}}}||{{#ifexist:{{fullpagename}}/Kaydka 1|
-<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 1px 3px">'''[[Caawinaad:Kaydka Bogga Wadahadalka|Kaydka]]:''' {{#ifexist:{{fullpagename}}/Tusmo|[[{{fullpagename}}/Tusmada Kaydka|Tusmo]]&#32;•&#32;}}{{#ifexist:{{fullpagename}}/Kaydka A|{{Archive list alpha|nobr=yes|root={{fullpagename}}}}&#32;•&#32;|}}{{Archive list|nobr=yes|root={{fullpagename}}}}</td>
-</tr>
-}}
-}}
-{{#if:{{#ifexist:{{fullpagename}}/Kaydka 1|y}}{{#ifexist:{{fullpagename}}/Kaydka A|y}}{{{search|{{{Baar|}}}}}}|{{#ifeq:{{{search|{{{Baar|}}}}}}|no||
-<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{fullpagename}}|search-break=no|search-width=auto|search-button-label=Ka baar kaydka}}</td>
+{{#if:{{{noarchive|{{{noarchives|}}}}}}||{{#ifexist:{{FULLPAGENAME}}/Kaydka 1|
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 1px 3px">'''[[Caawinaad: Kaydka Bogga wadahadalka|Kaydka]]:''' {{#ifexist:{{FULLPAGENAME}}/Kaydka Guud|[[{{FULLPAGENAME}}/Kaydka Guud|Kaydka Guud]],&#32;}}{{#ifexist:{{FULLPAGENAME}}/Kaydka A|{{Archive list alpha|nobr=yes|root={{FULLPAGENAME}}}},&#32;|}}{{Archive list|nobr=yes|root={{FULLPAGENAME}}}}</td>
 </tr>
 }}
 }}
-</table><noinclude>{{Documentation}}</noinclude>
+{{#if:{{#ifexist:{{FULLPAGENAME}}/Kaydka 1|y}}{{#ifexist:{{FULLPAGENAME}}/Kaydka A|y}}{{{search|}}}|{{#ifeq:{{{search|}}}|no||
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{FULLPAGENAME}}|search-break=no|search-width=auto|search-button-label=Baarista kaydka}}</td>
+</tr>
+}}
+}}
+</table><noinclude>{{documentation}}</noinclude>
