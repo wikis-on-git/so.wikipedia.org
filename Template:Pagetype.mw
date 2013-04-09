@@ -1,0 +1,42 @@
+{{#switch:{{NAMESPACE:{{#if:{{{page|}}}
+  |{{{page}}}
+  |{{#ifeq:{{{subjectspace|}}}|yes
+   |{{TALKPAGENAME}}
+   |{{FULLPAGENAME}}
+  }}
+ }}
+}}
+ |{{ns:Talk}}          = {{#switch:{{lc:{{{1|}}}}}
+  |disambiguation|disambig|disamb|dab
+  |redirect|redir
+  |na                  = 
+  |#default            = 
+ }}
+ |{{ns:User talk}}
+ |{{ns:MediaWiki talk}}
+ |{{ns:Help talk}}
+ |{{ns:Portal talk}}
+ |{{ns:Project talk}}  = 
+ |{{ns:Book talk}}     = 
+ |{{ns:File talk}}     =
+ |{{ns:Template talk}} = 
+ |{{ns:Category talk}} = 
+ |{{ns:Annex talk}} = 
+ |#default             = {{#switch:{{lc:{{{1|}}}}}
+  |Portal
+  |Mashruuc
+  |disambig|disamb|dab
+  |redirect|redir
+  |na                  = 
+  |book                = 
+  |image|file          = 
+  |template|temp|templ = 
+  |category|cat|categ  = 
+  |annex              =
+  |#default            = 
+ }}
+}}<noinclude>
+{{Documentation}}
+</noinclude><noinclude>
+[[Category:Template]]
+</noinclude>
