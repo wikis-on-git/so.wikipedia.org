@@ -1,159 +1,243 @@
+<!-- Kusoo dhawoow -->
+
+{| width="100%"
+<div style="text-align: center; font-size: 145%;">
+|-
+|style="vertical-align:top" |
+<div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#F8F8FF;">
+<div style="padding: 0.3em 1em 0.7em 1em;">
+<div style="text-align: center; font-size: 145%;">Ku soo-dhawoow [[Wikipedia]], Insaykalobeedhiya xorta ah [[Wikipedia:Introduction|qofwalbana&nbsp;wax&nbsp;ka bedeli karo]]. </div>
+<div style="text-align: center;">
+Maanta oo ah '''{{CURRENTDAYNAME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}}''' waxaa Wikipediyaha afka soomaaliga ku jira <b>[[Special:Statistics|{{NUMBEROFARTICLES}}]]</b> maqaal. </div>
+</div>
+</div>
+<br>
+<div class="noprint" style="text-align: center;">
+<inputbox>
+type=search2
+labeltext=Ka raadi Wikipediaha:
+buttonlabel=Raadi
+width=25
+</inputbox>
+</div>
+<br><br>
+<!-- navipalkki-->
+<div style="text-align: center; font-size: 80%; font-weight: bold;">
+[[Special:Allpages|Boggaga oo dhan oo si alifba ah isugu xiga]] · [[Special:Specialpages|Boggaga qaaska ah]] · [[Wikipedia:Bortaalka_jaaliyada|Fikrad ka dhiibo Wikipediaha]] · [[Wikipedia:Qor maqaal cusub|Maqaal cusub qor]] · [[Current events|Ogeysiis]] · [[Special:Newpages|Boggag cusub]] · [[Wikipedia:caawinaad|Caawinaad]]
+</div>
+
+<!-- navigointiapu -->
+<div class="NavFrame" style="clear: both; border-left: none; border-right: none; background-color: #ffffff; margin-bottom: 0; margin-top: 0; border: 1px solid #b4b4b5;">
+<!--otsikko -->
+
+<div class="NavHead" style="text-align: center; font-size: 90%; background-color: #def0fc;"><span style="font-weight: bold; font-size: 120%;">[[Wikipedia:Selaa luokittain|Qeybaha]] maqaalada Wikipediaha</span>
+</div>
+<div class="NavContent">
+<!-- navigointilaatikon sisältö -->
+<div style="width: 90%; margin: auto; font-size: 90%;">
+{| align="center"
+|- 
+| width="33%" valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+<!------>
+| [[Image:Nuvola_apps_kdmconfig.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Cilmiga aanan sayniska ahayn</span><br />
+[[:Category:Cilminafsi|Cilminafsi]]&nbsp;· [[:Category:Taariikh|Taariikh]]&nbsp;· [[:Category:Luqadaha|Luqadaha]]&nbsp;·  [[:Category:Cilmiga bulshada|Cilmiga bulshada]]&nbsp;
+<!------>
+|-
+<!------>
+| [[Image:Nuvola apps edu languages.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Siyaasad|Siyaasad]] iyo [[:Category:Bulsho|bulsho]]</span><br />
+[[:Category:Ganacsi|Ganacsi]]&nbsp;· [[:Category:Waxbarasho|Waxbarasho]]&nbsp;· [[:Category:Joornaalo|Joornaalo]]&nbsp;· [[:Category:Gaadiidka|Gaadiidka]]&nbsp;· [[:Category:Beeraha|Beeraha]]&nbsp;· [[:Category:Dagaalada|Dagaalada]]&nbsp;· [[:Category:Caafimaadka|Caafimaadka]]&nbsp;· [[:Category:Dowladaha|Dowladaha]]
+<!------>
+|-
+<!------>
+| [[Image:P religion world.svg|38px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Diin|Diin]]</span><br />
+[[:Category:Diimaha|Diimaha]]&nbsp;· [[:Category:Mutolojiyada|Mutolojiyada]]
+<!------>
+|}
+| width="33%" valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+|- 
+<!------>
+| width="10%" | [[Image:Nuvola_apps_kcoloredit.png|30px|center|]]
+| width="90%" | <span style="font-size: 110%; font-weight: bold;">[[:Category:Hiddo_iyo_dhaqan|Hiddo iyo dhaqan]]'''</span><br /> 
+[[:Category:Gabayada|Gabayada]]&nbsp;· [[:Category:Filimaanta|Filimaanta]]&nbsp;· [[:Category:Muusig|Muusig]]
+<!------->
+|- 
+<!------->
+| [[Image:Nuvola_apps_kalzium.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Saynis|Saynis]]</span><br />
+[[:Category:Bayoloji|Bayoloji]]&nbsp;· [[:Category:Fiisigis|Fiisigis]]&nbsp;· [[:Category:Kimisteri|Kimisteri]]&nbsp;· [[:Category:Juquraafi|Juquraafi]]&nbsp;· [[:Category:Xisaab|Xisaab]]&nbsp;· [[:Category:Cilmidayax|Cilmidayax]]&nbsp;. [[:Category:Xiddigis|Xiddigis]]
+|-
+<!------->
+|}
+| valign="top" | 
+{| width="100%" border="0" cellspacing="0" cellpadding="2"
+|- 
+<!------->
+| [[Image:Nuvola apps display.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">[[:Category:Teknooloji|Teknooloji]]</span><br />
+[[:Category:Elektaroonig|Elektaroonig]]&nbsp;· [[:Category:Internet|Internet]]&nbsp;· [[:Category:Kumbuyuutarada|Kumbuyuutarada]]
+<!------->
+|- 
+<!------->
+| [[Image:Nuvola_apps_atlantik.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Ciyaaraha iyo madadaalada</span><br />
+[[:Category:Teleefishinka|Teleefishinka]]&nbsp;· [[:Category:Ciyaaraha|Ciyaaraha]]
+<!------->
+|-
+<!------->
+| [[Image:Nuvola filesystems folder font.png|30px|center|]]
+| <span style="font-size: 110%; font-weight: bold;">Kuwa kale</span><br />
+[[:Kalandar]]&nbsp;· [[:Category:Shaqsiyadaad|Shaqsiyadaad]]&nbsp;· [[:Qarni|Waqti]]
+<!------->
+|}
+|}
+</div><!-- tekstimuotoilu loppuu-->
+</div><!-- NavContent loppuu -->
+</div><!-- NavFrame loppuu -->
+
+<!-- palstat -->
+{| width="100%" cellspacing="2" style="clear: both;"
+| colspan="2" |
+|-
+| style="vertical-align: top;" |
+
+<!-- 1. palsta -->
+<div style="margin: 0 0 0.7em 0; border: 1px solid #b4b4b5; background-color: #f6efea;"> <!-- boksi-div -->
+<div style="margin: 0; padding: 0.4em;"><span style="float: left; margin-right: 10px;">[[Image:Information icon.svg|30px|]]</span> 
+<!-- otsikko-div -->
+==Warbixinta Wikipediaha==
+</div> <!-- otsikko-div loppuu -->
+<div style="padding: 0.3em 1em 0.3em 1em; margin: 0;">
+[[Wikipedia]] waa mashruuc [[m:List_of_Wikipedias|luqado kala duwan leh]], kaasoo ujeedadiisa ay tahay in la sameeyo goobo maqaalada lagu qoro kuwaasi oo sii bata lana sii saxo. Maqaaladaasi oo ay u fasaxanyihiin dhammaan dadka oo dhan uusan qofna ku doodikarin in ay yihiin kuwiisa. Wikipediaha luqada Ingiriiska waxaa la bilaabay 2001 midkiisa afka soomaaligana waxaa la'bilaabay 2004. Caawinaad waxaad ka helaysaa [[Wikipedia:Caawinaad|Boga caawinaada]]; Qoritaanka maqaalada waxaad ku barbarankartaa '''Bacaadka''' dhinaca Ingiriiska [[:Wikipedia:Sandbox|sand box]], meeshaasna waxaad wax ugu tijaabinkartaa sidii aad doontid. Samenyta '''Bacaadka''' afka soomaaliga waa lagu guda jiraa<br />
+</div>
+</div> <!-- boksi-div loppuu -->
+
+=== Wikipedia af-Soomaali ===
+Boggani [[wikipedia]] waxa uu gaar u yahay maqaalada ama qoraalada ku qoran afka soomaaliga. Qof walba wuxuu awoodaa inuu ku qoro uuna aqriyo ama uu dib u habeeyo qoraalada ku qoran boggan.
+
+Boggung [[wikipedia]] weyba gaar ing eya dhigmiyaalk liki dhiki alif Soomaali, weybuwa meel lang welbow abtugaal iyo dhigmsuubis ka kordhiye koro. 
+
+Baalakan [[wikipedia|wikipediyade]] waxe qaas an ey dhamaan walii af Soomaali ka dhikanyee. Qof kaste aqristee karee wane wal ka bedelee karee dhamaan maqaalyaalke baalakan ka dhikanyee.
+
 __NOTOC__ __NOEDITSECTION__
-<!--Hordhaca-->
-{{Hordhaca Cusub ee Bogga Hore}}
-<!--Tiirka Bidix-->
-{|id="mp-columns" style="margin:0 0 4px 0; background:transparent;"
-| style="width:52%; border:1px solid #badecc; vertical-align:top; color:#000; padding: 0px 0px 10px 2px;-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; background:#f5fffa;" |
-{|id="mp-left" cellpadding="2" cellspacing="6" style="width:100%; vertical-align:top; "
-!id="mp-fa"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Cscr-featured1.png|Link=Wikipedia:Maqaallo Xul Ah|30px]] Maqaal Xul ah</div>
-|-               
-| style="color:#000;" |
-<div id="mf-fa" style="margin-bottom: auto;" title="Maqaal Xul Ah">{{Maqaal Xul Ah Bogga Hore}}</div>
-|-
-!id="mp-ga"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Cscr-featured2.png|Link=Wikipedia:Maqaallo Cusub|30px]] Maqaal Cusub</div>
-|-
-| style="color:#000;" |
-<div id="mf-fa" style="margin-bottom: auto;" title="Maqaal Cusub">{{Maqaalka Cusub Bogga Hore}}</div>
-|-
-!id="mp-wm"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Orologio rosa.svg|Link=|30px]] Xusuusta Wikipedia</div>
-|-
-| style="color:#000;" |
-<div id="mf-mw" style="margin-bottom: auto;" title="Xusuusta Wikipedia">{{Xusuusta Wikipedia}}</div>
-|-
-!id="mp-wisw"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .20em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Color-chars-logo.png|Link=|30px]] Waa maxaay Wikipedia ?</div>
-|-
-| style="color:#000;" |
-<div id="mf-mw" style="margin-bottom: auto;" title="Waa maxaay Wikipedia ?">{{Bulshada Wikipedia}}</div>
-|}
-<!--Tiirka Midig-->
-| style="border:none;" |
-| style="width:48%; border:1px solid #cfe0f3; background:#fff; vertical-align:top; padding: 0px 0px 2px 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; background:#fff;"|
-{| id="mp-left" cellpadding="2" cellspacing="6" style="width:100%; vertical-align:top; "
-! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Wikipedia Checkuser.png|Link=Wikipedia:Hooyga|30px]] Hooyga Wikiga</div>
-|-
-| id="mp-xe" style="color:#000; text-align:center;" |
-{{Hooyga Wikiga}}
-|-
-! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Local-time.svg|Link=|30px]] Dhacdooyinka Hadda</div>
-|-
-| style="color:#000; padding:2px 9px;"  |
-{{Dhacdooyinka Hadda}}
-|-
-|id="mp-rn" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
-[[n:|'''Wiki Wararka''']] – [[Portal:Dhacdooyinka Hadda|'''Dhacdooyinka Hadda iyo dheeraad...''']]
-|-
-! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Gnome-emblem-photos.svg|Link=|30px]] Sawirrada Maanta ee Xulka ah</div>
-|-
-| style="color:#000; margin-top:5px;" |
-{{Sawirka Maanta}}
-|-
-|id="mp-tp" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
-[[file:Camera-photo.svg|Link=|33px]] [[Wikipedia:Soo Bandhigga Sawika Xulka|'''Soo Bandhig Sawirkaada Xulka ah''']]
-|-
-! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Crystal Clear talk.png|Link=|30px]] Waxaa La Yiri</div>
-|-
-| style="color:#000; text-align:center; padding:2px 9px;" |
-{{Oraahda Bogga Hore}}
-|-
-|id="mp-wq" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
-[[q:|'''Wiki''']] – <span class="plainlinks" id="quotes-purgelink">[{{fullurl:{{FULLPAGENAME}}|action=purge}} '''Oraah Kale''']</span>
-|-
-! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
-Image:Arabesken3.png|80px
-rect 0 0 0 0 [[Link la'aan]]
-desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Pages Mac.png|Link=|30px]] [[Af-Soomaali|Oraahda]] Saxda ah</div>
-|-
-| style="color:#000; text-align:center; padding:2px 9px;" |
-{{Fiira Gaar ah Luqada Soomaaliga}}
-|-
-|id="mp-wt" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
-[[wikt:|'''Wikit''']] – <span class="plainlinks" id="quotes-purgelink">[{{fullurl:{{FULLPAGENAME}}|action=purge}} '''Fiira gaar ah ee kale''']</span>
-|}
-|}
-<!--Mashaariic ood wadaag ah-->
-{|id="mp-sp" cellpadding="2" cellspacing="5" style="width:100%; vertical-align:top; background:#f9f9f9; border:1px solid #a7d7f9; color:#000; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;"
-!<div style="font-size:120%; font-weight:bold; text-align:left;  color:#000; padding:0em .2em;">Mashaariic Bah-wadaag la ah</div>
-|-
-| style="color:#000; text-align:center;" |
+<!--{{newpagelinksmain}}--><!--Template:Newpagelinksmain-->
+{{MainPageInterwikis}}<!--Template:MainPageInterwikis-->
+
 {{Mashruucyoqaraabo}}
-|}
-<!--Luqadaha kale-->
-{{Wikipedialang}}
-{{noexternallanglinks}}
+==Luqadaha Wikipedia==
+{{Wikipedialang}}<!--Template:Wikipedialang-->
 
+[[aa:]]
+[[af:]]
+[[als:]]
+[[am:]]
 [[ar:]]
-[[en:]]
 [[de:]]
-[[fr:]]
-[[it:]]
-[[nl:]]
-[[es:]]
-[[ru:]]
-[[pl:]]
-[[ja:]]
-[[sv:]]
-[[pt:]]
-[[zh:]]
-[[vi:]]
-[[uk:]]
-[[ca:]]
-[[no:]]
-[[fi:]]
-[[fa:]]
-[[cs:]]
-[[hu:]]
-[[ko:]]
-[[ro:]]
-[[id:]]
-[[tr:]]
-[[kk:]]
-[[ms:]]
-[[sk:]]
-[[sr:]]
-[[ceb:]]
-[[eo:]]
-[[da:]]
-[[lt:]]
-[[eu:]]
+[[en:]]
+[[as:]]
+[[ast:]] <!-- missing WikiMedia 1.3 support -->
+[[ay:]]
+[[az:]]
+[[be:]]
 [[bg:]]
-[[he:]]
-[[sl:]]
-[[hr:]]
-[[vo:]]
-[[war:]]
+[[bn:]]
+[[bo:]]
+[[bs:]]
+[[cs:]]
+[[co:]]
+[[cs:]]
+[[cy:]]
+[[da:]]
+[[el:]]
+[[eo:]]
+[[es:]]
 [[et:]]
-
-[[Categoy:Bogga Hore| ]]
+[[eu:]]
+[[fa:]]
+[[fi:]]
+[[fr:]]
+[[fur:]]
+[[fy:]]
+[[ga:]]
+[[gl:]]
+[[gn:]]
+[[gu:]]
+[[he:]]
+[[hi:]]
+[[hr:]]
+[[hy:]]
+[[ia:]]
+[[id:]]
+[[is:]]
+[[it:]]
+[[ja:]]
+[[ka:]]
+[[kk:]]
+[[km:]]
+[[kn:]]
+[[ko:]]
+[[ks:]]
+[[ku:]]
+[[ky:]]
+[[la:]]
+[[ln:]] <!-- missing WikiMedia 1.3 support -->
+[[lo:]]
+[[lt:]]
+[[lv:]]
+[[hu:]]
+[[mi:]]
+[[mk:]]
+[[ml:]]
+[[mn:]]
+[[mr:]]
+[[ms:]]
+[[mt:]] <!-- missing WikiMedia 1.3 support -->
+[[my:]]
+[[na:]]
+[[nah:]]
+[[nds:]]
+[[ne:]]
+[[nl:]]
+[[no:]]
+[[oc:]]
+[[om:]]
+[[pa:]]
+[[pl:]]
+[[ps:]]
+[[pt:]]
+[[qu:]]
+[[ro:]]
+[[ru:]]
+[[sa:]]
+[[sc:]]
+[[scn:]]
+[[si:]]
+[[sk:]]
+[[sl:]]
+[[sq:]]
+[[sr:]]
+[[sv:]]
+[[sw:]]
+[[ta:]]
+[[te:]]
+[[tg:]]
+[[th:]]
+[[tk:]]
+[[tl:]]
+[[tr:]]
+[[tt:]]
+[[ug:]]
+[[uk:]]
+[[ur:]]
+[[uz:]]
+[[vi:]]
+[[vo:]]
+[[xh:]]
+[[yo:]]
+[[za:]]
+[[zh:]]
+[[zu:]]
