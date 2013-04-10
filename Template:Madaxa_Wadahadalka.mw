@@ -12,13 +12,13 @@
  |width="100%" align="center" cellspacing="3" style="border: 1px solid #c0c090; background-color: #F8EABA; margin-bottom: 0px"
  |class="tmbox tmbox-notice plainlinks" id="talkheader" style="width: 80%; border-collapse: separate"
 }} ><tr>
-<th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}| User_talk|Tani waa [[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]], kaasoo kuusuura galinaya wadahadalka iyo farrimo la isku diro {{PAGENAME}}|[[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] halkaam waxay gooni utahay wadahadal {{#if:{{{wp|}}}|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] wax kasta oo ku saabsan ee muhim ah|hormarinta{{#ifeq:{{PAGENAME}}|Bogga Hore||&nbsp;{{pagetype}}}} [[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]]}}}}</th>
+<th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}| User_talk|Tani waa [[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]], kaasoo kuusuura galinaya wadahadalka iyo farrimo la isku diro {{PAGENAME}}|[[Wikipedia:Tusaale Bogga Wadahadalka|Bogga wadahadalka]] halkaan waxay gooni utahay wadahadalka {{#if:{{{wp|}}}|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] wax kasta oo ku saabsan ee muhim ah|hormarinta{{#ifeq:{{PAGENAME}}|Bogga Hore||&nbsp;{{pagetype}}}} [[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]]}}}}</th>
 </tr><tr>
-<td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*''' Baggan [[Wadahadalka Bogga Hore]]''' waa wadahadalka guud '''{{{1|[[{{PAGENAME}}]]}}}،''' wax kasto '''Wadahadaladaan''' waa la '''Tirtirayaa'''}}
-* '''[[Saxiisxa]]''' iyo taariikhda iyo afar jiitin (<code><nowiki>~~~~</nowiki></code>)
-* waxyaabaha cusub ee laga wada hadlayo waxa ay ku soo bixi doonaan '''meesha hoose''' ee bogga wadahadalka' <span class="plainlinks">[{{fullurl:{{TALKPAGENAME}}|action=edit&section=new}} Halkaan gujji si aad ubilloowdo wax cusub]</span>
-* Hadii aad qabto '''Su'aal kooban''' ee ku saabsan bogga laakiin aan ku saab-sanayn bogga wadahadalka isku day inaad soo booqoto [[Wikipedia:Su'aalo|Su'aalaha wikipedia]]
-* Hadii aad dooneeyso '''in lagawada hadlo wax  ku saabsan wikipedia''' lafteeda si guud Bogga' soo booqo [[Wikipedia:Goob|Goobta wikipedia]]
+<td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*''' Baggan [[Wikipedia:Maaha|Maaha meel]]''' wadahadal guud '''{{{1|[[{{PAGENAME}}]]}}}،''' wax kasto oo kabxsan '''Wadahadaladaan''' waa la '''Tirtirayaa'''}}
+* Ku '''[[Saxiix|Saxiix magacaada]]''', taariikhda iyo afar jiitin (<code><nowiki>~~~~</nowiki></code>)
+* Waxyaabaha cusub ee laga-wadahadlayo waxa ay ku soo bixi doonaan '''meesha hoose''' ee bogga wadahadalka' <span class="plainlinks">[{{fullurl:{{TALKPAGENAME}}|action=edit&section=new}} HALKAAN GUJI SI AAD UQORTO WADAHADAL CUSUB]</span>
+* Hadii aad qabto '''Su'aal kooban ama Saadaal''' ee ku saabsan bogga laakiin aan ku saab-sanayn bogga wadahadalka isku day inaad soo booqoto [[Wikipedia:Su'aal|Su'aalaha iyo Saadaasha Wikipedia]]
+* Hadii aad dooneeyso '''in laga-wadahadlo wax  ku saabsan Wikipedia''' lafteeda si guud Bogga' soo booqo [[Wikipedia:Goob|Goobta Wikipedia]]
 </td><td>
 * [[Wikipedia:Goob/Farsamo|Farsamo]]
 * Ahaaw mid xushmad badan
