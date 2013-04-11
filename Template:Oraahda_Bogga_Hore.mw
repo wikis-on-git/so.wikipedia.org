@@ -1,0 +1,7 @@
+<div style="display: none;">{{ #expr: {{Tirakoobe Firirsan|{{Oraahda Maanta/Tiriye}}}} round 0 }}</div>
+{{Oraahda Maanta/{{ #expr: {{Tirakoobe Firirsan|{{Oraahda Maanta/Tiriye}}}} round 0}}}}
+<noinclude>
+{{Template Bogga Hore}}
+
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
