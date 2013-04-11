@@ -1,0 +1,8 @@
+<div style="clear:both; margin-top:.5em; font-size:87%;">Taariikhda Maanta Waa {{CURRENTDAYNAME}}، [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]] [[{{CURRENTYEAR}}]] [[Isuduwaha Waqtiga Caalmagiga|Isuduwaha Waqtiga Caalmagiga (UTC)]]&nbsp;– <span class="plainlinks" id="todayis-purgelink">[{{fullurl:{{fullpagename}}|action=purge}} Hagaaji Bogga]</span></div>
+{{:{{#time:Template:Maanta Oo Kale j F}}}}
+<noinclude>
+
+* Fadlan Bogaan waxba haka bedelin
+{{Template Bogga Hore}}
+[[Category:Template Bogga Hore|{{PAGENAME}}]]
+</noinclude>
