@@ -1,0 +1,3 @@
+{{#ifexpr:{{#expr:{{{1}}} mod 4}}|0|1|0}}<noinclude>
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
