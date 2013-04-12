@@ -1,0 +1,58 @@
+{| class="toccolours" style="float:right; margin-right: 1em; text-align:center;"
+|- style="background:#ccccff;"
+|colspan="7"|'''[[{{#time:F}} {{#time:Y}}|{{#time:F}}]]''' 
+|- style="background:#ccccff;"
+|width="14%"| [[Sabti]]
+|width="14%"| [[Axad]]
+|width="14%"| [[Isniin]]
+|width="14%"| [[Talaado]]
+|width="14%"| [[Arbaco]]
+|width="14%"| [[Khamiis]]
+|width="14%"| [[Jimco]]
+|-
+|style="background: #ccccff" | {{#ifexpr:{{#expr:1-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:1-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:1-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:2-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:2-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:2-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:3-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:3-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:3-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:4-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:4-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:4-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:5-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:5-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:5-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:6-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:6-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:6-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:7-{{Akoonka Maanta ee Taariikhda}}+1 >0}}|[[Kalandar:{{#expr:7-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:7-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+|-
+|style="background: #ccccff" | [[Kalandar:{{#expr:8-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:8-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:9-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:9-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:10-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:10-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:11-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:11-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:12-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:12-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:13-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:13-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:14-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:14-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+|-
+|style="background: #ccccff" | [[Kalandar:{{#expr:15-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:15-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:16-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:16-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:17-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:17-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:18-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:18-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:19-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:19-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:20-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:20-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:21-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:21-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+|-
+|style="background: #ccccff" | [[Kalandar:{{#expr:22-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:22-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:23-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:23-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:24-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:24-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:25-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:25-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:26-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:26-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:27-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:27-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+| [[Kalandar:{{#expr:28-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:28-{{Akoonka Maanta ee Taariikhda}}+1}}]]
+|-
+|style="background: #ccccff" | {{#ifexpr:{{#expr:29-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:29-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:29-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:30-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:30-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:30-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:31-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:31-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:31-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:32-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:32-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:32-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:33-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:33-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:33-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:34-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:34-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:34-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:35-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:35-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:35-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+|-
+|style="background: #ccccff" | {{#ifexpr:{{#expr:36-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:36-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:36-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+| {{#ifexpr:{{#expr:37-{{Akoonka Maanta ee Taariikhda}}+1 <={{#time:t}}}}|[[Kalandar:{{#expr:37-{{Akoonka Maanta ee Taariikhda}}+1}} {{#time:F}} {{#time:Y}}|{{#expr:37-{{Akoonka Maanta ee Taariikhda}}+1}}]]|}}
+|-
+|- style="background: #ccccff"
+|colspan="7"| [[Kalandar:{{#time:Y}}|{{#time:Y}}]]
+|}<noinclude>[[Category:Kalandar|{{PAGENAME}}]]</noinclude>
