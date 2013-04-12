@@ -1,0 +1,62 @@
+{| class="toccolours" style="float:left; margin-right: 1em; text-align:center;"
+|- style="background:#ccccff;"
+|colspan="2"|[[{{Magaca Bilaha|{{#expr:{{{Bil}}}-1}}}}|{{Magaca Bilaha|{{#expr:{{{Bil}}}-1}}}}]]
+|colspan="3"|'''[[{{Magaca Bilaha|{{{Bil}}}}}|{{Magaca Bilaha|{{{Bil}}}}}]]'''
+|colspan="2"|[[{{Magaca Bilaha|{{#expr:{{{Bil}}}+1}}}}|{{Magaca Bilaha|{{#expr:{{{Bil}}}+1}}}}]] 
+|- style="background:#ccccff;"
+|width="14%"| [[Sabti]]
+|width="14%"| [[Axad]]
+|width="14%"| [[Isniin]]
+|width="14%"| [[Talaado]]
+|width="14%"| [[Arbaco]]
+|width="14%"| [[Khamiis]]
+|width="14%"| [[Jimco]]
+|-
+|style="background:F8F8FF" | {{#ifexpr:{{#expr:1-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:1-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:1-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:2-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:2-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:2-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:3-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:3-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:3-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:4-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:4-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:4-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:5-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:5-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:5-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:6-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:6-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:6-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:7-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 >0}}|[[Kalandar:{{#expr:7-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:7-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+|-
+|style="background: #F8F8FF" | [[Kalandar:{{#expr:8-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:8-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:9-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:9-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:10-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:10-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:11-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:11-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:12-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:12-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:13-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:13-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:14-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:14-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+|-
+|style="background: #F8F8FF" | [[Kalandar:{{#expr:15-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:15-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:16-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:16-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:17-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:17-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:18-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:18-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:19-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:19-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:20-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:20-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:21-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:21-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+|-
+|style="background: #F8F8FF" | [[Kalandar:{{#expr:22-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:22-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:23-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:23-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:24-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:24-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:25-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:25-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:26-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:26-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:27-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:27-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+| [[Kalandar:{{#expr:28-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:28-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]
+|-
+|style="background: #F8F8FF" | {{#ifexpr:{{#expr:29-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:29-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:29-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:30-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:30-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:30-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:31-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:31-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:31-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:32-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:32-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:32-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:33-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:33-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:33-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:34-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:34-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:34-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:35-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:35-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:35-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+|-
+|style="background: #F8F8FF" | {{#ifexpr:{{#expr:36-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:36-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:36-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+| {{#ifexpr:{{#expr:37-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1 <={{Mudada Bisha|{{{Bil}}}|{{{Sanad}}}}}}}|[[Kalandar:{{#expr:37-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}} {{Magaca Bilaha|{{{Bil}}}}}|{{#expr:37-{{Bil Koow|Bil={{{Bil}}}|Sanad={{{Sanad}}}}}+1}}]]|}}
+|-
+|- style="background: #ccccff"
+|colspan="7"| [[{{{Sanad}}}]]
+|}<noinclude>
+[[Category:Kalandar|{{PAGENAME}}]]
+</noinclude>
