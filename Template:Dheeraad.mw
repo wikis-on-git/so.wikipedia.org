@@ -1,0 +1,12 @@
+:{{D|{{#ifexist:{{{1|{{PAGENAME}}}}}
+|Macluumaad dheeraad ah, eeg'''[[{{{1|{{PAGENAME}}}}}]]'''
+|Maqaalka Muhimka ah ee qaybtaan, kaasoo lafilayo in uu ahaado ciwaankiisa '''[[{{{1|{{PAGENAME}}}}}]]''', ilaa iyo hadda diyaar maaha. ku soo dhowoow si aad u-sameyso oo aad gacan uga gaysato.<!-- 
+-->{{#if:{{{nocat|{{{Qayblaawe|}}}}}}
+|
+|<!-- 
+ -->{{#ifeq:{{NAMESPACE}}<!-- 
+ -->|{{ns:14}}<!-- 
+ -->|[[Category:Qaybo Maqaalo aan muhim ahayn]]<!-- 
+ -->}}<!-- 
+-->}}}}}}<noinclude>
+{{Sharaxaad}}</noinclude>
