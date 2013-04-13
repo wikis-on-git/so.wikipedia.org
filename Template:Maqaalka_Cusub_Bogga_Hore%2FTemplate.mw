@@ -1,0 +1,8 @@
+{{#if:{{{image}}}|[[file:{{{image}}}|{{#if:{{{size}}}|{{{size|250px}}}|250 px}}|right|{{#if:{{{comment}}}|{{{comment}}}}}]]}}
+{{{text}}}&nbsp;([[{{{title}}}|Sii aqri]])
+
+<div style="font-size:90%;text-align:center;padding:8px 2px 0px 2px;">
+[[Wikipedia:Maqaalka Cusub Bogga Hore|Maqaalka Cusub Bogga Hore]]{{#if:{{{Portal1}}} | {{!}} [[Portal:{{{Portal1}}} |Portal {{{Portal1}}}]]}} {{#if:{{{Portal2}}} | {{!}} [[Portal:{{{Portal2}}}|Portal{{{Portal2}}}]]}}
+
+<includeonly>{{Liiska Munaasabadaha Maqaalka Cusub Bogga Hore}}</includeonly></div>
+<noinclude>{{Sharaxaad}}</noinclude>
