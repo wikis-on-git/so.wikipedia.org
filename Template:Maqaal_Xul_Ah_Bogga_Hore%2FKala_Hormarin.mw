@@ -1,0 +1,5 @@
+{{#switch: {{minmaxskipgen|max={{{max|}}}|duration={{{duration|}}}|extramax={{{extramax|}}}|min={{{min|}}}|skip={{{skip|}}}|inc={{{inc|}}}}}
+| 0    = [[:Muqdisho]]
+| 1    = [[:ICAO]]
+| 2    = [[:Soomaaliya]]
+}}<noinclude>[[Category:Template:Maqaal Xul Ah Bogga Hore|*]]</noinclude>
