@@ -1,15 +1,18 @@
-{| width="100%"
-<div style="text-align: center; font-size: 200%;">
+{| style="width:100%; margin-bottom:2px; background:transparent; padding-top:3px"
+| style="background:transparent; width:100%; border:1px solid #a7d7f9; vertical-align:top; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;" |
+{| style="width:100%; margin-bottom:2px; vertical-align:top; background:transparent; padding-left:2em; padding-right:3em; padding-top:1em;"
 |-
-|style="vertical-align:top" |
-<div style="margin: 0; margin-right:10px; border: 2px solid #dfdfdf; background-color:#F8F8FF;">
-<div style="padding: 0.3em 1em 0.7em 1em;">
-<div style="text-align: center; font-size: 145%;">Ku soo-dhawoow [[Wikipedia]], Insaykalobeedhiya xorta ah [[Wikipedia:Introduction|qofwalbana&nbsp;wax&nbsp;ka bedeli karo]]. </div>
-<div style="text-align: center;">
-Maanta oo ah '''{{CURRENTDAYNAME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}}''' waxaa Wikipediyaha afka soomaaliga ku jira <b>[[Special:Statistics|{{NUMBEROFARTICLES}}]]</b> maqaal. </div>
-</div>
-</div>
-<br><br>
+| style="padding-bottom:5px"|<span style="font-size:195%;">Ku soo-dhawoow [[Wikipedia]]</span>
+<div style="padding-top:5px; padding-left:2px; font-size:120%">Insaykalobeedhiya  [[Xorta ah|xorta ah]] e [[Wikipedia:Introduction|qofwalbana wax ka bedeli karo]]</div>
+| rowspan="2" style="text-align:right"|'''Waa Wikipediyaha Qaybta''' [[Af-Soomaali|Afka Soomaaliga]]'''<br/>
+<span class="plainlinks" style="font-size:92%;">[https://so.wikipedia.org/ Hubi gaarista]</span><br/>
+<span class="plainlinks" style="font-size:92%;">{{#ifeq:{{PAGENAME}}|Pagina principale|[http://so.m.wikipedia.org Habka mobilka]|[http://so.wikipedia.org Habka caadiga]}}</span>
+|-
+| style="width:75%; font-size:98%;"|
+<div style="border-top: 1px solid #a7d7f9; padding-top:5px"></div>
+[[File:Crystal Clear app xmag.svg|15px|link=Special:AllPages|Bogagga oo dhan oo si alifba ah isugu xiga]] [[Special:AllPages|'''<span title="Bogagga oo dhan oo si alifba ah isugu xiga!">Bogagga oo dhan oo si alifba ah isugu xiga</span>''']] &nbsp; [[File:1rightarrow.png|15px|link=Special:SpecialPages]][[Special:SpecialPages|'''<span title="Halkaan guji si aad u aragto bogga gaarka ah!">Boggaga qaaska ah</span>''']] &nbsp; [[File:Nuvola apps khelpcenter.png|15px|link=Wikipedia:Caawinaad|Halkaan guji si aad caawinaad u-hesho!]] [[Wikipedia:Caawinaad|'''<span title="Halkaan guji si aad caawinaad u-hesho!">Caawinaad</span>''']]
+|}
+|}<noinclude>Maanta oo ah '''{{CURRENTDAYNAME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}}''' waxaa Wikipediyaha afka soomaaliga ku jira <b>[[Special:Statistics|{{NUMBEROFARTICLES}}]]</b> maqaal'''</noinclude>
 <!-- navipalkki-->
 <div style="text-align: center; font-size: 80%; font-weight: bold;">
 [[Special:Allpages|Boggaga oo dhan oo si alifba ah isugu xiga]] · [[Special:Specialpages|Boggaga qaaska ah]] · [[Wikipedia:Bortaalka_jaaliyada|Fikrad ka dhiibo Wikipediaha]] · [[Wikipedia:Qor maqaal cusub|Maqaal cusub qor]] · [[Current events|Ogeysiis]] · [[Special:Newpages|Boggag cusub]] · [[Wikipedia:caawinaad|Caawinaad]]
