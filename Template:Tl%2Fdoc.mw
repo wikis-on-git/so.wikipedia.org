@@ -1,0 +1,50 @@
+{{Documentation subpage}}
+{{high-risk|1,900,000+}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+__NOTOC__
+
+The '''template link''' template is a simple [[w:Macro (computer science)|macro]] [[m:Help:template|template]] used to display a template name as a link surrounded by braces, thus showing how the template name would be used in code. Its primary use is in instruction and documentation. A short example is that the code:
+
+::<code><nowiki>{{Tl|Example}}</nowiki></code>
+
+:generates
+
+::{{Tl|Example}}
+
+More complex variations are described below.
+
+===Example===
+{| class="wikitable"
+! Code
+! Result
+|-
+| <code><nowiki>{{Tl|Void}}</nowiki></code>
+| {{[[Template:Void|Void]]}}
+|-
+| <code><nowiki>{{Tl2|X1}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}{{{SISTER|}}}{{ns:Template}}:X1|X1]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=M:|3x}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[[{{{LANG|}}}M:{{ns:Template}}:3x|3x]]<nowiki>}}</nowiki></tt>
+|-
+| <code><nowiki>{{Tl2|SISTER=wikibooks|LANG=de:|WP}}</nowiki></code>
+| <tt><nowiki>{{</nowiki>[http://de.wikibooks.org/wiki/Vorlage:WP WP]<nowiki>}}</nowiki></tt><!---
+----- This is currently a fraudulent output result... the template code needs modified to work
+----- per this plan, then this /doc file fixed up to match whatever the correct syntax actually is.
+----- ALMOST work: 
+[[:de:wikibooks:{{ns:template}}:WP|WP]]
+[[de:wikibooks:{{ns:template}}:WP|WP]]
+---->
+|-
+| <code><nowiki>{{Tl|1==)}}</nowiki></code>
+| {{Tl|1==)}}
+|}
+
+===See also===
+{{Tl-nav}}
+
+
+<includeonly>
+[[Category:Internal link templates]]
+
+</includeonly>
