@@ -1,0 +1,18 @@
+{{user other|
+|1={{Ombox
+|type = notice
+|image = [[File:Essay.svg|50px|link=]]
+|text = <div>
+This is {{#if:{{{list|}}}|a|the}} user sandbox of '''[[{{NAMESPACE}}:{{{1|{{BASEPAGENAMEE}}}}}|{{{1|{{BASEPAGENAME}}}}}]]'''.  A user sandbox is a subpage of the user's [[Wikipedia:User pages|user page]]. It serves as a testing spot and page development space for the user and is '''not an encyclopedia article'''. {{#ifeq:{{{plain|}}}|all|<!--blank-->|<small>For a sandbox of your own, [{{fullurl:Special:MyPage/sandbox|action=edit&preload=Template:User_sandbox/preload}} create it here].</small>}}{{#if:{{{list|}}}|<p>This user's sandboxes: {{{list}}}}}</p>{{#if:{{{plain|}}}|<!--blank-->|<p>Other sandboxes: [[Wikipedia:Sandbox|Main sandbox]] &#x7c; [[Wikipedia:Tutorial/Editing/sandbox|Tutorial sandbox 1]], [[Wikipedia:Tutorial/Formatting/sandbox|2]], [[Wikipedia:Tutorial (Wikipedia links)/sandbox|3]], [[Wikipedia:Tutorial/Wikipedia links/sandbox|4]], [[Wikipedia:Tutorial/Keep in mind/sandbox|5]] {{!}} [[Template:Template sandbox|Template sandbox]]</p>}}
+</div>
+{{#if:{{{selectskin|<noinclude>-</noinclude>}}}|<div style="font-size:x-small; text-align:center;">{{selectskin}}</div>}}
+If you are writing an article, and are ready to request its creation, [{{fullurl:{{FULLPAGENAME}}|action=edit&section=new&preload=Template:AFC_submission/Subst&preloadtitle=Request%20review%20at%20%5B%5BWP:AFC%5D%5D}} '''click here'''].
+{{#ifeq:{{{noindex|yes}}}|yes| __NOINDEX__ }}
+}}
+|2={{error|This sandbox is in the {{#if:{{NAMESPACE}}|{{NAMESPACE}}|article}} namespace. Either [[Special:MovePage/{{FULLPAGENAME}}|move]] this page into your [[WP:Userpages|userspace]], or remove the {{tp|User sandbox}} template.}}
+|demospace={{{demospace|<noinclude>user</noinclude>}}}}}<noinclude>
+
+{{documentation}}
+
+<!--Categories and interwikis go on the /doc subpage.-->
+</noinclude>
