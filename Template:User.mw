@@ -1,8 +1,19 @@
-{{user-multi<noinclude>/template</noinclude>
- |Project={{{2|{{{Project|}}}}}}
- |User={{{1|{{{User|}}}}}}
- |separator={{{separator|dot}}}
- |1=t
- |2=c
- |doc=yes
-}}
+[[User:{{{1}}}|{{{1}}}]] ([[User talk:{{{1}}}Wadahadal]] • [[Special:Contributions/{{{1}}}|Qoraallaha]])<noinclude>
+== Adeegso ==
+Habkaan u adeegso:
+<pre>
+{{User|Magaca gudagalaha}}
+</pre>
+Tusaale:
+<pre>
+{{User|Abshirdheere}}
+</pre>
+Waxaa kuu soo baxaysa sidaan
+{{User|Abshirdheere}}
+
+[[Category:Isku-xire]]
+
+[[es:Plantilla:User]]
+[[it:Template:User]]
+[[sv:Mall:Användarnamn]]
+</noinclude>
