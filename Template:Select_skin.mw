@@ -1,0 +1,9 @@
+{{#if:{{{view|}}}|View {{#if:{{{1|}}}|[[{{{1}}}]]|this page}} in the [[WP:Skin|skin]]:&ensp;}}<span class="noprint plainlinks nowraplinks" style="{{{style|}}}">{{flatlist|
+* [{{fullurl:{{{1|{{FULLPAGENAME}}}}}|useskin=cologneblue}} {{int:skinname-cologneblue}}]
+* [{{fullurl:{{{1|{{FULLPAGENAME}}}}}|useskin=modern}} {{int:skinname-modern}}]
+* [{{fullurl:{{{1|{{FULLPAGENAME}}}}}|useskin=monobook}} {{int:skinname-monobook}}]
+* [{{fullurl:{{{1|{{FULLPAGENAME}}}}}|useskin=vector}} {{int:skinname-vector}}]
+}}</span><noinclude>
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
