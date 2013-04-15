@@ -1,4 +1,4 @@
-{{#if:{{{image|}}}|<div style="float:left;margin-right:0.5em;">
+{{#if:{{{image|}}}|<div style="float:right;margin-right:0.5em;">
 [[{{#ifexist:media:{{{image}}}|file:{{{image}}}|{{{image}}}}}|{{#if:{{{already|}}}|{{{already}}}|100x100px}}|{{noyes|{{{size|}}}|yes=size}}|{{{title}}}|alt={{#if:{{{allowance|}}}|{{{allowance}}}|{{{title}}}}}|Link={{#if:{{{Link|}}}|{{#ifexist:media:{{{Link}}}|file:{{{Link}}}|{{{Link}}}}}|{{#ifexist:media:{{{image}}}|file:{{{image}}}|{{{image}}}}}}}]]
 </div>}}<noinclude>
 [[Category:Template]]
