@@ -4,7 +4,7 @@ Please don't change this page! If you'd like to write a new topic, use the secon
 -->
 {|class=messagebox style=padding:1px
 |align=center|[[file:Gnome-devel.svg|link=|30px]]
-|style=text-align:center|Qaybtaan waxaa looga hadlaa hadii ay jiraan wax dhib ah oo xagga farsadamada ah.<br />'''{{D|1=[{{SERVER}}{{localurl:Wikipedia:Goob/Farsamo/{{CURRENTMONTH}}/{{CURRENTMONTH}}|action=edit&section=new}} Ku dar war cusub] {{·}} [[Wikipedia:Goob/Kayd/Farsamo|Kayd]] {{·}} [[Wikipedia:Maamulka|Maamulka]]}}'''
+|style=text-align:center|Qaybtaan waxaa looga hadlaa hadii ay jiraan wax dhib ah oo xagga farsadamada ah.<br />'''{{D|1=[{{SERVER}}{{localurl:Wikipedia:Goob/Farsamo/{{CURRENTMONTH}}/{{CURRENTYEAR}}|action=edit&section=new}} Ku dar war cusub] {{·}} [[Wikipedia:Goob/Kayd/Farsamo|Kayd]] {{·}} [[Wikipedia:Maamulka|Maamulka]]}}'''
 |}
 __toc__
 {{#ifexist:Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}|{{Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}}}}}
