@@ -1,13 +1,19 @@
+<!-- Fadlan boggaan waxba haka bedelin hadii aad dooneeyso inaad wax ku qorto jadwalka hoose adeegso ee isla boggaan.
+
 Please don't change this page! If you'd like to write a new topic, use the second link from the box.
 -->
 {|class=messagebox style=padding:1px
-|align=center|[[file:Gnome-devel.svg|Link|30px]]
-|style=text-align:center|Qaybtaan waxaa looga hadlaa hadii ay jiraan wax dhib ah oo xagga farsadamada ah.<br />'''{{d|1=[{{SERVER}}{{localurl:Wikipedia:Goob/Farsamo/{{CURRENTMONTH}}/{{CURRENTYEAR}}|action=edit&section=new}} Halkaan uga dar mowduuca cusub] {{·}} [[Wikipedia:Goob/Kayd/Farsamo|Kayda]] {{·}} [[Wikipedia:Maamulka|Maamulka]]}}'''
+|align=center|[[file:Gnome-devel.svg|link=|30px]]
+|style=text-align:center|Qaybtaan waxaa looga hadlaa hadii ay jiraan wax dhib ah oo xagga farsadamada ah.<br />'''{{D|1=[{{SERVER}}{{localurl:Wikipedia:Goob/Farsamo/{{CURRENTMONTH}}/{{CURRENTMONTH}}|action=edit&section=new}} Ku dar war cusub] {{·}} [[Wikipedia:Goob/Kayd/Farsamo|Kayd]] {{·}} [[Wikipedia:Maamulka|Maamulka]]}}'''
 |}
-
+__toc__
 {{#ifexist:Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}|{{Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}}}}}
 {{#ifexist:Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}}}}/{{CURRENTYEAR}}|{{Wikipedia:Goob/Farsamo/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}}}}/{{CURRENTYEAR}}}}}}
 
 <noinclude>
 
-[[Category:Template]]
+[[Category:Goob]]
+
+[[es:Wikipedia:Café/Portal/Archivo/Técnica/Actual]]
+[[ka:ვიკიპედია:ყავახანა/ტექნიკური საკითხები]]
+[[mk:Википедија:Селска чешма (Техника)]]
