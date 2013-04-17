@@ -1,0 +1,21 @@
+<!-- Fadlan boggaan waxba haka bedelin hadii aad dooneeyso inaad wax ku qorto jadwalka hoose adeegso ee isla boggaan.
+
+Please don't change this page! If you'd like to write a new topic, use the second link from the box.
+-->
+{|class=messagebox style=padding:1px
+|align=center|[[file:Stock volume.svg|link=|30px]]
+|style=text-align:center|Goobtaan waxaa lagu soo qaataa ogeeyesiiska iyo wararka.<br />'''{{D|1=[{{SERVER}}{{localurl:Wikipedia:Goob/Wararka/{{CURRENTMONTH}}/{{CURRENTYEAR}}|action=edit&section=new}} Ku darso mowduuc cusub] {{·}} [[Wikipedia:Goob/Kayd/Wararka|Kaydka]]}}'''
+|}
+__toc__
+
+{{#ifexist:Wikipedia:Goob/Wararka/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}|{{Wikipedia:Goob/Wararka/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}/{{ #time:Y|{{CURRENTYEAR}}-{{CURRENTMONTH}} -1 month}}}}}}
+{{#ifexist:Wikipedia:Goob/Wararka/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}}}}/{{CURRENTYEAR}}|{{Wikipedia:Goob/Wararka/{{ #time:m|{{CURRENTYEAR}}-{{CURRENTMONTH}}}}/{{CURRENTYEAR}}}}}}
+<noinclude>
+
+[[Category:Goob]]
+
+[[ar:ويكيبيديا:الميدان/أخبار]]
+[[an:Wikipedia:Tabierna/Noticias]]
+[[es:Wikipedia:Café/Portal/Archivo/Noticias/Actual]]
+[[mk:Википедија:Селска чешма (Новости)]]
+</noinclude>
