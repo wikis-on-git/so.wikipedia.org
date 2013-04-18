@@ -1,0 +1,4 @@
+<div style="clear: both;"></div> 
+<div style="border: 1px solid {{{border}}}; background: {{{titlebackground}}}; color: {{{titleforeground}}}; padding: .1em; text-align: center; font-weight: bold; font-size: 100%; margin-bottom: 0px; border-bottom: none;"><span class="plainlinks" style="float:left; margin-bottom:.1em; font-size:80%; font-weight: normal;">[{{fullurl:{{{editpage}}}|action=edit}} bedel]&nbsp;</span >{{{title}}}</div>
+<div style="display: block; border: 1px solid {{{border}}}; vertical-align: top; background: {{{background}}}; color: {{{foreground}}}; margin-bottom: 10px; padding: 1em; margin-top: 0em; padding-top: .3em;"><noinclude>
+[[Category:Template|{{PAGENAME}}]]</noinclude>
