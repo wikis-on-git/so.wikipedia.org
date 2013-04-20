@@ -1,0 +1,661 @@
+<noinclude><!--
+-=============================================================
+- CountryAbbr2 - Get country code by span flag image+wikilink
+-==============================================================
+-                       (see NOTES at bottom)
+-
+--></noinclude>{{{{{subst|}}}#switch: {{{1<noinclude>|{{USA}}</noinclude>}}}
+|
+| City | city
+  | State | state = unknown <!--catch invalid words-->
+| United States | <!--
+  --> {{country flag2|alias=United States | name=United States <!--
+      --> | flag alias=Flag of the United States.svg}}
+  | {{flagicon|USA}} [[United States]]=US-{{{{{subst|}}}StateAbbr|{{{2|New York}}}|subst={{{subst|}}}}}
+|{{{{{subst|}}}#if:{{{debug|}}}|??;{{{1|}}};{{{2|}}}|{{{{{subst|}}}CountryAbbr2/debug|subst={{{subst|}}}}}}}
+|
+| Canada | {{country flag2|alias=Canada | name=Canada<!--
+  --> | flag alias=Flag of Canada.svg}} =CA-{{CanAbbr2|{{{2|}}}}}
+|
+| United Kingdom | Great Britain | Britain
+  | England | {{country flag2|alias=England | name=England <!--
+  --> | flag alias=Flag of England.svg}}
+  | Wales | {{country flag2|alias=Wales | name=Wales<!--
+  --> | flag alias=Flag of Wales 2.svg}}
+  | Scotland | {{country flag2|alias=Scotland | name=Scotland<!--
+  --> | flag alias=Flag of Scotland.svg}}
+  | {{country flag2|alias=United Kingdom | name=United Kingdom <!--
+  --> | flag alias=Flag of the United Kingdom.svg}} =GB
+| Poland | [[Poland]] | {{flagicon|Poland}} [[Poland]] |<!--
+  --> {{country flag2|alias=Poland| name=Poland<!--
+  --> | flag alias=Flag of Poland.svg}} =PL
+| France | {{country flag2|alias=France | name=France <!--
+  --> | flag alias=Flag of France.svg}} =FR{{FraAbbr|{{{2|}}}}}
+| China| People's Republic of China
+  | {{country flag2 <!--
+  --> | alias=People's Republic of China <!--
+  --> | name=China <!--
+  --> | flag alias=Flag of the People's Republic of China.svg}}
+  | {{country flag2 <!--
+  --> | alias=People's Republic of China <!--
+  --> | name=People's Republic of China <!--
+  --> | flag alias=Flag of the People's Republic of China.svg}} =CN
+| Australia | {{country flag2|alias=Australia |name=Australia<!--
+  --> | flag alias=Flag of Australia.svg}} =AU
+| Germany | {{country flag2|alias=Germany | name=Germany <!--
+  --> | flag alias=Flag of Germany.svg}} =DE{{#switch:{{{2|}}}
+ |Baden-Wuerttemberg|Baden-Württemberg|[[Baden-Württemberg]]=-BW
+ |Bayern|Bavaria|[[Bavaria]]=-BY
+ |Berlin|[[Berlin]]=-BE
+ |Brandenburg|[[Brandenburg]]=-BB
+ |Bremen|[[Bremen]]=-HB
+ |Hamburg|[[Hamburg]]=-HH
+ |Hessen|Hesse|[[Hesse]]=-HE
+ |Mecklenburg-Vorpommern|Mecklenburg-Western Pomerania|Mecklenburg-Vorpommern|[[Mecklenburg-Western Pomerania]]=-MV
+ |Niedersachsen|Lower Saxony|[[Lower Saxony]]=-NI
+ |Nordrhein-Westfalen|NRW|North Rhine-Westphalia|[[North Rhine-Westphalia]]=-NW
+ |Rheinland-Pfalz|Rhineland-Palatinate|[[Rhineland-Palatinate]]=-RP
+ |Saarland|[[Saarland]]=-SL
+ |Sachsen-Anhalt|Saxony-Anhalt|[[Saxony-Anhalt]]=-ST
+ |Sachsen|Saxony|[[Saxony]]=-SN
+ |Schleswig-Holstein|[[Schleswig-Holstein]]=-SH
+ |Thüringen|Thuringia|[[Thuringia]]=-TH|}}
+| Austria | {{country flag2|alias=Austria | name=Austria<!--
+  --> | flag alias=Flag of Austria.svg}} =AT
+| Italy | {{country flag2|alias=Italy | name=Italy <!--
+  --> | flag alias=Flag of Italy.svg}} =IT
+| Spain | {{country flag2|alias=Spain | name=Spain <!--
+  --> | flag alias=Flag of Spain.svg}} =ES
+| Japan | {{country flag2|alias=Japan | name=Japan <!--
+  --> | flag alias=Flag of Japan.svg}} =JP
+| Netherlands|[[Netherlands]]|{{flagicon|NED}} [[Netherlands]]
+  | {{country flag2|alias=Netherlands | name=Netherlands<!--
+  --> | flag alias=Flag of the Netherlands.svg}} =NL
+| Brazil | [[Brazil]] | <!--
+  --> {{country flag2|alias=Brazil | name=Brazil<!--
+  --> | flag alias=Flag of Brazil.svg}} =BR
+| Sweden | {{country flag2|alias=Sweden | name=Sweden <!--
+  --> | flag alias=Flag of Sweden.svg}} =SE
+| Czech Republic | [[Czech Republic]] | {{country flag2<!--
+  --> | alias=Czech Republic | name=Czech Republic<!--
+  --> | flag alias=Flag of the Czech Republic.svg}} =CZ
+| India | {{country flag2|alias=India | name=India<!--
+  --> | flag alias=Flag of India.svg}} =IN-{{IndAbbr|{{{2|}}}}}
+| Argentina | {{country flag2|alias=Argentina | name=Argentina<!--
+  --> | flag alias=Flag of Argentina.svg}} =AR
+| New Zealand | {{country flag2 <!--
+  --> | alias=New Zealand | name=New Zealand<!--
+  --> | flag alias=Flag of New Zealand.svg}} =NZ
+| Philippines | Phillipines | {{flag|Philippines}} | {{country flag2 <!--
+  --> | alias=Philippines | name=Philippines<!--
+  --> | flag alias=Flag of Philippines.svg}} =PH
+| Belgium | {{country flag2|alias=Belgium | name=Belgium<!--
+  --> | flag alias=Flag of Belgium (civil).svg}} =BE
+| Russia | {{country flag2|alias=Russia | name=Russia <!--
+  --> | flag alias=Flag of Russia.svg}} =RU
+| Nepal | {{flag|Nepal}} | {{country flag2|alias=Nepal | name=Nepal <!--
+  --> | flag alias=Flag of Nepal.svg}} =NP
+| Denmark | {{country flag2|alias=Denmark | name=Denmark<!--
+  --> | flag alias=Flag of Denmark.svg}} =DK
+| Finland | {{country flag2|alias=Finland | name=Finland<!--
+  --> | flag alias=Flag of Finland.svg}} =FI
+| Hungary | {{country flag2|alias=Hungary | name=Hungary <!--
+  --> | flag alias=Flag of Hungary.svg}} =HU
+| United Arab Emirates | {{country flag2 <!--
+  --> | alias=United Arab Emirates | name=United Arab Emirates<!--
+  --> | flag alias=Flag of the United Arab Emirates.svg}} =AE
+| Greece | {{country flag2|alias=Greece | name=Greece <!--
+  --> | flag alias=Flag of Greece.svg}} =GR
+|
+| Albania | {{country flag2|alias=Albania | name=Albania<!--
+  --> | flag alias=Flag of Albania.svg}} =AL
+| Bulgaria | {{country flag2|alias=Bulgaria | name=Bulgaria<!--
+  --> | flag alias=Flag of Bulgaria.svg}} =BG
+| Armenia | {{country flag2|alias=Armenia | name=Armenia<!--
+  --> | flag alias=Flag of Armenia.svg}} =AM
+| Afghanistan | {{country flag2 <!--
+  --> | alias=Afghanistan | name=Afghanistan<!--
+  --> | flag alias=Flag of Afghanistan.svg}} =AF
+| Azerbaijan| {{country flag2|alias=Azerbaijan| name=Azerbaijan<!--
+  --> | flag alias=Flag of Azerbaijan.svg}} =AZ
+| Andorra | {{country flag2|alias=Andorra | name=Andorra<!--
+  --> | flag alias=Flag of Andorra.svg}} =AD
+| Angola | {{country flag2|alias=Angola | name=Angola<!--
+  --> | flag alias=Flag of Angola.svg}} =AO
+| Korea | {{country flag2|alias=Korea | name=Korea<!--
+  --> | flag alias=Flag of Korea.svg}} =KR
+| Mexico | {{country flag2|alias=Mexico | name=Mexico<!--
+  --> | flag alias=Flag of Mexico.svg}} =MX
+| Colombia | {{country flag2|alias=Colombia| name=Colombia<!--
+  --> | flag alias=Flag of Colombia.svg}} =CO
+| Chile | {{country flag2|alias=Chile | name=Chile <!--
+  --> | flag alias=Flag of Chile.svg}} =CL
+|
+| Antigua and Barbuda | {{country flag2 <!--
+  --> | alias=Antigua and Barbuda| name=Antigua and Barbuda<!--
+  --> | flag alias=Flag of Antigua and Barbuda.svg}} =AG
+| Croatia | {{country flag2|alias=Croatia | name=Croatia<!--
+  --> | flag alias=Flag of Croatia.svg}} =HR
+|
+| Netherlands Antilles | {{country flag2 <!--
+  --> | alias=Netherlands Antilles |name=Netherlands Antilles<!--
+  --> | flag alias=Flag of the Netherlands Antilles.svg}} =AN
+| Curaçao | Curacao | {{country flag2 <!--
+  --> | alias=Curaçao | name=Curaçao<!--
+  --> | flag alias=Flag of Curaçao.svg}} =AN
+| South Africa | {{country flag2 <!--
+  --> | alias=South Africa | name=South Africa<!--
+  --> | flag alias=Flag of South Africa.svg}} =ZA
+| Bosnia and Herzegovina | {{country flag2 <!--
+  --> | alias=Bosnia and Herzegovina <!--
+  --> | name=Bosnia and Herzegovina<!--
+  --> | flag alias=Flag of Bosnia and Herzegovina.svg}} =BA
+| Bangladesh | {{country flag2 <!--
+  --> | alias=Bangladesh | name=Bangladesh<!--
+  --> | flag alias=Flag of Bangladesh.svg}} =BD
+| Bahrain | {{country flag2|alias=Bahrain | name=Bahrain<!--
+  --> | flag alias=Flag of Bahrain.svg}} =BH
+| Burundi | {{country flag2|alias=Burundi | name=Burundi<!--
+  --> | flag alias=Flag of Burundi.svg}} =BI
+| Benin | {{country flag2|alias=Benin | name=Benin<!--
+  --> | flag alias=Flag of Benin.svg}} =BJ
+| Saint Barthélemy=BL
+| Bermuda | {{country flag2|alias=Bermuda | name=Bermuda<!--
+  --> | flag alias=Flag of Bermuda.svg}} =BM
+| Brunei | {{country flag2|alias=Brunei | name=Brunei<!--
+  --> | flag alias=Flag of Brunei.svg}} =BN
+| Bolivia | {{country flag2|alias=Bolivia | name=Bolivia<!--
+  --> | flag alias=Flag of Bolivia.svg}} =BO
+| Bahamas | {{country flag2|alias=Bahamas | name=Bahamas<!--
+  --> | flag alias=Flag of the Bahamas.svg}} =BS
+| Bhutan | {{country flag2|alias=Bhutan | name=Bhutan<!--
+  --> | flag alias=Flag of Bhutan.svg}} =BT
+| Bouvet Island=BV
+| Botswana | {{country flag2|alias=Botswana | name=Botswana<!--
+  --> | flag alias=Flag of Botswana.svg}} =BW
+| Belarus | {{country flag2|alias=Belarus | name=Belarus<!--
+  --> | flag alias=Flag of Belarus.svg}} =BY
+| Belize | {{country flag2|alias=Belize | name=Belize<!--
+  --> | flag alias=Flag of Belize.svg}} =BZ
+| Cocos (Keeling) Islands=CC
+| Democratic Republic of the Congo | {{country flag2 <!--
+  --> | alias=Democratic Republic of the Congo <!--
+  --> | name=Democratic Republic of the Congo <!--
+  --> | flag alias= <!--
+  -->     Flag of the Democratic Republic of the Congo.svg}} =CD
+|
+| Central African Republic | {{country flag2 <!--
+  --> | alias=Central African Republic <!--
+  --> | name=Central African Republic<!--
+  --> | flag alias=Flag of the Central African Republic.svg}} =CF
+|
+| Republic of the Congo | {{country flag2 <!--
+  --> | alias=Republic of the Congo <!--
+  --> | name=Republic of the Congo <!--
+  --> | flag alias=Flag of the Republic of the Congo.svg}} =CG
+|
+| Switzerland |{{CHE}}<!--simple template of image+name
+  --> =CH<!--
+  -->{{#ifeq:{{{2|}}}|Schwyz|-SZ}}
+| Côte d'Ivoire | |{{flag|Côte d'Ivoire}} | {{country flag2 <!--
+  --> | alias=Côte d'Ivoire | name=Côte d'Ivoire<!--
+  --> | flag alias=Flag of Côte d'Ivoire.svg}} =CI
+| Cook Islands | {{country flag2<!--
+  --> | alias=Cook Islands | name=Cook Islands<!--
+  --> | flag alias=Flag of the Cook Islands.svg}} =CK
+| Cameroon | {{country flag2|alias=Cameroon| name=Cameroon<!--
+  --> | flag alias=Flag of Cameroon.svg}} =CM
+| Costa Rica | {{country flag2|alias=Costa Rica| name=Costa Rica<!--
+  --> | flag alias=Flag of Costa Rica.svg}} =CR
+| Cuba | {{country flag2|alias=Cuba | name=Cuba <!--
+  --> | flag alias=Flag of Cuba.svg}} =CU
+| Cape Verde=CV
+| Christmas Island=CX
+| Cyprus | {{country flag2|alias=Cyprus | name=Cyprus<!--
+  --> | flag alias=Flag of Cyprus.svg}} =CY
+| Djibouti | {{country flag2|alias=Djibouti | name=Djibouti<!--
+  --> | flag alias=Flag of Djibouti.svg}} =DJ
+| Dominica=DM
+| Dominican Republic | {{country flag2 <!--
+  --> | alias=Dominican Republic | name=Dominican Republic<!--
+  --> | flag alias=Flag of the Dominican Republic.svg}} =DO
+| Algeria | {{country flag2|alias=Algeria | name=Algeria<!--
+  --> | flag alias=Flag of Algeria.svg}} =DZ
+| Ecuador | {{country flag2|alias=Ecuador | name=Ecuador<!--
+  --> | flag alias=Flag of Ecuador.svg}} =EC
+| Estonia | {{country flag2|alias=Estonia | name=Estonia<!--
+  --> | flag alias=Flag of Estonia.svg}} =EE
+| Western Sahara=EH
+| Eritrea | {{country flag2|alias=Eritrea | name=Eritrea<!--
+  --> | flag alias=Flag of Eritrea.svg}} =ER
+| Ethiopia | {{country flag2|alias=Ethiopia | name=Ethiopia<!--
+  --> | flag alias=Flag of Ethiopia.svg}} =ET
+| Fiji | {{country flag2|alias=Fiji | name=Fiji<!--
+  --> | flag alias=Flag of Fiji.svg}} =FJ
+| Falkland Islands | {{country flag2 <!--
+  --> | alias=Falkland Islands | name=Falkland Islands<!--
+  --> | flag alias=Flag of the Falkland Islands.svg}} =FK
+| Federated States of Micronesia | {{country flag2<!--
+  --> | alias=Federated States of Micronesia <!--
+  --> | name=Federated States of Micronesia <!--
+  --> | flag alias=Flag of Federated States of Micronesia.svg}} =FM
+| Faroe Islands=FO
+| Gabon | {{country flag2|alias=Gabon | name=Gabon <!--
+  --> | flag alias=Flag of Gabon.svg}} =GA
+| Grenada | {{country flag2|alias=Grenada | name=Grenada<!--
+  --> | flag alias=Flag of Grenada.svg}} =GD
+| Georgia | {{GEO}} | {{country flag2|alias=Georgia | name=Georgia<!--
+  --> | flag alias=Flag of Georgia.svg}} =GE
+| French Guiana=GF
+| Guernsey=GG
+| Guernsey | {{country flag2|alias=Guernsey| name=Guernsey<!--
+  --> | flag alias=Flag of Guernsey.svg}} =GG
+| Ghana | {{country flag2|alias=Ghana | name=Ghana<!--
+  --> | flag alias=Flag of Ghana.svg}} =GH
+| Gibraltar | {{country flag2|alias=Gibraltar | name=Gibraltar<!--
+  --> | flag alias=Flag of Gibraltar.svg}} =GI
+| Greenland | {{country flag2|alias=Greenland| name=Greenland<!--
+  --> | flag alias=Flag of Greenland.svg}} =GL
+| Gambia| The Gambia | {{flag|Gambia}} | {{flag|The Gambia}} | {{country flag2 <!--
+  --> | alias=Gambia | name=Gambia<!--
+  --> | flag alias=Flag of Gambia.svg}} =GM
+| Guinea | {{country flag2|alias=Guinea | name=Guinea<!--
+  --> | flag alias=Flag of Guinea.svg}} =GN
+| Guadeloupe | {{country flag2|alias=Guadeloupe| name=Guadeloupe<!--
+  --> | flag alias=Flag of Guadeloupe.svg}} =GP
+| Equatorial Guinea | {{flag|Equatorial Guinea}} =GQ
+| South Georgia and the South Sandwich Islands=GS
+| Guatemala | {{country flag2|alias=Guatemala| name=Guatemala<!--
+  --> | flag alias=Flag of Guatemala.svg}} =GT
+| Guam | {{country flag2|alias=Guam | name=Guam <!--
+  --> | flag alias=Flag of Guam.svg}} =GU
+| Guinea-Bissau=GW
+| Guyana | {{country flag2|alias=Guyana | name=Guyana<!--
+  --> | flag alias=Flag of Guyana.svg}} =GY
+| Hong Kong | {{country flag2|alias=Hong Kong| name=Hong Kong<!--
+  --> | flag alias=Flag of Hong Kong.svg}} =HK
+| Honduras | {{country flag2|alias=Honduras| name=Honduras<!--
+  --> | flag alias=Flag of Honduras.svg}} =HN
+| Haiti | {{country flag2|alias=Haiti | name=Haiti <!--
+  --> | flag alias=Flag of Haiti.svg}} =HT
+| Indonesia | {{country flag2|alias=Indonesia| name=Indonesia<!--
+  --> | flag alias=Flag of Indonesia.svg}} =ID
+| Ireland | {{country flag2 <!--
+  --> | alias=Republic of Ireland | name=Ireland<!--
+  --> | flag alias=Flag of Ireland.svg}} =IE
+| Israel | {{country flag2|alias=Israel | name=Israel<!--
+  --> | flag alias=Flag of Israel.svg}} =IL
+| Egypt | {{country flag2|alias=Egypt | name=Egypt<!--
+  --> | flag alias=Flag of Egypt.svg}} =EG
+| Isle of Man=IM
+| British Indian Ocean Territory=IO
+| Iraq | {{country flag2|alias=Iraq | name=Iraq<!--
+  --> | flag alias=Flag of Iraq.svg}} =IQ
+| Iran | {{country flag2|alias=Iran | name=Iran<!--
+  --> | flag alias=Flag of Iran.svg}} =IR
+| Iceland | {{country flag2|alias=Iceland | name=Iceland<!--
+  --> | flag alias=Flag of Iceland.svg}} =IS
+| Jersey | {{country flag2|alias=Jersey | name=Jersey<!--
+  --> | flag alias=Flag of Jersey.svg}} =JE
+| Jamaica | [[Jamaica]] | {{country flag2 <!--
+  --> | alias=Jamaica | name=Jamaica <!--
+  --> | flag alias=Flag of Jamaica.svg}} =JM
+| Jordan | {{country flag2|alias=Jordan | name=Jordan<!--
+  --> | flag alias=Flag of Jordan.svg}} =JO
+| Kenya | {{country flag2|alias=Kenya | name=Kenya<!--
+  --> | flag alias=Flag of Kenya.svg}} =KE
+| Kyrgyzstan |{{country flag2 <!--
+  --> | alias=Kyrgyzstan | name=Kyrgyzstan<!--
+  --> | flag alias=Flag of Kyrgyzstan.svg}} =KG
+| Cambodia | {{country flag2|alias=Cambodia| name=Cambodia<!--
+  --> | flag alias=Flag of Cambodia.svg}} =KH
+| Kiribati=KI
+| Comoros | {{flag|Comoros}} | {{country flag2|alias=Comoros | name=Comoros<!--
+  --> | flag alias=Flag of Comoros.svg}} =KM
+| Saint Kitts and Nevis=KN
+| North Korea | {{country flag2 <!--
+  --> | alias=North Korea | name=North Korea<!--
+  --> | flag alias=Flag of North Korea.svg}} =KP
+| Kuwait | {{country flag2|alias=Kuwait | name=Kuwait<!--
+  --> | flag alias=Flag of Kuwait.svg}} =KW
+| Cayman Islands | {{country flag2 <!--
+  --> | alias=Cayman Islands | name=Cayman Islands<!--
+  --> | flag alias=Flag of Cayman Islands.svg}} =KY
+| Kazakhstan | {{country flag2 <!--
+  --> | alias=Kazakhstan | name=Kazakhstan<!--
+  --> | flag alias=Flag of Kazakhstan.svg}} =KZ
+| Laos | {{country flag2|alias=Laos | name=Laos<!--
+  --> | flag alias=Flag of Laos.svg}} =LA
+| Lebanon | {{country flag2|alias=Lebanon | name=Lebanon<!--
+  --> | flag alias=Flag of Lebanon.svg}} =LB
+| Saint Lucia=LC
+| Liechtenstein | {{country flag2 <!--
+  --> | alias=Liechtenstein | name=Liechtenstein<!--
+  --> | flag alias=Flag of Liechtenstein.svg}} =LI
+| Sri Lanka | {{country flag2 <!--
+  --> | alias=Sri Lanka | name=Sri Lanka<!--
+  --> | flag alias=Flag of Sri Lanka.svg}} =LK
+| Liberia | {{country flag2|alias=Liberia | name=Liberia<!--
+  --> | flag alias=Flag of Liberia.svg}} =LR
+| Lesotho | {{country flag2|alias=Lesotho | name=Lesotho<!--
+  --> | flag alias=Flag of Lesotho.svg}} =LS
+| Lithuania| {{country flag2 <!--
+  --> | alias=Lithuania | name=Lithuania<!--
+  --> | flag alias=Flag of Lithuania.svg}} =LT
+| Luxembourg| {{country flag2 <!--
+  --> | alias=Luxembourg | name=Luxembourg<!--
+  --> | flag alias=Flag of Luxembourg.svg}} =LU
+| Latvia | {{country flag2|alias=Latvia | name=Latvia<!--
+  --> | flag alias=Flag of Latvia.svg}} =LV
+| Libya | {{country flag2|alias=Libya | name=Libya<!--
+  --> | flag alias=Flag of Libya.svg}} =LY
+| Morocco | {{country flag2|alias=Morocco| name=Morocco<!--
+  --> | flag alias=Flag of Morocco.svg}} =MA
+| Monaco | {{country flag2|alias=Monaco | name=Monaco<!--
+  --> | flag alias=Flag of Monaco.svg}} =MC
+| Moldova | {{country flag2|alias=Moldova | name=Moldova<!--
+  --> | flag alias=Flag of Moldova.svg}} =MD
+| Montenegro | {{country flag2 <!--
+  --> | alias=Montenegro | name=Montenegro<!--
+  --> | flag alias=Flag of Montenegro.svg}} =ME
+| Saint Martin | {{country flag2 <!--
+  --> |alias=Saint Martin | name=Saint Martin<!--
+  --> | flag alias=Flag of Saint Martin.svg}} =MF
+| Madagascar | {{country flag2 <!--
+  --> | alias=Madagascar | name=Madagascar<!--
+  --> | flag alias=Flag of Madagascar.svg}} =MG
+| Marshall Islands=MH
+| Macedonia | {{MKD}} | {{country flag2 <!--
+  --> | alias=Macedonia  | name=Macedonia <!--
+  --> | flag alias=Flag of Macedonia .svg}} =MK
+| Mali | {{country flag2|alias=Mali | name=Mali<!--
+  --> | flag alias=Flag of Mali.svg}} =ML
+| Myanmar| Burma
+  | {{country flag2|alias=Myanmar | name=Myanmar<!--
+  --> | flag alias=Flag of Myanmar.svg}} =MM
+| Mongolia | {{country flag2|alias=Mongolia | name=Mongolia<!--
+  --> | flag alias=Flag of Mongolia.svg}} =MN
+| Macau | {{country flag2|alias=Macau | name=Macau<!--
+  --> | flag alias=Flag of Macau.svg}} =MO
+| Northern Mariana Islands | {{country flag2 <!--
+  --> | alias=Northern Mariana Islands <!--
+  --> | name=Northern Mariana Islands <!--
+  --> | flag alias=Flag of Northern Mariana Islands.svg}} =MP
+| Martinique | {{country flag2 <!--
+  --> | alias=Martinique | name=Martinique<!--
+  --> | flag alias=Flag of Martinique.svg}} =MQ
+| Mauritania| {{country flag2 <!--
+  --> | alias=Mauritania| name=Mauritania<!--
+  --> | flag alias=Flag of Mauritania.svg}} =MR
+| Montserrat=MS
+| Malta | {{country flag2|alias=Malta | name=Malta<!--
+  --> | flag alias=Flag of Malta.svg}} =MT
+| Mauritius | {{flag|Mauritius}} =MU
+| Maldives | {{country flag2|alias=Maldives| name=Maldives<!--
+  --> | flag alias=Flag of Maldives.svg}} =MV
+| Malawi| {{country flag2|alias=Malawi | name=Malawi<!--
+  --> | flag alias=Flag of Malawi.svg}} =MW
+| Malaysia| {{flag|Malaysia}} | {{country flag2|alias=Malaysia| name=Malaysia<!--
+  --> | flag alias=Flag of Malaysia.svg}} =MY
+| Mozambique | {{country flag2 <!--
+  --> | alias=Mozambique | name=Mozambique<!--
+  --> | flag alias=Flag of Mozambique.svg}} =MZ
+| Namibia | {{country flag2|alias=Namibia| name=Namibia<!--
+  --> | flag alias=Flag of Namibia.svg}} =NA
+| New Caledonia=NC
+| Niger | {{country flag2|alias=Niger | name=Niger<!--
+  --> | flag alias=Flag of Niger.svg}} =NE
+| Norfolk Island=NF
+| Nigeria | {{country flag2|alias=Nigeria| name=Nigeria<!--
+  --> | flag alias=Flag of Nigeria.svg}} =NG
+| Nicaragua | {{country flag2 <!--
+  --> | alias=Nicaragua | name=Nicaragua<!--
+  --> | flag alias=Flag of Nicaragua.svg}} =NI
+| Norway | {{country flag2|alias=Norway | name=Norway<!--
+  --> | flag alias=Flag of Norway.svg}} =NO
+| Nauru | {{country flag2|alias=Nauru | name=Nauru<!--
+  --> | flag alias=Flag of Nauru.svg}} =NR
+| Niue=NU
+| Oman | {{country flag2|alias=Oman | name=Oman<!--
+  --> | flag alias=Flag of Oman.svg}} =OM
+| Panama | {{country flag2|alias=Panama | name=Panama<!--
+  --> | flag alias=Flag of Panama.svg}} =PA
+| Peru | {{country flag2|alias=Peru | name=Peru <!--
+  --> | flag alias=Flag of Peru.svg}} =PE
+| French Polynesia=PF
+| Papua New Guinea=PG
+| Pakistan | {{country flag2|alias=Pakistan | name=Pakistan<!--
+  --> | flag alias=Flag of Pakistan.svg}} =PK
+| Saint Pierre and Miquelon=PM
+| Pitcairn Islands=PN
+| Puerto Rico | {{country flag2 <!--
+  --> | alias=Puerto Rico | name=Puerto Rico<!--
+  --> | flag alias=Flag of Puerto Rico.svg}} =PR
+| Palestinian Authority
+| Palestine | {{country flag2|alias=Palestine | name=Palestine<!--
+  --> | flag alias=Flag of Palestine.svg}} =PS
+| Portugal | {{country flag2|alias=Portugal | name=Portugal<!--
+  --> | flag alias=Flag of Portugal.svg}} =PT
+| Palau | {{country flag2|alias=Palau | name=Palau<!--
+  --> | flag alias=Flag of Palau.svg}} =PW
+| Paraguay | {{country flag2|alias=Paraguay | name=Paraguay<!--
+  --> | flag alias=Flag of Paraguay.svg}} =PY
+| Qatar | {{country flag2|alias=Qatar | name=Qatar<!--
+  --> | flag alias=Flag of Qatar.svg}} =QA
+| Réunion=RE
+| Romania | {{country flag2|alias=Romania | name=Romania <!--
+  --> | flag alias=Flag of Romania.svg}} =RO
+| Serbia | {{country flag2|alias=Serbia | name=Serbia <!--
+  --> | flag alias=Flag of Serbia.svg}} =RS
+| Rwanda | {{country flag2|alias=Rwanda | name=Rwanda<!--
+  --> | flag alias=Flag of Rwanda.svg}} =RW
+| Saudi Arabia | {{country flag2 <!--
+  --> | alias=Saudi Arabia | name=Saudi Arabia<!--
+  --> | flag alias=Flag of Saudi Arabia.svg}} =SA
+| Solomon Islands | {{country flag2 <!--
+  --> | alias=Solomon Islands | name=Solomon Islands<!--
+  --> | flag alias=Flag of the Solomon Islands.svg}} =SB
+| Seychelles | {{country flag2 <!--
+  --> | alias=Seychelles| name=Seychelles<!--
+  --> | flag alias=Flag of Seychelles.svg}} =SC
+| Sudan  | {{country flag2|alias=Sudan | name=Sudan <!--
+  --> | flag alias=Flag of Sudan.svg}} =SD
+| Singapore | {{country flag2|alias=Singapore| name=Singapore<!--
+  --> | flag alias=Flag of Singapore.svg}} =SG
+| Saint Helena | {{country flag2 <!--
+  --> | alias=Saint Helena | name=Saint Helena<!--
+  --> | flag alias=Flag of Saint Helena.svg}} =SH
+| Slovenia | {{country flag2|alias=Slovenia | name=Slovenia<!--
+  --> | flag alias=Flag of Slovenia.svg}} =SI
+| Svalbard and Jan Mayen=SJ
+| Sierra Leone | {{country flag2 <!--
+  --> | alias=Sierra Leone | name=Sierra Leone<!--
+  --> | flag alias=Flag of Sierra Leone.svg}} =SL
+| San Marino | {{country flag2 <!--
+  --> | alias=San Marino | name=San Marino<!--
+  --> | flag alias=Flag of San Marino.svg}} =SM
+| Senegal | {{country flag2|alias=Senegal | name=Senegal<!--
+  --> | flag alias=Flag of Senegal.svg}} =SN
+| Soomaaliya | {{country flag2|alias=Soomaalyia | name=Soomaaliya<!--
+  --> | flag alias=Flag of Soomaaliya.svg}} =SO
+| Suriname | {{country flag2|alias=Suriname | name=Suriname<!--
+  --> | flag alias=Flag of Suriname.svg}} =SR
+| São Tomé and Príncipe=ST
+| El Salvador | {{country flag2 <!--
+  --> | alias=El Salvador | name=El Salvador <!--
+  --> | flag alias=Flag of El Salvador.svg}} =SV
+| Syria | {{country flag2|alias=Syria | name=Syria <!--
+  --> | flag alias=Flag of Syria.svg}} =SY
+| Swaziland | {{country flag2|alias=Swaziland| name=Swaziland<!--
+  --> | flag alias=Flag of Swaziland.svg}} =SZ
+| Turks and Caicos Islands=TC
+| Chad | {{country flag2|alias=Chad | name=Chad <!--
+  --> | flag alias=Flag of Chad.svg}} =TD
+| French Southern and Antarctic Lands=TF
+| Togo | {{country flag2|alias=Togo | name=Togo<!--
+  --> | flag alias=Flag of Togo.svg}} =TG
+| Thailand | {{country flag2|alias=Thailand| name=Thailand<!--
+  --> | flag alias=Flag of Thailand.svg}} =TH
+| Tajikistan | {{country flag2 <!--
+  --> | alias=Tajikistan | name=Tajikistan<!--
+  --> | flag alias=Flag of Tajikistan.svg}} =TJ
+| Tokelau | {{country flag2|alias=Tokelau | name=Tokelau<!--
+  --> | flag alias=Flag of Tokelau.svg}} =TK
+| Timor-Leste | {{TLS}} =TL
+| Turkmenistan | {{country flag2 <!--
+  --> | alias=Turkmenistan | name=Turkmenistan<!--
+  --> | flag alias=Flag of Turkmenistan.svg}} =TM
+| Tunisia | {{country flag2|alias=Tunisia | name=Tunisia<!--
+  --> | flag alias=Flag of Tunisia.svg}} =TN
+| Tonga | {{country flag2|alias=Tonga | name=Tonga<!--
+  --> | flag alias=Flag of Tonga.svg}} =TO
+| Turkey | {{country flag2|alias=Turkey | name=Turkey<!--
+  --> | flag alias=Flag of Turkey.svg}} =TR
+| Trinidad and Tobago | Trinidad | Tobago <!--
+  --> | {{country flag2 <!--
+  --> | alias=Trinidad and Tobago | name=Trinidad and Tobago<!--
+  --> | flag alias=Flag of Trinidad and Tobago.svg}} =TT
+| Tuvalu | {{country flag2|alias=Tuvalu | name=Tuvalu <!--
+  --> | flag alias=Flag of Tuvalu.svg}} =TV
+| Republic of China | {{ROC-TW}} | {{country flag2 <!--
+  --> | alias=Republic of China | name=Republic of China<!--
+  --> | flag alias=Flag of the Republic of China.svg}} =TW
+| Taiwan | {{country flag2 <!--
+  --> | alias=Republic of China | name=Taiwan <!--
+  --> | flag alias=Flag of the Republic of China.svg}} =TW
+| Tanzania | {{country flag2|alias=Tanzania| name=Tanzania<!--
+  --> | flag alias=Flag of Tanzania.svg}} =TZ
+| Ukraine | {{UKR}} | {{country flag2|alias=Ukraine | name=Ukraine<!--
+  --> | flag alias=Flag of Ukraine.svg}} =UA
+| Uganda | {{country flag2|alias=Uganda | name=Uganda<!--
+  --> | flag alias=Flag of Uganda.svg}} =UG
+| United States Minor Outlying Islands=UM
+| Uruguay | {{country flag2|alias=Uruguay | name=Uruguay<!--
+  --> | flag alias=Flag of Uruguay.svg}} =UY
+| Uzbekistan | {{country flag2 <!--
+  --> | alias=Uzbekistan | name=Uzbekistan<!--
+  --> | flag alias=Flag of Uzbekistan.svg}} =UZ
+| Vatican City | {{country flag2 <!--
+  --> | alias=Vatican City | name=Vatican City <!--
+  --> | flag alias=Flag of the Vatican City.svg}} = VA
+| Saint Vincent
+| Saint Vincent and the Grenadines | {{country flag2 <!--
+  -->| alias=Saint Vincent and the Grenadines <!--
+  -->| name=Saint Vincent and the Grenadines <!--
+  -->|flag alias=Flag of Saint Vincent and the Grenadines.svg}}=VC
+|
+| Venezuela | {{country flag2|alias=Venezuela| name=Venezuela<!--
+  --> | flag alias=Flag of Venezuela.svg}} =VE
+| British Virgin Islands | {{country flag2 <!--
+  -->| alias=British Virgin Islands <!--
+  -->| name=British Virgin Islands <!--
+  -->| flag alias=Flag of the British Virgin Islands.svg}}=VG
+| United States Virgin Islands | {{country flag2 <!--
+  -->| alias=United States Virgin Islands <!--
+  -->| name=United States Virgin Islands <!--
+  -->| flag alias=Flag of the United States Virgin Islands.svg}}=VI
+|
+| Vietnam | {{country flag2|alias=Vietnam | name=Vietnam<!--
+  --> | flag alias=Flag of Vietnam.svg}} =VN
+| Vanuatu | {{country flag2|alias=Vanuatu | name=Vanuatu<!--
+  --> | flag alias=Flag of Vanuatu.svg}} =VU
+| Wallis and Futuna=WF
+| Samoa | {{country flag2|alias=Samoa | name=Samoa<!--
+  --> | flag alias=Flag of Samoa.svg}} =WS
+| Yemen | {{country flag2|alias=Yemen | name=Yemen <!--
+  --> | flag alias=Flag of Yemen.svg}} =YE
+| Mayotte | {{country flag2|alias=Mayotte | name=Mayotte<!--
+  --> | flag alias=Flag of Mayotte.svg}} =YT
+|
+| Zambia | {{country flag2|alias=Zambia | name=Zambia<!--
+  --> | flag alias=Flag of Zambia.svg}} =ZM
+| Zimbabwe | {{country flag2|alias=Zimbabwe| name=Zimbabwe<!--
+  --> | flag alias=Flag of Zimbabwe.svg}} =ZW
+|
+| Anguilla | {{country flag2|alias=Anguilla| name=Anguilla<!--
+  --> | flag alias=Flag of Anguilla.svg}} =AI
+| Slovakia | {{country flag2|alias=Slovakia| name=Slovakia<!--
+  --> | flag alias=Flag of Slovakia.svg}} =SK
+| Aruba | {{country flag2|alias=Aruba | name=Aruba<!--
+  --> | flag alias=Flag of Aruba.svg}} =AW
+| Åland Islands=AX
+| American Samoa | {{country flag2 <!--
+  --> | alias=American Samoa | name=American Samoa<!--
+  --> | flag alias=Flag of American Samoa.svg}} =AS
+| Burkina Faso | {{country flag2 <!--
+  --> | alias=Burkina Faso | name=Burkina Faso<!--
+  --> | flag alias=Flag of Burkina Faso.svg}} =BF
+| Barbados | {{country flag2|alias=Barbados | name=Barbados<!--
+  --> | flag alias=Flag of Barbados.svg}} =BB
+| Antarctica | {{country flag2 <!--
+  --> | alias=Antarctica | name=Antarctica<!--
+  --> | flag alias=Flag of Antarctica.svg}} =AQ
+|
+}}<noinclude><!--
+--------------------------------------------------------------
+--NOTES:
+--
+-- A1: This template is used to find a 2-letter country
+--     code (plus 2-letter region code) by matching each
+--     country-flag spanned image+wikilink. However, the
+--     original implementation transcluded over 560 flag
+--     or country-data templates, so the code has been
+--     simplified to omit specialized flag templates and
+--     omit rare flags not used by a caller page.
+--
+-- D2: The flag+wikilink data can be generated for each
+--     country by {{country flag2|...}} which shows:
+--       <span class="flagicon">[[File:Flag of XXX.svg|
+--       {{#if:||22x20px}}|border |alt=|link=]]&nbsp;
+--       </span>[[XXX|XXX]]
+--     Directly using template {{country flag2}} can bypass
+--     other country templates, and avoid hundreds in total,
+--     but XXX must be repeated in name, alias & flag alias.
+--
+-- F3: The flag+wikilink combinations were originally
+--     generated by the 3-letter templates, such as {{DEU}}
+--     for the Germany flag+[[Germany]]. However, in most
+--     cases, using template {{flag}} will generate the same
+--     data and match as identical: {{DEU}}={{flag|Germany}}
+--     Unfortunately, {{flag}} uses {{Country data Germany}}
+--     so for all flags, hundreds of "Country data XXX"
+--     templates were also being transcluded. Eventually,
+--     to use the fewest templates, use {{country flag2}}:
+--       {{country flag2|alias=Germany|name=Germany
+--       | flag alias=Flag of Germany.svg}}
+--     Although country name is repeated 3 times, it avoids
+--     {{DEU}}, {{flag|Germany}} & {{Country data Germany}}
+--     avoiding 3 templates for each nation.
+--
+-- Q4: Among the many quirks of images, an image name
+--     using blanks will not match a name with underscores
+--     or underbars ("_"), although they display the same.
+--
+-- S4: The top 40 most-referenced nations have been
+--     sorted into order, to match as quickly as possible
+--     in the #switch logic.
+--
+-- W5: The following are unusual items:
+--     Switzerland=CH but set "Schwyz" as CH-SZ.
+--     Flags of groups add "the" but not in Fed...Micronesia.
+--     Flag of Wales has "2" suffix:  Flag of Wales 2.svg
+--     Flag of Belgium:  Flag of Belgium (civil).svg
+--     Flag of Switzerland uses {{CHE}} not {Country flag2}.
+--     BEWARE: Flag name underbars won't match spaced names.
+--
+--     For simplicity, not all flags have been added into
+--     the template, and some nation flags will not match.
+--
+--------------------------------------------------------------
+--HISTORY:
+--08Mar09 Created to get 2-letter codes by flag-code templates.
+--24Mar10 Added HISTORY comments to log major changes.
+--25Mar10 Redone to omit most 3-letter templates {DEU},{VAT}...
+--25Mar10 Redone to omit 562 subtemplates of nation data/flags.
+--25Mar10 Re-added Europe/Africa/Asia flags as {Country flag2}.
+--25Mar10 Added internal NOTES comments to explain template coding.
+--25Mar10 Fixed Switzerland=CH (not SZ), canton Schwyz as CH-SZ.
+--27Mar10 Sorted 40 most-referenced nations to match quickly.
+--
+-->
+{{documentation}}</noinclude>
