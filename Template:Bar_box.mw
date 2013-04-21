@@ -1,0 +1,19 @@
+<div class="barbox {{#switch: {{{float|}}} | left = tleft | right = tright }}" style="border:1px solid silver; font-size:88%; padding:0.4em; width:{{{width|auto}}}; background: white">
+<table style="border-collapse:collapse; width:100%;">
+{{#if:{{{title|}}}|
+<tr style="background:{{{titlebar|none}}}"><th colspan="5">{{{title}}}</th></tr>
+}}
+<tr style="font-size:88%; height:4px;">
+<td style="padding:0 4px;">{{{left1|}}}</td>
+<td style="padding:0 4px; text-align:right;">{{{left2|}}}</td>
+<td style="width:{{{barwidth|100px}}};">
+<td style="padding:0 4px; width:5em; text-align:right;">{{{right1|}}}</td>
+<td style="padding:0 4px; text-align:right;">{{{right2|}}}</td>
+{{{bars|}}}
+{{#if:{{{caption|}}}|
+<tr><td colspan="5" style="padding:5px">{{{caption}}}</td></tr>
+}}
+</table>
+</div><noinclude>
+{{documentation}}
+</noinclude>
