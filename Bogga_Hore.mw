@@ -67,14 +67,32 @@ desc none
 Image:Arabesken3.png|80px
 rect 0 0 0 0 [[Link la'aan]]
 desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">
+desc none
+</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Crystal Clear talk.png|Link=|30px]] Waxaa La Yiri</div>
 |-
+| style="color:#000; text-align:center; padding:2px 9px;" |
+{{Oraahda Bogga Hore}}
+|-
+|id="mp-wq" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
+[[q:|'''Wiki''']] – <span class="plainlinks" id="quotes-purgelink">[{{fullurl:{{FULLPAGENAME}}|action=purge}} '''Oraah Kale''']</span>
+|-
+! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
+Image:Arabesken3.png|80px
+rect 0 0 0 0 [[Link la'aan]]
+desc none
+</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Pages Mac.png|Link=|30px]] [[Af-Soomaali|Oraahda]] Saxda ah</div>
+|-
+| style="color:#000; text-align:center; padding:2px 9px;" |
+{{Fiira Gaar ah Luqada Soomaaliga}}
+|-
+|id="mp-wt" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
+[[wikt:|'''Wikit''']] – <span class="plainlinks" id="quotes-purgelink">[{{fullurl:{{FULLPAGENAME}}|action=purge}} '''Fiira gaar ah ee kale''']</span>
 |}
 |}
 <div class="NavHead" style="text-align: center; font-size: 90%; background-color: #def0fc;"><span style="font-weight: bold; font-size: 120%;">[[Wikipedia:Selaa luokittain|Qeybaha]] maqaalada Wikipediaha</span>
 </div>
 <div class="NavContent">
-<!-- navigointilaatikon sisältö -->
+<!-- navigoinilaatikon sisältö -->
 <div style="width: 90%; margin: auto; font-size: 90%;">
 {| align="center"
 |- 
