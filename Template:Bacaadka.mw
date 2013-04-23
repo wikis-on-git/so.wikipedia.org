@@ -1,0 +1,13 @@
+{{Ombox
+|type = notice
+|image = [[Image:Sandbox.svg|50px|link=]]
+|text = <div>
+Boggaaan Bacaadka {{#if:{{{Liiska|}}}|Bacaadka&ensp;|}}'''[[{{NAMESPACE}}:{{{1|{{BASEPAGENAMEE}}}}}|{{{1|{{BASEPAGENAME}}}}}]]'''. Bogga [[Wikipedia:Bacaadka|Bacaadka]] qayb kamid ah [[Wikipedia:Bogga Isticmaalaha|Bogga Isticmaalaha]]. waxana suura galinaysaa tijaabada qoraalka ee wikipedia '''mana ahan maqaal ka mid ah maqaalada'''. si aad usamayso bacaadka kuu gaarka ah guji '''[{{fullurl:Special:MyPage/Bacaadka|action=edit&preload=Template:Bacaadka/Hordhace}} Halkaan]'''.<br />
+----
+<small>{{#if:{{{Liiska|}}}|Bacaadka Isticmaalahaan: {{{Liiska}}}<br/>}}Bacaadyo kale: [[Wiki:Bacaadka|Bacaadka Hore]] &#x7c; [[Template:Bacaadka Template|Bacaadka Template]] &#x7c; [[Wikipedia:Bacaad Script|Bacaad Script]]<br />
+{{#if:{{{selectskin|<noinclude>-</noinclude>}}}|Qaabka: {{selectskin}}</small>}}
+{{#ifeq:{{{noindex|yes}}}|yes| __NOINDEX__ }}
+}}<noinclude>
+[[Category:Template Bacaad]]
+[[en:Template:User sandbox]]
+</noinclude><!-- Interwiki /Hordhace -->{{#ifeq:{{FULLPAGENAME}}Template:Bacaadka/Hordhace|[[en:Template:User sandbox/preload]]}}
