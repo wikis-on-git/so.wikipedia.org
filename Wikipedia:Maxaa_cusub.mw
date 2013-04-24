@@ -425,3 +425,36 @@ Wax kasta oo ku daris ah waa la qadarinayaa. Wadahadalada waxaa la xiri doonaa s
 Mahadsanid, [[m:User:Billinghurst|Billinghurst]] <small>(thanks to all the [[m:Requests for comment/Activity levels of advanced administrative rights holders/Global message|translators]]!)</small> 05:19, 24 Abriil 2013 (UTC)
 :<small>Ku qaybinta via [[m:Global message delivery|Gaarsiinta Farriin Caalami ah]] (Bog qaldan? [[m:Distribution list/Global message delivery|Waad hagaajin kartaa]].)</small>
 <!-- EdwardsBot 0430 -->
+
+== Wikidata phase 2 (infoboxes) is here ==
+
+[[File:Wikidata-logo-en.svg|150px|right]]
+Sorry for writing in English. I hope someone can translate this. If you understand German better than English you can have a look at the announcement on [[:de:Wikipedia:Kurier]].
+
+A while ago the first phase of [[d:|Wikidata]] was enabled on this Wikipedia. This means you are getting the language links in each article from Wikidata. We have now enabled the second phase of Wikidata (infoboxes) here. We have already done this on the [[http://blog.wikimedia.de/2013/03/27/you-can-have-all-the-data/ first 11 Wikipedias]] (it, he, hu, ru, tr, uk, uz, hr, bs, sr, sh) a month ago and [http://blog.wikimedia.de/2013/04/22/and-that-makes-12/ two days ago on the English Wikipedia]. Today all the remaining Wikipedias followed.
+
+'''What does having phase 2 enabled here mean?'''
+You are now able to make use of the structured data that is available on Wikidata in your articles/infoboxes. It includes things like the symbol for a chemical element, the ISBN for a book or the top level domain of a country. (None of this will happen automatically. Someone will have to change the article or infobox template for this to happen!) The current state is just the beginning though. It will be extended based on feedback we get from you now.
+
+'''How will this work?'''
+There are two ways to access the data:
+* Use a parser function like <nowiki>{{#property:p159}}</nowiki> in the wiki text of the article on Wikimedia Foundation. This will return “[[d:Q62|San Francisco]]” as that is the [[d:Property:P159|headquarter location]] of the [[d:180|non-profit]].
+* For more complicated things you can use Lua. The documentation for this is [[mw:Extension:WikibaseClient/Lua|here]].
+
+We are working on expanding the parser function so you can for example use <nowiki>{{#property:headquarter location}}</nowiki> instead of <nowiki>{{#property:p159}}</nowiki>. The complete plan for this is [[meta:Wikidata/Notes/Inclusion syntax|here]].
+
+'''Where can I test this?'''
+You can test it on [http://test2.wikipedia.org test2] if you don't want to do it in an article here.
+
+'''Where can I find more information and ask questions?'''
+We have collected the main questions in an [[meta:Wikidata/Deployment Questions|FAQ for this deployment]]. Please ask questions you might have on [[meta:Talk:Wikidata/Deployment Questions|the FAQ’s discussion page]].
+
+'''I want to be kept up to date about Wikidata'''
+To stay up-to-date on everything happening around Wikidata please [[meta:Global message delivery/Targets/Wikidata|subscribe]] to the newsletter that is delivered weekly to subscribed user’s talk pages.
+
+
+We are excited about taking yet another step towards allowing all Wikipedias share structured data and collect and curate it together.
+--[[m:User:Lydia Pintscher (WMDE)|Lydia Pintscher]] 19:21, 24 Abriil 2013 (UTC)
+
+<small>Distributed via [[m:Global message delivery|Global message delivery]]. (Wrong page? [[m:Distribution list/Global message delivery|Fix here]].)</small>
+<!-- EdwardsBot 0431 -->
