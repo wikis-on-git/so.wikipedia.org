@@ -1,0 +1,11 @@
+<includeonly>{{#if:{{{rank|}}}|<!--
+Cell stating the rank: 
+-->
+{{!}} {{ucfirst:{{lc:{{anglicise rank| {{{rank|}}} }} }} }}:<!--
+Cell stating the taxon's name, italicized if necessary, with authority:
+-->
+{{!}} <span class="{{lc:{{anglicise rank|{{{rank}}} }} }}" style="white-space:nowrap;">{{#switch:{{lc:{{{rank}}} }} |genus|ichnogenus|oogenus|subgenus|ichnosubgenus|oosubgenus|sectio|subsectio|series|subseries|species|ichnospecies|oospecies|subspecies|ichnosubspecies|oosubspecies=''{{{link}}}''
+|{{{link}}} }}</span>{{#if:{{{auth|}}}
+|<br /><small>{{{auth}}}</small>}}
+{{!}}-
+}}</includeonly><noinclude>{{documentation}}</noinclude>
