@@ -1,0 +1,17 @@
+<includeonly>{{#switch:{{lc:{{{1|{{get regnum()|{{{taxon}}} }} }}} }}<!-- Either pass a regnum (using 1=) or a taxon (using taxon=) whose regnum will be established automatically. -->
+|[[animal]]ia|[[animalia]]|[[animal|animalia]]|animalia|animal = rgb(211,211,164)
+|[[archaeplastida]]|[[plant]]ae|[[plantae]]|[[plant|plantae]]|[[viridiplantae]]|plantae|plant = rgb(144,238,144)
+|[[fungus|fungi]]|[[fungi]]|fungi = rgb(173,216,230)
+|[[chromalveolata]]|[[chromalveolate|chromalveolata]]|chromalveolata = rgb(173,238,63)
+|[[opisthokonta]]|[[choanozoa]]|choanozoa = rgb(224, 208, 176) <!--#e0d0b0 / khaki-->
+|[[rhizaria]]|rhizaria = rgb(225,204,252)
+|[[excavata]]|[[excavates]]|[[excavate|excavata]]|[[excavates|excavata]]|[[protista]]|[[protist]]a = rgb(240,230,140)
+|[[amoebozoa]] = rgb(255,200,160)
+|[[bacteria]]|[[bacterium|bacteria]]|[[firmicutes]]|firmicutes = rgb(211,211,211)
+|[[nanoarchaeota]]|[[archaea]]|[[euryarchaeota]]|[[crenarchaeota]]|[[thaumarchaeota]]|[[korarchaeota]]|[[nanarchaeota]]|nanoarchaeota|archaea|korarchaeota|nanarchaeota|thaumarchaeota|crenarchaeota|euryarchaeota = rgb(236,210,210)
+|[[incertae sedis]]|''[[incertae sedis]]'' = rgb(250,240,230)
+|[[virus]]|[[viruses]]|[[virus]]es|i|ii|iii|iv|v|vi|vii|viii = rgb(238,130,238)
+|=transparent
+|#default = {{taxobox/Error colour}}<!--
+-->}}</includeonly><noinclude>
+{{template doc}}</noinclude>
