@@ -1,0 +1,114 @@
+<kbd class="keyboard-key nowrap" style="border: 1px solid #aaa; {{border-radius|2px}} {{box-shadow|1px|2px|2px|#ddd}} background-color: #f9f9f9; {{linear-gradient|top|#eee, #f9f9f9, #eee}} padding: 1px 3px; font-family: inherit; font-size: 0.85em;">{{#switch:{{lc:{{{1}}}}}
+| caps lock           = {{Unicode|⇪}} Caps Lock
+| [[caps lock]]       = {{Unicode|⇪}} [[Caps Lock]]
+| shift               = {{Unicode|⇧}} Shift
+| [[shift key|shift]] = {{Unicode|⇧}} [[Shift key|Shift]]
+| enter               = {{Unicode|↵}} Enter
+| [[enter key|enter]] = {{Unicode|↵}} [[Enter key|Enter]]
+| cmd                 = {{Unicode|⌘}} Cmd
+| [[cmd key|cmd]]
+| [[command key|cmd]] = {{Unicode|⌘}} [[Command key|Cmd]]
+| command             = {{Unicode|⌘}} Command
+| [[cmd key|command]]
+| [[command key|command]] = {{Unicode|⌘}} [[Command key|Command]]
+| opt                 = {{Unicode|⌥}} Opt
+| [[opt key|opt]]
+| [[option key|opt]]  = {{Unicode|⌥}} [[Option key|Opt]]
+| option              = {{Unicode|⌥}} Option
+| [[option key]]
+| [[opt key|option]]
+| [[option key|option]] = {{Unicode|⌥}} [[Option key|Option]]
+| tab                 = Tab {{Unicode|↹}}
+| [[tab key|tab]]     = [[Tab key|Tab]] {{Unicode|↹}}
+| backspace           = ← Backspace
+| [[backspace]]       = ← [[Backspace]]
+| win                 = {{Unicode|⊞}} Win
+| [[win key|win]]
+| [[windows key|win]] = {{Unicode|⊞}} [[Windows key|Win]]
+| menu                = {{Unicode|≣}} Menu
+| [[menu key|menu]]   = {{Unicode|≣}} [[Menu key|Menu]]
+| up                  = ↑
+| [[arrow keys|up]]   = [[Arrow keys|↑]]
+| down                = ↓
+| [[arrow keys|down]] = [[Arrow keys|↓]]
+| left                = ←
+| [[arrow keys|left]] = [[Arrow keys|←]]
+| right               = →
+| [[arrow keys|right]] = [[Arrow keys|→]]
+| *                   = <nowiki>*</nowiki>
+| #                   = <nowiki>#</nowiki>
+| [[#]]               = [[Number sign|#]]
+| :                   = <nowiki>:</nowiki>
+| [[:]]               = [[Colon (punctuation)|:]]
+| [[|]]               = [[Pipe symbol|{{!}}]]
+
+<!-- Left & right analog sticks -->
+| l-up
+| l up     = L↑
+| l-down
+| l down   = L↓
+| l-left
+| l left   = L←
+| l-right
+| l right  = L→
+| l-ne
+| l ne     = L↗
+| l-se
+| l se     = L↘
+| l-nw
+| l nw     = L↖
+| l-sw
+| l sw     = L↙
+
+| r-up
+| r up     = R↑
+| r-down
+| r down   = R↓
+| r-left
+| r left   = R←
+| r-right
+| r right  = R→
+| r-ne
+| r ne     = R↗
+| r-se
+| r se     = R↘
+| r-nw
+| r nw     = R↖
+| r-sw
+| r sw     = R↙
+
+<!-- PlayStation -->
+| ps x
+| ex       = {{unicode|×}}
+| ps c
+| circle   = {{unicode|○}}
+| ps s
+| square   = {{unicode|□}}
+| ps t
+| triangle = {{unicode|△}}
+
+<!-- Nintendo 64 & GameCube -->
+| c-up
+| c up     = C↑
+| c-down
+| c down   = C↓
+| c-left
+| c left   = C←
+| c-right
+| c right  = C→
+| c-ne
+| c ne     = C↗
+| c-se
+| c se     = C↘
+| c-nw
+| c nw     = C↖
+| c-sw
+| c sw     = C↙
+
+<!-- default -->
+| #default            = {{{1}}}
+}}</kbd><noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
