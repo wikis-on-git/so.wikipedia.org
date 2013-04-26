@@ -1,0 +1,78 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+
+== Blank ==
+<pre>
+{{Infobox Dhacdo
+| title                    = <!-- Title to display, if other than page name -->
+| image                    = 
+| image_name               = 
+| image_size               = 
+| caption                  = 
+| date                     = <!-- {{start date|YYYY|MM|DD}} -->
+| time                     = 
+| place                    = 
+| coordinates              = <!-- {{coord|LAT|LON|region:XXXX_type:event|display=inline,title}} -->
+| also known as            = 
+| cause                    = 
+| first reporter           = 
+| filmed by                = 
+| participants             = 
+| outcome                  = 
+| reported deaths          = 
+| reported injuries        = 
+| reported missing         = 
+| reported property damage = 
+| burial                   = 
+| inquiries                = 
+| inquest                  = 
+| coroner                  = 
+| suspects                 = 
+| charges                  = 
+| verdict                  = 
+| convictions              = 
+| publication bans         = 
+| litigation               = 
+| awards                   = 
+| url                      = 
+| website                  = <!-- {{URL|example.com}} -->
+| notes                    = 
+}}
+</pre>
+
+== Example ==
+{{Infobox Dhacdo
+|title=Bombay Explosion
+|image_name=Bombay-Docks-aftermath1.png
+|caption=Smoke billowing out of Harbour
+|date=14 April 1944
+|time=16:15 IST (10:45 UTC)
+|place=Victoria Dock, Bombay, [[British Raj|British India]]
+|coordinates = {{coord|18.9527772|N|72.8449774|E|type:event_region:IN|display=inline,title}}
+|cause=ship fire
+|casualties1=800+ dead
+|casualties2=3,000 injured
+}}
+<pre style="overflow:auto">
+{{Infobox news event
+|title=Bombay Explosion
+|image_name=Bombay-Docks-aftermath1.png
+|caption=Smoke billowing out of Harbour
+|date=14 April 1944
+|time=16:15 IST (10:45 UTC)
+|place=Victoria Dock, Bombay, [[British Raj|British India]]
+|coordinates = {{coord|18.9527772|N|72.8449774|E|type:event_region:IN|display=inline,title}}
+|cause=ship fire
+|casualties1=800+ dead
+|casualties2=3,000 injured
+}}
+</pre>
+
+
+
+
+<includeonly><!--
+++++ PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, THANK YOU. -->
+[[Category:Events infobox templates|{{PAGENAME}}]]
+
+</includeonly>
