@@ -1,0 +1,20 @@
+<includeonly>{{Coord/link
+|dms-lat={{coord/dec2dms|{{{1}}}|{{{2}}}|{{#ifeq:{{{2}}}|N|S|N}}|{{coord/prec dec|{{{1}}}|{{{3}}}}}}}
+|dms-long={{coord/dec2dms|{{{3}}}|{{{4}}}|{{#ifeq:{{{4}}}|E|W|E}}|{{coord/prec dec|{{{1}}}|{{{3}}}}}}}
+|dec-lat={{#ifeq:{{{2}}}|S|-}}{{{1}}}
+|dec-long={{#ifeq:{{{4}}}|W|-}}{{{3}}}
+|dec-lat-display={{{1}}}°{{{2}}}
+|dec-long-display={{{3}}}°{{{4}}}
+|param={{{1}}}_{{{2}}}_{{{3}}}_{{{4}}}_{{{5}}}
+|default={{#if:{{{format|}}}|{{{format}}}|{{#ifeq:{{coord/prec dec|{{{1}}}|{{{3}}}}}|d|dms|dec}}}}
+|name={{{name|}}}}}<!-- 
+ -->{{#if:{{{3}}}||{{Coord/input/error2|msg=missing longitude (d format)|sort_ch=#}}}}<!-- 
+ -->{{#if:{{{6}}}{{{7}}}{{{8}}}{{{9}}}{{{10}}}|{{Coord/input/error2|msg=extra parameters (d format)|sort_ch=#}}}}<!-- 
+ -->{{#ifexpr:0{{{1}}}>90|{{Coord/input/error2|msg=latd>90 (d format)|sort_ch=>}}}}<!-- 
+ -->{{#ifexpr:0{{{1}}}<-90|{{Coord/input/error2|msg=latd<-90 (d format)|sort_ch=<}}}}<!-- 
+ -->{{#ifexpr:0{{{3}}}<360||{{Coord/input/error2|msg=longd>=360 (d format)|sort_ch=>}}}}<!-- 
+ -->{{#ifexpr:0{{{3}}}>-360||{{Coord/input/error2|msg=longd<=-360 (d format)|sort_ch=<}}}}<!-- 
+ --></includeonly><noinclude>
+{{Documentation|Template:Coord/sub doc}}
+[[Category:Coord template]]
+</noinclude>
