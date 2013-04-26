@@ -1,0 +1,114 @@
+{{infobox
+| bodyclass = vevent
+
+| titleclass = summary
+| title      = {{#if:{{{event|}}}
+  | {{{event}}}
+  | {{#if:{{{title|}}}
+    | {{{title}}}
+    |<includeonly>{{PAGENAME}}</includeonly>
+    }}
+  }}
+
+| image     = {{#if:{{{image|}}}
+  |{{{image}}}
+  |{{#if:{{{image_name|}}}
+    |[[File:{{{image_name}}}|{{px|{{{image_size|}}}|240x240px}}|{{{caption|}}}]]
+    }}
+  }}
+| caption   = {{{caption|}}}
+| imagestyle = {{#if:{{{caption|}}}|border-bottom:#aaa solid 1px}}
+| datastyle = text-align: left;
+
+| label1 = Taariikh
+| data1  = {{{date|}}}
+
+| label2 = Amin
+| data2  = {{{time|}}}
+
+| label3 = Barta
+| class3 = location
+| data3  = {{{place|}}}
+
+| label4 = [[Geographic coordinate system|Isuduwe Habka Juqraafiga]]
+| data4  = {{{coordinates|}}}
+
+| label5 = Sidoo kale loo yaqaan
+| data5  = {{{also known as|}}}
+
+| label6 = Sababta
+| data6  = {{{cause|}}}
+
+| label7 = Qofkii soo tabiyey
+| data7  = {{{first reporter|}}}
+
+| label8 = Sawir qaadaha
+| data8  = {{{filmed by|}}}
+
+| label9 = Kuwa gacanta ku leh
+| data9  = {{{participants|}}}
+
+| label10 = Natiijada
+| data10  = {{{outcome|}}}
+
+| header11 = {{#if:{{{casualties1|}}}{{{casualties2|}}}{{{casualties3|}}}|Khasaaraha}}
+| class11  = navbox-abovebelow
+| data12 = {{{casualties1|}}}
+| data13 = {{{casualties2|}}}
+| data14 = {{{casualties3|}}}
+
+| label15 = Dhimashada
+| data15  = {{#if:{{{reported deaths|}}}|{{{reported deaths}}}|{{{reported death(s)|}}} }}
+
+| label16 = Dhaawaca
+| data16  = {{{reported injuries|}}}
+
+| label17 = La waayey
+| data17  = {{{reported missing|}}}
+
+| label18 = Qalabka qasaaray
+| data18  = {{{reported property damage|}}}
+
+| label19 = La aasay
+| data19  = {{{burial|}}}
+
+| label20 = Codsi Macluumaad
+| data20  = {{{inquiries|}}}
+
+| label21 = Dabagal
+| data21  = {{{inquest|}}}
+
+| label22 = Dabgagale sababta dhimashada
+| data22  = {{{coroner|}}}
+
+| label23 = Lagu tuhmay
+| data23  = {{{suspects|}}}
+
+| label24 = Sawiro
+| data24  = {{{charges|}}}
+
+| label25 = Xukun
+| data25  = {{{verdict|}}}
+
+| label26 = Cambaareeyn
+| data26  = {{{convictions|}}}
+
+| label27 = Faafin reeban
+| data27  = {{{publication bans|}}}
+
+| label28 = Loo xil saaray
+| data28  = {{{litigation|}}}
+
+| label29 = Abaalmarin
+| data29  = {{{awards|}}}
+
+| label30 = Footage
+| data30  = {{{url|}}}
+
+| label31 = Website
+| data31  = {{{website|}}}
+
+| belowstyle = border-top: #aaa 1px solid;
+| below = {{{notes|}}}
+
+}}<noinclude>{{documentation}}<!-- category and language links go on the /doc page, not here --></noinclude>
