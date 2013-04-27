@@ -1,7 +1,7 @@
 <div style="display: none;">{{ #expr: {{Tirakoobe Firirsan1‎|{Aragtida Maanta/Tiriye}}}} round 0 }}</div>
 {{Aragtida Maanta/{{ #expr: {{Tirakoobe Firirsan1‎|{{Aragtida Maanta/Tiriye}}}} round 0}}}}
 <noinclude>
-{{Sharaxaad}}
+{{Documentation}}
 
 [[Category:Template|{{PAGENAME}}]]
 </noinclude>
