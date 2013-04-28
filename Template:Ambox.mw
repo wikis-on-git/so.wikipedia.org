@@ -29,7 +29,7 @@
   }}
 }}<!--
 
---><includeonly>{{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|{{#ifeq:{{NAMESPACE}}|Template|[[Category:Article message boxes]]}}}}</includeonly><!--
+--><includeonly>{{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|{{#ifeq:{{NAMESPACE}}|Template|[[Category:Maqaalka fariinta Sanduuqa]]}}}}</includeonly><!--
 
 --><!--{{Ambox}} end--><noinclude>
 
