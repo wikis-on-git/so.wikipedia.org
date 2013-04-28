@@ -1,5 +1,5 @@
 {{#if:{{{image}}}|[[file:{{{image}}}|{{#if:{{{size}}}|{{{size|250px}}}|250 px}}|right|{{#if:{{{comment}}}|{{{comment}}}}}]]}}
-{{{text}}}&nbsp;([[{{{title}}}|Sii aqri]])
+{{{text}}}&nbsp;([[{{{title}}}|SII AQRI]])
 
 <div style="font-size:90%;text-align:center;padding:8px 2px 0px 2px;">
 [[Wikipedia:Maqaallo Xul Ah|Maqaallo Xul Ah]]{{#if:{{{Portal1}}} | {{!}} [[Portal:{{{Portal1}}} |Portal {{{Portal1}}}]]}} {{#if:{{{Portal2}}} | {{!}} [[Portal:{{{Portal2}}}|Portal{{{Portal2}}}]]}}
