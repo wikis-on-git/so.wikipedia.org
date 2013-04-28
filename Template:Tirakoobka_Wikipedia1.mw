@@ -1,11 +1,11 @@
 
 {| width= 410; border="2" cellspacing="0" style="font-size: 12pt; color: white; background-color:violet; height:400px;"
-| align="center" colspan=2 valign="center" |'''Saacaddu waaa {{CURRENTTIME}}'''{{Maanta}}       
+| align="center" colspan=2 valign="center" |'''Saacaddu waaa {{CURRENTTIME}} UTC'''{{Maanta}}       
 |- 
-| '''Tirada maqaallada ku jira wikipediaha Soomaaliga'''
+| '''Tirada maqaallada ku jira wikipediyaha Soomaaliga'''
 | '''{{NUMBEROFARTICLES}}  Maqaal'''
 |-
-|'''Tirada Bog ee ku jirta Wikipediaha Soomaaliga'''
+|'''Tirada Bogag ee ku jirta Wikipediyaha Soomaaliga'''
 |'''{{NUMBEROFPAGES}}  Bog'''
 |-
 |'''Tirada wax laga bedelay''' 
@@ -14,10 +14,10 @@
 |'''Gudegalayaasha diwaan gashay'''
 |'''{{NUMBEROFUSERS}}  Isticmaale'''
 |-
-|'''Tirada maamule'''
+|'''Tirada maamullada'''
 |'''{{NUMBEROFADMINS}}  Maamule'''
 |-
-| '''Faylasha ku jira wikipediaha Soomaaliga'''
+| '''Faylasha ku jira wikipediyaha Soomaaliga'''
 | '''{{NUMBEROFFILES}}  Fayl'''
 |}
 
