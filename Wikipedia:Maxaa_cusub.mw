@@ -467,3 +467,18 @@ Some accounts will soon be renamed due to a technical change that the developer 
 <small>(Distributed via [[m:global message delivery|global message delivery]] 04:09, 30 Abriil 2013 (UTC). Wrong page? [[m:Distribution list/Global message delivery|Correct it here]].)</small>
 </div>
 <!-- EdwardsBot 0437 -->
+
+== [en] Change to section edit links ==
+
+<div class="mw-content-ltr">
+The default position of the "edit" link in page section headers is going to change soon. The "edit" link will be positioned adjacent to the page header text rather than floating opposite it.
+
+Section edit links will be to the immediate right of section titles, instead of on the far right. If you're an editor of one of the wikis which already implemented this change, nothing will substantially change for you; however, scripts and gadgets depending on the previous implementation of section edit links will have to be adjusted to continue working; however, nothing else should break even if they are not updated in time.
+
+[[m:Change to section edit links|Detailed information and a timeline]] is available on meta.
+
+Ideas to do this all the way to 2009 at least. It is often difficult to track which of several potential section edit links on the far right is associated with the correct section, and many readers and anonymous or new editors may even be failing to notice section edit links at all, since they read section titles, which are far away from the links.
+
+<small>(Distributed via [[m:global message delivery|global message delivery]] 18:58, 30 Abriil 2013 (UTC). Wrong page? [[m:Distribution list/Global message delivery|Correct it here]].)</small>
+</div>
+<!-- EdwardsBot 0438 -->
