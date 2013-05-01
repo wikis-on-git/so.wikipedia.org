@@ -1,31 +1,31 @@
-<includeonly><div id="mb{{{Identifier|0}}}" class="mb{{#REDIRECT:{{{Color|}}}|Lilas=Lilas|Vert=Vert|Bleu=Bleu|Orange=Orange|Gris=Gris|Jaune=Jaune|Rouge=Rouge|Violet=Violet|#Violet=Violet}}">
+<includeonly><div id="mb{{{id|0}}}" class="mb{{#switch:{{{color|}}}|lilac=Lilas|green=Vert|blue=Bleu|orange=Orange|grey=Gris|yellow=Jaune|red=Rouge|violet=Violet|Violet}}">
 <div>
-{{#if:{{{title1|}}}|<div id="mb{{{Identifier|0}}}bt1" {{#ifexpr: {{{Choose|0}}}=1 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button1|}}}&nbsp;{{{title1|}}}</div>}}{{#if:{{{title2|}}}|<div id="mb{{{Identifier|0}}}bt2" {{#ifexpr: {{{Choose|0}}}=2 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button2|}}}&nbsp;{{{title2|}}}</div>}}{{#if:{{{title3|}}}|
-<div id="mb{{{Identifier|0}}}bt3" {{#ifexpr: {{{Choose|0}}}=3 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button3|}}}&nbsp;{{{title3|}}}</div>}}{{#if:{{{title4|}}}|
-<div id="mb{{{Identifier|0}}}bt4" {{#ifexpr: {{{Choose|0}}}=4 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button4|}}}&nbsp;{{{title4|}}}</div>}}{{#if:{{{title5|}}}|
-<div id="mb{{{Identifier|0}}}bt5" {{#ifexpr: {{{Choose|0}}}=5 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button5|}}}&nbsp;{{{title5|}}}</div>}}{{#if:{{{title6|}}}|
-<div id="mb{{{Identifier|0}}}bt6" {{#ifexpr: {{{Choose|0}}}=6 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button6|}}}&nbsp;{{{title6|}}}</div>}}{{#if:{{{title7|}}}|
-<div id="mb{{{Identifier|0}}}bt7" {{#ifexpr: {{{Choose|0}}}=7 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button7|}}}&nbsp;{{{title7|}}}</div>}}{{#if:{{{title8|}}}|
-<div id="mb{{{Identifier|0}}}bt8" {{#ifexpr: {{{Choose|0}}}=8 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button8|}}}&nbsp;{{{title8|}}}</div>}}{{#if:{{{title9|}}}|
-<div id="mb{{{Identifier|0}}}bt9" {{#ifexpr: {{{Choose|0}}}=9 | class="mbBoutonSel" | class="mbBouton" }}>{{{Button9|}}}&nbsp;{{{title9|}}}</div>}}</div><div class="mbContenu">
+{{#if:{{{title1|}}}|<div id="mb{{{id|0}}}bt1" {{#ifexpr:: {{{sel|0}}}=1 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon1|}}}&nbsp;{{{title1|}}}</div>}}{{#if:{{{title2|}}}|<div id="mb{{{id|0}}}bt2" {{#ifexpr:: {{{sel|0}}}=2 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon2|}}}&nbsp;{{{title2|}}}</div>}}{{#if:{{{title3|}}}|
+<div id="mb{{{id|0}}}bt3" {{#ifexpr:: {{{sel|0}}}=3 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon3|}}}&nbsp;{{{title3|}}}</div>}}{{#if:{{{title4|}}}|
+<div id="mb{{{id|0}}}bt4" {{#ifexpr:: {{{sel|0}}}=4 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon4|}}}&nbsp;{{{title4|}}}</div>}}{{#if:{{{title5|}}}|
+<div id="mb{{{id|0}}}bt5" {{#ifexpr:: {{{sel|0}}}=5 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon5|}}}&nbsp;{{{title5|}}}</div>}}{{#if:{{{title6|}}}|
+<div id="mb{{{id|0}}}bt6" {{#ifexpr:: {{{sel|0}}}=6 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon6|}}}&nbsp;{{{title6|}}}</div>}}{{#if:{{{title7|}}}|
+<div id="mb{{{id|0}}}bt7" {{#ifexpr:: {{{sel|0}}}=7 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon7|}}}&nbsp;{{{title7|}}}</div>}}{{#if:{{{title8|}}}|
+<div id="mb{{{id|0}}}bt8" {{#ifexpr:: {{{sel|0}}}=8 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon8|}}}&nbsp;{{{title8|}}}</div>}}{{#if:{{{title9|}}}|
+<div id="mb{{{id|0}}}bt9" {{#ifexpr:: {{{sel|0}}}=9 | class="mbBoutonSel" | class="mbBouton" }}>{{{icon9|}}}&nbsp;{{{title9|}}}</div>}}</div><div class="mbContenu">
 {{#if:{{{title1|}}}|
-<div id="mb{{{Identifier|0}}}og1" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=1 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int1}}}
+<div id="mb{{{id|0}}}og1" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=1 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content1}}}
 </div>}}{{#if:{{{title2|}}}|
-<div id="mb{{{Identifier|0}}}og2" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=2 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int2|}}}
+<div id="mb{{{id|0}}}og2" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=2 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content2|}}}
 </div>}}{{#if:{{{title3|}}}|
-<div id="mb{{{Identifier|0}}}og3" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=3 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int3|}}}
+<div id="mb{{{id|0}}}og3" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=3 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content3|}}}
 </div>}}{{#if:{{{title4|}}}|
-<div id="mb{{{Identifier|0}}}og4" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=4 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int4|}}}
+<div id="mb{{{id|0}}}og4" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=4 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content4|}}}
 </div>}}{{#if:{{{title5|}}}|
-<div id="mb{{{Identifier|0}}}og5" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=5 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int5|}}}
+<div id="mb{{{id|0}}}og5" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=5 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content5|}}}
 </div>}}{{#if:{{{title6|}}}|
-<div id="mb{{{Identifier|0}}}og6" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=6 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int6|}}}
+<div id="mb{{{id|0}}}og6" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=6 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content6|}}}
 </div>}}{{#if:{{{title7|}}}|
-<div id="mb{{{Identifier|0}}}og7" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=7 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int7|}}}
+<div id="mb{{{id|0}}}og7" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=7 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content7|}}}
 </div>}}{{#if:{{{title8|}}}|
-<div id="mb{{{Identifier|0}}}og8" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=8 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int8|}}}
+<div id="mb{{{id|0}}}og8" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=8 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content8|}}}
 </div>}}{{#if:{{{title9|}}}|
-<div id="mb{{{Identifier|0}}}og9" class="mbOnglet" {{#ifexpr: {{{Choose|0}}}=9 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{int9|}}}
+<div id="mb{{{id|0}}}og9" class="mbOnglet" {{#ifexpr:: {{{sel|0}}}=9 | style="display:block;visibility:visible;" | style="display:none;visibility:hidden;" }}>{{{content9|}}}
 </div>}}</div></div></includeonly><noinclude>
-{{Documentation}}
+{{doc}}
 </noinclude>
