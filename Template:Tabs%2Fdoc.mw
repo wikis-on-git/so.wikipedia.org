@@ -2,18 +2,16 @@
 
 === Adeegsiga ===
 <pre style="padding: 1px;">{{Tabs
-|  Identifier   = 0
-|  Choose    = 1
-|  Color    = <!-- Red Blue Green Yellow -->
-| Bouton1 = 
+| id= 0
+|  sel= 1
+|  color = <!-- red blue green yellow lilac violet or orange-->
 | title1  = 
-| int1   = 
-| Bouton2 = 
+| content1 =
 | title2  = 
-| int2   =  
-| Bouton3 = 
-| title3  = 
-| int3   = 
+| content2 = 
+...
+| title9  = 
+| content9 =
 }}</pre>
 
 === Tusaale ===
