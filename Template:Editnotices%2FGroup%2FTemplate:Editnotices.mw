@@ -1,0 +1,35 @@
+{{fmbox
+| type = editnotice
+| id = editeditnotice
+| text = 
+{{#switch: {{#titleparts: {{FULLPAGENAME}} |2|0}}
+| Template:Editnotices/Namespace = 
+  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the namespace notice for the '''{{#titleparts: {{FULLPAGENAME}} |0|3}}''' space.
+| Template:Editnotices/Group = 
+  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the group notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]] and all its subpages.
+| Template:Editnotices/Page = 
+  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
+| Template:Editnotices/Protection = 
+  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the protection notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
+| User:{{BASEPAGENAME}}/Editnotice
+| User talk:{{BASEPAGENAME}}/Editnotice =
+  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{NAMESPACE}}:{{BASEPAGENAME}}]].
+| #default = 
+  '''Warning!''' It seems you're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} an editnotice with an '''invalid name'''.
+}} For guidance, see [[Wikipedia:Editnotice]]. You may use the template {{tl|editnotice}} for formatting. See also [[:Category:Editnotice templates]].
+{{hidden begin|title=Show template documentation}}
+'''Usage''':
+<pre>
+{{editnotice
+| expiry = 
+| id = 
+| header = 
+| headerstyle = 
+| text = 
+| textstyle = 
+| image = 
+}}
+</pre>
+Note: All parameters are optional except <code>text</code>. For full documentation see {{tl|editnotice}}.
+{{hidden end}}
+}}
