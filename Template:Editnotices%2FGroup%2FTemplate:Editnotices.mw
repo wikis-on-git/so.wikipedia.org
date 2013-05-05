@@ -4,21 +4,21 @@
 | text = 
 {{#switch: {{#titleparts: {{FULLPAGENAME}} |2|0}}
 | Template:Editnotices/Namespace = 
-  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the namespace notice for the '''{{#titleparts: {{FULLPAGENAME}} |0|3}}''' space.
+  Waxaad {{#ifeq:{{{notice action|}}}|view|viewing|bedelaysaa}} booska ogaysiiska ee '''{{#titleparts: {{FULLPAGENAME}} |0|3}}''' meesha.
 | Template:Editnotices/Group = 
   Waxaad {{#ifeq:{{{notice action|}}}|view|viewing|bedelaysaa}} waxa ka mid ah [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]] iyo dhamaan qaybo ka mid ah boggaan.
 | Template:Editnotices/Page = 
-  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
+  Waxaad {{#ifeq:{{{notice action|}}}|view|viewing|bedeleysaa}} bogga oyaysiinta ee [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
 | Template:Editnotices/Protection = 
-  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the protection notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
+  Waxada {{#ifeq:{{{notice action|}}}|view|viewing|bedelaysaa}} farriinta waardiyeha ee [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
 | User:{{BASEPAGENAME}}/Editnotice
 | User talk:{{BASEPAGENAME}}/Editnotice =
-  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{NAMESPACE}}:{{BASEPAGENAME}}]].
+  Waxaad {{#ifeq:{{{notice action|}}}|view|viewing|bedeleysaa}} bogga farriinta ee [[:{{NAMESPACE}}:{{BASEPAGENAME}}]].
 | #default = 
-  '''Warning!''' It seems you're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} an editnotice with an '''invalid name'''.
+  '''Digniin!''' Sida muuqata waxaad iskudayday {{#ifeq:{{{notice action|}}}|view|viewing|bedelid}} aragbedelka ee '''magac qaldan'''.
 }} Si aad u hesho tusaale, soo booqo [[Wikipedia:Editnotice]]. waxaad adeegsan kartaa template {{tl|editnotice}} si la iskugu-dubarido. sidoo kale soo booqo [[:Category:Editnotice]].
 {{hidden begin|title=Waxaa soo muuqanaya xog-waranka template ka}}
-'''Usage''':
+'''Adeegso''':
 <pre>
 {{editnotice
 | expiry = 
