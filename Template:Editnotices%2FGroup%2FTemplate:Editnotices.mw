@@ -6,7 +6,7 @@
 | Template:Editnotices/Namespace = 
   You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the namespace notice for the '''{{#titleparts: {{FULLPAGENAME}} |0|3}}''' space.
 | Template:Editnotices/Group = 
-  You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the group notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]] and all its subpages.
+  Waxaad {{#ifeq:{{{notice action|}}}|view|viewing|bedelaysaa}} waxa ka mid ah [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]] iyo dhamaan qaybo ka mid ah boggaan.
 | Template:Editnotices/Page = 
   You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{#titleparts: {{FULLPAGENAME}} |0|3}}]].
 | Template:Editnotices/Protection = 
@@ -16,8 +16,8 @@
   You're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} the page notice for [[:{{NAMESPACE}}:{{BASEPAGENAME}}]].
 | #default = 
   '''Warning!''' It seems you're {{#ifeq:{{{notice action|}}}|view|viewing|editing}} an editnotice with an '''invalid name'''.
-}} For guidance, see [[Wikipedia:Editnotice]]. You may use the template {{tl|editnotice}} for formatting. See also [[:Category:Editnotice templates]].
-{{hidden begin|title=Show template documentation}}
+}} Si aad u hesho tusaale, soo booqo [[Wikipedia:Editnotice]]. waxaad adeegsan kartaa template {{tl|editnotice}} si la iskugu-dubarido. sidoo kale soo booqo [[:Category:Editnotice]].
+{{hidden begin|title=Waxaa soo muuqanaya xog-waranka template ka}}
 '''Usage''':
 <pre>
 {{editnotice
