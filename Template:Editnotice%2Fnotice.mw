@@ -1,0 +1,15 @@
+{{notice|Waxaan soo socda waa digniin wax bedelka {{#switch:{{{expiry|¬}}}
+  |indefinite = Taasoo aan lahayn wax isbedel ah waligeed
+  |
+  |¬          = Mana lahan xilli ay ku dhacayso
+  |#default   = {{#iferror:{{#time:U|{{{expiry}}}}}
+   |{{error|has an invalid expiry time}}
+   |{{#ifexpr:{{#time:U|{{{expiry}}}}}-{{#time:U|{{CURRENTTIMESTAMP}}}}>0
+    |will expire {{{expiry}}}
+    |expired {{{expiry}}}
+   }}
+  }}
+ }}. Si aad isku habaysid, waxaa laga rajaunayaa inaad habaysid {{para|expiry}} parameter.
+}}<noinclude>
+
+</noinclude>
