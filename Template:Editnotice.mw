@@ -33,7 +33,7 @@
   |text      = {{#if:{{{header|}}}
    |<dl><dt style="{{{headerstyle|}}}">{{{header}}}</dt></dl>
   }}
-{{{text|{{{1}}}}}}
+<div>{{{text|{{{1}}}}}}</div>
  }}
 }}<noinclude>
 {{documentation}}
