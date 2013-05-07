@@ -1,4 +1,4 @@
-{| class="infobox vcard" style="width:300px; font-size: 90%; text-align:right; <!-- padding-left:0.5em; padding-right:0.5em; -->"
+{| class="infobox vcard" style="width:300px; font-size: 90%; text-align:left; <!-- padding-left:0.5em; padding-right:0.5em; -->"
 <!----------Name---------->
 |colspan="2" class="fn" style="text-align:center; font-size:140%; font-weight:bold;"|{{#if:{{{honorific-prefix|}}}|<span class="honorific-prefix" style="font-size:small;">{{{honorific-prefix}}}</span>&nbsp;}}<span class="fn">{{{name|{{PAGENAME}}}}}</span>{{#if:{{{honorific-suffix|}}}|&nbsp;<span class="honorific-suffix" style="font-size:small;">{{{honorific-suffix}}}</span>}}{{#if:{{{native_name|{{{native name|}}}}}}|<br/>{{{native_name|{{{native name|}}}}}}}}
 |-
