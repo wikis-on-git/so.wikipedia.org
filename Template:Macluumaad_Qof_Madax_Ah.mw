@@ -1,0 +1,3005 @@
+{| class="infobox vcard" style="width:300px; font-size: 90%; text-align:right; <!-- padding-left:0.5em; padding-right:0.5em; -->"
+<!----------Name---------->
+|colspan="2" class="fn" style="text-align:center; font-size:140%; font-weight:bold;"|{{#if:{{{honorific-prefix|}}}|<span class="honorific-prefix" style="font-size:small;">{{{honorific-prefix}}}</span>&nbsp;}}<span class="fn">{{{name|{{PAGENAME}}}}}</span>{{#if:{{{honorific-suffix|}}}|&nbsp;<span class="honorific-suffix" style="font-size:small;">{{{honorific-suffix}}}</span>}}{{#if:{{{native_name|{{{native name|}}}}}}|<br/>{{{native_name|{{{native name|}}}}}}}}
+|-
+<!----------Image---------->
+{{#if:{{{image|}}} | 
+{{!}}colspan="2" style="text-align:center;" {{#switch:{{{image}}}|Replace this image male.svg|Replace this image female.svg|Replace this image1.svg|Replace this imageb.svg=class=dummy}}{{!}}[[file:{{{image}}}|{{#ifeq:{{{image|}}}|Replace this image1.svg|260px|{{#if:{{{imagesize|}}}|{{{imagesize}}}|{{{width|260}}}x{{{height|260px}}}|}}}}|{{PAGENAME}}]]<br />
+<small>{{{caption|}}}</small>
+{{!}}-
+}}
+{{#if:{{{image name|}}} |
+{{!}}colspan="2" style="text-align:center;"{{!}} [[file:{{{image name}}}|{{#ifeq:{{{image name|}}}|Replace this image1.svg|260px|{{#if:{{{imagesize|}}}|{{{imagesize}}}|200px}}}}|{{PAGENAME}}]]<br />
+<small>{{{caption|}}}<small/>
+{{!}}-
+}}
+{{#if:{{{smallimage|}}}|
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{smallimage}}}|frameless|alt={{{alt|}}}]]
+{{!}}-
+}}
+<!----------Speaker of the House---------->
+{{#if:{{{speaker|}}}|
+{{#if:{{{state_legislature|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{speaker}}} [[Speaker of the {{{legislature|}}} Legislature]]</div>
+{{!}}-
+|{{#if:{{{state_assembly|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{speaker}}} [[Af-hayeen {{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Ba||{{#ifeq:{{{state_assembly|}}}|Banaadir|Guud|Xilka}}}} Assembly]]</div>
+{{!}}-
+|{{#if:{{{speaker|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{speaker}}} [[Speaker of the {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|United States}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}|Speaker of the {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|U.S.}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}]]</div>
+{{!}}-
+}}
+}}
+}}
+{{#if: {{{term2|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;Xil'''<br />{{{term2}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart2|}}}||_}}start2|}}} |
+{{#if:{{{term{{#if:{{{termend2|}}}||_}}end2|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}} '''Ka qabtay&nbsp;xil'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend2|}}}||_}}end2}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend2|}}}||_}}end2|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;xil&nbsp;'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}{{#if:{{{alongside2|}}}|<br />La shaqeeyey [[{{{alongside2}}}]]}}
+{{!}}-
+}}
+}}
+<!----------Predecessor/successor Speaker of the House---------->
+{{#if:{{{speaker|}}}|
+{{#if:{{{succeeding2|}}}|
+! Xilka kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding2}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor2|}}}|predecessor|preceded}}2|}}} |
+! Xilka&nbsp;kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor2|}}}|predecessor|preceded}}2|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor2|}}}|successor|succeeded}}2|}}}|
+! Xilka&nbsp;kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor2|}}}|successor|succeeded}}2|}}}
+{{!}}-
+}}
+}}
+}}
+<!----------First office---------->
+{{#if:{{{{{#if:{{{nominee|}}}|nominee|candidate}}|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee|}}}|nominee|candidate}}|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart|}}}||_}}start|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}
+{{!}}-
+}}
+{{#if:{{{runningmate|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate}}}
+{{!}}-
+}}
+{{#if:{{{opponent|}}}|
+! Opponent(s)
+{{!}} {{{opponent}}}
+{{!}}-
+}}
+{{#if:{{{incumbent|}}}|
+! Xilka{{#if:{{{gender|{{{sex|}}}}}}|T}} Sii hayey
+{{!}} {{{incumbent}}}
+{{!}}-
+}}
+}}
+|{{#if:{{{majority_leader|}}}||
+{{#if:{{{majority_floor_leader|}}}||
+{{#if:{{{minority_leader|}}}||
+{{#if:{{{minority_floor_leader|}}}||
+{{#if:{{{majorityleader|}}}||
+{{#if:{{{jr/sr|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr}}}{{#if:{{{succeeding|}}} |-elect}}]]<br />Kasoo biloow {{{state}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin aqalka odayasha [[{{{state_senate}}} {{#ifeq:{{{state_senate|}}}|Gobol||Banaadir}}]]<br />Ka yimid maamulka {{{district}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[Xeer {{{state legislature}}}]]<br />Ka yimid deegaan nambar {{{district}}}</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from|}}}|ambassador|minister}}_from|}}}||
+{{#if:{{{order|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order}}}<!--
+-->{{#if:{{{office|}}} |&nbsp;[[{{{office}}}]]}}<!--
+-->{{#if:{{{state|}}}  |&nbsp;[[{{{state}}}]]}}<!--
+-->{{#if:{{{title|}}}  |&nbsp;{{{title}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office}}}</div>
+{{!}}-
+}}
+{{#if:{{{title|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------First Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from|}}}|ambassador|minister}}_from|}}}|
+{{#if:{{{country|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order|}}}|{{{order}}}}} [[{{{{{#if:{{{ambassador_from|}}}|ambassador|minister}}_from}}} ka ahaa Safiir {{{country}}}{{#if:{{{minister_from|}}}|{{!}}{{{minister_from}}} U ahaa wasiir{{{country}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from|}}}|ambassador|minister}}_from}}}|size=44x40px}} {{flagicon|{{{country}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin [[{{{assembly}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament|}}}|[[Baarlamaanka {{{parliament}}}]]|Parliament}}}}<br />kana socda {{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin [[{{{assembly}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament|}}}|[[Barlamaanka {{{parliament}}}]]|Parliament}}}}<br />Kana socda {{{riding}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader}}} [[Majority Leader of the {{{state senate}}} Senate|Majority Leader of the {{{state_senate}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader}}} [[Majority Floor Leader of the {{{state senate}}} Senate|Majority Floor Leader of the {{{state_senate}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader}}} [[Minority Leader of the {{{state senate}}} Senate|Minority Leader of the {{{state_senate}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader}}} [[Minority Floor Leader of the {{{state senate}}} Senate|Minority Floor Leader of the {{{state_senate}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature|}}}||
+{{#if:{{{state_senate|}}}||
+{{#if:{{{district|}}}|
+{{#if:{{{jr/sr|}}}||
+{{#if:{{{jr/sr and state|}}}|| 
+{{#if:{{{succeeding|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state|}}}|&nbsp;from<br />{{{state}}}'s {{{district}}}}}
+{{!}}-|{{#if:{{{state_assembly|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Nevada||{{#ifeq:{{{state_assembly|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka yimid {{#if:{{{state_assembly|}}}|Deegaan nambar  {{{district}}}}}</div>
+{{!}}-
+|{{#if:{{{district|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house|}}} |{{{state_house}}}|{{#if:{{{state_delegate|}}}|{{{state_delegate}}}|United States}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}|{{#if:{{{state_house|}}} |{{{state_house}}}|{{#if:{{{state_delegate|}}}|{{{state_delegate}}}|U.S.}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}]]<br />ka yimid {{#if:{{{state_delegate|}}}| |{{#if:{{{state_house|}}}| Deegaan |{{{state}}}'s}}}} nambar {{{district}}} </div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xil'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}
+{{!}}-
+|{{#if: {{{term|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtayي&nbsp;Xil'''<br />{{{term}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart|}}}||_}}start|}}}|
+{{#if:{{{term{{#if:{{{termend|}}}||_}}end|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xil'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend|}}}||_}}end}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Wuu {{#if:{{{gender|{{{sex|}}}}}}|T|Y}}sii ahaaday'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend|}}}||_}}end|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''La wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}{{#if:{{{alongside|}}}|<br />La shaqeeyey [[{{{alongside}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------First President, Prime Minister, Governor---------->
+{{#if:{{{president|}}}|
+! Madaxweyne
+{{!}} {{{president}}}
+{{!}}-
+}}
+{{#if:{{{primeminister|}}}|
+! Ra'iisulwasaare
+{{!}} {{{primeminister}}}
+{{!}}-
+}}
+{{#if:{{{firstminister|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister}}}
+{{!}}-
+}}
+{{#if:{{{premier|}}}|
+! Raiisul&nbsp;Wasaare
+{{!}} {{{premier}}}
+{{!}}-
+}}
+{{#if:{{{governor|}}}|
+! Hogaamiye
+{{!}} {{{governor}}}
+{{!}}-
+}}
+{{#if:{{{monarch|}}}|
+! Boqor
+{{!}} {{{monarch}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general|}}}|-|_}}general|}}}|
+! Governor{{#if:{{{governor-general|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general|}}}|-|_}}general}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor|}}}|
+! Hogaamiye kuxigeen
+{{!}} {{{lieutenant_governor}}}
+{{!}}-
+}}
+<!----------First Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Madaxweyne ku xigeen}}
+{{!}} {{{vicepresident}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister|}}}|
+! {{#if:{{{office|}}}|[[Vice {{{office}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier|}}}|
+! Ku xigeenka&nbsp;Ra'iisul&nbsp;wasaaraha
+{{!}} {{{vicepremier}}}
+{{!}}-
+}}
+{{#if:{{{deputy|}}}|
+! Kuxigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{deputy}}}
+{{!}}-
+}}
+{{#if:{{{leader|}}}|
+! Leader
+{{!}} {{{leader}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant|}}}|
+! {{#if:{{{office|}}}|[[Lieutenant {{{office}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant}}}
+{{!}}-
+}}
+{{#if:{{{nominator|}}}|
+! Waxaa{{#if:{{{gender|{{{sex|}}}}}}|A}}&nbsp;soo sharaxay
+{{!}} {{{nominator}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}}}}
+{{!}}-
+}}
+<!----------First predecessor/successor---------->
+{{#if:{{{opponent|}}}|
+! Opponent(s)
+{{!}} {{{opponent}}}
+{{!}}-
+{{#if:{{{incumbent|}}}|
+! Wuu{{#if:{{{gender|{{{sex|}}}}}}|T}} sii hayey xilka
+{{!}} {{{incumbent}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding|}}}|
+! Xil kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}} |
+! Xilka&nbsp;kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor|}}}|predecessor|preceded}}|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor|}}}|successor|succeeded}}|}}}|
+! Xilka&nbsp;kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor|}}}|successor|succeeded}}|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority|}}}|
+!Aqlabiyad
+{{!}} {{{majority}}}
+{{!}}-
+}}
+}}
+<!----------First office---------->
+{{#if:{{{{{#if:{{{nominee1|}}}|nominee|candidate}}1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee1|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee1|}}}|nominee|candidate}}1|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart1|}}}||_}}start1|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}
+{{!}}-
+}}
+{{#if:{{{runningmate1|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate1}}}
+{{!}}-
+}}
+{{#if:{{{opponent1|}}}|
+! Opponent(s)
+{{!}} {{{opponent1}}}
+{{!}}-
+}}
+{{#if:{{{incumbent1|}}}|
+! Xilka{{#if:{{{gender|{{{sex|}}}}}}|T}} sii ahaaday
+{{!}} {{{incumbent1}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader1|}}}||
+{{#if:{{{majority_floor_leader1|}}}||
+{{#if:{{{minority_leader1|}}}||
+{{#if:{{{minority_floor_leader1|}}}||
+{{#if:{{{majorityleader1|}}}||
+{{#if:{{{jr/sr1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr1}}}{{#if:{{{succeeding1|}}} |-elect}}]]<br />Kasoo biloow {{{state1}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state1}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state_senate1}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />Deegaan nambar{{{district1}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state legislature1}}} Legislature]]<br />Deegaan nambar {{{district1}}} </div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from1|}}}|ambassador|minister}}_from1|}}}||
+{{#if:{{{order1|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order1}}}<!--
+-->{{#if:{{{office1|}}} |&nbsp;[[{{{office1}}}]]}}<!--
+-->{{#if:{{{state1|}}}  |&nbsp;[[{{{state1}}}]]}}<!--
+-->{{#if:{{{title1|}}}  |&nbsp;{{{title1}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office1}}}</div>
+{{!}}-
+}}
+{{#if:{{{title1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title1}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------First Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from1|}}}|ambassador|minister}}_from1|}}}|
+{{#if:{{{country1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order1|}}}|{{{order1}}}}} [[{{{{{#if:{{{ambassador_from1|}}}|ambassador|minister}}_from1}}} Ambassador to {{{country1}}}{{#if:{{{minister_from1|}}}|{{!}}{{{minister_from1}}} Minister to {{{country1}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from1|}}}|ambassador|minister}}_from1}}}|size=44x40px}} {{flagicon|{{{country1}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM1|}}}|AM|MP}}1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM1|}}}|{{#if:{{{assembly1|}}}|Xubin [[{{{assembly1}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament1|}}}|[[Baarlamaanka {{{parliament1}}}]]|Parliament}}}}<br />kana soo galay {{{constituency_{{#if:{{{constituency_AM1|}}}|AM|MP}}1}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM1|}}}|{{#if:{{{assembly1|}}}|Xubin [[{{{assembly1}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament1|}}}|[[Baarlamaanka {{{parliament1}}}]]|Parliament}}}}<br />kana soo galay {{{riding1}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader1}}} [[Majority Leader of the {{{state senate1}}} Senate|Majority Leader of the {{{state_senate1}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader1}}} [[Majority Floor Leader of the {{{state senate1}}} Senate|Majority Floor Leader of the {{{state_senate1}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader1}}} [[Minority Leader of the {{{state senate1}}} Senate|Minority Leader of the {{{state_senate1}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader1}}} [[Minority Floor Leader of the {{{state senate1}}} Senate|Minority Floor Leader of the {{{state_senate1}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader1}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature1|}}}||
+{{#if:{{{state_senate1|}}}||
+{{#if:{{{district1|}}}|
+{{#if:{{{jr/sr1|}}}||
+{{#if:{{{jr/sr and state1|}}}|| 
+{{#if:{{{succeeding1|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state1|}}}|&nbsp;from<br />{{{state1}}}'s {{{district1}}}}}
+{{!}}-|{{#if:{{{state_assembly1|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly1|}}} {{#ifeq:{{{state_assembly1|}}}|Nevada||{{#ifeq:{{{state_assembly1|}}}|New Jersey|General|State}}}} Assembly]]<br />kana soo galay {{#if:{{{state_assembly1|}}}|Deegaan nambar  {{{district1}}}}}</div>
+{{!}}-
+|{{#if:{{{district1|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house1|}}} |{{{state_house1}}}|{{#if:{{{state_delegate1|}}}|{{{state_delegate1}}}|United States}}}} House of {{#if:{{{state_delegate1|}}}|Delegates|Representatives}}|{{#if:{{{state_house1|}}} |{{{state_house1}}}|{{#if:{{{state_delegate1|}}}|{{{state_delegate1}}}|U.S.}}}} House of {{#if:{{{state_delegate1|}}}|Delegates|Representatives}}]]<br />kana soo galay {{#if:{{{state_delegate1|}}}| |{{#if:{{{state_house1|}}}| |{{{state1}}}'s}}}} Deegaan nambar {{{district1}}} </div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding1|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}
+{{!}}-
+|{{#if: {{{term1|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term1}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart1|}}}||_}}start1|}}}|
+{{#if:{{{term{{#if:{{{termend1|}}}||_}}end1|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend1|}}}||_}}end1}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend1|}}}||_}}end1|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}{{#if:{{{alongside1|}}}|<br />La shaqeeyey [[{{{alongside1}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------First President, Prime Minister, Governor---------->
+{{#if:{{{president1|}}}|
+! Madaxweyne
+{{!}} {{{president1}}}
+{{!}}-
+}}
+{{#if:{{{primeminister1|}}}|
+! Ra'iisulwasaare
+{{!}} {{{primeminister1}}}
+{{!}}-
+}}
+{{#if:{{{firstminister1|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister1}}}
+{{!}}-
+}}
+{{#if:{{{premier1|}}}|
+! Ra'iisulwasaare
+{{!}} {{{premier1}}}
+{{!}}-
+}}
+{{#if:{{{governor1|}}}|
+! Hogaamiye
+{{!}} {{{governor1}}}
+{{!}}-
+}}
+{{#if:{{{monarch1|}}}|
+! Boqor
+{{!}} {{{monarch1}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general1|}}}|-|_}}general1|}}}|
+! Governor{{#if:{{{governor-general1|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general1|}}}|-|_}}general1}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor1|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor1}}}
+{{!}}-
+}}
+<!----------First Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident1|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Madaxweyne ku xigeen}}
+{{!}} {{{vicepresident1}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister1|}}}|
+! {{#if:{{{office1|}}}|[[Vice {{{office1}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister1}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier1|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier1}}}
+{{!}}-
+}}
+{{#if:{{{deputy1|}}}|
+! ku xigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{deputy1}}}
+{{!}}-
+}}
+{{#if:{{{leader1|}}}|
+! Leader
+{{!}} {{{leader1}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant1|}}}|
+! {{#if:{{{office1|}}}|[[Lieutenant {{{office1}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant1}}}
+{{!}}-
+}}
+{{#if:{{{nominator1|}}}|
+! Waxaa{{#if:{{{gender|{{{sex|}}}}}}|A}} &nbsp; soo sharaxay
+{{!}} {{{nominator1}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}1|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}1}}}
+{{!}}-
+}}
+<!----------First predecessor/successor---------->
+{{#if:{{{opponent1|}}}|
+! Opponent(s)
+{{!}} {{{opponent1}}}
+{{!}}-
+{{#if:{{{incumbent1|}}}|
+! 
+{{!}} {{{incumbent1}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding1|}}}|
+! Xil kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding1}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor1|}}}|predecessor|preceded}}1|}}} |
+! Kaga horeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor1|}}}|predecessor|preceded}}1|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor1|}}}|successor|succeeded}}1|}}}|
+! Kaga dambeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor1|}}}|successor|succeeded}}1|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency1|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency1}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority1|}}}|
+! Aqlabiyad
+{{!}} {{{majority1}}}
+{{!}}-
+}}
+}}
+<!----------Second office---------->
+{{#if:{{{speaker|}}}||
+{{#if:{{{{{#if:{{{nominee2|}}}|nominee|candidate}}2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee2|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee2|}}}|nominee|candidate}}2|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart2|}}}||_}}start2|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}
+{{!}}-
+}}
+{{#if:{{{runningmate2|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate2}}}
+{{!}}-
+}}
+{{#if:{{{opponent2|}}}|
+! Opponent(s)
+{{!}} {{{opponent2}}}
+{{!}}-
+}}
+{{#if:{{{incumbent2|}}}|
+! Xilkiisa{{#if:{{{gender|{{{sex|}}}}}}|T}} sii watay
+{{!}} {{{incumbent2}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader2|}}}||
+{{#if:{{{majority_floor_leader2|}}}||
+{{#if:{{{minority_leader2|}}}||
+{{#if:{{{minority_floor_leader2|}}}||
+{{#if:{{{majorityleader2|}}}||
+{{#if:{{{jr/sr2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr2}}}{{#if:{{{succeeding2|}}} |-elect}}]]<br />kasoo biloow {{{state2}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state2}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Aqalka odayaasha  [[{{{state_senate2}}} {{#ifeq:{{{state_senate|}}}|Gobol||Banaadir}}]]<br />Deegaan nambar {{{district2}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state legislature2}}} Legislature]]<br />Deegaan nambar {{{district2}}} </div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from2|}}}|ambassador|minister}}_from2|}}}||
+{{#if:{{{order2|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order2}}}<!--
+-->{{#if:{{{office2|}}} |&nbsp;[[{{{office2}}}]]}}<!--
+-->{{#if:{{{state2|}}}  |&nbsp;[[{{{state2}}}]]}}<!--
+-->{{#if:{{{title2|}}}  |&nbsp;{{{title2}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office2}}}</div>
+{{!}}-
+}}
+{{#if:{{{title2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title2}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Second Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from2|}}}|ambassador|minister}}_from2|}}}|
+{{#if:{{{country2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order2|}}}|{{{order2}}}}} [[{{{{{#if:{{{ambassador_from2|}}}|ambassador|minister}}_from2}}} Ambassador to {{{country2}}}{{#if:{{{minister_from2|}}}|{{!}}{{{minister_from2}}} Minister to {{{country2}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from2|}}}|ambassador|minister}}_from2}}}|size=44x40px}} {{flagicon|{{{country2}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM2|}}}|AM|MP}}2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM2|}}}|{{#if:{{{assembly2|}}}|Xubin [[{{{assembly2}}} Assembly]]|Assembly Member}}|xubin ka ah {{#if:{{{parliament2|}}}|[[Baarlamaanka {{{parliament2}}}]]|Parliament}}}}<br />kana soo galay {{{constituency_{{#if:{{{constituency_AM2|}}}|AM|MP}}2}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM2|}}}|{{#if:{{{assembly2|}}}|Xubin [[{{{assembly2}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament2|}}}|[[Baarlamaanka {{{parliament2}}}]]|Parliament}}}}<br />kana soo galay {{{riding2}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader2}}} [[Majority Leader of the {{{state senate2}}} Senate|Majority Leader of the {{{state_senate2}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader2}}} [[Majority Floor Leader of the {{{state senate2}}} Senate|Majority Floor Leader of the {{{state_senate2}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader2}}} [[Minority Leader of the {{{state senate2}}} Senate|Minority Leader of the {{{state_senate2}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader2}}} [[Minority Floor Leader of the {{{state senate2}}} Senate|Minority Floor Leader of the {{{state_senate2}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader2}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature2|}}}||
+{{#if:{{{state_senate2|}}}||
+{{#if:{{{district2|}}}|
+{{#if:{{{jr/sr2|}}}||
+{{#if:{{{jr/sr and state2|}}}|| 
+{{#if:{{{succeeding2|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state2|}}}|&nbsp;from<br />{{{state2}}}'s {{{district2}}}}}
+{{!}}-|{{#if:{{{state_assembly2|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly2|}}} {{#ifeq:{{{state_assembly2|}}}|Nevada||{{#ifeq:{{{state_assembly2|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka soo biloow {{#if:{{{state_assembly2|}}}|Deegaan nambar  {{{district2}}}}} </div>
+{{!}}-
+|{{#if:{{{district2|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house2|}}} |{{{state_house2}}}|{{#if:{{{state_delegate2|}}}|{{{state_delegate2}}}|United States}}}} House of {{#if:{{{state_delegate2|}}}|Delegates|Representatives}}|{{#if:{{{state_house2|}}} |{{{state_house2}}}|{{#if:{{{state_delegate2|}}}|{{{state_delegate2}}}|U.S.}}}} House of {{#if:{{{state_delegate2|}}}|Delegates|Representatives}}]]<br />ka soo biloow {{#if:{{{state_delegate2|}}}|the |{{#if:{{{state_house2|}}}|the |{{{state2}}}'s}}}} {{{district2}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding2|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}
+{{!}}-
+|{{#if: {{{term2|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term2}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart2|}}}||_}}start2|}}}|
+{{#if:{{{term{{#if:{{{termend2|}}}||_}}end2|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend2|}}}||_}}end2}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Xilka'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend2|}}}||_}}end2|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka&nbsp;'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}{{#if:{{{alongside2|}}}|<br />la shaqeeya [[{{{alongside2}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Second President, Prime Minister, Governor---------->
+{{#if:{{{president2|}}}|
+! Madaxweyne
+{{!}} {{{president2}}}
+{{!}}-
+}}
+{{#if:{{{primeminister2|}}}|
+! Ra'iisul wasaare
+{{!}} {{{primeminister2}}}
+{{!}}-
+}}
+{{#if:{{{firstminister2|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister2}}}
+{{!}}-
+}}
+{{#if:{{{premier2|}}}|
+! Ra'iisul wasaare
+{{!}} {{{premier2}}}
+{{!}}-
+}}
+{{#if:{{{governor2|}}}|
+! Hogaamiye
+{{!}} {{{governor2}}}
+{{!}}-
+}}
+{{#if:{{{monarch2|}}}|
+! Boqor
+{{!}} {{{monarch2}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general2|}}}|-|_}}general2|}}}|
+! Governor{{#if:{{{governor-general2|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general2|}}}|-|_}}general2}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor2|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor2}}}
+{{!}}-
+}}
+<!----------Second Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident2|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident2}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister2|}}}|
+! {{#if:{{{office2|}}}|[[Vice {{{office2}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister2}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier2|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier2}}}
+{{!}}-
+}}
+{{#if:{{{deputy2|}}}|
+! ku xigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{deputy2}}}
+{{!}}-
+}}
+{{#if:{{{leader2|}}}|
+! Leader
+{{!}} {{{leader2}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant2|}}}|
+! {{#if:{{{office2|}}}|[[Lieutenant {{{office2}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant2}}}
+{{!}}-
+}}
+{{#if:{{{nominator2|}}}|
+! Waxaa{{#if:{{{gender|{{{sex|}}}}}}|A}} &nbsp; soo sharaxay
+{{!}} {{{nominator2}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}2|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}2}}}
+{{!}}-
+}}
+<!----------Second predecessor/successor---------->
+{{#if:{{{opponent2|}}}|
+! Opponent(s)
+{{!}} {{{opponent2}}}
+{{!}}-
+{{#if:{{{incumbent2|}}}|
+! Xilka{{#if:{{{gender|{{{sex|}}}}}}|T}} sii waday
+{{!}} {{{incumbent2}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding2|}}}|
+! Xil kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding2}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor2|}}}|predecessor|preceded}}2|}}} |
+! kaga horeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor2|}}}|predecessor|preceded}}2|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor2|}}}|successor|succeeded}}2|}}}|
+! kaga dambeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor2|}}}|successor|succeeded}}2|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency2|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency2}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority2|}}}|
+! Aqlabiyad
+{{!}} {{{majority2}}}
+{{!}}-
+}}
+}}
+}}
+<!----------Third office---------->
+{{#if:{{{{{#if:{{{nominee3|}}}|nominee|candidate}}3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee3|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee3|}}}|nominee|candidate}}3|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart3|}}}||_}}start3|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart3|}}}||_}}start3}}}
+{{!}}-
+}}
+{{#if:{{{runningmate3|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate3}}}
+{{!}}-
+}}
+{{#if:{{{opponent3|}}}|
+! Opponent(s)
+{{!}} {{{opponent3}}}
+{{!}}-
+}}
+{{#if:{{{incumbent3|}}}|
+! Xilka{{#if:{{{gender|{{{sex|}}}}}}|T}} sii watay
+{{!}} {{{incumbent3}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader3|}}}||
+{{#if:{{{majority_floor_leader3|}}}||
+{{#if:{{{minority_leader3|}}}||
+{{#if:{{{minority_floor_leader3|}}}||
+{{#if:{{{majorityleader3|}}}||
+{{#if:{{{jr/sr3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr3}}}{{#if:{{{succeeding3|}}} |-elect}}]]<br />Kasoo biloow {{{state3}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state3}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin ka ah [[{{{state_senate3}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />deegaan nambar {{{district3}}} </div>
+{{!}}-
+}}
+{{#if:{{{state_legislature3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">xubin ka ah [[{{{state legislature3}}} Legislature]]<br />deegaan nambar {{{district3}}} </div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from3|}}}|ambassador|minister}}_from3|}}}||
+{{#if:{{{order3|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order3}}}<!--
+-->{{#if:{{{office3|}}} |&nbsp;[[{{{office3}}}]]}}<!--
+-->{{#if:{{{state3|}}}  |&nbsp;[[{{{state3}}}]]}}<!--
+-->{{#if:{{{title3|}}}  |&nbsp;{{{title3}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office3}}}</div>
+{{!}}-
+}}
+{{#if:{{{title3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title3}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Third Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from3|}}}|ambassador|minister}}_from3|}}}|
+{{#if:{{{country3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order3|}}}|{{{order3}}}}} [[{{{{{#if:{{{ambassador_from3|}}}|ambassador|minister}}_from3}}} Ambassador to {{{country3}}}{{#if:{{{minister_from3|}}}|{{!}}{{{minister_from3}}} Minister to {{{country3}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from3|}}}|ambassador|minister}}_from3}}}|size=44x40px}} {{flagicon|{{{country3}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM3|}}}|AM|MP}}3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM3|}}}|{{#if:{{{assembly3|}}}|Xubin [[{{{assembly3}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament3|}}}|[[Barlamaanka {{{parliament3}}}]]|Parliament}}}}<br />Kana soo galay {{{constituency_{{#if:{{{constituency_AM3|}}}|AM|MP}}3}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM3|}}}|{{#if:{{{assembly3|}}}|Xubin [[{{{assembly3}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament3|}}}|[[Baarlamaanka {{{parliament3}}}]]|Parliament}}}}<br />Kana soo galay {{{riding3}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader3}}} [[Majority Leader of the {{{state senate3}}} Senate|Majority Leader of the {{{state_senate3}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader3}}} [[Majority Floor Leader of the {{{state senate3}}} Senate|Majority Floor Leader of the {{{state_senate3}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader3}}} [[Minority Leader of the {{{state senate3}}} Senate|Minority Leader of the {{{state_senate3}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader3}}} [[Minority Floor Leader of the {{{state senate3}}} Senate|Minority Floor Leader of the {{{state_senate3}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader3}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature3|}}}||
+{{#if:{{{state_senate3|}}}||
+{{#if:{{{district3|}}}|
+{{#if:{{{jr/sr3|}}}||
+{{#if:{{{jr/sr and state3|}}}|| 
+{{#if:{{{succeeding3|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state3|}}}|&nbsp;from<br />{{{state3}}}'s {{{district3}}}}}
+{{!}}-|{{#if:{{{state_assembly3|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly3|}}} {{#ifeq:{{{state_assembly3|}}}|Nevada||{{#ifeq:{{{state_assembly3|}}}|New Jersey|General|State}}}} Assembly]]<br />kasoo biloow {{#if:{{{state_assembly3|}}}|the {{{district3}}}}} district</div>
+{{!}}-
+|{{#if:{{{district3|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house3|}}} |{{{state_house3}}}|{{#if:{{{state_delegate3|}}}|{{{state_delegate3}}}|United States}}}} House of {{#if:{{{state_delegate3|}}}|Delegates|Representatives}}|{{#if:{{{state_house3|}}} |{{{state_house3}}}|{{#if:{{{state_delegate3|}}}|{{{state_delegate3}}}|U.S.}}}} House of {{#if:{{{state_delegate3|}}}|Delegates|Representatives}}]]<br />Kasoo biloow {{#if:{{{state_delegate3|}}}|the |{{#if:{{{state_house3|}}}|the |{{{state3}}}'s}}}} {{{district3}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding3|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka haya&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart3|}}}||_}}start3}}}
+{{!}}-
+|{{#if: {{{term3|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka haya&nbsp;Xilka'''<br />{{{term3}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart3|}}}||_}}start3|}}}|
+{{#if:{{{term{{#if:{{{termend3|}}}||_}}end3|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka haya&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart3|}}}||_}}start3}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend3|}}}||_}}end3}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Sii ahaaday{{#if:{{{gender|{{{sex|}}}}}}|T}} Xilkiisa]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend3|}}}||_}}end3|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Ka haya&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart3|}}}||_}}start3}}}{{#if:{{{alongside3|}}}|<br />La shaqeeya [[{{{alongside3}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Third President, Prime Minister, Governor---------->
+{{#if:{{{president3|}}}|
+! Madaxweyne
+{{!}} {{{president3}}}
+{{!}}-
+}}
+{{#if:{{{primeminister3|}}}|
+! Ra'iisulwasaare
+{{!}} {{{primeminister3}}}
+{{!}}-
+}}
+{{#if:{{{firstminister3|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister3}}}
+{{!}}-
+}}
+{{#if:{{{premier3|}}}|
+! Ra'iisulwasaare
+{{!}} {{{premier3}}}
+{{!}}-
+}}
+{{#if:{{{governor3|}}}|
+! Hogaamiye
+{{!}} {{{governor3}}}
+{{!}}-
+}}
+{{#if:{{{monarch3|}}}|
+! Boqor
+{{!}} {{{monarch3}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general3|}}}|-|_}}general3|}}}|
+! Governor{{#if:{{{governor-general3|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general3|}}}|-|_}}general3}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor3|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor3}}}
+{{!}}-
+}}
+<!----------Third Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident3|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident3}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister3|}}}|
+! {{#if:{{{office3|}}}|[[Vice {{{office3}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister3}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier3|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier3}}}
+{{!}}-
+}}
+{{#if:{{{deputy3|}}}|
+! {{#if:{{{office3|}}}|ku xigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}}}
+{{!}} {{{deputy3}}}
+{{!}}-
+}}
+{{#if:{{{leader3|}}}|
+! Leader
+{{!}} {{{leader3}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant3|}}}|
+! {{#if:{{{office3|}}}|[[Lieutenant {{{office3}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant3}}}
+{{!}}-
+}}
+{{#if:{{{nominator3|}}}|
+! Nominated&nbsp;by
+{{!}} {{{nominator3}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}3|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}3}}}
+{{!}}-
+}}
+<!----------Third predecessor/successor---------->
+{{#if:{{{opponent3|}}}|
+! Opponent(s)
+{{!}} {{{opponent3}}}
+{{!}}-
+{{#if:{{{incumbent3|}}}|
+! Xilkiisa{{#if:{{{gender|{{{sex|}}}}}}|T}} sii watay
+{{!}} {{{incumbent3}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding3|}}}|
+! kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding3}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor3|}}}|predecessor|preceded}}3|}}} |
+! kaga horeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor3|}}}|predecessor|preceded}}3|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor3|}}}|successor|succeeded}}3|}}}|
+! kaga dambeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor3|}}}|successor|succeeded}}3|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency3|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency3}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority3|}}}|
+! Aqlabiyad
+{{!}} {{{majority3}}}
+{{!}}-
+}}
+}}
+<!----------Fourth office---------->
+{{#if:{{{{{#if:{{{nominee4|}}}|nominee|candidate}}4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee4|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee4|}}}|nominee|candidate}}4|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart4|}}}||_}}start4|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart4|}}}||_}}start4}}}
+{{!}}-
+}}
+{{#if:{{{runningmate4|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate4}}}
+{{!}}-
+}}
+{{#if:{{{opponent4|}}}|
+! Opponent(s)
+{{!}} {{{opponent4}}}
+{{!}}-
+}}
+{{#if:{{{incumbent4|}}}|
+! Xilkiisa{{#if:{{{gender|{{{sex|}}}}}}|T}} sii watay
+{{!}} {{{incumbent4}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader4|}}}||
+{{#if:{{{majority_floor_leader4|}}}||
+{{#if:{{{minority_leader4|}}}||
+{{#if:{{{minority_floor_leader4|}}}||
+{{#if:{{{majorityleader4|}}}||
+{{#if:{{{jr/sr4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr4}}}{{#if:{{{succeeding4|}}} |-elect}}]]<br />laga soo bilaabo {{{state4}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state4}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state_senate4}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />laga soo bilaabo the {{{district4}}} district</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state legislature4}}} Legislature]]<br />ka soo biloow  the {{{district4}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from4|}}}|ambassador|minister}}_from4|}}}||
+{{#if:{{{order4|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order4}}}<!--
+-->{{#if:{{{office4|}}} |&nbsp;[[{{{office4}}}]]}}<!--
+-->{{#if:{{{state4|}}}  |&nbsp;[[{{{state4}}}]]}}<!--
+-->{{#if:{{{title4|}}}  |&nbsp;{{{title4}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office4}}}</div>
+{{!}}-
+}}
+{{#if:{{{title4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title4}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Fourth Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from4|}}}|ambassador|minister}}_from4|}}}|
+{{#if:{{{country4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order4|}}}|{{{order4}}}}} [[{{{{{#if:{{{ambassador_from4|}}}|ambassador|minister}}_from4}}} Ambassador to {{{country4}}}{{#if:{{{minister_from4|}}}|{{!}}{{{minister_from4}}} Minister to {{{country4}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from4|}}}|ambassador|minister}}_from4}}}|size=44x40px}} {{flagicon|{{{country4}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM4|}}}|AM|MP}}4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM4|}}}|{{#if:{{{assembly4|}}}|Xubin [[{{{assembly4}}} Assembly]]|Assembly Member}}|Xubin ka ha {{#if:{{{parliament4|}}}|[[Baarlamaanka  {{{parliament4}}}]]|Parliament}}}}<br />Ka ah {{{constituency_{{#if:{{{constituency_AM4|}}}|AM|MP}}4}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM4|}}}|{{#if:{{{assembly4|}}}|Xubin  [[{{{assembly4}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament4|}}}|[[Baarlamaanka  {{{parliament4}}}]]|Parliament}}}}<br />Ka ah  {{{riding4}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader4}}} [[Majority Leader of the {{{state senate4}}} Senate|Majority Leader of the {{{state_senate4}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader4}}} [[Majority Floor Leader of the {{{state senate4}}} Senate|Majority Floor Leader of the {{{state_senate4}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader4}}} [[Minority Leader of the {{{state senate4}}} Senate|Minority Leader of the {{{state_senate4}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader4}}} [[Minority Floor Leader of the {{{state senate4}}} Senate|Minority Floor Leader of the {{{state_senate4}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader4}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature4|}}}||
+{{#if:{{{state_senate4|}}}||
+{{#if:{{{district4|}}}|
+{{#if:{{{jr/sr4|}}}||
+{{#if:{{{jr/sr and state4|}}}|| 
+{{#if:{{{succeeding4|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state4|}}}|&nbsp;from<br />{{{state4}}}'s {{{district4}}}}}
+{{!}}-|{{#if:{{{state_assembly4|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin  [[{{{state_assembly4|}}} {{#ifeq:{{{state_assembly4|}}}|Nevada||{{#ifeq:{{{state_assembly4|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka soo biloow  {{#if:{{{state_assembly4|}}}|the {{{district4}}}}} district</div>
+{{!}}-
+|{{#if:{{{district4|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin  [[{{#if:{{{state_house4|}}} |{{{state_house4}}}|{{#if:{{{state_delegate4|}}}|{{{state_delegate4}}}|United States}}}} House of {{#if:{{{state_delegate4|}}}|Delegates|Representatives}}|{{#if:{{{state_house4|}}} |{{{state_house4}}}|{{#if:{{{state_delegate4|}}}|{{{state_delegate4}}}|U.S.}}}} House of {{#if:{{{state_delegate4|}}}|Delegates|Representatives}}]]<br />Kasoo  biloow  {{#if:{{{state_delegate4|}}}|the |{{#if:{{{state_house4|}}}|the |{{{state4}}}'s}}}} {{{district4}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding4|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Haya&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart4|}}}||_}}start4}}}
+{{!}}-
+|{{#if: {{{term4|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Haya&nbsp;Xilka'''<br />{{{term4}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart4|}}}||_}}start4|}}}|
+{{#if:{{{term{{#if:{{{termend4|}}}||_}}end4|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}''Haya&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart4|}}}||_}}start4}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend4|}}}||_}}end4}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Sii watay{{#if:{{{gender|{{{sex|}}}}}}|T}} Xilkiisa]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend4|}}}||_}}end4|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Haya&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart4|}}}||_}}start4}}}{{#if:{{{alongside4|}}}|<br />La shaqeeyey  [[{{{alongside4}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Fourth President, Prime Minister, Governor---------->
+{{#if:{{{president4|}}}|
+! Madaxweyne
+{{!}} {{{president4}}}
+{{!}}-
+}}
+{{#if:{{{primeminister4|}}}|
+! Raiisul wasaare
+{{!}} {{{primeminister4}}}
+{{!}}-
+}}
+{{#if:{{{firstminister4|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister4}}}
+{{!}}-
+}}
+{{#if:{{{premier4|}}}|
+! Raiisul wasaare
+{{!}} {{{premier4}}}
+{{!}}-
+}}
+{{#if:{{{governor4|}}}|
+! Hogaamiye
+{{!}} {{{governor4}}}
+{{!}}-
+}}
+{{#if:{{{monarch4|}}}|
+! Boqor
+{{!}} {{{monarch4}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general4|}}}|-|_}}general4|}}}|
+! Governor{{#if:{{{governor-general4|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general4|}}}|-|_}}general4}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor4|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor4}}}
+{{!}}-
+}}
+<!----------Fourth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident4|}}}|
+! {{#if:{{{office|}}}|(T )Madawxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident4}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister4|}}}|
+! {{#if:{{{office4|}}}|[[Vice {{{office4}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister4}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier4|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier4}}}
+{{!}}-
+}}
+{{#if:{{{deputy4|}}}|
+! {{#if:{{{office4|}}}|Ku xigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}}}
+{{!}} {{{deputy4}}}
+{{!}}-
+}}
+{{#if:{{{leader4|}}}|
+! Leader
+{{!}} {{{leader4}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant4|}}}|
+! {{#if:{{{office4|}}}|[[Lieutenant {{{office4}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant4}}}
+{{!}}-
+}}
+{{#if:{{{nominator4|}}}|
+! Nominated&nbsp;by
+{{!}} {{{nominator4}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}4|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}4}}}
+{{!}}-
+}}
+<!----------Fourth predecessor/successor---------->
+{{#if:{{{opponent4|}}}|
+! Opponent(s)
+{{!}} {{{opponent4}}}
+{{!}}-
+{{#if:{{{incumbent4|}}}|
+! Sii watay{{#if:{{{gender|{{{sex|}}}}}}|T}} xilkiisa
+{{!}} {{{incumbent4}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding4|}}}|
+! Xil kaga hpreeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding4}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor4|}}}|predecessor|preceded}}4|}}} |
+! Xilka&nbsp;kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor4|}}}|predecessor|preceded}}4|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor4|}}}|successor|succeeded}}4|}}}|
+! Xil&nbsp;kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor4|}}}|successor|succeeded}}4|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency4|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency4}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority4|}}}|
+! Aqlabiyad
+{{!}} {{{majority4}}}
+{{!}}-
+}}
+}}
+<!----------Fifth office---------->
+{{#if:{{{{{#if:{{{nominee5|}}}|nominee|candidate}}5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee5|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee5|}}}|nominee|candidate}}5|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart5|}}}||_}}start5|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart5|}}}||_}}start5}}}
+{{!}}-
+}}
+{{#if:{{{runningmate5|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate5}}}
+{{!}}-
+}}
+{{#if:{{{opponent5|}}}|
+! Opponent(s)
+{{!}} {{{opponent5}}}
+{{!}}-
+}}
+{{#if:{{{incumbent5|}}}|
+! Xilkiisa{{#if:{{{gender|{{{sex|}}}}}}|T}} Sii watay
+{{!}} {{{incumbent5}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader5|}}}||
+{{#if:{{{majority_floor_leader5|}}}||
+{{#if:{{{minority_leader5|}}}||
+{{#if:{{{minority_floor_leader5|}}}||
+{{#if:{{{majorityleader5|}}}||
+{{#if:{{{jr/sr5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr5}}}{{#if:{{{succeeding5|}}} |-elect}}]]<br />Kasoo biloow {{{state5}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state5}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state_senate5}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />Ka ah  the {{{district5}}} district</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state legislature5}}} Legislature]]<br />ka ah  the {{{district5}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from5|}}}|ambassador|minister}}_from5|}}}||
+{{#if:{{{order5|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order5}}}<!--
+-->{{#if:{{{office5|}}} |&nbsp;[[{{{office5}}}]]}}<!--
+-->{{#if:{{{state5|}}}  |&nbsp;[[{{{state5}}}]]}}<!--
+-->{{#if:{{{title5|}}}  |&nbsp;{{{title5}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office5}}}</div>
+{{!}}-
+}}
+{{#if:{{{title5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title5}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Fifth Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from5|}}}|ambassador|minister}}_from5|}}}|
+{{#if:{{{country5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order5|}}}|{{{order5}}}}} [[{{{{{#if:{{{ambassador_from5|}}}|ambassador|minister}}_from5}}} Ambassador to {{{country5}}}{{#if:{{{minister_from5|}}}|{{!}}{{{minister_from5}}} Minister to {{{country5}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from5|}}}|ambassador|minister}}_from5}}}|size=44x40px}} {{flagicon|{{{country5}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM5|}}}|AM|MP}}5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM5|}}}|{{#if:{{{assembly5|}}}|Xubin [[{{{assembly5}}} Assembly]]|Assembly Member}}|Xubin  ka ah {{#if:{{{parliament5|}}}|[[Ka ah {{{parliament5}}}]]|Parliament}}}}<br />Baarlamaanka {{{constituency_{{#if:{{{constituency_AM5|}}}|AM|MP}}5}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM5|}}}|{{#if:{{{assembly5|}}}|Xubin [[{{{assembly5}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament5|}}}|[[Ka ah  {{{parliament5}}}]]|Parliament}}}}<br />Baarlamaanka {{{riding5}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader5}}} [[Majority Leader of the {{{state senate5}}} Senate|Majority Leader of the {{{state_senate5}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader5}}} [[Majority Floor Leader of the {{{state senate5}}} Senate|Majority Floor Leader of the {{{state_senate5}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader5}}} [[Minority Leader of the {{{state senate5}}} Senate|Minority Leader of the {{{state_senate5}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader5}}} [[Minority Floor Leader of the {{{state senate5}}} Senate|Minority Floor Leader of the {{{state_senate5}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader5}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature5|}}}||
+{{#if:{{{state_senate5|}}}||
+{{#if:{{{district5|}}}|
+{{#if:{{{jr/sr5|}}}||
+{{#if:{{{jr/sr and state5|}}}|| 
+{{#if:{{{succeeding5|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state5|}}}|&nbsp;from<br />{{{state5}}}'s {{{district5}}}}}
+{{!}}-|{{#if:{{{state_assembly5|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly5|}}} {{#ifeq:{{{state_assembly5|}}}|Nevada||{{#ifeq:{{{state_assembly5|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka ah {{#if:{{{state_assembly5|}}}|the {{{district5}}}}} district</div>
+{{!}}-
+|{{#if:{{{district5|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin  [[{{#if:{{{state_house5|}}} |{{{state_house5}}}|{{#if:{{{state_delegate5|}}}|{{{state_delegate5}}}|United States}}}} House of {{#if:{{{state_delegate5|}}}|Delegates|Representatives}}|{{#if:{{{state_house5|}}} |{{{state_house5}}}|{{#if:{{{state_delegate5|}}}|{{{state_delegate5}}}|U.S.}}}} House of {{#if:{{{state_delegate5|}}}|Delegates|Representatives}}]]<br />Ka ah {{#if:{{{state_delegate5|}}}|the |{{#if:{{{state_house5|}}}|the |{{{state5}}}'s}}}} {{{district5}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding5|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart5|}}}||_}}start5}}}
+{{!}}-
+|{{#if: {{{term5|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term5}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart5|}}}||_}}start5|}}}|
+{{#if:{{{term{{#if:{{{termend5|}}}||_}}end5|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart5|}}}||_}}start5}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend5|}}}||_}}end5}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Xilka{{#if:{{{gender|{{{sex|}}}}}}|T}} sii watay]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend5|}}}||_}}end5|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Qabsaday&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart5|}}}||_}}start5}}}{{#if:{{{alongside5|}}}|<br />La shaqeeyey [[{{{alongside5}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Fifth President, Prime Minister, Governor---------->
+{{#if:{{{president5|}}}|
+! Madaxweyne
+{{!}} {{{president5}}}
+{{!}}-
+}}
+{{#if:{{{primeminister5|}}}|
+! Ra'iisulwasaare
+{{!}} {{{primeminister5}}}
+{{!}}-
+}}
+{{#if:{{{firstminister5|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister5}}}
+{{!}}-
+}}
+{{#if:{{{premier5|}}}|
+! Ra'iisulwasaare
+{{!}} {{{premier5}}}
+{{!}}-
+}}
+{{#if:{{{governor5|}}}|
+! Hogaamiye
+{{!}} {{{governor5}}}
+{{!}}-
+}}
+{{#if:{{{monarch5|}}}|
+! Boqor
+{{!}} {{{monarch5}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general5|}}}|-|_}}general5|}}}|
+! Governor{{#if:{{{governor-general5|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general5|}}}|-|_}}general5}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor5|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor5}}}
+{{!}}-
+}}
+<!----------Fifth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident5|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident5}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister5|}}}|
+! {{#if:{{{office5|}}}|[[Vice {{{office5}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister5}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier5|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier5}}}
+{{!}}-
+}}
+{{#if:{{{deputy5|}}}|
+! {{#if:{{{office5|}}}|Ku xigeenkiisa{{#if:{{{gender|{{{sex|}}}}}}|A}}}}
+{{!}} {{{deputy5}}}
+{{!}}-
+}}
+{{#if:{{{leader5|}}}|
+! Leader
+{{!}} {{{leader5}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant5|}}}|
+! {{#if:{{{office5|}}}|[[Lieutenant {{{office5}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant5}}}
+{{!}}-
+}}
+{{#if:{{{nominator5|}}}|
+! Waxaa{{#if:{{{gender|{{{sex|}}}}}}|A}} &nbsp; soo xushay
+{{!}} {{{nominator5}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}5|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}5}}}
+{{!}}-
+}}
+<!----------Fifth predecessor/successor---------->
+{{#if:{{{opponent5|}}}|
+! Opponent(s)
+{{!}} {{{opponent5}}}
+{{!}}-
+{{#if:{{{incumbent5|}}}|
+! Sii watay{{#if:{{{gender|{{{sex|}}}}}}|T}}Xilka
+{{!}} {{{incumbent5}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding5|}}}|
+! Xilka kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{succeeding5}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor5|}}}|predecessor|preceded}}5|}}} |
+! Xilka&nbsp;kaga horeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{predecessor5|}}}|predecessor|preceded}}5|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor5|}}}|successor|succeeded}}5|}}}|
+! Xilka&nbsp;kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor5|}}}|successor|succeeded}}5|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency5|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency5}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority5|}}}|
+! Aqlabiyad
+{{!}} {{{majority5}}}
+{{!}}-
+}}
+}}
+<!----------Sixth office---------->
+{{#if:{{{{{#if:{{{nominee6|}}}|nominee|candidate}}6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee6|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee6|}}}|nominee|candidate}}6|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart6|}}}||_}}start6|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart6|}}}||_}}start6}}}
+{{!}}-
+}}
+{{#if:{{{runningmate6|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate6}}}
+{{!}}-
+}}
+{{#if:{{{opponent6|}}}|
+! Opponent(s)
+{{!}} {{{opponent6}}}
+{{!}}-
+}}
+{{#if:{{{incumbent6|}}}|
+! Sii{{#if:{{{gender|{{{sex|}}}}}}|T}} Watay xilkiisa
+{{!}} {{{incumbent6}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader6|}}}||
+{{#if:{{{majority_floor_leader6|}}}||
+{{#if:{{{minority_leader6|}}}||
+{{#if:{{{minority_floor_leader6|}}}||
+{{#if:{{{majorityleader6|}}}||
+{{#if:{{{jr/sr6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr6}}}{{#if:{{{succeeding6|}}} |-elect}}]]<br />Kasoo biloow {{{state6}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state6}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state_senate6}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />من the {{{district6}}} district</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state legislature6}}} Legislature]]<br />Ka ah the {{{district6}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from6|}}}|ambassador|minister}}_from6|}}}||
+{{#if:{{{order6|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order6}}}<!--
+-->{{#if:{{{office6|}}} |&nbsp;[[{{{office6}}}]]}}<!--
+-->{{#if:{{{state6|}}}  |&nbsp;[[{{{state6}}}]]}}<!--
+-->{{#if:{{{title6|}}}  |&nbsp;{{{title6}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office6}}}</div>
+{{!}}-
+}}
+{{#if:{{{title6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title6}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Sixth Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from6|}}}|ambassador|minister}}_from6|}}}|
+{{#if:{{{country6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order6|}}}|{{{order6}}}}} [[{{{{{#if:{{{ambassador_from6|}}}|ambassador|minister}}_from6}}} Ambassador to {{{country6}}}{{#if:{{{minister_from6|}}}|{{!}}{{{minister_from6}}} Minister to {{{country6}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from6|}}}|ambassador|minister}}_from6}}}|size=44x40px}} {{flagicon|{{{country6}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM6|}}}|AM|MP}}6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM6|}}}|{{#if:{{{assembly6|}}}|Xubin [[{{{assembly6}}} Assembly]]|Assembly Member}}|Xubin ka ah {{#if:{{{parliament6|}}}|[[Ka mid ah  {{{parliament6}}}]]|Parliament}}}}<br />Baarlamaanka {{{constituency_{{#if:{{{constituency_AM6|}}}|AM|MP}}6}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM6|}}}|{{#if:{{{assembly6|}}}|Xubin  [[{{{assembly6}}} Assembly]]|Assembly Member}}|Xubin ku jirta {{#if:{{{parliament6|}}}|[[Ka mid ah {{{parliament6}}}]]|Parliament}}}}<br />Baarlamaanka  {{{riding6}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader6}}} [[Majority Leader of the {{{state senate6}}} Senate|Majority Leader of the {{{state_senate6}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader6}}} [[Majority Floor Leader of the {{{state senate6}}} Senate|Majority Floor Leader of the {{{state_senate6}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader6}}} [[Minority Leader of the {{{state senate6}}} Senate|Minority Leader of the {{{state_senate6}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader6}}} [[Minority Floor Leader of the {{{state senate6}}} Senate|Minority Floor Leader of the {{{state_senate6}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader6}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature6|}}}||
+{{#if:{{{state_senate6|}}}||
+{{#if:{{{district6|}}}|
+{{#if:{{{jr/sr6|}}}||
+{{#if:{{{jr/sr and state6|}}}|| 
+{{#if:{{{succeeding6|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state6|}}}|&nbsp;from<br />{{{state6}}}'s {{{district6}}}}}
+{{!}}-|{{#if:{{{state_assembly6|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin  [[{{{state_assembly6|}}} {{#ifeq:{{{state_assembly6|}}}|Nevada||{{#ifeq:{{{state_assembly6|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka soo biloow  {{#if:{{{state_assembly6|}}}|the {{{district6}}}}} district</div>
+{{!}}-
+|{{#if:{{{district6|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin  [[{{#if:{{{state_house6|}}} |{{{state_house6}}}|{{#if:{{{state_delegate6|}}}|{{{state_delegate6}}}|United States}}}} House of {{#if:{{{state_delegate6|}}}|Delegates|Representatives}}|{{#if:{{{state_house6|}}} |{{{state_house6}}}|{{#if:{{{state_delegate6|}}}|{{{state_delegate6}}}|U.S.}}}} House of {{#if:{{{state_delegate6|}}}|Delegates|Representatives}}]]<br />Kasoo biloow  {{#if:{{{state_delegate6|}}}|the |{{#if:{{{state_house6|}}}|the |{{{state6}}}'s}}}} {{{district6}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding6|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart6|}}}||_}}start6}}}
+{{!}}-
+|{{#if: {{{term6|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term6}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart6|}}}||_}}start6|}}}|
+{{#if:{{{term{{#if:{{{termend6|}}}||_}}end6|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart6|}}}||_}}start6}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend6|}}}||_}}end6}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Xilka qabsaday]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend6|}}}||_}}end6|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}''Xilka&nbsp;qabsaday&nbsp;'''<br />{{{term{{#if:{{{termstart6|}}}||_}}start6}}}{{#if:{{{alongside6|}}}|<br />La shaqeeyey [[{{{alongside6}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Sixth President, Prime Minister, Governor---------->
+{{#if:{{{president6|}}}|
+! Madaxweyne
+{{!}} {{{president6}}}
+{{!}}-
+}}
+{{#if:{{{primeminister6|}}}|
+! Raiisulwasaare
+{{!}} {{{primeminister6}}}
+{{!}}-
+}}
+{{#if:{{{firstminister6|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister6}}}
+{{!}}-
+}}
+{{#if:{{{premier6|}}}|
+! Raiisulwasaare
+{{!}} {{{premier6}}}
+{{!}}-
+}}
+{{#if:{{{governor6|}}}|
+! Hogaamiye
+{{!}} {{{governor6}}}
+{{!}}-
+}}
+{{#if:{{{monarch6|}}}|
+! Boqor
+{{!}} {{{monarch6}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general6|}}}|-|_}}general6|}}}|
+! Governor{{#if:{{{governor-general6|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general6|}}}|-|_}}general6}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor6|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor6}}}
+{{!}}-
+}}
+<!----------Sixth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident6|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident6}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister6|}}}|
+! {{#if:{{{office6|}}}|[[Vice {{{office6}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister6}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier6|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier6}}}
+{{!}}-
+}}
+{{#if:{{{deputy6|}}}|
+! {{#if:{{{office6|}}}|[[Deputy {{{office6}}}|Deputy]]|Deputy}}
+{{!}} {{{deputy6}}}
+{{!}}-
+}}
+{{#if:{{{leader6|}}}|
+! Leader
+{{!}} {{{leader6}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant6|}}}|
+! {{#if:{{{office6|}}}|[[Lieutenant {{{office6}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant6}}}
+{{!}}-
+}}
+{{#if:{{{nominator6|}}}|
+! Waxaa &nbsp; soo xushay
+{{!}} {{{nominator6}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}6|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}6}}}
+{{!}}-
+}}
+<!----------Sixth predecessor/successor---------->
+{{#if:{{{opponent6|}}}|
+! Opponent(s)
+{{!}} {{{opponent6}}}
+{{!}}-
+{{#if:{{{incumbent6|}}}|
+! Xilkiisa ka dhicin
+{{!}} {{{incumbent6}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding6|}}}|
+! Xilka kaga horeeyey
+{{!}} {{{succeeding6}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor6|}}}|predecessor|preceded}}6|}}} |
+! Xilka&nbsp;Kaga horeeyey
+{{!}} {{{{{#if:{{{predecessor6|}}}|predecessor|preceded}}6|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor6|}}}|successor|succeeded}}6|}}}|
+! Xilka&nbsp;Kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor6|}}}|successor|succeeded}}6|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency6|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency6}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority6|}}}|
+! Aqlabiyad
+{{!}} {{{majority6}}}
+{{!}}-
+}}
+}}
+<!----------Seventh office---------->
+{{#if:{{{{{#if:{{{nominee7|}}}|nominee|candidate}}7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee7|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee7|}}}|nominee|candidate}}7|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart7|}}}||_}}start7|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart7|}}}||_}}start7}}}
+{{!}}-
+}}
+{{#if:{{{runningmate7|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate7}}}
+{{!}}-
+}}
+{{#if:{{{opponent7|}}}|
+! Opponent(s)
+{{!}} {{{opponent7}}}
+{{!}}-
+}}
+{{#if:{{{incumbent7|}}}|
+! Xilka sii watay
+{{!}} {{{incumbent7}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader7|}}}||
+{{#if:{{{majority_floor_leader7|}}}||
+{{#if:{{{minority_leader7|}}}||
+{{#if:{{{minority_floor_leader7|}}}||
+{{#if:{{{majorityleader7|}}}||
+{{#if:{{{jr/sr7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr7}}}{{#if:{{{succeeding7|}}} |-elect}}]]<br />Kasoo biloow  {{{state7}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state7}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin  [[{{{state_senate7}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />ka timid  the {{{district7}}} district</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin  [[{{{state legislature7}}} Legislature]]<br />Ka timid  the {{{district7}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from7|}}}|ambassador|minister}}_from7|}}}||
+{{#if:{{{order7|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order7}}}<!--
+-->{{#if:{{{office7|}}} |&nbsp;[[{{{office7}}}]]}}<!--
+-->{{#if:{{{state7|}}}  |&nbsp;[[{{{state7}}}]]}}<!--
+-->{{#if:{{{title7|}}}  |&nbsp;{{{title7}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office7}}}</div>
+{{!}}-
+}}
+{{#if:{{{title7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title7}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Seventh Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from7|}}}|ambassador|minister}}_from7|}}}|
+{{#if:{{{country7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order7|}}}|{{{order7}}}}} [[{{{{{#if:{{{ambassador_from7|}}}|ambassador|minister}}_from7}}} Ambassador to {{{country7}}}{{#if:{{{minister_from7|}}}|{{!}}{{{minister_from7}}} Minister to {{{country7}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from7|}}}|ambassador|minister}}_from7}}}|size=44x40px}} {{flagicon|{{{country7}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM7|}}}|AM|MP}}7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM7|}}}|{{#if:{{{assembly7|}}}|Xubin [[{{{assembly7}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament7|}}}|[[Baarlmaanka {{{parliament7}}}]]|Parliament}}}}<br />Ka mid ah  {{{constituency_{{#if:{{{constituency_AM7|}}}|AM|MP}}7}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM7|}}}|{{#if:{{{assembly7|}}}|Xubin  [[{{{assembly7}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament7|}}}|[[Baarlamaanka  {{{parliament7}}}]]|Parliament}}}}<br />Ka mid ah {{{riding7}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader7}}} [[Majority Leader of the {{{state senate7}}} Senate|Majority Leader of the {{{state_senate7}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader7}}} [[Majority Floor Leader of the {{{state senate7}}} Senate|Majority Floor Leader of the {{{state_senate7}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader7}}} [[Minority Leader of the {{{state senate7}}} Senate|Minority Leader of the {{{state_senate7}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader7}}} [[Minority Floor Leader of the {{{state senate7}}} Senate|Minority Floor Leader of the {{{state_senate7}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader7}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature7|}}}||
+{{#if:{{{state_senate7|}}}||
+{{#if:{{{district7|}}}|
+{{#if:{{{jr/sr7|}}}||
+{{#if:{{{jr/sr and state7|}}}|| 
+{{#if:{{{succeeding7|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state7|}}}|&nbsp;from<br />{{{state7}}}'s {{{district7}}}}}
+{{!}}-|{{#if:{{{state_assembly7|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin [[{{{state_assembly7|}}} {{#ifeq:{{{state_assembly7|}}}|Nevada||{{#ifeq:{{{state_assembly7|}}}|New Jersey|General|State}}}} Assembly]]<br />ka timid {{#if:{{{state_assembly7|}}}|the {{{district7}}}}} district</div>
+{{!}}-
+|{{#if:{{{district7|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house7|}}} |{{{state_house7}}}|{{#if:{{{state_delegate7|}}}|{{{state_delegate7}}}|United States}}}} House of {{#if:{{{state_delegate7|}}}|Delegates|Representatives}}|{{#if:{{{state_house7|}}} |{{{state_house7}}}|{{#if:{{{state_delegate7|}}}|{{{state_delegate7}}}|U.S.}}}} House of {{#if:{{{state_delegate7|}}}|Delegates|Representatives}}]]<br />ka mid ah {{#if:{{{state_delegate7|}}}|the |{{#if:{{{state_house7|}}}|the |{{{state7}}}'s}}}} {{{district7}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding7|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart7|}}}||_}}start7}}}
+{{!}}-
+|{{#if: {{{term7|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term7}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart7|}}}||_}}start7|}}}|
+{{#if:{{{term{{#if:{{{termend7|}}}||_}}end7|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart7|}}}||_}}start7}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend7|}}}||_}}end7}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Xilka qabsaday]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend7|}}}||_}}end7|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Xilka&nbsp;Qabsaday&nbsp;'''<br />{{{term{{#if:{{{termstart7|}}}||_}}start7}}}{{#if:{{{alongside7|}}}|<br />La shaqeeya [[{{{alongside7}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Seventh President, Prime Minister, Governor---------->
+{{#if:{{{president7|}}}|
+! Madaxweyne
+{{!}} {{{president7}}}
+{{!}}-
+}}
+{{#if:{{{primeminister7|}}}|
+! Raiisulwasaare
+{{!}} {{{primeminister7}}}
+{{!}}-
+}}
+{{#if:{{{firstminister7|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister7}}}
+{{!}}-
+}}
+{{#if:{{{premier7|}}}|
+! Raiisulwasaare
+{{!}} {{{premier7}}}
+{{!}}-
+}}
+{{#if:{{{governor7|}}}|
+! Hogaamiye
+{{!}} {{{governor7}}}
+{{!}}-
+}}
+{{#if:{{{monarch7|}}}|
+! Boqor
+{{!}} {{{monarch7}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general7|}}}|-|_}}general7|}}}|
+! Governor{{#if:{{{governor-general7|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general7|}}}|-|_}}general7}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor7|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor7}}}
+{{!}}-
+}}
+<!----------Seventh Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident7|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident7}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister7|}}}|
+! {{#if:{{{office7|}}}|[[Vice {{{office7}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister7}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier7|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier7}}}
+{{!}}-
+}}
+{{#if:{{{deputy7|}}}|
+! {{#if:{{{office7|}}}|[[Deputy {{{office7}}}|Deputy]]|Deputy}}
+{{!}} {{{deputy7}}}
+{{!}}-
+}}
+{{#if:{{{leader7|}}}|
+! Leader
+{{!}} {{{leader7}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant7|}}}|
+! {{#if:{{{office7|}}}|[[Lieutenant {{{office7}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant7}}}
+{{!}}-
+}}
+{{#if:{{{nominator7|}}}|
+! Waxaa  &nbsp; soo xushay
+{{!}} {{{nominator7}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}7|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}7}}}
+{{!}}-
+}}
+<!----------Seventh predecessor/successor---------->
+{{#if:{{{opponent7|}}}|
+! Opponent(s)
+{{!}} {{{opponent7}}}
+{{!}}-
+{{#if:{{{incumbent7|}}}|
+! Xilka sii watay
+{{!}} {{{incumbent7}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding7|}}}|
+! Xilka sii watay
+{{!}} {{{succeeding7}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor7|}}}|predecessor|preceded}}7|}}} |
+! Xilka&nbsp;kaga horeeyey
+{{!}} {{{{{#if:{{{predecessor7|}}}|predecessor|preceded}}7|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor7|}}}|successor|succeeded}}7|}}}|
+! Xilka&nbsp;kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor7|}}}|successor|succeeded}}7|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency7|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency7}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority7|}}}|
+! Aqlabiyed
+{{!}} {{{majority7}}}
+{{!}}-
+}}
+}}
+<!----------Eighth office---------->
+{{#if:{{{{{#if:{{{nominee8|}}}|nominee|candidate}}8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee8|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee8|}}}|nominee|candidate}}8|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart8|}}}||_}}start8|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart8|}}}||_}}start8}}}
+{{!}}-
+}}
+{{#if:{{{runningmate8|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate8}}}
+{{!}}-
+}}
+{{#if:{{{opponent8|}}}|
+! Opponent(s)
+{{!}} {{{opponent8}}}
+{{!}}-
+}}
+{{#if:{{{incumbent8|}}}|
+! Xilka kama dhixin
+{{!}} {{{incumbent8}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader8|}}}||
+{{#if:{{{majority_floor_leader8|}}}||
+{{#if:{{{minority_leader8|}}}||
+{{#if:{{{minority_floor_leader8|}}}||
+{{#if:{{{majorityleader8|}}}||
+{{#if:{{{jr/sr8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr8}}}{{#if:{{{succeeding8|}}} |-elect}}]]<br />Laga soo biloobo {{{state8}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state8}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin [[{{{state_senate8}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />ka mid ah the {{{district8}}} district</div>
+{{!}}-
+}}
+{{#if:{{{state_legislature8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin  [[{{{state legislature8}}} Legislature]]<br />ka mid ah the {{{district8}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from8|}}}|ambassador|minister}}_from8|}}}||
+{{#if:{{{order8|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order8}}}<!--
+-->{{#if:{{{office8|}}} |&nbsp;[[{{{office8}}}]]}}<!--
+-->{{#if:{{{state8|}}}  |&nbsp;[[{{{state8}}}]]}}<!--
+-->{{#if:{{{title8|}}}  |&nbsp;{{{title8}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office8}}}</div>
+{{!}}-
+}}
+{{#if:{{{title8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title8}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Eighth Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from8|}}}|ambassador|minister}}_from8|}}}|
+{{#if:{{{country8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order8|}}}|{{{order8}}}}} [[{{{{{#if:{{{ambassador_from8|}}}|ambassador|minister}}_from8}}} Ambassador to {{{country8}}}{{#if:{{{minister_from8|}}}|{{!}}{{{minister_from8}}} Minister to {{{country8}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from8|}}}|ambassador|minister}}_from8}}}|size=44x40px}} {{flagicon|{{{country8}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM8|}}}|AM|MP}}8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM8|}}}|{{#if:{{{assembly8|}}}|Xubin [[{{{assembly8}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament8|}}}|[[Baarlamaanka  {{{parliament8}}}]]|Parliament}}}}<br />Kana soo jeeda  {{{constituency_{{#if:{{{constituency_AM8|}}}|AM|MP}}8}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM8|}}}|{{#if:{{{assembly8|}}}|Xubin [[{{{assembly8}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament8|}}}|[[Baarlamaanka  {{{parliament8}}}]]|Parliament}}}}<br />Kana soo jeeda  {{{riding8}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader8}}} [[Majority Leader of the {{{state senate8}}} Senate|Majority Leader of the {{{state_senate8}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader8}}} [[Majority Floor Leader of the {{{state senate8}}} Senate|Majority Floor Leader of the {{{state_senate8}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader8}}} [[Minority Leader of the {{{state senate8}}} Senate|Minority Leader of the {{{state_senate8}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader8}}} [[Minority Floor Leader of the {{{state senate8}}} Senate|Minority Floor Leader of the {{{state_senate8}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader8}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature8|}}}||
+{{#if:{{{state_senate8|}}}||
+{{#if:{{{district8|}}}|
+{{#if:{{{jr/sr8|}}}||
+{{#if:{{{jr/sr and state8|}}}|| 
+{{#if:{{{succeeding8|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state8|}}}|&nbsp;from<br />{{{state8}}}'s {{{district8}}}}}
+{{!}}-|{{#if:{{{state_assembly8|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin  [[{{{state_assembly8|}}} {{#ifeq:{{{state_assembly8|}}}|Nevada||{{#ifeq:{{{state_assembly8|}}}|New Jersey|General|State}}}} Assembly]]<br />Ka mid ah {{#if:{{{state_assembly8|}}}|the {{{district8}}}}} district</div>
+{{!}}-
+|{{#if:{{{district8|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin  [[{{#if:{{{state_house8|}}} |{{{state_house8}}}|{{#if:{{{state_delegate8|}}}|{{{state_delegate8}}}|United States}}}} House of {{#if:{{{state_delegate8|}}}|Delegates|Representatives}}|{{#if:{{{state_house8|}}} |{{{state_house8}}}|{{#if:{{{state_delegate8|}}}|{{{state_delegate8}}}|U.S.}}}} House of {{#if:{{{state_delegate8|}}}|Delegates|Representatives}}]]<br />Ka mid ah  {{#if:{{{state_delegate8|}}}|the |{{#if:{{{state_house8|}}}|the |{{{state8}}}'s}}}} {{{district8}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding8|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart8|}}}||_}}start8}}}
+{{!}}-
+|{{#if: {{{term8|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term8}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart8|}}}||_}}start8|}}}|
+{{#if:{{{term{{#if:{{{termend8|}}}||_}}end8|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Xilka&nbsp;Haya'''<br />{{{term{{#if:{{{termstart8|}}}||_}}start8}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend8|}}}||_}}end8}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Xilka qabsaday]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend8|}}}||_}}end8|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}''Qabsaday&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart8|}}}||_}}start8}}}{{#if:{{{alongside8|}}}|<br />La shaqeeya [[{{{alongside8}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Eighth President, Prime Minister, Governor---------->
+{{#if:{{{president8|}}}|
+! Madaxweyne
+{{!}} {{{president8}}}
+{{!}}-
+}}
+{{#if:{{{primeminister8|}}}|
+! Raiisulwasaare
+{{!}} {{{primeminister8}}}
+{{!}}-
+}}
+{{#if:{{{firstminister8|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister8}}}
+{{!}}-
+}}
+{{#if:{{{premier8|}}}|
+! Raiisulwasaare
+{{!}} {{{premier8}}}
+{{!}}-
+}}
+{{#if:{{{governor8|}}}|
+! Hogaamiye
+{{!}} {{{governor8}}}
+{{!}}-
+}}
+{{#if:{{{monarch8|}}}|
+! Boqor
+{{!}} {{{monarch8}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general8|}}}|-|_}}general8|}}}|
+! Governor{{#if:{{{governor-general8|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general8|}}}|-|_}}general8}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor8|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor8}}}
+{{!}}-
+}}
+<!----------Eighth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident8|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident8}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister8|}}}|
+! {{#if:{{{office8|}}}|[[Vice {{{office8}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister8}}}
+{{!}}-
+}}
+{{#if:{{{vicepremier8|}}}|
+! Vice&nbsp;Premier
+{{!}} {{{vicepremier8}}}
+{{!}}-
+}}
+{{#if:{{{deputy8|}}}|
+! {{#if:{{{office8|}}}|[[Deputy {{{office8}}}|Deputy]]|Deputy}}
+{{!}} {{{deputy8}}}
+{{!}}-
+}}
+{{#if:{{{leader8|}}}|
+! Leader
+{{!}} {{{leader8}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant8|}}}|
+! {{#if:{{{office8|}}}|[[Lieutenant {{{office8}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant8}}}
+{{!}}-
+}}
+{{#if:{{{nominator8|}}}|
+! Nominated&nbsp;by
+{{!}} {{{nominator8}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}8|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}8}}}
+{{!}}-
+}}
+<!----------Eighth predecessor/successor---------->
+{{#if:{{{opponent8|}}}|
+! Opponent(s)
+{{!}} {{{opponent8}}}
+{{!}}-
+{{#if:{{{incumbent8|}}}|
+! Xilkiisa sii watay
+{{!}} {{{incumbent8}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding8|}}}|
+! Xilka Kaga horeeyey
+{{!}} {{{succeeding8}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor8|}}}|predecessor|preceded}}8|}}} |
+! Xilka&nbsp;kaga horeeyey
+{{!}} {{{{{#if:{{{predecessor8|}}}|predecessor|preceded}}8|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor8|}}}|successor|succeeded}}8|}}}|
+! Xilka&nbsp;Kaga dambeeyey{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor8|}}}|successor|succeeded}}8|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency8|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency8}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority8|}}}|
+! Aqlabiyad
+{{!}} {{{majority8}}}
+{{!}}-
+}}
+}}
+<!----------Ninth office---------->
+{{#if:{{{{{#if:{{{nominee9|}}}|nominee|candidate}}9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;"> {{#if:{{{party|}}}|{{{party}}}&nbsp;}}{{#if:{{{nominee9|}}}|Nominee|Candidate}} for<br />{{{{{#if:{{{nominee9|}}}|nominee|candidate}}9|}}}</div>
+{{!}}-
+{{#if:{{{term{{#if:{{{termstart9|}}}||_}}start9|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Election&nbsp;date'''<br />{{{term{{#if:{{{termstart9|}}}||_}}start9}}}
+{{!}}-
+}}
+{{#if:{{{runningmate9|}}}|
+! Running&nbsp;Mate
+{{!}} {{{runningmate9}}}
+{{!}}-
+}}
+{{#if:{{{opponent9|}}}|
+! Opponent(s)
+{{!}} {{{opponent9}}}
+{{!}}-
+}}
+{{#if:{{{incumbent9|}}}|
+! Haystay xilkiisa
+{{!}} {{{incumbent9}}}
+{{!}}-
+}}
+|{{#if:{{{majority_leader9|}}}||
+{{#if:{{{majority_floor_leader9|}}}||
+{{#if:{{{minority_leader9|}}}||
+{{#if:{{{minority_floor_leader9|}}}||
+{{#if:{{{majorityleader9|}}}||
+{{#if:{{{jr/sr9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">[[United States Senate|{{{jr/sr9}}}{{#if:{{{succeeding9|}}} |-elect}}]]<br />... {{{state9}}}</div>
+{{!}}-
+}}
+{{#if:{{{jr/sr and state9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{{jr/sr and state9}}}</div>
+{{!}}-
+}}
+{{#if:{{{state_senate9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin  [[{{{state_senate9}}} {{#ifeq:{{{state_senate|}}}|Iowa||State}} Senate]]<br />Kasoo jeeda deegaanka{{{district9}}} </div>
+{{!}}-
+}}
+{{#if:{{{state_legislature9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold">Xubin  [[{{{state legislature9}}} Legislature]]<br />Ka mid ah the {{{district9}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+{{#if:{{{{{#if:{{{ambassador_from9|}}}|ambassador|minister}}_from9|}}}||
+{{#if:{{{order9|}}} | 
+!colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
+--><div style="background:lavender;">{{{order9}}}<!--
+-->{{#if:{{{office9|}}} |&nbsp;[[{{{office9}}}]]}}<!--
+-->{{#if:{{{state9|}}}  |&nbsp;[[{{{state9}}}]]}}<!--
+-->{{#if:{{{title9|}}}  |&nbsp;{{{title9}}}}}<!--
+--></div>
+{{!}}-|
+{{#if:{{{office9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{office9}}}</div>
+{{!}}-
+}}
+{{#if:{{{title9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">{{{title9}}}</div>
+{{!}}-
+}}
+}}
+}}
+<!----------Ninth Ambassador---------->
+{{#if:{{{{{#if:{{{ambassador_from9|}}}|ambassador|minister}}_from9|}}}|
+{{#if:{{{country9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{order9|}}}|{{{order9}}}}} [[{{{{{#if:{{{ambassador_from9|}}}|ambassador|minister}}_from9}}} Ambassador to {{{country9}}}{{#if:{{{minister_from9|}}}|{{!}}{{{minister_from9}}} Minister to {{{country9}}}}}]]<br />{{flagicon|{{{{{#if:{{{ambassador_from9|}}}|ambassador|minister}}_from9}}}|size=44x40px}} {{flagicon|{{{country9}}}|size=44x40px}}</div>
+{{!}}-
+}}
+}}
+<!----------MP---------->
+{{#if:{{{constituency_{{#if:{{{constituency_AM9|}}}|AM|MP}}9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM9|}}}|{{#if:{{{assembly9|}}}|Xubin [[{{{assembly9}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament9|}}}|[[Baarlamaanka {{{parliament9}}}]]|Parliament}}}}<br />. {{{constituency_{{#if:{{{constituency_AM9|}}}|AM|MP}}9}}}</div>
+{{!}}-
+}}
+{{#if:{{{riding9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">{{#if:{{{constituency_AM9|}}}|{{#if:{{{assembly9|}}}|Xubin [[{{{assembly9}}} Assembly]]|Assembly Member}}|Xubin ka mid ah {{#if:{{{parliament9|}}}|[[Baarlamaanka {{{parliament9}}}]]|Parliament}}}}<br />. {{{riding9}}}</div>
+{{!}}-
+}}
+<!----------Majority Leader (State Senate)---------->
+{{#if:{{{majority_leader9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_leader9}}} [[Majority Leader of the {{{state senate9}}} Senate|Majority Leader of the {{{state_senate9}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Floor Leader (State Senate)---------->
+{{#if:{{{majority_floor_leader9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majority_floor_leader9}}} [[Majority Floor Leader of the {{{state senate9}}} Senate|Majority Floor Leader of the {{{state_senate9}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Leader (State Senate)---------->
+{{#if:{{{minority_leader9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_leader9}}} [[Minority Leader of the {{{state senate9}}} Senate|Minority Leader of the {{{state_senate9}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Minority Floor Leader (State Senate)---------->
+{{#if:{{{minority_floor_leader9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{minority_floor_leader9}}} [[Minority Floor Leader of the {{{state senate9}}} Senate|Minority Floor Leader of the {{{state_senate9}}} Senate]]</div>
+{{!}}-
+}}
+<!----------Majority Leader---------->
+{{#if:{{{majorityleader9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">{{{majorityleader9}}} [[United States Senate Majority Leader]]</div>
+{{!}}-
+}}
+<!----------Congressman---------->
+{{#if:{{{state_legislature9|}}}||
+{{#if:{{{state_senate9|}}}||
+{{#if:{{{district9|}}}|
+{{#if:{{{jr/sr9|}}}||
+{{#if:{{{jr/sr and state9|}}}|| 
+{{#if:{{{succeeding9|}}}|{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Representative-elect{{#if:{{{state9|}}}|&nbsp;from<br />{{{state9}}}'s {{{district9}}}}}
+{{!}}-|{{#if:{{{state_assembly9|}}}|
+!colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender;">Xubin[[{{{state_assembly9|}}} {{#ifeq:{{{state_assembly9|}}}|Nevada||{{#ifeq:{{{state_assembly9|}}}|New Jersey|General|State}}}} Assembly]]<br />kasoo biloow {{#if:{{{state_assembly9|}}}|the {{{district9}}}}} district</div>
+{{!}}-
+|{{#if:{{{district9|}}}|
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr/><div style="background:lavender; font-weight:bold;">Xubin [[{{#if:{{{state_house9|}}} |{{{state_house9}}}|{{#if:{{{state_delegate9|}}}|{{{state_delegate9}}}|United States}}}} House of {{#if:{{{state_delegate9|}}}|Delegates|Representatives}}|{{#if:{{{state_house9|}}} |{{{state_house9}}}|{{#if:{{{state_delegate9|}}}|{{{state_delegate9}}}|U.S.}}}} House of {{#if:{{{state_delegate9|}}}|Delegates|Representatives}}]]<br />Kasoo biloow {{#if:{{{state_delegate9|}}}|the |{{#if:{{{state_house9|}}}|the |{{{state9}}}'s}}}} {{{district9}}} district</div>
+{{!}}-
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+}}
+<!----------Term---------->
+{{#if:{{{succeeding9|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;Xilka'''<br />{{{term{{#if:{{{termstart9|}}}||_}}start9}}}
+{{!}}-
+|{{#if: {{{term9|}}}|
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term9}}}
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termstart9|}}}||_}}start9|}}}|
+{{#if:{{{term{{#if:{{{termend9|}}}||_}}end9|}}}
+|<!--then term has start and end:-->
+{{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xilka'''<br />{{{term{{#if:{{{termstart9|}}}||_}}start9}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend9|}}}||_}}end9}}}
+{{!}}-
+|<!--else:--> <!--term is ongoing-->
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''[[Xilka qabsaday]]'''
+{{!}}-
+}}
+{{#if:{{{term{{#if:{{{termend9|}}}||_}}end9|}}}
+|<!--then nothing else; term has ended-->
+|<!--else term is ongoing:-->
+{{!}}colspan="2" style="text-align:center;"{{!}}'''Qaatay&nbsp;xilka&nbsp;'''<br />{{{term{{#if:{{{termstart9|}}}||_}}start9}}}{{#if:{{{alongside9|}}}|<br />La shaqeeyey [[{{{alongside9}}}]]}}
+{{!}}-
+}}
+}}
+}}
+<!----------Ninth President, Prime Minister, Governor---------->
+{{#if:{{{president9|}}}|
+! Madaxweyne
+{{!}} {{{president9}}}
+{{!}}-
+}}
+{{#if:{{{primeminister9|}}}|
+! Ra'iisulwasaare
+{{!}} {{{primeminister9}}}
+{{!}}-
+}}
+{{#if:{{{firstminister9|}}}|
+! First&nbsp;Minister
+{{!}} {{{firstminister9}}}
+{{!}}-
+}}
+{{#if:{{{premier9|}}}|
+! Premier
+{{!}} {{{premier9}}}
+{{!}}-
+}}
+{{#if:{{{governor9|}}}|
+! Hogaamiye
+{{!}} {{{governor9}}}
+{{!}}-
+}}
+{{#if:{{{monarch9|}}}|
+! Boqor
+{{!}} {{{monarch9}}}
+{{!}}-
+}}
+{{#if:{{{governor{{#if:{{{governor-general9|}}}|-|_}}general9|}}}|
+! Governor{{#if:{{{governor-general9|}}}|–|&nbsp;}}General
+{{!}} {{{governor{{#if:{{{governor-general9|}}}|-|_}}general9}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant_governor9|}}}|
+! Lieutenant Governor
+{{!}} {{{lieutenant_governor9}}}
+{{!}}-
+}}
+<!----------Ninth Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s---------->
+{{#if:{{{vicepresident9|}}}|
+! {{#if:{{{office|}}}|Madaxweyne ku xigeen|Vice&nbsp;President(s)}}
+{{!}} {{{vicepresident9}}}
+{{!}}-
+}}
+{{#if:{{{viceprimeminister9|}}}|
+! {{#if:{{{office9|}}}|[[Vice {{{office9}}}|Vice&nbsp;PM(s)]]|Vice&nbsp;[[Prime Minister|PM]](s)}}
+{{!}} {{{viceprimeminister9}}}
+{{!}}-
+}}
+{{#if:{{{deputy9|}}}|
+! {{#if:{{{office9|}}}|[[Deputy {{{office9}}}|Deputy]]|Deputy}}
+{{!}} {{{deputy9}}}
+{{!}}-
+}}
+{{#if:{{{leader9|}}}|
+! Leader
+{{!}} {{{leader9}}}
+{{!}}-
+}}
+{{#if:{{{lieutenant9|}}}|
+! {{#if:{{{office9|}}}|[[Lieutenant {{{office9}}}|Lieutenant(s)]]|Lieutenant(s)}}
+{{!}} {{{lieutenant9}}}
+{{!}}-
+}}
+{{#if:{{{nominator9|}}}|
+! Nominated&nbsp;by
+{{!}} {{{nominator9}}}
+{{!}}-
+}}
+{{#if:{{{appointe{{#if:{{{appointer|}}}|r|d}}9|}}}|
+! Appointed&nbsp;by
+{{!}} {{{appointe{{#if:{{{appointer|}}}|r|d}}9}}}
+{{!}}-
+}}
+<!----------Ninth predecessor/successor---------->
+{{#if:{{{opponent9|}}}|
+! Opponent(s)
+{{!}} {{{opponent9}}}
+{{!}}-
+{{#if:{{{incumbent9|}}}|
+! Xilka qabsaday
+{{!}} {{{incumbent9}}}
+{{!}}-
+}}
+|{{#if:{{{succeeding9|}}}|
+! kaga horeeyey xilka
+{{!}} {{{succeeding9}}}
+{{!}}-
+|{{#if:{{{{{#if:{{{predecessor9|}}}|predecessor|preceded}}9|}}} |
+! Kaga horeeyey&nbsp;xilka
+{{!}} {{{{{#if:{{{predecessor9|}}}|predecessor|preceded}}9|}}}
+{{!}}-
+}}
+{{#if:{{{{{#if:{{{successor9|}}}|successor|succeeded}}9|}}}|
+! Kaga dambeeyey&nbsp;xilka{{#if:{{{gender|{{{sex|}}}}}}|A}}
+{{!}} {{{{{#if:{{{successor9|}}}|successor|succeeded}}9|}}}
+{{!}}-
+}}
+}}
+}}
+<!-----Constituency----->
+{{#if:{{{constituency9|}}}|
+! Wareega doorashooyinka
+{{!}} {{{constituency9}}}
+{{!}}-
+}}
+<!-----Majority----->
+{{#if:{{{majority9|}}}|
+! Aqlabiyad
+{{!}} {{{majority9}}}
+{{!}}-
+}}
+}}
+<!----------Birth/Death---------->
+|-
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">Macluumaad gaar ah</div>
+|colspan="2"|<hr/>
+|-
+{{#if:{{{birthname|}}}|
+! FULLPAGENAME
+{{!}} {{{birthname}}}
+{{!}}-
+}}
+{{#if:{{{birth{{#if:{{{birthdate|}}}||_}}date|}}}|
+! Ku{{#if:{{{gender|{{{sex|}}}}}}|T}} dhashay
+{{!}} {{{birth{{#if:{{{birthdate|}}}||_}}date}}}<br />{{{birth{{#if:{{{birthplace|}}}||_}}place|}}}
+{{!}}-
+}}
+{{#if:{{{death{{#if:{{{deathdate|}}}||_}}date|}}}|
+! Geeriyoodey{{#if:{{{gender|{{{sex|}}}}}}|T}}
+{{!}} {{{death{{#if:{{{deathdate|}}}||_}}date}}}<br />{{{death{{#if:{{{deathplace|}}}||_}}place|}}}
+{{!}}-
+}}
+{{#if:{{{date of birth|}}}|
+! Ku dhashay{{#if:{{{gender|{{{sex|}}}}}}|T}}
+{{!}} {{{date of birth}}}<br />{{{place of birth|}}}
+{{!}}-
+}}
+{{#if:{{{date of death|}}}|
+! Geeriyooday{{#if:{{{gender|{{{sex|}}}}}}|ت}}
+{{!}} {{{date of death}}}<br />{{{place of death|}}}
+{{!}}-
+}}
+{{#if:{{{restingplace|}}}|
+! Lagu{{#if:{{{gender|{{{sex|}}}}}}|T}} aasay
+{{!}} {{{restingplace}}}<br />{{#if:{{{restingplacecoordinates|}}}|{{{restingplacecoordinates}}}}}
+{{!}}-
+}}
+{{#if:{{{nationality|}}}|
+! Jinsiyad
+{{!}} {{{nationality}}}
+{{!}}-
+}}
+<!----------Party---------->
+{{#if:{{{party|}}}|
+! Xisbi siyaasadeed
+{{!}} {{#switch:{{{party}}}
+| [[Xisbiga Hantiwadaagga Kacaanka Soomaaliyeed|XHKS]]
+| [[Xisbiga Nabadda iyo Horumarka|Xisbiga Nabadda iyo Horumarka]]
+| [[Conservative Party (UK)|Conservative Party]]
+| [[Conservative Party (UK)|Conservative]] = [[Conservative Party (UK)|Conservative]]
+| [[Labour Party (UK)|Labour Party]]
+| [[Labour Party (UK)|Labour]] = [[Labour Party (UK)|Labour]]
+| {{{party}}} }}
+{{!}}-
+}}
+<!----------Other Political Party Affiliations---------->
+{{#if:{{{otherparty|}}}|
+! Ku tiirsan siyaasado kale
+{{!}}{{{otherparty}}}
+{{!}}-
+}}
+<!----------Guurka, etc.---------->
+{{#if:{{{spouse|}}}|
+! Is{{#if:{{{gender|{{{sex|}}}}}}|T}} Guursaday
+{{!}} {{{spouse}}}
+{{!}}-
+}}
+{{#if:{{{relations|}}}|
+! Xiriirka
+{{!}} {{{relations}}}
+{{!}}-
+}}
+{{#if:{{{children|}}}|
+! Caruur
+{{!}} {{{children}}}
+{{!}}-
+}}
+{{#if:{{{residence|}}}|
+! Degenaasho
+{{!}} {{{residence}}}
+{{!}}-
+}}
+{{#if:{{{alma_mater|}}}|
+! Waxbarasho jaamacadeed
+{{!}} {{{alma_mater}}}
+{{!}}-
+}}
+{{#if:{{{occupation|}}}|
+! Ka hawl gala
+{{!}} {{{occupation}}}
+{{!}}-
+}}
+{{#if:{{{profession|}}}|
+! Shaqada
+{{!}} {{{profession}}}
+{{!}}-
+}}
+{{#if:{{{cabinet|}}}|
+! Wasaaradda
+{{!}} {{{cabinet}}}
+{{!}}-
+}}
+{{#if:{{{portfolio|}}}|
+! Wasaaradda
+{{!}} {{{portfolio}}}
+{{!}}-
+}}
+{{#if:{{{portfolio 2|}}}|
+! Wasaaradda
+{{!}} {{{portfolio 2}}}
+{{!}}-
+}}
+{{#if:{{{religion|}}}|
+! Diinta
+{{!}} {{{religion}}}
+{{!}}-
+}}
+{{#if:{{{signature|}}}|
+! Saxiixa
+{{!}} [[file:{{{signature}}}|128px|{{PAGENAME}}'s signature]]
+{{!}}-
+}}
+{{#if:{{{website|}}}|
+! Website
+{{!}} {{{website}}}
+{{!}}-
+}}
+{{#if:{{{allegiance|}}}{{{rank|}}}{{{branch|}}}{{{commands|}}}{{{serviceyears|}}}{{{battles|}}}{{{Dagaallo|}}}|
+{{!}}-
+{{!}}colspan="2" style="text-align:center; font-size:110%;"{{!}}<hr><div style="background:lavender; font-weight:bold">Shaqo ciidan</div>
+{{!}}colspan="2"{{!}}<hr/>
+{{!}}-
+{{#if:{{{allegiance|}}}|
+! Ka tirsan
+{{!}} {{{allegiance}}}
+{{!}}-
+}}
+{{#if:{{{rank|}}}|
+! Garaadada
+{{!}} {{{rank}}}
+{{!}}-
+}}
+{{#if:{{{branch|}}}|
+! Qaybta
+{{!}} {{{branch}}}
+{{!}}-
+}}
+{{#if:{{{commands|}}}|
+! Hogaanada
+{{!}} {{{commands}}}
+{{!}}-
+}}
+{{#if:{{{battles|}}}{{{Dagaallo|}}}|
+! Dagaallo
+{{!}} {{{battles|{{{Dagaallo}}}}}}
+{{!}}-
+}}
+{{#if:{{{awards|}}}{{{Billad|}}}|
+! Billad
+{{!}} {{{awards|{{{Billad}}}}}}
+{{!}}-
+}}
+{{#if:{{{serviceyears|}}}|
+! Sanadaha shaqada
+{{!}} {{{serviceyears|}}}
+{{!}}-
+}}
+}}
+{{#if:{{{footnotes|}}}|
+{{!}}colspan="2" style="border-top:1px solid; font-size:90%;"{{!}} {{{footnotes}}}
+{{!}}-
+}}
+{{#if:{{{date|}}}|
+{{!}}colspan="2" style="border-top:1px solid; font-size:90%;"{{!}}As of [[{{{date}}}]]{{#if:{{{year|}}} |, [[{{{year}}}]]}}}}{{#if:{{{source|}}}|<br />Source: [{{{source}}}]}}
+|}
+<noinclude>
+{{Documentation}}
+</noinclude>
