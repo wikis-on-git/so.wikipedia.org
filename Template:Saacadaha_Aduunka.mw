@@ -1,0 +1,34 @@
+{| class="infobox" width="250" style="text-align: center"
+|- style="background-color: #f3f9ff"
+| style="padding-top:                                                                                         5px; padding-bottom: 5px" | '''Saacadda''': {{CURRENTTIME}} [[Isuduwaha Waqtiga Caalamiga|UTC]]&nbsp;&nbsp;|&nbsp;&nbsp;'''Taariikhda''':  [[{{CURRENTDAY}} {{CURRENTMONTHNAME}}]]
+|-EH EH EH
+| style="padding-top: 4px; font-size:120%" | '''Xulka Waqtiyada Caalamiga ah'''
+<!-- Cities sorted A TO Z -->
+<!-- DST rules from ftp://ftp.elsie.nci.nih.gov/pub/tzdata2005n.tar.gz -->([[Saacadda Rasmiga Ah|Saacadda Rasmiga Ah]] Sugan):
+&nbsp;[[Sydney]]: +6<!-- TZ=Asia/Astana, DST Mar/lastSun - Oct/lastSun -->&nbsp;
+&nbsp;[[Bangkok]]: +7<!-- TZ=Asia/Bangkok, no DST -->&nbsp;<br />
+&nbsp;[[Beijing]]: +8<!-- TZ=Asia/Beijing, no DST -->&nbsp;
+&nbsp;[[Boroksel]]: +1<!-- TZ=Europe/Brussels, DST Mar/lastSun - Oct/lastSun -->&nbsp;
+&nbsp;[[Buenos Aires]]: -3<!-- TZ=America/Buenos Aires, no DST -->&nbsp;<br />
+&nbsp;[[Qaahiro]]: +2<!-- TZ=Africa/Cairo, DST Apr/lastFri - Sep/lastThu -->&nbsp;
+&nbsp;[[Dubay]]: +4<!-- TZ=Asia/Dubai, no DST -->&nbsp;
+&nbsp;[[Muqdisho]]: +3<!-- TZ=Africa/Mogadishu, no DST -->&nbsp;
+&nbsp;[[Frankfurt]]: +1<!-- TZ=Europe/Berlin, DST Mar/lastSun - Oct/lastSun -->&nbsp;<br />
+&nbsp;[[Hong Kong]]: +8<!-- TZ=Asia/Hong_Kong, no DST -->&nbsp;
+&nbsp;[[Johannesburg]]: +2<!-- TZ=Africa/Johannesburg, no DST -->&nbsp;
+&nbsp;[[London]]: +0<!-- TZ=Europe/London, DST Mar/lastSun - Oct/lastSun -->&nbsp;<br />
+&nbsp;[[Melbourne]]: +11<!-- TZ=Australia/Melbourne, DST Oct/firstSun - Mar/lastSun-->&nbsp;
+&nbsp;[[Meksiko city]]: -6<!-- TZ=America/Mexico_City, DST Apr/firstSun - Oct/lastSun-->&nbsp;
+&nbsp;[[Moosko]]: +3<!-- TZ=Europe/Moscow, DST Mar/lastSun - Oct/lastSun -->&nbsp;<br />
+&nbsp;[[New Delhi]]: +5.5<!-- TZ=Asia/Calcutta, no DST -->&nbsp;
+&nbsp;[[New York]]: -5<!-- TZ=America/New_York, DST Apr/firstSun - Oct/lastSun (for 2006, rules will change in 2007) -->&nbsp;
+&nbsp;[[Barasillia]]: -2<!-- TZ=America/Sao_Paulo, DST Oct/thirdSun - Feb/thirdSun -->&nbsp;<br />
+&nbsp;[[Santiago]]: -3<!-- TZ=America/Santiago, DST Oct/thirdSun - March/secondSun -->&nbsp;
+&nbsp;[[Singabuur]]: +8<!-- TZ=Asia/Singapore, no DST -->&nbsp;
+&nbsp;[[Tokyo]]: +9<!-- TZ=Asia/Tokyo, no DST -->&nbsp;<br />
+&nbsp;[[Vancouver]]: -8<!-- TZ=America/Vancouver, DST Apr/firstSun - Oct/lastSun -->&nbsp;
+&nbsp;[[Warsaw]]: +1<!-- TZ=Europe/Berlin, DST Mar/lastSun - Oct/lastSun -->&nbsp;
+&nbsp;[[Wellington]]: +13<!-- TZ=Pacific/Auckland, DST Oct/firstSun - Mar/thirdSun -->&nbsp;
+|}<noinclude>
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
