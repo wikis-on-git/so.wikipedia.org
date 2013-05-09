@@ -4,8 +4,8 @@
      --><span class="languageicon" style="font-size:{{{fontsize|81%<!--less than 81% can become too small-->}}};font-weight:normal;"><!--
        -->{{#if:{{{nolink|}}} |({{ISO 639 name|{{{1}}}}})
            | {{#ifexist:Template:ISO 639 name {{{1}}}
-              |([[{{ISO 639 name|{{{1}}}}} luqada|{{ISO 639 name|{{{1}}}}}]])
-              |(luqada?)}}<!--
+              |([[{{ISO 639 name|{{{1}}}}} language|{{ISO 639 name|{{{1}}}}}]])
+              |(language?)}}<!--
        -->}}<!--
      --></span><!--
    -->}}</includeonly><noinclude>
