@@ -1,12 +1,14 @@
 {{ {{{1<noinclude>|country showdata</noinclude>}}}
-| alias = Soomaaliya
-| flag alias = Flag of Somalia.svg
-| link alias-naval = Somali Navy
+| alias = Somaliland
+| flag alias = Flag of Somaliland.svg
+| flag alias-1991 = Flag of Somaliland until 1996.svg
 | size = {{{size|}}}
 | name = {{{name|}}}
+| variant = {{{variant|}}}
 | altlink = {{{altlink|}}}
 <noinclude>
-| redir1 = SOM
-| related1 = Somaliland
+| var1 = 1991
 </noinclude>
-}}
+}}<noinclude>
+[[fr:Modèle:Country data Somaliland]]
+</noinclude>
