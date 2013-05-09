@@ -1,4 +1,4 @@
-<noinclude>{{hatnote|[[Template:Native phrase]] redirects here.}}</noinclude><includeonly><!--
+<includeonly><!--
  -->{{lang |{{{1}}} |{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|''}}{{{2}}}{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|''}}}}<!--
    -->{{#switch:{{{paren|{{{icon|}}}}}}|no|off=|#default=&nbsp;{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|{{#ifeq:{{{nbsp|}}}|no ||&nbsp;}}}}<!--
      --><span class="languageicon" style="font-size:{{{fontsize|81%<!--less than 81% can become too small-->}}};font-weight:normal;"><!--
