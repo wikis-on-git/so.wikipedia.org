@@ -21,12 +21,12 @@ Please do not edit without discussion first as this is a VERY complex template.
 
 -->{{#if:{{#switch:{{{navbar|}}}|plain|off=1}}<!--
  -->{{#if:{{{name|}}}||{{#switch:{{{border|{{{1|}}}}}}|subgroup|child|none=1}}}}|<!--
- -->{{#ifeq:{{{navbar|}}}|off|{{#ifeq:{{{state|}}}|plain|<span style="float:right;width:6em;">&nbsp;</span>}}|<!--
+ -->{{#ifeq:{{{navbar|}}}|off|{{#ifeq:{{{state|}}}|plain|<span style="float:left;width:6em;">&nbsp;</span>}}|<!--
  -->{{#ifeq:{{{state|}}}|plain||<span style="float:left;width:6em;">&nbsp;</span>}}}}|<!--
  -->{{#if:{{{name|}}}|{{Navbar|{{{name}}}|mini=1|<!--
  -->fontstyle={{{basestyle|}}};{{{titlestyle|}}};background:none transparent;border:none;}}|<!--
  --><span class="error" style="float:left;white-space:nowrap;">Error: No name provided</span>}}<!--
- -->{{#ifeq:{{{state|}}}|plain|<span style="float:right;width:6em;">&nbsp;</span>}}}}<!--
+ -->{{#ifeq:{{{state|}}}|plain|<span style="float:left;width:6em;">&nbsp;</span>}}}}<!--
 
  --><div class="{{{titleclass|}}}" style="font-size:110%;">
 {{{title}}}</div></th></tr>}}<!--
