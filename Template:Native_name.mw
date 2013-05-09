@@ -3,8 +3,8 @@
    -->{{#switch:{{{paren|{{{icon|}}}}}}|no|off=|#default=&nbsp;{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|{{#ifeq:{{{nbsp|}}}|no ||&nbsp;}}}}<!--
      --><span class="languageicon" style="font-size:{{{fontsize|81%<!--less than 81% can become too small-->}}};font-weight:normal;"><!--
        -->{{#if:{{{nolink|}}}
-          |({{#language:{{{1}}}|so}})|
-          ([[{{#language:{{{1}}}|so}}]])<!--
+          |({{ISO 639 name|{{{1|?}}}}})|
+          ([[{{ISO 639 name|{{{1|?}}}}}|Af-{{ISO 639 name|{{{1|?}}}}}]])<!--
        -->}}<!--
      --></span><!--
    -->}}</includeonly><noinclude>
