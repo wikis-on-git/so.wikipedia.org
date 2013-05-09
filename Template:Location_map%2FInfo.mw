@@ -1,0 +1,86 @@
+<includeonly><div id="contentSub"><span class="subpages">< [[Template:Location map]]</span></div><!--
+  Automatically add {{pp-template}} to protected templates.
+-->{{template other
+| {{#ifeq: {{PROTECTIONLEVEL:move}} | sysop
+  | {{pp-template}}
+  | {{#if: {{PROTECTIONLEVEL:edit}}
+    | {{pp-template}}
+    | <!--Not protected, or only semi-move-protected-->
+    }}
+  }}
+}}
+{| class="wikitable" style="text-align:center; margin-top:0;"
+|+ Location map of {{{{BASEPAGENAME}}|name}}
+|-
+! name
+|colspan="3"| [[{{{{BASEPAGENAME}}|name}}]]
+|-
+{{#if:{{{{BASEPAGENAME}}|top}}|
+!rowspan="4"{{!}}border<br/>coordinates
+{{!}}-
+{{!}}colspan="3"{{!}} {{{{BASEPAGENAME}}|top}}
+{{!}}-
+{{!}}style="width:7em;"{{!}} {{{{BASEPAGENAME}}|left}}
+{{!}} ←↕→
+{{!}}style="width:7em;"{{!}} {{{{BASEPAGENAME}}|right}} {{#ifexpr: {{{{BASEPAGENAME}}|right}} > 180 | ({{#expr: {{{{BASEPAGENAME}}|right}} - 360 }})}}
+{{!}}-
+{{!}}colspan="3"{{!}} {{{{BASEPAGENAME}}|bottom}}
+{{!}}-
+! map center
+{{!}}colspan="4"{{!}} {{#ifexpr:({{{{BASEPAGENAME}}|left}}+{{{{BASEPAGENAME}}|right}} {{#ifexpr:{{{{BASEPAGENAME}}|right}}< {{{{BASEPAGENAME}}|left}}| + 360}})/2 > 180
+ | {{coord|{{#expr:({{{{BASEPAGENAME}}|top}}+{{{{BASEPAGENAME}}|bottom}})/2}}|{{#expr:({{{{BASEPAGENAME}}|left}}+{{{{BASEPAGENAME}}|right}} {{#ifexpr:{{{{BASEPAGENAME}}|right}}< {{{{BASEPAGENAME}}|left}}| + 360}})/2 - 360}}}}
+ | {{coord|{{#expr:({{{{BASEPAGENAME}}|top}}+{{{{BASEPAGENAME}}|bottom}})/2}}|{{#expr:({{{{BASEPAGENAME}}|left}}+{{{{BASEPAGENAME}}|right}} {{#ifexpr:{{{{BASEPAGENAME}}|right}}< {{{{BASEPAGENAME}}|left}}| + 360}})/2}}}}
+ }}
+{{!}}-
+}}
+{{#if:{{{{BASEPAGENAME}}|x}}|
+! x
+{{!}}colspan="3" style="overflow: auto; white-space: auto; width: 350px"{{!}} {{{{BASEPAGENAME}}|x}}
+{{!}}-
+! y
+{{!}}colspan="3" style="overflow: auto; white-space: auto; width: 350px"{{!}} {{{{BASEPAGENAME}}|y}}
+{{!}}-
+}}
+! image
+|colspan="3"| <tt>[[:Image:{{{{BASEPAGENAME}}|image}}|{{{{BASEPAGENAME}}|image}}]]</tt>
+|-
+|colspan="4"|[[image:{{{{BASEPAGENAME}}|image}}|400x400px|{{BASEPAGENAME}}]]
+|-
+{{#if:{{{{BASEPAGENAME}}|image1}}|
+! image1
+{{!}}colspan="3"{{!}} <tt>[[:Image:{{{{BASEPAGENAME}}|image1}}|{{{{BASEPAGENAME}}|image1}}]]</tt>
+{{!}}-
+{{!}}colspan="4"{{!}}[[image:{{{{BASEPAGENAME}}|image1}}|400x400px|{{BASEPAGENAME}}]]
+{{!}}-
+}}
+{{#if:{{{{BASEPAGENAME}}|image2}}|
+! image2
+{{!}}colspan="3"{{!}} <tt>[[:Image:{{{{BASEPAGENAME}}|image2}}|{{{{BASEPAGENAME}}|image2}}]]</tt>
+{{!}}-
+{{!}}colspan="4"{{!}}[[image:{{{{BASEPAGENAME}}|image2}}|400x400px|{{BASEPAGENAME}}]]
+{{!}}-
+}}
+{{#if: {{{{BASEPAGENAME}}|skew}} |
+! skew
+{{!}}colspan="3"{{!}} {{{{BASEPAGENAME}}|skew}}
+{{!}}-
+}}
+{{#if: {{{{BASEPAGENAME}}|lat_skew}} |
+! lat_skew
+{{!}}colspan="3"{{!}} {{{{BASEPAGENAME}}|lat_skew}}
+{{!}}-
+}}
+{{#if: {{{{BASEPAGENAME}}|mark}} |
+! mark
+{{!}}colspan="3"{{!}} <tt>[[:File:{{{{BASEPAGENAME}}|mark}}|{{{{BASEPAGENAME}}|mark}}]]</tt>
+{{!}}-
+}}
+{{#if: {{{{BASEPAGENAME}}|marksize}} |
+! marksize
+{{!}}colspan="3"{{!}} {{{{BASEPAGENAME}}|marksize}}
+{{!}}-
+}}
+|}</includeonly><noinclude>
+<!--categories and interwikis should be placed in /doc, not here-->
+{{documentation}}
+</noinclude>
