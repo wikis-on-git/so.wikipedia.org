@@ -2,10 +2,9 @@
  -->{{lang |{{{1}}} |{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|''}}{{{2}}}{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|''}}}}<!--
    -->{{#switch:{{{paren|{{{icon|}}}}}}|no|off=|#default=&nbsp;{{#switch:{{{italics|{{{italic|}}}}}}|no|off=|{{#ifeq:{{{nbsp|}}}|no ||&nbsp;}}}}<!--
      --><span class="languageicon" style="font-size:{{{fontsize|81%<!--less than 81% can become too small-->}}};font-weight:normal;"><!--
-       -->{{#if:{{{nolink|}}} |({{ISO 639 name|{{{1}}}}})
-           | {{#ifexist:Template:ISO 639 name {{{1}}}
-              |([[{{ISO 639 name|{{{1}}}}} language|{{ISO 639 name|{{{1}}}}}]])
-              |(language?)}}<!--
+       -->{{#if:{{{nolink|}}}
+          |({{#language:{{{1}}}|so}})|
+          ([[Af-{{#language:{{{1}}}|so}}]])}}<!--
        -->}}<!--
      --></span><!--
    -->}}</includeonly><noinclude>
