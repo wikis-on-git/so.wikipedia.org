@@ -1,3 +1,6 @@
-{{ISO 639 name {{{1|undefined}}}}}<noinclude>
+{{#switch:{{{1|}}}
+|aa=Cafari
+|#default={{#language:{{{1|so}}}|so}}
+}}<noinclude>
 {{Documentation}}
 </noinclude>
