@@ -4,7 +4,7 @@
      --><span class="languageicon" style="font-size:{{{fontsize|81%<!--less than 81% can become too small-->}}};font-weight:normal;"><!--
        -->{{#if:{{{nolink|}}}
           |({{#language:{{{1}}}|so}})|
-          ([[Af-{{#language:{{{1}}}|so}}]])<!--
+          ([[{{#language:{{{1}}}|so}}]])<!--
        -->}}<!--
      --></span><!--
    -->}}</includeonly><noinclude>
