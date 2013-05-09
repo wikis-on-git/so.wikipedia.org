@@ -249,7 +249,7 @@
 {{!}}-
 {{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
 {{weather box/line
-|label=Daily mean °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
+|label=Maalinle °{{#if:{{{metric first|}}}|C|F}} {{#if:{{{single line|}}}|(°{{#if:{{{metric first|}}}|F|C}})}}
 |show={{#if:{{{metric first|}}}|1|2}}
 |alt={{#if:{{{single line|}}}|{{#if:{{{metric first|}}}|2|1}}}}
 |sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
@@ -1052,7 +1052,7 @@
 {{!}}-
 {{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki />
 {{weather box/line
-|label=Record high °{{#if:{{{metric first|}}}|F|C}}
+|label=Kor ukac qiyaas ah °{{#if:{{{metric first|}}}|F|C}}
 |show={{#if:{{{metric first|}}}|2|1}}
 |alt=
 |sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
@@ -1228,7 +1228,7 @@
 {{!}}-
 {{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
 {{weather box/line
-|label=Daily mean °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
+|label=Maalinle °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
 |alt=
 |sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
 
@@ -1403,7 +1403,7 @@
 {{!}}-
 {{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{temperature colour}}}</code> is not a valid temperature color alternative, use <code><nowiki>|temperature colour=pastel</nowiki></code> or remove the <code>temperature colour</code> parameter for the standard coloring.'''</font>|pastel|t=<nowiki/>
 {{weather box/line
-|label=Record low °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
+|label=Hoos udhac qiyaas ah °{{#if:{{{metric first|}}}|F|C}} |show={{#if:{{{metric first|}}}|2|1}}
 |alt=
 |sc={{#if:{{{temperature colour|}}}|{{{temperature colour}}}|t}} |f=1<!--
 
