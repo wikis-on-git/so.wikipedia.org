@@ -6,7 +6,7 @@
       | type = notice
       | image = [[File:Edit-copy green.svg|40px]]
       | text = 
-'''This is a [[Wikipedia:Template documentation|documentation]] [[Wikipedia:Subpages|subpage]] for {{{1|[[:{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}'''.<br />It contains usage information, [[Wikipedia:Categorization|categories]], [[Help:Interlanguage links|interlanguage links]] and other content that is not part of the original {{ #if: {{{text2|}}} | {{{text2}}} | {{ #if: {{{text1|}}} | {{{text1}}} | {{ #ifeq: {{SUBJECTSPACE}} | {{ns:User}} | {{lc:{{SUBJECTSPACE}}}} template page | {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} page|article}}}}}}}}. 
+'''Kani waa [[Wikipedia:Template documentation|xog-waranka]] [[Wikipedia:Subpages|laamaha bogagga]] ee {{{1|[[:{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}'''.<br />Waxayna ka koobantahay macluumaad, [[Wikipedia:Categorization|qaybaha]] iyo waxyaabo kala oo aan kamid ahayn qabtaan {{ #if: {{{text2|}}} | {{{text2}}} | {{ #if: {{{text1|}}} | {{{text1}}} | {{ #ifeq: {{SUBJECTSPACE}} | {{ns:User}} | {{lc:{{SUBJECTSPACE}}}} bogagga template ka | {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} Bog|article}}}}}}}}. 
       }}
     }}{{DEFAULTSORT:{{{defaultsort|{{PAGENAME}}}}}}}{{
     #if: {{{inhibit|}}}
