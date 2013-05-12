@@ -1,0 +1,12 @@
+{{#if:{{{1|}}}| ===[[{{{1}}}]] ===
+[[Wikipedia:Sharaxaada Maqaalada Xulka Ah/{{{1}}}|Bogga Sharaxaada]]<br />
+{{#ifexist:Wikipedia:Sharaxaada Maqaalada Xulka Ah/{{{1}}}|
+{{Wikipedia:Sharaxaada Maqaalada Xulka Ah/{{{1}}}}}
+<span class="noprint" style="white-space:nowrap; font-size:smaller">[{{fullurl:Wikipedia:Sharaxaada Maqaalada Xulka Ah/{{{1}}}}} guji halkaan hadii aad dooneeyso inaad codeeyso ama wadahadal]</span>|
+<big>wali lama dhamays tirin howlihii sharaxaada maqaalada [[{{{1}}}]]</big>ـ howlaha sharaxada [{{fullurl:Wikipedia:Sharaxaada Maqaalada Xulka Ah/{{{1}}}|action=edit&preload=Temmplate:Bogga_Sharaxaada_Maqaal_Xul_Ah/Sabata_Sharaxaada&autosummary=Sharaxaada Maqaal Xul Ah}} Guji halkaan].}}
+----|Iska hubi templateka inaad si wanaagsan ugelisay sidaan oo kale:<pre>{{UMXA|Magaca maqaalka Sharaxan}}</pre>}}
+<noinclude>
+REDIRECT: {{T|UMXA}}
+
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
