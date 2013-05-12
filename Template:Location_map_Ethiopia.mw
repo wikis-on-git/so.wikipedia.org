@@ -1,0 +1,19 @@
+{{#switch:{{{1}}}
+| name   = Ethiopia
+| top    = 15.3
+| bottom = 2.9
+| left   = 32.7
+| right  = 48.3
+| image  = Ethiopia location map.svg
+| image1 = Ethiopia relief location map.jpg
+}}<noinclude><!--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+{{Documentation}}
+
+[[Category:Location map by country templates|Ethiopia]]
+[[Category:Ethiopia location map templates| ]]
+
+</noinclude>
