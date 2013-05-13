@@ -1,0 +1,20 @@
+{{#if:{{{Country|}}}
+  | {{#switch: {{{Country|}}}<!-- most lists are 'List of hospitals in XXX' except US which has extra 'the' i.e. 'List of hospitals in the United States' and has list per State. Likewise UK has for England Wales Scotland Northern Ireland -->
+  | AU | Australia     = [[List of hospitals in Australia|Hospitals in Australia]]
+  | CA | Canada        = [[List of hospitals in Canada|Hospitals in Canada]]
+  | IE | Ireland       = [[List of hospitals in the Republic of Ireland|Hospitals in the Republic of Ireland]]
+  | IS | Israel        = [[List of hospitals in Israel|Hospitals in Israel]]
+  | IN | India         = [[List of hospitals in India|Hospitals in India]]
+  | KE | Kenya         = [[List of hospitals in Kenya|Hospitals in Kenya]]
+  | NZ | New Zealand   = [[List of hospitals in New Zealand|Hospitals in New Zealand]]
+  | PH | Philippines   = [[List of hospitals in Philippines|Hospitals in Philippines]]
+  | PK | Pakistan      = [[List of hospitals in Pakistan|Hospitals in Pakistan]]
+  | SA | South Africa  = [[List of hospitals in South Africa|Hospitals in South Africa]]
+  | TZ | Tanzania      = [[List of hospitals in Tanzania|Hospitals in Tanzania]]
+  | UK | United Kingdom= {{#ifexist: List of hospitals in {{{State}}} | [[List of hospitals in {{{State}}}|Hospitals in {{{State}}}]] | [[List of hospitals in the United Kingdom|Hospitals in the United Kingdom]] }}
+  | US | United States = {{#switch: {{{State|}}} | [[Georgia (U.S. state)|Georgia]] = [[List of hospitals in Georgia (U.S. state)|Hospitals in Georgia]] | {{#ifexist: List of hospitals in {{{State}}} | [[List of hospitals in {{{State}}}|Hospitals in {{{State}}}]] | [[List of hospitals in the United States|Hospitals in the United States]] }} }}
+  | #default = {{#ifexist: List of hospitals in {{{Country}}} | [[List of hospitals in {{{Country}}}|Hospitals in {{{Country}}}]]}}
+  }}
+}}<noinclude>{{documentation|content=
+This is a subtemplate of {{tlx|{{BASEPAGENAME}}}}.  It is used to generate the link to "List of hospitals in ..." in the bottom section of the infobox.  This template should no be used directly.
+}}</noinclude>
