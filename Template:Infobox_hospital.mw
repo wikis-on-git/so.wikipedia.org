@@ -1,0 +1,165 @@
+{{ infobox
+| bodyclass  = vcard
+| aboveclass = fn org
+| above      = {{{Name|<includeonly>{{PAGENAME}}</includeonly><noinclude>Hospital Kasta</noinclude>}}}
+
+| headerstyle = background-color: #efefef
+
+| subheader  = {{{Org/Group|}}}
+| subheaderclass = category
+
+| image      = {{#if: {{{Logo|}}}|[[File:{{{Logo}}}|{{px|{{{Logo Size|}}}|frameless}}]]}}
+| image2     = {{#if:{{{Image|}}}|[[File:{{{Image}}}|{{px|{{{Image_size|{{{image_size|{{{Width|}}}}}}}}}|frameless}}|alt={{{image alt|}}}]]}}
+| caption2   = {{{Caption|}}}
+
+| data1 = {{#if:{{{map_type| {{{pushpin_map|}}} }}}
+ |<center>{{Location map|{{{map_type| {{{pushpin_map|}}} }}}
+ |alt     = {{{map_alt|{{{pushpin_map_alt|}}}}}}
+ |relief  = {{{relief|}}}
+ |lat     = {{#if:{{{latm|}}}{{{latNS|}}}| | {{{latitude|{{{latd|}}}}}} }}
+ |long    = {{#if:{{{longm|}}}{{{longEW|}}}| | {{{longitude|{{{longd|}}}}}} }}
+ |lat_deg ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec ={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir ={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec ={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir ={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |float   = center
+ |mark    = Red pog.svg
+ |marksize= 6
+ |label   = 
+ |border  = none
+ |caption = {{#if:{{{map_caption|}}}
+  | <center>{{{map_caption}}}</center>
+  | {{#if:{{{pushpin_map_caption|}}}
+    |<center>{{{pushpin_map_caption}}}</center> 
+    }}
+  }}
+ |width   = {{#if: {{{map_size|{{{pushpin_mapsize|}}}}}} | {{{map_size|{{{pushpin_mapsize|}}}}}} | 225 }}
+ }}</center>
+}}
+
+| header2 = {{#if:{{{Location|}}}{{{Region|}}}{{{State|}}}{{{Country|}}}{{{Coordinates|}}}|Juqraaji}}
+
+| label3 = Barta
+| data3  = {{comma separated entries
+ |1= {{{Location|}}}
+ |2= {{{Region|}}}
+ |3= {{#if:{{{State|}}}|{{#switch: {{{State|}}}
+     | GA = Georgia
+     | WA = Washington
+     | #default = {{{State}}}
+     }} }}
+ |4={{#if:{{{Country|}}}| {{#switch: {{{Country|}}}
+  | AU = Australia
+  | CA = Canada
+  | HK = Hong Kong
+  | IE = Ireland
+  | IN = India
+  | IL = Israel
+  | KE = Kenya
+  | NZ = New Zealand
+  | NO = Norway
+  | PH = Philippines
+  | PK = Pakistan
+  | SA = South Africa
+  | TZ = Tanzania
+  | UK = United Kingdom
+  | US = United States
+  | SO = Soomaaliya
+  | #default = {{{Country}}}
+  }} }}
+}}
+
+| label4 = [[Geographic coordinate system|Coordinates]]
+| data4  = {{#if:{{both|{{{latitude|{{{latd|}}}}}}|{{{longitude|{{{longd|}}}}}}}}|
+{{Geobox coor|{{{latitude|{{{latd|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longitude|{{{longd|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if: {{{iso_region|}}}|_region:{{{iso_region}}} }}{{#if: {{{coordinates_scale|}}}|_scale:{{{coordinates_scale}}} }}|{{#switch:{{{coordinates_display|}}}|none|off|inline=μ|#default=title}}=y|format={{{coordinates_format|}}}}}|{{{coordinates|{{{Coordinates|}}}}}}}}
+
+| header10 = {{#if:{{{HealthCare|}}}{{{Funding|}}}{{{Type|}}}{{{Affiliation|}}}{{{Patron|}}}{{{Network|}}}
+  | {{#switch: {{{Country|}}}| CA | Canada | US | United States = Organization| Hayadda}}
+  }}
+
+
+| label11 = [[Nidaamka Caafimaadka|Faya-Dhowrka]]
+| data11  = {{Infobox hospital/care system
+              |HealthCare = {{{HealthCare|}}}
+              |Country = {{{Country|}}}
+              |State = {{{State|}}}
+            }}
+
+| label12 = [[Hospital#Funding|Funding]]
+| data12  = {{#switch: {{{Funding|}}}
+         | Non-profit | Non profit | Nonprofit = [[Non-profit hospital]]
+         | For-profit | For profit | Forprofit = [[For-profit hospital]]
+         | Government = [[Government hospital]]
+         | Public = [[Public hospital]]
+         | #default = {{{Funding|}}} 
+    }}
+
+| label13 = [[Hospital#Types|Nuuca Isbitaalka]]
+| class13 = Nuuca
+| data13 = {{#switch: {{{Type|}}}
+         | General | District | District General=[[Hospital#General|{{{Type}}}]]
+         | Specialist =[[Hospital#Specialized|{{{Type}}}]]
+         | Teaching =[[Teaching hospital|Teaching]]
+         | #default = {{{Type|}}}
+  }}
+
+| label14 = [[Jaamacad|Jaamacada Kaabta]]
+| data14  = {{{Affiliation|}}}
+
+| label15 = [[Waaxda faya-dhowrka|Faya-dhowrka]]
+| data15  = {{{Patron|}}}
+
+| label16 = Shabakada Isbitaalka
+| data16  = {{{Network|}}}
+
+| header20 = {{#if:{{{Standards|}}}{{{Certification|}}}{{{Emergency|}}}{{{Helipad|}}}{{{Beds|}}}{{{Speciality|}}}|Shaqada}}
+
+| label21 = Habka
+| data21  = {{{Standards|}}}
+
+| label22 = Gargaarka Degdegga
+| data22  = {{#if:{{{Certification|}}}
+  |{{{Certification}}}
+  |{{#switch: {{{Country|}}} | CA | Canada | IL | Israel | US | United States = {{#switch: {{{Emergency|}}} | I | II | III | IV | V = [[Level {{{Emergency}}} trauma center]] |#default = {{{Emergency|}}} }} | UK | United Kingdom | IE | Ireland | HK | Hong Kong | Singapore = {{#switch: {{{Emergency|}}} | yes | Yes | no | No = {{{Emergency}}} Accident & Emergency |#default = {{{Emergency|}}} }} |#default = {{{Emergency|}}} }} }}
+
+| label23 = Diyaarad dageen
+| data23  = {{{Helipad|}}}
+
+| label24 = Heerka
+| data24  = {{{Beds|}}}
+
+| label25 = Taqasusu
+| data25  = {{#switch: {{{Type|}}}
+  | Specialist | Teaching = {{{Speciality|}}}
+  | #default = 
+  }}
+
+| header30 = {{#if:{{{Founded|}}}{{{Closed|}}}|Taariikh}}
+
+| label31 = La aas aasay
+| data31  = {{{Founded|}}}
+
+| label32 = La xiray
+| data32  = {{{Closed|}}}
+
+| header35 = {{#if:{{{Website|}}}{{Infobox hospital/lists|Country={{{Country|}}}|State = {{{State|}}} }}{{{Wiki-Links|}}}|Linkiyada}}
+
+| label36 = Website
+| data36  = {{#switch:{{{Website|}}}
+  |N/A|n/a|None|none=
+  |#default = {{{Website|}}} 
+  }}
+
+| label37 = Liiska
+| data37 = {{Infobox hospital/lists|Country={{{Country|}}}|State = {{{State|}}} }}
+
+| label38 = Other links
+| data38  = {{{Wiki-Links|}}}
+
+| data40  = {{{nrhp|{{{NRHP|}}}}}}
+
+}}<noinclude>{{documentation}}<!-- add category and language links to /doc, not here --></noinclude>
