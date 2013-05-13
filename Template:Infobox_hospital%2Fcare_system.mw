@@ -1,0 +1,28 @@
+{{#if:{{{HealthCare|}}}
+  |{{#switch: {{{Country|}}}
+      | AU | Australia      = {{#switch: {{{HealthCare|}}}
+           | Medicare=Public [[Medicare (Australia)|Medicare (AU)]]
+           | #default = {{{HealthCare|}}} }}
+      | CA | Canada         = {{#switch: {{{HealthCare|}}}
+           | Medicare=Public [[Medicare (Canada)]] {{#switch: {{{State|}}}
+             | Alberta=<!--Alberta Health Care Insurance Plan-->
+             | British Columbia=([[Medical Services Plan of British Columbia|MSP]])
+             | Manitoba=<!--Manitoba Health-->
+             | New Brunswick=<!--Medicare (New Brunswick)-->
+             | Newfoundland and Labrador=<!--Newfoundland and Labrador Medical Care Plan-->
+             | Nova Scotia=<!--Medical Service Insurance-->
+             | Ontario=([[Ontario Health Insurance Plan|OHIP]])
+             | Prince Edward Island=<!--(Prince Edward Island)-->
+             | Quebec=<!--Assurance maladie-->
+             | Saskatchewan=<!--Saskatchewan Medical Care Insurance Plan-->
+             | #default = }}
+           | Charity=[[Charity care]]
+           | #default = {{{HealthCare|}}} }}
+      | UK | United Kingdom = {{#switch: {{{HealthCare|}}}
+           | NHS=Public [[National Health Service|NHS]]
+           | #default = {{{HealthCare|}}} }}
+      | #default = {{{HealthCare|}}}
+    }}
+  }}<noinclude>{{documentation|content=
+This is a subtemplate of {{tlx|{{BASEPAGENAME}}}}.  It is used to generate the link to the particular Heath care system for the Country/State.  This template should not be used directly.
+}}</noinclude>
