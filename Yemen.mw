@@ -1,35 +1,73 @@
-{{Dalalka
-|native_name                   = Jamhuuriyadda Yemen
-|conventional_long_name        = الجمهورية اليمنية
-|common_name                   = Yemen
-|qaaradda                      = [[Bariga dhexe]]
-|sawir_calan                   = Flag of Yemen.svg
-|sawir_qaran                   = Coat of arms of Yemen.svg
-|image_map                     = LocationYemen.svg
-|astaan_calan                  = 
-|astaan_calan                  = Allah, al-Watan, ath-Thawra, al-Wehda''<small><br />"Ilaaheey, Wadan, Kacaanka, Midnimo"</small>
-|image_map                     = LocationOman.svg
-|caasimadda                    = [[Sanca]]
-|luuqadaha                     = [[Af-Carabi]]
-|caasimada                     = [[Sanca]]   
-|dowladda                       = 
-|darajo_hogaamiye1             = [[Madaxweyne]]
-|Madaxweyne]]
-|darajo_hogaamiye2             =  [[Madaxweyne Kuxigeen]] 
-|magac_hogaamiye1              = Ali Abdullah Saleh 
-|magac_hogaamiye2              = Abd al-Rab Mansur al-Hadi
-|sovereignty_type              = 
-|sovereignty_note              = 
-|established_event1            = 
-|established_date1             = [[1918]]  
-|area                          = 555,000 km2
-|areami²                       = 203,849 
-|biyo                          = micno la aan
-|population_estimate           = 23,580,000
-|population_estimate_year      = 2009
-|lacagta                       = Riyaalka Yemen (YER) 
-|wakhti                        = Sammar UTC
-|furaha_debedda		       = 967
+{{Infobox country
+| conventional_long_name = Republic of Yemen
+| native_name = {{big|الجُمهورية اليَمَنية}}<br/>''{{transl|ar|DIN-31635|al-Jumhūriyyah al-Yamaniyyah}}''
+| common_name = Yemen
+| image_flag = Flag of Yemen.svg
+| image_coat = Coat of arms of Yemen.svg
+| symbol_type = Emblem
+| image_map = Yemen (orthographic projection).svg
+| national_motto = <div style="line-height:1.45em;white-space:nowrap;">{{native phrase|ar|{{lower|0.1em|{{big|الله، الوَطَن، الثَورة، الوَحدة}}}}|italics=off}}<br/>{{transl|ar|DIN-31635|"Allāh, al-Waṭan, aṯ-Ṯawrah, al-Waḥdah"}}<br/>{{small|"God, Country, Revolution, Unity"}}</div>
+| national_anthem = <div style="line-height:1.45em;white-space:nowrap;">{{native name|ar|{{lower|0.1em|{{big|نشيد اليمن الوطني}}}}|italics=off|nolink=on}}<br/>''[[National anthem of Yemen|Nashīd al-Yaman al-waṭanī]]''<br/>{{small|''United Republic''}}<br/><center>[[File:United States Navy Band - United Republic.ogg]]</center>
+| official_languages = [[Arabic]]
+| demonym = [[Yemeni (disambiguation)|Yemeni]]
+| capital = [[Sana'a]]
+| government_type = {{nowrap|Xukun mid ah, jamhuuriyad}}
+| leader_title1 = [[Madaxweyne|Madaxweyne]]
+| leader_name1 = [[Abd Rabbuh Mansur Al-Hadi|Abd Rabbuh Mansur al-Hadi]]
+| leader_title2 = Raysulwasaare
+| leader_name2 = [[Mohammed Basindawa]]
+| legislature = {{nowrap|Aqalka wakiilada Baarlamaanka}}
+| area_rank = 50th
+| area_magnitude = 1 E8
+| area_km2 = 527,829
+| area_sq_mi = 203,796 <!--Do not remove per [[WP:MOSNUM]]-->
+| percent_water = negligible
+| population_estimate = 23,833,000<ref name=yearbook2011>{{cite web|title=Statistical Yearbook 2011|url=http://www.cso-yemen.org/publiction/yearbook2011/population.xls|publisher=Central Statistical Organisation|accessdate=24 February 2013}}</ref> 
+| population_estimate_year = 2011
+| population_estimate_rank = 96th
+| population_census = 19,685,000<ref name=yearbook2011/>
+| population_census_year = 2004
+| population_density_km2 = 44.7
+| population_density_sq_mi = 115.7 <!--Do not remove per [[WP:MOSNUM]]-->
+| population_density_rank = 160th
+| GDP_PPP_year = 2011
+| GDP_PPP = $57.966 billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2012/01/weodata/weorept.aspx?pr.x=62&pr.y=1&sy=2009&ey=2012&scsm=1&ssd=1&sort=country&ds=.&br=1&c=474&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a= |title=Yemen |publisher=International Monetary Fund |accessdate=24 April 2012}}</ref>
+| GDP_PPP_rank =
+| GDP_PPP_per_capita = $2,306<ref name=imf2/>
+| GDP_PPP_per_capita_rank =
+| GDP_nominal = $33.675 billion<ref name=imf2/>
+| GDP_nominal_rank =
+| GDP_nominal_year = 2011
+| GDP_nominal_per_capita = $1,340<ref name=imf2/>
+| GDP_nominal_per_capita_rank =
+| Gini_year = | Gini_change =  <!--increase/decrease/steady--> | Gini =  <!--number only--> | Gini_ref = | Gini_rank =
+| HDI_year = 2011 <!--Please use the year to which the HDI data refers, not the year of its publication-->
+| HDI_change = increase <!--increase/decrease/steady-->
+| HDI = 0.462 <!--number only-->
+| HDI_ref =<ref name="HDI">{{cite web |url=http://hdr.undp.org/en/media/HDR_2011_EN_Complete.pdf |title=Human Development Report 2011 |publisher=The United Nations |accessdate=18 October 2011}}</ref>
+| HDI_rank = 154th
+| FSI = {{nowrap|93.2 {{decrease}} 3.4}}
+| FSI_year = 2007
+| FSI_rank = 24th
+| FSI_category = <span style="color:#f00;white-space:nowrap;">Alert</span>
+| sovereignty_type = Establishment
+| established_event1 = [[North Yemen]] independence from the [[Ottoman Empire]]<sup>a</sup>
+| established_date1 = <br/>1 November 1918
+| established_event2 = [[South Yemen]] independence<sup>b</sup>
+| established_date2 = <br/>30 November 1967
+| established_event3 = [[Yemeni unification|Unification]]
+| established_date3 = 22 May 1990
+| currency = [[Yemeni rial]]
+| currency_code = YER
+| country_code = YEM
+| time_zone =
+| utc_offset = +3
+| time_zone_DST = | utc_offset_DST =
+| drives_on = right<ref>{{cite web |url=http://www.newssafety.org/index.php?option=com_content&view=section&layout=blog&id=28&Itemid=100385 |title=Yemen |publisher=International News Safety Institute |accessdate=14 October 2009}}</ref>
+| calling_code = [[Telephone numbers in Yemen|+967]]
+| cctld = [[.ye]]
+| footnote_a = From the [[Ottoman Empire]].
+| footnote_b = From the [[United Kingdom]].
 }}
 '''Yemen''' [[Af-Carabi]] اليَمَن  ama '''Jamhuuriyadda Yemen''' waa wadan ku yaalo [[Bariga Dhexe]]. Yemen waxee xuduud la leedahay wadamada [[Sacuudi Carabiya]] oo ka xigta [[Woqooyi]]ga iyo [[Galbeed]]ka xeebta [[Baddacas]], iyo  [[Cumaan]] oo ka xigta [[Bari]]ga, Dhinaca [[Koonfur]]ta waxaa ka xiga [[Gacanka Cadmeed]] iyo [[Bada Carabeed]], dhinaca [[Galbeed]]ka neh waxaa ka xiga [[Bada Cas]], wadanka caasimadiisa waa [[Sanca]].wadanka Yemen waa wadanka kaliya ee Bariga dhexe oo isticmaalo Jamhuuriyad. yemen waa wadan aad u duqsan waxaana aad looga caabudaa diinta islaamka, dhinaca dhaqaalaha yemen uma taajirsano sida wadamada kale ee carabta, wadanka waxoo leeyahy shidaal iyo saliid, laakiin wax soo saarkooda aad ayoo u yaryahay.
 == Taariikh ==
