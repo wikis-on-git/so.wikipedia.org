@@ -1,0 +1,18 @@
+{{#switch:{{{1}}}
+| name   = Talyaaniga
+| top    = 47.4
+| bottom = 35.3
+| left   = 6.2
+| right  = 19.0
+| image  = Italy provincial location map.svg
+| image1 = Italy relief location map.jpg
+| image2 = Italy location map.svg
+}}<noinclude><!--
+--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+{{Documentation}}
+<!-- Categories and interwikis are located in Template:Location_map_Italy/doc -->
+</noinclude>
