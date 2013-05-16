@@ -1,7 +1,7 @@
-{{Top icon
-| imagename  = Cscr-featured1.png
-| wikilink = Wikipedia:Maqaallo Xul Ah
-| description = Maqaalkaan xulka ah wuxuu ka midyahay maqaalada aadka shaqada looga qabtay. guji halkaan macluumaad dheeraad ah.
-| id = featured-star
+{{ top icon
+| imagename    = cscr-featured.svg
+| wikilink     = Wikipedia:Maqaallo Xul Ah
+| description  = Maqaalkaan xulka ah wuxuu ka midyahay maqaalada aadka shaqada looga qabtay. guji halkaan macluumaad dheeraad ah.
+| id           = featured-star
 }}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Maqaallo Xul Ah]]}}
 <noinclude>{{Documentation}}</noinclude>
