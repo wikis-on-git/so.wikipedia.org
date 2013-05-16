@@ -1,0 +1,14 @@
+{| class="messagebox {{#ifeq:{{{small|}}}|yes|small|standard}}-talk"
+|-
+| [[file:Cscr-star_piece.png|center|none|35px]]
+|Maqaalkaan waxaa hadda ku socda [[Wikipedia:Habaynta Maqaalada Xulka Ah|habaynta maqaalada xulka ah]] si loo hubiyo in uu waafaqsantahay [[Wikipedia:Habka maqaalada Xulka Ah|habka maqaalada xulka ah]]. Si ay u-fududaato habaynta fadlan '''[[Wikipedia:Habaynta Maqaalada Xulka Ah#{{{1|{{PAGENAME}}}}}|faallo ku dar]]''' ama  [[Wikipedia:Ha Baqin|noqo '''geesi''']] ee hagaaji maqaalka si toos ah. <br /><small>'''fadlaan templatekaan ka saar hadii ay dhamaato habaynta.'''</small>
+|}
+<includeonly>{{#ifeq:{{NAMESPACE}}|Wadahadal|[[Category:Maqaallo xul ah kuna socota habayn|{{PAGENAME}}]]}}</includeonly>
+<noinclude>
+----
+* Template-kaan maqaalka waxaa looga darayaa  [[:Category:Maqaallo xul ah kuna socota habayn]].
+
+[[Category:Template|{{PAGENAME}}]]
+
+[[tl:Suleras:NABALIK]]
+</noinclude>
