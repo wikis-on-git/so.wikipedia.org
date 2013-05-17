@@ -1,6 +1,6 @@
 {{Navbox
 |name = Isbedelada dhow
-|listclass = plainlinks
+|listclass = hlist
 |bodystyle = background:white;
 |liststyle = text-align:left;
 |oddstyle = {{linear-gradient|left|#f7f7f7, #fdfdfd}}
@@ -12,7 +12,6 @@
 |navbar = plain
 |group1 = [[Portal:Bulsho|Bulsho]]
 |groupstyle = background:#f0f0f0; font-family: verdana;
-|listclass=hlist
 |list1=
 * [[Wikipedia:Goob|Goob]]
 |group2 = [[Wikipedia:Caawinaad|Caawinaad]]
