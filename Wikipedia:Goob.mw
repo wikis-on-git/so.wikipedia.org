@@ -7,3 +7,35 @@
 
 [[ar:ويكيبيديا:الميدان]]
 [[de:Wikipedia:Fragen zur Wikipedia]]
+
+== Tech newsletter: Subscribe to receive the next editions ==
+
+<div style="width:auto; padding: 1em; background:#fdf6e3;" class="plainlinks" ><big>Latest '''[[m:Tech/News|<span style="color:#268bd2;">Tech news</span>]]''' from the Wikimedia technical community.</big> ''Please inform other users about these changes.''</div>
+<div style="width:auto; padding: 1em; border: 2px solid #fdf6e3;" class="plainlinks" >
+;Recent software changes: ''(Not all changes will affect you.)''
+
+* The latest version of MediaWiki (version [[mw:MediaWiki 1.22/wmf4|1.22/wmf4]]) was added to non-Wikipedia wikis on May 13, and to the English Wikipedia (with a Wikidata software update) on May 20. It will be updated on all other Wikipedia sites on May 22. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=ed976cf0c14fa3632fd10d9300bb646bfd6fe751;hp=c6c7bb1e5caaddf7325de9eef0e7bf85bcf5cc35] [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* A software update will perhaps result in temporary issues with images. Please [[m:Tech/Ambassadors|report any problems]] you notice. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* MediaWiki recognizes links in twelve new [[:w:en:URI scheme|schemes]]. Users can now link to [[:w:en:SSH|SSH]], [[:w:en:XMPP|XMPP]] and [[:w:en:Bitcoin|Bitcoin]] directly from wikicode. [https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/core.git;a=commitdiff;h=a89d623302b5027dbb2d06941a22372948757685]
+* VisualEditor was added to [[bugzilla:48430|all content namespaces]] on mediawiki.org on May 20. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* A new extension ("TemplateData") was added to all Wikipedia sites on May 20. It will allow a future version of VisualEditor to [[bugzilla:44444|edit templates]]. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* New sites: [[:voy:el:|Greek Wikivoyage]] and [[:wikt:vec:|Venetian Wiktionary]] joined the Wikimedia family last week; the total number of project wikis is now 794. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=5d7536b403730bb502580e21243f923c3b79da0e] [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=43c9eebdfc976333be5c890439ba1fae3bef46f7]
+* The logo of 18 Wikipedias was changed to [[w:en:Wikipedia:Wikipedia_logos#The_May_2010_logo|version 2.0]] in a [http://lists.wikimedia.org/pipermail/wikimedia-l/2013-May/125999.html third group of updates]. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=4688adbe467440eea318eecf04839fdd9ffa0565] 
+* The [[:commons:Special:UploadWizard|UploadWizard]] on Commons now shows links to the old upload form in 55 languages ([[:bugzilla:33513|bug 33513]]). [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=4197fa18a22660296d0e5b84820d5ebb4cef46d4]
+
+;Future software changes:
+* The next version of MediaWiki (version 1.22/wmf5) will be added to Wikimedia sites starting on May 27. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* An updated version of [[mw:Echo (Notifications)|Notifications]], with new features and fewer bugs, will be added to the English Wikipedia on May 23. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* The [[m:Special:MyLanguage/Single User Login finalisation announcement|final version]] of the "single user login" (which allows people to use the same username on different Wikimedia wikis) is moved to August 2013. The software will [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-April/000217.html automatically rename] some usernames. [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-May/000233.html]
+* A [[m:Special:MyLanguage/Flow|new discussion system]] for MediaWiki, called "Flow", is under development. Wikimedia designers need your help to inform other users, [http://unicorn.wmflabs.org/flow/ test the prototype] and discuss the interface. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069433.html].
+* The Wikimedia Foundation is hiring people to act as links between software developers and users for VisualEditor. [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-May/000245.html]
+</div>
+<div style="font-size:90%; font-style:italic; background:#fdf6e3; padding:1em;">'''[[m:Tech/News|Tech news]]''' prepared by [[m:Tech/Ambassadors|tech ambassadors]] and posted by [[m:Global message delivery|Global message delivery]] • [[m:Tech/News#contribute|Contribute]] • [[m:Tech/News/2013/21|Translate]] • [[m:Tech|Get help]] • [[m:Talk:Tech/News|Give feedback]] • [[m:Global message delivery/Targets/Tech ambassadors|Unsubscribe]] • 21:12, 20 May 2013 (UTC)
+</div>
+
+<div style="float:left; background:#eee8d5; border: .2em solid #dc322f; border-left: .7em solid #dc322f; padding: 1em; "><span style="color:#dc322f;font-weight:bold;">Important note:</span> This is the first edition of the [[m:Tech/News|Tech News]] weekly summaries, which help you monitor recent software changes likely to impact you and your fellow Wikimedians.
+
+'''If you want to continue to receive the next issues every week''', please '''[[m:Global message delivery/Targets/Tech ambassadors|subscribe to the newsletter]]'''. You can  subscribe your personal talk page and a community page like this one. The newsletter can be [[m:Tech/News/2013/21|translated into your language]].
+
+You can also [[m:Tech/Ambassadors|become a tech ambassador]], [[m:Tech/News|help us write the next newsletter]] and [[m:Talk:Tech/News|tell us what to improve]]. Your feedback is greatly appreciated. [[m:user:guillom|guillom]] 21:12, 20 May 2013 (UTC)</div>
+<!-- EdwardsBot 0455 -->
