@@ -1,0 +1,12 @@
+{{#if:{{{1|}}}| ===[[{{{1}}}]] ===
+[[Wikipedia:Sharaxaada Maqaalada Cusub/{{{1}}}|Bogga sharaxaada]]<br />
+{{#ifexist:Wikipedia:Sharaxaada Maqaalada Cusub/{{{1}}}|
+{{Wikipedia:Sharaxaada Maqaalada Cusub/{{{1}}}}}
+<span class="noprint" style="white-space:nowrap; font-size:smaller">[{{fullurl:Wikipedia:Sharaxaada Maqaalada Cusub/{{{1}}}}} Guji halkaan hadii aad doneeysid wadahadal ama codayn]</span>|
+<big>ma dhamaystirna shaqada sharaxaada [[{{{1}}}]]</big>ـ si loo dhamaystiro howsha [{{fullurl:Wikipedia:Sharaxaada Maqaalada Cusub/{{{1}}}|action=edit&preload=Template:Maqaal_Usharaxan_Maqaal_Cusub/Sababta_Sharaxaada&autosummary=Sharaxaada%20Maqaal%Cusub}} Guji halkaan].}}
+----|Iska hubi inaad template ka u galisay habka caadiga ah sidaan oo kale:<pre>{{UMC|Xisaab}}</pre>}}
+<noinclude>
+REDIRECT: [[Template:UMC]]
+
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
