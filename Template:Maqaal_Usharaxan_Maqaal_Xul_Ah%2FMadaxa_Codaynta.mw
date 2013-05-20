@@ -1,0 +1,6 @@
+{{#if:{{{1|}}}|<div class="boilerplate metadata vfd xfd-closed" style="background-color: #F3F9FF; margin: 2em 0 0 0; padding: 0 10px 0 10px; border: 1px solid #AAAAAA;">
+<span style="color:red">{{D|wadahadalkaan waa codayn xiran lana kaydiyey ee ah maqaal la xushay laguna sheegay in ay tahay maqaal xul ah. '''fadlan waxba haka bedelin''' wadahadal kasta ee ka dambeeya, codaynta waa inuu ahaadaa bogaga quseeya, sida bogga wadahadalka ee maqaalka hadii ayna ahayn mid loo doortay ama maamulka ka timid hadii ay jiraan qof wax ka qaba waa inuu xulashada waa inuusan dhicin wax wax-ka-bedel ah.}}</span>
+
+Natiijadu waxay ahayd:{{ #switch:{{{1}}}|1={{Haa}}؛ Maqaalku hadda waa xul'''|2={{Maya}}; Maqaalka ma waafaqsana shuruudaha|3={{Maya}}; hubinta kuma filna|#default='''{{{1}}}'''}}}}<noinclude>
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
