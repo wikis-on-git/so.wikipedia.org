@@ -1,0 +1,9 @@
+{| class="messagebox {{#ifeq:{{{small|}}}|yes|small|standard}}-talk"
+|-
+| [[file:Cscr-star_piece.png|center|none|35px]]
+|Maqaalkaan hadda waxaa ku socda [[Wikipedia:Habaynta Maqaalada Cusub|habayn]] si loo hubiyo in ay gaari karto [[Wikipedia:Habka Maqaalada Cusub|Habka Maqaalada Cusub]]. si ay ufududaato habaynta fadalan '''[[Wikipedia:Habaynta Maqaalada Cusub#{{{1|{{PAGENAME}}}}}|ku dar faaladaada]]''' ama  [[Wikipedia:Ha Baqin|noqo '''geesi''']] gudagal inaad hagaajiso. <br /><small>''' fadlan Ka saar template kaan hadii ay howsha dhamaato.'''</small>
+|}<includeonly>{{#ifeq:{{NAMESPACE}}|Wadahadal|[[Category:Maqaallo cusub oo habayn ku socota|{{PAGENAME}}]]}}</includeonly>
+<noinclude>
+Template kaan waxaa lagu daraa maqaalka  [[:Category:Maqaallo cusub oo habayn ku socota]].
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
