@@ -59,13 +59,16 @@ desc none
 Image:Arabesken3.png|80px
 rect 0 0 0 0 [[Link la'aan]]
 desc none
-</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[file:Local-time.svg|Link=|30px]] Dhacdooyinka Hadda</div>
-|-
-| style="color:#000; padding:2px 9px;"  |
-{{Dhacdooyinka Hadda}}
-|-
+</imagemap></div><div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">
+{{Daaqad1
+ |titolo= Ma Ogtahay...
+ |logosfondo= Bluebg_rounded_croped.png
+ |logo= PL Wiki CzyWiesz ikona.svg
+ |px= 38
+ |contenuto= {{Bogga Hore/Ma Ogtahay/{{LOCALMONTH}}}}
+}}|-
 |id="mp-rn" style="color:#000; text-align:center; font-size:100%; padding:0px 5px; border-top:1px solid #cfe0f3;" |
-[[n:|'''Wiki Wararka''']] – [[Portal:Dhacdooyinka Hadda|'''Dhacdooyinka Hadda iyo dheeraad...''']]
+[[Wikipedia:Ma Ogtahay|'''Ma ogtahay dheeraad ka sii aqriso halkaan...''']]
 |-
 ! style="background:#ecf4f9; margin:0; height:22px; border-bottom:2px solid #cfe0f3; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="float:left;"><imagemap>
 Image:Arabesken3.png|80px
