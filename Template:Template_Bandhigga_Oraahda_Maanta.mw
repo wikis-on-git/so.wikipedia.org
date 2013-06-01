@@ -1,0 +1,7 @@
+{{ #ifexist: Template:Oraahda Maanta/{{{1}}} | 
+[[Template:Oraahda Maanta/{{{1}}}|Tirada Oraahda Maanta {{{1}}}]] - [http://so.wikipedia.org/w/index.php?title=Template:Oraahda_Maanta/{{{1}}}&action=edit Wax ka bedel template-ka]
+{{Oraahda Maanta/{{{1}}}}}
+----
+|}}<noinclude>
+[[Category:Template|{{PAGENAME}}]]
+</noinclude>
