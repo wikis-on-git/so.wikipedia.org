@@ -214,7 +214,7 @@
 {{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xil'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend|}}}||_}}end}}}
 {{!}}-
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Wuu {{#if:{{{gender|{{{sex|}}}}}}|T|Y}}sii ahaaday'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Hadda {{#if:{{{gender|{{{sex|}}}}}}|T|Y}}xilka haya'''
 {{!}}-
 }}
 {{#if:{{{term{{#if:{{{termend|}}}||_}}end|}}}
@@ -2848,7 +2848,7 @@
 {{!}}-
 }}
 {{#if:{{{date of birth|}}}|
-! Ku dhashay{{#if:{{{gender|{{{sex|}}}}}}|T}}
+! Dhashay{{#if:{{{gender|{{{sex|}}}}}}|T}}
 {{!}} {{{date of birth}}}<br />{{{place of birth|}}}
 {{!}}-
 }}
@@ -2888,7 +2888,7 @@
 }}
 <!----------Guurka, etc.---------->
 {{#if:{{{spouse|}}}|
-! Is{{#if:{{{gender|{{{sex|}}}}}}|T}} Guursaday
+! Is{{#if:{{{gender|{{{sex|}}}}}}|T}} guursadeen
 {{!}} {{{spouse}}}
 {{!}}-
 }}
