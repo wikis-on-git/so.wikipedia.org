@@ -1,0 +1,8 @@
+{{#switch:{{{1|}}}
+| m  = {{nowrap|{{formatnum: {{{2}}} }} m}}  {{nowrap|({{formatnum: {{#expr: {{{2}}}/0.3048 round {{{3|0}}} }} }} ft)}}
+| ft = {{nowrap|{{formatnum: {{{2}}} }} ft}} {{nowrap|({{formatnum: {{#expr: {{{2}}}*0.3048 round {{{3|0}}} }} }} m)}}
+| km = {{nowrap|{{formatnum: {{{2}}} }} km}} {{nowrap|({{formatnum: {{#expr: {{{2}}}/1.609344 round {{{3|0}}} }} }} mi)}}
+| mi = {{nowrap|{{formatnum: {{{2}}} }} mi}} {{nowrap|({{formatnum: {{#expr: {{{2}}}*1.609344 round {{{3|0}}} }} }} km)}}
+| mm = {{nowrap|{{formatnum: {{{2}}} }} mm}} {{nowrap|({{formatnum: {{#expr: {{{2}}}/25.4 round {{{3|0}}} }} }} in)}}
+| in = {{nowrap|{{formatnum: {{{2}}} }} in}} {{nowrap|({{formatnum: {{#expr: {{{2}}}*25.4 round {{{3|0}}} }} }} mm)}}
+}}<noinclude>{{documentation}}</noinclude>
