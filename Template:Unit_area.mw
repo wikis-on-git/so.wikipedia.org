@@ -1,0 +1,12 @@
+{{#switch:{{{1|}}}
+| km
+| sqkm = {{nowrap|{{formatnum:{{{2}}}}} km<sup>2</sup>}}   {{nowrap|({{formatnum:{{#expr:{{{2}}}/2.589988110336 round {{{3|0}}}}}}} sq mi)}}
+| mi
+| sqmi = {{nowrap|{{formatnum:{{{2}}}}} sq mi}} {{nowrap|({{formatnum:{{#expr:{{{2}}}*2.589988110336 round {{{3|0}}}}}}} km<sup>2</sup>)}}
+| ha   = {{nowrap|{{formatnum:{{{2}}}}} ha}}    {{nowrap|({{formatnum:{{#expr:{{{2}}}/0.40468564224 round {{{3|0}}}}}}} acres)}}
+| acre = {{nowrap|{{formatnum:{{{2}}}}} acres}}  {{nowrap|({{formatnum:{{#expr: {{{2}}}*0.40468564224 round {{{3|0}}}}}}} ha)}}
+| m
+| sqm  = {{nowrap|{{formatnum:{{{2}}}}} m<sup>2</sup>}}    {{nowrap|({{formatnum:{{#expr:{{{2}}}*10.763911 round {{{3|0}}}}}}} sq ft)}}
+| ft
+| sqft = {{nowrap|{{formatnum:{{{2}}}}} sq ft}} {{nowrap|({{formatnum:{{#expr:{{{2}}}/10.763911 round {{{3|0}}}}}}} m<sup>2</sup>)}}
+}}<noinclude>{{documentation}}</noinclude>
