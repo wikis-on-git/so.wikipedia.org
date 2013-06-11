@@ -1,0 +1,35 @@
+<includeonly>{{#switch:{{lc:{{{1}}}}}
+|brown
+|cave
+|geology
+|island
+|mountain
+|mountain range
+|summit
+|pass
+|peninsula
+|valley
+|range=<nowiki>#</nowiki>dacaa5
+|creek
+|lake
+|river
+|reservoir
+|stream
+|water=<nowiki>#</nowiki>b3cce4
+|national park
+|nature
+|protected area
+|reserve=<nowiki>#</nowiki>cde5b2
+|borough
+|city
+|settlement
+|town
+|township
+|village=<nowiki>#</nowiki>dfdfdf
+|bell
+|bridge
+|building
+|monument
+|race track=<nowiki>#</nowiki>ffffcc
+|region=<nowiki>#</nowiki>ffe5cc}}</includeonly><noinclude>
+[[Category:Geobox2 include|color]]</noinclude>
