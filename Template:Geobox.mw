@@ -63,7 +63,7 @@ Geobox2 line plain| Geobox 0}}
 
 {{!}}- class="mergedtoprow" {{ {{#if: {{{country|}}} |
 Geobox2 list{{#if:{{{country_fold|}}}|_fold}} | Geobox 0}}
-|{{#if:{{{country1|}}}|Countries|Country}} | {{{country_type|}}} | Country/Countries in which the site lies | {{{country_label|}}}
+|{{#if:{{{country1|}}}|Countries|Dalka}} | {{{country_type|}}} | Country/Countries in which the site lies | {{{country_label|}}}
 |{{{country|}}}|{{{country_note|}}}|{{{country1|}}}|{{{country1_note|}}}|{{{country2|}}}|{{{country2_note|}}}|{{{country3|}}}|{{{country3_note|}}}|{{{country4|}}}|{{{country4_note|}}}|{{{country5|}}}|{{{country5_note|}}}|{{{country6|}}}|{{{country6_note|}}}|{{{country7|}}}|{{{country7_note|}}}|{{{country8|}}}|{{{country8_note|}}}|{{{country9|}}}|{{{country9_note|}}}|{{{country10|}}}|{{{country10_note|}}}|{{{country11|}}}|{{{country11_note|}}}|{{{country12|}}}|{{{country12_note|}}}|{{{country13|}}}|{{{country13_note|}}}|{{{country14|}}}|{{{country14_note|}}}|{{{country15|}}}|{{{country15_note|}}}|
 }} {{ {{#if: {{{state|}}} |
 
@@ -159,7 +159,7 @@ Geobox2 list{{#if:{{{tributary_fold|}}}{{{child_fold|}}}{{{tributary_right_fold|
 }} }} {{ {{#if: {{{city|}}} |
 
 Geobox2 list{{#if:{{{city_fold|}}}|_fold}} | Geobox 0}}
-| {{#if: {{{city1|}}}| Cities| City}} | {{{city_type|}}} | Major settlements which lie in the site | {{{city_label|}}}
+| {{#if: {{{city1|}}}| Magaalooyin| City}} | {{{city_type|}}} | Major settlements which lie in the site | {{{city_label|}}}
 |{{{city|}}}|{{{city_note|}}}|{{{city1|}}}|{{{city1_note|}}}|{{{city2|}}}|{{{city2_note|}}}|{{{city3|}}}|{{{city3_note|}}}|{{{city4|}}}|{{{city4_note|}}}|{{{city5|}}}|{{{city5_note|}}}|{{{city6|}}}|{{{city6_note|}}}|{{{city7|}}}|{{{city7_note|}}}|{{{city8|}}}|{{{city8_note|}}}|{{{city9|}}}|{{{city9_note|}}}|{{{city10|}}}|{{{city10_note|}}}|{{{city11|}}}|{{{city11_note|}}}|{{{city12|}}}|{{{city12_note|}}}|{{{city13|}}}|{{{city13_note|}}}|{{{city14|}}}|{{{city14_note|}}}|{{{city15|}}}|{{{city15_note|}}}|
 }} {{ {{#if: {{{landmark|}}}|
 
@@ -235,12 +235,12 @@ Geobox2 data plain | Geobox 0}} | sub = 1
 }} {{ {{#if: {{{capital_elevation|}}}{{{capital_elevation_imperial|}}} |
 
 Geobox2 unit | Geobox 0}} | sub = 1
-| elevation | | capital elevation above sea level (ASL) |
+| joogga | | capital elevation above sea level (ASL) |
 |height|m|ft| {{#if: {{{capital_elevation_unit|}}} | {{{capital_elevation_unit|}}} | {{{elevation_unit|}}} }} | {{{capital_elevation|}}} | {{{capital_elevation_imperial|}}} | {{#if: {{{capital_elevation_round|}}} | {{{capital_elevation_round|}}} | {{{elevation_round|0}}} }} | {{{capital_elevation_note|}}} |
 }} {{ {{#if: {{{capital_lat_d|}}} |
 
 Geobox2 coor | Geobox 0}} | sub = 1
-| coordinates | | capital center geographic coordinates |
+| isuduweha | | capital center geographic coordinates |
 |{{{capital_lat_d|}}}|{{{capital_lat_m|}}}|{{{capital_lat_s|}}}|{{{capital_lat_NS|}}}|{{{capital_long_d|}}}|{{{capital_long_m|}}}|{{{capital_long_s|}}}|{{{capital_long_EW|}}}|country={{{country|}}}|state={{#if: {{{state|}}}|{{{state}}}|{{{region|}}}}}|type={{{1|}}}|pop={{{population|}}}|coor_param={{#if: {{{capital_coordinates_type|}}} | {{{capital_coordinates_type|}}} | {{{coordinates_type|}}}}} | format={{#if:{{{capital_coordinates_format|}}}|{{{capital_coordinates_format|}}}|{{{coordinates_format|}}} }}|{{{capital_coordinates_note|}}}|
 }} }} {{#if: {{{highest|}}}{{{highest_name|}}}{{{highest_location|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{highest_lat_d|}}} |
 {{ {{#if: {{{highest|}}}{{{highest_name|}}}{{{highest_location|}}}{{{highest_elevation|}}}{{{highest_elevation_imperial|}}}{{{highest_lat_d|}}} |
@@ -306,7 +306,7 @@ Geobox2 coor | Geobox 0}} | sub = 1
 {{ {{#if: {{{source|}}}{{{source_name|}}}{{{source_location|}}}{{{source_elevation|}}}{{{source_elevation_imperial|}}}{{{source_length|}}}{{{source_length_imperial|}}}{{{source_lat_d|}}} |
 
 Geobox2 data | Geobox 0}}
-| {{#if:{{{source1|}}}| Primary source | Source}} | {{{source_type|}}} | {{#if:{{{source1|}}}| Primary source source | Source name}} | {{{source_label|}}}
+| {{#if:{{{source1|}}}| Halka uu ka yimaado | Source}} | {{{source_type|}}} | {{#if:{{{source1|}}}| Primary source source | Source name}} | {{{source_label|}}}
 | {{{source|}}}{{{source_name|}}} | {{{source_note|}}} |
 }} {{ {{#if: {{{source_location|}}} |
 
@@ -337,7 +337,7 @@ Geobox2 coor | Geobox 0}} | sub = 1
 {{ {{#if: {{{source1|}}}{{{source1_name|}}}{{{source1_location|}}}{{{source1_elevation|}}}{{{source1_elevation_imperial|}}}{{{source1_length|}}}{{{source1_length_imperial|}}}{{{source1_lat_d|}}} |
 
 Geobox2 data | Geobox 0}}
-| Secondary source | {{{source1_type|}}} | Secondary source name | {{{source1_label|}}}
+| Barta labaad imaansha | {{{source1_type|}}} | Secondary source name | {{{source1_label|}}}
 | {{{source1|}}}{{{source1_name|}}} | {{{source1_note|}}} |
 }} {{ {{#if: {{{source1_location|}}} |
 
@@ -399,7 +399,7 @@ Geobox2 coor | Geobox 0}} | sub = 1
 {{ {{#if: {{{source_confluence|}}}{{{source_confluence_name|}}}{{{source_confluence_location|}}}{{{source_confluence_elevation|}}}{{{source_confluence_elevation_imperial|}}}{{{source_confluence_length|}}}{{{source_confluence_length_imperial|}}}{{{source_confluence_lat_d|}}} |
 
 Geobox2 data | Geobox 0}}
-| Source confluence | {{{source_confluence_type|}}} | Source confluence name | {{{source_confluence_label|}}}
+| Bar kulan | {{{source_confluence_type|}}} | Source confluence name | {{{source_confluence_label|}}}
 | {{{source_confluence|}}}{{{source_confluence_name|}}} | {{{source_confluence_note|}}} |
 }} {{ {{#if: {{{source_confluence_location|}}} |
 
@@ -425,7 +425,7 @@ Geobox2 coor | Geobox 0}} | sub = 1
 {{ {{#if: {{{mouth|}}}{{{mouth_name|}}}{{{mouth_location|}}}{{{mouth_elevation|}}}{{{mouth_elevation_imperial|}}}{{{mouth_length|}}}{{{mouth_length_imperial|}}}{{{mouth_lat_d|}}} |
 
 Geobox2 data | Geobox 0}}
-| Mouth | {{{mouth_type|}}} | Mouth name | {{{mouth_label|}}}
+| Afka | {{{mouth_type|}}} | Mouth name | {{{mouth_label|}}}
 | {{{mouth|}}}{{{mouth_name|}}} | {{{mouth_note|}}} |
 }} {{ {{#if: {{{mouth_location|}}} |
 
@@ -482,7 +482,7 @@ Geobox2 unit | Geobox 0}} | sub = 1
 }} }} {{#if: {{{width|}}}{{{width_imperial|}}} |
 
 {{ {{#if: {{{width|}}}{{{width_imperial|}}} | Geobox2 unit | Geobox 0}}
-| Width | {{{width_type|}}} | Width | {{{width_label|}}}
+| Ballac | {{{width_type|}}} | Width | {{{width_label|}}}
 |length|{{#switch:{{lc:{{{1|}}}}}|building|monument|bridge=m|km}}|{{#switch:{{lc:{{{1|}}}}}|building|monument|bridge=ft|mi}}|{{{width_unit|}}}|{{{width|}}}|{{{width_imperial|}}}|{{{width_round|0}}}|comma={{{width_orientation|}}}|{{{width_note|}}}|
 }} {{ {{#if: {{{width1|}}}{{{width1_imperial|}}} |
 
@@ -632,7 +632,7 @@ Geobox2 unit | Geobox 0}} | sub = 1
 }} }} {{ {{#if: {{{watershed|}}}{{{watershed_imperial|}}} |
 
 Geobox2 unit | Geobox 0}}
-| Basin | {{{watershed_type|}}} | Drainage basin/catchment area/watershed | {{{watershed_label|}}}
+| Biyogaleen | {{{watershed_type|}}} | Drainage basin/catchment area/watershed | {{{watershed_label|}}}
 |area|sqkm|sqmi|{{{watershed_unit|}}}|{{{watershed|}}}|{{{watershed_imperial|}}}|{{{watershed_round|0}}}|{{{watershed_note|}}}|
 }} {{#if: {{{area|}}}{{{area_imperial|}}} |
 
@@ -682,12 +682,12 @@ Geobox2 unit | Geobox 0}} | sub = 1
 }} }} {{#if: {{{discharge|}}}{{{discharge_average|}}}{{{discharge_imperial|}}}{{{discharge_average_imperial|}}} |
 
 {{ {{#if: {{{discharge|}}}{{{discharge_average|}}}{{{discharge_imperial|}}}{{{discharge_average_imperial|}}} | Geobox2 data | Geobox 0}}
-| Discharge | {{{discharge_type|}}} | Discharge figures measured at | {{{discharge_label|}}}
+| Dhamaadka | {{{discharge_type|}}} | Discharge figures measured at | {{{discharge_label|}}}
 |{{#switch: {{lc:{{{discharge_location|}}}}} | mouth = [[mouth (river)|mouth]] | source = [[river source|source]] | {{#if: {{{discharge_location|}}}|for {{#ifexist:{{{discharge_location|}}}|[[{{{discharge_location|}}}]]|{{{discharge_location|}}}}}}} }}|{{{discharge_location_note|}}}|
 }} {{ {{#if: {{{discharge|}}}{{{discharge_average|}}}{{{discharge_imperial|}}}{{{discharge_average_imperial|}}} |
 
 Geobox2 unit | Geobox 0}} | sub = 1
-| average | | Average discharge |
+| iskucelcelis | | Average discharge |
 |discharge|cbm|cbft|{{{discharge_unit|}}}|{{{discharge|}}}{{{discharge_average|}}}|{{{discharge_imperial|}}}{{{discharge_average_imperial|}}}|{{{discharge_round|0}}}|{{{discharge_note|}}}|
 }} {{ {{#if: {{{discharge_max|}}}{{{discharge_max_imperial|}}} |
 
