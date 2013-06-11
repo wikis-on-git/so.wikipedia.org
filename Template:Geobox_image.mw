@@ -1,0 +1,7 @@
+<includeonly>
+|-
+| colspan="2" style="text-align: center; padding: 0.5em;" | <div>{{#invoke:InfoboxImage|InfoboxImage|image={{{1|}}}|size={{{3|}}}|sizedefault=256px|border={{{4|}}}|alt={{{5|}}}}}</div>{{#if: {{{2|}}} |<div style="padding-top:0.4em">{{{2}}}</div>}}</includeonly><noinclude>{{pp-template|small=yes}}
+This is a supportive template for various infoboxes from the [[:Category:Geobox]] series, not intended to be used on its own. Please, see the instructions there. It's a project under construction so the instructions might not be available or up-to-date yet.
+[[Category:Geobox include|Image]]
+[[Category:Geobox2 include|image]]
+</noinclude>
