@@ -1,0 +1,6 @@
+{{#switch: {{{1|}}}
+| ft
+| cbft = {{nowrap|{{formatnum:{{{2}}}}} cu ft/s}} {{nowrap|({{formatnum:{{#expr:{{{2}}}*0.028316846592 round {{{3|0}}}}}}} m<sup>3</sup>/s)}}
+| m
+| cbm  = {{nowrap|{{formatnum:{{{2}}}}} m<sup>3</sup>/s}} {{nowrap|({{formatnum: {{#expr: {{{2}}}/0.028316846592 round {{{3|0}}}}} }} cu ft/s)}}
+}}<noinclude>{{documentation}}</noinclude>
