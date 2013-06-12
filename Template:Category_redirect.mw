@@ -14,7 +14,7 @@ Reporting if the first parameter is not a valid category name:
   }}<!-- 
 Reporting circular redirects (of length 1): 
 -->{{#ifeq:{{ucfirst:{{{1}}}}}|{{PAGENAME}}|[[Category:Wikipedia category-redirect box parameter needs fixing|∞{{PAGENAME}}]]}}
-| :::::This template should only be used on category pages.
+| :::::Template kaan waxaa loo adeegsan karaa oo kaliya qaybaha bogagga.
 }}{{category handler
 |all = {{#ifexpr:{{PAGESINCATEGORY:{{PAGENAME}}}}
  |[[Category:Wikipedia non-empty soft redirected categories]]
