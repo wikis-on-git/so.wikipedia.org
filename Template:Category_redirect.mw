@@ -1,0 +1,26 @@
+{{Cmbox
+| type = move
+| image = [[File:Redirect arrow.svg|52px]]
+| text = 
+'''Qaybtaan waxay ka mid tahay <span id="softredirect">[[:Category:{{{1}}}]]</span>.'''
+:'''Fiira Gaar Ah:''' Qaybtaan waa in ay ahaataa meel faaruq ah.
+eeg [[Template:Category redirect#Instructions|tusaalaha]] iyo macluumaad dheeraad ah.
+}}{{category other 
+|<!-- 
+Reporting if the first parameter is not a valid category name: 
+-->{{#ifexist:Category:{{{1}}}
+  | 
+  | [[Category:Wikipedia category-redirect box parameter needs fixing|∃{{PAGENAME}}]]
+  }}<!-- 
+Reporting circular redirects (of length 1): 
+-->{{#ifeq:{{ucfirst:{{{1}}}}}|{{PAGENAME}}|[[Category:Wikipedia category-redirect box parameter needs fixing|∞{{PAGENAME}}]]}}
+| :::::This template should only be used on category pages.
+}}{{category handler
+|all = {{#ifexpr:{{PAGESINCATEGORY:{{PAGENAME}}}}
+ |[[Category:Wikipedia non-empty soft redirected categories]]
+}}<includeonly>[[Category:Wikipedia soft redirected categories]]</includeonly>
+|nocat={{{nocat|}}}
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
