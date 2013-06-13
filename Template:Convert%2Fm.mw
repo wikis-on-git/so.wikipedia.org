@@ -1,0 +1,10 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|s={{{s|}}}|r={{{r}}}
+|u=m
+|n=met{{{r}}}
+|t=metre
+|o=ft{{#ifexpr:{{{1|4}}}>0 and {{{1|4}}}<3|in}}
+|b=1
+|j=0-{{{j|0}}}}}<noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
