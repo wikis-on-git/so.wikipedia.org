@@ -1,0 +1,32 @@
+<noinclude>{| class="infobox" style="width: 25em; font-size: 95%;"
+</noinclude>
+|- align=center valign=middle bgcolor={{#switch: {{{1}}}
+|Sport|Team|Country ="#eeeeee"
+|Competition|Comp|Olympic|Olympics|WorldChampionships="#cccccc"
+|#default = white}}
+|{{#switch: {{{1}}}
+|Gold|G= bgcolor=gold{{!}} '''Gold'''
+|Silver|S= bgcolor=silver{{!}} '''Silver'''
+|Bronze|B= bgcolor="#cc9966"{{!}} '''Bronze'''
+|Winner|W= bgcolor=gold{{!}} '''Winner'''
+|Runnerup|RU= bgcolor=silver{{!}} '''Runner-up'''
+|Second|2nd= bgcolor=silver{{!}} '''Second'''
+|Third|3rd= bgcolor="#cc9966"{{!}} '''Third'''
+|Playoffs|PO= bgcolor="#cc9966"{{!}} '''Playoffs'''
+|Disqualified|DQ = bgcolor=pink{{!}} '''Disqualified'''
+|TrueSpirit|PdC = bgcolor="white"{{!}}[[File:Olympic_rings.svg|30px]]{{!!}}bgcolor="white" {{!}}'''[[Pierre de Coubertin medal]]'''
+|Competition|Comp|Sport|Team = colspan ="3"{{!}} '''<span class="nowrap">{{{2|}}}</span>'''
+|Olympics|Olympic = colspan ="3"{{!}} '''<span class="nowrap">[[Olympic Games]]</span>'''
+|WorldChampionships = colspan ="3"{{!}} '''<span class="nowrap">World Championships</span>'''
+|Country = colspan ="3"{{!}} '''Representing <span class="country-name">{{{2}}}</span>'''
+|Independent = colspan ="3"{{!}} '''Competed as an <span class="country-name">{{{2}}}</span>'''
+}}{{#switch: {{{1}}}
+|Competition|Comp|Country|Sport|Team|Independent|Olympic|Olympics|WorldChampionships=
+|#default= {{!!}} <span class="nowrap">{{{2}}}</span>
+}}{{#switch: {{{1}}}
+|Competition|Comp|Country|Sport|Team|TrueSpirit|PdC|Independent|Olympic|Olympics|WorldChampionships=
+|#default= {{!!}} {{{3}}}}}<noinclude>
+|}
+{{documentation|Template:MedalRelatedTemplates}}
+[[Category:Medal infobox templates]]
+</noinclude>
