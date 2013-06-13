@@ -1,0 +1,11 @@
+{{#if:{{{medals|}}}|<div class="NavFrame {{#if:{{{expand|}}}||collapsed}}" style="border: none; padding: 0;">
+    <div class="NavHead" style="font-size:105%; text-align: center; {{{titlestyle|background-color: transparent;}}}"><!--
+     -->{{#if:{{{title|}}}|{{{title}}}|Medal record}}<!--
+ --></div>
+    <div class="NavContent" style="font-size:105%; font-weight: lighter; width: 100%;">
+{{{!}} style="width:100%; background-color: #f9f9f9; color: #000000;"
+{{!}}-
+{{{medals}}}
+{{!}}}
+</div>
+}}{{#ifeq:{{{medal_templates|}}}|{{{!}}|[[Category:Infobox medal templates requiring repair]]|}}<noinclude>{{documentation}}</noinclude>
