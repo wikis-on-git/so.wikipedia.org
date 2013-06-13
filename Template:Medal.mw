@@ -5,13 +5,13 @@
 |Competition|Comp|Olympic|Olympics|WorldChampionships="#cccccc"
 |#default = white}}
 |{{#switch: {{{1}}}
-|Gold|G= bgcolor=gold{{!}} '''Gold'''
-|Silver|S= bgcolor=silver{{!}} '''Silver'''
+|Gold|G= bgcolor=gold{{!}} '''Dahab'''
+|Silver|S= bgcolor=silver{{!}} '''Qalin'''
 |Bronze|B= bgcolor="#cc9966"{{!}} '''Bronze'''
-|Winner|W= bgcolor=gold{{!}} '''Winner'''
+|Winner|W= bgcolor=gold{{!}} '''Guul'''
 |Runnerup|RU= bgcolor=silver{{!}} '''Runner-up'''
-|Second|2nd= bgcolor=silver{{!}} '''Second'''
-|Third|3rd= bgcolor="#cc9966"{{!}} '''Third'''
+|Second|2nd= bgcolor=silver{{!}} '''Labaad'''
+|Third|3rd= bgcolor="#cc9966"{{!}} '''Saddexaad'''
 |Playoffs|PO= bgcolor="#cc9966"{{!}} '''Playoffs'''
 |Disqualified|DQ = bgcolor=pink{{!}} '''Disqualified'''
 |TrueSpirit|PdC = bgcolor="white"{{!}}[[File:Olympic_rings.svg|30px]]{{!!}}bgcolor="white" {{!}}'''[[Pierre de Coubertin medal]]'''
