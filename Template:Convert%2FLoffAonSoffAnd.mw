@@ -1,0 +1,8 @@
+<includeonly>{{convert/outAnd|{{#expr:floor({{#expr:{{{2}}}/{{{a}}}/{{{b}}}}})}}|{{{U}}}|{{convert/{{#if:{{{4|}}}|s}}{{#if:{{{3|}}}|p}}rand|{{{1}}}|{{{2}}}/{{{b}}}|{{{3}}}|{{{4}}}|{{{j}}}|{{{a}}}}}|{{{u}}}
+|p={{convert/{{#if:{{{4|}}}|s}}{{#if:{{{3|}}}|p}}rand|{{{1}}}|{{{2}}}/{{{b}}}|{{{3}}}|{{{4}}}|{{{j}}}}}
+|a={{{a}}}
+|v={{{2}}}/{{{b}}}
+|nozero={{#ifexpr:{{{1}}}|1|0}}
+}}</includeonly><noinclude>
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
