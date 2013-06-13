@@ -32,7 +32,7 @@
 | data6       = {{{death_place|}}}
 | label7      = Joogga
 | data7       = {{convinfobox|{{{height_cm|}}}|cm|{{{height_ft|}}}|ft|{{{height_in|}}}|in}}{{{height|}}}
-| label8      = Playing position
+| label8      = Booska cayaarta
 | class8      = role
 | data8       = {{{position|}}}
 
@@ -282,7 +282,7 @@
 | header75    = {{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|Teams managed}}
 
 | label76     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|Years}} }}
-| data76a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{manageryears1|{{{manageryears|}}}}}}|'''Team'''}} }}
+| data76a     = {{#if:{{{clubs1|{{{clubs|}}}}}}||{{#if:{{{manageryears1|{{{manageryears|}}}}}}|'''Naadiga'''}} }}
 
 | label77     = {{#if:{{{managerclubs|}}}|<span style="line-height:1.7em">}}{{#if:{{{managerclubs1|{{{managerclubs|}}}}}}|<span style="font-weight:normal">{{{manageryears1|{{{manageryears|–}}}}}}</span>}}
 | data77      = {{#if:{{{managerclubs|}}}|<span style="line-height:1.7em">}}{{{managerclubs1|{{{managerclubs|}}}}}}
@@ -366,7 +366,7 @@
 | data116     = {{{managerclubs40|}}}
 
 | header117     = {{Infobox medal templates
-  |title = Honours
+  |title = Guulaha
   |medals = {{{medaltemplates|}}}
   |expand = {{{medaltemplates-expand|}}}
   }}
