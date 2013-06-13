@@ -1,0 +1,25 @@
+<includeonly>{{#ifeq: {{{1|0}}}|0
+<!--then-->|0{{#switch:{{{d}}}<!--
+                   -->|LoffAoffSoff=&#32;inches<!--
+                   -->|LoffAoffSon=-inches<!--
+                   -->|LonAonSoff<!--
+                   -->|LonAonSon=&nbsp;[[inch|in]]<!--
+                   -->|LonAoffSoff=&#32;[[inch]]es<!--
+                   -->|LonAoffSon=-[[inch]]es<!--
+                   -->|&nbsp;in}}
+<!--else-->|{{convert/{{{d|LoffAonSoff}}}And|{{{1|0}}}|{{{2|}}}|{{{3|0}}}|{{{4|1}}}|s={{{s|}}}
+|U=ft
+|N=foot
+|L=feet
+|T=foot (unit)
+|u=in
+|n=inch
+|l=inches
+|a=12
+|b=0.0254
+|j=-1.595166283-{{{j}}}}}}}<!--endif--></includeonly><noinclude>
+This subtemplate converts to feet and inches.
+
+[[Category:Subtemplates of Template Convert]]
+[[Category:2011 Convert unit subtemplates]]
+</noinclude>
