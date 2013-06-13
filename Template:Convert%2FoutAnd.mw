@@ -1,0 +1,3 @@
+{{convert/And{{#ifeq:{{#expr:({{{1}}}>0) or ({{formatnum:{{{3}}}|R}}={{{a}}})}}|1|1|0}}|{{#expr:{{{1}}}+({{formatnum:{{{3}}}|R}}={{{a}}})}}|{{{2}}}|{{#ifeq:{{formatnum:{{{3}}}|R}}|{{{a}}}|0|{{{3}}}}}|{{{4}}}}}<noinclude>
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
