@@ -47,7 +47,7 @@
 {{#if:{{{term{{#if:{{{termend2|}}}||_}}end2|}}}
 |<!--then nothing else; term has ended-->
 |<!--else term is ongoing:-->
-{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;xil&nbsp;'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}{{#if:{{{alongside2|}}}|<br />La shaqeeyey [[{{{alongside2}}}]]}}
+{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|}}&nbsp;xil&nbsp;'''<br />{{{term{{#if:{{{termstart2|}}}||_}}start2}}}{{#if:{{{alongside2|}}}|<br />La shaqeeyey [[{{{alongside2}}}]]}}
 {{!}}-
 }}
 }}
@@ -214,13 +214,13 @@
 {{!}}colspan="2" style="border-bottom:none; text-align:center;"{{!}}'''Ka qabtay&nbsp;xil'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}&nbsp;–&nbsp;{{{term{{#if:{{{termend|}}}||_}}end}}}
 {{!}}-
 |<!--else:--> <!--term is ongoing-->
-{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Hadda {{#if:{{{gender|{{{sex|}}}}}}|T|Y}}xilka haya'''
+{{!}}colspan="2" style="text-align:center; background:lavender;"{{!}} '''Hadda {{#if:{{{gender|{{{sex|}}}}}}|T|}}xilka haya'''
 {{!}}-
 }}
 {{#if:{{{term{{#if:{{{termend|}}}||_}}end|}}}
 |<!--then nothing else; term has ended-->
 |<!--else term is ongoing:-->
-{{!}}colspan="2" style="text-align:center;"{{!}}'''La wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}{{#if:{{{alongside|}}}|<br />La shaqeeyey [[{{{alongside}}}]]}}
+{{!}}colspan="2" style="text-align:center;"{{!}}'''La wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart|}}}||_}}start}}}{{#if:{{{alongside|}}}|<br />La shaqeeyey [[{{{alongside}}}]]}}
 {{!}}-
 }}
 }}
@@ -496,7 +496,7 @@
 {{#if:{{{term{{#if:{{{termend1|}}}||_}}end1|}}}
 |<!--then nothing else; term has ended-->
 |<!--else term is ongoing:-->
-{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|Y}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}{{#if:{{{alongside1|}}}|<br />La shaqeeyey [[{{{alongside1}}}]]}}
+{{!}}colspan="2" style="text-align:center;"{{!}}'''la wareegay{{#if:{{{gender|{{{sex|}}}}}}|T|}}&nbsp;Xilka&nbsp;'''<br />{{{term{{#if:{{{termstart1|}}}||_}}start1}}}{{#if:{{{alongside1|}}}|<br />La shaqeeyey [[{{{alongside1}}}]]}}
 {{!}}-
 }}
 }}
@@ -2903,7 +2903,7 @@
 {{!}}-
 }}
 {{#if:{{{residence|}}}|
-! Degenaasho
+! Degganaasho
 {{!}} {{{residence}}}
 {{!}}-
 }}
