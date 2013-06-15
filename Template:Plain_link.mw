@@ -1,3 +1,5 @@
-<span class="plainlinks">[{{{1|{{{URL|{{{url}}}}}}}}} {{{2|{{{NAME|{{{name|}}}}}}}}}]</span><noinclude>
+<code style="letter-spacing:-1px;"><nowiki>|</nowiki>{{#if:{{{1|}}}|<span style="white-space:nowrap;">{{{1}}}</span><nowiki>=</nowiki>|}}{{{2|}}}</code><noinclude>
 {{documentation}}
+</noinclude><noinclude>
+[[Category:Template]]
 </noinclude>
