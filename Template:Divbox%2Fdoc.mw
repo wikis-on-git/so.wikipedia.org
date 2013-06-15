@@ -1,0 +1,51 @@
+<!-- Qaybaha inter wiki waxaa lagu qori doonaa hoos -->
+
+=== Adeegsiga ===
+*<pre>{{Divbox|Style|Title|Content}}</pre>
+Style waa mid ka mid ah Style lagu xusay hoos (sida caadiga ah midabka sida casaanka ama Doogga ama Buluuga)
+
+
+*Tusaale:
+<pre>{{Divbox|Blue|Wikipedia|"'''[[Wikipedia]]'''" Mashruuc kala duwan ...}}</pre>
+Natiijada: 
+{{Divbox|Blue|Wikipedia|"'''[[Wikipedia]]'''" Mashruuc Luqado kala duwan si loo sameeyo Insaykalobedhiya la kala dhig dhigay dhamaystiran kala duduwan una furan dadka oo dhan.}}
+
+
+*Waad iska dhaafi kartaa ciwaanka. Tusaale:
+<pre>{{Divbox|Navy|Cinwaan la'aan}}</pre>
+Natiijada:
+{{Divbox|Navy|Cinwaan la'aan}}
+
+
+*Isdul-saar iyo dib u adeegsi
+<pre>{|
+|{{Divbox|Yellow|Kan}} 
+|{{Divbox|Brown||Kaas|Dib u adeegsi=20}}
+|}</pre>
+{|
+|{{Divbox|Yellow|Kaan}} 
+|{{Divbox|Brown||Kaas|Dib u adeegsi=20}}
+|}
+
+===Midabada===
+Waxaad adeegsan kartaa mid ma mid ah midibadaan
+{|
+| {{Divbox|Red|Red}}
+| {{Divbox|Blue|Blue}}
+| {{Divbox|Green|Green}}
+| {{Divbox|Grey|Grey}}
+|-
+| {{Divbox|Yellow|Yellow}}
+| {{Divbox|Brown|Brown}}
+| {{Divbox|Orange|Orange}}
+| {{Divbox|Violet|Violet}}
+|-
+| {{Divbox|Navy|Navy}}
+| {{Divbox|Black|Black}}
+| {{Divbox|White|White}}
+| {{Divbox|Gold|Gold}}
+|}
+
+<includeonly>
+[[Category:Template]]
+</includeonly>
