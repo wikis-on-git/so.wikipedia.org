@@ -1,4 +1,16 @@
-{{main other
- |1 = <!-- not displayed in mainspace -->
- |2 = <div class="boilerplate metadata" {{#if:{{{2|}}}|id="{{{2}}}"|}} style="{{divbox/style/{{{1}}}}};{{#if:{{{radius|}}}|{{border-radius|{{{radius}}}}}|}} padding: 1em;"><center><b>{{{2|}}}</b></center>{{{3|}}}</div>
-}}<noinclude>{{documentation}}<!-- place category and language links on the /doc sub-page, not here --></noinclude>
+<div class="boilerplate metadata" id="{{{id|}}}" style="padding:0.5em;border-radius:{{{radius|0}}}px;-moz-border-radius:{{{radius|0}}}px;-webkit-border-radius:{{{radius|0}}}px;{{#switch:{{{1|}}}
+|Black=background-color: #696969; border: 1px solid #000000; color: #FFFFFF; 
+|Red=background-color: #FFCCCC; border: 1px solid #CC0000; 
+|Blue=background-color: #BDD4F6; border: 1px solid #0000CC;
+|Green=background-color: #CCFFCC; border: 1px solid #009900;
+|Grey=background-color: #EEEEEE; border: 1px solid #999999;
+|Yellow=background-color: #FFFFCC; border: 1px solid #FFCC00;
+|Brown=background-color: #F2DEB8; border: 1px solid #663300;
+|Orange=background-color: #FFDEB5; border: 1px solid #FF6600;
+|Violet=background-color: #FFDAFF; border: 1px solid #7D00B3;
+|Navy=background-color: #AADBE0; border: 1px solid #00477B;
+|White=background-color: #FFFFFF; border: 1px solid #000000;
+|Gold=background-color: #f8f8ff; border: 1px solid #999999;}}"><!-- 
+-->{{#if:{{{3|}}}|{{#if:{{{2|}}}|<center><b>{{{2}}}</b></center>}}}}<!-- 
+-->{{{3|{{{2|}}}}}}</div><!-- 
+--><noinclude>{{documentation}}</noinclude>
