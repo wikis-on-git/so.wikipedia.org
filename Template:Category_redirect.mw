@@ -2,23 +2,23 @@
 | type = move
 | image = [[File:Redirect arrow.svg|52px]]
 | text = 
-'''Qaybtaan waxay ka mid tahay <span id="softredirect">[[:Category:{{{1}}}]]</span>.'''
-:'''Fiira Gaar Ah:''' Qaybtaan waa in ay ahaataa meel faaruq ah.
-eeg [[Template:Category redirect#Instructions|tusaalaha]] iyo macluumaad dheeraad ah.
+'''Maqaalada ku jira qaybtaan waa in loo wareejiyaa  <span id="softredirect">[[:Category:{{{1}}}]]</span>.'''
+:'''Fiira Gaar Ah:''' Qaybtaan waa in ay ahaataa meel faaruq ah loona wareegaa [[:Category:{{{1}}}]]..
+Eeg [[Template:Category redirect#Instructions|tusaalaha]] iyo macluumaad dheeraad ah.
 }}{{category other 
 |<!-- 
 Reporting if the first parameter is not a valid category name: 
 -->{{#ifexist:Category:{{{1}}}
   | 
-  | [[Category:Wikipedia category-redirect box parameter needs fixing|∃{{PAGENAME}}]]
+  | [[Category:Habayn|∃{{PAGENAME}}]]
   }}<!-- 
 Reporting circular redirects (of length 1): 
--->{{#ifeq:{{ucfirst:{{{1}}}}}|{{PAGENAME}}|[[Category:Wikipedia category-redirect box parameter needs fixing|∞{{PAGENAME}}]]}}
+-->{{#ifeq:{{ucfirst:{{{1}}}}}|{{PAGENAME}}|[[Category:Habayn|∞{{PAGENAME}}]]}}
 | :::::Template kaan waxaa loo adeegsan karaa oo kaliya qaybaha bogagga.
 }}{{category handler
 |all = {{#ifexpr:{{PAGESINCATEGORY:{{PAGENAME}}}}
- |[[Category:Wikipedia non-empty soft redirected categories]]
-}}<includeonly>[[Category:Wikipedia soft redirected categories]]</includeonly>
+ |[[Category:Habayn]]
+}}<includeonly>[[Category:Habayn]]</includeonly>
 |nocat={{{nocat|}}}
 }}<noinclude>
 {{Documentation}}
