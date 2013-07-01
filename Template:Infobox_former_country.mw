@@ -7,7 +7,7 @@
       }}
     | {{#if:{{{native_name|}}}
       | {{{native_name}}}
-      | ''Error: No name(s) given'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|N]]}}
+      | ''Error: No name(s) given'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
       }}
 }}'''
 |-
@@ -46,23 +46,23 @@
     |United Kingdom |UK=the [[United Kingdom]]
     |United States |US |USA =the [[United States]]
     |#default = {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
-    }} |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+    }} |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
   }}}}
   |Client |Client state |Client State |Puppet |Puppet-state |Puppet state= {{#if:{{{status_text|}}}|{{{status_text}}}|{{#if:{{{empire|}}}| {{#switch:{{{empire}}}
     |First French Empire |France = [[French client republic|Client]] of the [[First French Empire]]
     |#default = [[Puppet state]] of {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
-    }} | Puppet state ''(of whom?)'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+    }} | Puppet state ''(of whom?)'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
   }}}}
   |Vassal={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
     |Holy Roman Empire |HRE = [[States of the Holy Roman Empire|State]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|<small>(until 1806)</small>}}|}}
-    |#default =  Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |#default =  Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}}}
   }}}}
   |Fief={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
-    |#default =  Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |#default =  Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}}}
   }}}}
   |Abbey={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
-    |Holy Roman Empire |HRE = [[Imperial Abbey]] of the [[Holy Roman Empire]] [[Category:Imperial abbeys|{{{common_name}}}]]
-    |#default =  Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |Holy Roman Empire |HRE = [[Imperial Abbey]] of the [[Holy Roman Empire]] 
+    |#default =  Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}}}
   }}}}
   |Satellite |Satellite State | Satellite state ={{#if:{{{status_text|}}}|{{{status_text}}}| Satellite state of the [[Soviet Union]]}}
   |Colony={{#switch:{{ucfirst:{{{empire}}}}}
@@ -80,7 +80,7 @@
     |Norway=Norwegian colony
     |Russia=Russian colony
     |Japan=[[Japanese Empire|Japanese colony]]
-    |#default = Colony ({{#if:{{{empire|}}}|{{{empire}}}|''of whom?''{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}})
+    |#default = Colony ({{#if:{{{empire|}}}|{{{empire}}}|''of whom?''{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}}})
   }}
   |Provisional |Provisional Government |Provisional government ={{#if:{{{status_text|}}}|{{{status_text}}}| [[Provisional government]]}}
   |Exile |Exiled Government = {{#if:{{{year_exile_start|}}}|[[Government in exile|In Exile]] {{#if:{{{year_exile_end|}}}|&nbsp;({{{year_exile_start}}}&nbsp;–&nbsp;{{{year_exile_end}}})|since {{{year_exile_start}}}}}|[[Government in exile]] }}
@@ -143,7 +143,7 @@ For the preceding and succeeding entities, give as input the name the territory.
 |- {{#if:{{{capital_exile|}}}|class="mergedtoprow"}}
 <!----- Capital ----->
 {{#ifeq:{{{capital|}}}|omitted||
-{{!}} width=50% {{!}} '''Capital'''
+{{!}} width=50% {{!}} '''Caasimadda'''
 {{!}} width=50% {{!}} {{#if:{{{capital|}}}|{{#ifeq:{{{capital}}}|Unknown|''Unknown''|{{#ifexist:{{{capital}}}|[[{{{capital|}}}]]|{{{capital|}}}}}}}|''Not specified''}}
 }}
 |- {{#ifeq:{{{capital|}}}|omitted||class="mergedbottomrow"}}
@@ -155,40 +155,31 @@ For the preceding and succeeding entities, give as input the name the territory.
 |-
 <!----- Common language(s) ----->
 {{#if: {{{common_languages|}}}|
-{{!}} '''Language(s)'''
+{{!}} '''Luqadaha'''
 {{!!}} {{#ifexist:{{{common_languages}}} language|[[{{{common_languages}}} language|{{{common_languages}}}]] |{{#ifexist:{{{common_languages}}}|[[{{{common_languages}}}]]|{{{common_languages}}}}}}}
 }}
 |-
 <!----- Religion ----->
 {{#if: {{{religion|}}}|
-{{!}} '''Religion'''
+{{!}} '''Diinta'''
 {{!!}} {{#ifexist:{{{religion}}}|[[{{{religion}}}]]|{{{religion}}}}}
 }}
 |- {{#if:{{{title_leader|}}}{{{title_deputy|}}}{{{title_representative|}}}|class="mergedtoprow"}}
 <!----- Government ----->
-|'''{{#if:{{{government_type|}}}|Government|{{#if:{{{status|}}}|Political structure|Government}}}}'''
+|'''{{#if:{{{government_type|}}}|Government|{{#if:{{{status|}}}|Qaab siyaasadeedka|Government}}}}'''
 || {{#if:{{{government_type|}}}|{{#switch:{{ucfirst:{{{government_type}}}}}
   |Constitutional monarchy |Constitutional Monarchy|Elective monarchy|Elective Monarchy |Absolute Monarchy |Absolute monarchy
   |Monarchy=[[{{{government_type}}}]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{continent}}}
-    |Europe=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]]
-    |Asia=[[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |North America=[[Category:Former monarchies of North America|{{{common_name}}}, {{{year_start}}}]]
-    |South America=[[Category:Former monarchies of South America|{{{common_name}}}, {{{year_start}}}]]
-    |Africa=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]
-    |Oceania=[[Category:Former monarchies of Oceania|{{{common_name}}}, {{{year_start}}}]]
-    |Eurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |Afroasia=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |Afroeurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]|[[Category:Former monarchies|{{{common_name}}}, {{{year_start}}}]]
     }}}}
-  |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former republics|{{{common_name}}}, {{{year_start}}}]]}}
-  |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former principalities|{{{common_name}}}, {{{year_start}}}]]}}
-  |Emirate=[[Emirate]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former emirates|{{{common_name}}}, {{{year_start}}}]]}}
-  |Socialist state |Socialist republic |Socialist State |Socialist Republic=[[Socialist state|Socialist republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former socialist republics|{{{common_name}}}, {{{year_start}}}]]}}
+  |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
+  |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
+  |Emirate=[[Emirate]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
+  |Socialist state |Socialist republic |Socialist State |Socialist Republic=[[Socialist state|Socialist republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
   |Dictatorship |Military Dictatorship=[[Dictatorship]]
-  |Theocracy = [[Theocracy]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former theocracies|{{{common_name}}}, {{{year_start}}}]]}}
+  |Theocracy = [[Theocracy]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||}}
   |Unknown = ''Unknown''
   |Various = 
-  |#default = {{#ifexist:{{{government_type}}}|[[{{{government_type}}}]]|{{{government_type}}}}}<!-- ''Value specified for "government_type" [[Template:Infobox former country/doc#Politics|does not comply]]'' -->{{ns0|[[Category:Former country articles requiring maintenance|G]]}}
+  |#default = {{#ifexist:{{{government_type}}}|[[{{{government_type}}}]]|{{{government_type}}}}}<!-- ''Qiimaha kooban "government_type" [[Template:Infobox former country/doc#Politics|does not comply]]'' -->{{ns0|}}
   }}|{{#if:{{{status|}}}|{{#ifexist:{{{status}}}|[[{{{status}}}]]|{{{status}}}}}|''Not specified''}}
 }}
 |- {{#if:{{{year_leader1|}}}{{{leader2|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow"|class="mergedbottomrow"}}
@@ -324,15 +315,13 @@ For the preceding and succeeding entities, give as input the name the territory.
 }}
 |- class="mergedtoprow"
 <!----- Events  ----->
-| {{#if:{{{era|}}}|'''Historical era'''|'''History'''}}
+| {{#if:{{{era|}}}|'''Waagii'''|'''History'''}}
 || {{#if:{{{era|}}}|{{#ifexist:{{{era|}}}|[[{{{era}}}]]|{{{era}}}}} {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{era}}}
-  |Cold War=[[Category:Former polities of the Cold War|{{{common_name}}}, {{{year_start}}}]]
-  |Interwar period=[[Category:Former polities of the Interwar period|{{{common_name}}}, {{{year_start}}}]]
   }} }} }}
 |- class="mergedrow"
 {{#if:{{{event_pre|}}}|{{Infobox former country/event|event={{{event_pre}}}|year=|date={{#if:{{{date_pre|}}}|{{{date_pre}}}}}}}}}
 |- class="mergedrow"
-{{Infobox former country/event|event={{#if:{{{event_start|}}}|{{{event_start}}}|Established}}|year={{#if:{{{year_start|}}}|{{{year_start}}}|''Enter start year''}}
+{{Infobox former country/event|event={{#if:{{{event_start|}}}|{{{event_start}}}|Bilaabatay}}|year={{#if:{{{year_start|}}}|{{{year_start}}}|''Enter start year''}}
 |date={{#if:{{{date_start|}}}|{{{date_start}}}}}}}
 |- class="mergedrow"
 {{#if:{{{event1|}}}|{{Infobox former country/event|event={{{event1}}}|year=|date={{#if:{{{date_event1|}}}|{{{date_event1}}}}}}}}}
@@ -343,7 +332,7 @@ For the preceding and succeeding entities, give as input the name the territory.
 |- class="mergedrow"
 {{#if:{{{event4|}}}|{{Infobox former country/event|event={{{event4}}}|year=|date={{#if:{{{date_event4|}}}|{{{date_event4}}}}}}}}}
 |- {{#if:{{{event_post|}}}|class="mergedrow"|class="mergedbottomrow"}}
-{{Infobox former country/event|event={{#if:{{{event_end|}}}|{{{event_end}}}|Disestablished}}|year={{#if:{{{year_end|}}}|{{{year_end}}}|''Enter end year''}}|date={{#if:{{{date_end|}}}|{{{date_end}}}}}}}
+{{Infobox former country/event|event={{#if:{{{event_end|}}}|{{{event_end}}}|Burburkeeda}}|year={{#if:{{{year_end|}}}|{{{year_end}}}|''Enter end year''}}|date={{#if:{{{date_end|}}}|{{{date_end}}}}}}}
 |- class="mergedbottomrow"
 {{#if:{{{event_post|}}}|{{Infobox former country/event|event={{{event_post}}}|year=|date={{#if:{{{date_post|}}}|{{{date_post}}}}}}}}}
 |- {{#if: {{{stat_year1|}}}||class="mergedtoprow"}}
@@ -434,7 +423,7 @@ For the preceding and succeeding entities, give as input the name the territory.
 |-
 {{#if: {{{currency|}}} |
 <!----- Currency ----->
-{{!}} '''Currency'''
+{{!}} '''Lacagta'''
 {{!!}} {{#ifexist:{{{currency}}}|[[{{{currency}}}]]|{{{currency}}}}}
 }}
 |-
@@ -452,7 +441,7 @@ For the preceding and succeeding entities, give as input the name the territory.
           <td>   {{{calling_code_note}}} }}
 }}
 |- class="mergedtoprow"
-{{#if:{{{pn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}{{#if:{{{sn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}
+{{#if:{{{pn1|}}} |}}{{#if:{{{sn1|}}} |}}
 {{#ifeq: {{#expr: {{#expr:{{#if:{{{p5|}}}|1|0}}+{{#if:{{{s5|}}}|1|0}}}} > 0}} | 1 |
 <!----- Preceding and succeding entities without flags (used if more than 5) ----->
 {{!}} colspan="2" {{!}}
