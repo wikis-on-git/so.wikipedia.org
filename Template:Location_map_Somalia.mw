@@ -7,22 +7,13 @@
 | image  = Somalia relief location map.jpg
 | image1 = Somalia location map.svg
 }}<noinclude><!--
---
 -- The above switch-statement branches by text in parameter #1,
 -- returning the associated value after each equals sign ("=").
 -->
 {{Location map/Info}}
-
-== How to use an alternative map ==
-This template normally displays the map shown above as '''image''':
-*<tt>{{{{PAGENAME}}|image}}</tt>.
-The ''AlternativeMap'' parameter in [[Template:Location map]] can be used to display {{#if:{{{{PAGENAME}}|image2}}|one of the following images|the following image}}:
-*<tt>{{{{PAGENAME}}|image1}}</tt>
-{{#if:{{{{PAGENAME}}|image2}}|
-*<tt>{{{{PAGENAME}}|image2}}</tt>
-}}
-Further instructions and examples can be found at [[Template:Location map#Using Alternative Map]].
+{{Documentation}}
 
 [[Category:Location map by country templates|Somalia]]
 
+[[tr:Şablon:Location map Somalia]]
 </noinclude>
