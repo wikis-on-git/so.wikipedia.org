@@ -1,22 +1,3 @@
-{{#iferror:<!--
-
-   -->{{Language/<!--
-       -->{{#ifexist:Template:Language/{{lc:{{{2|en}}}}}<!-- If the target language has a list
-       -->|{{lc:{{{2|en}}}}}<!-- use it 
-       -->|en<!-- else use English
-       -->}}<!--
-   -->|{{{1}}}<!--
-   -->}}<!--
--->|<!-- Use alternate list if not found
-   -->{{Language/<!--
-       -->{{#ifexist:Template:Language/{{lc:{{{2|en}}}+}}<!-- If the target language has a list
-       -->|{{lc:{{{2|en}}}+}}<!-- use it 
-       -->|en+<!-- else use English
-       -->}}<!--
-   -->|{{{1}}}<!--
-   -->}}<!--
- -->}}<!--
-
---><noinclude>
+<includeonly>{{#language:{{{1}}}|so}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
