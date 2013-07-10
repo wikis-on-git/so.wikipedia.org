@@ -1,0 +1,14 @@
+<noinclude>{{Redirect|Template:So|the inline relevance template|Template:So?}}</noinclude>
+{{<includeonly>safesubst:</includeonly>uw-block
+|for={{{for|}}}
+|reason={{{reason|[[Wikipedia:Spam|advertising or promotion]]}}}
+|page={{{page|}}}
+|guidance=only
+|indef=yes
+|notalk={{{notalk|}}}
+|sig={{{sig|}}}
+|hiddentext=no}}<!-- Template:Uw-soablock --><noinclude>
+
+{{Documentation|Template:uw-block/doc}}
+
+</noinclude>
