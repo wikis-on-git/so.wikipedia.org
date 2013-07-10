@@ -1,18 +1,17 @@
-<font face=verdana>
+<div style=font-family:verdana>
 * '''Gelinta sawir muhiim ah oo kaliya''' – Geli sawirka adoo ugala jeeda mid wax ku soo kordhinaya insaykolobeediyaha maaha mid ka turjumeeysa qooyskaada ama wax la mid ah oo macna la'aan ah.
 * '''Raaci macaluumaadka sawirka''' adigoo qaadanaya nuqulka template ka ee qaybta gelinta waxaa lagaa doonayaa inaad buux buuxiso faahfaahinta  (buux buuxi rogaha):
 
 {|
-|-
-| width="20%"|<pre>
-{{Macluumaad
-|Qeexid    =
-|Xigasho   =
-|Taariikh  =
-|Soo_saare =
-|Ogolaasho =
-|Nuqul_hore=
-}}</pre>
+|style=padding-right:10px|
+ {{[[Template:Macluumaad|Macluumaad]]<nowiki>
+ |Qeexid    =
+ |Xigasho   =
+ |Taariikh  =
+ |Soo_saare =
+ |Ogolaasho =
+ |Nuqul_hore=</nowiki>
+ }}
 | width="80%"|
 * ''Qeexid'' : Cadaynta faylka ama sawirka waxa uu kakoobanyahay; waa in uu ahaada magacyada faylasha mid qeexaya, taasoo fakar siin karta faylka.
 * ''Xigasho'' : Sida link kaasoo lagu kordhiyey web bog, ama magaca buugga iyo nambarka bogga  laga soo qaatar sawirka ama magaca barnaamiijka telefishinka laga soo qaatay clipka.
