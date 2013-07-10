@@ -1,43 +1,43 @@
 {| summary="A standardized table providing complete information about the file, including description of what it shows and how it was made, copyright status and source." class="toccolours mbox-inside" style="width: 100%;" cellpadding="2"
 ! style="background: #ccf; text-align: right; vertical-align: top; padding-right: 0.4em; width: 15%;" id="fileinfotpl_desc" |Qeexis
 | {{{Location|}}}
-{{#if: {{{Description|{{{description|}}}}}} 
-| {{{Description|{{{description}}}}}} 
+{{#if: {{{Description|{{{description|{{{Qeexid|}}}}}}}}} 
+| {{{Description|{{{description|{{{Qeexid}}}}}}}}} 
 | {{Description missing<noinclude>|category=</noinclude>}} 
 }}
 |- valign="top"
 ! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_src" | Xigasho
 | 
-{{#if:{{{Source|{{{source|}}}}}}
-| {{{Source|{{{source}}}}}}
+{{#if:{{{Source|{{{source|{{{Xigasho|}}}}}}}}}
+| {{{Source|{{{source|{{{Xigasho|}}}}}}}}}
 | <includeonly>[[Category:Xigasho La'aan]]</includeonly> Wali lama xaqiijin. Fadlan wax ka badal filka cadaymaha halka [[Wikipedia:Laga soo xigtay#Ilo kala gedisan|Laga soo xigtay]].
 }}
 |- valign="top"
 ! style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap;" id="fileinfotpl_date" | Taariikhda
 |
-{{{Date|{{{date|}}}}}}
+{{{Date|{{{date|{{{Taariikh|}}}}}}}}}
 |- valign="top"
 ! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_aut" | Qoraaga
 |
-{{#if: {{{Author|{{{author|}}}}}} 
-| {{{Author|{{{author}}}}}} 
+{{#if: {{{Author|{{{author|{{{Soo_saare|}}}}}}}}} 
+| {{{Author|{{{author|{{{Soo_saare}}}}}}}}} 
 | {{Description missing|macluumdka qoraaga|category=}}<includeonly>[[Category:Files lacking an author]]</includeonly> 
 }}
 |- valign="top"
 ! style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_perm" | Ogolaasho<br /><small>([[Commons:Commons:Reusing content outside Wikimedia|Dib u adeegsiga Filkaan]])</small>
 |
-{{#if:{{{Permission|{{{permission|}}}}}}
-| {{{Permission|{{{permission}}}}}}
+{{#if:{{{Permission|{{{permission|{{{Ogolaasho|}}}}}}}}}
+| {{{Permission|{{{permission|{{{Ogolaasho}}}}}}}}}
 | Hoos eeg.
 }}
-{{#switch: {{{Other_versions| {{{other_versions| {{{other versions|}}} }}} }}}
+{{#switch: {{{Other_versions| {{{other_versions| {{{other versions|{{{Nuqul_hore|}}}}}} }}} }}}
 |   = 
 | - = 
 | none = 
 | #default = 
 <tr valign="top">
 <th style="background: #ccf; text-align: right; padding-right: 0.4em;" id="fileinfotpl_ver"> Nuuc kale </th>
-<td> {{{Other_versions| {{{other_versions| {{{other versions|}}} }}} }}} </td>
+<td> {{{Other_versions| {{{other_versions| {{{other versions| {{{Nuqul_hore|}}} }}} }}} }}} </td>
 </tr>
 }}
 {{#switch: {{{Additional_information|{{{additional_information|{{{Additional information|{{{additional information|}}}}}}}}}}}}
@@ -51,7 +51,5 @@
 </tr>
 }}
 |}<noinclude>
-
 {{documentation}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
