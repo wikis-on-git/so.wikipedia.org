@@ -1,0 +1,17 @@
+{{Fix
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| link  = {{#ifeq:{{TALKPAGENAME}}|{{FULLPAGENAME}}|WP:TALK|WP:TOPIC}}
+| title = The material near this tag may contain the information irrelevant to the article's main topic.
+| text  = relevant?
+| post-text = <span class="metadata"> &ndash; [[{{TALKPAGENAME}}#{{{1|Relevant}}}|discuss]]</span>
+| date  = {{{date|}}}
+| cat   = [[Category:Wikipedia articles that may have off-topic sections]]}}<!--{{Relevance note}} end--><noinclude>
+
+This template is an inline version of [[Template:Off-topic]].
+
+
+
+[[Category:Coherency templates|{{PAGENAME}}]]
+[[Category:Inline cleanup templates|{{PAGENAME}}]]
+
+</noinclude>
