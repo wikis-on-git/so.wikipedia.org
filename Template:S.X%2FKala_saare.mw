@@ -1,0 +1,2 @@
+<includeonly>{{Namespace detect| Template       = [[Category:Template S.X]]}}<nowiki />
+{| class="infobox_v2" cellspacing="7" {{#if:{{{3|}}}|id="{{{3}}}"}} {{#if:{{{2|}}}|style="width:{{{2}}}px"|{{#ifeq:{{{1|}}}|infobox de section|style="width:170px"}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
