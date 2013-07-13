@@ -1,0 +1,72 @@
+<includeonly>{{S.X/Kala saare}}
+{{S.X/Ciwaan
+   |{{{Magaca rasmiga|{{PAGENAME}}}}}
+   |{{{Gdaal|E1E1E1}}}
+   |entete map
+   |{{{Qoraal|000}}}
+}}
+
+{{S.X/Ciwaan xul gaara|{{{Magac1|}}}|{{{Magac2|}}} }}
+
+{{S.X/Sawir|{{{Sawirka magaalada|}}}|{{{Faallada sawirka|}}}}}
+
+{{S.X/Sawir dheeraad
+ | {{{Calan|}}} |{{{Faalada calanka|}}}  |130 |Calan ||
+ | {{{Astaan|}}}|{{{Faallada astaanta|}}} |130 |Astaan
+}}
+
+{{#if:{{{Magac uyeel|}}}{{{Astaanta|}}}{{{Taariikhda aas aaska|}}}| {{S.X/Kala saare xulan|{{{Sawirka magaalada|}}}{{{Astaan|}}}{{{Calan|}}} }}|}}
+
+{{S.X/Sadar xul iskudhaf|Magac uyeel |{{{Magac uyeel|}}}}}
+{{S.X/Sadar xul iskudhaf|Astaanta|{{{Astaanta|}}}}}
+{{S.X/Sadar xul iskudhaf|Taariikhda aas aaska|{{{Taariikhda aas aaska|}}}}}
+
+
+{{S.X/Sawir|{{{Qariirad maap|}}}|{{{Faallo qariirad|Barta juqraafi}}}}}
+
+{{S.X/Ciwaan gaara|Gobolada}}
+{{S.X/Sadar xul iskudhaf
+    |Dalka
+    |{{{Dalka|}}}
+    |{{#ifexist:Template:{{{Dalka|؟!؟}}}|{{ {{{Dalka}}} }}|{{{Dalka|}}} }}
+}}
+{{S.X/Sadar xul iskudhaf|{{{Nuuca meesh}}}|{{{Magaca meesha|}}}}}
+{{S.X/Sadar xul iskudhaf|{{{Masuulka sare|Masuulka sare}}}|{{{Magaca masuulka|}}}}}
+{{S.X/Sadar xul iskudhaf|{{{Masuulka labaad|Masuulka labaad}}}|{{{Magaca masuulka labaad|}}}}}
+{{S.X/Sadar xul iskudhaf|{{{Masuulka saddexaad|Masuulka saddexaad}}}|{{{Magaca masuulka saddexaad|}}}}}
+
+{{S.X/Ciwaan xul gaara|Tilmaamo juqraafi}}
+{{S.X/Sadar xul iskudhaf|Masaaxada (Km²)|{{{Bedka guud|}}}}}
+{{S.X/Sadar xul iskudhaf|Dhulka|{{{Masaaxada dhulka|}}}|{{{Masaaxada dhulka|}}} {{#ifeq: {{{Qiyaas|}}} | Haa | % | Km²}}}}
+{{S.X/Sadar xul iskudhaf|Biyaha|{{{Masaaxada biyaha|}}}|{{{Masaaxada biyaha|}}} {{#ifeq: {{{Qiyaas|}}} | Haa| % | Km²}}}}
+{{S.X/Sadar xul iskudhaf|Ka saaysa<br /> Heerka badda(M)|{{{Joogga|}}}}}
+
+{{S.X/Ciwaan gaara|Dadka dega}}
+{{S.X/Sadar xul iskudhaf|Tirada dadka|{{{Tirada dadka degan|}}} Qiyaas <small>(Sanadkiiba {{{Sano Tirada|??}}})</small>}}
+{{S.X/Sadar xul iskudhaf|Tirada guud ee dadka|{{{Tirada guud ee dadka|}}}}}
+{{S.X/Sadar xul iskudhaf|Meelaha ay ku badan yihiin|{{{Meelaha ay ku badan yihiin|}}}|{{{Meelaha ay ku badan yihiin|}}}}}
+
+{{S.X/Sadar xul iskudhaf|Macluumaad kale}}
+{{S.X/Sadar xul iskudhaf|Dhigta|{{{Dhigta|}}} }}
+{{S.X/Sadar xul iskudhaf|Loolka|{{{Loolka|}}} }}
+{{S.X/Sadar xul iskudhaf|Saacad|{{{Saacadda|}}}|{{{Saacadda}}} ({{{Farqiga waqtiga|??}}} [[GMT]])}}
+
+{{S.X/Sadar xul iskudhaf|Waqtiga xagaaga|{{{GMT waqtiga xagaaga|}}}|{{{GMT waqtiga xagaaga|??}}}  [[GMT]]}}
+
+{{S.X/Sadar xul iskudhaf|B.O.Box|{{{B.O.Box|}}} }}
+{{S.X/Sadar xul iskudhaf|Furaha telefon|{{{Furaha telefon|}}} }}
+{{S.X/Sadar xul iskudhaf|Website|{{{Website|}}} }}
+
+{{S.X/Sadar xul iskudhaf|{{{Dhigta|}}}{{{Loolka|}}} }}
+
+{{S.X/Barta juqraafi |Dhigta = {{{Muuqaalka qariirada dalka|280}}}
+ | {{{Qariirada dalka|{{{Dalka|}}}}}} 
+ | {{{Dhigta|}}} 
+ | {{{Loolka|}}}
+ |{{{Magaca rasmiga|{{PAGENAME}}}}}
+}}
+{{S.X/Tilmaam|Macluumaad magaalo|{{{Gadaal|E1E1E1}}} }}
+{{S.X/Xirid}}</includeonly><noinclude>
+
+{{Sharaxaad}}
+</noinclude>
