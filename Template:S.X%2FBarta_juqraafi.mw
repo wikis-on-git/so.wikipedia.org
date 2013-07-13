@@ -1,0 +1,12 @@
+<includeonly>{{#if:{{{1|}}}|{{#if: {{#ifexpr: {{{2|}}} AND {{{3|}}} }} | | {{!}}-
+{{!}} colspan="2" align="center" {{!}}<center>{{Location map|{{{1|}}}
+|lat ={{Template:60.ilaa.10/REDIRECT|{{{2|}}}}}
+|long ={{Template:60.ilaa.10/REDIRECT|{{{3|}}}}}
+|mark ={{{Tilmaam|}}}
+|label ={{{4|}}}
+|float=none
+|width ={{{Muuqaal|280}}}
+|caption ={{{5|}}}
+}}</center>
+{{!-}}
+}}|}}</includeonly><noinclude>{{Documentation}}</noinclude>
