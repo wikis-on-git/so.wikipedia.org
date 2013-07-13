@@ -1,0 +1,3 @@
+<includeonly>{{#if:{{{1|}}}|
+<td colspan="{{#if:{{{3|}}}|{{{3|}}}|2}}"><hr style="height:2px;background-color: #{{#if:{{{2|}}}|{{{2|}}}|AAAAAA}};color:#{{#if:{{{2|}}}|{{{2|}}}|AAAAAA}};" />
+<tr>}}</includeonly><noinclude>{{Documentation}}</noinclude>
