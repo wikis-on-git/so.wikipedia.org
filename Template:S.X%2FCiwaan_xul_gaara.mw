@@ -1,0 +1,3 @@
+<includeonly>{{#if: {{{2|}}} |
+<th scope=col colspan="{{#if:{{{5|}}}|{{{5|}}}|2}}" style="text-align:center;background-color:#{{#if:{{{3|}}}|{{{3|}}}|E1E1E1}};color:#{{#if:{{{4|}}}|{{{4|}}}|000000}}">{{{1|}}}
+<tr>}}</includeonly><noinclude>{{Documentation}}</noinclude>
