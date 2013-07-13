@@ -1,0 +1,2 @@
+<includeonly>! scope=col colspan="{{#if:{{{5|}}}|{{{5|}}}|2}}" class="{{#if:{{{3|}}}|{{{3|}}}|entete map}}" style="background-color:#{{#if:{{{2|}}}|{{{2|}}}|E1E1E1}};color:#{{#if:{{{4|}}}|{{{4|}}}|000000}}" | {{#if:{{{1|}}}|{{{1|}}}|{{PAGENAME}}}}
+|-</includeonly><noinclude>{{Documentation}}</noinclude>
