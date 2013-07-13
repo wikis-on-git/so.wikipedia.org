@@ -30,7 +30,7 @@
     |{{{Dalka|}}}
     |{{#ifexist:Template:{{{Dalka|؟!؟}}}|{{ {{{Dalka}}} }}|{{{Dalka|}}} }}
 }}
-{{S.X/Sadar xul iskudhaf|{{{Nuuca meesh}}}|{{{Magaca meesha|}}}}}
+{{S.X/Sadar xul iskudhaf|{{{Nuuca meesha}}}|{{{Magaca meesha|}}}}}
 {{S.X/Sadar xul iskudhaf|{{{Masuulka sare|Masuulka sare}}}|{{{Magaca masuulka|}}}}}
 {{S.X/Sadar xul iskudhaf|{{{Masuulka labaad|Masuulka labaad}}}|{{{Magaca masuulka labaad|}}}}}
 {{S.X/Sadar xul iskudhaf|{{{Masuulka saddexaad|Masuulka saddexaad}}}|{{{Magaca masuulka saddexaad|}}}}}
@@ -42,13 +42,13 @@
 {{S.X/Sadar xul iskudhaf|Ka saaysa<br /> Heerka badda(M)|{{{Joogga|}}}}}
 
 {{S.X/Ciwaan gaara|Dadka dega}}
-{{S.X/Sadar xul iskudhaf|Tirada dadka|{{{Tirada dadka degan|}}} Qiyaas <small>(Sanadkiiba {{{Sano Tirada|??}}})</small>}}
+{{S.X/Sadar xul iskudhaf|Tirada dadka|{{{Tirada dadka degan|}}} Qiyaas <small>(Sanadkiiba {{{Sanadka Tirakoobka|??}}})</small>}}
 {{S.X/Sadar xul iskudhaf|Tirada guud ee dadka|{{{Tirada guud ee dadka|}}}}}
 {{S.X/Sadar xul iskudhaf|Meelaha ay ku badan yihiin|{{{Meelaha ay ku badan yihiin|}}}|{{{Meelaha ay ku badan yihiin|}}}}}
 
 {{S.X/Sadar xul iskudhaf|Macluumaad kale}}
-{{S.X/Sadar xul iskudhaf|Dhigta|{{{Dhigta|}}} }}
 {{S.X/Sadar xul iskudhaf|Loolka|{{{Loolka|}}} }}
+{{S.X/Sadar xul iskudhaf|Dhigta|{{{Dhigta|}}} }}
 {{S.X/Sadar xul iskudhaf|Saacad|{{{Saacadda|}}}|{{{Saacadda}}} ({{{Farqiga waqtiga|??}}} [[GMT]])}}
 
 {{S.X/Sadar xul iskudhaf|Waqtiga xagaaga|{{{GMT waqtiga xagaaga|}}}|{{{GMT waqtiga xagaaga|??}}}  [[GMT]]}}
@@ -57,12 +57,12 @@
 {{S.X/Sadar xul iskudhaf|Furaha telefon|{{{Furaha telefon|}}} }}
 {{S.X/Sadar xul iskudhaf|Website|{{{Website|}}} }}
 
-{{S.X/Sadar xul iskudhaf|{{{Dhigta|}}}{{{Loolka|}}} }}
+{{S.X/Sadar xul iskudhaf|{{{Loolka|}}}{{{Dhigta|}}} }}
 
-{{S.X/Barta juqraafi |Dhigta = {{{Muuqaalka qariirada dalka|280}}}
+{{S.X/Barta juqraafi |Muuqaal = {{{Muuqaalka qariirada dalka|280}}}
  | {{{Qariirada dalka|{{{Dalka|}}}}}} 
- | {{{Dhigta|}}} 
- | {{{Loolka|}}}
+ | {{{Loolka|}}} 
+ | {{{Dhigta|}}}
  |{{{Magaca rasmiga|{{PAGENAME}}}}}
 }}
 {{S.X/Tilmaam|Macluumaad magaalo|{{{Gadaal|E1E1E1}}} }}
