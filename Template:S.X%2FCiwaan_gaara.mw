@@ -1,0 +1,2 @@
+<includeonly><th colspan="{{#if:{{{4|}}}|{{{4|}}}|2}}" style="text-align:center;background-color:#{{#if:{{{2|}}}|{{{2|}}}|E1E1E1}};color:#{{#if:{{{3|}}}|{{{3|}}}|000000}}">{{{1|}}}
+<tr></includeonly><noinclude>{{Documentation}}</noinclude>
