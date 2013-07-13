@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{1|}}}|
+<td colspan="{{#if:{{{5|}}}|{{{5}}}|2}}" align="center">[[file:{{trim|{{{1}}}}}|{{#if:{{{3|}}}|{{#ifexpr: {{Number|{{{3}}}|280}} <= 350|{{Number|{{{3}}}|280}}|350}} |280}}x450px|alt={{#if:{{{4|}}}|{{{4}}}|Sawir muujinaya moduuca {{PAGENAME}}}}{{#if:{{{6|}}}|{{!}}link={{trim|{{{6}}}}}|}}]] {{#if:{{{3|}}}|{{#ifexpr: {{Number|{{{3}}}|280}} <= 350| |<br /><font color="red">'''Waa inaad cabirka sawirka bedeshaa, cabirka ugu weyn ee la ogolyahay waa 350 px.'''</font>}}}}{{#if:{{{2|}}}|<br /><small>{{trim|{{{2}}}}}</small>
+|}}{{#if:{{{3|}}}|{{#ifexpr: {{Number|{{{3|100}}}|10000}} >= 1000 |[[Category: Maqaalada sawirka loo geliyey qaab qaldan]]|}}|}}
+<tr>|}}</includeonly><noinclude>{{Documentation}}</noinclude>
