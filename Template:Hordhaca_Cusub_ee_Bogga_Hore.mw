@@ -1,19 +1,27 @@
 {| style="width:100%; margin-bottom:2px; background:transparent; padding-top:3px"
-| style="background:transparent; width:100%; border:1px solid #a7d7f9; vertical-align:top; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;" |
-{| style="width:100%; margin-bottom:2px; vertical-align:top; background:transparent; padding-left:2em; padding-right:3em; padding-top:1em;"
+| style="background:transparent; width:100%; border:1px solid #a7d7f9; vertical-align:top; {{gradient|whitesmoke|white}}" |
+{| style="width:100%; margin-bottom:2px; vertical-align:top; background:transparent; padding:5px 10px 0 20px;"
 |-
-| style="padding-bottom:5px"|<span style="font-size:195%;">Ku soo-dhawoow [[Wikipedia]]</span>
-<div style="padding-top:5px; padding-left:2px; font-size:120%">Insaykalobeedhiya  [[Xorta ah|xorta ah]] e [[Wikipedia:Introduction|qofwalbana wax ka bedeli karo]]</div>
-| rowspan="2" style="text-align:right"|'''Maanta waa '''{{CURRENTDAYNAME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}}''' Wikipedia Soomaaliga <b>[[Special:Statistics|{{NUMBEROFARTICLES}}]]</b> maqaal ayaa ku jirta ''''''<br/>
-<span class="plainlinks" style="font-size:92%;">[https://so.wikipedia.org/ Hubi gaarista]</span><br/>
-<span class="plainlinks" style="font-size:92%;">{{#ifeq:{{PAGENAME}}|Pagina principale|[http://so.m.wikipedia.org Habka mobilka]|[http://so.wikipedia.org Habka caadiga]}}</span>
+|<span style="font-size:195%;">Ku soo-dhawoow [[Wikipedia]]</span>
+<span style="padding:5px 2px; font-size:120%">Insaykalobeedhiya  [[Xorta ah|xorta ah]] e [[Wikipedia:Introduction|qofwalbana wax ka bedeli karo]]</span>
+| rowspan="2" class=plainlist style="text-align:left; padding:1px 1px 10px 20px;"|
+*'''Maanta waa:''' {{CURRENTDAYNAME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}}'''
+*Wikipedia Soomaaliga '''[[Special:Statistics|{{NUMBEROFARTICLES}}]]''' maqaal ayaa ku jirta 
+*<span class="plainlinks">[https://so.wikipedia.org/ Hubi gaarista]</span>
+*<span class="plainlinks">[http://so.m.wikipedia.org Habka mobilka]</span>
 |-
 | style="width:75%; font-size:98%;"|
-<div style="border-top: 1px solid #a7d7f9; padding-top:5px"></div>
+<div style="border-top: 1px solid #a7d7f9; padding-top:5px; font-size:95%">
 [[File:Crystal Clear app xmag.svg|15px|link=Special:AllPages|Bogagga oo dhan oo si alifba ah isugu xiga]] [[Special:AllPages|'''<span title="Bogagga oo dhan oo si alifba ah isugu xiga!">Bogagga oo dhan oo si alifba ah isugu xiga</span>''']] &nbsp; [[File:1rightarrow.png|15px|link=Special:SpecialPages]][[Special:SpecialPages|'''<span title="Halkaan guji si aad u aragto bogga gaarka ah!">Boggaga qaaska ah</span>''']] &nbsp; [[File:Nuvola apps khelpcenter.png|15px|link=Wikipedia:Caawinaad|Halkaan guji si aad caawinaad u-hesho!]] [[Wikipedia:Caawinaad|'''<span title="Halkaan guji si aad caawinaad u-hesho!">Caawinaad</span>''']]
 |}
-|}<noinclude></noinclude>
+|}
 <!-- navipalkki-->
-<div style="text-align: center; font-size: 80%; font-weight: bold;">
-[[Special:Allpages|Boggaga oo dhan oo si alifba ah isugu xiga]] · [[Special:Specialpages|Boggaga qaaska ah]] · [[Wikipedia:Bortaalka_jaaliyada|Fikrad ka dhiibo Wikipediaha]] · [[Wikipedia:Qor maqaal cusub|Maqaal cusub qor]] · [[Current events|Ogeysiis]] · [[Special:Newpages|Boggag cusub]] · [[Wikipedia:caawinaad|Caawinaad]]
+<div class=hlist style="text-align: center; font-size: 80%; font-weight: bold;">
+*[[Special:Allpages|Boggaga oo dhan oo si alifba ah isugu xiga]] 
+* [[Special:Specialpages|Boggaga qaaska ah]] 
+* [[Wikipedia:Bortaalka_jaaliyada|Fikrad ka dhiibo Wikipediaha]] 
+* [[Wikipedia:Qor maqaal cusub|Maqaal cusub qor]] 
+* [[Current events|Ogeysiis]] 
+* [[Special:Newpages|Boggag cusub]] 
+* [[Wikipedia:caawinaad|Caawinaad]]
 </div>
