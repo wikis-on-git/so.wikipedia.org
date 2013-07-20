@@ -7,7 +7,7 @@
 |{{#expr:{{#switch:{{#titleparts:{{{1}}}|1|2}}|W|N|E=1|K|G|S|W=-1}}*{{#titleparts:{{{1}}}|1|1}}}}
 |Erreur}}}}}}|{{{1}}}}}</includeonly><noinclude>
 
-{{Sharaxaad}}
+{{Documentation}}
 </noinclude><noinclude>
 [[Category:Template]]
 </noinclude>
