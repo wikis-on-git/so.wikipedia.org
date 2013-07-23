@@ -560,3 +560,9 @@ On July 9, 2013, [[mw:Universal Language Selector|Universal Language Selector]] 
 Please read the announcement on [[m:Announcement Universal Language Selector|Meta-Wiki]] for more information. [[m:User_talk:Siebrand|Siebrand]] 12:56, 4 Luuliyo 2013 (UTC) <small>(via [[m:Global message delivery|Global message delivery]]).</small>
 </div>
 <!-- EdwardsBot 0515 -->
+
+== Pywikipedia is migrating to git ==
+
+Hello, Sorry for English but It's very important for bot operators so I hope someone translates this.
+[[mw:PWB|Pywikipedia]] is migrating to Git so after July 26, SVN checkouts won't be updated If you're using Pywikipedia you have to switch to git, otherwise you will use out-dated framework and your bot might not work properly. There is a [[mw:Manual:Pywikipediabot/Gerrit|manual]] for doing that and a [https://blog.wikimedia.org/2013/07/21/pywikipediabot-moving-to-git-on-july-26/ blog post] explaining about this change in non-technical language. If you have question feel free to ask in [[mw:Manual talk:Pywikipediabot/Gerrit]], [https://lists.wikimedia.org/mailman/listinfo/pywikipedia-l mailing list], or in the [irc://irc.freenode.net/#pywikipediabot IRC channel]. Best [[mw:User:Ladsgroup|Amir]] <small>(via [[m:Global message delivery|Global message delivery]]).<small> 13:46, 23 Luuliyo 2013 (UTC)
+<!-- EdwardsBot 0534 -->
