@@ -82,3 +82,20 @@ Please read the announcement on [[m:Announcement Universal Language Selector|Met
 Hello, Sorry for English but It's very important for bot operators so I hope someone translates this.
 [[mw:PWB|Pywikipedia]] is migrating to Git so after July 26, SVN checkouts won't be updated If you're using Pywikipedia you have to switch to git, otherwise you will use out-dated framework and your bot might not work properly. There is a [[mw:Manual:Pywikipediabot/Gerrit|manual]] for doing that and a [https://blog.wikimedia.org/2013/07/23/pywikipediabot-moving-to-git-on-july-26/ blog post] explaining about this change in non-technical language. If you have question feel free to ask in [[mw:Manual talk:Pywikipediabot/Gerrit]], [https://lists.wikimedia.org/mailman/listinfo/pywikipedia-l mailing list], or in the [irc://irc.freenode.net/#pywikipediabot IRC channel]. Best [[mw:User:Ladsgroup|Amir]] <small>(via [[m:Global message delivery|Global message delivery]]).</small> 13:46, 23 Luuliyo 2013 (UTC)
 <!-- EdwardsBot 0534 -->
+
+== VisualEditor and your Wikipedia ==
+
+''(Please translate this message)''
+
+Greetings,
+
+The Wikimedia Foundation will soon turn on [[mw:VisualEditor|VisualEditor]] for all users, all the time on your Wikipedia. Right now your Wikipedia does not have any local documents on VisualEditor, and we hope that your community can change that. To find out about how you can help with translations visit the [[mw:VisualEditor/TranslationCentral|TranslationCentral for VisualEditor]] and read the easy instructions on [[mw:VisualEditor/Portal/Localization|bringing information to your Wikipedia]]. The [[mw:Help:VisualEditor/User_guide|User Guide]] and the [[mw:Help:VisualEditor/FAQ|FAQ]] are very important to have in your language.
+ 
+We want to find out as much as we can from you about VisualEditor and how it helps your Wikipedia, and having local pages is a great way to start. We also encourage you to [[mw:VisualEditor/Feedback|leave feedback on Mediawiki]] where the community can offer ideas, opinions, and point out bugs that may still exist in the software that need to be reported to [https://bugzilla.wikimedia.org/describecomponents.cgi?product=VisualEditor Bugzilla]. 
+If you are able to speak for the concerns of others in English on MediaWiki or locally I encourage you to help your community to be represented in this process.
+
+If you can help translate the user interface for VisualEditor to your language, you can help with that as well. [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor#sortable:3=desc Translatewiki] has open tasks for translating VisualEditor. A direct link to translate the user interface is [https://translatewiki.net/wiki/Special:Translate?filter=!translated&action=translate&group=ext-visualeditor here].  You can see how we are doing with those translations [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor#sortable:3=desc here]. You need an account on Translatewiki to translate.  This account is free and easy to create.
+
+If we can help your community in any way with this process, please let me know and I will do my best to assist your Wikipedia with this |exciting development. You can contact me on my [[m:User_talk:Keegan (WMF)|meta talk page]] or by [[Special:EmailUser/Keegan (WMF)|email]].  You can also contact [[mw:User_talk:PEarley_(WMF)|Patrick Earley]] for help with translations and documents on Mediawiki.  We look forward to working with you to bring the VisualEditor experience to your Wikipedia! [[:m:User:Keegan (WMF)|Keegan (WMF)]] ([[:m:User talk:Keegan (WMF)|talk]]) 19:13, 30 Luuliyo 2013 (UTC)
+:<small>Distributed via [[:m:Global message delivery|Global message delivery]]. (Wrong page? [[:m:Distribution list/Global message delivery|Fix here]].)</small>
+<!-- EdwardsBot 0549 -->
