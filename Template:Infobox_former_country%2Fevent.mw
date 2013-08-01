@@ -1,6 +1,2 @@
 {{!}} &nbsp;-&nbsp;{{{event}}}
-{{!!}}{{{date|}}}{{#ifeq:{{#time: F j |{{{date}}}}}|{{{date}}}|,}} {{{year|}}}<noinclude>
-
-[[pa:ਨਮੂਨਾ:WPFCevent]]
-[[tl:Suleras:WPFCevent]]
-</noinclude><noinclude>{{pp-semi-indef}}</noinclude>
+{{!!}}{{{date|}}}{{#ifeq:{{#time: F j |{{{date}}}}}|{{{date}}}|,}} {{{year|}}}<noinclude>{{pp-semi-indef}}</noinclude>
