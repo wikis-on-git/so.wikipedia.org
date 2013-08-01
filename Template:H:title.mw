@@ -1,3 +1,1 @@
-<span title="{{{1}}}" {{#ifeq:{{{dotted|yes}}}|no||style="border-bottom:1px dotted"}}>{{{2}}}</span><noinclude>
-[[tl:Suleras:H:title]]
-[[tpi:Template:H:title]]</noinclude>
+<span title="{{{1}}}" {{#ifeq:{{{dotted|yes}}}|no||style="border-bottom:1px dotted"}}>{{{2}}}</span><noinclude></noinclude>
