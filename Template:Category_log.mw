@@ -1,0 +1,12 @@
+[[:{{{adress}}}|<font style="color:#fff;font:14px Verdana;background:{{{Color}}};line-height: 160%; margin-bottom: 1px; padding:1px 6px 2px 6px;margin-right:3px; -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px;">{{{text}}}</font>]]<noinclude>
+
+<pre>Parameter:
+adress = adress category
+text
+Color = Code color
+</pre>
+'''Tusaale''':<br> 
+<code><nowiki>{{Category log|Color=#170|adress=Category:Member|text=Member}}</nowiki></code><br>
+Tusaale: {{Category log|Color=#170|adress=Category:Member|text=Member}}
+
+</noinclude>
