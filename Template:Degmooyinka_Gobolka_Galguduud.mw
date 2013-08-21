@@ -1,9 +1,5 @@
-<br clear="all" />
-{|  id="toc" style="margin: 0;background:#ffffff;" width="100%" align="center" 
-!  align="left" style="background:#ccccff;" width="200"  align="center" | [[:Category:Degmooyinka Gobolka Galguduud|Degmooyinka rasmiga ah Gobalka Galguduud]] [[Soomaaliya]]
-! align="right" rowspan="1" width="5%"| 
-|-
-| colspan=2 align="center" style="font-size: 85%" | [[Caabudwaaq]]{{·}} [[Cadaado]]{{·}} {{nowrap|[[ Ceelbuur]]}}{{·}} [[Ceeldheer]]{{·}} [[ Dhuusamareeb]]
-|-
-|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:{{PAGENAME}}| ]] [[Category:Degmooyinka Gobolka Galguduud]]}}</includeonly><!--
+{{DGS
+| region = Galguduud
+| list   = [[Caabudwaaq]]{{·}} [[Cadaado]]{{·}} [[Ceeldheer]]{{·}} [[Ceelbuur]]{{·}}  [[Dhuusamareeb]] 
+}}<includeonly>[[Category:Degmooyinka Gobolka Galguduud]] [[Category:Degmooyinka Soomaaliya]]</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
