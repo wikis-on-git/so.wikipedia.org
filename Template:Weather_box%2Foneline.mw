@@ -14,9 +14,5 @@
 {{!}}style="{{Weather box/col{{{sc}}}|{{{f}}}*{{{dec1}}}}}"{{!}}{{#iferror:{{{dec{{{show}}}|}}}}}
 {{!}}style="{{Weather box/col{{{sc}}}|{{{f}}}*{{{yr1}}}}} border-left-width:medium"{{!}}{{formatnum:{{#if:{{#iferror:{{{yr{{{show}}}|}}}}}|{{{yr{{{show}}}}}}|—}}}}|#default=<font color="red">'''Error: </includeonly>This template makes a table line with one value that is not dependent on the length of month<includeonly>, {{#switch:{{{sc|}}}|#default=to specify humidity add the <code><nowiki>|sc=h</nowiki></code> parameter, to specify temperature add the <code><nowiki>|sc=t</nowiki></code> parameter|d=days of precipitation uses {{tlx|Weather box/oneline/date}}, which applies a length of month factor to the background color formula|p=precipitation uses {{tlx|Weather box/line/date}}, which displays two values and applies a length of month factor to the background color formula}}.'''</font>}}</includeonly><noinclude>
 [[Category:Weather box|Oneline]]
-[[fa:الگو:Weather box/oneline]]
-[[hy:Կաղապար:Եղանակի աղյուսակ/մեկգիծ]]
-[[id:Templat:Infobox weather/oneline]]
 [[pt:Predefinição:Infobox weather/line/onevalue]]
-[[zh:Template:Infobox weather/oneline]]
 {{pp-semi-indef}}{{pp-move|small=yes}}</noinclude>
