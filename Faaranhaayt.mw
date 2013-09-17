@@ -1,3 +1,25 @@
-'''Faaranhaayt'''
-[[File:Thermometer_CF.svg]]
+[[File:Thermometer_CF.svg|thumb|Faaranhaayt]]
+
+'''Faaranhaayt''' : Daniel Gabriel Fahrenheit, [[1724]].
+
+{| {{jadwal|align=left}}
+|+ style="margin-bottom:5px;"| Heerkulka iyo isbedelkiisa kabiloow/ilaa kelvin
+|-
+! ka
+
+! Loo bedalay
+
+! Habka
+
+|-
+||kelvin ||[[Celsius]] || T(°C) = T(K) - 273,15
+|-
+||[[kalsius]] ||kelvin || T(K) = T(°C) + 273,15
+|-
+||kelvin ||[[Faaranhaayt]] || T(°F) = (T(K) × 1,8) - 459,67
+|-
+||[[Faaranhaayt]] ||kelvin ||T(K) = (T(°F) + 459,67) / 1,8
+|}
+
+
 [[Category:Fiisigis]]
