@@ -61,13 +61,17 @@ Si ballaaran taxanayaalka waxaa loo isticmaalaa jabayto qoridda sidaan soo socot
 Tusaale:
 
 Taxana guud ee heerka 2×3 waxaa loo qori karaa 
-:<math>
-  \begin{pmatrix} {a}_{11}&{a}_{12}&{a}_{13} \\{a}_{21}&{a}_{22}&{a}_{23} \end{pmatrix}
+<math>\begin{pmatrix} {a}_{11}&{a}_{12}&{a}_{13} \\{a}_{21}&{a}_{22}&{a}_{23} \end{pmatrix}</math>
 
 Taxana guud ee heerka m × n  waxaa loo qori karaa
 
-
-<math>\begin{bmatrix}{a}_{11}&{a}_{12}&\cdots&{a}_{1n}\\{a}_{21}&{a}_{22}&\cdots&{a}_{2n}\\\vdots & \ddots & \ddots & \vdots\\{a}_{m1}&{a}_{m2}&\cdots&{a}_{mn}\end{bmatrix}</math>
+<math> \mathbf{A} = 
+ \begin{bmatrix}
+ a_{11} & a_{12} & \cdots & a_{1n} \\
+ a_{21} & a_{22} & \cdots & a_{2n} \\
+ \vdots & \vdots & \ddots & \vdots \\
+ a_{m1} & a_{m2} & \cdots & a_{mn}
+ \end{bmatrix}.</math>
 
 Waxaa loo soo gaabiyaa (a i j) marka i = (0,1,2,...m) j = (1,2,3,...n)  ereyada kale ee taxanayaasha
 
