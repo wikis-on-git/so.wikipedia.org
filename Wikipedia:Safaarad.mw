@@ -123,3 +123,24 @@ Thank you! --[[m:User:Mdennis|Mdennis]] ([[m:User talk:Mdennis|talk]]) <small>(v
 
 </div>
 <!-- EdwardsBot 0590 -->
+
+== [[mw:Echo|Notifications]] ==
+
+[[File:Notifications-Flyout-Screenshot-08-10-2013-Cropped.png|thumb|300px|Notifications inform you of new activity that affects you -- and let you take quick action.]]
+''(This message is in English, please translate as needed)''
+
+Greetings!  
+
+[[mw:Echo|Notifications]] will inform users about new activity that affects them on this wiki in a unified way: for example, this new tool will let you know when you have new talk page messages, edit reverts, mentions or links -- and is designed to augment (rather than replace) the watchlist. The Wikimedia Foundation's editor engagement team developed this tool (code-named 'Echo') earlier this year, to help users contribute more productively to MediaWiki projects. 
+
+We're now getting ready to bring Notifications to almost all other Wikimedia sites, and are aiming for a 22 October deployment, as outlined in [[mw:Echo/Release_Plan_2013|this release plan]]. It is important that notifications is translated for all of the languages we serve.  
+
+There are three major points of translation needed to be either done or checked:
+*[https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-echo#sortable:3=desc Echo on translatewiki for user interface] - you must have an account on translatewiki to translate
+*[https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-thanks#sortable:3=desc Thanks on translatewiki for user interface] - you must have an account on translatewiki to translate
+*[[mw:Help:Notifications|Notifications help on mediawiki.org]].  This page can be hosted after translation on mediawiki.org or we can localize it to this Wikipedia.  You do not have to have an account to translate on mediawiki, but single-user login will create it for you there if you follow the link.
+:*[[mw:Echo/Release Plan 2013#Checklist|Checklist]]
+
+Please let us know if you have any questions, suggestions or comments about this new tool. For more information, visit [[mw:Echo_(Notifications)|this project hub]] and [[mw:Help:Notifications|this help page]]. [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 19:14, 4 Oktoobar 2013 (UTC)
+:<small>(via the [[m:Global message delivery|Global message delivery]] system) (wrong page? [[m:Distribution list/Global message delivery|You can fix it.]])</small>
+<!-- EdwardsBot 0597 -->
