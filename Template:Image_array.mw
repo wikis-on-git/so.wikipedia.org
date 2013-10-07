@@ -1,0 +1,36 @@
+<table style="border-collapse: collapse; text-align: center; font-size: smaller; line-height:1.25em; margin:auto; width:{{#expr:{{#if:{{{w|}}}|{{{w}}}|60}}*{{{perrow|4}}}}}px;">
+<tr>
+{{image array/image|i={{{image1 |§}}}|c={{{caption1 |}}}|a={{{alt1 |}}}|l={{{link1|}}}|t={{{text1|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 1 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image2 |§}}}|c={{{caption2 |}}}|a={{{alt2 |}}}|l={{{link2|}}}|t={{{text2|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 2 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image3 |§}}}|c={{{caption3 |}}}|a={{{alt3 |}}}|l={{{link3|}}}|t={{{text3|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 3 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image4 |§}}}|c={{{caption4 |}}}|a={{{alt4 |}}}|l={{{link4|}}}|t={{{text4|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 4 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image5 |§}}}|c={{{caption5 |}}}|a={{{alt5 |}}}|l={{{link5|}}}|t={{{text5|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 5 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image6 |§}}}|c={{{caption6 |}}}|a={{{alt6 |}}}|l={{{link6|}}}|t={{{text6|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 6 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image7 |§}}}|c={{{caption7 |}}}|a={{{alt7 |}}}|l={{{link7|}}}|t={{{text7|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 7 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image8 |§}}}|c={{{caption8 |}}}|a={{{alt8 |}}}|l={{{link8|}}}|t={{{text8|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 8 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image9 |§}}}|c={{{caption9 |}}}|a={{{alt9 |}}}|l={{{link9|}}}|t={{{text9|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 9 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image10|§}}}|c={{{caption10|}}}|a={{{alt10|}}}|l={{{link10|}}}|t={{{text10|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 10 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image11|§}}}|c={{{caption11|}}}|a={{{alt11|}}}|l={{{link11|}}}|t={{{text11|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 11 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image12|§}}}|c={{{caption12|}}}|a={{{alt12|}}}|l={{{link12|}}}|t={{{text12|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 12 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image13|§}}}|c={{{caption13|}}}|a={{{alt13|}}}|l={{{link13|}}}|t={{{text13|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 13 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image14|§}}}|c={{{caption14|}}}|a={{{alt14|}}}|l={{{link14|}}}|t={{{text14|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 14 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image15|§}}}|c={{{caption15|}}}|a={{{alt15|}}}|l={{{link15|}}}|t={{{text15|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 15 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image16|§}}}|c={{{caption16|}}}|a={{{alt16|}}}|l={{{link16|}}}|t={{{text16|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 16 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image17|§}}}|c={{{caption17|}}}|a={{{alt17|}}}|l={{{link17|}}}|t={{{text17|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 17 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image18|§}}}|c={{{caption18|}}}|a={{{alt18|}}}|l={{{link18|}}}|t={{{text18|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 18 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image19|§}}}|c={{{caption19|}}}|a={{{alt19|}}}|l={{{link19|}}}|t={{{text19|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 19 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image20|§}}}|c={{{caption20|}}}|a={{{alt20|}}}|l={{{link20|}}}|t={{{text20|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 20 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image21|§}}}|c={{{caption21|}}}|a={{{alt21|}}}|l={{{link21|}}}|t={{{text21|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 21 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image22|§}}}|c={{{caption22|}}}|a={{{alt22|}}}|l={{{link22|}}}|t={{{text22|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 22 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image23|§}}}|c={{{caption23|}}}|a={{{alt23|}}}|l={{{link23|}}}|t={{{text23|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 23 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image24|§}}}|c={{{caption24|}}}|a={{{alt24|}}}|l={{{link24|}}}|t={{{text24|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 24 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image25|§}}}|c={{{caption25|}}}|a={{{alt25|}}}|l={{{link25|}}}|t={{{text25|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 25 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image26|§}}}|c={{{caption26|}}}|a={{{alt26|}}}|l={{{link26|}}}|t={{{text26|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 26 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image27|§}}}|c={{{caption27|}}}|a={{{alt27|}}}|l={{{link27|}}}|t={{{text27|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 27 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image28|§}}}|c={{{caption28|}}}|a={{{alt28|}}}|l={{{link28|}}}|t={{{text28|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 28 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image29|§}}}|c={{{caption29|}}}|a={{{alt29|}}}|l={{{link29|}}}|t={{{text29|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 29 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}{{image array/image|i={{{image30|§}}}|c={{{caption30|}}}|a={{{alt30|}}}|l={{{link30|}}}|t={{{text30|}}}|w={{{width|}}}|h={{{height|}}}|m={{#expr: 30 mod {{{perrow|4}}} }}|bw={{{border-width|0}}}|f={{{font-size|}}}
+}}</tr>
+</table><noinclude>
+{{documentation}}
+</noinclude>
