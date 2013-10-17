@@ -1,0 +1,17 @@
+{{#ifeq:{{NAMESPACE}}|Template|{{Mbox
+| type  = delete
+| image = none
+| text  = '''This template is currently being {{#if:{{{merge|}}}|merged with [[{{{merge}}}]]|[[Wikipedia:Deletion policy|deleted]]}}.'''<br />This template is being {{#if:{{{merge|}}}|merged with another template|removed from the pages on which it is currently used}}, '''according to the specific instructions at [[Wikipedia:Templates for discussion/Holding cell]]''', after which it will be {{#if:{{{merge|}}}|redirected or deleted|deleted}}. Please do not use it on any additional pages, but do not remove it from pages if it is under [[WP:Deletion review|deletion review]]. The decision to {{#if:{{{merge|}}}|merge|delete}} this template was made following a [[{{#ifexist:Wikipedia:Templates for deletion/Log/{{{1}}}|Wikipedia:Templates for deletion/Log/{{Date|{{{1}}}|ymd}}|Wikipedia:Templates for discussion/Log/{{Date|{{{1}}}|ymd}}}}#{{#if:{{{2|}}}|{{{2}}}|Template:{{PAGENAME}}}}|discussion]]  at [[Wikipedia:Templates for discussion|Templates for discussion]].
+}}
+<includeonly>
+[[Category:Templates for deletion]]
+</includeonly>
+|{{#switch:{{lc:{{{type}}}}}
+<!-- Sidebar version, used if type=sidebar-->
+|infobox|box|sidebar= <div class="boilerplate metadata plainlinks" id="tfd" style="background-color: transparent; padding: 0; font-size:xx-small; color:#000000; text-align: center; position: relative; float: right; border-bottom:1px solid #AAAAAA; width: {{px|{{{width|}}}|27em}}">&lsaquo; The [[Help:Template|template]] below ([[{{{2}}}|{{PAGENAME:{{{2}}}}}]]) is being {{#if:{{{merge|}}}|merged|deleted}}. See [[{{#ifexist:Wikipedia:Templates for discussion/Log/{{{1}}}|Wikipedia:Templates for discussion/Log/{{{1}}}|Wikipedia:Templates for deletion/Log/{{{1}}}}}#{{{2}}}|templates for discussion]] for the discussion that led to this result. &rsaquo;</div>
+<!-- Default version, used in all other cases -->
+|#default = <div class="boilerplate metadata plainlinks" id="tfd" style="background-color: transparent; padding: 0; font-size:xx-small; color:#000000; text-align: center; border-bottom:1px solid #AAAAAA;">&lsaquo; The [[Help:Template|template]] below ([[{{{2}}}|{{PAGENAME:{{{2}}}}}]]) is being {{#if:{{{merge|}}}|merged|deleted}}. See [[{{#ifexist:Wikipedia:Templates for discussion/Log/{{{1}}}|Wikipedia:Templates for discussion/Log/{{{1}}}|Wikipedia:Templates for deletion/Log/{{{1}}}}}#{{{2}}}|templates for discussion]] for the discussion that led to this result. &rsaquo;</div>
+}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
