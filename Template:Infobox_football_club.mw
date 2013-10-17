@@ -1,0 +1,117 @@
+{{Infobox
+| title      = {{{title|{{{clubname|<includeonly>{{PAGENAME}}</includeonly>}}} }}}
+| bodyclass  = vcard
+| titleclass = fn org
+| labelstyle = white-space: nowrap; text-align:left
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption    = {{{caption|}}}
+
+| label1     = Magaca
+| data1      = {{{fullname|}}}
+
+| label2     = Magac uyeel
+| data2      = {{{nickname|}}}
+| class2     = nickname
+
+| label3     = Magac kooban
+| data3      = {{{short name|}}}
+| class3     = nickname
+
+| label4     = La aasaasay
+| data4      = {{{founded|}}}
+
+| label5     = Dissolved
+| data5      = {{{dissolved|}}}
+
+| label6     = {{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Garoon}}}}
+| data6      = {{#if:{{{stadium|}}}|{{{stadium|}}}|{{{ground|}}}}}
+| class6     = label
+
+| label7     = {{#if:{{{ground|}}}|<span style="display:none">Garoon</span>&nbsp;Qaadka|{{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Ground}}}}<br />capacity}}
+| data7      = {{{capacity|}}}
+
+| label8     = {{#if:{{{ground|}}}|<span style="display:none">Ground</span>&nbsp;Isuduwe|{{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Ground}}}}<br />coordinates}}
+| data8      = {{#if:{{{coordinates|}}}|<span style="white-space:nowrap">{{{coordinates}}}</span>}}
+
+| label9     = {{#if:{{{owntitle|}}}|{{{owntitle}}}|Milkiilaha}}
+| data9      = {{{owner|}}}
+
+| label10    = {{#if:{{{chrtitle|}}}|{{{chrtitle}}}|Madaxa}}
+| data10     = {{{chairman|}}}
+| class10    = agent
+
+| label11    = {{#if:{{{mgrtitle|}}}|{{{mgrtitle}}}|Maamulaha}}
+| data11     = {{{manager|}}}
+| class11    = agent
+
+| label12    = Tababare
+| data12     = {{{coach|}}}
+| class12     = agent
+
+| label13    = Doorka
+| data13     = {{{league|}}}
+
+| label14    = {{{season|}}}
+| data14     = {{{position|}}}
+
+| label15    = Website
+| data15     = {{#if:{{{website|}}}|[{{{website|}}} Club home page]}}
+
+| data16     = {{#if:{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}} {{{pattern_la2|}}}{{{pattern_b2|}}}{{{pattern_ra2|}}}{{{pattern_sh2|}}}{{{pattern_so2|}}}{{{leftarm2|}}}{{{body2|}}}{{{rightarm2|}}}{{{shorts2|}}}{{{socks2|}}}{{{pattern_la3|}}}{{{pattern_b3|}}}{{{pattern_ra3|}}}{{{pattern_sh3|}}}{{{pattern_so3|}}}{{{leftarm3|}}}{{{body3|}}}{{{rightarm3|}}}{{{shorts3|}}}{{{socks3|}}}
+ |<tr><td class="toccolours" style="padding: 0; background: #ffffff; text-align: center;" colspan="2">
+<table style="width:100%; text-align:center;">
+<tr>
+{{#if:{{{pattern_la1|}}}{{{pattern_b1|}}}{{{pattern_ra1|}}}{{{pattern_sh1|}}}{{{pattern_so1|}}}{{{leftarm1|}}}{{{body1|}}}{{{rightarm1|}}}{{{shorts1|}}}{{{socks1|}}}|
+<td>{{Football kit
+ |  alt        = {{{kit_alt1|}}}
+ |  pattern_la = {{{pattern_la1|}}}
+ |  pattern_b  = {{{pattern_b1|_unknown}}}
+ |  pattern_ra = {{{pattern_ra1|}}}
+ |  pattern_sh = {{{pattern_sh1|}}}
+ |  pattern_so = {{{pattern_so1|}}}
+ |  leftarm    = {{{leftarm1|}}}
+ |  body       = {{{body1|}}}
+ |  rightarm   = {{{rightarm1|}}}
+ |  shorts     = {{{shorts1|}}}
+ |  socks      = {{{socks1|}}}
+ |  title      = {{{pattern_name1|Home}}} [[Kit (association football)|{{#if:{{{American|}}}|colors|colours}}]]
+}}</td>
+}}{{#if:{{{pattern_la2|}}}{{{pattern_b2|}}}{{{pattern_ra2|}}}{{{pattern_sh2|}}}{{{pattern_so2|}}}{{{leftarm2|}}}{{{body2|}}}{{{rightarm2|}}}{{{shorts2|}}}{{{socks2|}}}|
+<td>{{Football kit
+  | alt        = {{{kit_alt2|}}}
+  | pattern_la = {{{pattern_la2|}}}
+  | pattern_b  = {{{pattern_b2|_unknown}}}
+  | pattern_ra = {{{pattern_ra2|}}}
+  | pattern_sh = {{{pattern_sh2|}}}
+  | pattern_so = {{{pattern_so2|}}}
+  | leftarm    = {{{leftarm2|}}}
+  | body       = {{{body2|}}}
+  | rightarm   = {{{rightarm2|}}}
+  | shorts     = {{{shorts2|}}}
+  | socks      = {{{socks2|}}}
+  | title      = {{{pattern_name2|Away}}} [[Kit (association football)|{{#if:{{{American|}}}|colors|colours}}]]
+}}</td>
+}}{{#if:{{{pattern_la3|}}}{{{pattern_b3|}}}{{{pattern_ra3|}}}{{{pattern_sh3|}}}{{{pattern_so3|}}}{{{leftarm3|}}}{{{body3|}}}{{{rightarm3|}}}{{{shorts3|}}}{{{socks3|}}}|
+<td>{{Football kit
+  | alt        = {{{kit_alt3|}}}
+  | pattern_la = {{{pattern_la3|}}}
+  | pattern_b  = {{{pattern_b3|_unknown}}}
+  | pattern_ra = {{{pattern_ra3|}}}
+  | pattern_sh = {{{pattern_sh3|}}}
+  | pattern_so = {{{pattern_so3|}}}
+  | leftarm    = {{{leftarm3|}}}
+  | body       = {{{body3|}}}
+  | rightarm   = {{{rightarm3|}}}
+  | shorts     = {{{shorts3|}}}
+  | socks      = {{{socks3|}}}
+  | title      = {{{pattern_name3|Third}}} [[Kit (association football)|{{#if:{{{American|}}}|colors|colours}}]]
+}}</td>
+}}</tr>
+</table></td></tr>}}
+| below      = {{hide in print|1={{#if:{{{current|}}}|[[File:Soccerball current event.svg|33px|link=|alt=]] ''[[{{{current}}}|Current season]]''}}}}
+}}{{#ifeq:{{{kit}}}|image
+ |[[Category:football team templates which use images]]
+}}<noinclude>
+{{documentation}}
+<!-- please place categories and language links on the documentation page, not here! -->
+</noinclude>
