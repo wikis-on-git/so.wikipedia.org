@@ -1,0 +1,4 @@
+<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3|{{{day}}}}}}}} {{MONTHNAME|{{{2|{{{month}}}}}}}}|{{MONTHNAME|{{{2|{{{month}}}}}}}} {{#expr:{{{3|{{{day}}}}}}}},}} {{{1|{{{year}}}}}}<span style="display:none"> (<span class="bday dtstart published updated">{{{1|{{{year}}}}}}-{{padleft:{{{2|{{{month}}}}}}|2|0}}-{{padleft:{{{3|{{{day}}}}}}|2|0}}</span>)</span>{{#if:{{{br|}}}|<br>}}<span class="noprint"> <small>({{age | {{{1|{{{year}}}}}} | {{{2|{{{month}}}}}} | {{{3|{{{day}}}}}} }}&nbsp;{{plural:{{age | {{{1|{{{year}}}}}} | {{{2|{{{month}}}}}} | {{{3|{{{day}}}}}} }}|year|years}} ago)</small></span></includeonly><noinclude>
+{{being deleted|2013 July 31|merge=Template:Start date and age}}
+{{documentation}}
+</noinclude>
