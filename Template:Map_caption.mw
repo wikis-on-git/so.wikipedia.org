@@ -64,7 +64,7 @@
 | [[EU]]
 | European Union
 | [[Midowga Yurub]]
-| the European Union 
+| European Union 
 | [[Midowga Yurub]] = ku yaal [[Midowga Yurub]]
 | #default = {{#ifexist:{{{subregion}}}|[[{{{subregion}}}]]|{{{subregion}}}}}
 <!--end#switch[10]-->}}<!--
@@ -83,8 +83,8 @@
 | [[EU]]
 | European Union
 | [[Midowga Yurub]]
-| the European Union 
-| the [[European Union]] = <!--
+| European Union 
+| [[European Union]] = <!--
 -->{{#ifeq:<!--[13a]-->{{{subregion_color|camel}}}|<!--equals:-->camel
       |<!--then:[13a]-->{{spaces|16}}&thinsp;<!--
    -->|<!--else:[13a]-->&nbsp; —&nbsp;<!--
