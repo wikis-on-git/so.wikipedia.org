@@ -17,7 +17,7 @@
 -->{{#switch:<!--[4]-->{{{region|none}}}
 | none =
 | Europe
-| [[Europe]]
+| [[Yurub]]
 | in Europe
 | in [[Europe]]
 | on the European continent
@@ -26,7 +26,7 @@
 | [[Pacific]]
 | the Pacific
 | the [[Pacific]]
-| the Pacific Ocean = in the [[Pacific Ocean]]
+| the Pacific Ocean = ku yaal [[Pacific Ocean]]
 | Antarctica
 | [[Antarctica]] = on {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
 | Middle East
@@ -34,7 +34,7 @@
 | Arctic Circle
 | [[Arctic Circle]]
 | Pacific Ocean
-| [[Pacific Ocean]] = in the {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
+| [[Pacific Ocean]] = ku yaal {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
 | #default = in {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
 <!--end#switch:[4]-->}}<!--
 -->{{#if:<!--[5]-->{{{region|}}}
@@ -63,9 +63,9 @@
 | the EU
 | the [[EU]]
 | European Union
-| [[European Union]]
+| [[Midowga Yurub]]
 | the European Union 
-| the [[European Union]] = in the [[European Union]]
+| [[Midowga Yurub]] = ku yaal [[Midowga Yurub]]
 | #default = in {{#ifexist:{{{subregion}}}|[[{{{subregion}}}]]|{{{subregion}}}}}
 <!--end#switch[10]-->}}<!--
 -->{{#ifeq:<!--[11]-->{{{subregion_color|any}}}|<!--equals:-->none
@@ -82,7 +82,7 @@
 | the EU
 | the [[EU]]
 | European Union
-| [[European Union]]
+| [[Midowga Yurub]]
 | the European Union 
 | the [[European Union]] = <!--
 -->{{#ifeq:<!--[13a]-->{{{subregion_color|camel}}}|<!--equals:-->camel
