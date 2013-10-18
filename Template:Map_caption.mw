@@ -1,6 +1,6 @@
 <noinclude><div style="width:100%;text-align:center;font-size:9px;line-height:1.2em;"><div style="width:80%;background-color:#808080;color:#ffffff;text-align:center;">template muuqaalka(macluumaad la´aan) biloowga</div></div></noinclude><!--
 
---><div style="text-align:center;font-size:11px;line-height:1.15em;"><span style="font-size:11px;">Halka uu dhaco  <!--
+--><div style="text-align:center;font-size:11px;line-height:1.15em;"><span style="font-size:11px;">Halka ay dhaco  <!--
 -->{{#if:<!--[0]-->{{{countryprefix|}}}
       |<!--then:[0]-->{{{countryprefix}}}&nbsp;<!--
 --end#if:[0]-->}}<span style="font-size:2px;">&nbsp;</span>{{#ifexist:{{{country}}}|[[{{{country}}}]]|{{{country|[[{{PAGENAME}}]]}}}}}<!--
@@ -21,7 +21,7 @@
 | in Europe
 | in [[Europe]]
 | on the European continent
-| on the [[Europe|European continent]] = in [[Europe]]
+| on the [[Europe|European continent]] = [[Yurub]]
 | Pacific
 | [[Pacific]]
 | the Pacific
@@ -35,7 +35,7 @@
 | [[Arctic Circle]]
 | Pacific Ocean
 | [[Pacific Ocean]] = ku yaal {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
-| #default = in {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
+| #default = {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
 <!--end#switch:[4]-->}}<!--
 -->{{#if:<!--[5]-->{{{region|}}}
       |<!--then:[5]
@@ -60,13 +60,13 @@
 -->{{#switch:<!--[10]-->{{{subregion|none}}}
 | EU
 | [[EU]]
-| the EU
-| the [[EU]]
+| EU
+| [[EU]]
 | European Union
 | [[Midowga Yurub]]
 | the European Union 
 | [[Midowga Yurub]] = ku yaal [[Midowga Yurub]]
-| #default = in {{#ifexist:{{{subregion}}}|[[{{{subregion}}}]]|{{{subregion}}}}}
+| #default = {{#ifexist:{{{subregion}}}|[[{{{subregion}}}]]|{{{subregion}}}}}
 <!--end#switch[10]-->}}<!--
 -->{{#ifeq:<!--[11]-->{{{subregion_color|any}}}|<!--equals:-->none
       |<!--then:[11] subregion_color passed as explicit demand not to indicate (default) color
@@ -79,8 +79,8 @@
 -->{{#switch:<!--[13]-->{{{subregion|none}}}
 | EU
 | [[EU]]
-| the EU
-| the [[EU]]
+| EU
+| [[EU]]
 | European Union
 | [[Midowga Yurub]]
 | the European Union 
