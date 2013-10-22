@@ -1,0 +1,5 @@
+{{{1}}}{{#iferror:{{#ifexpr:{{formatnum:{{{Naadj|}}}{{{1|1050}}}|R}}<1000|&nbsp;|{{{sep|~}}}}}|{{{sep|~}}}}}{{#iferror:{{#ifexpr:abs( {{formatnum:{{{1|5}}}|R}} ) < 1.0001|{{{2}}}|{{{3}}}}}|{{{3}}}}}<noinclude>
+
+[[Category:2010 Convert unit subtemplates]]
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
