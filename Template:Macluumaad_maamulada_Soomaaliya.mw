@@ -37,7 +37,7 @@
 | {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
 |- class="mergedrow"
 | [[{{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}]]
-| <span class="agent">{{{Vice President}}}</span>
+| <span class="agent">{{{PresidentType}}}</span>
 |- class="mergedbottomrow agent"
 | [[Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen]]
 | {{{Vice President}}} ({{{Vice PresidentParty}}})
