@@ -34,10 +34,10 @@
 | 
 |- class="mergedrow"
 | Nuuca
-| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
+| {{#ifeq: {{{EntityAdjective|}}} | Provincial | [[Baarlamaan]] | }}
 |- class="mergedrow"
 | [[{{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}]]
-| <span class="agent">{{{President}}}</span>
+| <span class="agent">{{{Vice President}}}</span>
 |- class="mergedbottomrow agent"
 | [[Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen]]
 | {{{Vice President}}} ({{{Vice PresidentParty}}})
