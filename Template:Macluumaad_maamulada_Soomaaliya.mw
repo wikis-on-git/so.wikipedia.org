@@ -4,9 +4,9 @@
 |-
 | class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
 {| style="text-align:center; background: none;"
-| style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Flag of {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Coat of arms of {{{Name}}}]]
+| style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
 |-
-| width="130"| <small>[[Flag of {{{Name}}}|Flag]]</small> || align="center" width="130" | <small>[[Coat of arms of {{{Name}}}|Coat of arms]]</small>
+| width="130"| <small>[[Calanka {{{Name}}}|Calan]]</small> || align="center" width="130" | <small>[[Astaanta {{{Name}}}|Astaanta]]</small>
 |}
 |-
 | align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
@@ -23,24 +23,24 @@
 ! [[Maamulada Soomaaliya|Magaalada ugu dadka badan]]
 | {{{LargestMetro}}}
 |-
-!Luqada Rasmiga ah
+!Luqada
 | {{{OfficialLang}}}
 |- class="mergedtoprow"
 |-
-! Magaca
+! Magaca kale
 | {{{Demonym}}}
 |-
 ! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
 | 
 |- class="mergedrow"
 | Nuuca
-| {{#ifeq: {{{EntityAdjective|}}} | Provincial | [[Constitutional monarchy]] | }}
+| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
 |- class="mergedrow"
-| [[{{{ViceroyType}}} of {{{Name}}}|{{nowrap|{{{ViceroyType}}}}}]]
-| <span class="agent">{{{Viceroy}}}</span>
+| [[{{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}]]
+| <span class="agent">{{{Vice President}}}</span>
 |- class="mergedbottomrow agent"
-| [[Premier of {{{Name}}}|Premier]]
-| {{{Premier}}} ({{{PremierParty}}})
+| [[Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen]]
+| {{{Vice President}}} ({{{Vice PresidentParty}}})
 |- class="mergedrow"
 |-
 ! Sharci dajinta
@@ -48,13 +48,13 @@
 |-class="mergedbottomrow"
 |- 
 ! Xubnaha Federaalka
-| (ee [[Baarlamaanka Soomaaliya|Baarlamaanka Soomaaliya]])
+| ee ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
 |- class="mergedrow"
 | Aqalka hoose
-| {{{HouseSeats}}} ee 275 (<includeonly>{{#expr:{{{HouseSeats}}}*40/275 round 1}}</includeonly><noinclude>##</noinclude>%)
+| {{{HouseSeats}}} ee ah tirada 275 (<includeonly>{{#expr:{{{HouseSeats}}}*40/275 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedbottomrow"
 | Aqalka Sare
-| [[Liiska {{{Name}}} |{{{SenateSeats}}} ee 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
+| [[Liiska {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedtoprow"
 |-
 !Konfodareeshin
@@ -73,7 +73,7 @@
 | {{<noinclude>tlx|</noinclude>convert|{{{WaterArea_km2}}}|km2|sqmi|abbr=on}} (<includeonly>{{#expr:{{{WaterArea_km2}}}*100/{{{TotalArea_km2}}} round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedbottomrow"
 | Heerka Soomaaliya
-| <includeonly>{{#expr:{{{TotalArea_km2}}}*100/9984670 round 1}}</includeonly><noinclude>##</noinclude>% of 9,984,670 km<sup>2</sup>
+| <includeonly>{{#expr:{{{TotalArea_km2}}}*100/63765 round 1}}</includeonly><noinclude>##</noinclude>% of 637,65 km<sup>2</sup>
 |- class="mergedtoprow"
 ! Tirada Dadkka&nbsp;{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}} }}
 | [[Gobolada Soomaaliya|Heerka {{{PopulationRank}}}]]
@@ -81,7 +81,7 @@
 | Wadarta ({{{PopulationYear}}})
 | {{FORMATNUM:{{{Population}}}}} {{{PopulationRef}}}
 |- class="mergedrow"
-| Cuf ({{{PopulationYear}}})
+| Tira sanadeed ({{{PopulationYear}}})
 | {{<noinclude>tlx|</noinclude>convert|<includeonly>{{#expr:{{{Population}}}/{{{LandArea_km2}}} round 2}}</includeonly><noinclude>##</noinclude>|PD/km2|PD/sqmi|abbr=on}}<!--
 |- class="mergedbottomrow"
 | Berber dhig Soomaaliya
@@ -111,7 +111,7 @@
 ! Furaha Po
 | {{{PostalCodePrefix}}}
 |- class="mergedtoprow"
-! Ble
+! Blue
 | {{{Blue}}}
 |- class="mergedrow"
 ! Xidig
