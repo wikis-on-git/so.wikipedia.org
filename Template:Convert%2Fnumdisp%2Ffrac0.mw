@@ -1,0 +1,3 @@
+<includeonly><span style="white-space:nowrap">{{#ifexpr:{{{1}}}<0|−<sup>{{#expr:-{{{1}}}}}</sup>|<sup>{{{1}}}</sup>}}&frasl;<sub>{{{4}}}</sub></span></includeonly><noinclude>Produces a fraction {{frac|''a''|''d''}} where ''a'' is parameter 1 & ''d'' is parameter 4.  Converts a hyphen into a true minus sign.
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
