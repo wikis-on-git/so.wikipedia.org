@@ -1,0 +1,62 @@
+<noinclude><!--
+
+--============================================================
+-- Process fraction parts by negative/zero/positive (-1,0,1)
+--============================================================
+
+-->This subtemplate is called by {{tl|convert/numdisp}} and by {{tl|convert/and/frn1}} to process fractions according to whether the whole number part (i.e. the ''a'' in {{frac|''a''|''b''|''c''}}) is positive, negative or zero calling {{tl|convert/numdisp/frac1}}, {{tl|convert/numdisp/frac-1}} or {{tl|convert/numdisp/frac0}} respectively.<!--
+
+
+--></noinclude>{{convert/numdisp/frac{{
+  #expr:( {{{2|-6-3}}}*0>0) - ( {{{2|-6-3}}}*0<0) }}
+|{{{2|-6-3}}}|{{#expr:{{{2|-6-3}}}*0}}|{{#expr:0*{{{2|-6-3}}}}}|{{{3|8}}}}}<noinclude><!--
+--------------------------------------------------------------
+--NOTES:
+--    [ These comments are skipped by <noinclude> and not sent
+--      in formatted Internet pages, only during edit. ]
+--
+--NOTE A1: This template handles a number+fraction, for display,
+--     based on amount as negative/0/positive, using -1/0/1 as
+--     suffix: #expr:( {{{2|6+3}}}*0>0) - ( {{{2|6+3}}}*0<0) so
+--     positives are /frac1, zero as /frac0, negatives /frac-1
+--     without using a nested if-statement to choose 1/0/-1.
+--     During 2009-2010 templates were restricted to if-logic
+--     nested within depth of only a 40-level limit.
+--
+--NOTE P2: The parameters, as fraction parts, expect input like
+--     #titleparts splitting a number at "/" (slash), where
+--        parameter 1 - is the original number (like 6+3/8)
+--        parameter 2 - is left of slash (6+3)
+--        parameter 3 - is after slash (8) as the denominator.
+--
+--NOTE S3: Parameters here should NOT have spaces or split on
+--     separate lines: {{Convert/numdisp/fracparts|0|6+3 |8}}
+--     would put a space after 3, as "3 /8" in the displayed
+--     fraction. The MediaWiki parser appends a newline ending
+--     a parameter when "|" is on the next line (in 2010).
+--
+-- WARNING: *** DO NOT DELETE COMMENTS FROM THIS TEMPLATE ***
+--      Unless these comments are readily available, people
+--      might tinker with the coding (or rename templates),
+--      in hopes to clarify operation because these comments
+--      were not nearby to explain the issues. Having these
+--      comments only on a doc-page increases the danger of
+--      explanations no longer matching the current coding.
+--      UPDATE these comments to match changes to the template.
+--      UPDATE the HISTORY during major changes (not typos).
+--
+--------------------------------------------------------------
+--HISTORY:
+--19Nov10 Created from {{Convert/numdisp/frac}} of User:Jimp.
+--19Nov10 Changed for titleparts at "/" (like {2}=6+3 & {3}=8).
+--19Nov10 Put NOTES comments to explain template coding.
+--19Nov10 Put HISTORY comments to log major changes.
+--28Jun11 Merge back to {{Convert/numdisp/frac}} 
+--
+-- ** Add interwiki links on docpage to limit changes here **
+-->
+[[Category:2010 Convert unit subtemplates]]
+[[Category:Subtemplates of Template Convert]]
+[[or:ଟେମ୍ପଲେଟ:Convert/numdisp/frac]]
+[[vi:Bản mẫu:Convert/numdisp/frac]]
+</noinclude>
