@@ -72,8 +72,8 @@
 | Biyo (%)
 | {{<noinclude>tlx|</noinclude>convert|{{{WaterArea_km2}}}|km2|sqmi|abbr=on}} (<includeonly>{{#expr:{{{WaterArea_km2}}}*100/{{{TotalArea_km2}}} round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedbottomrow"
-| Heerka Soomaaliya
-| <includeonly>{{#expr:{{{TotalArea_km2}}}*100/63765 round 1}}</includeonly><noinclude>##</noinclude>% of 637,65 km<sup>2</sup>
+|  Ka tahay
+| <includeonly>{{#expr:{{{TotalArea_km2}}}*100/63765 round 1}}</includeonly><noinclude>##</noinclude>% Baaxadda Soomaaliya 637,657 km<sup>2</sup>
 |- class="mergedtoprow"
 ! Tirada Dadkka&nbsp;{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}} }}
 | [[Gobolada Soomaaliya|Heerka {{{PopulationRank}}}]]
@@ -87,7 +87,7 @@
 | Berber dhig Soomaaliya
 | <includeonly>{{#expr:{{{Population}}}*100/34657000 round 1}}</includeonly><noinclude>##</noinclude>% of 34,657,000-->
 |- class="mergedtoprow"
-! [[Kobaca|GDP]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
+! [[Kobac dhaqaale|GDP]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
 | [[Dhaqaalaha Soomaaliya|Heerka {{{GDP_rank}}}]]
 |- class="mergedrow"
 | Wadarta ({{{GDP_year}}})
