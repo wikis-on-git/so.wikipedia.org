@@ -1,0 +1,374 @@
+{{#if:{{{2|}}}|
+! colspan = 2 {{!}} [[Conservation status]]
+{{!}}-
+{{!}} colspan = 2 {{!}} <div style = "text-align: center">{{#if:{{{1|}}}|{{#switch:{{{1}}}<!--
+*************
+* IUCN2.3   *
+*************
+--> | iucn2.3
+ | IUCN2.3 = {{#switch:{{{2}}}
+ | EX
+ | ex = [[file:Status iucn2.3 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct species]] | }}
+ | EW
+ | ew = [[file:Status iucn2.3 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct in the wild species]] | }}
+ | CR
+ | cr = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] | }}
+ | EN
+ | en = [[file:Status iucn2.3 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List endangered species]] | }}
+ | VU
+ | vu = [[file:Status iucn2.3 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List vulnerable species]] | }}
+ | LR
+ | lr = [[file:Status iucn2.3 blank.svg|link = |alt = ]]<br />Lower risk {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
+ | CD
+ | cd
+ | LR/CD
+ | lr/CD
+ | LR/cd
+ | lr/cd = [[file:Status iucn2.3 CD.svg|frameless|link=|alt=]]<br />[[Conservation Dependent]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List conservation dependent species]] | }}
+ | NT
+ | nt
+ | LR/NT
+ | lr/NT
+ | LR/nt
+ | lr/nt = [[file:Status iucn2.3 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List near threatened species]] | }}
+ | LC
+ | lc
+ | LR/LC
+ | lr/LC
+ | LR/lc
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] | }}
+ | DD
+ | dd = [[file:Status iucn2.3 blank.svg|frameless|link=|alt=]]<br />[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] | }}
+ | NE
+ | ne = ''Not evaluated''
+ | NR
+ | nr = ''Not recognized''
+ | PE
+ | pe = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | PEW
+ | pew = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] | }}
+ | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 2.3]]}}){{{3|}}}</small></div><!--
+*************
+* IUCN3.1   *
+*************
+-->| iucn
+| IUCN
+| iucn3.1
+| IUCN3.1 = {{#switch:{{{2}}}
+ | EX
+ | ex = [[file:Status iucn3.1 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct species]] | }}
+ | EW
+ | ew = [[file:Status iucn3.1 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct in the wild species]] | }}
+ | CR
+ | cr = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | EN
+ | en = [[file:Status iucn3.1 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List endangered species]] | }}
+ | VU
+ | vu = [[file:Status iucn3.1 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List vulnerable species]] |}}
+ | NT
+ | nt = [[file:Status iucn3.1 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List near threatened species]] | }}
+ | LC
+ | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] |}}
+ | DD
+ | dd = [[file:Status iucn3.1 blank.svg|frameless|link=|alt=]]<br/>[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] |}}
+ | NE
+ | ne = ''Not evaluated''
+ | NR
+ | nr = ''Not recognized''
+ | PE
+ | pe = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | PEW
+ | pew = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]]|}}
+ | '''''Invalid status'''''[[Category:Invalid conservation status]]
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 3.1]]}}){{{3|}}}</small></div><!--
+*************
+* EPBC      *
+*************
+-->| epbc
+| EPBC = {{#switch:{{{2}}}
+ | EX
+ | ex = [[file:Status EPBC EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act extinct biota]] |}}
+ | EW
+ | ew = [[file:Status EPBC EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act extinct in the wild biota]]|}}
+ | CR
+ | cr = [[file:Status EPBC CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act critically endangered biota]] |}}
+ | EN
+ | en = [[file:Status EPBC EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act endangered biota]]|}}
+ | VU
+ | vu = [[file:Status EPBC VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act vulnerable biota]] |}}
+ | CD
+ | cd = [[file:Status EPBC CD.svg|frameless|link=|alt=]]<br />[[Conservation Dependent]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act conservation dependent biota]] |}}
+ | DL
+ | dl
+ | Delisted = [[file:Status EPBC DL.svg|frameless|link=|alt=]]<br />Delisted
+ | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Environment Protection and Biodiversity Conservation Act 1999|EPBC Act]]}}){{{3|}}}</small></div><!--
+*************
+* TNC       *
+*************
+-->| tnc
+| TNC
+| natureserve
+| NatureServe = {{#switch:{{{2}}}
+ | GX
+ | gx = [[file:Status TNC GX.svg|frameless|link=|alt=]]<br />Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Presumed Extinct species]]|}}
+ | GH
+ | gh = [[file:Status TNC GH.svg|frameless|link=|alt=]]<br />Possibly [[Extinction|Extinct]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Possibly Extinct species]]|}}
+ | G1
+ | g1 = [[file:Status TNC G1.svg|frameless|link=|alt=]]<br />Critically Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Critically Imperiled species]] |}}
+ | G2
+ | g2 = [[file:Status TNC G2.svg|frameless|link=|alt=]]<br />Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Imperiled species]] |}}
+ | G3
+ | g3 = [[file:Status TNC G3.svg|frameless|link=|alt=]]<br />Vulnerable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Vulnerable species]] |}}
+ | G4
+ | g4 = [[file:Status TNC G4.svg|frameless|link=|alt=]]<br />Apparently Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Apparently Secure species]] |}}
+ | G5
+ | g5 = [[file:Status TNC G5.svg|frameless|link=|alt=]]<br />Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Secure species]]|}}
+ | GU
+ | gu = [[file:Status TNC blank.svg|frameless|link=|alt=]]<br />Unrankable
+ | TX
+ | tx = [[file:Status TNC TX.svg|frameless|link=|alt=]]<br />Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Presumed Extinct species]]|}}
+ | TH
+ | th = [[file:Status TNC TH.svg|frameless|link=|alt=]]<br />Possibly [[Extinction|Extinct]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Possibly Extinct species]]|}}
+ | T1
+ | t1 = [[file:Status TNC T1.svg|frameless|link=|alt=]]<br />Critically Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Critically Imperiled species]]|}}
+ | T2
+ | t2 = [[file:Status TNC T2.svg|frameless|link=|alt=]]<br />Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Imperiled species]] |}}
+ | T3
+ | t3 = [[file:Status TNC T3.svg|frameless|link=|alt=]]<br />Vulnerable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Vulnerable species]]|}}
+ | T4
+ | t4 = [[file:Status TNC T4.svg|frameless|link=|alt=]]<br />Apparently Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Apparently Secure species]]|}}
+ | T5
+ | t5 = [[file:Status TNC T5.svg|frameless|link=|alt=]]<br />Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Secure species]] |}}
+ | TU
+ | tu = [[file:Status TNC T blank.svg|frameless|link=|alt=]]<br />Unrankable
+ | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[NatureServe conservation status|NatureServe]]}}){{{3|}}}</small></div><!--
+*************
+* ESA       *
+*************
+-->| esa
+| ESA = {{#switch:{{{2}}}
+ | EX
+ | ex = [[file:Status ESA EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | E
+ | e
+ | LE
+ | le = [[file:Status ESA LE.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]]
+ | T
+ | t
+ | LT
+ | lt = [[file:Status ESA LT.svg|frameless|link=|alt=]]<br />[[Threatened species|Threatened]]
+ | DL
+ | dl
+ | Delisted = [[file:Status ESA DL.svg|frameless|link=|alt=]]<br />Delisted
+ | '''''Invalid status'''''[[Category:Invalid conservation status]]
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Endangered Species Act|ESA]]}}){{{3|}}}</small></div><!--
+*************
+* COSEWIC   *
+*************
+-->| cosewic
+| COSEWIC = {{#switch:{{{2}}}
+ | X
+ | x = [[file:Status COSEWIC X.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | XT
+ | xt = [[file:Status COSEWIC XT.svg|frameless|link=|alt=]]<br />Extirpated (Canada)
+ | E
+ | e = [[file:Status COSEWIC E.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]]
+ | T
+ | t = [[file:Status COSEWIC T.svg|frameless|link=|alt=]]<br />[[Threatened species|Threatened]]
+ | SC
+ | sc = [[file:Status COSEWIC SC.svg|frameless|link=|alt=]]<br />Special Concern
+ | NAR
+ | nar = [[file:Status COSEWIC NAR.svg|frameless|link=|alt=]]<br />[[Least Concern|Not at risk]]
+ | '''''Invalid status'''''[[Category:Invalid conservation status]]
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Committee on the Status of Endangered Wildlife in Canada|COSEWIC]]}}){{{3|}}}</small></div><!--
+*************
+* DECF      *
+*************
+-->| decf
+| DECF = {{#switch:{{{2}}}
+ | X
+ | x = [[file:Status DECF X.svg|frameless|link=|alt=]]<br />Declared Rare&nbsp;— Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | R
+ | r = [[file:Status DECF R.svg|frameless|link=|alt=]]<br />Declared [[Rare species|rare]]
+ | P1
+ | p1 = [[file:Status DECF P1.svg|frameless|link=|alt=]]<br />Priority One&nbsp;— Poorly Known Taxa
+ | P2
+ | p2 = [[file:Status DECF P2.svg|frameless|link=|alt=]]<br />Priority Two&nbsp;— Poorly Known Taxa
+ | P3
+ | p3 = [[file:Status DECF P3.svg|frameless|link=|alt=]]<br />Priority Three&nbsp;— Poorly Known Taxa
+ | P4
+ | p4 = [[file:Status DECF P4.svg|frameless|link=|alt=]]<br />Priority Four&nbsp;— Rare Taxa
+ | DL
+ | dl
+ | Delisted = [[file:Status DECF DL.svg|frameless|link=|alt=]]<br />Delisted
+ | '''''Invalid status'''''[[Category:Invalid conservation status]]
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Declared Rare and Priority Flora List|DEC]]}}){{{3|}}}</small></div><!--
+*************
+* QLDNCA    *
+*************
+-->| qldnca
+| QLDNCA = {{#switch:{{{2}}}
+ | EW
+ | ew = [[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act extinct in the wild biota]]|}}
+ | EN
+ | en = [[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act endangered biota]]|}}
+ | VU
+ | vu = [[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act vulnerable biota]]|}}
+ | R
+ | r = Rare {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act rare biota]]|}}
+ | NT
+ | nt = [[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act near threatened biota]]|}}
+ | LC
+ | lc = [[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act least concern biota]]|}}
+ | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Nature Conservation Act 1992|NCA]]}}){{{3|}}}</small></div><!--
+*************
+* CITES     *
+*************
+-->| CITES
+| cites = {{#switch:{{{2}}}
+ | CITES_A1 = [[CITES]] Appendix I
+ | CITES_A2 = [[CITES]] Appendix II
+ | CITES_A3 = [[CITES]] Appendix III
+ | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[CITES]]}}){{{3|}}}</small></div><!--
+*************
+* NZTCS     *
+*************
+-->| nztcs
+| NZTCS = {{#switch:{{{2}}}
+ | EX
+ | ex = [[file:Status NZTCS EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | NC
+ | nc = [[file:Status NZTCS NC.svg|frameless|link=|alt=]]<br />Nationally Critical
+ | NE
+ | ne = [[file:Status NZTCS NE.svg|frameless|link=|alt=]]<br />Nationally Endangered
+ | NV
+ | nv = [[file:Status NZTCS NV.svg|frameless|link=|alt=]]<br />Nationally Vulnerable
+ | SD
+ | sd = [[file:Status NZTCS SD.svg|frameless|link=|alt=]]<br />Serious Decline
+ | GD
+ | gd = [[file:Status NZTCS GD.svg|frameless|link=|alt=]]<br />Gradual Decline
+ | SP
+ | sp = [[file:Status NZTCS SP.svg|frameless|link=|alt=]]<br />Sparse
+ | RR
+ | rr = [[file:Status NZTCS RR.svg|frameless|link=|alt=]]<br />Range Restricted
+ | '''''Invalid status'''''[[Category:Invalid conservation status]]
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[New Zealand Threat Classification System|NZ TCS]]}}){{{3|}}}</small></div><!--
+********************
+* No status system *
+********************
+-->| {{#switch:{{{2}}}
+ | EX
+ | ex = [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | CR
+ | cr = [[Critically endangered species|Critically Endangered]]
+ | EN
+ | en = [[Endangered species|Endangered]]
+ | {{{2}}}
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|{{{1}}}}}){{{3|}}}</small> {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes with an unrecognised status system]]|}}
+}}
+| {{#switch:{{{2}}}
+ | EX
+ | ex = [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}
+ | EW
+ | ew = [[Extinction|Extinct]]&nbsp;in&nbsp;the&nbsp;wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Species extinct in the wild]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | CR
+ | cr = [[Critically endangered species|Critically endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | EN
+ | en = [[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | VU
+ | vu = [[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Vulnerable species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | NT
+ | nt = [[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Near Threatened species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | LC
+ | lc = [[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Least concern species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | SE
+ | se
+ | SECURE
+ | Secure
+ | secure = Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}
+ | DD
+ | dd = [[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}
+ | DOM
+ | dom
+ | DOMESTICATED
+ | Domesticated
+ | domesticated = Domesticated {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Domesticated animals]]|}}
+ | PE
+ | pe = [[file:Status_none_PE.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | PEW
+ | pew = [[file:Status_none_PEW.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | CITES_A1 = [[CITES]] Appendix I {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}
+ | CITES_A2 = [[CITES]] Appendix II {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}
+ | CITES_A3 = [[CITES]] Appendix III {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}
+ | FOSSIL
+ | Fossil
+ | fossil = Fossil
+ | PRE
+ | Pre
+ | pre = Prehistoric {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+ | text
+ | Text
+ | TEXT = ''See text''
+ | LR/CD
+ | lr/CD
+ | LR/cd
+ | lr/cd = [[file:Status iucn2.3 CD.svg|frameless|link=|alt=]]<br />[[Conservation Dependent]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | LR/NT
+ | lr/NT
+ | LR/nt
+ | lr/nt = [[file:Status iucn2.3 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Near Threatened species]][[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | LR/LC
+ | lr/LC
+ | LR/lc
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Least Concern species]][[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | GX
+ | gx = [[file:Status TNC GX.svg|frameless|link=|alt=]]<br />Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | GH
+ | gh = [[file:Status TNC GH.svg|frameless|link=|alt=]]<br />Possibly [[Extinction|Extinct]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | G1
+ | g1 = [[file:Status TNC G1.svg|frameless|link=|alt=]]<br />Critically Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | G2
+ | g2 = [[file:Status TNC G2.svg|frameless|link=|alt=]]<br />Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | G3
+ | g3 = [[file:Status TNC G3.svg|frameless|link=|alt=]]<br />Vulnerable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | G4
+ | g4 = [[file:Status TNC G4.svg|frameless|link=|alt=]]<br />Apparently Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | G5
+ | g5 = [[file:Status TNC G5.svg|frameless|link=|alt=]]<br />Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | GU
+ | gu = [[file:Status TNC blank.svg|frameless|link=|alt=]]<br />Unrankable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | TX
+ | tx = [[file:Status TNC TX.svg|frameless|link=|alt=]]<br />Presumed [[Extinction|Extinct]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}} {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }}<!--This case is subject to deletion once status systems are added-->
+ | TH
+ | th = [[file:Status TNC TH.svg|frameless|link=|alt=]]<br />Possibly [[Extinction|Extinct]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | T1
+ | t1 = [[file:Status TNC T1.svg|frameless|link=|alt=]]<br />Critically Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | T2
+ | t2 = [[file:Status TNC T2.svg|frameless|link=|alt=]]<br />Imperiled {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | T3
+ | t3 = [[file:Status TNC T3.svg|frameless|link=|alt=]]<br />Vulnerable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | T4
+ | t4 = [[file:Status TNC T4.svg|frameless|link=|alt=]]<br />Apparently Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | T5
+ | t5 = [[file:Status TNC T5.svg|frameless|link=|alt=]]<br />Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | TU
+ | tu = [[file:Status TNC T blank.svg|frameless|link=|alt=]]<br />Unrankable {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | R
+ | r = [[file:Status DECF R.svg|frameless|link=|alt=]]<br />Declared [[Rare species|rare]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | P1
+ | p1 = [[file:Status DECF P1.svg|frameless|link=|alt=]]<br />[[Conservation Codes for Western Australian Flora|Priority One]]&nbsp;— Poorly Known Taxa {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+| P2
+ | p2 = [[file:Status DECF P2.svg|frameless|link=|alt=]]<br />[[Conservation Codes for Western Australian Flora|Priority Two]]&nbsp;— Poorly Known Taxa {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | P3
+ | p3 = [[file:Status DECF P3.svg|frameless|link=|alt=]]<br />[[Conservation Codes for Western Australian Flora|Priority Three]]&nbsp;— Poorly Known Taxa {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | P4
+ | p4 = [[file:Status DECF P4.svg|frameless|link=|alt=]]<br />[[Conservation Codes for Western Australian Flora|Priority Four]]&nbsp;— Rare Taxa {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | {{{2}}}
+}}<small>{{{3|}}}</small></div>
+}}
+}}<noinclude>{{documentation}}</noinclude>
