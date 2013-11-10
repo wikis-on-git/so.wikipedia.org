@@ -1,16 +1,84 @@
-{
-|population_estimate_year      = 2009
-|lacagta                       = [[shekel]]
-|wakhti                        = sammar [[DST]]
-|furaha_debeda		       = 972
-|footnote1                     = 
-|footnote2                     = 
+{{Infobox country
+|conventional_long_name = State of Israel
+|native_name = {{unbulleted list|{{native name|he|מְדִינַת יִשְׂרָאֵל|italics=off}}|{{native name|ar|دَوْلَة إِسْرَائِيل|italics=off}}}}
+|common_name = Israel
+|image_flag = Flag of Israel.svg
+|alt_flag = Centered blue star within a horizontal triband
+|image_coat = Emblem of Israel.svg
+|alt_coat = Centered menorah surrounded by two olive branches
+|symbol_type = Emblem
+|national_anthem = {{native phrase|he|"[[Hatikvah]]"|italics=off}}<br />{{small|"The Hope"}}
+|image_map = Israel (orthographic projection).svg
+|alt_map = Projection of Asia with Israel in green
+|map_width = 220px
+|capital = [[Talaabiib]] <small>(''disputed'')</small>
+|latd=31 |latm=47 |latNS=N |longd=34 |longm=47 |longEW=E
+|largest_city = capital
+|official_languages = {{hlist|[[Hebrew language|Hebrew]]|[[Arabic language|Arabic]]}}
+|ethnic_groups = {{unbulleted list|75.3% [[Israeli Jews|Jewish]]|20.7% [[Arab citizens of Israel|Arab]]}}
+|ethnic_groups_year = 2013
+|demonym = [[Israelis|Israeli]]
+|government_type = {{nowrap|[[Unitary state|Unitary]] [[semi-presidential system|semi-presidential]]<br />[[parliamentary system|parliamentary democracy]]}}
+|leader_title1 = [[President of Israel|President]]
+|leader_name1 = [[Shimon Peres]]
+|leader_title2 = [[Prime Minister of Israel|Prime Minister]]
+|leader_name2 = [[Benjamin Netanyahu]]
+|legislature = [[Knesset]]
+|sovereignty_type = [[History of Israel|Independence]]
+|sovereignty_note = from [[Mandatory Palestine]]
+|established_event1 = [[Israeli Declaration of Independence|Declared]]
+|established_date1 = 14 May 1948
+|established_event2 = [[Israel, Palestine, and the United Nations|Recognition]]
+|established_date2 = 1 May 1949
+|area_km2 = 20,770{{\}}22,072 ([[List of countries and dependencies by area|153rd]])
+|area_sq_mi = 8,019{{\}}8,522
+|area_magnitude = 1 E+10
+|percent_water = 2.12 (440&nbsp;km{{smallsup|2}}{{\}}170&nbsp;mi{{smallsup|2}})
+|population_estimate = 8,051,200<ref name="cbsmonth">{{cite web |url=http://www1.cbs.gov.il/webpub/pub/text_page_eng.html?publ=93 |title=Monthly Bulletin of Statistics for Population |date=7 August 2013 |publisher=[[Israel Central Bureau of Statistics]] |accessdate=24 August 2013}}</ref>
+|population_estimate_year = 2013
+|population_estimate_rank = 96th
+|population_census = 7,412,200<ref>{{cite web |url=http://www1.cbs.gov.il/www/mifkad/mifkad_2008/profiles/rep_e_000000.pdf |title=The 2008 Israel Integrated Census of Population and Housing |publisher=Israel Central Bureau of Statistics |date=28 December 2008 |format=PDF |accessdate=17 February 2012}}</ref>
+|population_census_year = 2008
+|population_census_rank = 99th
+|population_density_km2 = 387.63
+|population_density_sq_mi = 1,004.00
+|population_density_rank = 34th
+|GDP_PPP = {{nowrap|$274.504 billion<ref name=imf>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2013/02/weodata/weorept.aspx?sy=2013&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=436&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC&grp=0&a=&pr.x=13&pr.y=9|title=Report for Selected Countries and Subjects |date=October 2013 |publisher=[[International Monetary Fund]] |accessdate=October 2013}}</ref>}}
+|GDP_PPP_rank = 49th
+|GDP_PPP_year = 2013
+|GDP_PPP_per_capita = $34,875<ref name=imf/>
+|GDP_PPP_per_capita_rank = 
+|GDP_nominal = {{nowrap|$272.737 billion<ref name=imf/>}}
+|GDP_nominal_rank = 43rd
+|GDP_nominal_year = 2013
+|GDP_nominal_per_capita = $34,651<ref name=imf/>
+|GDP_nominal_per_capita_rank = 
+|GDP_nominal_per_capita_year = 2013
+|Gini_year = 2008
+|Gini = 39.2
+|Gini_ref = <ref>{{cite web |url=https://www.cia.gov/library/publications/the-world-factbook/fields/2172.html |title=Distribution of family income – Gini index |work=[[The World Factbook]] |publisher=[[Central Intelligence Agency]] |accessdate=September 1, 2009}}</ref>
+|Gini_rank = 66th
+|HDI_year = 2013
+|HDI_change = increase
+|HDI = 0.900
+|HDI_ref = <ref name="HDI">{{cite web |url=http://hdr.undp.org/en/media/HDR2013_EN_Statistics.pdf |format=PDF|title=2013 Human Development Index and its components – Statistics |publisher=[[United Nations Development Programme]] |year=2013 |accessdate=September 24, 2013}}</ref>
+|HDI_rank = 16th
+|currency = [[Israeli new shekel]] ({{rtl-lang|he|₪}})
+|currency_code = ILS
+|time_zone = [[Israel Standard Time]]
+|utc_offset = +2
+|time_zone_DST = [[Israel Summer Time]]
+|utc_offset_DST = +3
+|date_format = {{unbulleted list|dd-mm-yyyy ([[Common Era|CE]])}}
+|drives_on = right
+|calling_code = [[Telephone numbers in Israel|+972]]
+|cctld = [[.il]]
 }}
-
 '''Israaiil''' ([[Af-Hebraw]]: יִשְׂרָאֵל‎, Yisra'el; [[Af-Carabi]]: إِسْرَائِيلُ‎, Isrā'īl) waa wadan ku yaalo [[Bariga Dhexe]] ee dhulka carabta. Israaiil waxee xuduud la leedahay wadamada [[Lubnaan]], [[Urdun]], [[Masar]], [[Suuriya]], iyo [[Daanta galbeed]], [[Marinka Gaza]] oo isku hal wadan ah.
 Dhulka maanta loo yaqaano israaiil, waxaa markeeda hore loo yaqaanay falastiin, waxaana la abaaulay 1948ii.Carabta iyo yahuuda waxaa ka soo dhaxeeyay dagaalo aad u dheer oo ilaa maanta ee colaad dhaxtaagantahay.Israaiil waxee isku balaarisay dhulka falastiin markii ee carabta ka diideen qaramada midoobay in ee yahuuda daris la noqdaan.60sano kadib dhulka falastiin waxaa la kala dhahaa [[Marinka Gaza]] iyo [[daanta galbeed]].Caasimada israaiil waa galbeedka [[Qudus]], caasimadiisa labaad waxaa la dhahaa [[Tel Aviv]].
 
-
+==Linkiga Cadaymaha==
+<references/>
 {{Dalalka Aasiya}}
 
 [[Category:Aasiya]]
