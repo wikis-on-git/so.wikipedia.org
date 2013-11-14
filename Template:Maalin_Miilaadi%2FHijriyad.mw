@@ -1,0 +1,8 @@
+<div style="border:1px solid #ccc; background: #fff; border-right:3px solid #ccc; border-bottom:3px solid #ccc; text-align: center; padding:3px; float:left; font-size: smaller; line-height: 1.3; margin-right: 4px; width: 75px;">
+<!-- Header 
+--><div style="background: #aaa; font-size: 130%; color: #f9f9f9;">'''[[Maalin|<span style="color: #f9f9f9;">Maanta</span>]] waa '''</div>
+'''<div style="width:100%">[[{{CURRENTDAYNAME}}|<font color=black>{{CURRENTDAYNAME}}</font>]]</div>'''{{#time:  [[j F]] [[Y]][[Kalandar|M]] 
+ee ku beegan [[:xmj xmF|xmj xmF]] [[xmY H]]}}
+</div>
+
+<noinclude>[[Category:Kalandar]]</noinclude>
