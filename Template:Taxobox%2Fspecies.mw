@@ -1,5 +1,5 @@
 {{#if:{{{2|}}}|
-! colspan = 2 {{!}} [[Conservation status]]
+! colspan = 2 {{!}} Xaalad xanaaneed
 {{!}}-
 {{!}} colspan = 2 {{!}} <div style = "text-align: center">{{#if:{{{1|}}}|{{#switch:{{{1}}}<!--
 *************
@@ -297,7 +297,7 @@
  | dom
  | DOMESTICATED
  | Domesticated
- | domesticated = Domesticated {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Domesticated animals]]|}}
+ | domesticated = Domesticated {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Xayawaan gurijoog]]|}}
  | PE
  | pe = [[file:Status_none_PE.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | PEW
