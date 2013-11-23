@@ -135,13 +135,13 @@
 }} }}
 |- 
 {{#if:{{{binomial|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} [[Binomial nomenclature|Binomial name]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} Tibix laba magac
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>
 }}
 |- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Animalia]]|[[Animal]]ia|Animalia=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
+! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="trinomial">{{{trinomial}}}</span>'''<br /><small>{{{trinomial_authority|}}}</small>
 }}
@@ -265,7 +265,7 @@
 }}
 |- 
 {{#if:{{{synonyms|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} [[Synonym (taxonomy)|Synonyms]]{{{synonyms_ref|}}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} Magac macna wadaag{{{synonyms_ref|}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{synonyms}}}
