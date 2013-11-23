@@ -297,7 +297,7 @@
  | dom
  | DOMESTICATED
  | Domesticated
- | domesticated = Domesticated {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Xayawaan gurijoog]]|}}
+ | domesticated = Hayinoggol ah {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Xayawaan gurijoog]]|}}
  | PE
  | pe = [[file:Status_none_PE.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | PEW
