@@ -281,4 +281,4 @@
 Define any categories to be displayed on the page here:
 
 Species microformat:
--->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with 'species' microformats]]}}</includeonly><noinclude>{{documentation}}</noinclude>
+-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Microformats]]}}</includeonly><noinclude>{{documentation}}</noinclude>
