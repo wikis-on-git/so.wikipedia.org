@@ -8,6 +8,17 @@ waxaa shaxdaan Idiin Sooo dirayey sharmarke mOhamed hassen
 Email(sharmarkev143@gmail.com)
 facebook (www.facebook.com/shareshareo)
 
+<!--
+fRom ethio <# #-<//A
+
+<!--
+
+==Countries==
+<!--
+PLEASE READ BEFORE EDITING!
+WHEN YOU UPDATE A COUNTRY'S POPULATION - PLEASE ALSO UPDATE THE EXPRESSION NEXT TO IT (column "% of world population") WITH THE SAME NUMBER EXCLUDING COMMAS (the #expr: equation).
+-->
+'''Note:''' All dependent territories are shown in ''italics''.
 {|class="wikitable sortable" style="text-align:right"
 |-
 !data-sort-type="number"|Rank!!Country (or dependent territory)!!Population!!Date!!% of world<br />population!!Source
@@ -1255,3 +1266,454 @@ facebook (www.facebook.com/shareshareo)
 |align=left|{{ISL}}
 |325,010
 |October 1, 2013
+|{{#expr: 323810/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.hagstofa.is/Pages/95?NewsID=9583 Quaterly official estimate]
+|-
+|179
+|align=left|{{MDV}}
+|317,280
+|July 1, 2010
+|{{#expr: 317280/{{worldpop}}*100 round 4}}%
+|align=left|[http://planning.gov.mv/en/images/stories/publications/analysiscd/pdf/13.pdf Official estimate]
+|-
+|180
+|align=left|{{BLZ}}
+|312,971
+|May 12, 2010
+|{{#expr: 312971/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.statisticsbelize.org.bz/dms20uc/dynamicdata/docs/20110511165337_2.pdf Preliminary 2010 census result]
+|-
+|181
+|align=left|{{BRB}}
+|274,200
+|July 1, 2010
+|{{#expr: 274200/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.citypopulation.de/Barbados.html Official estimate]
+|-
+|182
+|align=left|''{{PYF}}'' ([[France]])
+|268,270
+|August 22, 2012
+|{{#expr: 268270/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.ispf.pf/Libraries/RP2012/Premiers_résultats_population_légale.sflb.ashx Preliminary 2012 census result]
+|-
+|183
+|align=left|{{VUT}}
+|264,652
+|July 1, 2013
+|{{#expr: 264652/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|184
+|align=left|''{{NCL}}'' ([[France]])
+|258,958
+|July 1, 2013
+|{{#expr: 258958/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|185
+|align=left|''{{GUF}}'' ([[France]])
+|229,040
+|January 1, 2010
+|{{#expr: 229040/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-regions.asp Official estimate]
+|-
+|186
+|align=left|''{{MYT}}'' ([[France]])
+|212,600
+|August 21, 2012
+|{{#expr: 212600/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.insee.fr/fr/themes/document.asp?ref_id=19214&reg_id=27 2012 census result]
+|-
+|187
+|align=left|{{WSM}}
+|187,820
+|November 7, 2011
+|{{#expr: 187820/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.sbs.gov.ws Final 2011 census result]
+|-
+|188
+|align=left|{{STP}}
+|187,356
+|May 13, 2012
+|{{#expr: 187356/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.citypopulation.de/SaoTome.html 2012 census result]
+|-
+|189
+|align=left|{{LCA}}
+|166,526
+|May 10, 2010
+|{{#expr: 166526/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.stats.gov.lc/StLuciaPreliminaryCensusReport2010.pdf Preliminary 2010 census result]
+|-
+|190
+|align=left|''{{GUM}}'' ([[United States|USA]])
+|159,358
+|April 1, 2010
+|{{#expr: 159358/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn179.html Final 2010 census result]
+|-
+|191
+|align=left|''{{CUW}}'' ([[Netherlands]])
+|150,563
+|March 26, 2011
+|{{#expr: 150563/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.citypopulation.de/Curacao.html 2011 census result]
+|-
+|192
+|align=left|{{VCT}}
+|109,000
+|July 1, 2013
+|{{#expr: 109000/{{worldpop}}*100 round 4}}%
+|align=left|UN estimate
+|-
+|193
+|align=left|{{KIR}}
+|106,461
+|July 1, 2013
+|{{#expr: 106461/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|194
+|align=left|''{{VIR}}'' ([[United States|USA]])
+|106,405
+|April 1, 2010
+|{{#expr: 106405/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn180.html Final 2010 census result]
+|-
+|195
+|align=left|{{GRD}}
+|103,328
+|May 12, 2011
+|{{#expr: 103328/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.geohive.com/cntry/grenada.aspx 2011 census result]
+|-
+|196
+|align=left|{{TON}}
+|103,036
+|November 30, 2011
+|{{#expr: 103036/{{worldpop}}*100 round 4}}%
+|align=left|[http://unstats.un.org/unsd/demographic/sources/census/2010_PHC/Tonga/release.pdf 2011 census result]
+|-
+|197
+|align=left|''{{ABW}}'' ([[Netherlands]])
+|101,484
+|September 29, 2010
+|{{#expr: 101484/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.cbs.aw/cbs/readBlob.do?id=4199 2010 census result]
+|-
+|198
+|align=left|{{FSM}}
+|101,351
+|July 1, 2013
+|{{#expr: 101351/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|199
+|align=left|''{{JEY}}'' ([[United Kingdom|UK]])
+|97,857
+|March 27, 2011
+|{{#expr: 97857/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.gov.je/SiteCollectionDocuments/Government%20and%20administration/R%20CensusBulletin1%2020111208%20SU.pdf 2011 census result]
+|-
+|200
+|align=left|{{SYC}}
+|90,945
+|August 26, 2010
+|{{#expr: 90945/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.nbs.gov.sc/archives/82 Final 2010 census result]
+|-
+|201
+|align=left|{{ATG}}
+|86,295
+|May 27, 2011
+|{{#expr: 86295/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.citypopulation.de/Antigua.html Preliminary 2011 census result]
+|-
+|202
+|align=left|''{{IMN}}'' ([[United Kingdom|UK]])
+|84,497
+|March 27, 2011
+|{{#expr: 84497/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.citypopulation.de/IsleOfMan.html 2011 census result]
+|-
+|203
+|align=left|{{AND}}
+|76,246
+|July 1, 2012
+|{{#expr: 76246/{{worldpop}}*100 round 4}}%
+|align=left|[http://www.estadistica.ad/serveiestudis/web/banc_dades4.asp?tipus_grafic=&bGrafic=&formules=inici&any1=01/01/2000&any2=01/01/2012&codi_divisio=8&lang=1&codi_subtemes=8&codi_tema=2&chkseries= Annual official estimate]
+|-
+|204
+|align=left|{{DMA}}
+|71,293
+|May 14, 2011
+|{{#expr: 71293/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.dominica.gov.dm/cms/files/2011_census_report.pdf Preliminary 2011 census result]
+|-
+|205
+|align=left|''{{BMU}}'' ([[United Kingdom|UK]])
+|64,237
+|May 20, 2010
+|{{#expr: 64237/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.gov.bm/portal/server.pt/gateway/PTARGS_0_2_980_227_1014_43/http%3B/ptpublisher.gov.bm%3B7087/publishedcontent/publish/cabinet_office/statistics/dept___statistics___additonal_files/2012_facts___figures_0.pdf Final 2010 census result]
+|-
+|206
+|align=left|''{{GGY}}'' ([[United Kingdom|UK]])
+|62,431
+|March 31, 2010
+|{{#expr: 62431/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.gov.gg/CHttpHandler.ashx?id=5506&p=0 Annual official estimate]
+|-
+|207
+|align=left|''{{GRL}}'' ([[Denmark]])
+|56,370
+|January 1, 2013
+|{{#expr: 56370/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.stat.gl/dialog/main.asp?lang=en&theme=Population&link=BE Annual official estimate]
+|-
+|208
+|align=left|{{MHL}}
+|56,086
+|July 1, 2013
+|{{#expr: 56086/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|209
+|align=left|''{{ASM}}'' ([[United States|USA]])
+|55,519
+|April 1, 2010
+|{{#expr: 55519/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn177.html Final 2010 census result]
+|-
+|210
+|align=left|''{{CYM}}'' ([[United Kingdom|UK]])
+|55,456
+|October 10, 2010
+|{{#expr: 55456/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.eso.ky/pages.php?page=2010censusofpopulationandhousingfinalreport Final 2010 census result]
+|-
+|211
+|align=left|{{KNA}}
+|54,000
+|July 1, 2013
+|{{#expr: 54000/{{worldpop}}*100 round 5}}%
+|align=left|UN estimate
+|-
+|212
+|align=left|''{{MNP}}'' ([[United States|USA]])
+|53,883
+|April 1, 2010
+|{{#expr: 53883/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn178.html Final 2010 census result]
+|-
+|213
+|align=left|''{{FRO}}'' ([[Denmark]])
+|48,509
+|August 1, 2013
+|{{#expr: 48244/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.hagstova.fo/portal/page/portal/HAGSTOVAN/Statistics_%20Faroe_Islands Monthly official estimate]
+|-
+|214
+|align=left|''{{SXM}}'' ([[Netherlands]])
+|37,429
+|January 1, 2010
+|{{#expr: 37429/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.citypopulation.de/SintMaarten.html Official estimate]
+|-
+|215
+|align=left|''{{MAF}}'' ([[France]])
+|36,979
+|January 1, 2010
+|{{#expr: 36979/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2010 Official estimate]
+|-
+|216
+|align=left|{{LIE}}
+|36,842
+|December 31, 2012
+|{{#expr: 36842/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.llv.li/amtsstellen/llv-as-bevoelkerung/llv-as-bevoelkerung-bevoelkerungsstatistik_per_31_dezember-vorlaeufig.htm Annual official estimate]
+|-
+|217
+|align=left|{{MCO}}
+|36,136
+|December 31, 2012
+|{{#expr: 36136/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.monacostatistics.mc/News/Official-population-on-December-31-2012 Annual official estimate]
+|-
+|218
+|align=left|{{SMR}}
+|32,509
+|September 30, 2013
+|{{#expr: 32509/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.statistica.sm/on-line/home/dati-statistici/popolazione.html# Monthly official estimate]
+|-
+|219
+|align=left|''{{TCA}}'' ([[United Kingdom|UK]])
+|31,458
+|January 25, 2012
+|{{#expr: 31458/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.citypopulation.de/TurksCaicos.html 2012 census result]
+|-
+|220
+|align=left|''{{GIB}}'' ([[United Kingdom|UK]])
+|29,752
+|July 1, 2011
+|{{#expr: 29752/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.gibraltar.gov.gi/images/stories/PDF/statistics/Key_Indicators_Website.pdf Annual official estimate]
+|-
+|221
+|align=left|''{{VGB}}'' ([[United Kingdom|UK]])
+|29,537
+|July 1, 2010
+|{{#expr: 29537/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.dpu.gov.vg Annual official estimate]
+|-
+|222
+|align=left|''{{ALA}}'' ([[Finland]])
+|28,502
+|December 31, 2012
+|{{#expr: 28502/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.asub.ax/start.con?iLan=2 Official estimate]
+|-
+|223
+|align=left|''{{BES}}'' ([[Netherlands]])
+|23,296
+|January 1, 2013
+|{{#expr: 21133/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.citypopulation.de/NedAntillen.html Official estimate]
+|-
+|224
+|align=left|{{PLW}}
+|20,901
+|July 1, 2013
+|{{#expr: 20901/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|225
+|align=left|''{{COK}}'' ([[New Zealand|NZ]])
+|14,974
+|December 1, 2011
+|{{#expr: 14974/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.mfem.gov.ck/docs/Stats/2012/Census/2011%20Cook%20Islands%20Population%20Census%20Report.pdf Final 2011 census result]
+|-
+|226
+|align=left|''{{AIA}}'' ([[United Kingdom|UK]])
+|13,452
+|May 11, 2011
+|{{#expr: 13452/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.citypopulation.de/Anguilla.html Preliminary 2011 census result]
+|-
+|227
+|align=left|''{{WLF}}'' ([[France]])
+|13,135
+|July 1, 2013
+|{{#expr: 13135/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|228
+|align=left|{{TUV}}
+|11,323
+|July 1, 2013
+|{{#expr: 11323/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.spc.int/sdp/index.php?option=com_docman&task=doc_download&gid=158&Itemid=42&lang=en Annual official estimate]
+|-
+|229
+|align=left|{{NRU}}
+|9,945
+|October 30, 2011
+|{{#expr: 9945/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.citypopulation.de/Nauru.html 2011 census result]
+|-
+|230
+|align=left|''{{BLM}}'' ([[France]])
+|8,938
+|January 1, 2010
+|{{#expr: 8938/{{worldpop}}*100 round 5}}%
+|align=left|[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2010 Official estimate]
+|-
+|231
+|align=left|''{{SPM}}'' ([[France]])
+|6,081
+|January 1, 2010
+|0.0000{{#expr: 6081/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.insee.fr/fr/ppp/bases-de-donnees/recensement/populations-legales/france-departements.asp?annee=2010 Official estimate]
+|-
+|232
+|align=left|''{{MSR}}'' ([[United Kingdom|UK]])
+|4,922
+|May 12, 2011
+|0.0000{{#expr: 4922/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.gov.ms/wp-content/uploads/2011/02/Montserrat-At-A-Glance.pdf 2011 census result]
+|-
+|233
+|align=left|''{{SHN}}'' ([[United Kingdom|UK]])
+|4,000
+|July 1, 2013
+|0.0000{{#expr: 4000/{{worldpop}}*100*1000000 round 0}}%
+|align=left|UN estimate
+|-
+|234
+|align=left|''{{SJM}}'' ([[Norway]])
+|2,655
+|September 1, 2012
+|0.0000{{#expr: 2655/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.citypopulation.de/Svalbard.html Official estimate]
+|-
+|235
+|align=left|''{{FLK}}'' ([[United Kingdom|UK]])
+|2,563
+|April 15, 2012
+|0.0000{{#expr: 2563/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.falklands.gov.fk/our-people 2012 census result]
+|-
+|236
+|align=left|''{{NFK}}'' ([[Australia]])
+|2,302
+|August 9, 2011
+|0.0000{{#expr: 2302/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://unstats.un.org/unsd/demographic/sources/census/2010_PHC/Norfolk_Island/report.pdf 2011 census result]
+|-
+|237
+|align=left|''{{CXR}}'' ([[Australia]])
+|2,072
+|August 9, 2011
+|0.0000{{#expr: 2072/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.citypopulation.de/Australia-Agglo.html 2011 census result]
+|-
+|238
+|align=left|''{{NIU}}'' ([[New Zealand|NZ]])
+|1,613
+|September 10, 2011
+|0.0000{{#expr: 1613/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.citypopulation.de/Niue.html Final 2011 census result]
+|-
+|239
+|align=left|''{{TKL}}'' ([[New Zealand|NZ]])
+|1,411
+|October 18, 2011
+|0.0000{{#expr: 1411/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://unstats.un.org/unsd/demographic/sources/census/2010_PHC/Tokelau/report.pdf Final 2011 census result]
+|-
+|240
+|align=left|{{VAT}}
+|800
+|July 1, 2012
+|0.0000{{#expr: 800/{{worldpop}}*100*1000000 round 0}}%
+|align=left|[http://www.vaticanstate.va/content/vaticanstate/es/stato-e-governo/note-generali/popolazione.html Official estimate]
+|-
+|241
+|align=left|''{{CCK}}'' ([[Australia]])
+|550
+|August 9, 2011
+|0.00000{{#expr: 550/{{worldpop}}*100*10000000 round 0}}%
+|align=left|[http://www.citypopulation.de/Australia-Agglo.html 2011 census result]
+|-
+|242
+|align=left|''{{PCN}}'' ([[United Kingdom|UK]])
+|56
+|February 1, 2013
+|0.000000{{#expr: 56/{{worldpop}}*100*100000000 round 0}}%
+|align=left|[http://www.citypopulation.de/Pitcairn.html Official estimate]
+|}
