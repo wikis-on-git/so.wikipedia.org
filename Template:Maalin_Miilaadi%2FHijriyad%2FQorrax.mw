@@ -2,15 +2,15 @@
 <!-- Header 
 --><div style="background: #aaa; font-size: 130%; color: #f9f9f9;">'''[[Maanta|<span style="color: #f9f9f9;">Maanta</span>]] waa '''</div>
 '''<div style="width:100%">[[{{CURRENTDAYNAME}}|<font color=black>{{CURRENTDAYNAME}}</font>]]</div>'''
-{{#time:  [[j F]]
+{{#time:  j [[F]]
 
-[[Y]][[Kalandar|M]]
+[[Y]]}} [[Miilaadi|M]]
 ----
-[[:xmj xmF|xmj xmF]]
+{{#time:  [[xmj xmF]]
 
-[[xmY H]]
+[[xmY]]}} H
 ----
-[[:xij {{xiF}}|xij {{xiF}}]]
-[[{{#time:xiY}} (H SH)]]
-}}</div>
+{{#time:  [[xij xiF]]
+
+[[xiY]]}} SH</div>
 <noinclude>[[Category:Kalandar]]</noinclude>
