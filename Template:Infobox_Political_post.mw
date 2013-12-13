@@ -41,7 +41,7 @@
          -->}}
 |label2  = Qaybta
 |data2   = {{{department|}}}
-|label3  = [[Style (manner of address)|Style]]
+|label3  = [[Maamuus]]
 |data3   = {{{style|}}}
 |label4  = [[Xarunta|Xarunta]]
 |data4   = {{{residence|}}}
@@ -55,9 +55,9 @@
          -->{{#if:{{{appointerpost|}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
           }}
-|label7  = [[Mudada xilka]]
+|label7  = [[Muddada xilka]]
 |data7   = {{{termlength|}}}
-|label8  = Xilka kala wareegay
+|label8  = Xilka soo bilaabay
 |data8   = {{{inaugural|}}}
 |label9  = La aas aasay
 |data9   = {{{formation|}}}
