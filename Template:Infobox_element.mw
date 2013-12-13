@@ -1,27 +1,26 @@
-<!-- Example is 82 Lead -->{| class="infobox bordered" cellpadding=2 cellspacing=0 style="border: 1px solid #aaa; background-color: #f9f9f9; color: black; margin: 0.5em 0 0.5em 1em; padding: 0.2em; float: right; clear: right; line-height: 1.5em; font-size:88%; width:22em; text-align:left"
-! colspan=2 style="font-size:130%; {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | {{ucfirst:{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}}
-|-
-| colspan=2 | <!-- Z(sub)Symbol notation --><div title="atomic number Z={{{number|}}}; symbol={{{symbol|}}}" style="text-align:center; border:none; font-size:130%;">'''<sub><span style="font-size:smaller">{{{number|{{main other||00}}}}}</span></sub>{{#switch:{{{symbol}}}|#default={{{symbol|{{main other||Xx}}}}}|Nt [not official]=Nt}}'''</div>
+{| class="infobox bordered" border=1 cellpadding=2 cellspacing=0 style="width:22em; text-align:left"
+|- <!-- TITLE -->
+! colspan="2" {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|{{PAGENAME}}}}}}}| headerstitle={{{headerstitle|}}} | style=font-size:130%; }} | {{ucfirst:{{{name|{{PAGENAME}}}}}}}
+|- <!-- Z(sub)Symbol notation -->
+| colspan=2 title="atomic number Z={{{number|}}}; symbol={{{symbol|}}}" style="text-align:center; border:none; font-size:130%;" | '''<sub><span style="font-size:smaller"> {{{number|00}}}</span></sub>{{{symbol|Xx}}}'''
 |- <!-- PERIODIC TABLE -->
-| colspan=2 | <!-- box with periodic table -->
-{| width=100% cellspacing=0 cellpadding=0 border=1 style="text-align:center; padding-top:2px;"
+| colspan=2 | <!-- box with periodic table (2x2 table); outer table for the border -->
+{|  class="wikitable" cellspacing=0 cellpadding=0 style="text-align:center; width:100%; margin:0; border-width:1px; background:{{element color|table bg}};"
 |-
-| style="width:10px; vertical-align:middle; border:none; font-size:88%; line-height:100%; padding:2px;" | {{{above}}}<br />↑<br /><span style="font-size:110%; line-height:110%;">'''{{{symbol}}}'''</span><br />↓<br />{{{below}}}
-| style="border:none" |
-<!-- start inner box (actual table) -->
-{| width:10px; cellspacing=0 cellpadding=0 border=0 style="border:none;"
-| style="width:10px; border:none; padding:0; margin:0;" | <div style="position:relative; border:none">
-{{NavPeriodicTable|number={{{number|0}}}}}
-<div style="border:none; position:absolute; top:2px; left:80px; font-size:88%;">[[Periodic table]]</div>
-|}<!-- end inner box with graphs -->
-| style="width:*; border:none;" | <!-- filler, 3rd column -->
+|
+{| class="wikitable" cellspacing=0 cellpadding=0 style="text-align:center; margin:0 auto; background:transparent; border:none;"
 |-
-| style="border:none" |
-| style="width:10px; border:none; font-size:88%;" class="nowrap" | {{{left}}} ← <span style="font-size:110%; line-height:110%;">'''[[{{#ifeq:{{ucfirst:{{{symbol|}}}}}|Hg|Mercury&nbsp;(element){{!}}}}{{#if:{{{name|}}}|{{{name}}}|{{FULLPAGENAME}}}}]]'''</span> → {{{right}}}
-|}<!-- end of periodic table box -->
+| style="border:none; width:10px" | {{NavPeriodicTable|number={{{number|0}}}}}
+| style="vertical-align:middle; text-align:center; font-size:90%; line-height:100%;  width:10px; border:none;" | {{{above}}}<br />↑<br /><span style="font-size:110%; line-height:110%;">'''{{{symbol}}}'''</span><br />↓<br />{{{below}}}
+|-
+| colspan=2 class="nowrap" style="text-align:center; font-size:90%; line-height:100%; padding-top:0; padding-bottom:1px; border:none;" | {{{left}}} ← <span style="font-size:110%; line-height:110%;">'''[[{{#ifeq:{{lc:{{{name|x}}}}}|mercury|Mercury (element){{!}}}}{{{name|}}}]]'''</span> → {{{right}}}
+|}
+|}
+|-
+| colspan=2 style="text-align:center; font-size:90%; line-height:100%; border:none;" | {{ucfirst:{{{name|Curiyaha}}}}} qaab liis ah
 |- <!-- APPEARANCE -->
 {{#if: {{{appearance|}}}{{{image name|}}}{{{image name comment|}}}{{{image name 2 comment|}}}<noinclude>show</noinclude>|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} Muuqaalka
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Muuqaalka
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}}<!--
  -->{{{appearance|}}}<!--
@@ -31,40 +30,43 @@
  -->{{#if:{{{image name 2 comment|}}}|<br />{{{image name 2 comment}}}|}}
 }}
 |- <!-- GENERAL PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Wax yaabaha u gaarka ah
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} | Astaamaha guud
 |-
-! Magac, [[Sumad]], [[Tiro Atom]]
+! Magac, [[Sumad kiimikeed|sumad]], [[Tiro atam|tiro]]
 | {{{name}}}, {{{symbol}}}, {{{number}}}
 |-
 {{#if:{{{pronounce|}}}|
-! Loogu dhawaaqo
+! Pronunciation
 {{!}} {{{pronounce}}}
 }}
 |-
 {{#if:{{{series|}}}{{{series comment|}}}|
-! [[Qaybta walxaha|Walxaha]]
+! [[Collective names of groups of like elements|Element category]]
 {{!}} {{#ifeq: {{{series|}}}|noble gas|[[{{{series}}}]]es|{{#ifeq: {{lc:{{{series|}}}}}|unknown|unknown|[[{{{series}}}]]}}}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}
 }}{{#if:{{{series comment|}}}| {{#if:{{{series|}}} |<br />|}}{{{series comment|}}} }}
 |-
-! [[Qaybta]], [[Jadwalka Curiyayaasha|Heerka]], [[Faraca]]
-| {{#switch:{{{series}}} |lanthanide|lanthanides|actinide|actinides=[[Group number of lanthanides and actinides|n/a]],&nbsp; |[[group {{{group}}} element|{{{group}}}]],&nbsp;}}[[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
+! [[Uruu (kimistari|urur]], [[Kaltan]], [[block (periodic table)|block]]
+| <noinclude>{{{group}}}</noinclude><includeonly>{{infobox element/group|group={{{group|}}}|series={{{series|}}}|number={{{number|}}}|predicted={{{predicted|no}}}}}</includeonly>, [[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
 |-
-! [[Cufka atomka|Cufka Atomka]]
+! [[Culays atam]]
 | {{#if:{{{atomic mass comment|}}}|{{{atomic mass comment}}}|{{{atomic mass}}}{{#if:{{{atomic mass 2|}}}|({{{atomic mass 2}}})}}}}
 |- <!-- electron configuration -->
-! [[Fal galid]]
+! [[Ratibaad elektaroon]]
 | {{{electron configuration}}}<br />{{{electrons per shell}}}
-{{#ifexist: Media:Electron shell {{padleft:{{{number|{{template other|82}}}}}|3|0}} {{ucfirst:{{{name|{{template other|lead}}}}}}} - no label.svg | <div style="border:0; margin:0 auto;">[[File:Electron shell {{padleft:{{{number|82}}}|3|0}} {{ucfirst:{{{name|lead}}}}} - no label.svg|153px|Electron shells of {{{name|lead}}}{{#if:{{{electrons per shell|}}}|&#x20;({{{electrons per shell|}}})}}|center]]</div>|[[Category:Infobox element missing image|{{PAGENAME}}]]}}
-|- <!-- Taariikh -->
-{{#if:{{{predicted by|}}}{{{prediction date |}}}{{{discovered by|}}}{{{discovery date|}}}{{{first isolation by|}}}{{{first isolation date|}}}{{{named by|}}}{{{named date|}}}{{{history comment|}}}|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} History }}
+|- <!-- HISTORY -->
+{{#if:{{{naming|{{{etymology|}}}}}}{{{predicted by|}}}{{{prediction date |}}}{{{discovered by|}}}{{{discovery date|}}}{{{first isolation by|}}}{{{first isolation date|}}}{{{named by|}}}{{{named date|}}}{{{history comment|}}}|
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} History }}
+|-
+{{#if:{{{naming|{{{etymology|}}}}}}|
+! Naming
+{{!}} {{{naming|{{{etymology|}}}}}} }}
 |-
 {{#if:{{{predicted by|}}}{{{prediction date|}}}|
 ! Prediction
 {{!}} {{{predicted by|}}} {{#if:{{{prediction date|}}}| {{nowrap| {{#if:{{{predicted by|}}} | &#x20;({{{prediction date|}}}) | {{{prediction date|}}} }} }} }} }}
 |-
 {{#if:{{{discovered by|}}}{{{discovery date|}}}|
-! [[Helidda walxaha kimikada|Helay]]
+! [[Discoveries of the chemical elements|Discovery]]
 {{!}} {{{discovered by|}}} {{#if:{{{discovery date|}}}| {{nowrap| {{#if:{{{discovered by|}}} | &#x20;({{{discovery date|}}}) | {{{discovery date|}}} }} }} }} }}
 |-
 {{#if:{{{first isolation by|}}}{{{first isolation date|}}}|
@@ -72,14 +74,14 @@
 {{!}} {{{first isolation by|}}} {{#if:{{{first isolation date|}}}| {{nowrap| {{#if:{{{first isolation by|}}} | &#x20;({{{first isolation date|}}}) | {{{first isolation date|}}} }} }} }} }}
 |-
 {{#if:{{{named by|}}}{{{named date|}}}|
-! Magac daray {{#if:{{{named by|}}}|by}}
+! Named {{#if:{{{named by|}}}|by}}
 {{!}} {{{named by|}}} {{#if:{{{named date|}}}| {{nowrap| {{#if:{{{named by|}}} | &#x20;({{{named date|}}}) | {{{named date|}}} }} }} }} }}
 |-
 {{#if:{{{history comment label|}}}{{{history comment|}}}|
 ! {{{history comment label|}}}
 {{!}} {{{history comment|}}} }}
 |- <!-- PHYSICAL PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Calaamadaha Fisigiska
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} | Astaamaha fiisikista
 |-
 {{#if:{{{physical properties|}}}|
 {{!}} colspan=2 style="text-align:center;" {{!}} {{{physical properties|}}}
@@ -91,72 +93,72 @@
 }}
 |-
 {{#if:{{{phase|}}}|
-! [[xaalad (maado)|xaalad]]
+! [[Phase (matter)|Phase]]
 {{!}} {{#ifeq:{{lc:{{{phase|}}}}}|unknown|unknown|[[{{{phase}}}]]}}{{#if:{{{phase comment|}}}|{{#if:{{{phase|}}}|&#x20;|}}{{{phase comment}}} }}
 }}
 |-
 {{#if:{{{density gplstp|}}}|
-! [[Cuf]]
+! [[Density]]
 {{!}} (0 °C, 101.325 [[pascal (unit)|kPa]])<br />{{{density gplstp}}} g/L
 {{!}}-
 }}
 {{#if:{{{density gpcm3nrt|}}}|
-! [[Density]] (near [[room temperature|r.t.]])
+! [[Density]] {{nowrap|(near [[room temperature|r.t.]])}}
 {{!}} {{{density gpcm3nrt}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3nrt 2|}}}|
-! [[Density]] (near [[room temperature|r.t.]])
+! [[Density]] {{nowrap|(near [[room temperature|r.t.]])}}
 {{!}} {{{density gpcm3nrt 2}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3nrt 3|}}}|
-! [[Density]] (near [[room temperature|r.t.]])
+! [[Density]] {{nowrap|(near [[room temperature|r.t.]])}}
 {{!}} {{{density gpcm3nrt 3}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3mp|}}}|
-! Dareere [[Cuf]] ee [[Xaalad dhalaal|X.Dh.]]
+! Liquid [[density]] at [[melting point|m.p.]]
 {{!}} {{{density gpcm3mp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3bp|}}}|
-! Dareere [[Cuf]] ee [[Xaalad Karkar|x.k.]]
+! Liquid [[density]] at {{nowrap|[[boiling point|b.p.]]}}
 {{!}} {{{density gpcm3bp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{melting point K|}}}{{{melting point C|}}}{{{melting point F|}}}|
-! [[Xaalad dhalaal]]
+! [[Melting point|Melting&nbsp;point]]
 {{!}} {{#if:{{{melting point pressure|}}}|({{{melting point pressure}}})&nbsp;}}{{#if:{{{melting point K|}}}|{{{melting point K}}}&nbsp;[[kelvin|K]]{{#if:{{{melting point C|}}}{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point C|}}}|{{{melting point C}}}&nbsp;°C{{#if:{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point F|}}}|{{{melting point F}}}&nbsp;°F|}}
 {{!}}-
 }}
 {{#if:{{{sublimation point K|}}}{{{sublimation point C|}}}{{{sublimation point F|}}}|
-! [[Sublimation point]]
+! [[Sublimation point|Sublimation&nbsp;point]]
 {{!}} {{#if:{{{sublimation point pressure|}}}|({{{sublimation point pressure}}})&nbsp;}}{{#if:{{{sublimation point K|}}}|{{{sublimation point K}}}&nbsp;K{{#if:{{{sublimation point C|}}}{{{sublimation point F|}}}|, |}}|}}{{#if:{{{sublimation point C|}}}|{{{sublimation point C}}}&nbsp;°C{{#if:{{{sublimation point F|}}}|, |}}|}}{{#if:{{{sublimation point F|}}}|{{{sublimation point F}}}&nbsp;°F|}}
 {{!}}-
 }}
 {{#if:{{{boiling point K|}}}{{{boiling point C|}}}{{{boiling point F|}}}|
-! [[Xaalad karkar]]
+! [[Boiling point|Boiling&nbsp;point]]
 {{!}} {{#if:{{{boiling point pressure|}}}|({{{boiling point pressure}}})&nbsp;}}{{#if:{{{boiling point K|}}}|{{{boiling point K}}}&nbsp;K{{#if:{{{boiling point C|}}}{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point C|}}}|{{{boiling point C}}}&nbsp;°C{{#if:{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point F|}}}|{{{boiling point F}}}&nbsp;°F|}}
 {{!}}-
 }}
 {{#if:{{{triple point K|}}}|
-! [[Bar seddex jibaaran]]
-{{!}} {{{triple point K}}}&nbsp;K&nbsp;({{#expr: {{{triple point K}}}-273.16 round 0}}°C),&nbsp;{{{triple point kPa}}}&nbsp;kPa
+! [[Triple point|Triple&nbsp;point]]
+{{!}} {{{triple point K}}}&nbsp;K<!--({{#expr: {{{triple point K}}}-273.16 round 0}}°C)-->, {{{triple point kPa}}}&nbsp;kPa
 {{!}}-
 }}
 {{#if:{{{critical point K|}}}|
-! [[Ismari waa]]
+! [[Critical point (thermodynamics)|Critical&nbsp;point]]
 {{!}} {{{critical point K}}} K, {{{critical point MPa}}} MPa
 {{!}}-
 }}
 {{#if:{{{heat fusion|}}}|
-! [[Heer kulka dhalaalka]]
+! [[Enthalpy of fusion|Heat&nbsp;of&nbsp;fusion]]
 {{!}} {{#if:{{{heat fusion pressure|}}}|({{{heat fusion pressure}}})&nbsp;}}{{{heat fusion}}} [[kilojoule per mole|kJ·mol<sup>−1</sup>]]
 {{!}}-
 }}
 {{#if:{{{heat fusion 2|}}}|
-! [[Heer kulka uumiga]]
+! [[Enthalpy of fusion|Heat&nbsp;of&nbsp;fusion]]
 {{!}} {{#if:{{{heat fusion pressure|}}}|({{{heat fusion pressure}}})&nbsp;}}{{{heat fusion 2}}} kJ·mol<sup>−1</sup>
 {{!}}-
 }}
@@ -166,12 +168,12 @@
 {{!}}-
 }}
 {{#if:{{{heat capacity|}}}|
-! [[Qaadka heer kulka Mol|H K M]]
+! [[Molar heat capacity]]
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{heat capacity 2|}}}|
-! [[Qaadka heer kulka Mol|H K M]]
+! [[Molar heat capacity]]
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity 2}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
@@ -223,14 +225,14 @@
 {{!}}}
 }}
 |- <!-- ATOMIC PROPERTIES -->
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | Xaaladaha Atomka
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} | Astaamaha atamka
 |-
 {{#if:{{{atomic properties|}}}|
 {{!}} colspan=2 style="text-align:center;" {{!}} {{{atomic properties|}}}
 }}
 |-
 {{#if:{{{oxidation states|}}}|
-! [[Xaalad daxal]]
+! [[Oxidation state]]s
 {{!}} {{{oxidation states}}}{{#if:{{{oxidation states comment|}}}|<br />({{{oxidation states comment}}})}}
 {{!}}-
 }}
@@ -276,22 +278,22 @@
 {{!}}-
 }}
 {{#if:{{{covalent radius|}}}|
-! [[Covalent Gacan]]
+! [[Covalent radius]]
 {{!}} {{{covalent radius}}} pm{{#if:{{{covalent radius comment|}}}|<br />{{{covalent radius comment}}}}}
 {{!}}-
 }}
 {{#if:{{{Van der Waals radius|}}}|
-! [[Van der Waals Gacan]]
+! [[Van der Waals radius]]
 {{!}} {{{Van der Waals radius}}} pm
 }}
 |- <!-- MISCELLANEA -->
 {{#if:{{{CAS number|}}}|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} Miscellanea
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Miscellanea
 {{!}}-
 }}
 |-
 {{#if:{{{crystal structure|}}}{{{crystal structure comment|}}}|
-! [[La iska arko]]
+! [[Crystal structure]]
 {{!}} {{Infobox element/crystal structure wikilink|{{{crystal structure|}}}}}{{{crystal structure ref|}}}
 <div style="float:right; border:none;">{{#ifexist:Media:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}| [[File:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}|50px|{{ucfirst: {{{name}}}}} has a {{{crystal structure}}} crystal structure]]}}</div>{{#if:{{{crystal structure comment|}}}|{{#if:{{{crystal structure|}}}|<br />{{clear}}}}{{{crystal structure comment|}}}}}
 }}
@@ -303,7 +305,7 @@
 }}
 |-
 {{#if:{{{magnetic ordering|}}}|
-! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[Magnad|Magnad]]
+! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[magnetism|Magnetic ordering]]
 {{!}} {{{magnetic ordering}}}
 {{!}}-
 }}
@@ -327,7 +329,7 @@
 {{!}}-
 }}
 {{#if:{{{thermal conductivity|}}}|
-! [[Kul gaarsiiye]]
+! [[Thermal conductivity]]
 {{!}} {{{thermal conductivity}}}&nbsp;W·m<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
@@ -352,7 +354,7 @@
 {{!}}-
 }}
 {{#if:{{{speed of sound|}}}|
-! [[Xawaaraha codka]]
+! [[Speed of sound]]
 {{!}} {{{speed of sound}}} [[metre per second|m·s<sup>−1</sup>]]
 {{!}}-
 }}
@@ -362,7 +364,7 @@
 {{!}}-
 }}
 {{#if:{{{speed of sound rod at r.t.|}}}|
-! [[Xawaaraha codka]] (thin rod)
+! [[Speed of sound]] (thin rod)
 {{!}} ([[room temperature|r.t.]]) {{{speed of sound rod at r.t.}}}&nbsp;m·s<sup>−1</sup>
 {{!}}-
 }}
@@ -412,7 +414,7 @@
 {{!}}-
 }}
 {{#if:{{{CAS number|}}}|
-! [[CAS Diiwaanka]]
+! [[CAS registry number]]
 {{!}} {{{CAS number}}}
 {{!}}-
 }}
@@ -422,20 +424,20 @@
 }}
 |- <!-- ISOTOPES -->
 {{#if:{{{isotopes|}}}|
-! colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" {{!}} isotobi aad u neg
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Most stable isotopes
 {{!}}-
 {{hide in print|1=
-{{!}} colspan=2 style="text-align: center" {{!}} Bogga: [[Isotobi ee {{{name}}}]]
+{{!}} colspan=2 style="text-align: center" {{!}} Main article: [[Isotopes of {{{name}}}]]
 {{!}}-
 }}
 {{!}} colspan=2 {{!}}
 {{{!}} class="wikitable" style="text-align: center; width: 100%; border-collapse: collapse; margin:0;"
 ! [[isotope{{!}}iso]]
-! [[Badnaanta dabeecada{{!}}BD]]
-! [[Jiritaanka-cumriga|JC]]
-! [[Hab liic{{!}}HL]]
-! [[Tamar liic{{!}}TL]] <small>([[electronvolt{{!}}MeV]])</small>
-! [[Soo saar xumo{{!}}SX]]
+! [[natural abundance{{!}}NA]]
+! [[half-life]]
+! [[decay mode{{!}}DM]]
+! [[decay energy{{!}}DE]] <small>([[electronvolt{{!}}MeV]])</small>
+! [[decay product{{!}}DP]]
 {{{isotopes}}}
 {{#if:{{{isotopes comment|}}}|
 {{!}}-
@@ -443,6 +445,10 @@
 {{!}}}
 }}
 |- <!-- FOOTER -->
-| colspan=2 style="{{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}} }}" | {{navbar|Infobox {{{name}}}|mini=1}}<span class="noprint plainlinks navbar"><span style="white-space: nowrap; word-spacing: -0.12em;"> <b>&middot;</b> [[List of data references for chemical elements|<span title="View references">r</span>]]</span></span>
-|}<noinclude>
-{{documentation}}<!-- place category and language links on the /documentation page, not here --></noinclude>
+| colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3=000000|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{{headerstitle|}}} }}<!-- font black-->| {{navbar|Infobox {{{name|&#x20;element}}}|mini=1}}<span class="noprint plainlinks navbar"><span style="white-space: nowrap;"> <b>·</b> [[List of data references for chemical elements|<span title="View references">ref</span>]]</span></span>
+|}<!--
+-->{{main other|{{#if:{{{series color|}}}|[[Category:Element infobox templates that need attention|S, {{{name|}}}]]}}<!--
+-->{{#if:{{{phase color|}}}|[[Category:Element infobox templates that need attention|P, {{{name|}}}]]}}|}}<!--
+--><noinclude>
+{{documentation}}
+</noinclude>
