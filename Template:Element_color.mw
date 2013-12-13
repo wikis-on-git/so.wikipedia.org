@@ -1,0 +1,140 @@
+{{#switch:{{lc:{{{1|}}}}}
+<!-- CATEGORY -->
+| alkali metal | alkali metals = &#x23;ff6666
+| alkaline earth metal | alkaline earth metals = &#x23;ffdead
+| rare earth metal | rare earth metals = &#x23;ffbffe<!-- 
+  REM: Available for introduction REM (replacing from Ln); same pink Ln color for now; Nov 2013
+  Changed the color by just one from ffbffF into ffbffE to technically track changes; user will see the same color. -->
+| lanthanide | lanthanides | lanthanoid | lanthanoids = &#x23;ffbfff
+| actinide | actinides | actinoid | actinoids = &#x23;ff99cc
+| transition metal | transition metals = &#x23;ffc0c0
+| poor metal | poor metals = &#x23;cccccc
+| metalloid | metalloids = &#x23;cccc99
+| polyatomic nonmetal | polyatomic nonmetals = &#x23;a1ffc3
+| diatomic nonmetal | diatomic nonmetals = &#x23;e7ff8f
+| noble gas | noble gases = &#x23;c0ffff
+| superactinide | superactinides = &#x23;d1ddff
+| eka-superactinide | eka-superactinides = &#x23;c6dd9d
+<!-- BORDER (FRAME) gives full setting: "2px solid #4499ff"-->
+| primordial = 2px solid &#x23;8811ff
+| from decay | natural radio = 2px dashed &#x23;773300
+| synthetic = 2px dotted &#x23;4499ff
+| undiscovered = none
+| none | see below (border) = none
+<!-- PHASE (fontcolor) -->
+| solid = &#x23;000000<!-- HTML black -->
+| liquid | liquids = &#x23;008000<!-- HTML green -->
+| gas | gases = &#x23;ff0000<!-- HTML red -->
+| unknownphase | unknown phase = &#x23;696969<!-- HTML dimgrey -->
+<!-- PHASE PREDICTED (fontcolor) currently same as their master color -->
+| solid (predicted) = &#x23;000000<!-- HTML black -->
+| liquid (predicted) | liquids (predicted) = &#x23;008000<!-- HTML green -->
+| gas (predicted) | gases (predicted) = &#x23;ff0000<!-- HTML red -->
+<!-- GENERIC -->
+| unknown | unk | unknown (white) = &#x23;ffffff
+| unknown chemical property | unknown chemical properties | unknown property | unknown properties= &#x23;e8e8e8
+<!-- STRAIGHT COLOR (HTML W3C color def) -->
+| white = &#x23;ffffff
+| black = &#x23;000000
+| red = &#x23;ff0000
+| yellow = &#x23;ffff00
+| blue = &#x23;0000ff
+| green = &#x23;008000
+<!-- TABLE colors -->
+| table1 | table title | table caption = &#x23;d8d8d8
+| table2 | table header = &#x23;e0e0e0
+| table3 | table colheader | table colh | table rowh | table rowheader | table subheader = &#x23;e8e8e8
+| table4 | table mark = &#x23;f0f0f0
+| table5 | table background | table bg = &#x23;f8f8f8
+| table0 | table border = &#x23;a9a9a9
+<!-- PREDICTED PROPERTY color, derived from main color -->
+| alkali metal (predicted) | alkali metals (predicted) = &#x23;d8bcbc
+| alkaline earth metal (predicted) | alkaline earth metals (predicted) = &#x23;ffecd3
+| superactinide (predicted) | superactinides (predicted) = &#x23;d1ddff<!-- same -->
+| eka-superactinide (predicted) | eka-superactinide (predicted) = &#x23;c6dd9d<!-- same -->
+| transition metal (predicted) | transition metals (predicted) = &#x23;ffe2e2
+| poor metal (predicted) | poor metals (predicted) = &#x23;d8d8d8
+| metalloid (predicted) | metalloids (predicted) = &#x23;e2e2aa
+| polyatomic nonmetal (predicted) | polyatomic nonmetals (predicted) = &#x23;d0ffe1
+| diatomic nonmetal (predicted) | diatomic nonmetals (predicted) = &#x23;f2ffc2
+| noble gas (predicted) | noble gases (predicted) = &#x23;ddffff
+<!-- BLOCK -->
+| s-block = &#x23;ff6699
+| g-block = &#x23;ffcc66
+| p-block = &#x23;99ccff
+| d-block = &#x23;ccff99
+| f-block = &#x23;66ffcc
+| s-block-p | s-block light | s-block (predicted) = &#x23;ffbbdd
+| g-block-p | g-block light | g-block (predicted) = &#x23;ffddaa
+| p-block-p | p-block light | p-block (predicted) = &#x23;cceeff
+| d-block-p | d-block light | d-block (predicted) = &#x23;ddffcc
+| f-block-p | f-block light | f-block (predicted) = &#x23;bbffee
+<!-- Categories, top level -->
+| metal | metals = &#x23;eee8aa
+| nonmetal | nonmetals | non-metal | non-metals = &#x23;b0e0e6
+| inner transition metals | inner transition metal = &#x23;d8bfd8
+<!-- ERA (discovery years) -->
+| antiquity to middle ages = &#x23;ffb9b9
+| before 1800 = &#x23;dfcdff
+| 1800 | 1800-1849 | 1800–1849 = &#x23;cbffb9
+| 1850 | 1850-1899 | 1850–1899 = &#x23;b9ffe4
+| 1900 | 1900-1949 | 1900–1949 = &#x23;ffe2b9
+| 1950 | 1950-1999 | 1950–1999 = &#x23;fff6b9
+| 2000 | 2000-present | 2000–present = &#x23;ffb9ef
+| future = &#x23;
+<!-- NUMBER -->
+| 0 | zero = &#x23;c0ffff
+| 1 | one = &#x23;ff8989
+| 2 | two = &#x23;ffdead
+| 3 | three = &#x23;ffbfff
+| 4 | four = &#x23;cccccc
+| 5 | five = &#x23;cccc99
+| 6 | six = &#x23;a0ffa0
+| 7 | seven = &#x23;ffff99
+| 8 | eight = &#x23;d1ddff
+| 9 | nine = &#x23;c6dd9d
+<!-- ARTICLE QUALITY grades -->
+| fa | aq-fa = &#x23;6699ff
+| a | aq-a = &#x23;66ffff
+| ga | aq-ga = &#x23;55cc55<!-- adjusted, from 66ff66-->
+| b | aq-b = &#x23;bcff66<!-- adjusted, from b2ff66 -->
+| c | aq-c = &#x23;ffff66
+| start | aq-start = &#x23;ffaa66
+| stub | aq-stub = &#x23;ff6666
+| list | aq-list = &#x23;aa88ff
+<!-- AQ nonstandard grades -->
+| bplus | b+ | aq-bplus = &#x23;66ff66
+| future | aq-future = &#x23;8a95c9<!-- error: "future" in era too -->
+| current | aq-current = &#x23;d462ff
+| disambig | aq-disambig = &#x23;00fa9a
+| na | aq-na = &#x23;f5f5f5
+| redirect | aq-redirect = &#x23;c0c0c0
+| book | aq-book = &#x23;98ff98
+| template | aq-template = &#x23;fbceb1
+| category | aq-category = &#x23;ffdb58
+| unassessed | aq-unassesed = transparent<!-- not: ffffff -->
+<!-- WP ARTICLE IMPORTANCE (template:Importance/colour) -->
+| top | imp-top = &#x23;ff00ff
+| high | imp-high = &#x23;ff88ff
+| mid | imp-mid = &#x23;ffbbff
+| low | imp-low = &#x23;ffddff
+| bottom | imp-bottom = &#x23;ffeeff
+| na | n/a = &#x23;f5f5f5
+| ??? | imp-unassessed =  &#x23;f9f9f9
+<!-- deprecated: /UnknownC, /veryreactive, /D /E /F /x? -->
+| x = &#x23;ffffff
+<!-- to be resolved -->
+| (see below) | (seebelow) | seebelow | see below = &#x23;f8f8f8<!-- likely misuse of bg color -->
+| other metals = black<!-- should not be used -->
+<!-- Deprecated August 2010 (introduction polyatomic, diatomic) -->
+| other nonmetal | other nonmetals = &#x23;a0ffa0
+| post-transition metal | post-transition metals = &#x23;cccccc
+| halogen | halogens = &#x23;ffff99
+| other nonmetal (predicted) | other nonmetals (predicted) = &#x23;d3ffd3
+| post-transition metal (predicted) | post-transition metals (predicted) = &#x23;d8d8d8
+| halogen (predicted) | halogens (predicted) = &#x23;ffffd6
+<!-- DEFAULT -->
+| #default={{{default|<!-- blank, transparent? -->}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
