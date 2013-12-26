@@ -1,0 +1,186 @@
+{{ infobox
+| class       = vcard
+| style       = {{if:{{{width|}}}|width: {{{width}}} }}
+| titleclass  = fn org
+| title       = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}} {{{symbol|}}}
+| image       = {{{image|}}}
+| caption     = {{{caption|}}}
+| headerstyle = {{#if:{{{background|}}}{{{bgcolour|}}}|background-color:{{{background|{{{bgcolour|}}}}}}}}
+
+| header1     = {{#if:{{{discoverer|}}}{{{discovery_site|}}}{{{discovered|}}}{{{discovery_method|}}}|Discovery{{#if:{{{discovery_ref|}}}|{{{discovery_ref}}} }}{{#if:{{{minorplanet|}}}|&nbsp;and designation}} }}
+
+| label2      = Discovered by
+| data2       = {{{discoverer|}}}
+| label3      = Discovery site
+| data3       = {{{discovery_site|}}}
+| label4      = Discovery date
+| data4       = {{{discovered|}}}
+| label5      = [[Methods of detecting extrasolar planets|Detection method]]
+| data5       = {{{discovery_method|}}}
+
+| header10    = {{#if:{{{designations|{{{mp_name|}}}{{{named_after|}}}{{{alt_names|}}}{{{mp_category|}}}{{{pronounce|}}}{{{pronounced|}}}{{{adjective|}}}{{{adjectives|}}}}}}|{{#if:{{{exosolar planets|}}}|[[Extrasolar planet#Nomenclature|Designations]]|Designations}} }}
+
+| label11     = [[Minor planet designation|MPC designation]]
+| data11      = {{{mp_name|}}}
+| label12     = Pronunciation
+| data12      = {{{pronounce|{{{pronounced|}}}|}}}
+| label13     = Named after
+| data13      = {{{named_after|}}}
+| label14     = [[Provisional designation in astronomy|Alternative names]]
+| data14      = {{{alt_names|}}}
+| label15     = Minor planet category
+| data15      = {{{mp_category|}}}
+| label16     = [[List of adjectivals and demonyms of astronomical bodies|Adjective]]
+| data16      = {{{adjectives|{{{adjective|}}}}}}
+
+| header20    = {{#if:{{{orbit_diagram|}}}{{{epoch|}}}{{{aphelion|}}}{{{perihelion|}}}{{{periapsis|}}}{{{apoapsis|}}}{{{semimajor|}}}{{{mean_orbit_radius|}}}{{{eccentricity|}}}{{{period|}}}{{{synodic_period|}}}{{{avg_speed|}}}{{{mean_anomaly|}}}{{{inclination|}}}{{{angular_dist|}}}{{{asc_node|}}}{{{long_periastron|}}}{{{time_periastron|}}}{{{arg_peri|}}}{{{semi-amplitude|}}}{{{satellite_of|}}}{{{satellites|}}}|[[Osculating orbit|Orbital characteristics]]{{#if:{{{orbit_ref|}}}|{{{orbit_ref}}} }} }}
+| data21      = {{{orbit_diagram|}}}
+| data22      = {{#if:{{{epoch|}}}|[[Epoch (astronomy)|Epoch]] {{{epoch}}}}}
+
+| label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Apsis|Apo{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]}}
+| data23      = {{{aphelion|}}}
+| label24     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]
+| data24      = {{{perihelion|}}}
+| label25     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]
+| data25      = {{{periapsis|}}}
+| label26     = {{#switch:{{{apsis}}}|helion|astron=[[Apsis|Ap{{{apsis}}}]]|[[Apsis|Apo{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]}}
+| data26      = {{{apoapsis|}}}
+| label27     = [[Semi-major axis]]
+| data27      = {{{semimajor|}}}
+| label28     = [[Radius|Mean orbit radius]]
+| data28      = {{{mean_orbit_radius|}}}
+| label29     = [[Orbital eccentricity|Eccentricity]]
+| data29      = {{{eccentricity|}}}
+| label30     = [[Orbital period]]
+| data30      = {{{period|}}}
+| label31     = [[Orbital period|Synodic period]]
+| data31      = {{{synodic_period|}}}
+| label32     = [[Orbital speed|Average orbital speed]]
+| data32      = {{{avg_speed|}}}
+| label33     = [[Mean anomaly]]
+| data33      = {{{mean_anomaly|}}}
+| label34     = [[Orbital inclination|Inclination]]
+| data34      = {{{inclination|}}}
+| label35     = [[Angular distance]]
+| data35      = {{{angular_dist|}}}
+| label36     = [[Longitude of the ascending node|Longitude of ascending node]]
+| data36      = {{{asc_node|}}}
+| label37     = [[Longitude of the periapsis|Longitude of]] [[Apsis|periastron]]
+| data37      = {{{long_periastron|}}}
+| label38     = [[Apsis|Time of periastron]]
+| data38      = {{{time_periastron|}}}
+| label39     = [[Argument of periapsis|Argument of peri{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]
+| data39      = {{{arg_peri|}}}
+| label40     = [[Amplitude|Semi-amplitude]]
+| data40      = {{{semi-amplitude|}}}
+| label41     = [[Natural satellite|Satellite of]]
+| data41      = {{{satellite_of|}}}
+| label42     = [[Natural satellite|Satellites]]
+| data42      = {{{satellites|}}}
+
+| header50    = {{#if:{{{p_semimajor|}}}{{{p_eccentricity|}}}{{{p_mean_motion|}}}{{{p_inclination|}}}{{{node_rate|}}}{{{perihelion_rate|}}}|[[Proper orbital elements]]{{#if:{{{p_orbit_ref|}}}|{{{p_orbit_ref}}} }} }}
+
+| label51     = Proper [[semi-major axis]]
+| data51      = {{#if:{{{p_semimajor|}}}|{{{p_semimajor}}} [[Astronomical unit|AU]]}}
+| label52     = Proper [[Orbital eccentricity|eccentricity]]
+| data52      = {{{p_eccentricity|}}}
+| label53     = Proper [[inclination]]
+| data53      = {{{p_inclination|}}}
+| label54     = Proper [[mean motion]]
+| data54      = {{#if:{{{p_mean_motion|}}}|{{{p_mean_motion}}} [[Degree (angle)|deg]]{{\}} [[Julian year (astronomy)|yr]]}}
+| label55     = Proper [[orbital period]]
+| data55      = {{#if:{{{p_mean_motion|}}}|{{#expr:360/{{{p_mean_motion|1}}} round 5}} [[Julian year (astronomy)|yr]]<br />({{#expr:365.25*360/{{{p_mean_motion|1}}} round 3}} [[day|d]]) }}
+| label56     = Precession of [[Apsis|perihelion]]
+| data56      = {{#if:{{{perihelion_rate|}}}|{{{perihelion_rate}}} [[Arcsecond|arcsec]]{{\}} [[Julian year (astronomy)|yr]] }}
+| label57     = Precession of the [[Longitude of the ascending node|ascending node]]
+| data57      = {{#if:{{{node_rate|}}}|{{{node_rate}}} [[Arcsecond|arcsec]]{{\}} [[Julian year (astronomy)|yr]]}}
+
+| header60    = {{#if:{{{dimensions|}}}{{{mean_radius|}}}{{{equatorial_radius|}}}{{{polar_radius|}}}{{{flattening|}}}{{{circumference|}}}{{{surface_area|}}}{{{volume|}}}{{{mass|}}}{{{density|}}}{{{surface_grav|}}}{{{escape_velocity|}}}{{{rotation|}}}{{{sidereal_day|}}}{{{rot_velocity|}}}{{{axial_tilt|}}}{{{right_asc_north_pole|}}}{{{declination|}}}{{{pole_ecliptic_lat|}}}{{{pole_ecliptic_lon|}}}{{{albedo|}}}{{{single_temperature|}}}{{{temperatures|}}}{{{spectral_type|}}}{{{magnitude|}}}{{{abs_magnitude|}}}{{{angular_size|}}}|{{#if:{{{minorplanet|}}}| [[Standard asteroid physical characteristics|Physical characteristics]]|Physical characteristics}} }}
+
+| label61     = Dimensions
+| data61      = {{{dimensions|}}}
+| label62     = Mean radius
+| data62      = {{{mean_radius|}}}
+| label63     = [[Equator]]ial radius
+| data63      = {{{equatorial_radius|}}}
+| label64     = [[Geographical pole|Polar]] radius
+| data64      = {{{polar_radius|}}}
+| label65     = [[Flattening]]
+| data65      = {{{flattening|}}}
+| label66     = Circumference
+| data66      = {{{circumference|}}}
+| label67     = [[Spheroid#Surface area|Surface area]]
+| data67      = {{{surface_area|}}}
+| label68     = [[Volume]]
+| data68      = {{{volume|}}}
+| label69     = [[Mass]]
+| data69      = {{{mass|}}}
+| label70     = Mean [[density]]
+| data70      = {{{density|}}}
+| label71     = {{#if:{{{minorplanet|}}}|[[Standard asteroid physical characteristics#Surface gravity|Equatorial surface gravity]]|[[Surface gravity|Equatorial surface gravity]]}}
+| data71      = {{{surface_grav|}}}
+| label72     = {{#if:{{{minorplanet|}}}|Equatorial [[Escape velocity|escape velocity]]|[[Escape velocity]]}}
+| data72      = {{{escape_velocity|}}}
+| label73     = [[Rotation period]]
+| data73      = {{{rotation|}}}
+| label74     = [[Rotation period|Sidereal rotation period]]
+| data74      = {{{sidereal_day|}}}
+| label75     = Equatorial rotation velocity
+| data75      = {{{rot_velocity|}}}
+| label76     = [[Axial tilt]]
+| data76      = {{{axial_tilt|}}}
+| label77     = North pole {{nowrap|[[right ascension]]}}
+| data77      = {{{right_asc_north_pole|}}}
+| label78     = North pole [[declination]]
+| data78      = {{{declination|}}}
+| label79     = Pole [[Ecliptic latitude|ecliptic latitude]]
+| data79      = {{{pole_ecliptic_lat|}}}
+| label80     = Pole [[Ecliptic longitude|ecliptic longitude]]
+| data80      = {{{pole_ecliptic_lon|}}}
+| label81     = {{#if:{{{minorplanet|}}}|[[Geometric albedo]]|[[Albedo]]}}
+| data81      = {{{albedo|}}}
+| label82     = [[Temperature]]
+| data82      = {{{single_temperature|}}}
+
+| data83      = {{#if:{{{temp_name1|}}}{{{temp_name2|}}}|
+<table style="width: 100%; background-color: #f9f9f9; border: none; margin: 0; text-align: left; line-height: 1.2em; white-space:nowrap" cellspacing=0 cellpadding=0><tr>
+<th style="width:33%; padding-right: 0.25em; text-align: left">Surface [[temperature|temp.]]</th>
+<th style="padding-right: 0.25em; text-align: left">min</th>
+<th style="padding-right: 0.25em; text-align: left">mean</th>
+<th style="padding-right: 0.25em; text-align: left">max</th>
+</tr>{{#if:{{{temp_name1|}}}|<tr>
+<th style="padding-left: 1.0em">{{{temp_name1}}}</th>
+<td>{{{min_temp_1|}}}</td>
+<td>{{{mean_temp_1|}}}</td>
+<td>{{{max_temp_1|}}}</td>
+</tr>}}{{#if:{{{temp_name2|}}}|<tr>
+<th style="padding-left: 1.0em">{{{temp_name2}}}</th>
+<td>{{{min_temp_2|}}}</td>
+<td>{{{mean_temp_2|}}}</td>
+<td>{{{max_temp_2|}}}</td>
+</tr>}}
+</table>}}
+
+| label84     = {{#if:{{{minorplanet|}}}|[[Asteroid spectral types|Spectral type]]|Spectral type}}
+| data84      = {{{spectral_type|}}}
+| label85     = [[Apparent magnitude]]
+| data85      = {{{magnitude|}}}
+| label86     = [[Absolute magnitude#Solar System bodies (H)|Absolute magnitude ''(H)'']]
+| data86      = {{{abs_magnitude|}}}
+| label87     = [[Angular diameter]]
+| data87      = {{{angular_size|}}}
+
+| header90    = {{#if:{{{atmosphere|}}}{{{scale_height|}}}{{{atmosphere_composition|}}}|Atmosphere{{#if:{{{atmosphere_ref|}}}|{{{atmosphere_ref}}} }} }}
+
+| label91     = Surface [[Atmospheric pressure|pressure]]
+| data91      = {{{surface_pressure|}}}
+| label92     = [[Scale height]]
+| data92      = {{{scale_height|}}}
+| label93     = Composition
+| data93      = {{{atmosphere_composition|}}}
+
+| below       = <includeonly>{{#if:{{{note|}}}||{{reflist|group="note"}} }}</includeonly>
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
