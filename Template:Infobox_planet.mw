@@ -18,7 +18,7 @@
 | label5      = [[Methods of detecting extrasolar planets|Detection method]]
 | data5       = {{{discovery_method|}}}
 
-| header10    = {{#if:{{{designations|{{{mp_name|}}}{{{named_after|}}}{{{alt_names|}}}{{{mp_category|}}}{{{pronounce|}}}{{{pronounced|}}}{{{adjective|}}}{{{adjectives|}}}}}}|{{#if:{{{exosolar planets|}}}|[[Extrasolar planet#Nomenclature|Designations]]|Designations}} }}
+| header10    = {{#if:{{{designations|{{{mp_name|}}}{{{named_after|}}}{{{alt_names|}}}{{{mp_category|}}}{{{pronounce|}}}{{{pronounced|}}}{{{adjective|}}}{{{adjectives|}}}}}}|{{#if:{{{exosolar planets|}}}|[[Extrasolar planet#Nomenclature|Designations]]|Calaamadayn}} }}
 
 | label11     = [[Minor planet designation|MPC designation]]
 | data11      = {{{mp_name|}}}
@@ -26,14 +26,14 @@
 | data12      = {{{pronounce|{{{pronounced|}}}|}}}
 | label13     = Named after
 | data13      = {{{named_after|}}}
-| label14     = [[Provisional designation in astronomy|Alternative names]]
+| label14     = Magac isbedela
 | data14      = {{{alt_names|}}}
 | label15     = Minor planet category
 | data15      = {{{mp_category|}}}
 | label16     = [[List of adjectivals and demonyms of astronomical bodies|Adjective]]
 | data16      = {{{adjectives|{{{adjective|}}}}}}
 
-| header20    = {{#if:{{{orbit_diagram|}}}{{{epoch|}}}{{{aphelion|}}}{{{perihelion|}}}{{{periapsis|}}}{{{apoapsis|}}}{{{semimajor|}}}{{{mean_orbit_radius|}}}{{{eccentricity|}}}{{{period|}}}{{{synodic_period|}}}{{{avg_speed|}}}{{{mean_anomaly|}}}{{{inclination|}}}{{{angular_dist|}}}{{{asc_node|}}}{{{long_periastron|}}}{{{time_periastron|}}}{{{arg_peri|}}}{{{semi-amplitude|}}}{{{satellite_of|}}}{{{satellites|}}}|[[Osculating orbit|Orbital characteristics]]{{#if:{{{orbit_ref|}}}|{{{orbit_ref}}} }} }}
+| header20    = {{#if:{{{orbit_diagram|}}}{{{epoch|}}}{{{aphelion|}}}{{{perihelion|}}}{{{periapsis|}}}{{{apoapsis|}}}{{{semimajor|}}}{{{mean_orbit_radius|}}}{{{eccentricity|}}}{{{period|}}}{{{synodic_period|}}}{{{avg_speed|}}}{{{mean_anomaly|}}}{{{inclination|}}}{{{angular_dist|}}}{{{asc_node|}}}{{{long_periastron|}}}{{{time_periastron|}}}{{{arg_peri|}}}{{{semi-amplitude|}}}{{{satellite_of|}}}{{{satellites|}}}|Sifooyin gaara{{#if:{{{orbit_ref|}}}|{{{orbit_ref}}} }} }}
 | data21      = {{{orbit_diagram|}}}
 | data22      = {{#if:{{{epoch|}}}|[[Epoch (astronomy)|Epoch]] {{{epoch}}}}}
 
@@ -95,59 +95,59 @@
 | label57     = Precession of the [[Longitude of the ascending node|ascending node]]
 | data57      = {{#if:{{{node_rate|}}}|{{{node_rate}}} [[Arcsecond|arcsec]]{{\}} [[Julian year (astronomy)|yr]]}}
 
-| header60    = {{#if:{{{dimensions|}}}{{{mean_radius|}}}{{{equatorial_radius|}}}{{{polar_radius|}}}{{{flattening|}}}{{{circumference|}}}{{{surface_area|}}}{{{volume|}}}{{{mass|}}}{{{density|}}}{{{surface_grav|}}}{{{escape_velocity|}}}{{{rotation|}}}{{{sidereal_day|}}}{{{rot_velocity|}}}{{{axial_tilt|}}}{{{right_asc_north_pole|}}}{{{declination|}}}{{{pole_ecliptic_lat|}}}{{{pole_ecliptic_lon|}}}{{{albedo|}}}{{{single_temperature|}}}{{{temperatures|}}}{{{spectral_type|}}}{{{magnitude|}}}{{{abs_magnitude|}}}{{{angular_size|}}}|{{#if:{{{minorplanet|}}}| [[Standard asteroid physical characteristics|Physical characteristics]]|Physical characteristics}} }}
+| header60    = {{#if:{{{dimensions|}}}{{{mean_radius|}}}{{{equatorial_radius|}}}{{{polar_radius|}}}{{{flattening|}}}{{{circumference|}}}{{{surface_area|}}}{{{volume|}}}{{{mass|}}}{{{density|}}}{{{surface_grav|}}}{{{escape_velocity|}}}{{{rotation|}}}{{{sidereal_day|}}}{{{rot_velocity|}}}{{{axial_tilt|}}}{{{right_asc_north_pole|}}}{{{declination|}}}{{{pole_ecliptic_lat|}}}{{{pole_ecliptic_lon|}}}{{{albedo|}}}{{{single_temperature|}}}{{{temperatures|}}}{{{spectral_type|}}}{{{magnitude|}}}{{{abs_magnitude|}}}{{{angular_size|}}}|{{#if:{{{minorplanet|}}}| Astaamo Fisikis}} }}
 
-| label61     = Dimensions
+| label61     = Cabir fogaan
 | data61      = {{{dimensions|}}}
-| label62     = Mean radius
+| label62     = Gacan
 | data62      = {{{mean_radius|}}}
-| label63     = [[Equator]]ial radius
+| label63     = [[Dhul-bare]]
 | data63      = {{{equatorial_radius|}}}
-| label64     = [[Geographical pole|Polar]] radius
+| label64     = Cirif dhuleed
 | data64      = {{{polar_radius|}}}
-| label65     = [[Flattening]]
+| label65     = Sariibadaha
 | data65      = {{{flattening|}}}
-| label66     = Circumference
+| label66     = Goobada
 | data66      = {{{circumference|}}}
-| label67     = [[Spheroid#Surface area|Surface area]]
+| label67     = [[Bed|Bedka oogada]]
 | data67      = {{{surface_area|}}}
-| label68     = [[Volume]]
+| label68     = [[Mug]]
 | data68      = {{{volume|}}}
-| label69     = [[Mass]]
+| label69     = [[Fuf]]
 | data69      = {{{mass|}}}
-| label70     = Mean [[density]]
+| label70     = Macnaha [[Cufnaanta]]
 | data70      = {{{density|}}}
 | label71     = {{#if:{{{minorplanet|}}}|[[Standard asteroid physical characteristics#Surface gravity|Equatorial surface gravity]]|[[Surface gravity|Equatorial surface gravity]]}}
 | data71      = {{{surface_grav|}}}
 | label72     = {{#if:{{{minorplanet|}}}|Equatorial [[Escape velocity|escape velocity]]|[[Escape velocity]]}}
 | data72      = {{{escape_velocity|}}}
-| label73     = [[Rotation period]]
+| label73     = Muddo wareeg
 | data73      = {{{rotation|}}}
-| label74     = [[Rotation period|Sidereal rotation period]]
+| label74     = Muddo wareeg
 | data74      = {{{sidereal_day|}}}
-| label75     = Equatorial rotation velocity
+| label75     = Xawaare wareeg
 | data75      = {{{rot_velocity|}}}
-| label76     = [[Axial tilt]]
+| label76     = Foorar mile
 | data76      = {{{axial_tilt|}}}
-| label77     = North pole {{nowrap|[[right ascension]]}}
+| label77     = Cirifka woqoooyi {{nowrap|[[right ascension]]}}
 | data77      = {{{right_asc_north_pole|}}}
-| label78     = North pole [[declination]]
+| label78     = Cirifka woqooyi [[declination]]
 | data78      = {{{declination|}}}
-| label79     = Pole [[Ecliptic latitude|ecliptic latitude]]
+| label79     = Cirif [[Ecliptic latitude|ecliptic latitude]]
 | data79      = {{{pole_ecliptic_lat|}}}
-| label80     = Pole [[Ecliptic longitude|ecliptic longitude]]
+| label80     = Cirif [[Ecliptic longitude|ecliptic longitude]]
 | data80      = {{{pole_ecliptic_lon|}}}
-| label81     = {{#if:{{{minorplanet|}}}|[[Geometric albedo]]|[[Albedo]]}}
+| label81     = {{#if:{{{minorplanet|}}}|Albedo}}
 | data81      = {{{albedo|}}}
-| label82     = [[Temperature]]
+| label82     = [[Heerkulka]]
 | data82      = {{{single_temperature|}}}
 
 | data83      = {{#if:{{{temp_name1|}}}{{{temp_name2|}}}|
 <table style="width: 100%; background-color: #f9f9f9; border: none; margin: 0; text-align: left; line-height: 1.2em; white-space:nowrap" cellspacing=0 cellpadding=0><tr>
-<th style="width:33%; padding-right: 0.25em; text-align: left">Surface [[temperature|temp.]]</th>
-<th style="padding-right: 0.25em; text-align: left">min</th>
-<th style="padding-right: 0.25em; text-align: left">mean</th>
-<th style="padding-right: 0.25em; text-align: left">max</th>
+<th style="width:33%; padding-right: 0.25em; text-align: left">Kulka oogada</th>
+<th style="padding-right: 0.25em; text-align: left">ugu-yeraan</th>
+<th style="padding-right: 0.25em; text-align: left">dhex-dhexaad</th>
+<th style="padding-right: 0.25em; text-align: left">ugu-badnaan</th>
 </tr>{{#if:{{{temp_name1|}}}|<tr>
 <th style="padding-left: 1.0em">{{{temp_name1}}}</th>
 <td>{{{min_temp_1|}}}</td>
@@ -170,13 +170,13 @@
 | label87     = [[Angular diameter]]
 | data87      = {{{angular_size|}}}
 
-| header90    = {{#if:{{{atmosphere|}}}{{{scale_height|}}}{{{atmosphere_composition|}}}|Atmosphere{{#if:{{{atmosphere_ref|}}}|{{{atmosphere_ref}}} }} }}
+| header90    = {{#if:{{{atmosphere|}}}{{{scale_height|}}}{{{atmosphere_composition|}}}|Jawiga{{#if:{{{atmosphere_ref|}}}|{{{atmosphere_ref}}} }} }}
 
-| label91     = Surface [[Atmospheric pressure|pressure]]
+| label91     = Cadaadiska oogada
 | data91      = {{{surface_pressure|}}}
 | label92     = [[Scale height]]
 | data92      = {{{scale_height|}}}
-| label93     = Composition
+| label93     = Qaab dhismeedka
 | data93      = {{{atmosphere_composition|}}}
 
 | below       = <includeonly>{{#if:{{{note|}}}||{{reflist|group="note"}} }}</includeonly>
