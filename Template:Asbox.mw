@@ -1,0 +1,59 @@
+<table class="metadata plainlinks stub" style="background: transparent;"  role="presentation"><tr>
+{{#if:{{{icon|}}}{{{image|}}}
+ |<td>{{#if:{{{icon|}}}
+  |{{{icon}}}
+  |[[File:{{{image}}}|{{#if:{{{pix|}}}|{{{pix}}}|40x30}}px|alt={{{imagealt|Stub icon}}}]]
+ }}</td>
+}}
+<td>''{{{subject|}}} {{{article|maqaalkaan}}} {{{qualifier|}}} waa [[Wikipedia:Gumud|gumud]].  Waad ka caawin kartaap Wikipedia adigoo adeegsanaya [{{fullurl:{{FULLPAGENAME}}|action=edit}} ballarintiisa].''{{#if:{{{name|}}}
+ |{{navbar|{{{name}}}|mini=yes|style=position: absolute; right: 15px; display: none;}}
+}}{{#if:{{{note|}}}
+ |<br /><span style="font-style: normal; font-size: smaller;">{{{note}}}
+}}</td>
+</tr></table>{{#ifeq:{{NAMESPACE}}|{{ns:0}}<!--Article space-->|<!--
+
+ *** Stub category ***
+-->{{#if:{{{category|}}}|[[Category:{{{category}}}]]}}<!--
+
+ *** Optional second stub category ***
+-->{{#if:{{{category1|}}}|[[Category:{{{category1}}}]]}}<!--
+
+ *** Optional third stub category ***
+-->{{#if:{{{category2|}}}|[[Category:{{{category2}}}]]}}<!--
+-->}}<!--
+
+*** check for valid name parameter and transclude /templatepage on template page ***
+-->{{#if:{{{demo|<noinclude>yes</noinclude>}}}
+  |<!--Demonstration version-->
+  |{{#switch:{{FULLPAGENAME:{{{name|}}}}}
+    |{{FULLPAGENAME}}=<!--Template page-->{{Asbox/templatepage
+      |image     = {{{image|}}}
+      |pix       = {{{pix|}}}
+      |imagealt  = {{{imagealt|}}}
+      |icon      = {{{icon|}}}
+      |subject   = {{{subject|}}}
+      |article   = {{{article|}}}
+      |qualifier = {{{qualifier|}}}
+      |category  = {{{category|}}}
+      |tempsort  = {{{tempsort|}}}
+      |category1 = {{{category1|}}}
+      |tempsort1 = {{{tempsort1|}}}
+      |category2 = {{{category2|}}}
+      |tempsort2 = {{{tempsort2|}}}
+      |note      = {{{note|}}}
+      |name      = {{{name|}}}
+    }}
+    |{{#titleparts:{{FULLPAGENAME}}|1}}=<!--Is a subtemplate, e.g. a sandbox version. Don't display documentation.-->
+    |#default={{#ifeq:{{NAMESPACE}}|Template
+      |<!--{{ombox
+        |type=content
+        |text=It appears that the ''name'' parameter of this template is undefined or incorrect. If this is the stub template, please set {{para|name|{{FULLPAGENAME}}}}. If this is a demonstration please set {{para|demo|yes}}.
+      }}-->[[Category:Stub message boxes needing attention|{{#if:{{{name|}}}|E|W}}{{PAGENAME}}]]
+    }}
+  }}
+}}<noinclude><!--
+
+ *** Documentation ***
+-->{{documentation}}
+<!-- Add categories and inter-wikis to the /doc subpage, not here! -->
+</noinclude>
