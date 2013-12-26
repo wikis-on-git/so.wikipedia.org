@@ -113,7 +113,7 @@
 | data67      = {{{surface_area|}}}
 | label68     = [[Mug]]
 | data68      = {{{volume|}}}
-| label69     = [[Fuf]]
+| label69     = [[Cuf]]
 | data69      = {{{mass|}}}
 | label70     = Macnaha [[Cufnaanta]]
 | data70      = {{{density|}}}
@@ -145,9 +145,9 @@
 | data83      = {{#if:{{{temp_name1|}}}{{{temp_name2|}}}|
 <table style="width: 100%; background-color: #f9f9f9; border: none; margin: 0; text-align: left; line-height: 1.2em; white-space:nowrap" cellspacing=0 cellpadding=0><tr>
 <th style="width:33%; padding-right: 0.25em; text-align: left">Kulka oogada</th>
-<th style="padding-right: 0.25em; text-align: left">ugu-yeraan</th>
+<th style="padding-right: 0.25em; text-align: left">yeraan</th>
 <th style="padding-right: 0.25em; text-align: left">dhex-dhexaad</th>
-<th style="padding-right: 0.25em; text-align: left">ugu-badnaan</th>
+<th style="padding-right: 0.25em; text-align: left">badnaan</th>
 </tr>{{#if:{{{temp_name1|}}}|<tr>
 <th style="padding-left: 1.0em">{{{temp_name1}}}</th>
 <td>{{{min_temp_1|}}}</td>
