@@ -1,0 +1,1 @@
+{{#ifeq:{{{1|{{PAGENAME}}}}}|Stub||{{#invoke:Asbox stubtree|subtree|pagename={{PAGENAME}}}}}}
