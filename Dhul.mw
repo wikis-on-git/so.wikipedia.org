@@ -1,12 +1,59 @@
 {{About| [[meere|meeraha]] Dhulka}}
 
-Dhul
-
-[[File:ISS034E016601 - Stratocumulus Clouds - Pacific Ocean.jpg|thumb| Dhulka aan ku nool nahay oo laga soo sawirey [[hawo]]da sare isla markaana muujinaya [[daruur]]ha. [[Dayax Gacmeed]]ka [[Apollo 17]] sawirkan qaadey. ]]
-
-[[File:The Earth seen from Apollo 17.jpg|thumb| Dhulka waa [[Meere]]ha [[sadex]]aad ee [[qorax]]da oogu dhow]]
-
-
+{{Infobox planet
+| bgcolour = #c0c0ff
+| name = Dhul
+| symbol = [[File:Earth symbol.svg|25px|Astronomical symbol of Earth]]
+| image = [[File:The Earth seen from Apollo 17.jpg|270px|A color image of Earth as seen from Apollo 17|alt=A planetary disk of white cloud formations, brown and green land masses, and dark blue oceans against a black background. The Arabian peninsula, Africa and Madagascar lie in the upper half of the disk, while Antarctica is at the bottom.]]
+| caption = "[[The Blue Marble]]" photograph of Earth,<br>taken from ''[[Apollo 17]]''
+| alt_names = Tellus or Telluris, Gaia
+| flag = {{flagicon|world}}
+| epoch = [[J2000.0]]
+| aphelion = 152,098,232&nbsp;km<br> 1.01671388&nbsp;[[astronomical unit|AU]]
+| perihelion = 147,098,290&nbsp;km<br> 0.98329134&nbsp;AU
+| semimajor = 149,598,261&nbsp;km<br> 1.00000261&nbsp;AU
+| eccentricity = 0.01671123
+| inclination = 7.155° to [[Sun]]'s [[equator]]<br>1.57869° to [[invariable plane]]
+| asc_node = 348.73936°
+| arg_peri = 114.20783°
+| mean_anomaly = 357.51716°
+| period = 365.256363004&nbsp;days <br>1.000017421&nbsp;[[Julian year (astronomy)|yr]]
+| avg_speed = 29.78&nbsp;km/s <br>107,200&nbsp;km/h
+| satellites = 1 natural&nbsp;(the [[Moon]]),<br> 8,300+ 
+| physical_characteristics = yes
+| flattening = 0.0033528
+| equatorial_radius = 6,378.1&nbsp;km
+| polar_radius = 6,356.8&nbsp;km
+| mean_radius = 6,371.0&nbsp;km
+| circumference = 40,075.017&nbsp;km&nbsp;([[equator]]ial) <br>40,007.86&nbsp;km&nbsp;([[meridional]]) 40,000 km [[metre]] 
+| surface_area = 510,072,000&nbsp;km<sup>2</sup>
+{{nowrap|148,940,000 km<sup>2</sup> land (29.2 %)}}<br>
+{{nowrap|361,132,000 km<sup>2</sup> water (70.8 %)}}
+| volume = [[Volume of the Earth|1.08321{{e|12}}]]&nbsp;km<sup>3</sup>
+| mass = 5.97219{{e|24}}&nbsp;kg
+3.0{{e|-6}}&nbsp;Suns
+| density = 5.515&nbsp;g/cm<sup>3</sup>
+| surface_grav = [[Earth's gravity|9.780327]] [[metre per second squared|m/s<sup>2</sup>]] <br>0.99732&nbsp;''[[g-force|g]]''
+| escape_velocity = 11.186&nbsp;km/s
+| sidereal_day = 0.99726968&nbsp;d <br>23{{smallsup|h}}&nbsp;56{{smallsup|m}}&nbsp;4.100{{smallsup|s}}
+| rot_velocity = {{convert|1674.4|km/h|m/s|abbr=on}}
+| axial_tilt = 23°26'21".4119
+| albedo = 0.367 ([[Geometric albedo|geometric]])
+0.306 ([[Bond albedo|Bond]])
+| atmosphere = yes
+| temperatures = yes
+| temp_name1 = [[Kelvin]]
+| min_temp_1 = 184&nbsp;K
+| mean_temp_1 = 288&nbsp;K
+| max_temp_1 = 330&nbsp;K
+| temp_name2 = [[Celsius]]
+| min_temp_2 = −89.2&nbsp;°C
+| mean_temp_2 = 15&nbsp;°C
+| max_temp_2 = 56.7&nbsp;°C
+| surface_pressure = [[Atmosphere (unit)|101.325]]&nbsp;[[Pascal (unit)|kPa]] ([[Sea level|MSL]])
+| atmosphere_composition = 78.08%&nbsp;[[nitrogen]] (N<sub>2</sub>) (dry air)<br> 20.95%&nbsp;[[oxygen]] (O<sub>2</sub>)<br> 0.93%&nbsp;[[argon]]<br> 0.039%&nbsp;[[carbon dioxide]]<br>About 1% [[water vapor]] (varies with [[climate]])
+|note = no
+}}
 '''Dhulka''' waa [[meere]]ha [[sadex]]aad ee [[qorax]]da u dhow ee [[Bahda Midaysay Qoraxdu]]. Waa meeraha  ugu muga iyo miisaanka weeyn iyo midka [[shan]]aad ee ugu xajmiga weeyn [[sideed]]da [[meere]] ee[[Bahda Midaysay Qoraxdu]]. 
 Dhulka waxa lagu naaneeysaa '''Meeraha Midabka Buluugan''' sababtoo ah marka [[hawo]]da sare laga soo fiirinayo waxa muuqda midabka ''buluuga''. 
 
@@ -85,7 +132,7 @@ Dhul badhuha ayaa 43 kilomitir ka dheer [[cidhif]]yada dunida taas ayaana keenta
 
 
 {| class="wikitable" style="float: right; clear: right; margin-left: 2em;"
-|+ Kimikooyinka Oogada sare ee dhulka<ref name=brown_mussett1981/>
+|+ Kimikooyinka Oogada sare ee dhulka
 !rowspan="2"|[[Isku dhis]]
 !rowspan="2"|Formula
 !colspan="2"|Ka kooban
@@ -400,52 +447,6 @@ Qaab-dhismeeydka saxannada sameeya qaaraha dhulku waa [[todoba]], kuwaas oo kala
 
 Qaab-dhismeedka tectonik plateska ayaa keenay qaab-dhismeedka [[Qaaradaha|qaaradaha]]. Sidas darteed, guud ahaan Dhulku wuxuu ka kooban yahay [[Qaaradaha|todoba qaaradood]] oo magac ahaan kala ah: [[Afrika|Qaarada Afrika]], [[Aasiya|Qaarada Aasiya]], [[Waqooyiga Ameerika|Waqooyiga Amerika]], [[Ameerikada koonfureed|Koonfurta Amerika]], [[Yurub|Qaarada Yurub]], [[Ooshiyaaniya|Qaarada Ustaraliya]] oo loo yaqaano ''Ooshiyaaniya'' isla markaana soo raacaan gasiiradaha yaryar ee u dhow, iyo [[Antiarktis|Qaarada Antaraktika]] ee barafka ah.
 
-==Badaha Dhulka==
-
-[[File:Clouds over the Atlantic Ocean.jpg|thumb|Oogada sare ee [[Badweynta Atlantika]]]]
-
-'''Badweyn''' ([[ingiriis]]: Ocean) waa [[biyo|biyo dhanaan]] oo aad u baaxad wayn isla markaana qariya 2/3 [[Qolof dhul|oogada dhulka]]. 
-Biyaha baduhu waxay qariyaan 71% lakabka sare ee dhulka. 
-
-Guud ahaan waxa jira [[bad|shan badwayn]] dunidan aan ku nool nahay, kuwaas oo kala ah:
-
-*[[Badweynta Hindiya]]
-*[[Badweynta Atlantika]]
-*[[Badweynta Baasifig]] 
-*[[Badweynta Antaraktika]]
-*[[Badweynta Araktika]]  
-
-Sidoo kale, waxaa jira tiro badan oo bado yaryar ah, sida:
-
-*[[Badacas]] 
-*[[Badamodow]] 
-*[[Bada Midhatareeniyaanka]] 
-
-===Badweynta Baasifig===
-
-[[File:Pacific Ocean.png|thumb|Badweynta Baasifig waa bada ugu weyn badaha dhulka]]
-
-'''Badweynta Baasifig''' ([[ingiriis]]: Pacific Ocean) waa [[biyo|biyo dhanaan]] oo aad u baaxad wayn isla markaana qariya 46% [[Qolof dhul|oogada biyaha dhulka]]. 
-
-Badweynta Atlantika waxay ku fadhidaa baaxad dhan 165.25 milyan square kilomitir (63.8
-milyan square miles), waana [[bad|bada]] ugu wayn [[badweyn|badwaynta]] dhulka. 
-
-===Badweynta Atlantika===
-
-[[File:Clouds over the Atlantic Ocean.jpg|thumb|Oogada sare ee [[Badweynta Atlantika]]]]
-
-[[File:Atlantic Ocean.png|thumb|Badweynta Atlantika waa bada labaad ee ugu weyn badaha dhulka]]
-
-'''Badweynta Atlantika''' ([[ingiriis]]: Atlantic Ocean) waa [[biyo|biyo dhanaan]] oo aad u baaxad wayn isla markaana qariya 20% [[Qolof dhul|oogada biyaha dhulka]]. 
-
-Badweynta Atlantika waxay ku fadhidaa baaxad dhan 106,400,000 square kilometres, waana [[bad|bada 2aad]] ee ugu wayn [[badweyn|badwaynta]] dhulka. 
-
-===Badwaynta Hindiya===
-
-[[File:Badweynta hindiya.jpg|thumb|Badweeynta Hindiya]]
-
-'''Badweynta Hindiya''' wax ay ka mid tahay baddaha aduunka ugu waaweyn waxaayna u dhaxeysaa [[qaaradaha]] [[Afrika]], [[Aasiya]] iyo [[Ostaraaliya]]. Baaxada Badweynta Hindiya waxaa lagu qiyaasaa 73.481.000 km².
-
 = Cimilada Dunida =
 
 ==Cirka Dhulka==
@@ -525,13 +526,13 @@ Guud ahaan dhulku waa hooyga [[Xayawaan|xayawaanka dhul jooga]] ah - Aadamuhu ka
 
 ==Khatarta Dabiiciga==
 
-[[File:Pavlof.jpg|thumb|Foolkaano khatar badan oo cirka gaadhay.]]
+[[File:MSH80_eruption_mount_st_helens_05-18-80.jpg|thumb|Foolkaano khatar badan oo cirka gaadhay.]]
 
 Meelo badan oo oogada dhulka ah ayaa khatar badan isla markaana noloshu aad u adag tahay amaba aan la degenayn. 
 Sida deegaanada cimiladu aadka u sareeyso ama hooseeyso, tusaale ahaan saxaraha iyo cidhifyada dunida. Sidoo kale, khatarta waxaa ka mid ah duufaanada, daadadka, dabaylaha waawayn, dhulgariirka, foolkaanaha, abaaraha, sunaamida IWM kuwaas oo ku xidhan cimilada. 
 
 Dhinaca kale, waxaa jira khatar badan oo Aadame-samee ah. Waxa ka mid ah wasakhowga hawada, wasakhowga biyaha, roobka asiidha leh, walxaha [[sun]]ta ah, xaalufinta keymaha (deforestation), tafiir-go'a xayawaanka duurjoogta ah, nabaadguurka carada iyo kuwo kale oo badan. 
-Sida Jumciyada Quruumaha ka Dhaxaysa (UN) sheegtay, warshadaha aadamuhu samaystay halis ayay ku hayan dhulka kuwaas oo hawada ku sii daaya Kaarbon-labo-ogsaydh keentay in dunidu kululaato (global warming). Taas oo sabab u ah isbedelka cimilada iyo dhalaalka barafka cidhifyada.
+Sida Jumciyada Quruumaha ka Dhaxaysa (UN) sheegtay, warshadaha aadamuhu samaystay halis ayay ku hayan dhulka kuwaas oo hawada ku sii daaya Kaarbon-labo-ogsaydh keentay in dunidu kululaato (global warming). Taas oo sabab u ah isbedelka cimilada iyo dhalaalka barafka cidhifyada. 
 
 ==Bani' Aadamka==
 
@@ -554,7 +555,7 @@ Sanadkii 2010ka gebi ahaan dadka hawada sare tagay waa 487 qof, 12 ka mid ah day
 Masaafada ugu dheer ee aadamuhu ka gaadheen hawada sare waa 400,171 km, taas oo ahayd socdaalkii Apollo 13 sanadkii 1970kii.
 
 =Tixraac=
-
+</ref>
 =Qoraalo La Mid ah=
 *[[Meere]] 
 *[[Dhul badhe]] 
@@ -562,7 +563,7 @@ Masaafada ugu dheer ee aadamuhu ka gaadheen hawada sare waa 400,171 km, taas oo 
 *[[Bahda Midaysay Qoraxdu]]
 *[[Qorax]]
 
-{{Gumud}}
+<references/> 
 [[Category:Bahda Midaysay Qoraxdu]]
 [[Category:Koon]]
 [[Category:Xiddigis]]
