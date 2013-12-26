@@ -1,0 +1,3 @@
+| style="text-align: center;" | [[File:{{#ifexist:Template:Portal/Images/{{ucfirst:{{lc:{{{1}}} }} }}|{{Portal/Images/{{ucfirst:{{lc:{{{1}}}}}}}}}|{{Portal/Images/Default}} }}|32x28px|alt=Portal icon]]
+| style="padding: 0 0.2em; vertical-align: middle; font-style: italic; font-weight: bold" | [[Portal:{{{1}}}|{{{1}}}{{#ifeq:{{{break|}}}|yes|<br />|&#32;}}portal]]
+|- valign=middle
