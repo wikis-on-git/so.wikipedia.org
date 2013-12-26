@@ -1,0 +1,15 @@
+{{#if:{{{1|}}}
+ |<span style="margin:0 .15em 0 .25em">×</span>10<sup>{{#switch:{{{2}}}
+  |#default={{#switch:{{valid|number={{{1}}}}}
+   |#default={{#switch:{{{2}}}
+    |plus=&#43;{{val/delimitnum|{{{1}}}}}
+    |#default={{val/delimitnum|{{{1}}}}}
+   }}
+   |false={{{1}}}
+  }}
+  |text={{{1}}}
+ }}</sup>
+ |{{Main other|[[Category:Articles using E without any arguments]]}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
