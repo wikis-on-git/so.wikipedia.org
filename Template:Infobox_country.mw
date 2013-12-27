@@ -937,7 +937,7 @@
         | <tr class="{{#if:{{{DST_note|}}} |mergedrow |mergedbottomrow}}">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
             <td style="padding-left:0;">Xagaa&nbsp;([[Daylight saving time|DST]])</td>
-            <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
+            <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Isuduwaha Waqtiga Caalamiga|UTC]]{{{utc_offset_DST}}})</td>
           </tr><!--
     -->}}<!--
  -->}}<!--
