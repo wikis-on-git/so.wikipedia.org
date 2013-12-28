@@ -1,0 +1,161 @@
+'''Cabirka Guud ee Culayska'''
+{{About|Halbeega cabirka [[SI]] iyo inta soo raacda}}
+
+Halbeegyada la isla gartey in lala isticmaalo [[SI|Nidaamka Caalamiga ee Halbeega dunida]] waxaa ka mid ah kuwan hoos ku xusan. 
+
+
+{|class="wikitable"
+|-
+!scope="col"| Magaca
+!scope="col"| Astaanta
+!scope="col"| Xadiga
+!scope="col"| Halbeega [[SI]] ee La Midka ah
+|-
+|colspan="4" style="font-size:larger;font-weight:bold"| Halbeegyada si guul loo isticmaalo
+|-
+| '''[[daqiiqad]]'''
+|style="text-align:center"| '''min'''
+| [[Wakhti]] (SI unit multiple)
+| 1&nbsp;min&nbsp;= 60&nbsp;[[ilbiriqsi|s]]
+|-
+| '''[[Saac|Saacad]]'''
+|style="text-align:center"| '''h'''
+| wakhti (SI unit multiple)
+| 1&nbsp;h&nbsp;= 60&nbsp;min&nbsp;= 3600&nbsp;s
+|-
+| '''[[Maalin]]'''
+|style="text-align:center"| '''d'''
+| wakhti (SI unit multiple)
+| 1&nbsp;d&nbsp;= 24&nbsp;h&nbsp;= 1440&nbsp;min&nbsp;= 86400&nbsp;s
+|-
+| '''[[degree (angle)|degree]]'''
+|style="text-align:center"| '''°'''
+| plane angle (Halbeega geesaha)
+| 1°&nbsp;= (π&nbsp;/&nbsp;180)&nbsp;rad
+|-
+| '''[[daqiiqad|astaanta daqiiqada]]'''
+|style="text-align:center"| '''′'''
+| plane angle (Halbeega geesaha)
+| 1′&nbsp;= (1&nbsp;/&nbsp;60)°&nbsp;= (π&nbsp;/&nbsp;10800)&nbsp;rad
+|-
+| '''[[ilbiriqsi|astaanta ilbiriqsiga]]'''
+|style="text-align:center"| '''″'''
+| plane angle (Halbeega geesaha)
+| 1″&nbsp;= (1&nbsp;/&nbsp;60)′&nbsp;= (1&nbsp;/&nbsp;3600)°&nbsp;= (π&nbsp;/&nbsp;648000)&nbsp;rad
+|-
+| '''[[hektar]]'''
+|style="text-align:center"| '''ha'''
+| [[dherer]] (decimal unit multiple)
+| 1&nbsp;ha&nbsp;= 100&nbsp;a&nbsp;= 10000&nbsp;m<sup>2</sup>&nbsp;= 1&nbsp;hm<sup>2</sup>
+|-
+| '''[[litir]]'''
+|style="text-align:center"| '''l''' or '''L'''
+| [[mug]] (decimal unit multiple)
+| 1&nbsp;L&nbsp;= 1&nbsp;dm<sup>3</sup>&nbsp;= 0.001&nbsp;[[cubic metre|m<sup>3</sup>]]&nbsp;= 1000&nbsp;[[decimetre|cc]]&nbsp;= 1000&nbsp;[[Centimetre|cm]]<sup>3</sup>
+|-
+| '''[[ton]]'''
+|style="text-align:center"| '''t'''
+| [[mug]] (decimal unit multiple)
+| 1&nbsp;t&nbsp;= 10<sup>3</sup>&nbsp;[[kiilogaraam|kg]]&nbsp;= 1&nbsp;[[kiilogaram|Mg]]
+|-
+|colspan="4" style="font-size:larger;font-weight:bold"| [[Logarithmic scale#Logarithmic units|Halbeega Logarithmic]]
+|-
+| '''[[neper]]'''
+|style="text-align:center"| '''Np'''
+| dimensionless [[ratio]] of field quantities
+| ''L<sub>F</sub>''&nbsp;= ln(''F''&nbsp;/&nbsp;''F''<sub>0</sub>)&nbsp;Np
+|-
+| &nbsp;
+| &nbsp;
+| dimensionless ratio of power quantities
+| ''L<sub>P</sub>''&nbsp;= {{frac|1|2}}&nbsp;ln(''P''&nbsp;/&nbsp;''P''<sub>0</sub>)&nbsp;Np
+|-
+| '''bel''', '''[[decibel]]'''
+|style="text-align:center"| '''B''', '''dB'''
+| dimensionless [[ratio]] of field quantities
+| ''L<sub>F</sub>''&nbsp;= 2&nbsp;log<sub>10</sub>(''F''&nbsp;/&nbsp;''F''<sub>0</sub>)&nbsp;B
+|-
+| &nbsp;
+| &nbsp;
+| dimensionless ratio of power quantities
+| ''L<sub>P</sub>''&nbsp;= log<sub>10</sub>(''P''&nbsp;/&nbsp;''P''<sub>0</sub>)&nbsp;B
+|-
+|colspan="4" style="font-size:larger;font-weight:bold"| Halbeegyada loo Isticmaalo Tijaabada
+|-
+| '''[[electronvolt]]'''
+|style="text-align:center"| '''eV'''
+| [[awood]] (energy)
+| 1&nbsp;eV = {{val|1.60217653|(14)|e=-19|ul=J}}
+|-
+| '''[[unified atomic mass unit]]'''<br>'''[[dalton (unit)|dalton]]'''
+|style="text-align:center"| '''u'''<br>'''Da'''
+| [[mass]]
+| 1&nbsp;u&nbsp;= 1&nbsp;Da&nbsp;= {{val|1.66053886|(28)|e=-27|ul=kg}}
+|-
+| '''[[astronomical unit]]'''
+|style="text-align:center"| '''ua'''<ref name=SIbrochure>{{SIbrochure8th|page=126}}</ref><ref>[[ISO 80000]]</ref><ref>{{citation|title=The IAU Style Manual (1989): The Preparation of Astronomical Papers and Reports|url=http://www.iau.org/static/publications/stylemanual1989.pdf|page=23}}</ref>
+| [[length]]
+| 1&nbsp;ua&nbsp;= {{val|1.49597870691|(6)|e=11|ul=m}}
+|-
+|colspan="4" style="font-size:larger;font-weight:bold"| [[Natural units]] (n.u.)
+|-
+| n.u. of speed ([[xawaaraha iftiinka]] meel madhan)
+|style="text-align:center"| '''''c''<sub>0</sub>'''
+| [[xawaare]]
+| {{val|299792458|ul=m&nbsp;/&nbsp;s}} (exact)<ref>In this case it is not the speed of light, but the length of the metre that is obtained by experiment</ref>
+|-
+| n.u. of action ([[reduced Planck constant]])
+|style="text-align:center"| '''''ħ'''''
+| [[Ficil]]
+| {{val|1.05457168|(18)|e=-34}}&nbsp;J·s
+|-
+| n.u. of mass ([[electron rest mass|electron mass]])
+|style="text-align:center"| '''''m''<sub>e</sub>'''
+| [[mug]]
+| {{val|9.1093826|(16)|e=-31|ul=kg}}
+|-
+| n.u. of time
+|style="text-align:center"| '''''ħ''&thinsp;/&thinsp;''m''<sub>e</sub>''c''<sub>0</sub><sup>2</sup>'''
+| [[wakhti]]
+| {{val|1.2880886677|(86)|e=-21|ul=s}}
+|-
+|colspan="4" style="font-size:larger;font-weight:bold"| [[Atom|Halbeega Atomiga]] (a.u.)
+|-
+| a.u. of charge ([[elementary charge]])
+|style="text-align:center"| '''''e'''''
+| [[electric charge]]
+| {{val|1.60217653|(14)|e=-19|u=C}}
+|-
+| a.u. of mass ([[electron rest mass|electron mass]])
+|style="text-align:center"| '''''m''<sub>e</sub>'''
+| [[mug]]
+| {{val|9.1093826|(16)|e=-31|ul=kg}}
+|-
+| a.u. of action ([[reduced Planck constant]])
+|style="text-align:center"| '''''ħ'''''
+| [[Ficil]]
+| {{val|1.05457168|(18)|e=-34}}&nbsp;J·s
+|-
+| a.u. of length, bohr ([Bohr radius])
+|style="text-align:center"| '''''a''<sub>0</sub>'''
+| [[length]]
+| {{val|0.5291772108|(18)|e=-10|u=m}}
+|-
+| a.u. of energy, [[hartree]] (awooda Hartree)
+|style="text-align:center"| '''''E''<sub>h</sub>'''
+| [[awood]]
+| {{val|4.35974417|(75)|e=-18|u=J}}
+|-
+| a.u. Wakhtiga
+|style="text-align:center"| '''''ħ''&thinsp;/&thinsp;''E''<sub>h</sub>'''
+| [[wakhti]]
+| {{val|2.418884326505|(16)|e=-17|u=s}}
+|}
+
+=Xigasho=
+
+{{Gumud}}
+[[Category:Halbeeg]]
+[[Category:Saynis]]
+[[Category:Dherer]]
+[[Category:Qiyaasaha Masaafooyinka]]
