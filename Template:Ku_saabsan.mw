@@ -1,19 +1,15 @@
-{{Hatnote|<!--
--->{{#if: {{{1|}}}|<!--
-  -->Kani waa {{namespace detect|main=maqaal|category=category|other=bog}} ku saabsan  {{{1}}}.&#32;&#32;}}<!--
--->Qaab {{#if:{{{2|}}}|{{{2}}}|adeegsi kale}}, eeg {{#if:{{{3|}}}|[[{{{3}}}]]{{#ifeq:{{{4|}}}|and|&#32;and {{#if:{{{5|}}}|[[{{{5}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.<!--
--->{{#if:{{{2|}}}|{{#if:{{{4|}}}|<!--
-  -->{{#ifeq:{{{4|}}}|and||<!-- "and" waa eray gaar ah, ee aan soo raarayn "For and, ..."
-    -->&#32;&#32;Qaad {{#ifeq:{{{4}}}|1|adeegsi kale|{{{4}}}}}, eeg {{#if:{{{5|}}}|[[{{{5}}}]]{{#ifeq:{{{6|}}}|and|&#32;and {{#if:{{{7|}}}|[[{{{7}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
-  -->{{#if:{{{6|}}}|<!--
-    -->{{#ifeq:{{{6|}}}|and||<!--
-      -->&#32;&#32;Qaab {{#ifeq:{{{6}}}|1|adeegsi kale|{{{6}}}}}, eeg {{#if:{{{7|}}}|[[{{{7}}}]]{{#ifeq:{{{8|}}}|and|&#32;and {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (faah faahin)]]}}}}|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
-    -->{{#if:{{{8|}}}|<!--
-      -->{{#ifeq:{{{8|}}}|and||<!--
-        -->&#32;&#32;Qaab {{#ifeq:{{{8}}}|1|adeegsi kale|{{{8}}}}}, eeg {{#if:{{{9|}}}|[[{{{9}}}]]|[[{{PAGENAME}} (faah faahin)]]}}.}}<!--
-    -->}}<!--
-  -->}}<!--
--->}}}}}}<!--
--->{{#if:{{{_nocat|}}}||{{#if:{{{1|}}}{{{2|}}}||{{#if:{{{3|}}}|[[Category:Hatnote templates using unusual parameters|A{{PAGENAME}}]]}}}}{{#ifeq:{{str left|{{{1}}}|3}}|is |[[Category:Hatnote templates using unusual parameters|B{{PAGENAME}}]]}}}}<noinclude>
-{{Documentation}}
-</noinclude>
+<includeonly>{{namespace detect|[[file:Disambig gray RTL.svg|link=|20px]]&#32;{{#if: {{{1|}}}|  maqaalkaan '''{{{1}}}''', |}} haddii aad raadinaysay {{#if: {{{2|}}}|«{{{2}}}»|qormo shaabahda}}, eeg '''[[{{#if: {{{3|}}}|{{{3}}}|{{PAGENAME}} (Faahfaahin)}}]]'''.}}</includeonly>
+<noinclude>{{Documentation|int=
+===Adeegsiga===
+Qoraalkaan gali maqaalka halkiisa sare:
+<nowiki>{{About|Maqaalka hadda|Magac maqaalka kale|Magaca maqaal kale ee saddexan}}</nowiki>
+
+Sidaan ayaan soo bixi dooonta:
+{{About|Maqaalka hadda|Magac maqaalka kale|Magaca maqaal kale ee saddexan}}
+
+===Sidoo kale eeg===
+* {{D|Faahfaahin}}
+
+
+[[Category:Template]] 
+}}</noinclude>
