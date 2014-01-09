@@ -481,14 +481,14 @@
  -->{{#if:{{{upper_house|}}}
      | <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">[[Upper house]]</td>
+         <td style="padding-left:0;">[[Aqalka sare]]</td>
          <td>{{{upper_house}}}</td>
        </tr><!--
  -->}}<!--
  -->{{#if:{{{lower_house|}}}
      | <tr class="mergedbottomrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">[[Lower house]]</td>
+         <td style="padding-left:0;">[[Aqalka hoose]]</td>
          <td>{{{lower_house}}}</td>
        </tr><!--
  -->}}<!--
@@ -511,7 +511,7 @@
         -->| {{#if:{{{established|}}}
               | <th colspan="2">La unkay</th>
                 <td>{{{established}}}</td><!--
-           -->| <th colspan="3">La uruuriyey</th><!--
+           -->| <th colspan="3">La soo xulay</th><!--
           -->}}<!--
        -->}}<!--
 
