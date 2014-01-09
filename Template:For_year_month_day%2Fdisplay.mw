@@ -1,6 +1,6 @@
 {{#switch:{{{years|0}}}
 | 0        =
-| 1        = 1&nbsp;sanad:
+| 1        = 1&nbsp;sano
 | #default = {{{years}}}&nbsp;sanadood
 }}{{#ifeq:{{{years|0}}}|0|<!--null-->|{{#ifeq:{{{months|0}}}|0|<!--null-->|{{#ifeq:{{{days|0}}}|0|&#32;iyo&#32;|,&#32;}} }} }}{{#switch:{{{months|0}}}
 | 0        =
