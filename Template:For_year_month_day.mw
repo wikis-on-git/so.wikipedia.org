@@ -1,0 +1,71 @@
+{{#if:{{{year|}}}
+ |{{#if:{{{month|}}}
+  |{{#if:{{{day|}}}
+   |{{For year month day/display
+    |years={{#expr:{{CURRENTYEAR}}-{{{year}}}-{{#ifexpr:{{CURRENTMONTH}}>{{{month}}}
+     |0
+     |{{#ifexpr:{{CURRENTMONTH}}<{{{month}}}
+      |1
+      |{{#ifexpr:{{CURRENTDAY}}>={{{day}}}
+       |0
+       |1
+       }}
+      }}
+     }}}}
+    |months={{#expr:{{CURRENTMONTH}}-{{{month}}}+{{#ifexpr:{{CURRENTDAY}}>={{{day}}}
+     |{{#ifexpr:{{CURRENTMONTH}}>={{{month}}}
+      |0
+      |12
+      }}
+     |{{#ifexpr:{{CURRENTMONTH}}>{{{month}}}
+      |-1
+      |11
+      }}
+     }}}}
+    |days={{#ifexpr:{{CURRENTDAY}}>={{{day}}}
+     |{{#expr:{{CURRENTDAY}}-{{{day}}}
+      }}
+     |{{#expr:{{Gregorian serial date
+      |year={{CURRENTYEAR}}
+      |month={{CURRENTMONTH}}
+      |day={{CURRENTDAY}}}}-{{Gregorian serial date
+      |year={{CURRENTYEAR}}
+      |month={{#expr:{{CURRENTMONTH}}-1}}
+      |day={{{day}}}
+      }}}}
+     }}
+    }}
+   |{{#ifexpr:{{CURRENTMONTH}}={{{month}}}
+    |{{#ifexpr:{{CURRENTYEAR}}={{{year}}}
+     |0&nbsp;years
+     |{{#expr:{{CURRENTYEAR}}-{{{year}}}-1}}&nbsp;or {{For year month day/display
+      |years={{#expr:{{CURRENTYEAR}}-{{{year}}}}}
+      }}
+     }}
+    |{{#ifexpr:{{CURRENTMONTH}}>{{{month}}}
+     |{{#ifexpr:{{CURRENTYEAR}}={{{year}}}
+      |<!--null value-->
+      |{{For year month day/display
+       |years={{#expr:{{CURRENTYEAR}}-{{{year}}}}}
+       }} and
+      }} {{#expr:{{CURRENTMONTH}}-{{{month}}}-1}}&nbsp;or {{For year month day/display
+      |months={{#expr:{{CURRENTMONTH}}-{{{month}}}}}
+      }}
+     |{{#ifexpr:{{CURRENTYEAR}}={{#expr:{{{year}}}+1}}
+      |<!--null value-->
+      |{{For year month day/display
+       |years={{#expr:{{CURRENTYEAR}}-{{{year}}}-1}}
+       }} and
+      }} {{#expr:{{CURRENTMONTH}}-{{{month}}}+11}}&nbsp;or {{#expr:{{CURRENTMONTH}}-{{{month}}}+12}}&nbsp;months
+     }}
+    }}
+   }}
+  |{{#ifexpr:{{CURRENTYEAR}}={{{year}}}
+   |0&nbsp;years
+   |{{#expr:{{CURRENTYEAR}}-{{{year}}}-1}}&nbsp;or {{For year month day/display
+    |years={{#expr:{{CURRENTYEAR}}-{{{year}}}}}
+    }}
+   }}
+  }}
+ |qayb ka mid ah waqtiga
+}}<noinclude>{{Documentation}}</noinclude>
