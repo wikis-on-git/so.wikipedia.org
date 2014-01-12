@@ -36,12 +36,12 @@
 | {{{name}}}, {{{symbol}}}, {{{number}}}
 |-
 {{#if:{{{pronounce|}}}|
-! Pronunciation
+! Higaad
 {{!}} {{{pronounce}}}
 }}
 |-
 {{#if:{{{series|}}}{{{series comment|}}}|
-! [[Collective names of groups of like elements|Element category]]
+! [[Qaybta ciyiyeha]]
 {{!}} {{#ifeq: {{{series|}}}|noble gas|[[{{{series}}}]]es|{{#ifeq: {{lc:{{{series|}}}}}|unknown|unknown|[[{{{series}}}]]}}}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}
 }}{{#if:{{{series comment|}}}| {{#if:{{{series|}}} |<br />|}}{{{series comment|}}} }}
 |-
@@ -55,7 +55,7 @@
 | {{{electron configuration}}}<br />{{{electrons per shell}}}
 |- <!-- HISTORY -->
 {{#if:{{{naming|{{{etymology|}}}}}}{{{predicted by|}}}{{{prediction date |}}}{{{discovered by|}}}{{{discovery date|}}}{{{first isolation by|}}}{{{first isolation date|}}}{{{named by|}}}{{{named date|}}}{{{history comment|}}}|
-! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} History }}
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Taariikh }}
 |-
 {{#if:{{{naming|{{{etymology|}}}}}}|
 ! Naming
@@ -66,7 +66,7 @@
 {{!}} {{{predicted by|}}} {{#if:{{{prediction date|}}}| {{nowrap| {{#if:{{{predicted by|}}} | &#x20;({{{prediction date|}}}) | {{{prediction date|}}} }} }} }} }}
 |-
 {{#if:{{{discovered by|}}}{{{discovery date|}}}|
-! [[Discoveries of the chemical elements|Discovery]]
+! [[Discoveries of the chemical elements|Helay]]
 {{!}} {{{discovered by|}}} {{#if:{{{discovery date|}}}| {{nowrap| {{#if:{{{discovered by|}}} | &#x20;({{{discovery date|}}}) | {{{discovery date|}}} }} }} }} }}
 |-
 {{#if:{{{first isolation by|}}}{{{first isolation date|}}}|
@@ -74,7 +74,7 @@
 {{!}} {{{first isolation by|}}} {{#if:{{{first isolation date|}}}| {{nowrap| {{#if:{{{first isolation by|}}} | &#x20;({{{first isolation date|}}}) | {{{first isolation date|}}} }} }} }} }}
 |-
 {{#if:{{{named by|}}}{{{named date|}}}|
-! Named {{#if:{{{named by|}}}|by}}
+! Loogu {{#if:{{{named by|}}}|magac daray}}
 {{!}} {{{named by|}}} {{#if:{{{named date|}}}| {{nowrap| {{#if:{{{named by|}}} | &#x20;({{{named date|}}}) | {{{named date|}}} }} }} }} }}
 |-
 {{#if:{{{history comment label|}}}{{{history comment|}}}|
@@ -93,12 +93,12 @@
 }}
 |-
 {{#if:{{{phase|}}}|
-! [[Phase (matter)|Phase]]
+! [[Weji (maatar)|Weji]]
 {{!}} {{#ifeq:{{lc:{{{phase|}}}}}|unknown|unknown|[[{{{phase}}}]]}}{{#if:{{{phase comment|}}}|{{#if:{{{phase|}}}|&#x20;|}}{{{phase comment}}} }}
 }}
 |-
 {{#if:{{{density gplstp|}}}|
-! [[Density]]
+! [[Cufnaan]]
 {{!}} (0 °C, 101.325 [[pascal (unit)|kPa]])<br />{{{density gplstp}}} g/L
 {{!}}-
 }}
@@ -108,27 +108,27 @@
 {{!}}-
 }}
 {{#if:{{{density gpcm3nrt 2|}}}|
-! [[Density]] {{nowrap|(near [[room temperature|r.t.]])}}
+! [[Cufnaan]] {{nowrap|(heerkulka guriga)}}
 {{!}} {{{density gpcm3nrt 2}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3nrt 3|}}}|
-! [[Density]] {{nowrap|(near [[room temperature|r.t.]])}}
+! [[Cufnaan]] {{nowrap|( heerkula guriga dhexdiisa)}}
 {{!}} {{{density gpcm3nrt 3}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3mp|}}}|
-! Liquid [[density]] at [[melting point|m.p.]]
+! Hoor [[Cufnaan]] bar dhalaal
 {{!}} {{{density gpcm3mp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{density gpcm3bp|}}}|
-! Liquid [[density]] at {{nowrap|[[boiling point|b.p.]]}}
+! Hoor [[Cufnaan]] bar {{nowrap|dhalaal}}
 {{!}} {{{density gpcm3bp}}} g·cm<sup>−3</sup>
 {{!}}-
 }}
 {{#if:{{{melting point K|}}}{{{melting point C|}}}{{{melting point F|}}}|
-! [[Melting point|Melting&nbsp;point]]
+! [[Melting point|Heerkul&nbsp;dhalaal]]
 {{!}} {{#if:{{{melting point pressure|}}}|({{{melting point pressure}}})&nbsp;}}{{#if:{{{melting point K|}}}|{{{melting point K}}}&nbsp;[[kelvin|K]]{{#if:{{{melting point C|}}}{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point C|}}}|{{{melting point C}}}&nbsp;°C{{#if:{{{melting point F|}}}|, |}}|}}{{#if:{{{melting point F|}}}|{{{melting point F}}}&nbsp;°F|}}
 {{!}}-
 }}
@@ -138,17 +138,17 @@
 {{!}}-
 }}
 {{#if:{{{boiling point K|}}}{{{boiling point C|}}}{{{boiling point F|}}}|
-! [[Boiling point|Boiling&nbsp;point]]
+! [[Boiling point|Bar&nbsp;karkar]]
 {{!}} {{#if:{{{boiling point pressure|}}}|({{{boiling point pressure}}})&nbsp;}}{{#if:{{{boiling point K|}}}|{{{boiling point K}}}&nbsp;K{{#if:{{{boiling point C|}}}{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point C|}}}|{{{boiling point C}}}&nbsp;°C{{#if:{{{boiling point F|}}}|, |}}|}}{{#if:{{{boiling point F|}}}|{{{boiling point F}}}&nbsp;°F|}}
 {{!}}-
 }}
 {{#if:{{{triple point K|}}}|
-! [[Triple point|Triple&nbsp;point]]
+! [[Triple point|Barta&nbsp;saddeleyda]]
 {{!}} {{{triple point K}}}&nbsp;K<!--({{#expr: {{{triple point K}}}-273.16 round 0}}°C)-->, {{{triple point kPa}}}&nbsp;kPa
 {{!}}-
 }}
 {{#if:{{{critical point K|}}}|
-! [[Critical point (thermodynamics)|Critical&nbsp;point]]
+! [[Critical point (thermodynamics)|Bar&nbsp;qirinqiirka]]
 {{!}} {{{critical point K}}} K, {{{critical point MPa}}} MPa
 {{!}}-
 }}
@@ -158,27 +158,27 @@
 {{!}}-
 }}
 {{#if:{{{heat fusion 2|}}}|
-! [[Enthalpy of fusion|Heat&nbsp;of&nbsp;fusion]]
+! [[Enthalpy of fusion|Isku&nbsp;dhalaal&nbsp;kul]]
 {{!}} {{#if:{{{heat fusion pressure|}}}|({{{heat fusion pressure}}})&nbsp;}}{{{heat fusion 2}}} kJ·mol<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{heat vaporization|}}}|
-! [[Enthalpy of vaporization|Heat of {{engvar|{{{engvar|}}}|en-uk=vapourisation| en-us=vaporization|default=en-US}}]]
+! [[Enthalpy of vaporization|Heerka&nbsp;uumiga]]
 {{!}} {{#if:{{{heat vaporization pressure|}}}|({{{heat vaporization pressure}}})&nbsp;}}{{{heat vaporization}}} kJ·mol<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{heat capacity|}}}|
-! [[Molar heat capacity]]
+! Qaadka kul mooler
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{heat capacity 2|}}}|
-! [[Molar heat capacity]]
+! Qaadka kul moolerka
 {{!}} {{#if:{{{heat capacity pressure|}}}|{{{heat capacity pressure}}}}} {{{heat capacity 2}}} J·mol<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{vapor pressure 1|}}}{{{vapor pressure 100 k|}}}|
-! colspan=2 style="text-align: center" {{!}} [[Vapor pressure|{{engvar|{{{engvar|}}}|en-uk=Vapour| en-us=Vapor|default=en-US}} pressure]]{{#if:{{{vapor pressure comment|}}}|&nbsp;{{{vapor pressure comment}}}}}
+! colspan=2 style="text-align: center" {{!}} [[Vapor pressure|Cadaadis uumi]]{{#if:{{{vapor pressure comment|}}}|&nbsp;{{{vapor pressure comment}}}}}
 {{!}}-
 {{!}} colspan=2 {{!}}
 {{{!}} class="wikitable" style="width: 100%; border-collapse: collapse; margin:0;"
@@ -202,7 +202,7 @@
 {{!}}-
 }}
 {{#if:{{{vapor pressure 100 k 2|}}}|
-! colspan=2 style="text-align: center" {{!}} [[Vapor pressure|{{engvar|{{{engvar|}}}|en-uk=Vapour| en-us=Vapor|default=en-US}} pressure]]{{#if:{{{vapor pressure comment 2|}}}|&nbsp;{{{vapor pressure comment 2}}} }}
+! colspan=2 style="text-align: center" {{!}} [[Vapor pressure|Cadaadis uumi]]{{#if:{{{vapor pressure comment 2|}}}|&nbsp;{{{vapor pressure comment 2}}} }}
 {{!}}-
 {{!}} colspan=2 {{!}}
 {{{!}} class="wikitable" style="width: 100%; border-collapse: collapse; margin:0;"
@@ -232,18 +232,18 @@
 }}
 |-
 {{#if:{{{oxidation states|}}}|
-! [[Oxidation state]]s
+! [[Oxidation state|Weji ogsidhayn]]
 {{!}} {{{oxidation states}}}{{#if:{{{oxidation states comment|}}}|<br />({{{oxidation states comment}}})}}
 {{!}}-
 }}
 {{#if:{{{electronegativity|}}}|
-! [[Electronegativity]]
+! [[Koronto]]
 {{!}} {{{electronegativity}}} (Pauling scale)
 {{!}}-
 }}
 {{#if:{{{number of ionization energies|}}}|{{#switch:{{{number of ionization energies}}}
  |1={{!}}-
-! [[ionization energy| {{engvar|{{{engvar|}}}|en-uk=Ionisation|en-us=Ionization | default=en-US}} energies]]
+! [[ionization energy|Ayoonayn tamar]]
 {{!}} 1st: {{{1st ionization energy}}} kJ·mol<sup>−1</sup>
  |2={{!}}-
 ! rowspan=2 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Ionization| default=en-US}} energies]]
