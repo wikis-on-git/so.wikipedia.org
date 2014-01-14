@@ -45,7 +45,7 @@
 {{!}} {{#ifeq: {{{series|}}}|noble gas|[[{{{series}}}]]es|{{#ifeq: {{lc:{{{series|}}}}}|unknown|unknown|[[{{{series}}}]]}}}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}
 }}{{#if:{{{series comment|}}}| {{#if:{{{series|}}} |<br />|}}{{{series comment|}}} }}
 |-
-! [[Uruu (kimistari|urur]], [[Kaltan]], [[block (periodic table)|block]]
+! [[Uruu (kimistari|urur]], [[Kaltan]], [[block (periodic table)|heerka]]
 | <noinclude>{{{group}}}</noinclude><includeonly>{{infobox element/group|group={{{group|}}}|series={{{series|}}}|number={{{number|}}}|predicted={{{predicted|no}}}}}</includeonly>, [[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
 |-
 ! [[Culays atam]]
@@ -246,19 +246,19 @@
 ! [[ionization energy|Ayoonayn tamar]]
 {{!}} 1st: {{{1st ionization energy}}} kJ·mol<sup>−1</sup>
  |2={{!}}-
-! rowspan=2 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Ionization| default=en-US}} energies]]
+! rowspan=2 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Aayonayn| default=en-US}} tamar]]
 {{!}} 1st: {{{1st ionization energy}}} kJ·mol<sup>−1</sup>
 {{!}}-
 {{!}} 2nd: {{{2nd ionization energy}}} kJ·mol<sup>−1</sup>
  |3={{!}}-
-! rowspan=3 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Ionization| default=en-US}} energies]]
+! rowspan=3 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Aayonayn| default=en-US}} tamar]]
 {{!}} 1st: {{{1st ionization energy}}} kJ·mol<sup>−1</sup>
 {{!}}-
 {{!}} 2nd: {{{2nd ionization energy}}} kJ·mol<sup>−1</sup>
 {{!}}-
 {{!}} 3rd: {{{3rd ionization energy}}} kJ·mol<sup>−1</sup>
  |4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|More|more={{!}}-
-! rowspan=3 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Ionization| default=en-US}} energies]]<br />([[ionization energies of the elements{{!}}more]])
+! rowspan=3 valign="top" {{!}} [[ionization energy{{!}}{{engvar|{{{engvar|}}}|en-uk=Ionisation| en-us=Aayonayn| default=en-US}} tamar]]<br />([[ionization energies of the elements{{!}}dheeraad]])
 {{!}} 1st: {{{1st ionization energy}}} kJ·mol<sup>−1</sup>
 {{!}}-
 {{!}} 2nd: {{{2nd ionization energy}}} kJ·mol<sup>−1</sup>
@@ -278,12 +278,12 @@
 {{!}}-
 }}
 {{#if:{{{covalent radius|}}}|
-! [[Covalent radius]]
+! [[Covalent radius|Dabar wadaag gacan]]
 {{!}} {{{covalent radius}}} pm{{#if:{{{covalent radius comment|}}}|<br />{{{covalent radius comment}}}}}
 {{!}}-
 }}
 {{#if:{{{Van der Waals radius|}}}|
-! [[Van der Waals radius]]
+! [[Van der Waals radius|Gacan faderwaalis]]
 {{!}} {{{Van der Waals radius}}} pm
 }}
 |- <!-- MISCELLANEA -->
@@ -293,7 +293,7 @@
 }}
 |-
 {{#if:{{{crystal structure|}}}{{{crystal structure comment|}}}|
-! [[Crystal structure]]
+! [[Crystal structure|Dhismo wiriq]]
 {{!}} {{Infobox element/crystal structure wikilink|{{{crystal structure|}}}}}{{{crystal structure ref|}}}
 <div style="float:right; border:none;">{{#ifexist:Media:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}| [[File:{{Infobox element/crystal structure image| {{{crystal structure|}}}}}|50px|{{ucfirst: {{{name}}}}} has a {{{crystal structure}}} crystal structure]]}}</div>{{#if:{{{crystal structure comment|}}}|{{#if:{{{crystal structure|}}}|<br />{{clear}}}}{{{crystal structure comment|}}}}}
 }}
@@ -305,7 +305,7 @@
 }}
 |-
 {{#if:{{{magnetic ordering|}}}|
-! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[magnetism|Magnetic ordering]]
+! rowspan={{#if:{{{Curie point|}}}|2|1}} valign="top" {{!}} [[Birlab|Horsiimo birlabeed]]
 {{!}} {{{magnetic ordering}}}
 {{!}}-
 }}
@@ -334,7 +334,7 @@
 {{!}}-
 }}
 {{#if:{{{thermal conductivity 2|}}}|
-! [[Thermal conductivity]]
+! [[Thermal conductivity|Kul-cudbin]]
 {{!}} {{{thermal conductivity 2}}}&nbsp;W·m<sup>−1</sup>·K<sup>−1</sup>
 {{!}}-
 }}
@@ -354,17 +354,17 @@
 {{!}}-
 }}
 {{#if:{{{speed of sound|}}}|
-! [[Speed of sound]]
+! [[Speed of sound|Xawaaraha dhawaqa]]
 {{!}} {{{speed of sound}}} [[metre per second|m·s<sup>−1</sup>]]
 {{!}}-
 }}
 {{#if:{{{speed of sound rod at 20|}}}|
-! [[Speed of sound]] (thin rod)
+! [[Speed of sound|Xawaaraha dhawaqa]] (thin rod)
 {{!}} (20 °C) {{{speed of sound rod at 20}}} m·s<sup>−1</sup>
 {{!}}-
 }}
 {{#if:{{{speed of sound rod at r.t.|}}}|
-! [[Speed of sound]] (thin rod)
+! [[Speed of sound|Xawaaraha dhawaqa]] (thin rod)
 {{!}} ([[room temperature|r.t.]]) {{{speed of sound rod at r.t.}}}&nbsp;m·s<sup>−1</sup>
 {{!}}-
 }}
@@ -424,17 +424,17 @@
 }}
 |- <!-- ISOTOPES -->
 {{#if:{{{isotopes|}}}|
-! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Most stable isotopes
+! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} {{!}} Dhamaan aysotoob degan
 {{!}}-
 {{hide in print|1=
-{{!}} colspan=2 style="text-align: center" {{!}} Main article: [[Isotopes of {{{name}}}]]
+{{!}} colspan=2 style="text-align: center" {{!}} Maqaalka rasmiga ah: [[Aysotoob {{{name}}}]]
 {{!}}-
 }}
 {{!}} colspan=2 {{!}}
 {{{!}} class="wikitable" style="text-align: center; width: 100%; border-collapse: collapse; margin:0;"
 ! [[isotope{{!}}iso]]
 ! [[natural abundance{{!}}NA]]
-! [[half-life]]
+! [[half-life|Cumri-badh]]
 ! [[decay mode{{!}}DM]]
 ! [[decay energy{{!}}DE]] <small>([[electronvolt{{!}}MeV]])</small>
 ! [[decay product{{!}}DP]]
