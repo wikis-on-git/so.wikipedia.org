@@ -1,32 +1,182 @@
-{| class="wikitable" style="margin:2px; margin-right:0; width:100%; text-align:left;"
-|+ Maamul-magaalo Baabiyloon
-|-
-|[[File:Iraq_location_map.svg]]<br>Maabka deegaanka u dhow iyo magaalada Baabiyloon.</br>
+{{infobox
+| bodyclass = vcard
+| bodystyle = width: 25em; line-height: 1.5em
 
-|-
-|'''Taariikhda Deegaanka'''
-|-
-|Magaca: Baabiyloon
-|-
-|Dalka: [[Ciraaq]]
-|-
-|Meesha: Hillah, maamulka Baabiylon, [[Ciraaq]]
-|-
-|Meesha ay dhacdo: [//tools.wmflabs.org/geohack/geohack.php?pagename=Babylon&params=32_32_11_N_44_25_15_E_type:landmark=32 32` 11”W 44 25` 15” B]
-|-
-|Deegaanka: [[Mesobotaamiya]]
-|-
-|Baaxada: 9 km<sup>2</sup>
-|-
-|Dadki Dhisay: Amorites
-|-
-|Wakhtigi la dhisay: 1894&nbsp;CH
-|-
-|Wakhtiga burburtey: Lama yaqaan
-|-
-|Dhaqanka: Dhaqanadii hore
-|-
-|Marxalada hada tahay: Burburtey
-|-
-|[[File:US_Navy_030529-N-5362A-001_A_U.S._Marine_Corps_Humvee_vehicle_drives_down_a_road_at_the_foot_of_Saddam_Hussein%27s_former_Summer_palace_with_ruins_of_ancient_Babylon_in_the_background.jpg|150px]]<br>Muuqaalka deegaanka hadhaagii burburka magaaladii Baabiyloon.</br>
-|}
+| abovestyle = font-size:larger
+| above = <includeonly><span class="fn org">{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}</span></includeonly>{{#if:{{{native_name|}}}|<br /><span class="nickname" style="font-size:85%">{{{native_name|}}}</span>}}
+
+| headerstyle = background-color:{{{background|#9999AA}}}; color:{{{color|white}}};
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagewidth|}}}}}}|sizedefault=285px|alt={{{alt|{{{imagealttext|}}}}}}}}
+| caption = {{{caption|}}}
+
+| image2 = {{{map|}}}
+| caption2 = {{{map_caption|}}}
+
+| image3 = {{#if: {{{map_type|}}}|<center>{{Location map|{{{map_type|}}}
+ |relief  = {{{relief|}}}
+ |alt     = {{{map_alt|}}}
+ |lat     = {{#if:{{{latm|}}}{{{latNS|}}}| | {{{latitude|{{{latd|}}}}}} }}
+ |long    = {{#if:{{{longm|}}}{{{longEW|}}}| | {{{longitude|{{{longd|}}}}}} }}
+ |lat_deg ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec ={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir ={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec ={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir ={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |float   = center
+ |mark    = Gfi-set01-archaeology-site-red.png
+ |label   = {{{map dot label|{{{map_dot_label|}}}}}}
+ |border  = none
+ |caption = {{#if:{{{map_caption}}}|<center>{{{map_caption|Shown within {{{map_type}}}}}}</center>}}
+ |width   = {{#if:{{{map_size|}}}|{{{map_size}}}|220}}
+}}</center>}}
+
+| label1 = Loo&nbsp;yaqaan
+| class1 = magac u-yeel
+| data1 = {{{alternate_name|}}}
+
+| label2 = Barta
+| class2 = label
+| data2 = {{{location|}}}
+
+| label3 = Gobolka
+| class3 = label
+| data3 = {{{region|}}}
+
+| label4 = Coordinates
+| data4 = {{#if:{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}
+ |{{Geobox coor|{{#if:{{{latitude|}}}|{{{latitude}}}|{{{latd|}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{#if:{{{longitude|}}}|{{{longitude}}}|{{{longd|}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{{coordinates_type|type:landmark{{#if:{{{iso_region|}}}|_region:{{{iso_region}}}}} }}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}
+ |{{{coordinates|}}}
+ }}
+
+| label5 = Nuuca
+| class5 = category
+| data5 = {{{type|}}}
+
+| label6 = Qayb&nbsp;ka mida
+| data6 = {{{part_of|}}}
+
+| label7 = Dherer
+| data7 = {{{length|}}}
+
+| label8 = Ballac
+| data8 = {{{width|}}}
+
+| label9 = Bedka
+| data9 = {{{area|}}}
+
+| label10 = Joogga
+| data10 = {{{height|}}}
+
+| header11 = {{#if:{{{builder|}}}{{{material|}}}{{{built|}}}{{{abandoned|}}}{{{epochs|}}}{{{cultures|}}}{{{occupants|}}}{{{event|}}}|History}}
+
+| label12 = Dhisme
+| data12 = {{{builder|}}}
+
+| label13 =  Qalab
+| class13 = category
+| data13 = {{{material|}}}
+
+| label14 =  La asasay 
+| data14 = {{{built|}}}
+
+| label15 = Lagatagay
+| data15 = {{{abandoned|}}}
+
+| label16 =  Xiliyada
+| data16 = {{{epochs|}}}
+
+| label17 = Dhaqan
+| data17 = {{{cultures|}}}
+
+| label18 =  Dayax&nbsp;gacameedka
+| data18 = {{{dependency_of|}}}
+
+| label19 = Xiriir&nbsp;la leh
+| data19 = {{{occupants|}}}
+
+| label20 =  Dhacdo
+| data20 = {{{event|}}}
+
+| header21 = {{#if:{{{excavations|}}}{{{archaeologists|}}}{{{condition|}}}{{{ownership|}}}{{{public_access|}}}{{{website|}}}{{{notes|}}}| Site notes }}
+
+| label22 = Kabxid&nbsp;taariikh
+| data22 = {{{excavations|}}}
+
+| label23 =  arkiyoolojiyada
+| data23 = {{{archaeologists|}}}
+
+| label24 =  Xaaladda
+| data24 = {{{condition|}}}
+
+| label25 = Lahaanshaha
+| data25 = {{{ownership|}}}
+
+| label26 =  Maamulka
+| data26 = {{{management|}}}
+
+| label27 =  Hanti&nbsp;dadweyne
+| data27 = {{{public_access|}}}
+
+| label28 =  Website
+| data28 = {{{website|}}}
+
+<!-- designation1 section -->
+| data29 = {{#if:{{{designation1|}}}{{{designation1_offname|}}}{{{designation1_type|}}}{{{designation1_criteria|}}}{{{designation1_date|}}}{{{delisted1_date|}}}{{{designation1_partof|}}}{{{designation1_number|}}}{{{designation1_free1value|}}}{{{designation2_free1value|}}}{{{designation1_free3value|}}}
+   |{{Infobox | child = yes
+   | header1 = {{designation/divbox|{{{designation1|}}}|delisted={{{delisted1_date|}}}}}
+   | data2 = {{#if:{{{designation1_offname|}}}|''Official name: {{{designation1_offname}}}''}}
+   | label3 = Type
+   | data3 = {{{designation1_type|}}}
+   | label4 = Criteria
+   | data4 = {{{designation1_criteria|}}}
+   | label5 = Designated
+   | data5 = {{{designation1_date|}}}
+   | label6 = Delisted
+   | data6 = {{{delisted1_date|}}}
+   | label7 = Part of
+   | data7 = {{{designation1_partof|}}}
+   | label8 = Reference&nbsp;No.
+   | data8 = {{{designation1_number|}}}
+   | label9 = {{{designation1_free1name|}}}
+   | data9 = {{{designation1_free1value|}}}
+   | label10 = {{{designation1_free2name|}}}
+   | data10 = {{{designation1_free2value|}}}
+   | label11 = {{{designation1_free3name|}}}
+   | data11 = {{{designation1_free3value|}}}
+}}}}
+
+<!-- designation2 section -->
+| data30 = {{#if:{{{designation2|}}}{{{designation2_offname|}}}{{{designation2_type|}}}{{{designation2_criteria|}}}{{{designation2_date|}}}{{{delisted1_date|}}}{{{designation2_partof|}}}{{{designation2_number|}}}{{{designation2_free1value|}}}{{{designation2_free2value|}}}{{{designation2_free3value|}}}
+   |{{Infobox | child = yes
+   | header1 = {{designation/divbox|{{{designation2|}}}|delisted={{{delisted2_date|}}}}}
+   | data2 = {{#if:{{{designation2_offname|}}}|''Official name: {{{designation2_offname}}}''}}
+   | label3 = Type
+   | data3 = {{{designation2_type|}}}
+   | label4 = Criteria
+   | data4 = {{{designation2_criteria|}}}
+   | label5 = Designated
+   | data5 = {{{designation2_date|}}}
+   | label6 = Delisted
+   | data6 = {{{delisted2_date|}}}
+   | label7 = Part of
+   | data7 = {{{designation2_partof|}}}
+   | label8 = Reference&nbsp;No.
+   | data8 = {{{designation2_number|}}}
+   | label9 = {{{designation2_free1name|}}}
+   | data9 = {{{designation2_free1value|}}}
+   | label10 = {{{designation2_free2name|}}}
+   | data10 = {{{designation2_free2value|}}}
+   | label11 = {{{designation2_free3name|}}}
+   | data11 = {{{designation2_free3value|}}}
+}}}}
+
+| belowstyle = font-weight:lighter; font-size:smaller
+| below = {{{notes|}}}
+
+}}<noinclude>
+{{documentation}}<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>
