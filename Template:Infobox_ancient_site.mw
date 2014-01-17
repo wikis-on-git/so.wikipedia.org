@@ -8,20 +8,16 @@ __NOTOC__
 {| id="mp-columns" style="margin:0 0 4px 0; background:transparent;"
 | style="width:52%; border:1px solid #badecc; vertical-align:top; color:#000;  background:#f5fffa;" |
 {| id="mp-left" cellpadding="2" cellspacing="6" style="width:100%; vertical-align:top; "
-!id="mp-fa"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[File:background.jpg]]</div>
- <!--Tiirka Bidix-->
-{| id="mp-columns" style="margin:0 0 4px 0; background:transparent;"
-| style="width:52%; border:1px solid #badecc; vertical-align:top; color:#000;  background:#f5fffa;" |
-{|id="mp-left" cellpadding="2" cellspacing="6" style="width:100%; vertical-align:top; "
-!id="mp-fa"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;"><nowiki></nowiki></div>
+!id="mp-fa"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{!}} <div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[File:Iraq_location_map.svg]]</div>
+
 ----
 |-
-|{{Infobox ancient site
+| sharaxaada deegaan
   |name = Baabiloon
   |native_name = بابل
   |alternate_name = 
-  |image = US Navy 030529-N-5362A-001 A U.S. Marine Corps Humvee vehicle drives down a road at the foot of Saddam Hussein's former Summer palace with ruins of ancient Babylon in the background.jpg
-  |imagealttext = From the foot of Saddam Hussein's Summer Palace a Humvee is seen driving down a road towards the left. Palm trees grow near the road and the ruins of Babylon can be seen in the background.
+  |image = Iraq_location_map.svg
+  |imagealttext = US_Navy_030529-N-5362A-001_A_U.S._Marine_Corps_Humvee_vehicle_drives_down_a_road_at_the_foot_of_Saddam_Hussein%27s_former_Summer_palace_with_ruins_of_ancient_Babylon_in_the_background.jpg/285px-thumbnail.jpg
   |caption = Qeyb yar Baabiyloon burbursan oo ku beegan Saddam Xusseen tegi jiray wakhtiga [[gu']]ga.
   |map_type = Ciraaq
   |map_alt = Baabiyloon waxay dhacdaa badhtamaha Ciraaq
@@ -60,3 +56,4 @@ __NOTOC__
   |website = <!-- {{URL|example.com}} -->
   |notes = 
 }}
+|}
