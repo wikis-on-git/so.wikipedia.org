@@ -1,4 +1,4 @@
-{{Geobox|Wabi
+{{Geobox|
  <!-- *** Heading *** -->
  | name = Wabiga Tirgis
 <!-- *** Image *** -->
@@ -12,7 +12,7 @@
 <!-- *** Information *** -->
  | starting from = Harada Hasar
  | ends at = Basra, Ciraaq
- |length = 1,850 km
+ |length = 1,850
  |width = 
  <!-- *** Coordinate *** -->
  |latd = 32
@@ -23,8 +23,8 @@
  |longm = 25
  |longs = 15
  |longEW = B
+
  |coordinates_display = title
- |epochs = <!-- actually displays as "Periods" -->
  |website = <!-- {{URL|example.com}} -->
  |notes = 
 }}
