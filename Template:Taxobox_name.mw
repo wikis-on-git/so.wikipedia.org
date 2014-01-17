@@ -1,30 +1,3 @@
-{{Geobox|
- <!-- *** Heading *** -->
- | name = Wabiga Tirgis
-<!-- *** Image *** -->
- | image = Tigris_River_At_Diyarbakir.JPG
- | image caption = qiyaastii 100 km ilaa meesha uu ka soo bilaabmo
- | image size = 300
-<!-- *** Country *** -->
- | country = Turkey
- | country1 = Suuriya
- | country2 = Ciraaq
-<!-- *** Information *** -->
- | starting from = Harada Hasar
- | ends at = Basra, Ciraaq
- |length = 1,850
- |width = 
- <!-- *** Coordinate *** -->
- |latd = 32
- |latm = 32
- |lats = 11
- |latNS = W
- |longd = 44
- |longm = 25
- |longs = 15
- |longEW = B
-
- |coordinates_display = title
- |website = <!-- {{URL|example.com}} -->
- |notes = 
-}}
+{{#switch:'''''{{PAGENAMEBASE}}'''''|{{{1}}}|'''{{1x|1={{{1}}} }}'''|{{{2}}}|'''{{1x|1={{{2}}} }}'''|{{{3}}}|'''{{1x|1={{{3}}} }}'''|'''{{{4}}}'''=''{{PAGENAMEBASE}}''{{italic title}}|{{PAGENAMEBASE}} }}<noinclude>{{documentation}}</noinclude><noinclude>
+[[Category:Template]]
+</noinclude>
