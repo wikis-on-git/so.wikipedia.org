@@ -1,12 +1,12 @@
 <table class="infobox geography vcard" style="width:23em; text-align:left">
 <tr>
-<th colspan="2" style="width:100%; text-align:center; font-size:1.25em; white-space:nowrap"><span class="fn org">{{#if:{{{name|Taariikhda Ciraaq}}}|{{{Ciraaq}}}|{{#if:{{{official_name|Ciraaq}}}|{{{official_name}}}|{{Boqortooyo}}}}}}</span>{{#if:{{{native_name|Mesobotaamiya}}}|<br /><span class="nickname" {{#if:{{{native_name_lang|[[Baabiyloon]], [[Akkadiyaan]], [[Sumeer]]}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}{{#if:{{{other_name|}}}|<br /><span class="nickname" style="font-size:78%">{{{other_name}}}</span>}}</th>
+<th colspan="2" style="width:100%; text-align:center; font-size:1.25em; white-space:nowrap"><span class="fn org">{{#if:{{{name|}}}|{{{name}}}|{{#if:{{{official_name|}}}|{{{official_name}}}|{{PAGENAME}}}}}}</span>{{#if:{{{native_name|}}}|<br /><span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}{{#if:{{{other_name|}}}|<br /><span class="nickname" style="font-size:78%">{{{other_name}}}</span>}}</th>
 </tr>
-{{#if:{{both|{{{name|[[Mesobotaamiya|Taariikhda Ciraaqdii hore]]}}}{{{official_name|}}}|{{{settlement_type|{{{type|}}}}}}}}|
+{{#if:{{both|{{{name|}}}{{{official_name|}}}|{{{settlement_type|{{{type|}}}}}}}}|
 <tr class="mergedtoprow"><!-- ***category*** -->
 <td colspan="2" style="text-align:center; background-color:#cddeff">—&nbsp;&nbsp;'''<span class="category">{{{settlement_type|{{{type}}}}}}</span>'''&nbsp;&nbsp;—</td>
 </tr>
-}}{{#if:{{both|{{{name|[[Mesobotaamiya|Taariikhda Ciraaqdii Dhexe]]}}}|{{{official_name|}}}}}|
+}}{{#if:{{both|{{{name|}}}|{{{official_name|}}}}}|
 <tr class="mergedtoprow">
 <th colspan="2" style="text-align:center">{{{official_name}}}</th>
 </tr>
@@ -90,9 +90,9 @@
 <td>{{{translit_lang2_info6|}}}</td>
 </tr>
 }} }}
-{{#if:{{{image_skyline|[[File:Babylonlion.JPG|100px|alt=Sharaxaad albaabka Ishtar]]}}}|
+{{#if:{{{image_skyline|}}}|
 <tr><!-- ***Skyline Image*** -->
-<td colspan="2" style="text-align:center; padding:0.7em 0.8em">[[File:Babylonlion.JPG|100px|alt=Sharaxaad albaabka Ishtar]]{{{image_skyline}}}|{{#if:{{{imagesize|250px}}}|{{{imagesize}}}|250px}}|none|alt={{{image_alt|}}}|{{{image_caption|Skyline of {{#if:{{{name|[[Islaam|Wakhtiyadii Maamulka Islaamka]]}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption}}}</small>}}</td>
+<td colspan="2" style="text-align:center; padding:0.7em 0.8em">[[File:{{{image_skyline}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|250px}}|none|alt={{{image_alt|}}}|{{{image_caption|Skyline of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}]]{{#if:{{{image_caption|}}}|<small>{{{image_caption}}}</small>}}</td>
 </tr>
 }}{{#if:{{{image|}}}|
 <tr><!-- ***Other Image*** -->
