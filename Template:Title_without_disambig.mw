@@ -1,0 +1,3 @@
+<includeonly>{{#Invoke:String|replace|{{{1|}}}|%s%(.*%)||plain=false}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
