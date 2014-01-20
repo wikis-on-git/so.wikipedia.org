@@ -1,25 +1,23 @@
 {{Infobox number/box
 |number={{#if:{{{number<includeonly>|</includeonly>}}}
   | {{{number<noinclude>|{{#time:j}}</noinclude>}}}
-  | {{title without disambig|{{PAGENAME}}}}
+  | {{title without disambig|{{Lambarada Tirada}}}}
   }}
-| cardinal = {{{cardinal|}}}
-| ordinal = {{{ordinal|}}}
+| qoraal ahaan = {{{qoraal ahaan|}}}
+| sifo = {{{sifo|}}}
 | ordinal text = {{{ordinal text|}}}
-| numeral = {{{numeral|}}}
-| factorization = {{{factorization|}}}
+| tiro ahaan = {{{Tiro ahaan|}}}
+| jajabka = {{{Jajabka|}}}
 | gaussian integer factorization = {{{Gaussian integer factorization|{{{gaussian integer factorization|}}}}}}
 | prime = {{{prime|}}}
-| divisor = {{{divisor|}}}
+| kala jebiye = {{{divisor|}}}
 | roman = {{{Roman|{{{roman|}}}}}}
 | roman unicode = {{{Roman unicode|{{{roman unicode|}}}}}}
 | unicode = {{{unicode|}}}
-| greek prefix = {{{Greek prefix|{{{greek prefix|}}}}}}
-| latin prefix = {{{Latin prefix|{{{latin prefix|}}}}}}
-| old english prefix = {{{Old English prefix|{{{old english prefix|}}}}}}
-| lang1 = {{{lang1|}}}
+| old english prefix = {{{Horgale Ingiriis|{{{horgale ingiriis|}}}}}}
+| lang1 = {{{af Giriig|}}}
 | lang1 symbol = {{{lang1 symbol|}}}
-| lang2 = {{{lang2|}}}
+| lang2 = {{{af Carabi|}}}
 | lang2 symbol = {{{lang2 symbol|}}}
 | lang3 = {{{lang3|}}}
 | lang3 symbol = {{{lang3 symbol|}}}
@@ -49,6 +47,4 @@
 | lang15 symbol = {{{lang15 symbol|}}}
 | lang16 = {{{lang16|}}}
 | lang16 symbol = {{{lang16 symbol|}}}
-}}<noinclude>
-{{documentation}}<!-- Add categories to the /doc subpage, not here! -->
-</noinclude>
+}}
