@@ -1,5 +1,12 @@
-{|class="Wikitable"
-|-
+{{Navbox
+|name=Tiro
+|title=[[Aasaaska Tirada]]
+|state=
+|listclass=
+|style=clear:none; width:70%;min-width:40em
+|list1=
+|title=[[0]]aad
+|state={{if|eq|{{{1|}}}|zero|uncollapsed|collapsed}}
 *&nbsp;[[0]]&nbsp;
 *&nbsp;[[1]]&nbsp;
 *&nbsp;[[2]]&nbsp;
@@ -10,4 +17,4 @@
 *&nbsp;[[7]]&nbsp;
 *&nbsp;[[8]]&nbsp;
 *&nbsp;[[9]]
-|}
+}}
