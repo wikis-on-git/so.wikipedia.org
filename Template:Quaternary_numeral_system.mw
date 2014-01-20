@@ -1,0 +1,8 @@
+<includeonly>{{#invoke: BaseConvert 
+   | convert 
+   | n={{{1}}} 
+   | base=4 
+   | suffix=<sub>4</sub>
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
