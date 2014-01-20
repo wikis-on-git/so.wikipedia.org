@@ -13,43 +13,43 @@
 | subheaderstyle = font-size:100%;
 | subheader = {{Infobox number/range|{{{number}}}}}
 
-| label1 = [[Cardinal number (linguistics)|Cardinal]]
+| label1 = Qoraal ahaan
 | data1  = {{#if: {{{cardinal|}}} | {{{cardinal}}} | {{#invoke:ConvertNumeric |numeral_to_english|{{{number}}}}} }}
 
-| label2 = [[Ordinal number (linguistics)|Ordinal]]
+| label2 = Sifo
 | data2 = {{#if: {{{ordinal|}}} | {{{ordinal}}} | {{Ordinal|{{{number}}}}}<br />({{#if:{{{ordinal text|}}}|{{{ordinal text}}}|{{#invoke:convertNumeric|numeral_to_english|{{{number}}}|ord= on}} }})}}
 
-| label3 = [[Numeral system]] 
+| label3 = Tiro ahaan 
 | label3 = {{{numeral|}}}
 
-| label4 = [[Factorization]] 
+| label4 = Fur furan 
 | data4  = {{#if:{{{factorization|}}}|{{{factorization}}}|{{#ifexpr:{{{number}}} > 1 and {{{number}}} < 1000000| {{#invoke:Factorization|factor|{{{number}}}|big= yes|serif= yes}} }} }}
 
-| label5 = [[Gaussian integer]] factorization
+| label5 = Jajaban
 | data5 = {{{gaussian integer factorization|}}}
 
-| label6 = [[prime number|Prime]] 
+| label6 = tiro idil 
 | data6 = {{{prime|}}}
 
-| label7 = [[Divisor]]s
+| label7 = Uqaybsane
 | data7 = {{{divisor|}}}
 
-| label8 = [[Roman numerals|Roman numeral]]
+| label8 = Tiro roman
 | data8  = {{#if:{{{roman|}}}|{{{roman}}}| {{#ifexpr: {{{number}}} >= 1 | {{Roman|{{{number}}}|}} }} }}
 
-| label9 = Roman numeral ([[unicode]])
+| label9 = Tiro roman
 | data9 = {{{roman unicode|}}}
 
-| label10 = [[Unicode]] symbol(s)
+| label10 = Unicode summad)
 | data10 = {{{unicode|}}}
 
-| label11 = [[Greek language|Greek]] [[Numeral prefix|prefix]]
+| label11 = Tiro gariig]
 | data11 = {{{greek prefix|}}}
 
-| label12 = [[Latin]] [[Numeral prefix|prefix]]
+| label12 = Tiro laatiin
 | data12 = {{{latin prefix|}}}
 
-| label13 = [[Old English]] [[Numeral prefix|prefix]]
+| label13 = Ingriis
 | data13 = {{{old english prefix|}}}
 
 | label15 = [[Binary number|Binary]]
