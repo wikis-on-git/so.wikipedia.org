@@ -1,0 +1,54 @@
+{{Infobox number/box
+|number={{#if:{{{number<includeonly>|</includeonly>}}}
+  | {{{number<noinclude>|{{#time:j}}</noinclude>}}}
+  | {{title without disambig|{{PAGENAME}}}}
+  }}
+| cardinal = {{{cardinal|}}}
+| ordinal = {{{ordinal|}}}
+| ordinal text = {{{ordinal text|}}}
+| numeral = {{{numeral|}}}
+| factorization = {{{factorization|}}}
+| gaussian integer factorization = {{{Gaussian integer factorization|{{{gaussian integer factorization|}}}}}}
+| prime = {{{prime|}}}
+| divisor = {{{divisor|}}}
+| roman = {{{Roman|{{{roman|}}}}}}
+| roman unicode = {{{Roman unicode|{{{roman unicode|}}}}}}
+| unicode = {{{unicode|}}}
+| greek prefix = {{{Greek prefix|{{{greek prefix|}}}}}}
+| latin prefix = {{{Latin prefix|{{{latin prefix|}}}}}}
+| old english prefix = {{{Old English prefix|{{{old english prefix|}}}}}}
+| lang1 = {{{lang1|}}}
+| lang1 symbol = {{{lang1 symbol|}}}
+| lang2 = {{{lang2|}}}
+| lang2 symbol = {{{lang2 symbol|}}}
+| lang3 = {{{lang3|}}}
+| lang3 symbol = {{{lang3 symbol|}}}
+| lang4 = {{{lang4|}}}
+| lang4 symbol = {{{lang4 symbol|}}}
+| lang5 = {{{lang5|}}}
+| lang5 symbol = {{{lang5 symbol|}}}
+| lang6 = {{{lang6|}}}
+| lang6 symbol = {{{lang6 symbol|}}}
+| lang7 = {{{lang7|}}}
+| lang7 symbol = {{{lang7 symbol|}}}
+| lang8 = {{{lang8|}}}
+| lang8 symbol = {{{lang8 symbol|}}}
+| lang9 = {{{lang9|}}}
+| lang9 symbol = {{{lang9 symbol|}}}
+| lang10 = {{{lang10|}}}
+| lang10 symbol = {{{lang10 symbol|}}}
+| lang11 = {{{lang11|}}}
+| lang11 symbol = {{{lang11 symbol|}}}
+| lang12 = {{{lang12|}}}
+| lang12 symbol = {{{lang12 symbol|}}}
+| lang13 = {{{lang13|}}}
+| lang13 symbol = {{{lang13 symbol|}}}
+| lang14 = {{{lang14|}}}
+| lang14 symbol = {{{lang14 symbol|}}}
+| lang15 = {{{lang15|}}}
+| lang15 symbol = {{{lang15 symbol|}}}
+| lang16 = {{{lang16|}}}
+| lang16 symbol = {{{lang16 symbol|}}}
+}}<noinclude>
+{{documentation}}<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>
