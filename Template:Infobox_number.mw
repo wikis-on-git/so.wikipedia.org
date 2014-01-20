@@ -1,23 +1,25 @@
 {{Infobox number/box
 |number={{#if:{{{number<includeonly>|</includeonly>}}}
   | {{{number<noinclude>|{{#time:j}}</noinclude>}}}
-  | {{title without disambig|{{Lambarada Tirada}}}}
+  | {{title without disambig|{{PAGENAME}}}}
   }}
-| cardinal = {{{qoraal ahaan|}}}
-| ordinal = {{{sifo|}}}
+| cardinal = {{{cardinal|}}}
+| ordinal = {{{ordinal|}}}
 | ordinal text = {{{ordinal text|}}}
-| numeral = {{{Tiro ahaan|}}}
-| factorization = {{{Jajabka|}}}
+| numeral = {{{numeral|}}}
+| factorization = {{{factorization|}}}
 | gaussian integer factorization = {{{Gaussian integer factorization|{{{gaussian integer factorization|}}}}}}
 | prime = {{{prime|}}}
 | divisor = {{{divisor|}}}
 | roman = {{{Roman|{{{roman|}}}}}}
 | roman unicode = {{{Roman unicode|{{{roman unicode|}}}}}}
 | unicode = {{{unicode|}}}
-| old english prefix = {{{Horgale Ingiriis|{{{horgale ingiriis|}}}}}}
-| lang1 = {{{af Giriig|}}}
+| greek prefix = {{{Greek prefix|{{{greek prefix|}}}}}}
+| latin prefix = {{{Latin prefix|{{{latin prefix|}}}}}}
+| old english prefix = {{{Old English prefix|{{{old english prefix|}}}}}}
+| lang1 = {{{lang1|}}}
 | lang1 symbol = {{{lang1 symbol|}}}
-| lang2 = {{{af Carabi|}}}
+| lang2 = {{{lang2|}}}
 | lang2 symbol = {{{lang2 symbol|}}}
 | lang3 = {{{lang3|}}}
 | lang3 symbol = {{{lang3 symbol|}}}
