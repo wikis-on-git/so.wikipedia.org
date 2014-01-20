@@ -1,11 +1,11 @@
 {{Navbox
 |name=Tiro
 |title=[[Lambar|Lambarada Tirada]]
-|state=uncollapse
-|listclass=hlist
+|state=
+|listclass=
 |style=clear:none; width:70%;min-width:40em
-|list1={{Navbox|child
-|title=[[0]]
+|list1=
+|title=[[0]]aad
 |state={{if|eq|{{{1|}}}|zero|uncollapsed|collapsed}}
 |list1=
 *&nbsp;[[0]]&nbsp;
@@ -107,14 +107,14 @@
 *[[88]]
 *[[89]]
 |list10=
-*[[90]]
-*[[91]]
-*[[92]]
-*[[93]]
-*[[94]]
-*[[95]]
-*[[96]]
-*[[97]]
-*[[98]]
-*[[99]]
+[[90]]
+•[[91]]
+•[[92]]
+•[[93]]
+•[[94]]
+•[[95]]
+•[[96]]
+•[[97]]
+•[[98]]
+•[[99]]
 }}
