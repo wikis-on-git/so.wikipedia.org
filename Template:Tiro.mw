@@ -1,12 +1,12 @@
 {{Navbox
 |name=Tiro
-|title=[[Aasaaska Tirada]]
+|title=
 |state=
 |listclass=
 |style=clear:none; width:70%;min-width:40em
 |list1=
-|title=[[0]]aad
-|state={{if|eq|{{{1|}}}|zero|uncollapsed|collapsed}}
+|title=[[Aasaaska Tirada]]
+|state={{if|eq|{{{1|}}}|ten|uncollapsed|collapsed}}
 *&nbsp;[[0]]&nbsp;
 *&nbsp;[[1]]&nbsp;
 *&nbsp;[[2]]&nbsp;
