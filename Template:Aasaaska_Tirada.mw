@@ -1,14 +1,13 @@
-<noinclude>
-{{Navbox
+{{Infobox
 |name=Tiro
-|title=[[Aasaaska Tirada]]
+|title=
 |state=uncollapse
 |listclass=hlist
 |style=clear:none; width:70%;min-width:40em
-|list1={{Navbox|child
+|list1=
 |title=[[Lambar|Tobanka Lambar ee u Horeeya]]
-|state={{if|eq|{{{1|}}}|zero|uncollapsed|collapsed}}
-
+|state=
+|-
 *&nbsp;[[0]]&nbsp;
 *&nbsp;[[1]]&nbsp;
 *&nbsp;[[2]]&nbsp;
