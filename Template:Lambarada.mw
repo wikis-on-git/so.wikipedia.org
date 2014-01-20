@@ -1,10 +1,10 @@
 {{Navbox
-|name=Tiro
+|name=
 |title=[[Lambar|Lambarada Tirada]]
 |state=uncollapse
-|listclass=hlist
+|listclass=
 |style=clear:none; width:70%;min-width:40em
-|list1={{Navbox|child
+|list1=
 |title=[[0]]
 |state={{if|eq|{{{1|}}}|zero|uncollapsed|collapsed}}
 |list1=
@@ -118,7 +118,8 @@
 *[[98]]
 *[[99]]
 }}
-|list2={{Navbox|child
+
+|list2=
 |title=[[100]]aad
 |state={{if|eq|{{{1|}}}|1|uncollapsed|collapsed}}
 |list1=
