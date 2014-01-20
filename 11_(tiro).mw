@@ -1,0 +1,7 @@
+'''11'''
+
+{{Infobox number/box
+|number=11{{#if:{{{number<includeonly>|</includeonly>}}}
+  | {{{number<noinclude>|{{#time:j}}</noinclude>}}}
+  | {{title without disambig|{{Lambarada Tirada}}}}
+  }}
