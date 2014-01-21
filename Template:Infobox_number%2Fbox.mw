@@ -25,14 +25,14 @@
 | label4 = Fur furan 
 | data4  = {{#if:{{{factorization|}}}|{{{factorization}}}|{{#ifexpr:{{{number}}} > 1 and {{{number}}} < 1000000| {{#invoke:Factorization|factor|{{{number}}}|big= yes|serif= yes}} }} }}
 
-| label5 = Jajaban
+| label5 = Jajab
 | data5 = {{{gaussian integer factorization|}}}
 
 | label6 = tiro idil 
 | data6 = {{{prime|}}}
 
-| label7 = Uqaybsane
-| data7 = {{{divisor|}}}
+| label7 = Uqaybiye
+| data7 = {{{Uqaybiye|}}}
 
 | label8 = Tiro roman
 | data8  = {{#if:{{{roman|}}}|{{{roman}}}| {{#ifexpr: {{{number}}} >= 1 | {{Roman|{{{number}}}|}} }} }}
@@ -40,25 +40,25 @@
 | label9 = Tiro roman
 | data9 = {{{roman unicode|}}}
 
-| label10 = Unicode summad)
+| label10 = summad
 | data10 = {{{unicode|}}}
 
-| label11 = Tiro gariig]
+| label11 = Tiro Giriig
 | data11 = {{{greek prefix|}}}
 
-| label12 = Tiro laatiin
+| label12 = Tiro Laatiin
 | data12 = {{{latin prefix|}}}
 
-| label13 = Ingriis
+| label13 = Ingiriis
 | data13 = {{{old english prefix|}}}
 
-| label15 = [[Binary number|Binary]]
+| label15 = [[Lambarka Dadban]] (Binary)
 | data15 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Binary|{{{number}}} }} }}
 
-| label16 = [[Ternary numeral system|Ternary]]
+| label16 = [[Lambar Tubaxan]] (Ternary)
 | data16 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Ternary|{{{number}}} }} }}
 
-| label17 = [[Quaternary numeral system|Quaternary]]
+| label17 = [[Lambarka Kajeeda]] (Quaternary)
 | data17 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Quaternary numeral system|{{{number}}} }} }}
 
 | label18 = [[Quinary]]
@@ -67,67 +67,67 @@
 | label19 = [[Senary]]
 | data19 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Senary|{{{number}}} }} }}
 
-| label20 = [[Octal]]
+| label20 = [[Oktal]]
 | data20 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Octal|{{{number}}} }} }}
 
-| label21 = [[Duodecimal]]
+| label21 = [[Jajab|Jajab Yare]] (Duodecima)
 | data21 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Duodecimal|{{{number}}} }} }}
 
-| label22 = [[Hexadecimal]]
+| label22 = [[Jajab|Jajab lixle]] (Hexadecimal)
 | data22 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Hexadecimal|{{{number}}} }} }}
 
-| label23 = [[Vigesimal]]
+| label23 = [[Jajab hoose]] (Vigesimal)
 | data23 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Vigesimal|{{{number}}} }} }}
 
 | label24 = [[Base 36]]
 | data24 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Base 36|{{{number}}} }} }}
 
-| label32 = {{{lang1}}} 
+| label32 = {{{luuqad1}}} 
 | data32 = {{#if:{{{lang1|}}}|{{{lang1 symbol|}}}}}
 
-| label33 = {{{lang2}}} 
+| label33 = {{{luuqad2}}} 
 | data33 = {{#if:{{{lang2|}}}|{{{lang2 symbol|}}}}}
 
-| label34 = {{{lang3}}} 
+| label34 = {{{luuqad3}}} 
 | data34 = {{#if:{{{lang3|}}}|{{{lang3 symbol|}}}}}
 
-| label35 = {{{lang4}}} 
+| label35 = {{{luuqad4}}} 
 | data35 = {{#if:{{{lang4|}}}|{{{lang4 symbol|}}}}}
 
-| label36 = {{{lang5}}} 
+| label36 = {{{luuqad5}}} 
 | data36 = {{#if:{{{lang5|}}}|{{{lang5 symbol|}}}}}
 
-| label37 = {{{lang6}}} 
+| label37 = {{{luuqad6}}} 
 | data37 = {{#if:{{{lang6|}}}|{{{lang6 symbol|}}}}}
 
-| label38 = {{{lang7}}} 
+| label38 = {{{luuqad7}}} 
 | data38 = {{#if:{{{lang7|}}}|{{{lang7 symbol|}}}}}
 
-| label39 = {{{lang8}}} 
+| label39 = {{{luuqad8}}} 
 | data39 = {{#if:{{{lang8|}}}|{{{lang8 symbol|}}}}}
 
-| label40 = {{{lang9}}} 
+| label40 = {{{luuqad9}}} 
 | data40 = {{#if:{{{lang9|}}}|{{{lang9 symbol|}}}}}
 
-| label41 = {{{lang10}}} 
+| label41 = {{{luuqad10}}} 
 | data41 = {{#if:{{{lang10|}}}|{{{lang10 symbol|}}}}}
 
-| label42 = {{{lang11}}} 
+| label42 = {{{luuqad11}}} 
 | data42 = {{#if:{{{lang11|}}}|{{{lang11 symbol|}}}}}
 
-| label43 = {{{lang12}}} 
+| label43 = {{{luuqad12}}} 
 | data43 = {{#if:{{{lang12|}}}|{{{lang12 symbol|}}}}}
 
-| label44 = {{{lang13}}} 
+| label44 = {{{luuqad13}}} 
 | data44 = {{#if:{{{lang13|}}}|{{{lang13 symbol|}}}}}
 
-| label45 = {{{lang14}}} 
+| label45 = {{{luuqad14}}} 
 | data45 = {{#if:{{{lang14|}}}|{{{lang14 symbol|}}}}}
 
-| label46 = {{{lang15}}} 
+| label46 = {{{luuqad15}}} 
 | data46 = {{#if:{{{lang15|}}}|{{{lang15 symbol|}}}}}
 
-| label47 = {{{lang16}}} 
+| label47 = {{{luuqad16}}} 
 | data47 = {{#if:{{{lang16|}}}|{{{lang16 symbol|}}}}}
 
 }}</includeonly><noinclude>
