@@ -28,19 +28,19 @@
 | label5 = Jajab
 | data5 = {{{gaussian integer factorization|}}}
 
-| label6 = tiro idil 
+| label6 = Tiro Idil 
 | data6 = {{{prime|}}}
 
 | label7 = Uqaybiye
 | data7 = {{{Uqaybiye|}}}
 
-| label8 = Tiro roman
+| label8 = Tiro Roman
 | data8  = {{#if:{{{roman|}}}|{{{roman}}}| {{#ifexpr: {{{number}}} >= 1 | {{Roman|{{{number}}}|}} }} }}
 
-| label9 = Tiro roman
+| label9 = Tiro Roman
 | data9 = {{{roman unicode|}}}
 
-| label10 = summad
+| label10 = Summad (unicode)
 | data10 = {{{unicode|}}}
 
 | label11 = Tiro Giriig
@@ -61,7 +61,7 @@
 | label17 = [[Lambarka Kajeeda]] (Quaternary)
 | data17 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Quaternary numeral system|{{{number}}} }} }}
 
-| label18 = [[Quinary]]
+| label18 = [[Quwintary]] (Quinary)
 | data18 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Quinary|{{{number}}} }} }}
 
 | label19 = [[Senary]]
@@ -79,7 +79,7 @@
 | label23 = [[Jajab hoose]] (Vigesimal)
 | data23 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Vigesimal|{{{number}}} }} }}
 
-| label24 = [[Base 36]]
+| label24 = [[Saldhiga 36]] (Base 36)
 | data24 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Base 36|{{{number}}} }} }}
 
 | label32 = {{{luuqad1}}} 
