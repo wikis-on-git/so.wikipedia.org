@@ -32,7 +32,7 @@
   |<div style="text-align:center;font-size:smaller;white-space:nowrap;">[[−1|−1]] [[0|0]] [[1|1]] [[2|2]] [[3|3]] [[4|4]] [[5|5]] [[6|6]] [[7|7]] [[8|8]] [[9|9]] [[10|{{Unicode|→}}]]</div>
 }}<!--
 --><div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
--->[[Liiska Lambarada]] — [[Template:Lambarada|Diwaanka Lambarada]]s <!--
+-->[[Liiska Lambarada]] — [[Template:Lambarada|Diwaanka Lambarada]] <!--
 --></div><!--
 -->{{#ifexpr:{{{1|-2}}} >= -1
   | {{#ifexpr:{{{1}}} < 100
@@ -66,7 +66,7 @@
      | {{#ifexpr:{{{1}}} < 10000
         | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
+-->[[0|0]] <!--
 -->[[1000|1k]] <!--
 -->[[2000|2k]] <!--
 -->[[3000|3k]] <!--
@@ -80,7 +80,7 @@
         | {{#ifexpr:{{{1}}} < 100000
            | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
+-->[[0|0]] <!--
 -->[[10000|10k]] <!--
 -->[[20000|20k]] <!--
 -->[[30000|30k]] <!--
@@ -99,10 +99,10 @@
 -->[[1000|10<sup>3</sup>]] <!--
 -->[[10000|10<sup>4</sup>]] <!--
 -->[[100000|10<sup>5</sup>]] <!--
--->[[Malyan|10<sup>6</sup>]] <!--
+-->[[Milyan|10<sup>6</sup>]] <!--
 -->[[10000000|10<sup>7</sup>]] <!--
 -->[[100000000|10<sup>8</sup>]] <!--
--->[[1,000,000,000|10<sup>9</sup>]]</div>
+-->[[Bilyan|10<sup>9</sup>]]</div>
            }}
         }}
      }}
