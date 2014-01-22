@@ -27,7 +27,7 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 |-
 | align="center" | 1/3
 | align="center" | <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.'''3333... = '''0.'''{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.'''3333... = '''0.'''3
 | '''0.2'''
 | align="center" | <span style="color:Green">'''3'''</span>
 | align="center" | 1/3
@@ -42,20 +42,20 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 | align="center" | 1/5
 | align="center" | <span style="color:Green">'''5'''</span>
 | '''0.2'''
-| bgcolor=#c0c0c0 | '''0.'''1111... = '''0.'''{{overline|1}}
+| bgcolor=#c0c0c0 | '''0.'''1111... = '''0.'''1
 | align="center" | <span style="color:Blue">'''5'''</span>
 | align="center" | 1/5
 |-
 | align="center" | 1/6
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.1'''{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.1'''6
 | '''0.1'''
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
 | align="center" | 1/10
 |-
 | align="center" | 1/7
 | align="center" | <span style="color:Red">'''7'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|142857}}
+| bgcolor=#c0c0c0 | '''0.'''142857
 | bgcolor=#c0c0c0 | '''0.'''{{overline|05}}
 | align="center" | <span style="color:Orange">'''11'''</span>
 | align="center" | 1/11
@@ -69,7 +69,7 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 |-
 | align="center" | 1/9
 | align="center" | <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|1}}
+| bgcolor=#c0c0c0 | '''0.'''1
 | '''0.04'''
 | align="center" | <span style="color:Green">'''3'''</span>
 | align="center" | 1/13
@@ -77,42 +77,42 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 | align="center" | 1/10
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''5'''</span>
 | '''0.1'''
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.0'''3
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''5'''</span>
 | align="center" | 1/14
 |-
 | align="center" | 1/11
 | align="center" | <span style="color:Orange">'''11'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|09}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|0313452421}}
+| bgcolor=#c0c0c0 | '''0.'''09
+| bgcolor=#c0c0c0 | '''0.'''0313452421
 | align="center" | <span style="color:Red">'''15'''</span>
 | align="center" | 1/15
 |-
 | align="center" | 1/12
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.08'''{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.08'''3
 | '''0.03'''
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
 | align="center" | 1/20
 |-
 | align="center" | 1/13
 | align="center" | <span style="color:Red">'''13'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|076923}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|024340531215}}
+| bgcolor=#c0c0c0 | '''0.'''076923
+| bgcolor=#c0c0c0 | '''0.'''024340531215
 | align="center" | <span style="color:Red">'''21'''</span>
 | align="center" | 1/21
 |-
 | align="center" | 1/14
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|714285}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|23}}
+| bgcolor=#c0c0c0 | '''0.0'''714285
+| bgcolor=#c0c0c0 | '''0.0'''23
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Orange">'''11'''</span>
 | align="center" | 1/22
 |-
 | align="center" | 1/15
 | align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Green">'''5'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|6}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|2}}
+| bgcolor=#c0c0c0 | '''0.0'''6
+| bgcolor=#c0c0c0 | '''0.0'''2
 | align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Blue">'''5'''</span>
 | align="center" | 1/23
 |-
@@ -125,21 +125,21 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 |-
 | align="center" | 1/17
 | align="center" | <span style="color:Red">'''17'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|0588235294117647}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|0204122453514331}}
+| bgcolor=#c0c0c0 | '''0.'''0588235294117647
+| bgcolor=#c0c0c0 | '''0.'''0204122453514331
 | align="center" | <span style="color:Red">'''25'''</span>
 | align="center" | 1/25
 |-
 | align="center" | 1/18
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|5}}
+| bgcolor=#c0c0c0 | '''0.0'''5
 | '''0.02'''
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
 | align="center" | 1/30
 |-
 | align="center" | 1/19
 | align="center" | <span style="color:Red">'''19'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|052631578947368421}}
+| bgcolor=#c0c0c0 | '''0.'''052631578947368421
 | bgcolor=#c0c0c0 | '''0.'''{{overline|015211325015211325}}
 | align="center" | <span style="color:Red">'''31'''</span>
 | align="center" | 1/31
@@ -147,34 +147,34 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 | align="center" | 1/20
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''5'''</span>
 | '''0.05'''
-| bgcolor=#c0c0c0 | '''0.01'''{{overline|4}}
+| bgcolor=#c0c0c0 | '''0.01'''4
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''5'''</span>
 | align="center" | 1/32
 |-
 | align="center" | 1/21
 | align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Red">'''7'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|047619}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|14}}
+| bgcolor=#c0c0c0 | '''0.'''047619
+| bgcolor=#c0c0c0 | '''0.0'''14
 | align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Orange">'''11'''</span>
 | align="center" | 1/33
 |-
 | align="center" | 1/22
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Orange">'''11'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|045}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|1345242103}}
+| bgcolor=#c0c0c0 | '''0.0'''045
+| bgcolor=#c0c0c0 | '''0.0'''1345242103
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''15'''</span>
 | align="center" | 1/34
 |-
 | align="center" | 1/23
 | align="center" | <span style="color:Red">'''23'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|0434782608695652173913}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|01322030441}}
+| bgcolor=#c0c0c0 | '''0.'''0434782608695652173913
+| bgcolor=#c0c0c0 | '''0.0'''01322030441
 | align="center" | <span style="color:Red">'''35'''</span>
 | align="center" | 1/35
 |-
 | align="center" | 1/24
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.041'''{{overline|6}}
+| bgcolor=#c0c0c0 | '''0.041'''6
 | '''0.013'''
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
 | align="center" | 1/40
@@ -182,50 +182,50 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 | align="center" | 1/25
 | align="center" | <span style="color:Green">'''5'''</span>
 | '''0.04'''
-| bgcolor=#c0c0c0 | '''0.'''{{overline|01235}}
+| bgcolor=#c0c0c0 | '''0.'''01235
 | align="center" | <span style="color:Blue">'''5'''</span>
 | align="center" | 1/41
 
 |-
 | align="center" | 1/26
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''13'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|384615}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|121502434053}}
+| bgcolor=#c0c0c0 | '''0.0'''384615
+| bgcolor=#c0c0c0 | '''0.0'''121502434053
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''21'''</span>
 | align="center" | 1/42
 |-
 | align="center" | 1/27
 | align="center" | <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|037}}
+| bgcolor=#c0c0c0 | '''0.'''037
 | '''0.012'''
 | align="center" | <span style="color:Green">'''3'''</span>
 | align="center" | 1/43
 |-
 | align="center" | 1/28
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''7'''</span>
-| bgcolor=#c0c0c0 | '''0.03'''{{overline|571428}}
-| bgcolor=#c0c0c0 | '''0.01'''{{overline|14}}
+| bgcolor=#c0c0c0 | '''0.03'''571428
+| bgcolor=#c0c0c0 | '''0.01'''14
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Orange">'''11'''</span>
 | align="center" | 1/44
 |-
 | align="center" | 1/29
 | align="center" | <span style="color:Red">'''29'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|0344827586206896551724137931}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|01124045443151}}
+| bgcolor=#c0c0c0 | '''0.'''0344827586206896551724137931
+| bgcolor=#c0c0c0 | '''0.'''01124045443151
 | align="center" | <span style="color:Red">'''45'''</span>
 | align="center" | 1/45
 |-
 | align="center" | 1/30
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>, <span style="color:Green">'''5'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|3}}
+| bgcolor=#c0c0c0 | '''0.0'''3
 | bgcolor=#c0c0c0 | '''0.0'''{{overline|1}}
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>, <span style="color:Blue">'''5'''</span>
 | align="center" | 1/50
 |-
 | align="center" | 1/31
 | align="center" | <span style="color:Red">'''31'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|032258064516129}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|010545}}
+| bgcolor=#c0c0c0 | '''0.'''032258064516129
+| bgcolor=#c0c0c0 | '''0.'''010545
 | align="center" | <span style="color:Red">'''51'''</span>
 | align="center" | 1/51
 |-
@@ -238,28 +238,28 @@ Inta u badan ee jajabka tirada la xidhiidha Senary waa kuwo sahlan, waxaanay u d
 |-
 | align="center" | 1/33
 | align="center" | <span style="color:Blue">'''3'''</span>, <span style="color:Orange">'''11'''</span>
-| bgcolor=#c0c0c0 | '''0.'''{{overline|03}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|1031345242}}
+| bgcolor=#c0c0c0 | '''0.'''03
+| bgcolor=#c0c0c0 | '''0.0'''1031345242
 | align="center" | <span style="color:Green">'''3'''</span>, <span style="color:Red">'''15'''</span>
 | align="center" | 1/53
 |-
 | align="center" | 1/34
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''17'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|2941176470588235}}
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|1020412245351433}}
+| bgcolor=#c0c0c0 | '''0.0'''2941176470588235
+| bgcolor=#c0c0c0 | '''0.0'''1020412245351433
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Red">'''25'''</span>
 | align="center" | 1/54
 |-
 | align="center" | 1/35
 | align="center" | <span style="color:Green">'''5'''</span>, <span style="color:Red">'''7'''</span>
-| bgcolor=#c0c0c0 | '''0.0'''{{overline|285714}}
-| bgcolor=#c0c0c0 | '''0.'''{{overline|01}}
+| bgcolor=#c0c0c0 | '''0.0'''285714
+| bgcolor=#c0c0c0 | '''0.'''01
 | align="center" | <span style="color:Blue">'''5'''</span>, <span style="color:Orange">'''11'''</span>
 | align="center" | 1/55
 |-
 | align="center" | 1/36
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Blue">'''3'''</span>
-| bgcolor=#c0c0c0 | '''0.02'''{{overline|7}}
+| bgcolor=#c0c0c0 | '''0.02'''7
 | '''0.01'''
 | align="center" | <span style="color:Green">'''2'''</span>, <span style="color:Green">'''3'''</span>
 | align="center" | 1/100
