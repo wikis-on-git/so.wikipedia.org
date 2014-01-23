@@ -1,0 +1,9 @@
+<inputbox>
+type=samee
+preload=Template:Taxonomy/preload
+default=Template:Taxonomy/
+break=maya
+buttonlabel=ku dar
+bgcolor=inherit
+width=20
+</inputbox><noinclude>{{documentation}}</noinclude>
