@@ -1,0 +1,22 @@
+{| class="infobox biota" style="text-align: left; width: 200px; font-size: 100%" 
+|-
+! style="text-align: center; background-color: #ccc" | Automatic taxobox help
+|-
+| Thanks for creating an automatic taxobox.  We don't know the taxonomy of "{{{taxon}}}".
+* Is "{{{taxon}}}" the scientific name of your taxon?  If you were editing the page "Animal", you'd need to specify {{para|taxon|Animalia}}.  If you've changed this, press "Preview" to update this message.
+* Click <span class=plainlinks>[http://so.wikipedia.org/w/index.php?action=edit&title=Template:Taxonomy/{{{taxon}}}&preload=Template:Taxonomy/preload here]</span> to enter the taxonomic details for "{{{taxon}}}".
+|-
+! style="text-align: center; background-color: #ccc" | Common parameters
+|-
+|
+*{{para|authority}} Who described the taxon
+*{{para|parent authority}} Who described the next taxon up the list
+*{{para|display parents|4}} force the display of (e.g.) 4 parent taxa
+*{{para|display children}} Display any subdivisions already in Wikipedia's database <small>(e.g. genera within a family)</small>
+|-
+! style="text-align: center; background-color: #ccc" | Helpful links
+|-
+| 
+* [[Template:Automatic taxobox/doc|Full documentation]]
+* [[Template:Automatic_taxobox/doc/all_parameters|Parameter list]]
+|}
