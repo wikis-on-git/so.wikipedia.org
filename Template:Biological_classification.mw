@@ -1,14 +1,14 @@
 {{#tag:imagemap|
 File:Abla-ablayn saynis.JPG{{!}}thumb{{!}}right{{!}}150px{{!}}{{{description|Silsiladda {{#ifeq:{{lc:{{FULLPAGENAME}}}}|Abala-abalayn bayoloji|Abala-abalaynta bayoloji|[[Abala-abalayn bayoloji]]}} Siddeeda ugu ballaaran [[Abla-abalayn]]. {{Biological classification/core|{{lc:{{{level|{{PAGENAME}}}}}}}}} mana soo muuqanayso laamaha ka farcama.}}}
-rect 100 15 225 57 [[Sinji]]
-rect 100 78 225 120 [[Duul]] 
-rect 100 142 225 184 [[Bah (bayoloji)|Bah]]
-rect 100 205 225 247 [[Dir (bayoloji)|Dir]]
-rect 100 268 225 310 [[Gacal (bayoloji)|gacal]]
-rect 100 332 225 374 [[Faylam]]
-rect 100 395 225 437 [[Boqortooyo (bayoloji)|Boqortooyo]]
-rect 100 459 225 501 [[Xukun (bayoloji)|xukun]]
-rect 100 522 225 564 [[Nolol]]
+rect 105 31 225 67 [[Sinji]]
+rect 105 92 225 130 [[Duul]] 
+rect 105 157 225 194 [[Bah (abla-ablayn)|Bah]]
+rect 105 220 225 257 [[Dir (abla-ablayn)|Dir]]
+rect 105 282 225 320 [[Gacal (abla-ablayn)|gacal]]
+rect 105 347 225 384 [[Faylam]]
+rect 105 410 225 447 [[Boqortooyo (abla-ablayn)|Boqortooyo]]
+rect 105 474 225 511 [[Xukun (abla-ablayn)|xukun]]
+rect 105 537 225 574 [[Nolosha]]
 
 default [[:File:Abla-ablayn_saynis.JPG]]
 desc none
