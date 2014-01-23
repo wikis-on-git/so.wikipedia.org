@@ -1,0 +1,5 @@
+<includeonly><!-- 
+
+This template should now be redundant to the more-efficient "don't edit this line {{{machine code}}}" variants. 
+
+-->{{#switch:{{{1}}}|rank={{{rank|}}}|parent={{{parent|}}}|link={{{link|}}}{{#if:{{{2|{{{extinct|}}}}}}|{{!}}{{#if:{{{extinct|}}}|{{extinct}}}}{{{2|{{{link|}}}}}}}}|link_text={{#if:{{{extinct|}}}|{{extinct}}}}{{{2|{{{link|}}}}}}|link_target={{{link|}}}|always_display={{{always_display|}}}|2={{{2|{{{link|}}}}}}|{{{1}}}={{taxonomy key|parent={{{parent}}}|rank={{{rank}}}|extinct={{{extinct|}}}|always_display={{{always_display|}}}|link_target={{{link|}}}|link={{{link|}}}{{#if:{{{2|}}}|{{!}}{{{2}}}}}}}}}</includeonly><noinclude>{{documentation|template:Taxonomy/doc}}</noinclude>
