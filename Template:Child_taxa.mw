@@ -1,0 +1,7 @@
+<includeonly>! colspan=2 style="text-align: center; background-color: {{taxobox colour|{{get regnum()|{{{1}}} }} }}" | {{{child rank|{{child rank|{{get rank|{{{1}}} }} }} }}}
+|-
+| colspan=2 style="text-align: left" |
+<!-- uses [[Template:Auto taxon list edit 2]], because depth = edit2 -->
+{{#ifexist:Template:Child taxa/{{{1}}}|{{Child taxa/{{{1}}}|depth=edit 2}}|{{list all children|1={{{1}}} }} }} 
+|-
+</includeonly><noinclude>{{documentation|Template:Child taxa doc}}</noinclude>
