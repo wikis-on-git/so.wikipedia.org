@@ -1,0 +1,90 @@
+== Taxon parameter conventions ==
+
+Taxonomy templates should generally have three parameters, {{para|rank}}, {{para|link}}, and {{para|parent}}.
+
+=== rank ===
+Use the Latin names for ranks, eg. ''ordo'' instead of ''order''. For taxa that have no rank, use ''unranked''.  To use the rank of a different taxon, use {{tlx|get rank|TAXONNAME}}.
+
+=== link ===
+This parameter both determines how the taxon is displayed in the taxobox and what it will link to:
+
+{{para|link|<var>taxon</var>}}
+
+Or, if the link target is different from the display text:
+
+{{para|link|<var>link target</var><nowiki>|</nowiki><var>displayed text</var>}} 
+
+The following scenarios are some that may require the display text to be different from the link target:
+* If the taxon name is more than one word, typically the display text for the taxobox should be abbreviated even though the article title is not. For example the genus name should be abbreviated for [[binomial nomenclature|binomials]] and omitted for subgenera, since readers will have enough context to know the name of the genus:
+** {{para|link|<nowiki>Homo sapiens|H. sapiens</nowiki>}}
+** {{para|link|<nowiki>Kermode bear|U. a. kermodei</nowiki>}}
+** {{para|link|<nowiki>Mus (Coelomys)|Mus</nowiki>}}
+** {{para|link|<nowiki>Broccoli|''B. o.'' var. ''italica''</nowiki>}} - Note that only some taxa are italicized automatically, so you may need to explicitly italicize the name. 
+* If the article name covering the taxon is not the name of the taxon and there is no redirect, perhaps because of [[wp:disambig|ambiguity]], the link target will have to be modified to link to the article that does cover the taxon: {{para|link|<nowiki>Mus (genus)|Mus</nowiki>}}
+* [[Hybrid plant]]s may require an unitalicized cross, such as {{tl|Taxonomy/Citrus × floridana}}: {{para|link|Limequat<nowiki>|C. {{Hybrid}}</nowiki> floridana}}
+* An extinct taxon such as {{tl|Taxonomy/Tyrannosaurus}} should be reflected with a ''†'' using: {{para|extinct|true}}
+* If an article covers several taxa, such as is typically done for [[monotypic taxa]], redirects would be linkified for higher taxa, so the link target for such taxa should not rely on redirects. For example, {{tl|Taxonomy/Tyrannosaurini}} contains: {{para|link|<nowiki>Tyrannosaurus|Tyrannosaurini</nowiki>}}
+
+=== parent ===
+
+Each parent taxon should begin with a capital letter, and should be named the same as the title of the parent's taxonomy template, see [[#Template naming conventions]].
+
+== Template naming conventions ==
+The title of the {{tl|Taxonomy}} template must match the {{para|parent}} parameter of each of its daughter taxa, so it is important to adhere to these conventions.
+
+* Always use the taxonomic rather than common name. For example, {{tl|Taxonomy/Ursidae}} instead of {{tl|Taxonomy/Bear}}.
+* For taxonomic names that are longer than one word, such as [[binomial nomenclature|binomial]]s, do not abbreviate in the title. For example, {{tl|Taxonomy/Homo sapiens}} and {{tl|Taxonomy/Ursus maritimus tyrannus}}. However, the displayed text in the {{para|link}} parameter should be abbreviated as appropriate; it will normally be displayed in context so readers will be able to tell what the abbreviations stand for.
+* For [[subgenera]], the title should be of the form ''Genus (Subgenus)''. For example, {{tl|Taxonomy/Mus (Coelomys)}}.
+* When conventions call for abbreviated ranks to be included in the name, eg. [[ternary name]]s, the title of the template should include those as well. For example, {{tl|Taxonomy/Brassica oleracea var. italica}}.
+* Hyphenate the terms "stem-group" and "total-group".  Use the format "Taxon/stem-group".
+* If two taxa have the same name, use disambiguating parentheses as described at [[Wikipedia:Disambiguation]]. Typical usage of the word ''Pterodon'' in a biological context is almost always about the legume, so {{tl|Taxonomy/Pterodon}} describes that genus while the creodont ''Pterodon'' is at {{tl|Taxonomy/Pterodon_(mammal)}}.
+* To display a question mark after the parent taxon, set {{para|parent|taxon/?}}.  To display question marks above the parent and grandparent, set {{para|parent|taxon/?/?}}.
+
+== "Dummy" taxonomy templates ==
+Sometimes it is useful to have different versions of taxonomy templates for a particular taxon. For example, taxonomic ancestors of [[Aves]] include things like Saurischia and Reptilia which are of major rank, so if [[Template:Taxonomy/Aves]] descended from them any bird's taxobox would have two class fields and two order fields, which is generally undesirable. This can be solved by having a duplicated taxonomy template with an overridden parent field, enabling birds' ancestor hierarchies, and hence their taxoboxes, to skip non-avian dinosaur taxa. Another example is to override {{para|always_display}} for secondary ranks if it is appropriate to show an ancestor taxon only for a certain group of its descendant taxa.
+
+To override, create a template with the same name as the overridden taxonomy template but with a ''/description'' after it. For example, [[Template:Taxonomy/Physeteroidea/displayed]] inherits everything from [[Template:Taxonomy/Physeteroidea]] except for {{para|always_display}}, which it overrides. Use the {{tl|Taxon variant}} to inherit fields from the "real" taxonomy template (this can be prefilled, if you use the correct page naming convention):
+
+<code><nowiki>{{taxon variant|{{{1|{{{machine code|}}} }}}</nowiki></code><br/>
+<code><nowiki>|same as=</nowiki>''Taxon Name''</code><br/>
+{{para|always_display|true}}<br/>
+<code>}}</code>
+
+Other fields, such as parent, can be similarly overridden.
+
+==Indeterminate taxa==
+Where a qualifier (e.g. incertae sedis) is used, the taxon name and the full entry should begin with a capital (see table below).  Always refer to the parent by its taxonomic rather than common name.<ref group=note>Common names can be ambiguous.</ref>
+
+The second example gives a case where the taxon above "incertae sedis" would otherwise not be displayed.  A "[[Template:Taxonomy/Physeteroidea/displayed|dummy taxon]]" that links to the real taxon, but with {{para|always_display|true}}, is set up instead.
+
+{|
+! title
+! template
+! notable parameters
+! Output
+|-
+|{{tl|Taxonomy/Incertae sedis/Viridiplantae}}
+|•[[Template:Incertae sedis taxon]]
+|•{{para|parent|Viridiplantae}}
+|
+|-
+|{{tl|Taxonomy/Incertae sedis/Physeteroidea}}
+|•[[Template:Incertae sedis taxon]]
+|•{{para|parent|Physeteroidea/displayed}}
+|
+|-
+|{{tl|Taxonomy/Polyplacophora/?}}
+|•[[template:taxon?]]
+|•{{para|taxon|Polyplacophora}}
+|
+|-
+|{{tl|Taxonomy/Cephalopoda/?/?}}
+|•[[template:same as taxon]]
+|•{{para|same as|Cephalopoda}}
+•{{para|parent|Mollusca/?}}
+|
+|}
+
+=== Notes ===
+
+{{reflist|group=note}}
