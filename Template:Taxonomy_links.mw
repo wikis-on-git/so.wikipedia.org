@@ -1,0 +1,26 @@
+<includeonly><!-- This template should use the same format as [[Template:Taxobox/taxonomy cell]].  Please see that template for explanation. -->
+{{#ifeq:{{ucfirst:{{taxonomy/{{{1}}}|machine code=parent}} }}|{{lcfirst:{{taxonomy/{{{1}}}|machine code=parent}} }}
+|{{
+    #ifexist:Template:Taxonomy/{{ucfirst:{{{1|}}} }}
+    | {{ns:0}}
+    | {{#ifeq: {{str_index|{{{1}}}|1}} | { |{{ns:0}}|
+        {{#ifeq:{{NAMESPACE:{{{1}}} }}|Template|{{ns:0}}|
+          {{#ifeq:{{substr|{{{1}}}|3|8}}|Template|{{ns:0}}|
+             {{#if:{{{1|}}}|
+{{!}} colspan=2 {{!}} {{create taxonomy|{{{1|}}} }}
+{{!-}}
+            }}
+          }}
+        }}
+      }}
+  }}
+|{{taxonomy links/{{{display|cell}}}
+    |rank={{taxonomy/{{{1}}}|machine code=rank}}
+    |taxon={{{1}}}
+    |link={{#ifeq:{{{format|link}}}|bold|'''{{taxonomy/{{{1}}}||machine code=link_text}}'''|{{#ifeq:{{ucfirst:{{taxonomy/{{{1}}}|machine code=link}} }}|{{lcfirst:{{taxonomy/{{{1}}}|machine code=link}} }}|{{taxonomy/{{{1}}}|machine code=link}}[[Category:Automatic taxobox cleanup|ϰ-template taxonomy cell]]<!--link contains []s in Taxonomy/xxx template; these should be removed-->|[[{{taxonomy/{{{1}}}|machine code=link}}]]}} }}
+    |auth={{{authority|}}}
+ }}
+}}</includeonly><noinclude>
+{{documentation}}
+[[Category:Taxobox templates]]
+</noinclude>
