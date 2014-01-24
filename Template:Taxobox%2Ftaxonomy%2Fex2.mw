@@ -1,0 +1,33 @@
+<noinclude><!--
+-=======================================================================
+- Template:Taxobox/taxonomy/ex2: Show extra infobox row set #2 taxons
+-=======================================================================
+--
+--></noinclude>{{
+#ifeq:<!--left brace: -->{|{{padleft:|1|{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}} }}
+  |<!--then more would exceed top of tree; don't try higher name rows-->
+  |<!--else show higher names-->{{taxobox/taxonomy/ex3 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}
+      |2={{{2|1}}} }}<!--endtaxobox/taxonomy/ex3 -->
+}}<!--endifeq-else "{" error --><!--
+
+   The above uses {taxobox/taxonomy/ex3} to show even higher taxon rows.
+   The below creates the next 10 levels of lower taxonomy, after the
+   above levels (if any), on the request of the calling template.
+
+------------------------------------------ Show rows of name levels -->
+{{taxobox/showtaxon |LEVEL=10 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|fc={{#ifexpr:{{{2|1}}}>28|true|}} }}
+{{taxobox/showtaxon |LEVEL=9 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|fc={{#ifexpr:{{{2|1}}}>27|true|}} }}
+{{taxobox/showtaxon |LEVEL=8 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|fc={{#ifexpr:{{{2|1}}}>26|true|}} }}
+{{taxobox/showtaxon |LEVEL=7 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|fc={{#ifexpr:{{{2|1}}}>25|true|}} }}
+{{taxobox/showtaxon |LEVEL=6 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|fc={{#ifexpr:{{{2|1}}}>24|true|}} }}
+{{taxobox/showtaxon |LEVEL=5 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>23|true|}} }}
+{{taxobox/showtaxon |LEVEL=4 |{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>22|true|}} }}
+{{taxobox/showtaxon |LEVEL=3 |{{taxonomy/{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>21|true|}} }}<!--
+------------------ Parent taxon-->
+{{taxobox/showtaxon |LEVEL=2 |{{taxonomy/{{{1|Ursa}}}|machine code=parent}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>20|true}} }}<!--
+
+------------------------------------------- Show row of last taxon -->
+{{taxobox/showtaxon |LEVEL=1 |{{ucfirst:{{{1|Ursa}}}}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>19|true}} }}<noinclude>
+
+{{documentation}}
+</noinclude>
