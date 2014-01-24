@@ -1,0 +1,3 @@
+{{#if:{{{1|}}}|<span class="plainlinks" style="font-size:small; float:right">&#91;[[Template:Taxonomy/{{{1}}}{{!}}Taxonomy]]; [http://so.wikipedia.org/w/index.php?title=Template:Taxonomy/{{urlencode:{{{1}}}}}&action=edit edit]&#93;</span>}}<noinclude>
+[[Category:Taxobox templates]]
+</noinclude>
