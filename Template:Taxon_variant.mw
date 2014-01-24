@@ -1,0 +1,15 @@
+<includeonly>{{#if:{{NAMESPACE}}|{{#ifexist:Template:Taxonomy/{{{same as}}}|{{taxonomy key|
+| parent={{{parent|{{{{#titleparts:{{PAGENAME}}|2|1}} | machine code = parent}} }}}
+| rank={{{rank|{{ {{#titleparts:{{PAGENAME}}|2|1}}|machine code=rank }} }}}
+| link={{{link|{{ {{#titleparts:{{PAGENAME}}|2|1}}|machine code=plain link text}} }}}
+| link_target={{{link target|{{ {{#titleparts:{{PAGENAME}}|2|1}} | machine code = link target }} }}}
+| extinct={{{extinct|{{ {{#titleparts:{{PAGENAME}}|2|1}} | machine code = extinct }} }}}
+| always_display={{{always_display|{{ {{#titleparts:{{PAGENAME}}|2|1}} | machine code = always_display }} }}}
+| refs={{{refs|{{ {{#titleparts:{{PAGENAME}}|2|1}} | machine code = refs }} }}}
+| 1={{#titleparts:{{PAGENAME}}|1|2}}
+}}|{{#if:{{{same as|}}}
+|{{error|Nearly there.}} There's just one thing: nothing exists at [[Template:Taxonomy/{{{same as}}}]] yet.  You'll need to [http://so.wikipedia.org/w/index.php?title=Template:Taxonomy/{{urlencode:{{{same as}}}}}&action=edit&preload=Template:Taxonomy/{{taxonomy preload|{{{same as}}} }}  click here and create taxonomic information for "{{{same as}}}"] so that this current page has something to refer to.  
+|{{error|Whoops.}} You need to include the code {{para|same as}}.  Set this to the name of the taxon that this "dummy taxon" ({{FULLPAGENAME}}) should replicate: for example, "{{para|same as|{{#titleparts:{{PAGENAME}}|1|2}} }}".
+}}<!--End #if:{{{same as}}}
+-->}}<!--End #ifexist:
+-->}}</includeonly><noinclude>{{documentation}}</noinclude>
