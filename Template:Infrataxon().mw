@@ -1,0 +1,7 @@
+{{#switch:<!--
+Take the first couple of letters, and if they are diagnostic of a minor taxon (i.e. not (oo/ichno)regnum, phylum, classis, ordo, familia, genus, species) then return the string "true".  
+
+-->{{lc:{{str_left|{{taxonomy/{{{1}}}|machine code=rank}}|3}}}}|
+inf|sub|par|mic|nan=true
+|#default={{#switch:{{lc:{{str_left|{{taxonomy/{{{1}}}|machine code=rank}}|6}}}}|
+zoosub|unrank|oosubc|oosubg|oomagn|oosubs=true|#default={{#switch:{{lc:{{str_left|{{taxonomy/{{{1}}}|machine code=rank}}|8}}}}|ichnoinf|ichnosub|ichnopar|ichnomic=true}} }} }}<noinclude>{{documentation}}</noinclude>
