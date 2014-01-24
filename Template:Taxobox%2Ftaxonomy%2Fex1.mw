@@ -1,0 +1,34 @@
+<noinclude><!--
+-=======================================================================
+- Template:Taxobox/taxonomy/ex1: Show upper row set #1 of infobox taxons
+-=======================================================================
+--
+--></noinclude>{{
+#ifeq:<!--left brace: -->{|{{padleft:|1|{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}} }}
+  |<!--then more would exceed top of tree; don't try higher name rows-->
+  |<!--else show higher names-->{{taxobox/taxonomy/ex2
+      |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}
+      |2={{{2|1}}} }}<!--endtaxobox/taxonomy/ex2 -->
+}}<!--endifeq-else "{" error --><!--
+
+   The above uses {taxobox/taxonomy/ex2} to show even higher taxon rows.
+   The below creates the next 10 levels of lower taxonomy, after the
+   above levels (if any), on the request of the calling template.
+
+------------------------------------------ Show rows of name levels -->
+{{taxobox/showtaxon |LEVEL=10 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}} |authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>18|true|}} }}
+{{taxobox/showtaxon |LEVEL=9 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>17|true|}} }}
+{{taxobox/showtaxon |LEVEL=8 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>16|true|}} }}
+{{taxobox/showtaxon |LEVEL=7 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>15|true|}} }}
+{{taxobox/showtaxon |LEVEL=6 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>14|true|}} }}
+{{taxobox/showtaxon |LEVEL=5 |{{taxonomy/{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>13|true|}} }}
+{{taxobox/showtaxon |LEVEL=4 |{{taxonomy/{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|machine code=parent}}|authority={{{authority|}}}|fc={{#ifexpr:{{{2|1}}}>12|true|}} }}
+{{taxobox/showtaxon |LEVEL=3 |{{taxonomy/{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|machine code=parent}}|authority={{{grandparentauthority|}}}|fc={{#ifexpr:{{{2|1}}}>11|true|}} }}<!--
+---------------------------- Parent taxon-->
+{{taxobox/showtaxon |LEVEL=2 |{{taxonomy/{{{1|Acacia}}}|machine code=parent}}|authority={{{parentauthority|}}}|fc={{#ifexpr:{{{2|1}}}>10|true}} }}<!--
+
+------------------------------------------- Show row of last taxon -->
+{{taxobox/showtaxon |LEVEL=1 |{{ucfirst:{{{1|Acacia}}}}}|authority={{{authority|}}} |fc={{#ifexpr:{{{2|1}}}>9|true}} }}<noinclude>
+
+{{documentation}}
+</noinclude>
