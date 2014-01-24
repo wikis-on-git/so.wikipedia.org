@@ -1,0 +1,167 @@
+<includeonly>{{#expr:{{#switch:{{lc:{{{1|{{PAGENAME}}}}}}}
+
+<!-- We can also include notable dates which are subject to change, e.g. Burgess shale-->
+|burgess shale|mid middle cambrian<!--Mid middle is approximate; cf. Burgess Shale-->=505
+|chengjiang=524
+|sirius passet=525
+|doushantou=570
+
+|hadean|precambrian=4600
+|archean
+ |eoarchean|isuan=4000
+ |paleoarchean|palaeoarchean=3600
+ |mesoarchean=3200
+ |neoarchean=2800
+|proterozoic
+ |paleoproterozoic|palaeoproterozoic
+  |siderian=2500
+  |rhyacian=2300
+  |orosirian=2050
+  |statherian=1800
+ |mesoproterozoic
+  |calymmian=1600
+  | riphean|ectasian=1400
+  | stenian=1200
+ |neoproterozoic
+  |tonian=1000
+  | cryogenian|baikalian=850 
+  | ediacaran|vendian=635
+  | mayanian=1100
+  | sinian|sturtian=1050
+|phanerozoic
+ |paleozoic
+  |cambrian
+   |earliest cambrian|early cambrian|lower cambrian|terreneuvian|fortunian|manykaian|nemakit-daldynian=541.0
+   |caerfai|tommotian=530
+   |cambrian stage 2=529
+   |atdabanian|series 2|cambrian series 2|stage 3|cambrian stage 3|mid early cambrian|middle early cambrian=521
+   |botomian=522
+   |toyonian|late early cambrian|upper early cambrian|upper lower cambrian=516
+   |cambrian stage 4|stage 4=514
+   |middle cambrian|early middle cambrian|mid cambrian|series 3|cambrian series 3|cambrian stage 5|stage 5|st davids=509
+   |drumian=504.5
+   |guzhangian|nganasanian|mindyallan=500.5
+   |merioneth|furongian=497
+   |late cambrian|upper cambrian|paibian|franconian<!--unofficial and approximate!-->=497
+   |upper upper cambrian|late late cambrian|mansian=490<!--Arbritary number.-->
+      | ordovician|early ordovician|lower ordovician|tremadocian=485.4
+      | late early ordovician=479
+      | arenig|floian=477.7
+      |dapingian|middle ordovician|mid ordovician|ordovician iii|early middle ordovician=470.0
+      | darriwilian=467.3
+      |late ordovician|upper ordovician|ordovician v|sandbian|early late ordovician=458.4
+      | ordovician vi|katian=453.0
+      | hirnantian=445.2
+      | middle late ordovician=455
+      | silurian|early silurian|lower silurian|llandovery|rhuddanian=443.4
+        |aeronian=440.8
+        |telychian=438.5
+      | wenlock|sheinwoodian=433.4
+      |homerian=430.5
+      |late silurian|upper silurian|ludlow|gorstian=427.4
+      |ludfordian=425.6
+      | pridoli|unnamed pridoli stage=423.0
+        | devonian|early devonian|lower devonian|lochkovian|downtonian<!--approx-->=419.2
+      | pragian|praghian=410.8
+        | emsian=407.6
+      |middle devonian|mid devonian|eifelian=393.3
+      | givetian=387.7
+      |late devonian|upper devonian|frasnian=382.7
+      | famennian=372.2
+      | early carboniferous|lower carboniferous|carboniferous|mississippian|early mississippian|lower mississippian|tournaisian=358.9
+      | middle mississippian|visean=346.7
+      | late mississippian|serpukhovian=330.9
+      | namurian=326
+      | upper carboniferous|late carboniferous|pennsylvanian|early pennsylvanian|lower pennsylvanian|bashkirian=323.2
+      | westphalian = 313
+      | middle pennsylvanian|moscovian=315.2
+        | late pennsylvanian|kasimovian=307.0
+      |stephanian=304
+      |gzhelian=303.7
+        | permian|early permian|lower permian|cisuralian|asselian=298.9
+      | sakmarian=295.5
+      | artinskian=290.1
+      | kungurian=279.3
+      | guadalupian=272.3
+      |middle permian|mid permian|roadian|ufimian=272.3
+        | wordian=268.8
+      | capitanian=265.1
+      |late permian|upper permian|lopingian|wuchiapingian|longtanian=259.9
+      | changhsingian=254.2
+        |mesozoic|triassic|early triassic|lower triassic|induan=252.2
+      | olenekian|spathian=251.2
+        |middle triassic|mid triassic|anisian=247.2
+          | ladinian=242
+          |late triassic|upper triassic|carnian=235
+        | norian=228
+      | rhaetian=208.5
+      | jurassic|early jurassic|lower jurassic|hettangian=201.3
+        | sinemurian=199.3
+      | pliensbachian=190.8
+        | toarcian=182.7
+        |middle jurassic|mid jurassic|aalenian=174.1
+        | bajocian=170.3
+      | bathonian=168.3
+        | callovian=166.1
+        |late jurassic|upper jurassic|oxfordian=163.5
+        | kimmeridgian=157.3
+        | tithonian=152.1
+        | cretaceous|early cretaceous|lower cretaceous|berriasian|neocomian=145.0
+        | valanginian=139.8
+        | hauterivian=132.8
+        | barremian|gallic=129.4
+          | aptian=125
+          | albian=113
+       |late cretaceous|upper cretaceous|cenomanian=100.5
+       | turonian=93.9
+         | coniacian|senonian=89.8
+       | santonian=86.3
+       | campanian=83.6
+       | maastrichtian=72.1
+       |cenozoic|paleogene|paleocene|early paleocene|lower paleocene|tertiary|danian=66.0
+       | puercan=65
+       | torrejonian=63.3
+       | middle paleocene|selandian=61.6
+       | tiffanian=60.2
+       | late paleocene|thanetian=59.2
+       | clarkforkian=56.8
+       |eocene|early eocene|lower eocene|ypresian|mp 10=56.0
+       |wasatchian=55.4
+       |bridgerian=50.3
+       | middle eocene|lutetian|mp 11=47.8
+       |uintan=46.2
+       |duchesnean=42
+       |bartonian=41.3
+       |chadronian=38
+       | late eocene|priabonian=38.0
+       |oligocene|early oligocene|lower oligocene|rupelian|orellan=33.9
+       |whitneyan=33.3
+       |arikeean=30.6
+       | late oligocene|chattian=28.1
+     | neogene|miocene|early miocene|lower miocene|aquitanian=23.03
+     |hemingfordian=20.6
+     |burdigalian=20.44
+     |barstovian=16.3
+     | middle miocene|langhian=15.97
+     |serravallian=13.82
+     |clarendonian=13.6
+   | late miocene|tortonian=11.62
+     |hemphillian=10.3
+    |messinian=7.246
+    |pliocene|early pliocene|lower pliocene|zanclean=5.333
+    |blancan=4.75
+      | late pliocene|piacenzian=3.600
+    |pleistocene|early pleistocene|lower pleistocene|gelasian=2.588
+    |calabrian=1.806
+    |irvingtonian=1.8
+    | middle pleistocene=0.781
+    |rancholabrean=.24
+    | late pleistocene=0.126
+
+|quaternary=2.588<!-- ratified in doi:10.1002.2Fjqs.1338-->
+
+|holocene=0.0117
+
+
+
+|now|recent|present|current=0}} round {{{2|5}}}}}</includeonly><noinclude>{{documentation}}</noinclude>
