@@ -1,0 +1,10 @@
+<span title="Extinct">{{noitalic|{{nobold|†}}}}</span><noinclude>
+{{documentation |content=
+This template is designed for instances where the extinction dagger cannot be displayed next to a taxon correctly due to preformatting in the taxobox.
+
+Usage:
+ <nowiki>{{extinct}}</nowiki>Raphus cucullatus
+yields {{extinct}}Raphus cucullatus
+
+[[Category:Taxobox templates]]
+}}</noinclude>
