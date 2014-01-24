@@ -1,0 +1,20 @@
+{Placeholder {{error|error message}}.
+<noinclude>
+
+{{for|a list of templates in the "Template:Taxonomy/" namespace|Special:PrefixIndex/Template:Taxonomy/}}
+
+
+
+
+
+
+
+
+
+
+
+This template is for example called by [[Template:Get regnum]] through [[Template:Get regnum/1]], because the parent of "Life" gives the empty string.
+
+For example:
+*<code><nowiki>{{t^4|{{t^8|{{t^^|{{t^|{{t^16|{{t^|Columbidae }} }}  }} }} }} }}</nowiki></code> gives "{{t^4|{{t^8|{{t^^|{{t^|{{t^16|{{t^|Columbidae }} }}  }} }} }} }}".
+* Deleting this placeholder template will raise false errors with [[Template:Taxobox]], through [[Template:Taxobox/taxonomy cell]].  The content of this template must begin with a brace for proper functioning.</noinclude>
