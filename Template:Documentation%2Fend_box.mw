@@ -1,4 +1,4 @@
-<noinclude><div></noinclude><div style="clear: both;"></div><!--So right or left floating items don't stick out of the doc box.-->
+<noinclude><div></noinclude><div style="clear: both;"></div><!--So left or right floating items don't stick out of the doc box.-->
 </div><!--End of green doc box--><!--
   Link box below for the doc meta-data:
 -->{{#if: 
@@ -72,5 +72,5 @@
 | <includeonly>[[Category:Wikipedia pages with strange ((documentation)) usage|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace --></includeonly>
 
 }}<noinclude>
-{{pp-template|small=yes}}
+
 </noinclude>
