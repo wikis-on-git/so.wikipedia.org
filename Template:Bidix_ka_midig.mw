@@ -1,0 +1,8 @@
+{{#ifeq:{{{1}}}|1|
+   <div dir="ltr" style="none">{{{2}}}</div>
+|
+   <span dir="ltr" style="none">{{{1}}}</span>
+}}<noinclude>
+{{Documentation}}
+[[Category:Template]]
+</noinclude>
