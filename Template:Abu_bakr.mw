@@ -1,30 +1,60 @@
-{|
-'''Abu Bakr'''
-<!--Tiirka Bidix-->
-{| id="mp-columns" style="margin:0 0 4px 0; background:transparent;"
-| style="width:100%; border:1px solid #badecc; vertical-align:top; color:#000;  background:#f5fffa;" |
-{| id="mp-left" cellpadding="2" cellspacing="6" style="width:100%; vertical-align:top; "
-!id="mp-fa"  style="background:#d0f4e2; margin:0; height:22px; border-bottom:2px solid #badecc; color:#000; padding:.2em .4em .2em 1px;" {{Abu Bakr}} <div style="margin:0; font-size:120%; font-weight:bold; text-align:left; color:#000;">[[File:Khulafo Rashidiin Abu Bakr as-Șiddīq (Cabdullahi ibn Abi Quhafa) - أبو بكر الصديق عبد الله بن عثمان التيمي القرشي أول الخلفاء الراشدين.svg|center|250px]]</div>
-
-|-
-| magac               = Abu Bakr
-| ciwaanka              = Ku xige Rasuulka<br />(Khalifat-ul-Rasūl)
-
-| wakhtiga hogaanka              = 8 Juune 632 – 23 August 634
-| magacyo kale       = {{unbulleted list
+{{Infobox Abu Bakr
+|official_name          =Abu Bakr
+|other_name             =Abū Bakr <br /> (أبو بكر الصديق)
+|native_name            =
+|nickname               =Ku xige Rasuulka<br />(Khalifat-ul-Rasūl)
+|settlement_type        = [[Khaliif|Abu Bakr]]
+|motto                  =
+|image_skyline          =Khulafo Rashidiin Abu Bakr as-Șiddīq (Cabdullahi ibn Abi Quhafa) - أبو بكر الصديق عبد الله بن عثمان التيمي القرشي أول الخلفاء الراشدين.svg
+|imagesize              =250px
+|image_caption          = Khulafo Rashidiin Abu Bakr as-Șiddīq (Cabdullahi ibn Abi Quhafa)
+|image_flag             = Wakhtiga maamulka:
+|flag_size              =8 Juune 632 – 23 August 634
+|image_seal             = 
+|seal_size              =
+|image_map              =
+|mapsize                = 
+|map_caption            = 
+|pushpin_map            =
+|pushpin_label_position =
+|pushpin_mapsize        =
+|pushpin_map_caption    =
+|coordinates_display    =
+|coordinates_region     =
+|subdivision_type       =Lagu xasuustaa {{unbulleted list
  | Assiddiq الصدِّيق 
  | Saaxiibkii Nebiga
  | Wehelkii Nebiga marar badan
  | Sheekh Akbar
  | Taqi
  }}
-| magac dhamaystiran          = Abū Bakr <br /> (أبو بكر الصديق)
-| native_lang1       = <!--For different transliterations of native names.  Useful for Oriental-->
-| native_lang1_name1 = 
-| native_lang2       = 
-| native_lang2_name1 = <!--There are 8 sets of native_lang and native_lang_name, through...-->
-| predecessor        = [[Muhammad]] ''(Abu Bakr wuxuu ahaa ninkii ku xigay Nebi Muxammed hogaanka dowladii Islaamka)''
-| successor          = [[Cumar bin al-Khattab]]
+|subdivision_name       =
+|subdivision_type1      = Ku xige: 
+|subdivision_name1      = [[Cumar bin al-Khattab]]
+|subdivision_type2      =
+|subdivision_name2      =
+|government_footnotes   =
+|government_type        =
+|leader_title           =Wakhtiga uu dhashay:
+| birth_place        = [[Makka]], [[Carab]]ta
+|established_title      =c. Oktoober 573
+|established_date       =
+|area_magnitude         =
+|unit_pref              =
+|area_footnotes         =
+|area_total_km2         =
+|area_land_km2          =
+|population_as_of       =
+|population_footnotes   =
+|population_note        =
+|population_total       =
+|population_density_km2 =
+|timezone               =
+|utc_offset             =
+|timezone_DST           =
+|utc_offset_DST         =
+|website                =
+|footnotes              = Xaasaska iyo Qoyska 
 | spouse 1           = [[Qutaylah bint Abd-al-Uzza]] (wuu furay)
 | spouse 2           = [[Um Ruman]]
 | spouse 3           = [[Asma bint Umays]]
@@ -54,10 +84,3 @@
 | label3 = Tafiir
 | data3 = [[Siddiqui]]
 }}
-| birth_date         = c. Oktoober 573
-| birth_place        = [[Makka]], [[Carab]]ta
-| death_date         = {{death date and age|634|8|23|573|2|1|df=y}}
-| death_place        = [[Medina]], [[Carab|Dhulka Carab]]ta
-| burial_date        = 
-| burial_place       = [[Al-Masjid al-Nabawi]], [[Medina|Madinah]]
-|}
