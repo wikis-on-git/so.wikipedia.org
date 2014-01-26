@@ -1,33 +1,27 @@
 {| class="wikitable"
 |-
-! style="background:{{Taxobox colour|[[Animal]]ia}}" | [[Animal]]ia || {{Taxobox colour|[[Animal]]ia}}
+! style="background:rgb(211,211,164)" | Animalia ||style="background:rgb(211,211,164)"|[[Animalia]]||{{Bidix ka midig|rgb(211,211,164)}}
 |-
-! style="background:{{Taxobox colour|[[Archaeplastida]]}}" | [[Archaeplastida]] || {{Taxobox colour|[[Archaeplastida]]}} (palegreen2)
+! style="background:rgb(144,238,144)" | Archaeplastida ||style="background:rgb(144,238,144)"|[[Archaeplastida]] ||{{Bidix ka midig|rgb(144,238,144)}}
 |-
-! style="background:{{Taxobox colour|[[Fungi]]}}" | [[Fungi]] || {{Taxobox colour|[[Fungi]]}} (lightblue)
+! style="background:rgb(173,216,230)" | Fungi ||style="background:rgb(173,216,230)"|[[Fungi]]||{{Bidix ka midig|rgb(173,216,230)}}
 |-
-! style="background:{{Taxobox colour|[[Chromalveolate|Chromalveolata]]}}" | [[Chromalveolate|Chromalveolata]] || {{Taxobox colour|[[Chromalveolate|Chromalveolata]]}}
+! style="background:rgb(173,238,63)"  | Chromalveolata ||style="background:rgb(173,238,63)"|[[Chromalveolata]]||{{Bidix ka midig|rgb(173,238,63)}}
 |-
-! style="background:{{Taxobox colour|[[Rhizaria]]}}" | [[Rhizaria]] || {{Taxobox colour|[[Rhizaria]]}}
+! style="background:rgb(225,204,252)" | Rhizaria ||style="background:rgb(225,204,252)"|[[Rhizaria]]||{{Bidix ka midig|rgb(225,204,252)}}
 |-
-! style="background:{{Taxobox colour|[[Excavata]]}}" | [[Excavata]] || {{Taxobox colour|[[Excavata]]}} (khaki)
+! style="background:rgb(240,230,140)" | Excavata ||style="background:rgb(240,230,140)"|[[Excavata]]||{{Bidix ka midig|rgb(240,230,140)}}
 |-
-! style="background:{{Taxobox colour|[[Amoebozoa]]}}" | [[Amoebozoa]] || {{Taxobox colour|[[Amoebozoa]]}}
+! style="background:rgb(255,200,160)" | Amoebozoa ||style="background:rgb(255,200,160)"|[[Amoebozoa]]||{{Bidix ka midig|rgb(255,200,160)}}
 |-
-! style="background:{{Taxobox colour|[[Bacteria]]}}" | [[Bacteria]] || {{Taxobox colour|[[Bacteria]]}} (lightgray)
+! style="background:rgb(211,211,211)" | Bacteria ||style="background:rgb(211,211,211)"|[[Bacteria]]||{{Bidix ka midig|rgb(211,211,211)}}
 |-
-! style="background:{{Taxobox colour|[[Archaea]]}}" | [[Archaea]] || {{Taxobox colour|[[Archaea]]}}
+! style="background:rgb(236,210,210)" | Archaea ||style="background:rgb(236,210,210)"|[[Archaea]]||{{Bidix ka midig|rgb(236,210,210)}}
 |-
-! style="background:{{Taxobox colour|[[Virus]]}}" | [[Virus]]es || {{Taxobox colour|[[Virus]]}} (violet)
+! style="background:rgb(238,130,238)" | Viruses ||style="background:rgb(238,130,238)"|[[Viruses]]||{{Bidix ka midig|rgb(238,130,238)}}
 |-
-! style="background:{{Taxobox colour|''[[incertae sedis]]''}}" | ''[[incertae sedis]]'' || {{Taxobox colour|''[[incertae sedis]]''}} (linen)
-|- 
-| colspan=2 | Colours not produced by this template:
-|-
-! style='background:rgb(221, 165, 127)' | [[Template:Ichnobox|Ichnotaxa]] || rgb(221, 165, 127)
-|-
-! style='background:rgb(255,192,203)' | [[Template:Oobox|Ootaxa]] || rgb(255,192,203) (pink)
-|}<noinclude>
-[[Category:Taxobox templates]]
-
+! style="background:rgb(250,240,230)" | '' incertae sedis '' ||style="background:rgb(250,240,230)"|''[[incertae sedis]]''||{{Bidix ka midig|rgb(250,240,230)}}
+|}
+<noinclude>
+[[Category:Taxobox|{{PAGENAME}}]]
 </noinclude>
