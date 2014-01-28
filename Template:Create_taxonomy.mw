@@ -1,8 +1,8 @@
 <includeonly>
 |-
-|{{#ifeq:{{#titleparts:{{PAGENAME}}||2}}|{{{1}}}|You're currently creating:|Unrecognized taxon (<span class=plainlinks><!--
+|{{#ifeq:{{#titleparts:{{PAGENAME}}||2}}|{{{1}}}|Waxaad hadda samaynaysaa:|Noole aan la aqoonsan (<span class=plainlinks><!--
 
-Link for manual creation, assisted by WP editintros:
+Link gacan ku samays ah, ku caawisay WP wax bedeleyashooda:
 
 -->[{{create taxonomy/link|{{{1}}}}} fix]</span>):}}
 |[[{{{1}}}]][[Category:Automatic taxobox cleanup|&mu;{{FULLPAGENAME}}]]
