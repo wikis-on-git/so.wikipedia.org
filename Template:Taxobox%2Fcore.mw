@@ -68,7 +68,7 @@
 {{#if:{{{nanophylum|}}}|{{taxonomy|rank=Nanophylum|link={{{nanophylum}}} | auth={{{nanophylum_authority|}}} }} }}
 {{#if:{{{unranked_superclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_superclassis}}} | auth={{{unranked_superclassis_authority|}}} }} }}
 {{#if:{{{superclassis|}}}|{{taxonomy|rank=Superclass|link={{{superclassis}}} | auth={{{superclassis_authority|}}} }} }}
-{{#if:{{{unranked_classis|}}}|{{taxonomy|rank=aan la abla-ablayn|link={{{unranked_classis}}} | auth={{{unranked_classis_authority|}}} }} }}
+{{#if:{{{unranked_classis|}}}|{{taxonomy|rank=unranked|link={{{unranked_classis}}} | auth={{{unranked_classis_authority|}}} }} }}
 {{#if:{{{classis|}}}|{{taxonomy|rank=Faylamyar|link={{{classis}}} | auth={{{classis_authority|}}} }} }}
 {{#if:{{{unranked_subclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_subclassis}}} | auth={{{unranked_subclassis_authority|}}} }} }}
 {{#if:{{{subclassis|}}}|{{taxonomy|rank=Subclass|link={{{subclassis}}} | auth={{{subclassis_authority|}}} }} }}
