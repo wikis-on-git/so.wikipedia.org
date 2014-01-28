@@ -36,6 +36,10 @@
 | Nuuca
 | {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
 |- class="mergedrow"
+| [[{{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}]]
+| <span class="agent">{{{Speaker}}}</span>
+|- class="mergedbottomrow agent"
+|- class="mergedrow"
 | [[{{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}]]
 | <span class="agent">{{{President}}}</span>
 |- class="mergedbottomrow agent"
