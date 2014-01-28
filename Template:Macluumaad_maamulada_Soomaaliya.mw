@@ -6,7 +6,7 @@
 {| style="text-align:center; background: none;"
 | style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
 |-
-| width="130"| <small>[[Calanka {{{Name}}}|Calan]]</small> || align="center" width="130" | <small>[[Astaanta {{{Name}}}|Astaanta]]</small>
+| width="130"| <small>Calanka {{{Name}}}|Calan</small> || align="center" width="130" | <small>Astaanta {{{Name}}}|Astaanta</small>
 |}
 |-
 | align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
@@ -36,14 +36,14 @@
 | Nuuca
 | {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
 |- class="mergedrow"
-| [[{{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}]]
+| {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
 |- class="mergedbottomrow agent"
 |- class="mergedrow"
-| [[{{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}]]
+| {{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}
 | <span class="agent">{{{President}}}</span>
 |- class="mergedbottomrow agent"
-| [[Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen]]
+| Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen
 | {{{Vice President}}} ({{{Vice PresidentParty}}})
 |- class="mergedrow"
 |-
