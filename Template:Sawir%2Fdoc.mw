@@ -1,0 +1,32 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+Tusmadaan waxaa loo adeegsadaa soo gaabin taasoo ah mid lagu soo koobay template ama tusmo, iyadoona u fududayn doonto adeegsadaha.
+
+waa midka ugu muhiimsan hana u '''adeegsan''' maqaalada toos ha ugu isticmaalin (eeg ''File:'' habdhiska weedha: [[meta:Help:File]]).
+
+=== qaab adeegsiga ===
+
+* <nowiki>{{Sawir | Example.svg | 20px}}</nowiki> → {{Sawir | Example.svg | 20px}}
+* <nowiki>{{Sawir | File:Example.svg | 20px}}</nowiki> → {{Sawir | File:Example.svg | 20px}}
+* <nowiki>{{Sawir | :File:Example.svg | 20px}}</nowiki> → {{Sawir | :File:Example.svg | 20px}}
+* <nowiki>{{Sawir | [[File:Example.svg|30px]] | 20px}}</nowiki> → {{Sawir | [[File:Example.svg|30px]] | 20px}}
+
+Bal eeg haddii ay ku soo kordheen macluumaad dheeraad af (si ula kac ah) iska iloow haddii uu soo baxay sawirka iyo weedha uu buuxda qaybtii hore. waxaad ku dari kartaa 5 qaybood oo kale si toos ah si ka duwan sidii hore:
+* <nowiki>{{Sawir | Example.svg | 20px | thumb | none | Foo}}</nowiki> → {{Sawir | Example.svg | 20px | thumb | none | Foo}}
+
+waxaa kale oo aan u gudbi karnaa [[Wikipedia:Sawir weedh|sawir weedh]] hadii aad kala soocdo {{tl|!}}. Waxaad u baahan kartaa haddi ay tiro ku jirto ama calamaadda la mid "=":
+* <nowiki>{{Sawir | Example.svg | 2= 20px{{!}}link=Bogga Hore}}</nowiki> → {{Image | Example.svg | 2= 20px{{!}}link=Main Page}}
+
+=== Sidoo kala eeg ===
+* {{tl|Double image}}
+* {{tl|Multiple image}}
+* {{tl|File title}}
+* {{tl|Linked}}
+* {{tl|px}}
+* {{tl|Wide image}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Wikipedia metatemplates]]
+
+</includeonly>
