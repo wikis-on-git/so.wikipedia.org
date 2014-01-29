@@ -1,11 +1,29 @@
-{{infobox
-}}
-{|class="wikitable"
+{{sidebar with collapsible lists
+| name           =Cali
+| headingstyle   = font-size:130%; white-space:nowrap;
+| style          = width:20.0em;
+| basestyle      = background:lavender;
+| pretitle       = Qayb ka mid ah silsilad ku saabsan
+| title          = [[Cali bin Abi Dalib]] <br>ﻋﻠﻲ ﺑﻦ ﺃﺑﻲ ﻃﺎﻟﺐ</br> <br>Amiirul muminiin</br> <br>ﺃﻣﻴﺮ ﺍﻟﻤﺆﻣﻨﻴﻦ</br>
+| image          = [[File:Khaliif_cali.svg.png|140px|Cali bin Abi Dalib]]
+| headingstyle   = border-bottom:5px solid #efefef;
+| bodyclass      = hlist
+| belowstyle     = border: 0;
+| contentstyle   = padding:2px 0px;
+| expanded       = {{{expanded|{{{1|}}}}}}
+| listtitlestyle = background:lavender;padding-left:0.2em;text-align:center;
 
-| colspan="3" align="center" |<br><br>'''[[Cali bin Abi Dalib]]'''<br>'''ﻋﻠﻲ ﺑﻦ ﺃﺑﻲ ﻃﺎﻟﺐ'''<br></SMALL><SMALL><br>'''Imaam Muslimiin'''<br>ﺃﻣﻴﺮ ﺍﻟﻤﺆﻣﻨﻴﻦ<br><br><br>[[File:Khaliif_cali.svg.png]]<br><br>'''[[Khaliif|Khaliif Rashiid]] Cali bin Abi Dalib'''<br>(ﻋﻠﻲ ﺑﻦ ﺃﺑﻲ ﻃﺎﻟﺐ)<br><br>
-[[File:Mohammad_adil_rais-Caliph_Ali's_empire_661.PNG|thumb|250px|Deegaanka dowlada Islaamka wakhtigii Cali.]]<br><br>
-|-
-|
+| list1name  = aragtida
+| list1title = Aragtida
+| list1style = padding:2px 0px 0px 0px;
+| list1  =
+* [[Aragtida suniyiinta ee cali]]
+* [[Aragtida Shiicada ee cali]]
+* [[Aragtiga gaalada ee cali]]
+
+| list2name  = nolosha
+| list2title = Nolosha
+| list2  =
 '''Magaca dhamaystiran''': Cali bin abi Dalib - (ﻋﻠﻲ ﺑﻦ ﺃﺑﻲ ﻃﺎﻟﺐ)<br>
 
 ;Magacyo kale: Abu Turab ([[aabe|aabihii]] [[caro|carada]])<br>Murtadha (kii la doortey)<br>Asadullah ([[libaax]]ii [[Alle]])<br>Xaydar (Geesi)<br>
@@ -17,15 +35,10 @@
 '''Wakhtiga dhintey''': [[Bil|21kii Ramadaān 40 H.K]] ≈ Jan. 27, 661 [[C.D]] [[Masjid|Masjid Kufa]], Kufa, [[Ciraaq]]<br>
 
 '''Meesha lagu aasay''': [[masjid|Masjid imam Cali]], Najaf, [[Ciraaq]]<br><br>
-|-
-| 
-'''Hogaanka ka horeeyay''': [[Cusmaan bin Caffan]] (Cali waa [[Khaliif|khaliifka 4aad]])<br>
-[[Nebi Muxamed]] (Cali waa [[Khaliif|imaamka 1aad]] marka la tixraaco [[Shiicada]]) <SMALL><br>
 
-'''Hogaanka uga dambeeyay''': [[Mucaawiye]] ([[Khaliif|khaliifka 5aad]])<br>
-[[Xasan]] ([[Khaliif|imaamka 2aad]] marka la tixraaco [[Shiicada]])</SMALL><br>
-|-
-| '''Qoyska'''
+| list3name  = qoys
+| list3title = Qoys
+| list3  =
 Aabe: [[Dalib ibn Cabd al-Mudalib]]<br>
 Hooyo: 
 [[Fatima bint Asad]]<br>
@@ -62,4 +75,25 @@ Hooyo:
 ;Gabdhaha uu dhalay:
 *[[Saynab bint Cali]]
 *[[Umm Kulthum bint Cali]]
-|}
+
+| list4name  = meelihii uu xukumay
+| list4title = Meelihii uu xukumay
+| list4  =
+[[File:Mohammad_adil_rais-Caliph_Ali's_empire_661.PNG|thumb|250px|Deegaanka dowlada Islaamka wakhtigii Cali.]]<br><br>
+
+| list5name  = maqaalada xiriirka la leh
+| list5title = Maqaalada xiriirka la leh
+| list5  =
+* [[Nebi Muxamed]] [[Khilaafada Islaamka]] 
+* [[Sunni]] [[Shiica]]
+
+| below =
+* [[:Category:Diin|Category]]
+* {{portal-inline|Diin|size=tiny}}
+
+| navbar = yes
+}}<noinclude>
+[[Category:Islaam| ]]
+[[Category:Diin]]
+
+</noinclude>
