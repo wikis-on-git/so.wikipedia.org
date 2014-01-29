@@ -23,7 +23,7 @@
 <tr>
 <td class="{{{aboveclass|}}}" style="padding: 0.3em 0.4em 0.3em; font-weight: bold; {{{abovestyle|}}}"><!-- newline required for bullets to work -->
 {{{above}}}</td>
-}}{{#if: {{{heading1|}}}|
+}}{{#if: {{{heading1|Cumar binu Khattab}}}|
 <tr>
 <th class="{{{headingclass|}}}" style="padding-top: 0.2em; {{#if: {{{image|}}}|padding-top: 0.4em;}} {{{headingstyle|}}};{{{heading1style|}}}">{{{heading1}}}</th>
 </tr>
@@ -38,34 +38,34 @@
 <th class="{{{headingclass|}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading2style|}}}">{{{heading2}}}</th>
 </tr>
 }}{{#if:
-{{{content2|}}}|
+{{{content2|Amir Al-Mu'miniin}}}|
 <tr>
 <td class="{{{contentclass|}}}" style="padding-bottom: 0.2em; {{{contentstyle|}}};{{{content2style|}}}">
 {{{content2}}}</td>
 </tr>
-}}{{#if: {{{heading3|}}}|
+}}{{#if: {{{heading3| Magaca Dhamaystiran}}}|
 <tr>
-<th class="{{{headingclass|}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading3style|}}}">{{{heading3}}}</th>
+<th class="{{{headingclass|Cumar bin al-Khattab <br /> ({{lang-ar|عمر بن الخطاب}})}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading3style|Wakhtiga Hogaaminta}}}">{{{heading3}}}</th>
 </tr>
 }}{{#if:
-{{{content3|}}}|
+{{{content3|[[bil|23 Ogusto]] [[C.D|634 C.D]] – [[taariikh|03 Nofember]] [[sanad|644 C.D]]}}}|
 <tr>
 <td class="{{{contentclass|}}}" style="padding-bottom: 0.2em; {{{contentstyle|}}};{{{content3style|}}}">
 {{{content3}}}</td>
 </tr>
-}}{{#if: {{{heading4|}}}|
+}}{{#if: {{{heading4|Wakhtiga dhalashada}}}|
 <tr>
-<th class="{{{headingclass|}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading4style|}}}">{{{heading4}}}</th>
+<th class="{{{headingclass|579 C.D (45 Hijrada ka hor)}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading4style|Meesha ku dhashay}}}">{{{heading4}}}</th>
 </tr>
 }}{{#if:
-{{{content4|}}}|
+{{{content4|[[Mekka]], [[Carabi]]ya}}}|
 <tr>
 <td class="{{{contentclass|}}}" style="padding-bottom: 0.2em; {{{contentstyle|}}};{{{content4style|}}}">
 {{{content4|}}}</td>
 </tr>
-}}{{#if: {{{heading5|}}}|
+}}{{#if: {{{heading5|Wakhtiga uu dhintey}}}|
 <tr>
-<th class="{{{headingclass|}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading5style|}}}">{{{heading5}}}</th>
+<th class="{{{headingclass|03 Nofember 644 CD (26 Dulhijjah 23 Hijrada ka dib)}}}" style="padding-top: 0.2em; {{{headingstyle|}}};{{{heading5style|}}}">{{{heading5}}}</th>
 </tr>
 }}{{#if:
 {{{content5|}}}|
