@@ -7,7 +7,7 @@
       }}
     | {{#if:{{{native_name|}}}
       | {{{native_name}}}
-      | ''Error: No name(s) given'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|N]]}}
+      | ''Error: No name(s) given'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|N]]}}
       }}
 }}'''
 |-
@@ -46,23 +46,23 @@
     |United Kingdom |UK=the [[United Kingdom]]
     |United States |US |USA =the [[United States]]
     |#default = {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
-    }} |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+    }} |whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}
   }}}}
   |Client |Client state |Client State |Puppet |Puppet-state |Puppet state= {{#if:{{{status_text|}}}|{{{status_text}}}|{{#if:{{{empire|}}}| {{#switch:{{{empire}}}
     |First French Empire |France = [[French client republic|Client]] of the [[First French Empire]]
     |#default = [[Puppet state]] of {{#ifexist:{{{empire}}}|[[{{{empire}}}]]|{{{empire}}}}}
-    }} | Puppet state ''(of whom?)'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}
+    }} | Puppet state ''(of whom?)'' {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}
   }}}}
   |Vassal={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
     |Holy Roman Empire |HRE = [[States of the Holy Roman Empire|State]] of the [[Holy Roman Empire]] {{#if:{{{year_end|}}}|{{#ifexpr:{{{year_end}}}>1806|<small>(until 1806)</small>}}|}}
-    |#default =  Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |#default =  Vassal{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}}}
   }}}}
   |Fief={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
-    |#default =  Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |#default =  Fief{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}}}
   }}}}
   |Abbey={{#if:{{{status_text|}}}|{{{status_text}}}|{{#switch:{{{empire|}}}
     |Holy Roman Empire |HRE = [[Imperial Abbey]] of the [[Holy Roman Empire]] [[Category:Imperial abbeys|{{{common_name}}}]]
-    |#default =  Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}}
+    |#default =  Abbey{{#if:{{{empire|}}}|&nbsp;of&nbsp;{{{empire}}}|&nbsp;of whom? {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}}}
   }}}}
   |Satellite |Satellite State | Satellite state ={{#if:{{{status_text|}}}|{{{status_text}}}| Satellite state of the [[Soviet Union]]}}
   |Colony={{#switch:{{ucfirst:{{{empire}}}}}
@@ -80,7 +80,7 @@
     |Norway=Norwegian colony
     |Russia=Russian colony
     |Japan=[[Japanese Empire|Japanese colony]]
-    |#default = Colony ({{#if:{{{empire|}}}|{{{empire}}}|''of whom?''{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Former country articles requiring maintenance|S]]}}}})
+    |#default = Colony ({{#if:{{{empire|}}}|{{{empire}}}|''of whom?''{{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||[[Category:Habayn|S]]}}}})
   }}
   |Provisional |Provisional Government |Provisional government ={{#if:{{{status_text|}}}|{{{status_text}}}| [[Provisional government]]}}
   |Exile |Exiled Government = {{#if:{{{year_exile_start|}}}|[[Government in exile|In Exile]] {{#if:{{{year_exile_end|}}}|&nbsp;({{{year_exile_start}}}&nbsp;–&nbsp;{{{year_exile_end}}})|since {{{year_exile_start}}}}}|[[Government in exile]] }}
@@ -170,15 +170,15 @@ For the preceding and succeeding entities, give as input the name the territory.
 || {{#if:{{{government_type|}}}|{{#switch:{{ucfirst:{{{government_type}}}}}
   |Constitutional monarchy |Constitutional Monarchy|Elective monarchy|Elective Monarchy |Absolute Monarchy |Absolute monarchy
   |Monarchy=[[{{{government_type}}}]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{continent}}}
-    |Europe=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]]
+    |Europe=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]]
     |Asia=[[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |North America=[[Category:Former monarchies of North America|{{{common_name}}}, {{{year_start}}}]]
-    |South America=[[Category:Former monarchies of South America|{{{common_name}}}, {{{year_start}}}]]
-    |Africa=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]
+    |North America=[[Category:Ameerika|{{{common_name}}}, {{{year_start}}}]]
+    |South America=[[Category:Ameerika|{{{common_name}}}, {{{year_start}}}]]
+    |Africa=[[Category:Afrika|{{{common_name}}}, {{{year_start}}}]]
     |Oceania=[[Category:Former monarchies of Oceania|{{{common_name}}}, {{{year_start}}}]]
-    |Eurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |Afroasia=[[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |Afroeurasia=[[Category:Former monarchies of Europe|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]|[[Category:Former monarchies|{{{common_name}}}, {{{year_start}}}]]
+    |Eurasia=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]]
+    |Afroasia=[[Category:Afrika|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
+    |Afroeurasia=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]|[[Category:Former monarchies|{{{common_name}}}, {{{year_start}}}]]
     }}}}
   |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former republics|{{{common_name}}}, {{{year_start}}}]]}}
   |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former principalities|{{{common_name}}}, {{{year_start}}}]]}}
