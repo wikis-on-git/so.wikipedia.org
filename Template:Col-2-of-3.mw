@@ -1,0 +1,32 @@
+<p></p>
+| width="33.33%" align="{{{align|right}}}" valign="{{{valign|top}}}" |<noinclude>
+----
+
+{{Col-begin/doc}}
+
+
+Begins with a blank line to ensure the table wiki code is at the beginning of a line.
+
+This [[Wikipedia:Template|template]] is a [[Wikipedia:Avoid self-references|self-reference]] and so is part of the Wikipedia project rather than the encyclopaedic content.
+
+ &#123;{col-begin}}
+ &#123;{col-3}}
+ &#123;{col-3}}
+ &#123;{col-3}}
+ &#123;{col-end}}
+
+Parameters:
+* align (default: left)
+* valign (default: top)
+
+
+{{Col-begin/doc}}
+==Sidoo kale eeg==
+* {{tl|Col-begin}}
+* {{tl|Col-break}}
+* {{tl|Col-2}}
+* {{tl|Col-3}}
+* {{tl|Col-4}}
+* {{tl|Col-end}}
+
+</noinclude>
