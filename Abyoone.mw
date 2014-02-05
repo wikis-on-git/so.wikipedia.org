@@ -1,0 +1,43 @@
+[[file:Latex integers.svg|Sumadda tirada abyoone (sumadaas waxaa laga soo dhexsaaray oraahda ''Zahlen'' taasoo loola jeedo ''tirada'' ee [[Af-Jarmal|Af-Jarmal]]). |thumb]]
+
+'''Tirooyinka Abyoone''' waa [[Tiro|tirooyin]] ay suutowdo in loo qori karo iyadoon la adeegsan [[Jajab|Jajab]] ama [[Hakad|hakad tobanaale]], waxayna noqonaysaa '''urur tirooyin abyoone''' -taasoo ka dhigan [[Hormo urur]] ka tirsan urur [[Tiro maangal ah|tiro maangal ah]] - laga soo bilaabo [[Tiro tirsiimo|Tiro tirsiimo]] (1, 2, 3, ..) iyo [[Eber|Eber]] iyo [[Tiro taban|tirooyinka taban]] ee ku beegan tirooyinka tirsiimaha (-1, -2, -3, ..), waa in ay ahaadaan ururta tirooyinka abyoone  [[Urur makoobane]] waxayna la mid yihiin urur tirooyin tirsiimaha, sida caadiga ah waxaa loo suntaa xarafka '''Z'''.
+
+[[file:Number-line.svg|left|thumb|300px|Wuu ka fagaadaa tiro kasta ee abyoone tarada kale ee abyoone ee ku xigta fogaan sugan [[Xariiq tiro]] (tirooyonka abyoone aan tabanaha ahayn waxaa lagu muujiyey midab buluug furan, halka lagu muujiyeytirooyinka abyoone ee taban midab cas ama guduudan).]]
+
+Kuwaan soo socdana waa wax ka mkid ah aas aaska gaarka ah ee isugeynta iyo isku dhufada abyoone kasta ''a'', ''b'' iyo ''c''.
+{|class="wikitable"
+|+Astaamaha isugeynta iyo isku dhufashada ee abyoone
+|  
+!scope="col" |Isugeyn 
+!scope="col" |Isku dhufasho
+|-
+!scope="row" |[[Xeerka oodnaanta (xisaab)|oodnaan]]: 
+|{{nowrap|''a'' + ''b''}}{{pad|1em}}waa abyoone 
+|{{nowrap|''a'' × ''b''}}{{pad|1em}}waa abyoone
+|-
+!scope="row"|[[Hormogalnimo]]: 
+|{{nowrap|''a'' + (''b'' + ''c'') {{=}} (''a'' + ''b'') + ''c''}}
+|{{nowrap|''a'' × (''b'' × ''c'') {{=}} (''a'' × ''b'') × ''c''}}
+|-
+!scope="row" |[[Xeerka kala-hormarinta]]: 
+|{{nowrap|''a'' + ''b'' {{=}} ''b'' + ''a''}}
+|{{nowrap|''a'' × ''b'' {{=}} ''b'' × ''a''}}
+|-
+!scope="row" |Jiritaanka ah [[Asalmadoorshe]]: 
+|{{nowrap|''a'' + 0 {{=}} ''a''}} 
+|{{nowrap|''a'' × 1 {{=}} ''a''}}
+|-
+!scope="row" |Jiritaanka ah [[Weydaarka kutirsane]]: 
+|{{nowrap|''a'' + (−''a'') {{=}} 0}} 
+|Weydaarka kutirsane sida caadiga ah maba jiro.
+|-
+!scope="Dhinactax" |[[Kala dhigid]]: 
+|colspan=2 align=center |{{nowrap|''a'' × (''b'' + ''c'') {{=}} (''a'' × ''b'') + (''a'' × ''c'')}}{{pad|1em}}iyo{{pad|1em}}{{nowrap|(''a'' + ''b'') × ''c'' {{=}} (''a'' × ''c'') + (''b'' × ''c'')}}
+|-
+!scope="row" |No Qaybiye eber: (*)
+| || | Haddii {{nowrap|''a'' × ''b'' {{=}} 0}}, kadib {{nowrap|''a'' {{=}} 0}} ama {{nowrap|''b'' {{=}} 0}} (ama labodooda oo isla jira)
+|}
+
+
+[[Category:Xisaab]] 
+[[Category:Abyoone]]
