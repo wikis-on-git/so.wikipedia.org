@@ -1,0 +1,61 @@
+{{ infobox
+
+| above       = {{{name|{{PAGENAME}}}}}
+| abovestyle  = background-color: {{#if:{{{color|}}}|{{{color}}}|#369}}; color: white
+| headerstyle = background-color: {{#if:{{{color|}}}|{{{color}}}|#369}}; color: white
+| belowstyle = font-size:85%; text-align:left;border-top:1px solid #c0c0c0;padding-top:0.75em;
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_width|}}}|alt={{{alt|}}}|sizedefault=frameless}}
+| caption     = {{{caption|}}}
+
+| header1     = {{#if:{{{middle|}}}{{{lesser|}}}{{{image2|}}}{{{image3|}}}|Versions<!--
+ -->{{infobox|child=yes
+  | image1 = {{#invoke:InfoboxImage|InfoboxImage|image={{{middle|}}}|size={{{middle_width|}}}|alt={{{middle_alt|}}}|sizedefault=frameless|upright=0.5}}
+  | caption1 = {{{middle_caption|}}}
+  | image2 = {{#invoke:InfoboxImage|InfoboxImage|image={{{lesser|}}}|size={{{lesser_width|}}}|alt={{{lesser_alt|}}}|sizedefault=frameless|upright=0.5}}
+  | caption2 = {{{lesser_caption|}}}
+  | image3 = {{#invoke:InfoboxImage|InfoboxImage|image={{{image2|}}}|size={{{image2_width|}}}|alt={{{image2_alt|}}}|sizedefault=frameless|upright=0.5}}
+  | caption3 = {{{image2_caption|}}}
+  | image4 = {{#invoke:InfoboxImage|InfoboxImage|image={{{image3|}}}|size={{{image3_width|}}}|alt={{image3_alt|}}}|sizedefault=frameless|upright=0.5}}
+  | caption4 ={{{image3_caption|}}}
+  }}
+}}
+
+| header2     = Habka
+
+| label3      = [[Armiger]]
+| data3       = {{{armiger|}}}
+| label7      = Adopted
+| data7       = {{{year_adopted|}}}
+| label9      = [[Crest (heraldry)|Crest]]
+| data9       = {{{crest|}}}
+| label10     = [[Torse]]
+| data10      = {{{torse|}}}
+| label11     = [[Helmet (heraldry)|Helmet]]
+| data11      = {{{helm|}}}
+| label12     = [[Escutcheon (heraldry)|Escutcheon]]
+| data12      = {{{shield|}}}
+| label13     = {{#if:{{{supporter|}}}|[[Supporter]]|[[Supporter]]s}}
+| data13      = {{#if:{{{supporter|}}}|{{{supporter|}}}|{{{supporters|}}}}}
+| label15     = [[Compartment (heraldry)|Compartment]]
+| data15      = {{{compartment|}}}
+| label16     = [[Motto]]
+| data16      = {{{motto|}}}
+| label17     = [[Order (honour)|Orders]]
+| data17      = {{{orders|}}}
+| label18     = Badge
+| data18      = {{{badge|}}}
+| label19     = Other elements
+| data19      = {{{other_elements|}}}
+| label20     = Constituent parts<!-- for where a shield is clearly made up of multiple representations, but this cannot be mentioned elsewhere -->
+| data20      = {{{parts|}}}
+| label21     = Earlier versions
+| data21      = {{{earlier_versions|}}}
+| label22     = Predecessors <!--for wikilinks to earlier states/cities/influencing arms, like 'Earlier versions' but the wording always works -->
+| data22      = {{{predecessors|}}}
+| label23     = Use
+| data23      = {{{use|}}}
+
+| below = {{{notes|}}}
+
+}}<noinclude>{{documentation}}<!-- Please add metadata to the  section at the bottom of the /doc page --></noinclude>
