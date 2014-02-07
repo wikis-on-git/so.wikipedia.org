@@ -1,4 +1,4 @@
-{| class="infobox vcard" style="width:{{#if:{{{boxwidth|}}}|{{{boxwidth}}}|22em}}; font-size: 88%; text-align:right; line-height: 1.5em"
+{| class="infobox vcard" style="width:{{#if:{{{boxwidth|}}}|{{{boxwidth}}}|22em}}; font-size: 88%; text-align:left; line-height: 1.5em"
 ! colspan=2 class="fn" style="text-align:center; background-color:gold; font-size:120%;" | '''{{{magaca<noinclude>|{{PAGENAME}}</noinclude>}}}'''
 |-
 {{#if:{{{image|}}}|
