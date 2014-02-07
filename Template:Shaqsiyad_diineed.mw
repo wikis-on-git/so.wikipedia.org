@@ -1,0 +1,74 @@
+{| class="infobox vcard" style="width:{{#if:{{{boxwidth|}}}|{{{boxwidth}}}|22em}}; font-size: 88%; text-align:right; line-height: 1.5em"
+! colspan=2 class="fn" style="text-align:center; background-color:gold; font-size:120%;" | '''{{{magaca<noinclude>|{{PAGENAME}}</noinclude>}}}'''
+|-
+{{#if:{{{image|}}}|
+{{!}} colspan=2 style="text-align:center;" {{!}} [[file:{{{image}}}|{{px|{{{size_image|}}}|250px}}|center|alt={{{alt|}}}]]{{{comment|}}}
+{{!}}-
+}}
+{{#if:{{{naynaas|}}}|
+! colspan=2 class="title" style="text-align:center; background-color:gold;" {{!}} {{{naynaas}}}
+{{!}}-
+}}
+{{#if:{{{taariikhda_dhalashada|}}}{{{goobta_dhalashada|}}}|
+! Dhalashada
+{{!}} {{br separated entries|{{{taariikhda_dhalashada|}}}|{{{goobta_dhalashada|}}}}}
+{{!}}-
+}}
+{{#if:{{{taariikhda_dhimashada|}}}{{{goobta_dhimashada|}}}|
+! Dhimashada
+{{!}} {{br separated entries|{{{taariikhda_dhimashada|}}}|{{{goobta_dhimashada|}}}}}
+{{!}}-
+}}
+{{#if:{{{ka_sharfan|}}}|
+! Ka sharfan
+{{!}} {{{ka_sharfan}}}
+{{!}}-
+}}
+{{#if:{{{taariikhda_barakayn|}}}|
+! Barakayn
+{{!}} {{{taariikhda_barakayn}}}{{#if:{{{goobta_barakaynta|}}}|, {{{goobta_barakaynta}}}}} {{#if:{{{barkaysane|}}}| {{{barakaysane}}}}}
+{{!}}-
+}}
+{{#if:{{{taariikhda_lasoo_saaray|}}}|
+! Dirista
+{{!}} {{{taariikhda_lasoo_saaray}}}{{#if:{{{goobta_lagasoo_saaray|}}}|, {{{goobta_lagasoo_saaray}}}}}
+{{!}}-
+}}
+{{#if:{{{meesha_ugu_weyn|}}}|
+! Meesha ugu weyn
+{{!}} {{{meesha_ugu_weyn}}}
+{{!}}-
+}}
+{{#if: {{{taariikh_la_xuso|}}}|
+! Taariikh la xuso
+{{!}} {{{taariikh_la_xuso}}}
+{{!}}-
+}}
+{{#if:{{{astaamo|}}}|
+! Astaamo
+{{!}} {{{astaamo}}}
+{{!}}-
+}}
+{{#if:{{{shafeeco|}}}|
+! Shafeecada
+{{!}} {{{shafeeco}}}
+{{!}}-
+}}
+{{#if:{{{abtiris|}}}|
+! Abtiris
+{{!}} {{{abtiris}}}
+{{!}}-
+}}
+{{#if:{{{shaabad|}}}|
+! Shaabadda
+{{!}} colspan=2 style="text-align:center;" {{!}} [[file:{{{shaabad}}}|{{px|{{{size_image|}}}|50px}}|center|alt={{{alt|}}}]]
+{{!}}-
+}}
+{{#if:{{{taariikh_xaram|}}}|
+! Taariikh xaram
+{{!}} {{{taariikh_xaram}}}{{#if:{{{xaram|}}}|&nbsp; {{{muxramka}}}}}
+{{!}}-
+}}
+|}<noinclude>
+{{Documentation}}
+</noinclude>
