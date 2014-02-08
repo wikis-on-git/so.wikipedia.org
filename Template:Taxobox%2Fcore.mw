@@ -22,7 +22,7 @@
 {{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }} }}
 |-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinct={{{extinct|}}} }} }}
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Biological classification|Scientific classification]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Bayoloji|Qaybaha]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
 |-
 {{#if:{{{parent|}}}|
 {{taxobox/{{#if:{{{virus|}}}|virus t|t}}axonomy|{{{parent}}}|{{{display_taxa|}}}|authority={{{authority|}}}|parent_authority={{{parent_authority|}}}|grandparent_authority={{{grandparent_authority|}}}|greatgrandparent_authority={{{greatgrandparent_authority|}}}|greatgreatgrandparent_authority={{{greatgreatgrandparent_authority|}}}|bold first={{#if:{{{species|}}}|link|bold}} }}
@@ -45,7 +45,7 @@
 {{#if:{{{unranked_superregnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_superregnum}}} | auth={{{unranked_superregnum_authority|}}} }} }}
 {{#if:{{{superregnum|}}}|{{taxonomy|rank=Superkingdom|link={{{superregnum}}} | auth={{{superregnum_authority|}}} }} }}
 {{#if:{{{unranked_regnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_regnum}}} | auth={{{unranked_regnum_authority|}}} }} }}
-{{#if:{{{regnum|}}}|{{taxonomy|rank=Kingdom|link={{{regnum}}} | auth={{{regnum_authority|}}} }} }}
+{{#if:{{{regnum|}}}|{{taxonomy|rank=Boqortooyo|link={{{regnum}}} | auth={{{regnum_authority|}}} }} }}
 {{#if:{{{unranked_subregnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_subregnum}}} | auth={{{unranked_subregnum_authority|}}} }} }}
 {{#if:{{{subregnum|}}}|{{taxonomy|rank=Subkingdom|link={{{subregnum}}} | auth={{{subregnum_authority|}}} }} }}
 {{#if:{{{unranked_superdivisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_superdivisio}}} | auth={{{unranked_superdivisio_authority|}}} }} }}
@@ -55,7 +55,7 @@
 {{#if:{{{unranked_divisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_divisio}}} | auth={{{unranked_divisio_authority|}}} }} }}
 {{#if:{{{divisio|}}}|{{taxonomy|rank=Division|link={{{divisio}}} | auth={{{divisio_authority|}}} }} }}
 {{#if:{{{unranked_phylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_phylum}}} | auth={{{unranked_phylum_authority|}}} }} }}
-{{#if:{{{phylum|}}}|{{taxonomy|rank=Phylum|link={{{phylum}}} | auth={{{phylum_authority|}}} }} }}
+{{#if:{{{phylum|}}}|{{taxonomy|rank=Faylum|link={{{phylum}}} | auth={{{phylum_authority|}}} }} }}
 {{#if:{{{unranked_subdivisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_subdivisio}}} | auth={{{unranked_subdivisio_authority|}}} }} }}
 {{#if:{{{subdivisio|}}}|{{taxonomy|rank=Subdivision|link={{{subdivisio}}} | auth={{{subdivisio_authority|}}} }} }}
 {{#if:{{{unranked_subphylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_subphylum}}} | auth={{{unranked_subphylum_authority|}}} }} }}
@@ -69,7 +69,7 @@
 {{#if:{{{unranked_superclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_superclassis}}} | auth={{{unranked_superclassis_authority|}}} }} }}
 {{#if:{{{superclassis|}}}|{{taxonomy|rank=Superclass|link={{{superclassis}}} | auth={{{superclassis_authority|}}} }} }}
 {{#if:{{{unranked_classis|}}}|{{taxonomy|rank=unranked|link={{{unranked_classis}}} | auth={{{unranked_classis_authority|}}} }} }}
-{{#if:{{{classis|}}}|{{taxonomy|rank=Class|link={{{classis}}} | auth={{{classis_authority|}}} }} }}
+{{#if:{{{classis|}}}|{{taxonomy|rank=Faylamyar|link={{{classis}}} | auth={{{classis_authority|}}} }} }}
 {{#if:{{{unranked_subclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_subclassis}}} | auth={{{unranked_subclassis_authority|}}} }} }}
 {{#if:{{{subclassis|}}}|{{taxonomy|rank=Subclass|link={{{subclassis}}} | auth={{{subclassis_authority|}}} }} }}
 {{#if:{{{unranked_infraclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_infraclassis}}} | auth={{{unranked_infraclassis_authority|}}} }} }}
@@ -79,7 +79,7 @@
 {{#if:{{{unranked_superordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_superordo}}} | auth={{{unranked_superordo_authority|}}} }} }}
 {{#if:{{{superordo|}}}|{{taxonomy|rank=Superorder|link={{{superordo}}} | auth={{{superordo_authority|}}} }} }}
 {{#if:{{{unranked_ordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_ordo}}} | auth={{{unranked_ordo_authority|}}} }} }}
-{{#if:{{{ordo|}}}|{{taxonomy|rank=Order|link={{{ordo}}} | auth={{{ordo_authority|}}} }} }}
+{{#if:{{{ordo|}}}|{{taxonomy|rank=Gacal|link={{{ordo}}} | auth={{{ordo_authority|}}} }} }}
 {{#if:{{{unranked_subordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_subordo}}} | auth={{{unranked_subordo_authority|}}} }} }}
 {{#if:{{{subordo|}}}|{{taxonomy|rank=Suborder|link={{{subordo}}} | auth={{{subordo_authority|}}} }} }}
 {{#if:{{{unranked_infraordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_infraordo}}} | auth={{{unranked_infraordo_authority|}}} }} }}
@@ -95,19 +95,19 @@
 {{#if:{{{unranked_superfamilia|}}}|{{taxonomy|rank=unranked|link={{{unranked_superfamilia}}} | auth={{{unranked_superfamilia_authority|}}} }} }}
 {{#if:{{{superfamilia|}}}|{{taxonomy|rank=Superfamily|link={{{superfamilia}}} | auth={{{superfamilia_authority|}}} }} }}
 {{#if:{{{unranked_familia|}}}|{{taxonomy|rank=unranked|link={{{unranked_familia}}} | auth={{{unranked_familia_authority|}}} }} }}
-{{#if:{{{familia|}}}|{{taxonomy|rank=Family|link={{{familia}}} | auth={{{familia_authority|}}} }} }}
+{{#if:{{{familia|}}}|{{taxonomy|rank=Dir|link={{{familia}}} | auth={{{familia_authority|}}} }} }}
 {{#if:{{{unranked_subfamilia|}}}|{{taxonomy|rank=unranked|link={{{unranked_subfamilia}}} | auth={{{unranked_subfamilia_authority|}}} }} }}
-{{#if:{{{subfamilia|}}}|{{taxonomy|rank=Subfamily|link={{{subfamilia}}} | auth={{{subfamilia_authority|}}} }} }}
+{{#if:{{{subfamilia|}}}|{{taxonomy|rank=Bah|link={{{subfamilia}}} | auth={{{subfamilia_authority|}}} }} }}
 {{#if:{{{unranked_supertribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_supertribus}}} | auth={{{unranked_supertribus_authority|}}} }} }}
 {{#if:{{{supertribus|}}}|{{taxonomy|rank=Supertribe|link={{{supertribus}}} | auth={{{supertribus_authority|}}} }} }}
 {{#if:{{{unranked_tribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_tribus}}} | auth={{{unranked_tribus_authority|}}} }} }}
-{{#if:{{{tribus|}}}|{{taxonomy|rank=Tribe|link={{{tribus}}} | auth={{{tribus_authority|}}} }} }}
+{{#if:{{{tribus|}}}|{{taxonomy|rank=Duul|link={{{tribus}}} | auth={{{tribus_authority|}}} }} }}
 {{#if:{{{unranked_subtribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_subtribus}}} | auth={{{unranked_subtribus_authority|}}} }} }}
 {{#if:{{{subtribus|}}}|{{taxonomy|rank=Subtribe|link={{{subtribus}}} | auth={{{subtribus_authority|}}} }} }}
 {{#if:{{{unranked_alliance|}}}|{{taxonomy|rank=unranked|link={{{unranked_alliance}}} | auth={{{unranked_alliance_authority|}}} }} }}
 {{#if:{{{alliance|}}}|{{taxonomy|rank=Alliance|link={{{alliance}}} | auth={{{alliance_authority|}}} }} }}
 {{#if:{{{unranked_genus|}}}|{{taxonomy|rank=unranked|link={{{unranked_genus}}} | auth={{{unranked_genus_authority|}}} }} }}
-{{#if:{{{genus|}}}| {{taxonomy|rank=Genus/noitalics|link={{{genus}}}|auth={{{genus_authority|}}} }} }}
+{{#if:{{{genus|}}}| {{taxonomy|rank=Sinji/|link={{{genus}}}|auth={{{genus_authority|}}} }} }}
 {{#if:{{{unranked_subgenus|}}}|{{taxonomy|rank=unranked|link={{{unranked_subgenus}}} | auth={{{unranked_subgenus_authority|}}} }} }}
 {{#if:{{{subgenus|}}}|{{taxonomy|rank=Subgenus/noitalics|link={{{subgenus}}} | auth={{{subgenus_authority|}}} }} }}
 {{#if:{{{unranked_sectio|}}}|{{taxonomy|rank=unranked|link={{{unranked_sectio}}} | auth={{{unranked_sectio_authority|}}} }} }}
@@ -125,7 +125,7 @@
 {{#if:{{{unranked_species_complex|}}}|{{taxonomy|rank=unranked|link={{{unranked_species_complex}}} | auth={{{unranked_species_complex_authority|}}} }} }}
 {{#if:{{{species_complex|}}}|{{taxonomy|rank=Species complex|link={{{species_complex}}} | auth={{{species_complex_authority|}}} }} }}
 {{#if:{{{unranked_species|}}}|{{taxonomy|rank=unranked|link={{{unranked_species}}} | auth={{{unranked_species_authority|}}} }} }}
-{{#if:{{{species|}}}|{{taxonomy|rank=Species/noitalics|link={{{species}}} | auth={{{species_authority|}}} }} }}
+{{#if:{{{species|}}}|{{taxonomy|rank=Jinsi/noitalics|link={{{species}}} | auth={{{species_authority|}}} }} }}
 {{#if:{{{unranked_subspecies|}}}|{{taxonomy|rank=unranked|link={{{unranked_subspecies}}} | auth={{{unranked_subspecies_authority|}}} }} }}
 {{#if:{{{subspecies|}}}|{{taxonomy|rank=Subspecies/noitalics|link={{{subspecies}}} | auth={{{subspecies_authority|}}}
 }} }}
@@ -135,13 +135,13 @@
 }} }}
 |- 
 {{#if:{{{binomial|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} [[Binomial nomenclature|Binomial name]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} Tibix laba magac
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>
 }}
 |- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Animalia]]|[[Animal]]ia|Animalia=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
+! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="trinomial">{{{trinomial}}}</span>'''<br /><small>{{{trinomial_authority|}}}</small>
 }}
@@ -203,9 +203,9 @@
 }}
 |- 
 {{#if:{{{diversity|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Biodiversity|Diversity]]{{{diversity_ref|}}} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Articles using diversity taxobox]] | }}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[{{{diversity_link}}}|Diversity]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Articles using diversity taxobox]] | }}
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{#if:{{{diversity_link|}}}|[[{{{diversity_link|}}}|{{{diversity|}}}]]|{{{diversity|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} {{{diversity|}}}
 {{!}}-
 }}
 {{#if:{{{range_map|}}}|
@@ -265,7 +265,7 @@
 }}
 |- 
 {{#if:{{{synonyms|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} [[Synonym (taxonomy)|Synonyms]]{{{synonyms_ref|}}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"  {{!}} Magac macna wadaag{{{synonyms_ref|}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{synonyms}}}
@@ -281,4 +281,4 @@
 Define any categories to be displayed on the page here:
 
 Species microformat:
--->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with 'species' microformats]]}}</includeonly><noinclude>{{documentation}}</noinclude>
+-->{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Microformats]]}}</includeonly><noinclude>{{documentation}}</noinclude>
