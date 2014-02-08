@@ -28,7 +28,7 @@
   | <!--Add the [view][bedel][history][purge] or [create] links-->
     <span class="mw-editsection plainlinks" id="doc_editlinks">{{
     #if: {{{doc exist|yes}}}
-    | &#91;[[{{{docpage|{{FULLPAGENAME}}/doc}}}|view]]&#93; [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} bedel]] [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} taariikhda]] [{{purge|dacarfal}}] 
+    | &#91;[[{{{docpage|{{FULLPAGENAME}}/doc}}}|Itusi]]&#93; [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} bedel]] [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} taariikhda]] [{{purge|dacarfal}}] 
     | <!--/doc doesn't exist-->
       [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}| action=edit&preload={{
         #if: {{{preload|}}} 
