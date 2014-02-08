@@ -84,7 +84,7 @@
 {{#ifeq:{{ucfirst:{{lc:{{{33}}}}}}}|{{uc:{{{33}}}}}|chart/cell{{{33|x}}}b|void}}}}{{
 {{#ifeq:{{ucfirst:{{lc:{{{34}}}}}}}|{{uc:{{{34}}}}}|chart/cell{{{34|x}}}b|void}}}}{{
 {{#ifeq:{{ucfirst:{{lc:{{{35}}}}}}}|{{uc:{{{35}}}}}|chart/cell{{{35|x}}}b|void}}}}{{
-{{#ifeq:{{ucfirst:{{lc:{{{36}}}}}}}|{{uc:{{{36}}}}}|chart/cell{{{36|x}}}b|void}}}}{{
+{{#ifeq:{{ucfirst:{{lc:{{{36}}}}}}}|{{uc:{{{36}}}}}|chart/cell{{{36|x}}}b|void}}}}{{doc
 {{#ifeq:{{ucfirst:{{lc:{{{37}}}}}}}|{{uc:{{{37}}}}}|chart/cell{{{37|x}}}b|void}}}}{{
 {{#ifeq:{{ucfirst:{{lc:{{{38}}}}}}}|{{uc:{{{38}}}}}|chart/cell{{{38|x}}}b|void}}}}{{
 {{#ifeq:{{ucfirst:{{lc:{{{39}}}}}}}|{{uc:{{{39}}}}}|chart/cell{{{39|x}}}b|void}}}}{{
