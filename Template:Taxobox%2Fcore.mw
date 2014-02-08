@@ -1,6 +1,6 @@
 <includeonly>{| class="infobox biota" style="text-align: left; width: 200px; font-size: 100%" 
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" | {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}{{#if:{{{temporal_range|}}}|<br /><small>Temporal range: {{{temporal_range}}}</small>}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" | {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}{{#if:{{{temporal_range|}}}|<br /><small>Temporal range: {{{temporal_range}}}</small>}}
 |-
 {{#if:{{{image|}}}|
 {{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{image}}}{{!}}{{#if:{{{image_width|}}}|{{{image_width}}}|frameless}}{{!}}alt={{{image_alt|}}}]]
@@ -18,11 +18,11 @@
 {{!}}-
 }}
 }}
-|- colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" 
+|- colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" 
 {{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }} }}
 |-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinct={{{extinct|}}} }} }}
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Bayoloji|Qaybaha]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Bayoloji|Qaybaha]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
 |-
 {{#if:{{{parent|}}}|
 {{taxobox/{{#if:{{{virus|}}}|virus t|t}}axonomy|{{{parent}}}|{{{display_taxa|}}}|authority={{{authority|}}}|parent_authority={{{parent_authority|}}}|grandparent_authority={{{grandparent_authority|}}}|greatgrandparent_authority={{{greatgrandparent_authority|}}}|greatgreatgrandparent_authority={{{greatgreatgrandparent_authority|}}}|bold first={{#if:{{{species|}}}|link|bold}} }}
@@ -135,11 +135,11 @@
 }} }}
 |- 
 {{#if:{{{binomial|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}"  {{!}} Tibix laba magac
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}"  {{!}} Tibix laba magac
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>
 }}
-|- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}"
+|- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}"
 {{#if:{{{trinomial|}}}|
 ! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
 {{!}}-
@@ -165,45 +165,45 @@
 }}
 |- 
 {{#if:{{{type_species|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} [[Type species]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} [[Type species]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_species}}}<br /><small>{{{type_species_authority|}}}</small>
 }}
 |- 
 {{#if:{{{type_ichnospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} [[Type species|Type ichnospecies]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} [[Type species|Type ichnospecies]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnospecies}}}<br /><small>{{{type_ichnospecies_authority|}}}</small>
 }}
 |- 
 {{#if:{{{type_oospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} [[Type species|Type oospecies]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} [[Type species|Type oospecies]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_oospecies}}}<br /><small>{{{type_oospecies_authority|}}}</small>
 }}
 |- 
 {{#if:{{{type_strain|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} [[Type strain]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} [[Type strain]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_strain}}}
 }}
 |- 
 {{#if:{{{subdivision|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} {{{subdivision_ranks}}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} {{{subdivision_ranks}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{subdivision|}}}
 }}
 |- 
 {{#if:{{{possible_subdivision|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} {{{possible_subdivision_ranks}}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} {{{possible_subdivision_ranks}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{possible_subdivision|}}}
 }}
 |- 
 {{#if:{{{diversity|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" {{!}} [[{{{diversity_link}}}|Diversity]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Articles using diversity taxobox]] | }}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}" {{!}} [[{{{diversity_link}}}|Diversity]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Articles using diversity taxobox]] | }}
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{diversity|}}}
 {{!}}-
@@ -265,7 +265,7 @@
 }}
 |- 
 {{#if:{{{synonyms|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}"  {{!}} Magac macna wadaag{{{synonyms_ref|}}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}|transparent}}"  {{!}} Magac macna wadaag{{{synonyms_ref|}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{synonyms}}}
