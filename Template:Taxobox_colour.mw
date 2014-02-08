@@ -1,5 +1,5 @@
 <includeonly>{{#switch:{{lc:{{{1|{{get regnum()|{{{taxon}}} }} }}} }}<!-- Either pass a regnum (using 1=) or a taxon (using taxon=) whose regnum will be established automatically. -->
-|[[xayawaan]]|[[xayawaan]]|[[xayawaan|xayawaan]]|xayawaan|xayawaan = rgb(211,211,164)
+|[[animal]]ia|[[animalia]]|[[animal|animalia]]|animalia|animal = rgb(211,211,164)
 |[[archaeplastida]]|[[plant]]ae|[[plantae]]|[[plant|plantae]]|[[viridiplantae]]|plantae|plant = rgb(144,238,144)
 |[[fungus|fungi]]|[[fungi]]|fungi = rgb(173,216,230)
 |[[chromalveolata]]|[[chromalveolate|chromalveolata]]|chromalveolata = rgb(173,238,63)
