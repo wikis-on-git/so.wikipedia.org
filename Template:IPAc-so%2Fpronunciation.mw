@@ -1,0 +1,13 @@
+{{#switch:{{lc:{{{type|{{{1}}}}}}}}
+ |lang
+ |somali       = <small>Soomaali </small>
+ |pron
+ |pronunciation = <small>Dhawaadiq: </small>
+ |local         = <small>maxalli </small>
+ |ipa           = <small>[[International Phonetic Alphabet|IPA]] </small>
+ |Maxaa            = <small>[[Maxaa tiri|Maxaa]] </small>
+ |May            = <small>[[May tiri|May]] </small>
+ |#default      = <!-- NULL -->
+}}<noinclude>
+{{documentation}}
+</noinclude>
