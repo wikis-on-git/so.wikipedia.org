@@ -17,7 +17,7 @@
 | label4     = Magac maalmeed
 | data4      = {{#if:{{{name day|}}}|{{{name day|}}}|{{{nameday|}}}}}
 
-| header5    = {{#if:{{{languageorigin|}}}{{{origin|}}}{{{derivation|}}}{{{meaning|}}}{{{region|}}}|Origin}} 
+| header5    = {{#if:{{{languageorigin|}}}{{{origin|}}}{{{derivation|}}}{{{meaning|}}}{{{region|}}}|Asalka}} 
 | class5     = navbox-abovebelow
 | label6     = Luqadaha
 | data6      = {{{languageorigin|}}}
@@ -30,7 +30,7 @@
 | label10    = Meesha asalka
 | data10     = {{{region|}}}
 
-| header11   = {{#if:{{{alternative spelling|}}}{{{variant forms|}}}{{{variant|}}}{{{short forms|}}}{{{shortform|}}}{{{nickname|}}}{{{petname|}}}{{{cognate|}}}{{{anglicisation|}}}{{{derivative|}}}{{{derived|}}}{{{usage|}}}{{{related names|}}}{{{seealso|}}}|Other names}}
+| header11   = {{#if:{{{alternative spelling|}}}{{{variant forms|}}}{{{variant|}}}{{{short forms|}}}{{{shortform|}}}{{{nickname|}}}{{{petname|}}}{{{cognate|}}}{{{anglicisation|}}}{{{derivative|}}}{{{derived|}}}{{{usage|}}}{{{related names|}}}{{{seealso|}}}|Magacyo kale}}
 | class11    = navbox-abovebelow
 | label12    = Higgaad
 | data12     = {{{alternative spelling|}}}
