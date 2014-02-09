@@ -1,0 +1,65 @@
+<includeonly>{{Infobox
+| above      = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}
+| aboveclass = navbox-abovebelow
+
+| image      = {{#if:{{{image|}}}|[[File:{{{image}}}|{{px|{{max|220|{{{image_size|}}}}}}}]]}}
+| caption    = {{{caption|}}}
+| label1     = Dhawaaqid
+| data1      = {{{pronunciation|}}}
+| label2     = Nooc
+| data2      = {{{gender|}}}
+| label3     = [[Af]]
+| data3      = {{comma separated entries<!--
+  -->|{{#if:{{{language|}}}|{{#ifexist:{{{language}}} language|[[{{{language}}} language|{{{language}}}]]|{{{language}}} }} }}<!--
+  -->|{{#if:{{{language2|}}}|{{#ifexist:{{{language2}}} language|[[{{{language2}}} language|{{{language2}}}]]|{{{language2}}} }} }}<!--
+  -->|{{#if:{{{language3|}}}|{{#ifexist:{{{language3}}} language|[[{{{language3}}} language|{{{language3}}}]]|{{{language3}}} }} }}<!--
+  -->}}
+| label4     = Magac maalmeed
+| data4      = {{#if:{{{name day|}}}|{{{name day|}}}|{{{nameday|}}}}}
+
+| header5    = {{#if:{{{languageorigin|}}}{{{origin|}}}{{{derivation|}}}{{{meaning|}}}{{{region|}}}|Origin}} 
+| class5     = navbox-abovebelow
+| label6     = Luqadaha
+| data6      = {{{languageorigin|}}}
+| label7     = Weedh/Magac
+| data7      = {{{origin|}}}
+| label8     = Katimid
+| data8      = {{{derivation|}}}
+| label9     = Macnaha
+| data9      = {{{meaning|}}}
+| label10    = Meesha asalka
+| data10     = {{{region|}}}
+
+| header11   = {{#if:{{{alternative spelling|}}}{{{variant forms|}}}{{{variant|}}}{{{short forms|}}}{{{shortform|}}}{{{nickname|}}}{{{petname|}}}{{{cognate|}}}{{{anglicisation|}}}{{{derivative|}}}{{{derived|}}}{{{usage|}}}{{{related names|}}}{{{seealso|}}}|Other names}}
+| class11    = navbox-abovebelow
+| label12    = Higgaad
+| data12     = {{{alternative spelling|}}}
+| label13    = Qaab isbed-bedel
+| data13     = {{#if:{{{variant forms|}}}|{{{variant forms|}}}|{{{variant|}}}}}
+| label14    = Loo soo gaabiyey
+| data14     = {{#if:{{{short forms|}}}|{{{short forms|}}}|{{{shortform|}}}}}
+| label15    = NMagac uyeel)
+| data15     = {{{nickname|}}}
+| label16    = [[Naanays]]
+| data16     = {{{petname|}}}
+| label17    = [[Ehel]]
+| data17     = {{{cognate|}}}
+| label18    = Anglicisation
+| data18     = {{{anglicisation|}}}
+| label19    = Laga so saaray
+| data19     = {{{derivative|}}}
+| label20    = Ka yimid
+| data20     = {{{derived|}}}
+| label21    = Adeegsi		
+| data21     = {{{usage|}}}
+| label22    = Magac la xiriira
+| data22     = {{{related names|}}}
+| label23    = See also
+| data23     = {{#if:{{{see also|}}}|{{{see also|}}}|{{{seealso|}}}}}
+| label24    = Shacbiyad
+| data24     = {{#if:{{{popularity|}}}|see [[List of most popular given names|popular names]]}}
+| belowstyle = border-top:#aaa 1px solid
+| below      = {{{footnotes|}}}
+}}{{{wikt|{{wiktionary|{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
