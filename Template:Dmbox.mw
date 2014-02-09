@@ -1,0 +1,60 @@
+<table id="
+{{#switch:{{{type|}}}
+| setindex = setindexbox
+| disambig      <!-- disambig = default -->
+| #default = disambigbox
+}}" class="metadata plainlinks dmbox 
+{{#switch:{{{type|}}}
+| setindex = dmbox-setindex
+| disambig      <!-- disambig = default -->
+| #default = dmbox-disambig
+}} {{{class|}}}" style="{{{style|}}}" role="presentation">
+<tr>
+{{#ifeq:{{{image|}}}|none
+| <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell"></td>
+| <td class="mbox-image" style="padding: 2px 0 2px 0.4em;"> {{#if:{{{image|}}}
+  | {{{image}}}
+  | [[File:{{#switch:{{{type|}}}
+    | setindex = List gray.svg
+    | disambig      <!-- disambig = default -->
+    | #default = Disambig gray.svg
+    }}|30px|alt=Disambiguation icon]]
+  }}</td>
+}}
+<td class="mbox-text" style="padding: 0.25em 0.4em; font-style: italic; {{{textstyle|}}}"> {{{text}}} </td>
+{{#if:{{{imageright|}}}
+| <td class="mbox-imageright" style="padding: 2px 0.4em 2px 0;"> {{{imageright}}} </td>
+}}
+</tr>
+</table><!-- 
+  Detect and report usage with faulty "type" parameter:
+-->{{#switch:{{{type|}}}
+|   <!-- No type fed, is also valid input -->
+| disambig
+| setindex =    <!-- Do nothing, valid "type" -->
+| #default = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
+}}<!-- 
+  Magic word for disambiguation pages:
+-->{{#ifeq:{{{type|}}}|disambig|__DISAMBIG__|}}<!-- 
+  Categorization:
+-->{{#switch:{{{type|}}}
+| setindex = 
+  {{category handler
+  | main = [[Category:All set index articles]]
+  | nocat = {{{nocat|}}}   <!--So "nocat=true" works-->
+  | page = {{{page|}}}   <!--For testing-->
+  }}
+| disambig    <!-- disambig = default -->
+| #default = 
+  {{category handler
+  | main = [[Category:All article disambiguation pages]][[Category:All disambiguation pages]]
+  | template =    <!-- Don't categorize on template pages. -->
+  | other = [[Category:All disambiguation pages]]
+  | nocat = {{{nocat|}}}   <!--So "nocat=true" works-->
+  | page = {{{page|}}}   <!--For testing-->
+  }}
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
