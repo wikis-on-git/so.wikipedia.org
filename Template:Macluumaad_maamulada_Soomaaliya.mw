@@ -30,10 +30,11 @@
 ! Magaca kale
 | {{{Demonym}}}
 |-
-! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}Nooca
+! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
 | 
 |- class="mergedrow"
-| {{#ifeq: {{{EntityAdjective|}}} | Baarlamaan | [[Baarlamaan]]i | }}
+| Nooca
+| {{#ifeq: {{{EntityAdjective|}}} | Baarlmaan | [[Baarlamaan]]i | }}
 |- class="mergedrow"
 | {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
