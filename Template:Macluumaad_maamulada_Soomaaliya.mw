@@ -34,7 +34,7 @@
 | 
 |- class="mergedrow"
 | Nooca
-| {{#ifeq: {{{EntityAdjective|}}} | Baarlmaan | [[Baarlamaan]]i | }}
+| {{#ifeq: {{{EntityAdjective|}}} | Baarlamaan | [[Baarlamaan]]i | }}
 |- class="mergedrow"
 | {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
