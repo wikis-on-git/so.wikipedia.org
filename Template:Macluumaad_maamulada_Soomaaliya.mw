@@ -17,10 +17,10 @@
 | {{{Capital}}}
 {{#if:{{{LargestCity<includeonly>|</includeonly>}}}|
 {{!}}- class="mergedrow"
-! [[Maamulada Soomaaliya|Magaalada ugu weyn]]
+! Magaalada ugu weyn
 {{!}} {{{LargestCity}}}}}
 |- class="mergedbottomrow"
-! [[Maamulada Soomaaliya|Magaalada ugu dadka badan]]
+! Magaalada ugu dadka badan
 | {{{LargestMetro}}}
 |-
 !Luqada
@@ -43,7 +43,7 @@
 | {{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}
 | <span class="agent">{{{President}}}</span>
 |- class="mergedbottomrow agent"
-| Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen
+| M ku xigeen {{{Name}}}|M ku xigeen
 | {{{Vice President}}} ({{{Vice PresidentParty}}})
 |- class="mergedrow"
 |-
