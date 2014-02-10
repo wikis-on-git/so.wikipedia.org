@@ -30,11 +30,12 @@
 ! Magaca kale
 | {{{Demonym}}}
 |-
-! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
-| 
+! Nooca {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}xukunka
 |- class="mergedrow"
-| Nuuca
-| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
+| {{#ifeq: {{{EntityAdjectiveType|}}} | Goboleed | [[Baarlamaan]] | }}
+|- class="mergedrow"
+| {{{Form}}} {{{Name}}}|{{nowrap|{{{Form}}}}}
+| | <span class="agent">{{{EntityAdjective}}}</span>
 |- class="mergedrow"
 | {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
