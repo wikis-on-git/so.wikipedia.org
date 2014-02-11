@@ -22,7 +22,7 @@
 {{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }} }}
 |-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinct={{{extinct|}}} }} }}
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Bayoloji|Qaybaha]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Veterovata|Eggshell classification]]|[[Bayoloji|Abla-ablayn cilmi ah]]}} }} }} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}{{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}
 |-
 {{#if:{{{parent|}}}|
 {{taxobox/{{#if:{{{virus|}}}|virus t|t}}axonomy|{{{parent}}}|{{{display_taxa|}}}|authority={{{authority|}}}|parent_authority={{{parent_authority|}}}|grandparent_authority={{{grandparent_authority|}}}|greatgrandparent_authority={{{greatgrandparent_authority|}}}|greatgreatgrandparent_authority={{{greatgreatgrandparent_authority|}}}|bold first={{#if:{{{species|}}}|link|bold}} }}
