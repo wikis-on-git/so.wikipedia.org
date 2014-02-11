@@ -1,0 +1,24 @@
+<includeonly>{{#switch:{{{1}}}
+|India|india={{cite web|url=http://www.censusindia.net/results/town.php?stad=A&state5=999|archiveurl=http://web.archive.org/web/20040616075334/http://www.censusindia.net/results/town.php?stad=A&state5=999|archivedate=2004-06-16|title= Census of India 2001: Data from the 2001 Census, including cities, villages and towns  (Provisional)|accessdate=2008-11-01|work= |publisher= Census Commission of India}}
+|1={{#tag:ref|{{cite web|url=http://www.census.gov/geo/www/gazetteer/gazette.html|publisher=[[United States Census Bureau]]|accessdate=2011-04-23|date=2011-02-12|title=US Gazetteer files: 2010, 2000, and 1990}}|name="GR1"}}
+|2={{#tag:ref|{{cite web|url=http://factfinder.census.gov|publisher=[[United States Census Bureau]]|accessdate=2008-01-31|title=American FactFinder}}|name="GR2"}}
+|3={{#tag:ref|{{cite web|url=http://geonames.usgs.gov|accessdate=2008-01-31|title=US Board on Geographic Names|publisher=[[United States Geological Survey]]|date=2007-10-25}}|name="GR3"}}
+|4={{#tag:ref|{{cite web|url=http://geonames.usgs.gov/pls/gnispublic|accessdate=2008-01-31|title=Geographic Names Information System|accessdate=2008-01-31|publisher=[[United States Geological Survey]]}}|name="GR4"}}
+|5={{#tag:ref|{{cite web|url=http://www.nima.mil/gns/html/index.html|accessdate=2008-01-31|title=NGA GEOnet Names Server|publisher=[[National Geospatial-Intelligence Agency]]|date=2008-01-30}}|name="GR5"}}
+|6={{#tag:ref|{{cite web|url=http://www.naco.org/Counties/Pages/FindACounty.aspx|accessdate=2011-06-07|title=Find a County|publisher=National Association of Counties}}|name="GR6"}}
+|7={{#tag:ref|{{cite web |url=http://tools.usps.com/go/ZipLookupAction!input.action |title=USPS - Look Up a ZIP Code |accessdate=2012-02-15 |author=United States Postal Service |year=2012}}|name="GR7"}}
+|8={{#tag:ref|{{cite web|url=http://factfinder2.census.gov|publisher=[[United States Census Bureau]]|accessdate=2011-05-14|title=American FactFinder}}|name="GR8"}}
+|9={{#tag:ref|{{cite web|url=http://www.census.gov/prod/www/abs/decennial/|publisher=[[United States Census Bureau]]|accessdate=2012-03-04|title=Census of Population and Housing: Decennial Censuses}}|name="GR9"}}
+|r1={{cite web|url=http://www.census.gov/geo/www/gazetteer/gazette.html|publisher=[[United States Census Bureau]]|accessdate=2011-04-23|date=2011-02-12|title=US Gazetteer files: 2010, 2000, and 1990}}
+|r2={{cite web|url=http://factfinder.census.gov|publisher=[[United States Census Bureau]]|accessdate=2008-01-31|title=American FactFinder}}
+|r3={{cite web|url=http://geonames.usgs.gov|accessdate=2008-01-31|title=US Board on Geographic Names|publisher=[[United States Geological Survey]]|date=2007-10-25}}
+|r4={{cite web|url=http://geonames.usgs.gov/pls/gnispublic|accessdate=2008-01-31|title=Geographic Names Information System|accessdate=2008-01-31|publisher=[[United States Geological Survey]]}}
+|r5={{cite web|url=http://www.nima.mil/gns/html/index.html|accessdate=2008-01-31|title=NGA GEOnet Names Server|publisher=[[National Geospatial-Intelligence Agency]]|date=2008-01-30}}
+|r6={{cite web|url=http://www.naco.org/Counties/Pages/FindACounty.aspx|accessdate=2011-06-07|title=Find a County|publisher=National Association of Counties}}
+|r7={{cite web |url=http://tools.usps.com/go/ZipLookupAction!input.action |title=USPS - Look Up a ZIP Code |accessdate=2012-02-15 |author=United States Postal Service |year=2012}}
+|r8={{cite web|url=http://factfinder2.census.gov|publisher=[[United States Census Bureau]]|accessdate=2011-05-14|title=American FactFinder}}
+|r9={{cite web|url=http://www.census.gov/prod/www/abs/decennial/|publisher=[[United States Census Bureau]]|accessdate=2012-03-04|title=Census of Population and Housing: Decennial Censuses}}
+|#default=<strong class="error">[[Template:Geographic reference|Geographic reference]] error: 1={{{1|}}}</strong>
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
