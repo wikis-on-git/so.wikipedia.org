@@ -6,7 +6,7 @@
 {| style="text-align:center; background: none;"
 | style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
 |-
-| width="130"| <small>Calanka {{{Name}}}|Calan</small> || align="center" width="130" | <small>Astaanta {{{Name}}}|Astaanta</small>
+| width="130"| <small>Calanka</small> || align="center" width="130" | <small>Astaanta</small>
 |}
 |-
 | align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
@@ -17,10 +17,10 @@
 | {{{Capital}}}
 {{#if:{{{LargestCity<includeonly>|</includeonly>}}}|
 {{!}}- class="mergedrow"
-! Magaalada ugu weyn
+! [[Maamulada Soomaaliya|Magaalada ugu weyn]]
 {{!}} {{{LargestCity}}}}}
 |- class="mergedbottomrow"
-! Magaalada ugu dadka badan
+! [[Maamulada Soomaaliya|Magaalada ugu dadka badan]]
 | {{{LargestMetro}}}
 |-
 !Luqada
@@ -33,8 +33,8 @@
 ! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
 | 
 |- class="mergedrow"
-| Nooca
-| {{#ifeq: {{{EntityAdjective|}}} | Baarlamaan | [[Baarlamaan]]i | }}
+| Nuuca
+| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
 |- class="mergedrow"
 | {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
@@ -43,7 +43,7 @@
 | {{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}
 | <span class="agent">{{{President}}}</span>
 |- class="mergedbottomrow agent"
-| M ku xigeen {{{Name}}}|M ku xigeen
+| Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen
 | {{{Vice President}}} ({{{Vice PresidentParty}}})
 |- class="mergedrow"
 |-
@@ -115,14 +115,14 @@
 ! Furaha Po
 | {{{PostalCodePrefix}}}
 |- class="mergedtoprow"
-! Midab
-| {{{Midab}}}
+! Blue
+| {{{Blue}}}
 |- class="mergedrow"
-! Sumad
-| {{{Sumad}}}
+! Xidig
+| {{{Star}}}
 |- class="mergedbottomrow"
-! Midab
-| {{{Midab}}}
+! Blue
+| {{{Blue}}}
 |-
 ! Website
 | [http://{{{Website}}}/ {{{Website}}}]
