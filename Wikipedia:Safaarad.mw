@@ -228,3 +228,15 @@ You are also welcome to join tomorrow's [[m:IRC_office_hours#Upcoming_office_hou
 
 We look forward to a constructive discussion with you, so we can make a more informed decision together on this important topic. [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 06:46, 16 Jannaayo 2014 (UTC)
 <!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/MP4_notice_targets&oldid=7105580 -->
+
+== Universal Language Selector will be enabled by default again on this wiki by 21 February 2014 ==
+
+<div class="mw-content-ltr" lang="en" dir="ltr">
+On January 21 2014 the MediaWiki extension [[mw:Universal Language Selector|Universal Language Selector]] (ULS) was [[mw:Universal Language Selector/Announcement Jan2014|disabled]] on this wiki. A new preference was added for logged-in users to turn on ULS. This was done to prevent slow loading of pages due to ULS webfonts, a behaviour that had been observed by the Wikimedia Technical Operations team on some wikis. 
+
+We are now ready to enable ULS again. The temporary preference to enable ULS will be removed. A [[commons:File:ULS-font-checkbox.png|new checkbox]] has been added to the Language Panel to enable/disable font delivery. This will be unchecked by default for this wiki, but can be selected at any time by the users to enable webfonts. This is an interim solution while we improve the feature of webfonts delivery.
+
+You can read the [[mw:Universal Language Selector/Announcement Feb2014|announcement]] and the [[mw:Universal Language Selector/Upcoming Development Plan|development plan]] for more information. Apologies for writing this message only in English. Thank you. [[m:User_talk:Runab WMF|Runa]]
+
+</div>
+<!-- Message sent by User:Runab WMF@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/ULS_Reenable_2014&oldid=7490703 -->
