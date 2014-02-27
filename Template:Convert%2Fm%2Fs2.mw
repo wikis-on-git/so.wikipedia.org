@@ -1,0 +1,39 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{
+#switch: {{{3|ft/s2}}}<!--check to auto-correct output unit-->
+  | ft/s2 |mph/s = {{{3}}}<!--match common units fast-->
+  | ft/s|ft = ft/s2
+  | km|km/s|km2 = km/s2
+  | km/h|kmh = km/hs
+  | mph|mpg = mpg/s
+  | #default={{{3|ft/s2}}}
+}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|s={{{s|}}}|r={{{r}}}
+|u=m/s<sup>2</sup>
+|n=met{{{r}}} per second squared
+|h=met{{{r}}}-per-second-squared
+|l=met{{{r}}}s per second squared
+|t=metre per second squared
+|o=ft/s2
+|b=1
+|j=-{{{j|0}}}}}{{
+#switch: {{{3|ft/s2}}}<!--check to auto-correct output unit-->
+  | ft/s2 |mph/s = 
+  | ft/s|ft = [[Template:Convert/help#Invalid unit parameter 3: {{{3|ft}}} -- using ft/s2 instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | km|km/s|km2 = [[Template:Convert/help#Invalid unit parameter 3: {{{3|km}}} -- using km/s2 instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | km/h|kmh = [[Template:Convert/help#Invalid unit parameter 3: {{{3|km}}} -- using km/hs instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | mph|mpg = [[Template:Convert/help#Invalid unit parameter 3: {{{3|mph}}} -- using mph/s instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | #default=
+}}<noinclude>
+
+The '''[[Template:Convert/m/s2]]''' handles [[acceleration]] conversions with unit-code "m/s2" for [[metres per second per second]] with [[Template:Convert]].
+
+For improper combinations of unit-codes, the template will auto-correct the output unit, for the following unit-codes:
+::* ft/s, ft:&nbsp; will auto-correct as "ft/s2"
+::* km, km/s, km2:&nbsp; will auto-correct as "km/s2"
+::* km/h, kmh:&nbsp; will auto-correct as "km/hs"
+::* mph, mpg:&nbsp; will auto-correct as "mph/s"
+The autocorrection will also show a superscript note, such as "[[Template:Convert/help#Unit parameter 3: {{{3|km}}} -- using km/s2 instead|<sup>[fix unit]</sup>]]" but the result will be a valid equivalent amount.
+
+Invalid cases will link to "[[:Category:Convert dimension mismatch]]".
+
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
