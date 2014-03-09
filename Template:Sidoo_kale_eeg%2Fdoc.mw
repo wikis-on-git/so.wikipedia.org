@@ -1,0 +1,18 @@
+<div class="rellink {{#if:{{{points|}}}||hlist}}">
+{{#if:{{{Page|}}}|[[file:Crystal Clear app kdict.png|link=|18px]]&ensp;{{{Page}}}|
+{{#if:{{{points|}}}|
+[[file:Crystal Clear app kdict.png|link=|18px]]&ensp;'''sidoo kale eeg eeg''':
+*[[{{{1}}}]]|
+*[[file:Crystal Clear app kdict.png|link=|18px]]&ensp;'''Sidoo kale eeg eeg''': [[{{{1}}}]]
+}}{{#if:{{{2|}}}|
+*[[{{{2}}}]]}}{{#if:{{{3|}}}|
+*[[{{{3}}}]]}}{{#if:{{{4|}}}|
+*[[{{{4}}}]]}}{{#if:{{{5|}}}|
+*[[{{{5}}}]]}}{{#if:{{{6|}}}|
+*[[{{{6}}}]]}}{{#if:{{{7|}}}|
+*[[{{{7}}}]]}}{{#if:{{{8|}}}|
+*[[{{{8}}}]]}}{{#if:{{{9|}}}|
+*[[{{{9}}}]]}}{{#if:{{{10|}}}|
+*[[{{{10}}}]]}}
+}}</div>
+<noinclude>{{Documentation}}</noinclude>
