@@ -1,0 +1,12 @@
+<includeonly>{{#if:{{{2|}}}|<div class="expand_all">Dhammaan</div>}}
+<h2 class="expand_heading">{{{1}}}</h2>
+<div class="toggle_container">
+{{{1.}}}</div>{{#if:{{{2|}}}|<h2 class="expand_heading">{{{2}}}</h2>
+<div class="toggle_container">
+{{{2.}}}</div>}}{{#if:{{{3|}}}|<h2 class="expand_heading">{{{3}}}</h2>
+<div class="toggle_container">
+{{{3.}}}</div>}}{{#if:{{{4|}}}|<h2 class="expand_heading">{{{4}}}</h2>
+<div class="toggle_container">
+{{{4.}}}</div>}}{{#if:{{{5|}}}|<h2 class="expand_heading">{{{5}}}</h2>
+<div class="toggle_container">
+{{{5.}}}</div>}}</div></div></includeonly><noinclude>{{Documentation}}</noinclude>
