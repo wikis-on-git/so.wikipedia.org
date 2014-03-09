@@ -1,6 +1,9 @@
-{| style="margin: 0 5%; padding: 0 7px 7px 7px; background: #fee; border: 1px solid #999999; text-align: left; font-size:95%;"
-|-
-| valign="top" | [[Image:Nuvola apps important.svg|50px|left]]
-| '''Digniin''': Fadlan wax sax ah qor. {{#if:{{{1|}}}| {{{1}}}}}
-hadii aad dhibka sii wadid meeshaan waa lagaa mamnuucaa!.
-|}
+{{Ambox
+| tybe  = Arrin
+| image = [[file:Nuvola apps important.svg|55px]]
+| title = Haye {{<includeonly>subst:</includeonly>BASEPAGENAME}}.
+| text  = {{{1}}}.
+}}<noinclude>
+{{Sidoo kale eeg/Tusmooyinka digniinaha|Waxaa qoraalkaa looga gol leeyahay in loo digo isticmaalaha}}
+
+</noinclude>
