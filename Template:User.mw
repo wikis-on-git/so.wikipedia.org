@@ -1,4 +1,22 @@
-[[User:{{{1}}}|{{{1}}}]] ([[User_talk:{{{1}}}|Wadahadal]] • [[Special:Contributions{{{1}}}|Qoraallaha]])<noinclude>
+<div style="float:{{{float|left}}}; border:{{{border-width|{{{border-s|1}}}}}}px solid {{{Border Color|{{{border-color|{{{1|{{{border-c|{{{id-c|#999}}}}}}}}}}}}}}}; margin:1px;" class="wikipediauserbox">
+{| cellspacing="0" style="width:238px; background:{{{The background color of the text|{{{info-background|{{{2|{{{info-c|#EEE}}}}}}}}}}}};"
+| style="width:{{{logo-width|{{{id-w|45}}}}}}px; height:{{{logo-height|{{{id-h|45}}}}}}px; background:{{{The background color of the image|{{{logo-background|{{{1|{{{id-c|#DDD}}}}}}}}}}}}; text-align:center; font-size:{{{The font size of the image|{{{logo-size|{{{5|{{{id-s|10}}}}}}}}}}}}pt; color:{{{logo-color|{{{id-fc|black}}}}}}; padding:{{{logo-padding|{{{id-p|1pt}}}}}}; line-height:{{{logo-line-height|{{{id-lh|1.25em}}}}}}; {{{logo-other-param|{{{id-op|}}}}}}" | '''{{{Image|{{{logo|{{{3|{{{id|Image}}}}}}}}}}}}'''
+| style="font-size:{{{The font size of the text|{{{info-s|8}}}}}}pt; padding:{{{info-padding|{{{info-p|4pt}}}}}}; line-height:{{{info-line-height|{{{info-lh|1.25em}}}}}}; color:{{{Text color|{{{info-fc|black}}}}}}; {{{info-other-param|{{{info-op|}}}}}}" | {{{Text|{{{info|{{{4|{{{info|''Text''}}}}}}}}}}}}
+|}</div>
+
+
+<noinclude>
+
+=== Tusaale ===
+
+<pre>{{User
+ |Template name       = Isticmaale nin
+ |Text             = Isticmaalahaan waa nin.
+ |Image           = [[file:Man.jpg|43px]]
+}}</pre>
+
+=== Tusaale dhamaan tusmooyinka is roga ===
+[[User:{{{1}}}|{{{1}}}]] ([[User talk:{{{1}}}Wadahadal]] • [[Special:Contributions/{{{1}}}|Qoraallaha]])<noinclude>
 == Adeegso ==
 Habkaan u adeegso:
 <pre>
@@ -11,9 +29,27 @@ Tusaale:
 Waxaa kuu soo baxaysa sidaan
 {{User|Abshirdheere}}
 
-[[Category:Isku-xire]]
+<pre>{{User
+ |Template name       = Isticmaale
+ |Text             = Isticmaalahaan waa nin.
+ |The font size of the text      = 14
+ |Text color        = #b2c6f7
+ |Image           = [[file:Symbol mars.svg|43px]]
+ |The background color of the text   = #ffffff
+ |The background color of the image = #dddddd
+ |The font size of the image    = 14
+ |Border Color        = #999999
+}}</pre>
 
-[[es:Plantilla:User]]
-[[it:Template:User]]
-[[sv:Mall:Användarnamn]]
-</noinclude>
+{{User
+ |Template name       = Isticmaale
+ |Text             = Isticmaalahaan waa nin.
+ |The font size of the text      = 14
+ |Text color        = #b2c6f7
+ |Image           = [[file:Symbol mars.svg|43px]]
+ |The background color of the text   = #ffffff
+ |The background color of the image = #dddddd
+ |The font size of the image    = 14
+ |Border Color        = #999999
+}}
+[[Category:Template]]</noinclude>
