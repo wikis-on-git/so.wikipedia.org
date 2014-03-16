@@ -1,0 +1,111 @@
+<div style="width:auto" style="border:1px solid #003882; padding:5px; border-top:10px solid #003882;">
+{|style="background-color:#F4F4F4;margin-top:3px;border:1px #aaaaaa solid;border-collapse:collapse;table-layout:fixed" cellpadding="8" cellspacing="0"
+|-
+! width="50%" align="center" | Af-Soomaaliga
+! style="border-right:1px solid #aaaaaa;" | English
+|-
+|Boggaan wuxuu gaar u yahay codsashada darajada  [[m:Requests for bot status|soo dhaweeyayaasha]] Wikipediahaan ma lahan [[m:Bureaucrat|maamulayaal-sare]] kuwaasoo bixin kara awoodaan.
+
+<u>tusaale:</u>
+* Samayso magac kaasoo ayna ma maqnaan weedha ah '''Bot'''.
+* kuna xus botkaas boggaada gaarka ah adigoo adeegsanaya template kaan:
+<center><code><nowiki>{{Bot|Magaca_howlgaliya_botka|site=so}}</nowiki></code></center>
+* '''Iskana hubi inaad sifiican u aqriso [[Wikipedia:Xeerka bot|xeerka botka]], iyo in bot kaadu waafaqsanyahay xeerarkaas.'''
+* Codsigaada soo gudbi adigoo adeegsanaya tasaalaha hoose.
+* Iskana hubi inuu shaqaynayo, ku samee bedelo tijaaba ah ee gaaraya '''10''' ilaa '''30''' bedel. waa la joojin doonaa bod kasta aan helin ogolaasho sameeyena in ka badan intaas bedel.
+|valign=top style="border-right:1px solid #aaaaaa;"|
+<div class="mw-content-ltr">
+Requests for the [[m:bot|bot]] flag should be made on this page. Arabic Wikipedia uses the [[m:bot policy|standard bot policy]], and allows [[m:bot policy#Global_bots|global bots]] and [[m:bot policy#Automatic_approval|automatic approval]] for interwiki bots. Other bots should apply below.
+
+<u>instructions:</u>
+* You will need to create an account for your bot with the word '''bot''' in the username. Something like ''YourusernameBot''.
+* Identify your bot on its user page using the following template:
+<center><code><nowiki>{{Bot|site=your_home_wiki_two-letter_code|bot_operator}}</nowiki></code></center>
+* '''Ensure that you have read [[Wikipedia:Bot policy|the bot policy]] and that your bot is compliant with it.'''
+* Submit your request.
+* Perform '''10-30''' test edits. A non-flagged bot that makes too many edits can be blocked.
+</div>
+|-
+|valign="top"|<center>[{{fullurl:{{ns:project}}:{{BASEPAGENAME}}|action=edit&section=new&preload=Wikipedia:Codsashada_darajada_bot/Codsashada_soomaaliga}} '''ku dar codsigaada''']</center>
+|valign=top style="border-right:1px solid #aaaaaa;"|
+<center>[{{fullurl:{{ns:project}}:{{BASEPAGENAME}}|action=edit&section=new&preload={{fullurl:{{FULLPAGENAME}}|action=edit&section=new&preload=Wikipedia:Codsashada_darajada_bot/Codsashada_english}}}} '''Submit your request''']</center>
+|}
+{{Kaydka|Wikipedia:Codsashada darajada bot}}
+
+*Isticmaale yaahsa caadiga ah waxay samayn karaan in ay taageero ama taageero la'aan iyagoo adeegsanaya tusmooyinkaan {{tl|Waa taageersanahay}} ama {{tl|Ma taageersani}} iyo qorista faallo  degdeg ah oo caawinaysa maamuleyaasha sare si ay u xukumaan codsiga.
+{{Maamulka wikipedia|state=collapsed}}
+</div></div>
+<br />
+<span style=font-size:130%>
+[[file:Crystal Clear question bot.svg|link=|40px]]
+Codsiyada hadda</span>
+----
+<includeonly>
+[[Cotegory:Maamulka Wikipedia|{{PAGENAME}}]]
+
+[[arz:ويكيبيديا:بوتات/طلب علم بوت]]
+[[ast:Uiquipedia:Bots/Autorizaciones]]
+[[ba:Википедия:Бот тамғаһына ғаризалар]]
+[[be:Вікіпедыя:Запыты на статус бота]]
+[[bg:Уикипедия:Бот/Заявки]]
+[[bn:উইকিপিডিয়া:বট/অনুমোদনের অনুরোধ]]
+[[ca:Viquipèdia:Petició de marca de bot]]
+[[chy:Wikipedia:Community Portal]]
+[[crh:Vikipediya:Botlar#Requests]]
+[[cs:Wikipedie:Bot/Žádosti]]
+[[da:Wikipedia:Anmodning om botstatus]]
+[[de:Wikipedia:Bots/Anträge auf Botflag]]
+[[en:Wikipedia:Bots/Requests for approval]]
+[[eo:Vikipedio:Roboto/Permespeto]]
+[[es:Wikipedia:Bot/Autorizaciones]]
+[[eu:Wikipedia:Bot-ak/Baimenak]]
+[[fa:ویکی‌پدیا:سیاست ربات‌رانی/درخواست مجوز]]
+[[fi:Wikipedia:Botit/hakemukset]]
+[[fo:Wikipedia:Áheitan um bott støðu]]
+[[fr:Wikipédia:Bot/Statut]]
+[[frp:Vouiquipèdia:Bot/Statut]]
+[[gl:Wikipedia:Bots/Peticións de aprobación]]
+[[he:ויקיפדיה:בקשות לדגל בוט]]
+[[hi:विकिपीडिया:बॉट/अनुमोदन हेतु अनुरोध]]
+[[hr:Wikipedija:Botovi/Zahtjevi za status]]
+[[hu:Wikipédia:Bürokraták üzenőfala/Botjelentkezés]]
+[[ia:Wikipedia:Bot/requestas]]
+[[id:Wikipedia:Bot/Permohonan]]
+[[io:Wikipedio:Demandi pri roboti]]
+[[is:Wikipedia:Vélmenni#Bot policy]]
+[[it:Wikipedia:Bot/Autorizzazioni]]
+[[ja:Wikipedia:Bot/使用申請]]
+[[ka:ვიკიპედია:ბოტები/სტატუსის მოთხოვნა]]
+[[ko:위키백과:봇/등록 신청]]
+[[lad:Vikipedya:Bot/Permesos]]
+[[lv:Vikipēdija:Bota statusa pieteikumi]]
+[[min:Wikipedia:Bot/Pamohonan]]
+[[mk:Википедија:Барања за одобрување на бот]]
+[[ml:വിക്കിപീഡിയ:യന്ത്രം/അംഗീകാരത്തിനുള്ള അപേക്ഷകൾ]]
+[[ms:Wikipedia:Bot/Permohonan]]
+[[mt:Wikipedija:Bot/Rikjesti għall-approvazzjoni]]
+[[nds:Wikipedia:Andrääg op Bot-Status]]
+[[nl:Wikipedia:Aanmelding botgebruikers]]
+[[oc:Wikipèdia:Bòt/Estatut]]
+[[pl:Wikipedia:Boty/Zgłoszenia]]
+[[pms:Wikipedia:Domande për avej la qualìfica da Trigomiro]]
+[[pt:Wikipédia:Robôs/Pedidos de aprovação]]
+[[ro:Wikipedia:Robot/Cereri de aprobare]]
+[[ru:Википедия:Заявки на статус бота]]
+[[sk:Wikipédia:Žiadosť o príznak bota]]
+[[sl:Wikipedija:Prošnje za delovanje botov]]
+[[sq:Wikipedia:Botët/Kërkesë për miratim]]
+[[sr:Википедија:Ботови/Захтеви]]
+[[sv:Wikipedia:Robotansökan]]
+[[ta:விக்கிப்பீடியா பேச்சு:தானியங்கிகள்]]
+[[te:వికీపీడియా:Bot/Requests for approvals]]
+[[th:วิกิพีเดีย:บอต/ขออนุญาตใช้งานบอต]]
+[[tr:Vikipedi:Botlar/Başvurular]]
+[[uk:Вікіпедія:Боти#Заявки/Requests for bot flag]]
+[[vec:Wikipedia:Bot/Elesion]]
+[[vi:Wikipedia:Robot/Yêu cầu cấp quyền]]
+[[wa:Wikipedia:Inte di nozôtes]]
+[[yi:װיקיפּעדיע:באטס/בקשות פאר הסכמה]]
+[[zh:Wikipedia:机器人/申请]]
+[[zh-yue:Wikipedia:機械人/請求核准]]
+</includeonly>
