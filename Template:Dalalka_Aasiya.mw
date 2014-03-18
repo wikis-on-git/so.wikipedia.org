@@ -1,8 +1,81 @@
-<br clear="all" />
-{|  id="toc" style="margin: 0;background:#ffffff;" width="100%" align="center" 
-!  align="left" style="background:#ccccff;" width="200"  align="center" |Dalalka [[Aasiya]]
-! align="right" rowspan="1" width="5%"| [[Image:Asia_satellite_plane_shaded.jpg|60px|Qaarada Aasiya]]
-|-
-| colspan=2 align="center" style="font-size: 85%" | [[Aserbiijaan]] | [[Bakistaan]] | [[Bangladesh]] | [[Baxrayn]] | [[Burma]] | [[Butaan]] | [[Ciraaq]] | [[Cumaan]] |[[Falastiin]] | [[Hindiya]] | [[Imaaraatka Carabta]] |  [[Israaiil]] | [[Jabaan]] |  [[Jasiirada Maldiif]] | [[Kambodiya]] | [[Kasakhstan]] | [[Kirgistan]] | [[Koonfur Kuuriya]] | [[Laos]] | [[Lubnaan]] | [[Malaysiya]] | [[Qargistan]] | [[Ruushka]] | [[Sacuudi Carabiya]] | [[Shiinaha]] | [[Siri Lanka]] | [[Suuriya]] | [[Tayland]] | [[Turki]] | [[Urdun]] | [[Usbekistan]] | [[Fiyetnam]] | [[Waqooyiga Kuuriya]] | [[Yemen]] | [[Afqaanistan]] | [[Singabuur]] | [[Filibiin]] | [[Iiraan]] | [[Indunisiya]]
-|-
-|}
+{{Navbox
+| name  = Dalalka Aasiya
+| state = {{{state<includeonly>|autocollapse</includeonly>}}}
+| title = Dalalka [[Aasiya]]
+| imagestyle = padding: 0 0.5em;
+| image = [[File:Asia (orthographic projection).svg|100px]]
+| listclass = hlist
+
+| group1 = Dalal Madax Banaan
+| list1 =
+* [[Aserbiijaan]] 
+* [[Afqaanistan]]
+* [[Bakistaan]] 
+* [[Bangladesh]] 
+* [[Baxrayn]] 
+* [[Burma]] 
+* [[Butaan]] 
+* [[Ciraaq]] 
+* [[Cumaan]] 
+* [[Falastiin]] 
+* [[Hindiya]] 
+* [[Imaaraatka Carabta]] 
+* [[Israaiil]] 
+* [[Jabaan]] 
+* [[Jasiirada Maldiif]] 
+* [[Kambodiya]] 
+* [[Kasakhstan]] 
+* [[Kirgistan]] 
+* [[Koonfur Kuuriya]] 
+* [[Laos]] 
+* [[Lubnaan]] 
+* [[Malaysiya]] 
+* [[Qargistan]] 
+* [[Ruushka]] 
+* [[Sacuudi Carabiya]] 
+* [[Shiinaha]] 
+* [[Siri Lanka]] 
+* [[Suuriya]] 
+* [[Tayland]] 
+* [[Turkiga]] 
+* [[Urdun]] 
+* [[Usbekistan]] 
+* [[Fiyetnam]] 
+* [[Waqooyiga Kuuriya]] 
+* [[Yemen]]  
+* [[Singabuur]] 
+* [[Filibiin]] 
+* [[Iiraan]] 
+* [[Indunisiya]]
+
+| group2 = Dalal ismagacaabay
+| list2 =
+* [[Abkhazia]]
+* [[Nagorno-Karabakh Republic|Nagorno-Karabakh]]
+* [[Northern Cyprus]]
+* [[South Ossetia]]
+* [[Taiwan]]
+
+| group3 = {{longitem|Adhigtidhka{{nobold|and}} iyo khaas ah<br/>
+gobollada maamulka}}
+| list3 =
+ {{Navbox |child |groupstyle=font-weight:normal;
+  | group1 = Australia
+  | list1 =
+* [[Christmas Island]]
+* [[Cocos (Keeling) Islands]]
+  | group2 = Shiinaha
+  | list2 =
+* [[Hong Kong]]
+* [[Makaw]]
+  | group3 = Midowga boqortooyada Britan iyo woqooyiga Ireland
+  | list3 =
+* [[Akrotiri and Dhekelia]]
+* [[British Indian Ocean Territory]]
+ }}
+
+}}<noinclude>
+
+{{documentation}}
+<!-- Please add metadata to the <includeonly> section at the bottom of the /doc subpage -->
+</noinclude>
