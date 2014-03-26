@@ -1,42 +1,42 @@
 <includeonly>{{#if:{{NAMESPACE}}|{{ns:1}}|[[Category:Turtun]]}}
 {{#if: {{{maqaal2|}}}
   | {{#if: {{{type|}}}
-      | {{{{{af1}}}}}/{{{{{af2}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis ee maqaalada kaalmada ah {{Native name|{{{af1}}}}} «<span lang="{{{af1}}}"><!--
+      | {{{{{af1}}}}}/{{{{{af2}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis ee maqaalada kaalmada ah {{ISO 639 name|{{{af1}}}}} «<span lang="{{{af1}}}"><!--
         -->{{#if: {{{mashruuc1|}}}
-             | [[:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|{{{maqaal1}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
-             | [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|oldid={{{lambar1|cur}}}}} {{{maqaal1}}}]>/span>» <small>(eeg [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [[:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|{{{maqaal1}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
+             | [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|oldid={{{lambar1|cur}}}}} {{{maqaal1}}}]>/span>» <small>(eeg [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
            }}<!--
-        --> iyo {{Native name|{{{af2}}}}} «<span lang="{{{af2}}}"><!--
+        --> iyo {{ISO 639 name|{{{af2}}}}} «<span lang="{{{af2}}}"><!--
         -->{{#if: {{{mashruuc2|}}}
              | [[:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|{{{maqaal2}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|action=history}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis]</span>)</small>
-             | [{{fullurl:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal2}}}]</span>» <small>(eeg [{{fullurl:{{{af2}}}:{{{maqaal2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [{{fullurl:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal2}}}]</span>» <small>(eeg [{{fullurl:{{{af2}}}:{{{maqaal2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
            }}
-      | * {{{{{af1}}}}}/{{{{{af2}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis ee maqaalada kaalmada ah {{Native name|{{{af1}}}}} «<span lang="{{{af1}}}"><!--
+      | * {{{{{af1}}}}}/{{{{{af2}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis ee maqaalada kaalmada ah {{ISO 639 name|{{{af1}}}}} «<span lang="{{{af1}}}"><!--
         -->{{#if: {{{mashruuc1|}}}
-             | [[:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|{{{maqaal1}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|action=history}} Liika ka qaybgalayaasha bedelka]</span>)</small>
-             | [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|oldid={{{lambar1|cur}}}}} {{{maqaal1}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|action=history}} Liika ka qaybgalayaasha bedelka]</span>)</small>
+             | [[:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|{{{maqaal1}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc1}}}:{{{af1}}}:{{{maqaal1}}}|action=history}} Liiska ka qaybgalayaasha bedelka]</span>)</small>
+             | [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|oldid={{{lambar1|cur}}}}} {{{maqaal1}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{af1}}}:{{{maqaal1}}}|action=history}} Liiska ka qaybgalayaasha bedelka]</span>)</small>
            }}<!--
-        --> Luqadda {{Native name|{{{af2}}}}} «<span lang="{{{af2}}}"><!--
+        --> Luqadda {{ISO 639 name|{{{af2}}}}} «<span lang="{{{af2}}}"><!--
         -->{{#if: {{{mashruuc2|}}}
-             | [[:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|{{{maqaal2}}}]]</span> » <small>(eeg [{{FULLPAGENAME:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|action=history}} Liika ka qaybgalayaasha bedelka]</span>)</small>
-             | [{{FULLPAGENAME:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{af2}}}:{{{maqaal2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [[:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|{{{maqaal2}}}]]</span> » <small>(eeg [{{FULLPAGENAME:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|action=history}} Liiska ka qaybgalayaasha bedelka]</span>)</small>
+             | [{{FULLPAGENAME:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{af2}}}:{{{maqaal2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
            }}
     }}<noinclude><!--ancienne version--></noinclude>
   | {{#if: {{{type|}}}
-      | <span style="padding-right: 1.2em;">{{{{{1}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis {{Native name|{{{1}}}}} Kaalmo « <span lang="{{{1}}}"><!--
+      | <span style="padding-right: 1.2em;">{{{{{1}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis {{ISO 639 name|{{{1}}}}} Kaalmo « <span lang="{{{1}}}"><!--
         -->{{#if: {{{mashruuc|}}}
-             | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
-             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
+             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
            }}
       | * Maqaalkaan waa la turjumay qayb ka mid ah ama dhamaantiis  <!--
         -->{{#if: {{{mashruuc|}}}
              | {{{mashruuc}}}
              | Wikipedia
            }}<!--
-        --> {{Native name|{{{1}}}}} Kaalmo {{{{{1}}}}} «<span lang="{{{1}}}"><!--
+        --> {{ISO 639 name|{{{1}}}}} Kaalmo {{{{{1}}}}} «<span lang="{{{1}}}"><!--
         -->{{#if: {{{mashruuc|}}}
-             | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(Eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
-             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(Eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
+             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
            }}
     }}
 }}</includeonly><noinclude>{{Documentation}}</noinclude><noinclude>
