@@ -9,7 +9,7 @@
         --> iyo {{Native name|{{{af2}}}}} «<span lang="{{{af2}}}"><!--
         -->{{#if: {{{mashruuc2|}}}
              | [[:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|{{{maqaal2}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc2}}}:{{{af2}}}:{{{maqaal2}}}|action=history}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis]</span>)</small>
-             | [{{fullurl:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal1}}}]</span>» <small>(eeg [{{fullurl:{{{af2}}}:{{{maqaal2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
+             | [{{fullurl:{{{af2}}}:{{{maqaal2}}}|oldid={{{lambar2|cur}}}}} {{{maqaal2}}}]</span>» <small>(eeg [{{fullurl:{{{af2}}}:{{{maqaal2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
            }}
       | * {{{{{af1}}}}}/{{{{{af2}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis ee maqaalada kaalmada ah {{Native name|{{{af1}}}}} «<span lang="{{{af1}}}"><!--
         -->{{#if: {{{mashruuc1|}}}
@@ -36,7 +36,7 @@
         --> {{Native name|{{{1}}}}} Kaalmo {{{{{1}}}}} «<span lang="{{{1}}}"><!--
         -->{{#if: {{{mashruuc|}}}
              | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(Eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
-             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Ka qayb qaatayaasha bedelka])</small>
+             | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liika ka qaybgalayaasha bedelka])</small>
            }}
     }}
 }}</includeonly><noinclude>{{Documentation}}</noinclude><noinclude>
