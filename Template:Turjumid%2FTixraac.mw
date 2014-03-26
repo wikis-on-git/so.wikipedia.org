@@ -23,7 +23,7 @@
            }}
     }}<noinclude><!--ancienne version--></noinclude>
   | {{#if: {{{type|}}}
-      | <span style="padding-right: 1.2em;">{{{{{1}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis {{ISO 639 name|{{{1}}}}} Kaalmo « <span lang="{{{1}}}"><!--
+      | <span style="padding-right: 1.2em;">{{{{{1}}}}} Maqaalkaan waa la turjumay qayb ka mid ah ama dhammaantiis {{ISO 639 name|[[{{{1}}}}}]] Kaalmo « <span lang="{{{1}}}"><!--
         -->{{#if: {{{mashruuc|}}}
              | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
              | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
@@ -33,7 +33,7 @@
              | {{{mashruuc}}}
              | Wikipedia
            }}<!--
-        --> {{ISO 639 name|{{{1}}}}} Kaalmo {{{{{1}}}}} «<span lang="{{{1}}}"><!--
+        --> [[{{ISO 639 name|{{{1}}}}}]] Kaalmo {{{{{1}}}}} «<span lang="{{{1}}}"><!--
         -->{{#if: {{{mashruuc|}}}
              | [[:{{{mashruuc}}}:{{{1}}}:{{{2}}}|{{{2}}}]]</span>» <small>(Eeg [{{FULLPAGENAME:{{{mashruuc}}}:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
              | [{{FULLPAGENAME:{{{1}}}:{{{2}}}|oldid={{{3|cur}}}}} {{{2}}}]</span>» <small>(eeg [{{FULLPAGENAME:{{{1}}}:{{{2}}}|action=history}} Liiska ka qaybgalayaasha bedelka])</small>
