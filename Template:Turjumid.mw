@@ -1,6 +1,5 @@
-<!--{{Turjumid}} begin-->{{#ifeq:{{NAMESPACE}}|{{<includeonly>subst:</includeonly>NAMESPACE}}|<includeonly>[[Category:Pages with incorrectly substituted templates|{{PAGENAME}}]]</includeonly>|}}{{#ifeq:{{{1}}}|Soomaaliga|''Qalad''' Adeegsiga '''[[Template:Turjumid]]'''. Waa in ay ahaataa luqada asalka ah ee loo turjumayo luqad kale  '''aam ahayn luqada Soomaaliga'''.
-{{Ambox 
-| name  = Turjumid
+{{#ifeq:{{{1}}}|Soomaaliga|{{Ambox 
+| text = '''Qalad''' Adeegsiga ah '''[[Template:Turjumid]]'''. Waa in uu ahaadaa Afka assalka ah ee loo turjumayo af kale  '''waa in uusan noqon Af-Soomaaliga'''.
 | type = content
 }}<!--
 -->|<!--
