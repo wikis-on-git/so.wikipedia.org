@@ -1,0 +1,84 @@
+
+<!-- Qaybaha interwiki waxaa lagu qoray hoos -->
+
+=== Adeegsiga ===
+=== nukul ku xiran mid qura ===
+
+Habka :
+
+ <tt><nowiki>{{</nowiki>Turjumid/Tixraac|''af''|''maqaal''|''lambarka taariikhda''}}</tt>
+
+sida :
+# <tt>''af''</tt> sumadda afka maqaalka asalaka ah (it, ar, en, de, es, io ...).
+# <tt>''maqaal''</tt>  magaca asalka maqaalka.
+# <tt>''lambar taariikh''</tt> lambarka taariikhiga ee maqaalka asalka ah taasoo suurtagal ka dhigaysa in la soo eego maqaalka si loo turjumo.
+
+; tusaale
+:<tt><nowiki>{{Turjumid/Tixraac|en|Sonatas and partitas for solo violin (BWV 1001-1006)|65397951}}</nowiki></tt>
+
+Natiijada :
+{{Turjumid/Tixraac|en|Sonatas and partitas for solo violin (BWV 1001-1006)|65397951}}
+
+=== Nuqul laba ku xiran ===
+
+Habka :
+
+ <tt><nowiki>{{</nowiki>Turjumid/Tixraac
+  |af1=''af 1''|maqaal1=''maqaal 1''|lambar1=''lambar taariikheed 1''
+  |af2=''af 2''|maqaal2=''maqaal 2''|lambar2=''lambar taariikheed 2''
+ }}</tt>
+
+sida :
+# <tt>''af1''</tt> et <tt>''af2''</tt> sumadaha afafka maqaalada asalka ah (en, de, es, io ...).
+# <tt>''maqaal1''</tt> et <tt>''maqaal2''</tt> Magacyada maqaalada asalka ah.
+# <tt>''lambar1''</tt> et <tt>''lambar2''</tt> tira raatiikheedka maqaalada asalka ah.
+
+
+; Tusaale
+:<tt><nowiki> {{Turjumid/Tixraac|af1=en|maqaal1=Odin|lambar1=332457713|af2=es|maqaal2=Odin|lambar2=33753079}}</nowiki></tt>
+
+Natiijada :
+{{Turjumid/Tixraac|af1=en|maqaal1=Odin|lamabar1=332457713|af2=es|maqaal2=Odin|lambar2=33753079}}
+
+=== ku xiran nuqul qura sida mashruuca mediawiki kale ===
+
+qaabka :
+
+ <tt><nowiki>{{</nowiki>Turjumid/Tixraac|''af''|''maqaal''|mashruuc = ''Magaca mashruuc''}}</tt>
+
+sida :
+# <tt>''af''</tt> sumadda afka maqaalka asalka ah (ar, en, de, es, io…).
+# <tt>''magaca''</tt> Magaca asalka ah ee maqaalka.
+# <tt>''Magaca mashruuc''</tt> halka laga soo xigtay magaca mashruuca la turjumay
+
+; Tusaale
+:<tt><nowiki>{{Turjumid/Tixraac|mashruuc=Wikisource|it|La lega}}</nowiki></tt>
+
+Natiijada :
+{{Turjumid/Tixraac|mashruuc=Wikisource|it|La lega}}
+
+=== siinta ahaanshaha ===
+
+Macluumaad xulasho ah <code>nuuc</code> way la mid noqon kartaa <code>Fiira gaar ah</code>. L'appel :
+:<tt><nowiki>{{</nowiki>Turjumid/Tixraac|(...)|type=Aragti}}</tt>
+waxaa loo adeegsada si loo helo natiijo munaasab ah haddii la galiyo qaybta tixraaca.
+
+=== Eeg sidoo kale ===
+*
+<includeonly>
+<!-- Qaybaha halkaan -->
+
+<!-- Interwikiga halkaan -->
+[[el:Πρότυπο:Ενσωμάτωση κειμένου]]
+[[en:Template:Translation/Ref]]
+[[es:Plantilla:Traducido ref]]
+[[et:Mall:Tõlkimine/Ref]]
+[[fr:Modèle:Traduction/Référence]]
+[[hu:Sablon:Fordítás]]
+[[id:Templat:Translation/Ref]]
+[[ja:Template:Translation/Ref]]
+[[pt:Predefinição:Tradução/ref]]
+[[ru:Шаблон:Источник/перевод]]
+[[sv:Mall:Artikelursprung]]
+[[zh:Template:Translation/Ref]]
+</includeonly>
