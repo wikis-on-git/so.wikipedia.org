@@ -1,0 +1,9 @@
+<span class="plainlinks userlinks">[[User:{{{1|Example User}}}|{{{1|Example User}}}]] {{toolbar|separator=dot
+ |1=[[User talk:{{{1|Example User}}}|talk]]
+ |2=[[Special:Contributions/{{{1|Example User}}}|contribs]]
+ |3=[[Special:DeletedContributions/{{{1|Example User}}}|deleted contribs]]
+ |4=[{{fullurl:Special:Log|user={{urlencode:{{{1|Example User}}}}}}} logs]
+ |5=[{{fullurl:Special:AbuseLog|wpSearchUser={{urlencode:{{{1|Example User}}}}}}} edit filter log]
+ |6=[[Special:Block/{{{1|Example User}}}|block user]]
+ |7=[{{fullurl:Special:Log|type=block&page=User:{{urlencode:{{{1|Example User}}}}}}} block log]
+}}</span><noinclude>{{documentation}}<!--Please add any interwiki links etc on the /doc page, not here - thanks!--></noinclude>
