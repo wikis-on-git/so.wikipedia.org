@@ -280,3 +280,22 @@ Engagement Grants, Wikimedia Foundation]] 19:44, 28 Febraayo 2014 (UTC)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">Hello all, in response to some community comments in the discussion on the amendment to the Terms of Use on undisclosed paid editing,  we have prepared two optional changes. Please [[m:Terms_of_use/Paid_contributions_amendment#Optional_changes|read about these optional changes on Meta wiki]] and share your comments. If you can (and this is a non english project), please translate this announcement. Thanks! [[m:User:Slaporte (WMF)|Slaporte (WMF)]] 21:55, 13 Maarso 2014 (UTC) </div>
 <!-- Message sent by User:Jalexander@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7592057 -->
+
+== Changes to the default site typography coming soon ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr"> 
+This week, the typography on Wikimedia sites will be updated for all readers and editors who use the default "Vector" skin. This change will involve new serif fonts for some headings, small tweaks to body content fonts, text size, text color, and spacing between elements. The schedule is: 
+
+* '''April 1st''': non-Wikipedia projects will see this change live
+* '''April 3rd''': Wikipedias will see this change live
+
+This change is very similar to the "Typography Update" Beta Feature that has been available on Wikimedia projects since November 2013. After several rounds of testing and with feedback from the community, this Beta Feature will be disabled and successful aspects enabled in the default site appearance. Users who are logged in may still choose to use another skin, or alter their [[Special:MyPage/vector.css|personal CSS]], if they prefer a different appearance. Local [[MediaWiki:Common.css|common CSS]] styles will also apply as normal, for issues with local styles and scripts that impact all users. 
+
+For more information:
+* [[mw:Typography refresh|Summary of changes and FAQ]]
+* [[mw:Talk:Typography refresh|Discussion page]] for feedback or questions
+* [https://blog.wikimedia.org/2014/03/27/typography-refresh/ Post] on blog.wikimedia.org
+
+-- [[m:User:Steven (WMF)|Steven Walling]] (Product Manager) on behalf of the Wikimedia Foundation's [[mw:Design|User Experience Design]] team
+</div>
+<!-- Message sent by User:Steven (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7990801 -->
