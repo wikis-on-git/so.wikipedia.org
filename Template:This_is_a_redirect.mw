@@ -1,0 +1,167 @@
+{{nbsp}}
+{{Mbox
+| name  = This is a redirect
+| type  = move 
+| image = [[File:Symbol redirect arrow with gradient.svg|30px]]
+| text  = <br />'''This page is a [[Wikipedia:Redirect|redirect]]{{#if:{{{1|}}}|{{colon}}<br />|.'''
+* If no reason or explanation has been given, or if more [[WP:RCAT|rcat]]s might be needed, this redirect automatically populates [[:Category:Miscellaneous redirects]].<includeonly>{{{category|[[Category:Miscellaneous redirects]]}}}</includeonly>}}{{#if: {{{to|}}}
+ | [[Category:Redirects to {{#ifexist:Category:Redirects to {{ISO 639 name|{{{to|}}}}}-language terms
+  | {{ISO 639 name|{{{to|}}}}}
+  | non-English
+ }}-language terms]]
+}}{{#if:{{{1|}}}
+ |{{#ifexist:Template:R {{{1}}}
+  |{{#if:{{{p1|}}}
+   |{{#if:{{{n1|}}}
+    |{{R {{{1}}}|{{{p1}}}|{{{n1}}}|embed=yes}}
+    |{{R {{{1}}}|{{{p1}}}|embed=yes}}
+   }}
+   |{{#if:{{{n1|}}}
+    |{{R {{{1}}}||{{{n1}}}|embed=yes}}
+    |{{R {{{1}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p1|}}}
+   |{{#if:{{{n1|}}}
+    |{{{{{1}}}|{{{p1}}}|{{{n1}}}|embed=yes}}
+    |{{{{{1}}}|{{{p1}}}|embed=yes}}
+   }}
+   |{{#if:{{{n1|}}}
+    |{{{{{1}}}||{{{n1}}}|embed=yes}}
+    |{{{{{1}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e1|}}}
+ |*{{{e1}}}
+}}{{#if:{{{2|}}}
+ |{{#ifexist:Template:R {{{2}}}
+  |{{#if:{{{p2|}}}
+   |{{#if:{{{n2|}}}
+    |{{R {{{2}}}|{{{p2}}}|{{{n2}}}|embed=yes}}
+    |{{R {{{2}}}|{{{p2}}}|embed=yes}}
+   }}
+   |{{#if:{{{n2|}}}
+    |{{R {{{2}}}||{{{n2}}}|embed=yes}}
+    |{{R {{{2}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p2|}}}
+   |{{#if:{{{n2|}}}
+    |{{{{{2}}}|{{{p2}}}|{{{n2}}}|embed=yes}}
+    |{{{{{2}}}|{{{p2}}}|embed=yes}}
+   }}
+   |{{#if:{{{n2|}}}
+    |{{{{{2}}}||{{{n2}}}|embed=yes}}
+    |{{{{{2}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e2|}}}
+ |*{{{e2}}}
+}}{{#if:{{{3|}}}
+ |{{#ifexist:Template:R {{{3}}}
+  |{{#if:{{{p3|}}}
+   |{{#if:{{{n3|}}}
+    |{{R {{{3}}}|{{{p3}}}|{{{n3}}}|embed=yes}}
+    |{{R {{{3}}}|{{{p3}}}|embed=yes}}
+   }}
+   |{{#if:{{{n3|}}}
+    |{{R {{{3}}}||{{{n3}}}|embed=yes}}
+    |{{R {{{3}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p3|}}}
+   |{{#if:{{{n3|}}}
+    |{{{{{3}}}|{{{p3}}}|{{{n3}}}|embed=yes}}
+    |{{{{{3}}}|{{{p3}}}|embed=yes}}
+   }}
+   |{{#if:{{{n3|}}}
+    |{{{{{3}}}||{{{n3}}}|embed=yes}}
+    |{{{{{3}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e3|}}}
+ |*{{{e3}}}
+}}{{#if:{{{4|}}}
+ |{{#ifexist:Template:R {{{4}}}
+  |{{#if:{{{p4|}}}
+   |{{#if:{{{n4|}}}
+    |{{R {{{4}}}|{{{p4}}}|{{{n4}}}|embed=yes}}
+    |{{R {{{4}}}|{{{p4}}}|embed=yes}}
+   }}
+   |{{#if:{{{n4|}}}
+    |{{R {{{4}}}||{{{n4}}}|embed=yes}}
+    |{{R {{{4}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p4|}}}
+   |{{#if:{{{n4|}}}
+    |{{{{{4}}}|{{{p4}}}|{{{n4}}}|embed=yes}}
+    |{{{{{4}}}|{{{p4}}}|embed=yes}}
+   }}
+   |{{#if:{{{n4|}}}
+    |{{{{{4}}}||{{{n4}}}|embed=yes}}
+    |{{{{{4}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e4|}}}
+ |*{{{e4}}}
+}}{{#if:{{{5|}}}
+ |{{#ifexist:Template:R {{{5}}}
+  |{{#if:{{{p5|}}}
+   |{{#if:{{{n5|}}}
+    |{{R {{{5}}}|{{{p5}}}|{{{n5}}}|embed=yes}}
+    |{{R {{{5}}}|{{{p5}}}|embed=yes}}
+   }}
+   |{{#if:{{{n5|}}}
+    |{{R {{{5}}}||{{{n5}}}|embed=yes}}
+    |{{R {{{5}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p5|}}}
+   |{{#if:{{{n5|}}}
+    |{{{{{5}}}|{{{p5}}}|{{{n5}}}|embed=yes}}
+    |{{{{{5}}}|{{{p5}}}|embed=yes}}
+   }}
+   |{{#if:{{{n5|}}}
+    |{{{{{5}}}||{{{n5}}}|embed=yes}}
+    |{{{{{5}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e5|}}}
+ |*{{{e5}}}
+}}{{#if:{{{6|}}}
+ |{{#ifexist:Template:R {{{6}}}
+  |{{#if:{{{p6|}}}
+   |{{#if:{{{n6|}}}
+    |{{R {{{6}}}|{{{p6}}}|{{{n6}}}|embed=yes}}
+    |{{R {{{6}}}|{{{p6}}}|embed=yes}}
+   }}
+   |{{#if:{{{n6|}}}
+    |{{R {{{6}}}||{{{n6}}}|embed=yes}}
+    |{{R {{{6}}}|embed=yes}}
+   }}
+  }}
+  |{{#if:{{{p6|}}}
+   |{{#if:{{{n6|}}}
+    |{{{{{6}}}|{{{p6}}}|{{{n6}}}|embed=yes}}
+    |{{{{{6}}}|{{{p6}}}|embed=yes}}
+   }}
+   |{{#if:{{{n6|}}}
+    |{{{{{6}}}||{{{n6}}}|embed=yes}}
+    |{{{{{6}}}|embed=yes}}
+   }}
+  }}
+ }}
+}}{{#if:{{{e6|}}}
+ |*{{{e6}}}
+}}
+<br />
+}}<noinclude>
+{{Documentation}}
+
+</noinclude>
