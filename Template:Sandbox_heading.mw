@@ -1,0 +1,14 @@
+{{#ifeq: {{ROOTPAGENAME}}|Tutorial|{{Please leave this line alone (tutorial sandbox heading)}}|{{Ombox
+|image=[[file:Sandbox.png|75px|alt=|link=]]
+|style=margin: auto;
+|text={{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Sandbox|{{Template:Sandbox heading/Talk not}}}}
+kusoo dhowoow [[Wikipedia:Ku saabsan Bacaadka|bacaadka wikipedia]] adigoo awooda inaad samayso tijaabooyin. Habka bedelka, guji <span class="plainlinks">'''[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} halkaan]'''</span> ama guji '''bedel''' halka sare ee bogga{{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Bacaadka|، ama batoonka '''mowduuc ku dar''' halka sare ee bogga wadahadalka}}. bedel waxaad doonto, dabadeenka guji batoonka '''kaydi bogga''' markaad gabagabeyso.<br />'''Ma sii''' jirayaan wixii aad ku kordhisay, taasina waa bogga sidoo kale waxaa adeegsanaya isticmaale kale iyadoo hadana la masaxayo mar weliba.<br />Haddii aad leedahay akoon samayso bacaad kuu gaar ah '''[{{fullurl:Special:MyPage/Bacaadka|action=edit&preload=Template:Bacaadka_Isticmaale/Hore}} halkaan]'''.<br />
+si aad u isticmaasho maalin uun ka dhig tusmada <tt>{{tl|Bacaadkayga}}</tt> ee boggaada ama dooro: {{Myprefs|8|{{MediaWiki:Gadget-mySandbox}}}}. 
+
+| imageright = {{#ifeq: {{FULLPAGENAME}}|Wikipedia talk:Bacaadka|{{Ombox/Shortcut|Wikipedia:Bacaadka}}|{{Ombox/Shortcut|W:Bacaadka}} }}}}
+}}{{#ifeq:{{FULLPAGENAME}}|W:Bacaadka|<!--Sandbox for other languages of Wikipedia-->
+[[Category:Wikipedia Bedel]]
+
+}}<noinclude>
+{{Documentation}}
+</noinclude>
