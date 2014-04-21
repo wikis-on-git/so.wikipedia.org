@@ -1,2 +1,36 @@
 {{/Hordhac}}
 __toc__
+==<!-- 
+-->[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=purge}} <!-- 
+--><span title="Halkaan guji si aad u cusboonaysiiso">Codsiyada</span>]<!-- 
+-->==
+{{#IFEXPR:{{FORMATNUM:{{PAGESIZE:Wikipedia:Ogaysiiska_Maamulka/Waardiye/Hadda}}|R}}>0|
+<div style="border-bottom:dotted 1px silver;padding-top:1em;">
+===Waardiye===
+</div>
+{{Wikipedia:Ogaysiiska Maamulka/Waardiye/Hadda}}
+}}
+{{#IFEXPR:{{FORMATNUM:{{PAGESIZE:Wikipedia:Ogaysiiska_Maamulka/Kasaarista_Waardiyaha/Hadda}}|R}}>0|
+<div style="border-bottom:dotted 1px silver;padding:1px;padding-top:1em;">
+===Kasaarista waardiyaha===
+</div>
+{{Wikipedia:Ogaysiiska Maamulka/Kasaarista Waardiyaha/Hadda}}
+}}
+{{#IFEXPR:{{FORMATNUM:{{PAGESIZE:Wikipedia:Ogaysiiska_Maamulka/Ka_Joojin/Hadda}}|R}}>0|
+<div style="border-bottom:dotted 1px silver;padding:1px;padding-top:1em;">
+===Ka joojin===
+</div>
+{{Wikipedia:Ogaysiiska Maamulka/Ka Joojin/Hadda}}
+}}
+{{#IFEXPR:{{FORMATNUM:{{PAGESIZE:Wikipedia:Ogaysiiska_Maamulka/Kasaarista_Joojinta/Hadda}}|R}}>0|
+<div style="border-bottom:dotted 1px silver;padding:1px;padding-top:1em;">
+===Kasaarista Joojinta===
+</div>
+{{Wikipedia:Ogaysiiska Maamulka/Kasaarista Joojinta/Hadda}}
+}}
+{{#IFEXPR:{{FORMATNUM:{{PAGESIZE:Wikipedia:Ogaysiiska_Maamulka/Soo_Celin/Hadda}}|R}}>0|
+<div style="border-bottom:dotted 1px silver;padding:1px;padding-top:1em;">
+===Soo celin===
+</div>
+{{Wikipedia:Ogaysiiska Maamulka/Soo Celin/Hadda}}
+}}
