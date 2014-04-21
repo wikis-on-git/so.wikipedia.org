@@ -1,22 +1,25 @@
-{| style="text-align: left; float:right; margin:0 1em 1em 0; border:1px solid #aaaaaa; font-size:89%; background-color: #ffffff;" cellpadding="4" cellspacing="0"
+{| class="mw-collapsible {{#ifeq:{{NAMESPACENUMBER}}|14|mw-collapsed}}" style="clear: both; margin: 5px 0; width: 30%; text-align: left; float:right; border:1px solid #aaaaaa; font-size:89%; background-color: #FCCCBB;" cellpadding="4" cellspacing="0"
 |-
-! style="text-align: left; background-color: #fff9ee; border-bottom:1px solid #aaaaaa;" |<imagemap>
-file:Admin mop.PNG|left|38 px|Wikipedia:Maamulka
-default [[Wikipedia:Maamulka]]
-desc none
-</imagemap><big>[[Wikipedia:Maamulka|Maamulka]]
+! style=" background-color: #ccffbb; font-size: 120%" |[[Wikipedia:Maamulka/Qaybinta hawlaha|Qaybinta hawlaha]]
 |-
-|<center>[{{fullurl:{{FULLPAGENAME}}|action=purge}} Haajinta Bogga]</center>
+|style="border-top:1px solid #aaaaaa;"|<center>[{{fullurl:{{FULLPAGENAME}}|action=purge}} Hagaajinta bogga]</center>
 ----
 <big>'''Tirtiris'''</big>
-* [[:Category:Delete|Tirtiris]] ({{PAGESINCATEGORY:Bogag u baahan dir tiris deg deg ah}}) <small>[[:Category:Delete|Tirtiris deg deg ah]] ({{PAGESINCATEGORY:Bogag  tirtirista  deg degga ah}}) [[:Category:Delete|Tirtiris ubaahan diginiin!]] ({{PAGESINCATEGORY:Tirtiris ubaahan diginiin}}) </small>
-* [[:Wikipedia:Wadahadal|Wadahadal]] ({{PAGESINCATEGORY:Bogag La Tirtirayo}}) <small>[[:Category:Delete|Delete]]
-** [[:Category:Delete|Wali aan wax laga qaban]] ({{#expr: {{PAGESINCATEGORY:Wali aan wax laga qaban}} -1}}) 
-** [[:Category:Delete|Tirtiris]] ({{PAGESINCATEGORY:Bogaga wadahadalkooda socdo si loo tirtiro}}) </small> 
-* [[:Wikipedia:Maqaallo Xuquuqda Faafinta Qaldan|Xuquuqda Faafinta Qaldan]] ({{PAGESINCATEGORY:Xuquuqda daabaca}}) <small>[[:Category:Delete|Tirtir]]</small>
-* [[:Category:Delete|Tirtir]] ({{PAGESINCATEGORY:Qaybaha aan la adeegsan}})
+* [[:Category:Delete]] ({{PAGESINCATEGORY:Tirtiris degdeg ah}}) <small>[[:Category:Delete|Faahfaahin la'aa]] ({{PAGESINCATEGORY:Tirtiris degdeg ah}}) [[:Category:Delete|Digniin!]] ({{PAGESINCATEGORY:Tirtiris degdeg ah}}) </small>
+* [[:Wikipedia:Wadahadalka Tirtirista|Wadahadalka Tirtirista]] ({{PAGESINCATEGORY:Delete}}) <small>[[:Category:Delete|Qaybta Tirtirista]]
+** [[:Category:Delete|Aan weli waxba laga qaban]] ({{#expr: {{PAGESINCATEGORY:Bogaga usharaxan tirtiris}} -1}}) 
+** [[:Category:Delete|Wadahadal socda]] ({{PAGESINCATEGORY:Faahfaahin tirtiris}}) </small> 
+* [[:Wikipedia:Malaalo faafin qaldan|Maqaalo faafin qaldan]] ({{PAGESINCATEGORY:Ku xadgudubka xuquuqda daabicidda}}) <small>[[:Category:Delete|Qaybta xad-gudubka]]</small>
+* [[:Category:Delete|Qaybaha aan la adeegsan]] ({{PAGESINCATEGORY:Qaybaha aan la adeegsan}})
+* [[:Category:Delete|Maqaalo taariikhda qofka ugaarka ah ee waqtigeedu dhamaaday]] ({{PAGESINCATEGORY:Maqaalo taariikhda qofka ee dhamaaday waqtiga cadaymaha}})
+'''Waardiye''' 
+* [[:Category:Delete|Magacyo Mamnuuc ah]] ({{PAGESINCATEGORY:Magacyo mamnuuc ah}})
 ----
-<center>'''[[Wikipedia:Maamulka|Maamulka]]'''</center>
+<big>'''Sawiro'''</big>
+* [[:Category:Sawiro bilaa tixtaac|Sawiro bilaa tixraac ah]] ({{PAGESINCATEGORY:Sawiro bilaa tixraac|files}})
+* [[:Category:Sawiro bilaa fasax ah|Sawiro bilaa fasax ah]] ({{PAGESINCATEGORY:Sawiro bilaa ruqsad ah|files}})
+-----
+<center>'''[[Wikipedia:Ogaysiiska Maamulka|Ogaysiiska Maamulka]]'''</center>
 <small>[[Wikipedia:Goob/Wararka|Wararka]] | [[Wikipedia:Goob/Farsamo|Farsamo]] | [[Wikipedia:Goob/Luqad|Luqad]]</small>
 |}<noinclude>
-[[Category:Template Dayactir]]</noinclude>
+[[Category:Dayactirka Wikipedia]]</noinclude>
