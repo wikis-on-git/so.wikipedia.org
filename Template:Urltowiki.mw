@@ -1,0 +1,11 @@
+{{<includeonly>safesubst:</includeonly>#invoke:UrlToWiki|urlToWiki
+ | 1          = {{{url|{{{1}}}}}}
+ | 2          = {{{display|{{{2|}}}}}}
+ | link       = {{{link|}}}
+ | section    = {{{section|}}}
+ | colontrick = {{{colontrick|}}}
+}}<noinclude>
+
+{{documentation}}
+<!-- Categories should be added to the /doc subpage, and interwikis should be added to Wikidata. -->
+</noinclude>
