@@ -1,0 +1,17 @@
+{{Ambox 
+| type = style
+| image = [[file:Writing Magnifying.PNG|50px]]
+| text = Maqaalkaan wuxuu u baahanyahay [Wikipedia:Tusaalaha wanaagsan|'''Higgaad xagga Afka ah''']]. Waxaadna samayn kartaa inaad ka [{{fullurl:{{PAGENAME}}|action=edit}} Caawido] Wikipedia sixidda lagama maar-maanka ah.
+{{D|Fadlan kasaar tusmadaan markii aad hagaajiso kadib}}.
+{{#if:{{{Taariikh|}}}|<small>Waxaa maqaalkaan la magac dhabay laga soo bilaabo : {{{Taariik}}}</small>}}}}</div>
+<includeonly>{{#if:{{{Taariikh|}}}|[[Category:Higgaad {{{Taariikh|}}}]][[Category:Higgaad]]|[[Category:Dayactir]]}}</includeonly><noinclude>
+
+== Adeegsiga ==
+
+<pre>
+{{Higgaad|Taariikh={{subst:Bil}} {{subst:Sanad}}}}
+</pre>
+
+<noinclude>
+[[Category:Template Dayactirka Wikipedia|{{PAGENAME}}]]
+</noinclude>
