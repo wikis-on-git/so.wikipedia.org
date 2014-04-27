@@ -1,0 +1,7 @@
+<span>[[:{{{Project|}}}:User:{{{1|Example Bot}}}|{{{1|Example Bot}}}]]&nbsp;{{toolbar
+|separator={{{separator|dot}}}
+|1={{#if:{{{2|}}}|[[Wikipedia:Bots/Requests for approval/{{{1}}} {{#ifeq:{{{2}}}|-||{{{2}}}}}|task]]|[[Special:PrefixIndex/Wikipedia:Bots/Requests for approval/{{{1|Example Bot}}}|task list]]}}
+|2=[[Special:Contributions/{{{1|Example Bot}}}|contribs]]
+}}</span><noinclude>
+{{documentation}}
+</noinclude>
