@@ -1,0 +1,39 @@
+<span id="{{ucfirst:{{{User|{{{1|Example}}}}}}}}" class="plainlinks">[[User:{{ucfirst:{{{User|{{{1|Example}}}}}}}}|{{ucfirst:{{{User|{{{1|Tusaale}}}}}}}}]]&#x20;<!--
+
+-->([[User talk:{{ucfirst:{{{User|{{{1|Example}}}}}}}}|wadahadal]]{{middot}}<!--
+
+-->[[Special:Contributions/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="Contributions: {{ucfirst:{{{User|{{{1|Example}}}}}}}}">contribs</span>]]{{middot}}<!--
+
+-->[//tools.wmflabs.org/xtools/pcount/index.php?name={{urlencode:{{{User|{{{1|Example}}}}}}}}&wiki=wikipedia&lang=en<span title="Contribution count: {{ucfirst:{{{User|{{{1|Example}}}}}}}}" style="color:#002bb8">count</span>]{{middot}}<!--
+
+-->[{{fullurl:Special:Log|user={{anchorencode:{{ucfirst:{{{User|{{{1|Example}}}}}}}}}}}} <span title="Logs: {{ucfirst:{{{User|{{{1|Example}}}}}}}}" style="color:#002bb8">logs</span>]{{middot}}<!--
+
+-->[{{fullurl:Special:Log|page=User:{{anchorencode:{{ucfirst:{{{User|{{{1|Example}}}}}}}}}}}} <span title="Target logs: {{ucfirst:{{{User|{{{1|Example}}}}}}}}" style="color:#002bb8">target logs</span>]{{middot}}<!--
+
+-->[{{fullurl:Special:Log/block|page=User:{{anchorencode:{{ucfirst:{{{User|{{{1|Example}}}}}}}}}}}} <span title="Blocklog: {{ucfirst:{{{User|{{{1|Example}}}}}}}}" style="color:#002bb8">block&nbsp;log</span>]{{middot}}<!--
+
+-->[{{fullurl:Special:Listusers|limit=1&username={{urlencode:{{ucfirst:{{{User|{{{1|Example}}}}}}}}}}}} <span title="Listuser: {{ucfirst:{{{User|{{{1|Example}}}}}}}}" style="color:#002bb8">lu</span>]{{middot}}<!--
+
+-->{{#ifexist: Wikipedia:Requests for adminship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[Special:Prefixindex/Wikipedia:Requests for adminship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|rfas]]|[[{{SITENAME}}:Requests for adminship#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Requests for adminship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>rfa</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: Wikipedia:Requests for bureaucratship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[Special:Prefixindex/Wikipedia:Requests for bureaucratship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|rfb]]|[[{{SITENAME}}:Requests for bureaucratship#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Requests for bureaucratship/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>rfb</font></span>]]}}{{middot}}<!--
+
+-->{{#if:{{{ban|}}}| &#32;[[{{SITENAME}}:List of banned users#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|ban]]{{middot}}}}<!--
+
+-->{{#ifexist: Wikipedia:Requests for arbitration/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[Special:Prefixindex/Wikipedia:Requests for arbitration/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|arb]]|[[{{SITENAME}}:Requests for arbitration#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Requests for arbitration/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>arb</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: Wikipedia:Requests for comment/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[Special:Prefixindex/Wikipedia:Requests for comment/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|rfc]]|[[{{SITENAME}}:Requests for comment/User conduct|<span title="There is no {{SITENAME}}:Requests for comment/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>rfc</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: {{SITENAME}}:Long term abuse/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[{{SITENAME}}:Long term abuse/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|lta]]|[[{{SITENAME}}:Long term abuse#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Long term abuse/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>lta</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: {{SITENAME}}:Sockpuppet investigations/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[{{SITENAME}}:Sockpuppet investigations/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|spi]]|[[{{SITENAME}}:Sockpuppet investigations#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Sockpuppet investigations/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>spi</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: {{SITENAME}}:Requests for checkuser/Case/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[{{SITENAME}}:Requests for checkuser/Case/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|checkuser]]|[[{{SITENAME}}:Requests for checkuser#{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Requests for checkuser/Case/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>checkuser</font></span>]]}}{{middot}}<!--
+
+-->{{#ifexist: Wikipedia:Suspected sock puppets/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[Wikipedia:Suspected sock puppets/{{ucfirst:{{{User|{{{1|Example}}}}}}}}|socks]]|[[{{SITENAME}}:Suspected sock puppets#User:{{ucfirst:{{{User|{{{1|Example}}}}}}}}|<span title="There is no {{SITENAME}}:Suspected sock puppets/{{ucfirst:{{{User|{{{1|Example}}}}}}}}"><font color=gray>socks</font></span>]]}}<!--
+
+--><sup>{{#ifexist::Category:{{SITENAME}} sockpuppets of {{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[:Category:{{SITENAME}} sockpuppets of {{ucfirst:{{{User|{{{1|Example}}}}}}}}|&ensp;confirmed]]}}</sup><sub>{{#ifexist::Category:Suspected {{SITENAME}} sockpuppets of {{ucfirst:{{{User|{{{1|Example}}}}}}}}|[[:Category:Suspected {{SITENAME}} sockpuppets of {{ucfirst:{{{User|{{{1|Example}}}}}}}}|suspected]]}}</sub><!--
+
+-->{{middot}}<font color="002bb8">[{{fullurl:Special:Log/rights|user={{ucfirst:{{urlencode:{{{User|{{{1|Example}}}}}}}}}}}} <span title="Rights log: {{{User|{{{1|Example}}}}}}">rights</span>]</font>{{middot}}<font color="002bb8">[{{fullurl:Special:Log/block|user={{urlencode:{{{User|{{{1|Example}}}}}}}}}} blocks]</font>{{middot}}<font color="002bb8">[{{fullurl:Special:Log/protect|user={{urlencode:{{{User|{{{1|Example}}}}}}}}}} protects]</font>{{middot}}<font color="002bb8">[{{fullurl:Special:Log/delete|user={{urlencode:{{{User|{{{1|Example}}}}}}}}}} deletions]</font>{{middot}}<font color="002bb8">[{{fullurl:Special:Log/move|user={{urlencode:{{{User|{{{1|Example}}}}}}}}}} moves]</font></span>)<noinclude>
+{{template doc}}
+</noinclude>
