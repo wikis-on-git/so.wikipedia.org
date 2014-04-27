@@ -1,0 +1,26 @@
+<span>[[:{{{Project|}}}:User:{{{1}}}|{{{1}}}]]&nbsp;{{toolbar
+|style=font-size:90%
+|separator={{{separator|dot}}}
+|1=[[User talk:{{{1}}}|talk]]
+|2=[[Special:Contributions/{{{1}}}|contribs]]
+|3=[[sulutil:{{{1}}}|SUL]]
+|4=[https://tools.wmflabs.org/supercount/index.php?user={{urlencode:{{{1}}}}}&project=en.wikipedia edit count]
+|5=[[Special:Log/{{{1}}}|logs]]
+|6=[[Special:Log/move/{{{1}}}|page moves]]
+|7=[{{fullurl:Special:Log/block|page=User:{{urlencode:{{{1}}}}}}} block log]
+|8=[{{fullurl:Special:Log/rights|page=User:{{urlencode:{{{1}}}}}}} rights log]
+|9=[{{fullurl:Special:Search|profile=advanced&search={{urlencode:{{{1}}}}}+intitle%3A%22administrators%27+noticeboard%22&fulltext=Search&ns4=1}} ANI search]
+}}</span><noinclude>
+{{documentation|content=
+=== Parameters ===
+
+; 1
+: User name
+
+=== Example ===
+*<nowiki>{{botop|Example}}</nowiki><br />{{botop|Example}}
+
+[[Category:Wikipedia bot-related templates]]
+[[Category:Username internal link templates]]
+}}
+</noinclude>
