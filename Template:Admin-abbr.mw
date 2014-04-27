@@ -1,0 +1,11 @@
+[[User:{{{1}}}|{{{2|{{{1}}}}}}]] {{toolbar|separator=dot
+|[[User talk:{{{1}}}|t]] 
+|[[Special:Contributions/{{{1}}}|c]] 
+|[[Special:Log/block/{{{1}}}|b]]
+|[[Special:Log/protect/{{{1}}}|p]]
+|[[Special:Log/delete/{{{1}}}|d]]
+|[[Special:Log/move/{{{1}}}|m]]
+|[[Special:Log/rights/{{{1}}}|r]]
+}}<!-- {{admin-abbr}} --><noinclude>
+{{documentation}}
+</noinclude>
