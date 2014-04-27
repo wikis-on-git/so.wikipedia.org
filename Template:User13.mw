@@ -1,0 +1,10 @@
+{{<includeonly>safesubst:</includeonly>user-multi<noinclude>/template</noinclude>
+ | User    = {{{1|{{{User|{{{user|}}}}}}}}}
+ | Project = {{{2|{{{Project|{{{project|}}}}}}}}}
+ | Lang    = {{{3|{{{Lang|{{{lang|}}}}}}}}}
+ | 1       = t
+ | 2       = c
+ | 3       = l
+ | 4       = bl
+ | doc     = yes
+}}
