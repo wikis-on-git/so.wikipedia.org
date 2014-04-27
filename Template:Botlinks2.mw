@@ -1,0 +1,14 @@
+<span>[[:{{{Project|}}}:User:{{ucfirst:{{{1}}}}}|{{ucfirst:{{{1}}}}}]]&nbsp;{{toolbar
+|separator={{{separator|dot}}}
+|1=[[User talk:{{ucfirst:{{{1}}}}}|talk]]
+|2=[[Special:Contributions/{{ucfirst:{{{1}}}}}|contribs]]
+|3=[[Wikipedia:Bots/Requests for approval/{{ucfirst:{{{1}}}}} {{{tasks|{{{2|}}}}}}|tasks]]
+|4=[{{fullurl:Special:Log|type=makebot&user=&page=User:{{urlencode: {{ucfirst:{{{1}}}}}}}}} flag log]
+|5=[{{fullurl:Special:Log|type=&user={{urlencode:{{ucfirst:{{{1}}}}}}}}} {{color|#002bb8|actions log}}]
+|6=[{{fullurl:Special:Log/block|page=User:{{urlencode:{{ucfirst:{{{1}}}}}}}}} block log]
+|7=[{{fullurl:Special:Log|type=&user=&page=User%3A{{urlencode: {{ucfirst:{{{1}}}}}}}}} other logs]
+|8=[http://toolserver.org/~tparis/pcount/{{urlencode:{{{User|{{{1}}}}}}}} {{color|#002bb8|count}}]
+}}</span><noinclude>{{Documentation subpage}}
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
