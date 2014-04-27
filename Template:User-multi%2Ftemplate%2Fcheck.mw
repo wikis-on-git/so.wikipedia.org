@@ -1,0 +1,6 @@
+{{#if:{{{code|}}}
+ |{{#ifexist:Template:User-multi/{{{code|}}}
+  |<!-- Code exists, no error -->
+  |<br>{{error|Unknown link code "{{{code}}}"}}
+ }}
+}}
