@@ -1,0 +1,15 @@
+{{tmbox
+| small = {{{small|}}}
+| type  = notice
+| image = [[File:Ambox warning blue.svg|40px|alt=Blue alert icon|link=]]
+| smallimage = [[File:Ambox warning blue.svg|30px|alt=Blue alert icon|link=]]
+| text  = {{#ifeq:{{{banned}}}|yes|A [[WP:BAN|banned]] user|Wax qoraha wikipedia}}, {{User|{{{1}}}}}{{#if:{{{alt1|}}}|&#32;/&nbsp;{{User|{{{alt1}}}}}}}<!--
+-->{{#if:{{{alt2|}}}|&#32;/&nbsp;{{User|{{{alt2}}}}}}}<!--
+-->{{#if:{{{alt3|}}}|&#32;/&nbsp;{{User|{{{alt3}}}}}}}<!--
+-->{{#if:{{{alt4|}}}|&#32;/&nbsp;{{User|{{{alt4}}}}}}}<!--
+-->, {{#ifeq:{{{declared|}}}|yes|ayaa ku dhawaaqday xiriir shakhsi ama shaqo|waxaa laga yaabaa in si shaqsi ah ama si xirfad leh}} ku xiran mawduuca{{#ifeq:{{{banned}}}|yes|, Tilmaamaha ay qusayso waxaa ka mid ah [[WP:BAN]].|.}}<!--
+-->{{#ifeq:{{{editedhere|}}}|yes|&#32;Isticmaalahaan ayaa ka mid ah wax ka qaybqaatay qoraalka.</small>}}<!--
+-->&#32;Tilmaamaha ay qusayso waxaa ka mid ah [[Wikipedia:Conflict of interest]], [[Wikipedia:Autobiography]], iyo [[Wikipedia:Neutral point of view]].<!--
+-->{{#if:{{{otherlinks|}}}|&#32;({{{otherlinks}}})}}
+}}<includeonly>{{talk other|[[Category:Connected contributors|{{{2|{{PAGENAME}}}}}]]}}</includeonly><noinclude>{{Documentation}}<!-- Add categories and inter-wikis to the /doc subpage, not here! -->
+</noinclude>
