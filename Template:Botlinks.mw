@@ -1,0 +1,18 @@
+<span>[[:{{{Project|}}}:User:{{{1|Tusaale Bot}}}|{{{1|Example Bot}}}]]&nbsp;{{toolbar
+|separator={{{separator|dot}}}
+|1=[[Wikipedia:Bots/Requests for approval/{{{1|Example Bot}}} {{#if:{{{2|}}}|{{{2}}}}}|tasks]]
+|2=[[Special:Contributions/{{{1|Example Bot}}}|contribs]]
+|3=[{{fullurl:Special:Log|type=&user={{urlencode:{{ucfirst:{{{1|Example Bot}}}}}}}}} {{color|#002bb8|actions log}}]
+|4=[{{fullurl:Special:Log|type=block&page=User:{{urlencode:{{{1|Example Bot}}}}}}} {{color|#002bb8|block log}}]
+|5=[{{fullurl:Special:Log|type=rights&page=User:{{urlencode:{{{1|Example Bot}}}}}}} {{color|#002bb8|flag log}}]
+|6=[{{fullurl:Special:UserRights/{{{1|Example Bot}}}|user-reason={{urlencode:[[Wikipedia:Bots/Requests for approval/{{{1|Example Bot}}}|Successful BRFA]]}}}} {{color|#002bb8|user rights}}]
+}} {{#if:{{{2|}}}|(Task:&nbsp;{{{2|}}})|}}</span><noinclude>
+{{doc|content=
+Usage: {{tld|botlinks|Example Bot}}
+
+{{User information templates}}
+
+[[Category:Username internal link templates]]
+[[Category:Wikipedia bot-related templates]]
+}}
+</noinclude>
