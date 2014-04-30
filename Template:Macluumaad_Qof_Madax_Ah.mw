@@ -398,8 +398,8 @@
 {{#if:{{{{{#if:{{{ambassador_from1|}}}|ambassador|minister}}_from1|}}}||
 {{#if:{{{order1|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order1}}}<!--
 -->{{#if:{{{office1|}}} |&nbsp;[[{{{office1}}}]]}}<!--
+--><div style="background:lavender;">{{{order1}}}<!--
 -->{{#if:{{{state1|}}}  |&nbsp;[[{{{state1}}}]]}}<!--
 -->{{#if:{{{title1|}}}  |&nbsp;{{{title1}}}}}<!--
 --></div>
