@@ -122,8 +122,8 @@
 {{#if:{{{{{#if:{{{ambassador_from|}}}|ambassador|minister}}_from|}}}||
 {{#if:{{{order|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order}}}<!--
 -->{{#if:{{{office|}}} |&nbsp;[[{{{office}}}]]}}<!--
+--><div style="background:lavender;">{{{order}}}<!--
 -->{{#if:{{{state|}}}  |&nbsp;[[{{{state}}}]]}}<!--
 -->{{#if:{{{title|}}}  |&nbsp;{{{title}}}}}<!--
 --></div>
@@ -675,8 +675,8 @@
 {{#if:{{{{{#if:{{{ambassador_from2|}}}|ambassador|minister}}_from2|}}}||
 {{#if:{{{order2|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order2}}}<!--
 -->{{#if:{{{office2|}}} |&nbsp;[[{{{office2}}}]]}}<!--
+--><div style="background:lavender;">{{{order2}}}<!--
 -->{{#if:{{{state2|}}}  |&nbsp;[[{{{state2}}}]]}}<!--
 -->{{#if:{{{title2|}}}  |&nbsp;{{{title2}}}}}<!--
 --></div>
@@ -952,8 +952,8 @@
 {{#if:{{{{{#if:{{{ambassador_from3|}}}|ambassador|minister}}_from3|}}}||
 {{#if:{{{order3|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order3}}}<!--
 -->{{#if:{{{office3|}}} |&nbsp;[[{{{office3}}}]]}}<!--
+--><div style="background:lavender;">{{{order3}}}<!--
 -->{{#if:{{{state3|}}}  |&nbsp;[[{{{state3}}}]]}}<!--
 -->{{#if:{{{title3|}}}  |&nbsp;{{{title3}}}}}<!--
 --></div>
@@ -1228,8 +1228,8 @@
 {{#if:{{{{{#if:{{{ambassador_from4|}}}|ambassador|minister}}_from4|}}}||
 {{#if:{{{order4|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order4}}}<!--
 -->{{#if:{{{office4|}}} |&nbsp;[[{{{office4}}}]]}}<!--
+--><div style="background:lavender;">{{{order4}}}<!--
 -->{{#if:{{{state4|}}}  |&nbsp;[[{{{state4}}}]]}}<!--
 -->{{#if:{{{title4|}}}  |&nbsp;{{{title4}}}}}<!--
 --></div>
@@ -1504,8 +1504,8 @@
 {{#if:{{{{{#if:{{{ambassador_from5|}}}|ambassador|minister}}_from5|}}}||
 {{#if:{{{order5|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order5}}}<!--
 -->{{#if:{{{office5|}}} |&nbsp;[[{{{office5}}}]]}}<!--
+--><div style="background:lavender;">{{{order5}}}<!--
 -->{{#if:{{{state5|}}}  |&nbsp;[[{{{state5}}}]]}}<!--
 -->{{#if:{{{title5|}}}  |&nbsp;{{{title5}}}}}<!--
 --></div>
@@ -1780,8 +1780,8 @@
 {{#if:{{{{{#if:{{{ambassador_from6|}}}|ambassador|minister}}_from6|}}}||
 {{#if:{{{order6|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order6}}}<!--
 -->{{#if:{{{office6|}}} |&nbsp;[[{{{office6}}}]]}}<!--
+--><div style="background:lavender;">{{{order6}}}<!--
 -->{{#if:{{{state6|}}}  |&nbsp;[[{{{state6}}}]]}}<!--
 -->{{#if:{{{title6|}}}  |&nbsp;{{{title6}}}}}<!--
 --></div>
@@ -2056,8 +2056,8 @@
 {{#if:{{{{{#if:{{{ambassador_from7|}}}|ambassador|minister}}_from7|}}}||
 {{#if:{{{order7|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order7}}}<!--
 -->{{#if:{{{office7|}}} |&nbsp;[[{{{office7}}}]]}}<!--
+--><div style="background:lavender;">{{{order7}}}<!--
 -->{{#if:{{{state7|}}}  |&nbsp;[[{{{state7}}}]]}}<!--
 -->{{#if:{{{title7|}}}  |&nbsp;{{{title7}}}}}<!--
 --></div>
@@ -2332,8 +2332,8 @@
 {{#if:{{{{{#if:{{{ambassador_from8|}}}|ambassador|minister}}_from8|}}}||
 {{#if:{{{order8|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order8}}}<!--
 -->{{#if:{{{office8|}}} |&nbsp;[[{{{office8}}}]]}}<!--
+--><div style="background:lavender;">{{{order8}}}<!--
 -->{{#if:{{{state8|}}}  |&nbsp;[[{{{state8}}}]]}}<!--
 -->{{#if:{{{title8|}}}  |&nbsp;{{{title8}}}}}<!--
 --></div>
@@ -2608,8 +2608,8 @@
 {{#if:{{{{{#if:{{{ambassador_from9|}}}|ambassador|minister}}_from9|}}}||
 {{#if:{{{order9|}}} | 
 !colspan="2" style="text-align:center; font-size:110%;"{{!}} <hr/><!--
---><div style="background:lavender;">{{{order9}}}<!--
 -->{{#if:{{{office9|}}} |&nbsp;[[{{{office9}}}]]}}<!--
+--><div style="background:lavender;">{{{order9}}}<!--
 -->{{#if:{{{state9|}}}  |&nbsp;[[{{{state9}}}]]}}<!--
 -->{{#if:{{{title9|}}}  |&nbsp;{{{title9}}}}}<!--
 --></div>
