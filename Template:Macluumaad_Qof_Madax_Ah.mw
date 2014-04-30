@@ -2833,7 +2833,7 @@
 |colspan="2"|<hr/>
 |-
 {{#if:{{{birthname|}}}|
-! FULLPAGENAME
+! {{FULLPAGENAME}}
 {{!}} {{{birthname}}}
 {{!}}-
 }}
