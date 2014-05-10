@@ -1,0 +1,10 @@
+<includeonly>{{#ifeq: {{{2|}}}|no|[[irc:{{{1}}}|<tt style="white-space: nowrap;">#{{{1}}}</tt>]]|[[irc:{{{1}}}|<tt style="white-space: nowrap;">{{{2|#{{{1}}}}}}</tt>]]{{#if: {{{3|}}}||<sup><span class="plainlinks">[http://webchat.freenode.net/?channels=#{{{1}}} <span style="color:green;">Xirrir toos ah</span>]</span></sup>}}}}</includeonly><noinclude>
+== Examples ==
+* {{xpd|Channel|cvn-sw}}
+* {{xpd|Channel|cvn-sw|cv network small wikis}}
+* {{xpd|Channel|cvn-sw|no}}
+* {{xpd|Channel|cvn-sw|cv network small wikis|no}}
+
+[[Category:Internet Relay Chat]]
+
+</noinclude>
