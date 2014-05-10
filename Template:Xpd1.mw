@@ -1,0 +1,1 @@
+<includeonly><code>"{&#123;{{#if:{{{l|}}}|{{xpd/wl|{{{1}}}}}|<nowiki/>{{{1}}}}}&#124;{{xpd/w|{{xpd/code|{{{2}}}}}}}}&#125;"</code> {{{gives|gives}}} "{{{{{1}}}|{{{2}}}}}" [{{fullurl:special:ExpandTemplates|input=%22%7B%7B{{urlencode:{{{1}}}}}%7c{{xpd/url|{{xpd/code|{{{2}}}}}}}%7D%7D%22}}]</includeonly><noinclude>{{documentation}}</noinclude>
