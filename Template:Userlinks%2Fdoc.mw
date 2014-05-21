@@ -1,0 +1,32 @@
+{{documentation subpage}}
+
+=== Usage ===
+* <code><nowiki>{{Userlinks|Abshirdheere}}</nowiki></code>  &rarr; {{Userlinks|Abshirdheere}}
+
+
+'''''FG:''' For anon (IP) users, use only: '''''{{tl|IPvandal}}'''
+
+Names with (or without) equal signs can be given as <tt>'''1='''''Username''</tt> :
+*<tt><nowiki>{{Userlinks|1=Billbailey=legend}}</nowiki></tt> &rarr; {{Userlinks|1=Billbailey=legend}}
+
+{{Signatures}}
+
+<includeonly>
+<!--Categories -->
+
+
+<!--Other languages-->
+[[ab:Ашаблон:Userlinks]]
+[[af:Sjabloon:Userlinks]]
+[[ak:Template:Userlinks]]
+[[be:Шаблон:Userlinks-rights]]
+[[be-x-old:Шаблён:Userlinks-rights]]
+[[de:Vorlage:Benutzer]]
+[[es:Plantilla:U]]
+[[fi:Malline:Käyttäjälinkit]]
+[[hr:Predložak:Suradnik]]
+[[hsb:Předłoha:Wužiwar]]
+[[ka:თარგი:Userlinks]]
+[[no:Mal:Bruker]]
+[[ru:Шаблон:Userlinks-rights]]
+</includeonly>
