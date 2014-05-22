@@ -1,0 +1,57 @@
+{{Infobox
+| bodyclass  = vevent
+| bodystyle  = {{{bodystyle|}}}
+| title      = {{#if:{{{title|{{{name|}}}}}}|{{{title|{{{name|}}}}}}|<includeonly>{{PAGENAME}}</includeonly>}}
+| titleclass = summary
+| labelstyle = white-space: nowrap
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|}}}|sizedefault=64px|alt={{{logo_alt|}}}}}
+| caption    = {{{logo caption|}}}
+| image2     = {{#if:{{{collapsible|}}}|{{hidden begin|title=Screenshot|titlestyle=text-align:center}}}}{{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot_size|}}}|sizedefault=300px|alt={{{screenshot_alt|}}}}}
+| caption2   = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
+| label1     = [[Software|Lahaanshihii asalka]]
+| data1      = {{{author|}}}
+| label2     = [[Halkudheg]]
+| data2      = {{{slogan|}}}
+| label3     = [[Software|Hurumarin]]
+| data3      = {{{developer|}}}
+| label4     = La soo saaray
+| data4      = {{{released|}}}
+| label5     = {{#ifexist:Template:Multiple stable software releases/{{{name|{{PAGENAME}} }}}||[[Software release life cycle|{{#if:{{{discontinued|}}}|Final release|Hadda}}]]}}
+| data5      = {{#ifexist:Template:Multiple stable software releases/{{{name|{{PAGENAME}} }}}|'''[[Software|{{#if:{{{discontinued|}}}|Final release|Hadda}}]]s:'''
+{{Template:Multiple stable software releases/{{{name|{{PAGENAME}}}}}}}|{{#if:{{{latest release version|{{{latest_release_version|}}}}}}|{{{latest release version|{{{latest_release_version|}}}}}} {{#if:{{{latest release date|{{{latest_release_date|}}}}}}|/ {{{latest release date|{{{latest_release_date|}}}}}}}}|{{#ifexist:Template:Latest stable software release/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}|{{Latest stable software release/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}}}} }} }}
+| label6     = {{#ifexist:Template:Multiple preview software releases/{{{name|{{PAGENAME}} }}}||[[Software|La soo bandhigay]]}}
+| data6      = {{#ifexist:Template:Multiple preview software releases/{{{name|{{PAGENAME}} }}}|'''[[Software|La soo bandhigay]]s:'''
+{{Template:Multiple preview software releases/{{{name|{{PAGENAME}}}}}}}|{{#if:{{{latest preview version|{{{latest_preview_version|}}}}}}|{{{latest preview version|{{{latest_preview_version|}}}}}} {{#if:{{{latest preview date|{{{latest_preview_date|}}}}}}|/ {{{latest preview date|{{{latest_preview_date|}}}}}}}}|{{#ifexist:Template:Latest preview software release/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}|{{Latest preview software release/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}} }} }} }}
+| label7 = Xaalad hormarin
+| data7 = {{{status|}}}
+| label8     = Lagu qoray
+| data8      = {{{programming language|}}}
+| label9     = Habka shaqada
+| data9      = {{{operating system|}}}
+| label10     = La mataan ah
+| data10      = {{{included with|}}}
+| label11    = [[Web browser engine|Mashiinka]]{{#if: {{{engines|}}} |s}}
+| data11     = {{#if: {{{engines|}}} | {{{engines}}} | {{{engine|}}} }}
+| label12    = Booska
+| data12     = {{{platform|}}}
+| label13    = Weynaan
+| data13     = {{{size|}}}
+| label14    = Ku diyaarsan
+| data14     = {{#if:{{{language count|}}}|{{{language count}}} languages|{{{language|}}}}}{{{language footnote|}}}
+| data15     = {{#if:{{{language count|}}}|{{#if:{{{language|}}}|{{hidden top|title=List of languages|titlestyle=background-color: transparent;}}{{{language|}}}{{hidden bottom}}}}}}
+| label16    = Nooca
+| data16     = {{{genre|}}}
+| label17    = [[Software|Shati]]
+| data17     = {{{license|}}}
+| label18    = [[Software|Shati]]
+| data18     = {{{licence|}}}
+| label19    = Website
+| data19     = {{{website|}}}
+| label20    = [[Technical standard|Standard]](s)
+| data20     = {{{standard|}}}
+| label21    = As of
+| data21     = {{{AsOf|}}}
+| below      = {{{Footer|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
