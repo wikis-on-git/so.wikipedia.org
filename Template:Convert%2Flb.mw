@@ -1,0 +1,36 @@
+{{convert/{{#ifeq:{{{4}}}|oz|and/oz|{{{d}}}}}|{{{1}}}|{{{2|}}}|{{
+#switch: {{{3|kg}}}
+  | kg|st|oz = {{{3}}}<!--match common units quickly-->
+  | km|km2|kn|km3 = kg
+  | gal|usgal |qt|usqt = usgalh2o
+  | impgal|impqt = impgalh2o
+  | #default={{{3|}}}
+}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|s={{{s|}}}|r={{{r}}}|d={{{d}}}
+|u=lb
+|n=pound
+|t=pound (mass)
+|o=kg
+|b=0.45359237 
+|j={{#ifexpr: floor({{{1|9}}}) = ({{{1|9}}}) |-0-{{{j|0}}}|-0.343334259-{{{j|0}}} }}}}<!--endconvert/(and/oz)/{d}
+-->{{
+#switch:{{{3|kg}}}
+  | kg|st|oz =
+  | km|km2|kn|km3 = [[Template:Convert/help#Invalid unit parameter 3: {{{3|km}}} -- using kg instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | gal|usgal |qt|usqt = [[Template:Convert/help#Invalid unit parameter 3: {{{3|km}}} -- using usgalh2o instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | impgal|impqt = [[Template:Convert/help#Invalid unit parameter 3: {{{3|km}}} -- using impgalh2o instead|<sup>[fix unit]</sup>]][[Category:Convert_dimension_mismatch]]
+  | #default =
+}}<noinclude>
+{{pp-template|small=yes}}
+
+The '''[[Template:Convert/lb]]''' handles mass conversions with unit-code "lb" for pounds of weight/mass with [[Template:Convert]].
+
+For improper combinations of unit-codes, the template will auto-correct the output unit, for the following unit-codes:
+::* km, km2, km3, kn:&nbsp; will auto-correct as "kg"
+::* gal, usgal, qt, usqt:&nbsp; will auto-correct as "usgalh2o"
+::* impgal, impqt:&nbsp; will auto-correct as "impgalh2o"
+The autocorrection will also show a superscript note, such as "[[Template:Convert/help#Unit parameter 3: {{{3|km}}} -- using km/s2 instead|<sup>[fix unit]</sup>]]" but the result will be a valid equivalent amount.
+
+Invalid cases will link to "[[:Category:Convert dimension mismatch]]".
+
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
