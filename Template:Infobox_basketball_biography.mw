@@ -1,0 +1,311 @@
+{{ infobox
+| bodyclass   = vcard
+| bodystyle   = width:26em
+
+| titleclass  = fn summary
+| title       = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{width|}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| headerstyle = {{Infobox basketball biography/style|{{{team|}}}}}
+| header1     = {{#if:{{{number|}}}|No. {{{number}}}}}<!--
+   -->{{#if:{{both|{{{number|}}}|{{{team|}}}}}|&#32;–&#32;}}<!--
+   -->{{#if:{{{team|}}}
+       |{{#if:{{{team_link|}}}
+         |{{Infobox basketball biography/style|{{{team|}}}|{{{team_link|}}}}}
+         |{{#ifexist:{{{team}}}
+            |{{Infobox basketball biography/style|{{{team|}}}|{{{team|}}}}}
+            |{{{team}}}
+          }}
+        }}
+      }}
+| label2      = {{#if:{{both|{{{team|}}}|{{{league|}}}}}
+                  |Position<!--
+               -->}}
+| data2       = {{{position|}}}
+| class2      = role
+
+| label3      = Luqadda
+| data3       = {{#if:{{{team|}}}|{{{league|}}}}}
+
+| header4     = {{#if:{{{birth_date|}}}{{{birth_place|}}}{{{nationality|}}}{{{death_date|}}}{{{death_place|}}}{{{height_ft|}}}{{{height_in|}}}{{{weight_lbs|}}}{{{weight_lb|}}}|Macluumaadka qofka}}
+
+| label5      = Dhashay
+| data5       = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label6      = Dhintay
+| data6       = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label7      = Jinsiyadda
+| data7       = {{{nationality|}}}{{#if: {{both|{{{nationality|}}}|{{{nationality_2|}}}}} |&#32;/&#32;}}{{{nationality_2|}}}
+
+| label8 = Joogga u qoran
+| data8  = {{#if:{{{height_ft|}}}
+     |{{convert|{{{height_ft|0|}}}|ft|{{#if:{{{height_in|}}}|{{{height_in}}}|0}}|in|cm|0|abbr=on}}{{{height_footnote|}}}
+     |{{#if:{{{height_cm|}}}
+       |{{convert|{{{height_cm|0}}}|cm|ftin|0|abbr=on}}{{{height_footnote|}}}
+       |{{#if:{{{height_m|}}}
+         |{{convert|{{{height_m|0}}}|m|ftin|0|abbr=on}}{{{height_footnote|}}}
+         |{{{height|}}}{{{height_footnote|}}}
+         }}
+       }}
+     }}
+
+| label9 = Miisaanka u qoran
+| data9  = {{#if:{{{weight_lbs|{{{weight_lb|}}}}}}
+     |{{convert|{{{weight_lbs|{{{weight_lb|}}}}}}|lb|kg|0|abbr=on}}{{{weight_footnote|}}}
+     |{{#if:{{{weight_kg|}}}
+       |{{convert|{{{weight_kg|0}}}|kg|lb|0|abbr=on}}{{{weight_footnote|}}}
+       |{{{weight|}}}{{{weight_footnote|}}}
+       }}
+     }}
+
+| header13    = {{#if:{{{highschool|}}}{{{high_school|}}}{{{high school|}}}{{{college|}}}{{{pro_club|}}}{{{draftyear|{{{draft_year|}}}}}}{{{draftteam|{{{draft_team|}}}}}}{{{draftyearpba|{{{draft_year_pba|}}}}}}{{{draftpba|{{{draft_pba|}}}}}}{{{debutyear|{{{career_start|{{{draft_year|}}}}}}}}}{{{league|}}}{{{former_teams|}}}{{{teams|}}}{{{coach|}}}|Macluumaad xirfadeed}}
+
+| label14      = Dugsi sare
+| data14       = {{{highschool|{{{high_school|{{{high school|}}}}}}}}}
+
+| label15     = Kolleejo
+| data15      = {{{college|}}}
+
+| label16     = Naadiga
+| data16      = {{{pro_club|}}}
+
+| label17     = NBA draft
+| data17      = {{#if:{{{draftyear|{{{draft_year|}}}}}}|[[{{{draftyear|{{{draft_year}}}}}} NBA draft|{{{draftyear|{{{draft_year}}}}}}]] {{#if:{{{draft|}}}|/ {{{draft}}} | {{#ifexpr:{{str find|{{lc:{{{draftpick|{{{draft_pick}}}}}}}}|territorial}} = -1|/ {{#switch:{{lc:{{{draftround|{{{draft_round|}}}}}}}}||undrafted|[[undrafted sportsperson|undrafted]]=[[Undrafted sportsperson|Undrafted]]|Round: {{{draftround|{{{draft_round}}}}}}<!--end switch-->}}<!--end ifexpr-->}} {{#if:{{{draftpick|{{{draft_pick|}}}}}}|/ Pick: {{#iferror:{{#ifexpr:{{{draftpick|{{{draft_pick}}}}}} > 0}}|{{{draftpick|{{{draft_pick}}}}}}|{{#ifeq:{{{draftpick|{{{draft_pick}}}}}}|1|[[List of first overall NBA draft picks|1st]]|{{Ordinal|{{{draftpick|{{{draft_pick}}}}}}<!--end ordinal-->}}<!--end ifeq-->}} overall<!--end iferror-->}}<!--end if draft_pick-->}}<!--end if draft-->}} }}
+| data18      = {{#if:{{both|{{{draftyear|{{{draft_year|}}}}}}|{{{draftteam|{{{draft_team|}}}}}}}}|Waxaa xushay {{{draftteam|{{{draft_team}}} }}} }}
+
+| label19     = PBA draft
+| data19      = {{#if:{{{draftyearpba|{{{draft_year_pba|}}}}}}|[[{{{draftyearpba|{{{draft_year_pba}}}}}} PBA draft|{{{draftyearpba|{{{draft_year_pba}}}}}}]] {{#if:{{{draftpba|{{{draft_pba|}}}}}}|/ {{{draftpba|{{{draft_pba}}}}}} | {{#switch:{{lc:{{{draftroundpba|{{{draft_round_pba|}}}}}}}}|=|undrafted|[[undrafted sportsperson|undrafted]]=[[Undrafted sportsperson|Undrafted]]|Round: {{{draftroundpba|{{{draft_round_pba}}}}}}<!--end switch-->}} {{#if:{{{draftpickpba|{{{draft_pick_pba|}}}}}}|/ Pick: {{#iferror:{{#ifexpr:{{{draftpickpba|{{{draft_pick_pba}}}}}} > 0}}|{{{draftpickpba|{{{draft_pick_pba}}}}}}|{{Ordinal|{{{draftpickpba|{{{draft_pick_pba}}}}}}<!--end ordinal-->}} overall<!--end iferror-->}}<!--end if draft_pick_pba-->}}<!--end if draft_pba-->}} }}
+| data20      = {{#if:{{both|{{{draftyearpba|}}}{{{draft_year_pba|}}}|{{{draftteampba|{{{draft_team_pba|}}}}}}}}|Selected by the {{{draftteampba|{{{draft_team_pba}}} }}} }}
+
+| label21     = Xirfadda cayaarta
+| data21      = {{#if:{{{debutyear|{{{career_start|}}}}}}|{{{debutyear|{{{career_start|}}}}}}–{{#if:{{{finalyear|{{{career_end|}}}}}}|{{{finalyear|{{{career_end}}}}}}|present}} }}
+
+| label22     = Booska
+| data22     = {{{career_position|}}}
+
+| label23    = Lambarka
+| data23     = {{{career_number|}}}
+
+| label24     = Tababar xirfadeed
+| data24      = {{#if:{{{coach_start|}}}|{{{coach_start}}}–{{#if:{{{coach_end|}}}|{{{coach_end}}}|jooga}} }}
+
+| header26 = {{#if:{{{former_teams|}}}{{{teams|}}}{{{coach|}}}{{{years1|}}}{{{cyears1|}}}{{{team1|}}}{{{cteam1|}}}
+ |{{Infobox|child = yes
+   | decat   = yes <!-- remove from template:infobox tracking categories -->
+   | labelstyle  = font-weight: normal
+   | headerstyle = text-align: left; {{#if:{{{years1|}}}{{{cyears1|}}}|line-height: 1.2em}}
+   | datastyle   = text-align: left; {{#if:{{{years1|}}}{{{cyears1|}}}|line-height: 1.2em}}
+   | title       = Taariikh howleed
+   | header1 = {{#if:{{{years1|}}}{{{team1|}}}|{{#if:{{{cyears1|}}}{{{cteam1|}}}|As player:}}}}
+   | label2 = {{{years1|}}}
+   | data2  = {{{team1|}}}
+   | label3 = {{{years2|}}}
+   | data3  = {{{team2|}}}
+   | label4 = {{{years3|}}}
+   | data4  = {{{team3|}}}
+   | label5 = {{{years4|}}}
+   | data5  = {{{team4|}}}
+   | label6 = {{{years5|}}}
+   | data6  = {{{team5|}}}
+   | label7 = {{{years6|}}}
+   | data7  = {{{team6|}}}
+   | label8 = {{{years7|}}}
+   | data8  = {{{team7|}}}
+   | label9 = {{{years8|}}}
+   | data9  = {{{team8|}}}
+   | label10 = {{{years9|}}}
+   | data10  = {{{team9|}}}
+   | label11 = {{{years10|}}}
+   | data11  = {{{team10|}}}
+   | label12 = {{{years11|}}}
+   | data12  = {{{team11|}}}
+   | label13 = {{{years12|}}}
+   | data13  = {{{team12|}}}
+   | label14 = {{{years13|}}}
+   | data14  = {{{team13|}}}
+   | label15 = {{{years14|}}}
+   | data15  = {{{team14|}}}
+   | label16 = {{{years15|}}}
+   | data16  = {{{team15|}}}
+   | label17 = {{{years16|}}}
+   | data17  = {{{team16|}}}
+   | label18 = {{{years17|}}}
+   | data18  = {{{team17|}}}
+   | label19 = {{{years18|}}}
+   | data19  = {{{team18|}}}
+   | label20 = {{{years19|}}}
+   | data20  = {{{team19|}}}
+   | label21 = {{{years20|}}}
+   | data21  = {{{team20|}}}
+   | label22 = {{{years21|}}}
+   | data22  = {{{team21|}}}
+   | label23 = {{{years22|}}}
+   | data23  = {{{team22|}}}
+   | label24 = {{{years23|}}}
+   | data24  = {{{team23|}}}
+   | label25 = {{{years24|}}}
+   | data25  = {{{team24|}}}
+   | label26 = {{{years25|}}}
+   | data26  = {{{team25|}}}
+   | label27 = {{{years26|}}}
+   | data27  = {{{team26|}}}
+   | label28 = {{{years27|}}}
+   | data28  = {{{team27|}}}
+   | label29 = {{{years28|}}}
+   | data29 = {{{team28|}}}
+   | label30 = {{{years29|}}}
+   | data30  = {{{team29|}}}
+   | label31 = {{{years30|}}}
+   | data31  = {{{team30|}}}
+   | label32 = {{{years31|}}}
+   | data32  = {{{team31|}}}
+   | label33 = {{{years32|}}}
+   | data33  = {{{team32|}}}
+   | label34 = {{{years33|}}}
+   | data34  = {{{team33|}}}
+   | label35 = {{{years34|}}}
+   | data35  = {{{team34|}}}
+   | label36 = {{{years35|}}}
+   | data36  = {{{team35|}}}
+   | label37 = {{{years36|}}}
+   | data37  = {{{team36|}}}
+   | label38 = {{{years37|}}}
+   | data38  = {{{team37|}}}
+   | label39 = {{{years38|}}}
+   | data39  = {{{team38|}}}
+   | label40 = {{{years39|}}}
+   | data40  = {{{team39|}}}
+   | label41 = {{{years40|}}}
+   | data41  = {{{team40|}}}
+   | header50 = {{#if:{{{former_teams|{{{teams|}}}}}}|{{#if:{{{coach|}}}|U cayaara:}}}}
+   | data51   = {{{former_teams|{{{teams|}}}}}}
+   | header52 = {{#if:{{{cyears1|}}}{{{cteam1|}}}|U ah tababare:}}
+   | label53 = {{{cyears1|}}}
+   | data53  = {{{cteam1|}}}
+   | label54 = {{{cyears2|}}}
+   | data54  = {{{cteam2|}}}
+   | label55 = {{{cyears3|}}}
+   | data55  = {{{cteam3|}}}
+   | label56 = {{{cyears4|}}}
+   | data56  = {{{cteam4|}}}
+   | label57 = {{{cyears5|}}}
+   | data57  = {{{cteam5|}}}
+   | label58 = {{{cyears6|}}}
+   | data58 = {{{cteam6|}}}
+   | label59 = {{{cyears7|}}}
+   | data59  = {{{cteam7|}}}
+   | label60 = {{{cyears8|}}}
+   | data60  = {{{cteam8|}}}
+   | label61 = {{{cyears9|}}}
+   | data61  = {{{cteam9|}}}
+   | label62 = {{{cyears10|}}}
+   | data62  = {{{cteam10|}}}
+   | label63 = {{{cyears11|}}}
+   | data63  = {{{cteam11|}}}
+   | label64 = {{{cyears12|}}}
+   | data64  = {{{cteam12|}}}
+   | label65 = {{{cyears13|}}}
+   | data65  = {{{cteam13|}}}
+   | label66 = {{{cyears14|}}}
+   | data66  = {{{cteam14|}}}
+   | label67 = {{{cyears15|}}}
+   | data67  = {{{cteam15|}}}
+   | label68 = {{{cyears16|}}}
+   | data68  = {{{cteam16|}}}
+   | label69 = {{{cyears17|}}}
+   | data69  = {{{cteam17|}}}
+   | label70 = {{{cyears18|}}}
+   | data70  = {{{cteam18|}}}
+   | label71 = {{{cyears19|}}}
+   | data71  = {{{cteam19|}}}
+   | label72 = {{{cyears20|}}}
+   | data72  = {{{cteam20|}}}
+   | header73 = {{#if:{{{coach|}}}|U ah tababare:}}
+   | data74   = {{{coach|}}}
+   }}
+ }}
+
+| header27    = {{#if:{{{awards|{{{highlights|}}}}}}
+ |{{Infobox|child = yes
+   | decat   = yes <!-- remove from template:infobox tracking categories -->
+   | datastyle = text-align: left;
+   | title     = Biladaha iyo xirfadda
+
+   | data1 = {{{awards|{{{highlights|}}}}}}
+
+   }}
+ }}
+
+| header28 = {{#if:{{both|{{{stat1label|}}}|{{{career_end|{{{finalyear|}}} }}} }}
+ |{{Infobox|child = yes
+   | decat   = yes <!-- remove from template:infobox tracking categories -->
+   | labelstyle = text-align: right; line-height: 1.2em
+   | datastyle  = line-height: 1.2em
+   | title      = Career {{{stats_league|{{#switch:{{{league|NBA}}}|both=NBA and ABA|{{{league|}}} }} }}} statistics
+
+   | label1 = {{{stat1label}}}
+   | data1  = {{#if:{{{stat1label|}}}|{{{stat1value|}}} }}
+   | label2 = {{{stat2label}}}
+   | data2  = {{#if:{{{stat2label|}}}|{{{stat2value|}}} }}
+   | label3 = {{{stat3label}}}
+   | data3  = {{#if:{{{stat3label|}}}|{{{stat3value|}}} }}
+   }}
+ }}
+
+| data29 = {{#if:{{{profile|}}}{{{nba_profile|}}}{{{nba|}}}{{{nba_historical_profile|}}}{{{historical_profile|}}}
+  |<span style="font-weight:bold">{{#if:{{{finalyear|}}}{{{career_end|}}}{{{nba_historical_profile|}}}{{{historical_profile|}}}
+    |[http://stats.nba.com/playerProfile.html?PlayerID={{#if:{{{nba_profile|}}}|{{{nba_profile}}}|{{#if:{{{profile|}}}|{{{profile}}}|{{#if:{{{nba|}}}|{{{nba}}}|{{PAGENAMEE}}}}}}}} Stats] at NBA.com
+    |[http://www.nba.com/playerfile/{{#if:{{{nba_profile|}}}|{{{nba_profile}}}|{{#if:{{{profile|}}}|{{{profile}}}|{{#if:{{{nba|}}}|{{{nba}}}|{{PAGENAMEE}}}}}}}} Stats] at NBA.com
+    }}</span>
+  }}
+
+| data30      = {{#if:{{both|{{{letter|}}}|{{{bbr|}}}}}|<span style="font-weight:bold">[http://www.basketball-reference.com/players/{{{letter}}}/{{{bbr}}}.html Stats] at Basketball-Reference.com</span>}}
+
+| data31 = {{#if:{{{HOF|}}}{{{HOF_player|}}}{{{HOF_coach|}}}{{{FIBA_HOF_player|}}}{{{CBBASKHOF_year|}}}
+ |{{infobox|child=yes
+   | datastyle = font-weight:bold; background-color: #DCDCDC;
+   | data1 = {{#if:{{{HOF|}}}|[http://www.hoophall.com/hall-of-famers/tag/{{{HOF}}} Basketball Hall of Fame]}}
+   | data2 = {{#if:{{{HOF_player|}}}|[http://www.hoophall.com/hall-of-famers/tag/{{{HOF_player}}} Basketball Hall of Fame as player]}}
+   | data3 = {{#if:{{{HOF_coach|}}}|[http://www.hoophall.com/hall-of-famers/tag/{{{HOF_coach}}} Basketball Hall of Fame as coach]}}
+   | data4 = {{#if:{{{FIBA_HOF_player|}}}|[http://halloffame.fiba.com/pages/eng/hof/indu/play/2007/p/lid_17904_newsid/{{{FIBA_HOF_player}}}/bio.html FIBA Hall of Fame as player]}}
+   | data5 = {{#if:{{{CBBASKHOF_year|}}}|[[National Collegiate Basketball Hall of Fame|College Basketball Hall of Fame]]<br />Inducted in {{{CBBASKHOF_year}}} }}
+
+   }}
+ }}
+
+| header35   = {{#if:{{{medal_templates|{{{medaltemplates|}}}}}}|{{Infobox medal templates
+   | title      = Medals
+   | titlestyle = background-color: #DCDCDC; color: #000000;
+   | medals     = {{{medal_templates|{{{medaltemplates|}}}}}}
+   | expand     = {{#if:{{{medal_templates-expand|{{{medaltemplates-expand|}}}}}}|{{{medal_templates-expand|{{{medaltemplates-expand|}}}}}}|{{#ifeq:{{lc:{{{show-medals}}}}}|no||yes}}}}
+   }}
+ }}
+
+}}<!--
+
+*** Compatibility with {{infobox basketball player}} as part of a merge ***
+
+*** Tracking linked teams which should be split into | team_link = and | team =  ***
+*** Also tracking redlinked teams                                                ***
+
+-->{{#if:{{{team|}}}|{{#ifexpr:{{#ifeq:{{str left|{{{team}}}|2}}|{{str left|[[link]]|2}}|1|0}}+{{#ifeq:{{str left|{{{team}}}|2}}|{{str left|'''[[link]]'''|2}}|1|0}}|{{#if:{{Infobox_basketball_biography/team_parameter_linked}}}}<!--
+  -->|{{#if:{{{team_link|}}}|{{#ifexist:{{{team_link}}}||{{#if:{{Infobox_basketball_biography/team_or_team_link}}}}}}|{{#if:{{{team|}}}|{{#ifexist:{{{team}}}||{{#if:{{Infobox_basketball_biography/team_or_team_link}}}}}}}}}}<!--
+  --> }} }}<!--
+
+*** Tracking "league" set without a corresponding "team" set.        ***
+*** "league" is being proposed for use only people active on a team. ***
+*** Also tracking "league" without "team" with "stat", which might   ***
+*** be better to set "stat_league" instead of "league"               ***
+-->{{#if:{{{team|}}}
+     |<!--
+  -->|{{#if:{{{league|}}}
+        |{{#if:{{Infobox_basketball_biography/league_set_without_team}}}}<!--
+      -->{{#if:{{both|{{{stat1label|}}}|{{{career_end|{{{finalyear|}}} }}} }}
+           |{{#if:{{Infobox_basketball_biography/league_set_without_team_with_stats}}}}<!--
+           -->}}}}}}<!--
+--><noinclude>
+{{documentation}}<!-- place category and language links on the /doc page, not here. -->
+</noinclude>
