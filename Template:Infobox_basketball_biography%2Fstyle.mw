@@ -1,0 +1,4 @@
+{{#if:{{#invoke:Basketball color|check|{{{1}}}}}
+  |{{#if:{{{2|}}}|[[{{{2}}}|<span style="{{#invoke:Basketball color|colorcell|{{{1}}}}}">{{{1}}}</span>]]|{{#invoke:Basketball color|colorcell|{{{1}}}}} }}
+  |{{#if:{{{2|}}}|[[{{{2}}}|<span style="{{NCAA color cell|{{{1}}}}}">{{{1}}}</span>]]|{{NCAA color cell|{{{1}}}}}}}
+}}<noinclude>{{documentation}}</noinclude>
