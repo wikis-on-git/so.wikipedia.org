@@ -1,0 +1,4 @@
+<includeonly>{{formatnum:{{{1}}}}}&nbsp;{{{U}}}&nbsp;{{convert/and/fra{{#expr:2-(0*{{{2}}}>0)*(1+({{{2}}}<1))}}|{{{2}}}}}&nbsp;{{{u}}} ({{convert/{{#ifeq:{{{4}}}|1|{{{5}}}|{{{o}}}}}|{{#ifexpr:0*{{{2}}}=0|{{{2}}}|0.5}}|{{{3}}}|{{#ifeq:{{{4}}}|1|{{{6|}}}|{{{5|}}}}}|{{{s|}}}|r={{{r}}}|j={{{j}}}|d=LoffAonSoff}})</includeonly><noinclude>
+{{pp-template|small=yes}}
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
