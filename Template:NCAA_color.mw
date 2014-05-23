@@ -1,0 +1,340 @@
+{{#switch:{{{1|}}}
+ | Free Agent | Retired | retired | = {{#switch:{{{2}}} |1=DCDCDC |2=000000 }}
+
+ | Abilene Christian Wildcats = {{#switch:{{{2|}}} |1=6B3FA0 |2=D3D3D3}}
+ | Air Force Falcons = {{#switch:{{{2|}}} |1=0038A8 |2=FFFFFF |3=A8ADB4}}
+ | Akron Zips = {{#switch:{{{2|}}} |1=00275E |2=DEB408}}
+ | Alabama Crimson Tide = {{#switch:{{{2|}}} |1=A32638 |2=FFFFFF}}
+ | Alabama–Huntsville Chargers | UAH Chargers = {{#switch:{{{2|}}} |1=0051BA |2=FFFFFF}}
+ | Alabama State Hornets = {{#switch:{{{2|}}} |1=000000 |2=FFD700}}
+ | Alaska Anchorage Seawolves = {{#switch:{{{2|}}} |1=004F39 |2=FDB827}}
+ | Alaska Nanooks | Alaska-Fairbanks Nanooks = {{#switch:{{{2|}}} |1=015EAB |2=FFD60A}}
+ | Albany Great Danes = {{#switch:{{{2|}}} |1=452663 |2=FFC726}}
+ | Alberta Golden Bears = {{#switch:{{{2|}}} |1=01431D |2=FAF601}}
+ | Angelo State Rams = {{#switch:{{{2|}}} |1=003798 |2=FFC726}}
+ | Appalachian State Mountaineers = {{#switch:{{{2|}}} |1=000000 |2=FBD601}}
+ | Arizona State Sun Devils = {{#switch:{{{2|}}} |1=8D0E3B |2=FCC626}}
+ | Arizona Wildcats = {{#switch:{{{2|}}} |1=003366 |2=FFFFFF |3=CC0033}}
+ | Arkansas-Pine Bluff Golden Lions = {{#switch:{{{2|}}} |1=000000 |2=FFD700}}
+ | Arkansas Razorbacks = {{#switch:{{{2|}}} |1=C41E3A |2=FFFFFF}}
+ | Arkansas State Red Wolves = {{#switch:{{{2|}}} |1=FF2400 |2=000000}}
+ | Army Black Knights = {{#switch:{{{2|}}} |1=000000 |2=CFB53B}}
+ | Auburn Tigers = {{#switch:{{{2|}}} |1=021C42 |2=FF5805}}
+ | Baker Wildcats = {{#switch:{{{2|}}} |1=F38025 |2=002E5E}}
+ | Ball State Cardinals = {{#switch:{{{2|}}} |1=C41E3A |2=FFFFFF}}
+ | Baylor Bears = {{#switch:{{{2|}}} |1=004933 |2=FDBE0F}}
+ | Belmont Bruins = {{#switch:{{{2|}}} |1=0031AD |2=FFFFFF |3=CE1126}}
+ | Bemidji State Beavers = {{#switch:{{{2|}}} |1=073B31 |2=FFFFFF}}
+ | Bishop's Gaiters | Bishops Gaiters = {{#switch:{{{2|}}} |1=461B7E |2=A9A9A9}}
+ | Boise State Broncos = {{#switch:{{{2|}}} |1=00529F |2=FFFFFF}}
+ | Boston College Eagles = {{#switch:{{{2|}}} |1=660000 |2=E7D692}}
+ | Bowling Green Falcons = {{#switch:{{{2|}}} |1=FF7300 |2=613005}}
+ | Brigham Young University Cougars | Brigham Young Cougars | BYU Cougars = {{#switch:{{{2|}}} |1=002654 |2=FFFFFF}}
+ | Brown Bears = {{#switch:{{{2|}}} |1=321414 |2=FFFFFF |3=C41E3A}}
+ | Buffalo Bulls = {{#switch:{{{2|}}} |1=041A9B |2=FFFFFF}}
+ | Butler Bulldogs = {{#switch:{{{2|}}} |1=00449E |2=FFFFFF}}
+ | BYU–Hawaii Seasiders = {{#switch:{{{2|}}} |1=990000 |2=FFCC00}}
+ | Calgary Dinos = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF |3=FFCC00}}
+ | California Golden Bears = {{#switch:{{{2|}}} |1=000033 |2=F6B211}}
+ | California Vulcans = {{#switch:{{{2|}}} |1=990000 |2=FFFFFF |3=000000}}
+ | Cal Poly Mustangs = {{#switch:{{{2|}}} |1=034634 |2=EDE4AB}}
+ | Cal State Fullerton Titans = {{#switch:{{{2|}}} |1=004A80 |2=FFFFFF |3=FF7F00}}
+ | Cal State Northridge Matadors = {{#switch:{{{2|}}} |1=CC3333 |2=FFFFFF}}
+ | Canisius Golden Griffins = {{#switch:{{{2|}}} |1=0B2548 |2=EAAB20}}
+ | Catawba Indians = {{#switch:{{{2|}}} |1=000080 |2=FFFFFF}}
+ | CCNY Beavers = {{#switch:{{{2|}}} |1=B57EDC |2=000000}}
+ | Central Arkansas Bears = {{#switch:{{{2|}}} |1=3A1769 |2=D1D2D4}}
+ | Central Michigan Chippewas = {{#switch:{{{2|}}} |1=660033 |2=FFCC00}}
+ | Central Washington Wildcats = {{#switch:{{{2|}}} |1=CC0033 |2=FFFFFF}}
+ | Charlotte 49ers = {{#switch:{{{2|}}} |1=00703C |2=FFFFFF}}
+ | Chattanooga Lady Mocs | Chattanooga Mocs = {{#switch:{{{2|}}} |1=00386B |2=E0AA0F}}
+ | Cincinnati Bearcats = {{#switch:{{{2|}}} |1=000000 |2=FFFFFF |3=E31836}}
+ | The Citadel Bulldogs | Citadel Bulldogs = {{#switch:{{{2|}}} |1=4189DD |2=FFFFFF}}
+ | Clemson Tigers = {{#switch:{{{2|}}} |1=FF5F01 |2=FFFFFF |3=522D80}}
+ | Cleveland State Vikings = {{#switch:{{{2|}}} |1=004123 |2=FFFFFF}}
+ | Coastal Carolina Chanticleers = {{#switch:{{{2|}}} |1=008080 |2=FFFFFF |3=A67D3D}}
+ | Colgate Raiders = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | College of Charleston Cougars = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Colorado Buffaloes = {{#switch:{{{2|}}} |1=000000 |2=D5C57A}}
+ | Colorado College Tigers = {{#switch:{{{2|}}} |1=000000 |2=EFB310}}
+ | Colorado State Rams = {{#switch:{{{2|}}} |1=006B54 |2=FFFFFF |3=FFCC33}}
+ | Columbia Lions = {{#switch:{{{2|}}} |1=7EBFE9 |2=004B85}}
+ | Connecticut Huskies = {{#switch:{{{2|}}} |1=002868 |2=FFFFFF}}
+ | Cornell Big Red = {{#switch:{{{2|}}} |1=B31B1B |2=FFFFFF}}
+ | Creighton Bluejays = {{#switch:{{{2|}}} |1=000066 |2=FFFFFF}}
+ | Dartmouth Big Green = {{#switch:{{{2|}}} |1=38672F |2=FFFFFF}}
+ | Dayton Flyers = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF |3=9BDDFF}}
+ | Delaware Fightin' Blue Hens = {{#switch:{{{2|}}} |1=0121A5 |2=FFDE22}}
+ | Denver Pioneers = {{#switch:{{{2|}}} |1=880029 |2=D0CCAE}}
+ | DePaul Blue Demons = {{#switch:{{{2|}}} |1=00438C |2=FFFFFF |3=F10041}}
+ | Detroit Titans = {{#switch:{{{2|}}} |1=F5002F |2=FFFFFF |3=0048E0}}
+ | Drake Bulldogs = {{#switch:{{{2|}}} |1=000070 |2=FFFFFF}}
+ | Drexel Dragons = {{#switch:{{{2|}}} |1=07294D |2=FFC600}}
+ | Duke Blue Devils = {{#switch:{{{2|}}} |1=0B2174 |2=FFFFFF}}
+ | Duquesne Dukes = {{#switch:{{{2|}}} |1=00214D |2=FFFFFF |3=CC0000}}
+ | East Carolina Pirates = {{#switch:{{{2|}}} |1=4B1869 |2=FFE118}}
+ | Eastern Arizona Gila Monsters = {{#switch:{{{2|}}} |1=340265 |2=FFFFFF}}
+ | Eastern Illinois Panthers = {{#switch:{{{2|}}} |1=0088D4 |2=000000}}
+ | Eastern Kentucky Colonels = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Eastern Michigan Eagles = {{#switch:{{{2|}}} |1=006400 |2=FFFFFF}}
+ | Eastern Washington Eagles = {{#switch:{{{2|}}} |1=A10022 |2=FFFFFF}}
+ | Elon Phoenix = {{#switch:{{{2|}}} |1=800000 |2=CFB53B}}
+ | Evansville Purple Aces = {{#switch:{{{2|}}} |1=5C2F83 |2=FFFFFF}}
+ | Ferris State Bulldogs = {{#switch:{{{2|}}} |1=CC0033 |2=FFFFFF |3=FFC61E}}
+ | Florida A&M Rattlers = {{#switch:{{{2|}}} |1=006400 |2=FFFFFF |3=FFA500}}
+ | Florida Atlantic Owls | FAU Owls = {{#switch:{{{2|}}} |1=003366 |2=FFFFFF |3=FF0000}}
+ | Florida Gators = {{#switch:{{{2|}}} |1=0021A5 |2=FFFFFF |3=FF4A00}}
+ | Florida Gulf Coast Eagles = {{#switch:{{{2|}}} |1=0047AB |2=FFFFFF |3=50C878}}
+ | Florida International Golden Panthers | Florida International Panthers | FIU Golden Panthers | FIU Panthers = {{#switch:{{{2|}}} |1=002D62 |2=C5960C}}
+ | Florida State Seminoles = {{#switch:{{{2|}}} |1=990000 |2=CCCC66}}
+ | Fordham Rams = {{#switch:{{{2|}}} |1=880038 |2=FFFFFF}}
+ | Fort Valley State Wildcats = {{#switch:{{{2|}}} |1=0000FF |2=FFFF00}}
+ | Fresno State Bulldogs = {{#switch:{{{2|}}} |1=9A122C |2=FFFFFF}}
+ | Furman Paladins = {{#switch:{{{2|}}} |1=4D1979 |2=FFFFFF}}
+ | Gardner–Webb Runnin' Bulldogs = {{#switch:{{{2|}}} |1=CE2029 |2=FFFFFF |3=000000}}
+ | George Mason Patriots = {{#switch:{{{2|}}} |1=006400 |2=FFD700}}
+ | Georgetown Hoyas = {{#switch:{{{2|}}} |1=003366 |2=D7D7D7}}
+ | George Washington Colonials = {{#switch:{{{2|}}} |1=002654 |2=EBC772}}
+ | Georgia Bulldogs = {{#switch:{{{2|}}} |1=D60022 |2=FFFFFF |3=000000}}
+ | Georgia Southern Eagles = {{#switch:{{{2|}}} |1=082456 |2=FFFFFF |3=A99977}}
+ | Georgia State Panthers = {{#switch:{{{2|}}} |1=003399 |2=FFFFFF}}
+ | Georgia Tech Yellow Jackets = {{#switch:{{{2|}}} |1=272B65 |2=C59353}}
+ | Gonzaga Bulldogs = {{#switch:{{{2|}}} |1=002469 |2=FFFFFF}}
+ | Grand Canyon Antelopes = {{#switch:{{{2|}}} |1=522D80 |2=FFFFFF}}
+ | Green Bay Phoenix = {{#switch:{{{2|}}} |1=006633 |2=FFFFFF}}
+ | Hampton Pirates = {{#switch:{{{2|}}} |1=265198 |2=FFFFFF |3=A0A0A2}}
+ | Hartford Hawks = {{#switch:{{{2|}}} |1=FF2400 |2=FFFFFF}}
+ | Hartwick Hawks = {{#switch:{{{2|}}} |1=1E5696 |2=FFFFFF}}
+ | Harvard Crimson = {{#switch:{{{2|}}} |1=DC143C |2=FFFFFF}}
+ | Hawaii Warriors | Hawaii Rainbow Warriors | Hawaii Rainbows | Hawaii Rainbow Wahine = {{#switch:{{{2|}}} |1=024731 |2=FFFFFF}}
+ | Holy Cross Crusaders = {{#switch:{{{2|}}} |1=540C7E |2=FFFFFF}}
+ | Houston Baptist Huskies = {{#switch:{{{2|}}} |1=002366 |2=FF7F00}}
+ | Houston Cougars = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF}}
+ | Idaho Vandals = {{#switch:{{{2|}}} |1=D8D68E |2=000000}}
+ | Illinois Fighting Illini = {{#switch:{{{2|}}} |1=F47F24 |2=FFFFFF |3=003C7D}}
+ | Illinois State Redbirds = {{#switch:{{{2|}}} |1=CE142B |2=FFFFFF}}
+ | Incarnate Word Cardinals = {{#switch:{{{2|}}} |1=FF0000 |2=000000}}
+ | Indiana Hoosiers = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Indiana State Sycamores = {{#switch:{{{2|}}} |1=005AAB |2=FFFFFF}}
+ | Iona Gaels = {{#switch:{{{2|}}} |1=990033 |2=FFCC00}}
+ | Iowa Hawkeyes = {{#switch:{{{2|}}} |1=000000 |2=FFCC00}}
+ | Iowa State Cyclones = {{#switch:{{{2|}}} |1=A80000 |2=FFC800}}
+ | Jackson State Tigers = {{#switch:{{{2|}}} |1=00233F |2=FFFFFF}}
+ | Jacksonville State Gamecocks = {{#switch:{{{2|}}} |1=EA171B |2=FFFFFF}}
+ | James Madison Dukes = {{#switch:{{{2|}}} |1=450084 |2=C2A14D}}
+ | Kansas Jayhawks = {{#switch:{{{2|}}} |1=0022B4 |2=FFFFFF |3=E8000D}}
+ | Kansas State Wildcats = {{#switch:{{{2|}}} |1=512888 |2=FFFFFF}}
+ | Kent State Golden Flashes = {{#switch:{{{2|}}} |1=003876 |2=F0B310}}
+ | Kentucky Wildcats = {{#switch:{{{2|}}} |1=005DAA |2=FFFFFF}}
+ | Lafayette Leopards = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Lake Superior State Lakers = {{#switch:{{{2|}}} |1=005596 |2=FFC425}}
+ | Lamar Cardinals = {{#switch:{{{2|}}} |1=CC2233 |2=FFFFFF}}
+ | La Salle Explorers = {{#switch:{{{2|}}} |1=00386B |2=FFC700}}
+ | Lehigh Mountain Hawks = {{#switch:{{{2|}}} |1=B0936B |2=000000}}
+ | Liberty Flames | Liberty Lady Flames = {{#switch:{{{2|}}} |1=0A254E |2=FFFFFF |3=AF0000}}
+ | Lindenwood Lions = {{#switch:{{{2|}}} |1=E3D68B |2=000000}}
+ | Long Beach State 49ers = {{#switch:{{{2|}}} |1=000000 |2=FFDF00}}
+ | Long Island Blackbirds = {{#switch:{{{2|}}} |1=000000 |2=FFFFFF}}
+ | Louisiana–Lafayette Ragin' Cajuns | Louisiana-Lafayette Ragin' Cajuns | Louisiana Ragin' Cajuns = {{#switch:{{{2|}}} |1=E34234 |2=000000}}
+ | Louisiana–Monroe Warhawks | Louisiana-Monroe Warhawks = {{#switch:{{{2|}}} |1=800000 |2=CEBE70}}
+ | Louisiana State Tigers | LSU Tigers = {{#switch:{{{2|}}} |1=461D7C |2=FDD023}}
+ | Louisiana Tech Lady Techsters | Louisiana Tech Bulldogs = {{#switch:{{{2|}}} |1=002F8B |2=FFFFFF |3=E21B23}}
+ | Louisville Cardinals = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF |3=000000}}
+ | Lourdes Gray Wolves = {{#switch:{{{2|}}} |1=E2725B |2=000000}}
+ | Loyola Marymount Lions = {{#switch:{{{2|}}} |1=8E0028 |2=FFFFFF |3=00345B}}
+ | Loyola Ramblers = {{#switch:{{{2|}}} |1=800000 |2=FFCC00}}
+ | Maine Black Bears = {{#switch:{{{2|}}} |1=00244D |2=78B3E0}}
+ | Manitoba Bisons = {{#switch:{{{2|}}} |1=FFD700 |2=964B00}}
+ | Marquette Warriors | Marquette Golden Eagles = {{#switch:{{{2|}}} |1=00386D |2=FDBB30}}
+ | Marshall Thundering Herd = {{#switch:{{{2|}}} |1=009B48 |2=FFFFFF}}
+ | Maryland Terrapins = {{#switch:{{{2|}}} |1=CE1126 |2=FFFFFF |3=FCD116}}
+ | Massachusetts Minutemen = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | McGill Redmen = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF}}
+ | McNeese State Cowboys = {{#switch:{{{2|}}} |1=003798 |2=FFCE00}}
+ | Memphis Tigers = {{#switch:{{{2|}}} |1=000080 |2=FFFFFF |3=808080}}
+ | Mercer Bears = {{#switch:{{{2|}}} |1=E87511 |2=000000}}
+ | Miami Hurricanes = {{#switch:{{{2|}}} |1=005030 |2=FFFFFF |3=F47321}}
+ | Miami RedHawks = {{#switch:{{{2|}}} |1=CE1126 |2=FFFFFF}}
+ | Michigan State Spartans = {{#switch:{{{2|}}} |1=18453B |2=FFFFFF}}
+ | Michigan Tech Huskies = {{#switch:{{{2|}}} |1=000000 |2=FFCE00}}
+ | Michigan Wolverines = {{#switch:{{{2|}}} |1=002654 |2=FCD116}}
+ | Middle Tennessee State Blue Raiders | Middle Tennessee Blue Raiders = {{#switch:{{{2|}}} |1=034078 |2=FFFFFF}}
+ | Midwestern State Mustangs = {{#switch:{{{2|}}} |1=7E0034 |2=F5AC0B}}
+ | Milwaukee Panthers = {{#switch:{{{2|}}} |1=000000 |2=FDBB30}}
+ | Minnesota–Duluth Bulldogs = {{#switch:{{{2|}}} |1=800000 |2=FFD700}}
+ | Minnesota Golden Gophers = {{#switch:{{{2|}}} |1=800000 |2=FDB62F}}
+ | Minnesota State Mavericks | MSU-Mankato Mavericks | Minnesota State–Mankato Mavericks | Mankato State Mavericks = {{#switch:{{{2|}}} |1=522D80 |2=FFDF00}}
+ | Mississippi Rebels | Ole Miss Rebels = {{#switch:{{{2|}}} |1=CE1126 |2=FFFFFF}}
+ | Mississippi State Bulldogs = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Mississippi Valley State Delta Devils = {{#switch:{{{2|}}} |1=228B22 |2=FFFFFF}}
+ | Missouri Southern State Lions = {{#switch:{{{2|}}} |1=003300 |2=FFCC00}}
+ | Missouri State Bears = {{#switch:{{{2|}}} |1=660000 |2=FFFFFF}}
+ | Missouri Tigers = {{#switch:{{{2|}}} |1=000000 |2=F1B82D}}
+ | Monmouth Hawks = {{#switch:{{{2|}}} |1=001A3D |2=FFFF00}}
+ | Montana Lady Griz | Montana Grizzlies = {{#switch:{{{2|}}} |1=660033 |2=D3D3D3}}
+ | Montana State Bobcats = {{#switch:{{{2|}}} |1=0A1F62 |2=C1B465}}
+ | Morehead State Eagles = {{#switch:{{{2|}}} |1=000099 |2=FFD51D}}
+ | Mountain West Conference = {{#switch:{{{2|}}} |1=4F2D7F |2=ADAFAF}}
+ | Mount Union Purple Raiders = {{#switch:{{{2|}}} |1=431F81 |2=FFFFFF}}
+ | Murray State Racers = {{#switch:{{{2|}}} |1=001A3D |2=FFD700}}
+ | Navy Midshipmen = {{#switch:{{{2|}}} |1=000080 |2=D4AF37}}
+ | Nebraska Cornhuskers = {{#switch:{{{2|}}} |1=CE1126 |2=FFFDD0}}
+ | Nebraska–Omaha Mavericks | UNO Mavericks = {{#switch:{{{2|}}} |1=C80000 |2=FFFFFF}}
+ | Nevada Wolf Pack = {{#switch:{{{2|}}} |1=003366 |2=FFFFFF |3=999999}}
+ | New Hampshire Wildcats = {{#switch:{{{2|}}} |1=00337F |2=FFFFFF}}
+ | New Mexico Lobos = {{#switch:{{{2|}}} |1=CE2029 |2=FFFFFF |3=C0C0C0}}
+ | New Mexico State Aggies = {{#switch:{{{2|}}} |1=660000 |2=FFFFFF}}
+ | Niagara Purple Eagles = {{#switch:{{{2|}}} |1=461D7C |2=FFFFFF}}
+ | Nicholls State Colonels = {{#switch:{{{2|}}} |1=990000 |2=D3D3D3}}
+ | Norfolk State Spartans = {{#switch:{{{2|}}} |1=004933 |2=FDBE0F}}
+ | North Alabama Lions = {{#switch:{{{2|}}} |1=3D1F56 |2=FFCC07}}
+ | North Carolina Central Eagles = {{#switch:{{{2|}}} |1=8F2140 |2=FFFFFF}}
+ | North Carolina State Wolfpack | NC State Wolfpack = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF}}
+ | North Carolina Tar Heels = {{#switch:{{{2|}}} |1=56A0D3 |2=FFFFFF}}
+ | North Dakota | North Dakota Fighting Sioux = {{#switch:{{{2|}}} |1=009E60 |2=FFFFFF}}
+ | North Dakota State Bison = {{#switch:{{{2|}}} |1=006633 |2=FFCC00}}
+ | Northeastern Huskies = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF |3=000000}}
+ | Northern Arizona Lumberjacks = {{#switch:{{{2|}}} |1=003466 |2=FFCC00}}
+ | Northern Illinois Huskies = {{#switch:{{{2|}}} |1=C41E3A |2=FFFFFF |3=000000}}
+ | Northern Iowa Panthers = {{#switch:{{{2|}}} |1=660099 |2=FFD700}}
+ | Northern Kentucky Norse = {{#switch:{{{2|}}} |1=FFD700 |2=000000}}
+ | Northern Michigan Wildcats = {{#switch:{{{2|}}} |1=013823 |2=FDB827}}
+ | North Texas Mean Green = {{#switch:{{{2|}}} |1=228B22 |2=FFFFFF}}
+ | Northwestern Wildcats = {{#switch:{{{2|}}} |1=431F81 |2=FFFFFF}}
+ | Northwest Missouri State Bearcats = {{#switch:{{{2|}}} |1=004731 |2=FFFFFF}}
+ | Notre Dame Fighting Irish = {{#switch:{{{2|}}} |1=002B5B |2=DCB439}}
+ | Oakland Golden Grizzlies = {{#switch:{{{2|}}} |1=000000 |2=9A803E}}
+ | Ohio Bobcats = {{#switch:{{{2|}}} |1=006A4D |2=FFFFFF}}
+ | Ohio State Buckeyes = {{#switch:{{{2|}}} |1=BB0000 |2=FFFFFF |3=666666}}
+ | Oklahoma Sooners = {{#switch:{{{2|}}} |1=9B0000 |2=FFFDD0}}
+ | Oklahoma State Cowboys | Oklahoma State Cowgirls | Oklahoma A&M Aggies = {{#switch:{{{2|}}} |1=FF6600 |2=000000}}
+ | Old Dominion Monarchs = {{#switch:{{{2|}}} |1=002B5F |2=ADADB4}}
+ | Oral Roberts Golden Eagles = {{#switch:{{{2|}}} |1=000080 |2=CFB53B}}
+ | Oregon Ducks | Oregon Webfoots = {{#switch:{{{2|}}} |1=004F27 |2=FFCC00}}
+ | Oregon State Beavers = {{#switch:{{{2|}}} |1=D85A1A |2=000000}}
+ | Ouachita Baptist Tigers = {{#switch:{{{2|}}} |1=5B027A |2=FFDC2E}}
+ | Pacific Tigers = {{#switch:{{{2|}}} |1=FF7F00 |2=000000}}
+ | Penn Quakers = {{#switch:{{{2|}}} |1=990000 |2=FFFFFF}}
+ | Penn State Nittany Lions = {{#switch:{{{2|}}} |1=162852 |2=FFFFFF}}
+ | Pennsylvania Quakers = {{#switch:{{{2|}}} |1=990000 |2=FFFFFF}}
+ | Pepperdine Waves = {{#switch:{{{2|}}} |1=0021A5 |2=FFFFFF |3=E83E00}}
+ | Pittsburgh Panthers = {{#switch:{{{2|}}} |1=1C2A43 |2=D0B67B}}
+ | Portland Pilots = {{#switch:{{{2|}}} |1=461D7C |2=FFFFFF}}
+ | Portland State Vikings = {{#switch:{{{2|}}} |1=02461D |2=FFFFFF}}
+ | Prairie View Panthers = {{#switch:{{{2|}}} |1=4B0082 |2=FFFFFF |3=CFB53B}}
+ | Princeton Tigers = {{#switch:{{{2|}}} |1=FF6600 |2=000000}}
+ | Providence Friars = {{#switch:{{{2|}}} |1=000000 |2=FFFFFF}}
+ | Purdue Boilermakers = {{#switch:{{{2|}}} |1=000000 |2=B0936B}}
+ | Regina Rams = {{#switch:{{{2|}}} |1=00502F |2=FDD017}}
+ | Rice Owls = {{#switch:{{{2|}}} |1=08336A |2=A9A9A9}}
+ | Richmond Spiders = {{#switch:{{{2|}}} |1=000066 |2=FFFFFF |3=990000}}
+ | RPI Engineers = {{#switch:{{{2|}}} |1=CD0000 |2=FFFFFF}}
+ | Rutgers Scarlet Knights = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF}}
+ | Saint Joseph's Hawks = {{#switch:{{{2|}}} |1=990000 |2=FFFFFF}}
+ | Saint Louis Billikens = {{#switch:{{{2|}}} |1=0000FF |2=FFFFFF}}
+ | Saint Mary's Gaels = {{#switch:{{{2|}}} |1=000050 |2=FFFFFF |3=CC0000}}
+ | Sam Houston State Bearkats = {{#switch:{{{2|}}} |1=FF6600 |2=FFFFFF |3=0000FF}}
+ | San Diego State Aztecs = {{#switch:{{{2|}}} |1=C23038 |2=FFFFFF |3=000000}}
+ | San Diego Toreros = {{#switch:{{{2|}}} |1=002654 |2=97CAFF}}
+ | San Francisco Dons = {{#switch:{{{2|}}} |1=006633 |2=FFCC33}}
+ | San Jose State Spartans | San José State Spartans = {{#switch:{{{2|}}} |1=0060AC |2=FFD51D}}
+ | Santa Clara Broncos = {{#switch:{{{2|}}} |1=AA003D |2=F0E8C4}}
+ | Saskatchewan Huskies = {{#switch:{{{2|}}} |1=00502F |2=FFFFFF}}
+ | Savannah State Lady Tigers | Savannah State Tigers = {{#switch:{{{2|}}} |1=CC5500|2=FFFFFF |3=002395}}
+ | Seton Hall Pirates = {{#switch:{{{2|}}} |1=0000FF |2=D3D3D3}}
+ | Simon Fraser Clan = {{#switch:{{{2|}}} |1=072B61 |2=FFFFFF |3=C41230}}
+ | South Alabama Jaguars = {{#switch:{{{2|}}} |1=000066 |2=FFFFFF |3=FF0000}}
+ | South Carolina Gamecocks = {{#switch:{{{2|}}} |1=73000A |2=FFFFFF}}
+ | South Carolina State Bulldogs = {{#switch:{{{2|}}} |1=960018 |2=FFFFFF}}
+ | South Dakota Coyotes = {{#switch:{{{2|}}} |1=AE0001 |2=FFFFFF}}
+ | South Dakota State Jackrabbits = {{#switch:{{{2|}}} |1=003896 |2=F7D417}}
+ | Southeastern Louisiana Lions = {{#switch:{{{2|}}} |1=006643 |2=FFFFFF |3=EAAB00}}
+ | Southeast Missouri State Redhawks = {{#switch:{{{2|}}} |1=DC143C |2=FFFFFF |3=000000}}
+ | Southern Connecticut State Owls = {{#switch:{{{2|}}} |1=0B2A55 |2=FFFFFF}}
+ | Southern Illinois Salukis = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | Southern Methodist University Mustangs | SMU Mustangs = {{#switch:{{{2|}}} |1=C60C30 |2=FFFFFF |3=0039A6}}
+ | Southern Miss Golden Eagles = {{#switch:{{{2|}}} |1=FFC526 |2=000000}}
+ | Southern Utah Thunderbirds = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF}}
+ | South Florida Bulls = {{#switch:{{{2|}}} |1=006747 |2=FFFFFF |3=CFC493}}
+ | Stanford Cardinal | Stanford Indians = {{#switch:{{{2|}}} |1=990000 |2=FFFFFF}}
+ | St. Bonaventure Bonnies = {{#switch:{{{2|}}} |1=7B3F00 |2=FFFFFF}}
+ | St. Cloud State Huskies = {{#switch:{{{2|}}} |1=C41E3A |2=FFFFFF |3=000000}}
+ | Stephen F. Austin Lumberjacks = {{#switch:{{{2|}}} |1=330066 |2=FFFFFF}}
+ | Stillman Tigers = {{#switch:{{{2|}}} |1=000066 |2=CFC16E}}
+ | St. John's Red Storm = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF}}
+ | Stony Brook Seawolves = {{#switch:{{{2|}}} |1=FF0101 |2=FFFFFF |3=646464}}
+ | Syracuse Orange | Syracuse Orangemen = {{#switch:{{{2|}}} |1=FF6F00 |2=212B6D}}
+ | Temple Owls = {{#switch:{{{2|}}} |1=9D1A33 |2=FFFFFF}}
+ | Tennessee Lady Volunteers | Tennessee Volunteers = {{#switch:{{{2|}}} |1=F77F00 |2=FFFFFF}}
+ | Tennessee-Martin Skyhawks = {{#switch:{{{2|}}} |1=00008B |2=FFA500}}
+ | Tennessee State Tigers = {{#switch:{{{2|}}} |1=003399 |2=FFFFFF}}
+ | Tennessee Tech Golden Eagles = {{#switch:{{{2|}}} |1=7329B0 |2=F7D417}}
+ | Texas A&M Aggies = {{#switch:{{{2|}}} |1=660000 |2=FFFFFF}}
+ | Texas A&M–Corpus Christi Islanders = {{#switch:{{{2|}}} |1=007F3E |2=FFFFFF |3=0067C5}}
+ | Texas Christian University Horned Frogs | TCU Horned Frogs = {{#switch:{{{2|}}} |1=660099 |2=FFFFFF}}
+ | Texas Longhorns = {{#switch:{{{2|}}} |1=CC5500 |2=FFFFFF}}
+ | Texas Southern Tigers = {{#switch:{{{2|}}} |1=666666 |2=FFFFFF |3=800000}}
+ | Texas State Bobcats = {{#switch:{{{2|}}} |1=500000 |2=FFFFFF |3=CFB53B}}
+ | Texas Tech Red Raiders = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF |3=000000}}
+ | Toledo Rockets = {{#switch:{{{2|}}} |1=000080 |2=F9D819}}
+ | Towson Tigers = {{#switch:{{{2|}}} |1=000000 |2=FFD600}}
+ | Troy Trojans = {{#switch:{{{2|}}} |1=8A0324 |2=FFFFFF}}
+ | Tulane Green Wave = {{#switch:{{{2|}}} |1=004731 |2=B6DFF4}}
+ | Tulsa Golden Hurricane = {{#switch:{{{2|}}} |1=084C9E |2=FFFFFF |3=CFB53B}}
+ | UAB Blazers = {{#switch:{{{2|}}} |1=006600 |2=FFFFFF |3=CFB53B}}
+ | UBC Thunderbirds = {{#switch:{{{2|}}} |1=3063A5 |2=FFFFFF |3=EACF48}}
+ | UC Davis Aggies = {{#switch:{{{2|}}} |1=002666 |2=BF9900}}
+ | UCF Knights = {{#switch:{{{2|}}} |1=000000 |2=BC9B6A}}
+ | UCLA Bruins = {{#switch:{{{2|}}} |1=0073CF |2=FFFFFF |3=FEBB36}}
+ | UConn Huskies = {{#switch:{{{2|}}} |1=002868 |2=FFFFFF}}
+ | UC Riverside Highlanders = {{#switch:{{{2|}}} |1=14234F |2=CCA61F}}
+ | UC Santa Barbara Gauchos = {{#switch:{{{2|}}} |1=0038A8 |2=EAAF0F}}
+ | UIC Flames = {{#switch:{{{2|}}} |1=003366 |2=FFFFFF |3=CC0033}}
+ | ULM Warhawks = {{#switch:{{{2|}}} |1=800000 |2=FFD700}}
+ | UMass Minutemen = {{#switch:{{{2|}}} |1=800000 |2=FFFFFF}}
+ | UNC Wilmington Seahawks = {{#switch:{{{2|}}} |1=00665C |2=FAE073}}
+ | UNLV Rebels | UNLV Runnin' Rebels | UNLV Lady Rebels = {{#switch:{{{2|}}} |1=C10202 |2=FFFFFF |3=666666}}
+ | USC Trojans = {{#switch:{{{2|}}} |1=990000 |2=FFCC00}}
+ | Utah State Aggies = {{#switch:{{{2|}}} |1=003366 |2=FFFFFF}}
+ | Utah Utes = {{#switch:{{{2|}}} |1=CC0000 |2=FFFFFF}}
+ | Utah Valley Wolverines = {{#switch:{{{2|}}} |1=006338 |2=F7D417}}
+ | UT Arlington Mavericks = {{#switch:{{{2|}}} |1=0064B1 |2=FFFFFF}}
+ | UTEP Miners | Texas Western Miners = {{#switch:{{{2|}}} |1=F65B1E |2=0F143F}}
+ | UTPA Broncs = {{#switch:{{{2|}}} |1=004F2F |2=FFFFFF |3=F47320}}
+ | UTSA Roadrunners = {{#switch:{{{2|}}} |1=002A5C |2=F47321}}
+ | UW-Green Bay Phoenix = {{#switch:{{{2|}}} |1=006633 |2=FFFFFF}}
+ | Valparaiso Crusaders = {{#switch:{{{2|}}} |1=613318 |2=FFCC00}}
+ | Vanderbilt Commodores = {{#switch:{{{2|}}} |1=000000 |2=BDAE79}}
+ | VCU Rams = {{#switch:{{{2|}}} |1=000000 |2=F8B800}}
+ | Vermont Catamounts = {{#switch:{{{2|}}} |1=004400 |2=FFFFFF |3=FFC40C}}
+ | Villanova Wildcats = {{#switch:{{{2|}}} |1=013974 |2=67CAF1}}
+ | Virginia Cavaliers = {{#switch:{{{2|}}} |1=00214E |2=F56D22}}
+ | Virginia Tech Hokies = {{#switch:{{{2|}}} |1=721227 |2=FFFFFF |3=F77318}}
+ | Wake Forest Demon Deacons = {{#switch:{{{2|}}} |1=000000 |2=CBAD71}}
+ | Washington Huskies = {{#switch:{{{2|}}} |1=363C74 |2=E8D3A2}}
+ | Washington State Cougars = {{#switch:{{{2|}}} |1=981E32 |2=FFFFFF}}
+ | Wayne State Warriors = {{#switch:{{{2|}}} |1=006438 |2=FDC82F}}
+ | Weber State Wildcats = {{#switch:{{{2|}}} |1=6B3FA0 |2=FFFFFF}}
+ | West Alabama Tigers = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF}}
+ | Western Illinois Leathernecks = {{#switch:{{{2|}}} |1=6B3FA0 |2=FFD700}}
+ | Western Kentucky Hilltoppers | WKU Hilltoppers | WKU Lady Toppers = {{#switch:{{{2|}}} |1=F5002F |2=FFFFFF}}
+ | Western Michigan Broncos = {{#switch:{{{2|}}} |1=CC9933 |2=000000 |3=663300}}
+ | Western Ontario Mustangs = {{#switch:{{{2|}}} |1=800080 |2=FFFFFF}}
+ | Western Oregon Wolves = {{#switch:{{{2|}}} |1=FF0000 |2=FFFFFF}}
+ | West Liberty State Hilltoppers = {{#switch:{{{2|}}} |1=000000 |2=FFFF00}}
+ | West Virginia Mountaineers = {{#switch:{{{2|}}} |1=00457C |2=EEB211}}
+ | Wichita State Shockers = {{#switch:{{{2|}}} |1=000000 |2=F9D616}}
+ | William & Mary Tribe = {{#switch:{{{2|}}} |1=006400 |2=FFD700}}
+ | Windsor Lancers = {{#switch:{{{2|}}} |1=072B61 |2=FDD017}}
+ | Wisconsin Badgers = {{#switch:{{{2|}}} |1=940000 |2=FFFFFF}}
+ | Wofford Terriers = {{#switch:{{{2|}}} |1=CFB53B |2=000000}}
+ | Wright State Raiders = {{#switch:{{{2|}}} |1=355E3B |2=FFD700}}
+ | Wyoming Cowboys = {{#switch:{{{2|}}} |1=593D2B |2=DDCCA5}}
+ | Xavier Musketeers = {{#switch:{{{2|}}} |1=062252 |2=FFFFFF}}
+ | Yale Bulldogs = {{#switch:{{{2|}}} |1=000066 |2=FFFFFF}}
+ | Youngstown State Penguins = {{#switch:{{{2|}}} |1=CE2029 |2=FFFFFF}}
+
+ |#default = {{#switch:{{{2}}} |1=DCDCDC |2=000000 |type=unknown }}
+}}<noinclude>
+{{documentation}}
+</noinclude>
