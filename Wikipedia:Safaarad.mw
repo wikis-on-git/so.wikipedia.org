@@ -325,3 +325,23 @@ Thank you for your time. - [[m:User:Keegan (WMF)|Keegan (WMF)]] 21:29, 23 May 20
 </div>
 </br>
 <!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/MassMessage/Multimedia/Media_Viewer&oldid=8631315 -->
+
+== Using only [[commons:Special:MyLanguage/Commons:Upload Wizard|UploadWizard]] for uploads ==
+
+[[Image:Commons-logo.svg|right|220px|alt=Wikimedia Commons logo]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hello! Sorry for writing in English. It was noted that on this wiki upload is not fully functional for users, who will experience a very difficult and/or [[wmf:Resolution:Licensing policy|illegal]] uploading. In fact, the [[MediaWiki:Licenses|licenses/copyright tags dropdown]] is empty, making it hard or impossible to comply with copyright requirements during upload itself.
+
+Presumably, you don't have interest nor energies to have [[commons:Category:Licensing templates|hundreds templates]] with the [[mw:Multimedia/Media Viewer/Template compatibility|now required HTML]], even less a local [[m:EDP|EDP]].
+I propose to have
+* '''[[Special:Upload|local "{{int:upload}}"]] [[commons:Commons:Turning off local uploads|restricted]]''' to the "{{int:group-sysop}}" group (for emergency uploads) and
+* the '''sidebar point to [[commons:Special:UploadWizard]]''',
+so that you can avoid local maintenance and all users can have a functioning, easy upload interface [[translatewiki:Special:Translate/ext-uploadwizard|in their own language]]. All registered users can upload on Commons and [[Special:ListFiles|existing files]] will not be affected.
+
+All this will get done around 2014-07-03.
+# If you disagree with the proposal, just [[m:User:Nemo bis/Unused local uploads|remove your wiki from the list]]. Remember also to create [[MediaWiki:Licenses]] locally with any content (see a [[s:fr:MediaWiki:Licenses|simple example]]), or uploads will be soon disabled anyway by MediaWiki itself (starting in [[mw:MediaWiki_1.24/Roadmap|version 1.24wmf11]]).
+# To make the UploadWizard even better, please tell your experience and ideas on [[commons:Commons:Upload Wizard feedback]].
+
+[[m:User:Nemo_bis|Nemo]] 13:09, 19 Juun 2014 (UTC)
+</div>
+<!-- Message sent by User:Nemo bis@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User_talk:Nemo_bis/Unused_local_uploads&oldid=8940453 -->
