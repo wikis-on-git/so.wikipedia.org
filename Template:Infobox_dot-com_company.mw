@@ -1,0 +1,153 @@
+{{Infobox
+| bodyclass  = vcard
+| titleclass = fn org
+| title      = {{{name|{{{company_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
+
+| image    = {{#invoke:InfoboxImage|InfoboxImage|image={{{company_logo|{{{logo|}}}}}}|size={{{logo_size|}}}|sizedefault=frameless|alt={{{logo_alt|}}}}}
+| image2   = {{#if:{{{collapsible|}}}|{{hidden begin|title={{{collapsetext|Screenshot}}}|titlestyle=text-align:center}}}}
+{{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot_size|}}}|sizedefault=frameless|alt={{{screenshot_alt|}}}}}
+| caption2 = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
+
+| label1   = [[Types of business entity|Type]]
+| class1   = category
+| data1    = {{{company_type|{{{type|}}}}}}
+
+| label2   = [[Ticker symbol|Traded as]]
+| data2    = {{{traded_as|}}}
+
+| label3   = Founded
+| data3    = {{{foundation|}}}
+
+| label4   = [[Dissolution (law)|Dissolved]]
+| data4    = {{{dissolved|}}}
+
+| label5   = Predecessor(s)
+| data5    = {{{predecessor|}}}
+
+| label6   = Successor(s)
+| data6    = {{{successor|}}}
+
+| label7   = Headquarters
+| class7   = adr
+| data7    = {{#if:{{{location|}}}|<span class="locality">{{{location|}}}</span>|{{#if:{{{location_city|}}}|<span class="locality">{{{location_city}}}</span>}}{{#if:{{{location_country|}}}|, <span class="country-name">{{{location_country}}}</span>}}}}
+
+| label8   = Country of origin
+| data8    = {{{country of origin|}}}
+
+| label9   = No.&nbsp;of locations
+| data9    = {{{locations|}}}
+
+| label10  = Area&nbsp;served
+| data10   = {{{area_served|}}}
+
+| label11  = [[Entrepreneur|Founder(s)]]
+| data11   = {{{founder|}}}
+
+| label12  = Chairman
+| data12   = {{{chairman|}}}
+
+| label13  = Chairperson
+| data13   = {{{chairperson|}}}
+
+| label14  = President
+| data14   = {{{president|}}}
+
+| label15  = CEO
+| data15   = {{{CEO|}}}
+
+| label16  = [[Chief executive officer|Managing director]]
+| data16   = {{{MD|}}}
+
+| label17  = General manager
+| data17   = {{{GM|}}}
+
+| label18  = Key&nbsp;people
+| data18   = {{{key_people|}}}
+
+| label19  = Industry
+| class19  = category
+| data19   = {{{industry|}}}
+
+| label20  = [[Product (business)|Products]]
+| data20   = {{{products|}}}
+
+| label21  = [[Service (economics)|Services]]
+| data21   = {{{services|}}}
+
+| label22  = [[Revenue]]
+| data22   = {{{revenue|}}}
+
+| label23  = [[Earnings before interest and taxes|Operating income]]
+| data23   = {{{operating income|{{{operating_income|}}}}}}
+
+| label24  = {{#ifeq:{{{intl|}}}|yes|[[Net income|Profit]]|[[Net income]]}}
+| data24   = {{{net_income|{{{net income|}}}}}}
+
+| label25  = [[Asset|Total assets]]
+| data25   = {{{assets|}}}
+
+| label26  = [[Equity (finance)|Total equity]]
+| data26   = {{{equity|}}}
+
+| label27  = Owner
+| data27   = {{{owner|}}}
+
+| label28  = Employees
+| data28   = {{{num_employees|{{{num employees|}}}}}}
+
+| label29  = [[Holding company|Parent]]
+| data29   = {{{parent|}}}
+
+| label30  = [[Division (business)|Divisions]]
+| data30   = {{{divisions|}}}
+
+| label31  = Subsidiaries
+| data31   = {{{subsid|}}}
+
+| label32  = [[Slogan|Slogan(s)]]
+| data32   = {{{Slogan|{{{slogan|{{{company_slogan|{{{company slogan|}}}}}}}}}}}}
+
+| label33  = Website
+| class33  = url
+| data33   = {{{url|{{{website|{{{homepage|}}}}}}}}}
+
+| label34  = Written in 
+| data34   = {{{programming language|{{{programming_language|}}}}}}
+
+| label35  = [[IPv6]] support
+| data35   = {{{ipv6|}}}
+
+| label36  = [[Alexa Internet|Alexa]] rank
+| data36   = {{{alexa|}}}
+
+| label37  = Type of site
+| data37   = {{{website_type|{{{website type|}}}}}}
+
+| label38  = [[Online advertising|Advertising]]
+| data38   = {{{advertising|}}}
+
+| label39  = Registration
+| data39   = {{{registration|}}}
+
+| label40  = [[Registered user|Users]]
+| data40   = {{{num_users|{{{num users|}}}}}}
+
+| label41  = [[Internationalization and localization|Available in]]
+| data41   = {{{language|}}}
+
+| label42  = Launched
+| data42   = {{{launch_date|{{{launch date|}}}}}}
+
+| label43  = Current status
+| class43  = category
+| data43   = {{{current_status|{{{current status|}}}}}}
+
+| label44  = [[Computing platform|Native client(s) on]]
+| data44   = {{{native_clients|{{{native clients|}}}}}}
+
+| below    = {{{footnotes|}}}
+
+}}<noinclude>
+{{documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
