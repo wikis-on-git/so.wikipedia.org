@@ -1,6 +1,6 @@
 {{#switch:x{{#if:{{{2|{{{title|}}}}}}|t}}{{#iferror:{{#time:U|{{{date|*}}}}}||d}}
  |xd=[https://web.archive.org/web/{{{date|*}}}/{{{1|{{{site|{{{url}}}}}}}}} Archived] {{#time:{{#ifeq:{{yesno|{{{df|}}}}}|yes|j F Y|F j, Y}}|{{{date|*}}}}} // [[Wayback Machine]]
- |x|xt|xtd|#default=[https://web.archive.org/web/{{{date|*}}}/{{{1|{{{site|{{{url}}}}}}}}} {{{2|{{{title|Archive copy}}}}}}] at the [[Wayback Machine]]{{#iferror:&#32;(archived {{#time:{{#ifeq:{{yesno|{{{df|}}}}}|yes|j F Y|F j, Y}}|{{{date|*}}}}})}}
+ |x|xt|xtd|#default=[https://web.archive.org/web/{{{date|*}}}/{{{1|{{{site|{{{url}}}}}}}}} {{{2|{{{title|Archive copy}}}}}}] // [[Wayback Machine]]{{#iferror:&#32;(archived {{#time:{{#ifeq:{{yesno|{{{df|}}}}}|yes|j F Y|F j, Y}}|{{{date|*}}}}})}}
 }}<noinclude>
 
 {{documentation}}
