@@ -1,0 +1,46 @@
+{{Infobox
+| title   = {{{websitename|{{{name|<includeonly>{{PAGENAME}}</includeonly> }}} }}}
+| titlestyle = padding-bottom:0.2em
+| image    = {{#invoke:InfoboxImage|InfoboxImage|image={{{websitelogo|{{{logo|}}} }}}|size={{{logo_size|}}}|sizedefault=250px|alt={{{logo_alt|}}}}}
+| caption  = {{{logocaption|}}}
+| image2   = {{#if:{{{collapsible|}}}|{{hidden begin|title={{{collapsetext|Screenshot}}}|titlestyle=text-align:center|bodystyle=text-align:center}}}}{{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot_size|}}}|sizedefault=300px|alt={{{screenshot_alt|}}}}}
+| caption2 = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
+| labelstyle = padding:0.1em 0.65em 0.1em 0;line-height:1.2em
+| label1   = [[Uniform resource locator|Web address]]
+| data1    = {{{url|}}}
+| label2   = [[Slogan]]
+| data2    = {{{slogan|}}}
+| label3   = Commercial?
+| data3    = {{{commercial|}}}
+| label4   = Type of site
+| data4    = {{{type|}}}
+| label5   = Registration
+| data5    = {{{reg|{{{registration|}}} }}}
+| label6   = Available in
+| data6    = {{{language|}}}
+| label7   = [[Registered user|Users]]
+| data7    = {{{num_users|}}}
+| label8   = Content license
+| data8    = {{{content_license|{{{content license|}}} }}}
+| label9   = Content licence
+| data9    = {{{content_licence|{{{content licence|}}} }}}
+| label10  = Written in
+| data10   = {{{programming language|{{{programming_language|}}}}}} 
+| label11  = Owner
+| data11   = {{{owner|}}}
+| label12  = Created by
+| data12   = {{{author|}}}
+| label13  = Editor
+| data13   = {{{editor|}}}
+| label14  = Launched
+| data14   = {{{date_of_launch|{{{launch date|{{{launch_date|}}}}}}}}}
+| label15  = [[Revenue]]
+| data15   = {{{rev|{{{revenue|}}}}}}
+| label16  = [[Alexa Internet|Alexa]] rank
+| data16   = {{{alexa|}}}
+| label17  = [[IP address]]
+| data17   = {{{ip|}}}
+| label18  = Current status
+| data18   = {{{current_status|{{{current status|}}} }}}
+| below    = {{{footnotes|}}}
+}}<noinclude>{{documentation}}</noinclude>
