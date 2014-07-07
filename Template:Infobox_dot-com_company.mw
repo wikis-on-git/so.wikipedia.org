@@ -8,30 +8,30 @@
 {{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot_size|}}}|sizedefault=frameless|alt={{{screenshot_alt|}}}}}
 | caption2 = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
 
-| label1   = [[Types of business entity|Type]]
+| label1   = Nooca
 | class1   = category
 | data1    = {{{company_type|{{{type|}}}}}}
 
-| label2   = [[Ticker symbol|Traded as]]
+| label2   = Ladqabo
 | data2    = {{{traded_as|}}}
 
-| label3   = Founded
+| label3   = Waxaa la asaasay
 | data3    = {{{foundation|}}}
 
-| label4   = [[Dissolution (law)|Dissolved]]
+| label4   = Kala diri
 | data4    = {{{dissolved|}}}
 
-| label5   = Predecessor(s)
+| label5   = Ka horreeyay
 | data5    = {{{predecessor|}}}
 
-| label6   = Successor(s)
+| label6   = Dhaxlaya
 | data6    = {{{successor|}}}
 
 | label7   = Headquarters
 | class7   = adr
 | data7    = {{#if:{{{location|}}}|<span class="locality">{{{location|}}}</span>|{{#if:{{{location_city|}}}|<span class="locality">{{{location_city}}}</span>}}{{#if:{{{location_country|}}}|, <span class="country-name">{{{location_country}}}</span>}}}}
 
-| label8   = Country of origin
+| label8   = Wadankaagii hooyo
 | data8    = {{{country of origin|}}}
 
 | label9   = No.&nbsp;of locations
