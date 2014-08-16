@@ -651,7 +651,7 @@ WHEN YOU UPDATE A COUNTRY'S POPULATION - PLEASE ALSO UPDATE THE EXPRESSION NEXT 
 |9,465,500
 |October 1, 2013
 |{{#expr: 9464400/{{worldpop}}*100 round 2}}%
-|align=left|[http://belstat.gov.by/homep/en/indicators/press/demographics.php Monthly official estimate]
+|align=left|[https://archive.is/20121128000236/belstat.gov.by/homep/en/indicators/press/demographics.php Monthly official estimate]
 |-
 |91
 |align=left|{{DOM}}
