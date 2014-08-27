@@ -1,0 +1,28 @@
+{{template shortcut|CLB2}}
+{{lua|Module:Clickable button 2}}
+
+This template generates a clickable button that is styled using the mediawiki.ui.button module. It can be used in the following ways,
+
+*'''Code: '''<code><nowiki>{{Clickable button 2|Main Page}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page}}
+*'''Code: '''<code><nowiki>{{Clickable button 2|Main Page|Cover page}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page|Cover page}}
+*'''Code: '''<code><nowiki>{{Clickable button 2|Home|url=http://en.wikipedia.org}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page|url=http://en.wikipedia.org}}
+*'''Code: '''<code><nowiki>{{Clickable button 2|Main Page|class=mw-ui-constructive}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page|class=mw-ui-constructive}}
+*'''Code: '''<code><nowiki>{{Clickable button 2|Main Page|class=mw-ui-destructive}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page|class=mw-ui-destructive}}
+*'''Code: '''<code><nowiki>{{Clickable button 2|Main Page|class=mw-ui-progressive}}</nowiki></code>
+**'''Result: '''{{Clickable button 2|Main Page|class=mw-ui-progressive}}
+
+=== See also ===
+* [[commons:Template:Clickable button]], corresponding clickable button at Commons.
+
+{{Button templates}}
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+<!-- Categories and interwikis go here: -->
+[[Category:Wikipedia formatting and function templates]]
+[[Category:Wikipedia button templates]]
+
+}}</includeonly>
