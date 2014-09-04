@@ -1,0 +1,33 @@
+{{Navbox
+| name       = Button templates
+| title      = Button templates
+| bodyclass  = hlist
+| state      = {{{state|{{{1|}}}}}}
+
+| group1     = General button templates
+| list1      =
+*{{tl|Clickable button}}
+*{{tl|Clickable button 2}}
+*{{tl|Button}} <small>(not clickable)</small>
+*{{tl|Blue button}}
+
+| group2     = WikiProject-specific buttons
+| list2      =
+*Article Wizard
+**[[Template:Article wizard/button|button]]
+**[[Template:Article wizard/button2|button2]]
+**[[Template:Article wizard/button wizard|button wizard]]
+*{{tl|Big Blue Button}}
+*{{tl|Big Red Button}}
+*{{tl|Big Fuchsia Button}}
+*{{tl|AFC button}}
+*{{tl|Cleanup Button}}
+
+|belowstyle = font-weight:bold;
+|below = 
+* {{icon|category}} [[:Category:Wikipedia button templates|Category]]
+}}<noinclude>
+
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
