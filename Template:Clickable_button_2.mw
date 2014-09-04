@@ -1,3 +1,4 @@
-[{{#if:{{{url|}}}|{{{url|}}} |[{{{1|button}}}{{!}}}}<span class="submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only {{{class|}}}" role="button" aria-disabled="false"><span class="ui-button-text" style="padding:.2em .5em;font-weight:bold">{{#if:{{{url|}}}|{{#if:{{{1|}}}|{{{1|}}}|{{{url|}}}}}</span></span>|{{#if:{{{2|}}}|{{{2|}}}|{{{1}}}}}</span></span>]}}]<noinclude>
-{{Documentation}}
+{{#invoke:Clickable button 2|main}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
 </noinclude>
