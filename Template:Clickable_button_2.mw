@@ -1,19 +1,3 @@
 [{{#if:{{{url|}}}|{{{url|}}} |[{{{1|button}}}{{!}}}}<span class="submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only {{{class|}}}" role="button" aria-disabled="false"><span class="ui-button-text" style="padding:.2em .5em;font-weight:bold">{{#if:{{{url|}}}|{{#if:{{{1|}}}|{{{1|}}}|{{{url|}}}}}</span></span>|{{#if:{{{2|}}}|{{{2|}}}|{{{1}}}}}</span></span>]}}]<noinclude>
 {{Documentation}}
 </noinclude>
-
-[[ar:قالب:زر للنقر 2]]
-[[cs:Šablona:Klikatelné tlačítko]]
-[[de:Vorlage:Button]]
-[[en:Template:Clickable button 2]]
-[[fa:الگو:Clickable button 2]]
-[[hi:साँचा:Clickable button 2]]
-[[id:Templat:Clickable button 2]]
-[[ilo:Plantilia:Mapindut a buton 2]]
-[[ko:틀:클릭가능한 버튼2]]
-[[or:ଛାଞ୍ଚ:Clickable button 2]]
-[[pl:Szablon:Przycisk do klikania]]
-[[sl:Predloga:Gumb na klik 2]]
-[[ur:سانچہ:Clickable button 2]]
-[[uz:Andoza:Clickable button 2]]
-[[vi:Bản mẫu:Nút bấm]]
