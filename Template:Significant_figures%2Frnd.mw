@@ -1,0 +1,17 @@
+<includeonly>{{rnd|{{{1}}}|{{{2}}}-{{{3}}}-1}}</includeonly><noinclude>
+{{doc|content=
+A rounding subtemplate, it calls {{tl|rnd}}.
+
+Examples:
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||7|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||6|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||5|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||4|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||3|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||2|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||1|||2}}
+*{{xpd5op3p3p3c|d=||||||sigfig/rnd|123.456|||0|||2}}
+
+[[Category:Subtemplates of template sigfig|rnd]]
+}}
+</noinclude>
