@@ -1,0 +1,6 @@
+{{#if: {{{1|}}}
+|[http://www.ethnologue.com/language/{{{1|}}} {{{2|{{PAGENAME}}}}}] at ''[[Ethnologue]]'' (17th ed., 2013)
+|{{cite book|editors=Lewis, M. Paul, Gary F. Simons, & Charles D. Fennig|year=2013|title=Ethnologue: Languages of the World|edition=17th|location=Dallas, Texas|publisher=SIL International|url=http://www.ethnologue.com/}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
