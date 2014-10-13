@@ -430,3 +430,58 @@ Join in and good luck!
 PS: We would be grateful if you could translate this note into Somali.
 
 [[:es:Usuario:B25es|B25es]] on behalf of Wikimedia España.
+
+== VisualEditor News #8—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<div style="float:right;width:230px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]][[File:TemplateData GUI editor with two parameters.png|alt=|centre|frameless|230x230px]]'''Did you know?''' 
+<div class="thumbcaption" style="font-size: 90%;">
+TemplateData is a separate program that organizes information about the parameters that can be used in a template.  VisualEditor reads that data, and uses it to populate its simplified template dialogs.
+
+With the new TemplateData editor, it is easier to add information about parameters, because the ones you need to use are pre-loaded. 
+
+See [[mw:Special:MyLanguage/Help:TemplateData|the help page for TemplateData]] for more information about adding TemplateData.  [[:mw:Special:MyLanguage/Help:VisualEditor/User guide|The user guide]] has information about how to use VisualEditor.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing]] team has reduced technical debt, simplified some workflows for template and citation editing, made major progress on Internet Explorer support, and fixed [https://bugzilla.wikimedia.org/buglist.cgi?list_id=349619&order=priority%252Cbug_severity&product=VisualEditor&query_format=advanced&resolution=FIXED&target_milestone=VE-deploy-2014-08-14&target_milestone=VE-deploy-2014-08-21&target_milestone=VE-deploy-2014-08-28&target_milestone=VE-deploy-2014-09-04&target_milestone=VE-deploy-2014-09-11&target_milestone=VE-deploy-2014-09-18&target_milestone=VE-deploy-2014-09-25&target_milestone=VE-deploy-2014-10-02 over 125 bugs and requests]. Several performance improvements were made, especially to the system around re-using references and reference lists.  Weekly updates are posted [[mw:VisualEditor/status|on Mediawiki.org]]. 
+
+There were three issues that required urgent fixes: a deployment error that meant that many buttons didn't work correctly (bugs [[bugzilla:69856|69856]] and [[bugzilla:69864|69864]]), a problem with edit conflicts that left the editor with nowhere to go ([[bugzilla:69150|bug 69150]]), and a problem in Internet Explorer 11 that replaced some categories with a link to the system message [[MediaWiki:Badtitletext]] ([[bugzilla:70894|bug 70894]]) when you saved. The developers apologize for the disruption, and thank the people who reported these problems quickly.
+
+=== Increased support for devices and browsers ===
+'''Internet Explorer 10 and 11 users now have access to VisualEditor'''. This means that about 5% of Wikimedia's users will now get an "Edit" tab alongside the existing "Edit source" tab.  Support for Internet Explorer 9 is planned for the future.
+
+'''Tablet users''' browsing the site's mobile mode now have the option of using a mobile-specific form of VisualEditor. More editing tools, and availability of VisualEditor on smartphones, is planned for the future. The '''mobile version of VisualEditor''' was tweaked to show the context menu for citations instead of basic references ([[bugzilla:68897|bug 68897]]).  A bug that broke the editor in iOS was corrected and released early ([[bugzilla:68949|bug 68949]]). For mobile tablet users, three bugs related to scrolling were fixed ([[bugzilla:66697|bug 66697]], [[bugzilla:68828|bug 68828]], [[bugzilla:69630|bug 69630]]). You can use VisualEditor on the mobile version of Wikipedia from your tablet by clicking on the cog in the top-right when editing a page and choosing which editor to use.
+
+=== TemplateData editor ===
+'''The tool for editing [[mw:Extension:TemplateData|TemplateData]] has been deployed to 30 more Wikipedias this week.'''  Other Wikipedias and some other projects may receive access next month.  This tool makes it easier to add TemplateData to the template's documentation.  When the tool is enabled, it will add a button above every editing window for a template (including documentation subpages).  To use it, edit the template page or a subpage, and then click the "{{int:templatedata-editbutton}}" button at the top.  Read [[mw:Special:MyLanguage/Help:TemplateData|the help page for TemplateData]].  You can test the TemplateData editor [[mw:Template:Sandbox/doc|in a sandbox at Mediawiki.org]].  Remember that TemplateData should be placed either on a documentation subpage '''''or''''' on the template page itself.  Only one block of TemplateData will be used per template.
+
+=== Other changes ===
+Several interface '''messages and labels were changed''' to be simpler, clearer, or shorter, based on feedback from translators and editors. The formatting of dialogs was changed, and more changes to the appearance will be coming soon, when VisualEditor implements the new MediaWiki theme from Design.  (A preview of the theme is [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|available on Labs]] for developers.)  The team also made some improvements for users of the '''Monobook''' skin that improved the size of text in toolbars and fixed selections that overlapped menus.
+
+VisualEditor-MediaWiki now supplies the <code class="mw-content-ltr" lang="en" dir="ltr">mw-redirect</code> and <code class="mw-content-ltr" lang="en" dir="ltr">mw-disambig</code> class on '''links to redirects and disambiguation pages''', so that user gadgets that colour in these types of links can be created.
+
+'''Templates' fields can be marked as '<code class="mw-content-ltr" lang="en" dir="ltr">required</code>' '''in TemplateData.  If a parameter is marked as required, then you cannot delete that field when you add a new template or edit an existing one ([[bugzilla:60358|bug 60358]]). 
+
+Language support improved by making annotations use bi-directional isolation (so they display correctly with cursoring behaviour as expected) and by fixing a bug that crashed VisualEditor when trying to edit a page with a <code class="mw-content-ltr" lang="en" dir="ltr">dir</code> attribute but no <code class="mw-content-ltr" lang="en" dir="ltr">lang</code> set ([[bugzilla:69955|bug 69955]]). 
+
+=== Looking ahead ===
+The team posts details about planned work on the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].  The VisualEditor team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' soon, perhaps in late October.        
+
+The team is also working on support for '''adding rows and columns to tables''', and early work for this may appear within the month.  <mark>Please comment on the design [[:mw:VisualEditor/Design/Table editor#Design Workflow for comments|at Mediawiki.org]].</mark>
+
+In the future, real-time collaborative editing may be possible in VisualEditor.  Some early preparatory work for this was recently done. 
+
+=== Supporting your wiki ===
+
+At Wikimania, several developers gave presentations about VisualEditor.  A translation sprint focused on improving access to VisualEditor was supported by many people.  '''Deryck Chan''' was the top translator.  Special honors also go to '''संजीव कुमार (Sanjeev Kumar)''', '''Robby''', '''Takot''', '''Bachounda''', '''Bjankuloski06''' and '''Ата'''.  A [[mw:VisualEditor/Translathon#Highlights from the Translathon|summary]] of the work achieved by the translation community is available.  Thank you all for your work.      
+
+This was the first translatable VisualEditor newsletter, so thanks to everybody who made this possible! If it hasn't been delivered in your language, and you'd like to help with translations in the future, please subscribe to the [[mail:translators-l|Translators mailing list]] or contact <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>, so that you will be notified when the next issue is due.      
+
+VisualEditor can be made available to most non-Wikipedia projects.  If your community would like to test VisualEditor, please contact product manager <span class="mw-content-ltr" lang="en" dir="ltr">[[m:User talk:Jdforrester (WMF)|James Forrester]]</span> or file an [https://bugzilla.wikimedia.org/enter_bug.cgi?product=VisualEditor&component=General enhancement request in Bugzilla].    
+
+Please join the [[:m:IRC office hours|office hours]] on Saturday, 18 October 2014 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=18&min=00&sec=0&day=18&month=10&year=2014 18:00 UTC] (daytime for the Americas; evening for Africa and Europe) and on Wednesday, 19 November at [http://www.timeanddate.com/worldclock/fixedtime.html?msg=VisualEditor+office+hour+for+November&iso=20141119T16&p1=1440 16:00 UTC] on [[:w:IRC|IRC]].
+
+''Give feedback on VisualEditor at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback.]]  Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!''  —<span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 09:49, 13 Oktoobar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/MassMessage/VE_Global_Newsletter&oldid=10123380 -->
