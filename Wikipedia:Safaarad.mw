@@ -535,3 +535,63 @@ Thanks,
 
 [[m:User:PiRSquared17|PiRSquared17]], [[m:User:Glaisher|Glaisher]]</div> — 17:34, 14 Nofeembar 2014 (UTC)
 <!-- Message sent by User:Glaisher@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_AbuseFilter/2014_announcement_distribution_list&oldid=10495115 -->
+
+== VisualEditor News #9—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+<div style="float:right;width:230px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]][[File:VisualEditor - moble tablet switching.png|alt=Screenshot on an iPad, showing how to switch from one editor to the other|centre|frameless|230x230px]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">
+
+VisualEditor is also available on the mobile version of Wikipedia. Log in and click the pencil icon to open the page you want to edit. Click on the gear-shaped settings button in the upper-right corner to pick which editor to use. Choose "{{int:Mobile-frontend-editor-visual-editor}}" to use VisualEditor, or "{{int:Mobile-frontend-editor-source-editor}}" to use the wikitext editor.
+
+It will remember whether you used wikitext or VisualEditor, and use the same editor the next time you edit an article.  
+
+[[:mw:VisualEditor/User guide|The user guide]] has information about how to use VisualEditor. Not all features are available on the mobile website.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] has fixed many [https://bugzilla.wikimedia.org/buglist.cgi?list_id=355757&product=VisualEditor&query_format=advanced&resolution=FIXED&target_milestone=VE-deploy-2014-10-09&target_milestone=VE-deploy-2014-10-16&target_milestone=VE-deploy-2014-10-23%20%281.25wmf5%29&target_milestone=VE-deploy-2014-10-29%20%281.25wmf6%29 bugs and requests], and worked on support for editing tables and for using non-Latin languages. Their weekly updates are posted [[mw:VisualEditor/status|on Mediawiki.org]]. Informal notes from the recent quarterly review were posted [[m:WMF_Metrics_and_activities_meetings/Quarterly_reviews/Editing/October_2014|on Meta]]. 
+
+=== Recent improvements ===
+Basic support for '''inserting tables''' and changing the number of rows and columns in them was just introduced to Wikipedias. Advanced features, like dragging columns to different places, will be added later. 
+
+To help editors find the most important items more quickly, some items in the toolbar menus are now hidden behind '''a "{{int:Ooui-toolbar-more}}" item''', such as "{{int:Visualeditor-annotationbutton-underline-tooltip}}" in the styling menu.
+
+The French Wikipedia should see '''better search results''' for links, templates, and media because the [[:mw:Help:CirrusSearch|new search engine]] was turned on for everyone there. This change is expected at the Chinese and German Wikipedias this week, and the following week at the English Wikipedia. 
+
+The "pawn" system has been mostly replaced. Bugs in this system sometimes added a chess pawn character to wikitext. The replacement provides better support for '''non-Latin languages''', with full support hopefully coming soon. 
+
+VisualEditor is now provided to editors who use '''Internet Explorer''' 10 or 11 on desktop and mobile devices. Internet Explorer 9 is not supported yet.
+
+The '''keyboard shortcuts''' for items in the toolbar menus are now shown in the menus.  
+
+VisualEditor will replace the existing design with a '''new theme''' from the [[mw:Design|User Experience/Design group]]. The appearance of dialog boxes has already changed in the mobile version. The appearance on desktops will change soon. You are welcome to compare [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-apex-vector-ltr|the old "Apex" design]] and [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|the new "MediaWiki" theme]] which will replace it.
+
+Several bugs were fixed for internal and external links. Improvements to MediaWiki's search solved an annoying problem: If you searched for the full name of the page or file that you wanted to link, sometimes the search engine could not find the page. A link inside a template to a local page that does not exist will now show red, exactly as it does when reading the page. Due to an error, for about two weeks this also affected all external links inside templates. Opening an auto-numbered link node like [http://example.com] with the keyboard used to open the wrong link tool. These problems have all been fixed.
+
+=== TemplateData ===
+
+'''The tool for quickly editing [[mw:Extension:TemplateData|TemplateData]] has been deployed to all Wikimedia Foundation wikis on Thursday, 6 November.''' This tool was already available on the biggest 40 Wikipedias, and now all wikis will have access to it. This tool makes it easier to add TemplateData to the template's documentation. When the tool is enabled, it will add a button above every editing window for a template (including documentation subpages). To use it, edit the template or a subpage, and then click the "{{int:templatedata-editbutton}}" button at the top. Read [[mw:Help:TemplateData|the help page for TemplateData]] to learn more about it. You can test the TemplateData editor [[mw:Template:Sandbox/doc|in a sandbox at Mediawiki.org]]. Remember that TemplateData should be placed either on a documentation subpage '''''or''''' on the template page itself. Only one block of TemplateData will be used per template.
+
+You can use the '''new autovalue setting''' to pre-load a value into a template. This can be used to substitute dates, as in [https://en.wikipedia.org/w/index.php?diff=632356794&oldid=632356402 this example], or to add the most common value for that parameter. The autovalue can be overridden by the editor, by typing something else in the field.
+
+In TemplateData, you may '''define a parameter as "required"'''.  The template dialog box in VisualEditor will warn editors if they leave a "required" parameter empty, and they will not be able to delete that parameter. If the template can function without this parameter, then please mark it as "{{int:Templatedata-doc-param-status-suggested}}" or "{{int:Templatedata-doc-param-status-optional}}" in TemplateData instead.
+
+=== Looking ahead ===
+
+The VisualEditor team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' soon. The appearance of the media search dialog will improve, to make picking between possible images easier and more visual. The team posts details about planned work on the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].        
+
+The [[mw:Help:VisualEditor/User_guide|user guide]] is being updated to add information about editing tables.
+The translations of the user guide for most languages except Spanish, French, and Dutch are significantly out of date. '''Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&action=page&filter= complete the current translations]''' for users who speak your language.  [https://en.wikipedia.org/w/index.php?title=User_talk:Whatamidoing_(WMF)&action=edit&section=new Talk to us] if you need help exporting the translated guide to your wiki.        
+    
+'''You can influence VisualEditor's design'''! Tell the VisualEditor team what you want changed during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next sessions are on Wednesday, 19 November at [http://www.timeanddate.com/worldclock/fixedtime.html?msg=VisualEditor+office+hour+for+November&iso=20141119T16&p1=1440 16:00 UTC] and on Wednesday 7 January 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=22&min=00&sec=0&day=7&month=1&year=2015 22:00 UTC]. You can also share your ideas at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback.]]
+
+Also, '''user experience researcher''' [[:mw:User:ARipstra (WMF)|Abbey Ripstra]] is looking for editors to show her how they edit Wikipedia. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for the research program] if you would like to hear about opportunities.
+
+If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or contact [https://www.mediawiki.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new us] directly, so that we can notify you when the next issue is ready. Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!
+—<span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+
+</div> 23:29, 14 Nofeembar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/MassMessage/VE_Global_Newsletter&oldid=10491257 -->
