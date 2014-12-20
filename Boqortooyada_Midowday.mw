@@ -1,3 +1,112 @@
+{{Infobox country
+ | conventional_long_name = {{collapsible list
+  |titlestyle = background:transparent; font-size:9pt;
+  |title = {{resize|11.5pt|{{nowrap|United Kingdom of Great}}<br>{{nowrap|Britain and Northern Ireland}}}}
+  |{{Infobox|subbox=yes|bodystyle= font-size:9pt;
+    | rowclass1 = mergedrow| header1 = &#8203;
+    | rowclass2 = mergedrow| label2 = [[Cornish language|Cornish]]: | data2 = {{lang|kw|Rywvaneth Unys Breten Veur ha Kledhbarth Iwerdhon}}
+    | rowclass3 = mergedrow| label3 = [[Irish language|Irish]]: | data3 = {{lang|ga|Ríocht Aontaithe na Breataine Móire agus Thuaisceart Éireann}}
+    | rowclass4 = mergedrow| label4 = [[Scots language|Scots]]: | data4 = {{lang|sco|Unitit Kinrick o Great Breetain an Northren Ireland}}
+    | rowclass5 = mergedrow| label5 = [[Ulster Scots dialects|Ulster-Scots]]: | data5 = {{lang|sco-UKN|Claught Kängrick o Docht Brätain an Norlin Airlann}}
+    | rowclass6 = mergedrow| label6 = [[Scottish&nbsp;Gaelic]]: | data6 = {{lang|gd|Rìoghachd Aonaichte Bhreatainn is Èireann a Tuath}}
+    | rowclass7 = mergedrow| label7 = [[Welsh language|Welsh]]: | data7 = {{lang|cy|Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon}}
+   }}
+ }}
+ | common_name = United Kingdom
+ | linking_name = the United Kingdom<!--for wikilinks – don't remove "the"-->
+ | image_flag = Flag of the United Kingdom.svg
+ | alt_flag = A flag featuring both cross and saltire in red, white and blue
+ | image_coat = Royal Coat of Arms of the United Kingdom.svg
+ | alt_coat = Coat of arms containing shield and crown in centre, flanked by lion and unicorn
+ | symbol_type = {{nowrap|[[Royal coat of arms of the United Kingdom|Royal coat of arms]]{{#tag:ref|The Royal coat of arms used in Scotland:<br><center>[[File:Royal Coat of Arms of the United Kingdom (Scotland).svg|100px]]</center>|group="nb"}}}}
+ | national_anthem = {{nowrap|"[[God Save the Queen]]"{{#tag:ref|There is no authorised version of the national anthem as the words are a matter of tradition; only the first verse is usually sung.<ref>''[http://www.royal.gov.uk/MonarchUK/Symbols/NationalAnthem.aspx National Anthem]'', British Monarchy official website. Retrieved 16 November 2013.</ref> No law was passed making "God Save the Queen" the official anthem. In the English tradition, such laws are not necessary; proclamation and usage are sufficient to make it the national anthem. "God Save the Queen" also serves as the [[Honors music|Royal anthem]] for several other countries, namely certain [[Commonwealth realms]].|group="nb"}}<center>[[File:United States Navy Band - God Save the Queen.ogg]]</center>}}
+ | image_map = EU-United Kingdom.svg
+ | alt_map = Two islands to the north-west of continental Europe. Highlighted are the larger island and the north-eastern fifth of the smaller island to the west.
+ | map_caption =
+  {{map_caption
+   | countryprefix = the
+   | country = {{nobold|United&nbsp;Kingdom}}
+   | location_color = dark green
+   | region = Europe
+   | region_color = dark grey
+   | subregion = the [[European&nbsp;Union]]
+   | subregion_color = green
+  }}
+ | languages_type = Official language<br>{{nobold|and national language}}
+ | languages = [[English language|English]]
+ | languages2_type = '''Recognised regional<br>languages'''
+ | languages2 = [[Cornish language|Cornish]], [[Irish language|Irish]], [[Scots language|Scots]], [[Scottish&nbsp;Gaelic]]<!--Keep "Scottish Gaelic"; people will find "Gaelic" confusing, as the Irish language is also commonly called "Gaelic"-->, {{nowrap|[[Ulster Scots dialects|Ulster-Scots]]}}, [[Welsh language|Welsh]]{{#tag:ref|Under the [[Council of Europe]]'s [[European Charter for Regional or Minority Languages]], Scots, Ulster-Scots, Welsh, Cornish, Irish and Scottish Gaelic, are officially recognised as [[Regional language|regional]] or [[minority language|minority]] languages by the [[Government of the United Kingdom|British government]] for the purposes of the Charter. See also [[Languages of the United Kingdom]].<ref name=reglang>{{cite web|url= http://conventions.coe.int/treaty/Commun/ListeDeclarations.asp?CL=ENG&NT=148&VL=1 |title=List of declarations made with respect to treaty No. 148|publisher=[[Council of Europe]]|accessdate=12 December 2013}}</ref>|group="nb"}}
+ | languages2_sub = yes
+ | ethnic_groups = 87.1%&nbsp;[[White people|White]]<br>7.0%&nbsp;[[British Asian|Asian]]<br>3.0%&nbsp;[[Black British|Black]]<br>2.0%&nbsp;[[Mixed (United Kingdom ethnicity category)|Mixed]]<br>0.9%&nbsp;Other
+ | ethnic_groups_year = [[United Kingdom Census 2011|2011]]
+ | demonym = [[British people|British]], Briton
+ | capital = [[London]]
+ | latd = 51 | latm = 30 | latNS = N | longd = 0 | longm = 7 | longEW = W
+ | largest_city = capital
+ | government_type = [[Unitary state|Unitary]] [[Parliamentary system|parliamentary]] [[constitutional monarchy]]
+ | leader_title1 = [[Monarchy of the United Kingdom|Monarch]]
+ | leader_name1 = {{nowrap|[[Elizabeth II]]}}
+ | leader_title2 = [[Prime Minister of the United Kingdom|Prime&nbsp;Minister]]
+ | leader_name2 = [[David&nbsp;Cameron]]
+ | legislature = [[Parliament of the United Kingdom|Parliament]]
+ | upper_house = {{nowrap|[[House of Lords]]}}
+ | lower_house = {{nowrap|[[House of Commons of the United Kingdom|House of Commons]]}}
+ | sovereignty_type = [[History of the formation of the United Kingdom|Formation]]
+ | established_event1 = {{nowrap|[[Acts of Union 1707]]}}
+ | established_date1 = {{nowrap|1 May 1707}}
+ | established_event2 = {{nowrap|[[Acts of Union 1800]]}}
+ | established_date2 = {{nowrap|1 January 1801}}
+ | established_event3 = [[Irish Free State Constitution Act 1922|Irish Free State Constitution Act]]
+ | established_date3 = {{nowrap|5 December 1922}}
+ | EUseats = 78
+ | area_rank = 80th
+ | area_magnitude = 1 E11
+ | area_km2 = 243610
+ | area_sq_mi = 94,060
+ | percent_water = 1.34
+ | population_estimate_rank = 22nd
+ | population_estimate = 64,100,000<ref name="pop_estimate">{{cite web |url=http://www.ons.gov.uk/ons/rel/pop-estimate/population-estimates-for-uk--england-and-wales--scotland-and-northern-ireland/2013/index.html |title=Population Estimates for UK, England and Wales, Scotland and Northern Ireland, Mid-2013|publisher=Office for National Statistics |accessdate=26 June 2014}}</ref>
+ | population_census = 63,181,775<ref name="pop_census">{{cite web |url=http://www.ons.gov.uk/ons/guide-method/census/2011/uk-census/index.html |title=2011 UK censuses |publisher=Office for National Statistics |accessdate=17 December 2012}}</ref>
+ | population_estimate_year = 2013
+ | population_census_year = 2011
+ | population_census_rank = 22nd
+ | population_density_km2 = 255.6
+ | population_density_sq_mi = 661.9
+ | population_density_rank = 51st
+ | GDP_PPP_year = 2014
+ | GDP_PPP = $2.435&nbsp;trillion<ref name="imf2"/>
+ | GDP_PPP_rank = 10th
+ | GDP_PPP_per_capita = $37,744<ref name="imf2">{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2014/02/weodata/weorept.aspx?sy=2013&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&pr1.x=46&pr1.y=7&c=112&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC&grp=0&a= |title=United Kingdom |publisher=International Monetary Fund |accessdate=1 November 2014 }}</ref>
+ | GDP_PPP_per_capita_rank = 27th
+ | GDP_nominal_year = 2014
+ | GDP_nominal_rank= 6th
+ | GDP_nominal_per_capita = $44,141<ref name="imf2"/>
+ | GDP_nominal_per_capita_rank = 22nd
+ | GDP_nominal = $2.848&nbsp;trillion<ref name="imf2"/>
+ | Gini_year = 2012
+ | Gini_change = decrease 
+ | Gini = 32.8
+ | Gini_ref = <ref name=eurogini>{{cite web|title=Gini coefficient of equivalised disposable income (source: SILC)|url=http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=ilc_di12|publisher=Eurostat Data Explorer|accessdate=13 August 2013}}</ref>
+ | Gini_rank = 33rd
+ | HDI_year = 2013<!-- Please use the year to which the data refers, not the publication year-->
+ | HDI_change = steady<!--increase, decrease, or steady-->
+ | HDI = 0.892<!--number only, between 0 and 1-->
+ | HDI_ref = <ref name=HDI>{{cite web |url=http://hdr.undp.org/sites/default/files/hdr14-summary-en.pdf |title=2014 Human Development Report |date=14 March 2013 |accessdate=27 July 2014 | pages=22–25}}</ref>
+ | HDI_rank = 14th
+ | currency = [[Pound&nbsp;sterling]]
+ | currency_code = GBP
+ | time_zone = [[Greenwich Mean Time|GMT]]
+ | utc_offset = &#8203;
+ | time_zone_DST = [[British Summer Time|BST]]
+ | utc_offset_DST = +1
+ | date_format = dd/mm/yyyy&nbsp;([[Anno Domini|AD]])
+ | drives_on = [[Right- and left-hand traffic|left]]
+ | calling_code = [[Telephone numbers in the United Kingdom|+44]]
+ |cctld = [[.uk]]
+ <!--| national_motto = | religion = | footnotes = -->
+}}
+
+
 {{Dalalka
 |native_name                   = ''Midowga boqortooyada Britan iyo woqooyiga Ireland''
 |conventional_long_name        = United Kingdom of Great Britain and Northern Ireland
