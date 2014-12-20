@@ -1,7 +1,7 @@
 {{Infobox country
  | conventional_long_name = {{collapsible list
   |titlestyle = background:transparent; font-size:9pt;
-  |title = {{resize|11.5pt|{{nowrap|United Kingdom of Great}}<br>{{nowrap|Britain and Northern Ireland}}}}
+  |title = {{resize|11.5pt|{{nowrap|Midowga boqortooyada Britan iyo woqooyiga Ireland}}}}
   |{{Infobox|subbox=yes|bodystyle= font-size:9pt;
     | rowclass1 = mergedrow| header1 = &#8203;
     | rowclass2 = mergedrow| label2 = [[Cornish language|Cornish]]: | data2 = {{lang|kw|Rywvaneth Unys Breten Veur ha Kledhbarth Iwerdhon}}
@@ -10,6 +10,7 @@
     | rowclass5 = mergedrow| label5 = [[Ulster Scots dialects|Ulster-Scots]]: | data5 = {{lang|sco-UKN|Claught Kängrick o Docht Brätain an Norlin Airlann}}
     | rowclass6 = mergedrow| label6 = [[Scottish&nbsp;Gaelic]]: | data6 = {{lang|gd|Rìoghachd Aonaichte Bhreatainn is Èireann a Tuath}}
     | rowclass7 = mergedrow| label7 = [[Welsh language|Welsh]]: | data7 = {{lang|cy|Teyrnas Unedig Prydain Fawr a Gogledd Iwerddon}}
+    | rowclass8 = mergedrow| label8 = [[English language|English]]: | data8 = {{lang|en|United Kingdom of Great Britain and Northern Ireland}}
    }}
  }}
  | common_name = United Kingdom
