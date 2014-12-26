@@ -616,3 +616,59 @@ Other partnerships with accounts available are listed on [[w:en:WP:The_Wikipedia
 :<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
 </div>
 <!-- Message sent by User:Sadads@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=10542996 -->
+
+== VisualEditor News #10—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<div style="margin:0.5em;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}width:230px;border:1px solid #AAA;padding:0.5em">
+[[File:VisualEditor-logo.svg|200x70px|center|frameless|alt=VisualEditor]]
+[[File:VisualEditor table editing add and remove columns.png|230x230px|center|frameless|alt=Screenshot showing how to add or remove columns from a table]]
+'''Did you know?'''
+<div class="thumbcaption" style="font-size:90%;">
+Basic table editing is now available in VisualEditor. You can add and remove rows and columns from tables at the click of a button.
+
+[[:mw:VisualEditor/User guide|The user guide]] has more information about how to use VisualEditor.
+</div>
+</div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] has fixed many bugs and worked on table editing and performance. Their weekly status reports are posted [[mw:VisualEditor/status|on mediawiki.org]]. Upcoming plans are posted at the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].
+
+'''VisualEditor was deployed to several hundred remaining wikis''' as an opt-in [[Special:Preferences#mw-prefsection-betafeatures|beta feature]] at the end of November, except for most Wiktionaries (which depend heavily upon templates) and all Wikisources (which await integration with [[mw:Extension:Proofread Page|ProofreadPage]]).
+
+=== Recent improvements ===
+
+Basic support for '''editing tables''' is now available. You can add and delete tables, add and remove rows and columns, set or remove a caption for a table, and merge cells together. To change the contents of a cell, double-click inside it. More features will be added in the coming months. In addition, VisualEditor now ignores broken, invalid <code class="mw-content-ltr" lang="en" dir="ltr">rowspan</code> and <code class="mw-content-ltr" lang="en" dir="ltr">colspan</code> elements, instead of trying to repair them.
+
+You can now use '''find and replace''' in VisualEditor, reachable through the tool menu or by pressing <kbd><code class="mw-content-ltr" lang="en" dir="ltr">^ Ctrl</code></kbd>+<kbd><code class="mw-content-ltr" lang="en" dir="ltr">F</code></kbd> or <kbd><code class="mw-content-ltr" lang="en" dir="ltr">⌘ Cmd</code></kbd>+<kbd><code class="mw-content-ltr" lang="en" dir="ltr">F</code></kbd>.
+
+You can now create and edit simple <code class="mw-content-ltr" lang="en" dir="ltr"><nowiki><blockquote></nowiki></code> paragraphs for quoting and indenting content. This changes a "{{Int:Visualeditor-formatdropdown-format-paragraph}}" into a "{{Int:Visualeditor-formatdropdown-format-blockquote}}".
+
+Some '''new keyboard sequences''' can be used to format content. At the start of the line, typing "<code class="mw-content-ltr" lang="en" dir="ltr">* </code>" will make the line a bullet list; "<code class="mw-content-ltr" lang="en" dir="ltr">1.</code>" or "<code class="mw-content-ltr" lang="en" dir="ltr">#</code>" will make it a numbered list; "<code class="mw-content-ltr" lang="en" dir="ltr">==</code>" will make it a section heading; "<code class="mw-content-ltr" lang="en" dir="ltr">: </code>" will make it a blockquote. If you didn't mean to use these tools, you can press undo to undo the formatting change.
+
+There are also two other keyboard sequences: "<code class="mw-content-ltr" lang="en" dir="ltr"><nowiki>[[</nowiki></code>" for opening the link tool, and "<code class="mw-content-ltr" lang="en" dir="ltr"><nowiki>{{</nowiki></code>" for opening the template tool, to help experienced editors. The existing standard keyboard shortcuts, like <kbd><code class="mw-content-ltr" lang="en" dir="ltr">^ Ctrl</code></kbd>+<code class="mw-content-ltr" lang="en" dir="ltr">K</code> to open the link editor, still work. 
+
+If you add a category that has been redirected, then VisualEditor now adds its target. Categories without description pages show up as red.
+
+You can again create and edit '''galleries''' as wikitext code.
+
+=== Looking ahead ===
+
+The current VisualEditor design will be replaced with a '''new theme''' designed by the [[mw:Design|User Experience group]]. The new theme will be visible for desktop systems at mediawiki.org in late December and on other sites in early January. (You can see a developer preview of [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-apex-vector-ltr|the old "Apex" theme]] and [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|the new "MediaWiki" one]] which will replace it.)
+
+The Editing team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' in January.
+
+Planned changes to the media search dialog will make choosing between possible images easier.
+
+=== Let's work together ===
+
+* Share your ideas and ask questions at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback]].
+* Translations of the [[mw:Help:VisualEditor/User_guide|user guide]] for most languages are outdated. Only Ukrainian, Portuguese, Spanish, French, and Dutch translations are nearly current. Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&language=&action=page&filter= complete the current translations] for users who speak your language.
+* Talk to the Editing team during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next session is on Wednesday, 7 January 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=22&min=00&sec=0&day=7&month=1&year=2015 22:00 UTC].
+* File requests for language-appropriate "{{Int:visualeditor-annotationbutton-bold-tooltip}}" and "{{Int:visualeditor-annotationbutton-italic-tooltip}}" icons for the character formatting menu [https://phabricator.wikimedia.org/maniphest/task/create/?projects=PHID-PROJ-dafezmpv6huxg3taml24 in Phabricator].
+* The design research team wants to see how real editors work. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for their research program].
+* If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 
+18:59, 26 Diseembar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=10823356 -->
