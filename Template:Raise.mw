@@ -1,4 +1,1 @@
-<includeonly>{{#if:{{{2|}}} |<!--then:(offset specified)--><span style="position:relative; bottom:{{{1|}}};">{{{2}}}</span>|<!--else:(offset not specified; use default)--><span style="position:relative; bottom:8px;">{{{1}}}</span><!--end #if:-->}}</includeonly><noinclude>
-{{{{FULLPAGENAME}}/doc}}
-<!--Add cats and interwikis to the /doc subpage, not here!-->
-</noinclude>
+<span style="position:relative; bottom:{{#if:{{{2|}}} |{{{1}}} |0.6em}};">{{{2|{{{1}}}}}}</span><noinclude>{{Documentation}}</noinclude>
