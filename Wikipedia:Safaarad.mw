@@ -672,3 +672,47 @@ Planned changes to the media search dialog will make choosing between possible i
 </div> 
 18:59, 26 Diseembar 2014 (UTC)
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=10823356 -->
+
+== VisualEditor News #1—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+[[File:VisualEditor-logo.svg|300px|right|frameless|alt=VisualEditor]]
+Since the last newsletter, the  [[mw:VisualEditor|Editing Team]] has fixed many bugs and worked on VisualEditor's appearance, the coming Citoid reference service, and support for languages with complex input requirements. 
+Status reports are posted [[mw:VisualEditor/status|on mediawiki.org]]. Upcoming plans are posted at the  [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].  
+
+The Wikimedia Foundation has named [[:mw:Wikimedia_Engineering/2014-15_Goals#Top_departmental_priorities_for_Q3_.28January-March_2015.29|its top priorities for this quarter]] (January to March). The first priority is making VisualEditor ready for deployment by default to all new users and logged-out users at the remaining large Wikipedias. You can help identify these requirements. <mark>There will be weekly '''triage meetings '''which''' will be open to volunteers''' beginning Wednesday, 11 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20150211T12&p1=224&ah=1 12:00 (noon) PST] (20:00 UTC). </mark> Tell Vice President of Engineering [[:foundation:User:Damon_Sicore_(WMF)|Damon Sicore]], Product Manager [[:mw:User:Jdforrester_(WMF)|James Forrester]] and other team members which bugs and features are most important to you. The decisions made at these meetings will determine what work is necessary for this quarter's goal of making VisualEditor ready for deployment to new users. The presence of volunteers who enjoy contributing MediaWiki code is particularly appreciated. Information about how to join the meeting will be posted at [[:mw:Talk:VisualEditor/Portal|mw:Talk:VisualEditor/Portal]] shortly before the meeting begins. 
+
+Due to some breaking changes in MobileFrontend and VisualEditor, VisualEditor was not working correctly on the mobile site for a couple of days in early January. The teams apologize for the problem. 
+
+=== Recent improvements === 
+
+The''' new design for VisualEditor''' aligns with MediaWiki's [[mw:Frontend standards group|Front-End Standards]] as led by the Design team. Several new versions of the [[mw:OOjs UI|OOjs UI]] library have also been released, and these also affect the appearance of VisualEditor and other MediaWiki software extensions. Most changes were minor, like changing the text size and the amount of white space in some windows. Buttons are consistently color-coded to indicate whether the action:
+* starts a new task, like opening the {{int:visualeditor-toolbar-savedialog}} dialog: <span style="background-color: #015ccc; color:white"> blue </span>, 
+* takes a constructive action, like inserting a citation:  <span style="background-color: #008c6d; color:white"> green </span>,
+* might remove or lose your work, like removing a link:  <span style="background-color: #a7170f; color:white">  red </span>,  or  
+* is neutral, like opening a link in a new browser window:  <span style="color: 757575">  gray </span>.  
+The '''TemplateData editor''' has been completely re-written to use a different design based on the same OOjs UI system as VisualEditor.   ([https://phabricator.wikimedia.org/T67815 T67815], [https://phabricator.wikimedia.org/T73746 T73746].) This change fixed a couple of existing bugs and improved usability. ([https://phabricator.wikimedia.org/T73077 T73077], [https://phabricator.wikimedia.org/T73078 T73078].) 
+
+'''Search and replace''' in long documents is now faster. It does not highlight every occurrence if there are more than 100 on-screen at once.([https://phabricator.wikimedia.org/T78234 T78234].)
+
+Editors at the Hebrew and Russian Wikipedia requested the ability to use VisualEditor in the "Article Incubator" or drafts namespace. ([https://phabricator.wikimedia.org/T86688 T86688], [https://phabricator.wikimedia.org/T87027 T87027].) If your community would like '''VisualEditor enabled on another namespace''' on your wiki, then you can file a request in Phabricator. Please include a link to a community discussion about the requested change.
+
+=== Looking ahead === 
+
+The Editing team will soon add '''auto-fill features''' '''for citations'''. The '''[[mw:Citoid|Citoid service]]''' takes a [[w:URL|URL]] or [[w:en: Digital object identifier|DOI]] for a reliable source, and returns a pre-filled, pre-formatted bibliographic citation. After creating it, you will be able to change or add information to the citation, in the same way that you edit any other pre-existing citation in VisualEditor. Support for ISBNs, PMIDs, and other identifiers is planned. Later, editors will be able to contribute to the Citoid service's definitions for each website, to improve precision and reduce the need for manual corrections.   
+
+We will need editors to help test the '''new design of the special character inserter''', especially if you speak Welsh, Breton, or another language that uses diacritics or special characters extensively. The new version should be available for testing next week. Please contact [[:en:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] if you would like to be notified when the new version is available. After the special character tool is completed, VisualEditor will be deployed to all users at [[:mw:VisualEditor/Rollouts|Phase 5 Wikipedias]]. This will affect about 50 mid-size and smaller Wikipedias, including '''Afrikaans, Azerbaijani, Breton, Kyrgyz, Macedonian, Mongolian, Tatar, and Welsh'''. The date for this change has not been determined. 
+
+=== Let's work together === 
+
+
+*Share your ideas and ask questions at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback]]. 
+*Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&language=&action=page&filter=  complete translations of the user guide] for users who speak your language. 
+*Join the weekly bug triage meetings beginning Wednesday, 11 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20150211T12&p1=224&ah=1 12:00 (noon) PST] (20:00 UTC); information about how to join the meeting will be posted at [[mw:Talk:VisualEditor/Portal]] shortly before the meeting begins, and you can also contact [[mw:User:Jdforrester (WMF)|James F.]] to learn more about this initiative. 
+*Talk to the Editing team during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next session is on Thursday, 19 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=19&min=00&sec=0&day=19&month=2&year=2015 19:00 UTC].  
+*Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]].  If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready.  Thank you! 
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 18:30, 5 Febraayo 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=10839689 -->
