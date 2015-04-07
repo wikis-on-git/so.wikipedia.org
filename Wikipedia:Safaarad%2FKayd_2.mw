@@ -1,0 +1,774 @@
+<div class="mw-content-ltr">
+==New article requests==
+‏‏<div class="mw-content-ltr">
+Hi! Here are some new article requests. Would anybody mind starting these?
+<!--Please leave these lines intact--><onlyinclude>{{#ifeq:{{{transcludesection|New article requests}}}|New article requests|<!--Fadlan meeshaan waxba haka bedelin-->
+
+
+== Tech newsletter: Subscribe to receive the next editions ==
+
+<div style="width:auto; padding: 1em; background:#fdf6e3;" class="plainlinks" ><big>Latest '''[[m:Tech/News|<span style="color:#268bd2;">Tech news</span>]]''' from the Wikimedia technical community.</big> ''Please inform other users about these changes.''</div>
+<div style="width:auto; padding: 1em; border: 2px solid #fdf6e3;" class="plainlinks" >
+;Recent software changes: ''(Not all changes will affect you.)''
+
+* The latest version of MediaWiki (version [[mw:MediaWiki 1.22/wmf4|1.22/wmf4]]) was added to non-Wikipedia wikis on May 13, and to the English Wikipedia (with a Wikidata software update) on May 20. It will be updated on all other Wikipedia sites on May 22. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=ed976cf0c14fa3632fd10d9300bb646bfd6fe751;hp=c6c7bb1e5caaddf7325de9eef0e7bf85bcf5cc35] [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* A software update will perhaps result in temporary issues with images. Please [[m:Tech/Ambassadors|report any problems]] you notice. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* MediaWiki recognizes links in twelve new [[:w:en:URI scheme|schemes]]. Users can now link to [[:w:en:SSH|SSH]], [[:w:en:XMPP|XMPP]] and [[:w:en:Bitcoin|Bitcoin]] directly from wikicode. [https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/core.git;a=commitdiff;h=a89d623302b5027dbb2d06941a22372948757685]
+* VisualEditor was added to [[bugzilla:48430|all content namespaces]] on mediawiki.org on May 20. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* A new extension ("TemplateData") was added to all Wikipedia sites on May 20. It will allow a future version of VisualEditor to [[bugzilla:44444|edit templates]]. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* New sites: [[:voy:el:|Greek Wikivoyage]] and [[:wikt:vec:|Venetian Wiktionary]] joined the Wikimedia family last week; the total number of project wikis is now 794. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=5d7536b403730bb502580e21243f923c3b79da0e] [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=43c9eebdfc976333be5c890439ba1fae3bef46f7]
+* The logo of 18 Wikipedias was changed to [[w:en:Wikipedia:Wikipedia_logos#The_May_2010_logo|version 2.0]] in a [http://lists.wikimedia.org/pipermail/wikimedia-l/2013-May/125999.html third group of updates]. [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commitdiff;h=4688adbe467440eea318eecf04839fdd9ffa0565] 
+* The [[:commons:Special:UploadWizard|UploadWizard]] on Commons now shows links to the old upload form in 55 languages ([[:bugzilla:33513|bug 33513]]). [https://gerrit.wikimedia.org/r/gitweb?p=operations/mediawiki-config.git;a=commit;h=4197fa18a22660296d0e5b84820d5ebb4cef46d4]
+
+;Future software changes:
+* The next version of MediaWiki (version 1.22/wmf5) will be added to Wikimedia sites starting on May 27. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* An updated version of [[mw:Echo (Notifications)|Notifications]], with new features and fewer bugs, will be added to the English Wikipedia on May 23. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069458.html]
+* The [[m:Special:MyLanguage/Single User Login finalisation announcement|final version]] of the "single user login" (which allows people to use the same username on different Wikimedia wikis) is moved to August 2013. The software will [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-April/000217.html automatically rename] some usernames. [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-May/000233.html]
+* A [[m:Special:MyLanguage/Flow|new discussion system]] for MediaWiki, called "Flow", is under development. Wikimedia designers need your help to inform other users, [http://unicorn.wmflabs.org/flow/ test the prototype] and discuss the interface. [http://lists.wikimedia.org/pipermail/wikitech-l/2013-May/069433.html].
+* The Wikimedia Foundation is hiring people to act as links between software developers and users for VisualEditor. [http://lists.wikimedia.org/pipermail/wikitech-ambassadors/2013-May/000245.html]
+</div>
+<div style="font-size:90%; font-style:italic; background:#fdf6e3; padding:1em;">'''[[m:Tech/News|Tech news]]''' prepared by [[m:Tech/Ambassadors|tech ambassadors]] and posted by [[m:Global message delivery|Global message delivery]] • [[m:Tech/News#contribute|Contribute]] • [[m:Tech/News/2013/21|Translate]] • [[m:Tech|Get help]] • [[m:Talk:Tech/News|Give feedback]] • [[m:Global message delivery/Targets/Tech ambassadors|Unsubscribe]] • 21:11, 20 May 2013 (UTC)
+</div>
+
+<div style="float:left; background:#eee8d5; border: .2em solid #dc322f; border-left: .7em solid #dc322f; padding: 1em; "><span style="color:#dc322f;font-weight:bold;">Important note:</span> This is the first edition of the [[m:Tech/News|Tech News]] weekly summaries, which help you monitor recent software changes likely to impact you and your fellow Wikimedians.
+
+'''If you want to continue to receive the next issues every week''', please '''[[m:Global message delivery/Targets/Tech ambassadors|subscribe to the newsletter]]'''. You can  subscribe your personal talk page and a community page like this one. The newsletter can be [[m:Tech/News/2013/21|translated into your language]].
+
+You can also [[m:Tech/Ambassadors|become a tech ambassador]], [[m:Tech/News|help us write the next newsletter]] and [[m:Talk:Tech/News|tell us what to improve]]. Your feedback is greatly appreciated. [[m:user:guillom|guillom]] 21:11, 20 May 2013 (UTC)</div>
+<!-- EdwardsBot 0455 -->
+
+== Trademark discussion ==
+
+Hi, apologies for posting this in English, but I wanted to alert your community to a discussion on Meta about potential changes to the Wikimedia Trademark Policy. Please translate this statement if you can. We hope that you will all participate in the discussion; we also welcome translations of the legal team’s statement into as many languages as possible and encourage you to voice your thoughts there. Please see the [[:m:Trademark practices discussion|Trademark practices discussion (on Meta-Wiki)]] for more information. Thank you! --[[:m:User:Mdennis_(WMF)|Mdennis (WMF)]] ([[:m:User talk:Mdennis_(WMF)|talk]])
+<!-- EdwardsBot 0473 -->
+
+== Free Research Accounts from Leading Medical Publisher.  Come and Sign up! ==
+
+[[EN:W:TWL|The Wikipedia Library]] gets Wikipedia editors free access to reliable sources that are behind paywalls.  I want to alert you to our latest donation.
+*'''[[Cochrane Collaboration]]''' is an independent medical nonprofit organization that conducts systematic reviews of randomized controlled trials of health-care interventions, which it then publishes in the Cochrane Library.
+*Cochrane has generously agreed to give ''free, full-access accounts to medical editors''.  Individual access would otherwise cost between $300 and $800 per account.
+*'''If you are active as a medical editor, come and [[WP:COCHRANE|sign up :)]]'''
+Cheers, [[EN:W:User:Ocaasi|Ocaasi]] 21:19, 16 Juun 2013 (UTC)
+<!-- EdwardsBot 0487 -->
+
+== Cochrane Library Sign-up (correct link) ==
+
+My apologies for the incorrect link:  You can sign up for '''[[EN:W:Cochrane Collaboration|Cochrane Collaboration]]''' accounts at the [[EN:W:WP:COCHRANE|COCHRANE sign-up page]]'''. Cheers, [[EN:W:User:Ocaasi|Ocaasi]] 21:53, 16 Juun 2013 (UTC)
+<!-- EdwardsBot 0488 -->
+
+== [[:m:Requests_for_comment/X!'s_Edit_Counter|X!'s Edit Counter]] ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<small>(Sorry for writing in English. You can [[:m:Special:MyLanguage/Requests_for_comment/X!%27s_Edit_Counter/Summary|translate the proposal]].)</small>
+
+Should [[tools:~tparis/pcount|X!'s edit counter]] retain the opt-in requirement? Your input is strongly encouraged. [[:m:Requests_for_comment/X!'s_Edit_Counter|Voice your input here]].—[[:m:w:User:Cyberpower678|<span style="color:green;font-family:Neuropol">cyberpower]] [[:m:w:User talk:Cyberpower678|<sup style="color:purple;font-family:arnprior">Chat]]<sub style="margin-left:-4.4ex;color:purple;font-family:arnprior">Automation</sub> 05:00, 23 Juun 2013 (UTC)
+:<small>Distributed via [[:m:Global message delivery|Global message delivery]]. (Wrong page? [[:m:Distribution list/Global message delivery|Fix here]].)</small>
+</div>
+<!-- EdwardsBot 0505 -->
+
+== Universal Language Selector will be enabled on 2013-07-09 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+On July 9, 2013, [[mw:Universal Language Selector|Universal Language Selector]] (ULS) will be enabled on this wiki. The ULS provides a flexible way to configure and deliver language settings like interface language, fonts, and input methods (keyboard mappings). Making it available here is the last phase of making ULS available on all Wikimedia wikis.
+
+Please read the announcement on [[m:Announcement Universal Language Selector|Meta-Wiki]] for more information. [[m:User_talk:Siebrand|Siebrand]] 12:56, 4 Luuliyo 2013 (UTC) <small>(via [[m:Global message delivery|Global message delivery]]).</small>
+</div>
+<!-- EdwardsBot 0515 -->
+
+== Pywikipedia is migrating to git ==
+
+Hello, Sorry for English but It's very important for bot operators so I hope someone translates this.
+[[mw:PWB|Pywikipedia]] is migrating to Git so after July 26, SVN checkouts won't be updated If you're using Pywikipedia you have to switch to git, otherwise you will use out-dated framework and your bot might not work properly. There is a [[mw:Manual:Pywikipediabot/Gerrit|manual]] for doing that and a [https://blog.wikimedia.org/2013/07/23/pywikipediabot-moving-to-git-on-july-26/ blog post] explaining about this change in non-technical language. If you have question feel free to ask in [[mw:Manual talk:Pywikipediabot/Gerrit]], [https://lists.wikimedia.org/mailman/listinfo/pywikipedia-l mailing list], or in the [irc://irc.freenode.net/#pywikipediabot IRC channel]. Best [[mw:User:Ladsgroup|Amir]] <small>(via [[m:Global message delivery|Global message delivery]]).</small> 13:46, 23 Luuliyo 2013 (UTC)
+<!-- EdwardsBot 0534 -->
+
+== VisualEditor and your Wikipedia ==
+
+''(Please translate this message)''
+
+Greetings,
+
+The Wikimedia Foundation will soon turn on [[mw:VisualEditor|VisualEditor]] for all users, all the time on your Wikipedia. Right now your Wikipedia does not have any local documents on VisualEditor, and we hope that your community can change that. To find out about how you can help with translations visit the [[mw:VisualEditor/TranslationCentral|TranslationCentral for VisualEditor]] and read the easy instructions on [[mw:VisualEditor/Portal/Localization|bringing information to your Wikipedia]]. The [[mw:Help:VisualEditor/User_guide|User Guide]] and the [[mw:Help:VisualEditor/FAQ|FAQ]] are very important to have in your language.
+ 
+We want to find out as much as we can from you about VisualEditor and how it helps your Wikipedia, and having local pages is a great way to start. We also encourage you to [[mw:VisualEditor/Feedback|leave feedback on Mediawiki]] where the community can offer ideas, opinions, and point out bugs that may still exist in the software that need to be reported to [https://bugzilla.wikimedia.org/describecomponents.cgi?product=VisualEditor Bugzilla]. 
+If you are able to speak for the concerns of others in English on MediaWiki or locally I encourage you to help your community to be represented in this process.
+
+If you can help translate the user interface for VisualEditor to your language, you can help with that as well. [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor#sortable:3=desc Translatewiki] has open tasks for translating VisualEditor. A direct link to translate the user interface is [https://translatewiki.net/wiki/Special:Translate?filter=!translated&action=translate&group=ext-visualeditor here].  You can see how we are doing with those translations [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor#sortable:3=desc here]. You need an account on Translatewiki to translate.  This account is free and easy to create.
+
+If we can help your community in any way with this process, please let me know and I will do my best to assist your Wikipedia with this |exciting development. You can contact me on my [[m:User_talk:Keegan (WMF)|meta talk page]] or by [[Special:EmailUser/Keegan (WMF)|email]].  You can also contact [[mw:User_talk:PEarley_(WMF)|Patrick Earley]] for help with translations and documents on Mediawiki.  We look forward to working with you to bring the VisualEditor experience to your Wikipedia! [[:m:User:Keegan (WMF)|Keegan (WMF)]] ([[:m:User talk:Keegan (WMF)|talk]]) 19:13, 30 Luuliyo 2013 (UTC)
+:<small>Distributed via [[:m:Global message delivery|Global message delivery]]. (Wrong page? [[:m:Distribution list/Global message delivery|Fix here]].)</small>
+<!-- EdwardsBot 0549 -->
+
+== HTTPS for users with an account ==
+
+Greetings. Starting on August 21 (tomorrow), all users with an account will be using [[m:w:en:HTTPS|HTTPS]] to access Wikimedia sites. HTTPS brings better security and improves your privacy. More information is available at [[m:HTTPS]].
+
+If HTTPS causes problems for you, tell us [https://bugzilla.wikimedia.org on bugzilla], [[m:IRC|on IRC]] (in the <code>#wikimedia-operations</code> channel) or [[m:Talk:HTTPS|on meta]]. If you can't use the other methods, you can also send an e-mail to <code>https@wikimedia.org</code>.
+
+[[m:User:Greg (WMF)|Greg Grossmeier]] <small>(via the [[m:Global message delivery|Global message delivery]] system)</small>. 19:41, 20 Agoosto 2013 (UTC) <small>(wrong page? [[m:Distribution list/Global message delivery|You can fix it.]])</small>
+<!-- EdwardsBot 0560 -->
+
+== [[:m:Community Logo/Request for consultation|Request for consultation on community logo]] ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+[[File:Wikimedia Community Logo.svg|thumb|Request for consultation on this community logo]]
+
+First, I’d like to apologize for the English. If you can, please help to translate this for other members of your community.
+
+The legal team at the Wikimedia Foundation would greatly appreciate your input on the best way to manage the "community logo" (pictured here) to best balance protection of the projects with community support. Accordingly, they have created a “request for consultation” on Meta where they set out briefly some of the issues to be considered and the options that they perceive. [[:m:Community Logo/Request for consultation|Your input would be invaluable]] in helping guide them in how best to serve our mission.
+
+Thank you! --[[m:User:Mdennis|Mdennis]] ([[m:User talk:Mdennis|talk]]) <small>(via the [[m:Global message delivery|Global message delivery]] system)</small>. 03:11, 24 Sebteembar 2013 (UTC) <small>(wrong page? [[m:Distribution list/Global message delivery|You can fix it.]])</small>
+
+</div>
+<!-- EdwardsBot 0590 -->
+
+== [[mw:Echo|Notifications]] ==
+
+[[File:Notifications-Flyout-Screenshot-08-10-2013-Cropped.png|thumb|300px|Notifications inform you of new activity that affects you -- and let you take quick action.]]
+''(This message is in English, please translate as needed)''
+
+Greetings!  
+
+[[mw:Echo|Notifications]] will inform users about new activity that affects them on this wiki in a unified way: for example, this new tool will let you know when you have new talk page messages, edit reverts, mentions or links -- and is designed to augment (rather than replace) the watchlist. The Wikimedia Foundation's editor engagement team developed this tool (code-named 'Echo') earlier this year, to help users contribute more productively to MediaWiki projects. 
+
+We're now getting ready to bring Notifications to almost all other Wikimedia sites, and are aiming for a 22 October deployment, as outlined in [[mw:Echo/Release_Plan_2013|this release plan]]. It is important that notifications is translated for all of the languages we serve.  
+
+There are three major points of translation needed to be either done or checked:
+*[https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-echo#sortable:3=desc Echo on translatewiki for user interface] - you must have an account on translatewiki to translate
+*[https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-thanks#sortable:3=desc Thanks on translatewiki for user interface] - you must have an account on translatewiki to translate
+*[[mw:Help:Notifications|Notifications help on mediawiki.org]].  This page can be hosted after translation on mediawiki.org or we can localize it to this Wikipedia.  You do not have to have an account to translate on mediawiki, but single-user login will create it for you there if you follow the link.
+:*[[mw:Echo/Release Plan 2013#Checklist|Checklist]]
+
+Please let us know if you have any questions, suggestions or comments about this new tool. For more information, visit [[mw:Echo_(Notifications)|this project hub]] and [[mw:Help:Notifications|this help page]]. [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 19:14, 4 Oktoobar 2013 (UTC)
+:<small>(via the [[m:Global message delivery|Global message delivery]] system) (wrong page? [[m:Distribution list/Global message delivery|You can fix it.]])</small>
+<!-- EdwardsBot 0597 -->
+
+== Speak up about the trademark registration of the Community logo. ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+Hi all, 
+
+Please join the consultation about the Community logo that represents Meta-Wiki: [[:m:Community Logo/Request for consultation]].
+
+This community consultation was commenced on September 24. The following day, two individuals filed a legal opposition against the registration of the Community logo.
+
+The question is whether the Wikimedia Foundation should seek a collective membership mark with respect to this logo or abandon its registration and protection of the trademark. 
+
+We want to make sure that everyone get a chance to speak up so that we can get clear direction from the community.  We would therefore really appreciate the community's help in translating this announcement from English so that everyone is able to understand it.
+
+Thanks, 
+[[m:User:Geoffbrigham|Geoff]] & [[m:User:YWelinder (WMF)|Yana]] 20:51, 8 Oktoobar 2013 (UTC)
+</div>
+<!-- EdwardsBot 0601 -->
+
+== Introducting Beta Features ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''(Apologies for writing in English. Please translate if necessary)''
+
+We would like to let you know about [[mw:About_Beta_Features|Beta Features]], a new program from the Wikimedia Foundation that lets you try out new features before they are released for everyone.
+
+Think of it as a digital laboratory where community members can preview upcoming software and give feedback to help improve them. This special preference page lets designers and engineers experiment with new features on a broad scale, but in a way that's not disruptive.
+
+Beta Features is now ready for testing on [[mw:Special:Preferences#mw-prefsection-betafeatures|MediaWiki.org]]. It will also be released on Wikimedia Commons and MetaWiki this Thursday, 7 November. Based on test results, the plan is to release it on all wikis worldwide on 21 November, 2013.
+
+Here are the first features you can test this week:
+* [[mw:Multimedia/About_Media_Viewer|Media Viewer]] — view images in large size or full screen
+* [[mw:VisualEditor/Beta_Features/Formulae|VisualEditor Formulæ]] (for wikis with [[mw:VisualEditor|VisualEditor]]) — edit algebra or equations on your pages
+* [[mw:Typography_Update|Typography Refresh]] —  make text more readable (coming Thursday)
+
+Would you like to try out Beta Features now? After you log in on MediaWiki.org, a small 'Beta' link will appear next to your 'Preferences'. Click on it to see features you can test, check the ones you want, then click 'Save'. Learn more on the [[mw:About_Beta_Features|Beta Features page]].
+
+After you've tested Beta Features, please let the developers know what you think on [[mw:Talk:About_Beta_Features|this discussion page]] -- or report any bugs [http://wmbug.com/new?product=MediaWiki%20extensions&component=BetaFeatures here on Bugzilla]. You're also welcome to join [[m:IRC_office_hours#Upcoming_office_hours|this IRC office hours chat]] on Friday, 8 November at 18:30 UTC. 
+
+Beta Features was developed by the Wikimedia Foundation's Design, Multimedia and VisualEditor teams. Along with other developers, they will be adding new features to this experimental program every few weeks. They are very grateful to all the community members who helped create this project — and look forward to many more productive collaborations in the future.
+
+Enjoy, and don't forget to let developers know what you think!  [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 20:38, 5 Nofeembar 2013 (UTC)
+:<small>Distributed via [[m:Global message delivery|Global message delivery]] (wrong page? [[m:Distribution list/Global message delivery|Correct it here]])</small>, 20:38, 5 Nofeembar 2013 (UTC)
+</div>
+<!-- EdwardsBot 0622 -->
+
+== Call for comments on draft trademark policy ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Hi all, 
+
+The Wikimedia legal team invites you to participate in the development of the new Wikimedia trademark policy.
+
+The [[:wmf:Trademark policy|current trademark policy]] was introduced in 2009 to protect the [[:wmf:Wikimedia trademarks|Wikimedia marks]]. We are now updating this policy to better balance permissive use of the marks with the legal requirements for preserving them for the community. The new draft trademark policy is ready for your review [[:m:Trademark policy|here]], and we encourage you to discuss it [[:m:Talk:Trademark policy|here]].
+
+We would appreciate if someone would translate this message into your language so more members of your community can contribute to the conversation.
+
+Thanks, <br />
+[[:m:User:YWelinder (WMF)|Yana]] & [[:m:User:Geoffbrigham|Geoff]]
+
+</div>
+<!-- EdwardsBot 0657 -->
+
+== Request for comment on Commons: Should Wikimedia support MP4 video? ==
+
+''I apologize for this message being only in English. Please translate it if needed to help your community.''
+
+The Wikimedia Foundation's [[mw:Multimedia|multimedia team]] seeks community guidance on a proposal to support the [[w:MP4|MP4 video format]]. This digital video standard is used widely around the world to record, edit and watch videos on mobile phones, desktop computers and home video devices. It is also known as [[w:MP4|H.264/MPEG-4 or AVC]].
+
+Supporting the MP4 format would make it much easier for our users to view and contribute video on Wikipedia and Wikimedia projects -- and video files could be offered in dual formats on our sites, so we could continue to support current open formats (WebM and Ogg Theora). 
+
+However, MP4 is a patent-encumbered format, and using a proprietary format would be a departure from our current practice of only supporting open formats on our sites -- even though the licenses appear to have acceptable legal terms, with only a small fee required. 
+
+We would appreciate your guidance on whether or not to support MP4. Our Request for Comments presents views both in favor and against MP4 support, based on opinions we’ve heard in our discussions with community and team members. 
+
+[[commons:Commons:Requests for comment/MP4 Video|Please join this RfC -- and share your advice]].
+
+All users are welcome to participate, whether you are active on Commons, Wikipedia, other Wikimedia project -- or any site that uses content from our free media repository.
+
+You are also welcome to join tomorrow's [[m:IRC_office_hours#Upcoming_office_hours|Office hours chat on IRC]],  this Thursday, January 16, at 19:00 UTC, if you would like to discuss this project with our team and other community members.
+
+We look forward to a constructive discussion with you, so we can make a more informed decision together on this important topic. [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 06:46, 16 Jannaayo 2014 (UTC)
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/MP4_notice_targets&oldid=7105580 -->
+
+== Universal Language Selector will be enabled by default again on this wiki by 21 February 2014 ==
+
+<div class="mw-content-ltr" lang="en" dir="ltr">
+On January 21 2014 the MediaWiki extension [[mw:Universal Language Selector|Universal Language Selector]] (ULS) was [[mw:Universal Language Selector/Announcement Jan2014|disabled]] on this wiki. A new preference was added for logged-in users to turn on ULS. This was done to prevent slow loading of pages due to ULS webfonts, a behaviour that had been observed by the Wikimedia Technical Operations team on some wikis. 
+
+We are now ready to enable ULS again. The temporary preference to enable ULS will be removed. A [[commons:File:ULS-font-checkbox.png|new checkbox]] has been added to the Language Panel to enable/disable font delivery. This will be unchecked by default for this wiki, but can be selected at any time by the users to enable webfonts. This is an interim solution while we improve the feature of webfonts delivery.
+
+You can read the [[mw:Universal Language Selector/Announcement Feb2014|announcement]] and the [[mw:Universal Language Selector/Upcoming Development Plan|development plan]] for more information. Apologies for writing this message only in English. Thank you. [[m:User_talk:Runab WMF|Runa]]
+
+</div>
+<!-- Message sent by User:Runab WMF@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/ULS_Reenable_2014&oldid=7490703 -->
+
+== Amendment to the Terms of Use ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Hello all, 
+
+Please join a discussion about a [[:m:Terms of use/Paid contributions amendment|proposed amendment]] to the [[wmf:Terms of Use|Wikimedia Terms of Use]] regarding undisclosed paid editing and we encourage you to voice your thoughts there. Please translate this statement if you can, and we welcome you to translate the proposed amendment and introduction. Please see [[:m:Terms of use/Paid contributions amendment|the discussion on Meta Wiki]] for more information. Thank you! [[:m:User:Slaporte (WMF)|Slaporte (WMF)]] 22:00, 21 Febraayo 2014 (UTC)
+</div>
+<!-- Message sent by User:Jalexander@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7499312 -->
+
+== Call for project ideas: funding is available for community experiments ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+[[File:IEG_key_blue.png|100px|right]]
+
+''I apologize if this message is not in your language. Please help translate it.''
+
+Do you have an idea for a project that could improve your community? [[m:Grants:IEG|Individual Engagement Grants]] from the Wikimedia Foundation help support individuals and small teams to organize experiments for 6 months. You can get funding to try out your idea for online community organizing, outreach, tool-building, or research to help make {{SITENAME}} better. In March, we’re looking for new project proposals. 
+
+Examples of past Individual Engagement Grant projects:
+*[[m:Grants:IEG/Build_an_effective_method_of_publicity_in_PRChina|Organizing social media for Chinese Wikipedia]] ($350 for materials) 
+*[[m:Grants:IEG/Visual_editor-_gadgets_compatibility|Improving gadgets for Visual Editor]] ($4500 for developers)
+*[[m:Grants:IEG/The_Wikipedia_Library|Coordinating access to reliable sources for Wikipedians]] ($7500 for project management, consultants and materials)
+*[[m:Grants:IEG/Elaborate_Wikisource_strategic_vision|Building community and strategy for Wikisource]] (€10000 for organizing and travel)
+
+'''[[m:Grants:IEG#ieg-applying|Proposals]] are due by 31 March 2014.''' There are a number of ways to [[m:Grants:IEG|get involved]]! 
+
+Hope to have your participation,
+
+--[[m:User:Sbouterse (WMF)|Siko Bouterse, Head of Individual
+Engagement Grants, Wikimedia Foundation]] 19:44, 28 Febraayo 2014 (UTC)
+
+</div>
+<!-- Message sent by User:AKoval (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=IEG/MassMessageList&oldid=7675744 -->
+
+== Proposed optional changes to Terms of Use amendment ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">Hello all, in response to some community comments in the discussion on the amendment to the Terms of Use on undisclosed paid editing,  we have prepared two optional changes. Please [[m:Terms_of_use/Paid_contributions_amendment#Optional_changes|read about these optional changes on Meta wiki]] and share your comments. If you can (and this is a non english project), please translate this announcement. Thanks! [[m:User:Slaporte (WMF)|Slaporte (WMF)]] 21:55, 13 Maarso 2014 (UTC) </div>
+<!-- Message sent by User:Jalexander@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7592057 -->
+
+== Changes to the default site typography coming soon ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr"> 
+This week, the typography on Wikimedia sites will be updated for all readers and editors who use the default "Vector" skin. This change will involve new serif fonts for some headings, small tweaks to body content fonts, text size, text color, and spacing between elements. The schedule is: 
+
+* '''April 1st''': non-Wikipedia projects will see this change live
+* '''April 3rd''': Wikipedias will see this change live
+
+This change is very similar to the "Typography Update" Beta Feature that has been available on Wikimedia projects since November 2013. After several rounds of testing and with feedback from the community, this Beta Feature will be disabled and successful aspects enabled in the default site appearance. Users who are logged in may still choose to use another skin, or alter their [[Special:MyPage/vector.css|personal CSS]], if they prefer a different appearance. Local [[MediaWiki:Common.css|common CSS]] styles will also apply as normal, for issues with local styles and scripts that impact all users. 
+
+For more information:
+* [[mw:Typography refresh|Summary of changes and FAQ]]
+* [[mw:Talk:Typography refresh|Discussion page]] for feedback or questions
+* [https://blog.wikimedia.org/2014/03/27/typography-refresh/ Post] on blog.wikimedia.org
+
+-- [[m:User:Steven (WMF)|Steven Walling]] (Product Manager) on behalf of the Wikimedia Foundation's [[mw:Design|User Experience Design]] team
+</div>
+<!-- Message sent by User:Steven (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=7990801 -->
+
+== LAGAMA MAARMAAN: Soo bandhigista dhaqdhaqaaqa maamulaha ==
+
+Haye. Xeer cusub ee ku saabsan ka qaadista "xuquuqda horumarsan" (maamulaha, bureaucrat, iwl) taasoo katimid [[:m:Requests for comment/Activity levels of advanced administrative rights holders|kulanka bulshada caalamiga ah]] (waa loo gudbiyey bulshadaada ogeeysiiskaan kadoodistiisa). Sida uu qabo xeerkaan, [[:m:stewards|steward-ka]] waxay dib u eegis ku samaynayaan masuuliyiinta' dhaqdhaqaaqa ugu yar ee wikiyada. Heerka ugu wanaagsan ee aqoonteena, wikiyadiina malahan qaab ah ka qaadista "xuquuqda horumarsan" akoonka aan shaqaynin. Taasoo loola jeedo in steward-ka laga xayuubiyo xasaanada sida uu qabo xeerka cusub [[:m:Admin activity review|Soo bandhigista dhaqdhaqaaqa maamulaha]] halkaan.
+
+Waxaan go'aansanay adeegsadeyaashaan in laga helay sifada ah kuwa aan shaqaynin ama aan firfircooneen (in kabadan 2 sanadood masamaynin wax bedel ah ama gudaha uma soo galin):
+#Zanimum (maamule)
+
+Isticmaale-yaashaan waxeey heli doonaan ogeeysiiska sida ugu dhaqsiyaha badan, iyagoo laga codsanayo in ay furaan wadahadal ay bulshada kaga doodayaan hadii ay doonayaan xuquuqdooda dhamaan ama wax ka mid ah. Haddii aaneey ka jawaabin, kadib waxaa dhici doonta in laga qaado xuquudooda hormarsan waxaana ka qaadi doona steward-ka.
+
+Si kastaba ha ahaatee, haddii aad tahay sida bulshada doneeysa abuuris howsha dhaqdhaqaaqaada gaarka ah waxaad geli kartaa booska kuwa caalamiga ah, taasoo aad ku dooneeyso inaad furto wadahadal cusub taasoo ku saabsan firfircooni la'aan, ama ay hayaan xeer kale kaasoo aan iloownay, fadlan kusoo bandhig [[:m:Stewards' noticeboard|steward-ka ee Meta-Wiki]] sidaas daraadeed waan ognahay soo bandhigista xuquuqda gaarka ah ee wikiga. Mahadsanid, '''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 03:20, 6 Abriil 2014 (UTC)
+
+== Media Viewer ==
+
+<br>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Greetings, my apologies for writing in English.
+
+I wanted to let you know that [[mw:Multimedia/About Media Viewer|Media Viewer]] will be released to this wiki in the coming weeks. Media Viewer allows readers of Wikimedia projects to have an enhanced view of files without having to visit the file page, but with more detail than a thumbnail. You can try Media Viewer out now by turning it on in your [[Special:Preferences#mw-prefsection-betafeatures|Beta Features]]. If you do not enjoy Media Viewer or if it interferes with your work after it is turned on you will be able to disable Media Viewer as well in your [[Special:Preferences#mw-prefsection-rendering|preferences]]. I invite you to [[mw:Talk:Multimedia/About Media Viewer|share what you think]] about Media Viewer and how it can be made better in the future.
+
+Thank you for your time. - [[m:User:Keegan (WMF)|Keegan (WMF)]] 21:29, 23 May 2014 (UTC)
+
+<small>--This message was sent using [[m:MassMessage|MassMessage]]. Was there an error? [[m:Talk:MassMessage|Report it!]]</small>
+</div>
+</br>
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/MassMessage/Multimedia/Media_Viewer&oldid=8631315 -->
+
+== Using only [[commons:Special:MyLanguage/Commons:Upload Wizard|UploadWizard]] for uploads ==
+
+[[Image:Commons-logo.svg|right|220px|alt=Wikimedia Commons logo]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hello! Sorry for writing in English. It was noted that on this wiki upload is not fully functional for users, who will experience a very difficult and/or [[wmf:Resolution:Licensing policy|illegal]] uploading. In fact, the [[MediaWiki:Licenses|licenses/copyright tags dropdown]] is empty, making it hard or impossible to comply with copyright requirements during upload itself.
+
+Presumably, you don't have interest nor energies to have [[commons:Category:Licensing templates|hundreds templates]] with the [[mw:Multimedia/Media Viewer/Template compatibility|now required HTML]], even less a local [[m:EDP|EDP]].
+I propose to have
+* '''[[Special:Upload|local "{{int:upload}}"]] [[commons:Commons:Turning off local uploads|restricted]]''' to the "{{int:group-sysop}}" group (for emergency uploads) and
+* the '''sidebar point to [[commons:Special:UploadWizard]]''',
+so that you can avoid local maintenance and all users can have a functioning, easy upload interface [[translatewiki:Special:Translate/ext-uploadwizard|in their own language]]. All registered users can upload on Commons and [[Special:ListFiles|existing files]] will not be affected.
+
+All this will get done around 2014-07-03.
+# If you disagree with the proposal, just [[m:User:Nemo bis/Unused local uploads|remove your wiki from the list]]. Remember also to create [[MediaWiki:Licenses]] locally with any content (see a [[s:fr:MediaWiki:Licenses|simple example]]), or uploads will be soon disabled anyway by MediaWiki itself (starting in [[mw:MediaWiki_1.24/Roadmap|version 1.24wmf11]]).
+# To make the UploadWizard even better, please tell your experience and ideas on [[commons:Commons:Upload Wizard feedback]].
+
+[[m:User:Nemo_bis|Nemo]] 13:09, 19 Juun 2014 (UTC)
+</div>
+<!-- Message sent by User:Nemo bis@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User_talk:Nemo_bis/Unused_local_uploads&oldid=8940453 -->
+
+== Media Viewer is now live on this wiki ==
+
+<br>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Media_Viewer_Desktop_-_Large_Image_Opaque_Info.png|thumb|Media Viewer lets you see images in larger size]]
+
+Greetings— and sorry for writing in English, please translate if it will help your community,
+
+The Wikimedia Foundation's [[mw:Multimedia|Multimedia team]] is happy to announce that [[mw:Multimedia/About Media Viewer|Media Viewer]] was just released on this site today. 
+
+Media Viewer displays images in larger size when you click on their thumbnails, to provide a better viewing experience. Users can now view images faster and more clearly, without having to jump to separate pages — and its user interface is more intuitive, offering easy access to full-resolution images and information, with links to the file repository for editing. The tool has been tested extensively across all Wikimedia wikis over the past six months as a [[Special:Preferences#mw-prefsection-betafeatures|Beta Feature]] and has been [[mw:Multimedia/Media_Viewer/Release_Plan#Timeline|released]] to the largest Wikipedias, all language Wikisources, and the English Wikivoyage already.
+
+If you do not like this feature, you can easily turn it off by clicking on "Disable Media Viewer" at the bottom of the screen, pulling up the information panel (or in your [[Special:Preferences#mw-prefsection-rendering|your preferences]]) whether you have an account or not. Learn more [[mw:Help:Multimedia/Media_Viewer#How_can_I_turn_off_this_feature.3F|in this Media Viewer Help page]].
+
+Please let us know if you have any questions or comments about Media Viewer. You are invited to [[mw:Talk:Multimedia/About_Media_Viewer|share your feedback in this discussion on MediaWiki.org]] in any language, to help improve this feature. You are also welcome to [https://www.surveymonkey.com/s/media-viewer-1-all?c=announce-all take this quick survey in English], [https://www.surveymonkey.com/s/media-viewer-1-fr en français], [https://www.surveymonkey.com/s/media-viewer-1-es o español].
+
+We hope you enjoy Media Viewer. Many thanks to all the community members who helped make it possible. - [[mw:User:Fabrice Florin (WMF)|Fabrice Florin (WMF)]]  ([[m:User talk:Fabrice Florin (WMF)|talk]]) 21:54, 19 Juun 2014 (UTC)
+
+<small>--This message was sent using [[m:MassMessage|MassMessage]]. Was there an error? [[m:Talk:MassMessage|Report it!]]</small>
+</div>
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/MassMessage/Multimedia/Media_Viewer&oldid=8631315 -->
+
+== Letter petitioning WMF to reverse recent decisions ==
+
+The Wikimedia Foundation recently created a new feature, "superprotect" status. The purpose is to prevent pages from being edited by elected administrators -- but permitting WMF staff to edit them. It has been put to use in only one case: to protect the deployment of the Media Viewer software on German Wikipedia, in defiance of a clear decision of that community to disable the feature by default, unless users decide to enable it.
+
+If you oppose these actions, please add your name to this letter. If you know non-Wikimedians who support our vision for the free sharing of knowledge, and would like to add their names to the list, please ask them to sign an identical version of the letter on change.org.
+* [[:m:Letter to Wikimedia Foundation: Superprotect and Media Viewer|Letter to Wikimedia Foundation: Superprotect and Media Viewer]]
+* [http://www.change.org/p/lila-tretikov-remove-new-superprotect-status-and-permit-wikipedia-communities-to-enact-current-software-decisions-uninhibited Letter on change.org]
+
+-- [[:m:User:JurgenNL|JurgenNL]] ([[:m:User talk:JurgenNL|talk]]) 17:35, 21 Agoosto 2014 (UTC)
+<!-- Message sent by User:JurgenNL@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=9313374 -->
+
+== Process ideas for software development ==
+
+<div class=”mw-content-ltr”>
+’’My apologies for writing in English.’’
+
+Hello,
+
+I am notifying you that a brainstorming session has been [[:m:Community Engagement (Product)/Process ideas|started on Meta]] to help the Wikimedia Foundation increase and better affect community participation in software development across all wiki projects. Basically, how can you be more involved in helping to create features on Wikimedia projects?  We are inviting all interested users to voice their ideas on how communities can be more involved and informed in the product development process at the Wikimedia Foundation. It would be very appreciated if you could translate this message to help inform your local communities as well.
+
+I and the rest of [[:m:Community Engagement (Product)|my team]] welcome you to participate. We hope to see you on Meta.
+
+Kind regards,
+-- [[m:User:Rdicerb (WMF)|Rdicerb (WMF)]] [[m:User talk:Rdicerb (WMF)|talk]] 22:15, 21 Agoosto 2014 (UTC)
+
+<small>--This message was sent using [[m:MassMessage|MassMessage]]. Was there an error? [[m:Talk:MassMessage|Report it!]]</small>
+</div>
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=9313374 -->
+
+== Grants to improve your project ==
+
+:''Apologies for English.  Please help translate this message.''
+Greetings! The [[:m:Grants:IEG|Individual Engagement Grants program]] is accepting proposals for funding new experiments from September 1st to 30th. Your idea could improve Wikimedia projects with a new tool or gadget, a better process to support community-building on your wiki, research on an important issue, or something else we haven't thought of yet. 
+Whether you need $200 or $30,000 USD, Individual Engagement Grants can cover your own project development time in addition to hiring others to help you.
+*'''[[:m:Grants:IEG#ieg-apply|Submit your proposal]]'''
+*'''Get help''': In [[:m:Grants:IdeaLab|IdeaLab]] or an upcoming [[:m:Grants:IdeaLab/Events#Upcoming_events|Hangout session]] [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 16:52, 2 Sebteembar 2014 (UTC)
+<!-- Message sent by User:PEarley (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:PEarley_(WMF)/Sandbox&oldid=9730503 -->
+
+== VisualEditor available on Internet Explorer 11 ==
+
+<div class="mw-content-ltr" lang="en" dir="ltr">
+[[File:VisualEditor-logo.svg|right|frameless|200x200px]]
+
+VisualEditor will become available to users of Microsoft Internet Explorer 11 during today's regular software update.  Support for some earlier versions of Internet Explorer is being worked on.  If you encounter problems with VisualEditor on Internet Explorer, please contact the Editing team by leaving a message at [[:mw:VisualEditor/Feedback|VisualEditor/Feedback]] on Mediawiki.org.  Happy editing, [[:mw:User:Elitre (WMF)|Elitre (WMF)]] 07:29, 11 Sebteembar 2014 (UTC). 
+
+PS. Please subscribe to the [[:m:VisualEditor/Newsletter|global monthly newsletter]] to receive further news about VisualEditor.
+</div>
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/VisualEditor/All_Wikipedias&oldid=9829651 -->
+
+== Monuments of Spain Challenge ==
+
+Excuse me for not speaking Somali yet.
+
+[[:es:Wikimedia España|Wikimedia España]] invites you to join the Monuments of Spain Challenge. And what’s that? It’s a contest. You have to edit, translate or expand articles about the Spanish monuments and you will be granted points. So you’re not just writing about wonderful buildings: you can get prizes!
+
+The time of the contest will include all October and any information you may need is [https://meta.wikimedia.org/wiki/Monuments_of_Spain_Challenge/en right here].
+
+Join in and good luck!
+
+PS: We would be grateful if you could translate this note into Somali.
+
+[[:es:Usuario:B25es|B25es]] on behalf of Wikimedia España.
+
+== VisualEditor News #8—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<div style="float:right;width:230px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]][[File:TemplateData GUI editor with two parameters.png|alt=|centre|frameless|230x230px]]'''Did you know?''' 
+<div class="thumbcaption" style="font-size: 90%;">
+TemplateData is a separate program that organizes information about the parameters that can be used in a template.  VisualEditor reads that data, and uses it to populate its simplified template dialogs.
+
+With the new TemplateData editor, it is easier to add information about parameters, because the ones you need to use are pre-loaded. 
+
+See [[mw:Special:MyLanguage/Help:TemplateData|the help page for TemplateData]] for more information about adding TemplateData.  [[:mw:Special:MyLanguage/Help:VisualEditor/User guide|The user guide]] has information about how to use VisualEditor.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing]] team has reduced technical debt, simplified some workflows for template and citation editing, made major progress on Internet Explorer support, and fixed [https://bugzilla.wikimedia.org/buglist.cgi?list_id=349619&order=priority%252Cbug_severity&product=VisualEditor&query_format=advanced&resolution=FIXED&target_milestone=VE-deploy-2014-08-14&target_milestone=VE-deploy-2014-08-21&target_milestone=VE-deploy-2014-08-28&target_milestone=VE-deploy-2014-09-04&target_milestone=VE-deploy-2014-09-11&target_milestone=VE-deploy-2014-09-18&target_milestone=VE-deploy-2014-09-25&target_milestone=VE-deploy-2014-10-02 over 125 bugs and requests]. Several performance improvements were made, especially to the system around re-using references and reference lists.  Weekly updates are posted [[mw:VisualEditor/status|on Mediawiki.org]]. 
+
+There were three issues that required urgent fixes: a deployment error that meant that many buttons didn't work correctly (bugs [[bugzilla:69856|69856]] and [[bugzilla:69864|69864]]), a problem with edit conflicts that left the editor with nowhere to go ([[bugzilla:69150|bug 69150]]), and a problem in Internet Explorer 11 that replaced some categories with a link to the system message [[MediaWiki:Badtitletext]] ([[bugzilla:70894|bug 70894]]) when you saved. The developers apologize for the disruption, and thank the people who reported these problems quickly.
+
+=== Increased support for devices and browsers ===
+'''Internet Explorer 10 and 11 users now have access to VisualEditor'''. This means that about 5% of Wikimedia's users will now get an "Edit" tab alongside the existing "Edit source" tab.  Support for Internet Explorer 9 is planned for the future.
+
+'''Tablet users''' browsing the site's mobile mode now have the option of using a mobile-specific form of VisualEditor. More editing tools, and availability of VisualEditor on smartphones, is planned for the future. The '''mobile version of VisualEditor''' was tweaked to show the context menu for citations instead of basic references ([[bugzilla:68897|bug 68897]]).  A bug that broke the editor in iOS was corrected and released early ([[bugzilla:68949|bug 68949]]). For mobile tablet users, three bugs related to scrolling were fixed ([[bugzilla:66697|bug 66697]], [[bugzilla:68828|bug 68828]], [[bugzilla:69630|bug 69630]]). You can use VisualEditor on the mobile version of Wikipedia from your tablet by clicking on the cog in the top-right when editing a page and choosing which editor to use.
+
+=== TemplateData editor ===
+'''The tool for editing [[mw:Extension:TemplateData|TemplateData]] has been deployed to 30 more Wikipedias this week.'''  Other Wikipedias and some other projects may receive access next month.  This tool makes it easier to add TemplateData to the template's documentation.  When the tool is enabled, it will add a button above every editing window for a template (including documentation subpages).  To use it, edit the template page or a subpage, and then click the "{{int:templatedata-editbutton}}" button at the top.  Read [[mw:Special:MyLanguage/Help:TemplateData|the help page for TemplateData]].  You can test the TemplateData editor [[mw:Template:Sandbox/doc|in a sandbox at Mediawiki.org]].  Remember that TemplateData should be placed either on a documentation subpage '''''or''''' on the template page itself.  Only one block of TemplateData will be used per template.
+
+=== Other changes ===
+Several interface '''messages and labels were changed''' to be simpler, clearer, or shorter, based on feedback from translators and editors. The formatting of dialogs was changed, and more changes to the appearance will be coming soon, when VisualEditor implements the new MediaWiki theme from Design.  (A preview of the theme is [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|available on Labs]] for developers.)  The team also made some improvements for users of the '''Monobook''' skin that improved the size of text in toolbars and fixed selections that overlapped menus.
+
+VisualEditor-MediaWiki now supplies the <code class="mw-content-ltr" lang="en" dir="ltr">mw-redirect</code> and <code class="mw-content-ltr" lang="en" dir="ltr">mw-disambig</code> class on '''links to redirects and disambiguation pages''', so that user gadgets that colour in these types of links can be created.
+
+'''Templates' fields can be marked as '<code class="mw-content-ltr" lang="en" dir="ltr">required</code>' '''in TemplateData.  If a parameter is marked as required, then you cannot delete that field when you add a new template or edit an existing one ([[bugzilla:60358|bug 60358]]). 
+
+Language support improved by making annotations use bi-directional isolation (so they display correctly with cursoring behaviour as expected) and by fixing a bug that crashed VisualEditor when trying to edit a page with a <code class="mw-content-ltr" lang="en" dir="ltr">dir</code> attribute but no <code class="mw-content-ltr" lang="en" dir="ltr">lang</code> set ([[bugzilla:69955|bug 69955]]). 
+
+=== Looking ahead ===
+The team posts details about planned work on the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].  The VisualEditor team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' soon, perhaps in late October.        
+
+The team is also working on support for '''adding rows and columns to tables''', and early work for this may appear within the month.  <mark>Please comment on the design [[:mw:VisualEditor/Design/Table editor#Design Workflow for comments|at Mediawiki.org]].</mark>
+
+In the future, real-time collaborative editing may be possible in VisualEditor.  Some early preparatory work for this was recently done. 
+
+=== Supporting your wiki ===
+
+At Wikimania, several developers gave presentations about VisualEditor.  A translation sprint focused on improving access to VisualEditor was supported by many people.  '''Deryck Chan''' was the top translator.  Special honors also go to '''संजीव कुमार (Sanjeev Kumar)''', '''Robby''', '''Takot''', '''Bachounda''', '''Bjankuloski06''' and '''Ата'''.  A [[mw:VisualEditor/Translathon#Highlights from the Translathon|summary]] of the work achieved by the translation community is available.  Thank you all for your work.      
+
+This was the first translatable VisualEditor newsletter, so thanks to everybody who made this possible! If it hasn't been delivered in your language, and you'd like to help with translations in the future, please subscribe to the [[mail:translators-l|Translators mailing list]] or contact <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>, so that you will be notified when the next issue is due.      
+
+VisualEditor can be made available to most non-Wikipedia projects.  If your community would like to test VisualEditor, please contact product manager <span class="mw-content-ltr" lang="en" dir="ltr">[[m:User talk:Jdforrester (WMF)|James Forrester]]</span> or file an [https://bugzilla.wikimedia.org/enter_bug.cgi?product=VisualEditor&component=General enhancement request in Bugzilla].    
+
+Please join the [[:m:IRC office hours|office hours]] on Saturday, 18 October 2014 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=18&min=00&sec=0&day=18&month=10&year=2014 18:00 UTC] (daytime for the Americas; evening for Africa and Europe) and on Wednesday, 19 November at [http://www.timeanddate.com/worldclock/fixedtime.html?msg=VisualEditor+office+hour+for+November&iso=20141119T16&p1=1440 16:00 UTC] on [[:w:IRC|IRC]].
+
+''Give feedback on VisualEditor at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback.]]  Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!''  —<span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 09:49, 13 Oktoobar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/MassMessage/VE_Global_Newsletter&oldid=10123380 -->
+
+== Meta RfCs on two new global groups ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">Hello all, 
+
+There are currently requests for comment open on meta to create two new global groups. The first is a group for members of the OTRS permissions queue, which would not contain any additional user rights. That proposal can be found at [[m:Requests for comment/Creation of a global OTRS-permissions user group]]. The second is a group for Wikimedia Commons admins and OTRS agents to view deleted file pages through the 'viewdeletedfile' right on all wikis except those who opt-out. The second proposal can be found at [[m:Requests for comment/Global file deletion review]].
+
+We would like to hear what you think on both proposals. Both are in English; if you wanted to translate them into your native language that would also be appreciated.
+
+It is possible for individual projects to opt-out, so that users in those groups do not have any additional rights on those projects. To do this please start a local discussion, and if there is consensus you can request to opt-out of either or both at [[m:Stewards' noticeboard]].
+
+Thanks and regards, [[m:User:Ajraddatz|Ajraddatz]] ([[m:User talk:Ajraddatz|talk]]) 18:04, 26 Oktoobar 2014 (UTC)</div>
+<!-- Message sent by User:Ajraddatz@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=10024331 -->
+
+== New Wikipedia Library Accounts Now Available (November 2014) ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''Apologies for writing in English, please help translate this into your local language.''
+Hello Wikimedians! 
+[[File:Wikipedia_Library_owl.svg|thumb|150px|The TWL OWL says sign up today :)]]
+[[m:The Wikipedia Library|The Wikipedia Library]] is announcing signups today for, free, full-access accounts to published research as part of our [[m:The_Wikipedia_Library/Journals|Publisher Donation Program]]. You can sign up for:
+
+*'''DeGruyter''': 1000 new accounts for English and German-language research. Sign up on one of two language Wikipedias:
+**[[w:en:Wikipedia:De_Gruyter|English signup]] 
+**[[w:de:Wikipedia:De_Gruyter|Deutsch signup]] 
+*'''[[w:en:Wikipedia:Fold3|Fold3]]''': 100 new accounts for American history and military archives
+*'''[[w:en:Wikipedia:ScotlandsPeople|Scotland's People]]''': 100 new accounts for Scottish genealogy database
+*'''[[w:en:Wikipedia:BNA|British Newspaper Archive]]''': expanded by 100+ accounts for British newspapers 
+*'''[[w:en:Wikipedia:HighBeam|Highbeam]]''': 100+ remaining accounts for newspaper and magazine archives
+*'''[[w:en:Wikipedia:Questia| Questia]]''': 100+ remaining accounts for journal and social science articles
+*'''[[w:en:Wikipedia:JSTOR|JSTOR]]''': 100+ remaining accounts for journal archives
+
+Do better research and help expand the use of high quality references across Wikipedia projects: sign up today!
+<br>--[[w:en:Wikipedia:TWL/Coordinators|The Wikipedia Library Team]].23:19, 5 Nofeembar 2014 (UTC)
+
+:''You can host and coordinate signups for a Wikipedia Library branch in your own language. Please contact [[m:User:Ocaasi_(WMF)|Ocaasi (WMF)]].''<br>
+:<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
+</div>
+<!-- Message sent by User:Sadads@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=9909230 -->
+
+== Global AbuseFilter ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">Hello,
+
+[[mw:Special:MyLanguage/Extension:AbuseFilter|AbuseFilter]] is a MediaWiki extension used to detect likely abusive behavior patterns, like pattern vandalism and spam. In 2013, [[m:Special:Mylanguage/Global AbuseFilter|Global AbuseFilters]] were enabled on a limited set of wikis including Meta-Wiki, MediaWiki.org, Wikispecies and (in early 2014) all the "[https://noc.wikimedia.org/conf/highlight.php?file=small.dblist small wikis]". Recently, global abuse filters were enabled on "[https://noc.wikimedia.org/conf/highlight.php?file=medium.dblist medium sized wikis]" as well. These filters are currently managed by stewards on Meta-Wiki and have shown to be very effective in preventing mass spam attacks across Wikimedia projects. However, there is currently no policy on how the global AbuseFilters will be managed although there are proposals. There is an ongoing [[m:Requests for comment/Global AbuseFilter|request for comment]] on policy governing the use of the global AbuseFilters. In the meantime, specific wikis can opt out of using the global AbuseFilter. These wikis can simply add a request to [[m:Global AbuseFilter/Opt-out wikis|this list]] on Meta-Wiki. More details can be found on [[m:Special:Mylanguage/Global AbuseFilter/2014 announcement|this page]] at Meta-Wiki. If you have any questions, feel free to ask on [[m:Talk:Global AbuseFilter|m:Talk:Global AbuseFilter]].
+
+Thanks,
+
+[[m:User:PiRSquared17|PiRSquared17]], [[m:User:Glaisher|Glaisher]]</div> — 17:34, 14 Nofeembar 2014 (UTC)
+<!-- Message sent by User:Glaisher@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_AbuseFilter/2014_announcement_distribution_list&oldid=10495115 -->
+
+== VisualEditor News #9—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+<div style="float:right;width:230px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]][[File:VisualEditor - moble tablet switching.png|alt=Screenshot on an iPad, showing how to switch from one editor to the other|centre|frameless|230x230px]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">
+
+VisualEditor is also available on the mobile version of Wikipedia. Log in and click the pencil icon to open the page you want to edit. Click on the gear-shaped settings button in the upper-right corner to pick which editor to use. Choose "{{int:Mobile-frontend-editor-visual-editor}}" to use VisualEditor, or "{{int:Mobile-frontend-editor-source-editor}}" to use the wikitext editor.
+
+It will remember whether you used wikitext or VisualEditor, and use the same editor the next time you edit an article.  
+
+[[:mw:VisualEditor/User guide|The user guide]] has information about how to use VisualEditor. Not all features are available on the mobile website.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] has fixed many [https://bugzilla.wikimedia.org/buglist.cgi?list_id=355757&product=VisualEditor&query_format=advanced&resolution=FIXED&target_milestone=VE-deploy-2014-10-09&target_milestone=VE-deploy-2014-10-16&target_milestone=VE-deploy-2014-10-23%20%281.25wmf5%29&target_milestone=VE-deploy-2014-10-29%20%281.25wmf6%29 bugs and requests], and worked on support for editing tables and for using non-Latin languages. Their weekly updates are posted [[mw:VisualEditor/status|on Mediawiki.org]]. Informal notes from the recent quarterly review were posted [[m:WMF_Metrics_and_activities_meetings/Quarterly_reviews/Editing/October_2014|on Meta]]. 
+
+=== Recent improvements ===
+Basic support for '''inserting tables''' and changing the number of rows and columns in them was just introduced to Wikipedias. Advanced features, like dragging columns to different places, will be added later. 
+
+To help editors find the most important items more quickly, some items in the toolbar menus are now hidden behind '''a "{{int:Ooui-toolbar-more}}" item''', such as "{{int:Visualeditor-annotationbutton-underline-tooltip}}" in the styling menu.
+
+The French Wikipedia should see '''better search results''' for links, templates, and media because the [[:mw:Help:CirrusSearch|new search engine]] was turned on for everyone there. This change is expected at the Chinese and German Wikipedias this week, and the following week at the English Wikipedia. 
+
+The "pawn" system has been mostly replaced. Bugs in this system sometimes added a chess pawn character to wikitext. The replacement provides better support for '''non-Latin languages''', with full support hopefully coming soon. 
+
+VisualEditor is now provided to editors who use '''Internet Explorer''' 10 or 11 on desktop and mobile devices. Internet Explorer 9 is not supported yet.
+
+The '''keyboard shortcuts''' for items in the toolbar menus are now shown in the menus.  
+
+VisualEditor will replace the existing design with a '''new theme''' from the [[mw:Design|User Experience/Design group]]. The appearance of dialog boxes has already changed in the mobile version. The appearance on desktops will change soon. You are welcome to compare [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-apex-vector-ltr|the old "Apex" design]] and [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|the new "MediaWiki" theme]] which will replace it.
+
+Several bugs were fixed for internal and external links. Improvements to MediaWiki's search solved an annoying problem: If you searched for the full name of the page or file that you wanted to link, sometimes the search engine could not find the page. A link inside a template to a local page that does not exist will now show red, exactly as it does when reading the page. Due to an error, for about two weeks this also affected all external links inside templates. Opening an auto-numbered link node like [http://example.com] with the keyboard used to open the wrong link tool. These problems have all been fixed.
+
+=== TemplateData ===
+
+'''The tool for quickly editing [[mw:Extension:TemplateData|TemplateData]] has been deployed to all Wikimedia Foundation wikis on Thursday, 6 November.''' This tool was already available on the biggest 40 Wikipedias, and now all wikis will have access to it. This tool makes it easier to add TemplateData to the template's documentation. When the tool is enabled, it will add a button above every editing window for a template (including documentation subpages). To use it, edit the template or a subpage, and then click the "{{int:templatedata-editbutton}}" button at the top. Read [[mw:Help:TemplateData|the help page for TemplateData]] to learn more about it. You can test the TemplateData editor [[mw:Template:Sandbox/doc|in a sandbox at Mediawiki.org]]. Remember that TemplateData should be placed either on a documentation subpage '''''or''''' on the template page itself. Only one block of TemplateData will be used per template.
+
+You can use the '''new autovalue setting''' to pre-load a value into a template. This can be used to substitute dates, as in [https://en.wikipedia.org/w/index.php?diff=632356794&oldid=632356402 this example], or to add the most common value for that parameter. The autovalue can be overridden by the editor, by typing something else in the field.
+
+In TemplateData, you may '''define a parameter as "required"'''.  The template dialog box in VisualEditor will warn editors if they leave a "required" parameter empty, and they will not be able to delete that parameter. If the template can function without this parameter, then please mark it as "{{int:Templatedata-doc-param-status-suggested}}" or "{{int:Templatedata-doc-param-status-optional}}" in TemplateData instead.
+
+=== Looking ahead ===
+
+The VisualEditor team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' soon. The appearance of the media search dialog will improve, to make picking between possible images easier and more visual. The team posts details about planned work on the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].        
+
+The [[mw:Help:VisualEditor/User_guide|user guide]] is being updated to add information about editing tables.
+The translations of the user guide for most languages except Spanish, French, and Dutch are significantly out of date. '''Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&action=page&filter= complete the current translations]''' for users who speak your language.  [https://en.wikipedia.org/w/index.php?title=User_talk:Whatamidoing_(WMF)&action=edit&section=new Talk to us] if you need help exporting the translated guide to your wiki.        
+    
+'''You can influence VisualEditor's design'''! Tell the VisualEditor team what you want changed during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next sessions are on Wednesday, 19 November at [http://www.timeanddate.com/worldclock/fixedtime.html?msg=VisualEditor+office+hour+for+November&iso=20141119T16&p1=1440 16:00 UTC] and on Wednesday 7 January 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=22&min=00&sec=0&day=7&month=1&year=2015 22:00 UTC]. You can also share your ideas at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback.]]
+
+Also, '''user experience researcher''' [[:mw:User:ARipstra (WMF)|Abbey Ripstra]] is looking for editors to show her how they edit Wikipedia. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for the research program] if you would like to hear about opportunities.
+
+If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or contact [https://www.mediawiki.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new us] directly, so that we can notify you when the next issue is ready. Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!
+—<span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+
+</div> 23:29, 14 Nofeembar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/MassMessage/VE_Global_Newsletter&oldid=10491257 -->
+
+== New Wikipedia Library Accounts Now Available (December 2014) ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''Apologies for writing in English, please help translate this into your local language.''
+Hello Wikimedians! 
+[[File:Wikipedia_Library_owl.svg|thumb|150px|The TWL OWL says sign up today :)]]
+[[m:The Wikipedia Library|The Wikipedia Library]] is announcing signups today for, free, full-access accounts to published research as part of our [[m:The_Wikipedia_Library/Journals|Publisher Donation Program]]. You can sign up for new accounts and research materials from:
+
+*[[w:en:WP:ELSEVIER|Elsevier]] - science and medicine journals and books
+*[[w:en:WP:RSC Gold|Royal Society of Chemistry]] - chemistry journals
+*[[w:en:wp:Pelican Books|Pelican Books]] - ebook monographs
+*[[w:en:WP:Public Catalogue Foundation|Public Catalogue Foundation]]- art books
+
+Other partnerships with accounts available are listed on [[w:en:WP:The_Wikipedia_Library/Journals|our partners page]]. Do better research and help expand the use of high quality references across Wikipedia projects: sign up today!
+<br>--[[w:en:Wikipedia:TWL/Coordinators|The Wikipedia Library Team]].00:22, 18 Diseembar 2014 (UTC)
+
+:''You can host and coordinate signups for a Wikipedia Library branch in your own language. Please contact [[m:User:Ocaasi_(WMF)|Ocaasi (WMF)]].''<br>
+:<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
+</div>
+<!-- Message sent by User:Sadads@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=10542996 -->
+
+== VisualEditor News #10—2014 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<div style="margin:0.5em;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}width:230px;border:1px solid #AAA;padding:0.5em">
+[[File:VisualEditor-logo.svg|200x70px|center|frameless|alt=VisualEditor]]
+[[File:VisualEditor table editing add and remove columns.png|230x230px|center|frameless|alt=Screenshot showing how to add or remove columns from a table]]
+'''Did you know?'''
+<div class="thumbcaption" style="font-size:90%;">
+Basic table editing is now available in VisualEditor. You can add and remove rows and columns from tables at the click of a button.
+
+[[:mw:VisualEditor/User guide|The user guide]] has more information about how to use VisualEditor.
+</div>
+</div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] has fixed many bugs and worked on table editing and performance. Their weekly status reports are posted [[mw:VisualEditor/status|on mediawiki.org]]. Upcoming plans are posted at the [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].
+
+'''VisualEditor was deployed to several hundred remaining wikis''' as an opt-in [[Special:Preferences#mw-prefsection-betafeatures|beta feature]] at the end of November, except for most Wiktionaries (which depend heavily upon templates) and all Wikisources (which await integration with [[mw:Extension:Proofread Page|ProofreadPage]]).
+
+=== Recent improvements ===
+
+Basic support for '''editing tables''' is now available. You can add and delete tables, add and remove rows and columns, set or remove a caption for a table, and merge cells together. To change the contents of a cell, double-click inside it. More features will be added in the coming months. In addition, VisualEditor now ignores broken, invalid <code class="mw-content-ltr" lang="en" dir="ltr">rowspan</code> and <code class="mw-content-ltr" lang="en" dir="ltr">colspan</code> elements, instead of trying to repair them.
+
+You can now use '''find and replace''' in VisualEditor, reachable through the tool menu or by pressing <kbd><code class="mw-content-ltr" lang="en" dir="ltr">^ Ctrl</code></kbd>+<kbd><code class="mw-content-ltr" lang="en" dir="ltr">F</code></kbd> or <kbd><code class="mw-content-ltr" lang="en" dir="ltr">⌘ Cmd</code></kbd>+<kbd><code class="mw-content-ltr" lang="en" dir="ltr">F</code></kbd>.
+
+You can now create and edit simple <code class="mw-content-ltr" lang="en" dir="ltr"><nowiki><blockquote></nowiki></code> paragraphs for quoting and indenting content. This changes a "{{Int:Visualeditor-formatdropdown-format-paragraph}}" into a "{{Int:Visualeditor-formatdropdown-format-blockquote}}".
+
+Some '''new keyboard sequences''' can be used to format content. At the start of the line, typing "<code class="mw-content-ltr" lang="en" dir="ltr">* </code>" will make the line a bullet list; "<code class="mw-content-ltr" lang="en" dir="ltr">1.</code>" or "<code class="mw-content-ltr" lang="en" dir="ltr">#</code>" will make it a numbered list; "<code class="mw-content-ltr" lang="en" dir="ltr">==</code>" will make it a section heading; "<code class="mw-content-ltr" lang="en" dir="ltr">: </code>" will make it a blockquote. If you didn't mean to use these tools, you can press undo to undo the formatting change.
+
+There are also two other keyboard sequences: "<code class="mw-content-ltr" lang="en" dir="ltr"><nowiki>[[</nowiki></code>" for opening the link tool, and "<code class="mw-content-ltr" lang="en" dir="ltr"><nowiki>{{</nowiki></code>" for opening the template tool, to help experienced editors. The existing standard keyboard shortcuts, like <kbd><code class="mw-content-ltr" lang="en" dir="ltr">^ Ctrl</code></kbd>+<code class="mw-content-ltr" lang="en" dir="ltr">K</code> to open the link editor, still work. 
+
+If you add a category that has been redirected, then VisualEditor now adds its target. Categories without description pages show up as red.
+
+You can again create and edit '''galleries''' as wikitext code.
+
+=== Looking ahead ===
+
+The current VisualEditor design will be replaced with a '''new theme''' designed by the [[mw:Design|User Experience group]]. The new theme will be visible for desktop systems at mediawiki.org in late December and on other sites in early January. (You can see a developer preview of [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-apex-vector-ltr|the old "Apex" theme]] and [[toollabs:oojs-ui/oojs-ui/demos/index.html#widgets-mediawiki-vector-ltr|the new "MediaWiki" one]] which will replace it.)
+
+The Editing team [[mw:Cite-from-id|plans to add '''auto-fill features''']] '''for citations''' in January.
+
+Planned changes to the media search dialog will make choosing between possible images easier.
+
+=== Let's work together ===
+
+* Share your ideas and ask questions at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback]].
+* Translations of the [[mw:Help:VisualEditor/User_guide|user guide]] for most languages are outdated. Only Ukrainian, Portuguese, Spanish, French, and Dutch translations are nearly current. Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&language=&action=page&filter= complete the current translations] for users who speak your language.
+* Talk to the Editing team during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next session is on Wednesday, 7 January 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=22&min=00&sec=0&day=7&month=1&year=2015 22:00 UTC].
+* File requests for language-appropriate "{{Int:visualeditor-annotationbutton-bold-tooltip}}" and "{{Int:visualeditor-annotationbutton-italic-tooltip}}" icons for the character formatting menu [https://phabricator.wikimedia.org/maniphest/task/create/?projects=PHID-PROJ-dafezmpv6huxg3taml24 in Phabricator].
+* The design research team wants to see how real editors work. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for their research program].
+* If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]]. Thank you!
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 
+18:59, 26 Diseembar 2014 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=10823356 -->
+
+== VisualEditor News #1—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+[[File:VisualEditor-logo.svg|300px|right|frameless|alt=VisualEditor]]
+Since the last newsletter, the  [[mw:VisualEditor|Editing Team]] has fixed many bugs and worked on VisualEditor's appearance, the coming Citoid reference service, and support for languages with complex input requirements. 
+Status reports are posted [[mw:VisualEditor/status|on mediawiki.org]]. Upcoming plans are posted at the  [[mw:VisualEditor/Roadmap|VisualEditor roadmap]].  
+
+The Wikimedia Foundation has named [[:mw:Wikimedia_Engineering/2014-15_Goals#Top_departmental_priorities_for_Q3_.28January-March_2015.29|its top priorities for this quarter]] (January to March). The first priority is making VisualEditor ready for deployment by default to all new users and logged-out users at the remaining large Wikipedias. You can help identify these requirements. <mark>There will be weekly '''triage meetings '''which''' will be open to volunteers''' beginning Wednesday, 11 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20150211T12&p1=224&ah=1 12:00 (noon) PST] (20:00 UTC). </mark> Tell Vice President of Engineering [[:foundation:User:Damon_Sicore_(WMF)|Damon Sicore]], Product Manager [[:mw:User:Jdforrester_(WMF)|James Forrester]] and other team members which bugs and features are most important to you. The decisions made at these meetings will determine what work is necessary for this quarter's goal of making VisualEditor ready for deployment to new users. The presence of volunteers who enjoy contributing MediaWiki code is particularly appreciated. Information about how to join the meeting will be posted at [[:mw:Talk:VisualEditor/Portal|mw:Talk:VisualEditor/Portal]] shortly before the meeting begins. 
+
+Due to some breaking changes in MobileFrontend and VisualEditor, VisualEditor was not working correctly on the mobile site for a couple of days in early January. The teams apologize for the problem. 
+
+=== Recent improvements === 
+
+The''' new design for VisualEditor''' aligns with MediaWiki's [[mw:Frontend standards group|Front-End Standards]] as led by the Design team. Several new versions of the [[mw:OOjs UI|OOjs UI]] library have also been released, and these also affect the appearance of VisualEditor and other MediaWiki software extensions. Most changes were minor, like changing the text size and the amount of white space in some windows. Buttons are consistently color-coded to indicate whether the action:
+* starts a new task, like opening the {{int:visualeditor-toolbar-savedialog}} dialog: <span style="background-color: #015ccc; color:white"> blue </span>, 
+* takes a constructive action, like inserting a citation:  <span style="background-color: #008c6d; color:white"> green </span>,
+* might remove or lose your work, like removing a link:  <span style="background-color: #a7170f; color:white">  red </span>,  or  
+* is neutral, like opening a link in a new browser window:  <span style="color: 757575">  gray </span>.  
+The '''TemplateData editor''' has been completely re-written to use a different design based on the same OOjs UI system as VisualEditor.   ([https://phabricator.wikimedia.org/T67815 T67815], [https://phabricator.wikimedia.org/T73746 T73746].) This change fixed a couple of existing bugs and improved usability. ([https://phabricator.wikimedia.org/T73077 T73077], [https://phabricator.wikimedia.org/T73078 T73078].) 
+
+'''Search and replace''' in long documents is now faster. It does not highlight every occurrence if there are more than 100 on-screen at once.([https://phabricator.wikimedia.org/T78234 T78234].)
+
+Editors at the Hebrew and Russian Wikipedia requested the ability to use VisualEditor in the "Article Incubator" or drafts namespace. ([https://phabricator.wikimedia.org/T86688 T86688], [https://phabricator.wikimedia.org/T87027 T87027].) If your community would like '''VisualEditor enabled on another namespace''' on your wiki, then you can file a request in Phabricator. Please include a link to a community discussion about the requested change.
+
+=== Looking ahead === 
+
+The Editing team will soon add '''auto-fill features''' '''for citations'''. The '''[[mw:Citoid|Citoid service]]''' takes a [[w:URL|URL]] or [[w:en: Digital object identifier|DOI]] for a reliable source, and returns a pre-filled, pre-formatted bibliographic citation. After creating it, you will be able to change or add information to the citation, in the same way that you edit any other pre-existing citation in VisualEditor. Support for ISBNs, PMIDs, and other identifiers is planned. Later, editors will be able to contribute to the Citoid service's definitions for each website, to improve precision and reduce the need for manual corrections.   
+
+We will need editors to help test the '''new design of the special character inserter''', especially if you speak Welsh, Breton, or another language that uses diacritics or special characters extensively. The new version should be available for testing next week. Please contact [[:en:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] if you would like to be notified when the new version is available. After the special character tool is completed, VisualEditor will be deployed to all users at [[:mw:VisualEditor/Rollouts|Phase 5 Wikipedias]]. This will affect about 50 mid-size and smaller Wikipedias, including '''Afrikaans, Azerbaijani, Breton, Kyrgyz, Macedonian, Mongolian, Tatar, and Welsh'''. The date for this change has not been determined. 
+
+=== Let's work together === 
+
+
+*Share your ideas and ask questions at [[mw:VisualEditor/Feedback|mw:VisualEditor/Feedback]]. 
+*Please help [https://www.mediawiki.org/w/index.php?title=Special:Translate&group=page-Help%3AVisualEditor%2FUser+guide&language=&action=page&filter=  complete translations of the user guide] for users who speak your language. 
+*Join the weekly bug triage meetings beginning Wednesday, 11 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20150211T12&p1=224&ah=1 12:00 (noon) PST] (20:00 UTC); information about how to join the meeting will be posted at [[mw:Talk:VisualEditor/Portal]] shortly before the meeting begins, and you can also contact [[mw:User:Jdforrester (WMF)|James F.]] to learn more about this initiative. 
+*Talk to the Editing team during the [[:m:IRC office hours|office hours]] via [[:en:IRC|IRC]]. The next session is on Thursday, 19 February 2015 at [http://www.timeanddate.com/worldclock/fixedtime.html?hour=19&min=00&sec=0&day=19&month=2&year=2015 19:00 UTC].  
+*Subscribe or unsubscribe at [[:m:VisualEditor/Newsletter|Meta]].  If you would like to help with translations of this newsletter, please subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready.  Thank you! 
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:m:User:Elitre (WMF)|Elitre (WMF)]]</span>
+</div> 18:30, 5 Febraayo 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=10839689 -->
+
+== IMPORTANT: Admin activity review ==
+Hello. A policy regarding the removal of "advanced rights" (administrator, bureaucrat, etc) was adopted by [[:m:Requests for comment/Activity levels of advanced administrative rights holders|global community consensus]] in 2013. According to this policy, the [[:m:stewards|stewards]] are reviewing administrators' activity on all Wikimedia Foundation wikis with no inactivity policy. To the best of our knowledge, your wiki does not have a formal process for removing "advanced rights" from inactive accounts. This means that the stewards will take care of this according to the [[:m:Admin activity review|admin activity review]].
+
+We have determined that the following users meet the inactivity criteria (no edits and no log actions for more than 2 years):
+#Mimursal (administrator)
+
+These users will receive a notification soon, asking them to start a community discussion if they want to retain some or all of their rights. If the users do not respond, then their advanced rights will be removed by the stewards.
+
+However, if you as a community would like to create your own activity review process superseding the global one, want to make another decision about these inactive rights holders, or already have a policy that we missed, then please notify the [[:m:Stewards' noticeboard|stewards on Meta-Wiki]] so that we know not to proceed with the rights review on your wiki. Thanks, [[meta:User:Openbk|Openbk]] ([[meta:User talk:Openbk|talk]]) 18:37, 6 Febraayo 2015 (UTC)
+
+== [Global proposal] m.{{SITENAME}}.org: {{int:group-all}} {{int:right-edit}} ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Mediawiki-mobile-smartphone.png|thumb|MediaWiki mobile]]
+Hi, this message is to let you know that, on domains like {{CONTENTLANGUAGE}}.'''m'''.wikipedia.org, '''unregistered users cannot edit'''. At the Wikimedia Forum, where global configuration changes are normally discussed, a few dozens users [[m:Wikimedia Forum#Proposal: restore normal editing permissions on all mobile sites|propose to restore normal editing permissions on all mobile sites]]. Please read and comment!
+
+Thanks and sorry for writing in English, [[m:User:Nemo_bis|Nemo]] 22:33, 1 Maarso 2015 (UTC)
+</div>
+<!-- Message sent by User:Nemo bis@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=11428885 -->
+
+== New Wikipedia Library Accounts Available Now (March 2015) ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''Apologies for writing in English, please help translate this into your local language.''
+Hello Wikimedians! 
+[[File:Wikipedia_Library_owl.svg|thumb|150px|The TWL OWL says sign up today!]]
+[[m:The Wikipedia Library|The Wikipedia Library]] is announcing signups today for, free, full-access accounts to published research as part of our [[m:The_Wikipedia_Library/Journals|Publisher Donation Program]]. You can sign up for new accounts and research materials from:
+
+*[[w:en:WP:Project MUSE|Project MUSE]] — humanities and social science books and journals
+*[[w:en:Wikipedia:DynaMed|DynaMed]] — clinical reference tool for medical topics
+*[[w:en:Wikipedia:Royal Pharmaceutical Society|Royal Pharmaceutical Society]] — pharmaceutical information and practice resources
+*[[w:en:Wikipedia:Women_Writers_Online|Women Writers Online]] — a digital humanities database focused on women's literature
+*[[w:en:Wikipedia:Newspapers.com|Newspapers.com]] — American newspapers database w/ Open Access opportunities (expansion of accounts)
+
+Many other partnerships with accounts available are listed on [[w:en:WP:The_Wikipedia_Library/Journals|our partners page]]. Do better research and help expand the use of high quality references across Wikipedia projects: sign up today!
+<br>--[[w:en:Wikipedia:TWL/Coordinators|The Wikipedia Library Team]] 21:14, 2 Maarso 2015 (UTC)
+
+:''Help us coordinate Wikipedia Library's distribution of accounts, communication of access opportunities and more! Please join our team at [[w:en:Wikipedia:The_Wikipedia_Library/Coordinators/Signup|our new coordinator page]].''<br>
+:<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
+</div>
+<!-- Message sent by User:Sadads@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=10785744 -->
+
+== Inspire Campaign: Improving diversity, improving content ==
+
+This March, we’re organizing an Inspire Campaign to encourage and support new ideas for improving gender diversity on Wikimedia projects. Less than 20% of Wikimedia contributors are women, and many important topics are still missing in our content. We invite all Wikimedians to participate. If you have an idea that could help address this problem, please get involved today! The campaign runs until March 31.
+
+All proposals are welcome - research projects, technical solutions, community organizing and outreach initiatives, or something completely new! Funding is available from the Wikimedia Foundation for projects that need financial support. Constructive, positive feedback on ideas is appreciated, and collaboration is encouraged - your skills and experience may help bring someone else’s project to life. Join us at the Inspire Campaign and help this project better represent the world’s knowledge!
+:*[[:m:Grants:IdeaLab/Inspire|Inspire Campaign main page]]
+''(Sorry for the English - please translate this message!)'' [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 20:01, 4 Maarso 2015 (UTC)
+<!-- Message sent by User:PEarley (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:PEarley_(WMF)/Inspire_Mass_Message&oldid=11457822 -->
+
+== SUL finalization update ==
+
+<div class="mw-content-ltr">
+Hi all,apologies for writing in English, please read [[m:Single_User_Login_finalisation_announcement/Schema_announcement|this page]] for important information and an update involving [[m:Help:Unified login|SUL finalization]], scheduled to take place in one month. Thanks. [[m:User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]]) 19:45, 13 Maarso 2015 (UTC)
+</div>
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=User:Keegan_(WMF)/Everyone_but_meta_and_de&oldid=11538208 -->
