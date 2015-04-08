@@ -1,0 +1,51 @@
+[[File:6sided dice.jpg|thumb|wax loo adeegsadi Itimaalka.]]
+
+Ku-tiirsaneyaasha ururka {a.b.c} waxaad u ratibi kartaa lix siyaabood oo kala duwan:
+
+{| class="wikitable"
+|-
+| abc || bac || cab 
+|-
+| acb|| bca || cba 
+|}
+
+Rattibaad kasta waxay kaga duwantahay tan kale horsiimada ku-tiirsanayaasha.
+
+Raabaqaad waa rattibaad kasta oo ku-tiirsaneyaasha urur la siinayo horsiimo huban.
+
+Abnaqanka n oo loo qoro n! waa taranka tirsiimada laga bilaabo 1 ilaa n taasoo ah:
+
+n! = 1.2.3.4.... (n----3) (n----2) (n----1) n.
+
+Matalan 5! = 1.2.3.4.5. = 120
+
+Ogoow 0! = 1, sidoo kale 1! = 1
+
+Sumadda <math> n{P}r </math> waxay u taagantahay raabaqaad n shey oo markiiba la qaato r shey sida, <math> 8 {P} 3 </math> waa tirada raabaqaad 8 shey oo markiiba la qaat qaatay 3 shey.
+
+Tirada raabaqaad n shey oo kala duwan oo markiiba r shey la israacsho waxay la mid tahay
+
+:<math> n{P}r </math> n (n -- 1) (n -- 2) . . . (n-- r + 1)
+= :<math> \frac{n}{(n - r)}_!\,</math>
+
+Haddii r = n  
+
+<math> n{P}r </math> = <math> n{P}n </math> = (n -- 2) (n -- 2) .... 3.2.1 = n!
+
+Tusaale
+
+b) :<math>5{P}1,</math> = 5; :<math>5{P}2,</math> = 5.4 = 20; :<math>5{P}3,</math> = 5.4.3 = 60
+
+:<math>5{P}4,</math> = 5.4.3.2 = 120
+
+:<math>5{P}5,</math> = 5.4.3.2.1 = 120
+
+t) Tirada siyaalaha afar qof ay ugu fariisan karaan 6 kursi waa
+
+:<math>6{P}4,</math> = 6.5.4.3 = 360
+
+j) Imisa siyaabood ayaa loo safi karaa shan buug oo kala duwan? taasi waxay ka dhigantahay tirada raabaqaadka shan buug oo la qaato markiiba 5, ama :<math>5{P}5,</math> waa imisa?
+
+:<math>5{P}5,</math> = 5! = 5.4.3.2.1 = 120
+
+[[Category:Xisaab]]
