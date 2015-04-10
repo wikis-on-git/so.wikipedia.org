@@ -4,3 +4,72 @@
 
 Hello, I made [[:m:Requests_for_comment/Confirmation_of_stewards|a proposal on Meta]] to change the rules for the steward confirmations. Currently consensus to remove is required for a steward to lose his status, however I think it's fairer to the community if every steward needed the consensus to keep. As this is an issue that affects all WMF wikis, I'm sending this notification to let people know & be able to participate. Best regards, --<small>[[User:MF-Warburg|MF-W]]</small> 16:12, 10 Abriil 2015 (UTC)
 <!-- Message sent by User:MF-Warburg@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=11737694 -->
+
+== VisualEditor News #2—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=VisualEditor]]
+
+
+'''Did you know?'''
+<div class="thumbcaption" style="font-size: 90%;">
+With [[:mw:Citoid|Citoid]] in VisualEditor, you click the 'book with bookmark' icon and paste in the URL for a reliable source:
+
+
+[[File:Citoid in VisualEditor Screen Shot 2015-04-02.png|alt=Screenshot of Citoid's first dialog|centre|frameless|230x230px]]
+
+
+Citoid looks up the source for you and returns the citation results.  Click the green "Insert" button to accept its results and add them to the article:  
+
+
+[[File:Citoid results in VisualEditor Screen Shot 2015-04-02.png|alt=Screenshot of Citoid's initial results|centre|frameless|230x230px]]
+
+
+After inserting the citation, you can change it.  Select the reference, and click the "Edit" button in the context menu to make changes.
+
+[[:mw:Special:MyLanguage/VisualEditor/User guide|The user guide]] has more information about how to use VisualEditor.
+</div></div>
+Since the last newsletter, the [[:mw:VisualEditor|Editing Team]] has fixed many bugs and worked on VisualEditor's performance, the [[:mw:Citoid|Citoid]] reference service, and support for languages with complex input requirements. Status reports are posted [[:mw:VisualEditor/changelog|on Mediawiki.org]]. The worklist for April through June is available [[phab:project/sprint/board/1113/|in Phabricator]]. 
+
+The weekly '''task triage meetings''' continue to be open to volunteers, each Wednesday at [http://www.timeanddate.com/worldclock/fixedtime.html?iso=20150401T11&p1=224&am=30 11:00 (noon) PDT] (18:00 UTC).  You do not need to attend the meeting to nominate a bug for consideration as a Q4 blocker.  Instead, go to Phabricator and "associate" the [[phab:tag/editing_department_2014_15_q4_blockers/|Editing team's Q4 blocker project]] with the bug.  Learn how to join the meetings and how to nominate bugs at [[:mw:Talk:VisualEditor/Portal|mw:Talk:VisualEditor/Portal]]. 
+=== Recent improvements ===
+VisualEditor is now substantially faster.  In many cases, opening the page in VisualEditor is now faster than opening it in the wikitext editor. The new system has improved the code speed by 37% and [[:mw:RESTBase|network speed]] by almost 40%.
+
+The Editing team is slowly adding '''auto-fill features''' '''for citations'''. This is currently available only at the French, Italian, and English Wikipedias.  The '''[[:mw:Citoid|Citoid service]]''' takes a [[:en:URL|URL]] or [[:en:Digital object identifier|DOI]] for a reliable source, and returns a pre-filled, pre-formatted bibliographic citation. After creating it, you will be able to change or add information to the citation, in the same way that you edit any other pre-existing citation in VisualEditor. Support for [[:en:ISBN|ISBNs]], [[:en:PubMed#PubMed_identifier|PMIDs]], and other identifiers is planned. Later, editors will be able to improve precision and reduce the need for manual corrections by contributing to the Citoid service's definitions for each website.
+
+Citoid requires good [[:mw:Special:MyLanguage/Help:TemplateData|TemplateData]] for your citation templates.  If you would like to request this feature for your wiki, please post a request in the [[phab:tag/citoid/|Citoid project on Phabricator]]. Include links to the TemplateData for the most important citation templates on your wiki.
+
+The '''special character inserter''' has been improved, based upon feedback from active users.  After this, VisualEditor was made available to all users of Wikipedias on the [[:mw:VisualEditor/Rollouts|Phase 5]] list on 30 March.  This affected 53 mid-size and smaller Wikipedias, including '''Afrikaans''', '''Azerbaijani''', '''Breton''', '''Kyrgyz''', '''Macedonian''', '''Mongolian''', '''Tatar''', and''' Welsh'''. 
+
+Work continues to support languages with complex requirements, such as Korean and Japanese.  These languages use [[w:input method editor|input method editors]] ("IMEs”).  Recent improvements to cursoring, backspace, and delete behavior will simplify typing in VisualEditor for these users.
+
+The design for the image selection process is now using a "masonry fit" model.  Images in the search results are displayed at the same height but at variable widths, similar to bricks of different sizes in a masonry wall, or the [[:mw:Special:MyLanguage/Help:Images#Mode parameter|"packed" mode in image galleries]].  This style helps you find the right image by making it easier to see more details in images.
+
+You can now '''drag and drop categories''' to re-arrange their order of appearance ​on the page.
+
+The pop-up window that appears when you click on a reference, image, link, or other element, is called the "context menu".  It now displays additional useful information, such as the destination of the link or the image's filename.  The team has also added an explicit "Edit" button in the context menu, which helps new editors open the tool to change the item.
+
+'''Invisible templates are marked by a puzzle piece icon''' so they can be interacted with. Users also will be able to see and edit HTML anchors now in section headings.
+
+Users of the TemplateData GUI editor can now set a string as an optional text for the 'deprecated' property in addition to boolean value, which lets you tell users of the template what they should do instead. ([https://phabricator.wikimedia.org/T90734 T90734])
+
+=== Looking ahead ===
+The special character inserter in VisualEditor will soon use the same special character list as the wikitext editor.  Admins at each wiki will also have the option of creating a custom section for frequently used characters at the top of the list.  Instructions for customizing the list will be posted [[:mw:VisualEditor/Special_characters|at mediawiki.org]].
+
+The team is discussing a test of VisualEditor with new users at the English Wikipedia, to see whether they have met their goals of making VisualEditor suitable for those editors.  The timing is unknown, but might be relatively soon. ([https://phabricator.wikimedia.org/T90666 T90666])
+
+=== Let's work together ===
+
+* Share your ideas and ask questions at [https://www.mediawiki.org/w/index.php?title=VisualEditor/Feedback&lqt_method=talkpage_new_thread mw:VisualEditor/Feedback].
+* Can you translate from English into any other language?  Please check [https://translatewiki.net/w/i.php?title=Special%3AMessageGroupStats&x=D&group=ext-visualeditor-ve&suppressempty=1 this list] to see whether more interface translations are needed for your language.  [[m:User talk:Elitre (WMF)|Contact us]] to get an account if you want to help! 
+* The design research team wants to see how real editors work. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for their research program]. 
+* File requests for language-appropriate "{{Int:visualeditor-annotationbutton-bold-tooltip}}" and "{{Int:visualeditor-annotationbutton-italic-tooltip}}" icons for the character formatting menu [https://phabricator.wikimedia.org/maniphest/task/create/?projects=PHID-PROJ-dafezmpv6huxg3taml24 in Phabricator]. 
+
+Subscribe, unsubscribe or change the page where this newsletter is delivered at [[:m:VisualEditor/Newsletter|Meta]].  If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new  contact us] directly, so that we can notify you when the next issue is ready. Thank you!
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:mw:User:Elitre (WMF)|Elitre (WMF)]]</span>
+
+</div> 19:48, 10 Abriil 2015 (UTC)
+<!-- Message sent by User:Keegan (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=11742174 -->
