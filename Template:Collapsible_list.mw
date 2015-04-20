@@ -1,6 +1,6 @@
 <div class="NavFrame {{#if:{{{expand|}}}||collapsed}}" style="{{#if:{{{frame_style|}}}{{{framestyle|}}} |{{{frame_style|}}}{{{framestyle|}}} |border:none;padding:0;}}">
 <div class="NavHead" style="font-size:105%; {{#if:{{{title_style|}}}{{{titlestyle|}}} |{{{title_style|}}}{{{titlestyle|}}} |background:transparent;" align="left}}"><!--
- -->{{#if:{{{title|}}} |{{{title|}}} |List}}<!--
+ -->{{#if:{{{title|}}} |{{{title|}}} |Liiska}}<!--
  --></div>
 <ul class="NavContent {{#if:{{{hlist|}}}|hlist}}" style="{{#if:{{{bullets|}}}||list-style: none none; margin-left: 0;}} {{#if:{{{list_style|}}}{{{liststyle|}}} |{{{list_style|}}}{{{liststyle|}}} |text-align:left;}} font-size:105%; margin-top: 0; margin-bottom: 0; line-height: inherit"><!--
  -->{{#if:{{{1|}}}  |<li style="line-height: inherit; margin: 0">{{{1|}}} </li>}}<!--
