@@ -1,0 +1,726 @@
+<div id="fuwStartScriptLink">
+Haye!  waxaad soo gaartay bog kuugu hagaya "Habka loo galiyo faylka". haddii aad doonaysay inaad fayl soo galiso ama gal, si Wikipedia loogu adeegsado, waxaad joogtaa meel ku haboon. waxaan kuu hagi doonaa, tillaabo tillaabo, waxa lagaag baahanyahay galinta waxuuna kuu muujinayaa macluumaadkaan waxa lagaa doonayo inaad u hogaansanto aadna leedahay awooda wax soo galinta iyo shuruudaha. 
+
+<center><font size=5>[{{fullurl:{{FULLPAGENAME}}|?withJS=MediaWiki:FileUploadWizard.js}} Guji halkaan si aad tillaabooyinka u raacdo] {{Jihada sawirka|[[File:Splitsection.svg|link=|50px]]}} </font></center>
+
+
+</div>
+<div id="warningLoggedOut" class="uploadWarning" style="display:none;">
+'''Hadda diiwaanka kuma jirtid.'''
+
+Nasiib darro, si aad u awoodid adeegsiga galinta fayl, waa inaad iska qortaa kadibna gashaa akoonka aad ku leedahay Wikipedia gaarka ah.'''[{{fullurl:Special:UserLogin|returnto=Wikipedia%3AFile+Upload+Wizard&returntoquery=withJS%3DMediaWiki%253AFileUploadWizard.js}} log in]''' and then try again.
+</div>
+<div id="warningNotConfirmed" class="uploadWarning" style="display:none;">
+'''Nasiib darro, ilaa iyo hadda lama hubo inaad akoon ku leedahay Wikipedia.'''
+
+Waan ka xunahay inaad sii wadi karin howshaan. awooda galinta faylka [[Wikipedia:Gudagale la aqoonsaday#Isticmaalada si tallantaali ah loo hubiyay|Gudagale lahubiyay]] oo kaliya maaha kuwa cusub. sida caadada ah, waxaad sawir soo galin kartaa markaad ka shaqayso 50 bedel, aadna diwaanka ku jirtay afar maalmood.   sidaas daraadeed, waxaa kaa rajaynaynaa inaad dulqaadayo 50 bogna aad wax ka bedesho Kadibna u soo laabo si aad wax u galiso sawir ah.
+
+===Habab kale===
+Hadii aadan ahayn isticmaale lahubiyay rabtidna in aad fayl soo galiso, waxaa jira habab kale oo kuu suurta galinaysa inaad raacdo si aad faylka u soo galiso si wikipedia loogu isticmaalo:
+* Xuquuqda madaxabanaan: haddii ay tahay milkiyadda faylka mid fasaxan, waxaad ka soo galin kartaa [[Wikimedia Commons|Wikimedia ee caanka, Commons]]. 
+* Adeegsi saaxiib: waxaad ka dalban kartaaa saaxiib, ama qof kale oo akoon ku leh wikipedia lana hubiyay in uu fayl soo galin karo.
+* Codsiga dadejinta hubinta: waxaad kala xidhiidhi kartaa [[Wikipedia:Requests for permissions/Confirmed|Maamulka]] si uu kuugu dadajiyo akoonkaada. 
+
+</div>
+<div id="UploadScriptArea" style="display:none;">
+<div id="placeholderTargetForm" class="uploadScriptSection">
+==Tillaabada 1: Xulashada faylka aad rabto inaad soo galiso==
+{|
+|-
+|class="uwLegend"|<span class="uwObligatory">file:</span>
+|<span id="placeholderfile"></span><br/><small>dooro fayl ku jira computerka . Iska hubi in uu faylkaada ka yaryahay 100 Mb.<br/>Nuucyada faylasha la ogolyahay: png, gif, jpg, jpeg, xcf, pdf, mid, ogg, ogv, svg, djvu, tiff, tif, oga.</small>
+<span id="placeholderapiAction"></span>
+<span id="placeholderapiFormat"></span>
+<span id="placeholderapiFilename"></span>
+<span id="placeholderapiText"></span>
+<span id="placeholderapiComment"></span>
+<span id="placeholderapiToken"></span>
+<span id="placeholderapiIgnorewarnings"></span>
+<span id="placeholderapiWatch"></span>
+<span id="placeholderTargetIFrame"></span>
+|-
+|}
+</div>
+<div id="placeholderScriptForm">
+<div id="UploadScriptStep1" class="uploadScriptSection">
+
+==Tillaabada 2: dooro magaca iyo sifaha faylka==
+{|
+|-
+|colspan="2"|waxaa lagaa rajaynayaa magac muuqda ee galka adigoo ku qoraya qaanadda afargeeska hoose:
+|-
+|class="uwLegend"|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderInputName"></span><br/><small>waa in uusan u ekaan magacaas mid ku jira wikipedia.<br/> waxaa kuu suurtagal ah adeegsiga magac dheer oo wax muujinaya ilaa xad. sidoo kale waxaad adeegsan kartaa tirooyin iyo fogaan hakad iyo calaamadaha astamaynta. ka fogoow inaad adeegsato astaamooyin loo adeegsato programada wikipedia sida:<small> '''#&nbsp;<&nbsp;>&nbsp;[&nbsp;]&nbsp;|&nbsp;:&nbsp;{&nbsp;}&nbsp;/&nbsp;''' iyo'''<nowiki>~~~</nowiki>'''</small>
+|-
+|}
+<div id="warningIllegalChars" class="uploadWarning" style="display:none;">
+Waan ka xunahay, waxaad adeegsatay sumadaha wikipedia waxaa laga yaabaa in ay keento mashaakil Sida'''#&nbsp;<&nbsp;>&nbsp;[&nbsp;]&nbsp;|&nbsp;:&nbsp;{&nbsp;}&nbsp;/&nbsp;''' iyo'''<nowiki>~~~</nowiki>'''. Waxaan wax ka badannay magaca sawirka si looga fogaado qaladaad. Fadlan, iska hubi magaca aan kuu xulnay in uu yahay mid munaasab ah.
+</div>
+<div id="warningBadFilename" class="uploadWarning" style="display:none;">
+Waxaa muuqata magaca aad sawirka u adeegsatay in uu yahay mid aad u gaaban. Fadlan ha adeegsan:
+* Ciwaanada ka kooban shibane kaliya ama qeexid guud sid Sunset.jpg
+* Ciwaanka ka samaysan magaca koowaad ee qofka ama ka dambe kaasoo noqon kara in uu ahaado mid la wada wadaago dad fara badan.
+*ama ciwaanada ka samaysan tirooyin, sida qaar ay sameeyaan kaamirooyinka ("DSC_001234" "IMGP0345"), ama tirooyin xiriira oo iskuraran ah sidaan oo kale ku jirta internetka sida ("30996951316264l.jpg")
+</div>
+<div id="warningImageOnCommons" class="uploadWarning" style="display:none;">
+<div id="warningImageThumb" float="right">
+<span class="fuwOutLink">[[File:Example.jpg|thumb|right|[[:File:Example.jpg|Existing file]]</span>.<br/><small>Last uploaded by <span id="existingImageUploader">Example user</span>.</small>]]
+</div>
+'''Iskajir: Magacaan waxaa lagu adeegsaday wikipedia!'''
+Waxaa jira magac la mid ah magacaan oo wikipedia ku jira. Haddii aad ku adkaysato inaad adeegsato magacaan, waxaan qarin doonaan falkii kale ee ku magaca ahaa booskiisana waxaa gali doona kan cusub. bogagga adeegsada sawirkaan. sidaas daraadeed, waxaan kaa rajaynaynaa inaad bedesho magaca hadii aad ogtahay in la isku bedelayo. haddii aad rabto inaad faylkaan cusub aad ku bedesho mid hore, waxaa kuu haboon inaad faylka ka soo galiso [[Wikimedia Commons|mashaariicda  Wikimedia , Commons]], halkaan maya, si aad uga fogaato diidmada imaan doonta. 
+.</p>
+</div>
+<div id="warningImageExists" class="uploadWarning" style="display:none;">
+'''Digniin: Waxaa jira fayl kale oo magacaan wata.'''
+Haddii aad go'aansatay inaad adeegsato magacaan, waan isku bedeli doonaa faylkaan iyo koo hore. fadlan iska hubi inaad qaadatay go'aan sax ah. Ha samaynin shaqadaan adeegso magac kale ilaa aad ka hubsato waxa aad sanaynayso:
+{|
+|-
+|style=""|<span id="placeholderNoOverwrite"></span>
+|'''Maya''', ma doonayo inaan tirtiro faylasha ku jira hadda, waxaan doonayaa inaan bedelo magaca faylkayga.
+|-
+|style=""|<span id="placeholderOverwriteSame"></span>
+|'''Haa''', waan ogahay howsha aan wado waxaan doonayaa falkaan inaan ku bedelo mid ku jira wikipedia faylkaan waa nuqul isku mid ah.  waxaan qirayaa cadaymaha faylka ku jira wikipedia way saxantahay waana fayl isku mid ah, wxakaa kaloo dheer, qeexista faylka, taariikhda faylka, qaybaha iyo macluumaadka, milkiyadda iyo faafinta.
+|-
+|style=""|<span id="placeholderOverwriteDifferent"></span>
+|'''Haa''', waxaan doonayaa inaan ku bedelo faylka hadda ku jira wikipedia faylkaygaan, waxaan kaloo doonayaa hagaha faylka in uu iga caawiyo bedelista faylka iyo xogihiisa. sidaa awgeed anigu waxaan ahay ninkii lahaa howshii hore, ama waxaan haystaa ogolaasho howshaan ninkii awal qabtay tillaabadaan.
+|-
+|}
+</div>
+<div id="UploadScriptStep2">
+{|
+|-
+|colspan="2"|Waxaa lagaa doonayaa inaad ku soo bandhigtid caddeymo kooban waxa uu ka koobanyahay faylkaan afar geeska hoose:<br/><small>waa la kaydin doonaa caddaymaha waxaana lagu soo muujin doonaa bogga faylka. sidaa daraadeed waxaan kaa rajaynaynaa inaad qorto caddaymo caawinaya dadka kale si ay u fahmaan waxa uu yahay faylka haddii ay suurtagal tahay wajiga laga adeegsado.</small>
+|-
+|class="uwLegend"|<span class="uwObligatory">&nbsp;</span></td>
+|style=""|<span id="placeholderInputDesc"></span><br/><small>Tusaale, waxa uu ka koobanyahay faylka? nuuca faylka, ma sawirbaa ma garaafbaa, munaasabad IWM...</small>
+|-
+|}
+</div>
+</div>
+
+<div id="UploadScriptStep3" class="uploadScriptSection">
+
+==Tillaabada 3: Sugidda xuquuqd iyo lahaanshaha==
+
+<p id="stepC_Start">Waxaa aad muhim u ah aqrinta dooqyada iyo suaalahaan soo socda, iyo u dhamaystirka dhammaan macluumaadka la doonayo runta iyo hubinta ku saabsan nuuca xuquuqda adeegsiga ttasoo ku dhisan adeegsiga faylka. guji goobahaan hoose.</p>
+
+{|
+|-
+|style=""|<span id="placeholderOptionFree"></span>
+|'''Kan waa shaqo furan.''' <br/>Waxaad xaqiijisay qaanuun ahaan fayka Waana lo adeegsan karaa wikipedia iyo kuwa kale qaab xor ah iyo meel kasta oo wax lagu soo bandhigo.
+<div class="optionGroup" style="display:none;" id="detailsFreeStatus">
+<div class="uploadWarning" style="display:none;" id="warningWhyNotCommons">
+'''Talo''': Wikipedia waxay dhiiri galainaysaa in la adeegsado qaabka xorta ah. annagana waxaan kugula talinaynaa galinta faylasha xorta ah  [[Wikimedia Commons|habka lada ogyahay]] kaasoo loo yaqaan Commons halkii aad ka xarayn lahayd wikipedia Soomaaliga. Faylasha la galiyo Commons waxaa suurta gal ah  adeegsigooda si dhaqsi ah wikipedia Soomaaliga sidoo kale wikipedia yaasha bahwadaagta la ah.  Howshaas waxay lamid tahay tan aad hadda inta ka hayso. waxaa kaloo suurtagal ah adiigsiga magacaada si tallantaalli ah. Si loo fududeeyo, waxaan diyaarinay hagahaan, suurtagalnimada galinta commons mar dambe marka aad ku qorto dhamaan macluumaadka.
+
+<big>'''Halkaan guji si aad u aado halkaas <span class="fuwOutLink">[[:commons:Special:UploadWizard|Commons]]</span>.'''</big>
+</div>
+{|
+|-
+|colspan="2"|<span class="uwObligatory">Habka xuquuqda muallifka iyo faafinta:</span>
+|-
+|style=""|<span id="placeholderOptionOwnWork"></span>
+|Faylkaan anaa soo saaray <br/><span id="smallNoteOwnWork">waxaan ahay qofka leh. Aniga ayaa sameeyey anigoo ka soo bilaabay eber nuqul la'aan ama ku labid howl qof kale horay u allifay, anaana ugu horreeyay waana xor.</span>
+<div class="uploadDetails" style="display:none;" id="detailsOwnWork">
+<div class="uploadWarning" style="display:none;" id="warningOwnWork">
+'''FG''': weedha ah "Faylkaan anaa soo saaray" Waxaa loola jeedaa:
+: Ha adeegsan xolashadaan haddii howshaadu ay ka mid tahay mid uun waxyaabahaan soo socda: 
+* Farashaxan ama garaaf ama Sawir ama wax la daabacay  ama wax kale uu leeyahay qof kale. adiga malihid xuquuqda adeegsiga waxaa lagaa rabaa inaad ogolaasho ka hesho inta aadan galin halkaan.
+* Sawir dijitaal ah, ama qaab kale, laga qaaday muuqaal, ama shaashadda computerka ama mobil, ama borogoraam talafishin iyo shineemo ama xitaa qaab uun muuqaal ah.  
+* ama howl kasta oo aad ku ciyaarayso oo aadan xuquuqdeeda haysan ama aad ku dhex qariso sawiro kale oo qof kale lahaa oo aadan ogolaasho ka haysan.
+* Sawir adiga lagu siiyey adiga oo aan ka helin ogolaasho qofkii ku siiyay.
+* Sawir aada ka heshay internetka.
+
+'''Waa laga masixi doonaa''' waxbedele kasta oo khilaafa halbeegaan.
+</div>
+{|
+|-
+|colspan="2"|waxaa lagaa rajaynayaa inaad qeexdo habka waqtiga iyo sababta aad u samaysay faylkaan.
+|-
+|class="uwLegend"|Sidee?
+|style=""|<span id="placeholderOwnWorkCreation"></span>
+|-
+|&nbsp;
+|<small>(Tusaale ahaan: Goobta  iyo nuuca munaasabadda lagu qaaday sawirkaan)</small>
+|-
+|style=""|<span class="uwObligatory">Taariikh</span>
+|style=""|<span id="placeholderDate"></span>
+|-
+|&nbsp;
+|<small>(Fadlan adeegso habkaan soo socda Maalinta-Bisha-Sanadka haddii ay suuragal tahay).</small>
+|-
+|Faafinta:
+|style=""|<span id="placeholderOwnWorkPublication"></span></span><br/><small>waxaa lagaa rajaynayaa inaad halkaan ku cadayso haddii aad horay u faafisay  tusaale ahaan website kuu gaar ah ama akoon aad facebook ku leedahay, IWM, adigoo xusaya linkiga.</small>
+|-
+|colspan="2"|Waxaa muhiim ah inaad howshaan ka dhigto mid xor ah oo furan, taasoo ka dhigaysa in ay adeegsan karaan dhamman ujeedo kasta, haba ku sii jirtee mid ganacsi iyo mid aan ganacsi ahaynba si isku mid ah, iyo bedelkiisa. Lagama noqon karo fasaxa.
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderOwnWorkLicense"></span>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionThirdParty"></span></td>
+|Ruuxa faylkaan leh wuu ogolyahay.'''<br/> Wuu isiiyay ruuxa laheh sawirkaan fasaxa inaan wikipedia soo galiyo, Waxaa la heli karaa cadayn ogolaashaha faafinta faylka si xur ah in loo adeegsadi ujeedo kastaba.
+<div class="uploadDetails" style="display:none;" id="detailsThirdParty">
+{|
+|-
+|colspan="2"|Waxaa lagaa rajaynayaa qaabka iyo goorta aad sawirkaan samaysay.
+|-
+|class="uwLegend"|<span class="uwObligatory">Milkiilaha/Soosaaraha:</span>
+|style=""|<span id="placeholderAuthor"></span>
+|-
+|class="uwLegend"|Soo saaris<br/>Taariikhda uu soo baxay:
+|style=""|<span id="placeholderThirdPartyDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta faylka:</span>
+|style=""|<span id="placeholderSource"></span><br/><small>Xagee faylkaan ka heshay? (Tusaale: Shabakadda Internetka, qof ayaa ii soo diray, IWM ...)</small>
+|-
+|style=""|<span class="uwObligatory">Ogolaasho:</span>
+|style=""|<span id="placeholderPermission"></span><br/><small>Xagee ogolaashaha ka heshay? (Tusaale: dhanka E-mailka, qof, waxaan u shaqeeyaa milkiilaha leh sawirka,...)
+|-
+|colspan="2"|Tilmaam nooca ruqsadda oo uu kuu dooray milkiilaha:
+|-
+|style=""|<span class="uwObligatory">Nooca ruqsadda:</span>
+|style=""|<span id="placeholderThirdPartyLicense"></span><br/>Haddii aah xulato "Nooc kale", tilmaam oo sheeg nooca ruqsadda halkaan hoose: <span id="placeholderThirdPartyOtherLicense"></span>
+|-
+|style=""|<span class="uwObligatory">Maxaa daliil ah?:</span>
+|
+{|
+|-
+|style=""|<span id="placeholderThirdPartyEvidenceOptionLink"></span>
+|-
+|Daliishu waxay ku jirtaa website ka soo socda (dhig linkiga website ka):<br/><span id="placeholderThirdPartyEvidenceLink"/>
+|-
+|style=""|<span id="placeholderThirdPartyEvidenceOptionOTRS"></span>waxaa loo diray nuqulka ruqsadda xafiiska wikimedia howlaha xuquuqda (<small>Wikimedia's copyright service</small>) Ciwaanka E-mailka "<small>permissions-en@wikimedia.org</small>".<br/>OTRS xaaladdaan, waxaan kaa rajaynaynaa inaad shigto oo aad magacaawdo adigoo leh [[OTRS]] Halkaan: <span id="placeholderThirdPartyOTRSTicket"></span>
+|-
+|style=""|<span id="placeholderThirdPartyEvidenceOptionOTRSForthcoming"></span>Kadib ruqsadda soo dir. Waxaan soo dirayaa galinta faylka kadib, ama waxaan ka dalbayaa milkiilaha inuu isga diro.
+|-
+|style=""|<span id="placeholderThirdPartyEvidenceOptionNone"></span>Ruqsad iyo daliil midna ma haysto, laakiin waan keeni doonaa qaarkeed, haddii la iga dalbo arrinkaas.<br /><small>FG: Waxaa dhacaysa in la tirtiro faylasha aan ruqsadda lahayn. Waxaa wanaagsan inta aadan galinin inaad hesho ogolaasho.<small>
+|-
+|}
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionFreeWebsite"></span></td>
+|Faylkaan waxaa lagu faafiyay si xor ah.'''<br/>Waxaan ka soo qaatay faylka shabakadda internetka ama ilo kale, iyada oo uu ruuxii lahaa ku qoray waa fasax, wuuna ogolyahay in dib loo adeegsado si bilaash ah qofkii doona.
+<div class="uploadDetails" style="display:none;" id="detailsFreeWebsite">
+<div class="uploadWarning" style="display:none;" id="warningFreeWebsite">
+Adeegso sidaan '''oo kaliya''' haddii '''uu jiro daliil waadix ah oo qoran''' oo qiraya ogolna adeegsiga howsha si cad. waa inuu si cad u qayaxaa websiteka sawirka wuxuu ku jiraa xeerarka xuriyada furan (Creative Commons Attribution). waa inaad sheegtaa meesha ay ku qorantahay warkaas.
+Fadlan, haddii aadan sheegin websiteka '''ha galinin faylka'''.
+</div>
+{|
+|-
+|class="uwLegend"|<span class="uwObligatory">Milkiilaha xuquuqda shaqada:</span>
+|style=""|<span id="placeholderFreeWebsiteAuthor"></span>
+|-
+|class="uwLegend"|Taariikhda samaynta howsha<br/>:
+|style=""|<span id="placeholderFreeWebsiteDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta Faylka:</span>
+|style=""|<span id="placeholderFreeWebsiteSource"></span><br/><small>Haddii ay xogtu ku jirto internetka: fadlan gali linkiga websiteka aad adeegsato ama faylka tilmaamaysa ("<nowiki>http://... .html</nowiki>"), oo aysan ahayn mid toos u abaaraysa faylka laftiisa ("<nowiki>http://... .jpg</nowiki>").<br/>hadii ay xogtu tahay lagu daabacay: Fadlan helidda macluumaadka Biblographic buuxda (Mu'allifka, Ciwaanka daabacaadda, Faafiyaha, Sanadka Bogga, IWM.)</small>
+|-
+|colspan="2"|Wuxuu doortay ruuxa howshaan leh mid ka mid ah xuquuqahaan soo socda:
+|-
+|style=""|<span class="uwObligatory">Ruqsadda la xushay:</span>
+|style=""|<span id="placeholderFreeWebsiteLicense"></span><br/>Haddii aad doorato "Ruqsad kale:, halkaan ku sheeg: <span id="placeholderFreeWebsiteOtherLicense"></span>
+|-
+|style=""|<span class="uwObligatory">Daliil:</span>
+|style=""|<span id="placeholderFreeWebsitePermission"></span><br/>Waxaa lagaa rajaynayaa bixinta linkiga website ka ee lagu sheegay milkiilaha xuquuqda howsha,'''si cad''', waxaa loo qaadanayaa in si xor ah yahay.<br/><small>(hadii aan la xusin arrinkaas linkiga sare).</small>
+|-
+|}
+|-
+|style=""|<span id="placeholderOptionPDOld"></span>
+|Howshani waa mid duq ah wayna dhamaatay awoodaha xuquuqda faafinta iyo allifaadda<br/>kani waa sawir duq ah ama mid laga soo qaatay sawir farshaxan hore. waxaan diyaar u ahay inaan soo gudbiyo in ku filan oo macluumaad ah ee qofkii lahaa iyo xogta si loo sugo waqti ay qaadatay xuquuqda iyo faafinta ee istcmaalaha [[Dan guud]]</span>.
+<div class="uploadDetails" style="display:none;" id="detailsPDOld">
+{|
+|-
+|class="uwLegend"|<span class="uwObligatory">Mu'allif<br/>asalka:</span>
+|style=""|<span id="placeholderPDOldAuthor"></span><br/><small>waxaa lagaa rajaynayaa inaad magacaawdo mu'alliga asalkii lahaa.</small>
+|-
+|class="uwLegend"|<span class="uwObligatory">Taariikhda dhimashada:</span>
+|<span id="placeholderPDOldAuthorLifetime"></span><br/><small>tilaamidda taariikhda dhimashada, si loo hubiyo haddii ay waafaqsantahay xaaladda wax lawada leeyahay.<br/>in badan oo ka mid ah haaladaha waxaan u baahanahay in la hubo dhimashadiisa mu'allifka sanad ka hor.</small>
+|-
+|style=""|<span class="uwObligatory">Taariikhda markii ugu horraysay ee la faafiyay:</span>
+|style=""|<span id="placeholderPublication"></span><br/><small>Helista inbadan oo ka mid ah macluumaadka ku saabsan waqtiga asalka ah iyo goobta faafinta howsha. Joornaal ku soo baxday: Helidda macluumaada biblographic rasmiga ee ay ku soo baxday.</small>
+|-
+|style=""|<span class="uwObligatory">Taariikhda faafinta:</span>
+|style=""|<span id="placeholderPDOldDate"></span><br/><small>Soo gudbinta taariikhda markii ugu horaysay, iyo taariikhda markii la sameeyay hadii uu jiraan wax kala duwan.</small>
+|-
+|style=""|<span class="uwObligatory">Xogta aad cugsatay:</span>
+|style=""|<span id="placeholderPDOldSource"></span><br/><small>u cadee si cad halkii aad ka heshay faylkaan. <br/>Hadii ay tahay xogta mid interneentka ah: fadlan dhig linkiga bogga aad adeegsato ee tilmaamaya faylkaan ("<nowiki>http://... .html</nowiki>"), oo aysan ahayn linkiga faylka laftiisa ("<nowiki>http://... .jpg</nowiki>")<br/>hadii ay tahay xogta mid la daabacay: Waxaa lagaa rajaynayaa soo gudbinta macluumaad Biblographia dhamaystiran (Mu'allifka, Ciwaan la daabacay, Faafiyaha, Sanadka Bogga, IWM.)</small>
+|-
+|style=""|<span class="uwObligatory">Xaaladda Commons guud:</span>
+|Howshaan kuma xirna wax xuquuq ah. Sababtuna waa (Dooro xulashooyinkaan mid ka mid ah):
+{|
+|-
+|style=""|<span id="placeholderPDUS1923"></span>
+|Waa la sameeyay'''la faafiyay ka hor 1923''' sidaas daraadeed, waxay ka mid tahay Commons guud ee USA.
+|-
+|style=""|<span id="placeholderPDURAA"></span>
+|'''Waxaa laga faafiyay markii ugu horaysay meel ka baxsan USA''' Waxay ka  mid noqonaysaa Commons guud ee (dooro dal)"<span class="fuwOutLink">[[Uruguay Round Agreements Act|URAA date]]</span>".<br/><small>Waxaa laga aaminsanyahay, dalal badan, in la faafiyay ka hor 1926. fadlan iska hubi xeerarka faafinta ee linkigaan: [http://copyright.cornell.edu/resources/publicdomain.cfm xeerarka faafinta].</small>
+|-
+|style=""|<span id="placeholderPDFormality"></span>
+|'''waxaa lagu faafiyay USA ka hor 1989''', and Way dhamaatay ruqsadeedii iyadoo aan loo samaynin ruqsad faafinteeda.<small>Iska hubi xeerarka kooban ee ku saabsan ee linkigaan soo socda: [http://copyright.cornell.edu/resources/publicdomain.cfm xeerarka xuquuqda faafinta].</small>
+|-
+|style=""|<span id="placeholderPDOldOther"></span>
+|Awoodii ruqsadda wey dhamaatay sababo kale awgeed. [fadlan sababta hoos ku sheeg].
+|-
+|}
+|-
+|class="uwLegend"|Sharaxaadda:
+|style=""|<span id="placeholderPDOldPermission"></span><br/><small>Waxaa lagaa rajaynayaa daliil ka dhigaysa in uu yahay wax lawada leeyahay.</small>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionPDOther"></span>
+|Faylkaan wuxuu ku jiraa waxyaabaha kuud sababa kale awogeed.'''<br/> Waxaa ii suurtagal ah markaan ka eego dhanka qaanuunka in haywshan tahay wax lada leeyahay, taasoo ka dhigan in aan cidi sheegan karin xuquuqdiisa iyo faafintiisa. waxay noqon kartaa mid ka mid ah sababa tusaale ahaan waxaa sameeyey dawlad ka tirsan Federaalka USA.
+<div class="uploadWarning" style="display:none;" id="warningPDOther">
+'''Commons Guud''' (Public Domain) Macanaha inaan la heli karin cid sheegan karta howshaan. laakiin '''loolama jeedo''' si xoriyad ah loo adeegsan karo. sidoo kale aan loola jeedin sawir ku jira internetka. badi sawirada internetka ku jira waxay u leeyhiin xuquuq gaar ah asxaabteeda suurtagalna maaha adeegsigeeda si xor ah, haddii aad hubto xitaa in ruuxa iska leh yuusan diidaynin. waxaa lagaa rabaa inaad ci cad u cadayso xaaladda ama qaanuunka kaasoo ka dhigaya howsha ama faylka Commons guud. hadii aadan awoodin, ha '''galinin faylka wikipedia'''.  
+</div>
+<div class="uploadDetails" style="display:none;" id="detailsPDOther">
+{|
+|-
+|class="uwLegend"|<span class="uwObligatory">Mu'allifka howsha:</span>
+|style=""|<span id="placeholderPDOtherAuthor"></span><br/><small>waxaa lagaa rajaynayaa inaad xusto mu'allifaka asalka ah ee howshaan.</small>
+|-
+|style=""|<span class="uwObligatory">Xogta:</span>
+|style=""|<span id="placeholderPDOtherSource"></span><br/><small>Si cad u tilmaam xagee ka heshay faylka. <br/>Hadii ay xogtu ku jirto internetka: Fadlan soo dhig linkiga bogga loo adeegsaday ama tilmaamaya faylka ("<nowiki>http://... .html</nowiki>"), aan ahayn  linkiga oo toos ah faylka laftigiisa ("<nowiki>http://... .jpg</nowiki>")<br/>Haddii xogta lagu daabacay: fadlan keen macluumaadaka biblographic buuxa (mu'allifka, Ciwaanka joornaalka, faafiyaha, sanadka, Bogga, IWM.)</small>
+|-
+|class="uwLegend"|Taariikhda la sameeyey:
+|style=""|<span id="placeholderPDOtherDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xaaladda Commons guud:</span>
+|Howshaan kuma jirto xuquuq kasta ee milkiyadeed sababaha soo socda awgeed:
+{|
+|-
+|style=""|<span id="placeholderPDOtherUSGov"></span>
+|waxaa samaayey hayad ka tirsan federaalka USA.<br/><small>Tani '''ka mid maaha''' dhammaan USA, sidoo kale dalalka kale!</small><br/><span id="placeholderUSGovLicense"></span>
+|-
+|style=""|<span id="placeholderPDOtherOfficial"></span>
+|Howl rasmi ah ee dawladeed, sida calan, astaan dawladeed, Lacag, Farankaboolo, ee ay soo saartay dawlad ee la aaminsanyahay qawaaniinteeda in ay tahay howshaas mid commons guud ah.<br/><small>tani '''kuma jirto''' dhammaan dawladaha, sidaasoo kale ka mid maaha waxyaabaha la daabacay. (Tusaale, ka mid maaha sawirada ay faafisay xukuumad kuna faafisay bogageeda internetka.)  waxaa haboon in aad iska hubiso qawaaniinta dalkaas. hadii uu dalkaas uu cadayn wax kasta ee ka mid ah xeerarka faafinta waa inaad ku tiirsanaataa"[[#Non-free section|howl aan xor ahayn]]".</small><br/><span class="uwObligatory">Faahfaahin:</span> <span id="placeholderPDOfficialPermission"></span><br/><small>ku dar faahfaahin ama daliil kaabaysa xulashadaad iyo meelaha, dhig  qaanuunka aad cuksatay.</small>
+|-
+|style=""|<span id="placeholderPDOtherSimple"></span>
+|Waa howl fudud ma hoos imaanayso xeerka dhowrista iyo milkiyadda.<br/><small>sida caadada ah, waxaa soo galaya howshaan: Garaaf buugaagta iyo tirooyinka la soo gaagaabiyay sida sawirada injineerinka isla'egyada xisaabta iyo kimistariga. waxaa kaloo ka mid noqon kara tusmooyinka. Laakiin ka mid maaha '''weligeed''' Sawirka footada lagu qaaday.</small><br/><span class="uwObligatory" id="placeholderIneligibleLicense"></span>
+|-
+|style=""|<span id="placeholderPDOtherOther"></span>
+|Waxay ka mid tahay commons guud sababa jira awgeed.<br/><span class="uwObligatory">sharax sababta:</span> <span id="placeholderPDOtherPermission"></span>
+|-
+|}
+|-
+|}</div>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNonFree"></span>
+|<span id="Non-free section">'''Waxuu leeyahay xuquuqda faafinta iyo daabacaadda mana ahan mid xor ah, laakiin waxaan umalaynayaa in la adeegsan karo qaab dhexdhexaad ah.'''</span><br/>waan aqriyay xeerarka wikipedia ee ku jira bogga '''<span class="fuwOutLink">Wwax fasax la'aan ah</span>'''waxaana diyaar u ahay, inaan sharxo qaabka loo adeegsanayo faylkaan si ay uga mid noqoto halbeegyada.
+
+<div class="uploadWarning" style="display:none;" id="warningNF">
+[[File:Gtk-dialog-info.svg|15px|link=]] '''Xusuusnoow''': Waxaad ubaahan doontaa sugnaan:
+*Faylka dowr fiican ayuu ka ciyaarayaa sida caadiga ah si uu sharaxaad uga bixiyo maqaal ku jira wikipedia, <small class="fuwOutLink">([[WP:NFCC#8|NFCC8]])</small>
+*Suurtagal maaha in howsha lagu bedelo howl kale ee xor ah ee dib loo samayn kale, <small  class="fuwOutLink">([[WP:NFCC#1|NFCC1]])</small>
+* Asiigsigiisa waxba xumaan ah u gaysan mayso ruuxii howshaan lahaa,<small class="fuwOutLink">([[WP:NFCC#2|NFCC2]])</small>
+*Maqnaanshaha isticmaalka xad-dhaafka ah ee howlaha aan xorta ahayn. <small class="fuwOutLink">([[WP:NFCC#3|NFCC3]])</small>
+</div>
+<div id="detailsNFArticle" class="optionGroup" style="display:none;">
+Ciwaanka maqaalka la galin doono:
+
+<span class="uwObligatory" id="placeholderNFArticle"></span><br/><small>galiciwaanka lahubo ee maqaalka la ogyahay adigoo aan adeegsan Qowsas <nowiki>[[...]]</nowiki> ma adeegsan kartid linkiga bogga, ee "<nowiki>http://ar.wikipedia.org/...</nowiki>" adigoo aan adeegsan xarriqda hoose "_".<br/> waa inuu ahaadaa maqaal Wikipedia aan ahayn bogga wadahadalka ama tusmada ama bogga isticmaalaha, IWM...<br/>Adeegso ciwaan hal maqaal oo kaliya xataa haddii aad adeegsato howsha maqaalo badan. xaaladdaas, marka aya gabagabowdo galinta, waxaa lagaa rabaa maqaalada kale inaad gacanta ku galiso bogga cadaymaha faylka.</small>
+<div id="NFArticleOK" style="display:none;">
+[[File:Gtk-ok.svg|15px|link=]] '''<span class="fuwOutLink">[[Example]]</span>''' Wuu helay maqaalka, Mahadsanid.
+</div>
+<div id="warningNFArticleNotFound" class="uploadWarning" style="display:none;">
+[[File:Gtk-dialog-warning.svg|20px|link=]] '''Raalli noqo, Maqaalkaan maba jiro!'''
+
+<span class="fuwOutLink">[[Tusaale]]</span> Maynaan helin maqaalka.
+
+Fadlan iska hubi ciwaanka maqaalka gaar ahaan higgaada iyo adeegsiga shaqalada.
+
+Haddii aad doonayso inaad maqaalka gadaal ka qorto.
+</div>
+<div id="warningNFArticleNotMainspace" class="uploadWarning" style="display:none;" >
+[[File:Gtk-dialog-warning.svg|20px|link=]] '''Kan maaha maqaal rasmi ah ee ku jira wikipedia!'''
+
+Bogga <span class="fuwOutLink">[[Example]]</span> aad qortay kuma jiro maqaalada rasmiga ah. waa la joojinayaa galinta faylka bogagga tusmooyinka ama bogagga gaarka ah.
+
+Suurtogal maaha galinta faylka haddii aadan niyadda ku hayn u adeegsiga maqaal ku jira wikipedia. 
+
+<div id="warningUserspaceDraft">
+Haddii aad ku howlantahay maqaalka ee bacaadkaada waa inaad u wareejisaa bogagga wikipedia inta aadan sii wadan.
+</div>
+</div>
+<div id="warningNFArticleDab" class="uploadWarning" style="display:none;">
+[[File:Gtk-dialog-warning.svg|20px|link=]] '''Boggani waa faahfaahin!'''
+
+Baoggani waa faahfaahiye kuna xiranyahay bogag badan. Lamana adeegsan karo<span class="fuwOutLink">[[Example]]</span>.
+
+Fadlan iska hubi qorista magaca la hube ee maqaalka.
+</div>
+</div>
+<div id="detailsNFWorkType" class="optionGroup" style="display:none;">
+{|
+|-
+|colspan="2"|<span class="uwObligatory">Sharaxaada adeegsiga dhexdhexaadka ah</span>
+|-
+|style=""|<span id="placeholderOptionNFSubject"></span>
+|Faylkaan '''waa qodobka wadahadalka maqaalka.'''<br/>Howshaan waxay leedahay xuquuq gaar ah laakiin qodobka wadahadalka ee maqaalka. wuxuuna ku wareegayaa dood ku saabsan howshiisa dhanka qaabka maaha dhanka mowduuca ama shaqsiyo ka soo muuqda.'''
+<div class="uploadDetails" style="display:none;" id="detailsNFSubject">
+{|
+|-
+|colspan="2"|Dooro midda ugu wanaagsan xulasho sifaynaysa howshaan
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFSubjectLicense"></span>
+|-
+|colspan="2"|Yaa isku howlay shaqadaan?
+|-
+|class="uwLegend"|<span class="uwObligatory">Qofka shaqada qabtay:</span>
+|style=""|<span id="placeholderNFSubjectAuthor"></span>
+|-
+|Taariikhda samaynta:
+|style=""|<span id="placeholderNFSubjectDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta:</span>
+|style=""|<span id="placeholderNFSubjectSource"></span><br/><small>Tilmaam meesha aad ka heshay faylkaan. <br/>Hadii aad ka heshay Internetka: Fadalan dhig linkiga sawirka meesha ku jira ("<nowiki>http://... .html</nowiki>"), maahaa linkiga oo toos ah ("<nowiki>http://... .jpg</nowiki>").<br/>hadii ay xogtu tahay mid la daabacay: fadlan keen macluumaadka biblographic dhamaystiran (Mu'allifka, ciwaanka lagu daabacay, faafiyaha, sanadka, bogga, IWL.)</small>
+|-
+|}
+{|
+|-
+|colspan="2"|<span class="uwObligatory">Cidda adeegsata:</span>
+|-
+|style=""|<span id="placeholderNFSubjectCheckDedicated"></span>
+|Maqaalka gabigiis howshiisa waa laga wadahadalayaa laftiisa. (maaha oo kaliya mowduuca sawirka ama shaqsiyaadka ka muuqda)
+|-
+|style=""|<span id="placeholderNFSubjectCheckDiscussed"></span>
+|Maqaalka waxaa ku jira imasa nooc ee wadahadalka insaykolobediya ku saabsan howsha (aan ku saabsanayn mowduuceean ama shqsiyo). Howsha lafteedu waa daruuri waxayna sugaysaa qodobadaan soo socda:<br/><span id="placeholderNFSubjectPurpose"></span>
+<div id="warningNFSubject" class="uploadWarning" style="display:none;">
+hadii aysan howshu waafaqsanayn mid ka mid ah labadaan shuroodood, '''howshaan ha soo galin'''.
+'''lama adeegsan karo''' Dooqaan si loo galiyo garaaf taasoo ka haydlaysa shaqsiyaad. 
+</div>
+|-   
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNF3D"></span>
+|Shaqadaan waxay leedahay xuquuq waana matalaad garaaf 3D, sida dhisme ama howl farshaxan, ama howl dhisme kasta waana moowduuc maqaal asaasi ah.  
+<div class="uploadDetails" style="display:none;" id="detailsNF3D">
+{|
+|-
+|colspan="2"|Dooqyadaan soo sacda keebaa tilmaamaysa howsha?
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNF3DLicense"></span>
+|-
+|colspan="2"|ugu horrayn: Tilmaam cidda samaysay '''howsha asaasiga ah''':
+|-
+|class="uwLegend"|<span class="uwObligatory">Soo saaraha:</span>
+|style=""|<span id="placeholderNF3DCreator"></span>
+|-
+|Taariikhda uu soo baxay:
+|style=""|<span id="placeholderNF3DOrigDate"></span>
+|-
+|}
+{|
+|-
+|colspan="2"|<span class="uwObligatory">Sababta adeegsiga:</span>
+|-
+|style=""|<span id="placeholderNF3DCheckDedicated"></span>
+|Mowduuca maqaalka ayaaba ka hadlaya.
+|-
+|style=""|<span id="placeholderNF3DCheckDiscussed"></span>
+|Maqaalku wuxuu ka hadlayaa howsha si faahfaahsan, sidaa daraadeed howshu waa lagama maarmaan si loo kaabo qodobadaan soo socda:<br/><span class="uwObligatory"/><span id="placeholderNF3DPurpose"></span>
+|}
+{|
+|-
+|colspan="2"|Marka xigta: sii macluumaad ku saabsan ruuxii soo saaray faylka ama howshaan''':
+|-
+|class="uwLegend"|<span class="uwObligatory">Qofka leh howsha:</span>
+|style=""|<span id="placeholderNF3DAuthor"></span>
+|-
+|Taariikhda soo saarista howsha:
+|style=""|<span id="placeholderNF3DDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta:</span>
+|style=""|<span id="placeholderNF3DSource"></span><br/><small>Tilmaam si huban xagee ka keentay faylkaan. <br/>Haddii xogtu ay ku jirto internetka: waxaa lagaa rajaynayaa dhigista linkiga bogga ee aad adeegsato ama tilmaamaysa faylka ("<nowiki>http://... .html</nowiki>")oo aan ahayn linkiga tooska ah ee faylka laftiisa ("<nowiki>http://... .jpg</nowiki>").<br/>haddii xogta lagu daabacay: waxaa lagaa rajaynayaa inaad keento macluumaad biblographic dhamaystiran (Mu'allifka, ciwaanka daabacan, faafiyaha, sanadka, Bogga, IWM.)</small>
+|-
+|}
+{|
+|-
+|colspan="2"|<span class="uwObligatory">xaaladda howsha</span>
+|-
+|style=""|<span id="placeholderNF3DOptionSame"></span>
+|waxaa sameeyey qofkii lahaa ama (Milkiilaha xuquuqda) laftiisa.
+|-
+|style=""|<span id="placeholderNF3DOptionFree"></span>
+|ka soo baxay howsha ruuxa leh (ama milkiilaha xuquuqda) howsha waxay hoos imaanaysaa ruqsadda xorta ah, ama ka mid ah dan guud:<br/><span class="uwObligatory" id="placeholderNF3DPermission"></span><br/><small>p]] Tilmaam nooca ruqsadda ama sharax dhigista Commons guud ee aad doonayso adeegsigiisa dhig dhammaan macluumaadka ee lagama maar maanka ah si ay u cadaato ruqsada faylka la galiyey.</small>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNFExcerpt"></span>
+|Faylkaan '''waa howl ruqsad gaar ah'''.<br/>Sida sawir elektaronik ee muuqaal shineemo ah, qayb ka mid ah qisooyin sawiran, ama qayb yar oo musug hees ah. waana lagama maarmaan sugidda aragtida ee wadahadalka ku saabsan mowduuca.
+<div class="uploadDetails" style="display:none;" id="detailsNFExcerpt">
+{|
+|-
+|colspan="2"|Dooro qeexista uga wanaagsan uu matalayo faylka ee la doonayo galintiisa?
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFExcerptLicense"></span>
+|-
+|style=""|<span class="uwObligatory">Mu'allifka howsha:</span>
+|style=""|<span id="placeholderNFExcerptAuthor"></span><br/><small>(Aasaasaha howsha ama qofka haysta xuquuqda adeegsiga)</small>
+|-
+|Taariilhdii <br/>la sameeyay:
+|style=""|<span id="placeholderNFExcerptDate"></span>
+|-
+|style=""|<span class="uwObligatory">Source:</span>
+|style=""|<span id="placeholderNFExcerptSource"></span><br/><small>(Si cad u tilmaam xagee ka keentay faylkaan?)</small>
+|-
+|colspan="2"|Sharax mowduuca aad ku soo qaadan doonto faylkaan.
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFExcerptPurpose"></span><br/><small>Sida caadada ah, waxaa loo adeegsan doonaan ujeedo la ogyahay ee maqaalka.<br/> fadlan hubin iyo koobid. Ha soo qaadan nuqul ah sabab meel kale. Sharax si waadix ah, adigoo adeegsanaya oraaho kuu gaar ah, kuna saabsan faylka.</small>
+|-
+|colspan="2"|isku day inaad sgaraxdo sababta ay dhib u tahay inaad sii wado wadahadalka adiga oo aan adeegsan faylka.
+|-
+|&nbsp;
+|style=""|<span id="placeholderNFExcerptReplaceable"></span>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNFCover"></span>
+|Shaqadaan'''waa sawirka garbadka shaqo faneed''' .<br/>Waa garbadka banaanka ee buugga, ama CD muusiga ama heesaha ama muuqaal ama DVD ama shaneemo iyo wixii la halmaala. faylka waxaa loo adeegsan doonaa qaab qeexis guud ee ku saabsan moqduuca waxaana la galin doonaa halka sare ee maqaalka. <br/><small>FG: haddii aad doonayso adeegsiga faylka sabab aan taa ahayn dooro "howlo aan xor ahayn ee kale" ee hoos laga helo, intaad kan dooran lahayd.</small>
+<div class="uploadDetails" style="display:none;" id="detailsNFCover">
+{|
+|-
+|colspan="2"|maxaa ka mid ah dooqyadaan soo socda kaasoo tilmaamaya faylka?
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFCoverLicense"></span>
+|-
+|style=""|<span class="uwObligatory">Author:</span>
+|style=""|<span id="placeholderNFCoverAuthor"></span><br/><small>(Mu'allifka/ milkiilaha xuquuda adeegsiga)</small>
+|-
+|Taariikda <br/>Faafinta:
+|style=""|<span id="placeholderNFCoverDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta:</span>
+|style=""|<span id="placeholderNFCoverSource"></span><br/><small>(Si cad u tilmaam meesha aad ka heshay faylkaan?)</small>
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFCoverCheckDedicated"></span>
+Waxaad adeegsan doontaa sawirka, ama galka, si xog rasmi ah ee qeexis kuna saabsan mowduuca waxaana la dhigi doonaa halka ugu saraysa maqaalka.<br/><small>'''FG''': Hadii aad niyadda ku hayso adeegsiga faylka sabab aan ahayn taa '''Ha dooranin dooqaan''', laakiin dooro "nooc kale ee ka mid ah noocyada shaqada ee aan xorta ahayn" halka hoose. 
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNFLogo"></span>
+|Kani '''halkudheg''' Mu'asasad, ama shirkad, ama calaamad ganacsi ee mowduuca maqaalka. waxaa la dhigayaa sawirka halka sare ee maqaalka si arag ahaan loogu aqoonsado waxa ku saabsan mowduuca. <br/><small>FG: hadii aad niyadda ku hayso adeegsiga faylka sabab aan taa ahayn, '''Ha dooranin dooqaan''', waxaad doorataa "Nooc kale ee ka mid ah nooyada shaqada ee aan xorta ahayn" halka hoose.</small>
+<div class="uploadDetails" style="display:none;" id="detailsNFLogo">
+{|
+|-
+|colspan="2"|Dooro xulashooyinkaan soo socda taasoo ah midda ugu dhow qeexista shaqada?
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFLogoLicense"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta howsha:</span>
+|style=""|<span id="placeholderNFLogoSource"></span><br/><small>(Tilmaam meesha aad ka heshay howsha?)</small>
+|-
+|td colspan="2"|<span class="uwObligatory" id="placeholderNFLogoCheckDedicated"></span>Waad adeegsan doontaa sawirka, ama galka, si ah xogta rasmiga ah ee faafinta ee mowduuca waxaana la dhigi doonaa halka ugu saraysa maqaalka.<br/><small>'''FG''': haddii aad niyadda ku hayso faylka sabab aan taa ahayn, '''Ha dooran dooqaan''', laakiin xulo "nooc ka mid ah noocyada shaqada ee aan xorta ahayn" xagga hoose.</small>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNFPortrait"></span>
+|Sawirkaan waa mid taariikhi ah ee ruux geeriyooday mowduuca maqaal.
+<div class="uploadDetails" style="display:none;" id="detailsNFPortrait">
+{|
+|-
+|style=""|<span class="uwObligatory">Geeriyooday mudda laga joogo:</span>
+|style=""|<span id="placeholderNFPortraitDeceased"></span><br/><small>(Xulashadaan waxaa loo adeegsadaa galinta saworo dad geeriyooday.)</small>
+|-
+|style=""|<span class="uwObligatory">Soo saaraha shaqada:</span>
+|style=""|<span id="placeholderNFPortraitAuthor"></span><br/><small>(Ruuxii sameeyay ama soo saaray howshaan?)</small>
+|-
+|style=""|<span class="uwObligatory">Faafiyihii asalka ahaa:</span>
+|style=""|<span id="placeholderNFPortraitPublication"></span><br/><small>(Macluumaad ku saabsan faafintii asalka ahayd ee howsha sida goorta, qaabka, xagee lagu faafiyay?)</small>
+|-
+|Tariikhda faafinta:
+|style=""|<span id="placeholderNFPortraitDate"></span>
+|-
+|style=""|<span class="uwObligatory">Xogta:</span>
+|style=""|<span id="placeholderNFPortraitSource"></span><br/><small>(si cad u tilmaam xogta aad heshay ee howshaan ka mid Ah?)</small>
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFPortraitCheckDedicated"></span>Waad adeegsan doontaa, ama faylka, si xog kaabid ah si loo qeexo moqduuca waxaadna ku muujin doontaa maqaalka halkiisa sare.<br/><small>'''FG''': Haddii aad niyadda ku hayso adeegsiga faylka sabab ka duwan taas '''Ha dooran dooqaan''', laakiin xulo "nooc kale ee ka mid ah noocyada howsha ee aan xorta ahayn" halkaan hoose.</small>
+|-
+|colspan="2"|ku sharax afargeeskaan soo socda sabata ka dhigaysa mustaxiil helista howsha ee howlahaaan:
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFPortraitReplaceable"></span><br/><small>FG: shaqsiyaadka goor dhow dhintay, waa inaad la xidhiidhaa kugaranaya si ay kuu siiyaan sawiro xuquuqdoodu ay tahay xor. laakiin dadka dhintay bartamihii qarnigii labaatanaad, waa inaad raadisaa sawirro ka horeeyay oo ay iyaga leeyihiin waxay kuu noqon karaan Commons guud.</small>
+|-
+|colspan="2"|La kaalay afargeeskaan hoose sharaxaad nagu qancinaysa in galinta howshaan wikipedia ma yeelan doonto wax saameeyn xun ee dhanka maaliyadda ah shaqada milkiilaha xuquuqdaan.
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFPortraitCommercial"></span><br/><small>Ma aqbalayno galinta iyo adeegsiga howl kasta ee ka hor imaanaysa taasoo uu ku heli karo dhaqaale ruuxii lahaa howshaan.</small>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNFMisc"></span>
+|Faylkaygu waa '''nooc kale ee ka mid ah noocyada shaqadaaan aan xorta ahayn''' waana ku qanacsanahay inaan awoodo  adeegsiga ruqsadda ah "adeegsi dhexdhexaad ah". waan aqriyay waana fahmay mowduuca wax aan xor ahayn ee wikipedia  waxaan diyaar u ahay inaan difaaco waxa aan ku qanacsanahay.</span>
+<div class="uploadDetails" style="display:none;" id="detailsNFMisc">
+{|
+|-
+|colspan="2"|Dooro xulasha ugu wanaagsan taasoo tilmaamaysa faylka aad niyadda ku hayso inaad galiso.
+|-
+|colspan="2"|<span class="uwObligatory" id="placeholderNFMiscLicense"></span>
+|-
+|class="uwLegend"|<span class="uwObligatory">Ruuxa leh howsha:</span>
+|style=""|<span id="placeholderNFMiscAuthor"></span><br/><small>(Magaca qofka ama cidda samaysay howshaan)</small>
+|-
+|style=""|<span class="uwObligatory">Faafintii ugu horaysay:</span>
+|style=""|<span id="placeholderNFMiscPublication"></span><br/><small>(Sheeh macluumaad ku saabsan markii ugu horaysay ee la faafiyay, sida qofkii faafiyay, sababta iyo goobta iyo goorta.)</small>
+|-
+|Taariikhda faafinta:
+|style=""|<span id="placeholderNFMiscDate"></span>
+|-
+|style=""|<span class="uwObligatory">Source:</span>
+|style=""|<span id="placeholderNFMiscSource"></span><br/><small>(U tilmaam si waafi ah shaqadaan xagee ka heshay)</small>
+|-
+|colspan="2"|U sharax si taaban karo afargeeskaan hoose sababta shaqadaan loogu adeegsanaayo maqaalka:
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFPurpose"></span><br/><small>Waxaan kaa rajaynaynaa inaad ahaato mid hubiya adeegsadana xaqiiqooyinka. Hakasoo min guurin dhacdooyin meel kale. Sharax, sida ay kulatahay, ahmiyadda wadciga howsha ama garaafka ku jira maqaalka. Nagu qanci maqaalka in uu luminayo ahmiyadiisa haddii aan lagu kordhin faylkaas.</small>
+|-
+|colspan="2"|Afargeeskaan soo socda, isku day inaad nagu qanciso ku bedelidda faylka/sawirka qeexista qoraalka.
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFReplaceableText"></span>
+|-
+|colspan="2"|ku sharax afargeeska hoose sababta aan loo adeegsan karin howl xor ah ee kale marka laga hadlaayo fayl kaada.
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFReplaceable"></span><br/><small>Ha iloobin: waxaa suuragal ah kala wareejinta howsha cilad adiga kaa timid xagaada ama qof kale diyaar u ah in uu soo bandhigo howl diyaar u ah. waan diidi doonaa fayl kasta ee sahal ah in dib loo soo saaro</small>
+|-
+|colspan="2"|Isku day inaad nagu qanciso afargeeskaan soo socda adeegsiga howsha ee wikipedia wax saamayn xun ah kuma yeelan doonto ee dhanka maaliyadda ah milkiilaha xuquuqda:
+|-
+|style=""|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFCommercial"></span><br/><small>Weligaa ha aqbalin galinta iyo adeegsiga howl kasta taasoo ka hor imaan karta manfac kasta maal uu ku heli karo Milkiilaha xuquuqda.</small>
+|-
+|}
+{|style="width:100%" id="NFMinimalitySection"
+|-
+|colspan="2"|Sheegeysaa: waa in aadan ku darin adeegsiga howlo xor ah laakiin waa in uu ahaadaa howl la hubo. waxaana loola jeedaa:
+<small>
+*ha adeegsan faylal xor ah aan daruuri ahayn hal maqaal.
+*Ha u adeegsan howl aan xor ahayn maqaalo farabadan.
+*Ha adeegsan qayb ka mid ah howsha iyadoon loo baahnayn.
+*Ha adeegsan wax heersare ah howsha iyadoon loo baahnayn</small>
+
+Arrinkaas dartiis, Waan ku qanacnay adeegsiga howsha wuxuu noqonayaa halka ugu fog sida horay loo sheegay:
+|-
+|class="uwLegend"|<span class="uwObligatory">&nbsp;</span>
+|style=""|<span id="placeholderNFMinimality"></span>
+|-
+|colspan="2"|Shuruudaha iyo ruqsadaha gaarka ah, haddii la helo:
+|-
+|class="uwLegend"|&nbsp;
+|style=""|<span id="placeholderNFExtraLicense"></span>
+|-
+|}
+{|style="width:100%" id="AnyOtherInfo"
+|-
+|colspan="2"|adeegso afargeeskaan  macluumaadka ama sharaxaada ku saabsan faylka halka munaasabka ku ah:
+|-
+|class="uwLegend"|&nbsp;
+|style=""|<span id="placeholderAnyOther"></span>
+|-
+|colspan="2"|<div id="fuwSubmitHost"><div id="fuwSubmit" style="border:1px solid green;margin:0.5em;padding:0.5em;">
+<div id="EditSummaryDiv" style="display:none;">
+{|
+|class="uwLegend"|bedel:
+|<span id="placeholderEditSummary"></span><br/><small>sharax, dhaqanka, sabata kugu qasbaysa inaad bedesho faylka ku jira wikipedia faylka aad niyadda ku hayso inaad galiso. kama soo muuqanayo sharaxaadaada bogga faylka, waxuu ka soo muuqanayaa taariikhda bedelka.</small>
+|}
+</div>
+<div id="sendToCommons">
+{|
+|style="width:12em;"|<span id="placeholderCommonsButton"></span> 
+|'''Haa, Waxaan doonayaan faylkaan si degdeg ah looga helo karo dhamaan mashaaariicda Wikimedia, dhamaan luqadaha. waxaan doonayaa inaan galiyo wikimedia commons. 
+Haddii aad halkaan gujiso waxay ku gaynaysaa Commons. Mana suutoobayso ilaa aad gudaha gashid. halkaan ka hubso haddii aad gudaha ku jirtid [https://commons.wikimedia.org/wiki/Special:UserLogin gudagal].</small>
+|}
+</div>
+{|
+|style="width:12em;"|<span id="placeholderSubmitButton"></span>
+|<span id="fuwSubmitText">'''maya''', waxaan doonayaa oo kaliya faylkaan inaan galiyo wikipedia yahaan .<br/><small>habkaan waxaad u adeegsartaa oo kaliya wikipedia Soomaaliga. sidaa awgeed, waxaa suurtagal ah in qof kasta u wareejiyo Commons ama adeegsigiisa meelo kale, haddi aadan doonayan nuqulkaa faylka loo wareejiyo Commons samee inaad ku darto {{tl|Keep Local}}.</small></span>  
+|-
+|<span id="placeholderResetButton1"></span>
+|Ku soo celinta tusaalahaan iyo ka bilaabista meel cusub.
+|}
+</div></div>
+|-
+|}</div>
+|-
+|}</div>
+|-
+|style=""|<span id="placeholderOptionNoGood"></span>
+|'''Sooma galin mid kamid ah qaybihii aan kor ku soo xusnay.''' <br/>waxaa muuqata faylkaan  mas soo galin qaybihiinmid ka mid ah aan kor ku soo xusnay, ama maba hubo in ay ka mid ahayd. faylkaan waxaan ka helay meel uun laakiin maba ogi xaqiiqdii cidda iska leh hadda.
+<div class="uploadWarning" style="display:none;" id="warningNoGood">
+Waa mid laga xunyahay. sababtoo ah maba haysid macluumaad ku filan oo ku saabsan milkiyadda faylka,
+<Center>
+<big>'''Ha galinin wax fayl ah.'''</big></center>
+Annagu waan kula dareensanahay waan hubnaa inaad ku howlantahay sababa keeni kara in ay xayirto isaykolebediga iyo aqristayaasha... laakiin waan bedelaynaa xuquuqda lahaanshaha ahmiyadeeda weyn mana weynaysanayno fulinteeda. mabdaana asaasiga ah wuxuu yahay shaqo kasta waxay leedahay xuquuq gaar ah mana la adeegsan karo ilaa inta laga ogaado caksigeeda. 
+:Si guud, in faylasha la galiyo:
+* OO aad ka soo heshay internetka, oo aadan fasax u haysan.
+* Oo aadan ogayn cidda iska leh ama abuuray ama qofka milkiyadda u leh.
+* oo aad ku qanacsantahay in ruuxa iska leh uusan kuu diideeynin adeegsigeeda adiga oo aan ka haysan ogalaasho cad.
+* Oo loo faafiyay sababo xayeesiin iyada oo aan la dareemin in loo adeegsaday si xor ah.
+* oo ay faafiyeen shirkada sawirada sida "Rooytaris" iyo"Asooshiyeetis barees" iyo "nashnaal juqraafig" ha adeegsan haddii xitaa ay ku qorantahay "adeegsi xor ah".
+* Faylasha xorta ah oo lagu faafiya si xor ah "laakiin xayeesiin ah" xeerka wikipedia wuxuu dhigayaa in uu yahay ganacsi.  
+haddii aadan hubin, waxaan kugula talinaynaa inaad weydiiso dadka khabiilka ku ah kuwaas oo aad kala xiriiri karto <span class="fuwOutLink">[[Wikipedia:Su'aal|su'aal]]</span>. waad ku mahadsantahay inaad nala fahanto.
+</div>
+|-
+|}</div></div></div>
+<div id="placeholderTestForm" style="border:2px solid green;padding:0.5em;margin:0.5em;background:#D0D0D0;display:none;">
+
+== (Tusaha)==
+Caddaymaha loo baahanyahay marka lagalinayo faylka:
+{|
+|-
+|Filename:||<span id="placeholderSandboxFilename"></span>
+|-
+|Summary:||<span id="placeholderSandboxSummary"></span>
+|-
+|Text:||<span id="placeholderSandboxText"></span>
+|-
+|}
+<!-- Hidden fields for edit-in-sandbox form -->
+<span id="placeholderSandboxToken"/>
+<span id="placeholderSandboxTitle"/>
+<span id="placeholderSandboxRecreate"/>
+<!-- end of hidden fields -->
+</div>
+<div id="fuwWaiting" style="display:none;">
+==Howsha galinta==
+siyaaha ay ku suurta galayso galinta faylka. 
+Waxay qaadan kartaa galinta faylka Daqiiqad ama labo, iyada oo ay ku xirantahay culayska faylka xawaaraha internetkaada. 
+Isla marka uu dhamaanayo galinta faylka, waxaad arki doontaa faylka cusub ee linkiga:
+
+<span id="fuwSuccessLink">'''[[:file:Example.jpg]]'''</span>
+
+</div>
+<div id="fuwSuccess" style="display:none;">
+==Waa lagu guulaystay galintii faylka==
+<div id="successThumb" style="float:right;display:none;">[[File:Example.jpg]]</div>
+Waa la soo galiyey Faylkii hadda waxaad ka heli kartaa halkaan:
+
+<span id="fuwSuccessLink2">'''[[:file:Example.jpg]]'''</span>
+
+waxaa lagaa rajaynayaa inaad tixraacdo iskana hubisid in sawirka la qeexay waxay ka koobantahay macluumaad lagama maarmaan ah. 
+
+haddii aad doonayso inaad cadaymaha ka bedesho  u weeco bogga sawirka guji linkiga dushiisa "bedel" halka sare ee bogga u bedel sida bedelista bogg kasta oo kale. Ha u weecan tusaalahaan si aadan mar labaad wax usoo galin, haddii aadan rabin inaad ku bedesha.
+
+si aad maqaal ugu darto, waxaad u baahantahay inaad sidaan u qorto:
+ <nowiki>[[</nowiki>file:<span id="placeholderExFilename1">Example.jpg</span>|thumb|faallada halkaan ku qor<nowiki>]]</nowiki>
+
+Haddii aad doonayso linkifa sawirka inaad meel qoraal ah ku so qorto, iyada oo aan soo muuqan sawirka, tusaale ahaan marka sawirka uu yaal goob wadahadal ah, waxaad adeegsan kartaa qaabkaan (calaamadda  : <nowiki>:[[File:Example.jpg]] [[</nowiki>:File:<span id="placeholderExFilename2">Example.jpg</span><nowiki>]])
+eeg [[Wikipedia:Sawirro]] SI aad u hesho caawinaad leh faahfaahin dheeraad ah oo ku saabsan sida loo galiyo sawirada bogagga. 
+
+'''waad ku mahadsantahay inaad halkaan soo doratay ee ah tijaabada.'''<br/>qor faallo ama soo jeedin ama qalad ka jira ee ku saabsan bogga [[{{TALKPAGENAME}}|Bogga wadahadalka]].
+
+<span id="placeholderResetButton2"></span>
+</div>
+<div id="fuwFooter" style="{{column-count|2}}">
+;Hab kale oo wax loo soo galiyo
+* [https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&uselang=so wax ka qabashada galinta] (faylasha furan)
+* [[Special:Upload|Tusaale caadi ah]] (Gudagalyaasha khibradda leh)
+;Caawinaada iyo mabaadida hagista
+* <span class="fuwOutLink">[[Wikipedia:Su'aal|Suaal]]</span>
+</div>
+__NOEDITSECTION__
