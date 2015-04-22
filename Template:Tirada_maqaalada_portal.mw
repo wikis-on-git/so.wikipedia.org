@@ -1,0 +1,2 @@
+<includeonly>{{#ifeq:{{NAMESPACE}}|Cotegory|{{Pagesincat|{{#ifeq:{{{1|}}}||{{PAGENAME}}|Portal {{{1}}}/Maqalaada ku saabsan}}|type=pages|form=1}}
+|[[:Category:Prtal {{{1|{{BASEPAGENAME}}}}}/Maqalaada ku saabsan|{{Pagesincat|Portal {{{1|{{BASEPAGENAME}}}}}/Maqalaada ku saabsan|type=pages|form=1}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
