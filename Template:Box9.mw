@@ -1,0 +1,11 @@
+<includeonly>{| width="100%" cellspacing="0" cellpadding="35" border-radius: 25px;"
+| width="34%" style="border-color: #eb8184 border-top-style: solid; border-right-style: dashed; border-color: #eb8184 border-bottom-style: dashed; border-left-style: dashed; border-radius: 55px;" valign="top" |
+<div style="font-size:130%; text-align:center; vertical-align:middle; height:23px; line-height:20px; background-color:#{{{color}}}" class="entete {{{icon}}}"><span style="letter-spacing:0px;"><font face="Andalus" color="{{{color-line|White}}}">{{{title}}}</font></span></div>
+<div style="padding: 1em;"><font face="Arabic Typesetting" size="5" color="{{{color-content|Black}}}">{{{content}}}</font>
+</div></div>
+|}
+</includeonly>
+<noinclude>
+{{Documentation}} 
+[[Category:Template]]
+</noinclude>
