@@ -1,0 +1,23 @@
+<includeonly><div class="div-col columns <!--
+ -->{{#if: {{{colwidth|{{{2|}}}}}}
+    | column-width
+    | column-count column-count-{{{cols|{{#if:1|{{{1|2}}}}}}}} }}" style="<!--
+ -->{{#if: {{{colwidth|{{{2|}}}}}}
+    | {{column-width|{{{colwidth|{{#if:1|{{{2}}}}}}}}}}
+    | {{column-count|{{{cols|{{#if:1|{{{1|2}}}}}}}}}} }} <!--
+ -->{{#if: {{{gap|}}}
+    | {{column-gap|{{{gap}}}}} }}<!--
+ -->{{#switch: {{{rules|}}}
+    | = <!--empty-->
+    | yes = {{column-rule}}
+    | {{Column-rule|{{{rules}}}}} }} <!--
+ -->{{#ifeq: {{{small|}}}|yes
+    | font-size:90%; }} <!--
+ -->{{#if: {{{style|}}}
+    | {{{style}}} }}"><!--
+ -->{{#if: {{{content|}}}
+    |{{{content}}}</div>}}<!-- Inventory how many pages use small=yes 
+ -->{{#ifeq: {{{small|}}}|yes
+    |[[Category:Pages using div col with small parameter]]}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
