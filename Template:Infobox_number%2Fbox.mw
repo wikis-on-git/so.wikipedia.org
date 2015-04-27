@@ -13,7 +13,7 @@
 | subheaderstyle = font-size:100%;
 | subheader = {{Infobox number/range|{{{number}}}}}
 
-| label1 = [[Cardinal number (linguistics)|Cardinal]]
+| label1 = [[Tiro qiime (linguistics)|Tiro qiime]]
 | data1  = {{#if: {{{cardinal|}}} | {{{cardinal}}} | {{#invoke:ConvertNumeric |numeral_to_english|{{{number}}}|sp=us}} }}
 
 | label2 = [[Ordinal number (linguistics)|Ordinal]]
@@ -22,19 +22,19 @@
 | label3 = [[Numeral system]] 
 | data3  = {{{numeral|}}}
 
-| label4 = [[Factorization]] 
+| label4 = [[Isirayn]] 
 | data4  = {{#if:{{{factorization|}}}|{{{factorization}}}|{{#ifexpr:{{{number}}} > 1 and {{{number}}} < 1000000000| {{#invoke:Factorization|factor|{{{number}}}|product=×}} }} }}
 
-| label5 = [[Gaussian integer]] factorization
+| label5 = [[Abyoone]] isirayn
 | data5 = {{{gaussian integer factorization|}}}
 
-| label6 = [[prime number|Prime]] 
+| label6 = [[Tiro mutaxan|Mutaxan]] 
 | data6 = {{{prime|}}}
 
-| label7 = [[Divisor]]s
+| label7 = [[Qaybshe]]
 | data7 = {{{divisor|}}}
 
-| label8 = [[Roman numerals|Roman numeral]]
+| label8 = [[Tiro roman]]
 | data8  = {{#if:{{{roman|}}}|{{{roman}}}| {{#ifexpr: {{{number}}} >= 1 | {{Roman|{{{number}}}|}} }} }}
 
 | label9 = Roman numeral ([[unicode]])
@@ -43,25 +43,25 @@
 | label10 = [[Unicode]] symbol(s)
 | data10 = {{{unicode|}}}
 
-| label11 = [[Greek language|Greek]] [[Numeral prefix|prefix]]
+| label11 = [[Af-Gariig|Gariig]] [[Tiro buuxda|buuxda]]
 | data11 = {{{greek prefix|}}}
 
-| label12 = [[Latin]] [[Numeral prefix|prefix]]
+| label12 = [[Latin]] [[Tiro buuxda|buuxda]]
 | data12 = {{{latin prefix|}}}
 
-| label13 = [[Old English]] [[Numeral prefix|prefix]]
+| label13 = [[Old English]] [[Tiro buuxda|buuxda]]
 | data13 = {{{old english prefix|}}}
 
-| label15 = [[Binary number|Binary]]
+| label15 = [[Tiro labaale|Labaale]]
 | data15 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Binary|{{{number}}} }} }}
 
-| label16 = [[Ternary numeral system|Ternary]]
+| label16 = [[Tiro saddexaale|Saddexaale]]
 | data16 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Ternary|{{{number}}} }} }}
 
-| label17 = [[Quaternary numeral system|Quaternary]]
+| label17 = [[Tiro afaraale|Afaraale]]
 | data17 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Quaternary numeral system|{{{number}}} }} }}
 
-| label18 = [[Quinary]]
+| label18 = [[Shanaale]]
 | data18 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Quinary|{{{number}}} }} }}
 
 | label19 = [[Senary]]
@@ -70,16 +70,16 @@
 | label20 = [[Octal]]
 | data20 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Octal|{{{number}}} }} }}
 
-| label21 = [[Duodecimal]]
+| label21 = [[Laba iyo tobanaale]]
 | data21 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Duodecimal|{{{number}}} }} }}
 
-| label22 = [[Hexadecimal]]
+| label22 = [[Tobanaale]]
 | data22 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Hexadecimal|{{{number}}} }} }}
 
 | label23 = [[Vigesimal]]
 | data23 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Vigesimal|{{{number}}} }} }}
 
-| label24 = [[Base 36]]
+| label24 = [[Sal 36]]
 | data24 = {{#ifexpr: ({{{number}}} >= 0) and ({{{number}}} <= 9007199254740991) | {{Base 36|{{{number}}} }} }}
 
 | label32 = {{{lang1}}} 
