@@ -1,0 +1,9 @@
+{{Cmbox
+| type = style
+| text = Kani waa [[Wikipedia:Category|qayb]] gaar u tahay maamulka qaybta Soomaaliga waxaa ku jira bogag aan ahayn kuwa ku jira insaykolobeediyaha ama urur maqaallo ag mana kala saarna.{{#if:{{{1|}}}| <br /> <div style="text-align: left;">{{{ALTTEXT|'''capacity''':}}} {{{1|}}}</div> }} 
+}}{{#if:{{{shortcut|}}}| {{shortcut| {{{shortcut}}} }} }}<noinclude>
+{{Documentation}}
+<!-- Please add categories and interwikis to the /doc subpage, not here -->
+</noinclude><noinclude>
+[[Category:Template]]
+</noinclude>
