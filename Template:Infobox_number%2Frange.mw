@@ -1,107 +1,107 @@
 {{#ifexpr:{{{1|-2}}} > -1
   | {{#ifexpr:{{{1}}} < 200
      | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
--->{{#ifexpr:(floor({{{1}}} div 10)) = 0 | [[−1]] | [[{{#expr: (floor({{{1}}} div 10)) * 10 - 1}} (number)|{{Unicode|←}}]] }} <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 1}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 1}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 2}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 2}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 3}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 3}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 4}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 4}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 5}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 5}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 6}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 6}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 7}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 7}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 8}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 8}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 9}} (number)|{{#expr: (floor({{{1}}} div 10)) * 10 + 9}}]] <!--
--->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 10}} (number)|{{Unicode|→}}]]</div>
+-->{{#ifexpr:(floor({{{1}}} div 10)) = 0 | [[−1]] | [[{{#expr: (floor({{{1}}} div 10)) * 10 - 1}} (tiro)|{{Unicode|←}}]] }} <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 1}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 1}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 2}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 2}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 3}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 3}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 4}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 4}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 5}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 5}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 6}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 6}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 7}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 7}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 8}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 8}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 9}} (tiro)|{{#expr: (floor({{{1}}} div 10)) * 10 + 9}}]] <!--
+-->[[{{#expr: (floor({{{1}}} div 10)) * 10 + 10}} (tiro)|{{Unicode|→}}]]</div>
      | {{#ifexpr: {{{1}}} < 300 
         |<div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 - 10}} (number)|{{Unicode|←}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 10}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 10}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 20}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 20}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 30}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 30}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 40}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 40}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 50}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 50}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 60}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 60}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 70}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 70}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 80}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 80}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 90}} (number)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 90}}]] <!--
--->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 100}} (number)|{{Unicode|→}}]]</div>
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 - 10}} (tiro)|{{Unicode|←}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 10}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 10}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 20}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 20}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 30}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 30}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 40}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 40}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 50}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 50}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 60}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 60}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 70}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 70}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 80}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 80}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 90}} (tiro)|{{#expr: (({{{1}}} div 100) mod 10) * 100 + 90}}]] <!--
+-->[[{{#expr: (({{{1}}} div 100) mod 10) * 100 + 100}} (tiro)|{{Unicode|→}}]]</div>
         }}
     }}
-  |<div style="text-align:center;font-size:smaller;white-space:nowrap;">[[−1]] [[0 (number)|0]] [[1 (number)|1]] [[2 (number)|2]] [[3 (number)|3]] [[4 (number)|4]] [[5 (number)|5]] [[6 (number)|6]] [[7 (number)|7]] [[8 (number)|8]] [[9 (number)|9]] [[10 (number)|{{Unicode|→}}]]</div>
+  |<div style="text-align:center;font-size:smaller;white-space:nowrap;">[[−1]] [[0 (tiro)|0]] [[1 (tiro)|1]] [[2 (tiro)|2]] [[3 (tiro)|3]] [[4 (tiro)|4]] [[5 (tiro)|5]] [[6 (tiro)|6]] [[7 (tiro)|7]] [[8 (tiro)|8]] [[9 (tiro)|9]] [[10 (tiro)|{{Unicode|→}}]]</div>
 }}<!--
 --><div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
--->[[Liiska Lambarada]] — [[Anyoone]] <!--
+-->[[Liiska Lambarada]] — [[Abyoone]] <!--
 --></div><!--
 -->{{#ifexpr:{{{1|-2}}} >= -1
   | {{#ifexpr:{{{1}}} < 100
      | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Tiro taban|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
--->[[10 (number)|10]] <!--
--->[[20 (number)|20]] <!--
--->[[30 (number)|30]] <!--
--->[[40 (number)|40]] <!--
--->[[50 (number)|50]] <!--
--->[[60 (number)|60]] <!--
--->[[70 (number)|70]] <!--
--->[[80 (number)|80]] <!--
--->[[90 (number)|90]] <!--
--->[[100 (number)|{{Unicode|→}}]]</div>
+-->[[0 (tiro)|0]] <!--
+-->[[10 (tiro)|10]] <!--
+-->[[20 (tiro)|20]] <!--
+-->[[30 (tiro)|30]] <!--
+-->[[40 (tiro)|40]] <!--
+-->[[50 (tiro)|50]] <!--
+-->[[60 (tiro)|60]] <!--
+-->[[70 (tiro)|70]] <!--
+-->[[80 (tiro)|80]] <!--
+-->[[90 (tiro)|90]] <!--
+-->[[100 (tiro)|{{Unicode|→}}]]</div>
    | {{#ifexpr:{{{1}}} < 1000
      | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
--->[[100 (number)|100]] <!--
--->[[200 (number)|200]] <!--
--->[[300 (number)|300]] <!--
--->[[400 (number)|400]] <!--
--->[[500 (number)|500]] <!--
--->[[600 (number)|600]] <!--
--->[[700 (number)|700]] <!--
--->[[800 (number)|800]] <!--
--->[[900 (number)|900]] <!--
--->[[1000 (number)|{{Unicode|→}}]]</div>
+-->[[0 (tiro)|0]] <!--
+-->[[100 (tiro)|100]] <!--
+-->[[200 (tiro)|200]] <!--
+-->[[300 (tiro)|300]] <!--
+-->[[400 (tiro)|400]] <!--
+-->[[500 (tiro)|500]] <!--
+-->[[600 (tiro)|600]] <!--
+-->[[700 (tiro)|700]] <!--
+-->[[800 (tiro)|800]] <!--
+-->[[900 (tiro)|900]] <!--
+-->[[1000 (tiro)|{{Unicode|→}}]]</div>
      | {{#ifexpr:{{{1}}} < 10000
         | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
--->[[1000 (number)|1k]] <!--
--->[[2000 (number)|2k]] <!--
--->[[3000 (number)|3k]] <!--
--->[[4000 (number)|4k]] <!--
--->[[5000 (number)|5k]] <!--
--->[[6000 (number)|6k]] <!--
--->[[7000 (number)|7k]] <!--
--->[[8000 (number)|8k]] <!--
--->[[9000 (number)|9k]] <!--
--->[[10000 (number)|{{Unicode|→}}]]</div>
+-->[[0 (tiro)|0]] <!--
+-->[[1000 (tiro)|1k]] <!--
+-->[[2000 (tiro)|2k]] <!--
+-->[[3000 (tiro)|3k]] <!--
+-->[[4000 (tiro)|4k]] <!--
+-->[[5000 (tiro)|5k]] <!--
+-->[[6000 (tiro)|6k]] <!--
+-->[[7000 (tiro)|7k]] <!--
+-->[[8000 (tiro)|8k]] <!--
+-->[[9000 (tiro)|9k]] <!--
+-->[[10000 (tiro)|{{Unicode|→}}]]</div>
         | {{#ifexpr:{{{1}}} < 100000
            | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
--->[[10000 (number)|10k]] <!--
--->[[20000 (number)|20k]] <!--
--->[[30000 (number)|30k]] <!--
--->[[40000 (number)|40k]] <!--
--->[[50000 (number)|50k]] <!--
--->[[60000 (number)|60k]] <!--
--->[[70000 (number)|70k]] <!--
--->[[80000 (number)|80k]] <!--
--->[[90000 (number)|90k]] <!--
--->[[100000 (number)|{{Unicode|→}}]]</div>
+-->[[0 (tiro)|0]] <!--
+-->[[10000 (tiro)|10k]] <!--
+-->[[20000 (tiro)|20k]] <!--
+-->[[30000 (tiro)|30k]] <!--
+-->[[40000 (tiro)|40k]] <!--
+-->[[50000 (tiro)|50k]] <!--
+-->[[60000 (tiro)|60k]] <!--
+-->[[70000 (tiro)|70k]] <!--
+-->[[80000 (tiro)|80k]] <!--
+-->[[90000 (tiro)|90k]] <!--
+-->[[100000 (tiro)|{{Unicode|→}}]]</div>
            | <div style="text-align:center;font-size:smaller;white-space:nowrap;"> <!--
 -->[[Negative number|{{Unicode|←}}]] <!--
--->[[0 (number)|0]] <!--
--->[[10 (number)|10<sup>1</sup>]] <!--
--->[[100 (number)|10<sup>2</sup>]] <!--
--->[[1000 (number)|10<sup>3</sup>]] <!--
--->[[10000 (number)|10<sup>4</sup>]] <!--
--->[[100000 (number)|10<sup>5</sup>]] <!--
+-->[[0 (tiro)|0]] <!--
+-->[[10 (tiro)|10<sup>1</sup>]] <!--
+-->[[100 (tiro)|10<sup>2</sup>]] <!--
+-->[[1000 (tiro)|10<sup>3</sup>]] <!--
+-->[[10000 (tiro)|10<sup>4</sup>]] <!--
+-->[[100000 (tiro)|10<sup>5</sup>]] <!--
 -->[[million|10<sup>6</sup>]] <!--
--->[[10000000 (number)|10<sup>7</sup>]] <!--
--->[[100000000 (number)|10<sup>8</sup>]] <!--
+-->[[10000000 (tiro)|10<sup>7</sup>]] <!--
+-->[[100000000 (tiro)|10<sup>8</sup>]] <!--
 -->[[1,000,000,000|10<sup>9</sup>]]</div>
            }}
         }}
