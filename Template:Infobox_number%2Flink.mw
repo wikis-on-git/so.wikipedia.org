@@ -1,7 +1,7 @@
 {{#if:{{{plain|}}}
   | {{#ifexpr:{{{tiro|0}}} < 0
        |−{{#expr:abs({{{tiro|0}}})}}
-       |{{{number}}}
+       |{{{tiro}}}
     }}
   | {{#ifexist: {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number) 
        | [[{{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number)|{{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}]]
