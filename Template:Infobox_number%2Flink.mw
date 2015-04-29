@@ -1,5 +1,5 @@
 {{#if:{{{plain|}}}
-  | {{#ifexpr:{{{tiro|0}}} < 0
+  | {{#ifexpr:{{{number|0}}} < 0
        |−{{#expr:abs({{{tiro|0}}})}}
        |{{{tiro}}}
     }}
