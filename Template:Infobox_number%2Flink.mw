@@ -1,10 +1,10 @@
 {{#if:{{{plain|}}}
-  | {{#ifexpr:{{{number|0}}} < 0
-       |−{{#expr:abs({{{number|0}}})}}
-       |{{{number}}}
+  | {{#ifexpr:{{{tiro|0}}} < 0
+       |−{{#expr:abs({{{tiro|0}}})}}
+       |{{{tiro}}}
     }}
-  | {{#ifexist: {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number) 
-       | [[{{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number)|{{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}]]
-       | {{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}
+  | {{#ifexist: {{#ifexpr:{{{tiro|0}}} < 0|−}}{{#expr:abs({{{tiro|0}}})}} (tiro) 
+       | [[{{#ifexpr:{{{tiro|0}}} < 0|−}}{{#expr:abs({{{tiro|0}}})}} (tiro)|{{{pre|}}} {{#ifexpr:{{{tiro|0}}} < 0|−}}{{#expr:abs({{{tiro|0}}})}} {{{post|}}}]]
+       | {{{pre|}}} {{#ifexpr:{{{tiro|0}}} < 0|−}}{{#expr:abs({{{tiro|0}}})}} {{{post|}}}
     }}
 }}
