@@ -1,0 +1,8 @@
+<div class="cadre_portail" style="clear: both; margin: {{{marges|1em 0 0.5em 0}}}; border-width: 1px; border-style: solid; border-color: {{{border color|#AAAAAA}}}; background-color: {{{background color|#EEEEEE}}}; color: {{{text color|#000000}}}; line-height: 1.25">
+<table width="100%" rules="none" border="0" cellspacing="0" cellpadding="2" style="background: transparent; {{{text style|}}}">
+<tr>
+{{#if:{{{image|}}}|<td style="padding-right:4px">[[Image:{{{image}}}|120x24px|]]</td>}}
+<td width="100%">{{{text}}} {{#if:{{{simple|}}}||{{{développement|}}}}}</td>
+</tr></table></div><noinclude>
+{{documentation}}
+</noinclude>
