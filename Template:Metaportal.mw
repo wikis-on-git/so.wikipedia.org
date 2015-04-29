@@ -1,8 +1,20 @@
-<div class="cadre_portail" style="clear: both; margin: {{{marges|1em 0 0.5em 0}}}; border-width: 1px; border-style: solid; border-color: {{{border color|#AAAAAA}}}; background-color: {{{background color|#EEEEEE}}}; color: {{{text color|#000000}}}; line-height: 1.25">
-<table width="100%" rules="none" border="0" cellspacing="0" cellpadding="2" style="background: transparent; {{{text style|}}}">
-<tr>
-{{#if:{{{image|}}}|<td style="padding-right:4px">[[Image:{{{image}}}|120x24px|]]</td>}}
-<td width="100%">{{{text}}} {{#if:{{{simple|}}}||{{{développement|}}}}}</td>
-</tr></table></div><noinclude>
-{{documentation}}
-</noinclude>
+{{#ifeq:<!--‫
+-->{{{original|no}}}|لا<!--‫
+-->|<ul id="bandeau-portail" class="bandeau-portail إعلام">}}<li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><!--‫
+-->[[file:{{#if:{{{icone|}}}|{{{icone|}}}|Portal.svg }}|{{#ifeq:<!--
+‫-->{{{border|}}}|yes<!--
+‫-->|border{{!}}46x22px|48x24px}}<!--‫
+-->|{{#if:{{{title|}}}|{{{title}}}|portal {{{portal|portal}}}}}|link=portal:{{{Portal|portal}}}]]<!--‫
+--></span> <span class="bandeau-portail-texte"><!--‫
+-->[[Portal:{{{portal|portal}}}|{{#if:{{{title|}}}|{{{title}}}|portal {{{portal|portal}}}}}]]<!--‫
+--></span> {{#if:{{{sub|}}}|• <span class="bandeau-sous-portail-texte"><!--‫
+-->[[Portal:{{{portal}}}/{{{Sub}}}|{{{Sub title}}}]]<!--
+‫--></span>}}</span></li>{{#ifeq:<!--
+‫-->{{{original|لا}}}|لا<!--‫
+-->|</ul>}}<noinclude>
+{{Documentation}}<!--Métadonnées en sous-page de doc  -->
+[[Category:Gooni ka ah daabacaad]]
+</noinclude><includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--  
+-->{{#ifeq:{{{original|no}}}|bar<!--‫
+-->||[[Category:Bog loo adeegsaday tusmo portal aan marin lahayn]]<!--  
+-->}}}}</includeonly>
