@@ -32,7 +32,7 @@
 |- <!-- GENERAL PROPERTIES -->
 ! colspan=2 {{Infobox element/headers|1={{{series color|}}}|2={{{series}}}|3={{{phase color|}}}|4={{{phase}}}|name={{ucfirst:{{{name|}}}}}| headerstitle={{{headerstitle|}}} }} | Astaamaha guud
 |-
-! Magac, [[Sumad kiimikeed|sumad]], [[Tiro atam|tiro]]
+! Magac, [[Summad kiimikeed|summad]], [[Tiro atam|tiro]]
 | {{{name}}}, {{{symbol}}}, {{{number}}}
 |-
 {{#if:{{{pronounce|}}}|
@@ -41,11 +41,11 @@
 }}
 |-
 {{#if:{{{series|}}}{{{series comment|}}}|
-! [[Qaybta ciyiyeha]]
+! Urur curiyaha
 {{!}} {{#ifeq: {{{series|}}}|noble gas|[[{{{series}}}]]es|{{#ifeq: {{lc:{{{series|}}}}}|unknown|unknown|[[{{{series}}}]]}}}}{{#if:{{{series 2|}}}|, {{{series 2}}}}}
 }}{{#if:{{{series comment|}}}| {{#if:{{{series|}}} |<br />|}}{{{series comment|}}} }}
 |-
-! [[Uruu (kimistari|urur]], [[Kaltan]], [[block (periodic table)|heerka]]
+! [[Urur (tusaha kalgalka)|Urur]], [[Heerlka (tusaha kalgalka)|heerka]]
 | <noinclude>{{{group}}}</noinclude><includeonly>{{infobox element/group|group={{{group|}}}|series={{{series|}}}|number={{{number|}}}|predicted={{{predicted|no}}}}}</includeonly>, [[period {{{period}}} element|{{{period}}}]], [[{{{block}}}-block|{{{block}}}]]
 |-
 ! [[Culays atam]]
