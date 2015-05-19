@@ -1,0 +1,72 @@
+[[image:PiCM200.svg|left||Waa xaraf kamid ah kuwa gariiga]] 
+Pi ama madoorsoome lagu xisaabo wareega goobo (<math>{\pi}</math>) Sidoo kale waa astaan loo isticmaalo badanaa Fisigis <math>{\pi}</math> Xarafka yer ee gariiga ayaa laga soo qaatay[[Pi]]. 
+
+Waxaana loo yaqaanaa xiriiriyaha [[Goobo ]]iyo Dhexroorkeeda [[Dhexroor]]  Si jajab ahna looma qori karo, ama xitaa aljebra ahaan <math> a/b </math> halkii <math>a,b</math> oo ah tiro togan
+Waxaana loo yaqaanaa Madoorsoomehii [[Archimedes]] .
+
+[[file:Pi-unrolled-720.gif|250px|center| Dhaxroorka =1, wareega waxa uu noqonayaa = π.]]
+Waxaana loo qoraa <math>3.14</math> ama  <math> 22/7 </math>.
+
+Tusaale
+
+{| class="wikitable"
+|-
+! Cm !! (O) Wareega !! (d) Dhaxroorka !! O/d Wareega / dhaxroorka 
+|-
+| Bir canjeero || 96.2 || 29.8 || 3.22819
+|-
+| Bakeeri || 18.4 || 5.7 || 3.22807
+|-
+| Xaarin || 104.6 || 32.4 || 3.2284
+|-
+| Baaf || 156.2 || 48.1 || 3.2474
+|}
+Hadaba mar walba oo lagu celcelyo alaaba kala duwan waxaa soo baxaysa tiradaas sidaas daraaeed waxaa lagu hehsiiyey Tiradas laga dhigo 3.14 way raaci kartaa tiro kale sida 3.140012 Laakiin waxaa lagu gaabiyey 3.14, iyadoo sidaas ah ayaa hadana tiradaas waxaa loo sii qoraa (<math>{\pi}</math>) sumadaas.
+
+=== Joomitiriya ===
+
+π Joomitiriyada iyo cabirkeeda sida loogu cabiro.
+
+{| border="1" cellpadding="5" style="border-collapse: collapse; border-color:#cccccc;"
+!<!--- Bild --->
+!Habka Joomitiriyada
+!Qaabka
+|-
+|rowspan="2"|[[Goobo]]
+|[[Wareeg]]a Goobada waxaa lagu helaa [[Gacan]] ''r'' iyo [[Dhexroor]] ''d''
+|<math>O = \pi d = 2 \pi r \,\!</math>
+|-
+|[[Bed]] Waxaa lagu helaa gacanka ''r''
+|<math>A = \pi r^2 \,\!</math>
+|-
+|[[Qabaal]]
+|Bed keeda  Waxaa lagu helaa ''a'' iyo ''b''
+|<math>A = \pi a b \,\!</math>
+|-
+|rowspan="2"|[[Kubad]]
+|[[Mug]] Waxaa lagu helaa ''r'' iyo dhexroor ''d''
+|<math>V = \frac{4}{3} \pi r^3 = \frac{1}{6} \pi d^3 \,\!</math>
+|-
+|[[Bed]] waxaa lagu helaa ''r''
+|<math>A = 4 \pi r^2 \,\!</math>
+|-
+|rowspan="2"|[[Dhululubo]]
+|Dhulubo [[Mug]] Waxaa lagu helaa ''h'' iyo Gacan ''r''
+|<math>V = \pi r^2 h \,\!</math>
+|-
+|Bedkana ''h'' iyo gacan ''r''
+|<math>A = 2 ( \pi r^2 ) + ( 2 \pi r ) h = 2 \pi r (r + h) \,\!</math>
+|-
+|rowspan="2"|[[Toobin]]
+|Mug [[Toobin]] waxaa lagu helaa ''h'' iyo Gacan ''r''
+|<math>V = \frac{1}{3} \pi r^2 h \,\!</math>
+|-
+|Bedkana ''h'' iyo gacan ''r''
+|<math>A = \pi r \sqrt{r^2 + h^2} + \pi r^2 =  \pi r (r + \sqrt{r^2 + h^2}) \,\!</math>
+|}
+
+
+
+
+
+[[Category:Summad (Pi)]]
