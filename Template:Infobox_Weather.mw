@@ -55,7 +55,7 @@
 }}<!--
 -->}}
 {{Infobox Weather/khad
-|label=Darajada kuleelka ugu badan°{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
+|label=Darajada kuleelka ugu badan °{{#if:{{{metric_first|}}}|m|Qiyaas}} {{#if:{{{single_line|}}}|(°{{#if:{{{metric_first|}}}|Qiyaas|m}})}}
 |show={{#if:{{{metric_first|}}}|1|2}}
 |alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
 |sc={{{sctemp|t}}} |f=1
@@ -187,7 +187,7 @@
 }}<!--
 -->}}{{#if:{{{Jan_Precip_cm|}}}{{{Jan_Precip_mm|}}}{{{Jan_Precip_inch|}}}|<nowiki/>
 {{Infobox Weather/khad
-|label= Roobka da'a qiyaastii{{#if:{{{metric_first|}}}|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3|Calaacal}} {{#if:{{{single_line|}}}|({{#if:{{{metric_first|}}}|Calaacal|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3}})}}
+|label= Roobka da'a qiyaastii {{#if:{{{metric_first|}}}|{{#if:{{{Jan_Precip_cm|}}}|c|m}}<sub>3</sub>|Calaacal}} {{#if:{{{single_line|}}}|({{#if:{{{metric_first|}}}|Calaacal|{{#if:{{{Jan_Precip_cm|}}}|c|m}}3}})}}
 |show={{#if:{{{metric_first|}}}|1|2}}
 |alt={{#if:{{{single_line|}}}|{{#if:{{{metric_first|}}}|2|1}}}}
 |sc={{{scprecip|p}}} |f={{#if:{{{Jan_Precip_cm|}}}|10|1}}
@@ -416,7 +416,7 @@
 }}<!--
   -->{{#if:{{{Jan_REC_Lo_°C|}}}{{{Jan_REC_Lo_°F|}}}|<nowiki />
 {{Infobox Weather/khad
-|label=Darajada qaboowga ee ugo hooseeysa waa°{{#if:{{{metric_first|}}}|Qiyaas|M}} |show={{#if:{{{metric_first|}}}|2|1}}
+|label=Darajada qaboowga ee ugo hooseeysa waa °{{#if:{{{metric_first|}}}|Qiyaas|M}} |show={{#if:{{{metric_first|}}}|2|1}}
 |alt=
 |sc={{{sctemp|t}}} |f=1
 |jan1={{{Jan_REC_Lo_°C|{{#if:{{{Jan_REC_Lo_°F|}}}|{{#expr:({{{Jan_REC_Lo_°F|}}}-32)/1.8 round 0}}}}}}}
