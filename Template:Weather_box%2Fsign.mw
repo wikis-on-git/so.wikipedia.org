@@ -1,0 +1,8 @@
+{{#iferror:{{#expr:1/({{{1}}}<0)}}
+|{{{1|}}}
+|−{{#expr:-{{{1}}}}}
+}}<noinclude>
+{{doc|content=
+This converts a hyphen minus into a true minus sign. It leaves positive numbers & non-numeric input as they are.
+}}
+</noinclude>
