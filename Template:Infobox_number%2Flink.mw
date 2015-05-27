@@ -3,8 +3,8 @@
        |−{{#expr:abs({{{number|0}}})}}
        |{{{number}}}
     }}
-  | {{#ifexist: {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number) 
-       | [[{{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (number)|{{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}]]
+  | {{#ifexist: {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (tiro) 
+       | [[{{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} (tiro)|{{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}]]
        | {{{pre|}}} {{#ifexpr:{{{number|0}}} < 0|−}}{{#expr:abs({{{number|0}}})}} {{{post|}}}
     }}
 }}
