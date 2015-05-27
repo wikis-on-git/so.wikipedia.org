@@ -1,6 +1,6 @@
 {{Infobox number/box
-|number={{#if:{{{tiro<includeonly>|</includeonly>}}}
-  | {{{tiro<noinclude>|{{#time:j}}</noinclude>}}}
+|number={{#if:{{{number<includeonly>|</includeonly>}}}
+  | {{{number<noinclude>|{{#time:j}}</noinclude>}}}
   | {{title without disambig|{{PAGENAME}}}}
   }}
 | qoraal = {{{cardinal|labaatan iyo kow}}}
