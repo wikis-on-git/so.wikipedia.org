@@ -1,15 +1,15 @@
 {{Infobox Polygon
-| name       = Laydi
-| image      = Rectangle example.svg
-| caption    = 
-| type       = [[Afargeesle]], [[Barbaroole]], [[orthotope]]
-| edges      = 4
-| symmetry   = [[Dihedral symmetry|Dih<sub>2</sub>]], [2], (*22)
-| schläfli   = { } × { }
-| wythoff    = 
-| coxeter    = {{CDD|node_1|2|node_1}}
-| area       = 
-| dual       = [[Qardhaas]]
+| name = Laydi
+| image = Rectangle example.svg
+| caption = 
+| type = [[Afargeesle]], [[Barbaroole]], [[orthotope]]
+| edges = 4
+| symmetry = [[Dihedral symmetry|Dih<sub>2</sub>]], [2], (*22)
+| schläfli = { } × { }
+| wythoff = 
+| coxeter = {{CDD|node_1|2|node_1}}
+| area = 
+| dual = [[Qardhaas]]
 | properties = [[convex polygon|convex]], [[isogonal figure|isogonal]], [[Cyclic polygon|cyclic]]
 }}
 
@@ -20,9 +20,7 @@ Dhinaca ugu dheer ee [[Laydi]] waxaa lagau magacaabaa [[Dherer]], Dhinaca ugu ga
 [[File:Rectangle 2.svg|thumb|left|200px|Laydi iyo Xagalahiisa]]
 Tusaale ahaan [[Bed]]Ka [[Laydi]] 5 [[Dherer]] 4 [[Balac]] Haddii la isku dhufto waa 20, oo sidaan ah 5 × 4 = 20.
 
-Laakiin haddii [[Sal]]ka iyo [[Joog]]a ee [[Laydi]] Waxaa lala suntaa <math>\,b\,</math> iyo <math>\,h\,</math> Waxaa uu noqonayaa [[Bed]]kiisa  <math>\,A\,</math>  [[Wareeg]]iisa <math>\,L\,</math> 
+Laakiin haddii [[Sal]]ka iyo [[Joog]]a ee [[Laydi]] Waxaa lala suntaa <math>\,b\,</math> iyo <math>\,h\,</math> Waxaa uu noqonayaa [[Bed]]kiisa <math>\,A\,</math> [[Wareeg]]iisa <math>\,L\,</math> 
 :<math>A\,=\, b\cdot h \qquad L \,=\, 2\cdot b + 2\cdot h</math>
-
-
 
 [[Category:Afar geesle]]
