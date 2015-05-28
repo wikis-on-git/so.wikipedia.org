@@ -10,7 +10,7 @@ Tusaalooyinka soo socda waa taxanayaal:
 3  \\
 1  \end{bmatrix}</math> 3×1 
 
-b.  Taxane 3-dhinactax 1-joogtax ah
+b. Taxane 3-dhinactax 1-joogtax ah
 
 : <math>\mathbf{t)} = \begin{bmatrix}
 
@@ -33,7 +33,7 @@ j. Taxane 1-dhinactax 4-joogtax ah.
 
 x. Taxane 2-dhinactax 4-joogtax ah.
 
-Taxanihii hal dhinactax kaliya leh waxaa la yiraa '''Taxane dhinactax''' markuu hal joogtax kaliyana waxaa la yiraa '''Taxane joogtax'''.   Ku jirayaalka mid ka mid ah waxaa la yiraa '''kutiirsanayaal'''. Taxanaha waxaa lagu magacaabaa xaraf weyn, sida B, T, J iwm. Ama sumadda B m×n, taasoo u taagnaan karta taxana kasta oo leh  m-dhinactax n-joogtax. Hoos dhigga (muujiyaha) m×n wuxuu u taaganyahay aaddimaha ama ama heerka taxanaha.
+Taxanihii hal dhinactax kaliya leh waxaa la yiraa '''Taxane dhinactax''' markuu hal joogtax kaliyana waxaa la yiraa '''Taxane joogtax'''. Ku jirayaalka mid ka mid ah waxaa la yiraa '''kutiirsanayaal'''. Taxanaha waxaa lagu magacaabaa xaraf weyn, sida B, T, J iwm. Ama sumadda B m×n, taasoo u taagnaan karta taxana kasta oo leh m-dhinactax n-joogtax. Hoos dhigga (muujiyaha) m×n wuxuu u taaganyahay aaddimaha ama ama heerka taxanaha.
 
 Inta kutiirsan ee taxanuhu leeyahay waxaa lagu helaa m oo lagu dhuftay n. Haddaba hadaan u noqonno tusaalaha kor ku xusan, waxaan aragnaa in: taxanaha (b) uu leeyahay addimo ah: 3×1; kan (t) 2×2; kan (j) 1×4; kan (x) uu leeyahay 2×4 sidaas oo kale taxanihii ah heerka m×n wuxuu ka kooban yahay taxanayaal ah m-dhinactax iyo taxanayaal ah n-joogtax. 
 
@@ -63,7 +63,7 @@ Tusaale:
 Taxana guud ee heerka 2×3 waxaa loo qori karaa 
 <math>\begin{pmatrix} {a}_{11}&{a}_{12}&{a}_{13} \\{a}_{21}&{a}_{22}&{a}_{23} \end{pmatrix}</math>
 
-Taxana guud ee heerka m × n  waxaa loo qori karaa
+Taxana guud ee heerka m × n waxaa loo qori karaa
 
 <math> \mathbf{A} = 
  \begin{bmatrix}
@@ -73,7 +73,7 @@ Taxana guud ee heerka m × n  waxaa loo qori karaa
  a_{m1} & a_{m2} & \cdots & a_{mn}
  \end{bmatrix}.</math>
 
-Waxaa loo soo gaabiyaa (a i j) marka i = (0,1,2,...m) j = (1,2,3,...n)  ereyada kale ee taxanayaasha
+Waxaa loo soo gaabiyaa (a i j) marka i = (0,1,2,...m) j = (1,2,3,...n) ereyada kale ee taxanayaasha
 
 Taxane maran.
 Haddii tanayaal kutiirsanayaalkiisu dhammaan yihiin, eber, taxanahaas waxaa la yiraa tanaxane maran ama taxane eber waxaa lagu asteeyaa 0 m × n.
@@ -82,6 +82,6 @@ Melmel taxane.
 Meelmeelka taxane B loono qoro B"" (u akhri "meelmeel B") waa taxane cusub oo ka yimid, B oo dhinactaxyadeeda la isku bedelay.
 
 Isle'ekaanshaha taxanayaal.
-Laba taxane B iyo T oo isla aaddimo ah waa isle'egyihiin haddii iyo haddii qura oo kutiirsanayaashoodu isku beegani  isle'egyihiin.
+Laba taxane B iyo T oo isla aaddimo ah waa isle'egyihiin haddii iyo haddii qura oo kutiirsanayaashoodu isku beegani isle'egyihiin.
 
 [[Category:Taxaneyaal]]
