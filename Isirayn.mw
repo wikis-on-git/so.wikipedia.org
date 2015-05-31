@@ -1,0 +1,24 @@
+[[File:Factorisatie.svg|right]]
+[[Xisaab]] ahaan '''isirayn''' waa furfurid: ''fansaar'' hal tibix lambar <math>n</math> ururka tirsiimo  <math>T=</math><math>\{1, 2, 3, 4, 5 \dots\}</math> sidoo kale waxay yeelan kartaan dhowr tibix  (<math>n = a_0 \times a_1 \times a_2 \times a_3 \times \dots</math>).
+
+Tara kasta oo idil waxaa lagu muujin karaa dhibco. Tilmaan ahaan 6 waxaa lagu muujin karaa siyaabahaa  
+
+...... ama ::::  Tirooyinka u dhigmi kara laydi ahaan ayaa ah tirooyin leh isirro maratal tirada 12 = 6 X 2 = 3 X 4 
+
+Raadinta isirka ax + by + ay + bx
+
+Furfuris: ax + by + ay + bx = ax + bx + ay + by
+                             Xeerka kala hormarinta isugaynta
+                            = ( ax + bx) + ( ay + by)
+                            Xeerka hormagalinta isugaynta
+                           = x(a + b)  + y (a + b)
+                           Xeerka kala dhigga iskudhufashada ee isugaynta
+                          = (a + b) (x + y)
+                          Xeerka kala dhigga iskudhufashada ee isugeynta
+ Markaa ax + by + ay + bx = (a + b) (x + y)
+
+
+
+
+{{Portal bar|Xisaab}}
+[[Category:Aljebra]]
