@@ -193,3 +193,16 @@ Thank you,<br />
 The Pywikibot development team, 19:30, 5 June 2015 (UTC)
 </div>
 <!-- Message sent by User:Ladsgroup@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=12271740 -->
+
+== Pywikibot compat will no longer be supported - Please migrate to pywikibot core ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<small>Sorry for English, I hope someone translates this.</small><br />
+[[mw:Special:MyLanguage/Manual:Pywikibot|Pywikibot]] (then "Pywikipediabot") was started back in 2002. In 2007 a new branch (formerly known as "rewrite", now called "core") was started from scratch using the MediaWiki API. The developers of Pywikibot have decided to stop supporting the compat version of Pywikibot due to bad performance and architectural errors that make it hard to update, compared to core.  If you are using pywikibot compat it is likely your code will break due to upcoming MediaWiki API changes (e.g. [[phab:T101524|T101524]]). It is highly recommended you migrate to the core framework. There is a  [[mw:Manual:Pywikibot/Compat deprecation|migration guide]], and please [[mw:Special:MyLanguage/Manual:Pywikibot/Communication|contact us]] if you have any problem.
+
+There is an upcoming MediaWiki API breaking change that compat will not be updated for. If your bot's name is in [https://lists.wikimedia.org/pipermail/wikitech-l/2015-June/081931.html this list], your bot will most likely break.
+
+Thank you,<br />
+The Pywikibot development team, 19:30, 5 June 2015 (UTC)
+</div>
+<!-- Message sent by User:Ladsgroup@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=12271740 -->
