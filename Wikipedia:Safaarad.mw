@@ -257,3 +257,54 @@ Subscribe, unsubscribe or change the page where this newsletter is delivered at 
 
 </div>10:44, 13 Juun 2015 (UTC)
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=12206605 -->
+
+== VisualEditor News #3—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=VisualEditor]]
+
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">
+When you click on a link to an article, you now see more information:
+<br><br>
+[[File:VisualEditor-context menu-link tool.png|alt=Screenshot showing the link tool's context menu|centre|frameless|230x230px]]
+<br>
+The link tool has been re-designed:  
+<br><br>
+[[File:VisualEditor link tool 2015.png|alt=Screenshot of the link inspector|centre|frameless|230x230px]]
+<br>
+There are separate tabs for linking to internal and external pages.
+[[:mw:Special:MyLanguage/VisualEditor/User guide|The user guide]] has more information about how to use VisualEditor.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] has created new interfaces for the link and citation tools and fixed many bugs and changed some elements of the design.  Some of these bugs affected users of VisualEditor on mobile devices. Status reports are posted [[mw:VisualEditor/changelog|on mediawiki.org]]. The worklist for April through June is available [[phab:project/sprint/board/1113/|in Phabricator]]. 
+
+A [[m:Research:VisualEditor's_effect_on_newly_registered_editors/May_2015_study|test of VisualEditor's effect on new editors]] at the English Wikipedia has just completed the first phase.  During this test, half of newly registered editors had VisualEditor automatically enabled, and half did not.  The main goal of the study is to learn which group was more likely to save an edit and to make productive, unreverted edits.  Initial [[m:Research:VisualEditor's_effect_on_newly_registered_editors/May_2015_study#Results|results will be posted at Meta]] later this month.    
+=== Recent improvements ===
+'''Auto-fill features''' '''for citations''' are available at a few Wikipedias through the '''[[:mw:Citoid|citoid service]]'''.  Citoid takes a [[:en:URL|URL]] or [[:en:Digital object identifier|DOI]] for a reliable source, and returns a pre-filled, pre-formatted bibliographic citation.  If Citoid is enabled on your wiki, then the design of the citation workflow changed during May.  All citations are now created inside a single tool.  Inside that tool, choose the tab you want ({{int:citoid-citeFromIDDialog-mode-auto}}, {{int: citoid-citeFromIDDialog-mode-manual}}, or {{int:citoid-citeFromIDDialog-mode-reuse}}).  The cite button is now labeled with the word "{{int:visualeditor-toolbar-cite-label}}" rather than a book icon, and the autofill citation dialog now has a more meaningful label, "{{Int:Citoid-citeFromIDDialog-lookup-button}}", for the submit button.
+
+The '''link tool''' has been redesigned based on feedback from Wikipedia editors and user testing.  It now has two separate sections:  one for links to articles and one for external links. When you select a link, its pop-up context menu shows the name of the linked page, a thumbnail image from the linked page, Wikidata's description, and appropriate icons for disambiguation pages, redirect pages and empty pages (where applicable). Search results have been reduced to the first five pages.  Several bugs were fixed, including a dark highlight that appeared over the first match in the link inspector.  ([[phab:T98085|T98085]])
+
+The '''special character inserter''' in VisualEditor now uses the same special character list as the wikitext editor.  Admins at each wiki can also create a custom section for frequently used characters at the top of the list.  Please read the instructions for customizing the list [[mw:VisualEditor/Special_characters|at mediawiki.org]].  Also, there is now a tooltip to describing each character in the special character inserter. ([[phab:T70425|T70425]])
+
+Several improvements have been made to '''templates'''.  When you search for a template to insert, the list of results now contains descriptions of the templates. The parameter list inside the template dialog now remains open after inserting a parameter from the list, so that users don’t need to click on "{{Int:visualeditor-dialog-transclusion-add-param}}" each time they want to add another parameter.  ([[phab:T95696|T95696]]) The team added a '''new property for TemplateData''', "{{int: templatedata-doc-param-example}}", for template parameters.  This optional, translatable property will show up when there is text describing how to use that parameter. ([[phab:T53049|T53049]])
+
+The '''design''' of the main toolbar and several other elements have changed slightly, to be consistent with the MediaWiki theme.  In the Vector skin, individual items in the menu are separated visually by pale gray bars.  Buttons and menus on the toolbar can now contain both an icon and a text label, rather than just one or the other. This new design feature is being used for the cite button on wikis where the Citoid service is enabled.
+
+The team has released a long-desired improvement to the handling of '''non-existent images'''.  If a non-existent image is linked in an article, then it is now visible in VisualEditor and can be selected, edited, replaced, or removed.
+
+=== Let's work together ===
+* Share your ideas and ask questions at [https://www.mediawiki.org/w/index.php?title=VisualEditor/Feedback&lqt_method=talkpage_new_thread mw:VisualEditor/Feedback]. 
+* The weekly task triage meetings continue to be open to volunteers, usually on Wednesday at 12:00 (noon) PDT (19:00 UTC).  Learn how to join the meetings and how to nominate bugs at [[:mw:VisualEditor/Weekly triage meetings|mw:VisualEditor/Weekly triage meetings]].  You do not need to attend the meeting to nominate a bug for consideration as a Q4 blocker, though.  Instead, go to Phabricator and "associate" the [[phab:tag/editing_department_2014_15_q4_blockers/|VisualEditor Q4 blocker project]] with the bug.  
+* If your Wikivoyage, Wikibooks, Wikiversity, or other community wants to have VisualEditor made available by default to contributors, then please contact [[:m:User:Jdforrester (WMF)|James Forrester]]. 
+* If you would like to request the Citoid automatic reference feature for your wiki, please post a request in the [[phab:tag/citoid/|Citoid project on Phabricator]]. Include links to the [[:mw:Help:TemplateData|TemplateData]]  for the most important citation templates on your wiki. 
+*The team is planning the second VisualEditor-related "translathon" for July. Please follow [https://phabricator.wikimedia.org/T91108 this task on Phabricator] for details and updates! Announcements will follow in due course.
+
+Subscribe, unsubscribe or change the page where this newsletter is delivered at [[:m:VisualEditor/Newsletter|Meta]].  If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new  contact us] directly, so that we can notify you when the next issue is ready. Thank you!
+
+— <span class="mw-content-ltr" lang="en" dir="ltr">[[:mw:User:Elitre (WMF)|Elitre (WMF)]]</span>
+
+</div>12:26, 13 Juun 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at http://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=12206605 -->
