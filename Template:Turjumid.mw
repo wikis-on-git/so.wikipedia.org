@@ -1,3 +1,15 @@
-
-
-Information entered is not valid. Please review your Diversity Visa Lottery Program Year, Last/Family Name, First Name, Middle Name, Date of Birth, and E-mail Address to ensure that you have entered them exactly as they were entered on your initial application.
+{{#ifeq:{{{1}}}|Soomaaliga|{{Ambox 
+| text = '''Qalad''' Adeegsiga ah '''[[Template:Turjumid]]'''. Waa in uu ahaadaa Afka assalka ah ee loo turjumayo af kale  '''waa in uusan noqon Af-Soomaaliga'''.
+| type = content
+}}<!--
+-->|<!--
+-->{{Ambox
+| text =  Boggaani waxaa ku socota '''turjumaad''' {{#if:{{{1|}}}|[[Af-{{{1}}}|'''{{{1}}}''']]|}} loo turjumayo '''[[Af-Soomaali]]'''. Haddii uu si fiican u-turjuman-yahay {{#if:{{{1|}}}|[[Af-{{{1}}}|Af-{{{1}}}]]|luqadda laga adeegsado halkaan}}, haku celcelin {{#if:{{{2|}}}|[{{SERVER}}{{localurl:{{FULLPAGENAME}}|action=edit}} Turjumidda]  [[:{{{2}}}|'''nuqulka asalka ah ee {{{1}}}''']].|[{{SERVER}}{{localurl:{{FULLPAGENAME}}|action=edit}} turjumidda].}}<center>{{#if:{{{2|}}}|<br />''({{{1}}}) '''[[:{{{2}}}]]''' ←  (Soomaaliga) '''{{FULLPAGENAME}}'''''}}</center><!--
+-->| type = content
+| image = [[file:Translation to english arrow.svg|50px]]
+[[Category:Turjun]]
+}}<!--
+-->}}<!--
+--><noinclude>
+{{Documentation}}
+</noinclude>
