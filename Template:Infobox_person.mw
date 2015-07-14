@@ -8,7 +8,7 @@
 | label1     = Native name
 | data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
-| label10     = Born
+| label10     = Dhashay
 | data10      = {{br separated entries|1={{#if:{{{birth_name|{{{birthname|}}}}}}|<span class="nickname">{{{birth_name|{{{birthname|}}}}}}</span>}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<span class="birthplace">{{{birth_place|}}}</span>}}}}
 
 | label11     = Baptised
