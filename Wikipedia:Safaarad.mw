@@ -437,3 +437,22 @@ Happy editing!
 
 </div>
 <!-- Message sent by User:MCruz (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=12909005 -->
+
+== Wikidata: Access to data from arbitrary items is coming ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+(Sorry for writing in English)
+
+When using data from Wikidata on Wikipedia and other sister projects, there is currently a limitation in place that hinders some use cases: data can only be accessed from the corresponding item. So, for example, the Wikipedia article about Berlin can only get data from the Wikidata item about Berlin but not from the item about Germany. This had technical reasons. We are now removing this limitation. It is already done for many projects. Your project is one of the next ones. We will roll out this feature here on August 12.
+
+We invite you to play around with this new feature if you are one of the people who have been waiting for this for a long time. If you have technical issues/questions with this you can come to [[d:Wikidata:Contact the development team]].
+
+A note of caution: Please be careful with how many items you use for a single page. If it is too many pages, loading might get slow. We will have to see how the feature behaves in production to see where we need to tweak and how.
+
+How to use it, once it is enabled:
+* Parser function: <nowiki>{{#property:P36|from=Q183}}</nowiki> to get the capital from the item about Germany
+* Lua: see [[mw:Extension:Wikibase Client/Lua]]
+
+Cheers [[:d:User:Lydia Pintscher (WMDE)|Lydia Pintscher]] [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 17:46, 3 Agoosto 2015 (UTC)
+</div>
+<!-- Message sent by User:Lydia Pintscher (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lydia_Pintscher_(WMDE)/Distribution_List&oldid=12981073 -->
