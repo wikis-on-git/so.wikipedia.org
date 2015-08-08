@@ -1,0 +1,4 @@
+{{#if:{{{1|{{{code|}}}}}}
+ |<br /><tt>[http://www-01.sil.org/iso639-3/documentation.asp?id={{{1|{{{code|}}}}}} {{{1|{{{code}}}}}}]</tt>{{#if:{{{2|}}}|&nbsp;–&nbsp;{{{2|}}}}}}}<noinclude>
+{{documentation}}
+</noinclude>
