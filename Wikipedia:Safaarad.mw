@@ -468,3 +468,59 @@ As I have previously announced here we have now enabled the arbitrary access fea
 Cheers [[:d:Lydia Pintscher (WMDE)|Lydia Pintscher (WMDE)]] 13:32, 12 Agoosto 2015 (UTC)
 </div>
 <!-- Message sent by User:Lydia Pintscher (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lydia_Pintscher_(WMDE)/Distribution_List&oldid=12983468 -->
+
+== VisualEditor News #4—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''[[:m:Special:MyLanguage/VisualEditor/Newsletter/2015/August|Read this in another language]]  •  [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=VisualEditor]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+You can add quotations marks before and after a title or phrase with a single click.
+
+Select the relevant text.  Find the correct quotations marks in the special character inserter tool (marked as Ω in the toolbar).<br><br>
+[[File:VisualEditor Special character inserter quotation 2.png|alt=Screenshot showing the special character tool, selected text, and the special character that will be inserted|centre|frameless|230px]]
+<br>
+Click the button.  VisualEditor will add the quotation marks on either side of the text you selected.<br><br>
+[[File:VisualEditor Special character inserter quotation 3.png|alt=Screenshot showing the special character tool and the same text after the special character has been inserted|centre|frameless|230px]]
+<br>
+You can read and help translate [[:mw:Special:MyLanguage/VisualEditor/User guide|the user guide]], which has more information about how to use VisualEditor.
+</div></div>
+
+Since the last newsletter, the [[mw:VisualEditor|Editing Team]] have been working on mobile phone support. They have fixed many bugs and improved language support.  They post weekly status reports [[mw:VisualEditor/changelog|on mediawiki.org]]. Their workboard is available [[phab:project/board/483/|in Phabricator]].  Their [[mediawikiwiki:VisualEditor/Current_priorities|current priorities]] are improving language support and functionality on mobile devices.   
+
+=== Wikimania ===
+The team attended Wikimania 2015 in Mexico City. There they participated in the Hackathon and met with individuals and groups of users. They also made several presentations about [[c:File:How_we_made_VisualEditor_faster.pdf|VisualEditor]] and the [[:c:File:Wikimania_2015_–_Editing_Department_–_Beyond_Editing.pdf|future of editing]]. 
+
+Following Wikimania, we announced winners for the [https://translatewiki.net/wiki/Project:VisualEditor/2015_Translathon VisualEditor 2015 Translathon]. Our thanks and congratulations to users ''Halan-tul'', ''Renessaince'', ''<span lang="ne" dir="ltr">जनक राज भट्ट</span> (Janak Bhatta)'', ''Vahe Gharakhanyan'', ''Warrakkk'', and ''Eduardogobi''.
+
+For '''interface messages''' (translated at [https://translatewiki.net translatewiki.net]), we saw the initiative affecting 42 languages. The average progress in translations across all languages was 56.5% before the translathon, and 78.2% after ('''+21.7%'''). In particular, Sakha improved from 12.2% to 94.2%; Brazilian Portuguese went from 50.6% to 100%; Taraškievica went from 44.9% to 85.3%; Doteli went from 1.3% to 41.2%. Also, while 1.7% of the messages were outdated across all languages before the translathon, the percentage dropped to 0.8% afterwards (-0.9%).   
+
+For '''documentation messages''' (on mediawiki.org), we saw the initiative affecting 24 languages. The average progress in translations across all languages was 26.6% before translathon, and 46.9% after ('''+20.3%''').  There were particularly notable achievements for three languages. Armenian improved from 1% to 99%; Swedish, from 21% to 99%, and Brazilian Portuguese, from 34% to 83%. Outdated translations across all languages were reduced from 8.4% before translathon to 4.8% afterwards (-3.6%).   
+
+[https://translatewiki.net/wiki/Project:VisualEditor/2015_Translathon#Graphs_(interface_messages_only) We published some graphs] showing the effect of the event on the Translathon page. We thank the translators for participating and the translatewiki.net staff for facilitating this initiative.   
+
+=== Recent improvements ===
+'''Auto-fill features for citations''' can be enabled on each Wikipedia.  The tool uses the '''[[:mw:Citoid|citoid service]]''' to convert a [[:en:URL|URL]] or [[:en:Digital object identifier|DOI]] into a pre-filled, pre-formatted bibliographic citation. You can see an animated GIF of the quick, [[mediawikiwiki:Special:MyLanguage/VisualEditor/GIFs#Auto-citing_a_source|simple process at mediawiki.org]].  So far, about a dozen Wikipedias have enabled the auto-citation tool.  To enable it for your wiki, follow the [[mediawikiwiki:Special:MyLanguage/Citoid/Enabling_Citoid_on_your_wiki|instructions at mediawiki.org]].
+
+Your wiki can customize the first section of the '''special character inserter''' in VisualEditor. Please follow the [[mw:Special:MyLanguage/VisualEditor/Special_characters|instructions at mediawiki.org]] to put the characters you want at the top. 
+In other changes, if you need to fill in a [[:mw:CAPTCHA|CAPTCHA]] and get it wrong, then you can click to get a new one to complete.  VisualEditor can now display and edit [[mediawikiwiki:Extension:Graph|Vega-based graphs]]. If you use the Monobook skin, VisualEditor's appearance is now more consistent with other software.     
+
+=== Future changes ===
+The team will be changing the '''appearance of selected links''' inside VisualEditor. The purpose is to make it easy to see whether your cursor is inside or outside the link.  When you select a link, the link label (the words shown on the page) will be enclosed in a faint box.  If you place your cursor inside the box, then your changes to the link label will be part of the link.  If you place your cursor outside the box, then it will not.  This will make it easy to know when new characters will be added to the link and when they will not.
+
+On the English Wikipedia, 10% of newly created accounts are now offered both the visual and the wikitext editors.  A [[m:Research:VisualEditor's_effect_on_newly_registered_editors/May_2015_study|recent controlled trial]] showed no significant difference in survival or productivity for new users in the short term.  New users with access to VisualEditor were very slightly less likely to produce results that needed reverting.  You can learn more about this by watching a video of the [[mediawikiwiki:Wikimedia_Research/Showcase#July_2015|July 2015 Wikimedia Research Showcase]].  The proportion of new accounts with access to both editing environments will be gradually increased over time. Eventually all new users have the choice  between the two editing environments.
+
+=== Let's work together ===
+* Share your ideas and ask questions at [[:mw:VisualEditor/Feedback|mw:VisualEditor/Feedback]].  This feedback page is now using [[mw:Flow|Flow]] instead of LiquidThreads.
+* <mark>Can you read and type in Korean or Japanese?</mark> Language engineer [[mw:User:DChan (WMF)|David Chan]]  needs people who know which tools people use to type in some languages. If you speak Japanese or Korean, you can help him test support for these languages. Please see the instructions at [[mw:VisualEditor/IME Testing#What to test|mediawiki.org]] if you can help.  
+* If your wiki would like '''VisualEditor enabled on another namespace''', you can file a request in Phabricator. Please include a link to a community discussion about the requested change.
+* Please file requests for language-appropriate "{{Int:visualeditor-annotationbutton-bold-tooltip}}" and "{{Int:visualeditor-annotationbutton-italic-tooltip}}" icons for the styling menu [https://phabricator.wikimedia.org/maniphest/task/create/?projects=PHID-PROJ-dafezmpv6huxg3taml24 in Phabricator].   
+* The design research team wants to see how real editors work. Please [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for their research program]. 
+* The weekly task triage meetings continue to be open to volunteers, usually on Tuesdays at 12:00 (noon) PDT (19:00 UTC).  Learn how to join the meetings and how to nominate bugs at [[:mw:VisualEditor/Weekly triage meetings|mw:VisualEditor/Weekly triage meetings]].  You do not need to attend the meeting to nominate a bug for consideration as a Q1 blocker, though.  Instead, go to Phabricator and "associate" the main [[phab:project/profile/483/|VisualEditor project]] with the bug. 
+
+If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new  contact us] directly, so that we can notify you when the next issue is ready. Thank you!
+</div> —[[:mw:User:Elitre (WMF)|Elitre (WMF)]], 22:28, 14 Agoosto 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=12980645 -->
