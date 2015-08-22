@@ -1,0 +1,109 @@
+{{Sidebar with collapsible lists
+| name = Shiica Islaam
+| bodyclass = collapsible {{#if:{{{collapsed|}}}|collapsed}}
+| titlestyle = font-size:65%;
+| title = {{pad|2.25em}}<!--(padding to offset [show/hide] link)-->[[File:Basmala.svg|195px|Bismillahir Rahmanir Rahim]]
+<div style="font-family:new-times-roman;font-size:150%;line-height:1.2em;padding-bottom:0.4em;"> {{Qeyb ka mid ah taxanaha}}<br/><br/> {{resize|250%|[[Shiicada Islaamka]]}}</div> 
+| contentclass = hlist
+| expanded = {{{expanded|{{{selected|{{{1|}}}}}}}}}
+| image          = [[File:Mirror writing2.jpg|250px]]
+| list1name = Aaminsan oo ku dhaqma
+| list1title = Aaminsan oo ku dhaqma
+| list1 = 
+* [[Tawxiid|Kalinimada Ilaahay]]
+* [[Quraan|Kitaabka Quraanka]]
+* [[Nabi Muxamad]]
+* [[Khilaafada Islaamka]]
+* [[Cali bin Abi Dalib|Imamyada waaweyn]]
+* [[Malag|Malaa'igta]]
+* [[Aakhiro|Maalinta Qiyaame]]
+* [[Mourning of Muharram]]
+* [[Tawassul|Intercession]]
+* [[Shia clergy|Clergy]]
+* [[The Four Companions]]
+
+
+| list2name = Holy days
+| list2title = [[Shia days of remembrance|Holy days]]
+| list2 = 
+* [[Day of Ashura|Ashura]]
+* [[Arba'een]]
+* [[Mawlid]]
+* [[Eid al-Fitr]]
+* [[Eid al-Adha]]
+* [[Eid al-Ghadeer]]
+
+
+| list3name = History
+| list3title = [[History of Shia Islam|History]]
+| list3 = 
+* [[The verse of purification]]
+* [[Hadith of the two weighty things|Two things]]
+* [[Hadith of Mubahala|Mubahala]]
+* [[Hadith of the pond of Khumm|Khumm]]
+* [[Umar at Fatimah's house|Fatimah's house]]
+* [[First Fitna]]
+* [[Second Fitna]]
+* [[Battle of Karbala|The Battle of Karbala]]
+
+
+| list4name = Branches
+| list4title = Branches of Shia Islam
+| list4 = 
+* [[Imami|'''Emāmī''']]
+** [[Ithnā‘ashariyyah|Ethnā‘asharī]]  
+***<small>''[[Ja'fari jurisprudence|Jā'farīs]]''
+*** ''[[Batiniyya|Bātinī]]-[[Alevism|Alevīs]]''</small>
+** [[Ghulāt]]
+*** <small>''[[Hurufi|Hurūfī]]-[[Bektashism|Baktāshīs]]''
+*** ''[[Khaṣībī]]-[[Nosayri|Nusāyrīs]]''</small>
+* [[Ismāʿīlī|'''Ismāʿīlī''']]
+**<small> ''[[Nizārī Ismā'īlī|Nīzārī]]-[[Imamah (Nizari Ismaili doctrine)|Ismāʿīlīs]]''
+** ''[[Mustali|Mustā‘lī]]-[[Tayyibi|Tāyyībīs]]''
+** ''[[Durzi]]s''</small>
+* '''[[Zaidiyyah|Zaīdī]]'''
+* '''[[List of extinct Shia sects|Extinct Shia sects]]'''
+
+
+| list5name = Ahl al-Kisa
+| list5title = [[Ahl al-Kisa]]
+| list5 = 
+* [[Muhammad]]
+* [[Shia view of Ali|Ali]]
+* [[Shia view of Fatimah|Fatimah]]
+* [[Hasan ibn Ali|Hasan]]
+* [[Hussein ibn Ali|Hussein]]
+
+
+| list6name = Holy women
+| list6title = Holy women
+| list6 = 
+* [[Shia view of Fatimah|Fatimah]]
+* [[Khadija bint Khuwaylid]]
+* [[Umm Salama]]
+* [[Zaynab bint Ali]]
+* <br/>[[Umm ul-Banin]]
+* [[Fatimah bint Hasan]]
+* [[Sukayna bint Husayn]]
+* [[Rubab bint Imra al-Qais|Rubab]]
+* [[Shahrbanu]]
+* [[Fātimah bint Mūsā]]
+* [[Hakimah Khātūn]]
+* [[Narjis]]
+* [[Fatimah bint Asad]]
+* [[Farwah bint al-Qasim]]
+
+
+| belowstyle = padding-top:0.1em;font-weight:bold;line-height:1.5em;
+| below = {{portal-inline|Shia Islam|size=medium}}
+
+}}</includeonly><noinclude>
+{{Documentation
+ | content = {{Shia Islam|all}}
+  {{Collapsible lists option
+   | listnames = Beliefs and practices, Holy days, History, Branches, Ahl al-Kisa, Holy women
+   | example = Beliefs and practices
+  }}
+}}
+
+[[Category:Islaam]]
