@@ -3,7 +3,7 @@
 | bodyclass = collapsible {{#if:{{{collapsed|}}}|collapsed}}
 | titlestyle = font-size:65%;
 | title = {{pad|2.25em}}<!--(padding to offset [show/hide] link)-->[[File:Basmala.svg|195px|Bismillahir Rahmanir Rahim]]
-<div style="font-family:new-times-roman;font-size:150%;line-height:1.2em;padding-bottom:0.4em;"> {{Qeyb ka mid ah taxanaha}}<br/><br/> {{resize|250%|[[Shiicada Islaamka]]}}</div> 
+<div style="font-family:new-times-roman;font-size:150%;line-height:1.2em;padding-bottom:0.4em;"> Qeyb ka mid ah taxanaha<br/><br/> {{resize|250%|[[Shiicada Islaamka]]}}</div> 
 | contentclass = hlist
 | expanded = {{{expanded|{{{selected|{{{1|}}}}}}}}}
 | image          = [[File:Mirror writing2.jpg|250px]]
@@ -93,7 +93,7 @@
 
 
 | belowstyle = padding-top:0.1em;font-weight:bold;line-height:1.5em;
-| below = {{portal-inline|Shia Islam|size=medium}}
+| below = {{portal-inline|Shiica Islaam|size=medium}}
 
 }}
 
