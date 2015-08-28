@@ -1,0 +1,90 @@
+{{Sidebar with collapsible lists
+| name = Time sidebar
+| titleclass = navbox-title
+| title = [[Wakhti]]
+| image = [[File:MontreGousset001.jpg|{{{imagesize|220px}}}|alt=|link=]]
+| headingclass = navbox-abovebelow
+| listtitleclass = navbox-abovebelow
+| listtitlestyle = background:#ddf;padding-bottom:0;text-align:center
+| listclass = hlist
+| liststyle = 
+
+| heading1 = {{nowrap|1=Fiiri <span id="purgelink" class="plainlinks" style="font-weight:normal;">([{{fullurl:{{FULLPAGENAME}}|action=purge}} {{color|blue|wakhtiga hada}}])</span>}}
+| content1 = {{nowrap|{{CURRENTTIME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} ([[Coordinated Universal Time|UTC]])}}
+
+<!--------------------------->
+| list2name = Ujeedo
+| list2title = Wakhtiyada Waaweyn
+| list2 =
+* Wakhti hore
+* Imika
+* Mustaqbal
+
+* [[Aakhiro|Wakhtiga Aakhiro]]
+** Dooda Wakhtiga
+<!--------------------------->
+
+| list3name = qeyb
+| list3title = Qeybaha Waxbarashada Wakhtiga
+| list3 =
+* Arkiyooloji
+* Koronoloji
+* [[Taariikh]]
+* Baletoloji
+* Mustaqbal
+
+| list4name = philosophy
+| list4title = [[Filasoofiyada|Filoosafiga Wakhtiga]]
+| list4 =
+* Wakhti Xaadirka
+* [[Qiyaamo|Nolosha dambe]]
+* Dhacdooyinka Filoosafiga
+* Kal Sooc
+
+| list5name = diimaha
+| list5title = {{hlist|class=nowrap |[[Diin|Diimaha]] |Fikradaha Kale}}
+| list5 =
+* [[Alle|Abuurka Nolosha]]
+* [[Aakhiro]]
+* [[Qiyaamo]]
+* Nolosha Waligeed ah
+* Dhimashada Ka dib
+* Kalajakra
+
+| list6name = cabirka
+| list6title = {{hlist|class=nowrap |Cabirka Wakhtia |Xisaab}}
+| list6 =
+* [[Halbeeg|Halbeega Wakhtiga]]
+* Lix-geesood
+
+| list7name = saynis
+| list7title = {{hlist|class=nowrap |[[Saynis]] |Sida Dabiiciga}}
+| list7 =
+* [[Category:Halbeeg|Cilmiga Wakhtia]]
+* [[Cilmi Fallag]]
+* [[Koon|Sameysanka Koonka]]
+* Biloowgii Hore
+* [[Cilmi Falaga|{{allow wrap|Ultimate fate of the universe}}]]
+* [[Fiisikis|Fiisikiska Wakhtiga]]
+
+| list8name = la xidhiidha
+| list8title = Qodobo La Xidhiidha
+| list8 =
+* [[Awood|Awooda Socota]]
+* Falaga
+* Wakhtiga Falaga
+* [[Safarka Wakhtiga]]
+
+}}
+{{Documentation
+ | content = {{Time sidebar}}
+{{Collapsible lists option
+| listnames = {{hlist |concepts |fields |philosophy |religion |measurement |science |related}}
+}}
+
+===See also===
+* {{tl|Time topics}}
+
+[[Category:Saynis]]
+[[Category:Wakhti]]
+}}
