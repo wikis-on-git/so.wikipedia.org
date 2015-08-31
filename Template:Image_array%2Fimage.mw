@@ -1,7 +1,7 @@
 {{#ifeq:{{{i|§}}}|§
  |
  |<td style="width:{{#if:{{{w|}}}|{{{w}}}|60}}px;{{#ifeq:{{{bw|1}}}|0||border:{{{bw|1}}}px #aaa solid}}">{{#if:{{{i|}}}
-   |<div style="vertical-align:middle; width:{{#if:{{{w|}}}|{{{w}}}|60}}px; height:{{#if:{{{h|}}}|{{{h}}}|70}}px; margin-left:auto; margin-right:auto;">[[File:{{{i}}}|{{#if:{{{w|}}}|{{{w}}}|80}}x{{#if:{{{h|}}}|{{{h}}}|90}}px|{{#if:{{{a|}}}|alt={{{a|}}}}}|{{#if:{{{l|}}}|link={{{l|}}}}}|{{{t|}}}]]</div><div style="vertical-align:middle; padding:1px;{{#if:{{{f|}}}|font-size:{{{f}}};}}">{{{c|}}}</div>
+   |<div style="vertical-align:middle; width:{{#if:{{{w|}}}|{{{w}}}|60}}px; height:{{#if:{{{h|}}}|{{{h}}}|70}}px; margin-left:auto; margin-right:auto;">[[File:{{{i}}}|{{#if:{{{w|}}}|{{{w}}}|60}}x{{#if:{{{h|}}}|{{{h}}}|70}}px|{{#if:{{{a|}}}|alt={{{a|}}}}}|{{#if:{{{l|}}}|link={{{l|}}}}}|{{{t|}}}]]</div><div style="vertical-align:middle; padding:1px;{{#if:{{{f|}}}|font-size:{{{f}}};}}">{{{c|}}}</div>
    }}</td>{{#ifexpr:{{{m|}}} = 0|</tr><tr>}}
 }}<noinclude>
 {{documentation|content=
