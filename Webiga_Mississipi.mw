@@ -8,12 +8,12 @@
 |other_name1 =
 |category = River
 |category_hide = Yes
-|etymology=Erey ka yimid luuqada [[Ojibwe]] ''misi-ziibi'', macnaheedu tahay "Webi Wayn", ama ''gichi-ziibi'', macnaheedu tahay "Webi Balaadhan"
+|etymology=Erey ka yimid luuqada Ojibwe ''misi-ziibi'', macnaheedu tahay "Webi Wayn", ama ''gichi-ziibi'', macnaheedu tahay "Webi Balaadhan"
 <!-- *** Image *** --->
 |image = Efmo View from Fire Point.jpg
 |image_size = 300
-|image_caption = Mississippi River near Fire Point in [[Effigy Mounds National Monument]], Iowa
-|country = United States
+|image_caption = Webiga Mississippi meel u dhow Effigy Mounds, Iowa
+|country = Maraykanka
 |state = Minnesota
 |state1 = Wisconsin
 |state2 = Iowa
@@ -28,7 +28,7 @@
 |city = [[Minneapolis|Minneapolis, MN]]
 |city1 = [[Saint Paul, Minnesota|St. Paul, MN]]
 |city2 = La Crosse, Wisconsin
-|city3 = Quad Cities|Quad Cities, IA/IL
+|city3 = Quad Cities, IA/IL
 |city4 = St. Louis, Missouri
 |city5 = Memphis, Tennessee
 |city6 = Baton Rouge, Louisiana
@@ -52,10 +52,10 @@
 |discharge1_imperial = 168000
 |discharge1_note =<ref name="fn_2">Median of the 14,610 daily streamflows recorded by the [[United States Geological Survey|USGS]] for the period 1967–2006.</ref>
 <!-- *** Source *** -->
-|source_name = [[Lake Itasca]]<ref>The [[United States Geological Survey]] recognizes two contrasting definitions of a river's [[Source (river or stream)|source]].[http://pubs.usgs.gov/of/1987/ofr87-242/ USGS.gov] By the stricter definition, the Mississippi would share its source with its longest tributary, the Missouri, at [[Brower's Spring]] in Montana. The other definition acknowledges "somewhat arbitrary decisions" and places the Mississippi's source at Lake Itasca, which is publicly accepted as the source,[http://pubs.usgs.gov/of/1987/ofr87-242/ USGS.gov] and which had been identified as such by [[Jacob V. Brower|Brower]] himself.[http://fwp.mt.gov/mtoutdoors/HTML/articles/2005/MissouriSource.htm MT.gov]</ref>
+|source_name = Lake Itasca<ref>The United States Geological Survey recognizes two contrasting definitions of a river's Source (river or stream).[http://pubs.usgs.gov/of/1987/ofr87-242/ USGS.gov] By the stricter definition, the Mississippi would share its source with its longest tributary, the Missouri, at [[Brower's Spring]] in Montana. The other definition acknowledges "somewhat arbitrary decisions" and places the Mississippi's source at Lake Itasca, which is publicly accepted as the source,[http://pubs.usgs.gov/of/1987/ofr87-242/ USGS.gov] and which had been identified as such by Jacob V. Brower himself.[http://fwp.mt.gov/mtoutdoors/HTML/articles/2005/MissouriSource.htm MT.gov]</ref>
 |source_location = [[Itasca State Park]]
 |source_district =
-|source_region = [[Clearwater County, Minnesota|Clearwater County]]
+|source_region = Clearwater County
 |source_state = [[Minnesota|MN]]
 |source_country =
 |source_lat_d = 
@@ -66,7 +66,7 @@
 |source_long_m =
 |source_long_s =
 |source_long_EW = 
-|source_elevation_imperial = 1475
+|source_elevation_imperial = 
 |source_length_imperial =
 <!-- *** Mouth *** -->
 |mouth_name = Gacanka Meksiko
@@ -85,22 +85,22 @@
 |mouth_long_EW =
 |mouth_elevation_imperial = 
 <!-- *** Tributaries *** -->
-|tributary_left = [[St. Croix River (Wisconsin–Minnesota)|St. Croix River]]
-|tributary_left1 = [[Wisconsin River]]
-|tributary_left2 = [[Rock River (Mississippi River)|Rock River]]
-|tributary_left3 = [[Illinois River]]
-|tributary_left4 = [[Kaskaskia River]]
-|tributary_left5 = [[Ohio River]]
-|tributary_right = [[Minnesota River]]
-|tributary_right1 = [[Des Moines River]]
-|tributary_right2 = [[Missouri River]]
-|tributary_right3 = [[White River (Arkansas)|White River]]
-|tributary_right4 = [[Arkansas River]]
-|tributary_right5 = [[Red River of the South|Red River]]
+|tributary_left = Webiga St. Croix (Wisconsin–Minnesota)
+|tributary_left1 = Webiga Wisconsin
+|tributary_left2 = Webiga Rock
+|tributary_left3 = Webiga Illinois
+|tributary_left4 = Webiga Kaskaskia 
+|tributary_left5 = Webiga Ohio
+|tributary_right = Webiga Minnesota
+|tributary_right1 = Webiga Des Moines
+|tributary_right2 = Webiga Missouri
+|tributary_right3 = Webiga Cad
+|tributary_right4 = Webiga Arkansas
+|tributary_right5 = Webiga Cas
 <!-- *** Free fields *** -->
 |free_name =
 |free_value =
 <!-- *** Map section *** -->
-|map = Mississippirivermapnew.jpg
-|map_caption = Detailed map of Mississippi River tributary structure
+|map = 
+|map_caption = 
 }}
