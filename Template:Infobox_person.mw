@@ -36,7 +36,7 @@
 | label18     = Monuments
 | data18      = {{{monuments|}}}
 
-| label19     = Residence
+| label19     = Hada Ku Nool
 | class19     = {{#if:{{{death_date|}}}{{{death_place|}}}||label}}
 | data19      = {{{residence|}}}
 
@@ -49,31 +49,31 @@
 | data21     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
 
 | class22    = category
-| label22    = Ethnicity
+| label22    = Dhalashada
 | data22     = {{{ethnicity|}}}
 
 | class23    = category
-| label23    = Citizenship
+| label23    = Wadanka
 | data23     = {{{citizenship|}}}
 
-| label24    = Education
+| label24    = Waxbarashada
 | data24     = {{{education|}}}
 
 | label25    = ''[[Alma mater]]''
 | data25     = {{{alma mater|{{{alma_mater|}}}}}}
 
-| label26    = Mihnadda
+| label26    = Shaqada
 | class26    = role
 | data26     = {{{occupation|}}}
 
-| label27    = Years active
+| label27    = Sanadaha Shaqada
 | data27     = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
 | label28    = Employer
 | data28     = {{{employer|}}}
 | class28    = org
 
-| label29    = Organization
+| label29    = Ururka
 | data29     = {{{organization|{{{organizations|}}}}}}
 | class29    = org
 
@@ -91,42 +91,42 @@
 | data33     = {{{style|}}}
 | class33    = category
 
-| label36    = Home town
+| label36    = Magaalada ka soo jeedo
 | data36     = {{{home town|{{{home_town|}}}}}}
 
-| label37    = Salary
+| label37    = Mishaarka
 | data37     = {{{salary|}}}
 
 | label38    = Net worth
 | data38     = {{{net worth|{{{net_worth|{{{networth|}}}}}}}}}
 
-| label39    = Height
+| label39    = Dhererka
 | data39     = {{{height|}}}
 
-| label40    = Weight
+| label40    = Miisaanka
 | data40     = {{{weight|}}}
 
 | label41    = Television
 | data41     = {{{television|}}}
 
-| label42    = Title
+| label42    = Naanays
 | data42     = {{{title|}}}
 | class42    = title
 
 | label43    = Term
 | data43     = {{{term|}}}
 
-| label44    = Predecessor
+| label44    = Ka horeeyay
 | data44     = {{{predecessor|}}}
 
-| label45    = Successor
+| label45    = Ka dambeeyay
 | data45     = {{{successor|}}}
 
 | label46    = Xisbiga siyaasadeed
 | data46     = {{{party|}}}
 | class46    = org
 
-| label47    = Political movement
+| label47    = Dhaqdhaqaaqa siyaasadeed
 | data47     = {{{movement|}}}
 | class47    = category
 
@@ -136,7 +136,7 @@
 | label49    = Board member&nbsp;of
 | data49     = {{{boards|}}}
 
-| label50    = Religion
+| label50    = Diinta
 | data50     = {{{religion|}}}
 | class50    = category
 
@@ -160,10 +160,10 @@
 | label56    = Partner(s)
 | data56     = {{{partner|{{{domesticpartner|{{{domestic_partner|}}}}}}}}}
 
-| label57    = Children
+| label57    = Ilmaha
 | data57     = {{{children|}}}
 
-| label58    = Parents
+| label58    = Waalidka
 | data58     = {{{parents|}}}
 
 | label59    = Relatives
@@ -175,13 +175,13 @@
 | label61    = Call-sign
 | data61     = {{{callsign|}}}
 
-| label62    = Awards
+| label62    = Abaal-marin
 | data62     = {{{awards|}}}
 
 | label63    = {{#if:{{{honours|}}}|Honours|Honors}}
 | data63     = {{#if:{{{honours|}}}|{{{honours}}}|{{{honors|}}}}}
 
-| label64    = Signature
+| label64    = Saxeexa
 | data64     = {{#if:{{{signature|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{signature|}}}|size={{{signature_size|}}}|sizedefault=150px|alt={{{signature alt|{{{signature_alt|}}}}}}}} }}
 
 | data65     = {{{misc|{{{module|}}}}}}
