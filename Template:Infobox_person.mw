@@ -8,7 +8,7 @@
 | label1     = Native name
 | data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
-| label10     = Dhashay
+| label10     = Dhalasho
 | data10      = {{br separated entries|1={{#if:{{{birth_name|{{{birthname|}}}}}}|<span class="nickname">{{{birth_name|{{{birthname|}}}}}}</span>}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<span class="birthplace">{{{birth_place|}}}</span>}}}}
 
 | label11     = Baptised
@@ -20,7 +20,7 @@
 | label13     = Status
 | data13      = {{{disappeared_status|}}}
 
-| label14     = Died
+| label14     = Dhimasho
 | data14      = {{br separated entries|1={{{death_date|}}}|2={{#if:{{{death_place|}}}|<span class="deathplace">{{{death_place|}}}</span>}}}}
 
 | label15     = Cause&nbsp;of death
@@ -29,7 +29,7 @@
 | label16     = Body discovered
 | data16      = {{{body discovered|{{{body_discovered|}}}}}}
 
-| label17     = Resting place
+| label17     = Ku aasan
 | class17     = label
 | data17      = {{br separated entries|{{{resting place|{{{resting_place|{{{restingplace|}}}}}}}}}|{{{resting place coordinates|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
 
@@ -44,7 +44,7 @@
 | label20    = Nationality
 | data20     = {{{nationality|}}}
 
-| label21    = Other names
+| label21    = Magacyo kale
 | class21    = nickname
 | data21     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
 
@@ -69,7 +69,7 @@
 | label27    = Sanadaha Shaqada
 | data27     = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
-| label28    = Employer
+| label28    = Ka tirsan
 | data28     = {{{employer|}}}
 | class28    = org
 
@@ -84,7 +84,7 @@
 | label31    = Known&nbsp;for
 | data31     = {{{known for|{{{known_for|{{{known|}}}}}}}}}
 
-| label32    = {{#if:{{{credits|}}}|Notable credit(s)|Notable work(s)}}
+| label32    = {{#if:{{{credits|}}}|Notable credit(s)|Shaqooyinka ugu muhiimsan}}
 | data32     = {{#if:{{{credits|}}}|{{{credits}}}|{{{notable works|{{{notable_works|}}}}}}}}
 
 | label33    = Style
@@ -94,7 +94,7 @@
 | label36    = Magaalada ka soo jeedo
 | data36     = {{{home town|{{{home_town|}}}}}}
 
-| label37    = Mishaarka
+| label37    = Mishaharka
 | data37     = {{{salary|}}}
 
 | label38    = Net worth
@@ -166,10 +166,10 @@
 | label58    = Waalidka
 | data58     = {{{parents|}}}
 
-| label59    = Relatives
+| label59    = Qaraabada
 | data59     = {{{relations|{{{relatives|}}}}}}
 
-| label60    = Family
+| label60    = Qoyska
 | data60     = {{{family|}}}
 
 | label61    = Call-sign
