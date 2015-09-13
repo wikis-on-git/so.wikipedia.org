@@ -122,7 +122,7 @@
 }}<!-- ***Nickname*** -->
 {{#if:{{{nickname|}}}|
 <tr class="mergedrow">
-<td colspan="2" style="text-align:center">Magac loogu yeero: <span class="nickname">{{{nickname}}}</span></td>
+<td colspan="2" style="text-align:center">Naaneys: <span class="nickname">{{{nickname}}}</span></td>
 </tr>
 }}<!-- ***Motto*** -->
 {{#if:{{{motto|}}}|
@@ -286,12 +286,12 @@
 </tr>
 }}{{#if:{{{founder|}}}|
 <tr class="mergedrow">
-<th>Founder</th>
+<th>Qofka Helay</th>
 <td>{{{founder}}}</td>
 </tr>
 }}{{#if:{{{named_for|}}}|
 <tr class="mergedrow">
-<th>[[Namesake|Named for]]</th>
+<th>[[Magac|Loogu Magacdaray]]</th>
 <td>{{{named_for}}}</td>
 </tr>
 }}<!-- ***Seat of government and subdivisions within the settlement*** -->{{#if:{{{seat|}}}|
@@ -312,7 +312,7 @@
 }}<!-- ***Government type and Leader*** -->
 {{#if:{{{government_type|}}}{{{governing_body|}}}{{{leader_title|}}}{{{leader_title1|}}}{{{leader_title2|}}}{{{leader_title3|}}}{{{leader_title4|}}}|
 <tr class="mergedtoprow"><!-- ***Gudoomiyaha*** -->
-<td colspan="2">'''Xukunka'''{{{government_footnotes|}}}</td>
+<td colspan="2">'''Maamulka'''{{{government_footnotes|}}}</td>
 </tr>
 {{#if:{{{government_type|}}}|
 <tr class="mergedrow">
@@ -349,10 +349,10 @@
 <th>&nbsp;•&nbsp;{{{leader_title4}}}</th>
 <td>{{{leader_name4|}}}</td>
 </tr>
-}} }}<!-- ***Joqoraafi ahaan ugaar ah*** -->
+}} }}<!-- ***Juquraafi ahaan ugaar ah*** -->
 {{#if:{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}{{{area_land_km2|}}}{{{area_land_ha|}}}{{{area_land_acre|}}}{{{area_land_sq_mi|}}}{{{area_water_km2|}}}{{{area_water_ha|}}}{{{area_water_acre|}}}{{{area_water_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_ha|}}}{{{area_urban_acre|}}}{{{area_urban_sq_mi|}}}{{{area_rural_sq_mi|}}}{{{area_rural_ha|}}}{{{area_rural_acre|}}}{{{area_rural_km2|}}}{{{area_metro_km2|}}}{{{area_metro_ha|}}}{{{area_metro_acre|}}}{{{area_blank1_km2|}}}{{{area_blank1_ha|}}}{{{area_blank1_acre|}}}{{{area_metro_sq_mi|}}}{{{area_blank1_sq_mi|}}}|
-<tr class="mergedtoprow"><!-- ***Baaxadda*** -->
-<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Baaxadda'''{{{area_footnotes|}}}</td>
+<tr class="mergedtoprow"><!-- ***Baaxada Deegaanka*** -->
+<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Baaxada Deegaanka'''{{{area_footnotes|}}}</td>
 {{#ifeq:{{{total_type}}}|&nbsp;||</tr>}}
 {{#if:{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}|
 {{#ifeq:{{{total_type}}}|&nbsp;||<tr class="mergedrow">
@@ -371,7 +371,7 @@
 </tr>
 }}{{#if:{{{area_land_km2|}}}{{{area_land_ha|}}}{{{area_land_acre|}}}{{{area_land_sq_mi|}}}{{{area_land_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Land</th>
+<th>&nbsp;•&nbsp;Dhulka</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_land_km2|}}}
    |ha   ={{{area_land_ha|}}}
@@ -385,7 +385,7 @@
 </tr>
 }}{{#if:{{{area_water_km2|}}}{{{area_water_ha|}}}{{{area_water_acre|}}}{{{area_water_sq_mi|}}}{{{area_water_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Water</th>
+<th>&nbsp;•&nbsp;Biyaha</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_water_km2|}}}
    |ha   ={{{area_water_ha|}}}
@@ -399,7 +399,7 @@
 </tr>
 }}{{#if:{{{area_urban_km2|}}}{{{area_urban_ha|}}}{{{area_urban_acre|}}}{{{area_urban_sq_mi|}}}{{{area_urban_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Urban{{{area_urban_footnotes|}}}</th>
+<th>&nbsp;•&nbsp;Magaalo{{{area_urban_footnotes|}}}</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_urban_km2|}}}
    |ha   ={{{area_urban_ha|}}}
@@ -413,7 +413,7 @@
 </tr>
 }}{{#if:{{{area_rural_km2|}}}{{{area_rural_ha|}}}{{{area_rural_acre|}}}{{{area_rural_sq_mi|}}}{{{area_rural_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Rural{{{area_rural_footnotes|}}}</th>
+<th>&nbsp;•&nbsp;Baadiye{{{area_rural_footnotes|}}}</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_rural_km2|}}}
    |ha   ={{{area_rural_ha|}}}
@@ -427,7 +427,7 @@
 </tr>
 }}{{#if:{{{area_metro_km2|}}}{{{area_metro_ha|}}}{{{area_metro_acre|}}}{{{area_metro_sq_mi|}}}{{{area_metro_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Metro{{{area_metro_footnotes|}}}</th>
+<th>&nbsp;•&nbsp;Nawaaxigeeda{{{area_metro_footnotes|}}}</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_metro_km2|}}}
    |ha   ={{{area_metro_ha|}}}
@@ -442,7 +442,7 @@
 }}<!-- ***Heerka Baaxadda*** -->
 {{#if:{{{area_rank|}}}|
 <tr class="mergedrow">
-<th>Area rank</th>
+<th>Heerka Baaxada</th>
 <td>{{{area_rank}}}</td>
 </tr>
 }}{{#if:{{{area_blank1_km2|}}}{{{area_blank1_ha|}}}{{{area_blank2_acre|}}}{{{area_blank1_sq_mi|}}}{{{area_blank1_title|}}}{{{area_blank1_dunam|}}}|
@@ -481,7 +481,7 @@
 }} }}<!-- ***Dimensions*** -->
 {{#if:{{{length_km|}}}{{{length_mi|}}}{{{width_km|}}}{{{width_mi|}}}|
 <tr class="mergedtoprow">
-<th>Dimensions{{{dimensions_footnotes|}}}</th>
+<th>Baladhka{{{dimensions_footnotes|}}}</th>
 <td></td>
 </tr>}}
 {{#if:{{{length_km|}}}{{{length_mi|}}}|
@@ -496,14 +496,14 @@
 </tr>}}
 {{#if:{{{width_km|}}}{{{width_mi|}}}|
 <tr class="mergedrow">
-<th>• Width</th>
+<th>• Balaca</th>
 <td>{{infobox_settlement/lengthdisp
       |km  ={{{width_km|}}}
       |mi  ={{{width_mi|}}}
       |pref={{{unit_pref}}}
       |name={{{subdivision_name}}}
     }}</td>
-</tr>}}<!-- ***Joogga*** -->
+</tr>}}<!-- ***Jooga*** -->
 {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|
 <tr class="mergedtoprow">
 <td>'''Joogga'''{{{elevation_footnotes|}}}</td>
@@ -516,7 +516,7 @@
 </tr>
 }}{{#if:{{{elevation_max_m|}}}{{{elevation_max_ft|}}}|
 <tr class="mergedtoprow">
-<th>Joogga&nbsp;ugu sareeya{{{elevation_max_footnotes|}}}</th>
+<th>Jooga&nbsp;ugu sareeya{{{elevation_max_footnotes|}}}</th>
 <td>{{infobox_settlement/lengthdisp
       |m   ={{{elevation_max_m|}}}
       |ft  ={{{elevation_max_ft|}}}
@@ -531,7 +531,7 @@
 </tr>}}
 }}{{#if:{{{elevation_min_m|}}}{{{elevation_min_ft|}}}|
 <tr class="{{#if:{{{elevation_min_rank|}}}|mergedrow|mergedbottomrow}}">
-<th>Joogga&nbsp;Ugu hooseeya{{{elevation_min_footnotes|}}}</th>
+<th>Jooga&nbsp;Ugu hooseeya{{{elevation_min_footnotes|}}}</th>
 <td>{{infobox_settlement/lengthdisp
       |m   ={{{elevation_min_m|}}}
       |ft  ={{{elevation_min_ft|}}}
@@ -544,11 +544,11 @@
 <th>&nbsp;'''•&nbsp;Rank'''</th>
 <td>{{{elevation_min_rank}}}</td>
 </tr>}}
-}}<!-- ***Tirada dadka*** -->
+}}<!-- ***Tirada Dadka*** -->
 {{#if:{{{population|}}}{{{population_total|}}}{{{population_urban|}}}{{{population_rural|}}}{{{population_metro|}}}{{{population_blank1|}}}{{{population_blank2|}}}{{{population_est|}}}|
 <tr class="mergedtoprow">
 {{#if:{{{population|}}}|
-<td>'''Tirada dadka''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
+<td>'''Tirada Dadka''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
 <td>{{formatnum:{{{population}}}}}</td>
 |<td {{#ifeq:{{{total_type}}}|&nbsp;||colspan="2"}}>'''Tirada dadka''' {{#if:{{{population_as_of|}}}|({{{population_as_of}}})}}{{{population_footnotes|}}}</td>
 }}
@@ -560,12 +560,12 @@
 </tr>
 }}{{#if:{{{population_est|}}}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;Estimate'''&nbsp;({{{pop_est_as_of}}})</td>
+<td>&nbsp;'''•&nbsp;Cabiritaan'''&nbsp;({{{pop_est_as_of}}})</td>
 <td>{{formatnum:{{{population_est}}}}}</td>
 </tr>
 }}{{#if:{{{population_rank|}}}|<!-- ***Heerka Tirada dadka*** -->
 <tr class="mergedrow">
-<th>&nbsp;'''•&nbsp;Rank'''</th>
+<th>&nbsp;'''•&nbsp;Heerka'''</th>
 <td>{{{population_rank}}}</td>
 </tr>
 }}{{#if:{{infobox_settlement/checkauto
@@ -595,12 +595,12 @@
 </tr>
 }}{{#if:{{{population_density_rank|}}}|<!-- ***Heerka tiro badnaanta*** -->
 <tr class="mergedrow">
-<th>&nbsp;'''•&nbsp;Heerka&nbsp;tiro badnaan'''</th>
+<th>&nbsp;'''•&nbsp;Heerka&nbsp;Tiro Badnaan'''</th>
 <td>{{{population_density_rank}}}</td>
 </tr>
 }}{{#if:{{{population_urban|}}}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;[[Urban area|Urban]]'''{{{population_urban_footnotes|}}}</td>
+<td>&nbsp;'''•&nbsp;[[Magaalo]]'''{{{population_urban_footnotes|}}}</td>
 <td>{{formatnum:{{{population_urban}}}}}</td>
 </tr>
 }}{{#if:{{infobox_settlement/checkauto
@@ -616,7 +616,7 @@
       |name ={{{subdivision_name}}}
     }}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;Urban&nbsp;density'''</td>
+<td>&nbsp;'''•&nbsp;Cufka&nbsp;Magaalooyinka'''</td>
 <td>{{infobox_settlement/densdisp
       |/km2 ={{{population_density_urban_km2|}}}
       |/sqmi={{{population_density_urban_sq_mi|}}}
@@ -632,7 +632,7 @@
 </tr>
 }}{{#if:{{{population_rural|}}}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;[[Rural area|Rural]]'''{{{population_rural_footnotes|}}}</td>
+<td>&nbsp;'''•&nbsp;Baadiye'''{{{population_rural_footnotes|}}}</td>
 <td>{{formatnum:{{{population_rural}}}}}</td>
 </tr>
 }}{{#if:{{infobox_settlement/checkauto
@@ -648,7 +648,7 @@
       |name ={{{subdivision_name}}}
     }}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;Rural&nbsp;density'''</td>
+<td>&nbsp;'''•&nbsp;Cufka&nbsp;Baadiyaha'''</td>
 <td>{{infobox_settlement/densdisp
       |/km2 ={{{population_density_rural_km2|}}}
       |/sqmi={{{population_density_rural_sq_mi|}}}
@@ -664,7 +664,7 @@
 </tr>
 }}{{#if:{{{population_metro|}}}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;[[Metropolitan area|Metro]]'''{{{population_metro_footnotes|}}}</td>
+<td>&nbsp;'''•&nbsp;Dadka Nawaaxiga'''{{{population_metro_footnotes|}}}</td>
 <td>{{formatnum:{{{population_metro}}}}}</td>
 </tr>
 }}{{#if:{{infobox_settlement/checkauto
@@ -680,7 +680,7 @@
       |name ={{{subdivision_name}}}
     }}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;Metro&nbsp;density'''</td>
+<td>&nbsp;'''•&nbsp;Cufka&nbsp;Nawaaxiga'''</td>
 <td>{{infobox_settlement/densdisp
       |/km2 ={{{population_density_metro_km2|}}}
       |/sqmi={{{population_density_metro_sq_mi|}}}
@@ -826,10 +826,10 @@
 <th>&nbsp;•&nbsp;{{{demographics2_title5}}}</th>
 <td>{{{demographics2_info5}}}</td>
 </tr>
-}} }}}}}}<!-- ***Time Zones*** -->
+}} }}}}}}<!-- ***Seerka Wakhtiga** -->
 {{#if:{{{timezone1|{{{timezone|}}}}}}|
 <tr class="mergedtoprow">
-<th>{{#if:{{{timezone2|}}}|[[Saacad]]s|[[Saacad]]}}</th> 
+<th>{{#if:{{{timezone2|}}}|[[Saacad]]|[[Saacad]]}}</th> 
 <td>{{{timezone1|{{{timezone}}}}}} {{#if:{{{utc_offset1|{{{utc_offset|}}} }}}|([[UTC{{{utc_offset1|{{{utc_offset}}}}}}]])}}</td>{{#if:{{{timezone2|}}}|</tr>
 <tr class="mergedrow">
 <th> </th>
@@ -843,7 +843,7 @@
 <th>&nbsp;</th>
 <td>{{{timezone2_DST}}} ([[UTC{{{utc_offset2_DST}}}]])</td>}}
 </tr>
-}} }}<!-- ***Postal Code(s)*** -->
+}} }}<!-- ***Postal Kodh*** -->
 {{#if:{{{postal_code_type|}}}|
 <tr class="mergedtoprow">
 <th>{{{postal_code_type}}}</th>
@@ -854,19 +854,19 @@
 <th>{{{postal2_code_type}}}</th>
 <td class="adr"><span class="postal-code">{{{postal2_code|}}}</span></td>
 </tr>
-}} }}<!-- ***Area Code(s)*** -->
+}} }}<!-- ***Area Kodh*** -->
 {{#if:{{{area_code|}}}|
 <tr class="mergedrow">
-<th>{{#if:{{{area_code_type|}}}|{{{area_code_type}}}|[[Telephone numbering plan|Area code(s)]]}}</th>
+<th>{{#if:{{{area_code_type|}}}|{{{area_code_type}}}|[[Lambarka Telefonka]]}}</th>
 <td>{{{area_code|}}}</td>
 </tr>
 }}<!-- Geocode-->
 {{#if:{{{geocode|}}}|
 <tr class="mergedrow">
-<th>[[Geocode]]</th>
+<th>GeoKode</th>
 <td class="nickname">{{{geocode}}}</td>
 </tr>
-}}<!-- ISO Code-->
+}}<!-- ISO Kode-->
 {{#if:{{{iso_code|}}}|
 <tr class="mergedrow">
 <th>[[ISO 3166|ISO 3166 code]]</th>
@@ -875,7 +875,7 @@
 }}<!-- Vehicle registration plate-->
 {{#if:{{{registration_plate|}}}|
 <tr class="mergedrow">
-<th>[[Vehicle registration plate|Vehicle registration]]</th>
+<th>[[Gaadiid|Diiwaangelinta Gaadiidka]]</th>
 <td>{{{registration_plate}}}</td>
 </tr>
 }}<!-- ***Twin Cities*** -->
@@ -1014,7 +1014,7 @@
 <th>Website</th>
 <td>{{{website}}}</td>
 </tr>
-}}<!-- ***Footnotes*** -->
+}}<!-- ***Akhbaar Kale*** -->
 {{#if:{{{footnotes|}}}|
 <tr class="mergedtoprow">
 <td colspan="2" style="text-align:left; font-size:smaller">{{{footnotes}}}</td>
