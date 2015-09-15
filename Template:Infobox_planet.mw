@@ -39,33 +39,33 @@
 
 | label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Apsis|Apo{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]}}
 | data23      = {{{aphelion|}}}
-| label24     = [[Wareeg|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|fog}}]]
+| label24     = [[Wareeg|Wareeg{{#if:{{{apsis|}}}|{{{apsis}}}|fog}}]]
 | data24      = {{{perihelion|}}}
-| label25     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]
+| label25     = [[Wareeg|Wareeg{{#if:{{{apsis|}}}|{{{apsis}}}|dhow}}]]
 | data25      = {{{periapsis|}}}
 | label26     = {{#switch:{{{apsis}}}|helion|astron=[[Apsis|Ap{{{apsis}}}]]|[[Apsis|Apo{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]}}
 | data26      = {{{apoapsis|}}}
-| label27     = [[Semi-major axis]]
+| label27     = [[Goobo|Gobol Goobo]]
 | data27      = {{{semimajor|}}}
 | label28     = [[Gacan]]
 | data28      = {{{mean_orbit_radius|}}}
-| label29     = [[Orbital eccentricity|Eccentricity]]
+| label29     = [[Iskuwareeg|Iskuwareeg Yar]]
 | data29      = {{{eccentricity|}}}
-| label30     = [[Orbital period]]
+| label30     = [[Sanad|Wareega Sanad]]
 | data30      = {{{period|}}}
-| label31     = [[Orbital period|Synodic period]]
+| label31     = [[Wakhiga Wareega]]
 | data31      = {{{synodic_period|}}}
-| label32     = [[Orbital speed|Average orbital speed]]
+| label32     = [[Xawaare|Iskucelceliska Xawaaraha Wareega]]
 | data32      = {{{avg_speed|}}}
-| label33     = [[Mean anomaly]]
+| label33     = [[Iskucelceliska Wareega]]
 | data33      = {{{mean_anomaly|}}}
-| label34     = [[Orbital inclination|Inclination]]
+| label34     = Janjeedhka
 | data34      = {{{inclination|}}}
-| label35     = [[Angular distance]]
+| label35     = Masaafada Dhinac
 | data35      = {{{angular_dist|}}}
-| label36     = [[Longitude of the ascending node|Longitude of ascending node]]
+| label36     = [[Lool|Loolasha u yaryihiin]]
 | data36      = {{{asc_node|}}}
-| label37     = [[Longitude of the periapsis|Longitude of]] [[Apsis|periastron]]
+| label37     = [[Dhig|Dhiguha u yar]]
 | data37      = {{{long_periastron|}}}
 | label38     = [[Apsis|Time of periastron]]
 | data38      = {{{time_periastron|}}}
