@@ -37,7 +37,7 @@
 | data21      = {{{orbit_diagram|}}}
 | data22      = {{#if:{{{epoch|}}}|Miisaan {{{epoch}}}}}
 
-| label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Wareeg|Wareeg{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|dhow}}]]}}
+| label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Wareeg|Wareeg{{{apsis}}}]]|[[Wareeg|Wareeg{{#if:{{{apsis|}}}|{{{apsis}}}|dhow}}]]}}
 | data23      = {{{aphelion|}}}
 | label24     = [[Wareeg|Wareeg{{#if:{{{apsis|}}}|{{{apsis}}}|fog}}]]
 | data24      = {{{perihelion|}}}
