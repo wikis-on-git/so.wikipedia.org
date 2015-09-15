@@ -9,33 +9,33 @@
 
 | header1     = {{#if:{{{discoverer|}}}{{{discovery_site|}}}{{{discovered|}}}{{{discovery_method|}}}|Discovery{{#if:{{{discovery_ref|}}}|{{{discovery_ref}}} }}{{#if:{{{minorplanet|}}}|&nbsp;and designation}} }}
 
-| label2      = Discovered by
+| label2      = Waxa helay
 | data2       = {{{discoverer|}}}
 | label3      = Discovery site
 | data3       = {{{discovery_site|}}}
-| label4      = Discovery date
+| label4      = Taariikhda la helay
 | data4       = {{{discovered|}}}
-| label5      = [[Methods of detecting extrasolar planets|Detection method]]
+| label5      = [[Meere|Sida loo helay]]
 | data5       = {{{discovery_method|}}}
 
 | header10    = {{#if:{{{designations|{{{mp_name|}}}{{{named_after|}}}{{{alt_names|}}}{{{mp_category|}}}{{{pronounce|}}}{{{pronounced|}}}{{{adjective|}}}{{{adjectives|}}}}}}|{{#if:{{{exosolar planets|}}}|[[Extrasolar planet#Nomenclature|Designations]]|Calaamadayn}} }}
 
-| label11     = [[Minor planet designation|MPC designation]]
+| label11     = [[Meere yare|Qaabka u sameeysan]]
 | data11      = {{{mp_name|}}}
-| label12     = Pronunciation
+| label12     = Ku Dhawaaqitaan
 | data12      = {{{pronounce|{{{pronounced|}}}|}}}
-| label13     = Named after
+| label13     = Loogu Magacdaray
 | data13      = {{{named_after|}}}
 | label14     = Magac isbedela
 | data14      = {{{alt_names|}}}
 | label15     = Minor planet category
 | data15      = {{{mp_category|}}}
-| label16     = [[List of adjectivals and demonyms of astronomical bodies|Adjective]]
+| label16     = [[Cilmi Falag|Sifo]]
 | data16      = {{{adjectives|{{{adjective|}}}}}}
 
 | header20    = {{#if:{{{orbit_diagram|}}}{{{epoch|}}}{{{aphelion|}}}{{{perihelion|}}}{{{periapsis|}}}{{{apoapsis|}}}{{{semimajor|}}}{{{mean_orbit_radius|}}}{{{eccentricity|}}}{{{period|}}}{{{synodic_period|}}}{{{avg_speed|}}}{{{mean_anomaly|}}}{{{inclination|}}}{{{angular_dist|}}}{{{asc_node|}}}{{{long_periastron|}}}{{{time_periastron|}}}{{{arg_peri|}}}{{{semi-amplitude|}}}{{{satellite_of|}}}{{{satellites|}}}|Sifooyin gaara{{#if:{{{orbit_ref|}}}|{{{orbit_ref}}} }} }}
 | data21      = {{{orbit_diagram|}}}
-| data22      = {{#if:{{{epoch|}}}|[[Epoch (astronomy)|Epoch]] {{{epoch}}}}}
+| data22      = {{#if:{{{epoch|}}}|[[Miisaan]] {{{epoch}}}}}
 
 | label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Apsis|Apo{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]}}
 | data23      = {{{aphelion|}}}
@@ -121,13 +121,13 @@
 | data71      = {{{surface_grav|}}}
 | label72     = {{#if:{{{minorplanet|}}}|Equatorial [[Escape velocity|escape velocity]]|[[Escape velocity]]}}
 | data72      = {{{escape_velocity|}}}
-| label73     = Muddo wareeg
+| label73     = Mudo wareeg
 | data73      = {{{rotation|}}}
-| label74     = Muddo wareeg
+| label74     = Mudo wareeg
 | data74      = {{{sidereal_day|}}}
 | label75     = Xawaare wareeg
 | data75      = {{{rot_velocity|}}}
-| label76     = Foorar mile
+| label76     = Foorar
 | data76      = {{{axial_tilt|}}}
 | label77     = Cirifka woqoooyi {{nowrap|[[right ascension]]}}
 | data77      = {{{right_asc_north_pole|}}}
