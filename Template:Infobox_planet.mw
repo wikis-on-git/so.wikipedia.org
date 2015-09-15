@@ -49,7 +49,7 @@
 | data27      = {{{semimajor|}}}
 | label28     = [[Gacan]]
 | data28      = {{{mean_orbit_radius|}}}
-| label29     = [[Iskuwareeg|Iskuwareeg Yar]]
+| label29     = Iskuwareeg Yar
 | data29      = {{{eccentricity|}}}
 | label30     = [[Sanad|Wareega Sanad]]
 | data30      = {{{period|}}}
@@ -57,7 +57,7 @@
 | data31      = {{{synodic_period|}}}
 | label32     = [[Xawaare|Iskucelceliska Xawaaraha Wareega]]
 | data32      = {{{avg_speed|}}}
-| label33     = [[Iskucelceliska Wareega]]
+| label33     = Iskucelceliska Wareega
 | data33      = {{{mean_anomaly|}}}
 | label34     = Janjeedhka
 | data34      = {{{inclination|}}}
@@ -67,15 +67,15 @@
 | data36      = {{{asc_node|}}}
 | label37     = [[Dhig|Dhiguha u yar]]
 | data37      = {{{long_periastron|}}}
-| label38     = [[Apsis|Time of periastron]]
+| label38     = Wakhtiga 
 | data38      = {{{time_periastron|}}}
-| label39     = [[Argument of periapsis|Argument of peri{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]
+| label39     = [[Wakhti|Wakhti{{#if:{{{apsis|}}}|{{{apsis}}}|dhan}}]]
 | data39      = {{{arg_peri|}}}
 | label40     = [[Amplitude|Semi-amplitude]]
 | data40      = {{{semi-amplitude|}}}
-| label41     = [[Natural satellite|Satellite of]]
+| label41     = [[Dayax|Tirada Dayax]]
 | data41      = {{{satellite_of|}}}
-| label42     = [[Natural satellite|Satellites]]
+| label42     = [[Dayax|Dayaxyo]]
 | data42      = {{{satellites|}}}
 
 | header50    = {{#if:{{{p_semimajor|}}}{{{p_eccentricity|}}}{{{p_mean_motion|}}}{{{p_inclination|}}}{{{node_rate|}}}{{{perihelion_rate|}}}|[[Proper orbital elements]]{{#if:{{{p_orbit_ref|}}}|{{{p_orbit_ref}}} }} }}
