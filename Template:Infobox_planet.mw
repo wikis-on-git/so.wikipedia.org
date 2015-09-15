@@ -39,7 +39,7 @@
 
 | label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Apsis|Apo{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]}}
 | data23      = {{{aphelion|}}}
-| label24     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]
+| label24     = [[Wareeg|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|fog}}]]
 | data24      = {{{perihelion|}}}
 | label25     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]
 | data25      = {{{periapsis|}}}
@@ -47,7 +47,7 @@
 | data26      = {{{apoapsis|}}}
 | label27     = [[Semi-major axis]]
 | data27      = {{{semimajor|}}}
-| label28     = [[Radius|Mean orbit radius]]
+| label28     = [[Gacan]]
 | data28      = {{{mean_orbit_radius|}}}
 | label29     = [[Orbital eccentricity|Eccentricity]]
 | data29      = {{{eccentricity|}}}
