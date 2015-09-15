@@ -38,7 +38,7 @@
 | data22      = {{#if:{{{epoch|}}}|[[Miisaan]] {{{epoch}}}}}
 
 | label23     = {{#switch:{{{apsis}}}|apsis|gee|(apsis)=[[Apsis|Apo{{{apsis}}}]]|[[Apsis|Ap{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]}}
-| data23      = {{{Wareeg fog|}}}
+| data23      = {{{aphelion|}}}
 | label24     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|helion}}]]
 | data24      = {{{perihelion|}}}
 | label25     = [[Apsis|Peri{{#if:{{{apsis|}}}|{{{apsis}}}|apsis}}]]
