@@ -8,7 +8,7 @@
 | imageclass = maptable
 | image = <table style="align:center;text-align:center;background: none; width:100%;"><tr>
 <td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Flag}}}|125px|{{#ifeq:{{{Name}}}|Ohio||border}}|{{#if: {{{FlagAlt|}}} |alt={{{FlagAlt}}}}}|Flag of {{{Name}}}]]</td>
-<td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Seal}}}|85px|{{#if:{{{SealAlt|}}} |alt={{{SealAlt}}}}}|State seal of {{{Name}}}]]</td>
+<td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Astaan}}}|85px|{{#if:{{{SealAlt|}}} |alt={{{SealAlt}}}}}|Astaanta {{{Name}}}]]</td>
 </tr><tr style="font-size: 83%;">
 <td style="width:50%;text-align:center;">{{{Flaglink|[[Flag of {{{Name}}}|Flag]]}}}</td>
 <td style="width:50%;text-align:center;">{{{Seallink|[[Seal of {{{Name}}}|Seal]]}}}</td>
@@ -53,13 +53,13 @@
 | data10 = {{{LargestMetro|}}}
 
 | rowclass11 = mergedtoprow  
-| label11 = Area
-| data11 = [[Baaxad|Baaxad Weyn{{{AreaRank}}}]] <!--
+| label11 = Deegaanka
+| data11 = [[Baaxad|Baaxada {{{AreaRank}}}]] <!--
   -->{{Infobox|child=yes
   | labelstyle=font-weight:normal
 
   | rowclass1 = mergedrow
-  | label1 = &nbsp;•&nbsp;Total
+  | label1 = &nbsp;•&nbsp;Wadar
   | data1 = {{{TotalAreaUS}}}&nbsp;sq&nbsp;mi <br/>({{{TotalArea}}} km<sup>2</sup>)
 
   | rowclass2 = mergedrow
@@ -121,11 +121,11 @@
   | data3 = {{#if: {{{LowestPoint|}}} |{{{LowestPoint}}}<br/>}} {{#ifeq:{{{LowestElev}}}|0|sea level|{{{LowestElevUS}}}&nbsp;ft&#32;({{{LowestElev}}} m)}}
 }}
 | rowclass25 = mergedtoprow
-| label25 = Before statehood
+| label25 = Gobolnimada Ka Hor
 | data25 = {{#ifexist:{{{Former|}}}|[[{{{Former|}}}]]|{{{Former|}}}}}
 
 | rowclass26 = {{#if:{{{Former|}}}|mergedbottomrow}}
-| label26 = [[Admission to the Union|Admission to Union]]
+| label26 = La Midoobay Wadanka
 | data26 = {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
 
 | rowclass27 = mergedtoprow
@@ -133,7 +133,7 @@
 | data27 = {{{Governor}}}
 
 | rowclass28 = mergedrow
-| label28 = [[Gudoomiyaha Gobolka{{{Name}}}|{{{Lieutenant Governor_alt|Gudoomiyaha Gobolka}}}]]
+| label28 = Gudoomiyaha Gobolka
 | data28 = {{{Lieutenant Governor}}}
 
 | rowclass29 = mergedtoprow 
@@ -158,8 +158,8 @@
 | rowclass36 = mergedbottomrow
 | label36 = [[Baarlamaan|Aqalka Wakiilada]] 
 | data36 = {{#if:{{{Representative|}}}
-  | {{{Representative}}} ([[USA {{{Name}}}|diiwaanka]]) 
-  | [[USA{{{Name}}}|Liiska]]
+  | {{{Representative}}} ([[USA|diiwaan gashan]]) 
+  | [[USA|Liiska]]
   }}
 
 | rowclass37 = mergedtoprow
@@ -180,11 +180,11 @@
   | {{{TimeZone}}} 
   }}
 
-| label38 = [[ISO 3166]]
+| label38 = ISO 3166
 | data38 = {{#if:{{{ISOCode| }}}| [[ISO 3166-2:US|{{{ISOCode}}}]] }}
 
-| label39 = Abbreviations
-| data39 = [[Magac|{{{PostalAbbreviation| }}}]], [[Tiro|{{{TradAbbreviation| }}}]]
+| label39 = Loo soo gaabiya
+| data39 = [[Gobol {{{Name}}}|{{{PostalAbbreviation| }}}]], [[Tiro|{{{TradAbbreviation| }}}]]
 
 | rowclass40 = mergedtoprow
 | label40 = Website
