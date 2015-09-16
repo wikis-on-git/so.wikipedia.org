@@ -8,10 +8,10 @@
 | imageclass = maptable
 | image = <table style="align:center;text-align:center;background: none; width:100%;"><tr>
 <td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Flag}}}|125px|{{#ifeq:{{{Name}}}|Ohio||border}}|{{#if: {{{FlagAlt|}}} |alt={{{FlagAlt}}}}}|Flag of {{{Name}}}]]</td>
-<td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Astaan}}}|85px|{{#if:{{{SealAlt|}}} |alt={{{SealAlt}}}}}|Astaanta {{{Name}}}]]</td>
+<td style="width: 50%; vertical-align: middle; text-align:center;">[[File:{{{Seal}}}|85px|{{#if:{{{SealAlt|}}} |alt={{{SealAlt}}}}}|Seal of {{{Name}}}]]</td>
 </tr><tr style="font-size: 83%;">
 <td style="width:50%;text-align:center;">{{{Flaglink|[[Flag of {{{Name}}}|Flag]]}}}</td>
-<td style="width:50%;text-align:center;">{{{Seallink|[[Seal of {{{Name}}}|Seal]]}}}</td>
+<td style="width:50%;text-align:center;">{{{Seallink|[[Astaanta {{{Name}}}|Astaan]]}}}</td>
 </tr></table>
 
 | data1 =  [[Magac|Naaneys]]: <span class="nickname">{{{Nickname}}}</span>
