@@ -24,10 +24,10 @@
 | data7   = {{{abv|}}}
 | label8  = [[khamri|Cadeyn]]
 | data8   = {{{proof|}}}
-| label9  = {{#if:{{{color|}}}|Color|Midabka}}
-| data9   = {{{colour|{{{Midabka|}}}}}} <!-- use only one of "colour" or "color" depending on US/UK article, not both! -->
-| label10 = {{#if:{{{flavor|}}}|Flavor|Dhadhanka}}
-| data10  = {{{flavour|{{{Dhadhanka|}}}}}} <!-- use only one of "flavour" or "flavor" depending on US/UK article, not both! -->
+| label9  = {{#if:{{{color|}}}|Midab|Midabka}}
+| data9   = {{{colour|{{{color|}}}}}} <!-- use only one of "colour" or "color" depending on US/UK article, not both! -->
+| label10 = {{#if:{{{flavor|}}}|Dhadhan|Dhadhanka}}
+| data10  = {{{flavour|{{{flavor|}}}}}} <!-- use only one of "flavour" or "flavor" depending on US/UK article, not both! -->
 | label11 = Style
 | data11  = {{{style|}}}
 | label12 = [[Gravity (alcoholic beverage)|Original gravity]]
