@@ -1,0 +1,48 @@
+{{ infobox
+| bodyclass = hrecipe hproduct
+| title   = {{{title|<includeonly>{{{name|{{PAGENAME}}}}}</includeonly>}}}
+| titleclass= fn ingredient
+| image1  = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|}}}|sizedefault=frameless}}
+| image2  = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless}}
+| caption2= {{{caption|}}}
+
+| label1  = Nooca
+| data1   = {{{type|}}}
+| class1  = category
+| label2  = Soosaare
+| data2   = {{{manufacturer|{{{brewery|}}}}}}
+| class2  = brand
+| label3  = Qeybiye
+| data3   = {{{distributor|}}}
+| label4  = Wadanka asalka
+| data4   = {{{origin|}}}
+| label5  = Caan bixiyey
+| data5   = {{{introduced|{{{year|}}} }}}
+| label6  = Discontinued
+| data6   = {{{discontinued|{{{last_year|}}} }}}
+| label7  = [[khamri|Xadiga alkohol]]
+| data7   = {{{abv|}}}
+| label8  = [[khamri|Cadeyn]]
+| data8   = {{{proof|}}}
+| label9  = {{#if:{{{color|}}}|Color|Midabka}}
+| data9   = {{{colour|{{{color|}}}}}} <!-- use only one of "colour" or "color" depending on US/UK article, not both! -->
+| label10 = {{#if:{{{flavor|}}}|Flavor|Dhadhanka}}
+| data10  = {{{flavour|{{{flavor|}}}}}} <!-- use only one of "flavour" or "flavor" depending on US/UK article, not both! -->
+| label11 = Style
+| data11  = {{{style|}}}
+| label12 = [[Gravity (alcoholic beverage)|Original gravity]]
+| data12  = {{{og|}}}
+| label13 = [[Gravity (alcoholic beverage)|Final gravity]]
+| data13  = {{{fg|}}}
+| label14 = [[International Bitterness Units scale|IBU scale]]
+| data14  = {{{ibu|}}}
+| label15 = Ka kooban
+| data15  = {{{ingredients|}}}
+| label16 = Kala duwanansho
+| data16  = {{{variants|}}}
+| label17 = Waxa la xidhiidha
+| data17  = {{{related|}}}
+| label18 = Website
+| data18  = {{{website|}}}
+
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Bog]]}}</includeonly><noinclude>{{documentation}}</noinclude>
