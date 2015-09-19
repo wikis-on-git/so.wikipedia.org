@@ -1,0 +1,47 @@
+{{infobox
+| abovestyle  = background-color:#{{{bgcolor|{{{hex}}}}}}; color:{{{textcolor|inherit}}}
+| above       = {{{title|<includeonly>{{PAGENAME}}</includeonly>}}}<includeonly><span style="position: relative; float: right; font-size: 70%">[[File:Gtk-dialog-info.svg|16px|How to read this color infobox|link=Wikipedia:How to read a color infobox]]</span></includeonly>
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{photo-size|}}}}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption     = {{{caption|}}}
+| header2     = {{#if:{{{frequency|}}}|[[Midabada Aasaasiyga|Xidhiidhka Midabada]]}}
+| label3      = [[Dherer]]
+| data3       = {{#if:{{{wavelength|}}}|{{{wavelength}}} [[Mitir|nm]]}}
+| label4      = [[Xawaare]]
+| data4       = {{#if:{{{frequency|}}}|{{{frequency}}} [[Terahertz|THz]]}}
+| header5     = {{#if:{{{symbolism|}}}|Common connotations}}
+| data6       = {{{symbolism||yy}}}
+| header8     = <includeonly><span style="position: relative; float: right; font-size: 70%">[[File:Gtk-dialog-info.svg|16px|About these coordinates|link=Wikipedia:WikiProject Color/Normalized Color Coordinates]]</span> &nbsp; &nbsp; Colo{{#ifeq:{{lc:{{{spelling}}}}}|colour|u}}r coordinates</includeonly>
+| label9      = [[web colors#Hex triplet|Hex triplet]]
+| data9       = {{#if:{{{hex|}}}|&#35;{{{hex}}}}}
+| label10     = {{#if:{{{sRGB}}}|[[sRGB color space|sRGB]]|{{#if:{{{rgbspace}}}|{{{rgbspace}}}|[[RGB color model|RGB]]}}}}<sup>'''B'''</sup>&nbsp;&nbsp;([[casaan|cs]],&nbsp;[[cagaar|cg]],&nbsp;[[baluug|bl]])
+| data10      = {{#if:{{{r|}}}|({{{r}}}, {{{g}}}, {{{b}}})}}
+| label11     = {{nowrap|[[CMYK color model|CMYK]]<sup>'''H'''</sup> &nbsp; ([[cyan|c]], [[magenta|m]], [[huruud|h]], [[madoow|m]])}}
+| data11      = {{#if:{{{c|}}}|{{nowrap|({{{c}}}, {{{m}}}, {{{y}}}, {{{k}}})}}}}
+| label12     = {{nowrap|[[HSV color space|HSV]] &nbsp; &nbsp; &nbsp; ([[mugdi|m]], [[Jaamud|j]], [[Cadaan|c]])}}
+| data12      = {{#if:{{{h|}}}|{{nowrap|({{{h}}}°, {{{s}}}%, {{{v}}}%)}}}}
+| label13     = [[HSL color space|HSL]] &nbsp; ([[hue|hslH]], [[Saturation (color theory)|hslS]], [[Khafiif|hslL]])
+| data13      = {{#if:{{{hslL|}}}|({{{hslH}}}°, {{{hslS}}}%, {{{hslL}}}%)}}
+| label14     = Source
+| data14      = <includeonly>{{#if:{{{source|}}}|{{{source}}}|<sup><nowiki>[</nowiki>[[Wikipedia:WikiProject Color/Sources for Color Coordinates|Unsourced]]<nowiki>]</nowiki></sup>{{main other|[[Category:WikiProject Color articles needing infobox sources]]}}}}</includeonly>
+| label15     = [[midab]]
+| data15      = {{{colorspace|}}}
+| data16      = {{#if:{{{r|}}}|'''B''': Normalized to <nowiki>[</nowiki>0–255] (byte)<br>}}{{#if:{{{c|}}}|'''H''': Normalized to <nowiki>[</nowiki>0–100] (hundred)}}
+| data17      = {{{caveat|}}}
+| header18    = {{#if:{{{variations|}}}|{{{variationstitle|Some shades of {{{title}}}|}}}}}
+| label19     = {{{variation1|}}}
+| data19      = {{#if:{{{variation1|}}}|<span style="background-color:{{{variation1color|{{{variation1}}}}}}; border:1px solid {{{variation1color|{{{variation1}}}}}};display:block">&nbsp;</span>}}
+| label20     = {{{variation2|}}}
+| data20      = {{#if:{{{variation2|}}}|<span style="background-color:{{{variation2color|{{{variation2}}}}}}; border:1px solid {{{variation2color|{{{variation2}}}}}};display:block">&nbsp;</span>}}
+| label21     = {{{variation3|}}}
+| data21      = {{#if:{{{variation3|}}}|<span style="background-color:{{{variation3color|{{{variation3}}}}}}; border:1px solid {{{variation3color|{{{variation3}}}}}};display:block">&nbsp;</span>}}
+| label22     = {{{variation4|}}}
+| data22      = {{#if:{{{variation4|}}}|<span style="background-color:{{{variation4color|{{{variation4}}}}}}; border:1px solid {{{variation4color|{{{variation4}}}}}};display:block">&nbsp;</span>}}
+| label23     = {{{variation5|}}}
+| data23      = {{#if:{{{variation5|}}}|<span style="background-color:{{{variation5color|{{{variation5}}}}}}; border:1px solid {{{variation5color|{{{variation5}}}}}};display:block">&nbsp;</span>}}
+| label24     = {{{variation6|}}}
+| data24      = {{#if:{{{variation6|}}}|<span style="background-color:{{{variation6color|{{{variation6}}}}}}; border:1px solid {{{variation6color|{{{variation6}}}}}};display:block">&nbsp;</span>}}
+| label25     = {{{variation7|}}}
+| data25      = {{#if:{{{variation7|}}}|<span style="background-color:{{{variation7color|{{{variation7}}}}}}; border:1px solid {{{variation7color|{{{variation7}}}}}};display:block">&nbsp;</span>}}
+| label26     = {{{variation8|}}}
+| data26      = {{#if:{{{variation8|}}}|<span style="background-color:{{{variation8color|{{{variation8}}}}}}; border:1px solid {{{variation8color|{{{variation8}}}}}};display:block">&nbsp;</span>}}
+}}<noinclude>{{documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS --></noinclude>
