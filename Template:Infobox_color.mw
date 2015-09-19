@@ -10,22 +10,22 @@
 | data4       = {{#if:{{{frequency|}}}|{{{frequency}}} [[Terahertz|THz]]}}
 | header5     = {{#if:{{{symbolism|}}}|Common connotations}}
 | data6       = {{{symbolism||yy}}}
-| header8     = <includeonly><span style="position: relative; float: right; font-size: 70%">[[File:Gtk-dialog-info.svg|16px|About these coordinates|link=Wikipedia:WikiProject Color/Normalized Color Coordinates]]</span> &nbsp; &nbsp; Colo{{#ifeq:{{lc:{{{spelling}}}}}|colour|u}}r coordinates</includeonly>
-| label9      = [[web colors#Hex triplet|Hex triplet]]
+| header8     = <includeonly><span style="position: relative; float: right; font-size: 70%">[[File:Gtk-dialog-info.svg|16px|About these coordinates|link=Wikipedia:WikiProject Color/Normalized Color Coordinates]]</span> &nbsp; &nbsp; Midab{{#ifeq:{{lc:{{{spelling}}}}}|colour|u}} Xidhiidhiye</includeonly>
+| label9      = [[Midabada Aasaasiga|Qoraalka midabka]]
 | data9       = {{#if:{{{hex|}}}|&#35;{{{hex}}}}}
-| label10     = {{#if:{{{sRGB}}}|[[sRGB color space|sRGB]]|{{#if:{{{rgbspace}}}|{{{rgbspace}}}|[[RGB color model|RGB]]}}}}<sup>'''B'''</sup>&nbsp;&nbsp;([[casaan|cs]],&nbsp;[[cagaar|cg]],&nbsp;[[baluug|bl]])
+| label10     = {{#if:{{{sRGB}}}|sRGB|{{#if:{{{rgbspace}}}|{{{rgbspace}}}|RGB}}}}<sup>'''B'''</sup>&nbsp;&nbsp;([[casaan|cs]],&nbsp;[[cagaar|cg]],&nbsp;[[baluug|bl]])
 | data10      = {{#if:{{{r|}}}|({{{r}}}, {{{g}}}, {{{b}}})}}
-| label11     = {{nowrap|[[CMYK color model|CMYK]]<sup>'''H'''</sup> &nbsp; ([[cyan|c]], [[magenta|m]], [[huruud|h]], [[madoow|m]])}}
+| label11     = {{nowrap|CMYK<sup>'''H'''</sup> &nbsp; ([[baxari|bx]], [[basali|bs]], [[huruud|h]], [[madoow|m]])}}
 | data11      = {{#if:{{{c|}}}|{{nowrap|({{{c}}}, {{{m}}}, {{{y}}}, {{{k}}})}}}}
-| label12     = {{nowrap|[[HSV color space|HSV]] &nbsp; &nbsp; &nbsp; ([[mugdi|m]], [[Jaamud|j]], [[Cadaan|c]])}}
+| label12     = {{nowrap|HSV &nbsp; &nbsp; &nbsp; ([[mugdi|m]], j, [[Cadaan|c]])}}
 | data12      = {{#if:{{{h|}}}|{{nowrap|({{{h}}}°, {{{s}}}%, {{{v}}}%)}}}}
-| label13     = [[HSL color space|HSL]] &nbsp; ([[hue|hslH]], [[Saturation (color theory)|hslS]], [[Khafiif|hslL]])
+| label13     = HSL &nbsp; (hslH, hslS, hslL)
 | data13      = {{#if:{{{hslL|}}}|({{{hslH}}}°, {{{hslS}}}%, {{{hslL}}}%)}}
 | label14     = Source
 | data14      = <includeonly>{{#if:{{{source|}}}|{{{source}}}|<sup><nowiki>[</nowiki>[[Wikipedia:WikiProject Color/Sources for Color Coordinates|Unsourced]]<nowiki>]</nowiki></sup>{{main other|[[Category:WikiProject Color articles needing infobox sources]]}}}}</includeonly>
 | label15     = [[midab]]
 | data15      = {{{colorspace|}}}
-| data16      = {{#if:{{{r|}}}|'''B''': Normalized to <nowiki>[</nowiki>0–255] (byte)<br>}}{{#if:{{{c|}}}|'''H''': Normalized to <nowiki>[</nowiki>0–100] (hundred)}}
+| data16      = {{#if:{{{r|}}}|'''B''': Lagu hagaajiyey <nowiki>[</nowiki>0–255] (byte)<br>}}{{#if:{{{c|}}}|'''H''': Lagu hagaajiyey <nowiki>[</nowiki>0–100] (boqol)}}
 | data17      = {{{caveat|}}}
 | header18    = {{#if:{{{variations|}}}|{{{variationstitle|Some shades of {{{title}}}|}}}}}
 | label19     = {{{variation1|}}}
