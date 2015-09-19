@@ -10,7 +10,7 @@
 | header1 = {{#if:{{{carbs|}}}{{{fat|}}}{{{protein|}}}{{{serving_size|}}} |Nutritional value per {{{serving_size|{{convert|100|g|abbr=on}}}}} }}
 
 <!--------------------------------- Energy ------------------------------------>
-| label5 = [[Food energy|Energy]]
+| label5 = [[Awood]]
 | data5 = {{#if:{{{kJ|}}} |{{convert|{{{kJ}}}|kJ|kcal|abbr=on}} |{{#if:{{{kcal|}}}|{{convert|{{{kcal}}}|kcal|kJ|abbr=on}}}} }}
 
 <!------------------------------ Carbohydrates -------------------------------->
@@ -19,16 +19,16 @@
      | {{Infobox |child=yes
         |labelstyle=padding-left:0.65em;line-height:1.1em;font-weight:normal;padding-right:0.25em;
         |datastyle=vertical-align:middle;padding-left:0.65em;line-height:1.1em;
-        | label1 = <div style="position:relative;left:-0.65em;">'''[[Carbohydrate]]s'''</div>
+        | label1 = <div style="position:relative;left:-0.65em;">'''[[Karbohydrate]]'''</div>
         | data1 = {{#if:{{{carbs|}}} |<div style="position:relative;left:-0.65em;">{{{carbs}}}</div>
                    | {{#if:{{{starch|}}}{{{sugars|}}}{{{lactose|}}}{{{fiber|}}}{{{fibre|}}} |&thinsp;}} }}
-        | label2 = [[Starch]]
+        | label2 = Starch
         | data2 = {{{starch|}}}
-        | label3 = [[Sugar]]s   {{#if:{{{lactose|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">[[lactose]]</div>}}
+        | label3 = [[Sonkor]]   {{#if:{{{lactose|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">laktose</div>}}
         | data3 = {{{sugars|}}} {{#if:{{{lactose|}}} |<div style="padding-left:0.65em;padding-top:0.25em;">{{{lactose}}}</div>}}
-        | label4 = [[Dietary fiber]]
+        | label4 = [[Fiber]]
         | data4 = {{{fiber|}}}
-        | label5 = [[Dietary fibre]]
+        | label5 = [[Fibre]]
         | data5 = {{{fibre|}}}
     }} }}
 
@@ -38,18 +38,18 @@
      | {{Infobox |child=yes
         |labelstyle=padding-left:0.65em;line-height:1.1em;font-weight:normal;padding-right:0.25em;
         |datastyle=vertical-align:middle;padding-left:0.65em;line-height:1.1em;
-        | label1 = <div style="position:relative;left:-0.65em;">'''[[Fat]]'''</div>
+        | label1 = <div style="position:relative;left:-0.65em;">'''[[Dux]]'''</div>
         | data1 = {{#if:{{{fat|}}} |<div style="position:relative;left:-0.65em;">{{{fat}}}</div>
                    | {{#if:{{{satfat|}}}{{{transfat|}}}{{{monofat|}}}{{{polyfat|}}}{{{omega3fat|}}}{{{omega6fat|}}} |&thinsp;}} }}
-        | label2 = [[Saturated fat|Saturated]]
+        | label2 = Dux Fadhida
         | data2 = {{{satfat|}}}
-        | label3 = [[Trans fat|Trans]]
+        | label3 = Dux Solol
         | data3 = {{{transfat|}}}
-        | label4 = [[Monounsaturated fat|Monounsaturated]]
+        | label4 = Dux Kasi
         | data4 = {{{monofat|}}}
-        | label5 = [[Polyunsaturated fat|Polyunsaturated]]<!--
-                     -->{{#if:{{{omega3fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">[[Omega-3 fatty acid|omega‑3]]</div>}}<!--
-                     -->{{#if:{{{omega6fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">[[Omega-6 fatty acid|omega‑6]]</div>}}
+        | label5 = Dux Badan<!--
+                     -->{{#if:{{{omega3fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">[[omega‑3]]</div>}}<!--
+                     -->{{#if:{{{omega6fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;font-weight:normal;">[[omega‑6]]</div>}}
         | data5 = {{{polyfat|}}}<!--
                      -->{{#if:{{{omega3fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;">{{{omega3fat}}}</div>}}<!--
                      -->{{#if:{{{omega6fat|}}} |<div style="padding-left:0.65em;padding-top:0.25em;">{{{omega6fat}}}</div>}}
@@ -61,22 +61,22 @@
      | {{Infobox |child=yes
         |labelstyle=padding-left:0.65em;line-height:1.1em;font-weight:normal;padding-right:0.25em;
         |datastyle=vertical-align:middle;padding-left:0.65em;line-height:1.1em;
-        | label1 = <div style="position:relative;left:-0.65em;">'''[[Protein (nutrient)|Protein]]'''</div>
+        | label1 = <div style="position:relative;left:-0.65em;">'''[[Borotiin]]'''</div>
         | data1 = {{#if:{{{protein|}}} |<div style="position:relative;left:-0.65em;">{{{protein}}}</div>
                    | {{#if:{{{tryptophan|}}}{{{threonine|}}}{{{isoleucine|}}}{{{leucine|}}}{{{lysine|}}}{{{methionine|}}}{{{cystine|}}}{{{phenylalanine|}}}{{{tyrosine|}}}{{{valine|}}}{{{arginine|}}}{{{histidine|}}}{{{alanine|}}}{{{aspartic acid|}}}{{{glutamic acid|}}}{{{glycine|}}}{{{proline|}}}{{{serine|}}}{{{hydroxyproline|}}} |&thinsp;}} }}
-        | label2=[[Tryptophan]]      |data2={{{tryptophan|}}}
-        | label3=[[Threonine]]       |data3={{{threonine|}}}
-        | label4=[[Isoleucine]]      |data4={{{isoleucine|}}}
-        | label5=[[Leucine]]         |data5={{{leucine|}}}
-        | label6=[[Lysine]]          |data6={{{lysine|}}}
-        | label7=[[Methionine]]      |data7={{{methionine|}}}
-        | label8=[[Cystine]]         |data8={{{cystine|}}}
-        | label9=[[Phenylalanine]]   |data9={{{phenylalanine|}}}
-        | label10=[[Tyrosine]]       |data10={{{tyrosine|}}}
-        | label11=[[Valine]]         |data11={{{valine|}}}
-        | label12=[[Arginine]]       |data12={{{arginine|}}}
-        | label13=[[Histidine]]      |data13={{{histidine|}}}
-        | label14=[[Alanine]]        |data14={{{alanine|}}}
+        | label2=Tryptophan      |data2={{{tryptophan|}}}
+        | label3=Threonine       |data3={{{threonine|}}}
+        | label4=Isoleucine      |data4={{{isoleucine|}}}
+        | label5=Leucine         |data5={{{leucine|}}}
+        | label6=Lysine          |data6={{{lysine|}}}
+        | label7=Methionine      |data7={{{methionine|}}}
+        | label8=Cystine         |data8={{{cystine|}}}
+        | label9=Phenylalanine   |data9={{{phenylalanine|}}}
+        | label10=Tyrosine       |data10={{{tyrosine|}}}
+        | label11=Valine         |data11={{{valine|}}}
+        | label12=Arginine       |data12={{{arginine|}}}
+        | label13=Histidine      |data13={{{histidine|}}}
+        | label14=Alanine        |data14={{{alanine|}}}
         | label15=[[Aspartic acid]]  |data15={{{aspartic acid|}}}
         | label16=[[Glutamic acid]]  |data16={{{glutamic acid|}}}
         | label17=[[Glycine]]        |data17={{{glycine|}}}
