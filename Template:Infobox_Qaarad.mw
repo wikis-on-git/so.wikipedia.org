@@ -1,0 +1,34 @@
+{{Infobox
+|title        = {{{title|}}}
+|image        = {{{image|}}}
+
+|label1   = Baaxada
+|data1    = {{{area|}}}
+|label2   = Dadka
+|data2    = {{{population|}}}
+|label3   = Miisaanka Dadka
+|data3    = {{{density|}}}
+|label4   = Dhaqaalaha (GDP)
+|data4    = {{{GDP_nominal|}}}
+|label5   = Koboca (PPP)
+|data5    = {{{GDP_PPP|}}}
+|label6   = [[Magac]]a
+|data6    = {{{demonym|}}}
+|label7   = Wadanada
+|data7    = {{{countries|}}} {{#if: {{{list_countries|}}} | ([[{{{list_countries}}}|list of countries]])}}
+|label8   = Ku tiirsan
+|data8    = {{{dependencies|}}}
+|label9   = Deegaano La Aqoonsan
+|data9    = {{{unrecognized|}}}
+|label10  = Luuqadaha
+|data10   = {{{languages|}}}
+|label11  = Wakhtiyada
+|data11   = {{{time|}}}
+|label12  = Internet [[Internet|TLD]]
+|data12   = {{{internet|}}}
+|label13  = Caasimad ugu Wayn
+|data13   = {{{cities|}}}
+}}<noinclude>
+{{documentation}}
+
+</noinclude>
