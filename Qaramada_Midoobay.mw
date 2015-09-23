@@ -1,5 +1,4 @@
-{{pp-semi-indef}}
-{{pp-move-indef}}
+::''Kani waa maqaal ku saabsan Jimciyada Quruumaha Ka Dhaxaysa. Boga "[[UN]]", "[[UNO]]" iyo "[[Jimciyada Quruumaha Ka Dhaxaysa]]" halkan ayaa laga soo toosiyay.
 
 {{Infobox geopolitical organization
 |name = 
@@ -7,16 +6,16 @@
   |titlestyle = background:transparent; font-size:9pt;
   |title = {{resize|11.5pt|United Nations}}
   |{{Infobox|subbox=yes|bodystyle= font-size:9pt;
-    | rowclass1 = mergedrow| label1 = [[Arabic]]: | data1 = <div style="text-align: right;">{{lang|ar|الأمم المتحدة}}</div>
-    | rowclass2 = mergedrow| label2 = [[Chinese language|Chinese]]: | data2 = {{lang|zh|联合国}}
-    | rowclass3 = mergedrow| label3 = [[French language|French]]: | data3 = {{lang|fr|Organisation des Nations unies}}
-    | rowclass4 = mergedrow| label4 = [[Russian language|Russian]]: | data4 = {{lang|ru|Организация Объединённых Наций}}
-    | rowclass5 = mergedrow| label5 = [[Spanish language|Spanish]]: | data5 = {{lang|es|Naciones Unidas}}
+    | rowclass1 = mergedrow| label1 = [[Carabi]]: | data1 = <div style="text-align: right;">{{lang|ar|الأمم المتحدة}}</div>
+    | rowclass2 = mergedrow| label2 = [[Shiinaha|Af Shiine]]: | data2 = {{lang|zh|联合国}}
+    | rowclass3 = mergedrow| label3 = [[Faransiis|Af Faransiis]]: | data3 = {{lang|fr|Organisation des Nations unies}}
+    | rowclass4 = mergedrow| label4 = [[Ruushka|Af Ruush]]: | data4 = {{lang|ru|Организация Объединённых Наций}}
+    | rowclass5 = mergedrow| label5 = [[Isbanish]]: | data5 = {{lang|es|Naciones Unidas}}
 }}<!--NOTE: 'Organisation' is only part of the official title in Russian.-->
 }}
 |linking_name = the United Nations
 |image_flag = Flag of the United Nations.svg
-|symbol_type = [[Emblem of the United Nations|Emblem]]
+|symbol_type =[[Astaan]]
 |image_symbol = Emblem of the United Nations.svg
 |image_map = United Nations Members.svg
 |map_width = 250px
