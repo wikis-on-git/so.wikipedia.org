@@ -111,7 +111,7 @@
 |  data22 = {{{origins|}}}
 
 | label23 = {{longitem |{{#if:{{{area_served|}}} |Area served |Gobol {{#if:{{{region_served|}}}|served}} }} }}
-|  data23 = {{if empty |{{{area_served|}}} |{{{region_served|}}} |{{{region|}}} }}
+|  data23 = {{{area_served|}}} |{{{region_served|}}} |{{{region|}}} 
 
 | label24 = Waxsoo saarka{{#if:{{{products|}}}|s}}
 |  data24 = {{#if:{{{products|}}} |{{{products}}} |{{{product|}}} }}
@@ -187,7 +187,7 @@
 |  data47 = {{{endowment|}}}
 
 | label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Staff |Shaqaalaha}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
-|  data48 = {{if empty |{{{num_staff|}}} |{{{staff|}}} |{{{num_employees|}}} |{{{employees|}}} }}
+|  data48 = {{{num_staff|}}} |{{{staff|}}} |{{{num_employees|}}} |{{{employees|}}} 
 
 | label49 = {{longitem |Tabarucayaasha {{#if:{{{num_volunteers_year|}}} |{{nobold|({{{num_volunteers_year}}})}} }} }}
 |  data49 = {{#if:{{{num_volunteers|}}} |{{{num_volunteers}}} |{{{volunteers|}}} }}
@@ -209,7 +209,7 @@
 
 | label55 = {{longitem|Magac hore}}
 | class55 = nickname
-|  data55 = {{if empty |{{{former name|}}} |{{{former_name|}}} |{{{former|}}} |{{{formerly|}}} }}
+|  data55 = {{{former name|}}} |{{{former_name|}}} |{{{former|}}} |{{{formerly|}}} 
 
 | belowstyle = border-top:#aaa 1px solid;
 | below = {{{footnotes|}}}
