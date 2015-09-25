@@ -37,7 +37,7 @@
 | label6  = Ku xiga
 |  data6  = {{{successor|}}}
 
-| label7  = {{#if:{{{formation|}}} |Samaysanka |{{#if:{{{founded_date|{{{founded|}}}}}}|Founded|Established}} }}
+| label7  = Ka samaysmay
 | class7  = note
 |  data7  = {{if empty |{{{formation|}}} |{{{established|}}} |{{{founded_date|{{{founded|}}}}}} }}
 
