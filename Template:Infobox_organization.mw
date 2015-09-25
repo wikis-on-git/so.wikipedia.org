@@ -1,0 +1,224 @@
+{{Infobox
+| bodyclass = vcard
+
+| titleclass = fn org
+| title = {{{name|{{{organization_name|{{{Non-profit_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}}}}
+
+| subheader = {{#if:{{{native_name|{{{native name|}}}}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name|{{{native name}}}}}}</span>}}
+
+| image1 = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|{{{logo|{{{organization_logo|{{{Non-profit_logo|}}}}}}}}}}}} |size={{{image_size|{{{imagesize|{{{size|}}}}}}}}} |sizedefault=frameless |alt={{{image_alt|{{{alt|}}}}}} }}
+| caption1 = {{{caption|}}}
+
+| image2 = {{#invoke:InfoboxImage|InfoboxImage |image={{{map|}}} |size={{{map_size|{{{msize|}}}}}} |sizedefault=250px |alt={{{map_alt|{{{malt|}}}}}} }}
+| caption2 = {{{map_caption|{{{mcaption|}}}}}}
+
+| image3 = {{#invoke:InfoboxImage|InfoboxImage |image={{{map2|}}} |size={{{map2_size|}}} |sizedefault=250px |alt={{{map2_alt|}}} }}
+| caption3 = {{{map2_caption|}}}
+
+| labelstyle = padding-right:0.6em;<!--(to ensure some gap between any (long/unwrapped) labels and subsequent data on same line)-->
+
+| label1  = Loo soo gaabiyo
+| class1  = Naanays
+|  data1  = {{{abbreviation|}}}
+
+| label2  = Loogu magacdaray
+|  data2  = {{{named_after|}}}
+
+| label3  = Astaan
+| class3  = faalo
+|  data3  = {{{motto|{{{organization_motto|{{{pledge|}}}}}}}}}
+
+| label4  = Ka horeeyay
+|  data4  = {{{predecessor|}}}
+
+| label5  = Lagu wareejiyay
+|  data5  = {{{merged|}}}
+
+| label6  = Ku xiga
+|  data6  = {{{successor|}}}
+
+| label7  = {{#if:{{{formation|}}} |Formation |{{#if:{{{founded_date|{{{founded|}}}}}}|Founded|Established}} }}
+| class7  = note
+|  data7  = {{if empty |{{{formation|}}} |{{{established|}}} |{{{founded_date|{{{founded|}}}}}} }}
+
+| label8  = Aasaasay{{#if:{{{founders|}}}|s}}
+|  data8  = {{#if:{{{founders|}}} |{{{founders}}} |{{{founder|}}} }}
+
+| label9  = Laga Aasaasay
+|  data9  = {{{founding_location|}}}
+
+| label10  = {{#if:{{{extinction|}}} |Extinction | Dissolved}}
+|  data10  = {{#if:{{{extinction|}}} |{{{extinction}}} |{{{dissolved|}}} }}
+
+| label11  = Ka timid
+|  data11  = {{{merger|}}}
+
+| label12 = Nooca
+|  data12 = {{{type|{{{organization_type|{{{Non-profit_type|}}}}}}}}}
+
+| label13 = {{longitem |{{#if:{{{vat_id|}}} |Lambar Aqoonsi |Lambarka Aqoonsiga Canshuurta}} }}
+|  data13 = {{#if:{{{vat_id|}}} |{{{vat_id}}} |{{{tax_id|}}} }}
+
+| label14 = Lambarka Diiwaangelinta
+|  data14 = {{{registration_id|}}}
+
+| label15 = Sharciga
+|  data15 = {{{status|}}}
+
+| label16 = {{#if:{{{focus|}}} |Focus |Purpose}}
+|  data16 = {{#if:{{{focus|}}} |{{{focus}}} |{{{purpose|}}} }}
+
+| label17 = {{longitem|Professional title}}
+|  data17 = {{{professional_title|}}}
+
+| label18 = Fadhiga
+|  data18 = {{{headquarters|}}}
+
+| label19 = Meesha
+| class19 = label
+|  data19 = {{Unbulleted list
+             | 1 = {{comma separated entries
+                    | 1 = {{#if:{{{location_city|}}}    |<span class="locality">{{{location_city}}}</span>}}
+                    | 2 = {{#if:{{{location_country|}}} |<span class="country-name">{{{location_country}}}</span>}}
+                   }}
+             | 2 = {{{location|}}}
+             | 3 = {{comma separated entries
+                    | 1 = {{#if:{{{location_city2|}}}    |<span class="locality">{{{location_city2}}}</span>}}
+                    | 2 = {{#if:{{{location_country2|}}} |<span class="country-name">{{{location_country2}}}</span>}}
+                   }}
+             | 4 = {{{location2|}}}
+            }}
+
+| label20 = Meelaha
+| class20 = label
+|  data20 = {{Unbulleted list
+             | 1 = {{comma separated entries
+                    | 1 = {{#if:{{{addnl_location_city|}}}    |<span class="locality">{{{addnl_location_city}}}</span>}}
+                    | 2 = {{#if:{{{addnl_location_country|}}} |<span class="country-name">{{{addnl_location_country}}}</span>}}
+                   }}
+             | 2 = {{{addnl_location|{{{additional_location|}}}}}}
+             | 3 = {{comma separated entries
+                    | 1 = {{#if:{{{addnl_location_city2|}}}    |<span class="locality">{{{addnl_location_city2}}}</span>}}
+                    | 2 = {{#if:{{{addnl_location_country2|}}} |<span class="country-name">{{{addnl_location_country2}}}</span>}}
+                   }}
+             | 4 = {{{addnl_location2|{{{additional_location2|}}}}}}
+            }}
+
+| label21 = Coordinates
+|  data21 = {{{coordinates|{{{coords|}}}}}}
+
+| label22 = Asalka
+|  data22 = {{{origins|}}}
+
+| label23 = {{longitem |{{#if:{{{area_served|}}} |Area served |Region {{#if:{{{region_served|}}}|served}} }} }}
+|  data23 = {{if empty |{{{area_served|}}} |{{{region_served|}}} |{{{region|}}} }}
+
+| label24 = Product{{#if:{{{products|}}}|s}}
+|  data24 = {{#if:{{{products|}}} |{{{products}}} |{{{product|}}} }}
+
+| label25 = Adeega
+| class25 = note
+|  data25 = {{{services|}}}
+
+| label26 = Method{{#if:{{{methods|}}}|s}}
+|  data26 = {{#if:{{{methods|}}} |{{{methods}}} |{{{method|}}} }}
+
+| label27 = Qaybta{{#if:{{{fields|}}}|s}}
+|  data27 = {{#if:{{{fields|}}} |{{{fields}}} |{{{field|}}} }}
+
+| label28 = {{longitem |Members{{#if:{{{num_members|{{{members|}}}}}}||hip}} {{#if:{{{num_members_year|{{{membership_year|}}}}}} |{{nobold|({{{num_members_year|{{{membership_year|}}}}}})}} }} }}
+|  data28 = {{#if:{{{num_members|{{{members|}}}}}} |{{{num_members|{{{members}}}}}} |{{{membership|}}} }}
+
+| label29 = {{longitem |Luuqadaha dowliga{{#if:{{{languages|}}}|s}} }}
+|  data29 = {{#if:{{{languages|}}} |{{{languages}}} |{{{language|}}} }}
+
+| label30 = Mulkiile{{#if:{{{owners|}}}|s}}
+|  data30 = {{#if:{{{owners|}}} |{{{owners}}} |{{{owner|}}} }}
+
+| label31 = {{longitem|Secretary General}}
+|  data31 = {{#if:{{{general|}}} |{{{general}}} |{{{sec_gen|}}} }}
+
+| label32 = {{#if:{{{leader_title|}}} |{{longitem|{{{leader_title}}}}} |Leader}}
+|  data32 = {{{leader_name|}}}
+
+| label33 = {{longitem|{{{leader_title2}}}}}
+|  data33 = {{#if:{{{leader_title2|}}} |{{{leader_name2|}}} }}
+
+| label34 = {{longitem|{{{leader_title3}}}}}
+|  data34 = {{#if:{{{leader_title3|}}} |{{{leader_name3|}}} }}
+
+| label35 = {{longitem|{{{leader_title4}}}}}
+|  data35 = {{#if:{{{leader_title4|}}} |{{{leader_name4|}}} }}
+
+| label36 = {{longitem|Golaha Sare|{{allow wrap|Golaha Sare}}}}
+|  data36 = {{{board_of_directors|}}}
+
+| label37 = {{longitem|Key people}}
+|  data37 = {{{key_people|}}}
+
+| label38 = {{#if:{{{main_organ|}}} |{{longitem|Main organ}} |Publication}}
+|  data38 = {{#if:{{{main_organ|}}} |{{{main_organ}}} |{{{publication|}}} }}
+
+| label39 = {{longitem|Parent organi{{#if:{{{parent_organisation|}}}|s|z}}ation}}
+|  data39 = {{#if:{{{parent_organisation|}}} |{{{parent_organisation}}} |{{{parent_organization|}}} }}
+
+| label40 = Hoostaga
+|  data40 = {{#if:{{{subsidiaries|}}} |{{{subsidiaries}}} |{{{subsid|}}} }}
+
+| label41 = Ka tirsan
+|  data41 = {{{secessions|}}}
+
+| label42 = Ku xidhan
+|  data42 = {{{affiliations|}}}
+
+| label43 = {{longitem |Budget {{#if:{{{budget_year|}}} |{{nobold|({{{budget_year}}})}} }} }}
+|  data43 = {{{budget|}}}
+
+| label44 = {{longitem |Revenue {{#if:{{{revenue_year|{{{income_year|}}}}}} |{{nobold|({{{revenue_year|{{{income_year|}}}}}})}} }} }}
+|  data44 = {{{revenue|{{{income|}}}}}}
+
+| label45 = Disbursements
+|  data45 = {{{disbursed|{{{disbursements|{{{disbursement|}}}}}}}}}
+
+| label46 = Expenses {{#if:{{{expenses_year|}}} | {{nobold|({{{expenses_year}}})}} }}
+|  data46 = {{{expenses|{{{spent|{{{expense|}}}}}}}}}
+
+| label47 = [[Financial endowment|Endowment]]
+|  data47 = {{{endowment|}}}
+
+| label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Staff |Employees}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
+|  data48 = {{if empty |{{{num_staff|}}} |{{{staff|}}} |{{{num_employees|}}} |{{{employees|}}} }}
+
+| label49 = {{longitem |Volunteers {{#if:{{{num_volunteers_year|}}} |{{nobold|({{{num_volunteers_year}}})}} }} }}
+|  data49 = {{#if:{{{num_volunteers|}}} |{{{num_volunteers}}} |{{{volunteers|}}} }}
+
+| label50 = [[Slogan]]
+|  data50 = {{{slogan|{{{Non-profit_slogan|{{{non-profit_slogan|}}}}}}}}}
+
+| label51 = [[Mission statement|Mission]]
+|  data51 = {{{mission|}}}
+
+| label52 = Award(s)
+|  data52 = {{{awards|}}}
+
+| label53 = Website
+|  data53 = {{{website|{{{homepage|}}}}}}
+
+| label54 = Remarks
+|  data54 = {{{remarks|}}}
+
+| label55 = {{longitem|Formerly called}}
+| class55 = nickname
+|  data55 = {{if empty |{{{former name|}}} |{{{former_name|}}} |{{{former|}}} |{{{formerly|}}} }}
+
+| belowstyle = border-top:#aaa 1px solid;
+| below = {{{footnotes|}}}
+
+}}<!-- Tracking categories:
+-->{{#if:{{{named_after|}}} |[[Category:Pages using infobox organization with unsupported parameters|n{{PAGENAME}}]]
+}}{{#if:{{{founding_location|}}} |[[Category:Pages using infobox organization with unsupported parameters|f{{PAGENAME}}]]
+}}{{#if:{{{ethnicity|}}} |[[Category:Pages using infobox organization with unsupported parameters|e{{PAGENAME}}]]
+}}{{#if:{{{rivals|}}} |[[Category:Pages using infobox organization with unsupported parameters|r{{PAGENAME}}]]
+}}<noinclude>
+{{Documentation}}
+</noinclude>
