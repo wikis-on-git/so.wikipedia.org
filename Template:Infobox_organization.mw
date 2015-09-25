@@ -159,7 +159,7 @@
 | label38 = {{#if:{{{main_organ|}}} |{{longitem|Xubnaha ugu muhiimsan}} |Publication}}
 |  data38 = {{#if:{{{main_organ|}}} |{{{main_organ}}} |{{{publication|}}} }}
 
-| label39 = {{longitem|Ururka iska{{#if:{{{parent_organisation|}}}|s|z}} leh}}
+| label39 = {{longitem|Ururka {{#if:{{{parent_organisation|}}}|s|}}leh}}
 |  data39 = {{#if:{{{parent_organisation|}}} |{{{parent_organisation}}} |{{{parent_organization|}}} }}
 
 | label40 = Hoostaga
@@ -186,7 +186,7 @@
 | label47 = Ilaha dhaqaale
 |  data47 = {{{endowment|}}}
 
-| label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Staff |Shaqaalaha}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
+| label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Shaqaalaha |Shaqaalaha}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
 |  data48 = {{{num_staff|}}} |{{{staff|}}} |{{{num_employees|}}} |{{{employees|}}} 
 
 | label49 = {{longitem |Tabarucayaasha {{#if:{{{num_volunteers_year|}}} |{{nobold|({{{num_volunteers_year}}})}} }} }}
