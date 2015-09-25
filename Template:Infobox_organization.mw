@@ -37,7 +37,7 @@
 | label6  = Ku xiga
 |  data6  = {{{successor|}}}
 
-| label7  = {{#if:{{{formation|}}} |Formation |{{#if:{{{founded_date|{{{founded|}}}}}}|Founded|Established}} }}
+| label7  = {{#if:{{{formation|}}} |Samaysanka |{{#if:{{{founded_date|{{{founded|}}}}}}|Founded|Established}} }}
 | class7  = note
 |  data7  = {{if empty |{{{formation|}}} |{{{established|}}} |{{{founded_date|{{{founded|}}}}}} }}
 
@@ -47,7 +47,7 @@
 | label9  = Laga Aasaasay
 |  data9  = {{{founding_location|}}}
 
-| label10  = {{#if:{{{extinction|}}} |Extinction | Dissolved}}
+| label10  = {{#if:{{{extinction|}}} |Tafiirgo'ay | Baaba'ay}}
 |  data10  = {{#if:{{{extinction|}}} |{{{extinction}}} |{{{dissolved|}}} }}
 
 | label11  = Ka timid
@@ -65,10 +65,10 @@
 | label15 = Sharciga
 |  data15 = {{{status|}}}
 
-| label16 = {{#if:{{{focus|}}} |Focus |Purpose}}
+| label16 = {{#if:{{{focus|}}} |Focus |Ujeedo}}
 |  data16 = {{#if:{{{focus|}}} |{{{focus}}} |{{{purpose|}}} }}
 
-| label17 = {{longitem|Professional title}}
+| label17 = {{longitem|Ciwaan}}
 |  data17 = {{{professional_title|}}}
 
 | label18 = Fadhiga
@@ -110,23 +110,23 @@
 | label22 = Asalka
 |  data22 = {{{origins|}}}
 
-| label23 = {{longitem |{{#if:{{{area_served|}}} |Area served |Region {{#if:{{{region_served|}}}|served}} }} }}
+| label23 = {{longitem |{{#if:{{{area_served|}}} |Area served |Gobol {{#if:{{{region_served|}}}|served}} }} }}
 |  data23 = {{if empty |{{{area_served|}}} |{{{region_served|}}} |{{{region|}}} }}
 
-| label24 = Product{{#if:{{{products|}}}|s}}
+| label24 = Waxsoo saarka{{#if:{{{products|}}}|s}}
 |  data24 = {{#if:{{{products|}}} |{{{products}}} |{{{product|}}} }}
 
 | label25 = Adeega
 | class25 = note
 |  data25 = {{{services|}}}
 
-| label26 = Method{{#if:{{{methods|}}}|s}}
+| label26 = Nidaam{{#if:{{{methods|}}}|s}}
 |  data26 = {{#if:{{{methods|}}} |{{{methods}}} |{{{method|}}} }}
 
 | label27 = Qaybta{{#if:{{{fields|}}}|s}}
 |  data27 = {{#if:{{{fields|}}} |{{{fields}}} |{{{field|}}} }}
 
-| label28 = {{longitem |Members{{#if:{{{num_members|{{{members|}}}}}}||hip}} {{#if:{{{num_members_year|{{{membership_year|}}}}}} |{{nobold|({{{num_members_year|{{{membership_year|}}}}}})}} }} }}
+| label28 = {{longitem |Xubno{{#if:{{{num_members|{{{members|}}}}}}||ha}} {{#if:{{{num_members_year|{{{membership_year|}}}}}} |{{nobold|({{{num_members_year|{{{membership_year|}}}}}})}} }} }}
 |  data28 = {{#if:{{{num_members|{{{members|}}}}}} |{{{num_members|{{{members}}}}}} |{{{membership|}}} }}
 
 | label29 = {{longitem |Luuqadaha dowliga{{#if:{{{languages|}}}|s}} }}
@@ -135,7 +135,7 @@
 | label30 = Mulkiile{{#if:{{{owners|}}}|s}}
 |  data30 = {{#if:{{{owners|}}} |{{{owners}}} |{{{owner|}}} }}
 
-| label31 = {{longitem|Secretary General}}
+| label31 = {{longitem|Xoghayaha Sare}}
 |  data31 = {{#if:{{{general|}}} |{{{general}}} |{{{sec_gen|}}} }}
 
 | label32 = {{#if:{{{leader_title|}}} |{{longitem|{{{leader_title}}}}} |Leader}}
@@ -153,13 +153,13 @@
 | label36 = {{longitem|Golaha Sare|{{allow wrap|Golaha Sare}}}}
 |  data36 = {{{board_of_directors|}}}
 
-| label37 = {{longitem|Key people}}
+| label37 = {{longitem|Dadka sare}}
 |  data37 = {{{key_people|}}}
 
-| label38 = {{#if:{{{main_organ|}}} |{{longitem|Main organ}} |Publication}}
+| label38 = {{#if:{{{main_organ|}}} |{{longitem|Xubnaha ugu muhiimsan}} |Publication}}
 |  data38 = {{#if:{{{main_organ|}}} |{{{main_organ}}} |{{{publication|}}} }}
 
-| label39 = {{longitem|Parent organi{{#if:{{{parent_organisation|}}}|s|z}}ation}}
+| label39 = {{longitem|Ururka iska{{#if:{{{parent_organisation|}}}|s|z}} leh}}
 |  data39 = {{#if:{{{parent_organisation|}}} |{{{parent_organisation}}} |{{{parent_organization|}}} }}
 
 | label40 = Hoostaga
@@ -171,43 +171,43 @@
 | label42 = Ku xidhan
 |  data42 = {{{affiliations|}}}
 
-| label43 = {{longitem |Budget {{#if:{{{budget_year|}}} |{{nobold|({{{budget_year}}})}} }} }}
+| label43 = Kharashka
 |  data43 = {{{budget|}}}
 
-| label44 = {{longitem |Revenue {{#if:{{{revenue_year|{{{income_year|}}}}}} |{{nobold|({{{revenue_year|{{{income_year|}}}}}})}} }} }}
+| label44 = {{longitem |Dhaqaale {{#if:{{{revenue_year|{{{income_year|}}}}}} |{{nobold|({{{revenue_year|{{{income_year|}}}}}})}} }} }}
 |  data44 = {{{revenue|{{{income|}}}}}}
 
 | label45 = Disbursements
 |  data45 = {{{disbursed|{{{disbursements|{{{disbursement|}}}}}}}}}
 
-| label46 = Expenses {{#if:{{{expenses_year|}}} | {{nobold|({{{expenses_year}}})}} }}
+| label46 = Isticmaalka {{#if:{{{expenses_year|}}} | {{nobold|({{{expenses_year}}})}} }}
 |  data46 = {{{expenses|{{{spent|{{{expense|}}}}}}}}}
 
-| label47 = [[Financial endowment|Endowment]]
+| label47 = Ilaha dhaqaale
 |  data47 = {{{endowment|}}}
 
-| label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Staff |Employees}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
+| label48 = {{longitem |{{#if:{{{num_staff|}}}{{{staff|}}} |Staff |Shaqaalaha}} {{#if:{{{num_staff_year|{{{num_employees_year|}}}}}} |{{nobold|({{{num_staff_year|{{{num_employees_year|}}}}}})}} }} }}
 |  data48 = {{if empty |{{{num_staff|}}} |{{{staff|}}} |{{{num_employees|}}} |{{{employees|}}} }}
 
-| label49 = {{longitem |Volunteers {{#if:{{{num_volunteers_year|}}} |{{nobold|({{{num_volunteers_year}}})}} }} }}
+| label49 = {{longitem |Tabarucayaasha {{#if:{{{num_volunteers_year|}}} |{{nobold|({{{num_volunteers_year}}})}} }} }}
 |  data49 = {{#if:{{{num_volunteers|}}} |{{{num_volunteers}}} |{{{volunteers|}}} }}
 
-| label50 = [[Slogan]]
+| label50 = Halkudhiga
 |  data50 = {{{slogan|{{{Non-profit_slogan|{{{non-profit_slogan|}}}}}}}}}
 
-| label51 = [[Mission statement|Mission]]
+| label51 = Hadafka
 |  data51 = {{{mission|}}}
 
-| label52 = Award(s)
+| label52 = Abaalmarinta
 |  data52 = {{{awards|}}}
 
 | label53 = Website
 |  data53 = {{{website|{{{homepage|}}}}}}
 
-| label54 = Remarks
+| label54 = Amaan
 |  data54 = {{{remarks|}}}
 
-| label55 = {{longitem|Formerly called}}
+| label55 = {{longitem|Magac hore}}
 | class55 = nickname
 |  data55 = {{if empty |{{{former name|}}} |{{{former_name|}}} |{{{former|}}} |{{{formerly|}}} }}
 
