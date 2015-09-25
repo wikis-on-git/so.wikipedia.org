@@ -37,9 +37,9 @@
 | label6  = Ku xiga
 |  data6  = {{{successor|}}}
 
-| label7  = Ka samaysmay
+| label7  = Samaysmay
 | class7  = note
-|  data7  = {{if empty |{{{formation|}}} |{{{established|}}} |{{{founded_date|{{{founded|}}}}}} }}
+|  data7  = {{{formation|}}} |{{{established|}}} |{{{founded_date|{{{founded|}}}}}} 
 
 | label8  = Aasaasay{{#if:{{{founders|}}}|s}}
 |  data8  = {{#if:{{{founders|}}} |{{{founders}}} |{{{founder|}}} }}
