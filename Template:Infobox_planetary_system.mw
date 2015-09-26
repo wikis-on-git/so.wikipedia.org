@@ -25,53 +25,53 @@
 | label6  = Xidiga ugu dhow
 |  data6  = {{{neareststar|}}}
 
-| label7  = {{nowrap|Nearest known}} {{nowrap|[[planetary system]]}}
+| label7  = {{nowrap|[[Meere]]}} {{nowrap|ugu dhow}}
 |  data7  = {{{nearestplanetary|}}}
 
-<!------------------ Planetary system --------------------->
+<!------------------ Habka Meereyaasha --------------------->
 | class8  = navbox-abovebelow
 | header8 = {{#if:{{{semimajoraxis|}}}{{{protoplanetarydisc|}}}{{{Kuiper_cliff|}}}{{{stars|}}}{{{planets|}}}{{{dwarfplanets|}}}{{{satellites|}}}{{{minorplanets|}}}{{{comets|}}}{{{roundsat|}}} |Planetary system}}
 
-| label9  = {{nowrap|Semi-major axis}} of outer&nbsp;{{#if:{{{noknown_planets|}}}||known&nbsp;}}planet {{#if:{{{outerplanetname|}}}|{{nobold|({{{outerplanetname}}})}}}}
+| label9  = {{nowrap|Masaafada meeraha}} ugu fog&nbsp;{{#if:{{{noknown_planets|}}}||known&nbsp;}} {{#if:{{{outerplanetname|}}}|{{nobold|({{{outerplanetname}}})}}}}
 |  data9  = {{{semimajoraxis|}}}
 
 | label10 = [[Protoplanetary disk|{{allow wrap|Proto-planetary disc}}]]&nbsp;size
 |  data10 = {{{protoplanetarydisc|}}}
 
-| label11 = {{nowrap|Distance to [[Kuiper belt#"Kuiper cliff"|Kuiper cliff]]}}
+| label11 = {{nowrap|Fogaanta u jiro Cidhifka Kuiber}}
 |  data11 = {{{Kuiper_cliff|}}}
 
-<!------------Populations-------------->
+<!------------Meereyaasha Ku Dhaqan-------------->
 | header12 = {{#if:{{{stars|}}}{{{planets|}}}{{{dwarfplanets|}}}{{{satellites|}}}{{{minorplanets|}}}{{{comets|}}}{{{roundsat|}}}
               | <div style="text-align:center;padding-bottom:0.15em;border-bottom:1px solid #ccf;">Populations</div>
              }}
 
-| label13 = {{#if:{{{noknown_stars|}}} |Stars |Known stars}}
+| label13 = {{#if:{{{noknown_stars|}}} |Xidig |Xidigta la yaqaan}}
 |  data13 = {{{stars|}}}
 
-| label14 = {{#if:{{{noknown_planets|}}} |Planets |Known planets}}
+| label14 = {{#if:{{{noknown_planets|}}} |Tirada Meere |Known planets}}
 |  data14 = {{{planets|}}}
 
-| label15 = Dhul la yaqaano {{allow wrap|Dhul la yaqaano}}]]
+| label15 = Dhul la yaqaano
 |  data15 = {{{dwarfplanets|}}}
 
-| label16 = Known [[Natural satellite|{{allow wrap|natural satellites}}]]
+| label16 = Tirada Dayax
 |  data16 = {{{satellites|}}}
 
-| label17 = Known [[Minor planet|{{allow wrap|minor planets}}]]
+| label17 = Tirada Meere yaryar
 |  data17 = {{{minorplanets|}}}
 
-| label18 = Known [[comet]]s
+| label18 = Komet
 |  data18 = {{{comets|}}}
 
-| label19 = Identified [[{{{roundsatlink|Natural satellite#Shape}}}|{{allow wrap|rounded satellites}}]]
+| label19 = Tirada Dayax wareegta
 |  data19 = {{{roundsat|}}}
 
-<!------------- Orbit about Galactic Center --------------->
+<!------------- Wareegyada Meereyaasha --------------->
 | class20 = navbox-abovebelow
 | header20 = {{#if:{{{inclination|}}}{{{galacticcenter|}}}{{{orbitalspeed|}}}{{{orbitalperiod|}}} |{{nowrap|Orbit about [[Galactic Center]]}} }}
 
-| label21 = {{nowrap|[[Invariable plane|Invariable]]-to-}}[[Galactic plane|{{allow wrap|galactic plane}}]] inclination
+| label21 = {{nowrap|Dhinaca wareega qalooca}}
 |  data21 = {{{inclination|}}}
 
 | label22 = Fogaanta dhinac
@@ -83,7 +83,7 @@
 | label24 = Wakhtiga wareega
 |  data24 = {{{orbitalperiod|}}}
 
-<!-------------------- Star-related ----------------------->
+<!-------------------- La Xidhiidha Xidiga ----------------------->
 | class25 = navbox-abovebelow
 | header25 = {{#if:{{{spectral|}}}{{{variable|}}}{{{frostline|}}}{{{heliopause|}}}{{{hillsphere|}}} |Star-related properties}}
 
@@ -93,7 +93,7 @@
 | label27 = Nooca xidiga
 |  data27 = {{{variable|}}}
 
-| label28 = [[Frost line (astrophysics)|Frost line]]
+| label28 = Heerka Qaboowga
 |  data28 = {{{frostline|}}}
 
 | label29 = {{nowrap|Fogaanta dhow}}
