@@ -30,7 +30,7 @@
 
 <!------------------ Habka Meereyaasha --------------------->
 | class8  = navbox-abovebelow
-| header8 = {{#if:{{{semimajoraxis|}}}{{{protoplanetarydisc|}}}{{{Kuiper_cliff|}}}{{{stars|}}}{{{planets|}}}{{{dwarfplanets|}}}{{{satellites|}}}{{{minorplanets|}}}{{{comets|}}}{{{roundsat|}}} |Planetary system}}
+| header8 = {{#if:{{{semimajoraxis|}}}{{{protoplanetarydisc|}}}{{{Kuiper_cliff|}}}{{{stars|}}}{{{planets|}}}{{{dwarfplanets|}}}{{{satellites|}}}{{{minorplanets|}}}{{{comets|}}}{{{roundsat|}}} |Habka Meereyaasha}}
 
 | label9  = {{nowrap|Masaafada meeraha}} ugu fog&nbsp;{{#if:{{{noknown_planets|}}}||known&nbsp;}} {{#if:{{{outerplanetname|}}}|{{nobold|({{{outerplanetname}}})}}}}
 |  data9  = {{{semimajoraxis|}}}
@@ -43,7 +43,7 @@
 
 <!------------Meereyaasha Ku Dhaqan-------------->
 | header12 = {{#if:{{{stars|}}}{{{planets|}}}{{{dwarfplanets|}}}{{{satellites|}}}{{{minorplanets|}}}{{{comets|}}}{{{roundsat|}}}
-              | <div style="text-align:center;padding-bottom:0.15em;border-bottom:1px solid #ccf;">Populations</div>
+              | <div style="text-align:center;padding-bottom:0.15em;border-bottom:1px solid #ccf;">Meereyaasha Ku Dhaqan</div>
              }}
 
 | label13 = {{#if:{{{noknown_stars|}}} |Xidig |Xidigta la yaqaan}}
@@ -69,7 +69,7 @@
 
 <!------------- Wareegyada Meereyaasha --------------->
 | class20 = navbox-abovebelow
-| header20 = {{#if:{{{inclination|}}}{{{galacticcenter|}}}{{{orbitalspeed|}}}{{{orbitalperiod|}}} |{{nowrap|Orbit about [[Galactic Center]]}} }}
+| header20 = {{#if:{{{inclination|}}}{{{galacticcenter|}}}{{{orbitalspeed|}}}{{{orbitalperiod|}}} |{{nowrap|Wareega Meereyaasha}} }}
 
 | label21 = {{nowrap|Dhinaca wareega qalooca}}
 |  data21 = {{{inclination|}}}
@@ -85,7 +85,7 @@
 
 <!-------------------- La Xidhiidha Xidiga ----------------------->
 | class25 = navbox-abovebelow
-| header25 = {{#if:{{{spectral|}}}{{{variable|}}}{{{frostline|}}}{{{heliopause|}}}{{{hillsphere|}}} |Star-related properties}}
+| header25 = {{#if:{{{spectral|}}}{{{variable|}}}{{{frostline|}}}{{{heliopause|}}}{{{hillsphere|}}} |Astaamaha Xidiga}}
 
 | label26 = Nooca iftiin
 |  data26 = {{{spectral|}}}
