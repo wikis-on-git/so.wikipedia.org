@@ -72,13 +72,13 @@
 |  data8    = {{{highest_next|}}}
 
 
-| header9   = {{#if:{{{status|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{classification|}}}{{{location|}}}{{{location_town|}}}{{{location_city|}}}{{{location_country|}}}{{{address|}}}{{{latitude|}}}{{{latd|}}}{{{longitude|}}}{{{longd|}}}{{{coordinates|}}}{{{altitude|}}}{{{start_date|}}}{{{construction_start_date|}}}{{{topped-out_date|}}}{{{topped_out_date|}}}{{{est_completion|}}}{{{completion_date|}}}{{{inauguration_date|}}}{{{groundbreaking_date|}}}{{{opening_date|}}}{{{opening|}}}{{{opened|}}}{{{opened_date|}}}{{{renovation_date|}}}{{{closing_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}{{{destruction_date|}}}{{{destroyed|}}}{{{cost|}}}{{{ren_cost|}}}{{{client|}}}{{{owner|}}}{{{governing_body|}}}{{{landlord|}}}{{{management|{{{operator|}}}}}}{{{affiliation|}}}|General information}}
+| header9   = {{#if:{{{status|}}}{{{building_type|}}}{{{architectural_style|}}}{{{style|}}}{{{classification|}}}{{{location|}}}{{{location_town|}}}{{{location_city|}}}{{{location_country|}}}{{{address|}}}{{{latitude|}}}{{{latd|}}}{{{longitude|}}}{{{longd|}}}{{{coordinates|}}}{{{altitude|}}}{{{start_date|}}}{{{construction_start_date|}}}{{{topped-out_date|}}}{{{topped_out_date|}}}{{{est_completion|}}}{{{completion_date|}}}{{{inauguration_date|}}}{{{groundbreaking_date|}}}{{{opening_date|}}}{{{opening|}}}{{{opened|}}}{{{opened_date|}}}{{{renovation_date|}}}{{{closing_date|}}}{{{demolition_date|}}}{{{date_demolished|}}}{{{demolished_date|}}}{{{destruction_date|}}}{{{destroyed|}}}{{{cost|}}}{{{ren_cost|}}}{{{client|}}}{{{owner|}}}{{{governing_body|}}}{{{landlord|}}}{{{management|{{{operator|}}}}}}{{{affiliation|}}}|Warbixin Guud}}
 
 | label10   = Marxalada imika
 | class10   = Kooxda
 |  data10   = {{#if:{{{status|{{{Status|}}}}}}|{{#switch:{{lc:{{{status|{{{Status|}}}}}}}}
 | built | la dhamaystiray | la dhamaystiray
-| complete = <span style="color:darkgreen">Complete</span>
+| complete = <span style="color:darkgreen">La dhamaystiray</span>
 | destroyed  = <span style="color:#e42328">Burburay</span>
 | demolished = <span style="color:black">Dumay</span>
 | on hold    = <span style="color:purple">La joojiyay</span>
@@ -119,7 +119,7 @@
 | label17   = Wadan
 |  data17   = {{{location_country|}}}
 
-| label18   = Meesh Dhacdo
+| label18   = Meesha Dhacdo
 |  data18   = {{#if:{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}|
 {{Geobox coor|wrap=yes|{{#if:{{{latitude|}}}|{{{latitude}}}|{{{latd|}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{#if:{{{longitude|}}}|{{{longitude}}}|{{{longd|}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if: {{{iso_region|}}}|_region:{{{iso_region}}}|{{#if:{{{location_country|}}}|_region:{{CountryAbbr|{{{location_country}}}|}}|}}}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}|{{{coordinates|}}}}}
 
@@ -145,7 +145,7 @@
 |  data25   = {{{topped-out_date|{{{topped_out_date|}}}}}}
 
 | rowclass26= note
-| label26   = {{#if:{{{est_completion|}}}|Estimated completion|Completed}}
+| label26   = {{#if:{{{est_completion|}}}|Estimated completion|La dhamaystiray}}
 |  data26   = {{#if:{{{est_completion|}}}|{{{est_completion}}}|{{{completion_date|}}}}}
 
 | label27   = La furay
@@ -190,7 +190,7 @@
 | label40   = Dhererka
 |  data40   = {{{height|}}}
 
-| label41   = Architectural
+| label41   = Naqshadaynta
 |  data41   = {{{architectural|}}}
 
 | label42   = Tip
@@ -210,55 +210,55 @@
 
 | header47  = {{#if:{{{diameter|}}}{{{circumference|}}}{{{weight|}}}{{{other_dimensions|}}}|Dimensions}}
 
-| label48   = Diameter
+| label48   = Balaca
 |  data48   = {{{diameter|}}}
 
-| label49   = Circumference
+| label49   = Iskuwareeg
 |  data49   = {{{circumference|}}}
 
-| label50   = Weight
+| label50   = Miisaan
 |  data50   = {{{weight|}}}
 
-| label51   = Other dimensions
+| label51   = Dhinacyo kale
 |  data51   = {{{other_dimensions|}}}
 
-| header52  = {{#if:{{{structural_system|}}}{{{material|}}}{{{size|}}}{{{floor_count|{{{floors|}}}}}}{{{floor_area|}}}{{{elevator_count|}}}|Technical details}}
+| header52  = {{#if:{{{structural_system|}}}{{{material|}}}{{{size|}}}{{{floor_count|{{{floors|}}}}}}{{{floor_area|}}}{{{elevator_count|}}}|Faafaahin Habka Dhisme}}
 
 | label53   = Structural system
 |  data53   = {{{structural_system|}}}
 | class53   = category
 
-| label54   = Material
+| label54   = Alaabta
 |  data54   = {{{material|}}}
 | class54   = category
 
-| label55   = Size
+| label55   = Xajmi
 |  data55   = {{{size|}}}
 
-| label56   = Floor count
+| label56   = Tirada dabaq
 |  data56   = {{{floor_count|{{{floors|}}}}}}
 
-| label57   = Floor area
+| label57   = Meesha dabaqa
 |  data57   = {{{floor_area|}}}
 
-| label58   = Lifts/elevators
+| label58   = Wiish
 |  data58   = {{{elevator_count|}}}
 
 | label59   = Grounds
 |  data59   = {{{grounds_area|}}}
 
-| header60  = {{#if:{{{architect|}}}{{{architecture_firm|}}}{{{developer|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{main_contractor|}}}{{{main_contractors|}}}|Design and construction}}
+| header60  = {{#if:{{{architect|}}}{{{architecture_firm|}}}{{{developer|}}}{{{engineer|}}}{{{structural_engineer|}}}{{{civil_engineer|}}}{{{other_designers|}}}{{{quantity_surveyor|}}}{{{main_contractor|}}}{{{main_contractors|}}}|Naqshada iyo Dhisida}}
 
-| label61   = Architect
+| label61   = Naqshada
 |  data61   = {{{architect|}}}
 
-| label62   = Architecture firm
+| label62   = Shirkada nashqadeysay
 |  data62   = {{{architecture_firm|}}}
 
-| label63   = Developer
+| label63   = Horumariyay
 |  data63   = {{{developer|}}}
 
-| label64   = Engineer
+| label64   = Injineer
 |  data64   = {{{engineer|}}}
 
 | label65   = Structural engineer
@@ -276,20 +276,20 @@
 | label69   = Quantity surveyor
 |  data69   = {{{quantity_surveyor|}}}
 
-| label70   = Main contractor
+| label70   = Qandaraaska Qatey
 |  data70   = {{{main_contractor|{{{main_contractors|}}}}}}
 
-| rowclass71 = note
-| label71    = Awards and prizes
+| rowclass71 = Fiirogaar
+| label71    = Abaalmarin
 |  data71    = {{{awards|}}}
 
-| label72    = Designations
+| label72    = Farsamada
 |  data72    = {{{designations|}}}
 
-| label73    = Known for
+| label73    = Lagu yaqaan
 |  data73    = {{{known_for|}}}
 
-| header74  = {{#if:{{{ren_architect|}}}{{{ren_firm|}}}{{{ren_engineer|}}}{{{ren_str_engineer|}}}{{{ren_serv_engineer|}}}{{{ren_civ_engineer|}}}{{{ren_oth_designers|}}}{{{ren_qty_surveyor|}}}{{{ren_contractor|}}}{{{ren_awards|}}}|Renovating team}}
+| header74  = {{#if:{{{ren_architect|}}}{{{ren_firm|}}}{{{ren_engineer|}}}{{{ren_str_engineer|}}}{{{ren_serv_engineer|}}}{{{ren_civ_engineer|}}}{{{ren_oth_designers|}}}{{{ren_qty_surveyor|}}}{{{ren_contractor|}}}{{{ren_awards|}}}|Kooxda Qurxinta}}
 
 | rowclass75 = note
 | label75   = Architect
@@ -323,7 +323,7 @@
 | label84   = Awards and prizes
 |  data84   = {{{ren_awards|}}}
 
-| header85  = {{#if:{{{seating_type|}}}{{{capacity|{{{seating_capacity|}}}}}}{{{number_of_stores|}}}{{{number_of_anchors|}}}{{{unit_count|}}}{{{number_of_units|}}}{{{number_of_rooms|}}}{{{room_count|}}}{{{rooms|}}}{{{number_of_suites|}}}{{{suite_count|}}}{{{suites|}}}{{{number_of_restaurants|}}}{{{number_of_bars|{{{number_of_Bars|}}}}}}{{{facilities|}}}{{{parking|}}}|Other information}}
+| header85  = {{#if:{{{seating_type|}}}{{{capacity|{{{seating_capacity|}}}}}}{{{number_of_stores|}}}{{{number_of_anchors|}}}{{{unit_count|}}}{{{number_of_units|}}}{{{number_of_rooms|}}}{{{room_count|}}}{{{rooms|}}}{{{number_of_suites|}}}{{{suite_count|}}}{{{suites|}}}{{{number_of_restaurants|}}}{{{number_of_bars|{{{number_of_Bars|}}}}}}{{{facilities|}}}{{{parking|}}}|Warbixin Kale}}
 
 | label86   = Seating type
 |  data86   = {{{seating_type|}}}
