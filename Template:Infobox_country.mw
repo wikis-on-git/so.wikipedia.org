@@ -361,7 +361,7 @@
  -->{{#if:{{{membership|}}}
      | <tr>
          <td colspan="2"
-             style="vertical-align:middle;">'''{{{membership_type|Membership}}}'''</td>
+             style="vertical-align:middle;">'''{{{membership_type|Xubinimo}}}'''</td>
          <td>{{{membership}}}</td>
        </tr><!--
  -->}}<!--
