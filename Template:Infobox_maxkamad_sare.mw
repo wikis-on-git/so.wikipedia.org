@@ -1,0 +1,69 @@
+{{Infobox
+| above = {{{court_name|}}}
+| subheader = {{{native_name|}}}
+| imagestyle = padding-bottom:0.4em; border-bottom:solid 1px #aaa;
+| image = {{#if:{{{image|}}}
+ |[[File:{{{image}}}| 
+ {{#if:{{{imagesize|}}}| 
+ {{{imagesize}}}|{{{width|225}}}x{{{height|250px}}}|}}]]
+ }}
+| caption = {{{caption|}}}
+| image2 = {{#if:{{{image2|}}}
+ |[[File:{{{image2}}}| 
+ {{#if:{{{imagesize2|}}}| 
+ {{{imagesize2}}}|{{{width|225}}}x{{{height|250px}}}|}}]]	
+ }}
+| caption2 = {{{caption2|}}}
+| headerstyle = background-color: #E7E7FF; border-top:solid 1px #aaa;
+| label1 = La Aasaasay
+| data1 = {{{established|}}}
+| label2 = Ku Milantay
+| data2 = {{{dissolved|}}}
+| label3 = Wadan
+| data3 = {{{country|}}}
+| label4 = Dhacdaa
+| data4 = {{{location|}}}
+| label5 = Barta Dhacdo
+| data5 = {{{coordinates|}}}
+| label6 = Halhays
+| data6 = {{{motto|}}}
+| label7 = Nooca shaqada
+| data7 = {{{type|}}}
+| label8 = {{{at|Authorized}}} by
+| data8 = {{{authority|}}}
+| label9 = Go'aan qaadasho
+| data9 = {{{appeals|}}}
+| label10 = Wakhiga Xaakimka
+| data10 = {{{terms|}}}
+| label11 = Boosaska
+| data11 = {{{positions|}}}
+| label12 = Miisaaniyada
+| data12 = {{{budget|}}}
+| label13 = Website
+| data13 = {{{website|}}} 
+
+| header15 = {{{chiefjudgetitle|}}}
+| label16 = Wakhti xaadirkan
+| data16 = {{{chiefjudgename|}}}
+| label17 = Ilaa
+| data17 = {{{termstart|}}}
+| label18 = Wakhtiga Hogaanka
+| data18 = {{{termend|}}}
+| label19 = Jurist term ends
+| data19 = {{{termend2|}}}
+
+| header20 = {{{chiefjudgetitle2|}}}
+| label21 = Currently
+| data21 = {{{chiefjudgename2|}}}
+| label22 = Since
+| data22 = {{{termstart2|}}}
+| label23 = Lead position ends
+| data23 = {{{termend3|}}}
+| label24 = Jurist term ends
+| data24 = {{{termend4|}}}
+
+}}<noinclude>
+{{documentation}}
+
+<!---Please add metadata to the section on the /doc subpage, not here!--->
+</noinclude>
