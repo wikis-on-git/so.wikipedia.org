@@ -39,23 +39,23 @@
                   }}<!--
            --></div><!--
          -->}}
-|label2  = Department
+|label2  = Waaxda
 |data2   = {{{department|}}}
-|label3  = [[Style (manner of address)|Style]]
+|label3  =Xaragada
 |data3   = {{{style|}}}
-|label4  = [[Xarunta|Xarunta]]
+|label4  = Xarunta
 |data4   = {{{residence|}}}
-|label5  = Nominator
+|label5  = Soo Ansixiyay
 |data5   = {{{nominator|}}}<!--
          -->{{#if:{{{nominatorpost|}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{nominatorpost}}}</div>
           }}
-|label6  = Appointer
+|label6  = Soo magacaabay
 |data6   = {{{appointer|}}}<!--
          -->{{#if:{{{appointerpost|}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
           }}
-|label7  = [[Mudada xilka]]
+|label7  = Mudada xilka
 |data7   = {{{termlength|}}}
 |label8  = Xilka kala wareegay
 |data8   = {{{inaugural|}}}
