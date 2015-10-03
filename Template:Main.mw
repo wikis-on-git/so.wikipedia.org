@@ -1,4 +1,4 @@
-{{Rellink|extraclasses=relarticle mainarticle|{{#ifeq:{{SUBJECTSPACE}}|Category|The main {{#ifeq:{{NAMESPACE:{{{1}}}}}||article|page}}{{#if:{{{2|}}}|s}} for this [[Wikipedia:Categorization|category]] {{#if:{{{2|}}}|are|is}}|Main {{#ifeq:{{NAMESPACE:{{{1}}}}}||article|page}}{{#if:{{{2|}}}|s}}:}} [[{{{1|{{PAGENAME}}}}}|{{{l1|{{{1|{{PAGENAME}}}}}}}}]]{{#if:{{{2| }}}
+{{Rellink|extraclasses=relarticle mainarticle|{{#ifeq:{{SUBJECTSPACE}}|Category|The main {{#ifeq:{{NAMESPACE:{{{1}}}}}||article|page}}{{#if:{{{2|}}}|s}} for this [[Wikipedia:Categorization|category]] {{#if:{{{2|}}}|are|is}}|Maqaal {{#ifeq:{{NAMESPACE:{{{1}}}}}||dhamaystiran|page}}{{#if:{{{2|}}}|s}}:}} [[{{{1|{{PAGENAME}}}}}|{{{l1|{{{1|{{PAGENAME}}}}}}}}]]{{#if:{{{2| }}}
  |{{#if:{{{3|}}}|,&#32;|&#32;and&#32;}}[[{{{2}}}|{{{l2|{{{2}}}}}}]]}}{{#if:{{{3|}}}
  |{{#if:{{{4|}}}|,&#32;|,&#32;and&#32;}}[[{{{3}}}|{{{l3|{{{3}}}}}}]]}}{{#if:{{{4|}}}
  |{{#if:{{{5|}}}|,&#32;|,&#32;and&#32;}}[[{{{4}}}|{{{l4|{{{4}}}}}}]]}}{{#if:{{{5|}}}
