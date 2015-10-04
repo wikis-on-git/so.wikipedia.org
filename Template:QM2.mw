@@ -1,0 +1,43 @@
+{{ sidebar
+| name         = Qaramada Midoobay
+| pretitle     = Silsilad ka mid ah
+| title        = [[Qaramada Midoobay]]
+| titlestyle   = font-size: 200%
+| image        = [[File:Floris Claesz. van Dyck 001.jpg|190px]]
+| imagestyle   = padding-left:1em; padding-right:1em
+| headingstyle = background-color: #f4eea1; padding-top: 0
+| contentclass = hlist
+
+| heading1     = Goleyaasha
+| content1     =
+* [[GSQM|Golaha Sare]]
+* [[GAQM|Golaha Amniga]]
+
+| heading2     = Xubnaha Ugu Muhiimsan
+| content2     =
+* [[GSQM|Golaha Sare]]
+* [[GAQM|Golaha Amniga]]
+* [[GDBQM|Golaha Dhaqaalaha iyo Bulshada]]
+* [[GKQM|Golaha Kalsoonida]]
+* [[MCC|Maxkamada Cadaalada Caalamka]]
+* [[GXQM|Golaha Xoghaynta]]
+
+| heading3     = Wakiilada iyo Hay'adaha
+| content3     =
+* [[WHO|Hay'ada Caafimaadka Aduunka]]
+* [[WFP|Hay'ada Cuntada Aduunka]]
+* [[UNHCR|Hay'ada Qoxootiga Aduunka]]
+* [[ICAO|Wakaalada Duulista Hawada Aduunka]]
+* [[FAO|Wakaalada Cuntada iyo Dalaga]]
+* [[UNICEF|Hay'ada Daryeelka Caruurta]]
+* [[UNESCO]]
+* [[UNDP]]
+* [[IMO|Ururka Badaha Aduunka]]
+* [[UNCTAD|Wakaalada Ganacsiga Caalamka]]
+| heading4     = Ururo La Xidhiidha
+| content4     =
+* [[ITC|Xarunta Ganacsiga Aduunka]]
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
