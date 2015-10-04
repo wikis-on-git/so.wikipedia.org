@@ -32,7 +32,7 @@
 }}{{#if:{{{purpose|}}}|
 <tr><th style="text-align:left; padding-left:0.75em;">Purpose/focus</th><td>{{{purpose}}}</td></tr>
 }}{{#if:{{{headquarters|}}}|
-<tr><th style="text-align:left; padding-left:0.75em;">[[Xarunta|Xarunta]]</th><td>{{{headquarters}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Xarunta</th><td>{{{headquarters}}}</td></tr>
 }}{{#if:{{{location|}}}|
 <tr><th style="text-align:left; padding-left:0.75em;">Barta</th><td class="label">{{{location}}}</td></tr>
 }}{{#if:{{{region_served|}}}|
@@ -42,7 +42,7 @@
 }}{{#if:{{{language|}}}|
 <tr><th style="text-align:left; padding-left:0.75em;">Luqadaha Rasmiga</th><td>{{{language}}}</td></tr>
 }}{{#if:{{{general|}}}|
-<tr><th style="text-align:left; padding-left:0.75em;">[[Xog-hayaha|Xog-hayaha guud]]</th><td>{{{general}}}</td></tr>
+<tr><th style="text-align:left; padding-left:0.75em;">Xog-hayaha guud</th><td>{{{general}}}</td></tr>
 }}{{#if:{{{leader_title|}}}|
 <tr><th style="text-align:left; padding-left:0.75em;">{{{leader_title}}}</th><td>{{{leader_name}}}</td></tr>
 }}{{#if:{{{leader_title2|}}}|
