@@ -15,7 +15,7 @@
 | label1  = Native name
 |  data1  = {{#if:{{{native_name|}}} |<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
 
-| label2  = Born
+| label2  = Dhashay
 |  data2  = {{br separated entries
              | 1={{{birth_name|}}}
              | 2={{#switch:{{lc:{{{birth_date|}}}}}
@@ -25,7 +25,7 @@
              | 3={{{birth_place|}}}
             }}
 
-| label3  = Died
+| label3  = Dhintay
 |  data3  = {{br separated entries
              | 1={{#switch:{{lc:{{{death_date|}}}}}
                 |? |?? |??? |???? |19? |19?? |18?? |17?? |u |unk |unknown = {{tooltip|DOD|Date of death}}&nbsp;unknown
@@ -34,57 +34,57 @@
              | 2={{{death_place|}}}
             }}
 
-| label4  = Resting place
+| label4  = Ku aasan
 |  data4  = {{br separated entries|{{{resting_place|}}} |{{{resting_place_coordinates|}}} }}
 
-| label5  = Pen name
+| label5  = Qalinka
 | class5  = nickname
 |  data5  = {{{penname|{{{pseudonym|}}}}}}
 
-| label6  = Nickname
-| class6  = nickname
+| label6  = Naanays
+| class6  = naanays
 |  data6  = {{{nickname|}}}
 
-| label7  = Occupation
+| label7  = Shaqo
 | class7  = role
 |  data7  = {{{occupation|}}}
 
-| label8  = Language
+| label8  = Luuqad
 |  data8  = {{{language|}}}
 
-| label9  = Nationality
+| label9  = Wadanka
 | class9  = category
 |  data9  = {{{nationality|}}}
 
-| label10 = Ethnicity
+| label10 = U dhashay
 |  data10 = {{{ethnicity|}}}
 
-| label11 = Citizenship
+| label11 = Muwadin
 |  data11 = {{{citizenship|}}}
 
-| label12 = Education
+| label12 = Aqoon
 |  data12 = {{{education|}}}
 
-| label13 = Alma&nbsp;mater
+| label13 = Heerka Aqoon
 |  data13 = {{{alma_mater|}}}
 
-| label14 = Period
+| label14 = Wakhti
 |  data14 = {{{period|}}}
 
 | label15 = Genre{{#if:{{{genres|}}}|s}}
 | class15 = category
 |  data15 = {{#if:{{{genres|}}}|{{{genres}}}|{{{genre|}}}}}
 
-| label16 = Subject{{#if:{{{subjects|}}}|s}}
+| label16 = Waxka qora{{#if:{{{subjects|}}}|s}}
 |  data16 = {{#if:{{{subjects|}}}|{{{subjects}}}|{{{subject|}}}}}
 
 | label17 = Literary movement
 |  data17 = {{{movement|}}}
 
-| label18 = Notable work{{#if:{{{notableworks|}}}|s}}
+| label18 = Sameeyay{{#if:{{{notableworks|}}}|s}}
 |  data18 = {{#if:{{{notableworks|}}}|{{{notableworks}}}|{{{notablework|}}}}}
 
-| label19 = Notable awards
+| label19 = Abaalmarin
 |  data19 = {{{awards|}}}
 
 | label20 = Years&nbsp;active
