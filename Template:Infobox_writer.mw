@@ -1,0 +1,121 @@
+{{Infobox
+| bodyclass = vcard
+| bodystyle = {{#if:{{{box_width|}}} |width:{{{box_width}}};}}
+| above =
+    {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}} |<span class="honorific-prefix" style="font-size:small;">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br/>}}<!--
+ --><includeonly><span class="fn">{{{name|{{PAGENAMEBASE}}}}}</span></includeonly><!--
+ -->{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}} |<br/><span class="honorific-suffix" style="font-size:small;">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|{{{imagesize|}}}}}} |sizedefault=frameless |upright=1 |alt={{{alt|}}} |suppressplaceholder=yes}}
+| caption = {{{caption|}}}
+
+| labelstyle = padding-top:0.225em;line-height:1.1em;padding-right:0.65em;
+| datastyle = line-height:1.4em;
+
+| label1  = Native name
+|  data1  = {{#if:{{{native_name|}}} |<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+
+| label2  = Born
+|  data2  = {{br separated entries
+             | 1={{{birth_name|}}}
+             | 2={{#switch:{{lc:{{{birth_date|}}}}}
+                |? |?? |??? |???? |19? |19?? |18?? |17?? |u |unk |unknown = {{tooltip|DOB|Date of birth}}&nbsp;unknown
+                | {{{birth_date|}}}
+               }}
+             | 3={{{birth_place|}}}
+            }}
+
+| label3  = Died
+|  data3  = {{br separated entries
+             | 1={{#switch:{{lc:{{{death_date|}}}}}
+                |? |?? |??? |???? |19? |19?? |18?? |17?? |u |unk |unknown = {{tooltip|DOD|Date of death}}&nbsp;unknown
+                | {{{death_date|}}}
+               }}
+             | 2={{{death_place|}}}
+            }}
+
+| label4  = Resting place
+|  data4  = {{br separated entries|{{{resting_place|}}} |{{{resting_place_coordinates|}}} }}
+
+| label5  = Pen name
+| class5  = nickname
+|  data5  = {{{penname|{{{pseudonym|}}}}}}
+
+| label6  = Nickname
+| class6  = nickname
+|  data6  = {{{nickname|}}}
+
+| label7  = Occupation
+| class7  = role
+|  data7  = {{{occupation|}}}
+
+| label8  = Language
+|  data8  = {{{language|}}}
+
+| label9  = Nationality
+| class9  = category
+|  data9  = {{{nationality|}}}
+
+| label10 = Ethnicity
+|  data10 = {{{ethnicity|}}}
+
+| label11 = Citizenship
+|  data11 = {{{citizenship|}}}
+
+| label12 = Education
+|  data12 = {{{education|}}}
+
+| label13 = Alma&nbsp;mater
+|  data13 = {{{alma_mater|}}}
+
+| label14 = Period
+|  data14 = {{{period|}}}
+
+| label15 = Genre{{#if:{{{genres|}}}|s}}
+| class15 = category
+|  data15 = {{#if:{{{genres|}}}|{{{genres}}}|{{{genre|}}}}}
+
+| label16 = Subject{{#if:{{{subjects|}}}|s}}
+|  data16 = {{#if:{{{subjects|}}}|{{{subjects}}}|{{{subject|}}}}}
+
+| label17 = Literary movement
+|  data17 = {{{movement|}}}
+
+| label18 = Notable work{{#if:{{{notableworks|}}}|s}}
+|  data18 = {{#if:{{{notableworks|}}}|{{{notableworks}}}|{{{notablework|}}}}}
+
+| label19 = Notable awards
+|  data19 = {{{awards|}}}
+
+| label20 = Years&nbsp;active
+|  data20 = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
+
+| label21 = Spouse{{#if:{{{spouses|}}}|s}}
+|  data21 = {{#if:{{{spouses|}}}|{{{spouses}}}|{{{spouse|}}}}}
+
+| label22 = Partner{{#if:{{{partners|}}}|s}}
+|  data22 = {{#if:{{{partners|}}}|{{{partners}}}|{{{partner|}}}}}
+
+| label23 = Children
+|  data23 = {{{children|}}}
+
+| label24 = Relatives
+|  data24 = {{{relatives|{{{relations|}}}}}}
+
+|  data28 = {{#if:{{{signature|}}} |<hr/>}}
+| label29 = Signature
+|  data29 = {{#if:{{{signature|}}} |[[File:{{{signature}}}|frameless|upright=0.72|alt={{{signature_alt|}}}]]}}
+
+|  data30 = {{{misc|{{{module|}}}}}}
+
+| header31   = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+|  data32    = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+|  data33 = {{#if:{{{portaldisp|}}} |<hr/>'''''{{portal-inline|Literature|size=tiny}}'''''}}
+
+}}{{main other|
+{{#if:{{{pronunciation|}}} |[[Category:Biography template using pronunciation]]
+}}{{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|{{#switch:{{str left|{{{website|{{{homepage|{{{URL|}}}}}}}}}|1}}|<=|[=|#default=[[Category:Biography template using bare URL in website parameter]]}}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
