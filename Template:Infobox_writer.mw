@@ -81,7 +81,7 @@
 | label17 = Literary movement
 |  data17 = {{{movement|}}}
 
-| label18 = Sameeyay{{#if:{{{notableworks|}}}|s}}
+| label18 = Sameeyay{{#if:{{{notableworks|}}}|}}
 |  data18 = {{#if:{{{notableworks|}}}|{{{notableworks}}}|{{{notablework|}}}}}
 
 | label19 = Abaalmarin
