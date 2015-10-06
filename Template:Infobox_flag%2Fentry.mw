@@ -1,0 +1,105 @@
+<noinclude><!--
+-->{| class="infobox"</noinclude>
+| colspan=2 style="text-align: center" | {{#invoke:InfoboxImage|InfoboxImage|image={{{Image}}}|size={{{Image_size|}}}|sizedefault=frameless|border={{#if:{{{Noborder|}}}||yes}}|alt={{{Alt|}}}}}
+|-
+| colspan=2 style="text-align: center" | {{{Imagetext|Flag of {{{Article}}} {{{Name}}}}}}
+|-
+{{#if:{{{Nickname|}}}|
+! [[List of flag names|Name{{#if:{{{Morenicks|}}}|s|}}]]
+{{!}} {{{Nickname}}}{{#if:{{{Morenicks|}}}|, {{{Morenicks}}}|}}
+}}
+|-
+{{#if:{{{Use|}}}|
+! [[Glossary of vexillology|Use]]
+{{!}} {{#switch: {{{Use}}}
+| 000000 = Other
+| 000001 = [[Naval ensign]]
+| 000010 = [[State ensign]]
+| 000011 = [[State ensign|State]] and [[naval ensign]]
+| 000100 = [[Civil ensign]]
+| 000101 = [[Civil ensign|Civil]] and [[naval ensign]]
+| 000110 = [[Civil ensign|Civil]] and [[state ensign]]
+| 000111 = [[National ensign]]
+| 001000 = [[War flag]]
+| 001001 = [[War flag]] and [[naval ensign]]
+| 001010 = [[War flag]] and [[state ensign]]
+| 001011 = [[War flag]], [[State ensign|state]] and [[naval ensign]]
+| 001100 = [[War flag]] and [[civil ensign]]
+| 001101 = [[War flag]], [[Civil ensign|civil]] and [[naval ensign]]
+| 001110 = [[War flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 001111 = [[War flag]] and [[National ensign]]
+| 010000 = [[State flag]]
+| 010001 = [[State flag]] and [[naval ensign]]
+| 010010 = [[State flag]] and [[State ensign|ensign]]
+| 010011 = [[State flag]], [[State ensign|state]] and [[naval ensign]]
+| 010100 = [[State flag]] and [[civil ensign]]
+| 010101 = [[State flag]], [[civil ensign|civil]] and [[naval ensign]]
+| 010110 = [[State flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 010111 = [[State flag]] and [[national ensign]]
+| 011000 = [[State flag|State]] and [[war flag]]
+| 011001 = [[State flag|State]] and [[war flag]], [[naval ensign]]
+| 011010 = [[State flag|State flag]] and [[state ensign|ensign]], [[war flag]]
+| 011011 = [[State flag|State]] and [[war flag]], [[State ensign|state]] and [[naval ensign]]
+| 011100 = [[State flag|State]] and [[war flag]], [[civil ensign]]
+| 011101 = [[State flag|State]] and [[war flag]], [[Civil ensign|civil]] and [[naval ensign]]
+| 011110 = [[State flag|State]] and [[war flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 011111 = [[State flag|State]] and [[war flag]], [[national ensign]]
+| 100000 = [[Civil flag]]
+| 100001 = [[Civil flag]] and [[naval ensign]]
+| 100010 = [[Civil flag]] and [[state ensign]]
+| 100011 = [[Civil flag]], [[state ensign|state]] and [[naval ensign]]
+| 100100 = [[Civil flag]] and [[civil ensign|ensign]]
+| 100101 = [[Civil flag]], [[civil ensign|civil]] and [[naval ensign]]
+| 100110 = [[Civil flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 100111 = [[Civil flag]] and [[national ensign]]
+| 101000 = [[Civil flag|Civil]] and [[war flag]]
+| 101001 = [[Civil flag|Civil]] and [[war flag]], [[naval ensign]]
+| 101010 = [[Civil flag|Civil]] and [[war flag]], [[state ensign]]
+| 101011 = [[Civil flag|Civil]] and [[war flag]], [[State ensign|state]] and [[naval ensign]]
+| 101100 = [[Civil flag|Civil]] and [[war flag]], [[civil ensign]]
+| 101101 = [[Civil flag|Civil]] and [[war flag]], [[Civil ensign|civil]] and [[naval ensign]]
+| 101110 = [[Civil flag|Civil]] and [[war flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 101111 = [[Civil flag|Civil]] and [[war flag]], [[national ensign]]
+| 110000 = [[Civil flag|Civil]] and [[state flag]]
+| 110001 = [[Civil flag|Civil]] and [[state flag]], [[naval ensign]]
+| 110010 = [[Civil flag|Civil]] and [[state flag]], [[state ensign]]
+| 110011 = [[Civil flag|Civil]] and [[state flag]], [[State ensign|state]] and [[naval ensign]]
+| 110100 = [[Civil flag|Civil]] and [[state flag]], [[civil ensign]]
+| 110101 = [[Civil flag|Civil]] and [[state flag]], [[Civil ensign|civil]] and [[naval ensign]]
+| 110110 = [[Civil flag|Civil]] and [[state flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 110111 = [[Civil flag|Civil]] and [[state flag]], [[national ensign]]
+| 111000 = [[National flag]]
+| 111001 = [[National flag]] and [[naval ensign]]
+| 111010 = [[National flag]] and [[state ensign]]
+| 111011 = [[National flag]] and [[State ensign|state]] and [[naval ensign]]
+| 111100 = [[National flag]] and [[civil ensign]]
+| 111101 = [[National flag]], [[Civil ensign|civil]] and [[naval ensign]]
+| 111110 = [[National flag]], [[Civil ensign|civil]] and [[state ensign]]
+| 111111 = [[National flag]] and [[National ensign|ensign]]
+| {{{Use}}} }} {{{Symbol|}}}
+}}
+|-
+{{#if:{{{Proportion|}}}|
+! Proportion
+{{!}} {{{Proportion}}}
+}}
+|-
+{{#if:{{{Adoption|}}}|
+! Adopted
+{{!}} {{{Adoption}}}
+}}
+|-
+{{#if:{{{Design|}}}|
+! Design
+{{!}} {{{Design}}}
+}}
+|-
+{{#if:{{{Designer|}}}|
+! Designed&nbsp;by
+{{!}} {{{Designer}}}
+}}
+|-<noinclude>
+|}{{documentation|content=
+{{NODOC}}
+[[Category:Vexillological templates]]
+}}</noinclude>
