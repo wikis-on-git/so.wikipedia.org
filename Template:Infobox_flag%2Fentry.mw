@@ -80,22 +80,22 @@
 }}
 |-
 {{#if:{{{Proportion|}}}|
-! Proportion
+! Nooc
 {{!}} {{{Proportion}}}
 }}
 |-
 {{#if:{{{Adoption|}}}|
-! Adopted
+! Bilaabay isticmaalka
 {{!}} {{{Adoption}}}
 }}
 |-
 {{#if:{{{Design|}}}|
-! Design
+! Naqshad
 {{!}} {{{Design}}}
 }}
 |-
 {{#if:{{{Designer|}}}|
-! Qofka&nbsp;nashqada
+! Qofka&nbsp;naqshadeyay
 {{!}} {{{Designer}}}
 }}
 |-<noinclude>
