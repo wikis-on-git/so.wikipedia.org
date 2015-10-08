@@ -15,7 +15,7 @@
 | data3       = {{#if:{{{classification|}}}|<span />
 {{{classification}}}
 }}
-| label4      = [[Hornbostel–Sachs|Hornbostel–Sachs classification]]
+| label4      = Shanqadha laxanka
 | data4       = {{{hornbostel_sachs|}}}{{#if:{{{hornbostel_sachs_desc|}}}|<br />({{{hornbostel_sachs_desc}}})}}
 
 | label5      = Asalka
@@ -36,7 +36,7 @@
 | label10     = {{#if:{{{decay|}}}|[[ADSR envelope|Decay]]}}
 | data10      = {{#if:{{{decay|}}}|{{{decay|}}}}}
 
-| header11    = {{#if:{{{range|}}}|[[Range (music)|Playing range]]}}
+| header11    = {{#if:{{{range|}}}|Heerka Codka Shanqadha}}
 | data12      = {{#if:{{{range|}}}|<span />
 {{{range}}}
 {{#if:{{{pitch|}}}|{{{pitch}}}}}
