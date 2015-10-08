@@ -5,7 +5,8 @@
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=250x250px|alt={{{alt|}}}}}
 | caption     = {{{caption|{{{image_capt|}}}}}}
 
-| header1     = {{Infobox instrument/Classification|{{{background|}}} }}
+| header1     = 
+|{{{background|}}}
 
 | label2      = Other names
 | data2       = {{{names|}}}
