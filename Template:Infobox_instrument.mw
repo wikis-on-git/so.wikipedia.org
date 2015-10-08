@@ -8,7 +8,7 @@
 | header1     = 
 |{{{background|}}}
 
-| label2      = Other names
+| label2      = Magac kale
 | data2       = {{{names|}}}
 
 | label3      = Nooca
@@ -18,10 +18,10 @@
 | label4      = [[Hornbostel–Sachs|Hornbostel–Sachs classification]]
 | data4       = {{{hornbostel_sachs|}}}{{#if:{{{hornbostel_sachs_desc|}}}|<br />({{{hornbostel_sachs_desc}}})}}
 
-| label5      = Inventor(s)
+| label5      = Asalka
 | data5       = {{{inventors|}}}
 
-| label6      = Developed
+| label6      = Maanta laga isticmaalo
 | data6       = {{{developed|}}}
 
 | label7      = {{#if:{{{timbre|}}}|[[Timbre]]}}
@@ -41,7 +41,7 @@
 {{{range}}}
 {{#if:{{{pitch|}}}|{{{pitch}}}}}
 }}
-| header13     = {{#if:{{{related|}}}|[[Musical instrument|Related instruments]]}}
+| header13     = {{#if:{{{related|}}}|La xidhiidha}}
 | data14       = {{#if:{{{related|}}}|<span />
 {{{related}}}
 }}
