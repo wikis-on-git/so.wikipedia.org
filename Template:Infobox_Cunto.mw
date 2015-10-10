@@ -138,7 +138,7 @@
 
 
 | belowstyle = border-top:1px solid #aaa;padding-top:0.25em;{{{belowstyle|}}}
-| below = {{#if:{{{no_recipes|}}} <includeonly>|</includeonly> |{{Wikibooks-inline|short=yes|Special:Search|Cookbook: {{{cookbook|{{{name|{{PAGENAME}}}}}}}}}} }}<!--
+| below = {{#if:{{{no_recipes|}}} <includeonly>|</includeonly> |Sidoo kale fiiri: [[Cunto Soomaali]] • [[Cunto]] • [[Raashin]] }}<!--
        -->{{#if:{{{no_commons|}}} <includeonly>|</includeonly> |&nbsp; {{Commons-inline|short=yes|Special:Search/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}|Media{{colon}} {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}} }}
 
 }}<noinclude>{{Documentation}}</noinclude>
