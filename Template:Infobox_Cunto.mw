@@ -1,0 +1,144 @@
+{{Infobox
+| bodyclass = hrecipe adr
+
+| titleclass = fn
+| title = <includeonly><span {{#if:{{{name_lang|}}}|lang="{{{name_lang}}}"}} {{#ifeq:{{{name_italics|false}}}|true|style="font-style: italic;"|}}>{{#if:{{{name|}}}|{{{name}}}|{{PAGENAMEBASE}}}}</span></includeonly>
+
+| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |alt={{{image_alt|{{{alt|}}}}}} }}
+| captionstyle = {{#if:{{{caption|}}} |padding-bottom:0.25em;border-bottom:1px solid #aaa;}}
+| caption = {{{caption|}}}
+
+| labelstyle = padding-top:0.245em;line-height:1.15em;<!--(modified longitem)-->
+               padding-right:0.65em;<!--(to ensure some gap between (non-wrapped) labels and subsequent data)-->
+
+| rowclass2 = note
+| label2  = Magac kale
+|  data2  = {{{alternate_name|{{{alternate name|}}}}}}
+
+| label3  = Nooca
+|  data3  = {{{type|}}}
+
+| label4  = Ka tirsan
+|  data4  = {{{course|}}}
+
+| rowclass5 = note
+| label5  = Asal ahaan
+| class5  = country-name
+|  data5  = {{{country|}}}
+
+| rowclass7 = note
+| label7  = Wadanka
+| class7  = region
+|  data7  = {{{region|}}}
+
+| label9  = La xidhiidha [[:Category:Cunto|cuntooyinka]]
+|  data9  = {{{national_cuisine|}}}
+
+| rowclass11 = note
+| label11 = sameeyay{{#if:{{{creators|}}}|}}
+| class11 = author
+|  data11 = {{#if:{{{creators|}}} |{{{creators}}} |{{{creator|}}} }}
+
+| label13 = Ikhtiraac
+|  data13 = {{{year|}}}
+
+<!----------------------Cooking time----------------------->
+| label15 = Wakhtiga karinta
+|  data15 = {{#if:{{{mintime|{{{time1|}}}}}}{{{maxtime|{{{time2|}}}}}}
+             | {{nowrap
+                | {{#iferror: <!--(display nothing if calculations below generate an error)-->
+                     {{#if:{{{mintime|{{{time1|}}}}}}
+                      | {{#ifexpr:{{#expr:{{{mintime|{{{time1|}}}}}}>60}}
+                         <!----(time is "X hour/s Y min":)---->
+                         | <!----hours:-->{{rounddown|{{#expr:{{{mintime|{{{time1|}}}}}}/60}}}} <!--
+                                                      <!--(units:)-->[[hour]]{{#ifeq:{{rounddown|{{#expr:{{{mintime|{{{time1|}}}}}}/60}}}}|1 | |s}} <!--
+                           <!--minutes:-->{{#ifeq:{{#expr:{{{mintime|{{{time1|}}}}}} mod 60}}|0 |<!--(omit if "0 min")-->
+                                           | {{#expr:{{{mintime|{{{time1|}}}}}} mod 60}} [[Minute|min]]
+                                          }}
+                         <!----(else time is "X minute/s":)---->
+                         | {{{mintime|{{{time1|}}}}}} <!--(units:)-->[[minute]]{{#ifeq:{{{mintime|{{{time1|}}}}}}|1 | |s}}
+                  }} }} }}<!--
+               -->{{#iferror:
+                     {{#if:{{{maxtime|{{{time2|}}}}}}
+                      | {{#if:{{{mintime|{{{time1|}}}}}} |<!--(then cooking time given is from min(imum)time to
+                                                               max(imum), so insert the "to" before the maximum:)-->&nbsp;to}} <!--
+                          -->{{#ifexpr:{{#expr:{{{maxtime|{{{time2|}}}}}}>60}} <!--("X hour/s Y min" as above)-->
+                              | {{rounddown|{{#expr:{{{maxtime|{{{time2|}}}}}}/60}}}} hour{{#ifeq:{{rounddown|{{#expr:{{{maxtime|{{{time2|}}}}}}/60}}}}|1 | |s}} <!--
+                                  -->{{#ifeq:{{#expr:{{{maxtime|{{{time2|}}}}}} mod 60}}|0 | |{{#expr:{{{maxtime|{{{time2|}}}}}} mod 60}} min}}
+                              | {{{maxtime|{{{time2|}}}}}} minute{{#ifeq:{{{maxtime|{{{time2|}}}}}}|1 | |s}}
+                  }} }}      }}<!--
+         -->}} }}
+<!--------------------------------------------------------->
+
+| label17 = Heerkulka
+|  data17 = {{{served|}}}
+
+| label19 = Ka kooban
+| class19 = ingredient
+|  data19 = {{{main_ingredient|}}}
+
+| label21 = Isticmaalka&nbsp;
+| class21 = ingredient
+|  data21 = {{{minor_ingredient|}}}
+
+| label23 = Kala duwanaan
+|  data23 = {{{variations|}}}
+
+<!-----------------------Food energy----------------------->
+| label25 = {{longitem |style=line-height:1.1em;white-space:nowrap;
+             | 2 = [[Awood]]<br/><span style="font-size:90%;font-weight:normal;"><!--
+                     -->(per {{#switch:{{{serving_size|}}}
+                              | 100 grams |100 [[Gram|g]] |100 g |100g = 100&nbsp;[[Gram|g]] serving)
+                              | #default = {{{serving_size|}}} serving)
+                             }}<!-----></span>
+            }}
+| class25 = Nafaqo
+|  data25 = {{#if:{{{calories|}}}
+             | {{{calories}}}&nbsp;[[Calorie|kcal]]<!--
+                -->{{#iferror:&nbsp;({{#expr:{{{calories}}}*4.1868 round 0}} [[kilojoule|kJ]])}}<!--
+                -->{{{calories_ref|}}}
+            }}
+
+<!--------------------Nutritional value-------------------->
+| label27 = {{longitem |style=line-height:1.1em;white-space:nowrap;
+             | 2 = [[Nutrition|Nutritional value]]<br/><span style="font-size:90%;font-weight:normal;"><!--
+                     -->(per {{#switch:{{{serving_size|}}}
+                              | 100 grams |100 [[Gram|g]] |100 g |100g = 100&nbsp;[[Gram|g]] serving)
+                              | #default = {{{serving_size|}}} serving)
+                             }}<!--                 --></span>
+            }}
+|  data27 = {{#if:{{{protein|}}}{{{fat|}}}{{{carbohydrate|}}}
+             | {{Infobox
+                |bodystyle={{infobox subbox bodystyle}}
+                |labelstyle=width:6.75em;padding-right:0.35em;<!--(to ensure some gap between "Carbohydrate" and any subsequent data)-->line-height:1.3em;font-weight:normal;
+                |datastyle=line-height:1.3em;
+                |label1=[[Protein (nutrient)|Protein]] |data1={{{protein}}}&nbsp;[[Gram|g]]
+                |label2=[[Fat]]          |data2={{{fat}}}&nbsp;[[Gram|g]]
+                |label3=[[Carbohydrate]] |data3={{{carbohydrate}}}&nbsp;[[Gram|g]]
+            }} }}
+
+<!--------------------Glycemic index----------------------->
+| label32 = [[Glycemic index|{{allow wrap|Glycemic index}}]]
+|  data32 = {{#iferror:
+               {{#if:{{{glycemic_index|}}}
+                | {{smaller
+                   | {{#ifexpr:{{#expr:{{{glycemic_index}}}<56}}
+                      | {{{glycemic_index}}}&nbsp;({{background|#ccffcc|low}})
+                      | {{#ifexpr:{{#expr:{{{glycemic_index}}}<70}}
+                         | {{{glycemic_index}}}&nbsp;({{background|#ffff99|medium}})
+                         | {{{glycemic_index}}}&nbsp;({{background|#ffcc99|high}})
+            }} }} }} }} }}
+<!--------------------------------------------------------->
+
+| label34 = Similar dishes
+|  data34 = {{{similar_dish|}}}
+
+| label36 = Other information
+|  data36 = {{{other|}}}
+
+
+| belowstyle = border-top:1px solid #aaa;padding-top:0.25em;{{{belowstyle|}}}
+| below = {{#if:{{{no_recipes|}}} <includeonly>|</includeonly> |{{Wikibooks-inline|short=yes|Special:Search|Cookbook: {{{cookbook|{{{name|{{PAGENAME}}}}}}}}}} }}<!--
+       -->{{#if:{{{no_commons|}}} <includeonly>|</includeonly> |&nbsp; {{Commons-inline|short=yes|Special:Search/{{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}|Media{{colon}} {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}}} }}
+
+}}<noinclude>{{Documentation}}</noinclude>
