@@ -4,11 +4,10 @@
 | bodyclass   = vcard plainlist
 
 | title       = {{#ifeq:{{lc:{{{embed}}}}}|yes|'''Musical career'''}}
-| decat       = no <!-- remove from template:infobox tracking categories -->
+| decat       = yes <!-- remove from template:infobox tracking categories -->
 
 | abovestyle  = background-color: 
-| above       = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{Name|{{{name|}}}}}}|{{#if:{{{honorific_prefix|}}}|<span class="honorific-prefix" style="font-size:87%">{{{honorific_prefix|}}}</span><br />}}<span class="{{Infobox musical artist/hCard class|{{{Background|{{{background|}}}}}}}}">{{{Name|{{{name}}}}}}</span>{{#if:{{{honorific_suffix|}}}|<br /><span class="honorific-suffix" style="font-size:87%">{{{honorific_suffix|}}}</span>}} |<includeonly>{{BASEPAGENAME}}</includeonly>}}}}
-
+| above       =
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{Img|{{{image|}}}}}}|size={{#ifeq:{{lc:{{{Landscape|{{{landscape|}}}}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size|{{{image_size}}}}}}}}|300|{{{Img_size|{{{image_size}}}}}}}}}}x200px|{{{Img_size|{{{image_size|}}}}}}}}|sizedefault=frameless|upright=1|alt={{{Img_alt|{{{alt|}}}}}}|suppressplaceholder=yes}}
 | caption     = {{{Img_capt|{{{caption|}}}}}}
 
