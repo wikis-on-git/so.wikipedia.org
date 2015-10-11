@@ -1,0 +1,81 @@
+{{Infobox
+| child       = {{lc:{{{embed}}}}}
+
+| bodyclass   = vcard plainlist
+
+| title       = {{#ifeq:{{lc:{{{embed}}}}}|yes|'''Musical career'''}}
+| decat       = yes <!-- remove from template:infobox tracking categories -->
+
+| abovestyle  = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
+| above       = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{Name|{{{name|}}}}}}|{{#if:{{{honorific_prefix|}}}|<span class="honorific-prefix" style="font-size:87%">{{{honorific_prefix|}}}</span><br />}}<span class="{{Infobox musical artist/hCard class|{{{Background|{{{background|}}}}}}}}">{{{Name|{{{name}}}}}}</span>{{#if:{{{honorific_suffix|}}}|<br /><span class="honorific-suffix" style="font-size:87%">{{{honorific_suffix|}}}</span>}} |<includeonly>{{BASEPAGENAME}}</includeonly>}}}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{Img|{{{image|}}}}}}|size={{#ifeq:{{lc:{{{Landscape|{{{landscape|}}}}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size|{{{image_size}}}}}}}}|300|{{{Img_size|{{{image_size}}}}}}}}}}x200px|{{{Img_size|{{{image_size|}}}}}}}}|sizedefault=frameless|upright=1|alt={{{Img_alt|{{{alt|}}}}}}|suppressplaceholder=yes}}
+| caption     = {{{Img_capt|{{{caption|}}}}}}
+
+| headerstyle = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
+
+| header1     = {{#if:{{{Img|{{{image|}}}}}}|Background information}}
+
+| label2     = Magaca
+| data2      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+| class3      = nickname
+| label3      = Magaca dhalashada
+| data3       = {{{Birth_name|{{{birth_name|}}}}}}
+
+| class4      = nickname
+| label4      = {{Nowrap|Sidoo kale loo ya}}
+| data4       = {{{Alias|{{{alias|}}}}}}
+
+| label5     = Dhalasho
+| data5      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+| label6     = Asalka
+| data6      = {{{Origin|{{{origin|}}}}}}
+
+| label7     = Dhintey
+| data7      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+
+| label8     = Nooca Heesaha
+| data8      = {{{Genre|{{{genre|}}}}}}
+
+| class9     = role
+| label9     = {{#if:{{{Occupations|{{{occupations|}}}}}}|Occupations|Shaqada}}
+| data9      = {{#if:{{{Occupations|{{{occupations|}}}}}}|{{{Occupations|{{{occupations|}}}}}}|{{{Occupation|{{{occupation|}}}}}}}}
+
+| class10     = note
+| label10     = Qalabka
+| data10      = {{{Instrument|{{{instrument|}}}}}}
+
+| label11    = Sanadada
+| data11     = {{{Years_active|{{{years_active|{{{yearsactive|}}}}}}}}}
+
+| label12    = [[Record label|Labels]]
+| data12     = {{{Label|{{{label|}}}}}}
+
+| label13    = La Xidhiidha
+| data13     = {{{Associated_acts|{{{associated_acts|}}}}}}
+
+| label14    = Website
+| data14     = {{{website|{{{URL|{{{url|}}}}}}}}}
+
+| header15   = {{#if:{{{Current_members|{{{current_members|}}}}}}|<nowiki />}}
+
+| label16    = Xubnaha
+| data16     = {{{Current_members|{{{current_members|}}}}}}
+
+| header17   = {{#if:{{{Past_members|{{{past_members|}}}}}}|<nowiki />}}
+
+| label18    = Past members
+| data18     = {{{Past_members|{{{past_members|}}}}}}
+
+| header19   = {{#if:{{{Notable_instruments|{{{notable_instruments|}}}}}}|Notable instruments}}
+
+| class20    = note
+| data20     = {{{Notable_instruments|{{{notable_instruments|}}}}}}
+
+| data21     = {{{module|}}}
+| data22     = {{{module2|}}}
+| data23     = {{{module3|}}}
+
+}}<includeonly>{{ns0|[[Category:Articles with hCards]]{{Infobox musical artist/tracking|{{{Background|{{{background|}}}}}}}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}}}</includeonly><noinclude><!-- Please add metadata to the <includeonly> section at the bottom of the /doc subpage -->{{documentation}}</noinclude>
