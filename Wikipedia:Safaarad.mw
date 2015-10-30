@@ -625,3 +625,45 @@ Come read about the findings and next steps as WMF’s Community Resources team 
 
 With thanks, [[m:User:I JethroBT (WMF)|I JethroBT (WMF)]] 16:56, 28 Sebteembar 2015 (UTC)
 <!-- Message sent by User:I JethroBT (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Grants:IdeaLab/Reimagining_WMF_grants/ProjectTargets&oldid=13850666 -->
+
+== VisualEditor News #5—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''[[m:VisualEditor/Newsletter/2015/October|Read this in another language]]  •  [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=VisualEditor]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+You can use the visual editor on smartphones and tablets.<br><br>[[File:Switching edit modes to VisualEditor on Mobile web.png|alt=Screenshot showing the menu for switching from the wikitext editor to the visual editor|centre|frameless|230x230px]]<br>
+Click the pencil icon to open the editor for a page.  Inside that, use the gear menu in the upper right corner to "{{int:mobile-frontend-editor-switch-visual-editor}}".
+
+The editing button will remember which editing environment you used last time, and give you the same one next time.  The desktop site will be switching to a system similar to this one in the coming months.
+<br><br>You can read and help translate [[:mw:VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.
+</div></div>
+Since the last newsletter, the [[mw:VisualEditor|VisualEditor Team]] has fixed many bugs, added new features, and made some small design changes.  They post weekly status reports [[mw:VisualEditor/changelog|on mediawiki.org]]. Their workboard is available [[phab:project/board/483/|in Phabricator]].  Their [[mediawikiwiki:VisualEditor/Current_priorities|current priorities]] are improving support for languages like Japanese and Arabic, making it easier to edit on mobile devices, and providing rich-media tools for formulæ, charts, galleries and uploading.   
+=== Recent improvements ===
+'''Educational features:''' The first time ever you use the visual editor, it now draws your attention to the {{Int:visualeditor-annotationbutton-link-tooltip}} and {{Int:visualeditor-toolbar-cite-label}} tools.  When you click on the tools, it explains why you should use them. ([[Phab:T108620|T108620]]) Alongside this, the welcome message for new users has been simplified to make editing more welcoming. ([[Phab:T112354|T112354]])  More in-software educational features are planned.  
+
+'''Links:'''  It is now easier to understand when you are adding text to a link and when you are typing plain text next to it. ([[Phab:T74108|T74108]], [[Phab:T91285|T91285]])  The editor now fully supports ISBN, PMID or RFC numbers. ([[Phab:T109498|T109498]], [[Phab:T110347|T110347]], [[Phab:T63558|T63558]])  These  [[:en:Help:Magic_links|"magic links"]] use a custom link editing tool.  
+
+'''Uploads:'''  Registered editors can now '''upload images''' and other media to Commons while editing.  Click the new tab in the "{{int:visualeditor-toolbar-insert}} {{int:visualeditor-dialogbutton-media-tooltip}}" tool.  You will be guided through the process without having to leave your edit.  At the end, the image will be inserted. This tool is limited to one file at a time, owned by the user, and licensed under Commons's standard license.  For more complex situations, the tool links to more advanced upload tools.  You can also drag the image into the editor.  This will be available in the wikitext editor later. 
+
+'''Mobile:'''  Previously, the visual editor was available on the mobile Wikipedia site only on tablets. Now, editors can use it on all devices regardless of size if they wish. ([[Phab:T85630|T85630]])  Edit conflicts were previously broken on the mobile website. Edit conflicts can now be resolved in both wikitext and visual editors. ([[Phab:T111894|T111894]])  Sometimes templates and similar items could not be deleted on the mobile website.  Selecting them caused the on-screen keyboard to hide with some browsers.  Now there is a new "{{int:Visualeditor-contextitemwidget-label-remove}}" button, so that these things can be removed if the keyboard hides. ([[Phab:T62110|T62110]]) You can also edit table cells in mobile now.
+
+'''Rich editing tools:'''  You can now add and edit '''sheet''' '''music''' in the visual editor. ([[Phab:T112925|T112925]])  There are separate tabs for advanced options, such as MIDI and Ogg audio files. ([[Phab:T114227|T114227]], [[Phab:T113354|T113354]])  When editing '''formulæ''' and other blocks, errors are shown as you edit.  It is also possible to edit some types of '''graphs'''; adding new ones, and support for new types, will be coming. 
+
+On the '''English Wikipedia''', the visual editor is now automatically available to anyone who creates an account.  The preference switch was moved to the normal location, under [[Special:Preferences]].
+=== Future changes ===
+You will soon be able to '''switch from the wikitext to the visual editor''' after you start editing. ([[phab:T49779|T49779]]) Previously, you could only switch from the visual editor to the wikitext editor.  Bi-directional switching will make possible a '''single edit tab.''' ([[phab:T102398|T102398]]) This project will combine the "{{int:vector-view-edit}}" and "{{int:visualeditor-ca-editsource}}" tabs into a single "{{int:vector-view-edit}}" tab, similar to the system already used on the mobile website.  The "{{int:vector-view-edit}}" tab will open whichever editing environment you used last time.
+
+=== Let's work together ===
+* Share your ideas and ask questions at [[:mw:VisualEditor/Feedback|VisualEditor/Feedback]].  This feedback page uses [[mw:Flow|Flow]] for discussions.
+* <mark>Can you read and type in Korean or Japanese?</mark> Language engineer [[mw:User:DChan (WMF)|David Chan]] needs people who know which tools people use to type in some languages. If you speak Japanese or Korean, you can help him test support for these languages. Please see the instructions at [[mw:VisualEditor/IME Testing#What to test|What to test]] if you can help, and report it on Phabricator ([[phab:T110654|Korean]] - [[phab:T109818|Japanese]]) or on Wikipedia ([[:ko:위키백과:시각편집기/IME|Korean]] - [[:ja:Wikipedia:ビジュアルエディター/フィードバック/IME|Japanese]]).  
+* Local admins can [[mediawikiwiki:Citoid/Enabling_Citoid_on_your_wiki|set up the Citoid automatic reference feature for your wiki]].  If you need help, then please post a request in the [[phab:tag/citoid/|Citoid project on Phabricator]]. Include links to the [[:mw:Help:TemplateData|TemplateData]] for the most important citation templates on your wiki.
+* The weekly task triage meetings are open to volunteers.  Learn how to join the meetings and how to nominate bugs at [[:mw:VisualEditor/Weekly triage meetings|mw:VisualEditor/Weekly triage meetings]].  You do not need to attend the meeting to nominate a bug for consideration, though.  Instead, go to Phabricator and "associate" the main [[phab:project/profile/483/|VisualEditor project]] with the bug. 
+
+If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new  contact us] directly, so that we can notify you when the next issue is ready. Thank you!
+</div>—[[:mw:User:Elitre (WMF)|Elitre (WMF)]], 18:17, 30 Oktoobar 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=14334116 -->
