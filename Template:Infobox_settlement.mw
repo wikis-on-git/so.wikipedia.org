@@ -286,12 +286,12 @@
 </tr>
 }}{{#if:{{{founder|}}}|
 <tr class="mergedrow">
-<th>Founder</th>
+<th>Dadka Helay</th>
 <td>{{{founder}}}</td>
 </tr>
 }}{{#if:{{{named_for|}}}|
 <tr class="mergedrow">
-<th>[[Namesake|Named for]]</th>
+<th>Loogu Magac-daray</th>
 <td>{{{named_for}}}</td>
 </tr>
 }}<!-- ***Seat of government and subdivisions within the settlement*** -->{{#if:{{{seat|}}}|
@@ -316,12 +316,12 @@
 </tr>
 {{#if:{{{government_type|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Type</th>
+<th>&nbsp;•&nbsp;Nooca</th>
 <td>{{{government_type}}}</td>
 </tr>
 }}{{#if:{{{governing_body|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Body</th>
+<th>&nbsp;•&nbsp;Qaabka</th>
 <td class="agent">{{{governing_body}}}</td>
 </tr>
 }}{{#if:{{{leader_title|}}}|
@@ -371,7 +371,7 @@
 </tr>
 }}{{#if:{{{area_land_km2|}}}{{{area_land_ha|}}}{{{area_land_acre|}}}{{{area_land_sq_mi|}}}{{{area_land_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Land</th>
+<th>&nbsp;•&nbsp;Dhul</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_land_km2|}}}
    |ha   ={{{area_land_ha|}}}
@@ -385,7 +385,7 @@
 </tr>
 }}{{#if:{{{area_water_km2|}}}{{{area_water_ha|}}}{{{area_water_acre|}}}{{{area_water_sq_mi|}}}{{{area_water_dunam|}}}|
 <tr class="mergedrow">
-<th>&nbsp;•&nbsp;Water</th>
+<th>&nbsp;•&nbsp;Biyo</th>
 <td>{{infobox_settlement/areadisp
    |km2  ={{{area_water_km2|}}}
    |ha   ={{{area_water_ha|}}}
