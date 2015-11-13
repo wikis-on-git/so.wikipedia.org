@@ -1,0 +1,125 @@
+<includeonly>{{Infobox
+| bodystyle = {{{bodystyle|}}}
+| labelstyle = padding-right:0.6em;<!--(ensures at least 0.6em space between a label's end and its data)-->
+
+<!---------------------------Main heading ("above")---------------------------->
+| abovestyle =
+       padding:0.25em;
+    background:{{#switch:{{lc:{{{type|}}}}}
+                |abjad|[[abjad]]|consonantary|[[consonantary]]=palegreen
+                |alphabet|[[alphabet]]=lightblue   |abugida|[[abugida]]=navajowhite
+                |syllabary|[[syllabary]]=pink      |semisyllabary|[[semisyllabary]]=magenta
+                |manual|[[manual]]=paleturquoise   |pictographic|[[pictographic]]=palegoldenrod
+                |ideographic|[[ideographic]]=gold  |logographic|[[logographic]]|[[logosyllabic]]=mistyrose
+                |stenography|[[stenography]] |shorthand|[[shorthand]] =
+                  {{#switch:{{lc:{{{SHtype|}}}}}
+                   |abjadi|[[abjadi]]|consonantal|[[consonantal]]=palegreen
+                   |alphabetic|[[alphabetic]]=lightblue   |abugida|[[abugida]]=navajowhite
+                   |syllabic|[[syllabic]]=pink            |semisyllabic|[[semisyllabic]]=magenta
+                   |undeciphered=gainsboro                |alternative=khaki
+                   |#default=turquoise
+                  }}
+                |undeciphered=gainsboro   |alternative=khaki
+                |tactile=white;font-variant:small-caps
+                |#default=white
+               }};
+         color:{{#switch:{{lc:{{{SHform|}}}}}
+                |cursive|printed=#303030  |stenographic=#405000  |geometric=#005020
+                |semi-script|elliptical|script-geometric=#600000 |script=#500030
+                |#default=black
+               }};<!--
+    font-variant/style:
+            -->{{#switch:{{lc:{{{mode|}}}}}
+                |tactile=font-variant:small-caps
+                |stenographic|[[stenographic]]|shorthand|[[shorthand]]=font-style:italic
+                |manual=font-style:italic;font-variant:small-caps
+                |#default=
+               }};
+
+| above = {{{name|{{PAGENAME}}}}}<br />{{nobold|{{{altname|}}}}}
+<!----------------------------------------------------------------------------->
+
+| imagestyle = padding-top:0.4em;padding-bottom:0.4em;{{{imagestyle|}}}
+| image = {{#if:{{{sample|}}} |[[File:{{{sample}}}|{{#if:{{{imagesize|}}}|{{{imagesize}}}|310px}}]]}}
+| captionstyle = border-bottom:1px solid #aaa;<!--(to ensure caption and first line of info kept distinct)-->{{{captionstyle|}}}
+| caption = {{{caption|}}}
+
+| label1 = Nooca
+| data1 = {{#if:{{{SHline|}}}{{{SHform|}}}{{{SHtype|}}}{{{mode|}}}{{{type|}}}{{{typedesc|}}}
+           | {{longitem|line-height:1.25em
+              | {{#if:{{{SHline|}}}|{{{SHline|}}}-line|}} {{{SHform|}}} {{{SHtype|}}} {{{mode|}}} {{{type|}}} {{{typedesc|}}}
+          }} }}
+
+| label2 = Luuqad
+| data2 = {{{languages|}}}
+
+| label3 = Abuuray
+| data3 = {{{creator|}}}
+
+| label4 = Created
+| data4 = {{#if:{{{date|}}} |{{{date}}} }}
+
+| label5 = Daabacay
+| data5 = {{#if:{{{SHdates|}}}{{{published|}}}
+           | {{longitem|line-height:1.25em
+              |   {{#if:{{{SHdates|}}} |{{{SHdates}}}}} {{#if:{{{published|}}} |{{{published}}}}}
+          }} }}
+
+| label6 = {{longitem|Time period}}
+| data6 = {{{time|}}}
+
+| label7 = Astaan
+| data7 = {{{status|}}}
+
+| label8 = {{#if:{{{fam1|{{{family|}}}}}} |{{longitem|Parent systems}}}}
+| data8 = {{#if:{{{fam1|{{{family|}}}}}}
+           | <div style="padding-top:0.15em;line-height:100%;">{{{fam1|{{{family}}}}}}<!--
+ --><ul style="margin-left:1.8em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam2|}}}|{{{fam2}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam3|}}}|{{{fam3}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam4|}}}|{{{fam4}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam5|}}}|{{{fam5}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam6|}}}|{{{fam6}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam7|}}}|{{{fam7}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam8|}}}|{{{fam8}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam9|}}}|{{{fam9}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam10|}}}|{{{fam10}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam11|}}}|{{{fam11}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam12|}}}|{{{fam12}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam13|}}}|{{{fam13}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><li>{{#if:{{{fam14|}}}|{{{fam14}}}<!--
+ --><ul style="margin-left:0.9em;padding-left:0;line-height:100%;"><!--
+  --><li>{{#if:{{{fam15|}}} |{{{fam15}}} <ul style="margin-left:0.3em;padding-left:0;line-height:100%;"><li>{{{name}}}</li></ul> |{{{name}}} }}</li><!--
+ --></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul> |{{{name}}}}}</li></ul><!--
+--></div> }}
+
+| label9 = {{longitem|Print basis}}
+| data9 = {{{print|}}}
+
+| label10 = {{longitem|Child systems}}
+| data10 = {{{children|}}}
+
+| label11 = {{longitem|Sister systems}}
+| data11 = {{{sisters|}}}
+
+| label12 = [[ISO 15924]]
+| data12 = {{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}} |<code>{{ISO 15924 code|{{{iso15924|}}} }}, {{ISO 15924 number|{{{iso15924|}}} }}</code>}}<!--
+        -->{{#ifeq:{{BASEPAGENAME}}|Infobox writing system |<code>''iso15924''<code>}}<!--
+        -->{{#if:{{{iso15924 note|}}} |<code>{{{iso15924 note}}}</code>}}
+
+| label13 = Direction
+| data13 = {{#if:{{{iso15924|}}} |{{ISO 15924 direction|{{{iso15924|}}}|rtl=Right-to-left|ltr=Left-to-right|ttb=Top-to-bottom|default=|mixed=Mixed}}}}
+
+| label14 = {{longitem|Unicode alias}}
+| data14 = {{#if:{{{iso15924|}}} |{{ISO 15924 alias|{{{iso15924|}}}}}}}
+
+| label15 = {{longitem|[[Unicode range]]}}
+| data15 = {{{unicode|}}}
+
+| data16 = {{#if:{{{footnotes|}}} |<div style="border-top:1px solid #aaa;text-align:left;"><!--(newline needed:)-->
+{{{footnotes}}}</div>}}
+
+| belowclass = noprint selfref navbox-abovebelow
+| belowstyle = padding:0.3em 0.5em;text-align:left;line-height:1.3;
+| below = {{#ifeq:{{{note|}}}|none | |{{nowrap|'''This article contains [[International Phonetic Alphabet|IPA]] phonetic symbols.'''}} Without proper [[Help:Special characters|rendering support]], you may see [[Mojibake|question marks, boxes, or other symbols]] instead of [[Unicode]] characters.}}
+
+}}</includeonly><noinclude>{{Documentation}}</noinclude>
