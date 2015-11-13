@@ -101,7 +101,7 @@
 | label11 = {{longitem|Sister systems}}
 | data11 = {{{sisters|}}}
 
-| label12 = ISO 15924
+| label12 = [[ISO 15924]]
 | data12 = {{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}} |<code>{{ISO 15924 code|{{{iso15924|}}} }}, {{ISO 15924 number|{{{iso15924|}}} }}</code>}}<!--
         -->{{#ifeq:{{BASEPAGENAME}}|Infobox writing system |<code>''iso15924''<code>}}<!--
         -->{{#if:{{{iso15924 note|}}} |<code>{{{iso15924 note}}}</code>}}
@@ -120,6 +120,6 @@
 
 | belowclass = noprint selfref navbox-abovebelow
 | belowstyle = padding:0.3em 0.5em;text-align:left;line-height:1.3;
-| below = {{#ifeq:{{{note|}}}|none | |{{nowrap|'''Maqaalkan waxaa ku jira astaamo iyo calaamado caalami ah oo ku saabsan [[far]]ta iyo wax-qorista [[aduun]]ka.'''}} Hadii akhriska qoraalkan ama araga sawirada iyo astaamaha kugu adkaadaan waxaad u baahan tahay inaad isticmaasho aalad awood badan.}}
+| below = {{#ifeq:{{{note|}}}|none | |{{nowrap|'''This article contains [[International Phonetic Alphabet|IPA]] phonetic symbols.'''}} Without proper [[Help:Special characters|rendering support]], you may see [[Mojibake|question marks, boxes, or other symbols]] instead of [[Unicode]] characters.}}
 
 }}</includeonly><noinclude>{{Documentation}}</noinclude>
