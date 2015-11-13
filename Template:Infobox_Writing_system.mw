@@ -120,6 +120,6 @@
 
 | belowclass = noprint selfref navbox-abovebelow
 | belowstyle = padding:0.3em 0.5em;text-align:left;line-height:1.3;
-| below = {{#ifeq:{{{note|}}}|none | |{{nowrap|'''Maqaalkan waxaa ku jira astaamo iyo calaamado caalami ah oo ku saabsan [[far]]ta iyo waxqorista.'''}}}}
+| below = {{#ifeq:{{{note|}}}|none | |{{nowrap|'''Maqaalkan waxaa ku jira astaamo iyo calaamado ku saabsan [[This article contains [[International Phonetic Alphabet|IPA]] phonetic symbols.|waxqorista]].'''}}}}
 
 }}</includeonly><noinclude>{{Documentation}}</noinclude>
