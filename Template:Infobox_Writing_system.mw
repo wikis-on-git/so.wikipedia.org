@@ -101,7 +101,7 @@
 | label11 = {{longitem|Sister systems}}
 | data11 = {{{sisters|}}}
 
-| label12 = [[ISO 15924]]
+| label12 = ISO 15924
 | data12 = {{#if:{{ISO 15924 code|{{{iso15924|}}}|default=}} |<code>{{ISO 15924 code|{{{iso15924|}}} }}, {{ISO 15924 number|{{{iso15924|}}} }}</code>}}<!--
         -->{{#ifeq:{{BASEPAGENAME}}|Infobox writing system |<code>''iso15924''<code>}}<!--
         -->{{#if:{{{iso15924 note|}}} |<code>{{{iso15924 note}}}</code>}}
