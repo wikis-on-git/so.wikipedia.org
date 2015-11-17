@@ -1,0 +1,24 @@
+<noinclude>
+
+</noinclude>
+Tusmadaan waxaa loo adeegsadaa curinta qiime ka bilaabanaysa eber ilaa qiimo xadidan ee sare, gen Qiimaha ugu yar max 
+Habka adeegsiga:
+*Galin qasab ah : max 
+*Galin xulasho ah:gen, min, duration, extramax, skip
+*Sharaxaad galinta:
+#duration= Aminta kaydinta tiro kala daadsan sekeno.
+#gen = Curinta iskeed ah qiimaha ugu weyn ee toban la dul saaray tusaale tiro laba god ah "33" ka weyn labaatan la dul saaray waa "10^2" "toban la dul saaray laba" ama "100", iyo lambar ka kooban afar god "4567" ka weyn labaatan la dulsaaray waa "10^4" "labaatan la dul saaray afar" ama "10000", ama waxaa suuragal ah galinta si gacan ah.
+#max = qiimaha ugu weyn ee suurta galka in ay curiso, eeg waxaad awoodaa اadeegsiga erayo indho sarcaad ah sida <nowiki>{{Bogagga_kujira_Category:Maqaalada Xulka Ah}}</nowiki>.
+#extramax = qiime ku ciyaarista max, Ku darista ama ama ka dhimista qiime, tusaale ka dhimista qiime guud ee Category adeegsiga tuse qaybta.
+#min = Qiimaha ugu yar ee syyrtagal ah curinteeda .
+#skip = U bareerka lambar ka gududbaya tirinta marka la curinayo.
+#inc = Ku dhaqmista qiimaha kama dambaysta ah.
+==Tusaale==
+<nowiki>
+:Curinta tirooyin kala daadsan ee 10 qiimaha ugu yar  bogagga ku jira Category:Bogga Hore Xulka iyadoo lagu ilaalinayo in aysan dhaafin tirada 7 kaydinta lambarka muddo dhan 360 seken.
+:Sidaan baa loo qoraa: {{minmaxskipgen|max={{PAGESINCATEGORY:Maqaal Xul Ah Bogga Hore}}|extramax=-4|min=10|duration=360|skip=7}}
+</nowiki> Waxay ku siinaysaa :
+
+{{minmaxskipgen|max={{PAGESINCATEGORY:Maqaal Xul Ah Bogga Hore}}|extramax=-4|min=10|duration=360|skip=7}}
+
+<includeonly>[[Category:Template]]</includeonly>
