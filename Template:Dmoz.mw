@@ -1,0 +1,4 @@
+{{#switch: {{{3|}}}
+|#default=[https://www.dmoz.org/{{{1|{{PAGENAME}}}}} {{{2|{{PAGENAME}}}}}] at [[DMOZ]]
+|user=[https://www.dmoz.org/public/profile?editor={{{1}}} {{{2|{{PAGENAME}}}}}] at [[DMOZ]]}}{{#ifeq:{{NAMESPACENUMBER}}|0|[[Category:Articles with DMOZ links]]|}}<noinclude>
+{{Documentation}}</noinclude>
