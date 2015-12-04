@@ -1,0 +1,6 @@
+{{{{{|safesubst:}}}#if:{{{plain|}}}
+|[http://www.openstreetmap.org/browse/relation/{{{1}}} {{{2|View at OpenStreetMap}}}]
+|[[File:Openstreetmap logo.svg|16x16px|link=|alt=]] Xogta Juqraafiga la xiriirta ee [http://www.openstreetmap.org/browse/relation/{{{1}}} {{{2|{{PAGENAME}}}}}] ka {{#ifeq: {{{link}}} |no|OpenStreetMap|Fur khariidada wadada}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
