@@ -14,9 +14,9 @@ Show a rather more prominent notice when this template is used on the wrong kind
   | type  = content
   | image = [[Image:Emblem-important.svg|60px]]
   | text  = 
-'''It appears that this template ({{Tlx|Help me}}) is being used on a non-user talk page.  Please remove this instance of the template.'''
+'''Waxay u muuqataa in template-ka ({{Tlx|Caawin}}) aad ku isticmaalayso meel aan ahayn boga wadahadalka. Fadlan ka saar templatekan si qoraalku meesha uga baxo.'''
 
-This template is meant for use on [[Wikipedia:Talk page|talk pages]].  Your user talk page can be found [[Special:MyTalk|here]].  If you added this template, please remove this template and re-add it on [[Special:MyTalk|your user talk page]].  If you did not add this template, please remove it from this page.
+Template-kan waxaa loogu talogalay in lagu isticmaalo [[Wikipedia:Talk page|boga wadahalka]] oo kali ah.  Boga wadahalka adiga kuu gaarka ah [[Special:MyTalk|halkan]] ayaad ka heli kartaa.  Hadii templatekan caawin aad meel khaldan ku  qortay, fadlan ka saar halkaas oo geli [[Special:MyTalk|boga wadahadalkaaga]].  Hadii adigu aanad templatekan codsan, fadlan ka saar meesha si qoraalku u masaxmo. 
   }}
 
 | demospace = {{{demospace| <noinclude>talk</noinclude> }}}   <!--For testing. And fall-back to "talk" when on this template page.-->
