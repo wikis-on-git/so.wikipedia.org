@@ -1,0 +1,11 @@
+<includeonly>| style="padding:0 .3em; background-color:white;border:solid 2px #A3B1BF; border-bottom: 0; font-weight:bold;" width="20" | {{{1|Tab 1}}}
+| style="border-bottom:2px solid #A3B1BF" width="3" | &nbsp;</includeonly><noinclude>
+<br clear="all">
+==Usage==
+To create a set of tabs, use these four elements. Keep the page tabs in the same order on all pages and use "Tab1" for the current page.
+
+{{[[Wikipedia:Tutorial/TabsTop]]}}<br>
+{{[[Wikipedia:Tutorial/Tab1]]|Current page name}}<br>
+{{[[Wikipedia:Tutorial/Tab2]]|Other page name(s)}}<br>
+{{[[Wikipedia:Tutorial/TabsBottom]]}}
+</noinclude>
