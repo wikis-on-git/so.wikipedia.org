@@ -1,0 +1,28 @@
+<includeonly><center>
+[[file:{{{Image}}}|{{{size|300}}}x200px]]<br />
+{{#if:{{{rights|}}}|<small>rights: {{{rights}}}</small><br />}}
+{{{Image|{{{Image}}}}}}
+</center>
+
+{| class="noprint" width="100%"  border="0" style="padding: 0; margin: 0; background-color:transparent"
+|-
+|<div style="text-align:right;">
+{{#if:{{{Commonscat|}}}|[[file:Commons-logo.svg|15px]] '''[[commons:Category:{{{Commonscat|}}}|'''Sawiro kale ee ku jira commons...''']]'''}}</div>
+||
+<div style="text-align:left;margin-right:10px;margin-bottom:4px;">
+{{#if:{{{Kaydka|}}}|'''[[{{{Kaydka|}}}|...Kaydka sawirada]]'''}}
+</div >
+|}</includeonly><noinclude>
+
+== Dib u eegis==
+<pre>
+{{Design portal/Sawiro/Template
+  |Image=
+  |Commonscat=
+  |size=
+  |rights=
+  |text=
+}}
+</pre>
+
+</noinclude>
