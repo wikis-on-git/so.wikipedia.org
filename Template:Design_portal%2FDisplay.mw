@@ -1,0 +1,17 @@
+<includeonly>{{#ifexpr:{{Pagesincat|{{{Category|}}} }}<1
+|[[File:Farm-Fresh pencil add.png|32x32px]] [[{{{Prefix|}}}|{{{Category|Waxba kuma jiraan !! Wa ku kordhi}}}]]
+|{{{{{Prefix|}}}/{{rand2|1|{{Pagesincat|{{{Category|}}} }} }}}}
+}}</includeonly><noinclude>
+
+Tusmadaan waxay u shaqaysaa qaab ah soo bandhigid waxa ku jira hab kala firirsanaan ah ee qaybaha ku jira portalka. '''haadeegsan tusmadaan kaligeed'''.
+
+==Qaab adeegsiga==
+<pre>
+{{Design portal/Display
+|Prefix=
+|Category=
+|Comment=
+}}
+</pre>
+[[Category:Portal]]
+</noinclude>
