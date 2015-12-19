@@ -1,8 +1,8 @@
-<includeonly>{{#if:{{prune|{{{1|}}}}}
-|<h3><span style="float:left">{{bedel|Outrun={{{Outrun|}}} |{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}} }}</span> Sawiro {{{2|}}}</h3>
-{{#ifexist:{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}
-|{{{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}}}
-|{{bedel|{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}| iscubooneesiin  |Outrun={{{Outrun|}}}  }} 
+<includeonly>{{#if:{{Trim|{{{1|}}}}}
+|<h3><span style="float:left">{{bedel|Outrun={{{Outrun|}}} |{{Trim|{{{1|}}}}}/{{Trim|{{{2|}}}}} }}</span> Sawiro {{{2|}}}</h3>
+{{#ifexist:{{Trim|{{{1|}}}}}/{{Trim|{{{2|}}}}}
+|{{{{Trim|{{{1|}}}}}/{{Trim|{{{2|}}}}}}}
+|{{bedel|{{Trim|{{{1|}}}}}/{{Trim|{{{2|}}}}}| iscubooneesiin  |Outrun={{{Outrun|}}}  }} 
 }}
 ----
 }}</includeonly><noinclude>
