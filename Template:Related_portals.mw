@@ -1,3 +1,3 @@
-<includeonly>{{#calling:Portal|relatedPortal}}</includeonly><noinclude>
+<includeonly>{{#invoke:Portal|relatedPortal}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
