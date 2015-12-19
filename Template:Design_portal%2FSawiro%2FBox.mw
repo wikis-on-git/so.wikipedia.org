@@ -1,0 +1,10 @@
+<includeonly>{{#if:{{prune|{{{1|}}}}}
+|<h3><span style="float:left">{{bedel|Outrun={{{Outrun|}}} |{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}} }}</span> Sawiro {{{2|}}}</h3>
+{{#ifexist:{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}
+|{{{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}}}
+|{{bedel|{{prune|{{{1|}}}}}/{{prune|{{{2|}}}}}| iscubooneesiin  |Outrun={{{Outrun|}}}  }} 
+}}
+----
+}}</includeonly><noinclude>
+[[Category:Portal]]
+</noinclude>
