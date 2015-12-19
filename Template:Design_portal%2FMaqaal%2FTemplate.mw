@@ -1,9 +1,9 @@
-{{#if:{{{image|}}}|[[file:{{{image}}}|{{{size|200x200}}}px|left]]}}
+{{#if:{{{image|}}}|[[file:{{{image}}}|{{{size|200x200}}}px|right]]}}
 {{{text}}}
 {{-}}
 <div style="width: 100%; border-top: 1px dotted silver;">[[Portal:{{{action|{{BASEPAGENAME}} }}}|'''Xulal kale...''']]
 {{#if:{{{Maqaal|}}}
-|<span style="float:left">[[{{{Maqaal}}}|'''Dheeraad...''']]
+|<span style="float:rightt">[[{{{Maqaal}}}|'''Dheeraad...''']]
 }}</span></div><noinclude>
 
 [[Category:Portal {{{action|{{BASEPAGENAME}} }}}|*]]
