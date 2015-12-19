@@ -1,5 +1,5 @@
 <includeonly>{{#invoke:XForLoopDo|main
-|__call={{{Template|displa ifexist}}}
+|__call={{{Template|display ifexist}}}
 |__from={{{From|}}}
 |__to={{{To|}}}
 |{{#if:{{{Template|}}}|{{{1|}}}|{{{Link|}}}/$i}}
