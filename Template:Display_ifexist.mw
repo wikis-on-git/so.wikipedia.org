@@ -1,0 +1,15 @@
+<includeonly>
+{{#if:{{{Title|}}}
+|<h3>{{{Title|}}}</h3>
+}}
+{| width="100%"
+|-
+| valign=top width="80px"| {{T.Tusmo|{{{1|}}} }} 
+| width="90%"| {{#ifexist:{{{1|}}}<!--  
+                              -->| {{{{{1|}}}}}<!--  
+                              -->| {{bedel|{{include|{{{1|}}} }}| {{{2|}}} |Outrun={{include|{{{Outrun|}}} }} }}<!--  
+                              -->}} 
+|}</includeonly><noinclude>
+
+Tusmadaan waxay soo bandhigtaa waxa ku jira bogga haddiiba uu leeyahay link. waxuu waxtar uleeyahay bogagga ee soo bandhiga boggagga firirsan.
+</noinclude>
