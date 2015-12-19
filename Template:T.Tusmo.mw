@@ -1,4 +1,4 @@
-<includeonly>{{#if:{{{1|}}}|<span style="float:right; font-size: 80%;" class="plainlinks navbar">&nbsp;[[{{include|{{{1}}}}}|b]] - [[{{TALKPAGENAME:{{include|{{{1}}}}}}}|ن]] - [{{fullurl:{{include|{{{1}}}}}|action=edit}} T] &nbsp;</span>}}</includeonly><noinclude>
+<includeonly>{{#if:{{{1|}}}|<span style="float:right; font-size: 80%;" class="plainlinks navbar">&nbsp;[[{{include|{{{1}}}}}|b]] - [[{{TALKPAGENAME:{{include|{{{1}}}}}}}|w]] - [{{fullurl:{{include|{{{1}}}}}|action=edit}} T] &nbsp;</span>}}</includeonly><noinclude>
 
 Tusmadaan waxaa loogu talagalay linkiyada galidda bogga ee tusmo si fudud dhibyar marka loo eego {{tl|Tusmo}}.
 </noinclude>
