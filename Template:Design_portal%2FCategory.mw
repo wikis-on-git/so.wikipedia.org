@@ -1,7 +1,7 @@
 {{#ifexist:Category:{{{1}}}
 ||<h3 style="color:red">Aad buu muhim u yahay !!</h3>
 <center>{{Design portal/Button
-|Link={{server}}{{localurl:Category:{{{1}}}|action=edit&preload{{=}}Template:Design_portal/Category/Outrun}}
+|link={{server}}{{localurl:Category:{{{1}}}|action=edit&preload{{=}}Template:Design_portal/Category/Outrun}}
 |Cosboonaysiinta Category
 |Color=red
 }}</center>
