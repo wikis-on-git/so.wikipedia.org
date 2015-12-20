@@ -1,0 +1,9 @@
+<includeonly>{{{{{|safesubst:}}}#expr:(((({{{3|7}}}
+*{{{4|67}}}+{{{{{|safesubst:}}}#time:U}}) mod 10007
+*{{{4|67}}}+{{{{{|safesubst:}}}NUMBEROFARTICLES:R}}) mod 10007
+*{{{4|67}}}+{{{{{|safesubst:}}}NUMBEROFUSERS:R}}) mod 10007
+*{{{4|67}}}+{{{{{|safesubst:}}}NUMBEROFFILES:R}}) mod ({{{2|99}}}-{{{1|0}}}+1)
++{{{1|0}}}
+}}</includeonly><noinclude>
+[[Category:Template]]
+</noinclude>
