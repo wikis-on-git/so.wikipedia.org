@@ -4,10 +4,10 @@ Tirada qaybaha go'go'a maqaalada ee la tira koobay waa : '''{{Pagesincat|Portal 
 ==Maqaalada xulka ah==
 {{Design portal/Category|Portal {{PAGENAME}} }}
 {{Design portal/soo celcelin qayb
-|Title=Maqaal lambar <!-- Halkaan gali ciwaanka -->
-|From=1             <!-- Tirada ugu horaysa ee qaybta waxa liiska ku jira ayuu ku soo bandhigayaa bogga -->
-|To=5           <!-- Tiratada -->
-|Title link=Cusbooneysii maqaalka            <!-- halkaan ka bedel qoraalka linkiga  -->
+|title=Maqaal lambar <!-- Halkaan gali ciwaanka -->
+|from=1             <!-- Tirada ugu horaysa ee qaybta waxa liiska ku jira ayuu ku soo bandhigayaa bogga -->
+|to=5           <!-- Tiratada -->
+|title link=Cusbooneysii maqaalka            <!-- halkaan ka bedel qoraalka linkiga  -->
 
 |link=Portal:{{<inc<includeonly>lude</includeonly>only>subst:</inc<includeonly>lude</includeonly>only>PAGENAME}}
 |Outrun={{urlencode:Design_portal/Maqaal/Outrun}}
@@ -15,11 +15,11 @@ Tirada qaybaha go'go'a maqaalada ee la tira koobay waa : '''{{Pagesincat|Portal 
 </div><div style="float:left; width:20%">{{Design portal/Button
 |link={{server}}{{localurl:Portal:{{PAGENAME}}/{{#expr:1+{{Pagesincat|Portal {{<includeonly>subst:</includeonly>PAGENAME}}}}}}|action=edit&preload{{=}}Template:Design_portal/Maqaal/Outrun}}
 |Ku dar maqaal cusub
-|Color=red
+|color=red
 }}{{Design portal/Button
 |link={{fullurl:{{{page|{{FULLPAGENAME}}}}}|action=purge}}
 |Cusbooneysii
-|Color=blue
+|color=blue
 }}
 __NOTOC__ __NOEDITSECTION__
 </div>
@@ -28,9 +28,9 @@ __NOTOC__ __NOEDITSECTION__
  --><noinclude<includeonly></includeonly>><div style="visibility:hidden; display:none">
 </noinclude<includeonly></includeonly>>
 {{Design portal/Display
-|Prefix=Portal:{{<includeonly>subst:</includeonly>PAGENAME}}
-|Category=Portal {{<includeonly>subst:</includeonly>PAGENAME}}
-|Comment=Maleh maqaalo !! Ku qordhi maqaalo
+|prefix=Portal:{{<includeonly>subst:</includeonly>PAGENAME}}
+|category=Portal {{<includeonly>subst:</includeonly>PAGENAME}}
+|comment=Maleh maqaalo !! Ku qordhi maqaalo
 }}<!-- 
 
 --><noinclude<includeonly></includeonly>>
