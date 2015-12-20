@@ -1,3 +1,1 @@
-<includeonly>{{ {{{|safesubst:}}}#ifexpr:({{{2}}})=0|0|{{ {{{|safesubst:}}}#ifexpr:(({{{1}}})/({{{2}}}))=((({{{1}}})/({{{2}}}))round 0)|0|{{ {{{|safesubst:}}}#ifexpr:(({{{1}}})/({{{2}}}))>0 and(({{{1}}})/({{{2}}}))<1|{{ {{{|safesubst:}}}#expr:{{{1}}}}}|{{ {{{|safesubst:}}}#expr:({{{1}}})-((((({{{1}}})/({{{2}}}))-0.5)round 0)*({{{2}}}))}}}}}}}}</includeonly><noinclude>
-See documentation of [[:en:Template:Mod]]
-</noinclude>
+<includeonly>{{{{{subst|}}}#ifexpr:({{{2}}})=0|0|{{{{{subst|}}}#ifexpr:(({{{1}}})/({{{2}}}))=((({{{1}}})/({{{2}}}))round 0)|0|{{{{{subst|}}}#ifexpr:(({{{1}}})/({{{2}}}))>0 and(({{{1}}})/({{{2}}}))<1|{{{{{subst|}}}#expr:{{{1}}}}}|{{{{{subst|}}}#expr:({{{1}}})-((((({{{1}}})/({{{2}}}))-0.5)round 0)*({{{2}}}))}}}}}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
