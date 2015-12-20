@@ -1,6 +1,6 @@
 <includeonly>
-{{#if:{{{Title|}}}
-|<h3>{{{Title|}}}</h3>
+{{#if:{{{title|}}}
+|<h3>{{{title|}}}</h3>
 }}
 {| width="100%"
 |-
