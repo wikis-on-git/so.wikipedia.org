@@ -1,0 +1,38 @@
+<noinclude<includeonly></includeonly>>
+Tirada qaybaha go'go'a maqaalada ee la tira koobay waa : '''{{Pagesincat|Portal {{<includeonly>subst:</includeonly>PAGENAME}}}}'''.
+<div style="float:right; width:60%">
+==Maqaalada xulka ah==
+{{Design portal/Category|Portal {{PAGENAME}} }}
+{{Design portal/soo celcelin qayb
+|Title=Maqaal lambar <!-- Halkaan gali ciwaanka -->
+|From=1             <!-- Tirada ugu horaysa ee qaybta waxa liiska ku jira ayuu ku soo bandhigayaa bogga -->
+|To=5           <!-- Tiratada -->
+|Ciwaanka linkiga=Cusbooneysii maqaalka            <!-- halkaan ka bedel qoraalka linkiga  -->
+
+|link=Portal:{{<inc<includeonly>lude</includeonly>only>subst:</inc<includeonly>lude</includeonly>only>PAGENAME}}
+|Outrun={{urlencode:Design_portal/Maqaal/Outrun}}
+}}
+</div><div style="float:left; width:20%">{{Design portal/Button
+|link={{server}}{{localurl:Portal:{{PAGENAME}}/{{#expr:1+{{Pagesincat|Portal {{<includeonly>subst:</includeonly>PAGENAME}}}}}}|action=edit&preload{{=}}Template:Design_portal/Maqaal/Outrun}}
+|Ku dar maqaal cusub
+|Color=red
+}}{{Design portal/Button
+|link={{fullurl:{{{page|{{FULLPAGENAME}}}}}|action=purge}}
+|Cusbooneysii
+|Color=blue
+}}
+__NOTOC__ __NOEDITSECTION__
+</div>
+</noinc<includeonly>lude</includeonly>><!-- 
+
+ --><noinclude<includeonly></includeonly>><div style="visibility:hidden; display:none">
+</noinclude<includeonly></includeonly>>
+{{Design portal/Display
+|Prefix=Portal:{{<includeonly>subst:</includeonly>PAGENAME}}
+|Category=Portal {{<includeonly>subst:</includeonly>PAGENAME}}
+|Comment=Maleh maqaalo !! Ku qordhi maqaalo
+}}<!-- 
+
+--><noinclude<includeonly></includeonly>>
+</div>
+</noinclude<includeonly></includeonly>>
