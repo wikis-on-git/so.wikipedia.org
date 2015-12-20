@@ -1,9 +1,9 @@
 <includeonly>{{#invoke:XForLoopDo|main
 |__call={{{Template|display ifexist}}}
-|__from={{{From|}}}
-|__to={{{To|}}}
-|{{#if:{{{Template|}}}|{{{1|}}}|{{{Link|}}}/$i}}
-|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{Title link|Cusbooneeysiinta qaybta}}} }}
+|__from={{{from|}}}
+|__to={{{to|}}}
+|{{#if:{{{Template|}}}|{{{1|}}}|{{{link|}}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|Cusbooneeysiinta qaybta}}} }}
 |Outrun={{{Outrun|}}}
 |ural={{{ural|}}} $i
 |__sep={{{bar|}}}
