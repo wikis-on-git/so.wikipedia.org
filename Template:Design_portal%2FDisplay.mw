@@ -1,5 +1,5 @@
 <includeonly>{{#ifexpr:{{Pagesincat|{{{category|}}} }}<1
-|[[File:Farm-Fresh pencil add.png|32x32px]] [[{{{Prefix|}}}|{{{category|Waxba kuma jiraan !! Wax ku kordhi}}}]]
+|[[File:Farm-Fresh pencil add.png|32x32px]] [[{{{prefix|}}}|{{{category|Waxba kuma jiraan !! Wax ku kordhi}}}]]
 |{{{{{prefix|}}}/{{rand2|1|{{Pagesincat|{{{category|}}} }} }}}}
 }}</includeonly><noinclude>
 
