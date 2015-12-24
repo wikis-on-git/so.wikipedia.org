@@ -1,4 +1,4 @@
---[[Special:Contributions/41.78.72.11|41.78.72.11]] 12:20, 21 Luuliyo 2015 (UTC){{Help contents back}}
+{{Help contents back}}
 <!--Comment markup would be helpful in this table.   Displays:  Edit mode only -->
 <div align="center">
 {| style="border:1px solid #A3B1BF; text-align:left; background:#f5faff"
@@ -7,7 +7,7 @@
 | style="background: #cee0f2; padding: 0.3em; text-align:center;"|'''Waxaad qoreysid'''	
 | width="25%" style="background: #cee0f2; padding: 0.3em; text-align:center;"|'''Waxaad heleysid'''
 |-
-| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Applies anywhere
+| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Midani waxaad ku samayn kartaa dhamaan qoraalada Soomaali Wikipedia
 |-
 |Qoraal qaloocan
 |
@@ -25,38 +25,38 @@
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|Bold and italic
+|Qoraal jaamud iyo qalooc
 |
-<tt><nowiki>'''''bold & italic'''''</nowiki></tt>
+<tt><nowiki>'''''jaamud & qalooc'''''</nowiki></tt>
 |
-'''''bold & italic'''''
+'''''jaamud & qalooc'''''
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|Internal link<br />
-(within Wikipedia)
+|Bogag iskuxidhka<br />
+(Wikipedia dhexdiisa)
 |
-<tt><nowiki>[[name of page]]</nowiki></tt><br />
-<tt><nowiki>[[name of page|display text]]</nowiki></tt><br />
+<tt><nowiki>[[magaca boga]]</nowiki></tt><br />
+<tt><nowiki>[[magaca boga|qoraalka muuqanaya]]</nowiki></tt><br />
 |
-[[name of page]]<br />
-[[name of page|display text]]<br />
+[[magaca boga]]<br />
+[[magaca boga|qoraalka muuqanaya]]<br />
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|Redirect to another page
+|Iskuwareeji bogag
 |
-<tt><nowiki>#redirect [[Target page]]</nowiki></tt>
+<tt><nowiki>#redirect [[boga aad la rabto]]</nowiki></tt>
 |
-1. redirect [[Target page]]
+1. redirect [[boga aad la rabto]]
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|External link<br />
-(to other websites)
+|Isku xidhka banaanka<br />
+(websiteyo kale)
 |
 <tt><nowiki>[http://www.example.com]</nowiki></tt><br />
-<tt><nowiki>[http://www.example.com display text]</nowiki></tt><br />
+<tt><nowiki>[http://www.example.com qoraalka muuqanaya]</nowiki></tt><br />
 <tt><nowiki>http://www.example.com</nowiki></tt>
 |
 [http://www.example.com]<br />
