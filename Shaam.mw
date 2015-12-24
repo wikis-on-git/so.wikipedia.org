@@ -1,43 +1,23 @@
-<div style="float: left; margin: 0px 1em 0em 0px; width: 25em; text-align: left; font-size: 0.86em; line-height: normal; min-height: 1175px;" class="">
-<div style="border: 1px solid #ccd2d9; background: #f0f6fa; text-align: right; padding: 0.5em 1em; text-align: center;">
-<big>'''dhulka shaam<br>
-suuriya, suuriyada cusub'''</big>
-<div style="text-align: center;">
-[[File:The_Levant-ar.png|frameless]] meesga guduudan dhulka ku aadan waa inta shaam loo yaqaanay
-</div>
-s
-{| cellpadding="0" cellspacing="0" style="text-align: right; table-layout: auto; border-collapse: collapse; padding: 0px; font-size: 100%; margin-bottom: 10px; background: none;"
-! style="border-top: solid 1px #ccd2d9; padding: .4em 1em .4em 0; vertical-align: top; text-align: right;" |baaxada guud
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" |314,922 كم² (121,592 ميل²)
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" |tirada dadka
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" | 47,129,325 qof<br>
-<br>
-حوالي 150 qof/كم²
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" | wadamada matala shaam
+{{Infobox
+| bodyclass = geography
+| above =<big>Shaam</big>
+| image = [[File:Levant (orthographic projection).png|250px|Levant]]
+| captionstyle = text-align:left
+| caption1 = {{legend|#C6DEBD|Wadano horay uga tirsanaan jiray Shaam taariikh ahaan, laakiin maanta ah dowlado ama deegaano ka madax banaan.}}<ref name=OEAGR>[https://books.google.com/books?id=lNV6-HsUppsC&pg=RA3-PA247 The Oxford Encyclopedia of Ancient Greece and Rome, Volume 1, p247, "Levant"]</ref><ref name="Microsoft Encarta 2009 Levant">Microsoft Encarta (2009) "Levant"</ref><ref name="Oxford Dictionaries Online 2015">Oxford Dictionaries Online. "Levant". Oxford University Press. Retrieved 4 April 2015.</ref><br> {{legend|#336733|Wadano ka tirsanaan jiray Shaam horaantii qarnigii 20aad laakiin markii dambe ka go'ay (kuwaasi waxaa ka mid ah [[Suuriya]] iyo [[Falastiin]])}}<ref name=OEAGR />
+<br>{{legend|#73CD73|Wadanada iyo deegaanada qaar taariikh yahanku maanta ku xisaabshaan deegaanada Shaamtii hore}}
 
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" |wadamo kale oo gobolo u leh
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" | .
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" |qaybaha qowmiyadaha
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" |badanku wa carab
-|carab, yuhuud, dad caraboobay, safardi masraaxi.ashkinsi israil, turkuman, arman, kurdi, samiri
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" |luuqadaha
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" |carabi armani cibri saryani, kurdi turki rturkuman
-|-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" | xili gooreedka
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top;" | UTC+03:00
-|-
-
-! style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; vertical-align: top; text-align: right;" |furaha taleefan 
-
-| اtaleefan(lubnan)961 ، (urdun)962 ، (suuriya)963 ، (falastiin )970 ، (israel)972  <br>
-internet: .lb ،.sy ،.jo ،.il ،.ps  
-|}
-</div></div>Shaam ''afcarabi:'' '''الشام'''  ''ingiriis'' : The '''Levant''' ama suuriyadii hore waa magac taariikhi ah oo loo yaqaanay wadama bariga iyo woqooyiga dhulka jasiirada carabta wuxuu dherersanyahay xeebta bari ee jasiirada carabta ilaa bada cad gudaha waxaa ku jira labad wabi ee dajla iyo furaat, waxay kulansataa maanta wadamada loo kala yaqaan : [[suuriya]], [[lubnaan]], [[urdun]], [[falastiin]], iyo dhulka laga sameeyay [[israaiil]], dagaalkii [[1948]] iyo dhulal yar oo kala raacsan [[sucuudiga]] iyo qaybo yaroo ka kala  mida [[turkiga]], siinay, gobolka ciraq ku yaal ee muusil, dadka qayb baa qabta inay jasiirada [[qubrus]]<nowiki/>na, jasiirada[[ siinaay]] iyo [[ciraaq]] oo dhan ay ka wada mid yihiin.
+| label1  = Wadanada iyo deegaanada
+| data1   = Sybrus<br>[[Israaiil]]<br>[[Jordan]]<br>[[Lubnaan]]<br>[[Falastiin]]<br>{{flag|Syria}}<br>{{flag|Turkey}}<br> ([[Hatay Province]])
+| label2  = Population
+| data2   = 44,550,926<ref>Population found by adding all the countries' populations (Cyprus, Israel, Jordan, Lebanon, Syria, Palestine and Hatay Province)</ref>
+| label3  = Demonym
+| data3  = [[Levantine]]
+| label4  = Languages
+| data4   = [[Levantine Arabic]], [[Hebrew language|Hebrew]], [[Neo-Aramaic languages|Aramaic<!-- "Aramaic" covers all the dialects of Aramaic which are spoken in the region. -->]], [[Armenian language|Armenian]], [[Circassian language|Circassian]], [[Greek language|Greek]], [[Kurdish language|Kurdish]], [[Ladino language|Ladino]], [[Turkish language|Turkish]]
+| label5  = Time Zones
+| data5   = [[UTC+02:00]] ([[Eastern European Time|EET]]) ([[Turkey]] and [[Cyprus]])
+}}
+Shaam ''afcarabi:'' '''الشام'''  ''ingiriis'' : The '''Levant''' ama suuriyadii hore waa magac taariikhi ah oo loo yaqaanay wadama bariga iyo woqooyiga dhulka jasiirada carabta wuxuu dherersanyahay xeebta bari ee jasiirada carabta ilaa bada cad gudaha waxaa ku jira labad wabi ee dajla iyo furaat, waxay kulansataa maanta wadamada loo kala yaqaan : [[suuriya]], [[lubnaan]], [[urdun]], [[falastiin]], iyo dhulka laga sameeyay [[israaiil]], dagaalkii [[1948]] iyo dhulal yar oo kala raacsan [[sucuudiga]] iyo qaybo yaroo ka kala  mida [[turkiga]], siinay, gobolka ciraq ku yaal ee muusil, dadka qayb baa qabta inay jasiirada [[qubrus]]<nowiki/>na, jasiirada[[ siinaay]] iyo [[ciraaq]] oo dhan ay ka wada mid yihiin.
 
 == Xadka shaam ==
 ku darsowa
