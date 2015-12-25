@@ -28,3 +28,44 @@ Thanks and Happy nearly Wikipedia 15!<br />
 ''Posted by the [[m:User:MediaWiki message delivery|MediaWiki message delivery]], 20:59, 18 Diseembar 2015 (UTC) • [[m:Wikipedia 15/MassMessages/Get involved|{{int:please-translate}}]] • [[m:Talk:Wikipedia 15|{{int:help}}]]
 </div>
 <!-- Message sent by User:GVarnum-WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=15158198 -->
+
+== VisualEditor News #6—2015 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<div style="margin:0.5em;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}border:1px solid #AAA;padding:0.5em;">
+[[File:VisualEditor-logo.svg|200x70px|center|alt=The visual editor]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+A new, simpler system for editing will offer a single Edit button.  Once the page has opened, you can switch back and forth between visual and wikitext editing.      
+
+[[File:VisualEditor single edit tab preference dialog.png|alt=Screenshot showing a pop-up dialog for switching from the wikitext editor to the visual editor|centre|frameless|230x230px]]<br>
+
+If you prefer having separate edit buttons, then you can set that option in your preferences, either in a pop-up dialog the next time you open the visual editor, or by going to [[Special:Preferences]] and choosing the setting that you want: <br><br>[[File:VisualEditor single edit tab in preferences 2015-12-18.png|alt=Screenshot showing a drop-down menu in Special:Preferences|centre|frameless|230x230px]]
+
+The current plan is for the default setting to have the Edit button open the editing environment you used most recently. <br><br>You can read and help translate [[:mw:VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.
+</div></div>
+''[[m:VisualEditor/Newsletter/2015/December|Read this in another language]]  •  [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+Since the last newsletter, the [[mw:VisualEditor|visual editor team]] has fixed many bugs and expanded the mathematics formula tool.  Their workboard is available [[phab:project/board/483/|in Phabricator]].  Their [[mediawikiwiki:VisualEditor/Current_priorities|current priorities]] are improving support for languages such as Japanese and Arabic, and providing rich-media tools for formulæ, charts, galleries and uploading.   
+
+=== Recent improvements ===
+You can '''switch from the wikitext editor to the visual editor''' after you start editing.    
+The '''LaTeX mathematics formula editor''' has been significantly expanded. ([[phab:T118616|T118616)]] You can see the formula as you change the LaTeX code.  You can click buttons to insert the correct LaTeX code for many symbols.  
+=== Future changes ===
+The '''single edit tab''' project will combine the "{{int:vector-view-edit}}" and "{{int:visualeditor-ca-editsource}}" tabs into a single "{{int:vector-view-edit}}" tab, like the system already used on the mobile website.  ([[phab:T102398|T102398]], [[phab:T58337|T58337]])  Initially, the "{{int:vector-view-edit}}" tab will open whichever editing environment you used last time.  Your last editing choice will be stored as a cookie for logged-out users and as an account preference for logged-in editors.  Logged-in editors will be able to set a default editor in the {{int:prefs-editing}} tab of [[Special:Preferences]] in the drop-down menu about "{{int:visualeditor-preference-tabs}}".   
+
+The visual editor will be offered to all editors at the following Wikipedias in early 2016:  [[w:am:|Amharic]], [[w:bug:|Buginese]], [[w:cdo:|Min Dong]], [[w:cr:|Cree]], [[w:gv:|Manx]], [[w:hak:|Hakka]], [[w:hy:|Armenian]], [[w:ka:|Georgian]], [[w:pnt:|Pontic]], [[w:sh:|Serbo-Croatian]], [[w:ti:|Tigrinya]], [[w:xmf:|Mingrelian]], [[w:za:|Zhuang]], and [[w:zh-min-nan:|Min Nan]]. ([[phab:T116523|T116523]]) Please post your comments and the language(s) that you tested at [[:mw:Topic:St8y4ni42d0vr9cv|the feedback thread on mediawiki.org]].  The developers would like to know how well it works.  Please tell them what kind of computer, web browser, and keyboard you are using.  
+
+In 2016, the '''feedback pages''' for the visual editor on many Wikipedias will be redirected to mediawiki.org. ([[phab:T92661|T92661]])
+
+=== Testing opportunities ===
+* Please try the new system for the '''single edit tab''' on [https://test2.wikipedia.org test2.wikipedia.org].  You can edit while logged out to see how it works for logged-out editors, or you can create a separate account to be able to set your account's preferences.  <mark>Please share your thoughts about the single edit tab system at [[mediawikiwiki:Topic:Suspcq0bf5nd3gsd|the feedback topic on mediawiki.org]] or [https://jfe.qualtrics.com/form/SV_6R04ammTX8uoJFP sign up for formal user research]</mark> (type "single edit tab" in the question about other areas you're interested in).  The new system has not been finalized, and your feedback can affect the outcome.  The team particularly wants your thoughts about the options in Special:Preferences. The current choices in Special:Preferences are:
+** {{int:visualeditor-preference-tabs-remember-last}},
+** {{int:visualeditor-preference-tabs-prefer-ve}}, 
+** {{int:visualeditor-preference-tabs-prefer-wt}}, and 
+** {{int:visualeditor-preference-tabs-multi-tab}}.  (This is the current state for people already using the visual editor.  None of these options will be visible if you have disabled the visual editor in your preferences at that wiki.)  
+* <mark>Can you read and type in Korean or Japanese?</mark> Language engineer [[mw:User:DChan (WMF)|David Chan]] needs people who know which tools people use to type in some languages. If you speak Japanese or Korean, you can help him test support for these languages. Please see the instructions at [[mw:VisualEditor/IME Testing#What to test|What to test]] if you can help, and report it on Phabricator ([[phab:T110654|Korean]] - [[phab:T109818|Japanese]]) or on Wikipedia ([[:ko:위키백과:시각편집기/IME|Korean]] - [[:ja:Wikipedia:ビジュアルエディター/フィードバック/IME|Japanese]]).  
+If you aren't reading this in your favorite language, then please help us with translations!  Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new  contact us] directly, so that we can notify you when the next issue is ready. {{int:Feedback-thanks-title}}
+</div> [[:mw:User:Elitre (WMF)|Elitre (WMF)]], 00:06, 25 Diseembar 2015 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=15165847 -->
