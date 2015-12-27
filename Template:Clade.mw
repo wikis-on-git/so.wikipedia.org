@@ -1,0 +1,121 @@
+{| cellspacing=0 cellpadding=0 border=0 style="{{{style|}}}"
+| style="width: 1.5em; border-bottom: {{{thickness|1}}}px {{{state1|solid}}} black; border-left: 0; border-top: 0; border-right: 0; padding: 0 0.2em; vertical-align: bottom; text-align: center;" | {{#if:{{{label1|}}}|<span class="nowrap">{{{label1}}}</span>|{{sp}}<br/>}} || rowspan=2 style="border: 0; padding: 0;" |
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{1|d}}}}} | { |  | &nbsp; }} -->{{{1}}}
+|-
+{{#if:{{{2|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state2|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label2|}}}|<span class="nowrap">{{{label2}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{2}}}}} | { |  | &nbsp; }} -->{{{2}}}
+{{!}}-
+}}
+{{#if:{{{3|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state3|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label3|}}}|<span class="nowrap">{{{label3}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{3}}}}} | { |  | &nbsp; }} -->{{{3}}}
+{{!}}-
+}}
+{{#if:{{{4|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state4|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label4|}}}|<span class="nowrap">{{{label4}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{4}}}}} | { |  | &nbsp; }} -->{{{4}}}
+{{!}}-
+}}
+{{#if:{{{5|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state5|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label5|}}}|<span class="nowrap">{{{label5}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{5}}}}} | { |  | &nbsp; }} -->{{{5}}}
+{{!}}-
+}}
+{{#if:{{{6|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state6|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label6|}}}|<span class="nowrap">{{{label6}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{6}}}}} | { |  | &nbsp; }} -->{{{6}}}
+{{!}}-
+}}
+{{#if:{{{7|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state7|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label7|}}}|<span class="nowrap">{{{label7}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{7}}}}} | { |  | &nbsp; }} -->{{{7}}}
+{{!}}-
+}}
+{{#if:{{{8|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state8|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label8|}}}|<span class="nowrap">{{{label8}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{8}}}}} | { |  | &nbsp; }} -->{{{8}}}
+{{!}}-
+}}
+{{#if:{{{9|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state9|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label9|}}}|<span class="nowrap">{{{label9}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{9}}}}} | { |  | &nbsp; }} -->{{{9}}}
+{{!}}-
+}}
+{{#if:{{{10|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state10|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label10|}}}|<span class="nowrap">{{{label10}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{10}}}}} | { |  | &nbsp; }} -->{{{10}}}
+{{!}}-
+}}
+{{#if:{{{11|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state11|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label11|}}}|<span class="nowrap">{{{label11}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{11}}}}} | { |  | &nbsp; }} -->{{{11}}}
+{{!}}-
+}}
+{{#if:{{{12|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state12|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label12|}}}|<span class="nowrap">{{{label12}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{12}}}}} | { |  | &nbsp; }} -->{{{12}}}
+{{!}}-
+}}
+{{#if:{{{13|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state13|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label13|}}}|<span class="nowrap">{{{label13}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{13}}}}} | { |  | &nbsp; }} -->{{{13}}}
+{{!}}-
+}}
+{{#if:{{{14|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state14|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label14|}}}|<span class="nowrap">{{{label14}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{14}}}}} | { |  | &nbsp; }} -->{{{14}}}
+{{!}}-
+}}
+{{#if:{{{15|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state15|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label15|}}}|<span class="nowrap">{{{label15}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{15}}}}} | { |  | &nbsp; }} -->{{{15}}}
+{{!}}-
+}}
+{{#if:{{{16|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state16|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label16|}}}|<span class="nowrap">{{{label16}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{16}}}}} | { |  | &nbsp; }} -->{{{16}}}
+{{!}}-
+}}
+{{#if:{{{17|}}}|
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: 0; vertical-align: top;" {{!}} <br/>
+{{!}}-
+{{!}} style="border-left: {{{thickness|1}}}px solid black; border-top: 0; border-right: 0; border-bottom: {{{thickness|1}}}px {{{state17|solid}}} black; padding: 0 0.2em; vertical-align: bottom; text-align: center;" {{!}} {{#if:{{{label17|}}}|<span class="nowrap">{{{label17}}}</span>|{{sp}}<br/>}} {{!}}{{!}} rowspan=2 style="border: 0; padding: 0;" {{!}}
+<!-- Put a non-breaking space before the node value, except if it is a table. So no space if the value is one of the templates clade, cladex. --><!-- {{#ifeq: {{padleft:|1|{{{17}}}}} | { |  | &nbsp; }} -->{{{17}}}
+{{!}}-
+}}
+| style="border: 0; padding: 0; vertical-align: top;" | <br/>
+|}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>
