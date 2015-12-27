@@ -1,0 +1,15 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|s={{{s|}}}|r={{{r}}}
+|u=km/s
+|n=kilomet{{{r}}} sikinkiiba
+|h=kilomet{{{r}}}-sikin-kiiba
+|l=kilomet{{{r}}}s skin kiibs
+|t=metre sikin kiiba
+|o=mi/s
+|b=1000
+|j=3-{{{j|0}}}}}<noinclude>
+{{doc|content=
+== Usage ==
+{{tlx|convert|1|km/s|lk{{=}}on}} → {{convert|1|km/s|lk=on}}
+[[Category:Subtemplates of Template Convert]]
+}}
+</noinclude>
