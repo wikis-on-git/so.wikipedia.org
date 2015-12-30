@@ -1,4 +1,4 @@
-<includeonly>{{#expr:(floor({{{1}}}+1.0/120.0)) mod 360}}°{{padleft:{{#expr:(({{{1}}}-trunc({{{1}}}))*60 round 0) mod 60}}|2|0}}′</includeonly><noinclude>
+<includeonly>{{#expr:(floor({{{1}}}+1.0/120.0)) mod 360}}°{{padright:{{#expr:(({{{1}}}-trunc({{{1}}}))*60 round 0) mod 60}}|2|0}}′</includeonly><noinclude>
 Template to convert positive decimal degrees to degrees and minutes, rounded to 0 decimal places
 [[Category:Coord template]][[sl:Predloga:Koord/dec2dms/dm]]
 </noinclude>
