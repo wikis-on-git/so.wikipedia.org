@@ -1,0 +1,39 @@
+{{Infobox
+|above    = Luuqadaha {{{country}}}
+|abovestyle   = background-color:#efefef;
+
+|image    = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|300px}}}}}
+|caption  = {{{caption|}}}
+
+|label1   = Luuqada rasmiga
+|data1    = {{{official|}}}
+|label2   = Luuqadaha kale
+|data2    = {{{semi-official|}}}
+|label3   = Luuqada qaranka
+|data3    = {{{national|}}}
+|label4   = Luuqado aan dowli ahayn
+|data4    = {{{unofficial|}}}
+|label5   = Kuwa ugu muhiimsan
+|data5    = {{{main|}}}
+|label6   = Luuqado tafiir go'ay
+|data6    = {{{indigenous|}}}
+|label7   = Luuqada gobolka
+|data7    = {{{regional|}}}
+|label8   = [[Vernacular]]s
+|data8    = {{{vernacular|}}}
+|label9   = [[Minority language]]s
+|data9    = {{{minority|}}}
+|label10  = Main [[immigrant language]]s
+|data10   = {{{immigrant|}}}
+|label11  = Main [[foreign language]]s
+|data11   = {{{foreign|}}}
+|label12  = [[Sign language]]s
+|data12   = {{{sign|}}}
+|label13  = Common [[keyboard layout]]s
+|data13   = {{#if:{{{keyboard|}}}|<center>{{{keyboard}}}<br/>{{#if:{{{keyboard image|}}}|{{{keyboard image}}}}}</center>}}
+|label14  = Source
+|data14   = {{{source|}}}
+|label15  = {{{extralabel|}}}
+|data15   = {{{extra|}}}
+}}<noinclude>
+{{Documentation}}</noinclude>
