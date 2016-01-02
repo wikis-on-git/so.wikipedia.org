@@ -1,0 +1,46 @@
+{{tmbox
+  |image=[[File:Círculos Concéntricos.svg|40px|Maqaalo muhiim ah]]
+ |text='''{{PAGENAME}}''' waxaa lagu daray liiska [[:en:Wikipedia:Vital articles{{#switch:{{{level|}}}|1=/Level/1|2=/Level/2|4=/Expanded{{#switch:{{ucfirst:{{{topic}}}}}
+|People=/People
+|History=/History
+|Geography=/Geography
+|Art=/Arts
+|Mathematics=/Mathematics
+|Philosophy=/Philosophy and religion
+|Society|Language=/Society and social sciences
+|Technology=/Technology
+|Life=/Everyday life
+|Science={{#switch:{{ucfirst:{{{subpage}}}}}|Physics=/Physical sciences|Biology=/Biology and health sciences}}
+}}}}|heerka-{{#if:{{{level|}}}|{{{level}}}|aan la aqoon}} '''''maqaal muhim ah''''']] ee {{#if:{{{topic|}}}|{{{topic}}}|mowduuc aan la aqoon}}. Haddii aad hagaajin karto, [[:en:Wikipedia:Be bold|fadlan samee]]. Maqaalkaan waxaa lagu daray {{#if:{{{class|}}}|{{{class}}}|koox}}-aan qaabsanayn.
+}}{{category handler
+ |talk=[[Category:All Wikipedia vital articles]][[Category:All Wikipedia level-{{#if:{{{level|}}}
+  |{{{level}}}
+  |unknown
+ }} vital articles]][[Category:All Wikipedia vital articles in {{#if:{{{topic|}}}
+  |{{ucfirst:{{{topic}}}}}
+  |an unknown topic
+ }}]][[Category:All Wikipedia {{#if:{{{class|}}}
+  |{{ucfirst:{{{class}}}}}
+  |unassessed
+ }}-Class vital articles]][[Category:Wikipedia level-{{#if:{{{level|}}}
+  |{{{level}}}
+  |unknown
+ }} vital articles in {{#if:{{{topic|}}}
+  |{{ucfirst:{{{topic}}}}}
+  |an unknown topic
+ }}]][[Category:Wikipedia {{#if:{{{class|}}}
+  |{{ucfirst:{{{class}}}}}
+  |unassessed
+ }}-Class vital articles in {{#if:{{{topic|}}}
+  |{{ucfirst:{{{topic}}}}}
+  |an unknown topic
+ }}]][[Category:Wikipedia {{#if:{{{class|}}}
+  |{{ucfirst:{{{class}}}}}
+  |unassessed
+ }}-Class level-{{#if:{{{level|}}}
+  |{{{level}}}
+  |unknown
+ }} vital articles]]
+}}<noinclude>
+{{Documentation}}
+</noinclude>
