@@ -1,0 +1,5 @@
+{{tmbox
+|small = {{{small|}}}
+|image=[[File:Nuvola apps kedit.svg|{{#ifeq:{{{small|}}}|yes|20px|40px}}|dib u eegis]]
+|text='''{{PAGENAME}}''' helista [[:en:Wikipedia:Peer review|dib u eegista]] tifaftirayasha wikipedia, taas oo ah mid hadda la '''[[{{#if:{{{archivelink|}}}|{{{archivelink}}}|en:Wikipedia:Peer review/{{{1|{{PAGENAME}}}}}{{#if:{{{archive|}}}|/archive{{{archive}}}}}}}|kaydiyay]]'''.&nbsp;&nbsp;Waxaa ku jiri kara fikrado aad isticmaali karto si loo horumariyo qodobkan.
+}}<includeonly>[[Category:Dib u eegis|{{PAGENAME}}]]{{#if:{{{1|}}}{{{archivelink|}}}|[[Category:Dib u eegis]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
