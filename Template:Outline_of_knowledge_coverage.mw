@@ -1,0 +1,26 @@
+{{tmbox
+ |image = 
+ |small = {{{small|}}}
+ |text = Mowduucaan waxaa lagu soo wariyay in uu ku jiro <!--
+-->{{#if:<!--
+ -->{{#ifexist:Outline of {{{1|{{SUBJECTPAGENAME}}}}}|yes|}}<!--
+ -->{{#ifexist:Outline of the {{{1|{{SUBJECTPAGENAME}}}}}|yes|}}<!--
+ -->{{#ifexist:Topic outline of {{{1|{{SUBJECTPAGENAME}}}}}|yes|}}<!--
+ -->{{#ifexist:Topic outline of the {{{1|{{SUBJECTPAGENAME}}}}}|yes|}}<!--
+  -->|{{#ifexist:Outline of {{{1|{{SUBJECTPAGENAME}}}}}
+        |'''[[Outline of {{{1|{{SUBJECTPAGENAME}}}}}]]'''
+        |{{#ifexist:Topic outline of {{{1|{{SUBJECTPAGENAME}}}}}
+           |'''[[Topic outline of {{{1|{{SUBJECTPAGENAME}}}}}]]'''
+           |
+         }}
+      }}<!--
+   -->{{#ifexist:Outline of the {{{1|{{SUBJECTPAGENAME}}}}}
+        |'''[[Outline of the {{{1|{{SUBJECTPAGENAME}}}}}]]'''
+        |{{#ifexist:Topic outline of the {{{1|{{SUBJECTPAGENAME}}}}}
+           |'''[[Topic outline of the {{{1|{{SUBJECTPAGENAME}}}}}]]'''
+           |
+         }}
+      }}
+     |<strong class="error">GALINXUN</strong><includeonly>[[Category:Dib u eegis xun]]</includeonly><!--
+-->}}, taas oo aan dhamaystirnayn oo u baahan horumarin dheeraad ah. Bogaas, oo ay la socdaan hababka Wikipedia, wuxuu qab ka yahay [[:en:Portal:Contents/Outlines|Aqoonta wikipedia]], ama xitaa u howl galaysa sida jadwalka waxa ku jira khariidad ee Wikipedia.
+}}<noinclude>{{documentation}}<noinclude>
