@@ -4,11 +4,11 @@
 | image = [[File:Crystal Clear app kfm.png|40px|alt=Archives]]
 | style = {{{style|}}}
 | text  = 
-{{{page|{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|talk}} Bogaan}}} si toos ah baa loo [[Help:Kaydinta bogga wadahadalka|kaydiyay]]{{#if:{{{bot|}}}|&#32;by [[{{{botlink|User:{{{bot}}}}}}|{{{bot}}}]]}}. Qodob kasta oo aan looga jawaabin '''{{{age|7}}}&nbsp;{{{days|{{{units|maalmood}}}}}}''' gudahood waxaa laga yaabaa in si toos ah loo wareejiyo{{#if:|{{{target}}}|{{#ifexist:{{#rel2abs:{{{target}}}}}|&#32;to [[{{#rel2abs:{{{target}}}}}]]}}. {{#ifeq:{{{dounreplied|}}}|no|Threads with fewer than two timestamps (no replies) are not archived|qaybaha aan waqtiga lahayn lama kaydin doono}}. {{#if:{{{index|}}}|An archive index is available [[{{#rel2abs:{{{index}}}}}|here]].}}}}
+{{{page|{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|Wadahadalka}} bogaan}}} si toos ah baa loo [[Help:Kaydinta bogga wadahadalka|kaydiyay]]{{#if:{{{bot|}}}|&#32;mudane [[{{{botlink|User:{{{bot}}}}}}|{{{bot}}}]]}}. Qodob kasta oo aan looga jawaabin '''{{{age|7}}}&nbsp;{{{maalmood|{{{units|maalmood}}}}}}''' gudahood waxaa laga yaabaa in si toos ah loo wareejiyo{{#if:|{{{target}}}|{{#ifexist:{{#rel2abs:{{{target}}}}}|&#32;to [[{{#rel2abs:{{{target}}}}}]]}}. {{#ifeq:{{{dounreplied|}}}|no|Threads with fewer than two timestamps (no replies) are not archived|qaybaha aan waqtiga lahayn lama kaydin doono}}. {{#if:{{{index|}}}|An archive index is available [[{{#rel2abs:{{{index}}}}}|here]].}}}}
 | small = {{{small|}}}
 | smallimage = [[File:Replacement filing cabinet.svg|40px|alt=Archives]]
 | smalltext = 
-{{{page|{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|talk}} Bogaan}}} si toos ah baa loo [[Help:Kaydinta bogga wadahadalka|akaydiyay]]{{#if:{{{bot|}}}|&#x20;by [[{{{botlink|User:{{{bot}}}}}}|{{{bot}}}]]}}. Qodob kasta oo aan looga jawaabin '''{{{age|7}}}&nbsp;{{{days|{{{units|maalmood}}}}}}''' waxaa macquul ah in la wareejiyo.{{#if:{{{target|}}}|{{#ifexist:{{#rel2abs:{{{target}}}}}|&#32;[[{{#rel2abs:{{{target}}}}}|halkaan]]}}. {{#if:{{{index|}}}|Waa bar-tilmaameedka kaydka. [[{{#rel2abs:{{{index}}}}}|here]].}}}}
+{{{page|{{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}|talk}} Bogaan}}} si toos ah baa loo [[Help:Kaydinta bogga wadahadalka|akaydiyay]]{{#if:{{{bot|}}}|&#x20;by [[{{{botlink|User:{{{bot}}}}}}|{{{bot}}}]]}}. Qodob kasta oo aan looga jawaabin '''{{{age|7}}}&nbsp;{{{maalmood|{{{units|maalmood}}}}}}''' waxaa macquul ah in la wareejiyo.{{#if:{{{target|}}}|{{#ifexist:{{#rel2abs:{{{target}}}}}|&#32;[[{{#rel2abs:{{{target}}}}}|halkaan]]}}. {{#if:{{{index|}}}|Waa bar-tilmaameedka kaydka. [[{{#rel2abs:{{{index}}}}}|here]].}}}}
 }}<noinclude>
 {{documentation}}
 <!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
