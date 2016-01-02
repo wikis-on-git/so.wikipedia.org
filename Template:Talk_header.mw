@@ -15,12 +15,12 @@
 <th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}|User talk|Kani waa [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]]'s [[Wikipedia:Bogga wadahadalka|bogga wadahadalka]], kaa soo aad ugu diri karto farriimaha io faallooyinka {{PAGENAME}}.|Kani waa  [[Wikipedia:Bogga wadahadalka|bogga wadahadalka]] ee ka doodista {{#if:{{{wp|}}}|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] iyo wax kasta ee la xiriira ujeedooyinka iyo howlaha|hagaajinta [[:{{SUBJECTPAGENAME}}|{{#if:{{{display_title|}}}|{{{display_title}}}|{{PAGENAME}}}}]] {{pagetype}}}}.}}</th>
 </tr><tr>
 <td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*'''kani maaha [[Wikipedia:Maaha|ma aha]] mid wadahadal guud oo looga doodo maqaalada.'''}}
-* ku qor qoraalkaada qoraalka hore hoostiisa. '''[{{fullurl:{{TALKPAGENAMEE}}|action=edit&section=new}} Halkaan guji si aad u biloowdo qormo cusub]'''.
+* ku qor qoraalkaada qoraalka hore hoostiisa. ama '''[{{fullurl:{{TALKPAGENAMEE}}|action=edit&section=new}} Halkaan guji si aad u biloowdo qormo cusub]'''.
 * [[Wikipedia:Saxiix|Fadlan saxiix qoraalkaada]] adigoo sidaan qoraya (<code><nowiki>~~~~</nowiki></code>).
 * Ma ku cusubtahay wikipedia [[Wikipedia:Caawinaad|Caawinaad]]! [[Wikipedia:Su'aal|Susaal, waydii jawaab waad heli]].
 </td><td>
 * [[Wikipedia:Anshax|Anshax lahaaw]], hana dhibin kuwa cusub
-* [[:en:Wikipedia:Assume good faith|Niyada wanaagsan la imoow]]
+* [[:en:Wikipedia:Assume good faith|Niyad wanaagsan la imoow]]
 * [[:en:Wikipedia:No personal attacks|qofna shaqsiyaddiisa ha weerarin]]
 * Wixii muran ah, [[:en:Wikipedia:Dispute resolution requests|isku day inaad xaliso]]
 {{#switch:yes|{{{arpol|}}}|{{#if:{{SUBJECTSPACE}}|no|yes}}=<td style="border-left: 1px solid #c0c090">{{Center|'''Qodobka siyaasadda'''}}
@@ -36,7 +36,7 @@
 }}
 }}
 {{#if:{{#ifexist:{{FULLPAGENAME}}/Archive 1|y}}{{#ifexist:{{FULLPAGENAME}}/Archive A|y}}{{{search|}}}|{{#ifeq:{{{search|}}}|no||
-<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{FULLPAGENAME}}|search-break=no|search-width=auto|search-button-label=Search archives}}</td>
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{FULLPAGENAME}}|search-break=no|search-width=auto|search-button-label=Baadi goob kaydka}}</td>
 </tr>
 }}
 }}
