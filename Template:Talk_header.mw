@@ -1,0 +1,43 @@
+{{#ifeq:{{{bottom}}}|yes
+| {{ tmbox
+| small = {{{small|}}}
+| image = none
+| style = text-align: center
+| text  = '''Fadlan halkaan ku qor wadahadalka cusub batoonka ay ku qorantahay bogga wadahadalka.'''
+}}
+}}{{#ifexpr:{{#ifeq:{{NAMESPACE}}|User talk|1|0}}*{{#ifeq:{{{disclaimer|}}}|yes|1|0}}|
+{{usertalkpage}}
+}}
+<table {{#ifexpr:{{#ifeq:{{NAMESPACE}}|User talk|1|0}}*{{#ifeq:{{{disclaimer|}}}|yes|1|0}}
+ |style="border: 1px solid #c0c090; border-spacing:3px; background-color: #F8EABA; margin-bottom: 0px; width: 100%"
+ |class="tmbox tmbox-notice plainlinks" id="talkheader" style="width: 80%; border-collapse: separate"
+}} ><tr>
+<th colspan=4 style="border-bottom: 1px solid #c0c090; width: 100%">{{#ifeq:{{NAMESPACE}}|User talk|Kani waa [[{{SUBJECTPAGENAME}}|{{PAGENAME}}]]'s [[Wikipedia:Bogga wadahadalka|bogga wadahadalka]], kaa soo aad ugu diri karto farriimaha io faallooyinka {{PAGENAME}}.|Kani waa  [[Wikipedia:Bogga wadahadalka|bogga wadahadalka]] ee ka doodista {{#if:{{{wp|}}}|[[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]] iyo wax kasta ee la xiriira ujeedooyinka iyo howlaha|hagaajinta [[:{{SUBJECTPAGENAME}}|{{#if:{{{display_title|}}}|{{{display_title}}}|{{PAGENAME}}}}]] {{pagetype}}}}.}}</th>
+</tr><tr>
+<td style="background-color: white; border: 1px solid #c0c090">{{#if:{{SUBJECTSPACE}}||*'''kani maaha [[Wikipedia:Maaha|ma aha]] mid wadahadal guud oo looga doodo maqaalada.'''}}
+* ku qor qoraalkaada qoraalka hore hoostiisa. '''[{{fullurl:{{TALKPAGENAMEE}}|action=edit&section=new}} Halkaan guji si aad u biloowdo qormo cusub]'''.
+* [[Wikipedia:Saxiix|Fadlan saxiix qoraalkaada]] adigoo sidaan qoraya (<code><nowiki>~~~~</nowiki></code>).
+* Ma ku cusubtahay wikipedia [[Wikipedia:Caawinaad|Caawinaad]]! [[Wikipedia:Su'aal|Susaal, waydii jawaab waad heli]].
+</td><td>
+* [[Wikipedia:Anshax|Anshax lahaaw]], hana dhibin kuwa cusub
+* [[:en:Wikipedia:Assume good faith|Niyada wanaagsan la imoow]]
+* [[:en:Wikipedia:No personal attacks|qofna shaqsiyaddiisa ha weerarin]]
+* Wixii muran ah, [[:en:Wikipedia:Dispute resolution requests|isku day inaad xaliso]]
+{{#switch:yes|{{{arpol|}}}|{{#if:{{SUBJECTSPACE}}|no|yes}}=<td style="border-left: 1px solid #c0c090">{{Center|'''Qodobka siyaasadda'''}}
+* [[:en:Wikipedia:No original research|Lama ogola baaritaanno]]
+* [[:en:Wikipedia:Neutral point of view|Dhex dhexaad]]
+* [[:en:Wikipedia:Verifiability|Hubin]]
+</td>
+}}{{#if:{{{1|}}}|<td>{{shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }}</td>}}
+</tr>
+{{#if:{{{noarchive|{{{noarchives|}}}}}}||{{#ifexist:{{FULLPAGENAME}}/Archive 1|
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 1px 3px">'''[[Help: Archiving a talk page|Archives]]:''' {{#ifexist:{{FULLPAGENAME}}/Archive index|[[{{FULLPAGENAME}}/Archive index|Index]],&#32;}}{{#ifexist:{{FULLPAGENAME}}/Archive A|{{Archive list alpha|nobr=yes|root={{FULLPAGENAME}}}},&#32;|}}{{Archive list|nobr=yes|root={{FULLPAGENAME}}}}</td>
+</tr>
+}}
+}}
+{{#if:{{#ifexist:{{FULLPAGENAME}}/Archive 1|y}}{{#ifexist:{{FULLPAGENAME}}/Archive A|y}}{{{search|}}}|{{#ifeq:{{{search|}}}|no||
+<tr><td colspan=4 style="text-align: center; border-top: 1px solid #c0c090; padding: 0">{{search box|root={{FULLPAGENAME}}|search-break=no|search-width=auto|search-button-label=Search archives}}</td>
+</tr>
+}}
+}}
+</table><noinclude>{{documentation}}</noinclude>
