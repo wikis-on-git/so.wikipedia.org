@@ -47,7 +47,7 @@
  | pe = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
  | PEW
  | pew = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] | }}
- | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
+ | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 2.3]]}}){{{3|}}}</small></div><!--
 *************
 * IUCN3.1   *
@@ -80,7 +80,7 @@
  | pe = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
  | PEW
  | pew = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]]|}}
- | '''''Invalid status'''''[[Category:Invalid conservation status]]
+ | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 3.1]]}}){{{3|}}}</small></div><!--
 *************
 * EPBC      *
@@ -102,7 +102,7 @@
  | DL
  | dl
  | Delisted = [[file:Status EPBC DL.svg|frameless|link=|alt=]]<br />Delisted
- | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+ | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Environment Protection and Biodiversity Conservation Act 1999|EPBC Act]]}}){{{3|}}}</small></div><!--
 *************
 * TNC       *
@@ -143,7 +143,7 @@
  | t5 = [[file:Status TNC T5.svg|frameless|link=|alt=]]<br />Secure {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:NatureServe Secure species]] |}}
  | TU
  | tu = [[file:Status TNC T blank.svg|frameless|link=|alt=]]<br />Unrankable
- | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+ | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[NatureServe conservation status|NatureServe]]}}){{{3|}}}</small></div><!--
 *************
 * ESA       *
@@ -163,7 +163,7 @@
  | DL
  | dl
  | Delisted = [[file:Status ESA DL.svg|frameless|link=|alt=]]<br />Delisted
- | '''''Invalid status'''''[[Category:Invalid conservation status]]
+ | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Endangered Species Act|ESA]]}}){{{3|}}}</small></div><!--
 *************
 * COSEWIC   *
@@ -182,7 +182,7 @@
  | sc = [[file:Status COSEWIC SC.svg|frameless|link=|alt=]]<br />Special Concern
  | NAR
  | nar = [[file:Status COSEWIC NAR.svg|frameless|link=|alt=]]<br />[[Least Concern|Not at risk]]
- | '''''Invalid status'''''[[Category:Invalid conservation status]]
+ | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Committee on the Status of Endangered Wildlife in Canada|COSEWIC]]}}){{{3|}}}</small></div><!--
 *************
 * DECF      *
@@ -204,7 +204,7 @@
  | DL
  | dl
  | Delisted = [[file:Status DECF DL.svg|frameless|link=|alt=]]<br />Delisted
- | '''''Invalid status'''''[[Category:Invalid conservation status]]
+ | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Declared Rare and Priority Flora List|DEC]]}}){{{3|}}}</small></div><!--
 *************
 * QLDNCA    *
@@ -223,7 +223,7 @@
  | nt = [[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act near threatened biota]]|}}
  | LC
  | lc = [[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act least concern biota]]|}}
- | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+ | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Nature Conservation Act 1992|NCA]]}}){{{3|}}}</small></div><!--
 *************
 * CITES     *
@@ -233,7 +233,7 @@
  | CITES_A1 = [[CITES]] Appendix I
  | CITES_A2 = [[CITES]] Appendix II
  | CITES_A3 = [[CITES]] Appendix III
- | '''''Invalid status''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
+ | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[CITES]]}}){{{3|}}}</small></div><!--
 *************
 * NZTCS     *
@@ -256,7 +256,7 @@
  | sp = [[file:Status NZTCS SP.svg|frameless|link=|alt=]]<br />Sparse
  | RR
  | rr = [[file:Status NZTCS RR.svg|frameless|link=|alt=]]<br />Range Restricted
- | '''''Invalid status'''''[[Category:Invalid conservation status]]
+ | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[New Zealand Threat Classification System|NZ TCS]]}}){{{3|}}}</small></div><!--
 ********************
 * No status system *
