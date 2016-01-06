@@ -26,7 +26,7 @@
 | default_width =235
 | alt           ={{{location_map_alt|}}}
 | caption       =}}}}}}
-| caption2      ={{#if:{{{location_map_caption|}}}|{{{location_map_caption|}}}|Location of {{{name|{{PAGENAME}}}}} in {{{location_map|}}}}}
+| caption2      ={{#if:{{{location_map_caption|}}}|{{{location_map_caption|}}}|waxay dhacdaa {{{name|{{PAGENAME}}}}} in {{{location_map|}}}}}
 
 |label1         = Magaca Rasmiga
 |data1          = {{{name_official|}}}
@@ -59,7 +59,7 @@
                   |#default={{{status|}}}
                   }}
 
-|label7         = La bilaabay&nbsp;dhismaha
+|label7         = Bilowga&nbsp;dhismaha
 |data7          = {{{construction_began|}}}
 
 |label8         = Taariikhda&nbsp;la furay
@@ -68,7 +68,7 @@
 |label9         = Taariikhda&nbsp;duminta
 |data9          = {{{demolished|}}}
 
-|label10        = Qiimaha&nbsp;dhismaha
+|label10        = Adduun&nbsp;dhan
 |data10         = {{{cost|}}}
 
 |label11        = Milkiyadda
@@ -77,9 +77,9 @@
 |label12        = Shaqaale
 |data12         = {{{operator|}}}
 
-|header13       = {{#if:{{{dam_type|}}}{{{dam_crosses|}}}{{{dam_height|}}}{{{dam_height_foundation|}}}{{{dam_height_thalweg|}}}{{{dam_length|}}}{{{dam_elevation_crest|}}}{{{dam_width_crest|}}}{{{dam_width_base|}}}{{{dam_volume|}}}{{{spillway_count|}}}{{{spillway_type|}}}{{{spillway_capacity|}}}|Dam and spillways}}
+|header13       = {{#if:{{{dam_type|}}}{{{dam_crosses|}}}{{{dam_height|}}}{{{dam_height_foundation|}}}{{{dam_height_thalweg|}}}{{{dam_length|}}}{{{dam_elevation_crest|}}}{{{dam_width_crest|}}}{{{dam_width_base|}}}{{{dam_volume|}}}{{{spillway_count|}}}{{{spillway_type|}}}{{{spillway_capacity|}}}|Biyo-xireenka iyo dhimista biya dheeraadka ah}}
 
-|label14        = [[Biyo-xireen#Nuuca biyo-xireenka|Nuuca&nbsp;Biyo-xireenka]]
+|label14        = [[Biyo-xireen#Nuuca biyo-xireenka|Nuuca&nbsp;biyo-xireenka]]
 |data14         = {{#switch:{{uc:{{{dam_type|}}}}}
                   |Qb=Qaanso biyiyo-xireen
                   |K=Kaabad
@@ -91,10 +91,10 @@
                   |#default={{{dam_type|}}}
                   }}
 
-|label15        = Socodka
+|label15        = Biyaha socda
 |data15         = {{{dam_crosses|}}}
 
-|label16        = Dherer<!-- DEPRECIATED. If possible, please use one or more specific height fields below -->
+|label16        = Joog<!-- DEPRECIATED. If possible, please use one or more specific height fields below -->
 |data16         = {{{dam_height|}}}
 
 |label17        = Jooga&nbsp;(aasaaska)
@@ -103,10 +103,10 @@
 |label18        = Jooga&nbsp;([[thalweg]])
 |data18         = {{{dam_height_thalweg|}}}
 
-|label19        = Dhererka
+|label19        = Dhererka&nbsp;biyo-xireenka
 |data19        = {{{dam_length|}}}
 
-|label20        = Jooga&nbsp;ee&nbsp;fiinta
+|label20        = Jooga&nbsp;fiinta
 |data20         = {{{dam_elevation_crest|}}}
 
 |label21        = Ballaca&nbsp;(fiinta)
@@ -118,18 +118,18 @@
 |label23        = Mugga&nbsp;biyo-xireenka
 |data23         = {{{dam_volume|}}}
 
-|label24        = [[Spillway]]s
+|label24        = Kanaalka dhimista
 |data24         = {{{spillway_count|}}}
 
-|label25        = Spillway&nbsp;type
+|label25        = Nuuca&nbsp;kanaalka dhimista
 |data25         = {{{spillway_type|}}}
 
-|label26        = Spillway&nbsp;capacity
+|label26        = Qaadka&nbsp;kanaalka dhimista
 |data26         = {{{spillway_capacity|}}}
 
-|header27       = {{#if:{{{res_name|}}}{{{res_capacity_total|}}}{{{res_capacity_active|}}}{{{res_capacity_inactive|}}}{{{res_catchment|}}}{{{res_surface|}}}{{{res_max_length|}}}{{{res_max_width|}}}{{{res_max_depth|}}}{{{res_elevation|}}}{{{res_tidal_range|}}}|Reservoir}}
+|header27       = {{#if:{{{res_name|}}}{{{res_capacity_total|}}}{{{res_capacity_active|}}}{{{res_capacity_inactive|}}}{{{res_catchment|}}}{{{res_surface|}}}{{{res_max_length|}}}{{{res_max_width|}}}{{{res_max_depth|}}}{{{res_elevation|}}}{{{res_tidal_range|}}}|Kaydka}}
 
-|label28        = La unkay
+|label28        = Sameeyay
 |data28         = {{{res_name|}}}
 
 |label29        = Qaadka&nbsp;guud
@@ -144,7 +144,7 @@
 |label32        = [[Drainage basin|Catchment&nbsp;area]]
 |data32         = {{{res_catchment|}}}
 
-|label33        = Surface&nbsp;area
+|label33        = Bedka&nbsp;sallaxa
 |data33         = {{{res_surface|}}}
 
 |label34        = Max.&nbsp;length
@@ -162,46 +162,46 @@
 |label38        = [[Tidal range|Tidal&nbsp;range]]
 |data38         = {{{res_tidal_range|}}}
 
-|header39       = {{#if:{{{plant_name|}}}{{both|{{{plant_lat_d|}}}|{{{plant_long_d|}}}}}{{{plant_operator|}}}{{{plant_commission|}}}{{{plant_decommission|}}}{{{plant_type|}}}{{{plant_hydraulic_head|}}}{{{plant_turbines|}}}{{{plant_capacity|}}}{{{plant_capacity_factor|}}}{{{plant_annual_gen|}}}|Power station}}
+|header39       = {{#if:{{{plant_name|}}}{{both|{{{plant_lat_d|}}}|{{{plant_long_d|}}}}}{{{plant_operator|}}}{{{plant_commission|}}}{{{plant_decommission|}}}{{{plant_type|}}}{{{plant_hydraulic_head|}}}{{{plant_turbines|}}}{{{plant_capacity|}}}{{{plant_capacity_factor|}}}{{{plant_annual_gen|}}}|Dab dhaliye}}
 
-|label40        = Name
+|label40        = Magac
 |data40         = {{{plant_name|}}}
 
-|label41        = Coordinates
+|label41        = Isuduwe
 |data41         = {{#if:{{both|{{{plant_lat_d|}}}|{{{plant_long_d|}}}}} | <small>{{geobox coor|{{{plant_lat_d|}}}|{{{plant_lat_m|}}}|{{{plant_lat_s|}}}|{{{plant_lat_NS|}}}|{{{plant_long_d|}}}|{{{plant_long_m|}}}|{{{plant_long_s|}}}|{{{plant_long_EW|}}}|{{#if:{{{plant_coord_type|}}}|{{{plant_coord_type}}}|type:landmark}}|format={{{plant_coord_format|}}}|wrap=true|name={{{plant_name|}}}}}{{{plant_coord_ref|}}}</small>
     }}
 
-|label42        = Operator(s)
+|label42        = Shaqaale
 |data42         = {{{plant_operator|}}}
 
-|label43        = Commission&nbsp;date
+|label43        = Taariikhda&nbsp;gudiga
 |data43         = {{{plant_commission|}}}
 
-|label44        = Decommission&nbsp;date
+|label44        = Taariikhda&nbsp;furfuridda
 |data44         = {{{plant_decommission|}}}
 
-|label45        = [[Hydroelectricity#Generating methods|Type]]
+|label45        = Nuuca
 |data45         = {{#switch:{{uc:{{{plant_type|}}}}}
-                  |C=Conventional
-                  |P=[[Pumped-storage hydroelectricity|Pumped-storage]]
-                  |R=[[Run-of-the-river hydroelectricity|Run-of-the-river]]
-                  |T=[[Tidal barrage]]
+                  |C=Caadi
+                  |K=Ku furista kaydka
+                  |S=Shaqo-galinta-wabiga
+                  |T=Goyim-joog
                   |#default={{{plant_type|}}}
                   }}
 
-|label46        = [[Hydraulic head]]
+|label46        = Madaxa haydrolik
 |data46         = {{{plant_hydraulic_head|}}}
 
-|label47        = Turbines
+|label47        = Turbiino
 |data47         = {{{plant_turbines|}}}
 
-|label48        = Installed&nbsp;capacity
+|label48        = Awooda&nbsp;rakibka
 |data48         = {{{plant_capacity|}}}
 
-|label49        = [[Capacity factor|Capacity&nbsp;factor]]
+|label49        = Aeeg&nbsp;aqood
 |data49         = {{{plant_capacity_factor|}}}
 
-|label50        = Annual&nbsp;generation
+|label50        = Soo saar&nbsp;sanadeed
 |data50         = {{#iferror: {{#expr:0+{{formatnum:{{{plant_annual_gen|}}}|R}} }}| {{{plant_annual_gen|}}} | {{{plant_annual_gen}}} [[GW·h]] }}
 
 |data51         = {{#if:{{{website|}}}|'''Website'''<br/><span class="plainlinks">{{{website|}}}</span>}}
