@@ -141,7 +141,7 @@
 }}
 |- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
+! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Saddex magac|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Saddex magac}}|Tibix saddex magac]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="trinomial">{{{trinomial}}}</span>'''<br /><small>{{{trinomial_authority|}}}</small>
 }}
@@ -165,19 +165,19 @@
 }}
 |- 
 {{#if:{{{type_species|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Type species]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Nuucyada]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_species}}}<br /><small>{{{type_species_authority|}}}</small>
 }}
 |- 
 {{#if:{{{type_ichnospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Type species|Type ichnospecies]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Nuucyada|Type ichnospecies]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnospecies}}}<br /><small>{{{type_ichnospecies_authority|}}}</small>
 }}
 |- 
 {{#if:{{{type_oospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Type species|Type oospecies]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}" {{!}} [[Nuucyada|Type oospecies]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_oospecies}}}<br /><small>{{{type_oospecies_authority|}}}</small>
 }}
