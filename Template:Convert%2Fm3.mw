@@ -1,0 +1,15 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|s={{{s|}}}|r={{{r}}}
+|u=m<sup>3</sup>
+|n=cubic met{{{r}}}
+|h=cubic-met{{{r}}}
+|t=cubic metre
+|o=cuft
+|b=1
+|j=-{{{j|0}}}}}<noinclude>
+{{doc|content=
+== Usage ==
+{{tlx|convert|1.000|cuyd|m3}} →
+{{convert|1.000|cuyd|m3}}
+[[Category:Subtemplates of Template Convert]]
+}}
+</noinclude>
