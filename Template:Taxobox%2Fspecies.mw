@@ -36,7 +36,7 @@
  | LR/LC
  | lr/LC
  | LR/lc
- | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] | }}
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] | }}
  | DD
  | dd = [[file:Status iucn2.3 blank.svg|frameless|link=|alt=]]<br />[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] | }}
  | NE
@@ -69,7 +69,7 @@
  | NT
  | nt = [[file:Status iucn3.1 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List near threatened species]] | }}
  | LC
- | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] |}}
+ | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] |}}
  | DD
  | dd = [[file:Status iucn3.1 blank.svg|frameless|link=|alt=]]<br/>[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] |}}
  | NE
@@ -181,7 +181,7 @@
  | SC
  | sc = [[file:Status COSEWIC SC.svg|frameless|link=|alt=]]<br />Special Concern
  | NAR
- | nar = [[file:Status COSEWIC NAR.svg|frameless|link=|alt=]]<br />[[Least Concern|Not at risk]]
+ | nar = [[file:Status COSEWIC NAR.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin|Not at risk]]
  | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Committee on the Status of Endangered Wildlife in Canada|COSEWIC]]}}){{{3|}}}</small></div><!--
 *************
@@ -222,7 +222,7 @@
  | NT
  | nt = [[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act near threatened biota]]|}}
  | LC
- | lc = [[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act least concern biota]]|}}
+ | lc = [[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act least concern biota]]|}}
  | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]]|}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Nature Conservation Act 1992|NCA]]}}){{{3|}}}</small></div><!--
 *************
@@ -285,7 +285,7 @@
  | NT
  | nt = [[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Near Threatened species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | LC
- | lc = [[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Least concern species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | lc = [[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Least concern species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | SE
  | se
  | SECURE
@@ -325,7 +325,7 @@
  | LR/LC
  | lr/LC
  | LR/lc
- | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Least Concern]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Least Concern species]][[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Aan qatar ku jirin species]][[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
  | GX
  | gx = [[file:Status TNC GX.svg|frameless|link=|alt=]]<br />Presumed [[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes needing a status system parameter]]|}}<!--This case is subject to deletion once status systems are added-->
  | GH
