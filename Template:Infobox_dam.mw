@@ -1,0 +1,215 @@
+{{Infobox
+| bodyclass     =vcard
+| child         ={{{child|{{{embed|}}}}}}
+| above         ={{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| aboveclass    =fn org
+| abovestyle    =background-color:skyblue;
+| headerstyle   =background-color:skyblue;
+
+| image         ={{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{image_alt|}}}}}
+| caption       ={{{image_caption|}}}
+
+| image2        ={{#if:{{{location_map|}}}|{{#if:{{both|{{{lat_d|}}}|{{{long_d|}}}}}|{{Location map|{{{location_map}}}
+| relief        ={{yesno|{{{location_map_relief|{{{relief|yes}}}}}}|no=|def=yes}}
+| lat_deg       ={{#if:{{{lat_m|}}}{{{lat_NS|}}}|{{{lat_d|}}}| }}
+| lat_min       ={{#if:{{{lat_m|}}}{{{lat_NS|}}}|{{{lat_m|}}}| }}
+| lat_sec       ={{#if:{{{lat_s|}}}{{{lat_NS|}}}|{{{lat_s|}}}| }}
+| lat_dir       ={{#if:{{{lat_NS|}}}|{{{lat_NS|}}}| }}
+| lon_deg       ={{#if:{{{long_m|}}}{{{long_EW|}}}|{{{long_d|}}}| }}
+| lon_min       ={{#if:{{{long_m|}}}{{{long_EW|}}}|{{{long_m|}}}| }}
+| lon_sec       ={{#if:{{{long_s|}}}{{{long_EW|}}}|{{{long_s|}}}| }}
+| lon_dir       ={{#if:{{{long_EW|}}}|{{{long_EW|}}}| }}
+| lat           ={{#if:{{{lat_m|}}}{{{lat_NS|}}}| |{{{lat_d|}}} }}
+| long          ={{#if:{{{long_m|}}}{{{long_EW|}}}| |{{{long_d|}}} }}
+| float         =center
+| width         ={{{location_map_size|}}}
+| default_width =235
+| alt           ={{{location_map_alt|}}}
+| caption       =}}}}}}
+| caption2      ={{#if:{{{location_map_caption|}}}|{{{location_map_caption|}}}|Location of {{{name|{{PAGENAME}}}}} in {{{location_map|}}}}}
+
+|label1         = Magaca Rasmiga
+|data1          = {{{name_official|}}}
+
+|label2         = Dalka
+|data2          = {{{country|}}}
+
+|label3         = Ku taal
+|data3          = {{{location|}}}
+
+|label4         = Isuduwe
+|data4          = {{#if:{{both|{{{lat_d|}}}|{{{long_d|}}}}}| <small>{{geobox coor|{{{lat_d|}}}|{{{lat_m|}}}|{{{lat_s|}}}|{{{lat_NS|}}}|{{{long_d|}}}|{{{long_m|}}}|{{{long_s|}}}|{{{long_EW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark}}|format={{{coordinates_format|}}}|wrap=true|title={{#ifeq:{{{coordinates_display}}}|inline||1}}}}{{{coordinates_ref|}}}</small> }}
+
+|label5         = Danaha
+|data5          = {{#switch:{{uc:{{{purpose|}}}}}
+                  |KhF=Ka hortag [[Fahaad]] 
+                  |W=[[Waraab]]
+                  |MB=Marin Biyood
+                  |TB=Tamar Biyood
+                  |#default={{{purpose|}}}
+                  }}
+
+|label6         = Xaaladda
+|data6          = {{#switch:{{uc:{{{status|}}}}}
+                  |H=Holw-gab
+                  |HG=Howl-gal
+                  |SJ=Soo jeedin
+                  |KSD=Ku socda dhisme
+                  |KSD=Ku socda dhisme
+                  |#default={{{status|}}}
+                  }}
+
+|label7         = La bilaabay&nbsp;dhismaha
+|data7          = {{{construction_began|}}}
+
+|label8         = Taariikhda&nbsp;la furay
+|data8          = {{{opening|}}}
+
+|label9         = Taariikhda&nbsp;duminta
+|data9          = {{{demolished|}}}
+
+|label10        = Qiimaha&nbsp;dhismaha
+|data10         = {{{cost|}}}
+
+|label11        = Milkiyadda
+|data11         = {{{owner|}}}
+
+|label12        = Shaqaale
+|data12         = {{{operator|}}}
+
+|header13       = {{#if:{{{dam_type|}}}{{{dam_crosses|}}}{{{dam_height|}}}{{{dam_height_foundation|}}}{{{dam_height_thalweg|}}}{{{dam_length|}}}{{{dam_elevation_crest|}}}{{{dam_width_crest|}}}{{{dam_width_base|}}}{{{dam_volume|}}}{{{spillway_count|}}}{{{spillway_type|}}}{{{spillway_capacity|}}}|Dam and spillways}}
+
+|label14        = [[Biyo-xireen#Nuuca biyo-xireenka|Nuuca&nbsp;Biyo-xireenka]]
+|data14         = {{#switch:{{uc:{{{dam_type|}}}}}
+                  |Qb=Qaanso biyiyo-xireen
+                  |K=Kaabad
+                  |Q=Qatarta godadka biyo kaydinta
+                  |E=Buundo biyo-xireen
+                  |BB=Buuxinta Biyo-xireenka dhulka
+                  |CB=[[Cuf]]ka Biyo-xireenka
+                  |CQ=[[Cuf]]ka Qaanso Biyo-xireen
+                  |#default={{{dam_type|}}}
+                  }}
+
+|label15        = Socodka
+|data15         = {{{dam_crosses|}}}
+
+|label16        = Dherer<!-- DEPRECIATED. If possible, please use one or more specific height fields below -->
+|data16         = {{{dam_height|}}}
+
+|label17        = Jooga&nbsp;(aasaaska)
+|data17         = {{{dam_height_foundation|}}}
+
+|label18        = Jooga&nbsp;([[thalweg]])
+|data18         = {{{dam_height_thalweg|}}}
+
+|label19        = Dhererka
+|data19        = {{{dam_length|}}}
+
+|label20        = Jooga&nbsp;ee&nbsp;fiinta
+|data20         = {{{dam_elevation_crest|}}}
+
+|label21        = Ballaca&nbsp;(fiinta)
+|data21         = {{{dam_width_crest|}}}
+
+|label22        = Ballac&nbsp;(aasaaska)
+|data22         = {{{dam_width_base|}}}
+
+|label23        = Mugga&nbsp;biyo-xireenka
+|data23         = {{{dam_volume|}}}
+
+|label24        = [[Spillway]]s
+|data24         = {{{spillway_count|}}}
+
+|label25        = Spillway&nbsp;type
+|data25         = {{{spillway_type|}}}
+
+|label26        = Spillway&nbsp;capacity
+|data26         = {{{spillway_capacity|}}}
+
+|header27       = {{#if:{{{res_name|}}}{{{res_capacity_total|}}}{{{res_capacity_active|}}}{{{res_capacity_inactive|}}}{{{res_catchment|}}}{{{res_surface|}}}{{{res_max_length|}}}{{{res_max_width|}}}{{{res_max_depth|}}}{{{res_elevation|}}}{{{res_tidal_range|}}}|Reservoir}}
+
+|label28        = La unkay
+|data28         = {{{res_name|}}}
+
+|label29        = Qaadka&nbsp;guud
+|data29         = {{{res_capacity_total|}}}
+
+|label30        = Qaadka&nbsp;shaqayn kara
+|data30         = {{{res_capacity_active|}}}
+
+|label31        = Qaadka&nbsp;aan shaqayn karin
+|data31         = {{{res_capacity_inactive|}}}
+
+|label32        = [[Drainage basin|Catchment&nbsp;area]]
+|data32         = {{{res_catchment|}}}
+
+|label33        = Surface&nbsp;area
+|data33         = {{{res_surface|}}}
+
+|label34        = Max.&nbsp;length
+|data34         = {{{res_max_length|}}}
+
+|label35        = Max.&nbsp;width
+|data35         = {{{res_max_width|}}}
+
+|label36        = Max.&nbsp;water&nbsp;depth
+|data36         = {{{res_max_depth|}}}
+
+|label37        = Normal&nbsp;elevation
+|data37         = {{{res_elevation|}}}
+
+|label38        = [[Tidal range|Tidal&nbsp;range]]
+|data38         = {{{res_tidal_range|}}}
+
+|header39       = {{#if:{{{plant_name|}}}{{both|{{{plant_lat_d|}}}|{{{plant_long_d|}}}}}{{{plant_operator|}}}{{{plant_commission|}}}{{{plant_decommission|}}}{{{plant_type|}}}{{{plant_hydraulic_head|}}}{{{plant_turbines|}}}{{{plant_capacity|}}}{{{plant_capacity_factor|}}}{{{plant_annual_gen|}}}|Power station}}
+
+|label40        = Name
+|data40         = {{{plant_name|}}}
+
+|label41        = Coordinates
+|data41         = {{#if:{{both|{{{plant_lat_d|}}}|{{{plant_long_d|}}}}} | <small>{{geobox coor|{{{plant_lat_d|}}}|{{{plant_lat_m|}}}|{{{plant_lat_s|}}}|{{{plant_lat_NS|}}}|{{{plant_long_d|}}}|{{{plant_long_m|}}}|{{{plant_long_s|}}}|{{{plant_long_EW|}}}|{{#if:{{{plant_coord_type|}}}|{{{plant_coord_type}}}|type:landmark}}|format={{{plant_coord_format|}}}|wrap=true|name={{{plant_name|}}}}}{{{plant_coord_ref|}}}</small>
+    }}
+
+|label42        = Operator(s)
+|data42         = {{{plant_operator|}}}
+
+|label43        = Commission&nbsp;date
+|data43         = {{{plant_commission|}}}
+
+|label44        = Decommission&nbsp;date
+|data44         = {{{plant_decommission|}}}
+
+|label45        = [[Hydroelectricity#Generating methods|Type]]
+|data45         = {{#switch:{{uc:{{{plant_type|}}}}}
+                  |C=Conventional
+                  |P=[[Pumped-storage hydroelectricity|Pumped-storage]]
+                  |R=[[Run-of-the-river hydroelectricity|Run-of-the-river]]
+                  |T=[[Tidal barrage]]
+                  |#default={{{plant_type|}}}
+                  }}
+
+|label46        = [[Hydraulic head]]
+|data46         = {{{plant_hydraulic_head|}}}
+
+|label47        = Turbines
+|data47         = {{{plant_turbines|}}}
+
+|label48        = Installed&nbsp;capacity
+|data48         = {{{plant_capacity|}}}
+
+|label49        = [[Capacity factor|Capacity&nbsp;factor]]
+|data49         = {{{plant_capacity_factor|}}}
+
+|label50        = Annual&nbsp;generation
+|data50         = {{#iferror: {{#expr:0+{{formatnum:{{{plant_annual_gen|}}}|R}} }}| {{{plant_annual_gen|}}} | {{{plant_annual_gen}}} [[GW·h]] }}
+
+|data51         = {{#if:{{{website|}}}|'''Website'''<br/><span class="plainlinks">{{{website|}}}</span>}}
+
+|below          = {{{extra|}}}
+
+}}{{main other|{{<includeonly>safesubst:</includeonly>#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using infobox dam with unknown parameters|_VALUE_{{PAGENAME}}]]
+| name| name_official| image| image_size| image_caption| image_alt| location_map| location_map_size| location_map_relief| location_map_caption| location_map_alt| lat_d| lat_m| lat_s| lat_NS| long_d| long_m| long_s| long_EW| coordinates_type| coordinates_display| coordinates_format| coordinates_ref| country| location| purpose| status| construction_began| opening| demolished| cost| owner| operator| dam_type| dam_crosses| dam_height_foundation| dam_height| dam_height_thalweg| dam_length| dam_elevation_crest| dam_width_crest| dam_width_base| dam_volume| spillway_count| spillway_type| spillway_capacity| res_name| res_capacity_total| res_capacity_active| res_capacity_inactive| res_catchment| res_surface| res_max_length| res_max_width| res_max_depth| res_elevation| res_tidal_range| plant_name| plant_lat_d| plant_lat_m| plant_lat_s| plant_lat_NS| plant_long_d| plant_long_m| plant_long_s| plant_long_EW| plant_coord_type| plant_coord_format| plant_coord_ref| plant_operator| plant_commission| plant_decommission| plant_type| plant_hydraulic_head| plant_turbines| plant_capacity| plant_capacity_factor| plant_annual_gen| website| extra}} 
+}}<noinclude>
+{{Documentation}}
+</noinclude>
