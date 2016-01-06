@@ -8,15 +8,15 @@
 --> | iucn2.3
  | IUCN2.3 = {{#switch:{{{2}}}
  | EX
- | ex = [[file:Status iucn2.3 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct species]] | }}
+ | ex = [[file:Status iucn2.3 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID extinct species]] | }}
  | EW
- | ew = [[file:Status iucn2.3 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct in the wild species]] | }}
+ | ew = [[file:Status iucn2.3 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID extinct in the wild species]] | }}
  | CR
- | cr = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] | }}
+ | cr = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] | }}
  | EN
- | en = [[file:Status iucn2.3 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List endangered species]] | }}
+ | en = [[file:Status iucn2.3 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID endangered species]] | }}
  | VU
- | vu = [[file:Status iucn2.3 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List vulnerable species]] | }}
+ | vu = [[file:Status iucn2.3 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID vulnerable species]] | }}
  | LR
  | lr = [[file:Status iucn2.3 blank.svg|link = |alt = ]]<br />Lower risk {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
  | CD
@@ -24,31 +24,31 @@
  | LR/CD
  | lr/CD
  | LR/cd
- | lr/cd = [[file:Status iucn2.3 CD.svg|frameless|link=|alt=]]<br />[[Conservation Dependent]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List conservation dependent species]] | }}
+ | lr/cd = [[file:Status iucn2.3 CD.svg|frameless|link=|alt=]]<br />[[Conservation Dependent]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID conservation dependent species]] | }}
  | NT
  | nt
  | LR/NT
  | lr/NT
  | LR/nt
- | lr/nt = [[file:Status iucn2.3 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List near threatened species]] | }}
+ | lr/nt = [[file:Status iucn2.3 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID near threatened species]] | }}
  | LC
  | lc
  | LR/LC
  | lr/LC
  | LR/lc
- | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] | }}
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID least concern species]] | }}
  | DD
- | dd = [[file:Status iucn2.3 blank.svg|frameless|link=|alt=]]<br />[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] | }}
+ | dd = [[file:Status iucn2.3 blank.svg|frameless|link=|alt=]]<br />[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID data deficient species]] | }}
  | NE
  | ne = ''Not evaluated''
  | NR
  | nr = ''Not recognized''
  | PE
- | pe = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | pe = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] |}}
  | PEW
- | pew = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] | }}
+ | pew = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] | }}
  | '''''Xaalad qalad ah''''' {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Invalid conservation status]] | }}
-}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 2.3]]}}){{{3|}}}</small></div><!--
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Liiska Cas ee MCID|IUCN 2.3]]}}){{{3|}}}</small></div><!--
 *************
 * IUCN3.1   *
 *************
@@ -57,31 +57,31 @@
 | iucn3.1
 | IUCN3.1 = {{#switch:{{{2}}}
  | EX
- | ex = [[file:Status iucn3.1 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct species]] | }}
+ | ex = [[file:Status iucn3.1 EX.svg|frameless|link=|alt=]]<br />[[Extinction|Extinct]] {{#if:{{{extinct|}}}|&nbsp;({{{extinct}}}) }} {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID extinct species]] | }}
  | EW
- | ew = [[file:Status iucn3.1 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List extinct in the wild species]] | }}
+ | ew = [[file:Status iucn3.1 EW.svg|frameless|link=|alt=]]<br />[[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID extinct in the wild species]] | }}
  | CR
- | cr = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | cr = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] |}}
  | EN
- | en = [[file:Status iucn3.1 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List endangered species]] | }}
+ | en = [[file:Status iucn3.1 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID endangered species]] | }}
  | VU
- | vu = [[file:Status iucn3.1 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List vulnerable species]] |}}
+ | vu = [[file:Status iucn3.1 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID vulnerable species]] |}}
  | NT
- | nt = [[file:Status iucn3.1 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List near threatened species]] | }}
+ | nt = [[file:Status iucn3.1 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID near threatened species]] | }}
  | LC
- | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List least concern species]] |}}
+ | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID least concern species]] |}}
  | DD
- | dd = [[file:Status iucn3.1 blank.svg|frameless|link=|alt=]]<br/>[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List data deficient species]] |}}
+ | dd = [[file:Status iucn3.1 blank.svg|frameless|link=|alt=]]<br/>[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID data deficient species]] |}}
  | NE
  | ne = ''Not evaluated''
  | NR
  | nr = ''Not recognized''
  | PE
- | pe = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]] |}}
+ | pe = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] |}}
  | PEW
- | pew = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:IUCN Red List critically endangered species]]|}}
+ | pew = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered]], possibly extinct in the wild {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]]|}}
  | '''''Xaalad qalad ah'''''[[Category:Invalid conservation status]]
-}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[IUCN Red List|IUCN 3.1]]}}){{{3|}}}</small></div><!--
+}}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|[[Liiska Cas ee MCID|MCID 3.1]]}}){{{3|}}}</small></div><!--
 *************
 * EPBC      *
 *************
