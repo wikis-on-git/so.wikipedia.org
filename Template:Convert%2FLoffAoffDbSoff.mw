@@ -1,0 +1,10 @@
+<includeonly>{{convert/numdisp|{{{1|2+1/2}}}}} {{
+#ifexpr: abs( {{{1|2+1/2}}} ) > 1
+  |{{{l|{{{n}}}s}}}
+  |{{#if: {{#titleparts:{{{1|2+1/2}}}|1|2}}
+    |{{{n}}}
+    |{{#ifeq: {{{1|1}}} |1 |{{{n}}}| {{{l|{{{n}}}s}}} }}
+  }}
+}} ({{convert/{{#if:{{{2|}}}|{{{o}}}|{{{3}}}}}|{{{1}}}|({{{1}}})*{{{b}}}|{{#if:{{{2|}}}|{{{3|}}}|{{{4|}}}}}|{{{s|}}}|r={{{r}}}|j={{{j}}}|d=LoffAonSoff}})</includeonly><noinclude>
+{{documentation}}
+</noinclude>
