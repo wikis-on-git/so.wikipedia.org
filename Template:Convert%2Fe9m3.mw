@@ -1,0 +1,11 @@
+{{convert/{{{d}}}Eng|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|s={{{s|}}}|r={{{r}}}
+|k=9
+|u=m<sup>3</sup>
+|l=cubic met{{{r}}}s
+|h=cubic-met{{{r}}}
+|t=cubic metre
+|o={{#ifexpr:{{{1}}}<28.316846592|G|T}}cuft
+|b=1000000000
+|j=9-{{{j|0}}}}}<noinclude>
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
