@@ -36,7 +36,7 @@
  | LR/LC
  | lr/LC
  | LR/lc
- | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID least concern species]] | }}
+ | lr/lc = [[file:Status iucn2.3 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID aan cabsi laga qabin]] | }}
  | DD
  | dd = [[file:Status iucn2.3 blank.svg|frameless|link=|alt=]]<br />[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID data deficient species]] | }}
  | NE
@@ -69,7 +69,7 @@
  | NT
  | nt = [[file:Status iucn3.1 NT.svg|frameless|link=|alt=]]<br />[[Near Threatened]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID near threatened species]] | }}
  | LC
- | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID least concern species]] |}}
+ | lc = [[file:Status iucn3.1 LC.svg|frameless|link=|alt=]]<br />[[Aan qatar ku jirin]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID aan cabsi laga qabin]] |}}
  | DD
  | dd = [[file:Status iucn3.1 blank.svg|frameless|link=|alt=]]<br/>[[Data Deficient]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID data deficient species]] |}}
  | NE
