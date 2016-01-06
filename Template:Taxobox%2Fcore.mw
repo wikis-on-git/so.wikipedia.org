@@ -1,6 +1,6 @@
 <includeonly>{| class="infobox biota" style="text-align: left; width: 200px; font-size: 100%" 
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" | {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}{{#if:{{{temporal_range|}}}|<br /><small>Temporal range: {{{temporal_range}}}</small>}}
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}}| }}" | {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}{{#if:{{{temporal_range|}}}|<br /><small>Xaalad xilliyeed: {{{temporal_range}}}</small>}}
 |-
 {{#if:{{{image|}}}|
 {{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{image}}}{{!}}{{#if:{{{image_width|}}}|{{{image_width}}}|frameless}}{{!}}alt={{{image_alt|}}}]]
