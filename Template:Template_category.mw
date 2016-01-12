@@ -1,0 +1,8 @@
+{{Cmbox
+|type = notice
+|image = [[file:Curly Brackets.svg|30px|Template braces]]
+|text = Wuxuu gaar u yahay qaybtaan [[Wikipedia:Template|tusmooyinka]] [[:Category:Maamulka wikipedia|Wikipedia]]{{#if:{{{1|}}}|&nbsp;ee ku saabsan {{#ifexist:{{{1|}}}|[[{{delink|{{{1}}}}}]]|{{delink|{{{1}}}}}}}}}. {{{2|{{{description| {{{cadaynta|}}} }}}}}}
+}}<includeonly>{{{Categry|[[Category:Temolate|{{PAGENAME}}]]}}}</includeonly>
+<noinclude>
+{{Documentation}}
+</noinclude>
