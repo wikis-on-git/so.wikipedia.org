@@ -707,7 +707,7 @@
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
             <td style="padding-left:0;"><!--
               -->{{#if:{{{population_estimate_year|}}} |{{{population_estimate_year}}}&nbsp;}}<!--
-              -->Qiyaasta</td>
+              -->qiyaasta</td>
             <td>{{{population_estimate}}}<!--
               -->{{#if:{{{population_estimate_rank|}}} |&nbsp;([[List of countries by population|{{{population_estimate_rank}}}]])}}</td>
           </tr><!--
@@ -735,7 +735,7 @@
        </tr>
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Guud ahaan{{{FR_foot}}}</td>
+         <td style="padding-left:0;">guud ahaan{{{FR_foot}}}</td>
          <td>{{{FR_total_population_estimate}}}&nbsp;([[List of countries by population in 2005|{{{FR_total_population_estimate_rank}}}]])</td>
        </tr>
        <tr class="mergedrow">
@@ -749,7 +749,7 @@
  -->{{#if:{{{population_density_km2|}}}
      | <tr class="mergedbottomrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-         <td style="padding-left:0;">Tiro-badni<!--
+         <td style="padding-left:0;">Mugga Dadka<!--
             ---France-related footnote:-->{{#if:{{{FR_foot5|}}} |{{{FR_foot5}}}}}</td>
          <td>{{{population_density_km2|}}}/km{{smallsup|2}}<!--
             -->{{#if:{{{pop_den_footnote|}}} |&nbsp;{{{pop_den_footnote|}}}}}<!--
@@ -769,7 +769,7 @@
  -->{{#if:{{{GDP_PPP|}}}
      | <tr class="mergedtoprow">
          <td colspan="2">'''[[Wax soo saar|Wax soo saar]]'''&nbsp;([[Purchasing power parity|PPP]])</td>
-         <td>{{#if:{{{GDP_PPP_year|}}} |{{{GDP_PPP_year}}}&nbsp;}}Qiyaastii</td>
+         <td>{{#if:{{{GDP_PPP_year|}}} |{{{GDP_PPP_year}}}&nbsp;}}qiyaastii</td>
        </tr>
        <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
