@@ -1,0 +1,91 @@
+{{Infobox3cols
+| title = [[file:Symbol_star_gold.svg|20px|link=]] [[{{{maqaalka|<includeonly>{{SUBPAGENAME}}</includeonly>}}}]]
+| labelstyle  = background-color:#F2F2F2;
+
+| header1 = {{#if:{{{maqaalka|}}}|'''<span class="plainlinks">[{{SERVER}}{{SCRIPTPATH}}/index.php?editintro=Template:Caddaymo_Maqaal_Sharaxan/Shraxaad_Wadahadal&title=Wikipedia:Sharaxaada_Maqaalada_Xulka_Ah/{{#invoke:String|replace|{{Trim|{{{maqaalka|}}} }}| |_}}/caddaymo&action=edit bedel wadahadalka]</span>'''}}
+
+| label2  = Maqaal la soo turjumay
+| data2  = {{{la turjumay|lama yaqaan}}}
+
+| label3  = Af-Soomaali wanaagsan inta la woodo?
+| data3a  = {{#ifeq:{{{luqad wanaagsan}}}|haa|{{haa}}|}}
+| data3b  = {{#ifeq:{{{luqad wanaagsan}}}|maya|{{maya}}|}}
+
+| label4  = Sugan?
+| data4a  = {{#ifeq:{{{sugan}}}|haa|{{haa}}|}}
+| data4b  = {{#ifeq:{{{sugan}}}|maya|{{maya}}|}}
+
+| label5  = Lagu soo bandhigay [[Wikipedia:Aragtida dhexdhexaadnimada|Aragtida dhexdhexaadnimada]]?
+| data5a  = {{#ifeq:{{{dhexdhexaad}}}|haa|{{haa}}|}}
+| data5b  = {{#ifeq:{{{dhexdhexaad}}}|maya|{{maya}}|}}
+
+| label6  = Ilaha iyo xog soomaaliyeed
+| data6a  = {{#ifeq:{{{xog soomaaliyeed}}}|haa|{{haa}}|}}
+| data6b  = {{#ifeq:{{{xog soomaaliyeed}}}|maya|{{maya}}|}}
+
+| label7  = Adeegsiga tusmada xogta isuduwaha
+| data7a  = {{#ifeq:{{{xogta isuduwaha}}}|haa|{{haa}}|}}
+| data7b  = {{#ifeq:{{{xogta isuduwaha}}}|maya|{{maya}}|}}
+
+| label8  = Ugu badnaa sawiro xor ah?
+| data8a  = {{#ifeq:{{{sawiro xor ah}}}|haa|{{haa}}|}}
+| data8b  = {{#ifeq:{{{sawiro xor ah}}}|maya|{{maya}}|}}
+
+| label9  = Lagu muujiray Sawiro ku haboon?
+| data9a  = {{#ifeq:{{{muujin sawiro haboon}}}|haa|{{haa}}|}}
+| data9b  = {{#ifeq:{{{muujin sawiro haboo}}}|maya|{{maya}}|}}
+
+| label10  = [[Wikipedia:Tusaale Habka/Sanduuqa|Sanduuqa macluumaadka]] la buuxiyay
+| data10a  = {{#ifeq:{{{sanduuqa macluumaadka}}}|haa|{{haa}}|}}
+| data10b  = {{#ifeq:{{{sanduuqa macluumaadka}}}|maya|{{maya}}|}}
+
+| label11  = [[Wikipedia:Category|Qaybaha]] oo dhan
+| data11a  = {{#ifeq:{{{qaybaha oo dhan}}}|haa|{{haa}}|}}
+| data11b  = {{#ifeq:{{{qaybaha oo dhan}}}|لا|{{لا}}|}}
+
+| label12  = qaybtayda eeg sidoo kale link banaaka a
+| data12a  = {{#ifeq:{{{qaybtayda eeg sidoo kale link banaaka ah}}}|haa|{{haa}}|}}
+| data12b  = {{#ifeq:{{{qaybtayda eeg sidoo kale link banaaka ah}}}|maya|{{maya}}|}}
+
+| label13  = tusmooyin web ku xiran?
+| data13a  = {{#ifeq:{{{tusmo web}}}|haa|{{haa}}|}}
+| data13b  = {{#ifeq:{{{tusmo web}}}|maya|{{maya}}|}}
+
+| label14  = ku xiran mashaariic bahawadaah?
+| data14a  = {{#ifeq:{{{mashaariic bahwadaag}}}|haa|{{haa}}|}}
+| data14b  = {{#ifeq:{{{mashaariic bahwadaag}}}|maya|{{maya}}|}}
+
+| label15  = malahan linki kuu gubinaya [[Wikipedia:Faahfaahin|Bogag faahfaahin]]? ([http://dispenser.homenet.org/~dispenser/cgi-bin/dab_solver.py?page=so:{{{maqaalka}}}&commonfixes=on baaris])
+| data15a  = {{#ifeq:{{{link faahfaahin}}}|haa|{{haa}}|}}
+| data15b  = {{#ifeq:{{{link faahfaahin}}}|maya|{{maya}}|}}
+
+| label16  = link buluug manaasab ah?
+| data16a  = {{#ifeq:{{{link buluug}}}|haa|{{haa}}|}}
+| data16b  = {{#ifeq:{{{link buluug}}}|maya|{{maya}}|}}
+
+| label17  = link cascas oo yar?
+| data17a  = {{#ifeq:{{{link cas}}}|haa|{{haa}}|}}
+| data17b  = {{#ifeq:{{{link cas}}}|maya|{{maya}}|}}
+
+| label18  = Malahan wax dhibaato ah ee la xiriirta dacatir?
+| data18a  = {{#ifeq:{{{dayactir}}}|haa|{{haa}}|}}
+| data18b  = {{#ifeq:{{{dayactir}}}|maya|{{maya}}|}}
+
+| headerstyle = padding-top:0;
+| header19 = Macluumaad Farsamo
+
+| label20  = [[Wikipedia:Qaadka maqaalka|Qaadka maqaalka]]
+| data20   ={{PAGESIZE:{{{maqaal|}}}}}
+
+| label21  = Tirada tixraacayada
+| data21  =  {{{tixraac|}}}
+
+| label22  = Tirada qaybaha
+| data22  =  {{{qaybaha|}}}
+
+| label23  = Link
+| data23a  =  {{#ifeq:{{{blue|}}}|||{{color|blue|{{{buluug|}}}}}}}
+| data23b  = {{#ifeq:{{{red|}}}|||{{color|red|{{{guud|}}}}}}}
+
+| below = Caddaymahaan waxaa wax ka bedeli kara qaybo ka mid ah isticmaalayaasha hadba heeraka [[Template:Caddaymo Maqaal Sharaxan/Sharaxaad wadahadal|Horay la iskugu raacay]].
+}}<noinclude>{{Documentation}}</noinclude>
