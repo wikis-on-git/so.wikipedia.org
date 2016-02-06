@@ -1,0 +1,234 @@
+{{infobox
+| abovestyle = background-color:{{#switch:{{lc:{{{Type|{{{type|}}}}}}}}
+ | artery = pink
+ | bone =  whitesmoke
+ | brain = lemonchiffon
+ | embryology = thistle
+ | ligament = <nowiki>#</nowiki>E0E0E0
+ | lymph = lightgreen
+ | muscle = antiquewhite
+ | nerve = lemonchiffon
+ | neuron = lemonchiffon
+ | vein = lightblue
+ | #default = dimgray; color: white
+ }}
+| headerstyle = background-color: #efefef
+| labelstyle = padding-right:0.25em
+| captionstyle =
+
+| above = ''{{{Name|{{{neuron_name|{{{name}}}}}}}}}''
+| image = {{#if:{{{map|{{{Map|}}}}}}
+  |{{#ifexist:Template:{{{map|{{{Map}}}}}}|{{ {{{map|{{{Map}}}}}} | {{{map_position|{{{MapPos}}}}}} | Inline=1 | inline=1 }} }}
+  |{{#invoke:InfoboxImage|InfoboxImage|image={{{ImageMap|{{{Imagemap|{{{image_map|}}}}}}}}}|size={{{MapWidth|}}}|sizedefault=frameless|upright=1.14}}
+  }}
+| caption = {{{map_caption|{{{MapCaption|}}}}}}
+| image2 = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image|{{{image|{{{image_neuron|}}}}}}}}}|size={{{Width|{{{image_size|}}}}}}|sizedefault=frameless|upright=1.14|alt={{{Alt|{{{alt|}}}}}}}}
+| caption2 = {{{Caption|{{{caption|{{{caption_neuron|}}}}}}}}}
+| image3 = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image2|{{{image2|}}}}}}|size={{{Width2|{{{Width|{{{image_size|{{{image2_size|}}}}}}}}}}}}|sizedefault=frameless|upright=1.14|alt={{{Alt2|{{{alt2|}}}}}}}}
+| caption3 = {{{Caption2|{{{caption2|{{{caption2_neuron|}}}}}}}}}
+
+| header1 = {{#if:{{{Latin|}}}{{{Greek|}}}{{{part_of|{{{PartOf|{{{is_part_of|{{{IsPartOf|}}}}}}}}}}}}{{{CarnegieStage|}}}{{{days|{{{Days|}}}}}}{{{system|{{{System|}}}}}}{{{components|{{{Components|}}}}}}{{{location|}}}{{{function|}}}{{{neurotransmitter|}}}{{{morphology|}}}{{{afferents|}}}{{{efferents|}}}{{{Origins|{{{Origin|{{{origins|{{{origin|}}}}}}}}}}}}{{{Insertions|{{{Insertion|{{{insertions|{{{insertion|}}}}}}}}}}}}{{{Articulations|{{{Articulation|{{{articulations|}}}}}}}}}{{{Supplies|}}}{{{DrainsFrom|{{{Drainsfrom|}}}}}}{{{BranchFrom|{{{Branchfrom|{{{Source|{{{source|}}}}}}}}}}}}{{{DrainsTo|{{{Drainsto|}}}}}} {{{BranchTo|{{{Branchto|}}}}}}{{{Blood|{{{blood|{{{artery|{{{Artery|}}}}}}}}}}}}{{{vein|{{{Vein|}}}}}}{{{nerve|{{{Nerve|}}}}}}{{{NerveRoot|}}}{{{lymph|{{{Lymph|}}}}}}{{{Action|{{{action|}}}}}}{{{PhysicalExam|}}}{{{Antagonist|}}}{{{precursor|{{{Precursor|}}}}}}{{{gives_rise_to|{{{GivesRiseTo|}}}}}}|Details}}
+
+<!-- Embryology -->
+| label4 = [[Carnegie stages|Carnegie stage]]<!-- embryology -->
+| data4 = {{#if: {{{CarnegieStage|}}}|[http://genex.hgu.mrc.ac.uk/Databases/HumanAnatomy/new/carnegie{{{CarnegieStage}}}.shtml {{{CarnegieStage}}}]}}
+
+| label5 = Days<!-- embryology -->
+| data5 = {{{days|{{{Days|}}}}}}
+
+| label6 = [[Embryology|Precursor]]
+| data6 = {{{precursor|{{{Precursor|}}}}}}
+
+| label7 = [[Embryology|Gives rise to]]<!-- embryology -->
+| data7 = {{{gives_rise_to|{{{GivesRiseTo|}}}}}}
+
+<!-- Location and system -->
+| label8 = Part of<!-- brain -->
+| data8 = {{{part_of|{{{PartOf|{{{is_part_of|{{{IsPartOf|}}}}}}}}}}}}
+
+| label9 = [[Organ system|System]]
+| data9 = {{{system|{{{System|}}}}}}
+
+| label10 = Location<!-- neuron -->
+| data10 = {{{location|}}}
+
+| label11 = [[Physical examination|Physical Exam]]<!-- muscle -->
+| data11 = {{{PhysicalExam|}}}
+
+| label12 = Components<!-- brain -->
+| data12 = {{{components|{{{Components|}}}}}}
+
+| label13 = [[Morphology (biology)|Morphology]]
+| data13 = {{{morphology|}}}
+
+<!-- Origins (where from) -->
+| label14 = From<!-- ligament -->
+| data14 = {{{From|}}}
+
+| label15 = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}|
+  | muscle = [[Anatomical terms of muscle#Insertion_and_origin|Origin]]
+  | #default = Origins<!-- bone -->
+  }}
+| data15 = {{{Origins|{{{Origin|{{{origins|{{{origin|}}}}}}}}}}}}
+
+| label16 = Drains from<!-- vein, lymph -->
+| data16 = {{{DrainsFrom|{{{Drainsfrom|}}}}}}
+
+| label17 = <div style="width:100%;background-color:{{#switch:{{lc:{{{Type|{{{type|}}}}}}}}|artery=pink|vein=lightblue|lymph=lightgreen}}">Source</div><!-- artery, vein, lymph -->
+| data17 = {{{Source|{{{source|}}}}}}
+
+| label18 = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}
+  |artery=Source<!-- artery -->
+  |#default=From<!-- nerve -->
+  }}
+| data18 = {{#if:{{{Source|{{{source|}}}}}}|<!-- duplicates source -->|{{{BranchFrom|{{{Branchfrom|}}}}}}}}
+
+<!-- Destination -->
+| label19 = To<!-- ligament -->
+| data19 = {{{To|}}}
+
+| label20 = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}|
+  | muscle = [[Anatomical terms of muscle#Insertion_and_origin|Insertion]]
+  | #default = Insertions<!-- bone -->
+  }}
+| data20 = {{{Insertions|{{{Insertion|{{{insertions|{{{insertion|}}}}}}}}}}}}
+
+| label21 = Articulations<!-- bone -->
+| data21 = {{{Articulations|{{{Articulation|{{{articulations|}}}}}}}}}
+
+| label22 = Drains to
+| data22 = {{{DrainsTo|{{{Drainsto|}}}}}}
+
+| label23 = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}
+  |artery=Branches<!-- artery -->
+  |#default=To<!-- nerve -->
+ }}
+| data23 = {{{BranchTo|{{{Branchto|}}}}}}
+
+<!-- Supporting structures (arteries, nerves, ...-->
+| label24 = [[Artery]]
+| data24 = {{{Blood|{{{blood|{{{artery|{{{Artery|}}}}}}}}}}}}
+
+| label25 = [[Vein]]
+| data25 = {{{vein|{{{Vein|}}}}}}
+
+| label26 = [[Nerve]]
+| data26 = {{{nerve|{{{Nerve|}}}}}}
+
+| label27 = [[Nerve root]]<!-- muscle -->
+| data27 = {{{NerveRoot|}}}
+
+| label28 = [[Lymph]]
+| data28 = {{{lymph|{{{Lymph|}}}}}}
+
+<!-- Function -->
+| label29 = Function<!-- neuron -->
+| data29 = {{{function|}}}
+
+| label30 = Supplies<!-- artery -->
+| data30 = {{{Supplies|}}}
+
+| label31 = Innervates<!-- nerve -->
+| data31 = {{{Innervates|}}}
+
+| label32 = [[Anatomical terms of motion|Actions]]<!-- muscle -->
+| data32 = {{{Action|{{{action|}}}}}}
+
+| label33 = [[Antagonist (muscle)|Antagonist]]<!-- muscle -->
+| data33 = {{{Antagonist|}}}
+
+| label34 = Neurotransmitter<!-- neuron -->
+| data34 = {{{neurotransmitter|}}}
+
+| label35 = Presynaptic connections<!-- neuron -->
+| data35 = {{{afferents|}}}
+
+| label36 = Postsynaptic connections<!-- neuron -->
+| data36 = {{{efferents|}}}
+
+| label37 = [[Nerve fiber|Fiber type]]<!-- nerve -->
+| data37 = {{{FiberType|}}}
+
+| header38 = {{#if:{{{acronym|{{{Acronym|}}}}}}{{{MeshName|{{{Meshname|{{{MeSHname|}}}}}}}}}{{{code|{{{Code|}}}}}}{{both|{{{BrainInfoType|}}}|{{{BrainInfoNumber|}}}}}{{{NeuroLexID|}}}{{{Dorlands|}}}{{#property:P1323}}{{{FMA|{{#property:P1402}}}}}|Identifiers}}
+
+| label39 = [[Latin]]
+| data39 = {{#if:{{{Latin|}}}|''{{{Latin}}}''}}
+
+| label40 = [[Ancient Greek|Greek]]
+| data40 = {{#if:{{{Greek|}}}|''{{{Greek}}}''}}
+
+
+| label41 = Acronym(s)<!-- brain -->
+| data41 = {{{acronym|{{{Acronym|}}}}}}
+
+<!-- MeSH / Dorlands -->
+| label42 = [[Medical Subject Headings|MeSH]]
+| data42 = {{#if:{{{MeshName|{{{Meshname|{{{MeSHname|}}}}}}}}}|''[//www.nlm.nih.gov/cgi/mesh/{{{MeshYear|2011}}}/MB_cgi?mode=&term={{{MeshName|{{{Meshname|{{{MeSHname|}}}}}}}}} {{if empty|{{{MeshNumber|}}}|{{{MeshName|{{{Meshname|{{{MeSHname|}}}}}}}}}}}]''}}
+
+| label43 = Code
+| data43 = {{{code|{{{Code|}}}}}}
+
+| label44 = [[NeuroNames]]<!-- brain -->
+| data44 = {{#if:{{both|{{{BrainInfoType|}}}|{{{BrainInfoNumber|}}}}}|''[http://braininfo.rprc.washington.edu/Scripts/{{{BrainInfoType}}}centraldirectory.aspx?ID={{{BrainInfoNumber}}} {{{BrainInfoType}}}-{{{BrainInfoNumber}}}]''}}
+
+| label45 = [[NeuroLex]] ID<!-- brain, neuron -->
+| data45 = {{#if: {{{NeuroLexID|}}} | ''[http://www.neurolex.org/wiki/{{{NeuroLexID}}} {{if empty|{{{NeuroLex|}}}|{{{NeuroLexID}}}}}]'' }}
+
+| label46 = [[Elsevier|Dorlands<br/>/Elsevier]]
+| data46 = {{#if: {{{Dorlands|}}}
+  | ''[https://web.archive.org/web/20071013131640/http://www.mercksource.com/pp/us/cns/cns_hl_dorlands_split.jsp?pg=/ppdocs/us/common/dorlands/dorland/{{{Dorlands}}}.htm {{if empty|{{{DorlandsSuf|}}}|{{{DorlandsID|}}}|{{{Dorlands}}}}}]''
+  | {{#if: {{{DorlandsPre|}}} |''[https://web.archive.org/web/20071013131640/http://www.mercksource.com/pp/us/cns/cns_hl_dorlands.jspzQzpgzEzzSzppdocszSzuszSzcommonzSzdorlandszSzdorlandzSzdmd_{{{DorlandsPre}}}zPzhtm#{{{DorlandsSuf}}} {{{DorlandsPre}}}/{{{DorlandsSuf}}}]'' }}<!-- ligament -->
+  }}
+
+| label47 = [[Brain Architecture Management System|BAMS]]<!-- brain -->
+| data47 = {{#if:{{{BamsSlug|}}}|''[http://brancusi1.usc.edu/brain_parts/{{{BamsSlug}}}/ {{{BamsSlug}}}]'' }}
+
+| label48 = [[Terminologia Anatomica|TA]]
+| data48 = {{main other
+ |{{#if:{{#property:P1323}} |{{#invoke:Wikidata|getTAValue}}}}
+ |{{#if:{{{TA98|{{#property:P1323}}}}}|{{TA98|{{{TA98|{{#property:P1323}}}}}}}}}
+ }}
+
+| label49 = [[Terminologia Histologica|TH]]
+| data49 = {{#if:{{{TH|{{#property:P1694}}}}} |[http://www.unifr.ch/ifaa/Public/EntryPage/ViewTH/THh{{Str rep|{{Str mid|{{{TH|{{#property:P1694}}}}}|2|4}}|.|}}.html {{{TH|{{#property:P1694}}}}}]}}
+
+| label50 = [[Terminologia Embryologica|TE]]
+| data50 = {{#if:{{{TE|{{#property:P1693}}}}} |{{{TE|{{#property:P1693}}}}} }}
+
+| label51 = [[Foundational Model of Anatomy|FMA]]
+| data51 = {{#if:{{{FMA|{{#property:P1402}}}}}| {{FMA|{{{FMA|{{#property:P1402}}}}}|noprefix=1}}}}
+
+| belowstyle = 
+| below = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}
+ | artery = <b><i>[[Anatomical terminology]]</b></i><br>
+ | bone = <b><i>[[Anatomical terms of bone]]</b></i>
+ | brain = <b><i>[[Anatomical terms of neuroanatomy]]</b></i>
+ | embryology = <b><i>[[Anatomical terminology]]</b></i>
+ | ligament = <b><i>[[Anatomical terminology]]</b></i>
+ | lymph = <b><i>[[Anatomical terminology]]</b></i>
+ | muscle = <b><i>[[Anatomical terms of muscle]]</b></i>
+ | nerve = <b><i>[[Anatomical terms of neuroanatomy]]</b></i>
+ | neuron = <b><i>[[Anatomical terminology]]</b></i>
+ | vein = <b><i>[[Anatomical terminology]]</b></i>
+ | #default = <b><i>[[Anatomical terminology]]</b></i>
+ }}<small><div style="text-align: right;">&#91;[[d:{{#invoke:Wikidata|pageId}}|edit on Wikidata]]]</div></small>
+
+}}{{main other|
+{{{{{|safesubst:}}}#ifeq:{{{1|♦}}}|♦||[[Category:Medicine infobox template using deprecated parameters|1{{PAGENAME}}]]
+}}{{{{{|safesubst:}}}#invoke:Check for unknown parameters|check|unknown=[[Category:Medicine infobox template using deprecated parameters|_VALUE_{{PAGENAME}}]]
+| Type | type | Name | neuron_name | name
+| MapPosIGNORE_PARAMETER | MapIGNORE_PARAMETER | TA98IGNORE_PARAMETER
+| ImageMap | Imagemap | image_map | MapWidth | map_caption | MapCaption
+| Image | image | image_neuron | Width | image_size | Alt | alt | Caption | caption | caption_neuron
+| Image2 | image2 | Width2 | image2_size | Alt2 | alt2 | Caption2 | caption2 | caption2_neuron
+| Latin | Greek | part_of | PartOf | is_part_of | IsPartOf | CarnegieStage | days | Days | system | System | components | Components | location | function
+| neurotransmitter | morphology | afferents | efferents | Origin | Origins | origin | origins | Insertion | Insertions | insertion | insertions
+| Articulation | Articulations | articulations | Supplies | DrainsFrom | Drainsfrom | BranchFrom | Branchfrom | Source | source | DrainsTo | Drainsto | BranchTo | Branchto
+| Blood | blood | artery | Artery | vein | Vein | nerve | Nerve | NerveRoot | lymph | Lymph | Action | action | PhysicalExam | Antagonist
+| precursor | Precursor | gives_rise_to | GivesRiseTo | From | To | Innervates | FiberType
+| acronym | Acronym | code | Code | BrainInfoType | BrainInfoNumber | NeuroLex | NeuroLexID
+| Dorlands | DorlandsID | DorlandsPre | DorlandsSuf | TH | TE | FMA | MeshName | Meshname | MeSHname | MeshYear | MeshNumber | BamsSlug | GraySubject | GrayPage}}{{{{{|safesubst:}}}#if:{{{GraySubject|}}}{{{GrayPage|}}}|[[Category:Medicine infobox template using GraySubject or GrayPage]]}}
+}}{{#if:{{{Dorlands|}}}{{{DorlandsPre|}}}|[[Category:Medicine infobox template using Dorlands parameter]]}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+</noinclude>
