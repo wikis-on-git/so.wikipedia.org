@@ -109,10 +109,10 @@
 | label24 = [[Artery]]
 | data24 = {{{Blood|{{{blood|{{{artery|{{{Artery|}}}}}}}}}}}}
 
-| label25 = [[Vein]]
+| label25 = [[Xidid]]o
 | data25 = {{{vein|{{{Vein|}}}}}}
 
-| label26 = [[Nerve]]
+| label26 = Nerfiyo
 | data26 = {{{nerve|{{{Nerve|}}}}}}
 
 | label27 = [[Nerve root]]<!-- muscle -->
@@ -151,7 +151,7 @@
 
 | header38 = {{#if:{{{acronym|{{{Acronym|}}}}}}{{{MeshName|{{{Meshname|{{{MeSHname|}}}}}}}}}{{{code|{{{Code|}}}}}}{{both|{{{BrainInfoType|}}}|{{{BrainInfoNumber|}}}}}{{{NeuroLexID|}}}{{{Dorlands|}}}{{#property:P1323}}{{{FMA|{{#property:P1402}}}}}|Identifiers}}
 
-| label39 = [[Latin]]
+| label39 = Latin
 | data39 = {{#if:{{{Latin|}}}|''{{{Latin}}}''}}
 
 | label40 = [[Ancient Greek|Greek]]
