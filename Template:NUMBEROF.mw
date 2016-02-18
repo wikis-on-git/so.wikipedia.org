@@ -1,0 +1,6 @@
+{{#ifeq:{{{3|}}}|N
+      |{{formatnum:{{NUMBEROF/data|{{{2}}}|{{{1}}}}}}}
+      |{{NUMBEROF/data|{{{2}}}|{{{1}}}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
