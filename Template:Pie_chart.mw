@@ -1,0 +1,74 @@
+<includeonly><div class="thumb t{{{thumb|right}}}"><div class="thumbinner" style="width:202px">
+<!-- Graph -->
+<div style="background-color:white;margin:auto;position:relative;width:200px;height:200px;overflow:hidden">
+{{#if:{{{value15|}}}|{{Pie chart/slice|{{{color15|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}+{{{value11}}}+{{{value12}}}+{{{value13}}}+{{{value14}}}+{{{value15}}}
+}}}}}}
+{{#if:{{{value14|}}}|{{Pie chart/slice|{{{color14|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}+{{{value11}}}+{{{value12}}}+{{{value13}}}+{{{value14}}}
+}}}}}}
+{{#if:{{{value13|}}}|{{Pie chart/slice|{{{color13|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}+{{{value11}}}+{{{value12}}}+{{{value13}}}
+}}}}}}
+{{#if:{{{value12|}}}|{{Pie chart/slice|{{{color12|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}+{{{value11}}}+{{{value12}}}
+}}}}}}
+{{#if:{{{value11|}}}|{{Pie chart/slice|{{{color11|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}+{{{value11}}}
+}}}}}}
+{{#if:{{{value10|}}}|{{Pie chart/slice|{{{color10|sienna}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}+{{{value10}}}
+}}}}}}
+{{#if:{{{value9|}}}|{{Pie chart/slice|{{{color9|purple}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}+{{{value9}}}
+}}}}}}
+{{#if:{{{value8|}}}|{{Pie chart/slice|{{{color8|orange}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}+{{{value8}}}
+}}}}}}
+{{#if:{{{value7|}}}|{{Pie chart/slice|{{{color7|brown}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}+{{{value7}}}
+}}}}}}
+{{#if:{{{value6|}}}|{{Pie chart/slice|{{{color6|aqua}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}+{{{value6}}}
+}}}}}}
+{{#if:{{{value5|}}}|{{Pie chart/slice|{{{color5|fuchsia}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}+{{{value5}}}
+}}}}}}
+{{#if:{{{value4|}}}|{{Pie chart/slice|{{{color4|yellow}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}+{{{value4}}}
+}}}}}}
+{{#if:{{{value3|}}}|{{Pie chart/slice|{{{color3|blue}}}|{{#expr:
+{{{value1}}}+{{{value2}}}+{{{value3}}}
+}}}}}}
+{{#if:{{{value2|}}}|{{Pie chart/slice|{{{color2|green}}}|{{#expr:
+{{{value1}}}+{{{value2}}}
+}}}}}}
+{{#if:{{{value1|}}}|{{Pie chart/slice|{{{color1|red}}}|
+{{{value1}}}
+}}}}
+<div style="position:absolute;left:0;top:0">[[File:Circle frame.svg|200px|link=]]</div>
+</div>
+<!-- Legend -->
+<div class="thumbcaption">
+{{{caption|}}}
+{{#if:{{{label1|}}}|{{legend|{{{color1|red}}}|{{{label1}}} ({{{value1}}}%)}}
+}}{{#if:{{{label2|}}}|{{legend|{{{color2|green}}}|{{{label2}}} ({{{value2}}}%)}}
+}}{{#if:{{{label3|}}}|{{legend|{{{color3|blue}}}|{{{label3}}} ({{{value3}}}%)}}
+}}{{#if:{{{label4|}}}|{{legend|{{{color4|yellow}}}|{{{label4}}} ({{{value4}}}%)}}
+}}{{#if:{{{label5|}}}|{{legend|{{{color5|fuchsia}}}|{{{label5}}} ({{{value5}}}%)}}
+}}{{#if:{{{label6|}}}|{{legend|{{{color6|aqua}}}|{{{label6}}} ({{{value6}}}%)}}
+}}{{#if:{{{label7|}}}|{{legend|{{{color7|<!-- brown --> #a52a2a}}}|{{{label7}}} ({{{value7}}}%)}}
+}}{{#if:{{{label8|}}}|{{legend|{{{color8|<!-- orange --> #ffa500}}}|{{{label8}}} ({{{value8}}}%)}}
+}}{{#if:{{{label9|}}}|{{legend|{{{color9|purple}}}|{{{label9}}} ({{{value9}}}%)}}
+}}{{#if:{{{label10|}}}|{{legend|{{{color10|sienna}}}|{{{label10}}} ({{{value10}}}%)}}
+}}{{#if:{{{label11|}}}|{{legend|{{{color11|sienna}}}|{{{label11}}} ({{{value11}}}%)}}
+}}{{#if:{{{label12|}}}|{{legend|{{{color12|sienna}}}|{{{label12}}} ({{{value12}}}%)}}
+}}{{#if:{{{label13|}}}|{{legend|{{{color13|sienna}}}|{{{label13}}} ({{{value13}}}%)}}
+}}{{#if:{{{label14|}}}|{{legend|{{{color14|sienna}}}|{{{label14}}} ({{{value14}}}%)}}
+}}{{#if:{{{label15|}}}|{{legend|{{{color15|sienna}}}|{{{label15}}} ({{{value15}}}%)}}
+}}{{#if:{{{other|}}}|{{legend|white|Other ({{#expr:100-{{{value1|0}}}-{{{value2|0}}}-{{{value3|0}}}-{{{value4|0}}}-{{{value5|0}}}-{{{value6|0}}}-{{{value7|0}}}-{{{value8|0}}}-{{{value9|0}}}-{{{value10|0}}}-{{{value11|0}}}-{{{value12|0}}}-{{{value13|0}}}-{{{value14|0}}}-{{{value15|0}}}}}%)}}}}
+</div>
+</div></div></includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata.  -->
+</noinclude>
