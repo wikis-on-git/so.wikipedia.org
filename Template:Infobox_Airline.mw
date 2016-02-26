@@ -1,0 +1,115 @@
+{{Infobox
+| bodyclass = vcard
+
+| title      = <includeonly>{{{airline|{{PAGENAMEBASE}}}}}</includeonly>
+| titleclass = fn org
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|{{{image|}}} }}}|size={{{image_size|{{{logo_size|}}}}}}|sizedefault=250px|alt={{{alt|}}}}}
+| caption = {{{caption|}}}
+
+| headerstyle = background-color: lightgrey;
+
+| data1 = {{#if:{{{IATA|}}}{{{ICAO|}}}{{{callsign|}}}|
+{{{!}} style="border-collapse: collapse; width: 100%; background-color: lightgrey; font-weight: bold; line-height: 1;"
+{{!}}-
+! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[IATA airline designator|IATA]]
+! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[ICAO airline designator|ICAO]]
+! scope="col" style="padding-top: 0.5em; text-align: center;" {{!}} [[Airline call sign|Callsign]]
+{{!}}-
+{{!}} class="nickname" style="padding-bottom: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} {{{IATA|—}}}
+{{!}} class="nickname" style="padding-bottom: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} {{{ICAO|—}}}
+{{!}} class="nickname" style="padding-bottom: 0.5em; text-align: center;" {{!}} {{{callsign|—}}}
+{{!}}}
+}}
+
+| label5 = Aasaasay
+| data5  = {{{founded|}}}
+
+| label6 = Shaqada bilowday
+| data6  = {{{commenced|}}}
+
+| label7 = Howl ka joojin
+| data7  = {{{ceased|}}}
+
+| label8 = [[Shahaadada duulimaadka|AOC&nbsp;#]]
+| data8  = {{{aoc|}}}
+
+| label9 = Saldhigga fulinta
+| data9  = {{{bases|}}}
+
+| label10 = Xarunta duulimaadka
+| data10  = {{{hubs|}}}
+
+| label11 = [[Airline hub|Secondary hubs]]
+| data11  = {{{secondary_hubs|}}}
+
+| label12 = [[Magaalada diiradda]]
+| data12  = {{{focus_cities|}}}
+
+| label13 = [[Barnaamijka doolista joogtada]]
+| data13  = {{{frequent_flyer|}}}
+
+| label14 = [[Qolka Nasiinada Garoonka]]
+| data14  = {{{lounge|}}}
+
+| label15 = [[Isbahaysi duulimaad|Isbahaysi]]
+| data15  = {{{alliance|}}}
+
+| label16 = [[Laamaha|Shirkadaha raacsan]]
+| data16  = {{{subsidiaries|}}}
+
+| label17 = Baaxadda kobaca
+| data17  = {{{fleet_size|}}}
+
+| label18 = Baraha
+| data18  = {{{destinations|}}}
+
+| label19 = Halkudhegga shirkadda
+| data19  = {{{company_slogan|}}}
+
+| label20 = [[Shirkadda leh]]
+| data20  = {{{parent|}}}
+
+| label21 = [[Sumadda Saamiga|Baayacmushtari&nbsp;sida]]
+|  data21 = {{{traded_as|}}}
+
+| label22 = [[Lambarka Caalamiga Aqoonsiga Nabadgelyada|ISIN]]
+|  data22 = {{#if:{{{ISIN|}}} |<span class="plainlinks nourlexpansion">[{{fullurl:toollabs:isin/|language=de&isin={{urlencode:{{{ISIN}}}}}}} {{{ISIN}}}]</span>}}
+
+| label23 = Xarunta
+| class23 = calaamad
+| data23  = {{{headquarters|}}}
+
+| label24 = Dadka haga
+| data24  = {{{key_people|}}}
+
+| label25 = [[Faaiidada]]
+| data25  = {{{revenue|}}}
+
+| label26 = [[Faaiidada ka hor canshuurta iyo dulsaarka|Dakhliga socodsiinta]]
+| data26  = {{{operating_income|}}}
+
+| label27 = [[Dakhliga]]
+| data27  = {{{net_income|}}}
+
+| label28 = [[Dakhliga|Macaashka]]
+| data28  = {{{profit|}}}
+
+| label29 = [[Hanti|Handida guud]]
+| data29  = {{{assets|}}}
+
+| label30 = [[Saami (dhaqaale)|Saamileyda]]
+| data30  = {{{equity|}}}
+
+| label31 = Shaqaalaha
+| data31  = {{{num_employees|}}}
+
+| label32 = Website
+| data32  = {{{website|}}}
+
+| header33 = {{#if:{{{notes|}}}|Notes}}
+| data34  = {{#if:{{{notes|}}}|<div style="text-align: left;">
+{{{notes|}}}</div>}}
+
+}}<noinclude>
+{{Documentation}}</noinclude>
