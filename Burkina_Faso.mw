@@ -1,44 +1,85 @@
-{{Dalalka
-|native_name                   = ''Burkina Faso (fr)''
-|conventional_long_name        = 
-|common_name                   = Burkina Faso 
-|qaarada                       = [[Afrika]] 
-|sawir_calan                   = Flag of Burkina Faso.svg
-|sawir_qaran                   =
-|astaan_calan                  = 
-|image_map                     = LocationBurkinaFaso.svg
-|caasimada                     = [[Ougadougou]]
-|luuqadaha                     = [[Af-Faransiis]]
-|Dawladda                       = &nbsp;
-|magac_hogaamiye1              =  
-|magac_hogaamiye2              =   
-|magac_hogaamiye1              = 
-|magac_hogaamiye2              = 
-|sovereignty_type              = 
-|sovereignty_note              = 
-|established_event1            = 
-|established_date1             = 
-|area                          = 
-|areami²                       =  
-|biyo                          = 
-|population_estimate           =  
-|population_estimate_year      = 
-|lacagta                       = 
-|wakhti                        = 
-|furaha_debeda		       = 
-|footnote1                     = 
-|footnote2                     = 
-
+{{Infobox country
+|conventional_long_name = Burkina Faso
+|image_flag = Flag of Burkina Faso.svg
+|image_coat = Coat of arms of Burkina Faso.svg
+|national_motto = {{native phrase|fr|"Unité–Progrès–Justice"|italics=off}}<br/>{{small|"Unity–Progress–Justice"}}
+|national_anthem = {{nowrap|{{native phrase|fr|[[Une Seule Nuit]] / Ditanyè|nolink=yes}}<br/>{{small|''One Single Night / Hymn of Victory''}}}}<br /><center>[[File:Hymne National du Burkina Faso.ogg]]</center>
+|image_map = Location Burkina Faso AU Africa.svg
+|map_caption = {{map caption |countryprefix= |location_color=dark blue |region=[[Africa]] |region_color=dark grey |subregion=the [[African Union]] |subregion_color=light blue |legend=Location Burkina Faso AU Africa.svg}}
+|official_languages = [[French language|French]]
+|regional_languages = [[Mòoré language|Mòoré]]<br />[[Mandinka language|Mandinka]]<br />[[Bambara language|Bambara]]
+|demonym = {{hlist |Burkinabé |Burkinabè |Burkinabe}}
+|ethnic_groups =
+ {{vunblist
+ | 47.9% [[Mossi people|Mossi]]
+ | 10.3% [[Fula people|Fulani]]
+ | 6.9% [[Lobi people|Lobi]]
+ | 6.9% [[Bobo people|Bobo]]
+ | 6.7% [[Mandé peoples|Mandé]]
+ | 5.3% [[Senufo people|Senufo]]
+ | 5.0% [[Gurunsi]]
+ | 4.8% [[Gurma people|Gurma]]
+ | 3.1% [[Tuareg people|Tuareg]]
+ }}
+|ethnic_groups_year = 1995
+|capital = [[Ouagadougou]]
+|latd=12 |latm=20 |latNS=N |longd=1 |longm=40 |longEW=W
+|largest_city = capital
+|religion = <!-- See Religion section -->
+|government_type = [[Semi-presidential system|Semi-presidential]] [[republic]]
+|leader_title1 = [[List of heads of state of Burkina Faso|President]]
+|leader_name1 = [[Roch Marc Christian Kaboré]]
+|leader_title2 = [[List of heads of government of Burkina Faso|Prime Minister]]
+|leader_name2 = [[Paul Kaba Thieba]]
+|sovereignty_type = [[Independence]]
+|established_event1 = from [[France]]
+|established_date1 = 5&nbsp;August 1960
+|area_km2 = 274,200
+|area_sq_mi = 105,869 <!--Do not remove per [[WP:MOSNUM]]-->
+|area_rank = 74th
+|area_magnitude = 1 E11
+|percent_water = 0.146%
+|population_estimate = 17,322,796<ref name="INSD">{{cite web|url=http://www.insd.bf/fr/ |title=Burkina Faso population projection |work=insd.bf |year=2014 |accessdate=1 October 2014 |language=fr |deadurl=yes |archiveurl=https://web.archive.org/20140901021928/http://www.insd.bf:80/fr/ |archivedate=1 September 2014 }}</ref>
+|population_estimate_year = 2014
+|population_estimate_rank = 61st
+|population_census = 14,017,262
+|population_census_year = 2006
+|population_density_km2 = 57.4
+|population_density_sq_mi = 148.9 <!--Do not remove per [[WP:MOSNUM]]-->
+|population_density_rank = 145th
+|GDP_PPP_year = 2014
+|GDP_PPP = $28&nbsp;billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/weorept.aspx?pr.x=25&pr.y=9&sy=2014&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=748&s=PPPGDP%2CPPPPC&grp=0&a= |title=Burkina Faso |publisher=International Monetary Fund |accessdate=1 October 2014}}</ref>
+|GDP_PPP_rank = 
+|GDP_PPP_per_capita = $1,666<ref name=imf2/>
+|GDP_PPP_per_capita_rank = 
+|GDP_nominal = $13&nbsp;billion<ref name=imf1>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2014/01/weodata/weorept.aspx?pr.x=38&pr.y=14&sy=2014&ey=2014&scsm=1&ssd=1&sort=country&ds=.&br=1&c=748&s=NGDPD%2CNGDPDPC&grp=0&a= |title=Burkina Faso |publisher=International Monetary Fund |accessdate=1 October 2014}}</ref>
+|GDP_nominal_year = 2014
+|GDP_nominal_per_capita = $790<ref name=imf1/>
+|HDI_year = 2014 <!-- Please use the year to which the data refers, not the publication year -->
+|HDI_change = increase <!-- increase/decrease/steady -->
+|HDI = 0.402 <!--number only-->
+|HDI_ref = <ref name="HDI">{{cite web |url=http://hdr.undp.org/sites/default/files/hdr_2015_statistical_annex.pdf |title=2015 Human Development Report|date=2014 |accessdate=14 December 2015 |publisher=United Nations Development Programme }}</ref>
+|HDI_rank = 183rd
+|Gini_year = 2007
+|Gini_change = <!-- increase/decrease/steady -->
+|Gini = 39.5 <!-- number only -->
+|Gini_ref = <ref>{{cite web |url=https://www.cia.gov/library/publications/the-world-factbook/fields/2172.html |title=Distribution of family income – Gini index |work=The World Factbook |publisher=CIA |accessdate=1 September 2009}}</ref>
+|Gini_rank = 
+|currency = [[West African CFA franc]]<ref>CFA Franc BCEAO. Codes: XOF / 952 [http://www.currency-iso.org/dam/downloads/table_a1.xml ISO 4217 currency names and code elements]. ISO.</ref>
+|currency_code = XOF
+|time_zone = [[GMT]]
+|utc_offset = +0
+|time_zone_DST = not observed
+|utc_offset_DST = +0
+|drives_on = right
+|calling_code = [[+226]]
+|cctld = [[.bf]]
+|iso3166code = BF
+|footnotes = The data here is an estimation for the year 2005 produced by the International Monetary Fund in April 2005.
 }}
-[[File:Map of Burkina Faso cs.png|right|270px|thumbnail|Burkina Faso]]
+'''Burkina faso''' waa wadan ku yaal [[galbeedka afrika]], waxaa ku hareeraysan lix wadan, oo kala ah [[Maali]] oo woqooyi ka ah, [[nayjar]] oo bari ka xigta, [[Benin]] koofur bari, [[Togo]] iyo [[Gaana]] koonfur, iyo [[ivory coast]] oo koonfur galbeed, waxay ka mid tahay wadamada dhaca [[saxaraha wayn]] ee afrika, caasimada wadanka waa [[Ouagadougou|'''Ouagadougou''']], 2014 tirikoobkii la sameeyay waxaa lagu qiyaasaa 17.3 milyan oo qof, baaxada wadanku waa  274,200 km<sup>2</sup>
 
-== Cities ==
-[[w:
-]]
-
-== Geography ==
-[[w:en:Niger River]]
-[[w:en:West Africa]]
+dhaqaalaha wadanka ayaa ku tiirsan wax soo saarka beeraha, wuxuu soo saaraa suufka, digirta, galleyda, dhinaca xoolaha lo'da iyoa ariga,[[File:Map of Burkina Faso cs.png|right|270px|thumbnail|Burkina Faso]]
 
 {{Dalalka Afrika}}
 
