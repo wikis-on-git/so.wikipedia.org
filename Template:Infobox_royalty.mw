@@ -42,7 +42,7 @@
 | headerstyle = background-color: #e4dcf6
 | header1 =  {{#if:{{{succession|}}}|{{{succession}}} {{#if:{{{moretext|}}}|{{nobold|<small>{{{moretext}}}</small>}}}}}}
 
-| label2 = {{ifempty| {{{reign-type|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Reign}}<!--BACKWARD COMPAT FROM IBR-->}} }}
+| label2 = {{ifempty| {{{reign-type|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Tallada}}<!--BACKWARD COMPAT FROM IBR-->}} }}
 | data2 = {{{reign|}}}
 
 | label3 = {{#switch:{{lc:{{{cor-type}}}}}
@@ -63,10 +63,10 @@
 | label4 = Investiture
 | data4 = {{{investiture|}}}
 
-| label5 = {{#if:{{{pre-type|}}}|{{{pre-type}}}|Predecessor}}
+| label5 = {{#if:{{{pre-type|}}}|{{{pre-type}}}|Ka horeeyay}}
 | data5 = {{{predecessor|}}}
 
-| label6 = {{#if:{{{suc-type|}}}|{{{suc-type}}}|Successor}}
+| label6 = {{#if:{{{suc-type|}}}|{{{suc-type}}}|Ku xigay}}
 | data6 = {{{successor|}}}
 
 | label7 = {{#if:{{{reg-type|}}}|{{{reg-type}}}|Regent}}
@@ -125,13 +125,13 @@
 
 | header26 = {{#if: {{{succession|}}} | <div style="height: 4px; width:100%;"></div>}}
 
-| label27 = Born
+| label27 = Dhashay
 | data27 = {{br separated entries| {{{birth_name|}}} | {{{birth_date|}}} | {{{birth_place|}}} }}
 
-| label28 = Died
+| label28 = Dhintey
 | data28 = {{br separated entries| {{{death_date|}}} | {{{death_place|}}} }}
 
-| label29 = Burial
+| label29 = Ku aasan
 | data29 = {{br separated entries |1= {{{burial_date|{{{date of burial|}}}}}} |2= {{#if:{{{burial_place|{{{place of burial|}}}}}}|<span class="label">{{{burial_place|{{{place of burial|}}}}}}</span>}} }}
 
 | label30 = Consort
@@ -140,7 +140,7 @@
 | label31 = {{{spouse-type|{{#switch:{{{type}}}|monarch={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|majesty={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|Spouse}}}}}
 | data31 = {{{spouse|}}}
 
-| label32 = {{#if:{{{spouses-type|}}}|{{{spouses-type}}}|Spouse}}<!--FOOLPROOFING. USE NOT GENERALLY ENCOURAGED: USE spouse-->
+| label32 = {{#if:{{{spouses-type|}}}|{{{spouses-type}}}|Xaaska}}<!--FOOLPROOFING. USE NOT GENERALLY ENCOURAGED: USE spouse-->
 | data32 = {{{spouses|}}}
 
 | label33 = {{#if:{{{spouse 2|}}} | Wives | Wife }}
@@ -201,7 +201,7 @@
 | label40 = {{{native_lang5}}}
 | data40 = {{#if: {{{native_lang5|}}}|{{{native_lang5_name1|}}}}}
 
-| label41 = [[Dynasty|{{#if:{{{house-type|}}}|{{{house-type}}}|House}}]]
+| label41 = [[Boqor|{{#if:{{{house-type|}}}|{{{house-type}}}|Hoyga}}]]
 | data41 = {{{house|}}}
 
 | label42 = [[Dynasty|{{#if:{{{house-type|}}}|{{{house-type}}}|House}}]]
