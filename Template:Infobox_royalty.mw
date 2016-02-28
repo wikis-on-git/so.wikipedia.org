@@ -137,7 +137,7 @@
 | label30 = Consort
 | data30 = {{{queen|}}}
 
-| label31 = {{{spouse-type|{{#switch:{{{type}}}|monarch={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|majesty={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|Spouse}}}}}
+| label31 = {{{spouse-type|{{#switch:{{{type}}}|monarch={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|majesty={{#switch:{{{consort}}}|yes=Spouse|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Spouse|Consort}}<!--BACKWARD COMPAT FROM IBR-->}}|Xaaska}}}}}
 | data31 = {{{spouse|}}}
 
 | label32 = {{#if:{{{spouses-type|}}}|{{{spouses-type}}}|Xaaska}}<!--FOOLPROOFING. USE NOT GENERALLY ENCOURAGED: USE spouse-->
@@ -204,7 +204,7 @@
 | label41 = [[Boqor|{{#if:{{{house-type|}}}|{{{house-type}}}|Hoyga}}]]
 | data41 = {{{house|}}}
 
-| label42 = [[Dynasty|{{#if:{{{house-type|}}}|{{{house-type}}}|House}}]]
+| label42 = [[Boqor|{{#if:{{{house-type|}}}|{{{house-type}}}|Hoyga}}]]
 | data42 = {{{royal house|}}}
 
 | label43 = [[Suldaan|Saldanad]]
