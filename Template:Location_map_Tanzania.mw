@@ -1,0 +1,15 @@
+{{#switch:{{{1}}}
+| name   = Tanzania
+| top    = 0.25
+| bottom = -13
+| left   = 28
+| right  = 42
+| image  = Tanzania location map.svg
+| image1 = Tanzania relief location_map.svg
+}}<noinclude>
+{{Location map/Info}}
+{{Documentation}}
+
+[[Category:Location map by country templates|Tanzania]]
+
+</noinclude>
