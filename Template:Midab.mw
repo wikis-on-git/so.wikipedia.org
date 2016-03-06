@@ -1,30 +1,30 @@
-<includeonly><font color="{{#switch:{{{1|}}}
-|guduud=red
-|guduud tiq= DarkRed
-| fiid = Pink
-| ubax = HotPink
-|doog=green
-|doog furan = LightGreen
-|saytuun=olive
-|doog qarsan = DarkGreen
-|buluug=blue
-|buluug cireed = SkyBlue
-|buluug badeed = Navy
-|dambasle=brown
-|maariin = Maroon
-|jaalle=yellow
-|dahabi = Gold
-|burtuqaal=orange
-|dameeri=gray
-|dameer dilan = DimGray
-|kaynroobaad = BlueViolet
-|aranjo = Purple
-|cad = white
-|madoow=black
-|number=#{{{2|}}}
-| #default = black
-}}">{{#ifeq:{{{1|}}}|number|{{{3}}}|{{{2}}}}}</font></includeonly><noinclude>
-{{Documentation}}
+{{Navbox
+| name      = midab
+| title     = [[Midab|Dhamaan Midabka iyo Ileyks]]
+| bodyclass = hlist
 
-[[Category:Template]]
-</noinclude>
+| group1 = Dhamaan Midabada
+|list1 = {{Navbox subgroup
+ | group1 = [[Midabada Asaasiga]]
+ | list1 =[[casaan]] {{•}} [[cagaar]] {{•}} [[buluug]] {{•}} [[cadaan]] 
+
+| group2 =[[Midabada|Noocyada Kale Midabada]]
+|list2 = [[cowlaan]] {{•}} [[buni]] {{•}} [[huruud]] {{•}} [[madoow]] {{•}} [[Oranji]] {{•}} [[baxri]] {{•}} [[basali]] {{•}} [[liini]] {{•}} [[cowl]] {{•}} [[basli]] {{•}} [[casuus]] (purple)
+}}
+
+| group2 = Sayniska Midabada
+|list2 = {{Navbox subgroup
+ | group3 = Xidhiidhka [[Iftiin]]ka iyo Midabada
+ | list3 =
+*[[Ileys]]
+*[[Iftiin|Ileyska Ili Qabatayga]]
+*[[Qaanso Roob]]
+*[[Midabada Asaasiga|Midab ugu muhiimsan]]
+
+ | group4 = Qodobo Kale Iftiinka
+ | list4 =
+*[[Mugdi]]
+*[[Iftiin la'aan|Arag La'aan]]
+}}
+}}<noinclude>[[Category:Midab|{{PAGENAME}}]]</noinclude>
+<includeonly>[[Category:Midabada Asaasiga]]</includeonly>
