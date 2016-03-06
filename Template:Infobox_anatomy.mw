@@ -16,7 +16,7 @@
 | labelstyle = padding-right:0.25em
 | captionstyle =
 
-| above = ''{{{Name|{{{neuron_name|{{{name}}}}}}}}}''
+| above = 
 | image = {{#if:{{{map|{{{Map|}}}}}}
   |{{#ifexist:Template:{{{map|{{{Map}}}}}}|{{ {{{map|{{{Map}}}}}} | {{{map_position|{{{MapPos}}}}}} | Inline=1 | inline=1 }} }}
   |{{#invoke:InfoboxImage|InfoboxImage|image={{{ImageMap|{{{Imagemap|{{{image_map|}}}}}}}}}|size={{{MapWidth|}}}|sizedefault=frameless|upright=1.14}}
