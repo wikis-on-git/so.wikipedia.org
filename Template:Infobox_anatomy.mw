@@ -183,11 +183,8 @@
 | label47 = [[Brain Architecture Management System|BAMS]]<!-- brain -->
 | data47 = {{#if:{{{BamsSlug|}}}|''[http://brancusi1.usc.edu/brain_parts/{{{BamsSlug}}}/ {{{BamsSlug}}}]'' }}
 
-| label48 = [[Terminologia Anatomica|TA]]
-| data48 = {{main other
- |{{#if:{{#property:P1323}} |{{#invoke:Wikidata|getTAValue}}}}
- |{{#if:{{{TA98|{{#property:P1323}}}}}|{{TA98|{{{TA98|{{#property:P1323}}}}}}}}}
- }}
+| label48 = TA
+| data48 = 
 
 | label49 = [[Terminologia Histologica|TH]]
 | data49 = {{#if:{{{TH|{{#property:P1694}}}}} |[http://www.unifr.ch/ifaa/Public/EntryPage/ViewTH/THh{{Str rep|{{Str mid|{{{TH|{{#property:P1694}}}}}|2|4}}|.|}}.html {{{TH|{{#property:P1694}}}}}]}}
@@ -195,12 +192,12 @@
 | label50 = [[Terminologia Embryologica|TE]]
 | data50 = {{#if:{{{TE|{{#property:P1693}}}}} |{{{TE|{{#property:P1693}}}}} }}
 
-| label51 = [[Foundational Model of Anatomy|FMA]]
-| data51 = {{#if:{{{FMA|{{#property:P1402}}}}}| {{FMA|{{{FMA|{{#property:P1402}}}}}|noprefix=1}}}}
+| label51 = FMA
+| data51 = 
 
 | belowstyle = 
 | below = {{#switch:{{lc:{{{Type|{{{type|}}}}}}}}
- | artery = <b><i>[[Anatomical terminology]]</b></i><br>
+ | artery = <b><i>Anatomical terminology</b></i><br>
  | bone = <b><i>[[Anatomical terms of bone]]</b></i>
  | brain = <b><i>[[Anatomical terms of neuroanatomy]]</b></i>
  | embryology = <b><i>[[Anatomical terminology]]</b></i>
