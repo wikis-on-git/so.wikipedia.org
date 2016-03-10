@@ -1,0 +1,51 @@
+{{Infobox
+|title        = {{#if:{{{country|}}}|{{{country}}} lambarada telefoonada}}
+
+|image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{map_image|}}}|size={{{map_size|}}}|alt={{{map_alt|}}}}}
+|caption      = {{{map_caption|}}}
+
+|headerstyle  = background:lavender;
+
+|header1 = {{#if:{{{country|}}}{{{continent|}}}{{{regulator|}}}|Location}}
+
+|label2  = Dalka
+|data2   = {{#if:{{{country|}}}|{{#if:{{{country_link|}}}|[[{{{country_link|}}}|{{{country|}}}]]|[[{{{country}}}]]}}}}
+
+|label3  = Qaaradda
+|data3   = {{#if:{{{continent|}}}|[[Telephone numbers in {{{continent|}}}|{{{continent|}}}]]}}
+
+|label9  = Hagaha
+|data9   = {{{regulator|}}}
+
+|label10  = Xubin
+|data10   = {{{plan_membership|}}}
+
+|label11  = Nuuca
+|data11   = {{{plan_type|{{{dial_plan_type|}}}}}} <!--use plan_type, not dial_plan_type-->
+
+|label12  = {{abbr |NSN |National (significant) number}} dhererka
+|data12   = {{{nsn_length|}}}
+
+|label13  = Qaab tusaale
+|data13   = {{{number_format|}}}
+
+|label14  = Qorshaha lambaraynta
+|data14   = {{{plan_link|}}}
+
+|label15  = Dib-u-hagaajin
+|data15   = {{{plan_date|}}}
+
+|header16 = {{#if:{{{country_calling_code|}}}{{{international_prefix|}}}{{{trunk_prefix|}}}|Access codes}}
+|label17  = [[Liiska dalalka furaha wicidda|Dalalka furaha wicidda]]
+|data17   = {{{country_calling_code|}}}
+
+|label18  = [[Furaha wicidda dibadda]]
+|data18   = {{{international_prefix|}}}
+
+|label19  = [[Trunk prefix]]
+|data19   = {{{trunk_prefix|}}}
+
+|belowstyle = background:lavender;
+
+|below = {{#if:{{{codes_list|}}}|[[{{{codes_list|}}}|Liiska {{{country|}}} furaha wicidda]]}}
+}}<noinclude>{{documentation}}</noinclude>
