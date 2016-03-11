@@ -1,0 +1,25 @@
+{{#if:{{{HeatCapacity|}}}{{{Entropy|}}}{{{DeltaHf|}}}{{{DeltaGf|}}}{{{DeltaHc|}}}
+|<!-- then:
+ ----- HEADER -----
+-->{{Chembox headerbar
+|header=Teermokimistari
+|ref={{{Thermochemistry_ref|}}}<!--
+ ----- maintenance cats -----
+-->|addcats=<!--
+ ----- templatepar -----
+-->|templatepar={{#invoke:TemplatePar
+|check
+|template=Template:Chembox Thermochemistry
+|all= |opt= Thermochemistry_ref= HeatCapacity= Entropy= DeltaHf= DeltaGf= DeltaHc
+|cat=Chemical articles with unknown parameter in Chembox
+|format=0|preview={{Chembox templatePar/formatPreviewMessage |msg=@@@}}|errNS=0}}<!--
+ ----- END HEADERBAR -->}}<!--
+ ----- START DATA ROWS ----- -->
+{{#if:{{{HeatCapacity|}}} |{{Chembox HeatCapacity |value={{{HeatCapacity|}}} }}}}
+{{#if:{{{Entropy|}}} |{{Chembox Entropy |value={{{Entropy|}}} }}}}
+{{#if:{{{DeltaHf|}}} |{{Chembox DeltaHf |value={{{DeltaHf|}}} }}}}
+{{#if:{{{DeltaGf|}}} |{{Chembox DeltaGf |value={{{DeltaGf|}}} }}}}
+{{#if:{{{DeltaHc|}}} |{{Chembox DeltaHc |value={{{DeltaHc|}}} }}}}<!--
+-->}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
