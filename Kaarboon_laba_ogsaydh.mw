@@ -1,0 +1,93 @@
+{{Chembox
+| Verifiedfields = changed
+| Watchedfields = changed
+| verifiedrevid = 477004235
+| ImageFile1 = Carbon-dioxide-2D-dimensions.svg
+| ImageFile1_Ref = {{chemboximage|correct|??}}
+| ImageSize1 = 170
+| ImageName1 = Structural formula of carbon dioxide with bond length
+| ImageFileL1 = Carbon dioxide 3D ball.png
+| ImageFileL1_Ref = {{chemboximage|correct|??}}
+| ImageNameL1 = Ball-and-stick model of carbon dioxide
+| ImageFileR1 = Carbon dioxide 3D spacefill.png
+| ImageFileR1_Ref = {{chemboximage|correct|??}}
+| ImageNameR1 = Space-filling model of carbon dioxide
+| OtherNames = Carbonic acid gas<br>Carbonic anhydride<br>Carbonic oxide<br>Carbon oxide<br>Carbon(IV) oxide<br>[[Dry ice]] (solid phase)
+|Section1={{Chembox Identifiers
+| CASNo = 124-38-9
+| CASNo_Ref = {{cascite|correct|CAS}}
+| PubChem = 
+| ChEMBL_Ref = {{ebicite|changed|EBI}}
+| ChEMBL = 1231871
+| ChemSpiderID = 274
+| ChemSpiderID_Ref = {{chemspidercite|correct|chemspider}}
+| UNII = 142M471B3J
+| UNII_Ref = {{fdacite|correct|FDA}}
+| EINECS = 204-696-9
+| UNNumber = 1013 (gas), 1845 (solid)
+| KEGG_Ref = {{keggcite|correct|kegg}}
+| KEGG = D00004
+| MeSHName = Carbon+dioxide
+| ChEBI_Ref = {{ebicite|correct|EBI}}
+| ChEBI = 16526
+| RTECS = FF6400000
+| Beilstein = 1900390
+| Gmelin = 989
+| 3DMet = B01131
+| SMILES = O=C=O
+| SMILES1 = C(=O)=O
+| StdInChI = 1S/CO2/c2-1-3
+| StdInChI_Ref = {{stdinchicite|correct|chemspider}}
+| InChI = 1/CO2/c2-1-3
+| StdInChIKey = CURLTUGMZLYLDI-UHFFFAOYSA-N
+| StdInChIKey_Ref = {{stdinchicite|correct|chemspider}}
+| InChIKey = CURLTUGMZLYLDI-UHFFFAOYAO}}
+|Section2={{Chembox Properties
+| C=1 | O=2
+| Appearance = Colorless gas
+| Odor = Odorless
+| Density = 1562 kg/m<sup>3</sup> <small>(solid at 1&nbsp;atm and −78.5&nbsp;°C)</small><br>1101 kg/m<sup>3</sup> <small>(liquid at saturation −37°C)</small><br>1.977&nbsp;kg/m<sup>3</sup> <small>(gas at 1&nbsp;atm and 0&nbsp;°C)</small>
+| Solubility = 1.45 g/L at {{convert|25|C}}, 100 kPa
+| SublimationConditions = −78.5 °C; −109.2 °F; 194.7 K (1 atm)
+| MeltingPtK = 216.6
+| MeltingPt_notes = ([[Triple point]] at 5.1 atm)
+| pKa = 6.35, 10.33
+| RefractIndex = 1.1120
+| Viscosity = 0.07 [[Poise|cP]] at −78.5&nbsp;°C
+| VaporPressure = 5.73 MPa (20 °C)
+| Dipole = 0 D
+ }}
+|Section3={{Chembox Structure
+| CrystalStruct = trigonal
+| MolShape = [[Linear (chemistry)|linear]]
+ }}
+|Section5={{Chembox Thermochemistry
+| DeltaHf = −393.5&nbsp;kJ·mol<sup>−1</sup>
+| HeatCapacity = 37.135 J/K mol
+| Entropy = 214&nbsp;J·mol<sup>−1</sup>·K<sup>−1</sup>
+ }}
+|Section6={{Chembox Pharmacology
+| ATCCode_prefix = V03
+| ATCCode_suffix = AN02
+}}
+|Section7={{Chembox Hazards
+| ExternalSDS = [http://www.sigmaaldrich.com/MSDS/MSDS/DisplayMSDSPage.do?country=PL&language=EN-generic&productNumber=295108&brand=ALDRICH&PageToGoToURL=http%3A%2F%2Fwww.sigmaaldrich.com%2Fcatalog%2Fproduct%2Faldrich%2F295108%3Flang%3Dpl Sigma-Aldrich]
+| NFPA-H = 1
+| NFPA-F = 0
+| NFPA-R = 0
+| PEL = TWA 5000 ppm (9000 mg/m<sup>3</sup>)<ref name=PGCH>{{PGCH|0103}}</ref>
+| IDLH = 40,000 ppm<ref name=PGCH/>
+| REL = TWA 5000 ppm (9000 mg/m<sup>3</sup>) ST 30,000 ppm (54,000 mg/m<sup>3</sup>)<ref name=PGCH/> 
+| LCLo = 90,000 ppm (human, 5 min)<ref>{{IDLH|124389|Carbon dioxide}}</ref>
+ }}
+|Section8={{Chembox Related
+| OtherAnions = [[Carbon disulfide]]<br>[[Carbon diselenide]]<br>[[Carbon ditelluride]]
+| OtherCations = [[Silicon dioxide]]<br>[[Germanium dioxide]]<br>[[Tin dioxide]]<br>[[Lead dioxide]]
+| OtherFunction_label = [[carbon]] [[oxide]]s
+| OtherFunction = [[Carbon monoxide]]<br>[[Carbon suboxide]]<br>[[Dicarbon monoxide]]<br>[[Carbon trioxide]]
+| OtherCompounds = [[Carbonic acid]]<br>[[Carbonyl sulfide]]
+ }}
+}}
+
+
+{{Gumud}}
