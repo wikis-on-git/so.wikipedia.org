@@ -1,0 +1,44 @@
+| colspan=2 style="text-align:left; background:#f8eaba;" | {{yesno|{{{show_ss_note|yes}}}|yes=<div style="margin:0 auto; text-align:left;">{{longitem|Except where otherwise noted, data are given for materials in their [[standard state]] (at 25&nbsp;°C [77&nbsp;°F], 100&nbsp;kPa).{{#if:{{{general_note|}}}|
+<br/>}}}}{{{general_note|}}}}}</div>
+
+|- style="background:#f8eaba; border-top:2px solid transparent;"
+{{#ifexpr:{{#ifeq:{{{Verifiedfields|}}}|changed|1|{{#if:{{{verifiedrevid|}}}|1|0}}}}|
+
+{{Chembox verification
+|Verifiedfields={{{Verifiedfields|}}}
+|Watchedfields={{{Watchedfields|}}}
+|verifiedrevid={{{verifiedrevid|}}}
+}}}}
+
+|- style="background:#f8eaba; border-top:2px solid transparent;"
+| colspan=2 style="text-align:center;" | {{yesno|{{{show_infobox_ref|yes}}}|yes=[[Wikipedia:Chemical infobox#References|Infobox&nbsp;references]]}}
+<!-- In this next row: the LH column width is set for the table (40% default). -->
+
+|- style="background:#f8eaba;"
+| style="width:{{{style-left-column-width|40%}}}; max-height:1px; border-top:2px solid transparent; border-right:1px solid transparent;" |
+| style="width:60%; max-height:1px; border-top:2px solid transparent; border-left:1px solid transparent;" |<!--
+ --- VERIFICATION
+-->{{main other |<!--
+ ----- Chembox verification (3x):
+-->{{#ifeq:{{{Verifiedfields|}}} |changed
+| [[Category:Chemboxes which contain changes to verified fields]] }}<!--
+-->{{#ifeq:{{{Watchedfields|}}} |changed
+| [[Category:Chemboxes which contain changes to watched fields]] }}<!--
+-->{{#if:{{{verifiedrevid|}}}
+||[[Category:Articles containing unverified chemical infoboxes]] }}<!--
+ IMAGES
+-->{{#if:{{{_hasImage|}}}
+||[[Category:Chembox articles without image]] }}<!--
+-->{{yesno|{{{_hasLocalImage|no}}}
+|yes=[[Category:Chemical pages containing a local image]] }}<!--
+ ----- Maint categories DEPR and TRACK
+-->{{#if:{{{_hasDeprecatedParams1|}}}<!-- not used 2015-11-16 --> }}<!--
+-->{{#if:{{{_hasDeprecatedParams2|}}}<!-- not used 2015-07-08 -->
+|[[Category:Chemical infoboxes with tracked parameters|*]] }}<!--
+-->{{#if:{{{_hasTrackedParams1|}}}
+|[[Category:Chemical infoboxes with tracked parameters|W*width]] }}<!--
+-->{{#if:{{{_hasTrackedParams2|}}}
+|[[Category:Chemical infoboxes with tracked parameters|7*]] }}<!-- images in rows 7+
+ close main_other:
+-->}}
+|-<noinclude>{{documentation}}</noinclude>
