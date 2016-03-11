@@ -1,0 +1,14 @@
+{{#if:{{{par_fileL|}}}|
+{{!}} colspan=2 class="borderless" border=0 align=center {{!}} {{Chembox image sbs cell
+|par_fileL={{{par_fileL|}}}
+|par_sizeL={{{par_sizeL|}}}
+|par_altL={{{par_altL|}}}
+|par_titleL={{{par_titleL|}}}
+|par_captionL={{{par_captionL|}}}{{{par_refL|}}}
+|par_fileR={{{par_fileR|}}}
+|par_sizeR={{{par_sizeR|}}}
+|par_altR={{{par_altR|}}}
+|par_titleR={{{par_titleR|}}}
+|par_captionR={{{par_captionR|}}}{{{par_refR|}}}}}
+{{!}}-
+}}<noinclude>{{documentation}}</noinclude>
