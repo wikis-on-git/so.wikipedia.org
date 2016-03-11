@@ -1,0 +1,6 @@
+| [[PubChem]]
+| {{Chembox removeInitialLinebreak|s={{{PubChem|}}}{{{PubChem1|}}}{{{PubChem2|}}}{{{PubChem3|}}}{{{PubChem4|}}}{{{PubChem5|}}}<!--
+-->{{#if:{{{PubChemOther|}}}|<br/>{{{PubChemOther|}}} }}}}
+<!-- keep newline -->
+
+|-<noinclude>{{documentation}}</noinclude>
