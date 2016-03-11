@@ -1,0 +1,19 @@
+{| border=0 style="width:100%;"
+| style="border-right:1px solid #aaa;" |{{#invoke:InfoboxImage|InfoboxImage
+|center=yes
+|image={{{par_fileL|}}}
+|size={{{par_sizeL|}}}
+|sizedefault=100px
+|alt={{{par_altL|}}}
+|title={{{par_titleL|}}}}}{{#if:{{{par_captionL|}}} |<div style="text-align:center">{{{par_captionL|}}}</div>
+}}
+
+| {{#if:{{{par_fileR|}}} |{{#invoke:InfoboxImage|InfoboxImage
+|center=yes
+|image={{{par_fileR|}}}
+|size={{{par_sizeR|}}}
+|sizedefault=100px
+|alt={{{par_altR|}}}
+|title={{{par_titleR|}}}}}{{#if:{{{par_captionR|}}} |<div style="text-align:center">{{{par_captionR|}}}</div>}}
+}}
+|}<noinclude>{{documentation}}</noinclude>
