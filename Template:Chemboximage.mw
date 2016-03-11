@@ -1,0 +1,5 @@
+{{#ifeq:{{lc:{{{1|}}}}}|correct||{{main other |[[Category:Articles with changed Chembox image{{#ifeq:{{lc:{{{1|}}}}}|changed||{{!}}?}}]] }}}}<!--
+--><noinclude>
+<!-- categorizes when changes/error; no other effects (no tick, no source mentioning) -->
+{{documentation}}
+</noinclude>
