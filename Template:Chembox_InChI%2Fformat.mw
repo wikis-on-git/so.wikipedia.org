@@ -1,0 +1,11 @@
+<div style="border-top:1px solid #ccc; padding:0.2em 0 0.2em 1.5em; text-align:left;"><!--
+
+-->{{#if:{{{InChI|}}} |<div style="word-wrap:break-word; text-indent:-1.5em; font-size:11px; line-height:120%;">{{#if:{{{InChI_comment|}}} |{{{InChI_comment}}}:&#x20;}}InChI={{#invoke:String|replace|source={{{InChI|}}} |pattern=^InChI%=|replace=|plain=false}}<!--
+-->{{{InChI_Ref|}}}</div>}}<!--
+
+-->{{#if:{{{InChIkey|}}} |<div style="word-wrap:break-word; text-indent:-1.5em; font-size:11px; line-height:120%;">{{#if:{{{InChI|}}} | |{{#if:{{{InChI_comment|}}} |{{{InChI_comment}}}:&#x20;}}}}Key:&nbsp;{{{InChIkey}}}<!--
+-->{{{InChIkey_Ref|}}}</div>}}<!--
+
+--></div><!--
+ at least one of {InChI, InChIKey} must be present (empty data may show bad)
+--><noinclude>{{documentation}}</noinclude>
