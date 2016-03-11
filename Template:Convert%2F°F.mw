@@ -1,0 +1,12 @@
+{{convert/{{{d}}}T{{#ifeq:{{#expr:{{{1}}}*0}}|0||s}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|s={{{s|}}}
+|u=°F
+|t=Fahrenheit
+|o=°C
+|b=(({{{1}}}+459.67)/1.8)
+|c=({{{2}}}*1.8-459.67)}}<noinclude>
+{{doc|content=
+== Usage ==
+{{tlx|convert|1|°F}} → {{convert|1|°F}}
+[[Category:Subtemplates of Template Convert]]
+}}
+</noinclude>
