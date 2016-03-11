@@ -1,0 +1,4 @@
+{{#invoke:String|replace|source={{{s|}}}|pattern=^%<br%s*%/?%s*%>
+|replace=|plain=false|no_category=true}}<noinclude>
+{{documentation}}
+</noinclude>
