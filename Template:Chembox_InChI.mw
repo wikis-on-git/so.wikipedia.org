@@ -1,0 +1,11 @@
+| colspan="2" | {{Collapsible list
+  |title=Sumado Kiimiked
+  |titlestyle=text-align:left; font-weight:normal; background:transparent;
+  |liststyle=word-break:break-all;
+  |1={{{StdInChI|}}} |10={{{InChI|}}} |11={{{InChI1|}}} |12={{{InChI2|}}}
+  |13={{{InChI3|}}} |14={{{InChI4|}}} |15={{{InChI5|}}}
+  |20={{#if:{{{InChIOther|}}}|<div style="border-top:1px solid #ccc; text-align:left;">{{{InChIOther|}}}</div> }}
+}}
+|-<!--
+
+--><noinclude>{{documentation}}</noinclude>
