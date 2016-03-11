@@ -1,0 +1,16 @@
+{{#ifexist:{{{data page pagename|{{PAGENAME}} (data page)}}}
+|{{Chembox headerbar
+|header=[[{{{data page pagename|{{PAGENAME}} (data page)}}}|Supplementary data page]]
+|addcats=[[Category:Chemical articles having a data page]] }}
+{{!}} {{longitem|[[{{{data page pagename|{{PAGENAME}} (data page)}}}#Structure and properties|Structure and<br/>properties]]}}
+{{!}} [[Refractive index]] (''n''),<br/>[[Dielectric constant]] (ε<sub>r</sub>), etc.
+{{!}}-
+{{!}} {{longitem|Thermodynamic<br/>data}}
+{{!}} [[{{{data page pagename|{{PAGENAME}} (data page)}}}#Thermodynamic properties|Phase behaviour]]<br/>solid&ndash;liquid&ndash;gas
+{{!}}-
+{{!}} {{longitem|[[{{{data page pagename|{{PAGENAME}} (data page)}}}#Spectral data|Spectral data]]}}
+{{!}} [[UV/VIS spectroscopy|UV]], [[Infrared spectroscopy|IR]], [[NMR spectroscopy|NMR]], [[Mass spectrometry|MS]]
+{{!}}-
+}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
