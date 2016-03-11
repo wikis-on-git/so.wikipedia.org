@@ -1,0 +1,8 @@
+{{#ifexpr:{{{_CASnone|0}}} = 1 |[[Category:Chemicals that do not have a CAS Registry Number assigned]]}}<!--
+-->{{#switch:{{#expr:{{{_countCASNo|0}}} + {{{_CASnone|0}}} }}
+|0=[[Category:Chemical articles without CAS Registry Number]]
+|1=
+|#default=[[Category:Chemical articles with multiple CAS Registry Numbers|{{{_countCASNo|}}}]]
+}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
