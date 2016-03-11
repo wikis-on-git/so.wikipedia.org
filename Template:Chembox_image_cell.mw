@@ -1,0 +1,6 @@
+| colspan="2" style="text-align:center; padding:2px;" | {{#invoke:InfoboxImage|InfoboxImage|image={{{par_file}}}
+|size={{{par_size}}}
+|sizedefault=200px
+|alt={{{par_alt}}}
+|title={{{par_title}}}}}{{#if:{{{par_caption|}}}|<br/><div style="text-align:center;">{{{par_caption|}}}</div>}}
+|-<noinclude>{{documentation}}</noinclude>
