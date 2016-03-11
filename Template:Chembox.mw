@@ -1,0 +1,151 @@
+{|class="infobox bordered" style="border-collapse:collapse; margin-top:2px; width:{{{width|22em}}}; text-align:left; {{{style|}}};"<!--
+ TITLE -->
+|+ colspan=2 style="text-align:center;" |{{#if:{{{Name|}}} |{{{Name}}}
+|{{PAGENAME}}}}{{{Reference|}}}{{{Chembox_ref|}}}
+|- <!-- IMAGES -->
+{{#if:{{{ImageFile|}}}{{{ImageFile1|}}}{{{ImageFile2|}}}{{{ImageFile3|}}}{{{ImageFileL1|}}}{{{ImageFileR1|}}}{{{ImageFileL2|}}}{{{ImageFileR2|}}}
+|<!-- Row 1/9 -->{{Chembox image
+|par_file={{{ImageFile|}}}
+|par_title={{{ImageName|}}}
+|par_size={{{ImageSize|}}}
+|par_alt={{{ImageAlt|}}}
+|par_caption={{{ImageCaption|}}}
+|par_ref={{{ImageFile_Ref|}}} }}
+<!-- Row 2/9 -->{{Chembox image
+|par_file={{{ImageFile1|}}}<!-- par_file, not par_value any more -->
+|par_title={{{ImageName1|}}}
+|par_size={{{ImageSize1|}}}
+|par_alt={{{ImageAlt1|}}}
+|par_caption={{{ImageCaption1|}}}
+|par_ref={{{ImageFile1_Ref|}}} }}
+<!-- Row 3/9 -->{{Chembox image sbs
+|par_fileL={{{ImageFileL1|}}}
+|par_titleL={{{ImageNameL1|}}}
+|par_sizeL={{{ImageSizeL1|}}}
+|par_altL={{{ImageAltL1|}}}
+|par_captionL={{{ImageCaptionL1|}}}
+|par_refL={{{ImageFileL1_Ref|}}}
+|par_fileR={{{ImageFileR1|}}}
+|par_titleR={{{ImageNameR1|}}}
+|par_sizeR={{{ImageSizeR1|}}}
+|par_altR={{{ImageAltR1|}}}
+|par_captionR={{{ImageCaptionR1|}}}
+|par_refR={{{ImageFileR1_Ref|}}} }}
+<!-- Row 4/9 -->{{Chembox image sbs
+|par_fileL={{{ImageFileL2|}}}
+|par_titleL={{{ImageNameL2|}}}
+|par_sizeL={{{ImageSizeL2|}}}
+|par_altL={{{ImageAltL2|}}}
+|par_captionL={{{ImageCaptionL2|}}}
+|par_refL={{{ImageFileL2_Ref|}}}
+|par_fileR={{{ImageFileR2|}}}
+|par_titleR={{{ImageNameR2|}}}
+|par_sizeR={{{ImageSizeR2|}}}
+|par_altR={{{ImageAltR2|}}}
+|par_captionR={{{ImageCaptionR2|}}}
+|par_refR={{{ImageFileR2_Ref|}}} }}
+<!-- Row 5/9 -->{{Chembox image
+|par_file={{{ImageFile2|}}}
+|par_title={{{ImageName2|}}}
+|par_size={{{ImageSize2|}}}
+|par_alt={{{ImageAlt2|}}}
+|par_caption={{{ImageCaption2|}}}
+|par_ref={{{ImageFile2_Ref|}}} }}
+<!-- Row 6/9 -->{{Chembox image
+|par_file={{{ImageFile3|}}}
+|par_title={{{ImageName3|}}}
+|par_size={{{ImageSize3|}}}
+|par_alt={{{ImageAlt3|}}}
+|par_caption={{{ImageCaption3|}}}
+|par_ref ={{{ImageFile3_Ref|}}} }}
+<!-- Row 7/9 -->{{Chembox image sbs
+|par_fileL={{{ImageFileL3|}}}
+|par_titleL={{{ImageNameL3|}}}
+|par_sizeL={{{ImageSizeL3|}}}
+|par_altL={{{ImageAltL3|}}}
+|par_captionL={{{ImageCaptionL3|}}}
+|par_refL={{{ImageFileL3_Ref|}}}
+|par_fileR={{{ImageFileR3|}}}
+|par_titleR={{{ImageNameR3|}}}
+|par_sizeR={{{ImageSizeR3|}}}
+|par_altR={{{ImageAltR3|}}}
+|par_captionR={{{ImageCaptionR3|}}}
+|par_refR={{{ImageFileR3_Ref|}}} }}
+<!-- Row 8/9 -->{{Chembox image sbs
+|par_fileL={{{ImageFileL4|}}}
+|par_titleL={{{ImageNameL4|}}}
+|par_sizeL={{{ImageSizeL4|}}}
+|par_altL={{{ImageAltL4|}}}
+|par_captionL={{{ImageCaptionL4|}}}
+|par_refL={{{ImageFileL4_Ref|}}}
+|par_fileR={{{ImageFileR4|}}}
+|par_titleR={{{ImageNameR4|}}}
+|par_sizeR={{{ImageSizeR4|}}}
+|par_altR={{{ImageAltR4|}}}
+|par_captionR={{{ImageCaptionR4|}}}
+|par_refR={{{ImageFileR4_Ref|}}} }}
+<!-- Row 9/9 -->{{Chembox image
+|par_file={{{ImageFile4|}}}
+|par_title={{{ImageName4|}}}
+|par_size={{{ImageSize4|}}}
+|par_alt={{{ImageAlt4|}}}
+|par_caption={{{ImageCaption4|}}}
+|par_ref={{{ImageFile4_Ref|}}}}}<!-- No ImageFile entered for rows 1-4; row 5+ cannot be initial image
+ -->}}<!--
+ NAMES ----- -->
+{{#if:{{{OtherNames|}}}{{{IUPACName|}}}{{{IUPACNames|}}}{{{PIN|}}}{{{SystematicName|}}}|
+{{Chembox AllOtherNames
+|ref={{{Names_ref|}}}
+|IUPACName={{{IUPACName|}}} {{{IUPACNames|}}}<!-- plural indicated by editor -->
+|PIN={{{PIN|}}}
+|SystematicName={{{SystematicName|}}}
+|OtherNames={{{OtherNames|}}}
+|countIUPACnames={{#if:{{{IUPACNames|}}}|99|{{#ifeq:{{#invoke:String |match |s=_{{{IUPACName|}}} |pattern=%<br%s*%/?%s*%> |nomatch=_NO_BREAK_|plain=false|ignore_errors=false}}|_NO_BREAK_|0|9}}+{{#if:{{{IUPACName|}}}|1|0}} }}<!-- we only need to know: 0-1-many IUPACName/s? -->
+}}}}<!--
+ ----- SECTIONS 1-9 ----- -->
+{{{Section1|}}}
+{{{Section2|}}}
+{{{Section3|}}}
+{{{Section4|}}}
+{{{Section5|}}}
+{{{Section6|}}}
+{{{Section7|}}}
+{{{Section8|}}}
+{{{Section9|}}}<!--
+ ----- SUPPLEMENT ----- -->{{Chembox Supplement}}<!--
+ ------ FOOTER ----- -->{{Chembox Footer
+| Verifiedfields={{{Verifiedfields|}}}
+| Watchedfields={{{Watchedfields|}}}
+| verifiedrevid={{{verifiedrevid|}}}
+| show_ss_note={{{show_ss_note |yes}}}
+| show_infobox_ref={{{show_infobox_ref|yes}}}
+| general_note={{{general_note|}}}
+| style-left-column-width=40%<!-- sets left colomn width -->
+| width={{{width|22em}}}<!-- infobox width setting, here for feedback
+ -->| _hasImage={{{ImageFile|}}}{{{ImageFile1|}}}{{{ImageFile2|}}}{{{ImageFile3|}}}{{{ImageFile4|}}}{{{ImageFileL1|}}}{{{ImageFileR1|}}}{{{ImageFileL2|}}}{{{ImageFileR2|}}}<!-- the verified images -->{{{ImageFileL3|}}}{{{ImageFileR3|}}}{{{ImageFileL4|}}}{{{ImageFileR4|}}}<!-- all 13 images
+ -->| _hasLocalImage=<!-- Check if file is local/not above L2, R2
+-->{{#switch: en
+|{{ParmPart |5 |{{filepath:{{{ImageFile|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFile1|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFile2|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFile3|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFile4|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFileL1|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFileR1|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFileL2|}}}}}}}
+|{{ParmPart |5 |{{filepath:{{{ImageFileR2|}}}}}}}=yes }}<!--
+ -->| _hasDeprecatedParams1=<!--
+ -->| _hasDeprecatedParams2=<!--
+ -->| _hasTrackedParams1={{{width|}}}{{{style|}}}{{{show_ss_note|}}}{{{show_infobox_ref|}}}{{{general_note|}}}{{{style-left-column-width|}}}<!--
+ -->| _hasTrackedParams2=<!-- image rows 7-8-9 -->{{{ImageFileL3|}}}{{{ImageNameL3|}}}{{{ImageSizeL3|}}}{{{ImageAltL3|}}}{{{ImageCaptionL3|}}}{{{ImageFileL3_Ref|}}}{{{ImageFileR3|}}}{{{ImageNameR3|}}}{{{ImageSizeR3|}}}{{{ImageAltR3|}}}{{{ImageCaptionR3|}}}{{{ImageFileR3_Ref|}}}<!-- Row 8/9 -->{{{ImageFileL4|}}}{{{ImageNameL4|}}}{{{ImageSizeL4|}}}{{{ImageAltL4|}}}{{{ImageCaptionL4|}}}{{{ImageFileL4_Ref|}}}{{{ImageFileR4|}}}{{{ImageNameR4|}}}{{{ImageSizeR4|}}}{{{ImageAltR4|}}}{{{ImageCaptionR4|}}}{{{ImageFileR4_Ref|}}}<!-- Row 9/9 -->{{{ImageFile4|}}}{{{ImageName4|}}}{{{ImageSize4|}}}{{{ImageAlt4|}}}{{{ImageCaption4|}}}{{{ImageFile4_Ref|}}}<!--
+ end footer -->}}
+|}<!-- end of wikitable
+
+-->{{#invoke:TemplatePar
+|check
+|template=Template:Chembox
+|all= |opt= Reference= Chembox_ref= IUPACNames= IUPACName= ImageAlt1= ImageAlt2= ImageAlt3= ImageAlt4= ImageAltL1= ImageAltL2= ImageAltL3= ImageAltL4= ImageAltR1= ImageAltR2= ImageAltR3= ImageAltR4= ImageAlt= ImageCaption1= ImageCaption2= ImageCaption3= ImageCaption4= ImageCaptionL1= ImageCaptionL2= ImageCaptionL3= ImageCaptionL4= ImageCaptionR1= ImageCaptionR2= ImageCaptionR3= ImageCaptionR4= ImageCaption= ImageFile1_Ref= ImageFile1= ImageFile2_Ref= ImageFile2= ImageFile3_Ref= ImageFile3= ImageFile4_Ref= ImageFile4= ImageFileL1_Ref= ImageFileL1= ImageFileL2_Ref= ImageFileL2= ImageFileL3_Ref= ImageFileL3= ImageFileL4_Ref= ImageFileL4= ImageFileR1_Ref= ImageFileR1= ImageFileR2_Ref= ImageFileR2= ImageFileR3_Ref= ImageFileR3= ImageFileR4_Ref= ImageFileR4= ImageFile_Ref= ImageFile= ImageName1= ImageName2= ImageName3= ImageName4= ImageNameL1= ImageNameL2= ImageNameL3= ImageNameL4= ImageNameR1= ImageNameR2= ImageNameR3= ImageNameR4= ImageName= ImageSize1= ImageSize2= ImageSize3= ImageSize4= ImageSizeL1= ImageSizeL2= ImageSizeL3= ImageSizeL4= ImageSizeR1= ImageSizeR2= ImageSizeR3= ImageSizeR4= ImageSize= Name= OtherNames= PIN= Section1= Section2= Section3= Section4= Section5= Section6= Section7= Section8= Section9= SystematicName= Verifiedfields= Watchedfields= verifiedrevid= Verifiedimages= general_note= show_infobox_ref= show_ss_note= style-left-column-width= style= width=
+|cat=Chemical articles with unknown parameter in Chembox
+|format=0|preview={{Chembox templatePar/formatPreviewMessage|msg=@@@}}|errNS=0}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
