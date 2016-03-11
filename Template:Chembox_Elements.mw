@@ -1,0 +1,16 @@
+{{#if:{{{molecular formula|}}}|
+
+{{!}} {{longitem|[[Jid kimikeed]]}}
+
+{{!}} {{{molecular formula|}}}
+
+{{!}}-
+}}
+{{#if:{{{molecular mass|}}}|
+
+{{!}} [[Cuf moolar]]
+
+{{!}} {{{molecular mass|}}} {{{MolarMass_ref|}}}&#x20;{{{MolarMass_notes|}}}
+
+{{!}}-
+}}<noinclude>{{documentation}}</noinclude>
