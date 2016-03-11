@@ -1,0 +1,7 @@
+{{#if:{{{par_file|<noinclude>show</noinclude>}}}|{{Chembox image cell
+|par_file={{{par_file}}}
+|par_size={{{par_size}}}
+|par_alt={{{par_alt}}}
+|par_title={{{par_title}}}
+|par_caption={{{par_caption|}}}{{{par_ref|}}}}}
+}}<noinclude>{{documentation}}</noinclude>
