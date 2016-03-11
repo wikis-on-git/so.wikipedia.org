@@ -1,0 +1,5 @@
+<br/>[http://www.commonchemistry.org/ChemicalDetail.aspx?ref={{{CASNo}}} {{{CASNo}}}]<!--
+-->{{#if:{{{CASNo_comment|}}} |&#x20;{{{CASNo_comment}}} }}<!--
+-->{{{CASNo_Ref|}}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
