@@ -1,0 +1,208 @@
+{{#if:{{{Abbreviations|}}}{{{IUPHAR_ligand|}}}{{{IUPHAR_ligand1|}}}{{{IUPHAR_ligand2|}}}{{{IUPHAR_ligand3|}}}{{{IUPHAR_ligand4|}}}{{{IUPHAR_ligand5|}}}{{{IUPHAR_ligand_Other|}}}{{{RTECS|}}}{{{Beilstein|}}}{{{Gmelin|}}}{{{3DMet|}}}{{{EINECS|}}}{{{EC_number|}}}{{{E_number|}}}{{{EC_number_Comment|}}}{{{UNNumber|}}}{{{MeSHName|}}}<!--
+-->{{#invoke:String|replace|source={{{CASNo|}}} {{{CASNo1|}}} {{{CASNo2|}}} {{{CASNo3|}}} {{{CASNo4|}}} {{{CASNo5|}}} |pattern=none |replace=|plain=true }}{{{CASNoOther|}}}
+{{{ChEBI|}}}{{{ChEBI1|}}}{{{ChEBI2|}}}{{{ChEBI3|}}}{{{ChEBI4|}}}{{{ChEBI5|}}}{{{ChEBIOther|}}}
+{{{ChEMBL|}}}{{{ChEMBL1|}}}{{{ChEMBL2|}}}{{{ChEMBL3|}}}{{{ChEMBL4|}}}{{{ChEMBL5|}}}{{{ChEMBLOther|}}}<!--
+-->{{#invoke:String|replace|source={{{ChemSpiderID|}}} {{{ChemSpiderID1|}}} {{{ChemSpiderID2|}}} {{{ChemSpiderID3|}}} {{{ChemSpiderID4|}}} {{{ChemSpiderID5|}}} |pattern=none |replace=|plain=true }}{{{ChemSpiderIDOther|}}}
+{{{DrugBank|}}}{{{DrugBank1|}}}{{{DrugBank2|}}}{{{DrugBank3|}}}{{{DrugBank4|}}}{{{DrugBank5|}}}{{{DrugBankOther|}}}
+{{{KEGG|}}}{{{KEGG1|}}}{{{KEGG2|}}}{{{KEGG3|}}}{{{KEGG4|}}}{{{KEGG5|}}}{{{KEGGOther|}}}
+{{{PubChem|}}}{{{PubChem1|}}}{{{PubChem2|}}}{{{PubChem3|}}}{{{PubChem4|}}}{{{PubChem5|}}}{{{PubChemOther|}}}
+{{{UNII|}}}{{{UNII1|}}}{{{UNII2|}}}{{{UNII3|}}}{{{UNII4|}}}{{{UNII5|}}}{{{UNIIOther|}}}
+{{{StdInChI|}}}{{{StdInChIKey|}}}{{{InChI|}}}{{{InChIKey|}}}{{{InChI1|}}}{{{InIKey1|}}}{{{InChI2|}}}{{{InChIKey2|}}}{{{InChI3|}}}{{{InChIKey3|}}}{{{InChI4|}}}{{{InChIKey4|}}}{{{InChI5|}}}{{{InChIKey5|}}}{{{InChIOther|}}}
+{{{SMILES|}}}{{{SMILES1|}}}{{{SMILES2|}}}{{{SMILES3|}}}{{{SMILES4|}}}{{{SMILES5|}}}{{{SMILESOther|}}}
+|<!-- then:
+ ----- HEADER -----
+-->{{Chembox headerbar
+|header=Identifiers
+|ref={{{Identifiers_ref|}}}<!--
+ ----- maintenance cats -----
+-->|addcats=<!--
+-->{{Chembox CASNo/parametercheck
+|_countCASNo={{#invoke:ParameterCount|main|pattern1=^CASNo%d?$}}
+|_CASnone={{#ifexpr:{{#invoke:String|find |source=_{{{CASNo|}}}_{{{CASNo1|}}}_{{{CASNo2|}}}_{{{CASNo3|}}}_{{{CASNo4|}}}_{{{CASNo5|}}}_ |target=_none_ |plain=true }}>0|1|0}}
+}}<!--
+
+-->{{#ifeq:{{#invoke:String|find |source=_{{{ChemSpiderID|}}}_{{{ChemSpiderID1|}}}{{{ChemSpiderID2|}}}_{{{ChemSpiderID3|}}}_{{{ChemSpiderID4|}}}_{{{ChemSpiderID5|}}}_ |target=_NA_ |plain=true }}|0|<!--ok-->|[[Category:Chemical infoboxes with tracked parameters|NA]]}}<!--
+-->{{#if:{{{ChEBI|}}}{{{ChEBI1|}}}{{{ChEBI2|}}}{{{ChEBI3|}}}{{{ChEBI4|}}}{{{ChEBI5|}}}
+{{{ChEMBL|}}}{{{ChEMBL1|}}}{{{ChEMBL2|}}}{{{ChEMBL3|}}}{{{ChEMBL4|}}}{{{ChEMBL5|}}}
+||[[Category:Articles without EBI source]]}}<!--
+-->{{#if:{{{ChemSpiderID|}}}{{{ChemSpiderID1|}}}{{{ChemSpiderID2|}}}{{{ChemSpiderID3|}}}{{{ChemSpiderID4|}}}{{{ChemSpiderID5|}}}|
+{{#ifeq:{{#invoke:String|find |source=_{{{ChemSpiderID|}}}_{{{ChemSpiderID1|}}}{{{ChemSpiderID2|}}}_{{{ChemSpiderID3|}}}_{{{ChemSpiderID4|}}}_{{{ChemSpiderID5|}}}_ |target=_none_ |plain=true }}|0|<!--OK, no 'none' -->|[[Category:Chemicals that do not have a ChemSpider ID assigned]] }} |[[Category:Chemical pages without ChemSpiderID]]}}<!--
+ drugbank rm
+-->{{#if:{{{KEGG|}}}{{{KEGG1|}}}{{{KEGG2|}}}{{{KEGG3|}}}{{{KEGG4|}}}{{{KEGG5|}}}
+||[[Category:Articles without KEGG source]]}}<!--
+-->{{#if:{{{StdInChI|}}}{{{StdInChIKey|}}}{{{InChI|}}}{{{InChIKey|}}}{{{InChI1|}}}{{{InChIKey1|}}}{{{InChI2|}}}{{{InChIKey2|}}}{{{InChI3|}}}{{{InChIKey3|}}}{{{InChI4|}}}{{{InChIKey4|}}}{{{InChI5|}}}{{{InChIKey5|}}}
+||[[Category:Articles without InChI source]]}}<!--
+
+-->{{#if:{{{UNII|}}}{{{UNII1|}}}{{{UNII2|}}}{{{UNII3|}}}{{{UNII4|}}}{{{UNII5|}}}
+||[[Category:Articles without UNII source]]}}<!--
+
+ ----- templatepar -----
+-->|templatepar={{#invoke:TemplatePar
+|check
+|template=Template:Chembox Identifiers
+|all= |opt= Identifiers_ref= 
+3DMet= Abbreviations= Beilstein= CASNo1= CASNo1_Comment= CASNo1_Ref= CASNo2= CASNo2_Comment= CASNo2_Ref= CASNo3= CASNo3_Comment= CASNo3_Ref= CASNo4= CASNo4_Comment= CASNo4_Ref= CASNo5= CASNo5_Comment= CASNo5_Ref= CASNo= CASNoOther= CASNo_Comment= CASNo_Ref= ChEBI1= ChEBI1_Comment= ChEBI1_Ref= ChEBI2= ChEBI2_Comment= ChEBI2_Ref= ChEBI3= ChEBI3_Comment= ChEBI3_Ref= ChEBI4= ChEBI4_Comment= ChEBI4_Ref= ChEBI5= ChEBI5_Comment= ChEBI5_Ref= ChEBI= ChEBIOther= ChEBI_Comment= ChEBI_Ref= ChEMBL1= ChEMBL1_Comment= ChEMBL1_Ref= ChEMBL2= ChEMBL2_Comment= ChEMBL2_Ref= ChEMBL3= ChEMBL3_Comment= ChEMBL3_Ref= ChEMBL4= ChEMBL4_Comment= ChEMBL4_Ref= ChEMBL5= ChEMBL5_Comment= ChEMBL5_Ref= ChEMBL= ChEMBLOther= ChEMBL_Comment= ChEMBL_Ref= ChemSpiderID1= ChemSpiderID1_Comment= ChemSpiderID1_Ref= ChemSpiderID2= ChemSpiderID2_Comment= ChemSpiderID2_Ref= ChemSpiderID3= ChemSpiderID3_Comment= ChemSpiderID3_Ref= ChemSpiderID4= ChemSpiderID4_Comment= ChemSpiderID4_Ref= ChemSpiderID5= ChemSpiderID5_Comment= ChemSpiderID5_Ref= ChemSpiderID= ChemSpiderIDOther= ChemSpiderID_Comment= ChemSpiderID_Ref= DrugBank1= DrugBank1_Comment= DrugBank1_Ref= DrugBank2= DrugBank2_Comment= DrugBank2_Ref= DrugBank3= DrugBank3_Comment= DrugBank3_Ref= DrugBank4= DrugBank4_Comment= DrugBank4_Ref= DrugBank5= DrugBank5_Comment= DrugBank5_Ref= DrugBank= DrugBankOther= DrugBank_Comment= DrugBank_Ref= EC_number= EC_number_Comment= E_number= E_number_Comment= EINECS= Gmelin= IUPHAR_ligand= IUPHAR_ligand1= IUPHAR_ligand2= IUPHAR_ligand3= IUPHAR_ligand4= IUPHAR_ligand5= IUPHAR_ligand_Comment= IUPHAR_ligand1_Comment= IUPHAR_ligand2_Comment= IUPHAR_ligand3_Comment= IUPHAR_ligand4_Comment= IUPHAR_ligand5_Comment= IUPHAR_ligand_Other= 
+InChI= InChI_Comment= InChI_Ref= InChI1= InChI1_Comment= InChI1_Ref= InChI2= InChI2_Comment= InChI2_Ref= InChI3= InChI3_Comment= InChI3_Ref= InChI4= InChI4_Comment= InChI4_Ref= InChI5= InChI5_Comment= InChI5_Ref=
+InChIKey= InChIKey_Ref= InChIKey1= InChIKey1_Ref= InChIKey2= InChIKey2_Ref= InChIKey3= InChIKey3_Ref= InChIKey4= InChIKey4_Ref= InChIKey5= InChIKey5_Ref= 
+InChIOther= 
+KEGG1= KEGG1_Comment= KEGG1_Ref= KEGG2= KEGG2_Comment= KEGG2_Ref= KEGG3= KEGG3_Comment= KEGG3_Ref= KEGG4= KEGG4_Comment= KEGG4_Ref= KEGG5= KEGG5_Comment= KEGG5_Ref= KEGG= KEGGOther= KEGG_Comment= KEGG_Ref= MeSHName= PubChem1= PubChem1_Comment= PubChem2= PubChem2_Comment= PubChem3= PubChem3_Comment= PubChem4= PubChem4_Comment= PubChem5= PubChem5_Comment= PubChem= PubChemOther= PubChem_Comment= RTECS= SMILES= SMILES_Comment= SMILES1= SMILES1_Comment= SMILES2= SMILES2_Comment= SMILES3= SMILES3_Comment= SMILES4= SMILES4_Comment= SMILES5= SMILES5_Comment= SMILESOther= 
+StdInChI= StdInChI_Comment= StdInChI_Ref= StdInChIKey= StdInChIKey_Ref=
+UNII= UNII1= UNII1_Comment= UNII1_Ref= UNII2= UNII2_Comment= UNII2_Ref= UNII3= UNII3_Comment= UNII3_Ref= UNII4= UNII4_Comment= UNII4_Ref= UNII5= UNII5_Comment= UNII5_Ref= UNIIOther= UNII_Comment= UNII_Ref= UNNumber=
+|cat=Chemical articles with unknown parameter in Chembox
+|format=0|preview={{Chembox templatePar/formatPreviewMessage|msg=@@@}}|errNS=0}}<!--
+ ----- END HEADERBAR -->}}<!--
+
+ ----- START DATA ROWS ----- -->
+{{#if:{{#invoke:String|replace |source={{{CASNo|}}} {{{CASNo1|}}} {{{CASNo2|}}} {{{CASNo3|}}} {{{CASNo4|}}} {{{CASNo5|}}} |pattern=none |replace= |plain=true }}{{{CASNoOther|}}}
+|{{Chembox CASNo
+|CASNo ={{#switch:{{{CASNo|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo|}}}|CASNo_comment={{{CASNo_Comment|}}}|CASNo_Ref={{{CASNo_Ref|}}} }}}}
+|CASNo1={{#switch:{{{CASNo1|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo1|}}}|CASNo_comment={{{CASNo1_Comment|}}}|CASNo_Ref={{{CASNo1_Ref|}}} }}}}
+|CASNo2={{#switch:{{{CASNo2|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo2|}}}|CASNo_comment={{{CASNo2_Comment|}}}|CASNo_Ref={{{CASNo2_Ref|}}} }}}}
+|CASNo3={{#switch:{{{CASNo3|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo3|}}}|CASNo_comment={{{CASNo3_Comment|}}}|CASNo_Ref={{{CASNo3_Ref|}}} }}}}
+|CASNo4={{#switch:{{{CASNo4|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo4|}}}|CASNo_comment={{{CASNo4_Comment|}}}|CASNo_Ref={{{CASNo4_Ref|}}} }}}}
+|CASNo5={{#switch:{{{CASNo5|}}}||none=|#default={{Chembox CASNo/format |CASNo={{{CASNo5|}}}|CASNo_comment={{{CASNo5_Comment|}}}|CASNo_Ref={{{CASNo5_Ref|}}} }}}}
+|CASNoOther={{{CASNoOther|}}} }}}}<!--
+ ----- 3DMet -->
+{{#if:{{{3DMet|}}} |{{Chembox 3DMet|value={{{3DMet|}}} }}}}<!--
+ ----- abbr -->
+{{#if:{{{Abbreviations|}}} |{{Chembox Abbreviations |value={{{Abbreviations|}}} }}}}
+{{#if:{{{Beilstein|}}} |{{Chembox Beilstein|value={{{Beilstein|}}} }}}}<!--
+ ----- ChEBI ----- -->
+{{#if:{{{ChEBI|}}}{{{ChEBI1|}}}{{{ChEBI2|}}}{{{ChEBI3|}}}{{{ChEBI4|}}}{{{ChEBI5|}}}{{{ChEBIOther|}}}
+|{{Chembox ChEBI
+|ChEBI ={{#if:{{{ChEBI|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI|}}} |ChEBI_comment={{{ChEBI_Comment|}}} |ChEBI_Ref={{{ChEBI_Ref|}}} }}}}
+|ChEBI1={{#if:{{{ChEBI1|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI1|}}} |ChEBI_comment={{{ChEBI1_Comment|}}} |ChEBI_Ref={{{ChEBI1_Ref|}}} }}}}
+|ChEBI2={{#if:{{{ChEBI2|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI2|}}} |ChEBI_comment={{{ChEBI2_Comment|}}} |ChEBI_Ref={{{ChEBI2_Ref|}}} }}}}
+|ChEBI3={{#if:{{{ChEBI3|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI3|}}} |ChEBI_comment={{{ChEBI3_Comment|}}} |ChEBI_Ref={{{ChEBI3_Ref|}}} }}}}
+|ChEBI4={{#if:{{{ChEBI4|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI4|}}} |ChEBI_comment={{{ChEBI4_Comment|}}} |ChEBI_Ref={{{ChEBI4_Ref|}}} }}}}
+|ChEBI5={{#if:{{{ChEBI5|}}} |{{Chembox ChEBI/format |ChEBI={{{ChEBI5|}}} |ChEBI_comment={{{ChEBI5_Comment|}}} |ChEBI_Ref={{{ChEBI5_Ref|}}} }}}}
+|ChEBIOther={{{ChEBIOther|}}} }}
+ }}<!--
+ ChEMBL -->
+{{#if:{{{ChEMBL|}}}{{{ChEMBL1|}}}|{{Chembox ChEMBL
+|ChEMBL={{#if:{{{ChEMBL|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL|}}} |ChEMBL_comment={{{ChEMBL_Comment|}}} |ChEMBL_Ref={{{ChEMBL_Ref|}}} }}}}
+|ChEMBL1={{#if:{{{ChEMBL1|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL1|}}} |ChEMBL_comment={{{ChEMBL1_Comment|}}} |ChEMBL_Ref={{{ChEMBL1_Ref|}}} }}}}
+|ChEMBL2={{#if:{{{ChEMBL2|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL2|}}} |ChEMBL_comment={{{ChEMBL2_Comment|}}} |ChEMBL_Ref={{{ChEMBL2_Ref|}}} }}}}
+|ChEMBL3={{#if:{{{ChEMBL3|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL3|}}} |ChEMBL_comment={{{ChEMBL3_Comment|}}} |ChEMBL_Ref={{{ChEMBL3_Ref|}}} }}}}
+|ChEMBL4={{#if:{{{ChEMBL4|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL4|}}} |ChEMBL_comment={{{ChEMBL4_Comment|}}} |ChEMBL_Ref={{{ChEMBL4_Ref|}}} }}}}
+|ChEMBL5={{#if:{{{ChEMBL5|}}}|{{Chembox ChEMBL/format|ChEMBL={{{ChEMBL5|}}} |ChEMBL_comment={{{ChEMBL5_Comment|}}} |ChEMBL_Ref={{{ChEMBL5_Ref|}}} }}}}
+|ChEMBLOther={{{ChEMBLOther|}}} }} }}<!--
+----- ChemSpiderID ----- -->
+{{#if:{{#invoke:String|replace |source={{{ChemSpiderID|}}} {{{ChemSpiderID1|}}} {{{ChemSpiderID2|}}} {{{ChemSpiderID3|}}} {{{ChemSpiderID4|}}} {{{ChemSpiderID5|}}} |pattern=none |replace= |plain=true }}{{{ChemSpiderIDOther|}}}
+|{{Chembox ChemSpiderID
+|ChemSpiderID={{#switch:{{{ChemSpiderID|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID|}}}|ChemSpiderID_comment={{{ChemSpiderID_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID_Ref|}}} }}}}
+|ChemSpiderID1={{#switch:{{{ChemSpiderID1|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID1|}}}|ChemSpiderID_comment={{{ChemSpiderID1_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID1_Ref|}}} }}}}
+|ChemSpiderID2={{#switch:{{{ChemSpiderID2|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID2|}}}|ChemSpiderID_comment={{{ChemSpiderID2_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID2_Ref|}}} }}}}
+|ChemSpiderID3={{#switch:{{{ChemSpiderID3|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID3|}}}|ChemSpiderID_comment={{{ChemSpiderID3_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID3_Ref|}}} }}}}
+|ChemSpiderID4={{#switch:{{{ChemSpiderID4|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID4|}}}|ChemSpiderID_comment={{{ChemSpiderID4_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID4_Ref|}}} }}}}
+|ChemSpiderID5={{#switch:{{{ChemSpiderID5|}}}||none=|#default={{Chembox ChemSpiderID/format|ChemSpiderID={{{ChemSpiderID5|}}}|ChemSpiderID_comment={{{ChemSpiderID5_Comment|}}}|ChemSpiderID_Ref={{{ChemSpiderID5_Ref|}}} }}}}
+|ChemSpiderIDOther={{{ChemSpiderIDOther|}}} }}}}<!--
+ DrugBank -->
+{{#if:{{{DrugBank|}}}{{{DrugBank1|}}}{{{DrugBank2|}}}{{{DrugBank3|}}}{{{DrugBank4|}}}{{{DrugBank5|}}}{{{DrugBankOther|}}}
+|{{Chembox DrugBank
+|DrugBank={{#if:{{{DrugBank|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank|}}} |DrugBank_comment={{{DrugBank_Comment|}}} |DrugBank_Ref={{{DrugBank_Ref|}}} }}}}
+|DrugBank1={{#if:{{{DrugBank1|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank1|}}} |DrugBank_comment={{{DrugBank1_Comment|}}} |DrugBank_Ref={{{DrugBank1_Ref|}}} }}}}
+|DrugBank2={{#if:{{{DrugBank2|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank2|}}} |DrugBank_comment={{{DrugBank2_Comment|}}} |DrugBank_Ref={{{DrugBank2_Ref|}}} }}}}
+|DrugBank3={{#if:{{{DrugBank3|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank3|}}} |DrugBank_comment={{{DrugBank3_Comment|}}} |DrugBank_Ref={{{DrugBank3_Ref|}}} }}}}
+|DrugBank4={{#if:{{{DrugBank4|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank4|}}} |DrugBank_comment={{{DrugBank4_Comment|}}} |DrugBank_Ref={{{DrugBank4_Ref|}}} }}}}
+|DrugBank5={{#if:{{{DrugBank5|}}}|{{Chembox DrugBank/format
+|DrugBank={{{DrugBank5|}}} |DrugBank_comment={{{DrugBank5_Comment|}}} |DrugBank_Ref={{{DrugBank5_Ref|}}} }}}}
+|DrugBankOther={{{DrugBankOther|}}} }}}}
+{{#if:{{{EINECS|}}}{{{EC_number|}}}{{{EC_number_Comment|}}} |{{Chembox ECNumber |EC number={{{EINECS|}}}{{{EC_number|}}} |EC number comment={{{EC_number_Comment|}}}}}}}
+{{#if:{{{E_number|}}}{{{E_number_Comment|}}} |{{Chembox E number |E number={{{E_number|}}} |E number comment={{{E_number_Comment|}}}}}}}
+{{#if:{{{Gmelin|}}} |{{Chembox Gmelin|value={{{Gmelin|}}} }}}}<!--
+ IUPHAR indexed -->
+{{#if:{{{IUPHAR_ligand|}}}{{{IUPHAR_ligand1|}}}{{{IUPHAR_ligand2|}}}{{{IUPHAR_ligand3|}}}{{{IUPHAR_ligand4|}}}{{{IUPHAR_ligand5|}}}{{{IUPHAR_ligand_Other|}}}
+|{{Chembox IUPHAR ligand
+|IUPHAR_ligand={{#if:{{{IUPHAR_ligand|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand_Comment|}}} }}}}
+|IUPHAR_ligand1={{#if:{{{IUPHAR_ligand1|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand1|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand1_Comment|}}} }}}}
+|IUPHAR_ligand2={{#if:{{{IUPHAR_ligand2|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand2|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand2_Comment|}}} }}}}
+|IUPHAR_ligand3={{#if:{{{IUPHAR_ligand3|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand3|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand3_Comment|}}} }}}}
+|IUPHAR_ligand4={{#if:{{{IUPHAR_ligand4|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand4|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand4_Comment|}}} }}}}
+|IUPHAR_ligand5={{#if:{{{IUPHAR_ligand5|}}} |{{Chembox IUPHAR_ligand/format |IUPHAR_ligand={{{IUPHAR_ligand5|}}} |IUPHAR_ligand_comment={{{IUPHAR_ligand5_Comment|}}} }}}}
+|IUPHAR_ligand_Other={{{IUPHAR_ligand_Other|}}}
+ }}}}
+<!-- Jmol image links are created from the SMILES value -->
+{{#if:{{{SMILES|}}}{{{SMILES1|}}}{{{SMILES2|}}}{{{SMILES3|}}}{{{SMILES4|}}}{{{SMILES5|}}}{{{SMILESOther|}}}
+|{{Chembox Jmol
+|Jmol ={{#if:{{{SMILES|}}} |{{Chembox Jmol/format |SMILES={{{SMILES|}}}
+|Jmol_comment={{{SMILES_Comment|}}} }}}}
+|Jmol1={{#if:{{{SMILES1|}}}|{{Chembox Jmol/format |SMILES={{{SMILES1|}}}
+|Jmol_comment={{{SMILES1_Comment|}}} }}}}
+|Jmol2={{#if:{{{SMILES2|}}}|{{Chembox Jmol/format |SMILES={{{SMILES2|}}}
+|Jmol_comment={{{SMILES2_Comment|}}} }}}}
+|Jmol3={{#if:{{{SMILES3|}}}|{{Chembox Jmol/format |SMILES={{{SMILES3|}}}
+|Jmol_comment={{{SMILES3_Comment|}}} }}}}
+|Jmol4={{#if:{{{SMILES4|}}}|{{Chembox Jmol/format |SMILES={{{SMILES4|}}}
+|Jmol_comment={{{SMILES4_Comment|}}} }}}}
+|Jmol5={{#if:{{{SMILES5|}}}|{{Chembox Jmol/format |SMILES={{{SMILES5|}}}
+|Jmol_comment={{{SMILES5_Comment|}}} }}}}
+}}}}<!--
+ KEGG -->
+{{#if:{{{KEGG|}}}{{{KEGG1|}}}{{{KEGG2|}}}{{{KEGG3|}}}{{{KEGG4|}}}{{{KEGG5|}}}{{{KEGGOther|}}}
+|{{Chembox KEGG
+|KEGG ={{#if:{{{KEGG|}}} |{{Chembox KEGG/format |KEGG={{{KEGG|}}} |KEGG_comment={{{KEGG_Comment|}}} |KEGG_Ref={{{KEGG_Ref|}}} }}}}
+|KEGG1={{#if:{{{KEGG1|}}} |{{Chembox KEGG/format |KEGG={{{KEGG1|}}} |KEGG_comment={{{KEGG1_Comment|}}} |KEGG_Ref={{{KEGG1_Ref|}}} }}}}
+|KEGG2={{#if:{{{KEGG2|}}} |{{Chembox KEGG/format |KEGG={{{KEGG2|}}} |KEGG_comment={{{KEGG2_Comment|}}} |KEGG_Ref={{{KEGG2_Ref|}}} }}}}
+|KEGG3={{#if:{{{KEGG3|}}} |{{Chembox KEGG/format |KEGG={{{KEGG3|}}} |KEGG_comment={{{KEGG3_Comment|}}} |KEGG_Ref={{{KEGG3_Ref|}}} }}}}
+|KEGG4={{#if:{{{KEGG4|}}} |{{Chembox KEGG/format |KEGG={{{KEGG4|}}} |KEGG_comment={{{KEGG4_Comment|}}} |KEGG_Ref={{{KEGG4_Ref|}}} }}}}
+|KEGG5={{#if:{{{KEGG5|}}} |{{Chembox KEGG/format |KEGG={{{KEGG5|}}} |KEGG_comment={{{KEGG5_Comment|}}} |KEGG_Ref={{{KEGG5_Ref|}}} }}}}
+|KEGGOther={{{KEGGOther|}}}
+}}}}
+{{#if:{{{MeSHName|}}} |{{Chembox MeSHName |value={{{MeSHName|}}} }}}}<!--
+----- PubChem ----- -->
+{{#if:{{{PubChem|}}}{{{PubChem1|}}}{{{PubChem2|}}}{{{PubChem3|}}}{{{PubChem4|}}}{{{PubChem5|}}}{{{PubChemOther|}}}
+|{{Chembox PubChem
+|PubChem ={{#if:{{{PubChem|}}} |{{Chembox PubChem/format |PubChem={{{PubChem|}}} |PubChem_comment={{{PubChem_Comment|}}} }}}}
+|PubChem1={{#if:{{{PubChem1|}}} |{{Chembox PubChem/format |PubChem={{{PubChem1|}}} |PubChem_comment={{{PubChem1_Comment|}}} }}}}
+|PubChem2={{#if:{{{PubChem2|}}} |{{Chembox PubChem/format |PubChem={{{PubChem2|}}} |PubChem_comment={{{PubChem2_Comment|}}} }}}}
+|PubChem3={{#if:{{{PubChem3|}}} |{{Chembox PubChem/format |PubChem={{{PubChem3|}}} |PubChem_comment={{{PubChem3_Comment|}}} }}}}
+|PubChem4={{#if:{{{PubChem4|}}} |{{Chembox PubChem/format |PubChem={{{PubChem4|}}} |PubChem_comment={{{PubChem4_Comment|}}} }}}}
+|PubChem5={{#if:{{{PubChem5|}}} |{{Chembox PubChem/format |PubChem={{{PubChem5|}}} |PubChem_comment={{{PubChem5_Comment|}}} }}}}
+|PubChemOther={{{PubChemOther|}}}
+}}}}
+{{#if:{{{RTECS|}}} |{{Chembox RTECS |value={{{RTECS|}}} }}}}<!--
+----- UNII ----- -->
+{{#if:{{{UNII|}}}{{{UNII1|}}}{{{UNII2|}}}{{{UNII3|}}}{{{UNII4|}}}{{{UNII5|}}}{{{UNIIOther|}}}
+|{{Chembox UNII
+|UNII ={{#if:{{{UNII|}}}|{{Chembox UNII/format|UNII={{{UNII|}}}|UNII_comment={{{UNII_Comment|}}}|UNII_Ref={{{UNII_Ref|}}} }}}}
+|UNII1={{#if:{{{UNII1|}}}|{{Chembox UNII/format|UNII={{{UNII1|}}}|UNII_comment={{{UNII1_Comment|}}}|UNII_Ref={{{UNII1_Ref|}}} }}}}
+|UNII2={{#if:{{{UNII2|}}}|{{Chembox UNII/format|UNII={{{UNII2|}}}|UNII_comment={{{UNII2_Comment|}}}|UNII_Ref={{{UNII2_Ref|}}} }}}}
+|UNII3={{#if:{{{UNII3|}}}|{{Chembox UNII/format|UNII={{{UNII3|}}}|UNII_comment={{{UNII3_Comment|}}}|UNII_Ref={{{UNII3_Ref|}}} }}}}
+|UNII4={{#if:{{{UNII4|}}}|{{Chembox UNII/format|UNII={{{UNII4|}}}|UNII_comment={{{UNII4_Comment|}}}|UNII_Ref={{{UNII4_Ref|}}} }}}}
+|UNII5={{#if:{{{UNII5|}}}|{{Chembox UNII/format|UNII={{{UNII5|}}}|UNII_comment={{{UNII5_Comment|}}}|UNII_Ref={{{UNII5_Ref|}}} }}}}
+|UNIIOther={{{UNIIOther|}}}
+}}}}
+{{#if:{{{UNNumber|}}} |{{Chembox UNNumber |value={{{UNNumber|}}} }}}}<!--
+-->}}<!--
+----- StdInChI, InChI ----- -->
+{{#if:{{{StdInChI|}}}{{{InChI|}}}{{{InChI1|}}}{{{InChI2|}}}{{{InChI3|}}}{{{InChI4|}}}{{{InChI5|}}}{{{StdInChIKey|}}}{{{InChIKey|}}}{{{InChI1Key|}}}{{{InChI2Key|}}}{{{InChI3Key|}}}{{{InChI4Key|}}}{{{InChI5Key|}}}{{{InChIOther|}}}
+|{{Chembox InChI<!--
+ StdInChIKey, StdInChI -->
+|StdInChI ={{#if:{{{StdInChI|}}}{{{StdInChIKey|}}}   |{{Chembox InChI/format |InChI={{{StdInChI|}}}  |InChI_comment={{{StdInChI_Comment|}}}  |InChI_Ref={{{StdInChI_Ref|}}}  |InChIkey={{{StdInChIKey|}}}  |InChIkey_Ref={{{StdInChIKey_Ref|}}} }}}}<!--
+ InChI, InChIKey indexed -->
+|InChI ={{#if:{{{InChI|}}}{{{InChIKey|}}}   |{{Chembox InChI/format |InChI={{{InChI|}}}  |InChI_comment={{{InChI_Comment|}}}  |InChI_Ref={{{InChI_Ref|}}}  |InChIkey={{{InChIKey|}}}  |InChIkey_comment={{{InChIKey_Comment|}}}  |InChIkey_Ref={{{InChIKey_Ref|}}}  }}}}
+|InChI1={{#if:{{{InChI1|}}}{{{InChIKey1|}}} |{{Chembox InChI/format |InChI={{{InChI1|}}} |InChI_comment={{{InChI1_Comment|}}} |InChI_Ref={{{InChI1_Ref|}}} |InChIkey={{{InChIKey1|}}} |InChIkey_comment={{{InChIKey1_Comment|}}} |InChIkey_Ref={{{InChIKey1_Ref|}}} }}}}
+|InChI2={{#if:{{{InChI2|}}}{{{InChIKey2|}}} |{{Chembox InChI/format |InChI={{{InChI2|}}} |InChI_comment={{{InChI2_Comment|}}} |InChI_Ref={{{InChI2_Ref|}}} |InChIkey={{{InChIKey2|}}} |InChIkey_comment={{{InChIKey2_Comment|}}} |InChIkey_Ref={{{InChIKey2_Ref|}}} }}}}
+|InChI3={{#if:{{{InChI3|}}}{{{InChIKey3|}}} |{{Chembox InChI/format |InChI={{{InChI3|}}} |InChI_comment={{{InChI3_Comment|}}} |InChI_Ref={{{InChI3_Ref|}}} |InChIkey={{{InChIKey3|}}} |InChIkey_comment={{{InChIKey3_Comment|}}} |InChIkey_Ref={{{InChIKey3_Ref|}}} }}}}
+|InChI4={{#if:{{{InChI4|}}}{{{InChIKey4|}}} |{{Chembox InChI/format |InChI={{{InChI4|}}} |InChI_comment={{{InChI4_Comment|}}} |InChI_Ref={{{InChI4_Ref|}}} |InChIkey={{{InChIKey4|}}} |InChIkey_comment={{{InChIKey4_Comment|}}} |InChIkey_Ref={{{InChIKey4_Ref|}}} }}}}
+|InChI5={{#if:{{{InChI5|}}}{{{InChIKey5|}}} |{{Chembox InChI/format |InChI={{{InChI5|}}} |InChI_comment={{{InChI5_Comment|}}} |InChI_Ref={{{InChI5_Ref|}}} |InChIkey={{{InChIKey5|}}} |InChIkey_comment={{{InChIKey5_Comment|}}} |InChIkey_Ref={{{InChIKey5_Ref|}}} }}}}
+|InChIOther={{{InChIOther|}}}
+}}}}<!--
+----- SMILES ----- -->
+{{#if:{{{SMILES|}}}{{{SMILES1|}}}{{{SMILES2|}}}{{{SMILES3|}}}{{{SMILES4|}}}{{{SMILES5|}}}{{{SMILESOther|}}}
+|{{Chembox SMILES
+|SMILES ={{#if:{{{SMILES|}}}|{{Chembox SMILES/format |SMILES={{{SMILES|}}} |SMILES_comment={{{SMILES_Comment|}}} }}}}
+|SMILES1={{#if:{{{SMILES1|}}}|{{Chembox SMILES/format |SMILES={{{SMILES1|}}} |SMILES_comment={{{SMILES1_Comment|}}} }}}}
+|SMILES2={{#if:{{{SMILES2|}}}|{{Chembox SMILES/format |SMILES={{{SMILES2|}}} |SMILES_comment={{{SMILES2_Comment|}}} }}}}
+|SMILES3={{#if:{{{SMILES3|}}}|{{Chembox SMILES/format |SMILES={{{SMILES3|}}} |SMILES_comment={{{SMILES3_Comment|}}} }}}}
+|SMILES4={{#if:{{{SMILES4|}}}|{{Chembox SMILES/format |SMILES={{{SMILES4|}}} |SMILES_comment={{{SMILES4_Comment|}}} }}}}
+|SMILES5={{#if:{{{SMILES5|}}}|{{Chembox SMILES/format |SMILES={{{SMILES5|}}} |SMILES_comment={{{SMILES5_Comment|}}} }}}}
+|SMILESOther={{{SMILESOther|}}} }}}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
