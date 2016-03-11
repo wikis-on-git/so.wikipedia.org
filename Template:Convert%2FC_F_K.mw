@@ -1,0 +1,12 @@
+{{convert/multi3{{{d}}}|{{convert/{{{d}}}T|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}
+|u=°C
+|t=Celsius
+|c=({{{2}}}-273.15)}}|{{convert/{{{d}}}T|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}
+|u=°F
+|t=Fahrenheit
+|c=({{{2}}}*1.8-459.67)}}|{{convert/{{{d}}}T|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}
+|u=K
+|t=Kelvin
+|c={{{2}}}}}}}<noinclude>
+[[Category:Subtemplates of Template Convert]]
+</noinclude>
