@@ -1,0 +1,23 @@
+{{Chembox headerbar
+|header=Names
+|ref={{{ref|}}}
+|addcats= }}<!--
+ always start a row-{{.. on newline:
+-->
+{{#if:{{{IUPACName|}}} |{{Chembox AllOtherNames/format
+|label=[[Chemical nomenclature|IUPAC name]]{{#ifexpr:{{{countIUPACnames|0}}}>1|s|}}
+|namelist={{{IUPACName|}}} }}}}<!--
+-->
+{{#if:{{{PIN|}}} |{{Chembox AllOtherNames/format
+|label=[[Preferred IUPAC name]]
+|namelist={{longitem|{{{PIN|}}}}} }}}}<!--
+-->
+{{#if:{{{SystematicName|}}} |{{Chembox AllOtherNames/format
+|label=[[Chemical nomenclature#Systematic name|Systematic IUPAC name]]
+|namelist={{longitem|{{{SystematicName|}}}}} }}}}<!--
+-->
+{{#if:{{{OtherNames|}}} |{{Chembox AllOtherNames/format
+|label=Other names
+|namelist={{{OtherNames|}}} }}}}
+
+<noinclude>{{documentation}}</noinclude>
