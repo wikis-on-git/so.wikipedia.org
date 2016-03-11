@@ -1,0 +1,8 @@
+{{#invoke:string |replace |source={{{temp_text|}}} |pattern=([%<%>%~])%&%#x20%;$ |replace=%1&nbsp; |plain=false |no_category=true |ignore_errors=true}}<!--
+-->{{#switch:{{{temp_unit|}}}
+|=
+|C={{convert|{{{temp_C|}}} {{{temp_F|}}}{{{temp_K|}}} |C |F K}}
+|F|K={{convert|{{{temp_F|}}} {{{temp_K|}}} |{{{temp_unit|}}} |C F K |disp=output only}} }}<!--
+ Note: this setup triggers a {convert} error when multiple temp inputs (C, F, K)
+-->{{{temp_ref|}}}&#x20;{{{temp_notes|}}}<!--
+--><noinclude>{{documentation}}</noinclude>
