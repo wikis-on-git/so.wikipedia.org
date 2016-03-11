@@ -1,5 +1,5 @@
 <sup><!--
--->{{#ifeq:{{lc:{{{1|}}}}}|Saxda
+-->{{#ifeq:{{lc:{{{1|}}}}}|correct
 |&nbsp;{{tick|7}}
 |&nbsp;{{cross|7}}{{main other |[[Category:Articles with changed InChI identifier{{#ifeq:{{lc:{{{1|}}}}}|changed||{{!}}?}}]] }}}}<!--
 -->{{#switch:{{lc:{{{2|}}}}}
