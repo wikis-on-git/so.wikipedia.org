@@ -1,0 +1,38 @@
+{{#if:{{{CrystalStruct|}}}{{{SpaceGroup|}}}{{{PointGroup|}}}{{{LattConst_a|}}}{{{LattConst_b|}}}{{{LattConst_c|}}}{{{LattConst_alpha|}}}{{{LattConst_beta|}}}{{{LattConst_gamma|}}}{{{LattConst_Comment|}}}{{{UnitCellVolume|}}}{{{UnitCellFormulas|}}}{{{Coordination|}}}{{{MolShape|}}}{{{OrbitalHybridisation|}}}{{{Dipole|}}}
+|<!-- then:
+ ----- HEADER -----
+-->{{Chembox headerbar
+|header=Dhismaha
+|ref={{{Structure_ref|}}}<!--
+ ----- maintenance cats -----
+-->|addcats=<!--
+ ----- templatepar -----
+ -->|templatepar={{#invoke:TemplatePar
+|check
+|template=Template:Chembox Structure
+|all= |opt= Structure_ref= CrystalStruct= SpaceGroup= PointGroup= LattConst_a= LattConst_b= LattConst_c= LattConst_alpha= LattConst_beta= LattConst_gamma= LattConst_ref= LattConst_Comment= UnitCellVolume= UnitCellFormulas= Coordination= MolShape= OrbitalHybridisation= Dipole= 
+|cat=Chemical articles with unknown parameter in Chembox
+|format=0|preview={{Chembox templatePar/formatPreviewMessage|msg=@@@}}|errNS=0}}<!--
+ ----- END HEADERBAR -->}}<!--
+ ----- START DATA ROWS ----- -->
+{{#if:{{{CrystalStruct|}}} |{{Chembox CrystalStruct |value={{{CrystalStruct|}}} }}}}
+{{#if:{{{SpaceGroup|}}} |{{Chembox SpaceGroup |value={{{SpaceGroup|}}} }}}}
+{{#if:{{{PointGroup|}}} |{{Chembox PointGroup |value={{{PointGroup|}}} }}}}
+{{#if:{{{LattConst_a|}}}{{{LattConst_b|}}}{{{LattConst_c|}}}{{{LattConst_alpha|}}}{{{LattConst_beta|}}}{{{LattConst_gamma|}}}{{{LattConst_Comment|}}} |{{Chembox LattConst
+|lattice-a={{{LattConst_a|}}}
+|lattice-b={{{LattConst_b|}}}
+|lattice-c={{{LattConst_c|}}}
+|lattice-alpha={{{LattConst_alpha|}}}
+|lattice-beta={{{LattConst_beta|}}}
+|lattice-gamma={{{LattConst_gamma|}}}
+|ref={{{LattConst_ref|}}}
+|comment= {{{LattConst_Comment|}}}
+ }}}}
+{{#if:{{{UnitCellVolume|}}} |{{Chembox CrystalStructVolume |volume={{{UnitCellVolume|}}} }}}}
+{{#if:{{{UnitCellFormulas|}}} |{{Chembox CrystalStructFormulas |formulas={{{UnitCellFormulas|}}} }}}}
+{{#if:{{{Coordination|}}} |{{Chembox Coordination |value={{{Coordination|}}} }}}}
+{{#if:{{{MolShape|}}} |{{Chembox MolShape |value={{{MolShape|}}} }}}}
+{{#if:{{{OrbitalHybridisation|}}} |{{Chembox OrbitalHybridisation |value={{{OrbitalHybridisation|}}} }}}}
+{{#if:{{{Dipole|}}}|{{Chembox Dipole |value={{{Dipole|}}} }}}}<!--
+-->}}<!--
+--><noinclude>{{documentation}}</noinclude>
