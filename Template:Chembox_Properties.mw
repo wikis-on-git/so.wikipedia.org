@@ -1,0 +1,98 @@
+{{#if:{{{Formula|}}}{{{Formula_Comment|}}}{{{MolarMass|}}}{{{MolarMass_ref|}}}{{{MolarMass_notes|}}}{{{MolarMass_Comment|}}}{{{Appearance|}}}{{{Odor|}}}{{{Odour|}}}{{{Density|}}}{{{MeltingPt|}}}{{{MeltingPtC|}}}{{{MeltingPtF|}}}{{{MeltingPtK|}}}{{{MeltinPt_notes|}}}{{{BoilingPt|}}}{{{BoilingPtC|}}}{{{BoilingPtF|}}}{{{BoilingPtK|}}}{{{BoilingPt_notes|}}}{{{SublimationConditions|}}}{{{Solubility|}}}{{{SolubilityProduct|}}}{{{SolubilityProductAs|}}}{{{SolubleOther|}}}{{{Solvent|}}}{{{Solubility1|}}}{{{Solubility2|}}}{{{Solubility3|}}}{{{Solubility4|}}}{{{Solubility5|}}}{{{LogP|}}}{{{VaporPressure|}}}{{{HenryConstant|}}}{{{AtmosphericOHRateConstant|}}}{{{pKa|}}}{{{pKb|}}}{{{IsoelectricPt|}}}{{{LambdaMax|}}}{{{Absorbance|}}}{{{BandGap|}}}{{{ElectronMobility|}}}{{{SpecRotation|}}}{{{MagSus|}}}{{{ThermalConductivity|}}}{{{RefractIndex|}}}{{{Viscosity|}}}{{{CriticalRelativeHumidity|}}}{{{Dipole|}}}{{{OrbitalHybridisation|}}}{{{SpecificSurfaceArea|}}}{{{PoreVolume|}}}{{{AveragePoreSize|}}}<!--
+118 elements: -->{{{Ac|}}}{{{Ag|}}}{{{Al|}}}{{{Am|}}}{{{Ar|}}}{{{As|}}}{{{At|}}}{{{Au|}}}{{{B|}}}{{{Ba|}}}{{{Be|}}}{{{Bh|}}}{{{Bi|}}}{{{Bk|}}}{{{Br|}}}{{{C|}}}{{{Ca|}}}{{{Cd|}}}{{{Ce|}}}{{{Cf|}}}{{{Cl|}}}{{{Cm|}}}{{{Cn|}}}{{{Co|}}}{{{Cr|}}}{{{Cs|}}}{{{Cu|}}}{{{Db|}}}{{{Ds|}}}{{{Dy|}}}{{{Er|}}}{{{Es|}}}{{{Eu|}}}{{{F|}}}{{{Fe|}}}{{{Fl|}}}{{{Fm|}}}{{{Fr|}}}{{{Ga|}}}{{{Gd|}}}{{{Ge|}}}{{{H|}}}{{{He|}}}{{{Hf|}}}{{{Hg|}}}{{{Ho|}}}{{{Hs|}}}{{{I|}}}{{{In|}}}{{{Ir|}}}{{{K|}}}{{{Kr|}}}{{{La|}}}{{{Li|}}}{{{Lr|}}}{{{Lu|}}}{{{Lv|}}}{{{Md|}}}{{{Mg|}}}{{{Mn|}}}{{{Mo|}}}{{{Mt|}}}{{{N|}}}{{{Na|}}}{{{Nb|}}}{{{Nd|}}}{{{Ne|}}}{{{Ni|}}}{{{No|}}}{{{Np|}}}{{{O|}}}{{{Os|}}}{{{P|}}}{{{Pa|}}}{{{Pb|}}}{{{Pd|}}}{{{Pm|}}}{{{Po|}}}{{{Pr|}}}{{{Pt|}}}{{{Pu|}}}{{{Ra|}}}{{{Rb|}}}{{{Re|}}}{{{Rf|}}}{{{Rg|}}}{{{Rh|}}}{{{Rn|}}}{{{Ru|}}}{{{S|}}}{{{Sb|}}}{{{Sc|}}}{{{Se|}}}{{{Sg|}}}{{{Si|}}}{{{Sm|}}}{{{Sn|}}}{{{Sr|}}}{{{Ta|}}}{{{Tb|}}}{{{Tc|}}}{{{Te|}}}{{{Th|}}}{{{Ti|}}}{{{Tl|}}}{{{Tm|}}}{{{U|}}}{{{Uuo|}}}{{{Uup|}}}{{{Uus|}}}{{{Uut|}}}{{{V|}}}{{{W|}}}{{{Xe|}}}{{{Y|}}}{{{Yb|}}}{{{Zn|}}}{{{Zr|}}}
+|<!-- then:
+ ----- HEADER -----
+-->{{Chembox headerbar
+|header=Astaamaha
+|ref={{{Properties_ref|}}}<!--
+ ----- maintenance cats -----
+-->|addcats={{#if:{{{Formula|}}}
+|[[Category:Chemical articles using a fixed chemical formula]] }}<!--
+ ----- templatepar -----
+ -->|templatepar={{#invoke:TemplatePar
+|check
+|template=Template:Chembox Properties
+|all= |opt= Properties_ref= Absorbance= Appearance= AtmosphericOHRateConstant= AveragePoreSize= BandGap= BoilingPt= BoilingPtC= BoilingPtF= BoilingPtK= BoilingPt_notes= BoilingPt_ref= CriticalRelativeHumidity= Density= Dipole= ElectronMobility= Formula= Formula_ref= Formula_Comment= Formula_Charge= HenryConstant= IsoelectricPt= LambdaMax= LogP= MagSus= MeltingPt= MeltingPtC= MeltingPtF= MeltingPtK= MeltingPt_notes= MeltingPt_ref= MolarMass= MolarMassRound= MolarMassUnit= MolarMass_Comment= MolarMass_notes= MolarMass_ref= Odor= Odour= OrbitalHybridisation= PoreVolume= RefractIndex= Solubility1= Solubility2= Solubility3= Solubility4= Solubility5= Solubility= SolubilityProduct= SolubilityProductAs= SolubleOther= Solvent1= Solvent2= Solvent3= Solvent4= Solvent5= Solvent= SpecRotation= SpecificSurfaceArea= SublimationConditions= ThermalConductivity= VaporPressure= Viscosity= pKa= pKb= 
+Ac=Ag=Al=Am=Ar=As=At=Au=B=Ba=Be=Bh=Bi=Bk=Br=C=Ca=Cd=Ce=Cf=Cl=Cm=Cn=Co=Cr=Cs=Cu=Db=Ds=Dy=Er=Es=Eu=F=Fe=Fl=Fm=Fr=Ga=Gd=Ge=H=He=Hf=Hg=Ho=Hs=I=In=Ir=K=Kr=La=Li=Lr=Lu=Lv=Md=Mg=Mn=Mo=Mt=N=Na=Nb=Nd=Ne=Ni=No=Np=O=Os=P=Pa=Pb=Pd=Pm=Po=Pr=Pt=Pu=Ra=Rb=Re=Rf=Rg=Rh=Rn=Ru=S=Sb=Sc=Se=Sg=Si=Sm=Sn=Sr=Ta=Tb=Tc=Te=Th=Ti=Tl=Tm=U=Uuo=Uup=Uus=Uut=V=W=Xe=Y=Yb=Zn=Zr= 
+|cat=Chemical articles with unknown parameter in Chembox
+|format=0|preview={{Chembox templatePar/formatPreviewMessage|msg=@@@}}|errNS=0}}<!--
+ ----- END HEADERBAR -->}}<!--
+ ----- START DATA ROWS -----
+-->
+{{Chembox Elements<!--
+ Note: magaca saxda ah waa: 'Naynaas kiimikeed' (tusaalaha tijaabada ah) -->
+|molecular formula={{Chembox Elements/molecular formula
+|chemical_formula_fixed={{{Formula|}}}
+|chemical_formula_ref={{{Formula_ref|}}}
+|chemical_formula_comment={{{Formula_Comment|}}}
+|charge={{{Formula_Charge|}}}<!-- new, added Dec 2015-->
+|Ac={{{Ac|}}}|Ag={{{Ag|}}}|Al={{{Al|}}}|Am={{{Am|}}}|Ar={{{Ar|}}}|As={{{As|}}}|At={{{At|}}}|Au={{{Au|}}}|B={{{B|}}}|Ba={{{Ba|}}}|Be={{{Be|}}}|Bh={{{Bh|}}}|Bi={{{Bi|}}}|Bk={{{Bk|}}}|Br={{{Br|}}}|C={{{C|}}}|Ca={{{Ca|}}}|Cd={{{Cd|}}}|Ce={{{Ce|}}}|Cf={{{Cf|}}}|Cl={{{Cl|}}}|Cm={{{Cm|}}}|Cn={{{Cn|}}}|Co={{{Co|}}}|Cr={{{Cr|}}}|Cs={{{Cs|}}}|Cu={{{Cu|}}}|Db={{{Db|}}}|Ds={{{Ds|}}}|Dy={{{Dy|}}}|Er={{{Er|}}}|Es={{{Es|}}}|Eu={{{Eu|}}}|F={{{F|}}}|Fe={{{Fe|}}}|Fl={{{Fl|}}}|Fm={{{Fm|}}}|Fr={{{Fr|}}}|Ga={{{Ga|}}}|Gd={{{Gd|}}}|Ge={{{Ge|}}}|H={{{H|}}}|He={{{He|}}}|Hf={{{Hf|}}}|Hg={{{Hg|}}}|Ho={{{Ho|}}}|Hs={{{Hs|}}}|I={{{I|}}}|In={{{In|}}}|Ir={{{Ir|}}}|K={{{K|}}}|Kr={{{Kr|}}}|La={{{La|}}}|Li={{{Li|}}}|Lr={{{Lr|}}}|Lu={{{Lu|}}}|Lv={{{Lv|}}}|Md={{{Md|}}}|Mg={{{Mg|}}}|Mn={{{Mn|}}}|Mo={{{Mo|}}}|Mt={{{Mt|}}}|N={{{N|}}}|Na={{{Na|}}}|Nb={{{Nb|}}}|Nd={{{Nd|}}}|Ne={{{Ne|}}}|Ni={{{Ni|}}}|No={{{No|}}}|Np={{{Np|}}}|O={{{O|}}}|Os={{{Os|}}}|P={{{P|}}}|Pa={{{Pa|}}}|Pb={{{Pb|}}}|Pd={{{Pd|}}}|Pm={{{Pm|}}}|Po={{{Po|}}}|Pr={{{Pr|}}}|Pt={{{Pt|}}}|Pu={{{Pu|}}}|Ra={{{Ra|}}}|Rb={{{Rb|}}}|Re={{{Re|}}}|Rf={{{Rf|}}}|Rg={{{Rg|}}}|Rh={{{Rh|}}}|Rn={{{Rn|}}}|Ru={{{Ru|}}}|S={{{S|}}}|Sb={{{Sb|}}}|Sc={{{Sc|}}}|Se={{{Se|}}}|Sg={{{Sg|}}}|Si={{{Si|}}}|Sm={{{Sm|}}}|Sn={{{Sn|}}}|Sr={{{Sr|}}}|Ta={{{Ta|}}}|Tb={{{Tb|}}}|Tc={{{Tc|}}}|Te={{{Te|}}}|Th={{{Th|}}}|Ti={{{Ti|}}}|Tl={{{Tl|}}}|Tm={{{Tm|}}}|U={{{U|}}}|Uuo={{{Uuo|}}}|Uup={{{Uup|}}}|Uus={{{Uus|}}}|Uut={{{Uut|}}}|V={{{V|}}}|W={{{W|}}}|Xe={{{Xe|}}}|Y={{{Y|}}}|Yb={{{Yb|}}}|Zn={{{Zn|}}}|Zr={{{Zr|}}} }}
+
+|molecular mass={{Chem molar mass
+|fixed={{{MolarMass|}}}
+|round={{{MolarMassRound|}}}
+|unit={{{MolarMassUnit|}}}
+|ref={{{MolarMass_ref|}}}
+|comment={{{MolarMass_Comment|}}}{{{MolarMass_notes|}}}
+|catname=Chemical articles having calculated molecular weight overwritten
+|Ac={{{Ac|}}}|Ag={{{Ag|}}}|Al={{{Al|}}}|Am={{{Am|}}}|Ar={{{Ar|}}}|As={{{As|}}}|At={{{At|}}}|Au={{{Au|}}}|B={{{B|}}}|Ba={{{Ba|}}}|Be={{{Be|}}}|Bh={{{Bh|}}}|Bi={{{Bi|}}}|Bk={{{Bk|}}}|Br={{{Br|}}}|C={{{C|}}}|Ca={{{Ca|}}}|Cd={{{Cd|}}}|Ce={{{Ce|}}}|Cf={{{Cf|}}}|Cl={{{Cl|}}}|Cm={{{Cm|}}}|Cn={{{Cn|}}}|Co={{{Co|}}}|Cr={{{Cr|}}}|Cs={{{Cs|}}}|Cu={{{Cu|}}}|Db={{{Db|}}}|Ds={{{Ds|}}}|Dy={{{Dy|}}}|Er={{{Er|}}}|Es={{{Es|}}}|Eu={{{Eu|}}}|F={{{F|}}}|Fe={{{Fe|}}}|Fl={{{Fl|}}}|Fm={{{Fm|}}}|Fr={{{Fr|}}}|Ga={{{Ga|}}}|Gd={{{Gd|}}}|Ge={{{Ge|}}}|H={{{H|}}}|He={{{He|}}}|Hf={{{Hf|}}}|Hg={{{Hg|}}}|Ho={{{Ho|}}}|Hs={{{Hs|}}}|I={{{I|}}}|In={{{In|}}}|Ir={{{Ir|}}}|K={{{K|}}}|Kr={{{Kr|}}}|La={{{La|}}}|Li={{{Li|}}}|Lr={{{Lr|}}}|Lu={{{Lu|}}}|Lv={{{Lv|}}}|Md={{{Md|}}}|Mg={{{Mg|}}}|Mn={{{Mn|}}}|Mo={{{Mo|}}}|Mt={{{Mt|}}}|N={{{N|}}}|Na={{{Na|}}}|Nb={{{Nb|}}}|Nd={{{Nd|}}}|Ne={{{Ne|}}}|Ni={{{Ni|}}}|No={{{No|}}}|Np={{{Np|}}}|O={{{O|}}}|Os={{{Os|}}}|P={{{P|}}}|Pa={{{Pa|}}}|Pb={{{Pb|}}}|Pd={{{Pd|}}}|Pm={{{Pm|}}}|Po={{{Po|}}}|Pr={{{Pr|}}}|Pt={{{Pt|}}}|Pu={{{Pu|}}}|Ra={{{Ra|}}}|Rb={{{Rb|}}}|Re={{{Re|}}}|Rf={{{Rf|}}}|Rg={{{Rg|}}}|Rh={{{Rh|}}}|Rn={{{Rn|}}}|Ru={{{Ru|}}}|S={{{S|}}}|Sb={{{Sb|}}}|Sc={{{Sc|}}}|Se={{{Se|}}}|Sg={{{Sg|}}}|Si={{{Si|}}}|Sm={{{Sm|}}}|Sn={{{Sn|}}}|Sr={{{Sr|}}}|Ta={{{Ta|}}}|Tb={{{Tb|}}}|Tc={{{Tc|}}}|Te={{{Te|}}}|Th={{{Th|}}}|Ti={{{Ti|}}}|Tl={{{Tl|}}}|Tm={{{Tm|}}}|U={{{U|}}}|Uuo={{{Uuo|}}}|Uup={{{Uup|}}}|Uus={{{Uus|}}}|Uut={{{Uut|}}}|V={{{V|}}}|W={{{W|}}}|Xe={{{Xe|}}}|Y={{{Y|}}}|Yb={{{Yb|}}}|Zn={{{Zn|}}}|Zr={{{Zr|}}}
+ }} }}<!-- end of chemformula set. No #if:input here, because subtemplate has: 'no data=return blank'. -->
+{{#if:{{{Appearance|}}}|{{Chembox Appearance |value={{{Appearance|}}} }}}}
+{{#if:{{{Odor|}}}{{{Odour|}}}|{{Chembox Odour |value={{{Odor|}}}{{{Odour|}}} }}}}
+{{#if:{{{Density|}}}|{{Chembox Density |value={{{Density|}}} }}}}
+{{#if:{{{MeltingPt|}}}{{{MeltingPtC|}}}{{{MeltingPtF|}}}{{{MeltingPtK|}}}{{{MeltingPt_notes|}}} |<!--
+-->{{Chembox MeltingPt
+|data={{Chembox CalcTemperatures|
+|temp_text={{{MeltingPt|}}}&#x20;
+|temp_C={{{MeltingPtC|}}} |temp_F={{{MeltingPtF|}}} |temp_K={{{MeltingPtK|}}}
+|temp_unit={{#if:{{{MeltingPtC|}}} |C |{{#if:{{{MeltingPtF|}}} |F |{{#if:{{{MeltingPtK|}}} |K}} }}}}
+|temp_ref={{{MeltingPt_ref|}}}
+|temp_notes={{{MeltingPt_notes|}}}
+}} }} }}
+{{#if:{{{BoilingPt|}}}{{{BoilingPtC|}}}{{{BoilingPtF|}}}{{{BoilingPtK|}}}{{{BoilingPt_notes|}}} |<!--
+-->{{Chembox BoilingPt
+|data={{Chembox CalcTemperatures|
+|temp_text={{{BoilingPt|}}}&#x20;
+|temp_C={{{BoilingPtC|}}} |temp_F={{{BoilingPtF|}}} |temp_K={{{BoilingPtK|}}}
+|temp_unit={{#if:{{{BoilingPtC|}}} |C |{{#if:{{{BoilingPtF|}}} |F |{{#if:{{{BoilingPtK|}}} |K}} }}}}
+|temp_ref={{{BoilingPt_ref|}}}
+|temp_notes={{{BoilingPt_notes|}}}
+}} }} }}
+{{#if:{{{SublimationConditions|}}}|{{Chembox SublimationConditions|value={{{SublimationConditions|}}} }}}}
+{{#if:{{{Solubility|}}}|{{Chembox SolubilityInWater|value={{{Solubility|}}} }}}}
+{{#if:{{{SolubilityProduct|}}}|{{Chembox SolubilityProduct|value={{{SolubilityProduct|}}}|label={{{SolubilityProductAs|}}} }}}}
+{{#if:{{{SolubleOther|}}}|{{Chembox Solubility|value={{{SolubleOther|}}}|label={{{Solvent|}}} }}}}
+{{#if:{{{Solubility1|}}}|{{Chembox Solubility|value={{{Solubility1|}}}|label={{#if:{{{Solvent1|}}}|[[{{{Solvent1}}}]] }} }}}}<!-- !!! -->
+{{#if:{{{Solubility2|}}}|{{Chembox Solubility|value={{{Solubility2|}}}
+|label={{#if:{{{Solvent2|}}}|[[{{{Solvent2}}}]] }} }}}}
+{{#if:{{{Solubility3|}}}|{{Chembox Solubility|value={{{Solubility3|}}}
+|label={{#if:{{{Solvent3|}}}|[[{{{Solvent3}}}]] }} }}}}
+{{#if:{{{Solubility4|}}}|{{Chembox Solubility|value={{{Solubility4|}}}
+|label={{#if:{{{Solvent4}}}|[[{{{Solvent4}}}]] }} }}}}
+{{#if:{{{Solubility5|}}}|{{Chembox Solubility|value={{{Solubility5|}}}
+|label={{#if:{{{Solvent5|}}}|[[{{{Solvent5}}}]] }} }}}}
+{{#if:{{{LogP|}}}|{{Chembox LogP|value={{{LogP|}}} }}}}
+{{#if:{{{VaporPressure|}}}|{{Chembox VaporPressure|value={{{VaporPressure|}}} }}}}
+{{#if:{{{HenryConstant|}}}|{{Chembox HenryConstant|value={{{HenryConstant|}}} }}}}
+{{#if:{{{AtmosphericOHRateConstant|}}}|{{Chembox AtmosphericOHRateConstant|value={{{AtmosphericOHRateConstant|}}} }}}}
+{{#if:{{{pKa|}}}|{{Chembox pKa|value={{{pKa|}}} }}}}
+{{#if:{{{pKb|}}}|{{Chembox pKb|value={{{pKb|}}} }}}}
+{{#if:{{{IsoelectricPt|}}}|{{Chembox IsoelectricPt|value={{{IsoelectricPt|}}} }}}}
+{{#if:{{{LambdaMax|}}}|{{Chembox LambdaMax|value={{{LambdaMax|}}} }}}}
+{{#if:{{{Absorbance|}}}|{{Chembox Absorbance|value={{{Absorbance|}}} }}}}
+{{#if:{{{BandGap|}}}|{{Chembox BandGap|value={{{BandGap|}}} }}}}
+{{#if:{{{ElectronMobility|}}}|{{Chembox ElectronMobility|value={{{ElectronMobility|}}} }}}}
+{{#if:{{{SpecRotation|}}}|{{Chembox SpecRotation|value={{{SpecRotation|}}} }}}}
+{{#if:{{{MagSus|}}}|{{Chembox MagSus|value={{{MagSus|}}} }}}}
+{{#if:{{{ThermalConductivity|}}}|{{Chembox ThermalConductivity|value={{{ThermalConductivity|}}} }}}}
+{{#if:{{{RefractIndex|}}}|{{Chembox RefractIndex|value={{{RefractIndex|}}} }}}}
+{{#if:{{{Viscosity|}}}|{{Chembox Viscosity|value={{{Viscosity|}}} }}}}
+{{#if:{{{CriticalRelativeHumidity|}}}|{{Chembox CriticalRelativeHumidity|value={{{CriticalRelativeHumidity|}}} }}}}
+{{#if:{{{Dipole|}}}|{{Chembox Dipole|value={{{Dipole|}}} }}}}
+{{#if:{{{OrbitalHybridisation|}}}|{{Chembox OrbitalHybridisation|value={{{OrbitalHybridisation|}}} }}}}
+{{#if:{{{SpecificSurfaceArea|}}}|{{Chembox SpecificSurfaceArea|value={{{SpecificSurfaceArea|}}} }}}}
+{{#if:{{{PoreVolume|}}}|{{Chembox PoreVolume|value={{{PoreVolume|}}} }}}}
+{{#if:{{{AveragePoreSize|}}}|{{Chembox AveragePoreSize|value={{{AveragePoreSize|}}} }}}}<!--
+-->}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
