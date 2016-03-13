@@ -1,0 +1,4 @@
+<includeonly><onlyinclude>{{#expr:{{{2}}}-{{{1|}}}-1}}{{#if:{{{mos|}}}|&#32;or&#32;|/}}{{#expr:{{{2}}}-{{{1}}}}}{{if|eq|{{{noage}}}|1|| (age&nbsp;{{#ifeq:{{#expr:{{MONTHNUMBER|{{{3|12}}}}}*31+{{{4|31}}}}}|{{#expr:{{CURRENTMONTH}}*31+{{CURRENTDAY}}}}|{{#expr:{{CURRENTYEAR}}-{{{2}}}+{{{1}}}}}|{{#ifexpr:{{#expr:{{MONTHNUMBER|{{{3|12}}}}}*31+{{{4|31}}}}}>{{#expr:{{CURRENTMONTH}}*31+{{CURRENTDAY}}}}|{{#expr:{{CURRENTYEAR}}-{{{2}}}+{{{1}}}-1}}|{{#expr:{{CURRENTYEAR}}-{{{2}}}+{{{1}}}}}}}–{{#ifexpr:{{#expr:{{MONTHNUMBER|{{{3|1}}}}}*31+{{{4|1}}}}}<{{#expr:{{CURRENTMONTH}}*31+{{CURRENTDAY}}}}|{{#expr:{{CURRENTYEAR}}-{{{2}}}+{{{1}}}+1}}|{{#expr:{{CURRENTYEAR}}-{{{2}}}+{{{1}}}}}}}}})}}</onlyinclude></includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
