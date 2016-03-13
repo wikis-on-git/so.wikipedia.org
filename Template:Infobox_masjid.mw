@@ -1,6 +1,14 @@
-{|class="wikitable"
+{{infobox 
+| bodyclass = vcard
+| bodystyle = border-spacing:2px; width:250px
+| abovestyle = font-size:larger; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+| aboveclass = fn org
+| above = {{{name|{{{building_name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}}}
 
+| subheader = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+| subheaderstyle = background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|alt={{{alt|}}} }}
+| caption = {{{caption|}}}
 | colspan="3" align="center" | '''Dhismaha Kacbada'''<br><br>[[File:Mosquée Masjid el Haram à la Mecque.jpg|250px]]<br><br>Masaajidka Kacabada<br><br>'''Deegaanka''': [[Makka]], al-Xijaas, [[Sacuudi Carabiya]]<br><br>'''Dhererka''': 13.1 m<br><br>'''Diinta''': [[Islam]]<br><br>'''Cida dhistey''': [[Nebi Ismaaciil]] wiilka [[Nebi Ibraahim]]<br><br>'''Meeshay ay dhacdo''': [https://tools.wmflabs.org/geohack/geohack.php?pagename=Kaaba&params=21.422495_N_39.826165_E_type:landmark 21° 25′ 20.98″ N, 39° 49′ 34]<br><br>
-
-
-|}
+}}
