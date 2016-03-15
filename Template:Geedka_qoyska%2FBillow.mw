@@ -1,0 +1,9 @@
+{{#if: {{{title|}}}|<div style="text-align: center; margin: 1em 0em;"><strong>{{{title}}}</strong></div>|}}
+<table style="border-spacing: 0; {{#switch: {{{align|}}}
+|left = float: left;
+|right = float: right;
+|center = margin: 0 auto;
+|#default = 
+}} {{{style|}}}" title="{{{summary|}}}"><noinclude>
+{{Documentation}}
+</noinclude>
