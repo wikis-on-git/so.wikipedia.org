@@ -1,0 +1,14 @@
+{{fmbox
+|image = none 
+|text  = '''Kuma jiro wikipedia maqaal kasta oo magacaan wata.''' Fadlan [{{fullurl:Special:Search|search={{PAGENAMEE}}&fulltext=Search}} raadinta ''{{PAGENAME}}'' ee Wikipedia] si loo hubiyo ciwaano ka bedelan ama higgaad.
+{{bulleted list
+ | 1 = Haddii aad doonaysid [[Wiktionary]] {{{{{subst|}}}#if:{{{many|}}}|booqashooyin|booqashada}} ee "'''[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}|{{{1|{{lc:{{PAGENAME}}}}}}}]]'''" bedelkeeda.
+ | 2 = {{#switch: {{PROTECTIONLEVEL: edit}}
+    | sysop | templateeditor =
+    | #default = '''[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} biloow ''{{PAGENAME}}'' malaaq]''', adigoo adeegsanaya [[Wikipedia:Article wizard|Article Wizard]] if you wish, or [[Wikipedia:Requested articles|add a request for it]]; but please remember Wikipedia is [[WP:WINAD|not a dictionary]].<includeonly><!-- soft redirect metadata --><span id="softredirect" style="display:none">[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}]]</span></includeonly>
+   }}
+}}
+|imageright = [[File:Wiktionary-logo-en.svg|50px| ]]
+}}<!-- Template:Wi --><includeonly>{{Soft redirect protection}}{{#if:{{{nocat|}}}||{{#ifeq:{{SUBPAGENAME}}|sandbox||[[Category:Redirects to Wiktionary]]}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
