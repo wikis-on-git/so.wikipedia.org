@@ -1,0 +1,116 @@
+{{ #ifexist: Draft:{{FULLPAGENAME}}
+ | {{There is a draft for this article}}
+}}{{ #ifexist: {{FULLPAGENAME}}s
+ | {{Did you mean/box|{{FULLPAGENAME}}s}}
+}}{{ #ifexist: {{FULLPAGENAME}})
+ | {{Did you mean/box|{{FULLPAGENAME}})}}
+}}{{ #switch: {{FULLPAGENAME}}
+ | Enter your new article name here = {{Editnotices/Page/Enter your new article name here}}
+ | Wikipedia talk:Articles for creation/Enter your new article name here = {{Editnotices/Page/Wikipedia talk:Articles for creation/Enter your new article name here}}
+ | #default = {{ #switch: {{ lc: {{SUBJECTSPACE}}#{{SUBPAGENAME}} }}
+  | user#skin.js
+  | user#skin.css = {{skin-file disambig}}
+  | #default      = {{fmbox
+   | type  = system
+   | id    = noarticletext
+   | image = none
+   | textstyle = padding: 0.6em 0.9em;  <!--Large box needs more padding-->
+   | text = {{ #ifeq: {{ #ifeq: {{FULLPAGENAME}} | Template:No article text || {{NAMESPACE}} }} | {{ns:0}}
+    | <div class="infobox" id="sisterproject" style="width: 20em; font-size: 90%; float: right; padding: 0.5em;">Soo eeg '''{{PAGENAME}}''' mid ka mid ah Wikipedia [[Special:SiteMatrix|mashruuca bahwadaagta]]:
+<table style="background: none; margin: auto;" cellpadding="1" cellspacing="0">
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wiktionary-logo-en.png|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wiktionary:Special:Search/{{PAGENAME}}|Wiktionary]] (qaamuus xor ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikibooks-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikibooks:Special:Search/{{PAGENAME}}|Wikibooks]] (qoraal buug xor ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikiquote-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikiquote:Special:Search/{{PAGENAME}}|Wikiquote]] (su'aalo)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikisource-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikisource:Special:Search/{{PAGENAME}}|Wikisource]] (maktabad xor ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikiversity-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikiversity:Special:Search/{{PAGENAME}}|Wikiversity]] (xogo waxbarasho xor ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Commons-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[commons:Special:Search/{{PAGENAME}}|Commons]] (sawiro iyo muuqaal)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikivoyage-Logo-v3-icon.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikivoyage:Special:Search/{{PAGENAME}}|Wikivoyage]] (hagaha musaafirka xorta ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikinews-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikinews:Special:Search/{{PAGENAME}}|Wikinews]] (xogaha warka xorta ah)</td>
+ </tr>
+ <tr style="height: 30px;">
+  <td style="text-align: center; vertical-align: middle;">[[File:Wikidata-logo.svg|30x30px| ]]</td>
+  <td style="vertical-align: middle;">[[wikidata:Special:Search/{{PAGENAME}}|Wikidata]] (linkiyada xarunta kaydka xorta ah)</td>
+ </tr>
+</table></div>
+   }}{{ #ifeq: {{NAMESPACE}} | User talk
+    | '''No messages''' have been posted for this user yet.
+    | '''Lagama heli karo wikipedia {{ #switch: {{NAMESPACE}}
+     | {{ns:0}}        = maqaalkaan
+     | {{TALKSPACE}}   =  [[{{ns:Help}}:Using talk pages|wadahadal bog]]
+     | {{ns:Category}} =  [[{{ns:Project}}:Categorization|qeyb]]
+     | {{ns:Help}}     =  [[{{ns:Help}}:Contents|help]] bog
+     | {{ns:Portal}}   =  [[{{ns:Project}}:Portal|portal]]
+     | {{ns:Template}} =  [[{{ns:Project}}:Template messages|tusmo]]
+     | {{ns:User}}     =  [[{{ns:Project}}:User pages|isticmaale bog]]
+     | {{ns:Project}}  =  [[{{ns:Project}}:Project namespace|mashruuc bog]]
+     | #default        =  {{NAMESPACE}} page
+    }} jiritaanka magacaas.''' {{ #ifeq: {{PAGENAME}} | {{SUBPAGENAME}}
+     | {{ #switch: {{NAMESPACE}}
+      | {{ns:0}}        = fadlan [[{{ns:Special}}:Search/{{PAGENAME}}|raadinta ''{{PAGENAME}}'' ee Wikipedia]] si loo hubiyo ciwaano ka bedelan ama higgaad.
+      | {{ns:Category}} = Fadlan gal [[Portal:Contents|existing categories]] to check if the category is covered under another name.
+      | {{ns:Help}}     = Fadlan gal [[{{ns:Help}}:Contents|existing help pages]] to check if the help topic is covered under another name.
+      | {{ns:Portal}}   = Fadlan gal [[{{ns:Portal}}:Contents/Portals|existing portals]] to check for similar topics.
+      | {{ns:Template}} = Fadlan gal [[{{ns:Project}}:Template messages|tusmada jirta]] si aad u hubiso haddii farriinta laga heli karaa magaca kale oo la mid ah.
+      | {{ns:User}}     = In general, this page should be created and edited by [[{{ns:User}}:{{PAGENAME}}]]. If in doubt, please verify that "{{PAGENAME}}" [{{fullurl:Special:ListUsers|username={{ urlencode: {{PAGENAME}} }}&limit=1}} '''exists'''].
+     }}
+     | Before creating this page, please see [[{{ns:Project}}:Subpages]].
+    }}
+   }}{{ #ifeq: {{{nopermission}}} | yes
+    |* {{ #switch: {{PROTECTIONLEVEL:create|{{FULLPAGENAME}}}}
+     | editprotected     = This page is protected from creation, so only [[Wikipedia:Administrators|administrators]] can create it.
+     | editsemiprotected = This page is semi-protected from creation, so only [[WP:User access levels#Autoconfirmed users|autoconfirmed users]] can create it.
+     | templateeditor    = This page is template-protected from creation, so only [[Wikipedia:Template editor|template editors]] can create it.
+     | #default          = [{{fullurl:Special:UserLogin|returnto={{ urlencode: {{FULLPAGENAME}} }}}} Log in or create an account] si aad u biloowdo '''''{{FULLPAGENAME}}''''' {{ #if: {{NAMESPACE}} | page | article }}{{ #switch: {{NAMESPACE}}
+      | {{ns:0}}         =, alternatively use the [[Wikipedia:Article wizard|Article Wizard]], or [[{{ns:Project}}:Requested articles|add a request for it]]
+      | {{ns:Category}}  =, alternatively use the [[Wikipedia:Article wizard/Category|Article Wizard]]
+     }}.
+    }}
+    |* '''[{{fullurl:{{FULLPAGENAME}}|action=edit}} {{ #switch: {{NAMESPACE}}
+     | User talk = Post a message to ''{{PAGENAME}}''
+     | #default  = biloow {{ #if: {{NAMESPACE}} | bogga | maqaalka }} ''{{FULLPAGENAME}}'' 
+    }}]'''{{ #if: {{NAMESPACE}}
+     || , using the [[Wikipedia:Article wizard|Article Wizard]] if you wish, or [[{{ns:Project}}:Requested articles|add a request for it]]
+   }}.
+  }}{{ #switch: {{NAMESPACE}}
+   | User talk = 
+   | #default  = 
+* [[{{ns:Special}}:Search/{{FULLPAGENAME}}|Ka raadi "''{{FULLPAGENAME}}''"]] haddii uu jiro {{ #if: {{NAMESPACE}} | bogagga ku xusan {{NAMESPACE}} | maqaalada }}.
+* [[{{ns:Special}}:WhatLinksHere/{{FULLPAGENAME}}|Soo eeg bogagga ku jira Wikipedia taasoo xiriir la leh ciwaankaan]].
+  }}
+<div id="noarticletext_technical">
+----
+
+'''Sababaha kale farriintaan loo soo bandhigayo:'''
+* Haddii{{ #ifeq: {{NAMESPACE}} | {{ns:File}} | an image | bogga }} laga sameeyay halkaan goor dambe, lama arki karo weli maxaa yeelay waxaa lala daahay cusboonaysiinta saldhigga; sug xoogaa daqiiqado ah ama isku day [{{fullurl:{{FULLPAGENAME}}|action=purge}} hagaajinta] shaqaysiinta.
+* Ciwaanka Wikipedia waa '''[[Case sensitivity|arrin xassasi ah]]''' marka laga reebo xarafka ugu horreeya; fadlan hubi [[{{ns:Special}}:Search/{{FULLPAGENAME}}|waaweynaynta xarfaha]] iyo adigoo eegaya ku darista [[Wikipedia:Redirect|toosin]] halkaan ciwaan sax ah.
+* Haddii bogga la tirtiray, iska hubi '''[{{fullurl:Special:Log/delete|page={{FULLPAGENAMEE}}}} xuuusta tirtirista]''', ee eeg [[Wikipedia:Why was the page I created deleted?|Maxaa bogga aan sameeyay loo tirtiray?]].
+</div>
+}}<!--End fmbox-->
+
+  }}
+}}<!--End switch: {{FULLPAGENAME}}--><noinclude>
+{{documentation}}
+</noinclude>
