@@ -5,7 +5,7 @@
  | 1 = Haddii aad doonaysid [[Wiktionary]] {{{{{subst|}}}#if:{{{many|}}}|booqashooyin|booqashada}} ee "'''[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}|{{{1|{{lc:{{PAGENAME}}}}}}}]]'''" bedelkeeda.
  | 2 = {{#switch: {{PROTECTIONLEVEL: edit}}
     | sysop | templateeditor =
-    | #default = '''[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} biloow ''{{PAGENAME}}'' malaaq]''', adigoo adeegsanaya [[Wikipedia:Article wizard|Article Wizard]] if you wish, or [[Wikipedia:Requested articles|add a request for it]]; but please remember Wikipedia is [[WP:WINAD|not a dictionary]].<includeonly><!-- soft redirect metadata --><span id="softredirect" style="display:none">[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}]]</span></includeonly>
+    | #default = '''[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} biloow ''{{PAGENAME}}'' maqaal]''', adigoo adeegsanaya [[Wikipedia:Maqaal Sarcaad|Maqaal Sarcaad]] haddii aad doonayso, ama [[Wikipedia:Requested articles|ku dar codsigaada]]; laakiin fadlan ogsoonoow Wikipedia waa [[WP:WINAD|maaha qaamuus]].<includeonly><!-- soft redirect metadata --><span id="softredirect" style="display:none">[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}]]</span></includeonly>
    }}
 }}
 |imageright = [[File:Wiktionary-logo-en.svg|50px| ]]
