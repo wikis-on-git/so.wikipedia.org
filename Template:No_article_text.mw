@@ -74,7 +74,7 @@
       | {{ns:Help}}     = Fadlan gal [[{{ns:Help}}:Contents|existing help pages]] to check if the help topic is covered under another name.
       | {{ns:Portal}}   = Fadlan gal [[{{ns:Portal}}:Contents/Portals|existing portals]] to check for similar topics.
       | {{ns:Template}} = Fadlan gal [[{{ns:Project}}:Template messages|tusmada jirta]] si aad u hubiso haddii farriinta laga heli karaa magaca kale oo la mid ah.
-      | {{ns:User}}     = In general, this page should be created and edited by [[{{ns:User}}:{{PAGENAME}}]]. If in doubt, please verify that "{{PAGENAME}}" [{{fullurl:Special:ListUsers|username={{ urlencode: {{PAGENAME}} }}&limit=1}} '''exists'''].
+      | {{ns:User}}     = Guud ahaan, bogan waxaa samayn kara ama wax ka bedeli kara [[{{ns:User}}:{{PAGENAME}}]]. Ha aanad ku qanacsanayn, fadlan marka hore xaqiiji "{{PAGENAME}}" [{{fullurl:Special:ListUsers|username={{ urlencode: {{PAGENAME}} }}&limit=1}} '''in uu jiro'''].
      }}
      | Before creating this page, please see [[{{ns:Project}}:Subpages]].
     }}
