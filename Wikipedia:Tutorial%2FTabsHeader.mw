@@ -1,0 +1,16 @@
+{{page tabs
+|[[Wikipedia:Tutorial|Barasho]]
+|[[Wikipedia:Tutorial/Editing|Sidee </br> edit]] 
+|[[Wikipedia:Tutorial/Formatting|Daadihin]] 
+|[[Wikipedia:Tutorial/Wikipedia links|Linkiyada]] 
+|[[Wikipedia:Tutorial/Citing sources|Linkiyada ka baxsan</br>sources]] 
+|[[Wikipedia:Tutorial/Talk pages|Bogga</br>wadahadalka]] 
+|[[Wikipedia:Tutorial/Keep in mind|Xusuusnow]] 
+|[[Wikipedia:Tutorial/Registration|Isdiiwaangalin]] 
+|[[Wikipedia:Tutorial/Wrap-up and more info|<span style="white-space:nowrap;">Macluumaad</br>dheeraad ah</span>]]
+|This={{{This|1}}}
+}}{{PartofHelpContents}}<noinclude>
+This page is used to make the tabs consistent on all pages.  To understand how to do this directly, see any of the following: [[Wikipedia:Tutorial/Header]]
+
+To use this page, set '''This=n''' where n is the tab number of the page that calls this macro, e.g '''This=5''' or '''This=8'''
+</noinclude>
