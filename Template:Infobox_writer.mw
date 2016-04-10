@@ -90,20 +90,20 @@
 | label20 = Years&nbsp;active
 |  data20 = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
-| label21 = Spouse{{#if:{{{spouses|}}}|s}}
+| label21 = Xaaska{{#if:{{{spouses|}}}|}}
 |  data21 = {{#if:{{{spouses|}}}|{{{spouses}}}|{{{spouse|}}}}}
 
 | label22 = Partner{{#if:{{{partners|}}}|s}}
 |  data22 = {{#if:{{{partners|}}}|{{{partners}}}|{{{partner|}}}}}
 
-| label23 = Children
+| label23 = Caruurta
 |  data23 = {{{children|}}}
 
-| label24 = Relatives
+| label24 = Qaraabada
 |  data24 = {{{relatives|{{{relations|}}}}}}
 
 |  data28 = {{#if:{{{signature|}}} |<hr/>}}
-| label29 = Signature
+| label29 = Saxeexa
 |  data29 = {{#if:{{{signature|}}} |[[File:{{{signature}}}|frameless|upright=0.72|alt={{{signature_alt|}}}]]}}
 
 |  data30 = {{{misc|{{{module|}}}}}}
