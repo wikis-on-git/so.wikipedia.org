@@ -1,0 +1,5 @@
+{{#if:{{{author|}}}|&#32;{{{author}}}:&#32;}}[http://www.tshaonline.org/handbook/online/articles/{{{id}}} {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}] from the ''[[Handbook of Texas]] Online''{{#if: {{{date|}}}
+    |&#32;({{{date}}}) 
+}}{{#if: {{{retrieved|}}}
+    |. &#32;Retrieved {{{retrieved}}}.
+}}
