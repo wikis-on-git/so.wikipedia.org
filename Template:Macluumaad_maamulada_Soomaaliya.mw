@@ -6,7 +6,7 @@
 {| style="text-align:center; background: none;"
 | style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
 |-
-| width="130"| <small>Calanka</small> || align="center" width="130" | <small>Astaanta</small>
+| width="130"| <small>Calanka {{{Name}}}|Calan</small> || align="center" width="130" | <small>Astaanta {{{Name}}}|Astaanta</small>
 |}
 |-
 | align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
@@ -54,17 +54,17 @@
 ! Xubnaha Umatala Federaalka
 | ee ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
 |- class="mergedrow"
-| Aqalka hoose
-| {{{HouseSeats}}} ee ah tirada 275 (<includeonly>{{#expr:{{{HouseSeats}}}*40/275 round 1}}</includeonly><noinclude>##</noinclude>%)
+| [[Aqalka Hoose]]
+| [[Liiska aqalka hoose ee {{{HouseSeats}}} ee ah tirada 275]] (<includeonly>{{#expr:{{{HouseSeats}}}*40/275 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedbottomrow"
-| Aqalka Sare
-| [[Liiska {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
+| [[Aqalka Sare]]
+| [[Liiska aqalka sare ee {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedtoprow"
 |-
 !Konfodareeshin
 | {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
 |- class="mergedtoprow"
-! Barta&nbsp;{{#if:{{{area_footnotes|}}}|{{{area_footnotes}}} }}
+! Bedka&nbsp;{{#if:{{{area_footnotes|}}}|{{{area_footnotes}}} }}
 |  [[Gobolada Soomaaliya|Heerka {{{AreaRank}}}]]
 |- class="mergedrow"
 | Wadarta
@@ -91,7 +91,7 @@
 | Berber dhig Soomaaliya
 | <includeonly>{{#expr:{{{Population}}}*100/34657000 round 1}}</includeonly><noinclude>##</noinclude>% of 34,657,000-->
 |- class="mergedtoprow"
-! [[Kobaca|GDP]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
+! [[Kobaca]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
 | [[Dhaqaalaha Soomaaliya|Heerka {{{GDP_rank}}}]]
 |- class="mergedrow"
 | Wadarta ({{{GDP_year}}})
@@ -115,14 +115,14 @@
 ! Furaha Po
 | {{{PostalCodePrefix}}}
 |- class="mergedtoprow"
-! Blue
-| {{{Blue}}}
+! Midab
+| {{{Color}}}
 |- class="mergedrow"
-! Xidig
-| {{{Star}}}
+! Summad
+| {{{Symbol}}}
 |- class="mergedbottomrow"
-! Blue
-| {{{Blue}}}
+! Midab
+| {{{Color}}}
 |-
 ! Website
 | [http://{{{Website}}}/ {{{Website}}}]
