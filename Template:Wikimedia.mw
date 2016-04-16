@@ -1,0 +1,90 @@
+<includeonly>{| class="metadata plainlinks mbox-small{{#ifeq:{{lc:{{{position|}}}}}|left|-left}} {{#if:{{{collapsible|}}}|mw-collapsible {{#ifeq:{{{collapsible|}}}|collapsed |mw-collapsed}}}}" style="padding:0.25em 0.5em 0.5em 0.75em;border:1px solid #aaa;background:#f9f9f9;{{{style|}}}"
+|-
+|colspan="2" style="padding-bottom:0.75em;border-bottom:1px solid #aaa;text-align:center;"| <div style="clear:both;">Find more about<br/>'''{{{display|{{{1|{{PAGENAME}}}}}}}}'''<br />at Wikipedia's [[Wikipedia:Wikimedia sister projects|sister projects]] </div>
+|- style="height:25px;"
+{{#ifeq:{{{wikt|}}}|no |
+ | {{!}}style="padding-top:0.75em;"{{!}} [[File:Wiktionary-logo-en.svg|25x25px|link={{fullurl:wikt:{{{wikt|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wiktionary]]
+   {{!}}style="padding-top:0.75em;"{{!}} [[wikt:{{{wikt|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Definitions]] from Wiktionary
+}}
+|- style="height:25px;"
+{{#ifeq:{{{c|{{{commons|}}}}}}|no |
+ | {{#ifeq:{{{commonscat|no}}}|yes
+    | {{!}} [[File:Commons-logo.svg|25x25px|link={{fullurl:c:Special:Search/Category:{{{c|{{{commons|{{{1|{{PAGENAME}}}}}}}}}}}}}|Search Commons]]
+      {{!}} [[c:Special:Search/Category:{{{c|{{{commons|{{{1|{{PAGENAME}}}}}}}}}}}|Media]] from Commons
+    | {{!}} [[File:Commons-logo.svg|25x25px|link={{fullurl:c:{{{c|{{{commons|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}}}}|Search Commons]]
+      {{!}} [[c:{{{c|{{{commons|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}}|Media]] from Commons
+   }}
+}}
+|- style="height:25px;"
+{{#ifeq:{{{n|}}}|no |
+ | {{!}} [[File:Wikinews-logo.svg|25x25px|link={{fullurl:n:Special:Search/{{{1|{{PAGENAME}}}}}}}|Search Wikinews]]
+   {{!}} [[n:Special:Search/{{{1|{{PAGENAME}}}}}|News stories]] from Wikinews
+}}
+|- style="height:25px;"
+{{#ifeq:{{{q|}}}|no |
+ | {{!}} [[File:Wikiquote-logo.svg|25x25px|link={{fullurl:q:{{{q|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wikiquote]]
+   {{!}} [[q:{{{q|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Quotations]] from Wikiquote
+}}
+|- style="height:25px;"
+{{#ifeq:{{{s|}}}|no |
+ | {{#ifeq:{{{author|no}}}|yes
+    | {{!}} [[File:Wikisource-logo.svg|25x25px|link={{fullurl:s:Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}}}|Search Wikisource]]
+      {{!}} [[s:Special:Search/Author:{{{s|{{{1|{{PAGENAME}}}}}}}}|Source texts]] from Wikisource
+    | {{!}} [[File:Wikisource-logo.svg|25x25px|link={{fullurl:s:{{{s|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wikisource]]
+      {{!}} [[s:{{{s|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Source texts]] from Wikisource
+   }}
+}}
+|- style="height:25px;"
+{{#ifeq:{{{b|}}}|no |
+ | {{!}} [[File:Wikibooks-logo.svg|25x25px|link={{fullurl:b:{{{b|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wikibooks]]
+   {{!}} [[b:{{{b|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Textbooks]] from Wikibooks
+}}
+|- style="height:25px;"
+{{#ifeq:
+   <!-- Show Wikivoyage if the "voy" parameter is anything other than blank, empty or "no" -->
+   {{#switch: {{{voy|<noinclude>yes</noinclude>}}}
+    | | no     = false
+    | #default = true
+   }}
+ | true
+ | {{!}} [[File:Wikivoyage-Logo-v3-icon.svg|25x25px|link={{fullurl:voy:{{{voy|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wikivoyage]]
+   {{!}} [[voy:{{{voy|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Travel {{#if: {{{voy|}}}| guide| information}}]] from Wikivoyage
+}}
+|- style="height:25px;"
+{{#ifeq:{{{v|}}}|no |
+ | {{!}} [[File:Wikiversity-logo-Snorky.svg|25x25px|link={{fullurl:v:{{{v|Special:Search/{{{1|{{PAGENAME}}}}}}}}}}|Search Wikiversity]]
+   {{!}} [[v:{{{v|Special:Search/{{{1|{{PAGENAME}}}}}}}}|Learning resources]] from Wikiversity
+}}
+|- style="height:25px;"
+{{#ifeq:{{{d|no}}}|no |
+ | {{!}} [[File:Wikidata-logo.svg|25x25px|link={{fullurl:d:{{{d<noinclude>|Special:ItemByTitle/enwiki/{{{1|{{PAGENAME}}}}}</noinclude>}}}}}|Search Wikidata]]
+   {{!}} [[d:{{{d<noinclude>|{{{1|Special:ItemByTitle/enwiki/{{PAGENAME}}}}}</noinclude>}}}|Data]] from Wikidata
+}}
+|- style="height:25px;"
+{{#ifeq:{{{species|no}}}|no |
+ | {{!}} [[File:Wikispecies-logo.svg|25x25px|link={{fullurl:species:{{{species<noinclude>|Special:Search/{{{1|{{PAGENAME}}}}}</noinclude>}}}}}|Search Wikispecies]]
+   {{!}} [[species:{{{species<noinclude>|Special:Search/{{{1|{{PAGENAME}}}}}</noinclude>}}}|Taxonomy]] from Wikispecies
+}}
+|- style="height:25px;"
+{{#ifeq:{{{species_author|no}}}|no |
+ | {{!}} [[File:Wikispecies-logo.svg|25x25px|link={{fullurl:species:{{{species_author<noinclude>|Special:Search/{{{1|{{PAGENAME}}}}}</noinclude>}}}}}|Search Wikispecies]]
+   {{!}} [[species:{{{species_author<noinclude>|Special:Search/{{{1|{{PAGENAME}}}}}</noinclude>}}}|Species author {{{species_author<noinclude>|</noinclude>}}}]] on Wikispecies
+}}
+|- style="height:25px;"
+{{#if:{{{m|}}}|
+ {{#switch:{{lc:{{{m}}}}}
+   |yes = {{!}}<noinclude>|</noinclude> [[File:Wikimedia Community Logo.svg|25x25px|link={{fullurl:n:Special:Search/{{{1|{{PAGENAME}}}}}}}|Search Meta-Wiki]]
+   {{!}}<noinclude>|</noinclude> [[m:Special:Search/{{{1|{{PAGENAME}}}}}|Discussion]] from Meta-Wiki
+   |no =
+   |{{!}} [[File:Wikimedia Community Logo.svg|25x25px|link={{fullurl:m:{{{m}}}}}|Search Meta-Wiki]]
+   {{!}} [[m:{{{m}}}|Discussion]] from Meta-Wiki
+ }}
+}}
+|- style="height:25px;"
+{{#ifeq:{{{mw|no}}}|no |
+ | {{!}} [[File:MediaWiki-logo.svg|25x25px|link={{fullurl:mw:{{{mw<noinclude>|Special:Search/{{{1|{{PAGENAME}}}}}</noinclude>}}}}}|Search MediaWiki]]
+   {{!}} [[mw:{{{mw<noinclude>|{{{1|Special:Search/{{PAGENAME}}}}}</noinclude>}}}|Documentation]] from MediaWiki
+}}
+|}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
