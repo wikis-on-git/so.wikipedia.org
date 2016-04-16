@@ -5,7 +5,7 @@
 | image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
 | caption    = {{{image caption|{{{caption|{{{image_caption|}}}}}}}}}
 
-| label1     = Native name
+| label1     = Magaca Saxda
 | data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
 
 | label10     = Dhalasho
