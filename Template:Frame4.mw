@@ -1,0 +1,100 @@
+<includeonly>{| style="margin-bottom:.5em; font-size:95%; text-align:right; padding:-2px; background:none" cellpadding="0" cellspacing="0"
+<!-- 1 -->
+| rowspan="2" width="1%" style="background:#FFF; border:2px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ABCDEF}}; border-bottom:0; padding-left:1em; -moz-border-radius-topright:5em" | [[file:cartella_{{#switch:{{{1|}}}
+|blue = blu
+| grigia = grigia
+| green = verde
+| violet = viola
+| yellow = arancione
+| red =rossa
+|#default=blu}}_rtl.jpg]] <div style="font-size:130%; margin-top:-33px; padding-right:43px"> '''{{{title|}}}'''</div><div style="font-size:130%; margin-top:-20px; padding-right:12px"> [[file:{{#if:{{{image|}}}|{{{image|}}}|Nuvola apps date.png}}|{{#if:{{{size|}}}|{{{size|}}}|22}}px]]</div> 
+<!-- 2 -->
+| colspan="2" height="10px" |
+|-
+<!-- 6 -->
+| style="width:15%; -moz-border-radius-topright:5em; border:1px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ABCDEF}}; border-right:0; background:#{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ECF5FF}}; border-bottom:2px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ABCDEF}}; text-align:center; font-size:85%" | {{#if:{{{link|}}}
+|<span class="plainlinks">[{{fullurl:{{{link}}}|action=edit}} <font color="002b88">bedel</font>]</span>
+}}
+<!-- 7 -->
+| style="border-bottom:2px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ABCDEF}}" | &nbsp;&nbsp;&nbsp;
+|-
+<!-- 10 -->
+| colspan="3" style="padding:4px; background:#FFF; border:2px solid #{{#switch:{{{1|}}}
+|red = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=ABCDEF}}; border-top:0; border-bottom:0" width="50%" valign="top" | 
+{{{content}}}  
+|-
+<!-- 12 -->
+| colspan="3" | <div style="-moz-border-radius-bottomright:1em; -moz-border-radius-bottomleft:1em; background:#{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=FFE9D2}}; height:10px; border:1px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=FFBC79}}; border-right:2px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=FFBC79}}; border-left:2px solid #{{#switch:{{{1|}}}
+|blue = ABCDEF
+| grey = CCC
+| green = A3BFB1
+| violet = C2D3FC
+| yellow = FFBC79
+| red =F26C6C
+|#default=FFBC79}}">
+</div>
+|}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
