@@ -1,6 +1,8 @@
 <includeonly>{{infobox
 | bodystyle = line-height: 1.5em
 | abovestyle = font-size: 150%
+|{{#if:{{{image|}}}|[[file:{{{image}}}|{{{size|50x50}}}px|right]]}}
+  | {{{image}}}
 | above = {{#ifexpr:{{{number}}} > 10^6
   | {{{number}}}
   | <table style= "width:100%; margin:0"><tr>
