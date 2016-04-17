@@ -154,3 +154,44 @@ Whether you need a small or large amount of funds (up to $30,000 USD), IEGs can 
 
 With thanks, [[m:User:I JethroBT (WMF)|I JethroBT (WMF)]] 15:48, 31 Maarso 2016 (UTC)
 <!-- Message sent by User:I JethroBT (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:I_JethroBT_(WMF)/IEG_2015_Targets&oldid=15490024 -->
+
+== Server switch 2016 ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The [[foundation:|Wikimedia Foundation]] will be testing its newest data center in Dallas.
+This will make sure Wikipedia and the other Wikimedia wikis can stay online even after a disaster.
+To make sure everything is working, the Wikimedia Technology department needs to conduct a planned test.  This test will show whether they can reliably switch from one data center to the other. It requires many teams to prepare for the test and to be available to fix any unexpected problems.
+
+They will switch all traffic to the new data center on '''Tuesday, 19 April'''.<br/>
+On '''Thursday, 21 April''', they will switch back to the primary data center.
+
+Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|MediaWiki]], all editing must stop during those two switches.
+We apologize for this disruption, and we are working to minimize it in the future.
+
+'''You will be able to read, but not edit, all wikis for a short period of time.'''
+
+*You will not be able to edit for approximately 15 to 30 minutes on Tuesday, 19 April and Thursday, 21 April, starting at 14:00 UTC (15:00 BST, 16:00 CEST, 10:00 EDT, 07:00 PDT).
+
+If you try to edit or save during these times, you will see an error message.
+We hope that no edits will be lost during these minutes, but we can't guarantee it.
+If you see the error message, then please wait until everything is back to normal.
+Then you should be able to save your edit.
+But, we recommend that you make a copy of your changes first, just in case.
+
+''Other effects'':
+
+*Background jobs will be slower and some may be dropped.
+Red links might not be updated as quickly as normal.
+If you create an article that is already linked somewhere else, the link will stay red longer than usual.
+Some long-running scripts will have to be stopped.
+*There will be a code freeze for the week of 18 April.
+No non-essential code deployments will take place.
+
+This test was originally planned to take place on March 22.
+April 19th and 21st are the new dates. 
+You can [[wikitech:Switch Datacenter#Schedule for Q3 FY2015-2016 rollout|read the schedule at wikitech.wikimedia.org]].
+They will post any changes on that schedule.
+There will be more notifications about this.
+'''Please share this information with your community.''' /[[m:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] ([[m:User talk:Whatamidoing (WMF)|talk]]) 21:07, 17 Abriil 2016 (UTC)
+</div>
+<!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Tech/Server_switch_2016/Delivery_list&oldid=15533827 -->
