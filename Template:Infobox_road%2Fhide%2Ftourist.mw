@@ -1,0 +1,4 @@
+{{#switch:{{Infobox road/meta/mask/country|{{{1|}}}|{{{2|}}}}}
+|NZL|CAN|AUS|USA=maya
+|#default=haa
+}}
