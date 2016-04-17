@@ -1,0 +1,9 @@
+{{#ifexpr:{{#if:{{{1|}}}|{{#ifeq:{{Infobox road/hide/countries|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{2|}}}|{{#ifeq:{{Infobox road/hide/regions|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{3|}}}|{{#ifeq:{{Infobox road/hide/provinces|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{4|}}}|{{#ifeq:{{Infobox road/hide/ruralmuni|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{5|}}}|{{#ifeq:{{Infobox road/hide/cities|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{6|}}}|{{#ifeq:{{Infobox road/hide/destinations|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{7|}}}|{{#ifeq:{{Infobox road/hide/tourist|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{8|}}}|{{#ifeq:{{Infobox road/hide/states|{{{country|}}}}}|yes|1|0}}|0}}+
+{{#if:{{{9|}}}|{{#ifeq:{{Infobox road/hide/photo|{{{state|}}}{{{province|}}}|{{{country|}}}}}|yes|1|0}}|0}}>0|[[Category:Infobox road transclusion errors|% {{PAGENAME}}]]|}}
