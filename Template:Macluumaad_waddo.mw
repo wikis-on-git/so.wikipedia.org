@@ -28,46 +28,46 @@
 
 {{s.x/ciwaan hoose xulasho
      |  Taariikh
-     |  {{{furidda|}}}{{{xiridda|}}}{{{qaybis|}}}{{{joojin qaybis|}}}
+     |  {{{furis|}}}{{{xiris|}}}{{{heer|}}}{{{joojin heer|}}}
      | CCCCCC
 }}
-{{s.x/sadar iskudar xulasho 1|furista|{{{furis|}}}}}
-{{s.x/sadar iskudar xulasho 1|xirista {{{xiris|}}}}}
-{{s.x/sadar iskudar xulasho 1|qaybinta|{{{qaybis|}}}}}
-{{s.x/sadar iskudar xulasho 1|joojin qaybiska|{{{joojin qaybis|}}}}}
+{{s.x/sadar iskudar xulasho 1|Furista|{{{furis|}}}}}
+{{s.x/sadar iskudar xulasho 1|Xirista {{{xiris|}}}}}
+{{s.x/sadar iskudar xulasho 1|Heerka|{{{heer|}}}}}
+{{s.x/sadar iskudar xulasho 1|Joojin heer|{{{joojin heer|}}}}}
 {{s.x/ciwaan hoose xulasho
-     |  Ugaduwan
+     |  U gaar ah
      |  {{{dherer|}}}{{{jihada|}}}{{{magaalada1|}}}{{{magaalada2|}}}{{{isgoys|}}}{{{waddo suun|}}}{{{nuuca|}}}
      | CCCCCC
 }}
-{{s.x/sadar iskudar xulasho 1|dhererka|{{{dherer|}}}}}
-{{s.x/sadar iskudar xulasho 1|jihada|{{{jiho|}}}}}
+{{s.x/sadar iskudar xulasho 1|Dhererka|{{{dherer|}}}}}
+{{s.x/sadar iskudar xulasho 1|Jihada|{{{jiho|}}}}}
 {{s.x/sadar iskudar xulasho 1
- | {{#if:{{{direction_b|}}} {{{jihada b|}}}|dhammaad {{{jihada b|{{{direction_b|}}}}}} | ka}}
+ | {{#if:{{{direction_b|}}} {{{jihada b|}}}|Ku {{{jihada b|{{{direction_b|}}}}}} |dhamaata}}
  | {{{magaalada1|{{{starting_terminus|}}} }}}
 }}
-{{s.x/sadar iskudar xulasho 1|isgoysyada|{{{isgoysyo|{{{junction|}}} }}} }}
+{{s.x/sadar iskudar xulasho 1|Isgoysyada|{{{isgoysyo|{{{junction|}}} }}} }}
 {{s.x/sadar iskudar doorasho 1
- | {{#if:{{{direction_t|}}} {{{jihada t|}}}|dhammaad {{{jihada t|{{{direction_t|}}} }}} | Ku}}
+ | {{#if:{{{direction_t|}}} {{{jihada t|}}}|Ku {{{jihada t|{{{direction_t|}}} }}} |dhamaata}}
  | {{{magaalada2|{{{ending_terminus|}}} }}}
 }}
-{{s.x/sadar iskudar xulasho 1|waddada suunka|{{{waddo suun|}}} }}
-{{s.x/sadar iskudar xulasho 1|nuuca {{{nuuc|}}} }}
+{{s.x/sadar iskudar xulasho 1|Waddada suunka|{{{waddo suun|}}} }}
+{{s.x/sadar iskudar xulasho 1|Nuuca {{{nuuc|}}} }}
 {{s.x/ciwaan hoose xulasho
      |  Meelaha marista
      |   {{{tuulooyin|}}}{{{goobo|}}}{{{magaalooyin waaweyn|}}}
      | CCCCCC
 }}
-{{s.x/sadar iskudar xulasho 1|tuulooyinka| {{{tuulooyin|}}} }}
-{{s.x/sadar iskudar xulasho 1|goobaha| {{{goobo|}}} }}
-{{s.x/sadar iskudar xulasho 1|magaalooyinka waaweyn| {{{magaalooyin waaweyn|}}} }}
+{{s.x/sadar iskudar xulasho 1|Tuulooyinka| {{{tuulooyin|}}} }}
+{{s.x/sadar iskudar xulasho 1|Goobaha| {{{goobo|}}} }}
+{{s.x/sadar iskudar xulasho 1|Magaalooyinka waaweyn| {{{magaalooyin waaweyn|}}} }}
 {{s.x/ciwaan hoose xulasho
      |  Madax bannaan
      |  {{{mudnaanta|}}}
      | CCCCCC
 }}
-{{s.x/sadar iskudar xulasho 1|mudnaanata| {{{mudnaan|}}} }}
-{{s.x/tilmaam|Xog waddo|CCCCCC}}
+{{s.x/sadar iskudar xulasho 1|Mudnaanata| {{{mudnaan|}}} }}
+{{s.x/tilmaam|Macluumaad waddo|CCCCCC}}
 {{s.x/quful}}<noinclude>
 {{Documentation}}
 </noinclude>
