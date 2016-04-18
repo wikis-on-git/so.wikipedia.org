@@ -1,0 +1,2 @@
+<includeonly>{{Namespace detect|Template=[[Category:Template s.x]]}}
+{| class="infobox_v2 plainlist" cellspacing="3px" {{#if:{{{3|}}}|id="{{{3}}}"}} {{#if:{{{2|}}}|style="width:{{{2|}}}px"|{{#ifeq:{{{1|}}}|infobox de section|style="width:150px"}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
