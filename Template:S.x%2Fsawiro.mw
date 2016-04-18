@@ -1,0 +1,10 @@
+<includeonly>{{#if:{{{1|}}}|
+<td colspan="{{#if:{{{5|}}}|{{{5}}}|2}}" align="center"><div>{{#invoke:InfoboxImage|InfoboxImage
+  |image={{{1|}}}
+  |size={{#iferror:{{#ifexpr: {{{3}}} <= 350|}}|280x330px|{{#ifexpr: {{{3}}} <= 350|{{{3}}}|280}}x330px}}
+  |sizedefault=frameless
+  |maxsize=280x330px
+  |alt={{#if:{{{4|}}}|{{{4}}}|sawir ka turjumaya {{PAGENAME}} }}
+  |center=yes
+}}</div>{{#if:{{{3|}}}|{{#ifexpr: {{tiro|{{{3}}}|280}} <= 350| |<br /><font color="red">'''waa in wax laga bedelaa ballaca sawirka, ballaca ugu weyn ee la ogolyahay waa 350 px.'''</font>}}}}{{#if:{{{2|}}}|<div><small>{{trim|{{{2}}}}}</small></div>|}}{{#if:{{{3|}}}|{{#ifexpr: {{tiro|{{{3|100}}}|10000}} >= 1000 |[[Category:Maqaalada xun ee cabirka sawirka]]|}}|}}
+<tr>|}}</includeonly><noinclude>{{Documentation}}</noinclude>
