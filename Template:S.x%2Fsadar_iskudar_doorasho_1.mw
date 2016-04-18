@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{{2|}}} | 
+<th style="text-align: right; background-color:#{{#if:{{{gadaal|f9f9f9}}}|{{{gadaal|f9f9f9}}}|F3F3F3}}; {{#if:{{{midab|}}}|color:#{{{midab|}}};|}}" scope=row {{#if:{{{4|}}}|width{{=}}"{{{4|}}}%"|}}>{{#if:{{{1|}}}|{{{1|}}}|}}
+<td {{#if:{{{5|}}}|colspan{{=}}"{{{5|}}}"|}} style="{{#if:{{{gadaal|f9f9f9}}}|background-color:#{{{gadaal|f9f9f9}}};|}} {{#if:{{{midab|}}}|color:#{{{midab|}}};|}}">{{#if:{{{3|}}}|{{{3|}}}|{{{2|}}}}}
+<tr>}}</includeonly><noinclude>{{Documentation}}</noinclude><noinclude>
+[[Category:Template]]
+</noinclude>
