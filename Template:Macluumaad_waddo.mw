@@ -1,0 +1,73 @@
+{{s.x/fure}}
+ {{s.x/ciwaan|{{{magac|{{PAGENAME}}}}}|CCC|entete route|000000}}
+{{s.x/sawiro| balaca = {{{image_size|}}}{{{balaca sawirka|}}}
+     |{{{image|}}}{{{sawirka|}}}
+     | 
+     | {{{image name|}}}{{{magaca sawirka|}}}
+     | 
+     | {{{smallimage|}}}{{{sawir yar|}}}
+     | 
+}}
+{{s.x/sawiro| balac = {{{image_size|}}}{{{balaca sawirka|}}}
+     |{{{sawirada wadada|}}}
+    
+}}
+{{s.x/sadar xulasho
+|  {{{faallo ku saabsan sawirka wadada|}}}
+}}
+{{s.x/sawiro
+ | balac = {{{balaca khariirada|}}}
+   | {{{khariirad|{{{khariirad|{{{map|}}} }}} }}}
+   | {{{faallada|{{{faallo|{{{caption|}}} }}} }}}
+}}
+{{s.x/sadar xulasho
+|  {{{faallo ku saabsan wadada|}}}
+}}
+
+{{s.x/sadar iskudar xulasho 1|magac kale|{{{magac kale|}}} }}
+
+{{s.x/ciwaan hoose xulasho
+     |  Taariikh
+     |  {{{furidda|}}}{{{xiridda|}}}{{{qaybis|}}}{{{joojin qaybis|}}}
+     | CCCCCC
+}}
+{{s.x/sadar iskudar xulasho 1|furista|{{{furis|}}}}}
+{{s.x/sadar iskudar xulasho 1|xirista {{{xiris|}}}}}
+{{s.x/sadar iskudar xulasho 1|qaybinta|{{{qaybis|}}}}}
+{{s.x/sadar iskudar xulasho 1|joojin qaybiska|{{{joojin qaybis|}}}}}
+{{s.x/ciwaan hoose xulasho
+     |  Ugaduwan
+     |  {{{dherer|}}}{{{jihada|}}}{{{magaalada1|}}}{{{magaalada2|}}}{{{isgoys|}}}{{{waddo suun|}}}{{{nuuca|}}}
+     | CCCCCC
+}}
+{{s.x/sadar iskudar xulasho 1|dhererka|{{{dherer|}}}}}
+{{s.x/sadar iskudar xulasho 1|jihada|{{{jiho|}}}}}
+{{s.x/sadar iskudar xulasho 1
+ | {{#if:{{{direction_b|}}} {{{jihada b|}}}|dhammaad {{{jihada b|{{{direction_b|}}}}}} | ka}}
+ | {{{magaalada1|{{{starting_terminus|}}} }}}
+}}
+{{s.x/sadar iskudar xulasho 1|isgoysyada|{{{isgoysyo|{{{junction|}}} }}} }}
+{{s.x/sadar iskudar doorasho 1
+ | {{#if:{{{direction_t|}}} {{{jihada t|}}}|dhammaad {{{jihada t|{{{direction_t|}}} }}} | Ku}}
+ | {{{magaalada2|{{{ending_terminus|}}} }}}
+}}
+{{s.x/sadar iskudar xulasho 1|waddada suunka|{{{waddo suun|}}} }}
+{{s.x/sadar iskudar xulasho 1|nuuca {{{nuuc|}}} }}
+{{s.x/ciwaan hoose xulasho
+     |  Meelaha marista
+     |   {{{tuulooyin|}}}{{{goobo|}}}{{{magaalooyin waaweyn|}}}
+     | CCCCCC
+}}
+{{s.x/sadar iskudar xulasho 1|tuulooyinka| {{{tuulooyin|}}} }}
+{{s.x/sadar iskudar xulasho 1|goobaha| {{{goobo|}}} }}
+{{s.x/sadar iskudar xulasho 1|magaalooyinka waaweyn| {{{magaalooyin waaweyn|}}} }}
+{{s.x/ciwaan hoose xulasho
+     |  Madax bannaan
+     |  {{{mudnaanta|}}}
+     | CCCCCC
+}}
+{{s.x/sadar iskudar xulasho 1|mudnaanata| {{{mudnaan|}}} }}
+{{s.x/tilmaam|Xog waddo|CCCCCC}}
+{{s.x/quful}}<noinclude>
+{{Documentation}}
+</noinclude>
