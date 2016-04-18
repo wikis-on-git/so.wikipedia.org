@@ -32,7 +32,7 @@
      | CCCCCC
 }}
 {{s.x/sadar iskudar xulasho 1|Furista|{{{furis|}}}}}
-{{s.x/sadar iskudar xulasho 1|Xirista {{{xiris|}}}}}
+{{s.x/sadar iskudar xulasho 1|Xirista|{{{xiris|}}}}}
 {{s.x/sadar iskudar xulasho 1|Heerka|{{{heer|}}}}}
 {{s.x/sadar iskudar xulasho 1|Joojin heer|{{{joojin heer|}}}}}
 {{s.x/ciwaan hoose xulasho
@@ -43,12 +43,12 @@
 {{s.x/sadar iskudar xulasho 1|Dhererka|{{{dherer|}}}}}
 {{s.x/sadar iskudar xulasho 1|Jihada|{{{jiho|}}}}}
 {{s.x/sadar iskudar xulasho 1
- | {{#if:{{{direction_b|}}} {{{jihada b|}}}|Ku {{{jihada b|{{{direction_b|}}}}}} |dhamaata}}
+ | {{#if:{{{direction_b|}}} {{{jihada b|}}}|Ku dhamaata {{{jihada b|{{{direction_b|}}}}}} |}}
  | {{{magaalada1|{{{starting_terminus|}}} }}}
 }}
 {{s.x/sadar iskudar xulasho 1|Isgoysyada|{{{isgoysyo|{{{junction|}}} }}} }}
 {{s.x/sadar iskudar doorasho 1
- | {{#if:{{{direction_t|}}} {{{jihada t|}}}|Ku {{{jihada t|{{{direction_t|}}} }}} |dhamaata}}
+ | {{#if:{{{direction_t|}}} {{{jihada t|}}}|Ku dhamaata {{{jihada t|{{{direction_t|}}} }}} |}}
  | {{{magaalada2|{{{ending_terminus|}}} }}}
 }}
 {{s.x/sadar iskudar xulasho 1|Waddada suunka|{{{waddo suun|}}} }}
