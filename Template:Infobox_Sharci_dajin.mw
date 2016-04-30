@@ -18,7 +18,7 @@
 | header1     = {{#if:{{{house_type|}}}{{{houses|}}}{{{term_limits|}}}|Qaabka}}
 
 | label2      = Qaabka
-| data2       = {{#if:{{{house_type|}}}|<span class="category">{{#ifexist:{{{house_type}}}|[[{{{house_type}}}]]|{{{house_type}}}}}</span>}} {{#if:{{{body|}}}|of the [[{{{body}}}]]}}
+| data2       = {{#if:{{{house_type|}}}|<span class="category">{{#ifexist:{{{house_type}}}|[[{{{house_type}}}]]|{{{house_type}}}}}</span>}} {{#if:{{{body|}}}|ee [[{{{body}}}]]}}
 
 | label3      = {{#if:{{{houses|}}}|Magacyada|Aqalada}}
 | data3       = {{#if:{{{houses|}}}|{{{houses}}}|{{{chambers|}}}}}
