@@ -2,8 +2,8 @@
 |-
 |<div class="mw-collapsible mw-collapsed"><div style="font-size: 1.2em; border: 0; margin-top: .3em; float: none; text-align: center; cursor: pointer; color: #000000;" class="mw-collapsible-toggle">'''{{{Title|Kayd}}}'''</div>
 <div class="mw-collapsible-content hlist" style="background: transparent; padding: 0 1em; text-align: right;">
-{{#ifexist:{{{1|{{fullpagename}}}}}/Kayd قديم|
-*[[{{{1|{{fullpagename}}}}}/Kayd قديم|<font color="#000000">0</font>]]}}<!-- 
+{{#ifexist:{{{1|{{fullpagename}}}}}/Kayd hore|
+*[[{{{1|{{fullpagename}}}}}/Kayd hore|<font color="#000000">0</font>]]}}<!-- 
 -->{{#ifexist:{{{1|{{fullpagename}}}}}/Kayd 0|
 *[[{{{1|{{fullpagename}}}}}/Kayd 0|<font color="#000000">0</font>]]}}<!-- 
 -->{{#ifexist:{{{1|{{fullpagename}}}}}/Kayd 1|
