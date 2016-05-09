@@ -1,0 +1,45 @@
+<div style="width:auto" style="border:1px solid #003882; padding:5px; border-top:10px solid #003882;">
+{|style="background-color:#F4F4F4;margin-top:3px;border:1px #aaaaaa solid;border-collapse:collapse;table-layout:fixed" cellpadding="8" cellspacing="0"
+|-
+! width="50%" align="center" | Af-Soomaali
+! style="border-right:1px solid #aaaaaa;" | English
+|-
+|Boggaan wuxuu gaar u yahay codsiyada helitaanka awoodaha [[Wikipedia:Bots|bot]] ee wikipedia; Taasoo uu mid ka mid ah samayn doono [[Wikipedia:Bureaucrats|Bureaucrats]] dib u eegista codsiga go'aanna ka gaari doona, laakiin Soomaali Wikipedia malahan Bureaucrats waxaa go'aanka iska leh Wikimedia.
+
+<u>Tusaale:</u>
+* Samayso akoon u gaar ah botka [[Special:UserLogin/signup|Halkaan]] magaca qayb ka mid ah waa in laha helaa weedha '''Bot'''.
+* Ku qeex botkaada boggiisa u gaarka ah ؛ adigoo adeegsanaya tusmadaan soo socota:
+<center><code><nowiki>{{Bot|Magaca_Haga_Botka|site=so}}</nowiki></code></center>
+* '''Iskana hubi in aad u aqrisay [[Wikipedia:Xeerka Botka|xeerka botka]] si wanaagsan, iyo botkaada in uu waafaqsanyahay xeerkaas.'''
+* Ku dar codsigaada adeegsiga linkiga hoose.
+* Si loo hubiyo kartida botka, sameey howlo bedel tijaabo ah kabilaabata '''20''' ila '''50''' bedel. Waa laga joojin doonaa bot kasta ee aan helin awoodda botnimo sameeyan howlo bedel ee intaas ka badan.
+|valign=top style="border-right:1px solid #aaaaaa;"|
+<div class="mw-content-ltr">
+Requests for the [[m:bot|bot]] flag should be made on this page. Somali Wikipedia uses the [[m:bot policy|standard bot policy]], and allows [[m:bot policy#Global_bots|global bots]] and [[m:bot policy#Automatic_approval|automatic approval]] for interwiki bots. Other bots should apply below.
+
+<u>instructions:</u>
+* You will need to create an account for your bot [[Special:UserLogin/signup|from here]] with the word '''bot''' in the username. Something like ''YourusernameBot''. Go to [[Special:Preferences]] to choose your language, then press 'save'.
+* Identify your bot on its user page using the following template:
+<center><code><nowiki>{{Bot|site=your_home_wiki_two-letter_code|bot_operator}}</nowiki></code></center>
+* '''Ensure that you have read [[Wikipedia:Bot policy|the bot policy]] and that your bot is compliant with it.'''
+* Submit your request.
+* Perform '''20-50''' test edits. A non-flagged bot that makes too many edits can be blocked.
+</div>
+|-
+|valign="top"|<center>[{{fullurl:{{ns:project}}:{{BASEPAGENAME}}|action=edit&section=new&preload=Wikipedia:Codsiga_awooda_botka/Codsi_Soomaali}} '''dhig codsigaada''']</center>
+|valign=top style="border-right:1px solid #aaaaaa;"|
+<center>[{{fullurl:{{ns:project}}:{{BASEPAGENAME}}|action=edit&section=new&preload={{fullurl:{{FULLPAGENAME}}|action=edit&section=new&preload=Wikipedia:Codsiga_awooda_botka/Codi_Ingiriis}}}} '''Submit your request''']</center>
+|}
+{{Kaydka qarsoon|Wikipedia:Codsiga awooda botka}}
+
+*Isticmaalaha wuxuu xaq u leeyahay in ay muujiyan taageeradooda ama ka soo horjeedkooda codsi kasta iyakoo adeegsanaya labadaan tusmo {{t|Taageersan}} ama {{t|Ka Hor Jeeda}} iyo qorista faallo degdeg ah si ay uga gacansiiyaan maamulka wixii ay ku xukumeen.
+{{Maamulka Wikipedia|state=collapsed}}
+</div></div>
+<br />
+<span style=font-size:130%>
+[[file:Crystal Clear question bot.svg|link=|40px]]
+Codsiyada Hadda</span>
+----
+<includeonly>
+[[Category:Howlaha Wikipedia|{{PAGENAME}}]]
+</includeonly>
