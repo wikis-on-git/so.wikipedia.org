@@ -1,7 +1,7 @@
-<includeonly>{|class="ombox ombox-notice mbox-small" style="box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); text-align: center; float: left; background-image: -moz-linear-gradient(#FFFFFF, #F2F3F4); background-image: -ms-linear-gradient(#FFFFFF, #F2F3F4); background-image: -o-linear-gradient(#FFFFFF, #F2F3F4); background-image: -webkit-linear-gradient(#FFFFFF, #F2F3F4); background-image: linear-gradient(#FFFFFF, #F2F3F4);"
+<includeonly>{|class="ombox ombox-notice mbox-small" style="box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); text-align: center; float: right; background-image: -moz-linear-gradient(#FFFFFF, #F2F3F4); background-image: -ms-linear-gradient(#FFFFFF, #F2F3F4); background-image: -o-linear-gradient(#FFFFFF, #F2F3F4); background-image: -webkit-linear-gradient(#FFFFFF, #F2F3F4); background-image: linear-gradient(#FFFFFF, #F2F3F4);"
 |-
 |<div class="mw-collapsible mw-collapsed"><div style="font-size: 1.2em; border: 0; margin-top: .3em; float: none; text-align: center; cursor: pointer; color: #000000;" class="mw-collapsible-toggle">'''{{{Title|Kayd}}}'''</div>
-<div class="mw-collapsible-content hlist" style="background: transparent; padding: 0 1em; text-align: right;">
+<div class="mw-collapsible-content hlist" style="background: transparent; padding: 0 1em; text-align: left;">
 {{#ifexist:{{{1|{{fullpagename}}}}}/Kayd hore|
 *[[{{{1|{{fullpagename}}}}}/Kayd hore|<font color="#000000">0</font>]]}}<!-- 
 -->{{#ifexist:{{{1|{{fullpagename}}}}}/Kayd 0|
