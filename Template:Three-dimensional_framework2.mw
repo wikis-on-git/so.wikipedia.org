@@ -4,7 +4,7 @@
 
 <div style="margin-bottom:0px; padding:.5em; background:{{#if: {{{fondtexte|}}}|{{{fondtexte}}}|#FFF}}; border:{{#if: {{{tailletourtexte|}}}|{{{tailletourtexte}}}|1px}} solid {{#if: {{{tourtexte|}}}|{{{tourtexte}}}|#AAAAAA}}">
 {{#if: {{{height|}}} |<div style="height: {{{height}}}; font-size:95%; width: 100%; overflow: auto; padding: 3px;text-align: left;" title="braglist - zum scrollen"; >|}}
-{{#if: {{{contenu|}}}|{{{{{contenu}}}}}|complétez le paramètre "contenu"}}{{#if: {{{lienarchives|}}} |<div class="noprint" style="text-align:right; margin:0.3em 0.2em 0.2em 0.3em; padding:0.3em 0.2em 0.2em 0.3em; vertical-align:bottom;">[[Image:Nuvola apps ark.png|22px|Archives]] <b>[[{{{lienarchives}}}|Archives ...]]</b></div>|}}{{#if: {{{height|}}} |</div>|}}
+{{#if: {{{contenu|}}}|{{{{{contenu}}}}}|complétez le paramètre "contenu"}}{{#if: {{{lienarchives|}}} |<div class="noprint" style="text-align:left; margin:0.3em 0.2em 0.2em 0.3em; padding:0.3em 0.2em 0.2em 0.3em; vertical-align:bottom;">[[Image:Nuvola apps ark.png|22px|Archives]] <b>[[{{{lienarchives}}}|Archives ...]]</b></div>|}}{{#if: {{{height|}}} |</div>|}}
 </div>
 |}</includeonly><noinclude>{{Documentation}}</noinclude><noinclude>
 [[Category:Template]]
