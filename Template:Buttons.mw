@@ -1,4 +1,4 @@
-<includeonly>{{clr}}<div style="{{#ifeq:{{{frame|yes}}}|لا|border:{{{buttons annotation|solid 1px #AAAAAA}}};|background-color:{{{خلفية الframe|#F6F6F6}}}; border:{{{footnote frame|solid 1px #AAAAAA}}};}} padding:0px; margin-bottom:6px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};"><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+<includeonly>{{clr}}<div style="{{#ifeq:{{{frame|yes}}}|لا|border:{{{buttons annotation|solid 1px #AAAAAA}}};|background-color:{{{backgroundframe|#F6F6F6}}}; border:{{{footnote frame|solid 1px #AAAAAA}}};}} padding:0px; margin-bottom:6px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};"><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
 <tr style="text-align:center">
 <!-- =================== زر-1 =================== -->
 {{#if:{{{زر-1|}}}
@@ -20,7 +20,7 @@
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-1|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-1|}}} | [[file:{{{image-1}}}{{!}}20px{{!}}{{{زر-1}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-1|}}}}} | | {{#ifeq: {{{external-1|}}} | yes | | {{{link-1}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-1|}}} | yes | [{{{link-1}}} {{{زر-1}}}] | [[{{{link-1}}}{{!}}{{{زر-1}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-1|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-1|}}} | [[file:{{{image-1}}}{{!}}20px{{!}}{{{زر-1}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-1|}}}}} | | {{#ifeq: {{{external-1|}}} | yes | | {{{link-1}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-1|}}} | yes | [{{{link-1}}} {{{زر-1}}}] | [[{{{link-1}}}{{!}}{{{زر-1}}}]] }}</small>'''
 </td>
 |}}
 
@@ -54,7 +54,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-1|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-2|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-2|}}} | [[file:{{{image-2}}}{{!}}20px{{!}}{{{زر-2}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-2|}}}}} | | {{#ifeq: {{{external-2|}}} | yes | | {{{link-2}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-2|}}} | yes | [{{{link-2}}} {{{زر-2}}}] | [[{{{link-2}}}{{!}}{{{زر-2}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-2|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-2|}}} | [[file:{{{image-2}}}{{!}}20px{{!}}{{{زر-2}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-2|}}}}} | | {{#ifeq: {{{external-2|}}} | yes | | {{{link-2}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-2|}}} | yes | [{{{link-2}}} {{{زر-2}}}] | [[{{{link-2}}}{{!}}{{{زر-2}}}]] }}</small>'''
 </td>
 |}}
 
@@ -88,7 +88,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-2|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-3|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-3|}}} | [[file:{{{image-3}}}{{!}}20px{{!}}{{{زر-3}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-3|}}}}} | | {{#ifeq: {{{external-3|}}} | yes | | {{{link-3}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-3|}}} | yes | [{{{link-3}}} {{{زر-3}}}] | [[{{{link-3}}}{{!}}{{{زر-3}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-3|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-3|}}} | [[file:{{{image-3}}}{{!}}20px{{!}}{{{زر-3}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-3|}}}}} | | {{#ifeq: {{{external-3|}}} | yes | | {{{link-3}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-3|}}} | yes | [{{{link-3}}} {{{زر-3}}}] | [[{{{link-3}}}{{!}}{{{زر-3}}}]] }}</small>'''
 </td>
 |}}
 
@@ -122,7 +122,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-3|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-4|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-4|}}} | [[file:{{{image-4}}}{{!}}20px{{!}}{{{زر-4}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-4|}}}}} | | {{#ifeq: {{{external-4|}}} | yes | | {{{link-4}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-4|}}} | yes | [{{{link-4}}} {{{زر-4}}}] | [[{{{link-4}}}{{!}}{{{زر-4}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-4|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-4|}}} | [[file:{{{image-4}}}{{!}}20px{{!}}{{{زر-4}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-4|}}}}} | | {{#ifeq: {{{external-4|}}} | yes | | {{{link-4}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-4|}}} | yes | [{{{link-4}}} {{{زر-4}}}] | [[{{{link-4}}}{{!}}{{{زر-4}}}]] }}</small>'''
 </td>
 |}}
 
@@ -156,7 +156,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-4|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-5|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-5|}}} | [[file:{{{image-5}}}{{!}}20px{{!}}{{{زر-5}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-5|}}}}} | | {{#ifeq: {{{external-5|}}} | yes | | {{{link-5}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-5|}}} | yes | [{{{link-5}}} {{{زر-5}}}] | [[{{{link-5}}}{{!}}{{{زر-5}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-5|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-5|}}} | [[file:{{{image-5}}}{{!}}20px{{!}}{{{زر-5}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-5|}}}}} | | {{#ifeq: {{{external-5|}}} | yes | | {{{link-5}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-5|}}} | yes | [{{{link-5}}} {{{زر-5}}}] | [[{{{link-5}}}{{!}}{{{زر-5}}}]] }}</small>'''
 </td>
 |}}
 
@@ -190,7 +190,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-5|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-6|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-6|}}} | [[file:{{{image-6}}}{{!}}20px{{!}}{{{زر-6}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-6|}}}}} | | {{#ifeq: {{{external-6|}}} | yes | | {{{link-6}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-6|}}} | yes | [{{{link-6}}} {{{زر-6}}}] | [[{{{link-6}}}{{!}}{{{زر-6}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-6|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-6|}}} | [[file:{{{image-6}}}{{!}}20px{{!}}{{{زر-6}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-6|}}}}} | | {{#ifeq: {{{external-6|}}} | yes | | {{{link-6}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-6|}}} | yes | [{{{link-6}}} {{{زر-6}}}] | [[{{{link-6}}}{{!}}{{{زر-6}}}]] }}</small>'''
 </td>
 |}}
 
@@ -224,7 +224,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-6|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-7|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-7|}}} | [[file:{{{image-7}}}{{!}}20px{{!}}{{{زر-7}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-7|}}}}} | | {{#ifeq: {{{external-7|}}} | yes | | {{{link-7}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-7|}}} | yes | [{{{link-7}}} {{{زر-7}}}] | [[{{{link-7}}}{{!}}{{{زر-7}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-7|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-7|}}} | [[file:{{{image-7}}}{{!}}20px{{!}}{{{زر-7}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-7|}}}}} | | {{#ifeq: {{{external-7|}}} | yes | | {{{link-7}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-7|}}} | yes | [{{{link-7}}} {{{زر-7}}}] | [[{{{link-7}}}{{!}}{{{زر-7}}}]] }}</small>'''
 </td>
 |}}
 
@@ -258,7 +258,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-7|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-8|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-8|}}} | [[file:{{{image-8}}}{{!}}20px{{!}}{{{زر-8}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-8|}}}}} | | {{#ifeq: {{{external-8|}}} | yes | | {{{link-8}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-8|}}} | yes | [{{{link-8}}} {{{زر-8}}}] | [[{{{link-8}}}{{!}}{{{زر-8}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-8|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-8|}}} | [[file:{{{image-8}}}{{!}}20px{{!}}{{{زر-8}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-8|}}}}} | | {{#ifeq: {{{external-8|}}} | yes | | {{{link-8}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-8|}}} | yes | [{{{link-8}}} {{{زر-8}}}] | [[{{{link-8}}}{{!}}{{{زر-8}}}]] }}</small>'''
 </td>
 |}}
 
@@ -292,7 +292,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-8|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-9|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-9|}}} | [[file:{{{image-9}}}{{!}}20px{{!}}{{{زر-9}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-9|}}}}} | | {{#ifeq: {{{external-9|}}} | yes | | {{{link-9}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-9|}}} | yes | [{{{link-9}}} {{{زر-9}}}] | [[{{{link-9}}}{{!}}{{{زر-9}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-9|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-9|}}} | [[file:{{{image-9}}}{{!}}20px{{!}}{{{زر-9}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-9|}}}}} | | {{#ifeq: {{{external-9|}}} | yes | | {{{link-9}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-9|}}} | yes | [{{{link-9}}} {{{زر-9}}}] | [[{{{link-9}}}{{!}}{{{زر-9}}}]] }}</small>'''
 </td>
 |}}
 
@@ -326,7 +326,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-9|}}}}}|
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-10|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-10|}}} | [[file:{{{image-10}}}{{!}}20px{{!}}{{{زر-10}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-10|}}}}} | | {{#ifeq: {{{external-10|}}} | yes | | {{{link-10}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-10|}}} | yes | [{{{link-10}}} {{{زر-10}}}] | [[{{{link-10}}}{{!}}{{{زر-10}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-10|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-10|}}} | [[file:{{{image-10}}}{{!}}20px{{!}}{{{زر-10}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-10|}}}}} | | {{#ifeq: {{{external-10|}}} | yes | | {{{link-10}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-10|}}} | yes | [{{{link-10}}} {{{زر-10}}}] | [[{{{link-10}}}{{!}}{{{زر-10}}}]] }}</small>'''
 </td>
 |}}
 
@@ -360,7 +360,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-10|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-11|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-11|}}} | [[file:{{{image-11}}}{{!}}20px{{!}}{{{زر-11}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-11|}}}}} | | {{#ifeq: {{{external-11|}}} | yes | | {{{link-11}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-11|}}} | yes | [{{{link-11}}} {{{زر-11}}}] | [[{{{link-11}}}{{!}}{{{زر-11}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-11|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-11|}}} | [[file:{{{image-11}}}{{!}}20px{{!}}{{{زر-11}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-11|}}}}} | | {{#ifeq: {{{external-11|}}} | yes | | {{{link-11}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-11|}}} | yes | [{{{link-11}}} {{{زر-11}}}] | [[{{{link-11}}}{{!}}{{{زر-11}}}]] }}</small>'''
 </td>
 |}}
 
@@ -394,7 +394,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-11|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-12|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-12|}}} | [[file:{{{image-12}}}{{!}}20px{{!}}{{{زر-12}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-12|}}}}} | | {{#ifeq: {{{external-12|}}} | yes | | {{{link-12}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-12|}}} | yes | [{{{link-12}}} {{{زر-12}}}] | [[{{{link-12}}}{{!}}{{{زر-12}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-12|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-12|}}} | [[file:{{{image-12}}}{{!}}20px{{!}}{{{زر-12}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-12|}}}}} | | {{#ifeq: {{{external-12|}}} | yes | | {{{link-12}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-12|}}} | yes | [{{{link-12}}} {{{زر-12}}}] | [[{{{link-12}}}{{!}}{{{زر-12}}}]] }}</small>'''
 </td>
 |}}
 
@@ -428,7 +428,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-12|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-13|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-13|}}} | [[file:{{{image-13}}}{{!}}20px{{!}}{{{زر-13}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-13|}}}}} | | {{#ifeq: {{{external-13|}}} | yes | | {{{link-13}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-13|}}} | yes | [{{{link-13}}} {{{زر-13}}}] | [[{{{link-13}}}{{!}}{{{زر-13}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-13|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-13|}}} | [[file:{{{image-13}}}{{!}}20px{{!}}{{{زر-13}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-13|}}}}} | | {{#ifeq: {{{external-13|}}} | yes | | {{{link-13}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-13|}}} | yes | [{{{link-13}}} {{{زر-13}}}] | [[{{{link-13}}}{{!}}{{{زر-13}}}]] }}</small>'''
 </td>
 |}}
 
@@ -462,7 +462,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-13|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-14|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-14|}}} | [[file:{{{image-14}}}{{!}}20px{{!}}{{{زر-14}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-14|}}}}} | | {{#ifeq: {{{external-14|}}} | yes | | {{{link-14}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-14|}}} | yes | [{{{link-14}}} {{{زر-14}}}] | [[{{{link-14}}}{{!}}{{{زر-14}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-14|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-14|}}} | [[file:{{{image-14}}}{{!}}20px{{!}}{{{زر-14}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-14|}}}}} | | {{#ifeq: {{{external-14|}}} | yes | | {{{link-14}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-14|}}} | yes | [{{{link-14}}} {{{زر-14}}}] | [[{{{link-14}}}{{!}}{{{زر-14}}}]] }}</small>'''
 </td>
 |}}
 
@@ -496,7 +496,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-14|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-15|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-15|}}} | [[file:{{{image-15}}}{{!}}20px{{!}}{{{زر-15}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-15|}}}}} | | {{#ifeq: {{{external-15|}}} | yes | | {{{link-15}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-15|}}} | yes | [{{{link-15}}} {{{زر-15}}}] | [[{{{link-15}}}{{!}}{{{زر-15}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-15|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-15|}}} | [[file:{{{image-15}}}{{!}}20px{{!}}{{{زر-15}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-15|}}}}} | | {{#ifeq: {{{external-15|}}} | yes | | {{{link-15}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-15|}}} | yes | [{{{link-15}}} {{{زر-15}}}] | [[{{{link-15}}}{{!}}{{{زر-15}}}]] }}</small>'''
 </td>
 |}}
 
@@ -530,7 +530,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-15|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-16|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-16|}}} | [[file:{{{image-16}}}{{!}}20px{{!}}{{{زر-16}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-16|}}}}} | | {{#ifeq: {{{external-16|}}} | yes | | {{{link-16}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-16|}}} | yes | [{{{link-16}}} {{{زر-16}}}] | [[{{{link-16}}}{{!}}{{{زر-16}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-16|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-16|}}} | [[file:{{{image-16}}}{{!}}20px{{!}}{{{زر-16}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-16|}}}}} | | {{#ifeq: {{{external-16|}}} | yes | | {{{link-16}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-16|}}} | yes | [{{{link-16}}} {{{زر-16}}}] | [[{{{link-16}}}{{!}}{{{زر-16}}}]] }}</small>'''
 </td>
 |}}
 
@@ -564,7 +564,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-16|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-17|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-17|}}} | [[file:{{{image-17}}}{{!}}20px{{!}}{{{زر-17}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-17|}}}}} | | {{#ifeq: {{{external-17|}}} | yes | | {{{link-17}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-17|}}} | yes | [{{{link-17}}} {{{زر-17}}}] | [[{{{link-17}}}{{!}}{{{زر-17}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-17|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-17|}}} | [[file:{{{image-17}}}{{!}}20px{{!}}{{{زر-17}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-17|}}}}} | | {{#ifeq: {{{external-17|}}} | yes | | {{{link-17}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-17|}}} | yes | [{{{link-17}}} {{{زر-17}}}] | [[{{{link-17}}}{{!}}{{{زر-17}}}]] }}</small>'''
 </td>
 |}}
 
@@ -599,7 +599,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-17|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-18|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-18|}}} | [[file:{{{image-18}}}{{!}}20px{{!}}{{{زر-18}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-18|}}}}} | | {{#ifeq: {{{external-18|}}} | yes | | {{{link-18}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-18|}}} | yes | [{{{link-18}}} {{{زر-18}}}] | [[{{{link-18}}}{{!}}{{{زر-18}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-18|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-18|}}} | [[file:{{{image-18}}}{{!}}20px{{!}}{{{زر-18}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-18|}}}}} | | {{#ifeq: {{{external-18|}}} | yes | | {{{link-18}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-18|}}} | yes | [{{{link-18}}} {{{زر-18}}}] | [[{{{link-18}}}{{!}}{{{زر-18}}}]] }}</small>'''
 </td>
 |}}
 
@@ -632,7 +632,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-18|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-19|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-19|}}} | [[file:{{{image-19}}}{{!}}20px{{!}}{{{زر-19}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-19|}}}}} | | {{#ifeq: {{{external-19|}}} | yes | | {{{link-19}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-19|}}} | yes | [{{{link-19}}} {{{زر-19}}}] | [[{{{link-19}}}{{!}}{{{زر-19}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-19|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-19|}}} | [[file:{{{image-19}}}{{!}}20px{{!}}{{{زر-19}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-19|}}}}} | | {{#ifeq: {{{external-19|}}} | yes | | {{{link-19}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-19|}}} | yes | [{{{link-19}}} {{{زر-19}}}] | [[{{{link-19}}}{{!}}{{{زر-19}}}]] }}</small>'''
 </td>
 |}}
 
@@ -654,7 +654,7 @@ background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-19|}}}}}
 |-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
 <!-- ستايل مع frame - نهاية-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-20|}}}}}|{{{خلفية المختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-20|}}} | [[file:{{{image-20}}}{{!}}20px{{!}}{{{زر-20}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-20|}}}}} | | {{#ifeq: {{{external-20|}}} | yes | | {{{link-20}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-20|}}} | yes | [{{{link-20}}} {{{button-20}}}] | [[{{{link-20}}}{{!}}{{{زر-20}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-20|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-20|}}} | [[file:{{{image-20}}}{{!}}20px{{!}}{{{زر-20}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-20|}}}}} | | {{#ifeq: {{{external-20|}}} | yes | | {{{link-20}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-20|}}} | yes | [{{{link-20}}} {{{button-20}}}] | [[{{{link-20}}}{{!}}{{{زر-20}}}]] }}</small>'''
 </td>
 |}}
 
