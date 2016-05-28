@@ -1,660 +1,660 @@
-<includeonly>{{clr}}<div style="{{#ifeq:{{{frame|yes}}}|لا|border:{{{buttons annotation|solid 1px #AAAAAA}}};|background-color:{{{background frame|#F6F6F6}}}; border:{{{footnote frame|solid 1px #AAAAAA}}};}} padding:0px; margin-bottom:6px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};"><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+<includeonly>{{clr}}<div style="{{#ifeq:{{{frame|yes}}}|no|border:{{{buttons annotation|solid 1px #AAAAAA}}};|background-color:{{{background frame|#F6F6F6}}}; border:{{{footnote frame|solid 1px #AAAAAA}}};}} padding:0px; margin-bottom:6px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};"><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">
-<!-- =================== زر-1 =================== -->
-{{#if:{{{زر-1|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-1 =================== -->
+{{#if:{{{button-1|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
--moz-border-top-right-radius:{{{نق|0px}}};-khtml-border-top-right-radius:{{{نق|0px}}};-webkit-border-top-right-radius:{{{نق|0px}}};border-top-right-radius:{{{نق|0px}}};
+<!-- qaab aan lahayn frame - bilow-->
+-moz-border-top-right-radius:{{{radius|0px}}};-khtml-border-top-right-radius:{{{radius|0px}}};-webkit-border-top-right-radius:{{{radius|0px}}};border-top-right-radius:{{{radius|0px}}};
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 {{#if:{{{line-1|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-2|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-2|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};}}
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};}}
 }}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-1|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-1|}}} | [[file:{{{image-1}}}{{!}}20px{{!}}{{{زر-1}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-1|}}}}} | | {{#ifeq: {{{external-1|}}} | yes | | {{{link-1}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-1|}}} | yes | [{{{link-1}}} {{{زر-1}}}] | [[{{{link-1}}}{{!}}{{{زر-1}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-1|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-1|}}} | [[file:{{{image-1}}}{{!}}20px{{!}}{{{button-1}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-1|}}}}} | | {{#ifeq: {{{external-1|}}} | yes | | {{{link-1}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-1|}}} | yes | [{{{link-1}}} {{{button-1}}}] | [[{{{link-1}}}{{!}}{{{button-1}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-1|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent;border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent;border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-2 =================== -->
-{{#if:{{{زر-2|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-2 =================== -->
+{{#if:{{{button-2|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-1|}}}
 |{{#if:{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}
-|{{#if:{{{زر-3|}}}
+|{{#if:{{{button-3|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-2|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-3|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-3|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-2|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-2|}}} | [[file:{{{image-2}}}{{!}}20px{{!}}{{{زر-2}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-2|}}}}} | | {{#ifeq: {{{external-2|}}} | yes | | {{{link-2}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-2|}}} | yes | [{{{link-2}}} {{{زر-2}}}] | [[{{{link-2}}}{{!}}{{{زر-2}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-2|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-2|}}} | [[file:{{{image-2}}}{{!}}20px{{!}}{{{button-2}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-2|}}}}} | | {{#ifeq: {{{external-2|}}} | yes | | {{{link-2}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-2|}}} | yes | [{{{link-2}}} {{{button-2}}}] | [[{{{link-2}}}{{!}}{{{button-2}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-2|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-3 =================== -->
-{{#if:{{{زر-3|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-3 =================== -->
+{{#if:{{{button-3|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-2|}}}
 |{{#if:{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}
-|{{#if:{{{زر-4|}}}
+|{{#if:{{{button-4|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-3|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-4|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-4|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-3|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-3|}}} | [[file:{{{image-3}}}{{!}}20px{{!}}{{{زر-3}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-3|}}}}} | | {{#ifeq: {{{external-3|}}} | yes | | {{{link-3}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-3|}}} | yes | [{{{link-3}}} {{{زر-3}}}] | [[{{{link-3}}}{{!}}{{{زر-3}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-3|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-3|}}} | [[file:{{{image-3}}}{{!}}20px{{!}}{{{button-3}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-3|}}}}} | | {{#ifeq: {{{external-3|}}} | yes | | {{{link-3}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-3|}}} | yes | [{{{link-3}}} {{{button-3}}}] | [[{{{link-3}}}{{!}}{{{button-3}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-3|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-4 =================== -->
-{{#if:{{{زر-4|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-4 =================== -->
+{{#if:{{{button-4|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-3|}}}
 |{{#if:{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}
-|{{#if:{{{زر-5|}}}
+|{{#if:{{{button-5|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-4|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-5|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-5|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-4|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-4|}}} | [[file:{{{image-4}}}{{!}}20px{{!}}{{{زر-4}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-4|}}}}} | | {{#ifeq: {{{external-4|}}} | yes | | {{{link-4}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-4|}}} | yes | [{{{link-4}}} {{{زر-4}}}] | [[{{{link-4}}}{{!}}{{{زر-4}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-4|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-4|}}} | [[file:{{{image-4}}}{{!}}20px{{!}}{{{button-4}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-4|}}}}} | | {{#ifeq: {{{external-4|}}} | yes | | {{{link-4}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-4|}}} | yes | [{{{link-4}}} {{{button-4}}}] | [[{{{link-4}}}{{!}}{{{button-4}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-4|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-5 =================== -->
-{{#if:{{{زر-5|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-5 =================== -->
+{{#if:{{{button-5|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-4|}}}
 |{{#if:{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}
-|{{#if:{{{زر-6|}}}
+|{{#if:{{{button-6|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-5|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-6|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-6|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-5|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-5|}}} | [[file:{{{image-5}}}{{!}}20px{{!}}{{{زر-5}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-5|}}}}} | | {{#ifeq: {{{external-5|}}} | yes | | {{{link-5}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-5|}}} | yes | [{{{link-5}}} {{{زر-5}}}] | [[{{{link-5}}}{{!}}{{{زر-5}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-5|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-5|}}} | [[file:{{{image-5}}}{{!}}20px{{!}}{{{button-5}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-5|}}}}} | | {{#ifeq: {{{external-5|}}} | yes | | {{{link-5}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-5|}}} | yes | [{{{link-5}}} {{{button-5}}}] | [[{{{link-5}}}{{!}}{{{button-5}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-5|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-6 =================== -->
-{{#if:{{{زر-6|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-6 =================== -->
+{{#if:{{{button-6|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-5|}}}
 |{{#if:{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}
-|{{#if:{{{زر-7|}}}
+|{{#if:{{{button-7|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-6|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-7|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-7|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-6|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-6|}}} | [[file:{{{image-6}}}{{!}}20px{{!}}{{{زر-6}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-6|}}}}} | | {{#ifeq: {{{external-6|}}} | yes | | {{{link-6}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-6|}}} | yes | [{{{link-6}}} {{{زر-6}}}] | [[{{{link-6}}}{{!}}{{{زر-6}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-6|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-6|}}} | [[file:{{{image-6}}}{{!}}20px{{!}}{{{button-6}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-6|}}}}} | | {{#ifeq: {{{external-6|}}} | yes | | {{{link-6}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-6|}}} | yes | [{{{link-6}}} {{{button-6}}}] | [[{{{link-6}}}{{!}}{{{button-6}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-6|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{buttons annotation|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{buttons annotation|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-7 =================== -->
-{{#if:{{{زر-7|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-7 =================== -->
+{{#if:{{{button-7|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-6|}}}
 |{{#if:{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}
-|{{#if:{{{زر-8|}}}
+|{{#if:{{{button-8|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-7|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-8|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-8|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-7|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-7|}}} | [[file:{{{image-7}}}{{!}}20px{{!}}{{{زر-7}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-7|}}}}} | | {{#ifeq: {{{external-7|}}} | yes | | {{{link-7}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-7|}}} | yes | [{{{link-7}}} {{{زر-7}}}] | [[{{{link-7}}}{{!}}{{{زر-7}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-7|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-7|}}} | [[file:{{{image-7}}}{{!}}20px{{!}}{{{button-7}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-7|}}}}} | | {{#ifeq: {{{external-7|}}} | yes | | {{{link-7}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-7|}}} | yes | [{{{link-7}}} {{{button-7}}}] | [[{{{link-7}}}{{!}}{{{button-7}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-7|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-8 =================== -->
-{{#if:{{{زر-8|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-8 =================== -->
+{{#if:{{{button-8|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-7|}}}
 |{{#if:{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}
-|{{#if:{{{زر-9|}}}
+|{{#if:{{{button-9|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-8|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-9|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-9|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-8|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-8|}}} | [[file:{{{image-8}}}{{!}}20px{{!}}{{{زر-8}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-8|}}}}} | | {{#ifeq: {{{external-8|}}} | yes | | {{{link-8}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-8|}}} | yes | [{{{link-8}}} {{{زر-8}}}] | [[{{{link-8}}}{{!}}{{{زر-8}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-8|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-8|}}} | [[file:{{{image-8}}}{{!}}20px{{!}}{{{button-8}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-8|}}}}} | | {{#ifeq: {{{external-8|}}} | yes | | {{{link-8}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-8|}}} | yes | [{{{link-8}}} {{{button-8}}}] | [[{{{link-8}}}{{!}}{{{button-8}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-8|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-9 =================== -->
-{{#if:{{{زر-9|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-9 =================== -->
+{{#if:{{{button-9|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-8|}}}
 |{{#if:{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}
-|{{#if:{{{زر-10|}}}
+|{{#if:{{{button-10|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-9|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-10|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-10|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-9|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-9|}}} | [[file:{{{image-9}}}{{!}}20px{{!}}{{{زر-9}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-9|}}}}} | | {{#ifeq: {{{external-9|}}} | yes | | {{{link-9}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-9|}}} | yes | [{{{link-9}}} {{{زر-9}}}] | [[{{{link-9}}}{{!}}{{{زر-9}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-9|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-9|}}} | [[file:{{{image-9}}}{{!}}20px{{!}}{{{button-9}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-9|}}}}} | | {{#ifeq: {{{external-9|}}} | yes | | {{{link-9}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-9|}}} | yes | [{{{link-9}}} {{{button-9}}}] | [[{{{link-9}}}{{!}}{{{button-9}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-9|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-10 =================== -->
-{{#if:{{{زر-10|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-10 =================== -->
+{{#if:{{{button-10|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-9|}}}
 |{{#if:{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}
-|{{#if:{{{زر-11|}}}
+|{{#if:{{{button-11|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-10|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-11|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-11|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-10|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-10|}}} | [[file:{{{image-10}}}{{!}}20px{{!}}{{{زر-10}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-10|}}}}} | | {{#ifeq: {{{external-10|}}} | yes | | {{{link-10}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-10|}}} | yes | [{{{link-10}}} {{{زر-10}}}] | [[{{{link-10}}}{{!}}{{{زر-10}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-10|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-10|}}} | [[file:{{{image-10}}}{{!}}20px{{!}}{{{button-10}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-10|}}}}} | | {{#ifeq: {{{external-10|}}} | yes | | {{{link-10}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-10|}}} | yes | [{{{link-10}}} {{{button-10}}}] | [[{{{link-10}}}{{!}}{{{button-10}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-10|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-11 =================== -->
-{{#if:{{{زر-11|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-11 =================== -->
+{{#if:{{{button-11|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-10|}}}
 |{{#if:{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}
-|{{#if:{{{زر-12|}}}
+|{{#if:{{{button-12|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-11|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-12|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-12|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-11|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-11|}}} | [[file:{{{image-11}}}{{!}}20px{{!}}{{{زر-11}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-11|}}}}} | | {{#ifeq: {{{external-11|}}} | yes | | {{{link-11}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-11|}}} | yes | [{{{link-11}}} {{{زر-11}}}] | [[{{{link-11}}}{{!}}{{{زر-11}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-11|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-11|}}} | [[file:{{{image-11}}}{{!}}20px{{!}}{{{button-11}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-11|}}}}} | | {{#ifeq: {{{external-11|}}} | yes | | {{{link-11}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-11|}}} | yes | [{{{link-11}}} {{{button-11}}}] | [[{{{link-11}}}{{!}}{{{button-11}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-11|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-12 =================== -->
-{{#if:{{{زر-12|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-12 =================== -->
+{{#if:{{{button-12|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-11|}}}
 |{{#if:{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}
-|{{#if:{{{زر-13|}}}
+|{{#if:{{{button-13|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-12|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-13|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-13|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-12|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-12|}}} | [[file:{{{image-12}}}{{!}}20px{{!}}{{{زر-12}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-12|}}}}} | | {{#ifeq: {{{external-12|}}} | yes | | {{{link-12}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-12|}}} | yes | [{{{link-12}}} {{{زر-12}}}] | [[{{{link-12}}}{{!}}{{{زر-12}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-12|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-12|}}} | [[file:{{{image-12}}}{{!}}20px{{!}}{{{button-12}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-12|}}}}} | | {{#ifeq: {{{external-12|}}} | yes | | {{{link-12}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-12|}}} | yes | [{{{link-12}}} {{{button-12}}}] | [[{{{link-12}}}{{!}}{{{button-12}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-12|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-13 =================== -->
-{{#if:{{{زر-13|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-13 =================== -->
+{{#if:{{{button-13|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-12|}}}
 |{{#if:{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}
-|{{#if:{{{زر-14|}}}
+|{{#if:{{{button-14|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-13|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-14|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-14|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-13|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-13|}}} | [[file:{{{image-13}}}{{!}}20px{{!}}{{{زر-13}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-13|}}}}} | | {{#ifeq: {{{external-13|}}} | yes | | {{{link-13}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-13|}}} | yes | [{{{link-13}}} {{{زر-13}}}] | [[{{{link-13}}}{{!}}{{{زر-13}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-13|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-13|}}} | [[file:{{{image-13}}}{{!}}20px{{!}}{{{button-13}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-13|}}}}} | | {{#ifeq: {{{external-13|}}} | yes | | {{{link-13}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-13|}}} | yes | [{{{link-13}}} {{{button-13}}}] | [[{{{link-13}}}{{!}}{{{button-13}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-13|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-14 =================== -->
-{{#if:{{{زر-14|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-14 =================== -->
+{{#if:{{{button-14|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-13|}}}
 |{{#if:{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}
-|{{#if:{{{زر-15|}}}
+|{{#if:{{{button-15|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-14|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-15|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-15|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-14|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-14|}}} | [[file:{{{image-14}}}{{!}}20px{{!}}{{{زر-14}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-14|}}}}} | | {{#ifeq: {{{external-14|}}} | yes | | {{{link-14}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-14|}}} | yes | [{{{link-14}}} {{{زر-14}}}] | [[{{{link-14}}}{{!}}{{{زر-14}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-14|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-14|}}} | [[file:{{{image-14}}}{{!}}20px{{!}}{{{button-14}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-14|}}}}} | | {{#ifeq: {{{external-14|}}} | yes | | {{{link-14}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-14|}}} | yes | [{{{link-14}}} {{{button-14}}}] | [[{{{link-14}}}{{!}}{{{button-14}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-14|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-15 =================== -->
-{{#if:{{{زر-15|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-15 =================== -->
+{{#if:{{{button-15|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-14|}}}
 |{{#if:{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}
-|{{#if:{{{زر-16|}}}
+|{{#if:{{{button-16|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-15|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-16|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-16|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-15|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-15|}}} | [[file:{{{image-15}}}{{!}}20px{{!}}{{{زر-15}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-15|}}}}} | | {{#ifeq: {{{external-15|}}} | yes | | {{{link-15}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-15|}}} | yes | [{{{link-15}}} {{{زر-15}}}] | [[{{{link-15}}}{{!}}{{{زر-15}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-15|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-15|}}} | [[file:{{{image-15}}}{{!}}20px{{!}}{{{button-15}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-15|}}}}} | | {{#ifeq: {{{external-15|}}} | yes | | {{{link-15}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-15|}}} | yes | [{{{link-15}}} {{{button-15}}}] | [[{{{link-15}}}{{!}}{{{button-15}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-15|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-16 =================== -->
-{{#if:{{{زر-16|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-16 =================== -->
+{{#if:{{{button-16|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-15|}}}
 |{{#if:{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}
-|{{#if:{{{زر-17|}}}
+|{{#if:{{{button-17|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-16|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-17|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-17|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-16|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-16|}}} | [[file:{{{image-16}}}{{!}}20px{{!}}{{{زر-16}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-16|}}}}} | | {{#ifeq: {{{external-16|}}} | yes | | {{{link-16}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-16|}}} | yes | [{{{link-16}}} {{{زر-16}}}] | [[{{{link-16}}}{{!}}{{{زر-16}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-16|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-16|}}} | [[file:{{{image-16}}}{{!}}20px{{!}}{{{button-16}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-16|}}}}} | | {{#ifeq: {{{external-16|}}} | yes | | {{{link-16}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-16|}}} | yes | [{{{link-16}}} {{{button-16}}}] | [[{{{link-16}}}{{!}}{{{button-16}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-16|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-17 =================== -->
-{{#if:{{{زر-17|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-17 =================== -->
+{{#if:{{{button-17|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-16|}}}
 |{{#if:{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}
-|{{#if:{{{زر-18|}}}
+|{{#if:{{{button-18|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-17|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-18|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-18|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-17|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-17|}}} | [[file:{{{image-17}}}{{!}}20px{{!}}{{{زر-17}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-17|}}}}} | | {{#ifeq: {{{external-17|}}} | yes | | {{{link-17}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-17|}}} | yes | [{{{link-17}}} {{{زر-17}}}] | [[{{{link-17}}}{{!}}{{{زر-17}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-17|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-17|}}} | [[file:{{{image-17}}}{{!}}20px{{!}}{{{button-17}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-17|}}}}} | | {{#ifeq: {{{external-17|}}} | yes | | {{{link-17}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-17|}}} | yes | [{{{link-17}}} {{{button-17}}}] | [[{{{link-17}}}{{!}}{{{button-17}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-17|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-18 =================== -->
-{{#if:{{{زر-18|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-18 =================== -->
+{{#if:{{{button-18|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-17|}}}
 |{{#if:{{{line-18|}}}{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}
-|{{#if:{{{زر-19|}}}
+|{{#if:{{{button-19|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-18|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-19|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-19|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
+<!-- ستايل مع frame - bilow-->
 
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-18|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-18|}}} | [[file:{{{image-18}}}{{!}}20px{{!}}{{{زر-18}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-18|}}}}} | | {{#ifeq: {{{external-18|}}} | yes | | {{{link-18}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-18|}}} | yes | [{{{link-18}}} {{{زر-18}}}] | [[{{{link-18}}}{{!}}{{{زر-18}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-18|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-18|}}} | [[file:{{{image-18}}}{{!}}20px{{!}}{{{button-18}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-18|}}}}} | | {{#ifeq: {{{external-18|}}} | yes | | {{{link-18}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-18|}}} | yes | [{{{link-18}}} {{{button-18}}}] | [[{{{link-18}}}{{!}}{{{button-18}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-18|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-19 =================== -->
-{{#if:{{{زر-19|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-19 =================== -->
+{{#if:{{{button-19|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
+<!-- qaab aan lahayn frame - bilow-->
 {{#if:{{{line-18|}}}
 |{{#if:{{{line-19|}}}
-||-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};}}
+||-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};}}
 |}}
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}
-|{{#if:{{{زر-20|}}}
+|{{#if:{{{button-20|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
 }}
 |{{#if:{{{line-19|}}}
-|-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
-|{{#if:{{{زر-20|}}}
+|-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
+|{{#if:{{{button-20|}}}
 |border-left:{{{buttons annotation|solid 1px #AAAAAA}}};
-|-moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};
+|-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};
 }}}}}}
-<!-- ستايل بدون frame - نهاية-->
+<!-- qaab aan lahayn frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-19|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-19|}}} | [[file:{{{image-19}}}{{!}}20px{{!}}{{{زر-19}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-19|}}}}} | | {{#ifeq: {{{external-19|}}} | yes | | {{{link-19}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-19|}}} | yes | [{{{link-19}}} {{{زر-19}}}] | [[{{{link-19}}}{{!}}{{{زر-19}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-19|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-19|}}} | [[file:{{{image-19}}}{{!}}20px{{!}}{{{button-19}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-19|}}}}} | | {{#ifeq: {{{external-19|}}} | yes | | {{{link-19}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-19|}}} | yes | [{{{link-19}}} {{{button-19}}}] | [[{{{link-19}}}{{!}}{{{button-19}}}]] }}</small>'''
 </td>
 |}}
 
 {{#if:{{{line-19|}}}
-|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|لا|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|لا|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};">
+|</tr></table><div style="clear:both; margin:0; padding:0; border:0px; border-top:{{#ifeq:{{{frame|yes}}}|no|{{{buttons annotation|solid 1px #AAAAAA}}}|{{{footnote frame|solid 1px #AAAAAA}}}}};width:100%; height:0;"></div><table width="100%" cellspacing="{{#ifeq:{{{frame|yes}}}|no|0|3}}" cellpadding="3" style="table-layout: fixed; background-color:transparent; border:0px; margin:0px; padding:0px; -moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};">
 <tr style="text-align:center">|}}
-<!-- =================== زر-20 =================== -->
-{{#if:{{{زر-20|}}}
-|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|لا|
+<!-- =================== button-20 =================== -->
+{{#if:{{{button-20|}}}
+|<td style="background-image: -moz-linear-gradient(white, darkgray); background-image: -ms-linear-gradient(#A9A9A9, gray); background-image: -o-linear-gradient(white, darkgray); background-image: -webkit-linear-gradient(white, darkgray); background-image: linear-gradient(white, darkgray);  {{#ifeq:{{{frame|yes}}}|no|
 
-<!-- ستايل بدون frame - بداية-->
--moz-border-bottom-left-radius:{{{نق|0px}}};-khtml-border-bottom-left-radius:{{{نق|0px}}};-webkit-border-bottom-left-radius:{{{نق|0px}}};border-bottom-left-radius:{{{نق|0px}}};
-{{#if:{{{line-19|}}}|-moz-border-bottom-right-radius:{{{نق|0px}}};-khtml-border-bottom-right-radius:{{{نق|0px}}};-webkit-border-bottom-right-radius:{{{نق|0px}}};border-bottom-right-radius:{{{نق|0px}}};|}}
+<!-- qaab aan lahayn frame - bilow-->
+-moz-border-bottom-left-radius:{{{radius|0px}}};-khtml-border-bottom-left-radius:{{{radius|0px}}};-webkit-border-bottom-left-radius:{{{radius|0px}}};border-bottom-left-radius:{{{radius|0px}}};
+{{#if:{{{line-19|}}}|-moz-border-bottom-right-radius:{{{radius|0px}}};-khtml-border-bottom-right-radius:{{{radius|0px}}};-webkit-border-bottom-right-radius:{{{radius|0px}}};border-bottom-right-radius:{{{radius|0px}}};|}}
 {{#if:{{{line-1|}}}{{{line-2|}}}{{{line-3|}}}{{{line-4|}}}{{{line-5|}}}{{{line-6|}}}{{{line-7|}}}{{{line-8|}}}{{{line-9|}}}{{{line-10|}}}{{{line-11|}}}{{{line-12|}}}{{{line-13|}}}{{{line-14|}}}{{{line-15|}}}{{{line-16|}}}{{{line-17|}}}{{{line-18|}}}{{{line-19|}}}
-||-moz-border-top-left-radius:{{{نق|0px}}};-khtml-border-top-left-radius:{{{نق|0px}}};-webkit-border-top-left-radius:{{{نق|0px}}};border-top-left-radius:{{{نق|0px}}};}}
-<!-- ستايل مع frame - نهاية-->
+||-moz-border-top-left-radius:{{{radius|0px}}};-khtml-border-top-left-radius:{{{radius|0px}}};-webkit-border-top-left-radius:{{{radius|0px}}};border-top-left-radius:{{{radius|0px}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-<!-- ستايل مع frame - بداية-->
-|-moz-border-radius:{{{نق|0px}}};-khtml-border-radius:{{{نق|0px}}};-webkit-border-radius:{{{نق|0px}}};border-radius:{{{نق|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
-<!-- ستايل مع frame - نهاية-->
+<!-- ستايل مع frame - bilow-->
+|-moz-border-radius:{{{radius|0px}}};-khtml-border-radius:{{{radius|0px}}};-webkit-border-radius:{{{radius|0px}}};border-radius:{{{radius|0px}}};border:{{{buttons annotation|solid 1px #AAAAAA}}};}}
+<!-- ستايل مع frame - dhammaad-->
 
-background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-20|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-20|}}} | [[file:{{{image-20}}}{{!}}20px{{!}}{{{زر-20}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-20|}}}}} | | {{#ifeq: {{{external-20|}}} | yes | | {{{link-20}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-20|}}} | yes | [{{{link-20}}} {{{button-20}}}] | [[{{{link-20}}}{{!}}{{{زر-20}}}]] }}</small>'''
+background-color:{{#ifeq:{{fullurl:{{FULLPAGENAME}}}}|{{fullurl:{{{link-20|}}}}}|{{{backgroundمختار|#A7D7F9}}}|{{{background color|#FFFFFF}}}}}">{{#if: {{{image-20|}}} | [[file:{{{image-20}}}{{!}}20px{{!}}{{{button-20}}}|link={{#ifeq: {{fullurl:{{FULLPAGENAME}}}} | {{fullurl:{{{link-20|}}}}} | | {{#ifeq: {{{external-20|}}} | yes | | {{{link-20}}} }} }}]] }} '''<small class="plainlinks">{{#ifeq: {{{external-20|}}} | yes | [{{{link-20}}} {{{button-20}}}] | [[{{{link-20}}}{{!}}{{{button-20}}}]] }}</small>'''
 </td>
 |}}
 
