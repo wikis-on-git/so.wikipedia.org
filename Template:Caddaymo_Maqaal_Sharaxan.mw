@@ -41,7 +41,7 @@
 
 | label11  = [[Wikipedia:Category|Qaybaha]] oo dhan
 | data11a  = {{#ifeq:{{{qaybaha oo dhan}}}|haa|{{haa}}|}}
-| data11b  = {{#ifeq:{{{qaybaha oo dhan}}}|لا|{{لا}}|}}
+| data11b  = {{#ifeq:{{{qaybaha oo dhan}}}|no|{{no}}|}}
 
 | label12  = qaybtayda eeg sidoo kale link banaaka a
 | data12a  = {{#ifeq:{{{qaybtayda eeg sidoo kale link banaaka ah}}}|haa|{{haa}}|}}
