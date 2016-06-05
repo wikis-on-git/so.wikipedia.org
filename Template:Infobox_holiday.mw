@@ -51,7 +51,7 @@
 | data6      = {{{significance|}}}
 | label7     = Loo dabaaldego
 | data7      = {{{celebrations|}}}
-| label8     = Observances
+| label8     = Wayabaha la sameeyo
 | data8      = {{{observances|}}}
 
 | label10    = Bilaabanta
@@ -59,13 +59,13 @@
 | label11    = Dhamaata
 | data11     = {{{ends|}}}
 
-| label12    = Date
+| label12    = Taariikhda
 | data12     = {{#if:{{{date|}}}|{{#ifexist:{{{date}}}|[[{{{date}}}]]|{{{date}}}}} |{{#if:{{{week_ordinal|}}}|{{ucfirst:{{{week_ordinal|}}}}} {{ucfirst:{{{weekday|}}}}} in {{ucfirst:{{{month|}}}}}|<!--  -->{{#if:{{#property:P837}}|{{#invoke:Wikidata|getRawValue|P837|FETCH_WIKIDATA}}<!--  -->{{Infobox holiday/wd}}<!--  -->}}<!--  -->}}}}
 
-| label13    = {{#time:Y|last year}}&nbsp;date
+| label13    = {{#time:Y|last year}}&nbsp;sanadka
 | data13     = {{Infobox holiday/date|year={{#time:Y|last year}}|date_default={{{date{{#time:Y|last year}}|♦}}}|date={{{date|}}}|week_ordinal={{{week_ordinal|}}}|weekday={{{weekday|}}}|month={{{month|}}} }}
 
-| label14    = {{#time:Y}}&nbsp;date
+| label14    = {{#time:Y}}&nbsp;sanadka
 | data14     = {{Infobox holiday/date|year={{#time:Y}}|date_default={{{date{{#time:Y}}|♦}}}|date={{{date|}}}|week_ordinal={{{week_ordinal|}}}|weekday={{{weekday|}}}|month={{{month|}}}|bold=yes }}<!--
 
  -->{{#ifeq:{{{date2007|}}}{{{date2008|}}}{{{date2009|}}}{{{date2010|}}}{{{date2011|}}}{{{date2012|}}}{{{date2013|}}}|||
@@ -73,10 +73,10 @@
 }}<!-- 
 
  -->
-| label15    = {{#time:Y|next year}}&nbsp;date
+| label15    = {{#time:Y|next year}}&nbsp;sanadka
 | data15     = {{Infobox holiday/date|year={{#time:Y|next year}}|date_default={{{date{{#time:Y|next year}}|♦}}}|date={{{date|}}}|week_ordinal={{{week_ordinal|}}}|weekday={{{weekday|}}}|month={{{month|}}} }}
 
-| label16    = {{#time:Y|+2 years}}&nbsp;date
+| label16    = {{#time:Y|+2 years}}&nbsp;sanadka
 | data16     = {{Infobox holiday/date|year={{#time:Y|+2 years}}|date_default={{{date{{#time:Y|+2 years}}|♦}}}|date={{{date|}}}|week_ordinal={{{week_ordinal|}}}|weekday={{{weekday|}}}|month={{{month|}}} }}
 
 | label17    = Next&nbsp;time
@@ -86,10 +86,10 @@
 |{{start-date|{{#time:Y-m-d|{{{date}}} {{NEXTYEAR}}}}| '''{{#time:{{#if:{{{mdy|}}}|F j, Y|j F Y}}|{{{date}}} {{NEXTYEAR}} }}'''  }}
 }}|}}}}
 
-| label18    = Duration
+| label18    = Wakhtiga
 | data18     = {{#ifeq:{{{duration|}}}|1 day||}}
 
-| label19    = Frequency
+| label19    = Xilliga
 | data19     = {{#if:{{{frequency|}}}|{{#ifexist:Category:Holidays and observances by frequency ({{{frequency}}})|[[:Category:Holidays and observances by frequency ({{lc:{{{frequency}}}}})|{{{frequency}}}]]|{{{frequency}}} }} }}
 
 | label20    = First&nbsp;time
@@ -101,7 +101,7 @@
 | label22    = Started&nbsp;by
 | data22     = {{{startedby|}}}
 
-| label23     = Related&nbsp;to
+| label23     = La&nbsp;xidhiidha
 | data23      = {{{relatedto|}}}
 
 
