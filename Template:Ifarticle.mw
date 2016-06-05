@@ -1,3 +1,3 @@
-<noinclude>{{pp-template|small=yes}}</noinclude>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{{1|}}}|{{#ifeq:{{{3|}}}||{{{2|}}}|{{Userpage otheruse|'''{{{3}}}'''|{{{3}}}}}}}}}<noinclude>
+{{#ifeq:{{NAMESPACE}}|{{ns:0}}|{{{1|}}}|{{#ifeq:{{{3|}}}||{{{2|}}}|{{Userpage otheruse|'''{{{3}}}'''|{{{3}}}}}}}}}<noinclude>
 
 Template for including the value of parameter 1 in articles, the value for parameter 2 (if given) in non-article pages. If a third parameter is given, {{tl|Userpage otheruse}} is included.</noinclude>
