@@ -1,6 +1,14 @@
 {{#switch: {{minmaxskipgen|max={{{max|}}}|duration={{{duration|}}}|extramax={{{extramax|}}}|min={{{min|}}}|skip={{{skip|}}}|inc={{{inc|}}}}}
-| 0   = [[:Dhax kujir]]
-| 1   = [[:Ibn Nafiis]]
-| 2   = [[:Federaaliisim]]
-| 3   = [[:OPEC]]
+| 0   = [[:Federaaliisim]]
+| 1   = [[:Dhax kujir]]
+| 2   = [[:Karl Marx]]
+| 3   = [[:Mahathir Bin Maxamed]]
+| 4   = [[:Daa'uud Cabdulle Xirsi]]
+| 5   = [[:Kiinya]]
+| 6   = [[:Koonfur Suudaan]]
+| 7   = [[:Dadka soomaaliyeed]]
+| 8   = [[:Diffusion]]
+| 9   = [[:Hibo Nuura]]
+| 10   = [[:Sabiib]]
+
 }}<noinclude>[[Category:Maqaalka Cusub Bogga Hore|*]]</noinclude>
