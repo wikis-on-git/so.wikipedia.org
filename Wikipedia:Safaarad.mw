@@ -18,3 +18,21 @@ Due to the large scale enablement of this feature, we have had to use [[:m:Globa
 
 </div>
 <!-- Message sent by User:Runab WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/ULS_Compact_Links/28_June&oldid=15721303 -->
+
+== Compact Language Links enabled in this wiki today ==
+
+{{int:Please-translate}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+[[File:Compact-language-links-list.png|thumb|Screenshot of Compact Language Links interlanguage list]]
+
+[[:mw:Universal_Language_Selector/Compact_Language_Links|Compact Language Links]] has been available as a beta-feature on all Wikimedia wikis since 2014. With compact language links enabled, users are shown a much shorter list of languages on the interlanguage link section of an article (see image). Based on several factors, this shorter list of languages is expected to be more relevant for them and valuable for finding similar content in a language known to them. More information about compact language links can be found in [[:mw:Universal_Language_Selector/Compact_Language_Links|the documentation]].
+
+From today onwards, compact language links has been enabled as the default listing of interlanguage links on this wiki. However, using the button at the bottom, you will be able to see a longer list of all the languages the article has been written in. The setting for this compact list can be changed by using the checkbox under ''User Preferences -> Appearance -> Languages''
+
+The compact language links feature has been tested extensively by the Wikimedia Language team, which developed it. However, in case there are any problems or other feedback please let us know on the [[:mw:Talk:Universal_Language_Selector/Compact_Language_Links|project talk page]]. It is to be noted that on some wikis the presence of an existing older gadget that was used for a similar purpose may cause an interference for compact language list. We would like to bring this to the attention of the admins of this wiki. Full details are on [[phab:T131455|this phabricator ticket]] (in English).
+
+Due to the large scale enablement of this feature, we have had to use [[:m:Global_message_delivery|MassMessage]] for this announcement and as a result it is only written in English. We will really appreciate if this message can be translated for other users of this wiki. Thank you. On behalf of the Wikimedia Language team: [[:mw:User:Runab_WMF|Runa Bhattacharjee (WMF)]] ([[mw:User talk:Runab_WMF|talk]])-04:21, 28 Juun 2016 (UTC)
+
+</div>
+<!-- Message sent by User:Runab WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/ULS_Compact_Links/28_June&oldid=15728024 -->
