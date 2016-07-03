@@ -8,7 +8,7 @@
     | #default = '''[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|action=edit}} biloow ''{{PAGENAME}}'' maqaal]''', adigoo adeegsanaya [[Wikipedia:Maqaal Sarcaad|Maqaal Sarcaad]] haddii aad doonayso, ama [[Wikipedia:Requested articles|ku dar codsigaada]]; laakiin fadlan ogsoonoow Wikipedia [[WP:WINAD|maaha qaamuus]].<includeonly><!-- soft redirect metadata --><span id="softredirect" style="display:none">[[wiktionary:{{{1|Special:Search/{{lc:{{PAGENAME}}}}}}}]]</span></includeonly>
    }}
 }}
-|imageright = [[File:Wiktionary-logo-en.svg|50px| ]]
+|imageright = [[File:Wiktionary-logo.svg|50px| ]]
 }}<!-- Template:Wi --><includeonly>{{Soft redirect protection}}{{#if:{{{nocat|}}}||{{#ifeq:{{SUBPAGENAME}}|sandbox||[[Category:Redirects to Wiktionary]]}}}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
