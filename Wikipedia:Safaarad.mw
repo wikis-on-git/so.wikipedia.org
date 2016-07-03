@@ -45,3 +45,48 @@ Three weeks ago, you were invited to vote on how to take Wikipedia articles to t
 Best, [[:m:Special:MyLanguage/Wikipedia to the Moon/About|Moon team at Wikimedia Deutschland]] 14:10, 1 Luuliyo 2016 (UTC)
 </div>
 <!-- Message sent by User:Lydia Pintscher (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_Wikipedia_delivery&oldid=15542536 -->
+
+== Editing News #2—2016 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+''[[m:Special:MyLanguage/VisualEditor/Newsletter/2016/June|Read this in another language]] • [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="float:right;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center|alt=VisualEditor]]'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+It's quick and easy to insert a references list.
+[[File:VisualEditor References List Insert Menu-en.png|alt=Screenshot showing a dropdown menu with many items|center|frameless|150px]]  
+
+Place the cursor where you want to display the references list (usually at the bottom of the page).  Open the "{{int:visualeditor-toolbar-insert}}" menu and click the "{{int:cite-ve-dialogbutton-referenceslist-tooltip}}" icon (three books).
+
+If you are using several groups of references, which is relatively rare, you will have the opportunity to specify the group. If you do that, then only the references that belong to the specified group will be displayed in this list of references.
+Finally, click "{{int:visualeditor-dialog-action-insert}}" in the dialog to insert the {{int:cite-ve-dialogbutton-referenceslist-tooltip}}.  This list will change as you add more footnotes to the page.
+
+You can read and help translate [[:mw:Special:MyLanguage/VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.</div></div>
+
+Since the last newsletter, the [[:mw:Special:MyLanguage/VisualEditor|VisualEditor Team]] has fixed many bugs. Their workboard is available [[phab:project/board/483/|in Phabricator]]. Their [[:mw:VisualEditor/Current_priorities|current priorities]] are improving support for Arabic and Indic scripts, and adapting the visual editor to the needs of the Wikivoyages and Wikisources.   
+
+=== Recent changes ===
+The visual editor is now available to all users at most [[Wikivoyage:|Wikivoyages]].  It was also enabled for all contributors at the French Wikinews.
+
+The '''[[:mw:Special:MyLanguage/VisualEditor/Single edit tab|single edit tab]]''' feature combines the "{{int:vector-view-edit}}" and "{{int:visualeditor-ca-editsource}}" tabs into a single "{{int:vector-view-edit}}" tab.  It has been deployed to several Wikipedias, including Hungarian, Polish, English and Japanese Wikipedias, as well as to all Wikivoyages.  At these wikis, you can change your settings for this feature in the "{{int:prefs-editing}}" tab of [[Special:Preferences]]. The team is now reviewing the feedback and considering ways to improve the design before rolling it out to more people.
+
+=== Future changes ===
+The "{{int:Savearticle}}" button will say "{{int:Publishpage}}".   This will affect both the visual and wikitext editing systems.  More [[M:Editing/Publish|information is available on Meta]].
+
+The visual editor will be offered to all editors at the remaining [[:mw:VisualEditor/Rollouts|"Phase 6" Wikipedias]] during the next few months. The developers want to know whether typing in your language feels natural in the visual editor. Please post your comments and the language(s) that you tested at [[:mw:Topic:St8y4ni42d0vr9cv|the feedback thread on mediawiki.org]]. This will affect several languages, including: [[:w:ar: |'''Arabic''']], [[:w:hi: |'''Hindi''']], [[:w:th: |'''Thai''']], [[:w:ta: |'''Tamil''']], [[:w:mr: |'''Marathi''']], [[:w:ml: |'''Malayalam''']], [[:w:ur: |'''Urdu''']], [[:w:fa: |'''Persian''']], [[:w:bn: |'''Bengali''']], [[:w:as: |'''Assamese''']], [[:w:arc: |'''Aramaic''']] and others.
+
+The team is working with the volunteer developers who power Wikisource to provide the visual editor there, for opt-in testing right now and eventually for all users. ([[phab:T138966|T138966]]) 
+
+The team is working on a modern wikitext editor.  It will look like the visual editor, and be able to use the citoid service and other modern tools.  This new editing system may become available as a Beta Feature on desktop devices around September 2016.  You can read about this project in a [[mediawikiwiki:Special:MyLanguage/VisualEditor/Roadmap/Update_2016-06-23|general status update on the Wikimedia mailing list]]. 
+
+=== Let's work together ===
+* Do you teach new editors how to use the visual editor? Did you help [[:mw:Citoid/Enabling Citoid on your wiki|set up the Citoid automatic reference feature for your wiki]]? Have you written or imported [[:mw:Special:MyLanguage/Help:TemplateData|TemplateData]] for your most important citation templates?  <mark>Would you be willing to help new editors and small communities with the visual editor?  Please sign up for the new [[:mw:Help:VisualEditor/Community Taskforce|'''VisualEditor Community Taskforce''']].</mark>
+* Learn how to improve the "automagical" [[:mw:citoid|citoid]] referencing system in the visual editor, by creating [[w:en:Zotero|Zotero]] translators for popular sources in your language!  Watch the [[Mw:Citoid/Zotero's Tech Talk|Tech Talk by Sebastian Karcher]] for more information.
+ 
+If you aren't reading this in your preferred language, then please help us with translations! Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. {{int:Feedback-thanks-title}}
+
+</div> [[:m:User:Elitre (WMF)]], 17:20, 3 Luuliyo 2016 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=15741003 -->
