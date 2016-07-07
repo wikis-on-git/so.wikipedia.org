@@ -48,7 +48,7 @@
 | header1 = {{#if:{{{location|}}}{{{locale|}}}{{{coordinates|}}}{{{geo|}}}{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}{{{religious_affiliation|}}}{{{deity|}}}{{{rite|}}}{{{tradition|}}}{{{sect|}}}{{{festivals|}}}{{{festival|}}}{{{cercle|}}}{{{sector|}}}{{{municipality|}}}{{{district|}}}{{{territory|}}}{{{prefecture|}}}{{{state|}}}{{{province|}}}{{{region|}}}{{{country|}}}{{{administration|}}}{{{consecration_year|}}}{{{organisational_status|}}}{{{organizational_status|{{{status|}}}}}}{{{functional_status|}}}{{{heritage_designation|}}}{{{leadership|}}}{{{ownership|}}}{{{governing_body|}}}{{{bhattaraka|}}}{{{patron|}}}{{{website|}}}|Basic information}}
 
 | label2 = Meesha dhaco
-| data2 = {{if empty|{{{location|}}}|{{{locale|}}}}}
+| data2 = 
 
 | label3 = [[Isuduwe Habka Juqraafiga|Isuduweha Juqraafi]]
 | data3 = {{br separated entries
