@@ -1,0 +1,293 @@
+{{infobox
+| bodyclass = vcard
+| bodystyle = {{WPMILHIST Infobox style|main_box_raw|vcard}} 
+| abovestyle = {{WPMILHIST Infobox style|header_raw}}
+| above = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}<!--
+-->{{#if:{{{ensign|}}}|<div style="padding-bottom:2px">{{#invoke:InfoboxImage|InfoboxImage|image={{{ensign|}}}|size={{{ensign_size|}}}|sizedefault=90px|alt={{{ensign_alt|}}}}}</div>}}{{#if:{{{native_name|}}}{{{nativename|}}}{{{nativename-a|}}}{{{nativename-r|}}}|
+{{Infobox|child=yes
+| datastyle = {{WPMILHIST Infobox style|header_raw}}
+| data1 = {{br separated entries
+  |1 = {{#if:{{{native_name|}}}|<span class="nickname">''{{{native_name|}}}''</span>}}
+  |2 = {{#if:{{{nativename|}}}|<span class="nickname">''{{{nativename|}}}''</span>}}
+  |3 = {{#if:{{{nativename-a|}}}|<span class="nickname">{{{nativename-a}}}</span>}}
+  |4 = {{#if:{{{nativename-r|}}}|<span class="nickname">{{{nativename-r}}}</span>}}
+}}}}}}
+| subheaderstyle = {{WPMILHIST Infobox style|sub_header_raw}}
+| subheader1 = {{#if:{{{partof|}}}| Part of {{{partof}}}}}
+| subheader2 = {{#if:{{{location|}}}{{{nearest_town|}}}{{{country|}}} 
+  |<span class="label">{{br separated entries
+    |1={{{location|}}}
+    |2={{#if:{{{nearest_town|}}}|Near {{{nearest_town}}} }}
+    }} {{#if:{{{country|}}} | {{#if:{{{location|}}}{{{nearest_town|}}}|in&nbsp;}}{{{country}}}}}</span>
+  }}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=250px|alt={{{image_alt|{{{alt|}}}}}}}}
+| caption = {{{caption|}}}
+| image2 = {{#invoke:InfoboxImage|InfoboxImage|image={{{image2|}}}|size={{{image2_size|}}}|sizedefault=75px|alt={{{image2_alt|{{{alt2|}}}}}}}}
+| caption2 = {{{caption2|}}}
+| image3 = {{#invoke:InfoboxImage|InfoboxImage|image={{{map|{{{image_map|}}}}}}|size={{{map_size|{{{image_mapsize|}}}}}}|sizedefault=250px|alt={{{map_alt|{{{image_map_alt|}}}}}}}}
+| caption3 = {{{map_caption|{{{image_map_caption|}}}}}}
+| image4 = {{#if:{{{pushpin_map|{{{map_type|}}}}}}
+  |{{Location map|{{{pushpin_map|{{{map_type|}}}}}}
+|label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{#if:{{{pushpin_label|}}}|{{{pushpin_label}}}|{{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}} }}
+|alt = {{{pushpin_map_alt|}}}
+|lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|{{{latitude|}}}}}} }}
+|long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|{{{longitude|}}}}}} }}
+|lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+|lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+|lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+|lat_dir={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+|lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+|lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+|lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+|lon_dir={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+|mark = {{#if: {{{pushpin_mark|}}} | {{{pushpin_mark}}} | Red_pog.svg }}
+|marksize = {{#if: {{{pushpin_marksize|}}} | {{{pushpin_marksize}}} | 10 }}
+|float = center
+|caption =
+|border = none
+|position = {{{pushpin_label_position|}}}
+|width = {{#if:{{{pushpin_mapsize|{{{map_size|}}}}}}|{{{pushpin_mapsize|{{{map_size|}}}}}} | 250 }}
+|relief = {{{pushpin_relief|{{{map_relief|}}}}}}
+|AlternativeMap = {{{pushpin_image|}}}
+}}}}
+| caption4 = {{{pushpin_map_caption|}}}
+
+| labelstyle = padding-right:1em
+| headerstyle = {{WPMILHIST Infobox style|header_raw}}
+
+| label1 =  Coordinates
+| data1 = {{#if:{{{coordinates|}}}
+  |{{{coordinates|}}}
+  |{{#if:{{both|{{{latd|{{{latitude|}}}}}}|{{{longd|{{{longitude|}}}}}}}}
+    |{{Geobox coor|{{{latd|{{{latitude|}}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|{{{longitude|}}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|{{{coord_type|}}}}}}|type:{{{coordinates_type|{{{coord_type}}}}}}|type:landmark}}{{#if:{{{coordinates_region|{{{coord_region|}}}}}}|_region:{{{coordinates_region|{{{coord_region}}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ1|{{#if:{{{coordinates_display|{{{coord_display|}}}}}}|title|μ1}}}}={{{coordinates_display|{{{coord_display|}}}}}}|{{#if:{{{coordinates_format|{{{coord_format|}}}}}}|format|μ2}}={{{coordinates_format|{{{coord_format|}}}}}}}}{{{coordinates_footnotes|{{{coord_footnotes|}}}}}}
+    }}
+  }}
+
+| label2 =  Type
+| data2 =  {{{type|}}}
+
+| label3 =  Code
+| data3 = {{{code|}}}
+
+| label4 =  Area
+| data4 = {{{site_area|}}}
+
+| label5 = Floor area
+| data5 = {{{floor_area|}}}
+
+| label6 =  Height
+| data6 = {{{height|}}}
+
+| label7 =  Length
+| data7 = {{{length|}}}
+
+| header8 ={{#if:{{{ownership|}}}{{{owner|}}}{{{operator|}}}{{{controlledby|}}}{{{controlled by|}}}{{{controlled_by|}}}{{{open_to_public|}}}{{{condition|}}}{{{status|}}}{{{site_other|}}}{{{website|}}}|Site information}}
+
+| label9 =  Owner
+| data9 = {{ifempty|{{{ownership|}}}|{{{owner|}}}}}
+
+| label10 =  Operator
+| data10 = {{{operator|}}}
+
+| label11 =  Controlled&nbsp;by
+| data11 = {{ifempty|{{{controlledby|}}}|{{{controlled by|}}}|{{{controlled_by|}}}}}
+
+| label12 =  Open&nbsp;to<br />the&nbsp;public
+| data12 = {{{open_to_public|}}}
+
+| label13 =  {{#if: {{{condition|}}}|Condition|Status}}
+| data13 = {{ifempty|{{{condition|}}}|{{{status|}}}}}
+
+| label14 =  {{#if:{{{site_other_label|}}} | {{{site_other_label}}} | Other site<br>facilities }}
+| data14 = {{{site_other|}}}
+
+| label15 =  Website
+| data15 = {{{website|}}}
+
+| header16 = {{#if:{{{built|}}}{{{built_for|}}}{{{builder|}}}{{{architect|}}}{{{used|}}}{{{dates|}}}{{{materials|}}}{{{fate|}}}{{{demolished|}}}{{{battles|}}}{{{events|}}} | Site history }}
+
+| label17 =  Built 
+| data17 = {{{built|}}}
+
+| label18 = Built&nbsp;for
+| data18 = {{{built_for|}}}
+
+| label19 =  Built&nbsp;by
+| data19 = {{{builder|}}}
+
+| label20 = Architect
+| data20 = {{{architect|}}}
+
+| label21 =  In&nbsp;use
+| data21 = {{ifempty|{{{used|}}}|{{{dates|}}}}}
+
+| label22 =  Materials
+| data22 = {{{materials|}}}
+
+| label23 =  Fate 
+| data23 = {{{fate|}}}
+
+| label24 = Demolished
+| data24 = {{{demolished|}}}
+
+| label25 =  Battles/wars 
+| data25 = {{{battles|}}}
+
+| label26 =  Events 
+| data26 = {{{events|}}}  
+
+| header27 = {{#if:{{{commander|}}}{{{current_commander|}}}{{{past_commanders|{{{commanders|}}}}}}{{{garrison|}}}{{{occupants|}}} |  Garrison information  }}
+
+| label28 =  Current<br />commander  
+| data28 = {{ifempty|{{{current_commander|}}}|{{{commander|}}}}}
+
+| label29 =  Past<br />commanders
+| data29 = {{ifempty|{{{past_commanders|}}}|{{{commanders|}}}}}
+
+| label30 =  Garrison  
+| data30 = {{{garrison|}}} 
+
+| label31 =  Occupants 
+| data31 = {{{occupants|}}}  
+
+| header32 = {{#if:{{{subcritical_tests|}}}{{{nuclear_tests|}}}{{{thermonuclear_tests|}}}{{{other_tests|}}}{{{remediation|}}} | Test information  }}
+
+| label33 = [[Subcritical]] tests 
+| data33 = {{{subcritical_tests|}}} 
+  
+| label34 = [[Nuclear fission|Nuclear]] tests 
+| data34 = {{{nuclear_tests|}}}  
+
+| label35 = [[Nuclear fusion|Thermonuclear]] tests  
+| data35 = {{{thermonuclear_tests|}}} 
+
+| label36 = {{#if:{{{other_tests_label|}}} | {{{other_tests_label}}} | Other tests }}  
+| data36 = {{{other_tests|}}}
+
+| label37 = [[Environmental remediation|Remediation]]
+| data37 = {{{remediation|}}}
+
+<!-- image3 testing area (START) -->
+| data38 = {{#if:{{{image3|}}}|
+{{#invoke:InfoboxImage|InfoboxImage|image={{{image3|}}}|size={{{image3_size|}}}|sizedefault=250px|alt={{{image3_alt|{{{alt3|}}}}}}}}{{#if:{{{caption3|}}}|<div>{{{caption3|}}}</div>}}}}
+<!-- image3 testing area (END) -->
+
+
+| header39 = {{#if:{{{r1-number|}}}{{{r1-length|}}}{{{r1-surface|}}}{{{h1-number|}}}{{{h1-length|}}}{{{h1-surface|}}}{{{airfield_other|}}}{{{elevation|}}}{{{IATA|}}}{{{ICAO|}}}{{{FAA|}}}{{{TC|}}}{{{LID|}}}{{{GPS|}}}{{{WMO|}}} |Airfield information}}
+
+<!-- this next bit is to display ICAO, IATA etc codes if the airfield has (any of) these -->
+
+| label40 =  Identifiers
+| data40 = {{comma separated entries
+ |1= {{#if:{{{IATA|}}} | [[International Air Transport Association airport code|IATA]]: {{{IATA|}}}}}
+ |2= {{#if:{{{ICAO|}}} | [[International Civil Aviation Organization airport code|ICAO]]: {{{ICAO}}}}}
+ |3= {{#if:{{{FAA|}}} |[[Location identifier#FAA identifier|FAA LID]]: {{{FAA}}}}}
+ |4= {{#if:{{{TC|}}} | [[Location identifier#Transport Canada identifier|TC LID]]: {{{TC}}}}}
+ |5= {{#if:{{{LID|}}}| [[Location identifier|LID]]: {{{LID}}}}}
+ |6= {{#if:{{{GPS|}}}| [[Global Positioning System|GPS]]: {{{GPS}}}}}
+ |7= {{#if:{{{WMO|}}}| [[Location identifier#WMO station identifiers|WMO]]: {{{WMO}}}}}
+ }}
+
+| label41 =  Elevation
+| data41 = {{#if:{{{elevation|}}} |{{{elevation}}} [[Above mean sea level|AMSL]] }}
+
+| data43 = {{#if: {{{r1-number|}}} {{{r1-length|}}} {{{r1-surface|}}}|
+<table style="width:100%; margin:-2px -1px -1px -1px; border-spacing:0;">
+<tr style="background-color: #ddd">
+<th colspan=2 style="font-weight:normal; border:solid 1px #fafafa; border-width:0 0 1px 0;">Runways</th>
+</tr><tr style="background-color: #ddd; text-align: left;">
+<th scope=col style="font-weight:normal; width: 25%; border:solid 1px #fafafa; border-width:1px 1px 0 0;padding:1px 2px;">[[Runway#Orientation and dimensions|Direction]]</th>
+<th scope=col style="font-weight:normal; width: 75%; border:solid 1px #fafafa; border-width:1px 0 0 1px;padding:1px 2px;">Length and surface</th>
+</tr><tr>
+<td style="text-align: center;">{{{r1-number|}}}</td>
+<td style="text-align: left;">{{{r1-length}}}&nbsp;{{{r1-surface}}}</td>
+</tr>{{#if:{{{r2-number|}}} {{{r2-length|}}} {{{r2-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r2-number|}}}</td>
+<td style="text-align: left;">{{{r2-length}}}&nbsp;{{{r2-surface}}}</td>
+</tr>}}{{#if:{{{r3-number|}}} {{{r3-length|}}} {{{r3-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r3-number|}}}</td>
+<td style="text-align: left;">{{{r3-length}}}&nbsp;{{{r3-surface}}}</td>
+</tr>}}{{#if:{{{r4-number|}}} {{{r4-length|}}} {{{r4-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r4-number|}}}</td>
+<td style="text-align: left;">{{{r4-length}}}&nbsp;{{{r4-surface}}}</td>
+</tr>}}{{#if:{{{r5-number|}}} {{{r5-length|}}} {{{r5-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r5-number|}}}</td>
+<td style="text-align: left;">{{{r5-length}}}&nbsp;{{{r5-surface}}}</td>
+</tr>}}{{#if:{{{r6-number|}}} {{{r6-length|}}} {{{r6-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r6-number|}}}</td>
+<td style="text-align: left;">{{{r6-length}}}&nbsp;{{{r6-surface}}}</td>
+</tr>}}{{#if:{{{r7-number|}}} {{{r7-length|}}} {{{r7-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r7-number|}}}</td>
+<td style="text-align: left;">{{{r7-length}}}&nbsp;{{{r7-surface}}}</td>
+</tr>}}{{#if:{{{r8-number|}}} {{{r8-length|}}} {{{r8-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r8-number|}}}</td>
+<td style="text-align: left;">{{{r8-length}}}&nbsp;{{{r8-surface}}}</td>
+</tr>}}{{#if:{{{r9-number|}}} {{{r9-length|}}} {{{r9-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{r9-number|}}}</td>
+<td style="text-align: left;">{{{r9-length}}}&nbsp;{{{r9-surface}}}</td>
+</tr>}}</table>}}
+
+| data45 = {{#if: {{{h1-number|}}} {{{h1-length|}}} {{{h1-surface|}}}|
+<table style="width:100%; margin:-2px -1px -1px -1px; border-spacing:0;">
+<tr style="background-color: #ddd">
+<th colspan=2 style="font-weight:normal; border:solid 1px #fafafa; border-width:0 0 1px 0;">Helipads</th>
+</tr><tr style="background-color: #ddd; text-align: left;">
+<th scope=col style="font-weight:normal; width: 25%; border:solid 1px #fafafa; border-width:1px 1px 0 0; padding:1px 2px;">Number</th>
+<th scope=col style="font-weight:normal; width: 75%; border:solid 1px #fafafa; border-width:1px 0 0 1px; padding:1px 2px;">Length and surface</th>
+</tr>
+{{#if:{{{h1-number|}}} {{{h1-length|}}} {{{h1-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h1-number|}}}</td>
+<td style="text-align: left;">{{{h1-length}}}&nbsp;{{{h1-surface}}}</td>
+</tr>}}
+{{#if:{{{h2-number|}}} {{{h2-length|}}} {{{h2-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h2-number|}}}</td>
+<td style="text-align: left;">{{{h2-length}}}&nbsp;{{{h2-surface}}}</td>
+</tr>}}
+{{#if:{{{h3-number|}}} {{{h3-length|}}} {{{h3-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h3-number|}}}</td>
+<td style="text-align: left;">{{{h3-length}}}&nbsp;{{{h3-surface}}}</td>
+</tr>}}
+{{#if:{{{h4-number|}}} {{{h4-length|}}} {{{h4-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h4-number|}}}</td>
+<td style="text-align: left;">{{{h4-length}}}&nbsp;{{{h4-surface}}}</td>
+</tr>}}
+{{#if:{{{h5-number|}}} {{{h5-length|}}} {{{h5-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h5-number|}}}</td>
+<td style="text-align: left;">{{{h5-length}}}&nbsp;{{{h5-surface}}}</td>
+</tr>}}
+{{#if:{{{h6-number|}}} {{{h6-length|}}} {{{h6-surface|}}}|
+<tr>
+<td style="text-align: center;">{{{h6-number|}}}</td>
+<td style="text-align: left;">{{{h6-length}}}&nbsp;{{{h6-surface}}}</td>
+</tr>}}</table>}}
+
+| label46 =  {{#if:{{{airfield_other_label|}}} | {{{airfield_other_label}}} | Other airfield<br>facilities }}
+| data46 = {{{airfield_other|}}}
+
+| header47 = {{{nrhp|{{{embedded|{{{module|}}}}}}}}}
+
+| belowstyle = text-align: left; background-color: #eee
+| below = {{{footnotes|}}}
+}}{{<includeonly>safesubst:</includeonly>#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using infobox military installation with deprecated syntax|_VALUE_{{PAGENAME}}]]|ignoreblank=y
+| name| ensign| ensign_size| ensign_alt| native_name| nativename| nativename-a| nativename-r|partof| location| nearest_town| country| image| image_size| image_alt| alt| caption| image2| image2_size| image2_alt| alt2| caption2| map| image_map |map_size| image_mapsize| map_alt| image_map_alt| map_caption| image_map_caption| pushpin_map| map_type| pushpin_label_position| pushpin_label| pushpin_map_alt| latm| latNS| latd| latitude| longm| longEW| longd| longitude| lats| longs| pushpin_mark| pushpin_marksize| pushpin_mapsize| pushpin_relief| map_relief| pushpin_image| pushpin_map_caption| coordinates| coordinates_type| coord_type| coordinates_region| coord_region| coordinates_display| coord_display| coordinates_format| coord_format| coordinates_footnotes| coord_footnotes| type| code| site_area| height| length| ownership| owner| operator| controlledby| controlled by| controlled_by| open_to_public| condition| status| site_other| website| site_other_label| built| built_for| builder| architect| used| dates |materials| fate| demolished| battles| events| current_commander| past_commanders| garrison| occupants| subcritical_tests| nuclear_tests| thermonuclear_tests| other_tests| remediation| other_tests_label| image3| image3_size| image3_alt| alt3| caption3| r1-number| r1-length| r1-surface| h1-number| h1-length| h1-surface| airfield_other| elevation| IATA| ICAO| FAA| TC| LID| GPS| WMO| r2-number| r2-length| r2-surface| r3-number| r3-length| r3-surface| r4-number| r4-length| r4-surface| r5-number| r5-length| r5-surface| r6-number| r6-length| r6-surface| r7-number| r7-length| r7-surface| r8-number| r8-length| r8-surface| r9-number| r9-length| r9-surface| h2-number| h2-length| h2-surface| h3-number| h3-length| h3-surface| h4-number| h4-length| h4-surface| h5-number| h5-length| h5-surface| h6-number| h6-length| h6-surface| airfield_other_label| |nrhp |embedded |module| footnotes
+}}{{#if:{{#if:{{both|{{{ownership|}}}|{{{owner|}}}}}|1}}{{#if:{{both|{{{condition|}}}|{{{status|}}}}}|1}}{{#if:{{both|{{{used|}}}|{{{dates|}}}}}|1}}|[[Category:Pages using infobox military installation with deprecated syntax|Δ]]
+}}{{#ifeq:{{#invoke:string|replace|{{{name|{{PAGENAME}}}}}|.*
+.*|CHECK|plain=false}}|CHECK|[[Category:Pages using infobox military installation with deprecated syntax|Ε]]
+}}<noinclude>
+{{Documentation}}
+<!-- Please add categories to the /doc subpage, not here. -->
+</noinclude>
