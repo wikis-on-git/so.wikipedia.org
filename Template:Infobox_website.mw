@@ -6,19 +6,19 @@
 | image2   = {{#if:{{{collapsible|}}}|{{hidden begin|title={{{collapsetext|Screenshot}}}|titlestyle=text-align:center|bodystyle=text-align:center}}}}{{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot_size|}}}|sizedefault=300px|alt={{{screenshot_alt|}}}}}
 | caption2 = {{{caption|}}}{{#if:{{{collapsible|}}}|{{hidden end}}}}
 | labelstyle = padding:0.1em 0.65em 0.1em 0;line-height:1.2em
-| label1   = Web cinwaanka
+| label1   = Cinwaanka
 | data1    = {{{url|}}}
 | label2   = Gabaygu
 | data2    = {{{slogan|}}}
-| label3   = Commercial?
+| label3   = Ganacsi?
 | data3    = {{{commercial|}}}
 | label4   = Nooca site
 | data4    = {{{type|}}}
-| label5   = Diiwaan-qoritaan
+| label5   = Diiwaan-gelin
 | data5    = {{{reg|{{{registration|}}} }}}
-| label6   = Available in
+| label6   = Diyaar ku ah
 | data6    = {{{language|}}}
-| label7   = Users
+| label7   = Isticmaalayaasha
 | data7    = {{{num_users|}}}
 | label8   = Content license
 | data8    = {{{content_license|{{{content license|}}} }}}
@@ -28,11 +28,11 @@
 | data10   = {{{programming language|{{{programming_language|}}}}}} 
 | label11  = Mulkiilaha
 | data11   = {{{owner|}}}
-| label12  = Created by
+| label12  = Farsamada
 | data12   = {{{author|}}}
 | label13  = Editor
 | data13   = {{{editor|}}}
-| label14  = Launched
+| label14  = La bilaabay isticmaalka
 | data14   = {{{date_of_launch|{{{launch date|{{{launch_date|}}}}}}}}}
 | label15  = Revenue
 | data15   = {{{rev|{{{revenue|}}}}}}
@@ -40,7 +40,7 @@
 | data16   = {{{alexa|}}}
 | label17  = [[IP cinwaanka]]
 | data17   = {{{ip|}}}
-| label18  = Current status
+| label18  = Hada
 | data18   = {{{current_status|{{{current status|}}} }}}
 | below    = {{{footnotes|}}}
 }}<noinclude>{{documentation}}</noinclude>
