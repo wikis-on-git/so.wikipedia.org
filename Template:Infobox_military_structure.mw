@@ -13,7 +13,7 @@
   |4 = {{#if:{{{nativename-r|}}}|<span class="nickname">{{{nativename-r}}}</span>}}
 }}}}}}
 | subheaderstyle = {{WPMILHIST Infobox style|sub_header_raw}}
-| subheader1 = {{#if:{{{partof|}}}| Part of {{{partof}}}}}
+| subheader1 = {{#if:{{{partof|}}}| Qeyb ka ah {{{partof}}}}}
 | subheader2 = {{#if:{{{location|}}}{{{nearest_town|}}}{{{country|}}} 
   |<span class="label">{{br separated entries
     |1={{{location|}}}
@@ -82,7 +82,7 @@
 | label7 =  Length
 | data7 = {{{length|}}}
 
-| header8 ={{#if:{{{ownership|}}}{{{owner|}}}{{{operator|}}}{{{controlledby|}}}{{{controlled by|}}}{{{controlled_by|}}}{{{open_to_public|}}}{{{condition|}}}{{{status|}}}{{{site_other|}}}{{{website|}}}|Site information}}
+| header8 ={{#if:{{{ownership|}}}{{{owner|}}}{{{operator|}}}{{{controlledby|}}}{{{controlled by|}}}{{{controlled_by|}}}{{{open_to_public|}}}{{{condition|}}}{{{status|}}}{{{site_other|}}}{{{website|}}}|Sharaxaad Dheeraad ah}}
 
 | label9 =  Owner
 | data9 = {{ifempty|{{{ownership|}}}|{{{owner|}}}}}
@@ -105,7 +105,7 @@
 | label15 =  Website
 | data15 = {{{website|}}}
 
-| header16 = {{#if:{{{built|}}}{{{built_for|}}}{{{builder|}}}{{{architect|}}}{{{used|}}}{{{dates|}}}{{{materials|}}}{{{fate|}}}{{{demolished|}}}{{{battles|}}}{{{events|}}} | Site history }}
+| header16 = {{#if:{{{built|}}}{{{built_for|}}}{{{builder|}}}{{{architect|}}}{{{used|}}}{{{dates|}}}{{{materials|}}}{{{fate|}}}{{{demolished|}}}{{{battles|}}}{{{events|}}} | Taariikhda Meesha }}
 
 | label17 =  La dhisay 
 | data17 = {{{built|}}}
@@ -137,7 +137,7 @@
 | label26 =  Events 
 | data26 = {{{events|}}}  
 
-| header27 = {{#if:{{{commander|}}}{{{current_commander|}}}{{{past_commanders|{{{commanders|}}}}}}{{{garrison|}}}{{{occupants|}}} |  Garrison information  }}
+| header27 = {{#if:{{{commander|}}}{{{current_commander|}}}{{{past_commanders|{{{commanders|}}}}}}{{{garrison|}}}{{{occupants|}}} |  Xasuus iyo Xurmayn  }}
 
 | label28 =  Current<br />commander  
 | data28 = {{ifempty|{{{current_commander|}}}|{{{commander|}}}}}
