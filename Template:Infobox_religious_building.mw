@@ -57,7 +57,7 @@
  }}
 
 | rowclass4 = note
-| label4 = [[List of religions and spiritual traditions|Affiliation]]
+| label4 = Mabda'a
 | data4 = {{br separated entries|{{{religious_affiliation|}}}|{{{category|}}}}}
 
 | label5 = [[Deity]]
@@ -117,7 +117,7 @@
 |Region}}
 | data17 = {{{region|}}}
 
-| label18 = Country
+| label18 = Wadanka
 | data18 = {{{country|}}}
 
 | label19 = Administration
@@ -159,17 +159,17 @@
 
 | header29 = {{#if:{{{architect|}}}{{{architecture_type|}}}{{{architecture_style|}}}{{{founded_by|}}}{{{creator|}}}{{{funded_by|}}}{{{general_contractor|}}}{{{established|}}}{{{groundbreaking|}}}{{{year_completed|}}}{{{construction_cost|}}}{{{date_demolished|}}}{{{date_destroyed|}}}|{{#ifeq:{{{architecture|yes}}}|yes|Architectural description}}}}
 
-| label30 = [[Architect]](s)
+| label30 = Sameeyay Nashqada
 | class30 = note
 | data30 = {{{architect|}}}
 
-| label31 = Architectural type
+| label31 = Nooca dhisme
 | data31 = {{{architecture_type|}}}
 
-| label32 = [[Architectural style]]
+| label32 = Naqshada dhismaha
 | data32 = {{{architecture_style|}}}
 
-| label33 = {{#if:{{{founded_by|}}}|Founder|Creator}}
+| label33 = {{#if:{{{founded_by|}}}|Founder|Dhisay}}
 | data33 = {{if empty|{{{founded_by|}}}|{{{creator|}}}}}
 
 | label34 = Funded by
@@ -185,7 +185,7 @@
 | class37 = note
 | data37 = {{{groundbreaking|}}}
 
-| label38 = Completed
+| label38 = La dhamaystiray
 | class38 = note
 | data38 = {{{year_completed|}}}
 
@@ -200,13 +200,13 @@
 | label42 = Direction of façade
 | data42 = {{{facade_direction|}}}
 
-| label43 = Capacity
+| label43 = Baaxada
 | data43 = {{{capacity|}}}
 
-| label44 = Length
+| label44 = Dhererka
 | data44 = {{{length|}}}
 
-| label45 = Width
+| label45 = Balaca
 | data45 = {{{width|}}}
 
 | label46 = Width ([[nave]])
@@ -215,16 +215,16 @@
 | label47 = Interior area
 | data47 = {{{interior_area|}}}
 
-| label48 = Height (max)
+| label48 = Jooga
 | data48 = {{{height_max|}}}
 
 | label49 = [[Dome]](s)
 | data49 = {{{dome_quantity|}}}
 
-| label50 = Dome height (outer)
+| label50 = Jooga banaanka
 | data50 = {{{dome_height_outer|}}}
 
-| label51 = Dome height (inner)
+| label51 = Jooga gudaha
 | data51 = {{{dome_height_inner|}}}
 
 | label52 = Dome dia. (outer)
@@ -233,10 +233,10 @@
 | label53 = Dome dia. (inner)
 | data53 = {{{dome_dia_inner|}}}
 
-| label54 = [[Minaret]](s)
+| label54 = Minaaradaha
 | data54 = {{{minaret_quantity|}}}
 
-| label55 = Minaret height
+| label55 = Jooga minaaradaha
 | data55 = {{{minaret_height|}}}
 
 | label56 = [[Spire]](s)
