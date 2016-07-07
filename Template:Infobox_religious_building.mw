@@ -1,0 +1,355 @@
+{{infobox 
+| bodyclass = vcard
+| bodystyle = border-spacing:2px; width:250px
+| abovestyle = font-size:larger; background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+| aboveclass = fn org
+| above = {{{name|{{{building_name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}}}
+
+| subheader = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+| subheaderstyle = background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|alt={{{alt|}}} }}
+| caption = {{{caption|}}}
+
+| image2 = {{#if:{{both|{{{map_type|}}}|{{{latitude|}}}{{{latd|}}}}}|{{Location map
+ |{{{map_type}}}
+ |lat     = {{#if:{{{latm|}}}{{{latNS|}}}| | {{#if:{{{latitude|}}}|{{{latitude}}}|{{{latd|}}}}} }}
+ |long    = {{#if:{{{longm|}}}{{{longEW|}}}| | {{#if:{{{longitude|}}}|{{{longitude}}}|{{{longd|}}}}} }}
+ |lat_deg ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}| }}
+ |lat_min ={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}| }}
+ |lat_sec ={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}| }}
+ |lat_dir ={{#if:{{{latNS|}}}|{{{latNS|}}}| }}
+ |lon_deg ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}| }}
+ |lon_min ={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}| }}
+ |lon_sec ={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}| }}
+ |lon_dir ={{#if:{{{longEW|}}}|{{{longEW|}}}| }}
+ |width={{#if:{{{map_size|}}}|{{{map_size}}}|300}}
+ |float=center
+ |border=infobox
+ |alt = {{{map_alt|}}}
+ |relief = {{{map_relief|{{{relief|}}}}}}
+ |caption={{#if:{{{map_caption|}}}|{{{map_caption}}}|Shown within {{#invoke:Location map|data|{{{map_type}}}|name}} }}
+ |mark={{#switch:{{{religious_affiliation|}}}
+   | [[Armenian Apostolic Church]]
+   | [[Mekhitarist Order]] = Set01-church1.svg
+   | [[Jainism]] = In-jain.svg
+   | [[Hinduism]] = Om symbol.svg
+   | #default = }}
+ |marksize = {{#switch:{{{religious_affiliation|}}}
+   | [[Armenian Apostolic Church]]
+   | [[Mekhitarist Order]] = 16
+   | [[Jainism]] = 12
+   | [[Hinduism]] = 8
+   | #default = }}
+}}}}
+
+| headerstyle =  background-color:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+
+| header1 = {{#if:{{{location|}}}{{{locale|}}}{{{coordinates|}}}{{{geo|}}}{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}{{{religious_affiliation|}}}{{{deity|}}}{{{rite|}}}{{{tradition|}}}{{{sect|}}}{{{festivals|}}}{{{festival|}}}{{{cercle|}}}{{{sector|}}}{{{municipality|}}}{{{district|}}}{{{territory|}}}{{{prefecture|}}}{{{state|}}}{{{province|}}}{{{region|}}}{{{country|}}}{{{administration|}}}{{{consecration_year|}}}{{{organisational_status|}}}{{{organizational_status|{{{status|}}}}}}{{{functional_status|}}}{{{heritage_designation|}}}{{{leadership|}}}{{{ownership|}}}{{{governing_body|}}}{{{bhattaraka|}}}{{{patron|}}}{{{website|}}}|Basic information}}
+
+| label2 = Meesha dhaco
+| data2 = {{if empty|{{{location|}}}|{{{locale|}}}}}
+
+| label3 = [[Isuduwe Habka Juqraafiga|Isuduweha Juqraafi]]
+| data3 = {{br separated entries
+ | 1 = {{#if:{{{coordinates|}}}|{{{coordinates}}}|{{{geo|}}}}}
+ | 2 = {{#if:{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}|{{Geobox coor|{{#if:{{{latitude|}}}|{{{latitude}}}|{{{latd|}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{#if:{{{longitude|}}}|{{{longitude}}}|{{{longd|}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark}}{{#if:{{{coordinates_region|{{{coord_region|}}}}}}|_region:{{{coordinates_region|{{{coord_region|}}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|title}}=1|format={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}}}}
+ }}
+
+| rowclass4 = note
+| label4 = [[List of religions and spiritual traditions|Affiliation]]
+| data4 = {{br separated entries|{{{religious_affiliation|}}}|{{{category|}}}}}
+
+| label5 = [[Deity]]
+| data5 = {{{deity|}}}
+
+| label6 = {{#switch:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+|#9BB4EB |#87CEFA |#ADD8E6 = [[Nusach|Rite]]<!-- this kludge is used because the people of Wikipedia do not have {{#pos}} or so!  I do not want to list all flavours of Judaism just here -->
+|[[Rite]]}}
+| data6 = {{{rite|}}}
+
+| label7 = {{#switch:{{{religious_affiliation}}}
+ |[[Islam]] = [[Islamic schools and branches|Branch/tradition]]
+ |#default = Sect
+ }}
+| data7 = {{#switch:{{{religious_affiliation}}}
+ |[[Islam]] = {{{tradition|}}}
+ |#default = {{{sect|}}}
+ }}
+
+| label8 = {{#if:{{{festivals|}}}|Festivals|Festival}}
+| data8 = {{#if:{{{festivals|}}}|{{{festivals}}}|{{{festival|}}}}}
+
+| label9 = Cercle
+| class9 = label
+| data9 = {{{cercle|}}}
+
+| label10 = Sector
+| class10 = label
+| data10 = {{{sector|}}}
+
+| label11 = Municipality
+| class11 = label
+| data11 = {{{municipality|}}}
+
+| label12 = {{#switch:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+|#FFCC99 = [[Ecclesiastical district|District]]
+|District}}
+| class12 = label
+| data12 = {{{district|}}}
+
+| label13 = Territory
+| data13 = {{{territory|}}}
+
+| label14 = Prefecture
+| data14 = {{{prefecture|}}}
+
+| label15 = State
+| data15 = {{{state|}}}
+
+| label16 = {{#switch:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+|#FFCC99 = [[Ecclesiastical province|Province]]
+|Province}}
+| data16 = {{{province|}}}
+
+| label17 = {{#switch:{{Infobox religious building/color|{{{religious_affiliation}}}}}
+|#FFCC99 = [[Ecclesiastical region|Region]]
+|Region}}
+| data17 = {{{region|}}}
+
+| label18 = Country
+| data18 = {{{country|}}}
+
+| label19 = Administration
+| class19 = label
+| data19 = {{{administration|}}}
+
+| label20 = Year consecrated
+| data20 = {{{consecration_year|}}}
+
+| label21 = {{#if:{{{organisational_status|}}}
+ |[[Ecclesiastical polity|Ecclesiastical or organisational status]]
+ |[[Ecclesiastical polity|Ecclesiastical or organizational status]]
+ }}
+| data21 = {{#if:{{{organisational_status|}}}
+ |{{{organisational_status}}}
+ |{{{organizational_status|{{{status|}}}}}}
+ }}
+
+| label22 = Status
+| data22 = {{{functional_status|}}}
+
+| label23 = Heritage designation
+| data23 = {{{heritage_designation|}}}
+
+| label24 = Ownership
+| data24 = {{{ownership|}}}
+
+| label25 = {{#if:{{{governing_body|}}}|Governing body|Leadership}}
+| data25 = {{#if:{{{governing_body|}}}|{{{governing_body}}}|{{{leadership|}}}}}
+
+| label26 = [[Bhattaraka]]
+| data26 = {{{bhattaraka|}}}
+
+| label27 = Patron
+| data27 = {{{patron|}}}
+
+| label28 = Website
+| data28 = {{{website|}}}
+
+| header29 = {{#if:{{{architect|}}}{{{architecture_type|}}}{{{architecture_style|}}}{{{founded_by|}}}{{{creator|}}}{{{funded_by|}}}{{{general_contractor|}}}{{{established|}}}{{{groundbreaking|}}}{{{year_completed|}}}{{{construction_cost|}}}{{{date_demolished|}}}{{{date_destroyed|}}}|{{#ifeq:{{{architecture|yes}}}|yes|Architectural description}}}}
+
+| label30 = [[Architect]](s)
+| class30 = note
+| data30 = {{{architect|}}}
+
+| label31 = Architectural type
+| data31 = {{{architecture_type|}}}
+
+| label32 = [[Architectural style]]
+| data32 = {{{architecture_style|}}}
+
+| label33 = {{#if:{{{founded_by|}}}|Founder|Creator}}
+| data33 = {{if empty|{{{founded_by|}}}|{{{creator|}}}}}
+
+| label34 = Funded by
+| data34 = {{{funded_by|}}}
+
+| label35 = [[General contractor]]
+| data35 = {{{general_contractor|}}}
+
+| label36 = Date established
+| data36 = {{{established|}}}
+
+| label37 = Groundbreaking
+| class37 = note
+| data37 = {{{groundbreaking|}}}
+
+| label38 = Completed
+| class38 = note
+| data38 = {{{year_completed|}}}
+
+| label39 = Construction cost
+| data39 = {{{construction_cost|}}}
+
+| label40 = {{#if:{{{date_demolished|}}}|Demolished|Destroyed}}
+|  data40 = {{ifempty|{{{date_demolished|}}}|{{{date_destroyed|}}}}}
+
+| header41 = {{#if:{{{facade_direction|}}}{{{capacity|}}}{{{length|}}}{{{width|}}}{{{width_nave|}}}{{{interior_area|}}}{{{height_max|}}}{{{dome_quantity|}}}{{{dome_height_outer|}}}{{{dome_height_inner|}}}{{{dome_dia_outer|}}}{{{dome_dia_inner|}}}{{{minaret_quantity|}}}{{{minaret_height|}}}{{{spire_quantity|}}}{{{spire_height|}}}{{{site_area|}}}{{{temple_quantity|}}}{{{monument_quantity|}}}{{{shrine_quantity|}}}{{{materials|}}}{{{elevation_m|}}}{{{elevation_ft|}}}|{{#ifeq:{{{specifications|yes}}}|yes|Specifications}}}}
+
+| label42 = Direction of façade
+| data42 = {{{facade_direction|}}}
+
+| label43 = Capacity
+| data43 = {{{capacity|}}}
+
+| label44 = Length
+| data44 = {{{length|}}}
+
+| label45 = Width
+| data45 = {{{width|}}}
+
+| label46 = Width ([[nave]])
+| data46 = {{{width_nave|}}}
+
+| label47 = Interior area
+| data47 = {{{interior_area|}}}
+
+| label48 = Height (max)
+| data48 = {{{height_max|}}}
+
+| label49 = [[Dome]](s)
+| data49 = {{{dome_quantity|}}}
+
+| label50 = Dome height (outer)
+| data50 = {{{dome_height_outer|}}}
+
+| label51 = Dome height (inner)
+| data51 = {{{dome_height_inner|}}}
+
+| label52 = Dome dia. (outer)
+| data52 = {{{dome_dia_outer|}}}
+
+| label53 = Dome dia. (inner)
+| data53 = {{{dome_dia_inner|}}}
+
+| label54 = [[Minaret]](s)
+| data54 = {{{minaret_quantity|}}}
+
+| label55 = Minaret height
+| data55 = {{{minaret_height|}}}
+
+| label56 = [[Spire]](s)
+| data56 = {{{spire_quantity|}}}
+
+| label57 = Spire height
+| data57 = {{{spire_height|}}}
+
+| label58 = Site area
+| data58 = {{{site_area|}}}
+
+| label59 = Temple(s)
+| data59 = {{{temple_quantity|}}}
+
+| label60 = Monument(s)
+| data60 = {{{monument_quantity|}}}
+
+| label61 = Shrine(s)
+| data61 = {{{shrine_quantity|}}}
+
+| label62 = Inscriptions
+| data62 = {{{inscriptions|}}}
+
+| label63 = [[Building material|Materials]]
+| data63 = {{{materials|}}}
+
+| label64 = Elevation
+| data64 = {{#if:{{{elevation_m|}}}
+ |{{convert|{{{elevation_m}}}|m|ft|0|abbr=on}}{{{elevation_footnotes|}}}
+ |{{#if:{{{elevation_ft|}}}
+    |{{convert|{{{elevation_ft|}}}|ft|m|0|abbr=on}}{{{elevation_footnotes|}}}
+    }}
+ }}
+
+| header65 = {{#ifeq:{{{nrhp|}}}|yes|{{#if:{{{designated|}}}|[[United States|U.S.]] [[National Historic Landmark]]|[[United States|U.S.]] [[National Register of Historic Places]]}}}}
+
+| label66 = Added to [[National Register of Historic Places|NRHP]]
+| data66 = {{#ifeq:{{{nrhp|}}}|yes|{{{added|}}}}}
+
+| label67 = NRHP Reference no.
+| data67 = {{#ifeq:{{{nrhp|}}}|yes|{{{refnum|}}}}}
+
+| label68 = Designated as [[National Historic Landmark|NHL]]
+| data68 = {{{designated|}}}
+
+<!--designation1 section-->
+| data69 = {{designation/divbox|{{{designation1|}}}|delisted={{{delisted1_date|}}}}}
+
+| data70 = {{#if:{{{designation1_offname|}}}|''Official name: {{{designation1_offname}}}''}}
+
+| label71 = Type
+| data71 = {{{designation1_type|}}}
+
+| label72 = Criteria
+| data72 = {{{designation1_criteria|}}}
+
+| label73 = Designated
+| data73 = {{{designation1_date|}}}
+
+| label74 = Delisted
+| data74 = {{{delisted1_date|}}}
+
+| label75 = Parent listing
+| data75 = {{{designation1_parent|}}}
+
+| label76 = Reference no.
+| data76 = {{{designation1_number|}}}
+
+| label77 = {{{designation1_free1name}}}
+| data77 = {{#if:{{{designation1_free1name|}}}|{{{designation1_free1value|}}}}}
+
+| label78 = {{{designation1_free2name}}}
+| data78 = {{#if:{{{designation1_free2name|}}}|{{{designation1_free2value|}}}}}
+
+| label79 = {{{designation1_free3name}}}
+| data79 = {{#if:{{{designation1_free3name|}}}|{{{designation1_free3value|}}}}}
+
+<!--designation2 section-->
+| data80 = {{designation/divbox|{{{designation2|}}}|delisted={{{delisted2_date|}}}}}
+
+| data81 = {{#if:{{{designation2_offname|}}}| ''Official name: {{{designation2_offname}}}''}}
+
+| label82 = Type
+| data82 = {{{designation2_type|}}}
+
+| label83 = Criteria
+| data83 = {{{designation2_criteria|}}}
+
+| label84 = Designated
+| data84 = {{{designation2_date|}}}
+
+| label85 = Delisted
+| data85 = {{{delisted2_date|}}}
+
+| label86 = Parent listing
+| data86 = {{{designation2_parent|}}}
+
+| label87 = Reference no.
+| data87 = {{{designation2_number|}}}
+
+| label88 = {{{designation2_free1name}}}
+| data88 = {{#if:{{{designation2_free1name|}}}|{{{designation2_free1value|}}}}}
+
+| label89 = {{{designation2_free2name}}}
+| data89 = {{#if:{{{designation2_free2name|}}}|{{{designation2_free2value|}}}}}
+
+| label90 = {{{designation2_free3name}}}
+| data90 = {{#if:{{{designation2_free3name|}}}|{{{designation2_free3value|}}}}}
+
+| belowstyle = text-align:left; font-weight:normal; font-size:88%;
+| below = {{{footnotes|}}}
+}}{{#invoke:check for unknown parameters|check|unknown=[[Category:Pages using infobox religious building with unsupported parameters|_VALUE_{{PAGENAME}}]]|preview = Page using [[Template:Infobox religious building]] with unknown parameter "_VALUE_"|ignoreblank=y
+| name| building_name| native_name| native_name_lang| image| image_size| alt| caption| map_type| map_size| map_alt| map_relief| relief| map_caption| religious_affiliation| location| locale| coordinates| geo| latitude| latd| latm| lats| latNS| longitude| longd| longm| longs| longEW| coordinates_type| coordinates_region| coord_region| coordinates_display| coordinates_format| coordinates_footnotes| deity| rite| tradition| sect| festivals| festival| cercle| sector| municipality| district| territory| prefecture| state| province| region| country| administration| consecration_year| organisational_status| organizational_status| status| functional_status| heritage_designation| ownership| governing_body| leadership| bhattaraka| patron| website| architect| architecture_type| architecture_style| founded_by| creator| funded_by| general_contractor| established| groundbreaking| year_completed| construction_cost| date_demolished| date_destroyed| facade_direction| capacity| length| width| width_nave| height_max| dome_quantity| dome_height_outer| dome_height_inner| dome_dia_outer| dome_dia_inner| minaret_quantity| minaret_height| spire_quantity| spire_height| temple_quantity| monument_quantity| shrine_quantity| materials| elevation_m| interior_area| site_area| inscriptions| elevation_footnotes| elevation_ft| nrhp| designated| added| refnum| designation1| delisted1_date| designation1_offname| designation1_type| designation1_criteria| designation1_date| designation1_parent| designation1_number| designation1_free1name| designation1_free1value| designation1_free2name| designation1_free2value| designation1_free3name| designation1_free3value| designation2| delisted2_date| designation2_offname| designation2_type| designation2_criteria| designation2_date| designation2_parent| designation2_number| designation2_free1name| designation2_free1value| designation2_free2name| designation2_free2value| designation2_free3name| designation2_free3value| footnotes|architecture |specifications
+}}{{#ifeq:{{{specifications|yes}}}|yes||[[Category:Pages using infobox religious building with unsupported parameters|σ]]}}{{#ifeq:{{{architecture|yes}}}|yes||[[Category:Pages using infobox religious building with unsupported parameters|α]]}}<noinclude>
+{{documentation}}
+</noinclude>
