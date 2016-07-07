@@ -1,12 +1,9 @@
-{{User-multi<noinclude>/template</noinclude>
- |User={{{User|{{{1|}}}}}}
- |1=t
- |2=c
- |3=bls
- |4=pr
- |5=del
- |6=m
- |7=rl
- |8=rfa
- |doc=yes
-}}
+<span class="plainlinks">[[User:{{{1}}}|{{{1}}}]] ([[User talk:{{{1}}}|Wadahadal]] • [[Special:Contributions/{{{1}}}|wax qoraalkiisa]] • [{{fullurl:Special:Log/rights|user={{urlencode:{{{1}}}}}}} Awoodaha] • [{{fullurl:Special:Log/block|user={{urlencode:{{{1}}}}}}} Ka joojin] • [{{fullurl:Special:Log/protect|user={{urlencode:{{{1}}}}}}} Waardiye] • [{{fullurl:Special:Log/delete|user={{urlencode:{{{1}}}}}}} Tirtiris] • [{{fullurl:Special:Log/move|user={{urlencode:{{{1}}}}}}} Wareejin]) </span><noinclude>
+
+=== Adeegsiga ===
+Tusmadaan waxaa la galiyaa magaca maamulaha meesha u dhow howlihiisa اmaamul sida tirtirista iyo waardiyeenta iyo Ka joojin
+:'''<nowiki>{{Maamule|Magaca gudagalaha}}</nowiki>'''
+
+[[Category:Maamulka|{{PAGENAME}}]]
+
+</noinclude>
