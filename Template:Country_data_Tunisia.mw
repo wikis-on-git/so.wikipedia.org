@@ -1,0 +1,17 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Tunisia
+| flag alias = Flag of Tunisia.svg
+| flag alias-1959 = Pre-1999 Flag of Tunisia.svg
+| flag alias-old = Tunisian flag till 1831.svg | border-old =
+| flag alias-bey = Flag of Tunis Bey-fr.svg
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1959
+| var2 = old
+| var3 = bey
+| redir1 = TUN
+</noinclude>
+}}{{#ifeq:{{{variant|}}}|old|[[Category:Pages with tracked country data flag variants|Tunisia]]}}{{#ifeq:{{{variant|}}}|bey|[[Category:Pages with tracked country data flag variants|Tunisia]]}}
