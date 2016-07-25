@@ -186,7 +186,7 @@
     -->{{#if:{{{capital|}}}{{{admin_center|}}}
         | <td colspan="2"><!--
            -->{{#if:{{{capital|}}}
-               | {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Capital'''}}
+               | {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Magaalo madax'''}}
                | {{#if:{{{admin_center_type|}}}|'''{{{admin_center_type|}}}'''|Administrative&nbsp;center}}
               }}<!--
            -------------------------------------------------
@@ -242,7 +242,7 @@
        -->{{#if:{{{largest_city|}}}{{{largest_settlement|}}}
            | </tr>
              <tr class="mergedbottomrow">
-               <th colspan="2">Largest {{{largest_settlement_type|city}}}</th>
+               <th colspan="2">Tan ugu weyn {{{largest_settlement_type|city}}}</th>
                <td>{{{largest_city|{{{largest_settlement|}}}}}}</td><!--
        -->}}<!--
    (#ifeq:)-->}}<!--
@@ -626,7 +626,7 @@
                | [[{{{area_link}}}|Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
                | {{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
-                  | Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}<!--
+                  |Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}<!--
               -->}}<!--
            -->}}<!--
       --></th>
@@ -712,7 +712,7 @@
      | <tr class="mergedtoprow">
          <th colspan="3"><!--
            -->{{#if:{{{population_link|}}}
-               | [[{{{population_link}}}|Population]]<!--
+               | [[{{{population_link}}}|Bulshada]]<!--
             -->| {{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Dadka]]<!--
                -->| Population<!--
@@ -949,7 +949,7 @@
 ============================================================
  -->{{#if:{{{time_zone|}}}{{{utc_offset|}}}
      | <tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |class="mergedtoprow"}}>
-         <th colspan="2">Time zone</th>
+         <th colspan="2">Wakhtiga</th>
          <td>{{{time_zone|}}} <!--
               -->{{#if:{{{utc_offset|}}}
                   |{{nowrap|([[Coordinated Universal Time|UTC]]{{{utc_offset}}})}}<!--
@@ -958,7 +958,7 @@
     -->{{#if:{{{time_zone_DST|}}}{{{utc_offset_DST|}}}
         | <tr class="{{#if:{{{DST_note|}}} |mergedrow |mergedbottomrow}}">
             <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
-            <td style="padding-left:0;">Summer&nbsp;([[Daylight saving time|DST]])</td>
+            <td style="padding-left:0;">[[Gu']]ga&nbsp;([[Daylight saving time|DST]])</td>
             <td>{{{DST|{{{time_zone_DST|}}}}}}&nbsp;([[Coordinated Universal Time|UTC]]{{{utc_offset_DST}}})</td>
           </tr><!--
     -->}}<!--
