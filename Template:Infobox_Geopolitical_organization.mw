@@ -99,21 +99,21 @@
 ============================================================
   Motto
 ============================================================
- -->{{#if:{{{national_motto|}}}{{{Hal ku dhig|}}}
+ -->{{#if:{{{national_motto|}}}{{{Motto|}}}
      | <tr>
          <td colspan="3" style="text-align:center;line-height:1.2em;"><!--
-           -->'''Motto:&nbsp;'''{{{motto|{{{national_motto|}}}}}}<!--
+           -->'''Hal ku dhig:&nbsp;'''{{{motto|{{{national_motto|}}}}}}<!--
            -->{{#if:{{{englishmotto|}}}|<br/>{{small|{{{englishmotto}}} }} }}</td>
        </tr><!--
  -->}}<!--
 ============================================================
   Anthem/s
 ============================================================
- -->{{#if:{{{national_anthem|}}}{{{Heesta qaranka|}}}{{{royal_anthem|}}}
+ -->{{#if:{{{national_anthem|}}}{{{Anthem|}}}{{{royal_anthem|}}}
      | <tr>
          <td class="anthem" colspan="3" style="text-align:center;line-height:1.2em;"><!--
            -->{{#if:{{{national_anthem|}}}{{{anthem|}}}
-               |'''Anthem:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
+               |'''Heesta qaranka:&nbsp;'''{{{national_anthem|{{{anthem|}}}}}}
               }}<!--
            -->{{#if:{{{royal_anthem|}}}
                | {{#if:{{{national_anthem|}}}{{{anthem|}}} |<br/>}}<!--
