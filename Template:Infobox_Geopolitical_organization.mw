@@ -99,7 +99,7 @@
 ============================================================
   Motto
 ============================================================
- -->{{#if:{{{national_motto|}}}{{{motto|}}}
+ -->{{#if:{{{national_motto|}}}{{{Hal ku dhig|}}}
      | <tr>
          <td colspan="3" style="text-align:center;line-height:1.2em;"><!--
            -->'''Motto:&nbsp;'''{{{motto|{{{national_motto|}}}}}}<!--
@@ -109,7 +109,7 @@
 ============================================================
   Anthem/s
 ============================================================
- -->{{#if:{{{national_anthem|}}}{{{anthem|}}}{{{royal_anthem|}}}
+ -->{{#if:{{{national_anthem|}}}{{{Heesta qaranka|}}}{{{royal_anthem|}}}
      | <tr>
          <td class="anthem" colspan="3" style="text-align:center;line-height:1.2em;"><!--
            -->{{#if:{{{national_anthem|}}}{{{anthem|}}}
@@ -262,7 +262,7 @@
 ============================================================
  -->{{#if:{{{official_languages|}}}
      | <tr>
-         <th colspan="2" style="white-space:nowrap;">Official languages</th>
+         <th colspan="2" style="white-space:nowrap;">Luuqada Koowaad</th>
          <td>{{{official_languages}}}</td>
        </tr><!--
     -->{{#if:{{{recognized_languages|{{{recognised_languages|}}}}}}
@@ -309,7 +309,7 @@
 ============================================================
  -->{{#if:{{{ethnic_groups|}}}
      | <tr>
-         <td colspan="2">'''[[Ethnic groups|Ethnic&nbsp;groups]]''' <!--
+         <td colspan="2">'''[[Qabiil|Qabiilada&nbsp;kooxaha]]''' <!--
            -->{{#if:{{{ethnic_groups_year|}}} |({{{ethnic_groups_year}}})}}</td>
          <td>{{{ethnic_groups}}}</td>
        </tr><!--
@@ -319,7 +319,7 @@
 ============================================================
  -->{{#if:{{{religion|}}}
     | <tr>
-    <th colspan="2">Religion</th>
+    <th colspan="2">Diinta</th>
     <td style="vertical-align:middle;">{{{religion}}}</td>
     </tr><!--
  -->}}<!--
@@ -328,7 +328,7 @@
 ============================================================
 -->{{#if:{{{demonym|}}}
     | <tr>
-        <th colspan="2">[[Demonym]]</th>
+        <th colspan="2">[[Dad]]ka</th>
         <td>{{#ifexist:{{{demonym}}} people
              | [[{{{demonym}}} people|{{{demonym}}}]]
              | {{{demonym}}}<!--
@@ -341,7 +341,7 @@
 ============================================================
  -->{{#if:{{{org_type|}}}
      | <tr>
-         <td colspan="2">'''Type'''</td>
+         <td colspan="2">'''Nooca'''</td>
          <td>{{{org_type}}}</td>
        </tr><!--
  -->}}<!--
@@ -377,9 +377,9 @@
     -->{{#if:{{{leader_title1|}}}{{{leader_name1|}}}
         | {{#if:{{{name|}}}{{{membership|}}}
           <!--template being used for geopolitical org:-->
-           | <tr><th colspan="3">Leaders</th></tr><!--
+           | <tr><th colspan="3">Hogaanka</th></tr><!--
           <!--template being used for country/territory:
-        -->| <tr><th colspan="3">Government</th></tr><!--
+        -->| <tr><th colspan="3">Dowlada</th></tr><!--
        -->}}<!--
     -->}}<!--
  -->}}<!--
@@ -489,7 +489,7 @@
 ============================================================
  -->{{#if:{{{legislature|}}}
      | <tr>
-         <th colspan="2">Legislature</th>
+         <th colspan="2">Xeerka</th>
          <td>{{{legislature}}}</td>
        </tr><!--
  -->}}<!--
@@ -520,7 +520,7 @@
           --></th><!--
        ---------Establishment----------
         -->| {{#if:{{{established|}}}
-              | <th colspan="2">Establishment</th>
+              | <th colspan="2">La aasaasay</th>
                 <td>{{{established}}}</td><!--
            -->| <th colspan="3">Establishment</th><!--
           -->}}<!--
@@ -625,7 +625,7 @@
            -->{{#if:{{{area_link|}}}
                | [[{{{area_link}}}|Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
                | {{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                  | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
+                  | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
                   | Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}<!--
               -->}}<!--
            -->}}<!--
@@ -660,7 +660,7 @@
  -->{{#if:{{{percent_water|}}}
      | <tr class="mergedrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
-         <td style="padding-left:0;">Water&nbsp;(%)</td>
+         <td style="padding-left:0;">Biyaha&nbsp;(%)</td>
          <td>{{{percent_water}}}</td>
        </tr><!--
  -->}}<!--
@@ -712,7 +712,7 @@
      | <tr class="mergedtoprow">
          <th colspan="3"><!--
            -->{{#if:{{{population_link|}}}
-               | [[{{{population_link}}}|Population]]<!--
+               | [[{{{population_link}}}|Dad]]ka<!--
             -->| {{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Population]]<!--
                -->| Population<!--
@@ -780,7 +780,7 @@
  -->{{#if:{{{population_density_km2|}}}
      | <tr class="mergedbottomrow">
          <td style="width:1.0em;padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
-         <td style="padding-left:0;">Density<!--
+         <td style="padding-left:0;">Cufnaanta<!--
             ---France-related footnote:-->{{#if:{{{FR_foot5|}}} |{{{FR_foot5}}}}}</td>
          <td>{{{population_density_km2|}}}/km{{smallsup|2}}<!--
             -->{{#if:{{{pop_den_footnote|}}} |{{{pop_den_footnote|}}}}}<!--
