@@ -16,7 +16,7 @@
 | headerstyle = background-color:#b0c4de;
 | labelstyle = font-weight:normal;
 
-| header1 = {{#if:{{{total|}}}{{{total1|}}}{{{population|}}}{{{pop|}}}{{{poptime|}}} |Total population}}
+| header1 = {{#if:{{{total|}}}{{{total1|}}}{{{population|}}}{{{pop|}}}{{{poptime|}}} |Tirada Dadka}}
 
 |   data2 = {{{total|{{{population|{{{pop|}}}}}}}}}{{{total_ref|}}} {{#if:{{{genealogy|}}}{{{total_year|{{{poptime|}}}}}}{{{total_source|}}}|({{comma separated entries
 | {{{total_year|{{{poptime|}}}}}}
@@ -40,7 +40,7 @@
 }}
 |   data5 = {{{total3|}}}{{{total3_ref|}}}
 
-| header6 = {{#if:{{{popplace|}}}{{{regions|}}}{{{region1|}}} |Regions with significant populations}}
+| header6 = {{#if:{{{popplace|}}}{{{regions|}}}{{{region1|}}} |Deegaanada xoog u degan yihiin}}
 |   data7 = {{{popplace|}}}{{{regions|}}}
 | header8 = {{{tablehdr|}}}
 |   data9 = {{{pop_embed|}}}
@@ -125,11 +125,11 @@
 |  data49 = {{{pop39|}}}{{{ref39|}}}
 | label50 = {{{region40|}}}
 |  data50 = {{{pop40|}}}{{{ref40|}}}
-| header51 = {{#if:{{{langs|}}}{{{languages|}}} |Languages}}
+| header51 = {{#if:{{{langs|}}}{{{languages|}}} |Luuqadaha}}
 |   data52 = {{{langs|}}}{{{languages|}}}
-| header53 = {{#if:{{{rels|}}}{{{religions|}}} |Religion}}
+| header53 = {{#if:{{{rels|}}}{{{religions|}}} |Diinta}}
 |   data54 = {{{rels|}}}{{{religions|}}}
-| header55 = {{#if:{{{related_groups|}}}{{{related|}}}{{{related-c|}}} |Related ethnic groups}}
+| header55 = {{#if:{{{related_groups|}}}{{{related|}}}{{{related-c|}}} |Qoomiyadaha la xidhiidha}}
 |   data56 = {{{related-c|}}}{{#if:{{{related_groups|}}}{{{related|}}} |{{{related_groups|}}}{{{related|}}} [[Category:"Related ethnic groups" needing confirmation]]}}
 
 | belowstyle = padding-top:0.5em;font-size:85%;text-align:left;
