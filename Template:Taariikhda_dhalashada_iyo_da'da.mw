@@ -1,0 +1,11 @@
+<includeonly><span style="display:none"> (<span class="bday">{{{1|{{{year}}}}}}-{{padleft:{{{2|{{{month}}}}}}|2|0}}-{{padleft:{{{3|{{{day}}}}}}|2|0}}</span>) </span>{{#if:{{{df|}}}|{{#expr:{{{3|{{{day}}}}}}}} {{MONTHNAME|{{{2|{{{month}}}}}}}}|{{MONTHNAME|{{{2|{{{month}}}}}}}} {{#expr:{{{3|{{{day}}}}}}}},}} {{{1|{{{year}}}}}}<span class="noprint ForceAgeToShow"> (age&nbsp;{{age | {{{1|{{{year}}}}}} | {{{2|{{{month}}}}}} | {{{3|{{{day}}}}}} }})</span><!--
+ -- Error checks --
+-->{{#ifexpr: ( {{{1|{{{year}}}}}} > {{CURRENTYEAR}} ) OR ( {{CURRENTYEAR}} - {{{1|{{{year}}}}}} > 150 )
+ | &#32;{{error|invalid year}}{{main other|[[Category:Pages using age template with invalid date]]}}
+}}{{#ifexpr: ( {{{2|{{{month}}}}}} > 12 ) OR ( {{{2|{{{month}}}}}} < 1 )
+ | &#32;{{error|invalid month}}{{main other|[[Category:Pages using age template with invalid date]]}}
+}}{{#ifexpr: ( {{{3|{{{day}}}}}} > 31 ) OR ( {{{3|{{{day}}}}}} < 1 )
+ | &#32;{{error|invalid day}}{{main other|[[Category:Pages using age template with invalid date]]}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
