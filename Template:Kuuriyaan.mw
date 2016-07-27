@@ -1,0 +1,16 @@
+{{#switch:{{{links|}}}|No|no=
+ | 
+ | [[Hangul{{#switch: {{{context|}}}|N|n|NK|nk|DPRK|dprk|North|north={{!}}Chosŏn'gŭl|Old|old={{!}}Hunminjeongeum| {{!}}Hangul}}]]:&nbsp;
+}}{{lang|ko-Hang|{{{hangul|{{{1|}}}}}}}}{{#if:{{{hanja|{{{2|}}} }}}|&#59; {{#switch:{{{links|}}}|No|no=
+ | 
+ | [[Hanja{{#switch: {{{context|}}}|N|n|NK|nk|DPRK|dprk|North|north={{!}}hancha|{{!}}hanja}}]]:&nbsp;
+}}{{lang|ko-Hani|{{{hanja|{{{2|}}}}}}}} }}{{#switch: {{{context|}}}|North|N|n|NK|nk|DPRK|dprk|north={{#if:{{{mr|{{{4|}}}}}}|&#59; {{#switch:{{{links|}}}|No|no=
+ | 
+ | [[McCune–Reischauer|MR]]:&nbsp;
+}}''{{transl|ko|{{{mr|{{{4|}}}}}}}}''}}}}{{#if:{{{rr|{{{3|}}}}}}|&#59; {{#switch:{{{links|}}}|No|no=
+ | 
+ | [[Revised Romanization of Korean|RR]]:&nbsp;
+}}''{{transl|ko|{{{rr|{{{3|}}}}}}}}''}}{{#switch: {{{context|}}}|N|n|NK|nk|DPRK|dprk|North|north=|#default={{#if:{{{mr|{{{4|}}}}}}|&#59; {{#switch:{{{links|}}}|No|no=
+ | 
+ | [[McCune–Reischauer|MR]]:&nbsp;
+}}''{{transl|ko|{{{mr|{{{4|}}}}}}}}''}}}}{{#if: {{{lit|}}}|&#59; lit.&nbsp;{{{lit}}}}}<noinclude>{{documentation}}</noinclude>
