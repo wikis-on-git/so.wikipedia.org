@@ -1,0 +1,12 @@
+{{{{{|safesubst:}}}#ifexist:{{{1|}}}
+ |{{{{{|safesubst:}}}#ifexpr:{{{{{|safesubst:}}}PAGESIZE:{{{1|}}}|R}}>0
+  |{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}#invoke:redirect|isRedirect|{{{1|}}}}}|yes
+   |{{{3|}}}
+   |{{{2|yes}}}
+  }}
+  |{{{3|}}}
+ }}
+ |{{{3|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
