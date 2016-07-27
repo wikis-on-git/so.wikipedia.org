@@ -1,0 +1,50 @@
+{{#switch:{{{QUALITY_SCALE|none}}}
+ |inline
+ |subpage
+ |none     = <!-- Don't prompt for categories -->
+ |extended = {{WikiProject assessment category check
+  |cat={{{ASSESSMENT_CAT}}}
+  |file=yes|category=yes|portal=yes|template=yes|project=yes|disambig=yes|draft=yes
+  |name={{{NAME|}}}
+  |assessment_cat_name={{{ASSESSMENT_CAT_NAME|ASSESSMENT_CAT}}}
+  |PROJECT={{{PROJECT}}}
+ }}
+ |standard
+ |#default = {{WikiProject assessment category check
+  |cat={{{ASSESSMENT_CAT}}}
+  |name={{{NAME|}}}
+  |assessment_cat_name={{{ASSESSMENT_CAT_NAME|ASSESSMENT_CAT}}}
+  |PROJECT={{{PROJECT}}}
+ }}
+}}<!--
+
+-->{{#switch:{{{IMPORTANCE_SCALE|none}}}
+ |inline
+ |subpage
+ |none     = <!-- Don't prompt for categories -->
+ |#default = {{#ifexpr:{{#ifexist:Category:Top-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:High-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:Mid-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:Low-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:NA-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:Unknown-{{{IMPN|importance}}} {{{ASSESSMENT_CAT}}}|0|1}}
++{{#ifexist:Category:{{{ASSESSMENT_CAT}}} by {{{IMPN|importance}}}|0|1}}
+  |{{ombox
+   |type=content
+   |image=[[File:Nuvola apps kfig.svg|50px]]
+   |text=This banner has {{{IMPN|importance}}} assessment {{#if:{{{NAME|}}}|for '''{{{NAME}}}'''}} enabled using the 1.0 release criteria scale, but some of the categories required do not currently exist, and need to be created. Please ensure that the categories below are created as soon as possible, to avoid redlinks appearing on talk pages.
+{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=Top-{{{IMPN|importance}}}
+}}{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=High-{{{IMPN|importance}}}
+}}{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=Mid-{{{IMPN|importance}}}
+}}{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=Low-{{{IMPN|importance}}}
+}}{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=NA-{{{IMPN|importance}}}
+}}{{WPBannerMeta/templatepage/catimp|ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}|CAT=Unknown-{{{IMPN|importance}}}
+}}{{#ifexist:Category:{{{ASSESSMENT_CAT}}} by {{{IMPN|importance}}}||&#32;
+*[[:Category:{{{ASSESSMENT_CAT}}} by {{{IMPN|importance}}}]] &ndash; ([{{fullurl:Category:{{{ASSESSMENT_CAT}}} by {{{IMPN|importance}}}|action=edit&preload=Template:WPBannerMeta/templatepage/preloadmeta&editintro=Template:WPBannerMeta/templatepage/editintro&preview=false}} create])}}
+}}{{#ifexpr:{{#ifeq:{{lc:{{SUBPAGENAME}}}}|sandbox|1|0}}+{{#ifeq:{{NAMESPACE}}|{{ns:2}}|1|0}}=0
+   |{{#if:{{{PROJECT|}}}
+    |[[Category:WPBannerMeta templates with missing assessment categories|{{{PROJECT}}}]]
+   }}
+  }}
+ }}
+}}
