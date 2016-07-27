@@ -1,0 +1,4 @@
+{{user other||{{mbox
+ |type=content
+ |text=<p>WikiProject banner hoose waa in la dhaqaajin in this {{pagetype|subjectspace=yes}}'s '''[[{{TALKPAGENAME}}|talk page]]'''. <p style="font-size:95%">Haddii ay tani waa mudaaharaad ka mid ah template ah, fadlan la dhigay dhimaya ah parameter {{para|category|no}} si looga hortago in this page la miscategorised. {{#ifeq:{{NAMESPACE}}|{{ns:Template}}| Haddii fariin this u muuqataa on page template laftiisa ah, fadlan hubi in qiimaha oo ka mid ah {{para|BANNER_NAME}}dhimaya si sax ah qarka u saaran inay <tt>{{#titleparts:{{FULLPAGENAME}}|1}}</tt>.}}
+}}<includeonly>[[Category:WikiProject banners with formatting errors|{{#ifeq:{{NAMESPACE}}|Template|PARAMETER|LOCATION}}]]</includeonly>}}
