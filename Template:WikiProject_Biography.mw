@@ -1,0 +1,325 @@
+{{yesno|{{{living|}}}
+ |no={{yesno|{{{blpo|}}}|yes={{BLP others}}}}
+ |yes={{BLP}}{{yesno|{{{activepol|}}}|yes={{Active politician}}}}
+ |blank={{#ifeq:{{pagetype|{{{class|}}}}}|article|<includeonly>__NOINDEX__</includeonly>}}
+}}<!--
+
+-->{{WPBannerMeta
+|PROJECT                 = Biography
+ |substcheck=<includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+ |small={{{small|}}}
+ |category={{{category|}}}
+ |listas={{{listas|}}}
+|IMAGE_LEFT              = Crystal personal.svg
+ |IMAGE_LEFT_LARGE       = 60px
+|MAIN_TEXT               = This {{pagetype|{{{class|}}}}} is within the scope of '''[[Wikipedia:WikiProject Biography|WikiProject Biography]]'''{{yesno|{{{small|}}}|yes=|no=, a collaborative effort to create, develop and organize Wikipedia's articles about people.  All interested editors are invited to [[Wikipedia:WikiProject Biography/Members|join the project]] and [[Wikipedia talk:WikiProject Biography|contribute to the discussion]].  For instructions on how to use this banner, please refer to the [[Template:WikiProject Biography/doc|documentation]]}}.
+|PORTAL                  = Biography
+|MAIN_CAT                = {{#ifeq:{{pagetype|{{{class|}}}}}|article|WikiProject Biography articles}}
+|QUALITY_SCALE           = subpage
+ |class={{{class|}}}
+ |HOOK_ASSESS            = {{yesno|{{{core|}}}|yes={{WikiProject Biography/corebio
+   |class={{{class|}}}
+   |category={{{category|}}}
+   |small={{{small|}}}
+  }}
+ }}
+ |auto={{{auto|}}}
+  |AUTO_ASSESS_CAT       = Automatically assessed biography articles
+ |ASSESSMENT_LINK        = Wikipedia:WikiProject Biography/Assessment
+ |ASSESSMENT_CAT         = biography articles
+|COMMENTS                = yes
+|attention={{{attention|}}}
+ |ATTENTION_CAT          = Biography articles needing attention
+|note 3={{{needs-photo|}}}
+ |NOTE_3_TEXT            = It is requested that a photograph or picture of this person be [[Wikipedia:Uploading images|included]] in this article to improve its quality.{{yesno|{{{living|}}}|yes=<br /><small>'''Note:''' [[Wikipedia:Non-free content criteria|Wikipedia's non-free content use policy]] almost never permits the use of non-free images (such as promotional photos, press photos, screenshots, book covers and similar) to merely show what a living person looks like.  Efforts should be made to take a [[free content|free licensed]] photo (for example, during a public appearance), or [[Wikipedia:Requesting copyright permission|obtaining a free content release of an existing photo]] instead.  The <span class="plainlinks">[https://tools.wmflabs.org/fist/fist.php?doit=1&language=en&project=wikipedia&data={{urlencode:{{PAGENAME}}}}&datatype=articles&params%5Bcatdepth%5D=0&params%5Brandom%5D=50&params%5Bll_max%5D=5&params%5Bcommons_max%5D=5&params%5Bflickr_max%5D=5&params%5Binclude_flickr_id%5D=1&params%5Bwts_max%5D=5&params%5Bgimp_max%5D=5&params%5Besp_max%5D=5&params%5Besp_skip_flickr%5D=1&params%5Bgeograph_max%5D=5&params%5Bforarticles%5D=noimage&params%5Blessthan_images%5D=3&params%5Bdefault_thumbnail_size%5D=&params%5Bjpeg%5D=1&params%5Bpng%5D=1&params%5Bgif%5D=1&params%5Bsvg%5D=1&params%5Bogg%5D=1&params%5Bmin_width%5D=80&params%5Bmin_height%5D=80&sources%5Blanguagelinks%5D=1&sources%5Bcommons%5D=1&sources%5Bflickr%5D=1 Free Image Search Tool]</span> may be able to locate suitable images on [[Flickr]] and other web sites.}}</small>
+ |NOTE_3_IMAGE           = {{yesno|{{{living|}}}|yes=No copyrighted photos|no=Camera-photo}}.svg
+ |NOTE_3_CAT             = {{#ifexpr:{{yesno|{{{a&e-work-group|}}}|yes=1|no=0}}+{{yesno|{{{filmbio-work-group|}}}|yes=1|no=0}}+{{yesno|{{{musician-work-group|}}}|yes=1|no=0}}+{{yesno|{{{military-work-group|{{{military-task-force|}}}}}}|yes=1|no=0}}+{{yesno|{{{peerage-work-group|{{{baronets-work-group|}}}}}}|yes=1|no=0}}+{{yesno|{{{living|}}}|yes={{yesno|{{{activepol|}}}|yes=1|no=0}}}}+{{yesno|{{{politician-work-group|}}}|yes=1|no=0}}+{{yesno|{{{royalty-work-group|}}}|yes=1|no=0}}+{{yesno|{{{sports-work-group|}}}|yes=1|no=0}}+{{yesno|{{{s&a-work-group|}}}|yes=1|no=0}}>0||Wikipedia requested photographs of people}}
+|note 4={{{needs-infobox|}}}
+ |NOTE_4_TEXT            = An appropriate [[Wikipedia:Manual of Style (infoboxes)|infobox]] may need to be added to this article.  Please refer to the [[Wikipedia:WikiProject Biography/Infoboxes|list of biography infoboxes]] for further information.
+ |NOTE_4_IMAGE           = Gnome-mime-text-x-credits.svg
+ |NOTE_4_CAT             = Biography articles without infoboxes
+|note 6={{yesno|{{{filmbio-work-group|}}}|yes={{{needs-filmography|}}}}}
+ |NOTE_6_TEXT            = This article needs a [[filmography]] section, as outlined by the [[Wikipedia:WikiProject Actors and Filmmakers#Filmography|guidelines]] of [[Wikipedia:WikiProject Actors and Filmmakers|WikiProject Actors and Filmmakers]].
+ |NOTE_6_IMAGE           = Video-x-generic.svg
+ |NOTE_6_CAT             = Actors and filmmakers work group articles needing filmographies
+|note 7={{yesno|{{{musician-work-group|}}}|yes={{{needs-discography|}}}}}
+ |NOTE_7_TEXT            = This article needs a [[discography]] section, as outlined by the [[Wikipedia:WikiProject Musicians/Article guidelines#Discography section|guidelines]] of [[Wikipedia:WikiProject Musicians|WikiProject Musicians]].
+ |NOTE_7_IMAGE           = 45 rpm record.png
+ |NOTE_7_CAT             = Musicians work group articles needing discographies
+|note 8={{{past-collaboration|}}}
+ |NOTE_8_TEXT            = This article is a former [[Wikipedia:WikiProject Biography/Collaboration|WikiProject Biography Collaboration]] ({{{past-collaboration|}}}).  For details on the improvements made to the article, see the [[Wikipedia:WikiProject Biography/Collaboration/History|history of past collaborations]].
+ |NOTE_8_IMAGE           = Crystal 128 kuser.png
+ |NOTE_8_CAT             = Past Biography collaborations
+|note 10={{#ifeq:{{lc:{{{A-Class|}}}}}|current|{{{A-Class|}}}}}
+ |NOTE_10_TEXT            = The [[Wikipedia:WikiProject Biography/A-class review|A-Class review department]] for this project is currently inactive.  No requests for A-Class review are being accepted at this time.
+ |NOTE_10_IMAGE           = Deletion icon.svg
+ |NOTE_10_CAT             = Biography articles with incorrect peer review or A-Class tagging
+|NOTE_SIZE                = x25px
+|HOOK_NOTE = {{WPBannerMeta/hooks/aclass
+ |BANNER_NAME            = Template:WikiProject Biography
+ |a class={{#ifeq:{{lc:{{{A-Class|}}}}}|current||{{{A-Class|}}}}}
+ |category={{{category|}}}
+ |SIZE                   = x25px
+ |FORMAT                 = style="background:transparent;"
+ |SUBPAGE_LINK           = Wikipedia:WikiProject Biography/A-class review/{{SUBJECTPAGENAME}}
+ |REVIEW_LINK            = Wikipedia:WikiProject Biography/A-class review
+ |PASS_CAT               = Successful requests for biography A-Class review
+ |FAIL_CAT               = Failed requests for biography A-Class review
+ |INVALID_CAT            = Biography articles with incorrect peer review or A-Class tagging
+}}{{WPBannerMeta/hooks/peerreview
+ |BANNER_NAME            = Template:WikiProject Biography
+ |category={{{category|}}}
+ |peer review={{{peer-review|}}}
+ |old peer review={{{old-peer-review|}}}
+ |SIZE                   = x25px
+ |LINK                   = Wikipedia:WikiProject Biography/Peer review
+ |CAT                    = Requests for Biography peer review
+ |OLD_CAT                = Old requests for Biography peer review
+ |INVALID_CAT            = Biography articles with incorrect peer review or A-Class tagging
+ |title                  = {{{title|}}}
+}}
+|HOOK_COLLAPSED          = {{WPBannerMeta/hooks/notecounter
+ |category={{{category|}}}
+ |BANNER_NAME            = Template:WikiProject Biography
+ |note 1={{{peer-review|}}}
+ |note 2={{{old-peer-review|}}}
+ |note 3={{{A-Class|}}}
+}}
+|HOOK_TF                 = {{WPBannerMeta/hooks/taskforces
+ |category={{{category|}}}
+ |BANNER_NAME            = Template:WikiProject Biography
+ |QUALITY_SCALE          = subpage
+ |IMPORTANCE_SCALE_NAME  = importance
+ |TF_SIZE                = x25px
+ |class={{{class|}}}
+ |tf 1={{#ifexpr:{{yesno|{{{filmbio-work-group|}}}|yes=1|no=0}}+{{yesno|{{{musician-work-group|}}}|yes=1|no=0}}>0||{{{a&e-work-group|}}}}}
+  |TF_1_LINK             = Wikipedia:WikiProject Biography/Arts and entertainment
+  |TF_1_NAME             = the arts and entertainment work group
+  |TF_1_IMAGE            = Nuvola apps package graphics.svg
+  |TF_1_QUALITY          = yes
+  |tf 1 importance={{{a&e-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_1_ASSESSMENT_CAT   = biography (arts and entertainment) articles
+  |TF_1_MAIN_CAT         = Arts and entertainment work group articles
+  |TF_1_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (arts and entertainment) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Arts and entertainment work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of artists and entertainers
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Arts and entertainment work group articles without infoboxes
+  }}
+ |tf 2={{{filmbio-work-group|}}}
+  |TF_2_LINK             = Wikipedia:WikiProject Actors and Filmmakers
+  |TF_2_NAME             = WikiProject Actors and Filmmakers
+  |TF_2_IMAGE            = Lumierebros.jpg
+  |TF_2_QUALITY          = yes
+  |tf 2 importance={{{filmbio-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_2_ASSESSMENT_CAT   = biography (actors and filmmakers) articles
+  |TF_2_MAIN_CAT         = Actors and filmmakers work group articles
+  |TF_2_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (actors and filmmakers) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Actors and filmmakers work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of actors and filmmakers
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Actors and filmmakers work group articles needing infoboxes
+  }}
+ |tf 3={{{musician-work-group|}}}
+  |TF_3_LINK             = Wikipedia:WikiProject Musicians 
+  |TF_3_NAME             = WikiProject Musicians
+  |TF_3_IMAGE            = Exquisite-microphone.png
+  |TF_3_QUALITY          = yes
+  |tf 3 importance={{{musician-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_3_ASSESSMENT_CAT   = biography (musicians) articles
+  |TF_3_MAIN_CAT         = Musicians work group articles
+  |TF_3_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (musicians) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Musicians work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of musicians
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Musicians work group articles needing infoboxes
+  }}
+ |tf 4={{{military-work-group|{{{military-task-force|}}}}}}
+  |TF_4_LINK             = Wikipedia:WikiProject Biography/Military
+  |TF_4_NAME             = the military biography work group
+  |TF_4_IMAGE            = Swords.svg
+  |TF_4_QUALITY          = yes
+  |tf 4 importance={{{military-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_4_ASSESSMENT_CAT   = biography (military) articles
+  |TF_4_MAIN_CAT         = Military biography work group articles
+  |TF_4_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (military) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Military biography work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of military-people
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Military biography work group articles needing infoboxes
+  }}
+ |tf 5={{{peerage-work-group|{{{baronets-work-group|}}}}}}
+  |TF_5_LINK             = Wikipedia:WikiProject Peerage and Baronetage
+  |TF_5_NAME             = WikiProject Peerage and Baronetage
+  |TF_5_IMAGE            = Héraldique ornement Heaume baronnet.svg
+  |TF_5_QUALITY          = yes
+  |tf 5 importance={{{peerage-priority|{{{baronets-priority|{{{priority|{{{importance|}}}}}}}}}}}}
+  |TF_5_ASSESSMENT_CAT   = biography (peerage) articles
+  |TF_5_MAIN_CAT         = Peerage and Baronetage work group articles
+  |TF_5_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (peerage) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Peerage work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of peers
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Peerage work group articles needing infoboxes
+  }}
+ |tf 6={{yesno|{{{living|}}}|yes={{{activepol|}}}}}{{{politician-work-group|}}}
+  |TF_6_LINK             = Wikipedia:WikiProject Biography/Politics and government
+  |TF_6_NAME             = the politics and government work group
+  |TF_6_IMAGE            = A coloured voting box.svg
+  |TF_6_QUALITY          = yes
+  |tf 6 importance={{{politician-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_6_ASSESSMENT_CAT   = biography (politics and government) articles
+  |TF_6_MAIN_CAT         = Politics and government work group articles
+  |TF_6_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (politics and government) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Politics and government work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of politicians and government-people
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Politics and government work group articles needing infoboxes
+  }}
+ |tf 7={{{royalty-work-group|}}}
+  |TF_7_LINK             = Wikipedia:WikiProject Royalty and Nobility
+  |TF_7_NAME             = WikiProject Royalty and Nobility
+  |TF_7_IMAGE            = CrownForShield.svg
+  |TF_7_QUALITY          = yes
+  |tf 7 importance={{{royalty-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_7_ASSESSMENT_CAT   = biography (royalty) articles
+  |TF_7_MAIN_CAT         = Royalty work group articles
+  |TF_7_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (royalty) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Royalty and nobility work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of royalty and nobility
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Royalty and nobility work group articles needing infoboxes
+  }}
+ |tf 8={{{s&a-work-group|}}}
+  |TF_8_LINK             = Wikipedia:WikiProject Biography/Science and academia
+  |TF_8_NAME             = the science and academia work group
+  |TF_8_IMAGE            = Nuvola apps edu mathematics-p.svg
+  |TF_8_QUALITY          = yes
+  |tf 8 importance={{{s&a-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_8_ASSESSMENT_CAT   = biography (science and academia) articles
+  |TF_8_MAIN_CAT         = Science and academia work group articles
+  |TF_8_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (science and academia) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Science and academia work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of scientists and academics
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Science and academia work group articles needing infoboxes
+  }}
+ |tf 9={{{sports-work-group|}}}
+  |TF_9_LINK             = Wikipedia:WikiProject Biography/Sports and games
+  |TF_9_NAME             = the sports and games work group
+  |TF_9_IMAGE            = Sports and games.png
+  |TF_9_QUALITY          = yes
+  |TF_9_PORTAL           = Sport
+  |tf 9 importance={{{sports-priority|{{{priority|{{{importance|}}}}}}}}}
+  |TF_9_ASSESSMENT_CAT   = biography (sports and games) articles
+  |TF_9_MAIN_CAT         = Sports and games work group articles
+  |TF_9_HOOK             = {{WPBannerMeta/hooks/cats
+   |category={{{category|}}}
+   |cat 1={{#switch:{{lc:{{{class|}}}}}|stub={{{auto|}}}|=|#default={{#ifeq:{{lc:{{{auto|}}}}}|inherit|{{{auto|}}}}}}}
+    |CAT_1               = Automatically assessed biography (sports and games) articles
+   |cat 2={{{attention|}}}
+    |CAT_2               = Sports and games work group articles needing attention
+   |cat 3={{{needs-photo|}}}
+    |CAT_3               = Wikipedia requested photographs of sportspeople
+   |cat 4={{{needs-infobox|}}}
+    |CAT_4               = Sports and games work group articles needing infoboxes
+  }}
+}}
+|HOOK_NESTED             = {{WPBannerMeta/hooks/tfnested
+ |tf 1={{#ifexpr:{{yesno|{{{filmbio-work-group|}}}|yes=1|no=0}}+{{yesno|{{{musician-work-group|}}}|yes=1|no=0}}>0||{{{a&e-work-group|}}}}}
+  |TF_1_LINK            = Wikipedia:WikiProject Biography/Arts and entertainment
+  |TF_1_NESTED          = Arts and Entertainment
+ |tf 2={{{filmbio-work-group|}}}
+  |TF_2_LINK            = Wikipedia:WikiProject Actors and Filmmakers
+  |TF_2_NESTED          = Actors and Filmmakers
+ |tf 3={{{musician-work-group|}}}
+  |TF_3_LINK            = Wikipedia:WikiProject Musicians 
+  |TF_3_NESTED          = Musicians
+ |tf 4={{{military-work-group|{{{military-task-force|}}}}}}
+  |TF_4_LINK            = Wikipedia:WikiProject Biography/Military
+  |TF_4_NESTED          = Military
+ |tf 5={{{peerage-work-group|{{{baronets-work-group|}}}}}}
+  |TF_5_LINK            = Wikipedia:WikiProject Peerage and Baronetage
+  |TF_5_NESTED          = Peerage and Baronetage
+ |tf 6={{yesno|{{{living|}}}|yes={{{activepol|}}}}}{{{politician-work-group|}}}
+  |TF_6_LINK            = Wikipedia:WikiProject Biography/Politics and government
+  |TF_6_NESTED          = Politics and Government
+ |tf 7={{{royalty-work-group|}}}
+  |TF_7_LINK            = Wikipedia:WikiProject Royalty
+  |TF_7_NESTED          = Royalty and Nobility
+ |tf 8={{{s&a-work-group|}}}
+  |TF_8_LINK            = Wikipedia:WikiProject Biography/Science and academia
+  |TF_8_NESTED          = Science and Academia
+ |tf 9={{{sports-work-group|}}}
+  |TF_9_LINK            = Wikipedia:WikiProject Biography/Sports and games
+  |TF_9_NESTED          = Sports and Games
+}}
+|HOOK_BOTTOM            = {{WPBannerMeta/hooks/cats
+ |category={{{category|}}}
+ |BANNER_NAME            = Template:WikiProject Biography
+ |cat 1={{yesno|{{{living|}}}
+  |yes=<!-- Category added by Template:BLP -->
+  |no=
+  |blank={{#ifeq:{{pagetype|{{{class|}}}}}|article<!-- Do not categorise non-articles -->
+   |yes
+  }}
+ }}
+  |CAT_1                = Biography articles without living parameter
+ |cat 2={{#if:{{{listas|}}}|no|{{#ifeq:{{NAMESPACE}}|{{ns:1}}|yes|no}}}}
+  |CAT_2                = Biography articles without listas parameter
+ |cat 3={{#ifexpr:{{yesno|{{{a&e-work-group|}}}|yes=1|no=0}}+{{yesno|{{{filmbio-work-group|}}}|yes=1|no=0}}+{{yesno|{{{musician-work-group|}}}|yes=1|no=0}}+{{yesno|{{{military-work-group|{{{military-task-force|}}}}}}|yes=1|no=0}}+{{yesno|{{{peerage-work-group|{{{baronets-work-group|}}}}}}|yes=1|no=0}}+{{yesno|{{{living|}}}|yes={{yesno|{{{activepol|}}}|yes=1|no=0}}}}+{{yesno|{{{politician-work-group|}}}|yes=1|no=0}}+{{yesno|{{{royalty-work-group|}}}|yes=1|no=0}}+{{yesno|{{{sports-work-group|}}}|yes=1|no=0}}+{{yesno|{{{s&a-work-group|}}}|yes=1|no=0}}>0|{{{priority|{{{importance|}}}}}}}}
+  |CAT_3                = Biography articles needing priority parameter replacement
+ |cat 4={{#ifeq:{{{priority|¬}}}|¬||{{#ifeq:{{NAMESPACE}}|{{ns:1}}|yes|no}}}}
+  |CAT_4                = Biography articles with {{#if:{{{priority|}}}|plain|blank}} priority parameter
+ |cat 5={{#switch:{{WikiProject Biography/class|class={{{class|}}}}}|FA|A|GA|B|C|Start|Stub|FL|List={{{class|}}}}}
+  |CAT_5                = {{#ifeq:{{NAMESPACE}}|Talk||Incorrectly tagged WikiProject Biography articles}}
+ |cat 6={{#ifeq:{{WikiProject Biography/class|class={{{class|}}}}}|Category|{{{class|}}}}}
+  |CAT_6                = {{#ifeq:{{NAMESPACE}}|Category talk||Incorrectly tagged WikiProject Biography articles}}
+ |cat 7={{#ifeq:{{WikiProject Biography/class|class={{{class|}}}}}|Template|{{{class|}}}}}
+  |CAT_7                = {{#ifeq:{{NAMESPACE}}|Template talk||Incorrectly tagged WikiProject Biography articles}}
+ |cat 8={{{core|}}}{{{needs-photo|}}}{{{needs-infobox|}}}{{{needs-filmography|}}}{{{needs-discography|}}}{{{past-collaboration|}}}
+  |CAT_8                = {{#ifeq:{{pagetype|{{{class|}}}}}|article||Incorrectly tagged WikiProject Biography articles}}
+}}
+}}{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using WikiProject Biography with unknown parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:WikiProject Biography]] with unknown parameter "_VALUE_"|ignoreblank=y|checkpositional=y| A-Class | a&e-priority | a&e-work-group | activepol | attention | auto | baronets-priority | baronets-work-group | blpo | category | class | core | filmbio-priority | filmbio-work-group | importance | listas | living | military-priority | military-task-force | military-work-group | musician-priority | musician-work-group | needs-discography | needs-filmography | needs-infobox | needs-photo | old-peer-review | past-collaboration | peer-review | peerage-priority | peerage-work-group | politician-priority | politician-work-group | priority | royalty-priority | royalty-work-group | s&a-priority | s&a-work-group | small | sports-priority | sports-work-group | title }}<noinclude>
+{{documentation}}
+</noinclude>
