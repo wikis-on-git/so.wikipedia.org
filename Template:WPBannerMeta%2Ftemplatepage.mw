@@ -1,0 +1,360 @@
+{{#ifeq:{{lc:{{SUBPAGENAME}}}}|sandbox|{{Template sandbox notice}}}}<includeonly>{{WPBannerMeta/core
+|PROJECT             = {{{PROJECT}}}
+ |BANNER_NAME        = {{{BANNER_NAME|}}}
+ |category           = no
+|PROJECT_LINK        = {{{PROJECT_LINK}}}
+|PROJECT_NAME        = {{{PROJECT_NAME}}}
+|IMAGE_LEFT          = {{{IMAGE_LEFT|}}}
+|IMAGE_RIGHT         = {{{IMAGE_RIGHT|}}}
+|IMAGE_LEFT_SIZE     = {{{IMAGE_LEFT_SIZE|}}}
+|IMAGE_RIGHT_SIZE    = {{{IMAGE_RIGHT_SIZE|}}}
+|class               = {{#ifeq:{{{class|¬}}}|¬
+ |¬
+ |{{#ifeq:{{{QUALITY_SCALE}}}|inline
+  |{{{class|}}}
+  |{{WPBannerMeta/class
+   |BANNER_NAME={{{BANNER_NAME|}}}
+   |class=C
+   |QUALITY_SCALE={{{QUALITY_SCALE|}}}
+   }}
+ }}
+}}
+ |auto={{#ifeq:{{{auto|}}}|¬||inherit}}
+  |AUTO_ASSESS_CAT   = {{{AUTO_ASSESS_CAT|}}}
+ |importance={{#ifeq:{{{importance|¬}}}|¬
+  |¬
+  |{{#ifeq:{{{IMPORTANCE_SCALE}}}|inline
+   |{{{importance|}}}
+   |High
+  }}
+ }}
+  |IMPN              = {{{IMPN}}}
+|ASSESSMENT_LINK     = {{{ASSESSMENT_LINK|}}}
+|ASSESSMENT_CAT      = {{{ASSESSMENT_CAT|}}}
+|MAIN_TEXT           = {{{MAIN_TEXT|}}}
+|MAIN_ARTICLE        = {{{MAIN_ARTICLE|}}}
+|PORTAL              = {{{PORTAL|}}}
+|MAIN_CAT            = {{{MAIN_CAT|}}}
+|attention     ={{#ifeq:{{{attention|}}}|¬||yes}}
+ |ATTENTION_CAT      = {{{ATTENTION_CAT|}}}
+|infobox       ={{#ifeq:{{{infobox|}}}|¬||yes}}
+ |INFOBOX_CAT        = {{{INFOBOX_CAT|}}}
+|note 1        ={{#ifeq:{{{note 1|}}}|¬||yes}}
+ |N_1_TEXT           = {{{N_1_TEXT|}}}   |N_1_IMAGE      = {{{N_1_IMAGE|}}}
+ |N_1_CAT            = {{{N_1_CAT|}}}    |N_1_FORMAT     = {{{N_1_FORMAT|}}}
+|note 2        ={{#ifeq:{{{note 2|}}}|¬||yes}}
+ |N_2_TEXT           = {{{N_2_TEXT|}}}   |N_2_IMAGE      = {{{N_2_IMAGE|}}}
+ |N_2_CAT            = {{{N_2_CAT|}}}    |N_2_FORMAT     = {{{N_2_FORMAT|}}}
+|note 3        ={{#ifeq:{{{note 3|}}}|¬||yes}}
+ |N_3_TEXT           = {{{N_3_TEXT|}}}   |N_3_IMAGE      = {{{N_3_IMAGE|}}}
+ |N_3_CAT            = {{{N_3_CAT|}}}    |N_3_FORMAT     = {{{N_3_FORMAT|}}}
+|note 4        ={{#ifeq:{{{note 4|}}}|¬||yes}}
+ |N_4_TEXT           = {{{N_4_TEXT|}}}   |N_4_IMAGE      = {{{N_4_IMAGE|}}}
+ |N_4_CAT            = {{{N_4_CAT|}}}    |N_4_FORMAT     = {{{N_4_FORMAT|}}}
+|note 5        ={{#ifeq:{{{note 5|}}}|¬||yes}}
+ |N_5_TEXT           = {{{N_5_TEXT|}}}   |N_5_IMAGE      = {{{N_5_IMAGE|}}}
+ |N_5_CAT            = {{{N_5_CAT|}}}    |N_5_FORMAT     = {{{N_5_FORMAT|}}}
+|note 6        ={{#ifeq:{{{note 6|}}}|¬||yes}}
+ |N_6_TEXT           = {{{N_6_TEXT|}}}   |N_6_IMAGE      = {{{N_6_IMAGE|}}}  
+ |N_6_CAT            = {{{N_6_CAT|}}}    |N_6_FORMAT     = {{{N_6_FORMAT|}}}
+|note 7        ={{#ifeq:{{{note 7|}}}|¬||yes}}
+ |N_7_TEXT           = {{{N_7_TEXT|}}}   |N_7_IMAGE      = {{{N_7_IMAGE|}}}
+ |N_7_CAT            = {{{N_7_CAT|}}}    |N_7_FORMAT     = {{{N_7_FORMAT|}}}
+|note 8        ={{#ifeq:{{{note 8|}}}|¬||yes}}
+ |N_8_TEXT           = {{{N_8_TEXT|}}}   |N_8_IMAGE      = {{{N_8_IMAGE|}}}
+ |N_8_CAT            = {{{N_8_CAT|}}}    |N_8_FORMAT     = {{{N_8_FORMAT|}}}
+|note 9        ={{#ifeq:{{{note 9|}}}|¬||yes}}
+ |N_9_TEXT           = {{{N_9_TEXT|}}}   |N_9_IMAGE      = {{{N_9_IMAGE|}}}
+ |N_9_CAT            = {{{N_9_CAT|}}}    |N_9_FORMAT     = {{{N_9_FORMAT|}}}
+|note 10       ={{#ifeq:{{{note 10|}}}|¬||yes}}
+ |N_10_TEXT          = {{{N_10_TEXT|}}}  |N_10_IMAGE     = {{{N_10_IMAGE|}}}
+ |N_10_CAT           = {{{N_10_CAT|}}}   |N_10_FORMAT    = {{{N_10_FORMAT|}}}
+|NOTE_SIZE           = {{{NOTE_SIZE|}}}
+|BOTTOM_TEXT         = {{{BOTTOM_TEXT|}}}
+|COLLAPSED           = {{{COLLAPSED}}}
+|COLLAPSED_HEAD      = {{{COLLAPSED_HEAD|}}}
+|tf 1={{#ifeq:{{{tf 1|}}}|¬||yes}}
+ |TF_1_LINK           = {{{TF_1_LINK|}}}    |TF_1_NAME           = {{{TF_1_NAME|}}}
+ |TF_1_NESTED         = {{{TF_1_NESTED}}}   |TF_1_IMAGE          = {{{TF_1_IMAGE|}}}
+ |TF_1_TEXT           = {{{TF_1_TEXT|}}}
+ |TF_1_QUALITY        = {{{TF_1_QUALITY}}}  |TF_1_MAIN_CAT       = {{{TF_1_MAIN_CAT|}}}
+ |tf 1 importance={{#ifeq:{{{tf 1 importance|¬}}}|¬|¬|Top}}
+ |TF_1_ASSESSMENT_CAT = {{{TF_1_ASSESSMENT_CAT|}}}
+|tf 2={{#ifeq:{{{tf 2|}}}|¬||yes}}
+ |TF_2_LINK           = {{{TF_2_LINK|}}}    |TF_2_NAME           = {{{TF_2_NAME|}}}
+ |TF_2_NESTED         = {{{TF_2_NESTED}}}   |TF_2_IMAGE          = {{{TF_2_IMAGE|}}}
+ |TF_2_TEXT           = {{{TF_2_TEXT|}}}
+ |TF_2_QUALITY        = {{{TF_2_QUALITY}}}  |TF_2_MAIN_CAT       = {{{TF_2_MAIN_CAT|}}}
+ |tf 2 importance={{#ifeq:{{{tf 2 importance|¬}}}|¬|¬|Top}}
+ |TF_2_ASSESSMENT_CAT = {{{TF_2_ASSESSMENT_CAT|}}}
+|tf 3={{#ifeq:{{{tf 3|}}}|¬||yes}}
+ |TF_3_LINK           = {{{TF_3_LINK|}}}    |TF_3_NAME           = {{{TF_3_NAME|}}}
+ |TF_3_NESTED         = {{{TF_3_NESTED}}}   |TF_3_IMAGE          = {{{TF_3_IMAGE|}}}
+ |TF_3_TEXT           = {{{TF_3_TEXT|}}}
+ |TF_3_QUALITY        = {{{TF_3_QUALITY}}}  |TF_3_MAIN_CAT       = {{{TF_3_MAIN_CAT|}}}
+ |tf 3 importance={{#ifeq:{{{tf 3 importance|¬}}}|¬|¬|Top}}
+ |TF_3_ASSESSMENT_CAT = {{{TF_3_ASSESSMENT_CAT|}}}
+|tf 4={{#ifeq:{{{tf 4|}}}|¬||yes}}
+ |TF_4_LINK           = {{{TF_4_LINK|}}}    |TF_4_NAME           = {{{TF_4_NAME|}}}
+ |TF_4_NESTED         = {{{TF_4_NESTED}}}   |TF_4_IMAGE          = {{{TF_4_IMAGE|}}}
+ |TF_4_TEXT           = {{{TF_4_TEXT|}}}
+ |TF_4_QUALITY        = {{{TF_4_QUALITY}}}  |TF_4_MAIN_CAT       = {{{TF_4_MAIN_CAT|}}}
+ |tf 4 importance={{#ifeq:{{{tf 4 importance|¬}}}|¬|¬|Top}}
+ |TF_4_ASSESSMENT_CAT = {{{TF_4_ASSESSMENT_CAT|}}}
+|tf 5={{#ifeq:{{{tf 5|}}}|¬||yes}}
+ |TF_5_LINK           = {{{TF_5_LINK|}}}    |TF_5_NAME           = {{{TF_5_NAME|}}}
+ |TF_5_NESTED         = {{{TF_5_NESTED}}}   |TF_5_IMAGE          = {{{TF_5_IMAGE|}}}
+ |TF_5_TEXT           = {{{TF_5_TEXT|}}}
+ |TF_5_QUALITY        = {{{TF_5_QUALITY}}}  |TF_5_MAIN_CAT       = {{{TF_5_MAIN_CAT|}}}
+ |tf 5 importance={{#ifeq:{{{tf 5 importance|¬}}}|¬|¬|Top}}
+ |TF_5_ASSESSMENT_CAT = {{{TF_5_ASSESSMENT_CAT|}}}
+|TF_SIZE             = {{{TF_SIZE|}}}
+|HOOK_NESTED         = {{{HOOK_NESTED|}}}
+|HOOK_ASSESS         = {{{HOOK_ASSESS|}}}
+|HOOK_IMPORTANCE     = {{{HOOK_IMPORTANCE|}}}
+|HOOK_TF             = {{{HOOK_TF|}}}
+|HOOK_NOTE           = {{{HOOK_NOTE|}}}
+|HOOK_BOTTOM         = {{{HOOK_BOTTOM|}}}
+|HOOK_COLLAPSED      = {{{HOOK_COLLAPSED|}}}
+}}</includeonly><!--
+
+
+
+--><includeonly>[[Category:WikiProject banners {{#ifexpr:{{#ifeq:{{lc:{{SUBPAGENAME}}}}|sandbox|1|0}}+{{#ifeq:{{NAMESPACE}}|{{ns:2}}|1|0}}=0
+  |{{#ifeq:{{{class|¬}}}|¬
+    |without
+    |with
+  }} quality assessment
+  |under development
+}}|{{{PROJECT}}}]]</includeonly><!--
+
+
+
+-->{{ombox
+|type=notice
+|image=[[File:Icon tools.svg|50px]]
+|text=This [[:Category:WikiProject banners|WikiProject banner]] uses {{tlx|WPBannerMeta}}, a meta-template for easily creating and maintaining banners and talk-page notices. Any recently appearing error or display issue which is not obviously caused by a [{{fullurl:{{FULLPAGENAME}}|action=history}} recent edit] to this template is probably due to an error in, or recent update to, [[Template:WPBannerMeta]] or one of its [[Special:Prefixindex/Template:WPBannerMeta/|subpages]]. Please report any such errors to [[Template talk:WPBannerMeta]], so that any errors can be fixed for this and other projects. Any information or warnings about the template are below:{{#ifexpr:{{#ifexist:{{{BANNER_NAME|}}}/class|{{PAGESIZE:{{{BANNER_NAME|}}}/class|R}}|0}}
+ |<br/>
+{{#ifeq:{{{QUALITY_SCALE}}}|subpage
+  |*A '''[[{{{BANNER_NAME}}}/class|custom class mask]]''' is in use.[[Category:WPBannerMeta templates using custom classes|{{{PROJECT}}}]]
+  |*The [[{{{BANNER_NAME}}}/class|/class subpage]] is currently not in use. To use it, set {{para|QUALITY_SCALE|subpage}}. To remove this warning, please delete or blank that subpage.[[Category:WPBannerMeta templates using custom classes|*{{{PROJECT}}}]]
+ }}
+ |{{#ifeq:{{{QUALITY_SCALE}}}|subpage
+  |<br/>
+*The ''QUALITY_SCALE'' parameter is set to "subpage" but there is no custom class mask held at [[{{{BANNER_NAME}}}/class|/class]]. Therefore the quality scale has been switched off.[[Category:WPBannerMeta templates using custom classes|!{{{PROJECT}}}]]
+ }}
+}}{{#ifexpr:{{#ifexist:{{{BANNER_NAME|}}}/importance|{{PAGESIZE:{{{BANNER_NAME|}}}/importance|R}}|0}}
+ |<br/>
+{{#ifeq:{{{IMPORTANCE_SCALE}}}|subpage
+  |*A '''[[{{{BANNER_NAME}}}/importance|custom importance mask]]''' is in use.
+  |*The [[{{{BANNER_NAME}}}/importance|/importance subpage]] is currently not in use. To use it, set {{para|IMPORTANCE_SCALE|subpage}}. To remove this warning, please delete or blank that subpage.
+ }}
+ |{{#ifeq:{{{IMPORTANCE_SCALE}}}|subpage
+  |<br/>
+*The ''IMPORTANCE_SCALE'' parameter is set to "subpage" but there is no custom importance mask held at [[{{{BANNER_NAME}}}/importance|/importance]]. Therefore the importance scale has been switched off.
+ }}
+}}{{#ifeq:{{{class|¬}}}{{{importance|¬}}}|¬¬|
+ |{{#if:{{{RAW_ASSESSMENT_LINK|}}}
+  |{{#ifexist:{{{RAW_ASSESSMENT_LINK}}}
+   |
+   |<br/>
+*This project banner specifies a non-existent assessment page [[{{{ASSESSMENT_LINK}}}]]. Please '''[{{fullurl:{{{BANNER_NAME}}}|action=edit&summary={{urlencode:Fixing ASSESSMENT_LINK parameter pointing to nonexistent page}}}} update or remove]''' the ASSESSMENT_LINK parameter to fix this problem.
+  }}
+  |{{#if:{{{ASSESSMENT_LINK|}}}
+   |<br/>
+*This project banner does not specify an assessment page but is using, by default, the page [[{{{ASSESSMENT_LINK}}}]]. Please check [[Template:WPBannerMeta/Assessment link|here]] for more information and consider [{{fullurl:{{{BANNER_NAME}}}|action=edit&summary={{urlencode:Setting ASSESSMENT_LINK parameter}}}} adding] the ''ASSESSMENT_LINK'' parameter to the template.
+  }}
+ }}
+}}{{#ifexpr:{{#ifeq:{{{auto|¬}}}|¬|0|1}}+{{#ifeq:{{{attention|¬}}}|¬|0|1}}+{{#ifeq:{{{infobox|¬}}}|¬|0|1}}+{{#ifeq:{{{note 1}}}|¬|0|{{#if:{{{N_1_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 2}}}|¬|0|{{#if:{{{N_2_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 3}}}|¬|0|{{#if:{{{N_3_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 4}}}|¬|0|{{#if:{{{N_4_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 5}}}|¬|0|{{#if:{{{N_5_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 6}}}|¬|0|{{#if:{{{N_6_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 7}}}|¬|0|{{#if:{{{N_7_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 8}}}|¬|0|{{#if:{{{N_8_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 9}}}|¬|0|{{#if:{{{N_9_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 10}}}|¬|0|{{#if:{{{N_10_TEXT|}}}|1|0}}}}+{{{HOOK_COLLAPSED|0}}}>{{#iferror:{{#expr:0+{{{COLLAPSED|¬}}}*1}}|2}}
+ |<br/>
+* The {{#expr:{{#ifeq:{{{auto}}}|¬|0|1}}+{{#ifeq:{{{attention}}}|¬|0|1}}+{{#ifeq:{{{infobox}}}|¬|0|1}}+{{#ifeq:{{{note 1}}}|¬|0|{{#if:{{{N_1_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 2}}}|¬|0|{{#if:{{{N_2_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 3}}}|¬|0|{{#if:{{{N_3_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 4}}}|¬|0|{{#if:{{{N_4_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 5}}}|¬|0|{{#if:{{{N_5_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 6}}}|¬|0|{{#if:{{{N_6_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 7}}}|¬|0|{{#if:{{{N_7_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 8}}}|¬|0|{{#if:{{{N_8_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 9}}}|¬|0|{{#if:{{{N_9_TEXT|}}}|1|0}}}}+{{#ifeq:{{{note 10}}}|¬|0|{{#if:{{{N_10_TEXT|}}}|1|0}}}}+{{{HOOK_COLLAPSED|0}}}}} notes in this template will automatically collapse if {{#ifeq:{{{COLLAPSED}}}|0
+ |any
+ |more than {{#iferror:{{#expr:0+{{{COLLAPSED|¬}}}*1}}|2}}
+}} of them are activated. To change this setting, set or update the COLLAPSED parameter.
+}}{{#if:{{{HOOK_NOTE|}}}
+ |{{#ifeq:{{{RAW_HOOK_COLLAPSED|}}}|auto
+  |
+  |{{#iferror:{{#expr:0+{{{RAW_HOOK_COLLAPSED|¬}}}*1}}
+   |<br/>
+*A hook is attached to the HOOK_NOTE parameter but no valid counter has been attached to HOOK_COLLAPSED. If the hook can output more than one row, you may like to add the [[Template:WPBannerMeta/hooks/notecounter|notecounter hook]] to ensure consistent collapsing behaviour.[[Category:WikiProject banners with formatting errors|Hook collapsed]]
+   |
+  }}
+ }}
+}}{{#ifeq:{{{substcheck|}}}|¬
+ |<br/>
+*A feature for detecting incorrectly [[Wikipedia:Template substitution|substituted]] project banners has not yet been implemented on this template. Please see the [[Template:WPBannerMeta/doc#Simple options|documentation]] for how to set the ''substcheck'' parameter.<includeonly>[[Category:WikiProject banners with formatting errors|Check]]</includeonly>
+}}{{#if:{{{PORTAL|}}}
+ |<br/>
+*This banner template includes a link to [[Portal:{{{PORTAL}}}]]{{#ifeq:{{#invoke:Portal|image|{{{PORTAL}}}}}|Portal-puzzle.svg
+  |. You may wish to define a custom image to accompany this link; please read the [[Template:Portal/doc#Image|instructions]].
+  |, and the accompanying image is [[:File:{{#invoke:Portal|image|{{{PORTAL}}}}}]]. See the [[Template:Portal/doc#Image|instructions]] on how to change this.
+ }}
+}}
+}}<!--
+
+
+-->{{#if:{{{N_1_FORMAT|}}}{{{N_2_FORMAT|}}}{{{N_3_FORMAT|}}}{{{N_4_FORMAT|}}}{{{N_5_FORMAT|}}}{{{N_6_FORMAT|}}}{{{N_7_FORMAT|}}}{{{N_8_FORMAT|}}}{{{N_9_FORMAT|}}}{{{N_10_FORMAT|}}}|[[Category:WPBannerMeta templates using format parameters|{{{PROJECT}}}]]}}<!--
+
+
+-->{{#switch:{{{QUALITY_SCALE}}}
+  |extended=<!--[[Category:WPBannerMeta templates using the extended quality scale|{{{PROJECT}}}]]-->
+  |inline=[[Category:WPBannerMeta templates using custom classes|{{{PROJECT}}}]]
+}}<!--
+
+
+-->{{WPBannerMeta/templatepage/checkcat
+ |PROJECT={{{PROJECT}}}
+ |ASSESSMENT_CAT={{{ASSESSMENT_CAT}}}
+ |QUALITY_SCALE={{#ifeq:{{{class|¬}}}|¬
+  |none
+  |{{{QUALITY_SCALE|}}}
+ }}
+ |IMPORTANCE_SCALE={{#ifeq:{{{importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+ |IMPN={{{IMPN}}}
+}}{{#ifeq:{{{tf 1}}}|¬|
+ |{{WPBannerMeta/templatepage/checkcat
+  |PROJECT={{{PROJECT}}}
+  |NAME={{{TF_1_NAME|}}}
+  |ASSESSMENT_CAT_NAME=TF_1_ASSESSMENT_CAT
+  |ASSESSMENT_CAT={{{TF_1_ASSESSMENT_CAT}}}
+  |QUALITY_SCALE={{#if:{{{TF_1_QUALITY|}}}
+   |{{{QUALITY_SCALE|}}}
+   |none
+  }}
+  |IMPORTANCE_SCALE={{#ifeq:{{{tf 1 importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+  |IMPN={{{IMPN}}}
+ }}
+}}{{#ifeq:{{{tf 2}}}|¬|
+ |{{WPBannerMeta/templatepage/checkcat
+  |PROJECT={{{PROJECT}}}
+  |NAME={{{TF_2_NAME|}}}
+  |ASSESSMENT_CAT_NAME=TF_2_ASSESSMENT_CAT
+  |ASSESSMENT_CAT={{{TF_2_ASSESSMENT_CAT}}}
+  |QUALITY_SCALE={{#if:{{{TF_2_QUALITY|}}}
+   |{{{QUALITY_SCALE|}}}
+   |none
+  }}
+  |IMPORTANCE_SCALE={{#ifeq:{{{tf 2 importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+  |IMPN={{{IMPN}}}
+ }}
+}}{{#ifeq:{{{tf 3}}}|¬|
+ |{{WPBannerMeta/templatepage/checkcat
+  |PROJECT={{{PROJECT}}}
+  |NAME={{{TF_3_NAME|}}}
+  |ASSESSMENT_CAT_NAME=TF_3_ASSESSMENT_CAT
+  |ASSESSMENT_CAT={{{TF_3_ASSESSMENT_CAT}}}
+  |QUALITY_SCALE={{#if:{{{TF_3_QUALITY|}}}
+   |{{{QUALITY_SCALE|}}}
+   |none
+  }}
+  |IMPORTANCE_SCALE={{#ifeq:{{{tf 3 importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+  |IMPN={{{IMPN}}}
+ }}
+}}{{#ifeq:{{{tf 4}}}|¬|
+ |{{WPBannerMeta/templatepage/checkcat
+  |PROJECT={{{PROJECT}}}
+  |NAME={{{TF_4_NAME|}}}
+  |ASSESSMENT_CAT_NAME=TF_4_ASSESSMENT_CAT
+  |ASSESSMENT_CAT={{{TF_4_ASSESSMENT_CAT}}}
+  |QUALITY_SCALE={{#if:{{{TF_4_QUALITY|}}}
+   |{{{QUALITY_SCALE|}}}
+   |none
+  }}
+  |IMPORTANCE_SCALE={{#ifeq:{{{tf 4 importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+  |IMPN={{{IMPN}}}
+ }}
+}}{{#ifeq:{{{tf 5}}}|¬|
+ |{{WPBannerMeta/templatepage/checkcat
+  |PROJECT={{{PROJECT}}}
+  |NAME={{{TF_5_NAME|}}}
+  |ASSESSMENT_CAT_NAME=TF_5_ASSESSMENT_CAT
+  |ASSESSMENT_CAT={{{TF_5_ASSESSMENT_CAT}}}
+  |QUALITY_SCALE={{#if:{{{TF_5_QUALITY|}}}
+   |{{{QUALITY_SCALE|}}}
+   |none
+  }}
+  |IMPORTANCE_SCALE={{#ifeq:{{{tf 5 importance|¬}}}|¬
+   |none
+   |{{{IMPORTANCE_SCALE|}}}
+  }}
+  |IMPN={{{IMPN}}}
+ }}
+}}<!--
+
+
+-->{{#ifexpr:{{#ifeq:{{{attention|¬}}}|¬|0|{{#if:{{{ATTENTION_CAT|}}}|{{#ifexist:Category:{{{ATTENTION_CAT}}}|0|1}}|0}}}}
++{{#ifeq:{{{infobox|¬}}}|¬|0|{{#if:{{{INFOBOX_CAT|}}}|{{#ifexist:Category:{{{INFOBOX_CAT}}}|0|1}}|0}}}}
++{{#ifeq:{{{auto|¬}}}|¬|0|{{#if:{{{AUTO_ASSESS_CAT|}}}|{{#ifexist:Category:{{{AUTO_ASSESS_CAT}}}|0|1}}|0}}}}
++{{#if:{{{N_1_CAT|}}}|{{#ifexist:Category:{{{N_1_CAT}}}|0|1}}|0}}
++{{#if:{{{N_2_CAT|}}}|{{#ifexist:Category:{{{N_2_CAT}}}|0|1}}|0}}
++{{#if:{{{N_3_CAT|}}}|{{#ifexist:Category:{{{N_3_CAT}}}|0|1}}|0}}
++{{#if:{{{N_4_CAT|}}}|{{#ifexist:Category:{{{N_4_CAT}}}|0|1}}|0}}
++{{#if:{{{N_5_CAT|}}}|{{#ifexist:Category:{{{N_5_CAT}}}|0|1}}|0}}
++{{#if:{{{N_6_CAT|}}}|{{#ifexist:Category:{{{N_6_CAT}}}|0|1}}|0}}
++{{#if:{{{N_7_CAT|}}}|{{#ifexist:Category:{{{N_7_CAT}}}|0|1}}|0}}
++{{#if:{{{N_8_CAT|}}}|{{#ifexist:Category:{{{N_8_CAT}}}|0|1}}|0}}
++{{#if:{{{N_9_CAT|}}}|{{#ifexist:Category:{{{N_9_CAT}}}|0|1}}|0}}
++{{#if:{{{N_10_CAT|}}}|{{#ifexist:Category:{{{N_10_CAT}}}|0|1}}|0}}
++{{#if:{{{TF_1_MAIN_CAT|}}}|{{#ifexist:Category:{{{TF_1_MAIN_CAT}}}|0|1}}|0}}
++{{#if:{{{TF_2_MAIN_CAT|}}}|{{#ifexist:Category:{{{TF_2_MAIN_CAT}}}|0|1}}|0}}
++{{#if:{{{TF_3_MAIN_CAT|}}}|{{#ifexist:Category:{{{TF_3_MAIN_CAT}}}|0|1}}|0}}
++{{#if:{{{TF_4_MAIN_CAT|}}}|{{#ifexist:Category:{{{TF_4_MAIN_CAT}}}|0|1}}|0}}
++{{#if:{{{TF_5_MAIN_CAT|}}}|{{#ifexist:Category:{{{TF_5_MAIN_CAT}}}|0|1}}|0}}
++{{#if:{{{MAIN_CAT|}}}|{{#ifexist:Category:{{{MAIN_CAT}}}|0|1}}|0}}
+|{{ombox
+  |type=content
+  |image=[[File:Nuvola apps kfig.svg|50px]]
+  |text=The following categories are required for the banner to work correctly. Please either create these categories or adjust the banner so that they are not required.
+{{#ifeq:{{{attention}}}|¬||{{WPBannerMeta/templatepage/catother|CAT={{{ATTENTION_CAT}}}|PROJECT={{{PROJECT|}}}}}
+}}{{#ifeq:{{{infobox}}}|¬||{{WPBannerMeta/templatepage/catother|CAT={{{INFOBOX_CAT}}}|PROJECT={{{PROJECT|}}}}}
+}}{{#ifeq:{{{auto}}}|¬||{{WPBannerMeta/templatepage/catother|CAT={{{AUTO_ASSESS_CAT}}}|PROJECT={{{PROJECT|}}}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_1_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_2_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_3_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_4_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_5_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_6_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_7_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_8_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_9_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{N_10_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{TF_1_MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{TF_2_MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{TF_3_MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{TF_4_MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{TF_5_MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}{{WPBannerMeta/templatepage/catother|CAT={{{MAIN_CAT|}}}|PROJECT={{{PROJECT|}}}
+}}
+}}
+}}<!--
+
+****** TRACKING CATEGORIES ******
+
+-->{{#ifeq:{{{PROJECT_NAME}}}|WikiProject {{{PROJECT}}}
+ |{{#ifexpr:{{#ifeq:{{lc:{{SUBPAGENAME}}}}|sandbox|1|0}}+{{#ifeq:{{NAMESPACE}}|{{ns:2}}|1|0}}=0
+  |{{#ifeq:{{#titleparts:{{FULLPAGENAME}}|1}}|Template:WikiProject {{{PROJECT}}}|
+   |<includeonly>[[Category:WikiProject banners with non-standard names|{{{PROJECT}}}]]</includeonly>
+  }}
+ }}
+}}<!--
+
+-->{{#switch:{{{QUALITY_SCALE}}}
+ |subpage=[[Category:WPBannerMeta templates using custom classes|S{{{PROJECT}}}]]
+ |inline=[[Category:WPBannerMeta templates using custom classes|I{{{PROJECT}}}]]
+}}
+<includeonly>[[Category:Exclude in print]]</includeonly>
