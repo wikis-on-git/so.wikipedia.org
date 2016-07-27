@@ -1,0 +1,24 @@
+{{Sister project
+|position={{{position|}}}
+|project=wiktionary
+|text=Look up '''''[[wiktionary:{{{1|Special:Search/{{lc:{{SUBPAGENAME}}}}}}}|{{{1|{{lc:{{SUBPAGENAME}}}}}}}]]'''''{{#if:{{{2|}}}
+  |{{#if:{{{3|}}}
+   |,
+   |&nbsp;or
+  }} '''''[[wiktionary:{{{2}}}|{{{2}}}]]'''''
+ }}{{#if:{{{3|}}}
+  |{{#if:{{{4|}}}
+   |,
+   |, or
+  }} '''''[[wiktionary:{{{3}}}|{{{3}}}]]'''''
+ }}{{#if:{{{4|}}}
+  |{{#if:{{{5|}}}
+   |,
+   |, or
+  }} '''''[[wiktionary:{{{4}}}|{{{4}}}]]'''''
+ }}{{#if:{{{5|}}}
+  |, or '''''[[wiktionary:{{{5}}}|{{{5}}}]]'''''
+ }} in Wiktionary, the free dictionary.
+}}<noinclude>
+{{documentation}}
+</noinclude>
