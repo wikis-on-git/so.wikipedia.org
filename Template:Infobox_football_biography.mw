@@ -372,7 +372,7 @@
   }}
 
 | belowstyle  = color:darkslategray; font-size:95%
-| below       = {{#if:{{{clubs1|{{{clubs|}}}}}}|* Senior club appearances and goals counted for the domestic league only{{#if:{{{pcupdate|{{{club-update|}}}}}}|&#32;and correct as of {{{pcupdate|{{{club-update}}}}}}}}.{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}{{{years1|{{{years|}}}}}}|<br />}} }}
+| below       = {{#if:{{{clubs1|{{{clubs|}}}}}}|* Cayaaraha naadiyaasha waaweyn iyo goolasha waxaa la xisaabayaa horyaalka gudaha oo kaliya{{#if:{{{pcupdate|{{{club-update|}}}}}}|&#32;oo sida saxda ah {{{pcupdate|{{{club-update}}}}}}}}.{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}{{{years1|{{{years|}}}}}}|<br />}} }}
 {{#if:{{{years1|{{{years|}}}}}}{{{clubs1|{{{clubs|}}}}}}{{{nationalteam1|{{{nationalteam|}}}}}}|† Appearances (Goals).{{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}{{{years1|{{{years|}}}}}}|<br />}} }}
 {{#if:{{{ntupdate|{{{nationalteam-update|}}}}}}|‡ National team caps and goals correct as of {{{ntupdate|{{{nationalteam-update}}}}}} }}
 }}<!--
