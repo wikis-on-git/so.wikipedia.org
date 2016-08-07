@@ -17,5 +17,16 @@
 }}
 
 '''Antalya''' waa magaalo ku taala koonfurta wadanka [[Turkiga]] waana caasimadda gobolka isla gobolka Antalya. Waa magaalo xeebeed ku taalo Badda ''Mediterreneanka'' waxayna caan ku tahay dalxiiska iyo ganacsiga waxaana lagu naaneesaa caasimada dalxiiska iyo fasaxyada dalka Turkiga.
-{{Gumud}}
-{{Magaalooyinka Turkiga}}
+
+{{Navbox
+| name  = Magaalooyinka Turkiga
+| state = {{#if: {{{state|}}} | {{{state}}} | autocollapse }}
+| title = {{flagicon|Turkey}} Magaalooyinka Turkiga
+| listclass = hlist
+| list1 =
+* [[Adana]]
+* [[Ankara]]
+* [[Antalya]]
+* [[Kayseri]]
+* [[Istanbuul]]
+}}
