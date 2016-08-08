@@ -6,6 +6,8 @@
 | imageclass = logo
 | image      = {{{logo<includeonly>|{{{company_logo|}}}</includeonly>}}}
 | caption    = {{{caption|}}}
+| image2 = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |alt={{{image_alt|}}}}}
+| caption2 = {{{image_caption|}}}
 
 | label1     = {{nowrap|Magac ganacsi}}
 | data1      = {{{trading_name<includeonly>|</includeonly>}}}
