@@ -1,35 +1,183 @@
 {{Infobox
-| abovestyle = background-color: #cedeff
-| above      = {{{name|{{{river_name|<includeonly>{{PAGENAME}}</includeonly>}}}}}}
-| image      = {{#if:{{{image_name|}}}|[[File:{{{image_name|}}}|{{px|{{{image_size|}}}|288px}}|alt={{{image_alt|}}}]]}}
-| imagestyle = border: 1px solid #cedeff
-| caption    = {{{caption|}}}
-| image2     = {{#if:{{{image_map|}}}|[[File:{{{image_map|}}}|{{px|{{{map_size|}}}|288px}}|alt={{{map_alt|}}}]]}}
+| child      = {{{embed|}}}
+| abovestyle = background-color: #CEDEFF;
+| above      = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| headerstyle= background-color: #CEDEFF;
+
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{image_alt|}}}}}
+| caption    = {{{image_caption|}}}
+
+| image2     = {{#invoke:InfoboxImage|InfoboxImage|image={{{map|}}}|size={{{map_size|}}}|sizedefault=frameless|alt={{{map_alt|}}}}}
 | caption2   = {{{map_caption|}}}
-| label1     = [[River source|Origin]]
-| data1      = {{{origin|}}}
-| label2     = Mouth
-| data2      = {{{mouth|}}}
-| label3     = Progression
-| data3      = {{{progression|}}}
-| label4     = [[Drainage basin|Basin]] countries
-| data4      = {{{basin_countries|}}}
-| label5     = [[Location (geography)|Location]]
-| data5      = {{{location|}}}
-| label6     = Length
-| data6      = {{#if:{{{length_km|}}}|{{#if:{{{length_mi|}}}|{{formatnum:{{{length_km}}}&nbsp;km ({{{length_mi}}}&nbsp;mi)}}|{{convert|{{{length_km}}}|km|abbr=on}} }}|{{#if:{{{length_mi|}}}|{{convert|{{{length_mi}}}|mi|abbr=on}} }} }}{{{length|}}}
-| label7     = [[River source|Source]] elevation
-| data7      = {{#if:{{{elevation_m|}}}|{{#if:{{{elevation_ft|}}}|{{formatnum:{{{elevation_m}}}&nbsp;m ({{{elevation_ft}}}&nbsp;ft)}}|{{convert|{{{elevation_m}}}|m|abbr=on}} }}|{{#if:{{{elevation_ft|}}}|{{convert|{{{elevation_ft}}}|ft|abbr=on}} }} }}{{{elevation|}}}
-| label8     = Mouth elevation
-| data8      = {{#if:{{{mouth_elevation_m|}}}|{{#if:{{{mouth_elevation_ft|}}}|{{formatnum:{{{mouth_elevation_m}}}&nbsp;m ({{{mouth_elevation_ft}}}&nbsp;ft)}}|{{convert|{{{mouth_elevation_m}}}|m|abbr=on}} }}|{{#if:{{{mouth_elevation_ft|}}}|{{convert|{{{mouth_elevation_ft}}}|ft|abbr=on}} }} }}{{{mouth_elevation|}}}
-| label9     = Avg. [[Discharge (hydrology)|discharge]]
-| data9      = {{#if: {{{discharge|}}}{{{discharge_m3/s|}}}{{{discharge_cuft/s|}}}|{{#if:{{{discharge_m3/s|}}}|{{#if:{{{discharge_cuft/s|}}}|{{formatnum:{{{discharge_m3/s}}}&nbsp;[[cubic metres per second|m<sup>3</sup>/s]] ({{{discharge_cuft/s}}}&nbsp;[[cubic feet per second|cu&nbsp;ft/s]])}}|{{convert|{{{discharge_m3/s}}}|m3/s|abbr=on}} }}|{{#if:{{{discharge_cuft/s|}}}|{{convert|{{{discharge_cuft/s}}}|cuft/s|abbr=on}} }} }}{{{discharge|&#32;at mouth}}} }}
-| label10    = Basin area
-| data10     = {{#if:{{{watershed_km2|}}}|{{#if:{{{watershed_sqmi|}}}|{{formatnum:{{{watershed_km2}}}&nbsp;km<sup>2</sup> ({{{watershed_sqmi}}}&nbsp;sq&nbsp;mi)}}|{{convert|{{{watershed_km2}}}|km2|abbr=on}} }}|{{#if:{{{watershed_sqmi|}}}|{{convert|{{{watershed_sqmi}}}|sqmi|abbr=on}} }} }}{{{watershed|}}}
-| label11    = River system
-| data11     = {{{river_system|}}}
-| label12    = Left tributaries
-| data12     = {{{left_tribs|}}}
-| label13    = Right tributaries
-| data13     = {{{right_tribs|}}}
-}}<noinclude>{{documentation}}<!-- place category and language links on the /doc page --></noinclude>
+
+| label1     = Native name
+| data1      = {{#if:{{{name_native|}}}|<span class="nickname" {{#if:{{{name_native_lang|}}}|lang="{{{name_native_lang}}}"}}>{{{name_native}}}</span>}}
+
+| label2     = Other&nbsp;name(s)
+| data2      = {{{name_other|}}}
+
+| label3     = Etymology
+| data3      = {{{etymology|}}}
+
+| label5     = {{#if:{{{subdivision_type1|}}}|{{{subdivision_type1}}}|Country}}
+| data5      = {{#if:{{{subdivision_type1|}}}|{{{subdivision_name1|}}}|{{{country|{{{basin_countries|}}}}}}}}
+
+| label6     = {{#if:{{{subdivision_type2|}}}|{{{subdivision_type2}}}|States}}
+| data6      = {{#if:{{{subdivision_type2|}}}|{{{subdivision_name2|}}}|{{{states|}}}}}
+
+| label7     = {{#if:{{{subdivision_type3|}}}|{{{subdivision_type3}}}|Cities}}
+| data7      = {{#if:{{{subdivision_type3|}}}|{{{subdivision_name3|}}}|{{{cities|}}}}}
+
+| header11   = {{#if:{{{river_system|}}}{{{progression|}}}{{{source1_location|}}}{{{source1_lat_d|}}}{{{source1_lat_m|}}}{{{source1_lat_s|}}}{{{source1_lat_NS|}}}{{{source1_long_d|}}}{{{source1_long_m|}}}{{{source1_long_s|}}}{{{source1_long_EW|}}}{{{source1_elevation|}}}{{{mouth_location|}}}{{{mouth_lat_d|}}}{{{mouth_lat_m|}}}{{{mouth_lat_s|}}}{{{mouth_lat_NS|}}}{{{mouth_long_d|}}}{{{mouth_long_m|}}}{{{mouth_long_s|}}}{{{mouth_long_EW|}}}{{{mouth_elevation|}}}{{{altitude_difference|}}}{{{basin_size|}}}{{{basin_landmarks|}}}{{{basin_population|}}}|Basin}}
+
+| label12    = Main source
+| data12     = {{br separated entries|1={{{source1_location|}}}|2={{{source1_elevation|}}}|3={{#if:{{both|{{{source1_lat_d|}}}|{{{source1_long_d|}}}}} | {{geobox coor|{{{source1_lat_d|}}}|{{{source1_lat_m|}}}|{{{source1_lat_s|}}}|{{{source1_lat_NS|}}}|{{{source1_long_d|}}}|{{{source1_long_m|}}}|{{{source1_long_s|}}}|{{{source1_long_EW|}}}|{{#if:{{{source1_coord_region|}}}|region:{{{source1_coord_region}}}_}}type:river|format={{{source1_coord_format|}}}|wrap=true|name={{{source1_coord_name|Primary source of {{{name|{{PAGENAMEBASE}}}}}}}}}}{{{source1_coord_ref|}}} }} }}
+
+| label13    = 2nd source
+| data13     = {{br separated entries|1={{{source2_location|}}}|2={{{source2_elevation|}}}|3={{#if:{{both|{{{source2_lat_d|}}}|{{{source2_long_d|}}}}} | {{geobox coor|{{{source2_lat_d|}}}|{{{source2_lat_m|}}}|{{{source2_lat_s|}}}|{{{source2_lat_NS|}}}|{{{source2_long_d|}}}|{{{source2_long_m|}}}|{{{source2_long_s|}}}|{{{source2_long_EW|}}}|{{#if:{{{source2_coord_region|}}}|region:{{{source2_coord_region}}}_}}type:river|format={{{source2_coord_format|}}}|wrap=true|name={{{source2_coord_name|2nd source of {{{name|{{PAGENAMEBASE}}}}}}}}}}{{{source2_coord_ref|}}} }} }}
+
+| label14    = 3rd source
+| data14     = {{br separated entries|1={{{source3_location|}}}|2={{{source3_elevation|}}}|3={{#if:{{both|{{{source3_lat_d|}}}|{{{source3_long_d|}}}}} | {{geobox coor|{{{source3_lat_d|}}}|{{{source3_lat_m|}}}|{{{source3_lat_s|}}}|{{{source3_lat_NS|}}}|{{{source3_long_d|}}}|{{{source3_long_m|}}}|{{{source3_long_s|}}}|{{{source3_long_EW|}}}|{{#if:{{{source3_coord_region|}}}|region:{{{source3_coord_region}}}_}}type:river|format={{{source3_coord_format|}}}|wrap=true|name={{{source3_coord_name|3rd source of {{{name|{{PAGENAMEBASE}}}}}}}}}}{{{source3_coord_ref|}}} }} }}
+
+| label15    = 4th source
+| data15     = {{br separated entries|1={{{source4_location|}}}|2={{{source4_elevation|}}}|3={{#if:{{both|{{{source4_lat_d|}}}|{{{source4_long_d|}}}}} | {{geobox coor|{{{source4_lat_d|}}}|{{{source4_lat_m|}}}|{{{source4_lat_s|}}}|{{{source4_lat_NS|}}}|{{{source4_long_d|}}}|{{{source4_long_m|}}}|{{{source4_long_s|}}}|{{{source4_long_EW|}}}|{{#if:{{{source4_coord_region|}}}|region:{{{source4_coord_region}}}_}}type:river|format={{{source4_coord_format|}}}|wrap=true|name={{{source4_coord_name|4th source of {{{name|{{PAGENAMEBASE}}}}}}}}}}{{{source4_coord_ref|}}} }} }}
+
+| label16    = 5th source
+| data16     = {{br separated entries|1={{{source5_location|}}}|2={{{source5_elevation|}}}|3={{#if:{{both|{{{source5_lat_d|}}}|{{{source5_long_d|}}}}} | {{geobox coor|{{{source5_lat_d|}}}|{{{source5_lat_m|}}}|{{{source5_lat_s|}}}|{{{source5_lat_NS|}}}|{{{source5_long_d|}}}|{{{source5_long_m|}}}|{{{source5_long_s|}}}|{{{source5_long_EW|}}}|{{#if:{{{source5_coord_region|}}}|region:{{{source5_coord_region}}}_}}type:river|format={{{source5_coord_format|}}}|wrap=true|name={{{source5_coord_name|5th source of {{{name|{{PAGENAMEBASE}}}}}}}}}}{{{source5_coord_ref|}}} }} }}
+
+| label17    = [[River mouth]]
+| data17     = {{br separated entries|1={{{mouth_location|}}}|2={{{mouth_elevation|}}}|3={{#if:{{both|{{{mouth_lat_d|}}}|{{{mouth_long_d|}}}}} | {{geobox coor|{{{mouth_lat_d|}}}|{{{mouth_lat_m|}}}|{{{mouth_lat_s|}}}|{{{mouth_lat_NS|}}}|{{{mouth_long_d|}}}|{{{mouth_long_m|}}}|{{{mouth_long_s|}}}|{{{mouth_long_EW|}}}|{{#if:{{{mouth_coord_region|}}}|region:{{{mouth_coord_region}}}_}}type:river|format={{{mouth_coord_format|}}}|wrap=true|name={{{mouth_coord_name|Mouth of {{PAGENAMEBASE}}}}}|title={{#switch:{{{mouth_coord_display|title}}}|title|t|it|inline,title|title,inline=y|#default=}}}}{{{mouth_coord_ref|}}} }} }}
+
+| label18    = [[Altitude|Alt]]. difference
+| data18     = {{{altitude_difference|}}}
+
+| label19    = Progression
+| data19     = {{{progression|}}}
+
+| label20    = [[Drainage basin|River system]]
+| data20     = {{{river_system|}}}
+
+| label21    = Basin size
+| data21     = {{{basin_size|}}}
+
+| label23    = Landmarks
+| data23     = {{{basin_landmarks|}}}
+
+| label24    = Population
+| data24     = {{{basin_population|}}}
+
+| header30   = {{#if:{{{length|}}}{{{width_min|}}}{{{width_avg|}}}{{{width_max|}}}{{{depth_min|}}}{{{depth_avg|}}}{{{depth_max|}}}{{{discharge1_location|}}}{{{discharge1_min|}}}{{{discharge1_avg|}}}{{{discharge1_max|}}}|Physical characteristics}}
+
+| label31    = Length
+| data31     = {{{length|}}}
+
+| label32    = Width
+| data32     = {{#if:{{{width_min|}}}{{{width_avg|}}}{{{width_max|}}}|{{plainlist|
+{{#if:{{{width_min|}}}|
+* '''Minimum width:'''<br>{{{width_min|}}}}}
+{{#if:{{{width_avg|}}}|
+* '''Average width:'''<br>{{{width_avg|}}}}}
+{{#if:{{{width_max|}}}|
+* '''Maximum width:'''<br>{{{width_max|}}}}}}}
+}}
+
+| label33    = Depth
+| data33     = {{#if:{{{depth_min|}}}{{{depth_avg|}}}{{{depth_max|}}}|{{plainlist|
+{{#if:{{{depth_min|}}}|
+* '''Minimum depth:'''<br>{{{depth_min|}}}}}
+{{#if:{{{depth_avg|}}}|
+* '''Average depth:'''<br>{{{depth_avg|}}}}}
+{{#if:{{{depth_max|}}}|
+* '''Maximum depth:'''<br>{{{depth_max|}}}}}}}
+}}
+
+| label35    = Discharge
+| data35     = {{#if:{{{discharge1_location|}}}{{{discharge1_min|}}}{{{discharge1_avg|}}}{{{discharge1_max|}}}|{{plainlist|
+{{#if:{{{discharge1_location|}}}|
+* '''Location:'''<br>{{{discharge1_location|}}}}}
+{{#if:{{{discharge1_min|}}}|
+* '''Minimum rate:'''<br>{{{discharge1_min|}}}}}
+{{#if:{{{discharge1_avg|}}}|
+* '''Average rate:'''<br>{{{discharge1_avg|}}}}}
+{{#if:{{{discharge1_max|}}}|
+* '''Maximum rate:'''<br>{{{discharge1_max|}}}}}}}
+}}
+
+| label36    = Discharge<br>(location 2)
+| data36     = {{#if:{{{discharge2_location|}}}{{{discharge2_min|}}}{{{discharge2_avg|}}}{{{discharge2_max|}}}|{{plainlist|
+{{#if:{{{discharge2_location|}}}|
+* '''Location:'''<br>{{{discharge2_location|}}}}}
+{{#if:{{{discharge2_min|}}}|
+* '''Minimum rate:'''<br>{{{discharge2_min|}}}}}
+{{#if:{{{discharge2_avg|}}}|
+* '''Average rate:'''<br>{{{discharge2_avg|}}}}}
+{{#if:{{{discharge2_max|}}}|
+* '''Maximum rate:'''<br>{{{discharge2_max|}}}}}}}
+}}
+
+| label37    = Discharge<br>(location 3)
+| data37     = {{#if:{{{discharge3_location|}}}{{{discharge3_min|}}}{{{discharge3_avg|}}}{{{discharge3_max|}}}|{{plainlist|
+{{#if:{{{discharge3_location|}}}|
+* '''Location:'''<br>{{{discharge3_location|}}}}}
+{{#if:{{{discharge3_min|}}}|
+* '''Minimum rate:'''<br>{{{discharge3_min|}}}}}
+{{#if:{{{discharge3_avg|}}}|
+* '''Average rate:'''<br>{{{discharge3_avg|}}}}}
+{{#if:{{{discharge3_max|}}}|
+* '''Maximum rate:'''<br>{{{discharge3_max|}}}}}}}
+}}
+
+| label38    = Discharge<br>(location 4)
+| data38     = {{#if:{{{discharge4_location|}}}{{{discharge4_min|}}}{{{discharge4_avg|}}}{{{discharge4_max|}}}|{{plainlist|
+{{#if:{{{discharge4_location|}}}|
+* '''Location:'''<br>{{{discharge4_location|}}}}}
+{{#if:{{{discharge4_min|}}}|
+* '''Minimum rate:'''<br>{{{discharge4_min|}}}}}
+{{#if:{{{discharge4_avg|}}}|
+* '''Average rate:'''<br>{{{discharge4_avg|}}}}}
+{{#if:{{{discharge4_max|}}}|
+* '''Maximum rate:'''<br>{{{discharge4_max|}}}}}}}
+}}
+
+| label39    = Discharge<br>(location 5)
+| data39     = {{#if:{{{discharge5_location|}}}{{{discharge5_min|}}}{{{discharge5_avg|}}}{{{discharge5_max|}}}|{{plainlist|
+{{#if:{{{discharge5_location|}}}|
+* '''Location:'''<br>{{{discharge5_location|}}}}}
+{{#if:{{{discharge5_min|}}}|
+* '''Minimum rate:'''<br>{{{discharge5_min|}}}}}
+{{#if:{{{discharge5_avg|}}}|
+* '''Average rate:'''<br>{{{discharge5_avg|}}}}}
+{{#if:{{{discharge5_max|}}}|
+* '''Maximum rate:'''<br>{{{discharge5_max|}}}}}}}
+}}
+
+| header45   = {{#if:{{{tributaries_left|}}}{{{tributaries_right|}}}{{{waterbodies|}}}{{{waterfalls|}}}{{{bridges|}}}{{{ports|}}}{{{custom_label|}}}{{{custom_data|}}}{{{extra|}}}|Features}}
+
+| label46    = Tributaries
+| data46     = {{#if:{{{tributaries_left|}}}{{{tributaries_right|}}}|{{plainlist|
+{{#if:{{{tributaries_left|}}}|
+* '''Left:'''<br>{{{tributaries_left|}}}
+}}{{#if:{{{tributaries_right|}}}|
+* '''Right:'''<br>{{{tributaries_right|}}}
+}} }} }}
+
+| label47    = Waterbodies
+| data47     = {{{waterbodies|}}}
+
+| label48    = Waterfalls
+| data48     = {{{waterfalls|}}}
+
+| label49    = Bridges
+| data49     = {{{bridges|}}}
+
+| label50    = [[Inland port]]s
+| data50     = {{{ports|}}}
+
+| label51    = {{{custom_label|}}}
+| data51     = {{{custom_data|}}}
+
+| below         = {{{extra|}}}
+
+}}{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using infobox river with unsupported parameters|_VALUE_{{PAGENAME}}]]|preview = Page using [[Template:Infobox river]] with unknown parameter "_VALUE_"|ignoreblank=y
+| altitude_difference | basin_countries | basin_landmarks | basin_population | basin_size | bridges | cities | country | custom_data | custom_label | depth_avg | depth_max | depth_min | discharge1_avg | discharge1_location | discharge1_max | discharge1_min | discharge2_avg | discharge2_location | discharge2_max | discharge2_min | discharge3_avg | discharge3_location | discharge3_max | discharge3_min | discharge4_avg | discharge4_location | discharge4_max | discharge4_min | discharge5_avg | discharge5_location | discharge5_max | discharge5_min | embed | etymology | extra | image | image_alt | image_caption | image_size | length | map | map_alt | map_caption | map_size | mouth_coord_display | mouth_coord_format | mouth_coord_name | mouth_coord_ref | mouth_coord_region | mouth_elevation | mouth_lat_d | mouth_lat_m | mouth_lat_NS | mouth_lat_s | mouth_location | mouth_long_d | mouth_long_EW | mouth_long_m | mouth_long_s | name | name_native | name_native_lang | name_other | ports | progression | river_system | source1_coord_format | source1_coord_name | source1_coord_ref | source1_coord_region | source1_elevation | source1_lat_d | source1_lat_m | source1_lat_NS | source1_lat_s | source1_location | source1_long_d | source1_long_EW | source1_long_m | source1_long_s | source2_coord_format | source2_coord_name | source2_coord_ref | source2_coord_region | source2_elevation | source2_lat_d | source2_lat_m | source2_lat_NS | source2_lat_s | source2_location | source2_long_d | source2_long_EW | source2_long_m | source2_long_s | source3_coord_format | source3_coord_name | source3_coord_ref | source3_coord_region | source3_elevation | source3_lat_d | source3_lat_m | source3_lat_NS | source3_lat_s | source3_location | source3_long_d | source3_long_EW | source3_long_m | source3_long_s | source4_coord_format | source4_coord_name | source4_coord_ref | source4_coord_region | source4_elevation | source4_lat_d | source4_lat_m | source4_lat_NS | source4_lat_s | source4_location | source4_long_d | source4_long_EW | source4_long_m | source4_long_s | source5_coord_format | source5_coord_name | source5_coord_ref | source5_coord_region | source5_elevation | source5_lat_d | source5_lat_m | source5_lat_NS | source5_lat_s | source5_location | source5_long_d | source5_long_EW | source5_long_m | source5_long_s | states | subdivision_type1 | subdivision_name1 | subdivision_type2 | subdivision_name2 | subdivision_type3 | subdivision_name3 | tributaries_left | tributaries_right | waterbodies | waterfalls | width_avg | width_max | width_min
+}}{{#if:{{{country|}}}|[[Category:Pages using infobox river with "country" parameter]]}}{{#if:{{{basin_countries|}}}|[[Category:Pages using infobox river with "basin_countries" parameter]]}}{{#if:{{{states|}}}|[[Category:Pages using infobox river with "states" parameter]]}}{{#if:{{{cities|}}}|[[Category:Pages using infobox river with "cities" parameter]]}}<noinclude>{{documentation}}</noinclude>
