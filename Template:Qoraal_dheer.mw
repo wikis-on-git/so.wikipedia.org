@@ -1,0 +1,14 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||$N=Plot |date=__DATE__ |$B=
+{{ambox
+| subst = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type  = style
+| class = ambox-Plot
+| issue = Qoraalka {{#if:{{{1|}}}|{{{1}}}|boggan}} '''waa mid [[Wikipedia:Waxbarid|aad u dheer]] ama u qoran nidaam khalad ah ama qaab daran.'''
+| fix   = Fadlan [{{fullurl:{{FULLPAGENAME}}|action=edit}} naga caawi] sidaan u horumarin lahayn maqaalkan. Hadii aad aqoon u leedahay u nidaami sida ugu saxsan.
+| removalnotice = yes
+| cat   = Wikipedia articles with plot summary needing attention
+| date  = {{{date|}}}
+| all   = All Wikipedia articles with plot summary needing attention
+| name  = qoraal dheer
+}}
+}}
