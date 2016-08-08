@@ -1,0 +1,4 @@
+<span style="white-space: nowrap">{{#ifeq:{{{link|no}}}|yes
+ |[[United States dollar|US$]]
+ |US$
+}}{{formatnum:{{{1|}}}}}</span>
