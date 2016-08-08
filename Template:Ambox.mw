@@ -1,36 +1,4 @@
-<!--{{Ambox}} begin-->{{#switch:{{{small|}}}
-| left = 
-  {{Ambox/core
-  | small      = left
-  | type       = {{{type|}}}
-  | image      = {{#if:{{{smallimage|}}}
-                 | {{{smallimage}}}
-                 | {{{image|}}}
-                 }}
-  | imageright = {{#if:{{{smallimageright|}}}
-                 | {{{smallimageright}}}
-                 | {{{imageright|}}}
-                 }}
-  | style      = {{{style|}}}
-  | textstyle  = {{{textstyle|}}}
-  | text       = {{#if:{{{smalltext|}}}
-                 | {{{smalltext}}} 
-                 | {{{text}}} 
-                 }}
-  }}
-| #default = 
-  {{Ambox/core
-  | type       = {{{type|}}}
-  | image      = {{{image|}}}
-  | imageright = {{{imageright|}}}
-  | style      = {{{style|}}}
-  | textstyle  = {{{textstyle|}}}
-  | text       = {{{text}}}
-  }}
-}}<!--
-
---><includeonly>{{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|{{#ifeq:{{NAMESPACE}}|Template|[[Category:Maqaalka Farriinta Sanduuqa]]}}}}</includeonly><!--
-
---><!--{{Ambox}} end--><noinclude>
-
+{{#invoke:Message box|ambox}}{{#ifeq:{{{small}}}|left|[[Category:Articles using small message boxes]]}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
 </noinclude>
