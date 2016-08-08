@@ -62,3 +62,35 @@
 |leader_title1=
 |leader_name1 =
 }}
+
+
+
+==Sidoo Kale Fiiri==
+*[[Istanbuul]]
+*[[Adana]]
+*[[Ankara]]
+*[[Antalya]]
+*[[Bursa]]
+*[[Gaziantep]]
+*[[İzmir]]
+*[[Kayseri]]
+
+==Tixraac==
+{{Reflist}}
+{{gumud}}
+[[Category:Turki]]
+{{Navbox
+| name  = Magaalooyinka Turkiga
+| state = {{#if: {{{state|}}} | {{{state}}} | autocollapse }}
+| title = {{flagicon|Turkey}} Magaalooyinka Turkiga
+| listclass = hlist
+| list1 =
+* [[Adana]]
+* [[Ankara]]
+* [[Antalya]]
+* [[Bursa]]
+* [[Gaziantep]]
+* [[Kayseri]]
+* [[Istanbuul]]
+* [[İzmir]]
+}}
