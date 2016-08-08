@@ -1,0 +1,4 @@
+<span style="white-space: nowrap">{{#ifeq:{{{link|no}}}|yes
+ |[[Jabaaniis yen|¥]]
+ |¥
+}}{{formatnum:{{{1|}}}}}</span>
