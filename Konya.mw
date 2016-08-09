@@ -10,7 +10,7 @@
 |utc_offset_DST=+3
 |official_name = Konya
 |image_skyline = A view of Avenue Nalçacı in Konya.jpg
-|image_caption = A view of Avenue Nalçacı in Konya
+|image_caption = Degmada Nalçacı ee Magaalada Konya
 |imagesize = 250px
 |image_blank_emblem =
 |blank_emblem_type =
@@ -45,3 +45,37 @@
 |gwebsite = [http://www.konya.gov.tr www.konya.gov.tr]
 }}
 <!---please do not insert province information here. The article is about the city NOT the province which has its own article---->
+
+==Sidoo Kale Fiiri==
+*[[Istanbuul]]
+*[[Adana]]
+*[[Ankara]]
+*[[Antalya]]
+*[[Bursa]]
+*[[Eskişehir]]
+*[[Gaziantep]]
+*[[Kayseri]]
+*[[Konya]]
+*[[İzmir]]
+
+==Tixraac==
+{{Reflist}}
+{{gumud}}
+[[Category:Turki]]
+{{Navbox
+| name  = Magaalooyinka Turkiga
+| state = {{#if: {{{state|}}} | {{{state}}} | autocollapse }}
+| title = {{flagicon|Turkey}} Magaalooyinka Turkiga
+| listclass = hlist
+| list1 =
+* [[Adana]]
+* [[Ankara]]
+* [[Antalya]]
+* [[Bursa]]
+* [[Eskişehir]]
+* [[Gaziantep]]
+* [[Kayseri]]
+* [[Konya]]
+* [[Istanbuul]]
+* [[İzmir]]
+}}
