@@ -102,3 +102,22 @@ Waxaan go'aansanay adeegsadeyaashaan in laga helay sifada ah kuwa aan shaqaynin 
 Isticmaale-yaashaan waxeey heli doonaan ogeeysiiska sida ugu dhaqsiyaha badan, iyagoo laga codsanayo in ay furaan wadahadal ay bulshada kaga doodayaan hadii ay doonayaan xuquuqdooda dhamaan ama wax ka mid ah. Haddii aaneey ka jawaabin, kadib waxaa dhici doonta in laga qaado xuquudooda hormarsan waxaana ka qaadi doona steward-ka.
 
 Si kastaba ha ahaatee, haddii aad tahay sida bulshada doneeysa abuuris howsha dhaqdhaqaaqaada gaarka ah waxaad geli kartaa booska kuwa caalamiga ah, taasoo aad ku dooneeyso inaad furto wadahadal cusub taasoo ku saabsan firfircooni la'aan, ama ay hayaan xeer kale kaasoo aan iloownay, fadlan kusoo bandhig [[:m:Stewards' noticeboard|steward-ka ee Meta-Wiki]] sidaas daraadeed waan ognahay soo bandhigista xuquuqda gaarka ah ee wikiga. Mahadsanid, '''[[User:Rschen7754|Rs]][[User talk:Rschen7754|chen]][[Special:Contributions/Rschen7754|7754]]''' 02:40, 22 Luuliyo 2016 (UTC)
+
+== Save/Publish ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+The [[:mw:Editing|Editing]] team is planning to change the name of the [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Savearticle “<bdi>{{int:Savearticle}}</bdi>”] button to [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Publishpage “'''<bdi>{{int:Publishpage}}</bdi>'''”] and [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Publishchanges “'''<bdi>{{int:Publishchanges}}</bdi>'''”]. “<bdi>{{int:Publishpage}}</bdi>” will be used when you create a new page. “<bdi>{{int:Publishchanges}}</bdi>” will be used when you change an existing page. The names will be consistent in all editing environments.[https://phabricator.wikimedia.org/T131132][https://phabricator.wikimedia.org/T139033]
+
+This change will probably happen during the week of 30 August 2016. The change will be announced in [[:m:Special:MyLanguage/Tech/News|Tech News]] when it happens.
+
+If you are fluent in a language other than English, please check the status of translations at translatewiki.net for [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Publishpage “'''<bdi>{{int:Publishpage}}</bdi>'''”] and [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Publishchanges “'''<bdi>{{int:Publishchanges}}</bdi>'''”].
+
+The main reason for this change is to avoid confusion for new editors. Repeated user research studies with new editors have shown that some new editors believed that [https://translatewiki.net/w/i.php?title=Special:Translations&namespace=8&message=Savearticle “<bdi>{{int:Savearticle}}</bdi>”] would save a private copy of a new page in their accounts, rather than permanently publishing their changes on the web. It is important for this part of the user interface to be clear, since it is difficult to remove public information after it is published. We believe that the confusion caused by the “<bdi>{{int:Savearticle}}</bdi>” button increases the workload for experienced editors, who have to clean up the information that people unintentionally disclose, and report it to the functionaries and stewards to suppress it. Clarifying what the button does will reduce this problem.
+
+Beyond that, the goal is to make all the wikis and languages more consistent, and some wikis made this change many years ago. The [[:m:Legal|Legal team]] at the Wikimedia Foundation supports this change. Making the edit interface easier to understand will make it easier to handle licensing and privacy questions that may arise. 
+
+Any help pages or other basic documentation about how to edit pages will also need to be updated, on-wiki and elsewhere. On wiki pages, you can use the wikitext codes <code><nowiki>{{int:Publishpage}}</nowiki></code> and <code><nowiki>{{int:Publishchanges}}</nowiki></code> to display the new labels in the user's preferred language. For the language settings in [[Special:Preferences|your account preferences]], these wikitext codes produce “<bdi>{{int:Publishpage}}</bdi>” and “<bdi>{{int:Publishchanges}}</bdi>”.
+
+Please share this news with community members who teach new editors and with others who may be interested.
+</div> [[m:User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[m:User talk:Whatamidoing (WMF)|talk]]) 18:02, 9 Agoosto 2016 (UTC)
+<!-- Message sent by User:Quiddity (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=15790914 -->
