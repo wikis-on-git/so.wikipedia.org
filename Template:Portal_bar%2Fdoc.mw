@@ -1,0 +1,31 @@
+{{high-risk|350000+}}
+{{Documentation subpage}}
+<!-- Category iyo interwiki waxaa lagu qori doonaa halka hoose ee bogga-->
+{{Lua|Module:Portal}}
+=== adeegsiga ===
+* <code><nowiki>{{Portal bar | Magaca portalka | Magaca portalka labaad | ...}}</nowiki></code>
+
+=== Tusaale ===
+<pre>{{Portal bar|Kimistari|Fiisikis}}</pre>
+{{Portal bar|Kimistari|Fiisikis}}
+<pre>{{Portal bar|style=List|Kimistari|Fiisikis}}</pre>
+{{Portal bar|style=List|Kimistari|Fiisikis}}
+
+==== Sumadda Portalka ====
+
+waxaa la galiyaa calaamada sumada portal ee magaca sawirka tusmada ciwaannkeeda <code>[[Module:Portal/images/a/<var>Xarafka koowaad ee magaca portalka</var>]]</code>.
+
+tusaale : magaca Portal waa : '''kala gadisan''' ==> bedelka wuxuu noqonayaa [[Module:Portal/images/m]] (m waa xarafka ugu horeeya ee magaca portalka '''kala duwan''') waxaa dheeraad ku ah sadar cusub ee shaabaha :  <span dir="ltr"><code>"kala duwan" = "portal_icon.png",</code></span>
+
+;Fiira gaar ah: waxaa soo muuqanaya tusmada iyadoo yar dhanka bidix [[wp:Category|qaybaha]].
+
+===Liiska dhammaan Portal ===
+{{#invoke:Portal|displayAll}}
+
+=== Sidoo kale eeg ===
+
+* [[Template:Portal]]
+
+<includeonly>
+[[Category:Template]]
+</includeonly>
