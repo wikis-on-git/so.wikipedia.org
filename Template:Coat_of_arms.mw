@@ -514,22 +514,3 @@
 }}<!---
 
 --->|link={{{link|{{{1}}}}}}|{{ #if: {{{size|}}}| {{{size}}}|20px}}]]{{ #if: {{{text|}}}| {{#switch: {{{text}}} | none=|&nbsp;{{{text}}}}}|&nbsp;[[{{{1}}}{{ #if: {{{2|}}}|{{!}}{{{2}}}}}]]}}<noinclude>{{documentation}}</noinclude>
-
-[[ar:قالب:شعار النبالة]]
-[[arz:قالب:Coat of arms]]
-[[en:Template:Coat of arms]]
-[[fa:الگو:Coat of arms]]
-[[id:Templat:Coat of arms]]
-[[km:ទំព័រគំរូ:Coat of arms]]
-[[la:Formula:Insigne]]
-[[mk:Шаблон:Грбови]]
-[[mr:साचा:चिन्ह]]
-[[ms:Templat:Coat of arms]]
-[[no:Mal:Våpenskjold]]
-[[pa:ਫਰਮਾ:ਕੁਲ-ਚਿੰਨ੍ਹ]]
-[[ro:Format:Steme]]
-[[sco:Template:Coat o airms]]
-[[ta:வார்ப்புரு:Coat of arms]]
-[[vo:Samafomot:Sköt]]
-[[yi:מוסטער:הערב]]
-[[zh:Template:Coat of arms]]
