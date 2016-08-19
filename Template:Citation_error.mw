@@ -1,0 +1,8 @@
+<includeonly><span style="font-size:100%" class="error">Error: {{{1|an error occurred}}}{{#if:{{{2|}}}|&#32;when using {{tl|{{{2}}}}}}}</span>{{#ifeq:{{{nocat|}}}|true||{{Namespace detect showall
+ |1={{#if: {{{cat|}}}|[[Category:{{{cat}}}]]|[[Category:Articles with incorrect citation syntax|{{PAGENAME}}]]}}
+ |2={{#if: {{{cat|}}}|[[Category:{{{cat}}}]]|[[Category:Articles with incorrect citation syntax|τ{{PAGENAME}}]]}}
+ |main=1
+ |category=2
+ |file=2
+ |help=2
+ |template=2}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
