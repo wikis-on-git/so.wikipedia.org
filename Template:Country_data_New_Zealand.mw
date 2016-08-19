@@ -1,0 +1,22 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = New Zealand
+| flag alias = Flag of New Zealand.svg
+| flag alias-civil = Civil Ensign of New Zealand.svg
+| flag alias-naval = Naval Ensign of New Zealand.svg
+| flag alias-naval-1941 = Naval Ensign of the United Kingdom.svg
+| link alias-naval = Royal New Zealand Navy
+| flag alias-air force = Ensign of the Royal New Zealand Air Force.svg
+| link alias-air force = Royal New Zealand Air Force
+| link alias-field hockey = New Zealand {{{mw|men's}}} national field hockey team
+| link alias-softball = New Zealand {{{mw|men's}}} national softball team
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| altvar = {{{altvar|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| var2 = naval-1941
+| redir1 = NZL
+</noinclude>
+}}
