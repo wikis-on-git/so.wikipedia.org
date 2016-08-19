@@ -664,7 +664,7 @@
 </tr>
 }}{{#if:{{{population_metro|}}}|
 <tr class="mergedrow">
-<td>&nbsp;'''•&nbsp;[[Magaalada ugu weyn|Magaalo]]'''{{{population_metro_footnotes|}}}</td>
+<td>&nbsp;'''•&nbsp;[[Magaalo weyn|Magaalo]]'''{{{population_metro_footnotes|}}}</td>
 <td>{{formatnum:{{{population_metro}}}}}</td>
 </tr>
 }}{{#if:{{infobox_settlement/checkauto
