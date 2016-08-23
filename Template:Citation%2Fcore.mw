@@ -630,6 +630,114 @@
   | &#32;({{{laydate}}})
 }}{{#if:{{{quote|}}}
   |{{{Sep|,}}}&#32;"{{{quote}}}"
-}}{{{PS|}}}</span><noinclude>
+}}{{{PS|}}}</span><!--
+
+=== This is a COinS tag (http://ocoins.info), which allows automated tools to parse the citation information: ===
+
+--><span
+    class="Z3988"
+    title="ctx_ver=Z39.88-2004&rft_val_fmt={{urlencode:info:ofi/fmt:kev:mtx:}}{{
+      #if: {{{Periodical|}}}
+      |journal&rft.genre=article&rft.atitle={{urlencode:{{{Title|}}}}}&rft.jtitle={{urlencode:{{{Periodical|}}}}}
+      |book{{
+         #if: {{{IncludedWorkTitle|}}}
+         |&rft.genre=bookitem&rft.btitle={{urlencode:{{{IncludedWorkTitle|}}}}}&rft.atitle={{urlencode:{{{Title|}}}}}
+         |&rft.genre=book&rft.btitle={{urlencode:{{{Title|}}}}}
+       }}
+    }}{{
+     #if: {{{Surname1|}}} |&rft.aulast={{urlencode:{{{Surname1}}}}}{{
+       #if: {{{Given1|}}} |&rft.aufirst={{urlencode:{{{Given1}}}}}
+     }}
+   }}{{
+     #if: {{{Surname1|}}} |&rft.au={{urlencode:{{{Surname1}}}}}{{
+       #if: {{{Given1|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given1}}}}}
+     }}
+   }}{{
+     #if: {{{Surname2|}}} |&rft.au={{urlencode:{{{Surname2}}}}}{{
+       #if: {{{Given2|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given2}}}}}
+     }}
+   }}{{
+     #if: {{{Surname3|}}} |&rft.au={{urlencode:{{{Surname3}}}}}{{
+       #if: {{{Given3|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given3}}}}}
+     }}
+   }}{{
+     #if: {{{Surname4|}}} |&rft.au={{urlencode:{{{Surname4}}}}}{{
+       #if: {{{Given4|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given4}}}}}
+     }}
+   }}{{
+     #if: {{{Surname5|}}} |&rft.au={{urlencode:{{{Surname5}}}}}{{
+       #if: {{{Given5|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given5}}}}}
+     }}
+   }}{{
+     #if: {{{Surname6|}}} |&rft.au={{urlencode:{{{Surname6}}}}}{{
+       #if: {{{Given6|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given6}}}}}
+     }}
+   }}{{
+     #if: {{{Surname7|}}} |&rft.au={{urlencode:{{{Surname7}}}}}{{
+       #if: {{{Given7|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given7}}}}}
+     }}
+   }}{{
+     #if: {{{Surname8|}}} |&rft.au={{urlencode:{{{Surname8}}}}}{{
+       #if: {{{Given8|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given8}}}}}
+     }}
+   }}{{
+     #if: {{{Surname9|}}} |&rft.au={{urlencode:{{{Surname9}}}}}{{
+       #if: {{{Given9|}}} |{{urlencode:{{{NameSep|,&#32;}}}{{{Given9}}}}}
+     }}
+    }}{{
+      #if: {{{Date|}}} |&rft.date={{urlencode:{{{Date}}}}}
+    }}{{
+      #if: {{{Series|}}} |&rft.series={{urlencode:{{{Series}}}}}
+    }}{{
+      #if: {{{Volume|}}} |&rft.volume={{urlencode:{{{Volume}}}}}
+    }}{{
+      #if: {{{Issue|}}} |&rft.issue={{urlencode:{{{Issue}}}}}
+    }}{{
+      #if: {{{At|}}} |&rft.pages={{urlencode:{{{At}}}}}
+    }}{{
+      #if: {{{Edition|}}} |&rft.edition={{urlencode:{{{Edition}}}}}
+    }}{{
+      #if: {{{PublicationPlace|}}}{{{Place|}}} |&rft.place={{urlencode:{{{PublicationPlace|{{{Place}}}}}}}}
+    }}{{
+      #if: {{{Publisher|}}} |&rft.pub={{urlencode:{{{Publisher}}}}}
+    }}{{
+      #if: {{{ARXIV|}}} |&rft_id=info:arxiv/{{urlencode:{{{ARXIV}}}}}
+    }}{{
+      #if: {{{ASIN|}}} |&rft_id=info:asin/{{urlencode:{{{ASIN}}}}}
+    }}{{
+      #if: {{{BIBCODE|}}} |&rft_id=info:bibcode/{{urlencode:{{{BIBCODE}}}}}
+    }}{{
+      #if: {{{DOI|}}} |&rft_id=info:doi/{{urlencode:{{{DOI}}}}}
+    }}{{
+      #if: {{{ISBN|}}} |&rft.isbn={{urlencode:{{{ISBN}}}}}
+    }}{{
+      #if: {{{ISSN|}}} |&rft.issn={{urlencode:{{{ISSN}}}}}
+    }}{{
+      #if: {{{JFM|}}} |&rft.jfm={{urlencode:{{{JFM}}}}}
+    }}{{
+      #if: {{{JSTOR|}}} |&rft.jstor={{urlencode:{{{JSTOR}}}}}
+    }}{{
+      #if: {{{LCCN|}}} |&rft.lccn={{urlencode:{{{LCCN}}}}}
+    }}{{
+      #if: {{{OCLC|}}} |&rft_id=info:oclcnum/{{urlencode:{{{OCLC}}}}}
+    }}{{
+      #if: {{{OL|}}} |&rft_id=info:olnum/{{urlencode:{{{OL}}}}}
+    }}{{
+      #if: {{{OSTI|}}} |&rft_id=info:osti/{{urlencode:{{{OSTI}}}}}
+    }}{{
+      #if: {{{MR|}}} |&rft.mr={{urlencode:{{{MR}}}}}
+    }}{{
+      #if: {{{PMC|}}} |&rft_id=info:pmc/{{urlencode:{{{PMC}}}}}
+    }}{{
+      #if: {{{PMID|}}} |&rft_id=info:pmid/{{urlencode:{{{PMID}}}}}
+    }}{{
+      #if: {{{RFC|}}} |&rft_id=info:rfc/{{urlencode:{{{RFC}}}}}
+    }}{{
+      #if: {{{SSRN|}}} |&rft_id=info:ssrn/{{urlencode:{{{SSRN}}}}}
+    }}{{
+      #if: {{{ZBL|}}} |&rft_id=info:zbl/{{urlencode:{{{ZBL}}}}}
+    }}{{
+      #if: {{{URL|}}}{{{IncludedWorkURL|}}} |&rft_id={{urlencode:{{{URL|{{{IncludedWorkURL|}}}}}}}}
+    }}&rfr_id=info:sid/en.wikipedia.org:{{FULLPAGENAMEE}}"><span style="display: none;">&nbsp;</span></span><noinclude>
 {{Documentation}}
 </noinclude>
