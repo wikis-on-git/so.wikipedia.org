@@ -1,6 +1,6 @@
 {{cite web
 | url            = {{#ifeq: {{{number|}}}{{{user|}}} | {{{number}}}{{{user}}} | https://twitter.com/{{{user}}}/status/{{{number}}} | https://twitter.com/ }}
-| cinwaan          = {{#invoke:String|replace|source={{{title|<noinclude>&#123;&#123;&#123;title&#125;&#125;&#125;</noinclude>}}} |pattern=https*:// |replace=|plain=false}}
+| title          = {{#invoke:String|replace|source={{{title|<noinclude>&#123;&#123;&#123;cinwaan&#125;&#125;&#125;</noinclude>}}} |pattern=https*:// |replace=|plain=false}}
 | script-title   = {{{script-title|}}}
 | trans-title    = {{{trans-title|}}}
 | language       = {{{language|}}}
