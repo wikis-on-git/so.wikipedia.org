@@ -1,4 +1,3 @@
-<noinclude>{{About|"Ku-dhintay-dagaal" |Template:Kia}}</noinclude>&nbsp;[[{{{1|Ku dhintay dagaal}}}|{{#ifeq:{{{alt|}}}|yes|<small>(KIA)</small>|{{#ifeq:{{{bold|}}}|no|&dagger;|'''&dagger;'''}}}}]]<noinclude>
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-{{Documentation}}
+&nbsp;[[{{{1|lagu dilay dagaal}}}|{{#ifeq:{{{alt|}}}|yes|<small>(KIA)<small>|<span style="font-size:150%;">☠</span>}}]]<noinclude><noinclude>
+{{Documentation}}[[Category:Tusmo Ciidan]]
 </noinclude>
