@@ -1,0 +1,13 @@
+{{Polluted category}}
+{{Tracking category}}
+{{#ifeq:{{PAGESINCATEGORY:{{PAGENAME}}}}|0|{{Empty category}}}}
+Kani waa laan ka mid ah [[WP:CS1|CS1 citations]] ee loo adeegsado habka {{para|language|{{{1|}}}}} lagu qeexo {{{2|}}} xogta.  Bogagga ku jira qaybta waxaa looga darayaa tusmooyinka CS1  iyo [[Module:Citation/CS1]].
+
+{{#ifexist:Category:Articles containing {{{2}}} text|
+
+==See also==
+* [[:Category:Articles containing {{{2}}} text]]
+
+}}
+
+[[Category:CS1 foreign language sources|{{{1|}}}]]
