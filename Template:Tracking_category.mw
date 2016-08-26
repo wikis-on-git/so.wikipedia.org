@@ -1,0 +1,15 @@
+{{Cmbox
+| type  = notice
+| image = [[File:Category.svg|80px|alt=|link=]]
+| text  =<div style="text-align: center; font-size: larger; font-weight: bold; width: 87%; margin: 0px auto 0px 0px">Kani waa mid raacsan [[:Category:Tracking categories|qaybaha]]</div>''Waxaa loo adeegsadaa dhismaha iyo ilaalinta liiska&mdash;heerka koowaad si ay iskugu tiirsanaato. Kana mid maaha '''[[Wikipedia:Categorization|qaybinta insaykolobeediyaha]]'''.''{{#if:{{{text|}}}|<br />{{{text|}}}}}__HIDDENCAT__ 
+{{Collapse top|b-color=transparent|bg=transparent|left=yes|More information:|border2=transparent|bg2=transparent|width=95%}}
+* This category is '''[[Wikipedia:Categorization#Hiding categories|hidden]]''' on its [[:Category:Hidden categories|member pages]]&mdash;unless the corresponding [[Special:Preferences|user preference]] is set.
+* These categories are used to track, build and organize lists of pages needing "attention ''en masse''" (for example, pages using deprecated syntax), or that may need to be edited at someone's earliest convenience.
+* These categories also serve to aggregate members of several lists or sub-categories into a larger, more efficient list (''discriminated by classifications'').
+{{Collapse bottom}}}}
+{{#ifeq:{{{container}}}|yes|{{CatTrack|Error=no}}{{Cmbox
+| type = notice
+| text = This is a '''[[:Category:Container categories|container category]]'''. Due to its scope, it should contain ''only'' '''[[Wikipedia:Categorization#Subcategorization|subcategories]]'''. <includeonly>{{Single namespace|category|[[Category:Container categories]]}}</includeonly>}}{{#if:{{{1|}}}|<p>{{{1}}}|}}
+}}<includeonly>{{Single namespace|category|{{#ifeq:{{{category|}}}|no||{{{category|[[Category:Tracking categories]]}}}}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
