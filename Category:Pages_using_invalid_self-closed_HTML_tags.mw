@@ -1,0 +1,16 @@
+{{polluted category}}
+{{Wikipedia category|hidden=yes|tracking=yes}}
+{{empty category}}
+
+Pages in this category contain invalid self-closed HTML tags, such as <nowiki><b/>, <div/>, <span/>, <p/>, and <td/>.</nowiki> (Valid tags defined in the [[HTML5]] specification, like <nowiki><br/> and <hr/>, do not cause this error.)</nowiki><ref>The full list of valid self-closed tags in HTML5 is: area, base, br, col, embed, hr, img, input, keygen, link, meta, param, source, track, wbr.</ref><ref>Some Wikipedia-specific tags are also valid when self-closed, such as <nowiki><ref name="name" />, <nowiki/>, and <references/></nowiki>.</ref> The behavior of these invalid tags will change soon, to be consistent with the HTML5 specification, so their use in wikitext is deprecated. See [[phab:T134423]] for more details.
+
+Pages are also automatically placed in this category by malformed tags like <nowiki></center/></nowiki>, which should usually be changed to <nowiki></center></nowiki> (remove the final slash); or by malformed constructs like <code><nowiki><s>...<s/></nowiki></code>, which should usually be changed to <code><nowiki><s>...</s></nowiki></code> (move the slash from end to beginning of the closing tag).
+
+Some templates include an anchor {{para|id}} parameter. When fixing self-closed <code><nowiki><div id="..."/></nowiki></code> and <code><nowiki><span id="..."/></nowiki></code> tags that appear immediately before such templates, consider moving the anchor text from the HTML tag to inside the template and removing the now-unneeded tag.
+
+If a given page in this category does not appear to have any invalid self-closed tags, it may be transcluding a page or template that does.
+
+For a list of MediaWiki-populated tracking categories, see [[Special:TrackingCategories]]. 
+
+{{reflist}}
+{{category TOC}}
