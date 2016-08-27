@@ -1,0 +1,240 @@
+{{infobox
+| child          = {{lc:{{{child|{{{embed|}}}}}}}}
+| bodyclass      = vcard
+| bodystyle      = {{#ifeq:{{{align}}}|left|float: {{{align}}}; clear: {{{align}}}; margin-left:0; margin-right: 1em; }}
+| headerstyle    = border-bottom: #cedeff 1px solid
+
+| abovestyle     = background-color: #cedeff; font-size: 125%;
+| aboveclass     = fn org
+| above          = {{#if:{{{name|}}}
+ |{{{name}}}
+ |{{{lake_name|{{{ocean_name|{{{Ocean_name|{{{bay_name| <includeonly>{{PAGENAME}}</includeonly> }}}}}}}}}}}}
+ }}{{#if:{{{native_name|}}}|<br /><span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+
+<!-- The following is only activated when child = yes or embed = yes -->
+| titleclass     = fn org
+| title          = {{#ifeq:{{lc:{{{child|{{{embed|}}}}}}}}|yes|{{#if:{{{name|}}}
+ |{{{name}}}
+ |<includeonly>{{PAGENAME}}</includeonly>
+ }}{{#if:{{{native_name|}}}|<br /><span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}}}
+
+| subheaderclass = nickname
+| subheaderstyle = font-size:100%; border-bottom: 1px solid #cedeff;
+| subheader      = {{{other_name|}}}
+
+| imagestyle     = line-height: 1.2; border-bottom: 1px solid #cedeff;
+
+| image    = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{image_lake|{{{image_ocean|{{{image_Ocean|{{{image_bay|}}}}}}}}}}}}}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1.14|border=yes|alt={{{alt|{{{alt_lake|{{{alt_ocean|{{{alt_bay|}}}}}}}}}}}} }}
+| caption  = {{{caption|{{{caption_lake|{{{caption_ocean|{{{caption_Ocean|{{{caption_bay|}}}}}}}}}}}}}}}
+
+| image2   = {{#invoke:InfoboxImage|InfoboxImage|image={{{image_map|}}}|size={{{map_size|{{{image_size|}}}}}}|sizedefault=frameless|upright=1.1|border=yes|alt={{{alt_map|}}}}}
+| caption2 = {{{caption_map|}}}
+
+| image3   = {{#if:{{both| {{{pushpin_map|}}} | {{{latd|}}} }}|
+{{location map|{{{pushpin_map|}}}
+|border = none
+|alt = {{{pushpin_map_alt|}}}
+|caption =
+|float = center
+|width = {{{pushpin_mapsize|}}}
+|default_width = 250
+|relief= {{yesno|{{{pushpin_relief|yes}}}|yes=yes|no=}}
+|AlternativeMap = {{{pushpin_image|}}}
+ |label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{ifempty|{{{pushpin_label|}}}|{{{name|}}}|{{{lake_name|{{{ocean_name|{{{Ocean_name|{{{bay_name|}}} }}} }}} }}} | {{PAGENAME}} }} }}
+ |lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|}}} }}
+ |long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|}}} }}
+ |lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}} }}
+ |lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}} }}
+ |lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}} }}
+ |lat_dir={{{latNS|}}}
+ |lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}} }}
+ |lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}} }}
+ |lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}} }}
+ |lon_dir={{{longEW|}}}
+ |marksize =6
+ |position = {{{pushpin_label_position|}}}
+}}}}
+| caption3 = {{{pushpin_map_caption|}}}
+
+| image4   = {{#invoke:InfoboxImage|InfoboxImage|image={{{image_bathymetry|}}}|size={{{bathymetry_size|{{{image_size|}}}}}}|sizedefault=frameless|upright=1.1|border=yes|alt={{{alt_bathymetry|}}}}}
+| caption4 = {{{caption_bathymetry|}}}
+
+| rowclass1 = adr
+| label1 = Location
+| class1 = region
+| data1  = {{{location|}}}
+
+| label2 = Group
+| data2  = {{{group|}}}
+| class2 = category
+
+| label3 = <span title="Geographical coordinates">Coordinates</span>
+| data3  = {{#if:{{{coords|}}}
+   | {{{coords|}}}
+   | {{#if:{{{latd|}}}| {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:waterbody{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|{{#if:{{{coordinates_display|}}}|title|μ1}}}}={{{coordinates_display|}}}|{{#if:{{{coordinates_format|}}}|format|μ2}}={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}} }}
+  }}
+
+| label4 = {{#if:{{{lake_type|}}}
+  | [[Lake#Types of lakes|Lake type]]
+  | {{#if:{{{ocean_type|}}}
+    | [[Ocean#Types of oceans|Ocean type]]
+    | [[Body of water#Types|Type]]
+    }}
+  }}
+| data4 = {{#if:{{{lake_type|}}}
+  | {{{lake_type|}}}
+  | {{#if:{{{ocean_type|}}}
+    | {{{ocean_type}}}
+    | {{{type|}}}
+    }}
+  }}
+| class4 = category
+
+| label5     = Etymology
+| data5      = {{{etymology|}}}
+
+| label6     = Part&nbsp;of
+| data6      = {{{part_of|{{{parent|}}}}}}
+
+| label7     = [[inflow (hydrology)|<span title="Primary inflows: rivers, streams, precipitation">Primary inflows</span>]]
+| data7      = {{{inflow|}}}
+
+| label8     = River sources
+| data8      = {{{rivers|}}}
+
+| label9     = [[discharge (hydrology)|<span title="Primary outflows: rivers, streams, evaporation">Primary outflows</span>]]
+| data9      = {{{outflow|}}}
+
+| label10     = <span title="Primary outflows: oceans, seas, straights">Ocean/sea sources</span>
+| data10      = {{{oceans|}}}
+
+| label11    = [[Drainage basin|Catchment area]]
+| data11     = {{#if:{{{catchment_km2|{{{catchment|}}}}}}|{{Infobox body of water/convert|{{{catchment_km2|{{{catchment|}}}}}}|km2|sqmi}}{{{catchment_ref|}}}}}
+
+| label12    = [[Drainage basin|Basin]]&nbsp;countries
+| data12     = {{{basin_countries|{{{countries|}}}}}}
+
+| label13    = Managing agency
+| data13     = {{{agency|}}}
+| class13    = agent
+
+| label14    = Designation
+| data14     = {{{designation|}}}
+| class14    = category
+
+| label15    = Built
+| data15     = {{{date-built|}}}
+
+| label16    = Construction engineer
+| data16     = {{{engineer|}}}
+
+| label17    = First flooded
+| data17     = {{{date-flooded|}}}
+
+| header21   = {{#if:{{{length_km|{{{length|}}}}}}{{{width_km|{{{width|}}}}}}{{{area_km2|{{{area|}}}}}}{{{depth_m|{{{depth|}}}}}}{{{max-depth_m|{{{max-depth|}}}}}}{{{volume_km3|{{{volume|}}}}}}{{{residence_time|}}}{{{salinity|}}}{{{shore_km|{{{shore|}}}}}}{{{elevation_m|{{{elevation|}}}}}}|{{#ifeq:{{lc:{{{child|{{{embed|}}}}}}}}|yes||<nowiki />}}}}
+
+| label22    = Max. length
+| rowclass22 = note
+| data22     = {{#if:{{{length_km|{{{length|}}}}}}|{{Infobox body of water/convert|{{{length_km|{{{length|}}}}}}|km|mi}}{{{length_ref|}}}}}
+
+| label23    = Max. width
+| rowclass23 = note
+| data23     = {{#if:{{{width_km|{{{width|}}}}}}|{{Infobox body of water/convert|{{{width_km|{{{width|}}}}}}|km|mi}}{{{width_ref|}}}}}
+
+| label24    = Min. width
+| rowclass24 = note
+| data24     = {{#if:{{{min_width_km|{{{min_width|}}}}}}|{{Infobox body of water/convert|{{{min_width_km|{{{min_width|}}}}}}|km|mi}}{{{min_width_ref|}}}}}
+
+| label25    = {{#if:{{{lake_type|}}}|[[List of lakes by area|Surface area]]|Surface area}}
+| rowclass25 = note
+| data25     = {{#if:{{{area_km2|{{{area|}}}}}}|{{Infobox body of water/convert|{{{area_km2|{{{area|}}}}}}|km2|sqmi}}{{{area_ref|}}}}}
+
+| label26    = Average depth
+| rowclass26 = note
+| data26     = {{#if:{{{depth_m|{{{depth|}}}}}}|{{Infobox body of water/convert|{{{depth_m|{{{depth|}}}}}}|m|ft}}{{{depth_ref|}}}}}
+
+| label27    = Max. depth
+| rowclass27 = note
+| data27     = {{#if:{{{max-depth_m|{{{max-depth|}}}}}}|{{Infobox body of water/convert|{{{max-depth_m|{{{max-depth|}}}}}}|m|ft}}{{{max-depth_ref|}}}}}
+
+| label28    = {{#if:{{{lake_type|}}}|[[List of lakes by volume|Water volume]]|Water volume}}
+| rowclass28 = note
+| data28     = {{#if:{{{volume_km3|{{{volume|}}}}}}|{{Infobox body of water/convert|{{{volume_km3|{{{volume|}}}}}}|km3|acre.ft}}{{{volume_ref|}}}}}
+
+| label29    = {{#if:{{{lake_type|}}}
+  | [[Lake retention time|Residence&nbsp;time]]
+  | [[Water cycle#Residence times|Residence&nbsp;time]]
+  }}
+| rowclass29 = note
+| data29     = {{#if:{{{residence_time|}}}|{{#iferror:{{#expr:{{{residence_time}}}}}
+  |{{{residence_time}}}
+  |{{{residence_time}}} year{{#ifeq:{{{residence_time}}}|1||s}}
+  }}}}
+
+| label30    = [[Salinity]]
+| rowclass30 = note
+| data30     = {{{salinity|}}}
+
+| label31    = Shore length<sup>1</sup>
+| rowclass31 = note
+| data31     = {{#if:{{{shore_km|{{{shore|}}}}}}|{{Infobox body of water/convert|{{{shore_km|{{{shore}}}}}}|km|mi}}{{{shore_ref|}}}}}
+
+| label32    = Surface elevation
+| rowclass32 = note
+| data32     = {{#if:{{{elevation_m|{{{elevation|}}}}}}|{{Infobox body of water/convert|{{{elevation_m|{{{elevation}}}}}}|m|ft}}{{{elevation_ref|}}}}}
+
+| header36   = {{#if:{{{temperature_high_C|}}}{{{temperature_high_F|}}}{{{temperature_high|}}}{{{temperature_low_C|}}}{{{temperature_low_F|}}}{{{temperature_low|}}}{{{frozen|}}}{{{islands|}}}{{{sections|}}}{{{cities|}}}{{{website|}}}{{{reference|}}}|<nowiki />}}
+
+| label37    = Max. temperature
+| rowclass37 = note
+| data37     = {{#if:{{{temperature_high_C|}}}{{{temperature_high_F|}}}|{{convinfobox|{{{temperature_high_C|}}}|C|{{{temperature_high_F|}}}|F}}{{{temperature_high_ref|}}}|{{{temperature_high|}}}}}
+
+| label38    = Min. temperature
+| rowclass38 = note
+| data38     = {{#if:{{{temperature_low_C|}}}{{{temperature_low_F|}}}|{{convinfobox|{{{temperature_low_C|}}}|C|{{{temperature_low_F|}}}|F}}{{{temperature_low_ref|}}}|{{{temperature_low|}}}}}
+
+| label39    = Frozen
+| data39     = {{{frozen|}}}
+
+| label41    = {{#if:{{{islands_category|}}}
+  |[[:category:{{{islands_category}}}|Islands]]
+  |{{#if:{{{lake_type|}}}
+    | [[:category:Lake islands|Islands]]
+    | {{#if:{{{ocean_type|}}}
+      | [[:Category:Islands by ocean or sea|Islands]]
+      | [[:Category:Islands by body of water|Islands]]
+      }}
+    }}
+  }}
+| data41     = {{{islands|}}}
+
+| label42    = Sections/sub-basins
+| data42     = {{{sections|}}}
+
+| label43    = Trenches
+| rowclass43 = note
+| data43     = {{{trenches|}}}
+
+| label44    = Benches
+| rowclass44 = note
+| data44     = {{{benches|}}}
+
+| label45    = Settlements
+| data45     = {{{cities|}}}
+
+| label46    = Website
+| data46     = {{{website|}}}
+
+| label47    = References
+| class47    = note
+| data47     = {{{reference|}}}
+
+| header48   = {{{extra|{{{nrhp|{{{embedded|}}}}}}}}}
+
+| belowstyle = font-size: smaller; border-bottom: 1px solid #cedeff; border-top: 1px solid #cedeff
+| below      = {{#if:{{{shore_km|{{{shore|}}}}}}|<sup>1</sup> Shore length is [[Coastline paradox|not a well-defined measure]].}}
+
+}}{{main other|{{#invoke:Infobox body of water tracking|tracking}}}}<noinclude>
+{{Documentation}}
+<!--Please add this template's categories to the /doc subpage, not here - thanks!-->
+</noinclude>
