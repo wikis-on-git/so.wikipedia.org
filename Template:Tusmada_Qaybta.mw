@@ -1,0 +1,46 @@
+{| id="toc" class="toc plainlinks" width="100%" summary="Contents" 
+|style="padding: 0 5px;white-space:nowrap"|
+'''{{MediaWiki:Toc}}'''
+[{{fullurl:{{FULLPAGENAME}}}} Sare]
+[{{fullurl:{{FULLPAGENAME}}|from=0}} 0-9]
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=A }} A]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=B }} B]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=C }} C]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=D }} D]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=E }} E]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=F }} F]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=G }} G]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=H }} H]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=I }} I]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=J }} J]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=K }} K]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=L }} L]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=M }} M]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=N }} N]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=O }} O]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=P }} P]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=Q }} Q]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=R }} R]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=S }} S]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=T }} T]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=U }} U]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=V }} V]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=W }} W]&nbsp; 
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=X }} X]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=Y }} Y]&nbsp;
+[{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|from=Z }} Z]&nbsp;
+
+|}<noinclude>
+; Ujeedka adeegsiga:
+Tusmadaan waxaa la galiyaa qaybaha waaweyn waxaa loo ogolaadaa qaybinta ka bilaabata bogagga xarafka la xushay. tusmada waxa ay u soo muuqanaysaa mala awaal sida aad kor uga jeedo ee bogga.
+
+si aad usoo muujiso xarfaha alifbata ee tusmada adeegso sida aad doonto «xaraf=1» sida «En=1» Sidaan:
+
+<code><nowiki>{{Tusmada Qaybta|xarfo=1}}</nowiki></code>
+
+; Natiijada:
+{{Tusmada Qaybta|xarafo=1}}
+
+[[Category:Template|{{PAGENAME}}]]
+
+</noinclude>
