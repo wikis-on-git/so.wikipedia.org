@@ -1,0 +1,23 @@
+{{Location map many 
+| AlternativeMap = Locator map of Turkey.svg
+| width = 200
+| float = right
+| caption = A map depicting the locations of the [[Turkish Straits]], with the Bosphorus in red, and the [[Dardanelles]] in yellow. The sovereign national territory of [[Turkey]] is highlighted in green.
+| label = Bosphorus
+| label_size = 75
+  | pos = none
+  | mark = Red pog.svg
+  | marksize = 6
+  | lat_deg = 40.4
+  | lon_deg = 30.3
+| label2 = Dardanelles
+| label2_size = 75
+  | pos2 = none
+  | mark2 = Yellow pog.svg
+  | mark2size = 6
+  | lat2_deg = 39.0
+  | lon2_deg = 28.0
+}}
+
+
+{{Gumud}}
