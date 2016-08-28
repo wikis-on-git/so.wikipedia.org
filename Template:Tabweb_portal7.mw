@@ -1,0 +1,56 @@
+<includeonly>{| class="wikitable" width="100%"
+|-valign="top"
+| width="15%" |{{{right|}}}
+| width="70%" | 
+<div id="tabContainer" style="width: {{{display|100%}}}">
+  <div class="tabs">
+    <ul>
+      <li id="tabHeader_1" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title1|}}}</li>{{#if:{{{title2|}}}|
+      <li id="tabHeader_2" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title2}}}</li>}}{{#if:{{{title3|}}}|
+      <li id="tabHeader_3" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title3}}}</li>}}{{#if:{{{title4|}}}|
+      <li id="tabHeader_4" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title4}}}</li>}}{{#if:{{{title5|}}}|
+      <li id="tabHeader_5" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title5}}}</li>}}{{#if:{{{title6|}}}|
+      <li id="tabHeader_6" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title6}}}</li>}}{{#if:{{{title7|}}}|
+      <li id="tabHeader_7" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title7}}}</li>}}{{#if:{{{title8|}}}|
+      <li id="tabHeader_8" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title8}}}</li>}}{{#if:{{{title9|}}}|
+      <li id="tabHeader_9" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title9}}}</li>}}{{#if:{{{title10|}}}|
+      <li id="tabHeader_10" style="display: inline-block; {{{model|background: #C9C9C9}}}">{{{title10}}}</li>}}
+    </ul>
+  </div>
+  <div class="tabscontent" style="border-style: none">
+    <div class="tabpage" id="tabpage_1">
+      <p>{{{int1| }}}</p>
+    </div>{{#if:{{{int2|}}}|
+    <div class="tabpage" id="tabpage_2">
+      <p>{{{int2| }}}</p>
+    </div>}}{{#if:{{{int3|}}}|
+    <div class="tabpage" id="tabpage_3">
+      <p>{{{int| }}}</p>
+    </div>}}{{#if:{{{int4|}}}|
+    <div class="tabpage" id="tabpage_4">
+      <p>{{{int4| }}}</p>
+    </div>}}{{#if:{{{int5|}}}|
+    <div class="tabpage" id="tabpage_5">
+      <p>{{{int5| }}}</p>
+    </div>}}{{#if:{{{int6|}}}|
+    <div class="tabpage" id="tabpage_6">
+      <p>{{{int6| }}}</p>
+    </div>}}{{#if:{{{int7|}}}|
+    <div class="tabpage" id="tabpage_7">
+      <p>{{{int7| }}}</p>
+    </div>}}{{#if:{{{int8|}}}|
+    <div class="tabpage" id="tabpage_8">
+      <p>{{{int8| }}}</p>
+    </div>}}{{#if:{{{int9|}}}|
+    <div class="tabpage" id="tabpage_9">
+      <p>{{{int9| }}}</p>
+    </div>}}{{#if:{{{int10|}}}|
+    <div class="tabpage" id="tabpage_10">
+      <p>{{{int10| }}}</p>
+    </div>}}
+  </div>
+</div>
+</div>
+| width="15%" |{{{left|}}}
+|}</includeonly>
+<noinclude>{{Documentation}}</noinclude>
