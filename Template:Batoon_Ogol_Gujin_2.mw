@@ -1,1 +1,1 @@
-[{{#if:{{{url|}}}|{{{url|}}} |[{{{1|Batoon}}}{{!}}}}<span class="submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only {{{class|}}}" role="button" aria-disabled="false"><span class="ui-button-text" style="padding:0.5em .5em;font-weight:bold">{{#if:{{{url|}}}|{{#if:{{{1|}}}|{{{1|}}}|{{{url|}}}}}</span></span>|{{#if:{{{2|}}}|{{{2|}}}|{{{1}}}}}</span></span>]}}]<noinclude>{{Documentation}}</noinclude>
+#REDIRECT [[Template:Batoon Gujin 2]]
