@@ -1,0 +1,6 @@
+<includeonly>
+{{#ifexist:{{{1|}}}<!--  
+                              -->| {{{{{1|}}}}}<!--  
+                              -->| {{bedel|{{kamid ah|{{{1|}}} }}| {{{2|}}} |transclude={{kamid ah|{{{transclude|}}} }} }}<!--  
+                              -->}} 
+</includeonly>[[Category:Bogag adeegsada tusmada itus haddii uu jiro3]]<noinclude>{{Documentation}}</noinclude>
