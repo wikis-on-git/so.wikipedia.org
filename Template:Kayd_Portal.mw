@@ -1,0 +1,87 @@
+__NOTOC__ __NOEDITSECTION__
+<includeonly>
+{| width="100%" cellpadding="5" cellspacing="10" style="background-color: #FFFFFF; padding: 4px; border: 7px solid #b6b6b6; box-shadow: 0.1em 0.1em 1.0em rgba(0,0,0,0.75); -moz-box-shadow: 0.1em 0.1em 1.0em rgba(0,0,0,0.75); -webkit-box-shadow: 0.1em 0.1em 1.0em rgba(0,0,0,0.75); border-radius: 1em; -moz-border-radius: 490px/10px; -webkit-border-radius: 490px/10px; "
+| style="vertical-align:top; background: #FFFFFF; border: 0px solid #bc2929; -moz-border-radius: 10px; -webkit-border-radius: 490px/35px; border-radius: 490px/35px; padding: 5; margin:3; |
+<div style = "background-color: #c8c8c8;">
+{{Portal Sare}}
+<div style = "background-color: #c8c8c8; font-size: 170%; text-align: center; font-family: Copperplate, 'Copperplate Gothic Light', serif">
+{{Itus haddii uu jiro3|Portal:{{ROOTPAGENAME}}/Kayd|Samee sanduuq kayd|Preview={{urlencode:tabweb2/Transclude}}}}
+</div></div>
+<div style="position: fixed; bottom:10px; left:32px; width: 14%; max-width: 14%; z-index: 2;">
+{{tabweb portal6
+| color = gray
+<!-- biloowga tabweb1 -->
+| tabweb1 ={{Jihooyin}}
+<!-- biloowga tabweb2 -->
+| tabweb5 ={{Laabasho}}
+}}
+</div>
+{{tabweb portal7
+|model={{linear-gradient|#f55447|#f55447}}
+|title1='''Koowaad'''
+|int1={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{ka|1}}}
+|__to={{{ilaa|15}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{link title|samee waxa ku jira}}} }}
+|transclude={{urlencode:bedelid portal sawir}}
+|title={{{title|}}} $i
+|__sep=<br/><br/>{{bar-color| color1= #272727| size1= 25| color2= #27784b| size2= 25| color3= #b0e0e6| size3= 25| color4= #797979| size4= 25}}
+}}
+|title2='''Labaad'''
+|int2={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{ka|16}}}
+|__to={{{ilaa|30}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
+|transclude={{urlencode:bedelid portal sawir ueg}}
+|bedelid=bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep=<br/><br/>{{bar-color| color1= #ff7d7d| size1= 25| color2= #64c4ce| size2= 25| color3= #e5e5e5| size3= 25| color4= #797979| size4= 25}}
+}}
+|title3='''Saddexaad'''
+|int3={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{ka|31}}}
+|__to={{{ilaa|45}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
+|transclude={{urlencode:bedelid portal sawir ueg}}
+|bedelid=bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep=<br/><br/>{{bar-color| color1= #91152d| size1= 25| color2= #64c4ce| size2= 25| color3= #981ab7| size3= 25| color4= #b7981a| size4= 25}}
+}}
+|title4='''Afaraad'''
+|int4={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{ka|46}}}
+|__to={{{ilaa|60}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
+|transclude={{urlencode:bedelid portal sawir ueg}}
+|bedelid=bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep=<br/><br/>{{bar-color| color1= #64c4ce| size1= 25| color2= #ff7d7d| size2= 25| color3= #3f912b| size3= 25| color4= #797979| size4= 25}}
+}}
+|title5='''Shanaad'''
+|int5={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{ka|61}}}
+|__to={{{ilaa|75}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa kujira}}} }}
+|transclude={{urlencode:bedelid portal sawir ueg}}
+|bedelid=bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep=<br/><br/><div style="width: 100%; border-top: 2px dotted silver;">
+}}
+{{bar-color| color1= #272727| size1= 25| color2= #27784b| size2= 25| color3= #64c4ce| size3= 25| color4= #fc8f4e| size4= 25}}
+}}
+
+</includeonly>
+<noinclude>
+{{Documentation}}
+</noinclude>
+[[Category:Bogaga loo adeegsaday tusmo kayd portal]]
