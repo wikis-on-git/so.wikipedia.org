@@ -25,7 +25,7 @@ __NOTOC__ __NOEDITSECTION__
 |__to={{{ilaa|15}}}
 |{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
 |{{#if:{{{Template|}}}|{{{2|}}}$i|{{{link title|samee waxa ku jira}}} }}
-|transclude={{urlencode:bedelid portal sawir}}
+|transclude={{urlencode:bedelid_portal_sawir}}
 |title={{{title|}}} $i
 |__sep=<br/><br/>{{bar-color| color1= #272727| size1= 25| color2= #27784b| size2= 25| color3= #b0e0e6| size3= 25| color4= #797979| size4= 25}}
 }}
