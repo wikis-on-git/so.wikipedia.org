@@ -1,0 +1,44 @@
+<includeonly>
+<div style="text-align: {{#switch:{{{sinaan|}}}
+| dhexeeye= center
+| dhex= center
+| dhexda= center
+| dhex batan= center
+| midig= right
+| midigta= right 
+| bidix=left
+| bidixda=left
+|#default=justify}}; transform: rotate({{{wareeg|0}}}deg); -ms-transform: rotate({{{wareeg|0}}}deg); -webkit-transform: rotate({{{wareeg|0}}}deg); text-indent: {{{fogaan|0}}}px;">
+<span style="direction: rtl; background-color: #{{{midab-gadaal|}}}; text-shadow: {{{hoos|}}}; font-size: {{{balac-khad|23}}}px; font-family: {{#switch:{{{bah-khad|}}}
+| Iskoola Pota= Iskoola Pota
+| Serif= Serif
+| Sans-serif=Sans-serif
+| Monospace=Monospace
+| Times New Roman=Times New Roman
+| Times=Times
+| Georgia=Georgia
+| Abadi MT Condensed Light=Abadi MT Condensed Light
+| Aharoni=Aharoni
+| Aldhabi=Aldhabi
+| Andalus=Andalus
+| Angsana New=Angsana New
+| AngsanaUPC=AngsanaUPC
+| Aparajita=Aparajita
+| Arial=Arial
+| Arial Black=Arial Black
+| Arial Nova=Arial Nova
+| BatangChe=BatangChe
+| Book Antiqua=Book Antiqua
+| Symbol=Symbol
+| Courier New=Courier New
+| Calibri=Calibri
+| Segoe UI =Segoe UI 
+| Tahoma=Tahoma
+| Arabic Typesetting=Arabic Typesetting
+|#default=Arabic Typesetting}}; letter-spacing: {{{kala-fogaanta-xarfaha|0}}}px; word-spacing: {{{kala-fogaanta-erayada|0}}}px; line-height: {{{kala-fogaanta-sadarada|1}}}; color: #{{{midab-khad|}}};">{{{text|}}}</span>
+</div>
+</includeonly><noinclude>
+{{Documentation}}
+[[Category:Tusmo portal]]
+[[Category:Tusmooyin far midabaysan]]
+</noinclude>
