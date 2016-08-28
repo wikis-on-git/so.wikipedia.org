@@ -1,0 +1,15 @@
+<includeonly>
+{{#if:{{{title|}}}
+|<h3>{{{title|}}}</h3>
+}}
+{| width="100%"
+|-
+| valign=top width="80px"| {{t.q|{{{1|}}} }} 
+| width="90%"| {{#ifexist:{{{1|}}}<!--  
+                              -->| {{{{{1|}}}}}<!--  
+                              -->| {{bedel|{{kamida|{{{1|}}} }}| {{{2|}}} |Itus={{kamida|{{{Preview|}}} }} }}<!--  
+                              -->}} 
+|}</includeonly>[[Category:Bogag adeegsada tusmada itus haddii uu jiro]]<noinclude>
+
+Tusmadaan waxa ay soo bandhigaysaa waxa ku jira bogga haddii ayba jiraan ama uu jiro link. waxa ay faaiida u leedahay bogagga soo muujisaa qaybaha iskuraranka ah ee ee ku jira Portal.
+</noinclude>
