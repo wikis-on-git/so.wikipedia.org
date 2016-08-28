@@ -1,0 +1,66 @@
+<!-- Bilowga tusmada iyo xadaynta midabada iyo muujinta maraniada si uu noqdo tabweb -->
+<includeonly><div id="tabs" class="jqueryslidemenu {{#if:{{{color|}}}|jqueryslidemenu-{{#switch:{{{color}}}
+|green=green|red=red|blue=blue|yellow=yellow|grey=grey|orange=brown|crimson=darkred|purple=purple|black}}}}">
+<ul>
+<!-- bilowga tabweb1 -->
+<li>
+<ul>
+{{{tabweb1|}}}
+ </ul>
+</li>
+<!-- bilowga tabweb2 -->
+<li>
+<ul>
+{{{tabweb2|}}}
+ </ul>
+</li>
+<!-- bilowga tabweb3 -->
+<li>
+<ul>
+{{{tabweb3|}}}
+ </ul>
+</li>
+<!-- bilowga tabweb4 -->
+<li>
+<ul>
+{{{tabweb4|}}}
+ </ul>
+</li>
+<!-- bilowga tabweb5 -->
+<li>
+<ul>
+{{{tabweb5|}}}
+ </ul>
+</li>
+<!-- bilowga tabweb6 -->
+<li>
+<ul>
+{{{tabweb6|}}}
+ </ul>
+</li>
+</ul>
+<!-- bilowga tabweb7 -->
+<li>
+<ul>
+{{{tabweb7|}}}
+ </ul>
+</li>
+</ul>
+<!-- bilowga tabweb8 -->
+<li>
+<ul>
+{{{tabweb8|}}}
+ </ul>
+</li>
+</ul>
+<!-- bilowga tabweb9 -->
+<li>
+<ul>
+{{{tabweb9|}}}
+ </ul>
+</li>
+</ul>
+<!-- dhamaadka tabweb iyo bilowga xirista marinka ay ku jiraan tabweb -->
+<br style="clear: right" />
+</div></includeonly>
+[[Category:Bogagga adeegsada tusmata tabweb6]]<noinclude>{{Documentation}}</noinclude>
