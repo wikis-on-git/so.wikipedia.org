@@ -37,7 +37,7 @@ __NOTOC__ __NOEDITSECTION__
 |{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
 |{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
 |transclude={{urlencode:bedelid portal sawir ueg}}
-|bedelid=bedelid portal sawir ueg
+|switch=bedelid portal sawir ueg
 |title={{{title|}}} $i
 |__sep=<br/><br/>{{bar-color| color1= #ff7d7d| size1= 25| color2= #64c4ce| size2= 25| color3= #e5e5e5| size3= 25| color4= #797979| size4= 25}}
 }}
@@ -49,7 +49,7 @@ __NOTOC__ __NOEDITSECTION__
 |{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
 |{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
 |transclude={{urlencode:bedelid portal sawir ueg}}
-|bedelid=bedelid portal sawir ueg
+|switch=bedelid portal sawir ueg
 |title={{{title|}}} $i
 |__sep=<br/><br/>{{bar-color| color1= #91152d| size1= 25| color2= #64c4ce| size2= 25| color3= #981ab7| size3= 25| color4= #b7981a| size4= 25}}
 }}
@@ -61,7 +61,7 @@ __NOTOC__ __NOEDITSECTION__
 |{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
 |{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa ku jira}}} }}
 |transclude={{urlencode:bedelid portal sawir ueg}}
-|bedelid=bedelid portal sawir ueg
+|switch=bedelid portal sawir ueg
 |title={{{title|}}} $i
 |__sep=<br/><br/>{{bar-color| color1= #64c4ce| size1= 25| color2= #ff7d7d| size2= 25| color3= #3f912b| size3= 25| color4= #797979| size4= 25}}
 }}
@@ -73,7 +73,7 @@ __NOTOC__ __NOEDITSECTION__
 |{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
 |{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|samee waxa kujira}}} }}
 |transclude={{urlencode:bedelid portal sawir ueg}}
-|bedelid=bedelid portal sawir ueg
+|switch=bedelid portal sawir ueg
 |title={{{title|}}} $i
 |__sep=<br/><br/><div style="width: 100%; border-top: 2px dotted silver;">
 }}
