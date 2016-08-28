@@ -1,0 +1,32 @@
+<includeonly>{| style="table-layout:fixed; width:{{{width|100%}}}; margin-top:0;margin-left:{{{margin-left|{{{margin|0}}}}}}; border-width:medium; padding:0; {{{style|}}}"
+{{#if:{{{title|}}} |{{!}}+ '''{{{title}}}'''}}
+{{#if:{{{noheaders|}}}{{{notitle|}}} |
+ |!   scope="col" style="width:50%;{{{colheaderstyle|}}}{{{col1headerstyle|}}}"{{!}} {{{col1|{{{t1|Markup}}}}}} {{!!}}<!--
+   -->scope="col" style="width:50%;{{{colheaderstyle|}}}{{{col2headerstyle|}}}"{{!}} {{{col2|{{{t2|Renders as}}}}}}
+}}<!--
+-->{{#if:{{{1|}}}  |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{1|}}}  |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{2|}}}  }} }}<!--
+-->{{#if:{{{3|}}}  |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{3|}}}  |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{4|}}}  }} }}<!--
+-->{{#if:{{{5|}}}  |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{5|}}}  |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{6|}}}  }} }}<!--
+-->{{#if:{{{7|}}}  |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{7|}}}  |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{8|}}}  }} }}<!--
+-->{{#if:{{{9|}}}  |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{9|}}}  |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{10|}}} }} }}<!--
+-->{{#if:{{{11|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{11|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{12|}}} }} }}<!--
+-->{{#if:{{{13|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{13|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{14|}}} }} }}<!--
+-->{{#if:{{{15|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{15|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{16|}}} }} }}<!--
+-->{{#if:{{{17|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{17|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{18|}}} }} }}<!--
+-->{{#if:{{{19|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{19|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{20|}}} }} }}<!--
+-->{{#if:{{{21|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{21|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{22|}}} }} }}<!--
+-->{{#if:{{{23|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{23|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{24|}}} }} }}<!--
+-->{{#if:{{{25|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{25|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{26|}}} }} }}<!--
+-->{{#if:{{{27|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{27|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{28|}}} }} }}<!--
+-->{{#if:{{{29|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{29|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{30|}}} }} }}<!--
+-->{{#if:{{{31|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{31|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{32|}}} }} }}<!--
+-->{{#if:{{{33|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{33|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{34|}}} }} }}<!--
+-->{{#if:{{{35|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{35|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{36|}}} }} }}<!--
+-->{{#if:{{{37|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{37|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{38|}}} }} }}<!--
+-->{{#if:{{{39|}}} |{{Markup/row |c1style={{{col1style|{{{codestyle|{{{markupstyle|}}}}}}}}}|c1={{{39|}}} |c2style={{{col2style|{{{outputstyle|}}}}}}|c2={{{40|}}} }} }}
+|-
+|style="width:50%; border-width:1px;border-style:solid none none none;border-color:#ddd; padding:5px; vertical-align:top;"| 
+|style="width:50%; border-width:1px;border-style:solid none none none;border-color:#ddd; padding:5px; vertical-align:top;"| 
+|}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
