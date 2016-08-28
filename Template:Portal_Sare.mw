@@ -1,0 +1,20 @@
+<includeonly>{{tabweb portal6
+| color = gray
+<!-- bilowga tabweb1 -->
+| tabweb1 = {{bedel khad| sinaan =dhexeeye | hoos= 1px 1px 2px black, 1px 1px 25px blue, 5px 5px 10px darkblue| balac-khad = 50| bah-khad = Arabic Typesetting| midab-khad = ffffff| text = [[{{NAMESPACE}}:{{ROOTPAGENAME}}|{{NAMESPACE}} {{ROOTPAGENAME}}]]}}
+<!-- bilowga tabweb2 -->
+| tabweb2 =  {{bedel khad| sinaan =dhexeeye | اhoos= 1px 1px 2px black, 1px 1px 20px blue, 3px 5px 10px darkblue| balac-khad = 50| bah-khad = Arabic Typesetting| midab-khad = ffffff| text = Kayd {{{qayb|{{SUBPAGENAME}}}}}
+}}
+<!-- biloowga tabweb3 -->
+| tabweb3 ={{bedel khad| balac-khad = 15|wareeg=1| bah-khad = Andalus| midab-khad = ffffff| text ={{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} |{{Batoon Ogol Gujin 2|Wikipedia:Portal/Categories|Eeg qaybaha bogga|class=ui-button-green ui-button-large}} | {{#ifexist: Category:Portal {{PAGENAME}} | {{Batoon Ogol Gujin 2|Wikipedia:Portal/Categories|Eeg bogga qaybaha|class=ui-button-green ui-button-large}} | [{{server}}{{localurl:Category:Portal {{PAGENAME}}|action=edit&preload{{=}}Template:Portal_Category/Kamida2}} <big>Samee qaybta Category</big>] }} }} {{Batoon Ogol Gujin 2|Wikipedia:Portal/Kayd|Eeg kaydka bogga|class=ui-button-red ui-button-large}}}}
+<!-- biloowga tabweb4 -->
+| tabweb4 = {{bedel khad| balaca-khad = 15|wareeg=1| bahda-khad = Andalus| midab-khad = ffffff| text ={{Batoon Ogol Gujin 2|Wikipedia:Portal/Dhisme|Eeg bogga dhismaha|class=ui-button-blue ui-button-large}} {{Batoon Gujin 2
+|url={{fullurl:{{{page|{{FULLPAGENAME}}}}}|action=purge}}
+|Dacarfal
+|iconPrimary=ui-icon-wrench
+|class=ui-button-green ui-button-large
+}}}}
+<!-- Portal dhammadka tabweb4 -->}}
+</includeonly>
+
+<noinclude>{{Documentation}}</noinclude>
