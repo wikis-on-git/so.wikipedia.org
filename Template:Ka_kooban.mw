@@ -1,14 +1,14 @@
 <includeonly><div>
-<div style="vertical-align:middle">{{#if:{{{image|}}}|[[file:{{{image}}}|{{{sinaan|left}}}|{{{size|140x140}}}px]]}}</div>
+<div style="vertical-align:middle">{{#if:{{{image|}}}|[[file:{{{image}}}|{{{align|left}}}|{{{size|140x140}}}px]]}}</div>
 <div style="vertical-align:middle">{{{text|}}}</div>
 </div>
 <div style="text-align:left; margin-right: 10px; margin-bottom: 4px">
-'''{{{articl|}}}'''
+'''{{{article|}}}'''
 </div>
 {{#if:{{{Kayd|}}}|[[Portal:{{{Kayd|{{BASEPAGENAME}} }}}|'''Kaydka''']]}}</includeonly>
 <noinclude>
 {{Documentation}}
-[[Category:Portal {{{Categories|{{BASEPAGENAME}} }}}|*]]
+[[Category:Portal {{{Qayb|{{BASEPAGENAME}} }}}|*]]
 [[Category:Tusmo portal]]
 </noinclude>
 [[Category:Bogag adeegsada tusmada ka kooban]]
