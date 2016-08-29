@@ -1,0 +1,21 @@
+<includeonly><center>
+{| style="margin-right: 14px; margin-bottom: 5px; padding-top: 7px; padding-bottom: 7px; padding-left: 7px; padding-right: 7px; background: white; border:4px ridge {{{border color|#ffffff;}}}"
+| [[file:{{{image}}}|{{{size|250}}}px|center]]
+|} 
+{| class="noprint" style="border:0; width:100%; padding:0; margin:0.3; background-color:transparent"
+| style="text-align:center; width:33%;" | {{#if:{{{owner|}}}|owner: {{{owner}}}|}} 
+|}
+{{{comment|}}}
+</center>
+
+{| class="noprint" style="border:0; width:100%; padding:0; margin:0.3; background-color:transparent"
+|-
+| style="text-align:center; width:33%;" | {{#ifeq:{{{show|}}}|yes|'''[[{{{site|}}}|show]]'''|}}
+| style="text-align:right; width:33%;" | {{#if:{{{link|}}}|'''[[{{{link|}}}|dheeraad aqri]]'''|}}
+|}</includeonly>[[Category:Bogag adeegsada tusmada sawir portal]]<noinclude>
+{{Intricate template}}
+{{Purgepage}}
+{{Documentation}}
+[[Category:Portal {{{Qayb|{{BASEPAGENAME}} }}}|*]]
+[[Category:Tusmo portal]]
+</noinclude>
