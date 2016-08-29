@@ -1,7 +1,7 @@
 <includeonly>{{#if:{{{title|}}}
 |<h3>{{{title|}}}</h3>
 }}
-{{t.q.s|{{{1|}}} }} 
+{{b.w.a|{{{1|}}} }} 
 {{#ifexist:{{{1|}}}<!--  
                               -->|{{{{{1|}}}}}<!--  
                               -->|{{{{{transclude|bedelid portal sawir}}}|page={{{1}}}}}| {{{2|}}}
