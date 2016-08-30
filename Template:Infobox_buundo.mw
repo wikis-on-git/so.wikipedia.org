@@ -16,31 +16,31 @@
 | label2      = [[Ordnance Survey National Grid|OS grid reference]]
 |  data2      = {{#if:{{{os_grid_reference|}}}|<span class="plainlinksneverexpand">{{Gbmaprim|{{{os_grid_reference}}}|{{{os_grid_reference}}}}}</span>}}
 
-| label3      = Carries
+| label3      = Qaabka
 |  data3      = {{{carries|}}}
 
-| label4      = Crosses
+| label4      = Dhexmarta
 |  data4      = {{{crosses|}}}
 
-| label5      = Locale
+| label5      = Ku taala
 |  data5      = {{{locale|{{{location|}}}}}}
 | class5      = label
 
-| label6      = Official name
+| label6      = Magaca dowliga
 |  data6      = {{{official_name|}}}
 | class6      = nickname
 
-| label7      = Other name(s)
+| label7      = Naaneys
 |  data7      = {{{other_name|{{{also_known_as|}}}}}}
 | class7      = nickname
 
-| label8      = [[Namesake|Named for]]
+| label8      = Loogu magac daray
 |  data8      = {{{named_for|}}}
 
-| label9      = Owner
+| label9      = Iska leh
 |  data9      = {{{owner|}}}
 
-| label10     = Maintained by
+| label10     = Dhisay
 |  data10     = {{{maint|{{{maintained|}}}}}}
 
 | label11     = Heritage status
@@ -60,9 +60,9 @@
 |  data15     = {{#if:{{{followed|}}}|{{{followed|}}}|{{{downstream|}}}}}
 
 | header16    = {{#if:{{{design|}}}{{{material|}}}{{{material1|}}}{{{material2|}}}{{{length|}}}{{{width|}}}{{{height|}}}{{{depth|}}}{{{traversable|{{{passable|}}}}}}{{{towpath|}}}{{{mainspan|}}}{{{number_spans|{{{spans|}}}}}}{{{piers_in_water|{{{pierswater|}}}}}}{{{load|}}}{{{clearance_above|{{{clearance|}}}}}}{{{clearance_below|{{{below|}}}}}}{{{life|}}}
- | Characteristics}}
+ | Astaamaha}}
 
-| label17     = Design
+| label17     = Nashqad
 |  data17     = {{{design|}}}
 | class17     = category
 
@@ -76,13 +76,13 @@
 | label20     = Pier construction
 |  data20     = {{{material2|}}}
 
-| label21     = Total length
+| label21     = Dhererka
 |  data21     = {{{length|}}}
 
-| label22     = Width
+| label22     = Balaca
 |  data22     = {{{width|}}}
 
-| label23     = Height
+| label23     = Jooga
 |  data23     = {{{height|}}}
 
 | label24     = Water depth
@@ -94,7 +94,7 @@
 | label26     = [[Towpath]]s
 |  data26     = {{{towpath|}}}
 
-| label27     = Longest span
+| label27     = Masaafada
 |  data27     = {{{mainspan|}}}
 
 | label28     = Number of spans
@@ -116,12 +116,12 @@
 |  data33     = {{{life|}}}
 
 | header34    = {{#if:{{{architect|}}}{{{designer|}}}{{{winner|}}}{{{contracted_designer|}}}{{{engineering|}}}{{{builder|}}}{{{fabricator|}}}{{{begin|}}}{{{complete|}}}{{{cost|}}}{{{open|}}}{{{inaugurated|}}}{{{rebuilt|}}}{{{collapsed|}}}{{{closed|}}}{{{replaces|}}}{{{replaced_by|}}}
- | History}}
+ | Taariikh}}
 
 | label35     = Architect
 |  data35     = {{{architect|}}}
 
-| label36     = Designer
+| label36     = Xirfada leh
 |  data36     = {{{designer|}}}
 
 | label37     = Contracted lead designer
@@ -139,13 +139,13 @@
 | label41     = Fabrication by
 |  data41     = {{{fabricator|}}}
 
-| label42     = Construction begin
+| label42     = Dhismaha bilaabmey
 |  data42     = {{{begin|}}}
 
-| label43     = Construction end
+| label43     = Dhismaha dhamaday
 |  data43     = {{{complete|}}}
 
-| label44     = Construction cost
+| label44     = Qiimaha
 |  data44     = {{{cost|}}}
 
 | label45     = Loo dabaaldego
@@ -174,7 +174,7 @@
 | label53     = [[Annual average daily traffic|Daily traffic]]
 |  data53     = {{{traffic|}}}
 
-| label54     = Toll
+| label54     = Gunno
 |  data54     = {{{toll|}}}
 
 | header55    = {{{extra|}}}
