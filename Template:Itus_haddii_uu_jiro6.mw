@@ -1,0 +1,7 @@
+<includeonly>{{#if:{{{1|}}}
+|{{#ifexist:{{{1|}}}<!--  
+                              -->| {{{{{1|}}}}}<!--  
+                              -->|{{Bedelid portal sawir ueg2|Page={{{1}}}}}
+}}
+}}</includeonly>
+[[Category:Bogaga adeegsada tusmada itus haddii uu jiro6]]<noinclude>{{Documentation}}</noinclude>
