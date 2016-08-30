@@ -60,7 +60,7 @@
 | caption4 = {{{caption_bathymetry|}}}
 
 | rowclass1 = adr
-| label1 = Location
+| label1 = Meesha
 | class1 = region
 | data1  = {{{location|}}}
 
@@ -68,7 +68,7 @@
 | data2  = {{{group|}}}
 | class2 = category
 
-| label3 = <span title="Geographical coordinates">Coordinates</span>
+| label3 = <span title="Geographical coordinates">Meesha dhacdo</span>
 | data3  = {{#if:{{{coords|}}}
    | {{{coords|}}}
    | {{#if:{{{latd|}}}| {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:waterbody{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|{{#if:{{{coordinates_display|}}}|title|μ1}}}}={{{coordinates_display|}}}|{{#if:{{{coordinates_format|}}}|format|μ2}}={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}} }}
@@ -77,8 +77,8 @@
 | label4 = {{#if:{{{lake_type|}}}
   | [[Lake#Types of lakes|Lake type]]
   | {{#if:{{{ocean_type|}}}
-    | [[Ocean#Types of oceans|Ocean type]]
-    | [[Body of water#Types|Type]]
+    | Nooca
+    | Nooca
     }}
   }}
 | data4 = {{#if:{{{lake_type|}}}
@@ -93,25 +93,25 @@
 | label5     = Etymology
 | data5      = {{{etymology|}}}
 
-| label6     = Part&nbsp;of
+| label6     = Ka mid&nbsp;ah
 | data6      = {{{part_of|{{{parent|}}}}}}
 
-| label7     = [[inflow (hydrology)|<span title="Primary inflows: rivers, streams, precipitation">Primary inflows</span>]]
+| label7     = <span title="Primary inflows: rivers, streams, precipitation">Ka soo qulqula</span>
 | data7      = {{{inflow|}}}
 
 | label8     = River sources
 | data8      = {{{rivers|}}}
 
-| label9     = [[discharge (hydrology)|<span title="Primary outflows: rivers, streams, evaporation">Primary outflows</span>]]
+| label9     = <span title="Primary outflows: rivers, streams, evaporation">Dhexmara</span>
 | data9      = {{{outflow|}}}
 
 | label10     = <span title="Primary outflows: oceans, seas, straights">Ocean/sea sources</span>
 | data10      = {{{oceans|}}}
 
-| label11    = [[Drainage basin|Catchment area]]
+| label11    = Baaxada
 | data11     = {{#if:{{{catchment_km2|{{{catchment|}}}}}}|{{Infobox body of water/convert|{{{catchment_km2|{{{catchment|}}}}}}|km2|sqmi}}{{{catchment_ref|}}}}}
 
-| label12    = [[Drainage basin|Basin]]&nbsp;countries
+| label12    = Wadanka&nbsp;biyo fadhiisiga
 | data12     = {{{basin_countries|{{{countries|}}}}}}
 
 | label13    = Managing agency
@@ -145,19 +145,19 @@
 | rowclass24 = note
 | data24     = {{#if:{{{min_width_km|{{{min_width|}}}}}}|{{Infobox body of water/convert|{{{min_width_km|{{{min_width|}}}}}}|km|mi}}{{{min_width_ref|}}}}}
 
-| label25    = {{#if:{{{lake_type|}}}|[[List of lakes by area|Surface area]]|Surface area}}
+| label25    = {{#if:{{{lake_type|}}}|Baaxada biyaha}}
 | rowclass25 = note
 | data25     = {{#if:{{{area_km2|{{{area|}}}}}}|{{Infobox body of water/convert|{{{area_km2|{{{area|}}}}}}|km2|sqmi}}{{{area_ref|}}}}}
 
-| label26    = Average depth
+| label26    = Qotoda
 | rowclass26 = note
 | data26     = {{#if:{{{depth_m|{{{depth|}}}}}}|{{Infobox body of water/convert|{{{depth_m|{{{depth|}}}}}}|m|ft}}{{{depth_ref|}}}}}
 
-| label27    = Max. depth
+| label27    = Ugu godan
 | rowclass27 = note
 | data27     = {{#if:{{{max-depth_m|{{{max-depth|}}}}}}|{{Infobox body of water/convert|{{{max-depth_m|{{{max-depth|}}}}}}|m|ft}}{{{max-depth_ref|}}}}}
 
-| label28    = {{#if:{{{lake_type|}}}|[[List of lakes by volume|Water volume]]|Water volume}}
+| label28    = {{#if:{{{lake_type|}}}|Cabirka biyaha}}
 | rowclass28 = note
 | data28     = {{#if:{{{volume_km3|{{{volume|}}}}}}|{{Infobox body of water/convert|{{{volume_km3|{{{volume|}}}}}}|km3|acre.ft}}{{{volume_ref|}}}}}
 
@@ -197,9 +197,9 @@
 | data39     = {{{frozen|}}}
 
 | label41    = {{#if:{{{islands_category|}}}
-  |[[:category:{{{islands_category}}}|Islands]]
+  |[[:category:{{{islands_category}}}|Gasiirad]]
   |{{#if:{{{lake_type|}}}
-    | [[:category:Lake islands|Islands]]
+    | Gasiirad
     | {{#if:{{{ocean_type|}}}
       | [[:Category:Islands by ocean or sea|Islands]]
       | [[:Category:Islands by body of water|Islands]]
@@ -219,7 +219,7 @@
 | rowclass44 = note
 | data44     = {{{benches|}}}
 
-| label45    = Settlements
+| label45    = Deegaanka
 | data45     = {{{cities|}}}
 
 | label46    = Website
