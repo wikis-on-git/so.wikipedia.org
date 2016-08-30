@@ -145,7 +145,7 @@
 | rowclass24 = note
 | data24     = {{#if:{{{min_width_km|{{{min_width|}}}}}}|{{Infobox body of water/convert|{{{min_width_km|{{{min_width|}}}}}}|km|mi}}{{{min_width_ref|}}}}}
 
-| label25    = {{#if:{{{lake_type|}}}|Baaxada biyaha}}
+| label25    = Baaxada biyaha
 | rowclass25 = note
 | data25     = {{#if:{{{area_km2|{{{area|}}}}}}|{{Infobox body of water/convert|{{{area_km2|{{{area|}}}}}}|km2|sqmi}}{{{area_ref|}}}}}
 
@@ -157,7 +157,7 @@
 | rowclass27 = note
 | data27     = {{#if:{{{max-depth_m|{{{max-depth|}}}}}}|{{Infobox body of water/convert|{{{max-depth_m|{{{max-depth|}}}}}}|m|ft}}{{{max-depth_ref|}}}}}
 
-| label28    = {{#if:{{{lake_type|}}}|Cabirka biyaha}}
+| label28    = Cabirka biyaha
 | rowclass28 = note
 | data28     = {{#if:{{{volume_km3|{{{volume|}}}}}}|{{Infobox body of water/convert|{{{volume_km3|{{{volume|}}}}}}|km3|acre.ft}}{{{volume_ref|}}}}}
 
@@ -201,8 +201,8 @@
   |{{#if:{{{lake_type|}}}
     | Gasiirad
     | {{#if:{{{ocean_type|}}}
-      | [[:Category:Islands by ocean or sea|Islands]]
-      | [[:Category:Islands by body of water|Islands]]
+      | Gasiirad
+      | Gasiirad
       }}
     }}
   }}
