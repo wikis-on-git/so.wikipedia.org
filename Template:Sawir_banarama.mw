@@ -1,0 +1,44 @@
+<includeonly><div style="padding: 0em; opacity: {{{transparency|1}}}; width:100%; height:120px; position: relative; overflow:hidden; float: center; align:center;">
+<div style="position: absolute; top:-{{{cropped|}}};">
+{{#if:{{{image|}}}
+|[[file:{{{image}}}|link=|{{{comment|}}}|img_frameless|1500px]]}}
+</div>
+</div>
+{| class="noprint" width="100%" border="0" style="padding: 0; margin: 0; float: center; text-align:center; background-color:transparent"
+|width="33%"| {{{comment|}}}{{#if:{{{picked-image|}}}|  -  {{{picked-image}}}|}} 
+|}</includeonly>
+<noinclude>
+== Adeegsiga ==
+Cabirka iskiiska ee sawirka waa 1500 haddii uu sawirku ka weyn yahay tusmada ayaa samaynaysa in ay ka dhigto si ku haboon cabirka bogga howl usahasha aragtida sawirka jiha kasta.
+<pre>
+{{Sawir banarama
+  |image=  
+  |cropped=  
+  |comment=
+  |picked-image= 
+  |transparency=
+}}
+</pre>
+;image:sawirka linkiga.  
+;cropped:qarin ama muujin qaybo ka mid ah sawirka gudaha goob la cayimay. laakiin sabab? Maxaa yeelay qaar sawir banarama waxa uu leeyahay joog ku dhawaan kara soo bandhigista sawirk hadda waa laga gaashaantay jooggaas waxaa dhici karta jarid.  
+;comment:qeexista sawirka iyo waxa uu yahay.
+;picked-image:qofkii sawiray ama milkiyadda.
+;transparency:ka soo qaadid sawirka daahfurnaan la'an iyo qiimaheeda 1. saami ahaan in ka yar tdaahfurnaanta 0.1 ugu sarayn 0.9, oo ah toban qoqolkii shaqaashan.
+== Tusaale==
+{{Sawir banarama
+  |image=  Duisburg_Masurensee.jpg
+  |cropped=  99px
+  |comment=
+  |picked-image= 
+  |transparency= 
+}}
+== Tusaale labaad ==
+Daahfurnaan lagu qayaasay  0.5
+{{Sawir banarama
+  |image=  Caparica January 2013-1a.jpg
+  |cropped=  400px
+  |comment=
+  |picked-image= 
+  |transparency= 0.5
+}}
+</noinclude>
