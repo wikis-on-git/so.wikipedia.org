@@ -1,0 +1,207 @@
+{{Infobox
+| bodyclass   = vcard
+| child       = {{{child|{{{embed|}}}}}}
+
+| headerstyle = background-color: #efefef;
+
+| above       = <span class="fn org">{{If empty|{{{name|{{{bridge_name|{{{aqueduct_name|}}}}}}}}}|{{PAGENAMEBASE}}}}</span><!--
+  -->{{#if:{{{native_name|}}}|<br /><span class="nickname" {{#if:{{{native_name_lang|}}}| lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|upright={{{image_upright|1}}}|alt={{{alt|}}}}}
+| caption     = {{{caption|{{{image_caption|}}}}}}
+
+| label1      = [[Geographic coordinate system|Coordinates]]
+|  data1      = {{#if:{{Both|{{{latitude|{{{lat|}}}}}}{{{latd|}}}|{{{longitude|{{{long|}}}}}}{{{longd|}}}}}|
+{{Geobox coor|wrap=yes|{{#if:{{{latitude|{{{lat|}}}}}}|{{{latitude|{{{lat}}}}}}|{{{latd|}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{#if:{{{longitude|{{{long|}}}}}}|{{{longitude|{{{long}}}}}}|{{{longd|}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark{{#if: {{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|title}}=title|format={{{coordinates_format|}}}}}|{{{coordinates|}}}}}
+
+| label2      = [[Ordnance Survey National Grid|OS grid reference]]
+|  data2      = {{#if:{{{os_grid_reference|}}}|<span class="plainlinksneverexpand">{{Gbmaprim|{{{os_grid_reference}}}|{{{os_grid_reference}}}}}</span>}}
+
+| label3      = Carries
+|  data3      = {{{carries|}}}
+
+| label4      = Crosses
+|  data4      = {{{crosses|}}}
+
+| label5      = Locale
+|  data5      = {{{locale|{{{location|}}}}}}
+| class5      = label
+
+| label6      = Official name
+|  data6      = {{{official_name|}}}
+| class6      = nickname
+
+| label7      = Other name(s)
+|  data7      = {{{other_name|{{{also_known_as|}}}}}}
+| class7      = nickname
+
+| label8      = [[Namesake|Named for]]
+|  data8      = {{{named_for|}}}
+
+| label9      = Owner
+|  data9      = {{{owner|}}}
+
+| label10     = Maintained by
+|  data10     = {{{maint|{{{maintained|}}}}}}
+
+| label11     = Heritage status
+|  data11     = {{{heritage|}}}
+| class11     = category
+
+| label12     = {{#if:{{{id_type|}}}|{{{id_type}}}|[[National Bridge Inventory#ID numbers|ID number]]}}
+|  data12     = {{{id|}}}
+
+| label13     = Website
+|  data13     = {{{website|}}}
+
+| label14     = {{#if:{{{preceded|}}}|Preceded by|Next upstream}}
+|  data14     = {{#if:{{{preceded|}}}|{{{preceded|}}}|{{{upstream|}}}}}
+
+| label15     = {{#if:{{{followed|}}}|Followed by|Next downstream}}
+|  data15     = {{#if:{{{followed|}}}|{{{followed|}}}|{{{downstream|}}}}}
+
+| header16    = {{#if:{{{design|}}}{{{material|}}}{{{material1|}}}{{{material2|}}}{{{length|}}}{{{width|}}}{{{height|}}}{{{depth|}}}{{{traversable|{{{passable|}}}}}}{{{towpath|}}}{{{mainspan|}}}{{{number_spans|{{{spans|}}}}}}{{{piers_in_water|{{{pierswater|}}}}}}{{{load|}}}{{{clearance_above|{{{clearance|}}}}}}{{{clearance_below|{{{below|}}}}}}{{{life|}}}
+ | Characteristics}}
+
+| label17     = Design
+|  data17     = {{{design|}}}
+| class17     = category
+
+| label18     = Material
+|  data18     = {{{material|}}}
+| class18     = category
+
+| label19     = Trough construction
+|  data19     = {{{material1|}}}
+
+| label20     = Pier construction
+|  data20     = {{{material2|}}}
+
+| label21     = Total length
+|  data21     = {{{length|}}}
+
+| label22     = Width
+|  data22     = {{{width|}}}
+
+| label23     = Height
+|  data23     = {{{height|}}}
+
+| label24     = Water depth
+|  data24     = {{{depth|}}}
+
+| label25     = Traversable?
+|  data25     = {{{traversable|{{{passable|}}}}}}
+
+| label26     = [[Towpath]]s
+|  data26     = {{{towpath|}}}
+
+| label27     = Longest span
+|  data27     = {{{mainspan|}}}
+
+| label28     = Number of spans
+|  data28     = {{{number_spans|{{{spans|}}}}}}
+
+| label29     = Piers in water
+|  data29     = {{{piers_in_water|{{{pierswater|}}}}}}
+
+| label30     = Load limit
+|  data30     = {{{load|}}}
+
+| label31     = Clearance above
+|  data31     = {{{clearance_above|{{{clearance|}}}}}}
+
+| label32     = [[Air draft|Clearance below]]
+|  data32     = {{{clearance_below|{{{below|}}}}}}
+
+| label33     = Design life
+|  data33     = {{{life|}}}
+
+| header34    = {{#if:{{{architect|}}}{{{designer|}}}{{{winner|}}}{{{contracted_designer|}}}{{{engineering|}}}{{{builder|}}}{{{fabricator|}}}{{{begin|}}}{{{complete|}}}{{{cost|}}}{{{open|}}}{{{inaugurated|}}}{{{rebuilt|}}}{{{collapsed|}}}{{{closed|}}}{{{replaces|}}}{{{replaced_by|}}}
+ | History}}
+
+| label35     = Architect
+|  data35     = {{{architect|}}}
+
+| label36     = Designer
+|  data36     = {{{designer|}}}
+
+| label37     = Contracted lead designer
+|  data37     = {{{contracted_designer|}}}
+
+| label38     = Successful competition design
+|  data38     = {{{winner|}}}
+
+| label39     = Engineering design by
+|  data39     = {{{engineering|}}}
+
+| label40     = Constructed by
+|  data40     = {{{builder|}}}
+
+| label41     = Fabrication by
+|  data41     = {{{fabricator|}}}
+
+| label42     = Construction begin
+|  data42     = {{{begin|}}}
+
+| label43     = Construction end
+|  data43     = {{{complete|}}}
+
+| label44     = Construction cost
+|  data44     = {{{cost|}}}
+
+| label45     = {{#if:{{{dedicated|}}}|Dedicated|Inaugurated}}
+|  data45     = {{if empty|{{{dedicated|}}}|{{{inaugurated|}}}}}
+
+| label46     = {{#if:{{{opening|}}}|Opening|Opened}}
+|  data46     = {{if empty|{{{opening|}}}|{{{open|}}}|{{{opened|}}}}}
+
+| label47     = Rebuilt
+|  data47     = {{{rebuilt|}}}
+
+| label48     = Collapsed
+|  data48     = {{{collapsed|}}}
+
+| label49     = Closed
+|  data49     = {{{closed|}}}
+
+| label50     = Replaces
+|  data50     = {{{replaces|}}}
+
+| label51     = Replaced by
+|  data51     = {{{replaced_by|}}}
+
+| header52    = {{#if:{{{traffic|}}}{{{toll|}}}|Statistics}}
+
+| label53     = [[Annual average daily traffic|Daily traffic]]
+|  data53     = {{{traffic|}}}
+
+| label54     = Toll
+|  data54     = {{{toll|}}}
+
+| header55    = {{{extra|}}}
+
+|  data56     = {{#if:{{{map_type|}}}|{{Location map|{{{map_type|}}}
+ | lat       = {{#if:{{{latm|}}}{{{latNS|}}}||{{#if:{{{latitude|{{{lat|}}}}}}|{{{latitude|{{{lat}}}}}}|{{{latd|}}}}}}}
+ | long      = {{#if:{{{longm|}}}{{{longEW|}}}||{{#if:{{{longitude|{{{long|}}}}}}|{{{longitude|{{{long}}}}}}|{{{longd|}}}}}}}
+ | lat_deg   = {{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}}}}
+ | lat_min   = {{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}}}}
+ | lat_sec   = {{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}}}}
+ | lat_dir   = {{#if:{{{latNS|}}}|{{{latNS|}}}}}
+ | lon_deg   = {{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}}}}
+ | lon_min   = {{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}}}}
+ | lon_sec   = {{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}}}}
+ | lon_dir   = {{#if:{{{longEW|}}}|{{{longEW|}}}}}
+ | float     = center
+ | border    = infobox
+ | label     = {{#if:{{{map_dot_label|}}}|{{{map_dot_label}}}|{{{name|{{{bridge_name|{{{aqueduct_name|{{PAGENAMEBASE}}}}}}}}}}}}}
+ | mark      = {{{map_dot_mark|}}}
+ | relief    = {{Yesno|{{{map_relief|1}}}|yes=1|no=}}
+ | width     = {{{map_size|}}}
+ | caption   = {{#if:{{{map_caption|}}}|{{{map_caption}}}|Location in {{#invoke:Location map|data|{{{map_type}}}|name}}}}
+ }}
+ | {{#invoke:InfoboxImage|InfoboxImage|image={{{map_image|}}}|size={{{map_size|{{{map_width|}}}}}}|upright={{{map_upright|1}}}|alt={{{map_alt|}}}}}{{#if:{{Both|{{{map_image|}}}|{{{map_caption|}}}}}|<div>{{{map_caption}}}</div>}}
+ }}
+
+| header57    = {{#if:{{{references|}}}|Referen≤ces}}
+|  data58     = {{{references|}}}
+}}{{Main other|{{#if:{{{clearance|}}}|[[Category:Articles using Template:Infobox bridge with clearance]]}}{{#if:{{{extra|}}}|[[Category:Pages using Infobox bridge with extra]]}}{{#if:{{{map_cue|}}}{{{map_text|}}}|[[Category:Pages using Infobox bridge with deprecated parameters]]}}}}<noinclude>{{Documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS --></noinclude>
