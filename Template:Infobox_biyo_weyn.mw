@@ -197,7 +197,7 @@
 | data39     = {{{frozen|}}}
 
 | label41    = {{#if:{{{islands_category|}}}
-  |[[:category:{{{islands_category}}}|Gasiirad]]
+  |[[Gasiirad]]
   |{{#if:{{{lake_type|}}}
     | Gasiirad
     | {{#if:{{{ocean_type|}}}
