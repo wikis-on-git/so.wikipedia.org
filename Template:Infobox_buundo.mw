@@ -4,7 +4,7 @@
 
 | headerstyle = background-color: #efefef;
 
-| above       = 
+| above       = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
 
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|upright={{{image_upright|1}}}|alt={{{alt|}}}}}
 | caption     = {{{caption|{{{image_caption|}}}}}}
@@ -148,11 +148,11 @@
 | label44     = Construction cost
 |  data44     = {{{cost|}}}
 
-| label45     = {{#if:{{{dedicated|}}}|Dedicated|Inaugurated}}
-|  data45     = {{if empty|{{{dedicated|}}}|{{{inaugurated|}}}}}
+| label45     = Loo dabaaldego
+|  data45     = 
 
-| label46     = {{#if:{{{opening|}}}|Opening|Opened}}
-|  data46     = {{if empty|{{{opening|}}}|{{{open|}}}|{{{opened|}}}}}
+| label46     = 
+|  data46     = La furey
 
 | label47     = Rebuilt
 |  data47     = {{{rebuilt|}}}
