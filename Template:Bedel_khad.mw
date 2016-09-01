@@ -1,15 +1,15 @@
 <includeonly>
-<div style="text-align: {{#switch:{{{sinaan|}}}
-| dhexeeye= center
-| dhex= center
-| dhexda= center
-| dhex batan= center
-| midig= right
-| midigta= right 
-| bidix=left
-| bidixda=left
-|#default=justify}}; transform: rotate({{{wareeg|0}}}deg); -ms-transform: rotate({{{wareeg|0}}}deg); -webkit-transform: rotate({{{wareeg|0}}}deg); text-indent: {{{fogaan|0}}}px;">
-<span style="direction: rtl; background-color: #{{{midab-gadaal|}}}; text-shadow: {{{hoos|}}}; font-size: {{{balac-khad|23}}}px; font-family: {{#switch:{{{bah-khad|}}}
+<div style="text-align: {{#switch:{{{text-align|}}}
+| center= center
+| center= center
+| center= center
+| center= center
+| right= right
+| right= right 
+| left=left
+| left=left
+|#default=justify}}; transform: rotate({{{rotate|0}}}deg); -ms-transform: rotate({{{rotate|0}}}deg); -webkit-transform: rotate({{{rotate|0}}}deg); text-indent: {{{text-indent|0}}}px;">
+<span style="direction: rtl; background-color: #{{{background-color|}}}; text-shadow: {{{text-shadow|}}}; font-size: {{{font-size|23}}}px; font-family: {{#switch:{{{font-family|}}}
 | Iskoola Pota= Iskoola Pota
 | Serif= Serif
 | Sans-serif=Sans-serif
@@ -35,10 +35,10 @@
 | Segoe UI =Segoe UI 
 | Tahoma=Tahoma
 | Arabic Typesetting=Arabic Typesetting
-|#default=Arabic Typesetting}}; letter-spacing: {{{kala-fogaanta-xarfaha|0}}}px; word-spacing: {{{kala-fogaanta-erayada|0}}}px; line-height: {{{kala-fogaanta-sadarada|1}}}; color: #{{{midab-khad|}}};">{{{text|}}}</span>
+|#default=Arabic Typesetting}}; letter-spacing: {{{letter-spacing|0}}}px; word-spacing: {{{word-spacing|0}}}px; line-height: {{{line-height|1}}}; color: #{{{color-line|}}};">{{{text|}}}</span>
 </div>
 </includeonly><noinclude>
-{{Documentation}}
-[[Category:Tusmo portal]]
-[[Category:Tusmooyin far midabaysan]]
+{{]Documentation}}
+[[Category:Portal tusmo]]
+[[Category:Tusmooyin qoraal midab leh]]
 </noinclude>
