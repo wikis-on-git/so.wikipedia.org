@@ -1,0 +1,96 @@
+<includeonly>{| width="100%" align="center" border="0" cellpadding="4" cellspacing="4" valign="top"
+|-
+| align="center" style="background:#{{{background-color}}}; font-size: 100%;" | <div style="position:relative"></div>
+|- valign="top" <!-- articles -->
+| | 
+{| 
+|- 
+| width="50%" valign="center" | 
+{| width="100%"  border="0" cellspacing="0" cellpadding="5"
+<!---------------------------------------------->
+| width="0%" | 
+{{#if:{{{image1|}}}
+|[[file:{{{image1}}}|{{{text-align}}}|{{{image-size1|100x100}}}px]]}}
+| width="100%" style="font-size: 95%;" |
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title1|}}}}} {{b.w.a|{{{edit1|}}}}}{{#if:{{{entry1|}}}|{{{entry1|}}}}}
+<!---------------------------------------------->
+|- 
+<!---------------------------------------------->
+| {{#if:{{{image3|}}}
+|[[file:{{{image3}}}|{{{text-align}}}|{{{image-size3|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" |
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title3|}}}}} {{b.w.a|{{{edit3|}}} }}{{#if:{{{entry3|}}}|{{{entry3|}}}}}
+<!---------------------------------------------->
+|- 
+<!---------------------------------------------->
+| {{#if:{{{image5|}}}
+|[[file:{{{image5}}}|{{{text-align}}}|{{{image-size5|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" |
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title5|}}}}} {{b.w.a|{{{edit5|}}} }}{{#if:{{{entry5|}}}|{{{entry5|}}}}}
+<!---------------------------------------------->
+|- 
+<!---------------------------------------------->
+| {{#if:{{{image7|}}}
+|[[file:{{{image7}}}|{{{text-align}}}|{{{image-size7|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" | 
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title7|}}}}} {{b.w.a|{{{edit7|}}} }}{{#if:{{{entry7|}}}|{{{entry7|}}}}}
+|}
+| width="50%" valign="top" | 
+{| width="100%"  border="0" cellspacing="0" cellpadding="5"
+<!---------------------------------------------->
+| {{#if:{{{image2|}}}
+|[[file:{{{image2}}}|{{{text-align}}}|{{{image-size2|100x100}}}px]]}}
+| style="font-size: 95%;" |
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title2|}}}}} {{b.w.a|{{{edit2|}}} }}{{#if:{{{entry2|}}}|{{{entry2|}}}}}
+<!---------------------------------------------->
+|- 
+<!---------------------------------------------->
+| {{#if:{{{image4|}}}
+|[[file:{{{image4}}}|{{{text-align}}}|{{{image-size4|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" | 
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title4|}}}}} {{b.w.a|{{{edit4|}}} }}{{#if:{{{entry4|}}}|{{{entry4|}}}}}
+<!---------------------------------------------->
+|- 
+<!---------------------------------------------->
+| {{#if:{{{image6|}}}
+|[[file:{{{image6}}}|{{{text-align}}}|{{{image-size6|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" | 
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title6|}}}}} {{b.w.a|{{{edit6|}}} }}{{#if:{{{entry6|}}}|{{{entry6|}}}}}
+<!---------------------------------------------->
+|-
+<!---------------------------------------------->
+| {{#if:{{{image8|}}}
+|[[file:{{{image8}}}|{{{text-align}}}|{{{image-size8|100x100}}}px]]}}
+| style="font-size: 95%; border-top: 0px dashed #AAAAAA;" | 
+{{Bedel khad
+| font-size = 35
+| color-line = 000000
+| text = {{{title8|}}}}}  {{b.w.a|{{{edit8|}}} }}{{#if:{{{entry8|}}}|{{{entry8|}}}}}
+|}
+|}
+|}</includeonly>
+<noinclude>
+{{Documentation}}
+[[Category:Tusmo portal]]
+</noinclude>
