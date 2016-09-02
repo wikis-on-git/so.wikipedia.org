@@ -1,0 +1,16 @@
+<span class="Nastaliq" {{#switch:{{lc:{{{2|ur}}}}}
+ | fa = title="Persian Nastaliq" style="font-size: 125%; font-family: 'IranNastaliq', 'Urdu Emad Nastaleeq', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Urdu Typesetting', 'Jameel Noori Nastaleeq', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'Pak Nastaleeq', 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+ | ota = title="Ottoman Nastaliq" style="font-size: 125%; font-family: 'IranNastaliq', 'Urdu Emad Nastaleeq', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'Pak Nastaleeq', 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+ | bsk = title="Burushaski Nastaliq" style="font-size: 125%; font-family: 'Pak Nastaleeq', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', IranNastaliq, 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+ | skr = title="Saraiki Nastaliq" style="font-size: 125%; font-family: 'Pak Nastaleeq', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', IranNastaliq, 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+ | skr_rnoon = title="Saraiki Nastaliq" style="font-size: 125%; font-family: 'Fajer Noori Nastalique', 'Pak Nastaleeq', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', IranNastaliq, 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+ | ur = title="{{#ifeq:{{{2|}}}|ur|Urdu&#32;|}}Nastaliq" style="font-size: 125%; font-family: 'Jameel Noori Nastaleeq', 'Urdu Typesetting', 'Noto Nastaliq Urdu', 'Noto Nastaliq Urdu Draft', 'Hussaini Nastaleeq', 'AlQalam Taj Nastaleeq', IranNastaliq, 'Nafees Nastaleeq', 'Nafees Nastaleeq v1.01', Nafees, 'Pak Nastaleeq', 'PDMS_Jauhar', 'Alvi Lahori Nastaleeq';"
+
+}}>{{{1|}}}</span><noinclude>
+{{documentation}}
+</noinclude>
