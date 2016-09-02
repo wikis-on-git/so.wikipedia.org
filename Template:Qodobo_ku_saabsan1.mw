@@ -1,11 +1,11 @@
-<includeonly>{| width="100%" align="center" border="0" cellpadding="4" cellspacing="4" valign="top"
+<includeonly>{| width="100%" align="left" border="0" cellpadding="4" cellspacing="4" valign="top"
 |-
-| align="center" style="background:#{{{background-color}}}; font-size: 100%;" | <div style="position:relative"></div>
+| align="left" style="background:#{{{background-color}}}; font-size: 100%;" | <div style="position:relative"></div>
 |- valign="top" <!-- articles -->
 | | 
 {| 
 |- 
-| width="50%" valign="center" | 
+| width="50%" valign="left" | 
 {| width="100%"  border="0" cellspacing="0" cellpadding="5"
 <!---------------------------------------------->
 | width="0%" | 
