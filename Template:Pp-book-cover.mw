@@ -1,0 +1,20 @@
+{|style="background:{{{cover-color|lavender}}}; color:<!--
+-->{{#switch:{{lc:{{{cover-color|}}}}}
+    |black=&#32;{{{text-color|white}}}
+    |#default=&#32;{{{text-color|black}}}
+   }}; text-align:left; border:1px solid darkgrey; width: 130px;"
+|-
+| style="background:gray; height: 3px;" |
+|-
+| style="height: 30px; text-align: right; vertical-align: top;" |<small>{{{title|Title}}}<br><i>{{{subtitle|Subtitle}}}</i></small>
+|-
+| style="background:gray;" |
+|-
+| colspan="5" style="height: 135px; text-align: center; vertical-align: middle;" |[[File:{{{cover-image|Wikipedia-books-missing-cover.svg}}}|125px|<!--
+-->{{#switch:{{{cover-image|}}}
+    |Wikipedia-books-missing-cover.svg=Please select an appropriate cover image for this book. See "Template:Saved book" for instructions."
+    |#default=
+   }}]]
+|}<noinclude>
+{{documentation}}
+</noinclude>
