@@ -582,7 +582,7 @@
 {{!}}-
 {{!}}colspan="14"{{!}}<font color="red">'''Error: <code>{{{precipitation colour}}}</code> is not a valid precipitation color alternative, use <code><nowiki>|precipitation colour=green</nowiki></code> or remove the <code>precipitation colour</code> parameter for the standard blue coloring.'''</font>|green|p=<nowiki/>
 {{weather box/line/date
-|label=[[Precipitation (meteorology)|Precipitation]] <!--
+|label=[[Roob]]ka <!--
 
 -->{{#if:{{{metric first|}}}
      |{{#if:{{{Jan precipitation cm|}}}{{{Feb precipitation cm|}}}{{{Mar precipitation cm|}}}<!--
