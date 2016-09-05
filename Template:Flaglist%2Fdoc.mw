@@ -1,0 +1,116 @@
+{{Documentation subpage}}
+
+This template is identical to [[Template:Flag]] except that country names are aligned correctly with flag icons of different widths, for use in lists of countries. See the [[Template:Flag/doc|documentation of Template:Flag]] for general documentation and available parameters.
+
+== Examples ==
+
+{|width="50%"
+!style="text-align:left;"|Example country list using {{tl|flag}}
+!style="text-align:left;"|Example country list using {{tl|flaglist}}
+|-
+|
+*{{flag|Paraguay}}
+*{{flag|San Marino}}
+*{{flag|Palau}}
+*{{flag|Australia}}
+*{{flag|Nepal}}
+*{{flag|Brazil}}
+*{{flag|Iran}}
+*{{flag|Switzerland}}
+*{{flag|Qatar}}
+*{{flag|China}}
+*{{flag|Niger}}
+|
+*{{flaglist|Paraguay}}
+*{{flaglist|San Marino}}
+*{{flaglist|Palau}}
+*{{flaglist|Australia}}
+*{{flaglist|Nepal}}
+*{{flaglist|Brazil}}
+*{{flaglist|Iran}}
+*{{flaglist|Switzerland}}
+*{{flaglist|Qatar}}
+*{{flaglist|China}}
+*{{flaglist|Niger}}
+|}
+
+== How it works ==
+{{Lua|Module:Flaglist/size}}
+
+{{tl|Flag}} generates a flag icon, a non-breaking space and the country link, which means the alignment of the link depends on the width of the flag image. The default size for flag icons is 23x15px, so the icon width is 23px for long flags but smaller for more squarish flags such as those of [[Flag of San Marino|San Marino]] and [[Flag of Niger|Niger]] (any flag with an [[List of national flags by aspect ratio|aspect ratio]] less than {{math|{{sfrac|23|15}} &asymp; 1.53}}), misaligning the country links next to them. The {{tl|Flag/core}} template, used internally by {{((}}flag{{))}}, compensates for this for Nepal, Vatican City and Switzerland by inserting some extra spaces, though for several other countries the link is still shifted too far to the left, as seen above.
+
+{{tl|Flaglist}} puts a flag icon inside an invisible &lt;[[Span tag|span]]&gt; box with a fixed width calculated by [[Module:Flaglist/size]]. The width does not depend on the exact dimensions of the image, but does vary with the maximum width and height specified using [[WP:EIS|extended image syntax]]. The default size for most countries' flags is 23x15px; the {{para|size}} parameter can be used if a different size is wanted. [[:Category:Country data templates with distinct default size|Some entities]] have different defaults specified within their data templates and may output misaligned links even if {{para|size}} is not used.
+
+If a maximum width is specified (whether both width and height, e.g. <kbd>20x10px</kbd>, or width only, e.g. <kbd>20px</kbd>), either using the {{para|size}} parameter or the data template default, the box size is equal to this width plus seven pixels. If a height is specified but a width is not (<kbd>x10px</kbd>), a box width of 2.2 times the height plus seven pixels is used. In the latter case, flags with an aspect ratio greater than 2.2 (the only such current national flag being [[Flag of Qatar|that of Qatar]]) may extend beyond the invisible box and overlap the country link at certain sizes, as seen in the table below. For this reason, if an icon size different from the default is wanted, it is best to always specify both a width and a height. This also ensures that neither squarish nor long flags are rendered much bigger than other flags.
+
+== Usage with custom size ==
+{| class="wikitable" style="width:65%"
+|-
+! width="10%" | {{para|size}} value
+! width="20%" | {{tl|flag}} output
+! width="20%" | {{tl|flaglist}} output
+|-
+! 10px
+|
+*{{flag|Qatar|size=10px}}
+*{{flag|Palau|size=10px}}
+*{{flag|Switzerland|size=10px}}
+|
+*{{flaglist|Qatar|size=10px}}
+*{{flaglist|Palau|size=10px}}
+*{{flaglist|Switzerland|size=10px}}
+|-
+! x8px
+|
+*{{flag|Qatar|size=x8px}}
+*{{flag|Palau|size=x8px}}
+*{{flag|Switzerland|size=x8px}}
+|
+*{{flaglist|Qatar|size=x8px}}
+*{{flaglist|Palau|size=x8px}}
+*{{flaglist|Switzerland|size=x8px}}
+|-
+! 10x8px
+|
+*{{flag|Qatar|size=10x8px}}
+*{{flag|Palau|size=10x8px}}
+*{{flag|Switzerland|size=10x8px}}
+|
+*{{flaglist|Qatar|size=10x8px}}
+*{{flaglist|Palau|size=10x8px}}
+*{{flaglist|Switzerland|size=10x8px}}
+|-
+! 35px
+|
+*{{flag|Qatar|size=35px}}
+*{{flag|Palau|size=35px}}
+*{{flag|Switzerland|size=35px}}
+|
+*{{flaglist|Qatar|size=35px}}
+*{{flaglist|Palau|size=35px}}
+*{{flaglist|Switzerland|size=35px}}
+|-
+! x25px
+|
+*{{flag|Qatar|size=x25px}}
+*{{flag|Palau|size=x25px}}
+*{{flag|Switzerland|size=x25px}}
+|
+*{{flaglist|Qatar|size=x25px}}
+*{{flaglist|Palau|size=x25px}}
+*{{flaglist|Switzerland|size=x25px}}
+|-
+! 35x25px
+|
+*{{flag|Qatar|size=35x25px}}
+*{{flag|Palau|size=35x25px}}
+*{{flag|Switzerland|size=35x25px}}
+|
+*{{flaglist|Qatar|size=35x24px}}
+*{{flaglist|Palau|size=35x24px}}
+*{{flaglist|Switzerland|size=35x24px}}
+|}
+
+<includeonly>
+[[Category:Flag template system]]
+</includeonly>
