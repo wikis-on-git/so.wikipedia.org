@@ -8,4 +8,4 @@ Cell stating the taxon's name, italicized if necessary, with authority:
 |{{{link}}} }}</span>{{#if:{{{auth|}}}
 |<br /><small>{{{auth}}}</small>}}
 {{!}}-
-}}</includeonly><noinclude>{{documentation}}</noinclude>
+}}</includeonly><noinclude>{{Documentation}}</noinclude>
