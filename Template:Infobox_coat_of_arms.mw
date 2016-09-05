@@ -23,21 +23,21 @@
 
 | header2     = Habka
 
-| label3      = [[Armiger]]
+| label3      = Isticmaala
 | data3       = {{{armiger|}}}
-| label7      = Adopted
+| label7      = La ansixiyey
 | data7       = {{{year_adopted|}}}
-| label9      = [[Crest (heraldry)|Crest]]
+| label9      = Dahaadhka
 | data9       = {{{crest|}}}
-| label10     = [[Torse]]
+| label10     = Naqshada
 | data10      = {{{torse|}}}
 | label11     = [[Helmet (heraldry)|Helmet]]
 | data11      = {{{helm|}}}
-| label12     = [[Escutcheon (heraldry)|Escutcheon]]
+| label12     = Naqshada
 | data12      = {{{shield|}}}
-| label13     = {{#if:{{{supporter|}}}|[[Supporter]]|[[Supporter]]s}}
+| label13     = {{#if:{{{supporter|}}}|Taageero}}
 | data13      = {{#if:{{{supporter|}}}|{{{supporter|}}}|{{{supporters|}}}}}
-| label15     = [[Compartment (heraldry)|Compartment]]
+| label15     = Dhinacyada
 | data15      = {{{compartment|}}}
 | label16     = [[Motto]]
 | data16      = {{{motto|}}}
