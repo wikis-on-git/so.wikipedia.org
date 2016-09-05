@@ -1,15 +1,15 @@
-{{Country topics
-| country = Soomaaliya
-| state = {{{state|{{{1|<includeonly>collapsed</includeonly>}}}}}}
-| image = [[File:Coat of arms of Somalia.svg|100px|link=Astaanta ciidanka Soomaaliya]]
-| adjective = Somali
 
-<!--------------------------------------------------------->
-| Taariikh =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal; |evenodd=swap
+{{Navbox
+| name = Soomaaliya
+| state = {{{state|autocollapse}}}
+| bodyclass = hlist
+| title = [[File:Coat of arms of Somalia.svg|70px|link=Astaanta ciidanka Soomaaliya]] <span style="font-size:20pt; text-transform: font-weight: bold; font-family:Palatino Linotype, URW Palladio, Book Antiqua, serif;">[[:Category:Soomaaliya|Maqaalo&nbsp;Ku&nbsp;Saabsan]]&nbsp;[[Soomaaliya|Soomaaliya]]</span>
 
+| group1 = Taariikh
+| list1 =
+ {{Navbox subgroup
   | group1 = Dhacdooyin
-  | list1 = 
+  | list1 =
 * [[Laas Geel]]
 * [[Punt|Dhulka Punt]]
 * [[Boqortooyadii Walashma]]
@@ -27,17 +27,14 @@
 * [[Somali Rebellion|Rebellion {{small|(1986&ndash;1992)}}]]
 * [[Piracy off the coast of Somalia|Piracy]]
 * [[Somali Civil War|Civil War]]
-  |group2 = By topic
-  |list2 =
+  | group2 = {{longitem|Ciwaano kale}}
+  | list2 =
 * [[Maritime history of Somalia|Maritime]]
 * [[Military history of Somalia|Military]]
  }}
 
-<!--------------------------------------------------------->
-| geography =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal;
-
-| list1 = <!--Alphabetical:-->
+| group2 = Juquraafiga
+| list2 =
 * [[List of cities in Somalia|Cities]]
 * [[Climate of Somalia|Climate]]
 * [[Wildlife of Somalia|Wildlife]]
@@ -58,9 +55,9 @@
 *[[:Category:Islands of Somalia|Island]]
 **[[Sa'ad ad-Din Islands]]
 **[[Bajuni Islands]]
-
-  | group2 =[[Administrative divisions of Somalia|Regions]]
-  | list2 =  <!--Alphabetical:-->
+ {{Navbox subgroup
+  | group1 = [[Gobolada Soomaaliya]]
+  | list1 =
 * [[Awdal]] 
 * [[Bakool]]
 * [[Banaadir]]
@@ -80,12 +77,8 @@
 * [[Togdheer]]
 * [[Woqooyi Galbeed]]
 }}
-
-<!--------------------------------------------------------->
-| politics =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal;
-
-| list1 = <!--Alphabetical:-->
+| group3 = [[Siyaasada Soomaaliya|Siyaasada]]
+| list3 =
 * [[Cabinet of Somalia|Cabinet]]
 * [[Constitution of Somalia|Constitution]]
 * [[Elections in Somalia|Elections]]
@@ -103,9 +96,9 @@
 ** [[List of Presidents of Somalia|List]]
 * [[Prime Minister of Somalia]]
 ** [[Prime Minister of Somalia|List]]
-
-  |group2 = [[States and regions of Somalia|Federal Member States]]
-  |list2 = <!--Alphabetical:-->
+{{Navbox subgroup
+  | group1 = [[Maamulgoboleedka Soomaaliya]]
+  | list1 =
 *{{Flaglist|Awdalland}}
 *{{Flaglist|Galmudug}}
 *{{Flaglist|Jubaland}}
@@ -113,9 +106,8 @@
 *{{Flaglist|Puntland}}
 *{{Flaglist|Somaliland}}
   }}
-
-<!--------------------------------------------------------->
-| economy = <!--Alphabetical:-->
+| group4 = [[Dhaqaalaha Soomaaliya|Dhaqaalaha]]
+| list4 =
 * [[Agriculture in Somalia|Agriculture]]
 * [[Central Bank of Somalia|Central Bank]]
 * [[List of companies of Somalia|Companies]]
@@ -128,8 +120,8 @@
 * [[Tourism in Somalia|Tourism]]
 * [[Transport in Somalia|Transportation]]
 
-<!--------------------------------------------------------->
-|society = <!--Alphabetical:-->
+| group5 = [[Dadka Soomaaliya|Bulshada]]
+| list5 =
 * [[Qolobaa Calankeed|Anthem]]
 * [[Coat of arms of Somalia|Coat of arms]]
 * [[Demographics of Somalia|Demographics]]
@@ -137,9 +129,9 @@
 * [[Education in Somalia|Education]]
 * [[Flag of Somalia|Flag]]
 * [[Public holidays in Somalia|Public holidays]]
-
-<!--------------------------------------------------------->
-| culture =  <!--Alphabetical:-->
+{{Navbox subgroup
+  | group1 = [[Dhaqanka Soomaaliya|Dhaqanka]]
+  | list1 =
 * [[Somali architecture|Architecture]]
 * [[Somali art|Art]]
 * [[Cinema of Somalia|Cinema]]
@@ -150,23 +142,16 @@
 * [[Religion in Somalia|Religion]]
 * [[Sports in Somalia|Sports]]
 * [[Languages of Somalia|Languages]]
-
-| _commonslink = yes
-
-|belowstyle = font-weight:bold;
-|below =
-* {{icon|Book}} [[Book:Somalia|Book]]
-* {{icon|Category}} [[:Category:Somalia|Category]]
-* {{icon|Portal}} [[Portal:Somalia|Portal]]
-
+}}
+| group6 = 
+| list6 =
+* {{icon|Book}} [[Book:Soomaaliya|Book]]
+* {{icon|Category}} [[:Category:Soomaaliya|Category]]
+* {{icon|Portal}} [[Portal:Soomaaliya|Portal]]
+| below =
 }}<noinclude>
 
-{{documentation|content =
-{{collapsible option |default=expanded}}
-{{collapsible sections option |list="States and regions", "Administrative divisions"}}
-}}<!--(end documentation)-->
+{{collapsible option}}
 
-[[Category:Somalia templates| ]]
-[[Category:Africa country and territory topics templates]]
- 
+[[Category:Soomaaliya| ]]
 </noinclude>
