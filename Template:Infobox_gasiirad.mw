@@ -52,12 +52,12 @@
 | label1     = Etymology
 | data1      = {{{etymology|}}}
 
-| header2    = Geography
+| header2    = Juquraafi
 
-| label3     = Location
+| label3     = Meesha
 | data3      = {{{location|}}}
 
-| label4     = Coordinates
+| label4     = Xidhiidhiye
 | data4      = {{#if:{{both|{{{lat_d|{{{latd|}}}}}}|{{{long_d|{{{longd|}}}}}}}} {{both|{{{coordinates wikidata|{{{coordinates_wikidata|{{{wikidata|}}}}}}}}} | {{#property:P625}}}}
                | {{geobox coor|{{{lat_d|{{{latd|}}}}}}|{{{lat_m|{{{latm|}}}}}}|{{{lats|{{{lat_s|}}}}}}|{{{latNS|{{{lat_NS|}}}}}}|{{{longd|{{{long_d|}}}}}}|{{{long_m|{{{longm|}}}}}}|{{{longs|{{{long_s|}}}}}}|{{{longEW|{{{long_EW|}}}}}}|type:{{ifempty|{{{type|}}}|isle}}{{#ifeq:{{{type|}}}|city|{{#if:{{{pop|{{{population|}}}}}}|({{{pop|{{{population}}}}}})}}}}{{#if:{{{coordinates region|{{{coordinates_region|{{{region|}}}}}}}}}|_region:{{{coordinates region|{{{coordinates_region|{{{region}}}}}}}}}}}{{#if:{{{coordinates dim|{{{coordinates_dim|{{{dim|}}}}}}}}}|_dim:{{{coordinates dim|{{{coordinates_dim|{{{dim}}}}}}}}}}}{{#if:{{{coordinates scale|{{{coordinates_scale|{{{scale|}}}}}}}}}|_scale:{{{coordinates scale|{{{coordinates_scale|{{{scale}}}}}}}}}}}{{#if:{{{coordinates source|{{{coordinates_source|{{{source|}}}}}}}}}|_source:{{{coordinates source|{{{coordinates_source|{{{source}}}}}}}}}}}|{{#switch:{{{coordinates display|{{{coordinates_display|{{{display|}}}}}}}}}|i|inline=μ1|#default=title}}=yes|{{#if:{{{coordinates format|{{{coordinates_format|{{{format|}}}}}}}}}|format|μ2}}={{{coordinates format|{{{coordinates_format|{{{format|}}}}}}}}}|wikidata={{{coordinates wikidata|{{{coordinates_wikidata|{{{wikidata|}}}}}}}}}|wrap=yes}}
                | {{{coordinates|}}}
@@ -66,29 +66,29 @@
 | label5  = [[Ordnance Survey National Grid|OS grid reference]]
 | data5   = {{#if:{{{GridReference|}}}| {{gbmappingsmall|{{{GridReference}}}|25|{{{GridReference}}}}} }}
 
-| label6     = Archipelago
+| label6     = Deegaanka
 | class6     = note
 | data6      = {{{archipelago|}}}
 
 | label7     = Adjacent bodies of water
 | data7      = {{{waterbody|}}}
 
-| label8     = Total islands
+| label8     = Tirada gasiirado
 | data8      = {{{total islands|}}}
 
-| label9     = Major islands
+| label9     = Gasiiradaha ugu wayn
 | data9      = {{{major islands|}}}
 
-| label10    = Area
+| label10    = Baaxada
 | data10     = {{Infobox islands/area| km2 = {{{area km2|{{{area_km2|}}}}}} | sqmi = {{{area sqmi|{{{area_sqmi|}}}}}} | m2 = {{{area m2|{{{area_m2|}}}}}} | sqft = {{{area sqft|{{{area_sqft|}}}}}} | ha = {{{area ha|{{{area_ha|}}}}}} | acre = {{{area acre|{{{area_acre|}}}}}} }}{{{area|}}}{{{area footnotes|}}}
 
 | label11    = [[List of islands by area|Area rank]]
 | data11     = {{{rank|}}}
 
-| label12    = Length
+| label12    = Dhererka
 | data12     = {{Infobox islands/length | km = {{{length km|{{{length_km|}}}}}} | mi = {{{length mi|{{{length_mi|}}}}}} | m = {{{length m|{{{length_m|}}}}}} | ft = {{{length ft|{{{length_ft|}}}}}} }}{{{length|}}}{{{length footnotes|}}}
 
-| label13    = Width
+| label13    = Balaca
 | data13     = {{#if:{{both|{{{width min km|}}}|{{{width max km|}}}}}<!--
                   -->{{both|{{{width min mi|}}}|{{{width max mi|}}}}}<!--
                   -->{{both|{{{width min m|}}}|{{{width max m|}}}}}<!--
@@ -112,17 +112,17 @@
   -->|{{Infobox islands/length | km = {{{width km|{{{width_km|}}}}}} | mi = {{{width mi|{{{width_mi|}}}}}} | m = {{{width m|{{{width_m|}}}}}} | ft = {{{width ft|{{{width_ft|}}}}}} }}<!--
   -->}}{{{width|}}}{{{width footnotes|}}}
 
-| label14    = Coastline
+| label14    = Xeebta
 | data14     = {{Infobox islands/length | km = {{{coastline km|{{{coastline_km|}}}}}} | mi = {{{coastline mi|{{{coastline_mi|}}}}}} | m = {{{coastline m|{{{coastline_m|}}}}}} | ft = {{{coastline ft|{{{coastline_ft|}}}}}} }}{{{coastline|}}}{{{coastline footnotes|}}}
 
-| label15    = Highest&nbsp;elevation
+| label15    = Barta ugu&nbsp;dheer
 | data15     = {{Infobox islands/length | m = {{{elevation m|{{{elevation_m|}}}}}} | ft = {{{elevation ft|{{{elevation_ft|}}}}}} }}{{{elevation|}}}{{{elevation footnotes|}}}
 
-| label16    = Highest&nbsp;point 
+| label16    = Barta ugu&nbsp;sareeysa 
 | data16     = {{{highest mount|}}}
 
 <!-- end geography -->
-| header22   = Administration
+| header22   = Maamulka
 
 | data23     = {{#if:{{{country|}}}|<div>'''{{{country}}}'''</div>}}
 
@@ -153,7 +153,7 @@
 | label32    = {{{country leader title|}}}
 | data32     = {{{country leader name|}}}
 
-| label33    = Area covered
+| label33    = Ku baahsan
 | data33     = {{Infobox islands/area| km2 = {{{country area km2|}}} | sqmi = {{{country area sqmi|}}} | m2 = {{{country area m2|}}} | sqft = {{{country area sqft|}}} | ha = {{{country area ha|}}} | acre = {{{country area acre|}}} | pct = {{#ifexpr: {{both|{{{country area km2|}}} | {{{area km2|{{{area_km2|}}}}}} }} | {{pct | {{{country area km2}}} | {{{area km2|{{{area_km2}}}}}} | 1 |%=}} | {{#ifexpr: {{both|{{{country area sqmi|}}} | {{{area sqmi|{{{area_sqmi|}}}}}} }} | {{pct | {{{country area sqmi}}} | {{{area sqmi|{{{area_sqmi}}}}}} | 1 |%=}} | {{#ifexpr: {{both|{{{country area m2|}}} | {{{area m2|{{{area_m2|}}}}}} }} | {{pct | {{{country area m2}}} | {{{area m2|{{{area_m2}}}}}} | 1 |%=}} | {{#ifexpr: {{both|{{{country area sqft|}}} | {{{area sqft|{{{area_sqft|}}}}}} }} | {{pct | {{{country area sqft}}} | {{{area sqft|{{{area_sqft}}}}}} | 1 |%=}} | {{#ifexpr: {{both|{{{country area ha|}}} | {{{area ha|{{{area_ha|}}}}}} }} | {{pct | {{{country area ha}}} | {{{area ha|{{{area_ha}}}}}} | 1 |%=}} | {{#ifexpr: {{both|{{{country area acre|}}} | {{{area acre|{{{area_acre|}}}}}} }} | {{pct | {{{country area acre}}} | {{{area acre|{{{area_acre}}}}}} | 1 |%=}} | }} }} }} }} }} }} }}{{{country area|}}}
 
 | data34     = {{#if:{{{country 1|}}}|<div style="border-top: 1px solid black">'''{{{country 1}}}'''</div>}}
