@@ -1,0 +1,68 @@
+{{Infobox
+| name = Xaalad Xannaano
+| bodyclass = nowrap
+| abovestyle = font-size:130%;
+| above = [[Xaalad Xannaano]] <div style="font-size:75%;font-weight:normal;">sida ay la tahay [[IUCN Red List]]</div>
+| imagestyle = padding-bottom:0.75em;
+| image = [[File:Bufo periglenes2.jpg|180px|Bufo periglenes, the Golden Toad, was last recorded on May 15, 1989]]
+| headerstyle = background:green;color:white;
+| labelstyle = padding:0 0 0 0.5em;font-weight:normal;
+| datastyle = padding:0 0.5em 0;
+
+| header1 = Cirib-tir
+| label2 = {{unbulleted list |style=padding-bottom:0.5em;
+            | [[Cirib-tir]]
+            | [[Ka cirib-tir adduunka oo dhan|Cirib-tir adduun]]
+           }}
+|  data2 = {{unbulleted list |style=text-align:right;padding-bottom:0.5em;
+            | ([[IUCN Red List of extinct species|list]])
+            | ([[IUCN Red List extinct in the wild species|list]])
+           }}
+
+| header5 = [[Haddidaad ku jirta|{{color|white|Haddidaad}}]]
+| label6 = {{unbulleted list |style=padding-bottom:0.5em;
+            | [[Critically endangered|Critically Endangered (CR)]]
+            | [[Endangered species|Endangered (EN)]]
+            | [[Vulnerable species|Vulnerable (VU)]]
+           }}
+|  data6 = {{unbulleted list |style=text-align:right;padding-bottom:0.5em;
+            | ([[Lists of IUCN Red List Critically Endangered species|list]])
+            | ([[Lists of IUCN Red List endangered species|list]])
+            | ([[Lists of IUCN Red List vulnerable species|list]])
+           }}
+
+| header10 = ''[[Lower Risk|{{color|white|Lower Risk}}]]''
+| label11 = {{unbulleted list |style=padding-bottom:0.5em;
+             | [[Near-threatened species|Near Threatened (NT)]]
+             | [[Conservation-dependent species|Conservation Dependent (CD)]]
+             | [[Least-concern species|Least Concern (LC)]]
+            }}
+|  data11 = {{unbulleted list |style=text-align:right;padding-bottom:0.5em;
+             | ([[Lists of IUCN Red List near threatened species|list]])
+             | ([[IUCN Red List conservation dependent species|list]])
+            }}
+
+|  data15 = <hr/>'''Other categories'''
+| label16 = {{unbulleted list |style=padding-bottom:0.5em;
+             | [[Data deficient|Data Deficient (DD)]]
+             | [[Not evaluated|Not Evaluated (NE)]]
+            }}
+|  data16 = {{unbulleted list |style=text-align:right;padding-bottom:0.5em;
+             | ([[Lists of IUCN Red List data deficient species|list]])
+            }}
+
+|  data20 = <hr/>'''Related topics'''
+{{startplainlist}}
+* {{longlink|[[International Union for the Conservation of Nature|International Union for the<br/>Conservation of Nature (IUCN)]]}}
+* [[IUCN Red List]]
+* [[Lists of organisms by population]]
+{{endplainlist}}
+
+|  data25 = <hr/>[[File:Status iucn3.1.svg|220px|IUCN Red List category abbreviations (version 3.1, 2001)]]<hr/>
+
+}}<noinclude>
+
+[[Category:Ecology templates]]
+
+{{pp-template|small=yes}}
+</noinclude>
