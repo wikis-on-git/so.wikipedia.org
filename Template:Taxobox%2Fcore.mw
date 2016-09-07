@@ -141,7 +141,7 @@
 }}
 |- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color{{COLON}} {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Saddex magac|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Saddex magac}}|Tibix saddex magac]]
+! colspan=2  {{!}} [[{{#switch:{{{regnum|}}}|[[Xayawaan]]|[[Xayawaan]]|Xayawaan=Saddex magac|[[Plantae]]|[[Plant]]ae|Plantae|[[Dhir]]ta|Dhirta|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Saddex magac}}|Tibix saddex magac]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="trinomial">{{{trinomial}}}</span>'''<br /><small>{{{trinomial_authority|}}}</small>
 }}
