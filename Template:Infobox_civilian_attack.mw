@@ -1,0 +1,89 @@
+{{Infobox
+| bodyclass  = vevent
+| aboveclass = summary
+| abovestyle = font-size:130%;
+| above      = {{{title|<includeonly>{{PAGENAME}}</includeonly>}}}
+| subheader2 = {{#if:{{{partof|}}}|Part of {{{partof|}}}}}
+| image      = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |alt={{{alt|}}} }}
+| caption    = {{{caption|}}}
+| image2     = {{#invoke:InfoboxImage|InfoboxImage |image={{{map|}}} |size={{{map_size|}}} |sizedefault=250px |alt={{{map_alt|}}} }}
+| caption2   = {{{map_caption|}}}
+| subheader  = {{{subheader|}}}
+
+| label1     = Location
+| class1     = location
+| data1      = {{{location|}}}
+
+| label2     = [[Geographic coordinate system|Coordinates]]
+| data2      = {{{coordinates|}}}
+
+| label3     = Taariikh
+| data3      = {{{date|}}} {{#if:{{{time|}}}|<br/>{{{time}}}}}{{#if:{{{time-begin|}}}|<br/>{{{time-begin}}}&nbsp;– {{{time-end}}}}} {{#if:{{{timezone|}}}|({{{timezone}}})}}
+
+| label4     = Beegsiga
+| data4      = {{{target|}}}
+
+| label5     = {{longitem|Attack type}}
+| data5      = {{{type|}}}
+
+| label6     = Weapon{{#if:{{{weapon|}}} | |s}}
+| data6      = {{#if:{{{weapon|}}}|{{{weapon}}}|{{{weapons|}}}}}
+
+| label7     = Dhimashada
+| data7      = {{{fatalities|}}}
+
+| label8     = {{longitem|Non-fatal injuries}}
+| data8      = {{{injuries|}}}
+
+| label9     = {{#if:{{{victims|}}}|Victims|Victim}}
+| data9      = {{#if:{{{victims|}}}|{{{victims}}}|{{{victim|}}}}}
+
+| label10    = {{#if:{{{perpetrators|{{{perps|}}}}}}|Perpetrators|Perpetrator}}
+| data10     = {{#if:{{{perpetrators|{{{perps|}}}}}}|{{{perpetrators|{{{perps}}}}}}|{{{perpetrator|{{{perp|}}}}}}}}
+
+| label11    = {{#if:{{{assailants|}}}|Assailants|Assailant}}
+| data11     = {{#if:{{{assailants|}}}|{{{assailants}}}|{{{assailant|}}}}}
+
+| label12    = {{longitem|{{#if:{{{susperps|}}}|Suspected perpetrators|Suspected perpetrator}}}}
+| data12     = {{#if:{{{susperps|}}}|{{{susperps}}}|{{{susperp|}}}}}
+
+| label13    = {{#if:{{{numparts|}}}|{{longitem|Number&nbsp;of participants}}|Participant}}
+| data13     = {{#if:{{{numparts|}}}|{{{numparts}}}|{{{numpart|}}}}}
+
+| label14    = {{#if:{{{dfens|}}}|Defenders|Defender}}
+| data14     = {{#if:{{{dfens|}}}|{{{dfens}}}|{{{dfen|}}}}}
+
+| label15    = Motive
+| data15     = {{{motive|}}}
+
+| label16    = {{#if:{{{inquiries|}}}|Inquiries|Inquiry}}
+| data16     = {{#if:{{{inquiries|}}}|{{{inquiries}}}|{{{inquiry|}}}}}
+
+| labal17    = {{#if:{{{coroners|}}}|Coroners|Coroner}}
+| data17     = {{#if:{{{coroners|}}}|{{{Coroners}}}|{{{Coroner|}}}}}
+
+| label18    = Accused
+| data18     = {{{accused|}}}
+
+| label19    = Convicted
+| data19     = {{{convicted|}}}
+
+| label20    = Verdict
+| data20     = {{{verdict|}}}
+
+| label21    = Convictions
+| data21     = {{{convictions|}}}
+
+| label22    = Charges
+| data22     = {{{charges|}}}
+
+| label23    = Litigation
+| data23     = {{{litigation|}}}
+
+| label24    = Website
+| data24     = {{{website|}}}
+
+| header25 = {{{module|}}}
+
+| data26     = {{#if:{{{notes|}}} |<div style="border-top:1px solid #aaa;font-size:90%;">{{{notes}}}</div>}}
+}}<noinclude>{{Documentation}}</noinclude>
