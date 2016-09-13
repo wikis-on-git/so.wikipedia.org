@@ -1,158 +1,158 @@
 {| cellpadding="0" cellspacing="0" style="background-color:transparent; ext-align: center; margin: auto;padding: 25px 90px 25px 90px; font-size: 115%;"
 |-
 <div class="plainlinksneverexpand nounderlines" style="max-width:99%;align:center;font-family:Tahoma Print;font-size:110%;color:white;text-indent:0;text-align:center;margin:0 auto;">
-<div style="width:{{{عرض1}}}px;height:{{{طول1}}}px;background-color:{{{background-color1}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display1}}}px;height:{{{طول1}}}px;background-color:{{{background-color1}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة1|}}}
-  |then=[[file:{{{أيقونة1}}}|{{{icon-size1}}}px|link=]]
+  |test={{{icon1|}}}
+  |then=[[file:{{{icon1}}}|{{{icon-size1}}}px|link=]]
 {{رابط ملون|{{{link-color1}}}|{{{link-color1}}}|{{{text-link1}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض2}}}px;height:{{{طول2}}}px;background-color:{{{background-color2}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display2}}}px;height:{{{طول2}}}px;background-color:{{{background-color2}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة2|}}}
-  |then=[[file:{{{أيقونة2}}}|{{{icon-size2}}}px|link=]]
+  |test={{{icon2|}}}
+  |then=[[file:{{{icon2}}}|{{{icon-size2}}}px|link=]]
 {{رابط ملون|{{{link-color2}}}|{{{link-color2}}}|{{{text-link2}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض3}}}px;height:{{{طول3}}}px;background-color:{{{background-color3}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display3}}}px;height:{{{طول3}}}px;background-color:{{{background-color3}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة3|}}}
-  |then=[[file:{{{أيقونة3}}}|{{{icon-size3}}}px|link=]]
+  |test={{{icon3|}}}
+  |then=[[file:{{{icon3}}}|{{{icon-size3}}}px|link=]]
 {{رابط ملون|{{{link-color3}}}|{{{link-color3}}}|{{{text-link3}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض4}}}px;height:{{{طول4}}}px;background-color:{{{background-color4}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display4}}}px;height:{{{طول4}}}px;background-color:{{{background-color4}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة4|}}}
-  |then=[[file:{{{أيقونة4}}}|{{{icon-size4}}}px|link=]]
+  |test={{{icon4|}}}
+  |then=[[file:{{{icon4}}}|{{{icon-size4}}}px|link=]]
 {{رابط ملون|{{{link-color4}}}|{{{link-color4}}}|{{{text-link4}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض5}}}px;height:{{{طول5}}}px;background-color:{{{background-color5}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display5}}}px;height:{{{طول5}}}px;background-color:{{{background-color5}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة5|}}}
-  |then=[[file:{{{أيقونة5}}}|{{{icon-size5}}}px|link=]]
+  |test={{{icon5|}}}
+  |then=[[file:{{{icon5}}}|{{{icon-size5}}}px|link=]]
 {{رابط ملون|{{{link-color5}}}|{{{link-color5}}}|{{{text-link5}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض6}}}px;height:{{{طول6}}}px;background-color:{{{background-color6}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display6}}}px;height:{{{طول6}}}px;background-color:{{{background-color6}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة6|}}}
-  |then=[[file:{{{أيقونة6}}}|{{{icon-size6}}}px|link=]]
+  |test={{{icon6|}}}
+  |then=[[file:{{{icon6}}}|{{{icon-size6}}}px|link=]]
 {{رابط ملون|{{{link-color6}}}|{{{link-color6}}}|{{{text-link6}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض7}}}px;height:{{{طول7}}}px;background-color:{{{background-color7}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display7}}}px;height:{{{طول7}}}px;background-color:{{{background-color7}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة7|}}}
-  |then=[[file:{{{أيقونة7}}}|{{{icon-size7}}}px|link=]]
+  |test={{{icon7|}}}
+  |then=[[file:{{{icon7}}}|{{{icon-size7}}}px|link=]]
 {{رابط ملون|{{{link-color7}}}|{{{link-color7}}}|{{{text-link7}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض8}}}px;height:{{{طول8}}}px;background-color:{{{background-color8}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display8}}}px;height:{{{طول8}}}px;background-color:{{{background-color8}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة8|}}}
-  |then=[[file:{{{أيقونة8}}}|{{{icon-size8}}}px|link=]]
+  |test={{{icon8|}}}
+  |then=[[file:{{{icon8}}}|{{{icon-size8}}}px|link=]]
 {{رابط ملون|{{{link-color8}}}|{{{link-color8}}}|{{{text-link8}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض9}}}px;height:{{{طول9}}}px;background-color:{{{background-color9}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display9}}}px;height:{{{طول9}}}px;background-color:{{{background-color9}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة9|}}}
-  |then=[[file:{{{أيقونة9}}}|{{{icon-size9}}}px|link=]]
+  |test={{{icon9|}}}
+  |then=[[file:{{{icon9}}}|{{{icon-size9}}}px|link=]]
 {{رابط ملون|{{{link-color9}}}|{{{link-color9}}}|{{{text-link9}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض10}}}px;height:{{{طول10}}}px;background-color:{{{background-color10}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display10}}}px;height:{{{طول10}}}px;background-color:{{{background-color10}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة10|}}}
-  |then=[[file:{{{أيقونة10}}}|{{{icon-size10}}}px|link=]]
+  |test={{{icon10|}}}
+  |then=[[file:{{{icon10}}}|{{{icon-size10}}}px|link=]]
 {{رابط ملون|{{{link-color10}}}|{{{link-color10}}}|{{{text-link10}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض11}}}px;height:{{{طول11}}}px;background-color:{{{background-color11}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display11}}}px;height:{{{طول11}}}px;background-color:{{{background-color11}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة11|}}}
-  |then=[[file:{{{أيقونة11}}}|{{{icon-size11}}}px|link=]] 
+  |test={{{icon11|}}}
+  |then=[[file:{{{icon11}}}|{{{icon-size11}}}px|link=]] 
 {{رابط ملون|{{{link-color11}}}|{{{link-color11}}}|{{{text-link11}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض12}}}px;height:{{{طول12}}}px;background-color:{{{background-color12}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display12}}}px;height:{{{طول12}}}px;background-color:{{{background-color12}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة12|}}}
-  |then=[[file:{{{أيقونة12}}}|{{{icon-size12}}}px|link=]]
+  |test={{{icon12|}}}
+  |then=[[file:{{{icon12}}}|{{{icon-size12}}}px|link=]]
 {{رابط ملون|{{{link-color12}}}|{{{link-color12}}}|{{{text-link12}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض13}}}px;height:{{{طول13}}}px;background-color:{{{background-color13}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display13}}}px;height:{{{طول13}}}px;background-color:{{{background-color13}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة13|}}}
-  |then=[[file:{{{أيقونة13}}}|{{{icon-size13}}}px|link=]]
+  |test={{{icon13|}}}
+  |then=[[file:{{{icon13}}}|{{{icon-size13}}}px|link=]]
 {{رابط ملون|{{{link-color13}}}|{{{link-color13}}}|{{{text-link13}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض14}}}px;height:{{{طول14}}}px;background-color:{{{background-color14}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display14}}}px;height:{{{طول14}}}px;background-color:{{{background-color14}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة14|}}}
-  |then=[[file:{{{أيقونة14}}}|{{{icon-size14}}}px|link=]]
+  |test={{{icon14|}}}
+  |then=[[file:{{{icon14}}}|{{{icon-size14}}}px|link=]]
 {{رابط ملون|{{{link-color14}}}|{{{link-color14}}}|{{{text-link14}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض15}}}px;height:{{{طول15}}}px;background-color:{{{background-color15}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display15}}}px;height:{{{طول15}}}px;background-color:{{{background-color15}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة15|}}}
-  |then=[[file:{{{أيقونة15}}}|{{{icon-size15}}}px|link=]]
+  |test={{{icon15|}}}
+  |then=[[file:{{{icon15}}}|{{{icon-size15}}}px|link=]]
 {{رابط ملون|{{{link-color15}}}|{{{link-color15}}}|{{{text-link15}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض16}}}px;height:{{{طول16}}}px;background-color:{{{background-color16}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display16}}}px;height:{{{طول16}}}px;background-color:{{{background-color16}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة16|}}}
-  |then=[[file:{{{أيقونة16}}}|{{{icon-size16}}}px|link=]]
+  |test={{{icon16|}}}
+  |then=[[file:{{{icon16}}}|{{{icon-size16}}}px|link=]]
 {{رابط ملون|{{{link-color16}}}|{{{link-color16}}}|{{{text-link16}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض17}}}px;height:{{{طول17}}}px;background-color:{{{background-color17}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display17}}}px;height:{{{طول17}}}px;background-color:{{{background-color17}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة17|}}}
-  |then=[[file:{{{أيقونة17}}}|{{{icon-size17}}}px|link=]]
+  |test={{{icon17|}}}
+  |then=[[file:{{{icon17}}}|{{{icon-size17}}}px|link=]]
 {{رابط ملون|{{{link-color17}}}|{{{link-color17}}}|{{{text-link17}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض18}}}px;height:{{{طول18}}}px;background-color:{{{background-color18}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display18}}}px;height:{{{طول18}}}px;background-color:{{{background-color18}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة18|}}}
-  |then=[[file:{{{أيقونة18}}}|{{{icon-size18}}}px|link=]]
+  |test={{{icon18|}}}
+  |then=[[file:{{{icon18}}}|{{{icon-size18}}}px|link=]]
 {{رابط ملون|{{{link-color18}}}|{{{link-color18}}}|{{{text-link18}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض19}}}px;height:{{{طول19}}}px;background-color:{{{background-color19}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display19}}}px;height:{{{طول19}}}px;background-color:{{{background-color19}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة19|}}}
-  |then=[[file:{{{أيقونة19}}}|{{{icon-size19}}}px|link=]]
+  |test={{{icon19|}}}
+  |then=[[file:{{{icon19}}}|{{{icon-size19}}}px|link=]]
 {{رابط ملون|{{{link-color19}}}|{{{link-color19}}}|{{{text-link19}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض20}}}px;height:{{{طول20}}}px;background-color:{{{background-color20}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display20}}}px;height:{{{طول20}}}px;background-color:{{{background-color20}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة20|}}}
-  |then=[[file:{{{أيقونة20}}}|{{{icon-size20}}}px|link=]]
+  |test={{{icon20|}}}
+  |then=[[file:{{{icon20}}}|{{{icon-size20}}}px|link=]]
 {{رابط ملون|{{{link-color20}}}|{{{link-color20}}}|{{{text-link20}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض21}}}px;height:{{{طول21}}}px;background-color:{{{background-color21}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display21}}}px;height:{{{طول21}}}px;background-color:{{{background-color21}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة21|}}}
-  |then=[[file:{{{أيقونة21}}}|{{{icon-size21}}}px|link=]]
+  |test={{{icon21|}}}
+  |then=[[file:{{{icon21}}}|{{{icon-size21}}}px|link=]]
 {{رابط ملون|{{{link-color21}}}|{{{link-color21}}}|{{{text-link21}}}}}}}<!--
 --></div>
-<div style="width:{{{عرض22}}}px;height:{{{طول22}}}px;background-color:{{{background-color22}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
+<div style="width:{{{display22}}}px;height:{{{طول22}}}px;background-color:{{{background-color22}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
-  |test={{{أيقونة22|}}}
-  |then=[[file:{{{أيقونة22}}}|{{{icon-size22}}}px|link=]]
+  |test={{{icon22|}}}
+  |then=[[file:{{{icon22}}}|{{{icon-size22}}}px|link=]]
 {{رابط ملون|{{{link-color22}}}|{{{link-color22}}}|{{{text-link22}}}}}}}<!--
 --></div></div>
 {{Clear}}[[Category:Bogag adeegsada tusmada liiska sare]]<noinclude>{{Documentation}}[[Category:Tusmo portal]]
