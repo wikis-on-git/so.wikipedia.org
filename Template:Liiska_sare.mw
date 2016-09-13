@@ -5,154 +5,154 @@
 -->
 {{qif
   |test={{{أيقونة1|}}}
-  |then=[[ملف:{{{أيقونة1}}}|{{{حجم-أيقونة1}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة1}}}|{{{icon-size1}}}بك|link=]]
 {{رابط ملون|{{{link-color1}}}|{{{link-color1}}}|{{{text-link1}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض2}}}px;height:{{{طول2}}}px;background-color:{{{لون-خلفية2}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة2|}}}
-  |then=[[ملف:{{{أيقونة2}}}|{{{حجم-أيقونة2}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة2}}}|{{{icon-size2}}}بك|link=]]
 {{رابط ملون|{{{link-color2}}}|{{{link-color2}}}|{{{text-link2}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض3}}}px;height:{{{طول3}}}px;background-color:{{{لون-خلفية3}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة3|}}}
-  |then=[[ملف:{{{أيقونة3}}}|{{{حجم-أيقونة3}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة3}}}|{{{icon-size3}}}بك|link=]]
 {{رابط ملون|{{{link-color3}}}|{{{link-color3}}}|{{{text-link3}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض4}}}px;height:{{{طول4}}}px;background-color:{{{لون-خلفية4}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة4|}}}
-  |then=[[ملف:{{{أيقونة4}}}|{{{حجم-أيقونة4}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة4}}}|{{{icon-size4}}}بك|link=]]
 {{رابط ملون|{{{link-color4}}}|{{{link-color4}}}|{{{text-link4}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض5}}}px;height:{{{طول5}}}px;background-color:{{{لون-خلفية5}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة5|}}}
-  |then=[[ملف:{{{أيقونة5}}}|{{{حجم-أيقونة5}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة5}}}|{{{icon-size5}}}بك|link=]]
 {{رابط ملون|{{{link-color5}}}|{{{link-color5}}}|{{{text-link5}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض6}}}px;height:{{{طول6}}}px;background-color:{{{لون-خلفية6}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة6|}}}
-  |then=[[ملف:{{{أيقونة6}}}|{{{حجم-أيقونة6}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة6}}}|{{{icon-size6}}}بك|link=]]
 {{رابط ملون|{{{link-color6}}}|{{{link-color6}}}|{{{text-link6}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض7}}}px;height:{{{طول7}}}px;background-color:{{{لون-خلفية7}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة7|}}}
-  |then=[[ملف:{{{أيقونة7}}}|{{{حجم-أيقونة7}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة7}}}|{{{icon-size7}}}بك|link=]]
 {{رابط ملون|{{{link-color7}}}|{{{link-color7}}}|{{{text-link7}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض8}}}px;height:{{{طول8}}}px;background-color:{{{لون-خلفية8}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة8|}}}
-  |then=[[ملف:{{{أيقونة8}}}|{{{حجم-أيقونة8}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة8}}}|{{{icon-size8}}}بك|link=]]
 {{رابط ملون|{{{link-color8}}}|{{{link-color8}}}|{{{text-link8}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض9}}}px;height:{{{طول9}}}px;background-color:{{{لون-خلفية9}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة9|}}}
-  |then=[[ملف:{{{أيقونة9}}}|{{{حجم-أيقونة9}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة9}}}|{{{icon-size9}}}بك|link=]]
 {{رابط ملون|{{{link-color9}}}|{{{link-color9}}}|{{{text-link9}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض10}}}px;height:{{{طول10}}}px;background-color:{{{لون-خلفية10}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة10|}}}
-  |then=[[ملف:{{{أيقونة10}}}|{{{حجم-أيقونة10}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة10}}}|{{{icon-size10}}}بك|link=]]
 {{رابط ملون|{{{link-color10}}}|{{{link-color10}}}|{{{text-link10}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض11}}}px;height:{{{طول11}}}px;background-color:{{{لون-خلفية11}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة11|}}}
-  |then=[[ملف:{{{أيقونة11}}}|{{{حجم-أيقونة11}}}بك|link=]] 
+  |then=[[ملف:{{{أيقونة11}}}|{{{icon-size11}}}بك|link=]] 
 {{رابط ملون|{{{link-color11}}}|{{{link-color11}}}|{{{text-link11}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض12}}}px;height:{{{طول12}}}px;background-color:{{{لون-خلفية12}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة12|}}}
-  |then=[[ملف:{{{أيقونة12}}}|{{{حجم-أيقونة12}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة12}}}|{{{icon-size12}}}بك|link=]]
 {{رابط ملون|{{{link-color12}}}|{{{link-color12}}}|{{{text-link12}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض13}}}px;height:{{{طول13}}}px;background-color:{{{لون-خلفية13}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة13|}}}
-  |then=[[ملف:{{{أيقونة13}}}|{{{حجم-أيقونة13}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة13}}}|{{{icon-size13}}}بك|link=]]
 {{رابط ملون|{{{link-color13}}}|{{{link-color13}}}|{{{text-link13}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض14}}}px;height:{{{طول14}}}px;background-color:{{{لون-خلفية14}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة14|}}}
-  |then=[[ملف:{{{أيقونة14}}}|{{{حجم-أيقونة14}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة14}}}|{{{icon-size14}}}بك|link=]]
 {{رابط ملون|{{{link-color14}}}|{{{link-color14}}}|{{{text-link14}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض15}}}px;height:{{{طول15}}}px;background-color:{{{لون-خلفية15}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة15|}}}
-  |then=[[ملف:{{{أيقونة15}}}|{{{حجم-أيقونة15}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة15}}}|{{{icon-size15}}}بك|link=]]
 {{رابط ملون|{{{link-color15}}}|{{{link-color15}}}|{{{text-link15}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض16}}}px;height:{{{طول16}}}px;background-color:{{{لون-خلفية16}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة16|}}}
-  |then=[[ملف:{{{أيقونة16}}}|{{{حجم-أيقونة16}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة16}}}|{{{icon-size16}}}بك|link=]]
 {{رابط ملون|{{{link-color16}}}|{{{link-color16}}}|{{{text-link16}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض17}}}px;height:{{{طول17}}}px;background-color:{{{لون-خلفية17}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة17|}}}
-  |then=[[ملف:{{{أيقونة17}}}|{{{حجم-أيقونة17}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة17}}}|{{{icon-size17}}}بك|link=]]
 {{رابط ملون|{{{link-color17}}}|{{{link-color17}}}|{{{text-link17}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض18}}}px;height:{{{طول18}}}px;background-color:{{{لون-خلفية18}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة18|}}}
-  |then=[[ملف:{{{أيقونة18}}}|{{{حجم-أيقونة18}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة18}}}|{{{icon-size18}}}بك|link=]]
 {{رابط ملون|{{{link-color18}}}|{{{link-color18}}}|{{{text-link18}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض19}}}px;height:{{{طول19}}}px;background-color:{{{لون-خلفية19}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة19|}}}
-  |then=[[ملف:{{{أيقونة19}}}|{{{حجم-أيقونة19}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة19}}}|{{{icon-size19}}}بك|link=]]
 {{رابط ملون|{{{link-color19}}}|{{{link-color19}}}|{{{text-link19}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض20}}}px;height:{{{طول20}}}px;background-color:{{{لون-خلفية20}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة20|}}}
-  |then=[[ملف:{{{أيقونة20}}}|{{{حجم-أيقونة20}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة20}}}|{{{icon-size20}}}بك|link=]]
 {{رابط ملون|{{{link-color20}}}|{{{link-color20}}}|{{{text-link20}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض21}}}px;height:{{{طول21}}}px;background-color:{{{لون-خلفية21}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة21|}}}
-  |then=[[ملف:{{{أيقونة21}}}|{{{حجم-أيقونة21}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة21}}}|{{{icon-size21}}}بك|link=]]
 {{رابط ملون|{{{link-color21}}}|{{{link-color21}}}|{{{text-link21}}}}}}}<!--
 --></div>
 <div style="width:{{{عرض22}}}px;height:{{{طول22}}}px;background-color:{{{لون-خلفية22}}};margin:5px;padding:20px 5px 0 5px;float:right;"><!--
 -->
 {{qif
   |test={{{أيقونة22|}}}
-  |then=[[ملف:{{{أيقونة22}}}|{{{حجم-أيقونة22}}}بك|link=]]
+  |then=[[ملف:{{{أيقونة22}}}|{{{icon-size22}}}بك|link=]]
 {{رابط ملون|{{{link-color22}}}|{{{link-color22}}}|{{{text-link22}}}}}}}<!--
 --></div></div>
 {{Clear}}[[Category:Bogag adeegsada tusmada liiska sare]]<noinclude>{{Documentation}}[[Category:Tusmo portal]]
