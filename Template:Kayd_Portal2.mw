@@ -15,7 +15,7 @@ __NOTOC__ __NOEDITSECTION__
 |__sep={{bar-color| color1= #6a5b1f| size1= 25| color2= #912a3f| size2= 15| color3= #580e6a| size3= 15| color4= #797979| size4= 15}}
 }}
 |title2='''Toddobaad'''
-|int2={{#invoke:XForLoopDo|main
+|content2={{#invoke:XForLoopDo|main
 |__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
 |__from={{{from|87}}}
 |__to={{{to|97}}}
@@ -27,7 +27,7 @@ __NOTOC__ __NOEDITSECTION__
 |__sep={{bar-color| color1= #142d91| size1= 25| color2= #b7981a| size2= 15| color3= #2a907c| size3= 15| color4= #797979| size4= 15}}
 }}
 |title3='''Siddeedaad'''
-|int3={{#invoke:XForLoopDo|main
+|content3={{#invoke:XForLoopDo|main
 |__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
 |__from={{{from|97}}}
 |__to={{{to|107}}}
