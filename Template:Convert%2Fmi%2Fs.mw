@@ -1,0 +1,15 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|s={{{s|}}}|r={{{r}}}
+|u=mi/s
+|n=mile per second
+|h=mile-per-second
+|l=miles per second
+|t=mile
+|o=km/s
+|b=1609.344
+|j=3.206648885-{{{j|0}}}}}<noinclude>
+{{doc|content=
+== Usage ==
+{{tlx|convert|1|mi/s|lk{{=}}on}} → {{convert|1|mi/s|lk=on}}
+[[Category:Subtemplates of Template Convert]]
+}}
+</noinclude>
