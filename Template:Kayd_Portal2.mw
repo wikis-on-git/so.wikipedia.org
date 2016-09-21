@@ -1,0 +1,49 @@
+<includeonly><table width="100%"><tr width="100%"><td width="70%" Valign="top">
+__NOTOC__ __NOEDITSECTION__
+{{Tabs
+|style={{linear-gradient|#b71edd|#b7981a}}
+|title1='''Lixaad'''
+|content1={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{from|76}}}
+|__to={{{to|86}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{link title|samee waxa ku jira}}} }}
+|transclude={{urlencode:Bedelid portal sawir ueg}}
+|switch=Bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep={{bar-color| color1= #6a5b1f| size1= 25| color2= #912a3f| size2= 15| color3= #580e6a| size3= 15| color4= #797979| size4= 15}}
+}}
+|title2='''Toddobaad'''
+|int2={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{from|87}}}
+|__to={{{to|97}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{link title|samee waxa ku jira}}} }}
+|transclude={{urlencode:Bedelid portal sawir ueg}}
+|switch=Bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep={{bar-color| color1= #142d91| size1= 25| color2= #b7981a| size2= 15| color3= #2a907c| size3= 15| color4= #797979| size4= 15}}
+}}
+|title3='''Siddeedaad'''
+|int3={{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro/Tijaabo}}}
+|__from={{{from|97}}}
+|__to={{{to|107}}}
+|{{#ifexist: {{#titleparts:  Portal:{{PAGENAME}}/Kayd | 3 }} | Portal:{{BASEPAGENAME}}/$i | Portal:{{PAGENAME}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{link title|samee waxa ku jira}}} }}
+|transclude={{urlencode:Bedelid portal sawir ueg}}
+|switch=Bedelid portal sawir ueg
+|title={{{title|}}} $i
+|__sep={{bar-color| color1= #91152d| size1= 25| color2= #64c4ce| size2= 15| color3= #981ab7| size3= 15| color4= #b7981a| size4= 15}}
+}}
+}}
+</td><td width="40%" Valign="top">
+{{bar-color| color1= #526ae0| size1= 25| color2= #64c4ce| size2= 25| color3= #e5e5e5| size3= 25| color4= #797979| size4= 25}}
+</td></tr></table>
+{{Laabasho}}</includeonly>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
