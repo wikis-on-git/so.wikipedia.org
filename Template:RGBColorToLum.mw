@@ -1,0 +1,3 @@
+<includeonly>{{#invoke:Color contrast|lum}}</includeonly><noinclude>Converts parameter 1 from a hex RGB value (#RRGGBB) to a [http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G18 W3C relative luminance value].
+[[Category:Color conversion templates]]
+</noinclude>
