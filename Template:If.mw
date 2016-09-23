@@ -1,1 +1,4 @@
-<includeonly>{{{{{|safesubst:}}}{{{{{|safesubst:}}}#ifeq:{{{1}}}|eq|p1|p2}}|{{{{{|safesubst:}}}{{{{{|safesubst:}}}#ifeq:{{{2}}}|{{{3}}}|p1|p2}}|{{{4|}}}|{{{5|}}}}}|{{{{{|safesubst:}}}{{{{{|safesubst:}}}#switch:{{{{{|safesubst:}}}#if{{{1}}}:{{{2}}}|p1|p2}}|p1=p1|p2={{{{{|safesubst:}}}#ifeq:{{{1}}}|error|{{{{{|safesubst:}}}#ifeq:{{{4|+}}}|{{{4|-}}}|p2|p3}}|p2}}|if/errmsg}}|{{{3}}}|{{{4|}}}|{{{2}}}|{{{1}}}}}}}</includeonly> <noinclude>
+{{ {{{|safesubst:}}}p{{ {{{|safesubst:}}}#ifeq:{{{1}}}|eq|1|2}}|{{ {{{|safesubst:}}}p{{ {{{|safesubst:}}}#ifeq:{{{2}}}|{{{3}}}|1|2}}|{{{4|}}}|{{{5|}}}}}|{{ {{{|safesubst:}}}p{{ {{{|safesubst:}}}#if{{{1}}}:{{{2}}}|1|2}}|{{{3}}}|{{{4|}}}}}}}<noinclude>
+
+{{Documentation}}
+</noinclude>
