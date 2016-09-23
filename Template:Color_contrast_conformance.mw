@@ -1,0 +1,14 @@
+<noinclude><!--
+-===========================================================================================
+-  Color_contrast_conformance - give levels AAA, AA and none for acceptable color contrast
+-===========================================================================================
+--
+--></noinclude>{{#ifeq:{{{show|yes}}}|no|
+  |Contrast: {{{1|blue}}} & {{{2|orange}}}, conformance level=&nbsp;
+}}{{#ifexpr: {{color contrast ratio|{{{1|blue}}}|{{{2|orange}}} }} <= 0.14285 or {{color contrast ratio|{{{1|blue}}}|{{{2|orange}}} }} >= 7
+    |AAA
+    |{{#ifexpr: {{color contrast ratio|{{{1|blue}}}|{{{2|orange}}} }} <= 0.222 or {{color contrast ratio|{{{1|blue}}}|{{{2|orange}}} }} >= 4.5
+       |AA
+       |{{{3|none}}}
+     }}
+}}<noinclude>{{documentation}}</noinclude>
