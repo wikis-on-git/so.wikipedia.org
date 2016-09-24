@@ -1,0 +1,28 @@
+{{documentation subpage}}
+
+==Usage==
+
+Takes one optional parameter, the year-number. Prefix it with a minus sign for BC.<br />
+
+For AD years the number can be omitted if it is the page name.
+
+The box width shrinks nearly 6% for smaller year-number sizes.
+:<code><nowiki>Example for "{{Marin sanadeed|2014}}" at right:</nowiki></code>
+{{Marin sanadeed|2014}}
+{{-}}
+:<code><nowiki>Example for "{{Marin sanadeed|14}}" at right:</nowiki></code>
+{{Marin sanadeed|14}}
+{{-}}
+:<code><nowiki>Example for "{{Marin sanadeed|2069}}" at right:</nowiki></code>
+{{Marin sanadeed|2069}}
+{{-}}
+:<code><nowiki>Example for "{{Marin sanadeed|-817}}" at right:</nowiki></code>
+{{Marin sanadeed|-817}}
+
+==See also==
+* {{tl|Year dab}} (hatnote)
+
+<includeonly>
+[[Category:Historical period templates|{{PAGENAME}}]]
+
+</includeonly>
