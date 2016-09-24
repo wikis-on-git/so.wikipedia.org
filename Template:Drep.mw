@@ -1,0 +1,27 @@
+{{#switch:{{{2|}}}|ysb|yysb|ysab|yysab=[[{{#if:{{{3|}}}|{{{3}}}|{{{1}}}}} c h|{{{1}}}&nbsp;<small>c h</small>]]|
+yb|yyb|yab|yyab=[[{{#if:{{{3|}}}|{{{3}}}|{{{1}}}}} c h|{{{1}}}&nbsp;c h]]|
+sb|nsb|ynsb|sab|nsab|ynsab={{{1}}}&nbsp;<small>c h</small>|
+b|nb|ynb|ab|nab|ynab={{{1}}}&nbsp;c h|
+tb|ytb|tab|ytab={{#if:{{{3|}}}|{{{3}}}|{{{1}}}}} c h|
+ysa|yysa=[[{{#if:{{{3|}}}|{{{3}}}|{{{1}}}}}|{{{1}}}&nbsp;<small>m</small>]]|
+ya|yya=[[{{#if:{{{3|}}}|{{{3}}}|{{{1}}}}}|{{{1}}}&nbsp;m]]|
+sa|nsa|ynsa={{{1}}}&nbsp;<small>m</small>|
+a|na|yna={{{1}}}&nbsp;m|
+ta|yta|t|yt={{#if:{{{3|}}}|{{{3}}}|{{{1}}}}}|
+ys|yys|y|yy=[[{{#if:{{{3|}}}|{{{3}}}|{{{1}}}}}|{{{1}}}]]|
+s|ns|yns||n|yn={{{1}}}}}<noinclude>
+
+Produces a representation of a date. First parameter is the display text; second is the style; third is the link text (defaults to the display text). Style parameters:
+*(parameter empty or absent): no link
+*y/yy: link
+*n: no link even after y 
+*t: no link even after y, but return the link text
+*s: displays AD or BC in small capitals
+*a: adds AD if no b
+*b: adds BC
+The above options can be combined, in that order (but t not with n or s).
+
+This template is used by {{Tl|dr-make}}.
+
+[[Category:Historical period subtemplates]]
+</noinclude>
