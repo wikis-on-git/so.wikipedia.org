@@ -1,0 +1,32 @@
+{| class="infobox" style="text-align: center;"
+! style="text-align:right; font-size:smaller;" | [[Liiska kumannaan|Kumannan]]: 
+| {{Dr|y|m|{{{1|{{PAGENAME}}}}}|0|ys}}
+|-
+! style="text-align:right; font-size:smaller;" | [[Liiska qarniyada|Qarniyo]]: 
+| <!--
+--> {{Dr|y|c|{{{1|{{PAGENAME}}}}}|-1|ys}}<!--
+--> – '''{{Dr|y|c|{{{1|{{PAGENAME}}}}}|0|ys}}''' –<!--
+--> {{Dr|y|c|{{{1|{{PAGENAME}}}}}|1|ys}}
+|-
+! style="text-align:right; font-size:smaller;" | [[Liiska tobannaan|Tobannaan]]: 
+| <small> <!--
+--> {{Dr|y|d|{{{1|{{PAGENAME}}}}}|-3|ys}}&nbsp;<!--
+--> {{Dr|y|d|{{{1|{{PAGENAME}}}}}|-2|ys}}&nbsp;<!--
+--> {{Dr|y|d|{{{1|{{PAGENAME}}}}}|-1|ys}}&nbsp;<!--
+--> – {{Dr|y|d|{{{1|{{PAGENAME}}}}}|0|ys}} –<!--
+--> &nbsp;{{Dr|y|d|{{{1|{{PAGENAME}}}}}|1|ys}}<!--
+--> &nbsp;{{Dr|y|d|{{{1|{{PAGENAME}}}}}|2|ys}}<!--
+--> &nbsp;{{Dr|y|d|{{{1|{{PAGENAME}}}}}|3|ys}} </small>
+|-
+! style="text-align:right; font-size:smaller;" | [[Liiska snnadaha|Sannado]]:
+| <!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|-3|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}<!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|-2|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}<!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|-1|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}<!--
+--> – '''{{Dr|y|y|{{{1|{{PAGENAME}}}}}|0|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}''' –<!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|1|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}<!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|2|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}<!--
+--> {{Dr|y|y|{{{1|{{PAGENAME}}}}}|3|{{#ifexpr:{{{1|{{PAGENAME}}}}}<13|ysa|ys}}}}
+|}<noinclude>
+{{Documentation}}
+</noinclude>
