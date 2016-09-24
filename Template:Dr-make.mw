@@ -1,0 +1,43 @@
+<includeonly>{{#switch:{{{2}}}|y={{#switch:{{#expr:{{{1}}}<-799}}{{#expr:{{{1}}}<1}}{{#expr:{{{1}}}<2063}}
+|111={{drep|{{#expr:1-{{{1}}}}}|{{{3|}}}b}}
+|011={{drep|{{#expr:1-{{{1}}}}}|y{{{3|}}}b}}
+|001={{drep|{{{1}}}|y{{{3|}}}}} 
+|000={{drep|{{{1}}}|{{{3|}}}}}}}|d={{#switch:{{{1}}}|10|20|30|40|50|60|70|80|90|100|110|120|130|140|150|160|170|180|190
+|200={{drep|tobansanno  {{{1}}}0|y{{{3|}}}|tobansanno {{{1}}}0}}|-11|-21|-31|-41|-51|-61|-71|-81|-91|-101|-111|-121|-131|-141|-151|-161|-171|={{drep
+|tobansanno  {{#expr:-{{{1}}}-1}}0|y{{{3|}}}bd
+|tobansanno  {{#expr:-{{{1}}}-1}}0}}|{{#switch:{{#expr:{{{1}}}<-180}}{{#expr:{{{1}}}<-1 }}{{#expr:{{{1}}}<0}}{{#expr:{{{1}}}<1}}{{#expr:{{{1}}}<210}}|11111={{drep
+|tobansanno  {{#expr:-1-{{{1}}}}}0|{{{3|}}}b}}|01111={{drep
+|tobansanno  {{#expr:-1-{{{1}}}}}0|y{{{3|}}}b}}|00111={{drep|tobansanno  0|y{{{3|}}}b}}|
+00011={{drep|0|y{{{3|}}}}}|00001={{drep
+|tobansanno  {{{1}}}0|y{{{3|}}}}}|00000={{drep|{{{1}}}0|{{{3|}}}}}}}}}|c={{#switch:{{#expr:{{{1}}}<-39}}{{#expr:{{{1}}}<1}}{{#expr:{{{1}}}<31}}|111={{drep
+|{{ordinal|qarni&nbsp;{{#expr: 1-{{{1}}}}}}}|{{{3|}}}b|{{ordinal|qarni {{#expr: 1-{{{1}}}}}}} }}|011={{drep
+|{{ordinal|qarni&nbsp;{{#expr: 1-{{{1}}}}}}}|y{{{3|}}}b|{{ordinal|qarni {{#expr: 1-{{{1}}}}}}} }}|001={{drep
+|qarni&nbsp;{{ordinal|{{{1}}}}}|y{{{3|}}}|qarni {{ordinal|{{{1}}}}} }}|000={{drep
+|qarni&nbsp;{{ordinal|{{{1}}}}}|{{{3|}}}|qarni {{ordinal|{{{1}}}}} }}}}|m={{#switch:{{#expr:{{{1}}}<-9}}{{#expr:{{{1}}}<1}}{{#expr:{{{1}}}<11}}|111={{drep 
+|kunsanno&nbsp;{{ordinal|{{#expr: 1-{{{1}}}}}}}|{{{3|}}}b|{{ordinal|kunsanno {{#expr: 1-{{{1}}}}}}} }}|011={{drep
+|kunsanno&nbsp;{{ordinal|{{#expr: 1-{{{1}}}}}}}|y{{{3|}}}b|{{ordinal|kunsanno {{#expr: 1-{{{1}}}}}}} }}|001={{drep
+|kunsanno&nbsp;{{ordinal|{{{1}}}}}|y{{{3|}}}|{{ordinal|{{{1}}}}} kunsanno}}|000={{drep 
+|kunsanno {{ordinal|{{{1}}}}}|{{{3|}}}|{{ordinal|kunsanno {{{1}}}}} }}}}}}</includeonly><noinclude>
+
+Cusboonaysiinta hore: waxa soo muuqanaya wax ka turjumaya wax lambaraysan ee ah Sannadka/Qarniga/Kunsanno.
+
+Isuduwaha labaad: y/d/c/m. waa mid ka turjumaya kuna tiirsan saddex isuduwe
+
+* (Isuduwe faaruq ah ama ka maqan): wuxuu la xiriiraa sannadka hadii uu leeyahay maqaal (mana ahan wareejintiisa)
+
+*y: mar kasta waa lagu xiraa
+
+*n: laguma xiro 
+
+*t: Waxaa soo muuqanaya qoraal yar (fogaan ma jirto aan lahayn hakad, iwm), tusaale ahaan adeegsiga magacyada qaybaha.
+
+*s: Waxaa soo muuqanaysa (m), (c.h)  xarfo yar yar
+
+*a: waxaa lagu kordhinayaa m haddii uu ahaa c.h ka mid maaha
+
+*ys, ya, ysa, ns, na, nsa, sa: kooxo la oggolyahay ee xulashada hore
+
+Loo adeegsaday {{Tl|dr}}.
+
+[[Category:Historical period subtemplates]]
+</noinclude>
