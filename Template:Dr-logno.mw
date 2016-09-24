@@ -1,0 +1,5 @@
+<includeonly>{{#switch:{{{3}}}|y={{#expr:{{#ifexpr:{{{1}}}<0|{{{1}}}+1|{{{1}}}}}+{{{2|0}}}}}|d={{#expr:{{#ifexpr:{{{1}}}<0|-1+({{{1}}} - {{{1}}} mod 10)/10|({{{1}}} - {{{1}}} mod 10)/10}}+{{{2|0}}}}}|c={{#expr:{{#ifexpr:{{{1}}}<0|1+({{{1}}}-99 - ({{{1}}}-99) mod 100)/100|({{{1}}}+99 - ({{{1}}}+99) mod 100)/100}}+{{{2|0}}}}}|m={{#expr:{{#ifexpr:{{{1}}}<0|1+({{{1}}}-999 - ({{{1}}}-999) mod 1000)/1000|({{{1}}}+999 - ({{{1}}}+999) mod 1000)/1000}}+{{{2|0}}}}}}}</includeonly><noinclude>
+Wareejiyaha sannadka (Isuduwaha koowaad, tusaale: 1998 ilaa 1998m, -1998 ilaa 1998 c.h) ilaa sannad/ tobansanno/ qarni/ kunsanno la lambareeyay labar ahaan sax ah. adeegsiga ee {{Tl|dr}}. waxaa la dhigayaa  (isuduwaha labaad; ee asalka ilaa 0). isuduwaha saddexaad waa y/d/c/m.
+
+[[Category:Historical period subtemplates]]
+</noinclude>
