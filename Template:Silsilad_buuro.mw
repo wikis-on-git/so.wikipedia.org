@@ -1,0 +1,305 @@
+<includeonly>{{Infobox
+| child       = {{{child|}}}
+| bodyclass   = vcard
+| bodystyle   = line-height:normal; width:23.5em;
+
+| abovestyle  = background-color: #e7dcc3;
+| aboveclass  = fn org
+| above       = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}
+
+| headerstyle = background-color: #e7dcc3;
+| labelstyle  = padding: 0.2em 0.4em 0.2em 0em; vertical-align:text-bottom; white-space: nowrap;
+| datastyle   = padding: 0.2em 0em; vertical-align:text-top;
+| imagestyle  = padding: 0.2em 0.2em 0.2em 0.2em;
+| captionstyle = padding: 0.2em 0em;
+
+| subheader   = {{ifempty|{{{other_name|}}}| {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span>}} }}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{ifempty|{{{photo_width|}}}|{{{photo_size|}}}|frameless}}|sizedefault=frameless|upright=1.25|maxsize=280px|alt={{{photo_alt|}}}}}
+| caption     = {{{photo_caption|}}}
+
+| data1    = {{#if:{{{photo|}}} || {{#if:{{{map|}}}
+             | <div style="padding:0.2em 0.2em {{#if:{{{map_caption|}}}{{{location|}}}|0.5em|0.2em}} 0.2em;>{{Infobox map
+                 | map = {{#invoke:string|replace|{{{map|}}}| relief$||plain=false}}
+                 | map_alt = {{{map_alt|}}}
+                 | default_width = 272
+                 | map_width = {{ifempty|{{{map_width|}}}|{{{map_size|}}} }}
+                 | map_caption = {{ifempty|{{{map_caption|}}}|{{{location|}}} }}
+                 | overlay = {{{map_overlay|}}}
+                 | mark = Red triangle with thick white border.svg
+                 | mark_width = {{least|{{#expr:({{{map_size|}}}/17.0) round 0}}|16}}
+                 | relief = {{#ifeq:{{{map_relief|}}}|0||1}}
+                 | x = {{{x|}}} | y = {{{y|}}} 
+                 | x% = {{{x%|}}} | y% = {{{y%|}}}
+                 | label = {{ifempty|{{{label|}}}|{{#if:{{{range_lat_d|}}}||{{{name|}}} }} }}
+                 | label_position ={{{label_position|}}}
+                 | lat_deg = {{#if:{{{range_lat_d|}}}|{{{range_lat_d}}}|{{{lat_d|}}} }}
+                 | lat_min  = {{#if:{{{range_lat_d|}}}|{{{range_lat_m|}}}|{{{lat_m|}}} }}
+                 | lat_sec  = {{#if:{{{range_lat_d|}}}|{{{range_lat_s|}}}|{{{lat_s|}}} }}
+                 | lat_dir  = {{#if:{{{range_lat_d|}}}|{{{range_lat_NS|}}}|{{{lat_NS|}}} }}
+                 | lon_deg = {{#if:{{{range_lat_d|}}}|{{{range_long_d}}}|{{{long_d|}}} }}
+                 | lon_min  = {{#if:{{{range_lat_d|}}}|{{{range_long_m|}}}|{{{long_m|}}} }}
+                 | lon_sec  = {{#if:{{{range_lat_d|}}}|{{{range_long_s|}}}|{{{long_s|}}} }}
+                 | lon_dir  = {{#if:{{{range_lat_d|}}}|{{{range_long_EW|}}}|{{{long_EW|}}} }} }}
+            </div>}} }}
+
+| header4  = {{#if:{{{highest|}}}{{{lat_d|}}}{{{long_d|}}}{{{elevation|}}}{{{elevation_m|}}}{{{elevation_ft|}}}{{{prominence|}}}{{{prominence_m|}}}{{{prominence_ft|}}}{{{isolation|}}}{{{isolation_mi|}}}{{{isolation_km|}}}{{{parent_peak|}}}{{{isolation_parent|}}}{{{listing|}}}{{{coordinates|}}}{{{coords|}}}|Highest point}}
+
+| label5   = Peak
+| data5    = {{#ifexist:{{{highest|}}}|[[{{{highest|}}}]]|{{{highest|}}} }} {{#if:{{{highest_location|}}}|&#32;({{{highest_location|}}}) }}
+
+| label6   = [[Summit (topography)|Elevation]]
+| data6    = {{#if:{{{elevation|}}} | {{{elevation|}}}
+             | {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|{{convinfobox|{{{elevation_m|}}}|m|{{{elevation_ft|}}}|ft}}|{{convert|input=P2044}} }}}}<!--
+             -->{{#if:{{{elevation_note|}}}{{{elevation_ref|}}} | &thinsp;{{ifempty|{{{elevation_note|}}}|{{{elevation_ref|}}} }} }}<!--
+             -->{{#if:{{{elevation_system|}}}|&#32;<span style="font-size:80%;">{{#ifexist:{{{elevation_system}}}|[[{{{elevation_system}}}]]|{{{elevation_system}}} }}</span>}}
+
+| label7   = [[Topographic prominence|Prominence]]
+| data7    = {{#if:{{{prominence|}}}|{{{prominence|}}}
+             |{{#if:{{{prominence_m|}}}{{{prominence_ft|}}}|{{convinfobox|{{{prominence_m|}}}|m|{{{prominence_ft|}}}|ft}}|{{convert|input=P2660}} }}}}<!--
+             -->{{#if:{{{prominence_ref|}}}|&thinsp;{{{prominence_ref}}} }}
+
+| label8   = [[Topographic isolation|Isolation]]
+| data8    = {{#if:{{{isolation|}}}|{{{isolation|}}}
+             |{{#if:{{{isolation_km|}}}{{{isolation_mi|}}}|{{convinfobox|{{{isolation_km|}}}|km|{{{isolation_mi|}}}|mi}}|{{convert|input=P2659}} }}}}<!--
+             -->{{#if:{{{isolation_parent|}}}|<br/>to {{{isolation_parent}}} }}<!--
+             -->{{#if:{{{isolation_ref|}}}|&thinsp;{{{isolation_ref}}} }}
+
+| label9   = [[Topographic prominence#Prominence parentage|Parent peak]]
+| data9    = {{{parent_peak|}}}
+
+| class10   = category
+| label10   = [[List of mountain lists|Listing]]
+| data10    = {{{listing|}}}
+
+| label11   = [[Geographic coordinate system|Coordinates]]
+| data11    = {{#if:{{{lat_d|}}}{{{long_d|}}}
+             | {{Infobox coord
+               | lat_d   = {{{lat_d|}}}
+               | lat_m   = {{{lat_m|}}}
+               | lat_s   = {{{lat_s|}}}
+               | lat_NS  = {{{lat_NS|}}}
+               | long_d  = {{{long_d|}}}
+               | long_m  = {{{long_m|}}}
+               | long_s  = {{{long_s|}}}
+               | long_EW = {{{long_EW|}}}
+               | type    = {{ifempty|{{{coord_type|}}}|mountain}}
+               | region  = {{{region_code|}}}
+               | dim     = {{#if:{{{range_lat_d|}}}||{{#if:{{{dim|}}}|{{{dim|}}}|<!--
+                             -->{{Infobox dim|length_km={{{length_km|}}}|length_mi={{{length_mi|}}}|<!--
+                                 -->width_km={{{width_km|}}}|width_mi={{{width_mi|}}}|<!--
+                                 -->area_mi2={{{area_mi2|}}}|area_km2={{{area_km2|}}} }} }} }}
+               | scale   = {{#if:{{{dim|}}}{{{length_km|}}}{{{length_mi|}}}<!--
+                               -->{{{width_km|}}}{{{width_mi|}}}{{{area_mi2|}}}{{{area_km2|}}}<!--
+                                 -->||{{ifempty|{{{scale|}}}|100000}} }}
+               | source  = {{{source|}}}
+               | format  = {{{format|}}} <!-- default is dms -->
+               | display = {{#if:{{{coordinates_no_title|}}}{{{range_lat_d|}}}|inline|{{{display|}}} }}<!-- default is inline,title -->
+               | name    = <!-- leave undefined -->
+               }}<!--
+    -->|{{ifempty|{{{coordinates|}}}|{{{coords|}}} }}<!--
+    -->}}<!--
+ -->{{#if:{{{coordinates_note|}}}{{{coordinates_ref|}}}{{{coords_ref|}}}<!--
+     -->|&thinsp;{{ifempty|{{{coordinates_note|}}}|{{{coordinates_ref|}}}|{{{coords_ref|}}} }} }}
+
+| header15  = {{#if:{{{length|}}}{{{length_km|}}}{{{length_mi|}}}{{{width|}}}{{{width_km|}}}{{{width_mi|}}}{{{area|}}}{{{area_km2|}}}{{{area_mi2|}}}|Dimensions}}
+
+| label16   = Length
+| data16    = {{#if:{{{length|}}}|{{{length}}}|{{#if:{{{length_km|}}}{{{length_mi|}}}|<!--
+             -->{{convinfobox|{{{length_km|}}}|km|{{{length_mi|}}}|mi}} }} }}<!--
+             -->{{#if:{{{length_km|}}}{{{length_mi|}}}{{{length|}}}|<!--
+                 -->{{#if:{{{length_orientation|}}}|&#32;{{{length_orientation}}} }}<!--
+                 -->{{#if:{{{length_note|}}}|&thinsp;{{{length_note}}} }} }}
+
+| label17   = Width
+| data17    = {{#if:{{{width|}}}|{{{width}}}|{{#if:{{{width_km|}}}{{{width_mi|}}}|<!--
+             -->{{convinfobox|{{{width_km|}}}|km|{{{width_mi|}}}|mi}} }} }}<!--
+             -->{{#if:{{{width_km|}}}{{{width_mi|}}}{{{width|}}}<!--
+                 -->|{{#if:{{{width_orientation|}}}|&#32;{{{width_orientation}}} }}<!--
+                 -->{{#if:{{{width_note|}}}|&thinsp;{{{width_note}}} }} }}
+
+| label18   = Area
+| data18    = {{#if:{{{area|}}}|{{{area}}}|{{#if:{{{area_km2|}}}{{{area_mi2|}}}|<!--
+             -->{{convinfobox|{{{area_km2|}}}|km2|{{{area_mi2|}}}|mi2}} }} }}<!--
+             -->{{#if:{{{area_km2|}}}{{{area_mi2|}}}{{{area|}}}|<!--
+                 -->{{#if:{{{area_note|}}}|&thinsp;{{{area_note}}} }} }}
+
+| label19   = Volume
+| data19    = {{#if:{{{volume|}}}|{{{volume}}}|{{#if:{{{volume_km3|}}}{{{volume_mi3|}}}|<!--
+             -->{{convinfobox|{{{volume_km3|}}}|km3|{{{volume_mi3|}}}|mi3}} }} }}<!--
+             -->{{#if:{{{volume_km3|}}}{{{volume_km3|}}}{{{volume|}}}|<!--
+                 -->{{#if:{{{volume_note|}}}|&thinsp;{{{volume_note}}} }} }}
+
+| header20 = {{#if:{{{etymology|}}}{{{nickname|}}}{{#if:{{{other_name|}}}|{{{native_name|}}} }}{{{translation|}}}{{{pronunciation|}}}|Naming|}}
+
+| label21  = [[Etymology]]
+| data21   = {{{etymology|}}}
+
+| label22  = [[Nickname]]
+| data22   = {{{nickname|}}}
+
+| label23  = Native name
+| data23   = {{#if:{{{other_name|}}}|{{{native_name|}}} }}
+
+| label24   = Translation
+| data24    = {{#if:{{{translation|}}}| ''{{{translation|}}}''<!--
+             -->{{#if:{{{language|}}}|&#32;({{{language|}}}) }} }}
+
+| label25   = [[help:IPA|Pronunciation]]
+| data25    = {{#if:{{{pronunciation|}}}|{{IPA|{{{pronunciation|}}} }} }}
+
+| label26  = Defining authority
+| data26   = {{{authority|}}}
+
+| header30 = {{#if:{{#if:{{{photo|}}}|{{{map|}}} }}<!--
+             -->{{{location|}}}{{{country|}}}{{{region|}}}{{{district|}}}{{{city|}}}<!---
+             -->{{{border|}}}{{{parent|}}}{{{range|}}}<!---
+             -->{{{topo|}}}{{{grid_ref_UK|}}}{{{grid_ref_Ireland|}}}{{{topo_map|}}}<!---
+             -->{{{biome|}}}{{{range_lat_d|}}}{{{range_long_d|}}}|Geography}}
+
+| data31   = {{#if:{{{photo|}}} | {{#if:{{{map|}}}
+             | <div style="padding:0.2em 0.2em {{#if:{{{map_caption|}}}{{{location|}}}|0.5em|0.2em}} 0.2em;>{{Infobox map
+                 | map = {{{map|}}}
+                 | map_alt = {{{map_alt|}}}
+                 | default_width = 272
+                 | map_width = {{ifempty|{{{map_width|}}}|{{{map_size|}}} }}
+                 | map_caption = {{ifempty|{{{map_caption|}}}|{{{location|}}}}}
+                 | overlay = {{{map_overlay|}}}
+                 | mark = Red triangle with thick white border.svg
+                 | mark_width = {{least|{{#expr:({{{map_size|}}}/17.0) round 0}}|16}}
+                 | relief = {{#ifeq:{{{map_relief|}}}|0||1}}
+                 | x = {{{x|}}} | y = {{{y|}}}
+                 | x% = {{{x%|}}} | y% = {{{y%|}}}
+                 | label = {{ifempty|{{{label|}}}|{{#if:{{{range_lat_d|}}}||{{{name|}}} }} }}
+                 | label_position ={{{label_position|}}}
+                 | lat_deg = {{#if:{{{range_lat_d|}}}|{{{range_lat_d}}}|{{{lat_d|}}} }}
+                 | lat_min  = {{#if:{{{range_lat_d|}}}|{{{range_lat_m|}}}|{{{lat_m|}}} }}
+                 | lat_sec  = {{#if:{{{range_lat_d|}}}|{{{range_lat_s|}}}|{{{lat_s|}}} }}
+                 | lat_dir  = {{#if:{{{range_lat_d|}}}|{{{range_lat_NS|}}}|{{{lat_NS|}}} }}
+                 | lon_deg = {{#if:{{{range_lat_d|}}}|{{{range_long_d}}}|{{{long_d|}}} }}
+                 | lon_min  = {{#if:{{{range_lat_d|}}}|{{{range_long_m|}}}|{{{long_m|}}} }}
+                 | lon_sec  = {{#if:{{{range_lat_d|}}}|{{{range_long_s|}}}|{{{long_s|}}} }}
+                 | lon_dir  = {{#if:{{{range_lat_d|}}}|{{{range_long_EW|}}}|{{{long_EW|}}} }} }}
+            </div>}}}}
+                 
+| class32 = label
+| label32 = Location
+| data32 = {{#if:{{{map_caption|}}}|{{{location|}}}|{{#if:{{{photo|}}}|{{#if:{{{map|}}}||{{{location|}}} }}|{{{location|}}} }} }}
+
+| class34  = label
+| label34  = {{#if:{{{country_type|}}}|{{{country_type}}}|{{#if:{{{country1|}}}|Countries|Country}} }}
+| data34   = {{#if:{{{country4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{country|}}}|2={{{country1|}}}|3={{{country2|}}}|4={{{country3|}}}|5={{{country4|}}}|6={{{country5|}}}|7={{{country6|}}}|8={{{country7|}}}|9={{{country8|}}}|10={{{country9|}}}|11={{{country10|}}}|12={{{country11|}}}|13={{{country12|}}}|14={{{country13|}}}|15={{{country14|}}}|16={{{country15|}}}|17={{{country16|}}}|18={{{country17|}}}|19={{{country18|}}} }}|{{enum|{{{country|}}}|{{{country1|}}}|{{{country2|}}}|{{{country3|}}} }} }}
+
+| class35  = label
+| label35  = {{#if:{{{state_type|}}}|{{{state_type}}}|{{#if:{{{state1|}}}|States|State}}}}
+| data35  = {{#if:{{{state4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{state|}}}|2={{{state1|}}}|3={{{state2|}}}|4={{{state3|}}}|5={{{state4|}}}|6={{{state5|}}}|7={{{state6|}}}|8={{{state7|}}}|9={{{state8|}}}|10={{{state9|}}}|11={{{state10|}}}|12={{{state11|}}}|13={{{state12|}}}|14={{{state13|}}}|15={{{state14|}}}|16={{{state15|}}}|17={{{state16|}}}|18={{{state17|}}}|19={{{state18|}}} }}|{{enum|{{{state|}}}|{{{state1|}}}|{{{state2|}}}|{{{state3|}}} }} }}
+
+| class36  = label
+| label36  = {{#if:{{{region_type|}}}
+             | {{{region_type}}}
+             | {{#if:{{{state|}}}
+               | {{#if:{{{region1|}}}|Regions|Region}}
+               | {{#if:{{{region1|}}}|States/Provinces|State/Province}} }} }}
+| data36 = {{#if:{{{region4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{region|}}}|2={{{region1|}}}|3={{{region2|}}}|4={{{region3|}}}|5={{{region4|}}}|6={{{region5|}}}|7={{{region6|}}}|8={{{region7|}}}|9={{{region8|}}}|10={{{region9|}}}|11={{{region10|}}}|12={{{region11|}}}|13={{{region12|}}}|14={{{region13|}}}|15={{{region14|}}}|16={{{region15|}}}|17={{{region16|}}}|18={{{region17|}}}|19={{{region18|}}}|20={{{region19|}}}|21={{{region20|}}}|22={{{region21|}}}|23={{{region22|}}}|24={{{region23|}}} }}|{{enum|{{{region|}}}|{{{region1|}}}|{{{region2|}}}|{{{region3|}}} }} }}
+
+| class37  = label
+| label37 = {{#if:{{{district_type|}}}|{{{district_type}}}|{{#if:{{{district1|}}}|Districts|District}} }}
+| data37  = {{#if:{{{district4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{district|}}}|2={{{district1|}}}|3={{{district2|}}}|4={{{district3|}}}|5={{{district4|}}}|6={{{district5|}}}|7={{{district6|}}}|8={{{district7|}}}|9={{{district8|}}}|10={{{district9|}}}|11={{{district10|}}}|12={{{district11|}}}|13={{{district12|}}}|14={{{district13|}}}|15={{{district14|}}}|16={{{district15|}}}|17={{{district16|}}}|18={{{district17|}}}|19={{{district18|}}} }}|{{enum|{{{district|}}}|{{{district1|}}}|{{{district2|}}}|{{{district3|}}} }} }}
+
+| label38  = {{#if:{{{city_type|}}}|{{{city_type}}}|{{#if:{{{city1|}}}|Settlements|Settlement}} }}
+| data38  = {{#if:{{{city4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{city|}}}|2={{{city1|}}}|3={{{city2|}}}|4={{{city3|}}}|5={{{city4|}}}|6={{{city5|}}}|7={{{city6|}}}|8={{{city7|}}}|9={{{city8|}}}|10={{{city9|}}}|11={{{city10|}}}|12={{{city11|}}}|13={{{city12|}}}|14={{{city13|}}}|15={{{city14|}}}|16={{{city15|}}}|17={{{city16|}}}|18={{{city17|}}}|19={{{city18|}}} }}|{{enum|{{{city|}}}|{{{city1|}}}|{{{city2|}}}|{{{city3|}}} }} }}
+
+| label39   = [[Geographic coordinate system|Range coordinates]]
+| data39    = {{#if:{{{range_lat_d|}}}{{{range_long_d|}}}
+             | {{Infobox coord
+               | lat_d   = {{decdeg|deg={{{range_lat_d|}}}|min={{{range_lat_m|}}}<!--
+                                -->|sec={{{range_lat_s|}}}|hem={{{range_lat_NS|}}}<!--
+                                -->|rnd={{#if:{{{range_lat_s|}}}|4|2}} }}
+               | long_d  = {{decdeg|deg={{{range_long_d|}}}|min={{{range_long_m|}}}<!--
+                                -->|sec={{{range_long_s|}}}|hem={{{range_long_EW|}}}<!--
+                                -->|rnd={{#if:{{{range_long_s|}}}|4|2}} }}
+               | type    = {{ifempty|{{{coord_type|}}}|mountain}}
+               | region  = {{{region_code|}}}
+               | dim     = {{#if:{{{dim|}}}|{{{dim|}}}|<!--
+                             -->{{Infobox dim|length_km={{{length_km|}}}|length_mi={{{length_mi|}}}|<!--
+                                 -->width_km={{{width_km|}}}|width_mi={{{width_mi|}}}|<!--
+                                 -->area_mi2={{{area_mi2|}}}|area_km2={{{area_km2|}}} }} }}
+               | scale   = {{#if:{{{dim|}}}{{{length_km|}}}{{{length_mi|}}}<!--
+                                  -->{{{width_km|}}}{{{width_mi|}}}{{{area_mi2|}}}{{{area_km2|}}}<!--
+                              -->||{{ifempty|{{{scale|}}}|300000}} }}
+               | source  = {{{source|}}}
+               | format  = {{{format|}}} <!-- default is dms -->
+               | display = {{#if:{{{coordinates_no_title|}}}|inline|{{{display|}}} }} <!-- default is inline,title -->
+               | name    = <!-- leave undefined -->
+               }}{{#if:{{{range_coordinates_note|}}}|&thinsp;{{{range_coordinates_note}}} }} }}
+
+| class40  = category
+| label40  = [[Mountain range|Parent range]]
+| data40   = {{#ifexist:{{{parent|}}}|[[{{{parent}}}]]|
+             {{#ifexist:{{{range|}}}|[[{{{range}}}]]|
+             {{ifempty|{{{parent|}}}|{{{range|}}} }} }} }}
+
+| label41  = Borders on
+| data41   = {{#if:{{{border4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{border|}}}|2={{{border1|}}}|3={{{border2|}}}|4={{{border3|}}}|5={{{border4|}}}|6={{{border5|}}}|7={{{border6|}}}|8={{{border7|}}} }}|{{enum|{{{border|}}}|{{{border1|}}}|{{{border2|}}}|{{{border3|}}} }} }}
+
+| label42  = [[Ordnance Survey National Grid|OS grid]]
+| data42   = {{#if:{{{grid_ref_UK|}}}|{{gbm4ibx|{{{grid_ref_UK|}}}}}}}
+
+| label43  = [[Irish grid reference system|OSI/OSNI grid]]
+| data43   = {{#if:{{{grid_ref_Ireland|}}}|{{iem4ibx|{{{grid_ref_Ireland|}}}}}}}
+
+| label44  = [[Topographic map|Topo map]]
+| data44 = {{#if:{{{topo_maker|}}}|{{{topo_maker}}}&nbsp;}}{{ifempty|{{{topo|}}}|{{{topo_map|}}} }}
+
+| label45  = [[Biome]]
+| data45   = {{{biome|}}}
+
+| header50 = {{#if:{{{formed_by|}}}{{{period|}}}{{{orogeny|}}}{{{geology|}}}{{{type|}}}{{{age|}}}{{{volcanic_arc|}}}{{{volcanic_belt|}}}{{{volcanic_field|}}}{{{volcanic_arc/belt|}}}{{{last_eruption|}}}|Geology|}}
+
+| label51  = [[Mountain formation|Formed by]]
+| data51   = {{{formed_by|}}}
+
+| label52  = [[Orogeny]]
+| data52   = {{#ifexist:{{{orogeny|}}}|[[{{{orogeny}}}]]|{{{orogeny|}}} }}
+
+| label53  = [[Geologic time scale|Age of rock]]
+| data53   = {{ifempty|{{{age|}}}|{{enum|{{#ifexist:{{{period|}}}|[[{{{period}}}]]|{{{period|}}}}}|<!--
+                 -->{{#ifexist:{{{period1|}}}|[[{{{period1}}}]]|{{{period1|}}}}} }} }}
+
+| label54  = [[List of mountain types|Mountain type]]
+| data54   = {{{type|}}}
+
+| label55  = Type of rock
+| data55   = {{enum|{{#ifexist:{{{geology|}}}|[[{{{geology}}}]]|{{{geology|}}} }}<!--
+                -->|{{#ifexist:{{{geology1|}}}|[[{{{geology1}}}]]|{{{geology1|}}} }}<!--
+                -->|{{#ifexist:{{{geology2|}}}|[[{{{geology2}}}]]|{{{geology2|}}} }} }}
+
+| label56  = {{#if:{{{volcanic_arc|}}}|[[Volcanic arc]]
+             | {{#if:{{{volcanic_belt|}}}|[[Volcanic belt]]
+               | {{#if:{{{volcanic_field|}}}|[[Volcanic field]]
+                 | {{#if:{{{volcanic_arc/belt|}}}|Volcanic [[Volcanic arc|arc]]/[[Volcanic belt|belt]]}}}}}}}}
+| data56   = {{ifempty|{{{volcanic_arc|}}}|{{{volcanic_belt|}}}|{{{volcanic_field|}}}|{{{volcanic_arc/belt|}}}}}
+
+| label57  = [[Types of volcanic eruptions|Last eruption]]
+| data57   = {{{last_eruption|}}}
+
+| header60 = {{#if:{{{first_ascent|}}}{{{easiest_route|}}}{{{normal_route|}}}{{{access|}}}|Climbing}}
+
+| label61  = [[First ascent]]
+| data61   = {{{first_ascent|}}}
+
+| label62  = [[Normal route|Easiest route]]
+| data62   = {{{easiest_route|}}}
+
+| label63  = [[Normal route]]
+| data63   = {{{normal_route|}}}
+
+| label64  = Access
+| data64   = {{{access|}}}
+
+| data70   = {{{embedded|}}}
+
+| data71   = {{{misc|{{{module|}}}}}}
+}}{{#if:{{{map|}}}|{{#ifeq:{{{map|}}}|{{#invoke:string|replace|{{{map|}}}| relief$||plain=false}}||[[Category:Pages using hardcoded relief location maps]]}}}}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox mountain with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox mountain]] with unknown parameter "_VALUE_"|ignoreblank=y| access | age | area | area_km2 | area_mi2 | area_note | authority | biome | border | border1 | border2 | border3 | border4 | border5 | border6 | border7 | child | city | city_type | city1 | city10 | city11 | city12 | city13 | city14 | city15 | city16 | city17 | city18 | city2 | city3 | city4 | city5 | city6 | city7 | city8 | city9 | coord_type | coordinates | coordinates_no_title | coordinates_note | coordinates_ref | coords | coords_ref | country | country_type | country1 | country10 | country11 | country12 | country13 | country14 | country15 | country16 | country17 | country18 | country2 | country3 | country4 | country5 | country6 | country7 | country8 | country9 | dim | display | district | district_type | district1 | district10 | district11 | district12 | district13 | district14 | district15 | district16 | district17 | district18 | district2 | district3 | district4 | district5 | district6 | district7 | district8 | district9 | easiest_route | elevation | elevation_ft | elevation_m | elevation_note | elevation_ref | elevation_system | embedded | etymology | first_ascent | format | formed_by | geology | geology1 | geology2 | grid_ref_Ireland | grid_ref_UK | highest | highest_location | isolation | isolation_km | isolation_mi | isolation_parent | isolation_ref | label | label_position | language | last_eruption | lat_d | lat_m | lat_NS | lat_s | length | length_km | length_mi | length_note | length_orientation | listing | location | long_d | long_EW | long_m | long_s | map | map_alt | map_caption | map_overlay | map_relief | map_size | map_width | misc | module | name | native_name | native_name_lang | nickname | normal_route | orogeny | other_name | parent | parent_peak | period | period1 | photo | photo_alt | photo_caption | photo_size | photo_width | prominence | prominence_ft | prominence_m | prominence_ref | pronunciation | range | range_coordinates_note | range_lat_d | range_lat_m | range_lat_NS | range_lat_s | range_long_d | range_long_EW | range_long_m | range_long_s | region | region_code | region_type | region1 | region10 | region11 | region12 | region13 | region14 | region15 | region16 | region17 | region18 | region19 | region2 | region20 | region21 | region22 | region23 | region3 | region4 | region5 | region6 | region7 | region8 | region9 | scale | source | state | state_type | state1 | state10 | state11 | state12 | state13 | state14 | state15 | state16 | state17 | state18 | state2 | state3 | state4 | state5 | state6 | state7 | state8 | state9 | topo | topo_maker | topo_map | translation | type | volcanic_arc | volcanic_arc/belt | volcanic_belt | volcanic_field | volume | volume_km3 | volume_mi3 | volume_note | width | width_km | width_mi | width_note | width_orientation | x | x% | y | y% }}<noinclude><!--
+   PLEASE ADD CATEGORIES TO THE /doc SUBPAGE, THANKS
+-->{{documentation}}</noinclude>
