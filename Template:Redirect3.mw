@@ -1,0 +1,14 @@
+{{#if:{{{1|<noinclude>REDIRECT</noinclude>}}}<!--
+    -->|{{#if:{{{2|<noinclude>TEXT</noinclude>}}}<!--
+        -->|{{Hatnote|"{{{1|<noinclude>REDIRECT</noinclude>}}}" halkan ayay imanaysaa. {{{2|<noinclude>TEXT</noinclude>}}}.}}<!--
+        -->|{{error|No text specified.}}[[Category:Pages using redirect3 without text specified]][[Category:Hatnote templates with errors]]<!--
+    -->}}<!--
+    -->|{{error|No redirect specified.}}[[Category:Hatnote templates with errors]]<!--
+-->}}<!--
+
+-->{{#if:{{{3|}}}|[[Category:Hatnote templates using unusual parameters]]}}<!--
+
+ -->{{#switch:{{{1<noinclude>|REDIRECT</noinclude>}}}
+     |REDIRECT|REDIRECT1|REDIRECT2|REDIRECT3|TERM=
+     | #default = {{#ifexist:{{{1}}} | |{{main other|[[Category:Missing redirects]]}}}}
+    }}
