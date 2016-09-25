@@ -49,11 +49,11 @@
 |data1     = {{{location|}}}
 
 |rowclass2 = note
-|label2    = {{#if:{{{nearest_city|}}}|Nearest&nbsp;city
-             | {{#if:{{{nearest_town|}}}|Nearest&nbsp;town }}}}
+|label2    = {{#if:{{{nearest_city|}}}|Caasimada ugu&nbsp;dhow
+             | {{#if:{{{nearest_town|}}}|Magaalada&nbsp;ugu dhow }}}}
 |data2     = {{ifempty|{{{nearest_city|}}}|{{{nearest_town|}}}}}
 
-|label3    = Coordinates
+|label3    = [[Isuduwe Habka Juqraafiga|Isuduweha]]
 |data3     = {{#if:{{{lat_d|}}}{{{long_d|}}}
              | {{Infobox coord
                | lat_d   = {{{lat_d|}}}
