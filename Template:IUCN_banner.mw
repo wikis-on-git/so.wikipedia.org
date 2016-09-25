@@ -1,0 +1,24 @@
+{{#if: {{{1|}}} | {{#switch: {{uc:{{{1|}}}}}
+| IA  = <div style="background-color: #E7AF97;">[[IUCN]]<!--
+--> category Ia ([[Nature reserve|strict nature reserve]])</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category Ia]]}}
+| IB  = <div style="background-color: #DACAA5;">[[IUCN]]<!--
+--> category Ib ([[wilderness area]])</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category Ib]]}}
+| II  = <div style="background-color: #CDE5B2;">[[IUCN]]<!--
+--> category II ([[national park]])</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category II]]}}
+| III = <div style="background-color: #BFFFBF;">[[IUCN]]<!--
+--> category III ([[natural monument|natural monument or feature]])</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category III]]}}
+| IV  = <div style="background-color: #B2E5CD;">[[IUCN]]<!--
+--> category IV (habitat/species management area)</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category IV]]}}
+| V   = <div style="background-color: #A5CADA;">[[IUCN]]<!--
+--> category V (protected landscape/seascape)</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category V]]}}
+| VI  = <div style="background-color: #A8BDEC;">[[IUCN]]<!--
+--> category VI (protected area with sustainable use of natural resources)</div>{{#if:{{NAMESPACE}}||[[Category:IUCN Category VI]]}}
+| #default = <div style="color: #C80815; font-weight: bold;">An unknown <!--
+-->[[IUCN]] category was entered.</div>
+}} }}<noinclude>
+{{Documentation}}
+<!--
+   PLEASE ADD CATEGORIES AND INTERWIKIS
+   TO THE /doc SUBPAGE, THANKS
+-->
+</noinclude>
