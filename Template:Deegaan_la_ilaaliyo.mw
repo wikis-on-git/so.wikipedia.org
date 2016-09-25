@@ -1,0 +1,118 @@
+{{infobox
+|bodyclass      = vcard
+|bodystyle      = font-size: 90%; border-spacing: 3px; width: 300px;
+|subheaderstyle = font-size: 100%;
+|labelstyle     = padding: 0em 0em 0em 0.3em;
+|datastyle      = padding: 0em 0.3em;
+
+|child          = {{{child|}}}
+
+|abovestyle     = padding: 0em 0.1em;
+|aboveclass     = fn org
+|above          = <includeonly>{{{name}}}</includeonly>
+
+|subheader1     = {{{alt_name|}}}
+
+|subheader2     = {{IUCN banner|{{{iucn_category|}}} }}
+
+|image1    = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{{photo_width|}}}|maxsize=284px|alt={{{photo_alt|}}}}}
+|caption1  = {{{photo_caption|}}}
+
+|image2    = {{#if:{{{map|}}} | {{Infobox map
+             | map            = {{{map|}}}
+             | map_width      = {{#if:{{{map_width|}}}|{{least|{{{map_width|}}}|284}}}}
+             | default_width  = 284
+             | relief         = {{{relief|}}}
+             | label          = {{ifempty|{{{label|}}}|{{{name|}}} }}
+             | label_position = {{ifempty|{{{label_position|}}}|none}} <!-- change default to none -->  
+             | map_caption    = {{{map_caption|}}}
+             | map_alt        = {{ifempty|{{{map_alt|}}}|Map showing the location of {{{name|}}} }}
+             | mark           = {{ifempty|{{{mark|}}}|{{#ifeq:{{lc:{{{map|}}}}}|us locator blank.svg|Green pog.svg|Red pog.svg }}}}
+             | mark_width     = {{ifempty|{{{marker_size|}}}|8}}
+             | lat_deg = {{{lat_d|}}}
+             | lat_min = {{{lat_m|}}}
+             | lat_sec = {{{lat_s|}}}
+             | lat_dir = {{{lat_NS|}}}
+             | lon_deg = {{{long_d|}}}
+             | lon_min = {{{long_m|}}}
+             | lon_sec = {{{long_s|}}}
+             | lon_dir = {{{long_EW|}}}
+             | pixel_x        = {{#if:{{{locator_x|}}}|{{#expr:({{least|{{{map_width|}}}|284}}/288)*{{{locator_x|}}} }}}}
+             | pixel_y        = {{#if:{{{locator_y|}}}|{{#expr:({{least|{{{map_width|}}}|284}}/288)*{{{locator_y|}}} }}}}
+             | x%             = {{{x%|}}}
+             | y%             = {{{y%|}}}
+             | x              = {{{x|}}}
+             | y              = {{{y|}}} }} }}
+
+|rowclass1 = locality
+|label1    = Meesha
+|data1     = {{{location|}}}
+
+|rowclass2 = note
+|label2    = {{#if:{{{nearest_city|}}}|Nearest&nbsp;city
+             | {{#if:{{{nearest_town|}}}|Nearest&nbsp;town }}}}
+|data2     = {{ifempty|{{{nearest_city|}}}|{{{nearest_town|}}}}}
+
+|label3    = Coordinates
+|data3     = {{#if:{{{lat_d|}}}{{{long_d|}}}
+             | {{Infobox coord
+               | lat_d   = {{{lat_d|}}}
+               | lat_m   = {{{lat_m|}}}
+               | lat_s   = {{{lat_s|}}}
+               | lat_NS  = {{{lat_NS|}}}
+               | long_d  = {{{long_d|}}}
+               | long_m  = {{{long_m|}}}
+               | long_s  = {{{long_s|}}}
+               | long_EW = {{{long_EW|}}}
+               | type    = {{#if:{{{type|}}}|{{{type|}}}|landmark }}
+               | region  = {{{region|}}}
+               | scale   = {{{scale|}}}
+               | source  = {{{source|}}}
+               | display = {{{display|}}}
+               | format  = {{{format|}}}
+               | name    = <!-- leave undefined -->
+               }}{{#if:{{{coords_ref|}}}|{{{coords_ref|}}} }}
+             | {{#if:{{{coords|}}}|{{{coords|}}}{{#if:{{{coords_ref|}}}|{{{coords_ref|}}} }} }} }}
+
+|label4    = Deegaanka
+|data4     = {{convinfobox|{{{area_ha|}}}|ha|{{{area_acre|}}}|acre}}<!--
+             -->{{convinfobox|{{{area_km2|}}}|km2|{{{area_sqmi|}}}|sqmi}}<!--
+             -->{{{area|}}}
+
+|label5    = Designation
+|data5     = {{{designation|}}}
+
+|rowclass6 = note
+|label6    = {{#if:{{{authorized|}}}|Authorized
+             | {{#if:{{{created|}}}|Created
+             | {{#if:{{{established|}}}|Established
+             | {{#if:{{{designated|}}}|Designated }}}}}}}}
+|data6     = {{ifempty|{{{authorized|}}}|{{{created|}}}|{{{established|}}}|{{{designated|}}} }}
+
+|label7    = Visitors
+|data7     = {{#if:{{{visitation_num|}}}|{{{visitation_num|}}}<!--
+             -->{{#if:{{{visitation_year|}}}|{{sp}}(in&nbsp;{{{visitation_year|}}}) }}<!--
+             -->{{#if:{{{visitation_ref|}}}|{{{visitation_ref|}}}}} }}
+
+|label8    = {{#if:{{{governing_body|}}}|Governing&nbsp;body
+             | {{#if:{{{administrator|}}}|Administrator
+             | {{#if:{{{operator|}}}|Operator
+             | {{#if:{{{owner|}}}|Owner }}}}}}}}
+|data8     = {{ifempty|{{{governing_body|}}}|{{{administrator|}}}|{{{operator|}}}|{{{owner|}}} }}
+
+|label9    = World&nbsp;Heritage Site
+|data9     = {{{world_heritage_site|}}}
+
+|label10   = {{#if:{{{website|}}}|Website}}
+|data10    = {{#if:{{{website|}}}
+             | {{{website|}}}
+             | {{#if:{{{url|}}} | {{{url|}}} }} }}
+
+|header11  = {{ifempty|{{{embedded1|}}}|{{{embedded|}}} }}
+
+|header12  = {{{embedded2|}}}
+
+}}<noinclude>
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
