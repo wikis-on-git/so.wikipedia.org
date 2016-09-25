@@ -1,0 +1,55 @@
+<includeonly>{{#ifeq: {{{1|1+4/5}}} |{{#titleparts:{{{1|1+4/5}}}|1|1}} |<!--check x+n/d
+  then-one-number-->{{{1}}}|<!--
+  else-mixed-number-->{{convert/numdisp|{{{1|1+4/5}}}}}<!--
+  -->}}<!--endif 0*{1}=0-->{{
+  #ifexpr: {{str_len|{{{1|4+6}}}|}} < 5|&nbsp;|&#32;
+}}{{{3|to}}}<!--show range word-->{{
+  #ifexpr: {{str_len|{{{1|4+6}}}|}} < 4|&nbsp;|&#32;
+}}{{
+#ifeq: {{{2|3+6/7}}} |{{#titleparts:{{{2|3+6/7}}}|1|1}} |<!--check x+n/d
+  then-one-number-->{{{2}}}|<!--
+  else-mixed-number-->{{convert/numdisp|{{{2|3+6/7}}}}}<!--
+  -->}}<!--endif 0*{2}=0
+-->&nbsp;{{#ifeq: 1| {{#expr:abs( {{formatnum:{{{2|3/4}}}|R}} ) < 1.0001 and
+  {{formatnum:{{{2|3/4}}}|R}} <> 0 }}
+  |{{#ifeq:{{{u|xnone<noinclude>x</noinclude>}}}|xnone |{{{n}}}
+    |{{#ifeq: { |{{padleft:|1
+      |{{{u<noinclude>|x</noinclude>}}} }}|{{{n}}} |{{{u}}} }}
+  }}<!--endifeq {u}=xnone-->
+  |{{#ifeq:{{{u|xnone}}}|xnone |{{{l|{{{n}}}s}}}
+    |{{#ifeq: { |{{padleft:|1|{{{u}}} }}|{{{l|{{{n}}}s}}} |{{{u}}} }}
+  }}<!--endifeq {u}=xnone-->
+}}<!--endifexpr {2}<1.0001 & {2}>0 --></includeonly><noinclude><!--
+-----------------------------------------------------------------------
+--NOTES:
+--
+-- NOTE A1: This template shows an input range or output range with the
+--      amounts separated with "to" and allows wrapping if amount {1}
+--      is longer than 3 digits (to avoid end-of-line gap when long).
+--      The range word "x" shows "by" with names or "x" with symbols.
+--
+-- NOTE F3: To handle fractions, the parser function {#titleparts:}
+--      extracts the start of a fraction, as not equal to the whole,
+--      so {convert/numdisp} is called to format the fraction part.
+--
+-- NOTE X2: To handle x10 notation, parser function {#titleparts:}
+--      treats the whole as one number.
+--      
+--------------------------------------------------------------------
+--HISTORY:
+--26Apr2008‎ Created by User:Jimp.
+--17Sep2013 Changed to handle undefined {u} as {n} or plural {l}.
+--17Sep2013 Fixed for -1.0 to show singular unit when null {u}.
+--17Sep2013 Fixed scientific x10 notation by {#ifeq:1|{#expr}|...}.
+--17Sep2013 Improved to wrap before "to" if 1st amount > 4 long.
+--17Sep2013 Improved to wrap 2nd amount if 1st amount > 3 long.
+--17Sep2013 Put NOTES comments to explain template operation.
+--17Sep2013 Put HISTORY comments to log major changes (not typos).
+-->
+{{documentation|content=
+The '''[[Template:Convert/to/AonSoff]]''' formats a range where the 2 amounts are separated with word "to" between the numbers. The range can text-wrap at "to" if the first amount > 4 long, such as a number in scientific x10 notation.
+
+For unit-codes where the unit symbol is undefined (or blank), then the template also checks for literal "{{{u}}}" with leading curly brace "{" and then the unit name (depending on amount singular or plural) will be displayed instead.
+
+[[Category:Subtemplates of Template Convert]]
+}}</noinclude>
