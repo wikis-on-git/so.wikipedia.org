@@ -43,23 +43,23 @@
                  | lon_dir  = {{#if:{{{range_lat_d|}}}|{{{range_long_EW|}}}|{{{long_EW|}}} }} }}
             </div>}} }}
 
-| header4  = {{#if:{{{highest|}}}{{{lat_d|}}}{{{long_d|}}}{{{elevation|}}}{{{elevation_m|}}}{{{elevation_ft|}}}{{{prominence|}}}{{{prominence_m|}}}{{{prominence_ft|}}}{{{isolation|}}}{{{isolation_mi|}}}{{{isolation_km|}}}{{{parent_peak|}}}{{{isolation_parent|}}}{{{listing|}}}{{{coordinates|}}}{{{coords|}}}|Highest point}}
+| header4  = {{#if:{{{highest|}}}{{{lat_d|}}}{{{long_d|}}}{{{elevation|}}}{{{elevation_m|}}}{{{elevation_ft|}}}{{{prominence|}}}{{{prominence_m|}}}{{{prominence_ft|}}}{{{isolation|}}}{{{isolation_mi|}}}{{{isolation_km|}}}{{{parent_peak|}}}{{{isolation_parent|}}}{{{listing|}}}{{{coordinates|}}}{{{coords|}}}|Meesha ugu sareeysa}}
 
-| label5   = Peak
+| label5   = Halka ugu sareysa
 | data5    = {{#ifexist:{{{highest|}}}|[[{{{highest|}}}]]|{{{highest|}}} }} {{#if:{{{highest_location|}}}|&#32;({{{highest_location|}}}) }}
 
-| label6   = [[Summit (topography)|Elevation]]
+| label6   = [[Joog]]a
 | data6    = {{#if:{{{elevation|}}} | {{{elevation|}}}
              | {{#if:{{{elevation_m|}}}{{{elevation_ft|}}}|{{convinfobox|{{{elevation_m|}}}|m|{{{elevation_ft|}}}|ft}}|{{convert|input=P2044}} }}}}<!--
              -->{{#if:{{{elevation_note|}}}{{{elevation_ref|}}} | &thinsp;{{ifempty|{{{elevation_note|}}}|{{{elevation_ref|}}} }} }}<!--
              -->{{#if:{{{elevation_system|}}}|&#32;<span style="font-size:80%;">{{#ifexist:{{{elevation_system}}}|[[{{{elevation_system}}}]]|{{{elevation_system}}} }}</span>}}
 
-| label7   = [[Topographic prominence|Prominence]]
+| label7   = Baaxada
 | data7    = {{#if:{{{prominence|}}}|{{{prominence|}}}
              |{{#if:{{{prominence_m|}}}{{{prominence_ft|}}}|{{convinfobox|{{{prominence_m|}}}|m|{{{prominence_ft|}}}|ft}}|{{convert|input=P2660}} }}}}<!--
              -->{{#if:{{{prominence_ref|}}}|&thinsp;{{{prominence_ref}}} }}
 
-| label8   = [[Topographic isolation|Isolation]]
+| label8   = Kala sooca
 | data8    = {{#if:{{{isolation|}}}|{{{isolation|}}}
              |{{#if:{{{isolation_km|}}}{{{isolation_mi|}}}|{{convinfobox|{{{isolation_km|}}}|km|{{{isolation_mi|}}}|mi}}|{{convert|input=P2659}} }}}}<!--
              -->{{#if:{{{isolation_parent|}}}|<br/>to {{{isolation_parent}}} }}<!--
@@ -72,7 +72,7 @@
 | label10   = [[List of mountain lists|Listing]]
 | data10    = {{{listing|}}}
 
-| label11   = [[Geographic coordinate system|Coordinates]]
+| label11   = [[Isuduwaha Waqtiga Caalamiga|isuduwe]]
 | data11    = {{#if:{{{lat_d|}}}{{{long_d|}}}
              | {{Infobox coord
                | lat_d   = {{{lat_d|}}}
@@ -104,21 +104,21 @@
 
 | header15  = {{#if:{{{length|}}}{{{length_km|}}}{{{length_mi|}}}{{{width|}}}{{{width_km|}}}{{{width_mi|}}}{{{area|}}}{{{area_km2|}}}{{{area_mi2|}}}|Dimensions}}
 
-| label16   = Length
+| label16   = Dhererka
 | data16    = {{#if:{{{length|}}}|{{{length}}}|{{#if:{{{length_km|}}}{{{length_mi|}}}|<!--
              -->{{convinfobox|{{{length_km|}}}|km|{{{length_mi|}}}|mi}} }} }}<!--
              -->{{#if:{{{length_km|}}}{{{length_mi|}}}{{{length|}}}|<!--
                  -->{{#if:{{{length_orientation|}}}|&#32;{{{length_orientation}}} }}<!--
                  -->{{#if:{{{length_note|}}}|&thinsp;{{{length_note}}} }} }}
 
-| label17   = Width
+| label17   = Balaca
 | data17    = {{#if:{{{width|}}}|{{{width}}}|{{#if:{{{width_km|}}}{{{width_mi|}}}|<!--
              -->{{convinfobox|{{{width_km|}}}|km|{{{width_mi|}}}|mi}} }} }}<!--
              -->{{#if:{{{width_km|}}}{{{width_mi|}}}{{{width|}}}<!--
                  -->|{{#if:{{{width_orientation|}}}|&#32;{{{width_orientation}}} }}<!--
                  -->{{#if:{{{width_note|}}}|&thinsp;{{{width_note}}} }} }}
 
-| label18   = Area
+| label18   = Baaxada
 | data18    = {{#if:{{{area|}}}|{{{area}}}|{{#if:{{{area_km2|}}}{{{area_mi2|}}}|<!--
              -->{{convinfobox|{{{area_km2|}}}|km2|{{{area_mi2|}}}|mi2}} }} }}<!--
              -->{{#if:{{{area_km2|}}}{{{area_mi2|}}}{{{area|}}}|<!--
@@ -183,15 +183,15 @@
             </div>}}}}
                  
 | class32 = label
-| label32 = Location
+| label32 = Meesha
 | data32 = {{#if:{{{map_caption|}}}|{{{location|}}}|{{#if:{{{photo|}}}|{{#if:{{{map|}}}||{{{location|}}} }}|{{{location|}}} }} }}
 
 | class34  = label
-| label34  = {{#if:{{{country_type|}}}|{{{country_type}}}|{{#if:{{{country1|}}}|Countries|Country}} }}
+| label34  = {{#if:{{{country_type|}}}|{{{country_type}}}|{{#if:{{{country1|}}}|Countries|Wadanka}} }}
 | data34   = {{#if:{{{country4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{country|}}}|2={{{country1|}}}|3={{{country2|}}}|4={{{country3|}}}|5={{{country4|}}}|6={{{country5|}}}|7={{{country6|}}}|8={{{country7|}}}|9={{{country8|}}}|10={{{country9|}}}|11={{{country10|}}}|12={{{country11|}}}|13={{{country12|}}}|14={{{country13|}}}|15={{{country14|}}}|16={{{country15|}}}|17={{{country16|}}}|18={{{country17|}}}|19={{{country18|}}} }}|{{enum|{{{country|}}}|{{{country1|}}}|{{{country2|}}}|{{{country3|}}} }} }}
 
 | class35  = label
-| label35  = {{#if:{{{state_type|}}}|{{{state_type}}}|{{#if:{{{state1|}}}|States|State}}}}
+| label35  = {{#if:{{{state_type|}}}|{{{state_type}}}|{{#if:{{{state1|}}}|States|Gobolka}}}}
 | data35  = {{#if:{{{state4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{state|}}}|2={{{state1|}}}|3={{{state2|}}}|4={{{state3|}}}|5={{{state4|}}}|6={{{state5|}}}|7={{{state6|}}}|8={{{state7|}}}|9={{{state8|}}}|10={{{state9|}}}|11={{{state10|}}}|12={{{state11|}}}|13={{{state12|}}}|14={{{state13|}}}|15={{{state14|}}}|16={{{state15|}}}|17={{{state16|}}}|18={{{state17|}}}|19={{{state18|}}} }}|{{enum|{{{state|}}}|{{{state1|}}}|{{{state2|}}}|{{{state3|}}} }} }}
 
 | class36  = label
@@ -199,7 +199,7 @@
              | {{{region_type}}}
              | {{#if:{{{state|}}}
                | {{#if:{{{region1|}}}|Regions|Region}}
-               | {{#if:{{{region1|}}}|States/Provinces|State/Province}} }} }}
+               | {{#if:{{{region1|}}}|States/Provinces|Degmo}} }} }}
 | data36 = {{#if:{{{region4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{region|}}}|2={{{region1|}}}|3={{{region2|}}}|4={{{region3|}}}|5={{{region4|}}}|6={{{region5|}}}|7={{{region6|}}}|8={{{region7|}}}|9={{{region8|}}}|10={{{region9|}}}|11={{{region10|}}}|12={{{region11|}}}|13={{{region12|}}}|14={{{region13|}}}|15={{{region14|}}}|16={{{region15|}}}|17={{{region16|}}}|18={{{region17|}}}|19={{{region18|}}}|20={{{region19|}}}|21={{{region20|}}}|22={{{region21|}}}|23={{{region22|}}}|24={{{region23|}}} }}|{{enum|{{{region|}}}|{{{region1|}}}|{{{region2|}}}|{{{region3|}}} }} }}
 
 | class37  = label
