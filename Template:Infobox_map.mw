@@ -1,0 +1,66 @@
+<includeonly>{{#ifeq:{{{map|}}}||{{error|Error: no map specified when using {{tl|Infobox map}}}}}}
+{{#if:{{#ifexist:Module:Location map/data/{{{map|}}}|1|{{#ifexist:Template:Location map {{{map|}}}|1}}}}
+| {{location map
+  | {{{map}}}
+  | relief = {{{relief|}}}
+  | overlay_image = {{{overlay|}}}
+  | width = {{{map_width|}}}
+  | default_width = {{#if:{{{default_width|}}}|{{{default_width}}}|220}}
+  | caption = <!-- no value assigned but it must be specified, see {{location map}} -->
+  | alt = {{{map_alt|}}}
+  | float = center
+  | label = {{{label|}}}
+  | background = {{{background|}}}
+  | position = {{lc:{{{label_position|}}} }}
+  | mark = {{#if:{{{mark|}}}|{{{mark}}}|Red pog.svg}}
+  | marksize = {{#if:{{{mark_width|}}}|{{{mark_width}}}|8}}
+  | link = {{{mark_link|}}}
+  | coordinates = {{{coordinates|}}}
+  | lat = {{{lat|}}}
+  | lat_deg = {{{lat_deg|}}}
+  | lat_min = {{{lat_min|}}}
+  | lat_sec = {{{lat_sec|}}}
+  | lat_dir = {{{lat_dir|}}}
+  | long = {{{long|}}}
+  | lon_deg = {{{lon_deg|}}}
+  | lon_min = {{{lon_min|}}}
+  | lon_sec = {{{lon_sec|}}}
+  | lon_dir = {{{lon_dir|}}}
+  }}
+| {{#if:{{{pixel_x|}}}{{{pixel_y|}}}
+  | {{center | {{superimpose
+    | base = {{{map|}}}
+    | base_width = {{#if:{{{map_width|}}}|{{{map_width}}}|{{#if:{{{default_width|}}}|{{{default_width}}}|220}}}}px
+    | base_alt = {{#if:{{{map_alt|}}}|{{{map_alt}}}|{{{map|}}}}}
+    | float = {{#if:{{{mark|}}}|{{{mark}}}|Red pog.svg}}
+    | float_width = {{#if:{{{mark_width|}}}|{{{mark_width}}}|8}}px
+    | x = {{{pixel_x|}}}
+    | y = {{{pixel_y|}}}
+    }} }}
+  | {{location mark+
+    | image = {{{map|}}}
+    | overlay = {{{overlay|}}}
+    | width = {{#if:{{{map_width|}}}|{{{map_width}}}|{{#if:{{{default_width|}}}|{{{default_width}}}|220}}}}
+    | caption = 
+    | alt = {{{map_alt|}}}
+    | float = center
+    | type = <!-- default is not a thumb & no border -->
+    | marks = {{location mark~
+      | width = {{#if:{{{map_width|}}}|{{{map_width}}}|{{#if:{{{default_width|}}}|{{{default_width}}}|220}}}}
+      | label = {{{label|}}}
+      | position = {{lc:{{{label_position|}}} }}
+      | font_size = 
+      | background = {{{background|}}}
+      | mark = {{#if:{{{mark|}}}|{{{mark}}}|Red pog.svg}}
+      | mark_width = {{#if:{{{mark_width|}}}|{{{mark_width}}}|8}}
+      | mark_alt = {{{mark_alt|}}}
+      | mark_link = {{{mark_link|}}}
+      | x = {{{x|}}}
+      | y = {{{y|}}}
+      | x% = {{{x%|}}}
+      | y% = {{{y%|}}} }}
+    }}
+  }}
+}}{{{map_caption|}}}{{main other|{{#if:{{#ifeq:{{{map|}}}||1}}{{{pixel_x|}}}{{{pixel_y|}}}|[[Category:Pages using Template:Infobox map needing attention]]}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
