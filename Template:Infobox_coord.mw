@@ -1,0 +1,65 @@
+{{#if: {{{lat_d|}}}{{{long_d|}}} |
+    {{#if: {{{lat_s|}}}{{{long_s|}}} |
+      {{coord|{{{lat_d|0}}}|{{{lat_m|0}}}|{{{lat_s|0}}}|{{{lat_NS|N}}}<!--
+        -->|{{{long_d|0}}}|{{{long_m|0}}}|{{{long_s|0}}}|{{{long_EW|E}}}<!--
+        -->|{{#if:{{{type|}}}|type:{{{type|}}}{{#ifeq:{{{type|}}}|city|{{#if:{{{pop|}}}|({{{pop}}})}}}}_}}<!--
+        -->{{#if:{{{region|}}}|region:{{{region|}}}_}}<!--
+        -->{{#if:{{{scale|}}}|scale:{{{scale|}}}_}}<!--
+        -->{{#if:{{{dim|}}}|dim:{{{dim|}}}_}}<!--
+        -->{{#if:{{{source|}}}|source:{{{source|}}}_}}<!--
+        -->{{#if:{{{globe|}}}|globe:{{{globe|}}}_}}<!--
+        -->|format={{#ifeq:{{{format|}}}|dec|dec|dms}}<!--
+        -->|display={{#switch:{{{display|}}}|i|inline=inline|inline,title}}<!--
+        -->|name={{{name|}}}<!--
+        -->|notes={{{notes|}}}}}
+    |<!-- else no sec, might be degrees and minutes -->
+      {{#if: {{{lat_m|}}}{{{long_m|}}} |
+        {{coord|{{{lat_d|0}}}|{{{lat_m|0}}}|{{{lat_NS|N}}}<!--
+          -->|{{{long_d|0}}}|{{{long_m|0}}}|{{{long_EW|E}}}<!--
+          -->|{{#if:{{{type|}}}|type:{{{type|}}}{{#ifeq:{{{type|}}}|city|{{#if:{{{pop|}}}|({{{pop}}})}}}}_}}<!--
+          -->{{#if:{{{region|}}}|region:{{{region|}}}_}}<!--
+          -->{{#if:{{{scale|}}}|scale:{{{scale|}}}_}}<!--
+          -->{{#if:{{{dim|}}}|dim:{{{dim|}}}_}}<!--
+          -->{{#if:{{{source|}}}|source:{{{source|}}}_}}<!--
+          -->{{#if:{{{globe|}}}|globe:{{{globe|}}}_}}<!--
+          -->|format={{#ifeq:{{{format|}}}|dec|dec|dms}}<!--
+          -->|display={{#switch:{{{display|}}}|i|inline=inline|inline,title}}<!--
+          -->|name={{{name|}}}<!--
+          -->|notes={{{notes|}}}}}
+      |<!-- else no min, must be degrees only -->
+        {{#if: {{{lat_NS|}}}{{{long_EW|}}} |
+          {{coord|{{{lat_d|0}}}|{{{lat_NS|N}}}|{{{long_d|0}}}|{{{long_EW|E}}}<!--
+            -->|{{#if:{{{type|}}}|type:{{{type|}}}{{#ifeq:{{{type|}}}|city|{{#if:{{{pop|}}}|({{{pop}}})}}}}_}}<!--
+            -->{{#if:{{{region|}}}|region:{{{region|}}}_}}<!--
+            -->{{#if:{{{scale|}}}|scale:{{{scale|}}}_}}<!--
+            -->{{#if:{{{dim|}}}|dim:{{{dim|}}}_}}<!--
+            -->{{#if:{{{source|}}}|source:{{{source|}}}_}}<!--
+            -->{{#if:{{{globe|}}}|globe:{{{globe|}}}_}}<!--
+            -->|format={{#ifeq:{{{format|}}}|dec|dec|dms}}<!--
+            -->|display={{#switch:{{{display|}}}|i|inline=inline|inline,title}}<!--
+            -->|name={{{name|}}}<!--
+            -->|notes={{{notes|}}}}}
+        |<!--else no NSEW -->
+          {{coord<!--
+            -->|{{#expr:abs{{{lat_d|0}}}}}|{{#ifexpr:{{{lat_d|0}}}<0|S|N}}<!--
+            -->|{{#expr:abs{{{long_d|0}}}}}|{{#ifexpr:{{{long_d|0}}}<0|W|E}}<!--
+            -->|{{#if:{{{type|}}}|type:{{{type|}}}{{#ifeq:{{{type|}}}|city|{{#if:{{{pop|}}}|({{{pop}}})}}}}_}}<!--
+            -->{{#if:{{{region|}}}|region:{{{region|}}}_}}<!--
+            -->{{#if:{{{scale|}}}|scale:{{{scale|}}}_}}<!--
+            -->{{#if:{{{dim|}}}|dim:{{{dim|}}}_}}<!--
+            -->{{#if:{{{source|}}}|source:{{{source|}}}_}}<!--
+            -->{{#if:{{{globe|}}}|globe:{{{globe|}}}_}}<!--
+            -->|format={{#ifeq:{{{format|}}}|dec|dec|dms}}<!--
+            -->|display={{#switch:{{{display|}}}|i|inline=inline|inline,title}}<!--
+            -->|name={{{name|}}}<!--
+            -->|notes={{{notes|}}}}}
+        }}<!-- end NSEW -->
+      }}<!-- end minutes -->
+    }}<!-- end seconds -->
+}}<!-- end degrees --><noinclude>
+{{Documentation}}
+<!--
+   PLEASE ADD CATEGORIES AND INTERWIKIS
+   TO THE /doc SUBPAGE, THANKS
+-->
+</noinclude>
