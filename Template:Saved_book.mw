@@ -38,18 +38,18 @@
 <td class=nowrap;><span style="font-size:larger"><span class="plainlinks" title="Fur buugan adigoo isticmaalay waxkuqorka Wikipedia's book.">[{{fullurl:Special:Book|bookcmd=load_collection&amp;colltitle={{FULLPAGENAMEE}}}} Samee&nbsp;Buug]</span>{{·}}<span class="plainlinks" title="Qoraal ku samee buugan adigoo isticmaalaya qalabka waxqorista Wikipedia.">[{{fullurl:{{FULLPAGENAMEE}}|action=edit}} Wikitext]</span></td>
 </tr>
 <tr style="text-align:center;vertical-align:middle;">
-<td class=nowrap;>''Soo dajiso:''</td>
+<td class=nowrap;>''Soo degso:''</td>
 <td class=nowrap; colspan=1;><span style="font-size:larger">
 <span class="plainlinks" title="Dejiso fayl PDF ah, u habee nidaamka warqada A4 (8.3 × 11.7 in, 210 × 297 mm).">[{{fullurl:Special:Book|bookcmd=render_collection&amp;colltitle={{FULLPAGENAMEE}}&amp;writer=rdf2latex&amp;papersize=a4}} PDF&nbsp;(A4)]</span>{{·}}<!--
 --><span class="plainlinks" title="Download a PDF version of this book, optimized for Letter paper (8.5 × 11 in, 216 × 279 mm).">[{{fullurl:Special:Book|bookcmd=render_collection&amp;colltitle={{FULLPAGENAMEE}}&amp;writer=rdf2latex&amp;papersize=letter}} PDF&nbsp;(Letter)]</span>
 </span></td>
 </tr>
 <tr style="text-align:center;vertical-align:middle;">
-<td class=nowrap;>''Order a printed copy from these publishers:''</td>
+<td class=nowrap;>''Dalbo nuqul daabacan ka daabacayaashada kuwan:''</td>
 <td class=nowrap;><span style="font-size:larger"><span class="plainlinks" title="Preview this book with PediaPress, choose a cover image, pick a color for the cover, and more. The printed book is a softcover in A5 format (8.3 × 5.8 in, 210 × 148 mm), with professional-quality layout and printing.">[{{fullurl:Special:Book|bookcmd=order_collection&amp;colltitle={{FULLPAGENAMEE}}&amp;partner=pediapress}} PediaPress]</span></td>
 </tr>
 <tr style="tvertical-align:bottom;">
-<td style="text-align:center;" colspan=2;><small>[&nbsp;[[Help:Books/Printed books|About]]&nbsp;] [&nbsp;[[Help:Books/for experts|Advanced]]&nbsp;] [&nbsp;[[Help:Books/FAQ|FAQ]]&nbsp;] [&nbsp;[[Help:Books/Feedback|Feedback]]&nbsp;] [&nbsp;[[Help:Books|Help]]&nbsp;] [&nbsp;[[Wikipedia:WikiProject Wikipedia-Books|WikiProject]]&nbsp;] [&nbsp;<span class="plainlinks" title="See the recent edits made to the articles of this book.">[{{fullurl:Special:RecentChangesLinked/{{FULLPAGENAMEE}}|&days=30&namespace=0&tagfilter=&hideminor=&hidebots Recent Changes}}]&nbsp;]</span></small>
+<td style="text-align:center;" colspan=2;><small>[&nbsp;[[Caawinaad:Buugaag/Buugaag daabacan|Ku saabsan]]&nbsp;] [&nbsp;[[Caawinaad:Buugaag/Khubarada|La talin]]&nbsp;] [&nbsp;[[Caawinaad:Buugaag/Su'aalo|FAQ]]&nbsp;] [&nbsp;[[Caawinaad:Buugaag/Jawaab-Celin|Jawaab-Celin]]&nbsp;] [&nbsp;[[Caawinaad:Buugaag|Caawinaad]]&nbsp;] [&nbsp;[[Wikipedia:MashruucWiki Wikipedia-Buugaag|MashruucWiki]]&nbsp;] [&nbsp;<span class="plainlinks" title="See the recent edits made to the articles of this book.">[{{fullurl:Special:RecentChangesLinked/{{FULLPAGENAMEE}}|&days=30&namespace=0&tagfilter=&hideminor=&hidebots Isbedelkii ugu dambeeyay}}]&nbsp;]</span></small>
 </td>
 </tr>
 </table>
@@ -57,7 +57,7 @@
    |{{mbox
      |text={{#if:{{{description|}}}
             |{{{description|}}}<p>
-           }}As edited by {{#switch:{{NAMESPACE}}
+           }}Wuu ku tifaftiray {{#switch:{{NAMESPACE}}
                            |{{ns:108}}=wikipedians
                            |{{ns:2}}={{{editor|[[User:{{#titleparts:{{PAGENAME}}|1}}]]}}}
                           }}
@@ -65,7 +65,7 @@
 }}{{#if:{{{wildbot|}}}
     |{{mbox
      |type=content
-     |text=[[User:WildBot|WildBot]] has found potential problems with this book. Please check the '''[[{{NAMESPACE}} talk:{{PAGENAME}}|talk page]]''' for a detailed explanation of what these might be and how to fix them. When these are resolved, you can remove {{para|wildbot|yes}} from this template.
+     |text=[[User:WildBot|WildBot]] waxaa laga helay qaladaad ku jiri kra buugaan. Fadlan hubi '''[[{{NAMESPACE}} talk:{{PAGENAME}}|wadahadal]]''' si aad faahfaahin uga hesho ee laga yaabo qaladaadka in uu ahaado qaladkaas iyo sida loo hagaajin karo. Haddii la xalliyo qaladka, waad ka tirtiri kartaa {{para|wildbot|yes}} tusmadaan.
     |
    }}
 }}{{#if:{{{bug|}}}
@@ -83,11 +83,11 @@
    |{{ns:108}}=<!--
 -->{{#if:{{{cover-image|}}}
     |
-    |[[Category:Wikipedia books (books without cover images)]]
+    |[[Category:Wikipedia buugaag (buugaag aan lahayn garbad sawiran)]]
    }}<!--
 -->{{#if:{{{cover-color|}}}
     |
-    |[[Category:Wikipedia books (books without custom colors)]]
+    |[[Category:Wikipedia buugaag (buugaag aan lahayn midab qura)]]
    }}<!--
 -->|#default=
 }}</includeonly><noinclude>
