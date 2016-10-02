@@ -16,7 +16,7 @@
 | image2     = {{#if:{{{map|}}} | {{Infobox map
                | map            = {{{map|}}}
                | map_alt        = {{{map_alt|}}}
-               | map_width      = {{least|{{ifempty|{{{map_width|}}}|240}}|275}}
+               | map_width      = {{least|{{ifempty|{{{map_width|}}}|20}}|25}}
                | map_caption    = {{{map_caption|}}}
                | relief         = {{{relief|}}}
                | mark           = {{ifempty|{{{mark|}}}|Red pog.svg}}
