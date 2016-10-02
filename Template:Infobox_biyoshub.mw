@@ -1,0 +1,118 @@
+{{ infobox
+| bodyclass       = vcard
+| child           = {{#if:{{{child|}}}{{{embed|}}}|yes}}
+| aboveclass      = fn org
+| abovestyle      = background-color: #a8bdec
+| above           = {{#if:{{{name|}}}
+                    | {{{name|}}}
+                    | <includeonly>{{PAGENAME}}</includeonly>}}
+
+| subheaderstyle  = font-size: 110%
+| subheader       = {{#if:{{{alt_name|}}}|{{{alt_name|}}}|{{{nativename|}}} }}
+
+| image1          = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{photo|}}}}}}|size={{{image_size|{{{photo_width|}}}}}}|sizedefault=frameless|alt={{{alt|{{{photo_alt|}}}}}}}}
+| caption1        = {{{caption|{{{photo_caption|}}}}}}
+
+| image2     = {{#if:{{{map|}}} | {{Infobox map
+               | map            = {{{map|}}}
+               | map_alt        = {{{map_alt|}}}
+               | map_width      = {{least|{{ifempty|{{{map_width|}}}|240}}|275}}
+               | map_caption    = {{{map_caption|}}}
+               | relief         = {{{relief|}}}
+               | mark           = {{ifempty|{{{mark|}}}|Red pog.svg}}
+               | mark_width     = {{{mark_width|}}}
+               | label          = {{{map_label|}}}
+               | label_position = {{{map_label_position}}}
+               | lat_deg        = {{{lat_d|}}}
+               | lat_min        = {{{lat_m|}}}
+               | lat_sec        = {{{lat_s|}}}
+               | lat_dir        = {{{lat_NS|}}}
+               | lon_deg        = {{{long_d|}}}
+               | lon_min        = {{{long_m|}}}
+               | lon_sec        = {{{long_s|}}}
+               | lon_dir        = {{{long_EW|}}}
+               | x%             = {{{x%|}}}
+               | y%             = {{{y%|}}}
+               | x              = {{{x|}}}
+               | y              = {{{y|}}} }} }}
+
+| label1     = Meesha
+| class1     = label
+| data1      = {{{location|}}}
+
+| label2     = [[British national grid reference system|OS grid]]
+| data2      = {{#if:{{{grid_ref_UK|}}}|{{gbm4ibx|{{{grid_ref_UK|}}}}} }}
+
+| label3     = [[Irish grid reference system|OSI/OSNI grid]]
+| data3      = {{#if:{{{grid_ref_Ireland|}}}|{{iem4ibx|{{{grid_ref_Ireland|}}}}} }}
+
+| label4     = [[Geographic coordinate system|Coordinates]]
+| data4      = {{#if:{{{latd|{{{lat_d|}}}}}}
+               | {{Infobox coord
+                 | lat_d   = {{{lat_d|}}}
+                 | lat_m   = {{{lat_m|}}}
+                 | lat_s   = {{{lat_s|}}}
+                 | lat_NS  = {{{lat_NS|}}}
+                 | long_d  = {{{long_d|}}}
+                 | long_m  = {{{long_m|}}}
+                 | long_s  = {{{long_s|}}}
+                 | long_EW = {{{long_EW|}}}
+                 | type    = {{ifempty|{{{coords_type|}}}|waterbody}}
+                 | region  = {{{region|}}}
+                 | dim     = {{{dim|}}}
+                 | scale   = {{ifempty|{{{scale|}}}|50000}}
+                 | source  = {{{source|}}}
+                 | format  = {{{format|}}}
+                 | display = {{{display|}}}
+                 | name    = <!-- leave undefined -->
+                 }}{{{coords_ref|}}}
+               | {{{coords|}}}{{{coords_ref|}}} }}
+
+| class5     = category
+| label5     = [[Waterfall#Types|Type]]
+| data5      = {{{type|}}}
+
+| rowclass6  = note
+| label6     = Elevation
+| data6      = {{{elevation|}}}
+
+| rowclass7  = note
+| label7     = Total height
+| data7      = {{{height|}}}
+
+| rowclass8  = note
+| label8     = Number of drops
+| data8      = {{{number_drops|}}}
+
+| label9     = Longest drop
+| data9      = {{{height_longest|}}}
+
+| rowclass10 = note
+| label10    = Total width
+| data10     = {{{width|}}}
+
+| label11    = Average width
+| data111    = {{{average_width|}}}
+
+| rowclass12 = note
+| label12    = Watercourse
+| data12     = {{{watercourse|}}}
+
+| rowclass13 = note
+| label13    = Average<br/>flow rate
+| data13     = {{{average_flow|}}}
+
+| label14    = World height ranking
+| data14     = {{{world_rank|}}}
+
+| data15     = {{{embedded|}}}
+}}<noinclude>
+{{#ifeq:{{PAGENAME}}|{{BASEPAGENAME}}/sandbox
+| {{template sandbox notice}}
+| {{documentation}}
+}}
+<!--
+   PLEASE ADD CATEGORIES AND INTERWIKIS
+   TO THE /doc SUBPAGE, THANKS
+-->
+</noinclude>
