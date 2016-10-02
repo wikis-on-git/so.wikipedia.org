@@ -1,6 +1,6 @@
 <table class="ombox noprint" cellpadding="5%">
 <tr>
-<td rowspan=5>{{Pp-book-cover|title={{{title|Title}}}|subtitle={{{subtitle|Subtitle}}}<!--
+<td rowspan=5>{{Pp-book-cover|title={{{title|Cinwaan}}}|subtitle={{{subtitle|Cinwaan labaad}}}<!--
 -->|cover-image={{#if:{{{cover|}}}
                  |{{{cover|}}}
                  |{{#if:{{{cover-image|}}}
@@ -20,16 +20,16 @@
 </td>
 <td colspan=2;><!--
 -->{{#switch:{{NAMESPACE}}
-    |{{ns:2}}|{{ns:3}}=Kani waa '''[[Wikipedia:Book|buuga isticmaalaha]]''' taasi oo ah qoraal iyo isku soo habayn u gaar ah isticmaalaha sameeyay buugan..<br>
+    |{{ns:2}}|{{ns:3}}=Kani waa '''[[Wikipedia:Buugaag|wikipedia buugaag]]''' taasi oo ah qoraal iyo isku soo habayn u gaar ah isticmaalaha sameeyay buugan..<br>
 ----
-[[Category:Wikipedia books (user books)<noinclude>|*</noinclude><includeonly>|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{SUBPAGENAME}}}}</includeonly>]]<includeonly>{{DEFAULTSORT:{{SUBPAGENAME}}}}</includeonly>
+[[Category:Wikipedia buugaag (buugaag isticmaale)<noinclude>|*</noinclude><includeonly>|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{SUBPAGENAME}}}}</includeonly>]]<includeonly>{{DEFAULTSORT:{{SUBPAGENAME}}}}</includeonly>
     |{{ns:108}}|{{ns:109}}<noinclude>|{{ns:10}}</noinclude>=Kani waa '''[[Wikipedia:Book|buuga isticmaalaha]]''' taasi oo ah qoraal iyo isku soo habayn u gaar ah isticmaalaha sameeyay buugan..<br>
 ----
 <includeonly>{{#switch:{{BASEPAGENAME}}
  |Wikipedia Signpost=<!--Nothing-->
- |#default=[[Category:Wikipedia books (community books)|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{PAGENAME}}}}]]
+ |#default=[[Category:Wikipedia buugaag (buugaag bulsho)|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{PAGENAME}}}}]]
 }}</includeonly>
-    |#default=This '''[[Wikipedia:Books|Wikipedia book]]''' is not located in the correct namespace. Please move it to either [[Book:{{SUBPAGENAME}}]] or [[User:Username/Books/{{SUBPAGENAME}}]]. For information and help on Wikipedia books in general, see '''[[Help:Books]]''' (general tips) and '''[[WP:WBOOKS|WikiProject Wikipedia-Books]]''' (questions and assistance).<includeonly>[[Category:Wikipedia books (incorrectly categorized books)|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{BASEPAGENAME}}}}]]</includeonly>
+    |#default=This '''[[Wikipedia:Buugaag|Buugaag Wikipedia]]''' is not located in the correct namespace. Please move it to either [[Book:{{SUBPAGENAME}}]] or [[User:Username/Books/{{SUBPAGENAME}}]]. For information and help on Wikipedia books in general, see '''[[Help:Books]]''' (general tips) and '''[[WP:WBOOKS|WikiProject Wikipedia-Books]]''' (questions and assistance).<includeonly>[[Category:Wikipedia books (incorrectly categorized books)|{{#if:{{{sort_as|}}}|{{{sort_as}}}|{{BASEPAGENAME}}}}]]</includeonly>
 }}
 </td>
 </tr>
@@ -75,8 +75,8 @@
             |{{{bug|}}}
            }}
   }}{{#switch:{{NAMESPACE}}
-     |{{ns:108}}=[[Category:Wikipedia books (community books with bugs)]]
-     |{{ns:2}}=[[Category:Wikipedia books (user books with bugs)]]
+     |{{ns:108}}=[[Category:Wikipedia buugaag (buugaag bulsho qalad leh)]]
+     |{{ns:2}}=[[Category:Wikipedia buugaag (buugaag isticmaale qalad leh)]]
    }}
 }}<includeonly><!--
 -->{{#switch:{{NAMESPACE}}
