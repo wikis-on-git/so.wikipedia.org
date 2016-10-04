@@ -1,77 +1,117 @@
-<includeonly>{|class="infobox" style="width: 24em; text-align: left; font-size: 90%" cellspacing="2"
-|-
-{{#if:{{{name|}}}
-  | {{!}} style="font-size: 110%;" colspan="2"{{!}} <center>'''''{{{name|}}}'''''</center>
-  | {{!}} coslpan="2"{{!}} <center>Please specify name<br>See [[Template:Infobox Unit|documention]] for details</center>
-}}
+<includeonly>{{Infobox
+| bodystyle = background:{{{bgcolor|}}};
+| abovestyle = font-style:italic;
+| above = {{{name|{{SUBPAGENAME}}}}}
+| image = {{{image|}}}
+| caption = {{{caption|}}}
+| headerclass = navbox-abovebelow
 
-|-
-{{#if:{{{image|}}}
-  | {{!}} colspan="2"{{!}} <center>{{{image|}}}</center>
-}}
-|-
-{{#if:{{{caption|}}}
- | {{!}}colspan="2"{{!}} <center><small>{{{caption|}}}</small></center>
-}}
-|-
-{{#if:{{{image|}}}
-  | {{!}} style="background:#ccf;" colspan="2"{{!}} <center>'''Unit information'''</center>
-}}
-|-
-{{#if:{{{standard|}}}
-  | {{!}}'''[[Horgale_(Fiisikis)|Halbeega]]:'''{{!}}{{!}} {{{standard|}}}
-}}
-|-
-{{#if:{{{quantity|}}}
-  | {{!}}'''Cabirka...'''{{!}}{{!}} {{{quantity|}}}
-}}
-|-
-{{#if:{{{symbol|}}}
-  | {{!}}'''Summadda:'''{{!}}{{!}} {{{symbol|}}}
-}}
-|-
-{{#if:{{{namedafter|}}}
-  | {{!}}'''Loogu magac daray:'''{{!}}{{!}} {{{namedafter|}}}
-}}
-|-
-{{#if:{{{extralabel|}}}
-  | {{!}}'''{{{extralabel|}}}'''{{!}}{{!}} {{{extradata|}}}
-}}
-|-
-{{#ifexpr: 
-  ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}}) or 
-  ({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}}) or 
-  ({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}}) or 
-  ({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}}) or 
-  ({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}}) or
-  ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
- | {{!}} style="background:#ccf;" colspan="2"{{!}} <center>'''Halbeega wax roga'''</center>
-{{!}}-
-{{!}}style="font-size: 100%;"{{!}}1 {{{symbol|}}} U... {{!}}{{!}}   dhiganta...
-{{!}}-
-{{#ifexpr: ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units1|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits1|}}}
-}}
-{{!}}-
-{{#ifexpr: ({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units2|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits2|}}}
-}}
-{{!}}-
-{{#ifexpr: ({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units3|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits3|}}}
-}}
-{{!}}-
-{{#ifexpr: ({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units4|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits4|}}}
-}}
-{{!}}-
-{{#ifexpr: ({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units5|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits5|}}}
-}}
-{{!}}-
-{{#ifexpr: ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
-  | {{!}} &nbsp;&nbsp; {{{units6|}}}{{!}}{{!}} &nbsp;&nbsp; {{{inunits6|}}}
-}}
-}}
-|-
-|}</includeonly><noinclude>{{documentation}}</noinclude>
+<!------------------- Unit information -------------------->
+| header1 = {{#if:{{{image|}}} |Unit information}}
+
+| label2  = [[Habka Cabbirraada|Hab halbeeg]]
+|  data2  = {{{standard|}}}
+
+| label3  = Halbeegga&nbsp;ah
+|  data3  = {{{quantity|}}}
+
+| label4  = Astaan
+|  data4  = {{#if:{{{symbol|}}} |{{{symbol}}}&ensp;{{#if:{{{symbol2|}}}|or&ensp;{{{symbol2|}}}&ensp;}} }}
+
+| label5  = Dib loo magacaabay
+|  data5  = {{{namedafter|}}}
+
+| label6  = {{{extralabel|}}}
+|  data6  = {{{extradata|}}}
+
+<!------------------- Unit conversions -------------------->
+| header10 =
+  {{#ifexpr: ({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}})
+          or ({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}})
+          or ({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}})
+          or ({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}})
+          or ({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}})
+          or ({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}})
+   | Unit conversions
+     <tr class="nowrap"><td>''1 {{{symbol|{{lc:{{{name|{{SUBPAGENAME}}}}}}}}}} in ...''</td><td>''... is equal to ...''</td></tr>
+  }}
+
+| label12 = {{nbsp|3}}{{{units1|}}}
+|  data12 = {{#ifexpr:({{#if:{{{units1|}}}|1|0}} and {{#if:{{{inunits1|}}}|1|0}}) |{{nbsp|3}}{{{inunits1|}}} }}
+
+| label13 = {{nbsp|3}}{{{units2|}}}
+|  data13 = {{#ifexpr:({{#if:{{{units2|}}}|1|0}} and {{#if:{{{inunits2|}}}|1|0}}) |{{nbsp|3}}{{{inunits2|}}} }}
+
+| label14 = {{nbsp|3}}{{{units3|}}}
+|  data14 = {{#ifexpr:({{#if:{{{units3|}}}|1|0}} and {{#if:{{{inunits3|}}}|1|0}}) |{{nbsp|3}}{{{inunits3|}}} }}
+
+| label15 = {{nbsp|3}}{{{units4|}}}
+|  data15 = {{#ifexpr:({{#if:{{{units4|}}}|1|0}} and {{#if:{{{inunits4|}}}|1|0}}) |{{nbsp|3}}{{{inunits4|}}} }}
+
+| label16 = {{nbsp|3}}{{{units5|}}}
+|  data16 = {{#ifexpr:({{#if:{{{units5|}}}|1|0}} and {{#if:{{{inunits5|}}}|1|0}}) |{{nbsp|3}}{{{inunits5|}}} }}
+
+| label17 = {{nbsp|3}}{{{units6|}}}
+|  data17 = {{#ifexpr:({{#if:{{{units6|}}}|1|0}} and {{#if:{{{inunits6|}}}|1|0}}) |{{nbsp|3}}{{{inunits6|}}} }}
+
+<!------------- Unit conversions (imperial) --------------->
+| header20 = 
+  {{#ifexpr: ({{#if:{{{units_imp1|}}}|1|0}} and {{#if:{{{inunits_imp1|}}}|1|0}})
+          or ({{#if:{{{units_imp2|}}}|1|0}} and {{#if:{{{inunits_imp2|}}}|1|0}})
+          or ({{#if:{{{units_imp3|}}}|1|0}} and {{#if:{{{inunits_imp3|}}}|1|0}})
+          or ({{#if:{{{units_imp4|}}}|1|0}} and {{#if:{{{inunits_imp4|}}}|1|0}})
+          or ({{#if:{{{units_imp5|}}}|1|0}} and {{#if:{{{inunits_imp5|}}}|1|0}})
+          or ({{#if:{{{units_imp6|}}}|1|0}} and {{#if:{{{inunits_imp6|}}}|1|0}})
+   | Halbeeg u rogaya (imperial)
+     <tr class="nowrap"><td>''1 imp {{{symbol|halbeeg}}} u ...''</td><td>''... dhigma ...''</td></tr>
+  }}
+
+| label22 = {{nbsp|3}}{{{units_imp1|}}}
+|  data22 = {{#ifexpr:({{#if:{{{units_imp1|}}}|1|0}} and {{#if:{{{inunits_imp1|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp1|}}} }}
+
+| label23 = {{nbsp|3}}{{{units_imp2|}}}
+|  data23 = {{#ifexpr:({{#if:{{{units_imp2|}}}|1|0}} and {{#if:{{{inunits_imp2|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp2|}}} }}
+
+| label24 = {{nbsp|3}}{{{units_imp3|}}}
+|  data24 = {{#ifexpr:({{#if:{{{units_imp3|}}}|1|0}} and {{#if:{{{inunits_imp3|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp3|}}} }}
+
+| label25 = {{nbsp|3}}{{{units_imp4|}}}
+|  data25 = {{#ifexpr:({{#if:{{{units_imp4|}}}|1|0}} and {{#if:{{{inunits_imp4|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp4|}}} }}
+
+| label26 = {{nbsp|3}}{{{units_imp5|}}}
+|  data26 = {{#ifexpr:({{#if:{{{units_imp5|}}}|1|0}} and {{#if:{{{inunits_imp5|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp5|}}} }}
+
+| label27 = {{nbsp|3}}{{{units_imp6|}}}
+|  data27 = {{#ifexpr:({{#if:{{{units_imp6|}}}|1|0}} and {{#if:{{{inunits_imp6|}}}|1|0}}) |{{nbsp|3}}{{{inunits_imp6|}}} }}
+
+<!---------------- Unit conversions (US) ------------------>
+| header30 = 
+  {{#ifexpr: ({{#if:{{{units_us1|}}}|1|0}} and {{#if:{{{inunits_us1|}}}|1|0}})
+          or ({{#if:{{{units_us2|}}}|1|0}} and {{#if:{{{inunits_us2|}}}|1|0}})
+          or ({{#if:{{{units_us3|}}}|1|0}} and {{#if:{{{inunits_us3|}}}|1|0}})
+          or ({{#if:{{{units_us4|}}}|1|0}} and {{#if:{{{inunits_us4|}}}|1|0}})
+          or ({{#if:{{{units_us5|}}}|1|0}} and {{#if:{{{inunits_us5|}}}|1|0}})
+          or ({{#if:{{{units_us6|}}}|1|0}} and {{#if:{{{inunits_us6|}}}|1|0}})
+   | Halbeeg loo rogo (US)
+     <tr class="nowrap"><td>''1 US {{{symbol|halbeeg}}} u ...''</td><td>''... dhigma ...''</td></tr>
+  }}
+
+| label32 = {{nbsp|3}}{{{units_us1|}}}
+|  data32 = {{#ifexpr:({{#if:{{{units_us1|}}}|1|0}} and {{#if:{{{inunits_us1|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us1|}}} }}
+
+| label33 = {{nbsp|3}}{{{units_us2|}}}
+|  data33 = {{#ifexpr:({{#if:{{{units_us2|}}}|1|0}} and {{#if:{{{inunits_us2|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us2|}}} }}
+
+| label34 = {{nbsp|3}}{{{units_us3|}}}
+|  data34 = {{#ifexpr:({{#if:{{{units_us3|}}}|1|0}} and {{#if:{{{inunits_us3|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us3|}}} }}
+
+| label35 = {{nbsp|3}}{{{units_us4|}}}
+|  data35 = {{#ifexpr:({{#if:{{{units_us4|}}}|1|0}} and {{#if:{{{inunits_us4|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us4|}}} }}
+
+| label36 = {{nbsp|3}}{{{units_us5|}}}
+|  data36 = {{#ifexpr:({{#if:{{{units_us5|}}}|1|0}} and {{#if:{{{inunits_us5|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us5|}}} }}
+
+| label37 = {{nbsp|3}}{{{units_us6|}}}
+|  data37 = {{#ifexpr:({{#if:{{{units_us6|}}}|1|0}} and {{#if:{{{inunits_us6|}}}|1|0}}) |{{nbsp|3}}{{{inunits_us6|}}} }}
+
+}}</includeonly><noinclude>{{Documentation}}</noinclude>
