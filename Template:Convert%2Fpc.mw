@@ -1,0 +1,13 @@
+{{convert/{{{d}}}|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|s={{{s|}}}|r={{{r}}}
+|u=pc
+|n=parsec
+|o=ly
+|b=30856775814671916
+|j=16.48935055-{{{j|0}}}}}<noinclude>
+{{doc|content=
+== Usage ==
+{{tlx|convert|1.0|pc|m}} →
+{{convert|1.0|pc|m}}
+[[Category:Subtemplates of Template Convert]]
+}}
+</noinclude>
