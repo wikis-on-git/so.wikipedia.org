@@ -2,21 +2,21 @@
 * Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
   --><noinclude>''Magaca Template-ka''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}Dhicis}}</code>&nbsp; <!--
-  -->si loo arko templateka dhicidda (Qarin) Dalka.
+  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}collapsed}}</code>&nbsp; <!--
+  -->si loo arko templateka xaalad (Qarin).
 * Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
   --><noinclude>''Magaca Template-ka''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}balaarin}}</code>&nbsp; <!--
-  -->si balaaran loo arko temlatekaan (muuqaal buuxa) Dalka.
+  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}expanded}}</code>&nbsp; <!--
+  -->si ballaaran loo arko temlatekaan (aragti buuxa).
 * Adeegso <code>{&#123;<!--
   --><includeonly>{{BASEPAGENAME}}</includeonly><!--
   --><noinclude>''Magaca Template-ka''</noinclude> <!--
-  -->|{{#ifeq:{{{statename|}}}|optional | |dalka=}}dhicista iskeed}}</code>&nbsp; <!--
-  -->si loo arko templateka dhicidda (Qarin) dalka '''''kaliya hadii''''' uu jiro template kale oo isku nuuc ah ee bogga ku jira.
+  -->|{{#ifeq:{{{statename|}}}|optional | |state=}}autocollapse}}</code>&nbsp; <!--
+  -->si loo arko templateka xaalad (Qarin) '''''kaliya haddii''''' uu jiro template kale oo isku nuuc ah ee bogga ku jira.
 *   {{#if:{{{state|{{{default|}}}}}}
      | '''{{{state|{{{default}}}}}}''' waxaa loo badalay
-     | Hadii aanuu jirin (eeg ''dalka'' wax rogaha ee template ka), dhicista iskeed ah waa
+     | Haddii aanuu jirin (eeg ''dalka'' wax rogaha ee template ka), xaalad iskeed ah waa
     }} mala awaal dalka.<noinclude>
 
 {{documentation}}
