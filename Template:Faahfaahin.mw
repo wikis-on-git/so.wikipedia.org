@@ -1,22 +1,4 @@
-<includeonly><div class="detail" style="width:50%; border-top:1px solid #ccc; border-bottom:1px solid #ccc;margin-left:8em; margin-bottom:0.5em; padding:2px; background:#F9L9F9; font-size:80%;"><span>[[file:Crystal Clear app kdict.png|25px]] <span>{{#if:{{{content|}}}<!--
--->|{{{content}}}<!--
--->|{{#if:{{{1|}}}<!--
-   -->|{{#if:{{{title|}}}{{{title|}}}<!--
-      -->|'''{{#if:{{{2|}}}|{{{title|{{title|}}}}}}|{{{title|}}} }}'''<!--
-      -->|{{#if:{{{2|}}}|'''Faahfaahin'''|'''Faahfaahin'''}}<!--
-    -->}}&nbsp;:{{#if:{{{points|}}}|
- {{Group Links2|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}{{{10|}}}}}
-|{{Group Links|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}}}
-}}
-<!--
-   -->|<!--Qaladka qoraalka:-->
-<span class="error">Waa qalad habka loo galiyey Telmplate ka
-[[template:Faahfaahin/sharaxaad|(Sharaxaada)]] : Tusaaleha <code>1</code> (hore) waa qasab.</span>
-{{#if:{{NAMESPACE}}||[[Category:template]]}}<!--
-  -->}}<!--
--->}}</span></span></div></includeonly><noinclude>
-
-{{documentation}}
-
-
-</noinclude>
+{{Ombox|type=disambig|image=Disambig RTL.svg|title=Boggaan [[Wikipedia:Faahfaahin|Faahfaahin]]|text=waxa ay ka koobantahay bog faahfaahineed liiska maqaallada cinwaanada iska shaabaha. haddii [[Caawinaad:Link#Linkiyada gudaha|link]] ee maqaal, linki la'an si uu tilmaamo maqaalka munaasabka ah ee liiska.}}<includeonly>
+[[Category:Bogagga faahfaahinta]]__DISAMBIG__
+</includeonly><noinclude>
+{{Documentation}}</noinclude>
