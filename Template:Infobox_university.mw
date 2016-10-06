@@ -9,9 +9,9 @@
 | caption2   = {{{caption|}}}
 
 | data1      = {{#if:{{{latin_name|}}}|{{lang-la|{{{latin_name}}}}}}}
-| label2     = Halku dhigga
+| label2     = Halku dhegga
 | data2      = {{#if:{{{motto|}}}|{{#if:{{{motto_lang|}}}|<span lang="{{{motto_lang}}}">}}{{{motto}}} {{#if:{{{motto_lang|}}}|</span>}} }}
-| label3     = Hal ku dhigga af-shisheeye
+| label3     = Hal ku dhegga af-shisheeye
 | data3      = {{{mottoeng|}}}
 | label4     = {{#if:{{{closed|}}}|Active|La aas aasay}}
 | data4      = {{#if:{{{established|}}}|{{{established}}}{{#if:{{{closed|}}}|–{{{closed}}}}}}}
