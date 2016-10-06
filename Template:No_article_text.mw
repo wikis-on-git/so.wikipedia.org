@@ -57,13 +57,13 @@
 </table></div>
    }}{{ #ifeq: {{NAMESPACE}} | User talk
     | '''No messages''' have been posted for this user yet.
-    | '''Lagama heli karo wikipedia {{ #switch: {{NAMESPACE}}
+    | '''Wikipedia ma heli karto {{ #switch: {{NAMESPACE}}
      | {{ns:0}}        = maqaalkaan
      | {{TALKSPACE}}   =  [[{{ns:Help}}:Using talk pages|wadahadal bog]]
      | {{ns:Category}} =  [[{{ns:Project}}:Categorization|qeyb]]
      | {{ns:Help}}     =  [[{{ns:Help}}:Contents|help]] bog
      | {{ns:Portal}}   =  [[{{ns:Project}}:Portal|portal]]
-     | {{ns:Template}} =  [[{{ns:Project}}:Template messages|tusmo]]
+     | {{ns:Template}} =  [[{{ns:Project}}:Farriimaha tusmooyinka|tusmo]]
      | {{ns:User}}     =  [[{{ns:Project}}:User pages|isticmaale bog]]
      | {{ns:Project}}  =  [[{{ns:Project}}:Project namespace|mashruuc bog]]
      | #default        =  {{NAMESPACE}} page
@@ -73,7 +73,7 @@
       | {{ns:Category}} = Fadlan gal [[Portal:Contents|existing categories]] to check if the category is covered under another name.
       | {{ns:Help}}     = Fadlan gal [[{{ns:Help}}:Contents|existing help pages]] to check if the help topic is covered under another name.
       | {{ns:Portal}}   = Fadlan gal [[{{ns:Portal}}:Contents/Portals|existing portals]] to check for similar topics.
-      | {{ns:Template}} = Fadlan gal [[{{ns:Project}}:Template messages|tusmada jirta]] si aad u hubiso haddii farriinta laga heli karaa magaca kale oo la mid ah.
+      | {{ns:Template}} = Fadlan gal [[{{ns:Project}}:Farriimaha tusmooyinka|tusmada jirta]] si aad u hubiso haddii farriinta laga heli karaa magaca kale oo la mid ah.
       | {{ns:User}}     = Guud ahaan, bogan waxaa samayn kara ama wax ka bedeli kara [[{{ns:User}}:{{PAGENAME}}]]. Ha aanad ku qanacsanayn, fadlan marka hore xaqiiji "{{PAGENAME}}" [{{fullurl:Special:ListUsers|username={{ urlencode: {{PAGENAME}} }}&limit=1}} '''in uu jiro'''].
      }}
      | Before creating this page, please see [[{{ns:Project}}:Subpages]].
@@ -83,30 +83,30 @@
      | editprotected     = This page is protected from creation, so only [[Wikipedia:Administrators|administrators]] can create it.
      | editsemiprotected = This page is semi-protected from creation, so only [[WP:User access levels#Autoconfirmed users|autoconfirmed users]] can create it.
      | templateeditor    = This page is template-protected from creation, so only [[Wikipedia:Template editor|template editors]] can create it.
-     | #default          = [{{fullurl:Special:UserLogin|returnto={{ urlencode: {{FULLPAGENAME}} }}}} Log in or create an account] si aad u biloowdo '''''{{FULLPAGENAME}}''''' {{ #if: {{NAMESPACE}} | page | article }}{{ #switch: {{NAMESPACE}}
-      | {{ns:0}}         =, alternatively use the [[Wikipedia:Article wizard|Article Wizard]], or [[{{ns:Project}}:Requested articles|add a request for it]]
-      | {{ns:Category}}  =, alternatively use the [[Wikipedia:Article wizard/Category|Article Wizard]]
+     | #default          = [{{fullurl:Special:UserLogin|returnto={{ urlencode: {{FULLPAGENAME}} }}}} Log in or create an account] si aad u billoowdo '''''{{FULLPAGENAME}}''''' {{ #if: {{NAMESPACE}} | page | article }}{{ #switch: {{NAMESPACE}}
+      | {{ns:0}}         =, alternatively use the [[Wikipedia:Xallinta samaynta maqaal|Xallinta samaynta maqaal]], ama [[{{ns:Project}}:Requested articles|add a request for it]]
+      | {{ns:Category}}  =, alternatively use the [[Wikipedia:Xallinta samaynta maqaal/Qayb|Xallinta samaynta maqaal]]
      }}.
     }}
     |* '''[{{fullurl:{{FULLPAGENAME}}|action=edit}} {{ #switch: {{NAMESPACE}}
      | User talk = Post a message to ''{{PAGENAME}}''
-     | #default  = biloow {{ #if: {{NAMESPACE}} | bogga | maqaalka }} ''{{FULLPAGENAME}}'' 
+     | #default  = billoow {{ #if: {{NAMESPACE}} | bogga | maqaalka }} ''{{FULLPAGENAME}}'' 
     }}]'''{{ #if: {{NAMESPACE}}
-     || , using the [[Wikipedia:Article wizard|Article Wizard]] if you wish, or [[{{ns:Project}}:Requested articles|add a request for it]]
+     || , using the [[Wikipedia:Xallinta samaynta maqaal|xallinta samaynta maqaal]] haddii aad doonayso, ama [[{{ns:Project}}:Requested articles|aad codsanaysid]]
    }}.
   }}{{ #switch: {{NAMESPACE}}
    | User talk = 
    | #default  = 
-* [[{{ns:Special}}:Search/{{FULLPAGENAME}}|Ka raadi "''{{FULLPAGENAME}}''"]] haddii uu jiro {{ #if: {{NAMESPACE}} | bogagga ku xusan {{NAMESPACE}} | maqaalada }}.
+* [[{{ns:Special}}:Search/{{FULLPAGENAME}}|Ka raadi "''{{FULLPAGENAME}}''"]] haddii uu jiro {{ #if: {{NAMESPACE}} | bogagga ku xusan {{NAMESPACE}} | maqaallada }}.
 * [[{{ns:Special}}:WhatLinksHere/{{FULLPAGENAME}}|Soo eeg bogagga ku jira Wikipedia taasoo xiriir la leh ciwaankaan]].
   }}
 <div id="noarticletext_technical">
 ----
 
-'''Sababaha kale farriintaan loo soo bandhigayo:'''
-* Haddii{{ #ifeq: {{NAMESPACE}} | {{ns:File}} | an image | bogga }} laga sameeyay halkaan goor dambe, lama arki karo weli maxaa yeelay waxaa lala daahay cusboonaysiinta saldhigga; sug xoogaa daqiiqado ah ama isku day [{{fullurl:{{FULLPAGENAME}}|action=purge}} hagaajinta] shaqaysiinta.
-* Ciwaanka Wikipedia waa '''[[Case sensitivity|arrin xassasi ah]]''' marka laga reebo xarafka ugu horreeya; fadlan hubi [[{{ns:Special}}:Search/{{FULLPAGENAME}}|waaweynaynta xarfaha]] iyo adigoo eegaya ku darista [[Wikipedia:Redirect|toosin]] halkaan ciwaan sax ah.
-* Haddii bogga la tirtiray, iska hubi '''[{{fullurl:Special:Log/delete|page={{FULLPAGENAMEE}}}} xuuusta tirtirista]''', ee eeg [[Wikipedia:Why was the page I created deleted?|Maxaa bogga aan sameeyay loo tirtiray?]].
+'''Sababaha kale ee farriintaan loo soo bandhigayo:'''
+* Haddii {{ #ifeq: {{NAMESPACE}} | {{ns:File}} | an image | bogga }} laga sameeyay halkaan goor dambe, lama arki karo weli maxaa yeelay waxaa lala daahay cusboonaysiinta saldhigga; sug xoogaa daqiiqado ah ama isku day [{{fullurl:{{FULLPAGENAME}}|action=purge}} hagaajinta] shaqaysiinta.
+* Ciwaanka Wikipedia waa '''[[Arrin xasaasi ah|arrin xassasi ah]]''' marka laga reebo xarafka ugu horreeya; fadlan hubi [[{{ns:Special}}:Search/{{FULLPAGENAME}}|waaweynaynta xarfaha]] iyo adigoo eegaya ku darista [[Wikipedia:Toosin|toosin]] halkaan ciwaan sax ah.
+* Haddii bogga la tirtiray, iska hubi '''[{{fullurl:Special:Log/delete|page={{FULLPAGENAMEE}}}} xuuusta tirtirista]''', ee eeg [[Wikipedia:Maxaa bogga aan sameeyay loo tirtiray?|Maxaa bogga aan sameeyay loo tirtiray?]].
 </div>
 }}<!--End fmbox-->
 
