@@ -41,9 +41,9 @@
          -->}}
 |label2  = Qaybta
 |data2   = {{{department|}}}
-|label3  = [[Maamuus]]
+|label3  = Maamuus
 |data3   = {{{style|}}}
-|label4  = [[Xarunta|Xarunta]]
+|label4  = Xarunta
 |data4   = {{{residence|}}}
 |label5  = Loo magacaabay
 |data5   = {{{nominator|}}}<!--
@@ -55,7 +55,7 @@
          -->{{#if:{{{appointerpost|}}}
            | <div style="padding-top:0.2em; font-size:80%;">as {{{appointerpost}}}</div>
           }}
-|label7  = [[Muddada xilka]]
+|label7  = Muddada xilka
 |data7   = {{{termlength|}}}
 |label8  = Xilka soo bilaabay
 |data8   = {{{inaugural|}}}
