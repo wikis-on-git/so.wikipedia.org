@@ -12,21 +12,21 @@
 | labelstyle = padding-top:0.2em;line-height:1.2em; padding-right:1.0em<!--(to ensure some gap between (long/unwrapped) labels and subsequent data on same line)-->;
 | datastyle = line-height:1.3em;
 
-| label1   = Highest [[Sports governing body|governing&nbsp;body]]
+| label1   = Ururka maamula
 |  data1   = {{{union|}}}
-| label2   = Nicknames
+| label2   = Naanays
 |  data2   = {{{nicknames|{{{nickname|}}}}}}
-| label3   = {{#if:{{{firstlabel|}}} |{{{firstlabel}}} |First played}}
+| label3   = {{#if:{{{firstlabel|}}} |{{{firstlabel}}} |Markii ugu horeeysay}}
 |  data3   = {{{first|}}}
 | label4   = Registered players
 |  data4   = {{{registered|}}}
 | label5   = Clubs
 |  data5   = {{{clubs|}}}
 
-| header6  = {{#if:{{{contact|}}}{{{team|}}}{{{mgender|}}}{{{category|}}}{{{equipment|}}}{{{ball|}}}{{{venue|}}} |Characteristics}}
+| header6  = {{#if:{{{contact|}}}{{{team|}}}{{{mgender|}}}{{{category|}}}{{{equipment|}}}{{{ball|}}}{{{venue|}}} |Astaamaha}}
 | label7   = Contact
 |  data7   = {{{contact|}}}
-| label8   = Team members
+| label8   = Xubnaha
 |  data8   = {{{team|}}}
 | label9   = Mixed gender
 |  data9   = {{{mgender|}}}
@@ -37,12 +37,12 @@
 | label12  = Venue
 |  data12  = {{{venue|}}}
 
-| header13 = {{#if:{{{olympic|}}}{{{obsolete|}}}{{{region|{{{country/region|}}}}}}{{{paralympic|}}} |Presence}}
-| label14  = Country or&nbsp;region 
+| header13 = {{#if:{{{olympic|}}}{{{obsolete|}}}{{{region|{{{country/region|}}}}}}{{{paralympic|}}} |Warbixin}}
+| label14  = Wadanka 
 |  data14  = {{{region|{{{country/region|}}}}}} 
-| label15  = [[Olympic Games|Olympic]]
+| label15  = Olympik ka tirsan
 |  data15  = {{{olympic|}}}
-| label16  = [[Paralympic Games|Paralympic]]
+| label16  = Tartan kale
 |  data16  = {{{paralympic|}}}
 | label17  = Obsolete
 |  data17  = {{#if:{{{obsolete|}}} |Yes}}
