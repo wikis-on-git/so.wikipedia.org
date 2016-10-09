@@ -1,1 +1,50 @@
-#REDIRECT [[Template:Infobox ciyaaraha]]
+{{Infobox
+| bodyclass = vcard
+
+| titleclass = fn
+| titlestyle = padding-bottom:0.2em;{{{titlestyle|}}}
+| title = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|{{{imagesize|}}}}}} |sizedefault=frameless |alt={{{alt|}}} }}
+| caption = {{{caption|}}}
+
+| headerstyle = {{{headerstyle|background:#eee;}}}
+| labelstyle = padding-top:0.2em;line-height:1.2em; padding-right:1.0em<!--(to ensure some gap between (long/unwrapped) labels and subsequent data on same line)-->;
+| datastyle = line-height:1.3em;
+
+| label1   = Highest [[Sports governing body|governing&nbsp;body]]
+|  data1   = {{{union|}}}
+| label2   = Nicknames
+|  data2   = {{{nicknames|{{{nickname|}}}}}}
+| label3   = {{#if:{{{firstlabel|}}} |{{{firstlabel}}} |First played}}
+|  data3   = {{{first|}}}
+| label4   = Registered players
+|  data4   = {{{registered|}}}
+| label5   = Clubs
+|  data5   = {{{clubs|}}}
+
+| header6  = {{#if:{{{contact|}}}{{{team|}}}{{{mgender|}}}{{{category|}}}{{{equipment|}}}{{{ball|}}}{{{venue|}}} |Characteristics}}
+| label7   = Contact
+|  data7   = {{{contact|}}}
+| label8   = Team members
+|  data8   = {{{team|}}}
+| label9   = Mixed gender
+|  data9   = {{{mgender|}}}
+| label10  = Type
+|  data10  = {{{type|{{{category|}}}}}}
+| label11  = Equipment
+|  data11  = {{#if:{{{equipment|}}} |{{{equipment|}}} |{{{ball|}}} }}
+| label12  = Venue
+|  data12  = {{{venue|}}}
+
+| header13 = {{#if:{{{olympic|}}}{{{obsolete|}}}{{{region|{{{country/region|}}}}}}{{{paralympic|}}} |Presence}}
+| label14  = Country or&nbsp;region 
+|  data14  = {{{region|{{{country/region|}}}}}} 
+| label15  = [[Olympic Games|Olympic]]
+|  data15  = {{{olympic|}}}
+| label16  = [[Paralympic Games|Paralympic]]
+|  data16  = {{{paralympic|}}}
+| label17  = Obsolete
+|  data17  = {{#if:{{{obsolete|}}} |Yes}}
+
+}}
