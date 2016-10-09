@@ -57,7 +57,7 @@
 | data24     = {{#if:{{{head_label|}}}|{{{head|}}}}}
 | label25    = Xonaha hay'adda waxbarashada
 | data25     = {{{academic_staff|}}}{{{faculty|}}}<!-- "faculty" for backwards compatibility -->
-| label26    = Maamulka. Hay'adda wax barashada
+| label26    = Maamulka Hay'adda wax barashada
 | data26     = {{{administrative_staff|}}}{{{staff|}}}<!-- "staff" for backwards compatibility -->
 | label27    = Ardayda
 | data27     = {{{students|}}}
@@ -79,7 +79,7 @@
 | data34     = {{{former_names|}}}
 | label35    = {{{free_label}}}
 | data35     = {{#if:{{{free_label|}}}|{{{free|}}}}}
-| label36    = [[School colors|Colo{{#if:{{{colours|}}}|u}}rs]]
+| label36    = [[Midab|Midab{{#if:{{{colours|}}}|u}}ka]]
 | data36     = {{{colors|}}}{{{colours|}}}
 | label37    = Meelo lagu ciyaaro
 | data37     = {{{athletics|}}}
