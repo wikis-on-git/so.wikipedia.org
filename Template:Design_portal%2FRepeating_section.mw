@@ -3,7 +3,7 @@
 |__from={{{from|}}}
 |__to={{{to|}}}
 |{{#if:{{{Template|}}}|{{{1|}}}|{{{link|}}}/$i}}
-|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|Qaybta soo bandhigista}}} }}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|Qaybta ku darista iyo ka bedelidda}}} }}
 |outrun={{{Outrun|}}}
 |title={{{title|}}} $i
 |__sep={{{sep|}}}
