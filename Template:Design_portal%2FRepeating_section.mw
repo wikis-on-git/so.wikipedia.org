@@ -1,0 +1,12 @@
+<includeonly>{{#invoke:XForLoopDo|main
+|__call={{{Template|Itus haddii uu jiro}}}
+|__from={{{from|}}}
+|__to={{{to|}}}
+|{{#if:{{{Template|}}}|{{{1|}}}|{{{link|}}}/$i}}
+|{{#if:{{{Template|}}}|{{{2|}}}$i|{{{title link|Qaybta soo bandhigista}}} }}
+|outrun={{{Outrun|}}}
+|title={{{title|}}} $i
+|__sep={{{sep|}}}
+}}</includeonly><noinclude>
+[[Category:Tusmooyin dhisme portal]]
+</noinclude>
