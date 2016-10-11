@@ -115,7 +115,6 @@
 |list20style = {{{list20style|}}}
 
 |{{#if:{{{evenodd|}}}|evenodd|void}} = {{{evenodd|}}}
-|{{#if:{{{listpadding|}}}|listpadding|}} = {{{listpadding|}}}
 
 }}<noinclude>
 
