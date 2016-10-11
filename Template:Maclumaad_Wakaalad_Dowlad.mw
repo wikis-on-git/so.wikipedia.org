@@ -47,14 +47,14 @@
  | 6 = {{{superseding6|}}}
  }}
 
-| label7       = Type
+| label7       = Nooca
 | data7        = {{{agency_type|}}}
 | class7       = category
 
-| label8       = Jurisdiction
+| label8       = Hoos-tegta
 | data8        = {{{jurisdiction|}}}
 
-| label9       = Headquarters
+| label9       = Xarunta sare
 | data9        = {{{headquarters|}}}{{#if:{{both|{{{latd|}}}|{{{longd|}}}}}|<br />{{geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if:{{{region_code|}}}|_region:{{{region_code}}}}}}}}}{{#if: {{{coordinates|}}}|<br/>{{{coordinates|}}} }}
 
 | label10      = Motto
@@ -66,7 +66,7 @@
 | label12      = Annual budget
 | data12       = {{{budget|}}}
 
-| label13      = {{#if:{{{minister2_name|}}}|Ministers responsible|Minister responsible}}
+| label13      = {{#if:{{{minister2_name|}}}|Ministers responsible|Wasiirka wakiilka ah}}
 | data13       = {{Unbulleted list|item_style=text-indent: -1em; padding-left: 1em;
  | 1 = {{{minister1_name|}}}{{#if:{{{minister1_pfo|}}}|, {{{minister1_pfo}}}}}
  | 2 = {{{minister2_name|}}}{{#if:{{{minister2_pfo|}}}|, {{{minister2_pfo}}}}}
@@ -101,7 +101,7 @@
  | 9 = {{{chief9_name|}}}{{#if:{{{chief9_position|}}}|, {{{chief9_position}}}}}
  }}
 
-| label16      = Parent department
+| label16      = Ka tirsan
 | data16       = {{{parent_department|}}}
 
 | label17      = Parent {{#if:{{{type|}}}|{{{type}}}|agency}}
