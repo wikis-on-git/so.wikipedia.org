@@ -12,31 +12,31 @@
 | headerstyle    = {{WPMILHIST Infobox style|header_raw}}
 |  labelstyle    = padding-right: 1em;
 
-|  label1  = {{#if:{{{start_date|}}}|{{#if:{{{end_date|}}}|Active|Founded}}|Active}}
+|  label1  = {{#if:{{{start_date|}}}|{{#if:{{{end_date|}}}|Active|La aasaasay}}|Active}}
 |   data1  = {{#if:{{{start_date|}}}|{{#if:{{{end_date|}}}|{{{start_date}}}–{{{end_date}}}|{{{start_date}}}}}|{{{dates|}}}}}
 
-|  label2  = {{#if:{{{country|}}}|Country|Countries}}
+|  label2  = {{#if:{{{country|}}}|Wadanka|Countries}}
 |   data2  = {{#if:{{{country|}}}|{{{country}}}|{{{countries|}}}}}
 
 |  label3  = Allegiance
 |   data3  = {{{allegiance|}}}
 
-|  label4  = Branch
+|  label4  = Qeybta
 |   data4  = {{{branch|}}}
 
 |  label5  = Type
 |   data5  = {{{type|}}}
 
-|  label6  = Role
+|  label6  = u qaabilsan
 |   data6  = {{{role|}}}{{{specialization|}}}
 
 |  label7  = Size
 |   data7  = {{{size|}}}
 
-|  label8  = Part&nbsp;of
+|  label8  = Ka tirsan
 |   data8  = {{{command_structure|}}}
 
-|  label10 = {{#if:{{{garrison_label|}}}|{{{garrison_label|}}}|Garrison/HQ}}
+|  label10 = {{#if:{{{garrison_label|}}}|{{{garrison_label|}}}|Xarumaha}}
 |   data10 = {{{garrison|}}}
 
 |  label11 = Nickname(s)
@@ -45,10 +45,10 @@
 |  label12 = Patron
 |   data12 = {{{patron|}}}
 
-|  label13 = Motto(s)
+|  label13 = Halkudhig
 |   data13 = {{{motto|}}}
 
-|  label14 = {{ifempty|{{{colors_label|}}}|{{{colours_label|}}}|{{#if:{{{colours|}}}|Colours|Colors}}}}
+|  label14 = {{ifempty|{{{colors_label|}}}|{{{colours_label|}}}|{{#if:{{{colours|}}}|Colours|midabka}}}}
 |   data14 = {{#if:{{{colours|}}}|{{{colours|}}}|{{{colors|}}}}}
 
 |  label15 = March
@@ -81,9 +81,9 @@
 |  label24 = Website
 |   data24 = {{{website|}}}
 
-| header25 = {{#if:{{{commander1|}}}{{{commander2|}}}{{{commander3|}}}{{{current_commander|}}}{{{ceremonial_chief|}}}{{{colonel_of_the_regiment|}}}{{{notable_commanders|}}} | Commanders }}
+| header25 = {{#if:{{{commander1|}}}{{{commander2|}}}{{{commander3|}}}{{{current_commander|}}}{{{ceremonial_chief|}}}{{{colonel_of_the_regiment|}}}{{{notable_commanders|}}} | Hogaanka }}
 
-|  label26 = {{#if:{{{commander1_label|}}}|{{{commander1_label|}}}|{{#if:{{{current_commander_label|}}}|{{{current_commander_label|}}}|Current<br>commander}}}}
+|  label26 = {{#if:{{{commander1_label|}}}|{{{commander1_label|}}}|{{#if:{{{current_commander_label|}}}|{{{current_commander_label|}}}|Hogaanka<br>hadda}}}}
 |   data26 = {{#if:{{{commander1|}}}|{{{commander1|}}}|{{{current_commander|}}}}}
 
 |  label27 = {{#if:{{{commander2_label|}}}|{{{commander2_label|}}}|{{#if:{{{ceremonial_chief_label|}}}|{{{ceremonial_chief_label|}}}|Ceremonial&nbsp;chief}}}}
@@ -110,10 +110,10 @@
 |  label34 = {{{commander9_label|Commander}}}
 |   data34 = {{{commander9|}}}
 
-|  label45 = Notable<br>commanders
+|  label45 = Hogaan<br>hore
 |   data45 = {{{notable_commanders|}}}
 
-| header46 = {{#if:{{{identification_symbol|}}}{{{identification_symbol_2|}}} | Insignia }}
+| header46 = {{#if:{{{identification_symbol|}}}{{{identification_symbol_2|}}} | Utaagan }}
 
 | header47 = {{#ifeq: {{{identification_symbol_label|}}} | none | {{{identification_symbol|}}} | }}
 |  label47 = {{#if:{{{identification_symbol_label|}}}|{{{identification_symbol_label|}}}|Identification<br>symbol}}
