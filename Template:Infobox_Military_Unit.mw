@@ -1,0 +1,193 @@
+<includeonly>{{Infobox
+| bodystyle      = {{WPMILHIST Infobox style|main_box_raw}}
+| abovestyle     = {{WPMILHIST Infobox style|header_raw}}
+| subheaderstyle = {{WPMILHIST Infobox style|sub_header_raw}}
+| above          = {{{unit_name|{{PAGENAME}}}}}
+| subheader      = {{{native_name|}}}
+
+|   imagestyle   = {{WPMILHIST Infobox style|image_box_raw}}
+|   image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1|alt={{{alt|}}}}}
+| caption        = {{{caption|}}}
+
+| headerstyle    = {{WPMILHIST Infobox style|header_raw}}
+|  labelstyle    = padding-right: 1em;
+
+|  label1  = {{#if:{{{start_date|}}}|{{#if:{{{end_date|}}}|Active|Founded}}|Active}}
+|   data1  = {{#if:{{{start_date|}}}|{{#if:{{{end_date|}}}|{{{start_date}}}–{{{end_date}}}|{{{start_date}}}}}|{{{dates|}}}}}
+
+|  label2  = {{#if:{{{country|}}}|Country|Countries}}
+|   data2  = {{#if:{{{country|}}}|{{{country}}}|{{{countries|}}}}}
+
+|  label3  = Allegiance
+|   data3  = {{{allegiance|}}}
+
+|  label4  = Branch
+|   data4  = {{{branch|}}}
+
+|  label5  = Type
+|   data5  = {{{type|}}}
+
+|  label6  = Role
+|   data6  = {{{role|}}}{{{specialization|}}}
+
+|  label7  = Size
+|   data7  = {{{size|}}}
+
+|  label8  = Part&nbsp;of
+|   data8  = {{{command_structure|}}}
+
+|  label10 = {{#if:{{{garrison_label|}}}|{{{garrison_label|}}}|Garrison/HQ}}
+|   data10 = {{{garrison|}}}
+
+|  label11 = Nickname(s)
+|   data11 = {{{nickname|}}}
+
+|  label12 = Patron
+|   data12 = {{{patron|}}}
+
+|  label13 = Motto(s)
+|   data13 = {{{motto|}}}
+
+|  label14 = {{ifempty|{{{colors_label|}}}|{{{colours_label|}}}|{{#if:{{{colours|}}}|Colours|Colors}}}}
+|   data14 = {{#if:{{{colours|}}}|{{{colours|}}}|{{{colors|}}}}}
+
+|  label15 = March
+|   data15 = {{{march|}}}
+
+|  label16 = Mascot(s)
+|   data16 = {{{mascot|}}}
+
+|  label17 = Anniversaries
+|   data17 = {{{anniversaries|}}}
+
+|  label18 = {{#if:{{{equipment_label|}}}|{{{equipment_label|}}}|Equipment}}
+|   data18 = {{{equipment|}}}
+
+|  label19 = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Engagements}}
+|   data19 = {{{battles|}}}
+
+|  label20 = Decorations
+|   data20 = {{{decorations|}}}
+
+|  label21 = {{#if:{{{battle_honours_label|}}}|{{{battle_honours_label|}}}|[[Battle honour|Battle&nbsp;honour]]s}}
+|   data21 = {{{battle_honours|}}}
+
+|  label22 = Disbanded
+|   data22 = {{{disbanded|}}}
+
+|  label23 = Flying hours
+|   data23 = {{{flying_hours|}}}
+
+|  label24 = Website
+|   data24 = {{{website|}}}
+
+| header25 = {{#if:{{{commander1|}}}{{{commander2|}}}{{{commander3|}}}{{{current_commander|}}}{{{ceremonial_chief|}}}{{{colonel_of_the_regiment|}}}{{{notable_commanders|}}} | Commanders }}
+
+|  label26 = {{#if:{{{commander1_label|}}}|{{{commander1_label|}}}|{{#if:{{{current_commander_label|}}}|{{{current_commander_label|}}}|Current<br>commander}}}}
+|   data26 = {{#if:{{{commander1|}}}|{{{commander1|}}}|{{{current_commander|}}}}}
+
+|  label27 = {{#if:{{{commander2_label|}}}|{{{commander2_label|}}}|{{#if:{{{ceremonial_chief_label|}}}|{{{ceremonial_chief_label|}}}|Ceremonial&nbsp;chief}}}}
+|   data27 = {{#if:{{{commander2|}}}|{{{commander2|}}}|{{{ceremonial_chief|}}}}}
+
+|  label28 = {{#if:{{{commander3_label|}}}|{{{commander3_label|}}}|{{#if:{{{colonel_of_the_regiment_label|}}}|{{{colonel_of_the_regiment_label|}}}|Colonel&nbsp;of<br>the&nbsp;Regiment}}}}
+|   data28 = {{#if:{{{commander3|}}}|{{{commander3|}}}|{{{colonel_of_the_regiment|}}}}}
+
+|  label29 = {{#if:{{{commander4_label|}}}|{{{commander4_label|}}}|{{#if:{{{command_sergeant_major_label|}}}|{{{command_sergeant_major_label|}}}|Command Sergeant Major}}}}
+|   data29 = {{#if:{{{commander4|}}}|{{{commander4|}}}|{{{command_sergeant_major|}}}}}
+
+|  label30 = {{{commander5_label|Commander}}}
+|   data30 = {{{commander5|}}}
+
+|  label31 = {{{commander6_label|Commander}}}
+|   data31 = {{{commander6|}}}
+
+|  label32 = {{{commander7_label|Commander}}}
+|   data32 = {{{commander7|}}}
+
+|  label33 = {{{commander8_label|Commander}}}
+|   data33 = {{{commander8|}}}
+
+|  label34 = {{{commander9_label|Commander}}}
+|   data34 = {{{commander9|}}}
+
+|  label45 = Notable<br>commanders
+|   data45 = {{{notable_commanders|}}}
+
+| header46 = {{#if:{{{identification_symbol|}}}{{{identification_symbol_2|}}} | Insignia }}
+
+| header47 = {{#ifeq: {{{identification_symbol_label|}}} | none | {{{identification_symbol|}}} | }}
+|  label47 = {{#if:{{{identification_symbol_label|}}}|{{{identification_symbol_label|}}}|Identification<br>symbol}}
+|   data47 = {{#ifeq: {{{identification_symbol_label|}}} | none | | {{{identification_symbol|}}} }}
+
+|  label48 = {{#if:{{{identification_symbol_2_label|}}}|{{{identification_symbol_2_label|}}}|Identification<br>symbol}}
+|   data48 = {{{identification_symbol_2|}}}
+
+|  label49 = {{#if:{{{identification_symbol_3_label|}}}|{{{identification_symbol_3_label|}}}|Identification<br>symbol}}
+|   data49 = {{{identification_symbol_3|}}}
+
+|  label50 = {{#if:{{{identification_symbol_4_label|}}}|{{{identification_symbol_4_label|}}}|Identification<br>symbol}}
+|   data50 = {{{identification_symbol_4|}}}
+
+|  label51 = {{#if:{{{identification_symbol_5_label|}}}|{{{identification_symbol_5_label|}}}|Identification<br>symbol}}
+|   data51 = {{{identification_symbol_5|}}}
+
+|  label52 = {{#if:{{{identification_symbol_6_label|}}}|{{{identification_symbol_6_label|}}}|Identification<br>symbol}}
+|   data52 = {{{identification_symbol_6|}}}
+
+| header53 = {{#if:{{{aircraft_attack|}}}{{{aircraft_bomber|}}}{{{aircraft_electronic|}}}{{{aircraft_fighter|}}}{{{aircraft_interceptor|}}}{{{aircraft_patrol|}}}{{{aircraft_recon|}}}{{{aircraft_trainer|}}}{{{aircraft_transport|}}}{{{aircraft_tanker|}}}{{{aircraft_helicopter|}}}{{{aircraft_helicopter_attack|}}}{{{aircraft_helicopter_cargo|}}}{{{aircraft_helicopter_multirole|}}}{{{aircraft_helicopter_observation|}}}{{{aircraft_helicopter_trainer|}}}{{{aircraft_helicopter_utility|}}}{{{aircraft_general|}}} | Aircraft flown }}
+
+|  label54 = [[Attack aircraft|Attack]]
+|   data54 = {{{aircraft_attack|}}}
+
+|  label55 = [[Bomber]]
+|   data55 = {{{aircraft_bomber|}}}
+
+|  label56 = [[Electronic warfare|Electronic<br>warfare]]
+|   data56 = {{{aircraft_electronic|}}}
+
+|  label57 = [[Fighter aircraft|Fighter]]
+|   data57 = {{{aircraft_fighter|}}}
+
+|  label58 = [[Helicopter]]
+|   data58 = {{{aircraft_helicopter|}}}
+
+|  label59 = [[Attack helicopter]]
+|   data59 = {{{aircraft_helicopter_attack|}}}
+
+|  label60 = [[Cargo helicopter]]
+|   data60 = {{{aircraft_helicopter_cargo|}}}
+
+|  label61 = [[Multirole helicopter]]
+|   data61 = {{{aircraft_helicopter_multirole|}}}
+
+|  label62 = [[Observation helicopter]]
+|   data62 = {{{aircraft_helicopter_observation|}}}
+
+|  label63 = [[Trainer helicopter]]
+|   data63 = {{{aircraft_helicopter_trainer|}}}
+
+|  label64 = [[Utility helicopter]]
+|   data64 = {{{aircraft_helicopter_utility|}}}
+
+|  label65 = [[Interceptor aircraft|Interceptor]]
+|   data65 = {{{aircraft_interceptor|}}}
+
+|  label66 = [[Patrol aircraft|Patrol]]
+|   data66 = {{{aircraft_patrol|}}}
+
+|  label67 = [[Surveillance aircraft|Reconnaissance]]
+|   data67 = {{{aircraft_recon|}}}
+
+|  label68 = [[Trainer (aircraft)|Trainer]]
+|   data68 = {{{aircraft_trainer|}}}
+
+|  label69 = [[Cargo aircraft|Transport]]
+|   data69 = {{{aircraft_transport|}}}
+
+|  label70 = [[Aerial refueling|Tanker]]
+|   data70 = {{{aircraft_tanker|}}}
+
+|   data71 = {{{aircraft_general|}}}
+
+|   data72 = {{{misc|{{{module|}}}}}}
+}}
