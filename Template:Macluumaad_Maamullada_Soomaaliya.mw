@@ -1,0 +1,136 @@
+{| class="infobox geography vcard" style="width: 22em; font-size: 88%"
+|-
+| class="adr" colspan="2" style="text-align: center; line-height:1.2em; font-size: 1.2em; padding: 0.4em 0.8em 0.4em 0.8em;"|'''<span class="fn org region">{{{Name}}}</span>'''<br />'''<span class="nickname">{{{AlternateName}}}</span>'''
+|-
+| class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
+{| style="text-align:center; background: none;"
+| style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
+|-
+| width="130"| <small>Calanka {{{Name}}}|Calan</small> || align="center" width="130" | <small>Astaanta {{{Name}}}|Astaanta</small>
+|}
+|-
+| align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
+|-
+| align=center colspan="2" |  {{#ifeq:{{{Label_map|}}}|yes|{{Somalia provinces map|Map={{{Map}}}|width=250px}}|[[File:{{{Map}}}|alt={{{MapAlt<includeonly>|</includeonly>}}}|Map of Somalia with {{{Name}}} highlighted|250px]]}}
+|- class="mergedtoprow note"
+! Magaala Madax
+| {{{Capital}}}
+{{#if:{{{LargestCity<includeonly>|</includeonly>}}}|
+{{!}}- class="mergedrow"
+! [[Maamulada Soomaaliya|Magaalada ugu weyn]]
+{{!}} {{{LargestCity}}}}}
+|- class="mergedbottomrow"
+! [[Maamulada Soomaaliya|Magaalada ugu dadka badan]]
+| {{{LargestMetro}}}
+|-
+!Luqada
+| {{{OfficialLang}}}
+|- class="mergedtoprow"
+|-
+! Magaca kale
+| {{{Demonym}}}
+|-
+! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
+| 
+|- class="mergedrow"
+| Nuuca
+| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
+|- class="mergedrow"
+| {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
+| <span class="agent">{{{Speaker}}}</span>
+|- class="mergedbottomrow agent"
+|- class="mergedrow"
+| {{{PresidentType}}} {{{Name}}}|{{nowrap|{{{PresidentType}}}}}
+| <span class="agent">{{{President}}}</span>
+|- class="mergedbottomrow agent"
+| Madaxwey ku xigeen {{{Name}}}|Madaxwene ku xigeen
+| {{{Vice President}}} ({{{Vice PresidentParty}}})
+|- class="mergedrow"
+|-
+! Sharci dajinta
+| [[{{{Legislature}}}]]
+|-class="mergedbottomrow"
+|- 
+! Xubnaha Umatala Federaalka
+| ee ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
+|- class="mergedrow"
+| [[Aqalka Hoose]]
+| [[Liiska aqalka hoose ee {{{Name}}} |{{{HouseSeats}}} ee ah tirada 275]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/275 round 1}}</includeonly><noinclude>##</noinclude>%)
+|- class="mergedtoprow"
+| [[Aqalka Sare]]
+| [[Liiska aqalka sare ee {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
+|- class="mergedtoprow"
+|-
+!Konfodareeshin
+| {{{AdmittanceDate}}} ({{{AdmittanceOrder}}})
+|- class="mergedtoprow"
+! Bedka&nbsp;{{#if:{{{area_footnotes|}}}|{{{area_footnotes}}} }}
+|  [[Gobolada Soomaaliya|Heerka {{{AreaRank}}}]]
+|- class="mergedrow"
+| Wadarta
+| {{<noinclude>tlx|</noinclude>convert|{{{TotalArea_km2}}}|km2|sqmi|abbr=on}}
+|- class="mergedrow"
+| Barri
+| {{<noinclude>tlx|</noinclude>convert|{{{LandArea_km2}}}|km2|sqmi|abbr=on}}
+|- class="mergedrow"
+| Biyo (%)
+| {{<noinclude>tlx|</noinclude>convert|{{{WaterArea_km2}}}|km2|sqmi|abbr=on}} (<includeonly>{{#expr:{{{WaterArea_km2}}}*100/{{{TotalArea_km2}}} round 1}}</includeonly><noinclude>##</noinclude>%)
+|- class="mergedbottomrow"
+| Heerka Soomaaliya
+| <includeonly>{{#expr:{{{TotalArea_km2}}}*100/63765 round 1}}</includeonly><noinclude>##</noinclude>% ee 637,65 km<sup>2</sup>
+|- class="mergedtoprow"
+! Tirada Dadkka&nbsp;{{#if:{{{population_footnotes|}}}|{{{population_footnotes}}} }}
+| [[Gobolada Soomaaliya|Heerka {{{PopulationRank}}}]]
+|- class="mergedrow"
+| Wadarta ({{{PopulationYear}}})
+| {{FORMATNUM:{{{Population}}}}} {{{PopulationRef}}}
+|- class="mergedrow"
+| Tira sanadeed ({{{PopulationYear}}})
+| {{<noinclude>tlx|</noinclude>convert|<includeonly>{{#expr:{{{Population}}}/{{{LandArea_km2}}} round 2}}</includeonly><noinclude>##</noinclude>|PD/km2|PD/sqmi|abbr=on}}<!--
+|- class="mergedbottomrow"
+| Berber dhig Soomaaliya
+| <includeonly>{{#expr:{{{Population}}}*100/34657000 round 1}}</includeonly><noinclude>##</noinclude>% ee 34,657,000-->
+|- class="mergedtoprow"
+! [[Kobaca]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
+| [[Dhaqaalaha Soomaaliya|Heerka {{{GDP_rank}}}]]
+|- class="mergedrow"
+| Wadarta ({{{GDP_year}}})
+| {{{GDP_total}}}
+|- class="mergedbottomrow"
+| Qof qof
+| {{{GDP_per_capita}}} ([[Dhaqaalaha Soomaaliya|{{{GDP_per_capita_rank}}}]])
+|- class="mergedtoprow"
+! Kookooban
+| 
+|- class="mergedrow"
+| Furo Posto
+| {{{PostalAbbreviation}}}
+|- class="mergedbottomrow"
+| [[ISO 3166-2:SO|ISO 3166-2]]
+| {{{ISOCode}}}
+|-
+! [[Saacadda Afrikada Bari|Waqtiga]]
+| {{{TimeZone}}}
+|-
+! Furaha Po
+| {{{PostalCodePrefix}}}
+|- class="mergedtoprow"
+! Midab
+| {{{Color}}}
+|- class="mergedrow"
+! Summad
+| {{{Symbol}}}
+|- class="mergedbottomrow"
+! Midab
+| {{{Color}}}
+|-
+! Website
+| [http://{{{Website}}}/ {{{Website}}}]
+|-
+|colspan="2"| <small>Dhamaan heerka [[Gobolada Soomaaliya|Gobolada]]</small>
+|-
+|}<noinclude>
+{{documentation}}
+[[Category:Maamulada Soomaaliya|Gobolada]]
+
+</noinclude>
