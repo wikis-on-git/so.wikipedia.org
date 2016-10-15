@@ -35,7 +35,7 @@
 
 | headerstyle = background-color: #007ba7; color: white
 
-| header1 = {{#if:{{{country|}}}{{{location|}}}{{{coordinates|}}}| Location }}
+| header1 = {{#if:{{{country|}}}{{{location|}}}{{{coordinates|}}}| Meesha ku taalo }}
 
 | label2 = Wadanka
 | class2 = note
@@ -58,7 +58,7 @@
 | class7 =  note
 | data7 = {{{opened|}}}
 
-| label8 = Operated by
+| label8 = Gacanta ku haya
 | data8 = {{{operated|}}}
 
 | label9 = Owned by
@@ -76,7 +76,7 @@
 | label13 = Size
 | data13 = {{{size|}}}
 
-| label14 = Available berths
+| label14 = Qaadi karta
 | data14 = {{{berths|}}}
 
 | label15 = Wharfs
