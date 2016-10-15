@@ -1,0 +1,140 @@
+{{Infobox
+| bodyclass = vcard
+| aboveclass = fn org
+| abovestyle = font-size:125%
+| above = {{{name|<includeonly>{{PAGENAME}}</includeonly>}}}
+
+| image1 = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless}}
+| caption1 = {{{caption|}}}
+
+| image2   = {{#if:{{both| {{{pushpin_map|}}} | {{{latd|}}} }}|
+{{location map|{{{pushpin_map|}}}
+|border = none
+|alt = {{{pushpin_map_alt|}}}
+|caption =
+|float = center
+|width = {{{pushpin_mapsize|}}}
+|default_width = 250
+|relief= {{yesno|{{{pushpin_relief|yes}}}|yes=yes|no=}}
+|AlternativeMap = {{{pushpin_image|}}}
+ |label = {{#ifeq: {{lc: {{{pushpin_label_position|}}} }} | none | | {{ifempty|{{{pushpin_label|}}}|{{{name|}}}|{{PAGENAME}}}} }}
+ |lat = {{#if:{{{latm|}}}{{{latNS|}}}| |{{{latd|}}} }}
+ |long = {{#if:{{{longm|}}}{{{longEW|}}}| |{{{longd|}}} }}
+ |lat_deg={{#if:{{{latm|}}}{{{latNS|}}}|{{{latd|}}} }}
+ |lat_min={{#if:{{{latm|}}}{{{latNS|}}}|{{{latm|}}} }}
+ |lat_sec={{#if:{{{lats|}}}{{{latNS|}}}|{{{lats|}}} }}
+ |lat_dir={{{latNS|}}}
+ |lon_deg={{#if:{{{longm|}}}{{{longEW|}}}|{{{longd|}}} }}
+ |lon_min={{#if:{{{longm|}}}{{{longEW|}}}|{{{longm|}}} }}
+ |lon_sec={{#if:{{{longs|}}}{{{longEW|}}}|{{{longs|}}} }}
+ |lon_dir={{{longEW|}}}
+ |marksize =6
+ |position = {{{pushpin_label_position|}}}
+}}}}
+| caption2 = {{{pushpin_map_caption|}}}
+
+| headerstyle = background-color: #007ba7; color: white
+
+| header1 = {{#if:{{{country|}}}{{{location|}}}{{{coordinates|}}}| Location }}
+
+| label2 = Wadanka
+| class2 = note
+| data2 = {{{country|}}}
+
+| label3 =  Meesha
+| rowclass3 = adr
+| class3 = locality
+| data3 = {{{location|}}}
+
+| label4 = [[Geographic coordinate system|Coordinates]]
+| data4 = {{#if:{{{coordinates|}}}
+  | {{{coordinates|}}}
+  | {{#if:{{{latd|}}}| {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|{{#if:{{{coordinates_display|}}}|title|μ}}}}={{{coordinates_display|}}}|{{#if:{{{coordinates_format|}}}|format|μ2}}={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}} }}
+  }}
+
+| header6 = {{#if:{{{opened|}}}{{{operated|}}}{{{owner|}}}{{{type|}}}{{{sizewater|}}}{{{sizeland|}}}{{{size|}}}{{{berths|}}}{{{wharfs|}}}{{{piers|}}}{{{employees|}}}{{{leadershiptitle|}}}{{{blankdetailstitle1|}}}{{{blankdetailstitle2|}}}{{{blankdetailstitle3|}}}|Details}}
+
+| label7 = Opened
+| class7 =  note
+| data7 = {{{opened|}}}
+
+| label8 = Operated by
+| data8 = {{{operated|}}}
+
+| label9 = Owned by
+| data9 = {{{owner|}}}
+
+| label10 = Type of harbor
+| data10 = {{{type|}}}
+
+| label11 = Size of harbor
+| data11 = {{{sizewater|}}}
+
+| label12 = Land area
+| data12 = {{{sizeland|}}}
+
+| label13 = Size
+| data13 = {{{size|}}}
+
+| label14 = Available berths
+| data14 = {{{berths|}}}
+
+| label15 = Wharfs
+| data15 = {{{wharfs|}}}
+
+| label16 = Piers
+| data16 = {{{piers|}}}
+
+| label17 = Employees
+| data17 = {{{employees|}}}
+
+| label18 = {{{leadershiptitle}}}
+| data18 ={{#if:{{{leadershiptitle|}}}|{{{leader|}}}}}
+
+| label19 = {{{blankdetailstitle1}}}
+| data19 ={{#if:{{{blankdetailstitle1|}}}| {{{blankdetails1|}}}}}
+
+| label20 = {{{blankdetailstitle2}}}
+| data20 ={{#if:{{{blankdetailstitle2|}}}|{{{blankdetails2|}}}}}
+
+| label21 =  {{{blankdetailstitle3}}}
+| data21 ={{#if:{{{blankdetailstitle3|}}}|{{{blankdetails3|}}}}}
+
+| header22 = {{#if:{{{arrivals|}}}{{{cargotonnage|}}}{{{containervolume|}}}{{{cargovalue|}}}{{{passengertraffic|}}}{{{revenue|}}}{{{profit|}}}{{{blankstatstitle1|}}}{{{blankstatstitle2|}}}{{{blankstatstitle3|}}}| Statistics }}
+
+| label23 = Vessel arrivals
+| class23 = note 
+| data23 = {{{arrivals|}}}
+
+| label24 = Annual cargo tonnage
+| data24 = {{{cargotonnage|}}}
+
+| label25 = Annual [[Container (cargo)|container]] volume
+| data25 = {{{containervolume|}}}
+
+| label26 = Value of cargo
+| data26 = {{{cargovalue|}}}
+
+| label27 = Passenger traffic
+| data27 = {{{passengertraffic|}}}
+
+| label28 = Annual revenue
+| data28 = {{{revenue|}}}
+
+| label29 = Net income
+| data29 = {{{profit|}}}
+
+| label30 = {{{blankstatstitle1}}}
+| data30 = {{#if:{{{blankstatstitle1|}}}|{{{blankstats1|}}}}}
+
+| label31 =  {{{blankstatstitle2}}}
+| data31 = {{#if:{{{blankstatstitle2|}}}|{{{blankstats2|}}}}}
+
+| label32 = {{{blankstatstitle3}}}
+| data32 = {{#if:{{{blankstatstitle3|}}}|{{{blankstats3|}}}}}
+
+| data34 = {{#if:{{{website|{{{url|}}}}}}|'''Website'''<br />{{{website|{{{url}}}}}}}}
+
+}}<noinclude>
+{{documentation}}<!-- place category links on the /doc sub-page, not here -->
+</noinclude>
