@@ -19,7 +19,7 @@
 
 | data1        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{picture|}}}}}}|size={{{image_size|{{{picture_width|}}}}}}|sizedefault=frameless}}{{#if: {{{image_caption|{{{picture_caption|}}}}}} | <br/>{{{image_caption|{{{picture_caption}}}}}} }}
 
-| header2      = {{#if: {{{formed|}}}{{{preceding1|}}}{{{dissolved|}}}{{{superseding|}}}{{{jurisdiction|}}}{{{headquarters|}}}{{{motto|}}}{{{employees|}}}{{{budget|}}}{{{minister1_name|}}}{{{chief1_name|}}}{{{parent_agency|}}}{{{child1_agency|}}}{{{keydocument1|}}}{{{website|}}}{{{footnotes|}}}{{{map|}}}{{{map_caption|}}} | {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Agency }} }} Warbixin }}
+| header2      = {{#if: {{{formed|}}}{{{preceding1|}}}{{{dissolved|}}}{{{superseding|}}}{{{jurisdiction|}}}{{{headquarters|}}}{{{motto|}}}{{{employees|}}}{{{budget|}}}{{{minister1_name|}}}{{{chief1_name|}}}{{{parent_agency|}}}{{{child1_agency|}}}{{{keydocument1|}}}{{{website|}}}{{{footnotes|}}}{{{map|}}}{{{map_caption|}}} | {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Warbixin }} }} Wasaarada }}
 
 | label3       = La sameeyay
 | data3        = {{{formed|}}}
