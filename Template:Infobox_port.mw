@@ -46,7 +46,7 @@
 | class3 = locality
 | data3 = {{{location|}}}
 
-| label4 = [[Geographic coordinate system|Coordinates]]
+| label4 = [[Isuduwe_Habka_Juqraafiga|Isuduwaha]]
 | data4 = {{#if:{{{coordinates|}}}
   | {{{coordinates|}}}
   | {{#if:{{{latd|}}}| {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|{{#if:{{{coordinates_display|}}}|title|μ}}}}={{{coordinates_display|}}}|{{#if:{{{coordinates_format|}}}|format|μ2}}={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}} }}
@@ -138,3 +138,5 @@
 }}<noinclude>
 {{documentation}}<!-- place category links on the /doc sub-page, not here -->
 </noinclude>
+[[Category:Macluumaadka Soomaaliya]]
+[[Category:Dekadaha Soomaaliya]]
