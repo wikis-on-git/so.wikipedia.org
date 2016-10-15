@@ -52,9 +52,9 @@
   | {{#if:{{{latd|}}}| {{Geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{#if:{{{coordinates_type|}}}|{{{coordinates_type}}}|type:landmark{{#if:{{{coordinates_region|}}}|_region:{{{coordinates_region}}}}}}}|{{#ifeq:{{{coordinates_display|}}}|inline|μ|{{#if:{{{coordinates_display|}}}|title|μ}}}}={{{coordinates_display|}}}|{{#if:{{{coordinates_format|}}}|format|μ2}}={{{coordinates_format|}}}}}{{{coordinates_footnotes|}}} }}
   }}
 
-| header6 = {{#if:{{{opened|}}}{{{operated|}}}{{{owner|}}}{{{type|}}}{{{sizewater|}}}{{{sizeland|}}}{{{size|}}}{{{berths|}}}{{{wharfs|}}}{{{piers|}}}{{{employees|}}}{{{leadershiptitle|}}}{{{blankdetailstitle1|}}}{{{blankdetailstitle2|}}}{{{blankdetailstitle3|}}}|Details}}
+| header6 = {{#if:{{{opened|}}}{{{operated|}}}{{{owner|}}}{{{type|}}}{{{sizewater|}}}{{{sizeland|}}}{{{size|}}}{{{berths|}}}{{{wharfs|}}}{{{piers|}}}{{{employees|}}}{{{leadershiptitle|}}}{{{blankdetailstitle1|}}}{{{blankdetailstitle2|}}}{{{blankdetailstitle3|}}}|Macluumaad kale}}
 
-| label7 = Opened
+| label7 = La furay
 | class7 =  note
 | data7 = {{{opened|}}}
 
@@ -64,13 +64,13 @@
 | label9 = Owned by
 | data9 = {{{owner|}}}
 
-| label10 = Type of harbor
+| label10 = Nooca dekeda
 | data10 = {{{type|}}}
 
-| label11 = Size of harbor
+| label11 = Baaxada
 | data11 = {{{sizewater|}}}
 
-| label12 = Land area
+| label12 = Muga
 | data12 = {{{sizeland|}}}
 
 | label13 = Size
