@@ -169,3 +169,48 @@ Hello! I'm writing from the Wikimedia Foundation to invite you to give your feed
 
 ''Apologies that this message is only in English. [[meta:Special:MyLanguage/Terms of use/Creative Commons 4.0/MassMessage|This message can be read and translated in more languages here]].'' [[User:JSutherland (WMF)|Joe Sutherland]] ([[User talk:JSutherland (WMF)|talk]]) 01:35, 6 Oktoobar 2016 (UTC)
 <!-- Message sent by User:JSutherland (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:JSutherland_(WMF)/MassMessage/1&oldid=15962252 -->
+
+== Editing News #3—2016 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+''[[:m:Special:MyLanguage/VisualEditor/Newsletter/2016/October|Read this in another language]] • [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="float:right;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center|alt=VisualEditor]]'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+Did you know that you can easily re-arrange columns and rows in the visual editor? [[File:VisualEditor table editing menu.png|alt=Screenshot showing a dropdown menu with options for editing the table structure|center|frameless|232x232px]]  
+
+
+Select a cell in the column or row that you want to move.  Click the arrow at the start of that row or column to open the dropdown menu (shown).  Choose either "Move before" or "Move after" to move the column, or "Move above" or "Move below" to move the row.
+
+You can read and help translate [[:mw:Special:MyLanguage/VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.
+</div></div>
+
+Since the last newsletter, the [[:mw:Special:MyLanguage/VisualEditor|VisualEditor Team]] has mainly worked on a new wikitext editor.  They have also released some small features and the new map editing tool.  Their workboard is available [[phab:project/board/483/|in Phabricator]].  You can find links to the list of work finished each week at [[:mw:VisualEditor/Weekly triage meetings|mw:VisualEditor/Weekly triage meetings]].  Their [[:mw:VisualEditor/Current_priorities|current priorities]] are fixing bugs, releasing the 2017 wikitext editor as a [[mediawikiwiki:Beta_Features|beta feature]], and improving language support.
+
+=== Recent changes ===
+
+*You can now set text as small or big.[https://phabricator.wikimedia.org/T53613] 
+*Invisible templates have been shown as a puzzle icon.  Now, the name of the invisible template is displayed next to the puzzle icon.[https://phabricator.wikimedia.org/T141861]  A similar feature will display the first part of hidden HTML comments.[https://phabricator.wikimedia.org/T147089]
+*Categories are displayed at the bottom of each page.  If you click on the categories, the dialog for editing categories will open.[https://phabricator.wikimedia.org/T145267]
+*At many wikis, you can now add [[mediawikiwiki:Maps|maps]] to pages.  Go to the Insert menu and choose the "Maps" item. The Discovery department is adding more features to this area, like geoshapes. You can read more at mediawiki.org.[https://www.mediawiki.org/wiki/Wikimedia_Discovery#Maps]
+*The "Save" button now says "Save page" when you create a page, and "Save changes" when you change an existing page.[https://phabricator.wikimedia.org/T139033]  In the future, the "{{int:Savearticle}}" button will say "{{int:Publishpage}}".  This will affect both the visual and wikitext editing systems.  More [[:m:Editing/Publish|information is available on Meta]].
+*Image galleries now use a visual mode for editing.  You can see thumbnails of the images, add new files, remove unwanted images, rearrange the images by dragging and dropping, and add captions for each image.  Use the "Options" tab to set the gallery's display mode, image sizes, and add a title for the gallery.[https://phabricator.wikimedia.org/T45037]
+
+=== Future changes ===
+
+The visual editor will be offered to all editors at the remaining 10 [[:mw:VisualEditor/Rollouts|"Phase 6" Wikipedias]] during the next month. The developers want to know whether typing in your language feels natural in the visual editor.  Please post your comments and the language(s) that you tested at [[:mw:Topic:St8y4ni42d0vr9cv|the feedback thread on mediawiki.org]]. This will affect several languages, including [[:w:th:|'''Thai''']], [[:w:my:|'''Burmese''']] and [[:w:arc:|'''Aramaic''']].
+
+The team is working on a modern wikitext editor.  The [[Mw:2017 wikitext editor|2017 wikitext editor]] will look like the visual editor and be able to use the citoid service and other modern tools.  This new editing system may become available as a Beta Feature on desktop devices in October 2016.  You can read about this project in a [[:mw:Special:MyLanguage/VisualEditor/Roadmap/Update_2016-06-23|general status update on the Wikimedia mailing list]]. 
+
+=== Let's work together ===
+
+* Do you teach new editors how to use the visual editor? Did you help [[:mw:Citoid/Enabling Citoid on your wiki|set up the Citoid automatic reference feature for your wiki]]? Have you written or imported [[:mw:Special:MyLanguage/Help:TemplateData|TemplateData]] for your most important citation templates?  <mark>Would you be willing to help new editors and small communities with the visual editor?  Please sign up for the new [[:mw:Help:VisualEditor/Community Taskforce|'''VisualEditor Community Taskforce''']].</mark> 
+ 
+*If you aren't reading this in your preferred language, then please help us with translations! Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. {{int:Feedback-thanks-title}}
+
+—[[:mw:User:Elitre (WMF)|Elitre (WMF)]]
+</div> 17:49, 15 Oktoobar 2016 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=15960088 -->
