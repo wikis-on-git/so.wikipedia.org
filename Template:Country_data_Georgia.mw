@@ -1,0 +1,24 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Georgia (country)
+| shortname alias = Joorjiya (wadan)
+| flag alias = Flag of Georgia.svg
+| flag alias-1990 = Flag of Georgia (1990-2004).svg
+| flag alias-army  = Army Flag of Georgia.svg
+| link alias-army  = Georgian Land Forces
+| flag alias-air force=Flag of the Georgian Air Force.svg
+| link alias-air force=Georgian Air Force
+| flag alias-naval = Naval Ensign of Georgia.svg
+| link alias-naval = {{#ifeq:{{{variant|}}}|coast guard|Coast Guard of Georgia|Georgian Navy}}
+| size = {{{size|}}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = 1990
+| redir1 = GEO
+| redir2 = Georgia (country)
+| redir3 = Georgia
+| related1 = Georgian SSR
+| related2 = Georgia (U.S. state)
+</noinclude>
+}}
