@@ -46,13 +46,13 @@
 | class3 = label
 | data3 = {{{region|}}}
 
-| label4 = Coordinates
+| label4 = Isuduwe
 | data4 = {{#if:{{both|{{{latitude|}}}{{{latd|}}}|{{{longitude|}}}{{{longd|}}}}}
  |{{Geobox coor|{{#if:{{{latitude|}}}|{{{latitude}}}|{{{latd|}}}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{#if:{{{longitude|}}}|{{{longitude}}}|{{{longd|}}}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|{{{coordinates_type|type:landmark{{#if:{{{iso_region|}}}|_region:{{{iso_region}}}}} }}}|{{#if:{{{coordinates_display|}}}|title|μ}}={{{coordinates_display|}}}|format={{{coordinates_format|}}}}}
  |{{{coordinates|}}}
  }}
 
-| label5 = Nuuca
+| label5 = Nooca
 | class5 = category
 | data5 = {{{type|}}}
 
@@ -71,7 +71,7 @@
 | label10 = Joogga
 | data10 = {{{height|}}}
 
-| header11 = {{#if:{{{builder|}}}{{{material|}}}{{{built|}}}{{{abandoned|}}}{{{epochs|}}}{{{cultures|}}}{{{occupants|}}}{{{event|}}}|History}}
+| header11 = {{#if:{{{builder|}}}{{{material|}}}{{{built|}}}{{{abandoned|}}}{{{epochs|}}}{{{cultures|}}}{{{occupants|}}}{{{event|}}}|Taariikh}}
 
 | label12 = Dhisme
 | data12 = {{{builder|}}}
@@ -101,7 +101,7 @@
 | label20 =  Dhacdo
 | data20 = {{{event|}}}
 
-| header21 = {{#if:{{{excavations|}}}{{{archaeologists|}}}{{{condition|}}}{{{ownership|}}}{{{public_access|}}}{{{website|}}}{{{notes|}}}| Site notes }}
+| header21 = {{#if:{{{excavations|}}}{{{archaeologists|}}}{{{condition|}}}{{{ownership|}}}{{{public_access|}}}{{{website|}}}{{{notes|}}}| Websiteka wararka }}
 
 | label22 = Kabxid&nbsp;taariikh
 | data22 = {{{excavations|}}}
