@@ -1,0 +1,18 @@
+{{ {{{1<noinclude>|country showdata</noinclude>}}}
+| alias = Iswisarland
+| flag alias = Flag of Switzerland.svg
+| flag alias-civil = Civil Ensign of Switzerland.svg
+| size = {{#if:{{{size|}}}|{{{size}}}|23x16px}}
+| name = {{{name|}}}
+| altlink = {{{altlink|}}}
+| variant = {{{variant|}}}
+<noinclude>
+| var1 = civil
+| redir1 = CHE
+| redir2 = SUI
+| redir3 = CH
+| redir4 = Switzerland
+| related1 = Helvetic Republic
+| related2 = Old Swiss Confederacy
+</noinclude>
+}}
