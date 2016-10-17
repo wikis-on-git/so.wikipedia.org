@@ -21,7 +21,7 @@
 
 | header2      = {{#if: {{{formed|}}}{{{preceding1|}}}{{{dissolved|}}}{{{superseding|}}}{{{jurisdiction|}}}{{{headquarters|}}}{{{motto|}}}{{{employees|}}}{{{budget|}}}{{{minister1_name|}}}{{{chief1_name|}}}{{{parent_agency|}}}{{{child1_agency|}}}{{{keydocument1|}}}{{{website|}}}{{{footnotes|}}}{{{map|}}}{{{map_caption|}}} | {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Warbixin }} }} Wasaarada }}
 
-| label3       = La sameeyay
+| label3       = La-sameeyay
 | data3        = {{{formed|}}}
 
 | label4       = {{#if:{{{preceding1|}}} | {{#if:{{{preceding2|}}}|Preceding agencies|Preceding {{{type|agency}}} }} }}
@@ -47,20 +47,20 @@
  | 6 = {{{superseding6|}}}
  }}
 
-| label7       = Type
+| label7       = Nooca
 | data7        = {{{agency_type|}}}
 | class7       = category
 
 | label8       = Hoos-tegta
 | data8        = {{{jurisdiction|}}}
 
-| label9       = Xarunta sare
+| label9       = Xarunta</br>sare
 | data9        = {{{headquarters|}}}{{#if:{{both|{{{latd|}}}|{{{longd|}}}}}|<br />{{geobox coor|{{{latd|}}}|{{{latm|}}}|{{{lats|}}}|{{{latNS|}}}|{{{longd|}}}|{{{longm|}}}|{{{longs|}}}|{{{longEW|}}}|type:landmark{{#if:{{{region_code|}}}|_region:{{{region_code}}}}}}}}}{{#if: {{{coordinates|}}}|<br/>{{{coordinates|}}} }}
 
-| label10      = Motto
+| label10      = Halheyska
 | data10       = {{{motto|}}}
 
-| label11      = Employees
+| label11      = Shaqaalaha
 | data11       = {{{employees|}}}
 
 | label12      = Annual budget
@@ -88,7 +88,7 @@
  | 7 = {{{deputyminister7_name|}}}{{#if:{{{deputyminister7_pfo|}}}|, {{{deputyminister7_pfo}}}}}
  }}
 
-| label15      = {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Agency}}}} Fulinta{{#if:{{{chief2_name|}}}|s}}
+| label15      = {{ucfirst: {{#if:{{{type|}}}|{{{type}}}|Waaxda}}}} Fulinta{{#if:{{{chief2_name|}}}|}}
 | data15       = {{Unbulleted list
  | 1 = {{{chief1_name|}}}{{#if:{{{chief1_position|}}}|, {{{chief1_position}}}}}
  | 2 = {{{chief2_name|}}}{{#if:{{{chief2_position|}}}|, {{{chief2_position}}}}}
@@ -104,7 +104,7 @@
 | label16      = Parent department
 | data16       = {{{parent_department|}}}
 
-| label17      = Maamulka {{#if:{{{type|}}}|{{{type}}}|agency}}
+| label17      = Maamulka {{#if:{{{type|}}}|{{{type}}}|}}
 | data17       = {{{parent_agency|}}}
 
 | label18      = {{#if:{{{child2_agency|}}}|Child agencies|Child {{#if:{{{type|}}}|{{{type}}}|agency}}}}
@@ -146,7 +146,7 @@
  | 6 = {{{keydocument6|}}}
  }}
 
-| label20      = Website
+| label20      = Barta
 | data20       = {{{website|}}}
 
 | header21     = {{#if:{{{map|}}}|{{Infobox|child=yes|decat=yes
