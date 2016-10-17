@@ -1,10 +1,10 @@
 <includeonly>__NOEDITSECTION__
-{{documentation|content=<tt>Template:{{PAGENAME}}</tt> is an internal data container not intended to be transcluded directly. It is used indirectly by templates such as <tt>[[Template:flag|flag]]</tt>, <tt>[[Template:flagicon|flagicon]]</tt>, and others.
+{{documentation|content=<tt>Template:{{PAGENAME}}</tt> waa macluumaad dhexe oo xaasxaasi ah taasi oo loogu talogalay in si toos ah loo isticmaali karo. Akhbaartan waxaa si dadban u isticmaalaya macluumaadka (template) ay ka mid yihiin <tt>[[Template:flag|Calan]]</tt>, <tt>[[Template:flagicon|astaanta calanka]]</tt>, iyo kuwo kale oo noocaas ah.
 
-{{ombox|text=This template is within the scope of '''[[Wikipedia:WikiProject Flag Template|WikiProject Flag Template]]''', a collaborative effort to maintain flag templates on Wikipedia.  A more thorough discussion of the flag template system, including parameters not described here, can be found on the project page.}}
+{{ombox|text=Macluumaadka (template) halkan ku jira waxaa qeyb ka tahay '''[[Wikipedia:Template|Mashruuca Macluumaadka Calanka]]''', kaasi oo loogu talo galay inuu habeeyo dhamaan warbixinta ku saabsan dhamaan calamaanta (calanka) ku jira Wikipediaha Af-Soomaaliga.}}
 
 [[File:{{{flag alias|Flag of None.svg}}}|thumb|{{#ifexist: Flag of {{{alias}}} | See also: [[Flag of {{{alias}}}]] | }}]]
-===Standard parameters===
+===Sida loogu talogalay===
 <table class="wikitable">
 <tr><th>Parameter name</th><th>Value</th><th>Meaning</th>
 </tr><tr>
