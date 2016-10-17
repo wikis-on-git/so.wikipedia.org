@@ -1,0 +1,7 @@
+<includeonly>{{#if:{{{df|}}}|[[{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}]]|[[{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}]]}} [[{{{1}}}]]<span style="display:none">(<span class="bday">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span>{{#if:{{NAMESPACE}}
+||{{#if:{{{1|}}}
+|{{#ifeq:{{NAMESPACE}}|{{ns:0}}
+|[[Category:Dadka dhashay {{{1}}}]]{{#ifexpr:{{#expr:{{{3|}}} }}>0|[[Category:Dadka dhashay {{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}} ]]}}
+}} }} }}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
