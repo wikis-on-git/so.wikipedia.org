@@ -1,6 +1,6 @@
 <includeonly>{{#if:{{{2|}}}
  |{{MONTHNAME|{{{2}}}}}&nbsp;
-}}[[{{{1}}}|{{{1}}}]] (Jir&nbsp;{{#if:{{{2|}}}
+}}[[{{{1}}}|{{{1}}}]] (&nbsp;{{#if:{{{2|}}}
  |{{#ifexpr:{{CURRENTMONTH}}<{{{2}}}
   |{{#expr:{{CURRENTYEAR}}-{{{1}}}-1}}
   |{{#ifexpr:{{CURRENTMONTH}}>{{{2}}}
@@ -9,6 +9,6 @@
   }}
  }}
  |{{#expr:{{CURRENTYEAR}}-{{{1}}}-1}}&ndash;{{#expr:{{CURRENTYEAR}}-{{{1}}}}}
-}}){{#if:{{NAMESPACE}}||{{#if:{{{1}}}|[[Category:Dhalasho {{{1}}}]] [[Category:Dadka nool]]}}}}</includeonly><noinclude>
+}}Jir){{#if:{{NAMESPACE}}||{{#if:{{{1}}}|[[Category:Dhalasho {{{1}}}]] [[Category:Dadka nool]]}}}}</includeonly><noinclude>
 {{Documentation}}
 </noinclude>
