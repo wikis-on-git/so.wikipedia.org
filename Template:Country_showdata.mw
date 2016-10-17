@@ -6,11 +6,11 @@
 [[File:{{{flag alias|Flag of None.svg}}}|thumb|{{#ifexist: Flag of {{{alias}}} | See also: [[Flag of {{{alias}}}]] | }}]]
 ===Sida loogu talogalay===
 <table class="wikitable">
-<tr><th>Parameter name</th><th>Value</th><th>Meaning</th>
+<tr><th>Nooca</th><th>Magaca</th><th>Micnaha</th>
 </tr><tr>
 <td><tt>alias</tt></td>
-<td>{{#if: {{{alias|}}} | <tt>{{{alias}}}</tt> | <span style="color:red">'''undefined!'''</span> }}
-<td>Main article name ([[{{{alias}}}]])</td>
+<td>{{#if: {{{alias|}}} | <tt>{{{alias}}}</tt> | <span style="color:red">'''lama sharaxin!'''</span> }}
+<td>Maqaalka ugu muhiimsan ([[{{{alias}}}]])</td>
 </tr>
 {{#if: {{{shortname alias|}}} |
 <tr>
@@ -22,13 +22,13 @@
 <tr>
 <td><tt>flag alias</tt></td>
 <td>{{#if: {{{flag alias|}}} | <tt>{{{flag alias}}}</tt> | <span style="color:red">'''undefined!'''</span> }}</td>
-<td>Image name ([[:File:{{{flag alias}}}]], shown above right)</td>
+<td>Magaca sawirka maqaalka ([[:File:{{{flag alias}}}]], kor ku sawiran)</td>
 </tr></table>
 {{#if: {{{var1|{{{flag alias-naval|}}}}}} |
-===Flag variants===
+===Noocyada calanka===
 {{#ifexist: Flag of {{{alias}}} | {{details|Flag of {{{alias}}}}} | }}
 <table class="wikitable">
-<tr><th>Label</th><th>Flag image (40px)</th><th>Image name</th></tr>
+<tr><th>Nooca</th><th>Sawirka calanka (40px)</th><th>Magaca</th></tr>
 {{#if: {{{var1|}}} | <tr><td><tt>{{{var1}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var1}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var1}}}}}}</tt></td></tr> }}<!--
 -->{{#if: {{{var2|}}} | <tr><td><tt>{{{var2}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var2}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var2}}}}}}</tt></td></tr> }}<!--
 -->{{#if: {{{var3|}}} | <tr><td><tt>{{{var3}}}</tt></td><td align=center>[[File:{{{flag alias-{{{var3}}}}}}|40px|border]]</td><td><tt>{{{flag alias-{{{var3}}}}}}</tt></td></tr> }}<!--
@@ -44,11 +44,11 @@
 --></table>
 }}
 {{#if: {{{flag alias-naval|}}}{{{link alias-naval|}}}{{{flag alias-air force|}}}{{{flag alias-army|}}} |
-===Military ensigns===
+===Astaanta milatari===
 {{#if: {{{flag alias-naval|}}} |
-This template includes a naval ensign flag variant that can be used with [[Template:Navy]]:
-* <tt><nowiki>{{navy|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{navy|{{{templatename|{{{alias}}}}}}}}
-* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|naval}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|naval}}
+Halkan waxaa ku jira macluumaadka (template) dhamaan Xooga Ciidanka, xataa Ciidanka Badaha, sida [[Template:Navy]]:
+* <tt><nowiki>{{ciidanka bada|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{navy|{{{templatename|{{{alias}}}}}}}}
+* <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|ciidanka bada}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|naval}}
 | {{#if: {{{link alias-naval|}}} |
 This nation's naval ensign is the same as its national flag, so [[Template:Navy]] produces the following:
 * <tt><nowiki>{{navy|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>}}</nowiki></tt> → {{navy|{{{templatename|{{{alias}}}}}}}}
@@ -64,8 +64,8 @@ This template includes an army ensign flag variant that can be used with [[Templ
 * <tt><nowiki>{{flagicon|</nowiki>{{{templatename|{{{alias}}}}}}<nowiki>|army}}</nowiki></tt> → {{flagicon|{{{templatename|{{{alias}}}}}}|army}}
 }} }}
 {{#if: {{{redir1|}}} |
-===Redirect aliases===
-This template can also be used via an ''alias'' name (implemented as a redirect to this template):<!--
+===Wareejinta===
+Macluumaadkan waxaa ku jira qaar ka mid ah magacyada kale ee ku xidhan maqaalkan, kuwaasi waxaa ka mid ah '''naaneysaha, magaca labaad''' iyo wixii la halmaala:<!--
 --><table class="wikitable"><!--
 --><tr><th>Alias name</th><th>{{tlx|flag|''alias''}} output</th><th>{{tlx|flagcountry|''alias''}} output</th></tr>
 {{#if: {{{redir1|}}} | <tr><td><tt>{{{redir1}}} (</tt><span class="plainlinks">[{{fullurl:Template:Country data {{{redir1}}}|redirect=no}} view]</span><tt>)</tt></td><td>{{flag|{{{redir1}}}}}</td><td>{{flagcountry|{{{redir1}}}}}</td></tr> }}<!--
