@@ -1,4 +1,4 @@
 <includeonly>{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}} {{#expr:{{{1}}}}}<span style="display:none">({{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}){{#if:{{NAMESPACE}}|
-|{{#if:{{{no category|}}}||{{#if:{{{1|}}}|[[Category:Dhimashada {{{1}}}]]}}}}}}</span></includeonly><noinclude>
+|{{#if:{{{no category|}}}||{{#if:{{{1|}}}|[[Category:Dadka dhintay {{{1}}}]]}}}}}}</span></includeonly><noinclude>
 {{Documentation}}
 </noinclude>
