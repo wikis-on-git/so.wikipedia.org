@@ -1,3 +1,4 @@
-<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{#expr:{{{1}}}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span></includeonly><noinclude>
-{{documentation}}
+<includeonly>{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}} {{#expr:{{{1}}}}}<span style="display:none">({{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}){{#if:{{NAMESPACE}}|
+|{{#if:{{{no category|}}}||{{#if:{{{1|}}}|[[Category:Dhimashada {{{1}}}]]}}}}}}</span></includeonly><noinclude>
+{{Documentation}}
 </noinclude>
