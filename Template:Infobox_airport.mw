@@ -18,9 +18,9 @@
 {{!}}-
 }}
 }}
-! colspan=4 style="white-space: nowrap" | [[IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''none''}} {{#if:{{{FAA|}}}| – [[Federal Aviation Administration|FAA]] [[Location identifier#FAA identifier|LID]]: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – [[Transport Canada|TC]] [[Location identifier#Transport Canada identifier|LID]]: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – [[Location identifier|LID]]: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[Global Positioning System|GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – [[Location identifier#WMO station identifiers|WMO]]: <span class="nickname">{{{WMO}}}</span>|}}
+! colspan=4 style="white-space: nowrap" | [[IATA]]: {{#if:{{{IATA<includeonly>|</includeonly>}}}|<span class="nickname">{{{IATA}}}</span>|''none''}} – [[ICAO]]: {{#if:{{{ICAO<includeonly>|</includeonly>}}}|<span class="nickname">{{{ICAO}}}</span>|''ma lahan''}} {{#if:{{{FAA|}}}| – [[FAA]] LID: <span class="nickname">{{{FAA}}}</span>|}} {{#if:{{{TC|}}}| – TC LID: <span class="nickname">{{{TC}}}</span>|}} {{#if:{{{LID|}}}| – LID: <span class="nickname">{{{LID}}}</span>|}} {{#if:{{{GPS|}}}{{{WMO|}}}|<br />}} {{#if:{{{GPS|}}}| – [[GPS]]: <span class="nickname">{{{GPS}}}</span>|}} {{#if:{{{WMO|}}}| – WMO: <span class="nickname">{{{WMO}}}</span>|}}
 |-
-! colspan=4 style="background-color: #69c; color: white" | Si guud
+! colspan=4 style="background-color: #69c; color: white" | Macluumaad Guud
 |- style="text-align: left"
 {{#if: {{{type<includeonly>|</includeonly>|}}}|
 ! colspan=2 {{!}} Nuuca Garoonka
@@ -104,11 +104,11 @@
 }}
 |-
 {{#if:{{{pushpin_map|}}}{{{image_map|}}}|
-! colspan=4 style="background-color: #69c; color: white" {{!}} Map{{#if:{{both|{{{pushpin_map|}}}|{{{image_map|}}}}}|s}}
+! colspan=4 style="background-color: #69c; color: white" {{!}} Maabka{{#if:{{both|{{{pushpin_map|}}}|{{{image_map|}}}}}|}}
 }}
 |-
 {{#if:{{{image_map|}}}|
-{{!}} colspan=4 {{!}} [[File:{{{image_map}}}|{{#if:{{{image_mapsize|}}}|{{{image_mapsize}}}|220}}px|none|alt={{{image_map_alt|}}}|{{{image_map_caption|Halka ay kagataal {{{name}}}}}}]]{{#if:{{{image_map_caption|}}}|<small>{{{image_map_caption}}}</small>}}
+{{!}} colspan=4 {{!}} [[File:{{{image_map}}}|{{#if:{{{image_mapsize|}}}|{{{image_mapsize}}}|220}}px|none|alt={{{image_map_alt|}}}|{{{image_map_caption|Halka ku taal {{{name}}}}}}]]{{#if:{{{image_map_caption|}}}|<small>{{{image_map_caption}}}</small>}}
 }}
 |-
 {{#if:{{{pushpin_map|}}}|
@@ -139,9 +139,9 @@
 }}
 |-
 {{#if: {{{r1-number<includeonly>|</includeonly>}}} {{{r1-length-f|}}} {{{r1-length-m|}}} {{{r1-surface|}}}|
-! colspan=4 style="background-color: #69c; color: white" {{!}} [[Dhabaha]]
+! colspan=4 style="background-color: #69c; color: white" {{!}} Macluumaad
 {{!}}- style="background-color: #ddd"
-! rowspan=2 style="width: 20%" {{!}} [[Runway#Orientation and dimensions|Jihada]]
+! rowspan=2 style="width: 20%" {{!}} [[Jiho|Jihada]]
 ! colspan=2 style="width: 40%" {{!}} Dhererka
 ! rowspan=2 style="width: 40%" {{!}} Nuuca dhabaha
 {{!}}- style="background-color: #ddd"
