@@ -1,0 +1,3 @@
+{{#if:{{{1|}}}|<!-- exists -->|{{error|PDFlink must be run with an argument}}}}<span class="PDFlink">{{{1<includeonly>|</includeonly>}}}</span><span style="font-size:smaller;">&nbsp;PDF{{#if:{{{2<includeonly>|</includeonly>}}}|&nbsp;({{{2}}})}}</span><noinclude>
+{{being deleted|2013 April 24|merge=Module:Citation/CS1}}
+{{Documentation}}<!-- add interwikis to the [[/doc]] page --></noinclude>
