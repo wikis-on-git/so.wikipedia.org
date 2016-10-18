@@ -1,12 +1,12 @@
 {| class="infobox geography vcard" style="width: 22em; font-size: 88%"
 |-
-| class="adr" colspan="2" style="text-align: center; line-height:1.2em; font-size: 1.2em; padding: 0.4em 0.8em 0.4em 0.8em;"|'''<span class="fn org region">{{{Name}}}</span>'''<br />'''<span class="nickname">{{{AlternateName}}}</span>'''
+| class="adr" colspan="2" style="text-align: center; line-height:1.2em; font-size: 1.2em; padding: 0.4em 0.8em 0.4em 0.8em;"|'''<span class="fn org region">{{{Name}}}</span>'''<br />'''<span class="nickname">{{{AlternateName}}}</span>'''<br />'''<span class="nickname">{{{FullName}}}</span>'''
 |-
 | class="maptable" align="center" colspan="2" style="padding: 0.4em 0.8em 0.4em 0.8em;" |
 {| style="text-align:center; background: none;"
 | style="width: 130px; vertical-align: middle;" | [[File:{{{Flag}}}|125px|border|alt={{{FlagAlt<includeonly>|</includeonly>}}}|Calanka {{{Name}}}]] || style="width: 130px; vertical-align: middle;" | [[File:{{{CoatOfArms}}}|85px|alt={{{CoatOfArmsAlt<includeonly>|</includeonly>}}}|Astaanta {{{Name}}}]]
 |-
-| width="130"| <small>Calanka {{{Name}}}|Calan</small> || align="center" width="130" | <small>Astaanta {{{Name}}}|Astaanta</small>
+| width="130"| <small>Calanka {{{Name}}}</small> || align="center" width="130" | <small>Astaanta {{{Name}}}</small>
 |}
 |-
 | align=center colspan=2 | '''Halkudheg''': {{{Motto}}}
@@ -33,8 +33,8 @@
 ! Xukunka {{#if:{{{government_footnotes|}}}|{{{government_footnotes}}} }}
 | 
 |- class="mergedrow"
-| Nuuca
-| {{#ifeq: {{{EntityAdjective|}}} | Goboleed | [[Baarlamaan]] | }}
+| Nooca
+| {{#ifeq: {{{EntityAdjective|}}} | Dawlad | Goboleed | }}
 |- class="mergedrow"
 | {{{LegislativeType}}} {{{Name}}}|{{nowrap|{{{LegislativeType}}}}}
 | <span class="agent">{{{Speaker}}}</span>
@@ -51,8 +51,8 @@
 | [[{{{Legislature}}}]]
 |-class="mergedbottomrow"
 |- 
-! Xubnaha Umatala Federaalka
-| ee ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
+! Xubnaha U Matala 
+| ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
 |- class="mergedrow"
 | [[Aqalka Hoose]]
 | [[Liiska aqalka hoose ee {{{Name}}} |{{{HouseSeats}}} ee ah tirada 275]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/275 round 1}}</includeonly><noinclude>##</noinclude>%)
@@ -70,7 +70,7 @@
 | Wadarta
 | {{<noinclude>tlx|</noinclude>convert|{{{TotalArea_km2}}}|km2|sqmi|abbr=on}}
 |- class="mergedrow"
-| Barri
+| Berri
 | {{<noinclude>tlx|</noinclude>convert|{{{LandArea_km2}}}|km2|sqmi|abbr=on}}
 |- class="mergedrow"
 | Biyo (%)
@@ -91,7 +91,7 @@
 | Berber dhig Soomaaliya
 | <includeonly>{{#expr:{{{Population}}}*100/34657000 round 1}}</includeonly><noinclude>##</noinclude>% ee 34,657,000-->
 |- class="mergedtoprow"
-! [[Kobaca]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
+! [[Wax soo saarka gudaha|WSG]]&nbsp;{{#if:{{{GDP_footnotes|}}}|{{{GDP_footnotes}}} }}
 | [[Dhaqaalaha Soomaaliya|Heerka {{{GDP_rank}}}]]
 |- class="mergedrow"
 | Wadarta ({{{GDP_year}}})
@@ -100,7 +100,7 @@
 | Qof qof
 | {{{GDP_per_capita}}} ([[Dhaqaalaha Soomaaliya|{{{GDP_per_capita_rank}}}]])
 |- class="mergedtoprow"
-! Kookooban
+! Furayaasha
 | 
 |- class="mergedrow"
 | Furo Posto
