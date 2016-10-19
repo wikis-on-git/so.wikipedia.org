@@ -14,9 +14,9 @@
 | data1 = {{#if:{{{IATA|}}}{{{ICAO|}}}{{{callsign|}}}|
 {{{!}} style="border-collapse: collapse; width: 100%; background-color: lightgrey; font-weight: bold; line-height: 1;"
 {{!}}-
-! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[IATA airline designator|IATA]]
-! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[ICAO airline designator|ICAO]]
-! scope="col" style="padding-top: 0.5em; text-align: center;" {{!}} [[Airline call sign|Callsign]]
+! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[IATA]]
+! scope="col" style="padding-top: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} [[ICAO]]
+! scope="col" style="padding-top: 0.5em; text-align: center;" {{!}} [[Magac|Magac Caalami]]
 {{!}}-
 {{!}} class="nickname" style="padding-bottom: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} {{{IATA|—}}}
 {{!}} class="nickname" style="padding-bottom: 0.5em; border-right: 1px solid white; text-align: center;" {{!}} {{{ICAO|—}}}
