@@ -55,10 +55,10 @@
 | ([[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Soomaaliya]])
 |- class="mergedrow"
 | [[Aqalka Hoose]]
-| [[Liiska aqalka hoose ee {{{Name}}} |{{{HouseSeats}}} ee ah tirada 275]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/275 round 1}}</includeonly><noinclude>##</noinclude>%)
+| [[Liiska Aqalka Hoose ee Soomaaliya u Matalaya {{{Name}}} |{{{HouseSeats}}} ee ah tirada 275]] (<includeonly>{{#expr:{{{SenateSeats}}}*100/275 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedtoprow"
 | [[Aqalka Sare]]
-| [[Liiska aqalka sare ee {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*8/54 round 1}}</includeonly><noinclude>##</noinclude>%)
+| [[Liiska Aqalka Sare ee Soomaaliya u Matalaya {{{Name}}} |{{{SenateSeats}}} ee ah tirada 54]] (<includeonly>{{#expr:{{{SenateSeats}}}*100/54 round 1}}</includeonly><noinclude>##</noinclude>%)
 |- class="mergedtoprow"
 |-
 !Konfodareeshin
