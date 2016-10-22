@@ -200,13 +200,13 @@
 | class50 = category
 |  data50 = {{#if:{{{affiliation1_title|}}}|{{{affiliation1|}}}}}
 
-| label51 = Colo{{#if:{{{colours|}}}|u|}}rs
+| label51 = Midab{{#if:{{{colours|}}}||}}yo
 |  data51 = {{{colo{{#if:{{{colours|}}}|u|}}rs|}}}
 
-| label52 = Slogan
+| label52 = Halheys
 |  data52 = {{{slogan|}}}
 
-| label53 = Anthem
+| label53 = Heesta calanka
 |  data53 = {{{anthem|}}}
 
 | label54 = {{{blank1_title|{{{blank_title|}}}}}}
