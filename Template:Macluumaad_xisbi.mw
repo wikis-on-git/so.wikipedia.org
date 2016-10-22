@@ -254,11 +254,11 @@
 | label68 = {{{seats11_title|}}}
 |  data68 = {{{seats11|}}}
 
-| header69 = {{#if:{{{symbol|}}} |Election symbol}}
+| header69 = {{#if:{{{symbol|}}} |Astaanta doorasho}}
 | rowstyle70 = font-size: 150%
 |  data70 = {{{symbol|}}}
 
-| header71 = {{#if:{{{flag|}}} |{{{flag_title|Party flag}}}}}
+| header71 = {{#if:{{{flag|}}} |{{{flag_title|Calanka xisbiga}}}}}
 |  data72 = {{#invoke:InfoboxImage|InfoboxImage|image={{{flag|}}}|upright=0.6|alt={{{flag_alt|{{{flag_title|}}}}}}}}
 
 | header73 = {{#if:{{{website|}}} |Website}}
