@@ -102,47 +102,47 @@
 | class21 = agent
 |  data21 = {{{founders|{{{founder|}}}}}}
 
-| label22 = Founded
+| label22 = La sameeyay
 |  data22 = {{{founded|{{{foundation|}}}}}}
 
 | label23 = {{#if:{{{legalised|}}} |Legalised |Legalized}}
 |  data23 = {{#if:{{{legalised|}}} |{{{legalised}}} |{{{legalized|}}} }}
 
-| label24 = {{#if:{{{banned|}}} |Banned |Dissolved}}
+| label24 = {{#if:{{{banned|}}} |La mamnuucay |Burburey}}
 |  data24 = {{{banned|{{{dissolved|{{{dissolution|}}}}}}}}}
 
-| label25 = Merger&nbsp;of
+| label25 = La&nbsp;midoobay
 |  data25 = {{{merger|}}}
 
-| label26 = Split&nbsp;from
+| label26 = Ka soo&nbsp;jabay
 |  data26 = {{{split|}}}
 
-| label27 = Preceded&nbsp;by
+| label27 = Ka&nbsp;horeeyay
 |  data27 = {{{predecessor|{{{preceded by|{{{preceded_by|}}}}}}}}}
 
-| label28 = Merged&nbsp;into
+| label28 = Ku&nbsp;biiray
 |  data28 = {{{merged|}}}
 
-| label29 = Succeeded&nbsp;by
+| label29 = Ku&nbsp;xigay
 |  data29 = {{{successor|{{{succeeded by|{{{succeeded_by|}}}}}}}}}
 
-| label30 = Headquarters
+| label30 = Xarunta sare
 | class30 = label
 |  data30 = {{{headquarters|}}}
 
 | label31 = Newspaper
 |  data31 = {{{newspaper|}}}
 
-| label32 = [[Think tank]]
+| label32 = Fikradaha
 |  data32 = {{{think tank|{{{think_tank|}}}}}}
 
-| label33 = Student wing
+| label33 = Garabka ardeyda
 |  data33 = {{{student_wing|}}}
 
-| label34 = [[Youth wing]]
+| label34 = Garabka dhalinta
 |  data34 = {{{youth_wing|}}}
 
-| label35 = Women's wing
+| label35 = Garabka Haweenka
 |  data35 = {{{womens_wing|}}}
 
 | label36 = {{{wing1_title}}}
@@ -157,42 +157,42 @@
 | label39 = {{{wing4_title}}}
 |  data39 = {{{wing4|}}}
 
-| label40 = Membership {{#if:{{{membership_year|}}} |&nbsp;({{{membership_year}}})}}
+| label40 = Xubin ka noqo {{#if:{{{membership_year|}}} |&nbsp;({{{membership_year}}})}}
 |  data40 = {{{membership|}}}
 
-| label41 = [[List of political ideologies|Ideology]]
+| label41 = [[Fikrad]]
 | class41 = category
 |  data41 = {{{ideology|}}}
 
-| label42 = [[Political spectrum|Political&nbsp;position]]
+| label42 = Heerka&nbsp;siyaasad
 | class42 = category
 |  data42 = {{{position|}}}
 
-| label43 = [[Religion]]
+| label43 = [[Diin]]ta
 | class43 = category
 |  data43 = {{{religion|}}}
 
-| label44 = National affiliation
+| label44 = Mataan la ah
 | class44 = category
 |  data44 = {{{national|}}}
 
-| label45 = Regional affiliation
+| label45 = Xidhiidh la leh
 | class45 = category
 |  data45 = {{{regional|{{{regional affiliation|}}}}}}
 
-| label46 = [[European political party|European affiliation]]
+| label46 = [[Yurub]]
 | class46 = category
 |  data46 = {{{european|{{{european affiliation|}}}}}}
 
-| label47 = Continental affiliation
+| label47 = Xidhiidhka qaarada
 | class47 = category
 |  data47 = {{{continental|{{{continental affiliation|}}}}}}
 
-| label48 = International affiliation
+| label48 = Xidhiidh caalami
 | class48 = category
 |  data48 = {{{international|{{{international affiliation|}}}}}}
 
-| label49 = [[Political groups of the European Parliament|European Parliament group]]
+| label49 = Baarlamaanka Yurub
 | class49 = category
 |  data49 = {{{europarl|{{{european parliament group|}}}}}}
 
