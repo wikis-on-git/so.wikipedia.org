@@ -27,7 +27,8 @@ PLEASE DO NOT list this template for deletion, or make other changes, without re
 </div>
 </div>
 __NOTOC__
-<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:Project}}|[[Category:Wikipedia basic information|{{PAGENAME}}]]}} [[Category:Wikipedia quick introductions|{{PAGENAME}}]]</includeonly>
+<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:Project}}|[[Category:Wikipedia Waxbarid|{{PAGENAME}}]]}}
+</includeonly>
 [[as:Wikipedia:Introduction]]
 [[bg:Уикипедия:Въведение]]
 [[bn:Wikipedia:Introduction]]
@@ -60,7 +61,6 @@ __NOTOC__
 [[tr:Vikipedi:Hoş geldiniz]]
 [[zh:Wikipedia:入門]]<noinclude>
 
-
+[[Category:Wikipedia Waxbarid]]
 [[Category:Caawinaad]]
-<!--Used to populate [[Wikipedia:Introduction]]-->
 </noinclude>
