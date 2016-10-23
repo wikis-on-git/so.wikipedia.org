@@ -1,0 +1,11 @@
+<includeonly>|}</includeonly><noinclude>
+<br clear="all">
+==Usage==
+To create a set of tabs, use these five elements. Keep the page tabs in the same order on all pages and use "Tab1" for the current page.
+
+{{[[Wikipedia:Introduction/TabsTop]]}}<br>
+{{[[Wikipedia:Introduction/Tab1]]|Current page name}}<br>
+{{[[Wikipedia:Introduction/Tab2]]|Other page name(s)}}<br>
+{{[[Wikipedia:Introduction/Tab3]]|Other page name}} (use for flush-right other page name only)<br>
+{{[[Wikipedia:Introduction/TabsBottom]]}}
+</noinclude>
