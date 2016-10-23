@@ -1,0 +1,66 @@
+{{pp-semi-indef}}{{pp-move-indef}}
+__NOEDITSECTION__
+{{Wikipedia:Tutorial/TabsHeader|This=4}}
+<div style="border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+{{TOCright}}
+[[File:Boldness and links tutorial.ogv|thumb||thumbtime=1|A video tutorial about the basics of wiki markup, including creating links]]
+'''Linking''' Wikipedia articles together is very important. These easily created links allow users to jump to information related to the article they are reading, greatly adding to Wikipedia's usefulness.
+
+==How to link==
+To make a link to another Wikipedia page (called a ''wiki link''), put it in double square brackets, like this:
+:<tt><nowiki>[[Sandbox]]</nowiki></tt>
+
+which the reader will see, after you save your edit, as this: [[Sandbox]]
+
+If you want to link to an article, but display some other text for the link, you can do so by adding the [[Help:Link#Piped link|pipe]] "|" divider (SHIFT + BACKSLASH on English-layout and other keyboards) followed by the alternative name. Place the article you want to link to before the pipe divider, and the text to be seen after the pipe divider.  Two examples:
+
+1. :<tt><nowiki>[[Fox Broadcasting Company|Fox]]</nowiki></tt>  In the finished article, the text will read '[[Fox Broadcasting Company|Fox]]', and link to the article called 'Fox Broadcasting Company'.
+
+2. :<tt><nowiki>[[Queen (band)|Queen]]</nowiki></tt> and <tt><nowiki>[[Queen (chess)|Queen]]</nowiki></tt>
+will both display as [[#|Queen]], but link to very different articles.
+
+You can make a link to a specific section of a page like so:
+:<tt><nowiki>[[Target page#Target section|display text]]</nowiki></tt>
+For example: 
+:<tt><nowiki>[[Wikipedia:Tutorial/Wikipedia_links#Categories|Categories]]</nowiki></tt> 
+will display as this:  [[Wikipedia:Tutorial/Wikipedia_links#Categories|Categories]]
+
+If you want the display text of the link to appear in italics or bold, nest the double square brackets for the link within the multiple apostrophes that delimit the italicized or bold text, like this:
+:<tt><nowiki>''[[War and Peace]]''</nowiki></tt>
+which will display as this: ''[[War and Peace]]''
+
+Please check your links to ensure they point to the correct article. For example, [[Apple]] points to  the article about the fruit, while [[Apple Inc.]] is the title of the article about the consumer electronics manufacturer. There are also [[Wikipedia:Disambiguation|"disambiguation" pages]], which are not articles, but rather pages which contain links to articles with similar titles. Some, such as [[Apple (disambiguation)]] are obvious, while others such as [[Georgia]] use generic titles. These differing titles are where piped links are especially useful.  For example, a wikilink of [[Georgia (country)]] is much less readable than a piped link of [[Georgia (country)|Georgia]], though both take the reader to the same place. 
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Link]]'''</div>{{-}}
+
+==When  to link==
+Adding links to an article makes it more useful, but too many links can be distracting. To avoid [[WP:Overlink|overlinking]], you should normally create a link in an article only at the ''first occurrence'' of a word or phrase (thus, lead sections of articles often have more links than other sections).  You should not link common words such as "state" and "world", even though Wikipedia has articles for those words, unless these common words are central concepts to the article.
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Wikipedia:Manual of Style/Linking]]'''</div>{{-}}
+
+==Categories==
+You can also put the article in a category with others in a related topic. Near the bottom of the article, type <nowiki>[[Category:]]</nowiki>, and put the name of the category between the colon and the brackets. For example, <tt><nowiki>[[Category:Wikipedia tutorials]]</nowiki></tt>.
+
+'''It is very important to put in the correct categories so that other people can easily find your work.''' The best way to find which categories to put in is to look at pages on similar subjects, and check which categories they use. For example, if you write an article about a type of tree, you may look at an article on another type of tree to see which categories could be appropriate.
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Wikipedia:Categorization]]'''</div>{{-}}
+
+== External links section ==
+Many Wikipedia articles have a separate section called '''External links'''. This section is for linking to websites with significant and reliable additional information on the article's topic.  Only a relatively few, very relevant external links are appropriate for this section: see the guideline [[Wikipedia:External links]] for details. If an article already has more than a few links in the "External links" section, and you're an inexperienced editor, you probably should suggest any new links on the article's '''Discussion''' (talk) page before actually adding one. See [[Wikipedia:External links/Perennial websites]]  for information regarding websites editors frequently inquire about. 
+
+To add a new external link, just type, inside a single set of brackets, the full URL for the link, followed by a space and the text that will be visible. For example:
+:<tt><nowiki>[http://www.example.com/ Official website]</nowiki></tt>
+will display the following, whilst linking to the full URL:
+:<tt>[http://www.example.com/ Official website]</tt>
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Wikipedia:External links]]'''</div>{{-}}
+
+{{-}}
+<noinclude>
+<div style="float:right; margin-top: 0.0em; margin-bottom:3px; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border: 1px solid #a3b1bf;">'''Continue the tutorial with [[Wikipedia:Tutorial/Citing sources|Citing sources]]''' <span style="font-size: larger; font-weight: bold;">→</span></div>
+</div></noinclude>
+<div style="clear:both"></div><noinclude>
+[[Category:Wikipedia tutorials|*3]]
+
+
+</noinclude>
