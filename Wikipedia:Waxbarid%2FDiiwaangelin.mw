@@ -1,0 +1,104 @@
+
+{{pp-semi-indef}}{{pp-move-indef}}
+__NOEDITSECTION__
+{{Wikipedia:Tutorial/TabsHeader|This=5}}
+<div style="border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+{{TOC right}}
+This is an encyclopedia, so remember that it's a necessity to include [[Wikipedia:Citing sources#When and why to cite sources|references]] listing websites, newspapers, articles, books and other sources you have used to write or expand articles. All additions and corrections  should be based on reliable, [[Wikipedia:Third-party sources|third-party]], published sources with a reputation for fact-checking and accuracy. These sources should [[WP:V|verify]] the information but you must not [[Wikipedia:Copy-paste|copy and paste text]] you find anywhere, except for short quotations. New articles and statements added to existing articles may be deleted by others if [[Wikipedia:Verification methods|unreferenced or referenced poorly]] or if they are [[Wikipedia:Copyright violations|copyright violations]].
+== Footnotes ==
+[[File:Citing sources tutorial, part 1.ogv|thumb|250px|A screencast that walks through the essentials needed in citing your sources, part 1]]
+[[File:Citing sources tutorial, part 2.ogv|thumb|250px|A screencast that walks through the essentials needed in citing your sources, part 2]]
+Generally references are added directly after the facts they support, at the end of the sentence and after any punctuation. Wikipedia permits editors to use any citation system that allows the reader to understand where the information came from, and strongly encourages use of [[Wikipedia:Inline citation|inline citations]] to do so. Common methods of placing inline citations include [[Wikipedia:Footnotes|footnotes]], [[Help:Shortened footnotes|shortened footnotes]], and [[Wikipedia:Harvard references|parenthetical references]].
+
+There are three basic methods to add a reference into the article text.  You may use any one, or a combination of methods:
+* [[Help:Referencing for beginners #Using refToolbar|Using refToolbar]] to fill out a form with the bibliographic information (requires [[JavaScript]])
+* [[Help:Referencing for beginners #Using VisualEditor|Using VisualEditor]], an experimental tool that is being [[beta test|beta-tested]] for editing Wikipedia pages
+* [[Help:Referencing for beginners #Manual referencing|Manually typing in]] formatting code and bibliographic information
+
+===Wiki markup===
+The most usual way to create an inline citation is with a [[Wikipedia:Manual of Style (footnotes)|footnote]]. You can create a footnote with '''Wiki markup''', by adding '''ref tags''' around your source, like this: 
+
+:<source lang="xml" inline><ref>Your Source</ref></source>
+
+If you are adding the first footnote to an article, you also need to make sure that there is text that tells Wikipedia's software to display footnotes.  That text will look like this:
+
+:{{tlx|Reflist}} or {{xtag|references|s}}.  
+
+That text should be immediately below the section heading <source lang="moin" inline>== References ==</source>. If that section does not exist, you will need to add it (both the heading and either the "Reflist" or "references" text above).  Place the new section near the bottom of the article, just above the "External links" section (if that exists).
+
+Once you have saved your edit, the ref tags will convert your citation of a source into a footnote reference (like this one<small><sup><font color=#002BB8>[1]</font></sup></small>), with the text of the citation appearing in the References section at the bottom of the article.
+
+If the citation you are placing between the ref tags as your source is a link to an external website, place the website address ([[Uniform Resource Locator|URL]]) within ''single'' square brackets along with some text, which the reader will see as a link. For example:
+: <source lang="moin" inline><ref>[http://www.nytimes.com/article_name.html Article in ''The New York Times'']</ref></source>
+
+Though it is not required, it is highly recommended to provide more information than that in a footnote.  Here is a more complete footnote:
+
+: <source lang="moin" inline><ref>Name of author, [http://www.nytimes.com/article_name.html "Title of article"], ''The New York Times'', date</ref></source>
+
+It is not recommended to use [[Wikipedia:Bare URLs|bare URLs]] for your external link references, because of [[link rot]]. 
+
+Although material that is from external websites is a common reference source, Wikipedia has no preference for online sources. If your source is a book, journal, magazine, newspaper article, documentary or other source, then you would place identification information about that source between the ref tags. 
+
+{{-}}
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Introduction to referencing/1]] and [[Wikipedia:References dos and don'ts]]'''</div>{{-}}
+
+====RefToolbar====
+
+[[File:RefTools rework.ogv|thumb|right|250px|This screencast walks through the citation wizard of RefToolbar]] 
+
+[[WP:RefToolbar|refToolbar]], which appears above the edit box in browsers that support JavaScript, can be used to easily add properly formatted citations. Also, refToolbar has the ability to automatically fill in bibliographic data for many published books and academic journal  articles, which can reduce error-prone and tedious cut-and-paste or retyping of such information.
+
+If your browser does not support JavaScript or it is disabled, refToolbar will not work (see [[:Template:Cite]] for what to type in manually). 
+
+Click on the play button on the image to the right to view a video tutorial on how to use refToolbar. 
+
+#If you don't see a drop-down menu labeled {{color box|white|Templates [[File:MediaWiki Vector skin action arrow.png|link=]]}} on the toolbar above the edit window, first click on "[[File:MediaWiki Vector skin right arrow.png|link=]]<span style="color: #0645AD;">Cite</span>" at the top of the toolbar to activate refToolbar. 
+#Position the editing cursor in the text where you want the numbered link to your citation to appear. This should be at the end of the relevant phrase, sentence, or paragraph that the citation is verifying (after any punctuation, see [[MOS:REFPUNC]] for more information). ''Do not position the cursor at the very end of the article or in the <code>==References==</code> section'' — place it directly ''after the text the citation verifies''.
+#Click on the drop down menu labeled {{color box|white|Templates [[File:MediaWiki Vector skin action arrow.png|link=]]}}, and choose the citation type you would like to add ("cite web" for websites, "cite news" for newspaper articles, "cite book" for books, and "cite journal" for academic journals).
+#Once you select a type of citation, a new window will appear with a number of blank fields to fill in. Fill in as many of the fields as you can. You may leave some fields blank, but make sure to at least provide a "Title".
+
+{{-}}
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Wikipedia:RefToolbar/2.0]]'''</div>{{-}}
+
+===VisualEditor ===
+To insert a reference, first activate VisualEditor by clicking "edit" at the top of an article. Once the toolbar has appeared, click where you wish to insert the reference. Clicking the {{menu icon|[[File:VisualEditor - Toolbar - citoid citepong.png|55px]]|non}} button will open up a [[mw:Help:VisualEditor/User guide/Citations-Full|dialog box]] that allows you to enter the details of your reference.
+
+There are two simple ways to create a new reference: Fully '''automatic''' (by just inserting a web URL) or '''manually''' by filling in a template (where you add each piece of information separately).
+
+[[File:VisualEditor Citoid Automatic tab.png|frameless|border|left|350px]]
+The automatic option is the easiest. Wikipedia can often auto-format a reference citation if you just insert the website URL and click "Generate". Take a look at the citation that it then creates. To accept it, click "Insert". You can then modify the details, if VE has got something wrong, such as the publication date, by clicking "Edit".
+{{-}}
+[[File:VisualEditor Citoid Manual.png|frameless|border|left|350px]]
+To enter the information about a reference manually, click the "Manual" tab of the dialog box. Then you select which type of reference you want to add, and fill in as many of the fields ("parameters") as possible (Note: dates should be YYYY-MM-DD).
+{{-}}
+
+
+Sometimes the reference you want to add doesn't fall into any of these categories (for example, perhaps you want to cite a speech). In this case, you can enter the information fully manually using the "Basic form". (These types of references are currently easier using [[Help:Introduction to referencing (WM)/3|Wiki markup citations]].
+
+{{-}}
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Introduction to referencing (VE)/1]]'''</div>
+
+
+==Put what you learned into practice  ==
+At the moment, there are over {{PAGESINCATEGORY|All articles with unsourced statements}} articles that have [[Wikipedia:Citation needed|statements that need citations]]. The tool [https://tools.wmflabs.org/citationhunt/en Citation Hunt] makes referencing those statements easier by suggesting random articles which you can work on. Practice your new skills by helping us solve a "Citation needed":  
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''[https://tools.wmflabs.org/citationhunt/en I can help! Give me a random citation to find!]'''</div>{{-}}
+{{-}}
+{{-}}
+
+<noinclude>
+<div style="float:right; margin-top: 0.0em; margin-bottom:3px; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border: 1px solid #a3b1bf;">'''Continue the tutorial with [[Wikipedia:Tutorial/Talk pages|Talk pages]]''' <span style="font-size: larger; font-weight: bold;">→</span></div>
+</div></noinclude>
+<div style="clear:both"></div><noinclude>
+[[Category:Wikipedia tutorials|*4]]
+
+[[cy:Wicipedia:Tiwtorial (Nodi ffynonellau)]]
+[[et:Juhend:Õppekäik (Viitamine)]]
+[[fa:ویکی‌پدیا:خودآموز (پیوندهای وبگاه‌های مربوطه)]]
+[[fr:Aide:Présentez vos sources]]
+[[hi:विकिपीडिया:स्वशिक्षा/सन्दर्भ]]
+[[pt:Wikipedia:Tutorial/Objectos relacionados]]
+[[hr:Wikipedija:Tečaj (Vanjske poveznice)]]
+[[lv:Vikipēdija:Pamācība (Saites uz saistītiem projektiem)]]
+[[zh:Wikipedia:使用指南 (谨记)]]
+</noinclude>
