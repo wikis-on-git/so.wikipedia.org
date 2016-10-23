@@ -1,0 +1,127 @@
+{{pp-semi-indef}}
+__NOEDITSECTION__
+{{Wikipedia:Tutorial/TabsHeader|This=6}}
+<div style="border:2px solid #A3B1BF; padding:.5em 1em 1em 1em; border-top:none; background-color:#fff; color:#000">
+{{TOCright}}
+[[File:Editing basics - Talk pages.webm|thumb|thumbtime=1|A video tutorial explaining talk pages and how to use them]]
+'''[[WP:TALK|Talk pages]]''' are a key feature of Wikipedia, offering the ability to discuss articles and other issues with other Wikipedians. They are not to be used as a chat room, soapbox, battleground or for general discussion of the article topic.
+
+If you have a question, concern or comment related to improving an article put a note in the article's '''[[Help:Using talk pages|talk page]]''' and not in the article itself. You do that by clicking the "talk" tab at the top of the page. Do not worry if the link shows up in red; it is all right to create the talk page if it does not already exist.
+
+If you are responding to someone else's remarks, put your comment below theirs. You should indent it properly (see section below).  If you are not responding to someone else, but are posting about something new, use the "Add topic" or "New section" tab/link at the top of the talk page to create a new section, which automatically is started at the bottom of the page. Be sure to fill in a helpful "Subject/headline" to uniquely identify what the new discussion is about.
+
+You should always sign your comments by typing <tt><nowiki>~~~~</nowiki></tt> for your username plus a time signature. Then, when you click "Save page", your signature will be inserted automatically. Otherwise your posting will still appear but without your name. (For your convenience, there is a button at the top of the edit box with a signature icon which inserts <nowiki>"--~~~~"</nowiki> when clicked.)
+
+If you do not have a username account, or if you have one but have not logged in, your computer's external [[IP address]] will be used instead as your signature, when you type <tt><nowiki>~~~~</nowiki></tt> and save your edit.  And in such cases, whether or not you sign your comment, your IP address will be recorded (in the page history) as having made the edit.  If you do not want your IP address recorded by Wikipedia in this way so that everyone can see it, then you should get a username by [[Wikipedia:Why create an account?|creating a free account]].
+
+== User talk pages ==
+Every editor (every person with a username) has a user talk page on which other contributors can leave messages. This includes contributors who have not created an account. If someone has left you a message, you will see a note across the top of Wikipedia pages (if you are signed in) saying "You have new messages", with a link to '''[[Special:MyTalk|your user talk page]]'''.
+
+You can reply in either of two ways. One is to put a message on the user talk page of the person you are replying to. The other is to put your reply on your own talk page beneath the original message.  Both are common on Wikipedia;  however, be aware that replying on your own talk page runs the risk that your reply won't be seen, if the user does not look at your talk page again. If you intend to use this approach, it is a good idea to post a notice to that effect, at the top of your talk page, so people know they have to keep an eye on the page to see your response, rather than getting 
+your response on their page.
+
+== Indenting ==
+Indenting can improve the layout of a discussion considerably, making it much easier to read. A standard practice is to indent your reply one level deeper than the person you are replying to.
+
+There are several ways of indenting in Wikipedia:
+
+=== Plain indentations ===
+The simplest way of indenting is to place a [[Colon (punctuation)|colon]] (<tt>:</tt>) at the beginning of a line. The more colons you put, the further indented the text will be. A [[newline]] (pressing '''Enter''' or '''Return''') marks the end of the indented paragraph.
+
+For example:
+: <tt>This is aligned all the way to the left.</tt>
+: <tt><nowiki>: </nowiki>This is indented slightly.</tt>
+: <tt><nowiki>:: </nowiki>This is indented more.</tt>
+is shown as:
+: This is aligned all the way to the left.
+:: This is indented slightly.
+::: This is indented more.
+
+===Bullet points===
+You can also indent using ''bullets'', which are also used for lists. To insert a bullet (when your edit is saved), type an asterisk (<tt>*</tt>). Similar to indentation, more asterisks in front of a paragraph means more indentation.
+
+A brief example:
+: <tt><nowiki>* </nowiki>First list item</tt>
+: <tt><nowiki>* </nowiki>Second list item</tt>
+: <tt><nowiki>** </nowiki>Sub-list item under second</tt>
+: <tt><nowiki>* </nowiki>Third list item</tt>
+
+Which is shown as:
+:* First list item
+:* Second list item
+:** Sub-list item under second
+:* Third list item
+
+=== Numbered items ===
+You can also create numbered lists. For this, use the [[number sign]] or "[[octothorpe]]" (<tt>#</tt>). This is usually used for polls and voting, and otherwise is fairly rare. Again, you can affect the indent of the number by the number of <tt>#</tt>s you use.
+
+Example:
+: <tt><nowiki># </nowiki>First item</tt>
+: <tt><nowiki># </nowiki>Second item</tt>
+: <tt><nowiki>## </nowiki>Sub-item under second item</tt>
+: <tt><nowiki># </nowiki>Third item</tt>
+
+Shows up as:
+:# First item
+:# Second item
+:## Sub-item under second item
+:# Third item
+
+== Example discussion ==
+''Here is an example of a well-formatted discussion:''
+
+Hi. I have a question about this article. I'm pretty sure purple elephants only live in New York! [[Wikipedia:User page|JayRandumWikiUser]] 02:49, 10 Dec 2003 (UTC)
+: Well, last time I was in New York, the elephants I saw were green. &mdash; [[Wikipedia:User page|try2BEEhelpful]] 17:28, 11 Dec 2003 (UTC)
+:: I think you should find a source for your claims. [[Wikipedia:User page|Living&nbsp;&times;&nbsp;Skepticism]] 20:53, 11 Dec 2003 (UTC)
+::: Okay, these elephant journals agree with me:
+:::* ''Elephants Monthly''
+:::* ''Elephants World''
+::: &mdash; [[Wikipedia:User page|try2BEEhelpful]] 19:09, 12 Dec 2003 (UTC)
+:::: Well, those two sources are [[WP:Reliable sources|unreliable]]. According to ''New York City Animal Control'', there are no elephants, purple or otherwise, in New York outside of zoos. [[WP:User page|IloveNYC&elephants]] 17:28, 13 Dec 2003 (UTC)
+: I live in Australia, where the elephants look like kangaroos! The people below agree with my statement: [[Wikipedia:User page|-DontGdayMateMe]] 17:28, 14 Dec 2003 (UTC)
+:# [[Wikipedia:User page|ElefantLuvr]] 01:22, 15 Dec 2003 (UTC)
+:# [[Wikipedia:User page|AisleVoteOnAnything]] 05:41, 15 Dec 2003 (UTC)
+:# [[Wikipedia:User page|alittlebehindthetimes]] 18:39, 27 Jan 2004 (UTC)
+:: I think you should have a source. Remember [[WP:Verifiability|verifiability]]. [[WP:User page|IloveNYC&elephants]] 20:56, 28 Jan 2004
+
+Note that if you want to include a list in your comments, add colons before each item, for example:
+
+: <tt><nowiki>::: Okay, these elephant journals agree with me:</nowiki><br/></tt>
+: <tt><nowiki>::: * ''Elephants Monthly''</nowiki><br/></tt>
+: <tt><nowiki>::: * ''Elephants World''</nowiki><br/></tt>
+: <tt><nowiki>::: ~~~~</nowiki></tt>
+
+-----
+Again, signing your message (posting) is done by:
+* Writing <nowiki>~~~~</nowiki> for your name and date ([[Wikipedia:User page|try2BEEhelpful]] 19:09, 12 Dec 2003 (UTC))
+
+You can add a signature only, or a date only, but this is unusual.  Here is how:
+* Writing <nowiki>~~~</nowiki> for the name ([[Wikipedia:User page|try2BEEhelpful]]), or 
+* Writing <nowiki>~~~~~</nowiki> for the date only (19:09, 12 Dec 2003 (UTC)).
+
+Votes are often signed with names only.
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Introduction to talk pages]]'''</div>{{-}}
+
+== Other project pages ==
+In addition to Talk pages, there are some other categories of behind-the-scenes pages that help Wikipedians communicate with each other, and serve a variety of other roles in building Wikipedia. These different areas are often referred to as '''namespaces''' &mdash; as in, "the '''Talk''' namespace".
+
+Pages in the '''Wikipedia''' namespace (also known as the "[[Wikipedia:Project namespace|Project namespace]]") provide information about Wikipedia and how to use it.
+
+Content written in a '''Template''' page will be displayed in articles that contain the corresponding template reference. For example, the content written in [[Template:Pp-protected]] will appear in any article that contains the <nowiki>{{pp-protected}}</nowiki> tag. Take a look at [[Wikipedia:Template messages]] to see what templates have already been created. You can use the corresponding tags in articles. You can also create new templates.
+
+All of these project pages also have Talk pages of their own.
+
+<div style="float:right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:10px;">'''For more information, see [[Wikipedia:Namespace]]'''</div>
+
+{{-}}
+<noinclude>
+<div style="float:right; margin-top: 0.0em; margin-bottom:3px; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border: 1px solid #a3b1bf;">'''Continue the tutorial with [[Wikipedia:Tutorial/Keep in mind|Keep in mind]]''' <span style="font-size: larger; font-weight: bold;">→</span></div>
+</div></noinclude>
+<div style="clear:both"></div><noinclude>
+[[Category:Wikipedia discussion]]
+[[Category:Wikipedia tutorials|*5]]
+
+<!-- interwiki -->
+
+</noinclude>
