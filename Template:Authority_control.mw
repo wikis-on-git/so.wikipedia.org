@@ -1,0 +1,16 @@
+{{#invoke:Authority control|authorityControl}}<noinclude>{{Documentation}}</noinclude><includeonly><!-- tracking categories to compare with Wikidata 
+-->{{#switch:{{NAMESPACE}}||{{ns:14}}=<!-- Only articles and categories. 
+-->{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using authority control with parameters]]|preview=Page using [[Template:Authority control]] with "_VALUE_", please move this to Wikidata if possible}}<!--
+-->{{#ifeq:{{{VIAF|}}}|
+    |<!-- empty or no VIAF in template -->
+    |<!-- VIAF in template 
+  -->{{#ifeq:{{#property:P214}}|
+      |<!-- no property P214 at Wikidata --> [[Category:VIAF not on Wikidata]] <!-- These we still need to import -->
+      |<!-- property P214 at Wikidata    --> 
+       {{#ifeq:{{{VIAF|}}}|{{#property:P214}}
+        |<!-- same ID: We want to end up here -->
+        |[[Category:VIAF different on Wikidata]] <!-- Figure out the best link, FIXME: multiple values on Wikidata -->
+       }}
+     }}
+  }}
+}}</includeonly>
