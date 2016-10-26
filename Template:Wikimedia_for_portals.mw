@@ -1,0 +1,69 @@
+<div class="noprint" style="text-align:center;">
+<div style="display:inline-block;margin:0 0 0.75em 0">
+<p style="margin:0">Mashaariicda Bahwadaagta la ah [[Wikimedia]] ee qodobkaan dhaacsan:</p>
+{{#ifeq:{{{b}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikibooks:{{{b|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikibooks]]'''<br>
+Buugaag<br>
+[[File:Wikibooks-logo.svg|25x25px|center|link={{fullurl:Wikibooks:{{{b|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{commons}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Commons:{{{commons|Special:Search/Category:{{{page|{{PAGENAME}}}}}}}}|Commons]]'''<br>
+Sawirro<br>
+[[File:Commons-logo.svg|25x25px|center|link={{fullurl:Commons:{{{commons|Special:Search/Category:{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{n}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikinews:{{{n|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikinews]]'''&nbsp;<br>
+Warar<br>
+[[File:Wikinews-logo.svg|x25px|center|link={{fullurl:Wikinews:{{{n|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{q}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikiquote:{{{q|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikiquote]]'''&nbsp;<br>
+Oraahaha<br>
+[[File:Wikiquote-logo.svg|25x25px|center|link={{fullurl:Wikiquote:{{{q|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{s}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikisource:{{{s|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikisource]]'''&nbsp;<br>
+Qoraal<br>
+[[File:Wikisource-logo.svg|25x25px|center|link={{fullurl:Wikisource:{{{s|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{v}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikiversity:{{{v|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikiversity]]'''<br>
+Xogaha waxbarashada<br>
+[[File:Wikiversity-logo.svg|x25px|center|link={{fullurl:Wikiversity:{{{v|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{voy}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikivoyage:{{{voy|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikivoyage]]'''&nbsp;<br>
+Hagaha safarrada<br>
+[[File:Wikivoyage-Logo-v3-icon.svg|25x25px|center|link={{fullurl:Wikivoyage:{{{voy|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{wikt}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wiktionary:{{{wikt|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wiktionary]]'''&nbsp;<br>
+Qaamuus<br>
+[[File:Wiktionary-logo-v2.svg|25x25px|center|link={{fullurl:Wiktionary:{{{wikt|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{data}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikidata:{{{data|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikidata]]'''&nbsp;<br>
+Liiska caddeymaha<br>
+[[File:Wikidata-logo.svg|x25px|center|link={{fullurl:Wikidata:{{{data|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}{{#ifeq:{{{species}}}|no||
+<div style="float:left; margin:0 3px 3px 3px; font-size:91%;">
+'''[[Wikispecies:{{{species|Special:Search/{{{page|{{PAGENAME}}}}}}}}|Wikispecies]]'''&nbsp;<br>
+Abla-ablayn<br>
+[[File:Wikispecies-logo.svg|25x25px|center|link={{fullurl:Wikidata:{{{species|Special:Search/{{{page|{{PAGENAME}}}}}}}}}}|alt=]]
+</div>
+}}
+</div>
+</div><noinclude>
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
