@@ -1,8 +1,104 @@
-[[File:מבצר עתלית - אתרי מורשת במישור החוף 2016 (60).jpg|thumb|Qorax]]
-'''Qorax'''
-{{About| Qorax}}
-
-
+{{Infobox
+| bodystyle   = border-collapse:collapse
+|   title     = Qorraxda [[Image:Sun symbol.svg|25px]]
+|   image     = [[File:Sun white.jpg|290px]]
+| caption     = Qaab muuqaalka Qorraxda
+| headerstyle = background:#FCC857
+|  labelstyle = padding:2px
+|   datastyle = padding:2px
+<!-- section break, rows 1-19-->
+| header1  = Caddeymaha
+|  label2  = Fogaanta ay<br>u jirto [[Dhul]]ka
+|   data2  = 1 [[astronomical unit|au]] ≈ {{val|1.496|e=8|u=km}}<br>8&nbsp;daqiiqo 19&nbsp;sekin ee [[Xawaaraha ileyska|xawaare ileys]]
+|  label3  = [[Laxaad muuqda]] (''V'')
+|   data3  = −26.74<ref name=nssdc>{{cite web|last=Williams|first=D. R. |date=1 July 2013 |title=Sun Fact Sheet |url=http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html |publisher=[[NASA Goddard Space Flight Center]] |accessdate=12 August 2013}}</ref>
+|  label4  = [[Laxaad sugan]]
+|   data4  = 4.83<ref name=nssdc />
+|  label5  = Abla-ablayn<br>jeegaan
+|   data5  = G2V<ref>{{cite book|last=Zombeck|first=Martin V.|date=1990|title=Handbook of Space Astronomy and Astrophysics 2nd edition|publisher=[[Cambridge University Press]]|url=http://ads.harvard.edu/books/hsaa/}}</ref>
+|  label6  = [[Bir (falag)]]
+|   data6  = ''Z'' = 0.0122<ref>{{cite journal |last1=Asplund |first1=M. |last2=Grevesse |first2=N. |last3=Sauval |first3=A. J. |date=2006 |title=The new solar abundances – Part I: the observations |journal=[[Communications in Asteroseismology]] |volume=147 |pages=76–79 |bibcode=2006CoAst.147...76A |doi=10.1553/cia147s76}}</ref>
+|  label7  = [[Jimidh xagaleed]]
+|   data7  = 31.6–32.7 Daqiiqadaha qaansada<ref>{{cite web |title=Eclipse 99: Frequently Asked Questions |url=http://education.gsfc.nasa.gov/eclipse/pages/faq.html |publisher=[[NASA]] |accessdate=24 October 2010}}</ref>
+|  label8  = Magac u yeel
+|   data8  = Cadceed
+| header10 = [[Orbit]]al characteristics
+|  label11 = Mean distance<br>from [[Milky Way]] core
+|   data11 = ≈ {{val|2.7|e=17|u=km}}<br>{{nowrap|{{val|fmt=commas|27200|ul=light-years}}}}
+|  label12 = [[Galactic year|Galactic period]]
+|   data12 = (2.25–2.50){{e|8}} [[julian year (astronomy)|yr]]
+|  label13 = [[Velocity]]
+|   data13 = ≈ {{val|220|u=km/s}} (orbit around the center of the Milky Way) <br>≈ {{val|20|u=km/s}} (relative to average velocity of other stars in stellar neighborhood) <br>≈ {{val|370|u=km/s}}<ref>{{cite journal |last=Hinshaw |first=G. |display-authors=etal |date=2009 |title=Five-year Wilkinson Microwave Anisotropy Probe observations: data processing, sky maps, and basic results |journal=[[The Astrophysical Journal Supplement Series]] |volume=180 |issue=2 |pages=225–245 |arxiv=0803.0732 |bibcode=2009ApJS..180..225H |doi=10.1088/0067-0049/180/2/225}}</ref> (relative to the [[Cosmic microwave background radiation#CMBR dipole anisotropy|cosmic microwave background]])
+<!-- section break, rows 20-39 -->
+| header20 = Physical characteristics
+|  label21  = Equatorial [[radius]]
+|   data21  = [[Solar radius|695,700]]&nbsp;km<ref name=IAU2015resB3>{{citation | first1=E.E. | last1=Mamajek | first2=A. | last2=Prsa | first3=G. | last3=Torres | first4=al. | last4=et | title=IAU 2015 Resolution B3 on Recommended Nominal Conversion Constants for Selected Solar and Planetary Properties  | arxiv=1510.07674}}</ref><br> 109 × Earth<ref name=sse/>
+|  label22  = Equatorial [[circumference]]
+|   data22  = {{val|4.379|e=6|u=km}}<ref name=sse/><br>109 × Earth<ref name=sse>{{cite web |title=Solar System Exploration: Planets: Sun: Facts & Figures |url=http://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&Display=Facts&System=Metric |archiveurl=https://web.archive.org/web/20080102034758/http://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&Display=Facts&System=Metric |archivedate=2 January 2008 |publisher=[[NASA]]
+}}</ref>
+|  label23  = [[Flattening]]
+|   data23  = {{val|9|e=-6}}
+|  label24  = [[Surface area]]
+|   data24  = {{val|6.09|e=12|u=km2}}<ref name=sse/><br>{{nowrap|{{val|fmt=commas|12000}}}} × Earth<ref name=sse/>
+|  label25  = [[Volume]]
+|   data25  = {{val|1.41|e=18|u=km3}}<ref name=sse/><!-- NASA source has "1.412 x 10^18 km^3", which is 1.412 × 10^27 m^3 (basic arithmetic, also verified using the formula for volume of a sphere), but the Sun is not a sphere, and their radius is off a bit from what we have above, so we need to at least round a bit--><br>{{nowrap|{{val|fmt=commas|1300000}}}} × Earth
+|  label26  = [[Mass]]
+|   data26  = {{val|1.98855|.00025|e=30|u=kg}}<ref name=nssdc/><br>{{nowrap|{{val|fmt=commas|333000}}}} × Earth<ref name=nssdc/><!-- NASA Sun Fact Sheet states 333,000, a figure coherent with data already present in en.wiki -->
+|  label27  = Average [[density]]
+|   data27  = {{val|1.408|u=g/cm3}}<ref name=nssdc/><ref name=sse/><ref>{{cite web |last=Ko |first=M. |date=1999 |title=Density of the Sun |url=http://hypertextbook.com/facts/1999/MayKo.shtml |editor=Elert, G. |work=The Physics Factbook}}</ref><br>{{val|0.255}} × Earth<ref name=nssdc/><ref name=sse/>
+|  label28  = Center [[density]] (modeled)
+|   data28  = {{val|162.2|u=g/cm3}}<ref name=nssdc/><br>{{val|12.4}} × Earth
+|  label29  = Equatorial [[surface gravity]]
+|   data29  = {{val|274.0|u=m/s2}}<ref name=nssdc/><br>{{val|27.94|u=[[g-force|''g'']]}}<br>{{nowrap|{{val|fmt=commas|27542.29|u=''[[cgs]]''}}}}<br>28 × Earth<ref name=sse/>
+|  label30  = [[Escape velocity]]<br>(from the surface)
+|   data30  = {{val|617.7|u=km/s}}<ref name=sse/><br>55 × Earth<ref name=sse/>
+|  label31  = Temperature
+|   data31  = Center (modeled): {{val|1.57|e=7|u=K}}<ref name=nssdc/><br>[[Photosphere]] (effective): {{nowrap|{{val|fmt=commas|5772|ul=K}}}}<ref name=nssdc/><br> [[Corona]]: ≈ {{val|5|e=6|u=K}}
+|  label32  = [[Luminosity]] (L<sub>sol</sub>)
+|   data32  = {{val|3.828|e=26|ul=W}}<ref name=nssdc/><br>≈ {{val|3.75|e=28|u=[[lumen (unit)|lm]]}}<br>≈ {{val|98|u=lm/W}} [[Luminous efficacy|efficacy]]
+|  label33  = Mean [[radiance]]&nbsp;(I<sub>sol</sub>)
+|   data33  = {{val|2.009|e=7|u=W·m<sup>−2</sup>·sr<sup>−1</sup>}}
+|  label34  = Age
+|   data34  = ≈ 4.6 billion years<ref name="Bonanno">{{Cite journal |last=Bonanno |first=A. |last2=Schlattl |first2=H. |last3=Paternò |first3=L. |date=2008 |title=The age of the Sun and the relativistic corrections in the EOS |journal=[[Astronomy and Astrophysics]] |volume=390 |issue=3 |pages=1115–1118 |arxiv=astro-ph/0204331 |bibcode=2002A&A...390.1115B |doi=10.1051/0004-6361:20020749 |ref=harv}}</ref><ref>{{Cite journal|url=//www.sciencemag.org/content/338/6107/651.full|title=The Absolute Chronology and Thermal Processing of Solids in the Solar Protoplanetary Disk|date=2 November 2012|accessdate=17 March 2014|doi=10.1126/science.1226919 |journal=Science|volume=338 |issue= 6107 |pages=651–655|bibcode = 2012Sci...338..651C |pmid=23118187}}{{Registration required}}</ref>
+<!-- section break, rows 40-49 -->
+| header40  = [[Rotation]] characteristics
+|  label41  = [[Axial tilt|Obliquity]]
+|   data41  = 7.25°<ref name=nssdc/><br>(to the [[ecliptic]])<br>67.23°<br>(to the [[galactic plane]])
+|  label42  = [[Right ascension]]<br>of North pole<ref name="iau-iag">{{cite web |last1=Seidelmann |first1=P. K. |display-authors=etal |title=Report Of The IAU/IAG Working Group On Cartographic Coordinates And Rotational Elements Of The Planets And Satellites: 2000 |url=http://www.hnsky.org/iau-iag.htm |date=2000 |accessdate=22 March 2006}}</ref>
+|   data42  = 286.13°<br>{{nowrap|19 h 4 min 30 s}}
+|  label43  = [[Declination]]<br>of North pole
+|   data43  = +63.87°<br>63° 52' North
+|  label44  = Sidereal [[Solar rotation|rotation period]] <br>(at equator)
+|   data44  = 25.05 d<ref name=nssdc/>
+|  label45  = (at 16° latitude)
+|   data45  = 25.38 d<ref name=nssdc/><br>{{nowrap|25 d 9 h 7 min 12 s}}<ref name="iau-iag"/>
+|  label46  = (at poles)
+|   data46  = 34.4 d<ref name=nssdc/><!-- derived from T = ( 14.37 - 2.33 sin^2 L - 1.56 sin^4 L ) °/day, L = 90° -->
+|  label47  = Rotation velocity<br>(at equator)
+|   data47  = {{val|7.189|e=3|u=km/h}}<ref name="sse"/><!-- Derived from NASA source: equatorial circumference of 4,379,000 kilometres divided by sidereal rotation period of 609.12 hours; maybe this kind of basic calculation could be done in some generic template code? -->
+<!-- section break, rows 50-69 -->
+| header50  = [[photosphere|Photospheric]] composition (by mass)
+|  label51  = [[Hydrogen]]
+|   data51  = 73.46%<ref>{{cite web |title=The Sun's Vital Statistics |url=http://solar-center.stanford.edu/vitalstats.html |publisher=[[Stanford Solar Center]] |accessdate=29 July 2008}} Citing {{cite book |last=Eddy |first=J. |date=1979 |title=A New Sun: The Solar Results From Skylab |url=http://history.nasa.gov/SP-402/contents.htm |page=37 |publisher=[[NASA]] |id=NASA SP-402}}</ref>
+|  label52  = [[Helium]]
+|   data52  = 24.85%
+|  label53  = [[Oxygen]]
+|   data53  = 0.77%
+|  label54  = [[Carbon]]
+|   data54  = 0.29%
+|  label55  = [[Iron]]
+|   data55  = 0.16%
+|  label56  = [[Neon]]
+|   data56  = 0.12%
+|  label57  = [[Nitrogen]]
+|   data57  = 0.09%
+|  label58  = [[Silicon]]
+|   data58  = 0.07%
+|  label59  = [[Magnesium]]
+|   data59  = 0.05%
+|  label60  = [[Sulfur]]
+|   data60  = 0.04%
+}}
 
 '''Qorax''' ama '''Cadceed''' waa shey wayn oo ka samaysan [[neef|neefo ololaya]]. 
 Sidoo kale qoraxdu waa [[Xidig]]ta aya nolosha [[Dhul|aduunku]] ku tiirsan tahay. Iyada iyo [[meere|mereereyaasha]] waxaa la isku yidhaahdaa [[Bahda Midaysay Qoraxdu]]. 
