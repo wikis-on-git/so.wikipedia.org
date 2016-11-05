@@ -1,9 +1,5 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Italian:&nbsp;|pron=pronounced&nbsp;|=|Italian pronunciation:&nbsp;}}</small>{{IPA|[[Help:IPA for Italian|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Italian:&nbsp;|pron=pronounced&nbsp;|=|Af-Talyaani:&nbsp;}}</small>{{IPA|[[Help:IPA for English|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 
 {{documentation|Template:usage of IPA templates}}
 
-<!-- PLEASE ADD CATEGORIES BELOW THIS LINE, THANKS. -->
-
-[[Category:IPA language templates|{{PAGENAME}}]]
-
-<!-- PLEASE ADD INTERWIKIS BELOW THIS LINE, THANKS. -->
+[[Category:Template IPA magac|{{PAGENAME}}]]
