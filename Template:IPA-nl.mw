@@ -1,2 +1,3 @@
-<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Dutch:&nbsp;|langaf=Afrikaans:&nbsp;|pron=pronounced&#32;|=|Dutch pronunciation:&#32;}}</small>{{IPA|[[Help:IPA for Dutch|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
+<onlyinclude><small>{{#switch: {{{2}}}|IPA=IPA:&nbsp;|lang=Dutch:&nbsp;|langaf=Afrikaans:&nbsp;|pron=pronounced&#32;|=|Af-Dutch:&#32;}}</small>{{IPA|[[Help:IPA for Dutch|[{{{1}}}]]]}}{{#if:{{{3|}}}|{{IPA audio link|{{{3}}} }} }}</onlyinclude>
 <noinclude>{{documentation}}</noinclude>
+[[Category:Template IPA magac|{{PAGENAME}}]]
