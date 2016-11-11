@@ -1,0 +1,30 @@
+<noinclude>{| class="infobox" style="width: 25em; font-size: 95%;"
+</noinclude>
+|-
+! colspan="3" style="text-align:center; background-color:#cccccc;" | {{#switch:{{{1|}}}
+|Olympics|Olympiad|olympiad|Olympic|Olympic Games|olympics|olympic|olympic games|Olympic games|Oly|oly|OG|og=[[Olympic Games]]
+|Commonwealth Games|commonwealth games|Commonwealth games|Commonwealth|commonwealth|Com|com=[[Commonwealth Games]]
+|X Games|x games|X games|x|X=[[X Games]]
+|Goodwill Games|Goodwill games|goodwill games|goodwill|Goodwill|Good|good=[[Goodwill Games]]
+|IAAF World Indoor Championships in Athletics|World Indoor Championships|WIC|wic|Indoor Championships|world indoor championships|indoor championships=[[IAAF World Indoor Championships in Athletics|World Indoor Championships]]
+|UEFA Champions League|European Cup|european cup|European cup|Champions League|Euro Cup|EuroCup|euro cup|eurocup|EC|ec|UEFA=[[UEFA Champions League|European Cup]]
+|Asian Games|Asiad|asiad|Asian games|asian games|AG|ag=[[Asian Games]]
+|National Games of the People's Republic of China|National Games of PRC|National Games of the PRC|National Games of China|All China Games|ACG|PRC|acg|prc|NGPRC|ngprc=[[National Games of the People's Republic of China|All China Games]]
+|Ski flying World Championships|Ski Flying World Championships|Ski-flying World Championships|Ski-Flying World Championships|SWC|swc|SFWC|sfwc=[[Ski flying World Championships]]
+|IAAF World Half Marathon Championships|World Half Marathon Championships|Half Marathon Championships|HMC|hmc|WHMC|whmc=[[IAAF World Half Marathon Championships|World Half Marathon Championships]]
+|IAAF World Road Running Championships|World Road Running Championships|Road Running Championships|RRC|rrc|WRRC|wrrc=[[IAAF World Road Running Championships|World Road Running Championships]]
+|IAAF World Championships in Athletics|World Championships in Athletics|Championships in Athletics|World Athletics Championships|WAC|wac=[[IAAF World Championships in Athletics|World Championships in Athletics]]
+|IAAF World Cross Country Championships|World Cross Country Championships|Cross Country Championships|CCC|ccc|WCCC|wccc=[[IAAF World Cross Country Championships|World Cross Country Championships]]
+|IAAF World Junior Championships in Athletics|World Junior Championships in Athletics|Junior Championships in Athletics|JCA|jca|WJCA|wjca|WJC|wjc=[[IAAF World Junior Championships in Athletics|World Junior Championships in Athletics]]
+|IAAF World Youth Championships in Athletics|World Youth Championships in Athletics|Youth Championships in Athletics|World Youth Championships|YCA|yca|WYCA|wyca|WYC|wyc=[[IAAF World Youth Championships in Athletics|World Youth Championships in Athletics]]
+|IAAF World Race Walking Cup|World Race Walking Cup|Race Walking Cup|RWC|rwc|WRWC|wrwc=[[IAAF World Race Walking Cup|World Race Walking Cup]]
+|IAAF World Cup in Athletics|World Cup in Athletics|WCA|wca|Athletics World Cup=[[IAAF World Cup in Athletics|World Cup in Athletics]]
+|IAAF Golden League|Golden League|golden league|GL|gl=[[IAAF Golden League|Golden League]]
+|IAAF World Athletics Final|World Athletics Final|Athletics Final|waf|af|WAF|AF=[[IAAF World Athletics Final|World Athletics Final]]
+|IAAF Grand Prix Final|Grand Prix Final|GPF|gpf=[[IAAF Grand Prix Final|Grand Prix Final]]
+|Paralympic Games|paralympic games|Paralympic games|Paralympics|paralympics|Paralympic|paralympic|PG|pg|PAR|par=[[Paralympic Games]]
+|#default={{{1}}}
+}}<noinclude>
+|}
+{{documentation}}
+</noinclude>
