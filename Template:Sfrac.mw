@@ -1,0 +1,10 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||$B=<span class="sfrac nowrap"{{#if:{{{3|}}}|>{{{1}}}<span class="visualhide">&nbsp;</span><span}} <!--
+ -->style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center;"><!--
+  --><span style="display:block; line-height:1em; margin:0 0.1em;">{{#if:{{{3|}}}|{{{2}}}|{{#if:{{{2|}}}|{{{1}}}|1}}}}</span><!--
+  --><span class="visualhide">/</span><!--
+  --><span style="display:block; line-height:1em; margin:0 0.1em; border-top:1px solid;">{{{3|{{{2|{{{1}}}}}}}}}</span><!--
+ -->{{#if:{{{3|}}}|</span>}}<!--
+--></span>}}<noinclude>
+{{documentation}}
+<!-- PLEASE ADD CATEGORIES TO /doc SUBPAGE - NOT HERE.-->
+</noinclude>
