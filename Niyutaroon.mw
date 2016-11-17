@@ -1,0 +1,33 @@
+{{Infobox particle
+| bgcolour        =
+| classification  = [[Baryon]]
+| name            = Neutron
+| image           = [[Image:Quark structure neutron.svg|250px]]
+| caption         = The [[quark]] structure of the neutron.  The color assignment of individual quarks is arbitrary, but all three colors must be present.  Forces between quarks are mediated by [[gluons]].
+| num_types       =
+| composition     = 1 [[up quark]], 2 [[down quark]]s
+| statistics      = [[Fermionic]]
+| group           = [[Hadron]]
+| generation      =
+| interaction     = [[Gravity]], [[Weak interaction|weak]], [[Strong Interaction|strong]], [[Electromagnetic interaction|electromagnetic]]
+| antiparticle    = [[Antineutron]]
+| theorized       = [[Ernest Rutherford]]<ref name="chemed.chem.purdue.edu">[http://chemed.chem.purdue.edu/genchem/history/rutherford.html Ernest Rutherford]. Chemed.chem.purdue.edu. Retrieved on 2012-08-16.</ref> (1920)
+| discovered      = [[James Chadwick]]<ref name="1935 Nobel Prize in Physics">[http://nobelprize.org/nobel_prizes/physics/laureates/1935/ 1935 Nobel Prize in Physics]. Nobelprize.org. Retrieved on 2012-08-16.</ref> (1932)
+| symbol          = {{SubatomicParticle|Neutron}}, {{SubatomicParticle|Neutron0}}, {{SubatomicParticle|Nucleon0}}
+| mass            ={{val|1.674927471|(21)|e=-27|ul=kg}}<ref name="2014 CODATA">Mohr, P.J.; Taylor, B.N. and Newell, D.B. (2014), [http://physics.nist.gov/constants "The 2014 CODATA Recommended Values of the Fundamental Physical Constants"] (Web Version 7.0). The database was developed by J. Baker, M. Douma, and S. Kotochigova. (2014). National Institute of Standards and Technology, Gaithersburg, Maryland 20899.</ref><br /><!--
+                 -->{{val|939.5654133|(58)|ul=MeV/c2}}<ref name="2014 CODATA" /><br /><!--
+                 -->{{val|1.00866491588|(49)|ul=u}}<ref name="2014 CODATA" />
+| mean_lifetime   = {{val|881.5|(15)|u=s}} ([[#Free_neutron_decay|free]])
+| electric_charge = {{val|0|u=[[elementary charge|''e'']]}}<br /> 
+{{val|-2|±8|e=-22|u=[[elementary charge|''e'']]}} (experimental limits)<ref name="PDGLIVE" /> 
+| electric_dipole_moment  = < {{val|2.9|e=-26|u=''e''⋅cm}}  (experimental upper limit)
+| electric_polarizability = {{val|1.16|(15)|e=-3|u=fm<sup>3</sup>}}
+| magnetic_moment = [[Neutron magnetic moment|{{val|-0.96623650|(23)|e=-26}}]]&nbsp;[[Joule|J]]·[[Tesla (unit)|T]]<sup>−1</sup><ref name="2014 CODATA" /><br /><!--
+                 -->{{val|-1.04187563|(25)|e=-3|u=[[Bohr magneton|μ<sub>B</sub>]]}}<ref name="2014 CODATA" /><br /><!--
+                 -->{{val|-1.91304273|(45)|u=[[Nuclear magneton|μ<sub>N</sub>]]}}<ref name="2014 CODATA" />
+| magnetic_polarizability = {{val|3.7|(20)|e=-4|u=fm<sup>3</sup>}}
+| spin            = {{sfrac|1|2}}
+| isospin         = −{{sfrac|1|2}}
+| parity          = +1
+| condensed_symmetries    = ''[[Isospin|I]]''(''[[Total angular momentum|J]]''<sup>''[[Intrinsic parity|P]]''</sup>)&nbsp;=&nbsp;{{sfrac|1|2}}({{sfrac|1|2}}<sup>+</sup>)
+}}
