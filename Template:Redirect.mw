@@ -1,18 +1,4 @@
-{{Hatnote|<!--
--->"{{{1}}}" halkaan ayaa loo soo bedelay. Ee {{#if:{{{2|}}}|{{{2}}}|isticmaale yaasha kale}}, eeg {{#if:{{{3|}}}|[[:{{{3}}}]]{{#ifeq:{{{4|}}}|and|&#32;and {{#if:{{{5|}}}|[[:{{{5}}}]]|[[{{{1}}} (Kala saarista isku isku qasan)]]}}}}|[[{{{1}}} (Kala saarista isku isku qasan)]]}}.<!--
--->{{#if:{{{2|}}}|{{#if:{{{4|}}}|<!--
-  -->{{#ifeq:{{{4|}}}|and||<!-- "and" is a special word, don't output "ee iyo, ..."
-    -->&#32;&#32;For {{#ifeq:{{{4}}}|1|other uses|{{{4}}}}}, see {{#if:{{{5|}}}|[[:{{{5}}}]]{{#ifeq:{{{6|}}}|and|&#32;and {{#if:{{{7|}}}|[[:{{{7}}}]]|[[{{{4}}} (Kala saarista isku isku qasan)]]}}}}|[[{{{4}}} (Kala saarista isku isku qasan)]]}}.}}<!--
-  -->{{#if:{{{6|}}}|<!--
-    -->{{#ifeq:{{{6|}}}|and||<!--
-      -->&#32;&#32;For {{#ifeq:{{{6}}}|1|other uses|{{{6}}}}}, see {{#if:{{{7|}}}|[[:{{{7}}}]]{{#ifeq:{{{8|}}}|and|&#32;and {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{6}}} (Kala saarista isku isku qasan)]]}}}}|[[{{{6}}} (Kala saarista isku isku qasan)]]}}.}}<!--
-    -->{{#if:{{{8|}}}|<!--
-      -->{{#ifeq:{{{8|}}}|and||<!--
-        -->&#32;&#32;For {{#ifeq:{{{8}}}|1|other uses|{{{8}}}}}, see {{#if:{{{9|}}}|[[:{{{9}}}]]|[[{{{8}}} (Kala saarista isku isku qasan)]]}}.}}<!--
-    -->}}<!--
-  -->}}<!--
--->}}}}}}{{#switch:{{{1<noinclude>|REDIRECT</noinclude>}}}|REDIRECT|REDIRECT1|REDIRECT2|REDIRECT3|TERM = | #default = {{#ifexist:{{{1}}}||{{main other|[[Category:Missing redirects]]}}}}}}<noinclude>
-
-{{Documentation}}
-
+<includeonly>{{#invoke:redirect hatnote|redirect|1}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
 </noinclude>
