@@ -1,0 +1,17 @@
+<includeonly><!--
+
+              Hidden Part
+
+--><span {{#ifeq:{{{debug}}}|yes|style="border:1px solid"|style="display:none; speak:none" class="sortkey"}}>0{{#time:Y|{{{1|}}}}}-{{#time:m-d|{{{1|}}} 2000}}-{{{addkey|}}}</span><!--
+
+              Visible Part
+
+--><span style="{{#ifeq:{{{nowrap}}}|off||white-space:nowrap;}}">{{#ifeq:{{{M}}}|M
+  |{{#invoke:String|replace|{{{1|}}}|{{#time:F|{{{1|}}}}}|{{#time:M|{{{1|}}}}}}}
+  |{{{1}}}
+}}</span></includeonly><noinclude>
+{{doc|content=
+This is a subtemplate of {{tl|dts}}.
+{{pp-semi-indef}}{{pp-move|small=yes}}
+}}
+</noinclude>
