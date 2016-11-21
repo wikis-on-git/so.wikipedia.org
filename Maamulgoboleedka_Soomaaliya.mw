@@ -4,13 +4,13 @@ Intaasi waxaa dheer, tiro kale oo maamulgoboleedyo ah ayaa ka jira koonfurta iyo
 
 Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka noqdaan [[Dawladda federaalka Soomaaliya]], taasi oo wakhti xaadirkan u xilsaartey [[Baarlamaanka Federaalka Soomaaliya|Baarlamaanka Federaalka]] inuu sameeyo isla markaana soo xaqiijiyo xuduudaha saxda ah ee maamulgoboleedyada ka jira wadanka Soomaaliya.<ref>{{cite web|title=The Federal Republic of Somalia - Harmonized Draft Constitution |url=http://www.somaliweyn.com/pages/news/Aug_12/Somalia_Constitution_English_FOR_WEB.pdf |publisher=Federal Government of Somalia |accessdate=2 August 2012 |deadurl=unfit |archiveurl=https://web.archive.org/web/20130124010543/http://www.somaliweyn.com/pages/news/Aug_12/Somalia_Constitution_English_FOR_WEB.pdf |archivedate=January 24, 2013 }}</ref><ref>{{cite web|title=Guidebook to the Somali Draft Provisional Constitution|url=http://unpos.unmissions.org/LinkClick.aspx?fileticket=v067edqd7a8%3D&tabid=9705&language=en-US|accessdate=2 August 2012}}</ref> 
 
-==Maamulgoboleedyada==
+==Maamul Goboleedyada==
 {| class="wikitable sortable"  style="font-size:85%; margin:auto;"
 |-
 ! class="unsortable"| Calanka
 ! class="unsortable"| Astaanta
-! Degmada
-! Fure boosto
+! Dawlad</br>Goboleed
+! Fure boosto ISO
 ! Xarunta</br>Maamulka
 ! Magaalo</br>Weyn
 ! Xubin</br>Federaal
@@ -22,10 +22,10 @@ Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka
 ! style="text-align: center;" | [[File:Flag of Somaliland.svg|border|30px]]
 ! style="text-align: center;" | [[File:Emblem of Somaliland.svg|30px]]
 ! style="text-align: left;" | [[Somaliland]]
-| style="text-align: center;" | SL
+| style="text-align: center;" | SO-SL
 | [[Hargaysa]]
 | Hargaysa
-| Gooni u goosad
+| {{Green|Gooni u goosad}}
 | colpos = "6" rowpos = "4" style="text-align: right;" | 3,193,000
 | colpos = "7" rowpos = "4" style="text-align: right;" | 167,283
 | colpos = "7" rowpos = "4" style="text-align: center;" | 57
@@ -34,31 +34,31 @@ Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka
 ! style="text-align: center;" | [[File:Flag of Puntland.svg|border|30px]]
 ! style="text-align: center;" | [[File:Puntland State of Somalia Coat of Arms.png|30px]]
 ! style="text-align: left;" | [[Puntland]]
-| style="text-align: center;" | PL
+| style="text-align: center;" | SO-PL
 | [[Garoowe]]
 | [[Boosaaso]]
 | {{dts|November 30, 2016}}
 | colpos = "6" rowpos = "3" style="text-align: right;" | 1,086,500
-| colpos = "7" rowpos = "3" style="text-align: right;" | 132,734,5
+| colpos = "7" rowpos = "3" style="text-align: right;" | 132,735
 | colpos = "7" rowpos = "4" style="text-align: center;" | 38
 | colpos = "7" rowpos = "4" style="text-align: center;" | 11
 |-
 ! style="text-align: center;" | [[File:2016 Flag of Galmudug.png|30px]]
 ! style="text-align: center;" | [[File:Rsz emblem.jpg|30px]]
 ! style="text-align: left;" | [[Galmudug]]
-| style="text-align: center;" | GM
+| style="text-align: center;" | SO-GM
 | [[Cadaado]]
 | [[Dhuusamareeb]]
 | {{dts|November 30, 2016}}
 | colpos = "6" style="text-align: right;" | 1,008,500
-| colpos = "6" style="text-align: right;" | 82,592.5
+| colpos = "6" style="text-align: right;" | 82,592
 | colpos = "7" rowpos = "4" style="text-align: center;" | 40
 | colpos = "7" rowpos = "4" style="text-align: center;" | 8
 |-
 ! style="text-align: center;" | [[File:Hirshabeelle.png|border|30px]]
 ! style="text-align: center;" | [[File:Example.jpg|30px]]
 ! style="text-align: left;" | [[Hirshabeelle]]
-| style="text-align: center;" | HS
+| style="text-align: center;" | SO-HS
 | [[Jowhar]]
 | [[Beledweyne]]
 | {{dts|November 30, 2016}}
@@ -70,10 +70,10 @@ Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka
 ! style="text-align: center;" | [[File:Example.jpg|border|30px]]
 ! style="text-align: center;" | [[File:Example.jpg|30px]]
 ! style="text-align: left;" | [[Banaadir]]
-| style="text-align: center;" | BN
+| style="text-align: center;" | SO-BN
 | [[Muqdisho]]
 | Xamar
-| Ka mid maaha dawladaha federaalka
+| {{Green|Ka mid maaha dawladaha federaalka}}
 | style="text-align: right;" | 1,905,000
 | style="text-align: right;" | 370
 | colpos = "7" rowpos = "4" style="text-align: center;" | 0
@@ -82,7 +82,7 @@ Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka
 ! style="text-align: center;" | [[File:Flag of Southwestern Somalia.svg|border|30px]]
 ! style="text-align: center;" | [[File:Example.jpg|30px]]
 ! style="text-align: left;" | [[Koonfur Galbeed Soomaaliya]]
-| style="text-align: center;" | KG
+| style="text-align: center;" | SO-KG
 | [[Baydhabo]]
 | [[Marka]]
 | {{dts|November 30, 2016}}
@@ -94,14 +94,14 @@ Si kastaba ha ahaatee, dhamaan maamulgoboleedyada waxaa laga rabaa ineey qeyb ka
 ! style="text-align: center;" | [[File:Jubaland flag.jpg|border|30px]]
 ! style="text-align: center;" | [[File:JubalandCoatsofArms.jpg|30px]]
 ! style="text-align: left;" | [[Jubaland]]
-| style="text-align: center;" | JL
+| style="text-align: center;" | SO-JL
 | [[Kismaayo]]
 | Beledxaawo
 | {{dts|November 30, 2016}}
 | style="text-align: right;" | 1,606,777
 | style="text-align: right;" | 113,101
 | colpos = "7" rowpos = "4" style="text-align: center;" | 47
-| colpos = "7" rowpos = "4" style="text-align: center;" | 48
+| colpos = "7" rowpos = "4" style="text-align: center;" | 8
 |- class="sortbottom" align="center"
 ! scope="col" align="center" colspan="7"| Wadarta
 ! scope="col" style="text-align: right;" | {{nts|13070777}}
