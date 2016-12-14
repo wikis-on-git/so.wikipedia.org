@@ -1,0 +1,12 @@
+<div style="font-variant:; text-align: center; font-size: 102%; background:transparent; {{#if:{{{color|}}}|color:#{{{color|}}}; | }}">
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Dhaqan|Dhaqan]]</font> | [[Portal:Dhaqan|Dhaqan]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Juqraafi|Juqraafi]]</font> | [[Portal:Juqraafi|Juqraafi]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Taariikh|Taariikh]]</font> | [[Portal:Taariikh|Taariikh]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Saynis|Saynis]]</font> |  [[Portal:Saynis|Saynis]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Bulsho|Bulsho]]</font> |  [[Portal:Bulsho|Bulsho]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Farsamo|Farsamo]]</font> | [[Portal:Farsamo|Farsamo]]}} —
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Isboorti|Isboorti]]</font> | [[Portal:Isboorti|Isboorti]]}} <br/>
+{{#if:{{{color|}}} | <font color="#{{{color}}}">[[Portal:Hooyga Wikiga|'''Dhammaan Portal''']]</font> | '''[[Portal:Hooyga Wikiga|'''Dhammaan Portal]]''' }}
+</div><noinclude><noinclude>
+[[Category:Template]]
+</noinclude>
