@@ -1,0 +1,25 @@
+<includeonly><div align="center" style="background-repeat:no-repeat; background-position:-40px -15px; background:#{{#if:{{{background|}}}|{{{background|}}}|transparent}}; <!--border:{{#if:{{{taillebordure|}}}|{{{taillebordure|}}}|1}}px solid #{{#if:{{{bordure|}}}|{{{bordure|}}}|C2dfff}}; vertical-align:top; padding: 0.5em;  -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px;-->">
+<div class="globegris" style="background-repeat:no-repeat; background-position:-40px -15px; border: {{#if:{{{taillebordure|}}}|{{{taillebordure|}}}|1}}px solid #{{#if:{{{bordure|}}} | {{{bordure|}}} | c2dfff}}; padding: 3px 0 3px 0; {{#if:{{{fond-onglet|}}}|background-color:#{{{fond-onglet|}}};|background:transparent;}} -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin-bottom:0.3em;"> {{Hooyga Wikiga2|color={{{color|}}} }}</div>
+{{#if:{{{Madax|}}} | {{{Madax|}}} | }}
+{{#if:{{{Portal|}}} |
+{{{!}} style="text-align:center; background:none; width:100%;"
+{{!+}} '''{{nobr|Portal Bahwadaag}}''' 
+{{{Portal}}}
+{{!}}} | <div style="height: 0.5em;" /> }}<!--
+--><!-- {{Bogag Xora
+|color = {{{color|}}}
+|Onglet-1=[[{{{Portal|{{FULLPAGENAME}}}}}|Portal]]
+|Onglet-2={{{Wikipedia|}}}
+|Onglet-3={{{Category|}}}
+|Onglet-4={{{Wikipedia|}}}
+|Onglet-5={{{Buugaag|}}}
+|Onglet-7={{{Talk Wikipedia|}}}
+|Onglet-6={{{Bedel|}}}
+|fond-onglet = {{{fond-onglet|}}}
+|bordure= {{#if:{{{bordure|}}}|{{{bordure|}}}|C2dfff}}
+|taillebordure= {{#if:{{{taillebordure|}}}|{{{taillebordure|}}}|1}}
+|alignement onglet=center
+}} --><!--
+--></div></includeonly>
+<noinclude>{{Documentation}}
+[[Category:Tusmo Portal]]</noinclude>
