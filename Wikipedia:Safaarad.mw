@@ -1,1 +1,21 @@
 {{Wikipedia:Safaarad/Hordhac}}
+
+== New way to edit wikitext ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+'''Summary''': There's a new opt-in Beta Feature of a [[:mw:2017 wikitext editor|wikitext mode for the visual editor]]. Please [[Special:Preferences#mw-prefsection-betafeatures|go try it out]].
+
+
+We in the Wikimedia Foundation's Editing department are responsible for making editing better for all our editors, new and experienced alike. We've been slowly improving [[:mw:VisualEditor|the visual editor]] based on feedback, user tests, and feature requests. However, that doesn't work for all our user needs: whether you need to edit a wikitext talk page, create a template, or fix some broken reference syntax, sometimes you need to use wikitext, and many experienced editors prefer it.
+
+Consequently, we've planned a "wikitext mode" for the visual editor for a long time. It provides as much of the visual editor's features as possible, for those times that you need or want wikitext. It has the same user interface as the visual editor, including the same toolbar across the top with the same buttons. It provides access to the [[:mw:citoid|citoid service]] for formatting citations, integrated search options for inserting images, and the ability to add new templates in a simple dialog. Like in the visual editor, if you paste in formatted text copied from another page, then formatting (such as bolding) will automatically be converted into wikitext.
+
+All wikis now have access to this mode as a [[:mw:Beta Features|Beta Feature]]. When enabled, it replaces your existing [[:mw:Editor|wikitext editor]] everywhere. If you don't like it, you can reverse this at any time by turning off the Beta Feature in your preferences. We don't want to surprise anyone, so it's strictly an ''opt-in-only'' Beta Feature. It won't switch on automatically for anyone, even if you have previously checked the box to "{{Int:Betafeatures-auto-enroll}}".
+
+The new wikitext edit mode is based on the visual editor, so it requires JavaScript (as does the [[:mw:Extension:WikiEditor|current wikitext editor]]). It doesn't work with gadgets that have only been designed for the older one (and ''vice versa''), so some users will miss gadgets they find important. We're happy to [[:mw:VisualEditor/Gadgets|work with gadget authors to help them update their code to work]] with both editors. We're not planning to get rid of the current main wikitext editor on desktop in the foreseeable future. We're also not going to remove the existing ability to edit plain wikitext without JavaScript. Finally, though it should go without saying, if you prefer to continue using the current wikitext editor, then you may so do.
+
+This is an early version, and we'd love to know what you think so we can make it better. Please leave feedback about the new mode [[:mw:2017 wikitext editor/Feedback|on the feedback page]].  You may write comments in any language.  Thank you.
+
+</div> [[:mw:User:Jdforrester (WMF)|James Forrester]] (Product Manager, Editing department, Wikimedia Foundation) --19:31, 14 Diseembar 2016 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=15942009 -->
