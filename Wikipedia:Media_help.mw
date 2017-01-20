@@ -1,0 +1,23 @@
+{{redirect|WP:MH|the Military history WikiProject|Wikipedia:WikiProject Military History}}
+{{redirect|WP:AUDIO|WikiProject Spoken Wikipedia|Wikipedia:WikiProject Spoken Wikipedia}}
+
+<div style="text-align:center;border-bottom:3px solid #A3B1BF;">
+<div style="float:left; width:32%; font-weight:bold; background-color:#cee0f2; color:#000; padding:.3em 0; border:2px solid #A3B1BF; border-bottom:0; font-size:130%;">[[Wikipedia:Media help|Media introduction]]</div>
+<div style="float:left;width:32.5%;padding:.3em 0;margin:2px 2px 0;">[[Wikipedia:Media help (audio and video)|Audio and video]]</div>
+<div style="float:right;width:32.5%;padding:.3em 0;margin:2px 2px 0">[[Wikipedia:Media help (MIDI)|MIDI]]</div><div style="width:0;height:0;clear:both;overflow:hidden"></div>
+</div>
+<div style="border:3px solid #A3B1BF;padding:.5em 1em 1em 1em;border-top:none;background-color:#fff;color:000;">
+
+==Media files on Wikipedia==
+Some Wikipedia articles include '''sound''' or '''video''' files, that can be played on almost all personal computers. However, your computer must have the right software. If your computer does not automatically play these files when you click on them, downloading and installing free software from the Internet can enable it to do so.
+
+Sound files on Wikipedia generally use the [[Vorbis]] audio format, and video files use the [[Theora]] format, both contained in an [[Ogg]] file. These are analogous to other formats used to play digital audio and video such as [[MP3]] and [[MPEG]]. However, [[Microsoft Windows]], [[iOS]], and [[OS X]] do not support these formats by default, and require additional software to play them (see below).
+
+Music files may occasionally use the [[Musical Instrument Digital Interface#MIDI file formats|MIDI]] format (.MID or .MIDI extension). MIDI is often playable without additional software, and some PCs have a MIDI-enabled player and sound card. However, for macOS (since 10.9 Mavericks), a MIDI file is not playable by both Safari and QuickTime pre-installed in the system and an alternative standalone player has to be used.
+<br/><br/>
+<div align="left" style="display:inline; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border:1px solid #A3B1BF;">[[Wikipedia:Media help (audio and video)|'''Directions on installing software''' &gt;&gt;]]</div>
+<br/>
+''For help making and converting video and audio into the format usable on Wikipedia, see [[Wikipedia:Creation and usage of media files]].''
+</div>
+
+[[Category:Wikipedia features|Media help]]
