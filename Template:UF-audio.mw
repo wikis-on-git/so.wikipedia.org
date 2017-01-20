@@ -1,0 +1,17 @@
+{{Microformat message
+| format = hAudio
+| data = an audio recording's details
+
+| subtemplates =
+Date-of-publication ("published") information will only be included in the microformat if {{tl|start date}} (or, where appropriate, {{tl|start date and age}}) is used in a parent infobox/template. Do not, however, use {{tlf|start date}} or {{tlf|start date and age}} [[Wikipedia:WikiProject Microformats/dates|if a date before 1583&nbsp;CE is involved]].
+
+Use {{tl|duration}} to specify the duration/length of a recording. For instance, if the recording's duration is 3 minutes 45 seconds, use {{tlc|duration|m{{=}}3|s{{=}}45}} (which appears as: {{duration|m=3|s=45}}). If needed, {{para|h}} may be included to specify a number of hours.
+
+|haudio |fn |album |description |category |contributor |duration |h |item |min |photo |position |price |published |s
+| nocollapse = on
+}}<includeonly>{{#ifeq:{{SUBPAGENAME}}|doc | |{{#ifeq:{{SUBPAGENAME}}|sandbox | |[[Category:Templates generating hAudio microformats|{{PAGENAME}}]]}} }}</includeonly><noinclude>
+
+{{Documentation |content={{Microformat message templates}}}}
+
+[[Category:Microformat (uF) message templates]]
+</noinclude>
