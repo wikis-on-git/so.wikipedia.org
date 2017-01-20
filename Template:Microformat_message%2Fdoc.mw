@@ -1,0 +1,18 @@
+{{Documentation subpage}}
+<!--Categories where indicated at the bottom of this page, please; interwikis at Wikidata (see [[Wikipedia:Wikidata]])-->
+
+A template with which to create messages [for [[Wikipedia:Transclusion|transclusion]], for instance, on [[Wikipedia:Template documentation|template documentation]] pages] about [[microformat]]s as used in Wikipedia.
+
+===Parameters===
+ format [or] type
+ data
+ subtemplates
+ (subsection1)
+ unnamed parameters
+ nocollapse
+
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox |
+| <!--Categories below this line, please; interwikis at Wikidata-->
+[[Category:Microformat (uF) message templates| ]]
+}}</includeonly>
