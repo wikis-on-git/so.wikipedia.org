@@ -1,0 +1,68 @@
+<div style="text-align:center;border-bottom:3px solid #A3B1BF">
+<div style="float:left;width:32.5%;padding:.3em 0;margin:2px 2px 0;">[[{{SITENAME}}:Media help|Media introduction]]</div>
+<div style="float:left;width:32%;font-weight:bold;background-color:#cee0f2;color:#000;padding:.3em 0;border:2px solid #A3B1BF; border-bottom:0;font-size:130%;">[[{{SITENAME}}:Media help (Ogg)|Audio and video]]</div>
+<div style="float:right;width:32.5%;padding:.3em 0;margin:2px 2px 0;">[[{{SITENAME}}:Media help (MIDI)|MIDI]]</div><div style="width:0;height:0;clear:both;overflow:hidden;"></div>
+</div> __NOEDITSECTION__
+<div style="border:3px solid #A3B1BF;padding:.5em 1em 1em 1em;border-top:none;background-color:#fff;color:000;">
+== Installing audio and video software ==
+This page contains instructions for playing the video ([[Theora]] and [[WebM]]) and audio ([[Vorbis]]) files from {{SITENAME}}.  To set up your system to play these files, find your [[operating system]] (Microsoft Windows, for example) below.
+
+=== Multiple operating systems ===
+To use the integrated video player:
+
+* Mozilla Firefox [https://www.mozilla.com/firefox (download)], Google Chrome [https://www.google.com/chrome (download)], and Opera [https://www.opera.com/ (download)] include native support for our video formats, or
+* Use Safari or Internet Explorer for slower non-native playback, or
+* Install VLC [//www.videolan.org/vlc/ (download)]
+
+===[[Microsoft Windows|Windows]]===
+
+Installing a program ([[codecs]]) from Illiminable will allow [[DirectShow]] players such as [[Windows Media Player]] to play all {{SITENAME}} media.
+#Most Windows users will already have [[Windows Media Player]] installed on their computer. If you don't have Windows Media Player, or you want to use a different player, please install one from the list below. Otherwise, skip to step 2.
+#*'''[[Windows Media Player]]''' [http://windows.microsoft.com/en-us/windows/download-windows-media-player (download)]
+#*'''[[Winamp]]''' [http://www.winamp.com/ (download)] (''if you choose '''Winamp 5''' or later, the next steps are unnecessary'')
+#*'''[[Media Player Classic]]''' [https://mpc-hc.org/downloads/ (download)]
+#*'''Core Media Player''' [http://corecodec.com/ (download)]
+#*'''[[VLC media player]]''' [http://www.videolan.org/vlc/#download (download)] (''if you choose '''VLC''', the next steps are unnecessary'')
+#*'''[[RealPlayer]]''' [http://www.real.com/freeplayer/?rppr=rnwk (download)]
+#Go to <span style="font-size:110%;">'''[https://www.xiph.org/dshow/ xiph.org/dshow]'''</span>.
+#Download the current stable version.
+#Run the setup program and follow the instructions on screen.
+#After the Setup Wizard finishes, your player (from step 1) should be able to play audio and video files from {{SITENAME}}.
+#If Windows does not automatically associate the file type with your favorite program, all you have to do is to drag/drop the file into it, or force the program to be associated with the .ogg file.
+
+If you use Internet Explorer 9 (or later), you can also install [https://tools.google.com/dlpage/webmmf/ WebM for IE].
+=== [[iOS]] ===
+*'''WikiLinks''' is an application for browsing Wikipedia on any iOS device which can play both Theora video and Vorbis audio files.
+*'''Wikipanion''' is an application for browsing Wikipedia on iPhone or iPad which can play audio files (Vorbis).
+**'''Wikipanion for iPad''' [https://itunes.apple.com/au/app/wikipanion-for-ipad/id364195592?mt=8 (download)] Free.
+**'''Wikipanion for iPhone''' [https://itunes.apple.com/au/app/wikipanion/id288349436?mt=8 (download)] Free.
+
+===[[Mac OS X|Macintosh (Mac OS X)]]===
+*'''[[VLC media player]]''' is a media player which can play Vorbis and Theora files.
+#Go to the '''[http://www.videolan.org/vlc/download-macosx.html VLC player Mac OS X download page]'''
+#Select an appropriate version of the software to download.
+#Wait for the disk image file to download. This should take around 18 minutes on a 56k modem, or quicker if you have a faster connection.
+#Once downloading has finished, double click the disk image to mount it.
+#Copy the VLC Application to your Applications folder.
+#When the copy operation finishes, you can use VLC to play audio and video files from {{SITENAME}}.
+
+===[[Unix]] (Including [[Linux]], [[Berkeley Software Distribution|BSD]], [[Solaris (operating system)|Solaris]], etc)===
+Many recent [[free software|free]] Unix systems are able to play Vorbis audio without any installation. If you don't have any audio software installed, use your preferred packaging system to browse the players list and pick one. For example, you may install [[Totem (media player)|Totem]], [[Amarok (audio)|Amarok]], [[MPlayer]], [[xine]], [[VLC media player]], [[XMMS]] and others.
+
+*'''libtheora''' is required for Theora video support.
+#Use your distribution's [[package management system]], such as [[Advanced Packaging Tool|APT]] or [[Yellow Dog Updater Modified|YUM]], to search for and install libtheora.
+#New media players such as '''[[MPlayer]]''', '''[[xine]]''', or '''[[VLC_media_player|VLC]]''' should be able to play Theora video as well as Vorbis audio.
+*To play Theora video with [[GStreamer]]-based players such as '''[[Totem (media player)|Totem]]''', you must install the Theora GStreamer plugin. Again, your package manager should take care of this.
+
+== Playing the files ==
+You can try your player using the [[commons:Category:Sound|Wikimedia Commons Sound]] and [[commons:Category:Video|Video files]].
+
+== Creating media files ==
+To learn how to create video or audio files for Wikipedia and its sister projects, check [[Wikipedia:Creation and usage of media files]].
+
+</div>
+__NOTOC__
+
+[[Category:Wikipedia features|Media help (Ogg)]]
+
+[[zh:{{SITENAME}}:媒體幫助 (Ogg)]]
