@@ -1,0 +1,23 @@
+<!--
+
+NOTICE: A space character or a line break is deliberately not put between description and title. Sometimes, you just want to put a footnote in description.
+
+-->{{side box
+|position  = {{{pos|}}}
+|style     = {{#ifeq:{{{plain|}}}|yes|border:none; background:transparent; float:none;}}{{#ifeq:{{{pos|}}}|left|float:left;}}{{{style|}}}
+|textstyle = line-height:1.1em;
+|image     = {{#ifeq:{{{plain|}}}|yes||{{#if:{{{image|}}}|{{{image}}}|[[Image:{{#switch:{{lc:{{{type|}}}}}
+  | sound    = Gnome-mime-sound-openclipart.svg
+  | speech   = Audio-input-microphone.svg
+  | music= Gnome-mime-audio-openclipart.svg
+ | #default = Gnome-mime-audio-openclipart.svg
+ }}|65x50px|center|link=|alt=]]}}}}
+|text      = {{#if:{{{header|}}}|<div style="background:transparent; text-align:left; padding:2px;">{{{header}}}</div>}}
+<ul style="list-style: inside disc">
+<li>{{audio-nohelp|{{{filename|<noinclude>Pathétique-3.mid</noinclude>}}}|{{{title|<noinclude>Title</noinclude>}}}}}{{{description|<noinclude> Description appears here</noinclude>}}}</li>{{#if:{{{filename2|}}}|
+<li>{{audio-nohelp|{{{filename2|}}}|{{{title2|}}}}}{{{description2|}}}}}</li>{{#if:{{{filename3|}}}|
+<li>{{audio-nohelp|{{{filename3|}}}|{{{title3|}}}}}{{{description3|}}}}}</li>{{#if:{{{filename4|}}}|
+<li>{{audio-nohelp|{{{filename4|}}}|{{{title4|}}}}}{{{description4|}}}}}</li>
+</ul>
+|below = {{#ifeq:{{{plain|}}}|yes||{{#ifeq:{{{help|}}}|no||<span style="font-size:smaller;">''Problems listening to {{#if:{{{filename2|}}}{{{filename3|}}}{{{filename4|}}}|these files|this file}}? See [[Wikipedia:Media help|media help]].''</span>}}}}
+}}<noinclude>{{documentation}}</noinclude>
