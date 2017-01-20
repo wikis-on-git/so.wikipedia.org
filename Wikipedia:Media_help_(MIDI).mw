@@ -1,0 +1,39 @@
+<div style="text-align:center;border-bottom:3px solid #A3B1BF">
+<div style="float:left;width:32.5%;padding:.3em 0;margin:2px 2px 0">[[Wikipedia:Media help|Media introduction]]</div>
+<div style="float:left;width:32.5%;padding:.3em 0;margin:2px 2px 0">[[Wikipedia:Media help (Ogg)|Audio and video]]</div>
+<div style="float:right;width:32%;font-weight:bold;background-color:#cee0f2;color:#000;padding:.3em 0;border:2px solid #A3B1BF; border-bottom:0;font-size:130%">[[Wikipedia:Media help (MIDI)|MIDI]]</div>
+<div style="width:0;height:0;clear:both;overflow:hidden"></div>
+</div> __NOEDITSECTION__
+<div style="border:3px solid #A3B1BF;padding:.5em 1em 1em 1em;border-top:none;background-color:#fff;color:000">
+
+==Playing Standard MIDI Files==
+[[File:Brahms1-1.svg|thumb|right|300px|Standard MIDI Files trigger sounds played on a [[synthesizer]]. {{audio|Brahms1-1.mid|Play}}]]
+:{{Audio|Twelve bar boogie-woogie blues in C.mid|play MIDI example}} from [[Twelve bar blues]]
+Standard [[Musical Instrument Digital Interface|MIDI]] Files (SMF) contain instructions that trigger sounds played by a [[synthesizer]] which is typically expected to meet the [[General MIDI]] specification. On a personal computer these instructions can be turned into sound by either a software synthesizer, or by sending them along to a hardware synthesizer. 
+There can be remarkable differences in the sound produced by a MIDI file, depending on the machine on which it is played and the instrument samples it uses.
+
+The following problems might occur when playing MIDI files:
+* The machine on which you play the file must have both the software and hardware required to play MIDI files.  This is natively supported in Windows, used to be built into Macintosh computers by default.  Now you may need to install additional software.
+* Your [[web browser]] might need a [[Plug-in (computing)|plug-in]] to play MIDI files by clicking on an [[Hyperlink|embedded link]] in a web page. [[Firefox]] plug-ins that support MIDI playback include [[Quicktime]] [https://support.mozilla.org/en-US/kb/fix-common-audio-and-video-issues#w_plugins (Fix common audio and video issues)] as well as [[Totem (media player)|Totem]]. [[Internet Explorer]] supports MIDI playback by launching [[Windows Media Player]], which plays MIDI natively. As of 2015-04, there seems to be no [[Mac OS X 10.8]]+ browser plugin that allows playing MIDI files without downloading them first.
+* Your [[sound card mixer]] playback settings might need to be changed. You can enable and unmute all playback devices, and then increase the volume of all of them, to ensure that your sound card sends MIDI audio to its output.
+* MIDI files encoded with a more recent version of the MIDI standard might not be correctly rendered if your machine doesn't support that version of the standard.
+* Some hardware manufacturers produce proprietary [[MIDI#Extensions of the MIDI standard|extensions to the general MIDI standard]] that are not rendered by all MIDI players. Such hardware-specific extensions are to be avoided in MIDI files uploaded to Wikipedia.
+ 
+If your sound card does not support MIDI – or on Mac OS X 10.8+ –, free cross-platform software such as [[MuseScore]] and [[TiMidity]] is able to play these files after you have downloaded them to your computer, or convert them to other sound formats. [[VLC media player]] is a cross-platform media player that could [http://wiki.videolan.org/Midi play MIDI files] till version 2.0.8 (but never on Mac OS X, though). The [https://wiki.videolan.org/Midi actual versions do not support MIDI files].
+
+Free software is available to display the content of the most current types of MIDI files in [[sheet music]] or [[Music sequencer|sequencer]] format, or both, including [[Rosegarden]] and [[GNU LilyPond|Lilypond]].
+
+==Creating==
+MIDI files may be created with [[Comparison of MIDI editors and sequencers|MIDI sequencing software]] such as [[Cakewalk (sequencer)|Cakewalk]] or [[List of scorewriters|scorewriting]] software such as [[Sibelius (software)|Sibelius]]. MIDI may also be created within the editor as Lilypond is available in [[MediaWiki]] via the {{srlink|:mw:Extension:Score|Score extension}} code.
+For example, this notation
+
+ <nowiki><score vorbis="1">\relative c' { f d f a d f e d cis a cis e a g f e }</score></nowiki>
+transforms into
+<score vorbis="1">\relative c' { f d f a d f e d cis a cis e a g f e }</score>
+
+A simplified version of [[Solfeggietto]] in C minor by [[Carl Philipp Emanuel Bach|C.P.E. Bach]]. More complex scores, including lyrics, are also possible within MediaWikis.
+
+</div></div>
+__NOTOC__
+
+[[Category:Wikipedia features|Media help (MIDI)]]
