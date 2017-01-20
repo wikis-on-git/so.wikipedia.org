@@ -1,0 +1,165 @@
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+== Example ==
+The following code...
+<pre>{{Listen MIDI
+| pos          = left
+| header       = Header
+| filename     = X.mid
+| title        = XX
+| description  = &amp;nbsp;...
+| filename2    = Y.mid
+| title2       = YY
+| description2 = ...
+| filename3    = Z.mid
+| title3       = ZZ
+}}</pre>
+
+...produces:
+{{Listen MIDI
+| pos          = left
+| header       = Header
+| filename     = X.mid
+| title        = XX
+| description  = &nbsp;...
+| filename2    = Y.mid
+| title2       = YY
+| description2 = ...
+| filename3    = Z.mid
+| title3       = ZZ
+}}
+{{Clear}}
+
+== TemplateData ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "",
+	"params": {
+		"pos": {
+			"label": "Position",
+			"type": "string",
+			"required": false,
+			"description": "By default, this temlate creates side box to the right. If this parameter is set to \"left\", the side box appears on the lefthand side."
+		},
+		"plain": {
+			"label": "Plain?",
+			"type": "string",
+			"required": false,
+			"description": "Normally, the template shows an icon in the side box indicate the type its context. Furthermore, the side box normally has a silver background with gray borders. If this parameter is set to \"yes\", the icon, the background and the border are all omitted."
+		},
+		"style": {
+			"label": "CSS Style",
+			"type": "string",
+			"required": false,
+			"description": "CSS style for the side box. A good example is width."
+		},
+		"image": {
+			"label": "Image",
+			"type": "string",
+			"required": false,
+			"description": "Use this parameter to customize the side box icon. Full image synatx is needed. Recommended size is 65x65px. This parameter takes precedence over \"Image\"."
+		},
+		"type": {
+			"label": "Type",
+			"type": "string",
+			"required": false,
+			"description": "Use this parameter to change the side box icon. Acceptable values are \"music\", \"sound\", \"speech\". Default is \"music\"."
+		},
+		"header": {
+			"label": "Header",
+			"type": "string",
+			"required": false,
+			"description": "An optional header in large font"
+		},
+		"filename": {
+			"label": "File name",
+			"type": "string",
+			"required": true,
+			"description": "Name of the first file without \"File:\" (or \"Image:\") prefix"
+		},
+		"title": {
+			"label": "Title",
+			"type": "string",
+			"required": true,
+			"description": "Title of the first file. Will be wikilinked. Must contain plain text only."
+		},
+		"description": {
+			"label": "Description",
+			"type": "string",
+			"required": false,
+			"description": "An optional description for the first file. Can contain text and wikicode. By default it is not separated from title with a space character because most of the time, editor wish to supply a footnote here. Use \"&nbsp;\" or \"&#13;\" to prefix a space character."
+		},
+		"filename2": {
+			"label": "File name 2",
+			"type": "string",
+			"required": false,
+			"description": "Name of the second file without \"File:\" (or \"Image:\") prefix"
+		},
+		"title2": {
+			"label": "Title 2",
+			"type": "string",
+			"required": false,
+			"description": "Title of the second file. Will be wikilinked. Must contain plain text only."
+		},
+		"description2": {
+			"label": "Description 2",
+			"type": "string",
+			"required": false,
+			"description": "An optional description for the second file. Can contain text and wikicode. By default it is not separated from title with a space character because most of the time, editor wish to supply a footnote here. Use \"&nbsp;\" or \"&#13;\" to prefix a space character."
+		},
+		"filename3": {
+			"label": "File name 2",
+			"type": "string",
+			"required": false,
+			"description": "Name of the third file without \"File:\" (or \"Image:\") prefix"
+		},
+		"title3": {
+			"label": "Title 3",
+			"type": "string",
+			"required": false,
+			"description": "Title of the third file. Will be wikilinked. Must contain plain text only."
+		},
+		"description3": {
+			"label": "Description 3",
+			"type": "string",
+			"required": false,
+			"description": "An optional description for the third file. Can contain text and wikicode. By default it is not separated from title with a space character because most of the time, editor wish to supply a footnote here. Use \"&nbsp;\" or \"&#13;\" to prefix a space character."
+		},
+		"filename4": {
+			"label": "File name 4",
+			"type": "string",
+			"required": false,
+			"description": "Name of the fourth file without \"File:\" (or \"Image:\") prefix"
+		},
+		"title4": {
+			"label": "Title 4",
+			"type": "string",
+			"required": false,
+			"description": "Title of the fourth file. Will be wikilinked. Must contain plain text only."
+		},
+		"description4": {
+			"label": "Description 4",
+			"type": "string",
+			"required": false,
+			"description": "An optional description for the fourth file. Can contain text and wikicode. By default it is not separated from title with a space character because most of the time, editor wish to supply a footnote here. Use \"&nbsp;\" or \"&#13;\" to prefix a space character."
+		},
+		"help": {
+			"label": "Help text?",
+			"type": "string",
+			"required": false,
+			"description": "Can be set to \"no\" to suppress the help text appended at the bottom of the side box."
+		}
+	}
+}
+</templatedata>
+
+== See also ==
+{{Audio templates}}
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox | |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Audio templates]]
+[[Category:MIDI files]]
+}}</includeonly>
