@@ -1,0 +1,28 @@
+{{Infobox
+|title = {{{title|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+|titlestyle = font-style:normal;
+|subheader = {{{transcription|}}}
+|subheaderstyle = font-size:small;font-weight:normal;
+|above = {{#if:{{{english_title|}}} |''English:''&nbsp;{{{english_title}}} }}
+|abovestyle = font-size:small;font-style:normal;
+|image     = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|alt={{{alt|}}}}} 
+|caption = {{{caption|}}}
+
+|data1 = {{#if:{{{country|}}} |<hr/>'''{{{prefix|National}}} anthem of {{{country}}}'''<hr/>}}
+|label2 = {{nowrap|Also known as}}
+|data2 = {{{alt_title|}}}{{#if:{{{en_alt_title|}}}|<br/><small>English:&nbsp;{{{en_alt_title}}}</small>}}{{#if:{{{alt_title_2|}}}|<br/>{{{alt_title_2}}}</small>}}{{#if:{{{en_alt_title_2|}}}|<br/><small>{{lang-en|{{{en_alt_title_2}}}}}</small>}}
+|label3 = Lyrics
+|data3 = {{{author|}}}{{#if:{{{lyrics_date|}}}|, {{{lyrics_date}}}}}
+|label4 = Music
+|data4 = {{{composer|}}}{{#if:{{{music_date|}}}|, {{{music_date}}}}}
+|label5 = Adopted
+|data5 = {{{adopted|}}}
+|label6 = Relinquished
+|data6 = {{{until|}}}
+
+|below = {{#if:{{{sound|}}} |&#32;
+{{Extra music sample |type=song |colspan=2|filename={{{sound}}}|title={{{sound_title|Sample}}} }} }}
+}}<noinclude>
+{{Documentation}}
+<!--Please add this template's categories to the /doc subpage, not here - thanks!-->
+</noinclude>
