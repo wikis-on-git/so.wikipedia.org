@@ -1,3 +1,3 @@
-<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> (waxa uu jiray&nbsp;{{Sano|{{{4}}}|{{{5}}}|{{{6}}}|{{{1}}}|{{{2}}}|{{{3}}}}})</includeonly><noinclude>
+<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> ({{Sano|{{{4}}}|{{{5}}}|{{{6}}}|{{{1}}}|{{{2}}}|{{{3}}}}}&nbsp;Jir)</includeonly><noinclude>
 {{documentation}}
 </noinclude>
