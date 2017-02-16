@@ -12,7 +12,7 @@
 | data2       = {{{names|}}}
 
 | label3      = Nooca
-| data3       = {{#if:{{{classification|}}}|<span />
+| data3       = {{#if:{{{classification|}}}|<span></span>
 {{{classification}}}
 }}
 | label4      = Shanqadha laxanka
@@ -37,24 +37,24 @@
 | data10      = {{#if:{{{decay|}}}|{{{decay|}}}}}
 
 | header11    = {{#if:{{{range|}}}|Heerka Codka Shanqadha}}
-| data12      = {{#if:{{{range|}}}|<span />
+| data12      = {{#if:{{{range|}}}|<span></span>
 {{{range}}}
 {{#if:{{{pitch|}}}|{{{pitch}}}}}
 }}
 | header13     = {{#if:{{{related|}}}|La xidhiidha}}
-| data14       = {{#if:{{{related|}}}|<span />
+| data14       = {{#if:{{{related|}}}|<span></span>
 {{{related}}}
 }}
 | header15     = {{#if:{{{musicians|}}}|Musicians}}
-| data16       = {{#if:{{{musicians|}}}|<span />
+| data16       = {{#if:{{{musicians|}}}|<span></span>
 {{{musicians}}}
 }}
 | header17     = {{#if:{{{builders|}}}|Builders}}
-| data18       = {{#if:{{{builders|}}}|<span />
+| data18       = {{#if:{{{builders|}}}|<span></span>
 {{{builders}}}
 }}
 | header19     = {{#if:{{{articles|}}}|More articles}}
-| data20       = {{#if:{{{articles|}}}|<span />
+| data20       = {{#if:{{{articles|}}}|<span></span>
 {{{articles}}}
 }}
 }}<noinclude>{{pp-template}}{{documentation}}</noinclude>
