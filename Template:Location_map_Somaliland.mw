@@ -1,1 +1,15 @@
-#REDIRECT [[Template:Location map Somalia]]
+{{#switch:{{{1}}}
+| name   = Somaliland
+| top    = 12.4
+| bottom = -2.05
+| left   = 40.5
+| right  = 51.9
+| image  = Somaliland location map.jpg
+}}<noinclude><!--
+-- The above switch-statement branches by text in parameter #1,
+-- returning the associated value after each equals sign ("=").
+-->
+{{Location map/Info}}
+{{Documentation}}
+[[Category:Location map by country templates|Somaliland]]
+</noinclude>
