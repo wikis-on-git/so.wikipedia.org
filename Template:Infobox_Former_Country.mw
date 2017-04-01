@@ -171,24 +171,24 @@ For the preceding and succeeding entities, give as input the name the territory.
   |Constitutional monarchy |Constitutional Monarchy|Elective monarchy|Elective Monarchy |Absolute Monarchy |Absolute monarchy
   |Monarchy=[[{{{government_type}}}]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{continent}}}
     |Europe=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]]
-    |Asia=[[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
+    |Asia=[[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]]
     |North America=[[Category:Ameerika|{{{common_name}}}, {{{year_start}}}]]
     |South America=[[Category:Ameerika|{{{common_name}}}, {{{year_start}}}]]
     |Africa=[[Category:Afrika|{{{common_name}}}, {{{year_start}}}]]
-    |Oceania=[[Category:Former monarchies of Oceania|{{{common_name}}}, {{{year_start}}}]]
+    |Oceania=[[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]]
     |Eurasia=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]]
-    |Afroasia=[[Category:Afrika|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Asia|{{{common_name}}}, {{{year_start}}}]]
-    |Afroeurasia=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]][[Category:Former monarchies of Africa|{{{common_name}}}, {{{year_start}}}]]|[[Category:Former monarchies|{{{common_name}}}, {{{year_start}}}]]
+    |Afroasia=[[Category:Afrika|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]]
+    |Afroeurasia=[[Category:Yurub|{{{common_name}}}, {{{year_start}}}]][[Category:Aasiya|{{{common_name}}}, {{{year_start}}}]][[Category:Afrika|{{{common_name}}}, {{{year_start}}}]]|[[Category:Maqaal u baahan shaqo|{{{common_name}}}, {{{year_start}}}]]
     }}}}
-  |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former republics|{{{common_name}}}, {{{year_start}}}]]}}
-  |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former principalities|{{{common_name}}}, {{{year_start}}}]]}}
-  |Emirate=[[Emirate]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former emirates|{{{common_name}}}, {{{year_start}}}]]}}
-  |Socialist state |Socialist republic |Socialist State |Socialist Republic=[[Socialist state|Socialist republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former socialist republics|{{{common_name}}}, {{{year_start}}}]]}}
+  |Republic|Federal Republic|Federal republic=[[Republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Wadan|{{{common_name}}}, {{{year_start}}}]]}}
+  |Principality=[[Principality]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Wadan|{{{common_name}}}, {{{year_start}}}]]}}
+  |Emirate=[[Emirate]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Wadan|{{{common_name}}}, {{{year_start}}}]]}}
+  |Socialist state |Socialist republic |Socialist State |Socialist Republic=[[Socialist state|Socialist republic]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Wadan|{{{common_name}}}, {{{year_start}}}]]}}
   |Dictatorship |Military Dictatorship=[[Dictatorship]]
-  |Theocracy = [[Theocracy]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Former theocracies|{{{common_name}}}, {{{year_start}}}]]}}
+  |Theocracy = [[Theocracy]] {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}|| [[Category:Wadan|{{{common_name}}}, {{{year_start}}}]]}}
   |Unknown = ''Unknown''
   |Various = 
-  |#default = {{#ifexist:{{{government_type}}}|[[{{{government_type}}}]]|{{{government_type}}}}}<!-- ''Value specified for "government_type" [[Template:Infobox former country/doc#Politics|does not comply]]'' -->{{ns0|[[Category:Former country articles requiring maintenance|G]]}}
+  |#default = {{#ifexist:{{{government_type}}}|[[{{{government_type}}}]]|{{{government_type}}}}}<!-- ''Value specified for "government_type" [[Template:Infobox former country/doc#Politics|does not comply]]'' -->{{ns0|[[Category:Maqaal u baahan shaqo|G]]}}
   }}|{{#if:{{{status|}}}|{{#ifexist:{{{status}}}|[[{{{status}}}]]|{{{status}}}}}|''Not specified''}}
 }}
 |- {{#if:{{{year_leader1|}}}{{{leader2|}}}{{{deputy1|}}}{{{representative1|}}} | class="mergedrow"|class="mergedbottomrow"}}
@@ -326,8 +326,8 @@ For the preceding and succeeding entities, give as input the name the territory.
 <!----- Events  ----->
 | {{#if:{{{era|}}}|'''Historical era'''|'''Taariikhda'''}}
 || {{#if:{{{era|}}}|{{#ifexist:{{{era|}}}|[[{{{era}}}]]|{{{era}}}}} {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{#switch:{{{era}}}
-  |Cold War=[[Category:Former polities of the Cold War|{{{common_name}}}, {{{year_start}}}]]
-  |Interwar period=[[Category:Former polities of the Interwar period|{{{common_name}}}, {{{year_start}}}]]
+  |Cold War=[[Category:Maqaal|{{{common_name}}}, {{{year_start}}}]]
+  |Interwar period=[[Category:Maqaal|{{{common_name}}}, {{{year_start}}}]]
   }} }} }}
 |- class="mergedrow"
 {{#if:{{{event_pre|}}}|{{Infobox former country/event|event={{{event_pre}}}|year=|date={{#if:{{{date_pre|}}}|{{{date_pre}}}}}}}}}
@@ -452,7 +452,7 @@ For the preceding and succeeding entities, give as input the name the territory.
           <td>   {{{calling_code_note}}} }}
 }}
 |- class="mergedtoprow"
-{{#if:{{{pn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}{{#if:{{{sn1|}}} |[[Category:Former country articles requiring maintenance|F]]}}
+{{#if:{{{pn1|}}} |[[Category:Maqaal u baahan shaqo|F]]}}{{#if:{{{sn1|}}} |[[Category:Maqaal u baahan shaqo|F]]}}
 {{#ifeq: {{#expr: {{#expr:{{#if:{{{p5|}}}|1|0}}+{{#if:{{{s5|}}}|1|0}}}} > 0}} | 1 |
 <!----- Preceding and succeding entities without flags (used if more than 5) ----->
 {{!}} colspan="2" {{!}}
