@@ -9,7 +9,7 @@
 | flag alias-naval-RFA = British-Royal-Fleet-Auxiliary-Ensign.svg
 | flag alias-naval-RMAS = British Royal Maritime Auxiliary Ensign.svg
 | link alias-naval = {{#switch:{{{variant|}}}|naval-RFA|RFA=Royal Fleet Auxiliary|naval-RMAS|RMAS=Royal Maritime Auxiliary Service|#default=Royal Navy}}
-| flag alias-air force = Ensign of the Royal Air Force.svg
+| flag alias-air force = Air Force Ensign of the United Kingdom.svg
 | link alias-air force = Royal Air Force
 | flag alias-army = Flag of the British Army.svg
 | link alias-army = British Army
