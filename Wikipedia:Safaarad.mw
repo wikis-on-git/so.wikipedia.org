@@ -149,3 +149,30 @@ On behalf of the Election Committee,<br />
 
 ''Posted by [[m:Special:MyLanguage/User:MediaWiki message delivery|MediaWiki message delivery]] on behalf of the [[m:Special:MyLanguage/Wikimedia Foundation elections committee|Wikimedia Foundation Elections Committee]], 03:36, 7 Abriil 2017 (UTC) • [[m:Special:MyLanguage/Wikimedia Foundation elections/2017/Updates/Start of the 2017 Wikimedia Foundation Board of Trustees elections|{{int:please-translate}}]] • [[m:Talk:Wikimedia Foundation elections/2017|Get help]]''</div>
 <!-- Message sent by User:GVarnum-WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=16441214 -->
+
+== Read-only mode for 20 to 30 minutes on 19 April and 3 May ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"><div class="plainlinks">
+
+[[:m:Special:MyLanguage/Tech/Server switch 2017|Read this message in another language]]  •  {{int:please-translate}}
+
+The [[foundation:|Wikimedia Foundation]] will be testing its secondary data center in Dallas.  This will make sure that Wikipedia and the other Wikimedia wikis can stay online even after a disaster.  To make sure everything is working, the Wikimedia Technology department needs to conduct a planned test.  This test will show whether they can reliably switch from one data center to the other. It requires many teams to prepare for the test and to be available to fix any unexpected problems. 
+
+They will switch all traffic to the secondary data center on '''Wednesday, 19 April 2017'''.
+On '''Wednesday, 3 May 2017''', they will switch back to the primary data center.  
+
+Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|MediaWiki]], all editing must stop during those two switches.  We apologize for this disruption, and we are working to minimize it in the future. 
+
+'''You will be able to read, but not edit, all wikis for a short period of time.'''
+
+*You will not be able to edit for approximately 20 to 30 minutes on Wednesday, 19 April and Wednesday, 3 May. The test will start at [https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170419T14 14:00 UTC] (15:00 BST, 16:00 CEST, 10:00 EDT, 07:00 PDT, 23:00 JST, and in New Zealand at 02:00 NZST on Thursday 20 April and Thursday 4 May). 
+*If you try to edit or save during these times, you will see an error message.  We hope that no edits will be lost during these minutes, but we can't guarantee it.  If you see the error message, then please wait until everything is back to normal.  Then you should be able to save your edit.  But, we recommend that you make a copy of your changes first, just in case.
+
+''Other effects'':
+
+*Background jobs will be slower and some may be dropped. Red links might not be updated as quickly as normal. If you create an article that is already linked somewhere else, the link will stay red longer than usual. Some long-running scripts will have to be stopped.
+*There will be code freezes for the weeks of 17 April 2017 and 1 May 2017.  Non-essential code deployments will not happen.
+
+This project may be postponed if necessary.  You can [[wikitech:Switch Datacenter#Schedule for 2017 switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this.  '''Please share this information with your community.''' /<span dir=ltr>[[m:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] ([[m:User talk:Whatamidoing (WMF)|talk]])</span>
+</div></div>[[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 17:34, 11 Abriil 2017 (UTC)
+<!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=16545942 -->
