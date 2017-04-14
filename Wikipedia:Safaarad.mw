@@ -176,3 +176,17 @@ Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|Med
 This project may be postponed if necessary.  You can [[wikitech:Switch Datacenter#Schedule for 2017 switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this.  '''Please share this information with your community.''' /<span dir=ltr>[[m:User:Whatamidoing (WMF)|User:Whatamidoing (WMF)]] ([[m:User talk:Whatamidoing (WMF)|talk]])</span>
 </div></div>[[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 17:34, 11 Abriil 2017 (UTC)
 <!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=16545942 -->
+
+== Wikidata description editing in the Wikipedia Android app ==
+
+<div class="mw-content-ltr" lang="en" dir="ltr">
+[[:mw:Wikimedia_Apps/Short_descriptions|Wikidata description editing]] is a new experiment being rolled out on the Wikipedia app for Android.  While this primarily impacts Wikidata, the changes are also addressing a concern about the mobile versions of Wikipedia, so that mobile users will be able to edit directly the descriptions shown under the title of the page and in the search results.
+
+We began by rolling out this feature several weeks ago  to a pilot group of Wikipedias (Russian, Hebrew, and Catalan), and have seen very positive [[:mw:Wikimedia_Apps/Short_descriptions/Research|results]] including numerous quality contributions in the form of new and updated descriptions, and a low rate of vandalism.
+
+We are now ready for the next phase of rolling out this feature, which is to enable it in a few days for all Wikipedias except the top ten by usage within the app (i.e. except English, German, Italian, French, Spanish, Japanese, Dutch, Portuguese, Turkish, and Chinese). We will enable the feature for those languages instead at some point in the future, as we closely monitor user engagement with our expanded set of pilot communities.
+As always, if have any concerns, please reach out to us on wiki at [[:mw:Talk:Wikimedia_Apps/Short_descriptions|the talk page for this project]] or by email at reading@wikimedia.org. Thanks!
+
+-[[:mw:User:DBrant (WMF)|DBrant (WMF)]] 08:41, 14 Abriil 2017 (UTC)
+</div>
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/Wikidata_editing&oldid=16580284 -->
