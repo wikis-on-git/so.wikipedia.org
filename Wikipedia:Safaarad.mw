@@ -190,3 +190,26 @@ As always, if have any concerns, please reach out to us on wiki at [[:mw:Talk:Wi
 -[[:mw:User:DBrant (WMF)|DBrant (WMF)]] 08:41, 14 Abriil 2017 (UTC)
 </div>
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Elitre_(WMF)/Wikidata_editing&oldid=16580284 -->
+
+== New Page previews feature ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"><div class="plainlinks">
+New Page previews feature
+
+[[:m:Special:MyLanguage/User:CKoerner (WMF)/Enable Hovercards/Phase 1|Read this message in another language]]  •  {{int:please-translate}}
+
+Hello,
+
+The Reading web team at the Wikimedia Foundation has been working to enable [[mw:Beta Features/Hovercards|Page previews]], [[Special:Preferences#mw-prefsection-betafeatures|a beta feature]] known previously as Hovercards, as opt-in behavior for logged-in users and the default behavior for logged-out users across Wikipedia projects. Page previews provide a preview of any linked article, giving readers a quick understanding of a related article without leaving the current page. For this project, we are expecting to collect feedback over the following few weeks and tentatively enable the feature in early May, 2017.
+
+A quick note on the implementation:
+
+* For logged-in users who are not currently testing out the beta feature, Page previews will be off by default. Users may turn them on from [[Special:Preferences#mw-prefsection-betafeatures|their user preferences]] page.
+* For logged-out users, the feature will be on by default. Users may disable it at any time by selecting the setting cog available in each preview.
+* For users of the Navigation popups gadget, you will not be able to turn on the Page previews feature while using navigational popups. If you would like to try out the Page preview feature, make sure to first turn Navigation popups off prior to turning Page previews on. 
+
+You can read more about [[mw:Beta_Features/Hovercards|the feature]] and [[mw:Beta Features/Hovercards#Success Metrics and Feature Evaluation|the tests we used to evaluate performance]], try it out by enabling it from the beta features page, and leave feedback or questions [[mw:Talk:Beta_Features/Hovercards|on the talk page]]. 
+
+Thank you, [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 16:52, 19 Abriil 2017 (UTC)
+</div></div>
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Enable_Hovercards/Phase_1/Distribution_list&oldid=16616381 -->
