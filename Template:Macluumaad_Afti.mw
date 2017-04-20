@@ -16,14 +16,14 @@
 | caption = {{{caption|}}}
 | imagestyle = border-bottom: 1px solid #CCC
 
-| label1 = Location
+| label1 = Goobta
 | class1 = location
 | data1  = {{{location|}}}
 
-| label2 = Date
+| label2 = Taariikh
 | data2  = {{{date|}}}
 
-| label3 = Voting system
+| label3 = Habka codaynta
 | data3 = {{{voting_system|}}}
 
 | data4 = {{#if:{{{yes|}}}{{{no|}}}{{{other|}}}{{{total|}}}|{{Infobox referendum/results| yes_text = {{{yes_text|}}}| yes = {{{yes|}}}| no_text = {{{no_text|}}}| no = {{{no|}}}| othertype = {{{othertype|}}} | other = {{{other|}}} | {{#ifeq:{{{invalid|Ø}}}|Ø|Ø|invalid}} = {{{invalid|}}} | total= {{{total|}}}| totalref= {{{totalref|}}} | turnoutpct = {{{turnoutpct|}}}| electorate = {{{electorate|}}}| voter_registration = {{{voter_registration|}}} }}
@@ -31,10 +31,10 @@
 
 | data5  = {{#if:{{{map|}}}|{{Infobox referendum/map
  |map = {{{map}}}
- |map_header = Results by {{#if:{{{mapdivision|}}} | {{{mapdivision}}} | county }}
+ |map_header = Natiijooyinka hadba {{#if:{{{mapdivision|}}} | {{{mapdivision}}} | county }}
  |map_caption = {{{mapcaption|}}}
  |map2 = {{{map2}}}
- |map_header2 = Results by {{#if:{{{mapdivision|}}} | {{{mapdivision}}} | county }}
+ |map_header2 = Natiijooyinka hadba {{#if:{{{mapdivision|}}} | {{{mapdivision}}} | county }}
  |map_caption2 = {{{mapcaption|}}}
  |detailed_legend = {{{detailed_legend|}}}
  |legend_yes={{{legend_yes|#24B14C}}}
