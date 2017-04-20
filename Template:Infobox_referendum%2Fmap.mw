@@ -30,12 +30,12 @@
 {{documentation|content=
 This subtemplate of {{tl|{{BASEPAGENAME}}}} is used to generate the referendum results map with legend.  It should not be used directly.
 == Examples ==
-:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county}}</nowiki></code>
-{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county}}
-:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|detailed_legend=yes}}</nowiki></code>
-{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|detailed_legend=yes}}
-:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|legend_yes=red|legend_no=blue}}</nowiki></code>
-{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|legend_yes=red|legend_no=blue}}
-:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|map_caption=caption}}</nowiki></code>
-{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|map_caption=Caption}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|detailed_legend=yes}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|detailed_legend=yes}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|legend_yes=red|legend_no=blue}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|legend_yes=red|legend_no=blue}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|map_caption=caption}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Natiijooyinka hadba dal|map_caption=Caption}}
 }}</noinclude>
