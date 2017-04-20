@@ -1,0 +1,65 @@
+{| class="wikitable" style="text-align:right; width:25em; margin:0"
+|+ style="background-color:#f2f2f2;margin-bottom:-1px;border:1px solid #aaa;padding:.2em .4em" | Natiijooyinka
+|- style="background-color:#EEEEEE"
+{{#if: {{{yes|}}} |
+{{!}} style="width: 17em; background-color:#f2f2f2" {{!}}
+! scope="col" style="width: 5em"                    {{!}} Votes
+! scope="col" style="width: 7em"                    {{!}} %
+{{!}}-
+{{#ifexpr: {{formatnum:{{{yes}}}|R}} > {{formatnum:{{{no}}}|R}} |
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{yes_text|}}}|'''{{{yes_text}}}'''|[[Image:Yes_check.svg|14px|link=|alt=]] '''Yes'''}}
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} '''{{formatnum: {{formatnum:{{{yes}}}|R}} }}'''
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} '''{{percentage| {{formatnum:{{{yes}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}'''
+{{!}}-
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{no_text|}}}|'''{{{no_text}}}'''|[[Image:X_mark.svg|14px|link=|alt=]] '''No'''}}
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{formatnum:{{{no}}}|R}} }}
+{{!}} style="text-align: right;"             {{!}} {{percentage| {{formatnum:{{{no}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}
+{{!}}-
+{{#if:{{{other|}}}|
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{othertype|}}}|{{{othertype}}}|Other}}
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{formatnum:{{{other}}}|R}} }}
+{{!}} style="text-align: right;"             {{!}} {{percentage| {{formatnum:{{{other}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}
+}}
+|
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{yes_text|}}}|{{{yes_text}}}|[[Image:Yes_check.svg|14px|link=|alt=]] Yes}}
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} {{formatnum: {{formatnum:{{{yes}}}|R}} }}
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} {{percentage| {{formatnum:{{{yes}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}
+{{!}}-
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{no_text|}}}|{{{no_text}}}|[[Image:X_mark.svg|14px|link=|alt=]] No}}
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} '''{{formatnum: {{formatnum:{{{no}}}|R}} }}'''
+{{!}} style="text-align: right;margin-right: 0.5em"            {{!}} '''{{percentage| {{formatnum:{{{no}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}'''
+{{!}}-
+{{#if:{{{other|}}}|
+{{!}} style="text-align: left;"              {{!}} {{#if:{{{othertype|}}}|{{{othertype}}}|Other}}
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{formatnum:{{{other}}}|R}} }}
+{{!}} style="text-align: right;"             {{!}} {{percentage| {{formatnum:{{{other}}}|R}} | {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | pad = {{{pct_prec|2}}} }}
+}}
+}}
+{{!}}- style="background-color:#EEEEEE"
+{{#if: {{{total|}}}{{{invalid|}}} |
+{{#if:{{{invalid|Ø}}}|
+{{!}} style="text-align: left"               {{!}} Valid votes
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} }}
+{{!}} style="text-align: right;"             {{!}} {{percentage| {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} | {{formatnum:{{#if:{{{total|}}}|{{{total}}}|{{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} + {{formatnum:{{{invalid}}}|R}} }}}}|R}} | pad = {{{pct_prec|2}}} }}
+{{!}}- style="background-color:#EEEEEE"
+{{!}} style="text-align: left"      {{!}} Invalid {{#ifeq:{{{othertype|}}}|Blank votes| |or blank }} votes 
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{{invalid|{{#expr: {{formatnum:{{{total}}}|R}} - {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} }}}}} }}
+{{!}} style="text-align: right;"             {{!}} {{percentage| {{formatnum:{{{invalid|{{#expr: {{formatnum:{{{total}}}|R}} - {{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} }} }}}}}|R}} | {{formatnum:{{#if:{{{total|}}}|{{{total}}}|{{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} + {{formatnum:{{{invalid}}}|R}} }}}}|R}} | 2 }}
+}}
+{{!}}- style="background-color:#EEEEEE"
+{{!}} style="text-align: left"               {{!}} '''Total votes'''{{{totalref|}}}
+{{!}} style="text-align: right;"             {{!}} '''{{formatnum:{{#if:{{{total|}}}|{{{total}}}|{{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} + {{formatnum:{{{invalid}}}|R}} }}}} }}'''
+{{!}} style="text-align: right;"             {{!}} '''100.00%'''
+}}|
+{{!}}-
+{{!}} colspan="3"                                  {{unk|Natiijo aan weli la aqoon}}
+}}
+|- style="background-color:#EEEEEE"
+{{#if: {{both|{{{electorate|}}}|{{{total|}}}{{{invalid|}}}}}{{{turnoutpct|}}} |
+{{!}} style="text-align: left"               {{!}} {{#ifeq:{{{voter_registration|}}}|no|Eligible to vote|Registered voters}}/turnout
+{{!}} style="text-align: right;"             {{!}} {{formatnum: {{{electorate}}} }}
+{{!}} style="text-align: right;"             {{!}} {{#if:{{{turnoutpct|}}}|{{{turnoutpct}}}%|{{percentage| {{formatnum:{{#if:{{{total|}}}|{{{total}}}|{{#expr: {{formatnum:{{{yes}}}|R}} + {{formatnum:{{{no}}}|R}} + {{formatnum:{{#if:{{{other|}}}|{{{other}}}|0}}|R}} + {{formatnum:{{{invalid}}}|R}} }}}}|R}} | {{formatnum:{{{electorate}}}|R}} | 2 }}}}
+}}
+|}<noinclude>
+{{documentation}}
+</noinclude>
