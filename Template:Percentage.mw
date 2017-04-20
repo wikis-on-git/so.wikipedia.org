@@ -1,0 +1,3 @@
+<includeonly>{{nts | {{safesubst:#if: {{{pad|}}} | {{decimals | 100*{{safesubst:formatnum:{{{1|0}}}|R}}/{{safesubst:formatnum:{{{2|100}}}|R}} | {{{3|{{{pad}}}}}} }} | {{safesubst:#expr:100*{{safesubst:formatnum:{{{1|0}}}|R}}/{{safesubst:formatnum:{{{2|100}}}|R}} round ({{{3|0}}}>=0)*{{{3|0}}}}}}} }}{{{%|%}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
