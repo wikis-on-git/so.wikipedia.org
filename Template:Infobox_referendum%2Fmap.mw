@@ -1,0 +1,41 @@
+<includeonly>{| border="1" class="wikitable" style="width:25em; background:#fffff; text-align:center;"
+|- style="background-color:#dddddd;"
+! {{{map_header|}}}
+|-
+| {{#invoke:InfoboxImage|InfoboxImage|image={{{map|}}}|center=yes|imagesize=250px|sizedefault=250px|alt={{{map_alt|}}}}}
+|- style="text-align:left;"
+| {{#if:{{{map_caption|}}}
+ | {{{map_caption}}}
+ | {{#if:{{{detailed_legend|}}}
+   | {{legend|#2AFF2A|Yes 60–62.5%}}
+     {{legend|#55FF55|Yes 57.5–60%}}
+     {{legend|#80FF80|Yes 55–57.5%}}
+     {{legend|#AAFFAA|Yes 52.5–55%}}
+     {{legend|#D5FFD5|Yes 50–52.5%}}
+     {{legend|#FFD5D5|No 50–52.5%}}
+     {{legend|#FFAAAA|No 52.5–55%}}
+     {{legend|#FF8080|No 55–57.5%}}
+     {{legend|#FF5555|No 57.5–60%}}
+     {{legend|#FF2A2A|No 60–62.5%}}
+     {{legend|#FF0000|No 62.5–65%}}
+     {{legend|#D40000|No 65–67.5%}}
+     {{legend|#AA0000|No 67.5–70%}}
+     {{legend|#800000|No 70–72.5%}}
+     {{legend|#550000|No 72.5–75%}}
+     {{legend|#2B0000|No >75%}}
+   | {{center|{{legend inline|{{{legend_yes|#24B14C}}}|{{{yes_text|Yes}}}}} — {{legend inline|{{{legend_no|#DF0A24}}}|{{{no_text|No}}}}}}}
+   }}
+ }}
+|}</includeonly><noinclude>
+{{documentation|content=
+This subtemplate of {{tl|{{BASEPAGENAME}}}} is used to generate the referendum results map with legend.  It should not be used directly.
+== Examples ==
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|detailed_legend=yes}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|detailed_legend=yes}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|legend_yes=red|legend_no=blue}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|legend_yes=red|legend_no=blue}}
+:<code><nowiki>{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|map_caption=caption}}</nowiki></code>
+{{Infobox referendum/map|map=Missing map.svg|map_header=Results by county|map_caption=Caption}}
+}}</noinclude>
