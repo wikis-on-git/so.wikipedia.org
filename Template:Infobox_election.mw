@@ -43,7 +43,7 @@
 {{!}}-
 }}
 {{#if:{{{turnout|}}}|
-! style="text-align: left" {{!}} Turnout
+! style="text-align: left" {{!}} Ka qayb-galayaasha
 {{!}} colspan=3 style="text-align: center" {{!}} {{{turnout}}}
 {{!}}-
 }}
