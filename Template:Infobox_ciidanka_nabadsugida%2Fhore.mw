@@ -28,9 +28,9 @@
 <!-- Show first image here, show the rest below -->
 | image1 = 
 {{#if:{{{patch|}}}
- |{{#invoke:InfoboxImage|InfoboxImage|image={{{patch|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+ |{{#invoke:InfoboxImage|InfoboxImage|image={{{patch|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=120x100px}}
  |{{#if:{{{logo|}}}
-   |{{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+   |{{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=120x100px}}
    |{{#if:{{{badge|}}}
       |{{#invoke:InfoboxImage|InfoboxImage|image={{{badge|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
       |{{#if:{{{flag|}}}
@@ -84,7 +84,7 @@
 Agency overview
 
 -->
-| header3 = Agency overview
+| header3 = Warbixin kooban
 | label4 = Formed
 | data4 = {{#if: {{{formedyear|}}} 
   | {{#if: {{{formedmonthday|}}} | {{{formedmonthday}}}, }} {{{formedyear}}} 
@@ -92,7 +92,7 @@ Agency overview
   }}
 
 | label5 = Preceding {{#if:{{{preceding2|}}}{{{preceding3|}}}{{{preceding4|}}}{{{preceding5|}}}{{{preceding6|}}}|agencies|agency}}
-| data5 = {{Infobox law enforcement agency/list|1={{{preceding1|}}}|2={{{preceding2|}}}|3={{{preceding3|}}}|4={{{preceding4|}}}|5={{{preceding5|}}}|6={{{preceding6|}}}}}
+| data5 = 
 
 | label6 = Dissolved
 | data6 = {{{dissolved|}}}
@@ -112,7 +112,7 @@ Agency overview
  }}
 
 <!--Jurisdictional structure-->
-| header12 = Jurisdictional structure
+| header12 = Cadaalada
 
 | label13 = [[Law enforcement agency#natlea|National agency]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
 | data13 = {{#if:{{{national|}}}|  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}}
