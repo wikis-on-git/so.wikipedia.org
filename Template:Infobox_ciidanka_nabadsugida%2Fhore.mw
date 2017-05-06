@@ -1,6 +1,6 @@
 <includeonly>{{infobox
 | bodyclass = vcard
-| bodystyle = width:{{#if:{{{narrowerbox|}}}|1em|5em}}
+| bodystyle = width:{{#if:{{{narrowerbox|}}}|10em|15em}}
 <!-- Agency header -->
 | abovestyle = font-size:125%; background:#efefef;
 | above = {{br separated entries
@@ -17,7 +17,7 @@
  | label1 = Common&nbsp;name
  | data1 = {{{commonname|}}}
 
- | label2 = Abbreviation
+ | label2 = Loo soo gaabiyo
  | data2 = {{{abbreviation|}}}
 
  | header3 = {{#if: {{{fictional|}}} | This is a '''fictional''' organisation. }}
@@ -70,7 +70,7 @@
 </td></tr><tr><td colspan=2><table class="collapsible collapsed" style="border-spacing:0; width:100%; background-color:#f9f9f9; border-top:solid 1px #aaa;">
 <tr><th colspan=2 style="padding-left:4.5em;background:#efefef; text-align:center;">[[{{{agencyname}}}|agency information]]}} }}
 
-| label2 = Motto
+| label2 =Halkudhig
 | data2 = {{br separated entries
  |1 = {{{motto|}}}
  |2 = {{{mottotranslated|}}}
@@ -85,7 +85,7 @@ Agency overview
 
 -->
 | header3 = Warbixin kooban
-| label4 = Formed
+| label4 = La aasaasay
 | data4 = {{#if: {{{formedyear|}}} 
   | {{#if: {{{formedmonthday|}}} | {{{formedmonthday}}}, }} {{{formedyear}}} 
   | {{{formed|}}}
@@ -104,7 +104,7 @@ Agency overview
 | data9 = {{{volunteers|}}}
 | label10 = Annual budget
 | data10 = {{{budget|}}}
-| label11 = Legal personality
+| label11 = Maamulka
 | data11 = {{#switch:{{{legalpersonality}}}
  |government agency|government-owned corporation|government ministry = Governmental: [[{{ucfirst:{{{legalpersonality}}}}}]]
  |partnership|privately-held company|cooperative|body corporate = Non governmental: [[{{ucfirst:{{{legalpersonality}}}}}]]
@@ -114,7 +114,7 @@ Agency overview
 <!--Jurisdictional structure-->
 | header12 = Cadaalada
 
-| label13 = [[Law enforcement agency#natlea|National agency]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
+| label13 = [[Ciidanka Xooga Soomaaliya|Wakaalada Nabadsugida]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
 | data13 = {{#if:{{{national|}}}|  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}}
 
 | label14 = [[Law enforcement agency#fedlea|Federal agency]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
@@ -144,14 +144,14 @@ Agency overview
 | data22 = {{{sizepopulation|}}}
 | label23 = Legal jurisdiction
 | data23 = {{#ifeq: {{{legaljuris}}} | opsjuris | As per operations jurisdiction. | {{{legaljuris|}}} }}
-| label24 = {{#if: {{{governingbodyscnd|}}} |Primary governing body |Governing body}} 
+| label24 = {{#if: {{{governingbodyscnd|}}} |Primary governing body |Fulinta}} 
 | data24 = {{#if:{{{governingbody|}}}|  [[{{{governingbody}}}]] }}
 | label25 = Secondary governing body 
 | data25 = {{#if:{{{governingbodyscnd|}}}| [[{{{governingbodyscnd}}}]] }}
-| label26 = {{#if:{{{constitution2|}}}{{{constitution3|}}}{{{constitution4|}}}{{{constitution5|}}}{{{constitution6|}}} | Constituting instruments| Constituting instrument}}
+| label26 = {{#if:{{{constitution2|}}}{{{constitution3|}}}{{{constitution4|}}}{{{constitution5|}}}{{{constitution6|}}} | Sharciyada| Sharciga}}
 | data26 = {{Infobox law enforcement agency/list|1={{{constitution1|}}}|2={{{constitution2|}}}|3={{{constitution3|}}}|4={{{constitution4|}}}|5={{{constitution5|}}}|6={{{constitution6|}}}}}
 
-| label27 = General nature
+| label27 = Hoos-yimaada
 | data27 = {{#switch:{{lc:{{{agencyclass|}}}}}
 |corrections=
 *[[Corrections]]
@@ -189,14 +189,14 @@ Agency overview
 *[[Law enforcement agency#relpol|Religious police]]<!--
 -->{{#ifeq:{{{religious|}}}|footnote|<br>See [[#ibleafn|footnotes]].}}}}<!--  end religious  --><!--  end general nature  -->
 
-| label28 = {{#if:{{{speciality2|}}}{{{speciality3|}}}{{{speciality4|}}}{{{speciality5|}}}{{{speciality6|}}} |Specialist jurisdictions| Specialist jurisdiction}}
+| label28 = {{#if:{{{speciality2|}}}{{{speciality3|}}}{{{speciality4|}}}{{{speciality5|}}}{{{speciality6|}}} |Howlgelinta| Howlgalka}}
 | data28 = {{Infobox law enforcement agency/list|template=Specialist lea type descr|1={{{speciality1|}}}|2={{{speciality2|}}}|3={{{speciality3|}}}|4={{{speciality4|}}}|5={{{speciality5|}}}|6={{{speciality6|}}}}}
 
 <!-- Operational structure -->
-| header29 = Operational structure
+| header29 = Nidaamka Howlgalka
 | label30 = Overviewed by {{#if: {{{overviewtype|}}} | {{{overviewtype}}} }}
 | data30 = {{{overviewbody|}}}
-| label31 = Headquarters
+| label31 = Xarunta sare
 | data31 = {{{headquarters|}}}
 
 | data32 = {{#if: {{{hqlocmap|}}} | <div style="position:relative;left:0px;top:0px;width:{{{hqlocmapwidth}}}px;height:{{{hqlocmapheight}}}px"><!--
@@ -211,7 +211,7 @@ Agency overview
 | data35 = {{#if: {{{multinational|}}} |  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}} 
 | label36 = Nationalities of personnel
 | data36 = {{{multinational|}}}
-| label37 = {{#if:{{{electeetype|}}} | {{{electeetype}}} | Elected officer}}{{#if:{{{minister2name|}}}{{{minister3name|}}}{{{minister4name|}}}{{{minister5name|}}}{{{minister6name|}}}|s}} responsible
+| label37 = {{#if:{{{electeetype|}}} | {{{electeetype}}} | Saraakiisha}}{{#if:{{{minister2name|}}}{{{minister3name|}}}{{{minister4name|}}}{{{minister5name|}}}{{{minister6name|}}}|s}} responsible
 | data37 = {{Infobox law enforcement agency/list
 | 1= {{#if:{{{minister1name|}}} | {{{minister1name}}}{{#if:{{{minister1pfo|}}}|, {{{minister1pfo}}}}} }}
 | 2= {{#if:{{{minister2name|}}} | {{{minister2name}}}{{#if:{{{minister2pfo|}}}|, {{{minister2pfo}}}}} }}
@@ -221,7 +221,7 @@ Agency overview
 | 6= {{#if:{{{minister6name|}}} | {{{minister6name}}}{{#if:{{{minister6pfo|}}}|, {{{minister6pfo}}}}} }}
 }}
 
-| label38 = Agency executive{{#if:{{{chief2name|}}}{{{chief3name|}}}{{{chief4name|}}}{{{chief5name|}}}{{{chief6name|}}} |s}}
+| label38 = Taliyaha Qeybta{{#if:{{{chief2name|}}}{{{chief3name|}}}{{{chief4name|}}}{{{chief5name|}}}{{{chief6name|}}} |s}}
 | data38 = {{Infobox law enforcement agency/list
 | 1= {{#if:{{{chief1name|}}} | {{{chief1name}}}{{#if:{{{chief1position|}}}|, {{{chief1position}}}}} }}
 | 2= {{#if:{{{chief2name|}}} | {{{chief2name}}}{{#if:{{{chief2position|}}}|, {{{chief2position}}}}} }}
@@ -234,7 +234,7 @@ Agency overview
 | label39 = Parent agency
 | data39 = {{{parentagency|}}}
 
-| label40 = Child agenc{{#if:{{{child2agency|}}}{{{child3agency|}}}{{{child4agency|}}}{{{child5agency|}}}{{{child6agency|}}} |ies|y}}
+| label40 = Ka farcama{{#if:{{{child2agency|}}}{{{child3agency|}}}{{{child4agency|}}}{{{child5agency|}}}{{{child6agency|}}} }}
 | data40 = {{Infobox law enforcement agency/list|1={{{child1agency|}}}|2={{{child2agency|}}}|3={{{child3agency|}}}|4={{{child4agency|}}}|5={{{child5agency|}}}|6={{{child6agency|}}}}}
 
 | label41 = {{#if: {{{unittype|}}} | {{#invoke:string|replace|{{{unittype}}}|s$||plain=false}} |Unit }}s
