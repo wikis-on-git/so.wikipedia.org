@@ -1,6 +1,6 @@
 <includeonly>{{infobox
 | bodyclass = vcard
-| bodystyle = width:{{#if:{{{narrowerbox|}}}|20em|25em}}
+| bodystyle = width:{{#if:{{{narrowerbox|}}}|10em|15em}}
 <!-- Agency header -->
 | abovestyle = font-size:125%; background:#efefef;
 | above = {{br separated entries
