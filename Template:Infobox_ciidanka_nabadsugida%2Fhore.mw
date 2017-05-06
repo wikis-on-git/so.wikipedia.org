@@ -1,0 +1,389 @@
+<includeonly>{{infobox
+| bodyclass = vcard
+| bodystyle = width:{{#if:{{{narrowerbox|}}}|20em|25em}}
+<!-- Agency header -->
+| abovestyle = font-size:125%; background:#efefef;
+| above = {{br separated entries
+ |1 = <span class="fn org">{{{agencyname}}}</span>
+ |2 = {{#if: {{{nativename|}}} |<span style="font-weight:normal">''{{{nativename}}}''</span>}}
+ |3 = {{#if: {{{nativenamea|}}} |<span style="font-weight:normal">{{{nativenamea}}}</span>}}
+ |4 = {{#if: {{{nativenamer|}}} |<span style="font-weight:normal">''{{{nativenamer}}}''</span>}}
+ }}{{infobox|child=yes
+| subheader1 = 
+| subheader2 = 
+| subheader3 = 
+
+ | headerstyle = font-weight:normal; font-size:150%; border-bottom:solid 1px; border-top:solid 1px; background-color:orange; padding-top:0.3em; padding-bottom:0.3em;
+ | label1 = Common&nbsp;name
+ | data1 = {{{commonname|}}}
+
+ | label2 = Abbreviation
+ | data2 = {{{abbreviation|}}}
+
+ | header3 = {{#if: {{{fictional|}}} | This is a '''fictional''' organisation. }}
+ }}
+
+| headerstyle = background:#efefef; border-top:solid 1px #aaa;
+
+<!-- Show first image here, show the rest below -->
+| image1 = 
+{{#if:{{{patch|}}}
+ |{{#invoke:InfoboxImage|InfoboxImage|image={{{patch|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+ |{{#if:{{{logo|}}}
+   |{{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+   |{{#if:{{{badge|}}}
+      |{{#invoke:InfoboxImage|InfoboxImage|image={{{badge|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+      |{{#if:{{{flag|}}}
+         |{{#invoke:InfoboxImage|InfoboxImage|image={{{flag|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}
+       }}
+    }}
+  }}
+}}
+| caption1 = 
+{{#if:{{{patch|}}}
+ |{{ifempty|{{{patchcaption|}}}|Patch of the {{{agencyname}}}}}
+ |{{#if:{{{logo|}}}
+   |{{ifempty|{{{logocaption|}}}|Logo of the {{{agencyname}}}}}
+   |{{#if:{{{badge|}}}
+      |{{ifempty|{{{badgecaption|}}}|Badge of the {{{agencyname}}}}}
+      |{{#if:{{{flag|}}}
+         |{{ifempty|{{{flagcaption|}}}|Flag of the {{{agencyname}}}}}
+       }}
+    }}
+  }}
+}}{{#ifeq: {{{infotype|}}} | related |<!-- then inner collapsible table -->
+</td></tr><tr><td colspan=2><table class="collapsible collapsed" style="border-spacing:0; width:100%; background-color:#f9f9f9; border-top:solid 1px #aaa;">
+<tr><th colspan=2 style="padding-left:4.5em;background:#efefef; text-align:center;">[[{{{agencyname}}}|agency information]]}}
+
+<!-- display the remaining images -->
+| image2 = {{#if:{{{patch|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}}}
+| caption2 = {{ifempty|{{{logocaption|}}}|Logo of the {{{agencyname}}}}}
+
+| image3 = {{#if:{{{patch|}}}{{{logo|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{badge|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}}}
+| caption3 = {{ifempty|{{{badgecaption|}}}|Badge of the {{{agencyname}}}}}
+
+| image4 = {{#if:{{{patch|}}}{{{logo|}}}{{{badge|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{flag|}}}|size={{ifnumber|{{{imagesize|}}}<nowiki/>|{{{imagesize}}}x{{{imagesize}}}px|{{{imagesize|}}}}}|sizedefault=220x140px}}}}
+| caption4 = {{ifempty|{{{flagcaption|}}}|Flag of the {{{agencyname}}}}}
+
+<!-- add inner collapsible table if necessary and if it hasn't been added already -->
+| data1 = {{#if:{{{patch|}}}{{{logo|}}}{{{badge|}}}{{{flag|}}}||{{#ifeq: {{{infotype|}}} | related |<!-- then inner collapsible table -->
+</td></tr><tr><td colspan=2><table class="collapsible collapsed" style="border-spacing:0; width:100%; background-color:#f9f9f9; border-top:solid 1px #aaa;">
+<tr><th colspan=2 style="padding-left:4.5em;background:#efefef; text-align:center;">[[{{{agencyname}}}|agency information]]}} }}
+
+| label2 = Motto
+| data2 = {{br separated entries
+ |1 = {{{motto|}}}
+ |2 = {{{mottotranslated|}}}
+ }}
+
+
+<!--
+
+
+
+Agency overview
+
+-->
+| header3 = Agency overview
+| label4 = Formed
+| data4 = {{#if: {{{formedyear|}}} 
+  | {{#if: {{{formedmonthday|}}} | {{{formedmonthday}}}, }} {{{formedyear}}} 
+  | {{{formed|}}}
+  }}
+
+| label5 = Preceding {{#if:{{{preceding2|}}}{{{preceding3|}}}{{{preceding4|}}}{{{preceding5|}}}{{{preceding6|}}}|agencies|agency}}
+| data5 = {{Infobox law enforcement agency/list|1={{{preceding1|}}}|2={{{preceding2|}}}|3={{{preceding3|}}}|4={{{preceding4|}}}|5={{{preceding5|}}}|6={{{preceding6|}}}}}
+
+| label6 = Dissolved
+| data6 = {{{dissolved|}}}
+| label7 = Superseding agency
+| data7 = {{{superseding|}}}
+| label8 = Employees
+| data8 = {{{employees|}}}
+| label9 = Volunteers
+| data9 = {{{volunteers|}}}
+| label10 = Annual budget
+| data10 = {{{budget|}}}
+| label11 = Legal personality
+| data11 = {{#switch:{{{legalpersonality}}}
+ |government agency|government-owned corporation|government ministry = Governmental: [[{{ucfirst:{{{legalpersonality}}}}}]]
+ |partnership|privately-held company|cooperative|body corporate = Non governmental: [[{{ucfirst:{{{legalpersonality}}}}}]]
+ |Non government: [[{{{legalpersonality}}}]]
+ }}
+
+<!--Jurisdictional structure-->
+| header12 = Jurisdictional structure
+
+| label13 = [[Law enforcement agency#natlea|National agency]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
+| data13 = {{#if:{{{national|}}}|  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}}
+
+| label14 = [[Law enforcement agency#fedlea|Federal agency]]{{#if: {{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }}
+| data14 = {{#if:{{{federal|}}} |  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}}
+
+| label15 = [[Law enforcement agency#internat|International agency]]
+| data15 = {{#if:{{{international|}}}|  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}}
+
+| label16 = Countries
+| data16 = {{{international|}}}
+
+| label17 = {{{opsjuris}}}<!--{{#if:{{{legaljuris|}}} | <br>{{nobold|(Operations jurisdiction)}} }} --  not required for simplified operations jurisdiction data element title  -->
+| data17 = {{#if:{{{divtype|}}}
+  |{{#if:{{{subdivtype|}}}
+     |[[{{ucfirst:{{{subdivtype}}}}}]] of {{Infobox law enforcement agency/paramdab |{{{subdivdab|}}}|{{{subdivname|}}}|{{{subdivtype|}}}|{{{divname|}}}}} in the [[{{#ifeq:{{lc:{{{divtype}}}}}|state|State (administrative division){{!}}}}{{lc:{{{divtype}}}}}]] of {{Infobox law enforcement agency/paramdab |{{{divdab|}}}|{{{divname|}}}|{{{divtype|}}}|{{{country|}}}|{{{countryabbr|}}}}}, {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}}
+     |[[{{#ifeq:{{lc:{{{divtype}}}}}|state|State (administrative division){{!}}}}{{ucfirst:{{{divtype}}}}}]] of {{Infobox law enforcement agency/paramdab |{{{divdab|}}}|{{{divname|}}}|{{{divtype|}}}|{{{country|}}}|{{{countryabbr|}}}}}, {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}}
+   }}
+}}
+
+| data18 = {{#invoke:InfoboxImage|InfoboxImage|image={{{map|}}}|size=250x250px}}
+| data19 = {{{dmap|}}}
+| data20 = {{#if:{{{map|}}}| {{#if: {{{mapcaption|}}} | {{{mapcaption}}} | Map of {{{agencyname}}}'s jurisdiction. }} }}
+
+| label21 = Size
+| data21 = {{{sizearea|}}}
+| label22 = Population
+| data22 = {{{sizepopulation|}}}
+| label23 = Legal jurisdiction
+| data23 = {{#ifeq: {{{legaljuris}}} | opsjuris | As per operations jurisdiction. | {{{legaljuris|}}} }}
+| label24 = {{#if: {{{governingbodyscnd|}}} |Primary governing body |Governing body}} 
+| data24 = {{#if:{{{governingbody|}}}|  [[{{{governingbody}}}]] }}
+| label25 = Secondary governing body 
+| data25 = {{#if:{{{governingbodyscnd|}}}| [[{{{governingbodyscnd}}}]] }}
+| label26 = {{#if:{{{constitution2|}}}{{{constitution3|}}}{{{constitution4|}}}{{{constitution5|}}}{{{constitution6|}}} | Constituting instruments| Constituting instrument}}
+| data26 = {{Infobox law enforcement agency/list|1={{{constitution1|}}}|2={{{constitution2|}}}|3={{{constitution3|}}}|4={{{constitution4|}}}|5={{{constitution5|}}}|6={{{constitution6|}}}}}
+
+| label27 = General nature
+| data27 = {{#switch:{{lc:{{{agencyclass|}}}}}
+|corrections=
+*[[Corrections]]
+|probation=
+*[[Probation]]
+|regulation
+*[[Regulation]]
+|intelligence
+*[[Intelligence]]
+|<!--  default is enforcement  -->{{#if:{{{federal|}}}|
+*[[Law enforcement agency#fedlea|Federal law enforcement]]<!--  end federal  -->|
+*[[Law enforcement agency|Law enforcement]]}}<!--  end general law enforcement  -->
+}}<!--  end general general natures  -->
+{{#if:{{{military|}}}{{{provost|}}}{{{gendarmerie|}}}
+|<!--  start military natures  -->{{#if:{{{provost|}}}|
+*[[Law enforcement agency#provost|Military provost]]
+|{{#if:{{{gendarmerie|}}}|
+*[[Law enforcement agency#gendarm|Gendarmerie]]
+|
+*[[Law enforcement agency#milpol|Military police]]
+}}}}<!--  end military natures  -->
+|<!--  start civilian natures  -->{{#if:{{{police|}}}|{{#if:{{{local|}}}|
+*[[Law enforcement agency#locpol|Local civilian police]]{{#ifeq:{{{local|}}}|footnote|<br>See [[#ibleafn|footnotes]] re local.}}
+|
+*[[Law enforcement agency#civpol|Civilian police]]}}{{#ifeq:{{{police}}}|footnote|<br>See [[#ibleafn|footnotes]] re police. 
+}}|{{#if:{{{local|}}}|
+*Local civilian agency{{#ifeq:{{{local}}}|footnote|<br>See [[#ibleafn|footnotes]] re local.}} 
+|
+*Civilian agency
+}}}}<!--  end civilian natures  -->}}<!--  end military check
+
+-->{{#if:{{{secret|}}}|
+*[[Secret police]]{{#tag:ref |{{{secret}}} |name=ibleasecpol}}}}<!--  end secret
+-->{{#if:{{{religious|}}}|
+*[[Law enforcement agency#relpol|Religious police]]<!--
+-->{{#ifeq:{{{religious|}}}|footnote|<br>See [[#ibleafn|footnotes]].}}}}<!--  end religious  --><!--  end general nature  -->
+
+| label28 = {{#if:{{{speciality2|}}}{{{speciality3|}}}{{{speciality4|}}}{{{speciality5|}}}{{{speciality6|}}} |Specialist jurisdictions| Specialist jurisdiction}}
+| data28 = {{Infobox law enforcement agency/list|template=Specialist lea type descr|1={{{speciality1|}}}|2={{{speciality2|}}}|3={{{speciality3|}}}|4={{{speciality4|}}}|5={{{speciality5|}}}|6={{{speciality6|}}}}}
+
+<!-- Operational structure -->
+| header29 = Operational structure
+| label30 = Overviewed by {{#if: {{{overviewtype|}}} | {{{overviewtype}}} }}
+| data30 = {{{overviewbody|}}}
+| label31 = Headquarters
+| data31 = {{{headquarters|}}}
+
+| data32 = {{#if: {{{hqlocmap|}}} | <div style="position:relative;left:0px;top:0px;width:{{{hqlocmapwidth}}}px;height:{{{hqlocmapheight}}}px"><!--
+--><span style="position:absolute;left:0px;top:0px;z-index:0">{{#if:{{{hqlocmapborder|}}}|[[Image:{{{hqlocmap}}}|{{{hqlocmapsize}}}px|border|{{{hqlocmappoptitle|Map indicating the location of the headquarters}}}]]|[[Image:{{{hqlocmap}}}|{{{hqlocmapsize}}}px|{{{hqlocmappoptitle|Map indicating the location of the headquarters}}}]]}}</span><!--
+--><span style="position:absolute;left:{{{hqlocleft}}}px;top:{{{hqloctop}}}px;z-index:1">[[Image:Paris plan pointer b jms.svg|13px]]</span></div>}}
+
+| label33 = {{#if: {{{sworntype|}}} | {{#invoke:string|replace|{{{sworntype}}}|s$||plain=false}} |Sworn member}}s
+| data33 = {{{sworn|}}}
+| label34 = {{#if: {{{unsworntype|}}} | {{#invoke:string|replace|{{{unsworntype}}}|s$||plain=false}} |Unsworn member}}s
+| data34 = {{{unsworn|}}}
+| label35 = [[Law enforcement agency#multinat|Multinational agency]]
+| data35 = {{#if: {{{multinational|}}} |  {{#if: {{{country|}}}| {{#if:{{{countryabbr|}}} |[[{{{country}}}|{{{countryabbr}}}]]|[[{{{country}}}]]}} }}<nowiki />}} 
+| label36 = Nationalities of personnel
+| data36 = {{{multinational|}}}
+| label37 = {{#if:{{{electeetype|}}} | {{{electeetype}}} | Elected officer}}{{#if:{{{minister2name|}}}{{{minister3name|}}}{{{minister4name|}}}{{{minister5name|}}}{{{minister6name|}}}|s}} responsible
+| data37 = {{Infobox law enforcement agency/list
+| 1= {{#if:{{{minister1name|}}} | {{{minister1name}}}{{#if:{{{minister1pfo|}}}|, {{{minister1pfo}}}}} }}
+| 2= {{#if:{{{minister2name|}}} | {{{minister2name}}}{{#if:{{{minister2pfo|}}}|, {{{minister2pfo}}}}} }}
+| 3= {{#if:{{{minister3name|}}} | {{{minister3name}}}{{#if:{{{minister3pfo|}}}|, {{{minister3pfo}}}}} }}
+| 4= {{#if:{{{minister4name|}}} | {{{minister4name}}}{{#if:{{{minister4pfo|}}}|, {{{minister4pfo}}}}} }}
+| 5= {{#if:{{{minister5name|}}} | {{{minister5name}}}{{#if:{{{minister5pfo|}}}|, {{{minister5pfo}}}}} }}
+| 6= {{#if:{{{minister6name|}}} | {{{minister6name}}}{{#if:{{{minister6pfo|}}}|, {{{minister6pfo}}}}} }}
+}}
+
+| label38 = Agency executive{{#if:{{{chief2name|}}}{{{chief3name|}}}{{{chief4name|}}}{{{chief5name|}}}{{{chief6name|}}} |s}}
+| data38 = {{Infobox law enforcement agency/list
+| 1= {{#if:{{{chief1name|}}} | {{{chief1name}}}{{#if:{{{chief1position|}}}|, {{{chief1position}}}}} }}
+| 2= {{#if:{{{chief2name|}}} | {{{chief2name}}}{{#if:{{{chief2position|}}}|, {{{chief2position}}}}} }}
+| 3= {{#if:{{{chief3name|}}} | {{{chief3name}}}{{#if:{{{chief3position|}}}|, {{{chief3position}}}}} }}
+| 4= {{#if:{{{chief4name|}}} | {{{chief4name}}}{{#if:{{{chief4position|}}}|, {{{chief4position}}}}} }}
+| 5= {{#if:{{{chief5name|}}} | {{{chief5name}}}{{#if:{{{chief5position|}}}|, {{{chief5position}}}}} }}
+| 6= {{#if:{{{chief6name|}}} | {{{chief6name}}}{{#if:{{{chief6position|}}}|, {{{chief6position}}}}} }}
+}}
+
+| label39 = Parent agency
+| data39 = {{{parentagency|}}}
+
+| label40 = Child agenc{{#if:{{{child2agency|}}}{{{child3agency|}}}{{{child4agency|}}}{{{child5agency|}}}{{{child6agency|}}} |ies|y}}
+| data40 = {{Infobox law enforcement agency/list|1={{{child1agency|}}}|2={{{child2agency|}}}|3={{{child3agency|}}}|4={{{child4agency|}}}|5={{{child5agency|}}}|6={{{child6agency|}}}}}
+
+| label41 = {{#if: {{{unittype|}}} | {{#invoke:string|replace|{{{unittype}}}|s$||plain=false}} |Unit }}s
+| data41 = {{{unitname|}}} 
+| label42 = {{#if: {{{officetype|}}} | {{#invoke:string|replace|{{{officetype}}}|s$||plain=false}} |Command }}s
+| data42 ={{{officename|}}}
+| label43 = Services provided by
+| data43 = {{{provideragency|}}}
+| label44 = Uniformed as
+| data44 = {{#if: {{{provideragency|}}} | {{#if: {{{uniformedas|}}} |  {{{uniformedas}}} | {{{agencyname}}} }} }}
+
+<!-- Facilities -->
+
+| header45 = {{#if: {{{stations|}}}{{{airbases|}}}{{{lockups|}}}{{{vehicles1|}}}{{{vehicles2|}}}{{{vehicles3|}}}{{{boats1|}}}{{{boats2|}}}{{{boats3|}}}{{{aircraft1|}}}{{{aircraft2|}}}{{{aircraft3|}}}{{{animals1|}}}{{{animals2|}}}{{{animals3|}}} | Facilities }}
+
+| label46 = {{#if: {{{stationtype|}}} | {{#invoke:string|replace|{{{stationtype}}}|s$||plain=false}} |Station }}s
+| data46 =  {{{stations|}}}
+| label47 = Airbases
+| data47 = {{{airbases|}}}
+| label48 = {{#if: {{{lockuptype|}}} | {{#invoke:string|replace|{{{lockuptype}}}|s$||plain=false}} |Lockup }}s
+| data48 =  {{{lockups|}}}
+| label49 = {{#if: {{{vehicle1type|}}} | {{#invoke:string|replace|{{{vehicle1type}}}|s$||plain=false}} |Patrol car }}s
+| data49 = {{{vehicles1|}}}
+| label50 = {{#if: {{{vehicle2type|}}} | {{#invoke:string|replace|{{{vehicle2type}}}|s$||plain=false}} |Patrol car }}s
+| data50 = {{{vehicles2|}}}
+| label51 = {{#if: {{{vehicle3type|}}} | {{#invoke:string|replace|{{{vehicle3type}}}|s$||plain=false}} |Patrol car }}s
+| data51 = {{{vehicles3|}}}
+| label52 = {{#if: {{{boat1type|}}} | {{#invoke:string|replace|{{{boat1type}}}|s$||plain=false}} |Boat }}s
+| data52 = {{{boats1|}}}
+| label53 = {{#if: {{{boat2type|}}} | {{#invoke:string|replace|{{{boat2type}}}|s$||plain=false}} |Boat }}s
+| data53 = {{{boats2|}}}
+| label54 = {{#if: {{{boat3type|}}} | {{#invoke:string|replace|{{{boat3type}}}|s$||plain=false}} |Boat }}s
+| data54 = {{{boats3|}}}
+| label55 = {{#if:{{{aircraft1type|}}}|{{#ifeq:{{#invoke:string|replace|{{{aircraft1type|}}}|^.*ircraft$|aircraft|plain=false}}|aircraft|{{{aircraft1type}}}|{{#invoke:string|replace|{{{aircraft1type}}}|s$||plain=false}}s}}|Planes}}
+| data55 = {{{aircraft1|}}}
+| label56 = {{#if:{{{aircraft2type|}}}|{{#ifeq:{{#invoke:string|replace|{{{aircraft2type|}}}|^.*ircraft$|aircraft|plain=false}}|aircraft|{{{aircraft2type}}}|{{#invoke:string|replace|{{{aircraft2type}}}|s$||plain=false}}s}}|Planes}}
+| data56 = {{{aircraft2|}}}
+| label57 = {{#if:{{{aircraft3type|}}}|{{#ifeq:{{#invoke:string|replace|{{{aircraft3type|}}}|^.*ircraft$|aircraft|plain=false}}|aircraft|{{{aircraft3type}}}|{{#invoke:string|replace|{{{aircraft3type}}}|s$||plain=false}}s}}|Planes}}
+| data57 = {{{aircraft3|}}}
+| label58 = {{#if: {{{animal1type|}}} | {{#invoke:string|replace|{{{animal1type}}}|s$||plain=false}} |Dog }}s
+| data58 = {{{animals1|}}}
+| label59 = {{#if: {{{animal2type|}}} | {{#invoke:string|replace|{{{animal2type}}}|s$||plain=false}} |Dog }}s
+| data59 = {{{animals2|}}}
+| label60 = {{#if: {{{animal3type|}}} | {{#invoke:string|replace|{{{animal3type}}}|s$||plain=false}} |Dog }}s
+| data60 = {{{animals3|}}}
+
+
+<!-- Website and Footnotes and snapbox template edit navigation -->
+
+| header63 = {{#if:{{{website|}}} | Website }}
+| data64 = {{{website|}}}
+
+<!-- Notables -->
+| data61 = {{#if: {{{person1name|}}}{{{programme1|}}}{{{actvity1name|}}}{{{anniversary1|}}}{{{award1|}}} |
+{{infobox|subbox=yes
+| bodystyle = border-collapse:collapse; border-spacing:0;
+| bodyclass = {{#ifeq:{{Infobox law enforcement agency/oneortwo |{{{person1name|}}} |{{{programme1|}}} |{{{actvity1name|}}} |{{{anniversary1|}}} |{{{award1|}}} |{{{person2name|}}} |{{{programme2|}}} |{{{actvity2name|}}} |{{{anniversary2|}}} |{{{award2|}}}}}|two|collapsible collapsed}}
+| headerstyle = padding-left:4.5em; background:#efefef; border-top:solid 1px #aaa;
+| header1 = Notables
+| label2 = {{#if:{{{person2name|}}}{{{person3name|}}}{{{person4name|}}}{{{person5name|}}}{{{person6name|}}}|People|Person}}
+| data2 =  {{Infobox law enforcement agency/list
+| 1= {{#if:{{{person1name|}}} | {{{person1name}}}{{#if:{{{person1type|}}}|, {{{person1type}}}}}{{#if:{{{person1reason|}}}|, for {{{person1reason}}}}} }}
+| 2= {{#if:{{{person2name|}}} | {{{person2name}}}{{#if:{{{person2type|}}}|, {{{person2type}}}}}{{#if:{{{person2reason|}}}|, for {{{person2reason}}}}} }}
+| 3= {{#if:{{{person3name|}}} | {{{person3name}}}{{#if:{{{person3type|}}}|, {{{person3type}}}}}{{#if:{{{person3reason|}}}|, for {{{person3reason}}}}} }}
+| 4= {{#if:{{{person4name|}}} | {{{person4name}}}{{#if:{{{person4type|}}}|, {{{person4type}}}}}{{#if:{{{person4reason|}}}|, for {{{person4reason}}}}} }}
+| 5= {{#if:{{{person5name|}}} | {{{person5name}}}{{#if:{{{person5type|}}}|, {{{person5type}}}}}{{#if:{{{person5reason|}}}|, for {{{person5reason}}}}} }}
+| 6= {{#if:{{{person6name|}}} | {{{person6name}}}{{#if:{{{person6type|}}}|, {{{person6type}}}}}{{#if:{{{person6reason|}}}|, for {{{person6reason}}}}} }}
+}}
+
+| label3 = Programme{{#if:{{{programme2|}}}{{{programme3|}}}{{{programme4|}}}{{{programme5|}}}{{{programme6|}}}|s}}
+| data3 = {{Infobox law enforcement agency/list|1={{{programme1|}}}|2={{{programme2|}}}|3={{{programme3|}}}|4={{{programme4|}}}|5={{{programme5|}}}|6={{{programme6|}}}}}
+
+| label4 = Significant {{#if: {{{activitytype|}}} |{{{activitytype}}} |operation}}{{#if:{{{activity2name|}}}{{{activity3name|}}}{{{activity4name|}}}{{{activity5name|}}}{{{activity6name|}}}|s}}
+| data4 = {{Infobox law enforcement agency/list|1={{{activity1name|}}}|2={{{activity2name|}}}|3={{{activity3name|}}}|4={{{activity4name|}}}|5={{{activity5name|}}}|6={{{activity6name|}}}}}
+
+| label5 = Anniversar{{#if:{{{anniversary2|}}}{{{anniversary3|}}}{{{anniversary4|}}}{{{anniversary5|}}}{{{anniversary6|}}}|ies|y}}
+| data5 = {{Infobox law enforcement agency/list|1={{{anniversary1|}}}|2={{{anniversary2|}}}|3={{{anniversary3|}}}|4={{{anniversary4|}}}|5={{{anniversary5|}}}|6={{{anniversary6|}}}}}
+
+| label6 = Award{{#if:{{{award2|}}}{{{award3|}}}{{{award4|}}}{{{award5|}}}{{{award6|}}}|s}}
+| data6 = {{Infobox law enforcement agency/list|1={{{award1|}}}|2={{{award2|}}}|3={{{award3|}}}|4={{{award4|}}}|5={{{award5|}}}|6={{{award6|}}}}}
+
+}} }}
+
+| header65 = {{#if:{{{footnotes|}}}{{{reference|}}} | <span id="ibleafn"></span>Footnotes}}
+| belowstyle = text-align:left
+| below =  {{{footnotes|}}} {{#if: {{{reference|}}} | &nbsp;See the reference{{#tag:ref |{{{reference}}} |name=iblearef}} below for the source of the above data.
+}}{{#if:{{{template_name|}}}|<div style="border-top:1px solid #aaa; width:100%;text-align:center;">{{navbar |{{{template_name|}}} |plain=1}}</div> 
+}}{{#ifeq: {{{infotype|}}} |related| 
+</td></tr></table>}}
+}}<!--end of infobox
+
+
+
+Documentation, and autocategorisation but only if not transclusion for examples or other documentation
+
+
+-->{{Infobox law enforcement agency/tracking|sworntype|label={{{sworntype|}}}
+}}{{Infobox law enforcement agency/tracking|unsworntype|label={{{unsworntype|}}}
+}}{{Infobox law enforcement agency/tracking|unittype|label={{{unittype|}}}
+}}{{Infobox law enforcement agency/tracking|officetype|label={{{officetype|}}}
+}}{{Infobox law enforcement agency/tracking|stationtype|label={{{stationtype|}}}
+}}{{Infobox law enforcement agency/tracking|lockuptype|label={{{lockuptype|}}}
+}}{{Infobox law enforcement agency/tracking|vehicle1type|label={{{vehicle1type|}}}
+}}{{Infobox law enforcement agency/tracking|vehicle2type|label={{{vehicle2type|}}}
+}}{{Infobox law enforcement agency/tracking|vehicle3type|label={{{vehicle3type|}}}
+}}{{Infobox law enforcement agency/tracking|boat1type|label={{{boat1type|}}}
+}}{{Infobox law enforcement agency/tracking|boat2type|label={{{boat2type|}}}
+}}{{Infobox law enforcement agency/tracking|boat3type|label={{{boat3type|}}}
+}}{{Infobox law enforcement agency/tracking|aircraft1type|label={{{aircraft1type|}}}
+}}{{Infobox law enforcement agency/tracking|aircraft2type|label={{{aircraft2type|}}}
+}}{{Infobox law enforcement agency/tracking|aircraft3type|label={{{aircraft3type|}}}
+}}{{Infobox law enforcement agency/tracking|animal1type|label={{{animal1type|}}}
+}}{{Infobox law enforcement agency/tracking|animal2type|label={{{animal2type|}}}
+}}{{Infobox law enforcement agency/tracking|animal3type|label={{{animal3type|}}}
+}}{{main other|<!-- only categorise on article namespace --><!--
+
+bulk auto categoristion
+-->{{#ifeq:{{{infotype|}}}|related|<!-- no bulk categorisation if not main-->|{{Infobox law enforcement agency/autocat
+|agencyclass ={{{agencyclass}}}
+|country={{{country|}}}
+|countryabbr={{{countryabbr|}}}
+|commonname={{{commonname|}}}
+|divtype={{lc:{{{divtype|}}}}}
+|divname={{{divname|}}}
+|subdivtype={{lc:{{{subdivtype|}}}}}
+|subdivname={{{subdivname|}}}
+|governingbody={{{governingbody|}}}
+|international={{#if:{{{international|}}}|Yes}}
+|multinational={{#if:{{{multinational|}}}|Yes}}
+|national={{#if:{{{national|}}}|Yes}}
+|federal={{#if:{{{federal|}}}|Yes}}
+|police={{#if:{{{police|}}}|Yes}}
+|local={{#if:{{{local|}}}|Yes}}
+|military={{#if:{{{military|}}}|Yes}}
+|provost={{#if:{{{provost|}}}|Yes}}
+|gendarmerie={{#if:{{{gendarmerie|}}}|Yes}}
+|secret={{#if:{{{secret|}}}|Yes}}
+|speciality1={{{speciality1|}}}
+|speciality2={{{speciality2|}}}
+|speciality3={{{speciality3|}}}
+|speciality4={{{speciality4|}}}
+|speciality5={{{speciality5|}}}
+|speciality6={{{speciality6|}}}
+|defunct={{#if:{{{dissolved|}}}|Yes}}
+|fictional={{#if:{{{fictional|}}}|Yes}}
+|secularity={{#if:{{{religious|}}}|religious|secular}}
+|legalpersonality={{{legalpersonality}}}
+|formedyear={{{formedyear|}}}
+}} |<!-- no bulk (agency article) categoristion if not explicitly main article -->}}<!--
+
+special auto categorisation
+-->{{#if:{{{sharedcat|}}} |{{#ifeq: {{{infotype|}}} | related |{{#if: {{{subname|}}} |[[Category:{{{sharedcat}}}|{{{subname}}}]] |[[Category:{{{sharedcat}}}]] }}<!-- end of subname --> |[[Category:{{{sharedcat}}}| ]] }}<!-- end of infotype --> }}<!-- end of sharedcat --> }}<!-- end of doc --></includeonly>
