@@ -274,3 +274,57 @@ On behalf of the Elections Committee,<br/>
 <div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
 From May 9, the [[mw:Special:MyLanguage/Help:Two_Column_Edit_Conflict_View|Two Column Edit Conflict View]] will be available as a [[mw:Special:MyLanguage/Beta Features|beta feature]] on all wikis. The Two Column Edit Conflict View is a new interface for the edit conflict resolution page. It highlights differences between the editor's and the conflicting changes to make it easy to copy and paste pieces of the text and resolve the conflict. The feature fulfils a request for a more user-friendly edit conflict resolution from the [[m:WMDE Technical Wishes|German Community’s Technical Wishlist]]. Everyone is invited to test the feature and we hope that it will serve you well! </div> [[m:user:Birgit Müller (WMDE)|Birgit Müller (WMDE)]] 14:41, 8 May 2017 (UTC)
 <!-- Message sent by User:Birgit Müller (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_2&oldid=16712264 -->
+
+== Editing News #1—2017 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+''[[:m:Special:MyLanguage/VisualEditor/Newsletter/2017/May|Read this in another language]] • [[:m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="float:right;width:230px;{{#switch:ltr|rtl=float:left;margin-left:0;|#default=float:right;margin-right:0;}}margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center|alt=VisualEditor]]'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">   
+
+Did you know that you can review your changes visually? 
+
+[[File:VisualEditor visual diff tool - visual diff.png|alt=Screenshot showing some changes to an article.  Most changes are highlighted with text formatting.|center|frameless|245x245px]]When you are finished editing the page, type your edit summary and then choose "{{Int:visualeditor-savedialog-label-review}}".  
+In visual mode, you will see additions, removals, new links, and formatting highlighted.  Other changes, such as changing the size of an image, are described in notes on the side.
+
+
+[[File:VisualEditor visual diff tool - toggle button.png|alt=Toggle button showing visual and wikitext options; visual option is selected.|center|frameless|220x220px]]
+
+
+Click the toggle button to switch between visual and wikitext diffs.
+
+
+[[File:VisualEditor visual diff tool - wikitext diff.png|alt=Screenshot showing the same changes, in the two-column wikitext diff display.|center|frameless|245x245px]]
+
+
+The wikitext diff is the same diff tool that is used in the wikitext editors and in the page history. You can read and help translate [[:mw:Special:MyLanguage/VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.
+</div></div>
+
+
+Since the last newsletter, the [[:mw:VisualEditor|VisualEditor Team]] has spent most of their time supporting [[:mediawikiwiki:2017_wikitext_editor|the 2017 wikitext editor mode]] which is available inside the visual editor as a Beta Feature, and adding [[:mediawikiwiki:VisualEditor/Diffs|the new visual diff tool]]. Their workboard is available [[:phab:project/board/483/|in Phabricator]].  You can find links to the work finished each week at  [[:mw:VisualEditor/Weekly triage meetings|mw:VisualEditor/Weekly triage meetings]].   Their [[:mw:VisualEditor/Current_priorities|current priorities]] are fixing bugs, supporting the 2017 wikitext editor as a [[:mw:Beta Features|beta feature]], and improving the visual diff tool.   
+
+=== Recent changes ===
+*A '''new wikitext editing mode''' is available as a Beta Feature on desktop devices.  The [[:mw:2017 wikitext editor|2017 wikitext editor]] has the same toolbar as the visual editor and can use the citoid service and other modern tools.  Go to [[Special:Preferences#mw-prefsection-betafeatures]] to enable the {{Int:Visualeditor-preference-newwikitexteditor-label}}. 
+* A new '''[[:mediawikiwiki:VisualEditor/Diffs|visual diff tool]]''' is available in VisualEditor's visual mode.  You can toggle between wikitext and visual diffs.  More features will be added to this later.  In the future, this tool may be integrated into other MediaWiki components. [https://phabricator.wikimedia.org/T143350]
+* The team have added [[:mediawikiwiki:Editing/Projects/Columns_for_references|multi-column support for lists of footnotes]]. The <code><nowiki><references /></nowiki></code> block can automatically display long lists of references in columns on wide screens.  This makes footnotes easier to read.  You can [https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=Cite,VisualEditor,Wikimedia-Site-requests&title=Convert%20reference%20lists%20over%20to%20`responsive`%20on%20XXwiki&priority=10&parent=159895 '''request multi-column support'''] for your wiki. [https://phabricator.wikimedia.org/T33597]
+* You can now use your web browser's function to switch typing direction in the new wikitext mode. This is particularly helpful for RTL language users like Urdu or Hebrew who have to write JavaScript or CSS. You can use Command+Shift+X or Control+Shift+X to trigger this. [https://phabricator.wikimedia.org/T153356]
+* The way to switch between the visual editing mode and the wikitext editing mode is now consistent. There is a drop-down menu that shows the two options. This is now the same in desktop and mobile web editing, and inside things that embed editing, such as Flow. [https://phabricator.wikimedia.org/T116417]
+* The {{Int:visualeditor-categories-tool}} item has been moved to the top of the {{Int:visualeditor-pagemenu-tooltip}} menu (from clicking on the "hamburger" icon) for quicker access. [https://phabricator.wikimedia.org/T74399] There is also now a "Templates used on this page" feature there. [https://phabricator.wikimedia.org/T149009]
+* You can now create <code><nowiki><chem></nowiki></code>  tags (sometimes used as <code><nowiki><ce></nowiki></code>) for chemical formulas inside the visual editor. [https://phabricator.wikimedia.org/T153365]
+* Tables can be set as collapsed or un-collapsed. [https://phabricator.wikimedia.org/T157989]
+* The {{Int:visualeditor-specialcharacter-button-tooltip}} menu now includes characters for Canadian Aboriginal Syllabics and angle quotation marks (‹› and ⟨⟩) .  The team thanks the volunteer developer, [[:S:en:User:Tpt|Tpt]]. [https://phabricator.wikimedia.org/T108626]
+* A bug caused some section edit conflicts to blank the rest of the page.  This has been fixed.  The team are sorry for the disruption. [https://phabricator.wikimedia.org/T154217]
+* There is a new keyboard shortcut for citations:  <code>Control</code>+<code>Shift</code>+<code>K</code> on a PC, or <code>Command</code>+<code>Shift</code>+<code>K</code> on a Mac.  It is based on the keyboard shortcut for making links, which is <code>Control</code>+<code>K</code> or <code>Command</code>+<code>K</code> respectively. [https://phabricator.wikimedia.org/T99299]
+
+=== Future changes ===
+* The team is working on a syntax highlighting tool.  It will highlight matching pairs of <code><nowiki><ref></nowiki></code> tags and other types of wikitext syntax.  You will be able to turn it on and off.  It will first become available in VisualEditor's built-in wikitext mode, maybe late in 2017. [https://phabricator.wikimedia.org/T101246]
+* The kind of button used to {{Int:Showpreview}}, {{Int:showdiff}}, and finish an edit will change in all WMF-supported wikitext editors.  The new buttons will use [[Mw:OOjs UI|OOjs UI]].  The buttons will be larger, brighter, and easier to read.  The labels will remain the same.  You can test the new button by editing a page and adding <code>&ooui=1</code> to the end of the URL, like this:  https://www.mediawiki.org/wiki/Project:Sandbox?action=edit&ooui=1  The old appearance will no longer be possible, even with local CSS changes.  [https://phabricator.wikimedia.org/T162849]
+* The [[:mediawikiwiki:File:Edit_toolbar_-_2.png|outdated 2006 wikitext editor]] will be removed later this year.  It is used by approximately 0.03% of active editors.  See [[:mw:Editor|a list of editing tools on mediawiki.org]] if you are uncertain which one you use.  [https://phabricator.wikimedia.org/T30856]
+*If you aren't reading this in your preferred language, then please help us with translations! Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly, so that we can notify you when the next issue is ready. {{int:Feedback-thanks-title}}
+
+—[[:mw:User:Elitre (WMF)|Elitre (WMF)]]
+</div> 18:06, 12 May 2017 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=16160401 -->
