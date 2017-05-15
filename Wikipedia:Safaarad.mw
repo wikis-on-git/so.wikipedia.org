@@ -328,3 +328,24 @@ Since the last newsletter, the [[:mw:VisualEditor|VisualEditor Team]] has spent 
 —[[:mw:User:Elitre (WMF)|Elitre (WMF)]]
 </div> 18:06, 12 May 2017 (UTC)
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=16160401 -->
+
+== Prototype for editing Wikidata infoboxes on Wikipedia ==
+
+Hello,
+
+I’m sorry for writing in English. It’d be great if someone could translate this message if necessary.
+
+One of the most requested features for Wikidata is to enable editing of Wikidata’s data directly from Wikipedia, so the editors can continue their workflow without switching websites.
+
+The Wikidata development team has been working on a tool to achieve this goal: '''fill and edit the Wikipedia infoboxes with information from Wikidata, directly on Wikipedia''', via the Visual Editor. 
+
+We already [[d:Wikidata:Client editing input|asked for feedback in 2015]], and collected some interesting ideas which we [[:File:Facilitating_the_use_of_Wikidata_in_Wikimedia_projects_with_a_user-centered_design_approach.pdf|shared with you in this thesis]]. Now we would like to present to you our first prototype and collect your feedback, in order to improve and continue the development of this feature.
+
+We present this work to you very early, so we can include your feedback before and all along the development. You are the core users of this feature, so we want to make sure that it fits your needs and editing processes.
+
+You will find the prototype, description of the features, and a demo video, '''[[d:Special:MyLanguage/Wikidata:Client editing prototype|on this page]]'''. Feel free to add any comment or feedback on the talk page. The page is currently not translated in every languages, but you can add your contribution by helping to translate it.
+
+Unfortunately, I won’t be able to follow all the discussions on Wikipedia, so if you want to be sure that your feedback is read, please add it on the Wikidata page, in your favorite language. Thanks for your understanding.
+
+Thanks, [[user:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]]
+<!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16766491 -->
