@@ -1,2 +1,2 @@
-<includeonly>{{#ifeq:{{NAMESPACE}}|Category|{{Pagesincat|{{#ifeq:{{{1|}}}||{{PAGENAME}}|Portal {{{1}}}/Maqaallo Ku Saabsan}}|type=pages|form=1}}
-|[[:Category:Portal {{{1|{{BASEPAGENAME}}}}}/Maqaallo Ku Saabsan|{{Pagesincat|Portal {{{1|{{BASEPAGENAME}}}}}/Maqaallo Ku Saabsan|type=pages|form=1}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<includeonly>{{#ifeq:{{NAMESPACE}}|Category|{{PAGESINCATEGORY:{{#ifeq:{{{1|}}}||{{PAGENAME}}|Portal:{{{1}}}/Maqaallo Ku Saabsan}}}} maqaallo|[[:Category:Portal:{{{1|{{BASEPAGENAME}}}}}/Maqaallo Ku Saabsan|{{PAGESINCATEGORY:Portal:{{{1|{{BASEPAGENAME}}}}}/Maqaallo Ku Saabsan}} maqaallo]]}}</includeonly>
+<noinclude>{{Documentation}}</noinclude>
