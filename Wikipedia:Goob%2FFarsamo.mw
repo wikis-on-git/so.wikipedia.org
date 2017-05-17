@@ -69,3 +69,26 @@ Voting phase starts now and will run until <b>February 14th, 23:59 UTC</b>. [htt
 Proposals that will gather most votes will be included in the final results which will be published on <b>Wednesday, February 15th</b>. These proposals will also be considered in the Wikimedia Foundation’s annual plan FY 2017-18 - [[m:User:SSethi_(WMF)|SSethi_(WMF)]]  ([[m:User talk:SSethi_(WMF)|talk]]) 04:41, 6 February 2017 (UTC)
 </div>
 <!-- Message sent by User:SSethi (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=16170185 -->
+
+== New notification when a page is connected to Wikidata ==
+
+Hello all,
+
+''({{Int:Please-translate}})''
+
+The Wikidata development team is about to deploy a new feature on all Wikipedias. It is a new type of notification (via Echo, the notification system you see at the top right of your wiki when you are logged in), that will inform the creator of a page, when this page is connected to a Wikidata item.
+
+You may know that [[d:Wikidata:Main page|Wikidata]] provides a centralized system for all the interwikilinks. When a new page is created, it should be connected to the corresponding Wikidata item, by modifying this Wikidata item. With this new notification, editors creating pages will be informed when another editor connects this page to Wikidata.
+
+[[File:Screenshot Echo Wikibase notification.png]]
+
+This feature will be deployed on May 30th on all the Wikipedias, excepting English, French and German. This feature will be disable by default for existing editors, and enabled by default for new editors.
+
+This is the first step of the deployments, the Wikipedias and other Wikimedia projects will follow in the next months.
+
+If you have any question, suggestion, please let me know by pinging me. You can also follow and leave a comment [[phab:T142102|on the Phabricator ticket]].
+
+Thanks go to [[d:user:Matěj Suchánek|Matěj Suchánek]] who developed this feature! 
+
+{{Int:Feedback-thanks-title}} [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] ([[:d:User talk:Lea Lacroix (WMDE)|talk]])
+<!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16774958 -->
