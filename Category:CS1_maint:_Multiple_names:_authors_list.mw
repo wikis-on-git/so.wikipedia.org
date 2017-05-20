@@ -1,0 +1,17 @@
+{{polluted category}}
+{{Tracking category}}
+{{empty category}}
+This is a tracking category for [[WP:CS1|CS1 citations]] that use {{para|author}}, or its aliases.
+
+Articles are listed in this category when Module:Citation/CS1 identifies citations that use singular forms of author name-list parameters to list multiple names.  Doing so corrupts the citation's metadata.
+
+Replacing a singular {{para|author}} or {{para|last}} with the plural {{para|authors}} removes all author information from the template's [[WP:COinS|COinS metadata]]. Enumerating the author list with {{para|author''n''}}, or {{para|last''n''}} / {{para|first''n''}}, or, where appropriate, {{para|vauthors}}, all preserve the associated metadata.
+
+The citation module code looks for multiple comma or semicolon separator characters. This means that there can be some false positives in this list, so this maintenance message and category are hidden for most editors and readers.
+
+Pages in this category should only be added by [[Module:Citation/CS1]].
+
+----
+{{#lst:Help:CS1 errors|show_all_messages_help_text}}
+{{Large category TOC 2}}
+[[Category:CS1 maintenance|M]]
