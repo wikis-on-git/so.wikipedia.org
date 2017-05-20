@@ -1,0 +1,54 @@
+<includeonly>{{Infobox
+| title     = {{{Bot name}}}
+| above     = {{#if: {{{isbot|}}}|{{#switch:{{{isbot|}}}|no|No=|#default=This user is a bot}}|This user is a bot}}
+| subheader = ([[{{{talkpagespace|{{TALKSPACE}}}}}:{{{username|{{{Bot name}}}}}}|talk]] · [[Special:Contributions/{{{username|{{{Bot name}}}}}}|contribs]])
+| image1     = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}}}
+| image2    = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}}}
+| caption2  = {{{caption|}}}
+
+| label1    = Operator
+| data1     = {{{operator|}}}
+| label2    = Author
+| data2     = {{{author|}}}
+| label3    = [[Wikipedia:Bots/Requests for approval|Approved]]?
+| data3     = {{#switch:{{{approval|}}}|yes|Yes=[[Wikipedia:Bots/Requests for approval/{{#if:{{{brfa|}}}|{{{brfa|}}}|{{PAGENAME}}}}|{{{approval|}}}]]|#default={{{approval|}}}}}
+| label4    = [[Wikipedia:User_access_levels#Bots|Flagged]]?
+| data4     = {{{flag|}}}
+| label5    = Task(s)
+| data5     = {{{tasks|}}}
+| label6    = Edit rate
+| data6     = {{{edit rate|}}}
+| label7    = Edit period(s)
+| data7     = {{{period|}}}
+| label8    = Automatic or manual?
+| data8     = {{{process|}}}
+| label9    = [[Programming language]](s)
+| data9     = {{{language|}}}
+| label10   = [[:Category:Wikipedia bots which are exclusion compliant|Exclusion compliant]]?
+| data10    = {{#if:{{yesno|{{{Excl. comp.|}}}|def=}}|Yes{{#ifeq:{{{nocat}}}|yes||[[Category:Wikipedia bots which are exclusion compliant|{{PAGENAME}}]]}}|No}}
+| label11   = Source code published?
+| data11    = {{{source|}}} {{#ifeq:{{{source}}}|yes|{{#ifeq:{{{nocat}}}|yes||[[Category:Wikipedia bots with {{#switch:{{{lang_cat|{{{language}}}}}}
+| C++
+| Python
+| Perl
+| Java
+| PHP
+| C Sharp     = {{{lang_cat|{{{language|}}}}}}
+| pywikipedia = Python
+| #default    = 
+}} source code published|{{PAGENAME}}]]}}}}{{#ifeq:{{{source}}}|Yes|{{#ifeq:{{{nocat}}}|yes||[[Category:Wikipedia bots with {{#switch:{{{lang_cat|{{{language}}}}}}
+| C++
+| Python
+| Perl
+| Java
+| PHP
+| C Sharp     = {{{lang_cat|{{{language|}}}}}}
+| pywikipedia = Python
+| #default    = 
+}} source code published|{{PAGENAME}}]]}}}}
+| label12   = Emergency shutoff-compliant?
+| data12    = {{{shutoff|{{{shutoff_compliant|{{#if:yes|Yes}}}}}}}}
+| label13   = Other information
+| data13    = {{{other|}}}
+
+}}{{#switch:{{{active|}}}|yes=[[Category:Active Wikipedia bots]]|no=[[Category:Inactive Wikipedia bots]]}}</includeonly><noinclude>{{Documentation}}<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS. --></noinclude>
