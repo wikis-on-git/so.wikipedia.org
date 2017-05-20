@@ -1,0 +1,15 @@
+[[File:Softredirarrow.svg|64px|Soft redirect to:|link=]]<span class="redirectText" id="softredirect">[[:{{{1}}}|{{{2|{{{1}}}}}}]]</span><br /><span style="font-size:85%; padding-left:48px;">This page is a [[Wikipedia:Soft redirect|soft redirect]].</span><includeonly>{{#ifeq:{{{category|¬}}}|¬|{{#switch: {{NAMESPACE}}
+ | {{ns:0}}         = [[Category:Wikipedia soft redirects|{{PAGENAME}}]]
+ | {{ns:Category}}  = [[Category:Wikipedia soft redirected categories|{{PAGENAME}}]]<!--
+-->{{#ifeq:{{PAGESINCATEGORY:{{PAGENAME}}}}|0||[[Category:Wikipedia non-empty soft redirected categories|{{PAGENAME}}]]}}
+ | {{ns:User}}
+ | {{ns:User talk}} = [[Category:User soft redirects|{{PAGENAME}}]]
+ | {{ns:Wikipedia}}
+ | {{ns:Help}}      = [[Category:Wikipedia soft redirected project pages|{{PAGENAME}}]]
+ | {{ns:Template}}  = [[Category:Wikipedia soft redirected templates|{{PAGENAME}}]]
+ | {{TALKSPACE}}    = [[Category:Wikipedia soft redirected talk pages]] 
+ | #default         = [[Category:Wikipedia soft redirects|{{PAGENAME}}]]
+}}
+}}{{Soft redirect protection}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
