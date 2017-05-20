@@ -1,26 +1,4 @@
-{| style="width:100%;border:solid 0px #FFFFFF;background-color:transparent;align:center;text-align:center;padding:0px;padding-top:1em;" cellspacing="0px;"
-|-
-{{#ifexpr:{{{portalcount|0}}}>0|{{Related portals 2|first=1|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{1|}}}|portalname={{{2|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>1|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{3|}}}|portalname={{{4|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>2|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{5|}}}|portalname={{{6|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>3|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{7|}}}|portalname={{{8|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>4|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{9|}}}|portalname={{{10|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>5|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{11|}}}|portalname={{{12|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>6|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{13|}}}|portalname={{{14|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>7|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{15|}}}|portalname={{{16|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>8|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{17|}}}|portalname={{{18|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>9|{{Related portals 2|call=1|portalcount={{{portalcount}}}|size={{{size|}}}|image={{{19|}}}|portalname={{{20|}}}}}}}
-|-
-{{#ifexpr:{{{portalcount|0}}}>0|{{Related portals 2|first=1|call=2|portalcount={{{portalcount}}}|portalname={{{2|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>1|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{4|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>2|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{6|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>3|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{8|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>4|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{10|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>5|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{12|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>6|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{14|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>7|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{16|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>8|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{18|}}}}}}}<!--
--->{{#ifexpr:{{{portalcount|0}}}>9|{{Related portals 2|call=2|portalcount={{{portalcount}}}|portalname={{{20|}}}}}}}
-|}<noinclude>
-{{documentation}}
+<includeonly>{{#invoke:Portal|relatedPortal}}</includeonly>
+[[Category:Bogag adeegsada tusmada portal ku saabsan]]<noinclude>
+{{Documentation}}
 </noinclude>
