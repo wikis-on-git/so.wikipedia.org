@@ -1,0 +1,26 @@
+{{Infobox|child={{{child|}}}
+| bodyclass  = biography vcard
+| bodystyle  = {{#if:{{{box_width|}}}|width:{{{box_width}}};}}
+| above      = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption    = {{{image caption|{{{caption|{{{image_caption|}}}}}}}}}
+
+| label1     = Sinjiga
+| data1      = {{#if:{{{sex|}}}|<span class="sexual" {{#if:{{{sex_lang|}}}|lang="{{{sex_lang}}}" xml:lang="{{{sex_lang}}}"}}>{{{sex}}}</span> }}
+
+| label10     = Astaanta
+| data10      = {{br separated entries|1={{#if:{{{appearance|{{{appearance|}}}}}}|<span class="nickname">{{{appearance|{{{appearance|}}}}}}</span>}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<span class="birthplace">{{{birth_place|}}}</span>}}}}
+
+| label11     = Baptised
+| data11      = {{#if:{{{birth_date|}}}||{{{baptised|}}}}}
+
+| label12     = Disappeared
+| data12      = {{br separated entries|{{{disappeared_date|}}}|{{{disappeared_place|}}} }}
+
+| label13     = La xidhiidha
+| data13      = {{{others|}}}
+
+}}<noinclude>
+<!---Please add categories to the <includeonly> section at the bottom of the /doc subpage--->
+{{documentation}} 
+</noinclude>
