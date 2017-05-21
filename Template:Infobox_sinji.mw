@@ -4,7 +4,7 @@
 | above      = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{{name|{{PAGENAME}}}}}</span></includeonly>{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
 | image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
 | caption    = {{{image caption|{{{caption|{{{image_caption|}}}}}}}}}
-
+=====
 | label1     = Sinjiga
 | data1      = {{#if:{{{sex|}}}|<span class="sexual" {{#if:{{{sex_lang|}}}|lang="{{{sex_lang}}}" xml:lang="{{{sex_lang}}}"}}>{{{sex}}}</span> }}
 
