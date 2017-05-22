@@ -1,4 +1,11 @@
-<includeonly>{{#invoke:Portal|portal}}</includeonly><noinclude>
-{{documentation}}
-<!-- Categories go on the /doc subpage, and interwikis go on Wikidata -->
-</noinclude>
+<includeonly>{{#invoke:Portal|portal
+|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}
+|boxsize = {{{width|}}}{{{boxsize|}}}
+|left = {{#if:{{{right|}}}|{{{right|}}}|1}}
+|margin = {{{end|}}}{{{margin|}}}
+|break = {{#if:{{{break|}}}|&nbsp;|{{{break|}}} }}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude><includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:0}}|<!--  
+-->[[Category:Bog loo adeegsaday tusmo portal marin la'an]]<!--  
+-->}}</includeonly><noinclude>{{Pp-meta}}</noinclude>
