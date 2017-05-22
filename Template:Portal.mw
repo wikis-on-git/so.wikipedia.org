@@ -1,21 +1,4 @@
-<div class="noprint {{#ifeq: {{{left|}}} | yes | tleft | tright }} portal" style="border:solid #aaa 1px; margin:{{#if: {{{margin|}}} | {{{margin|}}} | {{#ifeq: {{{left|}}} | yes | 0.5em 1em 0.5em 0 | 0.5em 0 0.5em 1em}} }};">
-{| style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px; {{#if:{{{boxsize|}}}|width: {{{boxsize}}}px;}}"
-{{#if: {{{1|}}}  | {{portal/core|{{{1}}}  |break={{{break|}}} }}|[[Category:Portal]]}}
-{{#if: {{{2|}}}  | {{portal/core|{{{2}}}  |break={{{break|}}} }} }}
-{{#if: {{{3|}}}  | {{portal/core|{{{3}}}  |break={{{break|}}} }} }}
-{{#if: {{{4|}}}  | {{portal/core|{{{4}}}  |break={{{break|}}} }} }}
-{{#if: {{{5|}}}  | {{portal/core|{{{5}}}  |break={{{break|}}} }} }}
-{{#if: {{{6|}}}  | {{portal/core|{{{6}}}  |break={{{break|}}} }} }}
-{{#if: {{{7|}}}  | {{portal/core|{{{7}}}  |break={{{break|}}} }} }}
-{{#if: {{{8|}}}  | {{portal/core|{{{8}}}  |break={{{break|}}} }} }}
-{{#if: {{{9|}}}  | {{portal/core|{{{9}}}  |break={{{break|}}} }} }}
-{{#if: {{{10|}}} | {{portal/core|{{{10}}} |break={{{break|}}} }} }}
-{{#if: {{{11|}}} | {{portal/core|{{{11}}} |break={{{break|}}} }} }}
-{{#if: {{{12|}}} | {{portal/core|{{{12}}} |break={{{break|}}} }} }}
-{{#if: {{{13|}}} | {{portal/core|{{{13}}} |break={{{break|}}} }} }}
-{{#if: {{{14|}}} | {{portal/core|{{{14}}} |break={{{break|}}} }} }}
-{{#if: {{{15|}}} | {{portal/core|{{{15}}} |break={{{break|}}} }} }}
-{{#if: {{{16|}}} | {{portal/core|{{{16}}} |break={{{break|}}} }} }}
-{{#if: {{{17|}}} | {{portal/core|{{{17}}} |break={{{break|}}} }} }}
-{{#if: {{{18|}}} | {{portal/core|{{{18}}} |break={{{break|}}} }} }}
-|}</div><noinclude>{{documentation}}</noinclude>
+<includeonly>{{#invoke:Portal|portal}}</includeonly><noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata -->
+</noinclude>
