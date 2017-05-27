@@ -26,7 +26,7 @@
    -->{{#switch: {{SUBPAGENAME}}|doc|sandbox=<!-- No category for /doc or /sandbox subpages -->
        | {{#ifeq: {{{nocat|}}} | true | <!-- No category if user sets nocat=true --> | [[Category:Modules for general use|{{PAGENAME}}]] }}
       }}
-   | protected | protect | p   = This module is [[:Category:Modules subject to page protection|subject to page protection]]. It is a [[Wikipedia:High-risk templates|highly visible module]] in use by a very large number of pages, or is [[WP:SUBST|substituted]] very frequently. Because vandalism or mistakes would affect many pages, and even trivial editing might cause substantial load on the servers, it is [[WP:PROTECT|protected]] from editing.<!--
+   | protected | protect | p   = Modulekan [[:Category:Modules subject to page protection|waa la difaacay]]. Waxaa si toos ah iyo si dadban intaba ugu xidhan modulekan tiro badan oo maqaalo, bogag iyo qoraal ah, sidaasi darteed waa [[WP:PROTECT|laga difaacay]] wax ka bedelida.<!--
    -->{{#switch: {{SUBPAGENAME}}|doc|sandbox=<!-- No category for /doc or /sandbox subpages -->
        | {{#ifeq: {{{nocat|}}} | true | <!-- No category if user sets nocat=true --> | [[Category:Modules subject to page protection|{{PAGENAME}}]] }}
       }}
