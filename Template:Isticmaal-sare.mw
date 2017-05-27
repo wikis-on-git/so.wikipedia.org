@@ -6,7 +6,7 @@
 #switch: {{SUBPAGENAME}}
 | doc | sandbox = {{BASEPAGENAME}}
 | #default      = {{PAGENAME}}
-}}}} {{Isticmaal-sare/num|1={{formatnum:{{#ifeq:{{str endswith|{{{1}}}|+}}|yes|{{str crop|{{{1}}}|1}}|{{{1}}}}}|R}}}} bog]''', sidaasi darteed bedelka aad sameeyso wuxuu saamayn ku yeelani dhamaan bogoagaasi. Fadlan isticmaal {{#switch:{{NAMESPACE}}|Module=module's|#default=templateka}} [[{{#switch: {{SUBPAGENAME}}
+}}}} {{Isticmaal-sare/lambar|1={{formatnum:{{#ifeq:{{str endswith|{{{1}}}|+}}|yes|{{str crop|{{{1}}}|1}}|{{{1}}}}}|R}}}} bog]''', sidaasi darteed bedelka aad sameeyso wuxuu saamayn ku yeelani dhamaan bogoagaasi. Fadlan isticmaal {{#switch:{{NAMESPACE}}|Module=module's|#default=templateka}} [[{{#switch: {{SUBPAGENAME}}
     | doc | sandbox = {{SUBJECTSPACE}}:{{BASEPAGENAME}}
     | #default =      {{SUBJECTPAGENAME}}
    }}/sandbox|/bacaadkiisa]] ama [[{{#switch: {{SUBPAGENAME}}
