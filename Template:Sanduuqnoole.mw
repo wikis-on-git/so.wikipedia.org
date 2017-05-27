@@ -12,12 +12,8 @@ Species-authority is redundant to binomial_authority; we'll just list it the onc
 | parent_authority = {{#if:{{{subgenus|}}}|{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} |{{{grandparent authority|{{{grandparent_authority|}}} }}} }}
 | grandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} |{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} }}
 | greatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgrandparent authority|{{{greatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}
-| greatgreatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgreatgrandparent authority|{{{greatgreatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}<noinclude><!--
-NAME:
-{{Speciesbox/name}} both determines the taxobox name and whether the page title should be italicized by
-adding the {{italic title}} template.
---></noinclude>
-| name = {{Speciesbox/name|{{{name|<noinclude>''Acacia aemula''</noinclude>}}}|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}|{{PAGENAMEBASE}}|{{{italic_title|{{{italic title|yes}}}}}}}}<noinclude><!--
+| greatgreatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgreatgrandparent authority|{{{greatgreatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}
+| name = {{Sanduuqnoole/magac|{{{name|<noinclude>''Acacia aemula''</noinclude>}}}|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}|{{PAGENAMEBASE}}|{{{italic_title|{{{italic title|yes}}}}}}}}<noinclude><!--
  -- colour:  (Note UK spelling here) There are three cases:
  1) the parameter color_as has a value – the colour is found directly using {{Taxobox colour|color_as}}
  2) the deprecated parameter color has a value – an actual colour is expected
@@ -50,8 +46,8 @@ adding the {{italic title}} template.
 | extinct = {{{extinct|}}}
 | subgenus = {{#if:{{{subgenus|}}}|''{{{subgenus}}}''}}
 | species = {{#if:{{{extinct|}}}|&dagger;|{{Taxon info|{{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}}|dagger}} }}<!--
--->'''''{{str left|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}|1}}. {{{species|{{remove first word|{{{taxon|<includeonly>{{PAGENAMEBASE}}</includeonly><noinclude>Acacia aemula</noinclude>}}}}}}}}'''''
-| binomial = ''{{Str letter/trim|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}} {{{species|{{remove first word|{{{taxon|<includeonly>{{PAGENAMEBASE}}</includeonly><noinclude>Acacia aemula</noinclude>}}}}}}}}''
+-->'''''{{str left|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}|1}}.'''''
+| binomial = 
 | binomial_authority = {{{authority|{{{binomial authority|{{{binomial_authority|}}} }}} }}}
 | trinomial = {{{trinomial|}}}
 | trinomial_authority = {{{trinomial authority|{{{trinomial_authority|}}} }}}
