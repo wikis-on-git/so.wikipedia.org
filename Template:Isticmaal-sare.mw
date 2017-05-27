@@ -1,0 +1,22 @@
+{{Ombox
+| type  = style
+| image = [[File:Ambox warning yellow.svg|40px|alt=Warning|link=]]
+| text  = 
+'''Xasuusnoow {{#switch:{{NAMESPACE}}|Module=Lua module|#default=templatekan}} waxaa isticmaalaya [https://tools.wmflabs.org/templatecount/index.php?lang=en&namespace={{NAMESPACENUMBER:{{FULLPAGENAME}}}}&name={{urlencode:{{
+#switch: {{SUBPAGENAME}}
+| doc | sandbox = {{BASEPAGENAME}}
+| #default      = {{PAGENAME}}
+}}}} {{Isticmaal-sare/num|1={{formatnum:{{#ifeq:{{str endswith|{{{1}}}|+}}|yes|{{str crop|{{{1}}}|1}}|{{{1}}}}}|R}}}} bog]''', sidaasi darteed bedelka aad sameeyso wuxuu saamayn ku yeelani dhamaan bogoagaasi. Fadlan isticmaal {{#switch:{{NAMESPACE}}|Module=module's|#default=templateka}} [[{{#switch: {{SUBPAGENAME}}
+    | doc | sandbox = {{SUBJECTSPACE}}:{{BASEPAGENAME}}
+    | #default =      {{SUBJECTPAGENAME}}
+   }}/sandbox|/bacaadkiisa]] ama [[{{#switch: {{SUBPAGENAME}}
+    | doc | sandbox = {{SUBJECTSPACE}}:{{BASEPAGENAME}}
+    | #default =      {{SUBJECTPAGENAME}}
+   }}/testcases|/meelaha tijaabada]] loogu talogalay {{#switch:{{NAMESPACE}}|Module=.|#default=, or in your own [[Wikipedia:Subpages#How to create user subpages|sida bogaaga oo kale]].}} Hadii kale u soo bandhig bulshada Wikipedia adigoo ku faahfaahinaya {{#if:{{{2|}}}|at [[{{{2}}}]]|on the [[{{#switch: {{SUBPAGENAME}}
+    | doc | sandbox = {{TALKSPACE}}:{{BASEPAGENAME}}
+    | #default =      {{TALKPAGENAME}}
+   }}|boga wadahadalka]]}}.
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage; interwiki links go to Wikidata, thank you! -->
+</noinclude>
