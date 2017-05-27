@@ -1,0 +1,8 @@
+<noinclude>{{pp-template|small=yes}}</noinclude><noinclude><!--Parameters: 1=name, 2=taxon, 3=genus, 4=species, 5=PAGENAMEBASE, 6=italic_title (obey no)
+--></noinclude><includeonly>{{#switch:{{{5}}}
+|{{{2|}}}
+|{{Str letter/trim|{{{3|}}}}} {{{4|}}}
+|{{Str letter/trim|{{{2|}}}}}
+|{{Str letter/trim|{{{3|}}}}}={{#ifeq:{{{6|yes}}}|no||{{italic title}}}}{{#if:{{{1|}}}|{{{1}}}|''{{{5}}}''}}
+|#default={{#if:{{{1|}}}|{{{1}}}|{{#if:{{{2|}}}{{{3|}}}|{{Speciesbox/hybrid name|{{{5}}}}}|{{#ifeq:{{{6|yes}}}|no||{{italic title}}}}''{{{5}}}''}}}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>
