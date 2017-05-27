@@ -1,0 +1,90 @@
+{{Taxobox/core
+| edit link = {{{edit link|{{{edit_link|e}}} }}}
+| temporal_range = {{#if:{{{fossil_range|{{{fossil range|}}} }}}|{{#iferror:{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }}|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}}|{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }} }} | {{#if:{{{oldest fossil|{{{oldest_fossil|}}} }}}|{{geological range|{{{oldest fossil|{{{oldest_fossil}}} }}}|{{{youngest fossil|{{{youngest_fossil|Recent}}} }}} }} }} }}
+| parent = {{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}}
+| display_taxa = {{#expr:{{{display parents|{{{display_parents|1}}} }}}-1}}<noinclude><!--
+AUTHORITY (etc):
+In the format "author, year".  
+Species-authority is redundant to binomial_authority; we'll just list it the once.  (This avoids reference-duplication errors, too. 
+| species_authority = {{{authority|{{{binomial authority|{{{binomial_authority|}}} }}} }}}--></noinclude>
+| subgenus_authority = {{#if:{{{subgenus|}}}|{{{parent authority|{{{parent_authority|}}} }}} }}
+| authority = {{#if:{{{subgenus|}}}|{{{grandparent authority|{{{grandparent_authority|}}} }}} |{{{parent authority|{{{parent_authority|}}} }}} }}
+| parent_authority = {{#if:{{{subgenus|}}}|{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} |{{{grandparent authority|{{{grandparent_authority|}}} }}} }}
+| grandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} |{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} }}
+| greatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgrandparent authority|{{{greatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}
+| greatgreatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgreatgrandparent authority|{{{greatgreatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}<noinclude><!--
+NAME:
+{{Speciesbox/name}} both determines the taxobox name and whether the page title should be italicized by
+adding the {{italic title}} template.
+--></noinclude>
+| name = {{Speciesbox/name|{{{name|<noinclude>''Acacia aemula''</noinclude>}}}|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}|{{PAGENAMEBASE}}|{{{italic_title|{{{italic title|yes}}}}}}}}<noinclude><!--
+ -- colour:  (Note UK spelling here) There are three cases:
+ 1) the parameter color_as has a value – the colour is found directly using {{Taxobox colour|color_as}}
+ 2) the deprecated parameter color has a value – an actual colour is expected
+ 3) neither of these parameters have a value – Module:Autotaxobox|taxoboxColour searches up the taxonomic hierarchy
+    to try to find a taxon which determines the taxobox colour
+--></noinclude>
+| colour  = {{#if:{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}|{{Taxobox colour|{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}}}|{{#if:{{{color|{{{colour|}}} }}}|{{{color|{{{colour}}} }}}|{{#invoke:Autotaxobox|taxoboxColour|{{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}} }} }} }}
+| status  = {{{status|}}}
+| status_system = {{{status system|{{{status_system|}}} }}}
+| status_ref = {{{status ref|{{{status_ref|}}} }}}
+| status2  = {{{status2|}}}
+| status2_system = {{{status2 system|{{{status2_system|}}} }}}
+| status2_ref = {{{status2 ref|{{{status2_ref|}}} }}}
+| trend = {{{trend|}}}
+| image = {{{image|}}}
+| upright = {{{image_upright|{{{image upright|}}} }}}
+| image_width = {{{image_width|{{{image width|}}} }}}
+| image_alt = {{{image alt|{{{image_alt|}}} }}}
+| image_caption = {{{image caption|{{{image_caption|}}} }}}
+| image_caption_align = {{{image caption align|{{{image_caption_align|center}}} }}}
+| image2 = {{{image2|}}}
+| upright2 = {{{image2_upright|{{{image2 upright|}}} }}}
+| image2_width = {{{image2 width|{{{image2_width|}}} }}}
+| image2_alt = {{{image2 alt|{{{image2_alt|}}} }}}
+| image2_caption = {{{image2 caption|{{{image2_caption|}}} }}}
+| classification_status = {{{classification status|{{{classification_status|}}} }}}
+| diversity = {{{diversity|}}}
+| diversity_ref = {{{diversity ref|{{{diversity_ref|}}} }}}
+| diversity_link = {{{diversity link|{{{diversity_link|}}} }}}
+| extinct = {{{extinct|}}}
+| subgenus = {{#if:{{{subgenus|}}}|''{{{subgenus}}}''}}
+| species = {{#if:{{{extinct|}}}|&dagger;|{{Taxon info|{{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}}|dagger}} }}<!--
+-->'''''{{str left|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}|1}}. {{{species|{{remove first word|{{{taxon|<includeonly>{{PAGENAMEBASE}}</includeonly><noinclude>Acacia aemula</noinclude>}}}}}}}}'''''
+| binomial = ''{{Str letter/trim|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}} {{{species|{{remove first word|{{{taxon|<includeonly>{{PAGENAMEBASE}}</includeonly><noinclude>Acacia aemula</noinclude>}}}}}}}}''
+| binomial_authority = {{{authority|{{{binomial authority|{{{binomial_authority|}}} }}} }}}
+| trinomial = {{{trinomial|}}}
+| trinomial_authority = {{{trinomial authority|{{{trinomial_authority|}}} }}}
+| subdivision = {{{subdivision|}}}
+| subdivision_ranks = {{{subdivision ranks|{{{subdivision_ranks|Subspecies}}} }}}
+| type_strain = {{{type strain|{{{type_strain|}}} }}}
+| range_map = {{{range map|{{{range_map|}}} }}}
+| range_map_upright = {{{range_map_upright|{{{range map upright|}}}}}}
+| range_map_width = {{{range map width|{{{range_map_width|}}} }}}
+| range_map_alt = {{{range map alt|{{{range_map_alt|}}} }}}
+| range_map_caption = {{{range map caption|{{{range_map_caption|}}} }}}
+| binomial2 = {{{binomial2|}}}
+| binomial2_authority = {{{binomial2 authority|{{{binomial2_authority|}}} }}}
+| range_map2 = {{{range map2|{{{range_map2|}}} }}}
+| range_map2_upright = {{{range_map2_upright|{{{range map2 upright|}}}}}}
+| range_map2_width = {{{range map2 width| {{{range_map2_width|}}}}}}
+| range_map2_alt = {{{range map2 alt|{{{range_map2_alt|}}} }}}
+| range_map2_caption = {{{range map2 caption|{{{range_map2_caption|}}} }}}
+| binomial3 = {{{binomial3|}}}
+| binomial3_authority = {{{binomial3 authority|{{{binomial3_authority|}}} }}}
+| range_map3 = {{{range map3|{{{range_map3|}}} }}}
+| range_map3_upright = {{{range_map3_upright|{{{range map3 upright|}}}}}}
+| range_map3_width = {{{range map3 width|{{{range_map3_width|}}} }}}
+| range_map3_alt = {{{range map3 alt|{{{range_map3_alt|}}} }}}
+| range_map3_caption = {{{range map3 caption|{{{range_map3_caption|}}} }}}
+| binomial4 = {{{binomial4|}}}
+| binomial4_authority = {{{binomial4 authority|{{{binomial4_authority|}}} }}}
+| range_map4 = {{{range map4|{{{range_map4|}}} }}}
+| range_map4_upright = {{{range_map4_upright|{{{range map4 upright|}}}}}}
+| range_map4_width = {{{range map4 width|{{{range_map4_width|}}} }}}
+| range_map4_alt = {{{range map4 alt|{{{range_map4_alt|}}} }}}
+| range_map4_caption = {{{range map4 caption|{{{range_map4_caption|}}} }}}
+| synonyms_ref = {{{synonyms ref|{{{synonyms_ref|}}} }}}
+| synonyms = {{{synonyms|}}}
+}}<noinclude>
+{{documentation}}</noinclude>
