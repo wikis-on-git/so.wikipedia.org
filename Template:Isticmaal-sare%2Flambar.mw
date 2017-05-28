@@ -1,1 +1,1 @@
-{{#iferror:{{#expr:0+{{{1}}}*1}}|badan|approximately {{sigfig|{{{1}}}|2}}}}
+{{#iferror:{{#expr:0+{{{1}}}*1}}|badan|qiyaastii {{sigfig|{{{1}}}|2}}}}
