@@ -14,7 +14,7 @@
  | CR
  | cr = [[file:Status iucn2.3 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] | }}
  | EN
- | en = [[file:Status iucn2.3 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID endangered species]] | }}
+ | en = [[file:Status iucn2.3 EN.svg|frameless|link=|alt=]]<br />[[Halis ugu jira dabargo'|Halis ugu jiea bargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID Halis ugu jira dabargo']] | }}
  | VU
  | vu = [[file:Status iucn2.3 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID vulnerable species]] | }}
  | LR
@@ -63,7 +63,7 @@
  | CR
  | cr = [[file:Status iucn3.1 CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID critically endangered species]] |}}
  | EN
- | en = [[file:Status iucn3.1 EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID endangered species]] | }}
+ | en = [[file:Status iucn3.1 EN.svg|frameless|link=|alt=]]<br />[[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID Halis ugu jira dabargo']] | }}
  | VU
  | vu = [[file:Status iucn3.1 VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Liiska Cas ee MCID vulnerable species]] |}}
  | NT
@@ -94,7 +94,7 @@
  | CR
  | cr = [[file:Status EPBC CR.svg|frameless|link=|alt=]]<br />[[Critically endangered species|Critically endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act critically endangered biota]] |}}
  | EN
- | en = [[file:Status EPBC EN.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act endangered biota]]|}}
+ | en = [[file:Status EPBC EN.svg|frameless|link=|alt=]]<br />[[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act endangered biota]]|}}
  | VU
  | vu = [[file:Status EPBC VU.svg|frameless|link=|alt=]]<br />[[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:EPBC Act vulnerable biota]] |}}
  | CD
@@ -155,7 +155,7 @@
  | E
  | e
  | LE
- | le = [[file:Status ESA LE.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]]
+ | le = [[file:Status ESA LE.svg|frameless|link=|alt=]]<br />[[Halis ugu jira dabargo']]
  | T
  | t
  | LT
@@ -175,7 +175,7 @@
  | XT
  | xt = [[file:Status COSEWIC XT.svg|frameless|link=|alt=]]<br />Extirpated (Canada)
  | E
- | e = [[file:Status COSEWIC E.svg|frameless|link=|alt=]]<br />[[Endangered species|Endangered]]
+ | e = [[file:Status COSEWIC E.svg|frameless|link=|alt=]]<br />[[Halis ugu jira dabargo']]
  | T
  | t = [[file:Status COSEWIC T.svg|frameless|link=|alt=]]<br />[[Threatened species|Threatened]]
  | SC
@@ -214,7 +214,7 @@
  | EW
  | ew = [[Extinct in the Wild]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act extinct in the wild biota]]|}}
  | EN
- | en = [[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act endangered biota]]|}}
+ | en = [[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act endangered biota]]|}}
  | VU
  | vu = [[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Nature Conservation Act vulnerable biota]]|}}
  | R
@@ -267,7 +267,7 @@
  | CR
  | cr = [[Critically endangered species|Critically Endangered]]
  | EN
- | en = [[Endangered species|Endangered]]
+ | en = [[Halis ugu jira dabargo']]
  | {{{2}}}
 }}<small>&nbsp;({{#if:{{{status_text|}}}|[[{{{status_text|#Conservation status}}}|See text]]|{{{1}}}}}){{{3|}}}</small> {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Taxoboxes with an unrecognised status system]]|}}
 }}
@@ -279,7 +279,7 @@
  | CR
  | cr = [[Critically endangered species|Critically endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | EN
- | en = [[Endangered species|Endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | en = [[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | VU
  | vu = [[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Vulnerable species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | NT
