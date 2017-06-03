@@ -279,7 +279,7 @@
  | CR
  | cr = [[Critically endangered species|Critically endangered]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Critically endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | EN
- | en = [[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Endangered species]][[Category:Taxoboxes needing a status system parameter]]|}}
+ | en = [[Halis ugu jira dabargo']] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Halis ugu jira dabargo']][[Category:Taxoboxes needing a status system parameter]]|}}
  | VU
  | vu = [[Vulnerable species|Vulnerable]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Vulnerable species]][[Category:Taxoboxes needing a status system parameter]]|}}
  | NT
