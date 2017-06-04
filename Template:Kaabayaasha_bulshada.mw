@@ -1,0 +1,44 @@
+{{#invoke:sidebar|sidebar
+|title = [[Kaabayaal bulsho]]
+|titleclass = navbox-title
+|image = {{{image|[[File:Grand Coulee Dam spillway.jpg|230px]]}}}
+|caption = {{#if:{{{image|}}}|{{{caption|}}}|Biyo-xidheen}}
+|headingclass = navbox-abovebelow
+|headingstyle = padding-bottom:0.25em;
+|bodyclass = hlist
+
+|heading1 = Kaabayaasha aasaasiga ah
+|content1 = 
+* [[Laami|Laamiyada waaweyn]]
+* [[Waddo]]
+* [[Jid]]
+* [[Biyo-mareen]]
+* [[Buundo]]oyinka
+* [[Biyo-xidheen]]ada
+* [[Wasakh-qaade]]yaasha
+* [[Tareen|Wado tareen]]
+* [[Deked]]aha
+* [[Koronto|Koronto gudbinta]]
+* [[Isgaadhsiin]]ta
+* [[Gego diyaarad]]
+* [[Xeeb|Maamulka xeebaha]]
+* [[Awood|Horumarinta awooda]]
+* [[Wasakh|Maamulka wasakhda]]
+* [[Biyo-waraabin]]ta
+* [[Cusbitaal]]ada
+* [[Beeraha raaxada]]
+* [[Adeega socdaalka]]
+* [[Isgaarsiinta|Warisgaadhsiinta]]
+* [[Biyo|Biyo-gelinta]]
+|heading2 = Noocyo kale
+|content2 = 
+* [[Dugsi]]yada
+* [[Jaamacad]]aha
+* Machadyada
+* [[Saadaasha hawada]]
+|heading3 = La xidhiidha
+|content3 = 
+* Guri-dejinta
+* [[Deegaan|Ilaalada deegaanka]]
+* [[duurjoog|Ilaalada duurjoogta]]
+}}
