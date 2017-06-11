@@ -1,0 +1,35 @@
+{{#invoke:sidebar|sidebar
+|title = [[Qol|Qolalka Dhismaha]]
+|titleclass = navbox-title
+|image = {{{image|[[File:Nashqad dhisme Aqal Soomaali.jpg|230px]]}}}
+|caption = {{#if:{{{image|}}}|{{{caption|}}}|Dhisme Bangalo Soomaali (Fiila) iyo nashqada qolalka}}
+|headingclass = navbox-abovebelow
+|headingstyle = padding-bottom:0.25em;
+|bodyclass = hlist
+
+|heading1 = Noocyada Qolalka
+|content1 = 
+* [[Qolka jiifka]]
+* [[Qolka fadhiga]]
+* [[Qolka cuntada]] (Qolka qadada)
+* [[Musqul]] ([[Suuli]] iyo [[Kaniif]])
+* [[Qolka qubeyska]]
+* [[Madbakh]] ([[Jiko]])
+* [[Qolka martida]]
+* [[Qolka waxbarashada]] ([[Maktabad]])
+* [[Qolka dhaqista]] (Qolka qasaalada)
+* [[Qolka keydka]]
+
+|heading2 = Qeeybaha kale ee dhismaha
+|content2 = 
+* [[Barande]]
+* [[Haalka]]
+* Darjiin
+|heading3 = La xidhiidha
+|content3 = 
+* Nashqada Aqalka
+* [[Dhisme]]
+* [[Aqal]]
+}}
+[[Category:Dhisme]]
+[[Category:Kaabayaal]]
