@@ -348,7 +348,7 @@
  -->{{#if:{{{membership|}}}
      | <tr>
          <td colspan="2"
-             style="vertical-align:middle;">'''{{{membership_type|Membership}}}'''</td>
+             style="vertical-align:middle;">'''{{{membership_type|Xubnaha}}}'''</td>
          <td>{{{membership}}}</td>
        </tr><!--
  -->}}<!--
@@ -715,7 +715,7 @@
                | [[{{{population_link}}}|Bulshada]]<!--
             -->| {{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Dadka]]<!--
-               -->| Population<!--
+               -->| Dadka<!--
               -->}}<!--
            -->}}<!--
       --></th>
