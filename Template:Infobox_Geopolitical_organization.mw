@@ -57,7 +57,7 @@
               </tr><!--
               ----------Caption/s----------
            --><tr>
-              <td style="text-align:center;font-size:85%;">{{#ifexist:Flag of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} |[[Flag of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} | {{{flag_caption|Flag}}}]] |Flag }}</td>
+              <td style="text-align:center;font-size:85%;">{{#ifexist:Flag of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} |[[Flag of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} | {{{flag_caption|Calan}}}]] |Calan }}</td>
               {{#if:{{{image_coat|}}}{{{image_symbol|}}}
                | <td style="text-align:center;font-size:85%;">{{#ifexist:{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} |[[{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}} | {{{symbol_type|Coat of arms}}}]] |{{{symbol_type_article|{{{symbol_type|Coat of arms}}}}}} }}</td>
               }}
