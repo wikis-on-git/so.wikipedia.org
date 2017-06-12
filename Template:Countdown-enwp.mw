@@ -1,0 +1,18 @@
+<noinclude>
+{{countdown-en
+ |year       = 9999
+ |month      = 1
+ |day        = 1
+ |hour       = 0
+ |minute     = 0
+ |event      = 1-1-9999 starts
+ |duration   = 86400
+ |eventstart = 1-1-9999 has already started
+ |eventend   = 1-1-9999 has already ended
+}}
+{{esoteric}}
+</noinclude>
+
+<includeonly>{{#ifeq:{{#expr: {{#time:U}} < {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}}}}|1|U hartay {{#ifeq:{{#expr: {{#time:U}} < {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - 86399}}|1|'''<span style="color: {{{color|red}}}">{{#expr:( ( ( {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}}) / 86400 ) -0.5) round 0}}</span>''' maalmood|}} {{#ifeq:{{#expr: {{#time:U}} > {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - 3600}}|1|{{#ifeq: {{#expr: ( ( ( {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}} ) / 60 ) - 0.5 ) round 0 }}|0|'''<span style="color: {{{color|red}}}">{{#expr: {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}}}}</span>''' seconds |'''<span style="color: {{{color|red}}}">{{#expr: ( ( ( {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}} ) / 60 ) - 0.5 ) round 0 }}</span>''' minutes}} |'''<span style="color: {{{color|red}}}">{{#expr:{{#expr: ( {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}} ) / 3600 - ( ( ( ( ( ( {{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} - {{#time:U}}) / 86400 ) - 0.5 ) round 0 )* 24 ) -0.5 ) round 0}} - 1}}</span>''' Saac}} ilaa {{{event|the event}}}.|{{#ifexist:{{{duration|}}}|{{#ifeq:{{#expr: ({{#if:{{{timecode|}}}|{{{timecode|}}}|{{#time:U|{{{year}}}-{{{month|1}}}-{{{day|1}}} {{{hour|00}}}:{{{minute|00}}}:{{{second|00}}}}}}} + {{{duration}}}) > {{#time:U}}}}|1|{{{eventstart|{{{event|the event}}} has already started.}}}|{{{eventend|{{{event|the event.}} wuu dhammaaday}}}}}|{{{eventend|{{{event|the event}}} wuu dhammaaday.}}}}}}} <small>({{purge|hagaaji}})</small></includeonly>
+
+<noinclude>{{Documentation}}</noinclude>
