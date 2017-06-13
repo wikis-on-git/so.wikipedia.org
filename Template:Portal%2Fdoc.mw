@@ -1,0 +1,39 @@
+
+{{Lua|Module:Portal}}
+
+=== Adeegsiga ===
+
+
+==== Icone portal ====
+
+waxa la galiyaa tilmaamaha icone portal ee magaca sawirka ee tusmada ciwaankeeda <code>[[module:Portal/images/a/<var>Xarafka koowaad ee portal</var>]]</code>.
+
+Tusaale : Magaca portal waa : '''Turkiga''' ==> beddelku wuxuu noqonayaa [[Module:Portal/images/t]] (t waa xarafka ugu horreeya ee xarafka magaca Portal '''Turkiga''') ku darista sadar cusub shaabaha arrinkaas :  <span dir="ltr"><code>"Turkiga" = "Flag_of_Turkey.svg",</code></span>
+
+==== qodobbo ====
+
+Tusmadaan waxaa la galiyaa qeybta <code>==sidoo kale eeg==</code> hoose ee maqaalka
+
+==== tusaale ====
+
+{| style="background:transparent;"
+|- style="font-size:120%;"
+! sidaan<hr/> !! Sidaan baa dhici<hr/>
+|-
+| <small><pre>{{Portal|Soomaaliya}}</pre></small>
+| {{Portal|Soomaaliya}}
+|-
+| <small><pre>{{Portal|Turkiga|display=15|break=yes}}</pre></small>
+| {{Portal|Turkiga|display=15|break=yes}}
+|-
+| <small><pre>{{Portal|Siyaasadda|boxsize=50}}</pre></small>
+| {{Portal|Siyaasadda|boxsize=50}}
+|}
+
+=== Eeg sidoo kale ===
+* [[Template:Portal bar]]
+* [[Template:Simple Portal]]
+<includeonly>
+<!-- Qeybaha halkaan -->
+[[Category:Portal tusmo]]
+</includeonly>
