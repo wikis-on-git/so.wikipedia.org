@@ -1,18 +1,81 @@
-{| class="wikitable"
-!hibaq maxamad axmad                      nimcaan ddsi @gmail.com
-|-
-|facebook basudh 0945419208
-i
-|
-|
-|
-|-
-|
-|
-|
-|
-|}
-'''[[Hindiya|Iswiidhan]]''' ({{lang-sv|Sverige}}; {{IPA-sv|ˈsværjɛ||Sv-Sverige.ogg}}; {{lang-en|Sweden}}), '''Boqortooyada Iswiidhan''' ([[Af-Iswiidhan]]: ''Konungariket Sverige)'', waa dal ka mid ah Iskaandinafiyaaka dhacana [[Woqooyi]]yiga [[Yurub]]. Iswiidhan waxay xad la leedahay dalalka [[Norway]], [[Finland]], iyo [[Denmark]] taasoo ku xirta buundada Øresund.
+{{Infobox country
+| conventional_long_name = Boqortooyada Iswiidhan<br /> Kingdom of Sweden
+| native_name = {{native name|sv|Konungariket Sverige|icon=no}}
+| common_name = Sweden
+| image_flag = Flag of Sweden.svg
+| image_coat = Great coat of arms of Sweden.svg
+| image_map = EU-Sweden.svg
+| map_caption = {{map caption |location_color=cagaarka mugdiga ah |region=[[Yurub]] |region_color=Dameeri mugdi |subregion= Midowga Yurub |subregion_color=cagaar |Legend=EU-Sweden.svg}}
+| national_motto = {{small|[[Royal mottos of Swedish monarchs|(royal)]]}}&nbsp;"{{lang|sv|För Sverige – i tiden}}"&nbsp;{{ref label|aaa|a}}<br />{{small|"Iswiidhan – Waxay la socotaa waqtiga"}}
+| national_anthem = ''{{lang|sv|[[Du gamla, Du fria]]}}''&nbsp;{{ref label|bbb|b}}<br />{{small|''Waxaa tahay waayo, waxaa tahay xor''}}<br /><center>[[File:United States Navy Band - Sweden.ogg]]</center>
+| royal_anthem = ''{{lang|sv|[[Kungssången]]}}''<br />{{small|''Heesta boqorka''}}
+| official_languages = [[Af-Iswiidhan]]{{ref label|ccc|c}}
+| ethnic_groups = ma lahan tirakoob rasmi ah{{ref label|ddd|d}}
+| demonym = {{hlist |[[Iswiidhish]]}}
+| capital = {{Coat of arms|Stockholm}}
+| latd=59 |latm=21 |latNS=N |longd=18 |longm=4 |longEW=E
+| largest_city = capital
+| government_type = [[Dawlad dhexe]] [[Baarlamaan]] hab dimoqraadi ah hoos timaada Boqortooyo Dastuuri ah
+| leader_title1 = Hogaamiye ama Boqor
+| leader_name1 = [[Boqor Carl XVI Gustaf]]
+| leader_title2 = [[Ra'iisul wasaare]]
+| leader_name2 = {{nowrap|[[Stefan Löfven]] ([[Social Democrats|S]])}}
+| leader_title3 = Af-Hayeenka Baarlamaanka<br />the ''Riksdag'
+| leader_name3 = {{nowrap|[[Per Westerberg]] ([[Moderate Party|M]])}}
+| legislature = ''[[Riksdag]]''
+| established_event1 = Iskudhaf
+| established_date1 = Da´ dhexaad
+| EUseats = 19
+| area_rank = 57th
+| area_magnitude = 1 E+11
+| area_km2 = 449,964
+| area_sq_mi = 173,745
+| percent_water = 8.7
+| population =
+| population_estimate_rank = 89th
+| population_census = 9,875,378
+| population_census_year = 2016
+| population_density_km2 = 21.5
+| population_density_sq_mi = 55.6
+| population_density_rank = 194th
+| GDP_PPP = {{nowrap|$381.719 billion<ref name="imf2">{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2012/01/weodata/weorept.aspx?pr.x=92&pr.y=3&sy=2009&ey=2012&scsm=1&ssd=1&sort=country&ds=.&br=1&c=144&s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&grp=0&a= |title=Sweden |publisher=International Monetary Fund |accessdate=22 April 2012}}</ref><!--end nowrap:-->}}
+| GDP_PPP_rank = 
+| GDP_PPP_year = 2011
+| GDP_PPP_per_capita = $40,393<ref name="imf2"/>
+| GDP_PPP_per_capita_rank = 
+| GDP_nominal = {{nowrap|$538.237 billion<ref name="imf2"/>}}
+| GDP_nominal_rank = 
+| GDP_nominal_year = 2011
+| GDP_nominal_per_capita = $56,956<ref name="imf2"/>
+| GDP_nominal_per_capita_rank = 
+| Gini_year = 2011
+| Gini_change =  <!--increase/decrease/steady-->
+| Gini = 24.4 <!--number only-->
+| Gini_ref = <ref name=eurogini>{{cite web|title=Gini coefficient of equivalised disposable income (source: SILC)|url=http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=ilc_di12|publisher=Eurostat Data Explorer|accessdate=13 August 2013}}</ref>
+| Gini_rank = 
+| HDI_year = 2013
+| HDI_change = increase <!--increase/decrease/steady-->
+| HDI = 0.916 <!--number only-->
+| HDI_ref = <ref name="HDI">{{cite web |url=http://hdr.undp.org/en/media/HDR_2013_EN_Table1.pdf |title=Human Development Report 2013 |year=2013 |publisher=United Nations |accessdate=14 March 2013}}</ref>
+| HDI_rank = 8th
+| currency = [[Karoonka Iswiidhan]]
+| currency_code = SEK
+| country_code = SWE
+| time_zone = [[Saacadda Yurubta Dhexe|CET]]
+| utc_offset = +1
+| time_zone_DST = [[Saacdda Yurubta Dhexe Xagaaga|CEST]]
+| utc_offset_DST = +2
+| date_format = yyyy-mm-dd
+| drives_on = midig{{ref label|eee|e}}
+| calling_code = [[Furaha Teleefoonka|46]]
+| cctld = [[.se]]{{ref label|fff|f}}
+| footnote_a = {{note|aaa}} "{{lang|sv|För Sverige – I tiden}}" has been adopted by [[Carl XVI Gustaf of Sweden|Carl XVI Gustaf]] as his personal motto.
+| footnote_b = {{note|bbb}} ''{{lang|sv|[[Du gamla, Du fria]]}}'' has never been officially adopted as national anthem, but is so by convention.
+| footnote_c = {{note|ccc}} Since 1 July 2009.
+| footnote_e = {{note|eee}} Since [[Dagen H|3 September 1967]].
+| footnote_f = {{note|fff}} The [[.eu]] domain is also used, as it is shared with other [[European Union]] member states.
+}}
+'''[[Iswiidhan]]''' ({{lang-sv|Sverige}}; {{IPA-sv|ˈsværjɛ||Sv-Sverige.ogg}}; {{lang-en|Sweden}}), '''Boqortooyada Iswiidhan''' ([[Af-Iswiidhan]]: ''Konungariket Sverige)'', waa dal ka mid ah Iskaandinafiyaaka dhacana [[Woqooyi]]yiga [[Yurub]]. Iswiidhan waxay xad la leedahay dalalka [[Norway]], [[Finland]], iyo [[Denmark]] taasoo ku xirta buundada Øresund.
 
 Iswiidhan waa dalka saddexaad ee Yurubta ugu weyn xagga [[bed]]ka dhulka (450,295 km<sup>2</sup>) tirada dadka waxay gaareeysaa 9.6<ref>[http://www.scb.se/Pages/Product____25799.aspx Tirakoobka.]</ref> malyan oo qof Iswiidhan dadkeedu waa yeryihiin marka loo eego baaxadda dhulka ay haysato in ka yer 22 qof ayaa ku soo aadeeso 1 km<sup>2</sup> laakiin 85% ayaa tirada dadka sii korortaa koonfurta dalka waxaana usabab ah guryeenta faraha badan ee ka jirta koonfurta, [[Stockholm]] waa caasimadda dalka waxaana degan in ku dhow 1.6 malyan oo qof.
 
