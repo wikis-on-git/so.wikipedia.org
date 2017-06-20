@@ -4,5 +4,5 @@
 {| cellpadding="0" cellspacing="0" style="width:97%;"
 | colspan="2" |<div style="border-radius:.2em; float:center; margin:0 0 2em 0; padding:50px; width:97%;">
 | style="padding:.4em 1.6em 1em;" | <strong style="font-size:45px; line-height:41px; color:#484848">{{{1|{{{entry2|}}}}}}</strong><br/><span style="color:#666;">{{{2|{{{entry3|}}}}}}</span>
-{{#if: {{{3|{{{entry4|}}}}}} | {{!}} style="padding: .1em 1em 1em; text-align: center;" {{!}} {{{3|{{{entry4|}}}}}}</span> }}
+{{#if: {{{3|{{{entry4|}}}}}} | {{!}} style="padding: .1em 1em 1em; text-align: left;" {{!}} {{{3|{{{entry4|}}}}}}</span> }}
 |}[[Category:Bogag adeegsada tusmada madax1]]<noinclude>{{Documentation}}</noinclude>
