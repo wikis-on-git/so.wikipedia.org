@@ -1,0 +1,8 @@
+__NOTOC__ __NOEDITSECTION__<includeonly>{{#if:{{{title|}}}|<div style="text-align:right; position:relative; right:4px; top:2px; margin:0;">
+<span style="float:left" class="editsection">{{{link|}}}</span><!--  
+-->{{#if:{{{small|}}}<!--  
+-->|[[file:{{{ore|1}}}-Background.svg|link=]]<!--  
+-->|[[file:{{{ore|1}}}-Background.svg|link=]]<!--  
+-->}}<div style="position:absolute; right:5px; top:-6px;">[[file:{{{icone|HSutvald2.svg}}}|38px|link=]]</div><div style="dir:rtl; position:absolute; right:40px; top:-20px;"><h2 {{#if:{{{id|}}} | id="{{{id}}}Head"| }} style="font-weight:bold; color: {{{color|#FFF}}}; border-bottom:none; font-size:130%; padding:.15em .4em;">{{{title|title}}}</h2></div></div>|}}<div {{#if:{{{id|}}}|id="{{{id}}}"|}} style="padding:1em;"></includeonly>
+<noinclude>[[Category:Portal Template]]
+{{Documentation}}</noinclude>
