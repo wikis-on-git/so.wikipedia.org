@@ -1,9 +1,9 @@
 <includeonly><div style="dir:rtl; border:1px solid {{{color_footnote|#c2dfff}}}; background:{{{color_background|transparent}}}; border-radius:10px;padding:0.5em; margin-bottom:1em;">
 {{#if:{{{title|}}}|<div style="text-align:left; position:relative; left:4px; top:2px; margin:0;"><span style="float:left" class="editsection">{{{link|}}}</span><!--  
 -->{{#if:{{{small|}}}<!--  
--->|[[file:{{{color|Blue}}}-bg rounded cropped right.svg|link=]]<!--  
--->|[[file:{{{color|Blue}}}-bg rounded right.svg|link=]]<!--  
--->}}<div style="position:absolute; right:5px; top:-6px;">[[file:{{{image|HSutvald2.svg}}}|38px|link=]]</div><div style="dir:rtl; position:absolute; left:40px; top:-20px;"><h2 {{#if:{{{id|}}} | id="{{{id}}}Head"| }} style="font-weight:bold; border-bottom:none; font-size:130%; padding:.15em .4em;">{{{title|title}}}</h2></div></div>|}}<div {{#if:{{{id|}}}|id="{{{id}}}"|}} style="padding:1em;">
+-->|[[file:{{{color|Blue}}}-bg rounded cropped left.svg|link=]]<!--  
+-->|[[file:{{{color|Blue}}}-bg rounded left.svg|link=]]<!--  
+-->}}<div style="position:absolute; left:5px; top:-6px;">[[file:{{{image|HSutvald2.svg}}}|38px|link=]]</div><div style="dir:rtl; position:absolute; left:40px; top:-20px;"><h2 {{#if:{{{id|}}} | id="{{{id}}}Head"| }} style="font-weight:bold; border-bottom:none; font-size:130%; padding:.15em .4em;">{{{title|title}}}</h2></div></div>|}}<div {{#if:{{{id|}}}|id="{{{id}}}"|}} style="padding:1em;">
 {{{content}}}
 </div>
 </div></includeonly><noinclude>
