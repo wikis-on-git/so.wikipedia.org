@@ -1,0 +1,116 @@
+{{Documentation subpage}}
+== Siin ==
+* <code>id</code> : Tirada qeexista (ee loo adeegsado CSS, waa xulasho)
+* <code>title</code> : Title frame (waa xulasho)
+* <code>image</code> : sawir dhinac yaal ciwaanka (waa xulasho, midka qasabka ah waa midla leh ciwaanka)
+* <code>color</code> : Midabka gadaale (waa xulasho), midab la maleynayaa waa : buluug
+* <code>content</code> (waa qasab)
+
+=== Midabada la heli karo ===
+
+{| class="wikitable"
+
+| [[file:Black-bg.svg]]
+| Black
+| [[file:Blue-bg.svg]]
+| Blue
+|-
+| [[file:Bright Red-bg.svg]]
+| Bright Red
+| [[file:Dark Blue-bg.svg]]
+| Dark Blue
+|-
+| [[file:Dark Green-bg.svg]]
+| Dark Green
+| [[file:French Beige-bg.svg]]
+| French Beige
+|-
+| [[file:Green-bg.svg]]
+| Green
+| [[file:Grey-bg.svg]]
+| Grey
+|-
+| [[file:Orange-bg.svg]]
+| Orange
+| [[file:Pink-bg.svg]]
+| Pink
+|-
+| [[file:Purple-bg.svg]]
+| Purple
+| [[file:Red-bg.svg]]
+| Red
+|-
+| [[file:Yellow-bg.svg]]
+| Yellow
+| [[file:LGBT-bg.svg]]
+| LBGT
+|-
+| [[file:Gryffindor-bg.svg]]
+| Gryffindor
+| [[file:Hufflepuff-bg.svg]]
+| Hufflepuff
+|-
+| [[file:Ravenclaw-bg.svg]]
+| Ravenclaw
+| [[file:Slytherin-bg.svg]]
+| Slytherin
+|}
+
+== Tusaale ==
+<code><nowiki>{{Frame with insert color
+|title=Frame with insert color
+|image=HSWPedia.svg
+|content=Hello
+}}</nowiki></code> 
+
+*Natiijada :
+
+{{Frame with insert color
+|title= Frame with insert color
+|image=HSWPedia.svg
+|color1=Red
+|content=Hello 
+}}
+<code><nowiki>{{Frame with insert color
+|title= Frame with insert color
+|image=HSWPedia.svg
+|color=Red
+|content=Helloبا 
+}}</nowiki></code>
+
+* Natiijada :
+
+{{Frame with insert color
+|title= Frame with insert color
+|image=HSWPedia.svg
+|color=Red
+|content=Hello 
+}}
+
+==Sidoo kale dib u eeg == 
+* [[commons:HS icons|HS icons]] Sawirro dheeraad ah ee nuucaan ka mida.
+* {{tl|Title with insert color}} si aad u heshid qeyb ciwaan kaliya ah.
+
+==Eeg sidoo kale==
+* {{tl|Frame1}}
+* {{tl|Frame2}}
+* {{tl|Frame3}}
+* {{tl|Frame4}}
+* {{tl|Frame5}} 
+* {{tl|Frame6}}
+* {{tl|Frame7}}
+* {{tl|Frame8}} 
+* {{tl|Frame9}}
+* {{tl|Frame10}}
+* {{tl|Frame11}}
+* {{tl|Frame12}}
+* {{tl|Frame13}}
+* {{tl|Frame14}}
+* {{tl|Frame15}}
+* {{tl|Three-dimensional framework}}
+* {{tl|Frame with insert color}}
+<noinclude>
+
+[[Category:Template]]
+
+</noinclude>
