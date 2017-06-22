@@ -1,0 +1,93 @@
+{{Documentation subpage}}
+
+== Adeegsiga ==
+Tusmadani waxay kuu suuragalinaysaa samaynta ciwaano qeybaha midabka gadaale iyo icone la socda. Ciwaanka waxaa lagu daraa si talantaali ah kana mid ah liiska cutubyada haddii aan la diidin.
+
+== Habka==
+* <code><nowiki>{{</nowiki>Title with insert color<nowiki>|title=|length=length/small|color=|image=|unindexed=|id=}}</nowiki></code>
+
+== Siin==
+* ''color'' - <u>English baa lagu qorayaa</u>, midabka gadaale ee ciwaanka (waa xulasho), midabka suuragalka ah : buluug. Hoos ka fiiri jadwalka
+* ''unindexed'' - Waa laga reebayaa in inwaanka lagu daro cutubka (Waa xulasho)
+* ''id'' - tirada qeexista (ee la adeegsado CSS, xulasho) waxa ma soo kordhinayo haddii la adeegsado <code>unindexed</code>
+* ''image'' – icone kale si aad u doorato (xulasho, icone suuragal ah waa ''HSCirkel.svg''). Eeg [[:commons:HS icons|HS icons]] Sawirro dheeraad ah oo nuucaan ka mida (gudaha wareegga).
+* ''length'' – beddelka dhererka bedka midabaysan, ''dheer'' ama ''gaaban'' (xulasho)
+* ''title'' - Ciwaanka soo muuqanaya ciwaan ahaan (waa qasab)
+
+{| class="wikitable" style="margin:auto"
+ |+ « Midabbo iyo midabbo gadaale »  ee hadda la helo karo
+ ! scope=col | Magaca
+ ! scope=col | Natiijada
+ ! scope=col | Magaca
+ ! scope=col | Natiijada
+ |-
+ | [[:Commons:Category:Black web graphic elements|Black]]
+ | [[file:Black-bg.svg]]
+ | [[:Commons:Category:Blue web graphic elements|Blue]]
+ | [[file:Blue-bg.svg]]
+ |-
+ | [[:Commons:Category:Bright red web graphic elements|Bright_Red]]
+ | [[file:Bright_Red-bg.svg]]
+ | [[:Commons:Category:Dark blue web graphic elements|Dark_Blue]]
+ | [[file:Dark_Blue-bg.svg]]
+ |-
+ | [[:Commons:Category:Dark green web graphic elements|Dark_Green]]
+ | [[file:Dark_Green-bg.svg]]
+ | [[:Commons:Category:French beige web graphic elements|French_Beige]]
+ | [[file:French_Beige-bg.svg]]
+ |-
+ | [[:Commons:Category:Green web graphic elements|Green]]
+ | [[file:Green-bg.svg]]
+ | [[:Commons:Category:Grey web graphic elements|Grey]]
+ | [[file:Grey-bg.svg]]
+ |-
+ | [[:Commons:Category:Orange web graphic elements|Orange]]
+ | [[file:Orange-bg.svg]]
+ | [[:Commons:Category:Pink web graphic elements|Pink]]
+ | [[file:Pink-bg.svg]]
+ |-
+ | [[:Commons:Category:Purple web graphic elements|Purple]]
+ | [[file:Purple-bg.svg]]
+ | [[:Commons:Category:Red web graphic elements|Red]]
+ | [[file:Red-bg.svg]]
+ |-
+ | [[:Commons:Category:Yellow web graphic elements|Yellow]]
+ | [[file:Yellow-bg.svg]]
+ | [[:Commons:Category:LGBT web graphic elements|LGBT]]
+ | [[file:LGBT-bg.svg]]
+ |-
+ | [[:Commons:Category:Gryffindor web graphic elements|Gryffindor]]
+ | [[file:Gryffindor-bg.svg]]
+ | [[:Commons:Category:Hufflepuff web graphic elements|Hufflepuff]]
+ | [[file:Hufflepuff-bg.svg]]
+ |-
+ | [[:Commons:Category:Ravenclaw web graphic elements|Ravenclaw]]
+ | [[file:Ravenclaw-bg.svg]]
+ | [[:Commons:Category:Slytherin web graphic elements|Slytherin]]
+ | [[file:Slytherin-bg.svg]]
+ |-
+|}
+
+== Tusaalooyin==
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba }}</nowiki></code> : Adeegsi fudud
+{{Qeybta ciwaanka|title=Alifba 1}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 2 | length=short}}</nowiki></code> : short
+{{Qeybta ciwaanka|title=Alifba 2 | length=short}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 3 | length=length}}</nowiki></code> : length
+{{Qeybta ciwaanka|title=Alifba 3 | length=length}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 4 | simplified=yes}}</nowiki></code> : Marin midab fidsan ee ballaca bogga
+{{Qeybta ciwaanka|title=Alifba 4 | simplified=yes}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 5 | color=Red}}</nowiki></code> : midab kale
+{{Qeybta ciwaanka|title=Alifba 5 | color=Red}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 6 | image=HSEarth.svg}}</nowiki></code> : icone kale
+{{Qeybta ciwaanka|title=Alifba 6 | image=HSEarth.svg}}
+* <code><nowiki>{{</nowiki>Qeybta ciwaanka<nowiki> |title=Alifba 7 | unindexed=yes}}</nowiki></code> : cutub cinwaan laáan ah
+{{Qeybta ciwaanka|title=Alifba 7 | unindexed=yes}}
+
+==Sidoo kale eeg == 
+* [[commons:HS icons|HS icons]] Sawirro dheeraad ah ee ku saabsan Icone.
+* {{tl|Frame with insert color}} si aad u hesho qeyb ciwaan  iyo qoraalo ku wada jira frame.
+
+<includeonly>
+[[Category:Template]]
+</includeonly>
