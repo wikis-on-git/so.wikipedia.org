@@ -1,0 +1,54 @@
+{{Navbox
+ | name = Biyo
+ | title = [[Biyo]]
+ | state = {{{state|{{{1|autocollapse}}}}}}
+ | bodyclass = hlist
+
+ | image = [[File:Water droplet.jpg|right|70px|Dhibic biyo]]
+
+ <!--| evenstyle = background: #F4F0EC-->
+
+ | group1 = Guud ahaan
+ | list1 =
+* [[Astaanta biyaha|Astaanta]]
+* [[Macluumaadka biyaha|Macluumaadka]]
+* [[Biyo|Qaabka]]
+* [[Sumada biyaha|Sumadaha]]
+
+ | group2 = Marxaladaha
+ | list2 =
+* [[Dareere]]
+* [[Baraf]]
+* [[Uumi]]
+* [[Bukhuur]]
+
+ | group3 = Samaysanka
+ | list3 =
+* [[Falgal|Falgalka]]
+* [[Iskudhis|Iskudhiska kimiko]]
+* [[Hydrogen|Hydronium]]
+
+ | group4 = Nolosha [[Dhulka]]
+ | list4 =
+* [[Wareega biyaha]]
+* [[Helitaanka biyaha]]
+* [[Duni|Asalka]]
+* [[Wasakh|Wasakhoowga]]
+* [[Webi|Ilaha biyaha]]
+
+ | belowstyle = font-weight: bold;
+ | below =
+* &nbsp;{{icon|portal}} [[Portal:Biyo|Portal]]
+* &nbsp;{{icon|category}} [[:Category:Biyo|Category]]
+* &nbsp;{{icon|commons}} [[commons:Category:Water|Commons]]
+* &nbsp;{{icon|wiktionary}} [[wikt:biyo|Wiktionary]]
+
+}}<noinclude>
+{{Documentation | content =
+
+{{Collapsible option |statename = optional}}
+
+}}
+[[Category:biyo]]
+
+</noinclude>
