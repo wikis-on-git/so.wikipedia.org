@@ -1,9 +1,1 @@
-<includeonly>{{{{{rootpage|{{FULLPAGENAME}}}}}/box-header
-  | {{{header|subpage}}}
-  | {{{rootpage|{{FULLPAGENAME}}}}}/{{{subpage}}}/{{#expr: {{rand| {{{max}}} | {{mod|{{#time:U}}|{{{seed|17}}}}} }} + 1}} }}
-{{{{{rootpage|{{FULLPAGENAME}}}}}/{{{subpage}}}/{{#expr: {{rand|{{{max|1}}}|{{mod|{{#time:U}}|{{{seed|17}}}}} }} + 1}}}}
-{{ #ifeq: {{{footer|}}}||<div style="clear:both;"></div></div>|{{/box-footer|[[{{{rootpage|{{FULLPAGENAME}}}}}/{{{subpage}}}|{{{footer}}}]]}}}}</includeonly><noinclude>
-{{documentation}}
-{{purgepage}}
-<!-- Add categories and interwiki links to the /doc subpage, not here! -->
-</noinclude>
+#REDIRECT [[Template:Kuwo ku nasiibso ah]]
