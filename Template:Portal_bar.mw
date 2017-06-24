@@ -1,8 +1,4 @@
-<includeonly>{{#invoke:Portal|hPortal}}<!-- 
-
-Waxaa looga danleeyahay ku darista si loo ogaado bogagga aan lahayn isku xirka wiki caddeymaha sidoo kale ka warqabka portalada la xiriira si loo xaddido mid uun tusaale ahaan juqraafiga sooyaaliyo wixii la mid ah
--->{{#invoke:Finditem|find|{{Main other|[[Category:bogagga aan lahayn qaybaha wiki caddaymaha]]}}}}<!-- 
-
---></includeonly><noinclude>
-{{Documentation}}
-{{Pp-meta}}</noinclude>
+{{#invoke:Portal bar|main}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>
