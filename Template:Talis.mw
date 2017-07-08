@@ -1,12 +1,12 @@
 {{Sidebar
 |name = Talis
 |class = plainlist
-|style = width:20.0em;<!--width no less than 19.0em, please, to avoid unsightly linewraps-->
-|pretitle = Qeyb ka mid ah [[:Category:Siyaasad|Silsiladda Taliska iyo maamulka dawladda]]
+|style = width:22.0em;<!--width no less than 19.0em, please, to avoid unsightly linewraps-->
+|pretitle = '''Qeyb ka mid ah [[:Category:Siyaasad|Silsiladda Taliska iyo maamulka dawladda]]'''
 |titlestyle = padding-bottom:0.5em;
-|title = [[Maamul]]ka
+|title = '''[[Maamul]]ka'''
 |headingstyle = background:#eee;
-|contentstyle = padding-top:0.2em;
+|contentstyle = padding-top:0.3em;
 
 |heading1 = [[Fulinta (Dawlad)|Fullinta]]
 |content1 = <div class="hlist">
@@ -21,7 +21,7 @@
 * '''Madaxa Maamulka''' {{hlist |[[Ra'iisal Wasaare]] |Wasiirka Koowaad}}
 |content3style = padding-top:0;
 |content3 = 
-* '''Golle'''<br/>Golaha Wasiirrada
+* '''Golle'''<br/>[[Golaha Wasiirrada]]
 |content4style = padding-top:0;
 |content4 =
 * '''[[Wasaarad]]''' {{hlist |[[Wasiir]] |[[Xoghaye]]}}
