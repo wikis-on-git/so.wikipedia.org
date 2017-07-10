@@ -416,3 +416,19 @@ On behalf of the Election Committee,<br />
 
 ''Posted by the [[m:Special:MyLanguage/User:MediaWiki message delivery|MediaWiki message delivery]] • [[m:Special:MyLanguage/Wikimedia Foundation elections/2017/Updates/Start of the 2017 Wikimedia Foundation Funds Dissemination Committee elections|Translate]] • [[m:Talk:Wikimedia Foundation elections/2017|Get help]]''</div> 21:05, 23 May 2017 (UTC)
 <!-- Message sent by User:GVarnum-WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=16804695 -->
+
+== Accessible editing buttons ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">The MediaWiki developers have been slowly improving the accessibility of the user interface.  The next step in this transition will change the appearance of some buttons and may break some outdated (non-updated or unmaintained) user scripts and gadgets.
+
+You can see and use the [https://www.mediawiki.org/wiki/Project:Sandbox?action=submit&ooui=0 old] and [https://www.mediawiki.org/wiki/Project:Sandbox?action=submit&ooui=1 new] versions now.  Most editors will only notice that some buttons are slightly larger and have different colors.
+
+<gallery mode="nolines" caption="Comparison of old and new styles" heights="240" widths="572">
+File:MediaWiki edit page buttons accessibility change 2017, before.png|Buttons before the change
+File:MediaWiki edit page buttons accessibility change 2017, after.png|Buttons after the change
+</gallery>
+
+However, this change also affects some user scripts and gadgets.  Unfortunately, some of them may not work well in the new system.  <mark>If you maintain any user scripts or gadgets that are used for editing, please see '''[[:mw:Contributors/Projects/Accessible editing buttons]]''' for information on how to test and fix your scripts.  Outdated scripts can be tested and fixed now.</mark>
+
+This change will probably reach this wiki on '''Tuesday, 18 July 2017'''.  Please leave a note at [[:mw:Talk:Contributors/Projects/Accessible editing buttons]] if you need help.</div> [[:m:User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[User talk:Whatamidoing (WMF)|talk]]) 22:22, 10 Luuliyo 2017 (UTC)
+<!-- Message sent by User:Quiddity (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery/Wikipedia&oldid=16980876 -->
