@@ -5,54 +5,85 @@
 |caption   =
 |poptime   = 16-19&nbsp;malyan
 |popplace  = [[Geeska Afrika]], [[Bariga Dhexe]]
-|region1   = {{flagcountry|Somalia}}
-|pop1      = 8.5&nbsp;malyan
-|ref1      = 
-|region2   = {{flagcountry|Ethiopia}}
-|pop2      = 4.6 malyan
-|ref2      = 
-|region3   = {{flagcountry|Kenya}}
-|pop3      = 900,000
-|ref3      = 
-|region4   = {{flagcountry|Yemen}}
-|pop4      = 858,000
-|ref4      = 
-|region5   = {{flagcountry|Djibouti}}
-|pop5      = 464,600
-|ref5      = {{lower|<ref>[https://www.cia.gov/library/publications/the-world-factbook/geos/dj.html CIA World Factbook - Djibouti - People and Society]; *N.B. ~60% of 774,389 total pop.</ref>}}
-|region6   = {{flagcountry|Canada}}
-|pop6      = 150,000
-|ref6      = {{lower|<ref>[http://www.hiiraan.com/news2/2006/nov/ontario_municipal_election_somali_canadian_prospective.aspx Ontario Municipal Election: Somali Canadian Prospective]; *N.B. 37,785 individuals reported Somali ethnicity in 2006 census - c.f. [http://www12.statcan.ca/census-recensement/2006/dp-pd/hlt/97-562/pages/page.cfm?Lang=E&Geo=PR&Code=01&Table=2&Data=Count&StartRec=1&Sort=3&Display=All&CSDFilter=5000]</ref>}}
-|region7   = {{flagcountry|Italy}}
-|pop7      = 6.343
-|ref7      = {{lower|<ref>[http://www.uil.it/immigrazione/stranieri_italia.htm STRANIERI SOGGIORNANTI
-ALLA DATA DEL 31/12/2000]; *N.B. 2.029 Dhidig 4.314 Lab.</ref>}}
-|region8   = {{flagcountry|United States}}
-|pop8      = 85,700
-|ref8      = {{lower|<ref>[http://minnesota.publicradio.org/display/web/2010/12/14/american-community-survey-initial-findings/ Survey: Nearly 1 in 3 US Somalis live in Minnesota]</ref>}}
-|region9  = {{flagcountry|Netherlands}}
-|pop9     = 40,165
-|ref9     = {{lower|<ref>[http://www.ssd.scb.se/databaser/makro/SaveShow.asp Statistics Sweden]</ref>}}
-|pop10      = 33,750
-|ref10      = {{lower|}}
+|region1    = {{flagcountry|Somalia}}
+|pop1       = 12 million 
+|ref1       = {{lower|<ref name="UNFPA Somali Population Survey 2014">[http://somalia.unfpa.org/sites/arabstates/files/pub-pdf/Population-Estimation-Survey-of-Somalia-PESS-2013-2014.pdf UNFPA Somali Population Survey 2014]. Somalia.unfpa.org (06 April 2014). Retrieved 06 October 2016.</ref>}} 
+|region2    = {{flagcountry|Ethiopia}}
+|pop2       = 4.6 million
+|ref2       = <ref name=CSA>[http://www.csa.gov.et/pdf/Cen2007_firstdraft.pdf "Census 2007"], first draft, Table 5. Central Statistical Agency of Ethiopia</ref>
+|region3    = {{flagcountry|Kenya}}
+|pop3       = 2.4 million
+|ref3       = <ref name="Kengov">{{cite web|title=2009 POPULATION & HOUSING CENSUS RESULTS |url=http://www.knbs.or.ke/docs/PresentationbyMinisterforPlanningrevised.pdf |publisher=Ministry of State for Planning, National Development and Vision 2030 |accessdate=17 September 2014 |deadurl=unfit |archiveurl=https://web.archive.org/web/20130810185221/http://www.knbs.or.ke/docs/PresentationbyMinisterforPlanningrevised.pdf |archivedate=10 August 2013 }}</ref>
+|region4    = {{flagcountry|Djibouti}}
+|pop4       = 524,000
+|ref4       = <ref name=Ethnologue>[http://www.ethnologue.com/country/DJ/status] – Ethnologue.com</ref>
+|region5    = {{flagcountry|Yemen}}
+|pop5       = 200,000
+|ref5       = <ref name="Twhr">{{cite book|last=Shire|first=Saad A.|title=Transactions with Homeland: Remittance|publisher=Bildhaan|url=http://digitalcommons.macalester.edu/cgi/viewcontent.cgi?article=1034&context=bildhaan}}: *N.B. Somali migrant population, Middle East including Yemen.</ref>
+|region6    = {{flagcountry|Canada}}
+|pop6       = 150,000
+|ref6       = <ref name="Omescp">{{cite news|title=Ontario Municipal Election: Somali Canadian Prospective|url=http://www.hiiraan.com/news2/2006/nov/ontario_municipal_election_somali_canadian_prospective.aspx|accessdate=8 July 2013|newspaper=Hiiraan Online|date=10 November 2006}}; *N.B. 44,995 individuals reported Somali ethnicity in 2011 National Household Survey - c.f. [http://www12.statcan.gc.ca/nhs-enm/2011/dp-pd/prof/details/page.cfm?Lang=E&Geo1=PR&Code1=01&Data=Count&SearchText=Canada&SearchType=Begins&SearchPR=01&A1=All&B1=All&Custom=&TABID=1]</ref>
+|region7    = {{flagcountry|United Kingdom}}
+|pop7       = 114,000
+|ref7       = <ref name="UKCensus">{{Cite web|url=https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/datasets/populationoftheunitedkingdombycountryofbirthandnationality|title=Population of the United Kingdom by Country of Birth and Nationality - Office for National Statistics|website=www.ons.gov.uk|access-date=2017-07-12}}</ref>
+|region8    = {{flagcountry|United States}}
+|pop8       = 85,700
+|ref8       = <ref name="Mprsnoituslim">{{cite web|title=Survey: Nearly 1 in 3 US Somalis live in Minnesota|url=http://www.mprnews.org/story/2010/12/14/american-community-survey-initial-findings|publisher=MPRNews|accessdate=8 March 2015}}</ref>
+|region9    = {{flagcountry|Sweden}}
+|pop9       = 63,853
+|ref9       = <ref name="SCB">{{cite web|title=Statistics Sweden - Foreign-born and born in Sweden|url=http://www.statistikdatabasen.scb.se/sq/30271}}</ref>
+|region10   = {{flagcountry|United Arab Emirates}}
+|pop10      = 50,000
+|ref10      = <ref name="Cdsdhfc">{{cite news|title=Dubai's Somali diaspora hope for change|url=http://english.cntv.cn/program/newsupdate/20120911/105653.shtml|accessdate=8 March 2015|agency=CCTV|date=11 September 2012}}</ref>
 |region11   = {{flagcountry|Norway}}
-|pop11     = 27 523
-|ref11     = {{lower|<ref>[http://www.ssb.no/innvbef/tab-2011-04-28-04.html]</ref>}}
-|region12  = {{flagcountry|United Arab Emirates}}
-|pop12     = 25,000
-|ref12     = {{lower|<ref>[http://www.so.undp.org/index.php/Download-document/70-Forging-Partnerships-with-the-Somali-Diaspora.html Somalia's Missing Million: The Somali Diaspora and its Role in Development]</ref>}}
-|region13  = {{flagcountry|Saudi Arabia}}
-|pop13     = 20,000
-|ref13     = {{lower|}}
-|region14  = {{flagcountry|Denmark}}
-|pop14     = 16,550
-|ref14     = {{lower|<ref name=DenmarkCensus>[http://www.statbank.dk/statbank5a/default.asp?w=1280 StatBank Denmark]</ref>}}
-|region15  = {{flagcountry|Finland}}
-|pop15     = 9,000
-|ref15     = {{lower|<ref>[http://www.iom.int/jahia/Jahia/media/press-briefing-notes/pbnEU/cache/offonce/lang/en?entryId=30019 IOM - Finland]</ref>}}
-|region16  = {{flagcountry|Australia}}
-|pop16     = 6,403
-|ref16     = {{lower|<ref name="ABScenpop">[http://www.censusdata.abs.gov.au/ABSNavigation/prenav/ViewData?breadcrumb=LPTD&method=Place of Usual Residence&subaction=-1&issue=2006&producttype=Census Tables&documentproductno=0&textversion=false&documenttype=Details&collection=Census&javascript=true&topic=Ancestry&action=404&productlabel=Ancestry (full classification list) by Sex&order=1&period=2006&tabname=Details&areacode=0&navmapdisplayed=true& 2006 Census Tables]</ref>}}
+|pop11      = 42,217
+|ref11      = <ref name="NorwayCensus">{{cite web|url=http://www.ssb.no/en/befolkning/statistikker/innvbef/aar/2017-03-02?fane=tabell&sort=nummer&tabell=297399|title=
+Immigrants and Norwegian-born to immigrant parents, 1 January 2016}}</ref>
+|region12   = {{flagcountry|South Africa}}
+|pop12      = 40,000
+|ref12      = <ref name="Mhiahlusiilrj">{{cite web|last=Jinnah|first=Zaheera|title=Making Home in a Hostile Land: Understanding Somali Identity, Integration, Livelihood and Risks in Johannesburg|url=http://www.krepublishers.com/02-Journals/JSSA/JSSA-01-0-000-10-Web/JSSA-01-0-000-10-PDF/JSSA-01-1-2-091-10-012-Jinnah-Z/JSSA-01-1-2-091-10-012-Jinnah-Z-Tt.pdf|work=J Sociology Soc Anth, 1 (1-2): 91-99 (2010)|publisher=KRE Publishers|accessdate=6 March 2014}}</ref>
+|region13   = {{flagcountry|Netherlands}}
+|pop13      = 39,465
+|ref13      = <ref name=NetherlandsCensus>{{cite web|url=http://statline.cbs.nl/StatWeb/publication/?DM=SLEN&PA=37325eng&D1=a&D2=a&D3=0&D4=0&D5=187&D6=a&LA=EN&HDR=T&STB=G2,G1,G3,G5,G4&VW=T|title=CBS StatLine - Population; sex, age, origin and generation, 1 January|work=cbs.nl}}</ref>
+|region14   = {{flagcountry|Germany}}
+|pop14      = 23,350
+|ref14      = <ref name=GermanyCensus>{{cite web|url=https://de.statista.com/statistik/daten/studie/1221/umfrage/anzahl-der-auslaender-in-deutschland-nach-herkunftsland/|title=Anzahl der Ausländer in Deutschland nach Herkunftsland |publisher=Statista}}</ref>
+|region15   = {{flagcountry|Egypt}}
+|pop15      = 22,709
+|ref15      = <ref name="UNDESA">{{cite web|title=United Nations, Department of Economic and Social Affairs (2015). Trends in International Migrant Stock: Migrants by Destination and Origin |url=http://www.un.org/en/development/desa/population/migration/data/estimates2/estimates15.shtml}}</ref>
+|region16   = {{flagcountry|Denmark}}
+|pop16      = 21,050
+|ref16      = <ref name=DenmarkCensus>{{cite web|url=http://www.statbank.dk/statbank5a/default.asp?w=1280|title=StatBank Denmark|work=statbank.dk}}</ref>
+|region17   = {{flagcountry|Saudi Arabia}}
+|pop17      = 20,000
+|ref17      = <ref name="SDRD">{{cite web|url=http://english.cntv.cn/program/newsupdate/20120911/105653.shtml|title=Dubai´s Somali diaspora hope for change CCTV News - CNTV English|work=cntv.cn}}</ref>
+|region18   = {{flagcountry|Finland}}
+|pop18      = 19,059
+|ref18      = <ref name="FinCensus">[http://pxnet2.stat.fi/PXWeb/pxweb/en/StatFin/StatFin__vrm__vaerak/030_vaerak_tau_102.px/table/tableViewLayout1/?rxid=f19dfabb-3ad3-414c-b136-086d1f253aeb IOM - Finland]</ref>
+|region20   = {{flagcountry|Australia}}
+|pop20      = 10,131
+|ref20      = <ref name="AustraliaCensus">{{cite web|title=The People of Australia – Statistics from the 2011 Census |url=http://www.immi.gov.au/media/publications/statistics/immigration-update/people-australia-2013-statistics.pdf |publisher=Australian Government |deadurl=unfit |archiveurl=https://web.archive.org/web/20140714131850/http://www.immi.gov.au/media/publications/statistics/immigration-update/people-australia-2013-statistics.pdf |archivedate=14 July 2014 }}</ref>
+|region21   = {{flagcountry|Italy}}
+|pop21      = 8,228
+|ref21      = <ref name="ItalyCensus">{{cite web|url=http://demo.istat.it/str2016/|title=Statistiche demografiche ISTAT|work=istat.it}}</ref>
+|region22   = {{flagcountry|Switzerland}}
+|pop22      = 7,025
+|ref22      = <ref name="SwissCensus">{{cite web|url=https://www.bfs.admin.ch/bfs/en/home/statistics/population/migration-intergration.assetdetail.325742.html|title=Federal Statistical Office}}</ref>
+|region23   = {{flagcountry|Austria}}
+|pop23      = 6,000
+|ref23      = {{lower|<ref name="AustriaCensus">{{cite web|url=http://www.statistik.at/web_de/statistiken/menschen_und_gesellschaft/bevoelkerung/bevoelkerungsstruktur/bevoelkerung_nach_staatsangehoerigkeit_geburtsland/index.html|title=Statistik Austria}}</ref>}}
+|region24   = {{flagcountry|Belgium}}
+|pop24      = 2,627
+|ref24      = {{lower|<ref name="Jan Hertogen">{{cite news|first=J|last=Hertogen|title=Inwoners van vreemde afkomst in België|url=http://www.npdata.be/BuG/155-Vreemde-afkomst/Vreemde-afkomst.htm}}</ref>}}
+|region25   = {{flagcountry|Pakistan}}
+|pop25      = 2,500
+|ref25      = {{lower|<ref name="Fakhr">{{cite news|last=Fakhr|first=Alhan|title=Insecure once again|url=http://jang.com.pk/thenews/jul2012-weekly/nos-15-07-2012/dia.htm#6|accessdate=10 November 2013|newspaper=Daily Jang|date=15 July 2012}}</ref>}}
+|region26   = {{flagcountry|New Zealand}}
+|pop26      = 1,617
+|ref26      = <ref name="NewZealandCensus">{{cite web|url=http://www.stats.govt.nz/Census/2013-census/profile-and-summary-reports/ethnic-profiles.aspx?request_value=24790&parent_id=24761&tabname=#24790|title=Ethnic group profiles|work=stats.govt.nz}}</ref>
+|region27   = Ayrland
+|pop27      = 1,495
+|ref27      = {{lower|<ref name="IrelandCensus">{{Cite web|url=http://www.cso.ie/px/pxeirestat/Statire/SelectVarVal/Define.asp?Maintable=EY025&Planguage=0|title=Population Usually Resident and Present in the State who Speak a Language other than English or Irish at Home 2011 to 2016 by  Birthplace, Language Spoken, Age Group and CensusYear - StatBank - data and statistics|website=www.cso.ie|access-date=2017-07-12}}</ref>}} 
 |rels      = [[File:Allah-green.svg|18px]] [[Islam]]
 |langs     = [[Somali language|Somali]] iyo [[Carabi]]<ref>Peter Austin, One Thousand Languages: Living, Endangered, and Lost, page 70</ref><ref>Janice Hamilton, Somalia in Pictures, page 50</ref>
 |related   = [[Carab Saalax|Carab]] • [[Cafar]] • [[Dadka Agaw|Agaw]] • [[Dadka Beja|Beja]] • [[Oromo]] • [[Dadka Rendille|Rendille]] • [[Dadka Saho|Saho]]
