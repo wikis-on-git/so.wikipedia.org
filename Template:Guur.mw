@@ -1,0 +1,48 @@
+{{ sidebar
+| name         = Guur
+| pretitle     = [[:Category:Guur|Silsilad]] ka mid ah
+| title        = [[Guur]]ka
+| titlestyle   = font-size: 200%; background-color: #f387b7
+| image        = [[File:Heart_icon_red_hollow.svg|190px]]
+| imagestyle   = padding-left:1em; padding-right:1em
+| headingstyle = background-color: #f3adcc; padding-top: 0
+| contentclass = hlist
+
+| heading1     = Qeybaha
+| content1     =
+* [[Doonis]]
+* [[Siin (guur)|Siin]]
+* [[Meher]]
+* [[Aroos]]
+* [[Xaflad]]
+
+| heading2     = Noocyada
+| content2     =
+* [[Guur diimeed]]
+* [[Guur Islaam]]
+* [[Guur reer Galbeed]]
+* [[Guur la diyaariyey]]
+* [[Guur qaraabo]]
+* [[Qudbosire]]
+* [[Masaafeysi]]
+* [[Xillo]]
+
+| heading3     = Tallaabooyinka
+| content3     =
+* [[Yarrad]]
+* [[Gabba']]
+* [[Xeedho]]
+* [[Diiqo]]
+
+| heading4     = La xidhiidha
+| content4     =
+* [[Tol]]
+* [[Xigaal]]
+* [[Gacal]]
+* [[Xidid]]
+----
+;{{icon|Portal}} [[Portal:Guur]]
+:{{icon|Category}} [[:Category:Guur]]
+}}<noinclude>
+{{documentation}}
+</noinclude>
