@@ -1,0 +1,39 @@
+{{Infobox
+| title    = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAMEBASE}}}}
+
+| image1   = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logosize|}}}||sizedefault=200px|alt={{{logocaption|}}}}}
+| caption1 = {{{logocaption|}}}
+
+| image2   = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|alt={{{imagecaption|}}}}}
+| caption2 = {{{imagecaption|}}}
+
+| label1   = Loo yaqaano
+| data1    = {{{othername|{{{aka|}}}}}}
+| label2   = Ku xidhan
+| data2    = {{{focus|}}}
+| label3   = Halka
+| data3    = {{{hardness|}}}
+| label4   = Asal ahaan
+| data4    = {{{country|{{{origin|}}}}}}
+| label5   = Ugu horeeyay
+| data5    = {{{creator|}}}
+| label6   = Dadka caanka ah
+| data6    = {{{famous pract|{{{famous_pract|}}}}}}
+| label7   = Waalidka
+| data7    = {{{parenthood|}}}
+| label8   = Ancestor arts
+| data8    = {{{ancestor arts|{{{ancestor_arts|}}}}}}
+| label9   = Descendant arts
+| data9    = {{{descendant arts|{{{descendant_arts|}}}}}}
+| label10  = Olympic sport
+| data10   = {{{olympic|}}}
+| label11  = Website
+| data11   = {{{website|{{{homepage|}}}}}}
+| label12  = Micnaha
+| data12   = {{{meaning|}}}
+| label13  = Dagaalka gacanta
+| data13   = {{{martialart|}}}
+| data14   = {{{misc|{{{module|}}}}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
