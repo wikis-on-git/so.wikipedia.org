@@ -27,8 +27,8 @@
 |dot_map_caption        =
 |dot_x =  |dot_y =
 |pushpin_map            = Ethiopia
-|pushpin_label_position = left<!-- the position of the pushpin label: left, right, top, bottom, none -->
-|pushpin_map_caption    = Location within Ethiopia
+|pushpin_label_position = right
+|pushpin_map_caption    = Meesha dhacdo Qalaafe
 |pushpin_mapsize        =
 |subdivision_type       = Wadanka
 |subdivision_name       = [[Itoobiya]]
@@ -92,7 +92,9 @@
 |utc_offset             = +3
 |timezone_DST           = 
 |utc_offset_DST         = 
-|coordinates            = {{coord|5|35|20|N|44|12|20|E|region:ET|display=inline,title}}
+|latd=5|latm=35|lats=20|latNS=N
+|longd=44|longm=12|longs=20|longEW=E
+|coordinates            = 
 |elevation_footnotes    =  <!--for references: use <ref> </ref> tags-->
 |elevation_m            = 233
 |elevation_ft           = 
