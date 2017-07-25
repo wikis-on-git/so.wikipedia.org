@@ -62,3 +62,19 @@ Inkastoo aan baryahaan yara mashquulay hadana hada waan soo noqday, '''[[User:Is
 ::*[[Template:Diyaaradaha Soomaaliya]]
 ::*[[Socdaalka Soomaaliya]]
 ::Fikrad, tallo iyo su'aal intaba waan soo dhowaynayaa. Fadlan fariimahaaga iigu reeb [[User_talk:Ismail4all|Bogayga Wadahadalka]]. Mahadsanid, [[User:Ismail4all|Ismail4all]] ([[User talk:Ismail4all|talk]]) 02:53, 15 Oktoobar 2016 (UTC)
+
+== Improved search in deleted pages archive ==
+
+{{int:please-translate}}
+
+During Wikimedia Hackathon 2016, the [[mw:Wikimedia_Discovery|Discovery]] team [https://phabricator.wikimedia.org/T109561 worked] on one of the items on the 2015 community wishlist, namely [[m:2015_Community_Wishlist_Survey/Search#Provide_a_means_of_searching_for_deleted_pages|enabling searching the archive of deleted pages]]. This feature is now ready for production deployment, and will be enabled on all wikis, except Wikidata. 
+
+Right now, the feature is behind a feature flag - to use it on your wiki, please go to the <code>Special:Undelete</code> page, and add <code>&fuzzy=1</code> to the URL, like this: https://test.wikipedia.org/w/index.php?title=Special%3AUndelete&fuzzy=1. Then search for the pages you're interested in. There should be more results than before, due to using ElasticSearch indexing (via the CirrusSearch extension).
+
+We plan to enable this improved search by default on all wikis soon (around August 1, 2017). If you have any objections to this - please raise them with the Discovery team via [http://mailto:discovery@lists.wikimedia.org email] or on this announcement's discussion page. Like most Mediawiki configuration parameters, the functionality can be configured per wiki. 
+Once the improved search becomes the default, you can still access the old mode using <code>&fuzzy=0</code> in the URL, like this: https://test.wikipedia.org/w/index.php?title=Special%3AUndelete&fuzzy=0
+
+Please note that since Special:Undelete is an admin-only feature, this search capability is also only accessible to wiki admins. 
+
+{{Int:Feedback-thanks-title}}  [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 18:40, 25 Luuliyo 2017 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Archive_search_announce/Distribution_list&oldid=17036927 -->
