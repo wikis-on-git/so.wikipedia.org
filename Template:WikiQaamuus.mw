@@ -1,7 +1,7 @@
 {{Sister project
 |position={{{position|}}}
 |project=wiktionary
-|text=Look up '''''[[wiktionary:{{{1|Special:Search/{{lc:{{SUBPAGENAME}}}}}}}|{{{1|{{lc:{{SUBPAGENAME}}}}}}}]]'''''{{#if:{{{2|}}}
+|text=Akhri boga '''''[[wiktionary:{{{1|Special:Search/{{lc:{{SUBPAGENAME}}}}}}}|{{{1|{{lc:{{SUBPAGENAME}}}}}}}]]'''''{{#if:{{{2|}}}
   |{{#if:{{{3|}}}
    |,
    |&nbsp;or
@@ -18,7 +18,7 @@
   }} '''''[[wiktionary:{{{4}}}|{{{4}}}]]'''''
  }}{{#if:{{{5|}}}
   |, or '''''[[wiktionary:{{{5}}}|{{{5}}}]]'''''
- }} laga helaa Wiktionary, Qaamuuska Xorta ah.
+ }} laga helo Wiktionary, Qaamuuska Xorta ah.
 }}<noinclude>
 {{documentation}}
 </noinclude>
