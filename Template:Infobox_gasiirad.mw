@@ -353,7 +353,7 @@
 | label101   = [[List of islands by population|Population rank]]
 | data101    = {{#if:{{{population rank|{{{population_rank|}}}}}}|{{{population_rank|{{{population rank}}}}}} {{#if:{{{population rank max|{{{population_rank_max|}}}}}}|out of {{{population rank max|{{{population_rank_max}}}}}} }} }}
 
-| label102   = Pop. density
+| label102   = Bulshada
 | data102    = {{Infobox islands/density| km2 = {{{density km2|{{{density_km2|}}}}}}| sqmi = {{{density sqmi|{{{density_sqmi|}}}}}} }}{{{density|}}}{{{density footnotes|}}}
 
 | label103   = [[List of islands by population density|Pop. density rank]]
@@ -362,7 +362,7 @@
 | label104   = Languages
 | data104    = {{{languages|}}}
 
-| label105   = Ethnic groups
+| label105   = Dadka degan
 | data105    = {{{ethnic groups|}}}
 
 <!-- end demographics -->
