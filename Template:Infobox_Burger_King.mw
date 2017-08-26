@@ -1,0 +1,55 @@
+{{Infobox company
+| name               = [[Burger King]]
+| logo               = {{#if:{{{logo|}}}|{{{logo|Burger King Whopper Combo.jpg}}}|Burger King Whopper Combo.jpg}}
+| logo_size          = {{#if:{{{logo|}}}|{{{size|200px}}}|200px}}
+| alt                = {{#if:{{{logo|}}}|{{{alt|An image of a Burger King Whopper combo}}}|An image of a Burger King Whopper combo}}
+| caption            = {{#if:{{{logo|}}}|{{{text|A Burger King Whopper combo meal}}}|A Burger King Whopper combo meal}}
+| type               = [[Subsidiary]]
+| predecessor        = '''Insta-Burger King'''
+| foundation         = '''Insta-Burger King''':<br>{{start date and age|1953}}<br>[[Jacksonville, Florida]]<br>'''Burger King''':<br>{{start date and age|1954}} <br>[[Miami|Miami, Florida]]
+| founder            = '''Insta-Burger King''':<br>Keith J. Kramer and Matthew Burns<br>'''Burger King''':<br>[[David Edgerton]] and [[James McLamore]]
+| hq_location        = 5505 Blue Lagoon Drive, [[Miami-Dade County, Florida]], {{nowrap|United States}}
+| num_locations      = 15,000+
+| num_locations_year = 2015
+| area_served        = Global
+| key_people         =
+ {{unbulleted list
+ |Alexandre Behring ([[Chairman]] RBI)<ref name="2015 10-K"/>{{rp|123}}
+ |Daniel S. Schwartz (CEO)<ref name="2015 10-K"/>{{rp|123}}
+ |José E. Cil (President)<ref name="2015 10-K"/>{{rp|123}}
+ |Joshua Kobza ([[Chief financial officer|CFO]])<ref name="2015 10-K"/>{{rp|123}}
+ }}
+| industry           = [[Restaurant]]s
+| genre              = [[Fast food restaurant]]
+| products           =
+ {{flatlist|
+*[[Hamburger]]s
+*[[chicken]]
+*[[french fries]]
+*[[soft drink]]s
+*[[milkshake]]s
+*[[salad]]s
+*[[dessert]]s
+*[[breakfast]]
+*[[hot dog]]s }}
+| revenue            = {{increase}} [[United States dollar|US$]]4.05 billion  {{small|(''FY 2015'')}}<ref name="2015 10-K">{{Citation | title=2015 10-K SEC Filing | url=http://hsprod.investis.com/shared/v2/irwizard/sec_item_new.jsp?epic=burger_king&ipage=10775491&DSEQ=&SEQ=&SQDESC= | publisher=Restaurant Brands International | date=31 December 2015 | accessdate=12 May 2015}}</ref>{{rp|30}}
+| operating_income   = {{decrease}} US$363.0 million {{small|(''FY 2015'' RBI)}}<ref name="2015 10-K"/>{{rp|30}}
+| net_income         = {{decrease}} US$1.912 billion {{small|(''FY 2015'' RBI)}}<ref name="2015 10-K"/>{{rp|30}}
+| assets             = {{decrease}} US$18.41 billion {{small|(''FY 2015'' RBI)}}<ref name="2015 10-K"/>{{rp|31}}
+| equity             = {{decrease}} US$2.912 billion {{small|(''FY 2015'' RBI)}}<ref name="2015 10-K"/>{{rp|31}}
+| num_employees      = 34,248 {{small|(''FY 2015'' RBI)}}
+| parent             = [[Restaurant Brands International]]
+| homepage           = {{URL|http://www.bk.com}}
+{{navbar|Infobox Burger King}}
+|footnotes           =
+|intl                =
+}}<noinclude>
+{{pp-template}}
+{{Template reference list}}
+{|
+|
+{{documentation}}
+|}
+[[Category:Exclude in print]]
+[[Category:Foodservice infobox templates]]
+</noinclude>
