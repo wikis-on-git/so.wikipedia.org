@@ -60,12 +60,12 @@
 <tt><nowiki>http://www.example.com</nowiki></tt>
 |
 [http://www.example.com]<br />
-[http://www.example.com display text]<br />
+[http://www.example.com qoraalka muuqanaya]<br />
 http://www.example.com
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|Escape wiki markup
+|Qoraal qaloocin
 |
 <tt><nowiki>with ''markup''</nowiki></tt><br />
 <tt><nowiki><nowiki>without ''markup''</nowiki></nowiki></tt>
@@ -75,21 +75,20 @@ with ''markup''<br />
 |-
 |colspan="3" style="border-top:1px solid #cee0f2;"|
 |-
-|Sign your posts
+|Saxeex
 |<nowiki>~~~~</nowiki>
 |[[User:Username|Username]] {{CURRENTTIME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} (UTC) 
 |-
-| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Applies only at the beginning of the line
+| colspan="3" style="background: #cee0f2; padding: 0.2em; font-family: sans-serif; font-size: 0.9em; text-align:center;" | Ku qor qoraalka ka hor 
 |-
-|Headings<br />
-of different sizes
+|Ciwaano<br />
+leh xajmi kala duwan
 |
 <tt><nowiki>==level 1==</nowiki></tt><br />
 <tt><nowiki>===level 2===</nowiki></tt><br />
 <tt><nowiki>====level 3====</nowiki></tt><br />
 <tt><nowiki>=====level 4=====</nowiki></tt>
-| hjn
-
+| 
 ==Level 1==
 ===Level 2===
 ====Level 3====
