@@ -1,0 +1,138 @@
+{{pp-semi-indef}}{{pp-move-indef}}
+__NOEDITSECTION__
+{{Wikipedia:Waxbarid/TabsHeader|This=3}}
+<div style="border: 2px solid #A3B1BF; padding: .5em 1em 1em 1em; border-top: none; background-color: #fff; color: #000;">
+{{TOCright}}
+'''Formatting a Wikipedia article''' is different from writing in a standard [[word processor]] or in Wikipedia's [[Special:Preferences#mw-prefsection-betafeatures|opt-in]], alternative editing environment, [[Wikipedia:VisualEditor|VisualEditor]].  Instead of a strict [[WYSIWYG]] approach ("What You See Is What You Get"), Wikipedia uses text codes called '''wiki tags''' to create particular elements of the page (e.g. headings). This [[lightweight markup language|markup language]] is known as '''[[Wiki markup|wikitext]]''' (or '''wiki-markup''') and is designed for ease of editing.  See the [[WP:CHEAT|cheatsheet]] for a quick reference list of wikitext codes. Complicated articles may be best modeled on the layout of an existing article of appropriate structure and topic.
+
+== Bold and italics ==
+
+The most commonly used wiki tags are '''bold''' and ''italics''. '''Bolding''' and ''italicizing'' are done by surrounding a word or phrase with multiple apostrophes (<tt>'</tt>):
+[[File:Boldness and links tutorial.ogv|thumb|250px|A tutorial video explaining how to make bold text and wikilinks]]
+[[File:Wiki_markup_cheatsheet_EN.pdf|thumb|Wiki markup quick reference (PDF download)]]
+{| style="border:none; text-align:left; padding:0.3em;"
+|-<!-- COLUMN HEADINGS -->
+| style="background:#E6F2FF; padding:0.3em; text-align:center;"|'''You type'''	
+| style="background:#E6F2FF; padding:0.3em; text-align:center;"|'''You get'''
+|-<!-- 1ST ROW -->
+|<tt><nowiki>''italic''</nowiki></tt>
+|''italic''
+|-<!-- 2ND ROW -->
+|
+<tt><nowiki>'''bold'''</nowiki></tt>
+|
+'''bold'''
+|-<!-- 3RD ROW -->
+|
+<tt><nowiki>'''''bold italic'''''</nowiki></tt>
+|
+'''''bold italic'''''
+|}
+
+On Wikipedia, the names of an article's subject are written in '''bold''' when they are first mentioned in the article. For example, the article [[Elizabeth II]] begins:
+
+:'''Elizabeth II''' (Elizabeth Alexandra Mary, born 21 April 1926) is the constitutional monarch of 16 sovereign states, known as the Commonwealth realms, and their territories and dependencies, and head of the 53-member Commonwealth of Nations. ...
+
+''Italics'' may be used for the names of books, movies, albums, and computer or video game titles. If the first mention of the subject of an article is also a book or movie title, then '''''bold italic''''' is used. 
+
+
+==Headings and subheadings==
+
+Headings and subheadings are a way to organize an article. If an article discusses several topics and dedicates more than a couple of paragraphs to each, you can make the article more readable by inserting a heading for each topic — that is, creating a '''[[Help:Section|section]]''' for each topic.
+
+You can also create sections within sections (i.e., subsections) by using subheadings:
+
+===This is a subheading===
+
+You create headings surrounding the heading text with several '=' wiki tags. The more '=' symbols in the wiki tag, the more nested the heading is:
+
+{| style="border:none; text-align:left; padding:0.3em;"
+|-<!-- COLUMN HEADINGS -->
+| style="background:#E6F2FF; padding:0.3em; text-align:center;"|'''You type'''	
+| width="50%" style="background:#E6F2FF; padding:0.3em; text-align:center;"|'''You get'''
+|-
+|
+<tt><nowiki>== Elizabeth II hats ==</nowiki></tt> <br/>
+|
+
+== Elizabeth II hats ==
+
+|-
+|
+<tt><nowiki>=== Straw hats ===</nowiki></tt> <br />
+|
+=== Straw hats ===
+
+|}
+
+If an article has at least four headings, a table of contents is automatically generated. Try creating a heading in this page's [[/sandbox/]]. It will be added automatically to the table of contents for the page, assuming three others already exist.
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Wiki markup]]'''</div>{{-}}
+
+== Subscript and superscript ==
+To use the subscript format you type an opening <code><nowiki><sub></nowiki></code> tag before the text and a closing <code><nowiki></sub></nowiki></code> tag after it. The tags for superscript are <code><nowiki><sup></nowiki></code> and <code><nowiki></sup></nowiki></code>. Example:
+ 
+The code {{code|2=html|H<sub>2</sub>SO<sub>4</sub> &amp;rarr; 2 H<sup>+</sup> + SO<sub>4</sub><sup>2&amp;minus;</sup>}}
+
+displays: H<sub>2</sub>SO<sub>4</sub> &rarr; 2 H<sup>+</sup> + SO<sub>4</sub><sup>2&minus;</sup>
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Wiki markup]]'''</div>{{-}}
+
+== HTML ==
+
+Wikitext contains all the features required to follow Wikipedia's formatting conventions. However, its formatting capabilities are limited. If you want to have more control of the formatting, such as using colors, text and paragraph styles, and page layout you can use [[HTML]]. HTML is the language used to format web pages in the Internet. It is more powerful than wikitext, but it's also more complex and harder to use.
+
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:HTML in wikitext]]'''</div>{{-}}
+
+== Editor toolbars ==
+The Wikipedia editor has two toolbars with buttons that help with the use of wiki tags. For instance, if you want to type a text in bold, instead of manually typing the <code><nowiki>'''</nowiki></code> tags, you can just press the '''Bold''' button and then type the text in bold directly.
+
+{| class="wikitable"
+|+ Enhanced toolbar: main selections
+! Icon !! Function !! What it shows when editing !! What it shows on the page
+|-
+| colspan="4" style="text-align: center;" |[[File:RefToolbar 2.0a.png|Enhanced editing toolbar|link=]]
+|-
+|[[File:Vector toolbar bold B button.png|Bold text|link=]]
+|Bold
+|<code><nowiki>'''Bold text'''</nowiki></code>
+|'''Bold text'''
+|-
+|[[File:Vector toolbar italic I button.png|Italic text|link=]]
+|Italic
+|<code><nowiki>''Italic text''</nowiki></code>
+|''Italic text''
+|-
+|[[File:Vector toolbar insert external link button.png|External link|link=]]
+|External link
+|<code><nowiki>[http://www.example.com link title]</nowiki></code>
+| [http://www.example.com link title]
+|-
+|[[File:Vector toolbar insert internal link button.png|Internal link|link=]]
+|Internal link
+|<code><nowiki>[[Link title]]</nowiki></code>
+|[[Link title]]
+|-
+|[[File:Vector toolbar insert image button.png|Embedded file|link=]]
+|Insert image
+|<code><nowiki>[[File:Example.jpg|thumbnail]]</nowiki></code>
+| [[File:Example.jpg|90px|thumbnail]]
+|-
+| [[File:Vector toolbar insert reference button.png|link=]]
+| Insert {{fnote}}
+| <code><nowiki><ref>Insert footnote text here</ref></nowiki></code>
+| <ref>Insert footnote text here</ref>
+|-
+|[[File:Vector toolbar signature button.png|40px|Your signature with timestamp|link=]]
+|Sign talk comments<br />(with time stamp)
+|<code><nowiki>--~~~~</nowiki></code>
+|[[Special:Mypage|Username]] ([[Special:Mytalk|talk]]) {{CURRENTTIME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} (UTC)
+|-
+|}
+{{-}}
+<div style="float: right; background-color:#f5faff; color: #000; padding: .2em .6em; font-size: 100%; border: 1px solid #cedff2; margin-bottom:3px;">'''For more information, see [[Help:Edit toolbar]]'''</div>{{-}}
+{{-}}
+<noinclude>
+<div style="float:right; margin-top: 0.0em; margin-bottom:3px; background-color: #cee0f2; padding: .2em .6em; font-size: 130%; border:1px solid #A3B1BF;">'''Sii wad casharada ku saabsan''' '''[[Wikipedia:Tutorial/Editing| Sida wax loo bedelo]]''' <span style="font-size: larger; font-weight: bold;">→</span>
+</div></noinclude></div><noinclude>
+__NOTOC__
+[[Category:Wikipedia Waxbarid]]
