@@ -107,3 +107,52 @@ Starting from today, you will be able to display Wikidata changes in both modes 
 <small>(wrong target page? you can [[m:User:Lea Lacroix (WMDE)/List Wikipedias|fix it here]])</small>
 </div>
 <!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/List_Wikipedias&oldid=16777494 -->
+
+== Improvements coming soon to Recent Changes ==
+
+<div dir="ltr">
+[[File:Rc-beta-tour-welcome-ltr.gif|link=Mw:Special:MyLanguage/Help:New_filters_for_edit_review|right|frameless]]
+Hello
+
+Sorry to use English. {{Int:please-translate}}! {{Int:thank-you}}
+
+'''In short:''' starting on 26 September, New Filters for Edit Review ([[Special:Preferences#mw-prefsection-betafeatures|now in Beta]]) will become standard on Recent Changes. They provide an array of new tools and an improved interface. If you prefer the current page you will be able to opt out. [[mw:Edit Review Improvements/New filters for edit review|Learn more about the New Filters]].
+
+<big>'''What is this feature again?'''</big>
+
+This feature improves [[Special:RecentChanges]] and [[Special:RecentChangesLinked]] (and soon, [[Special:Watchlist]] – see below). 
+
+Based on a new design, it adds new features that ease vandalism tracking and support of newcomers:
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Filtering|Filtering]] - filter recent changes with easy-to-use and powerful filters combinations, including filtering by namespace or tagged edits.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Highlighting function|Highlighting]] - add a colored background to the different changes you are monitoring. It helps quick identification of changes that matter to you.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Bookmarking|Bookmarking]] to keep your favorite configurations of filters ready to be used.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Quality and Intent Filters|Quality and Intent Filters]] - those filters use [[mw:Special:MyLanguage/ORES|ORES predictions]]. They identify real vandalism or good faith intent contributions that need help. They are not available on all wikis. 
+You can know more about this project by visiting [[mw:Special:MyLanguage/Help:New filters for edit review/Quick tour|the quick tour help page]].
+
+<big>'''Concerning RecentChanges'''</big>
+
+Starting on 26 September, '''New Filters for Edit Review will become standard on Recent Changes'''. We have decided to do this release because of a long and successful Beta test phase, positive feedback from various users and positive user testing. 
+
+Some features will remain as Beta features and will be added later. [[mw:Edit Review Improvements/New filters for edit review|Learn more about those different features]].
+
+If your community has specific concerns about this deployment or internal discussion, it can request to have the deployment to their wikis delayed to October 1, if they have ''sensible, consistent with the project, actionable, realistic feedback to oppose'' (at the development team's appreciation). 
+
+You will also be able to opt-out this change in your preferences. 
+
+<big>'''Concerning Watchlists'''</big>
+
+Starting on '''September 19''', the Beta feature will have a new option. '''Watchlists will have all filters available now on the Beta Recent Changes improvements'''.
+
+If you have already activated the Beta feature "{{int:eri-rcfilters-beta-label}}", you have no action to take. If you haven't activated the Beta feature "{{int:eri-rcfilters-beta-label}}" and you want to try the filters on Watchlists, please go to [[Special:Preferences#mw-prefsection-betafeatures|your Beta preferences]] on September 19.  
+
+<big>'''How to be ready'''</big>
+
+Please share this announcement!
+
+Do you use Gadgets that change things on your RecentChanges or Watchlist pages, or have you customized them with scripts or CSS? You may have to make some changes to your configuration. Despite the fact that we have tried to take most cases into consideration, some configurations may break. The Beta phase is a great opportunity to have a look at local scripts and gadgets: some of them may be replaced by native features from the Beta feature.
+
+Please ping me if you have questions. 
+
+On behalf of the [[mw:Global Collaboration|Global Collaboration team]], [[User:Trizek (WMF)|Trizek (WMF)]] 15:27, 14 Sebteembar 2017 (UTC)
+</div>
+<!-- Message sent by User:Trizek (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=17219431 -->
