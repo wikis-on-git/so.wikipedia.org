@@ -457,3 +457,34 @@ Note this is to apply to Wikipedia and not necessarily other sister projects, th
 
 [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 21:07, 17 Sebteembar 2017 (UTC)
 <!-- Message sent by User:Doc James@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery/Wikipedias&oldid=17234819 -->
+
+== Discussion on synced reading lists ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''Discussion on synced reading lists'''
+
+Hello,
+
+[[File:Illustration of Reading List feature on Android Wikipedia App (not logged in).png|thumb]] The Reading Infrastructure team at the Wikimedia Foundation is developing a cross-platform reading list service for the mobile Wikipedia app. Reading lists are like bookmark folders in your web browser. They allow readers using the Wikipedia app to bookmark pages into folders to read later. This includes reading offline. Reading lists do not create or alter content in any way.  
+
+To create Reading Lists, app users will register an account and marked pages will be tied to that account. Reading List account preferences sync between devices. You can read the same pages on different mobile platforms (tablets, phones).  This is the first time we are syncing preference data between devices in such a way. We want to hear and address concerns about privacy and data security. We also want to explain why the current watchlist system is not being adapted for this purpose. 
+=== Background ===
+In 2016 the Android team replaced the simple Saved Pages feature with Reading Lists. Reading Lists allow users to bookmark pages into folders and for reading offline. The intent of this feature was to allow "syncing" of these lists for users with many devices. Due to overlap with the Gather feature and related community concerns, this part was put on hold. 
+
+The Android team has identified this lack of synching as a major area of complaint from users. They expect lists to sync. The iOS team has held off implementing Reading Lists, as syncing was seen as a "must have" for this feature. A recent [https://phabricator.wikimedia.org/T164990 technical RfC] has allowed these user stories and needs to be unblocked. Initially for Android, then iOS, and with web to potentially follow.
+
+Reading lists are private, stored as part of a user's account, not as a public wiki page. There is no sharing or publishing ability for reading lists. No planned work to make these public. The target audience are people that read Wikipedia and want to bookmark and organize that content in the app. There is a potential for the feature to be available on the web in the future.
+
+=== Why not watchlists ===
+
+Watchlists offer similar functionality to Reading Lists. The Reading Infrastructure team evaluated watchlist infrastructure before exploring other options. In general, the needs of watchlists differ from Reading Lists in a few key ways:
+* Reading lists focus on Reading articles, not the monitoring of changes.
+* Watchlists are focused on monitoring changes of pages/revisions. 
+** The Watchlist infrastructure is key to our contributor community for monitoring content changes manually and through the use of automated tools (bots). Because of these needs, expanding the scope of Watchlists to reading purposes will only make the project harder to maintain and add more constraints.
+* By keeping the projects separate it is easier to scale resources. We can serve these two different audiences and prioritize the work accordingly. Reading Lists are, by their nature, less critical to the health of Wikipedia/MediaWiki.
+* Multi-project support. Reading Lists are by design cross-wiki/project. Watchlists are tied to specific wikis. While there have been many discussion for making them cross-wiki, resolution is not in the near term.
+[[mw:Wikimedia Apps/Synced Reading Lists|More information can be found on MediaWiki.org]] where feedback and ideas are welcome. 
+
+Thank you
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 20:35, 20 Sebteembar 2017 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery/Wikipedia&oldid=16981815 -->
