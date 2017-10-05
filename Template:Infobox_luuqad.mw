@@ -128,7 +128,7 @@
 | data14 = {{#if:{{{lingua|}}}
   |<samp>{{{lingua}}}</samp> }}
 
-| label15 = [[Glottolog]]
+| label15 = Glottolog
 
 | data15 =  {{#if:{{{glotto|}}}|{{#ifeq:{{lc:{{{glotto|}}}}}|none|''None''{{main other|[[Category:Families rejected by Glottolog]]}}|{{#ifeq:{{lc:{{{glotto|}}}}}|na|(not evaluated){{main other|[[Category:Families not evaluated by Glottolog]]}}
   |<samp>{{glottolink|{{{glotto}}}}}</samp>{{#if:{{{glottoname|}}}|&nbsp; {{nowrap|({{{glottoname}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto}}}|{{{glottorefname|{{{glottoname|{{{name}}}}}}}}}}}|name="Glottolog"}}}}}}}}}}<!--
