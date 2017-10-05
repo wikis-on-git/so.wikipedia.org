@@ -1,0 +1,178 @@
+{{Infobox
+| bodystyle = width:{{#if:{{{boxsize|}}}|{{{boxsize}}}|22em}};
+| abovestyle = background-color: {{Infobox language/family-color|{{{familycolor|Default}}}}};
+| subheaderstyle = background-color: {{Infobox language/family-color|{{{familycolor|Default}}}}};
+
+| above = {{{name}}}
+| subheader = {{{altname|}}}
+| subheader2 = {{#if:{{{acceptance|}}}|({{{acceptance|}}})}}
+
+| label2 = Dadka
+| data2 = {{{ethnicity|}}}
+
+| label3 = Deegaanka
+| data3 = {{{region|—}}}
+
+| label4 = {{#if:{{{extinct|}}}|[[Extinct language|Extinct]]}}
+| data4 = {{#if:{{{extinct|}}}|{{#ifeq:{{{extinct}}}|?|(date missing)|{{{extinct}}} }} }}
+
+| label5 = Qoyska luuqada
+| data5 = {{{family|{{{fam1|{{Infobox language/genetic|{{{familycolor|Default}}}}}}}}<ul style="line-height:100%; margin-left:15px;padding-left:0"><li>{{#if:{{{fam2|}}}
+| {{{fam2}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>'''{{{name}}}'''</li></ul>
+| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>
+}}}
+
+| label6 = {{longitem|{{#if:{{{ancestor2|}}}|Early forms|Early form}}}}
+| data6 = {{#if:{{{ancestor|}}}|<div style="text-align:left;">{{{ancestor|}}}
+{{#if:{{{ancestor2|}}}|<ul style="line-height:100%; margin-left:1.35em; padding-left:0"><li>{{{ancestor2}}}
+{{#if:{{{ancestor3|}}}|<ul style="line-height:100%; margin-left:0.45em; padding-left:0"><li>{{{ancestor3}}}
+{{#if:{{{ancestor4|}}}|<ul style="line-height:100%; margin-left:0.45em; padding-left:0"><li>{{{ancestor4}}}
+{{#if:{{{ancestor5|}}}|<ul style="line-height:100%; margin-left:0.45em; padding-left:0"><li>{{{ancestor5}}}
+</li></ul>}}
+</li></ul>}}
+</li></ul>}}
+</li></ul>}}
+</div>}}
+
+| label7 = Proto-language
+| data7 = {{{protoname|}}}
+
+| label8 = Subdivisions
+| data8 =
+{{#if:{{{children|}}}|{{{children}}}}}
+{{#if:{{{child1|}}}|*{{{child1}}}}}
+{{#if:{{{child2|}}}|*{{{child2}}}}}
+{{#if:{{{child3|}}}|*{{{child3}}}}}
+{{#if:{{{child4|}}}|*{{{child4}}}}}
+{{#if:{{{child5|}}}|*{{{child5}}}}}
+{{#if:{{{child6|}}}|*{{{child6}}}}}
+{{#if:{{{child7|}}}|*{{{child7}}}}}
+{{#if:{{{child8|}}}|*{{{child8}}}}}
+{{#if:{{{child9|}}}|*{{{child9}}}}}
+{{#if:{{{child10|}}}|*{{{child10}}}}}
+{{#if:{{{child11|}}}|*{{{child11}}}}}
+{{#if:{{{child12|}}}|*{{{child12}}}}}
+{{#if:{{{child13|}}}|*{{{child13}}}}}
+{{#if:{{{child14|}}}|*{{{child14}}}}}
+{{#if:{{{child15|}}}|*{{{child15}}}}}
+{{#if:{{{child16|}}}|*{{{child16}}}}}
+{{#if:{{{child17|}}}|*{{{child17}}}}}
+{{#if:{{{child18|}}}|*{{{child18}}}}}
+{{#if:{{{child19|}}}|*{{{child19}}}}}
+{{#if:{{{child20|}}}|*{{{child20}}}}}
+| rowclass8 = {{{listclass|plainlist}}}
+
+| label10 = {{#if:{{{iso1|}}}
+  | [[ISO 639-1]]
+  }}
+
+| data10 = {{#if:{{{iso1|}}}
+  |<samp>{{{iso1}}}</samp>
+  }}
+
+| label11 = {{#if:{{{iso2|}}}
+  | [[ISO 639-2]] / [[ISO 639-5|5]]
+  |{{#if:{{{iso5|}}}
+    |[[ISO 639-5]]
+    }}
+  }}
+
+| data11 = {{#if:{{{iso2|}}}
+  |<samp>[[ISO639-3:{{{iso2}}}|{{{iso2}}}]]</samp>
+  |{{#if:{{{iso5|}}}
+    |<samp>[[ISO639-3:{{{iso5}}}|{{{iso5}}}]]</samp>
+    }}
+  }}
+
+| label12 = {{#if:{{{iso3|}}}
+  | [[ISO 639-3]] }}
+
+| data12 = {{#if:{{{iso3|}}}
+  |<tt>[http://www-01.sil.org/iso639-3/documentation.asp?id={{{iso3}}} {{{iso3}}}]</tt> }}
+
+| label13 = {{#if:{{{iso6|}}}<!--obsolete-->
+  | [[ISO 639-6]] }}
+
+| data13 = {{#if:{{{iso6|}}}
+  |<samp>{{{iso6}}}</samp> }}
+
+| label14 = [[Linguasphere Observatory|Linguasphere]]
+
+| data14 = {{#if:{{{lingua|}}}
+  |<samp>{{{lingua}}}</samp> }}
+
+| label15 = [[Glottolog]]
+
+| data15 =  {{#if:{{{glotto|}}}|{{#ifeq:{{lc:{{{glotto|}}}}}|none|''None''{{main other|[[Category:Families rejected by Glottolog]]}}|{{#ifeq:{{lc:{{{glotto|}}}}}|na|(not evaluated){{main other|[[Category:Families not evaluated by Glottolog]]}}
+  |<samp>{{glottolink|{{{glotto}}}}}</samp>{{#if:{{{glottoname|}}}|&nbsp; {{nowrap|({{{glottoname}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto}}}|{{{glottorefname|{{{glottoname|{{{name}}}}}}}}}}}|name="Glottolog"}}}}}}}}}}<!--
+-->{{#if:{{{glotto2|}}}|{{#if:{{{glotto|}}}|<br>|<!--no break when more than one info box on a page-->}}<samp>{{glottolink|{{{glotto2}}}}}</samp>{{#if:{{{glottoname2|}}}|&nbsp; {{nowrap|({{{glottoname2}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto2}}}|{{{glottorefname2|{{{glottoname2|{{{name}}}}}}}}}}}|name="Glottolog2"}}}}}}<!--
+-->{{#if:{{{glotto3|}}}|{{#if:{{{glotto2|}}}|<br>|<!--no break-->}}<samp>{{glottolink|{{{glotto3}}}}}</samp>{{#if:{{{glottoname3|}}}|&nbsp; {{nowrap|({{{glottoname3}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto3}}}|{{{glottorefname3|{{{glottoname3|{{{name}}}}}}}}}}}|name="Glottolog3"}}}}}}<!--
+-->{{#if:{{{glotto4|}}}|{{#if:{{{glotto3|}}}|<br>|<!--no break-->}}<samp>{{glottolink|{{{glotto4}}}}}</samp>{{#if:{{{glottoname4|}}}|&nbsp; {{nowrap|({{{glottoname4}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto4}}}|{{{glottorefname4|{{{glottoname4|{{{name}}}}}}}}}}}|name="Glottolog4"}}}}}}<!--
+-->{{#if:{{{glotto5|}}}|{{#if:{{{glotto4|}}}|<br>|<!--no break-->}}<samp>{{glottolink|{{{glotto5}}}}}</samp>{{#if:{{{glottoname5|}}}|&nbsp; {{nowrap|({{{glottoname5}}})}}}}{{#ifeq:{{{glottofoot|}}}|no||{{#tag:ref|{{Glottolog|{{{glotto5}}}|{{{glottorefname5|{{{glottoname5|{{{name}}}}}}}}}}}|name="Glottolog5"}}}}}}
+
+| data20 = {{#if:{{{map|}}}
+  | {{#invoke:InfoboxImage|InfoboxImage|image={{{map}}}|size={{{mapsize|}}}|sizedefault=300px|alt={{{mapalt}}}}}{{#if:{{{mapcaption|}}}
+    |<div style="text-align:left;">{{{mapcaption}}}</div>
+    }}
+  }}
+
+| data21 = {{#if:{{{map2|}}}
+  | [[File:{{{map2}}}|{{#if:{{{mapsize|}}}|{{{mapsize}}}px|300px}}|alt={{{mapalt2|}}}]]{{#if:{{{mapcaption2|}}}
+    |<br><div style="text-align:left;">{{{mapcaption2}}}</div>
+    }}
+  }}
+
+| data22 = {{{module|}}}
+| label23 = Notes
+| data23 = {{{notes|}}}
+}}<!--
+-->{{main other|{{{{{|safesubst:}}}#invoke:Check for unknown parameters|check|unknown=[[Category:Language articles with unsupported infobox fields|_VALUE_]]
+|name|altname
+|region|ethnicity|acceptance
+|familycolor|fam1|fam2|fam3|fam4|fam5|fam6|fam7|fam8|fam9
+|fam10|fam11|fam12|fam13|fam14|fam15|family
+|ancestor|ancestor2|ancestor3|ancestor4|ancestor5|protoname|extinct
+|children|child1|child2|child3|child4|child5|child6|child7|child8|child9|child10
+|child11|child12|child13|child14|child15|child16|child17|child18|child19|child20
+|listclass|module
+|iso1|iso2|iso3|iso5|iso6
+|lingua|glotto|glottoname|glotto2|glottoname2|glotto3|glottoname3|glotto4|glottoname4|glotto5|glottoname5|glottorefname|glottorefname2|glottorefname3|glottorefname4|glottorefname5|glottofoot
+|map|mapsize|mapalt|mapcaption|map2|mapalt2|mapcaption2|boxsize
+}}<!--
+-->{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|<!--blank-->|[[Category:Languages without family color codes]]}}<!--
+-->{{#if:{{{glotto|}}}{{{glotto2|}}}{{{glotto3|}}}{{{glotto4|}}}{{{glotto5|}}}|<!--ok-->|[[Category:Families missing Glottolog code]]}}<!--
+-->{{#if:{{{glotto|}}}|{{#if:{{{glottorefname|}}}{{{glottoname|}}}|<!--ok-->|{{#ifeq:{{lc:{{{glotto|}}}}}|none|<!--ok-->|{{#ifeq:{{lc:{{{glotto|}}}}}|na|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}}}}}<!--
+-->{{#if:{{{glotto2|}}}|{{#if:{{{glottoname2|}}}{{{glottorefname2|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto3|}}}|{{#if:{{{glottoname3|}}}{{{glottorefname3|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto4|}}}|{{#if:{{{glottoname4|}}}{{{glottorefname4|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->{{#if:{{{glotto5|}}}|{{#if:{{{glottoname5|}}}{{{glottorefname5|}}}|<!--ok-->|[[Category:Articles with unnamed Glottolog code]]}}}}<!--
+-->}}<noinclude>
+{{documentation}}
+</noinclude>
