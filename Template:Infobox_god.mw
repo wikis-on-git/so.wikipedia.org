@@ -1,0 +1,123 @@
+{{Infobox
+|bodyclass      = vcard
+|child          = {{ifempty|{{{embed|}}}|{{{child|}}}}}
+
+|aboveclass     = fn org
+|abovestyle     = background-color: #e7dcc3;
+|above          = {{#ifeq:{{{name|}}}|| <includeonly>{{error|Cave name required|tag=span}}</includeonly>|{{{name}}}}}
+
+|subheaderstyle = font-size:100%;
+|subheader      = {{ifempty|{{{other_name|}}}|{{{alt_name|}}}}}
+
+|image1   = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{{photo_width|}}}|sizedefault=256px|alt={{{photo_alt|}}}}}
+|caption1 = {{ifempty|{{{caption|}}}|{{{photo_caption|}}}}}
+
+|image2 = {{#if:{{{map|}}} | {{location map|{{{map|}}}
+             | border = infobox | float = center
+             | width          = {{min | {{if empty|{{{map_size|}}}|{{{mapsize|}}}|{{{map_width|}}}|220}} | 256 }}
+             | default_width  = 220
+             | relief         = {{{relief|}}}
+             | label          = {{ifempty|{{{label|}}}|{{{name|}}} }}
+             | position       = {{ifempty|{{{label_position|}}}|none}} <!-- change default to none -->  
+             | caption        = {{{map_caption|}}}
+             | alt            = {{ifempty|{{{map_alt|}}}|Map showing the location of {{{name|}}} }}
+             | mark           = {{{mark|}}}
+             | marksize       = {{if empty|{{{mark_width|}}}|{{{mark_size|}}}}}
+             | coordinates    = {{ifempty|{{{coordinates|}}}|{{{coords|}}}}} }}
+           | {{#invoke:InfoboxImage|InfoboxImage|image={{{map_image|{{{image_map|}}}}}}|size={{if empty|{{{map_size|}}}|{{{mapsize|}}}|{{{map_width|}}} }}|maxsize=256px|alt={{{map_alt|}}}}}
+           }}
+|caption2 = {{#if:{{{map|}}} || {{{map_caption|}}} }}
+
+|label1   = Location
+|data1    = {{{location|}}}
+
+|label2   = [[Ordnance Survey National Grid|OS grid]]
+|data2    = {{#if:{{{grid_ref_UK|}}}|{{gbm4ibx|{{{grid_ref_UK|}}}}}{{{grid_ref|}}}}}
+
+|label3   = [[Irish grid reference system|OSI/OSNI grid]]
+|data3    = {{#if:{{{grid_ref_Ireland|}}}|{{iem4ibx|{{{grid_ref_Ireland|}}}}}{{{grid_ref|}}}}}
+
+|label4   = Coordinates
+|data4    = {{#if:{{{coordinates|{{{coords|}}}}}}
+  |{{#invoke:Coordinates|coordinsert|{{{coordinates|{{{coords|}}}}}}|type:landmark}}{{{coordinates ref|{{{coords_ref|}}}}}}
+  }}
+
+|label5   = Depth
+|data5    = {{{depth|}}}
+
+|label6   = Length
+|data6    = {{{length|}}}
+
+|label7   = Height variation
+|data7    = {{{height_variation|}}}
+
+|label8   = Elevation
+|data8    = {{{elevation|}}}
+
+|label10  = Discovery
+|data10   = {{{discovery|}}}
+
+|label11  = Geology
+|data11   = {{{geology|}}}
+
+|label12  = Entrances
+|data12   = {{ifempty|{{{number of entrances|}}}|{{{entrance_count|}}}|{{{entrances|}}}}}
+
+|label13  = List of<br/>entrances
+|data13   = {{ifempty|{{{list of entrances|}}}|{{{entrance_list|}}}}}
+
+|label14  = Difficulty
+|data14   = {{{difficulty|}}}
+
+|label15  = Hazards
+|data15   = {{{hazards|}}}
+
+|label16  = Access
+|data16   = {{{access|}}}
+
+|label17  = Show cave opened
+|data17   = {{ifempty|{{{show cave|}}}|{{{show_cave|}}}}}
+
+|label18  = Show cave length
+|data18   = {{ifempty|{{{show cave length|}}}|{{{show_cave_length|}}}}}
+
+|label19  = Lighting
+|data19   = {{{lighting|}}}
+
+|label20  = Visitors
+|data20   = {{{visitors|}}}
+
+|label21  = Features
+|data21   = {{{features|}}}
+
+|label22  = Translation
+|data22   = {{#if:{{{translation|}}}
+            | ''{{{translation|}}}''{{#if:{{{language|}}}|{{sp}}({{{language|}}}) }}}}
+
+|label23  = [[International Phonetic Alphabet|Pronunciation]]
+|data23   = {{#if:{{{pronunciation|}}}|{{IPA|[{{{pronunciation|}}}]}}}}
+
+|label24  = [[Cave survey]]
+|data24   = {{#if:{{{survey|}}}
+            | {{{survey|}}}<!--
+            -->{{#if:{{{survey electronic format|{{{survey_format|}}}}}}
+               |{{sp}}(in ''{{ifempty|{{{survey electronic format|}}}|{{{survey_format|}}}}}'')}}}}
+
+|label25  = [[British Cave Research Association|BRAC]] [[Cave survey#Accuracy|grade]]
+|data25   = {{uc:{{{bcra_grade|}}}}}
+
+|label26  = Registry
+|data26   = {{{registry|{{{register|}}}}}}
+
+|label27  = {{{free_label_1|}}}
+|data27   = {{#if:{{{free_label_1|}}}|{{{free_data_1|}}}}}
+
+|label28  = {{{free_label_2|}}}
+|data28   = {{#if:{{{free_label_2|}}}|{{{free_data_2|}}}}}
+
+|label29  = Website
+|data29   = {{{website|}}}
+
+|data30   = {{{embedded|}}}
+
+}}
