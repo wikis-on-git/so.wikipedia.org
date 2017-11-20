@@ -493,3 +493,20 @@ Thank you
 Would somebody mind making an article on the [[:en:October 2017 Mogadishu bombings]]?
 Thanks
 [[User:WhisperToMe|WhisperToMe]] ([[User talk:WhisperToMe|talk]]) 22:10, 17 Oktoobar 2017 (UTC)
+
+== New print to pdf feature for mobile web readers ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''New print to pdf feature for mobile web readers'''
+
+The Readers web team will be deploying a new feature this week to make it [[mw:Reading/Web/Projects/Mobile_PDFs|easier to download PDF versions of articles on the mobile website]].
+
+Providing better offline functionality was one of the highlighted areas from [[m:New_Readers/Offline|the research done by the New Readers team in Mexico, Nigeria, and India]]. The teams created a prototype for mobile PDFs which was evaluated by user research and community feedback.  The [[m:New_Readers/Offline#Concept_testing_for_mobile_web|prototype evaluation]] received positive feedback and results, so development continued.
+
+For the initial deployment, the feature will be available to Google Chrome browsers on Android. Support for other mobile browsers to come in the future. For Chrome, the feature will use the native Android print functionality. Users can choose to download a webpage as a PDF. [[mw:Reading/Web/Projects/Print_Styles#Mobile_Printing|Mobile print styles]] will be used for these PDFs to ensure optimal readability for smaller screens.
+
+The feature is available starting Wednesday, Nov 15. For more information, see [[mw:Reading/Web/Projects/Mobile_PDFs|the project page on MediaWiki.org]]. 
+
+{{Int:Feedback-thanks-title}} 
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 22:07, 20 Nofeembar 2017 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Mobile_PDF_distribution_list&oldid=17448927 -->
