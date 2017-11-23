@@ -1,0 +1,84 @@
+{{Infobox
+| italic title = {{{italic title|<noinclude>no</noinclude>}}}
+| bodyclass = vevent
+| bodystyle = font-size:90%;
+
+| aboveclass = summary
+| abovestyle = font-size:110%;font-style:italic;
+| above = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+
+| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|{{{image size|}}}}}} |sizedefault=frameless |upright=1 |alt={{{alt|}}} |border={{{border|yes}}} }}
+| captionstyle = font-size:95%;padding:0.35em 0.35em 0.25em;line-height:1.25em;
+| caption = {{{caption|}}}
+
+| labelstyle = white-space:nowrap;padding-right:0.65em<!--(to ensure gap between any long/nonwrapped label and subsequent data on same line-->;
+| datastyle = line-height:1.3em;
+
+| class1  = description
+|  data1  = {{{film_name|{{{film name|}}}}}}
+
+| label2  = Directed by
+|  data2  = {{{director|{{{directors|}}}}}}
+
+| label3  = Produced by
+|  data3  = {{{producer|{{{producers|}}}}}}
+
+| label4  = Written by
+|  data4  = {{{writer|{{{writers|}}}}}}
+
+| label5  = Screenplay by
+|  data5  = {{{screenplay|}}}
+
+| label6  = Story by
+|  data6  = {{{story|}}}
+
+| label7  = Based on
+|  data7  = {{{based_on|{{{based on|}}}}}}
+
+| label8  = Starring
+|  data8  = {{{starring|}}}
+
+| label9  = Narrated by
+|  data9  = {{{narrator|{{{narrators|}}}}}}
+
+| label10 = Music by
+|  data10 = {{{music|}}}
+
+| label11 = Cinematography
+|  data11 = {{{cinematography|}}}
+
+| label12 = Edited by
+|  data12 = {{{editing|}}}
+
+| label13 = {{longitem |Production<br/>compan{{#if:{{{production companies|}}}|ies|y}} }}
+|  data13 = {{#if:{{{production companies|{{{studio|}}}}}} |<div style="vertical-align:middle;">{{{production companies|{{{studio|}}}}}}</div>}}
+
+| label14 = Distributed by
+|  data14 = {{{distributor|{{{distributors|}}}}}}
+
+| label15 = {{longitem|style=white-space:normal; |Release date}}
+|  data15 = {{{released|}}}
+
+| label16 = {{longitem|style=white-space:normal; |Running time}}
+|  data16 = {{{runtime|}}}
+
+| label17 = Country
+|  data17 = {{{country|}}}
+
+| label18 = Language
+|  data18 = {{#if:{{{language|}}}
+             | {{#switch:{{lc:{{{language|}}}}}
+                | english = English {{#if:{{NAMESPACE}} | |[[Category:English-language films]]}}
+                | silent (english intertitles) |silent(english intertitles) |silent film (english intertitles) |silent film(english intertitles) |silent with english intertitles |silent |silent film = Silent {{#if:{{NAMESPACE}} | |[[Category:Silent films]]}}
+                | #default = {{{language|}}} {{#if:{{NAMESPACE}} | |{{#ifexist:Category:{{#invoke:string|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films |[[Category:{{#invoke:string|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films]]}} }}
+            }} }}
+
+| label19 = Budget
+|  data19 = {{{budget|}}}
+
+| label20 = Box office
+|  data20 = {{{gross|}}}
+
+}} <noinclude>
+{{Documentation}}
+</noinclude>
