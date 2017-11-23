@@ -16,13 +16,13 @@
 | class1  = description
 |  data1  = {{{film_name|{{{film name|}}}}}}
 
-| label2  = Directed by
+| label2  = Jiheeye
 |  data2  = {{{director|{{{directors|}}}}}}
 
-| label3  = Produced by
+| label3  = Soo saare
 |  data3  = {{{producer|{{{producers|}}}}}}
 
-| label4  = Written by
+| label4  = Qoraaga
 |  data4  = {{{writer|{{{writers|}}}}}}
 
 | label5  = Screenplay by
@@ -55,16 +55,16 @@
 | label14 = Distributed by
 |  data14 = {{{distributor|{{{distributors|}}}}}}
 
-| label15 = {{longitem|style=white-space:normal; |Release date}}
+| label15 = {{longitem|style=white-space:normal; |Wakhtiga soo baxay}}
 |  data15 = {{{released|}}}
 
-| label16 = {{longitem|style=white-space:normal; |Running time}}
+| label16 = {{longitem|style=white-space:normal; |Dhererka filimka}}
 |  data16 = {{{runtime|}}}
 
-| label17 = Country
+| label17 = Wadanka
 |  data17 = {{{country|}}}
 
-| label18 = Language
+| label18 = Luuqada
 |  data18 = {{#if:{{{language|}}}
              | {{#switch:{{lc:{{{language|}}}}}
                 | english = English {{#if:{{NAMESPACE}} | |[[Category:English-language films]]}}
