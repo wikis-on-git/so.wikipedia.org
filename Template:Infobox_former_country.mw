@@ -1,4 +1,4 @@
-<includeonly>{| class="infobox geography vcard vevent" style="width:{{{width|290px}}};"
+{| class="infobox geography vcard vevent" style="width:{{{width|290px}}};"
 |-
 | colspan="2" class="mergedtoprow fn org summary" align="center" style="line-height:1.2em; font-size:135%;"| '''{{#if:<!--
            -->{{{conventional_long_name|}}}
@@ -591,6 +591,6 @@ For the preceding and succeeding entities, give as input the name the territory.
 {{!}} colspan="2" {{!}} <small>{{{footnotes2}}}</small> }}
 |-
 {{#if:{{{_noautocat|<noinclude>yes</noinclude>}}}||{{ns0|{{Infobox former country/autocat|continent={{{continent|}}}|empire={{{empire|}}}|region={{{region|}}}|status={{{status|}}}|year_start={{{year_start|}}}|common_name={{{common_name|}}}|year_end={{{year_end|}}}}}}}}}
-|}</includeonly><noinclude>
+|}<noinclude>
 {{documentation}}
 </noinclude>
