@@ -534,3 +534,48 @@ Greetings,
 
 [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|talk]]) 10:46, 21 Diseembar 2017 (UTC)
 <!-- Message sent by User:Krishna Chaitanya Velaga@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_Wikipedia_delivery&oldid=17565441 -->
+
+== Editing News #1—2018 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+
+''[[m:VisualEditor/Newsletter/2018/February|Read this in another language]] • [[m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+<div style="float:right;width:270px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]]
+'''Did you know?'''<div class="thumbcaption" style="font-size: 90%;">
+Did you know that you can now use the [[mw:Special:MyLanguage/VisualEditor/Diffs|visual diff tool]] on any page?
+
+[[File:Wikitext diff paragraph move correcting vandalism 2018.png|alt=Screenshot showing some changes, in the two-column wikitext diff display|center|frameless|250px]]
+
+Sometimes, it is hard to see important changes in a wikitext diff.  This screenshot of a wikitext diff (click to enlarge) shows that the paragraphs have been rearranged, but it does not highlight the removal of a word or the addition of a new sentence.
+
+If you [[Special:Preferences#mw-prefsection-betafeatures|enable the Beta Feature]] for "{{Int:visualeditor-preference-visualdiffpage-label}}", you will have a new option.  It will give you a new box at the top of every diff page.  This box will let you choose either diff system on any edit.
+
+[[File:VisualEditor visual diff tool - toggle button.png|alt=Toggle button showing visual and wikitext options; visual option is selected|center|frameless|200px]]
+Click the toggle button to switch between visual and wikitext diffs.
+
+In the visual diff, additions, removals, new links, and formatting changes will be highlighted.  Other changes, such as changing the size of an image, are described in notes on the side.
+
+[[File:Visual diff paragraph move correcting vandalism 2018.png|alt=Screenshot showing the same changes to an article.  Most changes are highlighted with text formatting.|center|frameless|250px]]
+
+This screenshot shows the same edit as the wikitext diff.  The visual diff highlights the removal of one word and the addition of a new sentence.
+
+You can read and help translate [[mw:Special:MyLanguage/Help:VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.
+</div></div>
+
+Since [[m:VisualEditor/Newsletter/2017/May|the last newsletter]], the [[mw:Editing|Editing Team]] has spent most of their time supporting [[mw:2017 wikitext editor|the 2017 wikitext editor mode]], which is available inside the visual editor as a Beta Feature, and improving [[mw:VisualEditor/Diffs|the visual diff tool]]. Their work board is available [[phab:project/view/3236/|in Phabricator]].  You can find links to the work finished each week at [[mw:VisualEditor/Weekly triage meetings]].  Their [[mw:Editing team/Current priorities|current priorities]] are fixing bugs, supporting the 2017 wikitext editor, and improving the visual diff tool.
+===Recent changes===
+*The '''[[mw:2017 wikitext editor|2017 wikitext editor]]''' is [[Special:Preferences#mw-prefsection-betafeatures|available as a Beta Feature]] on desktop devices.  It has the same toolbar as the visual editor and can use the citoid service and other modern tools.  The team have been comparing the performance of different editing environments.  They have studied how long it takes to open the page and start typing.  The study uses data for more than one million edits during December and January.  Some changes have been made to improve the speed of the 2017 wikitext editor and the visual editor.  Recently, the 2017 wikitext editor opened fastest for most edits, and the 2010 WikiEditor was fastest for some edits.  More information will be posted at [[mw:Contributors/Projects/Editing performance]].
+*The '''[[mw:VisualEditor/Diffs|visual diff tool]]''' was developed for the visual editor.  It is now available to all users of the visual editor and the 2017 wikitext editor.  When you review your changes, you can toggle between wikitext and visual diffs.  You can also [[Special:Preferences#mw-prefsection-betafeatures|enable the new Beta Feature]] for "Visual diffs".  The Beta Feature lets you use the visual diff tool to view other people's edits on page histories and [[Special:RecentChanges]].  [https://phabricator.wikimedia.org/T167508]
+*[[mw:Special:MyLanguage/Extension:CodeMirror|'''Wikitext syntax highlighting''']] is available as a Beta Feature for both [[mw:2017 wikitext editor|the 2017 wikitext editor]] and the 2010 wikitext editor. [https://phabricator.wikimedia.org/T101246]
+*The [[mw:Citoid|citoid service]] automatically translates URLs, DOIs, ISBNs, and PubMed id numbers into wikitext citation templates.  It is very popular and useful to editors, although it can be a bit tricky to set up.  <mark>Your wiki can have this service.  Please [[mw:Special:MyLanguage/Citoid/Enabling Citoid on your wiki|read the instructions]]. You can [[phab:T127354|ask the team to help you enable citoid at your wiki]]</mark>.
+
+===Let's work together===
+*The team will talk about editing tools at an upcoming [[m:Wikimedia Foundation metrics and activities meetings|Wikimedia Foundation metrics and activities meeting]].
+*Wikibooks, Wikiversity, and other communities may have the visual editor made available by default to contributors.  If your community wants this, then please contact [[mw:User talk:Deskana (WMF)|Dan Garry]].
+*The <code><nowiki><references /></nowiki></code> block can [[mw:Special:MyLanguage/Contributors/Projects/Columns for references|automatically display long lists of references in columns]] on wide screens.  This makes footnotes easier to read.  You can [https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=Cite,VisualEditor,Wikimedia-Site-requests&title=Convert%20reference%20lists%20over%20to%20`responsive`%20on%20XXwiki&priority=10&parent=159895 '''request multi-column support'''] for your wiki. [https://phabricator.wikimedia.org/T33597]
+*If you aren't reading this in your preferred language, then please help us with translations! Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly. We will notify you when the next issue is ready for translation. {{Int:Feedback-thanks-title}} 
+
+—[[mw:User:Elitre (WMF)|Elitre (WMF)]]
+</div> 20:56, 2 Maarso 2018 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=17790200 -->
