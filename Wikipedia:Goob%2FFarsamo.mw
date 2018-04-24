@@ -206,3 +206,18 @@ We would like to know more about your habits, your needs, and what could help yo
 
 </div>
 <!-- Message sent by User:Lea Lacroix (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Lea_Lacroix_(WMDE)/Luannouncement&oldid=17873868 -->
+
+== Time to bring embedded maps (‘mapframe’) to most Wikipedias ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''Time to bring embedded maps (‘mapframe’) to most Wikipedias'''
+
+{{int:please-translate}}
+
+[[mw:Special:MyLanguage/Help:Extension:Kartographer|Mapframe]] is a feature that enables users to easily display interactive maps right on wiki pages. Currently, most Wikipedias don’t have mapframe. But [[mw:Special:MyLanguage/Maps#Milestones_and_Updates|fifteen Wikipedias]], along with all the other Wikimedia projects, are using mapframe today to display maps on thousands of pages.
+
+A little background: over the last few months, the Foundation’s [[mw:Collaboration|Collaboration team]] has been working to improve the stability and user experience of the maps service. In addition, a question about long-term support for the maps service was recently settled, and a small team has been assigned for routine maintenance. Given these developments, bringing the benefits of mapframe to Wikipedias that lack the feature seems both safe and supportable. [[phab:T191583|Nine Wikipedias]] that use a stricter version of Flagged Revisions will not get mapframe in this release.
+
+Maps are a valuable form of visual data that can improve readers’ understanding across a wide range of topics. If you know of any reasons why mapframe shouldn’t be implemented on your Wikipedia, let us know [[mw:Talk:Map_improvements_2018|on the project talk page]]. Unless we hear from you, we plan to release mapframe to most Wikipedias in May, 2018. So, if you foresee an issue, please let us hear from you. Otherwise, happy mapping!
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 21:38, 24 Abriil 2018 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:JMatazzoni_(WMF)/mapframe-to-all-wikipedias-notice/distribution_list&oldid=17969222 -->
