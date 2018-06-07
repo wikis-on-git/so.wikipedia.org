@@ -228,3 +228,42 @@ Maps are a valuable form of visual data that can improve readers’ understandin
 [[mw:Special:MyLanguage/Extension:CodeMirror|Wikitext syntax highlighting]], also known as CodeMirror, has been moved out of Beta Features and is available in the [[mw:Special:MyLanguage/2017_wikitext_editor|2017 Wikitext Editor]] on all wikis. Syntax highlighting helps you see problems in your wikitext before previewing or publishing text. Please try out the tool if you did not do so while it was being developed, and [[mw:Special:MyLanguage/Extension_talk:CodeMirror|feedback is welcome]]. - [[User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
 </div>18:55, 4 May 2018 (UTC)
 <!-- Message sent by User:Keegan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=17844049 -->
+
+== Improvements coming soon on Watchlists ==
+
+<div dir="ltr">
+[[File:Rc-beta-tour-welcome-ltr.gif|link=Mw:Special:MyLanguage/Help:New_filters_for_edit_review|right|frameless]]
+Hello
+
+Sorry to use English. {{Int:please-translate}}! {{Int:thank-you}}
+
+'''In short:''' starting on June 18, New Filters for Edit Review ([[Special:Preferences#mw-prefsection-betafeatures|now in Beta]]) will become standard on Watchlists. They provide an array of new tools and an improved interface. If you prefer the current page you will be able to opt out. [[mw:Edit Review Improvements/New filters for edit review|Learn more about the New Filters]].
+
+<big>'''What is this feature again?'''</big>
+
+This feature is used by default on [[Special:RecentChanges]], [[Special:RecentChangesLinked]] and as a Beta feature on [[Special:Watchlist]]. 
+
+Based on a new design, that feature adds new functions to those pages, to ease vandalism tracking and support of newcomers:
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Filtering|Filtering]] - filter recent changes with easy-to-use and powerful filters combinations, including filtering by namespace or tagged edits.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Highlighting function|Highlighting]] - add a colored background to the different changes you are monitoring. It helps quick identification of changes that matter to you.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Bookmarking|Bookmarking]] to keep your favorite configurations of filters ready to be used.
+* [[mw:Special:MyLanguage/Help:New filters for edit review/Quality and Intent Filters|Quality and Intent Filters]] - those filters use [[mw:Special:MyLanguage/ORES|ORES predictions]]. They identify real vandalism or good faith intent contributions that need help. They are not available on all wikis. 
+You can know more about this project by visiting [[mw:Special:MyLanguage/Help:New filters for edit review/Quick tour|the quick tour help page]].
+
+<big>'''About the release on Watchlists'''</big>
+
+Over 70,000 people have activated the New Filters beta, which has been in testing on Watchlist for more than eight months. We feel confident that the features are stable and effective, but if you have thoughts about these tools or the beta graduation, [[mw:Talk:Edit Review Improvements/New filters for edit review|please let us know]] on the project talk page. In particular, tell us if you know of a special incompatibility or other issue that makes the New Filters problematic on your wiki. We’ll examine the blocker and may delay release on your wiki until the issue can be addressed.
+
+The deployment will start on June 18 or on June 25, depending on the wiki ([[phab:T195993#4261642|check the list]]). After the deployment, you will also be able to opt-out this change directly from the Watchlist page and also in your preferences. 
+
+<big>'''How to be ready?'''</big>
+
+Please share this announcement!
+
+If you use local Gadgets that change things on your Watchlist pages, or have a customized scripts or CSS, be ready. You may have to make some changes to your configuration. Despite the fact that we have tried to take most cases into consideration, some configurations may break. The Beta phase is a great opportunity to have a look at local scripts and gadgets: some of them may be replaced by native features from the Beta feature.
+
+Please share your questions and comments on the [[mw:Talk:Edit Review Improvements/New filters for edit review|feedback page]].
+
+On behalf of the [[mw:Collaboration|Collaboration team]], [[User:Trizek (WMF)|Trizek (WMF)]] 13:15, 7 Juun 2018 (UTC)
+</div>
+<!-- Message sent by User:Trizek (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Trizek_(WMF)/sandbox2&oldid=18110305 -->
