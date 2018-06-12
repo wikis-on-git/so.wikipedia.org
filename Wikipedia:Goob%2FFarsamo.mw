@@ -267,3 +267,20 @@ Please share your questions and comments on the [[mw:Talk:Edit Review Improvemen
 On behalf of the [[mw:Collaboration|Collaboration team]], [[User:Trizek (WMF)|Trizek (WMF)]] 13:15, 7 Juun 2018 (UTC)
 </div>
 <!-- Message sent by User:Trizek (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Trizek_(WMF)/sandbox2&oldid=18110305 -->
+
+== Update on page issues on mobile web ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''Update on page issues on mobile web'''
+
+{{int:please-translate}}
+Hi everyone. The [[mw:Reading/Web/Team|Readers web team]] has recently begun working on exposing issue templates on the mobile website. Currently, details about issues with page content are generally hidden on the mobile website. This leaves readers unaware of the reliability of the pages they are reading. The goal of this project is to improve awareness of particular issues within an article on the mobile web. We will do this by changing the visual styling of page issues.
+
+So far, we have [[mw:Reading/Web/Projects/Mobile Page Issues|drafted a proposal on the design and implementation]] of the project.  We were also able to run [[mw:Reading/Web/Projects/Mobile Page Issues/Research Results|user testing on the proposed designs]].  The tests so far have positive results. Here is a quick summary of what we learned:
+* The new treatment increases awareness of page issues among participants. This is true particularly when they are in a more evaluative/critical mode.
+* Page issues make sense to readers and they understand how they work
+* Readers care about page issues and consider them important
+* Readers had overwhelmingly positive sentiments towards Wikipedia associated with learning about page issues
+Our next step would be to start implementing these changes. We wanted to reach out to you for any concerns, thoughts, and suggestions you might have before beginning development. Please [[mw:Reading/Web/Projects/Mobile Page Issues|visit the project page]] where we have more information and mockups of how this may look. Please [[mw:Talk:Reading/Web/Projects/Mobile Page Issues|leave feedback on the talk page]]. 
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 20:58, 12 Juun 2018 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Sandbox&oldid=18120916 -->
