@@ -1,0 +1,411 @@
+
+{{Infobox information appliance
+| name = iPhone
+| logo = [[File:IPhone Logo 2016.svg|150px]]
+| image = [[File:IPhone X vector.svg|186px]]
+| caption = The front face of [[iPhone X]]
+| developer = [[Apple Inc.]]
+| manufacturer = [[Foxconn]], [[Pegatron]]<br />([[contract manufacturer]]s)
+| type = [[Smartphone]]
+| os = [[iOS]]
+| power = {{Collapsible list
+ | title = Built-in rechargeable<br />[[lithium-ion battery]]
+ | 1     = '''1st gen:''' {{nowrap|3.7 [[Volt|V]] 5.18&nbsp;[[Kilowatt hour|W·h]] (1400}}&nbsp;[[Ampere-hour|mA·h]])
+ | 2     = '''3G:''' {{nowrap|3.7 V}} {{nowrap|4.12 W·h}} (1150&nbsp;mA·h)
+ | 3     = '''3GS''' {{nowrap|3.7 V}} {{nowrap|4.51 W·h}} (1219&nbsp;mA·h)
+ | 4     = '''4:''' {{nowrap|3.7 V}} {{nowrap|5.25 W·h}} (1420&nbsp;mA·h)
+ | 5     = '''4S:''' {{nowrap|3.7 V}} {{nowrap|5.3 W·h}} (1432&nbsp;mA·h)
+ | 6     = '''5:''' {{nowrap|3.8 V}} {{nowrap|5.45 W·h}} (1440&nbsp;mA·h)
+ | 7     = '''5C:''' {{nowrap|3.8 V}} {{nowrap|5.73 W·h}} (1510&nbsp;mA·h)
+ | 8     = '''5S:''' {{nowrap|3.8 V}} {{nowrap|5.92 W·h}} (1560&nbsp;mA·h)
+ | 9     = '''6:''' {{nowrap|3.82 V}} {{nowrap|6.91 W·h}} (1810&nbsp;mA·h)
+ | 10    = '''6 Plus:''' {{nowrap|3.82 V}} {{nowrap|11.1 W·h}} (2915&nbsp;mA·h)
+ | 11    = '''6S:''' {{nowrap|3.82 V}} {{nowrap|6.55 W·h}} (1715&nbsp;mA·h)
+ | 12    = '''6S Plus:''' {{nowrap|3.8 V}} {{nowrap|10.45 W·h}} (2750&nbsp;mA·h)
+ | 13    = '''SE:''' {{nowrap|3.82 V}} {{nowrap|6.21 W·h}} (1624&nbsp;mA·h)
+ | 14    = '''7:''' {{nowrap|3.8 V}} {{nowrap|7.45 W·h}} (1960&nbsp;mA·h)
+ | 15    = '''7 Plus:''' {{nowrap|3.82 V}} {{nowrap|11.10 W·h}} (2900&nbsp;mA·h)
+ | 16    = '''8:''' {{nowrap|3.82 V}} {{nowrap|6.96 W·h}} (1821&nbsp;mA·h)
+ | 17    = '''8 Plus:''' {{nowrap|3.82 V}} {{nowrap|10.28 W·h}} (2691&nbsp;mA·h)
+ | 18    = '''X:''' {{nowrap|3.81 V}} {{nowrap|10.35 W·h}} (2716&nbsp;mA·h)
+}}
+| soc = {{Collapsible list
+ | title = Chips used
+ | 1     = '''1st gen''' and '''3G:''' [[S5L8900]]
+ | 2     = '''3GS:''' [[S5PC100]]
+ | 3     = '''4:''' [[Apple A4]]
+ | 4     = '''4S:''' [[Apple A5]]
+ | 5     = '''5''' / '''5C:''' [[Apple A6]]
+ | 6     = '''5S:''' [[Apple A7]]
+ | 7     = '''6 / 6 Plus:''' [[Apple A8]]
+ | 8     = '''6S / 6S Plus''' and '''SE:''' [[Apple A9]]
+ | 9     = '''7 / 7 Plus:''' [[Apple A10 Fusion]]
+ | 10     = '''8 / 8 Plus / X:''' [[Apple A11 Bionic]]
+}}
+| cpu = {{Collapsible list
+ | title = CPU
+ | 1     = '''1st gen''' and '''3G:''' [[Samsung]] [[32-bit]] [[Reduced instruction set computing|RISC]] [[ARM architecture|ARM]] 1176JZ(F)-S v1.0<ref>{{cite web|url=http://toucharcade.com/2008/07/07/under-the-hood-the-iphones-gaming-mettle |title=Under the Hood: The iPhone's Gaming Mettle |publisher=Touch Arcade |date=June 14, 2008 |accessdate=June 13, 2013}}</ref>
+ | 2     = '''3GS:''' 600&nbsp;MHz [[ARM Cortex-A8]]<ref>{{cite web|url=http://www.anandtech.com/show/2782/2 |title=The iPhone 3GS Hardware Exposed & Analyzed |publisher=AnandTech |accessdate=June 13, 2013}}</ref>
+ | 3     = '''4:''' 800&nbsp;MHz [[ARM Cortex-A8]]<ref>{{cite web|url=http://www.ifixit.com/Teardown/iPhone-4-Teardown/3130/2 |title=iPhone 4 Teardown – Page 2 |publisher=iFixit |accessdate=June 13, 2013}}</ref>
+ | 4     = '''4S:''' 800&nbsp;MHz [[multi-core processor|dual-core]] [[ARM Cortex-A9]]<ref>{{cite web |first=Amar |last=Toor |title=Benchmarks clock iPhone 4S' A5 CPU at 800MHz, show major GPU upgrade over iPhone 4 |url=https://www.engadget.com/2011/10/11/benchmarks-clock-iphone-4s-a5-cpu-at-800mhz-show-major-gpu-upg/ |work=[[Engadget]] |date=October 11, 2011 |accessdate=March 23, 2017}}</ref>
+ | 5     = '''5 / 5C:''' 1.3&nbsp;GHz dual-core Apple A6
+ | 6     = '''5S:''' 1.3&nbsp;GHz 64-bit dual-core Apple A7
+ | 7     = '''6 / 6 Plus:''' 1.4&nbsp;GHz 64-bit dual-core Apple A8
+ | 8     = '''6S / 6S Plus''' and '''SE:''' 1.85&nbsp;GHz 64-bit dual-core Apple A9
+ | 9     = '''7 / 7 Plus:''' 2.34&nbsp;GHz 64-bit quad-core Apple A10 Fusion (2× Hurricane + 2× Zephyr)<ref name="iPhone 7 & 7 Plus">{{cite web | url=http://www.gsmarena.com/compare.php3?idPhone1=8064&idPhone2=8065| publisher= GSMArena| title=iPhone 7 & 7 Plus| accessdate=January 14, 2017}}</ref>
+ | 10     = '''8 / 8 Plus / X:''' <!--2.4&nbsp;-->GHz 64-bit hexa-core Apple A11 Bionic (2× Monsoon + 4× Mistral)
+}}
+| memory = {{Collapsible list
+ | title = Memory
+ | 1     = '''1st gen''' and '''3G:''' 128&nbsp;[[megabyte|MB]] [[LPDDR]] [[Random-access memory|RAM]] (137&nbsp;MHz)
+ | 2     = '''3GS:''' {{nowrap|256 MB}} LPDDR RAM (200&nbsp;MHz)
+ | 3     = '''4:''' {{nowrap|512 MB}} [[LPDDR2]] RAM (200&nbsp;MHz)
+ | 4     = '''4S:''' {{nowrap|512 MB}} LPDDR2 RAM
+ | 5     = '''5 / 5C:''' 1&nbsp;GB LPDDR2 RAM
+ | 6     = '''5S''' and '''6 / 6 Plus:''' 1&nbsp;GB [[LPDDR3]] RAM
+ | 7     = '''6S / 6S Plus, SE''' and '''7:''' 2&nbsp;GB LPDDR4 RAM
+ | 8 = '''8:''' 2&nbsp;GB [[Mobile DDR#LPDDR4X|LPDDR4X]] RAM
+ | 9     = '''7 Plus:''' 3&nbsp;GB [[LPDDR4]] RAM
+ | 10 = '''8 Plus''' and '''X:''' 3&nbsp;GB LPDDR4X RAM
+}}
+| storage = 4, 8, 16, 32, 64, 128, or 256&nbsp;GB [[flash memory]]<ref>{{cite web|url=https://www.apple.com/iphone/specs.html |title=iPhone 5 – View all the technical specifications |publisher=Apple Inc. |accessdate=June 13, 2013}}</ref>
+| display = {{Collapsible list
+ | title = Display
+ | 1     = '''1st gen''' and '''3G:'''
+ | 2     = {{convert|3.5|in|mm|abbr=on}}
+ | 3     = 3:2 [[display aspect ratio|aspect ratio]], scratch-resistant<ref name="jun18PressRelease">{{cite press release|publisher=Apple Inc.|date=June 18, 2007|url=https://www.apple.com/pr/library/2007/06/18iphone.html|title=iPhone Delivers Up to Eight Hours of Talk Time|deadurl=yes|archiveurl=https://web.archive.org/web/20110521200837/http://www.apple.com/pr/library/2007/06/18iphone.html|archivedate=May 21, 2011|df=mdy-all}}</ref> glossy glass covered screen, 262,144-color ([[Color depth|18-bit]]) [[Liquid crystal display#Twisted nematic (TN)|TN]] LCD, 480 × 320&nbsp;[[pixel|px]] ([[HVGA]]) at 163&nbsp;[[pixel density|ppi]], 200:1 [[contrast ratio]]
+ | 4     = '''3GS:'''
+ | 5     = In addition to prior, features a fingerprint-resistant [[lipophobicity|oleophobic]] coating,<ref>{{cite web|first=Eric|last=Slivka|url=http://www.macrumors.com/2009/06/10/more-wwdc-tidbits-iphone-3g-s-oleophobic-screen-find-my-iphone-live|title=More WWDC Tidbits: iPhone 3G S Oleophobic Screen, "Find My iPhone" Live lLP|work=Mac Rumors|date=June 10, 2009|accessdate=July 3, 2009}}</ref> and 262,144-color (18-bit) TN LCD with hardware spatial dithering<ref name=edepot>{{cite web|url=http://www.edepot.com/iphone.html|title=iPhone Secrets and iPad Secrets and iPod Touch Secrets|author=Po-Han Lin|work=Technology Depot|accessdate=December 8, 2011}}</ref>
+ | 6     = '''4''' and '''4S:'''
+ | 7     = {{convert|3.5|in|mm|abbr=on}}; 3:2 aspect ratio, [[aluminosilicate]] glass covered 16,777,216-color (24-bit) [[In-plane switching|IPS]] LCD screen, 960 × 640&nbsp;px at 326&nbsp;[[pixels per inch|ppi]], 800:1 contrast ratio, 500 [[luminance|{{frac|cd|m²}}]] max brightness
+ | 8     = '''5 / 5C / 5S / SE:'''
+ | 9     = {{convert|4.0|in|mm|abbr=on}}; 16:9 aspect ratio; 1136 × 640&nbsp;px screen resolution at 326&nbsp;ppi
+ | 10    = '''6 / 6S / 7 / 8:'''
+ | 11    = {{convert|4.7|in|mm|abbr=on}}; 16:9 aspect ratio; 1334 × 750&nbsp;px screen resolution at 326&nbsp;ppi
+ | 12    = '''6 Plus / 6S Plus / 7 Plus / 8 Plus:'''
+ | 13    = {{convert|5.5|in|mm|abbr=on}}; 16:9 aspect ratio; 1920 × 1080&nbsp;px screen resolution at 401&nbsp;ppi
+ | 14    = '''X:'''
+ | 15    = {{convert|5.8|in|mm|abbr=on}}; ~19.5:9 aspect ratio; 2436 × 1125&nbsp;pix screen resolution at 458&nbsp;ppi
+}}
+| graphics = {{Collapsible list
+ | title = Graphics
+ | 1     = '''1st gen''' and '''3G:'''
+ | 2     = [[PowerVR]] [[PowerVR#MBX|MBX]] Lite 3D [[graphics processing unit|GPU]]<ref name="GPUmbx">{{cite web|url=http://www.eetimes.com/news/semi/showArticle.jhtml?articleID=200900740|title=Update: UK graphics specialist confirms that iPhone design win|work=[[EE Times]]}}</ref> (103&nbsp;MHz)
+ | 3     = '''3GS:''' PowerVR [[PowerVR#Series 5 (SGX)|SGX535]] GPU
+ | 4     = (150&nbsp;MHz)<ref name="3G_S_Processor">{{cite web|url=http://www.anandtech.com/gadgets/showdoc.aspx?i=3579&p=2|title=The iPhone 3GS Hardware Exposed & Analyzed|last=Shimpi|first=Anand|date=June 10, 2009|work=AnandTech|accessdate=June 10, 2009}}<br />{{cite news|url=https://www.wired.com/gadgetlab/2009/06/t-mobile-accidentally-posts-secret-iphone-3g-s-specs|title=Gadget Lab Hardware News and Reviews T-Mobile Accidentally Posts Secret iPhone 3G S Specs|last=Sorrel|first=Charlie|date=June 10, 2009|work=[[Wired (magazine)|Wired]]|accessdate=June 14, 2009}}</ref><ref name="4_Processor">{{cite web|url=http://www.ifixit.com/Teardown/Apple-A4-Teardown/2204/3|title=Apple A4 Teardown|date=June 10, 2009|work=ifixit.com|accessdate=September 9, 2010}}</ref>
+ | 5     = '''4:''' PowerVR [[PowerVR#Series 5 (SGX)|SGX535]] GPU (200&nbsp;MHz)<ref name="3G_S_Processor" /><ref name="4_Processor" />
+ | 6     = '''4S:''' PowerVR [[PowerVR#Series 5 (SGX)|SGX543MP2]] (2-core) GPU
+ | 7     = '''5 / 5C:''' PowerVR SGX543MP3 (3-core) GPU
+ | 8     = '''5S:''' PowerVR G6430 (4-core) GPU
+ | 9     = '''6 / 6 Plus:''' PowerVR GX6450 (4-core) GPU
+ | 10    = '''6S / 6S Plus''' and '''SE:''' PowerVR GT7600 (6-core) GPU<ref>{{cite web|url=http://www.anandtech.com/show/9686/the-apple-iphone-6s-and-iphone-6s-plus-review/5|title=A9's GPU: Imagination PowerVR GT7600 – The Apple iPhone 6s and iPhone 6s Plus Review |work=AnandTech |date=November 2, 2015 |accessdate=November 4, 2015}}</ref>
+ | 11    = '''7 / 7 Plus:''' PowerVR Series 7XT Plus (6-core) GPU<ref name="iPhone 7 & 7 Plus"/>
+ | 12 = '''8 / 8 Plus / X:''' Apple-designed (3-core) GPU
+}}
+| sound= {{flatlist|
+* [[Bluetooth]]
+* stereo speaker (iPhone 7 and up)
+* microphone
+* 3.5&nbsp;mm [[Phone connector (audio)|stereo audio jack]] (not available on iPhone 7 and up)
+* [[Lightning (connector)|Lightning]] port (requires iOS 10 or later)
+}}
+| connectivity= {{Collapsible list
+ | title = [[Wi-Fi]] and [[Bluetooth]]
+ | 1     = '''1st gen''', '''3G''', and '''3GS:'''<br />
+[[Wi-Fi]] ([[IEEE 802.11|802.11]] [[IEEE 802.11b-1999|b]]/[[IEEE 802.11g-2003|g]])<br />
+ | 2     = '''4''' and '''4S:'''<br />
+[[Wi-Fi]] ([[IEEE 802.11|802.11]] [[IEEE 802.11b-1999|b]]/[[IEEE 802.11g-2003|g]]/[[IEEE 802.11n-2009|n]])<br />
+ | 3     = '''5''', '''5C''', and '''5S:'''<br />
+[[Wi-Fi]] ([[IEEE 802.11|802.11]] [[IEEE 802.11a-1999|a]]/[[IEEE 802.11b-1999|b]]/[[IEEE 802.11g-2003|g]]/[[IEEE 802.11n-2009|n]])<br />
+ | 4     = '''6 / 6 Plus''', '''6S / 6S Plus''', '''SE''', '''7 / 7 Plus''', and '''8 / 8 Plus / X:'''<br />
+[[Wi-Fi]] ([[IEEE 802.11|802.11]] [[IEEE 802.11a-1999|a]]/[[IEEE 802.11b-1999|b]]/[[IEEE 802.11g-2003|g]]/[[IEEE 802.11n-2009|n]]/[[IEEE 802.11ac|ac]])
+ | 5     = <!--- This is a blank placeholder. NO CONTENT goes in this parameter. --->
+ | 6     = '''1st gen''', '''3G''', '''3GS''', and '''4:'''<br />
+[[Bluetooth v2.1+EDR|Bluetooth 2.1 + EDR]]<br />
+ | 7     = '''4S''', '''5''', '''5C''', '''5S''', and '''6 / 6 Plus:'''<br />
+[[Bluetooth v4.0|Bluetooth 4.0]]<br />
+ | 8     = '''6S / 6S Plus''', '''SE''' and '''7 / 7 Plus:'''<br />
+[[Bluetooth v4.2|Bluetooth 4.2]]
+| 9 = '''8 / 8 Plus / X:'''<br />
+[[Bluetooth 5.0]]
+}}
+
+'''[[GSM]] models also include:'''
+{{flatlist|
+* [[LTE (telecommunication)|LTE]] [[LTE frequency bands|700, 2100]]&nbsp;MHz
+* {{allow wrap|[[Universal Mobile Telecommunications System|UMTS]] / [[High-Speed Downlink Packet Access|HSDPA]]/[[Evolved HSPA|HSPA+]] / [[Dual-Cell HSDPA|DC-HSDPA]]}} [[UMTS frequency bands|850, 900, 1900, 2100]]&nbsp;MHz
+* {{allow wrap|[[GSM]] / [[Enhanced Data Rates for GSM Evolution|EDGE]]}} [[GSM frequency bands|850, 900, 1800, 1900]]&nbsp;MHz
+'''[[code division multiple access|CDMA]] model also includes:'''
+* [[LTE (telecommunication)|LTE]] [[LTE frequency bands|700]]&nbsp;MHz
+* [[code division multiple access|CDMA]]/[[Evolution-Data Optimized|EV-DO Rev. A]] [[Multi-band device|800, 1900]]&nbsp;MHz
+* {{allow wrap|[[Universal Mobile Telecommunications System|UMTS]] / [[High-Speed Downlink Packet Access|HSDPA]]/[[Evolved HSPA|HSPA+]]/[[Dual-Cell HSDPA|DC-HSDPA]]}} [[UMTS frequency bands|850, 900, 1900, 2100]]&nbsp;MHz
+* {{allow wrap|[[GSM]] / [[Enhanced Data Rates for GSM Evolution|EDGE]]}} [[GSM frequency bands|850, 900, 1800, 1900]]&nbsp;MHz
+}}
+| dimensions = {{Collapsible list
+ | title = Dimensions
+ | 1     = '''1st gen:'''
+ | 2     = {{convert|115|mm|in|abbr=on}} H
+ | 3     = {{convert|61|mm|in|abbr=on}} W
+ | 4     = {{convert|11.6|mm|in|abbr=on}} D
+ | 5     = '''3G''' & '''3GS:'''
+ | 6     = {{convert|115.5|mm|in|abbr=on}} H
+ | 7     = {{convert|62.1|mm|in|abbr=on}} W
+ | 8     = {{convert|12.3|mm|in|abbr=on}} D
+ | 9     = '''4''' & '''4S:'''
+ | 10    = {{convert|115.2|mm|in|abbr=on}} H
+ | 11    = {{convert|58.6|mm|in|abbr=on}} W
+ | 12    = {{convert|9.3|mm|in|abbr=on}} D
+ | 13    = '''5, 5S''' & '''SE:'''
+ | 14    = {{convert|123.8|mm|in|abbr=on}} H
+ | 15    = {{convert|58.6|mm|in|abbr=on}} W
+ | 16    = {{convert|7.6|mm|in|abbr=on}} D
+ | 17    = '''5C:'''
+ | 18    = {{convert|124.4|mm|in|abbr=on}} H
+ | 19    = {{convert|59.2|mm|in|abbr=on}} W
+ | 20    = {{convert|8.97|mm|in|abbr=on}} D
+ | 21    = '''6:'''
+ | 22    = {{convert|138.1|mm|in|abbr=on}} H
+ | 23    = {{convert|67|mm|in|abbr=on}} W
+ | 24    = {{convert|6.9|mm|in|abbr=on}} D
+ | 25    = '''6 Plus:'''
+ | 26    = {{convert|158.1|mm|in|abbr=on}} H
+ | 27    = {{convert|77.8|mm|in|abbr=on}} W
+ | 28    = {{convert|7.1|mm|in|abbr=on}} D
+ | 29    = '''6S''' & '''7:'''
+ | 30    = {{convert|138.3|mm|in|abbr=on}} H
+ | 31    = {{convert|67.1|mm|in|abbr=on}} W
+ | 32    = {{convert|7.1|mm|in|abbr=on}} D
+ | 33    = '''6S Plus''' & '''7 Plus:'''
+ | 34    = {{convert|158.2|mm|in|abbr=on}} H
+ | 35    = {{convert|77.9|mm|in|abbr=on}} W
+ | 36    = {{convert|7.3|mm|in|abbr=on}} D
+ | 37    = '''8:'''
+ | 38    = {{convert|138.4|mm|in|abbr=on}} H
+ | 39    = {{convert|67.3|mm|in|abbr=on}} W
+ | 40    = {{convert|7.3|mm|in|abbr=on}} D
+ | 41    = '''8 Plus:'''
+ | 42    = {{convert|158.4|mm|in|abbr=on}} H
+ | 43    = {{convert|78.1|mm|in|abbr=on}} W
+ | 44    = {{convert|7.5|mm|in|abbr=on}} D
+ | 45    = '''X:'''
+ | 46    = {{convert|143.6|mm|in|abbr=on}} H
+ | 47    = {{convert|70.9|mm|in|abbr=on}} W
+ | 48    = {{convert|7.7|mm|in|abbr=on}} D
+}}
+| weight = {{Collapsible list
+ | title = Weight
+ | 1     = '''1st gen''' and '''3GS:'''
+ | 2     = {{convert|135|g|oz|abbr=on}}
+ | 3     = '''3G:''' {{convert|133|g|oz|abbr=on}}
+ | 4     = '''4:''' {{convert|137|g|oz|abbr=on}}
+ | 5     = '''4S:''' {{convert|140|g|oz|abbr=on}}
+ | 6     = '''5''' and '''5S:'''
+ | 7     = {{convert|112|g|oz|abbr=on}}
+ | 8     = '''5C:''' {{convert|132|g|oz|abbr=on}}
+ | 9     = '''6:''' {{convert|129|g|oz|abbr=on}}
+ | 10    = '''6 Plus:''' {{convert|172|g|oz|abbr=on}}
+ | 11    = '''6S:''' {{convert|143|g|oz|abbr=on}}
+ | 12    = '''6S Plus:''' {{convert|192|g|oz|abbr=on}}
+ | 13    = '''SE:''' {{convert|113|g|oz|abbr=on}}
+ | 14    = '''7:''' {{convert|138|g|oz|abbr=on}}
+ | 15    = '''7 Plus:''' {{convert|188|g|oz|abbr=on}}
+ | 16    = '''8:''' {{convert|148|g|oz|abbr=on}}
+ | 17    = '''8 Plus:''' {{convert|202|g|oz|abbr=on}}
+ | 18    = '''X:''' {{convert|174|g|oz|abbr=on}}
+}}
+| related = {{flatlist|
+* [[iPad]]
+* [[iPod Touch]]
+* [[List of iOS devices|Comparison]]
+}}
+| website = {{URL|apple.com/iphone/}}
+| releasedate= {{Collapsible list
+ | title = June 29, 2007
+ | 1     = '''[[iPhone (1st generation)|1st gen]]''': {{Start date|2007|06|29}}
+ | 2     = '''[[iPhone 3G|3G]]:''' {{Start date|2008|07|11}}
+ | 3     = '''[[iPhone 3GS|3GS]]''': {{Start date|2009|06|19}}
+ | 4     = '''[[iPhone 4|4]]''': {{Start date|2010|06|24}}
+ | 5     = '''[[iPhone 4S|4S]]''': {{Start date|2011|10|14}}
+ | 6     = '''[[iPhone 5|5]]''': {{Start date|2012|09|21}}
+ | 7     = '''[[iPhone 5C|5C]]''', '''[[iPhone 5S|5S]]''': {{Start date|2013|09|20}}
+ | 8     = '''[[iPhone 6|6 / 6 Plus]]''': {{Start date|2014|09|19}}
+ | 9     = '''[[iPhone 6S|6S / 6S Plus]]''': {{Start date|2015|9|25}}
+ | 10    = '''[[iPhone SE|SE]]''': {{Start date|2016|3|31}}
+ | 11    = '''[[iPhone 7|7 / 7 Plus]]''': {{Start date|2016|09|16}}
+ | 12    = '''[[iPhone 8|8 / 8 Plus]]''': {{Start date|2017|09|22}}
+ | 13    = '''[[iPhone X|X]]''': {{Start date|2017|11|03}}
+}}
+| unitssold = 1.2 billion+<ref name="auto">{{cite news|url=https://www.washingtonpost.com/news/the-switch/wp/2017/08/01/the-iphone-is-all-anyone-cares-about-when-it-comes-to-apple-earnings/|title= Apple stock soars to a record high on great earnings and a strong forecast for the next iPhone |work= [[The Washington Post]] |accessdate= August 2, 2017}}</ref>
+| service = {{flatlist|
+* [[iTunes Store]]
+* [[App Store (iOS)|App Store]]
+* [[iCloud]]
+* [[iBooks]]
+* [[Podcast]]
+* [[Apple Music]]
+* [[Passbook (application)|Passbook]]
+}}
+}}
+{{iPhone models}}
+'''iPhone''' ({{IPAc-en|ˈ|aɪ|f|oʊ|n}} {{respell|EYE|fone}}) is a line of [[smartphone]]s designed and marketed by [[Apple Inc.]]  The iPhone line of products use Apple's [[iOS]] mobile operating system software. The [[iPhone (1st generation)|first-generation iPhone]] was released on June 29, 2007, and multiple new hardware iterations with new [[iOS]] releases have been released since.
+
+The [[user interface]] is built around the device's [[multi-touch]] screen, including a [[virtual keyboard]]. The iPhone has [[Wi-Fi]] and can connect to [[cellular network]]s. An iPhone can [[video camera|shoot video]] (though this was not a standard feature until the [[iPhone 3GS]]), [[camera phone|take photos]], [[portable media player|play music]], send and receive [[email]], [[web browser|browse the web]], send and receive [[text messaging|text messages]], follow [[GPS navigation software|GPS navigation]], record notes, perform mathematical calculations, and receive [[visual voicemail]]. Other functionality, such as video games, reference works, and social networking, can be enabled by downloading [[mobile app]]s. {{As of|2017|1}}, Apple's [[App Store (iOS)|App Store]] contained more than 2.2&nbsp;million applications available for the iPhone.
+
+Apple has released eleven [[Comparison of Apple iPhone|generations]] of iPhone models, each accompanied by one of the eleven major releases of the [[iOS]] operating system. The original [[IPhone (1st generation)|first-generation iPhone]] was a [[GSM]] phone and established design precedents, such as a button placement that has persisted throughout all releases and a screen size maintained for the next four iterations. The [[iPhone 3G]] added [[3G]] network support, and was followed by the [[iPhone 3GS|3GS]] with improved hardware, the [[iPhone 4|4]] with a metal chassis, higher display resolution and front-facing camera, and the [[iPhone 4S|4S]] with improved hardware and the voice assistant [[Siri]]. The [[iPhone 5]] featured a taller, 4-inch display and Apple's newly introduced [[Lightning (connector)|Lightning connector]]. In 2013, Apple released the [[iPhone 5S|5S]] with improved hardware and a [[Touch ID|fingerprint reader]], and the lower-cost [[iPhone 5C|5C]], a version of the 5 with colored plastic casings instead of metal. They were followed by the larger [[iPhone 6]], with models featuring {{convert|4.7|and|5.5|in|mm|adj=on}} displays. The [[iPhone 6S]] was introduced the following year, which featured hardware upgrades and support for [[3D Touch|pressure-sensitive touch inputs]], as well as the [[iPhone SE|SE]]—which featured hardware from the 6S but the smaller form factor of the 5S. In 2016, Apple unveiled the [[iPhone 7|iPhone 7 and 7 Plus]], which add water resistance, improved system and graphics performance, a new rear dual-camera setup on the Plus model, and new color options, while removing the 3.5&nbsp;mm headphone jack found on previous models. The [[iPhone 8|iPhone 8 and 8 Plus]] were released in 2017, adding a glass back and an improved screen and camera. The [[iPhone X]] was released alongside the 8 and 8 Plus, with its highlights being a near bezel-less design, an improved camera and a new facial recognition system, named [[Face ID]], but having no home button, and therefore, no [[Touch ID]].
+
+The original iPhone was described as "revolutionary" and a "game-changer" for the mobile phone industry. Newer iterations have also garnered praise, and the iPhone's success has been credited with helping to make Apple one of the world's most valuable publicly traded companies.
+
+==History and availability==
+{{Main|History of iPhone}}
+{{See also|List of iOS devices}}
+
+{| class="wikitable" style="font-size:88%; margin-left:auto; margin-right:auto; width:90%"
+|+ Operating system support
+|-
+!iPhone
+!Released with
+!Release date
+!Final supported OS
+!Support ended
+!Support lifespan
+!Launch price
+|- style="background:#ececec;"
+|'''[[iPhone (1st generation)|iPhone]]'''
+|[[iPhone OS 1|iPhone OS 1.0]]
+|{{Start date|2007|06|29}}
+|[[iPhone OS 3|iPhone OS 3.1.3]]
+|{{End date|2010|6|20}}
+|'''{{age in years and months|2007|06|29|2010|6|20}}'''
+|$499/$599*
+|- style="background:#ececec;"
+|'''[[iPhone 3G]]'''
+|[[iPhone OS 2|iPhone OS 2.0]]
+|{{Start date|2008|07|11}}
+|[[iOS 4|iOS 4.2.1]]
+|{{End date|2011|03|03}}
+|'''{{age in years and months|2008|07|11|2011|03|03}}'''
+|$199/$299*
+|- style="background:#ececec;"
+|'''[[iPhone 3GS]]'''
+|[[iPhone OS 3|iPhone OS 3.0]]
+|{{Start date|2009|06|19}}
+|[[iOS 4|iOS 6.1.6]]
+|{{End date|2013|09|18}}
+|'''{{age in years and months|2009|06|19|2013|09|18}}'''
+|$199/$299*
+|- style="background:#ececec;"
+|'''[[iPhone 4]]'''
+|[[iOS 4|iOS 4.0]]
+|{{Start date|2010|06|21}}
+|[[iOS 7|iOS 7.1.2]]
+|{{End date|2014|09|17}}
+|'''{{age in years and months|2010|06|21|2014|09|17}}'''
+|$199/$299*
+|- style="background:#ececec;"
+|'''[[iPhone 4S]]'''
+|[[iOS 5|iOS 5.0]]
+|{{Start date|2011|10|14}}
+|[[iOS 9|iOS 9.3.5]]
+|{{End date|2016|09|12}}
+|'''{{age in years and months|2011|10|14|2016|09|12}}'''
+|$199/$299/$399*
+|- style="background:#ececec;"
+|'''[[iPhone 5]]'''
+|[[iOS 6|iOS 6.0]]
+|{{Start date|2012|09|21}}
+|[[iOS 10|iOS 10.3.3]]
+|{{End date|2017|09|18}}
+|'''{{age in years and months|2012|09|21|2017|09|18}}'''
+|$199/$299/$399*
+|- style="background:#ececec;"
+|'''[[iPhone 5C]]'''
+|[[iOS 7|iOS 7.0]]
+|{{Start date|2013|09|20}}
+|[[iOS 10|iOS 10.3.3]]
+|{{End date|2017|09|18}}
+|'''{{age in years and months|2013|09|20|2017|09|18}}'''
+|$99/$199*
+|- style="background:#c1e6f5;"
+|'''[[iPhone 5S]]'''
+|[[iOS 7|iOS 7.0]]
+|{{Start date|2013|09|20}}
+|[[iOS|latest iOS]]
+|(current)
+|'''> {{age in years and months|2013|09|20}}'''
+|$199/$299/$399*
+|- style="background:#c1e6f5;"
+|'''[[iPhone 6|iPhone 6 (Plus)]]'''
+|[[iOS 8|iOS 8.0]]
+|{{Start date|2014|09|19}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2014|09|19}}'''
+|$649/$749/$849 ($749/$849/$949)
+|- style="background:#d4f4b4;"
+|'''[[iPhone 6S|iPhone 6S (Plus)]]'''
+|[[iOS 9|iOS 9.0]]
+|{{Start date|2015|09|25}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2015|09|25}}'''
+|$649/$749/$849 ($749/$849/$949)
+|- style="background:#d4f4b4;"
+|'''[[iPhone SE]]'''
+|[[iOS 9|iOS 9.3]]
+|{{Start date|2016|03|31}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2016|03|31}}'''
+|$399/$499
+|- style="background:#d4f4b4;"
+|'''[[iPhone 7|iPhone 7 (Plus)]]'''
+|[[iOS 10|iOS 10.0]]
+|{{Start date|2016|09|16}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2016|09|16}}'''
+|$649/$749/$849 ($769/$869/$969)
+|- style="background:#d4f4b4;"
+|'''[[iPhone 8|iPhone 8 (Plus)]]'''
+|[[iOS 11|iOS 11.0]]
+|{{Start date|2017|09|22}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2017|09|22}}'''
+|$699/$849 ($799/$949)
+|- style="background:#d4f4b4;"
+|'''[[iPhone X]]'''
+|[[iOS 11|iOS 11.0.1]]
+|{{Start date|2017|11|03}}
+|latest iOS
+|(current)
+|'''> {{age in years and months|2017|11|03}}'''
+|$999/$1149
+|-
+| colspan="7" |
+{|
+!Legend:
+|{{legend2|#ececec|{{abbr|Discontinued and unsupported|iPhone is discontinued and last supported iOS version for this device is not supported anymore.}}|border=1px solid #AAAAAA}}
+|{{legend2|#c1e6f5|{{abbr|Discontinued, but still supported|Discontinued device, but still supported.}}|border=1px solid #AAAAAA}}
+|{{legend2|#d4f4b4|{{abbr|'''Current or still sold'''|Device runs with a supported iOS version.}}|border=1px solid #AAAAAA}}
+|*24-month contract required
+|}
+|}
+
+
+
+I-telefoonka
+
+
+
+iPhone (/ aɪfoʊn / EYE-fone) waa khadad casriga ah oo loo qoondeeyey oo laga iibsanayo Apple Inc. Khadka iPhone ee alaabada isticmaala nidaamyada software-ka ee kumbuyuutarka ee Apple-ga. Jiilka kowaad ee iPhone ayaa la sii daayey 29-kii Juunyo, 2007-dii, iyo qalab cusub oo qalab cusub oo cusub oo la sii daayay oo la sii daayay tan iyo markii la sii daayay.
+Interface-ka waxaa lagu dhisay agagaarka shaashadda badan ee taabashada, oo ay ku jiraan kumbiyuutar wicitaan ah. IPhone wuxuu leeyahay Wi-Fi wuxuuna isku xiri karaa shabakadaha gacanta. Cunto Iphone ah ayaa laga yaabaa inuu ku duubo fiidiyowga (inkastoo tani aysan ahayn qaabka caadiga ah illaa iPhone 3GS), sawirro qaadasho, muusikada, diro oo la helo email, shabakadda internetka, diraan oo helaan farriimaha qoraalka, raacaan GPS navigation, xusuus qorka, xisaabinta xisaabaadka , oo helikaraan muuqaal ah. Waxqabadka kale, sida ciyaaraha fiidiyowga, shaqada tixraaca, iyo shabakada bulshada, ayaa suuragal ah in ay awood u yeeshaan soo dejinta barnaamijyada moobiilka. Laga bilaabo Janaayo 2017, Apple App Store waxaa ku jira in ka badan 2.2 milyan codsiyada la heli karo ee iPhone ah.
+
+
+[[File:IPhone calling screen.png|thumb|upright|When making a call, the iPhone presents a number of options, including [[FaceTime]] on supported models. The screen is [[Proximity sensor|automatically disabled]] when held close to the face.]]
+Horumarinta waxa la samayn lahaa iPhone wuxuu bilaabmay 2004, markii Apple uu bilaabay inuu soo ururiyo koox shaqaale ah oo 1,000 shaqaale ah (oo ay ku jirto Jonathan Ive, naqshadeeyaha ka danbeeya iMac iyo iPod) [15] si ay uga shaqeeyaan muraayadda "Project Purple" Shirkadda Apple Steve Jobs ayaa diiradda saaraysay kiniiniga ugu horreeya ee kiniiniga ah (taas oo Apple ugu dambeyntii dib loo eegayo iPad-ka) telefoonka. [17] Apple wuxuu abuuray qalabka inta lagu jiro iskaashiga qarsoodiga ah ee lala yeesho Cingular Wireless (taas oo noqotey AT & T Mobility) waqtiga-qiimihiisu korodhka horumarinta US $ 150 milyan soddon bilood.
+
+
+[[File:IPhone sim slot.jpg|thumb|An iPhone 5S with the SIM slot open. The SIM ejector tool is still placed in the eject hole.]]
+Sida laga soo xigtay Steve Jobs, ereyga "i" ee "iMac" (oo markaa "iPod", "iPhone" iyo "iPad") waxay u taagan yihiin internet, shakhsi, barbaarin, wargalin, iyo dhiirigelin. [20]
+Apple wuxuu diidey "habka qaabeynta guddiga" kaas oo u keenay Motorola ROKR E1, oo ah iskaashiga ugu weynaa ee aan lagu guulaysanin ee leh Motorola. Maqnaanshaha kale, calaamadaha ROKR E1 ayaa xaddidan kaydka oo keliya 100 heeso iTunes ah si looga fogaado in ay ku tartamaan Apple iPod nano. [22]
