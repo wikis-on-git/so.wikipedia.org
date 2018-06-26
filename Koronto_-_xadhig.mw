@@ -1,0 +1,85 @@
+Koronto - xadhig
+
+
+Xadhkaha korontada waa qalab koronto ku xiran iyo qalab la xidhiidha sida furayaasha, kuraasta qaybinta, saldhigyada iyo xirmooyinka iftiinka ee qaab dhismeedka.
+Xiridda waxay ku xiran tahay heerarka amniga ee naqshadeynta iyo rakibidda. Nidaamka loo ogol yahay iyo qiyaasta cabirka iyo qiyaasta waxaa lagu qeexay sida ay u socoto xawaaraha socodka wareegga iyo awooda koronto ee hadda jira, iyadoo la xaddidayo xaaladaha degaanka, sida heerkulka heerkulka, heerarka qoyaanka, iyo soo-gaadhista qoraxda iyo kiimikooyinka.
+Qalabka ilaalinta wareegga wareegga ah, qalabka xakamaynta iyo qaybinta nidaamka dhismaha ee dhismaha waxay ku xiran yihiin farsamooyinka tamarta, hadda iyo shaqeynta. Xeerarka amniga ee kabaabinta waxay ku kala duwan yihiin deegaan, waddan ama gobol. Guddiga Caalamiga ah ee Farsamada Electrotechnical (IEC) ayaa isku dayaya in uu isuduwo heerarka xawaaraha ee wadamada xubnaha ka ah, laakiin isbeddellada weyn ee shuruudaha naqshadeynta iyo rakibida ayaa weli jira.
+
+{| class="wikitable" style="font-size:90%; width:auto; margin:0 0 1em;"
+|+ Standard{{efn|The colours in this table represent the most common and preferred standard colours for wiring; however others may be in use, especially in older installations.}} wire insulation colours
+|-
+! colspan="4" | Flexible cable (e.g., [[extension cord|extension]], power, and [[lamp cord|lamp]] cords)
+|-
+! Region or country
+! Phases
+! Neutral
+! Protective earth/ground
+|-
+| Argentina, European Union, South Africa ([[IEC 60446|IEC&nbsp;60446]]) || [[File:Color wire brown.svg|80px]] || [[File:Color wire blue.svg|80px]] || [[File:Color wire green yellow.svg|80px]]
+|-
+| Australia, New Zealand (AS/NZS 3000:2007 3.8.3) || [[File:Color wire brown.svg|80px]], [[File:Color wire red.svg|80px]] (previously) || [[File:Color wire light blue.svg|80px]], [[File:Color wire black.svg|80px]] (previously)|| [[File:Color wire green yellow.svg|80px]],<br/>[[File:Color wire green.svg|80px]] (previously)
+|-
+| Brazil || [[File:Color wire yellow.svg|80px]], [[File:Color wire red.svg|80px]] || [[File:Color wire blue.svg|80px]] || [[File:Color wire green.svg|80px]]
+|-
+| United States, Canada (120 V)|| [[File:Color wire black.svg|80px]] <br/>{{color box|#B5A642}} metallic brass || [[File:Color wire white.svg|80px]] <br/>{{color box|silver}} metallic silver || [[File:Color wire green.svg|80px]], [[File:Color wire green yellow.svg|80px]]; <br/>{{color box|green}}, <span style="border:1px solid black; background:green repeating-linear-gradient(-45deg,green,green 0.5em,yellow 0.5em,yellow 1em); text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;green/yellow striped
+|-
+| United States, Canada (240 V)<ref>For connection information, see https://en.wikipedia.org/wiki/NEMA_connector</ref>|| [[File:Color wire black.svg|80px]]  Line 1, [[File:Color wire red.svg|80px]]  Line 2 ||[[File:Color wire white.svg|80px]] <br/>(Needed only if 120 V also is required.) || [[File:Color wire green.svg|80px]], [[File:Color wire green yellow.svg|80px]]; <br/>{{color box|green}}, <span style="border:1px solid black; background:green repeating-linear-gradient(-45deg,green,green 0.5em,yellow 0.5em,yellow 1em); text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;green/yellow striped
+|-
+! colspan="4" | Fixed cable (e.g., in-, on-, or behind-the-wall cables)
+|-
+! Region or country
+! Phases
+! Neutral
+! Protective earth/ground
+|-
+| Argentina; China; European Union ([[IEC 60446|IEC&nbsp;60446]]) from April 2004; the United Kingdom from 31 March 2004 (BS&nbsp;7671); Hong Kong from July 2007; Singapore from March 2009; Russia since 2009 (GOST R 50462); Ukraine, Belarus, Kazakhstan
+
+|| [[File:Color wire brown.svg|80px]], [[File:Color wire black.svg|80px]], [[File:Color wire grey.svg|80px]] || [[File:Color wire blue.svg|80px]] || [[File:Color wire green yellow.svg|80px]]{{efn|name=sleeve|Cables may have an uninsulated PE which is sleeved with the appropriate identifying colours at both ends, especially in the UK.}}
+|-
+| India, Pakistan; United Kingdom, prior to 31 March 2004 (BS&nbsp;7671); Hong Kong, prior to 2009; Malaysia and Singapore, prior to February 2011 || [[File:Color wire red.svg|80px]], [[File:Color wire yellow.svg|80px]], [[File:Color wire blue.svg|80px]] || [[File:Color wire black.svg|80px]]
+| {{plain list|
+*[[File:Color wire green yellow.svg|80px]]{{efn|name=sleeve}}
+*[[File:Color wire green.svg|80px]] (previously)
+*[[File:Color wire bare copper.svg|80px]] no insulation (previously).  Sleeved at the ends.
+}}
+|-
+| Australia, New Zealand (AS/NZS 3000:2007 3.8.1, table 3.4) || {{plain list|
+* [[File:Color wire yellow.svg|80px]], [[File:Color wire light blue.svg|80px]],{{efn|name=ambig|Australian and New Zealand wiring standards allow both Australian and European colour codes. (However, TPS "Building Wire" to European colour codes is not generallay available in Australia and New Zealand.)   
+Australian-standard phase colours conflict with IEC 60446 colours, where IEC-60446 supported ''neutral'' colour (blue) is an allowed ''phase'' colour in the Australia/New Zealand standard.  Care must be taken when determining the system used in any existing wiring.}} [[File:Color wire black.svg|80px]], [[File:Color wire green yellow.svg|80px]], [[File:Color wire green.svg|80px]] prohibited; any other color permitted
+* [[File:Color wire red.svg|80px]], [[File:Color wire brown.svg|80px]] ''recommended'' for single phase
+* [[File:Color wire white.svg|80px]] ''used'' for "Switched Active"
+* [[File:Color wire red.svg|80px]], [[File:Color wire white.svg|80px]], [[File:Color wire blue.svg|80px]] ''recommended'' for multiphase
+}}
+|[[File:Color wire black.svg|80px]] [[File:Color wire light blue.svg|80px]] {{efn|name=ambig}} || [[File:Color wire green yellow.svg|80px]] (since about 1980 - Stranded Wire)<br/> [[File:Color wire green.svg|80px]] (since about 1966 - Stranded Wire)<br/>[[File:Color wire bare copper.svg|80px]] Stranded Wire - no insulation; sleeved at the ends (previously){{efn|The protective earth conductor is now separately insulated throughout all cables.}}
+|-
+| Brazil || [[File:Color wire yellow.svg|80px]], [[File:Color wire red.svg|80px]], [[File:Color wire black.svg|80px]], [[File:Color wire white.svg|80px]] || [[File:Color wire blue.svg|80px]] || [[File:Color wire green.svg|80px]]
+|-
+| South Africa || {{plain list|
+* [[File:Color wire red.svg|80px]], [[File:Color wire white.svg|80px]]; or
+* [[File:Color wire yellow.svg|80px]], [[File:Color wire blue.svg|80px]]
+}}
+| [[File:Color wire black.svg|80px]] || [[File:Color wire green yellow.svg|80px]]{{efn|name=sleeve}}
+|-
+| United States{{efn|name=noram|Canadian and American wiring practices are very similar, with ongoing harmonisation efforts.}} || [[File:Color wire black.svg|80px]], [[File:Color wire red.svg|80px]], [[File:Color wire blue.svg|80px]] for 120, 208, or 240&nbsp;V<br/> [[File:Color wire brown.svg|80px]], [[File:Color wire orange.svg|80px]], [[File:Color wire yellow.svg|80px]] for 277, or 480&nbsp;V<br/> {{color box|#B5A642}} metallic brass || [[File:Color wire white.svg|80px]] for 120, 208, or 240&nbsp;V <br/> [[File:Color wire grey.svg|80px]] for 277, or 480&nbsp;V <br/>{{color box|silver}} metallic silver || [[File:Color wire green.svg|80px]] {{color box|green}}<br/>[[File:Color wire bare copper.svg|80px]] no insulation<br/> [[File:Color wire green yellow.svg|80px]] required for isolated systems
+|-
+| rowspan=2 | Canada<ref>{{cite book |date=2015 |title=C22.1-15—Canadian Electrical Code, Part I: Safety Standard for Electrical Installations |publisher=Canadian Standards Association |edition=23rd |isbn=978-1-77139-718-6 |page=Rules 4-038, 24-208(c) |nopp=y}}</ref>{{efn|name=noram}}
+| [[File:Color wire red.svg|80px]], [[File:Color wire black.svg|80px]] for single-phase systems<br/>[[File:Color wire red.svg|80px]], [[File:Color wire black.svg|80px]], [[File:Color wire blue.svg|80px]] for three-phase systems
+| rowspan=2 | [[File:Color wire white.svg|80px]], [[File:Color wire grey.svg|80px]]
+| [[File:Color wire green.svg|80px]], [[File:Color wire green yellow.svg|80px]] {{color box|green}}<br/>[[File:Color wire bare copper.svg|80px]] no insulation
+|-
+| [[File:Color wire orange.svg|80px]], [[File:Color wire brown.svg|80px]] for isolated single-phase systems <br/>[[File:Color wire orange.svg|80px]], [[File:Color wire brown.svg|80px]], [[File:Color wire yellow.svg|80px]] for isolated three-phase systems
+| [[File:Color wire green.svg|80px]], [[File:Color wire green yellow.svg|80px]] for isolated systems
+|-
+| colspan=4 | Boxes (e.g., {{color box|purple}} translucent purple) denote markings on wiring terminals.
+{{noteslist}}
+|}
+
+
+Maaddooyinka lagu xiro hababka korontada gudaha dhismayaasha way kala duwan yihiin iyadoo ku xiran:
+Isticmaalka isticmaalka iyo xaddiga baahida korontada ee wareegga
+Nooca deggenaanshaha iyo baaxadda dhismaha
+Xeerarka qaranka iyo kuwa maxaliga ah
+Deegaanka oo uu ku xiran yahay xargaha.
+Nidaamyada xarkaha ee hal guri oo qoys ama labo dabaq ah, tusaale ahaan, waa mid fudud, oo leh shuruudo hoose oo awood ah, isbeddel ku yimaada qaabdhismeedka dhismaha iyo qaabeynta, sida caadiga ah oo leh qallal qallalan, heer dhexdhexaad ah iyo xaalado deegaan aan qoonsad lahayn. Deegaanka ganacsiga fudud, isbedelka xiritaanka badanaa ayaa la filayaa, qalabka waaweyn waxaa lagu rakibayaa xaaladaha gaarka ah ee kuleylka ama qoyaanka. Warshadaha culus waxay leeyihiin shuruudo dheeraad ah oo ku xiran kabka, sida tamar gaaban iyo isbeddel sare, isbeddelada isbeddelka qalabka dhismaha, qalajinta, ama qoyaanka ama qulqulka qarxa. Meelaha ku shaqeeya gaasaska guban kara ama dareeraha, shuruuc gaar ah ayaa laga yaabaa in lagu maareeyo rakibidda iyo fiilooyinka qalabka korantada ee aagagga halista ah.
+Fiilooyinka iyo cabirrada ayaa lagu qiimeeyaa awoodda wareegga, heerkulka heerkulka iyo xaaladaha deegaanka (qoyaanka, iftiinka qorraxda, saliidda, kiimikooyinka) kuwaas oo loo isticmaali karo. Xadhig ama cable waxay leeyihiin fiilo (dhexdhexaad) iyo qiimeyn heerkulka ugu sarreeya ee korantada. Qadarka hadda xadhig ama xarig si ammaan ah u qaadi karaa waxay ku xiran tahay xaaladaha rakibida.
+Qiyaasaha caalamiga ah ee tikidhada heerarka caalamiga ah waxaa lagu bixiyaa IEC
