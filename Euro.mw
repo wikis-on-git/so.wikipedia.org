@@ -1,36 +1,193 @@
-[[File:Euro logo plus character.png|right|100px| ]]
-[[File:Euro accession Eurozone as single entity.svg|thumb|400px|Eurozone 2015]]
-[[File:Euro coins and banknotes.jpg|thumb|200px|Euro]]
+{{Infobox currency
+| currency_name = {{centre|Euro}}
+| currency_name_in_local = евро <small>([[Bulgarian language|Bulgarian]])</small>, ευρώ <small>([[Greek language|Greek]])</small>, euró <small>([[Hungarian language|Hungarian]])</small>, eoró <small>([[Irish language|Irish]])</small>, eiro <small>([[Latvian language|Latvian]])</small>, euras <small>([[Lithuanian language|Lithuanian]])</small>, ewro <small>([[Maltese language|Maltese]])</small>, evro <small>([[Slovene language|Slovene]])</small>
+| image_1 = File:Euro Series Banknotes.png{{!}}border
+| image_title_1 = Euro banknotes {{As of|2018|lc=y}}
+| iso_code = EUR
+| iso_number = 978
+| iso_exponent = 2
+|subunit_name_1 = [[cent (currency)|cent]]
+|plural = ''See [[Linguistic issues concerning the euro|Euro linguistic issues]]''
+|symbol = [[Euro sign|€]]
+| symbol_subunit_1 = [[cent sign|c]]
+|nickname = The single currency<ref>Official documents and legislation refer to the euro as "the single currency".<br> {{cite web| url = http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31997R1103:EN:HTML| title = Council Regulation (EC) No 1103/97 of 17 June 1997 on certain provisions relating to the introduction of the euro | accessdate =1 April 2009| date = 19 June 1997| work=Official Journal L 162, 19&nbsp;June 1997 P. 0001&nbsp;– 0003| publisher=European Communities}}<br>This term is sometimes adopted by the media ([https://www.google.com/search?q=%22the+single+currency%22 Google hits for the phrase)]</ref>, Fiber<ref>{{cite web| url = http://forexillustrated.com/currency-nicknames-secret-handshake-traders/}}</ref>
+{{Collapsible list
+|bullets = true
+|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = [[Linguistic issues concerning the euro|local names]]
+|Евро ([[Bulgarian language|Bulgarian]])
+|Eυρώ ([[Greek language|Greek]])
+|Euró ([[Hungarian language|Hungarian]])
+|Eiro ([[Latvian language|Latvian]])
+|Euras ([[Lithuanian language|Lithuanian]])
+|Ewro ([[Maltese language|Maltese]])
+|Evro ([[Slovenian language|Slovene]])
+}}
+| frequently_used_banknotes = [[5 euro note|€5]], [[10 euro note|€10]], [[20 euro note|€20]], [[50 euro note|€50]], [[100 euro note|€100]], [[200 euro note|€200]]
+| rarely_used_banknotes = [[500 euro note|€500]]<ref>{{cite web|url=https://www.ecb.europa.eu/press/pr/date/2016/html/pr160504.en.html|title=ECB ends production and issuance of €500 banknote|website=www.ecb.europa.eu}}</ref>  (production ended in 2018)
+|used_coins = [[1 euro cent coin|1c]], [[2 euro cent coin|2c]], [[5 euro cent coin|5c]], [[10 euro cent coin|10c]], [[20 euro cent coin|20c]], [[50 euro cent coin|50c]], [[1 euro coin|€1]], [[2 euro coin|€2]]
+|subunit_ratio_1 = 1/100
+|subunit_inline_note_1 = Actual usage [[Linguistic issues concerning the euro|varies depending on language]]
+|plural_subunit_1 = ''See article''
+|banknote_article = euro banknotes
+|coin_article = euro coins
+| using_countries =
+{{Collapsible list|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = {{flagicon|European Union}} [[Euro area|European Union (Euro area)]] (19)
+|{{Flag|Austria}}|{{Flag|Belgium|state}}|{{Flag|Cyprus}}<ref group="note">Except northern Cyprus that uses [[Turkish lira]]</ref>|{{Flag|Estonia}}|{{Flag|Finland}}|{{Flag|France}}<ref group="note">Including [[overseas department]]s</ref>|{{Flag|Germany}}|{{Flag|Greece}}|{{Flag|Ireland}}|{{Flag|Italy}}<ref group="note">Except [[Campione d'Italia]] that uses [[Swiss franc]].</ref>|{{Flag|Latvia}}|{{Flag|Lithuania}}|{{Flag|Luxembourg}}|{{Flag|Malta}}|{{Flag|Netherlands}}<ref group="note">Only the European part of the country is part of the EU and uses the euro. The [[Caribbean Netherlands]] introduced the [[United States dollar]] in 2011. [[Curaçao]], [[Sint Maarten]] and [[Aruba]] have their own currencies, which are pegged to the dollar.</ref>|{{Flag|Portugal}}|{{Flag|Slovakia}}|{{Flag|Slovenia}}|{{Flag|Spain}}
+}}
+{{Collapsible list|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = Monetary agreement (9)
+|{{Flag|Andorra}}<ref group="note">{{cite journal|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2011:369:0001:0013:EN:PDF|title=Monetary Agreement between the European Union and the Principality of Andorra|date=17 December 2011|accessdate=2012-09-08|journal=[[Official Journal of the European Union]]}}</ref>
+|{{Flag|Monaco}}<ref group="note">{{cite web|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:142:0059:0073:EN:PDF |title=By monetary agreement between France (acting for the EC) and Monaco |accessdate=30 May 2010}}</ref>
+|{{Flag|San Marino}}<ref group="note">{{cite web|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2001:209:0001:0004:EN:PDF |title=By monetary agreement between Italy (acting for the EC) and San Marino |accessdate=30 May 2010}}</ref>
+|{{Flag|Vatican City}}<ref group="note">{{cite web|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2001:299:0001:0004:EN:PDF |title=By monetary agreement between Italy (acting for the EC) and Vatican City |accessdate=30 May 2010}}</ref>
+|{{flagicon|GBR}} [[Akrotiri and Dhekelia]] <small>(United Kingdom)</small><ref group="note">{{cite web|url=http://www.sba.mod.uk/SBA%20Legislation/Ord%202007/Euro%20Ordinance%202007.pdf |title=By the third protocol to the Cyprus adhesion Treaty to EU and British local ordinance|format=PDF |accessdate=17 July 2011}}</ref>
+|{{flagicon|FRA}} [[Clipperton Island]] <small>(France)</small>
+|{{flagicon|FRA}} [[Saint Barthélemy]] <small>(France)</small>
+|{{flagicon|FRA}} [[French Southern and Antarctic Lands]] <small>(France)</small>
+|{{flagicon|SPM|local}} [[Saint Pierre and Miquelon]] <small>(France)</small><ref group="note">{{cite web|url=http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:1999:030:0029:0030:EN:PDF |title=By agreement of the EU Council |accessdate=30 May 2010}}</ref>
+}}
+| unofficial_users =
+{{Collapsible list|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = [[International status and usage of the euro#Unilateral adopters|Unilateral adoption]] (2)
+|{{Flag|Kosovo}}<ref group="note">{{cite web|url=http://www.unmikonline.org/regulations/admdirect/1999/089%20Final%20%20ADE%201999-02.htm |title=By UNMIK administration direction 1999/2 |publisher=Unmikonline.org |accessdate=30 May 2010 |deadurl=yes |archiveurl=https://web.archive.org/web/20110607234444/http://www.unmikonline.org/regulations/admdirect/1999/089%20Final%20%20ADE%201999-02.htm |archivedate=7 June 2011 |df=dmy }}</ref>
+|{{Flag|Montenegro}}<ref group="note">See [[Montenegro and the euro]]</ref>
+}}
+{{Collapsible list|titlestyle = font-weight:normal; background:transparent; text-align:left;
+| title = [[International status and usage of the euro#Usage in states with another official currency|Other partial users]] (4)
+|{{Flag|Iran}} (official reporting currency)<ref>{{cite web|url=https://www.reuters.com/article/us-iran-currency-euro/iran-switches-from-dollar-to-euro-for-official-reporting-currency-idUSKBN1HP25W|title=Iran switches from dollar to euro for official reporting currency|publisher=Reuters|accessdate=18 April 2018}}</ref>
+|{{Flag|Northern Cyprus}}<ref>{{cite web|url=http://news.bbc.co.uk/2/hi/europe/7165622.stm|title=Euro is widely used alongside Turkish Lira|publisher=BBC News|accessdate=29 May 2014}}</ref><ref>{{cite web|url=https://www.telegraph.co.uk/travel/destinations/europe/cyprus/9175684/Cyprus-a-true-experience-in-north-and-south.html|title=Most places in North Cyprus will accept euros|publisher=Telegraph|accessdate=29 May 2014}}</ref>
+|{{Flag|Switzerland}}<ref>{{citeweb|url=https://www.myswissalps.com/swissfranc|title= Swiss franc and the euro|access date=2018}} Many places (restaurants, shops, hotels and public transportation) accept and use euro</ref>
+|{{flag|Zimbabwe}}<ref>{{cite web|url=http://uselessk.com/facts/in-zimbabwe-there-are-nine-official-currencies-amongst-others-the-euro-and-the-us-dollar|title=In Zimbabwe there are nine currencies, amongst others the euro and the US dollar|publisher=uselessk.com|accessdate=29 May 2014}}</ref><ref>{{cite web|url=http://www.geocurrents.info/geonotes/and-the-currency-of-zimbabwe-is|title=Currently, the South African rand, Botswana pula, pound sterling, euro, and the United States dollar are all in use|publisher=geocurrents.info|accessdate=29 May 2014}}</ref>
+[[Single Euro Payments Area|SEPA]]:
+|{{flag|Bulgaria}}
+|{{flag|Croatia}}
+|{{flag|Czech Republic}}
+|{{flag|Denmark}}
+|{{flag|Hungary}}
+|{{flag|Iceland}}
+|{{flag|Liechtenstein}}
+|{{flag|Norway}}
+|{{flag|Poland}}
+|{{flag|Romania}}
+|{{flag|Sweden}}
+|{{flag|Switzerland}}
+|{{flag|United Kingdom}}
+}}
+|issuing_authority = [[European Central Bank]]
+|issuing_authority_website = {{URL|www.ecb.europa.eu}}
+|printer = {{Collapsible list
+|bullets = true
+|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = Several
+|frame_style = border:none; padding: 0;
+|[[Istituto Poligrafico e Zecca dello Stato]]
+|[[Banco de Portugal]]
+|[[Bank of Greece]]
+|[[Banque de France]]
+|[[Bundesdruckerei]]
+|[[Central Bank of Ireland]]
+|[[De La Rue]]
+|[[Fábrica Nacional de Moneda y Timbre]]
+|[[François-Charles Oberthur]]
+|[[Giesecke & Devrient]]
+|[[Joh. Enschedé|Royal Joh. Enschedé]]
+|[[National Bank of Belgium]]
+|[[Österreichische Banknoten- und Sicherheitsdruck GmbH]]
+|[[Setec (Company of Finland)|Setec Oy]]
+}}
+|printer_website = {{Collapsible list
+|bullets = true
+|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = Several
+|frame_style = border:none; padding: 0;
+|[http://www.ipzs.it/ Istituto Poligrafico e Zecca dello Stato]
+|[http://www.bportugal.pt/ Banco de Portugal&nbsp;– Imprensa Nacional / Casa da Moeda]
+|[http://www.bankofgreece.gr/ Bank of Greece]
+|[http://www.banque-france.fr/ Banque de France]
+|[http://www.bundesdruckerei.de/ Bundesdruckerei]
+|[http://www.centralbank.ie/ Central Bank and Financial Services Authority of Ireland]
+|[http://www.delarue.com/ De La Rue]
+|[http://www.fnmt.es/ Fábrica Nacional de Moneda y Timbre]
+|[http://www.oberthur.com/ François-Charles Oberthur]
+|[http://www.gi-de.com/ Giesecke & Devrient]
+|[http://www.joh-enschede.nl/ Royal Joh. Enschedé]
+|[http://www.nbb.be/ National Bank of Belgium]
+|[http://www.oebs.at/ Oesterreichische Banknoten- und Sicherheitsdruck GmbH]
+|[http://www.setec.com/ Setec Oy]
+}}
+|mint = {{Collapsible list
+|bullets = true
+|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = Several
+|frame_style = border:none; padding: 0;
+|[[Bayerisches Hauptmünzamt]], Munich ([[Mint mark]]: D)
+|[[Currency Centre]]
+|[[Fábrica Nacional de Moneda y Timbre]]
+|[[Hamburgische Münze]] (J)
+|[[Imprensa Nacional Casa da Moeda]] SA
+|[[Istituto Poligrafico e Zecca dello Stato]]
+|[[Koninklijke Nederlandse Munt]]
+|[[Koninklijke Munt van België/Monnaie Royale de Belgique]]
+|[[Kremnica mint|Mincovňa Kremnica]]
+|[[Monnaie de Paris]]
+|[[Münze Österreich]]
+|[[Rahapaja Oy|Rahapaja Oy/Myntverket i Finland Ab]]
+|[[Staatliche Münze Berlin]] (A)
+|[[Staatliche Münze Karlsruhe]] (G)
+|[[Staatliche Münze Stuttgart]] (F)
+|[[Lithuanian Mint]]
+}}
+|mint_website = {{Collapsible list
+|bullets = true
+|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = Several
+|frame_style = border:none; padding: 0;
+|[http://www.hma.bayern.de/ Munich mint]
+|[http://www.riai.ie/ Currency Centre]
+|[http://www.fnmt.es/en/home Fábrica Nacional de Moneda y Timbre]
+|[http://www.muenzehamburg.de/ Hamburg mint]
+|[http://www.incm.pt/ Imprensa Nacional&nbsp;– Casa da Moeda SA]
+|[http://www.ipzs.it/ Istituto Poligrafico e Zecca dello Stato]
+|[http://nl.knm.nl/ Koninklijke Nederlandse Munt]{{dead link|date=July 2016 |bot=InternetArchiveBot |fix-attempted=yes }}
+|[http://www.mint.sk/index.php?lang=en Mincovňa Kremnica]
+|[http://www.monnaieroyaledebelgique.be/ Koninklijke Munt van België/Monnaie Royale de Belgique]
+|[http://www.monnaiedeparis.com/ Monnaie de Paris]
+|[http://austrian-mint.at/ Münze Österreich]
+|[http://www.suomenrahapaja.fi/eng/ Rahapaja Oy/Myntverket i Finland Ab]
+|[http://www.muenze-berlin.de/ Berlin mint]
+|[http://www.staatlichemuenzenbw.de/ Karlsruhe-Stuttgart mints]
+|[http://kalykla.lt/ Lithuanian mint]
+}}
+|inflation_rate =  2.0% (2018)
+|pegged_by = {{Collapsible list|titlestyle = font-weight:normal; background:transparent; text-align:left;
+|title = [[International status and usage of the euro#Pegged currencies|12 currencies]]
+|frame_style = border:none; padding: 0;
+|{{Flagicon|Belarus}} [[Belarusian ruble]]<ref>The Belarusian ruble is pegged to the euro, Russian ruble and US$ in a currency basket.</ref>
+|{{Flagicon|Bosnia and Herzegovina}} [[Bosnia and Herzegovina convertible mark|Bosnia & Herz. convertible mark]]
+|{{Flagicon|Bulgaria}} [[Bulgarian lev]]
+|{{Flagicon|Cape Verde}} [[Cape Verdean escudo]]
+|[[Central African CFA franc]]
+|[[CFP franc]]
+|{{Flagicon|Comoros}} [[Comorian franc]]
+|{{Flagicon|Denmark}} [[Danish krone]] (±2.25%)
+|{{Flagicon|Macedonia}} [[Macedonian denar]]<ref>{{cite web|last=Cardoso|first=Paulo|title=Interview&nbsp;– Governor of the National Bank of Macedonia&nbsp;– Dimitar Bogov|url=http://www.the-american-times.com/american-times-governor-national-bank-macedonia-dimitar-bogov/2013/10/05|work=The American Times United States Emerging Economies Report (USEER Report)|publisher=Hazlehurst Media SA|accessdate=8 September 2013}}</ref>
+|{{Flagicon|Morocco}} [[Moroccan dirham]]
+|{{Flagicon|São Tomé and Príncipe}} [[São Tomé and Príncipe dobra]]
+|[[West African CFA franc]]
+}}
+|inflation_source_date = [https://www.ecb.europa.eu/stats/macroeconomic_and_sectoral/hicp/html/inflation.en.html?hasFlash=true& ecb.europa.eu]
+|inflation_method = [[Harmonised Index of Consumer Prices|HICP]]
+|printer_override_with_original_text = Y
+|mint_override_with_original_text = Y
+}}
 
-'''Euro''' (EUR) : 1 € = 100 cents.
 
-[[Lacagta]]:
-# [[Austriya]]
-# [[Ireland]]
-# [[Beljim]]
-# [[Jasiirada Qabrus]]
-# [[Isbania]]
-# [[Faransiiska]]
-# [[Finland]]
-# [[Giriig]]
-# [[Islofaakiya]]
-# [[Isloveeniya]]
-# [[Jarmal]]
-# [[Luksemburg]]
-# [[Malta]]
-# [[Holland]]
-# [[Bortuqaal]]
-# [[Talyaaniga]]
-# [[Estoniya]]
-# [[Latfiya]]
-# [[Lithuaniya]]
+Euro (calaamad: €; code: EUR) waa lacagta rasmiga ah ee Midowga Yurub. Waqtiga hadda, 19 ka mid ah 28 dawladood ee xubin ka ah ayaa isticmaala euro; kooxdan dawlad-goboleedyada waxaa loo yaqaanaa aagga euro. Waa lacagta labaad ee ugu sarraysa suuqa sarrifka lacagaha qalaad kadib markii dollarka Maraykanka ah [12] Euro waxaa loo qaybiyaa 100 senti.
+Lacagta ayaa sidoo kale si rasmi ah u isticmaasha hay'adaha Midowga Yurub iyo afar dal oo Yurub ah, iyo sidoo kale iyada oo aan si toos ah looga helin laba qof kale, waxaana markaa loo isticmaalaa maalin walba by 343 milyan oo Yurub ah ilaa 2018. [13] Qaar ka mid ah Yurub, tiro ka mid ah dhulalka dibadda ee xubnaha ka tirsan Midowga Yurub ayaa sidoo kale isticmaala euro sida lacagta. Intaa waxaa dheer, 290 milyan oo qof oo dunida oo dhan ah sida 2018 waxay isticmaalaan lacagaha lacagta euro-da.
+Euro waa lacagta labaad ee ugu weyn ee ugu weyn iyo sidoo kale lacagta labaad ee ugu caansan adduunka ka dib marka loo eego US dollar. [14] [15] [16] Laga soo bilaabo Janaayo 2017, oo ka badan € 1.1 trillion oo wareeg ah, euro wuxuu leeyahay mid ka mid ah qiimaha ugu sarreeya ee lacagaha iyo baaqyada wareega adduunka, oo ka sarre maray maraykanka. [17] [note 13]
+Magaca euro waxaa si rasmi ah loo ansixiyay 16 December 1995 magaalada Madrid. Euro waxaa loo soo bandhigay suuqyada maaliyadeedka aduunka sida lacagta lagu xisaabtamayo 1 Janaayo 1999, taas oo bedeshay Qaybta Lacagta hore ee Yurub (ECU) marka loo eego 1: 1 (US $ 1,1743). Qaddarka lacagta euro-da iyo lacagta warqadaha lacagta ayaa la geliyay wareegga 1-da Janaayo 2002, taas oo ka dhigtay lacagtii howl-maalmeedka ee xubnihii asalka ahaa, illaa May 2002-kii waxay gabi ahaanba beddeleen lacagihii hore. [19] Inkastoo euro uu hoos u dhacay US $ 0.83 muddo 2 sano gudahood ah (26 Oktoobar 2000), wuxuu ka sarre maray dakhliga Maraykanka tan iyo dhamaadkii 2002, isagoo ka helay US $ 1.60 18 July 2008.
 
 
-== See also ==
-* [[Dollar]] (USD)
-
-== Linkiga Caddaynta ==
-* {{cite web|url=http://www.bis-ans-ende-der-welt.net/Europa-B-En.htm|title=Euro|accessdate=2017-11-10|editor=Heiko Otto|language=en,de}} {{en icon}}
-
-[[Category:Yurub]]
-[[Category:Lacagta]]
+==sido kale fiiri==
