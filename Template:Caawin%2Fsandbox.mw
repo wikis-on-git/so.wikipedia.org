@@ -1,0 +1,27 @@
+{{anchor|Help me}}<!-- Permits linking directly to the tag using [[PAGENAME#Help me]]
+-->{{namespace detect
+| talk = 
+  {{tmbox
+  | type  = style
+  | image = [[Image:Emblem-question-yellow.svg|60px]]
+  | text  = 
+<b style="font-size: larger;">Ma u baahan tahay Caawin?</b> <br /> Su'aashaada hoos ku qor. Waxaad sidoo kale fiirin kartaa [[Help:Contents|Cutubyada Caawinta]], ama weeydii [[Wikipedia:Maamulka|Maamulka]] ama la xidhiidh [[Special:ActiveUsers|Isticmaalayaasha joogtada]] ah.<br />Isticmaalayaasha fiiriya category [[:Category:Caawin|dadka caawinta u baahan]] iyo kuwa kale ee ku shaqo leh caawinta iyo soo dhawaynta ayaa waxay helayaan ogaysiin ah in qof caawin u baahan yahay. Mararka qaar waxaa laga yaaba in lagaa habsaamo sababto ah dadku waa iska mashquul inta badan, fadlan dulqaado waa lagu caawin sida ugu dhakhsaha badan.<br /><small><span style="color: gray;">Xasuusin kuwa wax caawinaya: Marka aad caawinta dhamaystirto, fadlan templateka meesha ka saar adiga oo ku qoraaya {{Tl|Tl}} ama wax la mid ah, sidoo kale qoraalka ku bedel {{Tlp|Caawin la-caawiyay}}, ama <nowiki>{{Caawin|su'aal}}</nowiki> ayaad isticmaali kartaa, iyo {{Tl|Tlp}}/{{Tl|Tnull}}</small></span>
+  }}{{#ifeq: {{{clear}}} | yes |  | {{{category|[[Category:Caawin|{{PAGENAME}}]]}}} }}
+
+| other = <!--
+Show a rather more prominent notice when this template is used on the wrong kind of pages:
+-->{{tmbox
+  | type  = content
+  | image = [[Image:Emblem-important.svg|60px]]
+  | text  = 
+'''Waxay u muuqataa in template-ka ({{Tlx|Caawin}}) aad ku isticmaalayso meel aan ahayn boga wadahadalka. Fadlan ka saar templatekan si qoraalku meesha uga baxo.'''
+
+Template-kan waxaa loogu talogalay in lagu isticmaalo [[Wikipedia:Bogga wadahadalka|boga wadahalka]] oo kali ah.  Boga wadahalka adiga kuu gaarka ah [[Special:MyTalk|halkan]] ayaad ka heli kartaa.  Hadii templatekan caawin aad meel khaldan ku  qortay, fadlan ka saar halkaas oo geli [[Special:MyTalk|boga wadahadalkaaga]].  Hadii adigu aanad templatekan codsan, fadlan ka saar meesha si qoraalku u masaxmo. 
+  }}
+
+| demospace = {{{demospace|  }}}   <!--For testing. And fall-back to "talk" when on this template page.-->
+}}<!-- 
+For backwards compatibility if the question is fed as a parameter, show the question below this message box:
+-->{{#if: {{{helptext|}}} {{{1|}}}
+| {{{helptext| {{Trim|{{{1|}}} }} }}} <br />   <!--Yes, the <br /> tag should come after, not a mistake-->
+}}
