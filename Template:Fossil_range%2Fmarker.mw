@@ -4,8 +4,4 @@
 |<!--else-->
 {{#if:{{{3|}}}||<div style="position:absolute; left:{{#expr:(650-{{{1}}})/650*220}}px; font-size:50%"><!--contains arrow--><div style="position:relative; left:-0.42em"><!--nudges back left-->&darr;</div></div>}}
 }}</onlyinclude></includeonly><noinclude>
-[[ar:قالب:Fossil range/marker]]
-[[id:Templat:Rentang fosil/marka]]
-[[la:Formula:Fossil range/marker]]
-[[pl:Szablon:Okres istnienia grupy organizmów 2/znacznik]]
 [[Category:Template implementation details|{{PAGENAME}}]]</noinclude>
