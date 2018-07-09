@@ -284,3 +284,17 @@ So far, we have [[mw:Reading/Web/Projects/Mobile Page Issues|drafted a proposal 
 Our next step would be to start implementing these changes. We wanted to reach out to you for any concerns, thoughts, and suggestions you might have before beginning development. Please [[mw:Reading/Web/Projects/Mobile Page Issues|visit the project page]] where we have more information and mockups of how this may look. Please [[mw:Talk:Reading/Web/Projects/Mobile Page Issues|leave feedback on the talk page]]. 
 </div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 20:58, 12 Juun 2018 (UTC)
 <!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Sandbox&oldid=18120916 -->
+
+== Consultation on the creation of a separate user group for editing sitewide CSS/JS ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''({{int:please-translate}})''
+
+Hi all,
+
+I'm preparing a change in who can edit sitewide CSS/JS pages. (These are pages like <code dir="ltr">MediaWiki:Common.css</code> and <code dir="ltr">MediaWiki:Vector.js</code> which are executed in the browser of all readers and editors.) Currently all administrators are able to edit these pages, which poses a serious and unnecessary security risk. Soon, a dedicated, smaller user group will take over this task. Your community will be able to decide who belongs in this group, so this should mean very little change for you. You can find out more and provide feedback at [[m:Special:MyLanguage/Creation of separate user group for editing sitewide CSS/JS|the consultation page on Meta]]. If you are involved in maintaining CSS/JS code, or policymaking around adminship requests, please give it a look!
+
+Thanks!
+<br/><span dir="ltr">[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 10:50, 9 Luuliyo 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small></span>
+</div>
+<!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=18158890 -->
