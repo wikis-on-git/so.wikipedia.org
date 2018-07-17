@@ -1,8 +1,93 @@
-{{Coord|59|N|26|E|type:country_scale:9000000_region:EE|display=title}}
-[[File:EU-Estonia.svg|thumb|Estoniya]]
-[[File:Flag_of_Estonia.svg|thumb|]]
-'''Estoniya''' (et: '''Eesti''') ama (dhulka bariga) waa wadan ku yaalo woqooyiga [[Yurub]].
 
+{{Infobox country
+| conventional_long_name = Republic of Estonia
+| common_name = Estonia
+| native_name = {{native name|et|Eesti Vabariik}}
+| image_flag = Flag of Estonia.svg
+| image_coat = Coat of arms of Estonia.svg
+| national_anthem = {{unbulleted list
+ |"[[Mu isamaa, mu õnn ja rõõm]]"
+ |({{Lang-en|"My Fatherland, My Happiness and Joy"}})
+ |<center>[[File:US Navy band - National anthem of Estonia.ogg|alt=sound file of Estonian National anthem]]</center>
+}}
+| image_map = EU-Estonia.svg
+| map_caption = {{map_caption |location_color=dark green |region=Europe |region_color= grey |subregion=the [[European Union]] |subregion_color=green|legend=EU-Estonia.svg}}
+| capital = [[Tallinn]]
+| coordinates = {{Coord|59|25|N|24|45|E|type:city}}
+| largest_city = capital
+| official_languages = [[Estonian language|Estonian]]
+| ethnic_groups = {{ublist |item_style=white-space:nowrap; |68.7% [[Estonians]] |24.9% [[Russians]] |1.8% [[Ukrainians]] |0.9% [[Belarusians]] |0.6% [[Finns]] |3.1% others}}
+| ethnic_groups_year = 2018<ref>{{cite web|url=http://pub.stat.ee/px-web.2001/Dialog/varval.asp?ma=PO0222U&ti=POPULATION+BY+SEX%2C+ETHNIC+NATIONALITY+AND+COUNTY%2C+1+JANUARY%2E+ADMINISTRATIVE+DIVISION+AS+AT+01%2E01%2E2018&path=../I_Databas/Population/01Population_indicators_and_composition/04Population_figure_and_composition/&lang=1|title=POPULATION BY SEX, ETHNIC NATIONALITY AND COUNTY, 1 JANUARY. ADMINISTRATIVE DIVISION|website=stat.ee}}</ref>
+| demonym = Estonian
+| government_type = [[Unitary state|Unitary]] [[Parliamentary system|parliamentary]] [[republic]]
+| leader_title1 = [[President of Estonia|President]]
+| leader_name1 = {{nowrap|[[Kersti Kaljulaid]]}}
+| leader_title2 = [[Prime Minister of Estonia|Prime Minister]]
+| leader_name2 = [[Jüri Ratas]]
+| legislature = ''[[Riigikogu]]''
+| sovereignty_type = [[History of Estonia|Independence]]
+| established_event1 = {{nowrap|[[Autonomous Governorate of Estonia|Autonomy declared]]}}
+| established_date1 = 12 April 1917
+| established_event2 = {{nowrap|[[Estonian Declaration of Independence|Independence declared]]}}
+| established_date2 = {{nowrap|24 February 1918}}
+| established_event3 = {{nowrap|[[Treaty of Tartu (Russian–Estonian)|Independence recognised]]}}
+| established_date3 = 2 February 1920
+| established_event4 = [[Occupation of the Baltic states|Soviet and German occupations]]
+| established_date4 = 1940–1991
+| established_event5 = {{nowrap|[[Restoration of Estonia|Independence restored]]}}
+| established_date5 = 20 August 1991
+| established_event6 = {{nowrap|[[2004 enlargement of the European Union|Joined]] the [[European Union]]}}
+| established_date6 = 1 May 2004
+| area_km2 = 45,227<ref>{{cite web |url=https://www.stat.ee/publication-download-pdf?publication_id=44619 |title=Minifacts About Estonia 2017 |accessdate=19 July 2017}}</ref>
+| area_rank = 129th<sup>d</sup>
+| area_sq_mi = 17,462<!--Do not remove per [[WP:MOSNUM]]-->
+| percent_water = 4.45%
+| population_estimate = {{increase}} 1,319,133<ref>{{cite web |url=https://www.stat.ee/news-release-2018-050 |date=4 January 2018 |accessdate=1 January 2018}} (Estimate as of 1 January 2018)</ref>
+| population_census = 1,294,455<ref>{{cite web|title=PHC 2011 RESULTS|url=http://www.stat.ee/phc2011|publisher=Statistics Estonia|accessdate=26 January 2016}}</ref>
+| population_estimate_year = 2018
+| population_estimate_rank = 151st
+| population_census_year = 2011
+| population_density_km2 = 28
+| population_density_sq_mi = 75 <!--Do not remove per [[WP:MOSNUM]]-->
+| population_density_rank = 188th
+| GDP_PPP = $44.177&nbsp;billion<ref name=imf2>{{cite web |url=http://www.imf.org/external/pubs/ft/weo/2018/01/weodata/weorept.aspx?pr.x=60&pr.y=17&sy=2018&ey=2023&scsm=1&ssd=1&sort=country&ds=.&br=1&c=939&s=NGDPD%2CPPPGDP%2CNGDPDPC%2CPPPPC&grp=0&a=|title=Estonia |publisher=International Monetary Fund}}</ref>
+| GDP_PPP_year = 2018
+| GDP_PPP_rank = 
+| GDP_PPP_per_capita = $33,842<ref name=imf2/>
+| GDP_PPP_per_capita_rank = 43rd
+| GDP_nominal = $30.821&nbsp;billion<ref name=imf2/>
+| GDP_nominal_year = 2018
+| GDP_nominal_rank = 
+| GDP_nominal_per_capita = $23,610<ref name=imf2/>
+| GDP_nominal_per_capita_rank = 40th
+| Gini = 32.7 <!-- number only -->
+| Gini_year = 2016
+| Gini_change = increase <!--increase/decrease/steady-->
+| Gini_ref = <ref name=eurogini>{{cite web|title=Gini coefficient of equivalised disposable income (source: SILC)|url=http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=ilc_di12|publisher=Eurostat Data Explorer|accessdate=5 January 2014}}</ref>
+| Gini_rank = 
+| HDI = 0.865 <!-- number only -->
+| HDI_year = 2015<!-- Please use the year to which the data refers, not the publication year-->
+| HDI_change = increase <!--increase/decrease/steady-->
+| HDI_ref = <ref name="HDI">{{cite web |url=http://hdr.undp.org/sites/default/files/hdr_2015_statistical_annex.pdf|title=2015 Human Development Report |year=2015 |accessdate=14 December 2015 |publisher=United Nations Development Programme}}</ref>
+| HDI_rank = 30th
+| currency = [[Euro]] ([[Euro sign|€]])
+| currency_code = EUR
+| time_zone = [[Eastern European Time|EET]]
+| utc_offset = +2
+| utc_offset_DST = +3
+| time_zone_DST = [[Eastern European Summer Time|EEST]]
+| drives_on = right
+| calling_code = [[Telephone numbers in Estonia|+372]]
+| cctld = [[.ee]]<sup>e</sup>
+| footnote_b = According to the [[Constitution of Estonia|Constitution]], Estonian is the sole official language.<ref>[http://www.president.ee/en/republic-of-estonia/the-constitution/index.html#1 Constitution of the Republic of Estonia], 6th article</ref> In [[Võrumaa|southern counties]], [[Võro language|Võro]] and [[Seto language|Seto]] are spoken along with it. Russian is spoken in parts of [[Ida-Virumaa]] and Tallinn.
+| footnote_c = Including 5.4% [[Võros]] and 0.93% [[Setos]].{{big|<ref>[http://www.postimees.ee/906060/vorokesed-ees-setod-jarel Võrokesed ees, setod järel]. postimees.ee (13 July 2012).</ref>}}
+| footnote_d = {{convert|47549|km²|0|abbr=on}} were defined according to the [[Treaty of Tartu (Russian–Estonian)|Treaty of Tartu]] in 1920 between Estonia and Russia. Today, the remaining {{convert|2323|km²|0|abbr=on}} are part of Russia. The ceded areas include most of the former [[Petseri County]] and areas behind the [[Narva river]] including [[Ivangorod]] (Jaanilinn).{{big|<ref>[[Territorial changes of the Baltic states#Actual territorial changes after World War II|Territorial changes of the Baltic states]] Soviet territorial changes against Estonia after World War II</ref>}} [[Pechory]] remains under Russian administration.
+| footnote_e = Also [[.eu]], shared with other member states of the European Union.
+}}
+
+
+Estonia (Estonian: Eesti [eːsti] (ku saabsan codkan maqal)), si rasmi ah Jamhuuriyadda Estonia (Estonian: Eesti Vabariik), waa waddan madax bannaan Waqooyiga Yurub. Woqooyi waxaa ka xigta dhinaca Gacanka Finland ee ku taal Finland dhinaca galbeed ee badda Galbeedka Badda Galbeedka ee Iswiidhan galbeed, koonfurta waddanka Latvia (343 KM), iyo dhinaca bari ee Lake Peipus iyo Ruushka (338.6 km). [11] Jasiiradda Estonia waxay ka kooban tahay dhul baaxad leh iyo 2,222 jasiiradaha badda ee Badda Galbeed, [12] oo daboolaya guud ahaan 45,227 km2 (17,462 sq mi), biyaha 2,839 km2 (1,096 sq mi), dhul dhulka 42,388 km2 (16,366 sq mi) , waxaana saameyn ku leh cimilada hawada ee qoyan. Ethnic Ethnic - waa koox qowmiyadeed oo ugu weyn dalka - waa dad finni ah.
+Xuduudda Estonia ayaa la degay tan iyo ugu yaraan 9000 BC. Estooniyaanka hore waxay ahaayeen qaar ka mid ah kuwii ugu dambeeyay ee Yurubta ah, waxaana lagu qaxay xilligii kacdoonkii qarnigii 13aad. Ka dib qarniyo badan oo jarmal ah, Danish, Swedish iyo xukunka Ruushka, Estoniyan waxay la kulmeen waxa loo yaqaan "awooda qaranka" 19-aad iyo qarnigii 20-aad. 24kii Febraayo 1918, madaxbannaanidu waa la dhawaaqay, kadibna waxaa loo xaqiijiyey dagaalkii dagaalkii. Ka dib markii xukunka dimoqraadiyadeed laga soo bilaabo 1918 ilaa 1934, Estonia waxay noqotay autocratic intii lagu jiray Era Silence. Intii lagu guda jiray dagaalkii labaad ee dunida, Estonia waxay la kulantay shaqooyin isdaba joog ah oo ay qabsadeen Midawga Soofiyeeti, Nazi Jarmalka, iyo Midowga Soofiyeeti, taasoo keentay in dib loo dhigo sida Estonian SSR. Ka dib markii la waayay xornimadeeda xaqiiqda ah, joogteynta joogtada ah ee waddanka Estonia waxaa ilaaliyay diblomaasiyiin iyo xukuumad dibedda. Sannadkii 1987, xukunkii nabada ee nabadgelyo ee ka soo horjeeda xukunka Soofiyeedka ayaa bilaabmay, isaga oo ku dhammaaday dib u soo celinta madaxbanaanida 20kii Agoosto 1991. Tan iyo markii dib loo soo celiyay xorriyaddiisa, Estonia waxay ahayd waddan dimoqraadi ah oo diimuqraadiyad ah oo u qaybsan shan iyo toban gobol. Magaalada caasimada ah iyo magaalada ugu weyn waa Tallinn. Iyadoo dadweynaha 1.3 milyan, ay ka mid tahay dalalka ugu yar ee ka mid ah Midowga Yurub, Eurozone, Isuduwidda Dhaqaalaha iyo Horumarinta, Aagga Schengen iyo NATO.
 
 
 
