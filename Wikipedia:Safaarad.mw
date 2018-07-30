@@ -620,3 +620,24 @@ Do better research and help expand the use of high quality references across Wik
 Global preferences are now available, you can set them by visiting your new [[Special:GlobalPreferences|global preferences page]]. Visit [[mw:Help:Extension:GlobalPreferences|mediawiki.org for information on how to use them]] and [[mw:Help talk:Extension:GlobalPreferences|leave feedback]]. -- [[User:Keegan (WMF)|Keegan (WMF)]] ([[m:User talk:Keegan (WMF)|talk]])
 </div> 19:19, 10 Luuliyo 2018 (UTC)
 <!-- Message sent by User:Keegan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=17968247 -->
+
+== New user group for editing sitewide CSS / JS ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''({{int:please-translate}})''
+
+Hi all!
+
+To improve the security of our readers and editors, permission handling for CSS/JS pages has changed. (These are pages like <code dir="ltr">MediaWiki:Common.css</code> and <code dir="ltr">MediaWiki:Vector.js</code> which contain code that is executed in the browsers of users of the site.)
+A new user group, <code dir="ltr">[[m:Special:MyLanguage/Interface administrators|interface-admin]]</code>, has been created.
+Starting four weeks from now, only members of this group will be able edit CSS/JS pages that they do not own (that is, any page ending with <code dir="ltr">.css</code> or <code dir="ltr">.js</code> that is either in the <code dir="ltr">MediaWiki:</code> namespace or is another user's user subpage).
+
+You can learn more about the motivation behind the change [[m:Special:MyLanguage/Creation of separate user group for editing sitewide CSS/JS|here]].
+
+Please add users who need to edit CSS/JS to the new group (this can be done the same way new administrators are added, by stewards or local bureaucrats).
+This is a dangerous permission; a malicious user or a hacker taking over the account of a careless interface-admin can abuse it in far worse ways than admin permissions could be abused. Please only assign it to users who need it, who are trusted by the community, and who follow common basic password and computer security practices (use strong passwords, do not reuse passwords, use two-factor authentication if possible, do not install software of questionable origin on your machine, use antivirus software if that's a standard thing in your environment).
+
+Thanks!
+<br/><span dir="ltr">[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 17:45, 30 Luuliyo 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small></span>
+</div>
+<!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Tgr/massmessage-T139380-ifadmin&oldid=18255968 -->
