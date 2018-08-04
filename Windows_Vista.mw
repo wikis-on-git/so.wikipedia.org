@@ -1,4 +1,33 @@
-[[File:vista.png|500px|thumb|right|Windows Vista]]
+{{Use dmy dates|date=July 2018}}
+{{pp-vandalism|small=yes}}
+{{Use dmy dates | date=January 2016}}
+{{Infobox OS version
+| name = Windows Vista
+| version of = [[Windows NT]]
+| logo = Windows logo - 2006.svg
+| logo size = x64px
+| screenshot = Windows Vista.png
+| caption = Screenshot of Windows Vista Ultimate, showing its [[Desktop metaphor|desktop]], [[taskbar]], [[Start menu]], [[Windows Sidebar]], Welcome Center and glass effects of [[Windows Aero]]
+| developer = [[Microsoft]]
+| source_model = [[Closed source software|Closed source]] / [[Shared source]]<ref>{{cite web|url=http://www.microsoft.com/resources/sharedsource/windowslp.mspx|title=Windows Licensing Programs|publisher=[[Microsoft]]|accessdate=21 September 2008|date=June 2011|archive-url=https://web.archive.org/web/20081216125724/http://www.microsoft.com/resources/sharedsource/windowslp.mspx |archive-date=16 December 2008 }}</ref>
+| license = [[Proprietary software|Proprietary]] [[commercial software]]
+| supported_platforms = [[IA-32]] and [[x86-64]]
+| preceded_by = [[Windows XP]] (2001)
+| succeeded_by = [[Windows 7]] (2009)
+| kernel_type = [[Hybrid kernel|Hybrid]]
+| updatemodel = {{Plainlist|
+* [[Windows Update]] 
+* [[Windows Server Update Services]] (WSUS) 
+* [[System Center Configuration Manager]] (SCCM)
+}}
+| RTM_date = {{start date and age|df=yes|2006|11|8}}<ref name="WindowsVistaRTM">{{cite web |url=http://windowsvistablog.com/blogs/windowsvista/archive/2006/11/08/windows-vista-releases-to-manufacturing.aspx |title=Windows Vista releases to manufacturing |last=White |first=Nick |date=8 November 2006 |publisher=[[Microsoft]] |work=Windows Vista Team Blog |archiveurl=https://web.archive.org/web/20050809150421/http://www.windowsvista.com/ |archivedate=9 August 2005 |accessdate=2 January 2017}}</ref>
+| GA_date = {{start date and age|df=yes|2007|1|30}}<ref name="WindowsVistaGA">{{cite web |url=https://news.microsoft.com/2007/01/29/microsoft-launches-windows-vista-and-microsoft-office-2007-to-consumers-worldwide/ |title =Microsoft Launches Windows Vista and the 2007 Office System to Consumers |date=29 January 2007 |publisher=[[Microsoft]] |work=News Center |accessdate=2 January 2017}}</ref>
+| release_version = Service Pack 2 (6.0.6002)<ref name="WindowsVista" />
+| release_date = {{Start date and age|df=yes|2009|5|26}}<ref name=SP2-GA />
+| support_status = Mainstream support ended on 10 April 2012<br />Extended support ended on 11 April 2017<ref name="WindowsVistaSupportPolicy">{{cite web |url=https://support.microsoft.com/en-us/lifecycle/search/?sort=PN&alpha=Windows%20Vista&Filter=FilterNO |title=Windows Vista Lifecycle Policy |publisher=[[Microsoft]] | accessdate=2 January 2017}}</ref>
+| other_articles = 
+| date = January 2009 <!-- approximate date of template insertion for dating hidden maintenance categories -->
+}}
 '''''Windows Vista''''' : Waa Barnaamij ay soo saartay Shirkada Sameysa Barnaamijyada Kumbuyuutarada ee [[Microsoft]], barnaamijkaan oo loo isticmaalo Kombuyuutarada waxaa sameyskiisa la bilaabay 22 Luulyo 2005 waxaase la dhameystiray 8 November 2006. iyadoo Suuqyada Caalamka Lagu siidaayay 30 Janaayo 2007. Iyadoo haatan shirkada [[Microsoft]] ay soo saartay 22 Luulyo 2009, Barnaamij Cusub oo la yiraahdo [[Windows 7]] kaas oo suuqyadana lagu sii daayay 22 Oktoobar 2009.
 
 [[Category:Kumbuyuutarada]]
