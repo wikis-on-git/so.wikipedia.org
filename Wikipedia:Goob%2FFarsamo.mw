@@ -298,3 +298,26 @@ Thanks!
 <br/><span dir="ltr">[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 10:50, 9 Luuliyo 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small></span>
 </div>
 <!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=18158890 -->
+
+== Enabling a helpful feature for Template editors ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+Hello.
+
+The team working on TemplateStyles at the Wikimedia Foundation would like to enable TemplateStyles on this wiki.
+
+TemplateStyles is a feature to allow non-administrators to write and manage CSS styles for templates. It allows contributors who edit templates to separate content and presentation. A good web practice that makes it easier to manage the layout of templates. If you don't edit templates, this will not have any impact on your contributions. 
+
+TemplateStyles is useful for a few reasons. 
+
+* It makes it possible for templates to work better on mobile.
+* It cuts out confusion on where to apply CSS rules.
+* Editing CSS is currently limited to administrators, which is a major barrier to participation.
+* All stylesheets must be loaded on all pages (whether they actually use the page or not), which wastes bandwidth and makes debugging style rules more difficult.
+You can [[mw:Help:TemplateStyles|learn more about TemplateStyles on MediaWiki.org]]. [[mw:Extension:TemplateStyles|Technical documentation is also available]].
+
+This is an optional feature and no one must use it, but template contributors are encouraged to do so! Please discuss and let us know if there are any concerns. If there are no concerns we will proceed to deploy the feature on the 9th of August.
+
+Thank you.
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 21:28, 6 Agoosto 2018 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:CKoerner_(WMF)/Sandbox&oldid=18277775 -->
