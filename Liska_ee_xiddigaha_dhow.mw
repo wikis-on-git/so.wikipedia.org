@@ -1,0 +1,843 @@
+<!--PLEASE NOTE: The various values for the stars, to preserve one's ability to sort various parts of the table, will be organized as such:
+
+#/distance/system/star: no sort
+stellar class: 3 digit 0-padded spectral type in intervals of 10: A0 = 000, A5 = 005, F5 = 015, etc.
+A0 = 000, F0 = 010, G0 = 020, K0 = 030, M0 = 040, L0 = 050, T0 = 060, Y0 = 070, D0 = 080
+apparent magnitude/absolute magnitude: 2-digit 0-padded value.
+discovery date: 4-digit 0-padded value, if no discovery date put 0000.
+all values formatted as {{ sort | value }}
+-->
+Stars visible to the unaided eye have their magnitude shown in '''{{font color||lightblue|light blue}}''' below. Brown dwarfs are shown with their designations in '''{{font color||#C67B30|brown}}'''. White dwarfs are shown with their designation in '''{{font color||#F5F5DC|beige}}'''. The [[spectral classification|class]]es of the stars and brown dwarfs are shown in the color of their spectral types (these colors are derived from conventional names for the spectral types and do not represent the star's observed color). Many brown dwarfs are not listed by [[visible spectrum|visual magnitude]] but are listed by near-infrared [[J band (infrared)|J band]] [[Magnitude (astronomy)|apparent magnitude]] due to how dim (and often invisible) they are in visible colors. Some of the [[parallax]] and distance results are preliminary measurements.<ref name="RECONS">{{cite journal
+|date=September 17, 2007
+|title=The One Hundred Nearest Star Systems
+|journal=[[Research Consortium on Nearby Stars]] (RECONS)
+|publisher=[[Georgia State University]]
+|url=http://www.astro.gsu.edu/RECONS/TOP100.posted.htm
+|accessdate=2007-11-06}}</ref>
+{|style="font-size: 90%; text-align: center;" class="sortable wikitable" border = "1" 
+|+Nearest star systems
+! class="unsortable" colspan="2" |<small>Designation</small>
+! rowspan="2" data-sort-type="number" |<small>[[Distance]]<ref name=distfn>From parallax.</ref><br>([[light-year]]s [[margin of error|(±err)]])</small>
+! rowspan="2" |<small>[[Stellar classification|Stellar class]]</small>
+! rowspan="2" data-sort-type="number"  |<small>[[Apparent magnitude]] ({{nowrap|m<sub>[[UBV photometric system|V]]</sub> or m<sub>[[J band (infrared)|J]]</sub>}})</small>
+! rowspan="2" data-sort-type="number"  |<small>[[Absolute magnitude]] ({{nowrap|M<sub>[[UBV photometric system|V]]</sub> or M<sub>[[J band (infrared)|J]]</sub>}})</small>
+! class="unsortable"  colspan="2" |<small>[[Epoch (astronomy)#Julian years and J2000|Epoch J2000.0]]</small>
+! rowspan="2" |<small>[[Stellar parallax|Parallax]]<br>([[milliarcsecond|mas]] [[margin of error|(±err)]])</small><br><ref name="RECONS"/><ref name=plxfn group=note>Parallaxes given by RECONS are a weighted mean of values in the sources given, as well as measurements by the RECONS program.</ref>
+! rowspan="2" data-sort-type="number" |<small>Discovery <br>date<br><ref name=discfn group=note>Before 1900: earliest certain recorded observation. 1900–1930: first catalogued. After 1930: earliest trigonometric or spectroscopic parallax.</ref></small>
+! rowspan="2" |<small>Notes and [[#References|additional<br>references]]</small>
+|-class="unsortable"
+!<small>[[Stellar system|System]]</small>
+!<small>Star #</small>
+!<small>[[Right ascension]]<ref name=RECONS/></small>
+!<small>[[Declination]]<ref name=RECONS/></small>
+|-
+| [[Solar System]]
+| [[Sun]]
+| {{val|0}}
+| style="background: {{star-color|G}};" | [[G-type main-sequence star|G2V]]<ref name=RECONS/>
+| style="background: lightblue;" | −26.74<ref name=RECONS/>
+| 4.85<ref name=RECONS/>
+| —
+| —
+| —
+| —
+| eight planets
+|-
+| rowspan="3" | [[Alpha Centauri]]<br>(Rigil&nbsp;Kentaurus)
+| [[Proxima Centauri|Proxima&nbsp;Centauri]] (V645&nbsp;Centauri)
+| {{val|4.2441|0.0011}}
+| style="background: {{star-color|M}};" | [[red dwarf|M5.5Ve]]
+| 11.09<ref name=RECONS />
+| 15.53<ref name=RECONS />
+| {{RA|14|29|43.0}}
+| {{DEC|−62|40|46}}
+| {{val|768.50|0.20}}<ref name="GaiaDR2">{{cite web|author=Gaia Collaboration|title=Gaia DR2|url=https://gea.esac.esa.int/archive/|website=gea.esac.esa.int|accessdate=10 May 2018}}</ref>
+| 1915
+| [[flare star]], one planet ([[Proxima b|b]]) (2016)
+|-
+| α&nbsp;Centauri&nbsp;A (HD&nbsp;128620)
+| rowspan="2" | {{val|4.3650|0.0068}}
+| style="background: {{star-color|G}};" | [[G-type main-sequence star|G2V]]<ref name=RECONS />
+| style="background: lightblue;" | 0.01<ref name=RECONS />
+| 4.38<ref name=RECONS />
+| {{RA|14|39|36.5}}
+| {{DEC|−60|50|02}}
+| rowspan="2"| {{val|747.23|1.17}}<br><ref name="Y">[[General Catalogue of Trigonometric Parallaxes]].</ref><ref name="H">[[Hipparcos Catalogue]].</ref><ref name="S">[http://adsabs.harvard.edu/abs/1999A%26A...341..121S Visual binary orbits and masses post Hipparcos], Staffan Söderhjelm, ''Astronomy and Astrophysics'' '''341''' (January 1999), pp. 121&ndash;140.</ref>
+| —
+|
+|-
+| α&nbsp;Centauri&nbsp;B (HD&nbsp;128621)
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K1V]]<ref name=RECONS />
+| style="background: lightblue;" | 1.34<ref name=RECONS />
+| 5.71<ref name=RECONS />
+| {{RA|14|39|35.1}}
+| {{DEC|−60|50|14}}
+| 1689
+| one suspected planet ([[Alpha Centauri Bc|c]]) (2013)<br>(planet [[Alpha Centauri Bb|b]] refuted in 2015)
+|-
+| colspan="2" | [[Barnard's Star|Barnard's&nbsp;Star]] (BD+04°3561a)
+| {{val|5.9577|0.0032}}
+| style="background: {{star-color|M}};" | M4.0Ve
+| 9.53<ref name=RECONS />
+| 13.22<ref name=RECONS />
+| {{RA|17|57|48.5}}
+| {{DEC|+04|41|36}}
+| {{val|547.45|0.29}}<ref name="GaiaDR2"/>
+| 1916
+| flare star, largest known [[proper motion]]<ref name="EEB">{{cite journal
+ | first=E. E. | last=Barnard
+ | authorlink=Edward Emerson Barnard | date=1916
+ | title=A small star with large proper motion
+ | journal=Astronomical Journal | volume=29 | issue=695
+ | page=181 | bibcode = 1916AJ.....29..181B
+ | doi = 10.1086/104156 }}</ref>
+|-
+| style="background: #C67B30"  rowspan="2" | [[Luhman 16]]<br>(WISE 1049−5319)
+| style="background: #C67B30"| Luhman 16A
+| rowspan="2" | {{val|6.5049|0.0012}}
+| style="background: {{star-color|L}};" | [[Brown dwarf|L8±1]]<ref name="1049primary">{{cite journal
+ |first   = K. L.
+ |last    = Luhman
+ |title   = Discovery of a Binary Brown Dwarf at 2 Parsecs from the Sun
+ |journal = The Astrophysical Journal Letters
+ |url     = http://science.psu.edu/alert/photos/research-photos/astro/Luhman_ApJL_32013.pdf
+ |doi     = 10.1088/2041-8205/767/1/L1
+ |arxiv   = 1303.2401
+ |bibcode = 2013ApJ...767L...1L
+ |volume  = 767
+ |page    = L1
+|year    = 2013
+ }}{{dead link|date=December 2017 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+| 10.7 J
+| 14.2 J
+| rowspan="2" | {{RA|10|49|15.57}}
+| rowspan="2" | {{DEC|−53|19|06}}
+| rowspan="2" | {{val|501.398|0.093}}<ref name="Bedin2018">{{cite journal|last1=Bedin L. R. et al.|title=Hubble Space Telescope astrometry of the closest brown dwarf binary system - I. Overview and improved orbit|journal=Monthly Notices of the Royal Astronomical Society|date=27 June 2017|volume=470|issue=1|pages=1140–1155|doi=10.1093/mnras/stx1177|arxiv = 1706.00657|url=https://academic.oup.com/mnras/article/470/1/1140/3896221|accessdate=27 June 2017|bibcode=2017MNRAS.470.1140B}}</ref>
+| rowspan="2" | 2013
+| rowspan="2" | one refuted planet (Ab<ref>{{Cite journal|arxiv=1312.1303|last1=Boffin|first1=H. M. J.|title=Possible astrometric discovery of a substellar companion to the closest binary brown dwarf system WISE J104915.57-531906.1|journal=Astronomy & Astrophysics|volume=561|pages=L4|last2=Pourbaix|first2=D.|last3=Muzic|first3=K.|last4=Ivanov|first4=V. D.|last5=Kurtev|first5=R.|last6=Beletsky|first6=Y.|last7=Mehner|first7=A.|last8=Berger|first8=J. P.|last9=Girard|first9=J. H.|last10=Mawet|first10=D.|year=2013|doi=10.1051/0004-6361/201322975|bibcode=2014A&A...561L...4B}}</ref> in 2017<ref name=Bedin2018 />)
+|-
+| style="background: #C67B30" | Luhman 16B
+| style="background: {{star-color|T}};" | [[Brown dwarf|T1±2]]<ref name=1049primary/>
+| 
+| 
+|-
+| style="background: #C67B30" colspan="2" | [[WISE 0855−0714]]
+| {{val|7.26|0.13}}<ref name="Luhman20140421">{{cite journal |title=Discovery of a ~250 K Brown Dwarf at 2 pc from the Sun |journal=[[The Astrophysical Journal Letters]] |first=K. L. |last=Luhman |volume=786 |issue=2 |page=L18 |date=April 21, 2014 |doi=10.1088/2041-8205/786/2/L18|arxiv = 1404.6501 |bibcode = 2014ApJ...786L..18L }}</ref> 
+|style="background: {{star-color|Y}};" | [[Brown dwarf#Spectral class Y|Y2]] 
+| 25.0 J
+| 
+| {{RA|08|55|10.83}}
+| {{DEC|-07|14|42.5}}
+| {{val|449|8}}<ref name="WISE0855_parallax">{{cite journal|last1=Luhman|first1=K. L.|last2=Esplin|first2=T. L.|title=The Spectral Energy Distribution of the Coldest Known Brown Dwarf|journal=The Astronomical Journal|date=6 September 2016|volume=152|issue=3|pages=78|doi=10.3847/0004-6256/152/3/78|accessdate=|issn=1538-3881|arxiv=1605.06655|bibcode=2016AJ....152...78L}}</ref>
+| 2014
+| [[sub-brown dwarf]]
+|- 
+| colspan="2" | [[Wolf 359|Wolf&nbsp;359]] (CN&nbsp;Leonis)
+| {{val|7.856|0.031}}
+| style="background: {{star-color|M}};" | M6.0V<ref name=RECONS />
+| 13.44<ref name=RECONS />
+| 16.55<ref name=RECONS />
+| {{RA|10|56|29.2}}
+| {{DEC|+07|00|53}}
+| {{val|415.16|1.62}}<ref name="Mstarcompanions">{{cite journal|last1=Davison|first1=Cassy L.|last2=White|first2=Russel J.|last3=Henry|first3=Todd J.|last4=Riedel|first4=Adric R.|last5=Jao|first5=Wei-Chun|last6=Bailey III|first6=John I.|last7=Quinn|first7=Samuel N.|last8=Cantrell|first8=Justin R.|last9=Subasavage|first9=John P.|last10=Winters|first10=Jen G.|title=A 3D Search for Companions to 12 Nearby M-Dwarfs|journal=The Astronomical Journal|date=19 February 2015|volume=149|issue=3|pages=106|doi=10.1088/0004-6256/149/3/106|accessdate=|issn=1538-3881|arxiv=1501.05012|bibcode=2015AJ....149..106D}}</ref>
+| 1919
+| flare star
+|-
+| colspan="2" | [[Lalande 21185|Lalande&nbsp;21185]] (BD+36°2147)
+| {{val|8.307|0.014}}
+| style="background: {{star-color|M}};" | M2.0V<ref name=RECONS />
+| 7.47<ref name=RECONS />
+| 10.44<ref name=RECONS />
+| {{RA|11|03|20.2}}
+| {{DEC|+35|58|12}}
+| {{val|392.64|0.67}}<ref name="Hipparcosreduction">{{cite journal|last1=van Leeuwen|first1=F.|title=Validation of the new Hipparcos reduction|journal=Astronomy & Astrophysics|date=13 August 2007|volume=474|issue=2|pages=653–664|doi=10.1051/0004-6361:20078357|accessdate=|issn=0004-6361|arxiv=0708.1752|bibcode=2007A&A...474..653V}}</ref>
+| 1801
+| one suspected planet (2017)<ref>[https://arxiv.org/pdf/1702.03571.pdf "The LCES HIRES/Keck Precision Radial Velocity Exoplanet Survey".] Butler et al. (2017)</ref>
+|-
+| rowspan="2" | [[Sirius]]<br>(α&nbsp;Canis&nbsp;Majoris)
+| Sirius A
+| rowspan="2" | {{val|8.659|0.010}}
+| style="background: {{star-color|A}}" | [[A-type main-sequence star|A1V]]<ref name=RECONS />
+| style="background: lightblue;" | −1.46<ref name=RECONS />
+| 1.42<ref name=RECONS />
+| rowspan="2" | {{RA|06|45|08.9}}
+| rowspan="2" | {{DEC|−16|42|58}}
+| rowspan="2" | {{val|376.68|0.45}}<ref name="GaiaDR2"/>
+| —
+| rowspan="2" | brightest star in the night sky
+|-
+| style="background: #F5F5DC" | Sirius B
+| style="background: #F5F5DC" | [[White dwarf|DA2]]<ref name=RECONS />
+| 8.44<ref name=RECONS />
+| 11.34<ref name=RECONS />
+| 1844
+|-
+| rowspan="2" | [[Luyten 726-8|Luyten&nbsp;726-8]]
+| Luyten&nbsp;726-8&nbsp;A (BL&nbsp;Ceti)
+| rowspan="2" | {{val|8.791|0.012}}
+| style="background: {{star-color|M}};" | M5.5Ve
+| 12.54<ref name=RECONS />
+| 15.40<ref name=RECONS />
+| rowspan="2" | {{RA|01|39|01.3}}
+| rowspan="2" | {{DEC|−17|57|01}}
+| rowspan="2" | {{val|371.0|0.5}}<ref name="GaiaDR2"/>
+| rowspan="2" |1949
+| rowspan="2" |flare star (Archetypal member)
+|-
+| Luyten&nbsp;726-8&nbsp;B (UV&nbsp;Ceti)
+| style="background: {{star-color|M}};" | M6.0Ve
+| 12.99<ref name=RECONS />
+| 15.85<ref name=RECONS />
+|-
+| colspan="2" | [[Ross 154|Ross&nbsp;154]] (V1216&nbsp;Sagittarii)
+| {{val|9.7035|0.0019}}
+| style="background: {{star-color|M}};" | M3.5Ve
+| 10.43<ref name=RECONS />
+| 13.07<ref name=RECONS />
+| {{RA|18|49|49.4}}
+| {{DEC|−23|50|10}}
+| {{val|336.123|0.064}}<ref name="GaiaDR2"/>
+| 1925
+| flare star
+|-
+| colspan="2" | [[Ross 248|Ross&nbsp;248]] (HH&nbsp;Andromedae)
+| {{val|10.2903|0.0041}}
+| style="background: {{star-color|M}};" | M5.5Ve
+| 12.29<ref name=RECONS />
+| 14.79<ref name=RECONS />
+| {{RA|23|41|54.7}}
+| {{DEC|+44|10|30}}
+| {{val|316.96|0.13}}<ref name="GaiaDR2"/>
+| 1925
+| flare star
+|-
+| colspan="2" | [[Epsilon Eridani|Epsilon&nbsp;Eridani]] (BD−09°697)
+| {{val|10.446|0.016}}
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K2V]]<ref name=RECONS />
+| style="background: lightblue;" | 3.73<ref name=RECONS />
+| 6.19<ref name=RECONS />
+| {{RA|03|32|55.8}}
+| {{DEC|−09|27|30}}
+| {{val|312.22|0.47}}<ref name="GaiaDR2"/>
+| 150
+| three circumstellar disks,<br>two suspected planets ([[Epsilon Eridani b|AEgir]] (debated) and [[Epsilon Eridani#planet c|c]]) (2000 & 2002)<ref>{{citation | display-authors=1| last1=Janson | first1=M.| last2=Reffert | first2=S.| last3=Brandner | first3=W.| last4=Henning | first4=T.| last5=Lenzen | first5=R.| last6=Hippler | first6=S.| title=A comprehensive examination of the ε Eridani system. Verification of a 4 micron narrow-band high-contrast imaging approach for planet searches | journal=Astronomy and Astrophysics | volume=488 | issue=2 | pages=771–780 | date=September 2008 | bibcode=2008A&A...488..771J | doi=10.1051/0004-6361:200809984 | arxiv=0807.0301 }}</ref>
+|-
+| colspan="2" | [[Lacaille&nbsp;9352]] (CD−36°15693)
+| {{val|10.7211|0.0016}}
+| style="background: {{star-color|M}};" | M0.5V
+| 7.34<ref name=RECONS />
+| 9.75<ref name=RECONS />
+| {{RA|23|05|52.0}}
+| {{DEC|−35|51|11}}
+| {{val|304.219|0.045}}<ref name="GaiaDR2"/>
+| 1753
+| 
+|-
+| colspan="2" | [[Ross 128|Ross&nbsp;128]] (FI&nbsp;Virginis)
+| {{val|11.0074|0.0026}}
+| style="background: {{star-color|M}};" | M4.0Vn
+| 11.13<ref name=RECONS />
+| 13.51<ref name=RECONS />
+| {{RA|11|47|44.4}}
+| {{DEC|+00|48|16}}
+| {{val|296.307|0.070}}<ref name="GaiaDR2"/>
+| 1925
+| flare star, one planet ([[Ross 128 b|b]]) (2017)<ref name="Atlantic">{{cite web|last1= ESO|title=A temperate exo-Earth around a quiet M dwarf at 3.4 parsecs|url=https://www.eso.org/public/archives/releases/sciencepapers/eso1736/eso1736a.pdf|accessdate=15 November 2017}}</ref>
+|-
+| rowspan="3" | [[EZ Aquarii|EZ&nbsp;Aquarii]]<br>(Gliese&nbsp;866, Luyten&nbsp;789-6)
+| EZ&nbsp;Aquarii&nbsp;A
+| rowspan="3" | {{val|11.109|0.034}}
+| style="background: {{star-color|M}};" | M5.0Ve
+| 13.33<ref name=RECONS />
+| 15.64<ref name=RECONS />
+| rowspan="3" | {{RA|22|38|33.4}}
+| rowspan="3" | {{DEC|−15|17|57}}
+| rowspan="3" | {{val|293.60|0.9}}<ref name="Torres2009">{{cite journal|last1=Torres|first1=G.|last2=Andersen|first2=J.|last3=Giménez|first3=A.|title=Accurate masses and radii of normal stars: modern results and applications|journal=The Astronomy and Astrophysics Review|date=7 October 2009|volume=18|issue=1–2|pages=67–126|doi=10.1007/s00159-009-0025-1|url=https://link.springer.com/article/10.1007%2Fs00159-009-0025-1|accessdate=10 May 2018|arxiv=0908.2624|bibcode=2010A&ARv..18...67T}}</ref>
+| 1937
+| rowspan="3" | A & B flare stars
+|-
+| EZ&nbsp;Aquarii&nbsp;B
+| style="background: {{star-color|M}};" | M?
+| 13.27<ref name=RECONS />
+| 15.58<ref name=RECONS />
+| -
+|-
+| EZ&nbsp;Aquarii&nbsp;C
+| style="background: {{star-color|M}};" | M?
+| 14.03<ref name=RECONS />
+| 16.34<ref name=RECONS />
+| 1995
+|-
+| rowspan="2" | [[61 Cygni|61&nbsp;Cygni]]
+| 61&nbsp;Cygni&nbsp;A (BD+38°4343)
+| rowspan="2" | {{val|11.4008|0.0012}}
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K5.0V]]<ref name=RECONS /> <!--previous: K3.5Ve-->
+| style="background: lightblue;" | 5.21<ref name=RECONS />
+| 7.49<ref name=RECONS />
+| {{RA|21|06|53.9}}
+| {{DEC|+38|44|58}}
+| rowspan="2" | {{val|286.08|0.03}}<ref name="GaiaDR2"/>
+| 1725
+| rowspan="2" | B flare star, first star (besides Sun) to have measured distance<ref>{{cite journal | last=Bessel | first=F. W. | title=Bestimmung der Entfernung des 61sten Sterns des Schwans. Von Herrn Geheimen - Rath und Ritter Bessel | journal=Astronomische Nachrichten | date=1839 | volume=16 | issue=5–6 | pages=65 | language=German | bibcode=1838AN.....16...65B | quote=(page 92) Ich bin daher der Meinung, daß nur die jährliche Parallaxe = 0"3136 als das Resultat der bisherigen Beobachtungen zu betrachten ist | doi=10.1002/asna.18390160502 }} A parallax of 313.6 mas yields a distance of 10.4 light years</ref><br>possible circumstellar disk.
+|-
+| 61&nbsp;Cygni&nbsp;B (BD+38°4344)
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K7.0V]]<ref name=RECONS /> <!--previous: K4.7Ve-->
+| style="background: lightblue;" | 6.03<ref name=RECONS />
+| 8.31<ref name=RECONS />
+| {{RA|21|06|55.3}}
+| {{DEC|+38|44|31}}
+| -
+|-
+| rowspan="2" | [[Procyon]]<br>(α&nbsp;Canis&nbsp;Minoris)
+| Procyon&nbsp;A
+| rowspan="2" | {{val|11.402|0.032}}
+| style="background: {{star-color|F}}" | F5V–IV<ref name=RECONS />
+| style="background: lightblue;" | 0.38<ref name=RECONS />
+| 2.66<ref name=RECONS />
+| rowspan="2" | {{RA|07|39|18.1}}
+| rowspan="2" | {{DEC|+05|13|30}}
+| rowspan="2" | {{val|286.05|0.81}}<br><ref name="Y"/><ref name="H"/>
+| —
+| rowspan="2" |
+|-
+| style="background: #F5F5DC" | Procyon&nbsp;B
+| style="background: #F5F5DC" | [[White dwarf|DQZ]]<ref name=RECONS />
+| 10.70<ref name=RECONS />
+| 12.98<ref name=RECONS />
+| 1844
+|-
+| rowspan="2" | [[Struve 2398|Struve&nbsp;2398]]<br>(Gliese&nbsp;725, BD+59°1915)
+| Struve&nbsp;2398&nbsp;A (HD&nbsp;173739)
+| rowspan="2" | {{val|11.4880|0.0012}}
+| style="background: {{star-color|M}};" | M3.0V<ref name=RECONS />
+| 8.90<ref name=RECONS />
+| 11.16<ref name=RECONS />
+| {{RA|18|42|46.7}}
+| {{DEC|+59|37|49}}
+| rowspan="2" | {{val|283.91|0.03}}<ref name="GaiaDR2"/>
+| 1835
+| rowspan="2" | flare stars
+|-
+| Struve&nbsp;2398&nbsp;B (HD&nbsp;173740)
+| style="background: {{star-color|M}};" | M3.5V<ref name=RECONS />
+| 9.69<ref name=RECONS />
+| 11.95<ref name=RECONS />
+| {{RA|18|42|46.9}}
+| {{DEC|+59|37|37}}
+| 1835
+|-
+| rowspan="2" | [[Groombridge 34|Groombridge&nbsp;34]]<br>(Gliese&nbsp;15)
+| Groombridge&nbsp;34&nbsp;A (GX&nbsp;Andromedae)
+| rowspan="2" | {{val|11.6182|0.0008}}
+| style="background: {{star-color|M}};" | M1.5V<ref name=RECONS /> <!--previous: M3.0V-->
+| 8.08<ref name=RECONS />
+| 10.32<ref name=RECONS />
+| rowspan="2" | {{RA|0|18|22.9}}
+| rowspan="2" | {{DEC|+44|01|23}}
+| rowspan="2" | {{val|280.73|0.02}}<ref name="GaiaDR2"/>
+| 1813
+| flare star, two suspected planets ([[Gliese 15 Ac|Ac]], 2017) and [[Gliese 15 Ab|Ab]], 2014)<ref>[https://arxiv.org/abs/1408.5645 "The NASA-UC-UH Eta-Earth Program: IV. A Low-mass Planet Orbiting an M Dwarf 3.6 PC from Earth".] Andrew W. Howard, Geoffrey W. Marcy, Debra A. Fischer, Howard Isaacson, Philip S. Muirhead, Gregory W. Henry, Tabetha S. Boyajian, Kaspar von Braun, Juliette C. Becker, Jason T. Wright, John Asher Johnson. Accessed August 26, 2014.</ref><br> 
+|-
+| Groombridge&nbsp;34&nbsp;B (GQ&nbsp;Andromedae)
+| style="background: {{star-color|M}};" | M3.5V<ref name=RECONS />
+| 11.06<ref name=RECONS />
+| 13.30<ref name=RECONS />
+| -
+| flare star
+|-
+| colspan="2" | [[DX Cancri|DX&nbsp;Cancri]] (G&nbsp;51-15)
+| {{val|11.6780|0.0056}}
+| style="background: {{star-color|M}};" | M6.5Ve
+| 14.78<ref name=RECONS />
+| 16.98<ref name=RECONS />
+| {{RA|08|29|49.5}}
+| {{DEC|+26|46|37}}
+| {{val|279.29|0.13}}<ref name="GaiaDR2"/>
+| 1972
+| flare star
+|-
+| colspan="2" | [[Tau Ceti|Tau&nbsp;Ceti]] (BD−16°295)
+| {{val|11.753|0.022}}
+| style="background: {{star-color|G}};" | [[G-type main-sequence star|G8Vp]]<ref name=RECONS />
+|style="background: lightblue;" | 3.49<ref name=RECONS />
+| 5.68<ref name=RECONS />
+| {{RA|01|44|04.1}}
+| {{DEC|−15|56|15}}
+| {{val|277.52|0.52}}<ref name="GaiaDR2"/>
+| 150
+| one debris disk<br>two planets ([[Tau Ceti#Tau Ceti e|e]] and [[Tau Ceti#Tau Ceti f|f]]) (2012),<br>three suspected planets (d, g and h) (2012, 2017), <br>two refuted planets (b and c in 2017)
+|-
+| rowspan="3" | [[Epsilon Indi|Epsilon&nbsp;Indi]]<br>(CPD−57°10015)
+| Epsilon Indi A
+| rowspan="3" | {{val|11.869|0.011}}
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K5Ve]]<ref name=RECONS />
+| style="background: lightblue;" | 4.69<ref name=RECONS />
+| 6.89<ref name=RECONS />
+| {{RA|22|03|21.7}}
+| {{DEC|−56|47|10}}
+| rowspan="3" | {{val|274.80|0.25}}<ref name="GaiaDR2"/>
+| 1597
+| one planet (b) (2018)<ref>[https://arxiv.org/pdf/1803.08163.pdf "Detection of the closest Jovian exoplanet in the Epsilon Indi triple system".] Fabo Feng, Mikko Tuomi, Hugh R. A. Jones. Accessed 21 March 2018.</ref>
+|-
+| style="background: #C67B30"| Epsilon&nbsp;Indi&nbsp;Ba
+| style="background: {{star-color|T}};" | [[Brown dwarf|T1.0V]]
+| 12.3 J<ref name="DwarfArchives">{{cite web
+  |title=DwarfArchives.org: Photometry, spectroscopy, and astrometry of M, L, and T dwarfs
+  |publisher=caltech.edu
+  |author=Chris Gelino, [[J. Davy Kirkpatrick|Davy Kirkpatrick]], Adam Burgasser
+  |url=http://ldwarf.ipac.caltech.edu/archive/version5/viewlist.php?table=ltdwarf&format=text
+  |accessdate=2012-06-10}} [http://spider.ipac.caltech.edu/staff/davy/ARCHIVE/index.shtml (main page)]</ref>
+| 
+| rowspan="2" | {{RA|22|04|10.5}}
+| rowspan="2" | {{DEC|−56|46|58}}
+| 2003
+|
+|-
+| style="background: #C67B30"| Epsilon&nbsp;Indi&nbsp;Bb
+| style="background: {{star-color|T}};" | [[Brown dwarf|T6.0V]]
+| 13.2 J<ref name="DwarfArchives"/>
+| 
+| 2003
+|
+|-
+| colspan="2" | [[GJ 1061]] (LHS&nbsp;1565)
+| {{val|11.9803|0.0029}}
+| style="background: {{star-color|M}};" | M5.5V<ref name=RECONS />
+| 13.09<ref name=RECONS />
+| 15.26<ref name=RECONS />
+| {{RA|03|35|59.7}}
+| {{DEC|−44|30|45}}
+| {{val|272.245|0.066}}<ref name="GaiaDR2"/>
+| 1995
+| <ref name=henry1997>{{cite journal | last1 = Henry | first1 = Todd J. | last2 = Ianna | first2 = Philip A. | last3 = Kirkpatrick | first3 = J. Davy | last4 = Jahreiss | first4 = Hartmut | date = July 1997 | title = The solar neighborhood IV: discovery of the twentieth nearest star | journal = The Astronomical Journal | volume = 114 | issue = 1 | pages = 388–395 | doi = 10.1086/118482 | bibcode=1997AJ....114..388H}}</ref><ref name=henry2006>{{cite journal | last1 = Henry | first1 = Todd J. | last2 = Jao | first2 = Wei-Chun | last3 = Subasavage | first3 = John P. | last4 = Beaulieu | first4 = Thomas D. | last5 = Ianna | first5 = Philip A. | last6 = Costa | first6 = Edgardo | last7 = Méndez | first7 = René A. | date = December 2006 | title = The Solar Neighborhood. XVII. Parallax Results from the CTIOPI 0.9 m Program: 20 New Members of the RECONS 10 Parsec Sample | journal = The Astronomical Journal | volume = 132 | issue = 6| pages = 2360–2371 | doi = 10.1086/508233 | bibcode=2006AJ....132.2360H|arxiv = astro-ph/0608230 }}</ref>
+|-
+| colspan="2" | [[YZ Ceti|YZ&nbsp;Ceti]] (LHS&nbsp;138)
+| {{val|12.1084|0.0035}}
+| style="background: {{star-color|M}};" | M4.5V<ref name=RECONS />
+| 12.02<ref name=RECONS />
+| 14.17<ref name=RECONS />
+| {{RA|01|12|30.6}}
+| {{DEC|−16|59|56}}
+| {{val|269.363|0.078}}<ref name="GaiaDR2"/>
+| 1961
+| flare star, three planets (b, c, and d) (2017),<ref>[https://arxiv.org/pdf/1708.03336.pdf "The HARPS search for southern extra-solar planets XLII. A system of Earth-mass planets around the nearby M dwarf YZ Cet".] N. Astudillo-Defru1 , R. F. Díaz, X. Bonfils , J.M. Almenara, J.-B. Delisle, F. Bouchy, X. Delfosse, T. Forveille, C. Lovis, M. Mayor, F. Murgas, F. Pepe, N. C. Santos, D. Ségransan, S. Udry, A. Wünsche (August 10, 2017).</ref><br>one suspected planet (e)
+|-
+| colspan="2" | [[Luyten's Star|Luyten's&nbsp;Star]] (BD+05°1668)
+| {{val|12.199|0.036}}
+| style="background: {{star-color|M}};" | M3.5Vn
+| 9.86<ref name=RECONS />
+| 11.97<ref name=RECONS />
+| {{RA|07|27|24.5}}
+| {{DEC|+05|13|33}}
+| {{val|267.36|0.79}}<ref name="Gatewood2008">{{cite journal|last1=Gatewood|first1=George|title=ASTROMETRIC STUDIES OF ALDEBARAN, ARCTURUS, VEGA, THE HYADES, AND OTHER REGIONS|journal=The Astronomical Journal|date=1 July 2008|volume=136|issue=1|pages=452–460|doi=10.1088/0004-6256/136/1/452|bibcode=2008AJ....136..452G}}</ref>
+| 1935
+| two planets (b, c) (2017)<ref>[https://arxiv.org/pdf/1703.05386.pdf "The HARPS search for southern extra-solar planets XLI. A dozen planets around the M dwarfs GJ 3138, GJ 3323, GJ 273, GJ 628, and GJ 3293".] N. Astudillo-Defru, T. Forveille, X. Bonfils, D. Ségransan, F. Bouchy, X. Delfosse, C. Lovis, M. Mayor, F. Murgas, F. Pepe, N. C. Santos, S. Udry, A. Wunsche (March 15, 2017).</ref>
+|-
+| colspan="2" | [[Teegarden's Star|Teegarden's&nbsp;Star]] (SO025300.5+165258)
+| {{val|12.496|0.013}}
+| style="background: {{star-color|M}};" | M6.5V
+| 15.14<ref name=RECONS />
+| 17.22<ref name=RECONS />
+| {{RA|02|53|00.9}}g
+| {{DEC|+16|52|53}}
+| {{val|261.01|0.27}}<ref name="GaiaDR2"/>
+| 2003
+| tentative [[Doppler spectroscopy|radial velocity]] variation (2010)<ref name=henry2006 /><ref name=ROPS>{{cite journal | url=http://mnras.oxfordjournals.org/content/424/1/591 |title=ROPS: A New Search for Habitable Earths in the Southern Sky  |author=Barnes, J. R. |display-authors=etal |date=2012|journal=[[Monthly Notices of the Royal Astronomical Society]] |volume=424|issue=1 |pages=591–604 |doi=10.1111/j.1365-2966.2012.21236.x |bibcode=2012MNRAS.424..591B|arxiv = 1204.6283 }}</ref>
+|-
+| rowspan="2" | [[SCR 1845-6357|SCR&nbsp;1845-6357]]
+| SCR&nbsp;1845-6357&nbsp;A
+| rowspan=2 | {{val|12.571|0.054}}
+| style="background: {{star-color|M}};" | M8.5V<ref name=RECONS />
+| 17.39
+| 19.41
+| {{RA|18|45|05.3}}
+| {{DEC|−63|57|48}}
+| rowspan=2 | {{val|259.45|1.11}}<br><ref name="recent" group=note>Systems with their first accurate trigonometric parallaxes measured by RECONS</ref>
+| 2004
+| rowspan=2 | <ref name=henry2006 />
+|-
+| style="background: #C67B30"| SCR&nbsp;1845-6357&nbsp;B
+| style="background: {{star-color|T}};" | [[Brown dwarf|T6]]<ref name=nearmt>[http://adsabs.harvard.edu/abs/2007A%26A...471..655K The very nearby M/T dwarf binary SCR 1845-6357], Markus Kasper, Beth A. Biller, Adam Burrows, Wolfgang Brandner, Jano Budaj, and Laird M. Close, ''Astronomy and Astrophysics'' '''471''', #2 (August 2007), pp. 655&ndash;659. {{doi|10.1051/0004-6361:20077881}}</ref>
+| 13.3 J<ref name="DwarfArchives"/>
+| 
+| {{RA|18|45|02.6}}
+| {{DEC|−63|57|52}}
+| 2006
+|-
+| colspan="2" | [[Kapteyn's Star|Kapteyn's&nbsp;Star]] (CD−45°1841)
+| {{val|12.8294|0.0013}}
+| style="background: {{star-color|M}};" | M1.5V<ref name=RECONS /> <!--previous: sdM0VI-->
+| 8.84<ref name=RECONS />
+| 10.87<ref name=RECONS />
+| {{RA|05|11|40.6}}
+| {{DEC|−45|01|06}}
+| {{val|254.226|0.026}}<ref name="GaiaDR2"/>
+| 1898
+| two suspected planets (b and c) (2014)<ref name="Kapteyn-discovery">{{cite journal|title=Two planets around Kapteyn's star : a cold and a temperate super-Earth orbiting the nearest halo red-dwarf |author=Guillem Anglada-Escudé |author2=Pamela Arriagada |author3=Mikko Tuomi |author4=Mathias Zechmeister |author5=James S. Jenkins |author6=Aviv Ofir |author7=Stefan Dreizler |author8=Enrico Gerlach |author9=Chris J. Marvin |author10=Ansgar Reiners |author11=Sandra V. Jeffers |author12=R. Paul Butler |author13=Steven S. Vogt |author14=Pedro J. Amado |author15=Cristina Rodríguez-López |author16=Zaira M. Berdiñas |author17=Julian Morin |author18=Jeff D. Crane |author19=Stephen A. Shectman |author20=Ian B. Thompson |author21=Matías Díaz |author22=Eugenio Rivera |author23=Luis F. Sarmiento |author24=Hugh R.A. Jones |date=2014|arxiv=1406.0818v1|class=astro-ph.EP|version= |doi=10.1093/mnrasl/slu076 |volume=443 |journal=Monthly Notices of the Royal Astronomical Society: Letters |pages=L89–L93|bibcode = 2014MNRAS.443L..89A }}</ref>
+|-
+| colspan="2" | [[Lacaille&nbsp;8760]] (AX&nbsp;Microscopii)
+| {{val|12.9515|0.0029}}
+| style="background: {{star-color|M}};" | M0.0V<ref name=RECONS /> <!--previous: M2Ve-->
+| 6.67<ref name=RECONS />
+| 8.69<ref name=RECONS />
+| {{RA|21|17|15.3}}
+| {{DEC|−38|52|03}}
+| {{val|251.829|0.056}}<ref name="GaiaDR2"/>
+| 1753
+| flare star
+|-
+| rowspan="2" | [[Kruger 60|Kruger&nbsp;60]]<br>(BD+56°2783)
+| Kruger&nbsp;60&nbsp;A
+| rowspan="2" | {{val|13.0724|0.0052}}
+| style="background: {{star-color|M}};" | M3.0V<ref name="RECONS" />
+| 9.79<ref name="RECONS" />
+| 11.76<ref name="RECONS" />
+| rowspan="2" | {{RA|22|27|59.5}}
+| rowspan="2" | {{DEC|+57|41|45}}
+| rowspan="2" | {{val|249.5|0.1}}<ref name="GaiaDR2"/>
+| 1880
+| rowspan="2" | B flare star
+|-
+| Kruger&nbsp;60&nbsp;B (DO&nbsp;Cephei)
+| style="background: {{star-color|M}};" | M4.0V<ref name="RECONS" />
+| 11.41<ref name="RECONS" />
+| 13.38<ref name="RECONS" />
+| 1890?
+|-
+| colspan="2" style="background: #C67B30" | [[DEN 1048-3956|DEN&nbsp;1048-3956]]
+| {{val|13.1932|0.0066}}
+| style="background: {{star-color|M}};" | M8.5V<ref name="RECONS" />
+| 17.39<ref name="RECONS" />
+| 19.37<ref name="RECONS" />
+| {{RA|10|48|14.7}}
+| {{DEC|−39|56|06}}
+| {{val|247.22|0.12}}<ref name="GaiaDR2"/>
+| 2001
+| <ref>[http://adsabs.harvard.edu/abs/2005AJ....129.1954J The Solar Neighborhood. XIII. Parallax Results from the CTIOPI 0.9 Meter Program: Stars with μ >= 1.0" yr<sup>−1</sup> (Motion sample)], Wei-Chun Jao, Todd J. Henry, John P. Subasavage, Misty A. Brown, Philip A. Ianna, Jennifer L. Bartlett, Edgardo Costa, René A. Méndez, ''The Astronomical Journal'' '''129''', #4 (April 2005), pp. 1954&ndash;1967. {{doi|10.1086/428489}}</ref><ref name="costa2005">[http://adsabs.harvard.edu/abs/2005AJ....130..337C The Solar Neighborhood. XIV. Parallaxes from the Cerro Tololo Inter-American Observatory Parallax Investigation&mdash;First Results from the 1.5 m Telescope Program], Edgardo Costa, René A. Méndez, W.-C. Jao, Todd J. Henry, John P. Subasavage, Misty A. Brown, Philip A. Ianna, and Jennifer Bartlett, ''The Astronomical Journal'' '''130''', #1 (July 2005), pp. 337&ndash;349. {{doi|10.1086/430473}}</ref>
+|-
+| rowspan="2" | [[Ross 614|Ross&nbsp;614]]<br>(V577&nbsp;Monocerotis, Gliese 234)
+| Ross&nbsp;614A (LHS&nbsp;1849)
+| rowspan="2" | {{val|13.424|0.049}}
+| style="background: {{star-color|M}};" | M4.5V<ref name="RECONS" />
+| 11.15<ref name="RECONS" />
+| 13.09<ref name="RECONS" />
+| rowspan="2" | {{RA|06|29|23.4}}
+| rowspan="2" | {{DEC|−02|48|50}}
+| rowspan="2" | {{val|242.97|0.88}}<ref name="GaiaDR2"/>
+| 1927
+| rowspan="2" | A flare star
+|-
+| Ross&nbsp;614B (LHS&nbsp;1850)
+| style="background: {{star-color|M}};" | M5.5V
+| 14.23<ref name="RECONS" />
+| 16.17<ref name="RECONS" />
+| 1936
+|-
+| colspan="2" style="background: #C67B30" |[[UGPS J0722-0540]]
+| {{val|13.43|0.13}}
+| style="background: {{star-color|T}};" | T9<ref name="RECONS" /> <!--previous: M2Ve-->
+| 16.52 J<ref>{{Cite arXiv | eprint=1004.0317v2 | author1=Lucas | author2=Tinney | author3=Ben Burningham | author4=Leggett | author5=Pinfield | author6=Richard Smart | author7=Jones | author8=Federico Marocco | author9=Barber | title=The discovery of a very cool, very nearby brown dwarf in the Galactic plane | class=astro-ph.SR | date=2010 }}</ref>
+| 
+| {{RA|07|22|27.3}}
+| {{DEC|–05|40|30}}
+| {{val|242.8|2.4}}<ref name="Leggett2012">{{cite journal|last1=Leggett|first1=S. K.|last2=Saumon|first2=D.|last3=Marley|first3=M. S.|last4=Lodders|first4=K.|last5=Canty|first5=J.|last6=Lucas|first6=P.|last7=Smart|first7=R. L.|last8=Tinney|first8=C. G.|last9=Homeier|first9=D.|last10=Allard|first10=F.|last11=Burningham|first11=Ben|last12=Day-Jones|first12=A.|last13=Fegley|first13=B.|last14=Ishii|first14=Miki|last15=Jones|first15=H. R. A.|last16=Marocco|first16=F.|last17=Pinfield|first17=D. J.|last18=Tamura|first18=M.|title=The Properties of the 500 K Dwarf UGPS J072227.51-054031.2, and a Study of the Far-Red Flux of Cold Brown Dwarfs|journal=The Astrophysical Journal|date=1 April 2012|volume=748|issue=2|pages=74|doi=10.1088/0004-637X/748/2/74|accessdate=|issn=0004-637X|arxiv=1201.2973|bibcode=2012ApJ...748...74L}}</ref>
+| 2010
+| <ref name="Lucas2010v2">{{cite arXiv|last=Lucas |first=Philip W.|author2=Tinney; Burningham; Leggett; Pinfield; Smart|title=Discovery of a very cool brown dwarf amongst the ten nearest stars to the Solar System|date=2010|eprint=1004.0317v1  |version=|class=astro-ph.SR|display-authors=etal}}</ref>
+|-
+| colspan="2" | [[Wolf 1061]] (Gliese 628, BD−12°4523)
+| {{val|14.0458|0.0038}}
+| style="background: {{star-color|M}};" | M3.0V<ref name="RECONS" />
+| 10.07<ref name="RECONS" />
+| 11.93<ref name="RECONS" />
+| {{RA|16|30|18.1}}
+| {{DEC|−12|39|45}}
+| {{val|232.210|0.063}}<ref name="GaiaDR2"/>
+| 1919
+| three planets ([[Wolf 1061 b|b]], [[Wolf 1061 c|c]], and [[Wolf 1061 d|d]]) (2015)<ref>{{cite web
+ | url =http://phys.org/news/2015-12-nearby-star-hosts-closest-alien.html
+ | title =Nearby star hosts closest alien planet in the 'habitable zone'
+ | last =
+ | first =
+ | date =December 16, 2015
+ | website =[[Phys.org]]
+ | publisher =
+ | access-date =2015-12-16
+ | quote =The planet, more than four times the mass of the Earth, is one of three that the team detected around a red dwarf star called Wolf 1061.}}</ref>
+|-
+| rowspan="2" | [[Wolf 424|Wolf&nbsp;424]]<br>(FL&nbsp;Virginis, LHS&nbsp;333, Gliese 473)
+| Wolf&nbsp;424&nbsp;A
+| rowspan="2" | {{val|14.05|0.26}}
+| style="background: {{star-color|M}};" | M5.5Ve
+| 13.18<ref name="RECONS" />
+| 14.97<ref name="RECONS" />
+| rowspan="2" | {{RA|12|33|17.2}}
+| rowspan="2" | {{DEC|+09|01|15}}
+| rowspan="2" | {{val|232.2|4.3}}<ref name="Gliese1991">{{cite web|url=http://webviz.u-strasbg.fr/viz-bin/VizieR-5?-source=V/70A&Name=Gl%20473|title=Gl 473|work=Preliminary Version of the Third Catalogue of Nearby Stars|author=Gliese, W. and Jahreiß, H.|year=1991|accessdate=10 May 2018}}</ref>
+| 1919
+| rowspan="2" | flare stars
+|-
+| Wolf&nbsp;424&nbsp;B
+| style="background: {{star-color|M}};" | M7Ve
+| 13.17<ref name="RECONS" />
+| 14.96<ref name="RECONS" />
+| 1941
+|-
+| colspan="2" style="background: #F5F5DC" | [[Van Maanen's star]] (Gliese 35, LHS&nbsp;7)
+| {{val|14.0744|0.0023}}
+| style="background: #F5F5DC" | [[White dwarf|DZ7]]<ref name="RECONS" />
+| 12.38<ref name="RECONS" />
+| 14.21<ref name="RECONS" />
+| {{RA|00|49|09.9}}
+| {{DEC|+05|23|19}}
+| {{val|231.737|0.038}}<ref name="GaiaDR2"/>
+| 1896
+| closest known free-floating white dwarf,<br>third known white dwarf<br>possible debris disk (1917),<br>possible planet (b) (2004) (debated)
+|-
+| colspan="2" | [[Gliese 1]] (CD−37°15492)
+| {{val|14.1725|0.0037}}
+| style="background: {{star-color|M}};" |  M1.5 V <ref name="RECONS" />
+| 8.55<ref name="RECONS" />
+| 10.35<ref name="RECONS" />
+| {{RA|00|05|24.4}}
+| {{DEC|−37|21|27}}
+| {{val|230.133|0.060}}<ref name="GaiaDR2"/>
+| 1884
+| 
+|-
+| colspan="2" | [[L 1159-16|L&nbsp;1159-16]] (TZ Arietis, Gliese 83.1)
+| {{val|14.5843|0.0070}}
+| style="background: {{star-color|M}};" | M4.5V<ref name="RECONS" />
+| 12.27<ref name="RECONS" />
+| 14.03<ref name="RECONS" />
+| {{RA|02|00|13.2}}
+| {{DEC|+13|03|08}}
+| {{val|223.63|0.11}}<ref name="GaiaDR2"/>
+| 
+| flare star
+|-
+| colspan="2" | [[Gliese 674]] (LHS&nbsp;449)
+| {{val|14.8387|0.0033}}
+| style="background: {{star-color|M}};" | M3.0V<ref name="RECONS" />
+| 9.38<ref name="RECONS" />
+| 11.09<ref name="RECONS" />
+| {{RA|17|28|39.9}}
+| {{DEC|−46|53|43}}
+| {{val|219.801|0.049}}<ref name="GaiaDR2"/>
+| 
+| one planet (b) (2007)<ref>{{cite web|url=http://exoplanet.eu/star.php?st=GJ+674|title=The Extrasolar Planet Encyclopaedia — Catalog Listing|publisher=}}</ref>
+|-
+| colspan="2" | [[Gliese 687]] (LHS&nbsp;450, BD+68°946)
+| {{val|14.8401|0.0022}}
+| style="background: {{star-color|M}};" | M3.0V<ref name="RECONS" />
+| 9.17<ref name="RECONS" />
+| 10.89<ref name="RECONS" />
+| {{RA|17|36|25.9}}
+| {{DEC|+68|20|21}}
+| {{val|219.781|0.032}}<ref name="GaiaDR2"/>
+| 
+| possible flare star, one planet (b) (2014)<ref name="GJ687b-discovery">[http://www.oklo.org/GL687.pdf The Lick–Carnegie exoplanet survey: Gliese 687 b: A Neptune-mass planet orbiting a nearby red dwarf] {{webarchive|url=https://web.archive.org/web/20140327221259/http://www.oklo.org/GL687.pdf |date=March 27, 2014 }}</ref>
+|-
+| colspan="2" | [[LHS 292|LHS&nbsp;292]] (LP&nbsp;731-58)
+| {{val|14.885|0.011}}
+| style="background: {{star-color|M}};" | M6.5V<ref name="RECONS" />
+| 15.60<ref name="RECONS" />
+| 17.32<ref name="RECONS" />
+| {{RA|10|48|12.6}}
+| {{DEC|−11|20|14}}
+| {{val|219.12|0.16}}<ref name="GaiaDR2"/>
+| 
+| flare star
+|-
+| colspan="2" style="background: #C67B30" | [[WISE J0521+1025]]
+| {{val|15|3}}<ref name=distance group=note>Might not be within 5 parsecs of the Sun.</ref>
+| style="background: {{star-color|T}};" | [[Brown dwarf|T7.5]]<ref name="Bihain2013">{{cite journal |last1=Bihain |first1=G. |last2=Scholz |first2=R.-D. |last3=Storm |first3=J. |last4=Schnurr |first4=O. |title=An overlooked brown dwarf neighbour (T7.5 at                            ~ 5 pc) of the Sun and two additional T dwarfs at about 10 pc |journal=Astronomy & Astrophysics |date=26 August 2013 |volume=557 |pages=A43 |doi=10.1051/0004-6361/201322141 |accessdate=|arxiv=1307.2722 |bibcode=2013A&A...557A..43B }}</ref>
+| 15.26 J
+| 16.95 J
+| {{RA|05|21|26.3}}
+| {{DEC|+10|25|28}}
+| {{val|217.5|40}}
+| 2012
+| distance highly uncertain
+|-
+| colspan="2" style="background: #F5F5DC" | [[LP 145-141]] (WD&nbsp;1142-645, Gliese 440)
+| {{val|15.1182|0.0023}}
+| style="background: #F5F5DC" | [[White dwarf|DQ6]]<ref name="RECONS" />
+| 11.50<ref name="RECONS" />
+| 13.18<ref name="RECONS" />
+| {{RA|11|45|42.9}}
+| {{DEC|−64|50|29}}
+| {{val|215.737|0.032}}<ref name="GaiaDR2"/>
+| 1917
+| 
+|-
+| rowspan="3" | [[G 208-44/208-45|G 208-44<br>G 208-45]]<br>(GJ 1245)
+| G&nbsp;208-44&nbsp;A (V1581&nbsp;Cyg)
+| rowspan="3" | {{val|15.2090|0.0050}}
+| style="background: {{star-color|M}};" | M5.5V<ref name="RECONS" />
+| 13.46<ref name="RECONS" />
+| 15.17<ref name="RECONS" />
+| {{RA|19|53|54.2}}
+| {{DEC|+44|24|55}}
+| rowspan="3" | {{val|214.45|0.07}}<ref name="GaiaDR2"/>
+| 
+| rowspan="3" | flare stars
+|-
+| G&nbsp;208-45
+| style="background: {{star-color|M}};" | M6.0V<ref name="RECONS" />
+| 14.01<ref name="RECONS" />
+| 15.72<ref name="RECONS" />
+| {{RA|19|53|55.2}}
+| {{DEC|+44|24|56}}
+|
+|-
+| G&nbsp;208-44&nbsp;B
+| style="background: {{star-color|M}};" | M5.5
+| 16.75<ref name="RECONS" />
+| 18.46<ref name="RECONS" />
+| {{RA|19|53|54.2}}
+| {{DEC|+44|24|55}}
+|
+|-
+| colspan="2" | [[Gliese 876]] (Ross&nbsp;780)
+| {{val|15.2504|0.0054}}
+| style="background: {{star-color|M}};" | M3.5V<ref name="RECONS" />
+| 10.17<ref name="RECONS" />
+| 11.81<ref name="RECONS" />
+| {{RA|22|53|16.7}}
+| {{DEC|−14|15|49}}
+| {{val|213.867|0.076}}<ref name="GaiaDR2"/>
+| 
+| four planets ([[Gliese 876 d|d]] (2005), [[Gliese 876 c|c]] (2001), [[Gliese 876 b|b]] (1998), and [[Gliese 876 e|e]] (2010))<ref>{{cite journal| last1=Rivera | first1=Eugenio J.| last2=Laughlin | first2=Gregory| last3=Butler | first3=R. Paul| last4=Vogt | first4=Steven S.| last5=Haghighipour | first5=Nader| last6=Meschiari | first6=Stefano| display-authors=1| title=The Lick-Carnegie Exoplanet Survey: A Uranus-mass Fourth Planet for GJ 876 in an Extrasolar Laplace Configuration| journal=The Astrophysical Journal| volume=719| issue=1| pages=890–899| date=July 2010 | doi=10.1088/0004-637X/719/1/890| bibcode=2010ApJ...719..890R | arxiv=1006.4244}}</ref><br>two possible planets (f and g) (2014) (debated)
+|-
+| colspan="2" | [[LHS 288|LHS&nbsp;288]] (Luyten&nbsp;143-23)
+| {{val|15.7703|0.0056}}
+| style="background: {{star-color|M}};" | M5.5V<ref name="RECONS" />
+| 13.90<ref name="RECONS" />
+| 15.51<ref name="RECONS" />
+| {{RA|10|44|21.2}}
+| {{DEC|−61|12|36}}
+| {{val|206.817|0.074}}<ref name="GaiaDR2"/>
+| 
+| one tentative planet (b) (2007)<ref name="henry2006" />
+|-
+| colspan="2" | [[GJ 1002]]
+| {{val|15.8164|0.0098}}
+| style="background: {{star-color|M}};" | M5.5V<ref name="RECONS" />
+| 13.76<ref name="RECONS" />
+| 15.40<ref name="RECONS" />
+| {{RA|00|06|43.8}}
+| {{DEC|−07|32|22}}
+| {{val|206.21|0.13}}<ref name="GaiaDR2"/>
+| 
+| 
+|-
+| colspan="2" | [[Groombridge 1618|Groombridge&nbsp;1618]] (Gliese 380)
+| {{val|15.8797|0.0026}}
+| style="background: {{star-color|K}};" | [[K-type main-sequence star|K7.0V]]<ref name="RECONS" />
+| 6.59<ref name="RECONS" />
+| 8.16<ref name="RECONS" />
+| {{RA|10|11|22.1}}
+| {{DEC|+49|27|15}}
+| {{val|205.392|0.034}}<ref name="GaiaDR2"/>
+| 1838
+| flare star, one suspected debris disk,<br>one suspected planet (b) (1989) (tentative)
+|-
+| colspan="2" style="background: #C67B30" | [[DEN 0255-4700|DEN&nbsp;0255-4700]]
+| {{val|15.885|0.020}}
+| style="background: {{star-color|L}};" | [[Brown dwarf|L7.5V]]<ref name="RECONS" />
+| 22.92<ref name="RECONS" />
+| 24.44<ref name="RECONS" />
+| {{RA|02|55|03.7}}
+| {{DEC|−47|00|52}}
+| {{val|205.33|0.25}}<ref name="GaiaDR2"/>
+| 1999
+| <ref name="costa2005" />
+|-
+| rowspan="2" | [[Gliese 412]]
+| Gliese 412&nbsp;A
+| rowspan="2" | {{val|15.983|0.013}}
+| style="background: {{star-color|M}};" | M1.0V<ref name="RECONS" />
+| 8.77<ref name="RECONS" />
+| 10.34<ref name="RECONS" />
+| {{RA|11|05|28.6}}
+| {{DEC|+43|31|36}}
+| rowspan="2" | {{val|204.06|0.17}}<ref name="GaiaDR2"/>
+| 1850s?
+|
+|-
+| Gliese 412&nbsp;B (WX&nbsp;Ursae&nbsp;Majoris)
+| style="background: {{star-color|M}};" | M5.5V<ref name="RECONS" />
+| 14.48<ref name="RECONS" />
+| 16.05<ref name="RECONS" />
+| {{RA|11|05|30.4}}
+| {{DEC|+43|31|18}}
+| 1850s?
+| flare star
+|-
+| colspan="2" style="background: #C67B30" | [[WISE 1639-6847]]
+| {{val|16.12|0.25}}<ref name=distance group=note/>
+| style="background: {{star-color|Y}};" | Y0.5
+| 20.57 J
+| 22.10 J
+| {{RA|16|39|40.9}}
+| {{DEC|-68|47|46}}
+| {{val|202.3|3.1}}<ref name="WISE 1639 parallax">{{cite journal|last1=Tinney|first1=C. G.|last2=Faherty|first2=Jacqueline K.|last3=Kirkpatrick|first3=J. Davy|last4=Cushing|first4=Mike|last5=Morley|first5=Caroline V.|last6=Wright|first6=Edward L.|title=THE LUMINOSITIES OF THE COLDEST BROWN DWARFS|journal=The Astrophysical Journal|date=4 November 2014|volume=796|issue=1|pages=39|doi=10.1088/0004-637X/796/1/39|language=en|issn=1538-4357|arxiv=1410.0746|bibcode=2014ApJ...796...39T}}</ref>
+| 2012
+| 
+|-
+| colspan="2" | [[Gliese 832]]
+| {{val|16.1939|0.0034}}
+| style="background: {{star-color|M}};" | M1.5 V<ref name="RECONS" />
+| 8.66<ref name="RECONS" />
+| 10.20<ref name="RECONS" />
+| {{RA|21|33|34.0}}
+| {{DEC|−49|00|32}}
+| {{val|201.407|0.043}}<ref name="GaiaDR2"/>
+| 1910s?
+| possible flare star, two planets ([[Gliese 832 b|b]] (2008) and [[Gliese 832 c|c]] (2014))<ref>{{cite journal | author=Bailey, Jeremy | display-authors=etal | title=A Jupiter-like Planet Orbiting the Nearby M Dwarf GJ832 | doi=10.1088/0004-637X/690/1/743 | bibcode=2009ApJ...690..743B | journal=The Astrophysical Journal | volume=690 | issue=1 | pages=743&ndash;747 | date=2008 | arxiv=0809.0172 }}</ref><ref>{{Cite journal|arxiv=1406.5587|title= GJ 832c: A super-earth in the habitable zone|journal= The Astrophysical Journal|volume= 791|issue= 2|pages= 114|publisher=|last1=  Wittenmyer|first1= R. A.|last2= Tuomi|first2= Mikko|last3=  Butler|first3= R. P.|last4=  Jones|first4= H. R. A.|last5= Anglada-Escude|first5= Guillem|last6= Horner|first6= Jonathan|last7=  Tinney|first7= C. G.|last8=  Marshall|first8= J. P.|last9=  Carter|first9= B. D.|last10=  Bailey|first10= J.|last11=  Salter|first11= G. S.|last12=  O'Toole|first12= S. J.|last13=  Wright|first13= D.|last14=  Crane|first14= J. D.|last15=  Schectman|first15= S. A.|last16=  Arriagada|first16= P.|last17=  Thompson|first17= I.|last18=  Minniti|first18= D.|last19=  Jenkins|first19= J. S.|last20=  Diaz|first20= M.|year= 2014|doi= 10.1088/0004-637X/791/2/114|bibcode=2014ApJ...791..114W}}</ref>
+|-
+| colspan="2" | [[AD Leonis|AD&nbsp;Leonis]]
+| {{val|16.1970|0.0055}}
+| style="background: {{star-color|M}};" | M3.0V<ref name="RECONS" />
+| 9.32<ref name="RECONS" />
+| 10.87<ref name="RECONS" />
+| {{RA|10|19|36.4}}
+| {{DEC|+19|52|10}}
+| {{val|201.368|0.068}}<ref name="GaiaDR2"/>
+| 1850s?
+| flare star
+|-
+| rowspan="2" | [[GJ 1005]]
+| GJ 1005 A
+| rowspan="2" | {{val|16.26|0.76}}<ref name=distance group=note/>
+| style="background: {{star-color|M}};" | M4V<ref name="G158-50">{{cite web|title=G 158-50 - SIMBAD|url=http://simbad.u-strasbg.fr/simbad/sim-id?Ident=G+158-50|website=SIMBAD|accessdate=2015-09-12}}</ref>
+| 11.48<ref name="G158-50" />
+|
+| rowspan="2" |{{RA|00|15|28.11}}
+| rowspan="2" |{{DEC|-16|08|01.6}}
+| rowspan="2" | {{val|200.5|9.4}}<ref name="G158-50" />
+|
+|
+|- 
+| GJ 1005 B
+| style="background: {{star-color|M}};" | M7V
+| ?
+| ?
+|
+|
+|- class="unsortable"
+!<small>[[Stellar system|System]]</small>
+!<small>Star #</small>
+! rowspan="2" |<small>[[Distance]]<ref name=distfn /><br>[[Light-year]]s [[margin of error|(±err)]]</small>
+! rowspan="2" |<small>[[Stellar classification|Stellar class]]</small>
+! rowspan="2" |<small>[[Apparent magnitude]] ({{nowrap|m<sub>[[UBV photometric system|V]]</sub> or m<sub>[[J band (infrared)|J]]</sub>}})</small>
+! rowspan="2" |<small>[[Absolute magnitude]] ({{nowrap|M<sub>[[UBV photometric system|V]]</sub> or M<sub>[[J band (infrared)|J]]</sub>}})</small>
+!<small>[[Right ascension]]<ref name=RECONS /></small>
+!<small>[[Declination]]<ref name=RECONS /></small>
+! rowspan="2" |<small>[[Parallax]]<ref name="RECONS"/><ref name=plxfn group=note/><br>[[milliarcsecond|mas]] [[margin of error|(±err)]]</small>
+! rowspan=2 | <small>Discovery date</small>
+! rowspan="2" |<small>[[#References|Additional<br>references]]</small>
+|-class="unsortable"
+! colspan="2" |<small>Designation</small>
+! style="background: #FFC" colspan="2" |<small>[[Epoch (astronomy)|Epoch]] J2000.0</small>
+|}
