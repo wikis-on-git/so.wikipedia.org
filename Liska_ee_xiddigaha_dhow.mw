@@ -7,7 +7,7 @@ apparent magnitude/absolute magnitude: 2-digit 0-padded value.
 discovery date: 4-digit 0-padded value, if no discovery date put 0000.
 all values formatted as {{ sort | value }}
 -->
-Stars visible to the unaided eye have their magnitude shown in '''{{font color||lightblue|light blue}}''' below. Brown dwarfs are shown with their designations in '''{{font color||#C67B30|brown}}'''. White dwarfs are shown with their designation in '''{{font color||#F5F5DC|beige}}'''. The [[spectral classification|class]]es of the stars and brown dwarfs are shown in the color of their spectral types (these colors are derived from conventional names for the spectral types and do not represent the star's observed color). Many brown dwarfs are not listed by [[visible spectrum|visual magnitude]] but are listed by near-infrared [[J band (infrared)|J band]] [[Magnitude (astronomy)|apparent magnitude]] due to how dim (and often invisible) they are in visible colors. Some of the [[parallax]] and distance results are preliminary measurements.<ref name="RECONS">{{cite journal
+.<ref name="RECONS">{{cite journal
 |date=September 17, 2007
 |title=The One Hundred Nearest Star Systems
 |journal=[[Research Consortium on Nearby Stars]] (RECONS)
