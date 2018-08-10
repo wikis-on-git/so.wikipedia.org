@@ -844,3 +844,10 @@ all values formatted as {{ sort | value }}
 ! colspan="2" |<small>Designation</small>
 ! style="background: #FFC" colspan="2" |<small>[[Epoch (astronomy)|Epoch]] J2000.0</small>
 |}
+
+
+
+{{wide image|Nearby Stars (14ly Radius).svg|600px|This map shows all of the star systems within 14 light-years of the Sun (shown as ''Sol''), except for brown dwarfs discovered after 2009<!---([[UGPS J072227.51-054031.2|UGPS 0722-05]], WISE ..., WISE 1049-5319 A&B --->. Double and triple stars are shown "stacked", but the true location is the star closest to the central plane. Color corresponds to the table above.}}
+{{wide image|Nearest stars red-green.png|600px|This is a 3D map of the nearest stars using the coordinates listed above. The stars in the front have a right ascension of 18h. An animated version is available [[:File:Nearest stars rotating red-green.gif|here]]. {{3d glasses|color=red green}}}}
+{{wide image|PIA18003-NASA-WISE-StarsNearSun-20140425-2.png|400px|The locations of the four star systems closest to the Sun. Two, a [[brown dwarf]] and a [[free planet]] were found by the WISE satellite. The year when the distance to each system was determined is listed after the system's name.}}
+{{Clear}}
