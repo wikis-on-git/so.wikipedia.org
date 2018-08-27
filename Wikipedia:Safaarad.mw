@@ -641,3 +641,17 @@ Thanks!
 <br/><span dir="ltr">[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 17:45, 30 Luuliyo 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small></span>
 </div>
 <!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Tgr/massmessage-T139380-ifadmin&oldid=18255968 -->
+
+== Editing of sitewide CSS/JS is only possible for interface administrators from now ==
+
+''({{int:please-translate}})''
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Hi all,
+
+as [[m:Special:MyLanguage/Creation of separate user group for editing sitewide CSS/JS/announcement 2|announced previously]], permission handling for CSS/JS pages has changed: only members of the <code>[[m:Special:MyLanguage/Interface administrators|interface-admin]]</code> ({{int:group-interface-admin}}) group, and a few highly privileged global groups such as stewards, can edit CSS/JS pages that they do not own (that is, any page ending with .css or .js that is either in the MediaWiki: namespace or is another user's user subpage). This is done to improve the security of readers and editors of Wikimedia projects. More information is available at [[m:Special:MyLanguage/Creation of separate user group for editing sitewide CSS/JS|Creation of separate user group for editing sitewide CSS/JS]]. If you encounter any unexpected problems, please contact me or file a bug.
+
+Thanks!<br />
+[[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 12:40, 27 Agoosto 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small>
+</div>
+<!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18258712 -->
