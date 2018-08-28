@@ -2,13 +2,13 @@
 {{Infobox country Chinese SAR
 |conventional_long_name = Macao Special Administrative Region of the People's Republic of China
 |common_name = Macau
-|native_name = {{small|{{nobold|{{native name|zh|中華人民共和國澳門特別行政區|italics=off}}<br>{{native name|yue|Jūng'wàh Yàhnmàhn Guhng'wòhgwok Oumún Dahkbiht Hàhngjingkēui}}<br>{{native name|pt|Região Administrativa Especial de Macau da República Popular da China}}}}}}
+|native_name = {{small|{{nobold|{{native name|zh|中華人民共和國澳門特別行政區|italics=off}}<br>{{native name|yue|Jūng'wàh Yàhnmàhn Guhng'wòhgwok Oumún |Dahkbiht Hàhngjingkēui}}<br>{{native name|pt|Região Administrativa Especial de Macau da República Popular da China}}}}}}
 |image_flag = Flag of Macau.svg
 |image_coat = Macau SAR Regional Emblem.svg
 |symbol_type = Emblem
 |other_symbol = {{vunblist|''[[Nelumbo nucifera]]''|{{lang|zh-hant|蓮花}}|''Līnfàa''}}
 |other_symbol_type = City flower
-|national_anthem = {{vunblist|"[[March of the Volunteers]]"|{{lang|zh-hant|義勇軍進行曲}}|''Yihyúhnggwān Jeunhàhngkūk''|{{lang|pt|Marcha dos Voluntários}}}}<div style="padding-top:0.5em;"><center>[[File:March of the Volunteers instrumental.ogg]]</center></div>
+|national_anthem = {{vunblist|"[[March of the Volunteers]]"|{{lang|zh-hant|義勇軍進行曲}}|''Yihyúhnggwān Jeunhàhngkūk''|{{lang|pt|Marcha dos |Voluntários}}}}<div style="padding-top:0.5em;"><center>[[File:March of the Volunteers instrumental.ogg]]</center></div>
 |image_map = Macau locator map.svg
 |map_width = 250px
 |alt_map = Location of Macau within China
@@ -37,8 +37,8 @@
 |leader_title6 = [[Court of Final Appeal (Macau)|Court President]]
 |leader_name6 = [[Sam Hou Fai]]
 |legislature = [[Legislative Assembly of Macau|Legislative Assembly]]
-|npc_deputies = 12 deputies {{nowrap|(of 2,924)}}<ref>{{cite web |url=https://macaunews.mo/local-npc-deputies-election-slated-dec-17/ |title=Local NPC deputies’ election slated for Dec 17 |date=27 November 2017 |work=Macau News 
-|access-date=1 January 2018 |deadurl=no |archiveurl=https://web.archive.org/web/20180103011709/https://macaunews.mo/local-npc-deputies-election-slated-dec-17/ |archivedate=3 January 2018 |df=dmy-all }}</ref>
+|npc_deputies = 12 deputies {{nowrap|(of 2,924)}}<ref>{{cite web |url=https://macaunews.mo/local-npc-deputies-election-slated-dec-17/ |title=Local |NPC deputies’ election slated for Dec 17 |date=27 November 2017 |work=Macau News 
+|access-date=1 January 2018 |deadurl=no |archiveurl=https://web.archive.org/web/20180103011709/https://macaunews.mo/local-npc-deputies-election-|slated-dec-17/ |archivedate=3 January 2018 |df=dmy-all }}</ref>
 |cppcc_delegates = 29 delegates {{nowrap|(of 2,158)}}
 |sovereignty_type = Autonomy {{nobold|within the [[China|People's Republic of China]]}}
 |established_event1 = [[History of Macau#Portuguese settlement|Portuguese settlement]]
@@ -97,6 +97,8 @@
 |country_code = MO
 |official_website = [https://www.gov.mo/ gov.mo]
 }}
+
+
 '''Makaw''' ({{IPAc-en|audio=en-us-Macau.ogg|m|ə|ˈ|k|aʊ|}}; "澳門," "澳门" )
 <gallery mode=packed class="center">
 File:Macau locator map.svg
