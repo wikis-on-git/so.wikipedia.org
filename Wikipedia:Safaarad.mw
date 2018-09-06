@@ -655,3 +655,30 @@ Thanks!<br />
 [[m:User:Tgr|Tgr]] ([[m:User talk:Tgr|talk]]) 12:40, 27 Agoosto 2018 (UTC) <small>(via [[m:Special:MyLanguage/Global_message_delivery|global message delivery]])</small>
 </div>
 <!-- Message sent by User:Tgr@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18258712 -->
+
+== Read-only mode for up to an hour on 12 September and 10 October ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"><div class="plainlinks">
+
+[[:m:Special:MyLanguage/Tech/Server switch 2018|Read this message in another language]]  •  {{int:please-translate}}
+
+The [[foundation:|Wikimedia Foundation]] will be testing its secondary data centre.  This will make sure that Wikipedia and the other Wikimedia wikis can stay online even after a disaster.  To make sure everything is working, the Wikimedia Technology department needs to do a planned test. This test will show if they can reliably switch from one data centre to the other. It requires many teams to prepare for the test and to be available to fix any unexpected problems. 
+
+They will switch all traffic to the secondary data center on '''Wednesday, 12 September 2018'''.
+On '''Wednesday, 10 October 2018''', they will switch back to the primary data center.  
+
+Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|MediaWiki]], all editing must stop when we switch.  We apologize for this disruption, and we are working to minimize it in the future. 
+
+'''You will be able to read, but not edit, all wikis for a short period of time.'''
+
+*You will not be able to edit for up to an hour on Wednesday, 12 September and Wednesday, 10 October. The test will start at [https://www.timeanddate.com/worldclock/fixedtime.html?iso=20170503T14 14:00 UTC] (15:00 BST, 16:00 CEST, 10:00 EDT, 07:00 PDT, 23:00 JST, and in New Zealand at 02:00 NZST on Thursday 13 September and Thursday 11 October). 
+*If you try to edit or save during these times, you will see an error message.  We hope that no edits will be lost during these minutes, but we can't guarantee it.  If you see the error message, then please wait until everything is back to normal.  Then you should be able to save your edit.  But, we recommend that you make a copy of your changes first, just in case.
+
+''Other effects'':
+
+*Background jobs will be slower and some may be dropped. Red links might not be updated as quickly as normal. If you create an article that is already linked somewhere else, the link will stay red longer than usual. Some long-running scripts will have to be stopped.
+*There will be code freezes for the weeks of 10 September 2018 and 8 October 2018.  Non-essential code deployments will not happen.
+
+This project may be postponed if necessary.  You can [[wikitech:Switch Datacenter#Schedule for 2018 switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this.  '''Please share this information with your community.''' /<span dir=ltr>[[m:User:Johan (WMF)|User:Johan(WMF)]] ([[m:User talk:Johan (WMF)|talk]])</span>
+</div></div> 13:33, 6 Sebteembar 2018 (UTC)
+<!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18333489 -->
