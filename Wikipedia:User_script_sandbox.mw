@@ -1,33 +1,5 @@
-<div id="sandbox-loading">
-{{ombox
-| type  = notice
-| image = [[File:Ambox clock.svg|48px|alt=|link=]]
-| text  = '''The user script sandbox editor is loading...'''<br><small>If it fails to appear in several seconds, ensure that you have installed the [[Wikipedia:User script sandbox/Installation|"User script sandbox" user script]].</small>
-}}
-</div>
+{{historical}}
 
-This page allows you to carry out experiments with user [[JavaScript]] and [[Cascading Style Sheets|CSS]] code locally &ndash; that is, without saving it to your user JS/CSS page first. '''Code you enter here will not show up on any other computer or web browser and will be lost if you clear your browser's [[Web storage|local storage]].''' To use this page, you need to have first installed a [[Wikipedia:User script sandbox/Installation|special user script]].
+The '''User script sandbox''' is no longer available. Browser tools like Mozilla Firefox's [https://developer.mozilla.org/en-US/docs/Tools/Scratchpad Scratchpad] feature should be suitable replacements.
 
-<div id="sandbox-wrapper" style="display: none; margin-top: 1em;">
-
-<span id="sandbox-enabled-placeholder"></span> <span id="sandbox-enabled-label">Enable sandbox</span>
-
-<span id="sandbox-dependencies-label">Dependencies (comma separated)</span> <span id="sandbox-dependencies-placeholder"></span>
-
-<div id="sandbox-tabs">
-* [[#sandbox-js-tab|JavaScript]]
-* [[#sandbox-css-tab|CSS]]
-
-<div id="sandbox-js-tab">
-<div id="sandbox-js-area-placeholder"></div>
-</div>
-
-<div id="sandbox-css-tab">
-<div id="sandbox-css-area-placeholder"></div>
-</div>
-
-</div>
-
-<span id="sandbox-save-local-text">Save to local storage</span>
-
-</div>
+[[Category:Wikipedia scripts]]
