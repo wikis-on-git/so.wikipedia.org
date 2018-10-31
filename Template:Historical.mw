@@ -1,0 +1,17 @@
+{{mbox
+| type       = notice
+| image      = [[File:Historical.svg|30px|alt=|link= WP:HISPAGES ]]
+| imageright = {{#if:{{{1<includeonly>|</includeonly>}}} | {{Ombox/shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }} }}
+| text       = {{#switch:{{NAMESPACE}}
+ |User|User talk='''This user {{#ifeq:{{BASEPAGENAME}}|{{PAGENAME}}||sub}}page is currently inactive and is retained for ''historical'' reference.'''<br /><span style="font-size: 90%">{{#if: {{{last|}}}{{{date|}}}|It was last substantively updated {{{last|{{{date|}}}}}}.}}<br />If you want to revive discussion regarding the subject, you might try contacting [[User talk:{{ROOTPAGENAME}}|the user in question]] or seeking broader input via a forum such as the [[Wikipedia:Village pump (proposals)|village pump]].</span>
+ |#default={{#switch:{{{type}}}
+  |policy='''This former [[Wikipedia:Policies and guidelines|Wikipedia policy]], no longer backed by community consensus, is retained for historical reference.'''
+  |guideline='''This former [[Wikipedia:Policies and guidelines|Wikipedia guideline]], no longer backed by community consensus, is retained for historical reference.'''
+  |section='''This section is currently inactive and is retained for [[WP:HISPAGES|historical]] reference.'''{{#if: {{{brief|}}}||<br /><span style="font-size: 90%">Either the page is no longer relevant or consensus on its purpose has become unclear. To revive discussion, seek broader input via a forum such as the [[Wikipedia:Village pump (proposals)|village pump]].</span>}}
+  |woundup='''This page has been closed down by [[Wikipedia:Consensus|community consensus]], and is retained only for [[Wikipedia:Policies and guidelines#historical|historical]] reference.'''<br /><span style="font-size: 90%">If you wish to restart discussion on the status of this page, seek community input at a forum such as the [[Wikipedia:Village pump|village pump]].</span>
+  |#default='''This page is currently inactive and is retained for [[Wikipedia:Policies and guidelines#historical|historical]] reference.'''{{#if: {{{brief|}}}||<br /><span style="font-size: 90%">Either the page is no longer relevant or consensus on its purpose has become unclear. To revive discussion, seek broader input via a forum such as the [[Wikipedia:Village pump (proposals)|village pump]].</span>
+ }}
+}}
+}} <span style="font-size: 90%">{{{comment|}}} {{#if: {{{last|}}}|It was last updated {{{last}}}.}}</span>
+}}<includeonly>{{#switch:{{NAMESPACE}}|User|User talk=|#default={{#ifeq:{{{category}}}|no||[[Category:Inactive project pages|{{PAGENAME}}]]}}}}</includeonly><noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
