@@ -1,0 +1,20 @@
+<div role="note" class="shortcutbox plainlist noprint" style="float: right; border-left: 1px solid #aaa; padding: .4em 0em .4em 1em; text-align: center; line-height: 1.4em; font-weight: bold; font-size: smaller;"><!-- 
+Putting anchors on page:
+-->{{#if:{{{1|}}}|<span id="{{{1|}}}"></span> }}{{#if:{{{2|}}}|<span id="{{{2|}}}"></span> }}{{#if:{{{3|}}}|<span id="{{{3|}}}"></span> }}{{#if:{{{4|}}}|<span id="{{{4|}}}"></span> }}{{#if:{{{5|}}}|<span id="{{{5|}}}"></span> }}<!--
+Adding the shortcut links:
+--><div style="display: inline-block; border-bottom: 1px solid #aaa; line-height: 1.5em; font-weight: normal; margin-bottom: .2em;">[[Wikipedia:Shortcut|Shortcut{{#if:{{{2|}}}|s}}]]</div><!--
+-->{{#if:{{{1|}}}|
+* {{nowrap|{{no redirect|{{{1}}}}}}}
+}}{{#if:{{{2|}}}|
+* {{nowrap|{{no redirect|{{{2}}}}}}}
+}}{{#if:{{{3|}}}|
+* {{nowrap|{{no redirect|{{{3}}}}}}}
+}}{{#if:{{{4|}}}|
+* {{nowrap|{{no redirect|{{{4}}}}}}}
+}}{{#if:{{{5|}}}|
+* {{nowrap|{{no redirect|{{{5}}}}}}}
+}}
+</div>
+<noinclude>
+{{Documentation}}
+</noinclude>
