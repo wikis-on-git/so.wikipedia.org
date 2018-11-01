@@ -168,6 +168,8 @@ Marka laga yimaado ku darsiga cuntada iyo cabitaanka, [[isku dhis]]yada Milixda 
 |-
 | 62 || align="left" | {{flagcountry|Sri Lanka}} || 85,000 || align="center"|{{Nts|{{#expr: (85000/276500000)*100 round 2}}}} %
 |-
+| 63 || align="left" | {{flagcountry|Somalia}} || 80,000 || align="center"|{{Nts|{{#expr: (1000/276500000)*100 round 2}}}} %
+|-
 | 63 || align="left" | {{flagcountry|Albania}} || 84,798  || align="center"|{{Nts|{{#expr: (84798/276500000)*100 round 2}}}} %
 |-
 | 64 || align="left" | {{flagcountry|Cambodia}} || 80,000 || align="center"|{{Nts|{{#expr: (80000/276500000)*100 round 2}}}} %
@@ -240,9 +242,7 @@ Marka laga yimaado ku darsiga cuntada iyo cabitaanka, [[isku dhis]]yada Milixda 
 |-
 | 91 || align="left" | {{flagcountry|Niger}} || 1,300  || align="center"|{{Nts|{{#expr: (1300/276500000)*100 round 2}}}} %
 |-
-| 92 || align="left" | {{flagcountry|Somalia}} || 1,000 || align="center"|{{Nts|{{#expr: (1000/276500000)*100 round 2}}}} %
-|-
-| 93 || align="left" | {{flagcountry|Mauritania}} || 700 || align="center"|{{Nts|{{#expr: (700/276500000)*100 round 2}}}} %
+| 92 || align="left" | {{flagcountry|Mauritania}} || 700 || align="center"|{{Nts|{{#expr: (700/276500000)*100 round 2}}}} %
 |}
 |
 {| valign="top" class="wikitable sortable" style="text-align:right"
