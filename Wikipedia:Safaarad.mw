@@ -682,3 +682,45 @@ Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|Med
 This project may be postponed if necessary.  You can [[wikitech:Switch Datacenter#Schedule for 2018 switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this.  '''Please share this information with your community.''' /<span dir=ltr>[[m:User:Johan (WMF)|User:Johan(WMF)]] ([[m:User talk:Johan (WMF)|talk]])</span>
 </div></div> 13:33, 6 Sebteembar 2018 (UTC)
 <!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18333489 -->
+
+== Editing News #2—2018 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+''[[metawiki:VisualEditor/Newsletter/2018/October|Read this in another language]] • [[m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]''
+
+<div style="float:right;width:270px;margin-left:1em;border-style:solid;border-width:1px;padding:1em;">
+[[File:VisualEditor-logo.svg|200px|center]]
+'''Did you know?'''  
+<div class="thumbcaption" style="font-size: 90%;">  
+
+Did you know that you can use the visual editor on a mobile device?
+[[File:Mobile editing watchlist star editing pencil.png|alt=Screenshot showing the location of the pencil icon|center|frameless|250px]]
+
+Tap on the pencil icon to start editing.  The page will probably open in the wikitext editor.
+
+You will see another pencil icon in the toolbar.  Tap on that pencil icon to the switch between visual editing and wikitext editing.
+
+[[File:Visual editing mobile switch wikitext.png|alt=Toolbar with menu opened|center|frameless|250px]]
+
+Remember to publish your changes when you're done.
+
+You can read and help translate [[mw:Special:MyLanguage/Help:VisualEditor/User guide|the user guide]], which has more information about how to use the visual editor.</div></div>
+
+Since the last newsletter, the [[mw:Editing|Editing Team]] has wrapped up most of their work on the [[mw:2017 wikitext editor|2017 wikitext editor]] and [[mw:VisualEditor/Diffs|the visual diff tool]].  The team has begun investigating the needs of editors who use mobile devices.  Their work board is available [[phab:project/view/3236/|in Phabricator]].  Their [[mw:Wikimedia Audiences/2018-19 Q2 Goals#Contributors|current priorities]] are fixing bugs and improving mobile editing.   
+
+=== Recent changes ===
+*The Editing team has published an [[mw:Mobile editing using the visual editor report|initial report about mobile editing]].  
+*The Editing team has begun a design study of visual editing on the mobile website.  New editors have trouble doing basic tasks on a smartphone, such as adding links to Wikipedia articles.  You can [[c:File:Visual Editor Heuristic - Results.pdf|read the report]].
+*The Reading team is working on a [[mw:Reading/Web/Advanced mobile contributions|separate mobile-based contributions project]].
+*The 2006 wikitext editor is [[mw:Contributors/Projects/Removal of the 2006 wikitext editor|no longer supported]].  If you used [[:File:Edit toolbar - 2.png|that toolbar]], then you will no longer see any toolbar.  You may choose another editing tool in your [[Special:Preferences#mw-prefsection-editing|editing preferences]], [[Special:Preferences#mw-prefsection-gadgets|local gadgets]], or [[Special:Preferences#mw-prefsection-betafeatures|beta features]].
+*The Editing team described the history and status of [[mw:Extension:VisualEditor|VisualEditor]] in [[m:Wikimedia monthly activities meetings/2018-03|this recorded public presentation]] (starting at 29 minutes, 30 seconds).
+*The Language team released [[mw:Content translation/V2|a new version of Content Translation]] (CX2) last month, on [[foundationsite:2018/09/30/international-translation-day/|International Translation Day]]. It integrates the visual editor to support templates, tables, and images.  It also produces better wikitext when the translated article is published. [https://wikimediafoundation.org/2018/09/30/content-translation-version-two/]
+
+=== Let's work together ===
+* The Editing team wants to improve visual editing on the mobile website.  <mark>Please read [[mw:Visual-based mobile editing/Ideas/October 2018|their ideas]] and tell the team what you think would help editors who use the mobile site.</mark>  
+*The [[m:Community Wishlist Survey 2019|Community Wishlist Survey]] begins next week.
+*If you aren't reading this in your preferred language, then please help us with translations! Subscribe to the [[mail:translators-l|Translators mailing list]] or [https://meta.wikimedia.org/w/index.php?title=User_talk:Elitre_(WMF)&action=edit&section=new contact us] directly. We will notify you when the next issue is ready for translation. {{int:Feedback-thanks-title}}
+
+—[[mw:User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[mw:User talk:Whatamidoing (WMF)|talk]])
+</div> 14:17, 2 Nofeembar 2018 (UTC)
+<!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=17790200 -->
