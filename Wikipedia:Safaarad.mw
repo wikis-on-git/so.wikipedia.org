@@ -724,3 +724,25 @@ Since the last newsletter, the [[mw:Editing|Editing Team]] has wrapped up most o
 —[[mw:User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[mw:User talk:Whatamidoing (WMF)|talk]])
 </div> 14:17, 2 Nofeembar 2018 (UTC)
 <!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=VisualEditor/Newsletter/Wikis_with_VE&oldid=17790200 -->
+
+== Change coming to how certain templates will appear on the mobile web ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''Change coming to how certain templates will appear on the mobile web'''
+
+{{int:please-translate}}
+[[File:Page_issues_-_mobile_banner_example.jpg|thumb|Example of improvements]]
+
+Hello,
+
+In a few weeks the Readers web team will be changing how some templates look on the mobile web site. We will make these templates more noticeable when viewing the article. We ask for your help in updating any templates that don't look correct.
+
+What kind of templates? Specifically templates that notify readers and contributors about issues with the content of an article – the text and information in the article. Examples like [[wikidata:Q5962027|Template:Unreferenced]] or [[Wikidata:Q5619503|Template:More citations needed]]. Right now these notifications are hidden behind a link under the title of an article. We will format templates like these (mostly those that use Template:Ambox or message box templates in general) to show a short summary under the page title. You can tap on the "Learn more" link to get more information.
+
+For template editors we have [[mw:Recommendations_for_mobile_friendly_articles_on_Wikimedia_wikis#Making_page_issues_(ambox_templates)_mobile_friendly|some recommendations on how to make templates that are mobile-friendly]] and also further [[mw:Reading/Web/Projects/Mobile_Page_Issues|documentation on our work so far]].
+
+If you have questions about formatting templates for mobile, [[mw:Talk:Reading/Web/Projects/Mobile_Page_Issues|please leave a note on the project talk page]] or [https://phabricator.wikimedia.org/maniphest/task/edit/form/1/?projects=Readers-Web-Backlog file a task in Phabricator] and we will help you.
+
+{{Int:Feedback-thanks-title}}
+</div> [[m:User:CKoerner (WMF)|CKoerner (WMF)]] ([[m:User talk:CKoerner (WMF)|talk]]) 19:35, 13 Nofeembar 2018 (UTC)
+<!-- Message sent by User:CKoerner (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=18543269 -->
