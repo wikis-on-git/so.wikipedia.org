@@ -834,3 +834,15 @@ Thank you. -- On behalf of WMF Language team: [[m:User:Runab_WMF|Runa Bhattachar
 
 </div>
 <!-- Message sent by User:Runab WMF@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/CX/9_January_2019&oldid=18768811 -->
+
+== FileExporter beta feature ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"> 
+[[File:Logo for the beta feature FileExporter.svg|thumb|Coming soon: the beta feature [[m:WMDE_Technical_Wishes/Move_files_to_Commons|FileExporter]]]]
+A new beta feature will soon be released on all wikis: The [[m:WMDE_Technical_Wishes/Move_files_to_Commons|FileExporter]]. It allows exports of files from a local wiki to Wikimedia Commons, including their file history and page history. Which files can be exported is defined by each wiki's community: '''Please check your wiki's [[m:WMDE_Technical_Wishes/Move_files_to_Commons/Configuration file documentation|configuration file]]''' if you want to use this feature.
+
+The FileExporter has already been a beta feature on [https://www.mediawiki.org mediawiki.org], [https://meta.wikimedia.org meta.wikimedia], deWP, faWP, arWP, koWP and on [https://wikisource.org wikisource.org]. After some functionality was added, it's now becoming a beta feature on all wikis. Deployment is planned for January 16. More information can be found [[m:WMDE_Technical_Wishes/Move_files_to_Commons|on the project page]]. 
+
+As always, feedback is highly appreciated. If you want to test the FileExporter, please activate it in your [[Special:Preferences#mw-prefsection-betafeatures|user preferences]]. The best place for feedback is the [[mw:Help_talk:Extension:FileImporter|central talk page]]. Thank you from Wikimedia Deutschland's [[m:WMDE Technical Wishes|Technical Wishes project]].
+</div> [[User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 09:41, 14 Jannaayo 2019 (UTC)
+<!-- Message sent by User:Johanna Strodt (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=18782700 -->
