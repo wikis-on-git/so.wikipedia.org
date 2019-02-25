@@ -1,0 +1,354 @@
+{{Infobox
+| bodyclass   = vcard
+| bodystyle   = {{#if:{{{fontcolor|}}}|color: {{{fontcolor}}};}} {{#if:{{{width|}}}|width: {{{width}}};}} {{#if:{{{tablecolor|}}}|background-color: {{{tablecolor}}}}}
+| headerstyle = {{#if:{{{color|}}}|background-color: {{{color}}}}}; {{#if:{{{headerfontcolor|}}}|color: {{{headerfontcolor}}}}}
+| abovestyle  = {{#if:{{{abovecolor|}}}|background-color: {{{abovecolor}}}|}}; {{#if:{{{abovefontcolor|}}}|color: {{{abovefontcolor}}}|}}
+
+| title       = <includeonly>{{#if:{{{abovefontcolor|}}}||{{{title|{{BASEPAGENAME}}}}} {{#if:{{{status|}}}|<br /><small>{{{status}}}</small>}}}}</includeonly>
+| above       = {{#if:{{{abovefontcolor|}}}|{{{title|{{BASEPAGENAME}}}}} {{#if:{{{status|}}}|<br /><small>{{{status}}}</small>}}}}
+
+| subheader   = —&nbsp;<span class="role">{{#if:{{{role|}}}|{{{role}}}|[[Wikipedia]]n}}</span>&nbsp;{{#switch:{{lc:{{{gender|{{Gender:{{#titleparts:{{BASEPAGENAME}}|1}}|m|f|NONE}}}}}}}|male|m={{Abbr|&#9794;|male|class=gender|style=font-size: larger;|unicode}}[[Category:Male Wikipedians]]&nbsp;|female|f={{Abbr|&#9792;|female|class=gender|style=font-size: larger;|unicode}}[[Category:Female Wikipedians]]&nbsp;|other|o={{abbr|1=<span style="line-height: 12px;">[[File:Gendersign.svg|x12px|alt=other gender|link=]]</span>|2=other gender|class=gender}}&nbsp;||none=|#default={{abbr|1=<span style="line-height: 12px;">[[File:Gendersign.svg|x12px|alt={{{gender}}}|link=]]</span>|2={{{gender}}}|class=gender}}&nbsp;}}—
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|alt={{{image_alt|}}}|size={{{image_width|238px}}}|title={{{image_caption|}}}}}
+| caption     = {{{image_caption|}}}
+
+| label1      = Name
+| data1       = {{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix">{{{honorific prefix|{{{honorific_prefix|}}}}}}&nbsp;</span>}}{{#if:{{{name|}}}|<includeonly><span class="fn">{{{name|}}}</span></includeonly>}}{{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|&nbsp;<span class="honorific-suffix">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+
+| label2      = Born
+| data2       = {{br separated entries|1={{#if:{{{birthname|{{{birth_name|}}}}}}|<span class="nickname">{{{birthname|{{{birth_name}}}}}}</span>}}|2={{{birthdate|{{{birth_date|}}}}}}|3={{#if:{{{birthplace|{{{birth_place|}}}}}}|<span class="birthplace">{{{birthplace|{{{birth_place}}}}}}</span>}}}}
+
+| label3      = Name in real life
+| data3       = {{{real_name|}}}
+| class3      = nickname
+
+| label4      = Gender
+| data4       = {{{custom_gender|}}}
+
+| label5      = Preferred pronoun
+| data5       = {{{pronoun|}}}
+
+| label6      = Nationality
+| data6       = {{{nationality|}}}
+| class6      = category
+
+| label7      = Country
+| data7       = {{#ifexist:template:country data {{ucfirst:{{{country}}}}}|{{flag|{{ucfirst:{{{country}}}}}}}|{{ucfirst:{{{country|}}}}}}}
+
+| label8      = Current&nbsp;location
+| data8       = {{#if:{{{location|}}}| {{#ifeq:{{#if:{{{country|}}}|1|0}}{{#ifexist:{{{location}}}, {{{country}}}|1|0}}|11<!-- i.e. both conditions are met-->|[[{{{location}}}, {{{country}}}|{{{location}}}]] | {{#ifeq:{{#ifeq:{{strfind short|{{{location|}}}|,|1}}|0|0|1}}{{#ifexist:{{{location|}}}|1|0}}|11<!-- i.e. both conditions are met-->| [[{{{location}}}]] | {{{location}}} }} }} }}
+| class8      = label
+
+| label9      = Languages
+| data9       = {{{languages|}}}
+| class9      = category
+
+| label10     = Time&nbsp;zone
+| data10      = {{#if:{{{timezone|}}}|{{#if:{{isValidPageName|{{{timezone}}}}}|[[{{{timezone}}}]]|{{{timezone}}}}}}}
+
+| label11     = Current&nbsp;time
+| data11      = {{{current_time|}}}
+
+| label13     = Ethnicity
+| data13      = {{{ethnicity|}}}
+| class13     = category
+
+| label14     = Race
+| data14      = {{{race|}}}
+| class14     = category
+
+| label15     = Height
+| data15      = {{{height|}}}
+
+| label16     = Weight
+| data16      = {{{weight|}}}
+
+| label17     = Hair
+| data17      = {{{hair|}}}
+
+| label18     = Eyes
+| data18      = {{{eyes|}}}
+
+| label19     = [[Handedness]]
+| data19      = {{{handedness|}}}
+
+| label20     = [[Blood&nbsp;type]]
+| data20      = {{{blood_type|}}}
+
+| label21     = Sexuality
+| data21      = {{{sexuality|}}}
+| class21     = category
+
+| label22     = [[Intelligence quotient|IQ]]
+| data22      = {{{iq|}}}
+
+| label23     = [[Myers–Briggs Type Indicator|Personality&nbsp;type]]
+| data23      = {{{personality_type|}}}
+| class23     = category
+
+| label24     = {{#switch:{{lc:{{{alignment|}}}}}|lawful good|neutral good|chaotic good|lawful neutral|neutral|true neutral|chaotic neutral|lawful evil|neutral evil|chaotic evil=[[Alignment (Dungeons & Dragons)|Alignment]]|light side|lightside|light|jedi|dark side|darkside|dark|sith=[[Alignment (role-playing games)#Star Wars|Alignment]]|#default=[[Alignment (role-playing games)|Alignment]]}}
+| data24      = {{#switch:{{lc:{{{alignment|}}}}}|lawful good|neutral good|chaotic good|lawful neutral|neutral|true neutral|chaotic neutral|lawful evil|neutral evil|chaotic evil=[[{{{alignment|}}}]]|light side|lightside|light|jedi=[[Force (Star Wars)|Light Side]]|dark side|darkside|dark|sith=[[Dark side (Star Wars)|Dark Side]]|#default={{{alignment|}}}}}
+| class24     = category
+
+| header25    = {{#if:{{{marital status|}}}{{{spouse|}}}{{{girlfriend|}}}{{{boyfriend|}}}{{{children|}}}{{{siblings|}}}{{{pets|}}}|Family and friends}}
+
+| label26     = Marital&nbsp;status
+| data26      = {{{marital status|}}}
+| class26     = category
+
+| label27     = Spouse
+| data27      = {{{spouse|{{{partner|}}}}}}
+
+| label28     = Girlfriend
+| data28      = {{{girlfriend|}}}
+
+| label29     = Boyfriend
+| data29      = {{{boyfriend|}}}
+
+| label30     = Children
+| data30      = {{{children|}}}
+
+| label31     = Siblings
+| data31      = {{{siblings|}}}
+
+| label32     = Parents
+| data32      = {{{parents|}}}
+
+| label33     = Pets
+| data33      = {{{pets|}}}
+
+| header34    = {{#if:{{{occupation|}}}{{{employer|}}}{{{education|}}}{{{college|}}}{{{university|}}}{{{highschool|}}}|Education and employment}}
+
+| label35     = Occupation
+| data35      = {{{occupation|}}}
+| class35     = role
+
+| label36     = Employer
+| data36      = {{{employer|}}}
+| class36     = org
+
+| label37     = Education
+| data37      = {{{education|}}}
+
+| label38     = Primary school
+| data38      = {{{primaryschool|}}}
+
+| label39     = Intermediate school
+| data39      = {{{intschool|}}}
+
+| label40     = High school
+| data40      = {{{highschool|}}}
+
+| label41     = College
+| data41      = {{{college|}}}
+
+| label42     = University
+| data42      = {{{university|}}}
+
+| label43     = Classes
+| data43      = {{{classes|}}}
+
+| header44    = {{#if:{{{hobbies|}}}{{{religion|}}}{{{politics|}}}{{{aliases|}}}{{{movies|}}}{{{books|}}}|Hobbies, favourites and beliefs}}
+
+| label45     = Hobbies
+| data45      = {{{hobbies|}}}
+
+| label46     = Religion
+| data46      = {{{religion|}}}
+| class46     = category
+
+| label47     = Politics
+| data47      = {{{politics|}}}
+
+| label48     = [[Pseudonym|Aliases]]
+| data48      = {{{aliases|}}}
+| class48     = nickname
+
+| label49     = Movies
+| data49      = {{{movies|}}}
+
+| label50     = Shows
+| data50      = {{{shows|}}}
+
+| label51     = Books
+| data51      = {{{books|}}}
+
+| header52    = {{#if:{{{interests|}}}|Interests}}
+
+| data53      = {{#if:{{{interests|}}}|<div style="text-align: left">
+{{{interests|}}}
+</div>}}
+
+| header54    = {{#if:{{{website|}}}{{{blog|}}}{{{email|}}}{{{icq|}}}{{{aim|}}}{{{gtalk|}}}{{{jabber|}}}{{{skype|}}}{{{mac|}}}{{{irc|}}}{{{discord|}}}{{{facebook|}}}{{{google+|}}}{{{instagram|}}}{{{linkedin|}}}{{{myspace|}}}{{{pinterest|}}}{{{twitter|}}}{{{youtube|}}}{{{flickr|}}}{{{github|}}}|Contact info}}
+
+| label55     = Website
+| data55      = {{{website|}}}
+
+| label56     = Blog
+| data56      = {{{blog|}}}
+
+| label57     = Email
+| data57      = {{{email|}}}
+
+| label58     = [[ICQ]]
+| data58      = {{#if:{{{icq|}}}|[https://people.icq.com/people/about_me.php?uin={{urlencode:{{{icq}}}}} {{{icq}}}]}}
+
+| label59     = [[AOL Instant Messenger|AIM]]
+| data59      = {{{aim|}}}
+
+| label60     = [[GTalk]]
+| data60      = {{{gtalk|}}}
+
+| label61     = [[Extensible Messaging and Presence Protocol|XMPP]]
+| data61      = {{{jabber|}}}
+
+| label62     = [[Skype]]
+| data62      = {{{skype|}}}
+
+| label63     = .Mac
+| data63      = {{{mac|}}}
+
+| label64     = [[WP:IRC|IRC]]
+| data64      = {{{irc|}}}
+
+| label65     = [[WP:Discord|Discord]]
+| data65      = {{{discord|}}}
+
+| label66     = [[Facebook]]
+| data66      = {{#if:{{{facebook|}}}|[https://www.facebook.com/{{urlencode:{{{facebook}}}}} {{{facebook}}}]}}
+
+| label67     = [[Google+]]
+| data67      = {{#if:{{{google+|}}}|[https://plus.google.com/+{{urlencode:{{{google+}}}}} +{{{google+}}}]}}
+
+| label68     = [[Instagram]]
+| data68      = {{#if:{{{instagram|}}}|[https://www.instagram.com/{{urlencode:{{{instagram}}}}} {{{instagram}}}]}}
+
+| label69     = [[LinkedIn]]
+| data69      = {{#if:{{{linkedin|}}}|[https://www.linkedin.com/profile/view?&name={{urlencode:{{{linkedin}}}}} {{{linkedin}}}]}}
+
+| label70     = [[Myspace]]
+| data70      = {{{myspace|}}}
+
+| label71     = [[Pinterest]]
+| data71      = {{{pinterest|}}}
+
+| label72     = [[Twitter]]
+| data72      = {{#if:{{{twitter|}}}|[https://twitter.com/{{urlencode:{{{twitter}}}}} {{{twitter}}}]}}
+
+| label73     = [[YouTube]]
+| data73      = {{#if:{{{youtube|}}}|[https://www.youtube.com/user/{{urlencode:{{{youtube}}}}} {{{youtube}}}]}}
+
+| label74     = [[Flickr]]
+| data74      = {{#if:{{{flickr|}}}|[https://www.flickr.com/photos/{{urlencode:{{{flickr}}}}} {{{flickr}}}]}}
+
+| label75     = [[GitHub]]
+| data75      = {{#if:{{{github|}}}|[https://www.github.com/{{urlencode:{{{github}}}}} {{{github}}}]}}
+
+| header76    = {{#if:{{{subpages|}}}|[[Special:Prefixindex/User:{{BASEPAGENAMEE}}/|{{BASEPAGENAME}} subpages]]}}
+
+| data77      = {{#if:{{{subpages|}}}|<div style="text-align: left">
+{{{subpages|}}}
+</div>}}
+
+| header78    = {{#if:{{{joined_date|}}}{{{first_edit|}}}{{{edit_count|}}}{{{permissions|}}}|Account statistics}}
+
+| label79     = Joined
+| data79      = {{{joined_date|}}}
+
+| label80     = First edit
+| data80      = {{{first_edit|}}}
+
+| label81     = [[WP:CONFIRM|{{#if:{{{autoconfirmed|}}}|{{#if:{{{confirmed|}}}|Confirmed<br />}}Autoconfirmed|{{#if:{{{confirmed|}}}|Confirmed}}}}]]
+| data81      = {{#if:{{{autoconfirmed|}}}|{{#if:{{{confirmed|}}}|{{{confirmed}}}<br />}}{{{autoconfirmed}}}|{{#if:{{{confirmed|}}}|{{{confirmed}}}}}}}
+
+| label82     = [[WP:Account creator|Account creator]]
+| data82      = {{{account_creator|}}}
+
+| label83     = [[WP:Autopatrolled|Autopatrolled]]
+| data83      = {{{autopatrolled|}}}
+
+| label84     = [[WP:File mover|File mover]]
+| data84      = {{{file_mover|}}}
+
+| label85     = [[WP:Mass message senders|{{Abbr|MMS|Mass message sender}}]]
+| data85      = {{{mass_message_sender|}}}
+
+| label86     = [[WP:NPR|New page reviewer]]
+| data86      = {{{new_page_reviewer|}}}
+
+| label87     = [[WP:Page mover|Page mover]]
+| data87      = {{{page_mover|}}}
+
+| label88     = [[WP:Reviewing pending changes|Pending changes reviewer]]
+| data88      = {{{reviewer|}}}
+
+| label89     = [[WP:Rollback|Rollbacker]]
+| data89      = {{{rollbacker|}}}
+
+| label90     = [[WP:Template editor|Template editor]]
+| data90      = {{{template_editor|}}}
+
+| label91     = [[WP:EFM|Edit filter manager]]
+| data91      = {{{edit_filter_manager|}}}
+
+| label92     = [[WP:Administrators|Administrator]]
+| data92      = {{{admin|}}}
+
+| label93     = [[WP:Bureaucrats|Bureaucrat]]
+| data93      = {{{bureaucrat|}}}
+
+| label94     = [[WP:CheckUser|CheckUser]]
+| data94      = {{{check_user|}}}
+
+| label95     = [[WP:Oversight|Oversighter]]
+| data95      = {{{overseer|}}}
+
+| data96      = {{#ifeq:{{Yesno|1={{{adminstats|no}}}}}|yes|{{Adminstats|1={{BASEPAGENAME}}|style={{#ifeq:{{Yesno|1={{{adminstats_style|no}}}}}|yes|{{{adminstats_style|{{BASEPAGENAME}}/Mystyle}}}}}}}}}
+
+| label97     = [//tools.wmflabs.org/supercount/index.php?user={{urlencode:{{BASEPAGENAME}}}}&project=en.wikipedia Edit count]
+| data97      = {{{edit_count|}}}
+
+| label98     = {{#if:{{{permissions|}}}|<span class="plainlinks">[{{fullurl:Special:ListUsers|limit=1&username={{ROOTPAGENAMEE}}}} Permissions]</span>}}
+| data98      = {{{permissions|}}}
+
+| label99     = Signature
+| data99      = {{{signature|}}}
+
+| data101     = {{{module|}}}
+| data102     = {{{module2|}}}
+| data103     = {{{module3|}}}
+
+| header104    = {{#if:{{{userboxes|}}}|Userboxes}}
+
+| data105      = {{#if:{{{userboxes|}}}|
+<table style="background: transparent; vertical-align: middle !important; text-align: center; font-size: 95%; color: {{{fontcolor|#000000}}}; margin: auto; border-spacing: 0px; border-collapse: collapse;">
+<tr><td>
+{{{userboxes|}}}
+</td></tr>
+</table>
+}}
+
+| header106    = {{{custom_header|}}}
+
+| data107      = {{#if:{{{custom_data|}}}|<div style="text-align: left">
+{{{custom_data|}}}
+</div>}}
+| label111     = {{{custom_label1|}}}
+| data111      = {{{custom_data1|}}}
+| label112     = {{{custom_label2|}}}
+| data112      = {{{custom_data2|}}}
+| label113     = {{{custom_label3|}}}
+| data113      = {{{custom_data3|}}}
+| label114     = {{{custom_label4|}}}
+| data114      = {{{custom_data4|}}}
+| label115     = {{{custom_label5|}}}
+| data115      = {{{custom_data5|}}}
+| label116     = {{{custom_label6|}}}
+| data116      = {{{custom_data6|}}}
+| label117     = {{{custom_label7|}}}
+| data117      = {{{custom_data7|}}}
+| label118     = {{{custom_label8|}}}
+| data118      = {{{custom_data8|}}}
+| label119     = {{{custom_label9|}}}
+| data119      = {{{custom_data9|}}}
+}}{{#ifeq:{{{nocat|false}}}|false|{{#ifexist:Category:Wikipedians in {{{location|}}}, {{{country|}}} | [[Category:Wikipedians in {{{location|}}}, {{{country|}}}]] | {{#ifexist:Category:Wikipedians in {{{location|}}}|[[Category:Wikipedians in {{{location}}}]]| {{#ifexist:Category:Wikipedians in {{substr_any|{{{location|}}}| {{str find0|{{{location|}}}|,}}+2| 50-{{strlen quick|{{{location|}}}}} }} | [[Category:Wikipedians in {{substr_any|{{{location|}}}| {{str find0|{{{location|}}}|,}}+2| 50-{{strlen quick|{{{location|}}}}} }}]] | {{#if:{{{country|}}} | {{#ifeq:{{{country|}}}| UK | [[Category:Wikipedians in the United Kingdom]] | {{#ifeq:{{{country|}}}| Great Britain | [[Category:Wikipedians in the United Kingdom]] | {{#ifexist:Category:Wikipedians in {{{country|}}} | [[Category:Wikipedians in {{{country}}}]] | {{#ifexist:Category:Wikipedians in the {{{country|}}} | [[Category:Wikipedians in the {{{country}}}]] | {{#ifexist:Category:Wikipedians in {{getalias|{{{country|}}}}} | [[Category:Wikipedians in {{getalias|{{{country|}}}}}]] | {{#ifexist:Category:Wikipedians in the {{getalias|{{{country|}}}}} | [[Category:Wikipedians in the {{getalias|{{{country|}}}}}]] }} }} }} }} }} }} }} }} }} }} }}<noinclude>{{Documentation}}</noinclude>
