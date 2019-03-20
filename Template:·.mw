@@ -1,5 +1,75 @@
-&nbsp;<span style="font-weight:bold;">&middot;</span>&#32;<noinclude>
-
-{{documentation}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-</noinclude>
+=== Usage ===
+{{infobox newspaper
+| name = {{{name}}}
+| logo = {{{logo}}}
+| image = {{{image}}}
+| caption = {{{caption}}}
+| type = {{{type}}}
+| format = {{{format}}}
+| owners = {{{owners}}}
+| founders = {{{founders}}}
+| publisher = {{{publisher}}}
+| editor = {{{editor}}}
+| chiefeditor = {{{chiefeditor}}}
+| assoceditor = {{{assoceditor}}}
+| maneditor = {{{maneditor}}}
+| generalmanager = {{{generalmanager}}}
+| newseditor = {{{newseditor}}}
+| managingeditordesign = {{{managingeditordesign}}}
+| campuseditor = {{{campuseditor}}}
+| metroeditor = {{{metroeditor}}}
+| metrochief = {{{metrochief}}}
+| campuschief = {{{campuschief}}}
+| opeditor = {{{opeditor}}}
+| sportseditor = {{{sportseditor}}}
+| photoeditor = {{{photoeditor}}}
+| staff = {{{staff}}}
+| foundation = {{{foundation}}}
+| political = {{{political}}}
+| language = {{{language}}}
+| ceased publication = {{{ceased publication}}}
+| relaunched = {{{relaunched}}}
+| headquarters = {{{headquarters}}}
+| circulation = {{{circulation}}}
+| sister newspapers = {{{sister newspapers}}}
+| ISSN = {{{ISSN}}}
+| oclc = {{{oclc}}}
+| website = {{{website}}}
+| dirinteractive = {{{dirinteractive}}}
+}}
+<pre style="overflow: auto">
+{{Infobox newspaper
+| name                 = 
+| logo                 = 
+| image                = 
+| caption              = 
+| type                 = 
+| format               = 
+| owners               = 
+| founder              = 
+| publisher            = 
+| editor               = 
+| chiefeditor          = 
+| assoceditor          = 
+| maneditor            = 
+| newseditor           = 
+| managingeditordesign = 
+| campuseditor         = 
+| campuschief          = 
+| opeditor             = 
+| sportseditor         = 
+| photoeditor          = 
+| staff                = 
+| foundation           = 
+| political            = 
+| language             = 
+| ceased publication   = 
+| relaunched           =
+| headquarters         = 
+| circulation          = 
+| sister newspapers    = 
+| ISSN                 = 
+| oclc                 = 
+| website              = 
+}}
+</pre>
