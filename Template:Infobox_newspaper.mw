@@ -1,0 +1,135 @@
+{{Infobox
+|italic title={{{italic title|}}}
+| bodyclass  = vcard
+| titleclass = fn org
+| title      = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| titlestyle = font-style: italic
+| above      = {{{school|}}}
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|}}}|sizedefault=250x50px|border={{{logo_border|}}}|alt={{{logo_alt|}}}}}
+| image2     = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright=1|border={{{image_border|}}}|alt={{{image_alt|}}}}}
+| caption2   = {{{caption|}}}
+| subheader  = {{{motto|}}}
+| label1     = Type
+| data1      = {{{type|}}}
+| label2     = Format
+| data2      = {{{format|}}}
+| label3     = Owner(s)
+| data3      = {{{owners|{{{owner|}}}}}}
+| label4     = Founder(s)
+| data4      = {{{founders|{{{founder|}}}}}}
+| label5     = Publisher
+| data5      = {{{publisher|}}}
+| label6     = President
+| class6     = agent
+| data6      = {{{president|}}}
+| label7     = Editor
+| class7     = agent
+| data7      = {{{editor|}}}
+| label8     = Editor-in-chief
+| class8     = agent
+| data8      = {{{chiefeditor|}}}
+| label9     = Deputy editor
+| class9     = agent
+| data9      = {{{depeditor|}}} 
+| label10    = Associate editor
+| class10    = agent
+| data10     = {{{assoceditor|}}}
+| label11    = Managing editors
+| class11    = agent
+| data11     = {{{maneditor|}}}
+| label12    = General manager
+| class12    = agent
+| data12     = {{{generalmanager|}}}
+| label13    = News editor
+| class13    = agent
+| data13     = {{{newseditor|}}}
+| label14    = Managing editor, design
+| class14    = agent
+| data14     = {{{managingeditordesign|}}}
+| label15    = Director of Interactive
+| class15    = agent
+| data15     = {{{dirinteractive|}}}
+| label16    = Campus editor
+| class16    = agent
+| data16     = {{{campuseditor|}}}
+| label17    = Campus chief
+| class17    = agent
+| data17     = {{{campuschief|}}}
+| label18    = Metro editor
+| class18    = agent
+| data18     = {{{metroeditor|}}}
+| label19    = Metro chief
+| class19    = agent
+| data19     = {{{metrochief|}}}
+| label20    = Opinion editor
+| class20    = agent
+| data20     = {{{opeditor|}}}
+| label21    = Sports editor
+| class21    = agent
+| data21     = {{{sportseditor|}}}
+| label22    = Photo editor
+| class22    = agent
+| data22     = {{{photoeditor|}}}
+| label23    = Staff writers
+| data23     = {{{staff|}}}
+| label24    = {{#if:{{{launched|}}}|Launched|Founded}}
+| data24     = {{#if:{{{launched|}}}|{{{launched|}}}|{{{foundation|}}}}}
+| label25    = Political alignment
+| data25     = {{if empty|{{{political|}}}|{{{political position|}}}}}
+| label26    = Language
+| data26     = {{{language|}}}
+| label27    = {{nowrap|Ceased publication}}
+| data27     = {{{ceased publication|}}}
+| label28    = Relaunched
+| data28     = {{{relaunched|}}}
+| label29    = Headquarters
+| class29    = label
+| data29     = {{{headquarters|}}}
+| label30    = City
+| data30     = {{{publishing_city|}}}
+| label31     = Country
+| data31     = {{{publishing_country|}}}
+| label32    = [[Newspaper circulation|Circulation]]
+| data32     = {{{circulation|}}}{{#if:{{{circulation_date|}}}| &#32;(as of {{{circulation_date}}}) }}{{{circulation_ref|}}}
+| label33    = Readership
+| data33     = {{{readership|}}}
+| label34    = Sister newspapers
+| data34     = {{{sister newspapers|}}}
+| label35    = [[International Standard Serial Number|ISSN]]
+| data35     = {{ISSN link|1={{{issn|{{{ISSN|}}}}}}|2={{{eissn|{{{eISSN|}}}}}}}}
+| label36    = [[OCLC]] number
+| data36     = {{#if:{{{oclc|}}}|{{OCLC search link|{{{oclc}}} }} }}
+| label37    = [[Office of the Registrar of Newspapers for India|RNI]]
+| class37    = agent
+| data37     = {{#if:{{{RNI|}}}|[http://rni.nic.in/display_main41.asp ]}} 
+| label38    = Website
+| data38     = {{{website|}}}
+| label39    = Free online archives
+| class39    = agent
+| data39     = {{{free|}}}
+| below      = {{#if:{{{publishing_country|}}} | {{ubl |style=line-height:1.3em; padding-top:0.4em; border-top: 1px solid #aaa
+| {{#ifexist: Media of the {{delink|{{{publishing_country}}} }} | [[Media of the {{delink|{{{publishing_country}}} }}]] | {{#ifexist: Media of {{delink|{{{publishing_country}}} }} | [[Media of {{delink|{{{publishing_country}}} }}]] }} }}
+| {{#ifexist: List of newspapers in the {{delink|{{{publishing_country}}} }} | [[List of newspapers in the {{delink|{{{publishing_country}}} }}|List of newspapers]] | {{#ifexist: List of newspapers in {{delink|{{{publishing_country}}} }} | [[List of newspapers in {{delink|{{{publishing_country}}} }}|List of newspapers]] }} }}
+}} }} }}{{#invoke:Check for unknown parameters|check|ignoreblank=y
+|unknown={{main other|[[Category:Pages using infobox newspaper with unknown parameters|_VALUE_{{PAGENAME}}]]}}
+|preview=Page using [[Template:Infobox newspaper]] with unknown parameter "_VALUE_"
+|assoceditor
+|campuschief|campuseditor |caption |ceased publication |chiefeditor |circulation|circulation_date|circulation_ref
+|depeditor |dirinteractive
+|editor
+|format |foundation|founder|founders |free
+|generalmanager
+|headquarters
+|image|image_alt|image_border|image_size |issn |ISSN |eissn |eISSN |italic title
+|language |launched |logo|logo_alt|logo_border|logo_size
+|managingeditordesign|maneditor |metrochief|metroeditor |motto
+|name |newseditor
+|oclc |opeditor |owner|owners
+|photoeditor |political | political position |president |publisher|publishing_city|publishing_country
+|readership |relaunched |RNI
+|school |sister newspapers |sportseditor |staff
+|type
+|website
+}}<noinclude>
+{{documentation}} <!-- Add cats to the /doc subpage, not here! -->
+</noinclude>
