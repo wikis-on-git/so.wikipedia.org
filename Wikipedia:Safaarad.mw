@@ -1075,3 +1075,52 @@ Reference Previews have already been a beta feature on German and Arabic Wikiped
 As always, feedback is highly appreciated. If you want to test Reference Previews, please activate the beta feature in your [[Special:Preferences#mw-prefsection-betafeatures|user preferences]] and let us know what you think. The best place for feedback is the [[mw:Help talk:Reference Previews|central talk page]]. We hope the feature will serve you well in your work. Thank you from Wikimedia Deutschland's [[m:WMDE Technical Wishes|Technical Wishes project]].
 </div> -- [[User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 09:47, 23 Oktoobar 2019 (UTC)
 <!-- Message sent by User:Johanna Strodt (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=19478814 -->
+
+== Editing News #2 – Mobile editing and talk pages ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<em>[[m:VisualEditor/Newsletter/2019/October|Read this in another language]] • [[m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]</em>
+
+Inside this newsletter, the [[mw:Editing|Editing team]] talks about their work on the [[mw:Mobile visual editor|mobile visual editor]], on [[mw:Talk pages project|the new talk pages project]], and at [[wikimania:|Wikimania 2019]].
+
+=== Help ===
+<strong>What talk page interactions do you remember?</strong> Is it a story about how someone helped you to learn something new? Is it a story about how someone helped you get involved in a group? Something else?  Whatever your story is, we want to hear it!  
+
+Please tell us a story about how you used a talk page.  <mark>Please share a link to a memorable discussion, or describe it on the <strong>[[mw:Topic:V8d91yh8gcg404dj|talk page for this project]]</strong>.</mark>  The team wants your examples.  These examples will help everyone develop a shared understanding of what this project should support and encourage.
+
+=== Talk pages project ===
+The [[mw:Talk pages consultation 2019|Talk Pages Consultation]] was a global consultation to define better tools for wiki communication. From February through June 2019, more than 500 volunteers on 20 wikis, across 15 languages and multiple projects, came together with members of the Foundation to create a product direction for a set of discussion tools.  The [[mw:Talk pages consultation 2019/Phase 2 report|Phase 2 Report]] of the Talk Page Consultation was published in August. It summarizes the product direction the team has started to work on, which you can read more about here: [[mw:Talk pages project|Talk Page Project project page]]. 
+
+The team needs and wants your help at this early stage.  They are starting to develop the first idea. Please add your name to the [[mw:Talk pages project#Getting involved|<strong>"Getting involved"</strong>]] section of the project page, if you would like to hear about opportunities to participate.
+
+=== Mobile visual editor ===
+The Editing team is trying to make it simpler to edit on mobile devices.  The team is changing the [[mw:VisualEditor on mobile|visual editor on mobile]]. If you have something to say about editing on a mobile device, please leave a message at [[mw:Talk:VisualEditor on mobile|Talk:VisualEditor on mobile]].
+
+==== [[mw:VisualEditor on mobile/Edit cards|Edit Cards]] ====
+[[File:Edit Cards-before-v3-comparison.png|thumb|486x486px|What happens when you click on a link.  The new Edit Card is bigger and has more options for editing links.]]
+
+* On 3 September, the Editing team released [[:File:Edit Cards comparison v2 and v3.png|version 3 of Edit Cards]]. Anyone could use the new version in the mobile visual editor.
+* There is an [[:File:Edit Cards comparison v2 and v3.png|updated design]] on the Edit Card for adding and modifying links.  There is also a new, [[mw:VisualEditor on mobile/Edit cards#2 September 2019 - v3 deployment timing|combined workflow for editing a link's display text and target]].
+* Feedback: You can try the new Edit Cards by opening the mobile visual editor on a smartphone. Please post your feedback on the [[:mw:Topic:V5rg0cqmikpubmjj|Edit cards talk page]].
+
+==== [[mw:VisualEditor on mobile/Toolbar refresh|Toolbar]] ====
+[[File:Toolbar-comparison-v1.png|thumb|486px|The editing toolbar is changing in the mobile visual editor.  The old system had two different toolbars.  Now, all the buttons are together.  [[mw:Topic:V79x6zm8n6i4nb56|Tell the team what you think about the new toolbar]].]]
+
+* In September, the Editing team updated the mobile visual editor's editing toolbar.  Anyone could see these changes in the mobile visual editor.
+** <em>One toolbar:</em> All of the editing tools are located in one toolbar.  Previously, the toolbar changed when you clicked on different things.
+**<em>New navigation:</em> The buttons for moving forward and backward in the edit flow have changed.
+**<em>Seamless switching:</em> an [[phab:T228159|improved workflow]] for switching between the visual and wikitext modes.
+* Feedback: You can try the refreshed toolbar by opening the mobile VisualEditor on a smartphone. Please post your feedback on the [[mw:Topic:V79x6zm8n6i4nb56|Toolbar feedback talk page]].
+
+=== Wikimania ===
+The Editing Team attended [[wmania:2019:Program|Wikimania 2019]] in Sweden.  They led a session on [[wmania:2019:Community Growth/Visual editing on mobile: An accessible editor for all|the mobile visual editor]] and a session on [[wmania:2019:Community Growth/After Flow: A new direction for improving talk pages|the new talk pages project]].  They tested [[mw:VisualEditor on mobile/Toolbar refresh#v1 prototype|two]] new [[mw:VisualEditor on mobile/Edit cards#v3 prototype|features]] in the mobile visual editor with contributors.  You can read more about what the team did and learned in [[mw:VisualEditor on mobile#Wikimania Stockholm: Overview|the team's report on Wikimania 2019]].
+
+=== Looking ahead ===
+
+* <strong>Talk Pages Project:</strong> The team is thinking about the first set of proposed changes.  The team will be working with a few communities to pilot those changes. The best way to stay informed is by adding your username to the list on the project page: [[mw:Talk pages project#Getting involved|<strong>Getting involved</strong>]].
+* <strong>Testing the mobile visual editor as the default:</strong>  The Editing team plans to post results before the end of the calendar year. The best way to stay informed is by adding the project page to your watchlist: [[mw:VisualEditor on mobile/VE mobile default|<strong>VisualEditor as mobile default project page</strong>]].
+* <strong>Measuring the impact of Edit Cards:</strong>  This study asks whether the project helped editors add links and citations.  The Editing team hopes to share results in November.  The best way to stay informed is by adding the project page to your watchlist: [[mw:VisualEditor on mobile/Edit cards|<strong>Edit Cards project page</strong>]].
+
+– [[User:PPelberg (WMF)|PPelberg (WMF)]] ([[mw:User talk:PPelberg (WMF)|talk]]) & [[User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[mw:User talk:Whatamidoing (WMF)|talk]])
+</div> 11:12, 29 Oktoobar 2019 (UTC)
+<!-- Message sent by User:Johan (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Johan_(WMF)/Target_lists/VE_201910/5&oldid=19500851 -->
