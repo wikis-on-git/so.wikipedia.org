@@ -1,0 +1,49 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||date={{SAFESUBST:<noinclude />Date}}|$B=
+{{Imbox
+| type = move
+| image = [[File:Commons-logo.svg|40px|Commons]]
+| text =
+<span id="delete-reason" style="display:none"><nowiki>[[WP:CSD#F8|F8]]: File available on Wikimedia Commons as [[</nowiki>c:File:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}<nowiki>]]</nowiki></span>
+{{#ifeq:{{{2|}}}|yes|These files are|This file is}} now available on '''[[c:Main Page|Wikimedia Commons]]''' as '''[[c:File:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}|File:{{ucfirst:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}}}]]'''{{#ifeq:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}|{{PAGENAME}}|&#32;(with the same name)}}.<hr /> Files that have been tagged with this template may be deleted after satisfying conditions of [[Wikipedia:Criteria for speedy deletion#F8|CSD F8]]. <span class="sysop-show">Administrators: If the file has been properly moved, [{{fullurl:{{FULLPAGENAME}}|action=delete&wpReason={{urlencode:[[WP:CSD#F8|F8]]: File available on Wikimedia Commons as [[c:File:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}|File:{{ucfirst:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}}}]] {{#ifeq:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}|{{PAGENAME}}|(under the same name)}}}}}} delete it]. If not, change the {{Tl|Now Commons}} tag to: {{Tlx|Incomplete move to Commons|{{{filename|{{{1|{{FULLPAGENAME}}}}}}}}|3=reason=reason why the image could not be moved}}</span>
+<div style="text-align: center;"><small>[https://tools.wmflabs.org/magog/fileinfo.php?project=en.wikipedia&information=1&authordate=1&license=1&fields=1&src={{PAGENAMEE}} File upload log]&nbsp;&bull;&#32; [//tools.wmflabs.org/magog/oldver.php?project=en.wikipedia&src={{PAGENAMEE}}&trg={{PAGENAMEE:{{{filename|{{{1|{{PAGENAME}}}}}}}}}} Move old versions to Commons]</small></div>
+{{#if:{{{bot|}}}| <br> <strong>Be careful. This file is tagged by a bot ({{{bot|}}}). Be sure to check [[c:File:{{PAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}|the file at Commons]] before deleting this file.</strong> }}
+<includeonly><!--Show a box with the image if the Commons image is different than the Wikipedia image--> {{#ifeq: {{BASEPAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}  | {{BASEPAGENAME}} | <!-- same name: do nothing -->
+| <!-- different name: check for Commons shadow --> {{#ifeq:{{ParmPart|5|2={{filepath:{{BASEPAGENAME:{{{filename|{{{1}}}}}}}}}}}}|en
+   | <center>{{error|message=A [[:File:{{BASEPAGENAME:{{{filename|{{{1}}}}}}}}|file]] on Wikipedia shadows the [[c:File:{{BASEPAGENAME:{{{filename|{{{1}}}}}}}}|file on Commons]]. Please do not delete this image until the Wikipedia image has been deleted or moved.}}</center>
+   | {{#ifexist: Media: {{BASEPAGENAME:{{{filename|{{{1}}}}}}}}
+     | [[File:{{PAGENAME:{{{filename|{{{1}}}}}}}}|150x100px|right]]{{br}}
+       {{#ifexist: {{TALKPAGENAME}}|<center>{{error|message='''This file has a talk page.'''}} '''The talk page should be moved, not deleted.<br/>[{{fullurl:Special:MovePage|wpOldTitle={{TALKPAGENAMEE}}&wpNewTitle={{TALKPAGENAMEE:File:{{PAGENAME:{{{filename|{{{1}}}}}}}}}}&wpReason={{urlencode:Now available on Commons under this name}}&wpLeaveRedirect=}} Click here to move it now].'''</center>}}
+     | <center>{{error|message=File does not exist on Commons! Please do not delete this image.}}</center>
+    }}
+  }}
+}}</includeonly><div class="nowcommons-reviewme"></div>
+}}<includeonly>{{file other
+| {{#ifeq: {{BASEPAGENAME:{{{filename|{{{1|{{PAGENAME}}}}}}}}}}  | {{BASEPAGENAME}}  
+  | <!--Same file name-->   {{#if:{{{date|}}} 
+    | {{#iferror:{{#time:j F Y|{{{date}}}}}
+       | [[Category:Wikipedia files with the same name on Wikimedia Commons as of unknown date]] <!-- The date is incorrect -->
+       | [[Category:Wikipedia files with the same name on Wikimedia Commons as of {{#time:j F Y|{{{date|}}}}}]] 
+      }}
+    | [[Category:Wikipedia files with the same name on Wikimedia Commons as of unknown date]]
+   }}[[Category:All Wikipedia files with the same name on Wikimedia Commons]]
+  |  <!--Not the same file name-->  {{#if:{{{date|}}}
+    | {{#iferror:{{#time:j F Y|{{{date}}}}}
+       | [[Category:Wikipedia files with a different name on Wikimedia Commons as of unknown date]] <!-- The date is incorrect -->
+       | [[Category:Wikipedia files with a different name on Wikimedia Commons as of {{#time:j F Y|{{{date|}}}}}]]
+      }}
+    | [[Category:Wikipedia files with a different name on Wikimedia Commons as of unknown date]]
+   }}[[Category:All Wikipedia files with a different name on Wikimedia Commons]]
+  }}
+  {{#if:{{{reviewer|}}}
+   | {{#ifexist:Category:Wikipedia files reviewed on Wikimedia Commons by {{{reviewer|}}}  
+    | [[Category:Wikipedia files reviewed on Wikimedia Commons by {{{reviewer|}}}]] 
+    | [[Category:Wikipedia files reviewed on Wikimedia Commons]] 
+   }}
+  }}
+| {{Error|This template should only be used on file (image) pages.}}
+}}</includeonly><noinclude>
+
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
+}}
