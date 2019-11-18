@@ -42,7 +42,7 @@
 |   data24  = {{val|6.09|e=12|u=km2}}<ref name=sse/><br>{{nowrap|{{val|fmt=commas|12000}}}} × Earth<ref name=sse/>
 |  label25  = [[Volume]]
 |   data25  = {{val|1.41|e=18|u=km3}}<ref name=sse/><!-- NASA source has "1.412 x 10^18 km^3", which is 1.412 × 10^27 m^3 (basic arithmetic, also verified using the formula for volume of a sphere), but the Sun is not a sphere, and their radius is off a bit from what we have above, so we need to at least round a bit--><br>{{nowrap|{{val|fmt=commas|1300000}}}} × Earth
-|  label26  = [[Mass]]
+|  label26  = [[Jir]]
 |   data26  = {{val|1.98855|.00025|e=30|u=kg}}<ref name=nssdc/><br>{{nowrap|{{val|fmt=commas|333000}}}} × Earth<ref name=nssdc/><!-- NASA Sun Fact Sheet states 333,000, a figure coherent with data already present in en.wiki -->
 |  label27  = Average [[density]]
 |   data27  = {{val|1.408|u=g/cm3}}<ref name=nssdc/><ref name=sse/><ref>{{cite web |last=Ko |first=M. |date=1999 |title=Density of the Sun |url=http://hypertextbook.com/facts/1999/MayKo.shtml |editor=Elert, G. |work=The Physics Factbook}}</ref><br>{{val|0.255}} × Earth<ref name=nssdc/><ref name=sse/>
