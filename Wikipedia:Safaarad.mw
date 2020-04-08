@@ -1142,3 +1142,28 @@ To learn more about the project, [[:m:special:MyLanguage/Movement Learning and L
 
 You might know the new interface for edit conflicts (currently a beta feature). Now, Wikimedia Germany is designing an additional interface to solve edit conflicts on talk pages. This interface is shown to you when you write on a discussion page and another person writes a discussion post in the same line and saves it before you do. With this additional editing conflict interface you can adjust the order of the comments and edit your comment.  We are inviting everyone to have a look at [[m:WMDE Technical Wishes/Edit Conflicts#Edit conflicts on talk pages|the planned feature]]. Let us know what you think on our [[mw:Help talk:Two Column Edit Conflict View|central feedback page]]! -- For the Technical Wishes Team: [[m:User:Max Klemm (WMDE)|Max Klemm (WMDE)]] 14:15, 26 Febraayo 2020 (UTC)
 <!-- Message sent by User:Max Klemm (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=19845780 -->
+
+== Editing news 2020 #1 – Discussion tools ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<em>[[m:VisualEditor/Newsletter/2020/April|Read this in another language]] • [[m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]</em>
+
+[[File:TalkPages-Reply-v1.0.png|thumb|300px|alt=Screenshot showing what the Reply tool looks like|This early version of the Reply tool automatically signs and indents comments.]]
+
+The [[mw:Editing|Editing team]] has been working on [[mw:Talk pages project|the talk pages project]].  The goal of the talk pages project is to help contributors communicate on wiki more easily.  This project is the result of the [[mw:Talk pages consultation 2019|Talk pages consultation 2019]]. 
+
+[[File:TalkPages-Reply-v2.0.png|thumb|300px|alt=Reply tool improved with edit tool buttons|In a future update, the team plans to test a tool for easily linking to another user's name, a rich-text editing option, and other tools.]]
+
+The team is building a [[mw:Talk pages project/replying|new tool for replying]] to comments now.  This early version can sign and indent comments automatically.  <strong>Please [[mw:Talk pages project/replying/prototype testing#Reply%20version%201.0|test the new Reply tool]].</strong>  
+
+*On 31 March 2020, the new {{Int:discussiontools-replylink}} tool was offered as a [[mw:Beta Feature|Beta Feature]] editors at four Wikipedias:  [[w:ar:Special:Preferences#mw-prefsection-betafeatures|Arabic]], [[w:nl:Special:Preferences#mw-prefsection-betafeatures|Dutch]], [[w:fr:Special:Preferences#mw-prefsection-betafeatures|French]], and [[w:hu:Special:Preferences#mw-prefsection-betafeatures|Hungarian]].  If your community also wants early access to the new tool, contact [[User:Whatamidoing (WMF)]].
+*The team is planning some upcoming changes.  <strong>Please [[mw:Talk pages project/replying#Version%202.0|review the proposed design]] and share your thoughts on the talk page.</strong>  The team will test features such as:
+**an easy way to mention another editor ("pinging"), 
+**a rich-text visual editing option, and 
+**other features identified through user testing or recommended by editors.  
+
+To hear more about Editing Team updates, please add your name to the [[mw:Talk pages project#Get involved|<strong>"Get involved"</strong>]] section of the project page. You can also watch [[File:MediaWiki Vector skin blue star watchlist icon.svg|frameless|16px]] these pages: [[mw:Talk pages project|the main project page]], [[mw:Talk pages project/Updates|Updates]], [[mw:Talk pages project/replying|Replying]], and [[mw:Talk pages project/replying/prototype testing|User testing]].
+
+– [[user:PPelberg (WMF)|PPelberg (WMF)]] ([[mw:User talk:PPelberg (WMF)|talk]]) & [[User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[mw:User talk:Whatamidoing (WMF)|talk]])
+</div> 19:27, 8 Abriil 2020 (UTC)
+<!-- Message sent by User:Quiddity (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Quiddity_(WMF)/sandbox3&oldid=19967063 -->
