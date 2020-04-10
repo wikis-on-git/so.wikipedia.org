@@ -33,24 +33,24 @@
 | label7     = Dhintay
 | data7      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
 
-| label8     = Genres
-| data8      = {{#ifexist:Template:Infobox musical artist/genre/{{FULLPAGENAME}}|{{Infobox musical artist/genre/{{FULLPAGENAME}}}}|{{{Genre|{{{genre|}}}}}}}}
+| label8     = Nooca fanka
+| data8      = {{{Genre|{{{genre|}}}}}}
 
 | class9     = doorka
-| label9     = {{Nowrap|{{#if:{{{Occupations|{{{occupations|}}}}}}|Occupations|Occupation(s)}}}}
+| label9     = {{Nowrap|{{#if:{{{Occupations|{{{occupations|}}}}}}|Occupations|shaqada}}}}
 | data9      = {{#if:{{{Occupations|{{{occupations|}}}}}}|{{{Occupations|{{{occupations|}}}}}}|{{{Occupation|{{{occupation|}}}}}}}}
 
 | class10     = note
-| label10     = Instruments
+| label10     = Qalabka
 | data10      = {{{Instrument|{{{instrument|{{{instruments|}}}}}}}}}
 
-| label11    = {{Nowrap|Sanado firfircoon}}
+| label11    = {{Nowrap|Sanadaha Shaqada}}
 | data11     = {{{Years_active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
 | label12    = Calaamadaha
 | data12     = {{{Label|{{{label|}}}}}}
 
-| label13    = {{Nowrap|Falalka isku xiran}}
+| label13    = {{Nowrap|Falalka la xiriira}}
 | data13     = {{{Associated_acts|{{{associated_acts|}}}}}}
 
 | label14    = Website
@@ -58,7 +58,7 @@
 
 | header15   = {{#if:{{{Current_members|{{{current_members|}}}}}}|<nowiki />}}
 
-| label16    = Xubinta
+| label16    = Xubnaha
 | data16     = {{{Current_members|{{{current_members|}}}}}}
 
 | header17   = {{#if:{{{Past_members|{{{past_members|{{{Former_members|{{{former_members|}}}}}}}}}}}}|<nowiki />}}
@@ -70,7 +70,7 @@
 | data22     = {{{module2|}}}
 | data23     = {{{module3|}}}
 
-}}<includeonly>{{ns0|[[Fan iyo Suugaan]]</includeonly><noinclude>
+}}<includeonly>{{ns0|[[Category:Fan iyo Suugaan]]</includeonly><noinclude>
 {{Documentation}}
 <!--Please add this template's categories to the /doc subpage, not here - thanks!-->
 </noinclude>
