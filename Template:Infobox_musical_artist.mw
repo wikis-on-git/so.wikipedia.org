@@ -7,53 +7,50 @@
 | decat       = yes <!-- remove from template:infobox tracking categories -->
 
 | abovestyle  = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
-| above       = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{Name|{{{name|}}}}}}|{{#if:{{{honorific_prefix|}}}|<span class="honorific-prefix" style="font-size:87%">{{{honorific_prefix|}}}</span><br />}}<span class="{{Infobox musical artist/hCard class|{{{Background|{{{background|}}}}}}}}">{{{Name|{{{name}}}}}}</span>{{#if:{{{honorific_suffix|}}}|<br /><span class="honorific-suffix" style="font-size:87%">{{{honorific_suffix|}}}</span>}} |<includeonly>{{BASEPAGENAME}}</includeonly>}}}}
+| above       = {{#ifeq:{{lc:{{{embed}}}}}|yes||{{#if:{{{Name|{{{name|}}}}}}|{{#if:{{{honorific_prefix|}}}|<div class="honorific-prefix" style="font-size: 78%; font-weight: normal;">{{{honorific_prefix|}}}</div>}}<div style="display:inline;" class="{{Infobox musical artist/hCard class|{{{Background|{{{background|}}}}}}}}">{{{Name|{{{name}}}}}}</div>{{#if:{{{native_name|}}}|<div class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}>{{{native_name}}}</div>}}{{#if:{{{honorific_suffix|}}}|<div class="honorific-suffix" style="font-size: 78%; font-weight: normal;">{{{honorific_suffix|}}}</div>}} |{{BASEPAGENAME}}}}}}
 
-| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{Img|{{{image|}}}}}}|size={{#ifeq:{{lc:{{{Landscape|{{{landscape|}}}}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size|{{{image_size}}}}}}}}|300|{{{Img_size|{{{image_size}}}}}}}}}}x200px|{{{Img_size|{{{image_size|}}}}}}}}|sizedefault=frameless|upright=1|alt={{{Img_alt|{{{alt|}}}}}}|suppressplaceholder=yes}}
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{Img|{{{image|}}}}}}|size={{#ifeq:{{lc:{{{Landscape|{{{landscape|}}}}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{Img_size|{{{image_size}}}}}}}}|300|{{{Img_size|{{{image_size}}}}}}}}}}x200px|{{{Img_size|{{{image_size|}}}}}}}}|sizedefault=frameless|upright={{{Img_upright|{{{image_upright|1}}}}}}|alt={{{Img_alt|{{{alt|}}}}}}|suppressplaceholder=yes}}
 | caption     = {{{Img_capt|{{{caption|}}}}}}
 
 | headerstyle = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
 
 | header1     = {{#if:{{{Img|{{{image|}}}}}}|Background information}}
 
-| label2     = Magaca
-| data2      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
-
-| class3      = nickname
-| label3      = Magaca dhalasho
+| class3      = neenaas
+| label3      = {{Nowrap|Magaca dhalashada}}
 | data3       = {{{Birth_name|{{{birth_name|}}}}}}
 
-| class4      = nickname
+| class4      = neenaas
 | label4      = {{Nowrap|Sidoo kale loo yaqaan}}
 | data4       = {{{Alias|{{{alias|}}}}}}
 
 | label5     = Dhashay
 | data5      = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
 
-| label6     = Asalka
+| label6     = Asal
 | data6      = {{{Origin|{{{origin|}}}}}}
 
-| label7     = Dhintey
+| label7     = Dhintay
 | data7      = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
 
-| label8     = Nooca Fanka
-| data8      = {{{Genre|{{{genre|}}}}}}
+| label8     = Genres
+| data8      = {{#ifexist:Template:Infobox musical artist/genre/{{FULLPAGENAME}}|{{Infobox musical artist/genre/{{FULLPAGENAME}}}}|{{{Genre|{{{genre|}}}}}}}}
 
-| class9     = role
-| label9     = {{#if:{{{Occupations|{{{occupations|}}}}}}|Occupations|Shaqada}}
+| class9     = doorka
+| label9     = {{Nowrap|{{#if:{{{Occupations|{{{occupations|}}}}}}|Occupations|Occupation(s)}}}}
 | data9      = {{#if:{{{Occupations|{{{occupations|}}}}}}|{{{Occupations|{{{occupations|}}}}}}|{{{Occupation|{{{occupation|}}}}}}}}
 
 | class10     = note
-| label10     = Qalabka
-| data10      = {{{Instrument|{{{instrument|}}}}}}
+| label10     = Instruments
+| data10      = {{{Instrument|{{{instrument|{{{instruments|}}}}}}}}}
 
-| label11    = Sanadaha Shaqada
+| label11    = {{Nowrap|Sanado firfircoon}}
 | data11     = {{{Years_active|{{{years_active|{{{yearsactive|}}}}}}}}}
 
-| label12    = [[Record label|Labels]]
+| label12    = Calaamadaha
 | data12     = {{{Label|{{{label|}}}}}}
 
-| label13    = La Xidhiidha
+| label13    = {{Nowrap|Falalka isku xiran}}
 | data13     = {{{Associated_acts|{{{associated_acts|}}}}}}
 
 | label14    = Website
@@ -61,21 +58,19 @@
 
 | header15   = {{#if:{{{Current_members|{{{current_members|}}}}}}|<nowiki />}}
 
-| label16    = Xubnaha
+| label16    = Xubinta
 | data16     = {{{Current_members|{{{current_members|}}}}}}
 
-| header17   = {{#if:{{{Past_members|{{{past_members|}}}}}}|<nowiki />}}
+| header17   = {{#if:{{{Past_members|{{{past_members|{{{Former_members|{{{former_members|}}}}}}}}}}}}|<nowiki />}}
 
-| label18    = Past members
-| data18     = {{{Past_members|{{{past_members|}}}}}}
-
-| header19   = {{#if:{{{Notable_instruments|{{{notable_instruments|}}}}}}|Notable instruments}}
-
-| class20    = note
-| data20     = {{{Notable_instruments|{{{notable_instruments|}}}}}}
+| label18    = {{Nowrap|Past members}}
+| data18     = {{{Past_members|{{{past_members|{{{Former_members|{{{former_members|}}}}}}}}}}}}
 
 | data21     = {{{module|}}}
 | data22     = {{{module2|}}}
 | data23     = {{{module3|}}}
 
-}}<includeonly>[[Category:Fan iyo Suugaan]]</includeonly><noinclude><!-- Please add metadata to the <includeonly> section at the bottom of the /doc subpage -->{{documentation}}</noinclude>
+}}<includeonly>{{ns0|[[Fan iyo Suugaan]]</includeonly><noinclude>
+{{Documentation}}
+<!--Please add this template's categories to the /doc subpage, not here - thanks!-->
+</noinclude>
