@@ -1,0 +1,117 @@
+{{Navbox with collapsible groups
+| name = Birth, death and age templates
+| state = {{{state|expanded}}}
+| title = Birth, death and age templates
+| selected = {{{selected|{{{expanded|{{{1|}}}}}}}}}
+
+<!--| tracking = no <!-- keep all the documented templates out of the hlist tracking category -->
+| listclass = hlist <!-- can't see why tracking=no doesn't work, but this does -->
+
+<!----------------------------------------------------------------------------->
+
+| abbr1 = BDA
+| section1 = Birth, death, age
+| content1 =
+{{Aligned table|fullwidth=y
+      |style=line-height:1.35em;text-align:left;
+      |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+      |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+      | Template&nbsp;              | {{resize|110%|Description{{\}}use&nbsp;}}
+      | {{tl|BirthDeathAge}}       | Combines functions of <nowiki>{{birth date}}, {{birth-date}}, {{birth date and age}}, {{birth year and age}}, {{death date}}, {{death-date}}, {{death date and age}} and {{death year and age}}.</nowiki>
+      | {{tl|birth date}}          | To display a birth date and related hidden metadata.
+      | {{tl|birth-date}}          | 
+      | {{tl|birth date and age}}  | {{tlf|birth date}} with suffix "(age ''N'')".
+      | {{tl|birth date and age2}} | {{tlf|birth date and age}} plus age as of a specified date.
+      | {{tl|birth-date and age}}  | As {{tlf|birth date and age}} but accepts dates in text form ("15 June 1950", "June 15, 1950", "June 1950", etc).
+      | {{tl|birth year and age}}  | Year of birth and approximate age.
+      | {{tl|birth based on age as of date}}  | To display approximate birth year and current age given a particular date (e.g. when a dated reference mentions the age of a person).
+      | {{tl|birth based on age at death}} | To display approximate birth year based on age at death.
+     }}
+{{Aligned table|fullwidth=y
+      |style=line-height:1.35em;text-align:left;
+      |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+      |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+      | Template&nbsp;              | {{resize|110%|Description{{\}}use&nbsp;}}
+      | {{tl|death date}}          | To display a death date and related hidden metadata.
+      | {{tl|death-date}}          | 
+      | {{tl|death date and age}}  | {{tlf|death date}} with suffix "( ''N''jir)". Also called with {{tlf|event date and age}} 
+      | {{tl|death-date and age}}  | As {{tlf|death date and age}} but accepts dates in text form ("15 June 1950", "June 15, 1950", "June 1950", etc).
+      | {{tl|death date and given age}} | To display a death date and specified age.
+      | {{tl|death year and age}}  | To display a year of and approximate age at death.
+  }}
+
+<!----------------------------------------------------------------------------->
+
+| abbr2 = age
+| section2 = Age only
+| content2 =
+{{Aligned table|fullwidth=y
+      |style=line-height:1.35em;text-align:left;
+      |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+      |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+      | Template&nbsp;                   | {{resize|110%|Description{{\}}use&nbsp;}}
+      | {{tl|age in years, months, weeks and days}} | Number of complete years, months, weeks and days between two dates.
+      | {{tl|age in years, months and days}} | Number of complete years, months and days between two dates.
+      | {{tl|age in years and months}}   | Number of complete years and remaining months between two dates.
+      | {{tl|age in years and days}}     | Number of complete years and remaining days between two dates.
+      | {{tl|age in years and days nts}} | {{tlf|age in years and days}} with output formatted for use in sortable tables.
+      | {{tl|age in decimal years}}      | Number of years between two dates, rounded to the specified number of decimal places.
+      | {{tl|age in years}}              | Number of years between two dates.
+      | {{tl|age in years nts}}          | {{tlf|age in years}} with output formatted for use in sortable tables.
+      | {{tl|age in years and months}}   | Number of years and months between two dates.
+      | {{tl|age in months}}             | Number of months between two dates.
+      | {{tl|age in weeks}}              | Number of weeks between two dates.
+      | {{tl|age in weeks and days}}     | Number of weeks and days between two dates.
+      | {{tl|age in days}}               | Age in days between two dates.
+      | {{tl|age in days nts}}           | {{tlf|age in days}} with output formatted for use in sortable tables.
+     }}
+{{Aligned table|fullwidth=y
+      |style=line-height:1.35em;text-align:left;
+      |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+      |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+      | Template&nbsp;        | {{resize|110%|Description{{\}}use&nbsp;}}
+      | {{tl|age}}            | Age based on number of complete years between two dates.
+      | {{tl|age nts}}        | {{tlf|age}} with output formatted for use in [[Help:Sorting|sortable tables]].
+      | {{tl|age as of date}} | Current age (in years) from a known age at a specified date.
+      | {{tl|age for infant}} | Current age for infant: months and days up to one year, years and months up to three years, and years beyond.
+  }}
+<!----------------------------------------------------------------------------->
+
+| abbr3 = dates
+| section3 = Start{{\}}end dates
+| content3 =
+{{Aligned table|fullwidth=y
+   |style=line-height:1.35em;text-align:left;
+   |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+   |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+   | Template&nbsp;                      | {{resize|110%|Description{{\}}use&nbsp;}}
+   | {{tl|start date}} / {{tl|end date}} | 
+   | {{tl|start-date}} / {{tl|end-date}} | 
+   | {{tl|start date and age}}           | 
+   | {{tl|end date and age}}             | 
+  }}
+
+<!----------------------------------------------------------------------------->
+
+| abbr4 = misc
+| section4 = Miscellaneous
+| content4 =
+{{Aligned table|fullwidth=y
+   |style=line-height:1.35em;text-align:left;
+   |col1style=font-size:110%;white-space:nowrap;padding-right:1.0em;width:18em;
+   |row1style=line-height:1.6em;font-weight:bold;border-bottom:1px solid #aaa;
+   | Template&nbsp;                        | {{resize|110%|Description{{\}}use&nbsp;}}
+   | {{tl|OldStyleDate<!-- |9 June|1672|30 May -->}}  | Dates pre-1584 in Julian calendar
+  }}
+
+<!----------------------------------------------------------------------------->
+
+| belowclass = hlist
+| belowstyle = font-weight:bold;
+| below =
+* [[Wikipedia:Age calculation templates|About age calculation templates]]
+* [[:Category:Date mathematics templates|Date mathematics templates]]
+
+}}<!--
+
+--><noinclude>{{Documentation}}</noinclude>
