@@ -1,0 +1,18 @@
+{{#if: {{{needed|}}}
+|{{page needed|date={{{date|}}} }}
+|<sup class="reference" style="white-space:nowrap;">{{#if: {{{page|}}}
+ |(<span {{#if:{{{q|{{{quote|}}}}}}|style="border-bottom: 1px dashed;" title='"{{#tag:nowiki|{{#invoke:String|replace|{{trim quotes|s={{{q|{{{quote}}}}}}}}|"|&quot;}}}}"'}}>{{#if: {{{nopp|}}}||p}}{{{page}}}</span>)
+ |{{#if: {{{pages|}}}
+   |(<span {{#if:{{{q|{{{quote|}}}}}}|style="border-bottom: 1px dashed;" title='"{{#tag:nowiki|{{#invoke:String|replace|{{trim quotes|s={{{q|{{{quote}}}}}}}}|"|&quot;}}}}"'}}>{{#if: {{{nopp|}}}||pp}}{{{pages}}}</span>)
+   |{{#if: {{{at|}}}
+      |(<span {{#if:{{{q|{{{quote|}}}}}}|style="border-bottom: 1px dashed;" title='"{{#tag:nowiki|{{#invoke:String|replace|{{trim quotes|s={{{q|{{{quote}}}}}}}}|"|&quot;}}}}"'}}>{{{at}}}</span>)
+      |<nowiki>:</nowiki><span {{#if:{{{q|{{{quote|}}}}}}|style="border-bottom: 1px dashed;" title='"{{#tag:nowiki|{{#invoke:String|replace|{{trim quotes|s={{{q|{{{quote}}}}}}}}|"|&quot;}}}}"'}}>{{{1}}}</span>
+    }}
+  }}
+ }}</sup>
+}}<noinclude><!--
+   Note: Please do not change the parameter names "at", "page", "pages"
+         and "nopp" as they are also used by [[Template:Citation]].
+-->
+{{Documentation}}
+</noinclude>
