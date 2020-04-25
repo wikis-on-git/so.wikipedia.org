@@ -1,0 +1,8 @@
+__EXPECTUNUSEDCATEGORY__{{#ifeq:{{{hide}}}|true||{{Cmbox
+| type  = content
+| style = text-align: center;
+| text  = <span style="font-size:15px;">'''Maamulayaasha: Fadlan ha tirtirin qeybtaan xitaa haddii ay eber tahay!'''</span><br/> Qaybtaani waxay noqon kartaa mid madhan  mararka qaar ama xitaa inta badan waqtiga. {{{1|}}}
+}}}}<includeonly>{{#ifeq: {{lc:{{{nocat|false}}}}}|false|{{Single namespace|category}}|<!-- Category suppressed -->}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
