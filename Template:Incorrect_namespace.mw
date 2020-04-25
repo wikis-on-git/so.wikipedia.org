@@ -1,0 +1,7 @@
+<includeonly>{{#ifeq:{{NAMESPACE}}|Template||{{#ifeq:{{SUBPAGENAME}}|sandbox||{{#ifeq:{{SUBPAGENAME}}|testcases||{{#ifeq:{{FULLPAGENAME}}|Wikipedia:Sandbox||{{#ifeq:{{FULLPAGENAME}}|Wikipedia:Template index/Redirect pages|| </includeonly>{{Mbox
+| type = content
+| image = [[File:Ambox warning orange.svg|50px]]
+| text = {{Error|templatekaan waa in la isugu gudbiyaa oo keliya ''{{{1}}}'' barxada magacyada.}}
+}}<includeonly>{{#ifeq:{{lc:{{{nocat|false}}}}}|been abuur|[[Category:Bogagga leh templateyada ee ku jira barxada magacyada qaldan]]|<!--If nocat=true, then the category is suppressed -->}}}}}}}}}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
