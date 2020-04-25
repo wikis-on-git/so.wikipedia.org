@@ -9,7 +9,7 @@
 {{Collapse bottom}}}}
 {{#ifeq:{{{container}}}|haa|{{Cmbox
 | type = notice
-| text = Kani waa '''[[:Category:Container categories|qaybta Kontenar]]'''. Baaxaddeeda awgeed, waa inay lahaataa ''kaliya'' '''[[Wikipedia:Categorization#Subcategorization|qayb hoosaadyo]]'''. <includeonly>{{Category other|[[Category:qaybaha kontenar]]}}</includeonly>}}{{#if:{{{1|}}}|<p>{{{1}}}</p>|}}
-}}<includeonly>{{Single namespace|qaybta|{{#ifeq:{{{category|}}}|maya||{{{category|[[Category:Qaybaha raadraaca]]}}}}}}}</includeonly><noinclude>
+| text = Kani waa '''[[:Category:Container categories|container category]]'''. Baaxaddeeda awgeed, waa inay lahaataa ''kaliya'' '''[[Wikipedia:Categorization#Subcategorization|subcategories]]'''. <includeonly>{{Category other|[[Category:Container categories]]}}</includeonly>}}{{#if:{{{1|}}}|<p>{{{1}}}</p>|}}
+}}<includeonly>{{Single namespace|category|{{#ifeq:{{{category|}}}|no||{{{category|[[Category:Tracking categories]]}}}}}}}</includeonly><noinclude>
 {{Documentation}}
 </noinclude>
