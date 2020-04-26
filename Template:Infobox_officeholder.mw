@@ -89,7 +89,7 @@
 | succeeding = {{{succeeding2|}}}
 | successor = {{{successor2|}}}
 | taoiseach = {{{taoiseach2|}}}
-| termlabel = {{{term_label2|{{{termlabel2|In office}}}}}}
+| termlabel = {{{term_label2|{{{termlabel2|xafiiska haya}}}}}}
 | termend = {{#if:{{{termend2|}}}|{{{termend2}}}|{{{term_end2|}}}}}
 | termstart = {{#if:{{{termstart2|}}}|{{{termstart2}}}|{{{term_start2|}}}}}
 | term = {{{term2|}}}
@@ -1424,7 +1424,7 @@
 | label21 = Pronunciation
 | data21 = {{{pronunciation|}}}
 
-| label22 = Born
+| label22 = Dhashay
 | data22 = {{br separated entries
  |1 = {{#if:{{{birth_name|{{{birthname|}}}}}}|<div style="display:inline" class="nickname">{{{birth_name|{{{birthname}}}}}}</div>}}
  |2 = {{{birth_date|}}}
