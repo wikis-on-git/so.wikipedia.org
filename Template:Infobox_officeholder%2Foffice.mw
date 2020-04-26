@@ -35,12 +35,12 @@
 }}
 
 | header6 = {{#if:{{{majority_leader|}}}{{{minority_floor_leader|}}}{{{minority_leader|}}}{{{majority_floor_leader|}}}||
-{{#if:{{{state_senate|}}}|Member{{#if:{{{succeeding|}}} |-elect}} of the <span style="display: inline-block;">[[{{{state_senate}}} Senate]]</span><br />from the {{{district}}} district{{#if:{{{prior_term|}}}|
+{{#if:{{{state_senate|}}}|Xubin{{#if:{{{succeeding|}}} |-elect}} ka mid ah <span style="display: inline-block;">[[{{{state_senate}}} Senate]]</span><br />from the {{{district}}} district{{#if:{{{prior_term|}}}|
 <br />{{{prior_term}}}}}
 }} }}
 
 | header7 = {{#if:{{{majority_leader|}}}{{{minority_floor_leader|}}}{{{minority_leader|}}}{{{majority_floor_leader|}}}||
-{{#if:{{{state_legislature|}}}|Member{{#if:{{{succeeding|}}} |-elect}} of the <span style="display: inline-block;">[[{{{state_legislature}}} Legislature]]</span><br />from the {{{district}}} district
+{{#if:{{{state_legislature|}}}|Xubin{{#if:{{{succeeding|}}} |-elect}} ka mid ah <span style="display: inline-block;">[[{{{state_legislature}}} Legislature]]</span><br />from the {{{district}}} district
 }} }}
 
 | header8 = {{#if:{{{ambassador_from|}}}{{{minister_from|}}}||
@@ -64,9 +64,9 @@
 
 <!--------MP--------->
 | header11 = {{#if:{{{constituency_AM|}}}{{{constituency_MP|}}}|
-{{#ifeq:{{{parliament|}}}|Ireland|[[Teachta Dála]]|{{#ifeq:{{{parliament|}}}|Australian|Xubin ka ah <span style="display: inline-block;">[[Parliament of Australia|Australian Parliament]]</span>|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}}}<br />for {{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}}}}}}
+{{#ifeq:{{{parliament|}}}|Ireland|[[Teachta Dála]]|{{#ifeq:{{{parliament|}}}|Australian|Xubin ka ah <span style="display: inline-block;">[[Parliament of Australia|Australian Parliament]]</span>|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Xubnaha Golaha}}|Xubin ka ah {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}}}<br />for {{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}}}}}}
 }}
-| header12 = {{#if:{{{riding|}}}|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}<br />for {{{riding}}}
+| header12 = {{#if:{{{riding|}}}|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Xubnaha Golaha}}|Xubin ka ah {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}<br />for {{{riding}}}
 }}
 
 <!--------Majority Leader (State Senate)--------->
@@ -88,7 +88,7 @@
 <!--------Congressman--------->
 | header17 = {{#if:{{{state_legislature|}}}{{{state_senate|}}}{{{jr/sr|}}}{{{jr/sr and state|}}}||
 {{#if:{{{district|}}}|{{#if:{{{state_assembly|}}}
-  |Member{{#if:{{{succeeding|}}}|-elect}} of the <span style="display: inline-block;">[[{{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Nevada||{{#ifeq:{{{state_assembly|}}}|New Jersey|General|State}}}} Assembly]]</span><br />from the 
+  |Xubin{{#if:{{{succeeding|}}}|-elect}} ka ah <span style="display: inline-block;">[[{{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Nevada||{{#ifeq:{{{state_assembly|}}}|New Jersey|General|State}}}} Assembly]]</span><br />from the 
   |Member{{#if:{{{succeeding|}}}|-elect}} of the <span style="display: inline-block;">[[{{#if:{{{state_house|}}} |{{{state_house}}}|{{#if:{{{state_delegate|}}}|{{{state_delegate}}}|United States }}}} {{#if:{{{state_delegate|}}}|House of Delegates|House of Representatives}}|{{#if:{{{state_house|}}} |{{{state_house}}}|{{#if:{{{state_delegate|}}}|{{{state_delegate}}}|U.S.}}}}&#32;{{#if:{{{state_delegate|}}}|House&#32;of&#32;Delegates|{{#if:{{{state_house|}}}| }}House&#32;of&#32;Representatives}}]]</span><br />from {{#if:{{{state_delegate|}}}|the |{{#if:{{{state_house|}}}|the |{{{state}}}'s}}}} 
   }} {{{district}}} district{{#if:{{{prior_term|}}}|
 <br />{{{prior_term}}}}}
@@ -149,7 +149,7 @@
 | data3 = {{{monarch|}}}
 
 | label4 = Madaxweyne
-| data4 = {{{president|}}}
+| data4 = {{{president|Madaxweyne}}}
 
 | label5 = {{#if:{{{governor_general|}}}|Governor General|Governor-General}}
 | data5 = {{#if:{{{governor_general|}}}|{{{governor_general}}}|{{{governor-general|}}}}}
@@ -182,7 +182,7 @@
 | data14 = {{{lieutenant_governor|}}}
 
 <!--------Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s--------->
-| label15 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Madaxweyne kuxigeen]]|Vice President}}|Madaxweyne kuxigeen}}}}
+| label15 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Madaxweyne ku xigeen}}|Madaxweyne kuxigeen}}}}
 | data15 = {{{vicepresident|}}}
 
 | label16 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice Governor]]|Vice Governor}}|Vice Governor}}}}
@@ -232,7 +232,7 @@
 | label30 = {{#if:{{{succeeding|}}}|Succeeding|Preceding}}
 | data30 = {{#if:{{{succeeding|}}}|{{{succeeding|}}}|{{{preceding|}}}}}
 
-| label32 = {{nowrap|Ku guuleystey}}
+| label32 = {{nowrap|ka horeeyay}}
 | data32 = {{#if:{{{succeeding|}}}||{{#if:{{{predecessor|}}}|{{{predecessor}}}|{{{preceded|}}}}}}}
 
 | label33 = {{nowrap|Ku guuleystey}}
