@@ -8,8 +8,8 @@
 {{{speaker}}} {{#if:{{{state_legislature|}}}
   |[[Speaker of the {{{state_legislature}}} Legislature]]
   |{{#if:{{{state_assembly|}}}
-     |[[Speaker of the {{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Nevada||{{#ifeq:{{{state_assembly|}}}|New Jersey|General|State}}}} Assembly]]
-     |{{#if:{{{speaker_office|}}}|{{{speaker_office}}}|[[Speaker of the {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|United States}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}|Speaker of the {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|U.S.}}}} House of {{#if:{{{state_delegate|}}}|Delegates|Representatives}}]]}}
+     |[[Afhayeenka {{{state_assembly|}}} {{#ifeq:{{{state_assembly|}}}|Nevada||{{#ifeq:{{{state_assembly|}}}|New Jersey|General|State}}}} Assembly]]
+     |{{#if:{{{speaker_office|}}}|{{{speaker_office}}}|[[Afhayeenka {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|United States}}}} Aqalka {{#if:{{{state_delegate|}}}|Delegates|Representatives}}|Afhayeenka {{#if:{{{state_delegate|}}} |{{{state_delegate}}}|{{#if:{{{state_house|}}} |{{{state_house}}}|U.S.}}}} Aqalka {{#if:{{{state_delegate|}}}|Delegates|Representatives}}]]}}
    }}
  }}{{#if:{{{prior_term|}}}|
 <br />{{{prior_term}}}}}
@@ -17,13 +17,13 @@
 
 <!--------Office--------->
 | header2 = {{#if:{{{nominee|}}}{{{candidate|}}}|
-{{#if:{{{party_election|}}}{{{party|}}}
-  |{{#if:{{{party_election|}}}|{{{party_election}}}|{{{party}}}}} {{#if:{{{nominee|}}}|nominee for<br>{{{nominee}}}|candidate for<br>{{{candidate}}}}}
+{{#if:{{{party_election|}}}{{{party|xisbiga}}}
+  |{{#if:{{{party_election|doorashada xisbiga}}}|{{{party_election}}}|{{{party}}}}} {{#if:{{{nominee|}}}|nominee for<br>{{{nominee}}}|candidate for<br>{{{candidate}}}}}
   |{{#if:{{{nominee|}}}|Nominee for<br>{{{nominee}}}|Candidate for<br>{{{candidate}}}}}
 }} }}
 
 | data3 = {{#if:{{{nominee|}}}{{{candidate|}}}|
-{{#if:{{{termstart|}}}{{{election_date|}}} | {{nowrap|'''Election date'''}}<br />{{#if:{{{election_date|}}}|{{{election_date}}}|{{{termstart}}}}}
+{{#if:{{{termstart|}}}{{{election_date|taariikhda doorashada}}} | {{nowrap|'''Election date'''}}<br />{{#if:{{{election_date|taariikhda doorashada}}}|{{{election_date}}}|{{{termstart}}}}}
 }} }}
 
 | header4 = {{#if:{{{majority_leader|}}}{{{minority_floor_leader|}}}{{{minority_leader|}}}{{{majority_floor_leader|}}}||
@@ -64,9 +64,9 @@
 
 <!--------MP--------->
 | header11 = {{#if:{{{constituency_AM|}}}{{{constituency_MP|}}}|
-{{#ifeq:{{{parliament|}}}|Ireland|[[Teachta Dála]]|{{#ifeq:{{{parliament|}}}|Australian|Member of the <span style="display: inline-block;">[[Parliament of Australia|Australian Parliament]]</span>|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Member of the <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}}}<br />for {{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}}}}}}
+{{#ifeq:{{{parliament|}}}|Ireland|[[Teachta Dála]]|{{#ifeq:{{{parliament|}}}|Australian|Xubin ka ah <span style="display: inline-block;">[[Parliament of Australia|Australian Parliament]]</span>|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}}}<br />for {{{constituency_{{#if:{{{constituency_AM|}}}|AM|MP}}}}}}}
 }}
-| header12 = {{#if:{{{riding|}}}|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Member of the <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}<br />for {{{riding}}}
+| header12 = {{#if:{{{riding|}}}|{{#if:{{{constituency_AM|}}}|{{#if:{{{assembly|}}}|Xubin ka ah <span style="display: inline-block;">[[{{{assembly}}} Assembly]]</span>|Assembly Member}}|Member of {{#if:{{{parliament|}}}|the <span style="display: inline-block;">[[{{{parliament}}} Parliament]]</span>|Parliament}}}}<br />for {{{riding}}}
 }}
 
 <!--------Majority Leader (State Senate)--------->
@@ -107,7 +107,7 @@
 | data20 = {{#if:{{{nominee|}}}{{{candidate|}}}||
 {{#if:{{{succeeding|}}}
   | {{nowrap|'''Assuming office'''}}<br />{{{termstart}}}{{#if:{{{term|}}}{{{termend|}}}|[[Category:Pages using infobox officeholder with succeeding and term or termend]]}}
-  | {{#if: {{{term|}}} | {{nowrap|'''{{{termlabel|In office}}}'''}}<br />{{{term}}} }}
+  | {{#if: {{{term|}}} | {{nowrap|'''{{{termlabel|Xafiiska hayay}}}'''}}<br />{{{term}}} }}
 }} }}
 
 | data21 = {{#if:{{{nominee|}}}{{{candidate|}}}||
@@ -115,8 +115,8 @@
   | 
   |{{#if:{{{termstart|}}}
       | {{#if:{{{termend|}}}
-         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|In office}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
-         |{{#if:{{{status|}}}|<div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''{{{status}}}'''</div>|<!--else: term is ongoing--><div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''[[Incumbent]]'''</div>}}
+         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|Xafiiska hayay}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
+         |{{#if:{{{status|}}}|<div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''{{{status}}}'''</div>|<!--else: term is ongoing--><div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''[[korkanaga]]'''</div>}}
          }}
     }}
 }} }}
@@ -127,14 +127,14 @@
   |{{#if:{{{termstart|}}}
       |{{#if:{{{termend|}}}
 |<!--then nothing else; term has ended-->
-|<!--else term is ongoing:-->{{nowrap|'''Assumed office'''}}&#32;<br />{{{termstart}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leader}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
+|<!--else term is ongoing:-->{{nowrap|'''xafiiska la wareegay'''}}&#32;<br />{{{termstart}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leader}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
        }}
    }}
 }} }}
 
 }} }}<!-- 
   end infobox1 / start infobox2
--->{{#if:{{{monarch|}}}{{{president|}}}{{{governor-general|}}}{{{governor_general|}}}{{{primeminister|}}}{{{chancellor|}}}{{{minister|}}}{{{taoiseach|}}}{{{firstminister|}}}{{{chiefminister|}}}{{{premier|}}}{{{governor|}}}{{{lieutenant_governor|}}}{{{vicepresident|}}}{{{vicegovernor|}}}{{{viceprimeminister|}}}{{{vicepremier|}}}{{{deputy|}}}{{{leader|}}}{{{lieutenant|}}}{{{nominator|}}}{{{appointer|}}}{{{opponent|}}}{{{incumbent|}}}{{{succeeding|}}}{{{preceding|}}}{{{predecessor|}}}{{{preceded|}}}{{{successor|}}}{{{succeeded|}}}{{{parliamentarygroup|}}}{{{constituency|}}}{{{majority|}}}{{{1namedata|}}}{{{2namedata|}}}{{{3namedata|}}}{{{4namedata|}}}{{{5namedata|}}}{{{runningmate|}}}|
+-->{{#if:{{{monarch|}}}{{{president|madaxweyne}}}{{{governor-general|}}}{{{governor_general|}}}{{{primeminister|}}}{{{chancellor|}}}{{{minister|}}}{{{taoiseach|}}}{{{firstminister|}}}{{{chiefminister|}}}{{{premier|}}}{{{governor|}}}{{{lieutenant_governor|}}}{{{vicepresident|madaxweyne kuxigeen}}}{{{vicegovernor|}}}{{{viceprimeminister|}}}{{{vicepremier|}}}{{{deputy|}}}{{{leader|}}}{{{lieutenant|}}}{{{nominator|}}}{{{appointer|}}}{{{opponent|}}}{{{incumbent|}}}{{{succeeding|}}}{{{preceding|}}}{{{predecessor|}}}{{{preceded|}}}{{{successor|}}}{{{succeeded|}}}{{{parliamentarygroup|}}}{{{constituency|}}}{{{majority|}}}{{{1namedata|}}}{{{2namedata|}}}{{{3namedata|}}}{{{4namedata|}}}{{{5namedata|}}}{{{runningmate|}}}|
 {{infobox|child=yes
 | labelstyle = text-align:left
 
@@ -148,7 +148,7 @@
 | label3 = Monarch
 | data3 = {{{monarch|}}}
 
-| label4 = President
+| label4 = Madaxweyne
 | data4 = {{{president|}}}
 
 | label5 = {{#if:{{{governor_general|}}}|Governor General|Governor-General}}
@@ -182,7 +182,7 @@
 | data14 = {{{lieutenant_governor|}}}
 
 <!--------Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s--------->
-| label15 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Vice President}}|Vice President}}}}
+| label15 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Madaxweyne kuxigeen]]|Vice President}}|Madaxweyne kuxigeen}}}}
 | data15 = {{{vicepresident|}}}
 
 | label16 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice Governor]]|Vice Governor}}|Vice Governor}}}}
@@ -232,10 +232,10 @@
 | label30 = {{#if:{{{succeeding|}}}|Succeeding|Preceding}}
 | data30 = {{#if:{{{succeeding|}}}|{{{succeeding|}}}|{{{preceding|}}}}}
 
-| label32 = {{nowrap|Preceded by}}
+| label32 = {{nowrap|Ku guuleystey}}
 | data32 = {{#if:{{{succeeding|}}}||{{#if:{{{predecessor|}}}|{{{predecessor}}}|{{{preceded|}}}}}}}
 
-| label33 = {{nowrap|Succeeded by}}
+| label33 = {{nowrap|Ku guuleystey}}
 | data33 = {{#if:{{{succeeding|}}}||{{#switch:{{#if:{{{successor|}}}|{{{successor}}}|{{{succeeded|}}}}}
 | Incumbent
 | '''Incumbent'''
