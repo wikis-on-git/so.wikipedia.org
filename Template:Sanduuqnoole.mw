@@ -1,26 +1,73 @@
-{{Taxobox/core
-| edit link = {{{edit link|{{{edit_link|e}}} }}}
-| temporal_range = {{#if:{{{fossil_range|{{{fossil range|}}} }}}|{{#iferror:{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }}|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}}|{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }} }} | {{#if:{{{oldest fossil|{{{oldest_fossil|}}} }}}|{{geological range|{{{oldest fossil|{{{oldest_fossil}}} }}}|{{{youngest fossil|{{{youngest_fossil|Recent}}} }}} }} }} }}
-| parent = {{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}}
+<noinclude><!--
+-====================================================================
+-  Template:Speciesbox - Generate a taxobox infobox for species
+-====================================================================
+--
+--   This template chooses parameters to send to {Taxobox/core}, to
+--   generate a right-side taxobox infobox.  Most parameters are just
+--   passed directly; some are explained with a comment.  When run as
+--   stand-alone, the template shows Acacia aemula as sample output.
+--
+--   The genus name of the species is found by looking in order at
+--   (1) the genus parameter
+--   (2) the first word of the taxon parameter
+--   (3) the first word of the page name.
+--   The species name/specific epithet is found by looking in order at
+--   (1) the species parameter
+--   (2) the rest of the taxon parameter after removing the first word
+--   (3) the rest of the page name after removing any final part in
+--       parentheses and then removing the first word.
+--
+--   The genus name is then the entry into the taxonomic hierarchy.
+--
+--   A complication is that if the taxonomy template for the genus needs
+--   disambiguation (i.e. is "Template:Taxonomy/GENUS (DISAMBIG)") then
+--   the parameters will be genus=GENUS (DISAMBIG) | species=EPITHET
+--   Can also have genus=GENUS/QUALIFIER
+--
+-------------------------------- Invoke {Taxobox/core}
+The nowiki that follows is needed because of parser bug T18700--></noinclude><nowiki/>{{Taxobox/core<includeonly>
+| edit link = {{{edit link|{{{edit_link|edit}}} }}}</includeonly><noinclude><!--
+  --
+  -- fossil_range:  If the specified fossil range is a period supported
+  -- by templates {period_start} and {next_period}, then it incorporates
+  -- the specified range in template {geological range}, but checking
+  -- to display properly. Otherwise, just passes parameter.
+  --></noinclude>
+| temporal_range = {{#if:{{{fossil_range|{{{fossil range|}}} }}}|{{#iferror:{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }}|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}}|{{geological range|{{{temporal_range|{{{temporal range|{{{fossil_range|{{{fossil range|}}} }}} }}} }}} }} }} | {{#if:{{{oldest fossil|{{{oldest_fossil|}}} }}}|{{geological range|{{{oldest fossil|{{{oldest_fossil}}} }}}|{{{youngest fossil|{{{youngest_fossil|Recent}}} }}} }} }} }}<noinclude><!-- 
+PARENT: this is the taxon whose taxonomy template is used to find the taxonomic hierarchy; if
+not supplied as a parameter value, it defaults to the genus name.
+Template:Taxonomy/PARENT must exist. --></noinclude>
+| parent = <includeonly>{{{parent|{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}}}}</includeonly><noinclude>Acacia<!--
+DISPLAY PARENTS:
+ Number of immediate parents to display. Defaults to 1 above species, normally the genus (which is displayed as
+ a major rank, anyway).
+--></noinclude>
 | display_taxa = {{#expr:{{{display parents|{{{display_parents|1}}} }}}-1}}<noinclude><!--
 AUTHORITY (etc):
 In the format "author, year".  
 Species-authority is redundant to binomial_authority; we'll just list it the once.  (This avoids reference-duplication errors, too. 
 | species_authority = {{{authority|{{{binomial authority|{{{binomial_authority|}}} }}} }}}--></noinclude>
 | subgenus_authority = {{#if:{{{subgenus|}}}|{{{parent authority|{{{parent_authority|}}} }}} }}
-| authority = {{#if:{{{subgenus|}}}|{{{grandparent authority|{{{grandparent_authority|}}} }}} |{{{parent authority|{{{parent_authority|}}} }}} }}
-| parent_authority = {{#if:{{{subgenus|}}}|{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} |{{{grandparent authority|{{{grandparent_authority|}}} }}} }}
-| grandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} |{{{greatgrandparent authority|{{{greatgrandparent_authority|}}} }}} }}
-| greatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgrandparent authority|{{{greatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}
-| greatgreatgrandparent_authority = {{#if:{{{subgenus|}}}|{{{greatgreatgreatgreatgrandparent authority|{{{greatgreatgreatgreatgrandparent_authority|}}} }}} |{{{greatgreatgreatgrandparent authority|{{{greatgreatgrandparent_authority|}}} }}} }}
-| name = {{Sanduuqnoole/magac|{{{name|<noinclude>''Acacia aemula''</noinclude>}}}|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}|{{PAGENAMEBASE}}|{{{italic_title|{{{italic title|yes}}}}}}}}<noinclude><!--
- -- colour:  (Note UK spelling here) There are three cases:
- 1) the parameter color_as has a value – the colour is found directly using {{Taxobox colour|color_as}}
- 2) the deprecated parameter color has a value – an actual colour is expected
- 3) neither of these parameters have a value – Module:Autotaxobox|taxoboxColour searches up the taxonomic hierarchy
-    to try to find a taxon which determines the taxobox colour
+| authority = {{{authority|}}}
+| parent_authority = {{{parent_authority|{{{parent authority|}}}}}}
+| grandparent_authority = {{{grandparent_authority|{{{grandparent authority|}}}}}}
+| greatgrandparent_authority = {{{greatgrandparent_authority|{{{greatgrandparent authority|}}}}}}
+| greatgreatgrandparent_authority = {{{greatgreatgrandparent_authority|{{{greatgreatgrandparent authority|}}}}}}
+| greatgreatgreatgrandparent_authority = {{{greatgreatgreatgrandparent_authority|{{{greatgreatgreatgrandparent authority|}}}}}}
+| offset = {{#if:{{{subgenus|}}}|2|1}}
+<noinclude><!--
+NAME:
+{{Speciesbox/name}} both determines the taxobox name and whether the page title should be italicized by
+adding the {{italic title}} template.
 --></noinclude>
-| colour  = {{#if:{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}|{{Taxobox colour|{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}}}|{{#if:{{{color|{{{colour|}}} }}}|{{{color|{{{colour}}} }}}|{{#invoke:Autotaxobox|taxoboxColour|{{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}}}}}} }} }} }}
+| name = {{Speciesbox/name|{{{name|<noinclude>''Acacia aemula''</noinclude>}}}|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}|{{PAGENAMEBASE}}|{{{italic_title|{{{italic title|yes}}}}}}}}<noinclude><!--
+ -- colour:  (Note UK spelling here) There are two cases:
+ 1) the parameter color_as has a value – the colour is found directly using {{Taxobox colour|color_as}}
+ 2) otherwise – Module:Autotaxobox|taxoboxColour searches up the taxonomic hierarchy to try to find a taxon that
+    determines the taxobox colour
+--></noinclude>
+| colour  = {{#if:{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}|{{Taxobox colour|{{{color_as|{{{colour_as|{{{color as|{{{colour as|}}}}}}}}}}}}}}|{{#invoke:Autotaxobox|taxoboxColour|<includeonly>{{{parent|{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}}}}</includeonly><noinclude>Acacia</noinclude> }} }}
 | status  = {{{status|}}}
 | status_system = {{{status system|{{{status_system|}}} }}}
 | status_ref = {{{status ref|{{{status_ref|}}} }}}
@@ -45,14 +92,16 @@ Species-authority is redundant to binomial_authority; we'll just list it the onc
 | diversity_link = {{{diversity link|{{{diversity_link|}}} }}}
 | extinct = {{{extinct|}}}
 | subgenus = {{#if:{{{subgenus|}}}|''{{{subgenus}}}''}}
-| species = {{#if:{{{extinct|}}}|&dagger;|{{Taxon info|{{{parent|{{{genus|{{first word|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Adhi</noinclude>}}}}}}}}}}}|dagger}} }}<!--
--->'''''{{str left|{{{genus|{{{taxon|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia</noinclude>}}}}}}|1}}.'''''
-| binomial = 
+| species = {{#if:{{{extinct|}}}|&dagger;|{{Taxon info|<includeonly>{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}</includeonly><noinclude>Acacia</noinclude>|dagger}} }}<!--
+-->'''{{taxon italics|abbreviated=yes|<includeonly>{{Speciesbox/trim|{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}}} {{Speciesbox/getSpecies|{{{taxon|}}}|{{{species|noocyada}}}}}</includeonly><noinclude>Acacia aemula</noinclude>}}'''
+| binomial = <span style="font-weight:normal;">{{#if:{{{extinct|}}}|&dagger;|{{Taxon info|<includeonly>{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}</includeonly><noinclude>Acacia</noinclude>|dagger}} }}</span><!--
+-->{{taxon italics|<includeonly>{{Speciesbox/trim|{{Speciesbox/getGenus|{{{taxon|}}}|{{{genus|}}}}}}} {{Speciesbox/getSpecies|{{{taxon|}}}|{{{species|noocyada}}}}}</includeonly><noinclude>Acacia aemula</noinclude>}}
 | binomial_authority = {{{authority|{{{binomial authority|{{{binomial_authority|}}} }}} }}}
 | trinomial = {{{trinomial|}}}
 | trinomial_authority = {{{trinomial authority|{{{trinomial_authority|}}} }}}
 | subdivision = {{{subdivision|}}}
 | subdivision_ranks = {{{subdivision ranks|{{{subdivision_ranks|Subspecies}}} }}}
+| subdivision_ref = {{{subdivision_ref|{{{subdivision ref|}}} }}}
 | type_strain = {{{type strain|{{{type_strain|}}} }}}
 | range_map = {{{range map|{{{range_map|}}} }}}
 | range_map_upright = {{{range_map_upright|{{{range map upright|}}}}}}
@@ -82,5 +131,5 @@ Species-authority is redundant to binomial_authority; we'll just list it the onc
 | range_map4_caption = {{{range map4 caption|{{{range_map4_caption|}}} }}}
 | synonyms_ref = {{{synonyms ref|{{{synonyms_ref|}}} }}}
 | synonyms = {{{synonyms|}}}
-}}<noinclude>
+}}{{Speciesbox/parameterCheck|{{{taxon|}}}|{{{genus|}}}|{{{species|}}}}}<noinclude>
 {{documentation}}</noinclude>
