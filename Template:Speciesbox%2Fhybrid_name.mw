@@ -1,0 +1,1 @@
+{{#ifeq:{{#invoke:String|find|{{{1|}}}|×}}|0|{{{1|}}}|''{{#invoke:String|replace|{{{1}}}|×|{{hybrid}}}}''}}<noinclude>{{documentation}}</noinclude>
