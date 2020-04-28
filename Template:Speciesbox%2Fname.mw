@@ -1,0 +1,8 @@
+<noinclude><!--Parameters: 1=name, 2=taxon, 3=genus, 4=species, 5=PAGENAMEBASE, 6=italic_title (obey no)
+--></noinclude><includeonly>{{#switch:{{{5}}}
+|{{{2|}}}
+|{{Speciesbox/trim|{{{3|}}}}} {{{4|}}}
+|{{Speciesbox/trim|{{{2|}}}}}
+|{{Speciesbox/trim|{{{3|}}}}}={{#ifeq:{{{6|yes}}}|no||{{italic title}}}}{{#if:{{{1|}}}|{{{1}}}|{{taxon italics|{{{5}}}}}}}
+|#default={{#if:{{{1|}}}|{{{1}}}|{{#if:{{{2|}}}{{{3|}}}|{{Speciesbox/hybrid name|{{{5}}}}}|{{#ifeq:{{{6|yes}}}|no||{{italic title}}}}{{taxon italics|{{{5}}}}}}}}}
+}}</includeonly><noinclude>{{documentation}}</noinclude>
