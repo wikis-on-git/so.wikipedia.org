@@ -1,0 +1,1 @@
+<noinclude>{{pp-template|small=yes}}</noinclude>{{#if:{{{1|}}}|{{remove first word|{{{1}}}}}|{{#if:{{{2|}}}|{{{2}}}|{{remove first word|<includeonly>{{PAGENAME}}</includeonly><noinclude>Acacia aemula</noinclude>}}}}}}
