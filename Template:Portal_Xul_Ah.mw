@@ -18,7 +18,7 @@
 |id=fa-box
 |style=text-align:center;margin:5px auto;padding:.3em;
 |image=FeaturedPortal-check.svg
-|text= Portalkaan [[Wikipedia:Portal Xul Ah|Xul]] Laga bilaabo [{{FULLURL:{{fullpagename}}|oldid={{{nuqul|}}} }} nuqul {{{date|}}}] <span style=font-size:80%>([{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|oldid={{{nuqul}}}&diff=cur}} isbarbardhig nuqulka hadda] '''·''' arag {{#ifexist:{{TALKPAGENAME}}|[[{{TALKPAGENAME}}|bogga wadahadalka]] iyo}}[[Wikipedia:Sharaxaad portal xul ah/Portal:{{PAGENAME}}|Codayn]])</span>{{#ifeq:{{{nuqul|oldid}}}|oldid|[[Category:Portal xul ah aan lahayn lambar nuqul]]}}
+|text= Portalkaan [[Wikipedia:Portal Xul Ah|Xul]] Laga bilaabo [{{FULLURL:{{fullpagename}}|oldid={{{SUBST|}}} }} nuqul {{{date|}}}] <span style=font-size:80%>([{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|oldid={{{SUBST}}}&diff=cur}} isbarbardhig nuqulka hadda] '''·''' arag {{#ifexist:{{TALKPAGENAME}}|[[{{TALKPAGENAME}}|bogga wadahadalka]] iyo}}[[Wikipedia:Sharaxaad portal xul ah/Portal:{{PAGENAME}}|Codayn]])</span>{{#ifeq:{{{SBST|oldid}}}|oldid|[[Category:Portal xul ah aan lahayn lambar nuqul]]}}
 }}</includeonly><noinclude>{{Documentation}}
 [[Category:Tusmooyin gaar ah]]
 </noinclude>
