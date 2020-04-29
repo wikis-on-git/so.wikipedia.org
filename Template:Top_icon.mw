@@ -1,2 +1,6 @@
-<div style="display:none; right:{{#expr: {{{number|{{{icon_nr|0}}}}}}*(2+{{{width|15}}})+10+{{{offset|{{{extra_offset|0}}}}}} }}px; {{{style|}}}" class="metadata topicon nopopups {{{class|}}}" {{#if:{{{id|}}}|id="{{{id}}}"}}>[[File:{{{image|{{{imagename}}}}}}|{{{width|15}}}px|{{#if:{{{link|}}}{{{wikilink|}}}|link={{{link|{{{wikilink|}}}}}}}}|{{{text|{{{description}}}}}}]]</div><noinclude>
-{{Documentation}}<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS --></noinclude>
+<noinclude><tt></noinclude><div style="display:none; left:{{#expr: {{{number|{{{number|{{{icon_nr|0}}}}}}}}}*(2+{{{display|{{{width|{{{width|15}}}}}}}}})+15+{{{offset|{{{offset|{{{extra_offset|0}}}}}}}}} }}px; {{{style|{{{style|}}}}}}" class="metadata topicon nopopups {{{class|{{{class|}}}}}}" {{#if:{{{id|}}}{{{id|}}}|id="{{{id|{{{id}}}}}}"}}>[[file:{{{imagename|{{{image|{{{image}}}}}}}}}|{{{width|{{{width|15}}}}}}px|{{#if:{{{link|}}}{{{link|}}}{{{wikilink|}}}|link={{{wikilink|{{{link|{{{link|}}}}}}}}}}}|{{{description|{{{text|{{{text}}}}}}}}}]]</div><noinclude></tt>
+[[Category:Tusmooyin ciwaan]]
+
+
+{{Documentation}} 
+</noinclude>
