@@ -1,6 +1,6 @@
 <includeonly><div>{{Taxobox/core
 | colour = {{#if:{{{color|{{{colour|}}}}}}|{{{color|{{{colour|}}}}}}|{{#ifeq:{{{domain}}}|[[Bacteria]]|{{Taxobox colour|[[Bacteria]]}}|{{Taxobox colour|{{{regnum|{{{virus_group|{{{virus group|{{{unranked_phylum|{{{unranked phylum|{{{unranked_superdivisio|{{{unranked superdivisio|{{{phylum|}}} }}} }}} }}} }}} }}} }}} }}} }} }} }}
-| name = {{#if:{{{name|}}}|{{{name}}}|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}
+| name = {{#if:{{{name|magaca}}}|{{{name}}}|{{Taxobox name|{{{genus}}}|{{{species|Nuucyada}}}|{{{binomial}}}}}}}
 | status = {{{status|}}} 
 | status_system = {{{status_system|{{{status system|}}}}}}
 | status_ref = {{{status_ref|{{{status ref|}}}}}}
@@ -155,7 +155,7 @@
 | alliance_authority = {{{alliance_authority|{{{alliance authority|}}}}}}
 | unranked_genus = {{{unranked_genus|{{{unranked genus|}}}}}}
 | unranked_genus_authority = {{{unranked_genus_authority|{{{unranked genus authority|}}}}}}
-| genus = {{{genus|}}}
+| genus = {{{genus|ku abtirsada}}}
 | genus_authority = {{{genus_authority|{{{genus authority|}}}}}}
 | unranked_subgenus = {{{unranked_subgenus|{{{unranked subgenus|}}}}}}
 | unranked_subgenus_authority = {{{unranked_subgenus_authority|{{{unranked subgenus authority|}}}}}}
