@@ -1,0 +1,140 @@
+{{Navbox with collapsible groups
+|name = CcTLD
+|state = {{{state|expanded}}}
+|title = [[Country code top-level domain]]s
+|selected = {{{selected|{{{1|}}}}}}
+
+|group1 = [[ISO 3166-1 alpha-2|ISO 3166-1]]
+|state1 = {{{iso3166-1|expanded}}}
+|abbr1 = ISO 3166-1
+|list1 = <div>
+'''A'''&nbsp;[[.ac]] [[.ad]] [[.ae]] [[.af]] [[.ag]] [[.ai]] [[.al]] [[.am]] [[.ao]] [[.aq]] [[.ar]] [[.as]] [[.at]] [[.au]] [[.aw]] [[.ax]] [[.az]]{{spaces|2}}
+'''B'''&nbsp;[[.ba]] [[.bb]] [[.bd]] [[.be]] [[.bf]] [[.bg]] [[.bh]] [[.bi]] [[.bj]] [[.bm]] [[.bn]] [[.bo]] [[.br]] [[.bs]] [[.bt]] [[.bw]] [[.by]] [[.bz]]{{spaces|2}}
+'''C'''&nbsp;[[.ca]] [[.cc]] [[.cd]] [[.cf]] [[.cg]] [[.ch]] [[.ci]] [[.ck]] [[.cl]] [[.cm]] [[.cn]] [[.co]] [[.cr]] [[.cu]] [[.cv]] [[.cw]] [[.cx]] [[.cy]] [[.cz]]{{spaces|2}}
+'''D'''&nbsp;[[.de]] [[.dj]] [[.dk]] [[.dm]] [[.do]] [[.dz]]{{spaces|2}}
+'''E'''&nbsp;[[.ec]] [[.ee]] [[.eg]] [[.er]] [[.es]] [[.et]] [[.eu]]{{spaces|2}}
+'''F'''&nbsp;[[.fi]] [[.fj]] [[.fk]] [[.fm]] [[.fo]] [[.fr]]{{spaces|2}}
+'''G'''&nbsp;[[.ga]] [[.gd]] [[.ge]] [[.gf]] [[.gg]] [[.gh]] [[.gi]] [[.gl]] [[.gm]] [[.gn]] [[.gp]] [[.gq]] [[.gr]] [[.gs]] [[.gt]] [[.gu]] [[.gw]] [[.gy]]{{spaces|2}}
+'''H'''&nbsp;[[.hk]] [[.hm]] [[.hn]] [[.hr]] [[.ht]] [[.hu]]{{spaces|2}}
+'''I'''&nbsp;[[.id]] [[.ie]] [[.il]] [[.im]] [[.in]] [[.io]] [[.iq]] [[.ir]] [[.is]] [[.it]]{{spaces|2}}
+'''J'''&nbsp;[[.je]] [[.jm]] [[.jo]] [[.jp]]{{spaces|2}}
+'''K'''&nbsp;[[.ke]] [[.kg]] [[.kh]] [[.ki]] [[.km]] [[.kn]] [[.kp]] [[.kr]] [[.kw]] [[.ky]] [[.kz]]{{spaces|2}}
+'''L'''&nbsp;[[.la]] [[.lb]] [[.lc]] [[.li]] [[.lk]] [[.lr]] [[.ls]] [[.lt]] [[.lu]] [[.lv]] [[.ly]]{{spaces|2}}
+'''M'''&nbsp;[[.ma]] [[.mc]] [[.md]] [[.me]] [[.mg]] [[.mh]] [[.mk]] [[.ml]] [[.mm]] [[.mn]] [[.mo]] [[.mp]] [[.mq]] [[.mr]] [[.ms]] [[.mt]] [[.mu]] [[.mv]] [[.mw]] [[.mx]] [[.my]] [[.mz]]{{spaces|2}}
+'''N'''&nbsp;[[.na]] [[.nc]] [[.ne]] [[.nf]] [[.ng]] [[.ni]] [[.nl]] [[.no]] [[.np]] [[.nr]] [[.nu]] [[.nz]]{{spaces|2}}
+'''O'''&nbsp;[[.om]]{{spaces|2}}
+'''P'''&nbsp;[[.pa]] [[.pe]] [[.pf]] [[.pg]] [[.ph]] [[.pk]] [[.pl]] [[.pm]] [[.pn]] [[.pr]] [[.ps]] [[.pt]] [[.pw]] [[.py]]{{spaces|2}}
+'''Q'''&nbsp;[[.qa]]{{spaces|2}}
+'''R'''&nbsp;[[.re]] [[.ro]] [[.rs]] [[.ru]] [[.rw]]{{spaces|2}}
+'''S'''&nbsp;[[.sa]] [[.sb]] [[.sc]] [[.sd]] [[.se]] [[.sg]] [[.sh]] [[.si]] [[.sk]] [[.sl]] [[.sm]] [[.sn]] [[.so]] [[.sr]] [[.ss]] [[.st]] [[.su]] [[.sv]] [[.sx]] [[.sy]] [[.sz]]{{spaces|2}}
+'''T'''&nbsp;[[.tc]] [[.td]] [[.tf]] [[.tg]] [[.th]] [[.tj]] [[.tk]] [[.tl]] [[.tm]] [[.tn]] [[.to]] [[.tr]] [[.tt]] [[.tv]] [[.tw]] [[.tz]]{{spaces|2}}
+'''U'''&nbsp;[[.ua]] [[.ug]] [[.uk]] [[.us]] [[.uy]] [[.uz]]{{spaces|2}}
+'''V'''&nbsp;[[.va]] [[.vc]] [[.ve]] [[.vg]] [[.vi]] [[.vn]] [[.vu]]{{spaces|2}}
+'''W'''&nbsp;[[.wf]] [[.ws]]{{spaces|2}}
+'''Y'''&nbsp;[[.ye]] [[.yt]]{{spaces|2}}
+'''Z'''&nbsp;[[.za]] [[.zm]] [[.zw]]
+</div>
+
+|group2 = [[Domainka sare ee kodeka dalka ee caalamiga ah|(IDN) ccTLD Caalami ah]]
+|state2 = <noinclude>expanded</noinclude>
+|abbr2 = IDN
+|list2 =
+ {{Navbox with columns |child
+  |colwidth=20em |colstyle=text-align:left; |listclass=plainlist
+  |col1header=[[Cyrillic script]]
+  |col1 =
+* [[.бг]] (''bg'', [[Bulgariya]])
+* [[.бел]] (''bel'', [[Belarus]])
+* [[.ею]] (''eyu'', [[Midowga Yurub]])
+* [[.қаз]] (''qaz'', [[Kasakhstan]])
+* [[.мон]] (''mon'', [[Mongolia]])
+* [[.мкд]] (''mkd'', [[Masadooniya|Woqooyiga Masadooniya]])
+* [[.рф]] (''rf'', [[Ruushka]])
+* [[.срб]] (''srb'', [[Serbia]])
+* [[.укр]] (''ukr'', [[Ukrain]])
+  |
+  |col2header=[[Arabic script]]
+  |col2 =
+* [[.dz|الجزائر.]] (''al-Jazā’ir'', [[Aljeeriya]])
+* [[Misr (domain name)|مصر.]] (''Misr'', [[Masar]])
+* [[.in#Internationalized domain names and country codes|بھارت.]] (''Bharat'', India)
+* [[.ir#Persian domains|ایران.]] (''[[Iiraan]]'')
+* [[.jo|الاردن.]] (''al-Urdun'', [[Urdun]])
+* [[.ps|فلسطين.]] (''Filastin'', [[Falastiin]])
+* [[.pk#Internationalized county codes|پاکستان.]] (''Pākistān'', [[Bakistaan]])
+* [[.qa|قطر.]] (''[[Qatar]]'')
+* [[AlSaudiah|السعودية.]] (''al-Saudiah'', [[Sacuudi Carabiya]])
+* [[List of Internet top-level domains#Internationalized country code top-level domains|سوريا.]] (''Sūryā'', [[Suuriya]])
+* [[List of Internet top-level domains#Internationalized country code top-level domains|تونس.]] (''Tunis'', [[Tunisiya]])
+* [[Emarat|امارات.]] (''Emarat'', [[Imaaraatka Carabta|Isutaga Imaaraatka Carabta|UAE]])
+* [[عمان.]] (''ʻUmān'', [[Cuman]])
+* [[مليسيا.]] (''Maleesya'', [[Malaysia]])
+* [[المغرب.]] (''al-Maġrib'', [[Morooko]])
+* [[سودان.]] (''Sūdān'', [[Sudan]])
+* [[اليمن.]] (''al-Yaman'', [[Yeman]])
+  |
+  |col3header=[[Brahmic scripts]]
+  |col3 =
+* [[.বাংলা]] (''Bangla'', [[Bangladesh]])
+* [[.in#Internationalized domain names and country codes|.ভাৰত]] (''Bharôt'', [[Hindiya]])
+* [[.in#Internationalized domain names and country codes|.ভারত]] (''Bharôt'', [[Hindiya]])
+* [[.in#Internationalized domain names and country codes|.भारत]] (''Bharat'', India)
+* [[.in#Internationalized domain names and country codes|.భారత్]] (''Bharat'', India)
+* [[.in#Internationalized domain names and country codes|.ભારત]] (''Bharat'', India)
+* [[.in#Internationalized domain names and country codes|.ਭਾਰਤ]] (''Bharat'', India)
+* [[.in#Internationalized domain names and country codes|.ଭାରତ]] (''Bhārata'', India)
+* [[.in#Internationalized domain names and country codes|.இந்தியா]] (''Inthiyaa'', India)
+* [[.la|.ລາວ]] (''Lao'', [[Laos]])
+* [[.sg|.சிங்கப்பூர்]] (''Cinkappūr'', Singabuur)
+* [[.lk#Internationalized top-level domains|.ලංකා]] (''Lanka'', [[Siri Lanka]])
+* [[.lk#Internationalized top-level domains|.இலங்கை]] (''Ilangai'', Siri Lanka)
+* [[.th#Second top domain|.ไทย]] (''Thai'', [[Thayland]])
+  |
+  |col4header=[[farta shiineeska]]
+  |col4 =
+* {{lang|zh|[[.cn#Magaca domainka ee caalamiga ah ee farta shiineeska|.中国]]}} (''Zhōngguó'', [[Chiinaha]])
+* {{lang|zh-Hant|[[.cn#Magaca domainka ee caalamiga ah ee farta shiineeska|.中國]]}} (''Zhōngguó'', Chiinaha)
+* {{lang|zh-Hant|[[.hk|.香港]]}} (''Xiānggǎng''/''Hoeng<sup>1</sup>gong<sup>2</sup>'', [[Hong Kong]])
+* {{lang|zh-Hant|[[.mo|.澳門]]}} (''Àomén''/''Ou<sup>3</sup>mun<sup>4</sup>'', [[Macau]])
+* {{lang|zh|[[.mo|.澳门]]}} (''Àomén''/''Ou<sup>3</sup>mun<sup>4</sup>'', Macau)
+* {{lang|zh|[[.sg|.新加坡]]}} (''Xīnjiāpō'', [[Singabuur]])
+* {{lang|zh-tw|[[.tw|.台灣]]}} (''Táiwān'', [[Taywan]])
+* {{lang|zh|[[.tw|.台湾]]}} (''Táywān'', Taywan)
+  |
+  |col5header=[[Nidaamka qoraalka|Qoraalada kale]]
+  |col5 =
+* [[.հայ]] (''hay'', [[Armania]])
+* [[.ευ]] (''ey'', [[Midowga Yurub]])
+* [[.ge|.გე]] (''ge'', [[Joorjiya (wadan)|Joorjiya]])
+* [[.gr|.ελ]] (''el'', [[Greek]]) 
+* [[.kr|.한국]] (''Han-guk'', [[Kuuriyada koonfureed]])
+}}
+
+|group3 = [[Soo jeedinta domainada sare#Domainada sare ee kodeka dalka ee caalamiga ah|Soo jeedinta ccTLDs]]
+|state3 = <noinclude>expanded</noinclude>
+|abbr3 = Soo jeedin
+|list3 =
+ {{Navbox with columns |child
+  |colwidth=20em |colstyle=text-align:left;white-space:nowrap;
+  |col1 = [[.cy|.κπ]] (''kp'', [[Cyprus]]) - {{rtl-lang|he|[[.il|.ישראל]]}} (''Yisrael'', [[Israaiil]]) - {{lang|ja|[[.jp|.日本]]}} (''Nippon'', [[Jabaan]])
+}}
+
+|group4 = Others
+|state4 = <noinclude>expanded</noinclude>
+|abbr4 = Others
+|list4 =
+ {{Navbox with columns |child
+  |colheaderstyle = font-weight:normal;
+  |colstyle = white-space:nowrap;text-align:center;
+  |col1header = Reserved{{\}}unassigned
+  |col1 = [[.bl]] [[.bq]] [[.eh]] [[.mf]]
+  |col2header = Allocated{{\}}unused
+  |col2 = [[.bv]] [[.gb]] [[.sj]]
+  |col3header = Phased out{{\}}deleted
+  |col3 = [[.an]] [[.mm|.bu]] [[.cs]] [[.dd]] [[.tp]] [[.um]] [[.yu]] [[.zr]]}}
+
+|below = See also: [[Generic top-level domain]]s
+
+}}<noinclude>
+{{Documentation}}
+</noinclude>
