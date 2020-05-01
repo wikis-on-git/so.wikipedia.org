@@ -1,9 +1,83 @@
-<br clear="all" />
-{|  id="toc" style="margin: 0;background:#ffffff;" width="100%" align="center" 
-!  align="left" style="background:#ccccff;" width="200"  align="center" | [[:Category:Caasimadaha afrika|Caasimadaha]] [[Afrika]]
-! align="right" rowspan="1" width="5%"| 
-|-
-| colspan=2 align="center" style="font-size: 85%" | [[Abuja]]{{·}} [[Akara]]{{·}} {{nowrap|[[Addis Abeba]]}}{{·}} [[Algiers]]{{·}} [[Antananarifo]]{{·}} {{nowrap|[[Asmara]]}}{{·}} [[Bamako]]{{·}} [[Bangui]]{{·}} [[Banjul]]{{·}} [[Bissau]]{{·}} [[Barasafille]]{{·}} [[Bujumbura]]{{·}} {{nowrap|[[Dakar]]}}{{·}} {{nowrap|[[Dodoma]]}}{{·}} [[Freetown]]{{·}} [[Gaborone]]{{·}} [[Harare]]{{·}} [[Bort Lois]]{{·}} [[Borto-Novo]]{{·}} [[Braia]]{{·}} {{nowrap|[[Jamestown]]}}{{·}} [[jabuuti (magaalo)|Jabuuti]]{{·}} [[Juba (Magaalo)|Juba]]{{·}} [[Kambaala]]{{·}} {{nowrap|[[Kab town]]}}{{·}} {{nowrap|[[Konakry]]}}{{·}} {{nowrap|[[Khartuum]]}}{{·}} [[Kigali]]{{·}} [[Kinshasa‎]]{{·}} [[Librefille]]{{·}} [[Lilongwe]]{{·}} [[Lobamba]]{{·}} [[Lome]]{{·}} [[Luanda]]{{·}} [[Lusaka]]{{·}} [[Malabo]]{{·}} [[Mamawdsaw]]{{·}} [[Mabuto]]{{·}} [[Maseru]]{{·}} [[Mabane]]{{·}} [[Muqdisho]]{{·}} [[Monrofia]]{{·}} [[Moroni]]{{·}} [[Nayroobi]]{{·}} {{nowrap|[[Nijamiina]]}}{{·}} [[Niamey]]{{·}} [[Nawakshot]]{{·}} [[Ouagadougou]]{{·}}  [[Qaahiro]]{{·}} [[Rabat]]{{·}} [[Saint-Denis]]{{·}} {{nowrap|[[Sao Tome]]}}{{·}} [[Triboli]]{{·}} [[Tunis]]{{·}} [[Fiktoria]]{{·}} [[Windhoek]]{{·}} [[Yawunde]]{{·}} [[Yamoussoukro]]
-|-
-|}<includeonly>{{#if: {{NAMESPACE}} |  | [[Category:{{PAGENAME}}| ]] [[Category:Caasimadaha afrika]]}}</includeonly><!--
---><noinclude>{{Documentation}}</noinclude>
+{{navbox
+|name  = List of African capitals
+|title= [[Magaalo madaxda|Caasimadaha]] dawladaha Afrika
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|above = [[Dhul ku tiirsan|Dhulalka ku tiirsan]] iyo [[liiska dowladaha leh aqoonsi kooban|dowladaha leh aqoonsi kooban]] ayaa ku jira
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* '''[[Abuja]]''', [[Nayjeeriya]]
+* '''[[Accra]]''', [[Gaana]]
+* '''[[Addis Ababa]]''', [[Itoobiya]]
+* '''[[Algiers]]''', [[Algeeriya]]
+* '''[[Antananarifo]]''', [[Madagaskar]]
+* '''[[Asmara]]''', [[Eritrea]]
+* '''[[Bamako]]''', [[Mali]]
+* '''[[Bangui]]''', [[Jamhuuriyadda Bartamaha Afrika]]
+* '''[[Banjul]]''', [[Gambia]]
+* '''[[Bissau]]''', [[Guinea]]
+* '''[[Brassafille]]''', [[Jamhuuriyadda Kongo]]
+* '''[[Qaahiro]]''', [[Masar]]
+* '''[[konakry]]''', [[Guinea]]
+* '''[[Dakar]]''', [[Senegal]]
+* '''[[Jabuuti (magaalo)|Jabuuti]]''', [[Jabuuti]]
+* '''[[Dodoma]]''', [[Tansaniya]]
+* '''''[[Laayoune|El Aaiun]]''' (sheegatay)/'''[[Tifariti]]''' (saxda ah), [[Jamhuuriyadda Dimoqraadiga Carabta ee Saxraawi]]''{{sup|1}}
+* '''[[Freetown]]''', [[Sierra Leone]]
+* '''''[[Funjal]]''', [[Madeira]]''{{sup|4}}
+* '''[[Gaborone]]''', [[Botswana]]
+* '''[[Gitega]]''', [[Burundi]]
+* '''[[Harare]]''', [[Simbaabwi]]
+* '''''[[Jamestown, Saint Helena|Jamestown]]''', [[Saint Helena, Ascension iyo Tristan da Cunha]]''{{sup|2}} 
+* '''[[Juba]]''', [[Koonfur Suudaan]]
+* '''[[Kampala]]''', [[Uganda]]
+* '''[[Khartoum]]''', [[Suudaan]]
+* '''[[Kigali]]''', [[Ruwanda]]
+* '''[[Kinshasa]]''', [[Jamhuuriyadda dimuqraadiga kongo]]
+* '''[[Libreville]]''', [[Gabon]]
+* '''[[Lilongwe]]''', [[Malaawi]]
+* '''[[Lomé]]''', [[Togo]]
+* '''[[Luanda]]''', [[Angola]]
+* '''[[Lusaka]]''', [[sambiya]]
+* '''[[Malabo]]''', [[Equatorial Guinea]]
+* '''''[[Mamoudso]]''', [[Mayotte]]''{{sup|3}}
+* '''[[Mabuto]]''', [[Musanbiig|Musambig]]
+* '''[[Maseru]]''', [[Lesotho]]
+* {{hlist|'''[[Mbabane]]''' ([[Ngwenyama|executive]])<br>&nbsp;| '''[[Lobamba]]''' ([[Barlamaanka Eswatini|sharci dejinta]]), [[Eswatini]]}}
+* '''[[Mogadishu]]''', [[Soomaaliya]]
+* '''[[Monrofia]]''', [[Liberia]]
+* '''[[Moroni, Comoros|Moroni]]''', [[Komoros]]
+* '''[[Nairobi]]''', [[Kenya]]
+* '''[[N'Djamena]]''', [[Jad]]
+* '''[[Niamey]]''', [[Niger]]
+* '''[[Nouakjott]]''', [[Mauritania]]
+* '''[[Ouagadougou]]''', [[Burkina Faso]]
+* '''[[Bort Louis]]''', [[Mauritius]]
+* '''[[Borto-Nofo]]''', [[Benin]]
+* '''[[Braia]]''', [[Kabe Ferde]]
+* {{hlist|'''[[Pretoria]]''' ([[Madacweynaha Koonfur Afrika|fulinta]])<br>&nbsp;|'''[[Kape Town]]''' ([[Baarlamaanka Koonfur Afrika|legislative]])<br>&nbsp;|'''[[Bloemfontein]]''' ([[Maxkamadda Sare ee Rafcaanka Koonfur Afrika|garsoorka]]), [[Koonfur Afrika]]}}
+* '''[[Rabat]]''', [[Morokko]]
+* '''''[[Saint-Denis, Réunion|Saint-Denis]]''', [[Réunion]]''{{sup|3}}
+* '''''[[Santa Cruz de Tenerife]]''' iyo '''[[Las Palmas]]''', [[Canary Islands]]''{{sup|5}}
+* '''[[São Tomé]]''', [[Sao Tome iyo Príncipe]]
+* '''[[Triboli]]''', [[Libiya]]
+* '''[[Tunis]]''', [[Tunisiya]]
+* '''[[Fictoria, Seyshelles|Fiktoria]]''', [[Seyshelles]]
+* '''[[Windhoek]]''', [[Namibia]]
+* {{hlist|'''[[Yamoussoukro]]''' (siyaasad)<br>&nbsp;|'''[[Abidjan]]''' (economic), [[Ifory Kost]]}}
+* '''[[Yaoundé]]''', [[Kaamiruun]]
+{{Div col end}}
+|belowclass = hlist
+|below = 
+* {{sup|1}} [[Carriga ingiriiska ee dibada]]
+* {{sup|2}} [[Gobol dibada]] ee [[Fransiiska]]
+* {{sup|3}} [[Gobol madaxbanaan ee Bortuqaal|Gobol madaxbanaan ee Bortuqaal]]
+* {{sup|4}} [[uru madaxbanaan ee Isbaaniya|Urur madaxbanaan ee Isbaaniya]]
+}}<noinclude>
+== Sidoo kale fiiri ==
+{{Continent-based templates}}
+[[Category:Templateyada Afrika|Caasimadaha]]
+[[Category:Templatyada magaalo madaxda]]
+[[Category:Caasimada Afrika|τ]]
+[[Category:Templatyada magaalo Afrika| ]]
+</noinclude>
