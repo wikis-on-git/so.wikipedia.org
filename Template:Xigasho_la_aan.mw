@@ -1,5 +1,5 @@
 {{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
-{{Unreferenced|section|name=Unreferenced section|small={{#if:{{{small|}}}|left}}
+{{Unreferenced|name=Unreferenced section|small={{#if:{{{small|}}}|left}}
 |subst=<includeonly>{{subst:substcheck}}</includeonly>
 |date={{{date|}}}
 }}
