@@ -1,0 +1,19 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+{{Ambox
+| name  = {{{name|Unreferenced}}}
+| subst = <includeonly>{{subst:substcheck}}</includeonly>
+| type  = content
+| class = ambox-Unreferenced
+| small = {{{small|}}}
+| image = [[File:Question book-new.svg|50x40px|alt=]]
+| issue = Maqaal {{{1|kaan}}} '''malahan [[Wikipedia:Xog caddeyn ah|xigasho]] ama [[Wikipedia:Xaqiijin|ilo xaqiijin ah]]'''.
+| fix   = Fadlan ka caawi [{{fullurl:{{FULLPAGENAME}}|action=edit}} hagaajinta {{{1|maqaalkaan}}}] in [[Help:Introduction to referencing with Wiki Markup/1|ku soo darto xigashooyin ilo lagu kalsoonaan karo]]. Qoraalada aan laheen xog caddayn ah waxaa dhici karto in [[Wikipedia:Verifiability#Burden of evidence|laga saaro meeshaan]].<br /><small>{{find sources mainspace}}</small>
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = Articles {{#ifeq:{{{1}}}|qaybta|u baahan tixraac dheeri ah|ilo la'aan}}
+| all   = All articles {{#ifeq:{{{1}}}|section|u baahan tixraac dheeri ah|ilo la'aan}}
+| all2  = {{#ifeq:{{{status}}}|hasaref|Dhammaan maqaalada ayaa laga yaabaa inay ka maqan yihiin xog caddayn ah}}
+}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
