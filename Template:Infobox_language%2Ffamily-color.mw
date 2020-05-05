@@ -1,10 +1,12 @@
 {{#switch:{{lc:{{{1|}}}}}
-| afro-asiya | afrasiyac | afroasiya = <nowiki>#faecc8</nowiki>
+
+
+| afro-asiatic | afrasiatic | afroasiatic = /**/#faecc8
 | algic | algonkian = lightskyblue
 | altaic = yellowgreen
-| american | american (areal) = <nowiki>#c0dde6</nowiki>
-| andamanese = <nowiki>#c99fee</nowiki>
-| australian | australian (areal) = <nowiki>#eba9ee</nowiki>
+| american | american (areal) = /**/#c0dde6
+| andamanese = /**/#c99fee
+| australian | australian (areal) = /**/#eba9ee
 | austroasiatic | austro-asiatic = lightcoral
 | austronesian = pink
 | caucasian | caucasian (areal) = lightgreen
@@ -12,20 +14,20 @@
 | creole | mixed | pidgin | creole/pidgin/mixed = tan
 | dravidian = mediumspringgreen
 | eskimo-aleut | eskimo–aleut | eskaleut = lightcyan
-| hmong-mien | miao-yao | hmong–mien | miao–yao = <nowiki>#f2ceee</nowiki>
-| indo-european = <nowiki>#c9ffd9</nowiki>
-| isolate | language isolate | #dddddd = <nowiki>#dddddd</nowiki>
+| hmong-mien | miao-yao | hmong–mien | miao–yao = /**/#f2ceee
+| indo-european = /**/#c9ffd9
+| isolate | language isolate | gray | grey | #dddddd = /**/#dddddd
 | khoisan | khoisan (areal) = goldenrod
-| na-dene | na-dené | dene-yeniseian | dené-yeniseian | na–dene | na–dené | dene–yeniseian | dené–yeniseian = <nowiki>#99ddff</nowiki>
-| niger-congo | niger–congo = <nowiki>#ffddaa</nowiki>
+| na-dene | na-dené | dene-yeniseian | dené-yeniseian | na–dene | na–dené | dene–yeniseian | dené–yeniseian = /**/#99ddff
+| niger-congo | niger–congo = /**/#ffddaa
 | nilo-saharan | nilo-saharan? = gold
 | palaeosiberian | palaeo-siberian | paleosiberian | paleo-siberian | palaeosiberian (areal) = darkseagreen
-| papuan | papuan (areal) = <nowiki>#fd79da</nowiki>
+| papuan | papuan (areal) = /**/#fd79da
 | sign | sign language = silver
 | sino-tibetan = salmon
-| kadai | kradai | tai-kadai | tai–kadai = lavender
-| uralic = limegreen
-| uto-aztecan | utoaztecan = <nowiki>#80bfff</nowiki>
+| kra-dai | kadai | kradai | tai-kadai | kra–dai | tai–kadai = lavender
+| uralic = lime
+| uto-aztecan | utoaztecan = /**/#80bfff
 | unclassified | superfamily = white
 | #default =<!--blank-->
 }}<noinclude>
