@@ -5,20 +5,3 @@
 | description = featured-star
 }}{{#ifeq:{{NAMESPACE}}|{{ns:100}}|[[Category:Portal Xul Ah]]}}
 <noinclude>{{Documentation}}</noinclude>
-
-<includeonly>{{Top icon
-| image = Cscr-featured1.png
-| display = 18
-| link = Wikipedia:Portal Xul Ah
-| text = kani waa portal xul ah waxayna ka midtahay kuwa ugu wanaagsan.Guji halkaan si aad u aragto macluumaad dheeraad ah.
-| id = featured-star
-}}[[Category:Portal Xul Ah]]
-{{Ombox
-|class=plainlinks noprint
-|id=fa-box
-|style=text-align:center;margin:5px auto;padding:.3em;
-|image=FeaturedPortal-check.svg
-|text= Portalkaan [[Wikipedia:Portal Xul Ah|Xul]] Laga bilaabo [{{FULLURL:{{fullpagename}}|oldid={{{SUBST|}}} }} nuqul {{{date|}}}] <span style=font-size:80%>([{{SERVER}}{{localurl:{{NAMESPACE}}:{{PAGENAME}}|oldid={{{SUBST}}}&diff=cur}} isbarbardhig nuqulka hadda] '''·''' arag {{#ifexist:{{TALKPAGENAME}}|[[{{TALKPAGENAME}}|bogga wadahadalka]] iyo}}[[Wikipedia:Sharaxaad portal xul ah/Portal:{{PAGENAME}}|Codayn]])</span>{{#ifeq:{{{SBST|oldid}}}|oldid|[[Category:Portal xul ah aan lahayn lambar nuqul]]}}
-}}</includeonly><noinclude>{{Documentation}}
-[[Category:Tusmooyin gaar ah]]
-</noinclude>
