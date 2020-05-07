@@ -1,0 +1,28 @@
+<div style="display:block; width:100%; margin-top:1em">
+<div style="width:62%; float:left; vertical-align:middle; text-align:center; border:{{{footnote-solid|1}}}px solid {{{footnote-color|#aaaaaa}}}; background-color:{{{background-color|#f9f9f9}}}; margin-bottom:1em;-moz-border-radius: {{{radius|1}}}px; -webkit-border-radius: {{{radius|1}}}px; border-radius:{{{radius|1}}}px;-moz-border-radius:{{{radius|1}}}px;">
+
+<div style="float:left; margin: .05em .5em .45em .5em; width:32px; height:32px;">
+[[file:Logo_portail_wikipédia.svg|28px|link=Wikipedia:Portal|Halka lagaga tallaabo portal.]]
+</div>
+
+<div style="text-align:center; padding:.2em;">
+'''[[Wikipedia:Portal|Halka lagaga tallabo portal]]'''
+</div>
+</div>
+
+<div style="width:36%; float:right; vertical-align:middle; text-align:center; border:{{{footnote-solid|1}}}px solid {{{footnote-color|#aaaaaa}}}; background-color:{{{background-color|#f9f9f9}}}; margin-bottom:1em;border-radius:{{{radius|1}}}px;-moz-border-radius:{{{radius|1}}}px;">
+
+<div style="float:left; margin:-.1em .5em .6em .5em; width:32px; height:32px;">
+[[file:View-refresh Gion simple.svg|30px|link={{fullurl:{{FULLPAGENAME}}|action=purge}}|Avertissement]]
+</div>
+
+<div style="text-align:center; padding:.2em;" class="plainlinks">
+'''[{{fullurl:{{FULLPAGENAME}}|action=purge}} Hagaaji]'''
+</div>
+</div>
+</div>
+{{-}}<noinclude>
+{{Documentation}}
+</noinclude><noinclude>
+[[Category:Tusmooyinka wikipedia]]
+</noinclude>
