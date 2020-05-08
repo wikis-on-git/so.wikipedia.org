@@ -1,0 +1,10 @@
+<includeonly><div style="clear: both;"></div> 
+<div style="border-style: {{#switch:{{{border-style|}}}|solid=solid |dashed=dashed|double=double|ridge=ridge|groove=groove|none=none|inset=inset|outset=outset|#default=dotted}}; vertical-align: top; background: {{{background-color|#f4f4f4}}}; -moz-border-radius: 35px; -webkit-border-radius: 8px; border-radius: 35px; margin-bottom: 3px; margin-top: 3px; padding: 1em; "></includeonly>
+{{{title|}}}
+{{{content|}}}
+</div></div>
+<noinclude>
+{{Documentation}}
+[[Category:Tusmo portal]]
+[[Category:Tusmooyin Frame]]
+</noinclude>
