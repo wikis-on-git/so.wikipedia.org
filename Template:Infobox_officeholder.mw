@@ -1431,13 +1431,13 @@
  |3 = {{{birth_place|}}}
  }}
 
-| label23 = Died
+| label23 = Dhintay
 | data23 = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
 
-| label24    = Cause&nbsp;of&nbsp;death
+| label24    = Sababta&nbsp;&nbsp;dhimashada
 | data24     = {{{death_cause|}}}
 
-| label25 = Resting place
+| label25 = Lagu duugay
 | class25 = label
 | data25 = {{br separated entries|{{{resting_place|{{{restingplace|}}}}}}|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}
 
@@ -1591,7 +1591,7 @@
 | label66 = Amarada
 | data66 = {{{commands|}}}
 
-| label67 = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Battles/wars}}
+| label67 = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Dagaalada}}
 | data67 = {{{battles|}}}
 
 | label68 = {{#if:{{{awards|}}}|Abaalmarinada militariga|Abaalmarin}}
