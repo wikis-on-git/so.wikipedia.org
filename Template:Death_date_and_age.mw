@@ -1,1 +1,22 @@
-Da'da lama yaqaan
+<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}}. {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> (alder&nbsp;{{#if:{{{5|}}}
+ |{{#if:{{{6|}}}
+  |<!-- if all birth values are specified -->{{age|{{{4}}}|{{{5}}}|{{{6}}}|{{{1}}}|{{{2}}}|{{{3}}}}}
+  |{{#ifexpr:{{{2}}}<{{{5}}}
+    |<!-- if birth month but not day exist and birth month was not reached in death year -->{{age|{{{4}}}|12|31|{{{1}}}|{{{2}}}|{{{3}}}}}
+    |{{#ifexpr:{{{2}}}>{{{5}}}<!-- if birth month but not day exist and birth month was reached in death year -->
+     |{{age|{{{4}}}|1|1|{{{1}}}|{{{2}}}|{{{3}}}}}
+     |<!-- if birth month but not day exist and birth month is the death month -->{{age|{{{4}}}|12|31|{{{1}}}|{{{2}}}|{{{3}}}}}–{{age|{{{4}}}|1|1|{{{1}}}|{{{2}}}|{{{3}}}}}
+     }}
+   }}
+  }}
+ |{{Age in years|{{{4}}}|{{{1}}}}}}})<!--
+ -- Error checks --
+-->{{#ifexpr: ( {{{1|}}} > {{CURRENTYEAR}} ) OR ( {{{4|}}} > {{CURRENTYEAR}} ) OR ( {{{4|}}} > {{{1|}}} ) OR ( {{{1|}}} - {{{4|}}} > 150 )
+ | &#32;{{error|invalid year}}{{main other|[[Category:Pages using age template with invalid date]]}}
+}}{{#if:{{{5|}}}|{{#ifexpr: ( {{{2|}}} > 12 ) OR ( {{{2|}}} < 1 ) OR ( {{{5|}}} > 12 ) OR ( {{{5|}}} < 1 )
+ | &#32;{{error|invalid month}}{{main other|[[Category:Pages using age template with invalid date]]}}|}}
+}}{{#if:{{{6|}}}|{{#ifexpr: ( {{{3|}}} > 31 ) OR ( {{{3|}}} < 1 ) OR ( {{{6|}}} > 31 ) OR ( {{{6|}}} < 1 )
+ | &#32;{{error|invalid day}}{{main other|[[Category:Pages using age template with invalid date]]}}|}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
