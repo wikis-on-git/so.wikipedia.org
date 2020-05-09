@@ -107,7 +107,7 @@
 | data20 = {{#if:{{{nominee|}}}{{{candidate|}}}||
 {{#if:{{{succeeding|}}}
   | {{nowrap|'''Assuming office'''}}<br />{{{termstart}}}{{#if:{{{term|}}}{{{termend|}}}|[[Category:Pages using infobox officeholder with succeeding and term or termend]]}}
-  | {{#if: {{{term|}}} | {{nowrap|'''{{{termlabel|Xafiiska hayay}}}'''}}<br />{{{term}}} }}
+  | {{#if: {{{term|}}} | {{nowrap|'''{{{termlabel|Xafiiska}}}'''}}<br />{{{term}}} }}
 }} }}
 
 | data21 = {{#if:{{{nominee|}}}{{{candidate|}}}||
@@ -115,7 +115,7 @@
   | 
   |{{#if:{{{termstart|}}}
       | {{#if:{{{termend|}}}
-         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|Xafiiska hayay}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
+         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|Xafiiska}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
          |{{#if:{{{status|}}}|<div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''{{{status}}}'''</div>|<!--else: term is ongoing--><div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''[[korkanaga]]'''</div>}}
          }}
     }}
@@ -138,10 +138,10 @@
 {{infobox|child=yes
 | labelstyle = text-align:left
 
-| label1 = {{nowrap|Nominated by}}
+| label1 = {{nowrap|Magacaabey}}
 | data1 = {{{nominator|}}}
 
-| label2 = {{nowrap|Appointed by}}
+| label2 = {{nowrap|Waxaa magacaabey}}
 | data2 = {{{appointer|}}}
 
 <!--------President, Prime Minister, Governor--------->
@@ -154,7 +154,7 @@
 | label5 = {{#if:{{{governor_general|}}}|Governor General|Governor-General}}
 | data5 = {{#if:{{{governor_general|}}}|{{{governor_general}}}|{{{governor-general|}}}}}
 
-| label6 = {{nowrap|Prime Minister}}
+| label6 = {{nowrap|Raiisel wasaare}}
 | data6 = {{{primeminister|}}}
 
 | label7 = Chancellor
@@ -166,10 +166,10 @@
 | label9 = Taoiseach
 | data9 = {{{taoiseach|}}}
 
-| label10 = {{nowrap|First Minister}}
+| label10 = {{nowrap|Wasiirka koowaad}}
 | data10 = {{{firstminister|}}}
 
-| label11 = {{nowrap|Chief Minister}}
+| label11 = {{nowrap|Wasiirka hogaamiyaha}}
 | data11 = {{{chiefminister|}}}
 
 | label12 = Premier
@@ -182,10 +182,10 @@
 | data14 = {{{lieutenant_governor|}}}
 
 <!--------Vice president/s, Vice Prime Minister/s, Deputy/ies, Lieutenant/s--------->
-| label15 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice President]]|Madaxweyne ku xigeen}}|Madaxweyne kuxigeen}}}}
+| label15 = {{nowrap|{{#if:{{{xafiiska|}}}|{{#ifeq:{{isValidPageName|{{{xafiiska}}}}} madaxweyne ku xigeenka|ansax ah|[[Vice {{{office}}}|Madaxweyne ku xigeen]]|Madaxweyne ku xigeen}}|Madaxweyne kuxigeen}}}}
 | data15 = {{{vicepresident|}}}
 
-| label16 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice Governor]]|Vice Governor}}|Vice Governor}}}}
+| label16 = {{nowrap|{{#if:{{{xafiiska|}}}|{{#ifeq:{{isValidPageName|Vice {{{xafiiska}}}}}|ansax ah|[[Vice {{{office}}}|Vice Governor]]|Vice Governor}}|Vice Governor}}}}
 | data16 = {{{vicegovernor|}}}
 
 | label17 = {{nowrap|{{#if:{{{office|}}}|[[Vice {{{office}}}|Vice PM]]|Vice [[Prime Minister|PM]]}}}}
@@ -235,7 +235,7 @@
 | label32 = {{nowrap|ka horeeyay}}
 | data32 = {{#if:{{{succeeding|}}}||{{#if:{{{predecessor|}}}|{{{predecessor}}}|{{{preceded|}}}}}}}
 
-| label33 = {{nowrap|Ku guuleystey}}
+| label33 = {{nowrap|Ku xigay}}
 | data33 = {{#if:{{{succeeding|}}}||{{#switch:{{#if:{{{successor|}}}|{{{successor}}}|{{{succeeded|}}}}}
 | Incumbent
 | '''Incumbent'''
