@@ -1420,7 +1420,7 @@
 
 | data19 = {{{module0|}}}
 <!----------Personal data---------->
-| header20 = {{#if:{{{pronunciation|}}}{{{birth_name|{{{birthname|}}}}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{resting_place|{{{restingplace|}}}}}}{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}{{{citizenship|}}}{{{nationality|}}}{{{party|}}}{{{otherparty|xisbiyada kale}}}{{{spouse|}}}{{{partner|}}}{{{relations|}}}{{{children|}}}{{{parents|}}}{{{mother|}}}{{{father|}}}{{{relatives|}}}{{{residence|}}}{{{education|}}}{{{alma_mater|}}}{{{occupation|}}}{{{profession|}}}{{{known_for|}}}{{{salary|}}}{{{net_worth|}}}{{{cabinet|}}}{{{committees|}}}{{{portfolio|}}}{{{awards|}}}{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}|Personal details}}
+| header20 = {{#if:{{{pronunciation|}}}{{{birth_name|{{{birthname|}}}}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{resting_place|{{{restingplace|}}}}}}{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}{{{citizenship|}}}{{{nationality|}}}{{{party|}}}{{{otherparty|xisbiyada kale}}}{{{spouse|}}}{{{partner|}}}{{{relations|}}}{{{children|}}}{{{parents|}}}{{{mother|}}}{{{father|}}}{{{relatives|}}}{{{residence|}}}{{{education|}}}{{{alma_mater|}}}{{{occupation|}}}{{{profession|}}}{{{known_for|}}}{{{salary|}}}{{{net_worth|}}}{{{cabinet|}}}{{{committees|}}}{{{portfolio|}}}{{{awards|}}}{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}|Faahfaahin shaqsiyadeed}}
 | label21 = Pronunciation
 | data21 = {{{pronunciation|}}}
 
@@ -1486,65 +1486,65 @@
 | label30 = Height
 | data30 = {{#if:{{{height|}}}|{{infobox person/height|{{{height|}}}}}}}
 
-| label31 = Spouse(s)
+| label31 = Xaaska
 | data31 = {{{spouse|}}}
 
-| label32 = Domestic partner
+| label32 = Lamaanaha guriga
 | data32 = {{{partner|}}}
 
-| label33 = Relations
+| label33 = Xiriirka
 | data33 = {{{relations|}}}
 
-| label34 = Children
+| label34 = Ciyaalka
 | data34 = {{{children|}}}
 
-| label35 = Parents
+| label35 = Waalidka
 | data35 = {{{parents|}}}
 
-| label36 = Mother
+| label36 = Hooyo
 | data36 = {{{mother|}}}
 
-| label37 = Father
+| label37 = Aabaha
 | data37 = {{{father|}}}
 
-| label38 = Relatives
+| label38 = Ehelka
 | data38 = {{{relatives|}}}
 
-| label39 = Residence
+| label39 = Degenaansho
 | class39 = {{#if:{{{death_date|}}}{{{death_place|}}}||label}}
 | data39 = {{{residence|}}}
 
-| label40 = Education
+| label40 = Waxbarasho
 | data40 = {{{education|}}}
 
 | label41 = [[Alma mater]]
 | data41 = {{{alma_mater|}}}
 
-| label42 = Occupation
+| label42 = Shaqo
 | data42 = {{{occupation|}}}
 
-| label43 = Profession
+| label43 = Xirfad
 | data43 = {{{profession|}}}
 
-| label44 = Known for
+| label44 = Lagu yaqaano
 | data44 = {{{known_for|}}}
 
-| label45 = Salary
+| label45 = Mushaarka
 | data45 = {{{salary|}}}
 
-| label46 = Net worth
+| label46 = Qiimo sareeya
 | data46 = {{{net_worth|}}}
 
-| label47 = Cabinet
+| label47 = Golaha wasiirada
 | data47 = {{{cabinet|}}}
 
-| label48 = Committees
+| label48 = Guddiyada
 | data48 = {{{committees|}}}
 
-| label49 = Portfolio
+| label49 = Boodhadh
 | data49 = {{{portfolio|}}}
 
-| label51 = {{#if:{{{mawards|}}}|Civilian awards|Awards}}
+| label51 = {{#if:{{{mawards|}}}|Abaal marinta rayidka|Abaalmarinta}}
 | data51 = {{{awards|}}}
 
 | label52 = {{{blank1}}}
@@ -1562,7 +1562,7 @@
 | label56 = {{{blank5}}}
 | data56 = {{{data5|}}}
 
-| label57 = Signature
+| label57 = Saxiixa
 | data57 = {{#if:{{{signature|}}}|[[File:{{{signature}}}|128x80px|alt={{{signature_alt|}}}|{{PAGENAME}}'s signature]]}}
 
 | label58 = Website
@@ -1570,10 +1570,10 @@
 
 | header59 = {{#if:{{{allegiance|}}}{{{branch|}}}{{{serviceyears|}}}{{{rank|}}}{{{unit|}}}{{{commands|}}}{{{battles|}}}{{{military_blank1|}}}|Military service}}
 
-| label60 = Nickname(s)
+| label60 = Naanees)
 | data60 = {{{nickname|}}}
 
-| label61 = Allegiance
+| label61 = Daacadnimo
 | data61 = {{{allegiance|}}}
 
 | label62 = {{#if:{{{branch_label|}}}|{{{branch_label|}}}|Branch/service}}
@@ -1588,13 +1588,13 @@
 | label65 = {{#if:{{{unit_label|}}}|{{{unit_label|}}}|Unit}}
 | data65 = {{{unit|}}}
 
-| label66 = Commands
+| label66 = Amarada
 | data66 = {{{commands|}}}
 
 | label67 = {{#if:{{{battles_label|}}}|{{{battles_label|}}}|Battles/wars}}
 | data67 = {{{battles|}}}
 
-| label68 = {{#if:{{{awards|}}}|Military awards|Awards}}
+| label68 = {{#if:{{{awards|}}}|Abaalmarinada militariga|Abaalmarin}}
 | data68 = {{{mawards|}}}
 
 | label69 = {{{military_blank1}}}
