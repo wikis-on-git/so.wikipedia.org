@@ -1568,7 +1568,7 @@
 | label58 = Website
 | data58 = {{{website|}}}
 
-| header59 = {{#if:{{{allegiance|}}}{{{branch|}}}{{{serviceyears|}}}{{{rank|}}}{{{unit|}}}{{{commands|}}}{{{battles|}}}{{{military_blank1|}}}|Military service}}
+| header59 = {{#if:{{{allegiance|}}}{{{branch|}}}{{{serviceyears|}}}{{{rank|}}}{{{unit|}}}{{{commands|}}}{{{battles|}}}{{{military_blank1|}}}|Adeeg ciidan}}
 
 | label60 = Naanees)
 | data60 = {{{nickname|}}}
@@ -1576,16 +1576,16 @@
 | label61 = Daacadnimo
 | data61 = {{{allegiance|}}}
 
-| label62 = {{#if:{{{branch_label|}}}|{{{branch_label|}}}|Branch/service}}
+| label62 = {{#if:{{{branch_label|}}}|{{{branch_label|}}}|Laanta/adeega}}
 | data62 = {{{branch|}}}
 
-| label63 = {{#if:{{{serviceyears_label|}}}|{{{serviceyears_label|}}}|Years&nbsp;of service}}
+| label63 = {{#if:{{{serviceyears_label|}}}|{{{serviceyears_label|}}}|Inta sano&nbsp;u adeegaayay}}
 | data63 = {{{serviceyears|}}}
 
-| label64 = {{#if:{{{rank_label|}}}|{{{rank_label|}}}|Rank}}
+| label64 = {{#if:{{{rank_label|}}}|{{{rank_label|}}}|Darajo}}
 | data64 = {{{rank|}}}
 
-| label65 = {{#if:{{{unit_label|}}}|{{{unit_label|}}}|Unit}}
+| label65 = {{#if:{{{unit_label|}}}|{{{unit_label|}}}|Cutubka}}
 | data65 = {{{unit|}}}
 
 | label66 = Amarada
