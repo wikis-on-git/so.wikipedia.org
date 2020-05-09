@@ -1,4 +1,4 @@
-<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}}. {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> (alder&nbsp;{{#if:{{{5|}}}
+<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}}. {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> (da'da&nbsp;{{#if:{{{5|}}}
  |{{#if:{{{6|}}}
   |<!-- if all birth values are specified -->{{age|{{{4}}}|{{{5}}}|{{{6}}}|{{{1}}}|{{{2}}}|{{{3}}}}}
   |{{#ifexpr:{{{2}}}<{{{5}}}
