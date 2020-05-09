@@ -9,7 +9,7 @@
      }}
    }}
   }}
- |{{Age in years|{{{4}}}|{{{1}}}}}}})<!--
+ |{{Age in years|{{{4}}}|{{{1}}}}}}}jir)<!--
  -- Error checks --
 -->{{#ifexpr: ( {{{1|}}} > {{CURRENTYEAR}} ) OR ( {{{4|}}} > {{CURRENTYEAR}} ) OR ( {{{4|}}} > {{{1|}}} ) OR ( {{{1|}}} - {{{4|}}} > 150 )
  | &#32;{{error|invalid year}}{{main other|[[Category:Pages using age template with invalid date]]}}
