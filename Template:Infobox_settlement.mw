@@ -442,7 +442,7 @@
 }}<!-- ***Heerka Baaxadda*** -->
 {{#if:{{{area_rank|}}}|
 <tr class="mergedrow">
-<th>Area rank</th>
+<th>Darajada aagga</th>
 <td>{{{area_rank}}}</td>
 </tr>
 }}{{#if:{{{area_blank1_km2|}}}{{{area_blank1_ha|}}}{{{area_blank2_acre|}}}{{{area_blank1_sq_mi|}}}{{{area_blank1_title|}}}{{{area_blank1_dunam|}}}|
