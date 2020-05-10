@@ -152,7 +152,7 @@
 | data26   = {{{authority|}}}
 
 | header30 = {{#if:{{#if:{{{photo|}}}|{{{map|}}} }}<!--
-             -->{{{location|}}}{{{country|}}}{{{region|}}}{{{district|}}}{{{city|}}}<!---
+             -->{{{location|}}}{{{country|}}}{{{region|}}}{{{degmo|}}}{{{city|}}}<!---
              -->{{{border|}}}{{{parent|}}}{{{range|}}}<!---
              -->{{{topo|}}}{{{grid_ref_UK|}}}{{{grid_ref_Ireland|}}}{{{topo_map|}}}<!---
              -->{{{biome|}}}{{{range_lat_d|}}}{{{range_long_d|}}}|Juquraafi}}
