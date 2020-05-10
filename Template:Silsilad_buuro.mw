@@ -69,7 +69,7 @@
 | data9    = {{{parent_peak|}}}
 
 | class10   = category
-| label10   = [[List of mountain lists|Listing]]
+| label10   = [[Liiska buuraha|Liiska]]
 | data10    = {{{listing|}}}
 
 | label11   = [[Isuduwaha Waqtiga Caalamiga|isuduwe]]
@@ -135,10 +135,10 @@
 | label21  = [[Etymology]]
 | data21   = {{{etymology|}}}
 
-| label22  = [[Nickname]]
+| label22  = [[Naanees]]
 | data22   = {{{nickname|}}}
 
-| label23  = Native name
+| label23  = Magaca asalka
 | data23   = {{#if:{{{other_name|}}}|{{{native_name|}}} }}
 
 | label24   = Translation
@@ -148,14 +148,14 @@
 | label25   = [[help:IPA|Pronunciation]]
 | data25    = {{#if:{{{pronunciation|}}}|{{IPA|{{{pronunciation|}}} }} }}
 
-| label26  = Defining authority
+| label26  = Qeexida awooda
 | data26   = {{{authority|}}}
 
 | header30 = {{#if:{{#if:{{{photo|}}}|{{{map|}}} }}<!--
              -->{{{location|}}}{{{country|}}}{{{region|}}}{{{district|}}}{{{city|}}}<!---
              -->{{{border|}}}{{{parent|}}}{{{range|}}}<!---
              -->{{{topo|}}}{{{grid_ref_UK|}}}{{{grid_ref_Ireland|}}}{{{topo_map|}}}<!---
-             -->{{{biome|}}}{{{range_lat_d|}}}{{{range_long_d|}}}|Geography}}
+             -->{{{biome|}}}{{{range_lat_d|}}}{{{range_long_d|}}}|Juquraafi}}
 
 | data31   = {{#if:{{{photo|}}} | {{#if:{{{map|}}}
              | <div style="padding:0.2em 0.2em {{#if:{{{map_caption|}}}{{{location|}}}|0.5em|0.2em}} 0.2em;>{{Infobox map
@@ -187,7 +187,7 @@
 | data32 = {{#if:{{{map_caption|}}}|{{{location|}}}|{{#if:{{{photo|}}}|{{#if:{{{map|}}}||{{{location|}}} }}|{{{location|}}} }} }}
 
 | class34  = label
-| label34  = {{#if:{{{country_type|}}}|{{{country_type}}}|{{#if:{{{country1|}}}|Countries|Wadanka}} }}
+| label34  = {{#if:{{{country_type|}}}|{{{country_type}}}|{{#if:{{{country1|}}}|dalalka}} }}
 | data34   = {{#if:{{{country4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{country|}}}|2={{{country1|}}}|3={{{country2|}}}|4={{{country3|}}}|5={{{country4|}}}|6={{{country5|}}}|7={{{country6|}}}|8={{{country7|}}}|9={{{country8|}}}|10={{{country9|}}}|11={{{country10|}}}|12={{{country11|}}}|13={{{country12|}}}|14={{{country13|}}}|15={{{country14|}}}|16={{{country15|}}}|17={{{country16|}}}|18={{{country17|}}}|19={{{country18|}}} }}|{{enum|{{{country|}}}|{{{country1|}}}|{{{country2|}}}|{{{country3|}}} }} }}
 
 | class35  = label
@@ -199,14 +199,14 @@
              | {{{region_type}}}
              | {{#if:{{{state|}}}
                | {{#if:{{{region1|}}}|Regions|Region}}
-               | {{#if:{{{region1|}}}|States/Provinces|Degmo}} }} }}
+               | {{#if:{{{region1|}}}|States/Provinces|Degmooyinka}} }} }}
 | data36 = {{#if:{{{region4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{region|}}}|2={{{region1|}}}|3={{{region2|}}}|4={{{region3|}}}|5={{{region4|}}}|6={{{region5|}}}|7={{{region6|}}}|8={{{region7|}}}|9={{{region8|}}}|10={{{region9|}}}|11={{{region10|}}}|12={{{region11|}}}|13={{{region12|}}}|14={{{region13|}}}|15={{{region14|}}}|16={{{region15|}}}|17={{{region16|}}}|18={{{region17|}}}|19={{{region18|}}}|20={{{region19|}}}|21={{{region20|}}}|22={{{region21|}}}|23={{{region22|}}}|24={{{region23|}}} }}|{{enum|{{{region|}}}|{{{region1|}}}|{{{region2|}}}|{{{region3|}}} }} }}
 
 | class37  = label
 | label37 = {{#if:{{{district_type|}}}|{{{district_type}}}|{{#if:{{{district1|}}}|Districts|District}} }}
 | data37  = {{#if:{{{district4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{district|}}}|2={{{district1|}}}|3={{{district2|}}}|4={{{district3|}}}|5={{{district4|}}}|6={{{district5|}}}|7={{{district6|}}}|8={{{district7|}}}|9={{{district8|}}}|10={{{district9|}}}|11={{{district10|}}}|12={{{district11|}}}|13={{{district12|}}}|14={{{district13|}}}|15={{{district14|}}}|16={{{district15|}}}|17={{{district16|}}}|18={{{district17|}}}|19={{{district18|}}} }}|{{enum|{{{district|}}}|{{{district1|}}}|{{{district2|}}}|{{{district3|}}} }} }}
 
-| label38  = {{#if:{{{city_type|}}}|{{{city_type}}}|{{#if:{{{city1|}}}|Settlements|Settlement}} }}
+| label38  = {{#if:{{{city_type|}}}|{{{city_type}}}|{{#if:{{{city1|}}}|Degmooyinka|Degmada}} }}
 | data38  = {{#if:{{{city4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{city|}}}|2={{{city1|}}}|3={{{city2|}}}|4={{{city3|}}}|5={{{city4|}}}|6={{{city5|}}}|7={{{city6|}}}|8={{{city7|}}}|9={{{city8|}}}|10={{{city9|}}}|11={{{city10|}}}|12={{{city11|}}}|13={{{city12|}}}|14={{{city13|}}}|15={{{city14|}}}|16={{{city15|}}}|17={{{city16|}}}|18={{{city17|}}}|19={{{city18|}}} }}|{{enum|{{{city|}}}|{{{city1|}}}|{{{city2|}}}|{{{city3|}}} }} }}
 
 | label39   = [[Geographic coordinate system|Range coordinates]]
@@ -234,12 +234,12 @@
                }}{{#if:{{{range_coordinates_note|}}}|&thinsp;{{{range_coordinates_note}}} }} }}
 
 | class40  = category
-| label40  = [[Mountain range|Parent range]]
+| label40  = [[Baaxada buuraha|Baaxada]]
 | data40   = {{#ifexist:{{{parent|}}}|[[{{{parent}}}]]|
              {{#ifexist:{{{range|}}}|[[{{{range}}}]]|
              {{ifempty|{{{parent|}}}|{{{range|}}} }} }} }}
 
-| label41  = Borders on
+| label41  = Xad la leh
 | data41   = {{#if:{{{border4|}}}|{{Collapsible list|framestyle=border:none; padding:0;|title=List|1={{{border|}}}|2={{{border1|}}}|3={{{border2|}}}|4={{{border3|}}}|5={{{border4|}}}|6={{{border5|}}}|7={{{border6|}}}|8={{{border7|}}} }}|{{enum|{{{border|}}}|{{{border1|}}}|{{{border2|}}}|{{{border3|}}} }} }}
 
 | label42  = [[Ordnance Survey National Grid|OS grid]]
@@ -262,14 +262,14 @@
 | label52  = [[Orogeny]]
 | data52   = {{#ifexist:{{{orogeny|}}}|[[{{{orogeny}}}]]|{{{orogeny|}}} }}
 
-| label53  = [[Geologic time scale|Age of rock]]
+| label53  = [[Waqtiga joqraafi ahaan|D'da dhagaxa]]
 | data53   = {{ifempty|{{{age|}}}|{{enum|{{#ifexist:{{{period|}}}|[[{{{period}}}]]|{{{period|}}}}}|<!--
                  -->{{#ifexist:{{{period1|}}}|[[{{{period1}}}]]|{{{period1|}}}}} }} }}
 
 | label54  = [[List of mountain types|Mountain type]]
 | data54   = {{{type|}}}
 
-| label55  = Type of rock
+| label55  = Nooca dhagaxa
 | data55   = {{enum|{{#ifexist:{{{geology|}}}|[[{{{geology}}}]]|{{{geology|}}} }}<!--
                 -->|{{#ifexist:{{{geology1|}}}|[[{{{geology1}}}]]|{{{geology1|}}} }}<!--
                 -->|{{#ifexist:{{{geology2|}}}|[[{{{geology2}}}]]|{{{geology2|}}} }} }}
@@ -283,18 +283,18 @@
 | label57  = [[Types of volcanic eruptions|Last eruption]]
 | data57   = {{{last_eruption|}}}
 
-| header60 = {{#if:{{{first_ascent|}}}{{{easiest_route|}}}{{{normal_route|}}}{{{access|}}}|Climbing}}
+| header60 = {{#if:{{{first_ascent|}}}{{{easiest_route|}}}{{{normal_route|}}}{{{access|}}}|Fuulid}}
 
-| label61  = [[First ascent]]
+| label61  = [[Fuulaha koowaad]]
 | data61   = {{{first_ascent|}}}
 
-| label62  = [[Normal route|Easiest route]]
+| label62  = [[Wado caadi ah|wadada ugu fudud]]
 | data62   = {{{easiest_route|}}}
 
-| label63  = [[Normal route]]
+| label63  = [[Wado caadi ah]]
 | data63   = {{{normal_route|}}}
 
-| label64  = Access
+| label64  = marin
 | data64   = {{{access|}}}
 
 | data70   = {{{embedded|}}}
