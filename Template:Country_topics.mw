@@ -29,7 +29,7 @@
 </noinclude>
 |group2 = {{#ifexist:History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
      | [[History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Taariikh]]
-     | History
+     | Taariikh
     }}
 |list2 = {{{history|}}}
 
@@ -42,7 +42,7 @@
 </noinclude>
 |group4 = {{#ifexist:Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
       | [[Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Juquraafi]]
-      | Geography
+      | Juqraafi
      }}
 |list4 = {{#if:{{{geography|}}}{{{subdivisions|}}}
      | {{Navbox|child
@@ -71,7 +71,7 @@
 |group6 = {{#if:{{{politics_link|}}} |[[{{{politics_link}}}|Politics]]
       | {{#ifexist:Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
          | [[Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Siyaasada]]
-         | Politics
+         | Siyaasad
         }}
      }}
 |list6 = {{#if:{{{politics|}}}{{{governance|}}}{{{government|}}}{{{military|}}}
@@ -112,7 +112,7 @@
 </noinclude>
 |group8 = {{#ifexist:Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
       | [[Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Dhaqaalaha]]
-      | Economy
+      | Dhaqaale
      }}
 |list8 = {{#if:{{{economy|}}}{{{infrastructure|}}}{{{transport|}}}
      | {{Navbox|child
@@ -158,7 +158,7 @@
      | {{#if:{{{culture|}}}{{{demographics|}}}{{{religion|}}}{{{symbols|}}}
         | {{#ifexist:Culture of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
            | [[Culture of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Culture]]
-           | Culture
+           | Dhaqan
           }}
        }}
     }}
