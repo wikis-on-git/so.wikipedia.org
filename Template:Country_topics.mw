@@ -1,0 +1,261 @@
+{{Navbox
+|name = {{if empty|{{{template_name|}}}| {{#if:{{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}| {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}} topics}} | {{FULLPAGENAME}} }}
+|state = {{{state|{{{1|}}}}}}
+|border = {{{border|}}}
+|bodyclass = hlist
+|basestyle = {{{basestyle|}}}
+
+ <!---------------------- Titlebar ----------------------->
+|titleclass = {{{titleclass|}}}
+|title = <includeonly>{{#ifexist:{{{country|{{{territory|{{{region|}}}}}}}}}
+     | [[{{{country|{{{territory|{{{region}}}}}}}}}{{#if:{{{titlename|}}}|{{!}}{{{titlename}}}}}]]&nbsp;|{{{titlename|{{{country|{{{territory|{{{region|<span style="white-space:nowrap;color:red;">[Required parameter missing!]</span>}}}}}}}}}}}}&nbsp;<!--(space between Name and "articles" word (if not suppressed))
+ -->}}<!---- "topics" ----
+ -->{{#if:{{{_notopicsword|}}} | |{{#ifexist:Index of {{{prefix|}}} -related articles|articles]]|maqaalo}}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}-related articles|[[Index of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}</includeonly>
+
+ <!------------------ Image (optional) ------------------->
+|imagestyle = {{{imagestyle|}}}
+|image = {{{image|}}}
+
+ <!-------------- "above" line (optional) ---------------->
+|abovestyle = {{{abovestyle|}}}
+|above = {{{above|}}}{{{addtoabove|}}}
+
+|group1 = {{{custom1|}}}
+|list1 = {{{list1|}}}
+<noinclude>
+ <!--===================================================
+                          HISTORY
+     ===================================================-->
+</noinclude>
+|group2 = {{#ifexist:History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+     | [[History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|History]]
+     | History
+    }}
+|list2 = {{{history|}}}
+
+|group3 = {{{custom2|}}}
+|list3 = {{{list2|}}}
+<noinclude>
+ <!--===================================================
+                  GEOGRAPHY / Subdivisions
+     ===================================================-->
+</noinclude>
+|group4 = {{#ifexist:Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+      | [[Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Geography]]
+      | Geography
+     }}
+|list4 = {{#if:{{{geography|}}}{{{subdivisions|}}}
+     | {{Navbox|child
+        |basestyle = {{{basestyle|}}}
+        |groupstyle = padding-left:0.5em;padding-right:0.5em;font-weight:normal;{{{subgroupstyle|}}}
+        |list1 = {{{geography|}}}
+        |group2 = <!--(only shown if subdivisions provided)-->
+            {{#if:{{{subdivisions_link|}}}
+             | [[{{{subdivisions_link}}}|Subdivisions]]
+             | {{#ifexist:Administrative divisions of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+                | [[Administrative divisions of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Subdivisions]]
+                | Subdivisions
+               }}
+            }}
+        |list2 = {{{subdivisions|}}}
+       }}
+    }}
+
+|group5 = {{{custom3|}}}
+|list5 = {{{list3|}}}
+<noinclude>
+ <!--===================================================
+              POLITICS / Government / Military
+     ===================================================-->
+</noinclude>
+|group6 = {{#if:{{{politics_link|}}} |[[{{{politics_link}}}|Politics]]
+      | {{#ifexist:Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+         | [[Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Politics]]
+         | Politics
+        }}
+     }}
+|list6 = {{#if:{{{politics|}}}{{{governance|}}}{{{government|}}}{{{military|}}}
+     | {{Navbox|child
+        |basestyle = {{{basestyle|}}}
+        |groupstyle = padding-left:0.5em;padding-right:0.5em;font-weight:normal;{{{subgroupstyle|}}}
+        |list1 = {{{politics|}}}
+        |group2 = <!--(only shown if governance provided)-->
+            {{#if:{{{governance_link|}}}|[[{{{governance_link}}}|Governance]]|
+            {{#ifexist:Governance of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[Governance of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Governance]]
+             | Governance
+            }} }}
+        |list2 = {{{governance|}}}
+        |group3 = <!--(only shown if government provided)-->
+            {{#if:{{{government_link|}}}|[[{{{government_link}}}|Government]]|
+            {{#ifexist:Government of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[Government of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Government]]
+             | Government
+            }} }}
+        |list3 = {{{government|}}}
+        |group4 = <!--(only shown if military provided)-->
+            {{#if:{{{military_link|}}}|[[{{{military_link}}}|Military]]|
+            {{#ifexist:Military of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[Military of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Military]]
+             | Military
+            }} }}
+        |list4 = {{{military|}}}
+       }}
+    }}
+
+|group7 = {{{custom4|}}}
+|list7 = {{{list4|}}}
+<noinclude>
+ <!--===================================================
+             ECONOMY / Infrastructure / Transport
+     ===================================================-->
+</noinclude>
+|group8 = {{#ifexist:Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+      | [[Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Economy]]
+      | Economy
+     }}
+|list8 = {{#if:{{{economy|}}}{{{infrastructure|}}}{{{transport|}}}
+     | {{Navbox|child
+        |basestyle = {{{basestyle|}}}
+        |groupstyle = padding-left:0.5em;padding-right:0.5em;font-weight:normal;{{{subgroupstyle|}}}
+        |list1 = {{{economy|}}}
+        |group2 = <!--(Only shown if infrastructure provided)-->
+            {{#ifexist:Infrastructure of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[Infrastructure of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Infrastructure]]
+             | Infrastructure
+            }}
+        |list2 = {{{infrastructure|}}}
+        |group3 = <!--(Only shown if transport provided)-->
+            {{#ifexist:Transport in {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[Transport in {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Transport]]
+             | Transport
+            }}
+        |list3 = {{{transport|}}}
+       }}
+    }}
+
+|group9 = {{{custom5|}}}
+|list9 = {{{list5|}}}
+<noinclude>
+ <!--===================================================
+     SOCIETY/CULTURE / Demographics / Religion / Symbols
+     ===================================================-->
+</noinclude>
+|group10 =
+    <!----If society provided, groupname is "Society":---->
+    {{#if:{{{society|}}}
+      <!----If society_link provided, use that to make link,---->
+     | {{#if:{{{society_link|}}}
+        | [[{{{society_link}}}|Society]]
+         <!----...else try "Category:(adjective) or (place's name) society",---->
+        | {{#ifexist:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society
+           | [[:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society|Society]]
+            <!----...else default to plain "Society":---->
+           | Society
+          }}
+       }}
+      <!----...otherwise if culture/demographics/religion/symbols provided, groupname is "Culture":---->
+     | {{#if:{{{culture|}}}{{{demographics|}}}{{{religion|}}}{{{symbols|}}}
+        | {{#ifexist:Culture of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+           | [[Culture of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Culture]]
+           | Culture
+          }}
+       }}
+    }}
+|list10 = {{#if:{{{society|}}}{{{culture|}}}{{{demographics|}}}{{{religion|}}}{{{symbols|}}}|
+    {{Navbox|child
+     |basestyle = {{{basestyle|}}}
+     |groupstyle = padding-left:0.5em;padding-right:0.5em;font-weight:normal;{{{subgroupstyle|}}}
+     |list1 = {{{society|}}}
+     |group2 = <!----Groupname only needed for culture if society has also been provided:---->
+         {{#if:{{{society|}}}
+          | {{#if:{{{culture|}}}
+             | [[Culture of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}|Culture]]
+             | Culture
+            }}
+         }}
+     |list2 = {{{culture|}}}
+     |group3 = <!--(only shown if demographics provided)-->
+         {{#ifexist:Demographics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+          | [[Demographics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Demographics]]
+          | Demographics
+         }}
+     |list3 = {{{demographics|}}}
+     |group4 = <!--(only shown if religion provided)-->
+         {{#ifexist:Religion in {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+          | [[Religion in {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Religion]]
+          | Religion
+         }}
+     |list4 = {{{religion|}}}
+     |group5 = <!--(only shown if symbols provided)-->
+         {{#if:{{{symbols_link|}}}
+          | [[{{{symbols_link}}}|Symbols]]
+          | {{#ifexist:National symbols of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+             | [[National symbols of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Symbols]]
+             | {{#ifexist:Symbols of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+                | [[Symbols of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Symbols]]
+                | Symbols
+               }}
+            }}
+         }}
+     |list5 = {{{symbols|}}}
+    }} }}
+
+|group11 = {{{custom6|}}}
+|list11 = {{{list6|}}}
+
+|group12 = {{{custom7|}}}
+|list12 = {{{list7|}}}
+
+|group13 = {{{custom8|}}}
+|list13 = {{{list8|}}}
+<noinclude>
+ <!--===================================================
+                      "below" line/s
+     ===================================================-->
+</noinclude>
+|belowstyle = {{#if:{{{below|}}} ||font-weight:bold;}} {{{belowstyle|}}}
+|below = 
+      {{#if:{{{_nobelow|}}} |<!--then this section omitted, else:-->
+       | {{#if:{{{below|}}} |<!--then use-->{{{below}}}<!--line, else:-->
+          | <!-------------------------------------
+               Outline, Index, Bibliography links
+              -------------------------------------
+   -->{{bulleted list|style=margin-bottom:-0.4em;
+ |1= {{#ifexist:Outline of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+   | {{nobold|[[Outline of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Outline]]}}
+}}
+ |2= {{#ifexist:Index of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}-related articles
+   | {{nobold|[[Index of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}-related articles|Index]]}}
+   | <!---else to capture instances where place is or can be "the [placename]" but its adjective is
+          "[placename]-related", i.e. with no "the" prefix:
+           -->{{#ifexist:Index of {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}-related articles
+               | {{nobold|[[Index of {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}-related articles|Index]]}}
+              }}
+}}
+ |3= {{#ifexist:Bibliography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+   | {{nobold|[[Bibliography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Bibliography]]}}
+}}<!--
+   -->}}<!----------------------------------------------
+               Category, Portal
+              ----------------------------------------------
+   -->
+{{#ifexist:Category:{{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
+   |* <!--{{icon|Category}}--> [[:Category:{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Category]]
+}}{{#ifeq: {{yesno-no|{{{noportal|}}}}}|no|<!--
+     "noportal" has not been specified
+   -->{{#ifexist:Portal:{{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}<!--
+           -->|* <!--{{icon|Portal}}--> [[Portal:{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Portal]]<!--
+    -->}}<!--(end #ifexist:Portal)
+-->}}<!-- (end #ifeq: {{yesno-no|{{{noportal}}}}})
+-->{{#if:{{{addtobelow|}}} |{{{addtobelow}}} }}<!--
+      -->}}<!--(end #if:below)
+   -->}}<!--(end #if:_nobelow)
+-->}}{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using country topics with unknown parameters|_VALUE_{{PAGENAME}}]]|preview={{main other||Page using [[Template:Country topics]] with unknown parameter "_VALUE_"}}
+| template_name | country | territory | region | titlename | titleclass | state | 1 | border | basestyle | _notopicsword | prefix | imagestyle | image | abovestyle | above | addtoabove 
+| custom1 | list1 | custom2 | list2 | custom3 | list3 | custom4 | list4 | custom5 | list5 | custom6 | list6 | custom7 | list7 | custom8 | list8 
+| history | geography | subdivisions | subgroupstyle | subdivisions_link | politics_link | politics | governance_link | governance | government |government_link | military_link | military | economy | infrastructure | transport 
+| society | society_link | adjective | culture | demographics | religion | symbols | symbols_link | below | belowstyle | _nobelow | addtobelow  | noportal
+}}<noinclude>
+{{documentation}}
+</noinclude>
