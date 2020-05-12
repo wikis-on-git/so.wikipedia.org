@@ -28,7 +28,7 @@
      ===================================================-->
 </noinclude>
 |group2 = {{#ifexist:History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
-     | [[History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|History]]
+     | [[History of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Taariikh]]
      | History
     }}
 |list2 = {{{history|}}}
@@ -41,7 +41,7 @@
      ===================================================-->
 </noinclude>
 |group4 = {{#ifexist:Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
-      | [[Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Geography]]
+      | [[Geography of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Juquraafi]]
       | Geography
      }}
 |list4 = {{#if:{{{geography|}}}{{{subdivisions|}}}
@@ -70,7 +70,7 @@
 </noinclude>
 |group6 = {{#if:{{{politics_link|}}} |[[{{{politics_link}}}|Politics]]
       | {{#ifexist:Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
-         | [[Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Politics]]
+         | [[Politics of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Siyaasada]]
          | Politics
         }}
      }}
@@ -111,7 +111,7 @@
      ===================================================-->
 </noinclude>
 |group8 = {{#ifexist:Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}
-      | [[Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Economy]]
+      | [[Economy of {{{prefix|}}} {{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}|Dhaqaalaha]]
       | Economy
      }}
 |list8 = {{#if:{{{economy|}}}{{{infrastructure|}}}{{{transport|}}}
@@ -149,7 +149,7 @@
         | [[{{{society_link}}}|Society]]
          <!----...else try "Category:(adjective) or (place's name) society",---->
         | {{#ifexist:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society
-           | [[:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society|Society]]
+           | [[:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society|Bulshada]]
             <!----...else default to plain "Society":---->
            | Society
           }}
