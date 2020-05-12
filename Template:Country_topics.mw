@@ -10,7 +10,7 @@
 |title = <includeonly>{{#ifexist:{{{country|{{{territory|{{{region|}}}}}}}}}
      | [[{{{country|{{{territory|{{{region}}}}}}}}}{{#if:{{{titlename|}}}|{{!}}{{{titlename}}}}}]]&nbsp;|{{{titlename|{{{country|{{{territory|{{{region|<span style="white-space:nowrap;color:red;">[Required parameter missing!]</span>}}}}}}}}}}}}&nbsp;<!--(space between Name and "articles" word (if not suppressed))
  -->}}<!---- "topics" ----
- -->{{#if:{{{_notopicsword|}}} | |{{#ifexist:Index of {{{prefix|}}} related articles|[[Index of {{{prefix|}}}-{{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}}-related articles|[[Index of {{{prefix|}}} related articles|articles]]|maqaalo}}}}-{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}</includeonly>
+ -->{{#if:{{{_notopicsword|}}} | |{{#ifexist:Index of related articles|[[Index of {{{prefix|}}}-{{{country|{{{territory|{{{region|{{{titlename|}}}}}}}}}}}} related articles|articles]]|maqaalo}}}}-{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}</includeonly>
 
  <!------------------ Image (optional) ------------------->
 |imagestyle = {{{imagestyle|}}}
