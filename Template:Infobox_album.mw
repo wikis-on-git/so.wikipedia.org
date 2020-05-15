@@ -1,0 +1,72 @@
+{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=italic_title,name,type,longtype,artist,cover,border,alt,caption,released,recorded,venue,studio,genre,length,language,label,director,producer,compiler,chronology,prev_title,prev_year,year,next_title,next_year,misc|$extra=italic_title,longtype,border,caption,language,director,compiler,chronology,year,misc|$aliases=italic title>italic_title,Italic title>italic_title,Name>name,Type>type,image>cover,Cover>cover,Border>border,Alt>alt,Caption>caption,Longtype>longtype,Artist>artist,Released>released,Recorded>recorded,Venue>venue,Studio>studio,Genre>genre,Length>length,Language>language,Label>label,Director>director,Producer>producer,Compiler>compiler,Chronology>chronology,Misc>misc|prev_title={{{{{|safesubst:}}}if empty|{{{prev_title|}}}|{{{{{|safesubst:}}}#if:{{{last_album|{{{Last album|}}}}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}}}}}|prev_year={{{{{|safesubst:}}}if empty|{{{prev_year|}}}|{{{{{|safesubst:}}}#if:{{{last_album|{{{Last album|}}}}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}}}|next_title={{{{{|safesubst:}}}if empty|{{{next_title|}}}|{{{{{|safesubst:}}}#if:{{{next_album|{{{Next album|}}}}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}}}}}|next_year={{{{{|safesubst:}}}if empty|{{{next_year|}}}|{{{{{|safesubst:}}}#if:{{{next_album|{{{Next album|}}}}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}}}|released={{{{{|safesubst:}}}if empty|{{{released|{{{Released|}}}}}}|{{{{{|safesubst:}}}#if:{{{this_album|{{{This album|}}}}}}|{{{{{|safesubst:}}}#if:{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1=x{{{chronology|{{{Chronology|}}}}}}|2=[ ]recordings?$|nomatch=}}||{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{this_album|{{{This album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{this_album|{{{This album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}}}}}|year={{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|{{{released|{{{Released|}}}}}}|%d%d%d+}}|{{{year|}}}||{{{year|}}}}}|length={{{{{|safesubst:}}}#if:{{{length|{{{Length|}}}}}}|{{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{length|{{{Length|}}}}}}|2=^([0-9][0-9]?) [Mm]ins?%.?,? :? ?([0-9]) [Ss]ecs?%.?$|3=%1:0%2|plain=false}}|2=^([0-9][0-9]?) [Mm]ins?%.?,? :? ?([0-9][0-9]?) [Ss]ecs?%.?$|3=%1:%2|plain=false}}|2=^([0-9][0-9]?) [Mm]inutes?,? :? ?([0-9]) [Ss]econds?%.?$|3=%1:0%2|plain=false}}|2=^([0-9][0-9]?) [Mm]inutes?,? :? ?([0-9][0-9]?) [Ss]econds?%.?$|3=%1:%2|plain=false}}}}|$flags=override|$B={{infobox
+| italic title= {{{italic_title|{{{italic title|{{{Italic title|}}}}}}}}}
+| bodyclass   = vevent haudio
+
+| aboveclass  = summary album
+| abovestyle  = {{#ifeq:{{{italic_title|{{{italic title|{{{Italic title|yes}}}}}}}}}|yes|font-style: italic;}} background-color: {{#ifeq:{{Infobox album/color|{{{type|{{{Type|}}}}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|{{{Type|}}}}}} }} }}
+| above       = {{#if:{{{name|{{{Name|}}}}}}|{{{name|{{{Name}}}}}}|<includeonly><span style="font-style: normal">Untitled</span></includeonly>}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#switch:{{{image|{{{cover|{{{Cover|}}}}}}}}}|blank=|???=Nocover.png|#default={{{image|{{{cover|{{{Cover|}}}}}}}}}}}|border={{{border|{{{Border|}}}}}}|alt={{{alt|{{{Alt|}}}}}}}}
+| caption     = {{{caption|{{{Caption|}}}}}}
+
+| headerstyle = background-color: {{#ifeq:{{Infobox album/color|{{{type|{{{Type|}}}}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|{{{Type|}}}}}}}}}}
+| headerclass = description
+
+| header1     = {{Infobox album/link|{{{type|{{{Type|}}}}}} }}{{#if:{{{longtype|{{{Longtype|}}}}}}|&#32;{{{longtype|{{{Longtype}}}}}}}}{{#if:{{{artist|{{{Artist|}}}}}}|&#32;karya <span class="contributor">{{{artist|{{{Artist}}}}}}</span> }}
+| label2      = Dirilis
+| data2       = {{if empty|{{{released|{{{Released|}}}}}}|{{#if:{{{this_album|{{{This album|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1=x{{{chronology|{{{Chronology|}}}}}}|2=[ ]recordings?$|nomatch=}}||{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{this_album|{{{This album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{this_album|{{{This album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}}}}}
+| class2      = published
+| label3      = Direkam
+| data3       = {{{recorded|{{{Recorded|}}}}}}
+| class3      = plainlist
+| label4      = Tempat
+| data4       = {{{venue|{{{Venue|}}}}}}
+| label5      = Studio
+| data5       = {{{studio|{{{Studio|}}}}}}
+| class5      = plainlist
+| label6      = [[Genre musik|Genre]]
+| data6       = {{{genre|{{{Genre|}}}}}}
+| class6      = category hlist
+| label7      = Durasi
+| data7       = {{#invoke:hms|main|duration={{{length|{{{Length|}}}}}}}}
+| label8      = Bahasa
+| data8       = {{{language|{{{Language|}}}}}}
+| class8      = category
+| label9      = [[Label rekaman|Label]]
+| data9       = {{{label|{{{Label|}}}}}}
+| class9      = hlist
+| label10     = [[Sutradara film|Sutradara]]
+| data10      = {{{director|{{{Director|}}}}}}
+| class10     = hlist
+| label11     = [[Produser rekaman|Produser]]
+| data11      = {{{producer|{{{Producer|}}}}}}
+| class11     = hlist
+| label12     = Compiler
+| data12      = {{{compiler|{{{Compiler|}}}}}}
+| class12     = hlist
+| header13    = {{#if:{{{last_album|{{{Last album|}}}}}}{{{next_album|{{{Next album|}}}}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|{{{Chronology|}}}}}}|{{{chronology|{{{Chronology|}}}}}}|Kronologi {{{artist|{{{Artist}}}}}}}}}}
+| data14      = {{#if:{{{last_album|{{{Last album|}}}}}}{{{next_album|{{{Next album|}}}}}}{{{prev_title|}}}{{{next_title|}}}|
+{{(!}} style="background: transparent; width: 100%; min-width: 100%; border-collapse: collapse"
+{{!}}- style="line-height: 1.4em;"
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em .2em 0" {{!}} {{#if:{{{prev_title|}}}|''{{{prev_title}}}''{{#if:{{{prev_year|}}}|<br />({{{prev_year}}})}}|{{{last_album|{{{Last album|}}}}}}<span style="display:none">{{#if:{{{last_album|{{{Last album|}}}}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|{{{Last album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em" {{!}} {{{this_album|{{{This album|'''''{{{name|{{{Name|{{PAGENAMEBASE}} }}}}}}'''''{{#if:{{{next_year|}}}{{{prev_year|}}}|<br />({{{year|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|{{{released|{{{Released|}}}}}}|%d%d%d+}}}}})}}}}}}}}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em 0 .2em .1em" {{!}} {{#if:{{{next_title|}}}|''{{{next_title}}}''{{#if:{{{next_year|}}}|<br />({{{next_year}}})}}|{{{next_album|{{{Next album|}}}}}}<span style="display:none">{{#if:{{{next_album|{{{Next album|}}}}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|{{{Next album|}}}}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!)}}
+}}
+
+| below       = {{{misc|{{{Misc|}}}}}}
+}}{{category handler
+ |main={{#ifeq:{{Infobox album/color|{{{type|{{{Type|}}}}}}|Test}}|Test
+  |[[Category:Album articles with non-standard infoboxes]]
+ }}{{#ifeq:{{Infobox album/color|{{{type|{{{Type|}}}}}}}}|khaki
+  |[[Category:Album articles with non-standard infoboxes]][[Category:Song articles needing single infobox conversion]]
+ }}[[Category:Artikel dengan mikroformat hAudio]]{{#switch:{{lc:{{{image|{{{cover|{{{Cover|}}}}}}}}}}}
+  |
+  |???
+  |nocover.png = [[Category:Infobox album tanpa sampul album]]
+ }}
+}}{{#if:{{#ifeq:{{str left|{{{last_album|{{{Last album|}}}}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{this_album|{{{This album|}}}}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{next_album|{{{Next album|}}}}}}|22}}|<div class="plainlist"|1|}}|[[Category:Pages using infobox chronology parameters with plainlists]]
+}}{{#ifeq:{{{type|}}}{{{Type|}}}||[[Category:Pages using infobox album with empty type parameter]]}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox album with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox album]] with unknown parameter "_VALUE_"|ignoreblank=y|italic_title|italic title|Italic title|type|Type|name|Name|image|cover|Cover|border|Border|alt|Alt|caption|Caption|longtype|Longtype|artist|Artist|released|Released|recorded|Recorded|venue|Venue|studio|Studio|genre|Genre|length|Length|language|Language|label|Label|director|Director|producer|Producer|compiler|Compiler|last_album|Last album|next_album|Next album|chronology|Chronology|this_album|This album|prev_title|prev_year|next_title|next_year|year|misc|Misc}}{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{prev_title|}}}{{{last_album|}}}{{{Last album|}}}{{{prev_year|}}}{{{next_title|}}}{{{next_album|}}}{{{Next album|}}}{{{next_year|}}}{{{italic_title|}}}{{{italic title|}}}{{{Italic title|}}}{{{type|}}}{{{Type|}}}{{{name|}}}{{{Name|}}}{{{image|}}}{{{cover|}}}{{{Cover|}}}{{{border|}}}{{{Border|}}}{{{alt|}}}{{{Alt|}}}{{{caption|}}}{{{Caption|}}}{{{longtype|}}}{{{Longtype|}}}{{{artist|}}}{{{Artist|}}}{{{released|}}}{{{Released|}}}{{{recorded|}}}{{{Recorded|}}}{{{venue|}}}{{{Venue|}}}{{{studio|}}}{{{Studio|}}}{{{genre|}}}{{{Genre|}}}{{{length|}}}{{{Length|}}}{{{language|}}}{{{Language|}}}{{{label|}}}{{{Label|}}}{{{director|}}}{{{Director|}}}{{{producer|}}}{{{Producer|}}}{{{compiler|}}}{{{Compiler|}}}{{{chronology|}}}{{{Chronology|}}}{{{this_album|}}}{{{This album|}}}{{{year|}}}x|2=</?t[drh][ >]|nomatch=}}|[[Category:Music infoboxes with malformed table placement|A]]}}{{#if:{{{Italic title|}}}{{{Name|}}}{{{Type|}}}{{{Cover|}}}{{{Border|}}}{{{Alt|}}}{{{Caption|}}}{{{Longtype|}}}{{{Artist|}}}{{{Released|}}}{{{Recorded|}}}{{{Venue|}}}{{{Studio|}}}{{{Genre|}}}{{{Length|}}}{{{Language|}}}{{{Label|}}}{{{Director|}}}{{{Producer|}}}{{{Compiler|}}}{{{Chronology|}}}{{{Misc|}}}{{{last_album|}}}{{{Last album|}}}{{{this_album|}}}{{{This album|}}}{{{next_album|}}}{{{Next album|}}}|[[Kategori:Kotak info musik dengan parameter usang|A]]}}{{main other|{{#if:{{{length|{{{Length|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{#invoke:hms|main|duration={{{length|{{{Length|}}}}}}}}|2=class="duration"|plain=true|nomatch=}}|[[Category:Artikel dengan mikroformat hAudio]]}}}}}}}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here. -->
+</noinclude>
