@@ -1,11 +1,11 @@
-<includeonly>{{subst:<noinclude></noinclude>#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
-[[Category:{{subst:<noinclude></noinclude>#switch:{{subst:uc:{{{1|}}}}}
- || UNKNOWN | KA MAQAN = Da'da lama yaqaano {{<includeonly>subst:<noinclude></noinclude>#switch:{{subst:uc:{{{2|}}}}}||Nool=(Dadka nool)}}
- | #default = Dhashay{latay) {{{1}}}
+<includeonly>{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
+[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}
+ || UNKNOWN | Lama yaqaano = Da'da lama yaqaano 
+ | #default = Dhashay(latay) {{{1}}}
 }}]]
 [[Category:{{subst:<noinclude></noinclude>#switch:{{subst:uc:{{{2|}}}}}
  || LIVING  = Dadka nool
- | UNKNOWN | KA MAQAN  = Sanadka dhimashada aa ka maqan
+ | UNKNOWN | KA MAQAN  = Sanadka geerida aa ka maqan
  | #default = Geeriyooday(tay) {{{2}}} 
 }}]]</includeonly><noinclude>
 
