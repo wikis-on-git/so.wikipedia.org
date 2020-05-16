@@ -1,0 +1,14 @@
+<includeonly>{{subst:<noinclude></noinclude>#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
+[[Category:{{subst:<noinclude></noinclude>#switch:{{subst:uc:{{{1|}}}}}
+ || UNKNOWN | KA MAQAN = Da'da lama yaqaano {{<includeonly>subst:<noinclude></noinclude>#switch:{{subst:uc:{{{2|}}}}}||Nool=(Dadka nool)}}
+ | #default = Dhashay{latay) {{{1}}}
+}}]]
+[[Category:{{subst:<noinclude></noinclude>#switch:{{subst:uc:{{{2|}}}}}
+ || LIVING  = Dadka nool
+ | UNKNOWN | KA MAQAN  = Sanadka dhimashada aa ka maqan
+ | #default = Geeriyooday(tay) {{{2}}} 
+}}]]</includeonly><noinclude>
+
+{{Documentation}}
+
+</noinclude>
