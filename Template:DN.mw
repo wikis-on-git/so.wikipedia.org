@@ -1,9 +1,9 @@
 <includeonly>{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
-[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}
+[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{1|}}}}}
  || UNKNOWN | Lama yaqaano = Da'da lama yaqaano 
  | #default = Dhashay(latay) {{{1}}}
 }}]]
-[[Category:{{subst:<noinclude></noinclude>#switch:{{subst:uc:{{{2|}}}}}
+[[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}
  || LIVING  = Dadka nool
  | UNKNOWN | KA MAQAN  = Sanadka geerida aa ka maqan
  | #default = Geeriyooday(tay) {{{2}}} 
