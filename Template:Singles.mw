@@ -1,7 +1,7 @@
 {{<includeonly>safesubst:</includeonly>#invoke:Singles||$B={{Infobox
 | child         = <includeonly>yes</includeonly>
 | headerstyle   = background: {{Template:Infobox album/color|{{{type|}}}}}
-| header1       = [[Single (music)|Singles]] from ''{{#if:{{{name|}}}|{{{name}}}|{{PAGENAMEBASE}}}}''
+| header1       = [[Almbum (musik)|Heesaha albumka]] ee ''{{#if:{{{name|}}}|{{{name}}}|{{PAGENAMEBASE}}}}''
 | data2         = {{#invoke:Singles|main}}
 }}{{#if:{{#invoke:String|match|1={{{type|}}}{{{name|}}}x|2=</?t[drh][ >]|nomatch=}}|[[Category:Music infoboxes with malformed table placement|R]]}}{{<includeonly>safesubst:</includeonly>#invoke:Check for unknown parameters|check|unknown={{<includeonly>safesubst:</includeonly>main other|[[Category:Pages using Singles template with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Singles]] with unknown parameter "_VALUE_"|ignoreblank=y| name | type | regexp1 = single[%d][%d]* | regexp2 = single[%d][%d]*date }}}}<noinclude>
 {{Documentation}}
