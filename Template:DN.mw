@@ -1,4 +1,4 @@
-<includeonly>{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
+<includeonly>{{{{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
 [[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{1|}}}}}
  || UNKNOWN | Lama yaqaano = Da'da lama yaqaano 
  | #default = Dhashay(latay) {{{1}}}
