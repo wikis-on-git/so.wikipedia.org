@@ -1,0 +1,176 @@
+{{infobox
+| bodyclass  = {{#if:{{{nongregorian|}}}||vevent}}
+| subheader  = {{#if:{{{partof|}}}|Part of {{{partof|}}}}}
+| child = {{{child|no}}}
+
+| titleclass = summary
+| title      = {{if empty | {{{event|}}} | {{{title|}}} | {{{name|}}} | {{{Event_Name|}}} | {{PAGENAMEBASE}} }}
+
+| image     = {{#invoke:InfoboxImage|InfoboxImage|image={{#if:{{{image|}}}|{{{image}}}|{{{image_name|{{{Image_Name|}}}}}}}}|size={{{image_size|{{{Imagesize|}}}}}}|sizedefault=frameless|upright={{{image_upright|1.1}}}|thumbtime={{{thumbtime|{{{Thumb_Time|}}}}}}|alt={{{alt|{{{image_alt|{{{Image_Alt|}}}}}}}}}}}
+
+| caption   = {{{caption|{{{Image_Caption|}}} }}}
+| imagestyle = {{#if:{{{caption|{{{Image_Caption|}}} }}}|border-bottom:#aaa solid 1px}}
+
+| image2     = {{#invoke:InfoboxImage|InfoboxImage |image={{{map|}}} |size={{{map_size|}}} |sizedefault=250px |alt={{{map_alt|}}} }}
+| caption2   = {{{map_caption|}}}
+
+| datastyle = text-align: left;
+| headerstyle = background-color:lavender;
+
+| label1  = Magaca&nbsp;asalka
+|  data1  = {{#if:{{{native_name|}}}|<span {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}"}}> {{{native_name}}}</span>}}
+
+| label2  = Magaca ingiriiska
+|  data2  = {{{English_name|{{{english_name|}}}}}}
+
+| label3  = Taariikhda
+|  data3  = {{{date|{{{Date|}}} }}}
+
+| label4  = Waqtiga
+|  data4  = {{{time|}}}
+
+| label5  = Mudada
+|  data5  = {{{duration|}}}
+
+| label6  = Meesha
+|  data6  = {{{venue|}}}
+
+| label7  = Goobta
+| class7  = location
+|  data7  = {{if empty| {{{place|}}} | {{{Location|}}} | {{{location|}}} }}
+
+| label8  = [[nidaamka koordinatka juquraafiga|Koordinatyada]]
+|  data8  = {{{coordinates|}}}
+
+| label9  = Sidoo kale loo yaqaan
+|  data9  = {{if empty| {{{also known as|}}} | {{{also_known_as|}}} | {{{AKA|}}} | {{{aka|}}} }}
+
+| label10 = Nooca
+|  data10 = {{{type|}}}
+
+| label11 = Dulucda
+|  data11 = {{{theme|}}}
+
+| label12 = Sababta
+|  data12 = {{{cause|}}}
+
+| label13    = Ujeedo
+| data13     = {{{motive|}}}
+
+| label14    = Bartilmaameedka
+| data14     = {{{target|}}}
+
+| label15 = {{#if:{{{reporter|}}}|Wariye|Wariyaha ugu horeeyo}}
+|  data15 = {{#if:{{{reporter|}}}|{{{reporter|}}}|{{{first reporter| {{{first_reporter|}}} }}}}}
+
+| label16 = Miisaaniyadda
+|  data16 = {{{budget|}}}
+
+| label17 = {{#if:{{{patrons|}}}|Deen|Deemaha}}
+|  data17 = {{#if:{{{patrons|}}}|{{{patrons}}}|{{{patron|}}}}}
+
+| label18 = {{#if:{{{organisers|}}}|Abaabulay|Soo abaabulay}} 
+|  data18 = {{#if:{{{organisers|}}}|{{{organisers}}}|{{{organizers|}}}}}
+
+| label19 = Soo duubay
+|  data19 = {{{filmed by| {{{filmed_by|}}}}}}
+
+| label20 = Kaqeybgalayaasha
+|  data20 = {{{participants|{{{Participants|}}} }}}
+| class20 = attendee
+
+| label21 = Natiijada
+|  data21 = {{{outcome| {{{result| {{{Result|}}} }}} }}}
+| class21 = description
+
+| header22 = {{#if:{{{casualties1|}}}{{{casualties2|}}}{{{casualties3|}}}|Casualties}}
+
+|  data23 = {{{casualties1|}}}
+|  data24 = {{{casualties2|}}}
+|  data25 = {{{casualties3|}}}
+
+| label26 = Dhimashada
+|  data26 = {{if empty| {{{reported deaths|}}} | {{{reported death(s)|}}} | {{{Deaths|}}} | {{{deaths|}}} |  {{{fatalities|}}} }}
+
+| label27 = Dhaawacyada aan dhimashada ahayn
+|  data27 = {{{reported injuries|{{{injuries|}}} }}}
+
+| label28 = La la'yahay
+|  data28 = {{{reported missing|{{{missing|}}}}}}
+
+| label29 = Burbur hantiyeed
+|  data29 = {{if empty|  {{{reported property damage|}}} | {{{property damage|}}} | {{{property_damage|}}} }}
+
+| label30 = Aaska
+|  data30 = {{{burial|}}}
+
+| label31 = Su aalaha
+|  data31 = {{{inquiries|}}}
+
+| label32 = Wax weydiin
+|  data32 = {{{inquest|}}}
+
+| label33 = Sarkaalka baara
+|  data33 = {{{coroner|}}}
+
+| label34 = Qabashada
+|  data34 = {{{arrests|}}}
+
+| label35 = Tuhmane
+|  data35 = {{{suspects|{{{susperps|}}} }}}
+
+| label36 = eedeeyn
+|  data36 = {{{accused|}}}
+
+| label37 = Lagu helay
+|  data37 = {{{convicted|}}}
+
+| label38 = Lagu eedeeyay
+|  data38 = {{{charges|}}}
+
+| label39 = Maxkamad
+|  data39 = {{{trial|}}}
+
+| label40 = Go'aan
+|  data40 = {{{verdict|}}}
+
+| label41 = Xukummada
+|  data41 = {{{convictions|}}}
+
+| label42 = Xukunka
+|  data42 = {{{sentence|}}}
+
+| label43 = Mamnuucis dibadeed
+|  data43 = {{{publication bans|{{{publication_bans|}}}}}}
+
+| label44 = Dacwada
+|  data44 = {{{litigation|}}}
+
+| label45 = Abaalmarino
+|  data45 = {{{awards|}}}
+
+| label46 = Muuqaal
+|  data46 = {{{footage|{{{url|}}}}}}
+
+| label47 = {{{blank_label}}}
+|  data47 = {{#if:{{{blank_label|}}}|{{{blank_data|}}}}}
+
+| label48 = {{{blank1_label}}}
+|  data48 = {{#if:{{{blank1_label|}}}|{{{blank1_data|}}}}}
+
+| label49 = {{{blank2_label}}}
+|  data49 = {{#if:{{{blank2_label|}}}|{{{blank2_data|}}}}}
+
+| label50 = Website
+|  data50 = {{{website|{{{URL|}}} }}}
+
+| data51  = {{{module|}}}
+
+| belowstyle = border-top: #aaa 1px solid;
+| below = {{{notes|}}}
+
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Boggag isticmaalaya dhacdooyin infobox oo leh cabbirmo aan la garaneyn|_VALUE_{{PAGENAME}}]]}}|ignoreblank=y|preview=Page isticmaalaya [[Template:Infobox event]] oo leh cabbirmo aan la garaneyn "_VALUE_"
+| accused | AKA | aka | also known as | also_known_as | alt | arrests | awards | blank_data | blank_label | blank1_data | blank1_label | blank2_data | blank2_label | budget | burial | caption | casualties1 | casualties2 | casualties3 | cause | child | motive | target | charges | convicted | convictions | coordinates | coroner | Date | date | Deaths | deaths | duration | english_name | English_name | event | Event_Name | fatalities | filmed by | filmed_by | first reporter | first_reporter | footage | image | Image_Alt | image_alt | Image_Caption | Image_Name | image_name | image_size | Imagesize | image_upright | injuries | inquest | inquiries | litigation | Location | location | map | map_alt | map_caption | map_size | missing | name | native_name | native_name_lang | nongregorian | notes | organisers | organizers | outcome | Participants | participants | partof | patron | patrons | place | property damage | property_damage | publication bans | publication_bans | reported death(s) | reported deaths | reported injuries | reported missing | reported property damage | reporter | Result | result | sentence | suspects | susperps | theme | Thumb_Time | thumbtime | time | title | trial | type | url | URL | venue | verdict | website }}{{#if:{{{blank_data|}}}{{{blank1_data|}}}{{{blank2_data|}}}|[[Category:Bogagga isticmaalaya dhacdooyinka infobox oo leh cabbirmo maran]]}}<noinclude>
+{{Documentation}}
+<!-- please add category links to the /doc sub-page, not here -->
+</noinclude>
