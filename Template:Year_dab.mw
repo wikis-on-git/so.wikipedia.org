@@ -1,0 +1,3 @@
+<includeonly>{{Hatnote|Maqaalkani wuxuu ku saabsan yahay sanadka {{{1|{{PAGENAME}}}}}. {{#ifexist:{{{1|{{PAGENAME}}}}} (number)|{{#if:{{#invoke:redirect|isRedirect|{{{1|{{PAGENAME}}}}} (number)}}||Lambarka, fiiri [[{{{1|{{PAGENAME}}}}} (number)]].}}}} {{#if:{{{2|}}}|For {{{2}}}, fiiri [[{{{3}}}]].}} {{#if:{{{4|}}}| {{{4}}}, fiiri [[{{{5}}}]].}} {{#if:{{{6|}}}| {{{6}}}, fiiri [[{{{7}}}]].}} {{#ifexist:{{{1|{{PAGENAME}}}}} (disambiguation)|Adeegyo kale, fiiri [[{{{1|{{PAGENAME}}}}} (disambiguation)]].}}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
