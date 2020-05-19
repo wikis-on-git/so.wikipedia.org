@@ -7,8 +7,8 @@
  {{#ifeq: {{#expr:{{{1|{{CURRENTYEAR}}}}}>1923}}|0
 |<!-- Years 1583 through 1923 -->
 {{#ifeq: {{#expr:{{{1|{{CURRENTYEAR}}}}}=1923}}|0
-|<!-- Before 1923 -->was {{Year article header/zc|{{{1|{{CURRENTYEAR}}}}}}}. As of the start of {{Year article header/Julian day|{{{1|{{CURRENTYEAR}}}}}}}, which remained in localized use until 1923.
-|<!-- 1923 was a [[Common year starting on Monday]] -->was {{Year article header/zc|1923}}. As of the start of {{Year article header/Julian day|{{{1|{{CURRENTYEAR}}}}}}}, which was relegated that February to use only by churches after [[Greece]] adopted the Gregorian calendar.}}
+|<!-- Before 1923 -->wuxuu ahaa {{Year article header/zc|{{{1|{{CURRENTYEAR}}}}}}}. As of the start of {{Year article header/Julian day|{{{1|{{CURRENTYEAR}}}}}}}, which remained in localized use until 1923.
+|<!-- 1923 wuxuu ahaa [[Sanadka caadiga ah oo ka bilaabmaya Isniinta]] -->wuxuu ahaa {{Year article header/zc|1923}}. Sida bilowga  {{Year article header/Julian day|{{{1|{{CURRENTYEAR}}}}}}}, kaas oo loo sii daayay bishii Febraayo si loogu isticmaalo kaliya kaniisadaha ka dib markii [[Griiga]] ay qaadatay kalandarka Gregoriya.}}
 |<!-- 1924 and later-->
 <!-- Test for past vs present vs future -->{{#ifeq: {{#expr:{{#time:Y}} < {{{1|{{CURRENTYEAR}}}}}}} | 0 | {{#ifeq: {{#expr:{{#time:Y}} > {{{1|{{CURRENTYEAR}}}}}}} | 0 | is the current year, and is | was }} | will be }} {{Year article header/zc|{{{1|{{CURRENTYEAR}}}}}}}.
 }}}} {{main other|{{Short description|{{{1|{{CURRENTYEAR}}}}}}}}} </includeonly><noinclude>{{Short description|A template to set up a consistent opening paragraph for most years }}
