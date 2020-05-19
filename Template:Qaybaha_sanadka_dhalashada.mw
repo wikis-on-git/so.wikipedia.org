@@ -6,9 +6,9 @@
 {{Navseasoncats with decades below year||{{{1|}}}{{{2|1}}}| dhalasho}}
 {{#ifeq:{{NAMESPACE}}|{{ns:14}}|
 <!-- Current template links to categories AD 1…AD 10, 11… -->
-[[Category:{{{1|}}}0 dhalashooyinka|#{{{1|}}}{{{2|1}}}]]
-[[Category:Births by year|{{{1|}}}{{{2|1}}}]]
-[[Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&#32;|}}{{{1|}}}{{{2|1}}} ka bilaabato{{!}}dhalasho]]<!--
+[[Category:Dhalashooyinka {{{1|}}}0 |#{{{1|}}}{{{2|1}}}]]
+[[Category:Dhalashada sanad walba|{{{1|}}}{{{2|1}}}]]
+[[Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | Sanadaha&#32;|}}{{{1|}}}ka bilaabato {{{2|1}}} {{!}}dhalasho]]<!--
 -->}}</includeonly><!--
  # Note {{CatAutoTOC}} needs to be available whether or not this template page has been transcluded
 -->{{CatAutoTOC}}<noinclude>
