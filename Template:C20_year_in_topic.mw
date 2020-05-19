@@ -29,7 +29,7 @@
 
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} isboortiga|* [[{{{year|{{PAGENAME}}}}} istoortiga |Isboortiga]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} talefishinka|* [[{{{year|{{PAGENAME}}}}} talefishinka|Talefishin]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 or {{{year|{{PAGENAME}}}}}=1958 ama {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 or {{{year|{{PAGENAME}}}}}=1958 or {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
 | heading2 = By country
 | content2 = 
 {{#ifexist:{{{year|{{PAGENAME}}}}} Australia|* [[{{{year|{{PAGENAME}}}}} ee Australia|Australia]]
@@ -51,7 +51,7 @@
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Hindiya|* [[{{{year|{{PAGENAME}}}}} ee Hindiya|Hindiya]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Ireland|* [[{{{year|{{PAGENAME}}}}} ee Ireland|Ireland]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Iiraan|* [[{{{year|{{PAGENAME}}}}} ee Iiraan|Iiraan]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1948 | {{#ifexist:{{{year|{{PAGENAME}}}}} in Israel|* [[{{{year|{{PAGENAME}}}}} in Israel|Israel]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1948 | {{#ifexist:{{{year|{{PAGENAME}}}}} Israaiil|* [[{{{year|{{PAGENAME}}}}} ee Israaiil|Israaiil]]}}
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Talyaaniga|* [[{{{year|{{PAGENAME}}}}} ee Talyaaniga|Talyaaniga]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Jabaan|* [[{{{year|{{PAGENAME}}}}} ee Jabaan|Jabaan]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Kuwayt|* [[{{{year|{{PAGENAME}}}}} ee Kuwayt|Kuwayt]]
