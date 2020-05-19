@@ -1,0 +1,18 @@
+<includeonly><!--
+-->{{Portal<!--
+      -->|Biography<!--
+      -->|{{FindYDCportal|{{{1|}}}{{{2|1}}}}}<!--
+-->}}<!--
+ Current template applies "AD" prefix to years 1…10 per RfC decision on [[Talk:AD 1]] -->
+'''People born''' in the year '''[[{{Year article|{{{1|}}}{{{2|1}}}}}]]'''.<br />''See also:'' [[:Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} deaths|{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} deaths]].
+{{Navseasoncats with decades below year||{{{1|}}}{{{2|1}}}| births}}
+{{#ifeq:{{NAMESPACE}}|{{ns:14}}|
+<!-- Current template links to categories AD 1…AD 10, 11… -->
+[[Category:{{{1|}}}0s births|#{{{1|}}}{{{2|1}}}]]
+[[Category:Births by year|{{{1|}}}{{{2|1}}}]]
+[[Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&#32;|}}{{{1|}}}{{{2|1}}} beginnings{{!}}Births]]<!--
+-->}}</includeonly><!--
+ # Note {{CatAutoTOC}} needs to be available whether or not this template page has been transcluded
+-->{{CatAutoTOC}}<noinclude>
+{{documentation}}
+</noinclude>
