@@ -1,0 +1,17 @@
+<includeonly><div role="navigation" aria-labelledby="{{{1}}}-label" class="hlist" style="margin: 1em 0; border: 1px solid #a2a9b1; padding: 0.2em; background-color: white; font-size: 88%; text-align: center; color: #000;">
+;<span id="{{{1}}}-label">{{#ifexist:{{{1}}} {{{2|}}}|[[{{{1}}} {{{2|}}}|{{{1}}}]]|{{{1}}}}}</span>
+: [[{{{prefix|}}}Janaayo {{{1}}} {{{2|}}}|Janaayo]]
+: [[{{{prefix|}}}Febaraayo {{{1}}} {{{2|}}}|Febaraayo]]
+: [[{{{prefix|}}}Maarso {{{1}}} {{{2|}}}|Maarso]]
+: [[{{{prefix|}}}Abriil {{{1}}} {{{2|}}}|Abriil]]
+: [[{{{prefix|}}} May {{{1}}} {{{2|}}}|May]]
+: [[{{#ifeq:{{{prefix|}}}Juun {{{1}}} {{{2|}}}|Juun 1976|Juun 1976 (bisha)|{{{prefix|}}}Juun {{{1}}} {{{2|}}}}}|Juun]]
+: [[{{{prefix|}}}Luuliyo {{{1}}} {{{2|}}}|Luuliyo]]
+: [[{{{prefix|}}}Agoosto {{{1}}} {{{2|}}}|Agoosto]]
+: [[{{#ifeq:{{{prefix|}}}Sebteembar {{{1}}} {{{2|}}}|Sebteembar 1913|Sebteembar 1913 (bisha)|{{{prefix|}}}Sebteembar {{{1}}} {{{2|}}}}}|Sebteembar]]
+: [[{{{prefix|}}}Oktoobar {{{1}}} {{{2|}}}|Oktoobar]]
+: [[{{{prefix|}}}Nofeembar {{{1}}} {{{2|}}}|Nofeembar]]
+: [[{{{prefix|}}}Deseembar {{{1}}} {{{2|}}}|Deseembar]]
+</div>{{main other|{{Events by month/error check|1={{{1|}}}|2={{{2|}}}}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
