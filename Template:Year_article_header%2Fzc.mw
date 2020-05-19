@@ -4,6 +4,6 @@
   | an exceptional [[common year starting on {{#time:l|{{{1}}}-01-01}}]]}} 
   | {{#ifeq: {{#expr:{{{1}}} mod 4}} | 0 
    | a [[leap year starting on {{#time:l|{{{1}}}-01-01}}]] 
-   | a [[common year starting on {{#time:l|{{{1}}}-01-01}}]]}}}} of the [[Gregorian calendar]]{{#ifexpr:{{{1}}}<1923|&nbsp;and {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, the {{ordinal|{{{1}}}}} year of the [[Common Era]] (CE) and ''[[Anno Domini]]'' (AD) designations, {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Computes Zeller's Congruence to determine whether a year is a leap year}}
+   | a [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}}}} ee [[jadwalka Gregorian]]{{#ifexpr:{{{1}}}<1923|&nbsp;iyo {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, sanadkii {{ordinal|{{{1}}}}} ee [[Xilligii caadiga ahaa]] (CE) iyo  ''[[Anno Domini]]'' (AD) designations, {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Xisaabta Isuduwaha Zeller si loo go'aamiyo inuu sannad yahay sannad sii socod ah}}
 {{Documentation}}
 </noinclude>
