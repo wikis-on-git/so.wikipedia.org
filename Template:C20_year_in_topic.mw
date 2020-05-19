@@ -29,7 +29,7 @@
 
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} isboortiga|* [[{{{year|{{PAGENAME}}}}} istoortiga |Isboortiga]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} talefishinka|* [[{{{year|{{PAGENAME}}}}} talefishinka|Talefishin]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 ama {{{year|{{PAGENAME}}}}}=1958 ama {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 or {{{year|{{PAGENAME}}}}}=1958 ama {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
 | heading2 = By country
 | content2 = 
 {{#ifexist:{{{year|{{PAGENAME}}}}} Australia|* [[{{{year|{{PAGENAME}}}}} ee Australia|Australia]]
@@ -64,14 +64,14 @@
 }}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1922 | {{#ifexist:{{{year|{{PAGENAME}}}}} Boqortooyadii Cusmaaniyiinta|* [[{{{year|{{PAGENAME}}}}} ee Boqortooyadii Cusmaaniyiinta]]}}
 }}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1918 | {{#ifexist:{{{year|{{PAGENAME}}}}} Cusmaaniyiinta Suuriya|* [[{{{year|{{PAGENAME}}}}} ee Cusmaaniyiinta suuriya|Cusmaaniyiinta suuriya]]}}
 }}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1946 | {{#ifexist:{{{year|{{PAGENAME}}}}} Bakistaan|* [[{{{year|{{PAGENAME}}}}} ee Bakistaan|Bakistaan]]}}
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1920 iyo {{{year|{{PAGENAME}}}}}>=1918| {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiinta ingiriiska maamusho|* [[{{{year|{{PAGENAME}}}}} ee Falastiinta ingiriiska maamusho|Falastiin (Ingiriiska maamula)]]}}
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1948 iyo {{{year|{{PAGENAME}}}}}>=1921 | {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiin khasab ah|* [[{{{year|{{PAGENAME}}}}} ee Falastiin khasab|Waajibaadka Falastiin]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1920 and {{{year|{{PAGENAME}}}}}>=1918| {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiinta ingiriiska maamusho|* [[{{{year|{{PAGENAME}}}}} ee Falastiinta ingiriiska maamusho|Falastiin (Ingiriiska maamula)]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1948 and {{{year|{{PAGENAME}}}}}>=1921 | {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiin khasab ah|* [[{{{year|{{PAGENAME}}}}} ee Falastiin khasab|Waajibaadka Falastiin]]}}
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Filibiin|* [[{{{year|{{PAGENAME}}}}} ee Filibiin|Filibiin]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1922 ama {{{year|{{PAGENAME}}}}}>=1991| {{#ifexist:{{{year|{{PAGENAME}}}}} Ruushka|* [[{{{year|{{PAGENAME}}}}} ee Ruushka|Ruushka]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1922 or {{{year|{{PAGENAME}}}}}>=1991| {{#ifexist:{{{year|{{PAGENAME}}}}} Ruushka|* [[{{{year|{{PAGENAME}}}}} ee Ruushka|Ruushka]]}}
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Singabuur|* [[{{{year|{{PAGENAME}}}}} ee Singabuur|Singabuur]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Koonfur Afrika|* [[{{{year|{{PAGENAME}}}}} ee Koonfur Afrika|Koonfur Afrika]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Kuuriyada Koonfureed|* [[{{{year|{{PAGENAME}}}}} ee Kuuriyada Koonfureed|Kuuriyada Koonfureed]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1991 iyo {{{year|{{PAGENAME}}}}}>=1922| {{#ifexist:{{{year|{{PAGENAME}}}}} Midowga Sofiyet|* [[{{{year|{{PAGENAME}}}}} ee Midowga Sofiyet|Midowga Sofiyet]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1991 and {{{year|{{PAGENAME}}}}}>=1922| {{#ifexist:{{{year|{{PAGENAME}}}}} Midowga Sofiyet|* [[{{{year|{{PAGENAME}}}}} ee Midowga Sofiyet|Midowga Sofiyet]]}}
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Isbayn|* [[{{{year|{{PAGENAME}}}}} ee Isbayn|Isbayn]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Iswiidhan|* [[{{{year|{{PAGENAME}}}}} ee Iswiidhan|Iswiidhan]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} Tayland|* [[{{{year|{{PAGENAME}}}}} ee Tayland|Tayland]]
