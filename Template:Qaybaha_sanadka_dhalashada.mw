@@ -1,6 +1,6 @@
 <includeonly>
 
--->}}<!--
+<!--
  Current template applies "AD" prefix to years 1…10 per RfC decision on [[Talk:AD 1]] -->
 '''Dadka dhashay''' sanadka '''[[{{Year article|{{{1|}}}{{{2|1}}}}}]]'''.<br />''Sidoo kale fiiri:'' [[:Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} dhimasho|{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} dhimasho]].
 {{Navseasoncats with decades below year||{{{1|}}}{{{2|1}}}| dhalasho}}
