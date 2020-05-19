@@ -1,0 +1,10 @@
+<includeonly>{{#iferror:{{#expr:{{{1}}}/1}}
+  |[[Category:Dhacdooyinka khaladaadka bisha|1]]
+  |{{#if:{{{2|}}}
+     |{{#ifeq:{{#invoke:string|replace|{{PAGENAME}}|.*{{{1}}} {{{2}}}|YES|plain=false}}|YES||[[Category:Dhacdooyinka khaladaadka bisha|2]]}}
+     |{{#ifeq:{{#invoke:string|replace|{{#ifeq:{{PAGENAME}}|September 1913 (month)|September 1913|{{PAGENAME}}}}|.*{{{1}}}|YES|plain=false}}|YES||[[Category:Dhacdooyinka khaladaadka bisha|3]]}}
+   }}
+}}</includeonly><noinclude>
+{{documentation|content=
+This template performs an input consistency check.  Any tranclusions with unexpected input are placed in [[:Category:Dhacdooyinka khaladaadka bisha]].
+}}</noinclude>
