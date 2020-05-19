@@ -1,14 +1,12 @@
-<includeonly><!--
--->{{Portal<!--
-      -->|Biography<!--
-      -->|{{FindYDCportal|{{{1|}}}{{{2|1}}}}}<!--
+<includeonly>
+
 -->}}<!--
  Current template applies "AD" prefix to years 1…10 per RfC decision on [[Talk:AD 1]] -->
 '''Dadka dhashay''' sanadka '''[[{{Year article|{{{1|}}}{{{2|1}}}}}]]'''.<br />''Sidoo kale fiiri:'' [[:Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} dhimasho|{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&nbsp;|}}{{{1|}}}{{{2|1}}} dhimasho]].
 {{Navseasoncats with decades below year||{{{1|}}}{{{2|1}}}| dhalasho}}
 {{#ifeq:{{NAMESPACE}}|{{ns:14}}|
 <!-- Current template links to categories AD 1…AD 10, 11… -->
-[[Category:{{{1|}}}0s births|#{{{1|}}}{{{2|1}}}]]
+[[Category:{{{1|}}}0 dhalashooyinka|#{{{1|}}}{{{2|1}}}]]
 [[Category:Births by year|{{{1|}}}{{{2|1}}}]]
 [[Category:{{#ifexpr: {{{1|}}}{{{2|1}}} <= 10 | AD&#32;|}}{{{1|}}}{{{2|1}}} ka bilaabato{{!}}dhalasho]]<!--
 -->}}</includeonly><!--
