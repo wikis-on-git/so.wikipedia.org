@@ -3,13 +3,13 @@
 ! style="text-align:right;" | [[Millennium]]: 
 | {{dr|y|m|{{{1|{{PAGENAME}}}}}|0|ys}}
 |-
-! style="text-align:right;" | [[List of centuries|Centuries]]: 
+! style="text-align:right;" | [[List qarniyada|Qarniyo]]: 
 | class="hlist" |
 *  {{dr|y|c|{{{1|{{PAGENAME}}}}}|-1|ys}}
 * '''{{dr|y|c|{{{1|{{PAGENAME}}}}}|0|ys}} '''
 * {{dr|y|c|{{{1|{{PAGENAME}}}}}|1|ys}}
 |-
-! style="text-align:right;" | [[List of decades|Decades]]: 
+! style="text-align:right;" | [[liiska tobanaanka sano|Tobanaan sano]]: 
 | class="hlist" | 
 * {{dr|y|d|{{{1|{{PAGENAME}}}}}|-2|ys}}
 * {{dr|y|d|{{{1|{{PAGENAME}}}}}|-1|ys}}
@@ -17,7 +17,7 @@
 * {{dr|y|d|{{{1|{{PAGENAME}}}}}|1|ys}}
 * {{dr|y|d|{{{1|{{PAGENAME}}}}}|2|ys}}
 |-
-! style="text-align:right;" | [[List of years|Years]]:
+! style="text-align:right;" | [[Liiska sanado|Sanado]]:
 | class="hlist" |
 * {{dr|y|y|{{{1|{{PAGENAME}}}}}|-3|{{#ifexpr: {{{1|{{PAGENAME}}}}} <= 12 |ysa|ys}}}}
 * {{dr|y|y|{{{1|{{PAGENAME}}}}}|-2|{{#ifexpr: {{{1|{{PAGENAME}}}}} <= 12 |ysa|ys}}}}
