@@ -1,9 +1,9 @@
 <includeonly><!--Zeller's congruence, modified -->{{#ifexpr:{{{1}}}>1582|{{#ifeq: {{#expr:{{{1}}} mod 100}} | 0 
  | {{#ifeq: {{#expr:{{{1}}} mod 400}} | 0 
-  | a  [[leap year starting on {{#time:l|{{{1}}}-01-01}}|century leap year starting on {{#time:l|{{{1}}}-01-01}}]] 
-  | an exceptional [[common year starting on {{#time:l|{{{1}}}-01-01}}]]}} 
+  |   [[sanadka booda laga bilaabo {{#time:l|{{{1}}}-01-01}}|qarniga sanadka booda laga bilaabo {{#time:l|{{{1}}}-01-01}}]] 
+  | ka reeban [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}} 
   | {{#ifeq: {{#expr:{{{1}}} mod 4}} | 0 
-   | a [[leap year starting on {{#time:l|{{{1}}}-01-01}}]] 
-   | a [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}}}} ee [[jadwalka Gregorian]]{{#ifexpr:{{{1}}}<1923|&nbsp;iyo {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, sanadkii {{ordinal|{{{1}}}}} ee [[Xilligii caadiga ahaa]] (CE) iyo naqshadaha ''[[Anno Domini]]'' (AD), {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Xisaabta Isuduwaha Zeller si loo go'aamiyo inuu sannad yahay sannad sii socod ah}}
+   |  [[sanad booda {{#time:l|{{{1}}}-01-01}}]] 
+   |  [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}}}} ee [[jadwalka Gregorian]]{{#ifexpr:{{{1}}}<1923|&nbsp;iyo {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, sanadkii {{ordinal|{{{1}}}}} ee [[Xilligii caadiga ahaa]] (CE) iyo naqshadaha ''[[Anno Domini]]'' (AD), {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Xisaabta Isuduwaha Zeller si loo go'aamiyo inuu sannad yahay sannad sii socod ah}}
 {{Documentation}}
 </noinclude>
