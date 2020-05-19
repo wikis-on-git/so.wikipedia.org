@@ -1,0 +1,110 @@
+<includeonly>{{ sidebar
+| name         = Mowduuca sanadka C20
+| title        = [[:Category:{{{year|{{PAGENAME}}}}}|{{{year|{{PAGENAME}}}}} oo Mowduuc ah]]
+| headingstyle = background-color: #f3f3f3; font-style: italic
+| contentclass = hlist
+
+| heading1     = Maado
+| content1     = 
+{{#ifexist:{{{year|{{PAGENAME}}}}}  cilmu nafsiga|* [[{{{year|{{PAGENAME}}}}} in archaeology|Archaeology]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}}  xagga dhismaha|* [[{{{year|{{PAGENAME}}}}} in architecture|Architecture]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}}  farshaxanimada|* [[{{{year|{{PAGENAME}}}}} in art|Art]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}}  dhanka duulista|* [[{{{year|{{PAGENAME}}}}} in aviation|Aviation]]
+}}{{#ifexist:Category:{{{year|{{PAGENAME}}}}} abaalmarinada|* [[:Category:{{{year|{{PAGENAME}}}}} awards|Awards]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}}  kartoomada|* [[{{{year|{{PAGENAME}}}}} in comics|Comics]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} filim|* [[{{{year|{{PAGENAME}}}}} in film|Film]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1970 | {{#ifexist:{{{year|{{PAGENAME}}}}} fiidiyowga guriga|* [[{{{year|{{PAGENAME}}}}} fiidiyowga guriga|Fiidiyowga guriga]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} suugaanta|* [[{{{year|{{PAGENAME}}}}} ee suugaanta|Suugaan]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} gabay|** [[{{{year|{{PAGENAME}}}}} ee gabayga|Gabay]]
+}}{{#ifexist:Category:{{{year|{{PAGENAME}}}}} saadaasha hawada|* [[:Category:{{{year|{{PAGENAME}}}}} saadaasha hawada|Saadaasha hawada]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} muusikada|* [[{{{year|{{PAGENAME}}}}} ee musikada|Muusikada]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1920 |{{#ifexist:{{{year|{{PAGENAME}}}}} ee muusikada wadanka|** [[{{{year|{{PAGENAME}}}}} Ee muusikada wadanka|Wadan]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1970 |{{#ifexist:{{{year|{{PAGENAME}}}}} ee muusikada birta culus|**[[{{{year|{{PAGENAME}}}}} muusikada birta culus|Birta&nbsp;culus]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} gaadiidka tareenka|* [[{{{year|{{PAGENAME}}}}} gaadiidka tareenka|Gaadiidka tareenka]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} raadiyo|* [[{{{year|{{PAGENAME}}}}} raadiyo|Raadiyo]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} cilmiga|* [[{{{year|{{PAGENAME}}}}} cilmiga|Cilmiga]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1951 
+  |{{#ifexist:{{{year|{{PAGENAME}}}}} duulista dayax gacmeedka|* [[{{{year|{{PAGENAME}}}}} duulista dayax gacmeedka|Duulista dayax gacmeedka]]}}
+  |{{#ifexpr:{{{year|{{PAGENAME}}}}}>1943|* [[Duulista dayax gacmeedka ka hor 1951|Duulista dayax gacmeedka]]}}
+
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} isboortiga|* [[{{{year|{{PAGENAME}}}}} istoortiga |Isboortiga]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} talefishinka|* [[{{{year|{{PAGENAME}}}}} talefishinka|Talefishin]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 ama {{{year|{{PAGENAME}}}}}=1958 ama {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
+| heading2 = By country
+| content2 = 
+{{#ifexist:{{{year|{{PAGENAME}}}}} Australia|* [[{{{year|{{PAGENAME}}}}} ee Australia|Australia]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Bangladesh|* [[{{{year|{{PAGENAME}}}}} ee Bangladesh|Bangladesh]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Biljim|* [[{{{year|{{PAGENAME}}}}} ee Biljim|Biljim]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Baraasiil|* [[{{{year|{{PAGENAME}}}}} ee Baraasiil|Baraasiil]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Kanada|* [[{{{year|{{PAGENAME}}}}} ee Kanada|Kanada]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1948 
+  | {{#ifexist:{{{year|{{PAGENAME}}}}} Shiinaha|* [[{{{year|{{PAGENAME}}}}} ee shiinaha|Shiinaha]]}}
+  | {{#ifexpr:{{{year|{{PAGENAME}}}}}<=1999 
+     | {{#ifexist:{{{year|{{PAGENAME}}}}} jamhuuriyada shacbiga shiinaha|* [[{{{year|{{PAGENAME}}}}} jamhuuriyada shacbiga shiinaha|Jamhuuriyada shacbiga shiinaha]]}}
+     | {{#ifexist:{{{year|{{PAGENAME}}}}} Shiinaha|* [[{{{year|{{PAGENAME}}}}} ee Shiinaha|Shiinaha]]}}
+     }}
+
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} in Ekuador|* [[{{{year|{{PAGENAME}}}}} ee Ekuador|Ekuador]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Faransiiska|* [[{{{year|{{PAGENAME}}}}} ee Faransiiska|Faransiiska]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Jarmalka|* [[{{{year|{{PAGENAME}}}}} ee jarmalka|Jarmalka]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Giriig|* [[{{{year|{{PAGENAME}}}}} ee giriiga|Giriig]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Hindiya|* [[{{{year|{{PAGENAME}}}}} ee Hindiya|Hindiya]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Ireland|* [[{{{year|{{PAGENAME}}}}} ee Ireland|Ireland]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Iiraan|* [[{{{year|{{PAGENAME}}}}} ee Iiraan|Iiraan]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1948 | {{#ifexist:{{{year|{{PAGENAME}}}}} in Israel|* [[{{{year|{{PAGENAME}}}}} in Israel|Israel]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Talyaaniga|* [[{{{year|{{PAGENAME}}}}} ee Talyaaniga|Talyaaniga]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Jabaan|* [[{{{year|{{PAGENAME}}}}} ee Jabaan|Jabaan]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Kuwayt|* [[{{{year|{{PAGENAME}}}}} ee Kuwayt|Kuwayt]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1946 | {{#ifexist:{{{year|{{PAGENAME}}}}} Luksemborg |* [[{{{year|{{PAGENAME}}}}} ee Luksemborg |Luksemborg]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1962 | {{#ifexist:{{{year|{{PAGENAME}}}}} Malaya|* [[{{{year|{{PAGENAME}}}}} ee Malaya|Malaya]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1963 | {{#ifexist:{{{year|{{PAGENAME}}}}} Malaysia|* [[{{{year|{{PAGENAME}}}}} ee Malaysia|Malaysia]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Meksiko|* [[{{{year|{{PAGENAME}}}}} ee Meksiko|Meksiko]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} New Seeland|* [[{{{year|{{PAGENAME}}}}} ee New Seeland|New Seeland]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} in Norway|* [[{{{year|{{PAGENAME}}}}} in Norway|Norway]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1922 | {{#ifexist:{{{year|{{PAGENAME}}}}} Boqortooyadii Cusmaaniyiinta|* [[{{{year|{{PAGENAME}}}}} ee Boqortooyadii Cusmaaniyiinta]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1918 | {{#ifexist:{{{year|{{PAGENAME}}}}} Cusmaaniyiinta Suuriya|* [[{{{year|{{PAGENAME}}}}} ee Cusmaaniyiinta suuriya|Cusmaaniyiinta suuriya]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1946 | {{#ifexist:{{{year|{{PAGENAME}}}}} Bakistaan|* [[{{{year|{{PAGENAME}}}}} ee Bakistaan|Bakistaan]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1920 iyo {{{year|{{PAGENAME}}}}}>=1918| {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiinta ingiriiska maamusho|* [[{{{year|{{PAGENAME}}}}} ee Falastiinta ingiriiska maamusho|Falastiin (Ingiriiska maamula)]]}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1948 iyo {{{year|{{PAGENAME}}}}}>=1921 | {{#ifexist:{{{year|{{PAGENAME}}}}} Falastiin khasab ah|* [[{{{year|{{PAGENAME}}}}} ee Falastiin khasab|Waajibaadka Falastiin]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Filibiin|* [[{{{year|{{PAGENAME}}}}} ee Filibiin|Filibiin]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1922 ama {{{year|{{PAGENAME}}}}}>=1991| {{#ifexist:{{{year|{{PAGENAME}}}}} Ruushka|* [[{{{year|{{PAGENAME}}}}} ee Ruushka|Ruushka]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Singabuur|* [[{{{year|{{PAGENAME}}}}} ee Singabuur|Singabuur]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Koonfur Afrika|* [[{{{year|{{PAGENAME}}}}} ee Koonfur Afrika|Koonfur Afrika]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Kuuriyada Koonfureed|* [[{{{year|{{PAGENAME}}}}} ee Kuuriyada Koonfureed|Kuuriyada Koonfureed]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}<=1991 iyo {{{year|{{PAGENAME}}}}}>=1922| {{#ifexist:{{{year|{{PAGENAME}}}}} Midowga Sofiyet|* [[{{{year|{{PAGENAME}}}}} ee Midowga Sofiyet|Midowga Sofiyet]]}}
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Isbayn|* [[{{{year|{{PAGENAME}}}}} ee Isbayn|Isbayn]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Iswiidhan|* [[{{{year|{{PAGENAME}}}}} ee Iswiidhan|Iswiidhan]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Tayland|* [[{{{year|{{PAGENAME}}}}} ee Tayland|Tayland]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Turkiga|* [[{{{year|{{PAGENAME}}}}} ee Turkiga|Turkiga]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Boqortooyada Ingiriiska|* [[{{{year|{{PAGENAME}}}}} ee Boqortooyada Ingiriiska|Boqortooyada Ingiriiska]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Maraykanka|* [[{{{year|{{PAGENAME}}}}} ee Maraykanka|Maraykanka]]
+}}{{#ifexist:{{{year|{{PAGENAME}}}}} Fenesuwela|* [[{{{year|{{PAGENAME}}}}} ee Feneswela|VFeneswela]]
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}>=1980 | {{#ifexist:{{{year|{{PAGENAME}}}}} Simbaabwi|* [[{{{year|{{PAGENAME}}}}} ee Simbaabwi|Simbaabwi]]}}}}
+
+| heading3    = Liiska hoggaamiyeyaasha
+| content3     = 
+* [[Liiska dawladaha madaxbannaan ee {{{year|{{PAGENAME}}}}}|Dawladaha madaxbannaan]]
+* [[Liiska hogaamiyaasha gobolka ee {{{year|{{PAGENAME}}}}}|Hogaamiyaasha gobolka]]<br>
+* [[Liisaska gudoomiyaasha gobolada dhulalka ku tiirsan|Gudoomiyaasha dhulalka ku tiirsan]]
+* [[Liisaska hoggaamiyeyaasha diinta ee qarnigii 20-aad|Hoggaamiyeyaasha diinta]]
+* [[:Category:{{{year|{{PAGENAME}}}}} ee Sharciga|Sharciga]]
+| heading4     = Qaybaha dhalashada iyo dhimashada
+| content4     = 
+* [[:Category:{{{year|{{PAGENAME}}}}} dhalashada|Dhalashada]]
+* [[:Category:{{{year|{{PAGENAME}}}}} dhimashada|Dhimashada]]
+| heading5     = Qaybaha aasaasida iyo baabi'inta
+| content5     = 
+* [[:Category:{{{year|{{PAGENAME}}}}} Aasaasida|Aasaasida]]
+* [[:Category:{{{year|{{PAGENAME}}}}} Baabi'inta|Baabi'inta]]
+| heading6     = Works category
+| content6     = 
+* [[:Category:{{{year|{{PAGENAME}}}}} shaqo|Shaqo]]
+* [[:Category:{{{year|{{PAGENAME}}}}} isbarasho|Isbarasho]]
+}}
+{{Year in various calendars|year={{{year|{{PAGENAME}}}}}}}
+{{Commons category|{{{year|{{PAGENAME}}}}}}}</includeonly><noinclude>
+{{documentation|content=
+This template automatically generates a list of links for articles about specific years.  An example of the appearance in [[1990]] is shown here.
+{{C20 year in topic|sanadka=1990}}
+[[Category:Templateka Waqtiga, taariikhda iyo jadwalka]]
+}}</noinclude>
