@@ -1,12 +1,12 @@
 <includeonly>{{{{{subst|}}}#if:{{{3|}}}|{{DEFAULTSORT:{{{3}}}}}}}
 [[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{1|}}}}}
  || UNKNOWN | Lama yaqaano = Da'da lama yaqaano 
- | #default = Dhashay(latay) {{{1}}}
+ | #default = Dhalashooyinka {{{1}}}
 }}]]
 [[Category:{{{{{subst|}}}#switch:{{{{{subst|}}}uc:{{{2|}}}}}
  || LIVING  = Dadka nool
  | UNKNOWN | KA MAQAN  = Sanadka geerida aa ka maqan
- | #default = Geeriyooday(tay) {{{2}}} 
+ | #default = Dhimashooyinka {{{2}}} 
 }}]]</includeonly><noinclude>
 
 {{Documentation}}
