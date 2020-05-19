@@ -1,0 +1,18 @@
+<includeonly><div style="display:block !important; max-width: calc(100% - 25em);"><!--
+ # Invoke Module:Navseasoncats/navyear for the by-year navigation
+-->{{#invoke:Navseasoncats/navyear|navyear|{{{1}}}|{{{2}}}|{{{3}}}|{{{min|}}}|{{{max|}}}}}<!--
+
+   # Do decades nav only if a category exists for the current decade.
+   # Not all by-year series have a parent decade category, and there is no point in making a line of greyed-out entries for those cases.
+   # If they do have a decade parent, there will be one for the current year, so we only need to test for that:
+-->{{#ifexist: Category:{{{1}}}{{#if:{{{1}}}|the&#32;}}{{DECADE|{{{2}}}}}{{{3}}}|<!--
+
+   ######## Begin decades nav 
+-->{{Navseasoncats|decade-below-year={{{1}}}{{#if:{{{1}}}|the&#32;}}{{DECADE|{{{2}}}}}{{{3}}}|min={{{min|}}}}}<!--
+   ######## End decades nav
+
+-->}}<!--
+--></div><!--
+--></includeonly><noinclude>
+{{Documentation}}
+</noinclude>
