@@ -29,7 +29,7 @@
 
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} isboortiga|* [[{{{year|{{PAGENAME}}}}} istoortiga |Isboortiga]]
 }}{{#ifexist:{{{year|{{PAGENAME}}}}} talefishinka|* [[{{{year|{{PAGENAME}}}}} talefishinka|Talefishin]]
-}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 or {{{year|{{PAGENAME}}}}}=1958 or {{{year|{{PAGENAME}}}}}=1962 ama {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
+}}{{#ifexpr:{{{year|{{PAGENAME}}}}}=1952 or {{{year|{{PAGENAME}}}}}=1958 or {{{year|{{PAGENAME}}}}}=1962 or {{{year|{{PAGENAME}}}}}>=1972 | {{#ifexist:{{{year|{{PAGENAME}}}}} cayaarta geemka|* [[{{{year|{{PAGENAME}}}}} cayaarta geemka|Cayaarta geemka]]}}}}
 | heading2 = By country
 | content2 = 
 {{#ifexist:{{{year|{{PAGENAME}}}}} Australia|* [[{{{year|{{PAGENAME}}}}} ee Australia|Australia]]
