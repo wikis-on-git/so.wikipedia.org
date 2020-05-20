@@ -1,0 +1,10 @@
+{{#ifeq:{{{link}}}|yes
+ |[[{{{2}}}|<span title="{{{1}}}" class="rt-commentedText" {{#ifeq:{{{dotted|yes}}}|no|
+  |style="border-bottom:1px dotted"
+ }}>{{{2}}}</span>]]
+ |<span title="{{{1}}}" class="rt-commentedText" {{#ifeq:{{{dotted|yes}}}|no|
+  |style="border-bottom:1px dotted"
+ }}>{{{2}}}</span>
+}}<noinclude>
+{{documentation}}
+</noinclude>
