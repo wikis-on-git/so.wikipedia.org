@@ -1,7 +1,7 @@
 <div style="display:inline-block;line-height:normal;{{#if:{{{1|<br>}}}{{{end|{{{reason|}}}}}}|margin:2px 0px;}}">{{#if:{{{1|}}}
  |{{trim|{{#if:{{{end|{{{reason|}}}}}} | {{#if:{{{2|}}}|{{MultiReplace|{{{1|}}}|<br />||<br >||<br/>||<br>|}}|{{#if:{{{3|}}}|{{{1|}}}|{{MultiReplace|{{{1|}}}|<br />||<br >||<br/>||<br>|}}|{{{1|}}}}}}} |{{{1}}}
  }}|}}{{#if:{{{end|{{{reason|}}}}}}|{{#if:{{{2|}}}|<br />|{{#if:{{{2|}}}{{{3|}}}|&#32;|<br />}}}}|&#32;}}}}&#40;{{#if:{{{2|}}}
-  |{{abbr|m.|married}}&nbsp;{{#ifeq:{{{2|}}}|{{get year|{{{2|}}}}}
+  |{{abbr|g.|guursaday(tay)}}&nbsp;{{#ifeq:{{{2|}}}|{{get year|{{{2|}}}}}
    |{{{2|}}}
    |{{hover title|dotted=no|2={{get year|{{{2|}}}}}|1={{{2|{{#time:F j, Y}}}}}}}
   }}
