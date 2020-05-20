@@ -1,4 +1,4 @@
-{{#ifeq:"{{lc:{{{1|1900}}}}}"|"{{Four digit|{{#expr:{{{1|1900}}}}}}}"|{{{1|1900}}}|{{#time:Y|{{{1|Nofeembar 1, 1900}}} }}}}<noinclude>
+{{#ifeq:"{{lc:{{{1|1900}}}}}"|"{{Four digit|{{#expr:{{{1|1900}}}}}}}"|{{{1|1900}}}|{{#time:Y|{{{1|November 1, 1900}}} }}}}<noinclude>
 {{documentation}}
 <!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
 </noinclude>
