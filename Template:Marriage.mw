@@ -1,0 +1,38 @@
+<div style="display:inline-block;line-height:normal;{{#if:{{{1|<br>}}}{{{end|{{{reason|}}}}}}|margin:2px 0px;}}">{{#if:{{{1|}}}
+ |{{trim|{{#if:{{{end|{{{reason|}}}}}} | {{#if:{{{2|}}}|{{MultiReplace|{{{1|}}}|<br />||<br >||<br/>||<br>|}}|{{#if:{{{3|}}}|{{{1|}}}|{{MultiReplace|{{{1|}}}|<br />||<br >||<br/>||<br>|}}|{{{1|}}}}}}} |{{{1}}}
+ }}|}}{{#if:{{{end|{{{reason|}}}}}}|{{#if:{{{2|}}}|<br />|{{#if:{{{2|}}}{{{3|}}}|&#32;|<br />}}}}|&#32;}}}}&#40;{{#if:{{{2|}}}
+  |{{abbr|m.|married}}&nbsp;{{#ifeq:{{{2|}}}|{{get year|{{{2|}}}}}
+   |{{{2|}}}
+   |{{hover title|dotted=no|2={{get year|{{{2|}}}}}|1={{{2|{{#time:F j, Y}}}}}}}
+  }}
+ |{{#if:{{{3|}}}||{{main other|[[Category:Marriage template errors|U{{PAGENAME}}]]}}<span style="color:red">undated</span>{{#if:{{{end|{{{reason|}}}}}}|&#44;&#32;}}}}
+ }}{{#if:{{{3|}}}
+  |{{#ifeq:{{{end|{{{reason|}}}}}}| 
+   |{{#if:{{{2|}}}|&#x2060;&#8211;&#x2060;|before&nbsp;}}
+   |{{#if:{{{2|}}}
+    |&#59;&#32;
+   }}{{#switch:{{{end|{{{reason|}}}}}}
+    | d | d. | died = geeriyooday(tay)&nbsp;<!-- tani waxay ahaan jirtay {{abbr|d.|geeriyooday(tay)}} laakiin waxay keentay jahwareer leh "furnaansho" -->
+    | div | div. | furniin | kala tageen = {{abbr|div.|furay}}&nbsp;
+    | w | w. | wid | wid. | asaay | asaay loo saaray = {{main other|[[Category:Khaladaadka templatka guurka|W{{PAGENAME}}]]}}{{dc|{{abbr|wid.|widowed}}&nbsp;}}
+    | = <!--(reason marriage ended not supplied)-->
+    | #default = {{{end|{{{reason|}}}}}}&nbsp;
+   }}
+  }}{{#ifeq:{{{3|}}}|{{get year|{{{3|}}}}}
+   |{{{3|}}}
+   |{{hover title|dotted=no|2={{get year|{{{3|}}}}}|1={{{3|}}}}}
+  }}
+   |{{#if:{{{2|}}}
+    |{{#if:{{{end|{{{reason|}}}}}}|&#44;&#32;|}}
+   }}{{#switch:{{{end|{{{reason|}}}}}}
+    | d | d. | died = geeriyooday(tay)
+    | div | div. | divorced = kala tageen
+    | w | w. | wid | wid. | asaay | asaay loo saaray = {{main other|[[Category:Khaladaadka templateka guurka|W{{PAGENAME}}]]}}{{dc|asaay}}
+    | = <!--(reason marriage ended not supplied)-->
+    | #default = {{{end|{{{reason|}}}}}}
+   }}
+ }}&#41;</div>{{#ifeq:{{{4|+}}}|{{{4|-}}}
+ |{{main other|[[Category:Khaladaadka templateka guurka|*U{{PAGENAME}}]]}}
+}}<!--
+
+--><noinclude>{{Documentation}}</noinclude>
