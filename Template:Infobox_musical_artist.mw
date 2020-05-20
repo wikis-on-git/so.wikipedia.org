@@ -3,7 +3,7 @@
 
 | bodyclass   = vcard plainlist
 
-| title       = {{#ifeq:{{lc:{{{embed}}}}}|yes|'''Musical career'''}}
+| title       = {{#ifeq:{{lc:{{{embed}}}}}|yes|'''Xirfad muusik'''}}
 | decat       = yes <!-- remove from template:infobox tracking categories -->
 
 | abovestyle  = background-color: {{Infobox musical artist/color|{{{Background|{{{background|}}}}}}}}
