@@ -4,6 +4,6 @@
   | ka reeban [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}} 
   | {{#ifeq: {{#expr:{{{1}}} mod 4}} | 0 
    |  [[sanad booda {{#time:l|{{{1}}}-01-01}}]] 
-   |  [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}}}} ee [[kalandarka Gregorian]]{{#ifexpr:{{{1}}}<1923|&nbsp;iyo {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, sanadkii {{ordinal|{{{1}}}}} ee [[Xilligii caadiga ahaa]] (CE) iyo naqshadaha ''[[Anno Domini]]'' (AD), {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Xisaabta Isuduwaha Zeller si loo go'aamiyo inuu sannad yahay sannad sii socod ah}}
+   |  [[sanadka caadiga ah laga bilaabo {{#time:l|{{{1}}}-01-01}}]]}}}} ee [[kalandarka Gregorian]]{{#ifexpr:{{{1}}}<1923|&nbsp;iyo {{Year article header/Julian start|{{{1}}}}}}}|{{Year article header/Julian start|{{{1}}}}}}}, sanadkii {{ordinal|{{{1}}}}} ee [[Xilligii wadajirka]]  iyo naqshadaha ''[[Anno Domini]]'' , {{Year article header/year number|{{{1}}}}}</includeonly><noinclude>{{Short description|Xisaabta Isuduwaha Zeller si loo go'aamiyo inuu sannad yahay sannad sii socod ah}}
 {{Documentation}}
 </noinclude>
