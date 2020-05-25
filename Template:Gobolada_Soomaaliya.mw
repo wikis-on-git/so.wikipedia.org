@@ -1,8 +1,28 @@
-{| style="margin: 0 auto;width:90%;clear:both;text-align:center;" class="toccolours"
-|-
-! style="background:#ccccff" width="100%" | [[:Category:Gobolada Soomaaliya|Gobolada]] [[Soomaaliya]]
-| width=40| [[File:Flag of Somalia.svg|40px|Flag of Somalia]]
-|-
-| style="font-size: 90%;" colspan="2" | [[Bakool]] | [[Banaadir]] | [[Bari (Gobol)|Bari]] | [[Baay]] | [[Galguduud]] | [[[[Gedo]] | [[Hiiraan]] | [[Jubbada Dhexe]] | [[Jubbada Hoose]] | [[Mudug]] | [[Nugaal]] | [[Shabeellaha Dhexe]] {{!}}}} [[Shabeellaha Hoose]] {{!}}}}
-|}<includeonly>{{#switch: {{PAGENAME}} | Bari (Gobol) = [[Category:Bari| ]] [[Category:Gobolada Soomaaliya|Bari]] | #default = [[Category:{{PAGENAME}}| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
+{{navbox
+|name  = Liiska gobolada soomaaliya
+|title= [[Gobolada Soomaaliya]] dawlada Soomaaliya
+|listclass = plainlist
+| title = {{Flagdeco|Soomaaliya|size=23px}} [[Gobolada Soomaaliya]]
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Bakool]]
+* [[Banaadir]]
+* [[Bari (Gobol)|Bari]]
+* [[Baay]]
+* [[Galguduud]]
+* [[Gedo]]
+* [[Hiiraan]]
+* [[Jubbada Dhexe]]
+* [[Jubbada Hoose]]
+* [[Woqooyi Galbeed]]
+* [[Mudug]]
+* [[Nugaal]]
+* [[Shabeellaha Dhexe]]
+* [[Shabeellaha Hoose]]
+* [[Togdheer]]
+* [[Sanaag]]
+* [[Sool]]
+* [[Awdal]]
+}}<includeonly>{{#switch: {{PAGENAME}} | Bari (Gobol) = [[Category:Bari| ]] [[Category:Gobolada Soomaaliya|Bari]] | #default = [[Category:{{PAGENAME}}| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
