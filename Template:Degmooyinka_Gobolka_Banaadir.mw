@@ -1,24 +1,25 @@
-{| style="margin: 0 auto;width:90%;clear:both;text-align:center;" class="toccolours"
-|-
-! style="background:#ccccff" width="100%" | [[:Category:Degmooyinka Gobolka Banaadir|Degmooyinka]] [[Banaadir|Gobolka Banaadir]]
-|width=40| [[Image:Flag of Somalia.svg|40px|Flag of Somalia]]
-|-
-| style="font-size: 90%;" colspan="2" | 
-[[Boondheere]]{{·}}
-[[Xamarjajab]]{{·}}
-[[Xamarweyne]]{{·}}
-[[Dayniile]]{{·}}
-[[Shibis]]{{·}}
-[[Shingaani]]{{·}}
-[[Dharkeenleey]]{{·}}
-[[Cabdicasiis]]{{·}}
-[[Kaaraan]]{{·}}
-[[Heliwaa]]{{·}}
-[[Hodan]]{{·}}
-[[Howlwadaag]]{{·}}
-[[Waaberi]]{{·}}
-[[Wadajir]]{{·}}
-[[Wardhiigleey]]{{·}}
-[[Yaaqshiid]]
-|}<includeonly>[[Category:Degmooyinka Gobolka Banaadir]]</includeonly><!--
+{{navbox
+|name  = Liiska Gobolka Banaadir
+|title= [[Degmo|Degmooyinka]] [[Banaadir|Gobolka Banaadir]]
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Boondheere ]]
+* [[Xamarjajab]]
+* [[Xamarweyne]]
+* [[Dayniile]]
+* [[Shibis]]
+* [[Shingaani]]
+* [[Dharkeenleey]]
+* [[Cabdicasiis]]
+* [[Kaaraan]]
+* [[Heliwaa]]
+* [[Hodan]]
+* [[Howlwadaag]]
+* [[Waaberi]]
+* [[Wadajir]]
+* [[Wardhiigleey]]
+* [[Yaaqshiid]]
+}}<includeonly>{{#switch: {{PAGENAME}} | Banaadir = [[Category:Banaadir|Gobolka Bari]] | #default = [[Category:Banaadir| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
