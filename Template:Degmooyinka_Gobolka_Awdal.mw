@@ -1,5 +1,32 @@
-{{DGS
-| region = Awdal
-| list   = [[Baki]] {{·}} [[Boorame]]  {{·}} [[Boon]] {{·}} [[Bus]] {{·}} [[Jirjir]] {{·}} [[Jidhi]] {{·}} [[Xariirad]] {{·}} [[Xaliimaale]] {{·}} [[Goronyocowl]] <br/> [[Dilla]] {{·}} [[Lughaya]] {{·}} [[Saylac]] {{·}} [[Cabdulqaadir]] {{·}} [[Magaalo Cad]] {{·}} [[Quljeed]] {{·}} [[Fardolaguxidh]] {{·}} [[Cali Xaydh]] {{·}} [[Gobolka]] <br/> [[Weeraar]] {{·}} [[Garboraaxo]] {{·}} [[Caasha Cado]] {{·}} [[Kalabaydh]] {{·}} [[Lowyacado]] {{·}} [[Degmolaqas]]
-}}<includeonly>[[Category:Degmooyinka Gobolka Awdal]] [[Category:Degmooyinka Soomaaliya]]</includeonly><!--
+{{navbox
+|name  = Liiska Degmooyinka Gobolka Awdal
+|title= [[Degmo|Degmooyinka]] [[Awdal|Gobolka Awdal]]
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Baki]]
+* [[Boorama]]
+* [[Boon]]
+* [[Bus]]
+* [[Jirjir]]
+* [[Jidhi]]
+* [[Xariirad]]
+* [[Xaliimaale]]
+* [[Goronyocowl]]
+* [[Dilla]]
+* [[Lughaya]]
+* [[Saylac]]
+* [[Cabdulqaadir]]
+* [[Magaalo Cad]]
+* [[Quljeed]]
+* [[Fardolaguxidh]]
+* [[Cali Xaydh]]
+* [[Weeraar]]
+* [[Garboraaxo]]
+* [[Caasha Cado]]
+* [[Kalabaydh]]
+* [[Lowyacado]]
+* [[Degmolaqas]]
+}}<includeonly>{{#switch: {{PAGENAME}} | Awdal = [[Category: Awdal|Gobolka Awdal]] | #default = [[Category: Awdal| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
