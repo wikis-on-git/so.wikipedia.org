@@ -1,5 +1,18 @@
-{{DGS
-| region = Sool
-| list   = [[Bohol]]{{·}} [[Boocame]]{{·}} [[Caynaba]]{{·}} [[Laascaanood]]{{·}} [[Taleex]]{{·}} [[Xudun]]{{·}}[[xalin]]{{•}} [[Yagoori]]
-}}<includeonly>[[Category:Degmooyinka Gobolka Sool]] [[Category:Degmooyinka Soomaaliya]]</includeonly><!--
+{{navbox
+|name  = Liiska degmooyinka Gobolka Sool
+|title= [[Degmo|Degmooyinka]] [[Sool|Gobolka Sool]]
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Xudun (degmo)|Xudun ]]
+* [[Laascaanood]]
+* [[Caynaba]]
+* [[Taleex]]
+* [[Oog]]
+* [[War Idaad]]
+* [[Boocame]]
+* [[Xalin]]
+* [[Yagoori]]
+}}<includeonly>{{#switch: {{PAGENAME}} | Sool = [[Category:Sool|Gobolka Sool]] | #default = [[Category:Sool| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
