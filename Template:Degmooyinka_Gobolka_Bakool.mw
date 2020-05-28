@@ -1,5 +1,20 @@
-{{DGS
-| region = Bakool
-| list   = [[Ceelbarde]]{{·}} [[Rabdhuure]]{{·}} [[Tiyeegloow]]{{·}} [[Waajid]]{{·}} [[Xudur]]{{·}} [[Buurdhuxunle ]]
-}}<includeonly>[[Category:Degmooyinka Gobolka Bakool]] [[Category:Degmooyinka Soomaaliya]]</includeonly><!--
+{{navbox
+|name  = Liiska Degmooyinka Gobolka Bakool
+|title= [[Degmo|Degmooyinka]] [[Bakool|Gobolka Bakool]]
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Xudur]]
+* [[Ceelbarde]]
+* [[tayeeglow]]
+* [[Waajid]]
+* [[Yeed]]
+* [[Buuurdhuxunle]]
+* [[Ceel lahelay]]
+* [[Xudur]]
+* [[Baydhabo]]
+* [[Rabdhuure]]
+
+}}<includeonly>{{#switch: {{PAGENAME}} | Bakool = [[Category:Bakool|Gobolka Bakool]] | #default = [[Category:Bakool| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
