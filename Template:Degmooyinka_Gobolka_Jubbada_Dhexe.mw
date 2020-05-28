@@ -1,5 +1,14 @@
-{{DGS
-| region = Jubbada Dhexe
-| list   = [[Bu'aale]]{{·}} [[Dajuumo]]{{·}} [[Jilib]]{{·}} [[Saakow]]
-}}<includeonly>[[Category:Degmooyinka Gobolka Jubbada Dhexe]] [[Category:Degmooyinka Soomaaliya]]</includeonly><!--
+{{navbox
+|name  = Liiska Degmooyinka Gobolka ubbada Dhexe
+|title= [[Degmo|Degmooyinka]] [[Jubbada Dhexe|Gobolka Jubbada Dhexe]]
+|listclass = plainlist
+|state= {{{state<includeonly>|collapsed</includeonly>}}}
+|liststyle = text-align:left
+|list1 = {{Div col|colwidth=27em}}
+* [[Bu'aale]]
+* [[Dajuumo]]
+* [[Jilib]]
+* [[Saakow]]
+
+}}<includeonly>{{#switch: {{PAGENAME}} | Jubbada Dhexe = [[Category:Jubbada Dhexe|Gobolka Jubbada Dhexe]] | #default = [[Category:Jubbada Dhexe| ]] [[Category:Gobolada Soomaaliya]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
