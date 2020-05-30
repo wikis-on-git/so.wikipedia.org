@@ -1,64 +1,59 @@
-<includeonly><noinclude><!--
-****** First show the RIGHT-HAND table, with the correct taxobox colour, showing parent taxa with "edit" links
+<includeonly>{| class="infobox biota" style="text-align: left; font-size:100%" 
+|-
+! colspan=2 style="text-align: center; background-color: {{Taxobox colour|{{get regnum|{{{parent| {{#titleparts:{{PAGENAME}}||2}} }}} }} }}" | Ancestral taxa
+|-<!--
+This is where the list of parent taxa with "edit" links is generated:
+-->
+{{taxonomy list/list|{{{parent|{{ {{PAGENAME}}|parent}} }}} }}<!-- To avoid loops, we have to send the parent here... -->
+{{taxonomy links|{{#titleparts:{{PAGENAME}}||2}} }}<!-- ... and create the cell for our taxon separately.-->
+|-
+{{Child taxa|{{#titleparts:{{PAGENAME}}||2}}|child rank=Subgroups {{update children}}<!-- link to activate via Taxobot (task 7) -->|edit taxonomy=true}}
+|}
+{{#ifexist:Template:Taxonomy/{{{parent|{{ {{PAGENAME}}|parent}} }}}
+|{{#ifexist:{{{link_target|{{ {{PAGENAME}}|link_target}} }}}|__NOINDEX__<!-- then it looks like we're in the clear.  Google can show the article, rather than this page. -->
+|Wikipedia weli ma hayo maqaal ku saabsan {{{link|{{{{PAGENAME}}|link}} }}}.  Gacan waad ka geesan kartaa in aad  [{{Create taxonomy/link|{{{link_target|{{ {{PAGENAME}}|link_target}} }}} }} abuurto].  Bogga aad hadda daawanaysid ayaa leh macluumaad ku saabsan {{{link|{{{{PAGENAME}}|link}} }}}'s taxonomy.}}
+|{{error|waxaad sameynoosaa Horumar.}} Haddii shaxanka hoose oo u muuqdo mid sax ah, waxaad gelisay macluumaadka lagama maarmaanka u ah taxonomic ee "{{{link|{{{{PAGENAME}}|link}} }}}".  waad mahadsantahay!
 
---></noinclude>{{#invoke:Autotaxobox|taxonomyList|{{{taxon}}}}}<noinclude><!--Now check whether the parent taxonomy template or link target article need to be created;
-use #titleparts: to remove any #section part in the link target
---></noinclude>
-{{#ifexist:Template:Taxonomy/{{{parent|}}}
-|{{#if:{{{link_target|}}}|{{#ifexist:{{#titleparts:{{{link_target}}}||}}|__NOINDEX__<noinclude><!-- then it looks like we're in the clear.  Google can show the article, rather than this page. --></noinclude>
-|Wikipedia weli ma hayo maqaal ku saabsan [[{{{link_target}}}]]. Gacan waad ka geesan kartaa in aad [{{Create taxonomy/link|{{{link_target}}} }} abuurto].  Bogga aad hadda daawanaysid ayaa leh macluumaad ku saabsan [[{{{link_target}}}]]'s taxonomy.[[Category:Taxonomy templates with red-linked taxa|{{SUBPAGENAME}}]]}}}}
-|{{error|waxaad sameynoosaa Horumar.}} Haddii shaxanka hoose oo u muuqdo mid sax ah, waxaad gelisay macluumaadka lagama maarmaanka u ah taxonomic ee.
+Laakiin, waxaa jirto talaabo kale: Macluumaadka taxonomic ayaa ka maqan taxon ka aad buuxisay, "[[{{{parent|{{ {{PAGENAME}}|parent}} }}}]]".  Si sax ah 
+ma u qortay, oo  ma isticmaashay magaca sayniska ah (ee aan ahayn kan caadiga) ah?  Haddii ay sidaas tahay, waxaad u baahantahay inaad ku darto macluumaadkeeda taxonomic adoo ku celcelinaya isla howshan.  [{{Create taxonomy/link|{{{parent|{{ {{PAGENAME}}|parent}} }}} }} Riix halkaan] si aad u abuurto bogga... Waxaan rajeynayaa inaysan kugu qaadan doonin waqti dheer inaad ku xirto taxon kaaga  geedka nolosha Wikipedia!
+}}
 
-{{Taxonomy key/missing template|taxon={{{parent|}}}|msg=given as the value of <code>parent</code>}}
-}}<noinclude><!--
 
-****** Now show the LEFT-HAND table, i.e. information for the current taxon
-
---></noinclude>
-Ma ogid sababta aad meeshaan u timid? [[Wikipedia:Automated taxobox system/intro|Bilaaw]] nidaamka taxobox ee automatiga ah.
-{| class="shaxankawiki"
+Ma ogid sababta aad meeshaan u timid?  [[Template:Automatic taxobox/doc/Step-by-step|Bilaaw]] Wikipedia taxonomy.
+{| class="wikitable"
 |-
 |Parent:
-|<code>{{{parent|}}}</code> &#x5B;[[Template:Taxonomy/{{{parent|}}}|Taxonomy]]; <span class=plainlinks>[{{Create taxonomy/link|{{{parent|}}}}} edit]&#x5D;</span>
+|<code>{{#titleparts:{{{parent|{{{{PAGENAME}}|parent}}}}}|1|1}}</code> ([[Template:Taxonomy/{{{parent|{{{{PAGENAME}}|parent}}}}}|Taxonomy]] &mdash; <span class=plainlinks>[{{Create taxonomy/link|{{{parent|{{{{PAGENAME}}|parent}}}}}}} edit])</span>
 |-
 |Rank:
-|<code>{{{rank|}}}</code> (displays as <code>{{anglicise rank|{{{rank|}}}|check=yes}}</code>){{#if:{{{rank|}}}||{{error|– a rank must be supplied}}}}
+|<code>{{{rank|{{{{PAGENAME}}|rank}}}}}</code> (displays as <code>{{anglicise rank|{{{rank|{{{{PAGENAME}}|rank}}}}}}}</code>)
 |-
 |Link:
-|<code>{{#invoke:Autotaxobox|taxonLink
- |taxon={{{taxon}}}
- |extinct={{{extinct}}}
- |link_target={{{link_target}}}
- |link_text={{{link}}}<!--link here may be "link_target|link_text"-->
- |bold=no
- |italic={{Is italic taxon|{{{rank}}}}}
- }}</code>{{#ifeq:{{{link_target}}}|{{{link}}}|| (links to <code>{{{link_target}}}</code>)}}
+|'''<code>[[{{#if:{{{link_target|{{{extinct|}}} }}}|<!--
+This link should point to the right place...
+-->{{{link_target|{{ {{PAGENAME}}|link_target}} }}}{{!}} }}<!--
+Now generate link text, including extinction dagger
+-->{{#if:{{{extinct|}}}|&dagger;}}{{{link|{{{{PAGENAME}}|link}}}}}]]</code>''' (links to {{{link_target|{{ {{PAGENAME}}|link_target}} }}})
 |-
 |Extinct:
-|{{#if:{{{extinct|}}}|<code>{{{extinct|}}}</code>|no}}{{#ifeq:{{{extinct_error|}}}|yes| <span style="background-color:#FCC">parent is marked as extinct</span>}}
+|{{#if:{{{extinct|}}}|'''<code>{{{extinct|{{{{PAGENAME}}|extinct}}}}}</code>'''|no.}}
 |-
 |Always displayed:
-|{{#if:{{{always_display|}}}|<code>{{{always_display}}}</code>[[Category:Taxonomy templates using always_display|{{{always_display}}}]]|{{#switch:{{lc:{{{rank|}}} }}
-  |virus_group
-  |regnum | phylum | kala qaybsanaan | classis | ordo | qoyska | hidde | noocyada = yes (major rank)
-  |#default = no
+|{{#if:{{{always_display|{{{{PAGENAME}}|always_display}}}}}|yes (manual/automatic override)[[Category:Automatic taxoboxes using always_display]]|{{#switch:{{lc:{{{rank|{{{{PAGENAME}}|rank}} }}} }}
+  | virus_group
+  | regnum | phylum | kala qaybsanaan | classis | ordo | qoyska | hidde | noocyada = Yes (major rank)
+  | no.
 }} }}
 |-
 |Taxonomic references:
-|{{#invoke:Autotaxobox|showRefs|{{{taxon}}}|{{{refs|}}}}}
+|{{#ifeq:{{#titleparts:{{PAGENAME}}|1|2}}|Incertae sedis|''Not applicable'' (incertae sedis)|{{#iferror:{{get refs|{{#titleparts:{{PAGENAME}}||2}}}}|{{get refs|{{#titleparts:{{PAGENAME}}|1|2}}}}|{{get refs|{{#titleparts:{{PAGENAME}}||2}} }} }} }} 
 |-
 |Parent's taxonomic references:
-|{{#invoke:Autotaxobox|showRefs|{{{parent|}}}|{{Taxon info|{{{parent|}}}|refs}}}}
+|{{#ifeq:{{#titleparts:{{{parent|}}}|1|2}}|Incertae sedis|''Not applicable'' (incertae sedis)|{{#iferror:{{get refs|{{{parent|}}} }}|{{get refs|{{#titleparts:{{{parent|}}}|1|2}}}}|{{get refs|{{{parent|}}} }} }} }} 
 |-
-{{#if:{{{same_as|{{{same as|}}}}}}|
-{{!}}Same as taxon:{{!}}{{!}}<code>{{{same_as|{{{same as|}}}}}}</code> &#x5B;[[Template:Taxonomy/{{{same_as|{{{same as}}}}}}|Taxonomy]]; <span class=plainlinks>[{{Create taxonomy/link|{{{same_as|{{{same as|}}}}}}}} edit]&#x5D;</span>
-{{!}}-
-}}
-{{#if:{{Str endswith|{{{taxon}}}|/skip}}|
-{{!}} colspan=2 {{!}}For the suffix "/skip", see [[Wikipedia:Automated_taxobox_system/advanced_taxonomy#Skip_taxonomy_templates|Skip taxonomy templates]].<br>For the skipped taxa, see [[Template:Taxonomy/{{Str crop|{{{taxon}}}|5}}]].|
-{{#if:{{Str endswith|{{{taxon}}}|/?}}|
-{{!}} colspan=2 {{!}}For the suffix "/?", see [[Wikipedia:Automated_taxobox_system/advanced_taxonomy#Questionable_assignments|Questionable assignments]].|
-{{#ifeq:{{#titleparts:{{{taxon}}}|1|2}}|Incertae sedis|
-{{!}} colspan=2 {{!}}For taxon names with "Incertae sedis", see [[Wikipedia:Automated_taxobox_system/advanced_taxonomy#Incertae_sedis_taxonomy_templates|''Incertae sedis'' taxonomy templates]].|
-}}}}}}
-|}{{#ifeq:{{{extinct_error|}}}|yes|[[Category:Taxonomy templates with inconsistent extinct values]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
+| colspan=2 style="font-size:smaller" | Macluumaadkaan waxaa soo saaray {{lts|Taxonomy key}}
+Malahan miya taariikh Liistada qaybaha? {{null edit|Riix halkaan}} si loo cusboonaysiiyo.
+|}
+
+[[Category:Immediate step-children/{{#titleparts:{{{parent|unspecified parent}}}|1|1}}|{{{link|{{#titleparts:{{PAGENAME}}|1|2}}}}}]][[Category:Immediate step-children/{{{parent|unspecified parent}}}|{{{link|{{#titleparts:{{PAGENAME}}|1|2}}}}}]][[Category:Immediate children/{{{parent|unspecified parent}}}|{{{link|{{#titleparts:{{PAGENAME}}|1|2}}}}}]]
+</includeonly><noinclude>{{Documentation}}</noinclude>
