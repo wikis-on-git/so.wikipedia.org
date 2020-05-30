@@ -131,8 +131,10 @@
 * [[Independence Day (Somaliland)|Independence Day]]
 * [[Telephone numbers in Somaliland|Calling code]]
 * [[Supreme Court of Somaliland|Supreme Court]]
-<!----------------------------------------->
-| culture =  <!--Alphabetical:-->
+ {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal; |evenodd=swap
+
+  | group1 = Dhaqanka
+  | list1 = 
 * [[Somali architecture|Architecture]]
 * [[Somali art|Art]]
 * [[Somali cuisine|Cuisine]]
@@ -144,7 +146,7 @@
 ** [[Somaliland national football team|Team]]
 ** [[Somaliland Regional Games|Games]]
 * [[Languages of Somaliland|Languages]]
-
+}}
 |belowstyle = font-weight:bold;
 |below =
 * {{icon|Book}} [[Book:Somaliland|Book]]
