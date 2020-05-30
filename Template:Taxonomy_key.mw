@@ -11,14 +11,15 @@ This is where the list of parent taxa with "edit" links is generated:
 |}
 {{#ifexist:Template:Taxonomy/{{{parent|{{ {{PAGENAME}}|parent}} }}}
 |{{#ifexist:{{{link_target|{{ {{PAGENAME}}|link_target}} }}}|__NOINDEX__<!-- then it looks like we're in the clear.  Google can show the article, rather than this page. -->
-|Wikipedia does not yet have an article about {{{link|{{{{PAGENAME}}|link}} }}}.  You can help by [{{Create taxonomy/link|{{{link_target|{{ {{PAGENAME}}|link_target}} }}} }} creating it].  The page that you are currently viewing contains information about {{{link|{{{{PAGENAME}}|link}} }}}'s taxonomy.}}
-|{{error|Making progress.}} If the table below looks correct, then you've input the necessary taxonomic information for "{{{link|{{{{PAGENAME}}|link}} }}}".  Thank you!
+|Wikipedia weli ma hayo maqaal ku saabsan {{{link|{{{{PAGENAME}}|link}} }}}.  Gacan waad ka geesan kartaa in aad  [{{Create taxonomy/link|{{{link_target|{{ {{PAGENAME}}|link_target}} }}} }} abuurto].  Bogga aad hadda daawanaysid ayaa leh macluumaad ku saabsan {{{link|{{{{PAGENAME}}|link}} }}}'s taxonomy.}}
+|{{error|waxaad sameynoosaa Horumar.}} Haddii shaxanka hoose oo u muuqdo mid sax ah, waxaad gelisay macluumaadka lagama maarmaanka u ah taxonomic ee "{{{link|{{{{PAGENAME}}|link}} }}}".  waad mahadsantahay!
 
-There's one more step, though: the taxonomic information is missing for the parent taxon that you specified, "[[{{{parent|{{ {{PAGENAME}}|parent}} }}}]]".  Did you spell it right, and use the scientific (not common) name?  If so, you'll need to add its taxonomic information by repeat this same process.  [{{Create taxonomy/link|{{{parent|{{ {{PAGENAME}}|parent}} }}} }} Click here] to create the page... hopefully it won't take you much longer to connect your taxon to Wikipedia's tree of life!
+Laakiin, waxaa jirto talaabo kale: Macluumaadka taxonomic ayaa ka maqan taxon ka aad buuxisay, "[[{{{parent|{{ {{PAGENAME}}|parent}} }}}]]".  Si sax ah 
+ma u qortay, oo  ma isticmaashay magaca sayniska ah (ee aan ahayn kan caadiga) ah?  Haddii ay sidaas tahay, waxaad u baahantahay inaad ku darto macluumaadkeeda taxonomic adoo ku celcelinaya isla howshan.  [{{Create taxonomy/link|{{{parent|{{ {{PAGENAME}}|parent}} }}} }} Riix halkaan] si aad u abuurto bogga... Waxaan rajeynayaa inaysan kugu qaadan doonin waqti dheer inaad ku xirto taxon kaaga  geedka nolosha Wikipedia!
 }}
 
 
-Not sure why you're here?  [[Template:Automatic taxobox/doc/Step-by-step|Get started]] with Wikipedia taxonomy.
+Ma ogid sababta aad meeshaan u timid?  [[Template:Automatic taxobox/doc/Step-by-step|Bilaaw]] Wikipedia taxonomy.
 {| class="wikitable"
 |-
 |Parent:
@@ -38,9 +39,9 @@ Now generate link text, including extinction dagger
 |{{#if:{{{extinct|}}}|'''<code>{{{extinct|{{{{PAGENAME}}|extinct}}}}}</code>'''|no.}}
 |-
 |Always displayed:
-|{{#if:{{{always_display|{{{{PAGENAME}}|always_display}}}}}|Yes (manual/automatic override)[[Category:Automatic taxoboxes using always_display]]|{{#switch:{{lc:{{{rank|{{{{PAGENAME}}|rank}} }}} }}
+|{{#if:{{{always_display|{{{{PAGENAME}}|always_display}}}}}|yes (manual/automatic override)[[Category:Automatic taxoboxes using always_display]]|{{#switch:{{lc:{{{rank|{{{{PAGENAME}}|rank}} }}} }}
   | virus_group
-  | regnum | phylum | divisio | classis | ordo | familia | genus | species = Yes (major rank)
+  | regnum | phylum | kala qaybsanaan | classis | ordo | qoyska | hidde | noocyada = Yes (major rank)
   | no.
 }} }}
 |-
