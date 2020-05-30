@@ -149,9 +149,9 @@
         | [[{{{society_link}}}|Society]]
          <!----...else try "Category:(adjective) or (place's name) society",---->
         | {{#ifexist:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society
-           | [[:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}}|Bulshada]]
+           | [[:Category:{{{adjective|{{{country|{{{territory|{{{region|{{{titlename}}}}}}}}}}}}}}} society|Bulshada]]
             <!----...else default to plain "Society":---->
-           | Society
+           | Bulshada
           }}
        }}
       <!----...otherwise if culture/demographics/religion/symbols provided, groupname is "Culture":---->
