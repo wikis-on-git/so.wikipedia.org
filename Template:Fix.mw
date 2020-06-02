@@ -19,7 +19,7 @@
 }}{{#if:{{{text|}}}
  |<sup class="{{{class|noprint Inline-Template}}}" style="white-space:nowrap;">&#91;<i>{{#if:{{{pre-text|}}}
   |{{{pre-text}}}&#32;
- }}[[{{{link|Wikipedia:Cleanup}}}|<span title="{{{title|{{{link|Wikipedia:Cleanup}}}}}}{{#if:{{{date|}}}|<nowiki/> from {{{date}}}}}">{{{text|}}}</span>]]{{#if:{{{post-text|}}}
+ }}[[{{{link|Wikipedia:Cleanup}}}|<span title="{{{title|{{{link|Wikipedia:Cleanup}}}}}}{{#if:{{{date|}}}|<nowiki/> laga bilaabo {{{date}}}}}">{{{text|}}}</span>]]{{#if:{{{post-text|}}}
   |&#32;{{{post-text}}}
  }}</i>&#93;</sup>|{{{special|}}}
 }}<noinclude>
