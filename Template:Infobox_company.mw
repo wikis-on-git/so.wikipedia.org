@@ -1,121 +1,176 @@
-{{infobox
-| bodyclass  = vcard
-| bodystyle  = {{{bodystyle|}}}
+{{Infobox
+| bodyclass = vcard
+
+| child = {{lc:{{{embed}}}}}
+| decat = yes
+
 | titleclass = fn org
-| title      = Songbadh BD {{{name<includeonly>|{{{company_name|{{PAGENAME}}}}}</includeonly>}}}
-| imageclass = logo
-| image      = {{{logo<includeonly>|{{{company_logo|}}}</includeonly>}}}
-| caption    = {{{caption|}}}
-| image2 = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |alt={{{image_alt|}}}}}
+| title = {{#ifeq:{{lc:{{{embed}}}}} | yes | '''Shirkada''' | {{#if:{{{name|}}} | {{{name}}} | {{#if:{{{company_name|}}}|{{{company_name}}}|<includeonly>{{PAGENAMEBASE}}</includeonly>}} }} }}
+
+| imageclass = Astaan
+| imagestyle =
+| image = {{#invoke:InfoboxImage |InfoboxImage |image={{{logo|{{{company_logo|{{wikidata|property|raw|P154}}}}}}}} |size={{{logo_size|}}} |sizedefault=frameless |alt={{{logo_alt|{{{alt|}}}}}}}}
+| caption = {{{logo_caption|}}}
+| image2 = {{#invoke:InfoboxImage |InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |alt={{{image_alt|}}}}}
 | caption2 = {{{image_caption|}}}
 
-| label1     = {{nowrap|Magac ganacsi}}
-| data1      = {{{trading_name<includeonly>|</includeonly>}}}
+| labelstyle = padding-right: 0.5em;<!-- to ensure gap between (long/unwrapped) label and subsequent data on same line -->
+| datastyle = line-height: 1.35em;
 
-| label2     = Magaca Rasmiga
-| data2      = {{{native_name<includeonly>|</includeonly>}}}
+| label1  = {{longitem|[[Magaca ganacsiga]]}}
+|  data1  = {{{trade_name|{{{trading_name|}}}}}}
+
+| label2  = {{longitem|Magaca rasmiga}}
+|  data2  = {{#if:{{{native_name|}}} | {{#if:{{{native_name_lang|}}} | {{lang|{{{native_name_lang}}}|{{{native_name}}} }} | {{{native_name}}} }} }}
 
 | label3     = Magaca loo yaqaan
 | data3      = {{{romanized_name<includeonly>|</includeonly>}}}
 
-| label4     = {{#if:{{{defunct|}}}Qaabkii hore|Qaabka}}
-| class4     = category
-| data4      = {{{type<includeonly>|{{{company_type|}}}</includeonly>}}}
+| label4  = {{longitem|Hore loo yaqaanay}}
+| class4  = nickname
+|  data4  = {{{former_names|{{{former_name|}}}}}}
 
-| label5     = Seylad
-| data5      = {{{traded_as<includeonly>|</includeonly>}}}
+| label5  = {{longitem|[[Liiska Noocyada Hay'adaha Sharciga ah ee wadan kasta|{{#if:{{{defunct|}}}|Noocyadii|}}hore]]}}
+| class5  = category
+|  data5  = {{{type|{{{company_type|}}}}}}
 
-| label6     = Agabka
-| class6     = Qaybta
-| data6      = {{{industry<includeonly>|</includeonly>}}}
+| label6  = [[Calaamadda Ticker|ka ganacsaday&nbsp;sida]]
+|  data6  = {{{traded_as|}}}
 
-| label7     = Howsha
-| class7     = Qaybta
-| data7      = {{{genre<includeonly>|</includeonly>}}}
+| label7  = [[Lambarka Aqoonsiga Sirta ee Caalamiga ah|ISIN]]
+|  data7  = {{Br separated entries
+  | 1 = {{#if:{{{ISIN|{{wikidata|property|raw|P946}}}}} | <span class="plainlinks nourlexpansion">[{{fullurl:toollabs:isin/|language=en&isin={{urlencode:{{{ISIN|{{wikidata|property|raw|P946}}}}} }} }} {{{ISIN|{{wikidata|property|edit|P946}}}}}]</span> }}
+  | 2 = {{#if:{{{ISIN2|}}} | <span class="plainlinks nourlexpansion">[{{fullurl:toollabs:isin/|language=en&isin={{urlencode:{{{ISIN2}}}}}}} {{{ISIN2}}}]</span>}}
+  }}
 
-| label8     = Hadafka
-| data8      = {{{fate<includeonly>|</includeonly>}}}
+| label8  = Shirkada
+| class8  = category
+|  data8  = {{{industry|{{wikidata|properties|edit|linked|P452}}}}}
 
-| label9     = Horay loo gaaray
-| data9      = {{{predecessor<includeonly>|{{{Predecessor|}}}</includeonly>}}}
+| label9  = Nooca
+| class9  = category
+|  data9  = {{{genre|}}}
 
-| label10    = Horay loo gaaray
-| data10     = {{{successor<includeonly>|</includeonly>}}}
+| label10 = masiirka
+|  data10 = {{{fate|}}}
 
-| label11    = Lagu asaasay
-| data11     = {{{foundation<includeonly>|</includeonly>}}}
+| label11 = Ka horeeyay{{#if:{{{predecessors|}}}|}}
+|  data11 = {{{predecessors|{{{predecessor|{{wikidata|properties|edit|P155}}}}}}}}
 
-| label12    = Aas aasayaasha
-| class12    = Wakiil
-| data12     = {{{founder<includeonly>|</includeonly>}}}
+| label12 = Ku xigay{{#if:{{{successors|}}}|}}
+|  data12 = {{{successors|{{{successor|{{wikidata|properties|edit|P156}}}}}}}}
 
-| label13     = Geeriyooday
-| data13      = {{{defunct<includeonly>|</includeonly>}}}
+| label13 = La aasaasay
+|  data13 = {{{foundation|{{{founded|{{wikidata|property|edit|P571}}}}}}}}
 
-| label14    = Xarunta guud
-| class14    = {{#if:{{{location|}}}|label|adr}}
-| data14     = {{#if: {{{location_city<includeonly>|</includeonly>}}}|<span class="locality">{{{location_city}}}</span>{{#if: {{{location_country<includeonly>|</includeonly>}}}|,&#32;}}}}{{#if: {{{location_country<includeonly>|</includeonly>}}}|<span class="country-name">{{{location_country}}}</span>}}
-{{#if:{{{location|}}}|{{{location}}} }}
+| label14 = Aasaasaha{{#if:{{{founders|}}}|}}
+| class14 = wakiilka
+|  data14 = {{{founders|{{{founder|{{wikidata|properties|edit|linked|P112}}}}}}}}
 
-| label15    = Tirada baraha
-| data15     = {{{locations<includeonly>|</includeonly>}}}
+| label15 = Shaqeyneenin
+|  data15 = {{{defunct|{{{dissolved|{{wikidata|property|edit|P576}}}}}}}}
 
-| label16    = Meelaha shaqada
-| data16     = {{{area_served<includeonly>|</includeonly>}}}
+| label16 = Xarunta
+| class16 = {{#if:{{{hq_location|{{{location|}}}}}} | label | adr}}
+|  data16 = {{#if:{{{hq_location|{{{location|}}}}}}{{{hq_location_city|{{{location_city|}}}}}}{{{hq_location_country|{{{location_country|}}}}}}
+            | {{Comma separated entries
+                | 1 = {{{hq_location|{{{location|}}}}}}
+                | 2 = {{#if:{{{hq_location_city|}}}{{{location_city|}}} |<div style="display: inline;" class="locality">{{#if:{{{hq_location_city|}}}{{{location_city|}}} | {{{hq_location_city|{{{location_city|}}}}}} | }}</div>}}
+                | 3 = {{#if:{{{hq_location_country|}}}{{{location_country|}}} |<div style="display: inline;" class="country-name">{{#if:{{{hq_location_country|}}}{{{location_country|}}} | {{{hq_location_country|{{{location_country|}}}}}} | }}</div>}}
+              }}
+            | {{#if:{{wikidata|property|raw|P159}}{{wikidata|property|raw|P17}}
+              | {{Comma separated entries
+                | 1 = {{#if:{{wikidata|property|raw|P159}} |<div style="display: inline;" class="locality">{{wikidata|property|edit|linked|P159}}</div>}}
+                | 2 = {{#if:{{wikidata|property|raw|P17}} |<div style="display: inline;" class="country-name">{{wikidata|property|edit|linked|P17}}</div>}}
+                }}
+              }}
+            }}
 
-| label17    = Dadka haga
-| class17    = Wakiil
-| data17     = {{{key_people<includeonly>|</includeonly>}}}
+| label18 = {{longitem|Tirada xarumaha}}
+|  data18 = {{#if:{{{num_locations|{{{locations|}}}}}} | {{{num_locations|{{{locations|}}}}}}{{#if:{{{num_locations_year|}}} | &nbsp;({{{num_locations_year}}}) }} }}
 
-| label18    = Wax soo saar
-| data18     = {{{products<includeonly>|</includeonly>}}}
+| label19 = {{longitem|Meelaha{{#if:{{{areas_served|}}}|}} loo adeegsaday}}
+|  data19 = {{{areas_served|{{{area_served|}}}}}}
 
-| label19    = Soo saaris iyo bixin  
-| data19     = {{{production<includeonly>|</includeonly>}}}
+| label20 = {{longitem|Dadka muhiimka ah}}
+| class20 = wakiilka
+|  data20 = {{{key_people|}}}
 
-| label20    = shaqooyinka
-| class20    = Qaybta
-| data20     = {{{services<includeonly>|</includeonly>}}}
+| label21 = Alaabta
+|  data21 = {{{products|}}}
 
-| label21    = Dakhliga
-| data21     = {{{revenue<includeonly>|</includeonly>}}}
+| label22 = Noocyada alaabta
+|  data22 = {{{brands|}}}
 
-| label22    = Dakhliga soo gal
-| data22     = {{{operating_income<includeonly>|</includeonly>}}}
+| label23 = {{longitem|Wax soo saarka}}
+|  data23 = {{#if:{{{production|}}} | {{{production|}}}{{#if:{{{production_year|}}} | &nbsp;({{{production_year}}}) }} }}
 
-| label23    = {{#ifeq:{{{intl|}}}|yes|Faaiido}}
-| data23     = {{{net_income<includeonly>|</includeonly>}}}
+| label24 = Adeegyada
+| class24 = category
+|  data24 = {{{services|}}}
 
-| label24    = Dhaqaalaha maamulka
-| data24     = {{{aum<includeonly>|</includeonly>}}}
+| label25 = Dakhliga
+|  data25 = {{#if:{{{revenue|}}} | {{{revenue}}}{{#if:{{{revenue_year|}}} | &nbsp;({{{revenue_year}}}) }} | {{wikidata|property|edit|short|linked|qualifier|reference|P2139|P585|format=%p[%r]&#32;(%q[%s])}} }}
 
-| label25    = Dhaqaalaha
-| data25     = {{{assets<includeonly>|</includeonly>}}}
+| label26 = {{longitem|[[Dakhliga ka hor dulsaarka iyo canshuurta|Dakhliga shaqeeya]]}}
+|  data26 = {{#if:{{{operating_income|}}} | {{{operating_income}}}{{#if:{{{income_year|}}} | &nbsp;({{{income_year}}}) }} | {{wikidata|property|edit|short|linked|qualifier|reference|P3362|P585|format=%p[%r]&#32;(%q[%s])}} }}
 
-| label26    = Saamiga maalgelyeyaasha
-| data26     = {{{equity<includeonly>|</includeonly>}}}
+| label27 = {{longitem|[[Dakhliga saafiga]]}}
+|  data27 = {{#if:{{{net_income|{{{profit|}}}}}} | {{{net_income|{{{profit|}}}}}}{{#if:{{{net_income_year|{{{profit_year|}}}}}} | &nbsp;({{{net_income_year|{{{profit_year|}}}}}}) }} | {{wikidata|property|edit|linked|qualifier|reference|P2295|P585|format=%p[%r]&#32;(%q[%s])}} }}
 
-| label27    = Dadka iska leh
-| data27     = {{{owner<includeonly>|</includeonly>}}}
+| label28 = [[Maareynta hantida|AUM]]
+|  data28 = {{{aum|}}}
 
-| label28    = Shaqaalaha
-| data28     = {{{num_employees<includeonly>|</includeonly>}}}
+| label29 = {{nowrap|[[Hantida|Dhamaan hantida]]}}
+|  data29 = {{#if:{{{assets|}}} | {{{assets}}}{{#if:{{{assets_year|}}} | &nbsp;({{{assets_year}}}) }} | {{wikidata|property|edit|short|linked|qualifier|reference|P2403|P585|format=%p[%r]&#32;(%q[%s])}} }}
 
-| label29    = Shirkadaha ku midoobay
-| data29     = {{{parent<includeonly>|</includeonly>}}}
+| label30 = {{nowrap|[[Sinaanta (Maaliyad)|Dhamaan sinaanta]]}}
+|  data30 = {{#if:{{{equity|}}} | {{{equity}}}{{#if:{{{equity_year|}}} | &nbsp;({{{equity_year}}})}} }}
 
-| label30    = Qaybaha shaqada
-| data30     = {{{divisions<includeonly>|</includeonly>}}}
+| label31 = Lahaashaha{{#if:{{{owners|}}}|}}
+|  data31 = {{{owners|{{{owner|}}}}}}
 
-| label31    = Shirkado ka farcamay
-| data31     = {{{subsid<includeonly>|</includeonly>}}}
+| label32 = Xubnaha
+|  data32 = {{#if:{{{members|}}} | {{{members}}}{{#if:{{{members_year|}}} | &nbsp;({{{members_year}}})}} }}
 
-| label32    = Website
-| data32     = {{{homepage<includeonly>|{{{website|}}}</includeonly>}}}
+| label33 = {{longitem|Tirada inta ka shaqeeso}}
+|  data33 = {{#if:{{{num_employees|}}} | {{{num_employees}}}{{#if:{{{num_employees_year|}}} | &nbsp;({{{num_employees_year}}}) }} | {{wikidata|property|edit|qualifier|reference|P1128|P585|format=%p[%r]&#32;(%q[%s])}} }}
 
-| below      = {{#if:{{{footnotes<includeonly>|</includeonly>}}}|'''References:''' {{{footnotes}}} }}
-}}<noinclude>
+| label34 = [[Shirkada leh|Iska leh]]
+|  data34 = {{{parent|{{#if:{{{owners|{{{owner|{{{parent|}}}}}}}}}||{{wikidata|properties|edit|linked|P749}}}}}}}
 
+| label35 = [[Qeyb (ganacsi)|Qeybaha]]
+|  data35 = {{{divisions|}}}
+
+| label36 = [[kaabayaasha]]
+|  data36 = {{{subsid|}}}
+
+|  data38 = {{{module|}}}
+
+| label39 = [[Basel III|Caasimada saamiga]]
+|  data39 = {{{ratio|}}}
+
+| label40 = Qiimeynta
+|  data40 = {{{rating|}}}
+
+| label41 = Website
+|  data41 = {{#if:{{{homepage|{{{website|}}}}}}
+            | {{#ifeq:{{{homepage|{{{website|}}}}}} | hide | | {{{homepage|{{{website|}}}}}} }}
+            | {{#if:{{wikidata|property|raw|P856}}
+              | {{#invoke:WikidataIB |url2 |url={{if empty
+                |{{#invoke:WikidataIB|getValueByLang|P856|fwd=ALL|osd=no|maxvals=1}}
+                |{{Wdib|P856|fwd=ALL|osd=no|maxvals=1}}
+                }} }}
+              }}
+            }}
+
+| belowstyle = line-height: 1.35em;
+| below = {{#if:{{{footnotes|}}} | '''Footnotes{{\}}references'''<br />{{{footnotes}}} }}
+
+}}<!-- Tracking categories:
+
+-->{{#if:{{{trading_name|}}}|[[Category:Bogagga isticmaalaya Infobox company adeegsanaya magaca ganacsiga]]
+}}{{#ifeq:{{{logo|{{{company_logo|{{wikidata|property|raw|P154}}}}}}}}|{{{logo|{{{company_logo|}}}}}}||[[Category:Bogagga isticmaalaya Infobox company oo leh astaan ka socota wikidata]]
+}}{{#invoke:Check for clobbered parameters|check|nested=1|template=Infobox company|cat={{main other|Category:Pages using infobox company with ignored parameters}}<noinclude>
 {{documentation}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
