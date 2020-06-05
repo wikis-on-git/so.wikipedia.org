@@ -171,6 +171,6 @@
 
 -->{{#if:{{{trading_name|}}}|[[Category:Bogagga isticmaalaya Infobox company adeegsanaya magaca ganacsiga]]
 }}{{#ifeq:{{{logo|{{{company_logo|{{wikidata|property|raw|P154}}}}}}}}|{{{logo|{{{company_logo|}}}}}}||[[Category:Bogagga isticmaalaya Infobox company oo leh astaan ka socota wikidata]]
-}}{{#invoke:Check for clobbered parameters|check|nested=1|template=Infobox company|cat={{main other|Category:Pages using infobox company with ignored parameters}}<noinclude>
+}}<noinclude>
 {{documentation}}
 </noinclude>
