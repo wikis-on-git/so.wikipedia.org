@@ -1,0 +1,38 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Expand language}} begin-->{{ambox
+| name  = {{{name|Expand language}}}
+| subst = <includeonly>{{{subst|{{subst:substcheck}}}}}</includeonly>
+| type  = notice
+| image = [[File:Translation to english arrow.svg|50x40px|alt=|link=]]
+| text  = 
+{{hidden
+| 1 =<!--
+Multiple languages
+--> {{#if:{{{langcode2|}}}|This article '''may be expanded with text translated from the corresponding articles in {{#if:{{{otherarticle|}}}|[[:{{{langcode|}}}:{{{otherarticle}}}|{{#language:{{{langcode|}}}|en}}]]|{{#if:{{Wikidata sitelink|lang={{{langcode}}}}}|[[:{{{langcode}}}:{{Wikidata sitelink|lang={{{langcode}}}}}|{{#language:{{{langcode|}}}|en}}]]|{{#language:{{{langcode|}}}|en}}}}}}{{#if:{{{langcode3|}}}|{{#if:{{{otherarticle3|}}}|, [[:{{{langcode3|}}}:{{{otherarticle3}}}|{{#language:{{{langcode3|}}}|en}}]]|{{#if:{{Wikidata sitelink|lang={{{langcode3}}}}}|, [[:{{{langcode3}}}:{{Wikidata sitelink|lang={{{langcode3}}}}}|{{#language:{{{langcode3|}}}|en}}]]|, {{#language:{{{langcode3|}}}|en}}}}}}}} and {{#if:{{{otherarticle2|}}}|[[:{{{langcode2|}}}:{{{otherarticle2}}}|{{#language:{{{langcode2|}}}|en}}]]|{{#if:{{Wikidata sitelink|lang={{{langcode2}}}}}|[[:{{{langcode2}}}:{{Wikidata sitelink|lang={{{langcode2}}}}}|{{#language:{{{langcode2|}}}|en}}]]|{{#language:{{{langcode2|}}}|en}}}}}}'''.<!--
+One language
+-->|This article '''may be expanded with text translated from {{#if:{{{langcode|}}}|the {{#if:{{{otherarticle|}}}|[[:{{{langcode|}}}:{{{otherarticle}}}|corresponding article]]|{{#if:{{Wikidata sitelink|lang={{{langcode}}}}}|[[:{{{langcode}}}:{{Wikidata sitelink|lang={{{langcode}}}}}|corresponding article]]|corresponding article}}}} in {{#language:{{{langcode|}}}|en}}|a corresponding article in another language}}'''.}} {{#if:{{{date|}}}| &#32;''<small>({{{date}}})</small>''}} <small>Click [show] for important translation instructions.</small>
+| 2 = 
+{{#switch: {{{langcode|}}} <!--all languages with machine translate-->|af |am |ar |az |be |be-tarask |bg |bn |bs |ca |ceb |co |cs |cy |da |de |el |en |eo |es |et |eu |fa |fi |fr |fy |ga |gd |gl |gu |ha |haw |he |hi |hr |ht |hu |hy |id |ig |is |it |ja |jv |ka |kk |km |kn |ko |ku |ky |la |lb |lo |lt |lv |mg |mi |mk |ml |mn |mr |ms |mt |my |ne |nl |nn |no |ny |pa |pl |ps |pt |ro |ru |sd |sh |si |sk |sl |sm |sn |so |sq |sr |st |su |sv |sw |ta |te |tg |th |tl |tr |uk |ur |uz |vi |xh |yi |yo |zh |zu =
+* {{#if:{{{otherarticle|}}}|[https://translate.google.com/translate?&u=https%3A%2F%2F{{{langcode|}}}.wikipedia.org%2Fwiki%2F{{urlencode:{{{otherarticle}}}}}&sl={{{googlelangcode|{{{langcode|}}}}}}&tl=en&prev=_t&hl=en View] a machine-translated version of the {{#language:{{{langcode|}}}|en}} article.|}}
+* Machine translation like [https://deepl.com DeepL] or [https://translate.google.com/ Google Translate]  is a useful starting point for translations, but translators must revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia.
+|#default =  }}
+* Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article.
+* You '''must''' provide [[Wikipedia:Copying within Wikipedia|copyright attribution]] in the [[Help:Edit summary|edit summary]] accompanying your translation by providing an [[Help:Interlanguage links|interlanguage link]] to the source of your translation. A model attribution edit summary {{#if:{{#invoke:Language/name|simple|code={{{langcode|INVALIDCODE}}}}}|<code>Content in this edit is translated from the existing {{#language:{{{langcode|}}}|en}} Wikipedia article at <nowiki>[[:</nowiki>{{{langcode}}}<nowiki>:</nowiki>{{{otherarticle|Exact name of German article}}}<nowiki>]]</nowiki>; see its history for attribution.</code>|(using German): <code>Content in this edit is translated from the existing German Wikipedia article at <nowiki>[[:de:Exact name of German article]]</nowiki>; see its history for attribution.</code>}}
+* You should also add the template {{#if:{{{otherarticle|}}}|<code><nowiki>{{Translated|</nowiki>{{{langcode|}}}<nowiki>|</nowiki>{{{otherarticle}}}<nowiki>}}</nowiki></code>|{{tl|Translated page}}}} to the [[{{TALKPAGENAME}}|talk page]]. 
+* For more guidance, see [[Wikipedia:Translation]].
+| headerstyle = padding-right: 3em; font-weight: normal; text-align: left
+}}
+|demospace={{{demospace|}}}
+}}{{DMCA|Articles to be expanded|from|{{{date|}}}|All articles to be expanded}}<includeonly>{{#ifeq:{{NAMESPACE}}|Template
+| [[Category:Expand by language Wikipedia templates|{{#language:{{{langcode|}}}|en}}]]{{#if:{{{nodoc|}}}|
+| {{documentation}}
+}}
+| {{{category|{{#ifeq:{{{fa}}}|yes|<!-- Featured articles
+-->{{Main other|[[Category:Featured articles needing translation from {{#language:{{{langcode|}}}|en}} Wikipedia]]{{#if:{{{langcode2|}}}|[[Category:Featured articles needing translation from {{#language:{{{langcode2|}}}|en}} Wikipedia]]}}{{#if:{{{langcode3|}}}|[[Category:Featured articles needing translation from {{#language:{{{langcode3|}}}|en}} Wikipedia]]}} }} }}<!--Topic 
+-->{{#if:{{{topic|}}}|{{Main other|[[Category:{{{topic|}}} articles needing translation from {{#language:{{{langcode|}}}|en}} Wikipedia]]{{#if:{{{langcode2|}}}|[[Category:{{{topic|}}} articles needing translation from {{#language:{{{langcode2|}}}|en}} Wikipedia]]}}{{#if:{{{langcode3|}}}|[[Category:{{{topic|}}} articles needing translation from {{#language:{{{langcode3|}}}|en}} Wikipedia]]}}}}|<!--No topic
+-->{{Main other|{{#ifexist:Category:Articles needing translation from {{#language:{{{langcode|}}}|en}} Wikipedia|[[Category:Articles needing translation from {{#language:{{{langcode|}}}|en}} Wikipedia]]|[[Category:Articles needing translation from foreign-language Wikipedias]]}}}}{{#if:{{{langcode2|}}}|{{#ifexist:Category:Articles needing translation from {{#language:{{{langcode2|}}}|en}} Wikipedia|[[Category:Articles needing translation from {{#language:{{{langcode2|}}}|en}} Wikipedia]]|[[Category:Articles needing translation from foreign-language Wikipedias]]}} }}{{#if:{{{langcode3|}}}{{#ifexist:Category:Articles needing translation from {{#language:{{{langcode3|}}}|en}} Wikipedia|[[Category:Articles needing translation from {{#language:{{{langcode3|}}}|en}} Wikipedia]]|[[Category:Articles needing translation from foreign-language Wikipedias]]}} }} }}
+}}}
+}}{{Main other|{{#if:{{{otherarticle|}}}|<!-- a target article has been set we need do nothing -->|{{#if:{{Wikidata sitelink|lang={{{langcode}}}}}||{{#ifeq:{{{no interwiki}}}|yes|[[Category:pages with no translate target and no interwiki]]|[[Category:pages with no translate target]]}}}}}}}}</includeonly><!--{{Expand language}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>
