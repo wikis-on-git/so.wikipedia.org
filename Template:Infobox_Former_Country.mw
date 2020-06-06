@@ -213,7 +213,7 @@
 
 | rowclass27 = mergedrow
 | label27 = {{#if:{{{title_leader|}}}| {{{title_leader}}} }}
-| data27 = {{#if:{{{title_leader|}}}|Hogaanka}}
+| data27 = {{#if:{{{title_leader|}}}|Hogaamiye}}
 | rowclass28 = mergedrow
 | data28 = {{#if:{{{year_leader1|}}} | {{Infobox country/multirow|{{{year_leader1|}}} |{{{leader1|}}} |{{{year_leader2|}}} |{{{leader2|}}} |{{{year_leader3|}}} |{{{leader3|}}} |{{{year_leader4|}}} |{{{leader4|}}} |{{{year_leader5|}}} |{{{leader5|}}} |{{{year_leader6|}}} |{{{leader6|}}} |{{{year_leader7|}}} |{{{leader7|}}} |{{{year_leader8|}}} |{{{leader8|}}} |{{{year_leader9|}}} |{{{leader9|}}} |{{{year_leader10|}}} |{{{leader10|}}} |{{{year_leader11|}}} |{{{leader11|}}}|{{{year_leader12|}}} |{{{leader12|}}}|{{{year_leader13|}}} |{{{leader13|}}}|{{{year_leader14|}}} |{{{leader14|}}}|{{{year_leader15|}}} |{{{leader15|}}} }} }}
 
