@@ -186,7 +186,7 @@
     -->{{#if:{{{capital|}}}{{{admin_center|}}}
         | <td colspan="2"><!--
            -->{{#if:{{{capital|}}}
-               | {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Magaalo madax'''}}
+               | {{#if:{{{capital_type|}}} |'''{{{capital_type}}}''' |'''Xarunta'''}}
                | {{#if:{{{admin_center_type|}}}|'''{{{admin_center_type|}}}'''|Administrative&nbsp;center}}
               }}<!--
            -------------------------------------------------
@@ -360,7 +360,7 @@
      | <tr>
          <th colspan="2"><!--
            -->{{#if:{{{politics_link|}}}
-               | [[{{{politics_link}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Government}}]]<!--
+               | [[{{{politics_link}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Dowladda}}]]<!--
             -->| {{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Government}}]]<!--
                -->| {{#ifeq:{{{micronation|}}}|yes|Organizational structure|Government}}<!--
