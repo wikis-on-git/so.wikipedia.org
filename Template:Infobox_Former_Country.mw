@@ -1,4 +1,4 @@
-{{infobox
+{{infoboxr
 | bodyclass = geography vcard
 | bodystyle = font-size:88%;
 | headerstyle= text-align:left;
@@ -172,9 +172,9 @@
            -->{{#if:{{{ethnic_groups_year|}}} |<div style="font-weight:normal;display:inline;"> ({{{ethnic_groups_year}}}){{{ethnic_groups_ref|}}}</div>|<div style="font-weight:normal;display:inline;">{{{ethnic_groups_ref|}}}</div>}}
 | data19 = {{{ethnic_groups|}}}
 
-| label20 = Religion <!--
+| label20 = Diinta <!--
            -->{{#if:{{{religion_year|}}} |<div style="font-weight:normal;display:inline;"> ({{{religion_year}}}){{{religion_ref|}}}</div>|<div style="font-weight:normal;display:inline;">{{{religion_ref|}}}</div>}}
-| data20 = {{{religion|}}}
+| data20 = {{{religion|Diinta}}}
 
 | label21 = [[Demonym|Demonym(s)]]
 | data21 = {{#if:{{{demonym|}}}
