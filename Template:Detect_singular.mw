@@ -1,0 +1,1 @@
+{{#ifexpr:({{#invoke:String|find|{{{1|}}}|,}}+{{#invoke:String|find|{{{1|}}}|list}}+{{#invoke:String|find|{{{1|}}}|<%s*br|plain=false}})>0||1}}<noinclude>{{documentation}}</noinclude>
