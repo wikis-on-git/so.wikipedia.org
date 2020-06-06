@@ -1,0 +1,44 @@
+<div style="display:table; width:100%; background:none;">
+<div style="display:table-row">{{#if:{{{0|}}}
+ |<!-- if 0
+-->{{#if:{{{1|}}}{{{2|}}}{{{3|}}}{{{4|}}}{{{5|}}}
+  |<!-- if 0 and (1 or 2 or 3 or 4 or 5)
+--><div style="display:table-cell"><div style="display:table; width:100%; background:none;">
+{{#if:{{{1|}}}
+|<div style="display:table-row"><div style="display:table-cell;vertical-align:middle; text-align:center;">{{{1|}}}</div></div>
+}}{{#if:{{{2|}}}
+|<div style="display:table-row"><div style="display:table-cell;vertical-align:middle; text-align:center;">{{{2|}}}</div></div>
+}}{{#if:{{{3|}}}
+|<div style="display:table-row"><div style="display:table-cell;vertical-align:middle; text-align:center;">{{{3|}}}</div></div>
+}}{{#if:{{{4|}}}
+|<div style="display:table-row"><div style="display:table-cell;vertical-align:middle; text-align:center;">{{{4|}}}</div></div>
+}}{{#if:{{{5|}}}
+|<div style="display:table-row"><div style="display:table-cell;vertical-align:middle; text-align:center;">{{{5|}}}</div></div>
+}}</div></div>
+}}<div style="display:table-cell;vertical-align:top;text-align:center;">{{{0|}}}</div>
+|<!-- if not 0
+-->{{#ifexpr:({{#if:{{{1|}}}|1|0}}+{{#if:{{{2|}}}|1|0}}+{{#if:{{{3|}}}|1|0}}+{{#if:{{{4|}}}|1|0}}) > 2
+ |<!-- if more than two images
+-->{{#if:{{{1|}}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{1|}}}</div>{{#if:{{{2|}}}||</div></div><div style="display:table; width:100%; background:none;"><div style="display:table-row">}}
+}}{{#if:{{{2|}}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{2|}}}</div>{{#if:{{{1|}}}||</div></div><div style="display:table; width:100%; background:none;"><div style="display:table-row">}}
+}}</div><div style="display:table-row">{{#if:{{{3|}}}
+|{{#if:{{{4|}}}||</div></div><div style="display:table; width:100%; background:none;"><div style="display:table-row">}}<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{3|}}}</div>
+}}{{#if:{{{4| }}}
+|{{#if:{{{3|}}}||</div></div><div style="display:table; width:100%; background:none;"><div style="display:table-row">}}<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{4|}}}</div>
+}}
+ |<!-- if two or fewer images
+-->{{#if:{{{1|}}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{1|}}}</div>
+}}{{#if:{{{2|}}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{2|}}}</div>
+}}{{#if:{{{3|}}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{3|}}}</div>
+}}{{#if:{{{4| }}}
+|<div style="display:table-cell;vertical-align:middle; text-align:center;">{{{4|}}}</div>
+}}
+  }}
+}}</div></div><noinclude>
+{{documentation}}
+</noinclude>
