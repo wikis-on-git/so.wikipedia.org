@@ -333,7 +333,7 @@
 | rowclass67 = {{#if:{{both|{{#ifeq:{{{total_type}}}|&nbsp;|1}}|{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}}}|mergedtoprow|mergedrow}}
 | label67 = {{#if:{{both|{{#ifeq:{{{total_type}}}|&nbsp;|1}}|{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}}}
   |Area<div style="font-weight:normal;display:inline;">{{{area_footnotes|}}}</div>
-  |&nbsp;•&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_rural_km2|}}}{{{area_rural_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}{{{population_rural|}}}|{{#if:{{{settlement_type|{{{type|}}}}}}|{{{settlement_type|{{{type}}}}}}|City}}|Total}}}}
+  |&nbsp;•&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_rural_km2|}}}{{{area_rural_sq_mi|}}}{{{population_metro|}}}{{{population_urban|}}}{{{population_rural|}}}|{{#if:{{{settlement_type|{{{type|}}}}}}|{{{settlement_type|{{{type}}}}}}|City}}|Dhammaan}}}}
   }}
 |  data67 = {{#if:{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}
  |{{infobox_settlement/areadisp
@@ -538,7 +538,7 @@
   }}
 
 | rowclass87 = mergedrow
-| label87 = &nbsp;•&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{population_metro|}}}{{{population_urban|}}}{{{population_rural|}}}{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_rural_km2|}}}{{{area_rural_sq_mi|}}}|{{#if:{{{settlement_type|{{{type|}}}}}}|{{{settlement_type|{{{type}}}}}}|City}}|Total}}}}
+| label87 = &nbsp;•&nbsp;{{#if:{{{total_type|}}}|{{{total_type}}}|{{#if:{{{population_metro|}}}{{{population_urban|}}}{{{population_rural|}}}{{{area_metro_km2|}}}{{{area_metro_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_sq_mi|}}}{{{area_rural_km2|}}}{{{area_rural_sq_mi|}}}|{{#if:{{{settlement_type|{{{type|}}}}}}|{{{settlement_type|{{{type}}}}}}|Magaalo}}|Dhammaan}}}}
 |  data87 = {{#if:{{{population|}}}
   |
   |{{#ifeq:{{{total_type}}}|&nbsp;
@@ -559,7 +559,7 @@
 |  data89 = {{{population_rank|}}}
 
 | rowclass90 = mergedrow
-| label90 = &nbsp;•&nbsp;Density
+| label90 = &nbsp;•&nbsp;Cufnaanta dadka
 |  data90 = {{#if:{{{population_density_km2|}}}{{{population_density_sq_mi|}}}{{{population_total|}}}
    |{{infobox_settlement/densdisp
       |/km2 ={{{population_density_km2|}}}
@@ -664,7 +664,7 @@
 |  data100 = {{#if:{{{population_blank2|}}}|{{formatnum:{{{population_blank2}}}}}}}
 
 | rowclass101 = mergedrow
-| label101 = &nbsp;•&nbsp;{{#if:{{{population_blank2_title|}}}|{{{population_blank2_title}}} density|Density}}
+| label101 = &nbsp;•&nbsp;{{#if:{{{population_blank2_title|}}}|{{{population_blank2_title}}} density|Cufnaanta dadka}}
 |  data101 = {{#if:{{{population_density_blank2_km2|}}}{{{population_density_blank2_sq_mi|}}}{{{population_blank2|}}}
    |{{infobox_settlement/densdisp
       |/km2 ={{{population_density_blank2_km2|}}}
@@ -789,7 +789,7 @@
  }} 
 
 | rowclass128 = mergedrow
-| label128 = <span style="white-space:nowrap">&nbsp;•&nbsp;Summer ([[Daylight saving time|DST]])</span>
+| label128 = <span style="white-space:nowrap">&nbsp;•&nbsp;Xagaa ([[Daylight saving time|DST]])</span>
 |  data128 = {{#if:{{{utc_offset1_DST|{{{utc_offset_DST|}}}}}}
      |[[UTC{{{utc_offset1_DST|{{{utc_offset_DST|}}}}}}]] {{#if:{{{timezone1_DST|{{{timezone_DST|}}}}}}|({{{timezone1_DST|{{{timezone_DST}}}}}})}}
      |{{{timezone1_DST|{{{timezone_DST|}}}}}}
@@ -805,7 +805,7 @@
  }}
 
 | rowclass130 = mergedrow
-| label130 = <span style="white-space:nowrap">&nbsp;•&nbsp;Summer ([[Daylight saving time|DST]])</span>
+| label130 = <span style="white-space:nowrap">&nbsp;•&nbsp;Xagaa ([[Daylight saving time|DST]])</span>
 |  data130 = {{#if:{{{utc_offset2_DST|}}}|[[UTC{{{utc_offset2_DST|}}}]] {{#if:{{{timezone2_DST|}}}|({{{timezone2_DST|}}})}}
      |{{{timezone2_DST|}}}
     }}
