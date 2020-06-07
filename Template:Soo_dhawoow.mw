@@ -2,7 +2,7 @@
 |
 {| width="100%" cellspacing="0" cellpadding="6" style="font-size:95%; line-height: 125%; background: #E32636; border: 1px solid #99b3ff #fff;"
 |-
-| colspan="3" align=center style="background: #fff;" |<span style="font-size:19pt; text-transform: none; font-weight: bold; font-family:Palatino Linotype, URW Palladio, Book Antiqua, serif;"><center><span style="color:black">'''Waa ku salaamay <includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalaha la aqoon | {{PAGENAME}}}}</includeonly>Ku Soo Dhawoow Wikipediaha Soomaaliga!</center></span></span></br> <center><big>'''Bartan waxaa ka diiwaan gashan {{NUMBEROFUSERS}} isticmaale; waxaana ku jira {{NUMBEROFPAGES}} maqaal ku qoran [[Af-Soomaali]]!'''</big></center>
+| colspan="3" align=center style="background: #fff;" |<span style="font-size:19pt; text-transform: none; font-weight: bold; font-family:Palatino Linotype, URW Palladio, Book Antiqua, serif;"><center><span style="color:black">'''Waa ku salaamay <includeonly> {{#ifeq: {{lc:{{BASEPAGENAME}}}} | {{uc:{{BASEPAGENAME}}}} | Isticmaalaha la aqoon | {{PAGENAME}}}}</includeonly>  Ku Soo Dhawoow Wikipediaha Soomaaliga!</center></span></span></br> <center><big>'''Bartan waxaa ka diiwaan gashan {{NUMBEROFUSERS}} isticmaale; waxaana ku jira {{NUMBEROFPAGES}} maqaal ku qoran [[Af-Soomaali]]!'''</big></center>
 </br>
 
 |}
