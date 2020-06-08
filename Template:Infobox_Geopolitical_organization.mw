@@ -123,7 +123,7 @@
   |#default = {{{admin_center}}}{{#if:{{{capital|}}}||{{#if:{{{coordinates|}}}|<br/>{{#invoke:Coordinates|coordinsert|{{{coordinates}}}|type:city}}}} }} }}
 
 | rowclass11 = {{#if:{{{capital|}}}{{{admin_center|}}}|mergedbottomrow}}
-| label11 = Magaalada {{{largest_settlement_type|ugu wayn}}
+| label11 = Largest {{{largest_settlement_type|ugu wayn}}}
 | data11 = {{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}|capital
                          |capital<!--
                       -->|{{#switch:{{{capital}}}
@@ -194,8 +194,8 @@
      | {{#if:{{{politics_link|}}}
                | [[{{{politics_link}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Dowlada}}]]<!--
             -->| {{#ifexist:Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Government}}]]<!--
-               -->| {{#ifeq:{{{micronation|}}}|yes|Organizational structure|Government}}<!--
+                  | [[Politics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|{{#ifeq:{{{micronation|}}}|yes|Organizational structure|Dowlada}}]]<!--
+               -->| {{#ifeq:{{{micronation|}}}|yes|Organizational structure|Dowlada}}<!--
               -->}}<!--
            -->}}<!--
       -->}}
@@ -266,8 +266,8 @@
   | {{#if:{{{area_link|}}}
                | [[{{{area_link}}}|Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
                | {{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                  | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
-                  | Area {{#ifeq:{{{micronation|}}}|yes|claimed|}}<!--
+                  | [[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}]]
+                  | Baaxada {{#ifeq:{{{micronation|}}}|yes|claimed|}}<!--
               -->}}<!--
            -->}} }}
 
@@ -358,10 +358,10 @@
 | rowclass90 = mergedtoprow
 | header90 = {{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}}{{{stat_pop1|}}}{{{stat_pop2|}}}{{{stat_pop3|}}}{{{stat_pop4|}}}{{{stat_pop5|}}}
      |{{#if:{{{population_link|}}}
-               | {{#ifeq:{{{population_link}}}|no|Population|[[{{{population_link}}}|Population]]}}<!--
+               | {{#ifeq:{{{population_link}}}|no|Population|[[{{{population_link}}}|Shacabka]]}}<!--
             -->| {{#ifexist:Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                   | [[Demographics of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Shacabka]]<!--
-               -->| Population<!--
+               -->| Shacabka<!--
               -->}}<!--
            -->}} }}
 
