@@ -123,7 +123,7 @@
   |#default = {{{admin_center}}}{{#if:{{{capital|}}}||{{#if:{{{coordinates|}}}|<br/>{{#invoke:Coordinates|coordinsert|{{{coordinates}}}|type:city}}}} }} }}
 
 | rowclass11 = {{#if:{{{capital|}}}{{{admin_center|}}}|mergedbottomrow}}
-| label11 = Largest {{{largest_settlement_type|ugu wayn}}}
+| label11 = {{{largest_settlement_type|Magaalada}}} ugu wayn
 | data11 = {{#ifeq: {{#ifeq:{{{largest_city|}}}{{{largest_settlement|}}}|capital
                          |capital<!--
                       -->|{{#switch:{{{capital}}}
