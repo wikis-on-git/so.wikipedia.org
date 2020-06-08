@@ -465,11 +465,11 @@
              -->{{#iferror:<!--
                 -->{{#ifexpr:{{{Gini}}}>100 <!--
                  -->| {{error|Error: Gini value above 100}}<!--Handled by outer #iferror, not visible to users--><!--
-                 -->| {{#ifexpr:{{{Gini}}}>=60 |{{color|red|very high}}<!--
+                 -->| {{#ifexpr:{{{Gini}}}>=60 |{{color|red|aad u sareeya}}<!--
                     -->| {{#ifexpr:{{{Gini}}}>=46 <!--
-                       -->| {{color|darkred|high}}<!--
+                       -->| {{color|darkred|sareeyo}}<!--
                        -->| {{#ifexpr:{{{Gini}}}>=30 <!--
-                          -->| {{color|orange|medium}}<!--
+                          -->| {{color|orange|dhexdhexaad}}<!--
                           -->| {{#ifexpr:{{{Gini}}}>=0 <!--
                              -->| {{color|forestgreen|low}}<!--
                              -->| {{error|Error:Gini value below 0}}<!--Handled by outer #iferror, not visible to users--><!--
