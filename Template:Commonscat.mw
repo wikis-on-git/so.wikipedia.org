@@ -1,31 +1,39 @@
-{{Commons
+{{Sister project
 | position = {{{position|}}}
-  <!-- {{#if:x|}} strips whitespace from parameter 1, 
-       in case it is fed like this: {{Commons category| Some cat }}. -->
-|1=Category:{{#if:{{{1|}}}
- |{{{1|}}}
- |{{#if:{{#property:P373}}
-  |{{#property:P373}}
-  |{{PAGENAME}}
- }}
-}}
-|2={{{2|{{{1|{{PAGENAME}}}}}}}}<!--
--->}}<noinclude>
+| project  = commons
+| text     = Wikimedia Commons {{{alt-term|waxee heysaa war la xiriiro}}} '''''[[commons:{{#if:{{{1|}}}|Category:{{{1|}}}|{{if then show|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:{{PAGENAME}}}}}}|<span style="{{#ifeq:{{{nowrap|no}}}|yes|white-space:nowrap;}} {{#ifeq:{{{italic|no}}}|yes|font-style: italic; }}">{{#ifeq:{{{lcf|{{{lcfirst|no}}}}}}|yes|{{lcfirst:{{{2|{{#if:{{{1|}}} | {{{1|}}} <!--
+  -->|{{if then show|{{#invoke:String|replace|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:|}}<!--
+  --> |{{PAGENAME}} }} }} }}} }}<!--
+  -->|{{{2|{{#if:{{{1|}}} | {{{1|}}} <!--
+  -->|{{if then show|{{#invoke:String|replace|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:|}}<!--
+  --> |{{PAGENAME}} }} }} }}}
+}}</span>]]'''''.<!--
+ End of the template code, now add relevant tracking categories
+
+--><includeonly>{{#switch:{{NAMESPACE}}||{{ns:14}}=<!--
+ Only add tracking categories to articles and categories.
+ -->{{#if:{{{1|}}}|{{#ifeq:Category:{{replace|{{{1|}}}|_|&#32;}}|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|<!--
+   -->[[Category:Commons category link is on Wikidata]]<!--
+
+   -->|{{#ifeq:{{replace|{{{1|}}}|_|&#32;}}|{{PAGENAME}}|<!--
+   ... the local parameter is the same as the local pagename
+   -->[[Category:Commons category link is defined as the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}<!--
+
+   ... the local parameter is not the pagename
+   -->|[[Category:Commons category link is locally defined]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}}} }}<!--
+
+  We don't have a locally-defined link 
+  -->|{{#if:{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|<!--
+
+   ... so we're using Wikidata
+   -->[[Category:Commons category link from Wikidata]]<!--
+
+    <!-- ... or we're using the pagename
+    -->|[[Category:Commons category link is the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}
+  }}
+  }}
+  }}</includeonly>
+}}<noinclude>
 {{Documentation}}
 <!-- Add categories to the /doc subpage, not here! -->
-</noinclude><includeonly>{{#if:{{{1|}}}||{{#if:{{#property:P373}}||[[Category:Commons category template with no category set|{{#ifeq:{{NAMESPACE}}|||{{Namespace Greek}}}}{{BASEPAGENAME}}]]}}}}<!-- Some tracking categories to see if we're ready to switch to Wikidata -->
-{{#switch:{{NAMESPACE}}||{{ns:14}}=<!-- Only articles and categories. -->
- {{#if:{{#property:P373}}
- | {{#if:{{{1|}}}
-  | {{#ifeq:{{#property:P373}}|{{#invoke:StringReplace|encode wiki page name|{{{1|}}}}}
-   | [[Category:Commons category with local link same as on Wikidata]] <!-- We want to end up here -->
-   | [[Category:Commons category with local link different than on Wikidata]] <!-- Figure out the best link -->
-   }}
-  | {{#ifeq:{{#property:P373}}|{{PAGENAME}}
-   | [[Category:Commons category with page title same as on Wikidata]] <!-- Ending up here is just fine -->
-   | [[Category:Commons category with page title different than on Wikidata]] <!-- Figure out the best link here too -->
-   }}
-  }}
- | [[Category:Commons category without a link on Wikidata]] <!-- These we still need to import -->
- }}
-}}</includeonly>
+</noinclude>
