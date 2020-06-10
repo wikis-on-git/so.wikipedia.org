@@ -1,0 +1,5 @@
+<div class="messagebox plainlinks <includeonly>noprint</includeonly>" style="{{#switch:{{lc:{{{align|{{{1|}}}}}}}}
+|right=float:right;margin:0 0.5em;
+|center= margin:0 auto;
+|#default=float:left;margin:0 0.5em;
+}};position:relative;padding:0;width:{{#expr:{{{iconsize|64}}}+6}}px;font-size:smaller;text-align:center;"><span style="position:absolute;left:3px;top:3px;">[[File:View-refresh.svg|{{{iconsize|64}}}px|link=|alt=]]</span>[[Special:Purge/{{FULLPAGENAME}}|<span style="display:block;position:relative;margin:-1px;padding:{{#expr:{{{iconsize|64}}}+10}}px 0.4em 0.4em;line-height:1.2em;font-weight:bold;{{{textstyle|}}}">Update this page</span>]]</div><noinclude>{{clear}}<!--(to separate template and Documentation boxes)-->{{Documentation}}</noinclude>
