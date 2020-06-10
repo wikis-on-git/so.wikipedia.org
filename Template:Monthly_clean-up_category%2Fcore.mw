@@ -1,0 +1,39 @@
+{{#ifeq:{{PAGESINCAT:{{PAGENAME}}}}|0
+ |{{#ifexpr:abs({{CURRENTYEAR}}*12+{{CURRENTMONTH}}-{{{year|0}}}*12-{{{monthno|0}}})>1
+  |<includeonly>{{Db-g6|rationale=it is a monthly clean-up category that has been emptied|self=yes}}</includeonly>
+ }}
+}}
+{{Purge button|left}}
+{{#ifexist:Template:{{{cat|}}} progress
+ |<div style="float:right;margin:0 0 0 .6em">{{{{{cat}}} progress}}</div>
+}}
+{{Maintenance category|tracking=yes|hidden={{#ifeq:{{{hidden|}}}|n||yes}}}}
+<br />
+{{#ifexist:Template:Monthly clean-up category/Messages/Type/{{{name part}}}
+ |{{Monthly clean-up category/Messages/Type/{{{name part}}}
+  |month name = {{{month name|}}}
+  |year       = {{{year|}}}
+  |cat        = {{{cat|}}}
+ }}
+ |This category combines all {{{type}}} from {{{month name|}}} {{{year|}}} <small>({{{year}}}-{{{monthno|}}})</small> to enable us to {{#ifeq:{{{clean-up|}}}|no|maintain them|work through the backlog}} more systematically. It is a member of [[:Category:{{{cat}}}]].<br />
+}}
+{{#if:{{{message<includeonly>|</includeonly>}}}
+ |{{{message}}}
+ |{{#ifexist:Template:Monthly clean-up category/Messages/{{{name part}}}
+   |{{Monthly clean-up category/Messages/{{{name part}}}
+    |month name = {{{month name|}}}
+    |year       = {{{year|}}}
+   }}
+  }}
+}}
+{{#switch:{{{toc}}}
+ |focus=<br />{{Focusmessage}}
+ |none={{ns:0}}
+ |toc=<br />{{CatAutoTOC}}
+}}{{#if:{{{datecat|}}}
+ |[[Category:{{{datecat}}} {{{month name|}}} {{{year|}}}]]
+}}{{#ifeq:{{NAMESPACE}}|Category
+ |[[Category:{{{cat|}}}| {{{year|}}}-{{{monthno| }}}]]
+}}<includeonly>[[Category:Monthly clean-up category counter|{{{sort|{{{name part|}}}}}} {{{year|}}}-{{{monthno| }}}]]
+[[Category:Monthly clean-up category ({{{cat|}}}) counter| {{{year|}}}-{{{monthno| }}}]]
+{{#ifeq:{{PAGENAME}}|Clean-up categories from {{{month name|}}} {{{year|}}}|[[Category:Clean-up categories from {{{year|}}}]]|[[Category:Clean-up categories from {{{month name|}}} {{{year|}}}]]}}</includeonly>
