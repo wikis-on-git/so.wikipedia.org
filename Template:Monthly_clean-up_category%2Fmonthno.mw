@@ -1,0 +1,22 @@
+<includeonly>{{#Switch:{{lc:{{Str left|{{Str right|{{{1}}}|{{#expr: {{#invoke:String|find|{{{1}}}| from|{{#expr: {{Str len|{{{1}}}}} - 21}}}} + 4 }}}}|3}}}}
+|jan=01
+|feb=02
+|mar=03
+|apr=04
+|may=05
+|jun=06
+|jul=07
+|aug=08
+|sep=09
+|oct=10
+|nov=11
+|dec=12
+|00
+}}</includeonly><noinclude>
+
+Example:
+* {{Tlx|Monthly clean up category/monthno|jfhiues h from February 2009}}
+
+{{Monthly clean up category/monthno|jfhiues h from February 2009}}
+
+</noinclude>
