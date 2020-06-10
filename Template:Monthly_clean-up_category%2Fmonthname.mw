@@ -1,0 +1,16 @@
+{{#Switch:{{lc:{{Str left|{{Str right|{{{1}}}|{{#expr: {{#invoke:String|find|{{{1}}}| from|{{#expr: {{Str len|{{{1}}}}} - 21}}}} + 4 }}}}|3}}}}
+|jan=Janaayo
+|feb=Feebaraayo
+|mar=Maarso
+|apr=Abriil
+|may=May
+|jun=Juun
+|jul=Luuliyo
+|aug=Agoosto
+|sep=Sebtembar
+|oct=Oktoobar
+|nov=Nofeembar
+|dec=Diseembar
+|00
+}}<noinclude>
+{{documentation}}</noinclude>
