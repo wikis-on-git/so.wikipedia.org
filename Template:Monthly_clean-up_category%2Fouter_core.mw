@@ -1,0 +1,13 @@
+<includeonly>{{Monthly clean-up category/core
+ | type       = {{#if:{{{type|}}}|{{{type}}}|{{#ifeq:{{First word|{{{name part}}}}}|Wikipedia|{{{name part}}}|{{lcfirst:{{{name part}}}}}}}}}
+ | toc        = {{{toc}}}
+ | year       = {{{year}}}
+ | monthno    = {{{monthno}}}
+ | month name = {{{month name|0}}}
+ | name part  = {{{name part}}}
+ | cat        = {{#if:{{{cat|}}}|{{{cat}}}|{{{name part}}}}}
+ | hidden     = {{{hidden}}}
+ | message    = {{{message|}}}
+ | datecat    = {{{datecat|}}}
+ | clean-up   = {{{clean-up|}}}
+}}</includeonly>
