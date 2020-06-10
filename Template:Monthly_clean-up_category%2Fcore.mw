@@ -15,7 +15,7 @@
   |year       = {{{year|}}}
   |cat        = {{{cat|}}}
  }}
- |This category combines all {{{type}}} from {{{month name|}}} {{{year|}}} <small>({{{year}}}-{{{monthno|}}})</small> to enable us to {{#ifeq:{{{clean-up|}}}|no|maintain them|work through the backlog}} more systematically. It is a member of [[:Category:{{{cat}}}]].<br />
+ |Qaybtani waxay isku daraysaa dhammaan {{{type}}} laga bilaabo {{{month name|}}} {{{year|}}} <small>({{{year}}}-{{{monthno|}}})</small> si ay noogu suurtogeliso inaan si nidaamsan uga shaqeyno  {{#ifeq:{{{clean-up|}}}|no|maintain them|dib u habeynta}}. waxay xubin ka tahay [[:Category:{{{cat}}}]].<br />
 }}
 {{#if:{{{message<includeonly>|</includeonly>}}}
  |{{{message}}}
