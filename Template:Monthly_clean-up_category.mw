@@ -1,0 +1,16 @@
+<includeonly>{{Monthly clean-up category/outer core
+ | type       = {{{type|}}}
+ | name part  = {{Monthly clean-up category/name part|{{PAGENAME}}}}
+ | toc        = {{{toc|toc}}}
+ | year       = {{{year|{{str rightc|{{PAGENAME}}|4}}}}}
+ | monthno    = {{{monthno|{{Monthly clean-up category/monthno|{{PAGENAME}}}}}}}
+ | month name = {{{month name|{{Monthly clean-up category/monthname|{{PAGENAME}}}}}}}
+ | cat        = {{{cat|}}}
+ | hidden     = {{{hidden|y}}}
+ | message    = {{{message|}}}
+ | datecat    = {{{datecat|}}}
+ | clean-up   = {{{clean-up|}}}
+}}</includeonly><noinclude>
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES TO THE /doc SUBPAGE AND INTERWIKIS TO WIKIDATA, THANK YOU! -->
+</noinclude>
