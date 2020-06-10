@@ -1,0 +1,5 @@
+{{Str left|{{{1}}}|{{#invoke:String|find|{{{1}}}| from|{{#expr: {{Str len|{{{1}}}}} - 21}}}}}}<noinclude>
+{{Documentation
+ | content = The '''[[Template:Monthly_clean-up_category/name_part]]''' extracts the name prefix from parameter 1, as all of the text prior to the spaced-word "&nbsp;from" before the month/year. If the word "&nbsp;from" is not present within the parameter 1 text, then nothing is returned.
+}}
+</noinclude>
