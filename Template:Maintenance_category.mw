@@ -1,0 +1,14 @@
+__EXPECTUNUSEDCATEGORY__
+{{Cmbox
+|type=notice
+|text=<div>Kani waa '''[[Help:Category|qayb]] [[Wikipedia:Maintenance|dayactir ah]]''', oo loo adeegsaday [[Wikipedia:Categorization#Non-article and maintenance categories|dayactirka mashruuca Wikipedia]]. Qayb kama aha encyclopedia kumana jiro [[Wikipedia:What is an article?|boggag maqaalo ah]]. Qaybtaan ha ku darin qaybaha kale ee kooban.</div>{{#if:{{Yesno|{{{container|}}}}}|
+<div>Kani waa '''[[:Category:Container categories|container category]]'''. Baxadeeda owgeed, ''' waa in ee ku jiraan oo kaliya [[WP:SUBCAT|qayb hoosaadyo]]'''.</div>{{#ifeq:{{{container_category|}}}|no||{{Category other|{{{category|[[Category:Container categories]]}}}}}}}}}{{#if:{{Yesno|{{{tracking|}}}}}|__HIDDENCAT__ 
+<div>Kani waa '''[[:Category:Tracking categories|tracking category]]'''. waxay dhisaysaa oo dayactiraysaa tiro boggag ah. Kama mid ahan '''[[Wikipedia:Categorization|encyclopedia's categorization scheme]]'''.</div>
+{{#if:{{{purpose|}}}{{{description|}}}|<div>{{{purpose|{{{description}}}}}}</div>}}<div>
+* This category is '''[[Wikipedia:Categorization#Hiding categories|hidden]]''' on its [[:Category:Hidden categories|member pages]]&mdash;unless the corresponding [[Special:Preferences|user preference]] (appearance → show hidden categories) is set.
+* These categories are used to track, build and organize lists of pages needing "attention ''en masse''" (for example, pages using deprecated syntax), or that may need to be edited at someone's earliest convenience.
+* These categories also serve to aggregate members of several lists or sub-categories into a larger, more efficient list (''discriminated by classifications'').</div>{{#ifeq:{{{tracking_category|}}}|no||{{Category other|{{{category|[[Category:Tracking categories]]}}}}}}}|{{#if:{{Yesno|{{{hidden|}}}}}|__HIDDENCAT__
+<div>Kani waa '''[[:Category:Hidden categories|Qayb qarsan]]'''. Laguma muujin bogagga xubnaheeda, ilaa inta oo [[Special:Preferences|adeegsadaha]] ka dhigaayo (muujin → tus qaybta qarsoon).</div>}}}}{{#if:{{Yesno|{{{empty|}}}}}|{{Possibly empty category|hide=true}}
+<div><span style="font-size:15px;">'''Administrators: Please do not delete this category even if it is empty!'''</span> This category may be empty occasionally or even most of the time. {{{empty_text|}}}</div>}}{{#if:{{Yesno|{{{polluted|}}}}}|{{Polluted category}}}}
+|imageright={{#if:{{{shortcut|{{{shortcut1|}}}}}}|{{Shortcut|{{{shortcut|{{{shortcut1|}}}}}}|{{{shortcut2|}}}|{{{shortcut3|}}}|{{{shortcut4|}}}|{{{shortcut5|}}}}}}}
+}}<includeonly>{{#ifeq: {{lc:{{{nocat|false}}}}}|false|{{Single namespace|category}}{{#if:{{{desc|}}}{{{1|}}}|<br /><div style="text-align: left;">{{{alt|{{{ALTTEXT|'''Description''':}}}}}} {{{desc|{{{1|}}}}}}</div>}}|<!-- Category suppressed -->}}</includeonly><noinclude>{{Documentation}}<!-- Please add categories to the /doc sub-page, not here. --></noinclude>
