@@ -1,26 +1,26 @@
 <includeonly><!--
 -->{| class="wikitable"
 |-
-! CatAutoToc effect
-!style="text-align:right"| Pages
+! Saamaynta CatAutoToc
+!style="text-align:right"| Bogaga
 !style="text-align:right"| %
 |-
-| No TOC
+| Majirto TOC
 |style="text-align:right"| [[:Category:CatAutoTOC generates no TOC|{{formatnum:{{{notoc|}}}}}]]
 |style="text-align:right"| {{Percentage | {{{notoc|}}} | {{#expr: {{{notoc|}}} + {{{stdtoc|}}} + {{{largetoc|}}}}} | 2  | pad=yes}}
 |-
-| standard {{tl|Category TOC}}
+| heerka {{tl|qaybta TOC}}
 |style="text-align:right"| [[:Category:CatAutoTOC generates standard Category TOC|{{formatnum:{{{stdtoc|}}}}}]]
 |style="text-align:right"| {{Percentage | {{{stdtoc|}}} | {{#expr: {{{notoc|}}} + {{{stdtoc|}}} + {{{largetoc|}}}}} | 2  | pad=yes}}
 |-
-| {{tl|Large category TOC}}
+| {{tl|Qayb wayn TOC}}
 |style="text-align:right"| [[:Category:CatAutoTOC generates Large category TOC|{{formatnum:{{{largetoc|}}}}}]]
 |style="text-align:right"| {{Percentage | {{{largetoc|}}} | {{#expr: {{{notoc|}}} + {{{stdtoc|}}} + {{{largetoc|}}}}} | 2  | pad=yes}}
 |-
-| '''Total'''
+| '''Dhamaan'''
 |style="text-align:right"| '''{{formatnum:{{#expr: {{{notoc|}}} + {{{stdtoc|}}} + {{{largetoc|}}}}}}}''' || 
 |-
-|colspan=3 | <small>{{Purge|Purge this page to update the totals.}}</small>
+|colspan=3 | <small>{{Purge|Nadiifi boggan si aad u cusbooneysiiso isugeynta.}}</small>
 |}</includeonly><noinclude>
 {{Documentation|Template:CatAutoTOC stats/doc}}
 </noinclude>
