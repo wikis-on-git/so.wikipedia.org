@@ -1,603 +1,76 @@
-{{documentation subpage|[[Template:Infobox album]]|[[Template:Infobox album/doc]]}}
-{{High-risk| 146000+ }}
-{{Music infobox header}}
-{{Auto italic title|italic_title}}
-{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=italic_title,name,type,longtype,artist,cover,border,alt,caption,released,recorded,venue,studio,genre,length,language,label,director,producer,compiler,chronology,prev_title,prev_year,year,next_title,next_year,misc|$extra=italic_title,longtype,border,caption,language,director,compiler,chronology,year,misc|$aliases=italic title>italic_title,Italic title>italic_title,Name>name,Type>type,image>cover,Cover>cover,Border>border,Alt>alt,Caption>caption,Longtype>longtype,Artist>artist,Released>released,Recorded>recorded,Venue>venue,Studio>studio,Genre>genre,Length>length,Language>language,Label>label,Director>director,Producer>producer,Compiler>compiler,Chronology>chronology,Misc>misc|$flags=override|$B={{#ifeq:{{#invoke:Is infobox in lead|main|[Ii]nfobox [Aa]lbum}}|true|{{short description|{{#invoke:Plain text|main|{{#if:{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}}|{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}} {{#switch:{{Infobox album/link|{{{type|}}} }}|[[Extended play|EP]] = EP|#default = {{lc:{{Infobox album/link|{{{type|}}} }}}}}}|{{Infobox album/link|{{{type|}}} }}}}{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by {{{artist|}}}}}}}|noreplace}}}}<!--
 
-{{Infobox album
-| italic_title = no
-| name       = 
-| type       = studio
-| artist     = 
-| cover      = Nirvana album cover.svg
-| alt        = Black square with the gray word "NIRVANA" in the center
-| released   = 
-| recorded   = 
-| venue      =
-| studio     =
-| genre      = 
-| length     = 
-| label      =
-| producer   = 
-| prev_title =
-| prev_year  = 
-| next_title = 
-| next_year  = 
+-->{{Infobox
+| italic title= {{{italic_title|<noinclude>no</noinclude>}}}
+| bodyclass   = vevent haudio
+
+| aboveclass  = summary album
+| abovestyle  = {{#ifeq:{{{italic_title|yes}}}|yes|font-style: italic;}} background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}} }} }}
+| above       = {{#if:{{{name|}}}|{{{name}}}|<includeonly><span style="font-style: normal">Untitled</span></includeonly>}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#switch:{{{image|{{{cover|}}}}}}|blank=|???=Nocover.png|#default={{{image|{{{cover|}}}}}}}}|border={{{border|}}}|alt={{{alt|}}}}}
+| caption     = {{{caption|}}}
+
+| headerstyle = background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}}}}}}
+| headerclass = description
+
+| header1     = <includeonly>{{Infobox album/link|{{{type|}}} }}</includeonly>{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by <div class="contributor" style="display:inline">{{{artist|}}}</div> }}
+| label2      = Wuxuu soo baxay
+| data2       = {{{released|}}}
+| class2      = published
+| label3      = Waxaa la duubay
+| data3       = {{{recorded|}}}
+| class3      = plainlist
+| label4      = Goobta
+| data4       = {{{venue|}}}
+| label5      = Istuudiyo
+| data5       = {{{studio|}}}
+| class5      = plainlist
+| label6      = [[Nooca Musikada|Nooca]]
+| data6       = {{#ifexist:Template:Infobox album/genre/{{FULLPAGENAME}}|{{Infobox album/genre/{{FULLPAGENAME}}}}|{{{genre|}}}}}
+| class6      = category hlist
+| label7      = Dhererka
+| data7       = {{#invoke:hms|main|duration={{{length|}}}}}
+| label8      = Language
+| data8       = {{{language|}}}
+| class8      = qaybta
+| label9      = [[Calaamada duubista|Calaamada]]
+| data9       = {{{label|}}}
+| class9      = hlist
+| label10     = [[Agaasimaha filimka|Agaasime]]
+| data10      = {{{director|}}}
+| class10     = hlist
+| label11     = [[Soo saaraha duubista|Soo saare]]
+| data11      = {{{producer|}}}
+| class11     = hlist
+| label12     = kombiler
+| data12      = {{{compiler|}}}
+| class12     = hlist
+
+| header13    = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|}}}|{{{chronology|}}}|{{#ifeq: {{str letter|{{delink| {{{artist|}}} }}}}|0|{{{artist|}}}|{{#invoke:String2 | ucfirst |{{{artist|}}}}}}}}} chronology }}
+| data14      = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|
+{{(!}} style="background: transparent; width: 100%; min-width: 100%; border-collapse: collapse"
+{{!}}- style="line-height: 1.4em;"
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em .2em 0" {{!}} {{#if:{{{prev_title|}}}|''{{{prev_title}}}''{{#if:{{{prev_year|}}}|<br />({{{prev_year}}})}}|{{{last_album|}}}<span style="display:none">{{#if:{{{last_album|}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em" {{!}} {{{this_album|'''''{{{name|{{PAGENAMEBASE}}}}}'''''}}}{{#if:{{{next_year|}}}{{{prev_year|}}}|<br />({{{year|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|{{{released|}}}|%d%d%d+}}}}})}}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em 0 .2em .1em" {{!}} {{#if:{{{next_title|}}}|''{{{next_title}}}''{{#if:{{{next_year|}}}|<br />({{{next_year}}})}}|{{{next_album|}}}<span style="display:none">{{#if:{{{next_album|}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!)}}
 }}
-
-Halbeega [[Wikipedia: Manual of Style (infoboxes) | infobox]]] qodobbada albumku waa naqshada '' '{{tl | Infobox album}}' '' template '.  Sanduuqa dhanka midig waa tusaale.  Waxaad guji kartaa "Isha isha" isla markaana nuqul ka sameyso oo ku dheji summadaha maqaal kale, adiga oo ku beddelaya macluumaadkiisa macluumaad ku saabsan albumka aad doorato in aad wax ka qorto.
-
-Koodhka infobox-ka waa in lagu dhejiyaa qeybta sare ee maqaalka.
-
-==Code==
-Most articles should only need the following fields (for the full list of fields see [[#Advanced usage|advanced usage]]). Do not remove fields from this list when the value is unknown; in that case the values should be left blank.  Please note that the field names are case-sensitive.
-
-If this template is substituted, it will return a cleaned-up copy of itself (see [[Wikipedia:Substitution trick]]) with unnecessary parameters removed and deprecated parameters replaced. Parameter indentation will also automatically be fixed.
-
-<pre style="overflow:auto">
-{{subst:Infobox album
-| name       = 
-| type       = 
-| artist     = 
-| cover      = 
-| alt        = 
-| released   = <!-- {{Start date|||}} -->
-| recorded   = 
-| venue      = 
-| studio     = 
-| genre      = <!-- Do not add unsourced genres -->
-| length     = 
-| label      = 
-| producer   = 
-| prev_title = 
-| prev_year  = 
-| next_title = 
-| next_year  = 
-}}
-</pre>
-
-==Details==
-Try to fill in as many of the details as you can. If some details are unknown, leave the section blank. Wikilink wherever appropriate, but make sure you check your links and [[Wikipedia:Disambiguation|disambiguate]] accordingly.
-
-===name===
-The album's title should be specified using text (not a logo), which will be automatically italicized.
-
-==={{Anchors|Colors|Type and color}} type===
-The {{para|type}} field refers to the general type of album. Enter a code from the following chart. The type will appear with the appropriate color. If the type is unknown, leave the field blank.
-
-{{Infobox album/doc/type}}
-
-==={{Anchor|Album cover}} cover===
-An image of the official front cover of the original version of the album (or a reissue, if no original cover can be found) should be included at '''cover'''. However, unless the album cover is represented by a free image, the cover art should not be included when the infobox is used in an article whose primary topic is not the album itself, such as a musician's biography of discography. Album cover artwork may be scanned, or downloaded from another site such as [http://www.allmusic.com Allmusic] or [https://www.amazon.com/ Amazon.com]. Note that whether you scan one yourself or copy it from another site, when uploading an image, you must tag it properly and follow [[WP:FU|fair use]] guidelines. Whenever possible, prefer a version without [[sticker]]s (like Parental Advice, "As seen on TV", etc.) to display the artwork as intended by the artist. If you cannot find a cover image, just leave this field blank.
-
-* [[Special:Upload|Upload]] a copy of the album cover (under [[fair use]]). The image will display in the infobox in its real size, capped by the value of the user's "Thumbnail size" parameter in his or her appearance preferences. The width of the image should usually be 220–300px; for a square image, 300 is ideal.  To satisfy fair use criteria, the total number of pixels in any copyrighted image (i.e. the width in px × the height in px) should not exceed 100,000.
-* On the [[Help:Image page|image description page]], use the {{tl|Non-free album cover}} [[Wikipedia:Image copyright tags|image copyright tag]]. Selecting "Album or single cover" from the pulldown list on the image upload page will accomplish this.
-* Add detailed [[Wikipedia:Non-free use rationale guideline|fair use rationale]] for each use of the image. You can also use the {{tl|Non-free use rationale album cover}} template.
-* Fill the template's Cover field with the name of your file (the full image syntax is not required here&mdash;just the file name with the extension).
-* Remove the request-photo or request-image template from the talk page of the article.
-
-If nothing is entered into this field, the article will be added to the tracking category [[:Category:Album infoboxes lacking a cover]]. The article will also be added to the category if one of the following values is used: <code>???</code>, <code>Nocover.png</code>, <code>nocover.png</code>. Setting the field to the value <code>blank</code> will leave the cover area empty without categorizing the article into the above category. This is useful if the cover does not exist, for example the album was not released yet, or the cover cannot be added due to other limitations.
-
-===alt===
-Alt text for the album cover, for visually impaired readers. See [[WP:ALT]].
-
-===released===
-Original album release date, formatted according to the [[WP:DATED|Manual of Style for dates]] ("December 14, 2003" or "14 December 2003" depending on the article style, without the quotation marks). The <nowiki>{{</nowiki>[[Template:Start date|Start date]]<nowiki>}}</nowiki> template may be used here. If the day is unknown, indicate only month and year ("December 2003"); if the month is unknown indicate only the year ("2003"). Only the <em>earliest</em> known date that the album was released should be specified; later release dates (incl. re-issues) can be mentioned in a [[Wikipedia:WikiProject Albums/Article body#Release history|Release history]] section.
-
-===recorded===
-Enter the date(s) the album was recorded. When there are many dates, it is best to summarize, using the month or range of months (e.g., January–March {{#expr:{{#time:Y}}-2}}). For multiple entries, see Notes{{r|plainlist}} for details.  Add the location of the recording in the {{para|studio}} or {{para|venue}} field.
-
-===studio===
-If the album was recorded in a '''recording studio''', enter the name and location. Link the studio, but not well-known cities, states, or countries (see [[WP:OVERLINK]]). Remove "Studios" if it appears in the name – use <nowiki>[[Sound City Studios|Sound City]]</nowiki> rather than <nowiki>[[Sound City Studios]]</nowiki>.  For multiple entries, see Notes{{r|flatlist}} for details.
-
-===venue===
-For '''live recordings''', include the name of the venue (concert hall, stadium, etc.) and location. Link as appropriate.
-
-===genre===
-{{See also|WP:GWAR|WP:INFOBOXREF}}
-The field should include the music genre(s) that best describes the album. It should come from a [[WP:RS|reliable source]] and also '''be stated and referenced''' in the body of the article; personal opinions or [[WP:original research|original research]] must be not be included. Genres should be linked ([[Wikipedia:Piped link|piped linked]] where needed), for example, "Rock, pop" should link to [[rock music]] and [[pop music]] respectively. Note that most genres aren't proper nouns, and shouldn't be capitalized, but the first word in the list should be. For multiple entries, see Notes{{r|flatlist}} for details.
-
-===length===
-The length of the album should be specified in minutes and seconds, even if it is longer than one hour, for example 74:23. A microformat is added automatically for the first duration detected. ''The duration must contain a seconds value, or it will be incorrectly interpreted.'' If there is more than one length specified in the parameter, use {{Tl|Duration}}.
-
-Several albums have been released with bonus tracks or multiple track listings. In this case, just list the length of the original release. In the case of albums which are released with multiple track listings simultaneously, only list the most common length or that of the standard edition of the album.
-
-===label===
-Only the [[record label]] that the album was originally released on should be specified.  Where significantly different versions have been released (featuring alternative track listings) e.g. in the US vs UK, the later release date or record label should be mentioned <em>in the article</em>, for example in a [[WP:ALBUM#Release history|Release history]] section. Drop words like "Records" from the end of the label's name (e.g. use <code>{{nowrap|<nowiki>[[Universal Records|Universal]]</nowiki>}}</code> rather than <code>{{nowrap|<nowiki>[[Universal Records]]</nowiki>}}</code>). For multiple entries, see Notes{{r|flatlist}} for details.
-
-===producer===
-Enter the name of the person(s) credited with the '''[[record producer|record production]]'''. This is someone who oversees the recording process and is usually different from the artist or songwriter.  For multiple entries, see Notes{{r|flatlist}} for details.
-
-==Professional reviews==
-{{Further|Wikipedia:WikiProject Albums/Moving infobox reviews into article space}}
-Formerly, a <code>Reviews</code> field was included in this template. Professional reviews may no longer be included in the infobox, but should be described in paragraph form in a "Reception" section.  See [[Wikipedia:WikiProject Albums/Article body#Critical reception]]. The template {{tl|Album ratings}} can be used to illustrate review scores in this section.
-
-==Chronology==
-This group of fields establishes a timeline of an artist's releases. In general, all albums and EPs should be placed in a single, chronological chain in order of release date ([[single (music)|single]]s have a [[Template:Infobox single|separate infobox]], and thus a separate chain). Exceptions may be appropriate for artists with very complex discographies which may warrant more than one chain. If the previous or next release has a Wikipedia article, [[Help:Link|link]] the title to the corresponding article. Take care to maintain the integrity of chains, so that when release "A" points to "B" as the next release, "B" points back to "A" as the previous release.
-
-Wikipedia's [[Wikipedia:Manual of Style (dates and numbers)#Date formatting|date style guidelines]] recommend that years should not be linked within the chronology section. Cover images should not be included in the chronology, as that would not be [[Wikipedia:Non-free content|fair use]].
-
-No more than one album should be included in any of the three slots in the chronology. Some albums can be part of more than one chain, using an [[#Template:Extra chronology|"additional chronologies" section]].  Albums released on the same day should be listed separately, ordered using the standard ordering of those albums, or alphabetically if no such standard exists.
-
-{{para|prev_title}} and {{para|prev_year}} specify the previous album in the chain and its title. If the current album is the first album in a chain, this field should be blank.
-
-{{para|next_title}} and {{para|next_year}} specify the next album in the chain and its title. If the current album is the last album in a chain, this field should be blank.
-
-At least one of the title fields must have a value filled in for the chronology to display. If the year displayed for the current article's album is incorrect, then it can be specified manually using {{para|year}}.
-
-=={{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Albums|{{Anchors|Longtype|Caption|Language|Director|Compiler|Chronology|Misc|Template:Extra chronology}}{{Anchors|Template:Extra album cover|Template:Extra album cover 2|Template:Singles}}}} Advanced usage==
-{{#ifeq:{{FULLPAGENAME}}|Wikipedia:WikiProject Albums|
-{{For|more advanced usage|Template:Infobox album#Advanced usage}}
-|
-{{Infobox album
-| italic_title = no
-| name       = Together
-| type       = cover
-| artist     = [[Diana Ross & the Supremes]] and [[The Temptations]]
-| cover      = Nocover.svg
-| alt        = Example image
-| border     = yes
-| caption    = Original LP cover
-| released   = {{Start date|1969|09|23}}
-| recorded   = 1969
-| venue      =
-| studio     =
-| genre      = [[Pop music|Pop]], [[soul music|soul]]
-| length     =
-| label      = [[Motown Records|Motown]]
-| producer   = [[Frank Wilson (musician)|Frank Wilson]], [[Smokey Robinson]], [[Al Clevland]], [[Terry "Buzzy" Johnson|Terry Johnson]], [[Tom Baird]], [[Henry Cosby]], [[Deke Richards]]
-| chronology = [[The Supremes]]
-| prev_title = [[Let the Sunshine In (Supremes album)|Let the {{nowrap|Sunshine In}}]]
-| prev_year  = 1969
-| next_title = [[Cream of the Crop]]
-| next_year  = 1969
-| misc       = {{Extra chronology
- | artist     = [[The Temptations]]
- | type       = cover
- | prev_title = [[Puzzle People]]
- | prev_year  = 1969
- | title      = Together
- | year       = 1969
- | next_title = [[G.I.T. on Broadway|On Broadway]]''
- | next_year  = 1969
+| below       = {{{misc|}}}
+}}{{category handler
+ |main={{#ifeq:{{Infobox album/color|{{{type|}}}|Test}}|Test
+  |[[Category:Album articles with non-standard infoboxes]]
+ }}{{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki
+  |[[Category:Album articles with non-standard infoboxes]][[Category:Song articles needing single infobox conversion]]
+ }}[[Category:Articles with hAudio microformats]]{{#switch:{{lc:{{{image|{{{cover|}}}}}}}}
+  |
+  |???
+  |nocover.png = [[Category:Album infoboxes lacking a cover]]
+ }}{{#switch:{{lc:{{{image|{{{alt|}}}}}}}}
+  |
+  |??? = {{main other|[[Category:Album articles lacking alt text for covers]]}}
  }}
- {{Extra album cover
- | upper_caption = Alternative cover
- | type          = cover
- | cover         = Nocover.svg
- | alt           = Example alt text
- | border        = yes
- | lower_caption = The original American LP for ''Together'' has a cover which folds out to reveal a full illustration of The Supremes and The Temptations. The full artwork was also used for some international versions of the album without requiring the cover to be unfolded.
- }}
- {{Singles
- | name        = Together
- | type        = cover
- | single1     = [[The Weight]]
- | single1date =
- | single2     = Why (Must We Fall in Love)
- | single2date =
- }}
-}}
-
-In special situations, additional fields may be applicable. Unused fields may be either left blank or deleted.
-<pre style="line-height:1.2em;">
-{{subst:Infobox album
-| italic_title = 
-| name         = 
-| type         = 
-| longtype     = 
-| artist       = 
-| cover        = 
-| border       = 
-| alt          = 
-| caption      = 
-| released     = 
-| recorded     = 
-| venue        = 
-| studio       = 
-| genre        = 
-| length       = 
-| language     = <!-- Do not use for English albums by English-speaking artists -->
-| label        = 
-| director     = 
-| producer     = 
-| compiler     = 
-| chronology   = 
-| prev_title   = 
-| prev_year    =
-| year         = 
-| next_title   = 
-| next_year    = 
-| misc         = 
-}}
-</pre>
-
-===italic_title===
-Per the [[Wikipedia:TITLE#Italics and other formatting|Article titles policy]], titles that are rendered in italics in running prose are also displayed in italics in the page title. By default, the infobox achieves this automatically for album articles. If the page title is not the album title, as when only a section is devoted to an album, and in unusual cases where the title would not be italicized in running prose, such as [[untitled Korn album]], set this parameter to "no" to prevent the page title from being italicized.
-
-===longtype===
-This field can be used if you wish to include information such as the title of the film that an album is the soundtrack to, or the name of the artist that a tribute album is in honor of. The text in this field appears between the type and the word "by".
-
-===border===
-Choosing "yes" here will insert a 1px grey border around the cover image. This is useful for instances where the image and the background will blend together.
-
-===caption===
-If the album has been issued with different front covers, which version the image refers to should be noted here.
-
-===language===
-This field should identify what [[language]](s) are used in the [[lyrics]] of the album. Do not forget to [[Wikipedia:Disambiguation|disambiguate]] and [[Wikipedia:Piped link|pipe link]] when necessary. For example, if an album's lyrics are in English and French, you would use <code><nowiki>English, [[French language|French]]</nowiki></code>. Do not use this field for albums entirely in the English language, by English-speaking artists.
-
-===director===
-This field is only applicable to [[music video|video album]]s. The name of the director should be linked to the corresponding article. For multiple entries, see Notes{{r|flatlist}} for details.
-
-===compiler===
-This field is only applicable to [[compilation album]]s of any kind where the person or entity responsible for selecting the album's track listing is known.  For multiple entries, see Notes{{r|flatlist}} for details.
-
-===chronology===
-This field can be used when the album belongs to an overall series that is not adequately described by the artist's name alone; in these situations, the text entered in this field replaces the artist name that would normally be displayed preceding "chronology". Examples include series of compilation albums compiled by different people, and series of soundtracks (which are often "various artists" collections).
-
-===misc===
-A number of templates exist that can be inserted in the '''misc''' field, including {{tl|Extra album cover}}, {{tl|Extra chronology}}, {{tl|Singles}} and {{tl|Audio sample}}. If you use any of these templates, don't forget to add a second set of closing brackets for the nested template. However, please ensure if you add additional non-free images, that the use complies with the [[WP:NFCC|non-free content criteria]].
-
-===={{Anchor|Template:Extra chronology}} Template:Extra chronology====
-Additional chronologies are generally useful for [[split album]]s, collaborative albums, and series of albums.
-
-<pre style="overflow:auto">
-{{Infobox album
-...
-| misc       = {{Extra chronology 
- | artist     = 
- | type       = 
- | prev_title = 
- | prev_year  = 
- | title      = 
- | year       = 
- | next_title = 
- | next_year  = 
- }}
-}}
-</pre>
-
-The '''artist''' field should be the artist that this additional chronology reflects, for example one of the artists on a split album. The '''type''' field should contain the same type as the rest of the infobox. The format of the other fields is the same as the standard chronology (see [[#Chronology|above]]).
-
-===={{Anchor|Template:Extra album cover}} Template:Extra album cover====
-If the album has been released with different album covers, they can be added to the infobox using this template. However, per [[WP:NFCC#3]] use of non-free content is to be minimal, and not to be used if one item can convey equivalent significant information. An alternative cover that is significantly different from the original and is widely distributed and/or replaces the original has generally been held to pass this criterion. Also, an alternative cover that is the subject of specific (sourced) critical commentary passes the criteria for inclusion.  Covers that are essentially similar, despite differences in colouring, poses, text, etc, should not be included.  
-
-<pre style="overflow:auto">
-{{Infobox album
-...
-| misc    = {{subst:Extra album cover
- | header  = 
- | type    = studio
- | cover   = 
- | border  = <!-- optional parameter, type "yes" here to add a 1px border to the cover image -->
- | alt     = 
- | caption = 
-}}
-}}</pre>
-
-The '''upper_caption''' field allows an optional header to be inserted and '''lower_caption''' allows for an optional explanatory label. For alternative covers the upper caption should be "Alternative cover" and the lower caption should mention where that cover was used (int'l release, re-release, censored original, etc.). As with the <nowiki>{{Extra chronology}}</nowiki> template, the '''type''' field should contain the same type as the rest of the infobox.
-
-====Template:Singles====
-The {{tl|Singles}} template may be used as a miscellaneous addition to the infobox providing concise information about songs on the album that were released as singles during the marketing and promotion of the album. Promotional activity for extremely popular albums may continue for a long time, and songs from the album may be released as singles a year or more after the album's initial release. For example, songs from the album ''[[Thriller (Michael Jackson album)|Thriller]]'' were released as singles for more than a year after the release of the album, and such singles are considered to be from the album.
-
-#Do not include singles that were added as bonus tracks on a re-release of an album.
-#For songs that appear on more than one album, list the song as a single only for the album(s) where the single was released as part of the marketing and promotion of that album. Examples:
-#*If a song is originally released as a single during the marketing and promotion of an album on which it also appears, and is subsequently included on a compilation album, list the song as a single only for the original album and not for the compilation album.
-#*If a song is originally released as an album track only, but is subsequently released as a single to promote the release of a compilation album, include the song as a single only for the compilation album.
-
-For complex release scenarios where it may not be obvious that a single was released as part of the marketing and promotion of the album on which it appears, seek consensus on the talk page for the album.
-
-The output includes the name of the single and its release date, and the list should be in sequence by release date. You may list up to twelve (12) singles per album.  This infobox should be placed in the "Misc" field as shown below, using the field cases also shown below.  Any unused fields may be left out. Further usage information can be found on the [[Template:Singles|template page]].
-
-<pre style="overflow:auto">
-{{Infobox album
-...
-| misc       = {{Singles
- | name        = 
- | type        = 
- | single1     = 
- | single1date = 
- | single2     = 
- | single2date = 
- | single3     = 
- | single3date = 
- | single4     = 
- | single4date = 
- }}
-}}
-</pre>
-
-;name : The name of the album.
-;type : The album type (as specified [[#Type and color|above]] in the section "Type").
-;single<var>#</var> : The name of the single. Should be wikilinked to the single's article, if applicable.
-;single<var>#</var>date : The date of single release. Should be entered in [[WP:DATE|wikidate]] format. If the full date is unknown, just use "Month Year" or "Year". ''Do not use the <nowiki>{{</nowiki>[[Template:Start date|Start date]]<nowiki>}}</nowiki> template in this field.''
-
-Note that all fields are already properly formatted, so italics or quotation marks need not be entered in fields.
-
-== Notes ==
-{{reflist |refs=
-<ref name="plainlist"> For multiple entries, this parameter uses {{para|class|plainlist}}. Format the items as a normal bulleted list; don't use other list templates or <nowiki><br/></nowiki>. For example:<pre>
-| studio        =
-*First item
-*Second item
-*Third item</pre>
-will be displayed as a vertical unbulleted list:
-<code>{{ublist|'''Studio'''{{space|3}}First item|{{space|25}}Second item|{{space|25}}Third item}}</code>
-</ref>
-<ref name="flatlist">For short horizontal lists of two or three items, comma separators are acceptable, but for longer lists the use of the <code>|class=hlist</code> is preferred as it offers a benefit to users of screen readers (see [[Wikipedia:Accessibility]] for more information on [[Web Content Accessibility Guidelines]]).  To use <code>|class=hlist</code>, format the items as a normal bulleted list; don't use other list templates or <nowiki><br/></nowiki>.  For example:<pre>
-| genre        =
-*Item one
-*Item two
-*Item three</pre>
-will be displayed as a horizontal list separated by middots:
-<code>{{Flatlist|
-*'''Genre'''{{space|3}}Item one
-*Item two
-*Item three
-}}</code>
-</ref>
-}}
-
-==Microformats==
-{{UF-hcal}}
-
-{{UF-audio}}}}
-
-==TemplateData==
-{{TemplateData header}}
-
-<templatedata>
-{
-	"description": "The standard infobox for album articles.",
-	"params": {
-		"name": {
-			"label": "Name",
-			"description": "Name of the album.",
-			"type": "string",
-			"example": "Nirvana",
-			"suggested": true
-		},
-		"type": {
-			"label": "Album type",
-			"description": "One of: 'studio', 'demo', 'ep', 'live', 'greatest' (for greatest hits), 'remix', 'box' (for box sets), 'compilation', 'mixtape', 'soundtrack', 'film', 'cast', 'video', 'other'. Determines the colour used for the infobox.",
-			"type": "string",
-			"example": "greatest",
-			"suggested": true
-		},
-		"artist": {
-			"label": "Artist",
-			"description": "Name of the artist; should be linked.",
-			"type": "string",
-			"example": "[[Nirvana (band)|Nirvana]]",
-			"required": true,
-			"suggested": true
-		},
-		"cover": {
-			"aliases": [
-				"image"
-			],
-			"label": "Artwork",
-			"description": "An image of the official front cover of the original version of the album. The image should normally have a {{Non-free album cover}} image copyright tag and rationale on the image description page.",
-			"type": "wiki-file-name",
-			"example": "Nirvana album cover.svg",
-			"suggested": true
-		},
-		"alt": {
-            "label": "Alt text",
-			"description": "Text describing the album cover for visually-impaired readers.",
-			"type": "string",
-			"example": "Black square with the gray word \"NIRVANA\" in the center",
-			"suggested": true
-		},
-		"released": {
-			"label": "Release date",
-			"description": "Original album release date. e.g. 'December 14, 2003' or '14 December 2003' depending on the article style.",
-			"type": "string",
-			"example": "{{Start date|2002|10|29}}",
-			"suggested": true
-		},
-		"recorded": {
-			"label": "Recorded",
-			"description": "Details on where and when the album was recorded.",
-			"type": "string"
-		},
-		"venue": {
-			"label": "Venue",
-			"description": "Place where a live album was recorded.",
-			"type": "string"
-		},
-		"studio": {
-			"label": "Studio",
-			"description": "Place where a studio album was recorded.",
-			"type": "string"
-		},
-		"genre": {
-			"label": "Genre",
-			"description": "One or more music genres that the album reflects, delimited by a comma and linked to corresponding articles.",
-			"type": "string",
-			"suggested": true
-		},
-		"length": {
-			"label": "Length",
-			"description": "The length of the album in minutes and seconds. Use Template:Duration.",
-			"type": "string",
-			"example": "{{Duration|m=49|s=38}}",
-			"suggested": true
-		},
-		"label": {
-			"label": "Label",
-			"description": "The record label that the album was originally released on.",
-			"type": "string",
-			"example": "[[DGC Records|DGC]]",
-			"suggested": true
-		},
-		"producer": {
-			"label": "Producer",
-			"description": "The name of the producer or producers. The names can be delimited by commas or {{flatlist}}.",
-			"type": "string",
-			"example": "[[George Martin]]",
-			"suggested": true
-		},
-		"italic_title": {
-			"label": "Italic title",
-			"description": "By default the infobox causes the page title to be in italics. Set this to 'no' to leave the page title in normal style.",
-			"type": "string"
-		},
-		"longtype": {
-			"label": "Longtype",
-			"description": "Can be used if you wish to include information such as the title of the film that an album is the soundtrack to, or the name of the artist that a tribute album is in honor of.",
-			"type": "string"
-		},
-		"caption": {
-			"label": "Caption",
-			"description": "If the album has been issued with different front covers, which version the image refers to should be noted here.",
-			"type": "string"
-		},
-		"border": {
-			"label": "Border",
-			"description": "Setting to 'yes' here will insert a 1px grey border around the cover image.",
-			"type": "string",
-			"example": "yes"
-		},
-		"language": {
-			"label": "Language",
-			"description": "Language or languages used in the lyrics of the album.",
-			"type": "string",
-			"example": "[[French language|French]]"
-		},
-		"director": {
-			"label": "Director",
-			"description": "For video albums. The name of the director.",
-			"type": "string"
-		},
-		"compiler": {
-			"label": "Compiler",
-			"description": "Only for compilations. The person or entity responsible for selecting the album's track.",
-			"type": "string"
-		},
-		"last_album": {
-			"label": "Previous album",
-			"description": "The previous album. Name in italics and date.",
-			"type": "string",
-			"example": "''[[From the Muddy Banks of the Wishkah]]''<br />(1996)",
-			"deprecated": "Use \"previous release title\" and \"previous release date\" instead."
-		},
-		"this_album": {
-			"label": "This album",
-			"description": "This album for the chronology, bold and italic.",
-			"type": "string",
-			"example": "'''''Nirvana''''' <br /> (2002)",
-			"deprecated": "This parameter is no longer necessary."
-		},
-		"next_album": {
-			"label": "Next album",
-			"description": "The next album. Name in italics and date.",
-			"type": "string",
-			"example": "''[[With the Lights Out]]''<br />(2004)",
-			"deprecated": "Use \"next release title\" and \"next release date\" instead."
-		},
-		"chronology": {
-			"label": "Chronology",
-			"description": "Name used as heading for Chronology. Default is the artist's name.",
-			"type": "string"
-		},
-		"misc": {
-			"label": "Miscellaneous",
-			"description": "Other details can include templates {{Extra chronology}}, {{Extra album cover}}, and {{Singles}}.",
-			"type": "string"
-		},
-		"prev_title": {
-			"label": "Previous release title",
-			"description": "Title of the previous release in the artist's chronology. Link when appropriate.",
-			"example": "[[From the Muddy Banks of the Wishkah]]",
-			"type": "string",
-			"suggested": true
-		},
-		"next_title": {
-			"label": "Next release title",
-			"description": "Title of the next release in the artist's chronology. Link when appropriate.",
-			"example": "[[With the Lights Out]]",
-			"type": "string",
-			"suggested": true
-		},
-		"prev_year": {
-			"label": "Previous release year",
-			"description": "Year of the previous release in the artist's chronology.",
-			"example": "1996",
-			"type": "date",
-			"suggested": true
-		},
-		"next_year": {
-			"label": "Next release year",
-			"description": "Year of the next release in the artist's chronology.",
-			"example": "2004",
-			"type": "date",
-			"suggested": true
-		},
-		"year": {
-			"label": "Year",
-			"description": "Year the album was released. Usually not necessary; release date should be in the \"release date\" parameter",
-			"example": "2002",
-			"type": "date"
-		}
-	},
-	"format": "{{_\n| ____________ = _\n}}\n",
-	"paramOrder": [
-		"italic_title",
-		"name",
-		"type",
-		"longtype",
-		"artist",
-		"cover",
-		"border",
-		"alt",
-		"caption",
-		"released",
-		"recorded",
-		"venue",
-		"studio",
-		"genre",
-		"length",
-		"language",
-		"label",
-		"director",
-		"producer",
-		"compiler",
-		"prev_title",
-		"prev_year",
-		"year",
-		"next_title",
-		"next_year",
-		"last_album",
-		"this_album",
-		"next_album",
-		"chronology",
-		"misc"
-	]
-}
-</templatedata>
-
-==Tracking categories==
-* {{clc|Album articles with non-standard infoboxes}}
-* {{clc|Album infoboxes lacking a cover}}
-* {{clc|Song articles needing single infobox conversion}}
-* {{clc|Articles with hAudio microformats}}
-* {{clc|Pages using infobox album with unknown parameters}}
-* {{clc|Pages using infobox album with empty type parameter}}
-* {{clc|Music infoboxes with unknown value for type}}
-* {{clc|Music infoboxes with malformed table placement}}
-* {{clc|Music infoboxes with Module:String errors}}
-* {{clc|Pages using infobox chronology parameters with plainlists}}
-
-==See also==
-* {{tlx|infobox single}}
-* {{tlx|infobox song}}
-
-<includeonly>{{#ifeq:{{FULLPAGENAME}}|Template:Infobox album|
-<!-- This parser function code makes sure the categories are only for the template, since this doc page is used elsewhere -->
-<!-- ADD CATEGORIES BELOW THIS LINE -->
-[[Category:Music infobox templates|Album]]
-[[Category:Templates that add a tracking category]]
-
-}}</includeonly>
+}}{{#if:{{#ifeq:{{str left|{{{last_album|}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{this_album|}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{next_album|}}}|22}}|<div class="plainlist"|1|}}|[[Category:Pages using infobox chronology parameters with plainlists]]}}{{#ifeq:{{{type|}}}||[[Category:Pages using infobox album with empty type parameter]]}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox album with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox album]] with unknown parameter "_VALUE_"|ignoreblank=y|italic_title |type |name |image |cover |border |alt |caption |longtype |artist |released |recorded |venue |studio |genre |length |language |label |director |producer |compiler |prev_title|prev_year|next_title|next_year|chronology|year|misc}}{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{prev_title|}}}{{{last_album|}}}{{{prev_year|}}}{{{next_title|}}}{{{next_album|}}}{{{next_year|}}}{{{italic_title|}}}{{{italic title|}}}{{{type|}}}{{{name|}}}{{{image|}}}{{{cover|}}}{{{border|}}}{{{alt|}}}{{{caption|}}}{{{longtype|}}}{{{artist|}}}{{{released|}}}{{{recorded|}}}{{{venue|}}}{{{studio|}}}{{{genre|}}}{{{length|}}}{{{language|}}}{{{label|}}}{{{director|}}}{{{producer|}}}{{{compiler|}}}{{{chronology|}}}{{{this_album|}}}{{{year|}}}x|2=</?t[drh][ >]|nomatch=}}|{{main other|[[Category:Music infoboxes with malformed table placement|A]]}}}}{{main other|{{#if:{{{length|}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{#invoke:hms|main|duration={{{length|}}}}}|2=class="duration"|plain=true|nomatch=}}|[[Category:Articles with hAudio microformats]]}}}}}}}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here. -->
+</noinclude>
