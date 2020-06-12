@@ -25,9 +25,9 @@
 | next_year  = 
 }}
 
-The standard [[Wikipedia:Manual of Style (infoboxes)|infobox]] for album articles is the '''{{tl|Infobox album}}''' template. The box to the right is an example. You can click on "View source" and copy-and-paste the markup to a different article, replacing its information with info on the album you choose to write about.
+Halbeega [[Wikipedia: Manual of Style (infoboxes) | infobox]]] qodobbada albumku waa naqshada '' '{{tl | Infobox album}}' '' template '.  Sanduuqa dhanka midig waa tusaale.  Waxaad guji kartaa "Isha isha" isla markaana nuqul ka sameyso oo ku dheji summadaha maqaal kale, adiga oo ku beddelaya macluumaadkiisa macluumaad ku saabsan albumka aad doorato in aad wax ka qorto.
 
-The infobox code should be placed at the top of the article.
+Koodhka infobox-ka waa in lagu dhejiyaa qeybta sare ee maqaalka.
 
 ==Code==
 Most articles should only need the following fields (for the full list of fields see [[#Advanced usage|advanced usage]]). Do not remove fields from this list when the value is unknown; in that case the values should be left blank.  Please note that the field names are case-sensitive.
