@@ -1,3 +1,16 @@
-<includeonly>{{#if:{{{df|}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{{1}}}<span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span> ({{Sano|{{{4}}}|{{{5}}}|{{{6}}}|{{{1}}}|{{{2}}}|{{{3}}}}}&nbsp;Jir)</includeonly><noinclude>
-{{documentation}}
+<includeonly>{{#if:{{{3|}}}|{{MONTHNAME|{{{3|}}}}} {{{1|}}}|{{{1|}}}}} (aged&nbsp;{{#expr:{{{1}}}-{{{2}}}-1}}&ndash;{{#expr:{{{1}}}-{{{2}}}}}){{#invoke:Check for unknown parameters|check|ignoreblank=y|preview=Page using [[Template:Death year and age]] with unknown parameter "_VALUE_"|unknown=[[Category:Pages using death year and age template with unknown parameters|_VALUE_{{PAGENAME}}]]|1|2|3}}{{#ifeq: {{NAMESPACENUMBER}} | 0
+| {{#if: {{#invoke:wd|label|raw}}
+  | {{#if: {{#invoke:String|match|{{#invoke:wd|properties|raw|P31}},|Q5,|1|1|true|}}
+    | {{#if: {{#invoke:wd|properties|raw|P570}}
+      |
+      | [[Category:Date of death not in Wikidata]]
+      }}{{#if: {{#invoke:wd|properties|raw|P569}}
+      |
+      | [[Category:Date of birth not in Wikidata]]
+      }}
+    }}
+  | [[Category:Articles without Wikidata item]]
+  }}
+}}</includeonly><noinclude>
+{{Documentation}}
 </noinclude>
