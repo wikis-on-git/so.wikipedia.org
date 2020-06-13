@@ -1,4 +1,4 @@
-<includeonly>{{#if:{{{3|}}}|{{MONTHNAME|{{{3|}}}}} {{{1|}}}|{{{1|}}}}} (aged&nbsp;{{#expr:{{{1}}}-{{{2}}}-1}}&ndash;{{#expr:{{{1}}}-{{{2}}}}}){{#invoke:Check for unknown parameters|check|ignoreblank=y|preview=Page using [[Template:Death year and age]] with unknown parameter "_VALUE_"|unknown=[[Category:Pages using death year and age template with unknown parameters|_VALUE_{{PAGENAME}}]]|1|2|3}}{{#ifeq: {{NAMESPACENUMBER}} | 0
+<includeonly>{{#if:{{{3|}}}|{{MONTHNAME|{{{3|}}}}} {{{1|}}}|{{{1|}}}}} (&nbsp;{{#expr:{{{1}}}-{{{2}}}-1}}&ndash;{{#expr:{{{1}}}-{{{2}}}}} jir){{#invoke:Check for unknown parameters|check|ignoreblank=y|preview=Page using [[Template:Death year and age]] with unknown parameter "_VALUE_"|unknown=[[Category:Pages using death year and age template with unknown parameters|_VALUE_{{PAGENAME}}]]|1|2|3}}{{#ifeq: {{NAMESPACENUMBER}} | 0
 | {{#if: {{#invoke:wd|label|raw}}
   | {{#if: {{#invoke:String|match|{{#invoke:wd|properties|raw|P31}},|Q5,|1|1|true|}}
     | {{#if: {{#invoke:wd|properties|raw|P570}}
