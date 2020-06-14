@@ -1,3 +1,6 @@
-<includeonly>{{#invoke:lang|lang}}</includeonly><noinclude>
-{{Documentation}}
+<span lang="{{{1}}}" xml:lang="{{{1}}}">{{{2}}}</span><noinclude>
+
+
+{{{{FULLPAGENAME}}/doc}}
+<!-- Add cats and interwikis to the /doc subpage, not here! -->
 </noinclude>
