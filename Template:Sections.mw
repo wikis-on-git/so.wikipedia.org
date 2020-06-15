@@ -5,11 +5,11 @@
 | class = ambox-sections
 | issue = {{#ifeq:{{{1}}}|section
  |This section '''is too long to read comfortably, and needs [[Help:Section#Subsections|subsections]]'''.
- |This article '''should be divided into [[Help:Section|sections]] by topic, to make it more accessible'''.
+ |Maqaalkaan ''' waa in loo [[Help:Section|qaybiyo]] qaybiyo mowduuc ahaan, si looga dhigo mid si fudud loo heli karo'''.
 }}
-| fix   = {{#ifeq:{{{1}}}|section
+| fix   = {{#ifeq:{{{1}}}|qaybta
  |Please format the article according to the guidelines laid out in the [[MOS:HEAD|Manual of Style]].
- |Please help by adding section headings in accordance with Wikipedia's [[MOS:HEAD|Manual of Style]].
+ |Fadlan gacan ka geyso ku soo darista cinwaanada qaybta iyada oo la raacaayo [[MOS:HEAD|Buuggacmeedka]] wikipedia.
 }}
 | date  = {{{date|}}}
 | cat   = Articles needing sections
