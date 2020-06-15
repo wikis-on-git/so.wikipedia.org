@@ -1,0 +1,9 @@
+{{#switch: {{SUBJECTSPACE}}
+| {{ns:0}}  = maqaal
+| {{ns:4}}  = bogga wikipedia
+| {{ns:2}}
+| {{ns:12}} = {{lc:{{SUBJECTSPACE}}}} bogga
+| #default  = {{lc:{{SUBJECTSPACE}}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
