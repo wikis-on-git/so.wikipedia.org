@@ -1,7 +1,7 @@
 {{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
 {{#ifexpr:{{#expr:{{#iferror:{{#time:U|{{{date}}}}}|2000000000}}>=1341100800}}*{{#if:{{{reason|<noinclude>x</noinclude>}}}|0|1}}*{{#ifeq:{{{nocat}}}|true|0|1}}
- |{{error|1=Waa in aad ku dartaa {{para|sababta}} template kaan nadiifin – sidaan ka dhig <code><nowiki>{{Cleanup|</nowiki>{{#if:{{{1|}}}|{{{1|}}}
-{{!}}|}}{{#if:{{{date|}}}|<nowiki>date=</nowiki>{{{date|}}}{{!}}}}<nowiki>sababta waa<Meeshaan ku qor sababta>}}</nowiki></code>, ama ka saar template ka nadiifin.<br style="clear:both;">
+ |{{error|1=Waa in aad ku dartaa {{para|sababta}} template ka nadiifin – ka dhig <code><nowiki>{{Cleanup|</nowiki>{{#if:{{{1|}}}|{{{1|}}}
+{{!}}|}}{{#if:{{{date|}}}|<nowiki>date=</nowiki>{{{date|}}}{{!}}}}<nowiki>sababta=<meeshaan ku qor sababta>}}</nowiki></code>, ama ka saar template ka nadiifin.<br style="clear:both;">
 }}{{Category handler
   |nocat    = {{{nocat|}}}
   |main     = {{DMC|Cleanup tagged articles without a reason field|from|{{{date|}}}}}
@@ -20,7 +20,7 @@
    | talk  = {{{talk|{{{talksection|}}}}}}
    | fix   = {{#if:{{{2|{{{reason|}}}}}}|
     |Ma jiro [[Template:Cleanup/doc|sabab nadiifin ah]] oo loo cayimay.
-   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad awoodo.
+   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad karto.
    | removalnotice = yes
    | date  = {{{date|}}}
    | cat   = Maqaaalada u baahan nadiifin
