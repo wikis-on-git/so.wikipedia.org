@@ -1,7 +1,7 @@
 {{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
 {{#ifexpr:{{#expr:{{#iferror:{{#time:U|{{{date}}}}}|2000000000}}>=1341100800}}*{{#if:{{{reason|<noinclude>x</noinclude>}}}|0|1}}*{{#ifeq:{{{nocat}}}|true|0|1}}
- |{{error|1=You must add a {{para|reason}} parameter to this Cleanup template – replace it with <code><nowiki>{{Cleanup|</nowiki>{{#if:{{{1|}}}|{{{1|}}}
-{{!}}|}}{{#if:{{{date|}}}|<nowiki>date=</nowiki>{{{date|}}}{{!}}}}<nowiki>reason=<Fill reason here>}}</nowiki></code>, or remove the Cleanup template.<br style="clear:both;">
+ |{{error|1=Waa in aad ku dartaa {{para|sababta}} template kaan nadiifin – sidaan ka dhig <code><nowiki>{{Cleanup|</nowiki>{{#if:{{{1|}}}|{{{1|}}}
+{{!}}|}}{{#if:{{{date|}}}|<nowiki>date=</nowiki>{{{date|}}}{{!}}}}<nowiki>sababta waa<Meeshaan ku qor sababta>}}</nowiki></code>, ama ka saar template ka nadiifin.<br style="clear:both;">
 }}{{Category handler
   |nocat    = {{{nocat|}}}
   |main     = {{DMC|Cleanup tagged articles without a reason field|from|{{{date|}}}}}
@@ -15,12 +15,12 @@
    | small = {{{small|}}}
    | sect  = {{{1|}}}
    | issue = wuxuu '''ubaahanyahay [[Wikipedia:cleanup|nadiifin]]''' si uu ula jaanqaado [[Wikipedia:Manual of Style|heerka tayada]] Wikipedia. {{#if:{{{2|{{{reason|}}}}}}
-    |Waxa ka qaldan waa: '''{{{2|{{{reason}}}}}}'''
+    |Sababta waa: '''{{{2|{{{reason}}}}}}'''
    }}
    | talk  = {{{talk|{{{talksection|}}}}}}
    | fix   = {{#if:{{{2|{{{reason|}}}}}}|
     |Ma jiro [[Template:Cleanup/doc|sabab nadiifin ah]] oo loo cayimay.
-   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad karto.
+   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad awoodo.
    | removalnotice = yes
    | date  = {{{date|}}}
    | cat   = Maqaaalada u baahan nadiifin
