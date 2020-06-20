@@ -293,7 +293,7 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 |Nov percentsun          = 80
 |Dec percentsun          = 80
 |year percentsun         = 74
-|source 1                = Food and Agriculture Organization: Somalia Water and Land Management (temperatures, humidity and percent sunshine)<ref name=faoclimate>
+|source 1                = Food and Agriculture Organization: Somalia Water and Land Management (temperatures, humidity and percent sunshine)<ref>
 {{cite web
 | archiveurl = https://web.archive.org/web/20161104142616/http://www.faoswalim.org/resources/site_files/W-01%20Climate%20of%20Somalia_0.pdf
 | archivedate = 4 November 2016
@@ -302,9 +302,9 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 | publisher = Food and Agriculture Organization
 | pages = 69–73
 | accessdate = 4 November 2016
-| url-status = dead
+| url-status = 
 | df = dmy-all
-}}</ref><ref name=faosun>{{cite web
+}}</ref><ref>{{cite web
  |url          = http://sddr.faoswalim.org/downloads/Long%20Term%20Mean_Monthly__sunshine%20fraction.xls
  |title        = Long term mean monthly sunshine fraction in Somalia
  |publisher    = Food and Agriculture Organization
@@ -314,7 +314,7 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
  |url-status     = dead
  |df           = dmy-all
 }}</ref>
-|source 2                = [[Deutscher Wetterdienst]] (extremes and precipitation)<ref name = DWD631700>
+|source 2                = Deutscher Wetterdienst<ref>
 {{cite web
 | url = http://www.dwd.de/DWD/klima/beratung/ak/ak_631700_kt.pdf
 | title = Klimatafel von Hargeisa / Somalia
