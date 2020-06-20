@@ -311,7 +311,7 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
  |accessdate   = 4 November 2016
  |archive-url  = https://web.archive.org/web/20161005063105/http://sddr.faoswalim.org/downloads/Long%20Term%20Mean_Monthly__sunshine%20fraction.xls
  |archive-date = 5 October 2016
- |url-status     = dead
+ |url-status     = 
  |df           = dmy-all
 }}</ref>
 |source 2                = Deutscher Wetterdienst<ref>
@@ -322,6 +322,47 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 | publisher = Deutscher Wetterdienst
 | language = German
 | accessdate = 4 November 2016}}</ref>
+}}
+{{Weather box|location = [[Borama]]
+|metric first = yes
+|single line = yes
+|Jan high C = 24.6
+|Feb high C = 25.4
+|Mar high C = 27.5
+|Apr high C = 27.8
+|May high C = 29.3
+|Jun high C = 30.0
+|Jul high C = 28.8
+|Aug high C = 28.8
+|Sep high C = 29.0
+|Oct high C = 27.4
+|Nov high C = 25.8
+|Dec high C = 24.4
+|Jan low C = 9.7
+|Feb low C = 11.7
+|Mar low C = 13.8
+|Apr low C = 15.7
+|May low C = 17.0
+|Jun low C = 18.3
+|Jul low C = 17.8
+|Aug low C = 17.6
+|Sep low C = 17.3
+|Oct low C = 13.7
+|Nov low C = 11.3
+|Dec low C = 10.4
+|Jan rain mm = 6
+|Feb rain mm = 21
+|Mar rain mm = 36
+|Apr rain mm = 86
+|May rain mm = 61
+|Jun rain mm = 32
+|Jul rain mm = 78
+|Aug rain mm = 112
+|Sep rain mm = 86
+|Oct rain mm = 18
+|Nov rain mm = 10
+|Dec rain mm = 2
+|source 1 = ''Climate-Data.org''{{full citation needed|date=June 2017}},<!-- undefined<ref name="Climate-Data.org"/> --> altitude: 1454m<ref>{{cite web|url=http://www.faoswalim.org/ftp/Land_Reports/Cleared/L-12%20Land%20Resources%20of%20Somalia.pdf |title=Land Resources Assessment of Somalia |date=June 2009 |publisher=[[Somalia Water and Land Information Management Project]] |page=10 |accessdate=1 October 2013 |url-status=dead |archiveurl=https://web.archive.org/web/20131005010751/http://www.faoswalim.org/ftp/Land_Reports/Cleared/L-12%20Land%20Resources%20of%20Somalia.pdf |archivedate=5 October 2013 }}</ref>
 }}
 {{Weather box|location = [[Berbera]]
 | metric first = Y
@@ -445,11 +486,11 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 | Nov percentsun = 87
 | Dec percentsun = 80
 | year percentsun =
-| source 1 = Arab Meteorology Book (average temperatures, humidity and precipitation),<ref name=climate>{{cite web
+| source 1 = Arab Meteorology Book (average temperatures, humidity and precipitation),<ref>{{cite web
 | url = http://extras.springer.com/2007/978-1-4020-4577-6/Book_Shahin_ISBN_9781402045776_Appendix.pdf
 | title = Appendix I: Meteorological Data
 | publisher = Springer
-| accessdate = 22 October 2016}}</ref> [[Deutscher Wetterdienst]] (precipitation days, 1908–1950 and extremes)<ref name = DWD631600>
+| accessdate = 22 October 2016}}</ref> Deutscher Wetterdienst<ref>
 {{cite web
 | url = http://www.dwd.de/DWD/klima/beratung/ak/ak_631600_kt.pdf
 | title = Klimatafel von Berbera / Somalia
@@ -457,14 +498,14 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 | publisher = Deutscher Wetterdienst
 | language = German
 | accessdate = 22 October 2016}}</ref>
-| source 2 = Food and Agriculture Organization: Somalia Water and Land Management (percent sunshine)<ref name="Long term mean monthly sunshine fraction in Somalia">{{cite web
+| source 2 = Food and Agriculture Organization: Somalia Water and Land Management (percent sunshine)<ref>{{cite web
  |url          = http://sddr.faoswalim.org/downloads/Long%20Term%20Mean_Monthly__sunshine%20fraction.xls
  |title        = Long term mean monthly sunshine fraction in Somalia
  |publisher    = Food and Agriculture Organization
  |accessdate   = 4 November 2011
  |archive-url  = https://web.archive.org/web/20161005063105/http://sddr.faoswalim.org/downloads/Long%20Term%20Mean_Monthly__sunshine%20fraction.xls
  |archive-date = 5 October 2016
- |url-status     = dead
+ |url-status     =
  |df           = dmy-all
 }}</ref>
 }}
@@ -511,60 +552,19 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 | Nov precipitation mm = 9
 | Dec precipitation mm = 0
 | year precipitation mm = 222
-| source 1 = Weatherbase<ref name=Weatherbase>
+| source 1 = Weatherbase<ref>
   {{cite web
   | url = http://www.weatherbase.com/weather/weather.php3?s=631750&refer=wikipedia |title =Weatherbase: Historical Weather for Burao, Somalia
   | publisher = Weatherbase
   | year = 2011
   | accessdate = 24 November 2011}}</ref>
-| source 2 = Climate Data.ORG<ref name="Climate Data.ORG">
+| source 2 = Climate Data.ORG<ref>
   {{cite web
   | url = http://en.climate-data.org/location/907/ |title =Climate: Burao, Somalia
   | publisher = Climate-Data.org
   | year = 2013
   | accessdate = 28 December 2013
   }}</ref>
-}}
-{{Weather box|location = [[Borama]]
-|metric first = yes
-|single line = yes
-|Jan high C = 24.6
-|Feb high C = 25.4
-|Mar high C = 27.5
-|Apr high C = 27.8
-|May high C = 29.3
-|Jun high C = 30.0
-|Jul high C = 28.8
-|Aug high C = 28.8
-|Sep high C = 29.0
-|Oct high C = 27.4
-|Nov high C = 25.8
-|Dec high C = 24.4
-|Jan low C = 9.7
-|Feb low C = 11.7
-|Mar low C = 13.8
-|Apr low C = 15.7
-|May low C = 17.0
-|Jun low C = 18.3
-|Jul low C = 17.8
-|Aug low C = 17.6
-|Sep low C = 17.3
-|Oct low C = 13.7
-|Nov low C = 11.3
-|Dec low C = 10.4
-|Jan rain mm = 6
-|Feb rain mm = 21
-|Mar rain mm = 36
-|Apr rain mm = 86
-|May rain mm = 61
-|Jun rain mm = 32
-|Jul rain mm = 78
-|Aug rain mm = 112
-|Sep rain mm = 86
-|Oct rain mm = 18
-|Nov rain mm = 10
-|Dec rain mm = 2
-|source 1 = ''Climate-Data.org''{{full citation needed|date=June 2017}},<!-- undefined<ref name="Climate-Data.org"/> --> altitude: 1454m<ref name="swalim">{{cite web|url=http://www.faoswalim.org/ftp/Land_Reports/Cleared/L-12%20Land%20Resources%20of%20Somalia.pdf |title=Land Resources Assessment of Somalia |date=June 2009 |publisher=[[Somalia Water and Land Information Management Project]] |page=10 |accessdate=1 October 2013 |url-status=dead |archiveurl=https://web.archive.org/web/20131005010751/http://www.faoswalim.org/ftp/Land_Reports/Cleared/L-12%20Land%20Resources%20of%20Somalia.pdf |archivedate=5 October 2013 }}</ref>
 }}
 {{Weather box|location = [[Ceerigaabo]]
 |metric first            = yes
@@ -676,7 +676,7 @@ Somaliland waxay dhacdaa waqooyiga [[Dhulbadhe|dhulbadaha]]. Waa deegaan qalalan
 |Nov humidity            = 34
 |Dec humidity            = 37
 |year humidity           = 44
-|source 1                = [[Deutscher Wetterdienst]]<ref name = DWD631800>
+|source 1                = Deutscher Wetterdienst<ref>
 {{cite web
 | url = http://www.dwd.de/DWD/klima/beratung/ak/ak_631800_kt.pdf
 | title = Klimatafel von Erigavo / Somalia
