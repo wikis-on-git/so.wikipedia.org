@@ -1,0 +1,24 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{Expand Uzbek}} begin-->{{Expand language
+|langcode=uz
+|google=yes
+|otherarticle={{{1|}}}
+|date={{{date|}}}
+|fa={{{fa|}}}
+|topic={{#switch: {{{topic}}}
+ | bio = Taariikh nololeed
+ | geo = Juquraafiga
+ | gov = Dowlada iyo siyaasadaha
+ | culture = Dhaqanka
+ | hist = Taariikhda
+ | sci = Sayniska
+ | tech = Teknolojiyada
+ | sport = Isboortiga
+ | transport = Gaadiidka
+ | struct = Dhismaha iyo qaab dhismeedka
+}}
+|nodoc={{{nodoc|}}}
+|set={{{1|}}}
+|no interwiki={{{no interwiki|}}}
+}}<!--{{Expand Uzbek}} end-->
+}}
