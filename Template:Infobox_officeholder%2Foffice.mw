@@ -115,8 +115,8 @@
   | 
   |{{#if:{{{termstart|}}}
       | {{#if:{{{termend|}}}
-         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|Xafiiska}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|Serving|Co-leading}}&#32;with&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
-         |{{#if:{{{status|}}}|<div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''{{{status}}}'''</div>|<!--else: term is ongoing--><div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''[[korkanaga]]'''</div>}}
+         |<!--then: term has start and end:-->{{nowrap|'''{{{termlabel|Xafiiska}}}'''}}<br />{{{termstart}}}{{#iferror:{{#expr:{{{termstart}}}*{{{termend}}}}}|&nbsp;–&#32;|–}}{{{termend}}}{{#if:{{{alongside|}}}{{{co-leader|}}}|<div style="line-height:normal; padding-top:0.2em; padding-bottom:0.1em">{{#if:{{{alongside|}}}|La adeegaya|Co-leading}}&#32;&#32;{{#if:{{{alongside|}}}|{{{alongside}}}|{{{co-leader}}}}}</div>}}
+         |{{#if:{{{status|}}}|<div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''{{{status}}}'''</div>|<!--else: term is ongoing--><div style="width:100%; margin:0; background-color: {{{color|lavender}}}">'''[[Xilka]]'''</div>}}
          }}
     }}
 }} }}
