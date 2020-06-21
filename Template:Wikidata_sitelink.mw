@@ -1,1 +1,1 @@
-<includeonly>{{#if:{{{lang|}}}|{{#invoke:WikidataIB|getSiteLink|{{{lang}}}{{{project|wiki}}}}}|{{error|Error: No language code specified}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
+<includeonly>{{#if:{{{lang|}}}|{{#invoke:WikidataIB|getSiteLink|{{{lang}}}{{{project|wiki}}}}}|{{error|Qalad: Lambar sireedka luqada laguma darin}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
