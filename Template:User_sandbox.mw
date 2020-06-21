@@ -1,18 +1,53 @@
-{{user other|
-|1={{Ombox
-|type = notice
-|image = [[File:Essay.svg|50px|link=]]
-|text = <div>
-Kani {{#if:{{{list|}}}|waa|waa}} bacaadka isticmaalaha ee '''[[{{NAMESPACE}}:{{{1|{{BASEPAGENAMEE}}}}}|{{{1|{{BASEPAGENAME}}}}}]]'''.  Waxaa loogu talo galay inaad ku tijaabiso maqaalada Wikipedia'''. {{#ifeq:{{{plain|}}}|dhammaan|<!--blank-->|<small>Bacaadkaada, [{{fullurl:Special:MyPage/sandbox|action=edit&preload=Template:User_sandbox/preload}} halkaan ka samee].</small>}}{{#if:{{{list|}}}|<p>Kani waa isticmaalaha bacaadka: {{{list}}}}}</p>{{#if:{{{plain|}}}|<!--blank-->|<p>bacaadyada kale: [[Wikipedia:Sandbox|Bacaadka guud]] &#x7c; [[Wikipedia:Tutorial/Editing/sandbox|Tutorial sandbox 1]], [[Wikipedia:Tutorial/Formatting/sandbox|2]], [[Wikipedia:Tutorial (Wikipedia links)/sandbox|3]], [[Wikipedia:Tutorial/Wikipedia links/sandbox|4]], [[Wikipedia:Tutorial/Keep in mind/sandbox|5]] {{!}} [[Template:Template sandbox|Template sandbox]]</p>}}
-</div>
-{{#if:{{{selectskin|<noinclude>-</noinclude>}}}|<div style="font-size:x-small; text-align:center;">{{selectskin}}</div>}}
-Haddii aad doonayso inaad qorto, aadna diyaar u tahay codsiga samaynta, [{{fullurl:{{FULLPAGENAME}}|action=edit&section=new&preload=Template:AFC_submission/Subst&preloadtitle=Request%20review%20at%20%5B%5BWP:AFC%5D%5D}} '''halkaan guji'''].
-{{#ifeq:{{{noindex|yes}}}|yes| __NOINDEX__ }}
-}}
-|2={{error|This sandbox is in the {{#if:{{NAMESPACE}}|{{NAMESPACE}}|article}} namespace. Either [[Special:MovePage/{{FULLPAGENAME}}|move]] this page into your [[WP:Userpages|userspace]], or remove the {{tp|User sandbox}} template.}}
-|demospace={{{demospace|<noinclude>user</noinclude>}}}}}<noinclude>
+{{user other
+ | 1 = 
+   {{ambox
+    |type = notice
+    |image = [[File:Essay.svg|50px|link=]]
+    |text = 
+      <div><!--
+      -->Kani waa {{#if:{{{list|}}}||isticmaalaha}} sanduuqa [[Help:My sandbox|bacaadka]] '''[[{{NAMESPACE}}:{{{1|{{ROOTPAGENAME}}}}}|{{{1|{{ROOTPAGENAME}}}}}]]'''. <!--
+      -->Isticmaalaha sanduuqa bacaadka waa bog hoose ee [[Wikipedia:User pages|bogga isticmaalaha]]. <!--
+      -->Waxay u adeegtaa si meel tijaabo ah iyo meel isticmaalaha ku tabo barto mana kamid ahan '''maqaalada Encyclopedia'''. <!--
+      -->{{#ifeq: {{{plain|}}} | all 
+          | <!--blank-->
+          | <small> Abuur ama wax ka badal sanduuqaaga bacaadka [{{fullurl:Special:MyPage/sandbox|action=edit&preload=Template:User_sandbox/preload}} Halkaan].</small>
+         }}<!--
+      -->{{#if: {{{list|}}}
+          | <p>This user's sandboxes: {{{list}}}</p>
+         }}<!--
+      -->{{#if: {{{plain|}}}
+          | <!--blank-->
+          | <p><!--
+            --> Sanduuqyada kale ee bacaadka: <!--
+            -->[[Draft:Sandbox|Main sandbox]] &#x7c; <!--
+            -->[[Template:Template sandbox|Template sandbox]]<!--
+         --></p>
+         }}<!--
+   --></div><!--
+
+   -->{{#if: {{{selectskin|}}}
+       | <div style="font-size:x-small; text-align:center;">{{selectskin}}</div>
+      }}<!--
+   -->{{#ifeq: {{{afc|}}} | no 
+       | <!-- blank -->
+       | {{#if: {{{plain|}}}
+          | <!-- blank -->
+          | <hr />{{#invoke:AFC submission catcheck|submitted
+             | This draft has been submitted and is currently awaiting review.
+             | Ma dhammeysay qoritaanka maqaalka qabyada ah? Diyaar ma u tahay inaad codsato tifaftire khibrad leh oo dib u eegis ku sameeya si suurta gal ah loogu daro Wikipedia? {{#if: {{REVISIONID}}<noinclude>0</noinclude>
+                | <span class="afc-draft-submit-button">{{Clickable button 2|Gudbi qoraalkaaga si loo fiiriyo!|url={{fullurl:{{FULLPAGENAME}}|action=edit&section=new&veswitched=0&preload=Template:AFC_submission/Subst&editintro=Template:AFC_submission/Subst/Editintro}}|class=mw-ui-progressive|style=line-height: 1.9em; padding: 0 1.6em 0 1.6em}}</span>
+                | Riix batoonka hoose si aad u kaydsato shaqadaada "<bdi>{{int:Publishpage}}</bdi>" batoon ayaa halkaan ka soo muuqan doona oo kuu oggolaanaya inaad gudbiso qoraalkaaga si loo eego.
+               }}
+            }}
+         }}
+      }}<!--
+   -->{{#ifeq:{{{noindex|yes}}}|yes| __NOINDEX__ }}
+
+   }}
+ | 2 = {{draft other|1= |2= {{error|This sandbox is in the {{#if:{{NAMESPACE}}|{{NAMESPACE}}|article}} namespace. Either [[Special:MovePage/{{FULLPAGENAME}}|move]] this page into your [[WP:Userpages|userspace]], or remove the {{tp|User sandbox}} template.}}|demospace = {{{demospace|}}} }}<includeonly>[[Category:Non-userspace pages using User sandbox]]</includeonly>
+ | demospace = {{{demospace|<noinclude>user</noinclude>}}}
+}}<noinclude>
 
 {{documentation}}
-
-<!--Categories and interwikis go on the /doc subpage.-->
+<!-- Categories go on the /doc subpage, and interwikis go in Wikidata. -->
 </noinclude>
