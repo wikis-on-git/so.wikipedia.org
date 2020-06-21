@@ -1,25 +1,4 @@
-<div class="reflist <!--
- -->{{#if: {{{1|}}}
-    | {{#iferror: {{#ifexpr: {{{1|1}}} > 1 }}
-      | references-column-width 
-      | references-column-count references-column-count-{{{1}}} }}
-    | {{#if: {{{colwidth|}}}
-      | references-column-width }} }}" style="<!--
- -->{{#if: {{{1|}}}
-    | {{#iferror: {{#ifexpr: {{{1|1}}} > 1 }}
-      | {{column-width|{{{1}}}}}
-      | {{column-count|{{{1}}}}} }}
-    | {{#if: {{{colwidth|}}}
-      | {{column-width|{{{colwidth}}}}} }} }} list-style-type: <!--
- -->{{{liststyle|{{#switch: {{{group|}}}
-    | upper-alpha
-    | upper-roman
-    | lower-alpha
-    | lower-greek
-    | lower-roman = {{{group}}}
-    | #default = decimal}}}}};">
-{{#tag:references|{{{refs|}}}|group={{{group|}}}}}</div><noinclude><noinclude>
-[[br:Patrom:Reflist]]
-[[he:תבנית:Reflist]]
-[[pt:Predefinição:Reflist]]
+<sup class="reference plainlinks nourlexpansion" {{#ifeq:{{{noid}}}|noid||id="ref_{{{1}}}"}}>{{#if:{{{2|}}}|[[#endnote_{{{1}}}|{{{2}}}]]|[{{fullurl:{{FULLPAGENAME}}}}#endnote_{{anchorencode:{{{1|}}}}}]}}</sup><noinclude>
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
