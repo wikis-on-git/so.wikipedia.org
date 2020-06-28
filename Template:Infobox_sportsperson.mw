@@ -1,0 +1,164 @@
+{{Infobox
+| child     = {{{child|{{{embed|}}}}}}
+
+| bodyclass   = vcard
+| headerstyle = {{#ifeq:{{{child|{{{embed|}}}}}}|yes||background:{{#if:{{{headercolor|}}}|{{{headercolor}}}; {{#if:{{{textcolor|}}}|color:{{{textcolor}}}}}|#CCCC99}};}}
+
+| title     = {{#ifeq:{{{child|{{{embed|}}}}}}|yes|'''Sports career'''|{{#if:{{{honorific_prefix|{{{honorific prefix|}}}}}}|<span class="honorific-prefix" style="font-size: 77%; font-weight: normal">{{{honorific_prefix|{{{honorific prefix|}}}}}}</span><br />}}<includeonly><span class="fn">{{If empty|{{{name|}}}|{{PAGENAMEBASE}}}}</span></includeonly>{{#if:{{{honorific_suffix|{{{honorific suffix|}}}}}}|<br /><span class="honorific-suffix" style="font-size: 77%; font-weight: normal">{{{honorific_suffix|{{{honorific suffix|}}}}}}</span>}}}}
+
+| image     = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|upright=1.1|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption   = {{{caption|}}}
+
+ | header1  = {{#if:{{{native_name|}}}{{{native_name_lang|}}}{{{birth_name|}}}{{{birthname|}}}{{{full_name|}}}{{{fullname|}}}{{{nickname|}}}{{{national_team|}}}{{{nationality|}}}{{{ethnicity|}}}{{{citizenship|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{resting_place|}}}{{{resting place|}}}{{{restingplace|}}}{{{resting_place_coordinates|}}}{{{resting place coordinates|}}}{{{restingplacecoordinates|}}}{{{monuments|}}}{{{residence|}}}{{{hometown|}}}{{{education|}}}{{{alma_mater|}}}{{{alma mater|}}}{{{occupation|}}}{{{years_active|}}}{{{years active|}}}{{{yearsactive|}}}{{{employer|}}}{{{agent|}}}{{{height_cm|}}}{{{height_ft|}}}{{{height_in|}}}{{{height|}}}{{{weight_kg|}}}{{{weight_lb|}}}{{{weight_st|}}}{{{weight|}}}{{{spouse|}}}{{{life_partner|}}}{{{other_interests|}}}{{{other-interests|}}}{{{website|}}}|Warbixin shaqsiyadeed}}
+
+ | label2   = Native&nbsp;name
+ |  data2   = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+ | label3   = Birth&nbsp;name
+ |  data3   = {{{birth_name|{{{birthname|}}}}}}
+ | class3   = nickname
+ | label4   = Full&nbsp;name
+ |  data4   = {{{full_name|{{{fullname|}}}}}}
+ | class4   = nickname
+ | label5   = <span class="nowrap">Nickname(s)</span>
+ |  data5   = {{{nickname|}}}
+ | class5   = nickname
+ | label6   = {{#if:{{{national_team|}}}|National&nbsp;team|Dhalasho}}
+ |  data6   = {{#if:{{{national_team|}}}|{{{national_team}}}|{{{nationality|}}}}}
+ | class6   = category
+ | label7   = Ethnicity
+ |  data7   = {{{ethnicity|}}}
+ | class7   = category
+ | label8   = Citizenship
+ |  data8   = {{{citizenship|}}}
+ | class8   = category
+ | label9   = Dhashay
+ |  data9   = {{br separated entries|{{{birth_date|}}}|{{#if:{{{birth_place|}}}|<span class="birthplace">{{{birth_place|}}}</span>}}}}
+ | label10  = Died
+ |  data10   = {{br separated entries|{{{death_date|}}}|{{#if:{{{death_place|}}}|<span class="deathplace">{{{death_place|}}}</span>}}}}
+ | label11  = Resting&nbsp;place
+ |  data11  = {{br separated entries|{{{resting_place|{{{resting place|{{{restingplace|}}}}}}}}}|{{{resting_place_coordinates|{{{resting place coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
+ | class11  = label
+ | label12  = Monuments
+ |  data12  = {{{monuments|}}}
+ | label13  = Residence
+ |  data13  = {{{residence|}}}
+ | label14  = Home&nbsp;town
+ |  data14  = {{{hometown|}}}
+ | label15  = Education
+ |  data15  = {{{education|}}}
+ | label16  = ''[[Alma&nbsp;mater]]''
+ |  data16  = {{{alma_mater|{{{alma mater|}}}}}}
+ | label17  = Occupation
+ |  data17  = {{{occupation|}}}
+ | class17  = role
+ | label18  = Years&nbsp;active
+ |  data18  = {{{years_active|{{{years active|{{{yearsactive|}}}}}}}}}
+ | label19  = Employer
+ |  data19  = {{{employer|}}}
+ | class19  = org
+ | label20  = Agent
+ |  data20  = {{{agent|}}}
+ | class20  = agent
+ | label21  = Dhirirka
+ |  data21  = {{convinfobox|{{{height_cm|}}}|cm|{{{height_ft|}}}|ft|{{{height_in|}}}|in|{{#if:{{{height_in|}}}|0}}}}{{#if:{{{height|}}}|{{infobox person/height|{{{height}}}}}}}
+ | label22  = Culeeska
+ |  data22  = {{convinfobox|{{{weight_kg|}}}|kg|{{{weight_st|}}}|st|{{{weight_lb|}}}|lb|{{#if:{{{weight_kg|}}}|0}}}}{{#if:{{{weight|}}}|{{infobox person/weight|{{{weight}}}}}}}
+ | label23  = <span class="nowrap">Spouse(s)</span>
+ |  data23  = {{{spouse|}}}
+ | label24  = [[Life partner|Life <span class="nowrap">partner(s)</span>]]
+ |  data24  = {{{life_partner|}}}
+ | label25  = Other interests
+ |  data25  = {{{other_interests|{{{other-interests|}}}}}}
+ | label26  = Website
+ |  data26  = {{{website|}}}
+
+|  data30   = {{{module|{{{misc|}}}}}}
+
+| header31  = {{#ifeq:{{{child|{{{embed|}}}}}}|yes||{{#if:{{{country|}}}{{{sport|}}}{{{position|}}}{{{shoots|}}}{{{catches|}}}{{{disability|}}}{{{disability_class|}}}{{{weight_class|}}}{{{rank|}}}{{{event|}}}{{{universityteam|}}}{{{collegeteam|}}}{{{league|}}}{{{club|}}}{{{team|}}}{{{turnedpro|}}}{{{partner|}}}{{{former_partner|}}}{{{formerpartner|}}}{{{coach|}}}{{{retired|}}}{{{coaching|}}}|Isboorti}}}}
+| label34   = Country
+|  data34   = {{{country|}}}
+| label35   = Isboortiga
+|  data35   = {{{sport|}}}
+| label36   = Position
+|  data36   = {{{position|}}}
+| label37   = Shoots
+|  data37   = {{{shoots|}}}
+| label38   = Catches
+|  data38   = {{{catches|}}}
+| label39   = Disability
+|  data39   = {{{disability|}}}
+| label40   = [[Disability sport classification|Disability&nbsp;class]]
+|  data40   = {{{disability_class|}}}
+| label41   = {{#if:{{{weight_class_type|}}}|{{{weight_class_type}}}|Weight&nbsp;class}}
+|  data41   = {{{weight_class|}}}
+| label42   = Rank
+|  data42   = {{{rank|}}}
+| label43   = {{#if:{{{event_type|}}}|{{{event_type}}}|<span class="nowrap">Dhacdo</span>}}
+|  data43   = {{{event|}}}
+| label44   = Kooxda {{#if:{{{universityteam|}}}|Jaamacada|kuliyadeed}} 
+|  data44   = {{#if:{{{universityteam|}}}|{{{universityteam}}}|{{{collegeteam|}}}}}
+| label45   = {{#if:{{{league_type|}}}|{{{league_type}}}|League}}
+|  data45   = {{{league|}}}
+| class45   = org
+| label46   = Club
+|  data46   = {{{club|}}}
+| class46   = org
+| label47   = Team
+|  data47   = {{{team|}}}
+| class47   = org
+| label48   = {{#if:{{{turnedpro_type|}}}|{{{turnedpro_type}}}|Turned pro}}
+|  data48   = {{{turnedpro|}}}
+| label49   = Partner
+|  data49   = {{{partner|}}}
+| label50   = Former <span class="nowrap">partner(s)</span>
+|  data50   = {{{former_partner|{{{formerpartner|}}}}}}
+| label51   = Coached by
+|  data51   = {{{coach|}}}
+| class51   = agent
+| label52   = Retired
+|  data52   = {{{retired|}}}
+| label53   = Now coaching
+|  data53   = {{{coaching|}}}
+
+|  data54   = {{{module2|{{{misc2|}}}}}}
+| rowstyle54 = display: none; speak: none;
+
+| header55  = {{#if:{{{worlds|}}}{{{regionals|}}}{{{nationals|}}}{{{olympics|}}}{{{paralympics|}}}{{{commonwealth|}}}{{{highestranking|}}}{{{pb|}}}|{{#ifeq:{{{child|{{{embed|}}}}}}|yes|Sports achievements and titles|Achievements and titles}}}}
+| label56   = World finals
+|  data56   = {{{worlds|}}}
+| label57   = Regional finals
+|  data57   = {{{regionals|}}}
+| label58   = National finals
+|  data58   = {{{nationals|}}}
+| label59   = [[Olympic Games|Olympic finals]]
+|  data59   = {{{olympics|}}}
+| label60   = [[Paralympic Games|Paralympic finals]]
+|  data60   = {{{paralympics|}}}
+| label61   = [[Commonwealth Games|Commonwealth finals]]
+|  data61   = {{{commonwealth|}}}
+| label62   = Highest world ranking
+|  data62   = {{{highestranking|}}}
+| label63   = Shaqsiyan <span class="nowrap">ugu fiican</span>
+|  data63   = {{{pb|}}}
+
+| header64  = {{Infobox medal templates
+ | title  = {{{medaltemplates-title|}}}
+ | medals = {{{medaltemplates|}}}
+ | expand = {{#ifeq:{{lc:{{{show-medals}}}}}|no||yes}}
+ }}
+
+|  data65   = {{{module3|{{{misc3|}}}}}}
+
+| belowstyle  = color:darkslategray;
+| below     = {{#if:{{{updated|}}}|Updated on {{{updated}}}.}}
+
+}}<includeonly>{{#if:{{{textcolor|}}}|[[Category:Bog adeegsanaayo infobox sportsperson oo leh qoraal midab leh]]
+}}{{#ifeq:{{{child|{{{embed|}}}}}}|yes||{{Wikidata image|1={{{image|}}}|2={{{nocat_wdimage|}}} }} 
+}}</includeonly>{{#invoke:Check for unknown parameters | check | ignoreblank = y
+| unknown = {{main other|[[Category:Pages using Infobox sportsperson with unknown parameters|_VALUE_{{PAGENAME}}]]}}
+| preview = Page using [[Template:Infobox sportsperson]] with unknown parameter "_VALUE_"
+| child | embed | headercolor | textcolor | honorific_prefix | honorific prefix | name | honorific_suffix | honorific suffix | image | image_size | imagesize | alt | caption | native_name | native_name_lang | birth_name | birthname | full_name | fullname | nickname | national_team | nationality | ethnicity | citizenship | birth_date | birth_place | death_date | death_place | resting_place | resting place | restingplace | resting_place_coordinates | resting place coordinates | restingplacecoordinates | monuments | residence | hometown | education | alma_mater | alma mater | occupation | years_active | years active | yearsactive | employer | agent | height_cm | height_ft | height_in | height | weight_kg | weight_lb | weight_st | weight | spouse | life_partner | other_interests | other-interests | website | module | misc | country | sport | position | shoots | catches | disability | disability_class | weight_class | rank | event | universityteam | collegeteam | league | club | team | turnedpro | partner | former_partner | formerpartner | coach | retired | coaching | weight_class_type | event_type | league_type | turnedpro_type | module2 | misc2 | worlds | regionals | nationals | olympics | paralympics | commonwealth | highestranking | pb | medaltemplates-title | medaltemplates | show-medals | module3 | misc3 | updated | nocat_wdimage
+}}<noinclude>
+{{Documentation}}
+<!--PLEASE PUT CATEGORIES IN [[Template:Infobox Sportsperson/doc]].-->
+</noinclude>
