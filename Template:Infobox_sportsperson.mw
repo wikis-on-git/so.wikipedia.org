@@ -123,7 +123,7 @@
 |  data54   = {{{module2|{{{misc2|}}}}}}
 | rowstyle54 = display: none; speak: none;
 
-| header55  = {{#if:{{{worlds|}}}{{{regionals|}}}{{{nationals|}}}{{{olympics|}}}{{{paralympics|}}}{{{commonwealth|}}}{{{highestranking|}}}{{{pb|}}}|{{#ifeq:{{{child|{{{embed|}}}}}}|yes|Sports achievements and titles|Achievements and titles}}}}
+| header55  = {{#if:{{{worlds|}}}{{{regionals|}}}{{{nationals|}}}{{{olympics|}}}{{{paralympics|}}}{{{commonwealth|}}}{{{highestranking|}}}{{{pb|}}}|{{#ifeq:{{{child|{{{embed|}}}}}}|yes|Sports achievements and titles|Guulaha}}}}
 | label56   = World finals
 |  data56   = {{{worlds|}}}
 | label57   = Regional finals
