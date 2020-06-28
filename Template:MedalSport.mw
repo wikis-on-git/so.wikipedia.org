@@ -1,7 +1,7 @@
 <noinclude>{| class="infobox" style="width: 25em; font-size: 95%;"
 </noinclude>
 |-
-! colspan="3" style="text-align:center;vertical-align:middle;background-color:#eeeeee;" | {{{1}}}{{Main other | {{#ifeq: {{#property:P21}} | male | {{#ifeq: {{str left|{{{1}}}|5}} | Women | [[Category:Maqaallada ku saabsan ragga leh nooca MedalSport template loogu talagalay isboortiga nimanka]]}}}}{{#ifeq: {{#property:P21}} | female | {{#ifeq: {{str left|{{{1}}}|3}} | Men | [[Category:Maqaallada ku saabsan haweenka leh nooca MedalSport template loogu talagalay isboortiga haweenka]]}}}}}}<noinclude>
+! colspan="3" style="text-align:center;vertical-align:middle;background-color:#eeeeee;" | {{{1}}}{{Main other | {{#ifeq: {{#property:P21}} | nimanka | {{#ifeq: {{str left|{{{1}}}|5}} | Haweenka | [[Category:Maqaallada ku saabsan ragga leh nooca MedalSport template loogu talagalay isboortiga nimanka]]}}}}{{#ifeq: {{#property:P21}} | haweenka | {{#ifeq: {{str left|{{{1}}}|3}} | Nimanka | [[Category:Maqaallada ku saabsan haweenka leh nooca MedalSport template loogu talagalay isboortiga haweenka]]}}}}}}<noinclude>
 |}
 {{documentation}}
 </noinclude>
