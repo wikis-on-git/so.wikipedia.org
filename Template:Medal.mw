@@ -18,7 +18,7 @@
 |Competition|Comp|Sport|Team = colspan ="3"{{!}} '''<span class="nowrap">{{{2|}}}</span>'''
 |Olympics|Olympic = colspan ="3"{{!}} '''<span class="nowrap">[[Olympic Games]]</span>'''
 |WorldChampionships = colspan ="3"{{!}} '''<span class="nowrap">World Championships</span>'''
-|Country = colspan ="3"{{!}} '''Representing <span class="country-name">{{{2}}}</span>'''
+|Country = colspan ="3"{{!}} '''Matalo <span class="country-name">{{{2}}}</span>'''
 |Independent = colspan ="3"{{!}} '''Competed as an <span class="country-name">{{{2}}}</span>'''
 }}{{#switch: {{{1}}}
 |Competition|Comp|Country|Sport|Team|Independent|Olympic|Olympics|WorldChampionships=
