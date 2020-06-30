@@ -1,0 +1,17 @@
+<noinclude>{{pp-template|small=yes}}{{used in system}}</noinclude>{{{msg|<span class="error">Error: no message set for {{tl|broken ref}}</span>}}} ({{#switch:{{{lang|}}}
+| en    = see the [[Help:Cite errors/{{{help|}}}|help page]]
+| es    = consulta la [[Help:Cite errors/{{{help|}}}|página de ayuda]]
+| en-gb = see the [[Help:Cite errors/{{{help|}}}|help page]]
+| fr    = vous pouvez consulter [[Help:Cite errors/{{{help|}}}|la page d'aide]] pour plus d'informations
+| pt-br = veja [[Help:Cite errors/{{{help|}}}|a página de ajuda]] para mais informações
+| ru    = подробнее см. [[Help:Cite errors/{{{help|}}}|справочную страницу]]
+| de    = siehe die [[Help:Cite errors/{{{help|}}}|Hilfeseite]] für weitere Informationen
+| id    = lihat [[Help:Cite errors/{{{help|}}}|halaman bantuan]] untuk informasi lebih lanjut
+| ar    =  [[Help:Cite errors/{{{help|}}}|صفحة المساعدة]] للمزيد من المعلومات
+| nl    = meer informatie staat op de [[Help:Cite errors/{{{help|}}}|hulppagina]]
+| zh-cn = 详情参见[[Help:Cite errors/{{{help|}}}|帮助页]].
+| ro    = vedeți [[Help:Cite errors/{{{help|}}}|pagina de ajutor]] pentru mai multe informații
+| it    = vedi la [[Help:Cite errors/{{{help|}}}|pagina di aiuto]] per maggiori informazioni
+| tr    = [[Help:Cite errors/{{{help|}}}|yardım sayfasına]] bakınız
+| en-ca = see the [[Help:Cite errors/{{{help|}}}|help page]]
+}}).<!-- Languages are in order by preference popularity -->
