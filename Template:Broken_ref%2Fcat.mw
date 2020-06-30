@@ -1,0 +1,8 @@
+<includeonly>{{#if:{{{nocat|}}}|
+ | [[Category:{{#switch: {{{help|}}}
+              | Cite error references no text = Pages with broken reference names
+              | Cite error group refs without references = Pages with missing references list
+              | Cite error references duplicate key = Pages with duplicate reference names
+              | #default = Pages with incorrect ref formatting
+              }}|{{{sortkey|}}}{{PAGENAME}}]]
+             }}</includeonly><noinclude>{{documentation}}</noinclude>
