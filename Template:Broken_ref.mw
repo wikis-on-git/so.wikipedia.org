@@ -1,0 +1,37 @@
+<!-- Prefix: MediaWiki:Cite error -->{{#if:{{{prefix|}}}
+ |{{#invoke:Namespace detect|main
+ | main              = {{{prefix|}}}
+ | category          = {{{prefix|}}}
+ | template          = {{{prefix|}}}
+ | file              = {{{prefix|}}}
+ | help              = {{{prefix|}}}
+ | portal            = {{{prefix|}}}
+ | wikipedia         = {{{prefix|}}}
+ | draft             = {{{prefix|}}}
+ | other             = <span class="brokenref">{{{prefix|}}}</span>
+}}<!-- All other errors -->|{{#invoke:Namespace detect|main
+ | main              = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | category          = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | template          = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | file              = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | help              = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | portal            = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | wikipedia         = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | draft             = {{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}}}}
+ | other             = <span class="brokenref">{{broken ref/lang |msg={{{msg|}}} |lang={{{lang|}}} |help={{{help|}}} }}</span>
+}}<!-- Category management -->{{#invoke:Namespace detect|main
+ | main              = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=}}
+ | category          = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=γ}}
+ | template          = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=τ}}
+ | file              = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=ι}}
+ | help              = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=ω}}
+ | portal            = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=ρ}}
+ | wikipedia         = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=ψ}}
+ | draft             = {{broken ref/cat |help={{{help|}}} |nocat={{{nocat|}}} |sortkey=δ}}
+ | other             = 
+}}
+}}
+<noinclude>{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+{{reflist}} <!-- dummy to steer automated tools away from this template -->
+</noinclude>
