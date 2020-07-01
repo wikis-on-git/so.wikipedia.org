@@ -1,7 +1,7 @@
 {{#if: {{{1|<noinclude>—</noinclude>}}} 
 | {{#switch: {{{3|+}}}
     | - = {{{4|carabi}}}{{LangF|ar|{{{3}}}}}
-    | + = [[Carabi|{{{4|Af-Carabi}}}]]{{LangF|ar|{{{3}}}}}
+    | + = [[Carabi|{{{4|Af Carabi}}}]]{{LangF|ar|{{{3}}}}}
     | * =
   }}<!--
 -->{{lang|ar|{{{1}}}}}<!-- 
@@ -9,3 +9,8 @@
 | {{icon ara}}
 }}<!-- 
 --><noinclude>{{Documentation}}</noinclude>
+<noinclude>
+
+[[Category:Lang-x templates|ar]]
+
+</noinclude>
