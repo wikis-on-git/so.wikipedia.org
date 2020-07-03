@@ -1,11 +1,2 @@
-{{#if: {{{1|<noinclude>—</noinclude>}}} 
-| {{#switch: {{{3|+}}}
-    | - = {{{4|Af-Faransiis}}}{{LangF|fr|{{{3}}}}}
-    | + = [[Af-Faransiis|{{{4|Af-Faransiis}}}]]{{LangF|fr|{{{3}}}}}
-    | * =
-  }}<!--
--->{{lang|fr|{{{1}}}}}<!-- 
--->{{#if: {{{2|<noinclude>—</noinclude>}}}|{{LangTd|{{{2}}}}}}}
-| {{icon fra}}
-}}<!-- 
---><noinclude>{{Documentation}}</noinclude>
+{{Language with name|fr|Af Faransiis |{{{1}}}}}<noinclude>
+[[Category:Lang-x templates|fr]]</noinclude>
