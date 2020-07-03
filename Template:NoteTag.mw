@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{{name|}}}
+ |{{#tag:ref|{{{1|{{{note|{{{content|{{{text|}}}}}}}}}}}}|group=note|name={{{name|}}}}}
+ |{{#tag:ref|{{{1|{{{note|{{{content|{{{text|}}}}}}}}}}}}|group=note}}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
