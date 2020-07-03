@@ -1,11 +1,2 @@
-{{#if: {{{1|<noinclude>—</noinclude>}}} 
-| {{#switch: {{{3|+}}}
-    | - = {{{4|Af-Burtiqiis}}}{{LangF|pt|{{{3}}}}}
-    | + = [[Af-Burtiqiis|{{{4|Af-Burtiqiis}}}]]{{LangF|pt|{{{3}}}}}
-    | * =
-  }}<!--
--->{{lang|pt|{{{1}}}}}<!-- 
--->{{#if: {{{2|<noinclude>—</noinclude>}}}|{{LangTd|{{{2}}}}}}}
-| {{icon por}}
-}}<!-- 
---><noinclude>{{Documentation}}</noinclude>
+{{Language with name|pt|Af Bortuqiis |{{{1}}}}}<noinclude>
+[[Category:Lang-x templates|pt]]</noinclude>
