@@ -1,0 +1,49 @@
+{{ sidebar
+| name         = Gadabuursi
+| pretitle     = Beelaha
+| title        = [[Samaroon|Gadabuursiga]]
+| titlestyle   = font-size: 150%
+| image        = [[File:Adal.PNG|160px]]
+| imagestyle   = padding-left:1em; padding-right:1em
+| headingstyle = background-color: #f4eea1; padding-top: 0
+| contentclass = hlist
+
+| heading1     = '''[[Beesha Habar Cafaan]]'''
+| content1     =
+* [[Xeebjire]] 
+* [[Muusafiin]] 
+* Dhagaweyne
+* Makayl 
+* Reer Xaamud
+* Hansasacad (xasan sacad)
+* Faroole
+* [[Jibraacin]]
+* Cali Ganuun
+* Reer Yuusuf
+* Reer Ciise
+* Gobe 
+* Reer Xaamud 
+
+| heading2     = '''[[Makaahiil|Beesha Makaahiil]]'''
+| content2     =
+* Ciye Makaahiil (Ciye)
+* Celi Makaahiil(Celi)
+* Cabdalle Makaahiil (Bahabar Cabdalle)
+* Xasan Makaahiil (Bahabar Xasan)
+* Jibriil Muuse (Afguduud)
+* Bahsanayo 
+* Makayl-Dheere
+* Cali Yoonis
+* Jibriil Yoonis
+* Aadan Yoonis 
+* Nuur Yoonis (Reer Nuur)
+
+| heading3     = '''[[Beesha Maxamed Case]]'''
+| content3     =
+* Reer Maxamed
+* Bahabar Celi
+* Bahabar Aadan
+* Bahabar Abokor
+* Bahabar Muuse
+* Abrayn 
+}}
