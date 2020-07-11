@@ -274,7 +274,7 @@
 
 <!-- ***Dawladda nuuca iyo Hoggaanka*** -->
 | rowclass52 = mergedtoprow
-| header52 = {{#if:{{{government_type|}}}{{{governing_body|}}}{{{leader_name|}}}{{{leader_name1|}}}{{{leader_name2|}}}{{{leader_name3|}}}{{{leader_name4|}}}|Government<div style="font-weight:normal;display:inline;">{{{government_footnotes|}}}</div>}}
+| header52 = {{#if:{{{government_type|}}}{{{governing_body|}}}{{{leader_name|}}}{{{leader_name1|}}}{{{leader_name2|}}}{{{leader_name3|}}}{{{leader_name4|}}}|Dowlada<div style="font-weight:normal;display:inline;">{{{government_footnotes|}}}</div>}}
 <!-- ***Dowlada*** -->
 | rowclass53 = mergedrow
 | label53 = &nbsp;•&nbsp;Nuuca
