@@ -1,11 +1,2 @@
-{{#if: {{{1|<noinclude>—</noinclude>}}} 
-| {{#switch: {{{3|+}}}
-    | - = {{{4|Af-Bolandi}}}{{LangF|pl|{{{3}}}}}
-    | + = [[Af-Bolandi|{{{4|Af-Bolandi}}}]]{{LangF|pl|{{{3}}}}}
-    | * =
-  }}<!--
--->{{lang|pl|{{{1}}}}}<!-- 
--->{{#if: {{{2|<noinclude>—</noinclude>}}}|{{LangTd|{{{2}}}}}}}
-| {{icon pol}}
-}}<!-- 
---><noinclude>{{Documentation}}</noinclude>
+{{Language with name|pl|Af Bolish |{{{1}}}}}<noinclude>
+[[Category:Lang-x templates|pl]]</noinclude>
