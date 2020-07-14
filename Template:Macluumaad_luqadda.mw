@@ -50,7 +50,7 @@
   |Era
   |{{#if:{{{creator|}}}
   |Users
-  |Afkiisa hooyo {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |speakers
     |U ah afka hooyo
     }} }}
