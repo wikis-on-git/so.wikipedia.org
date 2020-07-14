@@ -18,11 +18,11 @@
 | label1 = Dhawaaq
 | data1 = {{#if:{{{pronunciation|}}}| {{{pronunciation|''will be added''}}}}}
 | label2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
-  | Created&nbsp;by
+  | waxaa&nbsp;abuuray
   | {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |Spoken
-    |Ku hadla
-    }} Dad udhashay
+    |Dhalad u ah
+    }} 
   }}
 | data2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |{{{creator|–}}}
@@ -32,7 +32,7 @@
 | data3 = {{{created|}}}
 | label4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |Setting and usage
-  |{{#if:{{{region|}}}|Meelaha}}
+  |{{#if:{{{region|}}}|Gobolka}}
   }}
 | data4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
     |{{{setting|}}}
@@ -42,7 +42,7 @@
 | data5 = {{#if:{{{latd|}}}
   | <small style="white-space: nowrap">{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}|{{{longm}}}|{{{longEW}}}|type:landmark|display=inline}}</small>
   }}
-| label6 = Ethnicity
+| label6 = Qoomiyada
 | data6 = {{{ethnicity|}}}
 | label7 = {{#if:{{{extinct|}}}
   |[[Extinct language|Extinct]]
@@ -52,7 +52,7 @@
   |Users
   |Afkiisa hooyo {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |speakers
-    |Ku hadla
+    |U ah afka hooyo
     }} }}
   }} }}
 | data7 =<!--
@@ -84,7 +84,7 @@ Add speakers2 after the ref:
 
 | label8 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |Purpose
-  |[[Bahda afafka]]
+  |[[Qoyska luqada]]
   }}
 | data8 = <div style="text-align:left;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
   |''Unknown''<includeonly>[[Category:Languages without classification]]</includeonly>
@@ -184,17 +184,17 @@ Add speakers2 after the ref:
 | label13 = Sources
 | data13 = {{{posteriori|}}}
 
-| header14 = {{#if:{{{nation|}}}{{{agency|}}}|Heer caalami}}
-| label15 = Luqadda rasmiga ah ee
+| header14 = {{#if:{{{nation|}}}{{{agency|}}}|Xaalada Rasmiga}}
+| label15 = Ka ah Luqad rasmi
 | data15 = {{{nation|}}}
-| label16 = Recognised minority language in
+| label16 = ka ah luuqadaha la aqoonsaday ee laga tirada badan yahay
 | data16 = {{{minority|}}}
 | label17 = [[List of language regulators|Regulated by]]
 | data17 = {{{agency|{{#ifexpr:{{#if:{{{agency|}}}|1|0}} and {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|Default}}}}}|black|1}}|1|0}}
   | ''None''
 <!--  | {{#if:{{{nation|}}}|''No official regulation''}} [this ends up claiming that languages have no regulation just cuz no-one bothered to add the regulator -->
   }}}}}
-| header18 = Luqada astaamaheed
+| header18 = Koodka luqada
 | label19 = [[ISO 639-1]]
 | data19 = {{#if:{{{iso1|}}}|<tt>{{{iso1}}}</tt>}}
 | label20 = [[ISO 639-2]]
