@@ -1,4 +1,4 @@
-{{ {{{|safesubst:}}}#invoke:Unsubst||$N=Refimprove |taariikh=__DATE__ |$B=
+{{ {{{|safesubst:}}}#invoke:Unsubst||$N=Refimprove |date=__DATE__ |$B=
 {{ambox
 | name  = {{{name|Refimprove}}}
 | subst = {{{subst|<includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>}}}
@@ -9,7 +9,7 @@
 | issue = {{#if:{{{1|}}}|{{{1}}}|Maqaalkaan}} '''wuxuu u baahanyahay [[Wikipedia:Xigasho|xigasho dheeraad ah]]'''.
 | fix   = fadlan ka caawi [{{fullurl:{{FULLPAGENAME}}|action=edit}} habaynta] adigoo [[Help:Introduction to referencing/1|ku soo daraayo xigashooyin lagu kalsoonaan karo]]. Xigasho la'aan waxay sabibi kartaa in meesha laga saaro.
 | talk  = {{{talk|}}}
-| date  = {{{date|}}}
+| date  = {{{taariikh|}}}
 | cat   = Maqaalada u baahan xigasho ee
 | all   = Dhammaan maqaalada ubaahan xigashada
 }}<!--{{refimprove}} end-->
