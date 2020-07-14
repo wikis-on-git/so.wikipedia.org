@@ -42,9 +42,9 @@
  }}{{Category handler
   |page     = {{SUBJECTPAGENAME}}
   |nocat    = {{{nocat|}}}
-  |category = {{DMC|Wikipedia categories needing cleanup|from|{{{date|}}}}}
+  |category = {{DMC|Qeybaha wikipedia ee u baahan nadiifin|laga bilaabo|{{{date|}}}}}
   |template = {{#ifeq:{{#titleparts:{{FULLPAGENAME}}|1}}|Template:Cleanup||{{DMC|Wikipedia templates needing cleanup|from|{{{date|}}}}}}}
-  |other    = {{DMCA|Wikipedia pages needing cleanup|from|{{{date|}}}}}
+  |other    = {{DMCA|Qeybaha wikipedia ee u baahan nadiifin|laga bilaabo|{{{date|}}}}}
  }}
 }}
 }}<noinclude>
