@@ -194,7 +194,7 @@
 | label18 = {{nowrap|{{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Vice {{{office}}}}}|valid|[[Vice {{{office}}}|Vice Premier]]|Vice Premier}}|Vice Premier}}}}
 | data18 = {{{vicepremier|}}}
 
-| label19 = {{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Deputy {{{office}}}}}|valid|[[Deputy {{{office}}}|Deputy]]|Deputy}}|Deputy}}
+| label19 = {{#if:{{{office|}}}|{{#ifeq:{{isValidPageName|Ku xigeen {{{office}}}}}|valid|[[Ku xigeen {{{office}}}|Ku xigeen]]|Ku xigeen}}|Ku xigeen}}
 | data19 = {{{deputy|}}}
 
 | label20 = Leader
