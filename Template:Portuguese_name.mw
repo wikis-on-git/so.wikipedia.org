@@ -1,0 +1,14 @@
+{{Hatnote|Magacaani wuxuu adeegsanayaa [[Magacyada bortuqiiska|magacyada caadiga ah ee Boortaqiiska]]: {{#if:{{{1|{{{first|}}}}}}|Magaca koowaad ama  [[Magaca qoyska|qoyska hooyada]] waa ''{{trim|{{{1|{{{first}}}}}}}}''{{#if:{{{2|{{{second|}}}}}}|{{sp}}iyo kan labaad ama magaca aabaha waa ''{{trim|{{{2|{{{second}}}}}}}}''}}.|{{#if:{{{2|{{{second|}}}}}}|magaca labaad ama aabaha aabihiis waa ''{{trim|{{{2|{{{second}}}}}}}}''.}}}}{{#if:{{{3|{{{suffix|}}}}}}|{{sp}}''"{{trim|{{{3|{{{suffix}}}}}}}}"'' waa [[qarniyo suffiks]]{{#switch:{{trim|{{{3|{{{suffix}}}}}}}}
+ |Segundo={{sp}}macnaha  "kan labaad", kaas oo loo isticmaalo qof magiciisu la mid yahay aabahood.
+ |Filho={{sp}}macnaha "wiil", oo loo isticmaalo qof magaciisa la mid ah aabahood, sida "Jr" af Ingiriis.
+ |Júnior
+ |Junior={{sp}} Waxaa loo adeegsaday qof magaciisa la mid ah aabahood, sida "Jr." af Ingiriis.
+ |Terceiro={{sp}}macnaha "sadaxaad", kaas oo loo isticmaalo qof magiciisu la mid yahay aabahood iyo awoowayaashooda, sida "III" af Ingiriis.
+ |Neto
+ |Netto={{sp}}macnaha "awoow", kaas oo loo isticmaalo qof magiciisu la mid yahay aabahood iyo awoowayaashooda, sida "III" af Ingiriis.
+ |Sobrinho={{sp}}macnaha "adeer". 
+ |#default=.{{main other|[[Category:Template ka magaca Boortaqiiska ee u baahan dayactir]]}}
+}}}}{{#if:{{{1|}}}{{{first|}}}{{{2|}}}{{{second|}}}{{{3|}}}{{{suffix|}}}||{{main other|[[Category:Template ka magaca Boortaqiiska ee u baahan dayactir]]}}}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
