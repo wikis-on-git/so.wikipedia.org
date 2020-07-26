@@ -1,8 +1,83 @@
+{{{onright|{{{rhs|}}}}}}
 {{Cmbox
-|type = notice
-|image = [[file:Curly Brackets.svg|30px|Template braces]]
-|text = Halkan waxay gaar u tahay [[Wikipedia:Template|tusmooyinka]] [[:Category:Maamulka wikipedia|Wikipedia]]{{#if:{{{1|}}}|&nbsp;ee ku saabsan {{#ifexist:{{{1|}}}|[[{{delink|{{{1}}}}}]]|{{delink|{{{1}}}}}}}}}. {{{2|{{{description| {{{cadaynta|}}} }}}}}}
-}}<includeonly>{{{Categry|[[Category:Template|{{PAGENAME}}]]}}}</includeonly>
-<noinclude>
+| type = notice
+| style = padding-bottom:0.5em;
+| image = {{#ifeq:{{{type|}}}|module|[[File:Lua-logo-nolabel.svg|44px|Lua logo|alt=Lua logo|link=]]|[[File:Curly Brackets.svg|44px|Template braces|alt=|link=]]}}
+| text = <div style="width:98%;"><!--
+
+ Container-category message
+   -->{{yesno|1={{{container|}}}
+       |yes=<div style="font-size:115%;padding:0.5em 0;"> '''''Fiiro gaar ah: Fadlan ha ku darin {{#ifeq:{{{type|}}}|modules|templates}} qeybtaan; bedelkeeda, isticmaal mid ka mid ah qeybhoosaadkiisa.''''' </div>
+      }}<!--
+
+ (type/)topic/description
+   -->{{#if:{{{topic|}}}{{{description|}}}
+       | <div style="background:#d5e4ed;line-height:1.5em;border:1px solid #aaa;font-size:120%;padding:0.35em;"> <!--
+          -->{{#if:{{{topic|}}} |'''{{#switch:{{lc:{{{type}}}}} |navbox|navigation|navigational|infobox|sidebar|={{ucfirst:{{{type}}}}} templates |module=Modules|#default=Templates}} relating to {{{topic}}}.'''&nbsp;{{{1|}}}{{{description|}}}
+              | <div><!--(in case 1/description begins with newline:)--> {{{1|}}}{{{description|}}} </div>
+             }} </div>
+      }}<!--
+
+ type --><div style="line-height:1.3em;padding-top:0.3em;"> <!--
+          -->{{#if:{{{type|}}} <!--
+    (then:)-->| <div style="font-size:95%;font-weight:bold;"> Bogagga ku taxan qaybtaan waa {{#ifeq:{{{type|}}}|module||waxaa loola jeedaa inay ahaadaan}} <!--
+                 -->{{#switch:{{lc:{{{type}}}}}
+                     | ambox = [[Wikipedia:Manual of Style/Article message boxes|article message box (ambox)]] templates
+                     | category header
+                     | category heading
+                     | catheader | cat header
+                     | cathead = [[Wikipedia:Categorization|category]] header templates
+                     | campaignbox = [[Wikipedia:Manual of Style/Military history#Campaignboxes|campaignbox]] templates
+                     | conversion = templates that perform [[Wikipedia:Manual of Style/Dates and numbers#Unit conversions|conversions]]
+                     | external link = templates providing [[Wikipedia:External links|external links]]
+                     | formatting = templates that provide [[Wikipedia:Formatting|formatting]]
+                     | function = function templates{{nobold|, i.e. templates that produce text, images or other elements}}
+                     | infobox = [[Help:Infobox|infobox]] templates
+                <!-- | message = [[Wikipedia:Template messages|message]] templates -->
+                     | module = [[Wikipedia:Lua|Lua modules]]
+                     | meta = [[Help:Metatemplating|metatemplates]]
+                     | navigation |navigational |navbox = [[Wikipedia:Navigation template|navigation]] templates
+                     | sidebar = [[:Category:Sidebar templates|sidebar]] templates
+                     | stub = [[Wikipedia:WikiProject Stub sorting/Stub types|stub]] templates
+                     | sub = [[Help:Template#Creating and editing templates|subtemplates]]{{nobold|, i.e. templates used by another template or templates}}
+                     | timeline = [[Wikipedia:Timeline|timeline]] templates
+                     | userbox = [[Wikipedia:Userboxes|userbox]] templates
+                     | #default = {{{1|{{{description|}}}}}}
+                     | {{{type}}} templates
+                    }}. </div><!--
+
+    (else:)-->| <div style="font-size:95%;font-weight:bold;"> Bogagga ku taxan qaybtaan waa [[Help:Template|templates]]. </div>}}
+                <div style="font-size:95%;padding:0.15em 0;line-height:1.3em;"> Boggan wuxuu qayb ka yahay [[:Category:Wikipedia administration|Maamulka wikipedia]] mana ka mid ahan encyclopedia. </div> {{#if:{{{ALTTEXT|}}}|<hr/>{{{ALTTEXT}}}<hr/>}}
+<!--
+ Template dheeraad fiirooyinka qeybta
+          --><div class="mw-collapsible mw-collapsed" style="font-size:90%;padding-top:0.25em;line-height:1.3em;">
+               <div style="border-bottom:1px solid #aaa;font-weight:bold;"> {{#ifeq:{{{type|}}}|module|module|template}} dheeraad fiirooyinka qeybta </div>
+               <div class="mw-collapsible-content">
+                 <div> [[Help:Category|Qeybtaan]] waxay ka kooban tahay bogag kujira  {{#ifeq:{{{type|}}}|module|[[Wikipedia:Module namespace|module namespace]]|[[Wikipedia:Template namespace|template namespace]]}}. Waa in aan loo istcimaalin in [[Wikipedia:What is an article?|maqaalada]] lagu daro ama bogag ku qoran [[Help:Namespace|magac kale]]. </div><br/><!--
+
+                Caawinta hoosaadka
+                 -->{{#if:{{{help|}}}{{{2|}}} <!--
+                 (then:)-->| {{yesno|{{{help|}}} |no={{#if:{{{2|}}}|<div>{{{2}}}</div><br/>}} |yes=<div>{{{help}}}{{{2|}}}</div><br/>|def=<div>{{{help}}}{{{2|}}}</div><br/>}}<!--
+                 (else:)-->| <div> Ku soo darida {{#ifeq:{{{type|}}}|module|module|template}} qeybtaan: </div>
+                 {{#ifeq:{{{type|}}}|module|{{Unbulleted list |list_style=padding-left:1.4em;
+                | Bogga dukumiintiga (badanaa waxaa lagu magacaabaa  "Module:''Name''/doc"), ku dar
+                | {{pad}}<kbd>{{brackets|{{FULLPAGENAME}}}}</kbd>
+                | <nowiki><includeonly></nowiki> qaybta ugu hooseysa bogga.
+               }}|{{Unbulleted list |list_style=padding-left:1.4em;
+                  | Haddii templateka leedahay bog dukumiinti oo gaar ah (badanaa waxa loo yaqaanaa "{{#ifeq:{{{type|}}}|module|Module|Template}}:''template name''/doc"), ku dar
+                  | {{pad}}<kbd>&#91;&#91;{{FULLPAGENAME}}&#93;&#93;</kbd>
+                  | <nowiki><includeonly></nowiki> qaybta ugu hooseysa bogga. haddii kale, ku dar
+                  | {{pad}}<kbd>&lt;noinclude&gt;&#91;&#91;{{FULLPAGENAME}}&#93;&#93;&lt;/noinclude&gt;</kbd>
+                  | dhamaadka koodka templateka, hubi in ay ka bilaabmayso isla xariiqinta sida astaanta ugu dambeysa ee koodka.
+                 }} }} }}
+               </div>
+             </div> <!--(end "Template dheeraad fiirooyinka qeybta")
+
+      --></div> <!--(end of "type" div)-->
+
+</div> <!--(end containing div)-->
+}}<includeonly>{{#ifeq:{{NAMESPACE}}|{{ns:14}}
+                | {{{category|[[Category:Wikipedia template categories]]}}}
+               }}</includeonly><noinclude>
 {{Documentation}}
 </noinclude>
