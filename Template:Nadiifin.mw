@@ -20,7 +20,7 @@
    | talk  = {{{talk|{{{talksection|}}}}}}
    | fix   = {{#if:{{{2|{{{sababta|}}}}}}|
     |Ma jiro [[Template:Cleanup/doc|sabab nadiifin ah]] oo loo cayimay.
-   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}]kaan hadii aad awoodo.
+   }} Fadlan ka caawi [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}]kaan hadii aad awoodo.
    | removalnotice = yes
    | date  = {{{date|}}}
    | cat   = Maqaaalada u baahan nadiifin
@@ -33,7 +33,7 @@
    | text      = {{{1|{{SUBJECTSPACE formatted}}}}}kaan wuxuu u baahanyahay [[Wikipedia:cleanup|nadiifin]] si uu ula jaanqaado [[Wikipedia:Manual of Style|heerka tayada]]''' Wikipedia.  {{#if:{{{2|{{{sababta|}}}}}}
     |Waxa ka qaldan waa: '''{{{2|{{{sababta}}}}}}'''
     |Ma jiro [[Template:Cleanup/doc|sabab nadiifin ah]] oo loo cayimay.
-   }} Fadlan gacan ka geyso [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad karto. {{#ifeq:{{SUBJECTSPACE}}|{{NAMESPACE}}
+   }} Fadlan ka caawi [{{fullurl:{{FULLPAGENAME}}|action=edit}} in aad hagaajiso {{{1|{{SUBJECTSPACE formatted}}}}}] hadii aad karto. {{#ifeq:{{SUBJECTSPACE}}|{{NAMESPACE}}
     |&#59; the [[{{TALKPAGENAME}}{{#if:{{{talksection|}}}|&#35;{{{talksection}}}}}|talk page]] may contain suggestions.
     |.
    }}
