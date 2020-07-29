@@ -8,31 +8,31 @@
 | no          = 
 | austria     = ''[[Emperor of Austria#Full titles|(more...)]]''
 | belgium     = ''[[Monarchy of Belgium#Title|(more...)]]''
-| britain     = ''[[Style of the British sovereign#Styles of British sovereigns|(more...)]]''
-| china       = ''[[Chinese sovereign|(more...)]]''
+| ingiriiska     = ''[[Style of the British sovereign#Styles of British sovereigns|(more...)]]''
+| shiinaha       = ''[[Chinese sovereign|(more...)]]''
 | cyprus      = ''[[Style of the Greek Sovereign#List of changes to the royal style|(more...)]]''
 | denmark     = ''[[Style of the Danish sovereign|(more...)]]''
 | en-sco      = ''[[Style of the British sovereign#Styles of English and Scottish sovereigns|(more...)]]''
 | england     = ''[[Style of the British sovereign#Styles of English sovereigns|(more...)]]''
-| ethiopia    = ''[[Emperor of Ethiopia#Style|(more...)]]''
-| france      = ''[[Style of the French sovereign#List of changes to the royal style|(more...)]]''
+| itoobiya    = ''[[Emperor of Ethiopia#Style|(more...)]]''
+| faransiiska      = ''[[Style of the French sovereign#List of changes to the royal style|(more...)]]''
 | hre         = ''[[Holy Roman Emperor#Coronation|(more...)]]''
 | hungary     = ''[[Styles of Hungarian sovereigns|(more...)]]''
-| italy       = ''[[Style of the Italian sovereign|(more...)]]''
-| jerusalem   = ''[[Kings of Jerusalem#Kings of Jerusalem (1099–1291)|(more...)]]''
-| luxembourg  = ''[[Grand Duke of Luxembourg#Full titles|(more...)]]''
+| talyaaniga       = ''[[Style of the Italian sovereign|(more...)]]''
+| qudus   = ''[[Kings of Jerusalem#Kings of Jerusalem (1099–1291)|(more...)]]''
+| luksembourg  = ''[[Grand Duke of Luxembourg#Full titles|(more...)]]''
 | malaysia    = ''[[Malay titles#Malay_royalty|(more...)]]''
 | monaco      = ''[[Style of the Monegasque sovereign|(more...)]]''
-| netherlands = ''[[Monarchy of the Netherlands#Full title|(more...)]]''
+| holland = ''[[Monarchy of the Netherlands#Full title|(more...)]]''
 | norway      = ''[[Style of the Norwegian sovereign|(more...)]]''
 | parma       = ''[[List of Dukes of Parma|(more...)]]''
-| portugal    = ''[[Style of the Portuguese sovereign|(more...)]]''
-| russia      = ''[[Tsar#Full style of Russian Sovereigns|(more...)]]''
-| scotland    = ''[[Style of the monarchs of Scotland#From the late Middle Ages to the Acts of Union|(more...)]]''
+| bortuqaal    = ''[[Style of the Portuguese sovereign|(more...)]]''
+| ruushka      = ''[[Tsar#Full style of Russian Sovereigns|(more...)]]''
+| skotland    = ''[[Style of the monarchs of Scotland#From the late Middle Ages to the Acts of Union|(more...)]]''
 | sicilies    = ''[[Kingdom of the Two Sicilies#Titles of King of the Two Sicilies|(more...)]]''
 | spain-crown = ''[[List of titles and honours of the Spanish Crown|(more...)]]''
 | spain-heir  = ''[[Titles held by the heir apparent to the Spanish Throne|(more...)]]''
-| sweden      = ''[[Style of the Swedish sovereign|(more...)]]''
+| swiidhan      = ''[[Style of the Swedish sovereign|(more...)]]''
 }}}}}</small>
 }}
 | imageclass = photo
@@ -42,20 +42,20 @@
 | headerstyle = background-color: #e4dcf6
 | header1 =  {{#if:{{{succession|}}}|{{{succession}}} {{#if:{{{moretext|}}}|{{nobold|<small>{{{moretext}}}</small>}}}}}}
 
-| label2 = {{ifempty| {{{reign-type|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Tallada}}<!--BACKWARD COMPAT FROM IBR-->}} }}
+| label2 = {{ifempty| {{{reign-type|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Xilka}}<!--BACKWARD COMPAT FROM IBR-->}} }}
 | data2 = {{{reign|}}}
 
 | label3 = {{#switch:{{lc:{{{cor-type}}}}}
-| britain  = [[Coronation of the British monarch|Coronation]]
-| france   = [[Coronation of the French monarch|Coronation]]
+| ingiriiska  = [[Coronation of the British monarch|Coronation]]
+| faransiiska   = [[Coronation of the French monarch|Coronation]]
 | hre      = [[Coronation of the Holy Roman Emperor|Coronation]]
 | hungary  = [[Coronation of the Hungarian monarch|Coronation]]
-| japan    = [[Enthronement of the Japanese Emperor|Enthronement]]
+| jabaan    = [[Enthronement of the Japanese Emperor|Enthronement]]
 | malaysia = [[Installation of the Malaysian Sovereign|Installation]]
 | norway   = [[Royal coronations in Norway|Coronation]]
 | ottoman  = [[Sword of Osman|Sword girding]]
-| poland   = [[Coronations in Poland|Coronation]]
-| russia   = [[Coronation of the Russian monarch|Coronation]]
+| boland   = [[Coronations in Poland|Coronation]]
+| ruushka   = [[Coronation of the Russian monarch|Coronation]]
 | #default = {{ifempty|{{{cor-type|}}}|[[Coronation]]}}
 }}
 | data3 = {{{coronation|}}}
@@ -80,10 +80,10 @@
 | label10 = {{#if:{{{cor-type1|}}}|{{{cor-type1}}}|Coronation}}
 | data10 = {{{coronation1|}}}
 
-| label11 = {{#if:{{{pre-type1|}}}|{{{pre-type1}}}|Predecessor}}
+| label11 = {{#if:{{{pre-type1|}}}|{{{pre-type1}}}|Ka horeeyay}}
 | data11 = {{{predecessor1|}}}
 
-| label12 = {{#if:{{{suc-type1|}}}|{{{suc-type1}}}|Successor}}
+| label12 = {{#if:{{{suc-type1|}}}|{{{suc-type1}}}|Ku xigay}}
 | data12 = {{{successor1|}}}
 
 | label13 = {{#if:{{{reg-type1|}}}|{{{reg-type1}}}|Regent}}
@@ -91,16 +91,16 @@
 
 | header14 =  {{#if:{{{succession2|}}}|{{{succession2}}} {{#if:{{{moretext2|}}}|{{nobold|<small>{{{moretext2}}}</small>}}}}}}
 
-| label15 = {{ifempty| {{{reign-type2|}}} | {{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Reign}}<!--BACKWARD COMPAT FROM IBR-->}} }}
+| label15 = {{ifempty| {{{reign-type2|}}} | {{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Xilka}}<!--BACKWARD COMPAT FROM IBR-->}} }}
 | data15 = {{{reign2|}}}
 
 | label16 = {{#if:{{{cor-type2|}}}|{{{cor-type2}}}|Coronation}}
 | data16 = {{{coronation2|}}}
 
-| label17 = {{#if:{{{pre-type2|}}}|{{{pre-type2}}}|Predecessor}}
+| label17 = {{#if:{{{pre-type2|}}}|{{{pre-type2}}}|Ka horeeyay}}
 | data17 = {{{predecessor2|}}}
 
-| label18 = {{#if:{{{suc-type2|}}}|{{{suc-type2}}}|Successor}}
+| label18 = {{#if:{{{suc-type2|}}}|{{{suc-type2}}}|Ku xigay}}
 | data18 = {{{successor2|}}}
 
 | label19 = {{#if:{{{reg-type2|}}}|{{{reg-type2}}}|Regent}}
@@ -108,16 +108,16 @@
 
 | header20 =  {{#if:{{{succession3|}}}|{{{succession3}}} {{#if:{{{moretext3|}}}|{{nobold|<small>{{{moretext3}}}</small>}}}}}}
 
-| label21 = {{ifempty| {{{reign-type3|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Reign}}<!--BACKWARD COMPAT FROM IBR-->}} }}
+| label21 = {{ifempty| {{{reign-type3|}}} |{{#switch:{{{consort|}}}|yes=Tenure|<!--BACKWARD COMPAT FROM IBR-->{{#switch:{{{2}}}|consort=Tenure|Xilka}}<!--BACKWARD COMPAT FROM IBR-->}} }}
 | data21 = {{{reign3|}}}
 
 | label22 = {{#if:{{{cor-type3|}}}|{{{cor-type3}}}|Coronation}}
 | data22 = {{{coronation3|}}}
 
-| label23 = {{#if:{{{pre-type3|}}}|{{{pre-type3}}}|Predecessor}}
+| label23 = {{#if:{{{pre-type3|}}}|{{{pre-type3}}}|Ka horeeyay}}
 | data23 = {{{predecessor3|}}}
 
-| label24 = {{#if:{{{suc-type3|}}}|{{{suc-type3}}}|Successor}}
+| label24 = {{#if:{{{suc-type3|}}}|{{{suc-type3}}}|Ku xigay}}
 | data24 = {{{successor3|}}}
 
 | label25 = {{#if:{{{reg-type3|}}}|{{{reg-type3}}}|Regent}}
@@ -164,10 +164,10 @@
 {{Infobox|bodystyle=border-collapse:collapse; border-spacing:0px; border:none; width:100%; margin:0px; font-size:100%; clear:none; float:none
  | headerstyle = text-align:left
  | datastyle = text-align:left; padding-left:0.7em;
- | header1 = {{#if:{{{full name|}}}|Full name}}
+ | header1 = {{#if:{{{full name|}}}|Magaca oo dhameestiran}}
  | class2 = nickname <!-- "nickname" is the correct parameter value for hCard -->
  | data2 = {{{full name|}}}
- | header3 = {{#if:{{{family_name|}}}{{{clan_name|}}}{{{given_name|}}}|Full name}}
+ | header3 = {{#if:{{{family_name|}}}{{{clan_name|}}}{{{given_name|}}}|Magaca oo dhameestiran}}
  | data4 = {{#if:{{{family_name|}}}{{{clan_name|}}}{{{given_name|}}}|
 {{unbulleted list
  | 1 = {{#if: {{{family_name|}}} | [[Chinese surname|Family name]]: <span class="nickname">{{{family_name}}}</span> }}
