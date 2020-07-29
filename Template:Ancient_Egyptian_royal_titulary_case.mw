@@ -1,0 +1,45 @@
+ {{Hidden
+  | style = width:100%;margin:0;border:0;padding:0;
+  | headerstyle = background:#decd87;padding:0.1em; {{#if:{{{titulary_notes|{{{notes|}}}}}} | |display:block;margin-bottom:0.3em;}}
+  | header = {{bigger|[[Ancient Egyptian royal titulary|Liiska boqortooyada]]}}<!--(resized here rather than via headerstyle otherwise [show/hide] link also resized)-->
+  | contentstyle = border-bottom:2px solid #decd87;
+  | content =
+     {{Sidebar |bodystyle={{subsidebar bodystyle}} |navbar=off
+      |basestyle=background:#e9deaf; |contentclass=nowrap |contentstyle=padding-top:0.2em;padding-bottom:0.8em;
+      | content1 = {{#if:{{{titulary_notes|{{{notes|}}}}}} |''{{{titulary_notes|{{{notes|}}}}}}''}}
+
+      | heading2 = {{#if:{{{Prenomen|{{{prenomen|}}}}}} |[[Ancient Egyptian royal titulary#Throne name (praenomen)|Prenomen {{smaller|&nbsp;(Praenomen)}}]]}}
+      | content2 = {{#if:{{{Prenomen|{{{prenomen|}}}}}} |
+          <table width="100%">
+           {{#if:{{{prenomen_translation|}}} |<tr><td style="font-size:125%;">'''''{{{Prenomen|{{{prenomen}}}}}}'''''</td></tr> <tr><td>"{{{prenomen_translation}}}"&thinsp;{{{prenomen_translation_ref|}}}</td></tr> |<tr><td>{{{Prenomen|{{{prenomen}}}}}}</td></tr>}}
+           {{#if:{{{PrenomenHiero|{{{prenomen_hiero|}}}}}} |<tr><td class="center"> {{Infobox pharaoh/Prenomen |Prenomen={{{PrenomenHiero|{{{prenomen_hiero}}}}}}}} </td></tr>}}
+          </table> }}
+
+      | heading3 = {{#if:{{{Nomen|{{{nomen|}}}}}} |[[Ancient Egyptian royal titulary|Nomen]]}}
+      | content3 = {{#if:{{{Nomen|{{{nomen|}}}}}} |
+          <table width="100%">
+           {{#if:{{{nomen_translation|}}} |<tr><td style="font-size:125%;">'''''{{{Nomen|{{{nomen}}}}}}'''''</td></tr> <tr><td>"{{{nomen_translation}}}"&thinsp;{{{nomen_translation_ref|}}}</td></tr> |<tr><td>{{{Nomen|{{{nomen|}}}}}}</td></tr>}}
+           {{#if:{{{NomenHiero|{{{nomen_hiero|}}}}}} |<tr><td class="center"> {{Infobox pharaoh/Nomen |Nomen={{{NomenHiero|{{{nomen_hiero}}}}}}}} </td></tr>}}
+          </table> }}
+
+      | heading4 = {{#if:{{{Horus|{{{horus|}}}}}} |[[Ancient Egyptian royal titulary#Horus name|Horus name]]}}
+      | content4 = {{#if:{{{Horus|{{{horus|}}}}}} |
+          <table width="100%">
+           {{#if:{{{horus_translation|}}} |<tr><td style="font-size:125%;">'''''{{{Horus|{{{horus}}}}}}'''''</td></tr> <tr><td>"{{{horus_translation}}}"&thinsp;{{{horus_translation_ref|}}}</td></tr> |<tr><td>{{{Horus|{{{horus|}}}}}}</td></tr>}}
+           {{#if:{{{HorusHiero|{{{horus_hiero|}}}}}} |<tr><td class="center"> {{Infobox pharaoh/Serekh |prefix={{#if:{{{horus_prefix|}}}|{{{horus_prefix}}}|<hiero>G5</hiero>}} |Horus={{{HorusHiero|{{{horus_hiero}}}}}}}} </td></tr>}}
+          </table> }}
+
+      | heading5 = {{#if:{{{Nebty|{{{nebty|}}}}}} |[[Ancient Egyptian royal titulary#Nebty ("two ladies") name|Nebty name]]}}
+      | content5 = {{#if:{{{Nebty|{{{nebty|}}}}}} |
+          <table width="100%">
+           {{#if:{{{nebty_translation|}}} |<tr><td style="font-size:125%;">'''''{{{Nebty|{{{nebty|}}}}}}'''''</td></tr> <tr><td>"{{{nebty_translation}}}"&thinsp;{{{nebty_translation_ref|}}}</td></tr> |<tr><td>{{{Nebty|{{{nebty|}}}}}}</td></tr>}}
+           {{#if:{{{NebtyHiero|{{{nebty_hiero|}}}}}} |<tr><td class="center"> {{Infobox pharaoh/Nebty |Nebty={{{NebtyHiero|{{{nebty_hiero}}}}}}}} </td></tr>}}
+          </table> }}
+
+      | heading6 = {{#if:{{{Golden|{{{golden|}}}}}} |[[Ancient Egyptian royal titulary#Horus of Gold|Golden Horus]]}}
+      | content6 = {{#if:{{{Golden|{{{golden|}}}}}} |
+          <table width="100%">
+           {{#if:{{{golden_translation|}}}  |<tr><td style="font-size:125%;">'''''{{{Golden|{{{golden}}}}}}'''''</td></tr> <tr><td>"{{{golden_translation}}}"&thinsp;{{{golden_translation_ref|}}}</td></tr> |<tr><td>{{{Golden|{{{golden}}}}}}</td></tr>}}
+           {{#if:{{{GoldenHiero|{{{golden_hiero|}}}}}} |<tr><td class="center"> {{Infobox pharaoh/Golden |Golden={{{GoldenHiero|{{{golden_hiero}}}}}}}} </td></tr>}}
+          </table> }}
+ }}  }}
