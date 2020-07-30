@@ -1,0 +1,13 @@
+{{Box-header-watch | title=<big><big>{{{1}}}</big></big> <!--
+Page color palette = border:#A3BFB1 (H150 S15 V75); background:#F5FFFA (H150 S4 V100); headers:#CEF2E0 (H150 S15 V95); accent:#E6FFF2 (H150 S10 V100) -->
+|editpage={{{2}}} 
+|border-width=0           <!-- the width of the box border -->
+|titlepadding=1.25em       <!-- the amount of padding around the title -->
+|titleborder-bottom=1px solid #A3BFB1 <!-- title border size style and color -->
+|border=#A3BFB1           <!-- he color of the borders around Box Sections -->
+|titleforeground=black    <!-- This is the color of the Box Section Title Bar text -->
+|titlebackground=#CEF2E0  <!-- the color of the Box Section Title Bar -->
+|background=#E6FFF2       <!-- the accent color of the Box Section background -->
+|foreground=black         <!-- This is the color of the Box Section text -->
+}}<noinclude>{{Box-footer}}</noinclude>
+<!--[[Category:Contents portal|{{SUBPAGENAME}}]]-->
