@@ -3,7 +3,7 @@
 | editpage={{{editpage|}}}
 | section={{{section|}}}
 | noedit={{{noedit|}}}
-| top=[{{fullurl:{{{editpage|User:RichardF/}}}|action=watch{{#if:{{{section|}}}|&section={{{section|}}}}}}} <span style="color: {{{titleforeground|#000000}}}; min-width:40px; display:table-cell;">watch</span>]{{{top| }}}
+| top=[{{fullurl:{{{editpage|User:RichardF/}}}|action=watch{{#if:{{{section|}}}|&section={{{section|}}}}}}} <span style="color: {{{titleforeground|#000000}}}; min-width:40px; display:table-cell;">fiiri</span>]{{{top| }}}
 | EDITLINK={{{EDITLINK|{{{noedit|}}}}}}
 | EDIT={{{EDIT|}}}
 | TOC={{{TOC|}}}
