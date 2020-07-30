@@ -1,0 +1,40 @@
+{{Box-header
+| title={{{cinwaanka}}}
+| editpage={{{editpage|}}}
+| section={{{section|}}}
+| noedit={{{noedit|}}}
+| top=[{{fullurl:{{{editpage|User:RichardF/}}}|action=watch{{#if:{{{section|}}}|&section={{{section|}}}}}}} <span style="color: {{{titleforeground|#000000}}}; min-width:40px; display:table-cell;">watch</span>]{{{top| }}}
+| EDITLINK={{{EDITLINK|{{{noedit|}}}}}}
+| EDIT={{{EDIT|}}}
+| TOC={{{TOC|}}}
+| viewpage={{{viewpage|}}}
+| title-align={{{title-align|center}}}
+| titleforeground={{{titleforeground|#000}}}
+| titlebackground={{{titlebackground|#bcbcbc}}}
+| background={{{background|#fefeef}}}
+| foreground={{{foreground|#000}}}
+| titleborder={{{titleborder-top|{{{border-width|1}}}px solid {{{titleborder|{{{border|#ababab}}}}}}}}};border-bottom:{{{titleborder-bottom|none}}}
+| border={{{border|#ababab}}}; border-bottom: {{{border-bottom-width|{{{border-width|1}}}}}}px solid {{{border|#ababab}}};
+| border-width={{{border-width|1}}}
+| border-type=
+| padding=1em;
+| padding-left={{{titlepadding|.1em}}}
+| padding-right={{{titlepadding|.1em}}}
+| padding-bottom={{{titlepadding|.1em}}};padding-top:{{{titlepadding|.1em}}}
+| extra={{{extra|margin-left:60px;}}}
+}}<noinclude>Qoraalka Tijaabada oo leh [[Wikipedia:Links|linki]]
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{Box-footer}}
+{{documentation|content=
+==See also==
+{{portal template list}}
+[[Category:Wikipedia Portal templates]]
+}}</noinclude>
