@@ -1,0 +1,101 @@
+{{short description|Portal}}
+{{Wikipedia:Contents/TOC navbar}} <!--
+Page color palette = border:#A3BFB1 (H150 S15 V75); background:#F5FFFA (H150 S4 V100); headers:#CEF2E0 (H150 S15 V95); accent:#E6FFF2 (H150 S10 V100) -->
+<div style="background:#FFFFFF; border-style:solid; border-width:1px; border-color:#000000; padding:3px;">
+<div style="background:#F5FFFA; border-style:solid; border-width:1px; border-color: #A3BFB1">
+
+{{Wikipedia:Contents/Types header|Wikipedia's contents: {{{type|Type}}}|{{FULLPAGENAME}}/Intro|}}
+{{Wikipedia:Contents/Types TOC}}
+{{Box-footer|}}
+
+<div style="text-align:left; margin:10px; padding-bottom:-10px;">
+{{ {{FULLPAGENAME}}/Intro}}
+</div>
+{{#if:{{{noreference|}}}||
+<span id="General reference"></span>
+{{Wikipedia:Contents/box-header| [[File:P literature.svg|30px|link=]] General reference &nbsp;([[Wikipedia:Contents/Reference{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Reference|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Reference }}
+{{Box-footer|}}
+}}
+<span id="Culture and the arts"></span>
+{{Wikipedia:Contents/box-header| [[File:P culture.svg|30px|link=]] Culture and the arts &nbsp;([[Wikipedia:Contents/Culture and the arts{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Culture and the arts|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Culture and the arts}}
+{{Box-footer|}}
+
+<span id="Geography and places"></span>
+{{Wikipedia:Contents/box-header| [[Image:P countries-vector.svg|30px|link=]] Geography and places &nbsp;([[Wikipedia:Contents/Geography and places{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Geography and places|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Geography and places}}
+{{Box-footer|}}
+
+<span id="Health and fitness"></span>
+{{Wikipedia:Contents/box-header| [[Image:P medicine.svg|25px|link=]] Health and fitness &nbsp;&nbsp;([[Wikipedia:Contents/Health and fitness{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Health and fitness|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Health and fitness}}
+{{Box-footer|}}
+
+<span id="History and events"></span>
+{{Wikipedia:Contents/box-header| [[Image:Klepsydra-pt.svg|22px|link=]] History and events &nbsp;([[Wikipedia:Contents/History and events{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/History and events|}}
+{{Wikipedia:Contents/{{{type|Type}}}/History and events}}
+{{Box-footer|}}
+
+<span id="Human activities"></span>
+{{Wikipedia:Contents/box-header| [[Image:P Human activities.svg|30px|link=]] Human activities &nbsp;([[Wikipedia:Contents/Human activities{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Human activities|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Human activities}}
+{{Box-footer|}}
+
+<span id="Mathematics and logic"></span>
+{{Wikipedia:Contents/box-header| [[Image:P mathematics.svg|30px|link=]] Mathematics and logic &nbsp;([[Wikipedia:Contents/Mathematics and logic{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Mathematics and logic|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Mathematics and logic}}
+{{Box-footer|}}
+
+<span id="Natural and physical sciences"></span>
+{{Wikipedia:Contents/box-header| [[Image:P physics.svg|30px|link=]] Natural and physical sciences &nbsp;([[Wikipedia:Contents/Natural and physical sciences{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Natural and physical sciences|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Natural and physical sciences}}
+{{Box-footer|}}
+
+<span id="People and self"></span>
+{{Wikipedia:Contents/box-header| [[Image:P vip.svg|25px|link=]] People and self &nbsp;([[Wikipedia:Contents/People and self{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/People and self|}}
+{{Wikipedia:Contents/{{{type|Type}}}/People and self}}
+{{Box-footer|}}
+
+<span id="Philosophy and thinking"></span>
+{{Wikipedia:Contents/box-header| [[Image:socrates_blue_version2.png|25px|link=]] Philosophy and thinking &nbsp;([[Wikipedia:Contents/Philosophy and thinking{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Philosophy and thinking|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Philosophy and thinking}}
+{{Box-footer|}}
+
+<span id="Religion and belief systems"></span>
+{{Wikipedia:Contents/box-header| [[Image:P religion.png|30px|link=]] Religion and belief systems &nbsp;([[Wikipedia:Contents/Religion and belief systems{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Religion and belief systems|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Religion and belief systems}}
+{{Box-footer|}}
+
+<span id="Society and social sciences"></span>
+{{Wikipedia:Contents/box-header| [[Image:P social sciences.png|30px|link=]] Society and social sciences &nbsp;([[Wikipedia:Contents/Society and social sciences{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Society and social sciences|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Society and social sciences}}
+{{Box-footer|}}
+
+<span id="Technology and applied sciences"></span>
+{{Wikipedia:Contents/box-header| [[Image:P train.svg|30px|link=]] Technology and applied sciences &nbsp;([[Wikipedia:Contents/Technology and applied sciences{{!}}<small>see in all page types</small>]])|Wikipedia:Contents/{{{type|Type}}}/Technology and applied sciences|}}
+{{Wikipedia:Contents/{{{type|Type}}}/Technology and applied sciences}}
+{{Box-footer|}}
+
+</div>
+{{Contents pages (footer box)|#A3BFB1|#E6FFF2}}
+</div>
+__NOTOC__ __NOEDITSECTION__
+
+{{ #if: {{{draft|}}} | <includeonly>[[Category:Portals under construction|{{PAGENAME}}]]</includeonly> | <includeonly>
+  {{ #if: {{{cat1|}}} | [[Category:{{{cat1|}}}| Portal]] }}
+  {{ #if: {{{cat2|}}} | [[Category:{{{cat2|}}}| Portal]] }}
+  {{ #if: {{{contentsort|}}} | [[Category:Wikipedia contents|{{{contentsort|}}}]] | [[Category:Wikipedia contents|{{SUBPAGENAME}}]] }}</includeonly>
+ }}<noinclude>
+
+== Noocyada qaabka loo dhigo templateka ==
+<pre>
+{{Wikipedia:Contents/Types layout
+  |type=
+  |cat1=
+  |cat2=
+  |contentsort=
+  |draft=Yes
+}}
+</pre>
+</noinclude>
