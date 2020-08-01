@@ -11,7 +11,7 @@
 | removalnotice = yes
 | date  = {{{date|}}}
 | cat   = Maqaalada {{#ifeq:{{{1}}}|qaybta|u baahan tixraac dheeri ah|xigasho la'aan}}
-| all   = Dhamaan maqaalada {{#ifeq:{{{1}}}|qeybta|u baahan tixraac dheeri ah|ilo la'aan}}
+| all   = Dhamaan maqaalada {{#ifeq:{{{1}}}|qeybta|u baahan tixraac dheeri ah|aan leheen xigasho}}
 | all2  = {{#ifeq:{{{status}}}|hasaref|Dhammaan maqaalada ayaa laga yaabaa inay ka maqan yihiin xog caddayn ah}}
 }}
 }}<noinclude>
