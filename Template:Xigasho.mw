@@ -10,7 +10,7 @@
 | fix   = Fadlan ka caawi [{{fullurl:{{FULLPAGENAME}}|action=edit}} hagaajinta {{{1|maqaalkaan}}}] in aad [[Help:Introduction to referencing with Wiki Markup/1|ku soo darto xigashooyin lagu kalsoonaan karo]]. Qoraalada aan laheen xog caddayn ah waxaa dhici karto in [[Wikipedia:Verifiability#Burden of evidence|laga saaro meeshaan]].<br /><small></small>
 | removalnotice = yes
 | date  = {{{date|}}}
-| cat   = Maqaalada {{#ifeq:{{{1}}}|qaybta|u baahan tixraac dheeri ah|ilo la'aan}}
+| cat   = Maqaalada {{#ifeq:{{{1}}}|qaybta|u baahan tixraac dheeri ah|xigasho la'aan}}
 | all   = Dhamaan maqaalada {{#ifeq:{{{1}}}|qeybta|u baahan tixraac dheeri ah|ilo la'aan}}
 | all2  = {{#ifeq:{{{status}}}|hasaref|Dhammaan maqaalada ayaa laga yaabaa inay ka maqan yihiin xog caddayn ah}}
 }}
