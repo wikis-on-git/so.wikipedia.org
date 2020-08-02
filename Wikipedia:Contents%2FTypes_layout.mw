@@ -85,7 +85,7 @@ __NOTOC__ __NOEDITSECTION__
 {{ #if: {{{draft|}}} | <includeonly>[[Category:Portals under construction|{{PAGENAME}}]]</includeonly> | <includeonly>
   {{ #if: {{{cat1|}}} | [[Category:{{{cat1|}}}| Portal]] }}
   {{ #if: {{{cat2|}}} | [[Category:{{{cat2|}}}| Portal]] }}
-  {{ #if: {{{contentsort|}}} | [[Category:Wikipedia contents|{{{contentsort|}}}]] | [[Category:Wikipedia contents|{{SUBPAGENAME}}]] }}</includeonly>
+  {{ #if: {{{contentsort|}}} | [[Category:Waxyaabaha ku jira Wikipedia|{{{contentsort|}}}]] | [[Category:Waxyaabaha ku jira Wikipedia|{{SUBPAGENAME}}]] }}</includeonly>
  }}<noinclude>
 
 == Noocyada qaabka loo dhigo templateka ==
