@@ -6,10 +6,10 @@
 | image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
 | caption    = {{{caption|}}}
 
-| label1     = Magaca
+| label1     = Magaca oo dhameestiran
 | data1      = {{{fullname|}}}
 
-| label2     = Magac uyeel
+| label2     = Naaneys
 | data2      = {{{nickname|}}}
 | class2     = nickname
 
@@ -27,7 +27,7 @@
 | data6      = {{#if:{{{stadium|}}}|{{{stadium|}}}|{{{ground|}}}}}
 | class6     = label
 
-| label7     = {{#if:{{{ground|}}}|<span style="display:none">Garoon</span>&nbsp;Qaadka|{{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Ground}}}}<br />capacity}}
+| label7     = {{#if:{{{ground|}}}|<span style="display:none">Garoonka</span>&nbsp;Awoodda|{{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Ground}}}}<br />capacity}}
 | data7      = {{{capacity|}}}
 
 | label8     = {{#if:{{{ground|}}}|<span style="display:none">Ground</span>&nbsp;Isuduwe|{{#if:{{{American|}}}|Stadium|{{#if:{{{stadium|}}}|Stadium|Ground}}}}<br />coordinates}}
@@ -36,7 +36,7 @@
 | label9     = {{#if:{{{owntitle|}}}|{{{owntitle}}}|Milkiilaha}}
 | data9      = {{{owner|}}}
 
-| label10    = {{#if:{{{chrtitle|}}}|{{{chrtitle}}}|Madaxa}}
+| label10    = {{#if:{{{chrtitle|}}}|{{{chrtitle}}}|Gudoomiyaha}}
 | data10     = {{{chairman|}}}
 | class10    = agent
 
