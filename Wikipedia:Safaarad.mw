@@ -1292,3 +1292,18 @@ Thanks in advance for your attention and contributions, [[:m:Talk:Trust_and_Safe
 
 </div>
 <!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Universal_Code_of_Conduct/Message_to_small_and_medium_sized_wikis/List&oldid=20303398 -->
+
+== Technical Wishes: FileExporter and FileImporter become default features on all Wikis ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+The [[m:WMDE_Technical_Wishes/Move_files_to_Commons|FileExporter and FileImporter]] will become a default features on all wikis until August 7, 2020. They are planned to help you to move files from your local wiki to Wikimedia Commons easier while keeping all original file information (Description, Source, Date, Author, View History) intact. Additionally, the move is documented in the files view history. 
+How does it work? 
+
+Step 1: If you are an auto-confirmed user, you will see a link "Move file to Wikimedia Commons" on the local file page. 
+
+Step 2: When you click on this link, the FileImporter checks if the file can in fact be moved to Wikimedia Commons. These checks are performed based on the wiki's [[m:WMDE_Technical_Wishes/Move_files_to_Commons/Configuration_file_documentation|configuration file]] which is created and maintained by each local wiki community. 
+
+Step 3: If the file is compatible with Wikimedia Commons, you will be taken to an import page, at which you can update or add information regarding the file, such as the description. You can also add the 'Now Commons' template to the file on the local wiki by clicking the corresponding check box in the import form. Admins can delete the file from the local wiki by enabling the corresponding checkbox. By clicking on the 'Import' button at the end of the page, the file is imported to Wikimedia Commons. 
+
+If you want to know more about the [[m:WMDE_Technical_Wishes/Move_files_to_Commons|FileImporter extension]] or the [[m:WMDE_Technical_Wishes|Technical Wishes Project]], follow the links. --For the Technical Wishes Team: </div>[[User:Max Klemm (WMDE)|Max Klemm (WMDE)]] 09:14, 6 Agoosto 2020 (UTC)
+<!-- Message sent by User:Max Klemm (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=20343133 -->
