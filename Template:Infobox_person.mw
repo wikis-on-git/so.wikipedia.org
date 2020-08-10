@@ -23,7 +23,7 @@
 | label14     = Dhimasho
 | data14      = {{br separated entries|1={{{death_date|}}}|2={{#if:{{{death_place|}}}|<span class="deathplace">{{{death_place|}}}</span>}}}}
 
-| label15     = Cause&nbsp;of death
+| label15     = Sababta&nbsp;dhimashada
 | data15      = {{{death cause|{{{death_cause|}}}}}}
 
 | label16     = Body discovered
@@ -36,24 +36,24 @@
 | label18     = Monuments
 | data18      = {{{monuments|}}}
 
-| label19     = Hada Ku Nool
+| label19     = Degenaansho
 | class19     = {{#if:{{{death_date|}}}{{{death_place|}}}||label}}
 | data19      = {{{residence|}}}
 
 | class20    = category
-| label20    = Wadaniyad
+| label20    = Dhalsho
 | data20     = {{{nationality|}}}
 
-| label21    = Magacyo kale
+| label21    = Naanees
 | class21    = nickname
 | data21     = {{{other names|{{{other_names|{{{othername|{{{alias|}}}}}}}}}}}}
 
 | class22    = category
-| label22    = Dhalashada
+| label22    = Qoomiyada
 | data22     = {{{ethnicity|}}}
 
 | class23    = category
-| label23    = Wadanka
+| label23    = Dhalasho
 | data23     = {{{citizenship|}}}
 
 | label24    = Waxbarashada
@@ -81,7 +81,7 @@
 | data30     = {{{agent|}}}
 | class30    = agent
 
-| label31    = Known&nbsp;for
+| label31    = Loo&nbsp;yaqaano
 | data31     = {{{known for|{{{known_for|{{{known|}}}}}}}}}
 
 | label32    = {{#if:{{{credits|}}}|Notable credit(s)|Shaqooyinka ugu muhiimsan}}
@@ -97,7 +97,7 @@
 | label37    = Mishaharka
 | data37     = {{{salary|}}}
 
-| label38    = Net worth
+| label38    = Qiimaha netka
 | data38     = {{{net worth|{{{net_worth|{{{networth|}}}}}}}}}
 
 | label39    = Dhererka
@@ -181,7 +181,7 @@
 | label63    = {{#if:{{{honours|}}}|Honours|Honors}}
 | data63     = {{#if:{{{honours|}}}|{{{honours}}}|{{{honors|}}}}}
 
-| label64    = Saxeexa
+| label64    = Saxiixa
 | data64     = {{#if:{{{signature|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{signature|}}}|size={{{signature_size|}}}|sizedefault=150px|alt={{{signature alt|{{{signature_alt|}}}}}}}} }}
 
 | data65     = {{{misc|{{{module|}}}}}}
