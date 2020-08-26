@@ -1307,3 +1307,29 @@ Step 3: If the file is compatible with Wikimedia Commons, you will be taken to a
 
 If you want to know more about the [[m:WMDE_Technical_Wishes/Move_files_to_Commons|FileImporter extension]] or the [[m:WMDE_Technical_Wishes|Technical Wishes Project]], follow the links. --For the Technical Wishes Team: </div>[[User:Max Klemm (WMDE)|Max Klemm (WMDE)]] 09:14, 6 Agoosto 2020 (UTC)
 <!-- Message sent by User:Max Klemm (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=20343133 -->
+
+== Important: maintenance operation on September 1st ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr"><div class="plainlinks">
+
+[[:m:Special:MyLanguage/Tech/Server switch 2020|Read this message in another language]]  •  [[:m:Special:MyLanguage/Tech/Server switch 2020|{{int:please-translate}}]]
+
+The [[foundation:|Wikimedia Foundation]] will be testing its secondary data centre.  This will make sure that Wikipedia and the other Wikimedia wikis can stay online even after a disaster. To make sure everything is working, the Wikimedia Technology department needs to do a planned test. This test will show if they can reliably switch from one data centre to the other. It requires many teams to prepare for the test and to be available to fix any unexpected problems. 
+
+They will switch all traffic to the secondary data centre on '''Tuesday, September 1st 2020'''.
+
+Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|MediaWiki]], all editing must stop while the switch is made.  We apologize for this disruption, and we are working to minimize it in the future. 
+
+'''You will be able to read, but not edit, all wikis for a short period of time.'''
+
+*You will not be able to edit for up to an hour on Tuesday, September 1st. The test will start at [https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200901T14 14:00 UTC] (15:00 BST, 16:00 CEST, 10:00 EDT, 19:30 IST, 07:00 PDT, 23:00 JST, and in New Zealand at 02:00 NZST on Wednesday September 2).
+*If you try to edit or save during these times, you will see an error message.  We hope that no edits will be lost during these minutes, but we can't guarantee it.  If you see the error message, then please wait until everything is back to normal.  Then you should be able to save your edit.  But, we recommend that you make a copy of your changes first, just in case.
+
+''Other effects'':
+
+*Background jobs will be slower and some may be dropped. Red links might not be updated as quickly as normal. If you create an article that is already linked somewhere else, the link will stay red longer than usual. Some long-running scripts will have to be stopped.
+*There will be code freezes for the week of September 1st, 2020.  Non-essential code deployments will not happen.
+
+This project may be postponed if necessary.  You can [[wikitech:Switch Datacenter#Schedule for 2018 switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this.  '''Please share this information with your community.''' 
+</div></div> <span dir=ltr>[[m:User:Trizek (WMF)|Trizek (WMF)]] ([[m:User talk:Trizek (WMF)|talk]])</span> 13:49, 26 Agoosto 2020 (UTC)
+<!-- Message sent by User:Trizek (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=20384955 -->
