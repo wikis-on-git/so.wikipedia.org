@@ -24,7 +24,7 @@
 |-
 ! colspan=2 style="min-width:15em; text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Egg fossil#Classification|Egg fossil classification]]|[[Taxonomy (biology)|Kala saarista cilmiga ah]]}} }} }} {{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}{{#if: {{{classification_status|}}} | <br/><span style="font-weight:normal">({{{classification_status}}})</span> | }}
 |-
-{{#if:{{{parent|}}}|{{#invoke:Autotaxobox|taxoboxList|{{{parent}}}| display_taxa={{{display_taxa|1}}}| authority={{{authority|}}}| parent_authority={{{parent_authority|}}}| gparent_authority={{{grandparent_authority|}}}| ggparent_authority={{{greatgrandparent_authority|}}}| gggparent_authority={{{greatgreatgrandparent_authority|}}}| offset={{{offset|0}}}| bold_first={{{bold_first|{{#if:{{{species|}}}|link|bold}}}}}| virus={{{virus|no}}}}}}}
+{{#if:{{{parent|}}}|{{#invoke:Autotaxobox|taxoboxList|{{{parent}}}| display_taxa={{{display_taxa|1}}}| authority={{{authority|}}}| parent_authority={{{parent_authority|}}}| gparent_authority={{{grandparent_authority|}}}| ggparent_authority={{{greatgrandparent_authority|}}}| gggparent_authority={{{greatgreatgrandparent_authority|}}}| offset={{{offset|0}}}| bold_first={{{bold_first|{{#if:{{{Nooca|}}}|link|bold}}}}}| virus={{{virus|no}}}}}}}
 {{#if:{{{virus_group|}}}|{{taxonomy|rank=group
 |link= {{#switch:{{lc:{{{virus_group}}} }}
  |i=Group I <small>([[dsDNA virus|dsDNA]])</small>
