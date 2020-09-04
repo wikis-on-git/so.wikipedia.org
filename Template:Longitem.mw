@@ -1,4 +1,3 @@
-<div style="padding:0.1em 0;line-height:1.2em;{{{style|}}}">{{{1}}}</div><noinclude>
-
+<div style="display:inline-block; padding:0.1em 0;line-height:1.2em;{{{style|}}}">{{{1}}}</div><includeonly>{{#if:{{{2|}}}|[[Category:Pages using Template:Longitem with unnamed style parameter]]}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
