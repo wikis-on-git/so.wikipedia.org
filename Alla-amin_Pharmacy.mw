@@ -7,7 +7,121 @@ Farmasiiga Alla-Aamin waxaa markii ugu horreysay la aasaasay 1991 si uu u bixiyo
 Waxaan ku faaneynaa inaan isku soo bandhigno inaan nahay mid ka mid ah shirkadaha sida xowliga ah ugu koraya Soomaaliya iyo Somaliland. Qeybteenna guud waxay ku saleysan tahay magaalada weyn ee dhaqaalaha iyo magaalada weyn ee Somaliland. Waxaan cadeyney doorkeena hogaamineed ee gobolka anagoo ah wax soo dejiye, wax qeybiye iyo tafaariiqle iyadoo laga furay 15 laamood oo waaweyn magaalooyinka Hargeysa, Buroa, Boorama, Wajaale,Gaalkayo,Djibouti,jigjiga,addisabaab Garowe iyo Muqdisho.
 
 == Dhulka uu Kufidsanyahay ==
-<mapframe latitude="5.353521" longitude="44.384766" zoom="2" lang="en" width="329" height="149" align="center" />
+<mapframe latitude="8.711359" longitude="43.857422" zoom="4" lang="en" width="258" height="239" align="center">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.06341552734376,
+          9.543874794137539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.55480957031251,
+          9.5411662169896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.33282470703126,
+          9.603458034423026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.154296875,
+          9.922860428632177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.08837890625001,
+          11.574216080310618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.47991943359375,
+          8.409885221474008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.40875244140625,
+          6.776443641161725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.318603515625,
+          2.04302395742204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.78173828125001,
+          8.971897294083014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.82470703125,
+          9.373192635083441
+        ]
+      }
+    }
+  ]
+}</mapframe>
 
 == Ku Saabsan Asasaha ==
 
