@@ -1,7 +1,7 @@
 {{Sister project
 | position = {{{position|}}}
 | project  = commons
-| text     = Wikimedia Commons {{{alt-term|waxee heysaa war la xiriiro}}} '''''[[commons:{{#if:{{{1|}}}|Category:{{{1|}}}|{{if then show|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:{{PAGENAME}}}}}}|<span style="{{#ifeq:{{{nowrap|no}}}|yes|white-space:nowrap;}} {{#ifeq:{{{italic|no}}}|yes|font-style: italic; }}">{{#ifeq:{{{lcf|{{{lcfirst|no}}}}}}|yes|{{lcfirst:{{{2|{{#if:{{{1|}}} | {{{1|}}} <!--
+| text     = Wikimedia waxee heysaa {{{alt-term|war la xiriiro}}} '''''[[commons:{{#if:{{{1|}}}|Category:{{{1|}}}|{{if then show|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:{{PAGENAME}}}}}}|<span style="{{#ifeq:{{{nowrap|no}}}|yes|white-space:nowrap;}} {{#ifeq:{{{italic|no}}}|yes|font-style: italic; }}">{{#ifeq:{{{lcf|{{{lcfirst|no}}}}}}|yes|{{lcfirst:{{{2|{{#if:{{{1|}}} | {{{1|}}} <!--
   -->|{{if then show|{{#invoke:String|replace|{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|Category:|}}<!--
   --> |{{PAGENAME}} }} }} }}} }}<!--
   -->|{{{2|{{#if:{{{1|}}} | {{{1|}}} <!--
@@ -17,10 +17,10 @@
 
    -->|{{#ifeq:{{replace|{{{1|}}}|_|&#32;}}|{{PAGENAME}}|<!--
    ... the local parameter is the same as the local pagename
-   -->[[Category:Commons category link is defined as the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}<!--
+   -->[[Category:Commons category link is defined as the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata – [[Template:Commons_category#Resolving_discrepancies|please check]]}}<!--
 
    ... the local parameter is not the pagename
-   -->|[[Category:Commons category link is locally defined]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}}} }}<!--
+   -->|[[Category:Commons category link is locally defined]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata – [[Template:Commons_category#Resolving_discrepancies|please check]]}}}} }}<!--
 
   We don't have a locally-defined link 
   -->|{{#if:{{#invoke:WikidataIB |getCommonsLink|qid={{{qid|}}}|onlycat=True|fallback=False}}|<!--
@@ -29,7 +29,7 @@
    -->[[Category:Commons category link from Wikidata]]<!--
 
     <!-- ... or we're using the pagename
-    -->|[[Category:Commons category link is the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata - [[Template:Commons_category#Resolving_discrepancies|please check]]}}
+    -->|[[Category:Commons category link is the pagename]]{{#invoke:Preview warning|main|Commons category does not match the Commons sitelink on Wikidata – [[Template:Commons_category#Resolving_discrepancies|please check]]}}
   }}
   }}
   }}</includeonly>
