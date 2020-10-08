@@ -62,7 +62,7 @@
 }}
 |- class="mergedrow"
 {{#ifeq:{{#expr:{{#if:{{{inflation_rate|}}}|1|0}} and {{#if:{{{inflation_source_date|}}}|1|0}} }}|1|
-{{!}} Source
+{{!}} Ilaha warbixinta
 {{!}} {{{inflation_source_date}}}
 {{!}}-
 }}
@@ -119,7 +119,7 @@
 }}
 |-
 {{#if:{{{pegged_with|}}}|
-! [[Fixed exchange rate|Pegged with]]
+! [[Sarifka lacagta|Sarifka]]
 {{!}} {{{pegged_with}}}
 {{!}}-
 }}
