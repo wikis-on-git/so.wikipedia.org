@@ -1,6 +1,7 @@
 {{Navbox
 | name = Maqaalo Soomaaliya
 | state = {{{state|autocollapse}}}
+| image=[[File:Coat_of_arms_of_Somalia.svg|100px|link=Astaanta qaranka Soomaaliya]]
 | bodyclass = hlist
 | title = {{flagcountry|Soomaaliya}}
 
@@ -144,12 +145,11 @@
 * [[Ciyaarta Soomaalida|Ciyaaraha]]
 * [[Luuqadaha Soomaaliya|Luuqadaha]]
 }}
-| group6 = 
-| list6 =
+|belowstyle = font-weight:bold;
+|below =
 * {{icon|Book}} [[Book:Soomaaliya|Book]]
 * {{icon|Category}} [[:Category:Soomaaliya|Category]]
 * {{icon|Portal}} [[Portal:Soomaaliya|Portal]]
-| below =
 }}<noinclude>
 
 {{collapsible option |default=expanded}}
