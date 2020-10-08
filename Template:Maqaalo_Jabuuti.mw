@@ -1,10 +1,13 @@
-{{Country topics
+{{Navbox
 | country = Jabuuti
-| state = {{{state|{{{1|autocollapse}}}}}}
-| image=[[File:Emblem of Djibouti.svg|80px|link=Coat of arms of Djibouti]]
+| state = {{{state|autocollapse}}}
+| image=[[File:Emblem of Djibouti.svg|180px|link=Astaanta qaranka Jabuuti]]
 |noportal=yes
+| bodyclass = hlist
+| title = {{flagcountry|Djibouti}}
 
-| history =
+| group1 = [[Taariikhda Jabuuti|Taariikh]]
+| list1 =
 * [[Saldanadii Cadal]]
 * [[Saldanadi Ifat]]
 * [[French Somaliland]]
@@ -12,7 +15,8 @@
 * [[Dagaalkii Faransiiska Ciise iyo Canfarta|Ciise iyo Canfar]]
 * [[Dagaalkii Sokeeye Jabuuti|Dagaalkii Sokeeye]]
 
-| geography = <!--Alphabetical:-->
+| group2 = [[Juqraafiga Jabuuti|Juqraafiga]]
+| list2 =
 * [[Magaalooyinka Jabuuti|Magaalooyinka]]
 * [[Degmooyinka Jabuuti|Degmooyinka]]
 * [[Gobolada Jabuuti|Gobolada]]
@@ -21,7 +25,8 @@
 * [[Folkaanaha Jabuuti|Volcanoes]]
 * [[Duurjoogta Jabuuti|Duurjoogta]]
 
-| politics = <!--Alphabetical:-->
+| group3 = [[Siyaasadda Jabuuti|Siyaasadda]]
+| list3 =
 * [[Dastuurka Jabuuti|Dastuurka]]
 * [[Doorashada Jabuuti|Doorashada]]
 * [[Xidhiidhka Caalami Jabuuti|Xidhiidhka Caalami]]
@@ -31,7 +36,8 @@
 * [[Madaxweynayaasha Jabuuti|Madaxweynayaashii]]
 * [[Raiisal wasaareyaasha Jabuuti|Ra'iisul wasaarayaashii]]
 
-| economy = <!--Alphabetical:-->
+| group4 = [[Dhaqaallaha Jabuuti|Dhaqaalaha]]
+| list4 =
 * [[Beeraha Jabuuti|Beeraha]]
 * [[Lacagta Jabuuti|Jabuuti Frank {{small|(lacagta)}}]]
 * [[Tamarta Jabuuti|Tamarta]]
@@ -40,7 +46,8 @@
 * [[Dalxiiska Jabuuti|Dalxiiska]]
 * [[Socdaalka Jabuuti|Socdaalka]]
 
-| culture = <!--Alphabetical:-->
+| group5 = [[Dadka Jabuuti|Bulshada]]
+| list5 =
 * [[Bulshada Jabuuti|Bulshada]]
 * [[Waxbarashada Jabuuti|Waxbarashada]]
 * [[Calanka Jabuuti|Calanka]]
@@ -52,8 +59,8 @@
 * [[Maalmaha Fasaxa Jabuuti|Maalmaha Fasaxa]]
 * [[Diinta Jabuuti|Diinta]]
 
-|belowstyle = font-weight:bold;
-|below =
+| group6 = 
+| list6 =
 * {{icon|Book}} [[Book:Jabuuti|Buug]]
 * {{icon|Category}} [[:Category:Jabuuti|Category]]
 * {{icon|Portal}} [[Portal:Jabuuti|Portal]]
