@@ -1,0 +1,121 @@
+{{Navbox
+| name = {{{name|Africa topic}}}
+| state       = {{{state<includeonly>|collapsed</includeonly>}}}
+| title =
+ {{#if:{{{title|}}} |{{{title}}}
+  | {{#ifexist:{{{1|{{{prefix|}}}}}}_Afrika{{{2| {{{suffix|}}}}}}
+     | [[{{{1|{{{prefix|}}}}}} Afrika{{{2| {{{suffix|}}}}}}]]
+     |   {{{1|{{{prefix|}}}}}} Afrika{{{2| {{{suffix|}}}}}}
+    }}
+ }}
+| border = {{{border|}}}
+| navbar = {{{navbar|}}}
+| titlestyle = {{{titlestyle|}}}
+| groupstyle = {{{groupstyle|}}}
+| listclass = hlist wraplinks
+| liststyle = {{{liststyle|}}}
+
+| group1 = Dowladaha madax banaan
+| list1  =
+* [[{{{1|{{{prefix|}}}}}} Algeria{{{2| {{{suffix|}}}}}}|Algeria]]
+* [[{{{1|{{{prefix|}}}}}} Angola{{{2| {{{suffix|}}}}}}|Angola]]
+* [[{{{1|{{{prefix|}}}}}} Benin{{{2| {{{suffix|}}}}}}|Benin]]
+* [[{{{1|{{{prefix|}}}}}} Botswana{{{2| {{{suffix|}}}}}}|Botswana]]
+* [[{{{1|{{{prefix|}}}}}} Burkina Faso{{{2| {{{suffix|}}}}}}|Burkina Faso]]
+* [[{{{1|{{{prefix|}}}}}} Burundi{{{2| {{{suffix|}}}}}}|Burundi]]
+* [[{{{1|{{{prefix|}}}}}} Cameroon{{{2| {{{suffix|}}}}}}|Cameroon]]
+* [[{{{1|{{{prefix|}}}}}} Cape Verde{{{2| {{{suffix|}}}}}}|Cape Verde (Cabo Verde)]]
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Central African Republic{{{2| {{{suffix|}}}}}}|Central African Republic]]
+* [[{{{1|{{{prefix|}}}}}} Chad{{{2| {{{suffix|}}}}}}|Chad]]
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Comoros{{{2| {{{suffix|}}}}}}|Comoros]]
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Democratic Republic of the Congo{{{2| {{{suffix|}}}}}}|Democratic Republic of the Congo]]
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Republic of the Congo{{{2| {{{suffix|}}}}}}|Republic of the Congo]]
+* [[{{{1|{{{prefix|}}}}}} Djibouti{{{2| {{{suffix|}}}}}}|Djibouti]]
+* [[{{{1|{{{prefix|}}}}}} Egypt{{{2| {{{suffix|}}}}}}|Egypt]]
+* [[{{{1|{{{prefix|}}}}}} Equatorial Guinea{{{2| {{{suffix|}}}}}}|Equatorial Guinea]]
+* [[{{{1|{{{prefix|}}}}}} Eritrea{{{2| {{{suffix|}}}}}}|Eritrea]]
+* [[{{{1|{{{prefix|}}}}}} Eswatini{{{2| {{{suffix|}}}}}}|Eswatini (Swaziland)]]
+* [[{{{1|{{{prefix|}}}}}} Ethiopia{{{2| {{{suffix|}}}}}}|Ethiopia]]
+* [[{{{1|{{{prefix|}}}}}} Gabon{{{2| {{{suffix|}}}}}}|Gabon]]
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}||the_}}Gambia{{{2| {{{suffix|}}}}}}|The Gambia]]
+* [[{{{1|{{{prefix|}}}}}} Ghana{{{2| {{{suffix|}}}}}}|Ghana]]
+* [[{{{1|{{{prefix|}}}}}} Guinea{{{2| {{{suffix|}}}}}}|Guinea]]
+* [[{{{1|{{{prefix|}}}}}} Guinea-Bissau{{{2| {{{suffix|}}}}}}|Guinea-Bissau]]
+* [[{{{1|{{{prefix|}}}}}} Ivory Coast{{{2| {{{suffix|}}}}}}|Ivory Coast (Côte d'Ivoire)]]
+* [[{{{1|{{{prefix|}}}}}} Kenya{{{2| {{{suffix|}}}}}}|Kenya]]
+* [[{{{1|{{{prefix|}}}}}} Lesotho{{{2| {{{suffix|}}}}}}|Lesotho]]
+* [[{{{1|{{{prefix|}}}}}} Liberia{{{2| {{{suffix|}}}}}}|Liberia]]
+* [[{{{1|{{{prefix|}}}}}} Libya{{{2| {{{suffix|}}}}}}|Libya]]
+* [[{{{1|{{{prefix|}}}}}} Madagascar{{{2| {{{suffix|}}}}}}|Madagascar]]
+* [[{{{1|{{{prefix|}}}}}} Malawi{{{2| {{{suffix|}}}}}}|Malawi]]
+* [[{{{1|{{{prefix|}}}}}} Mali{{{2| {{{suffix|}}}}}}|Mali]]
+* [[{{{1|{{{prefix|}}}}}} Mauritania{{{2| {{{suffix|}}}}}}|Mauritania]]
+* [[{{{1|{{{prefix|}}}}}} Mauritius{{{2| {{{suffix|}}}}}}|Mauritius]]
+* [[{{{1|{{{prefix|}}}}}} Morocco{{{2| {{{suffix|}}}}}}|Morocco]]
+* [[{{{1|{{{prefix|}}}}}} Mozambique{{{2| {{{suffix|}}}}}}|Mozambique]]
+* [[{{{1|{{{prefix|}}}}}} Namibia{{{2| {{{suffix|}}}}}}|Namibia]]
+* [[{{{1|{{{prefix|}}}}}} Niger{{{2| {{{suffix|}}}}}}|Niger]]
+* [[{{{1|{{{prefix|}}}}}} Nigeria{{{2| {{{suffix|}}}}}}|Nigeria]]
+* [[{{{1|{{{prefix|}}}}}} Rwanda{{{2| {{{suffix|}}}}}}|Rwanda]]
+* [[{{{1|{{{prefix|}}}}}} São Tomé and Príncipe{{{2| {{{suffix|}}}}}}|São Tomé and Príncipe]]
+* [[{{{1|{{{prefix|}}}}}} Senegal{{{2| {{{suffix|}}}}}}|Senegal]]
+* [[{{{1|{{{prefix|}}}}}} Seychelles{{{2| {{{suffix|}}}}}}|Seychelles]]
+* [[{{{1|{{{prefix|}}}}}} Sierra Leone{{{2| {{{suffix|}}}}}}|Sierra Leone]]
+* [[{{{1|{{{prefix|}}}}}} Somalia{{{2| {{{suffix|}}}}}}|Somalia]]
+* [[{{{1|{{{prefix|}}}}}} South Africa{{{2| {{{suffix|}}}}}}|South Africa]]
+* [[{{{1|{{{prefix|}}}}}} South Sudan{{{2| {{{suffix|}}}}}}|South Sudan]]
+* [[{{{1|{{{prefix|}}}}}} Sudan{{{2| {{{suffix|}}}}}}|Sudan]]
+* [[{{{1|{{{prefix|}}}}}} Tanzania{{{2| {{{suffix|}}}}}}|Tanzania]] 
+* [[{{{1|{{{prefix|}}}}}} Togo{{{2| {{{suffix|}}}}}}|Togo]]
+* [[{{{1|{{{prefix|}}}}}} Tunisia{{{2| {{{suffix|}}}}}}|Tunisia]]
+* [[{{{1|{{{prefix|}}}}}} Uganda{{{2| {{{suffix|}}}}}}|Uganda]]
+* [[{{{1|{{{prefix|}}}}}} Zambia{{{2| {{{suffix|}}}}}}|Zambia]]
+* [[{{{1|{{{prefix|}}}}}} Zimbabwe{{{2| {{{suffix|}}}}}}|Zimbabwe]]
+
+| group2 = {{longitem|Dowladaha<br/>aan la aqoonsaneen}}
+| list2 =
+* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Sahrawi Arab Democratic Republic{{{2| {{{suffix|}}}}}}|Sahrawi Arab Democratic Republic]]
+* [[{{{1|{{{prefix|}}}}}} Somaliland{{{2| {{{suffix|}}}}}}|Somaliland]]
+
+| group3 = {{#if:{{{countries_only|}}} | |{{longitem|Ku tiirsan iyo<br/>dhulal kale}}}}
+| list3 = <div>
+    {{#if:{{{countries_only|}}} |
+      <!-------Spanish territories:------>
+     |* [[{{{1|{{{prefix|}}}}}} {{#if:{{{2|}}}{{{suffix|}}}|{{#ifeq:{{{article|}}}|yes|the_|}}|{{#ifeq:{{{article|}}}|no||the_}}}}Canary Islands{{{2| {{{suffix|}}}}}}|Canary Islands]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Ceuta{{{2| {{{suffix|}}}}}}|Ceuta]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Melilla{{{2| {{{suffix|}}}}}}|Melilla]]&nbsp;&nbsp;{{small|(Spain)}}<!--
+      <!-----Portuguese territories:----->
+* [[{{{1|{{{prefix|}}}}}} Madeira{{{2| {{{suffix|}}}}}}|Madeira]]&nbsp;{{small|(Portugal)}}<!--
+      <!-------French territories:------->
+* [[{{{1|{{{prefix|}}}}}} Mayotte{{{2| {{{suffix|}}}}}}|Mayotte]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Réunion{{{2| {{{suffix|}}}}}}|Réunion]]&nbsp;{{small|(Fransiiska)}} <!--
+       ----------UK territories:---------
+This is where the code decides whether Saint Helena, Tristan da Cunha and Ascension Island will be given one or several links for the topic in question.
+* "separate" will create 3 separate links. The same happens if the SAT= parameter is not used.
+* "ST" will create one link for Saint Helena and Tristan da Cunha and a second one for Ascension Island.
+* "SA" will create one link for Saint Helena and Ascension Island and a second one for Tristan da Cunha.
+* "TA" will create one link for Tristan da Cunha and Ascension Island and a second one for Saint Helena.
+* "SAT" will create one link for the entire group of islands.
+      -->{{#switch:<!--
+           -->{{#switch:{{{1|{{{prefix|}}}}}}{{{2| {{{suffix|}}}}}}
+               | Telephone numbers in = ST
+               | Flag of = SAT
+               | #default = separate
+              }}
+          | separate = * [[{{{1|{{{prefix|}}}}}} Saint Helena{{{2| {{{suffix|}}}}}}|Saint Helena]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Ascension Island{{{2| {{{suffix|}}}}}}|Ascension Island]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Tristan da Cunha{{{2| {{{suffix|}}}}}}|Tristan da Cunha]]
+          | ST = * [[{{{1|{{{prefix|}}}}}} Saint Helena and Tristan da Cunha{{{2| {{{suffix|}}}}}}|Saint Helena and Tristan da Cunha]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Ascension Island{{{2| {{{suffix|}}}}}}|Ascension Island]]
+          | SA = * [[{{{1|{{{prefix|}}}}}} Saint Helena and Ascension Island{{{2| {{{suffix|}}}}}}|Saint Helena and Ascension Island]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Tristan da Cunha{{{2| {{{suffix|}}}}}}|Tristan da Cunha]]
+          | TA = * [[{{{1|{{{prefix|}}}}}} Saint Helena{{{2| {{{suffix|}}}}}}|Saint Helena]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Tristan da Cunha and Ascension Island{{{2| {{{suffix|}}}}}}|Tristan da Cunha and Ascension Island]]
+          | SAT = * [[{{{1|{{{prefix|}}}}}} Saint Helena, Ascension and Tristan da Cunha{{{2| {{{suffix|}}}}}}|Saint Helena, Ascension and Tristan da Cunha]]
+          | #default = * [[{{{1|{{{prefix|}}}}}} Saint Helena{{{2| {{{suffix|}}}}}}|Saint Helena]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Ascension Island{{{2| {{{suffix|}}}}}}|Ascension Island]]&nbsp;/ [[{{{1|{{{prefix|}}}}}} Tristan da Cunha{{{2| {{{suffix|}}}}}}|Tristan da Cunha]]<!--
+      -->}}&nbsp;{{small|(Boqortooyada ingiriiska)}}<!--
+
+       ----------Western Sahara:---------
+   -->{{#ifeq:{{{1|{{{prefix}}}}}}|Flag of |
+       | {{#ifexist:{{{1|{{{prefix|}}}}}} Western Sahara{{{2| {{{suffix|}}}}}}
+          |* [[{{{1|{{{prefix|}}}}}} Western Sahara{{{2| {{{suffix|}}}}}}|Western Sahara]]<!---No, Western Sahara is not the same as the Sahrawi Republic.
+      -->}}<!--
+   -->}}<!--
+
+ -->}}<!--(end #if:{{{countries_only|}}})-->
+</div>
+}}<includeonly>{{#if:{{{2|}}}{{{suffix|}}} |[[Category:Region topic template using suffix]]}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
