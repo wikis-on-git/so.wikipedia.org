@@ -230,7 +230,7 @@
 | data29 = {{{incumbent|}}}
 
 | label30 = {{#if:{{{succeeding|}}}|Ku xiga|Preceding}}
-| data30 = {{#if:{{{succeeding|}}}|{{{ku xiga|}}}|{{{preceding|}}}}}
+| data30 = {{#if:{{{succeeding|}}}|{{{succeeding|}}}|{{{preceding|}}}}}
 
 | label32 = {{nowrap|ka horeeyay}}
 | data32 = {{#if:{{{succeeding|}}}||{{#if:{{{predecessor|}}}|{{{predecessor}}}|{{{preceded|}}}}}}}
