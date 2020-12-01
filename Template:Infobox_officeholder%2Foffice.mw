@@ -106,7 +106,7 @@
 
 | data20 = {{#if:{{{nominee|}}}{{{candidate|}}}||
 {{#if:{{{succeeding|}}}
-  | {{nowrap|'''Assuming office'''}}<br />{{{termstart}}}{{#if:{{{term|}}}{{{termend|}}}|[[Category:Pages using infobox officeholder with succeeding and term or termend]]}}
+  | {{nowrap|'''La wareegida xafiiska'''}}<br />{{{termstart}}}{{#if:{{{term|}}}{{{termend|}}}|[[Category:Pages using infobox officeholder with succeeding and term or termend]]}}
   | {{#if: {{{term|}}} | {{nowrap|'''{{{termlabel|Xafiiska}}}'''}}<br />{{{term}}} }}
 }} }}
 
@@ -229,8 +229,8 @@
 | label29 = Incumbent
 | data29 = {{{incumbent|}}}
 
-| label30 = {{#if:{{{succeeding|}}}|Succeeding|Preceding}}
-| data30 = {{#if:{{{succeeding|}}}|{{{succeeding|}}}|{{{preceding|}}}}}
+| label30 = {{#if:{{{succeeding|}}}|Ku xiga|Preceding}}
+| data30 = {{#if:{{{succeeding|}}}|{{{ku xiga|}}}|{{{preceding|}}}}}
 
 | label32 = {{nowrap|ka horeeyay}}
 | data32 = {{#if:{{{succeeding|}}}||{{#if:{{{predecessor|}}}|{{{predecessor}}}|{{{preceded|}}}}}}}
