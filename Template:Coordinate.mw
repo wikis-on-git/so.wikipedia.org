@@ -1,0 +1,12 @@
+<includeonly>{{safesubst:German coord convert
+| 1 = {{{NS}}}
+| 2 = {{{EW}}}
+| 3 = {{safesubst:#if:{{{region|}}}|region:{{{region}}}}}{{safesubst:#if:{{{dim|}}}|_dim:{{{dim}}}}}{{safesubst:#if:{{{type|}}}|_type:{{{type}}}{{safesubst:#ifeq:{{{type}}}|city|{{safesubst:#if:{{{pop|}}}|({{{pop}}})}}}}}}
+| name = {{{name|}}}
+| display = {{safesubst:#if:{{{text|}}}|{{safesubst:#if:{{{article|}}}|inline,title}}|title}}
+}}</includeonly><noinclude>
+{{documentation
+| content = 
+This template is used to assist with translating coordinates from the German to English Wikipedia. To add coordinates in an article, please use {{tl|coord}} instead.
+[[Category:Coordinates templates]]
+}}</noinclude>
