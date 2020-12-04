@@ -1,0 +1,1740 @@
+<templatestyles src="GeoTemplate/styles.css"/><div class="toccolours plainlinks" style="font-size:92%; max-width:60em; float:right;">
+<!-- Input -->
+{| style="background:none; text-align:left; width:100%; border-collapse:collapse;"
+|- style="vertical-align:top;"
+! DMS<br>Decimal
+| colspan="3" style="width:95%;" | <span title="Latitude">{latdegabs}°&nbsp;{latminint}′&nbsp;{latsecdec}″&nbsp;{latNS}</span>, <span title="Longitude">{londegabs}°&nbsp;{lonminint}′&nbsp;{lonsecdec}″&nbsp;{lonEW}</span><br /><span class="geo"><span class="latitude" title="Latitude">{latdegdec}</span>, <span class="longitude" title="Longitude">{londegdec}</span></span>
+| rowspan="6" class="nomobile" style="width:364px;" |<!-- minimap -->
+<div style="position:relative; width:360px; height:180px;">
+<div style="position:absolute;">[[File:Earthmap1000x500.jpg|360x180px|Map the location of {title}|alt=|link=]]</div>
+<div style="position:absolute; top:94px; left:176px;">
+<div style="position:absolute; bottom:{latdegint}px; left:{londegint}px;" title="Location on {title}">[[File:Locator Dot.svg|8x8px|alt=|link=]]</div>
+</div>
+<div style="position:absolute; top:0; left:0; width:360px; height:180px;">&nbsp;</div>
+</div>
+|-
+! [[Geo URI]]
+| colspan="3" | geo:{latdegdec},{londegdec}
+|-
+! [[Universal Transverse Mercator coordinate system|UTM]]
+| colspan="3" | <span title="Zone">{utmzone}</span> <span title="Easting">{utmeasting}</span> <span title="Northing">{utmnorthing}</span>
+|-
+|
+| colspan="3" style="text-align:center" |[//geohack.toolforge.org/geohack.php?language={language}&pagename={pagenamee}&params={params}_globe:export&title={titlee} More formats...]
+|-
+! [[WP:GEO#type:T|Type]]
+| style="min-width:5em;" | {type}&nbsp;
+! [[WP:GEO#region:R|Region]]
+| style="min-width:5em;" | [{{SERVER}}/wiki/ISO_3166-2:{region} {region}]
+|- style="vertical-align:top;"
+! Article
+| colspan="3" style="padding-bottom:1.5em;"| [{{SERVER}}/wiki/{pagenamee} {title}] <br><span class="noprint" style="text-transform:lowercase; visibility:hidden{pagename};">([{{SERVER}}{{SCRIPTPATH}}/index.php?title={pagenamee}&action=edit Edit] | [{{SERVER}}{{SCRIPTPATH}}/index.php?title={{ns:1}}:{pagenamee}&action=edit&section=new&editintro=Template:Geodata-check/report_editintro&preloadtitle={{urlencode:Coordinate error}}&preload=Template:Geodata-check/preload Report inaccuracies])</span>
+|- style="border-top:2px solid #bbb; vertical-align:top;"
+! Contents: __NOTOC__
+| colspan="5" | [[#Global services|Global services]]&nbsp;'''·''' [[#GEOTEMPLATE-LOCAL|Local services]]&nbsp;'''·''' [[#Photos|Photos]]&nbsp;'''·''' [[#Wikipedia articles|Wikipedia articles]]&nbsp;'''·'''  [[#Other information|Other]]
+|}
+</div>
+<div class="plainlinks" style="text-align:center;">
+<div style="min-width:192px; display:inline-block;">Popular:</div>
+<br><div style="min-width:192px; display:inline-block;">
+[//www.bing.com/maps/?v=2&cp={latdegdec}~{londegdec}&style=r&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{titlee}___ <span style="display:inline-block; text-align:center; width:96px;">[[File:Bing favicon.svg|64x64px|link=|alt=]]<br>Bing Maps</span>][//maps.google.com/maps?ll={latdegdec},{londegdec}&q={latdegdec},{londegdec}&hl={language}&t=m&z={osmzoom} <span style="display:inline-block; text-align:center; width:96px;">[[File:Google Maps icon (2020).svg|64x64px|link=|alt=]]<br>Google Maps</span>]
+</div><div style="min-width:192px; display:inline-block;">
+[{{fullurl:toollabs:wp-world/earth.php|long={londegdec}&lat={latdegdec}&name={pagenamee}}} <span style="display:inline-block; text-align:center; width:96px;">[[File:Google Earth icon.svg|64x64px|link=|alt=]]<br/>Google Earth</span>]
+[//www.openstreetmap.org/?mlat={latdegdec}&mlon={londegdec}&zoom={osmzoom}&layers=M <span style="display:inline-block; text-align:center; width:96px;">[[File:Openstreetmap logo.svg|64x64px|link=|alt=]]<br>OpenStreetMap</span>]
+</div></div>
+
+<!-- services -->
+{| class="mobile-linearize plainlinks geoservices" cellpadding="0" cellspacing="0" style="background:none; border-collapse:collapse; table-layout:fixed; width:100%;"
+|- style="vertical-align:top;"
+| class="directory" style="background:#fff; overflow:hidden; width:50%;" | <div id="GEOTEMPLATE-GLOBAL">
+__NOEDITSECTION__
+== Global/Trans-national services ==
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse; width:98%; margin-left:0.25em"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | More
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] ACME Mapper
+| [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=M&marker0={latdegdec},{londegdec},{titlee} Map]
+| [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=SL&marker0={latdegdec},{londegdec},{titlee} Satellite]
+| [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=T&marker0={latdegdec},{londegdec},{titlee} Topo], [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=R&marker0={latdegdec},{londegdec},{titlee} Terrain],&nbsp;[https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=K&marker0={latdegdec},{londegdec},{titlee} Mapnik]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Apple Maps (WatchOS).svg|16x16px|link=|alt=]] Apple Maps (Apple devices only)
+| [//maps.apple.com/?q={latdegdec},{londegdec}&t=m Map]
+|[//maps.apple.com/?q={latdegdec},{londegdec}&t=k Satellite]
+|
+|- style="background:#e0eef7" class="nomobile" <!-- goes to web search on mobile Mar-2017 -->
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Bing favicon.svg|16x16px|link=|alt=]] '''Bing Maps'''
+| [//www.bing.com/maps/?v=2&cp={latdegdec}~{londegdec}&style=r&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{titlee}___ Map]
+| [//www.bing.com/maps/?v=2&cp={latdegdec}~{londegdec}&style=h&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{titlee}___ Aerial]
+| [//www.bing.com/maps/?v=2&cp={latdegdec}~{londegdec}&style=o&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{titlee}___ Bird's Eye]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Blue Marble Navigator
+|
+| [https://blue-marble.de?lon={londegdec}&nlat={latdegdec}&borders&geonames&townnames&zoom&overlay=14&base=7 Satellite]
+| [https://blue-marble.de/nightlights?ll={latdegdec},{londegdec} Night Lights]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Copernix
+| [https://copernix.io/#?where={londegdec},{latdegdec},{osmzoom}&query=&map_type=roadmap&pagename={pagenamee}?language={language} Map]
+| [https://copernix.io/#?where={londegdec},{latdegdec},{osmzoom}&query=&pagename={pagenamee}?language={language} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Fourmilab
+|
+| [//www.fourmilab.ch/cgi-bin/uncgi/Earth?imgsize=320&opt=-l&lat={latdegdec}&ns=North&lon={londegneg}&ew=West&alt={altitude}&img=nasa.evif Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] GeaBios
+|
+| [http://www.geabios.com/html/services/maps/PublicMap.htm?lat={latdegdec}&lon={londegdec}&fov={span}&title={titlee} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] GeoNames
+|
+| [http://www.geonames.org/maps/google_{latdegdec}_{londegdec}.html Satellite]
+| [http://ws.geonames.org/extendedFindNearby?lat={latdegdec}&lng={londegdec} Text (XML)]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Google Earth icon.svg|16x16px|link=|alt=]] Google Earth<sup>[[Template talk:GeoTemplate/FAQ#Google|note]]</sup>
+|
+| [{{fullurl:toollabs:wp-world/earth.php|long={londegdec}&lat={latdegdec}&name={pagenamee}}} Open]
+| [{{fullurl:toollabs:geocommons/earth.kml|latdegdec={latdegdec}&londegdec={londegdec}&scale={scale}&title={titlee}}} w/ meta data]
+|- style="background:#e0eef7"
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Google Maps icon (2020).svg|16x16px|link=|alt=]] '''Google Maps'''
+| [//maps.google.com/maps?ll={latdegdec},{londegdec}&q={latdegdec},{londegdec}&hl={language}&t=m&z={osmzoom} Map]
+| [//maps.google.com/maps?ll={latdegdec},{londegdec}&q={latdegdec},{londegdec}&hl={language}&t=h&z={osmzoom} Satellite]
+| [//www.google.com/maps/place//@{latdegdec},{londegdec},{osmzoom}z/data=!4m2!3m1!1s0x0:0x0!5m1!1e4?hl={language} Terrain], [//maps.google.com/maps?ll={latdegdec},{londegdec}&q={latdegdec},{londegdec}&hl={language}&t=h&z={osmzoom}&layer=c&cbll={latdegdec},{londegdec} Street View], [//earthengine.google.com/timelapse/#v={latdegdec},{londegdec},{osmzoom},latLng&t=3.04 Earth Timelapse]
+|- class="nomobile" <!-- Mobile users can't use files -->
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] GPS Visualizer
+| [https://www.gpsvisualizer.com/map_input?special=wikipedia&format=leaflet&bg_map=google_openstreetmap&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} Map]
+| [https://www.gpsvisualizer.com/map_input?special=wikipedia&format=leaflet&bg_map=google_aerial_arcgis&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} Satellite]
+| [https://www.gpsvisualizer.com/map_input?special=wikipedia&format=leaflet&bg_map=google_arcgistopo_world&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} Topo], [https://www.gpsvisualizer.com/draw/?zoom={zoom}&center={latdegdec},{londegdec}&marker={titlee} Drawing Utility]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:HERE logo.svg|16x16px|link=|alt=]] HERE
+| [https://wego.here.com/location/?map={latdegdec},{londegdec},{osmzoom},normal&msg={titlee} Map]
+| [https://wego.here.com/location/?map={latdegdec},{londegdec},{osmzoom},satellite&msg={titlee} Satellite]
+| [https://wego.here.com/location/?map={latdegdec},{londegdec},{osmzoom},terrain&msg={titlee} Terrain]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] MapQuest
+| [https://www.mapquest.com/latlng/{latdegdec},{londegdec}?zoom={osmzoom}&maptype=map Map]
+| [https://www.mapquest.com/latlng/{latdegdec},{londegdec}?zoom={osmzoom}&maptype=sat Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:NASA logo.svg|16x16px|link=|alt=]] NASA World Wind
+|
+| [worldwind://goto/world=Earth&lat={latdegdec}&lon={londegdec}&view={span} Open]
+|
+|- style="background:#e0eef7"
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Openstreetmap logo.svg|16x16px|alt=]] '''Open<wbr>Street<wbr>Map'''
+| [//www.openstreetmap.org/?mlat={latdegdec}&mlon={londegdec}&zoom={osmzoom}&layers=M Map]
+|
+| [//geohack.toolforge.org/geohack.php?language={language}&project=osm&pagename={pagenamee}&params={params}&title={titlee} more maps], [https://nominatim.openstreetmap.org/reverse?lat={latdegdec}&lon={londegdec}&zoom={zoom} Nominatim (reverse geocoding)], [https://openstreetbrowser.org/#map={zoom}/{latdegdec}/{londegdec} OpenStreetBrowser]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] TerraServer
+|
+| [//www.terraserver.com/view?utf8=%E2%9C%93&search_text=&searchLat=&searchLng=&lat={latdegdec}&lng={londegdec}&bbox=&center= Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] maps.vlasenko.net
+|
+|
+| [http://maps.vlasenko.net/?lon={londegdec}&lat={latdegdec} Old Soviet Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Waze
+| [//www.waze.com/livemap/?zoom={osmzoom}&lat={latdegdec}&lon={londegdec} Map]
+|
+| [//www.waze.com/editor/?lon={londegdec}&lat={latdegdec} Editor], App: [http://waze.to/?ll={latdegdec},{londegdec} Open], [http://waze.to/?ll={latdegdec},{londegdec}&navigate=yes Navigate]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Wikimapia logo without label.svg|16x16px|link=|alt=]] Wikimapia
+| [http://wikimapia.org/#lang={language}&lat={latdegdec}&lon={londegdec}&z={osmzoom}&m=w Map]
+| [http://wikimapia.org/#lang={language}&lat={latdegdec}&lon={londegdec}&z={osmzoom}&m=b Satellite]
+| [http://wikimapia.org/#lang={language}&lat={latdegdec}&lon={londegdec}&z={osmzoom}&m=b&v=8 + old places]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Erioll world 2.svg|16x16px|link=|alt=]] WikiMiniAtlas
+| [//wma.wmflabs.org/iframe.html?wma={latdegdec}_{londegdec}_700_500_{{CONTENTLANG}}_{zoom}_en&globe=Earth&lang={{CONTENTLANG}}&page={pagenamee} Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Yandex.Maps
+| [//maps.yandex.com/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.com/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Zoom Earth
+|
+| [https://zoom.earth/?lat={latdegdec}&lon={londegdec}&z=15&r=0&src=ggl Satellite]
+|
+|}
+</div>
+| class="directory" rowspan="2" style="background:#fff; overflow:hidden; width:50%; vertical-align:top;"| <div id="GEOTEMPLATE-LOCAL">
+
+== Wikimedia maps ==
+
+<!-- [[MediaWiki:GeoHack.js]] -->
+<div class="center" style="margin-left:0.25em">
+<div class="thumb tnone">
+<div class="thumbinner">
+<div id="osmEmbed" class="OSM:{latdegdec}_{londegdec}_{osmzoom}_mapnik" style="background:#aaa; width:100%; height:500px; height:80vh;">JavaScript disabled or out of map range.</div>
+</div>
+</div>
+</div>
+
+</div><!--/GEOTEMPLATE-LOCAL-->
+
+<div style="text-align:center; font-weight:bold;">[//geohack.toolforge.org/geohack.php?language={language}&pagename={pagenamee}&params={params}_region:#regional See all regions]</div>
+|-
+| rowspan="2" style="background:#fff; overflow:hidden; width:50%; vertical-align:top;"|
+
+
+==Photos==
+<div class="directory">
+{| class="plainlinks geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Aspect
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Commons-logo.svg|16x16px|link=|alt=]] Commons
+| [//wikimap.toolforge.org/?lat={latdegdec}&lon={londegdec}&zoom={osmzoom}&lang={language}&wp=false WikiMap] ([//wikimap.toolforge.org/?lat={latdegdec}&lon={londegdec}&zoom={osmzoom}&lang={language} +Wikipedia]),<!-- see https://de.wikipedia.org/wiki/Benutzer:DB111/Tools#WikiMap --> [https://osm-gadget-leaflet.toolforge.org/#/?lat={latdegdec}&lon={londegdec}&zoom={osmzoom}&lang=commons osm-gadget-leaflet map] ([https://osm-gadget-leaflet.toolforge.org/#/?lat={latdegdec}&lon={londegdec}&zoom={osmzoom}&lang={language} +Wikipedia])
+<!-- failing as of 2020-07-27: [//maps.google.com/maps?ll={latdegdec},{londegdec}&hq=https://geocommons.toolforge.org/web.kml&hl={language}&z={osmzoom} Map], -->
+<!-- failing as of 2020-07-27: [//geocommons.toolforge.org/proximityrama?latlon={latdegdec},{londegdec} Proximityrama] -->
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Flickr large white chiclet logo - no rounded corners, no border.svg|16x16px|link=|alt=]] Flickr
+| [//www.flickr.com/map/?fLat={latdegdec}&fLon={londegdec}&zl=5 Map], [//www.flickr.com/nearby/{latdegdec},{londegdec}?show=thumb&fromfilter=1&by=everyone&taken=alltime&sort=mostrecent Listing]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] Loc.alize.us
+| [//loc.alize.us/#/geo:{latdegdec},{londegdec},14,m/sort:date/ Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[File:Spacer.gif|16x16px|link=|alt=]] VirtualGlobetrotting
+| [//virtualglobetrotting.com/ll/{latdegdec},{londegdec} Listing]
+|}
+<!-- blacklisted
+| [//www.360cities.net/map#lat={latdegdec}&lng={londegdec}&zoom={osmzoom} 360 Cities] ([[Panoramic photography|pano]])
+-->
+<!-- Shutdown
+| [https://www.panoramio.com/map/#lt={latdegdec}&ln={londegdec}&z=0&k=0&a=1&tab=2 Panoramio]
+<!-- ?
+| [http://www.planeteye.com/maps?refcon=wikipedia&pll={latdegdec},{londegdec}&z={osmzoom}&title={titlee}&type={type}&scale={scale}&region={region}&sd=photos PlanetEye]
+-->
+</div>
+|}
+
+==Wikipedia articles==
+<div class="directory">
+{| class="plainlinks geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Aspect
+! scope="col" | Link
+! scope="col" | Prepared by
+|-
+| Wikidata 
+| [https://wikidata-todo.toolforge.org/around.html?lat={latdegdec}&lon={londegdec}&radius=15&lang={language} items]
+| —
+|-
+| Article on specific latitude/longitude
+<!-- for [[Category talk:Lines of latitude#Redirects]], [[Category talk:Lines of longitude#Redirects]] -->
+| [//{language}.wikipedia.org/wiki/Latitude_{latdegabs}_degrees_{latNS} Latitude {latdegabs}° {latNS}] and [//{language}.wikipedia.org/wiki/Longitude_{londegabs}_degrees_{lonEW} Longitude {londegabs}° {lonEW}]
+| —
+|-
+| Articles on specific latitude/longitude
+| [{{fullurl:toollabs:wikimap/|lang={{CONTENTLANG}}&lon={londegdec}&lat={latdegdec}&zoom={osmzoom}&commons=false}} WikiMap (OSM)]
+| WikiMap
+|-
+| style="overflow:hidden;" | All coordinates on ''{pagename}''
+| [{{fullurl:toollabs:wikimap/|lang={{CONTENTLANG}}&page={pagenamee}}} WikiMap (OSM)]
+| WikiMap
+|-
+| Layer in
+| [{{fullurl:tools:~kolossos/openlayers/kml-on-ol.php|la={language}&uselang={language}&lon={londegdec}&lat={latdegdec}&rang=50&map=1}} OpenStreetMap]
+| Wikipedia-World
+|-
+| Table of coordinates
+| [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=5&map=0&limit=75}} 5,] [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=10&map=0&limit=75}} 10,] [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=20&map=0&limit=250}} 20,] [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=50&map=0&limit=400}} 50,] [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=100&map=0&limit=500}} 100] or [{{fullurl:toollabs:wp-world/umkreis.php|la=en&submit=Table&lon={londegdec}&lat={latdegdec}&rang=250&map=0&limit=500}} 250] km away
+| Wikipedia-World
+|-
+| Table of coordinates
+| [https://dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=5 5,] [https://dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=10 10,] [https://dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=20 20,] [https:///dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=50 50,] [https://dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=100 100] or [https://dispenser.toolforge.org/cgi-bin/locateCoord.py?dbname={language}wiki&lon={londegdec}&lat={latdegdec}&range_km=250 250] km away
+| Dispenser, daily 07:00 UTC
+|-
+| Table of coordinates
+| [http://www.geonames.org/maps/wikipedia_{latdegdec}_{londegdec}.html Geonames]
+| Geonames
+|-
+| Missing images
+| [https://wikishootme.toolforge.org/#lat={latdegdec}&lng={londegdec} WikiShootMe]
+| Magnus Manske / Wikidata community
+|}
+</div>
+
+==Other information==
+<div class="directory">
+{| class="plainlinks geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Aspect
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Geocaching.com
+| [//www.geocaching.com/seek/nearest.aspx?origin_lat={latdegdec}&origin_long={londegdec}&dist=20&submit3=Search Near by locations], [//www.geocaching.com/map/default.aspx?lat={latdegdec}&lng={londegdec} Map this location]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | NASA Weather
+| Satellite images: [https://weather.msfc.nasa.gov/cgi-bin/get-goes?satellite=Global%20Composite&lat={latdegdec}&lon={londegdec}&zoom=1&info=ir&palette=spect.pal&width=600&height=500 Radar] (Currently not updating<!-- and I don't think it is radar?-->)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Megalithic Portal
+| [https://www.megalithic.co.uk/article.php?long={londegdec}&lat={latdegdec} Prehistoric Sites, nearby]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Earthtools.org
+| [http://new.earthtools.org/height/{latdegdec}/{londegdec} Elevation (Europe and America)], [http://new.earthtools.org/timezone/{latdegdec}/{londegdec} Time zone (Outdated<!--for data in e.g. South Sudan-->)] ([[Extensible Markup Language|XML]] output)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | SunriseSunset.com
+| [http://www.sunrisesunset.com/calendar.asp?comb_city_info=Long:{londegneg},Lat:{latdegdec};{londegneg};{latdegdec};0;0&month={{CURRENTMONTH}}&year={{CURRENTYEAR}}&time_type=1&use_dst=0&want_twi_civ=1&want_twi_naut=1&want_twi_astro=1&want_mrms=1&want_mphase=1 Sunrise, Sunset, Twilight, and Moon Calendar]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Geody
+| [https://www.geody.com/geolook.php?world=terra&lat={latdegdec}&lon={londegdec} Info]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Heavens-Above.Com
+| [//www.heavens-above.com/?Loc=Newark&Lat={latdegdec}&Lng={londegdec}&Alt={altitude} Satellite / Planet Spotter]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Echolink
+| [http://www.echolink.org/links.jsp?sel=latlon&lat_deg={latdegdec}&lat_min={latmindec}&lon_deg={londegabs}&lon_min={lonmindec}&lon_EW={lonEW} Nearest gateway network] for amateur radio VoIP
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Findu.com
+| [http://www.findu.com/cgi-bin/near.cgi?lat={latdegdec}&lon={londegdec} APRS stations]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Degree Confluence Project
+| [http://www.confluence.org/confluence.php?lat={latdeground}&lon={londeground} Info]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GeoHack
+| [//geohack.toolforge.org/geohack.php?language={language}&pagename={pagenamee}&params={latantipodes}_N_{longantipodes}_E_scale:10000000_type:{type}&title=The+Antipodes+of+{titlee} Antipodes]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MaPit (from [[mySociety]])
+| [https://global.mapit.mysociety.org/point/4326/{londegdec},{latdegdec}.html Containing areas] (political boundaries, etc.)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | PeakFinder.org
+| [https://www.peakfinder.org/?lat={latdegdec}&lng={londegdec}&name={titlee} 360° panoramic mountain views]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | SkyVector
+| [//skyvector.com/?ll={latdegdec},{londegdec}&zoom=2 Aeronautical chart]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Flightradar24
+| [https://www.flightradar24.com/{latdegdec},{londegdec}/{osmzoom} Planes flying in the area]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Great Circle Mapper
+| [http://www.gcmap.com/search?Q={latdegdecabs}{latNS}+{londegdecabs}{lonEW} Nearby Airports]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | OpenSeaMap
+| [https://map.openseamap.org/map/?zoom={osmzoom}&mlat={latdegdec}&mlon={londegdec}&layers=BTTFFFTFFFF0TFFTFTFF Sea lanes, beacons, traffic, etc.]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MarineTraffic 
+| [//www.marinetraffic.com/en/ais/home/centerx:{londegdec}/centery:{latdegdec}/zoom:{osmzoom} Ships in the area]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | OpenRailwayMap
+| [//www.openrailwaymap.org/?lang=en&lat={latdegdec}&lon={londegdec}&zoom={osmzoom}&style=standard Railways]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Strava
+| [//labs.strava.com/heatmap/#10.86/{londegdec}/{latdegdec}/hot/all Fitness tracking heatmap]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | LightningMaps.org
+| [https://www.lightningmaps.org/?lang=fr#y={latdegdec};x={londegdec};z=12;t=1;m=oss;r=0;s=201;o=0;b=0.00;n=0;d=2;dl=2;dc=0;ts=0; Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapillary.com
+| [http://www.mapillary.com/map/im/{osmzoom}/{latdegdec}/{londegdec} Crowdsourced street view]
+|}
+</div>
+
+<!--
+[http://mapmaker.nationalgeographic.org/ National Geographic MapMaker]
+-->
+
+<!-- Begin region specific -->
+
+<div id="GEOTEMPLATE-REGIONS" class="directory">
+{| id="regional" class="toc plainlinks" summary="Other regions"
+|-
+! scope="row" style="padding-left: 0.5em" |Regional services:
+|style="padding:0 0.5em" |
+[[#Africa|Africa]]&nbsp;'''·'''
+[[#Asia|Asia]]&nbsp;'''·'''
+[[#Australia|Australia]]&nbsp;'''·'''
+[[#Europe A–M|Europe (A–M)]]&nbsp;'''·'''
+[[#Europe N–Z|Europe (N–Z)]]&nbsp;'''·'''
+[[#North America|North America]]&nbsp;'''·'''
+[[#South America|South America]]&nbsp;'''·'''
+[[#Antarctica|Antarctica/Arctic]]
+|}
+
+=North America=
+<div id="GEOTEMPLATE-CA">
+==Canada==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GPS Visualizer
+| [http://www.gpsvisualizer.com/map_input?special=wikipedia&format=google&bg_map=nrcan_toporama&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} Topo]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | National Atlas of Canada
+| [http://atlas.nrcan.gc.ca/site/english/toporama/index.html Topo] (Indirect link)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TopoQuest
+| [//www.topoquest.com/map.php?lat={latdegdec}&lon={londegdec}&datum=nad83&zoom=8&map=50k Topo]
+|}
+</div>
+
+<div id="GEOTEMPLATE-US">
+==United States==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Aspect
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ACME
+| [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=T&marker0={latdegdec},{londegdec},{titlee} Topo] [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=N&marker0={latdegdec},{londegdec},{titlee} NEXRAD] [https://mapper.acme.com/?ll={latdegdec},{londegdec}&z={osmzoom}&t=O&marker0={latdegdec},{londegdec},{titlee} DOQ]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | CalTopo
+| [http://caltopo.com/map.html#ll={latdegdec},{londegdec}&z={osmzoom}&b=t Topo]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GPS Visualizer
+| [http://www.gpsvisualizer.com/map_input?special=wikipedia&format=google&bg_map=naip_aerial&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} USDA&nbsp;Aerial], [http://www.gpsvisualizer.com/map_input?special=wikipedia&format=google&bg_map=google_arcgistopo_us&sp_width=50km&google_zoom_level={zoom}&google_wpt_labels=1&form:data=name,latitude,longitude%0D%22{titlee}%22,{latdegdec},{londegdec} USGS&nbsp;Topo]
+|- style="background:#e0eef7"
+! scope="row" style="font-weight:normal; text-align:left;" | Historic Aerials
+| [https://historicaerials.com/?layer=map&zoom={osmzoom}&lat={latdegdec}&lon={londegdec} Historic Aerials]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | NASA/MSFC GOES
+| [https://weather.msfc.nasa.gov/cgi-bin/get-goes?satellite=GOES-E%20CONUS&lat={latdegdec}&lon={londegdec}&zoom=1&info=ir&palette=spect.pal&width=600&height=500 Weather Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | National Weather Service
+| [https://forecast.weather.gov/MapClick.php?textField1={latdegdec}&textField2={londegdec} Area weather and forecast]<br/> [https://forecast.weather.gov/MapClick.php?lat={latdegdec}&lon={londegdec}&unit=0&lg=english&FcstType=graphical Graphical hourly pinpoint forecast]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Natural Atlas
+| [https://naturalatlas.com/map/@{latdegdec},{londegdec},{osmzoom}z Topo]
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | TerraFly
+| [http://vn4.cs.fiu.edu/cgi-bin/gnis.cgi?Lat={latdegdec}&Long={londegdec}&vid=&tfaction=&referer=tfhome Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TopoQuest
+| [https://www.topoquest.com/map.php?lat={latdegdec}&lon={londegdec}&datum=nad83&zoom=4&map=sat1m USGS Aerial], [//www.topoquest.com/map.php?lat={latdegdec}&lon={londegdec}&datum=nad83&zoom=4 Topo]
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | Trails.com
+| [http://www.topozone.com/map.asp?lat={latdegdec}&lon={londegdec}&datum=nad83 Topo]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | US EPA
+| [//water.usgs.gov/cgi-bin/pointinhuc.pl?latitude={latdegabs}{latminint}{latsecint}{latNS}&longitude={londegabs}{lonminint}{lonsecint}{lonEW} Watershed Info]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | USGS National Map Viewer
+| [https://viewer.nationalmap.gov/advanced-viewer/viewer/index.html?marker={londegdec},{latdegdec},4326,from%20{pagenamee},,{titlee}&scale={scale} Map],<!-- Advanced TNM Viewer: might need to make sure scale is what we expect; also, commas should be filtered out in pagename and title somehow --> [//viewer.nationalmap.gov/viewer/?q={latdegdec},{londegdec} Legacy TNM]<!-- ending May 2017 --> <!-- even older/long gone: [http://nmviewogc.cr.usgs.gov/viewer.htm?CenterPoint={latdegdec},{londegdec}&Scale=CITY&Classes=OTHER%20IMAGERY Map] -->
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | WeatherUSA 
+| [https://www.weatherusa.net/weathernet/live/?q={latdegdec},{londegdec}&zoom={osmzoom}&layers=obs-t,radar,alerts Live] 
+|}
+</div>
+
+=Europe A–M=
+
+<div id="GEOTEMPLATE-AT">
+== Austria ==
+<!--
+Dokumentation zum Geolink-Dienst siehe http://de.wikipedia.org/wiki/Vorlage:GeoTemplate/GeolinkConfig
+-->
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+|-
+| Austrian map amap.at (max 1:50,000)
+|[https://alexrk4.appspot.com/geolink?config=austriamap&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|
+|}
+===Local===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kärnten Atlas (Carinthia)
+| [https://alexrk4.appspot.com/geolink?config=kaerntenatlas&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | NÖ Atlas (Lower Austria)
+| [https://alexrk4.appspot.com/geolink?config=noeatlas&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | DORIS interMap (Upper Austria)
+| [https://alexrk4.appspot.com/geolink?config=ooeatlas&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | SAGIS (Salzburg)
+| [https://alexrk4.appspot.com/geolink?config=salzburg&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Digitaler Atlas Steiermark (Styria)
+| [https://alexrk4.appspot.com/geolink?config=steiermark&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | tirisMaps (Tyrol)
+| [https://alexrk4.appspot.com/geolink?config=tirol&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | VoGIS (Vorarlberg)
+|[https://alexrk4.appspot.com/geolink?config=vorarlberg&lat={latdegdec}&lon={londegdec}&scale={scale} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-BY">
+==Belarus==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | maps.vlasenko.net
+| [http://maps.vlasenko.net/?lat={latdegdec}&lon={londegdec} Map]
+| [http://maps.vlasenko.net/?lat={latdegdec}&lon={londegdec}&addmap1=space10 Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yandex Maps
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kosmosnimki
+|
+| [http://www.kosmosnimki.ru/index.html#mode=satellite&x={londegdec}&y={latdegdec}&z=12&fullscreen=true Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | LatLon.org: Navitel
+| [http://latlon.org/maxi?zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&layers=000000B0000000FT Map]
+|
+|}
+</div>
+
+<div id="GEOTEMPLATE-BG">
+==Bulgaria==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | eMaps.bg
+| [http://2cyr.com/emaps-bg.php?q={latdegdec},{londegdec} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | 360.bg
+|
+| [http://www.360.bg/index.php?lat={latdegdec}&lon={londegdec} Satellite]
+|}
+<!-- This service would be good to include, but #expr doesn't work as MediaWiki doesn't know the {} parameters, so it needs a GeoHack modification for the offset -->
+<!-- *[http://www.emaps.bg/emaps/content.asp?mapSize=1&cboMaps=0&minx={{#expr: {utmeasting}-14425}}&maxx={{#expr: {utmeasting}+14425}}&miny={{#expr: {utmnorthing}-10000}}&maxy={{#expr: {utmnorthing}+10000}} Find this location] on emaps.bg [http://www.emaps.bg/].-->
+</div>
+
+<div id="GEOTEMPLATE-CY">
+==Cyprus==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Cyprus on-line
+| [http://www.col.com.cy/?locale=en&lat={latdegdec}&long={londegdec}&level={zoom} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-CZ">
+==Czech Republic==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapy.cz
+| [https://en.mapy.cz/?x={londegdec}&y={latdegdec}&z={osmzoom}&q={latdegdecabs}{latNS}%20{londegdecabs}{lonEW} Map]
+| [https://en.mapy.cz/?x={londegdec}&y={latdegdec}&z={osmzoom}&q={latdegdecabs}{latNS}%20{londegdecabs}{lonEW}&base=ophoto Labeled satellite]
+| [https://en.mapy.cz/19stoleti?x={londegdec}&y={latdegdec}&z={osmzoom}&q={latdegdecabs}{latNS}%20{londegdecabs}{lonEW} Historical], [https://en.mapy.cz/turisticka?x={londegdec}&y={latdegdec}&z={osmzoom}&q={latdegdecabs}{latNS}%20{londegdecabs}{lonEW} Touristic]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | iDnes
+| [http://mapy.idnes.cz/#query=search({latdegabs}%C2%B0{latminint}%27{latsecdec}%22{latNS}%20{londegabs}%C2%B0{lonminint}%27{lonsecdec}%22{lonEW}@0@1) Map] 
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ikatastr.cz
+| [https://www.ikatastr.cz/#&kde={latdegdec},{londegdec},19 Cadastral Map] on ikatastr.cz 
+|
+|
+|}
+</div>
+
+<div id="GEOTEMPLATE-DK">
+
+==Denmark==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Findvej.dk
+| [http://www.findvej.dk/?longitude={londegdec}&latitude={latdegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Findvej.dk with Wikipedia
+| [http://www.findvej.dk/wikipedia?template=1&longitude={londegdec}&latitude={latdegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Eniro
+| [http://kort.eniro.dk/query?what=map&mapstate={zoom};{londegdec};{latdegdec} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-EE">
+==Estonia==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Estonian Land Board
+| [http://geoportaal.maaamet.ee/url/xgis-latlon.php?lat={latdegdec}&lon={londegdec}&out=xgis Orthophoto/Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-FI">
+==Finland==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Eniro
+| [http://kartor.eniro.se/?q={latdegdec},{londegdec}&z={zoom} Map]
+| [http://kartat.eniro.fi/query?what=map&mapstate={zoom};{londegdec};{latdegdec};o Oblique]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | National Land Survey of Finland MapSite
+| [http://toolserver.org/%7Epara/EPSG3067.php?lat={latdegdec}&lon={londegdec}&url=http://kansalaisen.karttapaikka.fi/linkki?scale={scale}&srs=EPSG%3A3067&y={n}&x={e}&lang=fi&text=Coordinate%20from%20GeoHack Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | 02.fi
+| [//para.toolforge.org/geo/convert/02.fi-grc.html#latlon={latdegdec},{londegdec} Map]
+|
+|}
+===Local===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | eKarjala
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://kartta.ekarjala.fi/WebEK/Default.aspx?layers=Etel%C3%A4-Karjalan%20Seutukartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+| Espoo
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6600000&Iref=2500000&link=http://kartat.espoo.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Helsinki
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6600000&Iref=2500000&link=http://kartta.hel.fi/opas/main/?l=1&m=1&o=1&n={Plocal}&e={Ilocal}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Hämeenlinna
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6700000&Iref=2500000&link=http://kartta.hameenlinna.fi/cgi-bin/GifMap.dll?Theme=Opaskartta&West={IlocalW}&South={PlocalS}&East={IlocalE}&North={PlocalN}&Height=600&Width=650&Command=DisplayLink&Language=fin&Info={Plocal},{Ilocal},{title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Jyväskylä
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6890000&Iref=3400000&link=http://kartta.jkl.fi/web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kokkola
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=7000000&Iref=2400000&link=http://ipp.kokkola.fi/cgi-bin/gifmap.dll?Theme=Opaskartta&West={IlocalW}&South={PlocalS}&East={IlocalE}&North={PlocalN}&Height=400&Width=500&Command=DisplayLink_fin&Language=fin&Info={Plocal},{Ilocal},{title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kotka
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6000000&Iref=3000000&link=http://karttapalvelu.kotka.fi/map/map.php?x={Ilocal}&y={Plocal}&px=1.0&txt={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kouvola
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6740000&Iref=3470000&link=http://kartta.kouvola.fi/web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kuopio
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://kartta.kuopionseutu.fi/map/map.php?x={Ilocal}&y={Plocal}&px=1.0&txt={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Lahti
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=840&Iref=-23053970&link=http://kartta.lahti.fi/web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Lappeenranta
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6700000&Iref=3500000&link=http://kartta.lappeenranta.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Oulu
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=7200000&Iref=2500000&link=http://kartta.ouka.fi/web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Pohjois-Karjala
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://pk-kartat.jns.fi/map.php?x={Ilocal}&y={Plocal}&px=1.0&txt={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Pori
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6800000&Iref=1500000&link=http://kartta.pori.fi/web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Rauma
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=1000000&link=http://opaskartta.rauma.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Rovaniemi
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://kartta.rovaniemi.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+| Tampere
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://www.tampere.fi/ytoteto/kartta/map.php?x={Ilocal}&y={Plocal}&px=1.0&txt={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Turku
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6600000&Iref=1500000&link=http://opaskartta.turku.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Vaasa
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=6900000&Iref=1500000&link=http://kartta.vaasa.fi/Web/Default.aspx?layers=Opaskartta&cp={Plocal},{Ilocal}&z=2&title={title}}} Map]
+|
+|-
+| Vantaa
+| [{{fullurl:toollabs:para/geo/convert/kkj|latdegdec={latdegdec}&londegdec={londegdec}&Pref=0&Iref=0&link=http://kartta.vantaa.fi/Default.aspx?easting={Ilocal}&northing={Plocal}}} Map]
+|
+|-
+| Retkikartta
+|
+| [http://www.retkikartta.fi/?x={utmeasting}&y={utmnorthing}&zoom=1 Topographical map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-FR">
+==France==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Aerial
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | FranceTopo
+| 
+| 
+| [http://francetopo.fr/api.html?map_x={londegdec}&map_y={latdegdec}&zoom_osm={osmzoom} Topo]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | IGN Géoportail
+| [http://www.geoportail.gouv.fr/accueil?c={londegdec},{latdegdec}&z=0.000316906&l=GEOGRAPHICALGRIDSYSTEMS.MAPS.3D$GEOPORTAIL:OGC:WMTS@aggregate(1)&permalink=yes Map]
+|[http://www.geoportail.gouv.fr/accueil?c={londegdec},{latdegdec}&z=0.000316906&l=ORTHOIMAGERY.ORTHOPHOTOS$GEOPORTAIL:OGC:WMTS(1)&permalink=yes Aerial]
+|[http://www.geoportail.gouv.fr/accueil?c={londegdec},{latdegdec}&z=0.000316906&l=CADASTRALPARCELS.PARCELS$GEOPORTAIL:OGC:WMTS(1)&permalink=yes Cadastral], [http://www.geoportail.gouv.fr/accueil?c={londegdec},{latdegdec}&z=0.000316906&l=GEOLOGY.GEOLOGY$EXTERNAL:OGC:EXTERNALWMS(1)&permalink=yes Geological], [http://www.geoportail.gouv.fr/accueil?c={londegdec},{latdegdec}&z=0.000316906&l=GEOGRAPHICALGRIDSYSTEMS.CASSINI$GEOPORTAIL:OGC:WMTS(1)&permalink=yes Cassini (18th century)]
+|}
+</div>
+
+<div id="GEOTEMPLATE-GB">
+==Great Britain==
+[[Ordnance Survey National Grid|OS Grid Reference]]: '''{osgb36ref}''' (all-numeric format: {osgb36easting} {osgb36northing})
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Topo
+! scope="col" | Aerial
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Bing Maps UK
+| [//www.bing.com/maps/?mkt=en-gb&v=2&cp={latdegdec}~{londegdec}&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title} Map]
+| [//www.bing.com/maps/?mkt=en-gb&v=2&cp={latdegdec}~{londegdec}&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title}&sty=s OS maps]
+| [//www.bing.com/maps/?mkt=en-gb&v=2&cp={latdegdec}~{londegdec}&lvl={osmzoom}&sp=Point.{latdegdec}_{londegdec}_{title}&sty=h Aerial]
+| [//www.bing.com/maps/?mkt=en-gb&v=2&cp={latdegdec}~{londegdec}&lvl={osmzoom}&sty=o Bird's Eye]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | StreetMap
+| [http://streetmap.co.uk/grid/{osgb36easting}_{osgb36northing}_106 Map]
+| [http://streetmap.co.uk/grid/{osgb36easting}_{osgb36northing}_120 OS maps]
+|
+| [http://streetmap.co.uk/idgc.srf?x={osgb36easting}&y={osgb36northing} Convert]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Vision of Britain historical maps
+| [http://www.visionofbritain.org.uk/location_page.jsp?easting={osgb36easting}&northing={osgb36northing} Map]
+| [http://www.visionofbritain.org.uk/location_page.jsp?easting={osgb36easting}&northing={osgb36northing} OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey
+|
+| [https://osmaps.ordnancesurvey.co.uk/osmaps/{latdegdec},{londegdec},{osmzoom}/pin OS maps]
+|
+| ''See other OS<br />map links below''
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | {{abbr|Defra|Department for Environment, Food and Rural Affairs}}'s {{abbr|MAGIC|Multi-Agency Geographic Information for the Countryside}} service
+| [http://magic.defra.gov.uk/MagicMap.aspx?xygridref={osgb36easting},{osgb36northing} Map]
+|
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Elgin roadworks information
+| [http://v5.roadworks.org/index.cfm?api=1&page=map&coord={osgb36easting},{osgb36northing}&scale=5000 Map]
+|
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | National Library of Scotland
+| 
+|[http://maps.nls.uk/geo/explore/#zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&layers=1&b=1 OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ViaMichelin UK
+| [http://www.viamichelin.co.uk/viamichelin/gbr/search/Cartes/{londegdec}*{latdegdec}?zoomLevel=12 Map]
+|
+|
+| [http://www.viamichelin.co.uk/viamichelin/gbr/search/Trafic/{londegdec}*{latdegdec}?zoomLevel=12 Traffic]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Old OS maps
+|
+| [http://www.ponies.me.uk/maps/osmap.html?z=14&x={londegdec}&y={latdegdec} OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Old-maps.co.uk
+|
+| [http://www.old-maps.co.uk/indexmappage2.aspx?action=forcexy&easting={osgb36easting}&northing={osgb36northing} OS plans]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Where's the Path?
+| [https://wtp2.appspot.com/wheresthepath.htm?lat={latdegdec}&lon={londegdec} Map]
+|
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | SABRE Maps
+| [http://www.sabre-roads.org.uk/maps/index.php?view={latdegdec},{londegdec}&map=OSMMap&layer=0 Map]
+| [http://www.sabre-roads.org.uk/maps/index.php?view={latdegdec},{londegdec}&map=NPEMap&layer=0 OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Systematic Maps
+| 
+| [http://www.sysmaps.co.uk/sysmaps_os.html?!{latdegdec}~{londegdec} OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MaPit<br />(from [[mySociety]])
+|
+| 
+|
+|[http://mapit.mysociety.org/point/4326/{londegdec},{latdegdec}.html Containing areas]<br />(ward, constituency, etc.) <!-- different to global version, above -->
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[British Geological Survey]]
+|
+|
+|
+| [//www.bgs.ac.uk/data/services/mapCreator/WmsMap.html?mapCentreLat={latdegdec}&mapCentreLong={londegdec}&mapZoom=14&boxWidth=800&boxHeight=450&geologyType=bedrock50k&mapType=HYBRID Geology]
+<!-- Commenting out section while OpenStreetMap street mapservers are down
+|-
+| colspan=5 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;''More OS maps''
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey NPE 1:50000<br />(England / Wales), 1945-1955<br />(via [[OpenStreetMap]])
+|
+| [http://ooc.openstreetmap.org/?zoom=15&lat={latdegdec}&lon={londegdec}&layers=B0000 OS maps]
+|
+|
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey NPE/7th<br />1:50000 (Scotland), 1945-1955<br />(via OpenStreetMap)
+|
+| [http://ooc.openstreetmap.org/?zoom=15&lat={latdegdec}&lon={londegdec}&layers=0B000 OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey 7th series<br />1:50000, 1947-1960 (via<br />OpenStreetMap; partial coverage)
+|
+| [http://ooc.openstreetmap.org/?zoom=15&lat={latdegdec}&lon={londegdec}&layers=00B00 OS maps]
+|
+|
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey 1st edition<br />1:25000, 1946-1960<br />(via OpenStreetMap)
+|
+| [http://ooc.openstreetmap.org/?zoom=15&lat={latdegdec}&lon={londegdec}&layers=000B0 OS maps]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey OpenStreet data<br />(via OpenStreetMap)
+|
+| [http://os.openstreetmap.org/?zoom=15&lat={latdegdec}&lon={londegdec}&layers=B0 OS maps]
+|
+|
+end of comment -->|}
+<!--<br />-->
+{| border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse; margin-top:1em"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Information
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[Geograph Britain and Ireland]]
+| [https://www.geograph.org.uk/gridref/{osgb36ref} Photos]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | UKVillages
+| [http://www.ukvillages.co.uk/ukvillages.nsf/b!open&s=village%20map&x={osgb36easting}&y={osgb36northing} villages]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | UK-postcodes.com
+| [http://www.uk-postcodes.com/latlng/{latdegdec},{londegdec} Postal code and local government]<br />
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GlobalGuide.org
+| [//www.globalguide.org/index.html?lat={latdegdec}&long={londegdec}&zoom=17&title={titlee} View land use]
+|}
+</div>
+
+<div id="GEOTEMPLATE-GR">
+
+==Greece==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | in.gr
+| [http://maps.in.gr/Default.aspx?c={latdegdec},{londegdec}&z={zoom} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | umap.gr
+| [http://www.umap.gr/webcruiser/umap.html?locale=en&lat={latdegdec}&long={londegdec}&level={zoom} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-IS">
+==Iceland==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Já.is
+| [http://en.ja.is/kort#lat={latdegdec}&lon={londegdec}&z=6&mark=1 Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-IE">
+==Ireland==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" |Ordnance Survey Ireland
+|[http://map.geohive.ie/ Ordnance Survey Ireland]
+|}
+</div>
+
+<div id="GEOTEMPLATE-IM">
+==Isle of Man==
+[[Ordnance Survey National Grid|OS Grid Reference]]: '''{osgb36ref}''' (all-numeric format: {osgb36easting} {osgb36northing})
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Multimap
+| [http://www.multimap.com/p/browse.cgi?scale={mmscale}&lon={londegdec}&lat={latdegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | StreetMap
+| [http://www.streetmap.co.uk/newsearch.srf?mapp=newmap&searchp=newsearch&name={latdegdec},{londegdec}&Submit1=search&type=LatLong Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Ordnance Survey OS Maps
+| [https://osmaps.ordnancesurvey.co.uk/osmaps/{latdegdec},{londegdec},{osmzoom}/pin Map]
+|}
+* [https://www.geograph.org.uk/gridref/{osgb36ref} View photos of this location] from [[Geograph Britain and Ireland]]
+</div>
+
+<div id="GEOTEMPLATE-IT">
+==Italy==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ViaMichelin Italia
+| [http://www.viamichelin.it/viamichelin/int/search/Cartes/{londegdec}*{latdegdec}?zoomLevel=12 Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-LI">
+==Liechtenstein==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | map.geo.admin.ch
+| [http://map.geo.admin.ch/?zoom=5&X={ch1903northing}&Y={ch1903easting}&lang={language}&crosshair=marker Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Swisstopo
+| [http://map.geodataviewer.admin.ch/geodatenviewer.php?x={ch1903easting}&y={ch1903northing}&lang={language} Map]
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | map.search.ch
+| [http://map.search.ch/{ch1903easting},{ch1903northing} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MySwitzerland.com
+| [http://map.myswitzerland.com/myswitzerland/?x={ch1903easting}.00&y={ch1903northing}.00&lang={language} Map]
+|- 
+! scope="row" style="font-weight:normal; text-align:left;" | Mapplus/Tydac
+| [http://www.mapplus.ch/frame.php?map=&x={ch1903easting}&y={ch1903northing}&zl=12 Map]
+|}
+</div><!--
+
+div id="GEOTEMPLATE-LT">
+==Lithuania==
+* Geographic Information portal of Lithuania [http://www.geoportal.lt/map/#x=533712&y=6060907&l=3&s=3346 Map and Satellite]
+</div-->
+
+=Europe N–Z=
+<div id="GEOTEMPLATE-NO">
+== Norway ==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Aerial
+! scope="col" | Hybrid
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Norgeskart.no
+| [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/+land Map]
+| [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+flybilder Aerial]
+|
+| [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+sjo Sea], [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+terreng Terrain], [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+enkel Basic]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Norge i bilder
+|
+| [http://norgeibilder.no/?x={utm33easting}&y={utm33northing}&level={osmzoom}&utm=33&projects=&layers=&planned=0 Aerial]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Høydedata
+| [https://hoydedata.no/LaserInnsyn/?x={utm33easting}&y={utm33northing}&level={osmzoom}&utm=33&projects=&layers=&planned=0 Map]
+|
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Norkart Virtual Globe
+|
+| [http://www.virtual-globe.info/VirtualGlobeStarter.php?request=page&dataset=http://www.virtual-globe.info/norge-globe-features.vgml&lookat={londegdec},{latdegdec},{scale} Satellite]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Finn.no
+| [http://kart.finn.no/?lng={londegdec}&lat={latdegdec}&zoom={osmzoom}&mapType=normap Map]
+| [http://kart.finn.no/?lng={londegdec}&lat={latdegdec}&zoom={osmzoom}&mapType=norortho Aerial]
+| [http://kart.finn.no/?lng={londegdec}&lat={latdegdec}&zoom={osmzoom}&mapType=norhybrid Hybrid]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Gulesider.no
+| [http://kart.gulesider.no/?c={latdegdec},{londegdec}&z={osmzoom} Map]
+| [http://kart.gulesider.no/?c={latdegdec},{londegdec}&z={osmzoom}&l=aerial Aerial]
+| [http://kart.gulesider.no/?c={latdegdec},{londegdec}&z={osmzoom}&l=hybrid Hybrid]
+| [http://kart.gulesider.no/?c={latdegdec},{londegdec}&z={osmzoom}&l=nautical Sea], [http://kart.gulesider.no/?c={latdegdec},{londegdec}&z={osmzoom}&orientation=N&l=oblique Oblique]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | 1881
+| [https://kart.1881.no/?lat={latdegdec}&lon={londegdec}&z={osmzoom}&v=0&r=&o=&layer= Map]
+| [https://kart.1881.no/?lat={latdegdec}&lon={londegdec}&z={osmzoom}&v=1&r=&o=&layer= Aerial]
+| [https://kart.1881.no/?lat={latdegdec}&lon={londegdec}&z={osmzoom}&v=2&r=&o=&layer= Hybrid]
+| [https://kart.1881.no/?lat={latdegdec}&lon={londegdec}&z={osmzoom}&v=5&r=&o=&layer= Oblique]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Statens Vegvesen
+| [https://www.vegvesen.no/vegkart/vegkart/#kartlag:geodata/@{utm33easting},{utm33northing},{osmzoom} Map]
+| [https://www.vegvesen.no/vegkart/vegkart/#kartlag:nib/@{utm33easting},{utm33northing},{osmzoom} Aerial]
+|
+| [http://www.vegvesen.no/Trafikkbeta/?lat={latdegdec}&long={londegdec}&zoom={osmzoom} Traffic]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | UT.no
+| [https://www.ut.no/kart?lat={latdegdec}&lng={londegdec}&zoom={osmzoom} Map]
+|
+|
+|
+|}
+
+<div id="GEOTEMPLATE-SJ">
+<!-- Vennligst ikke flytt Svalbard og Jan Mayen til alfabetisk plassering. Dette for at kodene NO-21 og NO-22 skal gi resultat.-->
+== Svalbard and Jan Mayen ==
+=== Svalbard ===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Aerial
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TopoSvalbard
+| [http://toposvalbard.npolar.no/?lat={latdegdec}&long={londegdec}&zoom={zoom}&layer=map Map]
+| [http://toposvalbard.npolar.no/?lat={latdegdec}&long={londegdec}&zoom={zoom}&layer=aerial Aerial]
+|-style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Norgeskart.no
+| [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+svalbard Svalbard]
+|
+|}
+
+=== Jan Mayen ===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Aerial
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TopoJanMayen 
+| [http://topojanmayen.npolar.no/?lat={latdegdec}&long={londegdec}&zoom={zoom}&layer=map Map]
+| [http://topojanmayen.npolar.no/?lat={latdegdec}&long={londegdec}&zoom={zoom}&layer=aerial Aerial]
+|-style="background:#f5f5f5"
+! scope="row" style="font-weight:normal; text-align:left;" | Norgeskart.no
+| [http://norgeskart.no/#{osmzoom}/{utm33easting}/{utm33northing}/-land/+janmayen Jan Mayen]
+|
+|}
+</div>
+</div>
+<div id="GEOTEMPLATE-PL">
+
+==Poland==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapa Polski Targeo
+| [http://mapa.targeo.pl/{title},{londegdec},{latdegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Szukacz.pl
+| [http://mapa.szukacz.pl/?n={latdegdec}&e={londegdec}&z=3 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Zumi
+| [http://www.zumi.pl/namapie.html?long={londegdec}&lat={latdegdec}&type=3&scale=3 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Autopilot
+| [http://mapa.autopilot.pl/?long={londegdec}&lat={latdegdec}&zoom=12 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Polish Railways Map
+| [http://www.bazakolejowa.pl/index.php?dzial=mapa#{osmzoom}/{latdegdec}/{londegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | UMP
+| [http://mapa.ump.waw.pl/ump-www/?zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&mlat={latdegdec}&mlon={londegdec} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-PT">
+
+==Portugal==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" rowspan="3" style="font-weight:normal; text-align:left;" | Instituto Geográfico do Exército <br /><small>Requires Internet Explorer</small>
+| [http://www.igeoe.pt/igeoearcweb/igeoesig/ExecCmd.asp?cmd=Center&Lng={londegdec}&Lat={latdegdec}&Scale=25000&SC=WGS84 Continente] (Portuguese mainland)
+|-
+| [http://www.igeoe.pt/igeoearcweb/acores/ExecCmd.asp?cmd=Center&Lng={londegdec}&Lat={latdegdec}&Scale=25000&SC=WGS84 Açores]
+|-
+| [http://www.igeoe.pt/igeoearcweb/madeira/ExecCmd.asp?cmd=Center&Lng={londegdec}&Lat={latdegdec}&Scale=25000&SC=WGS84 Madeira]
+|-
+! scope="row" rowspan="3" style="font-weight:normal; text-align:left;" | SAPO <br />
+| [https://mapas.sapo.pt/?o=0&M={londegdec},{latdegdec} Continente e Ilhas] 
+|}
+</div>
+
+<div id="GEOTEMPLATE-RU">
+==Russia==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yandex.Maps (Russian)&nbsp;{{pipe}} {{lang|ru|Яндекс Карть}}
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yandex.Maps (English)&nbsp;{{pipe}} {{lang|ru|Яндекс Карть}}
+| [//maps.yandex.com/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.com/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kosmosnimki&nbsp;{{pipe}} {{lang|ru|Космоснимки}}
+| [http://www.kosmosnimki.ru/index.html#mode=map&x={londegdec}&y={latdegdec}&z=12&fullscreen=true Map]
+| [http://www.kosmosnimki.ru/index.html#mode=satellite&x={londegdec}&y={latdegdec}&z=12&fullscreen=true Satellite]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | maps.vlasenko.net
+| [http://maps.vlasenko.net/?lon={londegdec}&lat={latdegdec} Old Soviet Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Rambler Maps&nbsp;{{pipe}} {{lang|ru|Рамблер}}
+| [http://maps.rambler.ru/?ll={londegdec},{latdegdec}&z={osmzoom} Map]
+| 
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Maps@Mail.ru&nbsp;{{pipe}} {{lang|ru|Карты@Mail.ru}}
+| [http://maps.mail.ru/#x={londegdec}&y={latdegdec}&z={zoom} Map]
+| [http://maps.mail.ru/#x={londegdec}&y={latdegdec}&z={zoom}&mode=satellite Satellite]
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | eAtlas
+| [http://www.eatlas.ru/#z={zoom}&lat={latdegdec}&lon={londegdec} Map]
+| 
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Navitel
+| [http://maps.navitel.su/api/map.html?zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&layers=BF Map]
+| 
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Progorod&nbsp;{{pipe}} {{lang|ru|Прогород}} 
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Roscosmos Geoportal
+| [http://geoportal.ntsomz.ru/index.php/welcome?x={londegdec}&y={latdegdec}&z={span} Map]
+| [http://geoportal.ntsomz.ru/index.php/welcome?x={londegdec}&y={latdegdec}&z={span} Satellite]
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | 2GIS&nbsp;{{pipe}} {{lang|ru|2ГИС}}
+| [https://2gis.ru/moscow/geo/4504222442088225,{latdegdec},{londegdec} Map]
+| 
+| 
+|}
+
+=== City specific ===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Region
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Moscow Map&nbsp;{{pipe}} {{lang|ru|Карта Москвы}}
+| [http://www.moscowmap.ru/imap_moscow.shtml?lat={latdegdec}&lng={londegdec}&zoom={osmzoom} Map]
+| Moscow
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Cheboksary.ws&nbsp;{{pipe}} {{lang|ru|Чебоксары}}
+| [http://www.cheboksary.ws/?xy={latdegdec},{londegdec}&z={osmzoom}&t=coordinate Map]
+| Cheboksary
+|}
+<!--
+[http://www.kartaspb.ru/index.php?v=2&x=14752&y=22463&z=6&pt=1]
+-->
+</div>
+
+<div id="GEOTEMPLATE-SK">
+==Slovakia==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapy. Atlas.sk
+| [http://mapy.atlas.sk/GPS%3A{latdegdec}N+{londegdec}E Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | TuristickaMapa.sk
+| [http://www.turistickamapa.sk/?y={latdegdec}&x={londegdec} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-SI">
+==Slovenia==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | [[Orthophoto]]
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[Online map services of Slovenia|Geopedia]]
+| [http://www.geopedia.si/#L381_T13_b4_c{latdegdec},{londegdec}_s16 Map]
+| [http://www.geopedia.si/#L381_T13_b2_c{latdegdec},{londegdec}_s16 Orthophoto]
+| [http://www.geopedia.si/#L381_T13_b1-3_c{latdegdec},{londegdec}_s16 Terrain]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GeaBios
+| [http://www.geabios.com/html/services/maps/PublicMap.htm?lat={latdegdec}&lon={londegdec}&fov={span} Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Gaea+
+| 
+| 
+| [http://gaeaplus.si/webstart?version=gaeaplus&command=FlyLookAt;{latdegdec};{londegdec};2500;WGS84;0.0;45.0; 3D Satellite]
+|}
+</div>
+
+<div id="GEOTEMPLATE-ES">
+==Spain==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Coverage
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | SigPac
+| style="text-align:center" | all
+| [http://sigpac.mapa.es/fega/antiguovisor/?ube={utm33easting};{utm33northing};{utm33easting};{utm33northing};33 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Vissir – ICC
+| Catalonia
+| [http://www.icc.cat/vissir3/?lang=eng&mp_zoom=n:{zoom}&etrs89x={londegdec}&etrs89y={latdegdec} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Nomecalles
+| Community of Madrid
+| [http://gestiona.madrid.org/nomecalles/Inicio.icm?idioma=en&utmX={utmeasting}&utmY={utmnorthing}&zoom={altitude} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-SE">
+==Sweden==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Eniro
+| [http://kartor.eniro.se/query?what=map&mapstate={zoom};{londegdec};{latdegdec} Map]
+| [http://kartor.eniro.se/query?what=map&mapstate={zoom};{londegdec};{latdegdec};h Labeled satellite]
+| [http://kartor.eniro.se/query?what=map&mapstate={zoom};{londegdec};{latdegdec};o View]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | hitta.se
+| [//para.toolforge.org/geo/convert/WGS84toRT90.php?lat={latdegdec}&lon={londegdec}&url=http%3A//www.hitta.se/LargeMap.aspx%3Fz%3D3%26mp%3D%3Cpts%3E%3Cpt%20x%3D%22%7Brt90x%7D%22%20y%3D%22%7Brt90y%7D%22%20i%3D%22/images/point.png%22%3E%3Ct%3E{title}%3C/t%3E%3C/pt%3E%3C/pts%3E Map]
+| [//para.toolforge.org/geo/convert/WGS84toRT90.php?lat={latdegdec}&lon={londegdec}&url=http%3A//www.hitta.se/LargeMap.aspx%3FShowSatellite%3Dtrue%26z%3D3%26mp%3D%3Cpts%3E%3Cpt%20x%3D%22%7Brt90x%7D%22%20y%3D%22%7Brt90y%7D%22%20i%3D%22/images/point.png%22%3E%3Ct%3E{title}%3C/t%3E%3C/pt%3E%3C/pts%3E Satellite]
+|
+|}
+</div>
+
+<div id="GEOTEMPLATE-CH">
+==Switzerland==
+[[Swiss Grid]] coordinates: '''{ch1903easting} / {ch1903northing}'''
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Cantons covered
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | map.geo.admin.ch
+| style="text-align:center" | all
+| [http://map.geo.admin.ch/?zoom=5&X={ch1903northing}&Y={ch1903easting}&lang={language}&crosshair=marker Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | map.search.ch
+| style="text-align:center" | all
+| [http://map.search.ch/{ch1903easting},{ch1903northing} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MySwitzerland.com
+| style="text-align:center" | all
+| [http://map.myswitzerland.com/myswitzerland/?x={ch1903easting}.00&y={ch1903northing}.00&lang={language} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapplus/Tydac
+| style="text-align:center" | all
+| [http://www.mapplus.ch/frame.php?map=&x={ch1903easting}&y={ch1903northing}&zl=12 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | geoportal.ch
+| St. Gallen, Appenzell
+| [http://www.geoportal.ch/schnittstelle/aufruf.aspx?VERSION=1.0&REQUEST=GetIGis&MAP=94&TOPIC=Coord&ATTRIBUTE1={ch1903easting}&ATTRIBUTE2={ch1903northing}&sign=0&WIDTH=2000 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | AGISviewer Kanton Aargau
+| Aargau
+| [http://www.ag.ch/agisviewer/mapFrame.asp?MapWidth=531&MapHeight=492&bitte%20ausw%E4hlen!&Cmd=zoomIn&MinX={ch1903easting}.00001&MinY={ch1903northing}.1&MaxX={ch1903easting}.9&MaxY={ch1903northing}.9 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GeoPortal Basel-Stadt
+| Basel-City
+| [http://www.geo-bs.ch/stadtplan_stadtplan_karte.cfm?X={ch1903easting}&Y={ch1903northing}&Jump=3&Zoom=1000&ZIparkhaeuser=1&ZIspitaeler=1 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | geoView.BL
+| Basel-Country
+|[//www.geo.bl.ch/parzis/automap.jsp?LAYERS=map_3&ZOOM={ch1903easting}.000001%7C{ch1903northing}.000001%7C{ch1903easting}.99%7C{ch1903northing}.99 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GéoPortail du Canton de Jura
+| Jura
+| [//www.jura.ch/sit/geoportail/IndexRedir.html?Y={ch1903easting}&X={ch1903northing}&echelle=5000&theme=photoaerienne Map]
+|-
+! scoEast={IlocalE}pe="row" style="font-weight:normal; text-align:left;" | SITN
+| Neuchâtel
+|[http://sitn.ne.ch/index.html?x={ch1903easting}&y={ch1903northing}&echelle=25000 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GIS Schaffhausen
+| Schaffhausen
+| [http://www.gis.sh.ch/gis_sh_internet/mapservice.asp?IDProjekt=3&MapServiceUserGroup=1&MapServiceUser=0&MapServiceURL=Nav@g@22@u@West@g@{ch1903easting}@u@Nord@g@{ch1903northing}@u@B@g@1000 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GeoShop vs.geo
+| Valais
+| [http://mapserver3.internetgalerie.ch/vs-geo/vs-geo.php?recenter_bbox={ch1903easting},{ch1903northing} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | ZugMap
+| Zug
+| [http://www.zugmap.ch/bm2_zugmap/mapservice.asp?IDProjekt=1&MapServiceUserGroup=29&MapServiceUser=0&MapServiceURL=Nav@g@22@u@West@g@{ch1903easting}@u@Nord@g@{ch1903northing}@u@B@g@5726&MapServiceDatenauswahl=89@g@94 Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | GIS-Browser Kanton Zürich
+| Zurich
+| [http://maps.zh.ch?topic=BASISKARTEZH&scale=10000&x={ch1903easting}&y={ch1903northing}&markers=ring Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-UA">
+==Ukraine==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | maps.vlasenko.net
+| [http://maps.vlasenko.net/?lat={latdegdec}&lon={londegdec} Map]
+| [http://maps.vlasenko.net/?lat={latdegdec}&lon={londegdec}&addmap1=space10 Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Visicom Maps
+| [http://maps.visicom.ua/#lng={londegdec};lat={latdegdec};z=6;map=ukraine_en;lngm={londegdec};latm={latdegdec}; Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yandex Maps
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kosmosnimki
+| 
+| [http://www.kosmosnimki.ru/index.html#mode=satellite&x={londegdec}&y={latdegdec}&z=12&fullscreen=true Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | LatLon.org: Navitel
+| [http://latlon.org/maxi?zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&layers=000000B0000000FT Map]
+| 
+|}
+</div>
+
+=Oceania=
+<div id="GEOTEMPLATE-AU">
+==Australia==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Street-Directory.com.au
+| [http://www.street-directory.com.au/sd_new/genmap.cgi?x={londegdec}&y={latdegdec}&sizex=800&sizey=800&level=5&star=6 Map]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Bonzle Digital Atlas
+| [http://maps.bonzle.com/c/a?a=p&x={londegdec}&y={latdegdec} Map]
+| [http://maps.bonzle.com/c/a?a=p&d=ter&x={londegdec}&y={latdegdec} Terrain Slice]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Australian Geographic Reference Image
+| 
+| [http://agri.openstreetmap.org/?zoom={osmzoom}&lat={latdegdec}&lon={londegdec} Aerial] (via [[OpenStreetMap]])
+|}
+</div>
+
+=Asia=
+<div id="GEOTEMPLATE-CN">
+==China==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Google Maps (谷歌地图)
+| [//www.google.cn/maps?ll={latdegdec},{londegdec}&z={osmzoom} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Baidu Maps (百度地图)
+| [http://map.baidu.com/?latlng={latdegdec},{londegdec}&title={titlee}&content={titlee}&autoOpen=true&l= Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Amap (高德地图)
+| [http://ditu.amap.com/regeo?lng={londegdec}&lat={latdegdec}&name={titlee} Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | QQ Map (腾讯地图)
+|[https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx={londegdec}&pointy={latdegdec}&name={titlee}&addr=ADDRESS Map]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Tianditu / Map World (天地图)
+|[https://map.tianditu.gov.cn/ Map] (Indirect link)
+|-
+| colspan="2" style="font-size:smaller" | Due to [[restrictions on geographic data in China]], all Chinese map services provide distorted maps that are shifted from GeoHack's coordinates. You may obtain coordinates suitable for these maps from [https://artoria2e5.github.io/PRCoords/demo?lat={latdegdec}&lon={londegdec}#output this link]. (Use "WGS &rarr; BD" for Baidu and "WGS &rarr; GCJ" for all other services including Google.)
+|}
+<!--
+Sogou [http://map.sogou.com/index.html#c=12957437.5,4833843.75,{osmzoom}] look like 100,000*{latdegdec}
+^^ Can be some sort of "web mercator" too.
+^^ Official api available for conversion from WGS84/GCJ02/BD coordinate into Sougou coordinate, see http://map.sogou.com/api/documentation/javascript/api2.5/examples/index.html
+^^ Fed http://api.go2map.com/maps/js/api_v2.5.1.js into https://lelinhtinh.github.io/de4js/: looks like a baidu-like web mercator with big LL2MC/MC2LL arrays for polynomial work
+^^ Fed the site js /v708/js/z20190219.js in there too, no direct code paths to parse normal lat-lng
+
+Mapbar - to be investigate
+-->
+</div>
+<div id="GEOTEMPLATE-HK">
+== Hong Kong ==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+!scope="row" style="font-weight:normal; text-align:right;" | CentaMap
+| [//hk.centamap.com Map] (Indirect link)
+|-
+!GeoInfo Map
+| [http://www2.map.gov.hk/gih3/view/index.jsp Map] (Indirect link)
+|}
+</div>
+<div id="GEOTEMPLATE-IN">
+== India ==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+!scope="row" style="font-weight:normal; text-align:right;" | Bhuvan
+| [https://bhuvan-app1.nrsc.gov.in/bhuvan2d/bhuvan/bhuvan2d.php Map] (Indirect link)
+|-
+!scope="row" style="font-weight:normal; text-align:right;" |MapmyIndia
+| [https://maps.mapmyindia.com/@{latdegdec},{londegdec} Map]
+|-
+!scope="row" style="font-weight:normal; text-align:right;" |Survey of India
+| [https://indiamaps.gov.in/soiapp/ Map] (Indirect link)
+|}
+</div>
+<div id="GEOTEMPLATE-IR">
+== Iran ==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+!scope="row" style="font-weight:normal; text-align:right;" | Parsijoo map
+| [https://map.parsijoo.ir/?lat={latdegdec}&lon={londegdec}&z=14 Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-PS">
+==Palestine==
+:''In addition to Palestine Open Maps, Israeli maps tend to cover the State of Palestine fairly well.''<br /><br /><!--<br />Please do not move the Palestine entry and put it in its normal alphabetical place. It is here as part of a hack, so that it shows Israeli maps.-->
+
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Maps from 1870s to modern
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Palestine Open Maps
+| [https://palopenmaps.org/view/9999/@{latdegdec},{londegdec} Maps]
+|}
+
+<div id="GEOTEMPLATE-IL">
+
+==Israel==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Topo
+! scope="col" | Historical
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Amud Anan<br />{{lang|he|עמוד ענן|rtl=yes}}
+| 
+| 
+| [http://amudanan.co.il/?lon={londegdec}&lat={latdegdec} Topo]
+| [http://amudanan.co.il/?lon={londegdec}&lat={latdegdec}&map=pef 1880]
+| 
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | govmap
+| [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=0 Map]
+| [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=1 Sat.] [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=2 <small>&#91;hybrid&#93;</small>]
+| [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=9 Topo]
+| [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=6 1935] [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=4 1940]
+| [http://www.govmap.gov.il/?c={londegdec},{latdegdec}&z={zoom}&b=3 3D buildings] [http://old.govmap.gov.il/viewer.asp alt.]
+|}
+
+===City specific===
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | City
+! scope="col" | Map
+! scope="col" | Historical
+! scope="col" | Other
+|-
+! rowspan="3" scope="row" style="font-weight:normal; text-align:left;" | govmap
+| Haifa
+|
+| [http://www.govmap.gov.il/?c={londegdec}%7c{latdegdec}&z={zoom}&b=8 1919]
+|
+|-
+| Jerusalem
+|
+| [http://www.govmap.gov.il/?c={londegdec}%7c{latdegdec}&z={zoom}&b=7 1926]
+|
+|-
+| Tel Aviv
+|
+| [http://www.govmap.gov.il/?c={londegdec}%7c{latdegdec}&z={zoom}&b=5 1930]
+|
+|}
+</div>
+</div>
+
+<div id="GEOTEMPLATE-JP">
+
+==Japan==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+! scope="col" | Other
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Geographical Survey Institute/CyberJapan
+|
+|
+| [http://maps.gsi.go.jp/#15/{latdegdec}/{londegdec} Topo/Aerial], [http://cyberjapandata.gsi.go.jp/3d/site/index.html?did=std&lat={latdegdec}&lon={londegdec}&z=14 WebGL 3D]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapion
+| [http://www.mapion.co.jp/m2/{latdegdec},{londegdec},{osmzoom} Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | MapFan Web
+| [{{fullurl:toollabs:para/geo/convert/wgs2tky|q={latdegdec},{londegdec}&url=http://www.mapfan.com/m.cgi?MAP={lonEW}{londegabsjp}.{lonminintjp}.{lonsecdecjp}{latNS}{latdegabsjp}.{latminintjp}.{latsecdecjp}}} Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yahoo! Japan
+| [http://map.yahoo.co.jp/maps?lat={latdegdec}&lon={londegdec}&z={osmzoom} Map]
+| [http://map.yahoo.co.jp/maps?lat={latdegdec}&lon={londegdec}&z={osmzoom}&mode=aero Aero]
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Goo
+| [{{fullurl:toollabs:para/geo/convert/wgs2tky|q={latdegdec},{londegdec}&url=http://map.goo.ne.jp/map.php?MAP={lonEW}{londegabsjp}.{lonminintjp}.{lonsecdecjp}{latNS}{latdegabsjp}.{latminintjp}.{latsecdecjp}}} Map]
+|
+|
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Its-mo Guide
+| [{{fullurl:toollabs:para/geo/convert/wgs2tky|q={latdegdec},{londegdec}&url=http://www.its-mo.com/z.htm?m={lonEW}{londegabsjp}.{lonminintjp}.{lonsecdecjp}{latNS}{latdegabsjp}.{latminintjp}.{latsecdecjp}&l=8}} Map]
+|
+|
+|}
+</div>
+
+<div id="GEOTEMPLATE-KZ">
+
+==Kazakhstan==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+! scope="col" | Satellite
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Yandex Maps
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=map&pt={londegdec},{latdegdec} Map]
+| [//maps.yandex.ru/?ll={londegdec},{latdegdec}&spn={span},{span}&l=sat&pt={londegdec},{latdegdec} Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Kosmosnimki
+| 
+| [http://www.kosmosnimki.ru/index.html#mode=satellite&x={londegdec}&y={latdegdec}&z=12&fullscreen=true Satellite]
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | LatLon.org: Navitel
+| [http://latlon.org/maxi?zoom={osmzoom}&lat={latdegdec}&lon={londegdec}&layers=000000B0000000FT Map]
+| 
+|}
+</div>
+
+<div id="GEOTEMPLATE-MO">
+
+==Macao==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Mapa On-line de Macau
+| [https://webmap.gis.gov.mo/InetGIS/port/index.html Map] (Indirect link)
+|}
+</div>
+
+<div id="GEOTEMPLATE-SG">
+==Singapore==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Gothere
+| [http://gothere.sg/maps#q:@{latdegdec}%2C%20{londegdec}: Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-KO">
+==South Korea==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" |Naver Map
+| [https://map.naver.com Map] (Indirect link)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" |Daum Map
+| [http://map.daum.net Map] (Indirect link)
+|-
+! scope="row" style="font-weight:normal; text-align:left;" |Korea Tourism Organization Interactive Map (English)
+| [http://english.visitkorea.or.kr/common_intl/gis_od.kto?mode=MapSearch&lang=1 Map] (Indirect link)
+|}
+</div>
+
+<div id="GEOTEMPLATE-TW">
+==Taiwan==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Urmap
+| [http://www.urmap.com/map?center={latdegdec},{londegdec}&zoom={osmzoom} Map]
+|}
+</div>
+
+<div id="GEOTEMPLATE-TH">
+==Thailand==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Longdo Map
+| [https://map.longdo.com/?locale=en&search={latdegdec},{londegdec} Map]
+|} 
+</div>
+
+=South America=
+No specific resources added yet.
+
+=Africa=
+<div id="GEOTEMPLATE-ZA">
+==South Africa==
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | [[Chief Directorate: National Geo-spatial Information]] aerial
+| [http://aerial.openstreetmap.org.za/?lon={londegdec}&lat={latdegdec}&zoom={osmzoom} Aerial Imagery] (via [[OpenStreetMap]])
+|}
+</div>
+
+<div id="GEOTEMPLATE-AQ"><div id="GEOTEMPLATE-XS"><!--XS: Wiki assigned code elements per [[de:Vorlage:Coordinate#Ozeane]] for Southern Ocean -->
+=Antarctica=
+{| class="geoservices" border="1" cellpadding="2" style="border:silver 1px solid; border-collapse:collapse;"
+|- style="background:#efefef"
+! scope="col" | Service
+! scope="col" | Map
+|-
+! scope="row" style="font-weight:normal; text-align:left;" | Antarctic Digital Database Map Viewer
+| [https://www.add.scar.org/ Map] (Indirect link)
+|}
+</div></div>
+
+<div id="GEOTEMPLATE-XN">
+=Arctic=
+No specific resources added yet.
+</div>
+
+<div id="GEOTEMPLATE-XZ">
+=International waters (XZ)=
+No specific resources added yet.
+
+</div>
+<!-- End region-specific -->
+</div><noinclude>
+[[Category:WikiProject Geographical coordinates]]
+[[Category:GeoTemplates]]
+[[Category:External link templates]]
+</noinclude>
