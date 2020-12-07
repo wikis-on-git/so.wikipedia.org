@@ -5,7 +5,7 @@
   |[[File:{{{image}}}|{{#if:{{{pix|}}}|{{{pix}}}|40x30}}px|alt={{{imagealt|Stub icon}}}]]
  }}</td>
 }}
-<td>''Maqaalkaan {{{subject|}}} {{{article|}}} {{{qualifier|}}} waa [[Wikipedia:Gumud|gumud]]. Waad ku caawin kartaa Wikipedia in aad sii [{{fullurl:{{FULLPAGENAME}}|action=edit}} balaarisid].''{{#if:{{{name|}}}
+<td>''Maqaalkaan {{{subject|}}} {{{article|}}} {{{qualifier|}}} waa [[Wikipedia:Gumud|la bilaabay]]. Waad ka caawin kartaa Wikipedia in aad sii [{{fullurl:{{FULLPAGENAME}}|action=edit}} balaarisid].''{{#if:{{{name|}}}
  |{{navbar|{{{name}}}|mini=yes|style=position: absolute; right: 15px; display: none;}}
 }}{{#if:{{{note|}}}
  |<br /><span style="font-style: normal; font-size: smaller;">{{{note}}}
