@@ -1,17 +1,3 @@
-<includeonly>{{#invoke:Coordinates|coord}}<!--
--->{{#coordinates:{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}
-|{{#switch:{{{display|}}}
- |inline,title
- |inline, title
- |it
- |t
- |title,inline
- |title={{#switch:{{SUBPAGENAME}}
-  |doc
-  |testcases=
-  |#default={{Diskussion annan||primary}}
-  }}
- |#default=
- }}
-|name={{{name|}}}
-}}</includeonly><noinclude>
+<includeonly>{{#invoke:Coordinates|coord}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
