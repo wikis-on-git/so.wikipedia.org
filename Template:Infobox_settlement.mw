@@ -104,7 +104,7 @@
 | 2 = {{#if:{{{image_seal|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_seal|}}}|size={{{seal_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|alt={{{seal_alt|}}}|title=Official seal of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement/link|type={{#if:{{{seal_type|}}}|{{{seal_type}}}|Seal}}|link={{{seal_link|}}}|name={{{official_name}}}}}</div>}}
 | 3 = {{#if:{{{image_shield|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_shield|}}}||size={{{shield_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|alt={{{shield_alt|}}}|title=Coat of arms of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement/link|type=Coat of arms|link={{{shield_link|}}}|name={{{official_name}}}}}</div>}}
 | 4 = {{#if:{{{image_blank_emblem|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_blank_emblem|}}}|size={{{blank_emblem_size|}}}|sizedefault={{#if:{{both|{{{pushpin_map_narrow|}}}|{{{pushpin_map|}}}}}|85px|100px}}|alt={{{blank_emblem_alt|}}}|title=Official logo of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}<div style="padding:0.2em 0 0.2em 0;">{{Infobox settlement/link|type={{#if:{{{blank_emblem_type|}}}|{{{blank_emblem_type}}}}}|link={{{blank_emblem_link|}}}|name={{{official_name}}}}}</div>}}
-| 5 = {{#if:{{{image_map|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_map}}}|size={{{mapsize|}}}|sizedefault=100px|alt={{{map_alt|}}}|title={{{map_caption|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}}}{{#if:{{{map_caption|}}}|<div style="padding:0.2em 0 0.2em 0;">{{{map_caption}}}}}</div>}}
+| 5 = {{#if:{{{image_map|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{image_map}}}|size={{{mapsize|}}}|sizedefault=100px|alt={{{map_alt|}}}|title={{{map_caption|Location of {{#if:{{{name|}}}|{{{name}}}|{{{official_name}}}}}}}}}}{{#if:{{{map_caption|}}}|<div style="padding:0.2em 0 0.2em 0;">{{{map_caption}}}</div>}}}}
 | 0 = {{#if:{{{pushpin_map_narrow|}}}|{{#if:{{both| {{{pushpin_map|}}} | {{{coordinates|}}} }}|
 {{location map|{{{pushpin_map|}}}
  |border = infobox
@@ -169,7 +169,7 @@
 <!-- ***Coordinates*** -->
 | rowclass27 = {{#if:{{{image_map|}}}{{{image_map1|}}}{{{pushpin_map|}}}|{{#if:{{{grid_position|}}}|mergedrow|mergedbottomrow}}}}
 |  data27 = {{#if:{{{coordinates|}}}
-  |Coordinates{{#if:{{{coor_pinpoint|{{{coor_type|}}}}}}|&#32;({{{coor_pinpoint|{{{coor_type|}}}}}})}}: {{#invoke:ISO 3166|geocoordinsert|nocat=true|1={{{coordinates|}}}|country={{{subdivision_name|}}}|subdivision1={{{subdivision_name1|}}}|subdivision2={{{subdivision_name2|}}}|subdivision3={{{subdivision_name3|}}}|type=city{{#if:{{{population_total|}}}|{{#iferror:{{#expr:{{formatnum:{{{population_total}}}|R}}+1}}||({{formatnum:{{{population_total}}}|R}})}}}} }}{{{coordinates_footnotes|}}} }}
+  |Coordinates{{#if:{{{coor_pinpoint|{{{coor_type|}}}}}}|&#32;({{{coor_pinpoint|{{{coor_type|}}}}}})}}: {{#invoke:ISO 3166|geocoordinsert|nocat=true|1={{{coordinates|}}}|country={{{subdivision_name|}}}|subdivision1={{{subdivision_name1|}}}|subdivision2={{{subdivision_name2|}}}|subdivision3={{{subdivision_name3|}}}|type=city{{#if:{{{population_total|}}}|{{#iferror:{{#expr:{{formatnum:{{replace|{{{population_total}}}|,|}}|R}}+1}}||({{formatnum:{{{population_total}}}|R}})}}}} }}{{{coordinates_footnotes|}}} }}
 
 | rowclass28 = {{#if:{{{image_map|}}}{{{image_map1|}}}{{{pushpin_map|}}}|mergedbottomrow|mergedrow}}
 | label28 = {{if empty|{{{grid_name|}}}|Grid&nbsp;position}}
@@ -321,7 +321,7 @@
 |  data65 = {{#if:{{{government_blank6|}}}|{{{government_blank6|}}}}}
 
 <!-- ***Geographical characteristics*** -->
-<!-- ***Bed*** -->
+<!-- ***Aagga*** -->
 | rowclass66 = mergedtoprow
 | header66 = {{#if:{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}{{{area_land_km2|}}}{{{area_land_ha|}}}{{{area_land_acre|}}}{{{area_land_sq_mi|}}}{{{area_water_km2|}}}{{{area_water_ha|}}}{{{area_water_acre|}}}{{{area_water_sq_mi|}}}{{{area_urban_km2|}}}{{{area_urban_ha|}}}{{{area_urban_acre|}}}{{{area_urban_sq_mi|}}}{{{area_rural_sq_mi|}}}{{{area_rural_ha|}}}{{{area_rural_acre|}}}{{{area_rural_km2|}}}{{{area_metro_km2|}}}{{{area_metro_ha|}}}{{{area_metro_acre|}}}{{{area_blank1_km2|}}}{{{area_blank1_ha|}}}{{{area_blank1_acre|}}}{{{area_metro_sq_mi|}}}{{{area_blank1_sq_mi|}}}
  |{{#if:{{both|{{#ifeq:{{{total_type}}}|&nbsp;|1}}|{{{area_total_km2|}}}{{{area_total_ha|}}}{{{area_total_acre|}}}{{{area_total_sq_mi|}}}{{{area_total_dunam|}}}}}
@@ -778,9 +778,9 @@
  |{{#if:{{{demographics2_title10|}}}|{{{demographics2_info10|}}}}}}}
 
 
-<!-- ***Aag saacadeed*** -->
+<!-- ***Soonaha waqtiga*** -->
 | rowclass126 = mergedtoprow
-| header126 = {{#if:{{{timezone1_location|}}}|{{#if:{{{timezone2|}}}|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Aag saacadeed}}|Aag saacadeed]]|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Aag saacadeed}}|Aag saacadeed]]}}|}}
+| header126 = {{#if:{{{timezone1_location|}}}|{{#if:{{{timezone2|}}}|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Soonaha waqtiga}}|Soonaha waqtiga]]|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Soonaha waqtiga}}|Soonaha waqtiga]]}}|}}
 | rowclass127 = {{#if:{{{timezone1_location|}}}|mergedrow|mergedtoprow}}
 |  label127 = {{#if:{{{timezone1_location|}}}|{{{timezone1_location}}}|{{#if:{{{timezone2_location|}}}|{{{timezone2_location}}}|{{#if:{{{timezone2|}}}|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Aag saacadeed}}|Aag saacadeed]]|[[{{#if:{{{timezone_link|}}}|{{{timezone_link}}}|Aag saacadeed}}|Aag saacadeed]]}}}}}}
 |  data127 = {{#if:{{{utc_offset1|{{{utc_offset|}}} }}}
