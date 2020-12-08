@@ -58,7 +58,7 @@
 Template-kan waxaa loo isticmaalaa in lagu garto {{#if:{{{subject|}}}|&#32;{{{subject|}}}}} gumud{{#if:{{{qualifier|}}}|&#32;{{{qualifier|}}}}}. Waxay isticmaashaa {{tl|asbox}} oo ah qaab hawleed meta ah oo loogu talagalay in lagu fududeeyo habka abuurista iyo dayactirka template yada gumudka ah.
 
 ===Isticmaalka===
-Qoriddu <code><nowiki>{{</nowiki>{{#ifeq:{{PAGENAME:{{{name}}}}}|Stub|stub|{{PAGENAME:{{{name}}}}} }}<nowiki>}}</nowiki></code> waxay soo saartaa farriinta lagu muujiyey xagga sare, waxayna ku dareysaa maqaalka qaybta soo socota{{#if:{{{category1|}}}{{{category2|}}}|ies|y}}:
+Qoriddu <code><nowiki>{{</nowiki>{{#ifeq:{{PAGENAME:{{{name}}}}}|Stub|stub|{{PAGENAME:{{{name}}}}} }}<nowiki>}}</nowiki></code> waxay soo saartaa farriinta lagu muujiyey xagga sare, waxayna ku dareysaa maqaalka qaybta soo socota{{#if:{{{category1|}}}{{{category2|}}}|ies|}}:
 *[[:Category:{{{category}}}]] (Population: {{PAGESINCAT:{{{category}}}}}){{#if:{{{category1|}}}|*[[:Category:{{{category1}}}]] (Population: {{PAGESINCAT:{{{category1}}}}})
 }}{{#if:{{{category2|}}}|*[[:Category:{{{category2}}}]] (Tirada: {{PAGESINCAT:{{{category2}}}}})
 }}<!--
