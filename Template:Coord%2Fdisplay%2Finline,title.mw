@@ -1,10 +1,2 @@
-{{{1}}}<span style="font-size: small;"><span id="coordinates"> [[Isuduwe Habka Juqraafiga|Dhigta iyo Loolka]]: {{{1}}}</span></span><noinclude>{{template doc|Template:Coord/sub doc}}[[Category:Coord template]]</noinclude>
-
-[[ca:Plantilla:Coord/display/inline,title/ús]]
-[[chy:Template:Coord/sub doc]]
-[[cy:Nodyn:Coord/sub doc]]
-[[diq:Şablon:Coord/sub doc]]
-[[eo:Ŝablono:Koord/montru/entekste,titolo/dokumentado]]
-[[es:Plantilla:Coord/display/inline,title]]
-[[kab:Talɣa:Coord/display/inline,title]]
-[[sco:Template:Coord/sub doc]]
+{{{1}}}<span style="font-size: small;"><span style="position:absolute; right:0; top:1px; background:transparent none repeat scroll 0 0; border:medium none; float:right; font-size:85%; line-height:1.5em; margin:0; padding:0; text-align:right; text-indent:0; text-transform:none; white-space:nowrap; z-index:1;">[[Isuduwe Habka Juqraafiga]]: {{{1}}}</span></span><noinclude>{{pp-template|small=yes}}{{template doc|Template:Coord/sub doc}}<br/><br/>[[Category:Coord template]]
+</noinclude>
