@@ -1,0 +1,74 @@
+__NOTOC__
+Use this template to produce the [[Character (computing)|character]] or characters "{{thin space|<includeonly>{{ {{BASEPAGENAME}} }}</includeonly><noinclude>{{small|[''character/s appear here'']}}</noinclude>}}" as ordinary text rather than as part of a link&nbsp;<code><nowiki>[[ ]]</nowiki></code>, [[Wikipedia:Transclusion|transclusion]]&nbsp;<code><nowiki>{{ }}</nowiki></code>, variable&nbsp;<code><nowiki>{{{ }}}</nowiki></code>, etc.<!--
+ -->{{#if:{{{entity|}}} |<br/>The [[Character encodings in HTML#HTML character references|HTML character code]] "<code>&amp;{{{entity}}};</code>" may also be used to produce the same result.}}
+
+==Similar templates==
+{| class="wikitable" style="text-align:center"
+|-
+! scope="col" style="width:7.0em;" | Template call
+! scope="col" style="width:5.75em;" | Output
+! scope="col" style="width:9.0em;" | HTML alternative
+|- style="vertical-align:top"
+| {{tlx|!!}}
+| <nowiki>||</nowiki>
+| &amp;#124;&amp;#124;
+|- style="vertical-align:top"
+| {{tlx|!(}}
+| {{!(}}
+| &amp;#91;
+|- style="vertical-align:top"
+| {{tlx|)!}}
+| {{)!}}
+| &amp;#93;
+|- style="vertical-align:top"
+| {{tlx|!((}}
+| {{!((}}
+| &amp;#91;&amp;#91;
+|- style="vertical-align:top"
+| {{tlx|))!}}
+| {{))!}}
+| &amp;#93;&amp;#93;
+|- style="vertical-align:top"
+| {{tlx|(}}
+| {{(}}
+| &amp;#123;
+|- style="vertical-align:top"
+| {{tlx|)}}
+| {{)}}
+| &amp;#125;
+|- style="vertical-align:top"
+| {{tlx|((}}
+| {{((}}
+| &amp;#123;&amp;#123;
+|- style="vertical-align:top"
+| {{tlx|))}}
+| {{))}}
+| &amp;#125;&amp;#125;
+|- style="vertical-align:top"
+| {{tlx|(((}}
+| {{(((}}
+| &amp;#123;&amp;#123;&amp;#123;
+|- style="vertical-align:top"
+| {{tlx|)))}}
+| {{)))}}
+| &amp;#125;&amp;#125;&amp;#125;
+|}
+'''Note:''' [[Template:!|Template:{{thin space|!}}]] used to be a template that generated a [[vertical bar]] character ({{thin space|{{!}}}}) but was converted into a [[MW:Help:Magic word#Other|Magic Word]]. It can still be called using <code><nowiki>{{!}}</nowiki></code>; the HTML alternative of <code>&amp;#124;</code> has the same effect.
+
+==See also==
+* [[Template:=|Template:{{thin space|&#61;}}]], which produces an [[Equals sign|equals-sign]] as ordinary text
+* [[Template:\|Template:{{thin space|\}}]], which produces "&nbsp;<nowiki>/</nowiki>" (i.e. a [[Slash (punctuation)|slash]] character preceded by a [[non-breaking space]])
+* [[Template:Square bracket open]], which produces "{{thin space|[}}" or, as <kbd><nowiki>{{square bracket open|2}}</nowiki></kbd>, "{{thin space|<nowiki>[[</nowiki>}}"
+* [[Template:Square bracket close]], which produces "{{thin space|]}}" or, as <kbd><nowiki>{{square bracket close|2}}</nowiki></kbd>, "{{thin space|<nowiki>]]</nowiki>}}"
+The following templates enclose text inside the indicated symbols:
+* [[Template:Braces]], to produce text such as "{{braces|example text}}" (without triggering a transclusion)
+* [[Template:Brackets]], to produce text such as "{{brackets|example text}}" (without triggering a wikilink)
+* [[Template:Bracket]], to produce text such as "{{bracket|example text}}" or "{{bracket|[[example text]]}}"
+* [[Template:Mset]], to produce text such as "{{mset|1, 2, ..., N}}" (i.e., a mathematical set)
+* [[Template:Tlf]], to produce text such as "{{tlf|example text}}" (without triggering a transclusion)
+
+<includeonly>{{Sandbox other||
+[[Category:Template namespace templates]]
+}}</includeonly><noinclude>
+[[Category:Documentation shared content templates]]
+</noinclude>
