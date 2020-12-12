@@ -1,0 +1,19 @@
+[[<nowiki/>{{{1}}}<nowiki/>]{{#if:{{{2|}}}|{{{2}}}}}]<noinclude>
+
+{{Documentation
+ | content =
+
+This template provides way to wrap content in double [[square brackets]].
+
+Examples:
+*<nowiki>{{brackets|test}}</nowiki> produces: {{brackets|test}}
+*<nowiki>{{brackets|test|more}}</nowiki> produces: {{brackets|test|more}}
+*<nowiki>{{brackets|:ja:山本五十六}}</nowiki> produces: {{brackets|:ja:山本五十六}}
+
+===See also===
+* {{tl|Braces}} — to wrap content in double [[curly brackets]]
+* {{tl|Bracket}} — to wrap content in single [[square brackets]]
+
+[[Category:Character-substitution templates]]
+}}<!--(end Documentation)-->
+</noinclude>
