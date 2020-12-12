@@ -1,3 +1,4 @@
-<div class="Ombox {{{class|}}}" {{#if:{{{id|}}}|id="{{{id}}}"}} style="{{#if:{{{style|}}}|{{{style}}}}}"><div class="image" style="display:inline">{{#if:{{{image2|}}}|{{{image2|}}}|{{#if:{{{image}}}|[[file:{{{image|Light Bulb Icon.svg}}}|link=|px25]]}}}}</div> {{#if:{{{title|}}}|'''{{{title}}}''':}} {{#if:{{{list|}}}|<div>{{{list}}}</div>|<div style="display:inline">{{{text|{{{1}}}}}}</div>}}</div>{{{category2|{{#if:{{{category|}}}|[[Category:{{{category}}}]]}}}}}<noinclude>
-{{Documentation}}
+{{#invoke:Message box|ombox}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
 </noinclude>
