@@ -1,8 +1,8 @@
 {{#switch: {{SUBJECTSPACE}}
-| {{ns:0}}  = maqaal
-| {{ns:4}}  = bogga wikipedia
+| {{ns:0}}  = article
+| {{ns:4}}  = Wikipedia page
 | {{ns:2}}
-| {{ns:12}} = {{lc:{{SUBJECTSPACE}}}} bogga
+| {{ns:12}} = {{lc:{{SUBJECTSPACE}}}} page
 | #default  = {{lc:{{SUBJECTSPACE}}}}
 }}<noinclude>
 {{Documentation}}
