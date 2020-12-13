@@ -1,10 +1,4 @@
-<includeonly><div class="div-col columns <!--
- -->{{#if: {{{colwidth|{{{2|}}}}}}
-    | column-width
-    | column-count column-count-{{{cols|{{#if:1|{{{1|2}}}}}}}} }}" style="<!--
- -->{{#if: {{{colwidth|{{{2|}}}}}}
-    | {{column-width|{{{colwidth|{{#if:1|{{{2}}}}}}}}}}
-    | {{column-count|{{{cols|{{#if:1|{{{1|2}}}}}}}}}} }} <!--
+<includeonly><div class="div-col columns column-width" style="{{column-width|{{{colwidth|30em}}}}} <!--
  -->{{#if: {{{gap|}}}
     | {{column-gap|{{{gap}}}}} }}<!--
  -->{{#switch: {{{rules|}}}
@@ -16,8 +10,9 @@
  -->{{#if: {{{style|}}}
     | {{{style}}} }}"><!--
  -->{{#if: {{{content|}}}
-    |{{{content}}}</div>}}<!-- Inventory how many pages use small=yes 
+    |{{{content}}}
+</div>}}<!-- Inventory how many pages use small=yes 
  -->{{#ifeq: {{{small|}}}|yes
-    |[[Category:Pages using div col with small parameter]]}}</includeonly><noinclude>
+    |[[Category:Pages using div col with small parameter]]}}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using div col with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Div col]] with unknown parameter "_VALUE_"; use colwidth= to specify column size |ignoreblank=y | colwidth | content | gap | rules | small | style }}<noinclude>
 {{Documentation}}
 </noinclude>
