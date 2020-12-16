@@ -1,104 +1,83 @@
-<noinclude><div style="width:100%;text-align:center;font-size:9px;line-height:1.2em;"><div style="width:80%;background-color:#808080;color:#ffffff;text-align:center;">template muuqaalka(macluumaad la´aan) biloowga</div></div></noinclude><!--
-
---><div style="text-align:center;font-size:11px;line-height:1.15em;"><span style="font-size:11px;">Halka ay dhaco  <!--
--->{{#if:<!--[0]-->{{{countryprefix|}}}
-      |<!--then:[0]-->{{{countryprefix}}}&nbsp;<!--
---end#if:[0]-->}}<span style="font-size:2px;">&nbsp;</span>{{#ifexist:{{{country}}}|[[{{{country}}}]]|{{{country|[[{{PAGENAME}}]]}}}}}<!--
--->{{#ifeq:<!--[1]-->{{{location|{{{location_color|any}}}}}}|<!--equals:-->none
-      |<!--then:[1] either location or location_color passed as explicit demand not to indicate any (default location_color) value
-   -->|<!--else:[1]--><span style="font-size:8px;">{{spaces|2}}</span>({{{location|<span style="font-size:9px;">{{{location_color|oranjo}}}</span>}}})<!--
---end#ifeq:[1]-->}}</span><!--
--->{{#if:<!--[2]-->{{{region|{{{legend|}}}}}}
-      |<!--then:[2]
--->{{#if:<!--[3]-->{{{subregion|}}}
-      |<!--then:[3]--><p style="width:250px;font-size:11px;text-align:left;margin-left:1.2ex;margin-top:0px;margin-bottom:0px;line-height:1.15em;">–&nbsp;<!--
-   -->|<!--else:[3]--><p style="width:250px;font-size:11px;text-align:center;margin-top:0px;margin-bottom:0px;line-height:1.15em;"><!--
---end#if:[3]-->}}<!--
--->{{#switch:<!--[4]-->{{{region|none}}}
-| none =
-| Europe
-| [[Yurub]]
-| in Europe
-| in [[Europe]]
-| on the European continent
-| on the [[Europe|European continent]] = [[Yurub]]
-| Pacific
-| [[Pacific]]
-| the Pacific
-| the [[Pacific]]
-| the Pacific Ocean = ku yaal [[Pacific Ocean]]
-| Antarctica
-| [[Antarctica]] = on {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
-| Middle East
-| [[Middle East]]
-| Arctic Circle
-| [[Arctic Circle]]
-| Pacific Ocean
-| [[Pacific Ocean]] = ku yaal {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
-| #default = {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
-<!--end#switch:[4]-->}}<!--
--->{{#if:<!--[5]-->{{{region|}}}
-      |<!--then:[5]
--->{{#ifeq:<!--[6]-->{{{region_color|any}}}|<!--equals:-->none
-      |<!--then:[6] region_color passed as explicit demand not to indicate (default) color
-   -->|<!--else:[6]--><span style="font-size:8px;">{{spaces|2}}</span>(<span style="font-size:9px;"><!--
--->{{#if:<!--[7]-->{{{subregion|}}}
-      |<!--then:[7]
--->{{#ifeq:<!--[8]-->{{{subregion_color|camel}}}|<!--equals:-->{{{region_color|white}}}
-      |<!--then:[8] mention colour once
-   -->|<!--else:[8]
--->{{#ifeq:<!--[8a]-->{{{subregion_color|any}}}|<!--equals:-->none
-      |<!--then:[8a] mention the one colour
-   -->|<!--else:[8a]-->{{{subregion_color|camel}}} &&nbsp;<!--
---end#ifeq:[8a]-->}}<!--
---end#ifeq:[8]-->}}{{{region_color|white}}}<!--
-   -->|<!--else:[7]-->{{{region_color|white}}}<!--
---end#if:[7]-->}}</span>)<!--
---end#if:[6]-->}}<!--
--->{{#if:<!--[9]-->{{{subregion|}}}
-      |<!--then:[9]--><br />–&nbsp;<!--
--->{{#switch:<!--[10]-->{{{subregion|none}}}
-| EU
-| [[EU]]
-| EU
-| [[EU]]
-| European Union
-| [[Midowga Yurub]]
-| European Union 
-| [[Midowga Yurub]] = ku yaal [[Midowga Yurub]]
-| #default = {{#ifexist:{{{subregion}}}|[[{{{subregion}}}]]|{{{subregion}}}}}
-<!--end#switch[10]-->}}<!--
--->{{#ifeq:<!--[11]-->{{{subregion_color|any}}}|<!--equals:-->none
-      |<!--then:[11] subregion_color passed as explicit demand not to indicate (default) color
-   -->|<!--else:[11]--><span style="font-size:8px;">{{spaces|2}}</span>(<span style="font-size:9px;">{{{subregion_color|camel}}}</span>)<!--
---end#if:[11]-->}}<!--
---end#if:[9]-->}}<!--else:[5] no region thus no SUBregion acceptable (hence no colours indicating region or subregion at region)
---end#if:[5]-->}}<!--
--->{{#if:<!--[12]-->{{{legend|}}}
-      |<!--then[12]:
--->{{#switch:<!--[13]-->{{{subregion|none}}}
-| EU
-| [[EU]]
-| EU
-| [[EU]]
-| European Union
-| [[Midowga Yurub]]
-| European Union 
-| [[European Union]] = <!--
--->{{#ifeq:<!--[13a]-->{{{subregion_color|camel}}}|<!--equals:-->camel
-      |<!--then:[13a]-->{{spaces|16}}&thinsp;<!--
-   -->|<!--else:[13a]-->&nbsp; —&nbsp;<!--
---end#ifeq:[13a]-->}}
-| none = <!--
--->{{#ifeq:<!--[14]-->{{{region|none}}}|<!--equals:-->none
-      |<!--then:[14] no spacer while legend has line all for itself
-   -->|<!--else:[14]-->&nbsp; —&nbsp;<!--
---end#ifeq:[14]-->}}
-| #default = &nbsp; —&nbsp;
-<!--end#switch:[13]-->}} &#91;<span style="font-size:10px;">[[:Image:{{{legend}}}|Legend]]</span>&#93;<!--
---end#if:[12]-->}}</p><!--
---end#if:[2]-->}}</div><noinclude>
-
-<div style="width:100%;text-align:center;font-size:9px;line-height:1.2em;"><div style="width:80%;background-color:#808080;color:#ffffff;text-align:center;">template dhamaadka muuqaalka<br/>eeg sida  ''ladoonayo'' in uu ahaado mid ka go´an qaybta hoose</div></div>
-<br/>{{template doc}}
+<div style="text-align:center;line-height:1.15em;">Location of{{#if:{{{countryprefix|}}}
+ |&nbsp;{{{countryprefix}}}
+}}&nbsp;{{#ifexist:{{{country}}}
+ |[[{{{country}}}]]
+ |{{{country|{{PAGENAME}}}}}
+}}{{#ifeq:{{{location|{{{location_color|any}}}}}}|none|
+ |&nbsp;({{{location|{{{location_color|orange}}}}}})
+}}{{#if:{{{region|{{{legend|}}}}}}
+ |{{#if:{{{subregion|}}}
+  |<p style="text-align:left;margin-left:1.2ex;margin-top:0px;margin-bottom:0px;line-height:1.15em;">–&nbsp;
+  |<p style="text-align:center;margin-top:0px;margin-bottom:0px;line-height:1.15em;">
+ }}{{#switch:{{{region|none}}}
+  | none =
+  | Europe
+  | [[Europe]]
+  | in Europe
+  | in [[Europe]]
+  | on the European continent
+  | on the [[Europe|European continent]] = in [[Europe]]
+  | Pacific
+  | [[Pacific]]
+  | the Pacific
+  | the [[Pacific]]
+  | the Pacific Ocean = in the [[Pacific Ocean]]
+  | Middle East
+  | [[Middle East]]
+  | Arctic Circle
+  | [[Arctic Circle]]
+  | Pacific Ocean
+  | [[Pacific Ocean]] = in the {{#ifexist:{{{region}}}|[[{{{region}}}]]|{{{region}}}}}
+  | #default = in {{#ifexist:{{{region}}}
+   |[[{{{region}}}]]
+   |{{{region}}}
+  }}
+ }}{{#if:{{{region|}}}
+  |{{#ifeq:{{{region_color|any}}}|none|
+   |&nbsp;({{#if:{{{subregion|}}}
+    |{{#ifeq:{{{subregion_color|tan}}}|{{{region_color|white}}}|
+     |{{#ifeq:{{{subregion_color|any}}}|none|
+      |{{{subregion_color|tan}}} &&nbsp;
+     }}
+    }}
+   }}{{{region_color|white}}})
+  }}{{#if:{{{subregion|}}}
+   |<br />–&nbsp;{{#switch:{{{subregion|none}}}
+    | EU
+    | [[EU]]
+    | the EU
+    | the [[EU]]
+    | European Union
+    | [[European Union]]
+    | the European Union 
+    | the [[European Union]] = in the [[European Union]]
+    | #default = in {{#ifexist:{{{subregion}}}
+     |[[{{{subregion}}}]]
+     |{{{subregion}}}
+    }}
+   }}{{#ifeq:{{{subregion_color|any}}}|none|
+    |&nbsp;({{{subregion_color|tan}}})
+   }}
+  }}
+ }}{{#if:{{{legend|}}}
+  |{{#switch:<!--[13]-->{{{subregion|none}}}
+   | EU
+   | [[EU]]
+   | the EU
+   | the [[EU]]
+   | European Union
+   | [[European Union]]
+   | the European Union 
+   | the [[European Union]] = {{#ifeq:{{{subregion_color|tan}}}|tan
+    |&nbsp;
+    |&nbsp; –&nbsp;
+   }}
+   | none = {{#ifeq:{{{region|none}}}|none|
+    |&nbsp; –&nbsp; 
+   }}
+   | #default = &nbsp; –&nbsp;
+  }} &#91;[[:File:{{{legend}}}|Legend]]&#93;
+ }}</p>
+}}</div><noinclude>
+{{documentation}}
 </noinclude>
