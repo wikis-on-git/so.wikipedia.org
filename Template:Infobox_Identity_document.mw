@@ -1,0 +1,43 @@
+{{infobox
+| above = {{{name|{{{document_name}}}}}}
+| bodystyle = width:22em
+
+| image = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size ={{{image_size|{{{image_width|}}}}}}|sizedefault=frameless|upright={{{upright|0.85}}}|alt={{{image_alt|{{{alt|}}}}}} }}
+| caption = {{{caption|{{{image_caption|}}}}}}
+
+| image2 = {{#invoke:InfoboxImage|InfoboxImage|image={{{image2|}}}|size ={{{image2_size|{{{image_width2|}}}}}}|sizedefault=frameless|upright={{{upright2|0.85}}}|alt2={{{image2_alt|{{{alt2|}}}}}}}}
+| caption2 = {{{caption2|{{{image_caption2|}}}}}}
+
+|label1 = Type
+| data1 = {{{type|{{{document_type|}}}}}}
+
+|label2 = Issued by
+| data2 = {{{issued_by|{{{using_jurisdiction|}}}}}}
+
+|label3 = First&nbsp;issued
+| data3 = {{{first_issued|{{{date_first_issued|}}}}}}
+
+|label4 = Purpose
+| data4 = {{{purpose|}}}
+
+|label5 = Valid in
+| data5 = {{{valid|{{{valid_jurisdictions|}}}}}}
+
+|label6 = Eligibility
+| data6 = {{{eligibility|}}}
+
+|label7 = Expiration
+| data7 = {{{expiration|}}}
+
+|label8 = Cost
+| data8 = {{{cost|}}}
+
+|label9 = Rights
+| data9 = {{{rights|}}}
+
+|label10 = Size
+| data10 = {{{size|}}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
