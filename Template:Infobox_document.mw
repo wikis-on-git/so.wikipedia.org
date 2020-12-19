@@ -1,0 +1,37 @@
+{{Infobox
+| abovestyle     = text-align:center;
+| above          = {{{document_name|{{{name|}}}}}}
+| image          = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image|{{{image|{{{image_name|}}}}}}}}}|size={{{Image size|{{{image_size|}}}}}}|sizedefault=frameless|upright=1|alt={{{image_alt|}}}}}
+| caption        = {{{caption|{{{image_caption|}}}}}}
+| image2         = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image2|{{{image2|{{{image2_name|}}}}}}}}}|size={{{Image2 size|{{{image2_size|}}}}}}|sizedefault=frameless|upright=1|alt={{{image2_alt|}}}}}
+| caption2       = {{{caption2|{{{image2_caption|}}}}}}
+
+|  label1        = Original title
+|   data1        = {{#if: {{{title_orig|}}} | {{#if: {{{orig_lang_code|}}} | {{lang|{{{orig_lang_code|}}}|{{{title_orig|}}}}} }} }}
+|  label2        = Created
+|   data2        = {{{date_created|}}}
+|  label3        = Presented
+|   data3        = {{{date_presented|}}}
+|  label4        = [[Ratification|Ratified]]
+|   data4        = {{{date_ratified|}}}
+|  label5        = [[Effective date|Date&nbsp;effective]]
+|   data5        = {{{date_effective|}}}
+|  label6        = [[Repeal|Repealed]]
+|   data6        = {{{date_repeal|}}}
+|  label7        = Location
+|   data7        = {{{location_of_document|}}}
+|  label8        = Commissioned&nbsp;by
+|   data8        = {{{commissioned|}}}
+|  label9        = Author(s)
+|   data9        = {{{writer|}}}
+| label10        = Signatories
+|  data10        = {{{signers|}}}
+| label11        = Media type
+|  data11        = {{{media_type|}}}
+| label12        = Subject 
+|  data12        = {{{subject|}}}
+| label13        = Purpose
+|  data13        = {{{purpose|}}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
