@@ -1,12 +1,12 @@
-<noinclude>{| style="width:90%;border-width:medium;"</noinclude>&#32;
-|-
-|style="width:50%; background:#f9f9f9; border-width:1px;border-style:solid none none solid;border-color:#ddd; padding:9px 5px 5px; vertical-align:top;"| <!--
+<noinclude>{| style="width:90%;border-width:medium;"</noinclude><includeonly>{{#if:{{{c1|value}}}|&#32;
+{{!-}}
+{{!}}style{{=}}"width:50%; background:#f9f9f9; border-width:1px;border-style:solid none none solid;border-color:#ddd; padding:9px 5px 5px; vertical-align:top;"{{!}} <!--
  -->{{#tag:pre |{{{c1|[markup]}}}|style="margin:0;border:none;padding:0; word-wrap:break-word; white-space:-moz-pre-wrap;white-space:-o-pre-wrap;white-space:-pre-wrap;white-space:pre-wrap; {{{c1style|}}}"}}
-|style="width:50%; background:#f9f9f9; border-width:1px;border-style:solid solid none solid;border-color:#ddd; padding:5px; vertical-align:top;"| <!--
+{{!}}style{{=}}"width:50%; background:#f9f9f9; border-width:1px;border-style:solid solid none solid;border-color:#ddd; padding:5px; vertical-align:top;"{{!}} <!--
  --><div style="{{{c2style|}}}">
 {{{c2|[''rendering'']}}}
 </div>
-<!--
+}}</includeonly><!--
 
 --><noinclude>
 |-
