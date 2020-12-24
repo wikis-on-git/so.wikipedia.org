@@ -1,0 +1,58 @@
+{{infobox
+| title = {{{government_name|{{PAGENAME}}}}}
+| subheader    = {{{nativename|}}}
+| headerstyle = vertical-align: middle; background-color:lavender;
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=100px|alt={{{alt|}}}}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image2|}}}|size={{{image_size2|}}}|sizedefault=100px|alt={{{alt2|}}}}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image3|}}}|size={{{image_size3|}}}|sizedefault=100px|alt={{{alt3|}}}}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image4|}}}|size={{{image_size4|}}}|sizedefault=100px|alt={{{alt4|}}}}}
+| caption    = {{{caption|}}}
+
+| label1 = Formation
+|  data1 = {{{date|}}}
+
+| label2 = Extinction
+|  data2 = {{{date_end|}}}
+
+| label3 = {{#if:{{{document_type|}}} |{{{document_type}}} | Founding document}}
+|  data3 = {{{document|}}}
+
+| label4 = Jurisdiction
+|  data4 = {{{jurisdiction|}}}
+
+| label5 = Website
+|  data5 = {{{url|}}}
+
+| header6 = {{#if:{{{legislature|}}}{{{meeting_place|}}} |Legislative branch}}
+
+| label7 = Legislature
+|  data7 = {{{legislature|}}}
+
+| label8 = Meeting place
+|  data8 = {{{meeting_place|}}}
+
+| header9 = {{#if:{{{leader_type|}}}{{{leader_title|}}}{{{main_organ|}}}{{{departments|}}}{{{headquarters|}}} |Executive branch}}
+
+| label10 = {{#if:{{{leader_type|}}} |{{{leader_type}}} |Leader}}
+|  data10 = {{{leader_title|}}}
+
+| label11 = Appointer
+|  data11 = {{{appointed|}}}
+
+| label12 = Headquarters
+|  data12 = {{{headquarters|}}}
+
+| label13 = Main organ
+|  data13 = {{{main_organ|}}}
+
+| label14 = Departments
+|  data14 = {{{departments|}}}
+
+| header15 = {{#if:{{{court|}}}{{{seat|}}} |Judicial branch}}
+
+| label16 = Court
+|  data16 = {{{court|}}}
+
+| label17 = Seat
+|  data17 = {{{seat|}}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
