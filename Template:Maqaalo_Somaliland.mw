@@ -1,22 +1,24 @@
-{{Country topics
-| country = Somaliland
-| state = {{{state|{{{1|<includeonly>collapsed</includeonly>}}}}}}
-| image = [[File:Emblem_of_Somaliland.svg|100px|]]
-| adjective = Somaliland
+{{Navbox
+| name = Maqaalo Somaliland
+| state = {{{state|autocollapse}}}
+| image=[[File:Emblem of Somaliland.svg|100px|link=Astaanta qaranka Soomaaliya]]
+| bodyclass = hlist
+| title = {{flagcountry|Somaliland}}
 
-<!----------------------------------------->
-| history =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal; |evenodd=swap
-
+| group1 = [[Taariikhda Somaliland|Taariikh]]
+| list1 =
+ {{Navbox subgroup
   | group1 = Dhacdooyin
-  | list1 = 
-* [[Godadka Somaliland|Farshaxan Qadiimiya]]
-** [[Laas Geel]]
+  | list1 =
+* [[Laas Geel]]
+* [[Punt|Dhulka Punt]]
 ** [[Dhambalin]]
 * [[Dhul Udug]]
 * [[Malao]]
 * [[Saldanadi Ifat]]
 * [[Saldanadii Cadal]]
+* [[Dowladii Daraawiishta]]
+* [[Saldanadii Warsangali]]
 * [[British Somaliland]]
 * [[Shaambada Boostada British Somaliland]]
 * [[Dagaalkii Daraawiishta]]
@@ -30,17 +32,33 @@
 * [[Muranka xadka Puntland–Somalilan|Muranka Xadka]]
 * [[Somaliland Scouts]]
 * [[Warbixin Somaliland]]
-
-  |group2 = Ciwaano kale
-  |list2 =
-* [[Taariikhda Badmareenka Soomaalida|Bad-mareen]]
-* [[Taariikhda Ciidanka Soomaaliya|Ciidanka Xooga]]
-* [[Taariikhda Somaliland]]
+  | group2 = {{longitem|Ciwaano kale}}
+  | list2 =
+* [[Taariikhda Badmareenka Soomaalida|Badmareenka Soomaalida]]
+* [[Taariikhda Ciidanka Somaliland|Ciidanka Xoogga]]
  }}
 
-<!----------------------------------------->
-| geography =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal;
+| group2 = [[Juqraafiga Soomaaliya|Juqraafiga]]
+| list2 =
+* [[Warbixin Somaliland]]
+* [[Liiska magaalooyinka Somaliland|Magaalooyinka]]
+* [[Cimilada Somaliland#Cimilada|Cimilada]]
+* [[Duurjoogta Somaliland|Duurjoogta]]
+* [[:Category:Biyoshub Somaliland|Biyoshub]]
+** [[Lamadaya]]
+* [[:Category:Buuraha Somaliland|Buuraleeyda]]
+** [[Buuraha Golis]]
+** [[Cal Madow]]
+** [[Cal Miskaad]]
+** [[Buuraha Oogo]]
+* [[:Category:Buuraha Somaliland|Buuraha]]
+** [[Shimbiris]]
+** [[Dul Madooba]]
+*[[:Category:Gasiiradaha Somaliland|Gasiirado]]
+**[[Gasiirada Saacadiin]]
+ {{Navbox subgroup
+  | group1 = [[Gobolada Somaliland]]
+  | list1 = 
 
 | list1 = <!--Alphabetical:-->
 * [[Magaalooyinka Somaliland|Magaalooyinka]]
@@ -62,104 +80,105 @@
 *[[:Category:Gasiiradaha Somaliland|Gasiiradaha]]
 **[[Gasiirada Saacadiin]]
 *[[Goddadka Somaliland|Goddadka]]
+ }}
 
-  | group2 =[[Gobolada Somaliland|Gobolada]]
-  | list2 =  <!--Alphabetical:-->
-* [[Awdal]] 
-* [[Maroodi Jeex]]
-* [[Saaxil]]
-* [[Sanaag]]
+| group2 = [[Juqraafiga Somaliland|Juqraafiga]]
+| list2 =
+* [[Warbixin Somaliland]]
+* [[Liiska magaalooyinka Soomaaliya|Magaalooyinka]]
+* [[Cimilada Soomaaliya#Cimilada|Cimilada]]
+* [[Duurjoogta Somaliland|Duurjoogta]]
+* [[Xaafuun]]
+* [[:Category:Biyoshub Soomaaliya|Biyoshub]]
+** [[Iskushuban]]
+** [[Lamadaya]]
+* [[:Category:Buuraha Soomaaliya|Buuraleeyda]]
+** [[Buuraha Golis]]
+** [[Cal Madow]]
+** [[Cal Miskaad]]
+** [[Buuraha Oogo]]
+* [[:Category:Buuraha Soomaaliya|Buuraha]]
+** [[Shimbiris]]
+** [[Buurta Baxaya]]
+** [[Dul Madooba]]
+*[[:Category:Gasiiradaha Somaliland|Gasiirado]]
+**[[Gasiirada Saacadiin]]
+ {{Navbox subgroup
+  | group1 = [[Gobolada Somaliland]]
+  | list1 = 
 * [[Sool]]
+* [[Maroodi Jeex]]
+* [[Awdal]]
+* [[Sanaag]]
+* [[Saaxil]]
 * [[Togdheer]]
+
 }}
-
-<!----------------------------------------->
-| politics =
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal;
-
-| list1 = <!--Alphabetical:-->
-* [[Golaha Wasiirada Somaliland|Golaha Wasiirada]]
+| group3 = [[Siyaasadda Somaliland|Siyaasadda]]
+| list3 =
+* [[Golaha wasiirada Somaliland]]
 * [[Dastuurka Somaliland|Dastuurka]]
-* [[Doorashooyinka Somaliland|Doorashooyinka]]
-* [[Xidhiidhka Dibada ee Somaliland|Xidhiidhka Dibada]]
-* [[Siyaasadda Somaliland|Dowlada]]
-*[[Safaaradaha Somaliland|Safaaradaha]]
-* [[Xuquuqda Dadka Soomaaliya|Xuquuqda Aadamaha]]
+* [[Doorashooyinka SomalilandDoorashooyinka]]
+* [[Xiriirka Arrimaha Dibadda Somaliland|Xidhiidhka Arimaha Dibada]]
+* [[Dawladda  Somaliland|Dawladda]]
+* [[Xuquuqda Dadka Somaliland|Xuquuqda Insaanka]]
 * [[Garsoorka Somaliland|Garsoorka]]
 * [[Xeer|Xeerka]]
-* [[Ciidamada Somaliland|Ciidanka Xooga]]
-** [[Ciidanka Nabadsugida Somaliland|Ciidanka Nabadsugida]]
+* [[Ciidanka Somaliland|Ciidanka Xoogga]]
 * [[Baarlamaanka Somaliland|Baarlamaanka]]
-** [[Golaha Guurtida Somaliland|Golaha Guurtida]]
-** [[Golaha Wakiilada Somaliland|Golaha Wakiilada]]
 * [[Liiska Xisbiyada Siyaasadda Somaliland|Xisbiyada Siyaasadda]]
-* [[Jagada Madaxwaynaha Somaliland|Madaxwaynaha]]
-** [[Madaxweynayaashii Somaliland|Liiska]]
-* [[Madaxweyne ku xigeenka Somaliland|Madaxweyne ku xigeenka]]
-** [[Liiska Madaxweyne ku xigeenka Somaliland|Liiska]]
-* [[Template:Wasiirada Somaliland|Wasiirada]]
-* [[Template:Duqa magaalooyinka Somaliland|Duqa magaalooyinka]]
-* [[Sharciga fiisaha Somaliland|Sharciga Fiisaha]]
+* [[Madaxwaynaha Somaliland|Madaxwayne]]
+** [[Madaxweyneyaashii Somaliland|Dhammaantood]]
+* [[Madaxwayne kuxigeen Somaliland]]
+** [[Madaxwayne kuxigeen Somaliland|Dhammaantood]]
+{{Navbox subgroup
 
-  }}
-
-<!----------------------------------------->
-| economy = <!--Alphabetical:-->
-* [[Beeraha Somaliland|Beeraha]]
-* [[Bankiga Somaliland|Bankiga Dhexe]]
-* [[Liiska Gegooyinka Diyaaradaha Somaliland|Gegooyinka Diyaaradaha]]
-* [[Shirkadaha Soomaalida|Shirkadaha]]
-* [[Aagga Dhaqaalaha Soomaaliya|EEZ]]
-* [[Soosaarka tamarta Somaliland|Soosaarka tamarta]]
-* [[Template:Dekadaha Somaliland|Dekadaha]]
-* [[Somaliland shilling|Shilling {{small|(LACAG)}}]]
-* [[Isgaadhsiinta Somaliland|Isgaadhsiinta ]]
+}}
+| group4 = [[Dhaqaallaha Somaliland|Dhaqaalaha]]
+| list4 =
+* [[Beeraha Soomaaliya|Dallagga]]
+* [[Bankiga Dhexe ee Soomaaliya|Bankiga Dhexe]]
+* [[Liiska Shirkadaha Soomaaliya|Shirkadaha]]
+* [[Taariikhda Dhaqaalaha Soomaaliya|Taariikhda Dhaqaalaha]]
+* [[Aagga Dhaqaalaha Soomaaliya|Aagga Dhaqaalaha]]
+* [[Wershadaha Macdanta Soomaaliya|Wershadaha Macdanta]]
+* [[Kheyraadka Shidaalka Puntland|Wershaha Shidaalka]]
+* [[Somali shilling|Shilling {{small|(lacag)}}]]
+* [[Isgaadhsiinta Sosomaliland|Isgaadhsiinta]]
 * [[Dalxiiska Somaliland|Dalxiiska]]
 * [[Socdaalka Somaliland|Socdaalka]]
 
-<!----------------------------------------->
-|society = <!--Alphabetical:-->
-* [[Samo ku waar|Heesta Calanka]]
-* [[Astaanta Qaranka Somaliland|Astaanta Qaranka]]
-* [[Bulshada Soomaaliya|Bulshada]]
-* [[Waxbarashada Somaliland|Waxbarashada]]
+| group5 = [[Dadka Soomaalida|Bulshada]]
+| list5 =
+* [[Samu Ku Waar|Heesta Calanka]]
+* [[Astaanta Qaranka ee Somaliland|Astaanta Qaranka]]
+* [[Bulshada Somaliland|Shacabka]]
+* [[Qurbajoogta Soomaaliyeed|Qurbajoogta]]
+* [[Waxbarashada Soomaaliyeed|Waxbarashada ]]
 * [[Calanka Somaliland|Calanka]]
-* [[Madbacada qaranka Somaliland|Madbacada qaranka]]
-* [[Wakhtiga fasaxa Soomaaliya|Wakhtiga fasaxa]]
-* [[Maalinta Madaxbanaanida Somaliland|Maalinta Madaxbanaanida]]
-* [[Furaha teleefanka Somaliland|Furaha teleefanka]]
-* [[Maxkamada sare Somaliland|Maxkamada Sare]]
- {{Navbox |child |groupstyle=padding-left:0.5em;padding-right:0.5em;font-weight:normal; |evenodd=swap
-
-  | group1 = Dhaqanka
-  | list1 = 
+* [[Wakhtiga fasaxa Somaliland|Wakhtiga fasaxa]]
+{{Navbox subgroup
+  | group1 = [[Dhaqanka Soomaaliya|Dhaqanka]]
+  | list1 =
 * [[Dhisme Soomaali|Dhismaha]]
 * [[Farshaxan Soomaali|Farshaxan]]
 * [[Shaleemada Soomaaliya|Shaleemada]]
 * [[Cunto Soomaali|Cuntada]]
 * [[Suugaanta Soomaalida|Suugaanta]]
-* [[Warbaahinta Soomaaliya|Warbaahinta]]
 * [[Fanka Soomaalida|Muusiga iyo Fanka]]
 * [[Diinta Somaliland|Diinta]]
 * [[Ciyaarta Somaliland|Ciyaaraha]]
-**[[Kooxda kubada cagta qaranka Somaliland|Kooxda qaranka]]
-**[[Ciyaaraha gobolada Somaliland|Ciyaaraha gobolada]]
 * [[Luuqadaha Somaliland|Luuqadaha]]
-* [[Warbaahinta Somaliland|Warbaahinta]]
+
 }}
 |belowstyle = font-weight:bold;
 |below =
 * {{icon|Book}} [[Book:Somaliland|Book]]
 * {{icon|Category}} [[:Category:Somaliland|Category]]
 * {{icon|Portal}} [[Portal:Somaliland|Portal]]
-
 }}<noinclude>
 
-{{documentation|content =
 {{collapsible option |default=expanded}}
-}}<!--(end documentation)-->
-
-[[Category:Somaliland templates| ]]
-[[Category:Afrika templates]]
- 
+[[Category:Macluumaadka Somaliland]]
+[[Category:Somaliland| ]]
 </noinclude>
