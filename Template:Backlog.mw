@@ -1,0 +1,44 @@
+{{CatTrack|Error=no}}{{#switch:
+  {{#if:{{{1|}}}
+  | {{#ifexpr:{{PAGESINCATEGORY:{{PAGENAME}}|R}} >= {{{1|}}}
+    | report
+    | noreport
+    }}
+  | report
+  }}
+
+| noreport = 
+{{#ifeq:{{{silent|}}}|yes||
+  {{cmbox   <!-- Cmbox since autoreport is only for category pages. -->
+  | image = [[File:Less busy desk red.svg|50x50px|link=|alt=]]
+  | textstyle = text-align: center;
+  | text = If this category has {{#ifeq:{{{2|{{{1|}}}}}}
+                                | 1
+                                | any items
+                                | {{{2|{{{1|}}}}}} {{plural:{{{2|{{{1|}}}}}}|item|items}} or more
+                                }}, it will report as a [[:Category:Wikipedia backlog|backlog]]. <small>({{purge|recount}})</small>
+  }}
+}}
+
+| report
+| #default =
+  {{mbox
+  | demospace = {{{demospace|}}}  <!-- For the examples in the /doc. -->
+  | type = style
+  | style = text-align: center;
+  | image = [[File:Busy desk red.svg|50x50px|link=|alt=]]
+  | text = {{{page|Boggaan {{#ifeq:{{NAMESPACE}}|Category|category|wuxuu}}}}} leeyahay '''[[:Category:Wikipedia backlog|backlog]]'''  dib u dhac u baahan u fiirsashada tifaftirayaasha doonaya.. <br> {{
+    #if:{{{1|}}}
+    | ''This notice will hide itself when this category has {{plural:{{{2|{{{1|}}}}}}|no|fewer than {{{2|{{{1|}}}}}}}} items.'' <small>({{purge|recount}})</small>
+    | {{#ifeq:{{{auto}}}|yes|<small>This notice will automatically hide itself when the backlog is cleared.</small>|''Fadlan ka saar ogeysiiskan had iyo goorta dib-u-hagaajinta la nadiifiyey..''}}
+    }}
+  }}<includeonly>{{#ifeq:{{SUBJECTSPACE}}|{{ns:user}}
+  | <!-- Don't categorise when on user or user talk pages. -->
+  | {{{category|[[Category:Wikipedia backlog|{{PAGENAME}}]]}}}
+  }}</includeonly>
+
+}}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
