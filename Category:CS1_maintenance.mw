@@ -1,0 +1,40 @@
+{{Tracking category|container=yes}}
+
+Tani waa qayb raadraac ah oo loogu talagalay qaybaha dayactirka [[WP:CS1|CS1 citationtixraaca CS1]] ee kala duwan. [[WP:CS1|CS1 citation]].
+----
+{{#lst:Help:CS1 errors|show_all_messages_help_text}}
+
+Tirada guud ee maqaallada ku jira qaybaha-hoose ee qaybtan ayaa ah '''{{formatnum:
+{{#expr:{{formatnum:{{PAGESINCATEGORY:CS1 maint: archived copy as title |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: ASIN uses ISBN |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: uses authors parameter‎ |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: BOT: original-url status unknown |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:Articles with missing Cite arXiv inputs‎ |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: date and year |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: date format |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: display-authors |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: display-editors |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: Pages with DOIs inactive as of 2019‎ |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: explicit use of et al. |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: extra punctuation‎ |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: extra text |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: uses editors parameter‎ |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: ignored ISBN errors |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: location |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: unrecognized language |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: missing pipe |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: multiple names: authors list |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: multiple names: editors list |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: multiple names: interviewers list |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: multiple names: translators list |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: others |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: PMC embargo expired |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: PMC format |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: unfit url |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: untitled periodical |pages}}|R}}+
+{{formatnum:{{PAGESINCATEGORY:CS1 maint: ZBL |pages}}|R}}
+}}}}''' 
+({{purge|cusbooneysii boggan}} si aad u cusboonaysiiso tirintan). This number involves some double-counting, since a single article may appear in multiple subcategories.
+
+{{Category see also|CS1 errors|CS1 properties}}
+[[Category:CS1]]
