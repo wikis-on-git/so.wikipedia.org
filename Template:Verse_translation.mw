@@ -1,0 +1,11 @@
+<includeonly>{| role="presentation" style="margin-left:3em;"
+|- style="vertical-align: top;"
+|{{#tag:poem|{{{1}}}|style="font-style:{{#if:{{{italicsoff|}}}|roman|italic}};text-align:{{#if:{{{rtl1|}}}|right|left}}"|lang={{{lang|}}}}}
+|style="padding-left: 2em;"|{{#tag:poem|{{{2}}}}}
+|- {{#if:{{{attr1|}}}|style="vertical-align: top; font-size:88%"|{{#if:{{{attr2|}}}|style="vertical-align: top; font-size:88%"|style="display: none;"}} }}
+|{{#if:{{{attr1|}}}|—{{{attr1|}}}|}}
+|style="padding-left: 2em;"|{{#if:{{{attr2|}}}|—{{{attr2|}}}|}}
+|}</includeonly><noinclude>
+{{documentation}}
+[[Category:Translation templates]]
+</noinclude>
