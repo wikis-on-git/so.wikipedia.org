@@ -7,9 +7,9 @@
 |demospace={{{demospace|}}}
 |type = move
 |image=[[File:Merge-arrow.svg|alt=|link=]]
-|text=It has been suggested that this {{#if:{{{section|}}}|section|{{#if:{{NAMESPACE}}|page|article}}}} be [[Wikipedia:Merging|merged]] into {{Pagelist|nspace=all|delim=''|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}|{{{17|}}}|{{{18|}}}|{{{19|}}}|{{{20|}}}}}. ([[{{{discussion|{{{discuss|{{TALKPAGENAME:{{{1}}}}}}}}}}}|Discuss]]){{#if:{{{date<includeonly>|</includeonly>}}}|<small>'' Proposed since {{{date<includeonly>|</includeonly>}}}.''</small>}}
+|text=waxaa la soo jeediyay in {{#if:{{{section|}}}|section|{{#if:{{NAMESPACE}}|boggaan|maqaalkaan}}}} lagu [[Wikipedia:Merging|milmiyo]] {{Pagelist|nspace=all|delim=''|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}|{{{17|}}}|{{{18|}}}|{{{19|}}}|{{{20|}}}}}. ([[{{{discussion|{{{discuss|{{TALKPAGENAME:{{{1}}}}}}}}}}}|Ka wada hadla]]){{#if:{{{date<includeonly>|</includeonly>}}}|<small>'' La soo jeediyey taariikhda markii eheed {{{date<includeonly>|</includeonly>}}}.''</small>}}
 }}<includeonly>{{#switch:{{NAMESPACE}}
-||Talk={{DMC|Articles to be merged|from|{{{date|}}}|All articles to be merged}}
+||Talk={{DMC|Maqaallada |laga mideynayo|{{{date|}}}|Dhammaan maqaalada la isku darayo}}
 |User|User talk=
 |#default={{#if:{{{demospace|}}}||{{DMC|||Items to be merged}}}}}}{{Merge partner|{{{1|}}}}}</includeonly>
 }}<noinclude>
