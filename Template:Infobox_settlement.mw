@@ -169,7 +169,7 @@
 <!-- ***Coordinates*** -->
 | rowclass27 = {{#if:{{{image_map|}}}{{{image_map1|}}}{{{pushpin_map|}}}|{{#if:{{{grid_position|}}}|mergedrow|mergedbottomrow}}}}
 |  data27 = {{#if:{{{coordinates|}}}
-  |Coordinates{{#if:{{{coor_pinpoint|{{{coor_type|}}}}}}|&#32;({{{coor_pinpoint|{{{coor_type|}}}}}})}}: {{#invoke:ISO 3166|geocoordinsert|nocat=true|1={{{coordinates|}}}|country={{{subdivision_name|}}}|subdivision1={{{subdivision_name1|}}}|subdivision2={{{subdivision_name2|}}}|subdivision3={{{subdivision_name3|}}}|type=city{{#if:{{{population_total|}}}|{{#iferror:{{#expr:{{formatnum:{{replace|{{{population_total}}}|,|}}|R}}+1}}||({{formatnum:{{{population_total}}}|R}})}}}} }}{{{coordinates_footnotes|}}} }}
+  |Coordinates{{#if:{{{coor_pinpoint|{{{coor_type|}}}}}}|&#32;({{{coor_pinpoint|{{{coor_type|}}}}}})}}: {{#invoke:ISO 3166|geocoordinsert|nocat=true|1={{{coordinates|}}}|country={{{subdivision_name|}}}|subdivision1={{{subdivision_name1|}}}|subdivision2={{{subdivision_name2|}}}|subdivision3={{{subdivision_name3|}}}|type=city{{#if:{{{population_total|}}}|{{#iferror:{{#expr:{{formatnum:{{{population_total}}}|R}}+1}}||({{formatnum:{{{population_total}}}|R}})}}}} }}{{{coordinates_footnotes|}}} }}
 
 | rowclass28 = {{#if:{{{image_map|}}}{{{image_map1|}}}{{{pushpin_map|}}}|mergedbottomrow|mergedrow}}
 | label28 = {{if empty|{{{grid_name|}}}|Grid&nbsp;position}}
