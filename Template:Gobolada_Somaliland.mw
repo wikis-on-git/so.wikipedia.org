@@ -1,8 +1,8 @@
 {| style="margin: 0 auto;width:90%;clear:both;text-align:center;" class="toccolours"
 |-
-! style="background:#ccccff" width="100%" | [[:Category:Gobolada Somaliland|Gobolada]] [[Soomaaliland]]
+! style="background:#ccccff" width="100%" | [[:Category:Gobolada Somaliland|Gobolada]] [[Somaliland]]
 | width=40| [[File:Flag of Somaliland.svg|40px|Flag of Somaliland]]
 |-
-| style="font-size: 90%;" colspan="2" | [[Awdal]] | [[Cayn]] | [[Daadmadheedh]] | [[Hawd]] | [[Maroodi Jeex]] | [[Salal]] | [[Sanaag]] | [[Saraar]] | [[Sool]] | [[Togdheer]] | [[Xaysimo]]
-|}<includeonly>{{#switch: {{PAGENAME}} | Bari (Gobol) = [[Category:Bari| ]] [[Category:Gobolada Soomaaliya|Bari]] | #default = [[Category:{{PAGENAME}}| ]] [[Category:Gobolada Somaliland]]}}</includeonly><!--
+| style="font-size: 90%;" colspan="2" | [[Awdal]] | [[Maroodi Jeex]] | [[Sanaag]] | [[Sool]] | [[Togdheer]] | [[Saaxil]]
+|}<includeonly>{{#switch: {{PAGENAME}} | [[Category:Gobolada Somaliland]] | #default = [[Category:{{PAGENAME}}| ]] [[Category:Gobolada Somaliland]]}}</includeonly><!--
 --><noinclude>{{Documentation}}</noinclude>
