@@ -1,0 +1,134 @@
+{{Infobox
+|bodyclass      = vcard
+|child          = {{if empty|{{{embed|}}}|{{{child|}}}}}
+
+|aboveclass     = fn org
+|abovestyle     = background-color: #e7dcc3;
+|above          = {{#ifeq:{{{name|}}}|| <includeonly>{{error|Cave name required|tag=span}}</includeonly>|{{{name}}}}}
+
+|subheaderstyle = font-size:100%;
+|subheader      = {{if empty|{{{other_name|}}}|{{{alt_name|}}}}}
+
+|image1   = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{{photo_width|}}}|sizedefault=256px|alt={{{photo_alt|}}}}}
+|caption1 = {{if empty|{{{caption|}}}|{{{photo_caption|}}}}}
+
+|image2 = {{#if:{{{map|}}} | {{location map|{{{map|}}}
+             | border = infobox | float = center
+             | width          = {{if empty|{{{map_size|}}}|{{{mapsize|}}}|{{{map_width|}}} }}
+             | default_width  = 220
+             | max_width      = 256
+             | relief         = {{{relief|}}}
+             | label          = {{if empty|{{{label|}}}|{{{name|}}} }}
+             | position       = {{if empty|{{{label_position|}}}|none}} <!-- change default to none -->  
+             | caption        = {{{map_caption|}}}
+             | alt            = {{if empty|{{{map_alt|}}}|Map showing the location of {{{name|}}} }}
+             | mark           = {{{mark|}}}
+             | marksize       = {{if empty|{{{mark_width|}}}|{{{mark_size|}}}}}
+             | coordinates    = {{if empty|{{{coordinates|}}}|{{{coords|}}}}} }}
+           | {{#invoke:InfoboxImage|InfoboxImage|image={{{map_image|{{{image_map|}}}}}}|size={{if empty|{{{map_size|}}}|{{{mapsize|}}}|{{{map_width|}}} }}|maxsize=256px|alt={{{map_alt|}}}}}
+           }}
+|caption2 = {{#if:{{{map|}}} || {{{map_caption|}}} }}
+
+|image3   = {{#invoke:Infobox mapframe|auto|mapframe-coord={{{coordinates|{{{coords|}}}}}}}}
+|caption3 = {{#invoke:Infobox mapframe|autocaption}}
+
+|label1   = Location
+|data1    = {{{location|}}}
+
+|label2   = [[Ordnance Survey National Grid|OS grid]]
+|data2    = {{#if:{{{grid_ref_UK|}}}|{{gbm4ibx|{{{grid_ref_UK|}}}}}{{{grid_ref|}}}}}
+
+|label3   = [[Irish grid reference system|OSI/OSNI grid]]
+|data3    = {{#if:{{{grid_ref_Ireland|}}}|{{iem4ibx|{{{grid_ref_Ireland|}}}}}{{{grid_ref|}}}}}
+
+|label4   = Coordinates
+|data4    = {{#if:{{{coordinates|{{{coords|}}}}}}
+  |{{#invoke:Coordinates|coordinsert|{{{coordinates|{{{coords|}}}}}}|type:landmark}}{{{coordinates ref|{{{coords_ref|}}}}}}
+  }}
+
+|label5   = Depth
+|data5    = {{{depth|}}}
+
+|label6   = Length
+|data6    = {{{length|}}}
+
+|label7   = Height variation
+|data7    = {{{height_variation|}}}
+
+|label8   = Elevation
+|data8    = {{{elevation|}}}
+
+|label10  = Discovery
+|data10   = {{{discovery|}}}
+
+|label11  = Geology
+|data11   = {{{geology|}}}
+
+|label12  = Entrances
+|data12   = {{if empty|{{{number of entrances|}}}|{{{entrance_count|}}}|{{{entrances|}}}}}
+
+|label13  = List of<br/>entrances
+|data13   = {{if empty|{{{list of entrances|}}}|{{{entrance_list|}}}}}
+
+|label14  = Difficulty
+|data14   = {{{difficulty|}}}
+
+|label15  = Hazards
+|data15   = {{{hazards|}}}
+
+|label16  = Access
+|data16   = {{{access|}}}
+
+|label17  = Show cave opened
+|data17   = {{if empty|{{{show cave|}}}|{{{show_cave|}}}}}
+
+|label18  = Show cave length
+|data18   = {{if empty|{{{show cave length|}}}|{{{show_cave_length|}}}}}
+
+|label19  = Lighting
+|data19   = {{{lighting|}}}
+
+|label20  = Visitors
+|data20   = {{{visitors|}}}
+
+|label21  = Features
+|data21   = {{{features|}}}
+
+|label22  = Translation
+|data22   = {{#if:{{{translation|}}}
+            | ''{{{translation|}}}''{{#if:{{{language|}}}|{{sp}}({{{language|}}}) }}}}
+
+|label23  = Pronunciation
+|data23   = {{#if:{{{pronunciation|}}}|{{{pronunciation|}}}}}
+
+|label24  = [[Cave survey]]
+|data24   = {{#if:{{{survey|}}}
+            | {{{survey|}}}<!--
+            -->{{#if:{{{survey electronic format|{{{survey_format|}}}}}}
+               |{{sp}}(in ''{{if empty|{{{survey electronic format|}}}|{{{survey_format|}}}}}'')}}}}
+
+|label25  = [[British Cave Research Association|BRAC]] [[Cave survey#Accuracy|grade]]
+|data25   = {{uc:{{{bcra_grade|}}}}}
+
+|label26  = Registry
+|data26   = {{{registry|{{{register|}}}}}}
+
+|label27  = {{{free_label_1|}}}
+|data27   = {{#if:{{{free_label_1|}}}|{{{free_data_1|}}}}}
+
+|label28  = {{{free_label_2|}}}
+|data28   = {{#if:{{{free_label_2|}}}|{{{free_data_2|}}}}}
+
+|label29  = Website
+|data29   = {{{website|}}}
+
+|data30   = {{{embedded|}}}
+
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox cave with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox cave]] with unknown parameter "_VALUE_"|ignoreblank=y| access | alt_name | bcra_grade | caption | child | coordinates | coordinates ref | coords | coords_ref | depth | difficulty | discovery | elevation | embed | embedded | entrance_count | entrance_list | entrances | features | free_data_1 | free_data_2 | free_label_1 | free_label_2 | geology | grid_ref | grid_ref_Ireland | grid_ref_UK | hazards | height_variation | image_map | label | label_position | language | length | lighting | list of entrances | location | map | map_alt | map_caption | map_image | map_size | map_width | mapsize | mark | mark_size | mark_width | name | number of entrances | other_name | photo | photo_alt | photo_caption | photo_width | pronunciation | register | registry | relief | show cave | show cave length | show_cave | show_cave_length | survey | survey electronic format | survey_format | translation | visitors | website | mapframe | mapframe-caption | mapframe-custom | mapframe-id | mapframe-coord | mapframe-wikidata | mapframe-point | mapframe-shape | mapframe-frame-width | mapframe-frame-height | mapframe-shape-fill | mapframe-shape-fill-opacity | mapframe-stroke-color | mapframe-stroke-colour | mapframe-stroke-width | mapframe-marker | mapframe-marker-color | mapframe-marker-colour | mapframe-geomask | mapframe-geomask-stroke-color | mapframe-geomask-stroke-colour | mapframe-geomask-stroke-width | mapframe-geomask-fill | mapframe-geomask-fill-opacity | mapframe-zoom | mapframe-length_km | mapframe-length_mi | mapframe-area_km2 | mapframe-area_mi2 | mapframe-frame-coordinates | mapframe-frame-coord | mapframe-switcher
+}}{{#if:{{{coords|}}}{{{coordinates|}}}|{{Main other|[[Category:Wikipedia cave articles with {{#if:{{{coords_ref|}}}|referenced|unreferenced}} coordinates|{{PAGENAME}}]]}}
+}}{{#if:{{{free_data_1|}}}|{{#if:{{{free_label_1|}}}||[[Category:Pages using infobox cave with unknown parameters|ψ1]]}}
+}}{{#if:{{{free_data_2|}}}|{{#if:{{{free_label_2|}}}||[[Category:Pages using infobox cave with unknown parameters|ψ2]]}}
+}}<noinclude>
+{{documentation}}<!--
+   PLEASE ADD CATEGORIES TO THE /doc SUBPAGE, THANKS
+--></noinclude>
