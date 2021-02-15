@@ -1,0 +1,40 @@
+{{High-risk| 1,119,395 }}
+{{Documentation subpage}}
+{{Lua sidebar}}
+{{Lua|Module:EditAtWikidata}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+
+Template to display an icon with a tooltip such as "Edit this at Wikidata"
+* Icon will be linked to the Wikidata entry for the article where this is placed.
+* The link can be modified to point to a specific property in the Wikidata entry by supplying the optional named parameter {{para|pid}}.
+* This message is only displayed if a local_parameter is not supplied; i.e. when called from within a template, it can be coded not to display the icon when a local parameter is in use, which means the value from Wikidata is not used.
+* The qid of a Wikidata entry can optionally be supplied for testing outside the article (this is an [[WP:EXPENSIVE|expensive call]]).
+
+== Usage ==
+* <code><nowiki>{{EditAtWikidata}}</nowiki></code>
+
+Outside the article:
+* <code><nowiki>{{EditAtWikidata |qid=<Qid of article at Wikidata>}}</nowiki></code>
+
+Inside another template:
+* <code><nowiki>{{EditAtWikidata |{{{local_parameter|}}} }}</nowiki></code>
+
+To make the link point to the given propertyID at the Wikidata entry:
+* <code><nowiki>{{EditAtWikidata |pid=<PropertyID> |local_parameter}}</nowiki></code>
+
+== Example ==
+<!-- the template output will be visible when viewed from Template:EditAtWikidata, which has a Wikidata item -->
+Usage:
+: <kbd><nowiki>Template:EditAtWikidata{{EditAtWikidata}}</nowiki></kbd>
+Output:
+: Template:EditAtWikidata{{EditAtWikidata}}
+[[Help:Wikitext|Wikitext]]:
+: {{nowiki2|tag=pre|Template:EditAtWikidata{{EditAtWikidata}}}}
+
+== See also ==
+* [[Template:EditOnWikidata]], a similar template using text instead of an icon
+
+<includeonly>{{sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikidata templates]]
+}}</includeonly>
