@@ -364,3 +364,18 @@ Thanks for your attention, [[:d:User:Lea Lacroix (WMDE)|Lea Lacroix (WMDE)]] 13:
 
 Hi everybody! Google Code-in (GCI) will soon take place again - a seven week long contest for 13-17 year old students to contribute to free software projects. Tasks should take an experienced contributor about two or three hours and can be of the categories Code, Documentation/Training, Outreach/Research, Quality Assurance, and User Interface/Design. Do you have any Lua, template, gadget/script or similar task that would benefit your wiki? Or maybe some of your tools need better documentation? If so, and you can imagine enjoying mentoring such a task to help a new contributor, please check out [[:mw:Google Code-in/2019]] and become a mentor. If you have any questions, feel free to ask at [[:mw:Talk:Google Code-in/2019|our talk page]]. Many thanks in advance! --[[User:Martin Urbanec|Martin Urbanec]] 07:28, 5 Nofeembar 2019 (UTC)
 <!-- Message sent by User:Martin Urbanec@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=19202271 -->
+
+== Technical maintenance planed‬ ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+'''A maintenance operation will be performed tomorrow morning UTC time (Wednesday 17th at 07:00 AM UTC).'''
+
+It will impact all wikis and is supposed to last up to one minute.
+
+During this time, new translations may fail, and Notifications may not be delivered. For more details about the operation and on all impacted services, please check [[phab:T273762|on Phabricator]].
+
+A banner will be displayed 30 minutes before the operation.
+
+Thank you, [[user:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] 17:45, 16 Febraayo 2021 (UTC)
+</div>
+<!-- Message sent by User:SGrabarczuk (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=21037579 -->
