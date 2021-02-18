@@ -132,3 +132,27 @@ Please support us in translating the [[:c:Commons: Wiki Loves Folklore 2021|proj
 [[User:MediaWiki message delivery|MediaWiki message delivery]] ([[User talk:MediaWiki message delivery|wadahadal]]) 13:25, 6 Febraayo 2021 (UTC)
 </div>
 <!-- Message sent by User:Tiven2240@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Tiven2240/wll&oldid=21073884 -->
+
+== Proposal: Set two-letter project shortcuts as alias to project namespace globally ==
+
+<div lang="en" dir="ltr">
+{{int:please-translate}}
+
+Hello everyone,
+
+I apologize for posting in English. I would like to inform everyone that I created a new global request for comment (GRFC) at Meta Wiki, which may affect your project: [[:m:Requests for comment/Set short project namespace aliases by default globally]].
+
+In this GRFC, I propose that two-project shortcuts for project names will become a default alias for the project namespace. For instance, on all Wikipedias, WP will be an alias to the Wikipedia: namespace (and similar for other projects). Full list is available in the GRFC.
+
+This is already the case for Wikivoyages, and many individual projects asked for this alias to be implemented. I believe this makes it easier to access the materials in the project namespace, as well as creating shortcuts like <tt>WP:NPOV</tt>, as well as helps new projects to use this feature, without having to figure out how to request site configuration changes first.
+
+As far as I can see, {{SITENAME}} currently does not have such an alias set. This means that such an alias will be set for you, if the GRFC is accepted by the global community.
+
+I would like to ask all community members to participate in the request for comment at Meta-Wiki, see [[:m:Requests for comment/Set short project namespace aliases by default globally]].
+
+Please feel free to [[:m:User talk:Martin Urbanec|ask me]] if you have any questions about this proposal.
+
+Best regards,<br />
+--[[:m:User:Martin Urbanec|Martin Urbanec]] ([[:m:User talk:Martin Urbanec|talk]]) 14:12, 18 Febraayo 2021 (UTC)
+</div>
+<!-- Message sent by User:Martin Urbanec@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:Martin_Urbanec/MassMessage&oldid=21125035 -->
