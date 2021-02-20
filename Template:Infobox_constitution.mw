@@ -1,0 +1,67 @@
+{{Infobox
+| abovestyle     = text-align:center;
+| above          = {{{document_name|{{{name|}}}}}}
+| image          = {{#invoke:InfoboxImage|InfoboxImage|image={{{Image|{{{image|{{{image_name|}}}}}}}}}|size={{{Image size|{{{image_size|}}}}}}|sizedefault=frameless|upright=1|alt={{{image_alt|}}}}}
+| caption        = {{{caption|{{{image_caption|}}}}}}
+|  label1        = Original title
+|   data1        = {{#if: {{{title_orig|}}} | {{#if: {{{orig_lang_code|}}} | {{lang|{{{orig_lang_code|}}}|{{{title_orig|}}}}} }} }}
+|  label2        = Jurisdiction
+|   data2        = {{{jurisdiction|}}}
+|  label3        = Subordinate to
+|   data3        = {{{subordinate_to|}}}
+|  label4        = Created
+|   data4        = {{{date_created|}}}
+|  label5        = Presented
+|   data5        = {{{date_presented|}}}
+|  label6        = [[Ratification|Ratified]]
+|   data6        = {{{date_ratified|}}}
+|  label7        = [[Effective date|Date&nbsp;effective]]
+|   data7        = {{{date_effective|}}}
+|  label8        = [[Government|System]]
+|   data8        = {{{system|}}}
+|  label9        = [[Government branch|Branches]]
+|   data9        = {{{branches|}}}
+|  label10        = [[Head of state]]
+|   data10        = {{{head_of_state|}}}
+|  label11       = [[Legislative chamber|Chambers]]
+|   data11       = {{{chambers|}}}
+|  label12       = [[Executive government|Executive]]
+|   data12       = {{{executive|}}}
+|  label13       = [[Judiciary]]
+|   data13       = {{{courts|}}}
+|  label14       = [[Federalism]]
+|   data14       = {{{federalism|}}}
+|  label15       = [[Electoral college]]
+|   data15       = {{{electoral_college|}}}
+|  label16       = [[Entrenched clause|Entrenchments]]
+|   data16       = {{{number_entrenchments|}}}
+|  label17       = [[Legislature|First legislature]]
+|   data17       = {{{date_legislature|}}}
+|  label18       = First executive
+|   data18       = {{{date_first_executive|}}}
+|  label19       = First court
+|   data19       = {{{date_first_court|}}}
+|  label20       = [[Repeal|Repealed]]
+|   data20       = {{{date_repealed|}}}
+|  label21       = [[Constitutional Amendment|Amendments]]
+|   data21       = {{{number_amendments|}}}
+|  label22       = Last amended
+|   data22       = {{{date_last_amended|}}} 
+|  label23       = Citation
+|   data23       = {{{citation|}}}
+|  label24       = Location
+|   data24       = {{{location_of_document|}}}
+|  label25       = Commissioned&nbsp;by
+|   data25       = {{{commissioned|}}}
+|  label26       = Author(s)
+|   data26       = {{{writer|}}}
+|  label27       = Signatories
+|   data27       = {{{signers|}}}
+|  label28       = Media type
+|   data28       = {{{media_type|}}}
+|  label29       = Supersedes
+|   data29       = {{{supersedes|}}}
+
+}}<noinclude>
+{{documentation}}
+</noinclude>
