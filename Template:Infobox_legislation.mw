@@ -1,0 +1,165 @@
+{{Infobox
+| child        = {{{child|}}}
+| subbox       = {{{subbox|}}}
+| above       = {{{name|{{{short_title|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}}}
+| bodyclass   = vcard
+| abovestyle  = {{#if:{{{background_color|}}}|border-top: 2px solid {{{background_color}}}; border-bottom: 2px solid {{{background_color}}}|background-color: #ededed}}
+| headerstyle = {{#if:{{{background_color|}}}|border-top: 2px solid {{{background_color}}}; border-bottom: 2px solid {{{background_color}}}|background-color: #ededed}}
+|image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#if:{{{image|}}}
+  |{{{image}}}
+  |{{Infobox legislation/images
+     |image={{if empty|{{{legislature|}}}|{{{enacted_by|}}}|{{{considered_by|}}}}}
+     |date={{{date_enacted|}}} 
+    }}
+  }}|size={{{imagesize|{{{image_size|}}}}}}|sizedefault=frameless|upright={{{upright|{{{image_upright|yes}}}}}}|alt={{{imagealt|}}}}}
+
+|caption     = {{{caption|}}}
+
+| labelstyle  = {{{labelstyle|}}}
+
+|header1     = {{if empty|{{{legislature|}}}|{{{enacted_by|}}}|{{{considered_by|}}}}}
+|data2       = {{Collapsible list
+ |titlestyle=font-weight:normal;background:transparent;text-align:center;
+ | title =  '''[[Long title]]'''
+ | {{#if: {{{long_title|}}} |{{center|{{{long_title}}} }}
+}} }}
+|label3      = Citation
+|data3       = {{{citation|}}}
+|label4      = Territorial extent
+|data4       = {{{territorial_extent|}}}
+|label5      = Considered&nbsp;by
+|data5       = {{{considered_by|}}}
+|label6      = Enacted&nbsp;by
+|data6       = {{{enacted_by|}}}
+|label7      = Passed
+|data7       = {{{date_passed|}}}
+|label8      = Enacted
+|data8       = {{{date_enacted|}}}
+|label9      = Considered&nbsp;by
+|data9       = {{{considered_by2|}}}
+|label10     = Enacted&nbsp;by
+|data10      = {{{enacted_by2|}}}
+|label11     = Passed
+|data11      = {{{date_passed2|}}}
+|label12     = Enacted
+|data12      = {{{date_enacted2|}}}
+|label13     = Assented&nbsp;to
+|data13      = {{{date_assented|}}}
+|label14     = [[Royal assent]]
+|data14      = {{{royal_assent|}}}
+|label15     = Signed
+|data15      = {{{date_signed|}}}
+|label16     = Signed&nbsp;by
+|data16      = {{{signed_by|}}}
+|label17     = Commenced
+|data17      = {{{date_commenced|{{{commencement|}}}}}}
+|label18     = [[Effective date|Effective]]
+|data18      = {{{date_effective|}}}
+|label19     = Date&nbsp;of&nbsp;expiry
+|data19      = {{{date_of_expiry|}}}
+|label20     = Repealed
+|data20      = {{{date_repealed|}}}
+|label21     = Administered&nbsp;by
+|data21      = {{{administered_by|}}}
+
+|header30    = {{#if:{{{bill|}}}{{{bill_date|}}}{{{1st_reading|}}}{{{2nd_reading|}}}{{{3rd_reading|}}}|Legislative history}}
+|label31     = {{#if:{{{enacted_by2|{{{considered_by2|}}}}}}|[[Bill (proposed law)|Bill]] introduced in the {{{enacted_by|{{{considered_by}}}}}}|[[Bill (proposed law)|Bill]]}}
+|data31      = {{{bill|}}}
+|label32     = Bill citation
+|data32      = {{{bill_citation|}}}
+|label33     = Bill published on
+|data33      = {{{bill_date|}}}
+|label34     = Introduced by
+|data34      = {{{introduced_by|}}}
+|label35     = [[Reading (legislature)#First reading|First reading]]
+|data35      = {{{1st_reading|}}}
+|label36     = [[Reading (legislature)#Second reading|Second reading]]
+|data36      = {{{2nd_reading|}}}
+|label37     = [[Reading (legislature)#Third reading|Third reading]]
+|data37      = {{{3rd_reading|}}}
+|label38     = [[Conference committee]] bill passed
+|data38      = {{{conf_committee_passed|}}}
+|label39     = Committee report
+|data39      = {{{committee_report|}}}
+|label40     = Bill introduced in the {{{enacted_by2|{{{considered_by2}}}}}}
+|data40      = {{{bill2|}}}
+|label41     = Bill citation
+|data41      = {{{bill_citation2|}}}
+|label42     = Bill published on
+|data42      = {{{bill_date2|}}}
+|label43     = Introduced by
+|data43      = {{{introduced_by2|}}}
+|label44     = First reading
+|data44      = {{{1st_reading2|}}}
+|label45     = Second reading
+|data45      = {{{2nd_reading2|}}}
+|label46     = Third reading
+|data46      = {{{3rd_reading2|}}}
+|label47     = Conference committee bill passed
+|data47      = {{{conf_committee_passed2|}}}
+|label48     = Committee report
+|data48      = {{{committee_report2|}}}
+|label49     = Date passed by conference committee
+|data49      = {{{date_conf_committee|}}}
+|label50     = [[White paper#Government white papers|White paper]]
+|data50      = {{{white_paper|}}}
+
+|header60    = {{#if:{{{amends|}}}|Amends}}
+|data61      = {{{amends|}}}
+
+|header62    = {{#if:{{{repeals|}}}|[[Repeal]]s}}
+|data63      = {{{repeals|}}}
+
+|header64    = {{#if:{{{amended_by|{{{amendments|}}}}}}|Amended by}}
+|data65      = {{{amended_by|{{{amendments|}}}}}}
+
+|header66    = {{#if:{{{repealed_by|}}}|Repealed by}}
+|data67      = {{{repealed_by|}}}
+
+|header68    = {{#if:{{{related|{{{related_legislation|}}}}}}|Related legislation}}
+|data69      = {{{related|{{{related_legislation|}}}}}}
+
+|header70    = {{#if:{{{summary|}}}|Summary}}
+|data71      = {{{summary|}}}
+
+|header72    = {{#if:{{{keywords|}}}|Keywords}}
+|data73      = {{{keywords|}}}
+
+|header73    = {{#if:{{{original_text|}}}|[{{{original_text|}}} Text of statute as originally enacted]}}
+
+|belowstyle  =  background-color:{{#switch:{{lc:{{{status|}}}}}
+  |pending    = <nowiki>#</nowiki>FBEC5D
+  |not passed = <nowiki>#</nowiki>FFCBDB
+  |withdrawn  = <nowiki>#</nowiki>FFCBDB
+  |blocked    = <nowiki>#</nowiki>FFCBDB
+  |halted     = <nowiki>#</nowiki>FFCBDB
+  |not yet in force
+  |not fully in force = <nowiki>#</nowiki>FBEC5D
+  |current
+  |in force   = <nowiki>#</nowiki>AAF0D1
+  |amended    = <nowiki>#</nowiki>FFFFCC
+  |expired
+  |spent
+  |repealed   = <nowiki>#</nowiki>B2BEB5
+  |#default   = transparent; border-top:#aaa 1px solid;
+  }};
+|below       = {{#if:{{{status|}}}|'''Status:''' {{#switch:{{lc:{{{status}}}}} 
+  |pending            = Pending
+  |not passed         = Not passed
+  |withdrawn          = Withdrawn
+  |blocked            = Blocked
+  |not yet in force   = Not yet in force
+  |not fully in force = Not fully in force
+  |current            = Current legislation 
+  |in force           = In force
+  |amended            = Amended
+  |expired            = Expired
+  |spent              = [[Spent enactment|Spent]]
+  |repealed           = [[Repeal]]ed
+  |struck down        = [[Judicial review|Struck down]]
+  |halted             = Halted
+  |#default           = Unknown
+  }}
+}}
+}}{{#if:{{{amendments|}}}|[[Category:Pages using a deprecated parameter in the legislation infobox]]}}<noinclude>
+{{Documentation}}</noinclude>
