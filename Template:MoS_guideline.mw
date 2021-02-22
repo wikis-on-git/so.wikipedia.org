@@ -1,0 +1,6 @@
+{{ mbox
+| type       = notice
+| image      = [[file:Blue check.svg|30px|link=|alt=]]
+| imageright = {{#if:{{{1|}}}|{{Ombox/shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}}}}}
+| text       = <div style="padding-top: 6px; padding-bottom: 5px;">'''[[Wikipedia:Policies and guidelines#guide|Tilmaamahan]]{{#if:{{{section|}}}|&#32;section}} wuxuu ka mid yahay {{#ifeq:{{FULLPAGENAME}}|Wikipedia:Manual of Style|Buuga qaabka|[[Wikipedia:Manual of Style|Buuga qaabka]]}}''' ee Wikipediaha Soomaaliga.<br><div style="font-size: 90%;"> Waa heer guud oo la aqbalay in tifaftireyaashu ay isku dayaan inay raacaan, in kasta oo ay ugu wanaagsan tahay in lagu daaweeyo [[Wikipedia:What "Ignore all rules" means#Use common sense|caqliga wanaagsan]], iyo [[Wikipedia:Ignore all rules|marmar ka reeban]] ayaa dhici karta. ''Wax ka beddel kasta'' oo muhiim ah  ee {{#if:{{{section|}}}|&#32;section|boggaan}} waa inuu ka tarjumaa [[Wikipedia:Consensus|isku raacsanaan]]. Markii aad shakiso, ka dood marka hore [[{{TALKPAGENAME}}|bogga wadahadalka]].</div></div>
+}}<noinclude>{{documentation}}<!-- Add categories and interwikis to the /doc subpage, not here! --></noinclude>
