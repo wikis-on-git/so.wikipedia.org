@@ -1618,3 +1618,14 @@ To learn more about this work and other conversations taking place, see [[:m:Spe
 -- [[User:Xeno (WMF)|Xeno (WMF)]] ([[User talk:Xeno (WMF)|talk]]) 22:06, 5 Abriil 2021 (UTC)
 </div>
 <!-- Message sent by User:MNadzikiewicz (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:MNadzikiewicz_(WMF)/Without_Russian,_Polish_and_translated/5&oldid=21302202 -->
+
+== Line numbering coming soon to all wikis ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">  
+
+[[File:Technical_Wishes_–_Line_numbering_-_2010_wikitext_editor.png|thumb|Example]]
+From April 15, you can enable line numbering in some wikitext editors - for now in the template namespace, coming to more namespaces soon. This will make it easier to detect line breaks and to refer to a particular line in discussions. These numbers will be shown if you enable the syntax highlighting feature ([[mw:Special:MyLanguage/Extension:CodeMirror|CodeMirror extension]]), which is supported in the [[mw:Special:MyLanguage/Extension:WikiEditor|2010]] and [[mw:Special:MyLanguage/2017 wikitext editor|2017]] wikitext editors. 
+
+More information can be found on [[m:WMDE Technical Wishes/Line Numbering|this project page]]. Everyone is invited to test the feature, and to give feedback [[m:talk:WMDE Technical Wishes/Line Numbering|on this talk page]].
+</div> -- [[m:User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 15:09, 12 Abriil 2021 (UTC)
+<!-- Message sent by User:Johanna Strodt (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=21329014 -->
