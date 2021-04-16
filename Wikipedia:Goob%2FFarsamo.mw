@@ -378,4 +378,13 @@ A banner will be displayed 30 minutes before the operation.
 
 Thank you, [[user:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] 17:45, 16 Febraayo 2021 (UTC)
 </div>
+== About deploying StructuredCategories in the Somali Wikipedia ==
+Hello,
+
+I developed a Gadget that generates a link to a structured description of a given Wikimedia category based on the commonly used Wikidata statements to efficiently define its direct members. Please find the description of the Gadget at https://www.wikidata.org/wiki/Wikidata:Structured_Categories and its JavaScript source code at https://www.wikidata.org/wiki/User:Csisc/StructuredCategories.js.
+I ask how to deploy this tool in the Somali Wikipedia so that it can be featured in the Preferences for users.
+
+Yours Sincerely,
+
+--[[User:Csisc|Csisc]] ([[User talk:Csisc|wadahadal]]) 15:12, 16 Abriil 2021 (UTC)
 <!-- Message sent by User:SGrabarczuk (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=21037579 -->
