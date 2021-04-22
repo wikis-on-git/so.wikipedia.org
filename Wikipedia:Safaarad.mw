@@ -1629,3 +1629,14 @@ From April 15, you can enable line numbering in some wikitext editors - for now 
 More information can be found on [[m:WMDE Technical Wishes/Line Numbering|this project page]]. Everyone is invited to test the feature, and to give feedback [[m:talk:WMDE Technical Wishes/Line Numbering|on this talk page]].
 </div> -- [[m:User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 15:09, 12 Abriil 2021 (UTC)
 <!-- Message sent by User:Johanna Strodt (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=21329014 -->
+
+== Suggested Values ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">  
+
+From April 29, it will be possible to suggest values for parameters in templates. Suggested values can be added to [[mw:Special:MyLanguage/Help:TemplateData|TemplateData]] and will then be shown as a drop-down list in [[mw:Special:MyLanguage/Help:VisualEditor/User guide|VisualEditor]]. This allows template users to quickly select an appropriate value. This way, it prevents potential errors and reduces the effort needed to fill the template with values. It will still be possible to fill in values other than the suggested ones.
+
+More information, including the supported parameter types and how to create suggested values: [[mw:Help:TemplateData#suggestedvalues|[1]]] [[m:WMDE_Technical_Wishes/Suggested_values_for_template_parameters|[2]]]. Everyone is invited to test the feature, and to give feedback [[m:Talk:WMDE Technical Wishes/Suggested values for template parameters|on this talk page]].
+
+</div> [[m:User:Timur Vorkul (WMDE)|Timur Vorkul (WMDE)]] 14:08, 22 Abriil 2021 (UTC)
+<!-- Message sent by User:Timur Vorkul (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=21361904 -->
