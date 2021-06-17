@@ -1,7 +1,7 @@
 {{Infobox3cols
 | bodyclass =  vcard
 | titleclass = fn
-| title      = {{{name|<includeonly>{{{playername|{{PAGENAME}} }}}</includeonly>}}}
+| title      = {{{name|<includeonly>{{{Ahmed Abdirahman Omar|{{PAGENAME}} }}}</includeonly>}}}
 | image      = {{#ifeq:{{Str left | {{{image|}}} | 1 }}|[|[[Category:Infobox football biography image param needs updating]]}}{{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
 | caption    = {{{caption|}}}
 
