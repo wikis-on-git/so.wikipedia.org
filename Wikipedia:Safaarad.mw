@@ -1687,3 +1687,31 @@ Best regards,
 
 On behalf of Wikimania 2021 Core Organizing Team
 <!-- Message sent by User:Bodhisattwa@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/VisualEditor/Newsletter/Wikis_with_VE&oldid=21597568 -->
+
+== Editing news 2021 #2 ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<em>[[m:Special:MyLanguage/VisualEditor/Newsletter/2021/June|Read this in another language]] • [[m:VisualEditor/Newsletter|Subscription list for this multilingual newsletter]]</em>
+
+[[File:Reply Tool A-B test comment completion.png|alt=Junior contributors comment completion rate across all participating Wikipedias|thumb|296x296px|When newcomers had the Reply tool and tried to post on a talk page, they were more successful at posting a comment. ([https://wikimedia-research.github.io/Reply-tools-analysis-2021/ Source])]]
+
+Earlier this year, the Editing team ran a large study of [[mw:Talk pages project/Replying|the Reply Tool]].  The main goal was to find out whether the Reply Tool helped [[mw:Talk pages project/Glossary|newer editors]] communicate on wiki.  The second goal was to see whether the comments that newer editors made using the tool needed to be reverted more frequently than comments newer editors made with the existing wikitext page editor.
+
+The key results were:
+
+* Newer editors who had automatic ("default on") access to the Reply tool were [https://wikimedia-research.github.io/Reply-tools-analysis-2021/ more likely] to post a comment on a talk page.
+* The comments that newer editors made with the Reply Tool were also [https://wikimedia-research.github.io/Reply-tools-analysis-2021/ less likely] to be reverted than the comments that newer editors made with page editing.
+
+These results give the Editing team confidence that the tool is helpful.
+
+<strong>Looking ahead</strong>
+
+The team is planning to make the Reply tool available to everyone as an opt-out preference in the coming months.  This has already happened at the Arabic, Czech, and Hungarian Wikipedias.
+
+The next step is to [[phab:T280599|resolve a technical challenge]]. Then, they will deploy the Reply tool first to the [[phab:T267379|Wikipedias that participated in the study]].  After that, they will deploy it, in stages, to the other Wikipedias and all WMF-hosted wikis.
+
+You can turn on "{{int:discussiontools-preference-label}}" [[Special:Preferences#mw-prefsection-betafeatures|in Beta Features]] now.  After you get the Reply tool, you can change your preferences at any time in [[Special:Preferences#mw-prefsection-editing-discussion]].
+
+–[[User:Whatamidoing (WMF)|Whatamidoing (WMF)]] ([[User talk:Whatamidoing (WMF)|talk]])
+</div> 14:14, 24 Juun 2021 (UTC)
+<!-- Message sent by User:Elitre (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/VisualEditor/Newsletter/Wikis_with_VE&oldid=21624491 -->
