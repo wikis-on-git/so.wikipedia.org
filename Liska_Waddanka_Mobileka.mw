@@ -1,11 +1,12 @@
-0: Imtixaanka
+<code><s>0: Imtixaanka
 2: Europe
 3: North America and the Caribbean
 4: Asia and the Middle East
 5: Oceania
 6: Africa
 7: South and Central America
-9: Worldwide (Satellite, Air—aboard aircraft, Maritime—aboard ships, Antarctica).
+9: Worldwide (Satellite, Air—aboard aircraft, Maritime—aboard ships, Antarctica).</s></code>
+
 
 
 == Test networks ==
@@ -1441,7 +1442,7 @@ See [[#Former Netherlands Antilles (Kingdom of the Netherlands) - BQ/CW/SX|Forme
 |-
 | 208 || 09 || [[SFR]] || [[Altice (company)|Altice]] || Operational || GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 / LTE 2600 || is launched for SFR outbound roaming services<ref name=gsa_lte/>
 |-
-| 208 || 10 || [[SFR]] || [[Altice (company)|Altice]] || Operational || GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE 1800 LTE 2600 || MNC also used in Monaco<ref name=itu_ob_1108/><ref name=gsa_lte/>
+| 208 || 10 || [[SFR]] || [[Altice (company)|Altice]] || Operational || GSM 900 / GSM 1800 / UMTS 900 / UMTS 2100 / LTE 800 / LTE [tel:1800&#x20;LTE&#x20;2600 1800 LTE 2600]|| MNC also used in Monaco<ref name=itu_ob_1108/><ref name=gsa_lte/>
 |-
 | 208 || 11 || [[SFR]] || [[Altice (company)|Altice]] || Operational || UMTS 2100 || [[Femtocell]]s
 |-
