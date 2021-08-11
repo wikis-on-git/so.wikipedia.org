@@ -1740,3 +1740,27 @@ Unfortunately, because of some limitations in [[mw:Manual:What is MediaWiki?|Med
 
 This project may be postponed if necessary.  You can [[wikitech:Switch_Datacenter#Schedule_for_2021_switch|read the schedule at wikitech.wikimedia.org]]. Any changes will be announced in the schedule.  There will be more notifications about this. A banner will be displayed on all wikis 30 minutes before this operation happens. '''Please share this information with your community.'''</div></div> [[user:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] 01:19, 27 Juun 2021 (UTC)
 <!-- Message sent by User:SGrabarczuk (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Global_message_delivery&oldid=21463754 -->
+
+== New Wikipedia Library collections and design update (August 2021) ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+
+Hello Wikimedians! 
+[[File:Wikipedia_Library_owl.svg|thumb|upright|The TWL OWL says log in today!]]
+[https://wikipedialibrary.wmflabs.org/users/my_library/ The Wikipedia Library] is pleased to announce the addition of new collections, alongside a new interface design. New collections include:
+* '''[https://wikipedialibrary.wmflabs.org/partners/107/ Cabells]''' – Scholarly and predatory journal database
+* '''[https://wikipedialibrary.wmflabs.org/partners/108/ Taaghche]''' -  Persian language e-books
+* '''[https://wikipedialibrary.wmflabs.org/partners/112/ Merkur]''', '''[https://wikipedialibrary.wmflabs.org/partners/111/ Musik & Ästhetik]''', and '''[https://wikipedialibrary.wmflabs.org/partners/110/ Psychologie, Psychotherapie, Psychoanalyse]''' - German language magazines and journals published by Klett-Cotta
+* '''[https://wikipedialibrary.wmflabs.org/partners/117/ Art Archiv]''', '''[https://wikipedialibrary.wmflabs.org/partners/113/ Capital]''', '''[https://wikipedialibrary.wmflabs.org/partners/115/ Geo]''', '''[https://wikipedialibrary.wmflabs.org/partners/116/ Geo Epoche]''', and '''[https://wikipedialibrary.wmflabs.org/partners/114/ Stern]''' - German language newspapers and magazines published by Gruner + Jahr
+
+Additionally, '''[https://wikipedialibrary.wmflabs.org/partners/105/ De Gruyter]''' and '''[https://wikipedialibrary.wmflabs.org/partners/106/ Nomos]''' have been centralised from their previous on-wiki signup location on the German Wikipedia. Many other collections are freely available by simply logging in to [https://wikipedialibrary.wmflabs.org/ The Wikipedia Library] with your Wikimedia login!
+
+We are also excited to announce that the first version of a new design for My Library was deployed this week. We will be iterating on this design with more features over the coming weeks. Read more on the [[:m:Library Card platform/Design improvements|project page on Meta]].
+
+Lastly, an Echo notification will begin rolling out soon to notify eligible editors about the library ([[Phab:T132084|T132084]]). If you can translate the notification please do so [https://translatewiki.net/w/i.php?title=Special:Translate&group=ext-thewikipedialibrary at TranslateWiki]!
+
+--The Wikipedia Library Team 13:23, 11 Agoosto 2021 (UTC)
+
+:<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
+</div>
+<!-- Message sent by User:Samwalton9@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=21851699 -->
