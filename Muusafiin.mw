@@ -92,3 +92,50 @@ Sarakiishii Muusafiin Ee Ciidanka Xooga Dalka Soomaaliya Ee Dawaladii Maxamed Si
 
 
 24. Qore abdilaahi sheekh aaden
+<references group="Muusafiin" />
+<references />
+
+* Magaca Bogga: Muusafiin
+* Qoraa: Wikipedia contributors
+* soo bandhigaha: ''Wikipedia,'' .
+* Taariikhda dib u eegista ugu danbeesay: 27 Agoosto 2021 23:43 UTC
+* Taariikhda soo celinta: 27 Agoosto 2021 23:56 UTC
+* Permanent URL: <nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>
+* Nooca Aqoonsiga bogga: 215737
+
+== Qaabka Xigashooyinka ee Muusafiin ==
+
+=== Qaabka APA ===
+Muusafiin. (2021, Agoosto 27). ''Wikipedia,'' . Retrieved 23:56, Agoosto 27, 2021 from <nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>.
+
+=== Qaabka MLA ===
+"Muusafiin." ''Wikipedia,'' . 27 Ago 2021, 23:43 UTC. 27 Ago 2021, 23:56 <<nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>>.
+
+=== Qaabka MHRA ===
+Wikipedia ku darsadeyaasha, 'Muusafiin', ''Wikipedia, ,'' 27 Agoosto 2021, 23:43 UTC, <<nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>> [accessed 27 Agoosto 2021]
+
+=== Chicago style ===
+Wikipedia contributors, "Muusafiin," ''Wikipedia, ,'' <nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki> (accessed Agoosto 27, 2021).
+
+=== CBE/CSE style ===
+Wikipedia ku darsadeyaasha. Muusafiin [Internet]. Wikipedia, ; 2021 Ago 27, 23:43 UTC [cited 2021 Ago 27]. Laga heli karaa: <nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>.
+
+=== Qaabka Bluebook ===
+Muusafiin, <nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki> (booqashadii ugu dambeysay Agoosto 27, 2021).
+
+=== BibTeX gelid ===
+  @misc{ wiki:xxx,
+    Qoraa = "Wikipedia",
+    cinwaanka = "Muusafiin --- Wikipedia{,} ",
+    sanadka = "2021",
+    url = "<nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>",
+    ogaaw = "[Online; accessed 27-Agoosto-2021]"
+  }
+Markii aad isticmaaleesid LaTeX xiramada url (<code>\usepackage{url}</code> meel ku taal hordhaca) oo had iyo jeer bixisa cinwaanno website badan oo qaabeysan, qaabkan soosocda ayaa la quman:
+  @misc{ wiki:xxx,
+    qoraa = "Wikipedia",
+    cinwaanka = "Muusafiin --- Wikipedia{,} ",
+    sanadka = "2021",
+    url = "'''\url{'''<nowiki>https://so.wikipedia.org/w/index.php?title=Muusafiin&oldid=215737</nowiki>'''}'''",
+    ogaaw = "[Online; accessed 27-Agoosto-2021]"
+  }
