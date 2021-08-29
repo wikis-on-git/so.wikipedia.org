@@ -1,1 +1,16 @@
-
+{{ {{{|safesubst:}}}#invoke:Unsubst||date=__DATE__ |$B=
+<!--{{BLP sources}} begin-->{{Ambox
+| name  = {{{name|BLP sources}}}
+| type  = content
+| class = ambox-BLP_sources
+| issue = {{#if:{{{1|}}}|{{{1}}} [[Wikipedia:Taariikh nololeedka dadka nool|Taariikh nololeedkaan ee dadka nool wuxuu ku saabsanyahay qof {{#if:{{{deceased|}}}|dhawaan dhintay|nool}}]] | {{{prefix|}}} [[Wikipedia:Taariikh nololeedka dadka nool|Taariikh nololeedka qof {{#if:{{{deceased|}}}|dhawaan dhintay|nool}}]]}} '''waxay u baahantahay [[Wikipedia:Citing sources|xigasho]] dheeraad ah [[Wikipedia:Verifiability|xaqiijinta]]'''. {{#if:{{{reason|}}}|Sababta waa: '''{{{reason}}}'''.}}
+| fix   = Fadlan ka caawi in aad ku soo darto [[Wikipedia:Reliable sources|xog lagu kalsoonaan karo]]. Maaddooyinka laga doodi karo oo ku saabsan dadka {{#if:{{{deceased|}}}|dhawaan geeriyooday|nool}} ee aan leheen xog caddayn ah ama leh xog liidata '''waa in isla markiiba laga saaraa''', gaar ahaan hadii ee tahay mid [[Wikipedia:Libel|been abuur ah]] ama waxyeelo leh. 
+| removalnotice = yes
+| date  = {{{date|}}}
+| cat   = BLP articles lacking sources
+| all   = All BLP articles lacking sources
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using BLP sources with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:BLP sources]] with unknown parameter "_VALUE_"|ignoreblank=y | 1| date| name| prefix| reason| subst| deceased|
+}}<!--{{BLP sources}} end-->
+}}<noinclude>
+{{Documentation}}
+</noinclude>
