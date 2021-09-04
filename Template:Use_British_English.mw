@@ -45,7 +45,7 @@ Suhaib was born on 13 July 1999 in a village of Hargeisa. He did his Education i
 {{Reflist}}
 
 {{Authority control}}
-
+{{Wikipedia category|container=}}
 {{DEFAULTSORT:Suhaib ileeye}}
 [[Category:Somali wikipedia]]
 [[Category:People from Hargeisa]]
@@ -57,12 +57,14 @@ Suhaib was born on 13 July 1999 in a village of Hargeisa. He did his Education i
 <noinclude>
 <templatedata>
 {
-	"params": {},
+	"params": {
+		"Suhaib ileeye": {}
+	},
 	"description": {
 		"so": "Suhaib ileeye",
 		"en-gb": "Suhaib ileey"
 	},
-	"format": "inline"
+	"format": "block"
 }
 </templatedata>
 </noinclude>
