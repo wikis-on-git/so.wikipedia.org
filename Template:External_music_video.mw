@@ -5,24 +5,6 @@
 }}
 Most music videos cannot be uploaded to Wikipedia because of copyright restrictions. However, it is permissible to link to videos if they are hosted on a site that has licensed them for online viewing. Use this template to add a music video link to an infobox created by {{tl|Infobox song}}, {{tl|Infobox album}}, or other appropriate infobox.
 
-==Usage==
-This template is used with the {{para|misc}} parameter of the infobox template. It should not be used on its own. If this template is substituted, it will return a cleaned-up copy of itself with unnecessary parameters removed and deprecated parameters replaced. Parameter indentation will also automatically be fixed.
-
-=== Code ===
-{{infobox|data1={{parameter names example|header=Music video|type=song|1=}}}}
-<pre style="overflow:auto;">{{Infobox song
-...
-| misc         = {{subst:External music video
- | type        = 
- | header      = 
- | 1           = 
-}}
-</pre>
-
-; type : Enter <code>single</code> to produce a khaki header or <code>song</code> for light blue for other Infobox song types, so that the headers will have a consistent color. 
-; header : Enter the text for the header. If not used, the default is <code>Music video</code>. For no header, enter {{para|header|no}}. For multiple music video links, set the first to {{para|header|Music videos}} and the succeeding links to {{para|header|no}}, so only one header for all will be created (see Example 2).
-; 1 : Enter the video link, plus the song title in quote marks, followed by the name of the video site (see Example 1). For YouTube links, use {{tl|YouTube}}, instead of <code>[http:{{nbsp}}...]</code> (see Example 2).
-
 ==Examples==
 <pre style="overflow:auto;">{{Infobox song
 ...
