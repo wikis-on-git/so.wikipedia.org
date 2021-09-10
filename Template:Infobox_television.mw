@@ -1,126 +1,78 @@
-{{Documentation subpage}}
-{{High-use}}
+{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=italic_title,name,type,longtype,artist,cover,border,alt,caption,released,recorded,venue,studio,genre,length,language,label,director,producer,compiler,chronology,prev_title,prev_year,year,next_title,next_year,misc|$extra=italic_title,longtype,border,caption,language,director,compiler,chronology,year,misc|$aliases=italic title>italic_title,Italic title>italic_title,Name>name,Type>type,image>cover,Cover>cover,Border>border,Alt>alt,Caption>caption,Longtype>longtype,Artist>artist,Released>released,Recorded>recorded,Venue>venue,Studio>studio,Genre>genre,Length>length,Language>language,Label>label,Director>director,Producer>producer,Compiler>compiler,Chronology>chronology,Misc>misc|$flags=override|$B={{#ifeq:{{#invoke:Is infobox in lead|main|[Ii]nfobox [Aa]lbum}}|true|{{short description|{{#invoke:Plain text|main|{{#if:{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}}|{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}} {{#switch:{{Infobox album/link|{{{type|}}} }}|[[Extended play|EP]] = EP|#default = {{lc:{{Infobox album/link|{{{type|}}} }}}}}}|{{Infobox album/link|{{{type|}}} }}}}{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by {{{artist|}}}}}}}|noreplace}}}}<!--
 
-[[ace: Seunaleuëk:Infobox television]]
-[[af: Sjabloon:Infobox television]]
-[[als: Vorlage:Infobox Fernsehsendung]]
-[[ang: Bysen:Infobox television]]
-[[ar: قالب:معلومات تلفاز]]
-[[arz: قالب:Infobox television]]
-[[ast: Plantía:Programa de televisión]]
-[[as: সাঁচ:Infobox television]]
-[[azb: شابلون:Infobox television]]
-[[az: Şablon:Televeriliş]]
-[[ban: Mal:Infobox television]]
-[[bar: Vorlog:Infobox Fernsehsendung]]
-[[bcl: Plantilya:Infobox Telebisyon]]
-[[be-x-old: Шаблён:Тэлеперадача]]
-[[be: Шаблон:Тэлеперадача]]
-[[bg: Шаблон:ТВ продукция]]
-[[bh: टेम्पलेट:Infobox television]]
-[[bjn: Citakan:Kotak info acara televisi]]
-[[bn: টেমপ্লেট:তথ্যছক টেলিভিশন]]
-[[br: Patrom:Heuliad skinwel]]
-[[bs: Šablon:Infokutija TV-emisija]]
-[[ceb: Plantilya:Infobox television]]
-[[ckb: داڕێژە:Infobox television]]
-[[cs: Šablona:Infobox - televizní pořad]]
-[[cy: Nodyn:Infobox television]]
-[[da: Skabelon:Infoboks tv]]
-[[de: Vorlage:Infobox Fernsehsendung]]
-[[dty: ढाँचा:Infobox television]]
-[[dv: ފަންވަތް:Infobox Television]]
-[[el: Πρότυπο:Πληροφορίες τηλεοπτικής εκπομπής]]
-[[eml: Template:Televiśiòun]]
-[[en: Template:Infobox television]]
-[[es: Plantilla:Ficha de programa de televisión]]
-[[et: Mall:Infokast telesaade]]
-[[eu: Txantiloi:Telesail infotaula]]
-[[fa: الگو:جعبه اطلاعات تلویزیون]]
-[[fi: Malline:Televisiosarja]]
-[[fo: Fyrimynd:Infobox television]]
-[[fr: Modèle:Infobox Émission de télévision]]
-[[gl: Modelo:Programa de televisión]]
-[[gn: Tembiecharã:Ficha de serie de televisión]]
-[[got: 𐍆𐌰𐌿𐍂𐌰𐌼𐌴𐌻𐌴𐌹𐌽𐍃:Infobox television]]
-[[gu: ઢાંચો:Infobox television]]
-[[hak: 模板:Infobox Television]]
-[[haw: Anakuhi:Kīwī]]
-[[he: תבנית:תוכנית טלוויזיה]]
-[[hi: साँचा:Infobox television]]
-[[hr: Predložak:Infookvir TV emisija]]
-[[hu: Sablon:Televíziós műsor infobox]]
-[[hy: Կաղապար:Տեղեկաքարտ Հեռուստաշոու]]
-[[id: Templat:Infobox television]]
-[[ie: Avise:Infobox TV-programma]]
-[[ilo: Plantilia:Infobox telebision]]
-[[io: Shablono:Televiziono-serio]]
-[[is: Snið:Sjónvarpsþáttur]]
-[[it: Template:Programma]]
-[[ja: Template:基礎情報 テレビ番組]]
-[[jv: Cithakan:Infobox television]]
-[[ka: თარგი:ინფოდაფა ტელევიზია]]
-[[kk: Үлгі:Телебағдарлама]]
-[[km: ទំព័រគំរូ:ប្រអប់ពត៌មាន កម្មវិធីទូរទស្សន៍]]
-[[kn: ಟೆಂಪ್ಲೇಟು:Infobox television]]
-[[ko: 틀:텔레비전 프로그램 정보]]
-[[ku: Şablon:Agahîdank rêzefîlm]]
-[[ky: Калып:Телеберүү]]
-[[lb: Schabloun:Infobox Televisiounsserie]]
-[[lv: Veidne:Televīzijas seriāla infokaste]]
-[[mai: आकृति:Infobox television]]
-[[map-bms: Cithakan:Infobox television]]
-[[mk: Предлошка:Инфокутија за телевизија]]
-[[ml: ഫലകം:Infobox television]]
-[[mr: साचा:Infobox Television]]
-[[ms: Templat:Kotak info televisyen]]
-[[mwl: Modelo:Anfo/Telebison]]
-[[my: တမ်းပလိတ်:Infobox television]]
-[[nap: Modello:FictionTV]]
-[[nds: Vörlaag:Infobox Feernsehreeg]]
-[[ne: ढाँचा:Infobox television]]
-[[nl: Sjabloon:Infobox televisieprogramma]]
-[[no: Mal:Infobox Television]]
-[[or: ଛାଞ୍ଚ:Infobox television]]
-[[os: Хуызæг:Телешоу]]
-[[pam: Template:Infobox television]]
-[[pa: ਫਰਮਾ:ਜਾਣਕਾਰੀਡੱਬਾ ਟੀਵੀ]]
-[[pl: Szablon:Program telewizyjny infobox]]
-[[pt: Predefinição:Info/Televisão]]
-[[ro: Format:Infocaseta Televiziune]]
-[[ru: Шаблон:Телепередача]]
-[[sat: ᱪᱷᱟᱸᱪ:Infobox television]]
-[[sa: फलकम्:Infobox television]]
-[[sco: Template:Infobox televeesion]]
-[[sd: سانچو:Infobox television]]
-[[sh: Šablon:Infobox TV emisija]]
-[[simple: Template:Infobox television]]
-[[si: සැකිල්ල:Infobox television]]
-[[sl: Predloga:Infopolje Televizija]]
-[[sq: Stampa:Infobox Televizion]]
-[[sr: Шаблон:Инфокутија Телевизија]]
-[[sv: Mall:Infobox TV-program]]
-[[ta: வார்ப்புரு:Infobox Television]]
-[[te: మూస:Infobox television]]
-[[tg: Шаблон:Барномаи телевизионӣ]]
-[[th: แม่แบบ:กล่องข้อมูล รายการโทรทัศน์]]
-[[tl: Padron:Infobox television]]
-[[tr: Şablon:Televizyon bilgi kutusu]]
-[[tt: Калып:Телетапшыру]]
-[[uk: Шаблон:Картка телебачення]]
-[[ur: سانچہ:خانہ معلومات ڈراما]]
-[[uz: Andoza:Infobox Television]]
-[[vec: Modèl:Infobox de Sèrie de tełevixion]]
-[[vi: Bản mẫu:Thông tin truyền hình]]
-[[war: Batakan:Infobox television]]
-[[wuu: Template:電視節目信息框]]
-[[xmf: თარგი:ინფოდაფა ტელევიზია]]
-[[yi: מוסטער:טעלעוויזיע פראגראם]]
-[[yo: Àdàkọ:Infobox television]]
-[[zea: Sjabloon:Televisieprogramma]]
-[[zh-min-nan: Pang-bô͘:Infobox television]]
-[[zh-yue: Template:電視節目明細]]
-[[zh: Template:电视节目信息框]]
+-->{{Infobox
+| italic title= {{{italic_title|<noinclude>no</noinclude>}}}
+| bodyclass   = vevent haudio
+
+| aboveclass  = summary album
+| abovestyle  = {{#ifeq:{{{italic_title|yes}}}|yes|font-style: italic;}} background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}} }} }}
+| above       = {{#if:{{{name|}}}|{{{name}}}|<includeonly><span style="font-style: normal">Untitled</span></includeonly>}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#switch:{{{image|{{{cover|}}}}}}|blank=|???=Nocover.png|#default={{{image|{{{cover|}}}}}}}}|border={{{border|}}}|alt={{{alt|}}}}}
+| caption     = {{{caption|}}}
+
+| headerstyle = background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}}}}}}
+| headerclass = description
+
+| header1     = <includeonly>{{Infobox album/link|{{{type|}}} }}</includeonly>{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by <div class="contributor" style="display:inline">{{{artist|}}}</div> }}
+| label2      = Wuxuu soo baxay
+| data2       = {{{released|}}}
+| class2      = published
+| label3      = Waxaa la duubay
+| data3       = {{{recorded|}}}
+| class3      = plainlist
+| label4      = Goobta
+| data4       = {{{venue|}}}
+| label5      = Istuudiyo
+| data5       = {{{studio|}}}
+| class5      = plainlist
+| label6      = [[Nooca Musikada|Nooca]]
+| data6       = {{#ifexist:Template:Infobox album/genre/{{FULLPAGENAME}}|{{Infobox album/genre/{{FULLPAGENAME}}}}|{{{genre|}}}}}
+| class6      = category hlist
+| label7      = Dhererka
+| data7       = {{#invoke:hms|main|duration={{{length|}}}}}
+| label8      = Language
+| data8       = {{{language|}}}
+| class8      = qaybta
+| label9      = [[Calaamada duubista|Calaamada]]
+| data9       = {{{label|}}}
+| class9      = hlist
+| label10     = [[Agaasimaha filimka|Agaasime]]
+| data10      = {{{director|}}}
+| class10     = hlist
+| label11     = [[Soo saaraha duubista|Soo saare]]
+| data11      = {{{producer|}}}
+| class11     = hlist
+| label12     = kombiler
+| data12      = {{{compiler|}}}
+| class12     = hlist
+
+| header13    = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|}}}|{{{chronology|}}}|{{#ifeq: {{str letter|{{delink| {{{artist|}}} }}}}|0|{{{artist|}}}|{{#invoke:String2 | ucfirst |{{{artist|}}}}}}}}} chronology }}
+| data14      = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|
+{{(!}} style="background: transparent; width: 100%; min-width: 100%; border-collapse: collapse"
+{{!}}- style="line-height: 1.4em;"
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em .2em 0" {{!}} {{#if:{{{prev_title|}}}|''{{{prev_title}}}''{{#if:{{{prev_year|}}}|<br />({{{prev_year}}})}}|{{{last_album|}}}<span style="display:none">{{#if:{{{last_album|}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{last_album|}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em" {{!}} {{{this_album|'''''{{{name|{{PAGENAMEBASE}}}}}'''''}}}{{#if:{{{next_year|}}}{{{prev_year|}}}|<br />({{{year|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|{{{released|}}}|%d%d%d+}}}}})}}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em 0 .2em .1em" {{!}} {{#if:{{{next_title|}}}|''{{{next_title}}}''{{#if:{{{next_year|}}}|<br />({{{next_year}}})}}|{{{next_album|}}}<span style="display:none">{{#if:{{{next_album|}}}|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=^''([^<]+)''%s*< ?/? ?[Bb][Rr] ?/? ?>|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=^<div class="plainlist"><ul><li>''([^<]+)''</li>}}}}{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=< ?/? ?[Bb][Rr] ?/? ?>%s*%((%d+)%)|nomatch={{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{next_album|}}}|2=<li>%((%d+)%)</li></ul></div>}}}}}}</span> }}
+{{!)}}
+}}
+| below       = {{{misc|}}}
+}}{{category handler
+ |main={{#ifeq:{{Infobox album/color|{{{type|}}}|Test}}|Test
+  |[[Category:Album articles with non-standard infoboxes]]
+ }}{{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki
+  |[[Category:Album articles with non-standard infoboxes]][[Category:Song articles needing single infobox conversion]]
+ }}[[Category:Articles with hAudio microformats]]{{#switch:{{lc:{{{image|{{{cover|}}}}}}}}
+  |
+  |???
+  |nocover.png = [[Category:Album infoboxes lacking a cover]]
+ }}{{#switch:{{lc:{{{image|{{{alt|}}}}}}}}
+  |
+  |??? = {{main other|[[Category:Album articles lacking alt text for covers]]}}
+ }}
+}}{{#if:{{#ifeq:{{str left|{{{last_album|}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{this_album|}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{str left|{{{next_album|}}}|22}}|<div class="plainlist"|1|}}|[[Category:Pages using infobox chronology parameters with plainlists]]}}{{#ifeq:{{{type|}}}||[[Category:Pages using infobox album with empty type parameter]]}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox album with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox album]] with unknown parameter "_VALUE_"|ignoreblank=y|italic_title |type |name |image |cover |border |alt |caption |longtype |artist |released |recorded |venue |studio |genre |length |language |label |director |producer |compiler |prev_title|prev_year|next_title|next_year|chronology|year|misc}}{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{{prev_title|}}}{{{last_album|}}}{{{prev_year|}}}{{{next_title|}}}{{{next_album|}}}{{{next_year|}}}{{{italic_title|}}}{{{italic title|}}}{{{type|}}}{{{name|}}}{{{image|}}}{{{cover|}}}{{{border|}}}{{{alt|}}}{{{caption|}}}{{{longtype|}}}{{{artist|}}}{{{released|}}}{{{recorded|}}}{{{venue|}}}{{{studio|}}}{{{genre|}}}{{{length|}}}{{{language|}}}{{{label|}}}{{{director|}}}{{{producer|}}}{{{compiler|}}}{{{chronology|}}}{{{this_album|}}}{{{year|}}}x|2=</?t[drh][ >]|nomatch=}}|{{main other|[[Category:Music infoboxes with malformed table placement|A]]}}}}{{main other|{{#if:{{{length|}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}A|1={{#invoke:hms|main|duration={{{length|}}}}}|2=class="duration"|plain=true|nomatch=}}|[[Category:Articles with hAudio microformats]]}}}}}}}}<noinclude>
+{{Documentation}}
+<!-- Add categories to the /doc subpage, not here. -->
 </noinclude>
 
 == Usage ==
