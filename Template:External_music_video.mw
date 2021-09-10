@@ -1,0 +1,108 @@
+{{Documentation subpage}}
+{{ombox
+ | type = notice
+ | text = This template is used to create links to videos available on external web sites. Make sure you link only to web sites that are legally licensing the videos. Most music videos found on YouTube and Google Video are not compatible with [[Wikipedia:Copyrights#Linking to copyrighted works|Wikipedia's linking policies]].
+}}
+Most music videos cannot be uploaded to Wikipedia because of copyright restrictions. However, it is permissible to link to videos if they are hosted on a site that has licensed them for online viewing. Use this template to add a music video link to an infobox created by {{tl|Infobox song}}, {{tl|Infobox album}}, or other appropriate infobox.
+
+==Usage==
+This template is used with the {{para|misc}} parameter of the infobox template. It should not be used on its own. If this template is substituted, it will return a cleaned-up copy of itself with unnecessary parameters removed and deprecated parameters replaced. Parameter indentation will also automatically be fixed.
+
+=== Code ===
+{{infobox|data1={{parameter names example|header=Music video|type=song|1=}}}}
+<pre style="overflow:auto;">{{Infobox song
+...
+| misc         = {{subst:External music video
+ | type        = 
+ | header      = 
+ | 1           = 
+}}
+</pre>
+
+; type : Enter <code>single</code> to produce a khaki header or <code>song</code> for light blue for other Infobox song types, so that the headers will have a consistent color. 
+; header : Enter the text for the header. If not used, the default is <code>Music video</code>. For no header, enter {{para|header|no}}. For multiple music video links, set the first to {{para|header|Music videos}} and the succeeding links to {{para|header|no}}, so only one header for all will be created (see Example 2).
+; 1 : Enter the video link, plus the song title in quote marks, followed by the name of the video site (see Example 1). For YouTube links, use {{tl|YouTube}}, instead of <code>[http:{{nbsp}}...]</code> (see Example 2).
+
+==Examples==
+<pre style="overflow:auto;">{{Infobox song
+...
+| misc         = {{subst:External music video
+ | type        = song
+ | header      = Music video
+ | 1           = [http://www.cmt.com/videos/johnny-cash/26385/hurt.jhtml "Hurt"] at CMT.com
+}}
+</pre>
+
+<pre style="overflow:auto;">{{Infobox song
+...
+| misc         = {{subst:External music video
+ | type        = single
+ | header      = Music videos
+ | 1           = {{YouTube|qzU9OrZlKb8|"Till the World Ends"}}
+}}{{subst:External music video
+ | type = single
+ | header = no
+ | 1 = {{YouTube|M3Lqg-46mDo|"Till the World Ends" (dance version)}}
+ }}
+</pre>
+
+<pre style="overflow:auto;">{{Infobox album
+...
+| misc       = 
+{{External music video|1={{YouTube|gl23DgzqPZk|"Waratchaō yo Boyfriend"}}|header=Music videos|type= studio}}
+{{External music video|1={{YouTube|rOhFfXEL0K0|"Munasawagi Scarlet"}}|header=no|type= studio}}
+{{External music video|1={{YouTube|I4oMgjalu4o|"Very Beauty"}}|header=no|type= studio}}
+{{External music video|1={{YouTube|7dNV4gg9lqI|"Kokuhaku no Funsui Hiroba"}}|header=no|type= studio}}
+}}
+</pre>
+
+==TemplateData==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"params": {
+		"1": {
+			"description": "Link to the internet location holding the video",
+			"example": "| 1           = {{YouTube|qzU9OrZlKb8|\"Till the World Ends\"}}",
+			"type": "string",
+			"default": "Empty",
+			"required": true
+		},
+		"header": {
+			"label": "Header",
+			"description": "Header text",
+			"example": "Music video",
+			"type": "string",
+			"default": "Music video",
+			"autovalue": "Music video",
+			"required": true
+		},
+		"Upper caption": {
+			"autovalue": "",
+                        "type": "string",
+			"deprecated": "Use header field"
+		},
+		"type": {
+			"description": "Type field - Enter the same type specified in the infobox",
+			"example": "type=single",
+			"type": "string",
+			"default": "Empty",
+			"autovalue": "",
+			"required": true
+		},
+		"Type": {
+			"deprecated": "Use type (lowercase T)",
+                        "type": "string"
+		}
+	},
+	"description": "External music video template"
+}
+</templatedata>
+
+
+<includeonly>{{Sandbox other||<!--
+++++ PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, THANK YOU. -->
+{{DEFAULTSORT:External music video}}
+[[Category:Music infobox templates]]
+
+}}</includeonly>
