@@ -16,30 +16,30 @@
 | label1      = Native name
 | data1       = {{{native_name|}}}
 
-| label2      = Type
+| label2      = Nooca
 | data2       =  {{{type|}}}
 
-| label3      = Awarded for
+| label3      = Lagu abaalmariyey
 | data3       = {{{awarded_for|}}}
 
-| label4      = Description
+| label4      = Sharaxaad
 | data4       = {{{description|}}}
 
-| label5      = Sponsored by
+| label5      = Waxaa kafaala qaaday
 | data5       = {{{sponsor|}}}
 
-| label6      = Date
+| label6      = Taariikhda
 | data6       = {{{date|}}}
 
 | label7      = {{#if:{{{venue|}}}|Venue|{{#if:{{{location|}}}|Location|Site}}}}
 | data7       = {{#if:{{{venue|}}}|{{{venue}}}|{{#if:{{{location|}}}|{{{location}}}|{{{site|}}}}}}}
 | class7      = location
 
-| label8      = Country
+| label8      = Dalka
 | data8       = {{#invoke:WikidataIB |getValue |P17 |name=country |qid={{{qid|}}} |suppressfields={{{suppressfields|}}} |fetchwikidata={{{fetchwikidata|ALL}}} |onlysourced={{{onlysourced|}}} |noicon={{{noicon|}}} | {{{country|}}} }}
 | class8      = location
 
-| label9      = Presented by
+| label9      = Waxaa soo bandhigay
 | data9       = {{#invoke:WikidataIB |getValue |P1027 |name=presenter |qid={{{qid|}}} |suppressfields={{{suppressfields|}}} |fetchwikidata={{{fetchwikidata|ALL}}} |onlysourced={{{onlysourced|}}} |noicon={{{noicon|}}} | {{{presenter|}}} }}
 | class9      = attendee
 
@@ -95,10 +95,10 @@
 | label24     = Established
 | data24      = {{{established|}}}
 
-| label25     = First awarded
+| label25     = Ugu horrayn la guddoonsiiyey
 | data25      = {{if empty|{{{firstawarded|}}}|{{{year|}}}}}
 
-| label26      = Last awarded
+| label26      = Markii ugu dambeysay ee la bixiyay
 | data26      = {{if empty|{{{lastawarded|}}}|{{{year2|}}}}}
 
 | label27     = {{#if:{{{holder|}}}
