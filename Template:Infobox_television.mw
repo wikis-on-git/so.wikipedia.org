@@ -1,4 +1,4 @@
-{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=italic_title,name,type,longtype,artist,cover,border,alt,caption,released,recorded,venue,studio,genre,length,language,label,director,producer,compiler,chronology,prev_title,prev_year,year,next_title,next_year,misc|$extra=italic_title,longtype,border,caption,language,director,compiler,chronology,year,misc|$aliases=italic title>italic_title,Italic title>italic_title,Name>name,Type>type,image>cover,Cover>cover,Border>border,Alt>alt,Caption>caption,Longtype>longtype,Artist>artist,Released>released,Recorded>recorded,Venue>venue,Studio>studio,Genre>genre,Length>length,Language>language,Label>label,Director>director,Producer>producer,Compiler>compiler,Chronology>chronology,Misc>misc|$flags=override|$B={{#ifeq:{{#invoke:Is infobox in lead|main|[Ii]nfobox [Tt]elevision}}|true|{{short description|{{#invoke:Plain text|main|{{#if:{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}}|{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}} {{#switch:{{Infobox album/link|{{{type|}}} }}|[[Extended play|EP]] = EP|#default = {{lc:{{Infobox album/link|{{{type|}}} }}}}}}|{{Infobox album/link|{{{type|}}} }}}}{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by {{{artist|}}}}}}}|noreplace}}}}<!--
+{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=italic_title,name,type,longtype,artist,cover,border,alt,caption,released,recorded,venue,studio,genre,length,language,label,director,producer,compiler,chronology,prev_title,prev_year,year,next_title,next_year,misc|$extra=italic_title,longtype,border,caption,language,director,compiler,chronology,year,misc|$aliases=italic title>italic_title,Italic title>italic_title,Name>name,Type>type,image>cover,Cover>cover,Border>border,Alt>alt,Caption>caption,Longtype>longtype,Artist>artist,Released>released,Recorded>recorded,Venue>venue,Studio>studio,Genre>genre,Length>length,Language>language,Label>label,Director>director,Producer>producer,Compiler>compiler,Chronology>chronology,Misc>misc|$flags=override|$B={{#ifeq:{{#invoke:Is infobox in lead|main|[Ii]nfobox [Tt]elevision}}|true|{{short description|{{#invoke:Plain text|main|{{#if:{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}}|{{#invoke:string|match|{{{released|{{{release|}}}}}}|%d%d%d%d|ignore_errors = true}} {{#switch:{{Infobox television/link|{{{type|}}} }}|[[Extended play|EP]] = EP|#default = {{lc:{{Infobox album/link|{{{type|}}} }}}}}}|{{Infobox album/link|{{{type|}}} }}}}{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by {{{artist|}}}}}}}|noreplace}}}}<!--
 
 -->{{Infobox
 | italic title= {{{italic_title|<noinclude>no</noinclude>}}}
@@ -11,10 +11,10 @@
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#switch:{{{image|{{{cover|}}}}}}|blank=|???=Nocover.png|#default={{{image|{{{cover|}}}}}}}}|border={{{border|}}}|alt={{{alt|}}}}}
 | caption     = {{{caption|}}}
 
-| headerstyle = background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}}}}}}
+| headerstyle = background-color: {{#ifeq:{{Infobox television/color|{{{type|}}}}}|khaki|{{Infobox television/color}}|{{Infobox television/color|{{{type|}}}}}}}
 | headerclass = description
 
-| header1     = <includeonly>{{Infobox album/link|{{{type|}}} }}</includeonly>{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by <div class="contributor" style="display:inline">{{{artist|}}}</div> }}
+| header1     = <includeonly>{{Infobox television/link|{{{type|}}} }}</includeonly>{{#if:{{{longtype|}}}|&#32;{{{longtype|}}}}}{{#if:{{{artist|}}}|&#32;by <div class="contributor" style="display:inline">{{{artist|}}}</div> }}
 | label2      = Wuxuu soo baxay
 | data2       = {{{released|}}}
 | class2      = published
@@ -58,7 +58,7 @@
 }}
 | below       = {{{misc|}}}
 }}{{category handler
- |main={{#ifeq:{{Infobox album/color|{{{type|}}}|Test}}|Test
+ |main={{#ifeq:{{Infobox television/color|{{{type|}}}|Test}}|Test
   |[[Category:Album articles with non-standard infoboxes]]
  }}{{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki
   |[[Category:Album articles with non-standard infoboxes]][[Category:Song articles needing single infobox conversion]]
