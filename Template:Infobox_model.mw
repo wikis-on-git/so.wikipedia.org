@@ -1,0 +1,239 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{Person infobox header}}
+{{Uses infobox person}}
+{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
+{{Tracks Wikidata|P18|cat=No local image but image on Wikidata}}
+
+{{tl|Infobox model}} waxaa loo isticmaali karaa in lagu soo koobo macluumaadka ku saabsan qof ku moodel.
+
+== Usage ==
+
+{{Generic template demo
+| horgale_sharaf_leh
+| magaca
+| kaaftoonka_sharafta_leh
+| image
+| image_size
+| alt
+| caption
+| native_name
+| native_name_lang
+| magaca_dhalashada
+| birth_date
+| birth_place
+| death_date
+| death_place
+| death_cause
+| nationality
+| other_names
+| citizenship
+| alma_mater
+| occupation
+| years_active
+| known_for
+| spouse
+| partner
+| children
+| parents
+| relatives
+| height
+| hair_color
+| eye_color
+| agency
+| module
+| website
+}}
+<pre style="overflow:auto;">
+{{Infobox model
+| honorific_prefix = 
+| name             = 
+| honorific_suffix = 
+| image            = 
+| image_size       = 
+| alt              = 
+| caption          = 
+| native_name      = 
+| native_name_lang = 
+| birth_name       = 
+| birth_date       = <!-- {{birth date and age|YYYY|MM|DD}} or {{birth date|YYYY|MM|DD}} For living people supply only the year unless the exact date is already WIDELY published, as per [[WP:DOB]]. -->
+| birth_place      = 
+| death_date       = <!-- {{death date and age|YYYY|MM|DD|birth YYYY|birth MM|birth DD}} -->
+| death_place      = 
+| death_cause      = 
+| nationality      = 
+| other_names      = 
+| citizenship      = 
+| alma_mater       = 
+| occupation       = 
+| years_active     = 
+| known_for        = 
+| spouse           = <!-- {{marriage|name|start|end}} -->
+| partner          = <!-- unmarried life partner; use ''Name (1950–present)'' -->
+| children         = 
+| parents          = 
+| relatives        = 
+| height           = <!-- "X ft Y in" or "X cm" plus optional reference (conversions are automatic) -->
+| hair_color       = 
+| eye_color        = 
+| agency           = 
+| module           = 
+| website          = <!-- {{URL|website}} -->
+| signature        =
+}}
+</pre>
+{{clear}}
+
+== Parameters ==
+
+{| class="wikitable"
+| width="110px" | ''name''
+| model's name; usually the article's page name (i.e. the model's common name)
+|-
+| ''image''
+| an image of the model, in the form: "Example.jpg"
+|-
+| ''image_size''&nbsp;*
+| in the form "''N''px", resizes the image to a width of ''N'' pixels; default is frameless
+|-
+| ''alt''&nbsp;*
+| [[WP:ALT|alt text]] for the image
+|-
+| ''caption''&nbsp;*
+| caption for the image
+|-
+| ''native_name''
+| The person's name in their own language, if different.
+|-
+| ''native_name_lang''
+| [[ISO 639-1]] code e.g. "fr" for French. If more than one, use {{tl|lang}} in {{para|native_name}} instead.
+|-
+| ''birth_name''
+| model's name at birth <!--or christening?-->
+|-
+| ''birth_date''
+| model's date of birth; use {{tl|birth date and age}} or {{tl|birth date}} where possible. For living people supply only the year unless the exact date is already WIDELY published, as per [[WP:DOB]]. Treat such cases as if only the year is known, so use {{tl|birth year and age}} or a similar option.
+|-
+| ''birth_place''
+| model's place of birth, if different
+|-
+| ''death_date''
+| model's date of death; use {{tl|death date and age}} where possible
+|-
+| ''death_place''
+| model's place of death
+|-
+| ''death_cause''
+|
+|- 
+| ''nationality''
+| used to denote from which country the person belongs/birthplace  
+|-
+| ''other_names''
+| aliases or nicknames for the model
+|-
+| ''citizenship''
+| Used to denote country of legal citizenship, if ''different'' from nationality. rarely needed. See usage notes for nationality above. should only be used if citizenship cannot be inferred from the birthplace. '''[[Wikipedia:Manual of Style (icons)#Avoid flag icons in infoboxes|Do not use a flag template]].'''
+|-
+| ''alma_mater''
+| [[Alma mater|alma mater]]; model's place of education
+|-
+| ''occupation''
+| Model's occupation(s)
+|-
+| ''years_active''
+| years that the model was active in their career
+|-
+| ''known_for''
+|
+|-
+| ''spouse''
+| If applicable, name(s) of the model's spouse(s); use {{tl|marriage}} where possible
+|-
+| ''partner''
+| If applicable, name(s) of the model's unmarried [[Life partner|life partners]] (of any gender or sexual preference); use the format Name (1950–present) for current partner and Name (1970–1999) for former partner(s).
+|-
+| ''children''
+|
+|-
+| ''parents''
+| 
+|-
+| ''relatives''
+| Notable persons related to the model
+|-
+| ''height''
+| Model's height; use {{tl|convert}} or {{tl|convinfobox}} where possible
+|-
+| ''hair_color'' or ''hair_colour''
+| Model's hair color
+|-
+| ''eye_color'' or ''eye_colour''
+| Model's eye color
+|-
+| ''agency''
+| Agency/agencies for which the model currently works
+|-
+| ''module''
+| Used for embedding other infoboxes into this one. Example:
+<pre>
+{{Infobox model
+| name                = Ian Watkins
+...
+| module =
+    {{Infobox musical artist
+    | embed = yes
+    | background = solo_singer <!-- mandatory field -->
+    ...
+    }} <!-- end of Infobox musical artist -->
+...
+}} <!-- end of Infobox person -->
+</pre>
+{{crossref|For more detailed information, see [[Wikipedia:WikiProject Infoboxes/embed]].}}
+|-
+| ''website''
+| Model's website; use {{tl|URL}} where possible
+|-
+| colspan="2" style="font-size:90%;" | * Only used if the {{{image}}} parameter is used.
+|}
+
+===Synonyms===
+{{Infobox model
+| name        = Jane Doe
+| eye_color   = brown
+| hair_color  = black
+}}
+{{Infobox model
+| name        = Jane Doe
+| eye_colour  = green
+| hair_colour = red
+}}
+Variant spellings are permitted for two parameters, and they affect how the information is presented - "color" or "colour".  The examples below display as at right:
+ <nowiki>{{Infobox model</nowiki>
+ <nowiki>| name        = Jane Doe</nowiki>
+ <nowiki>| hair_color  = black</nowiki>
+ <nowiki>| eye_color   = brown</nowiki>
+ <nowiki>}}</nowiki>
+ <nowiki>{{Infobox model</nowiki>
+ <nowiki>| name        = Jane Doe</nowiki>
+ <nowiki>| hair_colour = red</nowiki>
+ <nowiki>| eye_colour  = green</nowiki>
+ <nowiki>}}</nowiki>
+Note that if both spellings are present, {{para|eye_color}} and {{para|hair_color}} are ignored.
+
+== Sida kale firi ==
+* {{tl|Infobox person}}
+* {{tl|Infobox pageant titleholder}}
+* {{tl|Infobox naqshadeeye moodda}}
+
+<includeonly>
+{{Basepage subpage|
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Fashion templates]]
+[[Category:People and person infobox templates|Model]]
+[[Category:Biographical templates usable as a module|Model]]
+[[Category:Infobox templates with module parameter|Model]]
+[[Category:Templates calling Infobox person|Model]]
+[[Category:Templates that add a tracking category|{{PAGENAME}}]]
+}}
+</includeonly>
