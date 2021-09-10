@@ -68,20 +68,20 @@
 | image_alt            = 
 | caption              = 
 | show_name_2          = 
-| native_name          = <!-- {{Infobox name module|language|title}} or {{Infobox name module|title}} -->
-| genre                = <!-- Must be reliably sourced -->
+| native_name          =
+| genre                = Nooca
 | creator              = 
-| based_on             = <!-- {{Based on|work|author}} -->
+| based_on             =
 | developer            = 
 | writer               = 
 | screenplay           = 
 | story                = 
 | director             = 
 | creative_director    = 
-| presenter            = <!-- Organized by broadcast credit order, with new main cast added to the end of the list -->
-| starring             = <!-- Organized by broadcast credit order, with new main cast added to the end of the list -->
-| judges               = <!-- Organized by broadcast credit order, with new main cast added to the end of the list -->
-| voices               = <!-- Organized by broadcast credit order, with new main cast added to the end of the list -->
+| presenter            =
+| starring             =
+| judges               = 
+| voices               =
 | narrated             = 
 | theme_music_composer = 
 | opentheme            = 
@@ -89,40 +89,40 @@
 | composer             = 
 | country              = 
 | language             = 
-| num_seasons          = <!-- Or num_series. Increment when new seasons/series begin. See template documentation for more info. -->
-| num_episodes         = <!-- Value is incremented when new episodes air. See template documentation for more info. -->
+| num_seasons          =
+| num_episodes         =
 | list_episodes        = 
 | executive_producer   = 
 | producer             = 
-| news_editor          = <!-- Content editor or editors of a current affairs/political show such as Newsnight. -->
-| location             = <!-- Nation the series was filmed in, if different from the nation of origin. -->
+| news_editor          =
+| location             =
 | cinematography       = 
 | animator             = 
-| editor               = <!-- Film editors -->
-| camera               = <!-- Either Single-camera or Multi-camera -->
-| runtime              = <!-- Reliable source required -->
-| company              = <!-- Production companies only -->
+| editor               =
+| camera               =
+| runtime              =
+| company              =
 | distributor          = 
 | budget               = 
 | network              = 
 | picture_format       = 
 | audio_format         = 
-| first_run            = <!-- The nation in which the series first aired, if different from country parameter -->
+| first_run            =
 | released             = <!-- {{Start date|YYYY|MM|DD}} -->
 | first_aired          = <!-- {{Start date|YYYY|MM|DD}} -->
 | last_aired           = <!-- {{End date|YYYY|MM|DD}} -->
 | preceded_by          = 
 | followed_by          = 
-| related              = <!-- To be used only for remakes, spin-offs, and adaptations -->
-| website              = <!-- Remove or comment out this parameter line completely if URL exists on or is moved to Wikidata; use |website_title= to change the display title. -->
-| production_website   = <!-- use |production_website_title= to change the display title. -->
+| related              =
+| website              =
+| production_website   =
 }}
 </source>
 <section end=infobox />
 {{clear}}
 
 === Parameters ===
-Link people only if they have articles. For most of the fields below, if there are multiple entries, separate them using {{tl|Plainlist}} or {{tl|Unbulleted list}}. When adding data to fields, do not use small text as this reduces the size of the text to below 85% of the page font size. See [[Wikipedia:Manual of Style/Accessibility#Text]] for more information.
+Xiriir dadka kaliya haddii ay maqaallo leeyihiin.  Inta badan meelaha hoose, haddii ay jiraan galitaanno badan, kala saar iyaga oo adeegsanaya {{tl|Plainlist}} ama {{tl|Unbulleted list}}. Markaad ku darto xogta beeraha, ha isticmaalin qoraal yar maxaa yeelay tani waxay yareynaysaa cabbirka qoraalka oo ka hooseysaa 85% cabbirka font -ka bogga. Eeg [[Wikipedia:Buugga Habka/Helitaanka#Qoraal]] wixii macluumaad dheeraad ah.
 
 {| class="wikitable" style="line-height:1.3em;"
 ! scope="col" | Parameter
