@@ -1,0 +1,28 @@
+{{Documentation subpage}}
+
+'''FIIRO''': Qaab -dhismeedkani ''maahan '' beddel {{tl|Non-free use rationale}}, taas oo looga baahan yahay [[Help:Bogga sawirka|bogga sharaxaadda sawirka]] si loo sharaxo sida sawirka loo isticmaalo si waafaqsan Wikipedia [[Wikipedia:Non-free content criteria|shuruudo nuxur ah oo aan bilaash ahayn]].
+
+== TemplateXog ==
+{{TemplateData header}}
+<templatedata>
+{
+	"description": "Qaab-dhismeedkan waa in lagu adeegsadaa bogga sharraxaadda sawirrada aan xorta ahayn ee aan ku dhicin mid ka mid ah qaybaha nuxurka aan la aqbali karin ee bustaha ah.  Ma beddeleyso qaab-dhismeedka caqli-galka ah ee adeegsiga bilaashka ah, kaas oo looga baahan yahay bogga sharraxaadda sawirka si loo sharraxo sida sawirka loo adeegsado hab waafaqsan shuruudaha maaddada Wikipedia ee aan xor ahayn.",
+	"params": {
+		"image has rationale": {
+			"label": "Image has rationale?",
+			"type": "string",
+			"required": false,
+			"description": "This parameter should have the value “yes” if a rationale is provided for the image.",
+			"aliases": [
+				"image_has_rationale"
+			]
+		}
+	}
+}
+</templatedata>
+
+<includeonly>{{Sandbox other|
+| <!-- Please place categories below this line: -->
+[[Category:Wikipedia non-free file copyright templates|Fair use in]]
+
+}}</includeonly>
