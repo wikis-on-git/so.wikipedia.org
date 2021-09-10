@@ -1,0 +1,22 @@
+{{Documentation subpage}}
+{{Lua|Module:Check for unknown parameters}}
+
+== Code ==
+This template is used with the {{para|misc}} parameter of the infobox template. It should not be used on its own.  If this template is substituted, it will return a cleaned-up copy of itself with unnecessary parameters removed and deprecated parameters replaced. Parameter indentation will also automatically be fixed.
+
+{|class="infobox" style="width:20em;"
+{{Extra track listing
+ | album      = That Album
+ | type       = song
+ | tracks = {{Rumours tracks}}
+}}
+|}
+<pre style="overflow:auto;">{{Infobox song
+...
+| misc        = {{Extra track listing
+ | album      = 
+ | type       = 
+ | tracks     = 
+ }}</pre>
+{{clear}}
+==Parameters==
