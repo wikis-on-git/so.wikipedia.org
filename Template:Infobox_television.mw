@@ -3,6 +3,60 @@
 
 == Usage ==
 
+{{Template:PAGENAMETDOC 
+| italic_title = maya 
+| show_name = magac 
+| image = Example-serious.jpg 
+| image_upright = 1.1 
+| image_alt = 
+| caption = 
+| show_name_2 = 
+| native_name = native_name 
+| genre = Nooca 
+| creator = creator 
+| based_on = based_on 
+| developer = developer 
+| writer = writer 
+| screenplay = screenplay 
+| story = story 
+| director = director 
+| creative_director = creative_director | presenter = presenter 
+| starring = starring 
+| judges = judges 
+| voices = voices 
+| narrated = narrated | theme_music_composer = theme_music_composer 
+| opentheme = opentheme 
+| endtheme = endtheme 
+| composer = composer 
+| country = country 
+| language = language 
+| num_seasons = num_seasons | num_series = num_series 
+| num_episodes = num_episodes 
+| list_episodes = Template:Infobox television 
+| executive_producer = executive_producer 
+| producer = producer 
+| news_editor = news_editor 
+| location = location 
+| cinematography = cinematography 
+| animator = animator 
+| editor = editor 
+| camera = camera 
+| runtime = runtime 
+| company = company 
+| distributor = distributor 
+| budget = budget 
+| network = network 
+| picture_format = picture_format 
+| audio_format = audio_format 
+| first_run = first_run 
+| first_aired = first_aired (released) | last_aired = last_aired 
+| preceded_by = preceded_by 
+| followed_by = followed_by 
+| related = related 
+| website = https://www.example.com 
+| production_website = https://www.example.com 
+}}
+
 <section begin=infobox />
 <source lang="html" style="overflow:auto;">
 {{Infobox television
