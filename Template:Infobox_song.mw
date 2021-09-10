@@ -1,0 +1,106 @@
+{{ {{{|safesubst:}}}#invoke:Unsubst-infobox||$params=name,cover,cover_size,alt,border,caption,type,artist,album,EP,language,English_title,A-side,B-side,written,published,released,format,recorded,studio,venue,genre,length,label,writer,composer,lyricist,producer,chronology,prev_title,prev_title2,prev_year,title,title2,year,next_title,next_title2,next_year,tracks,misc|$set1={{{{{|safesubst:}}}#switch:{{{{{|safesubst:}}}lc:{{{type|{{{Type|}}}}}}}}|single|[[single (music)|single]]|singles|[[single (music)|singles]]=name,cover,cover_size,alt,border,caption,type,artist,{{{{{|safesubst:}}}#if:{{{EP|}}}|EP,|album,}}language,English_title,A-side,B-side,released,format,recorded,studio,venue,genre,length,label,{{{{{|safesubst:}}}#if:{{{writer|{{{Writer|}}}}}}|writer,|composer,lyricist,}}producer,chronology,prev_title,prev_title2,prev_year,{{{{{|safesubst:}}}#if:{{{title2|}}}|title,}}title2,year,next_title,next_title2,next_year,misc|name,cover,cover_size,alt,border,caption,type,artist,{{{{{|safesubst:}}}#if:{{{EP|}}}|EP,|album,}}language,English_title,released,format,recorded,studio,venue,genre,length,label,{{{{{|safesubst:}}}#if:{{{writer|{{{Writer|}}}}}}|writer,|composer,lyricist,}}producer,chronology,{{{{{|safesubst:}}}#if:{{{tracks|{{{Tracks|}}}}}}|tracks,}}misc}}|$set3=name,cover,cover_size,alt,border,caption,type,language,English_title,written,published,{{{{{|safesubst:}}}#if:{{{recorded|{{{Recorded|}}}}}}{{{length|{{{Length|}}}}}}|recorded,length,}}writer,composer,lyricist,misc|$extra=cover_size,border,caption,language,English_title,A-side,B-side,chronology,prev_title2,title2,year,next_title2,prev_no,next_no,prev,next,tracks,misc|$aliases={{{{{|safesubst:}}}#if:{{{title2|}}}||title>name,}}Name>name,image>cover,Cover>cover,cover size>cover_size,Cover size>cover_size,Alt>alt,Border>border,Caption>caption,Type>type,Artist>artist,original_artist>artist,Album>album,from_album>album,from Album>album,Language>language,english_title>English_title,Writer>writer,Composer>composer,Lyricist>lyricist,Written>written,Published>published,Genre>genre,Recorded>recorded,Studio>studio,Venue>venue,Length>length,Producer>producer,Released>released,Label>label,Format>format,a-side>A-side,b-side>B-side,Chronology>chronology,Tracks>tracks,Misc>misc|prev_track={{{{{|safesubst:}}}#if:{{{prev_track|}}}|{{{prev_track}}}|{{{{{|safesubst:}}}#if:{{{prev|}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{prev|}}}|2=^["“‘'](.+)["”’']$|nomatch=}}}}}}|prev={{{{{|safesubst:}}}#if:{{{prev|}}}|{{{{{|safesubst:}}}#if:{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{prev|}}}|2=^["“‘'](.+)["”’']$|nomatch=}}||{{{prev}}}}}}}|next_track={{{{{|safesubst:}}}#if:{{{next_track|}}}|{{{next_track}}}|{{{{{|safesubst:}}}#if:{{{next|}}}|{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{next|}}}|2=^["“‘'](.+)["”’']$|nomatch=}}}}}}|next={{{{{|safesubst:}}}#if:{{{next|}}}|{{{{{|safesubst:}}}#if:{{{{{|safesubst:}}}#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{next|}}}|2=^["“‘'](.+)["”’']$|nomatch=}}||{{{next}}}}}}}|prev_no={{{{{|safesubst:}}}#if:{{{prev_no|}}}|{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}#expr:{{{track_no|0}}}-1}}|{{{prev_no}}}||{{{prev_no}}}}}}}|next_no={{{{{|safesubst:}}}#if:{{{next_no|}}}|{{{{{|safesubst:}}}#ifeq:{{{{{|safesubst:}}}#expr:{{{track_no|0}}}+1}}|{{{next_no}}}||{{{next_no}}}}}}}|chronology={{{{{|safesubst:}}}#if:{{{chronology|{{{Chronology|}}}}}}|{{{{{|safesubst:}}}#switch:{{{{{|safesubst:}}}lc:{{{type|{{{Type|}}}}}}}}|single|[[single (music)|single]]|singles|[[single (music)|singles]]={{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{chronology|{{{Chronology}}}}}}|2=%s*singles$|5=false}}|{{{chronology|{{{Chronology|}}}}}}}}}}|recorded={{{{{|safesubst:}}}#if:{{{recorded|{{{Recorded|}}}}}}|{{{{{|safesubst:}}}#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{recorded|{{{Recorded}}}}}}|2=[ ]–[ ]|3={{snd}}|plain=false}}}}|$flags=override|$B={{Infobox
+| bodyclass   = vevent
+| aboveclass  = summary
+| abovestyle  = background-color: {{Infobox song/color|{{{type|{{{Type|}}}}}} }};
+| above       = "{{if empty|{{{name|}}}|{{{Name|}}}|{{#if:{{{title2|}}}||{{{title|}}}}}|{{PAGENAMEBASE}}}}"
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|{{{cover|{{{Cover|}}}}}}}}}|size={{{cover_size|{{{cover size|{{{Cover size|}}}}}}}}}|upright={{{cover_upright|}}}|sizedefault=frameless|alt={{{alt|{{{Alt|}}}}}}|border={{{border|{{{Border|}}}}}}}}
+| caption     = {{{caption|{{{Caption|}}}}}}
+
+| headerstyle = background-color: {{Infobox song/color|{{{type|{{{Type|}}}}}} }};
+| headerclass = description
+
+| rowclass1   = description
+| header1     = {{Infobox song/link|{{{type|{{{Type|}}}}}} }} {{#if:{{{artist|}}}{{{Artist|}}}{{{original_artist|}}}|by {{If empty|{{{artist|}}}|{{{Artist|}}}|{{{original_artist|}}}}}}}
+| rowclass2   = description
+| header2     = {{#if:{{{album|}}}{{{Album|}}}{{{from_album|}}}{{{from Album|}}}|from the album ''{{If empty|{{{album|}}}|{{{Album|}}}|{{{from_album|}}}|{{{from Album|}}}}}''|{{#if:{{{EP|}}}|from the EP ''{{{EP|}}}''}}}}
+
+| label3      = Language
+| data3       = {{{language|{{{Language|}}}}}}
+
+| label4      = English title
+| data4       = {{{English_title|{{{english_title|}}}}}}
+
+| label5      = <span class="nowrap">[[A-side and B-side|A-side]]</span>
+| data5       = {{#if:{{{A-side|{{{a-side|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{A-side|{{{a-side}}}}}}|2="|nomatch=}}|{{{A-side|{{{a-side}}}}}}|"{{{A-side|{{{a-side}}}}}}"}}}}
+| class5      = plainlist
+
+| label6      = <span class="nowrap">[[A-side and B-side|B-side]]</span>
+| data6       = {{#if:{{{B-side|{{{b-side|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{B-side|{{{b-side}}}}}}|2="|nomatch=}}|{{{B-side|{{{b-side}}}}}}|"{{{B-side|{{{b-side}}}}}}"}}}}
+| class6      = plainlist
+
+| label7      = Written
+| data7       = {{{written|{{{Written|}}}}}}
+
+| label8      = Published
+| data8       = {{{published|{{{Published|}}}}}}
+
+| label10     = Released
+| data10      = {{{released|{{{Released|}}}}}}
+| class10     = plainlist
+
+| label11     = Format
+| data11      = {{{format|{{{Format|}}}}}}
+| class11     = hlist
+
+| label12     = Recorded
+| data12      = {{{recorded|{{{Recorded|}}}}}}
+| class12     = plainlist
+
+| label13     = [[Recording studio|Studio]] 
+| data13      = {{{studio|{{{Studio|}}}}}}
+| class13     = plainlist
+
+| label14     = Venue 
+| data14      = {{{venue|{{{Venue|}}}}}}
+
+| label15     = [[Music genre|Genre]]
+| data15      = {{{genre|{{{Genre|}}}}}}
+| class15     = category hlist
+
+| label16     = Length
+| data16      = {{#invoke:hms|main|duration={{{length|{{{Length|}}}}}}}}
+| class16     = plainlist
+
+| label17     = [[Record label|Label]]
+| data17      = {{{label|{{{Label|}}}}}}
+| class17     = hlist
+
+| label40     = <span class="nowrap">[[Songwriter|Songwriter(s)]]</span>
+| data40      = {{{writer|{{{Writer|}}}}}}
+| class40     = hlist
+
+| label41     = <span class="nowrap">[[Composer|Composer(s)]]</span>
+| data41      = {{{composer|{{{Composer|}}}}}}
+| class41     = hlist
+
+| label42     = <span class="nowrap">[[Lyricist|Lyricist(s)]]</span>
+| data42      = {{{lyricist|{{{Lyricist|}}}}}}
+| class42     = hlist
+
+| label43     = <span class="nowrap">[[Record producer|Producer(s)]]</span>
+| data43      = {{{producer|{{{Producer|}}}}}}
+| class43     = hlist
+
+| header44    = {{#if:{{{tracks|{{{Tracks|}}}}}}||{{#if:{{{prev_title|}}}{{{next_title|}}}{{{prev_single|}}}{{{next_single|}}}|{{#if:{{{chronology|}}}|{{#invoke:String|replace|error_category=Music infoboxes with Module:String errors{{!}}C|{{{chronology}}}{{#switch:{{lc:{{{type|{{{Type|}}}}}}}}|single|[[single (music)|single]]|singles|[[single (music)|singles]]=&#32;singles}}|singles&#32;singles|singles}}|{{{artist|}}} singles}} chronology}}}}
+| rowcellstyle45 = {{#if:{{{__µ|}}}|display: none;}}
+| data45      = {{#if:{{{tracks|{{{Tracks|}}}}}}||{{#if:{{{prev_title|}}}{{{next_title|}}}{{{prev_single|}}}{{{next_single|}}}|
+{{(!}} style="background: transparent; width: 100%; min-width: 100%; border-collapse: collapse;"
+{{!}}- style="line-height: 1.4em;"
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em .1em .2em 0;" {{!}} {{#if:{{{prev_title|}}}|"{{{prev_title|}}}" {{#if:{{{prev_title2|}}}| / "{{{prev_title2|}}}"}}{{#if:{{{prev_year|}}}|<br />({{{prev_year|}}})}} }}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding:.2em .1em;" {{!}} {{#if:{{{title2|}}}|"{{if empty|{{#switch:{{{title|}}}|{{BASEPAGENAME}}|{{PAGENAMEBASE}}='''{{{title}}}'''|{{{title|}}}}}|'''{{if empty|{{{name|}}}|{{{Name|}}}|{{PAGENAMEBASE}}}}'''}}" / "{{#switch:{{{title2}}}|{{BASEPAGENAME}}|{{PAGENAMEBASE}}='''{{{title2}}}'''|{{{title2}}}}}"|"'''{{if empty|{{{name|}}}|{{{Name|}}}|{{{title|}}}|{{PAGENAMEBASE}}}}'''"}} {{#if:{{{prev_year|}}}{{{next_year|}}}|<br />({{{year|{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|{{{released|{{{Released|}}}}}}|%d%d%d+}}}}})}}
+{{!}} style="width: 33%; text-align: center; vertical-align: top; padding: .2em 0 .2em .1em;" {{!}} {{#if:{{{next_title|}}}|"{{{next_title|}}}" {{#if:{{{next_title2|}}}| / "{{{next_title2|}}}"}}{{#if:{{{next_year|}}}|<br />({{{next_year|}}})}} }}
+{{!)}}
+}}}}
+| data46       = {{{__µ|}}}
+
+| header62       = {{#if:{{{tracks|{{{Tracks|}}}}}}| {{#if: {{{chronology|{{{Chronology|}}}}}}|{{{chronology|{{{Chronology|}}}}}}|{{#if:{{{album|{{{Album|}}}}}}{{{EP|}}}|''{{{album|{{{Album|}}}}}}{{{EP|}}}'' {{nowrap|track listing}}|Track listing}} }} }}
+| rowcellstyle63 = {{#if:{{{tracks|{{{Tracks|}}}}}}|text-align:left}}
+| data63         = {{{tracks|{{{Tracks|}}}}}}
+
+| below = {{{misc|{{{Misc|}}}}}}
+}}{{main other|{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using infobox song with unknown parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:Infobox song]] with unknown parameter "_VALUE_"|ignoreblank=y|type|Type|EP|writer|Writer|title2|tracks|Tracks|recorded|Recorded|length|Length|prev_track|prev|next_track|next|prev_no|track_no|next_no|chronology|Chronology|name|Name|title|image|cover|Cover|cover_size|cover size|Cover size|cover_upright|alt|Alt|border|Border|caption|Caption|artist|Artist|original_artist|album|Album|from_album|from Album|language|Language|English_title|english_title|A-side|a-side|B-side|b-side|written|Written|published|Published|released|Released|format|Format|studio|Studio|venue|Venue|genre|Genre|label|Label|composer|Composer|lyricist|Lyricist|producer|Producer|prev_title|next_title|prev_single|next_single|__µ|prev_title2|prev_year|next_year|year|next_title2|misc|Misc}}{{#if:{{{length|{{{Length|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{#invoke:hms|main|duration={{{length|{{{Length|}}}}}}}}|2=class="duration"|plain=true|nomatch=}}|[[Category:Articles with hAudio microformats]]}}{{#if:{{{writer|}}}{{{Writer|}}}{{{composer|}}}{{{Composer|}}}{{{lyricist|}}}{{{Lyricist|}}}||[[Category:Song articles with missing songwriters]]}}{{#if:{{both|{{{writer|}}}{{{Writer|}}}|{{{composer|}}}{{{Composer|}}}}}|[[Category:Song articles with both composer and songwriter]]}}{{#if:{{both|{{{writer|}}}{{{Writer|}}}|{{{lyricist|}}}{{{Lyricist|}}}}}|[[Category:Song articles with both lyricist and songwriter]]}}{{#if:{{{lyricist|}}}{{{Lyricist|}}}|{{#if:{{{composer|}}}{{{Composer|}}}||[[Category:Song articles with lyricist but not composer]]}}}}}}{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{name|}}}{{{cover|}}}{{{cover_size|}}}{{{alt|}}}{{{border|}}}{{{caption|}}}{{{type|}}}{{{artist|}}}{{{album|}}}{{{EP|}}}{{{language|}}}{{{English_title|}}}{{{writer|}}}{{{composer|}}}{{{lyricist|}}}{{{written|}}}{{{published|}}}{{{genre|}}}{{{recorded|}}}{{{studio|}}}{{{venue|}}}{{{length|}}}{{{producer|}}}{{{released|}}}{{{label|}}}{{{format|}}}{{{A-side|}}}{{{B-side|}}}{{{chronology|}}}{{{prev_title|}}}{{{prev_title2|}}}{{{prev_year|}}}{{{title|}}}{{{title2|}}}{{{year|}}}{{{next_title|}}}{{{next_title2|}}}{{{next_year|}}}{{{prev|}}}{{{prev_no|}}}{{{next|}}}{{{next_no|}}}{{{tracks|}}}{{{Name|}}}{{{image|}}}{{{Cover|}}}{{{cover size|}}}{{{Cover size|}}}{{{Alt|}}}{{{Border|}}}{{{Caption|}}}{{{Type|}}}{{{Artist|}}}{{{original_artist|}}}{{{Album|}}}{{{from_album|}}}{{{from Album|}}}{{{Language|}}}{{{english_title|}}}{{{Writer|}}}{{{Composer|}}}{{{Lyricist|}}}{{{Written|}}}{{{Published|}}}{{{Genre|}}}{{{Recorded|}}}{{{Studio|}}}{{{Venue|}}}{{{Length|}}}{{{Producer|}}}{{{Released|}}}{{{Label|}}}{{{Format|}}}{{{a-side|}}}{{{b-side|}}}{{{Chronology|}}}{{{Tracks|}}}x|2=</?t[drh][ >]|nomatch=}}|[[Category:Music infoboxes with malformed table placement|S]]}}}}
+}}<noinclude>
+<!-- please place language and category links on the /doc page and not here -->
+{{documentation}}
+</noinclude>
