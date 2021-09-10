@@ -1,14 +1,15 @@
 <div id="fuwStartScriptLink">
 Haye!  waxaad soo gaartay bog kuugu hagaya "Habka loo galiyo faylka". haddii aad doonaysay inaad fayl soo galiso ama gal, si Wikipedia loogu adeegsado, waxaad joogtaa meel ku haboon. waxaan kuu hagi doonaa, tillaabo tillaabo, waxa lagaag baahanyahay galinta waxuuna kuu muujinayaa macluumaadkaan waxa lagaa doonayo inaad u hogaansanto aadna leedahay awooda wax soo galinta iyo shuruudaha. 
 
-<center><font size=5>[{{fullurl:{{FULLPAGENAME}}|?withJS=MediaWiki:FileUploadWizard.js}} Guji halkaan si aad tillaabooyinka u raacdo] {{Jihada sawirka|[[File:Splitsection.svg|link=|50px]]}} </font></center>
+
+<div style="text-align:center;">{{Clickable button 2|commons:Special:UploadWizard|Soo rar faylashaada gaarka ah ama xorta ah|class=mw-ui-progressive|style=border-radius:4px; font-size:2.5em;}}
+
+Ku dhaji [[Wikipedia:Wikimedia Commons|Wikimedia Commons]]
 
 
-</div>
-<div id="warningLoggedOut" class="uploadWarning" style="display:none;">
-'''Hadda diiwaanka kuma jirtid.'''
+{{Clickable button 2|Soo rar fayl aan bilaash ahayn|url={{fullurl:{{FULLPAGENAME}}|withJS=MediaWiki:FileUploadWizard.js}}|style=border-radius:4px; font-size:1.5em; color:#36c;}}
 
-Nasiib darro, si aad u awoodid adeegsiga galinta fayl, waa inaad iska qortaa kadibna gashaa akoonka aad ku leedahay Wikipedia gaarka ah.'''[{{fullurl:Special:UserLogin|returnto=Wikipedia%3AFile+Upload+Wizard&returntoquery=withJS%3DMediaWiki%253AFileUploadWizard.js}} log in]''' and then try again.
+Nasiib darro, si aad u awoodid adeegsiga galinta fayl, waa inaad iska qortaa kadibna gashaa akoonka aad ku leedahay Wikipedia gaarka ah.'''[{{fullurl:Special:UserLogin|returnto=Wikipedia%3AFile+Upload+Wizard&returntoquery=withJS%3DMediaWiki%253AFileUploadWizard.js}} log in]''' kadibna isku day mar kale.
 </div>
 <div id="warningNotConfirmed" class="uploadWarning" style="display:none;">
 '''Nasiib darro, ilaa iyo hadda lama hubo inaad akoon ku leedahay Wikipedia.'''
