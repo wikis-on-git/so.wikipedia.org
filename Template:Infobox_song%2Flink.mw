@@ -1,26 +1,2 @@
 
 {{Documentation subpage}}
-
-== TemplateData ==
-{{TemplateData header}}
-<templatedata>
-{
-	"params": {
-		"1": {
-			"label": "Type",
-			"description": "Type of recording",
-			"example": "song",
-			"type": "string",
-			"required": true,
-			"suggested": true
-		}
-	},
-	"description": "This template is a helper template for {{Template:Infobox song}} and should not be used on its own.",
-	"format": "inline"
-}
-</templatedata>
-
-<includeonly>{{sandbox other||
-<!-- Categories below this line, please; interwikis at Wikidata -->
-
-}}</includeonly>
