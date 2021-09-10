@@ -1,0 +1,24 @@
+<table class="wikitable">
+<th>Code</th>{{#if:{{{color|}}}|
+<th>{{{color}}}</th>}}{{#if:{{{link|}}}|
+<th>{{{link}}}</th>}}
+<th>Display</th>
+</tr>
+{{infobox album/doc/type/row|studio|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|demo|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|EP|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|single album|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|live|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|greatest|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|remix|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|box|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|compilation|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|mixtape|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|soundtrack|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|film|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|cast|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|video|color={{{color|}}}|link={{{link|}}}}}
+{{infobox album/doc/type/row|''other''|color={{{color|}}}|link={{{link|}}}}}
+</table><noinclude>
+{{Documentation}}
+</noinclude>
