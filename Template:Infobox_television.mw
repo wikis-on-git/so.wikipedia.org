@@ -124,192 +124,192 @@
 Xiriir dadka kaliya haddii ay maqaallo leeyihiin.  Inta badan meelaha hoose, haddii ay jiraan galitaanno badan, kala saar iyaga oo adeegsanaya {{tl|Plainlist}} ama {{tl|Unbulleted list}}. Markaad ku darto xogta beeraha, ha isticmaalin qoraal yar maxaa yeelay tani waxay yareynaysaa cabbirka qoraalka oo ka hooseysaa 85% cabbirka font -ka bogga. Eeg [[Wikipedia:Buugga Habka/Helitaanka#Qoraal]] wixii macluumaad dheeraad ah.
 
 {| class="wikitable" style="line-height:1.3em;"
-! scope="col" | Parameter
-! scope="col" | Explanation
+! scope="col" | Halbeegyada
+! scope="col" |
 |-
 <!----------General---------->
 ! scope="row" | italic_title
-| Set if the title should not be italicized.
+|
 |-
 ! scope="row" | show_name
-| The name of the television program, film or miniseries. Use the full name and do not wikilink it.
+|
 |-
 ! scope="row" | image
-| [[Help:Files|A suitable image]] relevant to the show. The image does not need to be wikilinked and should exclude "File:" e.g. <code><nowiki>Example.png</nowiki></code> Typically the image will be the series' title card, although this is not mandated. Free content should be used where available.
+|
 |-
 ! scope="row" | image_size
-| Width of the image in pixels, excluding "px". If not specified the image width defaults to the value explained in {{para|image_upright}}. The size should not be set greater than 300px.
+|
 |-
 ! scope="row" | image_upright
-| Use of this parameter is preferred to using {{para|image_size}}, as it allows [[Wikipedia:Autosizing images|auto-sizing of images]] according to user preferences. By default the infobox image scales to upright=1.13 (which is 1.13 × 220 px if the default thumbnail size has not been changed at [[Special:Preferences]]). The size should not be set to a value that would result in an image width greater than 300px. See [[#Calculating "image_upright"|help below]] for guidance on determining the value to be used.
+|
 |-
 ! scope="row" | image_alt
-| Alt text, as required by [[MOS:ALT]]. It may include wikilinks.
+|
 |-
 ! scope="row" | caption
-| A caption explaining the image. An image of the title card including the title logo, or the logo only, of the show does not need a caption.
+|
 |-
 ! scope="row" | show_name_2
-| "Also known as", i.e. other names by which the show is known.
+| 
 |-
 ! scope="row | native_name
-| Insert the native title using the {{tl|Infobox name module}} template if it is different from the displayed title; please visit that template's page for full instructions. This parameter is for the native title only, i.e. it should not be used to add translated titles to the infobox. Example: {{nowrap|<nowiki>{{Infobox name module|ta|பாசமலர்}}</nowiki>}} will display the Tamil native name in the infobox – "ta" is the [[ISO 639|ISO 639 code]] for Tamil.
+|
 |-
 ! scope="row" | genre
-| The genre of the show. Examples listed at [[List of genres#Film and television formats and genres|Film and television genres]]. Link if an article is available. Genres must be reliably sourced.
+|
 |-
 ! scope="row" | creator
-| The show's creator or creators. This should be used over {{para|developer}} if the show is based on original material i.e. ''[[Lost (TV series)|Lost]]'' or ''[[Law & Order]]'', unless a reliable source attributes a person with the title "creator".
+|
 |-
 ! scope="row" | based_on
-| Insert the title of the source material and the name(s) of the source material writer(s). Use this field in conjunction with screenplay and story where applicable (i.e. "Screen story") if films are based on previously produced or published material, such as books, plays, articles, old screenplays etc. Use {{tl|based on}} or similar formatting where possible. Do not use this field where the source material is ambiguous.
+|
 |-
 ! scope="row" | developer
-| The show's developer or developers. This should be used over {{para|creator}} if the show is based on non-original material i.e. ''[[The Walking Dead (TV series)|The Walking Dead]]'' or ''[[Smallville]]'', unless a reliable source attributes a person with the title {{para|developer}}.
+|
 |-
 ! scope="row" | writer
-| The show's writer or writers. Do not use if the show has many (5+) writers.
+|
 |-
 ! scope="row" | screenplay
-| Used for television films. Insert the name(s) of the screenplay writer(s). Use this field instead of the normal writer field if films divide writing credits between screenplay and story writers. In addition, link each writer to his/her appropriate article if possible
+|
 |-
 ! scope="row" | story
-| Used for television films. Insert the name(s) of the story writer(s). Use this field instead of the normal writer field if films divide writing credits between screenplay and story writers. In addition, link each writer to his/her appropriate article if possible.
+|
 |-
 ! scope="row" | director
-| The show's [[Film director|director]].
+|
 |-
 ! scope="row" | creative_director
-| The show's [[creative director]].
+|
 |-
 ! scope="row" | {{Unbulleted list|presenter}}
-| The show's presenters or hosts. Presenters are listed in original credit order followed by order in which new presenters joined the show. Years or seasons should not be included.
+|
 |-
 ! scope="row" | starring
-| The show's starring cast. Cast are listed in original credit order followed by order in which new cast joined the show. Character names, years, or seasons should not be included.
+|
 |-
 ! scope="row" | judges
-| If the show involves judges, list them here. Judges are listed in original credit order followed by order in which new judges joined the show. Years or seasons should not be included.
+|
 |-
 ! scope="row" | voices
-| Any voice artists used in the show. Cast are listed in original credit order followed by order in which new cast joined the show. Character names, years, or seasons should not be included.
+|
 |-
 ! scope="row" | narrated
-| The show's [[narrator]]s (if applicable). Years or seasons should not be included.
+|
 |-
 ! scope="row" | theme_music_composer
-| The name of the composer of the show's theme music.
+|
 |-
 ! scope="row" | opentheme
-| The name of the opening theme for the show.
+|
 |-
 ! scope="row" | endtheme
-| The name of the ending theme for the show.
+|
 |-
 ! scope="row" | composer
-| The principal composer or composers providing incidental music for the show's episodes.
+|
 |-
 ! scope="row" | country
-| The show's country of origin. Do not use flag icons, as this places an unnecessary emphasis on nationality - see [[MOS:INFOBOXFLAG]] for a detailed rationale. Do not link to a country article, e.g., <nowiki>[[</nowiki>[[United States]]<nowiki>]]</nowiki>, per [[WP:OVERLINK]].
+|
 |-
 ! scope="row" | language
-| The original language or languages of the show. Do not link to a language article, e.g., <nowiki>[[</nowiki>[[English language]]<nowiki>|English]]</nowiki>, per [[WP:OVERLINK]].
+|
 |-
 ! scope="row" | {{Unbulleted list|num_seasons|num_series}}
-| The number of seasons (US) or series (UK) produced. Use one or the other, not both. The parameter should only be incremented once the first episode of that season or series has aired, or if a [[Wikipedia:Reliable sources|reliable source]] confirms production has commenced. An [[Wikipedia:Citing sources|inline citation]] is required if the total number of seasons produced is greater than the number aired.
+|
 |-
 ! scope="row" | num_episodes
-| The number of episodes released. This parameter should only be incremented when new episodes air. An [[Wikipedia:Citing sources|inline citation]] is required if the total number of episodes produced is greater than the number aired, such as in the case of a show being cancelled.
+|
 |-
 ! scope="row" | list_episodes
-| If a Wikipedia "List of" article exists for the show's episodes, put its name here. Do not use a link (i.e. do not include <nowiki>[[ ]]</nowiki>).
+|
 |-
 <!----------Production-specific---------->
 ! scope="col" colspan="2" style="text-align:center;" | Production-specific
 |-
 ! scope="row" | executive_producer
-| The executive producer or producers of the show.
+|
 |-
 ! scope="row" | producer
-| The producer or producers of the show.
+|
 |-
 ! scope="row" | news_editor
-| This field should be used to indicate the senior reporter who oversees the writing of news and magazine video content for a current affairs/political show such as [[Newsnight]].
+|
 |-
 ! scope="row" | location
-| Production location, i.e. where the show is/was shot. Leave blank if same as country of origin above.
+|
 |-
 ! scope="row" | cinematography
-| The director of [[cinematography]] or lead [[cameraman]].
+|
 |-
 ! scope="row" | animator
-| The animator or animators of the show.
+|
 |-
 ! scope="row" | editor
-| The [[Film editing|film editor(s)]].
+|
 |-
 ! scope="row" | camera
-| Either [[Single camera setup|Single-camera]] or [[Multicamera setup|Multi-camera]].
+|
 |-
 ! scope="row" | runtime
-| Episode duration. Should not include commercials and should be approximated, e.g. "22–26 minutes" for most half-hour shows.
+|
 |-
 ! scope="row" | company
-| The names of the production company or companies that funded/organized series production. Note: sub-contractors hired to perform production work, e.g. animation houses, special effects studios, post-production facilities etc. should not be included here, as this may create confusion about the nation(s) of origin. Instead, use sourced prose in the article's Production section to explain these details.
+|
 |-
 ! scope="row" | distributor
-| The names of the original distribution company or companies.
+|
 |-
 ! scope="row" | budget
-| Used for television films. The budget of the television film or miniseries.
+|
 |-
 <!----------Broadcast-specific---------->
 ! scope="col" colspan="2" style="text-align:center;" | Broadcast-specific
 |-
 ! scope="row" | network
-| The original network(s) on which the show has appeared. Do not add foreign broadcasters here. Use links if articles are available.
+|
 |-
 ! scope="row" | picture_format
-| The video or film format in which the show is or was originally recorded or broadcast ([[Black and white]], [[Film]], [[405-line]], [[NTSC]] ([[480i]]), [[PAL]] ([[576i]]), [[SECAM]] ([[576i]]), [[HDTV]] [[720p]], [[HDTV]] [[1080i]]). Do not use "[[SDTV]]" as it is ambiguous. Note that aspect ratios (4:3, 16:9 etc) are not a format and should not be included.
+|
 |-
 ! scope="row" | audio_format
-| The format in which the show's sound is broadcast ([[Monaural]], [[Stereophonic sound|Stereophonic]], [[Surround sound|Surround]]).
+|
 |-
 ! scope="row" | first_run
-| The country or region where the show was first broadcast. Omit if the same country as country of origin above or if the show has only been broadcast in one country or region. Do not link to a corresponding article per [[WP:OVERLINK]].
+|
 |-
 ! scope="row" | {{Unbulleted list|first_aired|released}}
-| Date the show first aired on its original network (''first_aired''), or was released on [[streaming media]] sites such as [[Netflix]] (''released''). Only insert the date after it has happened. The parameter is not restricted to a "premiere" date. In the event a program airs a full "preview" episode on TV in advance of a premiere, that date should be used instead. Use {{tl|Start date}} (e.g. <nowiki>{{Start date|1981|2|26}}</nowiki>) so that the date is included in the template's [[hCalendar]] microformat, and is properly formatted according to a reader's Wikipedia date and time [[Special:Preferences|preferences]]. Add {{mono|<nowiki>|df=y</nowiki>}} if the article [[WP:DATERET|uses]] the dmy date format.
+|
 |-
 ! scope="row" | last_aired
-| The first air date of the show's last episode on its original network. Use "present" if the show is ongoing or renewed and {{tl|End date}} if the show is ended. Only insert the last episode's date after it has happened. In some cases the fate of a program might be uncertain, for example if there are no announcements that a show has been renewed. If such a program has not aired a new episode in 12 months, "present" can be changed to the date the last episode aired, using {{tl|End date}}. This does not imply the series has been cancelled, rather that the program "last aired" on that date. This is to prevent programs from being listed as "present" in perpetuity. In the event that a program resumes airing after a long hiatus, such as more than 12 months between episodes or cancellation and subsequent renewal, the date is simply replaced with "present" to reflect the "current" status of the program.
+|
 |-
 <!----------Chronological---------->
 ! scope="col" colspan="2" style="text-align:center;" | Chronological
 |-
 ! scope="row" | preceded_by
-| If Show A was a predecessor of Show B, insert the name of Show A and production years − name in italics (linked if possible) followed by year-to-year in parentheses, e.g. <nowiki>''[[That Ol' Show]]'' (1956–1957)</nowiki>. This parameter should ''not'' be used to indicate a program that preceded another in a television lineup (i.e. the 8pm show vs the 8:30pm show), or to indicate what show replaced another in a specific time slot (ex: ''Temperatures Rising'' held the 8pm time slot before being replaced by ''Happy Days'').
+|
 |-
 ! scope="row" | followed_by
-| If Show A was a successor of Show B, insert the name of Show A and production years (as for {{para|preceded_by}} above). This parameter should ''not'' be used to indicate a program that followed another in a television lineup (i.e. the 8pm show vs the 8:30pm show), or to indicate what show replaced another in a specific time slot (ex: ''Temperatures Rising'' held the 8pm time slot before being replaced by ''Happy Days'').
+|
 |-
 ! scope="row" | related
-| Related TV shows, i.e. remakes, spin-offs, adaptations for different audiences, etc. For example, [[The Office (British TV series)|''The Office'' (British TV series)]] and [[The Office (American TV series)|''The Office'' (American TV series)]]; ''[[The Upper Hand]]'' and ''[[Who's the Boss?]]''; etc.. Note that simply sharing crossover episodes does not make series related.
+|
 |-
 <!----------External links---------->
 ! scope="col" colspan="2" style="text-align:center;" | External links
 |-
 ! scope="row" | website
-| The show's official website (usually hosted by the network or production company). Only enter the URL; Do not use {{tl|URL}} as formatting is automatic. If the URL exists on Wikidata this field may be omitted. If the Wikidata URL is no longer valid, it may be suppressed by using {{para|website|hide}}.
+|
 |-
 ! scope="row" | website_title
-| The name of the official website. If omitted, the default title is 'Website'.
+|
 |-
 ! scope="row" | production_website
-| A secondary official website (usually hosted by the network or production company). Only enter the URL; formatting is automatic. (Do not use {{tl|URL}} in this parameter.)
+|
 |-
 ! scope="row" | production_website_title
-| The name of the production website. If omitted, the default title is 'Production website'.
+|
 |}
 
 === Controlling line-breaking in embedded bulletless lists ===
