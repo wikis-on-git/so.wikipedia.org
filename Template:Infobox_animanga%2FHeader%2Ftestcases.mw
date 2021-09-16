@@ -1,0 +1,46 @@
+== Tijaabinta nooca sandbox ciidda ==
+
+{{Infobox animanga/Header/sandbox
+| child           = no
+| name            = {{{name}}}
+| image           = [[File:Bad Title Example.png|230px]]
+| caption         = This is an example image
+| ja_kanji        = {{{ja_kanji}}}
+| ja_romaji       = {{{ja_romaji}}}
+| genre           = {{{genre}}}
+}}
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Header/sandbox
+| name            = {{{name}}}
+| image           = [[File:Bad Title Example.png|230px]]
+| caption         = This is an example image
+| ja_kanji        = {{{ja_kanji}}}
+| ja_romaji       = {{{ja_romaji}}}
+| genre           = {{{genre}}}
+}}
+</pre>
+
+{{clear}}
+== Imtixaanka template ugu weyn ==
+
+{{Infobox animanga/Header
+| child           = no
+| name            = {{{name}}}
+| image           = [[File:Bad Title Example.png|230px]]
+| caption         = This is an example image
+| ja_kanji        = {{{ja_kanji}}}
+| ja_romaji       = {{{ja_romaji}}}
+| genre           = {{{genre}}}
+}}
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Header
+| name            = {{{name}}}
+| image           = [[File:Bad Title Example.png|230px]]
+| caption         = This is an example image
+| ja_kanji        = {{{ja_kanji}}}
+| ja_romaji       = {{{ja_romaji}}}
+| genre           = {{{genre}}}
+}}
+</pre>
