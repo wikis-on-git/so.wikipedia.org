@@ -1,0 +1,87 @@
+<includeonly>{{Warning|The base page, {{tl|Infobox animanga}}, should not be transcluded. See [[Template:Infobox animanga]] for usage instructions.}}</includeonly><noinclude>{{Wikipedia:WikiProject Anime and manga/Navbox}}
+
+Qaab-dhismeedkan waxaa haya [[Wikipedia:WikiProject Anime iyo manga]]. Waxaa loogu talagalay in wax laga qabto [[anime]], [[manga]], filimadooda la xiriira, [[Animation fiidiyaha asalka ah|AFAA]], iyo warbaahin kale oo la xiriirta, oo ku jira hal sanduuq oo macluumaad ah.
+
+== Usage ==
+Sanduuqan macluumaadka waxaa lagu dhisay sandwiching hal ama dhowr qaybood oo u dhexeeya madax iyo hoose.  Si joogto ah, waxaa lagu talinayaa in qaybaha lagu kala saaro taariikhda la sii daayo.
+
+ Haddii aan si kale loo xusin, beeruhu waa inay ka tarjumaan taariikhaha asalka ah ee Japan iyo cadadkooda, maadaama dalal/luqado badan ay horseedaan jahawareer.
+
+ Si joogto ah, sanduuqa macluumaadka waa inuu ku sii jiraa baaxadda maqaalka ay martida u tahay. Haddii, tusaale ahaan, bogag gooni ah ay u jiraan anime iyo filimkiisa la xiriira, qeybta filimku waa inaysan ka muuqan bogga anime, iyo sida kale. Qaybta "Kale" ayaa loo isticmaali karaa in lagu bixiyo xiriirinta shaqooyinkaas aadka isugu dhow. Sidoo kale, haddii mawduuca mawduuca koowaad uusan ahayn taxane anime ama manga, oo taxanaha noocan oo kale ah uusan helin wax ka badan xusid dhacdo ah, maqaalku waa inuu adeegsadaa sanduuqa macluumaadka ee loogu talagalay nooca warbaahinta ee diiraddiisa (tusaale ahaan maqaallada ku saabsan sheekooyinka iyo taxanaha sheekooyinka isticmaasho {{tl|Infobox Book}}, maqaallada ku saabsan filimada waa inay isticmaalaan {{tl|Infobox film}}.
+
+Halbeegga ''cinwaanka'' halbeeg kasta waa ''ikhtiyaar'' , waana in la adeegsadaa marka cinwaanka anime/manga/iwm.  wuu ka duwan yahay ''magac'' xuduuda cinwaanka ama (haddii aan midna la siin) cinwaanka maqaalka.
+
+Xuduudaha kale waxaa lagu diiwaangeliyaa qaybaha soo socda.
+
+=== [[Template:Infobox animanga/Header|Header]] ===
+{{Infobox animanga/Header/doc}}
+=== [[Template:Infobox animanga/Footer|Footer]] ===
+{{Infobox animanga/Footer/doc}}
+=== [[Template:Infobox animanga/Print|Print]] ===
+{{Infobox animanga/Print/doc}}
+=== [[Template:Infobox animanga/Video|Video]] ===
+{{Infobox animanga/Video/doc}}
+=== [[Template:Infobox animanga/Audio|Audio drama]] ===
+{{Infobox animanga/Audio/doc}}
+=== [[Template:Infobox animanga/Game|Game]] ===
+{{Infobox animanga/Game/doc}}
+=== [[Template:Infobox animanga/Other|Other]] ===
+{{Infobox animanga/Other/doc}}
+
+== Examples ==
+'''Note''': These examples might not contain accurate information.
+
+=== An invented example ===
+{{Infobox animanga/Header
+| name            = Go Go! Encyclopedia Girls
+| image           = [[File:Wikipe-tan manga page1.jpg|260px]]
+| caption         = Wikipe-tan and her sisters
+| ja_kanji        = いけいけ! 百科事典娘
+| ja_romaji       = Ike Ike! Hakkajiten Musume
+| genre           = [[Action (fiction)|Action]], [[Romance novel|Romance]]
+}}
+{{Infobox animanga/Print
+| type            = manga
+| author          = [[Jimbo Wales]] and [[Special:ListUsers|{{NUMBEROFUSERS}} others]]
+| illustrator     = [[User:Kasuga~enwiki]]
+| publisher       = [[Wikimedia Foundation]]
+| magazine        = [[Wikipedia]]
+| first           = January 15, 2001
+| last            = 
+| volumes         = {{NUMBEROFARTICLES}} articles
+}}
+{{Infobox animanga/Footer|full=yes}}
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Header
+| name            = Go Go! Encyclopedia Girls
+| image           = [[File:Wikipe-tan manga page1.jpg|260px]]
+| caption         = Wikipe-tan and her sisters
+| ja_kanji        = いけいけ！百科事典娘
+| ja_romaji       = Ike Ike! Hakkajiten Musume
+| genre           = [[Action (fiction)|Action]], [[Romance novel|Romance]]
+}}
+{{Infobox animanga/Print
+| type            = manga
+| author          = [[Jimbo Wales]] and [[Special:ListUsers|{{NUMBEROFUSERS}} others]]
+| illustrator     = [[User:Kasuga]]
+| publisher       = [[Wikimedia Foundation]]
+| magazine        = [[Wikipedia]]
+| first           = January 15, 2001
+| last            = 
+| volumes         = {{NUMBEROFARTICLES}} articles
+}}
+{{Infobox animanga/Footer}}
+</pre>
+{{clear}}
+
+== Sido kale firi ==
+* {{tl|Infobox Taxanaha majaajilada Asia}}: infobox loo isticmaalo [[manhwa]], [[manhua]], iyo [[Manga luqadda Ingiriisiga asalka ah|majaajilooyin saameyn ku yeeshay manga]]
+
+[[Category:Anime and manga infobox templates|Infobox animanga]]
+[[Category:Publishing infobox templates|Animanga]]
+[[Category:Television infobox templates|Animanga]]
+[[Category:Templates that add a category]]<!-- subtemplates add TEMPLATECAT categories -->
+
+{{DISPLAYTITLE:Template:Infobox animanga|noerror}}
+</noinclude>
