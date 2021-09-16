@@ -1,0 +1,66 @@
+{{
+  #ifeq: {{{child<includeonly>|yes</includeonly>}}} | yes
+  | <table class="infobox" style="width: 22em">
+}}{{Infobox
+| decat          = yes
+| child          = {{{child|<includeonly>yes</includeonly>}}}
+| bodystyle      = border-spacing:2px;
+| italic title   = {{{italic title|}}}
+
+| subheaderstyle = background:#CCF; font-size:125%; font-style:italic; font-weight:bold; 
+| subheader      = {{
+  #ifeq: {{NAMESPACE}} | Template
+  | {{{name|}}}
+  | {{#if:{{{name|}}}|{{{name|}}}|{{PAGENAME}}}}
+}}
+
+| image          = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{imagesize|{{{image_size|}}}}}} |sizedefault=frameless |alt={{{alt|}}} }}
+| caption        = {{{caption|}}}
+
+| headerstyle    = background:#DDF; padding:0.3em; line-height:1.3em; font-weight:normal; 
+
+| header1  = {{
+  #if: {{{ja_kanji|}}} | {{Nihongo2|{{bigger|{{{ja_kanji}}}}}}}{{
+    #if: {{{ja_romaji|}}} | <br />({{transl|ja|{{{ja_romaji}}}}})
+  }}
+}}
+
+| label2   = Genre
+| data2    = {{{genre|}}}
+
+| label3   = Created&nbsp;by
+| data3    = {{{creator|}}}
+}}{{
+  #ifeq: {{NAMESPACE}} | {{ns:0}} | {{
+    #if: {{{image|}}} || [[Category:Wikipedia requested photographs of anime and manga]]
+  }}{{
+    #if: {{{ja_romaji|}}} | {{
+      #ifeq: {{{name|{{PAGENAME}}}}} | {{{ja_romaji}}} | [[Category:Anime and manga articles with redundant infobox parameters]]
+    }}
+  }}
+}}{{
+  #switch: {{NAMESPACE}}
+  | Talk
+  | Template
+  | Template talk
+  | Wikipedia
+  | Wikipedia talk =
+  | {{#ifeq: {{{image|¬}}} | ¬ | [[Category:Anime and manga articles with missing image parameters]]
+  }}{{#ifeq: {{{caption|¬}}} | ¬ | [[Category:Anime and manga articles with missing image parameters]]
+  }}{{#ifeq: {{{genre|¬}}} | ¬ | [[Category:Anime and manga articles with missing genre parameters]]
+  }}
+}}{{#if:{{#invoke:String2|matchAny|source={{lc:{{{genre}}}}}|ecchi|shonen|shounen|shojo|shoujo|seinen|josei|kodomo|children}}|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
+}}{{#ifeq:{{#invoke:String|find|{{lc:{{{genre}}}}}|shōnen}}|0||{{
+    #ifeq:{{#invoke:String|find|{{lc:{{{genre}}}}}|shōnen-ai}}|0|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]}}
+}}{{#ifeq:{{#invoke:String|find|{{lc:{{{genre}}}}}|shōjo}}|0||{{
+    #ifeq:{{#invoke:String|find|{{lc:{{{genre}}}}}|shōjo-ai}}|0|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]}}
+}}{{#invoke:Check for unknown parameters|check
+  | unknown = [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|_VALUE_{{PAGENAME}}]]
+  | child | italic title
+  | name
+  | image | caption | imagesize | image_size | alt
+  | ja_kanji | ja_romaji| genre
+  | creator
+}}<noinclude>
+{{Documentation}}
+</noinclude>
