@@ -1,0 +1,260 @@
+{{Infobox
+|child          = {{{child|<includeonly>yes</includeonly>}}}
+|bodystyle      = border-spacing:2px;
+
+|subheader      = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv | series
+  | tv series    = Anime television series
+  | tv movie
+  | tv film      = Anime television film 
+  | music
+  | music video  = Music video
+  | commercial
+  | spot         = Television commercial
+  | movie | film = Anime film
+  | movie series
+  | film series  = Anime film series
+  | oav   | ova  = [[Original video animation]]
+  | oad          = [[Original animation DVD]]
+  | ona          = [[Original net animation]]
+  | drama        = Television drama
+  | special
+  | live tv film = Live-action television film
+  | live video   = Live-action video
+  | live movie
+  | live film    = Live-action film
+  | #default     = Anime
+}}
+|subheaderstyle = background:#CCF; font-weight:bold;
+
+|headerstyle    = background:#EEF; font-weight:normal; 
+
+|header1  = {{ #if: {{{title<includeonly>|</includeonly>}}} | ''{{{title}}}'' }}
+
+|label2   = Directed&nbsp;by
+|data2    = {{{director<includeonly>|</includeonly>}}}
+
+|label3   = Produced&nbsp;by
+|data3    = {{{producer<includeonly>|</includeonly>}}}
+
+|label4   = Written&nbsp;by
+|data4    = {{{writer<includeonly>|</includeonly>}}}
+
+|label5   = Music&nbsp;by
+|data5    = {{{music<includeonly>|</includeonly>}}}
+
+|label6   = Studio
+|data6    = {{{studio<includeonly>|</includeonly>}}}
+
+|label7   = Licensed&nbsp;by
+|data7    = {{{licensee<includeonly>|</includeonly>}}}
+
+|label8   = Original network
+|data8    = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv         | series
+  | tv series  | tv movie
+  | tv film    | drama
+  | commercial | spot  
+  | special = {{{network<includeonly>|</includeonly>}}}
+}}
+
+|label9   = English network
+|data9    = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv         | series
+  | tv series  | tv movie
+  | tv film    | drama
+  | commercial | spot  
+  | special = {{{network_en<includeonly>|</includeonly>}}}
+}}
+
+|label10  = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv        | series
+  | tv series | drama  = Original run
+  | #default           = Released
+}}
+
+|data10   = {{
+  #if: {{{released<includeonly>|</includeonly>}}} | {{{released}}} | {{
+    #if: {{{first|}}} | {{nowrap | {{{first}}} }} – {{
+      #if: {{{last<includeonly>|</includeonly>}}} | {{nowrap | {{{last}}}}} | present
+    }}
+  }}
+}}
+
+|label11  = Runtime
+|data11   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv movie | tv film 
+  | commercial | spot  
+  | special
+  | movie | film
+  | movie series | film series
+  | oav | ova | ona | oad
+  | music | music video
+  | live video
+  | live movie
+  | live film = {{{runtime<includeonly>|</includeonly>}}}
+}}
+
+|label12  = Budget
+|data12   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv movie | tv film 
+  | commercial | spot  
+  | special
+  | movie | film
+  | movie series | film series
+  | oav | ova | ona | oad
+  | music | music video
+  | live video
+  | live movie
+  | live film = {{{budget<includeonly>|</includeonly>}}}
+}}
+
+|label13  = Box office
+|data13   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv movie | tv film 
+  | commercial | spot  
+  | special
+  | movie | film
+  | movie series | film series
+  | oav | ova | ona | oad
+  | music | music video
+  | live video
+  | live movie
+  | live film = {{{gross<includeonly>|</includeonly>}}}
+}}
+
+|label14  = <!--Episodes-->{{
+  #switch: {{ lc: {{{type}}} }}
+  | movie series
+  | film series  = Films
+  | #default     = Episodes
+}}
+|data14   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv  | series
+  | tv series
+  | drama
+  | movie series | film series
+  | oav | ova 
+  | oad | ona = {{
+    #if: {{{episodes<includeonly>|</includeonly>}}}{{{films|}}} | {{{episodes|{{{films}}}}}} {{
+      #if: {{{episode_list<includeonly>|</includeonly>}}}{{{film_list|}}} | <span class="noprint">([[{{{episode_list|{{{film_list|<includeonly>List of {{
+  #switch: {{ lc: {{{type}}} }}
+  | movie series
+  | film series  = films
+  | #default     = episodes
+}}</includeonly>}}}}}}|List of {{
+  #switch: {{ lc: {{{type}}} }}
+  | movie series
+  | film series  = films
+  | #default     = episodes
+}}]])</span>
+    }}
+  }}
+}}
+}}<includeonly>{{#ifeq: {{Yesno-no|{{{nocat|}}}}} | no | {{
+  #ifeq: {{NAMESPACE}} | {{ns:0}} | {{
+    #switch: {{ lc: {{{type|tv anime}}} }}
+    | tv | series
+    | tv series           = {{
+      #if: {{{first|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Y | {{{first}}} }} > {{CURRENTYEAR}}|[[Category:Upcoming anime television series]] | {{ #time: "[[Category:"Y "anime television series]]" | {{{first}}} }}}}{{ #ifexpr: {{ #time: Ymd | {{{first}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming anime television series]] }} | [[Category:Anime series]]<!-- [[Category:Anime and manga articles with malformed first and last infobox parameters]] --> }}
+    }}
+    | tv movie | tv film  = [[Category:Anime television films]]{{
+      #if: {{{released|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
+    }}
+    | movie | film        
+    | movie series        
+    | film series         = {{
+      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
+    }}
+    | oav | oad | ova     = {{
+      #if: {{{first|}}}{{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime OVAs]]" | {{if empty|{{{first|}}}|{{{released}}}}} }} | [[Category:Anime OVAs]]<!-- [[Category:Anime and manga articles with malformed first and last infobox parameters]] --> }}
+    }}
+    | drama               = [[Category:Japanese television dramas based on manga]]
+    | special             = [[Category:Japanese television specials]]
+    | live tv film        = {{
+      #if: {{{released|}}} | [[Category:Japanese television films]]{{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
+    }}
+    | live video
+    | live movie
+    | live film           = {{
+      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Japanese films]][[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
+    }}{{
+       #ifeq: {{{type}}} | live video | 
+    }}
+    | spot | commercial   = [[Category:Television commercials]]
+    | music | music video = [[Category:Music videos]]
+  }}
+}}{{
+  #ifeq: {{{title}}} | {{PAGENAME}} | [[Category:Anime and manga articles with redundant infobox parameters]]
+}}{{
+  #if: {{{first|}}} | {{
+    #ifeq: {{{first}}} | {{{last}}} | [[Category:Anime and manga articles with identical first and last infobox parameters]]
+  }}{{
+    #switch: {{ lc: {{{last}}} }}
+    | ongoing | (ongoing)
+    | on-going | (on-going)
+    | current | (current)
+    | present | (present) = [[Category:Anime and manga articles with redundant infobox parameters]]
+  }} | {{
+    #if: {{{released|}}} || {{main other|[[Category:Anime (year of release missing)]]}}
+  }}
+}}{{ <!-- Required parameter checks -->
+  #ifeq: {{{director|¬}}} | ¬ | [[Category:Anime and manga articles with missing director parameters]]
+}}{{
+  #ifeq: {{{studio|¬}}} | ¬ | [[Category:Anime and manga articles with missing studio parameters]]
+}}{{
+  #ifeq: {{{first|{{{released|¬}}}}}} | ¬ | [[Category:Anime and manga articles with missing release parameters]]
+}}{{ 
+  #switch: {{ lc: {{{type}}} }}
+  | tv | series | tv series
+  | tv movie    | tv film
+  | drama       | special    = {{
+    #ifeq: {{{network|¬}}} | ¬ | [[Category:Anime and manga articles with missing network parameters]]
+  }}
+}}{{ 
+  #switch: {{ lc: {{{type}}} }}
+  | tv movie    | tv film
+  | movie       | film
+  | oav  | ova  | ona          
+  | special     | live video
+  | live movie  | live film    = {{
+    #ifeq: {{{runtime|¬}}} | ¬ | [[Category:Anime and manga articles with missing runtime parameters]]
+  }}
+}}{{ 
+  #switch: {{ lc: {{{type}}} }}
+  | oav | ova | ona | live video = {{
+    #ifeq: {{{first|¬}}} | ¬ | {{
+      #iferror: {{ 
+        #ifexpr: {{{episodes|0}}} = 1 | [[Category:Anime and manga articles with redundant infobox parameters]]
+      }}
+    }}
+  }}
+}}<!-- Flag icon check -->{{#ifeq:{{#invoke:String|find|{{{studio}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{licensee|{{{licensor}}}}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{network}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{network_en}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}<!-- Stream fields check check -->{{#if:{{#invoke:String2|matchAny|source={{lc:{{{network_en}}}}}|animelab|crunchyroll|daisuki|hulu|viewster|youtube}}|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
+}}{{#ifeq:{{#invoke:String|find|{{lc:{{{episodes}}}}}|ongoing}}|0||[[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Ongoing]]
+}}{{#invoke:Check for unknown parameters|check
+  | unknown = [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|_VALUE_{{PAGENAME}}]]
+  | child
+  | type | title
+  | director | producer | writer | music
+  | studio | licensee
+  | network | network_en
+  | released | first | last
+  | runtime
+  | episodes | episode_list
+  | films | film_list
+}}}}</includeonly><noinclude>
+
+{{Documentation}}
+</noinclude>
