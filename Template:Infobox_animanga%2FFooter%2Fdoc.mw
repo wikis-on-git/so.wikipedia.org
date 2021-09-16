@@ -1,0 +1,25 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | 
+<div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Footer/doc]]. <small style="font-style: normal">([{{fullurl:Template:Infobox animanga/Footer/doc|action=edit}} edit] {{!}} [{{fullurl:Template:Infobox animanga/Footer/doc|action=history}} history])</small><br /></div> | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of the infobox.}} }}
+
+{{Infobox animanga/Footer|child=no}}
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Footer}}
+</pre>
+
+{| class="wikitable" style="width: 100%; clear: right;"
+|-
+! width="100px" | Parameter
+! Explanation
+|-
+| portal
+| Displays link to the [[Portal:Anime and manga|Anime and manga portal]], default is '''yes'''
+|}<includeonly>{{Sandbox other||
+{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Anime and manga infobox templates|Footer]]
+[[Category:Embeddable templates]]
+
+}}}}</includeonly>
