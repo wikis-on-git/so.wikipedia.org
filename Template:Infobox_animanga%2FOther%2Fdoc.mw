@@ -1,0 +1,44 @@
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | 
+<div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Other/doc]]. <small style="font-style: normal">([{{fullurl:Template:Infobox animanga/Other/doc|action=edit}} edit] {{!}} [{{fullurl:Template:Infobox animanga/Other/doc|action=history}} history])</small><br /></div> | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of the infobox.}} }}
+
+{{Infobox animanga/Other
+| child           = no
+| title           = {{{title}}}
+| content         = {{{content}}}
+}}
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Other
+| title           = 
+| content         = 
+}}
+</pre>
+
+{| class="wikitable" style="width: 100%; clear: right;"
+|-
+! width="100px" | Parameter
+! Explanation
+|-
+| title
+| Title of the component.
+|-
+| content
+| Content of the infobox. To use wiki-style bullets with this component, you must start the bullets on the next line and not on the same line as content, as seen below:
+
+<pre style="width:auto; overflow:auto">
+{{Infobox animanga/Other
+| title           = 
+| content         = 
+* [[thing1]]
+* [[thing2]]
+}}
+</pre>
+|}<includeonly>{{Sandbox other||
+{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Anime and manga infobox templates|Other]]
+[[Category:Embeddable templates]]
+
+}}}}</includeonly>
