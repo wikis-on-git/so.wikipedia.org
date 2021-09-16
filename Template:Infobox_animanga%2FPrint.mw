@@ -1,6 +1,8 @@
 this page and interwikis go in Wikidata. -->
 {{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | 
 <div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Print/doc]]. <small style="font-style: normal">([{{fullurl:Template:Infobox animanga/Print/doc|action=edit}} edit] {{!}} [{{fullurl:Template:Infobox animanga/Print/doc|action=history}} history])</small><br /></div> | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of the infobox.}} }}
+{{Documentation}}
+</noinclude>
 
 ==== Manga ====
 
