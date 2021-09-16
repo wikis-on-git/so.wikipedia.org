@@ -409,20 +409,3 @@
 | gross
 | Worldwide gross revenue accrued by the work.  If worldwide gross is not available, then indicate which region has grossed that amount. Use condensed, rounded values ($22.4 million vs $22,392,684).
 |}
-
-==== Tracking categories ====
-* {{Category link with count|Anime and manga articles with identical first and last infobox parameters}}
-* {{Category link with count|Anime and manga articles with malformed first and last infobox parameters}}
-* {{Category link with count|Anime and manga articles with missing infobox parameters}}
-* {{Category link with count|Anime and manga articles with redundant infobox parameters}}
-* {{Category link with count|Anime and manga articles using obsolete and incorrect infobox parameters}}
-
-{{Film- and television-related infobox templates}}
-<includeonly>{{Sandbox other||
-{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
-<!-- Categories below this line, please; interwikis at Wikidata -->
-[[Category:Anime and manga infobox templates|Video]]
-[[Category:Embeddable templates]]
-[[Category:Templates that add a tracking category]]
-
-}}}}</includeonly>
