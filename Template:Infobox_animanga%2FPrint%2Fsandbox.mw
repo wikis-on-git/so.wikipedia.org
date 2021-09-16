@@ -1,0 +1,144 @@
+{{Infobox
+|child          = {{{child|<includeonly>yes</includeonly>}}}
+|bodystyle      = border-spacing:2px;
+|subheader      = {{#switch: {{ lc: {{{type}}} }}
+    | novel               = Novel
+    | serial novel        = Serial novel
+    | novel series        = Novel series
+    | light novel         = Light novel
+    | film comic          = Film comic
+    | other               = Other book
+    | #default            = Manga
+  }}
+|subheaderstyle = background:#CCF; font-weight:bold;
+
+|headerstyle    = background:#EEF; font-weight:normal; 
+
+|header1  = {{ #if: {{{title<includeonly>|</includeonly>}}} | ''{{{title}}}'' }}
+
+|label2   = Written&nbsp;by
+|data2    = {{{author<includeonly>|</includeonly>}}}
+
+|label3   = Illustrated&nbsp;by
+|data3    = {{ #ifeq: {{{illustrator}}} | {{{author}}} || {{{illustrator<includeonly>|</includeonly>}}} }}
+
+|label4   = Published&nbsp;by
+|data4    = {{{publisher<includeonly>|</includeonly>}}}
+
+|label5   = Magazine
+|data5    = {{
+    #switch: {{ lc: {{{type}}} }}
+    | novel    = 
+    | #default = {{ #if: {{{magazine<includeonly>|</includeonly>}}} | ''{{{magazine}}}'' }}
+  }}
+  
+|label6   = Imprint
+|data6    = {{{imprint<includeonly>|</includeonly>}}}
+
+|label7   = Demographic
+|data7    = {{{demographic<includeonly>|</includeonly>}}}
+
+|label8  = {{
+    #switch: {{ lc: {{{type}}} }}
+    | novel    = Published
+    | #default = {{ #if: {{{published|}}} | Published | Original run }}
+  }}
+|data8   = {{
+    #switch: {{ lc: {{{type}}} }}
+    | novel    = {{{published|}}}
+    | #default = {{
+      #if: {{{published|}}} | {{{published}}} | {{
+        #if: {{{first<includeonly>|</includeonly>}}} | {{nowrap|{{{first}}}}} – {{
+          #if: {{{last<includeonly>|</includeonly>}}} | {{nowrap|{{{last}}}}} | present
+        }}
+      }}
+    }}
+  }}
+
+|label9  = Volumes
+|data9   = {{
+    #switch: {{ lc: {{{type}}} }}
+    | novel    =
+    | #default = {{
+      #if: {{{volumes<includeonly>|</includeonly>}}} | {{{volumes}}} {{
+        #if: {{{volume_list<includeonly>|</includeonly>}}}{{{chapter_list|}}} | <span class="noprint">([[{{{volume_list|{{{chapter_list<noinclude>|List of volumes</noinclude>}}}}}}|List of volumes]])</span>
+      }}
+    }}
+  }}
+  
+|label10   = English publisher
+|data10    = {{{publisher_en<includeonly>|</includeonly>}}}
+
+|label11   = English magazine
+|data11    = {{
+    #switch: {{ lc: {{{type}}} }}
+    | novel    = 
+    | #default = {{ #if: {{{magazine_en<includeonly>|</includeonly>}}} | ''{{{magazine_en}}}'' }}
+  }}
+
+}}<includeonly>{{
+  #ifeq: {{NAMESPACE}} | {{ns:0}} | {{
+    #switch: {{ lc: {{{type|manga}}} }}
+    | manga        = [[Category:Manga series]]{{
+      #if: {{{first|}}} | {{ #iferror: {{ #time: "[[Category:"Y "manga]]" | {{{first|}}} }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
+    }}
+  }}
+}}{{ <!-- What a hack -->
+  #if: {{{magazine|}}} | | {{
+    #if: {{{first|}}} | {{
+      #iferror: {{
+        #ifexpr: {{{volumes|0}}} <= 1 | {{
+          #if: {{{last|}}} || {{main other|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Volumes]]}}
+        }}
+      }}
+    }}
+  }}
+}}{{ <!-- Redundant parameter check -->
+  #ifeq: {{{title}}} | {{PAGENAME}} | [[Category:Anime and manga articles with redundant infobox parameters]]
+}}{{
+  #if: {{{illustrator|}}} | {{
+    #ifeq: {{{illustrator}}} | {{{author}}} | [[Category:Anime and manga articles with redundant infobox parameters]]
+  }}
+}}{{
+  #if: {{{first|}}} | {{
+    #ifeq: {{{first}}} | {{{last}}} | [[Category:Anime and manga articles with identical first and last infobox parameters]]
+  }}{{
+    #switch: {{ lc: {{{last}}} }}
+    | ongoing | (ongoing)
+    | on-going | (on-going)
+    | current | (current)
+    | present | (present) = [[Category:Anime and manga articles with redundant infobox parameters]]
+  }} | {{
+    #if: {{{published|}}} || {{main other|[[Category:Manga (year of release missing)]]}}
+  }}
+}}{{ <!-- Check for confusion between serial novels and novel series -->
+  #ifeq: {{ lc: {{{type}}} }} | serial novel | {{
+    #if: {{{magazine}}} | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Magazine]]
+  }}
+}}{{ <!-- Required parameter check -->
+  #ifeq: {{{author|¬}}} | ¬ | [[Category:Anime and manga articles with missing author parameters]]
+}}{{
+  #ifeq: {{{publisher|¬}}} | ¬ | [[Category:Anime and manga articles with missing publisher parameters]]
+}}{{
+  #ifeq: {{{first|{{{published|¬}}}}}} | ¬ | [[Category:Anime and manga articles with missing publication parameters]]
+}}<!-- Flag icon check 
+-->{{#ifeq:{{#invoke:String|find|{{{publisher}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{publisher_en}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{magazine}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{magazine_en}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{lc:{{{volumes}}}}}|ongoing}}|0||[[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Ongoing]]
+}}<!-- Unknown parameters check
+-->{{#invoke:Check for unknown parameters|check
+  | unknown = [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|_VALUE_{{PAGENAME}}]]
+  | child
+  | type | title
+  | author | illustrator
+  | publisher | publisher_en | imprint
+  | magazine | magazine_en
+  | demographic
+  | first | last | published
+  | volumes | volume_list | chapter_list
+}}</includeonly><noinclude>
+
+{{Documentation}}
+</noinclude>
