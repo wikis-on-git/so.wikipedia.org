@@ -9,18 +9,3 @@
 | creator         = {{{creator}}}
 }}
 {{Documentation subpage}}
-
-==== Tracking categories ====
-* {{clc|Anime and manga articles with missing infobox parameters}}
-* {{clc|Anime and manga articles with redundant infobox parameters}}
-* {{clc|Anime and manga articles using obsolete and incorrect infobox parameters}}
-* {{clc|Anime and manga articles with a missing image caption}}
-* {{clc|Wikipedia requested photographs of anime and manga}}
-<includeonly>{{Sandbox other||
-{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
-<!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
-[[Category:Anime and manga infobox templates|Header]]
-[[Category:Embeddable templates]]
-[[Category:Templates that add a tracking category]]
-
-}}}}</includeonly>
