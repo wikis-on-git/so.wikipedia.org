@@ -1,0 +1,83 @@
+{{Infobox
+|bodystyle   = {{Comics infobox sec|1}}
+|abovestyle  = {{Comics infobox sec|2}}
+|titlestyle  = {{Comics infobox sec|2}}
+|headerstyle = {{Comics infobox sec|2}}
+|labelstyle  = {{Comics infobox sec|3}}
+|belowstyle  = {{Comics infobox sec|4}}
+|bodyclass   = {{{bodyclass|}}}
+
+|above={{{name|{{PAGENAMEBASE}}}}}
+
+| image     = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{imagesize|}}}|alt={{{alt|}}}}} 
+|caption= {{#if:{{{caption|}}}|{{{caption|}}}}}
+
+|label1  = Earliest publications
+|data1   = {{{date|}}}
+|label2  = Publishers
+|data2   = {{#if:{{{notable publishers|}}}|{{{notable publishers|}}}|<!--
+-->{{{pub1|}}}{{#if:{{{pub2|}}}|<br><!--
+-->{{{pub2|}}}}}{{#if:{{{pub3|}}}|<br><!--
+-->{{{pub3|}}}}}{{#if:{{{pub4|}}}|<br><!--
+-->{{{pub4|}}}}}{{#if:{{{pub5|}}}|<br><!--
+-->{{{pub5|}}}}} }}
+|label3  = Publications
+|data3   = {{#if:{{{notable titles|}}}|{{{notable titles|}}}|<!--
+-->{{#if:{{{title1|}}}|''{{{title1|}}}''}}{{#if:{{{title2|}}}|<br><!--
+-->''{{{title2|}}}''}}{{#if:{{{title3|}}}|<br><!--
+-->''{{{title3|}}}''}}{{#if:{{{title4|}}}|<br><!--
+-->''{{{title4|}}}''}}{{#if:{{{title5|}}}|<br><!--
+-->''{{{title5|}}}''}} }}
+|label4  = Creators
+|data4   = {{#if:{{{notable people|}}}|{{{notable people|}}}|<!--
+-->{{{person1|}}}{{#if:{{{person2|}}}|<br><!--
+-->{{{person2|}}}}}{{#if:{{{person3|}}}|<br><!--
+-->{{{person3|}}}}}{{#if:{{{person4|}}}|<br><!--
+-->{{{person4|}}}}}{{#if:{{{person5|}}}|<br><!--
+-->{{{person5|}}}}} }}
+|label5  = {{#if:{{{series1|}}}{{{notable series|}}}|{{#if:{{{character1|}}}{{{notable characters|}}}|Series and characters|Series}}|Characters}}
+|data5   = {{#if:{{{notable series|}}}{{{notable characters|}}}|{{{notable series|}}}{{#if:{{{notable series|}}}|
+{{{notable characters|}}}|{{{notable characters|}}} }}|<!--
+-->{{#if:{{{series1|}}}|"{{{series1|}}}"}}<!--
+-->{{#if:{{{series2|}}}|<br>"{{{series2|}}}"}}<!--
+-->{{#if:{{{series3|}}}|<br>"{{{series3|}}}"}}<!--
+-->{{#if:{{{series4|}}}|<br>"{{{series4|}}}"}}<!--
+-->{{#if:{{{series5|}}}|<br>"{{{series5|}}}"}}<!--
+-->{{#if:{{{series1|}}} }}|{{#if:{{{notable characters|}}}|{{{notable characters|}}}|<!--
+-->{{#if:{{{character1|}}}|<br>{{{character1|}}}}}|{{{character1|}}}}}<!--
+-->{{#if:{{{character2|}}}|<br>{{{character2|}}}}}<!--
+-->{{#if:{{{character3|}}}|<br>{{{character3|}}}}}<!--
+-->{{#if:{{{character4|}}}|<br>{{{character4|}}}}}<!--
+-->{{#if:{{{character5|}}}|<br>{{{character5|}}}}} }}
+|label6  = Languages
+|data6   = {{#if:{{{primary languages|}}}|{{{primary languages|}}}|<!--
+-->{{{lang1|}}}{{#if:{{{lang2|}}}|<br><!--
+-->{{{lang2|}}}}}{{#if:{{{lang3|}}}|<br><!--
+-->{{{lang3|}}}}}{{#if:{{{lang4|}}}|<br><!--
+-->{{{lang4|}}}}} }}
+|header7 = {{#if:{{{related articles|}}}{{{related1|}}}|Related articles}}
+|below = {{#if:{{{related articles|}}}|{{flatlist|
+{{{related articles|}}} }}|<!--
+-->{{{related1|}}}<!--
+-->{{#if:{{{related2|}}}|<br>{{{related2|}}}}}<!--
+-->{{#if:{{{related3|}}}|<br>{{{related3|}}}}} }}
+}}<includeonly><!--
+
+Cats
+
+-->{{Namespace detect | main = [[Category:{{{name|{{PAGENAME}}}}}| {{PAGENAME}}]]}}<!--
+
+Maintenance cats
+
+-->{{#ifeq:{{{title|none}}}|{{PAGENAME}}|[[Category:Redundant infobox title param|{{PAGENAME}}]]|}}<!--
+-->{{#if:{{{image|}}}|{{#if:{{{caption|}}}||[[Category:Comics infobox image less caption|{{PAGENAME}}]]}}}}<!--
+-->{{#if:{{{image|}}}|{{#if:{{{alt|}}}||[[Category:Comics infobox image less alt text|{{PAGENAME}}]]}}}}<!--
+-->{{#if:{{{imagesize|}}}|{{#ifexpr:250>{{#expr:{{{imagesize|}}}}}||[[Category:Comics infobox with unneeded imagesize|{{#switch:{{{imagesize|}}}
+            |250 = •
+            |{{{imagesize|}}}
+          }} {{PAGENAME}}]]}}}}<!--
+-->{{#if:{{NAMESPACE}}|[[Category:Misplaced comics infoboxes|N {{PAGENAME}}]]|[[Category:Comics nationality pop|{{PAGENAME}}]]}}<!--
+--></includeonly><noinclude>
+__TOC__
+{{documentation}}
+</noinclude>
