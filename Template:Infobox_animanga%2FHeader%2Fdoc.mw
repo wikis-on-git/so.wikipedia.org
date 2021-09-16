@@ -1,0 +1,59 @@
+{{Documentation subpage}}
+<!----PLEASE ADD CATEGORIES WHERE INDICATED AT THE BOTTOM OF THIS PAGE---->
+{{#ifeq:{{PAGENAME}}|{{BASEPAGENAME}} 
+ | <div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Header/doc]]&nbsp;<small style="font-style:normal;">([{{fullurl:Template:Infobox animanga/Header/doc|action=edit}} edit]{{dot}}[{{fullurl:Template:Infobox animanga/Header/doc|action=history}} history]).</small><br/></div>
+ | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of this infobox.}}
+}}
+
+{{Infobox animanga/Header
+| child           = no
+| name            = {{{name}}}
+| image           = [[File:Example.svg|230px]]
+| caption         = This is an example image
+| ja_kanji        = {{{ja_kanji}}}
+| ja_romaji       = {{{ja_romaji}}}
+| genre           = {{{genre}}}
+| creator         = {{{creator}}}
+}}
+
+<pre style="width:auto;overflow:auto;">
+{{Infobox animanga/Header
+| name            = 
+| image           = 
+| caption         = 
+| ja_kanji        = 
+| ja_romaji       = 
+| genre           = <!-- Note: Use and cite reliable sources to identify genre/s, not personal interpretation. Please don't include more than three genres (per [[MOS:A&M]]). -->
+| creator         = 
+}}
+</pre>
+
+{{Aligned table
+ |class=wikitable |style=line-height:1.35em;
+ |col1style=padding:0.25em 0.5em;font-style:italic;
+ |col2style=padding:0.25em 0.5em;
+ |row1style=background:whitesmoke;font-weight:bold;
+ | {{noitalic|Parameter}} | Description
+ | name      | Full common name of the anime, manga, light novel, or etc. Defaults to article name.
+ | image     | A relevant image for the work, which should be a movie poster, a DVD/VHS cover, screenshot, or another related image. Be sure to include a valid fair use rationale for the image if you upload one. Include just the filename without the "File:" prefix.
+ | caption   | Image caption, which should describe the type of image used.
+ | ja_kanji  | The title as written in Japan (any mix of [[kanji]], [[kana]], or the [[Latin alphabet]]).
+ | ja_romaji | The [[Hepburn romanization]] of the Japanese language title. Leave this blank if it would be the same as the <code>name</code> parameter.
+ | genre     | The genre or genres to which the work belongs. List more specific genres over general genres (ex. [[Mecha]] is a subgenre of [[Science fiction]], therefore only Mecha should be listed instead of both). Genres should be based on what reliable sources list them and not on personal interpretations. If a genre cannot be cited to a reliable source, then it should not be listed.
+ | creator   | The creator or creators of the anime, manga, light novel, or etc.
+}}
+
+==== Tracking categories ====
+* {{clc|Anime and manga articles with missing infobox parameters}}
+* {{clc|Anime and manga articles with redundant infobox parameters}}
+* {{clc|Anime and manga articles using obsolete and incorrect infobox parameters}}
+* {{clc|Anime and manga articles with a missing image caption}}
+* {{clc|Wikipedia requested photographs of anime and manga}}
+<includeonly>{{Sandbox other||
+{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
+<!-- CATEGORIES BELOW THIS LINE, PLEASE: -->
+[[Category:Anime and manga infobox templates|Header]]
+[[Category:Embeddable templates]]
+[[Category:Templates that add a tracking category]]
+
+}}}}</includeonly>
