@@ -1,0 +1,82 @@
+{{Infobox
+| italic title = {{{italic title|<noinclude>no</noinclude>}}}
+| bodyclass  = hproduct
+| title      = <includeonly>''{{if empty|{{{title|}}}|{{PAGENAMEBASE}}}}''</includeonly>
+| titleclass = fn
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|{{{image_size|}}}}}}|sizedefault=180px}}
+| image2     = {{#invoke:InfoboxImage|InfoboxImage|image={{{image_file|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{image_alt|}}}|page={{{image_page|}}}}}
+| caption2   = {{if empty|{{{caption|}}}|{{{image_caption|}}}}}
+
+| label1     = {{#if:{{{editor_title|}}}|{{{editor_title}}}|Editor}}
+| data1      = {{{editor|}}}
+| label2     = {{#if:{{{editor_title2|}}}|{{{editor_title2}}}|Editor}}
+| data2      = {{{editor2|}}}
+| label3     = {{#if:{{{editor_title3|}}}|{{{editor_title3}}}|Editor}}
+| data3      = {{{editor3|}}}
+| label4     = {{#if:{{{editor_title4|}}}|{{{editor_title4}}}|Editor}}
+| data4      = {{{editor4|}}}
+| label5     = {{#if:{{{editor_title5|}}}|{{{editor_title5}}}|Editor}}
+| data5      = {{{editor5|}}}
+| label6     = {{#if:{{{editor_title6|}}}|{{{editor_title6}}}|Editor}}
+| data6      = {{{editor6|}}}
+| label7     = Former editors
+| data7      = {{{previous_editor|}}}
+| label8     = Staff writers
+| data8      = {{{staff_writer|}}}
+| label9     = Photographer
+| data9      = {{{photographer|}}}
+
+| label20    = Categories
+| data20     = {{{category|}}}
+| label21    = Frequency
+| data21     = {{{frequency|}}}
+| label22    = Format
+| data22     = {{{format|}}}
+| label23    = [[List of magazines by circulation|Circulation]]
+| data23     = {{{circulation|}}}
+| label24    = Publisher
+| data24     = {{{publisher|}}}
+| class25    = brand
+| label25    = Paid circulation
+| data25     = {{{paid_circulation|}}}
+| label26    = Unpaid circulation
+| data26     = {{{unpaid_circulation|}}}
+| label27    = Total circulation{{#if:{{{circulation_year|}}}|<br />({{{circulation_year}}})}}
+| data27     = {{{total_circulation|}}}
+| label28    = Founder
+| data28     = {{{creator|{{{founder|}}}}}}
+| label29    = Year founded
+| data29     = {{{founded|}}}
+| label30    = First issue
+| data30     = {{{firstdate|}}}
+| label31    = Final issue{{#if:{{{finalnumber|}}}|<br />Number}}
+| data31     = {{{finaldate|{{{lastdate|}}}}}}{{#if:{{{finalnumber|}}}|<br />{{{finalnumber|}}}}}
+
+| label41    = Company
+| data41     = {{{company|}}}
+| label42    = Country
+| data42     = {{{country|}}}
+| label43    = Based in
+| data43     = {{{based|}}}
+| label44    = Language
+| data44     = {{{language|}}}
+| label45    = Website
+| data45     = {{{website|}}}
+| label46    = [[ISSN (identifier)|ISSN]]
+| data46     = {{#if:{{{issn|{{{ISSN|}}}}}}
+ |{{#if:{{{eissn|{{{eISSN|}}}}}}
+     |{{ISSN link|{{{issn|{{{ISSN|}}}}}}}}&nbsp;(print)<br />{{ISSN link|{{{eissn|{{{eISSN|}}}}}}}}&nbsp;(web)
+     |{{ISSN link|{{{issn|{{{ISSN|}}}}}}}}
+   }}
+ |{{#if:{{{eissn|{{{eISSN|}}}}}}
+     |{{ISSN link|{{{eissn|{{{eISSN|}}}}}}}}
+   }}
+ }}
+| label47    = [[OCLC (identifier)|OCLC]]
+| data47     = {{#if:{{{oclc|{{{OCLC|}}}}}}|[//www.worldcat.org/oclc/{{urlencode:{{{oclc|{{{OCLC|}}}}}} }} {{{oclc|{{{OCLC|}}}}}}]}}
+}}{{#invoke:check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox magazine with unsupported parameters|_VALUE_{{PAGENAME}}]]}}|preview = Page using [[Template:Infobox magazine]] with unknown parameter "_VALUE_"|ignoreblank=y
+| italic title | title| logo| logo_size| image_size| image_file| image_alt| image_page| caption| image_caption| editor_title| editor| editor_title2| editor2| editor_title3| editor3| editor_title4| editor4| editor_title5| editor5| editor_title6| editor6| previous_editor| staff_writer| photographer| category| frequency| format| circulation| publisher| paid_circulation| unpaid_circulation| circulation_year| total_circulation| creator| founder| founded| firstdate| finalnumber| finaldate| lastdate| company| country| based| language| website| issn| ISSN| eissn| eISSN| oclc| OCLC
+}}<noinclude>
+{{Documentation}}
+<!-- Place categories and interwikis in [[Template:Infobox Magazine/doc]] -->
+</noinclude>
