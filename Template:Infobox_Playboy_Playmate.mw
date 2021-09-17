@@ -5,15 +5,15 @@
 | bodyclass   = vcard
 
 | aboveclass  = fn
-| abovestyle  = background-color:{{#if:{{{death_date|}}}{{{death_place|}}}|silver|lightSkyBlue}};
-| above       = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| abovestyle  = background-color:{{#if:{{{dhimashada |}}}{{{goobta_dhimashada|}}}|silver|lightSkyBlue}};
+| above       = {{{magac|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
 
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
 | caption     = {{{caption|}}}
 
 | headerstyle = background-color:#FFE4E9;
 
-| header1     = {{#if:{{{issue|}}}|''[[Playboy]]'' [[Playboy Playmate|centerfold appearance]]}}
+| header1     = {{#if:{{{issue|}}}|''[[Playboy]]'' [[Playboy Playmate|muuqaalka dhexe]]}}
 
 | data2       = {{{issue|}}}
 
