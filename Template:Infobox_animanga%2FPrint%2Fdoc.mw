@@ -3,36 +3,6 @@
 {{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | 
 <div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Print/doc]]. <small style="font-style: normal">([{{fullurl:Template:Infobox animanga/Print/doc|action=edit}} edit] {{!}} [{{fullurl:Template:Infobox animanga/Print/doc|action=history}} history])</small><br /></div> | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of the infobox.}} }}
 
-==== Novel ====
-
-{{Infobox animanga/Print
-| child           = no
-| type            = novel
-| title           = {{{title}}}
-| author          = {{{author}}}
-| illustrator     = {{{illustrator}}}
-| publisher       = {{{publisher}}}
-| publisher_en    = {{{publisher_en}}}
-| demographic     = {{{demographic}}}
-| imprint         = {{{imprint}}}
-| published       = {{{published}}}
-}}
-
-<pre style="width:auto; overflow:auto">
-{{Infobox animanga/Print
-| type            = novel
-| title           = 
-| author          = 
-| illustrator     = 
-| publisher       = 
-| publisher_en    = 
-| demographic     = 
-| imprint         = 
-| published       = 
-}}
-</pre>
-{{clear}}
-
 ==== Novel series ====
 
 {{Infobox animanga/Print
