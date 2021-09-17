@@ -1,17 +1,2 @@
 {{Documentation}}
 </noinclude>
-
-==== Tracking categories ====
-* {{clc|Anime and manga articles with malformed first and last infobox parameters}}
-* {{clc|Anime and manga articles with identical first and last infobox parameters}}
-* {{clc|Anime and manga articles with missing infobox parameters}}
-* {{clc|Anime and manga articles with redundant infobox parameters}}
-* {{clc|Anime and manga articles using obsolete and incorrect infobox parameters}}
-<includeonly>{{Sandbox other||
-{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
-<!-- CATEGORIES HERE, THANKS -->
-[[Category:Anime and manga infobox templates|Print]]
-[[Category:Embeddable templates]]
-[[Category:Templates that add a tracking category]]
-
-}}}}</includeonly>
