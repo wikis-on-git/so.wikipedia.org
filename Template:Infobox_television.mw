@@ -1,2 +1,191 @@
-{{Documentation subpage}}
-{{High-use}}
+{{Infobox
+| italic title = {{{italic_title|<noinclude>no</noinclude>}}}
+
+| bodyclass    = vevent
+
+| abovestyle   = font-style: italic; background: #CCCCFF; padding: 0.25em 1em; font-size: 125%;
+| aboveclass   = summary
+| above        = {{If empty |{{{name|}}} |<includeonly>{{PAGENAMEBASE}}</includeonly> }}
+
+| headerclass  = summary
+| headerstyle  = background: #CCCCFF; padding: 0.25em 1em;
+| autoheaders  = y
+
+| image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright={{{image_upright|1.13}}}<!-- 1.13 is the most common size used in TV articles. -->|alt={{{image_alt|{{{alt|}}}}}}}}
+| caption      = {{{caption|}}}
+| imagestyle   = {{{imagestyle|}}}
+
+| label1       = Also known as
+| label1style  = font-style: italic;
+| data1        = {{{alt_name|}}}
+
+| class2       = description
+| data2        = {{{native_name|}}}
+
+| label3       = Genre
+| class3       = category
+| data3        = {{{genre|}}}
+
+| label4       = Created by
+| data4        = {{{creator|}}}
+
+| label5       = {{#if: {{{based_on|}}} | Based on | Inspired by }}
+| data5        = {{If empty |{{{based_on|}}} |{{{inspired_by|}}} }}
+
+| label6       = Developed by
+| data6        = {{{developer|}}}
+
+| label7       = Written by
+| data7        = {{{writer|}}}
+
+| label8       = Screenplay by
+| data8        = {{{screenplay|}}}
+
+| label9       = Story by
+| data9        = {{{story|}}}
+
+| label10      = Directed by
+| class10      = attendee
+| data10       = {{{director|}}}
+
+| label11      = Creative {{#if: {{Detect singular|{{{creative_director|}}}}} | director | directors }}
+| class11      = attendee
+| data11       = {{{creative_director|}}}
+
+| label12      = Presented by
+| class12      = attendee
+| data12       = {{If empty |{{{presenter|}}} |{{{host|}}} }}
+
+| label13      = Starring
+| class13      = attendee
+| data13       = {{{starring|}}}
+
+| label14      = Judges
+| class14      = attendee
+| data14       = {{{judges|}}}
+
+| label15      = Voices of
+| class15      = attendee
+| data15       = {{{voices|}}}
+
+| label16      = Narrated by
+| class16      = attendee
+| data16       = {{{narrated|}}}
+
+| label17      = {{#if: {{{music|}}} | Music by | Theme music composer }}
+| data17       = {{If empty |{{{theme_music_composer|}}} |{{{music|}}} }}
+
+| label18      = Opening theme
+| data18       = {{{opentheme|}}}
+
+| label19      = Ending theme
+| data19       = {{{endtheme|}}}
+
+| label20      = {{#if: {{Detect singular|{{{composer|}}}}} | Composer | Composers }}
+| data20       = {{{composer|}}}
+
+| label21      = Country of origin
+| data21       = {{{country|}}}
+
+| label22      = Original {{#if: {{Detect singular|{{{language|}}}}} | language | languages }}
+| data22       = {{{language|}}}
+
+| label23      = {{Abbr|No.|Number}} of {{#if: {{{num_seasons|}}} | seasons | series }}
+| data23       = {{If empty |{{{num_seasons|}}} |{{{num_series|}}} }}
+
+| label24      = {{#ifeq: {{{name|}}} | Doctor Who | {{Abbr|No.|Number}} of series }}
+| data24       = {{#ifeq: {{{name|}}} | Doctor Who | {{{num_series|}}} }}
+
+| label25      = {{Abbr|No.|Number}} of episodes
+| data25       = {{{num_episodes|}}} {{#if: {{{list_episodes|}}} | {{Nowrap|([[{{{list_episodes}}}|list of episodes]])}} }}
+
+| header26     = Production
+
+| label27      = Executive {{#if: {{Detect singular|{{{executive_producer|}}}}} | producer | producers }}
+| data27       = {{{executive_producer|}}}
+
+| label28      = {{#if: {{Detect singular|{{{producer|}}}}} | Producer | Producers }}
+| data28       = {{{producer|}}}
+
+| label29      = {{#if: {{Detect singular|{{{news_editor|}}}}} | News editor | News editors }}
+| data29       = {{{news_editor|}}}
+
+| label30      = Production {{#if: {{Detect singular|{{{location|}}}}} | location | locations }}
+| data30       = {{{location|}}}
+
+| label31      = Cinematography
+| data31       = {{{cinematography|}}}
+
+| label32      = {{#if: {{Detect singular|{{{animator|}}}}} | Animator | Animators }}
+| data32       = {{{animator|}}}
+
+| label33      = {{#if: {{Detect singular|{{{editor|}}}}} | Editor | Editors }}
+| data33       = {{{editor|}}}
+
+| label34      = Camera setup
+| data34       = {{{camera|}}}
+
+| label35      = Running time
+| data35       = {{{runtime|}}}
+
+| label36      = Production {{#if: {{Detect singular|{{If empty |{{{company|}}} |{{{studio|}}} }}}} | company | companies }}
+| data36       = {{If empty |{{{company|}}} |{{{studio|}}} }}
+
+| label37      = Distributor
+| data37       = {{{distributor|}}}
+
+| label38      = Budget
+| data38       = {{{budget|}}}
+
+| header39     = Release
+
+| label40      = Original network
+| data40       = {{If empty |{{{network|}}} |{{{channel|}}} }}
+
+| label41      = Picture format
+| data41       = {{{picture_format|}}}
+
+| label42      = Audio format
+| data42       = {{{audio_format|}}}
+
+| label43      = First shown in
+| data43       = {{{first_run|}}}
+
+| label44      = Original release
+| data44       = {{#invoke:Infobox/dates|dates|{{If empty |{{{first_aired|}}} |{{{released|}}} }}|{{{last_aired|}}}}}
+
+| header45     = Chronology
+
+| label46      = Preceded by
+| data46       = {{{preceded_by|}}}
+
+| label47      = Followed by
+| data47       = {{{followed_by|}}}
+
+| label48      = Related shows
+| data48       = {{{related|}}}
+
+| header49     = External links
+| class50      = url
+| data50       = {{#if: {{{website|{{#property:P856}}}}} | [{{{website|{{#property:P856}}}}} {{#if: {{{website_title|}}} | {{{website_title}}}|Website}}] }}
+
+| data51       = {{#if: {{{production_website|}}} | [{{{production_website}}} {{#if: {{{production_website_title|}}} | {{{production_website_title}}}|Production website}}] }}
+| class51      = url
+
+| below        = {{If preview|[[Template:Infobox television#Usage|Infobox instructions (only shown in preview)]]}}
+
+}}<!-- Tracking categories
+ don't forget to update the duplicate below
+-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using infobox television with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox television]] with unknown parameter "_VALUE_". See [[Template:Infobox television#Usage|Infobox instructions]].|ignoreblank=y| alt | alt_name | animator | audio_format | based_on | budget | camera | caption | channel | cinematography | company | composer | country | creative_director | creator | developer | director | distributor | editor | endtheme | executive_producer | first_aired | first_run | followed_by | genre | host | image | image_alt | image_size | image_upright | imagestyle | inspired_by | italic_title | judges | language | last_aired | list_episodes | location | music | name | narrated | native_name | network | news_editor | num_episodes | num_seasons | num_series | opentheme | picture_format | preceded_by | presenter | producer | production_website | production_website_title | related | released | runtime | screenplay | starring | story | studio | theme_music_composer | voices | website | website_title | writer }}<!--
+
+-->{{#invoke:Check for unknown parameters|check|unknown=[[Category:Pages using infobox television with unknown empty parameters|_VALUE_{{PAGENAME}}]]|preview=Page using [[Template:Infobox television]] with unknown parameter "_VALUE_". See [[Template:Infobox television#Usage|Infobox instructions]].|showblankpositional=1| alt | alt_name | animator | audio_format | based_on | budget | camera | caption | channel | cinematography | company | composer | country | creative_director | creator | developer | director | distributor | editor | endtheme | executive_producer | first_aired | first_run | followed_by | genre | host | image | image_alt | image_size | image_upright | imagestyle | inspired_by | italic_title | judges | language | last_aired | list_episodes | location | music | name | narrated | native_name | network | news_editor | num_episodes | num_seasons | num_series | opentheme | picture_format | preceded_by | presenter | producer | production_website | production_website_title | related | released | runtime | screenplay | starring | story | studio | theme_music_composer | voices | website | website_title | writer }}<!--
+
+-->{{Main other|{{#if: {{{host|}}} | [[Category:Pages using infobox television with alias parameters|H]] }}}}<!--
+-->{{Main other|{{#if: {{{studio|}}} | [[Category:Pages using infobox television with alias parameters|S]] }}}}<!--
+-->{{Main other|{{#if: {{{editor|}}} | [[Category:Pages using infobox television with editor parameter]] }}}}<!--
+-->{{Main other|{{#ifeq: {{#invoke:String|find|source={{{country|}}}|target=flagicon}} | 0 || [[Category:Pages using infobox television with flag icon]] }}}}<!--
+-->{{Main other|{{#invoke:Infobox/dates|start_end_date_template_validation}}}}<!--
+-->{{Main other|{{#invoke:Infobox television disambiguation check|main|{{PAGENAME}}}}}}<!--
+--><noinclude>
+{{Documentation}}
+</noinclude>
