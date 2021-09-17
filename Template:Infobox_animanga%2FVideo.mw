@@ -32,25 +32,25 @@
 
 |header1  = {{ #if: {{{title<includeonly>|</includeonly>}}} | ''{{{title}}}'' }}
 
-|label2   = Waxaa&nbsp;isku dabariday
+|label2   = Directed&nbsp;by
 |data2    = {{{director<includeonly>|</includeonly>}}}
 
-|label3   = Soo&nbsp;saaray
+|label3   = Produced&nbsp;by
 |data3    = {{{producer<includeonly>|</includeonly>}}}
 
-|label4   = Waxaa&nbsp;qoray
+|label4   = Written&nbsp;by
 |data4    = {{{writer<includeonly>|</includeonly>}}}
 
-|label5   = Musikada&nbsp;
+|label5   = Music&nbsp;by
 |data5    = {{{music<includeonly>|</includeonly>}}}
 
 |label6   = Studio
 |data6    = {{{studio<includeonly>|</includeonly>}}}
 
-|label7   = Laysinka&nbsp;
+|label7   = Licensed&nbsp;by
 |data7    = {{{licensee<includeonly>|</includeonly>}}}
 
-|label8   = Shabakad asal ah
+|label8   = Original network
 |data8    = {{
   #switch: {{ lc: {{{type}}} }}
   | tv         | series
@@ -60,7 +60,7 @@
   | special = {{{network<includeonly>|</includeonly>}}}
 }}
 
-|label9   = Shabakadda Ingiriisiga
+|label9   = English network
 |data9    = {{
   #switch: {{ lc: {{{type}}} }}
   | tv         | series
@@ -85,7 +85,7 @@
   }}
 }}
 
-|label11  = Waqtiga oo socday
+|label11  = Runtime
 |data11   = {{
   #switch: {{ lc: {{{type}}} }}
   | tv movie | tv film 
@@ -95,18 +95,39 @@
   | movie series | film series
   | oav | ova | ona | oad
   | music | music video
+  | live tv film
   | live video
   | live movie
   | live film = {{{runtime<includeonly>|</includeonly>}}}
 }}
 
-|label12  = <!--Episodes-->{{
+|label12  = Budget
+|data12   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | tv movie | tv film 
+  | movie | film
+  | movie series | film series
+  | live tv film
+  | live movie
+  | live film = {{{budget<includeonly>|</includeonly>}}}
+}}
+
+|label13  = Box office
+|data13   = {{
+  #switch: {{ lc: {{{type}}} }}
+  | movie | film
+  | movie series | film series
+  | live movie
+  | live film = {{{gross<includeonly>|</includeonly>}}}
+}}
+
+|label14  = <!--Episodes-->{{
   #switch: {{ lc: {{{type}}} }}
   | movie series
   | film series  = Films
   | #default     = Episodes
 }}
-|data12   = {{
+|data14   = {{
   #switch: {{ lc: {{{type}}} }}
   | tv  | series
   | tv series
@@ -134,28 +155,28 @@
     #switch: {{ lc: {{{type|tv anime}}} }}
     | tv | series
     | tv series           = {{
-      #if: {{{first|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Y | {{{first}}} }} > {{CURRENTYEAR}}|[[Category:Upcoming anime television series]] | {{ #time: "[[Category:"Y "anime television series]]" | {{{first}}} }}}}{{ #ifexpr: {{ #time: Ymd | {{{first}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming anime television series]] }} | [[Category:Anime series]]<!-- [[Category:Anime and manga article with malformed first and last infobox parameters]] --> }}
+      #if: {{{first|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Y | {{{first}}} }} > {{CURRENTYEAR}}|[[Category:Upcoming anime television series]] | {{ #time: "[[Category:"Y "anime television series]]" | {{{first}}} }}}}{{ #ifexpr: {{ #time: Ymd | {{{first}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming anime television series]] }} | [[Category:Anime series]]<!-- [[Category:Anime and manga articles with malformed first and last infobox parameters]] --> }}
     }}
     | tv movie | tv film  = [[Category:Anime television films]]{{
-      #if: {{{released|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga article with malformed first and last infobox parameters]] }}
+      #if: {{{released|}}} | {{ #iferror: {{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
     }}
     | movie | film        
     | movie series        
     | film series         = {{
-      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Anime and manga article with malformed first and last infobox parameters]] }}
+      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
     }}
     | oav | oad | ova     = {{
-      #if: {{{first|}}}{{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime OVAs]]" | {{if empty|{{{first|}}}|{{{released}}}}} }} | [[Category:Anime OVAs]]<!-- [[Category:Anime and manga article with malformed first and last infobox parameters]] --> }}
+      #if: {{{first|}}}{{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "anime OVAs]]" | {{if empty|{{{first|}}}|{{{released}}}}} }} | [[Category:Anime OVAs]]<!-- [[Category:Anime and manga articles with malformed first and last infobox parameters]] --> }}
     }}
     | drama               = [[Category:Japanese television dramas based on manga]]
     | special             = [[Category:Japanese television specials]]
     | live tv film        = {{
-      #if: {{{released|}}} | [[Category:Japanese television films]]{{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga article with malformed first and last infobox parameters]] }}
+      #if: {{{released|}}} | [[Category:Japanese television films]]{{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming television films]] }} | [[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
     }}
     | live video
     | live movie
     | live film           = {{
-      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Japanese films]][[Category:Anime and manga article with malformed first and last infobox parameters]] }}
+      #if: {{{released|}}} | {{ #iferror: {{ #time: "[[Category:"Y "films]]" | {{{released}}} }}{{ #ifexpr: {{ #time: Ymd | {{{released}}} }} > {{CURRENTYEAR}}{{CURRENTMONTH}}{{CURRENTDAY2}} | [[Category:Upcoming films]] }} | [[Category:Japanese films]][[Category:Anime and manga articles with malformed first and last infobox parameters]] }}
     }}{{
        #ifeq: {{{type}}} | live video | 
     }}
@@ -174,7 +195,7 @@
     | current | (current)
     | present | (present) = [[Category:Anime and manga articles with redundant infobox parameters]]
   }} | {{
-    #if: {{{released|}}} || [[Category:Anime (year of release missing)]]
+    #if: {{{released|}}} || {{main other|[[Category:Anime (year of release missing)]]}}
   }}
 }}{{ <!-- Required parameter checks -->
   #ifeq: {{{director|¬}}} | ¬ | [[Category:Anime and manga articles with missing director parameters]]
@@ -207,30 +228,13 @@
       }}
     }}
   }}
-}}{{ <!-- Flag icon check -->
-  #ifeq: {{Str find|{{{studio}}}|Flag of}} | -1 | | [[Category:Anime and manga articles using flag icons]]
-}}{{
-  #ifeq: {{Str find|{{{licensee|{{{licensor}}}}}}|Flag of}} | -1 | | [[Category:Anime and manga articles using flag icons]]
-}}{{
-  #ifeq: {{Str find|{{{network}}}|Flag of}} | -1 | | [[Category:Anime and manga articles using flag icons]]
-}}{{
-  #ifeq: {{Str find|{{{network_en}}}|Flag of}} | -1 | | [[Category:Anime and manga articles using flag icons]]
-}}{{ <!-- Stream fields check check -->
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|animelab}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|crunchyroll}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|daisuki}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|hulu}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|viewster}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{network_en}}}}}|youtube}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
-}}{{
-  #ifeq: {{Str find|{{lc:{{{episodes}}}}}|ongoing}} | -1 | | [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Ongoing]]
-}}{{ <!-- Unknown parameters check -->
-  #invoke:Check for unknown parameters|check
+}}<!-- Flag icon check -->{{#ifeq:{{#invoke:String|find|{{{studio}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{licensee|{{{licensor}}}}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{network}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}{{#ifeq:{{#invoke:String|find|{{{network_en}}}|Flag of}}|0||[[Category:Anime and manga articles using flag icons]]
+}}<!-- Stream fields check check -->{{#if:{{#invoke:String2|matchAny|source={{lc:{{{network_en}}}}}|animelab|crunchyroll|daisuki|hulu|viewster|youtube}}|[[Category:Anime and manga articles using obsolete and incorrect infobox parameters]]
+}}{{#ifeq:{{#invoke:String|find|{{lc:{{{episodes}}}}}|ongoing}}|0||[[Category:Anime and manga articles using obsolete and incorrect infobox parameters|Ongoing]]
+}}{{#invoke:Check for unknown parameters|check
   | unknown = [[Category:Anime and manga articles using obsolete and incorrect infobox parameters|_VALUE_{{PAGENAME}}]]
   | child
   | type | title
