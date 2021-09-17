@@ -1,0 +1,69 @@
+
+{{Infobox
+| child       = {{{child|}}}{{{embed|}}}
+| subbox      = {{{subbox|}}}
+| bodyclass   = vcard
+
+| aboveclass  = fn
+| abovestyle  = background-color:{{#if:{{{death_date|}}}{{{death_place|}}}|silver|lightSkyBlue}};
+| above       = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+
+| headerstyle = background-color:#FFE4E9;
+
+| header1     = {{#if:{{{issue|}}}|''[[Playboy]]'' [[Playboy Playmate|centerfold appearance]]}}
+
+| data2       = {{{issue|}}}
+
+| label3      = Preceded by
+| data3       = {{{preceded|}}}
+
+| label4      = Succeeded by
+| data4       = {{{succeeded|}}}
+
+| header6     = {{#if:{{{pmoy-year|}}}|[[List of Playboy Playmates of the Year|Playboy Playmate of the Year]]}}
+
+| data7       = {{{pmoy-year|}}}
+
+| label8      = Preceded by
+| data8       = {{{pmoy-preceded|}}}
+
+| label9      = Succeeded by
+| data9       = {{{pmoy-succeeded|}}}
+
+| header11    = {{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{bust|}}}{{{waist|}}}{{{hips|}}}{{{height|}}}{{{weight|}}}{{{natural bust|}}}|Personal details}}
+
+| label12     = Born
+| data12      = {{br separated entries<!--
+ -->|{{{birth_name|}}}<!--
+ -->|{{#switch: {{lc: {{{birth_date|}}}}}
+      |?|??|???|????|19?|19??|18??|17??|unknown|u=date of birth unknown
+      |{{{birth_date|}}} }}<!--
+ -->|{{{birth_place|}}}<!--
+ -->}}
+
+| label13     = Died
+| data13      = {{br separated entries
+ |{{#switch: {{lc: {{{death_date|}}}}}
+ | ?|??|???|????|19?|19??|18??|17??|unknown|u=date of death unknown
+ | {{{death_date|}}}
+ }}|{{{death_place|}}}}}
+
+| label14     = Measurements
+| data14      = {{br separated entries<!--
+ -->|{{#if:{{{bust|}}} |Bust:  {{Infobox person/length|{{{bust}}}}} }}<!--
+ -->|{{#if:{{{waist|}}}|Waist: {{Infobox person/length|{{{waist}}}}} }}<!--
+ -->|{{#if:{{{hips|}}} |Hips:  {{Infobox person/length|{{{hips}}}}} }}<!--
+ -->}}
+
+| label15     = Height
+| data15      = {{#if:{{{height|}}}|{{Infobox person/height|{{{height}}}}}}}
+
+| label16     = Weight
+| data16      = {{#if:{{{weight|}}}|{{Infobox person/weight|{{{weight}}}}}}}
+
+| data17      = {{#if:{{{website|}}}|<hr>''[{{{website|}}} Official website]''}}
+
+}}<noinclude>{{documentation}}</noinclude>
