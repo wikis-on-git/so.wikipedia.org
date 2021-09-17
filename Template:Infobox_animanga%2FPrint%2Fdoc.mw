@@ -2,18 +2,3 @@
 <!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
 {{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | 
 <div id="template_doc_page_transcluded" class="dablink plainlinks">This [[Wikipedia:Template documentation|documentation]] is [[Wikipedia:Transclusion|transcluded]] from [[Template:Infobox animanga/Print/doc]]. <small style="font-style: normal">([{{fullurl:Template:Infobox animanga/Print/doc|action=edit}} edit] {{!}} [{{fullurl:Template:Infobox animanga/Print/doc|action=history}} history])</small><br /></div> | {{Notice|Please see [[Template:Infobox animanga]] for documentation on the other components of the infobox.}} }}
-
-==== Tracking categories ====
-* {{clc|Anime and manga articles with malformed first and last infobox parameters}}
-* {{clc|Anime and manga articles with identical first and last infobox parameters}}
-* {{clc|Anime and manga articles with missing infobox parameters}}
-* {{clc|Anime and manga articles with redundant infobox parameters}}
-* {{clc|Anime and manga articles using obsolete and incorrect infobox parameters}}
-<includeonly>{{Sandbox other||
-{{#ifeq: {{PAGENAME}} | {{BASEPAGENAME}} | <!-- don't include categories in Template:Infobox_animanga --> |
-<!-- CATEGORIES HERE, THANKS -->
-[[Category:Anime and manga infobox templates|Print]]
-[[Category:Embeddable templates]]
-[[Category:Templates that add a tracking category]]
-
-}}}}</includeonly>
