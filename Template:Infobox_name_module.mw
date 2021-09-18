@@ -1,0 +1,64 @@
+{{ infobox
+| child     = yes
+| decat     = yes <!-- remove from template:infobox tracking categories -->
+| title     = 
+
+| label1    = {{#if: {{{language|{{{2|}}}}}} <!-- If there is more than one parameter -->
+              | {{#if: {{{nolink|}}} <!-- If the language is not to be wikilinked -->
+                | {{#if:{{#invoke:lang|is_ietf_tag|{{{language|{{{1|}}}}}}}} | <!-- Check if language has been entered as an iso code -->
+                    {{#invoke:lang|name_from_tag|{{{language|{{{1|}}}}}}}} | <!-- Set language field accordingly -->
+                    {{{language|{{{1|}}}}}} 
+                  }} 
+                | {{#if:{{#invoke:lang|is_ietf_tag|{{{language|{{{1|}}}}}}}} |  <!-- If the language is to be wikilinked -->
+                    {{#invoke:lang|name_from_tag|{{{language|{{{1|}}}}}}|link=yes}} | 
+                    [[{{{language|{{{1|}}}}}} language|{{{language|{{{1|}}}}}}]]
+                  }}
+                }}
+              | Original title <!-- Default field name if no language is entered -->
+              }}
+|  data1    = {{#if: {{{title|{{{2|{{{original|{{{1|}}}}}}}}}}}} | ''{{{title|{{{2|{{{original|{{{1|}}}}}}}}}}}}'' }} <!-- Order of parameter preference depending on data entry -->
+
+| label2    = [[Traditional Chinese characters|Traditional]]
+|  data2    = {{#if:{{{traditional|{{{fanti|}}}}}}|<big>{{lang|zh-Hant|{{{traditional|{{{fanti|}}}}}}}}</big>}}
+| label3    = [[Simplified Chinese characters|Simplified]]
+|  data3    = {{#if:{{{simplified|{{{jianti|}}}}}}|<big>{{lang|zh-Hans|{{{simplified|{{{jianti|}}}}}}}}</big>}}
+| label4    = [[Chinese characters|Chinese]]
+|  data4    = {{#if:{{{chinese|{{{Chinese|}}}}}}|<big>{{lang|zh|{{{chinese|{{{Chinese|}}}}}}}}</big>}}
+| label5    = [[Pinyin|Mandarin]]
+|  data5    = {{{pinyin|}}}
+| label6    = [[Jyutping|Cantonese]]
+|  data6    = {{#if:{{{jyutping|}}}|{{jpingauto|{{{jyutping}}}}}}}
+| label7    = [[Pe̍h-ōe-jī|Hokkien]]
+|  data7    = {{{poj|}}}
+| label8    = {{{lbl8|}}}{{{sep|}}}
+|  data8    = {{{data8|}}}
+
+| label9    = [[Japanese language|Japanese]]
+|  data9    = {{#if: {{{kanji|}}}|<span class="t_nihongo_kanji" lang="ja">{{{kanji|}}}</span>}}{{#if: {{{kana|}}}|<span class="t_nihongo_kanji" lang="ja">{{{kana|}}}</span>}}
+| label10    = [[Hepburn romanization|Hepburn]]
+|  data10    = {{#if: {{{romaji|}}}|''{{{romaji|}}}''}}
+
+| label11   = {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk=[[Hangul|Chos&#335;n'g&#365;l]]|#default=[[Hangul]]}}
+|  data11   = {{#if: {{{hangul|}}}|{{lang|ko-Hang|{{{hangul}}} }} }}
+| label12   = {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk=[[Hanja|Hancha]]|#default=[[Hanja]]}}
+|  data12   = {{#if: {{{hanja|}}}|{{#ifeq: {{{hanja|}}}|!|<noinclude>!</noinclude>|{{lang|ko-Hani|{{{hanja}}} }} }} }}
+| label13   = {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk=[[McCune–Reischauer]]|#default=[[Revised Romanization of Korean|Revised Romanization]]}}
+|  data13   = {{#if: {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk={{{mr|}}}|#default={{{rr|}}} }}|''{{transl|ko|{{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk={{{mr}}}|#default={{{rr}}} }} }}''}}
+| label14   = {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk=[[Revised Romanization of Korean|Revised Romanization]]|#default=[[McCune–Reischauer]]}}
+|  data14   = {{#if: {{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk={{{rr|}}}|#default={{{mr|}}} }}|''{{transl|ko|{{#switch: {{lc:{{{context|}}}}}|n|nk|north|dprk={{{rr}}}|#default={{{mr}}} }} }}''}}
+
+| label15   = [[Vietnamese language|Vietnamese]]
+|  data15   = {{#if:{{{chuquocngu|}}}|{{lang|vi|{{{chuquocngu|}}}}}}}
+| label16   = [[Hán-Nôm]]
+|  data16   = {{#if:{{{han-nom|}}}|{{vi-nom|{{{han-nom|}}}}}}}
+
+| label17   = Literally
+|  data17   = {{#if: {{{translation|}}}|''{{{translation|}}}''}}
+
+}}<noinclude>
+{{Being deleted|2017_April_7|Template:Infobox_name_module|merge=Template:Infobox Chinese}}
+{{documentation}}
+
+<!-- Add cats and interwikis to the /doc subpage -->
+
+</noinclude>
