@@ -1,3 +1,168 @@
+{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{High-use}}
+{{COinS safe|n}}
+{{Lua|Module:Nihongo}}
+
+{{TOCright}}
+== Usage ==
+This template marks the <code>[[kanji]]</code> segment as being in Japanese kanji and/or kana, which helps user agents (web browsers and so on) to display it correctly. 
+
+{{details|topic=when to use this template|Wikipedia:Manual of Style (Japan-related articles)}}
+
+'''Syntax:'''
+{|class=wikitable
+|Without lead=yes
+|With lead=yes
+|-
+|<code><nowiki>{{Nihongo|</nowiki>&lt;{{var|english}}>&#124;&lt;{{var|kanji/kana}}>&#124;&lt;{{var|rōmaji}}>&#124;&lt;{{var|extra}}>&#124;&lt;{{var|extra2}}>}}</code>
+|<code><nowiki>{{Nihongo|</nowiki>&lt;{{var|english}}>&#124;&lt;{{var|kanji/kana}}>&#124;&lt;{{var|rōmaji}}>&#124;lead=yes&#124;extra=&lt;{{var|extra}}>&#124;extra2=&lt;{{var|extra2}}>}}</code>
+|}
+'''Parameters:'''
+* &lt;{{var|english}}>. Optional. The word as translated into English. Note that this will sometimes be the actual Japanese word due to it being adopted into English.
+* &lt;{{var|kanji/kana}}>. Required when &lt;{{var|rōmaji}}> is empty or omitted. The word as written using Japanese script (kanji, kana).
+* &lt;{{var|rōmaji}}>. Required when &lt;{{var|kanji/kana}}> is empty. Transliteration of the Japanese word, using Hepburn Romanization.
+* lead=yes. Optional. This should be used for the first instance of Japanese, usually in the lead. It gives the reader an idea what kind of non-English writing they are viewing.
+* &lt;{{var|extra}}>. Optional. Can be used to add a gloss (particularly if there is no English form). Can also be expressed as a named parameter, <code>extra=</code>
+* &lt;{{var|extra2}}>. Optional. Can also be expressed as a named parameter, <code>extra2=</code>. It is only useful in ";" definitions (extra2 will be displayed without bold, whereas text following the template will get the bold).
+
+=== Examples ===
+;Regular use:
+{| CLASS="wikitable"
+|'''Code''' ||<code><nowiki>{{Nihongo|Tokyo Tower|東京タワー|Tōkyō tawā}}</nowiki></code>
+|-
+|'''Gives'''||              {{Nihongo|Tokyo Tower|東京タワー|Tōkyō tawā}}
+|}
+
+;Use in lead:
+{| CLASS="wikitable"
+|'''Code''' ||<code><nowiki>{{Nihongo|Tokyo Tower|東京タワー|Tōkyō tawā|lead=yes}}</nowiki></code>
+|-
+|'''Gives'''||              {{Nihongo|Tokyo Tower|東京タワー|Tōkyō tawā|lead=yes}}
+|}
+
+;Without <code>English</code>:
+{| CLASS="wikitable"
+|'''Code''' ||<code><nowiki>{{Nihongo||東京タワー|Tōkyō tawā}}</nowiki></code>
+|-
+|'''Gives'''||              {{Nihongo||東京タワー|Tōkyō tawā}}
+|}
+
+;Without <code>English</code>, use in lead:
+{| CLASS="wikitable"
+|'''Code''' ||<code><nowiki>{{Nihongo||東京タワー|Tōkyō tawā|lead=yes}}</nowiki></code>
+|-
+|'''Gives'''||              {{Nihongo||東京タワー|Tōkyō tawā|lead=yes}}
+|}
+
+;With <code>extra2</code>:
+{| CLASS="wikitable"
+|'''Code''' ||
+<code><nowiki>; {{Nihongo||虚無僧|komusō|extra2='Priest of nothingness'}}</nowiki></code><BR />
+<code><nowiki>: Mendicant priest of the Fuke sect of Zen Buddhism.</nowiki></code>
+|-
+|'''Gives'''||
+; {{Nihongo||虚無僧|komusō|extra2='Priest of nothingness'}}
+: Mendicant priest of the Fuke sect of Zen Buddhism.
+|}
+{{hatnote|Note: literal translations and linguistic glosses go in [[MOS:SINGLE|single quotation marks]], not double.}}
+
+;Without <code>extra2</code>:
+{| CLASS="wikitable"
+|'''Code''' ||
+<code><nowiki>; {{Nihongo||虚無僧|komusō}} 'Priest of nothingness'</nowiki></code><BR />
+<code><nowiki>: Mendicant priest of the Fuke sect of Zen Buddhism.</nowiki></code>
+|-
+|'''Gives'''||
+<!--       -->; {{Nihongo||虚無僧|komusō}} 'Priest of nothingness'
+<!--       -->: Mendicant priest of the Fuke sect of Zen Buddhism.
+|}
+
+=== User style ===
+[[Help:User style|User style]] can be set by adding code similar to
+
+<syntaxhighlight lang="css">
+@media screen, tv {
+	*[lang="ja"] {
+		color: green;
+	}
+}</syntaxhighlight>
+
+to [[Special:Mypage/common.css|common.css]].
+
+==Error messaging==
+This template emits one error message of its own:
+:<span class="error" style="font-size:100%">error: <nowiki>{{nihongo}}</nowiki>: Japanese or romaji text required</span>
+One of the positional parameters <code>&lt;{{var|kanji/kana}}></code> (<code><nowiki>{{{2}}}</nowiki></code>), the 'Japanese' referred to in the error message or <code>&lt;{{var|rōmaji}}></code> (<code><nowiki>{{{3}}}</nowiki></code>) is required for proper operation of this template.  Articles with these errors are collected in {{clc|Nihongo template errors}}.
+
+This error often occurs because the template is malformed:
+:<code><nowiki>{{Nihongo|東京タワー}}</nowiki></code> instead of <code><nowiki>{{Nihongo||東京タワー}}</nowiki></code>; {{lang|ja|東京タワー}} is in <code><nowiki>{{{1}}}</nowiki></code> (<code>&lt;{{var|english}}></code>) instead of <code><nowiki>{{{2}}}</nowiki></code> (<code>&lt;{{var|kanji/kana}}></code>).  To resolve this error, add the missing pipe (<code>|</code>) or consider using {{tlx|lang}} or {{tlx|transl}}
+
+Because this template uses {{tld|lang}} and {{tlx|transl}} which emit their own error messages, see the help text for those at:
+:{{cl|Lang and lang-xx template errors}} – for error messages emitted by {{tld|lang}}
+:{{cl|Transl template errors}} – for error messages emitted by {{tld|transl}}
+
+==Limitations==
+This cannot be used within a Wikilink in an article or in any template or other page that is [[WP:Transclusion|transcluded]] into an article.
+
+== See also ==
+* {{tlp|Lang-ja|...}},{{tlp|lang|ja|...}}, similar templates in the [[:Category:Lang-x templates|Lang-x template]] for marking up Japanese text
+* {{tl|Nihongo3}}, essentially the same as this template, but gives rōmaji first and English inside the parentheses
+* {{tl|Nihongo krt}}, essentially the same as this template, but gives kanji first with rōmaji and English inside the parentheses
+* {{tl|Nihongo foot}}, same as this version, but puts everything but the English into a footnote
+* {{tl|Nihongo2}}, also displays the kanji properly, but without adding anything in parentheses, without rōmaji and without the extra parameters
+* {{tlp|in lang|ja}}, to label sources written in Japanese
+* {{tl|Japanese}}, to request expert assistance with Japanese script
+
+== Template data ==
+{{TemplateDataHeader}}
+<templatedata>
+{
+	"description": "This template is used to display Japanese text, applying the correct code and formatting.",
+	"params": {
+		"1": {
+			"label": "English text",
+			"type": "string",
+			"description": "The word as translated into English."
+		},
+		"2": {
+			"label": "Kanji/kana text",
+			"type": "string",
+			"required": true,
+			"description": "The word as written in Japanese (kanji, kana, Roman letters, and possibly other marks)."
+		},
+		"3": {
+			"label": "Romanized (rōmaji) text",
+			"type": "string",
+			"description": "Transliteration of the Japanese word, using Hepburn Romanization."
+		},
+		"4": {
+			"label": "Extra text inside parentheses",
+			"type": "string",
+			"description": "Adds extra text inside the parentheses. ",
+			"aliases":["extra"]
+		},
+		"5": {
+			"label": "Extra text outside parentheses",
+			"type": "string",
+			"description": "Adds extra text outside the parentheses. It is only useful in \";\" definitions (it will be displayed without bold, whereas text following the template will get the bold).",
+			"aliases":["extra2"]
+		},
+		"lead": {
+			"label": "Formatting",
+			"type": "string",
+			"description": "Changes formatting style. If set to yes, uses lead formatting. Otherwise uses default formatting."
+		}
+	}
+}
+</templatedata>
+
+<includeonly>{{Sandbox other||
+<!-- Categories go below this line, please; interwikis go to Wikidata, thank you! -->
+[[Category:Japonic multilingual support templates|{{PAGENAME}}]]
+[[Category:WikiProject Japan templates|Nihongo]]
+
+}}</includeonly>
 <includeonly>{{#invoke:Nihongo|nihongo}}</includeonly><noinclude>
 {{documentation}}
 <!-- Add categories to the /doc subpage and interwikis to Wikidata. -->
