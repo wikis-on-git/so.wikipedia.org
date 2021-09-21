@@ -2,8 +2,7 @@
 {{documentation}}
 </noinclude>
 
-== Usage ==
-The purpose of the '''{{tl|Episode table}}''' template is to easily add header row to episode tables for television series, with up to 13 different columns, and optionally set the widths of these columns, and includes the {{tl|Episode list}} template in the "episode" parameter. Cells are included by declaring the specific variable in one of two ways: <code>title=</code> includes the "Title" cell with no set width, and <code>title=30</code> includes the "Title" cell with a width of 30%.
+
 
 ===Syntax===
 {{collapse top|title=Parameters}}
