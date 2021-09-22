@@ -389,7 +389,12 @@ all values formatted as {{ sort | value }}
   |publisher=caltech.edu
   |author=Chris Gelino, [[J. Davy Kirkpatrick|Davy Kirkpatrick]], Adam Burgasser
   |url=http://ldwarf.ipac.caltech.edu/archive/version5/viewlist.php?table=ltdwarf&format=text
-  |accessdate=2012-06-10}} [http://spider.ipac.caltech.edu/staff/davy/ARCHIVE/index.shtml (main page)]</ref>
+  |accessdate=2012-06-10
+  |ciwaan=Nuqul Archive
+  |archive-date=2013-11-13
+  |archive-url=https://web.archive.org/web/20131113142759/http://ldwarf.ipac.caltech.edu/archive/version5/viewlist.php?table=ltdwarf&format=text
+  |dead-url=yes
+  }} [http://spider.ipac.caltech.edu/staff/davy/ARCHIVE/index.shtml (main page)]</ref>
 | 
 | rowspan="2" | {{RA|22|04|10.5}}
 | rowspan="2" | {{DEC|−56|46|58}}
@@ -638,7 +643,7 @@ all values formatted as {{ sort | value }}
 | {{DEC|+68|20|21}}
 | {{val|219.781|0.032}}<ref name="GaiaDR2"/>
 | 
-| possible flare star, one planet (b) (2014)<ref name="GJ687b-discovery">[http://www.oklo.org/GL687.pdf The Lick–Carnegie exoplanet survey: Gliese 687 b: A Neptune-mass planet orbiting a nearby red dwarf] {{webarchive|url=https://web.archive.org/web/20140327221259/http://www.oklo.org/GL687.pdf |date=March 27, 2014 }}</ref>
+| possible flare star, one planet (b) (2014)<ref name="GJ687b-discovery">[http://www.oklo.org/GL687.pdf The Lick–Carnegie exoplanet survey: Gliese 687 b: A Neptune-mass planet orbiting a nearby red dwarf] {{Wayback|url=http://www.oklo.org/GL687.pdf |date=20140327221259 }} {{webarchive|url=https://web.archive.org/web/20140327221259/http://www.oklo.org/GL687.pdf |date=March 27, 2014 }}</ref>
 |-
 | colspan="2" | [[LHS 292|LHS&nbsp;292]] (LP&nbsp;731-58)
 | {{val|14.885|0.011}}
