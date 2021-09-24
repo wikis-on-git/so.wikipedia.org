@@ -1,0 +1,31 @@
+
+
+{{infobox
+|above=Work without writers
+|label1=Live
+|data1={{based on|''Lorem Ipsum''}}
+|label2=Sandbox
+|data2={{based on/sandbox|''Lorem Ipsum''}}
+}}
+<pre>{{based on|''Lorem Ipsum''}}</pre>
+{{clear}}
+
+{{infobox
+|above=Work with single writer
+|label1=Live
+|data1={{based on|''Lorem Ipsum''|John Smith}}
+|label2=Sandbox
+|data2={{based on/sandbox|''Lorem Ipsum''|John Smith}}
+}}
+<pre>{{based on|''Lorem Ipsum''|John Smith}}</pre>
+{{clear}}
+
+{{infobox
+|above=Work with multiple writers
+|label1=Live
+|data1={{based on|''Lorem Ipsum''|John Smith|Jane Doe}}
+|label2=Sandbox
+|data2={{based on/sandbox|''Lorem Ipsum''|John Smith|Jane Doe}}
+}}
+<pre>{{based on|''Lorem Ipsum''|John Smith|Jane Doe}}</pre>
+{{clear}}
