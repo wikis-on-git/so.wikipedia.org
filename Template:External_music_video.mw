@@ -1,2 +1,14 @@
-{{Documentation subpage}}
-{{infobox song}}
+<includeonly>{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=1,type,header|$aliases=Type>type,Upper caption>header|$extra=1,type,header|header={{{{{|safesubst:}}}#if:{{{{{|safesubst:}}}#invoke:String|match|1={{{header|{{{Upper caption|}}}}}}x|2=^[Mm]usic [Vv]ideox$|nomatch=}}||{{{header|{{{Upper caption|}}}}}}}}|Upper caption=|$indent=1|$flags=override|$B={{Infobox|child=yes
+| headerstyle = background:{{Template:Infobox album/color|{{{type|{{{Type|single}}}}}}}}
+| header1     = {{#switch:{{{header|{{{Upper caption|}}}}}}|none|no=|{{if empty|{{{header|{{{Upper caption|}}}}}}|Music video}}}}
+
+| label2      = Directed by
+| data2       = {{{director|}}}
+
+| label3      = Released
+| data3       = {{{released|}}}
+
+| data4       = {{{1|}}}
+}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
