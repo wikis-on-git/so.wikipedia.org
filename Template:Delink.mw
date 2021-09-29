@@ -1,0 +1,11 @@
+{{<includeonly>safesubst:</includeonly>#invoke:delink|delink}}<noinclude>
+{{documentation}}
+<!-- Categories go on the /doc subpage, and interwikis go on Wikidata. -->
+</noinclude>
+{| class="wikitable"
+! Code
+! Output
+|-
+| <code><nowiki>{{delink|https://www.example.com}}</nowiki></code>
+| {{delink|https://www.example.com}}
+|}
