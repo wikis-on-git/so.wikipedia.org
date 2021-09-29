@@ -1,5 +1,24 @@
-<includeonly>{{#invoke:citation/CS1|citation
-|CitationClass=web
-}}</includeonly><noinclude>
-{{documentation}}
-</noinclude>
+{{Documentation}}
+{{csdoc|usage}}
+{{csdoc|usage common}}
+For references with author credit
+:<code><nowiki>{{cite web |url= |title= |last= |first= |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
+For references without author credit
+:<code><nowiki>{{cite web |url= |title= |author=<!--Not stated--> |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
+{{end}}
+{{csdoc|usage vertical common}}
+<!-- Please synchronize this list with the corresponding one at the overview page [[Wikipedia:Citation templates#Examples]] -->
+<pre style="margin:0px; border:none; white-space:pre;">
+{{cite web
+ |url=
+ |title=
+ |last=
+ |first=
+ |date=
+ |website=
+ |publisher=
+ |access-date=
+ |quote=}}
+</pre>
+{{end}}
+<noinclude>
