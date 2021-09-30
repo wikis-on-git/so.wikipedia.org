@@ -1,0 +1,10 @@
+<includeonly>{{Infobox
+|above={{{title|{{PAGENAMEBASE}}}}}
+|bodyclass={{#ifeq:{{{collapse|}}}|yes|collapsible collapsed}}
+|abovestyle=background-color:{{{headercolor|#b0c4de}}}
+|rowstyle1=display:none;
+||child={{{child|}}}
+|data1={{#invoke:Infobox multi-lingual name|ibox_mln}}
+}}</includeonly><noinclude>
+{{documentation}}<!-- Add categories to the /doc subpage, not here!  -->
+</noinclude>
