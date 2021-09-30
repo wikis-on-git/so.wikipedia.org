@@ -4,21 +4,6 @@
 
 
 
-===Parted seasons===
-<section begin=parted />For seasons which have been split into parts, use {{tl|Episode table/part}}, as per the examples below. The part row has a HTML ID attribute applied to it, equal to the text displayed; i.e. the ID attributes of the following examples will be "Part 1" and "Athelstan's Journal".
-
-<code><nowiki>{{Episode table/part|p=1|c=#183E54}}</nowiki></code>
-
-{{Episode table |background=#183E54|overall=6 |season=6 |title=20 |director=20 |writer=26 |airdate=13 |viewers=9 |country=U.S. |episodes=
-{{Episode table/part|p=1|c=#183E54}}
-}}
-----
-<code><nowiki>{{Episode table/part|p=Athelstan's Journal|c=#061453|nopart=y}}</nowiki></code>
-
-{{Episode table |color=white |background=#061453|overall=6 |title=24 |director=20 |writer=20 |airdate=17 |aux4=13 |aux4T=Length<br>(minutes) |episodes=
-{{Episode table/part|p=Athelstan's Journal|c=#061453|nopart=y}}
-}}<section end=parted />
-
 == Parameters==
 Each cell parameter has an alias to match the parameters used in {{tl|Episode list}}. In the ''Cell Inclusion & Widths'' rows, the original parameter is listed, followed by its episode-list alias. This means that this:
 <pre>{{Episode table |background=#B40000 |overall=5 |season=5 |title=17 |director=11 |writer=37 |airdate=10 |prodcode=6 |viewers=9 |country=U.S.}}</pre>
