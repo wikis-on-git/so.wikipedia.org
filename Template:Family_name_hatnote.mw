@@ -1,0 +1,69 @@
+{{Family name hatnote/core 
+|1 = {{#ifeq:{{{lang|}}}|Korean|{{#ifexist:{{{1}}} (Korean surname)|[[{{{1}}} (Korean surname)|{{{1}}}]]|{{{1}}}}}|{{{1}}}}}
+|article = {{#switch:{{{lang|}}}
+ |Eastern Slavic = [[Eastern Slavic naming customs|Eastern Slavic naming convention]]
+ |Hmong = [[Hmong people|Hmong]] name
+ |Ijebu = [[Ijebu Kingdom|Ijebu]] name
+ |Ottoman Turkish = [[Ottoman Turkish language|Ottoman Turkish]] style name
+ |Romance = [[Romance languages|Romance language]] name
+ |Toponymic = {{#if:{{{3|}}}|[[{{{3}}}]]|article}}
+ |Turkic = [[Turkic languages|Turkic name]]
+ |#default = {{#ifexist:{{{lang}}} name|[[{{{lang}}} name]]|article}}
+ }}
+|mod1 = {{#switch:{{{lang|}}}
+ |Basque|Galician={{#if:{{{2|}}}|first&#32;}}
+ |Dutch = {{#if:{{{nd|}}}|birth&#32;}}
+ |Catalan
+ |Spanish = first or paternal&#32;
+ }}
+|family_name = {{#switch:{{{lang|}}}
+ |Chinese = [[Chinese surname|family name]]
+ |Chinese Indonesian=[[Chinese Indonesian surname|family name]]
+ |Eastern Slavic = [[patronymic]]
+ |Ijebu = [[Yoruba name|Yoruba surname]]
+ |Korean = family name
+ |Burmese
+ |Manchu
+ |Mongolian
+ |Ottoman Turkish = [[given name]]
+ |Toponymic = [[toponymic surname]]
+ |#default=[[surname]]
+ }}
+|mod2 = {{#if:{{{2|}}}{{{3|}}}|{{#switch:{{{lang|}}}
+ | Argentine = &#32;and the [[married name|marital name]] is '' {{{2|}}}''
+ | Congolese = &#32;and the post-surname is '' {{{2|}}}''
+ | Catalan = &#32;and the second or maternal family name is '' {{{2|}}}''; both are generally joined by the conjunction "i"
+ | Spanish = &#32;and the second or maternal family name is '' {{{2|}}}''
+ | Dutch = {{#if:{{{nd|}}}|&#32;and the [[married name|marital name]] is|, not}} '' {{{2|}}}''
+ | Basque
+ | Galician = &#32;and the second is '' {{{2}}}''
+ | Chinese
+ | Chinese Indonesian = &#32;and '' {{{2}}}'' is a [[generation name]]
+ | Eastern Slavic = &#32;and the [[surname|family name]] is '' {{{2}}}''
+ | Germanic
+ | Romance
+ | = , not '' {{{2}}}''
+ | Korean = . In the stage name or pen-name, the [[surname]] is {{#ifexist:{{{2}}} (Korean surname)|[[{{{2}}} (Korean surname)|''{{{2}}}'']]|''{{{2}}}''}}
+ | Manchu
+ | Vietnamese = {{#if:{{{3|}}}|, but is often simplified to ''{{{3}}}'' in English-language text}}
+ | Ni-Vanuatu | ni-Vanuatu = , and the traditional name is '' {{{2}}}''
+ | Ottoman Turkish = ,&#32;{{#if:{{{2|}}}| the [[List of Ottoman titles and appellations|title]] is ''[[{{{2}}}]]'',&#32;|}}{{#if:{{{3|}}}| and the family name is ''{{{3}}}'' | and there is no family name}}
+ | Slavic
+ | Turkic = , sometimes transliterated as '' {{{2}}}''
+ | #default = 
+ }}
+}}
+|postscript = {{#switch:{{{lang|}}}
+ | Burmese = There is no family name.
+ | Cambodian
+ | Hmong
+ | Vietnamese = In accordance with {{{lang}}} custom, this person should be referred to by the [[given name]]{{#if:{{{2|}}}|, ''{{{2}}}''}}.
+ | Hong Kong = {{#if:{{{2|}}}{{{3|}}}|In accordance with Hong Kong custom, the Western-style name is {{{2|}}} and the Chinese-style name is {{{3|}}}.}}
+ | Manchu = In accordance with Manchu custom, it should be used alone or with titles but not with the [[surname|clan name]] '' {{{2}}}''.
+ | Mongolian = {{#if:{{{2|}}}|''{{{2}}}'' is a [[patronymic]], not a [[surname|family name]]|The article title contains neither a [[patronymic]] nor a [[surname|family name]]}}.
+ | Ottoman Turkish = {{#if:{{{2|}}}{{{3|}}}||There is no family name.}}
+ | Toponymic = It is not a [[surname|family name]], and the person should be referred to by the [[given name]], '' {{{2}}}''.
+}}
+}}<!--Tracking-->{{#if:{{{1|}}}||{{main other|[[Category:Pages using family name hatnote with no first parameter]]}}}}<noinclude>
+{{documentation}}
+</noinclude>
