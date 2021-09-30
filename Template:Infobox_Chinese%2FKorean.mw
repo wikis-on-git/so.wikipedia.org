@@ -35,3 +35,217 @@
 }}<noinclude>
 {{documentation}}
 </noinclude>
+{{Documentation subpage}}
+<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
+{{high-use| 13262 }}
+
+[[Template:Infobox Chinese/Korean]] is a template used in the implementation of:
+* [[Template:Infobox Chinese]]
+* [[Template:Infobox Korean name]]
+
+==Usage==
+
+===South Korea===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| rr = {{{rr}}}
+| mr = {{{mr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox Chinese/Korean
+| header = 
+| hangul = 
+| hanja = 
+| lk = 
+| rr = 
+| mr = 
+| koreanipa = 
+}}
+</pre>
+{{clear}}
+
+===North Korea===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| northkorea = yes
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| rr = {{{rr}}}
+| mr = {{{mr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox Chinese/Korean
+| northkorea = yes
+| header = 
+| hangul = 
+| hanja = 
+| lk = 
+| rr = 
+| mr = 
+| koreanipa = 
+}}
+</pre>
+{{clear}}
+
+===Show normally hidden collapsible section===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| hide = no
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| rr = {{{rr}}}
+| mr = {{{mr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox Chinese/Korean
+| hide = no
+| header = 
+| hangul = 
+| hanja = 
+| lk = 
+| rr = 
+| mr = 
+| koreanipa = 
+}}
+</pre>
+{{clear}}
+
+==Examples==
+
+===Test 1===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+</pre>
+{{clear right}}
+
+===Test 2===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| hide = yes
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| hide = yes
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+</pre>
+{{clear right}}
+
+===Test 3===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| hide = no
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| hide = no
+| header = {{{header}}}
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+</pre>
+{{clear right}}
+
+===Test 4===
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| header = none
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+<pre style="overflow:auto">
+{{Infobox|data1=
+{{Infobox Chinese/Korean
+| header = none
+| hangul = {{{hangul}}}
+| hanja = {{{hanja}}}
+| lk = {{{lk}}}
+| mr = {{{mr}}}
+| rr = {{{rr}}}
+| koreanipa = {{{koreanipa}}}
+}}}}
+</pre>
+{{clear right}}
+
+==See also==
+* {{tl|Infobox Chinese/Header}}
+* {{tl|Infobox Chinese/Footer}}
+* {{tl|Infobox Chinese/Chinese}}
+* {{tl|Infobox Chinese/Burmese}}
+* {{tl|Infobox Chinese/Dunganese}}
+* {{tl|Infobox Chinese/Japanese}}
+* {{tl|Infobox Chinese/Manchu}}
+* {{tl|Infobox Chinese/Mongolian}}
+* {{tl|Infobox Chinese/Russian}}
+* {{tl|Infobox Chinese/Thai}}
+* {{tl|Infobox Chinese/Tibetan}}
+* {{tl|Infobox Chinese/Uyghur}}
+* {{tl|Infobox Chinese/Vietnamese}}
+* {{tl|Infobox Chinese/Zhuang}}
+* {{tl|Infobox Chinese/Blank}}
+
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Language infobox templates]]
+}}</includeonly>
