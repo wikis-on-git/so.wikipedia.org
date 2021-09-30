@@ -4,65 +4,6 @@
 
 
 
-===Syntax===
-{{collapse top|title=Parameters}}
-<pre>{{Episode table
-|caption      = TEXT
-|background   = COLOR
-
-|total_width  = WIDTH
-|overall      = WIDTH
-|series       = WIDTH
-|season       = WIDTH
-|title        = WIDTH
-|aux1         = WIDTH
-|director     = WIDTH
-|writer       = WIDTH
-|aux2         = WIDTH
-|aux3         = WIDTH
-|airdate      = WIDTH
-|altdate      = WIDTH
-|prodcode     = WIDTH
-|viewers      = WIDTH
-|aux4         = WIDTH
-|country      = COUNTRY
-|released     = TEXT
-|viewers_type = TEXT
-
-|overallT     = TEXT
-|seriesT      = TEXT
-|seasonT      = TEXT
-|titleT       = TEXT
-|aux1T        = TEXT
-|directorT    = TEXT
-|writerT      = TEXT
-|aux2T        = TEXT
-|aux3T        = TEXT
-|airdateT     = TEXT
-|altdateT     = TEXT
-|prodcodeT    = TEXT
-|viewersT     = TEXT
-|aux4T        = TEXT
-
-|overallR     = REFERENCE
-|seriesR      = REFERENCE
-|seasonR      = REFERENCE
-|titleR       = REFERENCE
-|aux1R        = REFERENCE
-|directorR    = REFERENCE
-|writerR      = REFERENCE
-|aux2R        = REFERENCE
-|aux3R        = REFERENCE
-|airdateR     = REFERENCE
-|altdateR     = REFERENCE
-|prodcodeR    = REFERENCE
-|viewersR     = REFERENCE
-|aux4R        = REFERENCE
-
-|episodes     = EPISODE LISTS/PART ROWS
-}}</pre>
-{{collapse bottom}}
-
 ===Examples===
 ;Standard columns<nowiki>:</nowiki>
 
