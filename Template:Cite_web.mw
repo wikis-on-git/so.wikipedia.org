@@ -1,24 +1,14 @@
-{{Documentation}}
-{{csdoc|usage}}
-{{csdoc|usage common}}
-For references with author credit
-:<code><nowiki>{{cite web |url= |title= |last= |first= |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
-For references without author credit
-:<code><nowiki>{{cite web |url= |title= |author=<!--Not stated--> |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
-{{end}}
-{{csdoc|usage vertical common}}
-<!-- Please synchronize this list with the corresponding one at the overview page [[Wikipedia:Citation templates#Examples]] -->
-<pre style="margin:0px; border:none; white-space:pre;">
-{{cite web
- |url=
- |title=
- |last=
- |first=
- |date=
- |website=
- |publisher=
- |access-date=
- |quote=}}
-</pre>
-{{end}}
-<noinclude>
+<includeonly>{{{{{|safesubst:}}}#invoke:Unsubst-infobox||$params=1,type,header|$aliases=Type>type,Upper caption>header|$extra=1,type,header|header={{{{{|safesubst:}}}#if:{{{{{|safesubst:}}}#invoke:String|match|1={{{header|{{{Upper caption|}}}}}}|{{{header|{{{Upper caption|}}}}}}}}|Upper caption=|$indent=1|$flags=override|$B={{Infobox|child=yes
+| headerstyle = background:{{Template:cite/color|
+| header1     = {{#switch:{{{header|{{{Upper caption|}}}}}}|none|no=|{{if empty|{{{header|{{{Upper caption|}}}}}}|Cite}}}}
+
+| label2      = url
+| data2       = {{{link|}}}
+
+| label3      = title
+| data3       = {{{title|}}}
+
+| data4       = {{{1|}}}
+}}}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
