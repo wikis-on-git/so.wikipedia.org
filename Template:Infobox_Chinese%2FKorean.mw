@@ -1,0 +1,37 @@
+{{Infobox
+|child = <includeonly>yes</includeonly>
+
+|headerstyle  = background-color: {{#if: {{{headercolor|}}} | {{{headercolor|}}} | #b0c4de }};
+| labelstyle  = font-weight: {{{fontstyle|normal}}};
+
+| header1 = {{#ifeq:{{{header|{{{korean_header|}}}}}}|none||{{{header|{{{korean_header|Korean name}}}}}}}}
+| label2  = {{#switch:{{{northkorea|}}}|yes=[[Hangul|Chosŏn'gŭl]]|old=[[Hunminjeongeum]]|#default=[[Hangul]]}}
+|  data2  = {{#if: {{{hangul<includeonly>|</includeonly>}}} | <div style="display:inline;font-size:1rem;">{{lang|ko-Hang|{{{hangul}}} }}</div> }}
+| label3  = {{#switch:{{{northkorea|}}}|yes=[[Hanja|Hancha]]|#default=[[Hanja]]}}
+|  data3  = {{#if: {{{hanja<includeonly>|</includeonly>}}} | <div style="display:inline;font-size:1rem;">{{lang|ko-Hani|{{{hanja}}} }}</div> }}
+| label4  = Literal meaning
+|  data4  = {{{lk<includeonly>|</includeonly>}}}
+|  data5  = {{#ifeq: {{{hide|}}} | no || {{#if:{{{mr|}}}{{{rr<includeonly>|</includeonly>}}} | {{Infobox
+  |subbox    = yes
+  |bodyclass = collapsible collapsed
+  |abovestyle = font-size: 100%; text-align: left; background-color: #f9ffbc;
+  |above     = Transcriptions
+  |labelstyle = font-weight:normal;
+  |headerstyle = background-color: #dcffc9;
+
+  | label1 = [[Revised Romanization of Korean|Revised Romanization]]
+  |  data1 = {{#if: {{{rr<includeonly>|</includeonly>}}} | {{transl|ko|rr|{{{rr}}} }} }}
+  | label2 = [[McCune–Reischauer]]
+  |  data2 = {{#if: {{{mr<includeonly>|</includeonly>}}} | {{transl|ko|mr|{{{mr}}} }} }}
+  | label3 = [[Help:IPA/Korean|IPA]]
+  |  data3 = {{{koreanipa<includeonly>|</includeonly>}}}
+  }} }} }}
+| label6 = [[Revised Romanization of Korean|Revised Romanization]]
+| data6 = {{#ifeq: {{{hide|}}} | no | {{#if: {{{rr<includeonly>|</includeonly>}}} | {{transl|ko|rr|{{{rr}}} }} }} }}
+| label7 = [[McCune–Reischauer]]
+| data7 = {{#ifeq: {{{hide|}}} | no | {{#if: {{{mr<includeonly>|</includeonly>}}} | {{transl|ko|mr|{{{mr}}} }} }} }}
+| label8 = [[Help:IPA/Korean|IPA]]
+| data8 = {{#ifeq: {{{hide|}}} | no | {{{koreanipa<includeonly>|</includeonly>}}} }}
+}}<noinclude>
+{{documentation}}
+</noinclude>
