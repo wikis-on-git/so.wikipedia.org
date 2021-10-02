@@ -1,11 +1,55 @@
-{{Documentation subpage}}
-<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
-{{Person infobox header}}
-{{Uses infobox person}}
-{{Lua|Module:Infobox|Module:InfoboxImage|Module:Check for unknown parameters}}
-{{Tracks Wikidata|P18|cat=No local image but image on Wikidata}}
+{{Infobox person
+| honorific_prefix = {{{honorific_prefix|}}}
+| name         = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| honorific_suffix = {{{honorific_suffix|}}}
+| image        = {{{image|}}}
+| image_size   = {{{imagesize|{{{image_size|}}}}}}
+| alt          = {{{alt|}}}
+| caption      = {{{caption|}}}
+| native_name  = {{{native_name|}}}
+| native_name_lang = {{{native_name_lang|}}}
+| birth_name   = {{{birthname|{{{birth_name|}}}}}}
+| birth_date   = {{{birth_date|}}}
+| birth_place  = {{{birth_place|}}}
+| death_date   = {{{death_date|}}}
+| death_place  = {{{death_place|}}}
+| death_cause  = {{{death_cause|}}}
+| resting_place= {{{resting_place|}}}
 
-{{tl|Infobox model}} waxaa loo isticmaali karaa in lagu soo koobo macluumaadka ku saabsan qof ku moodel.
+| nationality  = {{{nationality|}}}
+| other_names  = {{{alias|{{{other_names|}}}}}}
+| citizenship  = {{{citizenship|}}}
+| alma_mater   = {{{alma_mater|}}}
+| title   = {{{title|}}}
+| occupation   = {{{occupation|}}}
+| years_active = {{{yearsactive|{{{years_active|}}}}}}
+| known_for    = {{{known_for|}}}
+| television   = {{{television|}}}
+| spouse       = {{{spouse|}}}
+| partner      = {{{partner|}}}
+| children     = {{{children|}}}
+| parents      = {{{parents|}}}
+| relatives    = {{{relatives|{{{relations|}}}}}}
+| website      = {{{website|}}}
+| nocat_wdimage= {{{nocat_wdimage|}}}
+| child        = {{{child|}}}
+| module       = {{#if:{{{height|}}}{{{haircolour|{{{hair_colour|}}}}}}{{{haircolor|{{{hair_color|}}}}}}{{{eyecolour|{{{eye_colour|}}}}}}{{{eyecolor|{{{eye_color|}}}}}}{{{agency|}}}
+|{{Infobox|child=yes|decat=yes
+| title   = '''{{#if:{{{haircolour|{{{hair_colour|}}}}}}{{{eyecolour|{{{eye_colour|}}}}}}|Modelling|Modeling}} information'''
+| label1  = Height
+| data1   = {{#if:{{{height_m|{{{height_cm|}}}}}}{{{height_ft|}}}{{{height_in|}}} | {{convinfobox|{{{height_m|{{{height_cm|}}}}}}|{{#if:{{{height_m|}}}|m|cm}}|{{{height_ft|}}}|ft|{{{height_in|}}}|in}} }}{{#if:{{{height|}}} | {{infobox person/height|{{{height|}}}}} }}
+| label2  = Hair colo{{#if:{{{haircolour|{{{hair_colour|}}}}}}|u}}r
+| data2   = {{#if:{{{haircolour|{{{hair_colour|}}}}}}|{{{haircolour|{{{hair_colour|}}}}}}|{{{haircolor|{{{hair_color|}}}}}}}}
+| label3  = Eye colo{{#if:{{{eyecolour|{{{eye_colour|}}}}}}|u}}r
+| data3   = {{#if:{{{eyecolour|{{{eye_colour|}}}}}}|{{{eyecolour|{{{eye_colour|}}}}}}|{{{eyecolor|{{{eye_color|}}}}}}}}
+| label4 = {{#if:{{{agency|}}}|Agency|{{#if:{{{agencies|}}}|Agencies|Manager}}}}
+| class4 = agent
+| data4  = {{if empty|{{{agency|}}}|{{{agencies|}}}|{{{manager|}}}}}
+}}}}
+| module2  = {{{module|}}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox model with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox model]] with unknown parameter "_VALUE_"|ignoreblank=y| agencies | agency | alias | alma_mater | alt | birth_date | birth_name | birth_place | birthname | caption | child | children | citizenship | death_cause | death_date | death_place | eye_color | eye_colour | eyecolor | eyecolour | hair_color | hair_colour | haircolor | haircolour | height | height_cm | height_ft | height_in | height_m | honorific_prefix | honorific_suffix | image | image_size | imagesize | known_for | manager | module | name | nationality | native_name | native_name_lang | nocat_wdimage | occupation | other_names | parents | partner | relations | relatives | resting_place | spouse | website | years_active | yearsactive | title }}<noinclude>
+{{Documentation}}<!-- please place category links on the /doc sub-page, not here -->
+</noinclude>
 
 == Usage ==
 
