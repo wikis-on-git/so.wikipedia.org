@@ -50,20 +50,3 @@
 }}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox model with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox model]] with unknown parameter "_VALUE_"|ignoreblank=y| agencies | agency | alias | alma_mater | alt | birth_date | birth_name | birth_place | birthname | caption | child | children | citizenship | death_cause | death_date | death_place | eye_color | eye_colour | eyecolor | eyecolour | hair_color | hair_colour | haircolor | haircolour | height | height_cm | height_ft | height_in | height_m | honorific_prefix | honorific_suffix | image | image_size | imagesize | known_for | manager | module | name | nationality | native_name | native_name_lang | nocat_wdimage | occupation | other_names | parents | partner | relations | relatives | resting_place | spouse | website | years_active | yearsactive | title }}<noinclude>
 {{Documentation}}<!-- please place category links on the /doc sub-page, not here -->
 </noinclude>
-
-== Sida kale firi ==
-* {{tl|Infobox person}}
-* {{tl|Infobox pageant titleholder}}
-* {{tl|Infobox naqshadeeye moodda}}
-
-<includeonly>
-{{Basepage subpage|
-<!-- Categories below this line, please; interwikis at Wikidata -->
-[[Category:Fashion templates]]
-[[Category:People and person infobox templates|Model]]
-[[Category:Biographical templates usable as a module|Model]]
-[[Category:Infobox templates with module parameter|Model]]
-[[Category:Templates calling Infobox person|Model]]
-[[Category:Templates that add a tracking category|{{PAGENAME}}]]
-}}
-</includeonly>
