@@ -2,3 +2,116 @@
 
 {{documentation}}
 </noinclude>
+{{Documentation subpage}}
+
+* <code><nowiki>{{Award category|#eedd82|[[Academy Award for Best Picture|Best Picture]]}}</nowiki></code>
+which produces:
+{{Award category|#eedd82|[[Academy Award for Best Picture|Best Picture]]}}
+
+Iyo
+
+{| class=wikitable
+|-
+| style="vertical-align:top;" width="50%"|
+{{Award category|#eedd82|[[Academy Award for Best Picture|Best Picture]]}}
+*''[[American Sniper (film)|American Sniper]]''&nbsp;– [[Clint Eastwood]], [[Robert Lorenz]], [[Andrew Lazar]], [[Bradley Cooper]] and Peter Morgan
+*''[[Birdman (film)|Birdman or (The Unexpected Virtue of Ignorance)]]''&nbsp;– [[Alejandro González Iñárritu]], John Lesher and James W. Skotchdopole
+*''[[Boyhood (2014 film)|Boyhood]]''&nbsp;– [[Richard Linklater]] and Cathleen Sutherland
+*''[[The Grand Budapest Hotel]]''&nbsp;– [[Wes Anderson]], [[Scott Rudin]], [[Steven M. Rales]] and Jeremy Dawson
+*''[[The Imitation Game]]''&nbsp;– Nora Grossman, Ido Ostrowsky and Teddy Schwarzman
+*''[[Selma (film)|Selma]]''&nbsp;– [[Christian Colson]], [[Oprah Winfrey]], [[Dede Gardner]] and [[Jeremy Kleiner]]
+*''[[The Theory of Everything (2014 film)|The Theory of Everything]]''&nbsp;– [[Tim Bevan]], [[Eric Fellner]], Lisa Bruce and [[Anthony McCarten]]
+*''[[Whiplash (2014 film)|Whiplash]]''&nbsp;– [[Jason Blum]], Helen Estabrook and David Lancaster 
+| style="vertical-align:top;" width="50%"|
+{{Award category|#eedd82|[[Academy Award for Best Director|Best Director]]}}
+*[[Wes Anderson]]&nbsp;– ''[[The Grand Budapest Hotel]]''
+*[[Alejandro González Iñárritu]]&nbsp;– ''[[Birdman (film)|Birdman or (The Unexpected Virtue of Ignorance)]]''
+*[[Richard Linklater]]&nbsp;– ''[[Boyhood (2014 film)|Boyhood]]''
+*[[Bennett Miller]]&nbsp;– ''[[Foxcatcher]]''
+*[[Morten Tyldum]]&nbsp;– ''[[The Imitation Game]]''
+|}
+
+== Step-by-step to convert existing awards tables to this template ==
+Here are the steps to convert an existing non-accessible awards table to an accessible version. You can recognize such tables by the awards names being in separate table rows from the nominees lists:
+{| class=wikitable
+|+ Example of non-accessible table which does not use the {{tl|Award category}} template
+|-
+! style="background:#EEDD82; width:50%" | [[Academy Award for Best Picture|Best Picture]]
+! style="background:#EEDD82; width:50%" | [[Academy Award for Best Director|Best Director]]
+|-
+| style="vertical-align:top;" |
+... (nominees/award for 1st category)
+| style="vertical-align:top;" |
+... (nominees/award for 2nd category)
+|}
+
+Here is how to replace that table with table with an accessible table using the {{tl|Award category}} template:
+
+# Edit the Awards section of the page<!--
+--><br />'''Sample code at this point, before any editing:'''<!--
+--><br /><code><nowiki>|-</nowiki><!--
+--><br /><nowiki>|+ There may or may not be a line that captions the table</nowiki><!--
+--><br /><nowiki>! style="background:#EEDD82; width:50%" | [[Academy Award for Best Picture|Best Picture]]</nowiki><!--
+--><br /><nowiki>! style="background:#EEDD82; width:50%" | [[Academy Award for Best Director|Best Director]]</nowiki><!--
+--><br /><nowiki>|-</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 1st category)</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 2nd category)</nowiki></code><!--
+--><br />
+# If there is a line near the start of the table that begins with <code><nowiki>|+</nowiki></code>, remove that line.
+# Move the width control that splits the table into two columns:
+## Cut <code>; width:50%</code> from both styles
+## Paste after <code>style="vertical-align:top;"</code> 
+## Remove the semicolons from after <code>style="vertical-align:top;"</code>
+## Change the colon after <code>width</code> to an equal sign
+## Add double-quotes around <code>50%</code>
+# Review edits<!--
+--><br />'''How sample code looks now:'''<!--
+--><br /><code><nowiki>|-</nowiki><!--
+--><br /><nowiki>! style="background:#EEDD82" | [[Academy Award for Best Picture|Best Picture]]</nowiki><!--
+--><br /><nowiki>! style="background:#EEDD82" | [[Academy Award for Best Director|Best Director]]</nowiki><!--
+--><br /><nowiki>|-</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 1st category)</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 2nd category)</nowiki></code><!--
+--><br />
+# Replace the style lead-in with the template
+## Replace <code><nowiki>! style="background:#EEDD82" | </nowiki></code> including the trailing space<!--
+--><br />with <code><nowiki>{{Award category|#EEDD82|</nowiki></code> and '''no''' trailing space, so that the <code><nowiki>|</nowiki></code> is right up against the title or title link<!--
+--><br />everywhere it occurs in the table code. If you use a text editor to do a global change, be sure to catch any variations on this.
+## On every line you added the {{tl|Award category}} template to, be sure to add the trailing <code><nowiki>}}</nowiki></code> after the title or title link.
+# Review edits:<!--
+--><br />'''How sample code looks now:'''<!--
+--><br /><code><nowiki>|-</nowiki><!--
+--><br /><nowiki>{{Award category|#EEDD82|[[Academy Award for Best Picture|Best Picture]]}}</nowiki><!--
+--><br /><nowiki>{{Award category|#EEDD82|[[Academy Award for Best Director|Best Director]]}}</nowiki><!--
+--><br /><nowiki>|-</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 1st category)</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>... (nominees/award for 2nd category)</nowiki></code><!--
+--><br />
+# Distribute each awards category template code to its respective list
+## Move each line containing award category template code, for example, <!--
+--><br /><code><nowiki>{{Award category|#EEDD82|[[Academy Award for Best Picture|Best Picture]]}}</nowiki></code><!-- 
+--><br />into the cell with the nominations list it applies to, immediately after the <code>valign</code> line
+## Delete the newly empty table rows that used to contain the category names, so that there aren't two lines with <code><nowiki>|-</nowiki></code> one after the other.
+# Review edits:<!--
+--><br />'''How sample code looks now:'''<!--
+--><br /><code><nowiki>|-</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>{{Award category|#EEDD82|[[Academy Award for Best Picture|Best Picture]]}}</nowiki><!--
+--><br /><nowiki>... (nominees/award for 1st category)</nowiki><!--
+--><br /><nowiki>| style="vertical-align:top;" width="50%" |</nowiki><!--
+--><br /><nowiki>{{Award category|#EEDD82|[[Academy Award for Best Director|Best Director]]}}</nowiki><!--
+--><br /><nowiki>... (nominees/award for 2nd category)</nowiki></code><!--
+--><br />
+# Preview your work and correct any code errors
+# When the table looks consistent and all awards are in the same cell as their nominees, you're done and you can publish.
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Awards templates]]
+}}</includeonly>
