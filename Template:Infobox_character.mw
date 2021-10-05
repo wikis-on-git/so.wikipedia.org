@@ -2,7 +2,7 @@
 | bodystyle    = border-spacing: 2px 5px;
 
 | above        = {{If empty |{{{name|}}} |<includeonly>{{PAGENAMEBASE}}</includeonly> }}
-| abovestyle   = background: {{If empty |{{{color|}}} |{{{colour|}}} |#DEDEE2 }}; {{#if: {{{color|}}}{{{colour|}}} | color: {{Greater color contrast ratio|{{If empty |{{{color|}}} |{{{colour|}}} }}|black|white }}; }}
+| abovestyle   = background: {{If empty |{{{color|}}} |{{{colour|Red}}} |#DEDEE2 }}; {{#if: {{{color|}}}{{{colour|}}} | color: {{Greater color contrast ratio|{{If empty |{{{color|}}} |{{{colour|}}} }}|black|white }}; }}
 
 | subheader    = {{#if: {{{series|}}}{{{franchise|}}} | {{#if: {{{series|}}} | ''{{{series|}}}'' | {{{franchise|}}} }} character{{#if: {{{multiple|}}} | s }} }}
 
