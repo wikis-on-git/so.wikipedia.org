@@ -2,3 +2,42 @@
 {{documentation}}
 <!-- Categories go on the /doc subpage and interwikis go on Wikidata. -->
 </noinclude>
+
+{{test case nowiki|&lt;nowiki&gt;{{__TEMPLATENAME__
+| [param1] = [value1]
+| [param2] = [value2]
+| [param3] = [value3]
+...
+}}&lt;/nowiki&gt;}}
+</pre>
+
+'''Common syntax'''
+
+<pre>
+{{test case nowiki
+| format      = 
+| collapsible = 
+| resetRefs   = 
+| showcode    = 
+| showheader  = 
+
+| template      = 
+| template1     = 
+| showtemplate1 = 
+| heading1      = 
+| template2     = 
+| showtemplate2 = 
+| heading2      = 
+| template3     = 
+| showtemplate3 = 
+| heading3      = 
+...
+
+| code = &lt;nowiki&gt;{{__TEMPLATENAME__
+| [param1] = [value1]
+| [param2] = [value2]
+| [param3] = [value3]
+...
+}}&lt;/nowiki&gt;
+}}
+</pre>
