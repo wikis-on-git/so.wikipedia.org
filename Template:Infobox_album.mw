@@ -5,7 +5,7 @@
 | bodyclass   = vevent haudio
 
 | aboveclass  = summary album
-| abovestyle  = {{#ifeq:{{{italic_title|yes}}}|yes|font-style: italic;}} background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}} }} }}
+| abovestyle  = {{#ifeq:{{{italic_title|yes}}}|yes|font-style: italic;}} background-color: {{#ifeq:{{Infobox album/color|{{{type|}}}}}|khaki|{{Infobox album/color}}|{{Infobox album/color|{{{type|}}} }} }} {{color}}
 | above       = {{#if:{{{name|}}}|{{{name}}}|<includeonly><span style="font-style: normal">Untitled</span></includeonly>}}
 
 | image       = {{#invoke:InfoboxImage|InfoboxImage|image={{#switch:{{{image|{{{cover|}}}}}}|blank=|???=Nocover.png|#default={{{image|{{{cover|}}}}}}}}|border={{{border|}}}|alt={{{alt|}}}}}
