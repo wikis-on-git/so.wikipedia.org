@@ -48,7 +48,7 @@
 |data13       = {{color}}
 | class12     = hlist
 
-| header13    = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|}}}|{{{chronology|}}}|{{#ifeq: {{str letter|{{delink| {{{artist|}}} }}}}|0|{{{artist|}}}|{{#invoke:String2 | ucfirst |{{{artist|}}}}}}}}} chronology }}
+| header13    = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|}}}|{{{color}}}|{{{chronology|}}}|{{#ifeq: {{str letter|{{delink| {{{artist|}}} }}}}|0|{{{artist|}}}|{{#invoke:String2 | ucfirst |{{{artist|}}}}}}}}} chronology }}
 | data14      = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|
 {{(!}} style="background: transparent; width: 100%; min-width: 100%; border-collapse: collapse"
 {{!}}- style="line-height: 1.4em;"
