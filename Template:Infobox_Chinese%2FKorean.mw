@@ -36,28 +36,3 @@
 {{documentation}}
 </noinclude>
 {{Documentation subpage}}
-[[Template:Infobox Chinese/Korean]] is a template used in the implementation of:
-* [[Template:Infobox Chinese]]
-* [[Template:Infobox Korean name]]
-{{Infobox|data1=
-{{Infobox Chinese/Korean
-| header = {{{header}}}
-| hangul = {{{hangul}}}
-| hanja = {{{hanja}}}
-| lk = {{{lk}}}
-| rr = {{{rr}}}
-| mr = {{{mr}}}
-| koreanipa = {{{koreanipa}}}
-}}}}
-<pre style="overflow:auto">
-{{Infobox Chinese/Korean
-| header = 
-| hangul = 
-| hanja = 
-| lk = 
-| rr = 
-| mr = 
-| koreanipa = 
-}}
-</pre>
-{{clear}}
