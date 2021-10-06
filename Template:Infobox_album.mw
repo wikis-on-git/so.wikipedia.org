@@ -45,6 +45,7 @@
 | class11     = hlist
 | label12     = kombiler
 | data12      = {{{compiler|}}}
+|data13       = {{color}}
 | class12     = hlist
 
 | header13    = {{#if:{{{last_album|}}}{{{next_album|}}}{{{prev_title|}}}{{{next_title|}}}|{{#if:{{{chronology|}}}|{{{chronology|}}}|{{#ifeq: {{str letter|{{delink| {{{artist|}}} }}}}|0|{{{artist|}}}|{{#invoke:String2 | ucfirst |{{{artist|}}}}}}}}} chronology }}
