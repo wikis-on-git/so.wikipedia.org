@@ -65,32 +65,6 @@
 </pre>
 {{clear}}
 
-===Show normally hidden collapsible section===
-{{Infobox|data1=
-{{Infobox Chinese/Korean
-| hide = no
-| header = {{{header}}}
-| hangul = {{{hangul}}}
-| hanja = {{{hanja}}}
-| lk = {{{lk}}}
-| rr = {{{rr}}}
-| mr = {{{mr}}}
-| koreanipa = {{{koreanipa}}}
-}}}}
-<pre style="overflow:auto">
-{{Infobox Chinese/Korean
-| hide = no
-| header = 
-| hangul = 
-| hanja = 
-| lk = 
-| rr = 
-| mr = 
-| koreanipa = 
-}}
-</pre>
-{{clear}}
-
 ==Examples==
 
 ===Test 1===
