@@ -1,0 +1,65 @@
+{| summary="The non-free use rationale of this image; see WP:NFC" class="toccolours licensetpl" style="width: 100%" cellpadding="2"
+!colspan="2" style="background: #ccf; text-align: center; "|Media data and [[Wikipedia:Non-free content|Non-free use]] rationale
+|- 
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em" id="fileinfotpl_desc" | Description
+| {{{Description|{{{description|}}}}}} 
+|-
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em" id="fileinfotpl_aut" |  Author or<br/>copyright owner
+| {{{Author|{{{author|}}}}}}
+|- 
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em" id="fileinfotpl_src" |  <span title="must have been published or publicly displayed outside Wikipedia">Source</span> <small>([[Wikipedia:Non-free content criteria#4|WP:NFCC#4]])</small>
+| {{#if:{{{Source|{{{source|}}}}}}
+| {{{Source|{{{source}}}}}}
+| <includeonly>[[Category:Wikipedia files with unknown source]]</includeonly> {{Error|No source specified. Please edit this file description and [[Wikipedia:Citing sources#Multimedia|provide a source]]. <small>([[Template:Non-free use rationale 2|get help with syntax]])</small>}}}}
+|-
+{{#if:{{{Publication|{{{publication|}}}}}}|
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"{{!}} Publication
+{{!}} {{{Publication|{{{publication|}}}}}}
+{{!}}-
+}}
+{{#if:{{{Date|{{{date|}}}}}}|
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"{{!}} Date of publication
+{{!}} {{{Date|{{{date|}}}}}}
+{{!}}-
+}}
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"|  <span title="must be used in an article, and only in mainspace">Use in article</span> <small>([[Wikipedia:Non-free content criteria#7|WP:NFCC#7]])</small>
+| {{#if:{{{Article|{{{article|}}}}}}
+  | '''[[{{{Article|{{{article|}}}}}}]]''' <includeonly>{{
+    #ifeq:{{NAMESPACE}} | {{ns:file}} | {{
+      #ifexist:{{{Article|{{{article}}}}}}
+      | {{#ifeq:{{#invoke:redirect|isRedirect|{{{Article|{{{article|}}}}}}}}|yes
+        | [[Category:Wikipedia non-free files with redirect backlink]]}}
+      | [[Category:Wikipedia non-free files with red backlink|{{PAGENAME}}]]
+    }}}}</includeonly>
+  | <includeonly>{{#ifeq: {{NAMESPACE}} | {{ns:file}}
+    | [[Category:Wikipedia non-free files lacking article backlink|{{PAGENAME}}]]
+  }}</includeonly> {{Error|No article specified. Please edit this file description and add the name of the article the file is used in. <small>([[Template:Non-free use rationale 2|get help with syntax]])</small>}}}}
+|-
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"|  <span title="must significantly increase readers' understanding of the topic">Purpose of use in article</span> <small>([[Wikipedia:Non-free content criteria#8|WP:NFCC#8]])</small>
+| {{{Purpose|{{{purpose|}}}}}}
+|-
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"|  <span title="Why could no free equivalent be found or created that would serve the same encyclopedic purpose?">Not replaceable with<br/>free media because</span> <small>([[Wikipedia:Non-free content criteria#1|WP:NFCC#1]])</small>
+| {{{Replaceability|{{{replaceability|}}}}}}
+|-
+{{#if:{{{Replaceability_text|{{{replaceability_text|{{{replaceability text|}}}}}}}}}|
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"{{!}}  <span title="Why could the topic not be adequately covered by text alone?">Not replaceable with<br/>textual coverage because</span> <small>([[Wikipedia:Non-free content criteria#1|WP:NFCC#1]])</small>
+{{!}}{{{Replaceability_text|{{{replaceability_text|{{{replaceability text|}}}}}}}}}
+{{!}}-
+}}
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"|  <span title="No more non-free items than necessary, no larger portions of a work than necessary, no higher resolution than necessary">Minimal use</span> <small>([[Wikipedia:Non-free content criteria#3|WP:NFCC#3]])</small>
+| {{{Minimality|{{{minimality|}}}}}}
+|-
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"|  <span title="Must not be used in a manner likely to replace the work's original market role">Respect for <br/>commercial opportunities</span> <small>([[Wikipedia:Non-free content criteria#2|WP:NFCC#2]])</small>
+| {{{Commercial|{{{commercial|}}}}}}
+|-
+{{#if:{{{Other information|{{{other information|{{{other_information|{{{Other_information|}}}}}}}}}}}}|
+!style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15em"{{!}}  Other information
+{{!}}{{{Other information|{{{other information|{{{other_information|{{{Other_information|}}}}}}}}}}}}
+{{!}}-
+}}
+|-
+| style="display: none;" colspan="2" | <span class="licensetpl_short">Fair use</span><span class="licensetpl_long">[[Wikipedia:Non-free use rationale guideline|Fair use]] of copyrighted material in the context of [[{{{Article}}}]]</span><span class="licensetpl_link">{{fullurl:{{FULLPAGENAME}}}}</span><span class="licensetpl_nonfree" style="display:none">true</span>
+|}{{Non-free media|metadata=no}}{{#ifexpr:{{Str find|{{trim|{{{Replaceability|{{{replaceability|}}}}}}}}{{trim|{{{Commercial|{{{commercial|}}}}}}}}|n.a.}} > -1|[[Category:Non-free rationale as na]]}}<noinclude>
+{{Documentation}}
+<!-- Add categories and inter-wikis to the /doc subpage, please, not here! -->
+</noinclude>
