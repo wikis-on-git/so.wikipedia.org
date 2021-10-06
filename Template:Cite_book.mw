@@ -6,3 +6,9 @@
 {{Cite book/TemplateData}}
 {{collapse bottom}}
 </noinclude>
+<noinclude>{{pp-protected|reason=Persistent [[WP:Disruptive editing|disruptive editing]] Protecting high visibility template.|small=yes}}</noinclude>{{Documentation subpage}}
+<!-- Categories go where indicated at the bottom of this page, please; interwikis go to Wikidata (see also: [[Wikipedia:Wikidata]]). -->
+{{high-risk| 1000000+}}
+{{csdoc|lua}}
+{{csdoc|cs1}}
+{{csdoc|lead|books}} When citing an article in a periodical, use {{tl|cite journal}} or {{tl|cite magazine}}. For conference papers, use {{tl|cite conference}}. For edited collections, use {{tl|cite encyclopedia}}. For theses, use {{tl|cite thesis}}.
