@@ -1,0 +1,109 @@
+{{Infobox
+| bodyclass      = vevent
+
+| title          = {{If empty|{{{concert_tour_name|}}}|{{{concert_name|}}}|{{PAGENAMEBASE}}}}
+| titleclass     = summary
+
+| subheader      = {{#if:{{{artist|}}}|<span class="category">{{#switch:{{lc:{{{type|}}}}}
+ |               = {{#if:{{{concert_name|}}}|Concert|Tour}}
+ | concert       = Concert
+ | tour          = Tour
+ | concert tour  = Tour
+ | residency     = Residency
+ | residency show = Residency
+ | concert residency = Residency
+ | #default      = {{{type}}} {{#if:{{{concert_name|}}}|concert|tour}}}}</span> by <span class="attendee">{{{artist}}}</span>}}
+| subheaderstyle = font-weight: bold;
+
+| image          = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|title={{#ifeq:{{{landscape|}}}|yes||upright}}|border={{#if:{{{border|}}}|yes}}|alt={{{alt|}}}}}
+| caption        = {{{caption|{{{image_caption|}}}}}}
+
+| label1         = Orchestra
+| data1          = {{{orchestra|}}}
+
+| label2         = Choir
+| data2          = {{{choir|}}}
+
+| label3         = Conductor
+| data3          = {{{conductor|}}}
+
+| label4         = {{#if:{{{composers|}}}|Composers|Composer}}
+| data4          = {{#if:{{{composers|}}}|{{{composers}}}|{{{composer|}}}}}
+
+| label5         = {{#if:{{{arrangers|}}}|Arrangers|Arranger}}
+| data5          = {{#if:{{{arrangers|}}}|{{{arrangers}}}|{{{arranger|}}}}}
+
+| label6         = Location
+| data6          = {{{location|}}}
+
+| label7         = Venue
+| data7          = {{{venue|}}}
+
+| label8         = Tour
+| data8          = {{{tour|}}}
+
+| label9         = {{#if:{{{recordings|}}}
+ | Album recordings
+ | {{#if:{{{recording|}}}
+  | Album recording
+  | {{#if:{{{albums|}}}
+   | Associated albums
+   | Associated album
+   }}}}}}
+| data9          = {{If empty|{{{recordings|}}}|{{{recording|}}}|{{{albums|}}}|{{{album|}}}}}
+
+| label10        = Date(s)
+| data10         = {{{date|}}}
+
+| label11        = Start date
+| data11         = {{{start_date|}}}
+
+| label12        = End date
+| data12         = {{{end_date|}}}
+
+| label13        = Duration
+| data13         = {{{duration|}}}
+
+| label14        = Legs
+| data14         = {{{number_of_legs|}}}
+
+| label15        = <abbr title="Number">No.</abbr> of shows
+| data15         = {{{number_of_shows|{{{shows|}}}}}}
+
+| label16        = Guests
+| data16         = {{{guests|}}}
+
+| label17        = {{#if:{{{support_acts|}}}|Supporting acts|Supporting act(s)}}
+| data17         = {{#if:{{{support_acts|}}}|{{{support_acts}}}|{{{support_act|}}}}}
+
+| label18        = {{#if:{{{producers|}}}|Producers|Producer}}
+| data18         = {{#if:{{{producers|}}}|{{{producers}}}|{{{producer|}}}}}
+
+| label19        = Attendance
+| data19         = {{{attendance|}}}
+
+| label20        = Budget
+| data20         = {{{budget|}}}
+
+| label21        = Box office
+| data21         = {{{gross|}}}
+
+| label22        = Website
+| data22         = {{{website|{{{URL|}}}}}}
+
+| header23       = {{#if:{{{last_show|{{{last_concert|{{{last_tour|}}}}}}}}}{{{next_show|{{{next_concert|{{{next_tour|}}}}}}}}}|{{{chronology|{{{artist|}}} concert chronology}}}}}
+| data24         = {{#if:{{{last_show|{{{last_concert|{{{last_tour|}}}}}}}}}{{{next_show|{{{next_concert|{{{next_tour|}}}}}}}}}|
+*<li style="display: table-cell; width: 33%;">{{{last_show|{{{last_concert|{{{last_tour|}}}}}}}}}
+*<li style="display: table-cell; width: 33%;">{{{this_show|{{{this_concert|{{{this_tour|{{{concert_name|{{{concert_tour_name|}}}}}}}}}}}}}}}
+*<li style="display: table-cell; width: 33%;">{{{next_show|{{{next_concert|{{{next_tour|}}}}}}}}}
+}}
+| rowclass24     = noprint plainlist
+
+| data25         = {{{misc|{{{Misc|{{{Misc1|}}}}}}}}}
+| data26         = {{{Misc2|}}}
+| data27         = {{{Misc3|}}}
+| data28         = {{{Misc4|}}}
+| data29         = {{{Misc5|}}}
+}}{{#if:{{#ifeq:{{Str left|{{{last_show|{{{last_concert|{{{last_tour|}}}}}}}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{Str left|{{{this_show|{{{this_concert|{{{this_tour|{{{concert_name|{{{concert_tour_name|}}}}}}}}}}}}}}}|22}}|<div class="plainlist"|1|}}{{#ifeq:{{Str left|{{{next_show|{{{next_concert|{{{next_tour|}}}}}}}}}|22}}|<div class="plainlist"|1|}}|[[Category:Pages using infobox chronology parameters with plainlists]]
+}}<noinclude>
+{{Documentation}}</noinclude>
