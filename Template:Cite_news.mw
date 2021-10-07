@@ -4,32 +4,6 @@
 {{documentation}}
 </noinclude>
 
-==Examples==
-;A news article with a credited author
-:<code><nowiki>{{cite news |last=Wolford |first=Ben |date=2013-10-16 |title=Citrus Canker Lawsuit Headed Back to Trial |url=http://www.sun-sentinel.com/news/palm-beach/fl-citrus-canker-ruling-20131016,0,7602285.story |work=South Florida Sun-Sentinel |access-date=2013-10-17}}</nowiki></code>
-:Displays as:
-* {{cite news |last=Wolford |first=Ben |date=2013-10-16 |title=Citrus Canker Lawsuit Headed Back to Trial |url=http://www.sun-sentinel.com/news/palm-beach/fl-citrus-canker-ruling-20131016,0,7602285.story |work=South Florida Sun-Sentinel |access-date=2013-10-17}}
-
-;A news article released by a news agency and having no credited author
-:<code><nowiki>{{cite news |author=<!--Staff writer(s)/no by-line.--> |title=Bellingham Police Arrest WWU Student in Melee |url=http://blogs.seattletimes.com/today/2013/10/bellingham-police-arrest-wwu-student-in-melee/ |work=The Seattle Times |agency=Associated Press |date=2013-10-17 |access-date=2013-10-17}}</nowiki></code>
-:Displays as:
-* {{cite news |author=<!--Staff writer(s)/no by-line.--> |title=Bellingham Police Arrest WWU Student in Melee |url=http://blogs.seattletimes.com/today/2013/10/bellingham-police-arrest-wwu-student-in-melee/ |work=The Seattle Times |agency=Associated Press |date=2013-10-17 |access-date=2013-10-17}}
-
-;A news article that has been archived
-:<code><nowiki>{{cite news |last=Pank |first=Philip |date=2013-10-18 |title=Families Accuse Network Rail of Cover-Up |url=http://www.thetimes.co.uk/tto/business/industries/transport/article3897709.ece |url-status=dead |work=The Times |location=London |archive-url=https://www.webcitation.org/6KS5scqfE |archive-date=2013-10-18 |access-date=2013-10-18}}</nowiki></code>
-:Displays as:
-* {{cite news |last=Pank |first=Philip |date=2013-10-18 |title=Families Accuse Network Rail of Cover-Up |url=http://www.thetimes.co.uk/tto/business/industries/transport/article3897709.ece |url-status=dead |work=The Times |location=London |archive-url=https://www.webcitation.org/6KS5scqfE |archive-date=2013-10-18 |access-date=2013-10-18}}
-
-;A news article written in a foreign language
-:<code><nowiki>{{cite news |last=Bourmaud |first=François-Xavier |date=2013-10-17 |title=Hollande dans le bourbier de l'affaire Leonarda |trans-title=Hollande in the quagmire of the Leonarda case |url=http://www.lefigaro.fr/politique/2013/10/17/01002-20131017ARTFIG00575-hollande-dans-le-bourbier-de-l-affaire-leonarda.php |language=French |work=Le Figaro |location=Paris |access-date=2013-10-17}}</nowiki></code>
-:Displays as:
-* {{cite news |last=Bourmaud |first=François-Xavier |date=2013-10-17 |title=Hollande dans le Bourbier de L'affaire Leonarda |trans-title=Holland in the Quagmire of the Leonarda Case |url=http://www.lefigaro.fr/politique/2013/10/17/01002-20131017ARTFIG00575-hollande-dans-le-bourbier-de-l-affaire-leonarda.php |language=French |work=Le Figaro |location=Paris |access-date=2013-10-17}}
-
-;A clipped and archived news article that you quote, found on an information aggregation service requiring a subscription
-:<code><nowiki>{{cite news |url=https://www.newspapers.com/clip/30201172/daily_news/ |title=Czechs honor Yuri |date=30 April 1961 |newspaper=Daily News|access-date=2 April 2019|archive-url=https://web.archive.org/web/20190402233429/https://www.newspapers.com/clip/30201172/daily_news/|archive-date=2 April 2019|url-status=live |agency=Reuters |location=New York |page=35 |via=Newspapers.com |quote=Czech President [[Antonin Novotny]] today made visiting Soviet spaceman Yuri Gagarin a "Hero of Socialist Labor".}}</nowiki></code>
-:Displays as:
-* {{cite news |url=https://www.newspapers.com/clip/30201172/daily_news/ |title=Czechs honor Yuri |date=30 April 1961 |newspaper=Daily News|access-date=2 April 2019|archive-url=https://web.archive.org/web/20190402233429/https://www.newspapers.com/clip/30201172/daily_news/|archive-date=2 April 2019|url-status=live |agency=Reuters |location=New York |page=35 |via=Newspapers.com |quote=Czech President [[Antonin Novotny]] today made visiting Soviet spaceman Yuri Gagarin a "Hero of Socialist Labor".}}
-
 ==Parameters==
 ===Syntax===
 {{csdoc|syntax}}
