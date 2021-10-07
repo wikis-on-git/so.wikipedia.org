@@ -1,0 +1,6 @@
+{{file other   <!-- Only categorise when on image pages. -->
+| [[Category:All non-free media]]{{#ifeq:{{{metadata}}}|no||<div class="licensetpl" style="display:none"><div class="licensetpl_short">Fair use</div><div class="licensetpl_nonfree">true</div></div>}}__NOINDEX__
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
