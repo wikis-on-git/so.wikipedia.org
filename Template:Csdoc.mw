@@ -29,22 +29,6 @@ When creating template documentation, use the following order of sections and co
 *** Lay summary
 *** Display options
 
-==Lead section==
-Use {{tlx|csdoc|lead|content}} to create consistent content for the lead:
-
-{{Citation Style documentation/edit|lead}}
-{{Citation Style documentation/opt|1=
-One unnamed parameter is used to create the trailing text.}}
-
-{{markup
-|<nowiki>{{csdoc|lead|books}}</nowiki>
-|{{csdoc|lead|books}}
-}}
-
-===Lua notice===
-{{#invoke:Suppress categories|main|{{Citation Style documentation/edit|lua}}}}
-{{clear}}
-
 ==Usage section==
 Start the usage section with {{tlx|csdoc|usage}}:
 : {{csdoc|usage}}
