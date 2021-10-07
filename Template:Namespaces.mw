@@ -1,0 +1,91 @@
+{| class="wikitable floatright"  style="text-align: center; width:21.5em;; font-size: 90%"
+|+ [[Wikipedia:Administration#Data structure and development|Wikipedia data structure]]
+! colspan="4" style="background:#d3d3d3;" |{{center| [[Wikipedia:Namespace|Namespaces]]}}
+|-
+! colspan="2" style="background:#ddd;" | [[Wikipedia:Namespace#Subject namespaces|Subject namespaces]]
+! colspan="2" style="background:#ddd;" | [[Help:Talk pages|Talk namespaces]]
+|-
+! 0
+| [[Wikipedia:What is an article?#Namespace|(Main/Article)]]
+| {{ns:1}}
+! 1
+|-
+! 2
+| [[Wikipedia:User pages|{{ns:2}}]]
+| {{ns:3}}
+! 3
+|-
+! 4
+| [[Wikipedia:Project namespace|{{ns:4}}]]
+| {{ns:5}}
+! 5
+|-
+! 6
+| [[Help:Files|{{ns:6}}]]
+| {{ns:7}}
+! 7
+|-
+! 8
+| [[Help:MediaWiki namespace|{{ns:8}}]]
+| {{ns:9}}
+! 9
+|-
+! 10
+| [[Wikipedia:Template namespace|{{ns:10}}]]
+| {{ns:11}}
+! 11
+|-
+! 12
+| [[Wikipedia:Help namespace|{{ns:12}}]]
+| {{ns:13}}
+! 13
+|-
+! 14
+| [[Help:Category|{{ns:14}}]]
+| {{ns:15}}
+! 15
+|-
+! 100
+| [[Wikipedia:Portal|{{ns:100}}]]
+| {{ns:101}}
+! 101
+|-
+! 118
+| [[Wikipedia:Drafts|{{ns:118}}]]
+| {{ns:119}}
+! 119
+|-
+! 710
+| [[mw:Extension:TimedMediaHandler|{{ns:710}}]]
+| {{ns:711}}
+! 711
+|-
+! 828
+| [[Wikipedia:Lua|{{ns:828}}]]
+| {{ns:829}}
+! 829
+|-
+! colspan="4" style="background:#ddd;" | [[Wikipedia:Namespace#Deprecated|Deprecated]]
+|-
+! 2300
+| [[Wikipedia:Gadget|{{ns:2300}}]]
+| {{ns:2301}}
+! 2301
+|-
+! 2302
+| [[Wikipedia:Gadget|{{ns:2302}}]]
+| {{ns:2303}}
+! 2303
+{{yesno|{{{show virtual ns|yes}}}|yes=
+{{!}}-
+! colspan="4" style="background:#ddd;" {{!}} {{center|[[Wikipedia:Namespace#Virtual namespaces|Virtual namespaces]]}}
+{{!}}-
+! -1
+{{!}} colspan="3" {{!}} [[Help:Special page|{{ns:-1}}]]
+{{!}}-
+! -2
+{{!}} colspan="3" {{!}} [[Help:Files|{{ns:-2}}]]
+|no=}}
+|}<noinclude>
+{{documentation}}
+</noinclude>
