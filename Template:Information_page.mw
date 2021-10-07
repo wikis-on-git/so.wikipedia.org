@@ -1,0 +1,24 @@
+{{#if: {{{nocat|{{{demo|}}}}}}||<includeonly>{{Namespace detect
+                | wikipedia = {{short description|Wikipedia information page|noreplace}}
+                | help      = {{short description|Wikipedia information page|noreplace}}
+                | user      = {{short description|Wikipedia information page|noreplace}}
+                }}</includeonly>
+}}{{ombox
+| type       = notice
+| style = {{#if:{{{style|}}} |margin:0 auto;width:80%;{{{style}}} }}
+| imageright = {{#if:{{{shortcut|{{{shortcut1|{{{sc1|{{{1<includeonly>|</includeonly>}}}}}}}}}}}} |{{Shortcut|{{{shortcut|{{{shortcut1|{{{sc1|{{{1}}}}}}}}}}}}|{{{shortcut2|{{{sc2|{{{2|}}}}}}}}}|{{{shortcut3|{{{sc3|{{{3|}}}}}}}}}|{{{shortcut4|{{{sc4|{{{4|}}}}}}}}}|{{{shortcut5|{{{sc5|{{{5|}}}}}}}}}<noinclude>|category=no</noinclude>}} }}
+| text = <div style="padding-top: 6px; padding-bottom: 5px;">'''This is an [[Wikipedia:Project namespace#How-to and information pages|information page]].'''<br><div style="font-size: 90%;">It is not one of [[Wikipedia:Policies and guidelines|Wikipedia's policies or guidelines]], but rather intends to describe some aspect(s) of <!--
+  -->{{#if:{{{page|{{{pages|{{{interprets|}}}}}}}}}
+      | <!--doesn't handle multiple items--> {{#ifexist:{{{page|{{{pages|{{{interprets}}}}}}}}} |'''[[{{{page|{{{pages|{{{interprets}}}}}}}}}]]''' |'''{{{page|{{{pages|{{{interprets}}}}}}}}}'''}}
+      | Wikipedia's norms, customs, technicalities, or practices
+     }}. It may reflect varying levels of [[Wikipedia:Consensus|consensus]] and [[Wikipedia:Consensus#Achieving consensus|vetting]].</div></div>
+}}{{#if: {{{nocat|{{{demo|}}}}}}||<includeonly>{{Namespace detect
+                | wikipedia = {{{category|[[Category:Wikipedia information pages|{{#if:{{{sort-by|}}}|{{{sort-by}}}|{{PAGENAME}}}}]]}}}
+                | help      = {{{category|[[Category:Wikipedia information pages|{{#if:{{{sort-by|}}}|{{{sort-by}}}|{{PAGENAME}}}}]]}}}
+                | user      = [[Category:User essays]]{{{category|}}}
+                }}
+               </includeonly>}}<noinclude>
+
+{{Documentation}}
+<!-- Add categories to the /doc subpage (and interwikis in Wikidata), not here! -->
+</noinclude>
