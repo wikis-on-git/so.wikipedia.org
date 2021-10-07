@@ -6,29 +6,6 @@
 {{template shortcut|csdoc}}
 {{notice|When updating this template keep in mind that it is used on a number of template documentation pages. If the parameters in question are unique to a template, then either add it manually to the template documentation or create a new section here for transclusion.}}
 
-==Section usage==
-When creating template documentation, use the following order of sections and content:
-* Lead: a brief overview of the template intent
-* Usage: samples of blank parameters that can be copied and pasted
-* Examples: examples of various usage
-* Parameters: detailed descriptions of each parameter
-** Syntax: overview of the template syntax
-** Deprecated: list of deprecated parameters
-** Description: parameter descriptions separated by function in this general order:
-*** Authors
-*** Title
-*** Date
-*** Publisher
-*** Edition, series, volume
-*** In-source locations
-*** URL
-*** Anchor
-*** Identifiers
-*** Quote
-*** Editors
-*** Lay summary
-*** Display options
-
 ==Usage section==
 Start the usage section with {{tlx|csdoc|usage}}:
 : {{csdoc|usage}}
