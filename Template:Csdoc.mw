@@ -6,15 +6,6 @@
 {{template shortcut|csdoc}}
 {{notice|When updating this template keep in mind that it is used on a number of template documentation pages. If the parameters in question are unique to a template, then either add it manually to the template documentation or create a new section here for transclusion.}}
 
-==Usage==
-This template is used to build consistent documentation pages for {{cs1}} templates.
-
-: For example: {{tlx|Citation Style documentation|author}} will show the author documentation.
-
-Where a particular section of documentation is not appropriate for a certain template, simply add the text manually or create a new subtemplate.
-
-Each module of text is a subtemplate that can be edited using the link.
-
 ==Section usage==
 When creating template documentation, use the following order of sections and content:
 * Lead: a brief overview of the template intent
