@@ -1,0 +1,32 @@
+<div style="float:left; border:1px solid #999; margin:1px;" class="wikipediauserbox ">
+{| cellspacing="0" style="width:238px; background:#EEE;"
+|[[File:Cube.svg|40px]]
+| style="text-align:left; font-size:8pt; padding:0 4px 0 4px; height:45px; line-height:1.25em; color:black; vertical-align: middle;" | This is an example of a template. For help with templates, see [[Help:Template]].
+|}</div><noinclude>
+{{doc}}
+</noinclude>
+{{Documentation subpage}}
+<!-- Categories go at the bottom of this page and interwikis go in Wikidata. -->
+{{distinguish|Template:Examples|Template:Example needed}}
+:''To give an example of how to use a template, use {{tl|demo}}.''
+
+===TemplateData===
+<templatedata>
+{
+	"description": "Example template that creates a small box saying it is an example.",
+	"params": {}
+}
+</templatedata>
+
+===Usage===
+If this were a real template, the documentation would go here, along with a few examples on how to use it. Some templates keep this documentation on a separate page; see [[Wikipedia:Template documentation]] for details.
+
+{{Example needed}}
+
+
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Wikipedia utility templates]]
+[[Category:Namespace example pages|Template]]
+}}</includeonly>
