@@ -1,0 +1,37 @@
+{{#if:{{{1|}}}
+  |{{Main other|demospace={{{demospace|}}}
+    |{{#ifexpr:{{#time:U|{{{1}}}-{{#if:{{{2|}}}|{{{2}}}|01}}-{{#if:{{{3|}}}|{{{3}}}|01}}}} > {{#time:U|{{CURRENTTIMESTAMP}}}}
+      | [[Category:Upcoming {{#if:{{{TV|}}}|television}} films]]
+    }}{{#ifexist:Category:{{{fy|{{{1}}}}}} {{#if:{{{TV|}}}|television}} films
+      | [[Category:{{{fy|{{{1}}}}}} {{#if:{{{TV|}}}|television}} films]]
+    }}
+  }}
+}}{{Plainlist|
+* {{Start date|{{{1|}}}|{{{2|}}}|{{{3|}}}|df={{{df|}}}}}{{#if:{{{4|}}}|&#32;({{{4|}}}){{{ref1|}}}|{{{ref1|}}}}}{{#if:{{{5|}}}|
+* {{Start date|{{{5}}}|{{{6|}}}|{{{7|}}}|df={{{df|}}}}}{{#if:{{{8|}}}|&#32;({{{8|}}}){{{ref2|}}}|{{{ref2|}}}}}}}{{#if:{{{9|}}}|
+* {{Start date|{{{9}}}|{{{10|}}}|{{{11|}}}|df={{{df|}}}}}{{#if:{{{12|}}}|&#32;({{{12|}}}){{{ref3|}}}|{{{ref3|}}}}}}}{{#if:{{{13|}}}|
+* {{Start date|{{{13}}}|{{{14|}}}|{{{15|}}}|df={{{df|}}}}}{{#if:{{{16|}}}|&#32;({{{16|}}}){{{ref4|}}}|{{{ref4|}}}}}}}{{#if:{{{17|}}}|
+* {{Start date|{{{17}}}|{{{18|}}}|{{{19|}}}|df={{{df|}}}}}{{#if:{{{20|}}}|&#32;({{{20|}}}){{{ref5|}}}|{{{ref5|}}}}}}}
+}}<!--
+# Tracking categories  added 3 April 2020 by User:BrownHairedGirl
+-->{{Main other|<!--
+    -->{{#if: {{{fy|}}}<!--
+        -->|[[Category:Template film date with category override]]<!--
+    -->}}<!--
+    -->{{#if: {{{17|}}}<!--
+        -->|[[Category:Template film date with 5 release dates]]<!--
+        -->|{{#if: {{{13|}}}<!--
+            -->|[[Category:Template film date with 4 release dates]]<!--
+            -->|{{#if: {{{9|}}}<!--
+                -->|[[Category:Template film date with 3 release dates]]<!--
+                -->|{{#if: {{{5|}}}<!--
+                    -->|[[Category:Template film date with 2 release dates]]<!--
+                    -->|{{#if: {{{1|}}}<!--
+                        -->|[[Category:Template film date with 1 release date]]<!--
+                    -->}}<!--
+                -->}}<!--
+            -->}}<!--
+        -->}}<!--
+    -->}}<!--
+-->}}<!--
+--><noinclude>{{Documentation}}</noinclude>
