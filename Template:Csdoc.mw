@@ -1,0 +1,1049 @@
+<includeonly>{{#invoke:Template wrapper|wrap|_template=Citation Style documentation/{{{1|}}}|_include-positional=yes}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
+
+{{Documentation subpage}}
+{{template shortcut|csdoc}}
+{{notice|When updating this template keep in mind that it is used on a number of template documentation pages. If the parameters in question are unique to a template, then either add it manually to the template documentation or create a new section here for transclusion.}}
+
+==Usage==
+This template is used to build consistent documentation pages for {{cs1}} templates.
+
+: For example: {{tlx|Citation Style documentation|author}} will show the author documentation.
+
+Where a particular section of documentation is not appropriate for a certain template, simply add the text manually or create a new subtemplate.
+
+Each module of text is a subtemplate that can be edited using the link.
+
+==Section usage==
+When creating template documentation, use the following order of sections and content:
+* Lead: a brief overview of the template intent
+* Usage: samples of blank parameters that can be copied and pasted
+* Examples: examples of various usage
+* Parameters: detailed descriptions of each parameter
+** Syntax: overview of the template syntax
+** Deprecated: list of deprecated parameters
+** Description: parameter descriptions separated by function in this general order:
+*** Authors
+*** Title
+*** Date
+*** Publisher
+*** Edition, series, volume
+*** In-source locations
+*** URL
+*** Anchor
+*** Identifiers
+*** Quote
+*** Editors
+*** Lay summary
+*** Display options
+
+==Lead section==
+Use {{tlx|csdoc|lead|content}} to create consistent content for the lead:
+
+{{Citation Style documentation/edit|lead}}
+{{Citation Style documentation/opt|1=
+One unnamed parameter is used to create the trailing text.}}
+
+{{markup
+|<nowiki>{{csdoc|lead|books}}</nowiki>
+|{{csdoc|lead|books}}
+}}
+
+===Lua notice===
+{{#invoke:Suppress categories|main|{{Citation Style documentation/edit|lua}}}}
+{{clear}}
+
+==Usage section==
+Start the usage section with {{tlx|csdoc|usage}}:
+: {{csdoc|usage}}
+
+Parameters to copy are enclosed in tables created by sub-templates.
+
+===Full horizontal style===
+* Start with {{tlx|csdoc|usage full}}
+* Precede the sample markup with <code>:</code> to create an indent
+* Enclose the sample in {{tag|code|content={{tag|nowiki}}}}
+* Close the table with {{tlx|end}}
+
+{{pre2|<nowiki>
+{{csdoc|usage full}}
+:<code>&lt;nowiki>{{cite xxxxx |last1= |first1= |author-link1= |last2= |first2= |author-link2= |last3= |first3= |author-link3= |last4= |first4= |author-link4= |last5= |first5= |author-link5= |name-list-style= |vauthors= |translator-last1= |translator-first1= |translator-link1= |translator-last2= |translator-first2= |translator-link2= |collaboration= |contributor-last1= |contributor-first1= |contributor-link1= |contributor-last2= |contributor-first2= |contributor-link2= |others= |editor-last1= |editor-first1= |editor-link1= |editor-last2= |editor-first2= |editor-link2= |editor-last3= |editor-first3= |editor-link3= |veditors= |title= |script-title= |trans-title= |work= |script-work= |trans-work= |issue= |department= |chapter= |script-chapter= |trans-chapter= |contribution= |type= |edition= |series= |series-link= |episode= |event= |agency= |volume= |date= |year= |orig-date= |df= |publisher= |location= |publication-place= |via= |language= |page= |pages= |no-pp= |at= |minutes= |time= |time-caption= |id= |arxiv= |asin= |asin-tld= |bibcode= |biorxiv= |citeseerx= |doi= |doi-broken-date= |eissn= |hdl= |sbn= |isbn= |ismn= |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |embargo= |pmid= |rfc= |ssrn= |zbl= |url= |format= |archive-url= |archive-format= |url-status= |archive-date= |chapter-url= |chapter-format= |lay-url= |lay-format= |lay-source= |lay-date= |access-date= |no-tracking= |quote= |ref= |mode= |author-mask1= |author-mask2= |author-mask3= |author-mask4= |author-mask5= |display-authors= |translator-mask1= |translator-mask2= |display-translators= |contributor-mask1= |contributor-mask2= |display-contributors= |editor-mask1= |editor-mask2= |editor-mask3= |display-editors= |postscript= |url-access= |chapter-url-access= |bibcode-access= |doi-access= |hdl-access= |jstor-access= |ol-access= |osti-access= |map= |script-map= |trans-map= |map-url= |map-format= |map-url-access= |scale= |cartography= |inset= |sections= |interviewer-last1= |interviewer-first1= |interviewer-link1= |interviewer-last2= |interviewer-first2= |interviewer-link2= |interviewer-mask1= |interviewer-mask2= |display-interviewers= |season= |series-number= |series-separator= |network= |station= |transcript= |transcript-url= |transcript-format= |conference= |conference-url= |conference-format=}}&lt;/nowiki></code>
+{{end}}</nowiki>
+}}
+{{csdoc|usage full}}
+:<code><nowiki>{{cite xxxxx |last1= |first1= |author-link1= |last2= |first2= |author-link2= |last3= |first3= |author-link3= |last4= |first4= |author-link4= |last5= |first5= |author-link5= |name-list-style= |vauthors= |translator-last1= |translator-first1= |translator-link1= |translator-last2= |translator-first2= |translator-link2= |collaboration= |contributor-last1= |contributor-first1= |contributor-link1= |contributor-last2= |contributor-first2= |contributor-link2= |others= |editor-last1= |editor-first1= |editor-link1= |editor-last2= |editor-first2= |editor-link2= |editor-last3= |editor-first3= |editor-link3= |veditors= |title= |script-title= |trans-title= |work= |script-work= |trans-work= |issue= |department= |chapter= |script-chapter= |trans-chapter= |contribution= |type= |edition= |series= |series-link= |episode= |event= |agency= |volume= |date= |year= |orig-date= |df= |publisher= |location= |publication-place= |via= |language= |page= |pages= |no-pp= |at= |minutes= |time= |time-caption= |id= |arxiv= |asin= |asin-tld= |bibcode= |biorxiv= |citeseerx= |doi= |doi-broken-date= |eissn= |hdl= |sbn= |isbn= |ismn= |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |embargo= |pmid= |rfc= |ssrn= |zbl= |url= |format= |archive-url= |archive-format= |url-status= |archive-date= |chapter-url= |chapter-format= |lay-url= |lay-format= |lay-source= |lay-date= |access-date= |no-tracking= |quote= |ref= |mode= |author-mask1= |author-mask2= |author-mask3= |author-mask4= |author-mask5= |display-authors= |translator-mask1= |translator-mask2= |display-translators= |contributor-mask1= |contributor-mask2= |display-contributors= |editor-mask1= |editor-mask2= |editor-mask3= |display-editors= |postscript= |url-access= |chapter-url-access= |bibcode-access= |doi-access= |hdl-access= |jstor-access= |ol-access= |osti-access= |map= |script-map= |trans-map= |map-url= |map-format= |map-url-access= |scale= |cartography= |inset= |sections= |interviewer-last1= |interviewer-first1= |interviewer-link1= |interviewer-last2= |interviewer-first2= |interviewer-link2= |interviewer-mask1= |interviewer-mask2= |display-interviewers= |season= |series-number= |series-separator= |network= |station= |transcript= |transcript-url= |transcript-format= |conference= |conference-url= |conference-format=}}</nowiki></code>
+{{end}}
+The above set is organised contextually rather than alphabetically. The following parameters, which are usually available for at least a few cite templates, are not included in the full parameter set above: {{para|authors}}; {{para|book-title}}; {{para|class}}; {{para|degree}}; {{para|docket}}; {{para|encyclopedia}}; {{para|mailing-list}}; {{para|message-id}}; {{para|number}}; {{para|publication-date}}; {{para|section}}; {{para|sheet}}; {{para|sheets}}; {{para|title-link}}; {{para|s2cid}}.
+
+===Most commonly used horizontal style===
+* Start with {{tlx|csdoc|usage common}}
+* Precede the sample markup with <code>:</code> to create an indent
+* Enclose the sample in {{tag|code|content={{tag|nowiki}}}}
+* Close the table with {{tlx|end}}
+
+{{pre2|<nowiki>
+{{csdoc|usage common}}
+:<code>&lt;nowiki>{{cite book |last= |first= |author-link= |title= |url= |access-date= |date= |publisher= |location= |isbn= |page= |pages=}}&lt;/nowiki></code>
+{{end}}</nowiki>
+}}
+{{csdoc|usage common}}
+:<code><nowiki>{{cite book |last= |first= |author-link= |title= |url= |access-date= |date= |publisher= |location= |isbn= |page= |pages=}}</nowiki></code>
+{{end}}
+
+===Full vertical style===
+The full vertical style can be implemented in a three-columns format (only practical when the number of parameters is not too extended) or in a four-columns format.
+
+====Three-columns format====
+The full vertical style in three columns consists of a "Vertical list", "Prerequisites" and "Brief instructions / notes".
+<syntaxhighlight lang="html">
+<!--
+* Start with: 
+-->
+{{csdoc|usage vertical}}
+<pre style="margin:0px;">
+<!--
+* Create the vertical list column
+* Separate the next column with:
+-->
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+<!--
+* Create the prerequisites column; blank lines must include a <code>&nbsp;</code>
+* Separate the next column with:
+-->
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+<!--
+* Create the instructions column; blank lines must include a <code>&nbsp;</code>
+* End with:
+-->
+</pre>
+{{csdoc|usage vertical end}}
+</syntaxhighlight>
+Example:
+<syntaxhighlight lang="html">
+{{csdoc|usage vertical}}
+<pre style="margin:0px;">
+{{cite book
+| last                  =
+| first                 =
+| author-link           =
+}}
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+&nbsp;
+&nbsp;
+last
+&nbsp;
+&nbsp;
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+&nbsp;
+same as last1
+same as first1
+&nbsp;
+&nbsp;
+</pre>
+{{csdoc|usage vertical end}}
+{{csdoc|usage vertical}}
+<pre style="margin:0px;">
+{{cite book
+| last                  =
+| first                 =
+| author-link           =
+}}
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+&nbsp;
+&nbsp;
+last
+&nbsp;
+&nbsp;
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px;">
+&nbsp;
+same as last1
+same as first1
+&nbsp;
+&nbsp;
+{{csdoc|usage vertical end}}
+</syntaxhighlight>
+
+====Four-columns format====
+<syntaxhighlight lang="html">
+{| class="wikitable"
+|+ Full parameter set in vertical format
+! Parameters !! Prerequisites !! Brief instructions / notes !! Vertical list
+|-
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| 
+| Author's last name or single name author. Don't link.
+| rowspan="3" style="vertical-align:top;" | <pre style="margin:0px; border:none;">
+{{cite xxxxx 
+ |last1                =
+ |first1               =
+ |author-link1         =
+}}
+</pre>
+|-
+| {{Hover title|or any of its aliases, including: first; given1; given; author-first1; author-first; (etc.)|first1}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| Author's first name. Don't link.
+|-
+| {{Hover title|or any of its aliases, including: author-link; subject-link1; subject-link; (etc.)|author-link1}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| Title of Wikipedia article about the first author. Don't link.
+|}
+</syntaxhighlight>
+
+{| class="wikitable"
+|+ Full parameter set in vertical format
+! Parameters !! Prerequisites !! Brief instructions / notes !! Vertical list
+|-
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| 
+| Author's last name or single name author. Don't link.
+| rowspan="179" style="vertical-align:top;" | <pre style="margin:0px; border:none;">
+{{cite xxxxx 
+ |last1                =
+ |first1               =
+ |author-link1         =
+ |last2                =
+ |first2               =
+ |author-link2         =
+ |last3                =
+ |first3               =
+ |author-link3         =
+ |last4                =
+ |first4               =
+ |author-link4         =
+ |last5                =
+ |first5               =
+ |author-link5         =
+ |name-list-style      =
+ |vauthors             =
+ |translator-last1     =
+ |translator-first1    =
+ |translator-link1     =
+ |translator-last2     =
+ |translator-first2    =
+ |translator-link2     =
+ |collaboration        =
+ |contributor-last1    =
+ |contributor-first1   =
+ |contributor-link1    =
+ |contributor-last2    =
+ |contributor-first2   =
+ |contributor-link2    =
+ |others               =
+ |editor-last1         =
+ |editor-first1        =
+ |editor-link1         =
+ |editor-last2         =
+ |editor-first2        =
+ |editor-link2         =
+ |editor-last3         =
+ |editor-first3        =
+ |editor-link3         =
+ |veditors             =
+ |title                =
+ |script-title         =
+ |trans-title          =
+ |work                 =
+ |script-work          =
+ |trans-work           =
+ |issue                =
+ |department           =
+ |chapter              =
+ |script-chapter       =
+ |trans-chapter        =
+ |contribution         =
+ |type                 =
+ |edition              =
+ |series               =
+ |series-link          =
+ |episode              =
+ |event                =
+ |agency               =
+ |volume               =
+ |date                 =
+ |year                 =
+ |orig-date            =
+ |df                   =
+ |publisher            =
+ |location             =
+ |publication-place    =
+ |via                  =
+ |language             =
+ |page                 =
+ |pages                =
+ |no-pp                =
+ |at                   =
+ |minutes              =
+ |time                 =
+ |time-caption         =
+ |id                   =
+ |arxiv                =
+ |asin                 =
+ |asin-tld             =
+ |bibcode              =
+ |biorxiv              =
+ |citeseerx            =
+ |doi                  =
+ |doi-broken-date      =
+ |eissn                =
+ |hdl                  =
+ |sbn                  =
+ |isbn                 =
+ |ismn                 =
+ |issn                 =
+ |jfm                  =
+ |jstor                =
+ |lccn                 =
+ |mr                   =
+ |oclc                 =
+ |ol                   =
+ |osti                 =
+ |pmc                  =
+ |embargo              =
+ |pmid                 =
+ |rfc                  =
+ |ssrn                 =
+ |zbl                  =
+ |url                  =
+ |format               =
+ |archive-url          =
+ |archive-format       =
+ |url-status           =
+ |archive-date         =
+ |chapter-url          =
+ |chapter-format       =
+ |lay-url              =
+ |lay-format           =
+ |lay-source           =
+ |lay-date             =
+ |access-date          =
+ |no-tracking          =
+ |quote                =
+ |ref                  =
+ |mode                 =
+ |author-mask1         =
+ |author-mask2         =
+ |author-mask3         =
+ |author-mask4         =
+ |author-mask5         =
+ |display-authors      =
+ |translator-mask1     =
+ |translator-mask2     =
+ |display-translators  =
+ |contributor-mask1    =
+ |contributor-mask2    =
+ |display-contributors =
+ |editor-mask1         =
+ |editor-mask2         =
+ |editor-mask3         =
+ |display-editors      =
+ |postscript           =
+ |url-access           =
+ |chapter-url-access   =
+ |bibcode-access       =
+ |doi-access           =
+ |hdl-access           =
+ |jstor-access         =
+ |ol-access            =
+ |osti-access          =
+ |map                  =
+ |script-map           =
+ |trans-map            =
+ |map-url              =
+ |map-format           =
+ |map-url-access       =
+ |scale                =
+ |cartography          =
+ |inset                =
+ |sections             =
+ |interviewer-last1    =
+ |interviewer-first1   =
+ |interviewer-link1    =
+ |interviewer-last2    =
+ |interviewer-first2   =
+ |interviewer-link2    =
+ |interviewer-mask1    =
+ |interviewer-mask2    =
+ |display-interviewers =
+ |season               =
+ |series-number        =
+ |series-separator     =
+ |network              =
+ |station              =
+ |transcript           =
+ |transcript-url       =
+ |transcript-format    =
+ |conference           =
+ |conference-url       =
+ |conference-format    =
+}}
+</pre>
+|-
+| {{Hover title|or any of its aliases, including: first; given1; given; author-first1; author-first; (etc.)|first1}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| Author's first name. Don't link.
+|-
+| {{Hover title|or any of its aliases, including: author-link; author1-link; subject-link1; subject-link; (etc.)|author-link1}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| Title of Wikipedia article about the first author. Don't link.
+|-
+| {{Hover title|or any of its aliases, including: author2; author-last2; (etc.)|last2}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| Like <code>last1</code>, but for 2nd author.
+|-
+| {{Hover title|or any of its aliases, including: given2; author-first2; (etc.)|first2}}
+| {{Hover title|or any of its aliases, including: author2; author-last2; (etc.)|last2}}
+| Like <code>first1</code>, but for 2nd author.
+|-
+| {{Hover title|or any of its aliases, including: author2-link; subject-link2; (etc.)|author-link2}}
+| {{Hover title|or any of its aliases, including: author2; author-last2; (etc.)|last2}}
+| Like <code>author-link1</code>, but for 2nd author.
+|-
+| {{Hover title|or any of its aliases, including: author3; author-last3; (etc.)|last3}}
+| {{Hover title|or any of its aliases, including: author2; author-last2; (etc.)|last2}}
+| Like <code>last1</code>, but for 3rd author.
+|-
+| {{Hover title|or any of its aliases, including: given3; author-first3; (etc.)|first3}}
+| {{Hover title|or any of its aliases, including: author3; author-last3; (etc.)|last3}}
+| Like <code>first1</code>, but for 3rd author.
+|-
+| {{Hover title|or any of its aliases, including: author3-link; subject-link3; (etc.)|author-link3}}
+| {{Hover title|or any of its aliases, including: author3; author-last3; (etc.)|last3}}
+| Like <code>author-link1</code>, but for 3rd author.
+|-
+| {{Hover title|or any of its aliases, including: author4; author-last4; (etc.)|last4}}
+| {{Hover title|or any of its aliases, including: author3; author-last3; (etc.)|last3}}
+| Like <code>last1</code>, but for 4th author.
+|-
+| {{Hover title|or any of its aliases, including: given4; author-first4; (etc.)|first4}}
+| {{Hover title|or any of its aliases, including: author4; author-last4; (etc.)|last4}}
+| Like <code>first1</code>, but for 4th author.
+|-
+| {{Hover title|or any of its aliases, including: author4-link; subject-link4; (etc.)|author-link4}}
+| {{Hover title|or any of its aliases, including: author4; author-last4; (etc.)|last4}}
+| Like <code>author-link1</code>, but for 4th author.
+|-
+| {{Hover title|or any of its aliases, including: author5; author-last5; (etc.)|last5}}
+| {{Hover title|or any of its aliases, including: author4; author-last4; (etc.)|last4}}
+| Like <code>last1</code>, but for 5th author. Similar: last6, etc.
+|-
+| {{Hover title|or any of its aliases, including: given5; author-first5; (etc.)|first5}}
+| {{Hover title|or any of its aliases, including: author5; author-last5; (etc.)|last5}}
+| Like <code>first1</code>, but for 5th author. Similar: first6, etc.
+|-
+| {{Hover title|or any of its aliases, including: author5-link; subject-link5; (etc.)|author-link5}}
+| {{Hover title|or any of its aliases, including: author5; author-last5; (etc.)|last5}}
+| Like <code>author-link1</code>, but for 5th author. Similar: author-link6, etc.
+|-
+|| name-list-style || || <code>vanc</code> to emulate [[Vancouver style]]
+|-
+|| vauthors ||  || 
+|-
+|| translator-last1 || || 
+|-
+|| translator-first1 || translator-last1 || 
+|-
+|| translator-link1 || translator-last1 || 
+|-
+|| translator-last2 || translator-last1 || Additional translators: translator-last3, etc.
+|-
+|| translator-first2 || translator-last2 || 
+|-
+|| translator-link2 || translator-last2 || 
+|-
+|| collaboration ||  || 
+|-
+|| contributor-last1 ||  || 
+|-
+|| contributor-first1 ||  || 
+|-
+|| contributor-link1 ||  || 
+|-
+|| contributor-last2 ||  || 
+|-
+|| contributor-first2 ||  || 
+|-
+|| contributor-link2 ||  || 
+|-
+|| others || || 
+|-
+|| editor-last1 ||   || 
+|-
+|| editor-first1 || editor-last1 || 
+|-
+|| editor-link1 || editor-last1 || 
+|-
+|| editor-last2 || editor-last1 || 
+|-
+|| editor-first2 || editor-last2 || 
+|-
+|| editor-link2 || editor-last2 || 
+|-
+|| editor-last3 || editor-last2 || 
+|-
+|| editor-first3 || editor-last3 || 
+|-
+|| editor-link3 || editor-last3 || 
+|-
+|| veditors ||  || 
+|-
+|| title || ||
+|-
+|| script-title || ||
+|-
+|| trans-title || title or script-title ||
+|-
+|| work || ||
+|-
+|| script-work || ||
+|-
+|| trans-work || work or script-work || 
+|-
+|| issue ||  || 
+|-
+|| department ||  || 
+|-
+|| chapter ||  || Chapter title can be wikilinked unless when a <code>chapter-url</code> is given
+|-
+|| script-chapter || ||
+|-
+|| trans-chapter || chapter or script-chapter || 
+|-
+|| contribution ||  || 
+|-
+|| type || || 
+|-
+|| edition || || Ordinal number 
+|-
+|| series || || 
+|-
+|| series-link ||  || 
+|-
+|| episode ||  || 
+|-
+|| event ||  || 
+|-
+|| agency ||  || 
+|-
+|| volume || || 
+|-
+|| date || ||
+|-
+|| year || ||
+|-
+|| orig-date || date or year || 
+|-
+|| df ||  || 
+|-
+|| publisher || || 
+|-
+|| location || publisher || 
+|-
+|| publication-place ||  || 
+|-
+|| via || || 
+|-
+|| language || || 
+|-
+|| page || || choose one: "page", "pages", or "at" 
+|-
+|| pages || || choose one: "page", "pages", or "at". Use when content on multiple pages supports the article text. 
+|-
+|| no-pp || page or pages || set no-pp to "yes" to suppress the "p." or "pp." before page numbers 
+|-
+|| at || || choose one: "page", "pages", or "at" 
+|-
+|| minutes ||  || 
+|-
+|| time ||  || 
+|-
+|| time-caption ||  || 
+|-
+|| id || || 
+|-
+|| arxiv || ||
+|-
+|| asin || || 
+|-
+|| asin-tld ||  || 
+|-
+|| bibcode || || 
+|-
+|| biorxiv ||  || 
+|-
+|| citeseerx ||  || 
+|-
+|| doi || ||
+|-
+|| doi-broken-date || doi || 
+|-
+|| eissn ||  || 
+|-
+|| hdl ||  || 
+|-
+|| sbn ||  || 
+|-
+|| isbn || || '''always include ISBN''', if one has been assigned 
+|-
+|| ismn || ||
+|-
+|| issn || || 
+|-
+|| jfm || ||
+|-
+|| jstor || ||
+|-
+|| lccn || ||
+|-
+|| mr || ||
+|-
+|| oclc || || 
+|-
+|| ol || ||
+|-
+|| osti || ||
+|-
+|| pmc || || 
+|-
+|| embargo ||  || 
+|-
+|| pmid || ||
+|-
+|| rfc || ||
+|-
+|| ssrn || ||
+|-
+|| zbl || || 
+|-
+|| url || title or script-title || 
+|-
+|| format || url || 
+|-
+|| archive-url ||  archive-date, url || 
+|-
+|| archive-format ||  || 
+|-
+|| url-status || archive-url || 
+|-
+|| archive-date ||  archive-url || 
+|-
+|| chapter-url || chapter or script-chapter ||
+|-
+|| chapter-format || chapter-url || 
+|-
+|| lay-url ||  || 
+|-
+|| lay-format || lay-url || 
+|-
+|| lay-source || lay-url || 
+|-
+|| lay-date || lay-url || 
+|-
+|| access-date || url || 
+|-
+|| no-tracking ||  || 
+|-
+|| quote || || 
+|-
+|| ref || || 
+|-
+|| mode || || <code>cs1</code> or <code>cs2</code> 
+|-
+|| author-mask1 || last1 ||
+|-
+|| author-mask2 || last2 ||
+|-
+|| author-mask3 || last3 ||
+|-
+|| author-mask4 || last4 ||
+|-
+|| author-mask5 || last5 ||
+|-
+| {{Hover title|or alias displayauthors|display-authors}}
+| {{Hover title|or any of its aliases, including: last; author1; author; author-last1; author-last; (etc.)|last1}}
+| number (number of authors displayed) or <code>etal</code> (more authors)
+|-
+|| translator-mask1 || translator-last1 ||
+|-
+|| translator-mask2 || translator-last2 || 
+|-
+|| display-translators ||  || 
+|-
+|| contributor-mask1 ||  || 
+|-
+|| contributor-mask2 ||  || 
+|-
+|| display-contributors ||  || 
+|-
+|| editor-mask1 || editor-last1 || 
+|-
+|| editor-mask2 || editor-last2 || 
+|-
+|| editor-mask3 || editor-last3 || 
+|-
+|| display-editors || || 
+|-
+|| postscript || || 
+|-
+|| url-access ||  || 
+|-
+|| chapter-url-access ||  || 
+|-
+|| bibcode-access ||  || 
+|-
+|| doi-access ||  || 
+|-
+|| hdl-access ||  || 
+|-
+|| jstor-access ||  || 
+|-
+|| ol-access ||  || 
+|-
+|| osti-access ||  || 
+|-
+|| map ||  || 
+|-
+|| script-map ||  || 
+|-
+|| trans-map ||  || 
+|-
+|| map-url ||  || 
+|-
+|| map-format ||  || 
+|-
+|| map-url-access ||  || 
+|-
+|| scale ||  || 
+|-
+|| cartography ||  || 
+|-
+|| inset ||  || 
+|-
+|| sections ||  || 
+|-
+|| interviewer-last1 ||  || 
+|-
+|| interviewer-first1 ||  || 
+|-
+|| interviewer-link1 ||  || 
+|-
+|| interviewer-last2 ||  || 
+|-
+|| interviewer-first2 ||  || 
+|-
+|| interviewer-link2 ||  || 
+|-
+|| interviewer-mask1 ||  || 
+|-
+|| interviewer-mask2 ||  || 
+|-
+|| {{nowrap|display-interviewers}} ||  || 
+|-
+|| season ||  || 
+|-
+|| series-number ||  || 
+|-
+|| series-separator ||  || 
+|-
+|| network ||  || 
+|-
+|| station ||  || 
+|-
+|| transcript ||  || 
+|-
+|| transcript-url ||  || 
+|-
+|| transcript-format ||  || 
+|-
+|| conference ||  || 
+|-
+|| conference-url ||  || 
+|-
+|| conference-format ||  || 
+|-
+| colspan="4" style="text-align: center " | If a field name is listed in the '''Prerequisites''' column it is a prerequisite for the field to the left.
+|-
+! colspan="4" | Additional parameters (available for at least some cite templates)
+|-
+||  ||  ||  || {{para|authors}}
+|-
+||  ||  ||  || {{para|book-title}}
+|-
+||  ||  ||  || {{para|class}}
+|-
+||  ||  ||  || {{para|degree}}
+|-
+||  ||  ||  || {{para|docket}}
+|-
+||  ||  ||  || {{para|encyclopedia}}
+|-
+||  ||  ||  || {{para|mailing-list}}
+|-
+||  ||  ||  || {{para|message-id}}
+|-
+||  ||  ||  || {{para|number}}
+|-
+||  ||  ||  || {{para|publication-date}}
+|-
+||  ||  ||  || {{para|section}}
+|-
+||  ||  ||  || {{para|sheet}}
+|-
+||  ||  ||  || {{para|sheets}}
+|-
+||  ||  ||  || {{para|title-link}}
+|-
+||  ||  || (available from late April 2020) || {{para|s2cid}}
+|}
+
+===Sub-templates===
+
+====Usage====
+{{Citation Style documentation/edit|usage}}
+{{end}}
+
+====Usage full====
+{{Citation Style documentation/edit|usage full}}
+{{end}}
+
+====Usage common====
+{{Citation Style documentation/edit|usage common}}
+{{end}}
+
+====Usage vertical====
+{{Citation Style documentation/edit|usage vertical}}
+{{end}}
+
+====Usage vertical mid====
+{{Citation Style documentation/edit|usage vertical mid}}
+{{end}}
+
+====Usage vertical end====
+{{Citation Style documentation/edit|usage vertical end}}
+
+==Examples section==
+Use {{tl|markup2}} to format the examples {{crossref|(see that template's documentation for use)}}.
+
+<pre>{{markup2 |t=Basic usage with url and edition
+|m=<nowiki>{{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}</nowiki>
+|r={{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}
+}}
+</pre>
+
+{{markup2 |t=Basic usage with url and edition
+|m=<nowiki>{{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}</nowiki>
+|r={{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}
+}}
+
+==Parameters section==
+
+===syntax===
+{{Citation Style documentation/edit|syntax}}
+
+===COinS===
+{{Citation Style documentation/edit|coins}}
+
+===sep_period===
+{{Citation Style documentation/edit|sep_period}}
+
+===sep_comma===
+{{Citation Style documentation/edit|sep_comma}}
+
+===required===
+{{Citation Style documentation/edit|required}}
+
+===whats new===
+{{Citation Style documentation/edit|whats new}}
+
+===deprecated===
+{{Citation Style documentation/edit|deprecated}}
+<!-- {{Citation Style documentation/opt|1=
+*{{para|date2|yes}} adds:
+** date2
+** month2
+** year2}} -->
+
+===author===
+{{Citation Style documentation/edit|author}}
+{{Citation Style documentation/opt|1=
+*{{para|contributor|yes}} adds contributors (use with cite book and citation only)
+*{{para|others|yes}} adds "'''others''': To record other contributors to the work, such as "Illustrated by Smith" or "Trans. Smith"."
+*{{para|aliases}} add aliases for '''last'''.
+}}
+
+===editor===
+{{Citation Style documentation/edit|editor}}
+
+===title===
+{{Citation Style documentation/edit|title}}
+
+{{Citation Style documentation/opt|1=
+'''title_title''' sets the display title:
+* '''encyclopedia''' = encyclopedia
+* default = title}}
+
+===web===
+{{Citation Style documentation/edit|web}}
+
+===chapter===
+{{Citation Style documentation/edit|chapter}}
+{{Citation Style documentation/opt|1=
+'''title_format''' sets the display format:
+*'''italics''' = Displays in italics.
+* '''work''' = If '''work''' is defined, then '''title''' is displayed in quotes, else displays in italics.
+* default = Displays in quotes.
+'''title_title''' sets the display title:
+* '''booktitle''' = booktitle
+* default = chapter}}
+
+===type===
+{{Citation Style documentation/edit|type}}
+{{Citation Style documentation/opt|
+* '''type_default''': Adds "Defaults to '''type_default'''"}}
+
+===journal===
+{{Citation Style documentation/edit|journal}}
+{{Citation Style documentation/opt|1=
+* '''department''' adds:
+:* '''department''': Regular department or section within the periodical or journal. Examples include "Communication", "Editorial", "Letter to the Editor", and "Review". Displays after '''title''' and is in plain text.
+}}
+
+===edition===
+{{Citation Style documentation/edit|edition}}
+
+===series===
+{{Citation Style documentation/edit|series}}
+
+===series_episode===
+{{Citation Style documentation/edit|series_episode}}
+
+===event===
+{{Citation Style documentation/edit|event}}
+
+===agency===
+{{Citation Style documentation/edit|agency}}
+
+===volume===
+{{Citation Style documentation/edit|volume}}
+
+===date===
+{{Citation Style documentation/edit|date}}
+{{Citation Style documentation/opt|1=
+* '''limited_param_list''' hides '''orig-date''' because not allowed in limited-parameter templates
+}}
+
+===publisher===
+{{Citation Style documentation/edit|publisher}}
+{{Citation Style documentation/opt|1=
+*{{para|work|no}} suppresses "; if '''work''' is defined, then '''publisher''' and '''location''' are enclosed in parentheses"
+*{{para|map|yes}} changes:
+** '''publisher''': Name of publisher. The [[publisher]] is the company that publishes the work being cited. Do not use the '''publisher''' parameter for the name of a work (e.g., a book, encyclopedia, newspaper, magazine, journal, website). Displays before title. Do not wikilink—use publisher-link instead.
+** '''publisher-link''': Title of existing Wikipedia article about the publisher—not the publisher's website; do not wikilink.
+}}
+<!--draft of "organization" parameter document, commented for now since it is not currently supported
+===organization===
+{{Citation Style documentation/edit|organization}}
+{{Citation Style documentation/opt|1=
+<!--*{{para|work|no}} suppresses "; if '''work''' is defined, then '''organization''' and '''location''' are enclosed in parentheses"
+*{{para|map|yes}} changes:
+** '''organization''': Name of organization. The organization is a company, institution or other such entity that provides the information being cited. Do not use the '''organization''' parameter for the name of a work (e.g., a book, encyclopedia, newspaper, magazine, journal, website). Displays before title.
+}}
+-->
+
+===newsgroup===
+{{Citation Style documentation/edit|newsgroup}}
+
+===language===
+{{Citation Style documentation/edit|language}}
+
+===pages===
+{{Citation Style documentation/edit|pages}}
+{{Citation Style documentation/opt|1=
+* '''work''' adds "or '''work''' (or an alias) is defined"}}
+
+===time===
+{{Citation Style documentation/edit|time}}
+
+===id1===
+{{Citation Style documentation/edit|id1}}
+
+===id2===
+{{Citation Style documentation/edit|id2}}
+
+===url===
+{{Citation Style documentation/edit|url}}
+{{Citation Style documentation/opt|1=
+* '''media''' uses 'media' in place of 'text of the publication'
+}}
+
+===chapterurl===
+{{Citation Style documentation/edit|chapterurl}}
+
+===lay===
+{{Citation Style documentation/edit|lay}}
+
+===quote===
+{{Citation Style documentation/edit|quote}}
+{{Citation Style documentation/opt|1=
+* {{para|cs2|yes}} suppresses "When supplied, the citation terminator (a period by default) is suppressed, so the quote needs to include terminating punctuation."}}
+
+===ref===
+{{Citation Style documentation/edit|ref}}
+
+===display===
+{{Citation Style documentation/edit|display}}
+{{Citation Style documentation/opt|
+* '''cs2''': When set, changes:
+**'''postscript''' to "defaults to none"
+** '''separator''' to "Defaults to a comma (,)"}}
+
+===Subscription or registration required===
+{{Citation Style documentation/edit|registration}}
+
+===map_series===
+{{Citation Style documentation/edit|map_series}}
+
+===map_pages===
+{{Citation Style documentation/edit|map_pages}}
+
+===interview_author===
+{{Citation Style documentation/edit|interview_author}}
+
+===interview_interviewer===
+{{Citation Style documentation/edit|interview_interviewer}}
+
+===season===
+{{Citation Style documentation/edit|season}}
+
+===network===
+{{Citation Style documentation/edit|network}}
+
+===transcript===
+{{Citation Style documentation/edit|transcript}}
+
+===conference===
+{{Citation Style documentation/edit|conference}}
+
+==Notes==
+<references/>
+
+{{Citation Style 1}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories and interwikis go here: -->
+[[Category:Documentation assistance templates]]
+
+}}</includeonly>
