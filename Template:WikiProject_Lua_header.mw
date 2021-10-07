@@ -1,0 +1,23 @@
+{{page tabs
+|1=<span style="margin: -5px 0;display:inline-block">[[File:Lua-Logo.svg|22px|link=WP:Lua]]</span> [[WP:Lua]]
+|2=[[Wikipedia talk:Lua|(talk)]]
+|3=[[Help:Lua|Help]]
+|4=[[Wikipedia:Lua/To do|To do]]
+|5=[[Wikipedia:Lua/Resources|Resources]]
+|6=[[:mw:Extension:Scribunto/Lua reference manual|Reference manual]]
+|This={{#switch:{{FULLPAGENAME}}| Wikipedia:Lua = 1 | Wikipedia talk:Lua = 2 | Help:Lua = 3 | Wikipedia:Lua/To do = 4 | Wikipedia:Lua/Resources = 5}}
+}}<!-- 
+
+-->{{#switch:{{FULLPAGENAME}}
+| Wikipedia:Lua = 
+* [[Special:PrefixIndex/Wikipedia:Lua|Project subpages]] ([[mw:Lua]] &ndash; index at www.mediawiki.org)
+| Help:Lua =
+* [[Help:Lua for beginners]]
+* [[Help:Lua debugging]] &ndash; about [[debugging]] Lua modules
+* [[Wikipedia:Lua style guide]] &ndash; standards to improve the readability of code through consistency
+* [[Module:Sandbox]] provides a pseudo-namespace for experimenting with Lua modules
+| Wikipedia:Lua/Resources =
+* en: [[:mw:Lua|mw:]], [[:mw:Extension:Scribunto/Lua reference manual|Scribunto Lua reference manual]]
+}}{{#if:{{{sc1|}}}|{{shortcut|{{{sc1|}}}|{{{sc2|}}}|{{{sc3|}}}|{{{sc4|}}}}}}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
