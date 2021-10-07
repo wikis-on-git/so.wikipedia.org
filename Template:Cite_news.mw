@@ -5,27 +5,27 @@
 </noinclude>
 
 <cite style="font-style:normal">{{
-#if:{{{author|}}}{{{last|}}}
-  |{{#if:{{{authorlink|}}}
+#if:{{{last_name1|}}}{{{frist_name1|}}}
+  |{{#if:{{{title|}}}
     |[[{{{url}}}|{{
-    #if: {{{last|}}}
-      |{{{last}}}{{#if:{{{first|}}}|, {{{first}}}}}
+    #if: {{{last_name1|}}}
+      |{{{last_name1}}}{{#if:{{{first_name1|}}}|, {{{first_name1}}}}}
       |{{{author}}}
     }}]]
-    |{{#if: {{{last|}}}
-      |{{{last}}}{{#if:{{{first|}}}|, {{{first}}}}}
-      |{{{author}}}{{#if:{{{coauthors|}}}
+    |{{#if: {{{last_name2|}}}
+      |{{{last_name2}}}{{#if:{{{first_name2|}}}|, {{{first_name2}}}}}
+      |{{{author}}}{{#if:{{{url|}}}
         |
         |
         }}
     }}
   }}{{
-  #if:{{{coauthors|}}}
-    |<nowiki>;</nowiki> {{{coauthors}}}
+  #if:{{{date|}}}
+    |<nowiki>;</nowiki> {{{date}}}
   }}{{
-  #if:{{{access-date|}}}
+  #if:{{{work|}}}
     |&#32;({{{access-date}}})
-    |{{#if:{{{year|}}}
+    |{{#if:{{{date|}}}
       |{{#if:{{{url-status|}}}
         |&#32;({{{archive-url}}} {{{trans-title}}})
         |&#32;({{{language}}})
@@ -36,12 +36,12 @@
 #if:{{{url|}}}
   |"[{{{url}}} {{{article|{{{title}}}}}}]"
   |{{
-  #if:{{{article|{{{title|}}}}}}
-    |"{{{article|{{{title}}}}}}"
+  #if:{{{url|{{{title|}}}}}}
+    |"{{{url|{{{title}}}}}}"
   }}
 }}{{
-#if:{{{news|}}}{{{news|}}}
-  |&#32;''{{{news|{{{news}}}}}}''
+#if:{{{url|}}}{{{url|}}}
+  |&#32;''{{{title|{{{title}}}}}}''
 }}{{
 #if:{{{edition|}}}
   |&#32;({{{edition}}})
