@@ -1,0 +1,21 @@
+<!-- Non-free license tag, based on Template:Image-license-fairuse -->{{imbox
+| type       = license
+| image      = [[Image:Fair use movie poster.svg|52px|Copyrighted]]
+| imageright = 
+| text       = This image is of a '''[[poster]]''', and the copyright for it is most likely owned by either the publisher or the creator of the work depicted. It is believed that the use of '''scaled-down, low-resolution''' images of posters
+*'''to provide critical commentary on the film, event, etc. in question or of the poster itself,''' not solely for illustration
+*on the [[Main Page|English-language Wikipedia]], hosted on servers in the United States by the non-profit [[wmf:Home|Wikimedia Foundation]],
+qualifies as '''[[fair use]]''' under the [[copyright law of the United States]]. '''Any other uses of this image, on Wikipedia or elsewhere, may be [[copyright infringement]].''' See [[Wikipedia:Non-free content]] for more information.<br />
+
+|below={{#ifeq:{{{image_has_rationale|{{{image has rationale}}}}}}|yes|
+{{#ifeq:{{NAMESPACE}}|File|[[Category:Wikipedia non-free files with NFUR stated]]{{#ifeq:{{{auto|}}}|yes|[[Category:Wikipedia non-free files with NFUR stated (bot-assessed)]]}}}}
+|{{Uploader information|additional notes=
+# This tag should only be used for posters.
+# Try using '''[[Template:Non-free use rationale poster]]''' to state the rationale. 
+}}}}
+{{Non-free media}}
+}}{{image other
+| [[Category:{{Resolve category redirect|{{{1|Non-free posters}}}}}]]
+}}<noinclude>
+{{documentation}}
+</noinclude>
