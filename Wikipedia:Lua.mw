@@ -1,0 +1,16 @@
+{{short description|Wikipedia project page for MediaWiki Lua modules}}
+{{WikiProject Lua header}}
+{{Information page}}
+{{Namespaces}}
+
+[[Lua]] waa luqadda barnaamijka oo laga heli karo [[mw:Extension:Scribunto|Scribunto]] [[MediaWiki extension]] ee Wikipedia.  Lambarka Lua hadda waxaa lagu dari karaa qaab-dhismeedka wiki iyadoo la shaqaaleysiinayo faylka "<nowiki>{{#invoke:}}</nowiki>" shaqaynta Scribunto.  Fidintaani waxay taageertaa Lua 5.1 {{sida |lc=y|2015|07}}.
+
+Lua [[koodhka isha]] waxaa lagu kaydiyaa bogag la yiraahdo modules (tusaale., [[Module:Example]]). Cutubyadan shaqsiyeedka ah ayaa markaa lagu yeerayaa (koodh <code><nowiki>{{#invoke:<Module name>|<Function name>|(optional) param1 | param2...}}</nowiki></code>). Tusaale:
+{| class="wikitable"
+|-
+! Wikitext
+! Result
+|-
+|  <code><nowiki>{{#invoke:Example|hello}}</nowiki></code>
+| {{#invoke:Example|hello}}
+|}
