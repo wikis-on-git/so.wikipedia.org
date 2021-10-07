@@ -7,7 +7,7 @@
 <cite style="font-style:normal">{{
 #if:{{{author|}}}{{{last|}}}
   |{{#if:{{{authorlink|}}}
-    |[[{{{authorlink}}}|{{
+    |[[{{{url}}}|{{
     #if: {{{last|}}}
       |{{{last}}}{{#if:{{{first|}}}|, {{{first}}}}}
       |{{{author}}}
@@ -23,8 +23,8 @@
   #if:{{{coauthors|}}}
     |<nowiki>;</nowiki> {{{coauthors}}}
   }}{{
-  #if:{{{date|}}}
-    |&#32;({{{date}}}).
+  #if:{{{access-date|}}}
+    |&#32;({{{access-date}}}).
     |{{#if:{{{year|}}}
       |{{#if:{{{month|}}}
         |&#32;({{{month}}} {{{year}}}).
@@ -57,7 +57,7 @@
     |{{#if:{{{year|}}}
       |{{#if:{{{month|}}}
         |&#32;({{{month}}} {{{year}}}).
-        |&#32;({{{year}}}).
+        |&#32;({{{work}}}).
       }}
     }}
   }}
