@@ -6,20 +6,6 @@
 {{template shortcut|csdoc}}
 {{notice|When updating this template keep in mind that it is used on a number of template documentation pages. If the parameters in question are unique to a template, then either add it manually to the template documentation or create a new section here for transclusion.}}
 
-==Examples section==
-Use {{tl|markup2}} to format the examples {{crossref|(see that template's documentation for use)}}.
-
-<pre>{{markup2 |t=Basic usage with url and edition
-|m=<nowiki>{{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}</nowiki>
-|r={{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}
-}}
-</pre>
-
-{{markup2 |t=Basic usage with url and edition
-|m=<nowiki>{{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}</nowiki>
-|r={{cite book |title=Mysterious book |url=https://www.example.com |edition=2nd}}
-}}
-
 ==Parameters section==
 
 ===syntax===
