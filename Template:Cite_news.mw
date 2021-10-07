@@ -1,73 +1,98 @@
-<includeonly>{{#invoke:citation/CS1|citation
-|CitationClass=news
-}}</includeonly><noinclude>
 {{documentation}}
-</noinclude>
 
-<cite style="font-style:normal">{{
-#if:{{{last_name1|}}}{{{frist_name1|}}}
-  |{{#if:{{{title|}}}
-    |[[{{{url}}}|{{
-    #if: {{{last_name1|}}}
-      |{{{last_name1}}}{{#if:{{{first_name1|}}}|, {{{first_name1}}}}}
-      |{{{author}}}
-    }}]]
-    |{{#if: {{{last_name2|}}}
-      |{{{last_name2}}}{{#if:{{{first_name2|}}}|, {{{first_name2}}}}}
-      |{{{author}}}{{#if:{{{url|}}}
-        |
-        |
-        }}
-    }}
-  }}{{
-  #if:{{{date|}}}
-    |<nowiki>;</nowiki> {{{date}}}
-  }}{{
-  #if:{{{work|}}}
-    |&#32;({{{access-date}}})
-    |{{#if:{{{date|}}}
-      |{{#if:{{{url-status|}}}
-        |&#32;({{{archive-url}}} {{{trans-title}}})
-        |&#32;({{{language}}})
-      }}
-    }}
-  }}
-}}&#32;{{
-#if:{{{url|}}}
-  |"[{{{url}}} {{{article|{{{title}}}}}}]"
-  |{{
-  #if:{{{url|{{{title|}}}}}}
-    |"{{{url|{{{title}}}}}}"
-  }}
-}}{{
-#if:{{{url|}}}{{{url|}}}
-  |&#32;''{{{title|{{{title}}}}}}''
-}}{{
-#if:{{{edition|}}}
-  |&#32;({{{edition}}})
-}}{{
-#if:{{{volume|}}}
-  |&#32;'''{{{volume}}}'''
-}}.{{
-#if:{{{last|}}}{{{author|}}}
-  |&#32;
-  |{{
-  #if:{{{date|}}}
-    |&#32;({{{date}}})
-    |{{#if:{{{year|}}}
-      |{{#if:{{{month|}}}
-        |&#32;({{{month}}} {{{year}}})
-        |&#32;({{{work}}})
-      }}
-    }}
-  }}
-}}{{
-#if:{{{editor|}}}
-  |&#32;Red {{{editor}}}
-}}{{
-#if:{{{publisher|}}}|{{
-  #if:{{{location|}}}
-    |&#32;{{{location}}}:
-  }}&#32;{{{publisher}}}
+;To cite a news article with a credited author
+<code><nowiki>{{cite news |last= |first= |date= |title= |url= |work= |location= |access-date=}}</nowiki></code>
+<br />
+;Si aad u soo xigato maqaal war oo aan lahayn qoraa lagu ammaano
+<code><nowiki>{{cite news |author=<!--Staff writer(s)/no by-line.--> |date= |title= |url= |work= |location= |access-date=}}</nowiki></code>
+<br />
+;Si aad u soo xigato maqaal warar online ah oo la keydiyay
+<code><nowiki>{{cite news |last= |first= |date= |title= |url= |url-status= |work= |location= |archive-url= |archive-date= |access-date=}}</nowiki></code>
+<br />
+;Si aan u soo qaato maqaal war oo ku qoran af qalaad
+<code><nowiki>{{cite news |last= |first= |date= |title= |trans-title= |url= |language= |work= |location= |access-date=}}</nowiki></code>
+;In la tixraaco oo la soo xigto maqaal war la kaydiyey oo la gooyay adeeg isku -darka macluumaadka oo u baahan rukumasho
+<code><nowiki>{{cite news |last1= |first1= |last2= |first2= |date= |title= |trans-title= |url= |url-status= |language= |work= |location= |archive-url= |archive-date= |access-date= |via= |quote=}}</nowiki></code>
+
+:<code><nowiki>{{cite news |last1= |first1= |author-link1= |last2= |first2= |author-link2= |last3= |first3= |author-link3= |last4= |first4= |author-link4= |last5= |first5= |author-link5= |display-authors= |author-mask= |name-list-style= |date= |year= |orig-year= |title= |script-title= |trans-title= |url= |url-status= |format= |editor1-last= |editor1-first= |editor1-link= |editor2-last= |editor2-first= |editor2-link= |editor3-last= |editor3-first= |editor3-link= |editor4-last= |editor4-first= |editor4-link= |editor5-last= |editor5-first= |editor5-link= |display-editors= |department= |work= |type= |series= |language= |volume= |issue= |others= |edition= |location= |publisher= |publication-date= |agency= |page= |pages= |at= |no-pp= |arxiv= |asin= |bibcode= |doi= |doi-broken-date= |isbn= |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |pmid= |rfc= |ssrn= |zbl= |id= |archive-url= |archive-date= |access-date= |via= |url-access= |lay-url= |lay-source= |lay-date= |quote= |postscript= |ref=}}</nowiki></code>
+
+;Si aad u soo xigato maqaal war oo leh qoraa lagu ammaanay
+<pre style="margin:0px; border:none;">
+{{cite news
+| last         = 
+| first        = 
+| date         = 
+| title        = 
+| url          = 
+| work         = 
+| location     = 
+| access-date  = 
 }}
-[[category:Tusmooyinka xigashada]]</noinclude>
+</pre>
+;Si aad u soo xigato maqaal war oo aan lahayn qoraa lagu ammaano
+<pre style="margin:0px; border:none;">
+{{cite news
+| author       =<!--Staff writer(s)/no by-line.-->
+| title        = 
+| url          = 
+| work         = 
+| location     = 
+| date         = 
+| access-date  =
+}}
+</pre>
+;Si aad u soo xigato maqaal warar online ah oo la keydiyay
+<pre style="margin:0px; border:none;">
+{{cite news
+| last         = 
+| first        = 
+| date         = 
+| title        = 
+| url          = 
+| url-status   = 
+| work         = 
+| location     = 
+| archive-url  = 
+| archive-date = 
+| access-date  = 
+}}
+</pre>
+;Si aan u soo qaato maqaal war oo ku qoran af qalaad
+<pre style="margin:0px; border:none;">
+{{cite news
+| last         = 
+| first        = 
+| date         = 
+| title        = 
+| trans-title  = 
+| url          = 
+| language     = 
+| work         = 
+| location     = 
+| access-date  = 
+}}
+</pre>
+;Si aad u tixraacdo uguna soo xigato maqaal war la gooyay oo la keydiyay oo ku saabsan adeegga isu -geynta macluumaadka ee u baahan rukumasho
+<pre style="margin:0px; border:none;">
+{{cite news
+| last1        = 
+| first1       = 
+| last2        = 
+| first2       = 
+| date         = 
+| title        = 
+| trans-title  = 
+| url          = 
+| url-status   = 
+| format       = 
+| language     = 
+| work    = 
+| location     = 
+| archive-url  = 
+| archive-date = 
+| access-date  = 
+| via          = 
+| url-access   = 
+| quote        = 
+}}
+</pre>
