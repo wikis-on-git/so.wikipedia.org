@@ -1,3 +1,154 @@
 <includeonly>{{#invoke:Episode list|list}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
+{{Episode table |background= |overall= |season= |title= |aux1= |aux1T=Aux1 |director= |writer= |aux2= |aux2T=Aux2 |aux3= |aux3T=Aux3 |airdate= |altdate= |altdateT=AltDate |prodcode= |viewers= |country=U.S. |aux4= |aux4T=Aux4 |episodes=
+{{Episode list
+| EpisodeNumber   = {{{EpisodeNumber}}}
+| EpisodeNumber2  = {{{EpisodeNumber2}}}
+| Title           = {{{Title}}}
+| RTitle          = {{{RTitle}}}
+| AltTitle        = {{{AltTitle}}}
+| RAltTitle       = {{{RAltTitle}}}
+| Aux1            = {{{Aux1}}}
+| DirectedBy      = {{{DirectedBy}}}
+| WrittenBy       = {{{WrittenBy}}}
+| Aux2            = {{{Aux2}}}
+| Aux3            = {{{Aux3}}}
+| OriginalAirDate = {{{OriginalAirDate}}}
+| AltDate         = {{{AltDate}}}
+| ProdCode        = {{{ProdCode}}}
+| Viewers         = {{{Viewers}}}
+| Aux4            = {{{Aux4}}}
+| ShortSummary    = {{{ShortSummary}}}
+}}
+}}
+
+{{Episode table |background=#0C5829 |overall= |overallT=Japanese episode {{abbr|no.|number}} |season= |seasonT=U.S. episode {{abbr|no.|number}} |title= |director= |writer= |airdate= |episodes=
+{{Episode list
+| EpisodeNumber       = 1
+| EpisodeNumber2      = 1
+| Title               = [[Pokémon, I Choose You!]]
+| RTitle              = &nbsp;(Pokémon I Choose You!)
+| TranslitTitle       = Pokemon! Kimi ni Kimeta!
+| NativeTitle         = ポケモン! きみにきめた!
+| NativeTitleLangCode = ja
+| DirectedBy          = Masamitsu Hidaka
+| WrittenBy           = [[Shoji Yonemura]]
+| OriginalAirDate     = {{Start date|1997|4|1}}
+| ShortSummary        = Ash Ketchum is finally 10 years old, old enough to become a Pokémon Trainer. 
+| LineColor           = #0C5829
+}}
+}}
+
+{{Episode table |background=#69D0E3 |overall= |title= |airdate= |episodes=
+{{Episode list
+| NumParts            = 2
+| EpisodeNumber       = 1
+| Title_1             = Shinobu, the Ninja Apprentice, Appears
+| TranslitTitle_1     = Minarai Ninja, Shinobu Kenzan no Maki
+| NativeTitle_1       = 見習い忍者、忍見参の巻
+| Title_2             = The Master Appears
+| TranslitTitle_2     = Tōryō, Arawaru no Maki
+| NativeTitle_2       = 頭領、現るの巻
+| NativeTitleLangCode = ja
+| OriginalAirDate     = {{Start date|2004|7|8}}
+| ShortSummary        = Episode summary
+| LineColor           = #69D0E3
+}}
+}}
+
+
+{{Episode table
+|background = #8D3D63 |overall= |overallT=Story |series= |seriesT=Serial |title= |aux1= |aux1T=Serial titles |director= |writer= |airdate= |prodcode= |viewers= |country=UK |aux4= |aux4T=[[Appreciation Index|{{abbr|AI|Appreciation Index|style=color:white}}]] |episodes =
+{{Episode list
+| NumParts            = 4
+| EpisodeNumber       = 1
+| EpisodeNumber2      = 1
+| Title               = [[An Unearthly Child]]
+| Aux1_1              = "An Unearthly Child"
+| Aux1_2              = "The Cave of Skulls"
+| Aux1_3              = "The Forest of Fear"
+| Aux1_4              = "The Firemaker"
+| DirectedBy          = [[Waris Hussein]]
+| WrittenBy           = [[Anthony Coburn]]
+| OriginalAirDate_1   = {{Start date|1963|11|23|df=y}}
+| OriginalAirDate_2   = 30 November 1963
+| OriginalAirDate_3   = 7 December 1963
+| OriginalAirDate_4   = 14 December 1963
+| ProdCode            = A
+| Viewers_1           = 4.4
+| Viewers_2           = 5.9
+| Viewers_3           = 6.9
+| Viewers_4           = 6.4
+| Aux4_1              = 63
+| Aux4_2              = 59
+| Aux4_3              = 56
+| Aux4_4              = 55
+| ShortSummary        = Schoolteachers [[Ian Chesterton]] and [[Barbara Wright (Doctor Who)|Barbara Wright]] are concerned about one of their pupils, [[Susan Foreman]].
+| LineColor           = 8D3D63
+}}
+}}
+
+;Season 3
+{{main|Lost (season 3)}}
+{{Episode table |background=#2E5528 |overall= |season= |title= |director= |writer= |aux2= |aux2T=Featured<br />character(s) |airdate= |viewers= |country=U.S. |episodes=
+{{Episode list/sublist|Lost (season 2)
+| EpisodeNumber   = 69
+| EpisodeNumber2  = 20
+| Title           = The Man Behind the Curtain
+| DirectedBy      = [[Bobby Roth]]
+| WrittenBy       = Elizabeth Sarnoff & Drew Goddard
+| Aux2            = [[Ben Linus|Ben]]
+| OriginalAirDate = {{Start date|2007|5|9}}
+| Viewers         = 12.11{{dummy ref}}
+| ShortSummary    = Locke meets the Others' mysterious leader Jacob.
+| LineColor       = 2E5528
+}}
+{{Episode list/sublist|Lost (season 3)
+| EpisodeNumber   = 70
+| EpisodeNumber2  = 21
+| Title           = Greatest Hits
+| DirectedBy      = Stephen Williams
+| WrittenBy       = Edward Kitsis & Adam Horowitz
+| Aux2            = [[Charlie Pace|Charlie]]
+| OriginalAirDate = {{Start date|2007|5|16}}
+| Viewers         = 12.32{{dummy ref}}
+| ShortSummary    = Jack learns of the Others' plan.
+| LineColor       = 2E5528
+}}
+}}
+
+;Season 4
+{{main|Lost (season 4)}}
+{{Episode table |background=#00549A |overall= |season= |title= |director= |writer= |aux2= |aux2T=Featured<br />character(s) |airdate= |viewers= |country=U.S. |episodes=
+{{Episode list/sublist|Lost (season 4)
+| EpisodeNumber   = 73
+| EpisodeNumber2  = 1
+| Title           = The Beginning of the End
+| DirectedBy      = [[Jack Bender]]
+| WrittenBy       = [[Damon Lindelof]] & [[Carlton Cuse]]
+| Aux2            = [[Hugo "Hurley" Reyes|Hurley]]
+| OriginalAirDate = {{Start date|2008|1|31}}
+| Viewers         = 17.77{{dummy ref|2}}
+| ShortSummary    = The survivors of 815 split into two groups led by Jack and Locke.
+| LineColor       = 00549A
+| RowColor        = on
+}}
+{{Episode list/sublist|Lost (season 4)
+| EpisodeNumber   = 74
+| EpisodeNumber2  = 2
+| Title           = Confirmed Dead
+| DirectedBy      = [[Stephen Williams (director)|Stephen Williams]]
+| WrittenBy       = [[Drew Goddard]] & [[Brian K. Vaughan]]
+| Aux2            = [[Daniel Faraday|Faraday]]
+| OriginalAirDate = {{Start date|2008|2|7}}
+| Viewers         = 16.96{{dummy ref|2}}
+| ShortSummary    = A science team from the freighter arrives on the island.
+| LineColor       = 00549A
+| RowColor        = off
+}}
+}}
+
+== Sido kale firi ==
+* {{tl|Episode table}}
+* {{tl|Series overview}}
