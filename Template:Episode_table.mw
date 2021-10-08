@@ -2,9 +2,338 @@
 {{documentation}}
 </noinclude>
 
-<code><nowiki>{{infobox |overall= |season= |title= |aux1= |director= |writer= |aux2= |aux3= |airdate= |altdate= |prodcode= |viewers= |aux4= |country= |aux1T=Aux1 |aux2T=Aux2 |aux3T=Aux3 |aux4T=Aux4 |altdateT=AltDate}}</nowiki></code>
+{{Documentation subpage}}
+<!-- Add categories where indicated at the bottom of this page and interwikis at Wikidata -->
+{{High-use}}
+{{Lua|Module:Episode table}}
 
+== Usage ==
+The purpose of the '''{{tl|Episode table}}''' template is to easily add header row to episode tables for television series, with up to 13 different columns, and optionally set the widths of these columns, and includes the {{tl|Episode list}} template in the "episode" parameter. Cells are included by declaring the specific variable in one of two ways: <code>title=</code> includes the "Title" cell with no set width, and <code>title=30</code> includes the "Title" cell with a width of 30%.
 
+===Syntax===
+{{collapse top|title=Parameters}}
+<pre>{{Episode table
+|caption      = TEXT
+|background   = COLOR
 
+|total_width  = WIDTH
+|overall      = WIDTH
+|series       = WIDTH
+|season       = WIDTH
+|title        = WIDTH
+|aux1         = WIDTH
+|director     = WIDTH
+|writer       = WIDTH
+|aux2         = WIDTH
+|aux3         = WIDTH
+|airdate      = WIDTH
+|altdate      = WIDTH
+|prodcode     = WIDTH
+|viewers      = WIDTH
+|aux4         = WIDTH
+|country      = COUNTRY
+|released     = TEXT
+|viewers_type = TEXT
+
+|overallT     = TEXT
+|seriesT      = TEXT
+|seasonT      = TEXT
+|titleT       = TEXT
+|aux1T        = TEXT
+|directorT    = TEXT
+|writerT      = TEXT
+|aux2T        = TEXT
+|aux3T        = TEXT
+|airdateT     = TEXT
+|altdateT     = TEXT
+|prodcodeT    = TEXT
+|viewersT     = TEXT
+|aux4T        = TEXT
+
+|overallR     = REFERENCE
+|seriesR      = REFERENCE
+|seasonR      = REFERENCE
+|titleR       = REFERENCE
+|aux1R        = REFERENCE
+|directorR    = REFERENCE
+|writerR      = REFERENCE
+|aux2R        = REFERENCE
+|aux3R        = REFERENCE
+|airdateR     = REFERENCE
+|altdateR     = REFERENCE
+|prodcodeR    = REFERENCE
+|viewersR     = REFERENCE
+|aux4R        = REFERENCE
+
+|episodes     = EPISODE LISTS/PART ROWS
+}}</pre>
+{{collapse bottom}}
+
+===Examples===
+;Standard columns<nowiki>:</nowiki>
+
+<code><nowiki>{{Episode table|caption=This is a caption|background=#B40000 |overall=5 |season=5 |title=17 |director=11 |writer=37 |airdate=10 |prodcode=6 |viewers=9 |country=U.S.}}</nowiki></code>
+
+{{Episode table|caption=This is a caption|background=#B40000|overall=5|season=5|title=17|director=11|writer=37|airdate=10|prodcode=6|viewers=9|country=U.S.}}
+----
+;All columns<nowiki>:</nowiki>
+
+<code><nowiki>{{Episode table |overall= |season= |title= |aux1= |director= |writer= |aux2= |aux3= |airdate= |altdate= |prodcode= |viewers= |aux4= |country= |aux1T=Aux1 |aux2T=Aux2 |aux3T=Aux3 |aux4T=Aux4 |altdateT=AltDate}}</nowiki></code>
+
+{{Episode table |overall= |season= |title= |aux1= |director= |writer= |aux2= |aux3= |airdate= |altdate= |prodcode= |viewers= |aux4= |country= |aux1T=Aux1 |aux2T=Aux2 |aux3T=Aux3 |aux4T=Aux4 |altdateT=AltDate}}
+----
+;With {{tl|Episode list}}<nowiki>:</nowiki>
+
+{{collapse top|Code}}
+<pre>{{Episode table |background = #005F6C |overall = 6 |series = 6 |title = 20 |director = 14 |writer = 15 |airdate = 16 |prodcode = 8 |viewers = 9 |aux4 = 6 |country = UK |overallT = Story |seriesT = Episode |aux4T = AI |aux4R = {{Dummy reference}} |episodes =
+{{Episode list
+ |EpisodeNumber = 203
+ |EpisodeNumber2 = 1
+ |Title = [[The Eleventh Hour (Doctor Who)|The Eleventh Hour]]
+ |DirectedBy = Adam Smith
+ |WrittenBy = [[Steven Moffat]]
+ |OriginalAirDate = {{Start date|2010|4|3|df=y}}
+ |ProdCode = 1.1
+ |Viewers = 10.09
+ |Aux4 = 86
+ |LineColor = 005F6C
+}}
+{{Episode list
+ |EpisodeNumber = 204
+ |EpisodeNumber2 = 2
+ |Title = [[The Beast Below]]
+ |DirectedBy = [[Andrew Gunn (director)|Andrew Gunn]]
+ |WrittenBy = Steven Moffat
+ |OriginalAirDate = {{Start date|2010|4|10|df=y}}
+ |ProdCode = 1.2
+ |Viewers = 8.42
+ |Aux4 = 86
+ |LineColor = 005F6C
+}}
+}}</pre>
+{{collapse bottom}}
+
+{{Episode table |background = #005F6C |overall = 6 |series = 6 |title = 20 |director = 14 |writer = 15 |airdate = 16 |prodcode = 8 |viewers = 9 |aux4 = 6 |country = UK |overallT = Story |seriesT = Episode |aux4T = AI |aux4R = {{Dummy reference}} |episodes =
+{{Episode list
+ |EpisodeNumber = 203
+ |EpisodeNumber2 = 1
+ |Title = [[The Eleventh Hour (Doctor Who)|The Eleventh Hour]]
+ |DirectedBy = Adam Smith
+ |WrittenBy = [[Steven Moffat]]
+ |OriginalAirDate = {{Start date|2010|4|3|df=y}}
+ |ProdCode = 1.1
+ |Viewers = 10.09
+ |Aux4 = 86
+ |LineColor = 005F6C
+}}
+{{Episode list
+ |EpisodeNumber = 204
+ |EpisodeNumber2 = 2
+ |Title = [[The Beast Below]]
+ |DirectedBy = [[Andrew Gunn (director)|Andrew Gunn]]
+ |WrittenBy = Steven Moffat
+ |OriginalAirDate = {{Start date|2010|4|10|df=y}}
+ |ProdCode = 1.2
+ |Viewers = 8.42
+ |Aux4 = 86
+ |LineColor = 005F6C
+}}
+}}
+----
+
+===Parted seasons===
+<section begin=parted />For seasons which have been split into parts, use {{tl|Episode table/part}}, as per the examples below. The part row has a HTML ID attribute applied to it, equal to the text displayed; i.e. the ID attributes of the following examples will be "Part 1" and "Athelstan's Journal".
+
+<code><nowiki>{{Episode table/part|p=1|c=#183E54}}</nowiki></code>
+
+{{Episode table |background=#183E54|overall=6 |season=6 |title=20 |director=20 |writer=26 |airdate=13 |viewers=9 |country=U.S. |episodes=
+{{Episode table/part|p=1|c=#183E54}}
+}}
+----
+<code><nowiki>{{Episode table/part|p=Athelstan's Journal|c=#061453|nopart=y}}</nowiki></code>
+
+{{Episode table |color=white |background=#061453|overall=6 |title=24 |director=20 |writer=20 |airdate=17 |aux4=13 |aux4T=Length<br>(minutes) |episodes=
+{{Episode table/part|p=Athelstan's Journal|c=#061453|nopart=y}}
+}}<section end=parted />
+
+== Parameters==
+Each cell parameter has an alias to match the parameters used in {{tl|Episode list}}. In the ''Cell Inclusion & Widths'' rows, the original parameter is listed, followed by its episode-list alias. This means that this:
+<pre>{{Episode table |background=#B40000 |overall=5 |season=5 |title=17 |director=11 |writer=37 |airdate=10 |prodcode=6 |viewers=9 |country=U.S.}}</pre>
+will produce exactly the same as this:
+<pre>{{Episode table |background=#B40000 |EpisodeNumber=5 |EpisodeNumber2=5 |Title=17 |DirectedBy=11 |WrittenBy=37 |OriginalAirDate=10 |ProdCode=6 |Viewers=9 |country=U.S.}}</pre>
+{| class="wikitable"
+|+Template parameters
+! colspan="3" | Parameter
+! Description
+! Type
+! Status
+|-
+! colspan="2" | Table caption
+| caption
+| A caption should be provided that describes in general the content of the table. By default, the caption uses {{tl|Screen reader-only}} to not be visually displayed in a browser, but still be present and voiced by a screen reader for accessibility. To make the caption visible, use {{para|show_caption|y}}. e.g. <code>''NCIS'' season 11 episodes</code>
+| Wikitext
+| Required for accessibility
+|-
+! colspan="2" | Background color
+| background
+| The background color of the header row. If no color is specified, the background defaults to #CCCCFF.<br />''Format:'' white / #FFFFFF
+| String
+| Optional
+|-
+! colspan="2" | Total width
+| total_width
+| Table width defaults to 100%. For tables that are less than 100%, set this field as necessary, with or without a percentage sign. Set to "auto" or blank to remove the set width and allow the table to display naturally.<br />''Format:'' 75
+| Number
+| Optional
+|- id="Anchor"
+! colspan="2" | Anchor
+| anchor
+| In {{tl|Episode list}}, {{para|EpisodeNumber}} is a number representing the episode's order in the series. For example, the first episode would be <code>1</code>. When defined, the specified number also generates a [[:Template:Anchor|link anchor]], prefixed by "<code>ep</code>"; for example, "<code><nowiki>[[List of episodes#ep1]]</nowiki></code>"; see more at {{slink|Template:Episode list|EpisodeNumber}}. In the case of multiple tables with the same anchored episode number, the anchor can be made unique with the {{para|anchor}} parameter in the call of {{tl|Episode table}}. For example, if {{para|anchor}} in this template is set to "<code><nowiki>Minisodes</nowiki></code>", then the anchor will be "<code><nowiki>[[List of episodes#Minisodesep1]]</nowiki></code>".
+| Wikitext
+| Optional
+|-
+! rowspan="14" style="width:5%" | Cell Inclusion & Widths*
+! Overall Number
+| overall<br />EpisodeNumber
+| The inclusion (and optionally the width) of the "No." / "No. overall" cell.<br />Use {{para|forceoverall|y}} to force this column to display "No. overall" when {{code|season}}/{{code|series}} is not set.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Season
+| season<br />EpisodeNumber2
+| The inclusion (and optionally the width) of the "No. in season" cell.<br />(Inclusion will set "No." cell to "No. overall" if ''overallT'' is unset.)<br />''Format:'' 10 / <blank><br />''Note:'' "series" and "season" cannot be included in the same table.
+| Number
+| Optional
+|-
+! Series
+| series<br />EpisodeNumber2Series
+| The inclusion (and optionally the width) of the "No. in series" cell.<br />(Inclusion will set "No." cell to "No. overall" if ''overallT'' is unset.)<br />''Format:'' 10 / <blank><br />''Note:'' "series" and "season" cannot be included in the same table.
+| Number
+| Optional
+|-
+! Title
+| title<br />Title
+| The inclusion (and optionally the width) of the "Title" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Aux1
+| aux1<br />Aux1
+| The inclusion (and optionally the width) of the "Aux1" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Director
+| director<br />DirectedBy
+| The inclusion (and optionally the width) of the "Directed by" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Writer
+| writer<br />WrittenBy
+| The inclusion (and optionally the width) of the "Written by" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Aux2
+| aux2<br />Aux2
+| The inclusion (and optionally the width) of the "Aux2" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Aux3
+| aux3<br />Aux3
+| The inclusion (and optionally the width) of the "Aux3" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Air Date
+| airdate<br />OriginalAirDate
+| The inclusion (and optionally the width) of the "Original air date" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Alternate Air Date
+| altdate<br />AltDate
+| The inclusion (and optionally the width) of the "Alternate Air Date" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Production Code
+| prodcode<br />ProdCode
+| The inclusion (and optionally the width) of the "Production code" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Viewers
+| viewers<br />Viewers
+| The inclusion (and optionally the width) of the "Viewers" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! Aux4
+| aux4<br />Aux4
+| The inclusion (and optionally the width) of the "Aux4" cell.<br />''Format:'' 10 / <blank>
+| Number
+| Optional
+|-
+! rowspan="7" | Content
+! Country
+| country
+| The series' originating country; displayed before "viewers".<br />(Exclusion capitalized "Viewers"; inclusion un-capitalizes "viewers".)<br />''Format:'' U.S.
+| String
+| Optional / Unrequired when ''viewers'' is not set
+|-
+! Released/Aired
+| released
+| Determines whether the episodes were released online or aired. Changes the "Original air date" cell to "Original release date".<br />''Format:'' y
+| String
+| Optional
+|-
+! Viewers type
+| viewers_type
+| The numeric format that viewers are grouped within the episode table. Set to "millions" by default. Including the parameter but leaving it blank will disclude the bracketed format.<br />''Format:'' thousands
+| String
+| Optional
+|-
+! Variable Content
+| {variable}T
+| Custom content of any cell (e.g. overallT, titleT).<br />''Format:'' Any string
+| String 
+| Optional / Required when ''aux''{1-4} and ''altdate'' set
+|-
+! Reference
+| {variable}R
+| Reference for any cell (e.g. overallR, titleR). If Wikipedia's link colours are not WCAG 2 AAA Compliant with the background colour, {{tl|Episode table/ref}} is used to provide the reference with a compliant background colour.<br />''Format:'' Reference
+| Reference
+| Optional
+|-
+! Episodes
+| episodes
+| An infinite number of consecutive episode rows.<br />''Format:'' {{tl|Episode list}} or {{tl|Episode table/part}}
+| Template
+| Required when using {{tl|Episode list}}
+|-
+! Don't Close
+| dontclose
+| Set this parameter to "y" to be able to close the initial wikicode declaration of the episode table, but to be able to continue displaying the separate episode rows after the header but outside of the initial declaration. Particularly useful for when the individual rows have to be transcluded outside of the article and thus must be outside of a template. To close the initial declaration, <code><nowiki></table></nowiki></code> must be used.
+| Text
+| Optional
+|}
+
+{{small|<nowiki>*</nowiki>: ''These variables can be included but not set to a value, e.g. '''<nowiki>|title=</nowiki>''', which will include the cell but not set a width to it.''}}
+
+== Tracking category ==
+<section begin=Tracking/>
+* {{clc|Articles using Template:Episode table with invalid colour combination}}<section end=Tracking/>
+
+==See also==
 * {{tlx|Episode table/part}}
 * {{tlx|Episode table/ref}}
+{{Film- and television-related infobox templates|state=expanded}}
+
+<includeonly>{{Sandbox other||
+<!-- Categories below this line, please; interwikis at Wikidata -->
+[[Category:Television episode list templates]]
+[[Category:Table templates]]
+}}</includeonly>
