@@ -322,14 +322,3 @@ will produce exactly the same as this:
 |}
 
 {{small|<nowiki>*</nowiki>: ''These variables can be included but not set to a value, e.g. '''<nowiki>|title=</nowiki>''', which will include the cell but not set a width to it.''}}
-
-==See also==
-* {{tlx|Episode table/part}}
-* {{tlx|Episode table/ref}}
-{{Film- and television-related infobox templates|state=expanded}}
-
-<includeonly>{{Sandbox other||
-<!-- Categories below this line, please; interwikis at Wikidata -->
-[[Category:Television episode list templates]]
-[[Category:Table templates]]
-}}</includeonly>
