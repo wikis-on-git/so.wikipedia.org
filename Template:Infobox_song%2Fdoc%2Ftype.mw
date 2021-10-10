@@ -1,0 +1,19 @@
+<table class="wikitable">
+<th>Code</th>{{#if:{{{color|}}}|
+<th>{{{color}}}</th>}}{{#if:{{{link|}}}|
+<th>{{{link}}}</th>}}
+<th>Display</th>
+</tr>
+{{infobox song/doc/type/row|single|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|song|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|promo|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|demo|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|remix single|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|instrumental|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|composition|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|hymn|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|nursery|color={{{color|}}}|link={{{link|}}}}}
+{{infobox song/doc/type/row|''other''|color={{{color|}}}|link={{{link|}}}}}
+</table><noinclude>
+{{Documentation}}
+</noinclude>
