@@ -1,6 +1,6 @@
-<noinclude><table></noinclude><tr>
+<noinclude><table class="wikitable"></noinclude><tr>
 <td>{{{1}}}</td>{{#if:{{{color|}}}|
 <td>{{Infobox song/color|{{{1}}}}}</td>}}{{#if:{{{link|}}}|
 <td>{{Infobox song/link|{{{1}}}}}</td>}}
-<td style="padding:0"><table class="infobox" style="border:0;margin:0;width:20em"><tr><th style="border:0;padding:0;background:{{Infobox song/color|{{{1}}}}}">{{Infobox song/link|{{{1}}}}} by ''artist''</th></tr></table></td>
+<td style="padding:0"><div class="infobox" style="border:0;margin:0.4em;padding:0 0.2em;width:18.8em;background:{{Infobox album/color|{{{1}}}}}">'''{{Infobox song/link|{{{1}}}}} by ''artist'''''</div></td>
 </tr><noinclude></table></noinclude>
