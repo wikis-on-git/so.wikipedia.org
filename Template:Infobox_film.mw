@@ -88,9 +88,7 @@
 | label24      = Box office
 |  data24      = {{{gross|}}}
 
-}}<!-- Tracking categories
--->{{#invoke:Infobox film/track|main}}<!--
--->{{Main other|{{#if: {{{image_size|}}} | [[Category:Pages using infobox film with image size parameter]] }}}}<!--
+}}
 -->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using infobox film with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[:Template:Infobox film]] with unknown parameter "_VALUE_"|showblankpositional=1| alt | animator | background_artist | based_on | border | budget | caption | cinematography | color_process | country | director | directors | distributor | distributors | editing | gross | italic_title | image | image_size | language | layout_artist | music | name | narrator | narrators | native_name | producer | producers | production_companies | released | runtime | screenplay | starring | story | studio | writer | writers }}<!--
 --></includeonly><noinclude>
 {{Documentation}}
