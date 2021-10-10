@@ -1,85 +1,97 @@
-{{Infobox
-| bodyclass = vevent
-| bodystyle = font-size:90%;
+<includeonly>{{Infobox film/short description|released={{{released|}}}|country={{{country|}}}|director={{{director|}}}}}{{Infobox
+| italic title = {{{italic_title|<noinclude>no</noinclude>}}} 
+| bodyclass    = vevent
 
-| aboveclass = summary
-| abovestyle = font-size:110%;font-style:italic;
-| above = {{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}
+| aboveclass   = summary
+| abovestyle   = font-size: 125%; font-style: italic;
+| above        = {{If empty |{{{name|}}} |{{PAGENAMEBASE}} }}
 
-| image = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|{{{image size|}}}}}} |sizedefault=frameless |upright=1 |alt={{{alt|}}} |border={{{border|yes}}} }}
-| captionstyle = font-size:95%;padding:0.35em 0.35em 0.25em;line-height:1.25em;
-| caption = {{{caption|}}}
+| image        = {{#invoke:InfoboxImage|InfoboxImage |image={{{image|}}} |size={{{image_size|}}} |sizedefault=frameless |upright=1 |alt={{{alt|}}} |border={{{border|yes}}} }}
+| caption      = {{{caption|}}}
 
-| labelstyle = white-space:nowrap;padding-right:0.65em<!--(to ensure gap between any long/nonwrapped label and subsequent data on same line-->;
-| datastyle = line-height:1.3em;
+| labelstyle   = white-space: nowrap; padding-right: 0.65em;<!--(to ensure gap between any long/nonwrapped label and subsequent data on same line-->
 
-| class1  = description
-|  data1  = {{{film_name|{{{film name|}}}}}}
-| class11 = Italic title
-| data11 = {{Italic_title}}
+| class1       = description
+|  data1       = {{{native_name|}}}
 
-| label2  = Jiheeye
-|  data2  = {{{director|{{{directors|}}}}}}
+| label2       = Directed by
+|  data2       = {{If empty |{{{director|}}} |{{{directors|}}} }}
 
-| label3  = Soo saare
-|  data3  = {{{producer|{{{producers|}}}}}}
+| label3       = Written by
+|  data3       = {{If empty |{{{writer|}}} |{{{writers|}}} }}
 
-| label4  = Qoraaga
-|  data4  = {{{writer|{{{writers|}}}}}}
+| label4       = Screenplay by
+|  data4       = {{{screenplay|}}}
 
-| label5  = Screenplay by
-|  data5  = {{{screenplay|}}}
+| label5       = Story by
+|  data5       = {{{story|}}}
 
-| label6  = Story by
-|  data6  = {{{story|}}}
+| label6       = Based on
+|  data6       = {{{based_on|}}}
 
-| label7  = Based on
-|  data7  = {{{based_on|{{{based on|}}}}}}
+| label7       = Produced by
+|  data7       = {{If empty |{{{producer|}}} |{{{producers|}}} }}
 
-| label8  = Starring
-|  data8  = {{{starring|}}}
+| label8       = Starring
+|  data8       = {{{starring|}}}
 
-| label9  = Narrated by
-|  data9  = {{{narrator|{{{narrators|}}}}}}
+| label9       = Narrated by
+|  data9       = {{If empty |{{{narrator|}}} |{{{narrators|}}} }}
 
-| label10 = Music by
-|  data10 = {{{music|}}}
+| label10      = Cinematography
+|  data10      = {{{cinematography|}}}
 
-| label11 = Cinematography
-|  data11 = {{{cinematography|}}}
+| label11      = Edited by
+|  data11      = {{{editing|}}}
 
-| label12 = Edited by
-|  data12 = {{{editing|}}}
+| label12      = Music by
+|  data12      = {{{music|}}}
 
-| label13 = {{longitem |Production<br/>compan{{#if:{{{production companies|}}}|ies|y}} }}
-|  data13 = {{#if:{{{production companies|{{{studio|}}}}}} |<div style="vertical-align:middle;">{{{production companies|{{{studio|}}}}}}</div>}}
+| label13      = Animation by
+| data13       = {{{animator|}}}
 
-| label14 = Distributed by
-|  data14 = {{{distributor|{{{distributors|}}}}}}
+| label14      = Layouts by
+| data14       = {{{layout_artist|}}}
 
-| label15 = {{longitem|style=white-space:normal; |Wakhtiga soo baxay}}
-|  data15 = {{{released|}}}
+| label15      = Backgrounds by
+| data15       = {{{background_artist|}}}
 
-| label16 = {{longitem|style=white-space:normal; |Dhererka filimka}}
-|  data16 = {{{runtime|}}}
+| label16      = Color process
+| data16       = {{{color_process|}}}
 
-| label17 = Wadanka
-|  data17 = {{{country|}}}
+| label17      = {{Longitem |Production<br/>{{#if: {{Detect singular|{{If empty |{{{production_companies|}}} |{{{studio|}}} }}}} | company | companies }} }}
+|  data17      = {{#if: {{{production_companies|{{{studio|}}} }}} | <div style="vertical-align: middle;">{{{production_companies|{{{studio|}}}}}}</div> }}
 
-| label18 = Luuqada
-|  data18 = {{#if:{{{language|}}}
-             | {{#switch:{{lc:{{{language|}}}}}
-                | english = English {{#if:{{NAMESPACE}} | |[[Category:English-language films]]}}
-                | silent (english intertitles) |silent(english intertitles) |silent film (english intertitles) |silent film(english intertitles) |silent with english intertitles |silent |silent film = Silent {{#if:{{NAMESPACE}} | |[[Category:Silent films]]}}
-                | #default = {{{language|}}} {{#if:{{NAMESPACE}} | |{{#ifexist:Category:{{#invoke:string|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films |[[Category:{{#invoke:string|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films]]}} }}
-            }} }}
+| label18      = Distributed by
+|  data18      = {{If empty |{{{distributor|}}} |{{{distributors|}}} }}
 
-| label19 = Budget
-|  data19 = {{{budget|}}}
+| label19      = {{Longitem|style=white-space: normal;|Release date}}
+|  data19      = {{{released|}}}
 
-| label20 = Box office
-|  data20 = {{{gross|}}}
+| label20      = {{Longitem|style=white-space: normal;|Running time}}
+|  data20      = {{{runtime|}}}
 
-}} <noinclude>
+| label21      = {{#if: {{Detect singular|{{{country|}}} }} | Country | Countries }}
+|  data21      = {{{country|}}}
+
+| label22      = {{#if: {{Detect singular|{{{language|}}} }} | Language | Languages }}
+|  data22      = {{#if: {{{language|}}}
+                  | {{#switch:{{lc:{{{language|}}}}}
+                     | english = English {{#if: {{NAMESPACE}} | |[[Category:English-language films]]}}
+                     | silent (english intertitles) |silent(english intertitles) |silent film (english intertitles) |silent film(english intertitles) |silent with english intertitles |silent |silent film = Silent {{#if:{{NAMESPACE}} | |[[Category:Silent films]]}}
+                     | #default = {{{language|}}} {{#if: {{NAMESPACE}} | |{{#ifexist:Category:{{#invoke:string|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films |[[Category:{{#invoke:String|replace|{{{language}}}|%[%[([^%[%]]*) [%(]?language[%)]?{{!}}[^%[%]]*%]%]|%1|plain=false}}-language films]]}} }}
+                 }} }}
+
+| label23      = Budget
+|  data23      = {{{budget|}}}
+
+| label24      = Box office
+|  data24      = {{{gross|}}}
+
+}}<!-- Tracking categories
+-->{{#invoke:Infobox film/track|main}}<!--
+-->{{Main other|{{#if: {{{image_size|}}} | [[Category:Pages using infobox film with image size parameter]] }}}}<!--
+-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using infobox film with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[:Template:Infobox film]] with unknown parameter "_VALUE_"|showblankpositional=1| alt | animator | background_artist | based_on | border | budget | caption | cinematography | color_process | country | director | directors | distributor | distributors | editing | gross | italic_title | image | image_size | language | layout_artist | music | name | narrator | narrators | native_name | producer | producers | production_companies | released | runtime | screenplay | starring | story | studio | writer | writers }}<!--
+--></includeonly><noinclude>
 {{Documentation}}
 </noinclude>
