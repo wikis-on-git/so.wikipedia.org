@@ -1,5 +1,24 @@
-<noinclude>{{Documentation subpage}}</noinclude>
-<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
-{{High-risk| 167000+ }}
+<includeonly>{{#switch: {{lc:{{{1|}}}}}
+  |extended play|ep|[[extended play]]|[[ep]]=lightsalmon
+  |studio album|[[studio album]]|[[album]]|album|studio|tribute|tribute album|[[tribute album]]|cover album|[[cover album]]|cover||double album|[[double album]]=lightsteelblue
+  |single album|[[single album]]=lightsalmon
+  |demo=lightsteelblue
+  |live album|[[album#live|live album]]|[[live album]]|live=burlywood
+  |greatest hits|[[greatest hits]]|gh|greatest=darkseagreen
+  |box set|[[box set]]|box|[[boxed set]]=darkseagreen
+  |compilation album|[[compilation album]]|comp|compilation=darkseagreen
+  |remix album|remix|[[remix]]|[[remix album]]|mixtape|[[mixtape]]=darkseagreen
+  |movie soundtrack|[[soundtrack]]|[[soundtrack album]]|soundtrack=gainsboro
+  |television theme|television|theme=gainsboro
+  |film score|[[film score]]|film=gainsboro
+  |cast recording|[[cast recording]]|cast album|[[cast album]]|cast=gainsboro
+  |video|vhs|vid|dvd=&#32;#99CCFF
+  |single|[[single (music)|single]]|singles|[[single (music)|singles]]=khaki
+  |song|[[song]]=&#32;#E6E8FA
+  |other=peachpuff
+  |{{#if:{{{2|}}}|{{{2}}}|peachpuff}}
+}}</includeonly><noinclude>
+{{Documentation}}</noinclude>
+
 ==Muhiim==
 Markaad wax ka beddelayso qaab dhismeedkan, ha ilaawin inaad cusboonaysiiso [[Template:Infobox album/link]].
