@@ -1,0 +1,97 @@
+{{{{
+ {{{|safesubst:}}}#switch: {{ {{{|safesubst:}}}lc: {{{Format}}} }}
+ | data      = Non-free image data
+ | rationale = Non-free image rationale
+ | #default  = Non-free use rationale
+}}
+| Special_header = – non-free {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover
+| Article = {{{Article<includeonly>|</includeonly>}}}
+| Description = This is the front cover art for {{
+  {{{|safesubst:}}}#if: {{{Volume|}}} | the {{Ordinal to word|{{{Volume}}}}} volume of
+}} the {{
+ {{{|safesubst:}}}#if: {{{Type|}}} | {{{Type|}}} | book
+}} {{
+  {{{|safesubst:}}}#if: {{{Volume|}}} | series
+}} ''{{
+  {{{|safesubst:}}}#if: {{{Title|}}} | {{{Title}}} | {{{Article}}}
+}}''{{
+  {{{|safesubst:}}}#if: {{{Author|}}} | <nowiki/> written by {{{Author}}}
+}}{{
+  {{{|safesubst:}}}#if: {{{Illustrator|}}}
+  | <nowiki/> and illustrated by {{{Illustrator}}}
+}}. The {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover art copyright is believed to belong to {{
+  {{{|safesubst:}}}#if: {{{Owner|}}} | {{{Owner}}} | the publisher{{
+    {{{|safesubst:}}}#if: {{{Publisher|}}} | , {{{Publisher}}},
+  }} or the cover artist{{
+    {{{|safesubst:}}}#if: {{{Cover_artist|}}} | , {{{Cover_artist}}}
+  }}
+}}.{{
+  {{{|safesubst:}}}#if: {{{Description|}}} | <nowiki/>
+
+{{{Description}}}
+}}
+| Source = {{
+  {{{|safesubst:}}}#if: {{{Source|}}}
+  | {{{Source}}}
+  | {{
+    {{{|safesubst:}}}#if: {{{Website|}}}
+    | May be found at the following website: {{{Website}}}
+    | It is believed that the cover art can or could be obtained from {{
+      {{{|safesubst:}}}#if: {{{Owner|}}}
+      | {{{Owner}}}
+      | {{
+        {{{|safesubst:}}}#if: {{{Publisher|}}}
+        | {{{Publisher}}}
+        | the publisher
+      }}
+    }}
+  }}.
+}}
+| Portion = {{
+  {{{|safesubst:}}}#if: {{{Portion|}}}
+  | {{{Portion}}}
+  | The entire front cover. Because the image is a {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover, a form of product packaging, the entire image is needed to identify the product, properly convey the meaning and branding intended, and avoid tarnishing or misrepresenting the image.
+}}
+| Low resolution = {{
+  {{{|safesubst:}}}#if: {{{Low_resolution|{{{Low resolution|}}}}}}
+  | {{{Low_resolution|{{{Low resolution}}}}}}
+  | The copy is of sufficient resolution for commentary and identification but lower resolution than the original {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover. Copies made from it will be of inferior quality, unsuitable as artwork on pirate versions or other uses that would compete with the commercial purpose of the original artwork.
+}}
+| Purpose = <noinclude>''Choose from:'' <kbd>Infobox / Header / Section / Author / Other</kbd></noinclude>{{
+  {{{|safesubst:}}}#if: {{{Use|}}} | {{
+    {{{|safesubst:}}}#ifeq: {{{Use}}} | Infobox | Main infobox | {{{Use}}}
+  }}. The image is used for identification in the context of critical commentary of the work for which it serves as cover art. It makes a significant contribution to the user's understanding of the article, which could not practically be conveyed by words alone.
+}} {{
+  {{{|safesubst:}}}#switch: {{{Use|}}}
+  | Infobox  = The image is placed in the infobox at the top of the article discussing the work, to show the primary visual image associated with the work, and to help the user quickly identify the work and know they have found what they are looking for.
+  | Header   = The image is placed at the beginning of the article or section discussing the work, to help the user quickly identify the work and know they have found what they are looking for.
+  | Section  = The image is placed at the beginning of a section discussing the work, to help the user quickly identify the work and know they have found what they are looking for.
+  | Author   = The image is used in a discussion of the author of the work, for purposes of commentary on the author and how it relates to this work. The discussion of the author would not be complete without referring to this work.
+  |          =
+  | #default = {{ {{{|safesubst:}}}#if: {{{Purpose|}}} | | <span class="error" style="color:red;">'''Purpose must be stated here.'''</span> }}
+}} {{{Purpose|}}} {{
+  {{{|safesubst:}}}#if: {{{Commentary|}}} | ''Commentary in the article about the {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover itself:'' {{{Commentary}}}.
+}} {{
+  {{{|safesubst:}}}#if: {{{Use|}}} | Use for this purpose does not compete with the purposes of the original work, namely the {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover creator's ability to provide {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover design services and in turn marketing {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}}s to the public.
+}}
+| Replaceability = As a {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover, the image is not replaceable by free content; any other image that shows the packaging of the {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} would also be copyrighted, and any version that is not true to the original would be inadequate for identification or commentary. {{
+  {{{|safesubst:}}}#switch: {{{Use}}}
+  | Infobox = Using a different image in the infobox would be misleading as to the identity of the work.
+  | Header  = Using a different image as a header would be misleading as to the identity of the work.
+  | Section = Using different image would be misleading as to the identity of the work.
+  | Author  = There is no free image known, or reasonable possibility of creating one, that would convey the necessary information about the author.
+}} {{
+  {{{|safesubst:}}}#if: {{{Commentary|}}} | The commentary on the work necessitates an image of the work; no other image would do.
+}} {{{Replaceability|}}}
+| Other information = {{
+  {{{|safesubst:}}}#if: {{{Other information|{{{Other information|}}}}}}
+  | {{{other_information|{{{Other information}}}}}}
+  | {{
+    {{{|safesubst:}}}#ifeq: {{ lc: {{{Format}}} }} | data
+    | Use of the {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover in articles complies with Wikipedia [[Wikipedia:Non-free content criteria| non-free content policy]] and fair use under [[Fair use| United States copyright law]] as described below.
+    | Use of the {{SAFESUBST:<noinclude />#if:{{{Type|}}}|{{{Type|}}}|book}} cover in the article complies with Wikipedia [[Wikipedia:Non-free content criteria| non-free content policy]] and fair use under [[Fair use| United States copyright law]] as described above.
+  }}
+}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
