@@ -1,0 +1,42 @@
+<!-- Fair use tag, based on Template:Image-license-fairuse -->
+{{Non-free use rationale
+| Special_header= – non-free {{#if:{{{Media|}}}|{{{Media|}}} poster|poster}} –<!--
+-->| Article={{#if:{{{Article<includeonly>|</includeonly>}}}|{{{Article}}}|<!--<span style="color:red;">ERROR</span>—Must include parameter: ''Article=xxxxx''-->}} <!--
+-->| Description=This is a poster for <!-- 
+-->{{#if:{{{Type|}}}| the {{{Type}}} |}} <!--
+-->{{#if:{{{Name|}}}| ''{{{Name}}}'' |''{{{Article}}}'' }}. <!--
+--><br />The poster art copyright is believed to belong to <!--
+-->{{#if:{{{Owner|}}}|{{{Owner}}}|{{#if:{{{Distributor|}}}|the distributor of the {{#if:{{{Media|}}}|{{{Media}}}|item promoted}}, {{{Distributor}}}| the distributor of the {{#if:{{{Media|}}}|{{{Media}}}|item promoted}} }},  {{#if:{{{Publisher|}}}|the publisher, {{{Publisher}}},|the publisher of the {{#if:{{{Media|}}}|{{{Media}}}|item promoted}} }} or {{#if:{{{Graphic Artist|}}}|the graphic artist, {{{Graphic Artist}}}|the graphic artist}} }}. <!--
+-->{{#if:{{{Description|}}}|<br />'''Further details:'''&nbsp;{{{Description}}}|}}
+| Source=<!-- 
+-->{{#if:{{{Website|}}}|May be found at the following website: {{{Website}}}|}}<!--
+-->{{#if:{{{Source|}}}|{{{Source}}}|{{#if:{{{Website|}}}||The poster art can or could be obtained from <!--
+-->{{#if:{{{Owner|}}}| {{{Owner}}}|{{#if:{{{Distributor|}}}| {{{Distributor}}}| the distributor}}}}.}}}}
+| Portion=<!--
+-->{{#if:{{{Portion|}}}|{{{Portion}}}|The entire poster: because the image is poster art, a form of product packaging or service marketing, the entire image is needed to identify the product or service, properly convey the meaning and branding intended, and avoid tarnishing or misrepresenting the image.}}
+| Low_resolution=<!--
+-->{{#if:{{{Low_resolution|{{{Low resolution|}}}}}}|{{{Low_resolution|{{{Low resolution|}}}}}}.  |The copy is of sufficient resolution for commentary and identification but lower resolution than the original poster.  Copies made from it will be of inferior quality, unsuitable as counterfeit artwork, pirate versions or for uses that would compete with the commercial purpose of the original artwork.}}
+| Purpose =<!--
+--><noinclude>''Choose from:'' <kbd>Infobox / Header / Section / Other</kbd></noinclude><!--
+-->{{#if:{{{Use|}}}|{{#ifeq:{{{Use}}}|Infobox|Main infobox|{{{Use}}}}}. The image is used for identification in the context of critical commentary of the work, product or service for which it serves as poster art.  It makes a significant contribution to the user's understanding of the article, which could not practically be conveyed by words alone.{{sp}}}}<!--
+-->{{#switch:{{{Use|}}}
+  |Infobox= The image is placed in the infobox at the top of the article discussing the work, to show the primary visual image associated with the work, and to help the user quickly identify the work, product or service and know they have found what they are looking for.{{sp}}
+  |Header= The image is placed at the beginning of the article or section discussing the work, product or service; to help the user quickly identify the work and know they have found what they are looking for.{{sp}}
+  |Section= The image is placed at the beginning of a section discussing the work, product or service to help the user quickly identify the work and know they have found what they are looking for.{{sp}}
+  |=
+  |#default= {{#if:{{{Purpose|}}}||<span style="color:red">'''Purpose must be stated here. '''</span>}}
+}}<!--
+-->{{#if:{{{Purpose|}}}|<br/>'''Additional:'''{{{Purpose}}}. }}<!--
+-->{{#if:{{{Commentary|}}}| ''Commentary in the article about the poster art itself:'' {{{Commentary}}}. }}<!--
+-->{{#if:{{{Use|}}}|Use for this purpose does not compete with the purposes of the original artwork, namely the creator providing graphic design services, and in turn the marketing of the promoted item. }}
+| Replaceability =<!--
+-->As {{#if:{{{Media|}}}|{{{Media}}}|}} poster art, the image is not replaceable by free content; any other image that shows the same artwork or poster would also be copyrighted, and any version that is not true to the original would be inadequate for identification or commentary. <!--
+-->{{#ifeq:{{{Use}}}|Header| Using a different image as a header would be misleading as to the identity of the work, product or service }} <!--
+-->{{#ifeq:{{{Use}}}|Section| Using different image would be misleading as to the identity of the work, product or service }} <!--
+-->{{#ifeq:{{{Commentary}}}|yes| The commentary on the work, product or service necessitates an image of the same; no other image would do. }} <!--
+-->{{#if:{{{Replaceability|}}}|{{{Replaceability}}}}}
+|other_information=<!--
+-->{{#if:{{{other_information|{{{Other information|}}}}}}|{{{other_information|{{{Other information|}}}}}}| Use of the poster art in the article complies with Wikipedia [[Wikipedia:Non-free content policy|non-free content policy]] and fair use under [[Fair use|United States copyright law]] as described above.}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
