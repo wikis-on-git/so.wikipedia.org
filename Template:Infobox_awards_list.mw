@@ -1,9 +1,526 @@
-{{Documentation subpage}}
-<!-- Please place categories where indicated at the bottom of this page and interwikis at Wikidata (see [[Wikipedia:Wikidata]]) -->
-'''{{Tl|Infobox awards list}}''' waxaa loo adeegsadaa liisaska abaal -marinta si loo muujiyo soo-koobidda abaal-marinnada la taaban karo ee la guuleystay ama la magacaabay.
-{{Lua|Module:Infobox|Module:Infobox3cols|Module:InfoboxImage|Module:Check for unknown parameters}}
+<includeonly>{{Infobox
+| bodystyle     = font-size:88%; vertical-align:middle; 
+| titlestyle    = font-size:110%;
+| title         = {{#if: {{{name|}}} | {{{name}}} awards and nominations | {{{title|}}} }}
+| headerstyle   = background-color:#d9e8ff;
+| labelstyle    = width:50%; font-weight:normal; text-align:center;
+| datastyle     = text-align:center;
+| image         = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{#ifeq:{{lc:{{{landscape|}}}}}|yes|{{min|300|{{#if:{{#ifexpr:{{{image size|{{{image_size|{{{imagesize|}}}}}}}}}}}|300|{{{image size|{{{image_size|{{{imagesize|}}}}}}}}}}}}}x230px|{{{image size|{{{image_size|{{{imagesize|}}}}}}}}}}}|sizedefault=frameless|upright={{{image_upright|1}}}|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption       = {{{caption|}}}
+| image2        = {{Multiple image
+ | background color = ;border-color:transparent;margin-bottom: 0;
+ | image_style      = border:none
+ | align            = center
+ | direction        = horizontal
+ | total_width      = {{#if: {{{total_width|}}} | {{{total_width|}}} | {{#if: {{{image3|}}} | 350 | {{#if: {{{image2|}}} | 300 | }} }} }}
+ | image1           = {{{image1|}}}
+ | alt1             = {{{alt1|}}}
+ | image2           = {{{image2|}}}
+ | alt2             = {{{alt2|}}}
+ | image3           = {{{image3|}}}
+ | alt3             = {{{alt3|}}}
+}}
+| caption2      = {{#if: {{{image1|}}} {{{image2|}}} {{{image3|}}} | {{{caption|}}} }}
 
-<includeonly>{{Sandbox other||
-<!-- Categories below this line, please; interwikis at Wikidata -->
-[[Category:Award infobox templates]]
-}}</includeonly>
+| data1         = {{Infobox3cols|child=yes
+ | bodyclass       = collapsible {{#ifexpr:{{#ifeq:{{yesno-no|{{{nocollapse|}}}}}|yes|1|0}} or {{#ifeq:{{yesno-yes|{{{hide_awards_box|}}}}}|yes|0|1}}|| collapsed}}
+ | abovestyle      = background-color:#d9e8ff; font-size:100%;
+ | above           = {{#if: {{{film|}}} | Accolades | Awards and nominations }}
+ | labelstyle      = background:#EEEEFF; padding:1px; font-weight: normal; text-align:center;
+ | datastylea      = width:60px; background:#9F9; text-align:center; vertical-align:middle;
+ | datastyleb      = width:60px; background:#FDD; text-align:center; vertical-align:middle;
+ | rowcellstyle1   = padding:0;
+
+ | label1          = <div style="background:#d9e8ff; width:100%; padding:1px;">Award</div>
+ | data1a          = <div style="background:#cec; width:100%; padding:1px;">Wins</div>
+ | data1b          = <div style="background:#ecc; width:100%; padding:1px;">Nominations</div>
+
+ | label2          = [[American Music Award]]s
+ | data2a          = {{{AmericanW|{{#if:{{{AmericanN|}}}|0}}}}}
+ | data2b          = {{{AmericanN|{{#if:{{{AmericanW|}}}|0}}}}}
+
+ | label3          = [[Australasian Performing Right Association#APRA Awards|APRA]]
+ | data3a          = {{{APRAW|{{#if:{{{APRAN|}}}|0}}}}}
+ | data3b          = {{{APRAN|{{#if:{{{APRAW|}}}|0}}}}}
+
+ | label4          = [[ARIA Music Awards|ARIA]]
+ | data4a          = {{{ARIAW|{{#if:{{{ARIAN|}}}|0}}}}}
+ | data4b          = {{{ARIAN|{{#if:{{{ARIAW|}}}|0}}}}}
+
+ | label5          = [[Asia Song Festival]]
+ | data5a          = {{{ASFW|{{#if:{{{ASFN|}}}|0}}}}}
+ | data5b          = {{{ASFN|{{#if:{{{ASFW|}}}|0}}}}}
+
+ | label6          = [[BET Awards|BET]]
+ | data6a          = {{{BETW|{{#if:{{{BETN|}}}|0}}}}}
+ | data6b          = {{{BETN|{{#if:{{{BETW|}}}|0}}}}}
+
+ | label7          = [[BET Hip Hop Awards|BET Hip Hop]]
+ | data7a          = {{{BETHHW|{{#if:{{{BETHHN|}}}|0}}}}}
+ | data7b          = {{{BETHHN|{{#if:{{{BETHHW|}}}|0}}}}}
+
+ | label8          = [[Billboard Music Award|Billboard]]
+ | data8a          = {{{BillboardW|{{#if:{{{BillboardN|}}}|0}}}}}
+ | data8b          = {{{BillboardN|{{#if:{{{BillboardW|}}}|0}}}}}
+
+ | label9          = [[Brit Awards|Brit]]
+ | data9a          = {{{BRITW|{{#if:{{{BRITN|}}}|0}}}}}
+ | data9b          = {{{BRITN|{{#if:{{{BRITW|}}}|0}}}}}
+
+ | label10         = [[CMT Music Awards|CMT]]
+ | data10a         = {{{CMTMAW|{{#if:{{{CMTMAN|}}}|0}}}}}
+ | data10b         = {{{CMTMAN|{{#if:{{{CMTMAW|}}}|0}}}}}
+
+ | label11         = [[Cyworld Digital Music Awards|Cyworld Digital Music]]
+ | data11a         = {{{CyworldW|{{#if:{{{CyworldN|}}}|0}}}}}
+ | data11b         = {{{CyworldN|{{#if:{{{CyworldW|}}}|0}}}}}
+
+ | label12         = [[Echo (music award)|Echo]]
+ | data12a         = {{{ECHOW|{{#if:{{{ECHON|}}}|0}}}}}
+ | data12b         = {{{ECHON|{{#if:{{{ECHOW|}}}|0}}}}}
+
+ | label13         = [[Gaon Chart Music Awards]]
+ | data13a         = {{{GCKAW|{{#if:{{{GCKAN|}}}|0}}}}}
+ | data13b         = {{{GCKAN|{{#if:{{{GCKAW|}}}|0}}}}}
+
+ | label14         = [[Golden Disk Awards|Golden Disk]]
+ | data14a         = {{{GDAW|{{#if:{{{GDAN|}}}|0}}}}}
+ | data14b         = {{{GDAN|{{#if:{{{GDAW|}}}|0}}}}}
+
+ | label15         = [[Golden Globe Award|Golden Globe]]
+ | data15a         = {{{GGAW|{{#if:{{{GGAN|}}}|0}}}}}
+ | data15b         = {{{GGAN|{{#if:{{{GGAW|}}}|0}}}}}
+
+ | label16         = [[Grammy Award|Grammy]]
+ | data16a         = {{{GrammyW|{{#if:{{{GrammyN|}}}|0}}}}}
+ | data16b         = {{{GrammyN|{{#if:{{{GrammyW|}}}|0}}}}}
+
+ | label17         = [[Ivor Novello Awards|Ivor Novello]]
+ | data17a         = {{{IvorW|{{#if:{{{IvorN|}}}|0}}}}}
+ | data17b         = {{{IvorN|{{#if:{{{IvorW|}}}|0}}}}}
+
+ | label18         = [[J Award|J]]
+ | data18a         = {{{JW|{{#if:{{{JN|}}}|0}}}}}
+ | data18b         = {{{JN|{{#if:{{{JW|}}}|0}}}}}
+
+ | label19         = [[Jack Awards|Jack]]
+ | data19a         = {{{JackW|{{#if:{{{JackN|}}}|0}}}}}
+ | data19b         = {{{JackN|{{#if:{{{JackW|}}}|0}}}}}
+
+ | label20         = [[Juno Award|Juno]]
+ | data20a         = {{{JunoW|{{#if:{{{JunoN|}}}|0}}}}}
+ | data20b         = {{{JunoN|{{#if:{{{JunoW|}}}|0}}}}}
+
+ | label21         = [[Japan Gold Disc Awards]]
+ | data21a         = {{{JGDAW|{{#if:{{{JGDAN|}}}|0}}}}}
+ | data21b         = {{{JGDAN|{{#if:{{{JGDAW|}}}|0}}}}}
+
+ | label22         = [[Kerrang! Awards|Kerrang!]]
+ | data22a         = {{{KerrangW|{{#if:{{{KerrangN|}}}|0}}}}}
+ | data22b         = {{{KerrangN|{{#if:{{{KerrangW|}}}|0}}}}}
+
+ | label23         = [[Los Premios MTV Latinoamérica]]
+ | data23a         = {{{VMALAW|{{#if:{{{VMALAN|}}}|0}}}}}
+ | data23b         = {{{VMALAN|{{#if:{{{VMALAW|}}}|0}}}}}
+
+ | label24         = [[Melon Music Awards|Melon Music]]
+ | data24a         = {{{MelonW|{{#if:{{{MelonN|}}}|0}}}}}
+ | data24b         = {{{MelonN|{{#if:{{{MelonW|}}}|0}}}}}
+
+ | label25         = [[Mercury Prizes]]
+ | data25a         = {{{MercuryW|{{#if:{{{MercuryN|}}}|0}}}}}
+ | data25b         = {{{MercuryN|{{#if:{{{MercuryW|}}}|0}}}}}
+
+ | label26         = [[Mnet Asian Music Awards|Mnet Asian Music]]
+ | data26a         = {{{MamaW|{{#if:{{{MamaN|}}}|0}}}}}
+ | data26b         = {{{MamaN|{{#if:{{{MamaW|}}}|0}}}}}
+
+ | label27         = [[Meteor Music Awards|Meteor Music]]
+ | data27a         = {{{MeteorW|{{#if:{{{MeteorN|}}}|0}}}}}
+ | data27b         = {{{MeteorN|{{#if:{{{MeteorW|}}}|0}}}}}
+
+ | label28         = [[Mnet 20's Choice Awards|Mnet 20's Choice]]
+ | data28a         = {{{MCAW|{{#if:{{{MCAN|}}}|0}}}}}
+ | data28b         = {{{MCAN|{{#if:{{{MCAW|}}}|0}}}}}
+
+ | label29         = [[Music of Black Origin Awards|MOBO]]
+ | data29a         = {{{MOBOW|{{#if:{{{MOBON|}}}|0}}}}}
+ | data29b         = {{{MOBON|{{#if:{{{MOBOW|}}}|0}}}}}
+
+ | label30         = [[MOJO Awards|MOJO]]
+ | data30a         = {{{MOJOW|{{#if:{{{MOJON|}}}|0}}}}}
+ | data30b         = {{{MOJON|{{#if:{{{MOJOW|}}}|0}}}}}
+
+ | label31         = [[MTV Africa Music Awards|MTV Africa]]
+ | data31a         = {{{MTVAfricaW|{{#if:{{{MTVAfricaN|}}}|0}}}}}
+ | data31b         = {{{MTVAfricaN|{{#if:{{{MTVAfricaW|}}}|0}}}}}
+
+ | label32         = [[MTV Asia Awards|MTV Asia]]
+ | data32a         = {{{MTVAsiaW|{{#if:{{{MTVAsiaN|}}}|0}}}}}
+ | data32b         = {{{MTVAsiaN|{{#if:{{{MTVAsiaW|}}}|0}}}}}
+
+ | label33         = [[MTV Australia Awards|MTV Australia]]
+ | data33a         = {{{MTVAustraliaW|{{#if:{{{MTVAustraliaN|}}}|0}}}}}
+ | data33b         = {{{MTVAustraliaN|{{#if:{{{MTVAustraliaW|}}}|0}}}}}
+
+ | label34         = [[MTV Europe Music Awards|MTV Europe]]
+ | data34a         = {{{MTVEuropeW|{{#if:{{{MTVEuropeN|}}}|0}}}}}
+ | data34b         = {{{MTVEuropeN|{{#if:{{{MTVEuropeW|}}}|0}}}}}
+
+ | label35         = [[MTV Korea]]
+ | data35a         = {{{MTVKoreaW|{{#if:{{{MTVKoreaN|}}}|0}}}}}
+ | data35b         = {{{MTVKoreaN|{{#if:{{{MTVKoreaW|}}}|0}}}}}
+
+ | label36         = [[MTV Video Music Awards|MTV VMA]]
+ | data36a         = {{{MTVVideoW|{{#if:{{{MTVVideoN|}}}|0}}}}}
+ | data36b         = {{{MTVVideoN|{{#if:{{{MTVVideoW|}}}|0}}}}}
+
+ | label37         = [[MTV Video Music Brasil|MTV Brazil]]
+ | data37a         = {{{MTVBrasilW|{{#if:{{{MTVBrasilN|}}}|0}}}}}
+ | data37b         = {{{MTVBrasilN|{{#if:{{{MTVBrasilW|}}}|0}}}}}
+
+ | label38         = [[MTV Video Music Awards Japan|MTV Japan]]
+ | data38a         = {{{MTVJapanW|{{#if:{{{MTVJapanN|}}}|0}}}}}
+ | data38b         = {{{MTVJapanN|{{#if:{{{MTVJapanW|}}}|0}}}}}
+
+ | label39         = [[Much Music Video Awards|Much]]
+ | data39a         = {{{MuchMusicW|{{#if:{{{MuchMusicN|}}}|0}}}}}
+ | data39b         = {{{MuchMusicN|{{#if:{{{MuchMusicW|}}}|0}}}}}
+
+ | label40         = MVPA Awards
+ | data40a         = {{{MVPAW|{{#if:{{{MVPAN|}}}|0}}}}}
+ | data40b         = {{{MVPAN|{{#if:{{{MVPAW|}}}|0}}}}}
+
+ | label41         = [[Muso Awards|Muso]]
+ | data41a         = {{{MusoW|{{#if:{{{MusoN|}}}|0}}}}}
+ | data41b         = {{{MusoN|{{#if:{{{MusoW|}}}|0}}}}}
+
+ | label42         = [[NAACP Image Awards|NAACP]]
+ | data42a         = {{{NAACPW|{{#if:{{{NAACPN|}}}|0}}}}}
+ | data42b         = {{{NAACPN|{{#if:{{{NAACPW|}}}|0}}}}}
+
+ | label43         = [[New Zealand Music Awards|New Zealand]]
+ | data43a         = {{{NZMAW|{{#if:{{{NZMAN|}}}|0}}}}}
+ | data43b         = {{{NZMAN|{{#if:{{{NZMAW|}}}|0}}}}}
+
+ | label44         = [[Nickelodeon Australian Kids' Choice Awards|Nickelodeon Australian Kids' Choice]]
+ | data44a         = {{{NickAustraliaW|{{#if:{{{NickAustraliaN|}}}|0}}}}}
+ | data44b         = {{{NickAustraliaN|{{#if:{{{NickAustraliaW|}}}|0}}}}}
+
+ | label45         = [[Nickelodeon Kids' Choice Awards|Nickelodeon Kids' Choice]]
+ | data45a         = {{{NickW|{{#if:{{{NickN|}}}|0}}}}}
+ | data45b         = {{{NickN|{{#if:{{{NickW|}}}|0}}}}}
+
+ | label46         = [[NME Awards|NME]]
+ | data46a         = {{{NMEW|{{#if:{{{NMEN|}}}|0}}}}}
+ | data46b         = {{{NMEN|{{#if:{{{NMEW|}}}|0}}}}}
+
+ | label47         = [[NRJ Music Awards|NRJ]]
+ | data47a         = {{{NRJW|{{#if:{{{NRJN|}}}|0}}}}}
+ | data47b         = {{{NRJN|{{#if:{{{NRJW|}}}|0}}}}}
+
+ | label48         = [[People's Choice Awards|People's Choice]]
+ | data48a         = {{{PeoplesW|{{#if:{{{PeoplesN|}}}|0}}}}}
+ | data48b         = {{{PeoplesN|{{#if:{{{PeoplesW|}}}|0}}}}}
+
+ | label49         = [[PLUG Independent Music Awards|PLUG]]
+ | data49a         = {{{PLUGW|{{#if:{{{PLUGN|}}}|0}}}}}
+ | data49b         = {{{PLUGN|{{#if:{{{PLUGW|}}}|0}}}}}
+
+ | label50         = [[Polaris Music Prize|Polaris]]
+ | data50a         = {{{PolarisW|{{#if:{{{PolarisN|}}}|0}}}}}
+ | data50b         = {{{PolarisN|{{#if:{{{PolarisW|}}}|0}}}}}
+
+ | label51         = [[Radio Music Awards|Radio Music]]
+ | data51a         = {{{RadioW|{{#if:{{{RadioN|}}}|0}}}}}
+ | data51b         = {{{RadioN|{{#if:{{{RadioW|}}}|0}}}}}
+
+ | label52         = [[Q Awards|Q]]
+ | data52a         = {{{QW|{{#if:{{{QN|}}}|0}}}}}
+ | data52b         = {{{QN|{{#if:{{{QW|}}}|0}}}}}
+
+ | label53         = [[Seoul Music Awards|Seoul Music]]
+ | data53a         = {{{SMAW|{{#if:{{{SMAN|}}}|0}}}}}
+ | data53b         = {{{SMAN|{{#if:{{{SMAW|}}}|0}}}}}
+
+ | label54         = [[Shortlist Music Prize|Shortlist]]
+ | data54a         = {{{ShortlistW|{{#if:{{{ShortlistN|}}}|0}}}}}
+ | data54b         = {{{ShortlistN|{{#if:{{{ShortlistW|}}}|0}}}}}
+
+ | label55         = [[Soul Train Music Award|Soul Train]]
+ | data55a         = {{{SoulW|{{#if:{{{SoulN|}}}|0}}}}}
+ | data55b         = {{{SoulN|{{#if:{{{SoulW|}}}|0}}}}}
+
+ | label56         = [[Teen Choice Awards|Teen Choice]]
+ | data56a         = {{{TeenW|{{#if:{{{TeenN|}}}|0}}}}}
+ | data56b         = {{{TeenN|{{#if:{{{TeenW|}}}|0}}}}}
+
+ | label57         = [[TMF Awards (Belgium)|TMF]]
+ | data57a         = {{{TMFW|{{#if:{{{TMFN|}}}|0}}}}}
+ | data57b         = {{{TMFN|{{#if:{{{TMFW|}}}|0}}}}}
+
+ | label58         = [[World Music Awards|World Music]]
+ | data58a         = {{{WorldW|{{#if:{{{WorldN|}}}|0}}}}}
+ | data58b         = {{{WorldN|{{#if:{{{WorldW|}}}|0}}}}}
+
+ | label62         = [[Academy Awards]]
+ | data62a         = {{#if: {{{AcademyW|}}}{{{AcademyN|}}} | {{{AcademyW|0}}} }}
+ | data62b         = {{#if: {{{AcademyW|}}}{{{AcademyN|}}} | {{{AcademyN|0}}} }}
+
+ | label63         = [[Producers Guild Film Awards|Apsara Film & Television Producers Guild Award]]
+ | data63a         = {{#if: {{{ApsaraW|}}}{{{ApsaraN|}}} | {{{ApsaraW|0}}} }}
+ | data63b         = {{#if: {{{ApsaraW|}}}{{{ApsaraN|}}} | {{{ApsaraN|0}}} }}
+
+ | label64         = [[ARY Film Awards]]
+ | data64a         = {{#if: {{{ARYFilmW|}}}{{{ARYFilmN|}}} | {{{ARYFilmW|0}}} }}
+ | data64b         = {{#if: {{{ARYFilmW|}}}{{{ARYFilmN|}}} | {{{ARYFilmN|0}}} }}
+
+ | label65         = [[British Academy Film Awards|BAFTA Awards]]
+ | data65a         = {{#if: {{{BAFTAW|}}}{{{BAFTAN|}}} | {{{BAFTAW|0}}} }}
+ | data65b         = {{#if: {{{BAFTAW|}}}{{{BAFTAN|}}} | {{{BAFTAN|0}}} }}
+
+ | label66         = [[Bengal Film Journalists' Association Awards|BFJA Awards]]
+ | data66a         = {{#if: {{{BFJAW|}}}{{{BFJAN|}}} | {{{BFJAW|0}}} }}
+ | data66b         = {{#if: {{{BFJAW|}}}{{{BFJAN|}}} | {{{BFJAN|0}}} }}
+
+ | label67         = [[Berlin International Film Festival]]
+ | data67a         = {{#if: {{{BerlinW|}}}{{{BerlinN|}}} | {{{BerlinW|0}}} }}
+ | data67b         = {{#if: {{{BerlinW|}}}{{{BerlinN|}}} | {{{BerlinN|0}}} }}
+
+ | label68         = [[Bollywood Movie Awards]]
+ | data68a         = {{#if: {{{BollywoodMovieW|}}}{{{BollywoodMovieN|}}}|{{{BollywoodMovieW|0}}}}}
+ | data68b         = {{#if: {{{BollywoodMovieW|}}}{{{BollywoodMovieN|}}}|{{{BollywoodMovieN|0}}}}}
+
+ | label69         = [[Boston Society of Film Critics]]
+ | data69a         = {{#if: {{{BostonFilmW|}}}{{{BostonFilmN|}}} | {{{BostonFilmW|0}}} }}
+ | data69b         = {{#if: {{{BostonFilmW|}}}{{{BostonFilmN|}}} | {{{BostonFilmN|0}}} }}
+
+ | label70         = [[Critics' Choice Movie Awards|Broadcast Film Critics Association Awards]]
+ | data70a         = {{#if: {{{BroadcastFilmW|}}}{{{BroadcastFilmN|}}} | {{{BroadcastFilmW|0}}} }}
+ | data70b         = {{#if: {{{BroadcastFilmW|}}}{{{BroadcastFilmN|}}} | {{{BroadcastFilmN|0}}} }}
+
+ | label71         = [[Chicago Film Critics Association]]
+ | data71a         = {{#if: {{{ChicagoFilmW|}}}{{{ChicagoFilmN|}}} | {{{ChicagoFilmW|0}}} }}
+ | data71b         = {{#if: {{{ChicagoFilmW|}}}{{{ChicagoFilmN|}}} | {{{ChicagoFilmN|0}}} }}
+
+ | label72         = [[Chicago International Film Festival]]
+ | data72a         = {{#if: {{{ChicagoInternationalW|}}}{{{ChicagoInternationalN|}}} | {{{ChicagoInternationalW|0}}} }}
+ | data72b         = {{#if: {{{ChicagoInternationalW|}}}{{{ChicagoInternationalN|}}} | {{{ChicagoInternationalN|0}}} }}
+
+ | label73         = [[Emmy Award]]s
+ | data73a         = {{#if: {{{EmmyW|}}}{{{EmmyN|}}} | {{{EmmyW|0}}} }}
+ | data73b         = {{#if: {{{EmmyW|}}}{{{EmmyN|}}} | {{{EmmyN|0}}} }}
+
+ | label74         = [[Filmfare Awards]]
+ | data74a         = {{#if: {{{FilmfareW|}}}{{{FilmfareN|}}} | {{{FilmfareW|0}}} }}
+ | data74b         = {{#if: {{{FilmfareW|}}}{{{FilmfareN|}}} | {{{FilmfareN|0}}} }}
+
+ | label75         = [[Florida Film Critics Circle]]
+ | data75a         = {{#if: {{{FloridaFilmW|}}}{{{FloridaFilmN|}}} | {{{FloridaFilmW|0}}} }}
+ | data75b         = {{#if: {{{FloridaFilmW|}}}{{{FloridaFilmN|}}} | {{{FloridaFilmN|0}}} }}
+
+ | label76         = [[Genie Awards]]
+ | data76a         = {{#if: {{{GenieW|}}}{{{GenieN|}}} | {{{GenieW|0}}} }}
+ | data76b         = {{#if: {{{GenieW|}}}{{{GenieN|}}} | {{{GenieN|0}}} }}
+
+ | label77         = [[Global Indian Film Awards|GIFA Awards]]
+ | data77a         = {{#if: {{{GlobalIndianW|}}}{{{GlobalIndianN|}}} | {{{GlobalIndianW|0}}} }}
+ | data77b         = {{#if: {{{GlobalIndianW|}}}{{{GlobalIndianN|}}} | {{{GlobalIndianN|0}}} }}
+
+ | label78         = [[Golden Globe Award]]s
+ | data78a         = {{#if: {{{GoldenGlobeW|}}}{{{GoldenGlobeN|}}} | {{{GoldenGlobeW|0}}} }}
+ | data78b         = {{#if: {{{GoldenGlobeW|}}}{{{GoldenGlobeN|}}} | {{{GoldenGlobeN|0}}} }}
+
+ | label79         = [[Hum Awards]]
+ | data79a         = {{#if: {{{HUMW|}}}{{{HUMN|}}}|{{{HUMW|0}}} }}
+ | data79b         = {{#if: {{{HUMW|}}}{{{HUMN|}}}|{{{HUMN|0}}} }}
+
+ | label80         = [[International Indian Film Academy Awards|IIFA Awards]]
+ | data80a         = {{#if: {{{IIFAW|}}}{{{IIFAN|}}} | {{{IIFAW|0}}} }}
+ | data80b         = {{#if: {{{IIFAW|}}}{{{IIFAN|}}} | {{{IIFAN|0}}} }}
+
+ | label81         = [[Indian Film Festival of Melbourne]]
+ | data81a         = {{#if: {{{IFFMW|}}}{{{IFFMN|}}} | {{{IFFMW|0}}} }}
+ | data81b         = {{#if: {{{IFFMW|}}}{{{IFFMN|}}} | {{{IFFMN|0}}} }}
+
+ | label82         = [[Independent Spirit Awards]]
+ | data82a         = {{#if: {{{IndependentW|}}}{{{IndependentN|}}} | {{{IndependentW|0}}} }}
+ | data82b         = {{#if: {{{IndependentW|}}}{{{IndependentN|}}} | {{{IndependentN|0}}} }}
+
+ | label83         = [[Irish Film & Television Academy|Irish Film and Television Awards]]
+ | data83a         = {{#if: {{{IrishFilmW|}}}{{{IrishFilmN|}}} | {{{IrishFilmW|0}}} }}
+ | data83b         = {{#if: {{{IrishFilmW|}}}{{{IrishFilmN|}}} | {{{IrishFilmN|0}}} }}
+
+ | label84         = [[Los Angeles Film Critics Association]]
+ | data84a         = {{#if: {{{LAFilmW|}}}{{{LAFilmN|}}} | {{{LAFilmW|0}}} }}
+ | data84b         = {{#if: {{{LAFilmW|}}}{{{LAFilmN|}}} | {{{LAFilmN|0}}} }}
+
+ | label85         = [[London Film Critics' Circle]]
+ | data85a         = {{#if: {{{LondonFilmW|}}}{{{LondonFilmN|}}} | {{{LondonFilmW|0}}} }}
+ | data85b         = {{#if: {{{LondonFilmW|}}}{{{LondonFilmN|}}} | {{{LondonFilmN|0}}} }}
+
+ | label86         = [[Lux Style Awards]]
+ | data86a         = {{#if: {{{LSAW|}}}{{{LSAN|}}} | {{{LSAW|0}}} }}
+ | data86b         = {{#if: {{{LSAW|}}}{{{LSAN|}}} | {{{LSAN|0}}} }}
+
+ | label87         = [[MTV Movie & TV Awards]]
+ | data87a         = {{#if: {{{MTVMovieW|}}}{{{MTVMovieN|}}} | {{{MTVMovieW|0}}} }}
+ | data87b         = {{#if: {{{MTVMovieW|}}}{{{MTVMovieN|}}} | {{{MTVMovieN|0}}} }}
+
+ | label88         = [[National Board of Review]]
+ | data88a         = {{#if: {{{NationalBoardW|}}}{{{NationalBoardN|}}} | {{{NationalBoardW|0}}} }}
+ | data88b         = {{#if: {{{NationalBoardW|}}}{{{NationalBoardN|}}} | {{{NationalBoardN|0}}} }}
+
+ | label89         = [[National Film Awards]]
+ | data89a         = {{#if: {{{NationalFilmW|}}}{{{NationalFilmN|}}} | {{{NationalFilmW|0}}} }}
+ | data89b         = {{#if: {{{NationalFilmW|}}}{{{NationalFilmN|}}} | {{{NationalFilmN|0}}} }}
+
+ | label90         = [[National Society of Film Critics]]
+ | data90a         = {{#if: {{{NationalSocietyW|}}}{{{NationalSocietyN|}}} | {{{NationalSocietyW|0}}} }}
+ | data90b         = {{#if: {{{NationalSocietyW|}}}{{{NationalSocietyN|}}} | {{{NationalSocietyN|0}}} }}
+
+ | label91         = [[New York Film Critics Circle|New York Film Critics Circle Awards]]
+ | data91a         = {{#if: {{{NYFilmW|}}}{{{NYFilmN|}}} | {{{NYFilmW|0}}} }}
+ | data91b         = {{#if: {{{NYFilmW|}}}{{{NYFilmN|}}} | {{{NYFilmN|0}}} }}
+
+ | label92         = [[Nigar Awards]]
+ | data92a         = {{#if: {{{NigarW|}}}{{{NigarN|}}} | {{{NigarW|0}}} }}
+ | data92b         = {{#if: {{{NigarW|}}}{{{NigarN|}}} | {{{NigarN|0}}} }}
+
+ | label93         = [[Online Film Critics Society]]
+ | data93a         = {{#if: {{{OnlineFilmW|}}}{{{OnlineFilmN|}}} | {{{OnlineFilmW|0}}} }}
+ | data93b         = {{#if: {{{OnlineFilmW|}}}{{{OnlineFilmN|}}} | {{{OnlineFilmN|0}}} }}
+
+ | label94         = [[Pakistan Media Awards]]
+ | data94a         = {{#if: {{{PMAW|}}}{{{PMAN|}}} | {{{PMAW|0}}} }}
+ | data94b         = {{#if: {{{PMAW|}}}{{{PMAN|}}} | {{{PMAN|0}}} }}
+
+ | label95         = [[E! People's Choice Awards|People's Choice Awards]]
+ | data95a         = {{#if: {{{PeopleW|}}}{{{PeopleN|}}} | {{{PeopleW|0}}} }}
+ | data95b         = {{#if: {{{PeopleW|}}}{{{PeopleN|}}} | {{{PeopleN|0}}} }}
+
+ | label96         = [[Satellite Awards]]
+ | data96a         = {{#if: {{{SatelliteW|}}}{{{SatelliteN|}}} | {{{SatelliteW|0}}} }}
+ | data96b         = {{#if: {{{SatelliteW|}}}{{{SatelliteN|}}} | {{{SatelliteN|0}}} }}
+
+ | label97         = [[Saturn Award]]s
+ | data97a         = {{#if: {{{SaturnW|}}}{{{SaturnN|}}}|{{{SaturnW|0}}} }}
+ | data97b         = {{#if: {{{SaturnW|}}}{{{SaturnN|}}}|{{{SaturnN|0}}} }}
+
+ | label98         = [[Screen Awards]]
+ | data98a         = {{#if: {{{ScreenW|}}}{{{ScreenN|}}}|{{{ScreenW|0}}} }}
+ | data98b         = {{#if: {{{ScreenW|}}}{{{ScreenN|}}}|{{{ScreenN|0}}} }}
+
+ | label99         = [[Screen Actors Guild Award]]s
+ | data99a         = {{#if: {{{ScreenActorsW|}}}{{{ScreenActorsN|}}} | {{{ScreenActorsW|0}}} }}
+ | data99b         = {{#if: {{{ScreenActorsW|}}}{{{ScreenActorsN|}}} | {{{ScreenActorsN|0}}} }}
+
+ | label100        = [[Producers Guild Film Awards|Star Guild Awards]]
+ | data100a        = {{#if: {{{StarGuildW|}}}{{{StarGuildN|}}} | {{{StarGuildW|0}}} }}
+ | data100b        = {{#if: {{{StarGuildW|}}}{{{StarGuildN|}}} | {{{StarGuildN|0}}} }}
+
+ | label101        = [[Stardust Awards]]
+ | data101a        = {{#if: {{{StardustW|}}}{{{StardustN|}}} | {{{StardustW|0}}} }}
+ | data101b        = {{#if: {{{StardustW|}}}{{{StardustN|}}} | {{{StardustN|0}}} }}
+
+ | label102        = [[Zee Cine Awards]]
+ | data102a        = {{#if: {{{ZeeCineW|}}}{{{ZeeCineN|}}} | {{{ZeeCineW|0}}} }}
+ | data102b        = {{#if: {{{ZeeCineW|}}}{{{ZeeCineN|}}} | {{{ZeeCineN|0}}} }}
+
+ | label161        = {{{award1}}}
+ | data161a        = {{{award1W|{{#if:{{{award1N|}}}|0}}}}}
+ | data161b        = {{{award1N|{{#if:{{{award1W|}}}|0}}}}}
+
+ | label162        = {{{award2}}}
+ | data162a        = {{{award2W|{{#if:{{{award2N|}}}|0}}}}}
+ | data162b        = {{{award2N|{{#if:{{{award2W|}}}|0}}}}}
+
+ | label163        = {{{award3}}}
+ | data163a        = {{{award3W|{{#if:{{{award3N|}}}|0}}}}}
+ | data163b        = {{{award3N|{{#if:{{{award3W|}}}|0}}}}}
+
+ | label164        = {{{award4}}}
+ | data164a        = {{{award4W|{{#if:{{{award4N|}}}|0}}}}}
+ | data164b        = {{{award4N|{{#if:{{{award4W|}}}|0}}}}}
+
+ | label165        = {{{award5}}}
+ | data165a        = {{{award5W|{{#if:{{{award5N|}}}|0}}}}}
+ | data165b        = {{{award5N|{{#if:{{{award5W|}}}|0}}}}}
+
+ | label166        = {{{award6}}}
+ | data166a        = {{{award6W|{{#if:{{{award6N|}}}|0}}}}}
+ | data166b        = {{{award6N|{{#if:{{{award6W|}}}|0}}}}}
+
+ | label167        = {{{award7}}}
+ | data167a        = {{{award7W|{{#if:{{{award7N|}}}|0}}}}}
+ | data167b        = {{{award7N|{{#if:{{{award7W|}}}|0}}}}}
+
+ | label168        = {{{award8}}}
+ | data168a        = {{{award8W|{{#if:{{{award8N|}}}|0}}}}}
+ | data168b        = {{{award8N|{{#if:{{{award8W|}}}|0}}}}}
+
+ | label169        = {{{award9}}}
+ | data169a        = {{{award9W|{{#if:{{{award9N|}}}|0}}}}}
+ | data169b        = {{{award9N|{{#if:{{{award9W|}}}|0}}}}}
+
+ | label170        = {{{award10}}}
+ | data170a        = {{{award10W|{{#if:{{{award10N|}}}|0}}}}}
+ | data170b        = {{{award10N|{{#if:{{{award10W|}}}|0}}}}}
+
+ | label171        = {{{award11}}}
+ | data171a        = {{{award11W|{{#if:{{{award11N|}}}|0}}}}}
+ | data171b        = {{{award11N|{{#if:{{{award11W|}}}|0}}}}}
+
+ | label172        = {{{award12}}}
+ | data172a        = {{{award12W|{{#if:{{{award12N|}}}|0}}}}}
+ | data172b        = {{{award12N|{{#if:{{{award12W|}}}|0}}}}}
+
+ | label173        = {{{award13}}}
+ | data173a        = {{{award13W|{{#if:{{{award13N|}}}|0}}}}}
+ | data173b        = {{{award13N|{{#if:{{{award13W|}}}|0}}}}}
+
+ | label174        = {{{award14}}}
+ | data174a        = {{{award14W|{{#if:{{{award14N|}}}|0}}}}}
+ | data174b        = {{{award14N|{{#if:{{{award14W|}}}|0}}}}}
+
+ | label175        = {{{award15}}}
+ | data175a        = {{{award15W|{{#if:{{{award15N|}}}|0}}}}}
+ | data175b        = {{{award15N|{{#if:{{{award15W|}}}|0}}}}}
+
+ | label176        = {{{award16}}}
+ | data176a        = {{{award16W|{{#if:{{{award16N|}}}|0}}}}}
+ | data176b        = {{{award16N|{{#if:{{{award16W|}}}|0}}}}}
+
+ | label177        = {{{award17}}}
+ | data177a        = {{{award17W|{{#if:{{{award17N|}}}|0}}}}}
+ | data177b        = {{{award17N|{{#if:{{{award17W|}}}|0}}}}}
+
+ | label178        = {{{award18}}}
+ | data178a        = {{{award18W|{{#if:{{{award18N|}}}|0}}}}}
+ | data178b        = {{{award18N|{{#if:{{{award18W|}}}|0}}}}}
+
+ | label179        = {{{award19}}}
+ | data179a        = {{{award19W|{{#if:{{{award19N|}}}|0}}}}}
+ | data179b        = {{{award19N|{{#if:{{{award19W|}}}|0}}}}}
+
+ | label180        = {{{award20}}}
+ | data180a        = {{{award20W|{{#if:{{{award20N|}}}|0}}}}}
+ | data180b        = {{{award20N|{{#if:{{{award20W|}}}|0}}}}}
+
+ | rowstyle181     = display:none
+ | rowcellstyle181 = display:none; height:0;
+ | data181         = {{If empty | {{{customs|}}} | {{{awards|}}} }}
+
+}}
+| header2       = Totals{{efn|Certain award groups do not simply award one winner. They recognize several different recipients, have runners-up, and have third place. Since this is a specific recognition and is different from losing an award, runner-up mentions are considered wins in this award tally. For simplification and to avoid errors, each award in this list has been presumed to have had a prior nomination.}}
+| rowcellstyle3 = background:#9F9;
+| label3        = Wins
+| data3         = {{{wins|}}}
+| rowcellstyle4 = background:#FDD;
+| label4        = Nominations
+| data4         = {{{nominations|}}}
+| belowstyle    = background:#d9e8ff; text-align:center;
+| below         = {{hide|1=Note|2={{notelist}}}}
+}}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using infobox awards list with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox awards list]] with unknown parameter "_VALUE_"|ignoreblank=y| AcademyN | AcademyW | alt | alt1 | alt2 | alt3 | AmericanN | AmericanW | APRAN | APRAW | ApsaraN | ApsaraW | ARIAN | ARIAW | ARYFilmN | ARYFilmW | ASFN | ASFW | award1 | award1N | award1W | award2 | award2N | award2W | award3 | award3N | award3W | award4 | award4N | award4W | award5 | award5N | award5W | award6 | award6N | award6W | award7 | award7N | award7W | award8 | award8N | award8W | award9 | award9N | award9W | award10 | award10N | award10W | award11 | award11N | award11W | award12 | award12N | award12W | award13 | award13N | award13W | award14 | award14N | award14W | award15 | award15N | award15W | award16 | award16N | award16W | award17 | award17N | award17W | award18 | award18N | award18W | award19 | award19N | award19W | award20 | award20N | award20W | awards | BAFTAN | BAFTAW | BerlinN | BerlinW | BETHHN | BETHHW | BETN | BETW | BFJAN | BFJAW | BillboardN | BillboardW | BollywoodMovieN | BollywoodMovieW | BostonFilmN | BostonFilmW | BRITN | BRITW | BroadcastFilmN | BroadcastFilmW | caption | ChicagoFilmN | ChicagoFilmW | ChicagoInternationalN | ChicagoInternationalW | CMTMAN | CMTMAW | collapse | customs | CyworldN | CyworldW | ECHON | ECHOW | EmmyN | EmmyW | film | FilmfareN | FilmfareW | FloridaFilmN | FloridaFilmW | GDAN | GDAW | GenieN | GenieW | GGAN | GGAW | GlobalIndianN | GlobalIndianW | GoldenGlobeN | GoldenGlobeW | GrammyN | GrammyW | HUMN | HUMW | IFFMN | IFFMW | IIFAN | IIFAW | image | image_size | image_upright | image1 | image2 | image3 | IndependentN | IndependentW | IrishFilmN | IrishFilmW | IvorN | IvorW | JackN | JackW | JN | JunoN | JunoW | JW | KerrangN | KerrangW | LAFilmN | LAFilmW | LondonFilmN | LondonFilmW | LSAN | LSAW | MamaN | MamaW | MCAN | MCAW | MelonN | MelonW | MercuryN | MercuryW | MeteorN | MeteorW | MOBON | MOBOW | MOJON | MOJOW | MTVAfricaN | MTVAfricaW | MTVAsiaN | MTVAsiaW | MTVAustraliaN | MTVAustraliaW | MTVBrasilN | MTVBrasilW | MTVEuropeN | MTVEuropeW | MTVJapanN | MTVJapanW | MTVMovieN | MTVMovieW | MTVVideoN | MTVVideoW | MuchMusicN | MuchMusicW | MusoN | MusoW | MVPAN | MVPAW | NAACPN | NAACPW | name | NationalBoardN | NationalBoardW | NationalFilmN | NationalFilmW | NationalSocietyN | NationalSocietyW | NickAustraliaN | NickAustraliaW | NickN | NickW | NigarN | NigarW | NMEN | NMEW | nocollapse | nominations | NRJN | NRJW | NYFilmN | NYFilmW | NZMAN | NZMAW | OnlineFilmN | OnlineFilmW | PeopleN | PeoplesN | PeoplesW | PeopleW | PLUGN | PLUGW | PMAN | PMAW | PolarisN | PolarisW | QN | QW | RadioN | RadioW | SatelliteN | SatelliteW | SaturnN | SaturnW | ScreenActorsN | ScreenActorsW | ScreenN | ScreenW | ShortlistN | ShortlistW | SMAN | SMAW | SoulN | SoulW | StardustN | StardustW | StarGuildN | StarGuildW | TeenN | TeenW | title | TMFN | TMFW | total_width | VMALAN | VMALAW | wins | WorldN | WorldW | ZeeCineN | ZeeCineW | hide_awards_box | GCKAN | GCKAW | JGDAW | JGDAN | MTVKoreaW | MTVKoreaN}}<noinclude>
+{{Documentation}}
+</noinclude>
