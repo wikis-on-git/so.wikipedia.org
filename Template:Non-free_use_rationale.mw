@@ -1,0 +1,49 @@
+<table class="toccolours licensetpl fileinfotpl fileinfotpl-type-fairuse" style="width: 100%; padding 5px">
+<tr><th colspan=2 style="background: #d8e0ff; text-align: center; vertical-align: top; padding-right: 0.4em; width: 15%; font-size: 12pt">[[Wikipedia:Non-free content|Non-free]] media information and [[Wikipedia:Non-free use rationale guideline|use rationale]] {{{Special_header|}}} <span class="licensetpl_nonfree" style="display:none">true</span> {{
+  #if:{{{Article|}}} | {{
+    #ifexist: {{{Article}}} | for [[{{{Article}}}]] {{file other|
+      {{#ifeq:{{#invoke:redirect|isRedirect|{{{Article}}}}}|yes
+        | [[Category:Wikipedia non-free files with redirect backlink]]
+      }} [[Category:Wikipedia non-free files with valid backlink|{{PAGENAME}}]]
+    }}
+    | ''– WARNING: <code>{{{Article}}}</code> does not appear to exist!''<div style="font-size:smaller">Check capitalization. Enter only the exact title of a ''single'' article with ''no'' <nowiki>[[link brackets]]</nowiki> or other formatting. It is also possible the indicated article was deleted.</div>{{file other|[[Category:Wikipedia non-free files with red backlink|{{PAGENAME}}]]|}}
+  }}
+  | ''– NEEDS ARTICLE NAME''{{file other|[[Category:Wikipedia non-free files lacking article backlink|{{PAGENAME}}]]|}}
+}}<noinclude><!--
+--><div style="font-size:smaller">Please read [[Wikipedia:Non-free use rationale guideline]] before using this template.</div></noinclude></th></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; width: 15%" id="fileinfotpl_desc">Description</th><td>
+{{{Description}}}
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em" id="fileinfotpl_src">Source</th><td class="licensetpl_attr">
+<noinclude>{{{Source}}}</noinclude><includeonly>{{#if:{{{Source|}}}|{{{Source}}}|{{file other|[[Category:Wikipedia files with unknown source|{{PAGENAME}}]]|}} <span style="color:red">'''No source specified. Please edit this image description and provide a source.'''</span>}}</includeonly>
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em">Article</th><td>
+[[{{{Article}}}]]
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap">[[Template:Non-free use rationale#note-portion|Portion used]]</th><td>
+{{{Portion}}}
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap">[[Template:Non-free use rationale#note-resolution|Low resolution?]]</th><td>
+{{{Resolution|{{{Low_resolution|{{{Low resolution}}}}}}}}}
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap">[[Template:Non-free use rationale#note-purpose|Purpose of use]]</th><td>
+<noinclude>{{{Purpose}}}</noinclude><includeonly>{{#if:{{{Purpose|}}}|{{{Purpose}}}|<span class="error">No purpose specified. Please edit this image description and provide a purpose.</span>{{file other|[[Category:Wikipedia files that transclude the Non-free use rationale template with no Purpose specified]]|}}}}</includeonly>
+</td></tr>
+<tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap">[[Template:Non-free use rationale#note-replace|Replaceable?]]</th><td>
+{{{Replaceability}}}
+</td></tr>
+{{#switch: {{{other_information|{{{Other information|}}}}}}
+| - =# .
+# Significance. Non-free content is used only if its presence would significantly increase readers' understanding of the topic, and its omission would be detrimental to that understanding. Non-free media files are not used if they can be replaced by text that serves a similar function.
+| none =
+| <includeonly>=</includeonly>
+| #default = <tr><th style="background: #ccf; text-align: right; padding-right: 0.4em; white-space: nowrap">[[Template:Non-free use rationale#note-other|Other information]]</th><td>
+{{{other_information|{{{Other information}}}}}}<noinclude> (optional)</noinclude>
+</td></tr>}}
+<tr style="display:none;">
+<td colspan="2"><span class="licensetpl_short">Fair use</span><span class="licensetpl_long">[[Wikipedia:Non-free_use_rationale_guideline|Fair use]] of copyrighted material in the context of [[{{{Article}}}]]</span><span class="licensetpl_link">{{fullurl:{{FULLPAGENAME}}}}</span></td>
+</tr>
+</table><includeonly>{{Non-free media|metadata=no}}</includeonly><noinclude>
+{{Documentation}}
+<!-- Add categories and inter-wikis to the /doc subpage, please, not here! -->
+</noinclude>
