@@ -1,0 +1,13 @@
+<noinclude>{| class="wikitable"
+|-
+|</noinclude>style="background: {{
+#switch: {{lc:{{{place|Won}}}}}
+  |won = {{{color|<nowiki>#</nowiki>99FF99}}}
+  |1|1st|gold = {{{color|gold}}}
+  |2|2nd|silver = {{{color|silver}}}
+  |3|3rd|bronze = {{{color|<nowiki>#</nowiki>D9A821}}}
+  |#default = {{{color|<nowiki>#</nowiki>F8EABA}}}
+}}; color: {{{text|black}}}; vertical-align: middle; text-align: {{{align|center}}}; {{{style|}}}" class="yes table-yes2"|{{{1|{{{place|Won}}}}}}<noinclude>
+|}
+{{Documentation|Template:Table cell templates/doc}}
+</noinclude>
