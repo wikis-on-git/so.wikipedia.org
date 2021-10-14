@@ -1,5 +1,6 @@
 <includeonly>{{#if:{{{name|}}}
- |{{#tag:ref|{{{1|{{{reference|}}}}}}|name={{{name|}}}|group={{#switch: {{{group|}}}
+ |{{#tag:ref|{{{1|{{{reference|{{{content|{{{text|}}}}}}}}}}}}|name={{{name|}}}|group={{#switch: {{{group|}}}
+    | note
     | upper-alpha
     | upper-roman
     | lower-alpha
@@ -8,7 +9,8 @@
     | #default = lower-alpha
    }}
  }}
- |{{#tag:ref|{{{1|{{{reference|}}}}}}|group={{#switch: {{{group|}}}
+ |{{#tag:ref|{{{1|{{{reference|{{{content|{{{text|}}}}}}}}}}}}|group={{#switch: {{{group|}}}
+    | note
     | upper-alpha
     | upper-roman
     | lower-alpha
