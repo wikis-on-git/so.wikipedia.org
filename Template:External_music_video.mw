@@ -12,3 +12,13 @@
 }}}}</includeonly><noinclude>
 {{documentation}}
 </noinclude>
+
+{{infobox|data1={{parameter names example|header=Music video|type=song|1=}}}}
+<pre style="overflow:auto;">{{Infobox song
+...
+| misc         = {{subst:External music video
+ | type        = 
+ | header      = 
+ | 1           = 
+}}
+</pre>
