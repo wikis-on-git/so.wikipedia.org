@@ -1,0 +1,16 @@
+<includeonly>{{#invoke:Parameter names example|main}}</includeonly><noinclude>
+{{hatnote|[[Template:Generic template demo]] and [[Template:Pnex]] redirect here.}}<!--(hatnote more noticeable here than within Documentation)-->
+{{Documentation}}
+</noinclude>
+
+
+{{Parameter names example |_template=Infobox |title |above |subheader |subheader2 |image |caption |header1 |label2 |data2 |label3 |data3 |header4 |data5 |data6 |below}}
+
+<pre style="overflow:auto;">
+{{Parameter names example
+|_template=Infobox
+|title |above |subheader |subheader2 |image |caption 
+|header1 |label2 |data2 |label3 |data3 |header4 
+|data5 |data6 |below
+}}
+</pre>
