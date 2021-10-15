@@ -1,0 +1,44 @@
+
+
+{{Infobox song
+| name       = The Single
+| cover      = Nocover.svg
+| alt        =
+| caption    = Single picture sleeve
+| type       = single
+| artist     = the Artist
+| album      =
+| B-side     = Other Side
+| released   = {{Start date|{{#expr:{{#time:Y}}-1}}|04|01}}
+| recorded   = January 1–10, {{#expr:{{#time:Y}}-1}}
+| studio     = [[Record Plant]], New York City
+| venue      =
+| genre      = [[Contemporary R&B]]
+| length     = 3:01
+| label      = [[Columbia Records|Columbia]]
+| writer     = The Artist
+| producer   = The Producer
+| prev_title = Last Single
+| prev_year  = {{#expr:{{#time:Y}}-2}}
+| next_title = Next Single
+| next_year  = {{#time:Y}}
+}}
+{{Infobox song
+| name     = The Song
+| cover    = Nocover.svg
+| alt      =
+| caption  = Sheet music cover
+| type     = song
+| artist   = the Artist
+| album    = That Album
+| released = {{Start date|{{#expr:{{#time:Y}}-1}}|04|01}}
+| recorded = January 1–10, {{#expr:{{#time:Y}}-1}}
+| studio   =
+| venue    = [[Madison Square Garden]]
+| genre    = [[Contemporary R&B]]
+| length   = 3:01
+| label    = [[Columbia Records|Columbia]]
+| composer = Another Artist
+| lyricist = The Artist
+| producer = The Producer
+}}
