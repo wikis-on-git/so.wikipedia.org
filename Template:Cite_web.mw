@@ -20,28 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===Foreign language and translated title===
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=Honi soit qui mal y pense
-|last=Joliet
-|first=François
-|date=30 April 2005
-|access-date=</nowiki>{{date}}<nowiki>
-|language=fr
-|trans-title=Shame on those who think evil of it}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=Honi soit qui mal y pense
-|last=Joliet
-|first=François
-|date=30 April 2005
-|access-date={{date}}
-|language=fr
-|trans-title=Shame on those who think evil of it}}
-}}
-
 ===Using author-link===
 {{markup2|
 |m=<nowiki>{{cite web
