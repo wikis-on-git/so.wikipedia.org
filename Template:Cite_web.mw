@@ -20,62 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===Using "archive-url" and "archive-date" (and optionally "url-status") for webpages that have been archived {{anchor|archive-url}}===
-<div style="width:auto; overflow:scroll">By default, if "archive-url" is used, {{para|url-status|dead}} and the main link is to the archive:
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.incb.org/pdf/e/list/green.pdf
-|title=List of psychotropic substances under international control
-|date=2005-04-30
-|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>
-|archive-url=https://web.archive.org/web/20050907150136/http://www.incb.org/pdf/e/list/green.pdf
-|archive-date=2005-09-07}}</nowiki>
-|r={{cite web
-|url=http://www.incb.org/pdf/e/list/green.pdf
-|title=List of psychotropic substances under international control
-|date=2005-04-30
-|access-date={{date|{{date}}|iso}}
-|archive-url=https://web.archive.org/web/20050907150136/http://www.incb.org/pdf/e/list/green.pdf
-|archive-date=2005-09-07}}
-}}
-</div>
-<div style="width:auto; overflow:scroll">With {{para|url-status|live}}, the main link is to the original:
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
-|title=Interview with Maggie Downs
-|date=March 31, 2006
-|publisher=The Desert Sun
-|url-status=live
-|archive-url=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
-|archive-date=April 26, 2006}}</nowiki>
-|r={{cite web
-|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
-|title=Interview with Maggie Downs
-|date=March 31, 2006
-|publisher=The Desert Sun
-|url-status=live
-|archive-url=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
-|archive-date=April 26, 2006}}
-}}
-</div>
-<div style="width:auto; overflow:scroll">With {{para|url-status|unfit}} or {{code|usurped}}, the original is not linked at all:
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.wunderground.com/global/stations/03772.html
-|title=London, United Kingdom Forecast: Weather Underground (weather and elevation at Heathrow Airport)
-|publisher=The Weather Underground
-|access-date=</nowiki>{{date}}<nowiki>
-|url-status=unfit |archive-url=https://www.webcitation.org/5yo0HaAk7 |archive-date=19 May 2011}}</nowiki>
-|r={{cite web
-|url=http://www.wunderground.com/global/stations/03772.html
-|title=London, United Kingdom Forecast: Weather Underground (weather and elevation at Heathrow Airport)
-|publisher=The Weather Underground
-|access-date={{date}}
-|url-status=unfit |archive-url=https://www.webcitation.org/5yo0HaAk7 |archive-date=19 May 2011}}
-}}
-</div>
-
 ===Using quote===
 <div style="width:auto; overflow:scroll">
 {{markup2|
