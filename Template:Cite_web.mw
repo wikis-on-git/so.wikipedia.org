@@ -20,59 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===Using "format="===
-When this template detects a link whose URL includes an [[filename extension|extension]] of ".pdf" or ".PDF", typical of [[PDF]] files, it automatically displays a PDF icon after the link (regardless of whether the link goes to a PDF file or to an HTML landing page, typical of paysites). It also internally acts as if {{para|format|PDF}} had been specified, which displays " (PDF)" after the icon. (In this case, an explicit {{para|format|PDF}} parameter would be redundant, so it ''is not'' recommended to add it. Users may remove it. Citation bot, when invoked, will remove it. ([[User talk:Citation bot/Archive 13#Remove format=pdf and variants when URLs end in .pdf|ref]]))
-<div style="width:auto; overflow:scroll">
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.indiapost.gov.in/Pdf/Customs/List_of_Psychotropic_Substances.pdf
-|title=List of psychotropic substances under international control
-|publisher=International Narcotics Control Board
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.indiapost.gov.in/Pdf/Customs/List_of_Psychotropic_Substances.pdf
-|title=List of psychotropic substances under international control
-|publisher=International Narcotics Control Board
-|access-date={{date}}}}
-}}
-</div>
-
-If the link is to a PDF file that ''is not'' automatically recognizable by its extension, this template does not display the PDF icon. You may add the parameter {{para|format|PDF}}, which displays " (PDF)" after the link.
-<div style="width:auto; overflow:scroll">
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.sample.com/somePDFdocument.000
-|title=Some PDF Document
-|publisher=Sample Int'l
-|format=PDF
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.sample.com/somePDFdocument.000
-|title=Some PDF Document
-|publisher=Sample Int'l
-|format=PDF
-|access-date={{date}}}}
-}}
-</div>
-
-For links to files in other formats, no icon is displayed. For example, for an [[.odt]] file, you may add the parameter {{para|format|ODT}}, which displays " (ODT)" after the link. 
-<div style="width:auto; overflow:scroll">
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.sample.com/someODTdocument.odt
-|title=Some ODT Document
-|publisher=Sample Int'l
-|format=ODT
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.sample.com/someODTdocument.odt
-|title=Some ODT Document
-|publisher=Sample Int'l
-|format=ODT
-|access-date={{date}}}}
-}}
-</div>
-
 ===Foreign language and translated title===
 {{markup2|
 |m=<nowiki>{{cite web
