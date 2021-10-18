@@ -19,23 +19,3 @@
 |website=Encyclopedia of Things
 |access-date={{date|{{date}}|mdy}}}}
 }}
-
-===Using quote===
-<div style="width:auto; overflow:scroll">
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.webexhibits.org/daylightsaving/c.html
-|title=Daylight saving time: rationale and original idea
-|website=WebExhibits
-|date=2008
-|access-date=</nowiki>{{date}}<nowiki>
-|quote=...&amp;nbsp;Lord Balfour came forward with a unique concern: 'Supposing some unfortunate lady was confined with twins&amp;nbsp;...'}}</nowiki>
-|r={{cite web
-|url=http://www.webexhibits.org/daylightsaving/c.html
-|title=Daylight saving time: rationale and original idea
-|website=WebExhibits
-|date=2008
-|access-date={{date}}
-|quote=...&nbsp;Lord Balfour came forward with a unique concern: 'Supposing some unfortunate lady was confined with twins&nbsp;...'}}
-}}
-</div>
