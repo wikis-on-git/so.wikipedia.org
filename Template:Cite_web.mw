@@ -20,24 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===No author===
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|publisher=Open Publishing
-|date=2005-04-30
-|website=Encyclopedia of Things
-|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|publisher=Open Publishing
-|date=2005-04-30
-|website=Encyclopedia of Things
-|access-date={{date|{{date}}|iso}}}}
-}}
-
 ===No author, no publisher===
 {{markup2|
 |m=<nowiki>{{cite web
