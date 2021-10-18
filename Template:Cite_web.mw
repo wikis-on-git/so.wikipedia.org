@@ -20,36 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===Multiple authors===
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=Our Favourite Things
-|last1=Doe
-|first1=John
-|last2=Smith
-|first2=Peter
-|last3=Smythe
-|first3=Jim
-|publisher=Open Publishing
-|date=30 April 2005
-|website=Encyclopaedia of Things
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=Our Favourite Things
-|last1=Doe
-|first1=John
-|last2=Smith
-|first2=Peter
-|last3=Smythe
-|first3=Jim
-|publisher=Open Publishing
-|date=30 April 2005
-|website=Encyclopaedia of Things
-|access-date={{date}}}}
-}}
-
 ===No author===
 {{markup2|
 |m=<nowiki>{{cite web
