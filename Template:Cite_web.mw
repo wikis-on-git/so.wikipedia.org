@@ -1,1 +1,218 @@
+{{cite web |url= |title= |last= |first= |date= |website= |publisher= |access-date= |quote=}}
+:<code><nowiki>{{cite web |url= |title= |author=<!--Not stated--> |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
+{{end}}
+<pre style="margin:0px; border:none; white-space:pre;">
+{{cite web
+ |url=
+ |title=
+ |last=
+ |first=
+ |date=
+ |website=
+ |publisher=
+ |access-date=
+ |quote=}}
+</pre>
+{{end}}
 
+{{cite web |url= |url-access= |title= |last= |first= |author= |author-link= |last2= |first2= |author2= |author-link2= |date= |year= |orig-year= |editor-last= |editor-first= |editor= |editor-link= |editor-last2= |editor-first2= |editor-link2= |editors= |department= |website= |series= |publisher= |agency= |location= |page= |pages= |at= |language= |script-title= |trans-title= |type= |format= |arxiv= |asin= |bibcode= |doi= |doi-broken-date= |isbn= |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |pmid= |rfc= |ssrn= |zbl= |id= |access-date= |url-status= |archive-url= |archive-date= |via= |quote= |ref= |postscript=}}</nowiki></code>
+
+<pre style="margin:0px; border:none; white-space:pre;">
+{{cite web
+ |url=
+ |url-access=
+ |title=
+ |last=
+ |first=
+ |author-link=
+ |last2=
+ |first2=
+ |author-link2=
+ |date=
+ |year=
+ |orig-year=
+ |editor-last=
+ |editor-first=
+ |editor-link=
+ |editor2-last=
+ |editor2-first=
+ |editor2-link=
+ |department=
+ |website=
+ |series=
+ |publisher=
+ |agency=
+ |location=
+ |page=
+ |pages=
+ |at=
+ |language=
+ |script-title=
+ |trans-title=
+ |type=
+ |format=
+ |arxiv=
+ |asin=
+ |bibcode=
+ |doi=
+ |doi-broken-date=
+ |isbn=
+ |issn=
+ |jfm=
+ |jstor=
+ |lccn=
+ |mr=
+ |oclc=
+ |ol=
+ |osti=
+ |pmc=
+ |pmid=
+ |rfc=
+ |ssrn=
+ |zbl=
+ |id=
+ |access-date=
+ |url-status=
+ |archive-url=
+ |archive-date=
+ |via=
+ |quote=
+ |ref=
+ |postscript=}}
+</pre>
+<pre style="margin:0px; border:none; white-space:pre;">
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+last
+&nbsp;
+last
+last2
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+editor-last
+&nbsp;
+editor-last
+editor2-last
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+url&nbsp;
+url&nbsp;
+url, archive-date
+archive-url
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
+<pre style="margin:0px; border:none; white-space:pre;">
+&nbsp;
+required
+&nbsp;
+required
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
+-->
+{|
+| '''cite web''': || {{cite web |url=http://blog.chron.com/techblog/2011/07/microsoft-envisions-a-universal-os-but-it-might-not-be-called-windows/ |title=Microsoft envisions a universal OS, but it might not be called Windows |last=Silverman |first=Dwight |date=July 15, 2011 |work=Houston Chronicle |publisher=Hearst Corporation |access-date=May 26, 2015}}
+|-
+| '''cite news''': || {{cite news |url=http://blog.chron.com/techblog/2011/07/microsoft-envisions-a-universal-os-but-it-might-not-be-called-windows/ |title=Microsoft envisions a universal OS, but it might not be called Windows |last=Silverman |first=Dwight |date=July 15, 2011 |work=Houston Chronicle |publisher=Hearst Corporation |access-date=May 26, 2015}}
+|}
