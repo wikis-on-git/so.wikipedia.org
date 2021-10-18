@@ -1,5 +1,5 @@
 
-{{markup2|
+{{Cite web|
 |m=<nowiki>{{cite web
 |url=http://www.example.org/
 |title=My Favorite Things, Part II
@@ -17,78 +17,6 @@
 |publisher=Open Publishing
 |date=April 30, 2005
 |website=Encyclopedia of Things
-|access-date={{date|{{date}}|mdy}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|date=30 April 2005
-|website=Encyclopedia of Things
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|date=30 April 2005
-|website=Encyclopedia of Things
-|access-date={{date}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|date=2005-04-30
-|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|date=2005-04-30
-|access-date={{date|{{date}}|iso}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|access-date={{date}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|access-date={{date|{{date}}|iso}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=https://operations.nfl.com/the-rules/nfl-rules-digest/
-|title=NFL Rules Digest
-|website=NFL Football Operations
-|publisher=[[National Football League]]
-|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=https://operations.nfl.com/the-rules/nfl-rules-digest/
-|title=NFL Rules Digest
-|website=NFL Football Operations
-|publisher=[[National Football League]]
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
