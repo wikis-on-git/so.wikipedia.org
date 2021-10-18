@@ -24,11 +24,6 @@
 |r={{cite book |last=Bloggs |first=Joe |author-link=Joe Bloggs |date=1974 |title=Book of Bloggs |edition=1st |url=http://en.wikipedia.org/ |access-date=February 17, 2006}}
 }}
 
-{{markup2|t=Basic usage with url (and accessdate) and edition
-|m=<nowiki>{{cite book |last=Bloggs |first=Joe |author-link=Joe Bloggs |date=1974 |title=Book of Bloggs |edition=1st |url=http://en.wikipedia.org/ |access-date=February 17, 2006}}</nowiki>
-|r={{cite book |last=Bloggs |first=Joe |author-link=Joe Bloggs |date=1974 |title=Book of Bloggs |edition=1st |url=http://en.wikipedia.org/ |access-date=February 17, 2006}}
-}}
-
 == See also ==
 * {{tl|markup}}: side by side markup
 * {{tl|markup2}}: bulleted and indented markup
