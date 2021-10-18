@@ -20,48 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===No author, no publisher===
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|date=30 April 2005
-|website=Encyclopedia of Things
-|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|date=30 April 2005
-|website=Encyclopedia of Things
-|access-date={{date}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|date=April 30, 2005
-|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=Index of Sharp Things
-|date=April 30, 2005
-|access-date={{date|{{date}}|mdy}}}}
-}}
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.incb.org/pdf/e/list/green.pdf
-|title=List of psychotropic substances under international control
-|date=2005-04-30
-|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>
-|language=el}}</nowiki>
-|r={{cite web
-|url=http://www.incb.org/pdf/e/list/green.pdf
-|title=List of psychotropic substances under international control
-|date=2005-04-30
-|access-date={{date|{{date}}|iso}}
-|language=el}}
-}}
-
 ===Using "archive-url" and "archive-date" (and optionally "url-status") for webpages that have been archived {{anchor|archive-url}}===
 <div style="width:auto; overflow:scroll">By default, if "archive-url" is used, {{para|url-status|dead}} and the main link is to the archive:
 {{markup2|
