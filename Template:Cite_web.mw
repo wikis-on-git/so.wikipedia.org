@@ -20,30 +20,6 @@
 |access-date={{date|{{date}}|mdy}}}}
 }}
 
-===Using author-link===
-{{markup2|
-|m=<nowiki>{{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|author-link=John Doe
-|publisher=Open Publishing
-|date=April 30, 2005
-|website=Encyclopedia of Things
-|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
-|r={{cite web
-|url=http://www.example.org/
-|title=My Favorite Things, Part II
-|last=Doe
-|first=John
-|author-link=John Doe
-|publisher=Open Publishing
-|date=April 30, 2005
-|website=Encyclopedia of Things
-|access-date={{date|{{date}}|mdy}}}}
-}}
-
 ===Multiple authors===
 {{markup2|
 |m=<nowiki>{{cite web
