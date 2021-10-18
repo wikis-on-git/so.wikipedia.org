@@ -1,1 +1,1700 @@
+<noinclude>{{pp-template}}</noinclude>
+{{Documentation subpage}}
+{{High-use|all-pages=yes}}
+{{AWB standard installation}}
+{{csdoc|lua}}
+{{csdoc|cs1}}
 
+{{csdoc|lead|web sources that are not characterized by another CS1 template}} Do not use this template in the "[[WP:ELCITE|External links]]" section of articles.
+
+==Usage==
+{{csdoc|usage}}
+{{csdoc|usage common}}
+For references with author credit
+:<code><nowiki>{{cite web |url= |title= |last= |first= |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
+For references without author credit
+:<code><nowiki>{{cite web |url= |title= |author=<!--Not stated--> |date= |website= |publisher= |access-date= |quote=}}</nowiki></code>
+{{end}}
+{{csdoc|usage vertical common}}
+<!-- Please synchronize this list with the corresponding one at the overview page [[Wikipedia:Citation templates#Examples]] -->
+<pre style="margin:0px; border:none; white-space:pre;">
+{{cite web
+ |url=
+ |title=
+ |last=
+ |first=
+ |date=
+ |website=
+ |publisher=
+ |access-date=
+ |quote=}}
+</pre>
+{{end}}
+{{csdoc|usage full}}
+:<code><nowiki>{{cite web |url= |url-access= |title= |last= |first= |author= |author-link= |last2= |first2= |author2= |author-link2= |date= |year= |orig-year= |editor-last= |editor-first= |editor= |editor-link= |editor-last2= |editor-first2= |editor-link2= |editors= |department= |website= |series= |publisher= |agency= |location= |page= |pages= |at= |language= |script-title= |trans-title= |type= |format= |arxiv= |asin= |bibcode= |doi= |doi-broken-date= |isbn= |issn= |jfm= |jstor= |lccn= |mr= |oclc= |ol= |osti= |pmc= |pmid= |rfc= |ssrn= |zbl= |id= |access-date= |url-status= |archive-url= |archive-date= |via= |quote= |ref= |postscript=}}</nowiki></code>
+{{end}}
+{{csdoc|usage vertical}}
+<pre style="margin:0px; border:none; white-space:pre;">
+{{cite web
+ |url=
+ |url-access=
+ |title=
+ |last=
+ |first=
+ |author-link=
+ |last2=
+ |first2=
+ |author-link2=
+ |date=
+ |year=
+ |orig-year=
+ |editor-last=
+ |editor-first=
+ |editor-link=
+ |editor2-last=
+ |editor2-first=
+ |editor2-link=
+ |department=
+ |website=
+ |series=
+ |publisher=
+ |agency=
+ |location=
+ |page=
+ |pages=
+ |at=
+ |language=
+ |script-title=
+ |trans-title=
+ |type=
+ |format=
+ |arxiv=
+ |asin=
+ |bibcode=
+ |doi=
+ |doi-broken-date=
+ |isbn=
+ |issn=
+ |jfm=
+ |jstor=
+ |lccn=
+ |mr=
+ |oclc=
+ |ol=
+ |osti=
+ |pmc=
+ |pmid=
+ |rfc=
+ |ssrn=
+ |zbl=
+ |id=
+ |access-date=
+ |url-status=
+ |archive-url=
+ |archive-date=
+ |via=
+ |quote=
+ |ref=
+ |postscript=}}
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px; border:none; white-space:pre;">
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+last
+&nbsp;
+last
+last2
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+editor-last
+&nbsp;
+editor-last
+editor2-last
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+url&nbsp;
+url&nbsp;
+url, archive-date
+archive-url
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
+{{csdoc|usage vertical mid}}
+<pre style="margin:0px; border:none; white-space:pre;">
+&nbsp;
+required
+&nbsp;
+required
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</pre>
+{{csdoc|usage vertical end}}
+
+===Choosing between [[Template:cite web]] and [[Template:cite news]]===
+{{anchor|Consistency}}
+Before 2014, editors had to decide whether to use {{tl|cite web}} or {{tl|cite news}} based on their features. In 2014, {{em|most of}} the differences between the two templates were eliminated.
+
+As of {{diff|Module:Citation/CS1|732205428|723907342|29 July 2016}}, {{tlf|cite web}} and {{tlf|cite news}} have the following differences:
+* {{tlf|cite news}} can be used for [[WP:OFFLINE|offline]] (paper) sources whereas {{tlf|cite web}} generates a missing URL error when no URL is provided
+* {{tlf|cite news}} accepts {{para|issue}} and {{para|volume}} parameters while {{tlf|cite web}} does not (See {{slink|Help:Citation Style 1#Pages}}; see also {{tl|cite magazine}}).
+But given the same set of valid parameters, their output is exactly the same:
+<!-- ATTENTION!
+The following example only serves to demonstrate parameter rending results.
+
+Whether you must include all these parameters in actual articles is not a concern here.
+-->
+{|
+| '''cite web''': || {{cite web |url=http://blog.chron.com/techblog/2011/07/microsoft-envisions-a-universal-os-but-it-might-not-be-called-windows/ |title=Microsoft envisions a universal OS, but it might not be called Windows |last=Silverman |first=Dwight |date=July 15, 2011 |work=Houston Chronicle |publisher=Hearst Corporation |access-date=May 26, 2015}}
+|-
+| '''cite news''': || {{cite news |url=http://blog.chron.com/techblog/2011/07/microsoft-envisions-a-universal-os-but-it-might-not-be-called-windows/ |title=Microsoft envisions a universal OS, but it might not be called Windows |last=Silverman |first=Dwight |date=July 15, 2011 |work=Houston Chronicle |publisher=Hearst Corporation |access-date=May 26, 2015}}
+|}
+
+==Examples==
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|publisher=Open Publishing
+|date=April 30, 2005
+|website=Encyclopedia of Things
+|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|publisher=Open Publishing
+|date=April 30, 2005
+|website=Encyclopedia of Things
+|access-date={{date|{{date}}|mdy}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|date=30 April 2005
+|website=Encyclopedia of Things
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|date=30 April 2005
+|website=Encyclopedia of Things
+|access-date={{date}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|date=2005-04-30
+|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|date=2005-04-30
+|access-date={{date|{{date}}|iso}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|access-date={{date}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|access-date={{date|{{date}}|iso}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=https://operations.nfl.com/the-rules/nfl-rules-digest/
+|title=NFL Rules Digest
+|website=NFL Football Operations
+|publisher=[[National Football League]]
+|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=https://operations.nfl.com/the-rules/nfl-rules-digest/
+|title=NFL Rules Digest
+|website=NFL Football Operations
+|publisher=[[National Football League]]
+|access-date={{date|{{date}}|mdy}}}}
+}}
+
+===Using "format="===
+When this template detects a link whose URL includes an [[filename extension|extension]] of ".pdf" or ".PDF", typical of [[PDF]] files, it automatically displays a PDF icon after the link (regardless of whether the link goes to a PDF file or to an HTML landing page, typical of paysites). It also internally acts as if {{para|format|PDF}} had been specified, which displays " (PDF)" after the icon. (In this case, an explicit {{para|format|PDF}} parameter would be redundant, so it ''is not'' recommended to add it. Users may remove it. Citation bot, when invoked, will remove it. ([[User talk:Citation bot/Archive 13#Remove format=pdf and variants when URLs end in .pdf|ref]]))
+<div style="width:auto; overflow:scroll">
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.indiapost.gov.in/Pdf/Customs/List_of_Psychotropic_Substances.pdf
+|title=List of psychotropic substances under international control
+|publisher=International Narcotics Control Board
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.indiapost.gov.in/Pdf/Customs/List_of_Psychotropic_Substances.pdf
+|title=List of psychotropic substances under international control
+|publisher=International Narcotics Control Board
+|access-date={{date}}}}
+}}
+</div>
+
+If the link is to a PDF file that ''is not'' automatically recognizable by its extension, this template does not display the PDF icon. You may add the parameter {{para|format|PDF}}, which displays " (PDF)" after the link.
+<div style="width:auto; overflow:scroll">
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.sample.com/somePDFdocument.000
+|title=Some PDF Document
+|publisher=Sample Int'l
+|format=PDF
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.sample.com/somePDFdocument.000
+|title=Some PDF Document
+|publisher=Sample Int'l
+|format=PDF
+|access-date={{date}}}}
+}}
+</div>
+
+For links to files in other formats, no icon is displayed. For example, for an [[.odt]] file, you may add the parameter {{para|format|ODT}}, which displays " (ODT)" after the link. 
+<div style="width:auto; overflow:scroll">
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.sample.com/someODTdocument.odt
+|title=Some ODT Document
+|publisher=Sample Int'l
+|format=ODT
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.sample.com/someODTdocument.odt
+|title=Some ODT Document
+|publisher=Sample Int'l
+|format=ODT
+|access-date={{date}}}}
+}}
+</div>
+
+===Foreign language and translated title===
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=Honi soit qui mal y pense
+|last=Joliet
+|first=François
+|date=30 April 2005
+|access-date=</nowiki>{{date}}<nowiki>
+|language=fr
+|trans-title=Shame on those who think evil of it}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=Honi soit qui mal y pense
+|last=Joliet
+|first=François
+|date=30 April 2005
+|access-date={{date}}
+|language=fr
+|trans-title=Shame on those who think evil of it}}
+}}
+
+===Using author-link===
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|author-link=John Doe
+|publisher=Open Publishing
+|date=April 30, 2005
+|website=Encyclopedia of Things
+|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=My Favorite Things, Part II
+|last=Doe
+|first=John
+|author-link=John Doe
+|publisher=Open Publishing
+|date=April 30, 2005
+|website=Encyclopedia of Things
+|access-date={{date|{{date}}|mdy}}}}
+}}
+
+===Multiple authors===
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=Our Favourite Things
+|last1=Doe
+|first1=John
+|last2=Smith
+|first2=Peter
+|last3=Smythe
+|first3=Jim
+|publisher=Open Publishing
+|date=30 April 2005
+|website=Encyclopaedia of Things
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=Our Favourite Things
+|last1=Doe
+|first1=John
+|last2=Smith
+|first2=Peter
+|last3=Smythe
+|first3=Jim
+|publisher=Open Publishing
+|date=30 April 2005
+|website=Encyclopaedia of Things
+|access-date={{date}}}}
+}}
+
+===No author===
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|publisher=Open Publishing
+|date=2005-04-30
+|website=Encyclopedia of Things
+|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|publisher=Open Publishing
+|date=2005-04-30
+|website=Encyclopedia of Things
+|access-date={{date|{{date}}|iso}}}}
+}}
+
+===No author, no publisher===
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|date=30 April 2005
+|website=Encyclopedia of Things
+|access-date=</nowiki>{{date}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|date=30 April 2005
+|website=Encyclopedia of Things
+|access-date={{date}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|date=April 30, 2005
+|access-date=</nowiki>{{date|{{date}}|mdy}}<nowiki>}}</nowiki>
+|r={{cite web
+|url=http://www.example.org/
+|title=Index of Sharp Things
+|date=April 30, 2005
+|access-date={{date|{{date}}|mdy}}}}
+}}
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.incb.org/pdf/e/list/green.pdf
+|title=List of psychotropic substances under international control
+|date=2005-04-30
+|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>
+|language=el}}</nowiki>
+|r={{cite web
+|url=http://www.incb.org/pdf/e/list/green.pdf
+|title=List of psychotropic substances under international control
+|date=2005-04-30
+|access-date={{date|{{date}}|iso}}
+|language=el}}
+}}
+
+===Using "archive-url" and "archive-date" (and optionally "url-status") for webpages that have been archived {{anchor|archive-url}}===
+<div style="width:auto; overflow:scroll">By default, if "archive-url" is used, {{para|url-status|dead}} and the main link is to the archive:
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.incb.org/pdf/e/list/green.pdf
+|title=List of psychotropic substances under international control
+|date=2005-04-30
+|access-date=</nowiki>{{date|{{date}}|iso}}<nowiki>
+|archive-url=https://web.archive.org/web/20050907150136/http://www.incb.org/pdf/e/list/green.pdf
+|archive-date=2005-09-07}}</nowiki>
+|r={{cite web
+|url=http://www.incb.org/pdf/e/list/green.pdf
+|title=List of psychotropic substances under international control
+|date=2005-04-30
+|access-date={{date|{{date}}|iso}}
+|archive-url=https://web.archive.org/web/20050907150136/http://www.incb.org/pdf/e/list/green.pdf
+|archive-date=2005-09-07}}
+}}
+</div>
+<div style="width:auto; overflow:scroll">With {{para|url-status|live}}, the main link is to the original:
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
+|title=Interview with Maggie Downs
+|date=March 31, 2006
+|publisher=The Desert Sun
+|url-status=live
+|archive-url=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
+|archive-date=April 26, 2006}}</nowiki>
+|r={{cite web
+|url=http://joanjettbadrep.com/cgi-bin/fullStory.cgi?archive=currnews&story=20060405-01shore.htm
+|title=Interview with Maggie Downs
+|date=March 31, 2006
+|publisher=The Desert Sun
+|url-status=live
+|archive-url=http://72.14.207.104/search?q=cache:JAxf4v-pQmgJ:joanjettbadrep.com/cgi-bin/fullStory.cgi%3Farchive%3Dcurrnews%26story%3D20060405-01shore.htm
+|archive-date=April 26, 2006}}
+}}
+</div>
+<div style="width:auto; overflow:scroll">With {{para|url-status|unfit}} or {{code|usurped}}, the original is not linked at all:
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.wunderground.com/global/stations/03772.html
+|title=London, United Kingdom Forecast: Weather Underground (weather and elevation at Heathrow Airport)
+|publisher=The Weather Underground
+|access-date=</nowiki>{{date}}<nowiki>
+|url-status=unfit |archive-url=https://www.webcitation.org/5yo0HaAk7 |archive-date=19 May 2011}}</nowiki>
+|r={{cite web
+|url=http://www.wunderground.com/global/stations/03772.html
+|title=London, United Kingdom Forecast: Weather Underground (weather and elevation at Heathrow Airport)
+|publisher=The Weather Underground
+|access-date={{date}}
+|url-status=unfit |archive-url=https://www.webcitation.org/5yo0HaAk7 |archive-date=19 May 2011}}
+}}
+</div>
+
+===Using quote===
+<div style="width:auto; overflow:scroll">
+{{markup2|
+|m=<nowiki>{{cite web
+|url=http://www.webexhibits.org/daylightsaving/c.html
+|title=Daylight saving time: rationale and original idea
+|website=WebExhibits
+|date=2008
+|access-date=</nowiki>{{date}}<nowiki>
+|quote=...&amp;nbsp;Lord Balfour came forward with a unique concern: 'Supposing some unfortunate lady was confined with twins&amp;nbsp;...'}}</nowiki>
+|r={{cite web
+|url=http://www.webexhibits.org/daylightsaving/c.html
+|title=Daylight saving time: rationale and original idea
+|website=WebExhibits
+|date=2008
+|access-date={{date}}
+|quote=...&nbsp;Lord Balfour came forward with a unique concern: 'Supposing some unfortunate lady was confined with twins&nbsp;...'}}
+}}
+</div>
+
+==Parameters==
+===Syntax===
+{{csdoc|syntax}}
+{{csdoc|sep_period}}
+
+===COinS===
+{{csdoc|coins}}
+
+===What's new===
+{{csdoc|whats new}}
+
+===Deprecated===
+{{csdoc|deprecated}}
+
+===Description===
+====Authors====
+{{csdoc|author|others=yes}}
+
+====Title====
+{{csdoc|web}}
+{{csdoc|type}}
+{{csdoc|language}}
+
+====Date====
+{{csdoc|date}}
+
+====Website====
+{{csdoc|journal|issue=no}}
+
+====Publisher====
+{{csdoc|publisher|work=no|web=yes}}
+{{csdoc|agency}}
+
+====Series====
+{{csdoc|series}}
+
+====In-source locations====
+{{csdoc|pages}}
+
+===={{Anchor|url}}URL====
+{{csdoc|url}}
+
+====Anchor====
+{{csdoc|ref}}
+
+====Identifiers====
+{{csdoc|id1}}
+{{csdoc|id2}}
+
+====Quote====
+{{csdoc|quote}}
+
+====Editors====
+{{csdoc|editor}}
+
+{{Anchor|Laysummary}}
+====Lay summary====
+{{csdoc|lay}}
+
+====Display options====
+{{csdoc|display}}
+
+====Subscription or registration required====
+{{csdoc|registration}}
+
+==TemplateData==
+{{Warning |image=Stop hand nuvola.svg |This section contains configuration data used by editing tools and automated bots. Changes to this data can result in widespread and unintended effects. For more information see [[Help:Citation Style 1#TemplateData]]}}
+{{TemplateData header}}
+{{#invoke:cs1 documentation support|template_data_validate|{{ROOTPAGENAME}}}}
+<templatedata>
+{
+	"description": "Formats a citation to a website using the provided information such as URL and title. Used only for sources that are not correctly described by the specific citation templates for books, journals, news sources, etc.",
+	"params": {
+		"url": {
+			"label": "URL",
+			"description": "The URL of the online location where the text of the publication can be found. Requires schemes of the type \"http://...\" or maybe even the protocol relative scheme \"//...\"",
+			"type": "url",
+			"aliases": [
+				"URL"
+			],
+			"required": true,
+			"example": "https://www.metacritic.com//..."
+		},
+		"title": {
+			"label": "Title",
+			"description": "The title of the source page on the website; will display with quotation marks added. Usually found at the top of your web browser. Not the name of the website.",
+			"type": "string",
+			"required": true
+		},
+		"date": {
+			"label": "Source date",
+			"description": "Full date when the source was published; if unknown, use access-date instead; do not wikilink",
+			"type": "date",
+			"suggested": true
+		},
+		"access-date": {
+			"label": "URL access date",
+			"description": "The full date when the original URL was accessed; do not wikilink",
+			"type": "date",
+			"suggested": true
+		},
+		"website": {
+			"label": "Name of the website",
+			"description": "Title (name) of the website (or its short URL if no plain-language title is discernible); may be wikilinked; will display in italics. Having both 'publisher' and 'website' is redundant in many cases.",
+			"type": "string",
+			"aliases": [
+				"work"
+			],
+			"suggested": true,
+			"example": "[[Rotten Tomatoes]]"
+		},
+		"publisher": {
+			"label": "Publisher",
+			"description": "Name of the publisher; may be wikilinked. Having both 'publisher' and 'website' (a.k.a. 'work') is redundant in many cases.",
+			"type": "string",
+			"example": "[[CBS Interactive]] (which owns \"Metacritic.com\")"
+		},
+		"last": {
+			"label": "Last name",
+			"description": "The surname of the author; don't wikilink, use 'author-link'; can suffix with a numeral to add additional authors",
+			"aliases": [
+				"last1",
+				"author",
+				"author1",
+				"author1-last",
+				"author-last",
+				"surname1",
+				"author-last1",
+				"subject1",
+				"surname",
+				"author-last",
+				"subject"
+			],
+			"type": "line",
+			"suggested": true
+		},
+		"first": {
+			"label": "First name",
+			"description": "Given or first name, middle names, or initials of the author; don't wikilink, use 'author-link'; can suffix with a numeral to add additional authors",
+			"aliases": [
+				"given",
+				"author-first",
+				"first1",
+				"given1",
+				"author-first1",
+				"author1-first"
+			],
+			"type": "line",
+			"suggested": true
+		},
+		"author-link": {
+			"label": "Author link",
+			"description": "Title of existing Wikipedia article about the author; can suffix with a numeral to add additional authors",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author-link1",
+				"author1-link",
+				"subject-link",
+				"subject-link1",
+				"subject1-link"
+			]
+		},
+		"last2": {
+			"label": "Last name 2",
+			"description": "The surname of the second author; don't wikilink, use 'author-link2'.",
+			"type": "line",
+			"aliases": [
+				"author2"
+			]
+		},
+		"first2": {
+			"label": "First name 2",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the second author; don't wikilink."
+		},
+		"author-link2": {
+			"label": "Author link 2",
+			"description": "Title of existing Wikipedia article about the second author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author2-link"
+			]
+		},
+		"others": {
+			"label": "Others",
+			"description": "Used to record other (non-author) contributions to the work, such as 'Illustrated by John Smith' or 'Translated by John Smith'. Only one ''others'' parameter is allowed: e.g., 'Illustrated by Jane Doe; Translated by John Smith'",
+			"type": "string"
+		},
+		"year": {
+			"label": "Year of publication",
+			"description": "Year of the source being referenced; deprecated in favor of 'date', except for the special case of ISO dates with disambiguating letter",
+			"type": "string"
+		},
+		"orig-year": {
+			"label": "Original year",
+			"description": "Original year of publication; provide specifics",
+			"type": "string"
+		},
+		"editor-last": {
+			"label": "Editor last name",
+			"description": "The surname of the editor; don't wikilink, use 'editor-link'; can suffix with a numeral to add additional editors.",
+			"type": "line",
+			"aliases": [
+				"editor1-last",
+				"editor"
+			]
+		},
+		"editor-first": {
+			"label": "Editor first name",
+			"description": "Given or first name, middle names, or initials of the editor; don't wikilink, use 'editor-link'; can suffix with a numeral to add additional editors; alias of 'editor1-first'",
+			"type": "line",
+			"aliases": [
+				"editor1-first"
+			]
+		},
+		"editor-link": {
+			"label": "Editor link",
+			"description": "Title of existing Wikipedia article about the editor; can suffix with a numeral to add additional editors",
+			"aliases": [
+				"editor1-link"
+			],
+			"type": "wiki-page-name"
+		},
+		"series": {
+			"label": "Series identifier",
+			"description": "Series identifier when the source is part of a series, such as a book series or a journal",
+			"type": "string"
+		},
+		"location": {
+			"label": "Location of publication",
+			"description": "Geographical place of publication; usually not wikilinked; omit when the publication name includes place; alias of 'place'",
+			"type": "string"
+		},
+		"publication-place": {
+			"label": "Place of publication",
+			"description": "Publication place shows after title; if 'place' or 'location' are also given, they are displayed before the title prefixed with 'written at'",
+			"type": "string"
+		},
+		"publication-date": {
+			"label": "Publication date",
+			"description": "Date of publication when different from the date the work was written; do not wikilink",
+			"type": "date"
+		},
+		"page": {
+			"label": "Page",
+			"description": "Page in the source that supports the content; displays after 'p.'",
+			"type": "string"
+		},
+		"pages": {
+			"label": "Pages",
+			"description": "Pages in the source that support the content (not an indication of the number of pages in the source); displays after 'pp.'",
+			"type": "string"
+		},
+		"no-pp": {
+			"label": "No pp",
+			"description": "Set to 'y' to suppress the 'p.' or 'pp.' display with 'page' or 'pages' when inappropriate (such as 'Front cover')",
+			"type": "boolean",
+			"autovalue": "y"
+		},
+		"at": {
+			"label": "At",
+			"description": "May be used instead of 'page' or 'pages' where a page number is inappropriate or insufficient",
+			"type": "string"
+		},
+		"language": {
+			"label": "Language",
+			"description": "The language in which the source is written, if not English; use the full language name or one of the standard MediaWiki language codes; do not use icons or templates; separate multiple languages with commas (with no 'and' before the last one)",
+			"type": "string",
+			"aliases": [
+				"lang"
+			],
+			"example": "de, fr, es"
+		},
+		"script-title": {
+			"label": "Script title",
+			"description": "For titles in languages that do not use a Latin-based alphabet (Arabic, Chinese, Cyrillic, Greek, Hebrew, Japanese, Korean, Vietnamese, etc). Prefix with two-character ISO639-1 language code followed by a colon. For Japanese use: |script-title=ja:...",
+			"type": "string"
+		},
+		"trans-title": {
+			"label": "Translated title",
+			"description": "An English language title, if the source cited is in a foreign language; 'language' is recommended",
+			"type": "string"
+		},
+		"type": {
+			"label": "Type",
+			"description": "Additional information about the media type of the source; format in sentence case",
+			"type": "string"
+		},
+		"format": {
+			"label": "Format",
+			"description": "Format of the work referred to by 'url'; examples: PDF, DOC, XLS; do not specify HTML",
+			"type": "string"
+		},
+		"arxiv": {
+			"label": "arXiv identifier",
+			"description": "An identifier for arXive electronic preprints of scientific papers",
+			"type": "string"
+		},
+		"asin": {
+			"label": "ASIN",
+			"description": "Amazon Standard Identification Number; 10 characters",
+			"type": "string"
+		},
+		"asin-tld": {
+			"label": "ASIN TLD",
+			"description": "ASIN top-level domain for Amazon sites other than the US",
+			"type": "string"
+		},
+		"bibcode": {
+			"label": "Bibcode",
+			"description": "Bibliographic Reference Code (REFCODE); 19 characters",
+			"type": "string"
+		},
+		"biorxiv": {
+			"label": "biorXiv",
+			"description": "biorXiv identifier; 6 digits",
+			"type": "line"
+		},
+		"citeseerx": {
+			"label": "CiteSeerX",
+			"description": "CiteSeerX identifier; found after the 'doi=' query parameter",
+			"type": "line"
+		},
+		"doi": {
+			"label": "DOI",
+			"description": "Digital Object Identifier; begins with '10.'",
+			"type": "string"
+		},
+		"doi-broken-date": {
+			"label": "DOI broken date",
+			"description": "The date that the DOI was determined to be broken",
+			"type": "date",
+			"autovalue": ""
+		},
+		"isbn": {
+			"label": "ISBN",
+			"description": "International Standard Book Number; use the 13-digit ISBN where possible",
+			"type": "string"
+		},
+		"issn": {
+			"label": "ISSN",
+			"description": "International Standard Serial Number; 8 characters; may be split into two groups of four using a hyphen",
+			"type": "string"
+		},
+		"jfm": {
+			"label": "jfm code",
+			"description": "Jahrbuch über die Fortschritte der Mathematik classification code",
+			"type": "string"
+		},
+		"jstor": {
+			"label": "JSTOR",
+			"description": "JSTOR identifier",
+			"type": "string"
+		},
+		"lccn": {
+			"label": "LCCN",
+			"description": "Library of Congress Control Number",
+			"type": "string"
+		},
+		"mr": {
+			"label": "MR",
+			"description": "Mathematical Reviews identifier",
+			"type": "string"
+		},
+		"oclc": {
+			"label": "OCLC",
+			"description": "Online Computer Library Center number",
+			"type": "string"
+		},
+		"ol": {
+			"label": "OL",
+			"description": "Open Library identifier",
+			"type": "string"
+		},
+		"osti": {
+			"label": "OSTI",
+			"description": "Office of Scientific and Technical Information identifier",
+			"type": "string"
+		},
+		"pmc": {
+			"label": "PMC",
+			"description": "PubMed Center article number",
+			"type": "string"
+		},
+		"pmid": {
+			"label": "PMID",
+			"description": "PubMed Unique Identifier",
+			"type": "string"
+		},
+		"rfc": {
+			"label": "RFC",
+			"description": "Request for Comments number",
+			"type": "string"
+		},
+		"ssrn": {
+			"label": "SSRN",
+			"description": "Social Science Research Network",
+			"type": "string"
+		},
+		"zbl": {
+			"label": "Zbl",
+			"description": "Zentralblatt MATH journal identifier",
+			"type": "string"
+		},
+		"id": {
+			"label": "id",
+			"description": "A unique identifier used where none of the specialized ones are applicable",
+			"type": "string"
+		},
+		"archive-url": {
+			"label": "Archive URL",
+			"description": "The URL of an archived copy of a web page, if or in case the URL becomes unavailable; requires 'archive-date'",
+			"type": "url",
+			"suggested": true,
+			"autovalue": ""
+		},
+		"archive-date": {
+			"label": "Archive date",
+			"description": "Date when the original URL was archived; do not wikilink",
+			"type": "date",
+			"suggested": true
+		},
+		"archive-format": {
+			"label": "Archive format",
+			"description": "Format of the archived copy; examples: PDF, DOC, XLS; do not specify HTML",
+			"type": "string"
+		},
+		"quote": {
+			"label": "Quote",
+			"description": "Relevant text quoted from the source; displays last, enclosed in quotes; must include terminating punctuation",
+			"type": "string"
+		},
+		"ref": {
+			"label": "Ref",
+			"description": "An anchor identifier; can be made the target of wikilinks to full references",
+			"type": "string"
+		},
+		"postscript": {
+			"label": "Postscript",
+			"description": "The closing punctuation for the citation; ignored if 'quote' is defined",
+			"type": "string",
+			"default": "."
+		},
+		"author-mask": {
+			"label": "Author mask",
+			"description": "Replaces the name of the first author with em dashes or text; set to a numeric value 'n' to set the dash 'n' em spaces wide; set to a text value to display the text without a trailing author separator; for example, 'with' instead",
+			"type": "string"
+		},
+		"last3": {
+			"label": "Last name 3",
+			"description": "The surname of the third author; don't wikilink, use 'author-link3'.",
+			"type": "line",
+			"aliases": [
+				"author3"
+			]
+		},
+		"first3": {
+			"label": "First name 3",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the third author; don't wikilink."
+		},
+		"author-link3": {
+			"label": "Author link 3",
+			"description": "Title of existing Wikipedia article about the third author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author3-link"
+			]
+		},
+		"last4": {
+			"label": "Last name 4",
+			"description": "The surname of the fourth author; don't wikilink, use 'author-link4'.",
+			"type": "line",
+			"aliases": [
+				"author4"
+			]
+		},
+		"first4": {
+			"label": "First name 4",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the fourth author; don't wikilink."
+		},
+		"author-link4": {
+			"label": "Author link 4",
+			"description": "Title of existing Wikipedia article about the fourth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author4-link"
+			]
+		},
+		"last5": {
+			"label": "Last name 5",
+			"description": "The surname of the fifth author; don't wikilink, use 'author-link5'.",
+			"type": "line",
+			"aliases": [
+				"author5"
+			]
+		},
+		"first5": {
+			"label": "First name 5",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the fifth author; don't wikilink."
+		},
+		"author-link5": {
+			"label": "Author link 5",
+			"description": "Title of existing Wikipedia article about the fifth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author5-link"
+			]
+		},
+		"last6": {
+			"label": "Last name 6",
+			"description": "The surname of the sixth author; don't wikilink, use 'author-link6'.",
+			"type": "line",
+			"aliases": [
+				"author6"
+			]
+		},
+		"first6": {
+			"label": "First name 6",
+			"description": "Given or first name, middle names, or initials of the sixth author; don't wikilink.",
+			"type": "line"
+		},
+		"author-link6": {
+			"label": "Author link 6",
+			"description": "Title of existing Wikipedia article about the sixth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author6-link"
+			]
+		},
+		"last7": {
+			"label": "Last name 7",
+			"description": "The surname of the seventh author; don't wikilink, use 'author-link7'.",
+			"type": "line",
+			"aliases": [
+				"author7"
+			]
+		},
+		"first7": {
+			"label": "First name 7",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the seventh author; don't wikilink."
+		},
+		"author-link7": {
+			"label": "Author link 7",
+			"description": "Title of existing Wikipedia article about the seventh author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author7-link"
+			]
+		},
+		"last8": {
+			"label": "Last name 8",
+			"description": "The surname of the eighth author; don't wikilink, use 'author-link8'.",
+			"type": "line",
+			"aliases": [
+				"author8"
+			]
+		},
+		"first8": {
+			"label": "First name 8",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the eighth author; don't wikilink."
+		},
+		"author-link8": {
+			"label": "Author link 8",
+			"description": "Title of existing Wikipedia article about the eighth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author8-link"
+			]
+		},
+		"last9": {
+			"label": "Last name 9",
+			"description": "The surname of the ninth author; don't wikilink, use 'author-link9'. If nine authors are defined, then only eight will show and 'et al.' will show in place of the last author.",
+			"type": "line",
+			"aliases": [
+				"author9"
+			]
+		},
+		"first9": {
+			"label": "First name 9",
+			"type": "line",
+			"description": "Given or first name, middle names, or initials of the ninth author; don't wikilink."
+		},
+		"author-link9": {
+			"label": "Author link 9",
+			"description": "Title of existing Wikipedia article about the ninth author.",
+			"type": "wiki-page-name",
+			"aliases": [
+				"author9-link"
+			]
+		},
+		"display-authors": {
+			"label": "Display authors",
+			"description": "Number of authors to display before 'et al.' is used. By default, all authors are displayed. Examples: |display-authors=2 will display only the first two authors in a citation followed by et al. |display-authors=etal displays all authors in the list followed by et al.",
+			"type": "string"
+		},
+		"name-list-style": {
+			"label": "Name list style",
+			"description": "Set to 'amp' or 'and' to change the separator between the last two names of the name list to ' & ' or ' and ', respectively. Set to 'vanc' to display name lists in Vancouver style.",
+			"type": "string",
+			"suggestedvalues": [
+				"amp",
+				"and",
+				"vanc"
+			]
+		},
+		"editor2-last": {
+			"label": "Editor last name 2",
+			"description": "The surname of the second editor; don't wikilink, use 'editor2-link'.",
+			"aliases": [
+				"editor2"
+			],
+			"type": "line"
+		},
+		"editor2-first": {
+			"label": "Editor first name 2",
+			"description": "Given or first name, middle names, or initials of the second editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor3-last": {
+			"label": "Editor last name 3",
+			"description": "The surname of the third editor; don't wikilink, use 'editor3-link'.",
+			"aliases": [
+				"editor3"
+			],
+			"type": "line"
+		},
+		"editor3-first": {
+			"label": "Editor first name 3",
+			"description": "Given or first name, middle names, or initials of the third editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor4-last": {
+			"label": "Editor last name 4",
+			"description": "The surname of the fourth editor; don't wikilink, use 'editor4-link'.",
+			"aliases": [
+				"editor4"
+			],
+			"type": "line"
+		},
+		"editor4-first": {
+			"label": "Editor first name 4",
+			"description": "Given or first name, middle names, or initials of the fourth editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor5-last": {
+			"label": "Editor last name 5",
+			"description": "The surname of the fifth editor; don't wikilink, use 'editor5-link'.",
+			"aliases": [
+				"editor5"
+			],
+			"type": "line"
+		},
+		"editor5-first": {
+			"label": "Editor first name 5",
+			"description": "Given or first name, middle names, or initials of the fifth editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor6-last": {
+			"label": "Editor last name 6",
+			"description": "The surname of the sixth editor; don't wikilink, use 'editor6-link'.",
+			"aliases": [
+				"editor6"
+			],
+			"type": "line"
+		},
+		"editor6-first": {
+			"label": "Editor first name 6",
+			"description": "Given or first name, middle names, or initials of the sixth editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor7-last": {
+			"label": "Editor last name 7",
+			"description": "The surname of the seventh editor; don't wikilink, use 'editor7-link'.",
+			"aliases": [
+				"editor7"
+			],
+			"type": "line"
+		},
+		"editor7-first": {
+			"label": "Editor first name 7",
+			"description": "Given or first name, middle names, or initials of the seventh editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor8-last": {
+			"label": "Editor last name 8",
+			"description": "The surname of the eighth editor; don't wikilink, use 'editor8-link'.",
+			"aliases": [
+				"editor8"
+			],
+			"type": "line"
+		},
+		"editor8-first": {
+			"label": "Editor first name 8",
+			"description": "Given or first name, middle names, or initials of the eighth editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor9-last": {
+			"label": "Editor last name 9",
+			"description": "The surname of the ninth editor; don't wikilink, use 'editor9-link'.",
+			"aliases": [
+				"editor9"
+			],
+			"type": "line"
+		},
+		"editor9-first": {
+			"label": "Editor first name 9",
+			"description": "Given or first name, middle names, or initials of the ninth editor; don't wikilink.",
+			"type": "line"
+		},
+		"editor2-link": {
+			"label": "Editor link 2",
+			"description": "Title of existing Wikipedia article about the second editor.",
+			"type": "wiki-page-name"
+		},
+		"editor3-link": {
+			"label": "Editor link 3",
+			"description": "Title of existing Wikipedia article about the third editor.",
+			"type": "wiki-page-name"
+		},
+		"editor4-link": {
+			"label": "Editor link 4",
+			"description": "Title of existing Wikipedia article about the fourth editor.",
+			"type": "wiki-page-name"
+		},
+		"editor5-link": {
+			"label": "Editor link 5",
+			"description": "Title of existing Wikipedia article about the fifth editor.",
+			"type": "wiki-page-name"
+		},
+		"editor6-link": {
+			"label": "Editor link 6",
+			"description": "Title of existing Wikipedia article about the sixth editor.",
+			"type": "wiki-page-name"
+		},
+		"editor7-link": {
+			"label": "Editor link 7",
+			"description": "Title of existing Wikipedia article about the seventh editor.",
+			"type": "wiki-page-name"
+		},
+		"editor8-link": {
+			"label": "Editor link 8",
+			"description": "Title of existing Wikipedia article about the eighth editor.",
+			"type": "wiki-page-name"
+		},
+		"editor9-link": {
+			"label": "Editor link 9",
+			"description": "Title of existing Wikipedia article about the ninth editor.",
+			"type": "wiki-page-name"
+		},
+		"edition": {
+			"label": "Edition",
+			"type": "string",
+			"description": "Specify the edition or revision of the source, when applicable. For example: '2nd' or '5.1'. What you supply here is suffixed by ' ed.'"
+		},
+		"url-access": {
+			"label": "URL access level",
+			"description": "Classification of the access restrictions on the URL ('registration', 'subscription' or 'limited')",
+			"type": "string",
+			"suggestedvalues": [
+				"registration",
+				"subscription",
+				"limited"
+			]
+		},
+		"bibcode-access": {
+			"label": "Bibcode access level",
+			"description": "If the full text is available from ADS via this Bibcode, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"doi-access": {
+			"label": "DOI access level",
+			"description": "If the full text is free to read via the DOI, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"hdl-access": {
+			"label": "HDL access level",
+			"description": "If the full text is free to read via the HDL, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"jstor-access": {
+			"label": "Jstor access level",
+			"description": "If the full text is free to read on Jstor, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"ol-access": {
+			"label": "OpenLibrary access level",
+			"description": "If the full text is free to read on OpenLibrary, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"osti-access": {
+			"label": "OSTI access level",
+			"description": "If the full text is free to read on OSTI, type 'free'.",
+			"type": "string",
+			"autovalue": "free"
+		},
+		"authors": {
+			"label": "Authors list",
+			"description": "List of authors as a free form list. Use of this parameter is discouraged, \"lastn\" to \"firstn\" are preferable. Warning: do not use if last or any of its aliases are used.",
+			"type": "string",
+			"aliases": [
+				"people",
+				"host"
+			]
+		},
+		"via": {
+			"label": "Published via",
+			"description": "Name of the entity hosting the original copy of the work, if different from the publisher. This entity is committed not to alter the work.",
+			"example": "[[GitHub]], [[SourceForge]], [[CodePlex]], [[YouTube]], [[Vimeo]], [[Dailymotion]], [[Netflix]], [[Archive.org]], [[Wikimedia Commons]], [[grc.com]]",
+			"type": "string"
+		},
+		"url-status": {
+			"label": "URL status",
+			"description": "If set to 'live', the title display is adjusted; useful for when the URL is archived preemptively but still live. Set to \"dead\" or 'usurped' for broken links. Entering 'unfit' or 'usurped' makes the original link not appear at all.",
+			"example": "'dead' or 'live'",
+			"type": "string",
+			"default": "'dead' if an Archive URL is entered",
+			"autovalue": "live",
+			"suggested": true,
+			"suggestedvalues": [
+				"dead",
+				"live",
+				"usurped",
+				"unfit"
+			]
+		},
+		"lay-source": {
+			"label": "Lay source",
+			"description": "Name of the source of the laysummary; displays in italics, preceded by an en dash",
+			"type": "string"
+		},
+		"lay-date": {
+			"label": "Lay date",
+			"description": "Date of the summary; displays in parentheses",
+			"type": "date"
+		},
+		"lay-url": {
+			"label": "Lay URL",
+			"description": "URL link to a non-technical summary or review of the source; alias of 'laysummary'",
+			"type": "url"
+		}
+	},
+	"maps": {
+		"citoid": {
+			"title": "title",
+			"url": "url",
+			"subject": "title",
+			"publicationTitle": "website",
+			"blogTitle": "website",
+			"forumTitle": "website",
+			"seriesTitle": "website",
+			"websiteTitle": "website",
+			"publisher": "publisher",
+			"date": "date",
+			"PMCID": "pmc",
+			"PMID": "pmid",
+			"oclc": "oclc",
+			"pages": "pages",
+			"series": "series",
+			"accessDate": "access-date",
+			"DOI": "doi",
+			"language": "language",
+			"contributor": "others",
+			"author": [
+				[
+					"first",
+					"last"
+				],
+				[
+					"first2",
+					"last2"
+				],
+				[
+					"first3",
+					"last3"
+				],
+				[
+					"first4",
+					"last4"
+				],
+				[
+					"first5",
+					"last5"
+				],
+				[
+					"first6",
+					"last6"
+				],
+				[
+					"first7",
+					"last7"
+				],
+				[
+					"first8",
+					"last8"
+				],
+				[
+					"first9",
+					"last9"
+				]
+			],
+			"editor": [
+				[
+					"editor-first",
+					"editor-last"
+				],
+				[
+					"editor2-first",
+					"editor2-last"
+				],
+				[
+					"editor3-first",
+					"editor3-last"
+				],
+				[
+					"editor4-first",
+					"editor4-last"
+				],
+				[
+					"editor5-first",
+					"editor5-last"
+				],
+				[
+					"editor6-first",
+					"editor6-last"
+				],
+				[
+					"editor7-first",
+					"editor7-last"
+				],
+				[
+					"editor8-first",
+					"editor8-last"
+				],
+				[
+					"editor9-first",
+					"editor9-last"
+				]
+			]
+		}
+	},
+	"paramOrder": [
+		"last",
+		"first",
+		"author-link",
+		"last2",
+		"first2",
+		"author-link2",
+		"last3",
+		"first3",
+		"author-link3",
+		"last4",
+		"first4",
+		"author-link4",
+		"last5",
+		"first5",
+		"author-link5",
+		"last6",
+		"first6",
+		"author-link6",
+		"last7",
+		"first7",
+		"author-link7",
+		"last8",
+		"first8",
+		"author-link8",
+		"last9",
+		"first9",
+		"author-link9",
+		"authors",
+		"author-mask",
+		"display-authors",
+		"name-list-style",
+		"date",
+		"year",
+		"orig-year",
+		"editor-last",
+		"editor-first",
+		"editor-link",
+		"editor2-last",
+		"editor2-first",
+		"editor2-link",
+		"editor3-last",
+		"editor3-first",
+		"editor3-link",
+		"editor4-last",
+		"editor4-first",
+		"editor4-link",
+		"editor5-last",
+		"editor5-first",
+		"editor5-link",
+		"editor6-last",
+		"editor6-first",
+		"editor6-link",
+		"editor7-last",
+		"editor7-first",
+		"editor7-link",
+		"editor8-last",
+		"editor8-first",
+		"editor8-link",
+		"editor9-last",
+		"editor9-first",
+		"editor9-link",
+		"others",
+		"title",
+		"script-title",
+		"trans-title",
+		"url",
+		"url-access",
+		"url-status",
+		"archive-url",
+		"archive-date",
+		"archive-format",
+		"access-date",
+		"website",
+		"series",
+		"publisher",
+		"location",
+		"page",
+		"pages",
+		"at",
+		"language",
+		"type",
+		"format",
+		"publication-place",
+		"publication-date",
+		"via",
+		"no-pp",
+		"arxiv",
+		"asin",
+		"asin-tld",
+		"bibcode",
+		"biorxiv",
+		"citeseerx",
+		"doi",
+		"doi-broken-date",
+		"isbn",
+		"issn",
+		"jfm",
+		"jstor",
+		"lccn",
+		"mr",
+		"oclc",
+		"ol",
+		"osti",
+		"pmc",
+		"pmid",
+		"rfc",
+		"ssrn",
+		"zbl",
+		"id",
+		"quote",
+		"ref",
+		"postscript",
+		"lay-url",
+		"lay-source",
+		"lay-date",
+		"edition",
+		"bibcode-access",
+		"doi-access",
+		"hdl-access",
+		"jstor-access",
+		"ol-access",
+		"osti-access"
+	],
+	"format": "inline"
+}
+</templatedata>
+
+==Notes==
+<references/>
+{{Citation Style 1}}
+{{Wikipedia referencing}}
+{{UF-COinS}}
+
+<includeonly>{{Sandbox other||
+
+[[Category:Citation Style 1 templates|W]]
+
+}}</includeonly>
