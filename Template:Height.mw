@@ -1,0 +1,14 @@
+{{#switch:{{#if:{{{centimeter|{{{centimeters|{{{centimetre|{{{centimetres|{{{cm|}}}}}}}}}}}}}}}|1|0}}{{#if:{{{meter|{{{meters|{{{metre|{{{metres|{{{m|}}}}}}}}}}}}}}}|1|0}}{{#if:{{{foot|{{{feet|{{{ft|}}}}}}}}}|1|0}}{{#if:{{{inch|{{{inches|{{{in|}}}}}}}}}|1|0}}
+|1000={{convert|{{{centimeter|{{{centimeters|{{{centimetre|{{{centimetres|{{{cm|}}}}}}}}}}}}}}}|cm|ftin|frac={{#ifeq:{{{precision}}}|0||{{{frac|2}}}}}|abbr={{#switch:{{{abbr}}}|no=off|mos=def|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{{precision|1}}} }}
+|0100={{convert|{{{meter|{{{meters|{{{metre|{{{metres|{{{m}}}}}}}}}}}}}}}|m|ftin|frac={{#ifeq:{{{precision}}}|0||{{{frac|2}}}}}|abbr={{#switch:{{{abbr}}}|no=off|mos=def|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{{precision|1}}} }}
+|0011={{convert|{{{foot|{{{feet|{{{ft|}}}}}}}}}|ft|{{{inch|{{{inches|{{{in|}}}}}}}}}|in|{{#ifeq:{{{out|}}}|cm|cm|m}}|abbr={{#switch:{{{abbr}}}|no=off|mos=def|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|{{#ifeq:{{{out|}}}|cm|0|2}}}} }}
+|0010={{convert|{{{foot|{{{feet|{{{ft|}}}}}}}}}|ft|0|in|{{#ifeq:{{{out|}}}|cm|cm|m}}|abbr={{#switch:{{{abbr}}}|no=off|mos=def|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|{{#ifeq:{{{out|}}}|cm|0|2}}}} }}
+|0001={{convert|0|ft|{{{inch|{{{inches|{{{in|}}}}}}}}}|in|{{#ifeq:{{{out|}}}|cm|cm|m}}|abbr={{#switch:{{{abbr}}}|no=off|mos=def|#default=on}}|lk={{#ifeq:{{{wiki|}}}|yes|on|off}}|{{#if:{{{precision|}}}|{{{precision}}}|{{#ifeq:{{{out|}}}|cm|0|2}}}} }}
+|0000=
+|#default={{Error|Error: please specify height using only one type of units}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using height with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Height]] with unknown parameter "_VALUE_"|ignoreblank=y| abbr | centimeter | centimeters | centimetre | centimetres | cm | feet | foot | frac | ft | in | inch | inches | m | meter | meters | metre | metres | out | precision | wiki | {{#ifeq:{{{1}}}|0|1|_NULLPARAMETER_}}
+}}{{#ifeq:{{{1}}}|0|{{main other|[[Category:Pages using height with 1 equal 0]]}}
+}}<noinclude>
+{{Documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
