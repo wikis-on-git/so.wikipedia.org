@@ -1,0 +1,15 @@
+{{#if: {{{1|{{{id<includeonly>|</includeonly>}}}}}} {{#property:P1220}}
+
+| [https://www.ibdb.com/broadway-cast-staff/{{#if: {{{1|{{{id<includeonly>|</includeonly>}}}}}}
+  | {{{1|{{{id}}}}}}
+  | {{First word|1={{#property:P1220}}|sep=,}}
+  }} {{#if: {{{2|{{{name<includeonly>|</includeonly>}}}}}}
+  | {{{2|{{{name}}}}}}
+  | {{PAGENAMEBASE}}
+  }}] at the [[Internet Broadway Database]]<includeonly>{{EditAtWikidata|pid=P1220|{{{1|{{{id|}}}}}}}}{{WikidataCheck|property=P1220|value={{{1|{{{id|}}}}}}|category=Internet Broadway Database person ID}}</includeonly>
+
+| <span class="error">&#123;&#123;[[Template:IBDB name|IBDB name]]&#125;&#125; template missing ID and not present in Wikidata.</span>{{Main other|[[Category:IBDB name template missing ID]]}}
+
+}}{{Main other|[[Category:Articles with IBDb links]]}}<noinclude>
+{{Documentation}}
+</noinclude>
