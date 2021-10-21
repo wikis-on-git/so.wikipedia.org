@@ -1,0 +1,6 @@
+{{#if:{{{1<includeonly>|</includeonly>}}}{{{id|}}}{{#property:P2003}}
+| [https://www.instagram.com/{{#if: {{{1|{{{id<includeonly>|</includeonly>}}}}}} | {{{1|{{{id}}}}}} | {{First word|1={{#property:P2003}}|sep=,}} }}/ {{#if: {{{2|{{{name<includeonly>|</includeonly>}}}}}} | {{{2|{{{name}}}}}} | {{PAGENAMEBASE}} }}] on [[Instagram]]<includeonly>{{EditAtWikidata|pid=P2003|{{{1|{{{id|}}}}}}}}</includeonly>
+| <span class="error">&#123;&#123;[[Template:Instagram|Instagram]]&#125;&#125; template missing ID and not present in Wikidata.</span>{{Main other|[[Category:Instagram template missing ID]]}}
+}}<noinclude>
+{{Documentation}}
+</noinclude>
