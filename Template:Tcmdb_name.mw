@@ -1,0 +1,10 @@
+{{#if: {{{id<includeonly>|</includeonly>}}} {{{1|}}} {{#property:P3056}}
+
+| [https://www.tcm.com/tcmdb/person/{{#if: {{{id<includeonly>|{{{1|}}}</includeonly>}}} | {{{id<includeonly>|{{{1}}}</includeonly>}}} | {{First word|{{#property:P3056}}|sep=,}} }}/wp {{#if: {{{name<includeonly>|{{{2|}}}</includeonly>}}} | {{{name<includeonly>|{{{2}}}</includeonly>}}} | {{PAGENAMEBASE}} }}] at the [[Turner Classic Movies|TCM Movie Database]]<includeonly>{{EditAtWikidata|pid=P3056|{{{id|{{{1|}}}}}}}}</includeonly>{{WikidataCheck|property=P3056|value={{{id|{{{1|}}}}}}|category=Turner Classic Movies person ID}}
+
+| <span class="error">&#123;&#123;[[Template:TCMDb name|TCMDb name]]&#125;&#125; template missing ID and not present in Wikidata.</span>
+
+}}<noinclude>
+{{Documentation}}
+<!-- PLEASE ADD THIS TEMPLATE'S CATEGORIES TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
