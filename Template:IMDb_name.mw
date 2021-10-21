@@ -1,0 +1,23 @@
+[https://www.imdb.com/{{#if: {{{1|{{{id|}}}}}}
+  | name/{{#if:{{#invoke:ustring|match|1={{{1|{{{id}}}}}}|2=^nm}}
+    | {{Trim|{{{1|{{{id}}}}}}}}/
+    | nm{{padleft:{{{1|{{{id}}}}}}|7}}/
+    }}
+  | {{#if: {{#property:P345}}
+    | name/{{First word|1={{#property:P345}}|sep=,}}/
+    | find?q={{urlencode:{{PAGENAME}}}}&s=nm
+    }}
+  }}{{#if: {{{1|}}} {{{id|}}} {{#property:P345}} | {{#switch: {{lc:{{{section|}}}}}
+  | award | awards = awards Awards for | biography | bio = bio Biography for
+  }}}} {{#if: {{{2|{{{name|}}}}}}
+  | {{{2|{{{name}}}}}}
+  | {{PAGENAMEBASE}}
+  }}] at [[IMDb]]<includeonly>{{#if: {{{1|{{{id|}}}}}}{{#property:P345}}
+  | {{EditAtWikidata|pid=P345|nbsp=yes|{{{1|{{{id|}}}}}}}}
+  | {{Main other|[[Category:IMDb template with no id set]]}}
+}}{{#switch:{{#invoke:string2|matchAny|^nm.........|^nm.......|nm|.........|source={{{1|{{{id}}}}}}|plain=false}}
+  | 1 | 3 =  {{Main other|[[Category:IMDb template with invalid id set]]}}{{preview warning|IMDb ID starting with ''nm'' should be followed by seven or eight digits, such as ''nm0000567'' or ''nm12345678''}}
+  | 4 = {{Main other|[[Category:IMDb template with invalid id set]]}}{{preview warning|IMDb ID should not contain more than eight digits}}
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
