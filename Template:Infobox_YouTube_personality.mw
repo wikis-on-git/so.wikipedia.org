@@ -20,7 +20,7 @@
 
 | headerstyle = background-color: {{#if:{{{embed|}}}|{{{header-color|transparent}}}|#B60000; color: white}}; line-height: 1.5em;
 
-| header1     = {{#if:{{{embed|}}}||{{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{height|}}}{{{nationality|}}}{{{occupation|}}}|Personal information}}}}
+| header1     = {{#if:{{{embed|}}}||{{#if:{{{magaca_dhalashada |}}}{{{taariiqda_dhalasha |}}}{{{goobta_dhalashada|}}}{{{taariikhda_geerida|}}}{{{goobta_dhimashada|}}}{{{dherer|}}}{{{dhalashada|}}}{{{shaqo|}}}|Warbixin shaqsiyeed}}}}
 
 | label3      = Born
 | data3       = {{br separated entries|1={{#if:{{{birth_name|}}}|{{{birth_name|}}}}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<div style="display:inline;" class="birthplace">{{{birth_place|}}}</div>}}}}
