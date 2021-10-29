@@ -1,0 +1,124 @@
+<includeonly>{{Infobox
+| bodyclass  = vevent
+| bodystyle  = {{{bodystyle|}}}
+| title      = {{#if:{{{title|{{{name|}}}}}}|{{{title|{{{name|}}}}}}|{{PAGENAMEBASE}}}}
+| titleclass = summary
+| labelstyle = white-space: nowrap;
+| image      = {{#if:{{{screenshot|}}}
+  | {{#invoke:InfoboxImage | InfoboxImage | image={{{logo|}}} | title={{{logo caption|}}} | size={{{logo size|{{{logo_size|}}}}}} | sizedefault=300x64px | maxsize=300x64px | alt={{{logo alt|{{{logo_alt|}}}}}} }}
+  | {{#invoke:InfoboxImage | InfoboxImage | image={{{logo|}}} | title={{{logo caption|}}} | size={{{logo size|{{{logo_size|}}}}}} | alt={{{logo alt|{{{logo_alt|}}}}}} }}
+}}
+| caption    = {{{logo caption|}}}
+| image2     = {{#if:{{{screenshot|}}}|{{#if:{{{collapsible|}}}|{{hidden begin|title={{{collapsetext|Screenshot}}}|titlestyle=background:{{{background|gainsboro}}};text-align:center|contentstyle=text-align:center}}}}
+{{#invoke:InfoboxImage|InfoboxImage|image={{{screenshot|}}}|size={{{screenshot size|{{{screenshot_size|}}}}}}|sizedefault=300px|alt={{{screenshot_alt|}}}}}}}
+| caption2   = {{{caption|}}}{{#if:{{{screenshot|}}}|{{#if:{{{collapsible|}}}|{{hidden end}}}}}}
+| label1     = Other names
+| data1      = {{{other_names|}}}
+| label2     = [[Programmer|Original author(s)]]
+| data2      = {{{author|}}}
+| label3     = [[Programmer|Developer(s)]]
+| data3      = {{{developer|}}}
+| label4     = Initial release
+| data4      = {{{released|}}}
+| rowstyle5  = display: none;<!--
+===============================================================================
+The data5 field displays a sub-infobox. The HTML cleanup module in charge of
+rendering Wikipedia pages converts this sub-infobox into a new set of rows that
+lay below the data4 row. Hence, the data4 row becomes an empty redundant row
+that the reader would rather not see.
+
+I resisted implementing this at first because hacks are generally fragile. But
+I am giving up the resistance as the proper venue has failed to address this.
+
+—User:Codename Lisa
+===============================================================================
+-->
+| data5      = {{#ifeq:{{lc:{{{ver layout|simple}}}}}|stacked
+ |{{Infobox software/stacked
+  |{{{name|{{PAGENAME}}}}}
+  |{{{discontinued|no}}}
+  |{{{latest release version|{{{latest_release_version|}}}}}}
+  |{{{latest release date   |   {{{latest_release_date|}}}}}}
+  |{{{latest preview version|{{{latest_preview_version|}}}}}}
+  |{{{latest preview date   |   {{{latest_preview_date|}}}}}}
+  }}
+ |{{Infobox software/simple
+  |{{{name|{{PAGENAME}}}}}
+  |{{{discontinued|no}}}
+  |{{{latest release version|{{{latest_release_version|}}}}}}
+  |{{{latest release date   |   {{{latest_release_date|}}}}}}
+  |{{{latest preview version|{{{latest_preview_version|}}}}}}
+  |{{{latest preview date   |   {{{latest_preview_date|}}}}}}
+  }}
+ }}
+| label6     = [[Repository (version control)|Repository]]
+| data6      = {{#if:{{{repo|}}}{{#ifeq:{{{qid|}}}|none|-}}
+                  |{{{repo|}}}
+                  |{{#if: {{#property:P1324|from={{{qid|}}}}}
+                      |{{#ifeq: {{wikidata|property|{{{qid|}}}|P1324|best|format=%p}} | none
+                          |{{wikidata|property|{{{qid|}}}|P1324|best|format=%p}}{{EditAtWikidata|pid=P1324}}
+                          |{{Plainlist|<ul><li>{{URL|{{wikidata|property|{{{qid|}}}|P1324|best|format=%p}}}}{{EditAtWikidata|pid=P1324|qid={{{qid|}}}}}</li></ul>}}
+                       }}
+                   }}
+               }}
+| label7     = Written in
+| data7      = {{{programming language|{{{programming_language|}}}}}}
+| label8     = Middleware
+| data8      = {{{middleware|}}}
+| label10    = [[Software engine|Engine]]{{#if: {{{engines|}}} |s}}
+| data10     = {{#if: {{{engines|}}}
+                   |{{{engines}}}
+                   |{{#if:{{{engine|}}}{{#ifeq:{{{qid|}}}|none|-}}
+                     |{{{engine|}}}
+                     |{{#if: {{#property:P408|from={{{qid|}}}}}
+                         |{{Plainlist|<ul>{{wikidata|properties|{{{qid|}}}|P408|best|format=<li>%p</li>}}</ul>}}{{EditAtWikidata|pid=P408}}
+                       }}
+                   }}
+               }}
+| label11    = [[Operating system]]
+| data11     = {{{operating system|{{{operating_system|}}}}}}
+| label12    = [[Computing platform|Platform]]
+| data12     = {{{platform|}}}
+| label13    = Included with
+| data13     = {{{included with|}}}
+| label14    = Predecessor
+| data14     = {{{replaces|}}}
+| label15    = Successor
+| data15     = {{{replaced_by|}}}
+| label16    = Service name
+| data16     = {{{service_name|}}}
+| label17    = [[File size|Size]]
+| data17     = {{{size|}}}
+| label18    = [[Technical standard|Standard]](s)
+| data18     = {{{standard|}}}
+| label19    = Available in
+| data19     = {{#if:{{{language count|}}}|{{{language count}}} languages|{{{language|}}}}}{{{language footnote|}}}
+| data20     = {{#if:{{{language count|}}}|{{#if:{{{language|}}}|{{hidden begin|toggle=left|title=List of languages|titlestyle=background-color: transparent;}}{{{language|}}}{{hidden end}}}}}}
+| label21    = [[Software categories#Categorization approaches|Type]]
+| data21     = {{{genre|}}}
+| label22    = [[Software license|License]]
+| data22     = {{{license|}}}
+| label23    = [[Software license|Licence]] <!-- Spelled differently; see [[MOS:ENGVAR]] -->
+| data23     = {{{licence|}}}
+| label25    = Website
+| data25     = {{#if:{{{website|}}}{{#ifeq:{{{qid|}}}|none|-}}
+            | {{#ifeq:{{{website|}}} | hide | | {{{website|}}} }}
+            | {{#if:{{wikidata|property|raw|{{{qid|}}}|P856}}
+              | {{#invoke:WikidataIB |url2 |url={{if empty
+                |{{#invoke:WikidataIB|getValueByLang|P856|qid={{{qid|}}}|fwd=ALL|osd=no|maxvals=1}}
+                |{{Wdib|P856|qid={{{qid|}}}|fwd=ALL|osd=no|maxvals=1}}
+                }} }}
+              }}
+            }}
+| label26    = As of
+| data26     = {{{AsOf|}}}
+
+| below      = {{#if: {{{games list|}}} | {{icon|List}} [[{{{games list|}}}|List of games]] }}
+
+}}{{#invoke:Check for unknown parameters | check | showblankpositional=1
+| unknown = {{main other|[[Category:Pages using Infobox software with unknown parameters|_VALUE_{{PAGENAME}}]]}}
+| preview = Page using [[Template:Infobox software]] with unknown parameter "_VALUE_"|ignoreblank=y
+| AsOf | author | bodystyle | caption | collapsible | developer | discontinued | engine | engines | genre | included with | games list | language | language count | language footnote | latest preview date | latest preview version | latest release date | latest release version | latest_preview_date | latest_preview_version | latest_release_date | latest_release_version | licence | license | logo | logo alt | logo caption | logo size | logo_alt | logo_size | middleware | name | operating system | operating_system | other_names | platform | programming language | programming_language | released | replaced_by | replaces | repo | screenshot | screenshot alt | screenshot size | screenshot_alt | screenshot_size | service_name | size | standard | title | ver layout | website | qid
+}}</includeonly><noinclude>
+{{documentation}}
+</noinclude>
