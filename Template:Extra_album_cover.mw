@@ -1,0 +1,11 @@
+{{Infobox
+| child       = <includeonly>yes</includeonly>
+| headerstyle = background: {{Infobox album/color|{{{type|}}}}}
+| header1     = {{#switch:{{{header|}}}|no|none=|=Alternative cover|#default={{{header|}}}}}
+| data2       = {{Infobox | child = yes
+ | image   = {{#invoke:InfoboxImage|InfoboxImage|image={{{cover|{{{image|}}}}}}|size={{{cover_size|}}}|sizedefault=frameless|alt={{{alt|}}}|border={{{border|}}}|title={{{caption|}}}}}
+ | caption = {{{caption|}}}
+ }}
+}}{{#if:{{#invoke:String|match|1={{{header|}}}{{{type|}}}{{{cover|}}}{{{image|}}}{{{cover_size|}}}{{{alt|}}}{{{border|}}}{{{caption|}}}x|2=</?t[drh][ >]|nomatch=}}|[[Category:Music infoboxes with malformed table placement|I]]}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using extra album cover with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Extra album cover]] with unknown parameter "_VALUE_"|ignoreblank=y| alt | border | caption | cover | cover_size | header | image | type }}<noinclude>
+{{documentation}}
+</noinclude>
