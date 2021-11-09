@@ -1,0 +1,21 @@
+<includeonly><span style="display:none">(<span class="dday deathdate">{{{1}}}-{{padleft:{{MONTHNUMBER|{{{2}}}}}|2|0}}-{{padleft:{{{3}}}|2|0}}</span>)</span>{{#if:{{{df|}}}|{{#expr:{{{3}}}}} {{MONTHNAME|{{{2}}}}}|{{MONTHNAME|{{{2}}}}} {{#expr:{{{3}}}}},}} {{#expr:{{{1}}}}}<!--
+ -- Error checks --
+-->{{#ifexpr: ( {{{1|}}} > {{CURRENTYEAR}} )
+ | &#32;{{error|invalid year}}{{main other|[[Category:Pages using age template with invalid date]]}}
+}}{{#if:{{{2|}}}|{{#ifexpr: ( {{{2|}}} > 12 ) OR ( {{{2|}}} < 1 )
+ | &#32;{{error|invalid month}}{{main other|[[Category:Pages using age template with invalid date]]}}|}}
+}}{{#if:{{{3|}}}|{{#ifexpr: ( {{{3|}}} > 31 ) OR ( {{{3|}}} < 1 )
+ | &#32;{{error|invalid day}}{{main other|[[Category:Pages using age template with invalid date]]}}|}}
+}}{{#ifeq: {{NAMESPACENUMBER}} | 0
+| {{#if: {{#invoke:wd|label|raw}}
+  | {{#if: {{#invoke:String|match|{{#invoke:wd|properties|raw|P31}},|Q5,|1|1|true|}}
+    | {{#if: {{#invoke:wd|properties|raw|P570}}
+      |
+      | [[Category:Date of death not in Wikidata]]
+      }}
+    }}
+  | [[Category:Articles without Wikidata item]]
+  }}
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
