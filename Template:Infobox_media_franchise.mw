@@ -1,0 +1,110 @@
+{{Infobox
+| italic title = {{{italic_title|<noinclude>no</noinclude>}}}
+| bodyclass   = vevent
+| abovestyle  = font-style: italic; background: {{if empty|{{{color|}}}|{{{colour|}}}|lavender}}; {{#if:{{{color|}}}{{{colour|}}}|color: {{Greater color contrast ratio|{{if empty|{{{color|}}}|{{{colour|}}}}}}};}}
+| aboveclass  = summary
+| above       = <includeonly>{{{title|{{PAGENAMEBASE}}}}}</includeonly>
+| headerstyle = background: {{if empty|{{{color|}}}|{{{colour|}}}|lavender}}; {{#if:{{{color|}}}{{{colour|}}}|color: {{Greater color contrast ratio|{{if empty|{{{color|}}}|{{{colour|}}}}}}};}}
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|upright={{{image_upright|1.13}}}|alt={{{alt|}}}}}
+
+| caption     = {{{caption|}}}
+
+| label1      = Created by
+| data1       = {{{creator|}}}
+| label2      = Original work
+| data2       = {{{origin|}}}
+| label3      = Owner
+| data3       = {{{owner|}}}
+| label4      = Years
+| data4       = {{{years|}}}
+
+| header5     = {{#if:{{{books|}}}{{{novels|}}}{{{short_stories|}}}{{{comics|}}}{{{graphic_novels|}}}{{{strips|}}}{{{magazines|}}}|Print publications}}
+| label6      = Book(s)
+| data6       = {{{books|}}}
+| label7      = Novel(s)
+| data7       = {{{novels|}}}
+| label8      = Short stories
+| data8       = {{{short_stories|}}}
+| label9      = Comics
+| data9       = {{{comics|}}}
+| label10      = Graphic novel(s)
+| data10       = {{{graphic_novels|}}}
+| label11      = Comic strip(s)
+| data11       = {{{strips|}}}
+| label12      = Magazine(s)
+| data12       = {{{magazines|}}}
+
+| header13     = {{#if:{{{films|}}}{{{shorts|}}}{{{tv_series|}}}{{{tv|}}}{{{web_series|}}}{{{wtv|}}}{{{animated_series|}}}{{{atv|}}}{{{tv_specials|}}}{{{tv_shorts|}}}{{{tv_films|}}}{{{direct-to-video|}}}{{{dtv|}}}|Films and television}}
+| label14     = Film(s)
+| data14      = {{{films|}}}
+| label15     = Short film(s)
+| data15      = {{{shorts|}}}
+| label16     = Television series
+| data16      = {{{tv_series|{{{tv|}}}}}}
+| label17     = Web series
+| data17      = {{{web_series|{{{wtv|}}}}}}
+| label18     = Animated series
+| data18      = {{{animated_series|{{{atv|}}}}}}
+| label19     = Television special(s)
+| data19      = {{{tv_specials|}}}
+| label20     = Television short(s)
+| data20      = {{{tv_shorts|}}}
+| label21     = Television film(s)
+| data21      = {{{tv_films|}}}
+| label22     = Direct-to-video
+| data22      = {{{direct-to-video|{{{dtv|}}}}}}
+
+| header23    = {{#if:{{{plays|}}}{{{musicals|}}}|Theatrical presentations}}
+| label24     = Play(s)
+| data24      = {{{plays|}}}
+| label25     = Musical(s)
+| data25      = {{{musicals|}}}
+
+| header26    = {{#if:{{{games|}}}{{{rpgs|}}}{{{video_games|}}}{{{vgs|}}}|Games}}
+| label27     = Traditional
+| data27      = {{{games|}}}
+| label28     = Role-playing
+| data28      = {{{rpgs|}}}
+| label29     = Video game(s)
+| data29      = {{{video_games|{{{vgs|}}}}}}
+
+| header30    = {{#if:{{{radio|}}}{{{soundtracks|}}}{{{music|}}}|Audio}}
+| label31     = Radio program{{#switch:{{{sp}}}|uk|UK=me}}(s)
+| data31      = {{{radio|}}}
+| label32     = Soundtrack(s)
+| data32      = {{{soundtracks|}}}
+| label33     = Original music
+| data33      = {{{music|}}}
+
+| header34    = {{#if:{{{toys|}}}{{{attractions|}}}{{{otherlabel1|}}}{{{otherlabel2|}}}{{{otherlabel3|}}}{{{otherlabel4|}}}{{{otherlabel5|}}}{{{otherlabel6|}}}{{{otherlabel7|}}}{{{otherlabel8|}}}{{{otherlabel9|}}}|Miscellaneous}}
+| label35     = Toy(s)
+| data35      = {{{toys|}}}
+| label36     = Theme park attraction(s)
+| data36      = {{{attractions|}}}
+| label37     = {{{otherlabel1|}}}
+| data37      = {{{otherdata1|}}}
+| label38     = {{{otherlabel2|}}}
+| data38      = {{{otherdata2|}}}
+| label39     = {{{otherlabel3|}}}
+| data39      = {{{otherdata3|}}}
+| label40     = {{{otherlabel4|}}}
+| data40      = {{{otherdata4|}}}
+| label41     = {{{otherlabel5|}}}
+| data41      = {{{otherdata5|}}}
+| label42     = {{{otherlabel6|}}}
+| data42      = {{{otherdata6|}}}
+| label43     = {{{otherlabel7|}}}
+| data43      = {{{otherdata7|}}}
+| label44     = {{{otherlabel8|}}}
+| data44      = {{{otherdata8|}}}
+| label45     = {{{otherlabel9|}}}
+| data45      = {{{otherdata9|}}}
+
+| header46    = {{#if:{{{website|}}}|Official website}}
+| data47      = {{{website|}}}
+
+| belowstyle  = border-top:1px solid #aaa; text-align:left;
+| below       = {{{footnotes|}}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox media franchise with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox media franchise]] with unknown parameter "_VALUE_"|ignoreblank=y| italic_title | color | colour | title | image | image_size | imagesize | image_upright | alt | caption | creator | origin | owner | years | books | novels | short_stories | comics | graphic_novels | strips | magazines | films | shorts | tv_series | tv | web_series | wtv | animated_series | atv | tv_specials | tv_shorts | tv_films | direct-to-video | dtv | plays | musicals | games | rpgs | video_games | vgs | radio | soundtracks | music | toys | attractions | otherlabel1 | otherlabel2 | otherlabel3 | otherlabel4 | otherlabel5 | otherlabel6 | otherlabel7 | otherlabel8 | otherlabel9 | otherdata1 | otherdata2 | otherdata3 | otherdata4 | otherdata5 | otherdata6 | otherdata7 | otherdata8 | otherdata9 | website | footnotes | sp }}<noinclude>
+{{Documentation}}
+</noinclude>
