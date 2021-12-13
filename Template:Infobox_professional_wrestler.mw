@@ -1,0 +1,59 @@
+{{Infobox
+| child       = {{{child|}}}
+| bodyclass   = vcard
+| title       = {{#ifeq:{{Yesno|{{{child|no}}}}}|yes|<div style="text-align: center;">'''[[Professional wrestling|Professional wrestling career]]'''</div>}}
+| above       = {{#ifeq:{{Yesno|{{{child|no}}}}}|yes||{{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}}}
+| aboveclass  = fn
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|upright={{{image_upright|1}}}|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption     = {{{caption|}}}
+| headerstyle = line-height: 1.5em
+| class1      = nickname
+| label1      = Birth name
+| data1       = {{{birth_name|{{{birthname|}}}}}}
+| label2      = Born
+| data2       = {{br separated entries|{{{birth_date|}}}|{{{birth_place|}}}}}
+| label3      = Died
+| data3       = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}}}
+| label4      = Cause of death
+| data4       = {{{death_cause|}}}
+| label5      = Residence
+| data5       = {{{residence|{{{resides|}}}}}}
+| label6      = Alma mater
+| data6       = {{{alma_mater|{{{alma mater|}}}}}}
+| label7      = Spouse(s)
+| data7       = {{{spouse|}}}
+| label8      = [[Intimate relationship|Partner]]
+| data8       = {{{partner|}}}
+| label9      = Children
+| data9       = {{{children|}}}
+| label10      = Parent(s)
+| data10       = {{{parents|}}}
+| label11     = Relatives
+| data11      = {{{relatives|}}}
+| label12     = Family
+| data12      = {{{family|}}}
+| label13     = Website
+| data13      = {{{website|}}}
+| header14    = {{#if:{{{ring_names|}}}{{{names|}}}{{{height|}}}{{{weight|}}}{{{billed|}}}{{{trainer|}}}{{{debut|}}}{{{retired|}}}|{{#ifeq:{{Yesno|{{{child|no}}}}}|yes||[[Professional wrestling|Professional wrestling career]]}}}}
+| label15     = <span class="nowrap">[[Ring name|Ring name(s)]]</span>
+| data15      = {{{ring_names|{{{names|}}}}}}
+| label16     = Billed height
+| data16      = {{#if:{{{height|}}}|{{infobox person/height|{{{height}}}}}}}
+| label17     = Billed weight
+| data17      = {{#if:{{{weight|}}}|{{infobox person/weight|{{{weight}}}}}}}
+| label18     = Billed from
+| data18      = {{{billed|}}}
+| label19     = Trained by
+| data19      = {{{trainer|}}}
+| label20     = Debut
+| data20      = {{{debut|}}}
+| label21     = Retired
+| data21      = {{{retired|}}}
+| data22      = {{{module|}}}
+| header23    = {{#if:{{{signature|}}}|Signature}}
+| data24      = {{#invoke:InfoboxImage|InfoboxImage|image={{{signature|}}}|size={{{signature_size|}}}|sizedefault=150px|alt={{{signature alt|{{{signature_alt|}}}}}}}}
+}}{{#invoke:Check for unknown parameters | check | ignoreblank = y
+| unknown = {{main other|[[Category:Pages using infobox professional wrestler with unknown parameters|_VALUE_{{PAGENAME}}]]}}
+| preview = Page using [[Template:Infobox professional wrestler]] with unknown parameter "_VALUE_"
+| child | header-color | name | image | image_size | image_upright | alt | caption | birth_name | birthname | birth_date | birth_place | death_date | death_place | death_cause | residence | resides | alma_mater | alma mater | spouse | children | parents | relatives | family | website | ring_names | names | height | weight | billed | trainer | debut | retired | module | signature | signature_size | signature_alt
+}}<noinclude>{{Documentation}}</noinclude>
