@@ -1,5 +1,6 @@
-{{#ifeq:{{{1|}}}|none||<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">{{{1|}}}{{SHORTDESC:{{{1|}}}|{{{2|}}}}}</div>}}<includeonly>[[Category:{{{pagetype|{{pagetype|defaultns = extended}}}}} leh sharaxaad gaaban]]</includeonly><!-- Start tracking
--->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Bogagga isticmaalaya sharraxaad gaaban oo leh cabbirro aan la garanaynin|_VALUE_{{PAGENAME}}]]}}|preview=Bog isticmaalaya [[Template:Short description]] oo leh cabbirro aan la garanaynin "_VALUE_"|ignoreblank=y| 1 | 2 | pagetype | bot }}<!--
--->{{#if: {{{bot|}}} | [[Category:{{{pagetype|{{pagetype|defaultns = extended}}}}} oo leh sharaxaad gaaban ku daray {{{bot|}}}]]}}{{#ifexpr:{{#invoke:String|len|{{{1|}}}}}>100|[[Category:{{{pagetype|{{pagetype|defaultns = extended}}}}} oo leh sharaxaad dheer]]}}<noinclude>
-<!-- to implement this, set the class to display:none and remove the inline style here -->
-{{Documentation}}</noinclude>
+{{#ifeq:{{lc:{{{1|}}}}}|none|<nowiki /><!--Prevents whitespace issues when used with adjacent newlines-->|<div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">{{{1|}}}{{SHORTDESC:{{{1|}}}|{{{2|}}}}}</div>}}<includeonly>[[Category:{{{pagetype|{{pagetype |defaultns = extended |plural=y}}}}} with short description{{#ifeq:{{{pagetype}}}|Disambiguation pages|s}}]]</includeonly><!-- Start tracking
+-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using short description with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Short description]] with unknown parameter "_VALUE_"|ignoreblank=y| 1 | 2 | pagetype | bot |plural }}<!--
+-->{{#ifexpr: {{#invoke:String|len|{{{1|}}}}}>100 | [[Category:{{{pagetype|{{pagetype |defaultns = extended |plural=y}}}}} with long short description]]}}<!--
+-->{{Main other |{{SDcat |sd={{{1|}}} }} }}<noinclude>
+{{Documentation}}
+</noinclude>
