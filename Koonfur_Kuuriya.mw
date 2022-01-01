@@ -1,95 +1,143 @@
 {{Infobox country
 | conventional_long_name = Republic of Korea
-| common_name = South Korea
-| native_name = {{ubl|{{lang|ko|대한민국<br>大韓民國}}|''Daehan Minguk''}}
-| image_flag = Flag of South Korea.svg
-| alt_flag = Centered taegeuk on a white rectangle inclusive of four black trigrams
-| image_coat = Emblem of South Korea.svg
-| alt_coat = Centered taegeuk on a hibiscus syriacus surrounded by five stylized petals and a ribbon
-| symbol_type = Emblem
-| other_symbol = <div style="padding:0.3em;">[[File:Emblem of the Government of the Republic of Korea.svg|80px]]</div>{{lang|ko|[[Emblem of South |Korea#Government Emblem|대한민국정부 상징문양]]|nolink=on|italics=off}}<br>{{small|Government Emblem of the Republic of Korea}}
-| other_symbol_type = [[Emblem of South Korea|Government Emblem]]
-| national_motto = {{lang|ko|"[[Hongik Ingan|홍익인간 (弘益人間)]]"|italics=off}} {{small|(''[[de facto]]'')}}<br>{{small|"Benefit broadly in the human |world /<br>Devotion to the Welfare of Humanity"}}<ref name="lie">{{cite |journal|url=http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf|page=6|title=A New Way of Seeing Country Social |Responsibility|journal=Faculty of Philosophy and Social-Political Sciences |accessdate=January 16, |2014|deadurl=yes|archiveurl=https://web.archive.org/web/20130925143746/http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf |archivedate = September 25, 2013}}</ref>
-| anthem = [[Aegukga]] {{lang|ko|"애국가 (愛國歌)"|italics=off}} {{small|(''[[de facto]]'')}}<br>{{small|"Patriotic Song"}}{{lower|0.2em|[[File:National |anthem of South Korea, performed by the United States Navy Band.wav|center]]}}
-| image_map = Republic of Korea (orthographic projection).svg
-| map_width = 220px
-| demonym = {{hlist|[[Demographics of South Korea|South Korean]]|[[Koreans|Korean]]}}
-| government_type = {{nowrap|[[Unitary state|Unitary]] [[Presidential system|presidential]]<br>[[constitution]]al [[republic]]}}
-| leader_title1 = [[President of South Korea|President]]
-| leader_name1 = [[Moon Jae-in]]
-| leader_title2 = [[Prime Minister of South Korea|Prime Minister]]
-| leader_name2 = [[Lee Nak-yeon]]
-| leader_title3 = [[Speaker of the National Assembly of South Korea|Speaker of the National Assembly]]
-| leader_name3 = [[Moon Hee-sang]]
-| leader_title4 = [[Chief Justice of the Republic of Korea|Chief Justice]]
-| leader_name4 = [[Kim Myeong-soo]]
-| leader_title5 = [[Constitutional Court of Korea|President of Constitutional Court]]
-| leader_name5 = [[Yoo Nam-Seok]]
-| legislature = [[National Assembly (South Korea)|National Assembly]]
-| sovereignty_type = Establishment history
-| established_event1 = [[Gojoseon|First Kingdom]]
-| established_date1 = Traditionally October 3, 2333 BC<br>Contemporary records from 7th Century BC<br> [[Wiman Joseon]] 194 BC
-| established_event2 = [[Three Kingdoms of Korea|Three Kingdoms]]
-| established_date2 = 18 BC
-| established_event3 = [[North-South States Period|North-South Kingdoms]]
-| established_date3 = 698
-| established_event4 = [[Goryeo dynasty|Unification by Goryeo dynasty]]
-| established_date4 = 936
-| established_event5 = [[Joseon dynasty]]
-| established_date5 = July 17, 1392
-| established_event6 = [[Korean Empire]]
-| established_date6 = October 12, 1897
-| established_event7 = [[Japan-Korea Treaty of 1910|Japan-Korea Treaty]]
-| established_date7 = August 29, 1910
-| established_event8 = [[Korean Declaration of Independence|March 1st Movement]]
-| established_date8 = March 1, 1919
-| established_event9 = [[Provisional Government of the Republic of Korea|Provisional Government]]
-| established_date9 = September 11, 1919
-| established_event10 = [[Gwangbokjeol|Liberation]] from [[Empire of Japan|Japan]]
-| established_date10 = August 15, 1945
-| established_event11 = [[First Republic of South Korea|First Republic]]
-| established_date11 = August 15, 1948
-| established_event12 = [[History of South Korea#Sixth Republic 1987-present|Current constitution]]
-| established_date12 = February 25, 1988
-| established_event13 = Admitted to the [[United Nations]]
-| established_date13 = September 17, 1991
-| area_km2 = 100,363
-| area_rank = 107th <!-- Area rank should match [[List of countries and dependencies by area]] -->
-| area_sq_mi = 38,750
-| percent_water = 0.3 (301&nbsp;km{{smallsup|2}}{{\}}116&nbsp;mi{{smallsup|2}})
-| population_estimate = 51,446,201<ref name="Kostat2016">{{cite web|url=http://kostat.go.kr/portal/english/news/1/17/1/index.board?bmode=download&bSeq=&aSeq=333103&ord=1|format=PDF|title=Population Projections for Provinces (2013~2040)|work=Statistics Korea|date=April 16, 2016|accessdate=May 20, 2016}}</ref><ref name="KOSIS2015" />
-| population_estimate_year = 2017
+| common_name            = South Korea
+| native_name            = {{native name|ko|대한민국|italics=off}}<br />{{smaller|{{transl|ko|Daehan Minguk}} ([[Revised Romanization of Korean|RR]])}}<!--Please do not add official regional/minority languages here; use the langbox template directly below, included specifically for that purpose-->
+| image_flag             = Flag of South Korea.svg
+| other_symbol           = <div style="padding:0.3em;">[[File:Seal of South Korea.svg|border|85px|]]</div>
+| other_symbol_type      = [[Seal of South Korea|National seal]]
+| alt_flag               = Centered taegeuk on a white rectangle inclusive of four black trigrams
+| image_coat             = Emblem of South Korea.svg
+| alt_coat               = Centered taegeuk on a hibiscus syriacus surrounded by five stylized petals and a ribbon
+| symbol_type            = Emblem
+| national_motto         = {{lang|ko|홍익인간}} (''de facto'')<br />{{transl|ko|[[Hongik Ingan]]}}<br />"To broadly benefit the human world"<ref name="lie">{{cite journal|url=http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf|page=6|title=A New Way of Seeing Country Social Responsibility|journal=Faculty of Philosophy and Social-Political Sciences |access-date=16 January 2014|url-status=dead|archive-url=https://web.archive.org/web/20130925143746/http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf |archive-date = 25 September 2013}}</ref>
+| anthem                 = {{lang|ko|애국가}}<br />{{transl|ko|[[Aegukga]]}}<br />"The Patriotic Song"<div style="position: relative; top:0.2em;">{{center|[[File:National anthem of South Korea, performed by the United States Navy Band.wav]]}}</div>
+| image_map              = Republic of Korea (orthographic projection).svg
+| map_width              = 250px
+| alt_map                = 
+| map_caption            = Dark green: Territory controlled by Republic of Korea <br/> Lighter green: Territory claimed but uncontrolled by Republic of Korea
+| capital                = [[Seoul]]<br />{{Coord|37|33|N|126|58|E|type:city}}
+| largest_city           = capital
+| official_languages     = [[Korean language|Korean]] ([[South Korean standard language|Pyojuneo]])<br />[[Korean Sign Language]]<ref>{{cite web |url=http://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EA%B5%AD%EC%88%98%ED%99%94%EC%96%B8%EC%96%B4%EB%B2%95/(13978,20160203) |script-title=ko:[시행 2016.8.4.] [법률 제13978호, 2016.2.3., 제정]|trans-title=Enforcement 2016.8.4. Law No. 13978, enacted on February 3, 2016|language=ko |year=2016 |access-date=26 July 2017}}</ref>
+| languages_type         = [[Official script]]
+| languages              = [[Hangul]]
+| ethnic_groups          = {{plainlist|
+* 95.1% [[Koreans|Korean]]
+* 4.9% [[Demographics of South Korea#Ethnic groups|Others]]
+}}
+| ethnic_groups_year     = 2019
+| ethnic_groups_ref      = <ref>{{Cite web|url=http://www.koreatimes.co.kr/www/nation/2020/07/742_283632.html|title=Foreign population in Korea tops 2.5 million|date=24 February 2020|website=koreatimes}}</ref> 
+| religion               = {{ublist |item_style=white-space;
+  |56.1% [[Irreligion in South Korea|No religion]]
+  |27.6% [[Christianity in Korea|Christianity]]{{efn|name=Christian|19.7% are [[Protestantism|Protestant]], 7.9% are [[Catholic Church in South Korea|Catholic]]}}
+  |15.5% [[Korean Buddhism]]
+  |0.8% Others
+  }}
+| religion_year          = 2015
+| religion_ref           = <ref name="Kim-Shon-Chosunilbo2016">{{cite news |last1=Kim |first1=Han-soo |last2=Shon |first2=Jin-seok |url=http://news.chosun.com/site/data/html_dir/2016/12/20/2016122000155.html |script-title=ko:신자 수, 개신교 1위… "종교 없다" 56% |work=[[Chosun Ilbo]] |date=20 December 2016 |access-date=2 July 2017}}</ref><ref name="ABC-CLIO"/>
+| demonym                = {{hlist|[[Demographics of South Korea|South Korean]]|[[Koreans|Korean]]}}
+| government_type        = [[Unitary state|Unitary]] [[Presidential system|presidential]] [[republic]]
+| leader_title1          = [[President of South Korea|President]]
+| leader_name1           = [[Moon Jae-in]]
+| leader_title2          = [[Prime Minister of South Korea|Prime Minister]]
+| leader_name2           = [[Kim Boo-kyum]]
+| leader_title3          = [[Speaker of the National Assembly of South Korea|Speaker of the National Assembly]]
+| leader_name3           = [[Park Byeong-seug]]
+| leader_title4          = [[Chief Justice of the Republic of Korea|Chief Justice]]
+| leader_name4           = [[Kim Myeong-soo]]
+| leader_title5          = [[Constitutional Court of Korea|President of the Constitutional Court]] 
+| leader_name5           = [[Yoo Nam-seok]]
+| legislature            = [[National Assembly (South Korea)|National Assembly]]
+| sovereignty_type       = [[History of Korea|Establishment history]]
+| established_event1     = [[Gojoseon|First Korean kingdom]]
+| established_date1      = {{circa}} 7th century BCE
+| established_event2     = {{nowrap|[[Korean Declaration of Independence|Independence declared]]}}
+| established_date2      = 1 March 1919
+| established_event3     = [[Provisional Government of the Republic of Korea|Provisional Government]]
+| established_date3      = 11 April 1919
+| established_event4     = [[Victory over Japan Day|Surrender]] of [[Empire of Japan|Japan]]
+| established_date4      = 15 August 1945
+| established_event5     = [[United States Army Military Government in Korea|US administration]] of Korea south of the [[38th parallel north|38th parallel]]
+| established_date5      = 8 September 1945
+| established_event6     = [[First Republic of South Korea|ROK established]]
+| established_date6      = 15 August 1948
+| established_event7     = [[History of South Korea#Sixth Republic 1987-present|Current constitution]]
+| established_date7      = 25 February 1988
+| established_event8     = [[United Nations Security Council Resolution 702|Admitted to]] the [[United Nations|UN]]
+| established_date8      = {{nowrap|17 September 1991}}
+| area_km2               = 100,363
+| area_rank              = 107th <!-- Area rank should match [[List of countries and dependencies by area]] -->
+| area_sq_mi             = 38,750
+| percent_water          = 0.3 (301&nbsp;km{{smallsup|2}}{{\}}116&nbsp;mi{{smallsup|2}})
+| population_estimate    = {{increase neutral}} 51,709,098<ref>{{Cite web | url=http://kosis.kr/nsportalStats/nsportalStats_0102Body.jsp?menuId=10 |script-title=ko:Kosis 100대 지표}}</ref>
+| population_estimate_year = 2019
 | population_estimate_rank = 27th
-| population_density_km2 = 507
-| population_density_rank = 23rd
-| GDP_PPP = $2.138 trillion<ref name="imf2">{{cite web|title=South Korea|publisher=[[International Monetary Fund]]|url=http://www.imf.org/external/pubs/ft/weo/2018/01/weodata/weorept.aspx?pr.x=85&pr.y=4&sy=2016&ey=2023&scsm=1&ssd=1&sort=country&ds=.&br=1&c=542&s=NGDPD%2CPPPGDP%2CNGDPDPC%2CPPPPC&grp=0&a=|work=World Economic Outlook Database, April 2018}}</ref>
-| GDP_PPP_year = 2018
-| GDP_PPP_rank = 14th
-| GDP_PPP_per_capita = $41,388<ref name="imf2" />
-| GDP_PPP_per_capita_rank = 32nd
-| GDP_nominal = $1.693 trillion<ref name="imf2" />{{increase}}
-| GDP_nominal_year = 2018
-| GDP_nominal_rank = 12th
-| GDP_nominal_per_capita = $32,775<ref name="imf2" />
-| GDP_nominal_per_capita_rank = 29th
-| Gini = 29.5
-| Gini_year = 2015
-| Gini_ref = <ref>{{cite encyclopedia|url=http://www.index.go.kr/potal/main/EachDtlPageDetail.do?idx_cd=1407|title=Distribution of income (Gini index)|encyclopedia=e-National Index|publisher=[[Statistics Korea|Korea National Statistical Office]]|location=[[Daejeon]]|accessdate=June 30, 2017}}</ref>
-| Gini_rank =
-| HDI = 0.903<!-- Number only, between 0 and 1. -->
-| HDI_year = 2017<!-- Please use the year to which the data refers, not the publication year. -->
-| HDI_change = increase<!-- Increase/decrease/steady. -->
-| HDI_ref = <ref name="HDI">{{cite web |url=http://www.hdr.undp.org/en/2018-update |title=2018 Human Development Report |year=2018 |accessdate=14 September 2018 |publisher=United Nations Development Programme |ciwaan=Nuqul Archive |archive-date=14 September 2018 |archive-url=https://web.archive.org/web/20180914203906/http://hdr.undp.org/en/2018-update |dead-url=yes }}</ref>
-| HDI_rank = 22nd
-| currency = [[South Korean won]] (₩)
-| currency_code = KRW
-| time_zone = [[Korea Standard Time]]
-| utc_offset = +9
-| date_format = {{unbulleted list|yyyy년 m월 d일|yyyy. m. d. ([[Common Era|CE]])}}
-| drives_on = right
-| calling_code = [[Telephone numbers in South Korea|+82]]
-| cctld = {{hlist|[[.kr]]|[[.한국]]}}
-| official_website = {{URL|http://www.korea.net/}
+| population_density_km2   = 507
+| population_density_rank  = 13th
+| GDP_PPP                  = {{increase}} $2.436 trillion<ref name="IMFWEOKR">{{cite web |url=https://www.imf.org/en/Publications/WEO/weo-database/2020/October/weo-report?c=542,&s=NGDPD,PPPGDP,NGDPDPC,PPPPC,&sy=2019&ey=2020&ssm=0&scsm=1&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1|title=World Economic Outlook Database, October 2020 |publisher=[[International Monetary Fund]] |website=IMF.org |access-date=14 October 2020}}</ref>
+| GDP_PPP_year            = 2021
+| GDP_PPP_rank            = 14th
+| GDP_PPP_per_capita      = {{increase}} $47,027<ref name="IMFWEOKR" />
+| GDP_PPP_per_capita_rank = 28th
+| GDP_nominal             = {{increase}} $1.806 trillion<ref name="IMFWEOKR" />
+| GDP_nominal_year        = 2021
+| GDP_nominal_rank        = 10th
+| GDP_nominal_per_capita  = {{increase}} $34,866<ref name="IMFWEOKR" />
+| GDP_nominal_per_capita_rank = 28th
+| Gini                    = 34.5
+| Gini_year               = 2018
+| Gini_change             = decrease
+| Gini_ref                = <ref>{{cite encyclopedia|url=https://data.oecd.org/inequality/income-inequality.htm|title=Inequality – Income inequality – OECD Data|publisher=[[Organisation for Economic Co-operation and Development|OECD]]|access-date=17 July 2021}}</ref>
+| Gini_rank               = 
+| HDI                     = 0.916<!-- Number only, between 0 and 1. -->
+| HDI_year                = 2019<!-- Please use the year to which the data refers, not the publication year. -->
+| HDI_change              = increase<!-- Increase/decrease/steady. -->
+| HDI_ref                 = <ref name="UNHDR">{{cite web|url=http://hdr.undp.org/sites/default/files/hdr2020.pdf|title=Human Development Report 2020|language=en|publisher=[[United Nations Development Programme]]|date=15 December 2020|access-date=15 December 2020}}</ref>
+| HDI_rank                = 23rd
+| currency                = [[South Korean won|Korean Republic won]] (₩)
+| currency_code           = KRW
+| time_zone               = [[Korea Standard Time]]
+| utc_offset              = +9
+| date_format             = {{unbulleted list|yyyy년 m월 d일|yyyy. m. d. ([[Common Era|CE]])}}
+| electricity             = [[Mains electricity by country|220 V–60 Hz]]
+| drives_on               = right
+| calling_code            = [[Telephone numbers in South Korea|+82]]
+| cctld                   = {{hlist|[[.kr]]|[[.한국]]}}
+}}
+{{Infobox transliteration
+| title = Republic of Korea
+| image = South Korea with Hanja.svg
+| image_size = 300px
+| caption = "Republic of Korea" in [[Hangul]] (top) and [[Hanja]] (bottom) scripts.
+| skhangul = {{linktext|대한민국}}
+| skhanja = {{lang|ko|{{linktext|大韓民國}}}}
+| skmr = Taehan Min’guk
+| rr = Daehan Min(-)guk
+| color = khaki
+| context = north
+}}
+{{Infobox transliteration
+| title = South Korea
+| skhangul = {{linktext|남|한}}
+| skhanja = {{linktext|lang=ko-Hant|南韓}}
+| skrr = Namhan
+| skmr = Namhan
+| nkhangul = {{linktext|남|조|선}}
+| nkhanja = {{linktext|lang=ko-Hant|南朝鮮}}
+| nkrr = Namjoseon
+| nkmr = Namchosŏn
+| ibox-order = ko4, ko3
+}}
+{{Infobox transliteration
+| title = Korea
+| skhangul = {{linktext|한|국}} 
+| skhanja = {{linktext|lang=ko-Hant|韓國}} 
+| skrr = Han(-)guk 
+| skmr = Han’guk 
+| nkhangul = {{linktext|조|선}} 
+| nkhanja = {{linktext|lang=ko-Hant|朝鮮}} 
+| nkrr = Joseon 
+| nkmr = Chosŏn 
+| ibox-order = ko4, ko3
 }}
 
 
