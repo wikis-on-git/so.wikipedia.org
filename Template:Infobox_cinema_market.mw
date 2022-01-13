@@ -1,0 +1,53 @@
+{{#invoke:infobox|infoboxTemplate
+| above          = {{{name|{{PAGENAMEBASE}} }}}
+|   image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
+| caption        = {{{caption|}}}
+| headerstyle    = background-color: #C0C0C0
+
+|  label1  = {{abbr|No.|Number}} of [[Projection screen|screens]]
+|   data1  = {{{screens|}}}
+
+|  label2  = &nbsp;•&nbsp;Per capita
+|   data2  = {{{screens_per_capita|}}}
+
+|  label3  = Main distributors
+|   data3  = {{{distributors|}}}
+
+| header4  = {{#if: {{{produced_total|}}}{{{produced_fictional|}}}{{{produced_animated|}}}{{{produced_documentary|}}} | Produced feature films{{#if: {{{produced_year|}}} | &nbsp;({{{produced_year|}}}) }}{{{produced_ref|}}} }}
+
+|  label5  = Total
+|   data5  = {{{produced_total|}}}
+
+|  label9  = Fictional
+|   data9  = {{{produced_fictional|}}}
+
+|  label10 = Animated
+|   data10 = {{{produced_animated|}}}
+
+|  label11 = Documentary
+|   data11 = {{{produced_documentary|}}}
+
+| header12 = {{#if: {{{admissions_total|}}}{{{admissions_per_capita|}}}{{{admissions_national|}}} | Number of admissions{{#if: {{{admissions_year|}}} | &nbsp;({{{admissions_year|}}}) }}{{{admissions_ref|}}} }}
+
+|  label13 = Total
+|   data13 = {{{admissions_total|}}}
+
+|  label14 = &nbsp;•&nbsp;Per capita
+|   data14 = {{{admissions_per_capita|}}}
+
+|  label15 = National films
+|   data15 = {{{admissions_national|}}}
+
+| header16 = {{#if: {{{box_office_total|}}}{{{box_office_national|}}} | Gross box office{{#if: {{{box_office_year|}}} | &nbsp;({{{box_office_year|}}}) }}{{{box_office_ref|}}} }}
+
+|  label17 = Total
+|   data17 = {{{box_office_total|}}}
+
+|  label18 = National films
+|   data18 = {{{box_office_national|}}}
+
+|  below   = {{{footnotes|}}}
+}}<noinclude>
+
+{{doc}}
+</noinclude>
