@@ -1,4 +1,4 @@
-{{#invoke:infobox|infoboxTemplate
+{{infobox
 | above          = {{{name|{{PAGENAMEBASE}} }}}
 |   image        = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}}}
 | caption        = {{{caption|}}}
