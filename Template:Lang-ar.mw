@@ -1,2 +1,6 @@
-{{Language with name|ar|Af carabi|{{{1}}}}}<noinclude>
-[[Category:Lang-x templates|ar]]</noinclude>
+<includeonly>{{#invoke:lang|lang_xx_inherit
+|code=ar
+|rtl=yes
+}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
