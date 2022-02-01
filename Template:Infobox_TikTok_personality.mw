@@ -1,0 +1,49 @@
+<includeonly>{{Infobox
+| subbox     = {{{subbox|}}}
+| child      = {{Yesno|{{{embed|no}}}}}
+| bodyclass  = biography vcard
+
+| title      = {{#if:{{{embed|}}}|'''TikTok information'''}}
+
+| abovestyle = {{#if:{{{embed|}}}||background-color: #000000; color: white; font-size: 125%}}
+| above      = {{#if:{{{embed|}}}||{{br separated entries
+ |1={{#if:{{{honorific_prefix|{{{honorific prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific_prefix|{{{honorific prefix|}}}}}}</span>}}
+ |2={{#ifeq:{{{subbox}}}|yes||{{{name|{{PAGENAMEBASE}}}}}}}
+ |3={{#if:{{{honorific_suffix|{{{honorific suffix|}}}}}}|<span class="honorific-suffix" style="font-size: small">{{{honorific_suffix|{{{honorific suffix|}}}}}}</span>}}
+ }}
+}}
+
+| image1      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{image size|{{{imagesize|}}}}}}}}}|sizedefault=frameless|upright=1|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption1    = {{{image_caption|{{{caption|{{{image caption|}}}}}}}}}
+
+| headerstyle = background-color: {{#if:{{{embed|}}}|{{{header-color|transparent}}}|#000000; color: white}}; line-height: 1.5em;
+
+| header1     = {{#if:{{{embed|}}}||{{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{height|}}}{{{nationality|}}}{{{occupation|}}}|Personal information}}}}
+
+| label2      = Born
+| data2       = {{br separated entries|1={{#if:{{{birth_name|}}}|{{{birth_name|}}}}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<div style="display:inline;" class="birthplace">{{{birth_place|}}}</div>}}}}
+
+| label3      = Died
+| data3       = {{br separated entries|1={{{death_date|}}}|2={{#if:{{{death_place|}}}|<div style="display:inline;" class="deathplace">{{{death_place|}}}</div>}}}}
+
+| label4      = Followers
+| data4       = {{{followers|}}}
+
+| label5      = Likes
+| data5       = {{{likes|}}}
+
+| label6      = Page Display Name
+| data6       = {{{page_display_name|}}}
+
+| label7      = Page Direct URL
+| data7       = {{{page|}}}
+
+| data8      = {{#if:{{{module|}}}|
+{{(!}} style="text-align:left; width:100%; margin:0; border-spacing:0"
+{{!}}{{{module|}}}
+{{!)}}
+}}
+
+| belowstyle  = color: darkslategray;
+| below       = {{#if:{{{stats_update|}}}|{{hr}}''Updated:'' {{{stats_update}}}|}}{{#if:{{{extra_information|}}}|{{hr}}{{{extra_information}}}}}
+}}</includeonly>{{#invoke:Check for unknown parameters|check|unknown={{main other|[[]]}}|preview=Page using [[Template:Infobox TikTok personality]] with unknown parameter "_VALUE_"|ignoreblank=y| alt | birth_date | birth_name | birth_place | caption | death_date | death_place | embed | extra_information | followers | header-color | height | honorific prefix | honorific suffix | honorific_prefix | honorific_suffix | image | image caption | image size | image_caption | image_size | imagesize | likes | module | name | nationality | nocat | occupation | page | page_display_name | stats_update | subbox }}<noinclude>{{documentation}}</noinclude>
