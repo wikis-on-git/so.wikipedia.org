@@ -1,0 +1,256 @@
+{{Infobox
+| child       = {{{child|}}}
+| bodyclass   = vcard
+| headerstyle = background-color: #efefef;
+| autoheaders = yes
+
+| title       = {{{name|}}}
+| titleclass  = fn org
+| image       = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|}}}|sizedefault=frameless|alt={{{logo_alt|}}}}}
+| caption     = {{{logo_caption|}}}
+
+| image2      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{image_alt|{{{alt|}}}}}}}}
+| caption2    = {{{caption|}}}
+
+| label1      = Type
+|  data1      = {{{type|}}}
+
+| label2      = Country
+|  data2      = {{{country|}}}
+
+| label3      = Broadcast area
+| class3      = label
+|  data3      = {{{area|}}}
+
+| label5      = Network
+|  data5      = {{{network|}}}
+
+| label6      = Stations
+|  data6      = {{If empty |{{{tvstations|}}} |{{{tv_stations|}}}}}
+
+| label7      = Transmitters
+|  data7      = {{If empty |{{{tvtransmitters|}}} ||{{{tv_transmitters|}}}}}
+
+| label8      = Affiliates
+|  data8      = {{{affiliates|}}}
+
+| label10     = Headquarters
+|  data10     = {{{headquarters|}}}
+
+| header15    = Programming
+
+| label16     = Language(s)
+| class16     = category
+|  data16     = {{{language|{{{languages|}}}}}}
+
+| label17     = Picture format
+|  data17     = {{{picture_format|}}}
+
+| label18     = [[Timeshift channel|Timeshift]] service
+|  data18     = {{{timeshift_service|}}}
+
+| header20    = Ownership
+
+| label21     = Owner
+|  data21     = {{{owner|}}}
+
+| label22     = Parent
+|  data22     = {{{parent|}}}
+
+| label23     = Key people
+|  data23     = {{{key_people|}}}
+
+| label24     = Sister channels
+|  data24     = {{{sister_channels|}}}
+
+| header28    = History
+
+| label29     = Founded
+|  data29     = {{{founded|}}}
+
+| label30     = Launched
+|  data30     = {{{launch_date|}}}
+
+| label31     = Founder
+|  data31     = {{{founder|}}}
+
+| label32     = Replaced
+|  data32     = {{{replaced|}}}
+
+| label33     = Closed
+|  data33     = {{{closed_date|}}}
+
+| label34     = Replaced by
+|  data34     = {{{replaced_by|}}}
+
+| label35     = Former names
+|  data35     = {{{former_names|}}}
+
+| header37    = Links
+
+| label38     = [[Webcast]]
+|  data38     = {{{webcast|}}}
+
+| label39     = Website
+|  data39     = {{{website|}}}
+
+| rowcellstyle40 = background-color: #bfdfff; width:100%
+| header40    = Availability {{{availability_note|}}}
+
+| data41      = {{Infobox | child = yes | autoheaders = yes | headerstyle = background-color: #efefef;
+
+| header41    = Terrestrial
+
+| label42     = {{{terr_serv_1|}}}
+|  data42     = {{{terr_chan_1|}}}
+
+| label43     = {{{terr_serv_2|}}}
+|  data43     = {{{terr_chan_2|}}}
+
+| label44     = {{{terr_serv_3|}}}
+|  data44     = {{{terr_chan_3|}}}
+
+| label45     = {{{terr_serv_4|}}}
+|  data45     = {{{terr_chan_4|}}}
+
+| label46     = {{{terr_serv_5|}}}
+|  data46     = {{{terr_chan_5|}}}
+
+| label47     = {{{terr_serv_6|}}}
+|  data47     = {{{terr_chan_6|}}}
+
+| label48     = {{{terr_serv_7|}}}
+|  data48     = {{{terr_chan_7|}}}
+
+| label49     = {{{terr_serv_8|}}}
+|  data49     = {{{terr_chan_8|}}}
+
+| label50     = {{{terr_serv_9|}}}
+|  data50     = {{{terr_chan_9|}}}
+
+| label51     = {{{terr_serv_10|}}}
+|  data51     = {{{terr_chan_10|}}}
+
+| header52    = Cable
+
+| label53     = {{{cable_serv_1|}}}
+|  data53     = {{{cable_chan_1|}}}
+
+| label54     = {{{cable_serv_2|}}}
+|  data54     = {{{cable_chan_2|}}}
+
+| label55     = {{{cable_serv_3|}}}
+|  data55     = {{{cable_chan_3|}}}
+
+| label56     = {{{cable_serv_4|}}}
+|  data56     = {{{cable_chan_4|}}}
+
+| label57     = {{{cable_serv_5|}}}
+|  data57     = {{{cable_chan_5|}}}
+
+| label58     = {{{cable_serv_6|}}}
+|  data58     = {{{cable_chan_6|}}}
+
+| label59     = {{{cable_serv_7|}}}
+|  data59     = {{{cable_chan_7|}}}
+
+| label60     = {{{cable_serv_8|}}}
+|  data60     = {{{cable_chan_8|}}}
+
+| label61     = {{{cable_serv_9|}}}
+|  data61     = {{{cable_chan_9|}}}
+
+| label62     = {{{cable_serv_10|}}}
+|  data62     = {{{cable_chan_10|}}}
+
+| header63    = Satellite
+
+| label64     = {{{sat_serv_1|}}}
+|  data64     = {{{sat_chan_1|}}}
+
+| label65     = {{{sat_serv_2|}}}
+|  data65     = {{{sat_chan_2|}}}
+
+| label66     = {{{sat_serv_3|}}}
+|  data66     = {{{sat_chan_3|}}}
+
+| label67     = {{{sat_serv_4|}}}
+|  data67     = {{{sat_chan_4|}}}
+
+| label68     = {{{sat_serv_5|}}}
+|  data68     = {{{sat_chan_5|}}}
+
+| label69     = {{{sat_serv_6|}}}
+|  data69     = {{{sat_chan_6|}}}
+
+| label70     = {{{sat_serv_7|}}}
+|  data70     = {{{sat_chan_7|}}}
+
+| label71     = {{{sat_serv_8|}}}
+|  data71     = {{{sat_chan_8|}}}
+
+| label72     = {{{sat_serv_9|}}}
+|  data72     = {{{sat_chan_9|}}}
+
+| label73     = {{{sat_serv_10|}}}
+|  data73     = {{{sat_chan_10|}}}
+
+| header74    = [[Internet Protocol television|IPTV]]
+
+| label75     = {{{iptv_serv_1|}}}
+|  data75     = {{{iptv_chan_1|}}}
+
+| label76     = {{{iptv_serv_2|}}}
+|  data76     = {{{iptv_chan_2|}}}
+
+| label77     = {{{iptv_serv_3|}}}
+|  data77     = {{{iptv_chan_3|}}}
+
+| label78     = {{{iptv_serv_4|}}}
+|  data78     = {{{iptv_chan_4|}}}
+
+| label79     = {{{iptv_serv_5|}}}
+|  data79     = {{{iptv_chan_5|}}}
+
+| label80     = {{{iptv_serv_6|}}}
+|  data80     = {{{iptv_chan_6|}}}
+
+| label81     = {{{iptv_serv_7|}}}
+|  data81     = {{{iptv_chan_7|}}}
+
+| label82     = {{{iptv_serv_8|}}}
+|  data82     = {{{iptv_chan_8|}}}
+
+| header85    = [[Streaming media]]
+
+| label86     = {{{online_serv_1|}}}
+|  data86     = {{{online_chan_1|}}}
+
+| label87     = {{{online_serv_2|}}}
+|  data87     = {{{online_chan_2|}}}
+
+| label88     = {{{online_serv_3|}}}
+|  data88     = {{{online_chan_3|}}}
+
+| label89     = {{{online_serv_4|}}}
+|  data89     = {{{online_chan_4|}}}
+
+| label90     = {{{online_serv_5|}}}
+|  data90     = {{{online_chan_5|}}}
+
+| header95    = Satellite radio
+
+| label96     = {{{satradio_serv_1|}}}
+|  data96     = {{{satradio_chan_1|}}}
+
+| label97     = {{{satradio_serv_2|}}}
+|  data97     = {{{satradio_chan_2|}}}
+}}
+<!--for embedded infoboxes-->
+| rowcellstyle98  = font-size:100%; background-color: #bfdfff;
+| header98    = {{#if: {{{embed_header|}}} |{{{embed_header|}}} }}
+|  data99     = {{{embedded|}}}
+
+}}<!-- Category sorting for articles that use this page-->{{ns0|[[Category:Articles using infobox television channel]]}}<!--Start tracking-->{{#invoke:Check for unknown parameters|check|unknown={{Main other|[[Category:Pages using infobox television channel with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox television channel]] with unknown parameter "_VALUE_"|ignoreblank=1| affiliates | alt | area | availability_note | caption | child | closed_date | country | embed_header | embedded | former_names | founded | founder | headquarters | image | image_alt | image_size | key_people | language | languages | launch_date | logo | logo_alt | logo_caption | logo_size | name | network | owner | parent | picture_format | replaced | replaced_by | satradio_chan_1 | satradio_chan_2 | satradio_serv_1 | satradio_serv_2 | sister_channels | timeshift_service | tvstations | tv_stations | tvtransmitters | tv_transmitters | type | webcast | website | regexp1 = terr_serv_[%d][%d]* | regexp2 = terr_chan_[%d][%d]* | regexp3 = sat_serv_[%d][%d]* | regexp4 = sat_chan_[%d][%d]* | regexp5 = cable_serv_[%d][%d]* | regexp6 = cable_chan_[%d][%d]* | regexp7 = iptv_serv_[%d][%d]* | regexp8 = iptv_chan_[%d][%d]* | regexp9 = online_serv_[%d][%d]* | regexp10 = online_chan_[%d][%d]*}}<!-- End tracking --><noinclude>
+{{Documentation}}
+</noinclude>
