@@ -1,0 +1,130 @@
+{{Infobox
+| subbox     = {{{subbox|}}}
+| child      = {{Yesno|{{{embed|no}}}}}
+| bodyclass  = biography vcard
+
+| title      = {{#if:{{Yesno|{{{embed|no}}}}}|'''Twitch information'''}}
+
+| abovestyle = {{#if:{{Yesno|{{{embed|no}}}}}||background-color: #6441A4; color: white}}
+| above      = {{#if:{{Yesno|{{{embed|no}}}}}||{{br separated entries
+ |1={{#if:{{{honorific prefix|{{{honorific_prefix|}}}}}}|<span class="honorific-prefix" style="font-size: small">{{{honorific prefix|{{{honorific_prefix|}}}}}}</span>}}
+ |2={{#ifeq:{{{subbox}}}|yes||{{#if:{{{name|<includeonly>{{PAGENAMEBASE}}</includeonly>}}}|<span class="fn">{{{name|{{PAGENAMEBASE}}}}}</span>}}}}
+ |3={{#if:{{{honorific suffix|{{{honorific_suffix|}}}}}}|<span class="honorific-suffix" style="font-size: small">{{{honorific suffix|{{{honorific_suffix|}}}}}}</span>}}
+ }}
+}}
+| image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{logo|}}}|size={{{logo_size|}}}|sizedefault=250px|alt={{{logo_alt|}}}}}
+| caption    = {{{logo caption|{{{logo_caption|}}}}}}
+
+| image2      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image size|{{{image_size|{{{imagesize|}}}}}}}}}|sizedefault=frameless|upright={{{upright|1}}}|alt={{{alt|}}}|suppressplaceholder=yes}}
+| caption2    = {{{image caption|{{{caption|{{{image_caption|}}}}}}}}}
+
+| headerstyle = background-color: {{#if:{{Yesno|{{{embed|no}}}}}|{{{header-color|transparent}}}|#6441A4; color: white}}; line-height: 1.5em
+
+| header1     = {{#if:{{Yesno|{{{embed|no}}}}}||{{#if:{{{birth_name|}}}{{{birth_date|}}}{{{birth_place|}}}{{{death_date|}}}{{{death_place|}}}{{{height|}}}{{{nationality|}}}{{{occupation|}}}{{{home_town|}}}|Personal information}}}}
+
+| label3      = Born
+| data3       = {{br separated entries|1={{#if:{{{birth_name|}}}|<span style="white-space:normal;">{{{birth_name|}}}</span>}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<span class="birthplace">{{{birth_place|}}}</span>}}}}
+
+| label4      = Died
+| data4       = {{br separated entries|1={{{death_date|}}}|2={{#if:{{{death_place|}}}|<span class="deathplace">{{{death_place|}}}</span>}}}}
+
+| label5      = Origin
+| data5       = {{{Origin|{{{origin|}}}}}}
+
+| label6      = Nationality
+| data6       = {{{nationality|}}}
+| class6      = category
+
+| label7      = Education
+| data7       = {{{education|}}}
+
+| label9      = Occupation
+| data9       = {{{occupation|}}}
+| class9      = role
+
+| label10      = Home town
+| data10       = {{{home_town|}}}
+
+| label11      = Height
+| data11       = {{#if:{{{height_m|{{{height_cm|}}}}}}{{{height_ft|}}}{{{height_in|}}} | {{convinfobox|{{{height_m|{{{height_cm|}}}}}}|{{#if:{{{height_m|}}}|m|cm}}|{{{height_ft|}}}|ft|{{{height_in|}}}|in}} }}{{#if:{{{height|}}} | {{Infobox person/height|{{{height|}}}}} }}
+
+| label13     = <span class="nowrap">Partner(s)</span>
+| data13      = {{{partner|}}}
+
+| label14     = <span class="nowrap">Spouse(s)</span>
+| data14      = {{{spouse|}}}
+
+| label15     = <span class="nowrap">Relatives</span>
+| data15      = {{{relatives|}}}
+
+| label16     = Signature
+| data16      = {{#if:{{{signature|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{signature|}}}|size={{{signature_size|}}}|sizedefault=150px|alt={{{signature alt|{{{signature_alt|}}}}}}}} }}
+
+| label17     = Website
+| data17      = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+| data18      = {{#if:{{{module_personal|}}}|<nowiki />
+{{(!}} style="text-align:left; width:100%; margin:0; border-spacing:0"
+{{!}}-
+{{{module_personal|}}}
+{{!)}}
+}}
+
+| header20    = {{#if:{{Yesno|{{{embed|no}}}}}||{{#if:{{{pseudonym|}}}{{{channel_name|}}}{{{channel_url|}}}{{{channel_direct_url|}}}{{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}{{{genre|}}}{{{games|}}}{{{teams|}}}{{{followers|}}}{{{views|}}}{{{associated_acts|}}}|Twitch information}}}}
+
+| label21     = Also known as
+| data21      = {{{pseudonym|}}}
+
+| label22     = {{#if:{{{channels|}}}|Channels|Channel}}
+| data22      = {{#if:{{{channel_name|}}}|{{flatlist|
+* [https://www.twitch.tv/{{{channel_name}}} {{if empty|{{{channel_display_name|}}}|{{{channel_name}}}}}]{{#if:{{{channel_name2|}}}|
+* [https://www.twitch.tv/{{{channel_name2}}} {{if empty|{{{channel_display_name2|}}}|{{{channel_name2}}}}}]{{#if:{{{channel_name3|}}}|
+* [https://www.twitch.tv/{{{channel_name3}}} {{if empty|{{{channel_display_name3|}}}|{{{channel_name3}}}}}]}} }} }}|{{#if:{{{channel_url|}}}|{{flatlist|
+* [https://www.twitch.tv/{{{channel_url}}} {{if empty|{{{channel_display_name|}}}|{{{channel_url}}}}}]{{#if:{{{channel_url2|}}}|
+* [https://www.twitch.tv/{{{channel_url2}}} {{if empty|{{{channel_display_name2|}}}|{{{channel_url2}}}}}]{{#if:{{{channel_url3|}}}|
+* [https://www.twitch.tv/{{{channel_url3}}} {{if empty|{{{channel_display_name3|}}}|{{{channel_url3}}}}}]}} }} }}|{{#if:{{{channel_direct_url|}}}|{{flatlist|
+* [https://www.twitch.tv/{{{channel_direct_url}}} {{if empty|{{{channel_display_name|}}}|{{{channel_direct_url}}}}}]{{#if:{{{channel_direct_url2|}}}|
+* [https://www.twitch.tv/{{{channel_direct_url2}}} {{if empty|{{{channel_display_name2|}}}|{{{channel_direct_url2}}}}}]{{#if:{{{channel_direct_url3|}}}|
+* [https://www.twitch.tv/{{{channel_direct_url3}}} {{if empty|{{{channel_display_name3|}}}|{{{channel_direct_url3}}}}}]}} }} }}|{{{channels|}}} }} }} }}
+
+|label23      = Location
+|data23       = {{{location|}}}
+
+|label24      = Website
+|data24       = {{{channel_website|}}}
+
+| label25     = Created by
+| data25      = {{{creator|}}}
+
+| label26     = Presented by
+| data26      = {{{presenter|}}}
+
+| label27     = Years&nbsp;active
+| data27      = {{{years active|{{{years_active|{{{yearsactive|}}}}}}}}}
+
+| label28     = Genre
+| data28      = {{{genre|}}}
+
+| label29     = Games
+| data29      = {{{games|}}}
+
+| label30     = Teams played for
+| data30      = {{{teams|}}}
+
+| label31     = Followers
+| data31      = {{br separated entries|1={{{followers|}}}|2={{#if:{{{follower_date|}}}|({{{follower_date|}}})|}}}}
+
+| label32     = Total&nbsp;views
+| data32      = {{br separated entries|1={{{views|}}}|2={{#if:{{{view_date|}}}|({{{view_date|}}})|}}}}
+
+| label33     = Associated acts
+| data33      = {{{associated_acts|}}}
+
+| label35     = Contents are in
+| data35      = {{{language|}}}
+
+| data52      = {{{module|}}}
+
+| belowstyle  = color: darkslategray;
+| below       = {{#if:{{{stats_update|}}}|Follower and view counts updated as of {{{stats_update}}}.|}} {{#if:{{{extra_information|}}}|{{{extra_information}}}}}
+}}{{#ifeq:{{{nocat|false}}}|false|}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox Twitch streamer with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox Twitch streamer]] with unknown parameter "_VALUE_"|ignoreblank=y| alt | associated_acts | birth_date | birth_name | birth_place | module_personal | caption | channel_name | channel_name2 | channel_name3 | channel_url | channel_url2 | channel_url3 | channel_direct_url | channel_direct_url2 | channel_direct_url3 | channels | channel_display_name | channel_display_name2 | channel_display_name3 | location | channel_website | child | creator | presenter | death_date | death_place | education | embed | expand | extra_information | follower_date | followers | games | genre | header-color | height | height_cm | height_ft | height_in | height_m | homepage | home_town | honorific prefix | honorific suffix | honorific_prefix | honorific_suffix | image | image caption | image size | image_caption | image_size | imagesize | logo | logo caption | logo_caption | logo_alt | logo_size | module | name | nationality | nocat | occupation | origin | Origin | partner | pseudonym | subbox | signature | signature alt | signature_alt | signature_size | spouse | relatives | stats_update | teams | upright | URL | view_date | views | website | years active | years_active | yearsactive }}<noinclude>{{documentation}}</noinclude>
