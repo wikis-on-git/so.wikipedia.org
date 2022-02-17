@@ -451,3 +451,26 @@ Thanks for joining! [[m:User:AKlapper (WMF)|andre]] ([[m:User talk:AKlapper (WMF
 Also, everyone is welcome to [[m:Special:MyLanguage/Community Wishlist Survey/Help us|translate, promote]], and discuss proposals. [[User:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] ([[User talk:SGrabarczuk (WMF)|talk]]) 14:45, 22 Jannaayo 2022 (UTC)
 </div>
 <!-- Message sent by User:SGrabarczuk (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=22611679 -->
+
+== Rollout of the new audio and video player ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{int:please-translate}}
+
+Hello,
+
+Over the next months we will gradually change the audio and video player of Wikis from Kultura to Video.js and with that, the old player won’t be accessible anymore. The new player has been active as a beta feature since May 2017.
+
+The new player has many advantages, including better design, consistent look with the rest of our interface, better compatibility with browsers, ability to work on mobile which means our multimedia will be properly accessible on iPhone, better accessibility and many more.
+
+The old player has been unmaintained for eight years now and is home-brewn (unlike the new player which is a widely used open source project) and uses deprecated and abandoned frameworks such as jQuery UI. Removing the old player’s code also improves performance of the Wikis for anyone visiting any page (by significantly reducing complexity of the dependency graph of our ResourceLoader modules. See [https://phabricator.wikimedia.org/phame/post/view/175/wikipedia_s_javascript_initialisation_on_a_budget/ this blog post.]). The old player has many open bugs that we will be able to close as resolved after this migration.
+
+The new player will solve a lot of old and outstanding issues but also it will have its own bugs. All important ones have been fixed but there will be some small ones to tackle in the future and after the rollout.
+
+What we are asking now is to turn on the beta feature for the new player and let us know about any issues. 
+
+You can track the work in [[phab:T100106|T100106]]
+
+Thank you, [[User:Ladsgroup|Amir]] 17:59, 17 Febraayo 2022 (UTC)
+</div>
+<!-- Message sent by User:Ladsgroup@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Distribution_list/Technical_Village_Pumps_distribution_list&oldid=22611679 -->
