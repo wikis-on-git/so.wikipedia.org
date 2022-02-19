@@ -1,0 +1,4 @@
+<span class="noexcerpt nowraplinks" style="font-size:{{{size|85%}}}; font-weight:normal;"><!--
+-->{{if empty|{{{unlinked|}}}|{{{list|}}}|{{{post-noms|}}}|{{for loop|{{#if:{{{sep|}}}{{{commas|}}}|<span style="font-size:14px;>&#44;</span>}}&#32;|call=post-nominals/{{{country|CAN}}}|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}|{{{17|}}}|{{{18|}}}|{{{19|}}}|{{{20|}}}|skipBlanks=yes}}}}<!--
+--></span><!--
+-->{{#if:{{{country|{{{unlinked|{{{list|{{{post-noms|<noinclude>1</noinclude>}}}}}}}}}}}}||[[Category:Pages using Template:Post-nominals with missing parameters]]}}<noinclude>{{Documentation}}</noinclude>
