@@ -29,7 +29,7 @@
 | data6       = {{#if:{{{B-side|{{{b-side|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{B-side|{{{b-side}}}}}}|2="|nomatch=}}|{{{B-side|{{{b-side}}}}}}|"{{{B-side|{{{b-side}}}}}}"}}}}
 | class6      = plainlist
 
-| label7      = Written
+| label7      = Qoray
 | data7       = {{{written|{{{Written|}}}}}}
 
 | label8      = Published
