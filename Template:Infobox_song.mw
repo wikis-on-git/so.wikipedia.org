@@ -15,27 +15,27 @@
 | rowclass2   = description
 | header2     = {{#if:{{{album|}}}{{{Album|}}}{{{from_album|}}}{{{from Album|}}}|from the album ''{{If empty|{{{album|}}}|{{{Album|}}}|{{{from_album|}}}|{{{from Album|}}}}}''|{{#if:{{{EP|}}}|from the EP ''{{{EP|}}}''}}}}
 
-| label3      = Language
+| label3      = Luuqad
 | data3       = {{{language|{{{Language|}}}}}}
 
-| label4      = English title
+| label4      = Magaca Ingiriisiga
 | data4       = {{{English_title|{{{english_title|}}}}}}
 
 | label5      = <span class="nowrap">[[A-side and B-side|A-side]]</span>
 | data5       = {{#if:{{{A-side|{{{a-side|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{A-side|{{{a-side}}}}}}|2="|nomatch=}}|{{{A-side|{{{a-side}}}}}}|"{{{A-side|{{{a-side}}}}}}"}}}}
 | class5      = plainlist
 
-| label6      = <span class="nowrap">[[A-side and B-side|B-side]]</span>
+| label6      = <span class="nowrap">[[A-side iyo B-side|B-side]]</span>
 | data6       = {{#if:{{{B-side|{{{b-side|}}}}}}|{{#if:{{#invoke:String|match|error_category=Music infoboxes with Module:String errors{{!}}C|1={{{B-side|{{{b-side}}}}}}|2="|nomatch=}}|{{{B-side|{{{b-side}}}}}}|"{{{B-side|{{{b-side}}}}}}"}}}}
 | class6      = plainlist
 
 | label7      = Qoray
 | data7       = {{{written|{{{Written|}}}}}}
 
-| label8      = Published
+| label8      = La daabacay
 | data8       = {{{published|{{{Published|}}}}}}
 
-| label10     = Released
+| label10     = La sii daayay
 | data10      = {{{released|{{{Released|}}}}}}
 | class10     = plainlist
 
@@ -43,42 +43,42 @@
 | data11      = {{{format|{{{Format|}}}}}}
 | class11     = hlist
 
-| label12     = Recorded
+| label12     = La duubay
 | data12      = {{{recorded|{{{Recorded|}}}}}}
 | class12     = plainlist
 
-| label13     = [[Recording studio|Studio]] 
+| label13     = [[Istuudiyaha duubista| Istuudiyaha]] 
 | data13      = {{{studio|{{{Studio|}}}}}}
 | class13     = plainlist
 
-| label14     = Venue 
+| label14     = Goobta 
 | data14      = {{{venue|{{{Venue|}}}}}}
 
-| label15     = [[Music genre|Genre]]
+| label15     = [[Nooca muusiga|Nooca]]
 | data15      = {{{genre|{{{Genre|}}}}}}
 | class15     = category hlist
 
-| label16     = Length
+| label16     = Dhererka
 | data16      = {{#invoke:hms|main|duration={{{length|{{{Length|}}}}}}}}
 | class16     = plainlist
 
-| label17     = [[Record label|Label]]
+| label17     = [[Summada duubista|Summada]]
 | data17      = {{{label|{{{Label|}}}}}}
 | class17     = hlist
 
-| label40     = <span class="nowrap">[[Songwriter|Songwriter(s)]]</span>
+| label40     = <span class="nowrap">[[Hees qoraa|Heesta qoraa]]</span>
 | data40      = {{{writer|{{{Writer|}}}}}}
 | class40     = hlist
 
-| label41     = <span class="nowrap">[[Composer|Composer(s)]]</span>
+| label41     = <span class="nowrap">[[Laxanka|Laxanka]]</span>
 | data41      = {{{composer|{{{Composer|}}}}}}
 | class41     = hlist
 
-| label42     = <span class="nowrap">[[Lyricist|Lyricist(s)]]</span>
+| label42     = <span class="nowrap">[[Erayada|Erayada]]</span>
 | data42      = {{{lyricist|{{{Lyricist|}}}}}}
 | class42     = hlist
 
-| label43     = <span class="nowrap">[[Record producer|Producer(s)]]</span>
+| label43     = <span class="nowrap">[[Soo saaraha duubista|Soo saarayasha]]</span>
 | data43      = {{{producer|{{{Producer|}}}}}}
 | class43     = hlist
 
