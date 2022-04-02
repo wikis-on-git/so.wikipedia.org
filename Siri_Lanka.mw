@@ -1,10 +1,13 @@
 {{short description|Country in South Asia}}
+{{redirect|Ceylon}}
+{{pp-vandalism|small=yes}}
 {{coord|7|N|81|E|region:LK_type:country_source:dewiki|display=title}}
+{{Use British English|date=April 2020}}
 {{Use dmy dates|date=April 2021}}
 {{Infobox country
-| conventional_long_name      =
+| conventional_long_name      = {{lang|en|Democratic Socialist Republic of {{nowrap|Sri Lanka}}}}
 | common_name                 = Sri Lanka
-| native_name                 = 
+| native_name                 = {{ubl|{{native name|si|ශ්‍රී ලංකා ප්‍රජාතාන්ත්‍රික සමාජවාදී ජනරජය|italics=off}}
   | {{native name|ta|இலங்கை சனநாயக சோசலிசக் குடியரசு|italics=off}}
   | {{Infobox
 | subbox = yes
@@ -13,7 +16,7 @@
 | label1 = [[Sinhala language|Sinhala]]:
 | data1 = {{transl|si|ISO|Śrī Laṅkā Prajātāntrika Samājavādī Janarajaya}}
 | rowclass2 = mergedrow
-| label2 = [[Tamil language|Tamil]]:lugad
+| label2 = [[Tamil language|Tamil]]:
 | data2 = {{transl|ta|ISO|Ilaṅkai Jaṉanāyaka Sōsalisak Kuṭiyarasu}}
 }}
  }}
@@ -33,53 +36,57 @@
 | languages2_type             = Recognised languages
 | languages2                  = [[Sri Lankan English|English]]
 | ethnic_groups               = 74.9% [[Sinhalese people|Sinhalese]]<br />11.2% [[Sri Lankan Tamils]]<br />9.2% [[Sri Lankan Moors]]<br />4.2% [[Indian Tamils of Sri Lanka|Indian Tamils]]<br />0.5% Others (incl. [[Burgher people|Burghers]], [[Sri Lankan Malays|Malays]], [[Veddas]], [[Chinese people in Sri Lanka|Chinese]], [[Indians in Sri Lanka|Indians]])
-| ethnic_groups_year          = 2012<ref name="CIATONGA">{{cite web |url=https://www.cia.gov/the-world-factbook/countries/sri-lanka/ |title=South Asia: Sri Lanka |publisher=[[CIA]]}}</ref>
-| religion                    = {{nowrap|70.2% [[Buddhism in Sri Lanka|Buddhism]] ([[State religion|official]])<ref>https://www.state.gov/reports/2018-report-on-international-religious-freedom/sri-lanka/</ref>}}<br />12.6% [[Hinduism in Sri Lanka|Hinduism]]<br />9.7% [[Islam in Sri Lanka|Islam]]<br />7.4% [[Christianity in Sri Lanka|Christianity]]<br />0.1% Other/None
+| ethnic_groups_year          = 2012<ref name="CIATONGA">{{cite web |url=https://www.cia.gov/the-world-factbook/countries/sri-lanka/ |title=South Asia: Sri Lanka |date=22 September 2021 |publisher=[[CIA]]}}</ref>
+| religion                    = {{nowrap|70.2% [[Buddhism in Sri Lanka|Buddhism]] ([[State religion|official]])<ref>{{cite web |url=https://www.state.gov/reports/2018-report-on-international-religious-freedom/sri-lanka/ |title=2018 Report on International Religious Freedom: Sri Lanka |publisher=United States Department of State |access-date=3 March 2022}}</ref>}}<br />12.6% [[Hinduism in Sri Lanka|Hinduism]]<br />9.7% [[Islam in Sri Lanka|Islam]]<br />7.4% [[Christianity in Sri Lanka|Christianity]]<br />0.1% Other/None
 | religion_year               = 2012
 | demonym                     = Sri Lankan
-| government_type             = [[Unitary state|Unitary]] [[Semi-presidential system|semi-presidential]] [[constitutional republic]]
+| government_type             = [[Unitary state|Unitary]] [[Semi-presidential system|semi-presidential]] [[republic]]
 | leader_title1               = [[President of Sri Lanka|President]]
 | leader_name1                = [[Gotabaya Rajapaksa]]
 | leader_title2               = [[Prime Minister of Sri Lanka|Prime Minister]]
 | leader_name2                = [[Mahinda Rajapaksa]]
 | leader_title3               = [[Speaker of the Parliament of Sri Lanka|Speaker of the Parliament]]
-| leader_name3                = [[Mahinda Yapa Abeywardena]]<ref name="new-speaker">{{cite web |url=https://parliament.lk/en/news-en/view/1878?category=6 |title=Hon. Mahinda Yapa Abeywardena elected as the New Speaker |publisher=[[Parliament of Sri Lanka]] |date=20 August 2020 |access-date=23 August 2020 }}{{Dead link|date=Bisha Kow iyo Tobnaad 2021 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>
+| leader_name3                = [[Mahinda Yapa Abeywardena]]<ref name="new-speaker">{{cite web |url=https://parliament.lk/en/news-en/view/1878?category=6 |title=Hon. Mahinda Yapa Abeywardena elected as the New Speaker |publisher=[[Parliament of Sri Lanka]] | date=20 August 2020 |access-date=23 August 2020}}</ref>
 | leader_title4               = [[Chief Justice of Sri Lanka|Chief Justice]]
 | leader_name4                = [[Jayantha Jayasuriya]]
 | legislature                 = [[Parliament of Sri Lanka|Parliament]]
 | sovereignty_type            = [[History of Sri Lanka|Formation]]
-| established_event1          = [[Sinhala Kingdom|Kingdom]] established<ref>De Silva, K. M. (1981). A History of Sri Lanka. University of California Press. ISBN 978-0-19-561655-2. A History of Sri Lanka.</ref>
+| established_event1          = [[Sinhala Kingdom|Kingdom]] established<ref>De Silva, K. M. (1981). A History of Sri Lanka. University of California Press. {{ISBN|978-0-19-561655-2}}. A History of Sri Lanka.</ref>
 | established_date1           = 543 BCE
-| established_event2          = [[Kandyan Convention]] signed
-| established_date2           = 1815
-| established_event3          = [[Independence Day (Sri Lanka)|Independence]] and [[Dominion of Ceylon|Dominion]]
-| established_date3           = 4 February 1948
-| established_event5          = [[Republic]]
-| established_date5           = 22 May 1972
-| established_event6          = {{nowrap|[[Constitution of Sri Lanka|Current constitution]]}}
-| established_date6           = 7 September 1978
+| established_event2 = [[Rajarata]] established<ref>Nicholas, C. W.; Paranavitana, S. (1961). A Concise History of Ceylon. Colombo University Press.</ref>
+| established_date2 = 437 BCE
+| established_event3 = [[Kandyan wars]]
+| established_date3 = 1796
+| established_event4          = [[Kandyan Convention]] signed
+| established_date4           = 1815
+| established_event5          = [[Independence Day (Sri Lanka)|Independence]]
+| established_date5           = 4 February 1948
+| established_event6          = [[Republic]]
+| established_date6          = 22 May 1972
+| established_event7          = {{nowrap|[[Constitution of Sri Lanka|Current constitution]]}}
+| established_date7           = 7 September 1978
 | area_km2                    = 65,610
 | area_rank                   = 120th <!-- Area rank should match [[List of countries and dependencies by area]] -->
 | area_sq_mi                  = 25,332 <!--Do not remove per [[WP:MOSNUM]]-->
 | percent_water               = 4.4
-| population_estimate         = {{increase}}21,919,000<ref name="2020 population">{{cite web |title=Mid‐year Population Estimates by District & Sex, 2015 ‐ 2020 |url=http://www.statistics.gov.lk/Population/StaticalInformation/VitalStatistics/ByDistrictandSex |website=statistics.gov.lk |publisher=Department of Census and Statistics |access-date=1 May 2021}}</ref>
+| population_estimate         = {{increaseNeutral}} 22,156,000<ref name="2021 population">{{cite web |title=Mid‐year Population Estimates by District & Sex, 2016 ‐ 2021 |url=http://www.statistics.gov.lk/Population/StaticalInformation/VitalStatistics/ByDistrictandSex |website=statistics.gov.lk |publisher=Department of Census and Statistics |access-date=1 October 2021}}</ref>
 | population_census           = 20,277,597<ref name="popsl">{{cite web |url=http://www.statistics.gov.lk/PopHouSat/CPH2011/Pages/sm/CPH%202011_R1.pdf |archive-url=https://web.archive.org/web/20131206021926/http://www.statistics.gov.lk/PopHouSat/CPH2011/Pages/sm/CPH%202011_R1.pdf |title=Census of Population and Housing 2011 Enumeration Stage February–March 2012 |work=Department of Census and Statistics – Sri Lanka |access-date=15 July 2014 |archive-date=6 December 2013}}</ref>
 | population_estimate_year    = 2020
 | population_estimate_rank    = 57th
 | population_census_year      = 2012
 | population_census_rank      = 
-| population_density_km2      = 334
+| population_density_km2      = 337.7
 | population_density_sq_mi    = 
 | population_density_rank     = 24th
-| GDP_PPP                     = {{increase}}$306.997&nbsp;billion<ref name="IMFWEO">{{cite web |url=https://www.imf.org/en/Publications/WEO/weo-database/2021/April/weo-report?c=524,&s=NGDPD,PPPGDP,NGDPDPC,PPPPC,&sy=2018&ey=2026&ssm=0&scsm=1&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1 |title=World Economic Outlook Database, April 2021 | website=IMF.org |publisher=[[International Monetary Fund]] |access-date=10 April 2021}}</ref>
+| GDP_PPP                     = {{increase}} $306.997&nbsp;billion<ref name="IMFWEO">{{cite web |url=https://www.imf.org/en/Publications/WEO/weo-database/2021/April/weo-report?c=524,&s=NGDPD,PPPGDP,NGDPDPC,PPPPC,&sy=2018&ey=2026&ssm=0&scsm=1&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1 |title=World Economic Outlook Database, April 2021 | website=IMF.org |publisher=[[International Monetary Fund]] |access-date=10 April 2021}}</ref>
 | GDP_PPP_year                = 2021
 | GDP_PPP_rank                = 56th
-| GDP_PPP_per_capita          = {{increase}}$13,909<ref name="IMFWEO" />
+| GDP_PPP_per_capita          = {{increase}} $13,909<ref name="IMFWEO" />
 | GDP_PPP_per_capita_rank     = 88th
-| GDP_nominal                 = {{increase}}$84.532&nbsp;billion<ref name="IMFWEO" />
+| GDP_nominal                 = {{increase}} $84.532&nbsp;billion<ref name="IMFWEO" />
 | GDP_nominal_year            = 2021
 | GDP_nominal_rank            = 64th
-| GDP_nominal_per_capita      = {{increase}}$3,830<ref name="IMFWEO" />
+| GDP_nominal_per_capita      = {{increase}} $3,830<ref name="IMFWEO" />
 | GDP_nominal_per_capita_rank = 113th
 | Gini                        = 39.8 <!--number only-->
 | Gini_year                   = 2016
@@ -99,9 +106,7 @@
 | DST_note                    = 
 | time_zone_DST               = 
 | date_format                 = {{unbulleted list |dd-mm-yyyy |yyyy-mm-dd}}
-| electricity =
-[[Mains electricity by country|230 V–50 Hz]]
-| drives_on                   = [[Right- and left-hand traffic|left]]
+| drives_on                   = left
 | calling_code                = [[Telephone numbers in Sri Lanka|+94]]
 | iso3166code                 = LK
 | cctld                       = {{hlist|[[.lk]] | [[.ලංකා]] | [[.இலங்கை]]}}
