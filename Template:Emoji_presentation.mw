@@ -1,0 +1,1 @@
+<includeonly>{{#if:{{{1|}}}|{{#invoke:string|sub|s={{{1}}}|j=1}}|�}}{{#switch:{{{2|}}}|text=&#xFE0E;||emoji=&#xFE0F;|{{error|unknown presentation style}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
