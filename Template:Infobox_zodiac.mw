@@ -1,0 +1,38 @@
+<includeonly>{{Infobox
+|style      
+|abovestyle = 
+|above      = {{{name|}}}
+|image      = [[File:{{{image symbol}}}|frameless|upright=.2|center]]
+|image2     = [[File:{{{image}}}|frameless|border|upright=1|center]]
+|label1     = Zodiac symbol 
+|data1      = {{{symbol}}}
+|label2     = Duration ([[Tropical astrology|tropical]], [[Western astrology|western]])
+|data2      = {{#invoke:Zodiac date|main|{{{nr|1}}}}} ({{CURRENTYEAR}}, [[UT1]]){{sfn|Astronomical Applications Department|2011}}
+|label4     = [[Constellation]]
+|data4      = {{{constellation}}}
+|label5     = [[Triplicity|Zodiac element]]
+|data5      = {{{element}}}
+|label6     = Zodiac quality
+|data6      = {{{quality}}}
+|label7     = [[Domicile (astrology)|Sign ruler]]
+|data7      = {{{domicile}}}
+|label8     = [[detriment (astrology)|Detriment]]
+|data8      = {{{detriment}}}
+|label9     = [[Exaltation (astrology)|Exaltation]]
+|data9      = {{{exaltation}}}
+|label10    = [[Fall (astrology)|Fall]]
+|data10     = {{{fall}}}
+|belowstyle = background:black;
+|below      = [[File:Aries symbol (planetary color).svg|20px|link=Aries (astrology)|Aries]]<!--Aries
+           -->[[File:Taurus symbol (planetary color).svg|20px|link=Taurus (astrology)|Taurus]]<!--Taurus
+           -->[[File:Gemini symbol (planetary color).svg|20px|link=Gemini (astrology)|Gemini]]<!--Gemini
+           -->[[File:Cancer symbol (planetary color).svg|20px|link=Cancer (astrology)|Cancer]]<!--Cancer
+           -->[[File:Leo symbol (planetary color).svg|20px|link=Leo (astrology)|Leo]]<!--Leo
+           -->[[File:Virgo symbol (planetary color).svg|20px|link=Virgo (astrology)|Virgo]]<!--Virgo
+           -->[[File:Libra symbol (planetary color).svg|20px|link=Libra (astrology)|Libra]]<!--Libra
+           -->[[File:Scorpio symbol (planetary color).svg|20px|link=Scorpio (astrology)|Scorpio]]<!--Scorpio
+           -->[[File:Sagittarius symbol (planetary color).svg|20px|link=Sagittarius (astrology)|Sagittarius]]<!--Sagittarius
+           -->[[File:Capricorn symbol (planetary color).svg|20px|link=Capricorn (astrology)|Capricorn]]<!--Capricorn
+           -->[[File:Aquarius symbol (planetary color).svg|20px|link=Aquarius (astrology)|Aquarius]]<!--Aquarius
+           -->[[File:Pisces symbol (planetary color).svg|20px|link=Pisces (astrology)|Pisces]]<!--Pisces-->
+}}</includeonly><noinclude>{{documentation}}</noinclude>
