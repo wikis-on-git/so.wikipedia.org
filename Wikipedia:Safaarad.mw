@@ -2372,3 +2372,23 @@ Do better research and help expand the use of high quality references across Wik
 :<small>This message was delivered via the [https://meta.wikimedia.org/wiki/MassMessage#Global_message_delivery Global Mass Message] tool to [https://meta.wikimedia.org/wiki/Global_message_delivery/Targets/Wikipedia_Library The Wikipedia Library Global Delivery List].</small>
 </div>
 <!-- Message sent by User:Samwalton9@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Global_message_delivery/Targets/Wikipedia_Library&oldid=23036656 -->
+
+== Coming soon: Improvements for templates ==
+
+<div class="plainlinks mw-content-ltr" lang="en" dir="ltr">
+<!--T:11-->
+[[File:Overview of changes in the VisualEditor template dialog by WMDE Technical Wishes.webm|thumb|Fundamental changes in the template dialog.]]
+Hello, more changes around templates are coming to your wiki soon:
+
+The [[mw:Special:MyLanguage/Help:VisualEditor/User guide#Editing templates|'''template dialog''' in VisualEditor]] and in the [[mw:Special:MyLanguage/2017 wikitext editor|2017 Wikitext Editor]] (beta) will be '''improved fundamentally''': 
+This should help users understand better what the template expects, how to navigate the template, and how to add parameters. 
+* [[metawiki:WMDE Technical Wishes/VisualEditor template dialog improvements|project page]], [[metawiki:Talk:WMDE Technical Wishes/VisualEditor template dialog improvements|talk page]]
+
+In '''syntax highlighting''' ([[mw:Special:MyLanguage/Extension:CodeMirror|CodeMirror]] extension), you can activate a '''colorblind-friendly''' color scheme with a user setting. 
+* [[metawiki:WMDE Technical Wishes/Improved Color Scheme of Syntax Highlighting#Color-blind_mode|project page]], [[metawiki:Talk:WMDE Technical Wishes/Improved Color Scheme of Syntax Highlighting|talk page]]
+
+Deployment is planned for May 10. This is the last set of improvements from [[m:WMDE Technical Wishes|WMDE Technical Wishes']] focus area “[[m:WMDE Technical Wishes/Templates|Templates]]”. 
+
+We would love to hear your feedback on our talk pages!
+</div> -- [[m:User:Johanna Strodt (WMDE)|Johanna Strodt (WMDE)]] 11:14, 29 Abriil 2022 (UTC)
+<!-- Message sent by User:Johanna Strodt (WMDE)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=WMDE_Technical_Wishes/Technical_Wishes_News_list_all_village_pumps&oldid=23222263 -->
