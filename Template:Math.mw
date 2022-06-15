@@ -1,0 +1,1 @@
+<span class="texhtml{{#if:{{{big|}}}{{{size|}}}|&#32;texhtml-big}}" style="white-space: nowrap;{{#if:{{{big|}}}{{{size|}}}|&#32;font-size: {{{size|165%}}};}}">{{{1|}}}{{{2|}}}</span><noinclude>{{Documentation}}</noinclude>
