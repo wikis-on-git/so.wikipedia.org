@@ -1,0 +1,98 @@
+{{Infobox
+| bodystyle = width:{{#if:{{{boxsize|}}}|{{{boxsize}}}|22em}};
+| abovestyle = background-color: {{Infobox language/family-color|{{{familycolor|Default}}}}};
+| subheaderstyle = background-color: {{Infobox language/family-color|{{{familycolor|Default}}}}};
+| above = {{{name}}}
+| subheader = {{{altname|}}}
+
+| label1 = Qowmiyad:
+| data1 = {{{ethnicity|}}}
+| label2 = Qaybinta <br>juqraafiga:
+| data2 = {{{region|—}}}
+| label3 = [[Qoyska Luqadda|Kala soocida luqadaha]]:
+| data3 = {{{family|{{{fam1|{{Infobox language/genetic |{{{familycolor|Default}}}}}}}}<ul style="line-height:100%; margin-left:15px;padding-left:0"><li>{{#if:{{{fam2|}}}
+| {{{fam2}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>'''{{{name}}}'''</li></ul>
+| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>| '''{{{name}}}'''
+}}</li></ul>
+}}}
+| label4 = Boroto-Luuqad:
+| data4 = {{{protoname|}}}
+| label5 = Qayb-hoosaadyo:
+|data5 =
+<div>{{{children|}}}</div>
+<div>{{{child1|—}}}</div>
+<div>{{{child2|}}}</div>
+<div>{{{child3|}}}</div>
+<div>{{{child4|}}}</div>
+<div>{{{child5|}}}</div>
+<div>{{{child6|}}}</div>
+<div>{{{child7|}}}</div>
+<div>{{{child8|}}}</div>
+<div>{{{child9|}}}</div>
+<div>{{{child10|}}}</div>
+<div>{{{child11|}}}</div>
+<div>{{{child12|}}}</div>
+<div>{{{child13|}}}</div>
+<div>{{{child14|}}}</div>
+<div>{{{child15|}}}</div>
+<div>{{{child16|}}}</div>
+<div>{{{child17|}}}</div>
+<div>{{{child18|}}}</div>
+<div>{{{child19|}}}</div>
+<div>{{{child20|}}}</div>
+
+| label6 = Tirada [[dadka ku hadla afka hooyo]]:
+| data6 = {{{native speakers|}}}
+| label7 = ''[[Ethnology]]'' code{{#if:{{{silname2|}}}|s}}:
+| data7 = {{#if:{{{sil|}}}
+  |<tt>[http://www.ethnologue.com/show_family.asp?subid={{{sil}}} {{#if:{{{silname|}}}|{{{silname}}}|{{{sil}}}}}]{{#if:{{{sil2|}}}|, [http://www.ethnologue.com/show_family.asp?subid={{{sil2}}} {{#if:{{{silname2|}}}|{{{silname2}}}|{{{sil2}}}}}]}}{{#if:{{{sil3|}}}|, [http://www.ethnologue.com/show_family.asp?subid={{{sil3}}} {{#if:{{{silname3|}}}|{{{silname3}}}|{{{sil3}}}}}]}}</tt>
+}} <!--ISO 639-2, 639-5 CODE-->
+| label8 ={{#if:{{{iso2|}}}
+  | [[ISO 639-2]] and [[ISO 639-5|639-5]]:
+  |{{#if:{{{iso5|}}}
+    |[[ISO 639-5]]:
+    }}
+  }}
+| data8 = {{#if:{{{iso2|}}}
+  |<tt>{{{iso2}}}</tt>
+  |{{#if:{{{iso5|}}}
+    |<tt>{{{iso5}}}</tt>
+    }}
+  }}
+| data9 = {{#if:{{{map|}}}
+  | [[File:{{{map}}}|{{#if:{{{mapsize|}}}|{{{mapsize}}}px|300px}}]]{{#if:{{{mapcaption|}}}
+    |<br><div style="text-align:left;">{{{mapcaption}}}</div>
+    }}
+  }}
+| data10 = {{#if:{{{map2|}}}
+  | [[File:{{{map2}}}|{{#if:{{{mapsize|}}}|{{{mapsize}}}px|300px}}]]{{#if:{{{mapcaption2|}}}
+    |<br><div style="text-align:left;">{{{mapcaption2}}}</div>
+    }}
+  }}
+}}<noinclude>{{documentation}}</noinclude>
