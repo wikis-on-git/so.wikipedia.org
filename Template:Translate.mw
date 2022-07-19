@@ -5,7 +5,7 @@
 | class = ambox-not_English
 | image = [[File:Translation to english arrow.svg|50px|Soomaali u tarjun]]
 | text = '''{{{2|{{#if:{{NAMESPACE}}|Maqaalkani|Maqaalkani}}}}} tani waa lagama maarmaan [[Wikipedia:Hagaha tarjumaadda maqaallada|la turjumay]] {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | ka [[Ingiriisi {{ucfirst:{{{1|}}}}}]] ku | ku }} Soomaali.''' <br />
-{{{2|{{#if:{{NAMESPACE}}|Halaman|Artikel}}}}} ini ditulis atau diterjemahkan secara buruk dari Wikipedia {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[bahasa {{ucfirst:{{{1|inggris}}}}}]] | bahasa selain Indonesia }}. Jika halaman ini ditujukan untuk {{#if:{{{1|}}}|komunitas [[bahasa {{ucfirst:{{{1|inggris}}}}}]]|komunitas berbahasa tersebut}}, halaman itu harus dikontribusikan ke {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Wikipedia bahasa {{ucfirst:{{{1|inggris}}}}}]] | Wikipedia bahasa tersebut }}. Lihat [[meta:List of Wikipedias|daftar bahasa Wikipedia]].
+{{{2|{{#if:{{NAMESPACE}}|Halaman|Maqaalkani}}}}} si xun ayaa looga qoray ama looga turjumay Wikibidhiya {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[{{ucfirst:{{{1|inggris}}}}}]] | luqadaha aan Soomaaliga ahayn}}. Haddii boggan loogu talagalay {{#if:{{{1|}}}|bulshada {{ucfirst:{{{1|Af-Soomaali}}}}}]]|bulshada afka}}, bogga waa in wax lagu biiriyo {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Luuqadda Wikibidhiya {{ucfirst:{{{1|Af-Ingiriisi}}}}}]] | Wikibidhiya ee luqadda }}. Eeg [[meta:List of Wikipedias|Liiska luqadda Wikibidhiya]].
 
 Artikel yang tidak diterjemahkan dapat dihapus secara cepat [[Wikipedia:Kriteria penghapusan cepat#A2|sesuai kriteria A2]].
 
