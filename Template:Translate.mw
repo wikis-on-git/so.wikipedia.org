@@ -1,0 +1,18 @@
+{{SAFESUBST:<noinclude />#invoke:Unsubst||listed=no|$B={{#ifeq:{{{ucfirst:{{{1}}}}}|English|<big>'''{{Error|Error: cannot translate from English to English.}}'''</big>
+|{{Ambox
+| name  = Not English
+| type = content
+| class = ambox-not_English
+| image = [[File:Translation to english arrow.svg|50px|Terjemahkan ke bahasa Indonesia]]
+| text = '''{{{2|{{#if:{{NAMESPACE}}|Halaman|Artikel}}}}} ini perlu [[Wikipedia:Panduan dalam menerjemahkan artikel|diterjemahkan]] {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | dari [[bahasa {{ucfirst:{{{1|inggris}}}}}]] ke | ke }} bahasa Indonesia.''' <br />
+{{{2|{{#if:{{NAMESPACE}}|Halaman|Artikel}}}}} ini ditulis atau diterjemahkan secara buruk dari Wikipedia {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[bahasa {{ucfirst:{{{1|inggris}}}}}]] | bahasa selain Indonesia }}. Jika halaman ini ditujukan untuk {{#if:{{{1|}}}|komunitas [[bahasa {{ucfirst:{{{1|inggris}}}}}]]|komunitas berbahasa tersebut}}, halaman itu harus dikontribusikan ke {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Wikipedia bahasa {{ucfirst:{{{1|inggris}}}}}]] | Wikipedia bahasa tersebut }}. Lihat [[meta:List of Wikipedias|daftar bahasa Wikipedia]].
+
+Artikel yang tidak diterjemahkan dapat dihapus secara cepat [[Wikipedia:Kriteria penghapusan cepat#A2|sesuai kriteria A2]].
+
+Jika Anda ingin memeriksa artikel ini, Anda boleh menggunakan mesin penerjemah. Namun ingat, '''mohon tidak menyalin hasil terjemahan tersebut ke artikel, karena umumnya merupakan terjemahan berkualitas rendah'''.
+}}{{#switch:{{NAMESPACE}}|Pengguna|Pembicaraan Pengguna|Pembicaraan=|Templat=
+[[Kategori:Templat yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}}|{{PAGENAME}}]]|#default=<nowiki />
+[[Kategori:Artikel yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}}|{{PAGENAME}}]][[Kategori:Artikel yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}} {{#time: F | {{REVISIONTIMESTAMP}} }} {{#time: Y | {{REVISIONTIMESTAMP}} }}|{{PAGENAME}}]]}}{{#if:{{{topik|}}}|[[Kategori:Artikel yang perlu diperbaiki bertopik {{{topik}}}]]}}}}<includeonly>{{main other|{{NOINDEX}}}}</includeonly>}}<noinclude>
+{{Documentation}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS TO THE /doc SUBPAGE, THANKS -->
+</noinclude>
