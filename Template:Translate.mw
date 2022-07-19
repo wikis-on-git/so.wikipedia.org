@@ -3,8 +3,8 @@
 | name  = Not English
 | type = content
 | class = ambox-not_English
-| image = [[File:Translation to english arrow.svg|50px|Terjemahkan ke bahasa Indonesia]]
-| text = '''{{{2|{{#if:{{NAMESPACE}}|Halaman|Artikel}}}}} ini perlu [[Wikipedia:Panduan dalam menerjemahkan artikel|diterjemahkan]] {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | dari [[bahasa {{ucfirst:{{{1|inggris}}}}}]] ke | ke }} bahasa Indonesia.''' <br />
+| image = [[File:Translation to english arrow.svg|50px|Soomaali u tarjun]]
+| text = '''{{{2|{{#if:{{NAMESPACE}}|Maqaalkani|Maqaalkani}}}}} tani waa lagama maarmaan [[Wikipedia:Hagaha tarjumaadda maqaallada|la turjumay]] {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | dari [[Ingiriisi {{ucfirst:{{{1|}}}}}]] ku | ku }} Soomaali.''' <br />
 {{{2|{{#if:{{NAMESPACE}}|Halaman|Artikel}}}}} ini ditulis atau diterjemahkan secara buruk dari Wikipedia {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[bahasa {{ucfirst:{{{1|inggris}}}}}]] | bahasa selain Indonesia }}. Jika halaman ini ditujukan untuk {{#if:{{{1|}}}|komunitas [[bahasa {{ucfirst:{{{1|inggris}}}}}]]|komunitas berbahasa tersebut}}, halaman itu harus dikontribusikan ke {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Wikipedia bahasa {{ucfirst:{{{1|inggris}}}}}]] | Wikipedia bahasa tersebut }}. Lihat [[meta:List of Wikipedias|daftar bahasa Wikipedia]].
 
 Artikel yang tidak diterjemahkan dapat dihapus secara cepat [[Wikipedia:Kriteria penghapusan cepat#A2|sesuai kriteria A2]].
