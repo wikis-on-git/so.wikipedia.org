@@ -5,11 +5,11 @@
 | class = ambox-not_English
 | image = [[File:Translation to english arrow.svg|50px|Soomaali u tarjun]]
 | text = '''{{{2|{{#if:{{NAMESPACE}}|Maqaalkani|Maqaalkani}}}}} tani waa lagama maarmaan [[Wikipedia:Hagaha tarjumaadda maqaallada|la turjumay]] {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | ka [[Ingiriisi {{ucfirst:{{{1|}}}}}]] ku | ku }} Soomaali.''' <br />
-{{{2|{{#if:{{NAMESPACE}}|Halaman|Maqaalkani}}}}} si xun ayaa looga qoray ama looga turjumay Wikibidhiya {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[{{ucfirst:{{{1|inggris}}}}}]] | luqadaha aan Soomaaliga ahayn}}. Haddii boggan loogu talagalay {{#if:{{{1|}}}|bulshada {{ucfirst:{{{1|Af-Soomaali}}}}}]]|bulshada afka}}, bogga waa in wax lagu biiriyo {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Luuqadda Wikibidhiya {{ucfirst:{{{1|Af-Ingiriisi}}}}}]] | Wikibidhiya ee luqadda }}. Eeg [[meta:List of Wikipedias|Liiska luqadda Wikibidhiya]].
+{{{2|{{#if:{{NAMESPACE}}|Halaman|Maqaalkani}}}}} si xun ayaa looga qoray ama looga turjumay Wikibidhiya {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[{{ucfirst:{{{1|Ingiriisi}}}}}]] | luqadaha aan Soomaaliga ahayn}}. Haddii boggan loogu talagalay {{#if:{{{1|}}}|bulshada {{ucfirst:{{{1|Af-Soomaali}}}}}]]|bulshada afka}}, bogga waa in wax lagu biiriyo {{#if: {{Mw lang|fn=is_name|{{{1}}}}} | [[:{{lang2iso|{{{1}}}}}:{{!}}Luuqadda Wikibidhiya {{ucfirst:{{{1|Af-Ingiriisi}}}}}]] | Wikibidhiya ee luqadda }}. Eeg [[meta:List of Wikipedias|Liiska luqadda Wikibidhiya]].
 
-Artikel yang tidak diterjemahkan dapat dihapus secara cepat [[Wikipedia:Kriteria penghapusan cepat#A2|sesuai kriteria A2]].
+Maqaallada aan latarjumin si dhakhso ah ayaa loo tirtiri karaa  [[Wikipedia:Shuruudaha tirtirka degdega ah#A2|sida ku cad shuruudaha A2]].
 
-Jika Anda ingin memeriksa artikel ini, Anda boleh menggunakan mesin penerjemah. Namun ingat, '''mohon tidak menyalin hasil terjemahan tersebut ke artikel, karena umumnya merupakan terjemahan berkualitas rendah'''.
+Haddii aad rabto inaad hubiso maqaalkan, waxaad isticmaali kartaa turjumaan mashiinka. Si kastaba ha ahaatee, xasuusnoow, ''Fadlan ha ku koobiyn natiijada tarjumaada maqaalka, sababtoo ah guud ahaan waa turjumaad tayo hoose leh''.
 }}{{#switch:{{NAMESPACE}}|Pengguna|Pembicaraan Pengguna|Pembicaraan=|Templat=
 [[Kategori:Templat yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}}|{{PAGENAME}}]]|#default=<nowiki />
 [[Kategori:Artikel yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}}|{{PAGENAME}}]][[Kategori:Artikel yang perlu diterjemahkan dari bahasa {{ucfirst:{{{1|inggris}}}}} {{#time: F | {{REVISIONTIMESTAMP}} }} {{#time: Y | {{REVISIONTIMESTAMP}} }}|{{PAGENAME}}]]}}{{#if:{{{topik|}}}|[[Kategori:Artikel yang perlu diperbaiki bertopik {{{topik}}}]]}}}}<includeonly>{{main other|{{NOINDEX}}}}</includeonly>}}<noinclude>
