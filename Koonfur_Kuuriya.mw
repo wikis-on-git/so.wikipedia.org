@@ -9,15 +9,15 @@
 | image_coat             = 
 | alt_coat               = Centered taegeuk on a hibiscus syriacus surrounded by five stylized petals and a ribbon
 | symbol_type            = Emblem
-| national_motto         = {{lang|ko|홍익인간}} (''de facto'')<br />{{transl|ko|[[Hongik Ingan]]}}<br />"To broadly benefit the human world"<ref name="lie">{{cite journal|url=http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf|page=6|title=A New Way of Seeing Country Social Responsibility|journal=Faculty of Philosophy and Social-Political Sciences |access-date=16 January 2014|url-status=dead|archive-url=https://web.archive.org/web/20130925143746/http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf |archive-date = 25 September 2013}}</ref>
-| anthem                 = {{lang|ko|애국가}}<br />{{transl|ko|[[Aegukga]]}}<br />"The Patriotic Song"<div style="position: relative; top:0.2em;">{{center|[[File:National anthem of South Korea, performed by the United States Navy Band.wav]]}}</div>
+| national_motto         = {{lang|ko|홍익인간}} (''de facto'')<Br/>{{transl|ko|[[Hongik Ingan]]}}<br />"To broadly benefit the human world"<Ref name="lie">{{cite journal|url=http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf|page=6|title=A New Way of Seeing Country Social Responsibility|journal=Faculty of Philosophy and Social-Political Sciences |access-date=16 January 2014|url-status=dead|archive-url=https://web.archive.org/web/20130925143746/http://www.fssp.uaic.ro/argumentum/Numarul%2010%20%282%29/Articol%20Cozmiuc.pdf |archive-date = 25 September 2013}}</ref>
+| anthem                 = {{lang|ko|애국가}}<Br/>{{transl|ko|[[Aegukga]]}}<Br/>"The Patriotic Song"<div style="position: relative; top:0.2em;">{{center|[[File:National anthem of South Korea, performed by the United States Navy Band.wav]]}}</div>
 | image_map              = Republic of Korea (orthographic projection).svg
 | map_width              = 250px
 | alt_map                = 
 | map_caption            = Dark green: Territory controlled by Republic of Korea <br/> Lighter green: Territory claimed but uncontrolled by Republic of Korea
 | capital                = [[Seoul]]<br />{{Coord|37|33|N|126|58|E|type:city}}
 | largest_city           = capital
-| official_languages     = [[Korean language|Korean]] ([[South Korean standard language|Pyojuneo]])<br />[[Korean Sign Language]]<ref>{{cite web |url=http://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EA%B5%AD%EC%88%98%ED%99%94%EC%96%B8%EC%96%B4%EB%B2%95/(13978,20160203) |script-title=ko:[시행 2016.8.4.] [법률 제13978호, 2016.2.3., 제정]|trans-title=Enforcement 2016.8.4. Law No. 13978, enacted on February 3, 2016|language=ko |year=2016 |access-date=26 July 2017}}</ref>
+| official_languages     = [[Korean language|Korean]] ([[South Korean standard language|Pyojuneo]])<br />[[Korean Sign Language]]<Ref>{{cite web |url=http://www.law.go.kr/%EB%B2%95%EB%A0%B9/%ED%95%9C%EA%B5%AD%EC%88%98%ED%99%94%EC%96%B8%EC%96%B4%EB%B2%95/(13978,20160203) |script-title=ko:[시행 2016.8.4.] [법률 제13978호, 2016.2.3., 제정]|trans-title=Enforcement 2016.8.4. Law No. 13978, enacted on February 3, 2016|language=ko |year=2016 |access-date=26 July 2017}}</ref>
 | languages_type         = [[Official script]]
 | languages              = [[Hangul]]
 | ethnic_groups          = {{plainlist|
@@ -73,7 +73,7 @@
 | population_estimate_rank = 27th
 | population_density_km2   = 507
 | population_density_rank  = 13th
-| GDP_PPP                  = {{increase}} $2.436 trillion<ref name="IMFWEOKR">{{cite web |url=https://www.imf.org/en/Publications/WEO/weo-database/2020/October/weo-report?c=542,&s=NGDPD,PPPGDP,NGDPDPC,PPPPC,&sy=2019&ey=2020&ssm=0&scsm=1&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1|title=World Economic Outlook Database, October 2020 |publisher=[[International Monetary Fund]] |website=IMF.org |access-date=14 October 2020}}</ref>
+| GDP_PPP                  = {{increase}} $2.436 trillion<ref name="IMFWEOKR">{{cite web |url=https://www.imf.org/en/Publications/WEO/weo-database/2020/October/weo-report?c=542,&s=NGDPD,PPPGDP,NGDPDPC,PPPPC,&sy=2019&ey=2020&ssm=0&scsm=1&scc=0&ssd=1&ssc=0&sic=0&sort=country&ds=.&br=1|title=World Economic Outlook Database, October 2020 |publisher=[[International Monetary Fund]] |website=IMF.org |access-date=14 October 2020}}</Ref>
 | GDP_PPP_year            = 2021
 | GDP_PPP_rank            = 14th
 | GDP_PPP_per_capita      = {{increase}} $47,027<ref name="IMFWEOKR" />
@@ -81,7 +81,7 @@
 | GDP_nominal             = {{increase}} $1.806 trillion<ref name="IMFWEOKR" />
 | GDP_nominal_year        = 2021
 | GDP_nominal_rank        = 10th
-| GDP_nominal_per_capita  = {{increase}} $34,866<ref name="IMFWEOKR" />
+| GDP_nominal_per_capita  = {{increase}} $30,998<ref name="IMFWEOKR" />
 | GDP_nominal_per_capita_rank = 28th
 | Gini                    = 34.5
 | Gini_year               = 2018
@@ -141,13 +141,18 @@
 }}
 
 [[File:Busan_tower_view_074.jpg|thumb|right|193px|부산타워뷰.]]
-[[File:Korea exchange.JPG|thumb|right|194px|한국증권거래소.]]
+
 [[File:Gangnam_Seoul_January_2009.jpg|thumb|right|194px|강남 지역은 서울의 남쪽에 위치하고 있습니다.]]
-[[File:Myeongdong_Neon_at_Night,_Seoul.jpg|thumb|right|195px|
-[[File:Korea-Seoul-Yeouido-LG_Twin_building-01.jpg|thumb|centre|195px|]]
-서울 명동구의 네온사인.]]
-'''Koonfur Kuuriya''' (남한, 南韓) ama '''Jamhuuriyadda Kuuriya''' (대한민국, 大韓民國) waa wadan yar oo ku yaalo [[bari]]ga Aasiya. magaalo madaxda wadanka waa Seoul. Koonfur Kuuriya iyo [[Waqooyiga Kuuriya]] markii hore waxaa la isku dhihi jiray Kuuriya, waxeena kala go'een sanadka marka oo ahaa 1950kii, marka ee dagaalo xun dhaxmareen labada qeebood. Korea oo dhan waxaa soo gumeestay wadanka japaan 1910kii ilaa 1945kii..
-Dalka kuuriya koon fured waa dal kuyaalo qaarada aasiya
+
+[[File:Korea exchange.JPG|thumb|right|194px|한국증권거래소.]]
+
+[[File:Myeongdong_Neon_at_Night,_Seoul.jpg|thumb|right|195px|서울 명동구의 네온사인.]]
+
+[[File:Korea-Seoul-Yeouido-LG_Twin_building-01.jpg|thumb|left|195px|]]
+
+'''Koonfur Kuuriya''' (남한, 南韓) ama '''Jamhuuriyadda Kuuriya''' (대한민국, 大韓民國) waa wadan yar oo ku yaalo [[bari]]ga Aasiya. magaalo madaxda wadanka waa Seoul. Koonfur Kuuriya iyo [[Waqooyiga Kuuriya]] markii hore waxaa la isku dhihi jiray Kuuriya, waxeena kala go'een sanadka marka oo ahaa 1950kii, marka ee dagaalo xun dhaxmareen labada qeebood. Korea oo dhan waxaa soo gumeestay wadanka japaan 1910kii ilaa 1945kii.
+Dalka kuuriya koon fured waa dal kuyaalo qaarada aasiya.
+
 ==Xubin==
 * [[ADB]] * 
 * [[AIIB]] * *
@@ -158,7 +163,7 @@ Dalka kuuriya koon fured waa dal kuyaalo qaarada aasiya
 * [[Qaramada Midoobay]] * * *
 
 ==Waddanamaha degaan Koonfur korea==
-*'''{{Flag|South Korea}}''' 40,000,000+
+*'''{{Flag|South Korea}}''' 49,000,000+
 * {{Flag|United Kingdom}} 3,000+
 * {{Flag|United States}} 20,000+
 
