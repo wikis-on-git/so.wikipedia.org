@@ -1,0 +1,203 @@
+<cite style="font-style:normal" {{#if:{{{Ref|}}}
+  |{{#ifeq:{{{Ref|}|}}|none||id="{{{Ref|}}}"}}
+  |id="CITEREF{{#if:{{{Surname1|}}}
+     |{{{Surname1}}}{{{Surname2|}}}{{{Surname3|}}}{{{Surname4|}}}
+     |{{{EditorSurname1|}}}{{{EditorSurname2|}}}{{{EditorSurname3|}}}{{{EditorSurname4|}}}
+   }}{{{Year|{{{Date|}}}}}}"
+}}>{{
+<!--============  Author or editor and date  ============-->
+  #if:{{{Surname1|}}}
+  |{{Citation/authors
+     | Surname1 = {{{Surname1|}}}
+     | Given1 = {{{Given1|}}}
+     | Authorlink1 = {{{Authorlink1|}}}
+     | Surname2 = {{{Surname2|}}}
+     | Given2 = {{{Given2|}}}
+     | Authorlink2 = {{{Authorlink2|}}}
+     | Surname3 = {{{Surname3|}}}
+     | Given3 = {{{Given3|}}}
+     | Authorlink3 = {{{Authorlink3|}}}
+     | Surname4 = {{{Surname4|}}}
+     | Given4 = {{{Given4|}}}
+     | Authorlink4 = {{{Authorlink4|}}}
+   }}{{
+     #if: {{{Date|}}}
+     |&#32;({{{Date}}})
+   }}
+  |{{
+     #if: {{{EditorSurname1|}}}
+     |{{Citation/authors
+        | Surname1 = {{{EditorSurname1|}}}
+        | Given1 = {{{EditorGiven1|}}}
+        | Authorlink1 = {{{Editorlink1|}}}
+        | Surname2 = {{{EditorSurname2|}}}
+        | Given2 = {{{EditorGiven2|}}}
+        | Authorlink2 = {{{Editorlink2|}}}
+        | Surname3 = {{{EditorSurname3|}}}
+        | Given3 = {{{EditorGiven3|}}}
+        | Authorlink3 = {{{Editorlink3|}}}
+        | Surname4 = {{{EditorSurname4|}}}
+        | Given4 = {{{EditorGiven4|}}}
+        | Authorlink4 = {{{Editorlink4|}}}
+      }}, ed{{#if:{{{EditorSurname2|}}}|s}}.{{
+        #if: {{{Date|}}}
+        |&#32;({{{Date}}})
+      }}
+     |{{
+        #if: {{{Date|}}}
+        |{{{Date}}}
+      }}
+   }}
+}}{{
+<!--============  Title and editor of included work  ============-->
+  #if: {{{EditorSurname1|}}}
+  |{{
+     #if: {{{IncludedWorkTitle|}}}
+     |, {{Link
+        | 1={{{IncludedWorkURL|}}}
+        | 2={{
+              #if: {{{Periodical|}}}
+              |{{{IncludedWorkTitle}}}
+              |"{{{IncludedWorkTitle}}}"
+            }}
+      }}
+   }}{{
+     #if:{{{Surname1|}}}
+     |, in {{Citation/authors
+        | Surname1 = {{{EditorSurname1|}}}
+        | Given1 = {{{EditorGiven1|}}}
+        | Authorlink1 = {{{Editorlink1|}}}
+        | Surname2 = {{{EditorSurname2|}}}
+        | Given2 = {{{EditorGiven2|}}}
+        | Authorlink2 = {{{Editorlink2|}}}
+        | Surname3 = {{{EditorSurname3|}}}
+        | Given3 = {{{EditorGiven3|}}}
+        | Authorlink3 = {{{Editorlink3|}}}
+        | Surname4 = {{{EditorSurname4|}}}
+        | Given4 = {{{EditorGiven4|}}}
+        | Authorlink4 = {{{Editorlink4|}}}
+      }}
+   }}
+  |{{
+     #if: {{{IncludedWorkTitle|}}}
+     |, {{Link
+        | 1={{{IncludedWorkURL|}}}
+        | 2={{
+              #if: {{{Periodical|}}}
+              |{{{IncludedWorkTitle}}}
+              |"{{{IncludedWorkTitle}}}"
+            }}
+      }}
+   }}
+}}{{
+  <!--============  Periodicals  ============-->
+  #if: {{{Periodical|}}}
+  |{{
+     #if: {{{Surname1|}}}
+     |,&#32;
+     |{{
+        #if: {{{Editor1|}}}
+        |,&#32;
+        |{{
+           #if: {{{Date|}}}
+           |,&#32;
+         }}
+      }}
+   }}{{
+     #if: {{{Title|}}}
+     |{{
+        #if: {{{URL|}}}
+        |[{{{URL}}} "{{{Title}}}"],
+        |"{{{Title}}}",
+      }}
+   }} ''{{{Periodical}}}''{{
+     #if: {{{Volume|}}}
+     |&#32;{{{Volume}}}{{
+        #if: {{{Issue|}}}
+        |({{{Issue}}})
+      }}
+     |{{
+        #if: {{{Issue|}}}
+        |&#32;(no. {{{Issue}}})
+      }}
+   }}{{
+     #if: {{{Pages|}}}
+     |<nowiki>: </nowiki> {{{Pages|}}}
+   }}
+  |{{
+     <!--============ Anything else with a title, including books ============-->
+     #if: {{{Title|}}}
+     |{{
+        #if: {{{Surname1|}}}
+        |,&#32;
+        |{{
+           #if: {{{Editor1|}}}
+           |,&#32;
+           |{{
+              #if: {{{Date|}}}
+              |,&#32;
+            }}
+         }}
+      }}{{
+        #if: {{{URL|}}}
+        |''[{{{URL}}} {{{Title}}}]''
+        |''{{{Title}}}''
+      }}{{
+        #if: {{{Volume|}}}
+        |, vol. {{{Volume}}}
+      }}{{
+        #if: {{{Edition|}}}
+        |&#32;({{{Edition}}} ed.)
+      }}{{
+        #if: {{{Place|}}}
+        |, {{{Place}}}
+      }}{{
+        #if: {{{Publisher|}}}
+        |{{
+           #if: {{{Place|}}}
+           |<nowiki>:</nowiki>
+           |,
+         }} {{{Publisher}}}
+      }}
+   }}
+}}{{
+<!--============  Location of included work, and Pub. date  ============-->
+  #if: {{{EditorSurname1|}}}
+  |{{
+     #if: {{{PublicationDate|}}}
+     |{{
+        #ifeq: {{{PublicationDate|}}} | {{{Date|}}}
+        |
+        |, {{{PublicationDate|}}}
+      }}
+   }}{{
+     #if: {{{IncludedWorkPages|}}}
+     |{{
+        #ifeq: {{{IncludedWorkPages|}}} | {{{Pages|}}}
+        |
+        |, at {{{IncludedWorkPages|}}}
+      }}
+   }}
+}}{{
+<!--============ Identifiers, Misc. ============-->
+  #if: {{{ID|}}}
+  |, {{{ID}}}
+  |{{
+     #if: {{{ISBN|}}}
+     |, ISBN {{{ISBN}}}
+   }}{{
+     #if: {{{OCLC|}}}
+     |, [[OCLC]] [http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}]
+   }}{{
+     #if: {{{DOI|}}}
+     |, [[Digital object identifier|DOI]]:[http://dx.doi.org/{{{DOI}}} {{{DOI}}}]
+   }}
+}}{{
+  #if: {{{URL|}}}
+  |{{
+     #if: {{{AccessDate|}}}
+     |<nowiki> [</nowiki>link accessed {{{AccessDate}}}<nowiki>]</nowiki>
+   }}
+}}</cite><noinclude>
+[[Category:Citation templates]]
+</noinclude>
