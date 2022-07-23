@@ -1,0 +1,87 @@
+{{
+  #if: {{{inventor-surname|{{{inventor1-surname|{{{inventor-last|{{{inventor1-last|{{{inventor|}}}}}}}}}}}}}}}
+<!--
+    CITATIONS FOR PATENTS
+-->
+|{{Citation/patent
+ |Surname1 = {{{inventor-surname|{{{inventor1-surname|{{{inventor-last|{{{inventor1-last|{{{inventor}}}}}}}}}}}}}}}
+ |Surname2={{{inventor2-surname|{{{inventor2-last|{{{inventor2|}}}}}}}}}
+ |Surname3={{{inventor3-surname|{{{inventor3-last|{{{inventor3|}}}}}}}}}
+ |Surname4={{{inventor4-surname|{{{inventor4-last|{{{inventor4|}}}}}}}}}
+ |Given1 = {{{inventor-given|{{{inventor1-given|{{{inventor-first|{{{inventor1-first|}}}}}}}}}}}}
+ |Given2={{{inventor2-given|{{{inventor2-first|}}}}}}
+ |Given3={{{inventor3-given|{{{inventor3-first|}}}}}}
+ |Given4={{{inventor4-given|{{{inventor4-first|}}}}}}
+ |Inventorlink1={{{inventorlink1|{{{inventorlink|}}}}}}
+ |Inventorlink2={{{inventorlink2|}}}
+ |Inventorlink3={{{inventorlink3|}}}
+ |Inventorlink4={{{inventorlink4|}}}
+ |Title={{{title|}}}
+ |CountryCode={{{country-code}}}
+ |PublicationNumber={{{publication-number|{{{patent-number}}}}}}
+ |Description={{{description|}}}
+ |PublicationDate={{{publication-date|}}}
+ |IssueDate={{{issue-date|}}}
+ |Year={{{year}}}
+}}
+
+<!--
+    CITATIONS FOR THINGS LIKE BOOKS AND PERIODICALS
+-->
+|{{Citation/core/testing
+  |Surname1 = {{{Surname|{{{Last|{{{Surname1|{{{Last1|{{{surname|{{{last|{{{surname1|{{{last1|{{{Author1|{{{author1|{{{Author|{{{author|}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
+  |Surname2 = {{{Surname2|{{{Last2|{{{surname2|{{{last2|{{{Author2|{{{author2|}}}}}}}}}}}}}}}}}}
+  |Surname3 = {{{Surname3|{{{Last3|{{{surname3|{{{last3|{{{Author3|{{{author3|}}}}}}}}}}}}}}}}}}
+  |Surname4 = {{{Surname4|{{{Last4|{{{surname4|{{{last4|{{{Author4|{{{author4|}}}}}}}}}}}}}}}}}}
+  |Given1 = {{{Given1|{{{First1|{{{Given|{{{First|{{{given1|{{{first1|{{{given|{{{first|}}}}}}}}}}}}}}}}}}}}}}}}
+  |Given2 = {{{Given2|{{{First2|{{{given2|{{{first2|}}}}}}}}}}}}
+  |Given3 = {{{Given3|{{{First3|{{{given3|{{{first3|}}}}}}}}}}}}
+  |Given4 = {{{Given4|{{{First4|{{{given4|{{{first4|}}}}}}}}}}}}
+  |Authorlink1={{{Authorlink1|{{{authorlink1|{{{Authorlink|{{{authorlink|}}}}}}}}}}}}
+  |Authorlink2={{{Authorlink2|{{{authorlink2|}}}}}}
+  |Authorlink3={{{Authorlink3|{{{authorlink3|}}}}}}
+  |Authorlink4={{{Authorlink4|{{{authorlink4|}}}}}}
+  |Year={{{year|{{{Year|{{    <!-- attempt to derive year from date, if possible -->
+             #if: {{{date|{{{Date|}}}}}}
+             |{{
+                #switch: {{#time:Y|{{{date|{{{Date|}}}}}}}}
+                |Error: invalid time = {{{publication-year|{{{publication-date|}}}}}}
+                |{{#time:Y|{{{date|{{{Date|}}}}}}}}
+              }}
+             |{{{publication-year|{{{publication-date|}}}}}} <!-- last resort -->
+           }}
+        }}}}}}
+   |Date = {{{date|{{{Date|{{{year|{{{Year|{{{publication-date|{{{publication-year|}}}}}}}}}}}}}}}}}}
+  |Title={{{Title|{{{title|}}}}}}
+  |URL={{{URL|{{{url|}}}}}}
+  |Periodical = {{{Periodical|{{{Journal|{{{periodical|{{{journal|{{{newspaper|{{{magazine|{{{proceedings|}}}}}}}}}}}}}}}}}}}}}
+  |Volume={{{Volume|{{{volume|}}}}}}
+   |Issue={{{Issue|{{{Number|{{{issue|{{{number|}}}}}}}}}}}}
+  |Pages={{{Pages|{{{pages|{{{Page|{{{page|}}}}}}}}}}}}
+  |Page={{{Page|{{{page|{{{Pages|{{{pages|}}}}}}}}}}}}
+  |IncludedWorkTitle={{{Chapter|{{{Contribution|{{{chapter|{{{contribution|}}}}}}}}}}}}
+  |IncludedWorkURL={{{ChapterURL|{{{chapterurl|{{{chapter-url|}}}}}}}}}
+  |Edition={{{Edition|{{{edition|}}}}}}
+  |Place={{{Place|{{{place|}}}}}}
+  |Publisher={{{Publisher|{{{publisher|}}}}}}
+  |PublicationDate={{{publication-date|{{{publication-year|}}}}}}
+  |EditorSurname1 = {{{editor-surname|{{{editor1-surname|{{{editor-last|{{{editor1-last|{{{Editor|{{{editor|}}}}}}}}}}}}}}}}}}
+  |EditorSurname2={{{editor2-surname|{{{editor2-last|}}}}}}
+  |EditorSurname3={{{editor3-surname|{{{editor3-last|}}}}}}
+  |EditorSurname4={{{editor4-surname|{{{editor4-last|}}}}}}
+  |EditorGiven1 = {{{editor1-given|{{{editor1-first|{{{editor-given|{{{editor-first|}}}}}}}}}}}}
+  |EditorGiven2={{{editor2-given|{{{editor2-first|}}}}}}
+  |EditorGiven3={{{editor3-given|{{{editor3-first|}}}}}}
+  |EditorGiven4={{{editor4-given|{{{editor4-first|}}}}}}
+  |Editorlink1={{{editorlink1|{{{editorlink|}}}}}}
+  |Editorlink2={{{editorlink2|}}}
+  |Editorlink3={{{editorlink3|}}}
+  |Editorlink4={{{editorlink4|}}}
+  |ID={{{ID|{{{id|}}}}}}
+  |ISBN={{{ISBN|{{{isbn|}}}}}}
+  |DOI={{{doi|}}}
+  |AccessDate={{{Access-date|{{{accessdate|}}}}}}
+  |Ref={{{Ref|{{{ref|}}}}}}
+ }}
+}}<noinclude>{{documentation}}
+</noinclude>
