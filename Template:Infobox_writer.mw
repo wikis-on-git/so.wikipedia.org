@@ -47,7 +47,7 @@
 
 | label7  = Shaqo
 | class7  = role
-|  data7  = {{{occupation|}}}
+|  data7  = {{#if:{{{occupation|}}}|{{{occupation}}}|{{#invoke:Wikidata2|formatStatements|property=P106}}}}
 
 | label8  = Luuqad
 |  data8  = {{{language|}}}
