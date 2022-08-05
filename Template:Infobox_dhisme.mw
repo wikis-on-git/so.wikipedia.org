@@ -48,13 +48,13 @@
 |  data2    = {{{alternate_names|{{{alternate_name|}}}}}}
 | class2    = nickname
 
-| label3    = Etymology
+| label3    = Cilmiga asalka ereyada 
 |  data3    = {{{etymology|}}}
 
 | label4    = Tirada Huteelo
 |  data4    = {{{hotel_chain|{{{chain|}}}}}}
 
-| header5   = {{#if:{{{highest_prev|}}}{{{highest_next|}}}{{{highest_start|}}}{{{highest_end|}}}{{{highest_region|}}}|Record height}}
+| header5   = {{#if:{{{highest_prev|}}}{{{highest_next|}}}{{{highest_start|}}}{{{highest_end|}}}{{{highest_region|}}}|Dhererka diiwaanka}}
 
 |  data6    = {{#if:{{{highest_start|}}}{{{highest_end|}}}
     |Ugu dheer {{#if:{{{highest_region|}}}|{{{highest_region}}}|dunida}}<!--
