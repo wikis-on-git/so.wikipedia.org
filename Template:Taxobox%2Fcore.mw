@@ -59,7 +59,12 @@
 }}
 {{#if:{{{unranked_domain|}}}|
 {{!}} (darajo la'aan):
-{{!}} {{{unranked_superdomain}}}</span><br /><small>{{{unranked_superdomain_authority|}}}</small>
+{{!}} {{{unranked_domain}}}</span><br /><small>{{{unranked_superdomain_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_domain2|}}}|
+{{!}} (darajo la'aan):
+{{!}} {{{unranked_domain2}}}</span><br /><small>{{{unranked_domain2_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_regnum|}}}|
