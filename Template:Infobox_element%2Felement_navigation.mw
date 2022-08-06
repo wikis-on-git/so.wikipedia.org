@@ -1,0 +1,19 @@
+{{main other
+|<!-- main:  -->{{error|<nowiki>[[:Template:Infobox element/element navigation]]</nowiki> should not be used in mainspace}}
+|<!-- other: -->
+{{Infobox element/element navigation/format
+|sectionheader={{{sectionheader|}}}<!-- yes/no; adds h2 header -->
+|symbol={{{symbol|symbol}}}
+|name={{Infobox element/symbol-to-name|symbol={{{symbol|H}}}|default=}}
+|Z={{Infobox element/symbol-to-Z|symbol={{{symbol|H}}}|default=}}
+|wl={{{symbol|Xx}}}<!-- ? -->
+|symbol-west={{infobox element/symbol-to-symbol-NESW |symbol={{{symbol|}}} |direction=west}}
+|symbol-east={{infobox element/symbol-to-symbol-NESW |symbol={{{symbol|}}} |direction=east}}
+|block={{Infobox element/symbol-to-block|symbol={{{symbol|H}}}|default=unknown}}
+|qid={{Infobox element/symbol-to-QID|symbol={{{symbol|}}}|default=}}
+|aq={{Infobox element/symbol-to-article-quality|symbol={{{symbol|}}}|default=}}
+}}}}<!--
+
+-->{{Infobox element/symbol-to--overview1|symbol={{{symbol|}}}}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
