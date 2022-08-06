@@ -18,11 +18,11 @@
 {{!}}-
 }}
 }}
-|- colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}"
-{{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }} }}
-|-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinct={{{extinct|}}} }} }}
+|- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}"
+{{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinction_date={{{extinct|}}} }} }}
+|-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinction_date={{{extinct|}}} }} }}
 |-
-! colspan=2 style="min-width:15em; text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Egg fossil#Classification|Egg fossil classification]]|[[Taxonomy (biology)|Kala saarista cilmiga ah]]}} }} }} {{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}{{#if: {{{classification_status|}}} | <br/><span style="font-weight:normal">({{{classification_status}}})</span> | }}
+! colspan=2 style="min-width:15em; text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Egg fossil#Classification|Egg fossil classification]]|[[Taxonomy (biology)|Scientific classification]]}} }} }} {{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}{{#if: {{{classification_status|}}} | <br/><span style="font-weight:normal">({{{classification_status}}})</span> | }}
 |-
 {{#if:{{{parent|}}}|{{#invoke:Autotaxobox|taxoboxList|{{{parent}}}| display_taxa={{{display_taxa|1}}}| authority={{{authority|}}}| parent_authority={{{parent_authority|}}}| gparent_authority={{{grandparent_authority|}}}| ggparent_authority={{{greatgrandparent_authority|}}}| gggparent_authority={{{greatgreatgrandparent_authority|}}}| offset={{{offset|0}}}| bold_first={{{bold_first|{{#if:{{{species|}}}|link|bold}}}}}| virus={{{virus|no}}}}}}}
 {{#if:{{{virus_group|}}}|{{taxonomy|rank=group
@@ -145,7 +145,7 @@
 }}
 |- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2 style="text-align: center" {{!}} [[{{#switch:{{{regnum|}}}|[[Animalia]]|[[Animal]]ia|Animalia=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
+! colspan=2 style="text-align: center" {{!}} [[{{#switch:{{{regnum|}}}|[[Animalia]]|[[Animal]]ia|Animalia=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomial nomenclature}}|Trinomial name]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} <b><span class="trinomial">{{{trinomial}}}</span></b><br/><div style="font-size: 85%;">{{{trinomial_authority|}}}</div>
 }}
@@ -165,7 +165,7 @@
 {{#if:{{{type_oogenus|}}}|
 ! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour|}}} }}"{{!}} [[Type genus|Type oogenus]]
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnogenus}}}<br/><div style="font-size: 85%;">{{{type_oogenus_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} {{{type_oogenus}}}<br/><div style="font-size: 85%;">{{{type_oogenus_authority|}}}</div>
 }}
 |-
 {{#if:{{{type_species|}}}|
@@ -187,7 +187,7 @@
 }}
 |-
 {{#if:{{{type_strain|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type strain]]
+! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type strain]]{{#if:{{{type_strain_ref|}}}|{{{type_strain_ref}}}|}}
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_strain}}}
 }}
