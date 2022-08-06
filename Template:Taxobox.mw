@@ -1,12 +1,12 @@
 <includeonly>{| class="infobox biota" style="text-align:center; padding:2.5px; width:200px;"
 |- style="text-align:center;"
-! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"|{{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if: {{{fossil_range|}}}|<br /><small>Fossil range: {{{fossil_range}}}</small>}}
+! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"|{{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if: {{{fossil_range|}}}|<br /><small>Kala duwanaanshaha fosil: {{{fossil_range}}}</small>}}
 |- style="text-align:center;" 
 | {{#if:{{{image|}}}|[[image:{{{image}}}|{{{image_width|frameless}}}|{{{image_caption|}}}]]<br /><small><div style="text-align:center">{{{image_caption|}}}</div></small>}}
 {{#if:{{{image2|}}}|[[image:{{{image2}}}|{{{image2_width|frameless}}}|{{{image2_caption|}}}]]<br /><small><div style="text-align:center">{{{image2_caption|}}}</div></small>}}
 |-style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{status|}}}|
-! [[Conservation status]]
+! [[Heerka ilaalinta]]
 {{!}}-
 {{!}}
 <div style="text-align:center">{{#if:{{{status_system|}}}|{{#switch:{{{status_system}}}
@@ -149,7 +149,7 @@
   |{{{status}}}
 }}<small>{{{status_ref|}}}</small></div>}}}}
 |- style="text-align:center;"
-! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};" | {{#if:{{{virus_group|}}}|[[Virus classification]]|[[Biological classification|Scientific classification]]}}
+! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};" | {{#if:{{{virus_group|}}}|[[Kala saarista fayraska]]|[[Taxonomy (biology)|Kala sooca saynis ah]]}}
 |- style="text-align:center;"
 |
 {| style="margin:0 auto; text-align:left; background:transparent;" cellpadding="2"
