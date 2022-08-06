@@ -328,7 +328,7 @@
 {{!}}-
 }}
 {{#if:{{{binomial|}}}|
-! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Binomial nomenclature|Binomial name]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Magacyada laba-geesoodka ah|Magaca laba-geesoodka ah]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>
 {{!}}-
