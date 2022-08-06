@@ -48,222 +48,222 @@
 {{!}}-
 }}
 {{#if:{{{superdomain|}}}|
-{{!}} Superdomain:
+{{!}} Suberdomayn:
 {{!}} <span class="superdomain">{{{superdomain}}}</span><br /><small>{{{superdomain_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{domain|}}}|
-{{!}} Domain:
+{{!}} Domayn:
 {{!}} <span class="domain">{{{domain}}}</span><br /><small>{{{domain_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_regnum|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_regnum}}}<br /><small>{{{unranked_regnum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superregnum|}}}|
-{{!}} Superkingdom:
+{{!}} Suberboqortooyo:
 {{!}} {{{superregnum}}}<br /><small>{{{superregnum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{regnum|}}}|
-{{!}} Kingdom:
+{{!}} Boqortooyo:
 {{!}} <span class="kingdom">{{{regnum}}}</span><br /><small>{{{regnum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subregnum|}}}|
-{{!}} Subkingdom:
+{{!}} Subboqortooyo:
 {{!}} <span class="subkingdom">{{{subregnum}}}</span><br /><small>{{{subregnum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_phylum|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_phylum}}}<br /><small>{{{unranked_phylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superdivisio|}}}|
-{{!}} Superdivision:
+{{!}} Suberqaybsanaan:
 {{!}} <span class="superdivision">{{{superdivisio}}}</span><br /><small>{{{superdivisio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superphylum|}}}|
-{{!}} Superphylum:
+{{!}} Suberfiluum:
 {{!}} <span class="superphylum">{{{superphylum}}}</span><br /><small>{{{superphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{divisio|}}}|
-{{!}} Division:
+{{!}} Qaybinta:
 {{!}} <span class="division">{{{divisio}}}</span><br /><small>{{{divisio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_divisio|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_divisio}}}<br /><small>{{{unranked_divisio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{phylum|}}}|
-{{!}} Phylum:
+{{!}} Filuum:
 {{!}} <span class="phylum">{{{phylum}}}</span><br /><small>{{{phylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subdivisio|}}}|
-{{!}} Subdivision:
+{{!}} Qayb hoosaadka:
 {{!}} <span class="subdivision">{{{subdivisio}}}</span><br /><small>{{{subdivisio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subphylum|}}}|
-{{!}} Subphylum:
+{{!}} Subfiluum:
 {{!}} <span class="subphylum">{{{subphylum}}}</span><br /><small>{{{subphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraphylum|}}}|
-{{!}} Infraphylum:
+{{!}} Inferafiluum:
 {{!}} <span class="infraphylum">{{{infraphylum}}}</span><br /><small>{{{infraphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{microphylum|}}}|
-{{!}} Microphylum:
+{{!}} Migerofiluum:
 {{!}} <span class="microphylum">{{{microphylum}}}</span><br /><small>{{{microphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{nanophylum|}}}|
-{{!}} Nanophylum:
+{{!}} Nanofiluum:
 {{!}} <span class="nanophylum">{{{nanophylum}}}</span><br /><small>{{{nanophylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_classis|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_classis}}}<br /><small>{{{unranked_classis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superclassis|}}}|
-{{!}} Superclass:
+{{!}} Suberfasalka:
 {{!}} <span class="superclass">{{{superclassis}}}</span><br /><small>{{{superclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{classis|}}}|
-{{!}} Class:
+{{!}} Fasalka:
 {{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_subclassis|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_subclassis}}}<br /><small>{{{unranked_subclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subclassis|}}}|
-{{!}} Subclass:
+{{!}} Subfasalka:
 {{!}} <span class="subclass">{{{subclassis}}}</span><br /><small>{{{subclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_infraclassis|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_infraclassis}}}<br /><small>{{{unranked_infraclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraclassis|}}}|
-{{!}} Infraclass:
+{{!}} Inferafasalka:
 {{!}} <span class="infraclass">{{{infraclassis}}}</span><br /><small>{{{infraclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_ordo|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_ordo}}}<br /><small>{{{unranked_ordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{magnordo|}}}|
-{{!}} Magnorder:
+{{!}} Magnordo:
 {{!}} <span class="magnorder">{{{magnordo}}}</span><br /><small>{{{magnordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superordo|}}}|
-{{!}} Superorder:
+{{!}} Suberordo:
 {{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{ordo|}}}|
-{{!}} Order:
+{{!}} Ordo:
 {{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subordo|}}}|
-{{!}} Suborder:
+{{!}} Subordo:
 {{!}} <span class="suborder">{{{subordo}}}</span><br /><small>{{{subordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraordo|}}}|
-{{!}} Infraorder:
+{{!}} Inferaordo:
 {{!}} <span class="infraorder">{{{infraordo}}}</span><br /><small>{{{infraordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{parvordo|}}}|
-{{!}} Parvorder:
+{{!}} Parfordo:
 {{!}} <span class="parvorder">{{{parvordo}}}</span><br /><small>{{{parvordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{zoodivisio|}}}|
-{{!}} Division:
+{{!}} Qaybinta:
 {{!}} <span class="division">{{{zoodivisio}}}</span><br /><small>{{{zoodivisio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{zoosectio|}}}|
-{{!}} Section:
+{{!}} Qaybta:
 {{!}} <span class="section">{{{zoosectio}}}</span><br /><small>{{{zoosectio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{zoosubsectio|}}}|
-{{!}} Subsection:
+{{!}} Qaybta hoose:
 {{!}} <span class="subsection">{{{zoosubsectio}}}</span><br /><small>{{{zoosubsectio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_familia|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_familia}}}<br /><small>{{{unranked_familia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superfamilia|}}}|
-{{!}} Superfamily:
+{{!}} Qoyska sare:
 {{!}} <span class="superfamily">{{{superfamilia}}}</span><br /><small>{{{superfamilia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{familia|}}}|
-{{!}} Family:
+{{!}} Qoyska:
 {{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subfamilia|}}}|
-{{!}} Subfamily:
+{{!}} Qoys hoose:
 {{!}} <span class="subfamily">{{{subfamilia}}}</span><br /><small>{{{subfamilia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_tribus|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_tribus}}}<br /><small>{{{unranked_tribus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{supertribus|}}}|
-{{!}} Supertribe:
+{{!}} Qabiilka sare:
 {{!}} <span class="supertribe">{{{supertribus}}}</span><br /><small>{{{supertribus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{tribus|}}}|
-{{!}} Tribe:
+{{!}} Qabiil:
 {{!}} <span class="tribe">{{{tribus}}}</span><br /><small>{{{tribus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subtribus|}}}|
-{{!}} Subtribe:
+{{!}} Qabyaalad:
 {{!}} <span class="subtribe">{{{subtribus}}}</span><br /><small>{{{subtribus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{alliance|}}}|
-{{!}} Alliance:
+{{!}} Isbahaysiga:
 {{!}} {{{alliance}}}<br /><small>{{{alliance_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{unranked_genus|}}}|
-{{!}} (unranked):
+{{!}} (darajo la'aan):
 {{!}} {{{unranked_genus}}}<br /><small>{{{unranked_genus_authority|}}}</small>
 {{!}}-
 }}
@@ -273,57 +273,57 @@
 {{!}}-
 }}
 {{#if:{{{subgenus|}}}|
-{{!}} Subgenus:
+{{!}} Genus hoose:
 {{!}} <span class="subgenus">{{{subgenus}}}</span><br /><small>{{{subgenus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{sectio|}}}|
-{{!}} Section:
+{{!}} Qaybta:
 {{!}} <span class="section">{{{sectio}}}</span><br /><small>{{{sectio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subsectio|}}}|
-{{!}} Subsection:
+{{!}} Qaybta hoose:
 {{!}} <span class="subsection">{{{subsectio}}}</span><br /><small>{{{subsectio_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{series|}}}|
-{{!}} Series:
+{{!}} Taxane:
 {{!}} {{{series}}}<br /><small>{{{series_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subseries|}}}|
-{{!}} Subseries:
+{{!}} Subtaxane:
 {{!}} <span style="white-space: nowrap">{{{subseries}}}</span><br /><small>{{{subseries_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{species_group|}}}|
-{{!}} Species group:
+{{!}} Kooxda noocyada:
 {{!}} {{{species_group}}}<br /><small>{{{species_group_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{species_subgroup|}}}|
-{{!}} Species subgroup:
+{{!}} Noocyada koox-hoosaadka:
 {{!}} {{{species_subgroup}}}<br /><small>{{{species_subgroup_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{species_complex|}}}|
-{{!}} Species complex:
+{{!}} Noocyada isku dhafan:
 {{!}} {{{species_complex}}}<br /><small>{{{species_complex_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{species|}}}|
-{{!}} Species:
+{{!}} Noocyada:
 {{!}} <span style="white-space: nowrap">{{{species}}}</span><br /><small>{{{species_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subspecies|}}}|
-{{!}} Subspecies:
+{{!}} Noocyada kala duwan:
 {{!}} <span style="white-space: nowrap">{{{subspecies}}}</span><br /><small>{{{subspecies_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{variety|}}}|
-{{!}} Variety:
+{{!}} Kala duwan:
 {{!}} <span class="variety" style="white-space: nowrap">{{{variety}}}</span><br /><small>{{{variety_authority|}}}</small>
 {{!}}-
 }}
