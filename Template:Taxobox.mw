@@ -166,7 +166,7 @@
  |VII|vii=Group VII <small>([[dsDNA-RT virus|dsDNA-RT]])</small>
  |{{{virus_group}}}
 }}}}
-|-valign="top"
+|-valign="top"<center>
 {{#if:{{{superdomain|}}}|
 {{!}} Suberdomain:
 {{!}} <span class="superdomain">{{{superdomain}}}</span><br /><small>{{{superdomain_authority|}}}</small>}}
@@ -377,7 +377,7 @@
 |-valign="top"
 {{#if:{{{variety|}}}|
 {{!}} Kala duwan:
-{{!}} <span class="variety" style="white-space:nowrap;">{{{variety}}}</span><br /><small>{{{variety_authority|}}}</small>}}
+{{!}} <span class="variety" style="white-space:nowrap;">{{{variety}}}</span><br /><small>{{{variety_authority|}}}</small>}}</center>
 |}
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{diversity|}}}|
