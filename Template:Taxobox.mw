@@ -381,12 +381,12 @@
 |}
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{diversity|}}}|
-! [[{{{diversity_link}}}|Diversity]] {{#ifeq: {{NAMESPACEE}} | {{ns:0}} | [[Category:Articles using diversity taxobox]] | }}
+! [[{{{diversity_link}}}|Kala duwanaanshaha]] {{#ifeq: {{NAMESPACEE}} | {{ns:0}} | [[Category:Articles using diversity taxobox]] | }}
 {{!}}- style="text-align:center;"
 {{!}} {{{diversity|}}}}} 
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{binomial|}}}|
-! [[Binomial nomenclature|Binomial name]]
+! [[Binomial nomenclature|Magaca binomiyaal]]
 {{!}}- style="text-align:center;"
 {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>}}
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
@@ -396,17 +396,17 @@
 {{!}} '''{{{trinomial}}}'''<br /><small>{{{trinomial_authority|}}}</small>}}
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{type_genus|}}}|
-! [[Biological type|Type genus]]
+! [[Biological type|Nooca genus]]
 {{!}}- style="text-align:center;"
 {{!}} {{{type_genus}}}<br /><small>{{{type_genus_authority|}}}</small>}}
 |- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{type_species|}}}|
-! [[Biological type|Type species]]
+! [[Biological type|Noocyada nooca]]
 {{!}}- style="text-align:center;"
 {{!}} {{{type_species}}}<br /><small>{{{type_species_authority|}}}</small>}}
 {{#if:{{{type_strain|}}}|
 {{!}}- style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
-! [[Biological type|Type strain]]
+! [[Biological type|Nooca cadaadis]]
 {{!}}- style="text-align:center;"
 {{!}} {{{type_strain}}}}}
 |- style="text-align:center;" 
@@ -447,7 +447,7 @@
 {{{subdivision|}}} }}
 |-style="text-align:center; background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"
 {{#if:{{{synonyms|}}}|
-! [[Synonym (taxonomy)|Synonyms]]
+! [[La mid ah (tagsoonomi)|La mid ah]]
 {{!}}-
 {{!}} style="padding:0 .5em; text-align:left;" {{!}}
 {{{synonyms|}}} }}
