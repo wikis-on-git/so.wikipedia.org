@@ -191,6 +191,10 @@
 {{!}}  Subboqortooyada:
 {{!}} <span class="subkingdom">{{{subregnum}}}</span><br /><small>{{{subregnum_authority|}}}</small>}}
 |-valign="top"
+{{#if:{{{regnum|}}}|
+{{!}}  ''Klaad'':
+{{!}} <span class="clade">{{{clade}}}</span><br /><small>{{{clade_authority|}}}</small>}}
+|-valign="top"
 {{#if:{{{unranked_phylum|}}}|
 {{!}}  (darajo la'aan)
 {{!}} {{{unranked_phylum}}}<br /><small>{{{unranked_phylum_authority|}}}</small>}}
