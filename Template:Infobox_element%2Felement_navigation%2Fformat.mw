@@ -1,0 +1,61 @@
+<!--
+ add ==sectionheader== ?
+-->{{yesno|{{{sectionheader|yes}}}|yes=<h2>Element navigation</h2>|no=}}<!--
+
+ outer div
+--><div style="float:left; text-align:center; background:#f4f4f4; padding:2px; max-width:50%; border:0.7em solid #ECFCF4; margin:0 0.2em 0.2em 0;"><!--
+
+  Box header
+-->
+<div style="text-align:center; background:#e4e4e4;"><span style="visibility:hidden; float:left;">PT</span>'''{{Infobox element/symbol-to-name|symbol={{{symbol|symbol}}}|format=ucfirst, wl}}'''</div>
+{| style="margin:0 auto"
+|- 
+<!--
+
+ WEST (= Z minus 1) -->
+| style="width:4em;" | {{#if:{{{symbol-west|}}}|
+{{nowrap|1={{Infobox element/symbol-to-wl|symbol={{{symbol-west|}}}|default=}}&nbsp;&larr;}}<br/>
+{{nowrap|1=[[Template:Infobox_{{Infobox element/symbol-to-name|symbol={{{symbol-west|}}}|default=}}|{{small|1=i'box}}&nbsp;{{{symbol-west|west}}}]]}}
+}}<!-- 
+
+ ELEMENT CELL -->
+| {{element cell/index/element-navigation
+|symbol  = {{{symbol|}}}
+|name    = {{{name|}}}
+|Z       = {{{Z|<noinclude>0</noinclude>}}}
+|aq      = {{{aq|}}}
+|category-color={{element color|{{{category|}}}}}
+|block-color={{element color|{{{block|}}}}}
+|bgcolor={{element color|{{{block|}}}}}
+|aq-color= {{element color|aq-{{{aq|}}}}}
+|wl      = {{{wl|<noinclude>0</noinclude>}}}
+|qid     = {{{qid|}}}
+ }}<!--
+
+ EAST (= Z plus 1) -->
+| style="width:4em;" | {{#if:{{{symbol-east|}}}|
+{{nowrap|1=&rarr;&nbsp;{{Infobox element/symbol-to-wl|symbol={{{symbol-east|}}}|default=}}}}<br/>
+{{nowrap|1=[[Template:Infobox_{{Infobox element/symbol-to-name|symbol={{{symbol-east|}}}|default=}}|{{small|1=i'box}}&nbsp;{{{symbol-east|}}}]]}}
+}}<!--
+
+ FOOTER -->
+|-
+| colspan=3 style="text-align:left; background:#efefef;"| {{Unbulleted list
+| [[File:Commons-logo.svg|12px|Commons|alt=]]&nbsp;[[:commons:Category:{{{name|}}}|<small>Commons</small>]]
+| [[File:Wikidata-logo.svg|12px|Wikidata|alt=]]&nbsp;[[:wikidata:{{{qid|QID}}}|<small>Wikidata:{{{qid|QID}}}</small>]]
+| [[File:Wiktionary-logo.svg|12px|Wiktionary|alt=]]&nbsp;[[:wiktionary:{{{name|}}}#English|<small>Wiktionary</small>]]
+| <small>Indexes in PT:</small> [[#Template:Index to chemical element pages|<small>§ ''below''</small>]]{{middot|}}[[Template:Index to chemical element pages|<small>Page</small>]]
+}}
+|-
+| colspan=3 style="background:#eaeaea; text-align:right;"| {{navbar|e|template=Infobox element/element navigation/format|mini=1}}
+<!--
+
+ FOOTNOTE -->
+{{#if:{{{footnote|}}}|
+{{!}}- style="font-size: smaller; text-align:left; background:#efefef;"
+{{!}} colspan=3 {{!}} {{{footnote|}}}
+ }}
+|}
+</div>{{clear|left}}<!--
+
+--><noinclude>{{documentation}}</noinclude>
