@@ -1,219 +1,377 @@
-{| class="infobox biota" style="text-align: left; width: 200px; font-size: 100%"
+<includeonly>{| class="infobox biota" style="text-align: left; width: 200px" 
 |-
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}}| }}" | {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}} }}{{#if:{{{temporal_range|}}}|<br/><div style="font-size: 85%;">Temporal range: {{{temporal_range}}}</div>}}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|{{#if:{{{regnum|}}}||return_error}}}}}}} }}} }}} }}} }}} }} }}} }}}" | {{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if:{{{fossil_range|}}}|<br /><small>Fossil range: {{{fossil_range}}}</small>}}
 |-
 {{#if:{{{image|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image}}}|size={{{image_width|}}}|sizedefault=frameless|upright={{{upright|1}}}|alt={{{image_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{image}}}{{!}}{{#if:{{{image_width|}}}|{{{image_width}}}|frameless}}{{!}}alt={{{image_alt|}}}]]
 {{!}}-
 {{#if:{{{image_caption|}}}|
-{{!}} colspan=2 style="text-align: {{{image_caption_align|center}}}; font-size: 88%" {{!}} {{{image_caption}}}
+{{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{image_caption}}}
 {{!}}-
 }}
 }}
 {{#if:{{{image2|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image2}}}|size={{{image2_width|}}}|sizedefault=frameless|upright={{#if:{{{upright2|}}}|{{{upright2}}}|{{{upright|1}}}}}|alt={{{image2_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{image2}}}{{!}}{{#if:{{{image2_width|}}}|{{{image_width}}}|frameless}}{{!}}alt={{{image2_alt|}}}]]
 {{!}}-
 {{#if:{{{image2_caption|}}}|
 {{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{image2_caption}}}
 {{!}}-
 }}
 }}
-|- colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}"
-{{#if:{{{status|}}}|{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }} }}
-|-{{#if:{{{status2|}}}|{{taxobox/species|{{{status2_system|}}}|{{{status2|}}}|{{{status2_ref|}}}|extinct={{{extinct|}}} }} }}
+{{#if:{{{status|}}}|
+{{!-}} colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}} }}} }}} }}} }}} }} }}} }}}" 
+{{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }}
+}}
 |-
-! colspan=2 style="min-width:15em; text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" | {{#if:{{{virus_group|{{{virus|}}}}}}|[[Virus classification]]|{{#if:{{{ichnos|}}}|[[Trace fossil classification]]|{{#if:{{{veterovata|}}}|[[Egg fossil#Classification|Egg fossil classification]]|[[Taxonomy (biology)|Kala saarista cilmiga ah]]}} }} }} {{#if:{{{edit link|}}}|{{edit taxonomy|{{{parent|}}} | {{{edit link}}} }} }}{{#if: {{{classification_status|}}} | <br/><span style="font-weight:normal">({{{classification_status}}})</span> | }}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" | {{#if:{{{virus_group|}}}|[[Virus classification]]|[[Biological classification|Scientific classification]]}} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}
 |-
-{{#if:{{{parent|}}}|{{#invoke:Autotaxobox|taxoboxList|{{{parent}}}| display_taxa={{{display_taxa|1}}}| authority={{{authority|}}}| parent_authority={{{parent_authority|}}}| gparent_authority={{{grandparent_authority|}}}| ggparent_authority={{{greatgrandparent_authority|}}}| gggparent_authority={{{greatgreatgrandparent_authority|}}}| offset={{{offset|0}}}| bold_first={{{bold_first|{{#if:{{{species|}}}|link|bold}}}}}| virus={{{virus|no}}}}}}}
-{{#if:{{{virus_group|}}}|{{taxonomy|rank=group
-|link= {{#switch:{{lc:{{{virus_group}}} }}
- |i=Group I <small>([[dsDNA virus|dsDNA]])</small>
- |ii=Group II <small>([[ssDNA virus|ssDNA]])</small>
- |iii=Group III <small>([[Double-stranded RNA viruses|dsRNA]])</small>
- |iv=Group IV <small>([[Positive-sense single-stranded RNA virus|(+)ssRNA]])</small>
- |v=Group V <small>([[Negative-sense single-stranded RNA virus|(−)ssRNA]])</small>
- |vi=Group VI <small>([[ssRNA-RT virus|ssRNA-RT]])</small>
- |vi/vii=Groups VI and VII
- |vii=Group VII <small>([[dsDNA-RT virus|dsDNA-RT]])</small>
-
+{{#if:{{{parent|}}}|
+{{taxobox/taxonomy|{{{parent}}}|{{{display_taxa|}}}|authority={{{authority|}}}|parent_authority={{{parent_authority|}}}|grandparent_authority={{{grandparent_authority|}}}|greatgrandparent_authority={{{greatgrandparent_authority|}}}}}
+}}
+{{#if:{{{virus_group|}}}|
+{{!}} Group:
+{{!}} {{#switch:{{{virus_group}}}
+ |I|i=Group I <small>([[dsDNA virus|dsDNA]])</small>
+ |II|ii=Group II <small>([[ssDNA virus|ssDNA]])</small>
+ |III|iii=Group III <small>([[dsRNA virus|dsRNA]])</small>
+ |IV|iv=Group IV <small>([[Positive-sense ssRNA virus|(+)ssRNA]])</small>
+ |V|v=Group V <small>([[Negative-sense ssRNA virus|(-)ssRNA]])</small>
+ |VI|vi=Group VI <small>([[ssRNA-RT virus|ssRNA-RT]])</small>
+ |VII|vii=Group VII <small>([[dsDNA-RT virus|dsDNA-RT]])</small>
  |{{{virus_group}}}
-}} }} }}
-{{#if:{{{unranked_superdomain|}}}|{{taxonomy|rank=unranked|link={{{unranked_superdomain}}} | auth={{{unranked_superdomain_authority|}}} }} }}
-{{#if:{{{superdomain|}}}|{{taxonomy|rank=superdomain|link={{{superdomain}}} | auth={{{superdomain_authority|}}} }} }}
-{{#if:{{{unranked_domain|}}}|{{taxonomy|rank=unranked|link={{{unranked_domain}}} | auth={{{unranked_domain_authority|}}} }} }}
-{{#if:{{{domain|}}}|{{taxonomy|rank=domain|link={{{domain}}} | auth={{{domain_authority|}}} }} }}
-{{#if:{{{unranked_superregnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_superregnum}}} | auth={{{unranked_superregnum_authority|}}} }} }}
-{{#if:{{{superregnum|}}}|{{taxonomy|rank=superregnum|link={{{superregnum}}} | auth={{{superregnum_authority|}}} }} }}
-{{#if:{{{unranked_regnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_regnum}}} | auth={{{unranked_regnum_authority|}}} }} }}
-{{#if:{{{regnum|}}}|{{taxonomy|rank=regnum|link={{{regnum}}} | auth={{{regnum_authority|}}} }} }}
-{{#if:{{{unranked_subregnum|}}}|{{taxonomy|rank=unranked|link={{{unranked_subregnum}}} | auth={{{unranked_subregnum_authority|}}} }} }}
-{{#if:{{{subregnum|}}}|{{taxonomy|rank=subregnum|link={{{subregnum}}} | auth={{{subregnum_authority|}}} }} }}
-{{#if:{{{unranked_superdivisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_superdivisio}}} | auth={{{unranked_superdivisio_authority|}}} }} }}
-{{#if:{{{superdivisio|}}}|{{taxonomy|rank=superdivisio|link={{{superdivisio}}} | auth={{{superdivisio_authority|}}} }} }}
-{{#if:{{{unranked_superphylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_superphylum}}} | auth={{{unranked_superphylum_authority|}}} }} }}
-{{#if:{{{superphylum|}}}|{{taxonomy|rank=superphylum|link={{{superphylum}}} | auth={{{superphylum_authority|}}} }} }}
-{{#if:{{{unranked_divisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_divisio}}} | auth={{{unranked_divisio_authority|}}} }} }}
-{{#if:{{{divisio|}}}|{{taxonomy|rank=divisio|link={{{divisio}}} | auth={{{divisio_authority|}}} }} }}
-{{#if:{{{unranked_phylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_phylum}}} | auth={{{unranked_phylum_authority|}}} }} }}
-{{#if:{{{phylum|}}}|{{taxonomy|rank=phylum|link={{{phylum}}} | auth={{{phylum_authority|}}} }} }}
-{{#if:{{{unranked_subdivisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_subdivisio}}} | auth={{{unranked_subdivisio_authority|}}} }} }}
-{{#if:{{{subdivisio|}}}|{{taxonomy|rank=subdivisio|link={{{subdivisio}}} | auth={{{subdivisio_authority|}}} }} }}
-{{#if:{{{unranked_subphylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_subphylum}}} | auth={{{unranked_subphylum_authority|}}} }} }}
-{{#if:{{{subphylum|}}}|{{taxonomy|rank=subphylum|link={{{subphylum}}} | auth={{{subphylum_authority|}}} }} }}
-{{#if:{{{unranked_infraphylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_infraphylum}}} | auth={{{unranked_infraphylum_authority|}}} }} }}
-{{#if:{{{infraphylum|}}}|{{taxonomy|rank=infraphylum|link={{{infraphylum}}} | auth={{{infraphylum_authority|}}} }} }}
-{{#if:{{{unranked_microphylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_microphylum}}} | auth={{{unranked_microphylum_authority|}}} }} }}
-{{#if:{{{microphylum|}}}|{{taxonomy|rank=microphylum|link={{{microphylum}}} | auth={{{microphylum_authority|}}} }} }}
-{{#if:{{{unranked_nanophylum|}}}|{{taxonomy|rank=unranked|link={{{unranked_nanophylum}}} | auth={{{unranked_nanophylum_authority|}}} }} }}
-{{#if:{{{nanophylum|}}}|{{taxonomy|rank=nanophylum|link={{{nanophylum}}} | auth={{{nanophylum_authority|}}} }} }}
-{{#if:{{{unranked_superclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_superclassis}}} | auth={{{unranked_superclassis_authority|}}} }} }}
-{{#if:{{{superclassis|}}}|{{taxonomy|rank=superclassis|link={{{superclassis}}} | auth={{{superclassis_authority|}}} }} }}
-{{#if:{{{unranked_classis|}}}|{{taxonomy|rank=unranked|link={{{unranked_classis}}} | auth={{{unranked_classis_authority|}}} }} }}
-{{#if:{{{classis|}}}|{{taxonomy|rank=classis|link={{{classis}}} | auth={{{classis_authority|}}} }} }}
-{{#if:{{{unranked_subclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_subclassis}}} | auth={{{unranked_subclassis_authority|}}} }} }}
-{{#if:{{{subclassis|}}}|{{taxonomy|rank=subclassis|link={{{subclassis}}} | auth={{{subclassis_authority|}}} }} }}
-{{#if:{{{unranked_infraclassis|}}}|{{taxonomy|rank=unranked|link={{{unranked_infraclassis}}} | auth={{{unranked_infraclassis_authority|}}} }} }}
-{{#if:{{{infraclassis|}}}|{{taxonomy|rank=infraclassis|link={{{infraclassis}}} | auth={{{infraclassis_authority|}}} }} }}
-{{#if:{{{unranked_magnordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_magnordo}}} | auth={{{unranked_magnordo_authority|}}} }} }}
-{{#if:{{{magnordo|}}}|{{taxonomy|rank=magnordo|link={{{magnordo}}} | auth={{{magnordo_authority|}}} }} }}
-{{#if:{{{unranked_superordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_superordo}}} | auth={{{unranked_superordo_authority|}}} }} }}
-{{#if:{{{superordo|}}}|{{taxonomy|rank=superordo|link={{{superordo}}} | auth={{{superordo_authority|}}} }} }}
-{{#if:{{{unranked_ordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_ordo}}} | auth={{{unranked_ordo_authority|}}} }} }}
-{{#if:{{{ordo|}}}|{{taxonomy|rank=ordo|link={{{ordo}}} | auth={{{ordo_authority|}}} }} }}
-{{#if:{{{unranked_subordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_subordo}}} | auth={{{unranked_subordo_authority|}}} }} }}
-{{#if:{{{subordo|}}}|{{taxonomy|rank=subordo|link={{{subordo}}} | auth={{{subordo_authority|}}} }} }}
-{{#if:{{{unranked_infraordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_infraordo}}} | auth={{{unranked_infraordo_authority|}}} }} }}
-{{#if:{{{infraordo|}}}|{{taxonomy|rank=infraordo|link={{{infraordo}}} | auth={{{infraordo_authority|}}} }} }}
-{{#if:{{{unranked_parvordo|}}}|{{taxonomy|rank=unranked|link={{{unranked_parvordo}}} | auth={{{unranked_parvordo_authority|}}} }} }}
-{{#if:{{{parvordo|}}}|{{taxonomy|rank=parvorder|link={{{parvordo}}} | auth={{{parvordo_authority|}}} }} }}
-{{#if:{{{unranked_zoodivisio|}}}|{{taxonomy|rank=unranked|link={{{unranked_zoodivisio}}} | auth={{{unranked_zoodivisio_authority|}}} }} }}
-{{#if:{{{zoodivisio|}}}|{{taxonomy|rank=zoodivisio|link={{{zoodivisio}}} | auth={{{zoodivisio_authority|}}} }} }}
-{{#if:{{{unranked_zoosectio|}}}|{{taxonomy|rank=unranked|link={{{unranked_zoosectio}}} | auth={{{unranked_zoosectio_authority|}}} }} }}
-{{#if:{{{zoosectio|}}}|{{taxonomy|rank=zoosectio|link={{{zoosectio}}} | auth={{{zoosectio_authority|}}} }} }}
-{{#if:{{{unranked_zoosubsectio|}}}|{{taxonomy|rank=unranked|link={{{unranked_zoosubsectio}}} | auth={{{unranked_zoosubsectio_authority|}}} }} }}
-{{#if:{{{zoosubsectio|}}}|{{taxonomy|rank=zoosubsectio|link={{{zoosubsectio}}} | auth={{{zoosubsectio_authority|}}} }} }}
-{{#if:{{{unranked_superfamilia|}}}|{{taxonomy|rank=unranked|link={{{unranked_superfamilia}}} | auth={{{unranked_superfamilia_authority|}}} }} }}
-{{#if:{{{superfamilia|}}}|{{taxonomy|rank=superfamilia|link={{{superfamilia}}} | auth={{{superfamilia_authority|}}} }} }}
-{{#if:{{{unranked_familia|}}}|{{taxonomy|rank=unranked|link={{{unranked_familia}}} | auth={{{unranked_familia_authority|}}} }} }}
-{{#if:{{{familia|}}}|{{taxonomy|rank=familia|link={{{familia}}} | auth={{{familia_authority|}}} }} }}
-{{#if:{{{unranked_subfamilia|}}}|{{taxonomy|rank=unranked|link={{{unranked_subfamilia}}} | auth={{{unranked_subfamilia_authority|}}} }} }}
-{{#if:{{{subfamilia|}}}|{{taxonomy|rank=subfamilia|link={{{subfamilia}}} | auth={{{subfamilia_authority|}}} }} }}
-{{#if:{{{unranked_supertribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_supertribus}}} | auth={{{unranked_supertribus_authority|}}} }} }}
-{{#if:{{{supertribus|}}}|{{taxonomy|rank=supertribus|link={{{supertribus}}} | auth={{{supertribus_authority|}}} }} }}
-{{#if:{{{unranked_tribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_tribus}}} | auth={{{unranked_tribus_authority|}}} }} }}
-{{#if:{{{tribus|}}}|{{taxonomy|rank=tribus|link={{{tribus}}} | auth={{{tribus_authority|}}} }} }}
-{{#if:{{{unranked_subtribus|}}}|{{taxonomy|rank=unranked|link={{{unranked_subtribus}}} | auth={{{unranked_subtribus_authority|}}} }} }}
-{{#if:{{{subtribus|}}}|{{taxonomy|rank=subtribus|link={{{subtribus}}} | auth={{{subtribus_authority|}}} }} }}
-{{#if:{{{unranked_alliance|}}}|{{taxonomy|rank=unranked|link={{{unranked_alliance}}} | auth={{{unranked_alliance_authority|}}} }} }}
-{{#if:{{{alliance|}}}|{{taxonomy|rank=alliance|link={{{alliance}}} | auth={{{alliance_authority|}}} }} }}
-{{#if:{{{unranked_genus|}}}|{{taxonomy|rank=unranked|link={{{unranked_genus}}} | auth={{{unranked_genus_authority|}}} }} }}
-{{#if:{{{genus|}}}| {{taxonomy|rank=genus|link={{{genus}}}|auth={{{genus_authority|}}} }} }}
-{{#if:{{{unranked_subgenus|}}}|{{taxonomy|rank=unranked|link={{{unranked_subgenus}}} | auth={{{unranked_subgenus_authority|}}} }} }}
-{{#if:{{{subgenus|}}}|{{taxonomy|rank=subgenus|link={{{subgenus}}} | auth={{{subgenus_authority|}}} }} }}
-{{#if:{{{unranked_sectio|}}}|{{taxonomy|rank=unranked|link={{{unranked_sectio}}} | auth={{{unranked_sectio_authority|}}} }} }}
-{{#if:{{{sectio|}}}|{{taxonomy|rank=sectio|link={{{sectio}}} | auth={{{sectio_authority|}}} }} }}
-{{#if:{{{unranked_subsectio|}}}|{{taxonomy|rank=unranked|link={{{unranked_subsectio}}} | auth={{{unranked_subsectio_authority|}}} }} }}
-{{#if:{{{subsectio|}}}|{{taxonomy|rank=subsectio|link={{{subsectio}}} | auth={{{subsectio_authority|}}} }} }}
-{{#if:{{{unranked_series|}}}|{{taxonomy|rank=unranked|link={{{unranked_series}}} | auth={{{unranked_series_authority|}}} }} }}
-{{#if:{{{series|}}}|{{taxonomy|rank=series|link={{{series}}} | auth={{{series_authority|}}} }} }}
-{{#if:{{{unranked_subseries|}}}|{{taxonomy|rank=unranked|link={{{unranked_subseries}}} | auth={{{unranked_subseries_authority|}}} }} }}
-{{#if:{{{subseries|}}}|{{taxonomy|rank=subseries|link={{{subseries}}}|auth={{{subseries_authority|}}} }} }}
-{{#if:{{{unranked_species_group|}}}|{{taxonomy|rank=unranked|link={{{unranked_species_group}}} | auth={{{unranked_species_group_authority|}}} }} }}
-{{#if:{{{species_group|}}}|{{taxonomy|rank=species group|link={{{species_group}}} | auth={{{species_group_authority|}}} }} }}
-{{#if:{{{unranked_species_subgroup|}}}|{{taxonomy|rank=unranked|link={{{unranked_species_subgroup}}} | auth={{{unranked_species_subgroup_authority|}}} }} }}
-{{#if:{{{species_subgroup|}}}|{{taxonomy|rank=species subgroup|link={{{species_subgroup}}} | auth={{{species_subgroup_authority|}}} }} }}
-{{#if:{{{unranked_species_complex|}}}|{{taxonomy|rank=unranked|link={{{unranked_species_complex}}} | auth={{{unranked_species_complex_authority|}}} }} }}
-{{#if:{{{species_complex|}}}|{{taxonomy|rank=species complex|link={{{species_complex}}} | auth={{{species_complex_authority|}}} }} }}
-{{#if:{{{unranked_species|}}}|{{taxonomy|rank=unranked|link={{{unranked_species}}} | auth={{{unranked_species_authority|}}} }} }}
-{{#if:{{{species|}}}|{{taxonomy|rank=species|link={{{species}}} | auth={{{species_authority|}}} }} }}
-{{#if:{{{unranked_subspecies|}}}|{{taxonomy|rank=unranked|link={{{unranked_subspecies}}} | auth={{{unranked_subspecies_authority|}}} }} }}
-{{#if:{{{subspecies|}}}|{{taxonomy|rank=subspecies|link={{{subspecies}}} | auth={{{subspecies_authority|}}}
-}} }}
-|-
-{{#if:{{{unranked_varietas|{{{unranked_variety|}}}}}}|{{taxonomy|rank=unranked|link={{{unranked_varietas|{{{unranked_variety|}}}}}} | auth={{{unranked_varietas_authority|{{{unranked_variety_authority|}}}}}} }} }}
-{{#if:{{{varietas|{{{variety|}}}}}}|{{taxonomy|rank=varietas|link={{{varietas|{{{variety}}}}}} | auth={{{varietas_authority|{{{variety_authority|}}}}}}
-}} }}
-{{#if:{{{forma|}}}|{{taxonomy|rank=forma|link={{{forma}}} | auth={{{forma_authority|}}}
-}} }}
-{{#if:{{{virus_infrasp|}}}|{{taxonomy|rank={{{virus_infrasp_rank|RANK MISSING}}}|link={{{virus_infrasp}}} | auth=
-}} }}
-|-
+}}
+{{!}}-
+}}
+{{#if:{{{unranked_superdomain|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_superdomain}}}</span><br /><small>{{{unranked_superdomain_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superdomain|}}}|
+{{!}} Superdomain:
+{{!}} <span class="superdomain">{{{superdomain}}}</span><br /><small>{{{superdomain_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{domain|}}}|
+{{!}} Domain:
+{{!}} <span class="domain">{{{domain}}}</span><br /><small>{{{domain_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_regnum|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_regnum}}}<br /><small>{{{unranked_regnum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superregnum|}}}|
+{{!}} Superkingdom:
+{{!}} {{{superregnum}}}<br /><small>{{{superregnum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{regnum|}}}|
+{{!}} Kingdom:
+{{!}} <span class="kingdom">{{{regnum}}}</span><br /><small>{{{regnum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subregnum|}}}|
+{{!}} Subkingdom:
+{{!}} <span class="subkingdom">{{{subregnum}}}</span><br /><small>{{{subregnum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_phylum|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_phylum}}}<br /><small>{{{unranked_phylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superdivisio|}}}|
+{{!}} Superdivision:
+{{!}} <span class="superdivision">{{{superdivisio}}}</span><br /><small>{{{superdivisio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superphylum|}}}|
+{{!}} Superphylum:
+{{!}} <span class="superphylum">{{{superphylum}}}</span><br /><small>{{{superphylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{divisio|}}}|
+{{!}} Division:
+{{!}} <span class="division">{{{divisio}}}</span><br /><small>{{{divisio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_divisio|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_divisio}}}<br /><small>{{{unranked_divisio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{phylum|}}}|
+{{!}} Phylum:
+{{!}} <span class="phylum">{{{phylum}}}</span><br /><small>{{{phylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subdivisio|}}}|
+{{!}} Subdivision:
+{{!}} <span class="subdivision">{{{subdivisio}}}</span><br /><small>{{{subdivisio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subphylum|}}}|
+{{!}} Subphylum:
+{{!}} <span class="subphylum">{{{subphylum}}}</span><br /><small>{{{subphylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{infraphylum|}}}|
+{{!}} Infraphylum:
+{{!}} <span class="infraphylum">{{{infraphylum}}}</span><br /><small>{{{infraphylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{microphylum|}}}|
+{{!}} Microphylum:
+{{!}} <span class="microphylum">{{{microphylum}}}</span><br /><small>{{{microphylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{nanophylum|}}}|
+{{!}} Nanophylum:
+{{!}} <span class="nanophylum">{{{nanophylum}}}</span><br /><small>{{{nanophylum_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_classis|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_classis}}}<br /><small>{{{unranked_classis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superclassis|}}}|
+{{!}} Superclass:
+{{!}} <span class="superclass">{{{superclassis}}}</span><br /><small>{{{superclassis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{classis|}}}|
+{{!}} Class:
+{{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_subclassis|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_subclassis}}}<br /><small>{{{unranked_subclassis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subclassis|}}}|
+{{!}} Subclass:
+{{!}} <span class="subclass">{{{subclassis}}}</span><br /><small>{{{subclassis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_infraclassis|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_infraclassis}}}<br /><small>{{{unranked_infraclassis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{infraclassis|}}}|
+{{!}} Infraclass:
+{{!}} <span class="infraclass">{{{infraclassis}}}</span><br /><small>{{{infraclassis_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_ordo|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_ordo}}}<br /><small>{{{unranked_ordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{magnordo|}}}|
+{{!}} Magnorder:
+{{!}} <span class="magnorder">{{{magnordo}}}</span><br /><small>{{{magnordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superordo|}}}|
+{{!}} Superorder:
+{{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{ordo|}}}|
+{{!}} Order:
+{{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subordo|}}}|
+{{!}} Suborder:
+{{!}} <span class="suborder">{{{subordo}}}</span><br /><small>{{{subordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{infraordo|}}}|
+{{!}} Infraorder:
+{{!}} <span class="infraorder">{{{infraordo}}}</span><br /><small>{{{infraordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{parvordo|}}}|
+{{!}} Parvorder:
+{{!}} <span class="parvorder">{{{parvordo}}}</span><br /><small>{{{parvordo_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{zoodivisio|}}}|
+{{!}} Division:
+{{!}} <span class="division">{{{zoodivisio}}}</span><br /><small>{{{zoodivisio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{zoosectio|}}}|
+{{!}} Section:
+{{!}} <span class="section">{{{zoosectio}}}</span><br /><small>{{{zoosectio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{zoosubsectio|}}}|
+{{!}} Subsection:
+{{!}} <span class="subsection">{{{zoosubsectio}}}</span><br /><small>{{{zoosubsectio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_familia|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_familia}}}<br /><small>{{{unranked_familia_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{superfamilia|}}}|
+{{!}} Superfamily:
+{{!}} <span class="superfamily">{{{superfamilia}}}</span><br /><small>{{{superfamilia_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{familia|}}}|
+{{!}} Family:
+{{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subfamilia|}}}|
+{{!}} Subfamily:
+{{!}} <span class="subfamily">{{{subfamilia}}}</span><br /><small>{{{subfamilia_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_tribus|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_tribus}}}<br /><small>{{{unranked_tribus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{supertribus|}}}|
+{{!}} Supertribe:
+{{!}} <span class="supertribe">{{{supertribus}}}</span><br /><small>{{{supertribus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{tribus|}}}|
+{{!}} Tribe:
+{{!}} <span class="tribe">{{{tribus}}}</span><br /><small>{{{tribus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subtribus|}}}|
+{{!}} Subtribe:
+{{!}} <span class="subtribe">{{{subtribus}}}</span><br /><small>{{{subtribus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{alliance|}}}|
+{{!}} Alliance:
+{{!}} {{{alliance}}}<br /><small>{{{alliance_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{unranked_genus|}}}|
+{{!}} (unranked):
+{{!}} {{{unranked_genus}}}<br /><small>{{{unranked_genus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{genus|}}}|
+{{!}} Genus:
+{{!}} <span class="genus">{{{genus}}}</span><br /><small>{{{genus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subgenus|}}}|
+{{!}} Subgenus:
+{{!}} <span class="subgenus">{{{subgenus}}}</span><br /><small>{{{subgenus_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{sectio|}}}|
+{{!}} Section:
+{{!}} <span class="section">{{{sectio}}}</span><br /><small>{{{sectio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subsectio|}}}|
+{{!}} Subsection:
+{{!}} <span class="subsection">{{{subsectio}}}</span><br /><small>{{{subsectio_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{series|}}}|
+{{!}} Series:
+{{!}} {{{series}}}<br /><small>{{{series_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subseries|}}}|
+{{!}} Subseries:
+{{!}} <span style="white-space: nowrap">{{{subseries}}}</span><br /><small>{{{subseries_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{species_group|}}}|
+{{!}} Species group:
+{{!}} {{{species_group}}}<br /><small>{{{species_group_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{species_subgroup|}}}|
+{{!}} Species subgroup:
+{{!}} {{{species_subgroup}}}<br /><small>{{{species_subgroup_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{species_complex|}}}|
+{{!}} Species complex:
+{{!}} {{{species_complex}}}<br /><small>{{{species_complex_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{species|}}}|
+{{!}} Species:
+{{!}} <span style="white-space: nowrap">{{{species}}}</span><br /><small>{{{species_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{subspecies|}}}|
+{{!}} Subspecies:
+{{!}} <span style="white-space: nowrap">{{{subspecies}}}</span><br /><small>{{{subspecies_authority|}}}</small>
+{{!}}-
+}}
+{{#if:{{{variety|}}}|
+{{!}} Variety:
+{{!}} <span class="variety" style="white-space: nowrap">{{{variety}}}</span><br /><small>{{{variety_authority|}}}</small>
+{{!}}-
+}}
 {{#if:{{{binomial|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Binomial nomenclature|Binomial name]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Binomial nomenclature|Binomial name]]
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} <b><span class="binomial">{{{binomial}}}</span></b><br/><div style="font-size: 85%;">{{{binomial_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''<span class="binomial">{{{binomial}}}</span>'''<br /><small>{{{binomial_authority|}}}</small>
+{{!}}-
 }}
-|- style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}"
 {{#if:{{{trinomial|}}}|
-! colspan=2 style="text-align: center" {{!}} [[{{#switch:{{{regnum|}}}|[[Animalia]]|[[Animal]]ia|Animalia=Trinomen|[[Plantae]]|[[Plant]]ae|Plantae|[[Fungi]]|[[Fungus|Fungi]]|Fungi|[[Archaeplastida]]|Archaeplastida=Infraspecific name (botany)|Trinomen}}|Trinomial name]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Trinomial nomenclature|Trinomial name]]
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} <b><span class="trinomial">{{{trinomial}}}</span></b><br/><div style="font-size: 85%;">{{{trinomial_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''<span class="trinomial">{{{trinomial}}}</span>'''<br /><small>{{{trinomial_authority|}}}</small>
+{{!}}-
 }}
-|-
 {{#if:{{{type_genus|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour|}}} }}"{{!}} [[Type genus]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Type genus]]
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_genus}}}<br/><div style="font-size: 85%;">{{{type_genus_authority|}}}</div>
-}}
-|-
-{{#if:{{{type_ichnogenus|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour|}}} }}"{{!}} [[Type genus|Type ichnogenus]]
+{{!}} colspan=2 style="text-align: center" {{!}} {{{type_genus}}}<br /><small>{{{type_genus_authority|}}}</small>
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnogenus}}}<br/><div style="font-size: 85%;">{{{type_ichnogenus_authority|}}}</div>
 }}
-|-
-{{#if:{{{type_oogenus|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour|}}} }}"{{!}} [[Type genus|Type oogenus]]
-{{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnogenus}}}<br/><div style="font-size: 85%;">{{{type_oogenus_authority|}}}</div>
-}}
-|-
 {{#if:{{{type_species|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type species]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Type species]]
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_species}}}<br/><div style="font-size: 85%;">{{{type_species_authority|}}}</div>
-}}
-|-
-{{#if:{{{type_ichnospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type species|Type ichnospecies]]
+{{!}} colspan=2 style="text-align: center" {{!}} {{{type_species}}}<br /><small>{{{type_species_authority|}}}</small>
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_ichnospecies}}}<br/><div style="font-size: 85%;">{{{type_ichnospecies_authority|}}}</div>
 }}
-|-
-{{#if:{{{type_oospecies|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type species|Type oospecies]]
-{{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{{type_oospecies}}}<br/><div style="font-size: 85%;">{{{type_oospecies_authority|}}}</div>
-}}
-|-
 {{#if:{{{type_strain|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Type strain]]
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Type strain]]
 {{!}}-
 {{!}} colspan=2 style="text-align: center" {{!}} {{{type_strain}}}
+{{!}}-
 }}
-|-
 {{#if:{{{subdivision|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} {{{subdivision_ranks}}}{{{subdivision_ref|}}}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} {{{subdivision_ranks}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{subdivision|}}}
-}}
-|-
-{{#if:{{{possible_subdivision|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} {{{possible_subdivision_ranks}}}
 {{!}}-
-{{!}} colspan=2 style="text-align: left" {{!}}
-{{{possible_subdivision|}}}
 }}
-|-
 {{#if:{{{diversity|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Biodiversity|Diversity]]{{{diversity_ref|}}} {{#ifeq: {{NAMESPACEE}} | {{ns:0}} | [[Category:Articles using diversity taxobox]] | }}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[{{{diversity_link}}}|Diversity]] {{#ifeq: {{NAMESPACEE}} | {{ns: 0}} | [[Category:Articles using diversity taxobox]] | }}
 {{!}}-
-{{!}} colspan=2 style="text-align: center" {{!}} {{#if:{{{diversity_link|}}}|[[{{{diversity_link|}}}|{{{diversity|}}}]]|{{{diversity|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} {{{diversity|}}}
 {{!}}-
 }}
 {{#if:{{{range_map|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{range_map}}}|size={{{range_map_width|}}}|sizedefault=frameless|upright={{#if:{{{range_map_upright|}}}|{{{range_map_upright}}}|{{{upright|1}}}}}|alt={{{range_map_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{range_map}}}{{!}}{{#if:{{{range_map_width|}}}|{{{range_map_width}}}|frameless}}{{!}}alt={{{range_map_alt|}}}]]
 {{!}}-
 {{#if:{{{range_map_caption|}}}|
 {{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{range_map_caption}}}
@@ -221,15 +379,15 @@
 }}
 }}
 {{#if:{{{binomial2|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial2}}}'''<br/><div style="font-size: 85%;">{{{binomial2_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial2}}}'''<br /><small>{{{binomial2_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{trinomial2|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial2}}}'''<br/><div style="font-size: 85%;">{{{trinomial2_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial2}}}'''<br /><small>{{{trinomial2_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{range_map2|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{range_map2}}}|size={{{range_map2_width|}}}|sizedefault=frameless|upright={{#if:{{{range_map2_upright|}}}|{{{range_map2_upright}}}|{{{upright|1}}}}}|alt={{{range_map2_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{range_map2}}}{{!}}{{#if:{{{range_map2_width|}}}|{{{range_map2_width}}}|frameless}}{{!}}alt={{{range_map2_alt|}}}]]
 {{!}}-
 {{#if:{{{range_map2_caption|}}}|
 {{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{range_map2_caption}}}
@@ -237,15 +395,15 @@
 }}
 }}
 {{#if:{{{binomial3|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial3}}}'''<br/><div style="font-size: 85%;">{{{binomial3_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial3}}}'''<br /><small>{{{binomial3_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{trinomial3|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial3}}}'''<br/><div style="font-size: 85%;">{{{trinomial3_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial3}}}'''<br /><small>{{{trinomial3_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{range_map3|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{range_map3}}}|size={{{range_map3_width|}}}|sizedefault=frameless|upright={{#if:{{{range_map3_upright|}}}|{{{range_map3_upright}}}|{{{upright|1}}}}}|alt={{{range_map3_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{range_map3}}}{{!}}{{#if:{{{range_map3_width|}}}|{{{range_map3_width}}}|frameless}}{{!}}alt={{{range_map3_alt|}}}]]
 {{!}}-
 {{#if:{{{range_map3_caption|}}}|
 {{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{range_map3_caption}}}
@@ -253,23 +411,23 @@
 }}
 }}
 {{#if:{{{binomial4|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial4}}}'''<br/><div style="font-size: 85%;">{{{binomial4_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{binomial4}}}'''<br /><small>{{{binomial4_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{trinomial4|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial4}}}'''<br/><div style="font-size: 85%;">{{{trinomial4_authority|}}}</div>
+{{!}} colspan=2 style="text-align: center" {{!}} '''{{{trinomial4}}}'''<br /><small>{{{trinomial4_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{range_map4|}}}|
-{{!}} colspan=2 style="text-align: center" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{range_map4}}}|size={{{range_map4_width|}}}|sizedefault=frameless|upright={{#if:{{{range_map4_upright|}}}|{{{range_map4_upright}}}|{{{upright|1}}}}}|alt={{{range_map4_alt|}}}}}
+{{!}} colspan=2 style="text-align: center" {{!}} [[file:{{{range_map4}}}{{!}}{{#if:{{{range_map4_width|}}}|{{{range_map4_width}}}|frameless}}{{!}}alt={{{range_map4_alt|}}}]]
 {{!}}-
 {{#if:{{{range_map4_caption|}}}|
 {{!}} colspan=2 style="text-align: center; font-size: 88%" {{!}} {{{range_map4_caption}}}
+{{!}}-
 }}
 }}
-|-
 {{#if:{{{synonyms|}}}|
-! colspan=2 style="text-align: center{{#if:{{{colour|}}}|{{;}} background-color: {{{colour}}} }}" {{!}} [[Synonym (taxonomy)|Synonyms]]{{{synonyms_ref|}}}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Synonym (taxonomy)|Synonyms]]{{{synonyms_ref|}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{synonyms}}}
@@ -281,12 +439,4 @@
 {{{footer}}}
 {{!}}-
 }}
-|}<!--
-Define any categories to be displayed on the page here:
--->{{#ifeq:{{NAMESPACE}}|{{ns:0}}<!--
--->| [[Category:Articles with 'species' microformats]]<!--
- -->{{#ifeq:{{{colour|none}}}|{{Taxobox/Error_colour}}| [[Category:Taxoboxes with the error color]]}}<!--
- -->{{#ifeq:{{{colour|none}}}|{{Taxobox colour|incertae sedis}}| [[Category:Taxoboxes with the incertae sedis color]]}}<!--
- -->{{#ifeq:{{{colour|none}}}|{{Taxobox colour|}}| [[Category:Taxoboxes with no color]]}}<!--
- -->{{Taxonbar/candidate}}<!--
--->}}<noinclude>{{documentation}}</noinclude>
+|}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with 'species' microformats]]}}</includeonly><noinclude>{{documentation}}</noinclude>
