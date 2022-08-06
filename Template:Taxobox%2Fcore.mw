@@ -23,7 +23,7 @@
 {{taxobox/species|{{{status_system|}}}|{{{status|}}}|{{{status_ref|}}}|extinct={{{extinct|}}} }}
 }}
 |-
-! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" | {{#if:{{{virus_group|}}}|[[Virus classification]]|[[Biological classification|Scientific classification]]}} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" | {{#if:{{{virus_group|}}}|[[Virus classification]]|[[Kala soocida nafleyda|Kala soocida cilmiga]]}} {{#if: {{{classification_status|}}} | ({{{classification_status}}}) | }}
 |-
 {{#if:{{{parent|}}}|
 {{taxobox/taxonomy|{{{parent}}}|{{{display_taxa|}}}|authority={{{authority|}}}|parent_authority={{{parent_authority|}}}|grandparent_authority={{{grandparent_authority|}}}|greatgrandparent_authority={{{greatgrandparent_authority|}}}}}
@@ -427,7 +427,7 @@
 }}
 }}
 {{#if:{{{synonyms|}}}|
-! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[Synonym (taxonomy)|Synonyms]]{{{synonyms_ref|}}}
+! colspan=2 style="text-align: center; background-color: {{{color|{{{colour|{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum|{{get regnum|{{{parent|return_error}}}}}}}} }}} }}} }}} }} }}} }}}" {{!}} [[La mid ah (tagsonoomi)|Eray la mid ah]]{{{synonyms_ref|}}}
 {{!}}-
 {{!}} colspan=2 style="text-align: left" {{!}}
 {{{synonyms}}}
