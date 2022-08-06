@@ -1,0 +1,74 @@
+{| class="wikitable collapsible {{{state|uncollapsed}}}" style="padding:0; margin:0.2em"
+|- style="font-size:85%; padding:1px"
+! colspan=2 | {{v|Template:Infobox element/symbol-to--overview1}}{{nbsp|2}}Data sets read by {{tlf|Infobox element}}
+
+|- style="font-size:85%; padding:1px"
+| Name and identifiers
+| {{view|template=Infobox element/symbol-to-name|edit}} 
+
+|- style="font-size:85%; padding:1px"
+| Top image (caption, alt)
+| {{view|template=Infobox element/symbol-to-top-image|edit}}
+|- style="font-size:85%; padding:1px"
+| Pronunciation
+| {{view|template=Infobox element/symbol-to-pronunciation|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Allotropes ([[Template:Infobox element/symbol-to-allotropes|demo]])
+| {{view|template=Infobox element/symbol-to-allotropes|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Group ([[Template:Infobox element/symbol-to--overview-infobox-formats|demo]])
+| {{view|template=Infobox element/symbol-to-group|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Period ([[Template:Infobox element/symbol-to--overview-infobox-formats|demo]])
+| {{view|template=Infobox element/symbol-to-period|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Block ([[Template:Infobox element/symbol-to--overview-infobox-formats|demo]])
+| {{view|template=Infobox element/symbol-to-block|edit}}
+<!--- DEPR, unused. 31 May 2021
+|- style="font-size:85%; padding:1px"
+| <s>Category (enwiki)</s> ''depr''
+| {{view|template=Infobox element/symbol-to-category|edit}}
+--->
+|- style="font-size:85%; padding:1px"
+| [[Standard atomic weight]]
+| {{view|template=Infobox element/symbol-to-saw|edit}}
+|- style="font-size:85%; padding:1px"
+|  &nbsp;&nbsp;most stable isotope
+| {{view|template=Infobox element/symbol-to-most-stable-isotope|edit}}
+
+|- style="font-size:85%; padding:1px"
+|  Natural occurrence
+| {{view|template=Infobox element/symbol-to-occurrence|edit}}
+
+|- style="font-size:85%; padding:1px"
+|  Phase at [[Standard temperature and pressure|STP]]
+| {{view|template=Infobox element/symbol-to-phase|edit}}
+
+|- style="font-size:85%; padding:1px"
+| [[Oxidation state]]s
+| {{view|template=Infobox element/symbol-to-oxidation-state|edit}}
+|- style="font-size:85%; padding:1px"
+| [[Spectral lines]] image
+| {{view|template=Infobox element/symbol-to-spectral-lines-image|edit}}
+
+|- style="font-size:85%; padding:1px"
+| [[Electron configuration]] (cmt, ref)
+| {{view|template=Infobox element/symbol-to-electron-configuration|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Wikidata&nbsp;<nowiki>*</nowiki>
+| {{view|template=Infobox element/symbol-to-saw/overview-wikidata|-|edit}}
+
+|- style="font-size:85%; padding:1px"
+| Symbol etymology (11 non-trivial)
+| {{view|template=Infobox element/symbol-to-symbol-etymology|edit}}
+
+|-
+| colspan=2 | <nowiki>*</nowiki> <small>''Not used in {{tlf|1=Infobox element}} (2021-12-24)''</small><br><small>See also {{clc|Element data sets}}</small>
+|}<!--
+
+--><noinclude>{{documentation}}</noinclude>
