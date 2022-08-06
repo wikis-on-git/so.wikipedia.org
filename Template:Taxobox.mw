@@ -1,4 +1,4 @@
-<includeonly>{|class="infobox biota" style="text-align:center; padding:2.5px; width:200px;"
+<includeonly>{|class="infobox biota" style="text-align:center; padding:2.5px; width:100px;"
 |- style="text-align:center;"
 ! style="background:{{{color|{{{colour|#{{Taxobox colour|{{{regnum|{{{virus_group|{{{unranked_phylum|{{{phylum}}}}}}}}}}}}}}}}}}}};"|{{{name|{{Taxobox name|{{{genus}}}|{{{species}}}|{{{binomial}}}}}}}}{{#if: {{{fossil_range|}}}|<br /><small>Kala duwanaanshaha fosil: {{{fossil_range}}}</small>}}
 |- style="text-align:center;" 
