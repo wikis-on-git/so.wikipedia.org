@@ -1,0 +1,168 @@
+<includeonly>{{infobox
+| child = {{#if:{{{embed|{{{embedded|}}}}}}|yes}}
+| bodyclass = mw-collapsible {{#switch:{{lc:{{{collapsed_state|}}}}}|expanded|uncollapsed=|collapsed|collapse|mw-collapsed=mw-collapsed|#default=mw-collapsed}}
+
+| abovestyle = font-size:85%; white-space:nowrap;
+| above = {{resize|1=120%|2={{#ifexist:List of {{{Name}}} state symbols|[[List of {{{Name}}} state symbols|{{{Name}}} state symbols]]|{{{Name}}} state symbols}}}}
+
+| image1 = {{#if:{{{embed|{{{embedded|}}}}}}||{{#invoke:InfoboxImage|InfoboxImage|image={{{Flag|}}}|border={{{Flagborder|{{{Flag border|yes}}}}}}|size={{{Flagsize|{{{Flag size|}}}}}}|sizedefault=250px }}}}
+| caption1 = {{#if:{{{embed|{{{embedded|}}}}}}||{{#if:{{{Flag link|}}}|[[{{{Flag link|}}}|Flag of {{{Name}}}]]|[[Flag of {{{Name}}}]]}}}}
+
+| image2 = {{#if:{{{embed|{{{embedded|}}}}}}||{{#invoke:InfoboxImage|InfoboxImage|image={{{Seal|}}}|size={{{Seal size|{{{Sealsize|}}}}}}|sizedefault=150px }}}}
+| caption2 = {{#if:{{{embed|{{{embedded|}}}}}}|{{#if:{{{Seal link|}}}|[[{{{Seal link|}}}|Seal of {{{Name}}}]]|[[Seal of {{{Name}}}]]}}}}
+
+| image3 = {{#if:{{{embed|{{{embedded|}}}}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{Coat of arms|}}}|size={{{Coat of arms size|{{{Coatofarmssize|}}}}}}|sizedefault=150px }}}}
+| caption3 = {{#if:{{{embed|{{{embedded|}}}}}}||[[Coat of arms of {{{Name}}}]]}}
+
+| headerstyle = border-top:#aaa 1px solid
+
+| header1  = {{#if:{{{Amphibian|}}}{{{Bird|}}}{{{Butterfly|}}}{{{Crustacean|}}}{{{Dog|{{{Dog breed|{{{Dog Breed|}}}}}}}}}{{{Fish|}}}{{{Flower|}}}{{{Grass|}}}{{{Insect|}}}{{{Mammal|}}}{{{Marsupial|}}}{{{Mushroom|}}}{{{Reptile|}}}{{{Tree|}}}|Living insignia}}
+
+| label2   = [[List of U.S. state amphibians|Amphibian]]
+| data2    = {{{Amphibian|}}}
+
+| label3   = [[List of U.S. state birds|Bird]]
+| data3    = {{{Bird|}}}
+
+| label4   = [[List of U.S. state butterflies|Butterfly]]
+| data4    = {{{Butterfly|}}}
+
+| label5   = Cactus
+| data5    = {{{Cactus|}}}
+
+| label6   = [[List of U.S. state mammals|Cat breed]]
+| data6    = {{{Cat|{{{Cat breed|}}}}}}
+
+| label7   = [[List of U.S. state crustaceans|Crustacean]]
+| data7    = {{{Crustacean|}}}
+
+| label8   = [[List of U.S. state dogs|Dog breed]]
+| data8    = {{{Dog|{{{Dog breed|{{{Dog Breed|}}}}}}}}}
+
+| label9  = [[List of U.S. state mammals|Domestic animal]]
+| data9   = {{{Domestic animal|}}}
+
+| label10 = [[List of U.S. state mammals|Wildlife animal]]
+| data10  = {{{Wildlife animal|}}}
+
+| label11  = [[List of U.S. state fish|Fish]]
+| data11   = {{{Fish|}}}
+
+| label12  = [[List of U.S. state and territory flowers|Flower]]
+| data12   = {{{Flower|}}}
+
+| label13  = [[List of U.S. state grasses|Grass]]
+| data13   = {{{Grass|}}}
+
+| label14  = [[List of U.S. state mammals|Horse breed]]
+| data14   = {{{Horse|{{{Horse breed|}}}}}}
+
+| label15  = [[List of U.S. state insects|Insect]]
+| data15   = {{{Insect|}}}
+
+| label16  = [[List of U.S. state mammals|Mammal]]
+| data16   = {{{Mammal|}}}
+
+| label17  = [[List of U.S. state pets|Pet]]
+| data17   = {{{Pet|}}}
+
+| label18  = Marsupial
+| data18   = {{{Marsupial|}}}
+
+| label19  = [[List of U.S. state mushrooms|Mushroom]]
+| data19   = {{{Mushroom|}}}
+
+| label20  = [[List of U.S. state reptiles|Reptile]]
+| data20   = {{{Reptile|}}}
+
+| label21  = [[List of U.S. state and territory trees|Tree]]
+| data21   = {{{Tree|}}}
+
+| header22 = {{#if:{{{Beverage|}}}{{{Colors|}}}{{{Dance|}}}{{{Dinosaur|}}}{{{Firearm|}}}{{{Folk dance|{{{Folk Dance|{{{FolkDance|}}}}}}}}}{{{Food|}}}{{{Fossil|}}}{{{Gemstone|}}}{{{Instrument|}}}{{{Mineral|}}}{{{Motto|}}}{{{Poem|}}}{{{Rock|{{{StateRock|}}}}}}{{{Ships|}}}{{{Slogan|}}}{{{Soil|}}}{{{Song|}}}{{{Sport|}}}{{{Game|}}}{{{Toy|}}}{{{Other|}}}|Inanimate insignia}}
+
+| label23  = [[List of U.S. state beverages|Beverage]]
+| data23   = {{{Beverage|}}}
+
+| label24  = [[List of U.S. state colors|Colors]]
+| data24   = {{{Colors|}}}
+
+| label25  = [[List of U.S. state dances|Dance]]
+| data25   = {{{Dance|}}}
+
+| label26  = [[List of U.S. state dinosaurs|Dinosaur]]
+| data26   = {{{Dinosaur|}}}
+
+| label27  = [[List of U.S. state firearms|Firearm]]
+| data27   = {{{Firearm|}}}
+
+| label28  = [[List of U.S. state folk dances|Folk dance]]
+| data28   = {{{Folk dance|{{{Folk Dance|{{{FolkDance|}}}}}}}}}
+
+| label29  = [[List of U.S. state foods|Food]]
+| data29   = {{{Food|}}}
+
+| label30  = [[List of U.S. state fossils|Fossil]]
+| data30   = {{{Fossil|}}}
+
+| label31  = [[List of U.S. state minerals, rocks, stones and gemstones|Gemstone]]
+| data31   = {{{Gemstone|}}}
+
+| label32  = [[List of U.S. state instruments|Instrument]]
+| data32   = {{{Instrument|}}}
+
+| label33  = [[List of U.S. state minerals, rocks, stones and gemstones|Mineral]]
+| data33   = {{{Mineral|}}}
+
+| label34  = [[List of U.S. state and territory mottos|Motto]]
+| data34   = {{{Motto|}}}
+
+| label35  = [[List of U.S. state and territory nicknames|Nickname]]
+| data35   = {{{Nickname|}}}
+
+| label36  = [[List of U.S. state poems|Poem]]
+| data36   = {{{Poem|}}}
+
+| label37  = [[List of U.S. state minerals, rocks, stones and gemstones|Rock]]
+| data37   = {{{Rock|{{{StateRock|}}}}}}
+
+| label38  = [[List of U.S. state shells|Shell]]
+| data38   = {{{Shell|}}}
+
+| label39  = [[List of U.S. state ships|Ship]]
+| data39   = {{{Ship|{{{Ships|}}}}}}
+
+| label40  = [[List of U.S. state, district, and territorial nicknames|Slogan]]
+| data40   = {{{Slogan|}}}
+
+| label41  = [[List of U.S. state soils|Soil]]
+| data41   = {{{Soil|}}}
+
+| label42  = [[List of U.S. state songs|Song]]
+| data42   = {{{Song|}}}
+
+| label43  = [[List of U.S. state sports|Sport]]
+| data43   = {{{Sport|}}}
+
+| label44  = Game
+| data44   = {{{Game|}}}
+
+| label45  = [[List of U.S. state tartans|Tartan]]
+| data45   = {{{Tartan|}}}
+
+| label46  = [[State toy|Toy]]
+| data46   = {{{Toy|}}}
+
+| label47  = Other
+| data47   = {{{Other|}}}
+
+| header50 = {{#if:{{{Route marker|{{{Route Marker|}}}}}}|[[Numbered highways in the United States#State highways|State route marker]]}}
+| data51   = {{#invoke:InfoboxImage|InfoboxImage|image={{{Route marker|{{{Route Marker|}}}}}}|size=125x85px|title={{{Name}}} state route marker}}
+
+| header52 = {{#if:{{{Quarter|}}}|[[50 State quarters|State quarter]]}}
+| data53   = {{#if:{{{Quarter|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{Quarter|}}}|size={{{Quartersize|{{{Quarter size|}}}}}}|sizedefault=125x85px|title={{{Name}}} quarter dollar coin}}{{#if:{{{Quarter release date|{{{QuarterReleaseDate|}}}}}}|<div>Released in {{{Quarter release date|{{{QuarterReleaseDate}}}}}}</div>}}}}
+
+| belowstyle = border-top:#aaa 1px solid
+| below    = {{#if:{{{embed|{{{embedded|}}}}}}||[[Lists of United States state symbols]]}}
+}}{{#invoke:Check for unknown parameters|check|unknown={{main other|[[Category:Pages using infobox U.S. state symbols with unknown parameters|_VALUE_{{PAGENAME}}]]}}|preview=Page using [[Template:Infobox U.S. state symbols]] with unknown parameter "_VALUE_"|ignoreblank=y| Amphibian | Beverage | Bird | Butterfly | Cactus | Cat | Cat breed | Coat of arms | Coat of arms size | Coatofarmssize | collapsed_state | Colors | Crustacean | Dance | Dinosaur | Dog | Dog Breed | Dog breed | Domestic animal | Embed | Embedded | Firearm | Fish | Flag | Flag border | Flag link | Flag size | Flagborder | Flagsize | Flower | Folk Dance | Folk dance | FolkDance | Food | Fossil | Game | Gemstone | Grass | Horse | Horse breed | Insect | Instrument | Mammal | Marsupial | Mineral | Motto | Mushroom | Name | Nickname | Other | Pet | Poem | Quarter | Quarter release date | Quarter size | QuarterReleaseDate | Quartersize | Reptile | Rock | Route Marker | Route marker | Seal | Seal link | Seal size | Sealsize | Shell | Ship | Ships | Slogan | Soil | Song | Sport | StateRock | Tartan | Toy | Tree | Wildlife animal}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
