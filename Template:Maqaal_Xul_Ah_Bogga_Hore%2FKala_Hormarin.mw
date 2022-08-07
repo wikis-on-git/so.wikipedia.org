@@ -1,4 +1,4 @@
-{{#switch: {{minmaxskipgen|max={{{max|}}}|duration={{{duration|5}}}|extramax={{{extramax|}}}|min={{{min|}}}|skip={{{skip|}}}|inc={{{inc|}}}}}
+{{#switch: {{minmaxskipgen|max={{{max|}}}|duration={{{duration|}}}|extramax={{{extramax|}}}|min={{{min|}}}|skip={{{skip|}}}|inc={{{inc|}}}}}
 | 0    = [[:Muqdisho]]
 | 1    = [[:ICAO]]
 | 2    = [[:Soomaaliya]]
