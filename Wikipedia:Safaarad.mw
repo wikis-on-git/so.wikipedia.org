@@ -2582,3 +2582,51 @@ Movement Strategy and Governance
 </div><section end="announcement-content" />
 [[User:MNadzikiewicz (WMF)|MNadzikiewicz (WMF)]] 21:01, 27 Luuliyo 2022 (UTC)
 <!-- Message sent by User:MNadzikiewicz (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Movement_Strategy_and_Governance/Delivery&oldid=23530132 -->
+
+== Enabling Section Translation: a new mobile translation experience ==
+
+{{int:Hello}} Somali Wikipedians!
+
+Apologies as this message is not in Somali language, {{Int:Please-translate}}.
+
+The [[mw:Wikimedia_Language_engineering|WMF Language team]] is pleased to let you know that we will like to enable the [[mw:Content_translation/Section_translation|Section translation]] tool in Somali Wikipedia. For this, our team will love you to read about the tool and test it so you can:
+
+* Give us your feedback
+* Ask us questions
+* Tell us how to improve it.
+
+Below is background information about Section translation, why we have chosen your community, and how to test it.
+
+'''Background information'''
+
+[[mw:Content_translation|Content Translation]] has been a successful tool for editors to create content in their language. More than one million articles have been created across all languages since the tool was released in 2015. The Wikimedia Foundation Language team has improved the translation experience further with the Section Translation. The WMF Language team enabled the early version of the tool in February 2021 in Bengali Wikipedia. Through their feedback, the tool was improved and ready for your community to test and help us with feedback to make it better.
+
+[https://design.wikimedia.org/strategy/section-translation.html Section Translation] extends the capabilities of Content Translation to support mobile devices. On mobile, the tool will:
+
+* Guide you to translate one section at a time in order to expand existing articles or create new ones.
+* Make it easy to transfer knowledge across languages anytime from your mobile device.
+
+Somali Wikipedia seems an ideal candidate to enjoy this new tool since it has Content Translation tool enabled by default.
+
+We plan to enable the tool on Somali Wikipedia in the coming weeks if there are no objections from your community. After it is enabled, we’ll monitor the content created with the tool and process all the feedback. In any case, feel free to raise any concerns or questions you may already have in any of the following formats:
+
+* As a reply to this message
+* On [[mw:Talk:Content_translation/Section_translation|the project talk page]].
+
+'''Try the tool'''
+
+Before the enablement, you can try the current implementation of the tool in [https://test.m.wikipedia.org/wiki/Special:ContentTranslation our testing instance]. Once it is enabled on Somali Wikipedia, you’ll have access to https://so.wikipedia.org/wiki/Special:ContentTranslation with your mobile device. You can select an article to translate, and machine translation will be provided as a starting point for editors to improve.
+
+'''Provide feedback'''
+
+Please provide feedback about Section translation in any of the formats you are most comfortable with. We want to hear about your impressions on:
+
+* The tool
+* What you think about our plans to enable it
+* Your ideas for improving the tool.
+
+Thanks, and we look forward to your feedback and questions.
+
+'''PS''': Sending your feedback or questions in English is particularly appreciated. But, you can still send them in the language of your choice.
+
+[[User:UOzurumba (WMF)|UOzurumba (WMF)]] ([[User talk:UOzurumba (WMF)|wadahadal]]) 04:21, 11 Agoosto 2022 (UTC) On behalf of the WMF Language team
