@@ -1,0 +1,16 @@
+<includeonly>{{Documentation
+|content={{Templates notice/inner
+|hatnote={{{hatnote|}}}
+|extra usage={{{extra_usage|{{{extra usage|}}}}}}
+|s1={{{s1|}}}|s2={{{s2|}}}|s3={{{s3|}}}|s4={{{s4|}}}
+|param1={{{param1|article}}}|param2={{{nothankyou|param2}}}
+|series={{{series|}}}|max={{{max|}}}
+|escalate={{{escalate|}}}|escalate_to={{{escalate_to|{{{escalate to|}}}}}}
+|notwinkle={{{notwinkle|<noinclude>yes</noinclude>}}}
+|noredwarn={{{noredwarn|<noinclude>yes</noinclude>}}}
+|noultraviolet={{{noultraviolet|<noinclude>yes</noinclude>}}}
+|see also={{{see_also|{{{see also|}}}}}}}}
+{{Multi notice links}}
+|1=Template:Templates notice<noinclude>/inner</noinclude>
+}}
+{{Sandbox other||{{#if:{{{nocat|}}}||{{#ifeq:{{NAMESPACE}}|Template|[[Category:Standardised user warning templates]]}}}}}}</includeonly><noinclude>{{Documentation}}</noinclude>
