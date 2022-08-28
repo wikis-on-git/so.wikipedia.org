@@ -1,3 +1,4 @@
+<includeonly>
 {| class="collapsible {{{state|uncollapsed}}}" border="0" cellpadding="0" cellspacing="1" style="background:{{Element color/Table|background}}; border:1px solid {{Element color/Table|border}}; width:100%; max-width:1300px; margin:0 auto; padding:2px; {{{style|{{{1|}}}}}};"
 ! colspan=19 style="background:{{Element color/Table|title}}; padding:2px 4px;" | {{tnavbar-collapsible | [[Jadwalka Curiyayaasha]] <small>( Kaltanka Curiyayaasha)</small> | Template:Periodic table }}
 |- style="background:{{Element color/Table|colheader}}"
@@ -169,4 +170,4 @@
 | {{element cell|103|lawrencium |Lr|[262.110]   |Solid|Actinoids|Synthetic}}
 |-
 | colspan=32 style="font-size:90%" |
-</noinclude>
+</includeonly>
