@@ -102,7 +102,7 @@
 ================================================================
 -->{{#if:{{{national_motto|}}}{{{motto|}}} |<!--then:
      --><tr> <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
-              -->'''[[Motto]]:&nbsp;'''{{{national_motto|}}}{{{motto|}}}</td>
+              -->'''[[Halkudhig]]:&nbsp;'''{{{national_motto|}}}{{{motto|}}}</td>
         </tr><!--
 -->}}<!--
 
@@ -113,13 +113,13 @@
      --><tr>
           <td class="anthem" colspan="3" style="line-height:1.2em; text-align:center;"><!--
            -->{{#if:{{{national_anthem|}}}
-              |<!--then:-->'''[[National anthem|Anthem]]:&nbsp;'''{{{national_anthem}}}<br/>
+              |<!--then:-->'''[[Hees Wadani ah|Heesta]]:&nbsp;'''{{{national_anthem}}}<br/>
               }}<!--
            -->{{#if:{{{anthem|}}}
-              |<!--then:-->'''[[Anthem]]:&nbsp;'''{{{anthem}}}<br/>
+              |<!--then:-->'''[[Heesta]]:&nbsp;'''{{{anthem}}}<br/>
               }}<!--
            -->{{#if:{{{royal_anthem|}}}
-              |<!--then:-->'''[[Royal anthem]]:&nbsp;'''{{{royal_anthem}}}
+              |<!--then:-->'''[[Heesta boqortooyada]]:&nbsp;'''{{{royal_anthem}}}
               }}<!--
        --></td>
         </tr><!--
