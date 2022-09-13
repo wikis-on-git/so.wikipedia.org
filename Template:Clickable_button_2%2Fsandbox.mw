@@ -1,0 +1,20 @@
+<span class="plainlinks">[{{#if:{{{url|}}}
+ |{{{url}}}
+ |[{{{1|}}}{{!}}
+}}<span class="{{#switch:{{lc:{{{class}}}}}|ui-button-green|ui-button-blue|ui-button-red=submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only ui-button-text|#default=mw-ui-button}} {{{class|}}}" role="button" aria-disabled="false" {{#ifeq:{{{1}}}|{{FULLPAGENAME}}|style="cursor: default;
+{{#if:{{{color}}}|background-color:{{{color}}}; color:{{#if:{{{textcolor}}}|{{{textcolor}}}|#666}};
+|
+ {{#switch:{{{class}}}
+  | ui-button-blue | mw-ui-progressive = background-color: #2962CB;
+  | ui-button-green | mw-ui-constructive = background-color: #008B6D;
+  | ui-button-red | mw-ui-destructive = background-color: #A6170F;
+  | #default = background-color: #CCC; color: #666;
+ }}"
+}}>{{#if:{{{url|}}}
+ |{{#if:{{{1|}}}
+  |{{{1}}}
+  |{{{url}}}
+ }}{{#switch:{{lc:{{{class}}}}}|ui-button-green|ui-button-blue|ui-button-red=[[Kategori:Halaman yang menggunakan ui-button-color gaya lama]]|#default=}}</span>|{{#if:{{{2|}}}|{{{2|}}}|{{{1|}}}}}</span>]
+}}]</span><noinclude>
+{{Documentation}}
+</noinclude>
