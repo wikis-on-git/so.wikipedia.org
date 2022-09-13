@@ -35,44 +35,44 @@
     }} }}
 
 | data1 = {{#if:{{{national_motto|}}}{{{motto|}}}
-     |<div style="line-height:1.2em;">'''Motto:&nbsp;'''{{if empty|{{{motto|}}}|{{{national_motto|}}}}}<!--
+     |<div style="line-height:1.2em;">'''Halkudhig:&nbsp;'''{{if empty|{{{motto|}}}|{{{national_motto|}}}}}<!--
            -->{{#if:{{{englishmotto|}}}|<br/><div style="display:inline"">{{{englishmotto}}}</div> }}</div>
     }}
 
 | class2 = anthem
 | data2 = {{#if:{{{national_anthem|}}}{{{anthem|}}}
-        |<div style="line-height:1.2em;">'''Anthem:&nbsp;'''{{if empty|{{{national_anthem|}}}|{{{anthem|}}}}}</div>
+        |<div style="line-height:1.2em;">'''Heesta:&nbsp;'''{{if empty|{{{national_anthem|}}}|{{{anthem|}}}}}</div>
         }}{{#if:{{{anthems|}}}
         |
-<div style="line-height:1.2em;">'''Anthems:&nbsp;'''{{{anthems}}}</div>
+<div style="line-height:1.2em;">'''Heeso:&nbsp;'''{{{anthems}}}</div>
         }}{{#if:{{{royal_anthem|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''[[Royal anthem]]:&nbsp;'''{{{royal_anthem}}}</div>
+<div style="line-height:1.2em;">'''[[Heesta boqortooyada]]:&nbsp;'''{{{royal_anthem}}}</div>
         }}{{#if:{{{flag_anthem|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''[[Flag anthem]]:&nbsp;'''{{{flag_anthem}}}</div>
+<div style="line-height:1.2em;">'''[[Heesta calanka]]:&nbsp;'''{{{flag_anthem}}}</div>
         }}{{#if:{{{national_march|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''National march:&nbsp;'''{{{national_march}}}</div>
+<div style="line-height:1.2em;">'''Socdaal qaran:&nbsp;'''{{{national_march}}}</div>
         }}{{#if:{{{territorial_anthem|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''Territorial anthem:&nbsp;'''{{{territorial_anthem}}}</div>
+<div style="line-height:1.2em;">'''Heesta dhuleed:&nbsp;'''{{{territorial_anthem}}}</div>
         }}{{#if:{{{regional_anthem|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''Regional anthem:&nbsp;'''{{{regional_anthem}}}</div>
+<div style="line-height:1.2em;">'''Heesta gobolka:&nbsp;'''{{{regional_anthem}}}</div>
         }}{{#if:{{{state_anthem|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''State anthem:&nbsp;'''{{{state_anthem}}}</div>
+<div style="line-height:1.2em;">'''Heesta dawladeed:&nbsp;'''{{{state_anthem}}}</div>
         }}{{#if:{{{march|}}}
         |
 <hr/>
-<div style="line-height:1.2em;">'''March:&nbsp;'''{{{march}}}</div>
+<div style="line-height:1.2em;">'''Maarso:&nbsp;'''{{{march}}}</div>
         }}
 
 | data3 = {{#if:{{{other_symbol|}}}{{{text_symbol|}}}
@@ -168,7 +168,7 @@
   }}
 | data18 = {{{languages2|}}}
   
-| label19 = [[Ethnic group|Kooxaha&nbsp;qowmiyadaha]] <!--
+| label19 = [[Qowmiyada|Kooxaha&nbsp;qowmiyadaha]] <!--
            -->{{#if:{{{ethnic_groups_year|}}} |<div style="font-weight:normal;display:inline;"> ({{{ethnic_groups_year}}}){{{ethnic_groups_ref|}}}</div>|<div style="font-weight:normal;display:inline;">{{{ethnic_groups_ref|}}}</div>}}
 | data19 = {{{ethnic_groups|}}}
 
@@ -176,7 +176,7 @@
            -->{{#if:{{{religion_year|}}} |<div style="font-weight:normal;display:inline;"> ({{{religion_year}}}){{{religion_ref|}}}</div>|<div style="font-weight:normal;display:inline;">{{{religion_ref|}}}</div>}}
 | data20 = {{{religion|}}}
 
-| label21 = [[Demonym|Demonym(s)]]
+| label21 = [[Demoniim|Demoniim]]
 | data21 = {{#if:{{{demonym|}}}
   |{{#ifexist:{{{demonym}}} Dadka
      | [[{{{demonym}}} people|{{{demonym}}}]]
