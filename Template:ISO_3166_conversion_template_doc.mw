@@ -1,0 +1,129 @@
+<noinclude>
+{{Documentation}}
+</noinclude>{{{{{|safesubst:}}}#invoke:Unsubst||subst=|$flags=override,keep-whitespace,remove-empty|$B={{Documentation|1=Template:ISO 3166 conversion template doc|content=
+==Usage==
+
+{{#switch:{{NAMESPACE}}
+|Template=This template is part of a series that resolves the country and subdivision names to [[ISO 3166-1]] and [[ISO 3166-2]] codes, and vice versa.
+|Category=This category contains part of the series of templates resolves the country and subdivision names to [[ISO 3166-1]] and [[ISO 3166-2]] codes, and vice versa.
+|This {{lcfirst:{{NAMESPACE}}}} relates to a series of templates resolves the country and subdivision names to [[ISO 3166-1]] and [[ISO 3166-2]] codes, and vice versa.
+}} 
+
+{{#ifeq:{{Str len|{{{3|}}}}}|2|See also: [[ISO 3166-2:{{{3}}}]]}}
+{{#if:{{{spec|}}}|
+==Special case==
+{{{spec|}}}
+}}
+==Sub-pages==
+{{Special:Prefixindex/{{SUBJECTPAGENAME}}}}
+
+==ISO 3166==
+ISO 3166 defines names, two and three letter codes and code numbers for all countries and six character codes (the two letter country code followed by a dash and a two or three character subdivision code) for all top level subdivisions. 
+
+==Using the family of templates==
+We wish to convert between various identifiers that may loosely be defined as ''user input'' and ISO 3166 entities, there may be more than one way to do each conversion.  For our examples we use [[Pakistan]] as the country and [[Balochistan (Pakistan)]] as the subdivision.
+
+The ISO-3166 identifiers for Pakistan are:
+*Name: Pakistan
+*Alpha-2 code:PK
+*Alpha-3 code:PAK
+*Numeric code:586
+
+The ISO-3166 identifiers for Balochistan (Pakistan) is:
+*Subdivision code:PK-BK
+
+Now Pakistan also has a number of synonyms: for example [[Pakistán]]  and  [[پاکستان]]. 
+
+Similarly Baluchistan is known, for example as [[Balochistan]] (on Wikipedia) and [[Bagh Sanjari]] .
+
+; To get the '''Alpha-2''' code we can use {{Tlx|ISO 3166 code}} with any of the country identifiers ,or use the identifier as a part of the template name (faster).
+
+* {{Tlx|ISO 3166 code|Pakistan}} PK 
+* {{Tlx|ISO 3166 code|PK}} PK 
+* {{Tlx|ISO 3166 code|PAK}} PK 
+* {{Tlx|ISO 3166 code|586}} PK 
+* {{Tlx|ISO 3166 code|Pakistán}} PK 
+* {{Tlx|ISO 3166 code|پاکستان}} PK 
+
+* {{Tld|ISO 3166 code Pakistan}} PK 
+* {{Tld|ISO 3166 code PK}} PK 
+* {{Tld|ISO 3166 code PAK}} PK 
+* {{Tld|ISO 3166 code 586}} PK 
+* {{Tld|ISO 3166 code Pakistán}} PK 
+* {{Tld|ISO 3166 code پاکستان}} PK 
+
+; The '''alpha-3''' code is obtained similarly (but not currently using the template name method except for conversion from known good '''Alpha-2''').
+
+* {{Tlx|ISO 3166 code-3|Pakistan}} PAK 
+* {{Tlx|ISO 3166 code-3|PK}} PAK 
+* {{Tlx|ISO 3166 code-3|PAK}} PAK 
+* {{Tlx|ISO 3166 code-3|586}} PAK 
+* {{Tlx|ISO 3166 code-3|Pakistán}} PAK 
+* {{Tlx|ISO 3166 code-3|پاکستان}} PAK 
+* {{Tlx|ISO 3166 code-3 PK}} PAK 
+
+;Finding the name is obtained similarly (but not currently using the template name method except for conversion from known good '''Alpha-2''').
+
+* {{Tlx|ISO 3166 name|Pakistan}} Pakistan 
+* {{Tlx|ISO 3166 name|PK}} Pakistan 
+* {{Tlx|ISO 3166 name|PAK}} Pakistan 
+* {{Tlx|ISO 3166 name|586}} Pakistan 
+* {{Tlx|ISO 3166 name|Pakistán}} Pakistan 
+* {{Tlx|ISO 3166 name|پاکستان}} Pakistan 
+
+* {{Tld|ISO 3166 name PK}} Pakistan 
+
+;The subdivision code can be obtained in many ways
+
+:Using a template name - this currently '''must''' use the canonical (usually ISO 3166) name for the country but can use implemented synonyms for the region.
+* {{Tld|ISO 3166 code Pakistan Baluchistan}} PK-BA 
+* {{Tld|ISO 3166 code Pakistan Balochistan}} PK-BA 
+* {{Tld|ISO 3166 code Pakistan Bagh Sanjari}} PK-BA 
+
+:Using a template name and a parameter - can use implemented synonyms for the region and country - ISO 3166 entities are almost guaranteed to be implemented synonyms for countries.
+* {{Tlx|ISO 3166 code Pakistan|Baluchistan}} PK-BA 
+* {{Tlx|ISO 3166 code Pakistan|Balochistan}} PK-BA 
+* {{Tlx|ISO 3166 code Pakistan|Bagh Sanjari}} PK-BA 
+* {{Tlx|ISO 3166 code Pakistán|Baluchistan}} PK-BA 
+* {{Tlx|ISO 3166 code Paquistán|Balochistan}} PK-BA 
+* {{Tlx|ISO 3166 code PK|Baluchistan}} PK-BA 
+
+:Using two parameters - can use implemented synonyms for the region and country - ISO 3166 entities are almost guaranteed to be implemented synonyms for countries.
+* {{Tlx|ISO 3166 code|Pakistan|Baluchistan}} PK-BA 
+* {{Tlx|ISO 3166 code|Pakistan|Balochistan}} PK-BA 
+* {{Tlx|ISO 3166 code|Pakistan|Bagh Sanjari}} PK-BA 
+* {{Tlx|ISO 3166 code|Pakistán|Baluchistan}} PK-BA 
+* {{Tlx|ISO 3166 code|Paquistán|Balochistan}} PK-BA 
+* {{Tlx|ISO 3166 code|PK|Baluchistan}} PK-BA 
+
+;The subdivision name can be obtained similarly
+
+* {{Tld|ISO 3166 name PK-BA}} Baluchistan, Pakistan 
+
+:Using two parameters - can use implemented synonyms for the region and country - ISO 3166 entities are almost guaranteed to be implemented synonyms for countries.
+* {{Tlx|ISO 3166 name|PK|Baluchistan}} Baluchistan, Pakistan
+* {{Tlx|ISO 3166 name|Pakistan|Baluchistan}} Baluchistan, Pakistan
+* {{Tlx|ISO 3166 name|PK|Bagh Sanjari}} Baluchistan, Pakistan 
+* {{Tlx|ISO 3166 name|Pakistán|Baluchistan}} Baluchistan, Pakistan 
+* {{Tlx|ISO 3166 name|Paquistán|Balochistan}} Baluchistan, Pakistan 
+* {{Tlx|ISO 3166 name|PK|Baluchistan}} Baluchistan, Pakistan 
+
+==Cases where the non-ISO3166 name might be returned==
+* Taiwan - ISO name is...
+* Venezuela - ISO name is...
+* Bolivia - ISO name is....
+* ...
+
+* Cases where the name is comma mangled - "Congo, The People's Democratic Republic of"
+* Macedonia - ISO name is Macedonia, the former Yugoslav Republic of
+
+==Enhancing the system==
+# Adding country synonyms: these should redirect to the canonical template: the redirect should be categorised the same as the target, and sort-keyed as per the notes in the categories.
+# Adding region synonyms: these can be a simple cut-and paste, but be sure to update any documentation variables.
+
+}}
+
+<includeonly>{{#ifeq:{{{4|}}}|name|{{#if:{{{2|}}}|[[Category:ISO 3166 name from code templates{{!}}{{{1}}} {{{2}}}]]|[[Category:ISO 3166 name from code country templates{{!}}{{{1|}}}]]}}|{{#if:{{{2|}}}|[[Category:ISO 3166 code from name templates{{!}}{{{1}}} {{{2}}}]]|[[Category:ISO 3166 code from name country templates{{!}}{{{1|}}}]]}}}}</includeonly>
+}}<noinclude>
+[[Category:Template documentation]]
+</noinclude>
