@@ -6,7 +6,7 @@
 [[Wikipedia:Disambiguation|Bogga faah faahin]] waxa uu ka kooban yahay liis maqaallo leh cinwaano aad inta badan ku xidhidhayso '''{{#if:{{{ignore_parentheses|}}}|{{{page-title|{{FULLPAGENAME}}}}}|{{PAGENAMEBASE|{{{page-title|{{FULLPAGENAME}}}}}}}}}'''.<br /> <small>Haddii aad ka soo gaartay boggan a [{{fullurl:Special:Backlink/{{{page-title|Haddii aad ka soo gaartay boggan a{{FULLPAGENAME}}}}}|namespace=0}} isku xirka gudaha], waxaad ka caawin kartaa inaad beddesho isku xirka cinwaanka saxda ah.</small>
 ----
 | nocat = {{{nocat|}}} <!--So "nocat=true" works-->
-}}{{#if:{{{kat|}}}||[[Category:Disambiguation|<noinclude> </noinclude>{{#if:{{{1|}}}|{{{1}}}|{{{name|{{PAGENAME}}}}}}}]]}}<includeonly>
+}}{{#if:{{{kat|}}}||[[Category:Faah faahin|<noinclude> </noinclude>{{#if:{{{1|}}}|{{{1}}}|{{{name|{{PAGENAME}}}}}}}]]}}<includeonly>
 <includeonly>{{category disambig}}
 __DISAMBIG__</includeonly><noinclude>{{documentation}}
 </noinclude>
