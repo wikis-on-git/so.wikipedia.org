@@ -9,12 +9,12 @@
 }}
 {{#if:{{{o2|}}}|
 {{!}}- style="font-size :0.8em"
-{{!}} Celceliska nuxurka [[Ogsajiin|{{chem|O|2}}]] cirka waqti ka waqti
+{{!}} Celceliska nuxurka [[Ogsajiin|O<sub>2</sub>]] cirka waqti ka waqti
 {{!}} c. {{{o2}}} vol %<br>({{#expr:{{{o2}}}/.2 round 0}} % laga bilaabo heerka casriga ah)
 }}
 {{#if:{{{co2|}}}|
 {{!}}- style="font-size: 0.8em"
-{{!}} Celceliska nuxurka [[Carbon dioxide|{{chem|CO|2}}]] cirka oo muddo ah
+{{!}} Celceliska nuxurka [[Carbon dioxide|CO<sub>2</sub>]] cirka oo muddo ah
 {{!}} c. {{{co2}}} [[Parts per million|ppm]]<br />({{#expr:{{{co2}}}/280 round 0}} jeer heerarka warshadaha ka hor)
 }}
 {{#if:{{{temp|}}}|
