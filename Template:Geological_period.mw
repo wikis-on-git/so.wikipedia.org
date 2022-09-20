@@ -1,0 +1,33 @@
+<includeonly>{| class="wikitable" style="float:right; margin-left:1em; width: {{{width|20}}}em; text-align: center;"
+|-
+| colspan="2" style="background-color: {{period color|{{{period|{{PAGENAME}}}}}}}" |'''Waqtiyada {{{period|{{PAGENAME}}}}}'''<br />''{{period start|{{{period|{{PAGENAME}}}}}}}–{{Period end|{{{period|{{PAGENAME}}}}}}}&nbsp;milyan sano ka hor''<br />{{Time scale}}
+<!-- Including this template in the documentation results in two "Expression error: Unexpected round operator" messages in the above line.  -->
+{{#if:{{{image|}}}|
+{{!}}-
+{{!}} colspan="2" {{!}} {{#invoke:InfoboxImage|InfoboxImage|image={{{image}}}|size={{#expr:{{{width|20}}}*12}}|alt={{{alt|}}}}}
+{{#if:{{{caption|}}}|{{{caption}}}}}
+}}
+{{#if:{{{o2|}}}|
+{{!}}- style="font-size :0.8em"
+{{!}} Celceliska nuxurka [[Ogsajiin|{{chem|O|2}}]] cirka waqti ka waqti
+{{!}} c. {{{o2}}} vol %<br>({{#expr:{{{o2}}}/.2 round 0}} % laga bilaabo heerka casriga ah)
+}}
+{{#if:{{{co2|}}}|
+{{!}}- style="font-size: 0.8em"
+{{!}} Celceliska nuxurka [[Carbon dioxide|{{chem|CO|2}}]] cirka oo muddo ah
+{{!}} c. {{{co2}}} [[Parts per million|ppm]]<br />({{#expr:{{{co2}}}/280 round 0}} jeer heerarka warshadaha ka hor)
+}}
+{{#if:{{{temp|}}}|
+{{!}}- style="font-size: 0.8em"
+{{!}} Celceliska heerkulka dusha sare ee wakhtiga
+{{!}} c. {{{temp}}}&nbsp;°C<br />({{#expr:{{{temp}}}-14 round 0}}&nbsp;°C ka sarreeya heerarka casriga ah)}}
+{{#if:{{{sea level|}}}|
+{{!}}- style="font-size: 0.8em;"
+{{!}} Heerka badda (hadda ka sarreeya)
+{{!}} {{{sea level}}}}}
+{{#ifeq:{{{timeline}}}|off||
+{{!}}-
+{{!}} colspan=2{{!}} {{{{{timeline|{{{period|{{PAGENAME}}}}}}}} graphical timeline|embedded=yes}}[[Category:Da'da wakhtiga ku jirta sanduuqa macluumaadka]]}}
+|}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
