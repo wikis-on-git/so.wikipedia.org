@@ -27,7 +27,7 @@
 {{!}} {{{sea level}}}}}
 {{#ifeq:{{{timeline}}}|off||
 {{!}}-
-{{!}} colspan=2{{!}} {{{{{timeline|{{{period|{{PAGENAME}}}}}}}} graphical timeline|embedded=no}}[[Category:Da'da wakhtiga ku jirta sanduuqa macluumaadka]]}}
+{{!}} colspan=2{{!}} [[Category:Da'da wakhtiga ku jirta sanduuqa macluumaadka]]}}
 |}</includeonly><noinclude>
 {{Documentation}}
 </noinclude>
