@@ -1,6 +1,6 @@
 <includeonly>{| class="wikitable" style="float:right; margin-left:1em; width: {{{width|20}}}em; text-align: center;"
 |-
-| colspan="2" style="background-color: {{period color|{{{period|{{PAGENAME}}}}}}}"|'''{{{period|{{PAGENAME}}}}}'''<br/>''{{#if:{{{time|}}}|{{{time}}}}} milyan sano ka hor''<br />{{small|[[brakambriyaan|pЄ]] [[kambriyaan|Є]]•[[ordofisiyaan|O]] [[siluriyaan|S]] [[Kaarboon (da'da)|C]] [[barmiyaan|P]] [[saddexaad|T]] [[Juuraasiig|J]] [[nuurad (da'da)|K]] [[Baleojiin|Pg]] [[Neojiin|N]]}}
+| colspan="2" style="background-color: {{period color|{{{period|{{PAGENAME}}}}}}}"|'''{{{period|{{PAGENAME}}}}}'''<br/>''{{#if:{{{time|}}}|{{{time}}}}} milyan sano ka hor''<br />{{small|[[brakambriyaan|pЄ]] [[kambriyaan|Є]] [[ordofisiyaan|O]] [[siluriyaan|S]] [[Kaarboon (da'da)|C]] [[barmiyaan|P]] [[saddexaad|T]] [[Juuraasiig|J]] [[nuurad (da'da)|K]] [[Baleojiin|Pg]] [[Neojiin|N]]}}
 <!-- Including this template in the documentation results in two "Expression error: Unexpected round operator" messages in the above line.  -->
 {{#if:{{{image|}}}|
 {{!}}-
