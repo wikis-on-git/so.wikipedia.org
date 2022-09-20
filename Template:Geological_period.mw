@@ -1,7 +1,7 @@
 <includeonly>{| class="wikitable" style="float:right; margin-left:1em; width: {{{width|20}}}em; text-align: center;"
 |-
-| colspan="2" style="background-color: {{period color|{{{period|{{PAGENAME}}}}}}}" |'''{{{period|{{PAGENAME}}}}}'''<br />{{#if:{{{time|}}}|{{{time}}}}}
-}}&nbsp;milyan sano ka hor''<br />{{Time scale}}
+| colspan="2" style="background-color: {{period color|{{{period|{{PAGENAME}}}}}}}" |'''{{{period|{{PAGENAME}}}}}'''<br />''{{#if:{{{time|}}}|{{{time}}}}}
+&nbsp;milyan sano ka hor''<br />{{Time scale}}
 <!-- Including this template in the documentation results in two "Expression error: Unexpected round operator" messages in the above line.  -->
 {{#if:{{{image|}}}|
 {{!}}-
