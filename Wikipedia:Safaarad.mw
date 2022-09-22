@@ -2698,3 +2698,48 @@ the Movement Strategy and Governance Team
 
 [[User:MNadzikiewicz (WMF)]] 11:32, 29 Agoosto 2022 (UTC)
 <!-- Message sent by User:MNadzikiewicz (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=Movement_Strategy_and_Governance/Delivery&oldid=23720620 -->
+
+== The Vector 2022 skin as the default in two weeks? ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Wikimania 2022 Vector (2022) Presentation.pdf|thumb|The slides for our presentation at Wikimania 2022|page=26]]
+Hello. I'm writing on behalf of the [[mw:Reading/Web|Wikimedia Foundation Web team]]. '''In two weeks, we would like to make the Vector 2022 skin the default on this wiki.'''
+
+We have been working on it for the past three years. So far, it has been the default on more than 30 wikis, including sister projects, all accounting for more than 1 billion pageviews per month. On average [[phab:T317529#8246686|87% of active logged-in users]] of those wikis use Vector 2022.
+
+It would become the default for all logged-out users, and also all logged-in users who currently use Vector legacy. Logged-in users can at any time switch to [[Special:Preferences#mw-prefsection-rendering|any other skins]]. No changes are expected for users of these skins.
+
+<div style="width:100%; margin:auto;"><gallery widths="220" heights="150" mode="packed" caption="Top of an article">
+Screenshot Historia da moeda do Tíbet - 2022-09-22 - Vector 2010 top.png|Vector legacy (current default)
+Screenshot Historia da moeda do Tíbet - 2022-09-22 - Vector 2022 top.png|Vector 2022
+</gallery><gallery widths="220" heights="150" mode="packed" caption="A section of an article">
+Screenshot Historia da moeda do Tíbet - 2022-09-22 - Vector 2010 scrolled.png|Vector legacy (current default)
+Screenshot Historia da moeda do Tíbet - 2022-09-22 - Vector 2022 scrolled.png|Vector 2022
+</gallery></div>
+=== About the skin ===
+
+'''[Why is a change necessary]''' The current default skin meets the needs of the readers and editors as these were 13 years ago. Since then, new users have begun using Wikimedia projects. [https://diff.wikimedia.org/2022/08/18/prioritizing-equity-within-wikipedias-new-desktop/ The old Vector doesn't meet their needs.]
+
+'''[Objective]''' The objective for the new skin is to make the interface more welcoming and comfortable for readers and useful for advanced users. It draws inspiration from previous requests, the [[metawiki:Special:MyLanguage/Community_Wishlist_Survey|Community Wishlist Surveys]], and gadgets and scripts. The work helped our code follow the standards and improve all other skins. [[phab:phame/post/view/290/how_and_why_we_moved_our_skins_to_mustache/|We reduced PHP code in Wikimedia deployed skins by 75%]]. The project has also focused on making it easier to support gadgets and use APIs.
+
+'''[Changes and test results]''' The skin introduces a [[mw:Special:MyLanguage/Reading/Web/Desktop Improvements/Features|series of changes]] that improve readability and usability. The new skin does not remove any functionality currently available on the Vector skin.
+
+* The sticky header makes it easier to find tools that editors use often. It decreases scrolling to the top of the page by 16%.
+* The new table of contents makes it easier to navigate to different sections. Readers and editors jumped to different sections of the page 50% more than with the old table of contents. It also looks a bit different on talk pages.
+* The new search bar is easier to find and makes it easier to find the correct search result from the list. This increased the amount of searches started by 30% on the wikis we tested on.
+* The skin does not negatively affect pageviews, edit rates, or account creation. There is evidence of increases in pageviews and account creation across partner communities.
+
+'''[Try it out]''' Try out the new skin by going to the appearance tab in [[Special:Preferences#mw-prefsection-rendering|your preferences]] and selecting Vector 2022 from the list of skins.
+
+=== How can editors change and customize this skin? ===
+
+It's possible to configure and personalize our changes. We support volunteers who create new gadgets and user scripts. Check out [[mw:Special:MyLanguage/Reading/Web/Desktop Improvements/Repository|our repository]] for a list of currently available customizations, or add your own. 
+
+=== Our plan ===
+
+'''If no large concerns are raised, we plan on deploying in the week of October 3, 2022'''. If your community would like to request more time to discuss the changes, hit the button and write to us. We can adjust the calendar.
+
+<div style="text-align: center;">[[mw:Talk:Reading/Web/Desktop Improvements|<span class="plainlinks mw-ui-button">Request for more time to discuss the change</span>]]</div>
+If you'd like ask our team anything, if you have questions, concerns, or additional thoughts, please ping me here or write on the [[mw:Talk:Reading/Web/Desktop Improvements|talk page of the project]]. We will gladly answer! Also, [[mw:Reading/Web/Desktop Improvements/Frequently asked questions|see our FAQ]]. Thank you! [[mw:User:SGrabarczuk (WMF)|SGrabarczuk (WMF)]] ([[mw:User talk:SGrabarczuk (WMF)|talk]]) 04:15, 22 Sebteembar 2022 (UTC)
+</div>
+<!-- Message sent by User:SGrabarczuk (WMF)@metawiki using the list at https://meta.wikimedia.org/w/index.php?title=User:SGrabarczuk_(WMF)/sandbox/MM/Varia&oldid=23838600 -->
