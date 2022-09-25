@@ -13,7 +13,7 @@
 
 |subheader1     = {{{alt_name|}}}
 
-|subheader2     = {{calanka IUCN|{{{iucn_category|}}} }}
+|subheader2     = {{IUCN banner|{{{iucn_category|}}} }}
 
 |image1    = {{#invoke:InfoboxImage|InfoboxImage|image={{{photo|}}}|size={{{photo_width|}}}|maxsize=284px|alt={{{photo_alt|}}}}}
 |caption1  = {{{photo_caption|}}}
