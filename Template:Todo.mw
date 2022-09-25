@@ -1,0 +1,13 @@
+{| class="messagebox {{#ifeq:{{{small|}}}|yes|small|standard}}-talk"
+|-
+! style="text-align: left; font-size: {{#ifeq:{{{small|}}}|yes|small|large}}" | [[Image:Stock post message.svg|25px]]<!-- no reason to have special column just for pic, fits with text nicely
+--> [[Wikipedia:To-do list|Liiska hawsha]]{{#ifeq:{{{small|}}}|yes|<!-- NOTHING -->|&#32;waayo {{{for|[[:{{{target|{{SUBJECTPAGENAME}}}}}]]}}}}}
+| style="text-align: right; vertical-align: bottom; font-size: {{#ifeq:{{{small|}}}|yes|x-}}small" class="plainlinks" | [{{fullurl:{{#rel2abs:{{{list|./to do}}}|{{{target|}}}}}|action=edit{{#ifeq:{{{nopreload|}}}|yes||&preload=Template:Tasks/Preload}}}} sunting]{{·}} [{{fullurl:{{#rel2abs:{{{list|./to do}}}|{{{target|}}}}}|action=history}} sejarah]{{·}} [{{fullurl:{{#rel2abs:{{{list|./to do}}}|{{{target|}}}}}|action=watch}} pantau]{{·}} [{{fullurl:{{#rel2abs:.}}|action=purge}} muat semula]
+|-
+| class="todo-box" colspan="2" valign="top" style="background:#fffaef; padding:5px; margin: 5px; border: 1px dotted gray; {{#ifeq:{{{small|}}}|yes|font-size: x-small}}" |
+{{#ifexist:{{#rel2abs:{{{list|./to do}}}|{{{target|}}}}}|{{ {{#rel2abs:{{{list|./to do}}}|{{{target|}}}}} }}|{{#ifeq:{{{nopreload|}}}|yes|<!-- if todo list nonexistent, we can use example -->|{{Template:Tugas/Muat}}}}}}
+|-
+{{#if:{{{1|}}}|
+{{!}} colspan="2" style="text-align:right; font-size: {{#ifeq:{{{small}}}|yes|x}}x-small" {{!}} '''[[:Category:To do, by priority|Priority {{{1}}}]] {{#ifeq:{{{1|}}}|1|(top)}}'''
+}}
+|}
