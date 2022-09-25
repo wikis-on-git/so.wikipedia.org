@@ -2,7 +2,7 @@
 | child     = {{{embed|}}}
 | decat     = yes
 
-| above     = {{#ifeq:{{{embed|}}}|yes|<!-- don't show -->|Designations}}
+| above     = {{#ifeq:{{{embed|}}}|yes|<!-- don't show -->|Magacyada}}
 
 | rowclass1 = mergedrow
 |   header1 = {{#if:{{{designation1|}}}|{{Infobox designation list/entry
