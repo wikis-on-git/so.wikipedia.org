@@ -94,7 +94,7 @@
              -->{{#if:{{{visitation_year|}}}|{{sp}}(in&nbsp;{{{visitation_year|}}}) }}<!--
              -->{{#if:{{{visitation_ref|}}}|{{{visitation_ref|}}}}} }}
 
-|label8    = {{#if:{{{governing_body|}}}|Maamulka&nbsp;jir
+|label8    = {{#if:{{{governing_body|}}}|Golaha maamulka
              | {{#if:{{{administrator|}}}|Maamule
              | {{#if:{{{operator|}}}|Hawl-wadeen
              | {{#if:{{{owner|}}}|Milkiilaha }}}}}}}}
