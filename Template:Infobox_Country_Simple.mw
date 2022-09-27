@@ -1,0 +1,141 @@
+{| class="infobox bordered" cellpadding="4" style="width: 10em; font-size: 80%;"
+|+ style="margin-left: inherit;" | '''{{{native_name|}}}'''{{#if:{{{conventional_long_name|}}}|<br />'''{{{conventional_long_name|}}}'''}}
+|-
+| colspan="2" |
+    {| style="text-align: center; margin: 0 auto; background: none;"
+    |-
+    | style="border: 0; vertical-align: middle;" | <span style="border: 1px solid #bbbbbb; display: table-cell;">[[File:{{{image_flag}}}|125px|Calanka {{{common_name}}}]]</span>
+    | style="border: 0; vertical-align: middle;" | [[File:{{{image_coat}}}|110px|Astaanta {{{common_name}}}]]
+    |- style="font-size: 95%;"
+    | style="border: 0;" | [[Bendera ya {{{common_name}}}|Bendera]]
+    | style="border: 0;" | [[Astaanta {{{common_name}}}|Astaanta]]
+    |}
+|-
+| colspan="2" style="font-size: 95%; text-align: center;" | Halkudhig qaran: {{{national_motto}}}
+|-
+| colspan="2" style="font-size: 95%; text-align: center;" | [[Heesta calanka]]: {{{national_anthem}}}
+|-
+| colspan="2" style="text-align: center; background: white;" | [[Image:{{{image_map}}}|250px|Goobta {{{common_name}}}]]
+|-
+| '''[[Caasimadda]]'''
+|{{{capital}}}<br /> <small><span class="plainlinksneverexpand"
+>[http://kvaleberg.com/extensions/mapsources/index.php?params={{{latd}}}_{{{latm}}}_{{{latNS}}}_{{{longd}}}_{{{longm}}}_{{{longEW}}}_type:country({{{area}}}) {{{latd}}}°{{{latm}}}&prime;&nbsp;{{{latNS}}} {{{longd}}}°{{{longm}}}&prime;&nbsp;{{{longEW}}}]</span></small>
+|-
+| '''{{{largest_settlement_type|Magaalada ugu weyn dalka}}}'''
+| {{{largest_settlement|{{{largest_city}}}}}}
+|-
+| '''Afka rasmiga ah'''
+| {{{official_languages}}}
+|-
+| style="white-space: nowrap;" | '''Dowladda''' <div style="text-align: left;">{{{leader_titles}}}</div>
+| style="white-space: nowrap;" | {{{government_type}}}<br />{{{leader_names}}}
+|-
+| style="white-space: nowrap;" | '''{{{sovereignty_type}}}'''<br />{{{established_events}}}
+| style="white-space: nowrap;" | {{{established_dates}}}
+|-
+| '''Goobta'''<br />&nbsp;- Wadarta<br />&nbsp;- Biyo (%)
+| &nbsp;<br />[[{{{area_magnitude}}} m²|{{{area}}}&nbsp;km&sup2;]]&nbsp;({{{area_rank}}})<br />{{{percent_water}}}
+|-
+| style="white-space: nowrap;" | '''Tirada dadka'''<br />&nbsp;- [[{{{population_estimate_year}}}]] qiyaas {{qif|test={{{population_census|}}}|then=<br />&nbsp;- [[{{{population_census_year}}}|{{{population_census_year}}}]] sensa}}<br />&nbsp;- Cidhiidhi
+| &nbsp;<br />{{{population_estimate}}} ({{{population_estimate_rank}}}){{qif|test={{{population_census|}}}|then=<br />{{{population_census}}} }}<br />{{{population_density}}}/km&sup2; ({{{population_density_rank}}})
+|-
+<!--
+| style="white-space: nowrap;" | '''[[Wax soo saarka guud ee gudaha|GDP]]''' ([[Sinaanta awoodda wax iibsiga|PPP]])<br />&nbsp;- Wadarta<br />&nbsp;- Muwaadin kasta (per capita)
+| {{{GDP_PPP_year}}} lagu qiyaasay<br />{{{GDP_PPP}}} ({{{GDP_PPP_rank}}})<br />{{{GDP_PPP_per_capita}}} ({{{GDP_PPP_per_capita_rank}}})
+|-
+| style="white-space: nowrap;" | '''[[Tilmaanta Horumarinta Aadanaha|HDI]]''' ([[2003|{{{HDI_year}}}]])
+| {{{HDI}}} ({{{HDI_rank}}}) – {{{HDI_category}}}
+|-
+-->
+| '''Lacag'''
+| style="white-space: nowrap;" | {{{currency}}} (<code>[[ISO 4217|{{{currency_code}}}]]</code>)
+|-
+| '''Waqtiga maxaliga ah'''<br />&nbsp;- Xagaaga&nbsp;([[Daylight saving time|DST]])
+| {{{time_zone}}} ([[Isku-dubbaridka Waqtiga Caalamiga ah|UTC]]{{{utc_offset}}})<br />{{{DST|{{{time_zone_DST}}} ([[Isku-dubbaridka Waqtiga Caalamiga ah|UTC]]{{{utc_offset_DST}}})}}}
+|-
+| '''Internet TLD'''
+| {{{cctld}}}
+|-
+| '''Canshuurta telefoonka'''
+| <code>+{{{calling_code}}}</code>
+{{#if:{{{vehicle_code|}}}|
+|-
+|'''[[Calaamadaha baabuurta caalamiga ah|Calaamadaha baabuurta caalamiga ah]]'''
+| <code>{{{vehicle_code}}}</code>}}
+{{#if:{{{footnotes|}}}|<tr><td colspan="2"><small>{{{footnotes|}}}</small></td></tr>}}
+|}
+
+
+<noinclude>
+
+<pre>
+{{Infobox country
+|native_name                 =
+|conventional_long_name      =
+|common_name                 =
+|image_flag                  =
+|image_coat                  =
+|motto                       =
+|anthem                      =
+|image_map                   =
+|capital                     =
+|largest_city                =
+|official_languages          =
+|regional_languages          =
+|ethnic_groups               =
+|ethnic_groups_year          =
+|demonym                     =
+|government_type             =
+|leader_title1               =
+|leader_name1                =
+|leader_title2               =
+|leader_name2                =
+|leader_name3                =
+|leader_title3               =
+|sovereignty_type            =
+|sovereignty_note            =
+|established_event1          =
+|established_date1           =
+|area_rank                   =
+|area_magnitude              =
+|area_km2                    =
+|area_sq_mi                  =
+|percent_water               =
+|population_estimate         =
+|population_estimate_rank    =
+|population_estimate_year    =
+|population_census           =
+|population_census_year      =
+|population_density_km2      =
+|population_density_sq_mi    =
+|population_density_rank     =
+|GDP_PPP                     =
+|GDP_PPP_rank                =
+|GDP_PPP_year                =
+|GDP_PPP_per_capita          =
+|GDP_PPP_per_capita_rank     =
+|GDP_nominal                 =
+|GDP_nominal_rank            =
+|GDP_nominal_year            =
+|GDP_nominal_per_capita      =
+|GDP_nominal_per_capita_rank =
+|Gini                        =
+|Gini_year                   =
+|Gini_category               =
+|HDI                         =
+|HDI_rank                    =
+|HDI_year                    =
+|HDI_category                =
+|currency                    =
+|currency_code               =
+|time_zone                   =
+|utc_offset                  =
+|cctld                       =
+|calling_code                =
+|vehicle_code                =
+|footnote1                   =
+natural rescources           =
+}}
+</pre>
+
+</noinclude>
