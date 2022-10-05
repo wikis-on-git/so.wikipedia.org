@@ -22,51 +22,51 @@
 
 | header1     = {{#if:{{{embed|}}}||{{#if:{{{magaca_dhalashada |}}}{{{taariiqda_dhalasha |}}}{{{goobta_dhalashada|}}}{{{taariikhda_geerida|}}}{{{goobta_dhimashada|}}}{{{dherer|}}}{{{dhalashada|}}}{{{shaqo|}}}|Warbixin shaqsiyeed}}}}
 
-| label3      = Born
+| label3      = Dhashay
 | data3       = {{br separated entries|1={{#if:{{{birth_name|}}}|{{{birth_name|}}}}}|2={{{birth_date|}}}|3={{#if:{{{birth_place|}}}|<div style="display:inline;" class="birthplace">{{{birth_place|}}}</div>}}}}
 
-| label4      = Died
+| label4      = Dhintay
 | data4       = {{br separated entries|1={{{death_date|}}}|2={{#if:{{{death_place|}}}|<div style="display:inline;" class="deathplace">{{{death_place|}}}</div>}}}}
 
-| label5      = Origin
+| label5      = Asal ahaan
 | data5       = {{{origin|{{{Origin|}}}}}}
 
-| label6      = Nationality
+| label6      = Jinsiyad
 | data6       = {{{nationality|}}}
 | class6      = category
 
-| label7      = Education
+| label7      = Waxbarasho
 | data7       = {{{education|}}}
 
-| label9      = Occupation
+| label9      = Shaqo
 | data9       = {{{occupation|}}}
 | class9      = role
 
-| label10      = Height
+| label10      = Dhererka
 | data10       = {{#if:{{{height_m|{{{height_cm|}}}}}}{{{height_ft|}}}{{{height_in|}}} | {{convinfobox|{{{height_m|{{{height_cm|}}}}}}|{{#if:{{{height_m|}}}|m|cm}}|{{{height_ft|}}}|ft|{{{height_in|}}}|in}} }}{{#if:{{{height|}}} | {{Infobox person/height|{{{height|}}}}}}}
 
-| label11     = <span class="nowrap">Partner(s)</span>
+| label11     = <span class="nowrap">Lamaane</span>
 | data11      = {{{partner|}}}
 
-| label12     = <span class="nowrap">Spouse(s)</span>
+| label12     = <span class="nowrap">Lamaanaha</span>
 | data12      = {{{spouse|}}}
 
-| label13     = <span class="nowrap">Children</span>
+| label13     = <span class="nowrap">Carruurta</span>
 | data13      = {{{children|}}}
 
-| label14     = <span class="nowrap">Parent(s)</span>
+| label14     = <span class="nowrap">Waalidka</span>
 | data14      = {{{parents|}}}
 
-| label15     = <span class="nowrap">Relatives</span>
+| label15     = <span class="nowrap">Qaraabada</span>
 | data15      = {{{relatives|}}}
 
-| label16     = Net worth
+| label16     = Qiimaha saafiga ah
 | data16      = {{{networth|}}} 
 
-| label17     = Signature
+| label17     = Saxeexa
 | data17      = {{#if:{{{signature|}}}|{{#invoke:InfoboxImage|InfoboxImage|image={{{signature|}}}|size={{{signature_size|}}}|sizedefault=150px|alt={{{signature_alt|{{{signature alt|}}}}}}}} }}
 
-| label18     = Website
+| label18     = Mareegta
 | data18      = {{{website|{{{homepage|{{{URL|}}}}}}}}}
 
 | data19      = {{#if:{{{module_personal|}}}|
@@ -79,7 +79,7 @@
 
 | header20    = {{#if:{{{embed|}}}||{{#if:{{{pseudonym|}}}{{{channel_name|}}}{{{channel_url|}}}{{{channel_direct_url|}}}{{{years_active|{{{years active|{{{yearsactive|}}}}}}}}}{{{genre|}}}{{{genres|}}}{{{subscribers|}}}{{{views|}}}{{{network|}}}{{{associated_acts|}}}{{{catchphrase(s)|}}}|YouTube information}}}}
 
-| label21     = Also known as
+| label21     = Sidoo kale loo yaqaan
 | data21      = {{{pseudonym|}}}
 
 | label22     = {{#if:{{{channels|}}}{{{channel_name2|}}}{{{channel_display_name2|}}}{{{channel_url2|}}}{{{channel_direct_url2|}}}|Channels|Channel}}
