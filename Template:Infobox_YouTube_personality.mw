@@ -94,40 +94,40 @@
 * [https://www.youtube.com/{{{channel_direct_url2}}} {{if empty|{{{channel_display_name2|}}}|{{{channel_direct_url2}}}}}]{{#if:{{{channel_direct_url3|}}}|
 * [https://www.youtube.com/{{{channel_direct_url3}}} {{if empty|{{{channel_display_name3|}}}|{{{channel_direct_url3}}}}}]}} }} }}|{{{channels|}}} }} }} }}
 
-|label23      = Location
+|label23      = Goobta
 |data23       = {{{location|}}}
 
-|label24      = Website
+|label24      = Mareegta
 |data24       = {{{channel_website|}}}
 
-| label25     = Created by
+| label25     = Waxaa sameeyay
 | data25      = {{{creator|}}}
 
-| label26     = Presented by
+| label26     = Waxaa soo bandhigay
 | data26      = {{{presenter|}}}
 
-| label27     = Years&nbsp;active
+| label27     = Sannado  firfircoon
 | data27      = {{{years_active|{{{years active|{{{yearsactive|}}}}}}}}}
 
-| label28     = {{#if:{{{genres|}}}|Genres|Genre}}
+| label28     = {{#if:{{{genres|}}}|Noocyada|Nooca}}
 | data28      = {{{genres|{{{genre|}}}}}}
 
-| label29     = Subscribers
+| label29     = Macaamiisha
 | data29      = {{br separated entries|1={{{subscribers|}}}{{#if:{{{subscribers|}}}|{{#if:{{{channel_url|}}}|{{#tag:ref|{{Cite web|title=About {{{channel_display_name|{{{channel_name|YouTube channel}}}}}}|url=https://www.youtube.com/channel/{{{channel_url}}}/about |publisher=YouTube}}|name="{{Plain text|YouTubeStats{{{channel_display_name|{{{channel_name|{{{name|}}}}}}}}}}}"}}|{{#if:{{{channel_direct_url|}}}|{{#tag:ref|{{Cite web|title=About {{{channel_display_name|{{{channel_name|YouTube channel}}}}}}|url=https://www.youtube.com/{{{channel_direct_url}}}/about |publisher=YouTube}}|name="{{Plain text|YouTubeStats{{{channel_display_name|{{{channel_name|{{{name|}}}}}}}}}}}"}}|{{#if:{{{channel_name|}}}|{{#tag:ref|{{Cite web|title=About {{{channel_display_name|{{{channel_name|YouTube channel}}}}}}|url=https://www.youtube.com/user/{{{channel_name}}}/about |publisher=YouTube}}|name="YouTubeStats{{Plain text|{{{channel_display_name|{{{channel_name|{{{name|}}}}}}}}}}}"}} }} }} }} }}|2={{#if:{{{subscriber_date|}}}|({{{subscriber_date|}}})|}}}}
 
-| label30     = Total&nbsp;views
+| label30     = Wadarta aragtida
 | data30      = {{br separated entries|1={{{views|}}}{{#if:{{{subscribers|}}}|{{#if:{{{views|}}}|{{#if:{{{channel_url|}}}{{{channel_direct_url|}}}{{{channel_name|}}}|{{#tag:ref||name="{{Plain text|YouTubeStats{{{channel_display_name|{{{channel_name|{{{name|}}}}}}}}}}}"}} }} }} }}|2={{#if:{{{view_date|}}}|({{{view_date|}}})|}} }}
 
-| label31     = [[Multi-channel network|Network]]
+| label31     = [[Shabakad badan oo kanaal ah|Shabakad]]
 | data31      = {{{network|}}}
 
-| label32     = Associated acts
+| label32     = Falalka la xidhiidha
 | data32      = {{{associated_acts|}}}
 
-| label33     = Catchphrase(s)
+| label33     = Kelmadda qabsashada
 | data33      = {{{catchphrase(s)|}}}
 
-| label34     = Contents are in
+| label34     = Nuxurka ayaa ku jira
 | data34      = {{{language|}}}
 
 | rowcellstyle42 = padding: 0
