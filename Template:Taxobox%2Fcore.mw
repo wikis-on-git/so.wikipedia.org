@@ -53,7 +53,7 @@
 {{!}}-
 }}
 {{#if:{{{domain|}}}|
-{{!}} Domayn:
+{{!}} Xukun:
 {{!}} <span class="domain">{{{domain}}}</span><br /><small>{{{domain_authority|}}}</small>
 {{!}}-
 }}
@@ -93,7 +93,7 @@
 {{!}}-
 }}
 {{#if:{{{superphylum|}}}|
-{{!}} Suberfiluum:
+{{!}} Suberfaylam:
 {{!}} <span class="superphylum">{{{superphylum}}}</span><br /><small>{{{superphylum_authority|}}}</small>
 {{!}}-
 }}
@@ -108,7 +108,7 @@
 {{!}}-
 }}
 {{#if:{{{phylum|}}}|
-{{!}} Filuum:
+{{!}} Faylam:
 {{!}} <span class="phylum">{{{phylum}}}</span><br /><small>{{{phylum_authority|}}}</small>
 {{!}}-
 }}
@@ -118,22 +118,22 @@
 {{!}}-
 }}
 {{#if:{{{subphylum|}}}|
-{{!}} Subfiluum:
+{{!}} Subfaylam:
 {{!}} <span class="subphylum">{{{subphylum}}}</span><br /><small>{{{subphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraphylum|}}}|
-{{!}} Inferafiluum:
+{{!}} Inferafaylam:
 {{!}} <span class="infraphylum">{{{infraphylum}}}</span><br /><small>{{{infraphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{microphylum|}}}|
-{{!}} Migerofiluum:
+{{!}} Maykorofaylam:
 {{!}} <span class="microphylum">{{{microphylum}}}</span><br /><small>{{{microphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{nanophylum|}}}|
-{{!}} Nanofiluum:
+{{!}} Nanofaylam:
 {{!}} <span class="nanophylum">{{{nanophylum}}}</span><br /><small>{{{nanophylum_authority|}}}</small>
 {{!}}-
 }}
@@ -143,12 +143,12 @@
 {{!}}-
 }}
 {{#if:{{{superclassis|}}}|
-{{!}} Suberfasalka:
+{{!}} Subergacal:
 {{!}} <span class="superclass">{{{superclassis}}}</span><br /><small>{{{superclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{classis|}}}|
-{{!}} Fasalka:
+{{!}} Gacal:
 {{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>
 {{!}}-
 }}
@@ -158,7 +158,7 @@
 {{!}}-
 }}
 {{#if:{{{subclassis|}}}|
-{{!}} Subfasalka:
+{{!}} Subgacal:
 {{!}} <span class="subclass">{{{subclassis}}}</span><br /><small>{{{subclassis_authority|}}}</small>
 {{!}}-
 }}
@@ -168,7 +168,7 @@
 {{!}}-
 }}
 {{#if:{{{infraclassis|}}}|
-{{!}} Inferafasalka:
+{{!}} Inferagacal:
 {{!}} <span class="infraclass">{{{infraclassis}}}</span><br /><small>{{{infraclassis_authority|}}}</small>
 {{!}}-
 }}
@@ -178,32 +178,32 @@
 {{!}}-
 }}
 {{#if:{{{magnordo|}}}|
-{{!}} Magnordo:
+{{!}} Magnodir:
 {{!}} <span class="magnorder">{{{magnordo}}}</span><br /><small>{{{magnordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superordo|}}}|
-{{!}} Suberordo:
+{{!}} Suberdir:
 {{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{ordo|}}}|
-{{!}} Ordo:
+{{!}} Dir:
 {{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subordo|}}}|
-{{!}} Subordo:
+{{!}} Subdir:
 {{!}} <span class="suborder">{{{subordo}}}</span><br /><small>{{{subordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraordo|}}}|
-{{!}} Inferaordo:
+{{!}} Inferadir:
 {{!}} <span class="infraorder">{{{infraordo}}}</span><br /><small>{{{infraordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{parvordo|}}}|
-{{!}} Parfordo:
+{{!}} Parfdir:
 {{!}} <span class="parvorder">{{{parvordo}}}</span><br /><small>{{{parvordo_authority|}}}</small>
 {{!}}-
 }}
@@ -228,17 +228,17 @@
 {{!}}-
 }}
 {{#if:{{{superfamilia|}}}|
-{{!}} Qoyska sare:
+{{!}} Bahka sare:
 {{!}} <span class="superfamily">{{{superfamilia}}}</span><br /><small>{{{superfamilia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{familia|}}}|
-{{!}} Qoyska:
+{{!}} Bah:
 {{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subfamilia|}}}|
-{{!}} Qoys hoose:
+{{!}} Bahka hoose:
 {{!}} <span class="subfamily">{{{subfamilia}}}</span><br /><small>{{{subfamilia_authority|}}}</small>
 {{!}}-
 }}
@@ -273,12 +273,12 @@
 {{!}}-
 }}
 {{#if:{{{genus|}}}|
-{{!}} Genus:
+{{!}} Duul:
 {{!}} <span class="genus">{{{genus}}}</span><br /><small>{{{genus_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subgenus|}}}|
-{{!}} Genus hoose:
+{{!}} Duulka hoose:
 {{!}} <span class="subgenus">{{{subgenus}}}</span><br /><small>{{{subgenus_authority|}}}</small>
 {{!}}-
 }}
