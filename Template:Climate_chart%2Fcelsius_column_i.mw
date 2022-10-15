@@ -1,0 +1,10 @@
+<div style="width:1.6em;height:17em;position:relative;padding:0;margin:0">
+<div style="height:6em;bottom:2em;width:1.6em;position:absolute;left:0;border-top:dotted 1px #cba;border-top:dotted 1px #cba;border-bottom:dotted 1px #abc;padding:0;margin:0">&nbsp;</div>
+<div style="background:#ace;position:absolute;bottom:2em;left:.2em;width:1.2em;height:{{#expr:{{{3|2}}}*.508}}em;overflow:hidden;margin:0;padding:0">&nbsp;</div>
+<div style="color:blue;position:absolute;bottom:.5em;left:0;width:1.6em;height:1.5em;text-align:center;"><span style="font-size:70%">{{#expr:{{{3|2}}}*25.4 round {{#ifexpr:{{{3|2}}} * 25.4 <10|1|0}}}}</span></div>
+<div style="overflow:hidden;background:#e44;position:absolute;left:.4em;width:0.8em;bottom:{{#expr:{{{1|10}}}/9+4.44}}em;height:{{#expr:({{{2|40}}}-{{{1|10}}})/9}}em;">&nbsp;</div>
+<div style="color:red;position:absolute;bottom:{{#expr:{{{2|40}}}/9+4.44}}em; left:-.4em;width:1.6em;height:1.5em;text-align:right;"><span style="font-size:80%">{{#expr:({{{2|40}}}-32)/1.8 round 0}}</span></div>
+<div style="color:red;position:absolute;bottom:{{#expr:{{{1|10}}}/9+2.94}}em; left:-.4em;width:1.6em;height:1.5em;text-align:right;"><span style="font-size:80%">{{#expr:({{{1|10}}}-32)/1.8 round 0}}</span></div>
+</div><noinclude>
+[[Category:Weather templates]]
+</noinclude>
