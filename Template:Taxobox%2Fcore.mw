@@ -118,22 +118,22 @@
 {{!}}-
 }}
 {{#if:{{{subphylum|}}}|
-{{!}} Subfaylam:
+{{!}} Subfaylamka:
 {{!}} <span class="subphylum">{{{subphylum}}}</span><br /><small>{{{subphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraphylum|}}}|
-{{!}} Inferafaylam:
+{{!}} Inferafaylamka:
 {{!}} <span class="infraphylum">{{{infraphylum}}}</span><br /><small>{{{infraphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{microphylum|}}}|
-{{!}} Maykorofaylam:
+{{!}} Maykorofaylamka:
 {{!}} <span class="microphylum">{{{microphylum}}}</span><br /><small>{{{microphylum_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{nanophylum|}}}|
-{{!}} Nanofaylam:
+{{!}} Nanofaylamka:
 {{!}} <span class="nanophylum">{{{nanophylum}}}</span><br /><small>{{{nanophylum_authority|}}}</small>
 {{!}}-
 }}
@@ -143,12 +143,12 @@
 {{!}}-
 }}
 {{#if:{{{superclassis|}}}|
-{{!}} Subergacal:
+{{!}} Subergacalka:
 {{!}} <span class="superclass">{{{superclassis}}}</span><br /><small>{{{superclassis_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{classis|}}}|
-{{!}} Gacal:
+{{!}} Gacalka:
 {{!}} <span class="taxoclass">{{{classis}}}</span><br /><small>{{{classis_authority|}}}</small>
 {{!}}-
 }}
@@ -158,7 +158,7 @@
 {{!}}-
 }}
 {{#if:{{{subclassis|}}}|
-{{!}} Subgacal:
+{{!}} Subgacalka:
 {{!}} <span class="subclass">{{{subclassis}}}</span><br /><small>{{{subclassis_authority|}}}</small>
 {{!}}-
 }}
@@ -168,7 +168,7 @@
 {{!}}-
 }}
 {{#if:{{{infraclassis|}}}|
-{{!}} Inferagacal:
+{{!}} Inferagacalka:
 {{!}} <span class="infraclass">{{{infraclassis}}}</span><br /><small>{{{infraclassis_authority|}}}</small>
 {{!}}-
 }}
@@ -178,32 +178,32 @@
 {{!}}-
 }}
 {{#if:{{{magnordo|}}}|
-{{!}} Magnodir:
+{{!}} Magnodirka:
 {{!}} <span class="magnorder">{{{magnordo}}}</span><br /><small>{{{magnordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{superordo|}}}|
-{{!}} Suberdir:
+{{!}} Suberdirka:
 {{!}} <span class="superorder">{{{superordo}}}</span><br /><small>{{{superordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{ordo|}}}|
-{{!}} Dir:
+{{!}} Dirka:
 {{!}} <span class="order">{{{ordo}}}</span><br /><small>{{{ordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{subordo|}}}|
-{{!}} Subdir:
+{{!}} Subdirka:
 {{!}} <span class="suborder">{{{subordo}}}</span><br /><small>{{{subordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{infraordo|}}}|
-{{!}} Inferadir:
+{{!}} Inferadirka:
 {{!}} <span class="infraorder">{{{infraordo}}}</span><br /><small>{{{infraordo_authority|}}}</small>
 {{!}}-
 }}
 {{#if:{{{parvordo|}}}|
-{{!}} Parfdir:
+{{!}} Barfodirka:
 {{!}} <span class="parvorder">{{{parvordo}}}</span><br /><small>{{{parvordo_authority|}}}</small>
 {{!}}-
 }}
@@ -233,7 +233,7 @@
 {{!}}-
 }}
 {{#if:{{{familia|}}}|
-{{!}} Bah:
+{{!}} Bahka:
 {{!}} <span class="family">{{{familia}}}</span><br /><small>{{{familia_authority|}}}</small>
 {{!}}-
 }}
@@ -253,7 +253,7 @@
 {{!}}-
 }}
 {{#if:{{{tribus|}}}|
-{{!}} Qabiil:
+{{!}} Qabiilka:
 {{!}} <span class="tribe">{{{tribus}}}</span><br /><small>{{{tribus_authority|}}}</small>
 {{!}}-
 }}
@@ -273,7 +273,7 @@
 {{!}}-
 }}
 {{#if:{{{genus|}}}|
-{{!}} Duul:
+{{!}} Duulka:
 {{!}} <span class="genus">{{{genus}}}</span><br /><small>{{{genus_authority|}}}</small>
 {{!}}-
 }}
