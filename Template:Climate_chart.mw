@@ -1,6 +1,6 @@
 <includeonly>{{#ifeq: {{lc:{{{units|}}}}}|imperial
 |<table style="width:19.2em;margin:0.5em;float:{{{float|none}}};clear:{{{clear|{{{float|none}}}}}};text-align:center;border:solid 1px silver" cellspacing=0 cellpadding=0>
-<tr><th colspan="12" style="padding:2px;">Weather chart for {{{1}}}</th></tr>
+<tr><th colspan="12" style="padding:2px;">Jaantuska cimilada ee {{{1}}}</th></tr>
 <tr><td>J</td><td>F</td><td>M</td><td>A</td><td>M</td><td>J</td><td>J</td><td>A</td><td>S</td><td>O</td><td>N</td><td>D</td></tr>
 <tr>
 <td>{{Climate chart/fahrenheit column i|{{{2}}}|{{{3}}}|{{{4}}}}}</td>
