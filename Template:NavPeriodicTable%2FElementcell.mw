@@ -25,7 +25,7 @@
 | #default = &#x23;000000;<!-- (input not recognised, propably an error-situation) -->
 }}; <!--
 -->{{#ifexpr:{{#ifeq:{{{mark|n}}}|{{{category|y}}}|1|0}}{{#ifeq:{{{mark|n}}}|{{{group|y}}}|1|0}}{{#ifeq:{{PAGENAME}}| {{template other|Infobox {{lc:{{{name|}}}}}|{{{link|{{{name}}}}}}}}|1|0}}| border:1px solid black; margin:-1px;}}"><!--
--->[[File:Transparent.gif|12px| link={{{link|{{{name|Chemical element}}}}}}{{!}}{{{name|Chemical element}}}&nbsp;({{lc:{{{category|unknown}}}}})]]<!--
+-->[[File:Pix.gif|12px| link={{{link|{{{name|Chemical element}}}}}}{{!}}{{{name|Chemical element}}}&nbsp;({{lc:{{{category|unknown}}}}})]]<!--
 --></div><noinclude>
 {{documentation}}
 </noinclude>
